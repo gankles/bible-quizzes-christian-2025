@@ -1,0 +1,56 @@
+name: bible-maximum
+region: nyc
+services:
+- name: web
+  source_dir: /
+  github:
+    repo: gankles/bible-quizzes-christian-2025
+    branch: main
+    deploy_on_push: true
+  build_command: npm run build
+  run_command: npm start
+  environment_slug: node-js
+  instance_count: 1
+  instance_size_slug: basic-xxs
+  http_port: 3000
+  routes:
+  - path: /
+  health_check:
+    http_path: /
+    initial_delay_seconds: 10
+    period_seconds: 10
+    timeout_seconds: 5
+    success_threshold: 1
+    failure_threshold: 3
+  env:
+  - key: NODE_ENV
+    value: production
+  - key: NEXT_TELEMETRY_DISABLED
+    value: "1"
+
+# Static assets (optional CDN optimization)
+static_sites: []
+
+# Database (uncomment when you need user accounts/progress tracking)
+# databases:
+# - name: bible-quiz-db
+#   engine: PG
+#   size: db-s-dev-database
+#   num_nodes: 1
+#   version: "14"
+
+# Domain configuration (add your custom domain here)
+domains: []
+# - domain: biblemaximum.com
+#   type: PRIMARY
+# - domain: www.biblemaximum.com  
+#   type: ALIAS
+
+# Environment variables for production
+# envs:
+# - key: DATABASE_URL
+#   scope: RUN_TIME
+#   type: SECRET
+# - key: NEXTAUTH_SECRET
+#   scope: RUN_TIME  
+#   type: SECRET
