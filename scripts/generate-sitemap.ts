@@ -21,36 +21,34 @@ for (const u of urls) {
 }
 
 // Generate sub-sitemaps, chunking large groups
-const sitemapNames: string[] = [];
+const chunks: { name: string; urls: SitemapUrl[] }[] = [];
 
 for (const [group, groupUrls] of Object.entries(grouped)) {
   if (groupUrls.length === 0) continue;
 
   if (groupUrls.length <= MAX_URLS_PER_SITEMAP) {
-    // Single sitemap for this group
-    const name = `sitemap-${group}.xml`;
-    fs.writeFileSync(path.join(PUBLIC_DIR, name), generateSitemapXml(groupUrls));
-    sitemapNames.push(name);
+    const name = `sitemap-${group}`;
+    fs.writeFileSync(path.join(PUBLIC_DIR, `${name}.xml`), generateSitemapXml(groupUrls));
+    chunks.push({ name, urls: groupUrls });
   } else {
-    // Split into chunks
     for (let i = 0; i < groupUrls.length; i += MAX_URLS_PER_SITEMAP) {
       const chunk = groupUrls.slice(i, i + MAX_URLS_PER_SITEMAP);
       const idx = Math.floor(i / MAX_URLS_PER_SITEMAP) + 1;
-      const name = `sitemap-${group}-${idx}.xml`;
-      fs.writeFileSync(path.join(PUBLIC_DIR, name), generateSitemapXml(chunk));
-      sitemapNames.push(name);
+      const name = `sitemap-${group}-${idx}`;
+      fs.writeFileSync(path.join(PUBLIC_DIR, `${name}.xml`), generateSitemapXml(chunk));
+      chunks.push({ name, urls: chunk });
     }
   }
 }
 
-// Write sitemap index
-const indexXml = generateSitemapIndex(sitemapNames);
+// Write sitemap index — each entry gets the latest lastmod from its chunk
+const indexXml = generateSitemapIndex(chunks);
 fs.writeFileSync(path.join(PUBLIC_DIR, 'sitemap.xml'), indexXml);
 
 // Stats
 console.log(`\nSitemap index: public/sitemap.xml`);
 console.log(`Total URLs: ${urls.length.toLocaleString()}`);
-console.log(`Sub-sitemaps: ${sitemapNames.length}\n`);
+console.log(`Sub-sitemaps: ${chunks.length}\n`);
 
 // Sort by URL count descending
 const stats = Object.entries(grouped)

@@ -386,12 +386,14 @@ ${urlEntries}
 }
 
 // Generate sitemap index XML pointing to sub-sitemaps
-export function generateSitemapIndex(items: string[] | SitemapChunk[]): string {
+// Each entry uses the latest lastmod from its chunk's URLs
+export function generateSitemapIndex(items: { name: string; urls: SitemapUrl[] }[]): string {
   const entries = items.map(item => {
-    const name = typeof item === 'string' ? item : `${item.name}.xml`;
+    const latest = item.urls.reduce((max, u) =>
+      u.lastModified > max ? u.lastModified : max, item.urls[0].lastModified);
     return `  <sitemap>
-    <loc>${baseUrl}/${name}</loc>
-    <lastmod>${now.toISOString()}</lastmod>
+    <loc>${baseUrl}/${item.name}.xml</loc>
+    <lastmod>${latest.toISOString()}</lastmod>
   </sitemap>`;
   }).join('\n');
 
