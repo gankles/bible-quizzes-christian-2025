@@ -13,7 +13,8 @@ interface PageProps {
 }
 
 export async function generateStaticParams() {
-  return getAllBibleNames().map(n => ({ name: n.slug }));
+  // 2.6K+ pages — generated on-demand via ISR, not at build time
+  return [];
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {

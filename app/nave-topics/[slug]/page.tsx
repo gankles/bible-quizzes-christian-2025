@@ -9,7 +9,8 @@ interface PageProps {
 }
 
 export async function generateStaticParams() {
-  return getAllNaveTopics().map(t => ({ slug: t.slug }));
+  // 5K+ pages — generated on-demand via ISR, not at build time
+  return [];
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {

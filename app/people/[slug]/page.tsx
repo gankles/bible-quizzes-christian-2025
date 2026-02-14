@@ -13,7 +13,8 @@ interface PageProps {
 }
 
 export async function generateStaticParams() {
-  return getAllPeople().map(p => ({ slug: p.slug }));
+  // 3K+ pages — generated on-demand via ISR, not at build time
+  return [];
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {

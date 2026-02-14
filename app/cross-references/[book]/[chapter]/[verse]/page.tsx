@@ -108,16 +108,8 @@ export async function generateMetadata({ params }: CrossRefPageProps): Promise<M
 }
 
 export async function generateStaticParams() {
-  const keys = getAllCrossReferenceKeys();
-  return keys.map((key) => {
-    const parsed = parseKey(key);
-    if (!parsed) return null;
-    return {
-      book: parsed.book,
-      chapter: String(parsed.chapter),
-      verse: String(parsed.verse),
-    };
-  }).filter(Boolean);
+  // 23K+ pages — generated on-demand via ISR, not at build time
+  return [];
 }
 
 export default async function CrossReferencePage({ params }: CrossRefPageProps) {

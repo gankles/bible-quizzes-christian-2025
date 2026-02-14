@@ -12,30 +12,8 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-    const combos: { slug: string; book: string }[] = []
-    const seen = new Set<string>()
-
-    for (const topic of topicsData.topics) {
-        if (!topic.verseRefs?.length) continue
-        const books = new Set<string>()
-        for (const ref of topic.verseRefs) {
-            // ref format: "genesis-1-1" — extract book slug
-            const parts = ref.split('-')
-            parts.pop() // verse
-            parts.pop() // chapter
-            const bookSlug = parts.join('-')
-            if (bookSlug) books.add(bookSlug)
-        }
-        for (const book of books) {
-            const key = `${topic.slug}:${book}`
-            if (!seen.has(key)) {
-                seen.add(key)
-                combos.push({ slug: topic.slug, book })
-            }
-        }
-    }
-
-    return combos
+    // 10K+ pages — generated on-demand via ISR, not at build time
+    return []
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

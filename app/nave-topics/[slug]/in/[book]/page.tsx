@@ -15,7 +15,8 @@ interface PageProps {
 }
 
 export async function generateStaticParams() {
-  return getAllNaveTopicBookCombos().map(c => ({ slug: c.topic, book: c.book }));
+  // 30K+ pages — generated on-demand via ISR, not at build time
+  return [];
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {

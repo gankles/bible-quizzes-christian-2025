@@ -80,13 +80,8 @@ export async function generateMetadata({ params }: ChapterPageProps): Promise<Me
 }
 
 export async function generateStaticParams() {
-  const params: { book: string; chapter: string }[] = [];
-  for (const book of BIBLE_BOOKS) {
-    for (let ch = 1; ch <= book.chapters; ch++) {
-      params.push({ book: book.slug, chapter: String(ch) });
-    }
-  }
-  return params;
+  // 1,189 pages each requiring external API call — generated on-demand via ISR
+  return [];
 }
 
 export default async function ChapterPage({ params }: ChapterPageProps) {

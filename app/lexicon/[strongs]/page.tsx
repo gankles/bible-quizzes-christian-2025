@@ -33,10 +33,8 @@ export async function generateMetadata({ params }: LexiconPageProps): Promise<Me
 }
 
 export async function generateStaticParams() {
-    const entries = await getAllLexiconEntries()
-    return entries.map((e: any) => ({
-        strongs: e.strongs
-    }))
+    // 27K+ pages — generated on-demand via ISR, not at build time
+    return []
 }
 
 export default async function LexiconDetailPage({ params }: LexiconPageProps) {
