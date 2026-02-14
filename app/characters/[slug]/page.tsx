@@ -1,7 +1,7 @@
 import { cache } from 'react';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getCharacter as _getCharacter, getCharacterCombination, trackPageView } from '@/lib/database/queries';
+import { getCharacter as _getCharacter, getCharacterCombination, getAllCharacters, trackPageView } from '@/lib/database/queries';
 
 const getCachedCharacter = cache(async (slug: string, includeVerses?: boolean) => {
     return _getCharacter(slug, includeVerses);
@@ -13,16 +13,20 @@ import { ClockIcon, UserGroupIcon, AcademicCapIcon, SparklesIcon, BoltIcon, User
 import Link from 'next/link';
 
 interface CharacterPageProps {
-    params: {
-        slug: string;
-    };
+    params: Promise<{ slug: string }>;
+}
+
+export async function generateStaticParams() {
+    const characters = await getAllCharacters();
+    return (characters || []).map((c: any) => ({ slug: c.slug }));
 }
 
 export async function generateMetadata({ params }: CharacterPageProps): Promise<Metadata> {
-    const isCombination = params.slug.includes('-and-');
+    const { slug } = await params;
+    const isCombination = slug.includes('-and-');
 
     if (isCombination) {
-        const parts = params.slug.split('-and-');
+        const parts = slug.split('-and-');
         const [name1, name2] = parts.map(p => p.charAt(0).toUpperCase() + p.slice(1).replace(/-/g, ' '));
         return {
             title: `${name1} and ${name2}: A Biblical Comparison & Study | Relationship, Shared History & Theological Significance | Bible Maximum`,
@@ -30,31 +34,32 @@ export async function generateMetadata({ params }: CharacterPageProps): Promise<
         };
     }
 
-    const character = await getCachedCharacter(params.slug);
+    const character = await getCachedCharacter(slug);
     if (!character) return {};
 
     return generatePageMetadata({
         type: 'character',
         data: character,
-        url: `/characters/${params.slug}`,
+        url: `/characters/${slug}`,
     });
 }
 
 export default async function CharacterDetailPage({ params }: CharacterPageProps) {
-    const isCombination = params.slug.includes('-and-');
+    const { slug } = await params;
+    const isCombination = slug.includes('-and-');
 
     if (isCombination) {
-        return <CharacterCombinationView slug={params.slug} />;
+        return <CharacterCombinationView slug={slug} />;
     }
 
-    const character = await getCachedCharacter(params.slug, true);
+    const character = await getCachedCharacter(slug, true);
 
     if (!character) {
         notFound();
     }
     // ... existing single character logic ...
 
-    const url = `/characters/${params.slug}`;
+    const url = `/characters/${slug}`;
     trackPageView(url, 'character').catch(err => console.error('Analytics error:', err));
 
     const schemas = generateSchema({
