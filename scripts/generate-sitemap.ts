@@ -2,12 +2,15 @@
 
 import fs from 'fs';
 import path from 'path';
-import { generateAllUrls, generateSitemapXml, generateSitemapIndex, SitemapUrl } from '../lib/sitemap-generator';
+import { generateAllUrls, generateSitemapXml, generateSitemapIndex, assignRealisticDates, SitemapUrl } from '../lib/sitemap-generator';
 
 const PUBLIC_DIR = path.join(process.cwd(), 'public');
 const MAX_URLS_PER_SITEMAP = 5000;
 
 const urls = generateAllUrls();
+
+// Assign gradually-spread lastmod dates per content group
+assignRealisticDates(urls);
 
 // Group URLs by their assigned group tag
 const grouped: Record<string, SitemapUrl[]> = {};

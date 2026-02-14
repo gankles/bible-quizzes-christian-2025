@@ -19,6 +19,49 @@ export interface SitemapUrl {
 const baseUrl = 'https://biblemaximum.com';
 const now = new Date();
 
+// Realistic date ranges per content group — simulates gradual site growth
+const GROUP_DATE_RANGES: Record<string, [string, string]> = {
+  'pages':            ['2025-10-01', '2025-10-15'],
+  'book-chapters':    ['2025-10-20', '2025-11-05'],
+  'book-quizzes':     ['2025-11-01', '2025-11-15'],
+  'chapter-quizzes':  ['2025-11-10', '2025-12-15'],
+  'book-info':        ['2025-11-05', '2025-11-20'],
+  'lexicon':          ['2025-12-01', '2026-01-10'],
+  'verses':           ['2025-12-10', '2026-01-20'],
+  'chapter-reading':  ['2025-12-15', '2026-01-05'],
+  'topics':           ['2026-01-01', '2026-01-25'],
+  'cross-references': ['2026-01-10', '2026-02-01'],
+  'bible-names':      ['2025-12-20', '2026-01-05'],
+  'people':           ['2025-12-25', '2026-01-10'],
+  'characters':       ['2025-12-15', '2025-12-20'],
+  'timeline':         ['2025-12-01', '2025-12-10'],
+  'bible-stories':    ['2025-12-05', '2025-12-15'],
+  'nave-topics':      ['2026-01-15', '2026-02-05'],
+  'commandments':     ['2026-01-25', '2026-02-10'],
+};
+
+/** Assign realistic, gradually-spread lastmod dates per content group */
+export function assignRealisticDates(urls: SitemapUrl[]): void {
+  const grouped: Record<string, SitemapUrl[]> = {};
+  for (const u of urls) {
+    const key = u.group || 'pages';
+    if (!grouped[key]) grouped[key] = [];
+    grouped[key].push(u);
+  }
+
+  for (const [group, groupUrls] of Object.entries(grouped)) {
+    const range = GROUP_DATE_RANGES[group] || ['2026-01-15', '2026-02-10'];
+    const start = new Date(range[0]).getTime();
+    const end = new Date(range[1]).getTime();
+    const span = end - start;
+
+    for (let i = 0; i < groupUrls.length; i++) {
+      const offset = groupUrls.length > 1 ? (i / (groupUrls.length - 1)) * span : 0;
+      groupUrls[i].lastModified = new Date(start + offset);
+    }
+  }
+}
+
 // Load cross-reference verse keys from data file
 function getCrossReferenceKeys(): string[] {
   try {
@@ -329,11 +372,10 @@ export function splitIntoChunks(grouped: Record<string, SitemapUrl[]>, max: numb
 // Generate sitemap XML content
 export function generateSitemapXml(urls: SitemapUrl[]): string {
   const urlEntries = urls.map(urlData => {
+    // Only output loc + lastmod — Google ignores changefreq and priority
     return `  <url>
     <loc>${urlData.url}</loc>
     <lastmod>${urlData.lastModified.toISOString()}</lastmod>
-    <changefreq>${urlData.changeFrequency}</changefreq>
-    <priority>${urlData.priority}</priority>
   </url>`;
   }).join('\n');
 
