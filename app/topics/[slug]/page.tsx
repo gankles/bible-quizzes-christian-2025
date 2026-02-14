@@ -13,17 +13,8 @@ import { getCrossPillarLinks, CrossPillarLink } from '@/lib/cross-pillar-links';
 import Link from 'next/link';
 
 export async function generateStaticParams() {
-    const popularSlugs = [
-        'prayer', 'faith', 'love', 'hope', 'forgiveness', 'grace', 'salvation',
-        'peace', 'joy', 'trust', 'strength', 'wisdom', 'healing', 'marriage',
-        'fear', 'anxiety', 'death', 'heaven', 'hell', 'sin', 'repentance',
-        'worship', 'tithing', 'fasting', 'patience', 'humility', 'obedience',
-        'baptism', 'holy-spirit', 'jesus', 'god', 'anger', 'depression',
-        'loneliness', 'money', 'work', 'children', 'family', 'friendship',
-        'temptation', 'pride', 'jealousy', 'contentment', 'gratitude',
-        'courage', 'kindness', 'mercy', 'compassion', 'justice', 'truth',
-    ];
-    return popularSlugs.map(slug => ({ slug }));
+    // Generated on-demand via ISR — avoids Bolls API calls during build
+    return [];
 }
 
 interface TopicPageProps {

@@ -38,8 +38,8 @@ export async function generateMetadata({ params }: ConceptPageProps): Promise<Me
 }
 
 export async function generateStaticParams() {
-    const concepts = await getAllLexiconConcepts();
-    return concepts.map((c: any) => ({ slug: c.slug }));
+    // Generated on-demand via ISR
+    return [];
 }
 
 export default async function ConceptStudyPage({ params }: ConceptPageProps) {

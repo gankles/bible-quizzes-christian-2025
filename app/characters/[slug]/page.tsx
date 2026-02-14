@@ -17,8 +17,8 @@ interface CharacterPageProps {
 }
 
 export async function generateStaticParams() {
-    const characters = await getAllCharacters();
-    return (characters || []).map((c: any) => ({ slug: c.slug }));
+    // Generated on-demand via ISR — avoids API calls during build
+    return [];
 }
 
 export async function generateMetadata({ params }: CharacterPageProps): Promise<Metadata> {

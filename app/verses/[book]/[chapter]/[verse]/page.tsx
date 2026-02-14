@@ -113,20 +113,8 @@ export async function generateMetadata({ params }: VersePageProps): Promise<Meta
 }
 
 export async function generateStaticParams() {
-  const popularVerses = [
-    { book: 'john', chapter: '3', verse: '16' },
-    { book: 'genesis', chapter: '1', verse: '1' },
-    { book: 'psalms', chapter: '23', verse: '1' },
-    { book: 'romans', chapter: '8', verse: '28' },
-    { book: 'philippians', chapter: '4', verse: '13' },
-    { book: 'jeremiah', chapter: '29', verse: '11' },
-    { book: 'proverbs', chapter: '3', verse: '5' },
-    { book: 'isaiah', chapter: '40', verse: '31' },
-    { book: 'matthew', chapter: '28', verse: '19' },
-    { book: 'romans', chapter: '3', verse: '23' },
-  ];
-  
-  return popularVerses;
+  // Generated on-demand via ISR — avoids Bolls API calls during build
+  return [];
 }
 
 export default async function VersePage({ params }: VersePageProps) {
