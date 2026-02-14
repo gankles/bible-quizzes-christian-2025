@@ -24,8 +24,8 @@ export async function GET(
     // Split into chunks of 5000 URLs max
     const chunks = splitIntoChunks(groupedUrls, 5000);
 
-    // Find the requested sitemap
-    const requestedSitemap = chunks.find(chunk => chunk.name === slug);
+    // Find the requested sitemap (chunk names have "sitemap-" prefix, slug doesn't)
+    const requestedSitemap = chunks.find(chunk => chunk.name === `sitemap-${slug}`);
 
     if (!requestedSitemap) {
       return new NextResponse('Sitemap not found', { status: 404 });
