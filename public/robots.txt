@@ -11,8 +11,9 @@ Allow: /chapter-quizzes
 Allow: /old-testament-quizzes
 Allow: /new-testament-quizzes
 
-# Allow CSS, JS, fonts, and images for proper rendering
+# Allow CSS, JS, fonts, images, and optimized images for proper rendering
 Allow: /_next/static/
+Allow: /_next/image
 
 # Disallow non-content paths
 Disallow: /api/
