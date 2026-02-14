@@ -1,0 +1,603 @@
+{
+  "id": "exodus-book-quiz",
+  "title": "Exodus Quiz - Complete Book",
+  "description": "Test your comprehensive knowledge of the entire book of Exodus with 25 questions covering key events, people, and teachings from all 40 chapters.",
+  "type": "book",
+  "book": "Exodus",
+  "questions": [
+    {
+      "id": "exodus-bq-1",
+      "question": "Who was the brother of Moses that helped him in leading the Israelites out of Egypt?",
+      "type": "multiple-choice",
+      "options": [
+        "Aaron",
+        "Joshua",
+        "Phinehas",
+        "Caleb"
+      ],
+      "correctAnswer": "Aaron",
+      "explanation": "Aaron was Moses' brother and spokesman who assisted him in confronting Pharaoh and leading the people.",
+      "verseReference": "Exodus 4:14",
+      "difficulty": "easy"
+    },
+    {
+      "id": "exodus-bq-2",
+      "question": "What was the first plague that God sent upon Egypt?",
+      "type": "multiple-choice",
+      "options": [
+        "Water turned to blood",
+        "Frogs",
+        "Locusts",
+        "Darkness"
+      ],
+      "correctAnswer": "Water turned to blood",
+      "explanation": "God turned the waters of Egypt into blood as the first plague to show His power.",
+      "verseReference": "Exodus 7:20",
+      "difficulty": "easy"
+    },
+    {
+      "id": "exodus-bq-3",
+      "question": "True or False: The Hebrew midwives obeyed Pharaoh’s command to kill all newborn Hebrew boys.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "The midwives feared God and did not kill the Hebrew boys as Pharaoh commanded.",
+      "verseReference": "Exodus 1:17",
+      "difficulty": "easy"
+    },
+    {
+      "id": "exodus-bq-4",
+      "question": "Complete this verse: \"And the LORD said unto Moses, I AM THAT I AM: and he said, Thus shalt thou say unto the children of Israel, ___ hath sent me unto you.\"",
+      "type": "fill-blank",
+      "options": [
+        "Jehovah",
+        "I AM",
+        "God",
+        "The LORD"
+      ],
+      "correctAnswer": "I AM",
+      "explanation": "God identifies Himself as 'I AM THAT I AM' in this verse to Moses.",
+      "verseReference": "Exodus 3:14",
+      "difficulty": "easy"
+    },
+    {
+      "id": "exodus-bq-5",
+      "question": "What did God command the Israelites to sprinkle on their doorposts during the first Passover?",
+      "type": "multiple-choice",
+      "options": [
+        "Water",
+        "Blood of a lamb",
+        "Oil",
+        "Ashes"
+      ],
+      "correctAnswer": "Blood of a lamb",
+      "explanation": "The Israelites were to put the blood of a lamb on their doorposts to be spared from the death of the firstborn.",
+      "verseReference": "Exodus 12:7",
+      "difficulty": "easy"
+    },
+    {
+      "id": "exodus-bq-6",
+      "question": "Which sea did the Israelites cross when escaping from Egypt?",
+      "type": "multiple-choice",
+      "options": [
+        "Dead Sea",
+        "Red Sea",
+        "Mediterranean Sea",
+        "Sea of Galilee"
+      ],
+      "correctAnswer": "Red Sea",
+      "explanation": "God parted the Red Sea to allow the Israelites to escape Pharaoh’s army.",
+      "verseReference": "Exodus 14:21",
+      "difficulty": "easy"
+    },
+    {
+      "id": "exodus-bq-7",
+      "question": "True or False: Moses struck the rock at Horeb to bring forth water for the Israelites.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Moses was commanded to speak to the rock but instead struck it to bring water.",
+      "verseReference": "Exodus 17:6",
+      "difficulty": "easy"
+    },
+    {
+      "id": "exodus-bq-8",
+      "question": "Who was the father-in-law of Moses?",
+      "type": "multiple-choice",
+      "options": [
+        "Jethro",
+        "Eleazar",
+        "Amram",
+        "Phinehas"
+      ],
+      "correctAnswer": "Jethro",
+      "explanation": "Jethro was the priest of Midian and Moses’ father-in-law.",
+      "verseReference": "Exodus 3:1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "exodus-bq-9",
+      "question": "Complete this verse: \"Thou shalt have no other gods before ___.\"",
+      "type": "fill-blank",
+      "options": [
+        "the LORD",
+        "me",
+        "God",
+        "Yahweh"
+      ],
+      "correctAnswer": "me",
+      "explanation": "This is the first of the Ten Commandments given to Moses on Mount Sinai.",
+      "verseReference": "Exodus 20:3",
+      "difficulty": "easy"
+    },
+    {
+      "id": "exodus-bq-10",
+      "question": "What was the purpose of the golden calf that the Israelites made?",
+      "type": "multiple-choice",
+      "options": [
+        "An idol to worship",
+        "A gift for Moses",
+        "A symbol of God's presence",
+        "A tool for sacrifice"
+      ],
+      "correctAnswer": "An idol to worship",
+      "explanation": "While Moses was on Mount Sinai, the Israelites made and worshipped a golden calf idol.",
+      "verseReference": "Exodus 32:4",
+      "difficulty": "easy"
+    },
+    {
+      "id": "exodus-bq-11",
+      "question": "True or False: The LORD instructed Moses to wear a veil after speaking with God because his face shone.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Moses' face shone after being with God, so he wore a veil to cover it.",
+      "verseReference": "Exodus 34:33",
+      "difficulty": "easy"
+    },
+    {
+      "id": "exodus-bq-12",
+      "question": "Which mountain did God use to give Moses the Ten Commandments?",
+      "type": "multiple-choice",
+      "options": [
+        "Mount Sinai",
+        "Mount Ararat",
+        "Mount Carmel",
+        "Mount Moriah"
+      ],
+      "correctAnswer": "Mount Sinai",
+      "explanation": "God gave Moses the Ten Commandments on Mount Sinai.",
+      "verseReference": "Exodus 19:20",
+      "difficulty": "easy"
+    },
+    {
+      "id": "exodus-bq-13",
+      "question": "How long did the thick darkness last over Egypt during the ninth plague?",
+      "type": "multiple-choice",
+      "options": [
+        "One day",
+        "Three days",
+        "Seven days",
+        "Ten days"
+      ],
+      "correctAnswer": "Three days",
+      "explanation": "There was a palpable darkness over Egypt for three days as a plague.",
+      "verseReference": "Exodus 10:22-23",
+      "difficulty": "easy"
+    },
+    {
+      "id": "exodus-bq-14",
+      "question": "True or False: Pharaoh immediately let the Israelites go after the first plague.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "Pharaoh repeatedly hardened his heart and refused to let the Israelites go after the initial plagues.",
+      "verseReference": "Exodus 7:22",
+      "difficulty": "easy"
+    },
+    {
+      "id": "exodus-bq-15",
+      "question": "What was made from the breastplate worn by Aaron as the high priest?",
+      "type": "multiple-choice",
+      "options": [
+        "Precious stones representing tribes",
+        "Bronze scales",
+        "Silver chains",
+        "Golden bells"
+      ],
+      "correctAnswer": "Precious stones representing tribes",
+      "explanation": "The breastplate contained twelve stones representing the twelve tribes of Israel.",
+      "verseReference": "Exodus 28:17-21",
+      "difficulty": "easy"
+    },
+    {
+      "id": "exodus-bq-16",
+      "question": "Who was appointed as priests alongside Aaron?",
+      "type": "multiple-choice",
+      "options": [
+        "Nadab and Abihu",
+        "Phinehas and Eleazar",
+        "Caleb and Joshua",
+        "Miriam and Zipporah"
+      ],
+      "correctAnswer": "Nadab and Abihu",
+      "explanation": "Aaron’s sons Nadab and Abihu were also consecrated as priests.",
+      "verseReference": "Exodus 28:1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "exodus-bq-17",
+      "question": "What was the sign God gave Moses to prove his authority before Pharaoh?",
+      "type": "multiple-choice",
+      "options": [
+        "Rod turning into a serpent",
+        "Water turning into wine",
+        "Fire from heaven",
+        "Parting the sea"
+      ],
+      "correctAnswer": "Rod turning into a serpent",
+      "explanation": "God instructed Moses to cast down his rod, which became a serpent as a sign.",
+      "verseReference": "Exodus 4:3",
+      "difficulty": "medium"
+    },
+    {
+      "id": "exodus-bq-18",
+      "question": "True or False: The Israelites celebrated the Passover every year to remember their deliverance from Egypt.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "God commanded the Passover as an annual remembrance of their redemption.",
+      "verseReference": "Exodus 12:14",
+      "difficulty": "medium"
+    },
+    {
+      "id": "exodus-bq-19",
+      "question": "What did God use to guide the Israelites by day during their journey from Egypt?",
+      "type": "multiple-choice",
+      "options": [
+        "Pillar of cloud",
+        "Pillar of fire",
+        "Angel of the LORD",
+        "Rainbow"
+      ],
+      "correctAnswer": "Pillar of cloud",
+      "explanation": "God led the Israelites by a pillar of cloud during the day.",
+      "verseReference": "Exodus 13:21",
+      "difficulty": "medium"
+    },
+    {
+      "id": "exodus-bq-20",
+      "question": "Complete this verse: \"Honor thy father and thy ___: that thy days may be long upon the land which the LORD thy God giveth thee.\"",
+      "type": "fill-blank",
+      "options": [
+        "mother",
+        "brother",
+        "neighbor",
+        "king"
+      ],
+      "correctAnswer": "mother",
+      "explanation": "This is the fifth commandment emphasizing respect for parents.",
+      "verseReference": "Exodus 20:12",
+      "difficulty": "medium"
+    },
+    {
+      "id": "exodus-bq-21",
+      "question": "Which plague caused all the firstborn in Egypt to die?",
+      "type": "multiple-choice",
+      "options": [
+        "Death of the firstborn",
+        "Locusts",
+        "Hail",
+        "Boils"
+      ],
+      "correctAnswer": "Death of the firstborn",
+      "explanation": "The tenth and final plague was the death of every firstborn in Egypt.",
+      "verseReference": "Exodus 12:29",
+      "difficulty": "medium"
+    },
+    {
+      "id": "exodus-bq-22",
+      "question": "True or False: Moses' sister Miriam led the women in song after crossing the Red Sea.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Miriam led the women with timbrels and singing to praise God’s deliverance.",
+      "verseReference": "Exodus 15:20-21",
+      "difficulty": "medium"
+    },
+    {
+      "id": "exodus-bq-23",
+      "question": "What was the substance used to make the bricks for Pharaoh’s treasure cities?",
+      "type": "multiple-choice",
+      "options": [
+        "Clay and straw",
+        "Mud and stones",
+        "Sand and water",
+        "Wood and clay"
+      ],
+      "correctAnswer": "Clay and straw",
+      "explanation": "The Israelites were forced to make bricks using clay mixed with straw.",
+      "verseReference": "Exodus 1:14",
+      "difficulty": "medium"
+    },
+    {
+      "id": "exodus-bq-24",
+      "question": "Who was the Egyptian king who ruled during the Israelites' bondage?",
+      "type": "multiple-choice",
+      "options": [
+        "Pharaoh",
+        "Nebuchadnezzar",
+        "Sargon",
+        "Cyrus"
+      ],
+      "correctAnswer": "Pharaoh",
+      "explanation": "The term 'Pharaoh' refers to the Egyptian king during this period.",
+      "verseReference": "Exodus 1:8",
+      "difficulty": "medium"
+    },
+    {
+      "id": "exodus-bq-25",
+      "question": "True or False: God told Moses to sanctify the people and have them wash their clothes before He would come down on Mount Sinai.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "God commanded purification before His appearance on the mountain.",
+      "verseReference": "Exodus 19:10",
+      "difficulty": "medium"
+    },
+    {
+      "id": "exodus-bq-26",
+      "question": "What did God instruct Moses to build as a dwelling place among the Israelites?",
+      "type": "multiple-choice",
+      "options": [
+        "Tabernacle",
+        "Temple",
+        "Altar",
+        "Synagogue"
+      ],
+      "correctAnswer": "Tabernacle",
+      "explanation": "God gave Moses instructions to build the Tabernacle as a portable sanctuary.",
+      "verseReference": "Exodus 25:8",
+      "difficulty": "medium"
+    },
+    {
+      "id": "exodus-bq-27",
+      "question": "Complete this verse: \"And Moses said unto the LORD, O my Lord, I am not eloquent, neither heretofore, nor since thou hast spoken unto thy servant: but I am slow of ___.\"",
+      "type": "fill-blank",
+      "options": [
+        "tongue",
+        "heart",
+        "mind",
+        "speech"
+      ],
+      "correctAnswer": "tongue",
+      "explanation": "Moses expressed his difficulty in speaking eloquently to God.",
+      "verseReference": "Exodus 4:10",
+      "difficulty": "medium"
+    },
+    {
+      "id": "exodus-bq-28",
+      "question": "During the plague of hail, what did God say would not be harmed if they were inside their houses?",
+      "type": "multiple-choice",
+      "options": [
+        "Those in the land of Goshen",
+        "Pharaoh's servants",
+        "The cattle",
+        "The Israelites"
+      ],
+      "correctAnswer": "Those in the land of Goshen",
+      "explanation": "The land of Goshen, where Israelites lived, was spared from the hail.",
+      "verseReference": "Exodus 9:26",
+      "difficulty": "medium"
+    },
+    {
+      "id": "exodus-bq-29",
+      "question": "True or False: Moses' rod was used to bring forth water from the rock at Horeb.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "Moses struck the rock with his rod at Rephidim to bring water, not Horeb.",
+      "verseReference": "Exodus 17:6",
+      "difficulty": "medium"
+    },
+    {
+      "id": "exodus-bq-30",
+      "question": "Who was instructed to take a census of the Levites to serve in the Tabernacle?",
+      "type": "multiple-choice",
+      "options": [
+        "Moses",
+        "Aaron",
+        "Eleazar",
+        "Joshua"
+      ],
+      "correctAnswer": "Eleazar",
+      "explanation": "Eleazar the priest was to oversee the Levites’ service.",
+      "verseReference": "Exodus 38:21",
+      "difficulty": "medium"
+    },
+    {
+      "id": "exodus-bq-31",
+      "question": "True or False: God hardened Pharaoh's heart so that He might show His signs and wonders in Egypt.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "God hardened Pharaoh's heart to display His power through the plagues.",
+      "verseReference": "Exodus 10:1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "exodus-bq-32",
+      "question": "What covering was placed over the Ark of the Covenant?",
+      "type": "multiple-choice",
+      "options": [
+        "Mercy seat",
+        "Altar cloth",
+        "Veil",
+        "Golden lid"
+      ],
+      "correctAnswer": "Mercy seat",
+      "explanation": "The mercy seat was the gold cover placed on the Ark.",
+      "verseReference": "Exodus 25:17-21",
+      "difficulty": "medium"
+    },
+    {
+      "id": "exodus-bq-33",
+      "question": "Which tribe was chosen to be priests?",
+      "type": "multiple-choice",
+      "options": [
+        "Levi",
+        "Judah",
+        "Benjamin",
+        "Ephraim"
+      ],
+      "correctAnswer": "Levi",
+      "explanation": "The tribe of Levi was set apart for priestly duties.",
+      "verseReference": "Exodus 28:1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "exodus-bq-34",
+      "question": "True or False: The Israelites built two cities named Pithom and Raamses for Pharaoh.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "The Israelites built these treasure cities under Egyptian oppression.",
+      "verseReference": "Exodus 1:11",
+      "difficulty": "hard"
+    },
+    {
+      "id": "exodus-bq-35",
+      "question": "What did Moses do when he first saw the burning bush?",
+      "type": "multiple-choice",
+      "options": [
+        "Turned aside to see",
+        "Ran away",
+        "Called for Aaron",
+        "Ignored it"
+      ],
+      "correctAnswer": "Turned aside to see",
+      "explanation": "Moses turned aside to observe the bush that burned but was not consumed.",
+      "verseReference": "Exodus 3:3",
+      "difficulty": "hard"
+    },
+    {
+      "id": "exodus-bq-36",
+      "question": "What was the reaction of Pharaoh when Moses first requested to let the Israelites go?",
+      "type": "multiple-choice",
+      "options": [
+        "He refused and made their burdens heavier",
+        "He immediately let them go",
+        "He laughed",
+        "He consulted with his advisors"
+      ],
+      "correctAnswer": "He refused and made their burdens heavier",
+      "explanation": "Pharaoh refused and increased the Israelites' labor.",
+      "verseReference": "Exodus 5:9",
+      "difficulty": "hard"
+    },
+    {
+      "id": "exodus-bq-37",
+      "question": "Complete this verse: \"Thou shalt not take the name of the LORD thy God in ___.\"",
+      "type": "fill-blank",
+      "options": [
+        "vain",
+        "truth",
+        "prayer",
+        "anger"
+      ],
+      "correctAnswer": "vain",
+      "explanation": "This is one of the Ten Commandments forbidding misuse of God’s name.",
+      "verseReference": "Exodus 20:7",
+      "difficulty": "hard"
+    },
+    {
+      "id": "exodus-bq-38",
+      "question": "True or False: The high priest's garments included a breastplate, ephod, robe, coat, mitre, and girdle.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "These were the sacred garments made for Aaron to minister as high priest.",
+      "verseReference": "Exodus 28:4",
+      "difficulty": "hard"
+    },
+    {
+      "id": "exodus-bq-39",
+      "question": "What did the Israelites eat in the wilderness that God provided?",
+      "type": "multiple-choice",
+      "options": [
+        "Manna",
+        "Quail",
+        "Bread",
+        "Fish"
+      ],
+      "correctAnswer": "Manna",
+      "explanation": "God provided manna, a bread-like substance, for the Israelites.",
+      "verseReference": "Exodus 16:15",
+      "difficulty": "hard"
+    },
+    {
+      "id": "exodus-bq-40",
+      "question": "Who was the scribe that wrote down the covenant after it was given?",
+      "type": "multiple-choice",
+      "options": [
+        "Moses",
+        "Joshua",
+        "Aaron",
+        "Eleazar"
+      ],
+      "correctAnswer": "Moses",
+      "explanation": "Moses wrote down all the words of the covenant as commanded by God.",
+      "verseReference": "Exodus 24:4",
+      "difficulty": "hard"
+    },
+    {
+      "id": "exodus-bq-41",
+      "question": "True or False: The Israelites had to wash their clothes and be ready on the third day for God's appearance on Mount Sinai.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "God instructed them to sanctify themselves and be ready by the third day.",
+      "verseReference": "Exodus 19:10-11",
+      "difficulty": "hard"
+    },
+    {
+      "id": "exodus-bq-42",
+      "question": "What did God tell Moses to do with the tablets of stone when he saw the Israelites worshipping the golden calf?",
+      "type": "multiple-choice",
+      "options": [
+        "Break them",
+        "Hide them",
+        "Throw them in the fire",
+        "Give them to Aaron"
+      ],
+      "correctAnswer": "Break them",
+      "explanation": "Moses broke the tablets in anger over Israel’s idolatry.",
+      "verseReference": "Exodus 32:19",
+      "difficulty": "hard"
+    },
+    {
+      "id": "exodus-bq-43",
+      "question": "True or False: Moses was allowed to enter the Promised Land.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "Moses was not allowed to enter the land because of his disobedience.",
+      "verseReference": "Deuteronomy 34:4 (Note: While this is outside Exodus, the fact is implied in the narrative.)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "exodus-bq-44",
+      "question": "What was the main theme of the book of Exodus?",
+      "type": "multiple-choice",
+      "options": [
+        "Deliverance and covenant",
+        "Creation and fall",
+        "Kingship of Israel",
+        "Prophecy of Messiah"
+      ],
+      "correctAnswer": "Deliverance and covenant",
+      "explanation": "Exodus focuses on Israel’s deliverance from Egypt and the covenant with God.",
+      "verseReference": "Exodus 6:6-7",
+      "difficulty": "hard"
+    }
+  ],
+  "difficulty": "medium",
+  "isBookQuiz": true,
+  "slug": "exodus-quiz",
+  "tags": [
+    "exodus",
+    "exodus",
+    "book quiz",
+    "comprehensive",
+    "bible quiz"
+  ],
+  "totalQuestions": 44,
+  "estimatedTime": 33
+}

@@ -1,0 +1,624 @@
+{
+  "id": "genesis-book-quiz",
+  "title": "Genesis Quiz - Complete Book",
+  "description": "Test your comprehensive knowledge of the entire book of Genesis with 25 questions covering key events, people, and teachings from all 50 chapters.",
+  "type": "book",
+  "book": "Genesis",
+  "questions": [
+    {
+      "id": "genesis-bq-1",
+      "question": "Who created the heaven and the earth?",
+      "type": "multiple-choice",
+      "options": [
+        "God",
+        "Moses",
+        "Noah",
+        "Abraham"
+      ],
+      "correctAnswer": "God",
+      "explanation": "Genesis 1:1 states that God created the heaven and the earth in the beginning.",
+      "verseReference": "Genesis 1:1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "genesis-bq-2",
+      "question": "On which day did God create light?",
+      "type": "multiple-choice",
+      "options": [
+        "First day",
+        "Second day",
+        "Third day",
+        "Fourth day"
+      ],
+      "correctAnswer": "First day",
+      "explanation": "God said, 'Let there be light,' and it was so on the first day.",
+      "verseReference": "Genesis 1:3-5",
+      "difficulty": "easy"
+    },
+    {
+      "id": "genesis-bq-3",
+      "question": "According to Genesis 1:27, in whose image was man created?",
+      "type": "multiple-choice",
+      "options": [
+        "God's image",
+        "Angel's image",
+        "Animal's image",
+        "No image"
+      ],
+      "correctAnswer": "God's image",
+      "explanation": "Man was created in the image of God, male and female.",
+      "verseReference": "Genesis 1:27",
+      "difficulty": "easy"
+    },
+    {
+      "id": "genesis-bq-4",
+      "question": "What command did God give to Adam and Eve regarding the fruit of the tree of knowledge?",
+      "type": "multiple-choice",
+      "options": [
+        "Do not eat of it",
+        "Eat freely from it",
+        "Share it with others",
+        "Plant more trees"
+      ],
+      "correctAnswer": "Do not eat of it",
+      "explanation": "God commanded Adam that he should not eat of the tree of knowledge of good and evil.",
+      "verseReference": "Genesis 2:17",
+      "difficulty": "easy"
+    },
+    {
+      "id": "genesis-bq-5",
+      "question": "What was the serpent's role in the Garden of Eden?",
+      "type": "multiple-choice",
+      "options": [
+        "Tempted Eve to eat the forbidden fruit",
+        "Protected the garden",
+        "Served as a pet",
+        "Was a tree"
+      ],
+      "correctAnswer": "Tempted Eve to eat the forbidden fruit",
+      "explanation": "The serpent deceived Eve to eat the fruit from the tree of knowledge.",
+      "verseReference": "Genesis 3:1-6",
+      "difficulty": "easy"
+    },
+    {
+      "id": "genesis-bq-6",
+      "question": "What punishment did God give to Eve after the fall?",
+      "type": "multiple-choice",
+      "options": [
+        "Increased pain in childbirth",
+        "Loss of eyesight",
+        "Exile from the garden",
+        "No punishment"
+      ],
+      "correctAnswer": "Increased pain in childbirth",
+      "explanation": "God said to Eve, 'I will greatly multiply thy sorrow and thy conception; in sorrow thou shalt bring forth children.'",
+      "verseReference": "Genesis 3:16",
+      "difficulty": "easy"
+    },
+    {
+      "id": "genesis-bq-7",
+      "question": "True or False: Cain killed his brother Abel out of jealousy.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Cain killed Abel because God accepted Abel's offering but not his.",
+      "verseReference": "Genesis 4:8",
+      "difficulty": "easy"
+    },
+    {
+      "id": "genesis-bq-8",
+      "question": "Who was the first man to build a city according to Genesis?",
+      "type": "multiple-choice",
+      "options": [
+        "Cain",
+        "Seth",
+        "Noah",
+        "Lamech"
+      ],
+      "correctAnswer": "Cain",
+      "explanation": "Cain built a city and named it after his son Enoch.",
+      "verseReference": "Genesis 4:17",
+      "difficulty": "easy"
+    },
+    {
+      "id": "genesis-bq-9",
+      "question": "How long did Methuselah live according to the genealogy in Genesis?",
+      "type": "multiple-choice",
+      "options": [
+        "969 years",
+        "777 years",
+        "600 years",
+        "120 years"
+      ],
+      "correctAnswer": "969 years",
+      "explanation": "Methuselah lived 969 years, the longest recorded in the Bible.",
+      "verseReference": "Genesis 5:27",
+      "difficulty": "easy"
+    },
+    {
+      "id": "genesis-bq-10",
+      "question": "What was the reason God decided to destroy the earth with a flood?",
+      "type": "multiple-choice",
+      "options": [
+        "The earth was corrupt and full of violence",
+        "The earth was dry and barren",
+        "The earth was too crowded",
+        "The earth was too cold"
+      ],
+      "correctAnswer": "The earth was corrupt and full of violence",
+      "explanation": "God saw that the wickedness of man was great and that every imagination of the thoughts of his heart was only evil continually.",
+      "verseReference": "Genesis 6:11-13",
+      "difficulty": "easy"
+    },
+    {
+      "id": "genesis-bq-11",
+      "question": "True or False: Noah took seven pairs of every clean animal onto the ark.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Noah was commanded to take seven pairs of every clean animal and one pair of every unclean animal.",
+      "verseReference": "Genesis 7:2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "genesis-bq-12",
+      "question": "How long did the floodwaters prevail on the earth?",
+      "type": "multiple-choice",
+      "options": [
+        "150 days",
+        "40 days",
+        "7 days",
+        "100 days"
+      ],
+      "correctAnswer": "150 days",
+      "explanation": "The waters prevailed upon the earth 150 days before they began to recede.",
+      "verseReference": "Genesis 7:24",
+      "difficulty": "easy"
+    },
+    {
+      "id": "genesis-bq-13",
+      "question": "What sign did God give Noah as a covenant that He would never again destroy the earth by flood?",
+      "type": "multiple-choice",
+      "options": [
+        "Rainbow",
+        "Dove",
+        "Burning bush",
+        "Thunder"
+      ],
+      "correctAnswer": "Rainbow",
+      "explanation": "God set the rainbow in the cloud as a token of the everlasting covenant.",
+      "verseReference": "Genesis 9:13-17",
+      "difficulty": "easy"
+    },
+    {
+      "id": "genesis-bq-14",
+      "question": "Who was the father of Abram (Abraham)?",
+      "type": "multiple-choice",
+      "options": [
+        "Terah",
+        "Nahor",
+        "Lot",
+        "Isaac"
+      ],
+      "correctAnswer": "Terah",
+      "explanation": "Terah was the father of Abram, Nahor, and Haran.",
+      "verseReference": "Genesis 11:26",
+      "difficulty": "easy"
+    },
+    {
+      "id": "genesis-bq-15",
+      "question": "True or False: Abram was called by God to leave his country and go to a land that God would show him.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "God commanded Abram to leave his country and go to the land He would show him.",
+      "verseReference": "Genesis 12:1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "genesis-bq-16",
+      "question": "What was the name of Abram's wife?",
+      "type": "multiple-choice",
+      "options": [
+        "Sarai",
+        "Rebekah",
+        "Rachel",
+        "Leah"
+      ],
+      "correctAnswer": "Sarai",
+      "explanation": "Abram's wife was named Sarai, later renamed Sarah by God.",
+      "verseReference": "Genesis 12:5",
+      "difficulty": "medium"
+    },
+    {
+      "id": "genesis-bq-17",
+      "question": "What did Abram do when he arrived in the land of Canaan?",
+      "type": "multiple-choice",
+      "options": [
+        "Built an altar and called on the name of the LORD",
+        "Built a city",
+        "Fought the local kings",
+        "Moved on immediately"
+      ],
+      "correctAnswer": "Built an altar and called on the name of the LORD",
+      "explanation": "Abram built an altar to the LORD in Canaan and called upon His name.",
+      "verseReference": "Genesis 12:7-8",
+      "difficulty": "medium"
+    },
+    {
+      "id": "genesis-bq-18",
+      "question": "True or False: Abram lied about Sarai being his sister to Pharaoh in Egypt.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Abram said Sarai was his sister, and Pharaoh took her into his house.",
+      "verseReference": "Genesis 12:11-13",
+      "difficulty": "medium"
+    },
+    {
+      "id": "genesis-bq-19",
+      "question": "Who was Lot in relation to Abram?",
+      "type": "multiple-choice",
+      "options": [
+        "Nephew",
+        "Brother",
+        "Son",
+        "Friend"
+      ],
+      "correctAnswer": "Nephew",
+      "explanation": "Lot was the son of Haran, Abram's brother, making him Abram's nephew.",
+      "verseReference": "Genesis 11:27-31",
+      "difficulty": "medium"
+    },
+    {
+      "id": "genesis-bq-20",
+      "question": "Why did Abram and Lot separate?",
+      "type": "multiple-choice",
+      "options": [
+        "Their herdsmen quarreled and the land could not support both",
+        "They had different faiths",
+        "They wanted to explore new lands",
+        "They disagreed over inheritance"
+      ],
+      "correctAnswer": "Their herdsmen quarreled and the land could not support both",
+      "explanation": "The land could not bear them dwelling together because their substance was great and their herdsmen quarreled.",
+      "verseReference": "Genesis 13:6-9",
+      "difficulty": "medium"
+    },
+    {
+      "id": "genesis-bq-21",
+      "question": "Which land did Lot choose when he separated from Abram?",
+      "type": "multiple-choice",
+      "options": [
+        "The plain of Jordan",
+        "Canaan",
+        "Egypt",
+        "Haran"
+      ],
+      "correctAnswer": "The plain of Jordan",
+      "explanation": "Lot chose all the plain of Jordan, which was well watered like the garden of the LORD.",
+      "verseReference": "Genesis 13:10-11",
+      "difficulty": "medium"
+    },
+    {
+      "id": "genesis-bq-22",
+      "question": "True or False: God promised Abram that his seed would be as the dust of the earth and inherit the land he saw.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "God promised Abram that his seed would be numerous as the dust and inherit the land.",
+      "verseReference": "Genesis 13:14-16",
+      "difficulty": "medium"
+    },
+    {
+      "id": "genesis-bq-23",
+      "question": "What covenant did God establish with Abram in Genesis 15?",
+      "type": "multiple-choice",
+      "options": [
+        "He promised Abram numerous descendants and the land from the river of Egypt to the Euphrates",
+        "He promised Abram wealth and kingship",
+        "He promised Abram immediate victory over enemies",
+        "He promised Abram eternal life"
+      ],
+      "correctAnswer": "He promised Abram numerous descendants and the land from the river of Egypt to the Euphrates",
+      "explanation": "God made a covenant promising Abram heirs as numerous as the stars and the land from the river of Egypt to Euphrates.",
+      "verseReference": "Genesis 15:5-21",
+      "difficulty": "medium"
+    },
+    {
+      "id": "genesis-bq-24",
+      "question": "What was the original name of Abraham's wife before God changed it?",
+      "type": "multiple-choice",
+      "options": [
+        "Sarai",
+        "Rebekah",
+        "Rachel",
+        "Leah"
+      ],
+      "correctAnswer": "Sarai",
+      "explanation": "Sarai was renamed Sarah by God as part of the covenant.",
+      "verseReference": "Genesis 17:15",
+      "difficulty": "medium"
+    },
+    {
+      "id": "genesis-bq-25",
+      "question": "True or False: Abraham laughed when God told him Sarah would bear a son.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Abraham laughed at the idea of having a son by Sarah in their old age.",
+      "verseReference": "Genesis 17:17",
+      "difficulty": "medium"
+    },
+    {
+      "id": "genesis-bq-26",
+      "question": "What was the name of Abraham and Sarah's son?",
+      "type": "multiple-choice",
+      "options": [
+        "Isaac",
+        "Ishmael",
+        "Jacob",
+        "Esau"
+      ],
+      "correctAnswer": "Isaac",
+      "explanation": "God promised Abraham and Sarah a son named Isaac.",
+      "verseReference": "Genesis 17:19",
+      "difficulty": "medium"
+    },
+    {
+      "id": "genesis-bq-27",
+      "question": "Who was Hagar in relation to Abraham?",
+      "type": "multiple-choice",
+      "options": [
+        "Sarah’s handmaid and mother of Ishmael",
+        "Abraham’s wife",
+        "Abraham’s sister",
+        "A prophetess"
+      ],
+      "correctAnswer": "Sarah’s handmaid and mother of Ishmael",
+      "explanation": "Hagar was Sarah’s Egyptian handmaid who bore Ishmael to Abraham.",
+      "verseReference": "Genesis 16:1-4",
+      "difficulty": "medium"
+    },
+    {
+      "id": "genesis-bq-28",
+      "question": "True or False: Ishmael was the son of Abraham and Hagar.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Ishmael was born to Abraham and Hagar.",
+      "verseReference": "Genesis 16:15",
+      "difficulty": "medium"
+    },
+    {
+      "id": "genesis-bq-29",
+      "question": "What test did God give Abraham involving his son Isaac?",
+      "type": "multiple-choice",
+      "options": [
+        "To offer Isaac as a burnt offering",
+        "To send Isaac away",
+        "To marry Isaac to Rebekah",
+        "To build an altar with Isaac"
+      ],
+      "correctAnswer": "To offer Isaac as a burnt offering",
+      "explanation": "God asked Abraham to offer Isaac as a burnt offering, testing his faith.",
+      "verseReference": "Genesis 22:2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "genesis-bq-30",
+      "question": "True or False: Abraham obeyed God and was willing to sacrifice Isaac.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Abraham showed obedience by preparing to sacrifice Isaac as God commanded.",
+      "verseReference": "Genesis 22:10-12",
+      "difficulty": "medium"
+    },
+    {
+      "id": "genesis-bq-31",
+      "question": "Who was Isaac's wife?",
+      "type": "multiple-choice",
+      "options": [
+        "Rebekah",
+        "Rachel",
+        "Leah",
+        "Sarah"
+      ],
+      "correctAnswer": "Rebekah",
+      "explanation": "Isaac married Rebekah, the daughter of Bethuel.",
+      "verseReference": "Genesis 24:67",
+      "difficulty": "medium"
+    },
+    {
+      "id": "genesis-bq-32",
+      "question": "How were Esau and Jacob related?",
+      "type": "multiple-choice",
+      "options": [
+        "Twin brothers",
+        "Father and son",
+        "Uncle and nephew",
+        "Friends"
+      ],
+      "correctAnswer": "Twin brothers",
+      "explanation": "Esau and Jacob were twin brothers born to Isaac and Rebekah.",
+      "verseReference": "Genesis 25:24-26",
+      "difficulty": "medium"
+    },
+    {
+      "id": "genesis-bq-33",
+      "question": "True or False: Esau sold his birthright to Jacob for a meal of lentils.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Esau despised his birthright and sold it to Jacob for food.",
+      "verseReference": "Genesis 25:29-34",
+      "difficulty": "medium"
+    },
+    {
+      "id": "genesis-bq-34",
+      "question": "What was Jacob's dream at Bethel?",
+      "type": "multiple-choice",
+      "options": [
+        "A ladder reaching to heaven with angels ascending and descending",
+        "A burning bush",
+        "A giant fish",
+        "A flood of water"
+      ],
+      "correctAnswer": "A ladder reaching to heaven with angels ascending and descending",
+      "explanation": "Jacob dreamed of a ladder set up on earth reaching to heaven with angels.",
+      "verseReference": "Genesis 28:12-15",
+      "difficulty": "hard"
+    },
+    {
+      "id": "genesis-bq-35",
+      "question": "Who did Jacob work for to marry Rachel?",
+      "type": "multiple-choice",
+      "options": [
+        "Laban",
+        "Pharaoh",
+        "Esau",
+        "Abraham"
+      ],
+      "correctAnswer": "Laban",
+      "explanation": "Jacob served Laban for seven years to marry Rachel.",
+      "verseReference": "Genesis 29:18-20",
+      "difficulty": "hard"
+    },
+    {
+      "id": "genesis-bq-36",
+      "question": "True or False: Jacob was deceived into marrying Leah before Rachel.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Laban gave Leah to Jacob by night before he gave Rachel.",
+      "verseReference": "Genesis 29:23-25",
+      "difficulty": "hard"
+    },
+    {
+      "id": "genesis-bq-37",
+      "question": "How many sons did Jacob have?",
+      "type": "multiple-choice",
+      "options": [
+        "Twelve",
+        "Ten",
+        "Eight",
+        "Fourteen"
+      ],
+      "correctAnswer": "Twelve",
+      "explanation": "Jacob had twelve sons who became the tribes of Israel.",
+      "verseReference": "Genesis 35:22-26",
+      "difficulty": "hard"
+    },
+    {
+      "id": "genesis-bq-38",
+      "question": "What special coat did Joseph receive from his father Jacob?",
+      "type": "multiple-choice",
+      "options": [
+        "A coat of many colors",
+        "A plain wool coat",
+        "A leather armor",
+        "A royal robe"
+      ],
+      "correctAnswer": "A coat of many colors",
+      "explanation": "Jacob loved Joseph and gave him a coat of many colors.",
+      "verseReference": "Genesis 37:3",
+      "difficulty": "hard"
+    },
+    {
+      "id": "genesis-bq-39",
+      "question": "True or False: Joseph's brothers were jealous of him because of their father's favoritism.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Joseph was loved more and his brothers hated him for it.",
+      "verseReference": "Genesis 37:4",
+      "difficulty": "hard"
+    },
+    {
+      "id": "genesis-bq-40",
+      "question": "What dreams did Joseph have that angered his brothers?",
+      "type": "multiple-choice",
+      "options": [
+        "Dreams where his brothers' sheaves bowed to his sheaf and the sun, moon, and stars bowed to him",
+        "Dreams of becoming king of Egypt",
+        "Dreams of a flood",
+        "Dreams of animals fighting"
+      ],
+      "correctAnswer": "Dreams where his brothers' sheaves bowed to his sheaf and the sun, moon, and stars bowed to him",
+      "explanation": "Joseph dreamed that his family would bow down to him, increasing their hatred.",
+      "verseReference": "Genesis 37:6-10",
+      "difficulty": "hard"
+    },
+    {
+      "id": "genesis-bq-41",
+      "question": "Who sold Joseph into slavery?",
+      "type": "multiple-choice",
+      "options": [
+        "His brothers",
+        "Pharaoh",
+        "Potiphar",
+        "Laban"
+      ],
+      "correctAnswer": "His brothers",
+      "explanation": "Joseph's brothers sold him to Midianite traders.",
+      "verseReference": "Genesis 37:28",
+      "difficulty": "hard"
+    },
+    {
+      "id": "genesis-bq-42",
+      "question": "True or False: Joseph was taken to Egypt after being sold by his brothers.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Joseph was sold to Midianites who took him to Egypt.",
+      "verseReference": "Genesis 37:36",
+      "difficulty": "hard"
+    },
+    {
+      "id": "genesis-bq-43",
+      "question": "Complete this verse: 'In the beginning God created the ____ and the earth.'",
+      "type": "fill-blank",
+      "options": [
+        "heaven",
+        "sea",
+        "mountain",
+        "man"
+      ],
+      "correctAnswer": "heaven",
+      "explanation": "The verse states God created the heaven and the earth.",
+      "verseReference": "Genesis 1:1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "genesis-bq-44",
+      "question": "Complete this verse: 'And God said, Let us make man in our ____ , after our likeness.'",
+      "type": "fill-blank",
+      "options": [
+        "image",
+        "power",
+        "glory",
+        "strength"
+      ],
+      "correctAnswer": "image",
+      "explanation": "God created man in His image and likeness.",
+      "verseReference": "Genesis 1:26",
+      "difficulty": "hard"
+    },
+    {
+      "id": "genesis-bq-45",
+      "question": "Complete this verse: 'And the LORD said unto Abram, After that Lot was separated from thee, Lift up now thine eyes, and look from the place where thou art ____ , and southward, and eastward, and westward.'",
+      "type": "fill-blank",
+      "options": [
+        "northward",
+        "upward",
+        "downward",
+        "forward"
+      ],
+      "correctAnswer": "northward",
+      "explanation": "God told Abram to look northward and in all directions.",
+      "verseReference": "Genesis 13:14",
+      "difficulty": "hard"
+    }
+  ],
+  "difficulty": "medium",
+  "isBookQuiz": true,
+  "slug": "genesis-quiz",
+  "tags": [
+    "genesis",
+    "genesis",
+    "book quiz",
+    "comprehensive",
+    "bible quiz"
+  ],
+  "totalQuestions": 45,
+  "estimatedTime": 34
+}

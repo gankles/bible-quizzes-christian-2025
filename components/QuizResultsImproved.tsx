@@ -2,6 +2,7 @@
 
 import { Quiz, QuizResult } from '@/lib/types';
 import { generateImprovedRelatedLinks } from '@/lib/improved-interlinks';
+import { getVerseReferenceUrl, getCrossRefPageUrl } from '@/lib/verse-ref-utils';
 import { CheckCircleIcon, XMarkIcon, ArrowLeftIcon, ArrowRightIcon, BookOpenIcon, UserIcon, LinkIcon, StarIcon } from './icons';
 import Link from 'next/link';
 
@@ -153,10 +154,29 @@ export default function QuizResultsImproved({ quiz, result, onRetake }: QuizResu
                         <span className="text-gray-600">{question.explanation}</span>
                       </div>
                       
-                      <div>
-                        <span className="font-medium text-gray-700">Reference: </span>
-                        <span className="text-blue-600">{question.verseReference}</span>
-                      </div>
+                      {question.verseReference && (
+                        <div className="flex items-center flex-wrap gap-x-3 gap-y-1">
+                          <span className="font-medium text-gray-700">Reference: </span>
+                          {(() => {
+                            const verseUrl = getVerseReferenceUrl(question.verseReference);
+                            const crossRefUrl = getCrossRefPageUrl(question.verseReference);
+                            return verseUrl ? (
+                              <>
+                                <Link href={verseUrl} className="text-blue-600 hover:underline font-medium">
+                                  {question.verseReference}
+                                </Link>
+                                {crossRefUrl && (
+                                  <Link href={crossRefUrl} className="text-xs text-purple-600 hover:underline">
+                                    Cross-references
+                                  </Link>
+                                )}
+                              </>
+                            ) : (
+                              <span className="text-blue-600">{question.verseReference}</span>
+                            );
+                          })()}
+                        </div>
+                      )}
                     </div>
                   </div>
                 </div>

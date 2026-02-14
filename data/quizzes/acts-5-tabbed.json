@@ -1,0 +1,983 @@
+{
+  "id": "acts-5-tabbed",
+  "title": "Acts Chapter 5 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Acts chapter 5 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "acts-5-easy",
+      "title": "Acts Chapter 5 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Acts Chapter 5.",
+      "type": "chapter",
+      "book": "Acts",
+      "chapter": 5,
+      "questions": [
+        {
+          "id": "acts-5-easy-q1",
+          "question": "Who sold a possession and kept back part of the price with his wife's knowledge?",
+          "type": "multiple-choice",
+          "options": [
+            "Ananias",
+            "Peter",
+            "Gamaliel",
+            "Theudas"
+          ],
+          "correctAnswer": "Ananias",
+          "explanation": "Acts 5:1-2 states that Ananias, with Sapphira his wife, sold a possession but kept back part of the price.",
+          "verseReference": "Acts 5:1-2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-5-easy-q2",
+          "question": "What did Peter say had filled Ananias' heart when he lied about the price of the land?",
+          "type": "multiple-choice",
+          "options": [
+            "Satan",
+            "The Holy Ghost",
+            "The high priest",
+            "Fear"
+          ],
+          "correctAnswer": "Satan",
+          "explanation": "In Acts 5:3, Peter said Satan had filled Ananias' heart to lie to the Holy Ghost.",
+          "verseReference": "Acts 5:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-5-easy-q3",
+          "question": "What happened to Ananias after Peter confronted him about lying?",
+          "type": "multiple-choice",
+          "options": [
+            "He fell down and died",
+            "He fled the city",
+            "He repented",
+            "He was imprisoned"
+          ],
+          "correctAnswer": "He fell down and died",
+          "explanation": "Acts 5:5 records that Ananias fell down and gave up the ghost after hearing Peter's words.",
+          "verseReference": "Acts 5:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-5-easy-q4",
+          "question": "How long after Ananias' death did his wife Sapphira come in, not knowing what had happened?",
+          "type": "multiple-choice",
+          "options": [
+            "About three hours",
+            "One day",
+            "One hour",
+            "Immediately"
+          ],
+          "correctAnswer": "About three hours",
+          "explanation": "Acts 5:7 says it was about three hours later when Sapphira came in, unaware of what had happened.",
+          "verseReference": "Acts 5:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-5-easy-q5",
+          "question": "What was Sapphira's response when Peter asked if she had sold the land for the stated price?",
+          "type": "multiple-choice",
+          "options": [
+            "She said yes",
+            "She refused to answer",
+            "She said no",
+            "She remained silent"
+          ],
+          "correctAnswer": "She said yes",
+          "explanation": "Acts 5:8 records Sapphira replying 'Yea' when asked by Peter whether they had sold the land for the amount stated.",
+          "verseReference": "Acts 5:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-5-easy-q6",
+          "question": "What happened to Sapphira after she lied to Peter?",
+          "type": "multiple-choice",
+          "options": [
+            "She fell down and died",
+            "She was forgiven",
+            "She fled",
+            "She was imprisoned"
+          ],
+          "correctAnswer": "She fell down and died",
+          "explanation": "Acts 5:10 describes that Sapphira fell down and yielded up the ghost immediately after Peter's rebuke.",
+          "verseReference": "Acts 5:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-5-easy-q7",
+          "question": "What effect did the deaths of Ananias and Sapphira have on the church and those who heard about it?",
+          "type": "multiple-choice",
+          "options": [
+            "Great fear",
+            "Joy",
+            "Indifference",
+            "Anger"
+          ],
+          "correctAnswer": "Great fear",
+          "explanation": "Acts 5:11 states that great fear came upon all the church and all who heard these things.",
+          "verseReference": "Acts 5:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-5-easy-q8",
+          "question": "Where were many signs and wonders performed by the apostles?",
+          "type": "multiple-choice",
+          "options": [
+            "Solomon's porch",
+            "The temple mount",
+            "The marketplace",
+            "The synagogue"
+          ],
+          "correctAnswer": "Solomon's porch",
+          "explanation": "Acts 5:12 mentions that many signs and wonders were wrought among the people in Solomon's porch.",
+          "verseReference": "Acts 5:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-5-easy-q9",
+          "question": "What did people do with the sick so that even Peter's shadow might overshadow them?",
+          "type": "multiple-choice",
+          "options": [
+            "Brought them into the streets on beds and couches",
+            "Took them to the temple",
+            "Left them at home",
+            "Healed them immediately"
+          ],
+          "correctAnswer": "Brought them into the streets on beds and couches",
+          "explanation": "Acts 5:15 states that the sick were brought into the streets and laid on beds and couches so Peter's shadow might overshadow some.",
+          "verseReference": "Acts 5:15",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-5-easy-q10",
+          "question": "Who was filled with indignation and put the apostles into the common prison?",
+          "type": "multiple-choice",
+          "options": [
+            "The high priest and Sadducees",
+            "The Pharisees",
+            "The Romans",
+            "The disciples"
+          ],
+          "correctAnswer": "The high priest and Sadducees",
+          "explanation": "Acts 5:17-18 tells that the high priest and those with him, the Sadducees, were filled with indignation and imprisoned the apostles.",
+          "verseReference": "Acts 5:17-18",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-5-easy-q11",
+          "question": "How did the apostles get out of prison?",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Acts 5:19 says an angel of the Lord opened the prison doors by night and brought the apostles out.",
+          "verseReference": "Acts 5:19",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-5-easy-q12",
+          "question": "True or False: The officers found the apostles still inside the prison when they came to bring them to the council.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Acts 5:22-23 states that when the officers opened the prison, they found no one inside.",
+          "verseReference": "Acts 5:22-23",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-5-easy-q13",
+          "question": "True or False: Peter and the apostles said they ought to obey men rather than God.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Acts 5:29 records Peter and the apostles saying they ought to obey God rather than men.",
+          "verseReference": "Acts 5:29",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-5-easy-q14",
+          "question": "Complete this verse from Acts 5:30: 'The God of our fathers raised up Jesus, whom ye ______ and hanged on a tree.'",
+          "type": "fill-blank",
+          "options": [
+            "slew",
+            "loved",
+            "praised",
+            "followed"
+          ],
+          "correctAnswer": "slew",
+          "explanation": "Acts 5:30 states that Jesus was raised up by God, whom the people slew and hanged on a tree.",
+          "verseReference": "Acts 5:30",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-5-easy-q15",
+          "question": "Who advised the council to be cautious about killing the apostles, saying if their work was of God, it could not be overthrown?",
+          "type": "multiple-choice",
+          "options": [
+            "Gamaliel",
+            "The high priest",
+            "Peter",
+            "Ananias"
+          ],
+          "correctAnswer": "Gamaliel",
+          "explanation": "Acts 5:34-39 tells that Gamaliel, a Pharisee and doctor of the law, gave this advice to the council.",
+          "verseReference": "Acts 5:34-39",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "acts-5-quiz",
+      "tags": [
+        "acts",
+        "chapter-5",
+        "acts",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "acts-5-medium",
+      "title": "Acts Chapter 5 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Acts Chapter 5 to real-life situations.",
+      "type": "chapter",
+      "book": "Acts",
+      "chapter": 5,
+      "questions": [
+        {
+          "id": "acts-5-medium-q1",
+          "question": "How does the story of Ananias and Sapphira in Acts 5 teach us about honesty and integrity in giving?",
+          "type": "multiple-choice",
+          "options": [
+            "We should give honestly and not lie about our gifts",
+            "It is acceptable to keep part of our possessions secret",
+            "We should give only when asked by the church",
+            "Giving is optional and not important"
+          ],
+          "correctAnswer": "We should give honestly and not lie about our gifts",
+          "explanation": "Acts 5:1-11 shows Ananias and Sapphira lied about the price of land they sold, leading to severe consequences. This teaches the importance of honesty and integrity in giving (Acts 5:3, Acts 5:4, Acts 5:9).",
+          "verseReference": "Acts 5:1-11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-5-medium-q2",
+          "question": "A fellow believer is struggling with fear after witnessing a harsh judgment in the church. Based on Acts 5, what biblical truth would you share about God's holiness and fear?",
+          "type": "multiple-choice",
+          "options": [
+            "The fear of God brings reverence and growth in the church",
+            "Fear should be avoided at all costs in spiritual matters",
+            "God does not care about sin in the church",
+            "Judgment is only for non-believers"
+          ],
+          "correctAnswer": "The fear of God brings reverence and growth in the church",
+          "explanation": "Acts 5:5 and Acts 5:11 tell us that great fear came upon the church after Ananias and Sapphira's deaths, indicating that reverent fear of God promotes holiness and community growth (Acts 5:5, Acts 5:11).",
+          "verseReference": "Acts 5:5, Acts 5:11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-5-medium-q3",
+          "question": "What does Acts 5 teach about perseverance in witnessing despite opposition?",
+          "type": "multiple-choice",
+          "options": [
+            "We should continue teaching and preaching Jesus despite persecution",
+            "We should stop witnessing when facing opposition",
+            "Only speak about Jesus in private",
+            "Avoid conflict by not discussing faith"
+          ],
+          "correctAnswer": "We should continue teaching and preaching Jesus despite persecution",
+          "explanation": "Acts 5:40-42 shows the apostles rejoiced after being beaten and continued daily teaching and preaching Jesus, demonstrating perseverance in faith and witness despite trials (Acts 5:40-42).",
+          "verseReference": "Acts 5:40-42",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-5-medium-q4",
+          "question": "How does the passage teach about the role of the Holy Spirit in guiding believers to obey God rather than men?",
+          "type": "multiple-choice",
+          "options": [
+            "The Holy Spirit empowers believers to obey God even when it conflicts with human authority",
+            "Believers should always obey human leaders over God",
+            "The Holy Spirit only works through church leaders",
+            "Obedience to God is optional"
+          ],
+          "correctAnswer": "The Holy Spirit empowers believers to obey God even when it conflicts with human authority",
+          "explanation": "Acts 5:29-32 highlights Peter and the apostles' obedience to God over human authority, empowered by the Holy Spirit, who testifies to those who obey God (Acts 5:29-32).",
+          "verseReference": "Acts 5:29-32",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-5-medium-q5",
+          "question": "A believer wonders how to respond to spiritual opposition and imprisonment for their faith. What example does Acts 5 provide?",
+          "type": "multiple-choice",
+          "options": [
+            "Trust God to deliver and continue boldly speaking His word",
+            "Give up if imprisoned",
+            "Avoid speaking about faith to stay safe",
+            "Only pray silently without public witness"
+          ],
+          "correctAnswer": "Trust God to deliver and continue boldly speaking His word",
+          "explanation": "Acts 5:18-21 shows the apostles were imprisoned but God sent an angel to free them and commanded them to continue speaking boldly in the temple (Acts 5:18-21).",
+          "verseReference": "Acts 5:18-21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-5-medium-q6",
+          "question": "How does Acts 5 encourage generosity and stewardship in the church community?",
+          "type": "multiple-choice",
+          "options": [
+            "Believers shared possessions and laid proceeds at the apostles' feet",
+            "Each person kept everything for themselves",
+            "Giving was discouraged",
+            "Only the apostles handled all the money"
+          ],
+          "correctAnswer": "Believers shared possessions and laid proceeds at the apostles' feet",
+          "explanation": "Acts 5:1-2 illustrates early believers selling possessions and bringing the proceeds to the apostles, demonstrating communal generosity and stewardship (Acts 5:1-2).",
+          "verseReference": "Acts 5:1-2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-5-medium-q7",
+          "question": "What biblical principle about humility and contentment can be learned from the early church's unity in Acts 5?",
+          "type": "multiple-choice",
+          "options": [
+            "Being of one accord promotes humility and contentment",
+            "Pride and division are acceptable in the church",
+            "Each person should pursue their own interests first",
+            "Contentment is unimportant in community"
+          ],
+          "correctAnswer": "Being of one accord promotes humility and contentment",
+          "explanation": "Acts 5:12 states the believers were all with one accord in Solomon's porch, showing the importance of unity, humility, and contentment in fellowship (Acts 5:12).",
+          "verseReference": "Acts 5:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-5-medium-q8",
+          "question": "True or False: According to Acts 5, the apostles ceased to teach publicly after being beaten by authorities.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Acts 5:40-42 tells us that even after being beaten, the apostles rejoiced and continued teaching daily in the temple and homes, showing perseverance and boldness (Acts 5:40-42).",
+          "verseReference": "Acts 5:40-42",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-5-medium-q9",
+          "question": "True or False: The high priest and council were confident that imprisoning the apostles would stop their teaching about Jesus.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Acts 5:22-25 reveals the apostles were found teaching in the temple despite imprisonment, showing the council's expectation was unmet (Acts 5:22-25).",
+          "verseReference": "Acts 5:22-25",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-5-medium-q10",
+          "question": "How does Acts 5 show the importance of prayer and spiritual discipline in healing and serving others?",
+          "type": "multiple-choice",
+          "options": [
+            "The apostles performed signs and wonders through the power of the Holy Spirit",
+            "Healing was done only by doctors",
+            "Sick people were ignored by the believers",
+            "Healing was based on wealth"
+          ],
+          "correctAnswer": "The apostles performed signs and wonders through the power of the Holy Spirit",
+          "explanation": "Acts 5:12-16 describes many signs and wonders performed by the apostles, resulting in healing and deliverance, showing the power of prayer and spiritual discipline (Acts 5:12-16).",
+          "verseReference": "Acts 5:12-16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-5-medium-q11",
+          "question": "A believer is tempted to lie for personal gain. Based on Acts 5, what biblical teaching should be shared?",
+          "type": "multiple-choice",
+          "options": [
+            "Lying to God leads to serious consequences",
+            "Lying is acceptable if no one finds out",
+            "Deception is not important in the church",
+            "Truthfulness is optional"
+          ],
+          "correctAnswer": "Lying to God leads to serious consequences",
+          "explanation": "Acts 5:3-5 shows that Ananias lied to the Holy Spirit and faced immediate death, emphasizing the seriousness of honesty before God (Acts 5:3-5).",
+          "verseReference": "Acts 5:3-5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-5-medium-q12",
+          "question": "According to Acts 5, what attitude should believers have when suffering shame or persecution for Christ?",
+          "type": "multiple-choice",
+          "options": [
+            "Rejoice for being counted worthy",
+            "Be angry and seek revenge",
+            "Give up on faith",
+            "Hide from others"
+          ],
+          "correctAnswer": "Rejoice for being counted worthy",
+          "explanation": "Acts 5:41 states the apostles departed rejoicing that they were considered worthy to suffer shame for Jesus' name, showing joy in persecution (Acts 5:41).",
+          "verseReference": "Acts 5:41",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-5-medium-q13",
+          "question": "How does Acts 5 illustrate the importance of being witnesses to Jesus Christ in daily life?",
+          "type": "multiple-choice",
+          "options": [
+            "The apostles taught daily in the temple and houses about Jesus",
+            "Witnessing was only done on special occasions",
+            "Only certain apostles were witnesses",
+            "Witnessing was discouraged by the church"
+          ],
+          "correctAnswer": "The apostles taught daily in the temple and houses about Jesus",
+          "explanation": "Acts 5:42 emphasizes the apostles never ceased to teach and preach Jesus Christ daily, modeling consistent witness (Acts 5:42).",
+          "verseReference": "Acts 5:42",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-5-medium-q14",
+          "question": "Fill in the blank: Gamaliel advised the council to __________ the apostles because if their work was of God, it could not be overthrown.",
+          "type": "fill-blank",
+          "options": [
+            "let alone",
+            "arrest",
+            "ignore",
+            "punish"
+          ],
+          "correctAnswer": "let alone",
+          "explanation": "Acts 5:38-39 records Gamaliel's counsel to leave the apostles alone, recognizing that if their work was from God, opposition would fail (Acts 5:38-39).",
+          "verseReference": "Acts 5:38-39",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-5-medium-q15",
+          "question": "What does Acts 5 teach about the importance of obedience to God over human authorities?",
+          "type": "multiple-choice",
+          "options": [
+            "Obedience to God takes precedence over men",
+            "Always obey men even if it contradicts God",
+            "Disobedience to God is acceptable",
+            "Obedience is only for certain situations"
+          ],
+          "correctAnswer": "Obedience to God takes precedence over men",
+          "explanation": "Acts 5:29 shows the apostles declared that they must obey God rather than men, highlighting the primacy of divine obedience (Acts 5:29).",
+          "verseReference": "Acts 5:29",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "acts-5-quiz",
+      "tags": [
+        "acts",
+        "chapter-5",
+        "acts",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "acts-5-hard",
+      "title": "Acts Chapter 5 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Acts Chapter 5.",
+      "type": "chapter",
+      "book": "Acts",
+      "chapter": 5,
+      "questions": [
+        {
+          "id": "acts-5-hard-q1",
+          "question": "What was the sin committed by Ananias and Sapphira as described in Acts 5?",
+          "type": "multiple-choice",
+          "options": [
+            "Lying to the Holy Ghost about the sale price of their land",
+            "Stealing from the temple treasury",
+            "Refusing to sell their land for the community",
+            "Blaspheming against the apostles"
+          ],
+          "correctAnswer": "Lying to the Holy Ghost about the sale price of their land",
+          "explanation": "Peter accused Ananias of lying to the Holy Ghost by keeping back part of the price while pretending to give all (Acts 5:3-4).",
+          "verseReference": "Acts 5:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-hard-q2",
+          "question": "How did God demonstrate His judgment on Ananias and Sapphira in Acts 5?",
+          "type": "multiple-choice",
+          "options": [
+            "They both fell dead immediately after lying",
+            "They were expelled from the church",
+            "They were struck with blindness",
+            "They lost all their possessions"
+          ],
+          "correctAnswer": "They both fell dead immediately after lying",
+          "explanation": "Both Ananias and Sapphira fell down and died after lying about the sale price, showing divine judgment (Acts 5:5, 10).",
+          "verseReference": "Acts 5:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-hard-q3",
+          "question": "What was the reaction of the church and those who heard about the deaths of Ananias and Sapphira?",
+          "type": "multiple-choice",
+          "options": [
+            "Great fear came upon them",
+            "They rejoiced in their faithfulness",
+            "They questioned Peter's authority",
+            "They demanded justice for the couple"
+          ],
+          "correctAnswer": "Great fear came upon them",
+          "explanation": "The text states that great fear came on all the church and those who heard the events (Acts 5:11).",
+          "verseReference": "Acts 5:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-hard-q4",
+          "question": "In Acts 5, what role do the apostles perform among the people, as evidenced by the miracles?",
+          "type": "multiple-choice",
+          "options": [
+            "Performing signs and wonders through their hands",
+            "Leading a political rebellion",
+            "Writing new scriptures",
+            "Building a new temple"
+          ],
+          "correctAnswer": "Performing signs and wonders through their hands",
+          "explanation": "The apostles wrought many signs and wonders by their hands among the people (Acts 5:12).",
+          "verseReference": "Acts 5:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-hard-q5",
+          "question": "What cultural significance is implied by people laying the sick out in the streets hoping for Peter's shadow to pass over them?",
+          "type": "multiple-choice",
+          "options": [
+            "Belief in the power of a holy person's presence to heal",
+            "Fear of public exposure and shame",
+            "Customary practice of public healing ceremonies",
+            "Astrological significance of shadows"
+          ],
+          "correctAnswer": "Belief in the power of a holy person's presence to heal",
+          "explanation": "The practice reflects a cultural belief that proximity to a holy person, even by shadow, could bring healing (Acts 5:15).",
+          "verseReference": "Acts 5:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-hard-q6",
+          "question": "Who opposed the apostles and had them imprisoned, according to Acts 5?",
+          "type": "multiple-choice",
+          "options": [
+            "The high priest and the Sadducees",
+            "The Pharisees",
+            "The Roman governor",
+            "The Essenes"
+          ],
+          "correctAnswer": "The high priest and the Sadducees",
+          "explanation": "The high priest and those with him, identified as Sadducees, took indignation and imprisoned the apostles (Acts 5:17-18).",
+          "verseReference": "Acts 5:17-18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-hard-q7",
+          "question": "How were the apostles freed from prison according to Acts 5?",
+          "type": "multiple-choice",
+          "options": [
+            "An angel of the Lord opened the prison doors by night",
+            "The prison guards released them secretly",
+            "The apostles escaped through a tunnel",
+            "The crowd rescued them"
+          ],
+          "correctAnswer": "An angel of the Lord opened the prison doors by night",
+          "explanation": "An angel of the Lord opened the prison doors and brought the apostles out (Acts 5:19).",
+          "verseReference": "Acts 5:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-hard-q8",
+          "question": "What instruction did the angel give to the apostles after delivering them from prison?",
+          "type": "multiple-choice",
+          "options": [
+            "Go stand and speak in the temple to the people all the words of this life",
+            "Flee Jerusalem and preach in other cities",
+            "Hide and wait for further instructions",
+            "Appeal to the Sanhedrin for mercy"
+          ],
+          "correctAnswer": "Go stand and speak in the temple to the people all the words of this life",
+          "explanation": "The angel commanded the apostles to stand and speak in the temple all the words of this life (Acts 5:20).",
+          "verseReference": "Acts 5:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-hard-q9",
+          "question": "What was the response of the high priest and council when the apostles were found teaching in the temple after their escape?",
+          "type": "multiple-choice",
+          "options": [
+            "They brought them before the council, fearing public backlash",
+            "They welcomed their teaching",
+            "They ignored their presence",
+            "They immediately executed them"
+          ],
+          "correctAnswer": "They brought them before the council, fearing public backlash",
+          "explanation": "They brought the apostles before the council without violence because they feared the people (Acts 5:26).",
+          "verseReference": "Acts 5:26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-hard-q10",
+          "question": "What was the apostles' defense when commanded not to teach in Jesus' name?",
+          "type": "multiple-choice",
+          "options": [
+            "We ought to obey God rather than men",
+            "We have no choice but to obey your commands",
+            "We will stop teaching but only in private",
+            "We deny any wrongdoing"
+          ],
+          "correctAnswer": "We ought to obey God rather than men",
+          "explanation": "Peter and the apostles declared they must obey God rather than men (Acts 5:29).",
+          "verseReference": "Acts 5:29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-hard-q11",
+          "question": "According to Peter's speech in Acts 5, who raised up Jesus after his death?",
+          "type": "multiple-choice",
+          "options": [
+            "The God of our fathers",
+            "The Roman authorities",
+            "The apostles themselves",
+            "The Pharisees"
+          ],
+          "correctAnswer": "The God of our fathers",
+          "explanation": "Peter said God of their fathers raised up Jesus whom they slew (Acts 5:30).",
+          "verseReference": "Acts 5:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-hard-q12",
+          "question": "What is the significance of Gamaliel’s advice to the Sanhedrin regarding the apostles?",
+          "type": "multiple-choice",
+          "options": [
+            "If their work is of God, it cannot be overthrown",
+            "They should immediately execute the apostles",
+            "They should imprison them indefinitely",
+            "They should publicly shame the apostles"
+          ],
+          "correctAnswer": "If their work is of God, it cannot be overthrown",
+          "explanation": "Gamaliel advised that if the apostles' work is from God, opposing it would mean fighting against God himself (Acts 5:38-39).",
+          "verseReference": "Acts 5:38-39",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-hard-q13",
+          "question": "What literary device is evident in the story of Ananias and Sapphira in Acts 5?",
+          "type": "multiple-choice",
+          "options": [
+            "Chiasm illustrating the parallel judgment of husband and wife",
+            "Allegory representing Israel's disobedience",
+            "Typology pointing to the sacrifices of the Old Testament",
+            "Foreshadowing the destruction of Jerusalem"
+          ],
+          "correctAnswer": "Chiasm illustrating the parallel judgment of husband and wife",
+          "explanation": "The narrative structure parallels the judgment of both Ananias and Sapphira, forming a chiasm emphasizing divine justice (Acts 5:1-10).",
+          "verseReference": "Acts 5:1-10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-hard-q14",
+          "question": "How does the theme of obedience to God over men in Acts 5:29 connect with the broader biblical narrative?",
+          "type": "multiple-choice",
+          "options": [
+            "It echoes Daniel's refusal to stop praying despite royal edicts",
+            "It contradicts the Old Testament law of submission to kings",
+            "It introduces a new doctrine unique to the New Testament",
+            "It denies any authority of earthly rulers"
+          ],
+          "correctAnswer": "It echoes Daniel's refusal to stop praying despite royal edicts",
+          "explanation": "The apostles’ stance parallels Daniel's obedience to God rather than king's commands, a recurring biblical motif of divine authority over human powers.",
+          "verseReference": "Acts 5:29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-hard-q15",
+          "question": "True or False: The Holy Ghost is personified in Acts 5 as being capable of being lied to.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Peter accuses Ananias of lying to the Holy Ghost, indicating the Spirit's personhood and capacity to be deceived (Acts 5:3).",
+          "verseReference": "Acts 5:3",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "acts-5-quiz",
+      "tags": [
+        "acts",
+        "chapter-5",
+        "acts",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "acts-5-theological",
+      "title": "Acts Chapter 5 Quiz - Theological Level",
+      "description": "Deep biblical theology from Acts Chapter 5 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Acts",
+      "chapter": 5,
+      "questions": [
+        {
+          "id": "acts-5-theological-q1",
+          "question": "What was the sin committed by Ananias and Sapphira according to Acts 5?",
+          "type": "multiple-choice",
+          "options": [
+            "Lying to the Holy Spirit by withholding part of the sale price",
+            "Stealing from the apostles' treasury",
+            "Falsely accusing others in the church",
+            "Refusing to sell their possessions for the church"
+          ],
+          "correctAnswer": "Lying to the Holy Spirit by withholding part of the sale price",
+          "explanation": "Acts 5:3-4 shows that Ananias lied to the Holy Spirit by pretending to give all the money from the land sale but secretly withheld some. This sin is similar to the deceit condemned in Proverbs 6:16-19 and is a grave offense against God as seen in 1 Samuel 15:22-23 and Psalm 51:6.",
+          "verseReference": "Acts 5:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-theological-q2",
+          "question": "What immediate consequence did Ananias face after lying to the Holy Spirit?",
+          "type": "multiple-choice",
+          "options": [
+            "He fell down and died",
+            "He was expelled from the church",
+            "He was reprimanded by Peter",
+            "He was imprisoned"
+          ],
+          "correctAnswer": "He fell down and died",
+          "explanation": "Acts 5:5 records that upon hearing Peter's words, Ananias fell down and gave up the ghost, indicating immediate divine judgment. This reflects the seriousness of lying to God, reminiscent of Uzzah's death for touching the Ark (2 Samuel 6:6-7) and Ananias and Sapphira's judgment in Numbers 16:31-35.",
+          "verseReference": "Acts 5:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-theological-q3",
+          "question": "How did the church respond to the deaths of Ananias and Sapphira?",
+          "type": "multiple-choice",
+          "options": [
+            "They were filled with great fear",
+            "They rejoiced and celebrated",
+            "They ignored the event",
+            "They expelled the guilty couple"
+          ],
+          "correctAnswer": "They were filled with great fear",
+          "explanation": "Acts 5:11 describes that great fear came upon all the church and those who heard about the events, illustrating reverence for God's holiness and justice, which is consistent with Old Testament reverence for God's judgment (Exodus 20:18-21; Leviticus 10:1-3).",
+          "verseReference": "Acts 5:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-theological-q4",
+          "question": "According to Acts 5, what role did the apostles play in the early church?",
+          "type": "multiple-choice",
+          "options": [
+            "Performing many signs and wonders among the people",
+            "Serving food to the widows",
+            "Collecting tithes and offerings",
+            "Writing letters to other churches"
+          ],
+          "correctAnswer": "Performing many signs and wonders among the people",
+          "explanation": "Acts 5:12 states that many signs and wonders were done by the apostles, confirming their divine authority and the presence of the Holy Spirit, similar to Moses’ miracles (Exodus 7-11) and Elijah’s signs (1 Kings 17-18), showing God's ongoing work through His chosen servants.",
+          "verseReference": "Acts 5:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-theological-q5",
+          "question": "What was the effect of the apostles' ministry on the number of believers?",
+          "type": "multiple-choice",
+          "options": [
+            "Believers were added in great numbers, both men and women",
+            "The number remained the same due to persecution",
+            "Only men joined, while women stayed away",
+            "The church became isolated from the surrounding cities"
+          ],
+          "correctAnswer": "Believers were added in great numbers, both men and women",
+          "explanation": "Acts 5:14 records that multitudes of men and women were added to the Lord, indicating the expansion of the church through the apostles’ faithful witness, fulfilling the Great Commission (Matthew 28:19-20) and echoing Old Testament themes of God's covenant people growing (Isaiah 54:1-3).",
+          "verseReference": "Acts 5:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-theological-q6",
+          "question": "How did the apostles' healing ministry demonstrate God's power?",
+          "type": "multiple-choice",
+          "options": [
+            "Sick people were healed even by Peter’s shadow passing over them",
+            "They performed sacrifices to heal the sick",
+            "They prayed silently without any visible effect",
+            "They used medicinal herbs to cure diseases"
+          ],
+          "correctAnswer": "Sick people were healed even by Peter’s shadow passing over them",
+          "explanation": "Acts 5:15 describes how people brought the sick so that Peter’s shadow might overshadow them and heal them. This extraordinary healing points to God's power working through the apostles, similar to Elijah’s and Elisha’s ministries in 1 Kings 17:17-24 and 2 Kings 4:32-35.",
+          "verseReference": "Acts 5:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-theological-q7",
+          "question": "Who opposed the apostles and had them imprisoned according to Acts 5?",
+          "type": "multiple-choice",
+          "options": [
+            "The high priest and the Sadducees",
+            "The Pharisees and scribes",
+            "The Roman governors",
+            "The Essenes and Zealots"
+          ],
+          "correctAnswer": "The high priest and the Sadducees",
+          "explanation": "Acts 5:17-18 shows the high priest, along with the Sadducees, rising in indignation and imprisoning the apostles. This opposition reflects the religious leadership's rejection of the new covenant and God's work through Jesus, paralleling Old Testament conflicts between prophets and rulers (Jeremiah 26:8-11).",
+          "verseReference": "Acts 5:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-theological-q8",
+          "question": "How did the apostles escape from prison in Acts 5?",
+          "type": "multiple-choice",
+          "options": [
+            "An angel of the Lord opened the prison doors at night",
+            "Their followers bribed the guards",
+            "They overpowered the guards and escaped",
+            "They dug a tunnel under the prison walls"
+          ],
+          "correctAnswer": "An angel of the Lord opened the prison doors at night",
+          "explanation": "Acts 5:19 reports that an angel of the Lord opened the prison doors and brought the apostles out, demonstrating God’s sovereign power to protect His witnesses, which recalls divine deliverances such as Peter’s liberation in Acts 12 and the Exodus (Exodus 14:21-22).",
+          "verseReference": "Acts 5:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-theological-q9",
+          "question": "What was the apostles’ response when commanded not to teach in Jesus' name?",
+          "type": "multiple-choice",
+          "options": [
+            "They said, 'We ought to obey God rather than men'",
+            "They agreed to stop teaching",
+            "They fled from Jerusalem",
+            "They apologized and asked for forgiveness"
+          ],
+          "correctAnswer": "They said, 'We ought to obey God rather than men'",
+          "explanation": "Acts 5:29 records the apostles' bold confession that obedience to God takes precedence over human authorities, affirming the primacy of divine law (Exodus 1:17; Daniel 3:16-18) and reflecting Jesus’ teaching in Matthew 10:28.",
+          "verseReference": "Acts 5:29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-theological-q10",
+          "question": "How is Jesus described in Acts 5 as exalted by God?",
+          "type": "multiple-choice",
+          "options": [
+            "As Prince and Savior, exalted at God’s right hand to give repentance and forgiveness",
+            "As a prophet sent to Israel only",
+            "As a teacher of the law",
+            "As a political revolutionary"
+          ],
+          "correctAnswer": "As Prince and Savior, exalted at God’s right hand to give repentance and forgiveness",
+          "explanation": "Acts 5:31 describes Jesus as exalted by God with authority to grant repentance and forgiveness, echoing messianic prophecies such as Psalm 110:1 and Isaiah 53:5-6, affirming His divine lordship and redemptive mission.",
+          "verseReference": "Acts 5:31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-theological-q11",
+          "question": "What witness do the apostles claim to have in Acts 5?",
+          "type": "multiple-choice",
+          "options": [
+            "They and the Holy Spirit are witnesses to Jesus' resurrection and message",
+            "They are witnesses to the laws of Moses only",
+            "They witnessed the destruction of the temple",
+            "They witnessed the Roman governor's decrees"
+          ],
+          "correctAnswer": "They and the Holy Spirit are witnesses to Jesus' resurrection and message",
+          "explanation": "Acts 5:32 states that the apostles and the Holy Spirit bear witness to the resurrection and truth of Jesus, pointing to the ongoing work of the Spirit in confirming the gospel, consistent with John 15:26 and Isaiah 44:3.",
+          "verseReference": "Acts 5:32",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-theological-q12",
+          "question": "What advice did Gamaliel give to the council regarding the apostles?",
+          "type": "multiple-choice",
+          "options": [
+            "To leave them alone because if their work is of God it cannot be stopped",
+            "To execute them immediately",
+            "To imprison them indefinitely",
+            "To exile them from Jerusalem"
+          ],
+          "correctAnswer": "To leave them alone because if their work is of God it cannot be stopped",
+          "explanation": "Acts 5:38-39 records Gamaliel’s wise counsel to refrain from opposing the apostles because if their movement is from God, opposition would mean fighting against God, a principle also taught in Jeremiah 1:10 and Proverbs 3:5-6.",
+          "verseReference": "Acts 5:38",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-theological-q13",
+          "question": "What was the council's final action toward the apostles after Gamaliel’s advice?",
+          "type": "multiple-choice",
+          "options": [
+            "They flogged them and commanded them not to speak in Jesus' name but released them",
+            "They imprisoned them for life",
+            "They allowed them to continue teaching freely",
+            "They excommunicated them from the synagogue"
+          ],
+          "correctAnswer": "They flogged them and commanded them not to speak in Jesus' name but released them",
+          "explanation": "Acts 5:40-41 explains that after Gamaliel's advice, the council flogged the apostles, ordered them not to speak in Jesus' name, and then released them, demonstrating human opposition to the gospel yet God's providential protection, similar to Paul’s later imprisonments (2 Corinthians 11:23-28).",
+          "verseReference": "Acts 5:40",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-theological-q14",
+          "question": "How did the apostles react to suffering for Jesus’ name according to Acts 5?",
+          "type": "multiple-choice",
+          "options": [
+            "They rejoiced, considering it a privilege",
+            "They despaired and stopped preaching",
+            "They fled the city in fear",
+            "They appealed to the Roman authorities"
+          ],
+          "correctAnswer": "They rejoiced, considering it a privilege",
+          "explanation": "Acts 5:41 shows the apostles rejoiced that they were counted worthy to suffer shame for Jesus, reflecting Christ’s teaching on rejoicing in persecution (Matthew 5:10-12) and Paul's example in Philippians 3:10.",
+          "verseReference": "Acts 5:41",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-5-theological-q15",
+          "question": "What was the apostles’ practice of teaching after their release?",
+          "type": "multiple-choice",
+          "options": [
+            "They continued daily in the temple and in every house to teach and preach Jesus Christ",
+            "They ceased teaching and went into hiding",
+            "They only taught in private homes",
+            "They stopped preaching publicly altogether"
+          ],
+          "correctAnswer": "They continued daily in the temple and in every house to teach and preach Jesus Christ",
+          "explanation": "Acts 5:42 records their steadfast commitment to teaching publicly and privately despite opposition, showing the unstoppable spread of the gospel, fulfilling Jesus’ command to make disciples of all nations (Acts 1:8; Matthew 28:19-20).",
+          "verseReference": "Acts 5:42",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "acts-5-quiz",
+      "tags": [
+        "acts",
+        "chapter-5",
+        "acts",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

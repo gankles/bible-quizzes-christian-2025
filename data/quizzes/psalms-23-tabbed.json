@@ -1,0 +1,981 @@
+{
+  "id": "psalms-23-tabbed",
+  "title": "Psalms Chapter 23 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Psalms chapter 23 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "psalms-23-easy",
+      "title": "Psalms Chapter 23 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Psalms Chapter 23.",
+      "type": "chapter",
+      "book": "Psalms",
+      "chapter": 23,
+      "questions": [
+        {
+          "id": "psalms-23-easy-q1",
+          "question": "Who is described as the shepherd in Psalms 23:1?",
+          "type": "multiple-choice",
+          "options": [
+            "The LORD",
+            "David",
+            "The king",
+            "The prophet"
+          ],
+          "correctAnswer": "The LORD",
+          "explanation": "Psalms 23:1 states, 'The LORD is my shepherd; I shall not want.'",
+          "verseReference": "Psalms 23:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-23-easy-q2",
+          "question": "According to Psalms 23:2, where does the LORD lead the speaker to lie down?",
+          "type": "multiple-choice",
+          "options": [
+            "In green pastures",
+            "On rocky hills",
+            "Beside the sea",
+            "In the desert"
+          ],
+          "correctAnswer": "In green pastures",
+          "explanation": "Psalms 23:2 says, 'He maketh me to lie down in green pastures.'",
+          "verseReference": "Psalms 23:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-23-easy-q3",
+          "question": "What does the LORD lead the speaker beside, according to Psalms 23:2?",
+          "type": "multiple-choice",
+          "options": [
+            "Still waters",
+            "Raging rivers",
+            "Mountain streams",
+            "Dry valleys"
+          ],
+          "correctAnswer": "Still waters",
+          "explanation": "Psalms 23:2 states, 'he leadeth me beside the still waters.'",
+          "verseReference": "Psalms 23:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-23-easy-q4",
+          "question": "In Psalms 23:3, what does the LORD restore?",
+          "type": "multiple-choice",
+          "options": [
+            "My soul",
+            "My strength",
+            "My hope",
+            "My joy"
+          ],
+          "correctAnswer": "My soul",
+          "explanation": "Psalms 23:3 reads, 'He restoreth my soul.'",
+          "verseReference": "Psalms 23:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-23-easy-q5",
+          "question": "For what purpose does the LORD lead the speaker in paths of righteousness, according to Psalms 23:3?",
+          "type": "multiple-choice",
+          "options": [
+            "For his name's sake",
+            "For the people's sake",
+            "For the land's sake",
+            "For the king's sake"
+          ],
+          "correctAnswer": "For his name's sake",
+          "explanation": "Psalms 23:3 says, 'he leadeth me in the paths of righteousness for his name's sake.'",
+          "verseReference": "Psalms 23:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-23-easy-q6",
+          "question": "True or False: According to Psalms 23:4, the speaker will fear evil because the LORD is not with him.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Psalms 23:4 states, 'I will fear no evil: for thou art with me.'",
+          "verseReference": "Psalms 23:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-23-easy-q7",
+          "question": "What comforts the speaker in Psalms 23:4?",
+          "type": "multiple-choice",
+          "options": [
+            "Thy rod and thy staff",
+            "Angels' presence",
+            "Songs of praise",
+            "The sun and moon"
+          ],
+          "correctAnswer": "Thy rod and thy staff",
+          "explanation": "Psalms 23:4 says, 'thy rod and thy staff they comfort me.'",
+          "verseReference": "Psalms 23:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-23-easy-q8",
+          "question": "Where does the LORD prepare a table for the speaker, according to Psalms 23:5?",
+          "type": "multiple-choice",
+          "options": [
+            "In the presence of mine enemies",
+            "In the holy temple",
+            "On the mountaintop",
+            "In the valley"
+          ],
+          "correctAnswer": "In the presence of mine enemies",
+          "explanation": "Psalms 23:5 states, 'Thou preparest a table before me in the presence of mine enemies.'",
+          "verseReference": "Psalms 23:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-23-easy-q9",
+          "question": "What is poured on the speaker's head in Psalms 23:5?",
+          "type": "multiple-choice",
+          "options": [
+            "Oil",
+            "Water",
+            "Wine",
+            "Honey"
+          ],
+          "correctAnswer": "Oil",
+          "explanation": "Psalms 23:5 says, 'thou anointest my head with oil.'",
+          "verseReference": "Psalms 23:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-23-easy-q10",
+          "question": "What happens to the speaker's cup in Psalms 23:5?",
+          "type": "multiple-choice",
+          "options": [
+            "It runneth over",
+            "It is half full",
+            "It is empty",
+            "It is broken"
+          ],
+          "correctAnswer": "It runneth over",
+          "explanation": "Psalms 23:5 reads, 'my cup runneth over.'",
+          "verseReference": "Psalms 23:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-23-easy-q11",
+          "question": "According to Psalms 23:6, what two things shall follow the speaker all the days of his life?",
+          "type": "multiple-choice",
+          "options": [
+            "Goodness and mercy",
+            "Joy and peace",
+            "Strength and courage",
+            "Love and faith"
+          ],
+          "correctAnswer": "Goodness and mercy",
+          "explanation": "Psalms 23:6 states, 'Surely goodness and mercy shall follow me all the days of my life.'",
+          "verseReference": "Psalms 23:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-23-easy-q12",
+          "question": "Where will the speaker dwell forever, according to Psalms 23:6?",
+          "type": "multiple-choice",
+          "options": [
+            "In the house of the LORD",
+            "In the wilderness",
+            "In the city",
+            "In the mountains"
+          ],
+          "correctAnswer": "In the house of the LORD",
+          "explanation": "Psalms 23:6 says, 'and I will dwell in the house of the LORD for ever.'",
+          "verseReference": "Psalms 23:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-23-easy-q13",
+          "question": "True or False: Psalms 23:1 says the speaker shall want for many things.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Psalms 23:1 states, 'I shall not want,' indicating the speaker lacks nothing.",
+          "verseReference": "Psalms 23:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-23-easy-q14",
+          "question": "True or False: The speaker walks through the valley of the shadow of death without fear, according to Psalms 23:4.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Psalms 23:4 says, 'Yea, though I walk through the valley of the shadow of death, I will fear no evil.'",
+          "verseReference": "Psalms 23:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-23-easy-q15",
+          "question": "Complete this verse from Psalms 23:2: 'He maketh me to lie down in ______ pastures.'",
+          "type": "fill-blank",
+          "options": [
+            "green",
+            "dry",
+            "rocky",
+            "golden"
+          ],
+          "correctAnswer": "green",
+          "explanation": "Psalms 23:2 states, 'He maketh me to lie down in green pastures.'",
+          "verseReference": "Psalms 23:2",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "psalms-23-quiz",
+      "tags": [
+        "psalms",
+        "chapter-23",
+        "psalms",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "psalms-23-medium",
+      "title": "Psalms Chapter 23 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Psalms Chapter 23 to real-life situations.",
+      "type": "chapter",
+      "book": "Psalms",
+      "chapter": 23,
+      "questions": [
+        {
+          "id": "psalms-23-medium-q1",
+          "question": "A fellow believer is going through a trial and asks you for counsel. Based on Psalms 23, what biblical truth would you share about trusting God during hardship?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s presence brings comfort even in the darkest times",
+            "We should avoid trials at all costs",
+            "God abandons us when we face death",
+            "We must rely only on our own strength"
+          ],
+          "correctAnswer": "God’s presence brings comfort even in the darkest times",
+          "explanation": "Psalms 23:4 teaches that even when walking through the valley of the shadow of death, we need not fear evil because God is with us and comforts us with His rod and staff.",
+          "verseReference": "Psalms 23:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-23-medium-q2",
+          "question": "How does Psalms 23 teach us about God’s provision and contentment?",
+          "type": "multiple-choice",
+          "options": [
+            "The LORD is my shepherd; I shall not want",
+            "God requires us to earn all our blessings",
+            "We should constantly strive for more possessions",
+            "Provision comes only through hard work"
+          ],
+          "correctAnswer": "The LORD is my shepherd; I shall not want",
+          "explanation": "Psalms 23:1 declares God as our shepherd who provides fully so that we lack nothing, teaching contentment and trust in His provision.",
+          "verseReference": "Psalms 23:1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-23-medium-q3",
+          "question": "What example does Psalms 23 give about spiritual renewal and obedience?",
+          "type": "multiple-choice",
+          "options": [
+            "He restoreth my soul: he leadeth me in the paths of righteousness for his name's sake",
+            "We must find our own path apart from God",
+            "Spiritual renewal depends on external rituals",
+            "Obedience is optional for God’s blessings"
+          ],
+          "correctAnswer": "He restoreth my soul: he leadeth me in the paths of righteousness for his name's sake",
+          "explanation": "Psalms 23:3 shows that God restores our inner being and guides us to live righteously, emphasizing renewal and obedience as acts of faith.",
+          "verseReference": "Psalms 23:3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-23-medium-q4",
+          "question": "A believer is feeling anxious about opposition at work. Based on Psalms 23, what assurance can you give them?",
+          "type": "multiple-choice",
+          "options": [
+            "God prepares a table before me in the presence of mine enemies",
+            "Enemies will always overcome us",
+            "We must avoid all conflict to be safe",
+            "Our enemies control our destiny"
+          ],
+          "correctAnswer": "God prepares a table before me in the presence of mine enemies",
+          "explanation": "Psalms 23:5 reassures us that God provides for and honors us even when adversaries are present, encouraging trust and confidence.",
+          "verseReference": "Psalms 23:5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-23-medium-q5",
+          "question": "What does Psalms 23 teach about God’s ongoing goodness and mercy in a believer’s life?",
+          "type": "multiple-choice",
+          "options": [
+            "Surely goodness and mercy shall follow me all the days of my life",
+            "Goodness and mercy are earned by works",
+            "God’s mercy is temporary",
+            "We must earn goodness through sacrifices"
+          ],
+          "correctAnswer": "Surely goodness and mercy shall follow me all the days of my life",
+          "explanation": "Psalms 23:6 promises that God’s goodness and mercy will accompany believers always, ensuring continual blessing and grace.",
+          "verseReference": "Psalms 23:6",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-23-medium-q6",
+          "question": "How does Psalms 23 illustrate the importance of peace and rest in spiritual life?",
+          "type": "multiple-choice",
+          "options": [
+            "He maketh me to lie down in green pastures",
+            "We must always be busy serving others",
+            "Rest is a sign of weakness",
+            "Spiritual growth happens without rest"
+          ],
+          "correctAnswer": "He maketh me to lie down in green pastures",
+          "explanation": "Psalms 23:2 shows that God provides restful, peaceful places for us to rejuvenate, highlighting rest as vital for spiritual health.",
+          "verseReference": "Psalms 23:2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-23-medium-q7",
+          "question": "A believer struggles with fear about death. What truth from Psalms 23 can you share to encourage faith?",
+          "type": "multiple-choice",
+          "options": [
+            "I will fear no evil: for thou art with me",
+            "Death is the end with no hope",
+            "Fear is the natural response to death",
+            "God leaves us alone in death"
+          ],
+          "correctAnswer": "I will fear no evil: for thou art with me",
+          "explanation": "Psalms 23:4 assures that God’s presence removes fear of evil and death, encouraging believers to trust Him fully in trials.",
+          "verseReference": "Psalms 23:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-23-medium-q8",
+          "question": "How does Psalms 23 encourage believers to live with humility and gratitude?",
+          "type": "multiple-choice",
+          "options": [
+            "My cup runneth over",
+            "We must always seek to be first",
+            "Gratitude is optional in hard times",
+            "Humility means avoiding all blessings"
+          ],
+          "correctAnswer": "My cup runneth over",
+          "explanation": "Psalms 23:5 uses the overflowing cup as a symbol of God’s abundant blessings, encouraging gratitude and humility in receiving His grace.",
+          "verseReference": "Psalms 23:5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-23-medium-q9",
+          "question": "What does Psalms 23 teach about God’s guidance in daily decisions and moral choices?",
+          "type": "multiple-choice",
+          "options": [
+            "He leadeth me in the paths of righteousness for his name's sake",
+            "We must rely on our feelings alone",
+            "Guidance is unnecessary if we are good people",
+            "We are left to choose without divine help"
+          ],
+          "correctAnswer": "He leadeth me in the paths of righteousness for his name's sake",
+          "explanation": "Psalms 23:3 emphasizes that God guides believers in righteous living, showing the importance of seeking His direction in choices.",
+          "verseReference": "Psalms 23:3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-23-medium-q10",
+          "question": "True or False: According to Psalms 23, believers can trust that God’s protection and comfort are available even in life’s darkest moments.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Psalms 23:4 clearly states that God’s rod and staff comfort us during the valley of the shadow of death, showing His protective presence.",
+          "verseReference": "Psalms 23:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-23-medium-q11",
+          "question": "True or False: Psalms 23 teaches that God’s goodness and mercy are only temporary blessings for believers.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Psalms 23:6 promises that goodness and mercy will follow believers all their life, indicating these blessings are enduring.",
+          "verseReference": "Psalms 23:6",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-23-medium-q12",
+          "question": "Fill in the blank: \"The LORD is my _______, I shall not want.\"",
+          "type": "fill-blank",
+          "options": [
+            "shepherd",
+            "king",
+            "judge",
+            "friend"
+          ],
+          "correctAnswer": "shepherd",
+          "explanation": "Psalms 23:1 identifies the LORD as the shepherd who provides everything needed, teaching reliance on God’s care.",
+          "verseReference": "Psalms 23:1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-23-medium-q13",
+          "question": "According to Psalms 23, how should a Christian respond when facing enemies or opposition?",
+          "type": "multiple-choice",
+          "options": [
+            "Trust God to provide and honor you in their presence",
+            "Fight back with equal hostility",
+            "Avoid all encounters with enemies",
+            "Ignore God’s help and rely on self-defense"
+          ],
+          "correctAnswer": "Trust God to provide and honor you in their presence",
+          "explanation": "Psalms 23:5 shows that God prepares a table before us even in the presence of enemies, teaching trust and reliance on His provision.",
+          "verseReference": "Psalms 23:5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-23-medium-q14",
+          "question": "What lesson about God’s discipline and guidance can be learned from Psalms 23 for daily living?",
+          "type": "multiple-choice",
+          "options": [
+            "Thy rod and thy staff they comfort me",
+            "Discipline is harsh and without comfort",
+            "Guidance is only for spiritual leaders",
+            "We should reject correction from God"
+          ],
+          "correctAnswer": "Thy rod and thy staff they comfort me",
+          "explanation": "Psalms 23:4 depicts God’s rod and staff as sources of comfort, showing that His discipline and guidance are for our good and encouragement.",
+          "verseReference": "Psalms 23:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-23-medium-q15",
+          "question": "How does Psalms 23 encourage believers to live in hope and assurance about their eternal destiny?",
+          "type": "multiple-choice",
+          "options": [
+            "I will dwell in the house of the LORD for ever",
+            "Eternal life is uncertain and doubtful",
+            "We must earn eternal life by works alone",
+            "There is no promise beyond this life"
+          ],
+          "correctAnswer": "I will dwell in the house of the LORD for ever",
+          "explanation": "Psalms 23:6 expresses the confident hope of eternal fellowship with God, encouraging believers to live with assurance.",
+          "verseReference": "Psalms 23:6",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "psalms-23-quiz",
+      "tags": [
+        "psalms",
+        "chapter-23",
+        "psalms",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "psalms-23-hard",
+      "title": "Psalms Chapter 23 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Psalms Chapter 23.",
+      "type": "chapter",
+      "book": "Psalms",
+      "chapter": 23,
+      "questions": [
+        {
+          "id": "psalms-23-hard-q1",
+          "question": "In Psalms 23:1, the LORD is described as what metaphorical role, and how does this connect to the ancient Near Eastern shepherd imagery?",
+          "type": "multiple-choice",
+          "options": [
+            "King who commands",
+            "Shepherd who guides and provides",
+            "Warrior who conquers",
+            "Judge who punishes"
+          ],
+          "correctAnswer": "Shepherd who guides and provides",
+          "explanation": "Psalms 23:1 states 'The LORD is my shepherd; I shall not want,' using the shepherd metaphor common in the ancient Near East to depict God’s guidance and provision.",
+          "verseReference": "Psalms 23:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-hard-q2",
+          "question": "The phrase 'green pastures' in Psalms 23:2 symbolizes what in the broader biblical context?",
+          "type": "multiple-choice",
+          "options": [
+            "Wealth and riches",
+            "Restoration and sustenance",
+            "Judgment and punishment",
+            "Wisdom and knowledge"
+          ],
+          "correctAnswer": "Restoration and sustenance",
+          "explanation": "Psalms 23:2 uses 'green pastures' to symbolize a place of rest and nourishment, echoing themes of divine provision found throughout Scripture.",
+          "verseReference": "Psalms 23:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-hard-q3",
+          "question": "What is the significance of the phrase 'paths of righteousness' in Psalms 23:3 in both moral and covenantal contexts?",
+          "type": "multiple-choice",
+          "options": [
+            "Legalistic adherence to laws only",
+            "God’s guidance towards ethical living and covenant faithfulness",
+            "Physical travel routes in ancient Israel",
+            "Military strategies for battle"
+          ],
+          "correctAnswer": "God’s guidance towards ethical living and covenant faithfulness",
+          "explanation": "In Psalms 23:3, 'paths of righteousness' refers to God leading the believer in morally upright living aligned with His covenant promises.",
+          "verseReference": "Psalms 23:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-hard-q4",
+          "question": "Psalms 23:4 uses the phrase 'valley of the shadow of death.' What literary device is primarily employed here and what is its effect?",
+          "type": "multiple-choice",
+          "options": [
+            "Simile to compare death to darkness",
+            "Metaphor to depict extreme danger and fear",
+            "Alliteration to emphasize fear",
+            "Hyperbole to exaggerate danger"
+          ],
+          "correctAnswer": "Metaphor to depict extreme danger and fear",
+          "explanation": "Psalms 23:4 uses metaphorical language to describe the 'valley of the shadow of death' as a symbol of profound danger and fear, emphasizing God’s protective presence.",
+          "verseReference": "Psalms 23:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-hard-q5",
+          "question": "The 'rod' and 'staff' mentioned in Psalms 23:4 are symbols of what in ancient shepherd culture?",
+          "type": "multiple-choice",
+          "options": [
+            "Instruments of punishment and control",
+            "Tools for guiding and protecting sheep",
+            "Religious artifacts",
+            "Symbols of wealth"
+          ],
+          "correctAnswer": "Tools for guiding and protecting sheep",
+          "explanation": "In Psalms 23:4, the rod and staff represent the shepherd’s tools used to guide and protect the flock, symbolizing God’s comfort and care.",
+          "verseReference": "Psalms 23:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-hard-q6",
+          "question": "How does the imagery of 'anointest my head with oil' in Psalms 23:5 function in the cultural setting of ancient Israel?",
+          "type": "multiple-choice",
+          "options": [
+            "Indicates ritual cleansing",
+            "Symbolizes hospitality, blessing, and consecration",
+            "Represents mourning",
+            "Denotes punishment"
+          ],
+          "correctAnswer": "Symbolizes hospitality, blessing, and consecration",
+          "explanation": "Psalms 23:5’s phrase about anointing with oil reflects ancient Near Eastern customs of hospitality and divine blessing to honor and consecrate an individual.",
+          "verseReference": "Psalms 23:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-hard-q7",
+          "question": "The overflowing cup in Psalms 23:5 is a typological symbol foreshadowing what New Testament theme?",
+          "type": "multiple-choice",
+          "options": [
+            "The Last Supper and abundant blessing through Christ",
+            "The cup of wrath in Revelation",
+            "Baptism rituals",
+            "The bread of life discourse"
+          ],
+          "correctAnswer": "The Last Supper and abundant blessing through Christ",
+          "explanation": "The overflowing cup in Psalms 23:5 prefigures New Testament themes of abundance and blessing seen in Christ’s institution of the Last Supper.",
+          "verseReference": "Psalms 23:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-hard-q8",
+          "question": "In Psalms 23:6, 'goodness and mercy' following the psalmist alludes to which recurring biblical theme?",
+          "type": "multiple-choice",
+          "options": [
+            "Divine judgment and wrath",
+            "God’s unfailing covenant faithfulness and lovingkindness",
+            "Human effort and righteousness",
+            "Prophetic warnings"
+          ],
+          "correctAnswer": "God’s unfailing covenant faithfulness and lovingkindness",
+          "explanation": "Psalms 23:6 highlights 'goodness and mercy' as God’s covenantal faithfulness and steadfast love accompanying the believer’s life.",
+          "verseReference": "Psalms 23:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-hard-q9",
+          "question": "Psalms 23 can be structurally analyzed as a chiastic poem. Which two elements form the central pivot of this chiastic structure?",
+          "type": "multiple-choice",
+          "options": [
+            "Green pastures and still waters",
+            "Rod and staff comforting",
+            "Valley of the shadow of death and the presence of God",
+            "Preparation of a table and dwelling in the house of the LORD"
+          ],
+          "correctAnswer": "Valley of the shadow of death and the presence of God",
+          "explanation": "The central pivot in Psalms 23’s chiastic structure is the assurance in the 'valley of the shadow of death' coupled with 'for thou art with me,' emphasizing God’s protective presence.",
+          "verseReference": "Psalms 23:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-hard-q10",
+          "question": "Which Old Testament book has a parallel shepherd metaphor that deepens the understanding of Psalms 23’s theme?",
+          "type": "multiple-choice",
+          "options": [
+            "Isaiah",
+            "Ezekiel",
+            "Jeremiah",
+            "Genesis"
+          ],
+          "correctAnswer": "Ezekiel",
+          "explanation": "Ezekiel (chapters 34) also uses the shepherd metaphor to describe God’s care and judgment over His people, complementing Psalms 23’s portrayal of God as shepherd.",
+          "verseReference": "Psalms 23:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-hard-q11",
+          "question": "The phrase 'I shall not want' in Psalms 23:1 reflects what theological concept prevalent in Hebrew thought?",
+          "type": "multiple-choice",
+          "options": [
+            "Human self-sufficiency",
+            "Divine providence and contentment",
+            "Legalistic righteousness",
+            "Judgment for sinners"
+          ],
+          "correctAnswer": "Divine providence and contentment",
+          "explanation": "Psalms 23:1 expresses trust in God’s providence leading to a state of contentment and lack of need.",
+          "verseReference": "Psalms 23:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-hard-q12",
+          "question": "True or False: The 'still waters' in Psalms 23:2 symbolically represent spiritual refreshment and peace similar to imagery found in Ezekiel’s vision of the river of life.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Both Psalms 23:2 and Ezekiel’s river vision use water imagery to symbolize spiritual renewal and peace.",
+          "verseReference": "Psalms 23:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-hard-q13",
+          "question": "The phrase 'for his name’s sake' in Psalms 23:3 implies what about God’s motivation in leading the psalmist?",
+          "type": "multiple-choice",
+          "options": [
+            "God acts solely for human benefit",
+            "God’s actions uphold His own reputation and covenant faithfulness",
+            "God is indifferent to human affairs",
+            "God acts randomly without purpose"
+          ],
+          "correctAnswer": "God’s actions uphold His own reputation and covenant faithfulness",
+          "explanation": "Psalms 23:3 shows that God leads the psalmist to righteousness to maintain His holy name and covenant promises.",
+          "verseReference": "Psalms 23:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-hard-q14",
+          "question": "How does the hospitality imagery of 'table prepared in the presence of mine enemies' in Psalms 23:5 relate to ancient Near Eastern customs?",
+          "type": "multiple-choice",
+          "options": [
+            "It shows public humiliation",
+            "It reflects honor and divine protection even amid hostility",
+            "It indicates surrender to enemies",
+            "It is a metaphor for exile"
+          ],
+          "correctAnswer": "It reflects honor and divine protection even amid hostility",
+          "explanation": "In ancient Near East, preparing a table symbolized honor and provision; Psalms 23:5 extends this to God’s protection despite adversaries.",
+          "verseReference": "Psalms 23:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-hard-q15",
+          "question": "True or False: The promise 'I will dwell in the house of the LORD forever' in Psalms 23:6 anticipates the eschatological hope of eternal fellowship with God.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Psalms 23:6 expresses confidence in eternal communion with God, a theme developed in later biblical eschatology.",
+          "verseReference": "Psalms 23:6",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "psalms-23-quiz",
+      "tags": [
+        "psalms",
+        "chapter-23",
+        "psalms",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "psalms-23-theological",
+      "title": "Psalms Chapter 23 Quiz - Theological Level",
+      "description": "Deep biblical theology from Psalms Chapter 23 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Psalms",
+      "chapter": 23,
+      "questions": [
+        {
+          "id": "psalms-23-theological-q1",
+          "question": "What theological truth about God is primarily conveyed by the metaphor 'The LORD is my shepherd' in Psalms 23:1?",
+          "type": "multiple-choice",
+          "options": [
+            "God is a caring and guiding protector.",
+            "God is a distant judge.",
+            "God is a warrior leading battles.",
+            "God is an impersonal force."
+          ],
+          "correctAnswer": "God is a caring and guiding protector.",
+          "explanation": "Psalms 23:1 portrays God as a shepherd who provides and cares intimately for His people, consistent with John 10:11 where Jesus calls Himself the Good Shepherd who lays down His life for the sheep, Ezekiel 34:11-16 where God promises to seek and care for His sheep, Isaiah 40:11 describing God gathering His lambs, and Hebrews 13:20 referencing the great Shepherd of the sheep.",
+          "verseReference": "Psalms 23:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-theological-q2",
+          "question": "According to Psalms 23:2, what does God provide for the believer?",
+          "type": "multiple-choice",
+          "options": [
+            "Green pastures and still waters.",
+            "Fire and brimstone.",
+            "Mountains and deserts.",
+            "Storms and trials."
+          ],
+          "correctAnswer": "Green pastures and still waters.",
+          "explanation": "Psalms 23:2 speaks of God providing peaceful rest and nourishment symbolized by green pastures and still waters, which aligns with Jeremiah 31:12 where God satisfies His people like a watered garden, Ezekiel 34:14 describing green pastures as God’s provision, John 4:14 about living water Jesus provides, and Revelation 7:17 where God leads to springs of living water.",
+          "verseReference": "Psalms 23:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-theological-q3",
+          "question": "In Psalms 23:3, what does God restore, and why does He lead in paths of righteousness?",
+          "type": "multiple-choice",
+          "options": [
+            "He restores the soul and leads for His name’s sake.",
+            "He restores wealth and leads for personal gain.",
+            "He restores power and leads for conquest.",
+            "He restores fame and leads for popularity."
+          ],
+          "correctAnswer": "He restores the soul and leads for His name’s sake.",
+          "explanation": "Psalms 23:3 teaches that God renews the inner person (the soul) and guides believers in righteous living for the sake of His holy reputation, consistent with Ezekiel 36:22-23 where God acts for His name’s glory, Romans 8:29 on being conformed to Christ’s image, 1 Peter 2:9 about God's purpose for His people, and Titus 3:5 on renewal by the Holy Spirit.",
+          "verseReference": "Psalms 23:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-theological-q4",
+          "question": "What is the significance of 'the valley of the shadow of death' in Psalms 23:4?",
+          "type": "multiple-choice",
+          "options": [
+            "It represents a time of deep danger and fear where God’s presence brings comfort.",
+            "It symbolizes a literal valley with poisonous plants.",
+            "It refers to the place of eternal punishment.",
+            "It indicates a joyful festival."
+          ],
+          "correctAnswer": "It represents a time of deep danger and fear where God’s presence brings comfort.",
+          "explanation": "Psalms 23:4 uses this metaphor to describe extreme trials and even the threat of death, yet declares confidence in God's presence, paralleling Isaiah 43:2 where God promises presence through waters and fire, John 11:25-26 about Jesus conquering death, Romans 8:38-39 on nothing separating us from God’s love, and Revelation 7:17 where God leads to living fountains in the midst of suffering.",
+          "verseReference": "Psalms 23:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-theological-q5",
+          "question": "What instruments of comfort does God provide according to Psalms 23:4?",
+          "type": "multiple-choice",
+          "options": [
+            "Rod and staff.",
+            "Sword and shield.",
+            "Crown and throne.",
+            "Fire and wind."
+          ],
+          "correctAnswer": "Rod and staff.",
+          "explanation": "Psalms 23:4 depicts the rod and staff as symbols of God’s protection and guidance, similar to Ezekiel 34:4 where God’s staff rescues, Isaiah 10:27 as a symbol of deliverance, Hebrews 13:20 describing the Shepherd’s staff, and John 10:27 where Jesus guides His sheep.",
+          "verseReference": "Psalms 23:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-theological-q6",
+          "question": "What does the imagery of 'a table prepared in the presence of enemies' in Psalms 23:5 suggest about God’s provision?",
+          "type": "multiple-choice",
+          "options": [
+            "God provides abundant blessing and protection even amid opposition.",
+            "God hides His people from their enemies.",
+            "God punishes enemies publicly.",
+            "God ignores enemies completely."
+          ],
+          "correctAnswer": "God provides abundant blessing and protection even amid opposition.",
+          "explanation": "Psalms 23:5 shows God’s sovereign care allowing believers to feast and be honored despite adversaries, echoing Exodus 12:42 on God’s protection during judgment, Isaiah 25:6 about a feast for all peoples, Luke 22:30 where believers share a feast with Christ, and Romans 8:31 affirming God’s protection against adversaries.",
+          "verseReference": "Psalms 23:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-theological-q7",
+          "question": "What is the spiritual significance of 'anointing the head with oil' in Psalms 23:5?",
+          "type": "multiple-choice",
+          "options": [
+            "It symbolizes being chosen, blessed, and empowered by God.",
+            "It signifies mourning and penitence.",
+            "It represents physical healing only.",
+            "It denotes royal authority exclusively."
+          ],
+          "correctAnswer": "It symbolizes being chosen, blessed, and empowered by God.",
+          "explanation": "Anointing with oil in Psalms 23:5 signifies divine blessing and consecration, consistent with 1 Samuel 16:13 where David is anointed king, Exodus 30:22-33 on holy anointing oil, James 5:14 about healing and anointing in the church, and Luke 4:18 where Jesus is anointed by the Spirit to proclaim good news.",
+          "verseReference": "Psalms 23:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-theological-q8",
+          "question": "What does 'my cup runneth over' in Psalms 23:5 indicate about God’s blessings?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s blessings are abundant and overflowing.",
+            "God’s blessings are scarce and limited.",
+            "God’s blessings are conditional on works.",
+            "God’s blessings are temporary and fleeting."
+          ],
+          "correctAnswer": "God’s blessings are abundant and overflowing.",
+          "explanation": "The overflowing cup in Psalms 23:5 represents abundant grace and provision, paralleling Proverbs 3:10 where blessings overflow, John 10:10 on abundant life through Christ, Ephesians 1:3 on every spiritual blessing in Christ, and 2 Corinthians 9:8 describing God’s grace to abound.",
+          "verseReference": "Psalms 23:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-theological-q9",
+          "question": "According to Psalms 23:6, what two qualities will follow the believer all their days?",
+          "type": "multiple-choice",
+          "options": [
+            "Goodness and mercy.",
+            "Wealth and power.",
+            "Health and long life.",
+            "Peace and prosperity."
+          ],
+          "correctAnswer": "Goodness and mercy.",
+          "explanation": "Psalms 23:6 promises the continual presence of God’s goodness and mercy, themes echoed in Lamentations 3:22-23 on God’s steadfast love, Romans 8:28 on God working for good, Ephesians 2:4-5 on God’s mercy saving us, and Hebrews 4:16 inviting us to receive grace and mercy in time of need.",
+          "verseReference": "Psalms 23:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-theological-q10",
+          "question": "What eschatological hope is expressed in Psalms 23:6 when it says, 'I will dwell in the house of the LORD forever'?",
+          "type": "multiple-choice",
+          "options": [
+            "The believer’s eternal fellowship with God in heaven.",
+            "The rebuilding of the earthly temple.",
+            "The physical possession of land in Israel only.",
+            "The end of earthly suffering without resurrection."
+          ],
+          "correctAnswer": "The believer’s eternal fellowship with God in heaven.",
+          "explanation": "Psalms 23:6 expresses the hope of eternal communion with God, aligning with John 14:2-3 where Jesus prepares a place, Revelation 21:3-4 describing God dwelling with His people, 2 Corinthians 5:1 on heavenly dwelling, and Hebrews 11:10 about a city with foundations from God.",
+          "verseReference": "Psalms 23:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-theological-q11",
+          "question": "How does Psalms 23 address the problem of fear and evil in the life of believers?",
+          "type": "multiple-choice",
+          "options": [
+            "By assuring God’s presence and comfort through trials.",
+            "By promising a life free from any trials.",
+            "By instructing believers to conquer fear through self-effort.",
+            "By denying the existence of evil."
+          ],
+          "correctAnswer": "By assuring God’s presence and comfort through trials.",
+          "explanation": "Psalms 23:4 affirms that even in the darkest dangers, the believer fears no evil because God is present to comfort, consistent with Isaiah 41:10 encouraging not to fear, Romans 8:38-39 on inseparability from God’s love, 2 Timothy 1:7 on God giving a spirit of power not fear, and Philippians 4:6-7 on God’s peace guarding hearts.",
+          "verseReference": "Psalms 23:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-theological-q12",
+          "question": "What does the phrase 'for his name's sake' in Psalms 23:3 teach about God's motivation for guiding His people?",
+          "type": "multiple-choice",
+          "options": [
+            "God acts to uphold His holy character and honor.",
+            "God acts only when people deserve it.",
+            "God acts to gain human praise.",
+            "God acts randomly without purpose."
+          ],
+          "correctAnswer": "God acts to uphold His holy character and honor.",
+          "explanation": "The phrase 'for his name's sake' in Psalms 23:3 indicates God’s actions are motivated by His desire to maintain His holiness and reputation, as seen in Ezekiel 36:22-23 where God acts for His name’s glory, Isaiah 48:9-11 emphasizing God’s purposeful acts, Romans 11:36 affirming all is from God’s glory, and Philippians 2:9-11 about honoring God’s name.",
+          "verseReference": "Psalms 23:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-theological-q13",
+          "question": "How does the shepherd imagery in Psalms 23 relate to Christology?",
+          "type": "multiple-choice",
+          "options": [
+            "It foreshadows Christ as the Good Shepherd who cares for His sheep.",
+            "It refers only to Old Testament priests.",
+            "It is a metaphor for earthly kings only.",
+            "It symbolizes pagan gods."
+          ],
+          "correctAnswer": "It foreshadows Christ as the Good Shepherd who cares for His sheep.",
+          "explanation": "Psalms 23’s shepherd imagery anticipates Christ’s role, as Jesus identifies Himself as the Good Shepherd in John 10:11, who lays down His life for the sheep, fulfilling the protective and guiding role described here, supported by Isaiah 40:11 and Hebrews 13:20 calling Christ the great Shepherd, and 1 Peter 2:25 describing believers as sheep returned to the Shepherd.",
+          "verseReference": "Psalms 23:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-theological-q14",
+          "question": "Which aspect of salvation theology is emphasized by 'He restoreth my soul' in Psalms 23:3?",
+          "type": "multiple-choice",
+          "options": [
+            "The restoration of the believer’s inner life and spiritual vitality.",
+            "Physical healing only.",
+            "Material wealth as a sign of salvation.",
+            "Perfection through human effort."
+          ],
+          "correctAnswer": "The restoration of the believer’s inner life and spiritual vitality.",
+          "explanation": "'He restoreth my soul' expresses God’s renewing of the believer’s inner being, a core aspect of salvation involving spiritual regeneration, consistent with Ezekiel 37:14 on God reviving dry bones, Psalm 51:10 about a clean heart, Titus 3:5 on renewal by the Holy Spirit, and 2 Corinthians 5:17 on new creation in Christ.",
+          "verseReference": "Psalms 23:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-23-theological-q15",
+          "question": "How does Psalms 23 demonstrate God’s sovereignty even in the presence of enemies?",
+          "type": "multiple-choice",
+          "options": [
+            "God prepares a table before the believer in the presence of enemies.",
+            "God destroys all enemies immediately.",
+            "God hides the believer from enemies.",
+            "God leaves the believer to fight alone."
+          ],
+          "correctAnswer": "God prepares a table before the believer in the presence of enemies.",
+          "explanation": "Psalms 23:5 shows God’s sovereign blessing and provision are not hindered by hostile circumstances, emphasizing His protective power, which parallels Romans 8:31 on God being for us, Exodus 14:14 where God fights for His people, Isaiah 54:17 promising no weapon prospers, and 2 Timothy 4:17 where God stands with the servant.",
+          "verseReference": "Psalms 23:5",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "psalms-23-quiz",
+      "tags": [
+        "psalms",
+        "chapter-23",
+        "psalms",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

@@ -1,0 +1,983 @@
+{
+  "id": "nehemiah-12-tabbed",
+  "title": "Nehemiah Chapter 12 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Nehemiah chapter 12 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "nehemiah-12-easy",
+      "title": "Nehemiah Chapter 12 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Nehemiah Chapter 12.",
+      "type": "chapter",
+      "book": "Nehemiah",
+      "chapter": 12,
+      "questions": [
+        {
+          "id": "nehemiah-12-easy-q1",
+          "question": "Who was the son of Shealtiel mentioned as going up with the priests and Levites?",
+          "type": "multiple-choice",
+          "options": [
+            "Zerubbabel",
+            "Jeshua",
+            "Ezra",
+            "Seraiah"
+          ],
+          "correctAnswer": "Zerubbabel",
+          "explanation": "Nehemiah 12:1 mentions the priests and Levites that went up with Zerubbabel the son of Shealtiel.",
+          "verseReference": "Nehemiah 12:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "nehemiah-12-easy-q2",
+          "question": "Which of the following was NOT listed among the chief priests in the days of Jeshua?",
+          "type": "multiple-choice",
+          "options": [
+            "Malluch",
+            "Jedaiah",
+            "Hilkiah",
+            "Moses"
+          ],
+          "correctAnswer": "Moses",
+          "explanation": "Nehemiah 12:6-7 lists several chief priests including Malluch, Jedaiah, and Hilkiah, but Moses is not mentioned.",
+          "verseReference": "Nehemiah 12:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "nehemiah-12-easy-q3",
+          "question": "Who was over the thanksgiving among the Levites?",
+          "type": "multiple-choice",
+          "options": [
+            "Mattaniah",
+            "Jeshua",
+            "Kadmiel",
+            "Judah"
+          ],
+          "correctAnswer": "Mattaniah",
+          "explanation": "Nehemiah 12:8 states that Mattaniah was over the thanksgiving, along with his brethren.",
+          "verseReference": "Nehemiah 12:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "nehemiah-12-easy-q4",
+          "question": "Which priest was a son of Jeshua according to the genealogy?",
+          "type": "multiple-choice",
+          "options": [
+            "Joiakim",
+            "Eliashib",
+            "Joiada",
+            "Jonathan"
+          ],
+          "correctAnswer": "Joiakim",
+          "explanation": "Nehemiah 12:10 states that Jeshua begat Joiakim.",
+          "verseReference": "Nehemiah 12:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "nehemiah-12-easy-q5",
+          "question": "True or False: The priests and Levites purified the people, gates, and the wall.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Nehemiah 12:30 describes that the priests and Levites purified themselves, the people, the gates, and the wall.",
+          "verseReference": "Nehemiah 12:30",
+          "difficulty": "easy"
+        },
+        {
+          "id": "nehemiah-12-easy-q6",
+          "question": "Which gate did one company of those giving thanks move toward on the wall?",
+          "type": "multiple-choice",
+          "options": [
+            "Dung gate",
+            "Sheep gate",
+            "Fish gate",
+            "Water gate"
+          ],
+          "correctAnswer": "Dung gate",
+          "explanation": "Nehemiah 12:31 says one great company gave thanks going on the right hand upon the wall toward the dung gate.",
+          "verseReference": "Nehemiah 12:31",
+          "difficulty": "easy"
+        },
+        {
+          "id": "nehemiah-12-easy-q7",
+          "question": "Who was the overseer of the singers?",
+          "type": "multiple-choice",
+          "options": [
+            "Jezrahiah",
+            "Zechariah",
+            "Ezra",
+            "Jonathan"
+          ],
+          "correctAnswer": "Jezrahiah",
+          "explanation": "Nehemiah 12:42 mentions that the singers sang loud with Jezrahiah their overseer.",
+          "verseReference": "Nehemiah 12:42",
+          "difficulty": "easy"
+        },
+        {
+          "id": "nehemiah-12-easy-q8",
+          "question": "What musical instruments were used at the dedication of the wall of Jerusalem?",
+          "type": "multiple-choice",
+          "options": [
+            "Cymbals, psalteries, harps",
+            "Trumpets, tambourines, lyres",
+            "Flutes, harps, drums",
+            "Sistrums, cymbals, flutes"
+          ],
+          "correctAnswer": "Cymbals, psalteries, harps",
+          "explanation": "Nehemiah 12:27 records that the Levites kept the dedication with gladness using cymbals, psalteries, and harps.",
+          "verseReference": "Nehemiah 12:27",
+          "difficulty": "easy"
+        },
+        {
+          "id": "nehemiah-12-easy-q9",
+          "question": "True or False: The joy of Jerusalem at the dedication was only experienced by the priests.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Nehemiah 12:43 shows that the wives and children also rejoiced, and the joy was heard afar off.",
+          "verseReference": "Nehemiah 12:43",
+          "difficulty": "easy"
+        },
+        {
+          "id": "nehemiah-12-easy-q10",
+          "question": "Who was appointed over the chambers for the treasures and offerings?",
+          "type": "multiple-choice",
+          "options": [
+            "Some appointed men",
+            "Jeshua",
+            "Nehemiah",
+            "Zerubbabel"
+          ],
+          "correctAnswer": "Some appointed men",
+          "explanation": "Nehemiah 12:44 states that some were appointed over chambers for treasures, offerings, firstfruits, and tithes to gather portions for priests and Levites.",
+          "verseReference": "Nehemiah 12:44",
+          "difficulty": "easy"
+        },
+        {
+          "id": "nehemiah-12-easy-q11",
+          "question": "Fill in the blank: 'And both the singers and the porters kept the ward of their God, and the ward of the _______, according to the commandment of David.'",
+          "type": "fill-blank",
+          "options": [
+            "purification",
+            "sanctification",
+            "prayer",
+            "celebration"
+          ],
+          "correctAnswer": "purification",
+          "explanation": "Nehemiah 12:45 mentions the ward of the purification as the area kept by singers and porters according to David's commandment.",
+          "verseReference": "Nehemiah 12:45",
+          "difficulty": "easy"
+        },
+        {
+          "id": "nehemiah-12-easy-q12",
+          "question": "Who was governor during the days of Joiakim son of Jeshua?",
+          "type": "multiple-choice",
+          "options": [
+            "Nehemiah",
+            "Ezra",
+            "Zerubbabel",
+            "David"
+          ],
+          "correctAnswer": "Nehemiah",
+          "explanation": "Nehemiah 12:26 mentions the days of Joiakim son of Jeshua and the days of Nehemiah the governor.",
+          "verseReference": "Nehemiah 12:26",
+          "difficulty": "easy"
+        },
+        {
+          "id": "nehemiah-12-easy-q13",
+          "question": "True or False: The Levites sanctified the holy things to the children of Aaron.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Nehemiah 12:47 says the Levites sanctified the holy things unto the children of Aaron.",
+          "verseReference": "Nehemiah 12:47",
+          "difficulty": "easy"
+        },
+        {
+          "id": "nehemiah-12-easy-q14",
+          "question": "According to Nehemiah 12:23, the sons of Levi were recorded in the book of the chronicles until the days of whom?",
+          "type": "multiple-choice",
+          "options": [
+            "Johanan the son of Eliashib",
+            "Joiada",
+            "Jonathan",
+            "Zerubbabel"
+          ],
+          "correctAnswer": "Johanan the son of Eliashib",
+          "explanation": "Nehemiah 12:23 states the sons of Levi were recorded in the chronicles until the days of Johanan the son of Eliashib.",
+          "verseReference": "Nehemiah 12:23",
+          "difficulty": "easy"
+        },
+        {
+          "id": "nehemiah-12-easy-q15",
+          "question": "Who was the son of Jonathan and a priest's son with trumpets?",
+          "type": "multiple-choice",
+          "options": [
+            "Zechariah",
+            "Shemaiah",
+            "Azariah",
+            "Ezra"
+          ],
+          "correctAnswer": "Zechariah",
+          "explanation": "Nehemiah 12:35 names Zechariah son of Jonathan as one of the priests' sons with trumpets.",
+          "verseReference": "Nehemiah 12:35",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "nehemiah-12-quiz",
+      "tags": [
+        "nehemiah",
+        "chapter-12",
+        "nehemiah",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "nehemiah-12-medium",
+      "title": "Nehemiah Chapter 12 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Nehemiah Chapter 12 to real-life situations.",
+      "type": "chapter",
+      "book": "Nehemiah",
+      "chapter": 12,
+      "questions": [
+        {
+          "id": "nehemiah-12-medium-q1",
+          "question": "A fellow believer is struggling with maintaining gratitude in their daily life. Based on Nehemiah 12, what biblical truth would you share about cultivating gratitude?",
+          "type": "multiple-choice",
+          "options": [
+            "Praise and thanksgiving should be continual and done according to God's command",
+            "Gratitude is only necessary during times of celebration",
+            "Thanksgiving is a private matter and should not be expressed publicly",
+            "Gratitude depends solely on circumstances, not on obedience"
+          ],
+          "correctAnswer": "Praise and thanksgiving should be continual and done according to God's command",
+          "explanation": "Nehemiah 12:24 and 12:27 show that the Levites and people were commanded to praise and give thanks continually, with singing and gladness, highlighting the importance of ongoing gratitude regardless of circumstances.",
+          "verseReference": "Nehemiah 12:24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "nehemiah-12-medium-q2",
+          "question": "How does Nehemiah 12 teach us about the importance of family legacy and spiritual heritage?",
+          "type": "multiple-choice",
+          "options": [
+            "It emphasizes the recording and honoring of priestly and Levite genealogies",
+            "Family heritage is irrelevant to spiritual faith",
+            "Only personal faith matters, not family background",
+            "Genealogies should be forgotten to focus on the present"
+          ],
+          "correctAnswer": "It emphasizes the recording and honoring of priestly and Levite genealogies",
+          "explanation": "Verses 10-23 record detailed genealogies of priests and Levites, showing the value of honoring family heritage and spiritual leadership passed down through generations.",
+          "verseReference": "Nehemiah 12:10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "nehemiah-12-medium-q3",
+          "question": "A church leader wants to encourage faithful stewardship in the congregation. What does Nehemiah 12 teach about stewardship of resources?",
+          "type": "multiple-choice",
+          "options": [
+            "Appointing leaders to collect offerings and tithes to support priests and Levites",
+            "Stewardship is optional and not necessary for spiritual growth",
+            "Giving should only happen during large festivals",
+            "Resources belong solely to individuals and not to the community"
+          ],
+          "correctAnswer": "Appointing leaders to collect offerings and tithes to support priests and Levites",
+          "explanation": "Nehemiah 12:44-47 describes the appointment of overseers for the chambers collecting offerings, firstfruits, and tithes to support the priests and Levites, demonstrating organized stewardship for God's work.",
+          "verseReference": "Nehemiah 12:44",
+          "difficulty": "medium"
+        },
+        {
+          "id": "nehemiah-12-medium-q4",
+          "question": "How does Nehemiah 12 model perseverance through trials and faithful service in ministry?",
+          "type": "multiple-choice",
+          "options": [
+            "The priests and Levites faithfully served through rebuilding and dedication despite challenges",
+            "They gave up when obstacles arose",
+            "Service was only seasonal and not consistent",
+            "They ignored God's commands when difficulties came"
+          ],
+          "correctAnswer": "The priests and Levites faithfully served through rebuilding and dedication despite challenges",
+          "explanation": "The chapter shows priests and Levites serving during the wall's dedication (Nehemiah 12:27-43), highlighting perseverance and faithful ministry amidst challenges of restoration.",
+          "verseReference": "Nehemiah 12:27",
+          "difficulty": "medium"
+        },
+        {
+          "id": "nehemiah-12-medium-q5",
+          "question": "A believer is struggling with maintaining spiritual discipline. What example from Nehemiah 12 encourages continuing in obedience and worship?",
+          "type": "multiple-choice",
+          "options": [
+            "The Levites and priests purified themselves and the people before worship",
+            "Worship can be casual and without preparation",
+            "Obedience is optional during difficult times",
+            "Spiritual discipline is not necessary for communal worship"
+          ],
+          "correctAnswer": "The Levites and priests purified themselves and the people before worship",
+          "explanation": "Nehemiah 12:30 shows the priests and Levites purifying themselves and the people, gates, and wall, emphasizing the importance of holiness and discipline in worship.",
+          "verseReference": "Nehemiah 12:30",
+          "difficulty": "medium"
+        },
+        {
+          "id": "nehemiah-12-medium-q6",
+          "question": "How does Nehemiah 12 highlight the role of music and praise in spiritual life?",
+          "type": "multiple-choice",
+          "options": [
+            "Music and singing were integral to worship and expressing joy to God",
+            "Music was discouraged during worship",
+            "Praise was silent and private only",
+            "Only instrumental music was allowed without singing"
+          ],
+          "correctAnswer": "Music and singing were integral to worship and expressing joy to God",
+          "explanation": "Nehemiah 12:27, 12:35-36, and 12:42 show singers, musical instruments, and joyful praising as key elements during the dedication, underscoring music's vital role in worship.",
+          "verseReference": "Nehemiah 12:27",
+          "difficulty": "medium"
+        },
+        {
+          "id": "nehemiah-12-medium-q7",
+          "question": "True or False: Nehemiah 12 teaches that organized roles and responsibilities in the church help maintain order and worship.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Verses 24-25 and 44 describe appointing chiefs of Levites, porters, and overseers for offerings, showing the importance of structured roles for worship and stewardship.",
+          "verseReference": "Nehemiah 12:24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "nehemiah-12-medium-q8",
+          "question": "True or False: According to Nehemiah 12, rejoicing in God's work is a communal event that includes families and leaders alike.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Nehemiah 12:43 states that the joy of Jerusalem was celebrated with great sacrifices, rejoicing of wives and children, demonstrating communal rejoicing.",
+          "verseReference": "Nehemiah 12:43",
+          "difficulty": "medium"
+        },
+        {
+          "id": "nehemiah-12-medium-q9",
+          "question": "Fill in the blank: At the dedication of the wall, the Levites were brought together to keep the dedication with gladness, both with __________, and with singing, with cymbals, psalteries, and with harps.",
+          "type": "fill-blank",
+          "options": [
+            "thanksgivings",
+            "prayers",
+            "fasting",
+            "silence"
+          ],
+          "correctAnswer": "thanksgivings",
+          "explanation": "Nehemiah 12:27 clearly states that the Levites were gathered for the dedication with gladness, thanksgivings, and musical instruments, emphasizing joyful worship.",
+          "verseReference": "Nehemiah 12:27",
+          "difficulty": "medium"
+        },
+        {
+          "id": "nehemiah-12-medium-q10",
+          "question": "How does Nehemiah 12 encourage humility and contentment in service to God?",
+          "type": "multiple-choice",
+          "options": [
+            "Service includes various roles like singers, porters, and priests, each vital and honored",
+            "Only priests are important in God's work",
+            "Humility means avoiding service",
+            "Contentment comes from status, not obedience"
+          ],
+          "correctAnswer": "Service includes various roles like singers, porters, and priests, each vital and honored",
+          "explanation": "Verses 24-25 and 45 show different groups serving God in diverse capacities, teaching that each role is valuable and requires humility and contentment.",
+          "verseReference": "Nehemiah 12:24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "nehemiah-12-medium-q11",
+          "question": "What does Nehemiah 12 teach about the importance of obedience to God's commandments in public worship?",
+          "type": "multiple-choice",
+          "options": [
+            "God's commandment guided the Levites and priests in praise, purification, and stewardship",
+            "Obedience to God's law is optional in worship",
+            "Public worship should be informal and spontaneous only",
+            "Commandments only apply to personal prayer"
+          ],
+          "correctAnswer": "God's commandment guided the Levites and priests in praise, purification, and stewardship",
+          "explanation": "Nehemiah 12:24 and 12:45 emphasize that worship and service followed David's and Solomon's commandments, showing the importance of obedient, structured worship.",
+          "verseReference": "Nehemiah 12:24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "nehemiah-12-medium-q12",
+          "question": "A fellow believer is overwhelmed by the work of ministry. Based on Nehemiah 12, what biblical principle can you share about teamwork and shared responsibilities?",
+          "type": "multiple-choice",
+          "options": [
+            "Ministry involves many working together in different roles, supporting each other",
+            "Ministry is only for select leaders, not the many",
+            "One person should bear all responsibilities",
+            "Shared ministry causes confusion and should be avoided"
+          ],
+          "correctAnswer": "Ministry involves many working together in different roles, supporting each other",
+          "explanation": "Nehemiah 12:31-42 describes two companies giving thanks, priests, singers, and porters all serving together, illustrating teamwork in worship and ministry.",
+          "verseReference": "Nehemiah 12:31",
+          "difficulty": "medium"
+        },
+        {
+          "id": "nehemiah-12-medium-q13",
+          "question": "How does Nehemiah 12 teach about the value of rejoicing in God's blessings as a community?",
+          "type": "multiple-choice",
+          "options": [
+            "The joy of Jerusalem was so great it was heard afar off, involving all people",
+            "Rejoicing should be private and quiet",
+            "Joy is only for leaders, not the community",
+            "Blessings are to be kept to oneself"
+          ],
+          "correctAnswer": "The joy of Jerusalem was so great it was heard afar off, involving all people",
+          "explanation": "Nehemiah 12:43 shows that the entire community, including wives and children, rejoiced greatly, highlighting communal celebration of God's blessings.",
+          "verseReference": "Nehemiah 12:43",
+          "difficulty": "medium"
+        },
+        {
+          "id": "nehemiah-12-medium-q14",
+          "question": "According to Nehemiah 12, what is a practical lesson about integrity and honesty in handling God's offerings?",
+          "type": "multiple-choice",
+          "options": [
+            "Appointing trustworthy leaders to manage treasuries and offerings ensures integrity",
+            "Anyone can take offerings without accountability",
+            "Offerings do not require oversight",
+            "Stewardship is not important in ministry"
+          ],
+          "correctAnswer": "Appointing trustworthy leaders to manage treasuries and offerings ensures integrity",
+          "explanation": "Nehemiah 12:44 mentions appointing some over the chambers for treasures and offerings, showing structured, honest management of resources.",
+          "verseReference": "Nehemiah 12:44",
+          "difficulty": "medium"
+        },
+        {
+          "id": "nehemiah-12-medium-q15",
+          "question": "How does the chapter teach about the importance of prayer and devotion in leadership?",
+          "type": "multiple-choice",
+          "options": [
+            "Leaders like Ezra the priest and scribe led worship and song, exemplifying devotion",
+            "Leaders focused only on administrative duties without spiritual example",
+            "Prayer was a personal matter with no role in public leadership",
+            "Devotion is not necessary for effective leadership"
+          ],
+          "correctAnswer": "Leaders like Ezra the priest and scribe led worship and song, exemplifying devotion",
+          "explanation": "Nehemiah 12:36 and 12:26 show Ezra leading with the singers and in the dedication, emphasizing leadership grounded in prayer and worship.",
+          "verseReference": "Nehemiah 12:36",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "nehemiah-12-quiz",
+      "tags": [
+        "nehemiah",
+        "chapter-12",
+        "nehemiah",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "nehemiah-12-hard",
+      "title": "Nehemiah Chapter 12 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Nehemiah Chapter 12.",
+      "type": "chapter",
+      "book": "Nehemiah",
+      "chapter": 12,
+      "questions": [
+        {
+          "id": "nehemiah-12-hard-q1",
+          "question": "Who were the priests and Levites that went up with Zerubbabel and Jeshua as mentioned at the beginning of Nehemiah 12?",
+          "type": "multiple-choice",
+          "options": [
+            "Seraiah, Jeremiah, Ezra",
+            "Moses, Aaron, Hur",
+            "Elijah, Elisha, Samuel",
+            "David, Solomon, Nathan"
+          ],
+          "correctAnswer": "Seraiah, Jeremiah, Ezra",
+          "explanation": "Nehemiah 12:1 lists the priests and Levites who went up with Zerubbabel and Jeshua, including Seraiah, Jeremiah, and Ezra.",
+          "verseReference": "Nehemiah 12:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-hard-q2",
+          "question": "What role did Mattaniah hold among the Levites according to Nehemiah 12?",
+          "type": "multiple-choice",
+          "options": [
+            "Over the thanksgiving",
+            "Porter at the gates",
+            "Chief priest",
+            "Scribe and recorder"
+          ],
+          "correctAnswer": "Over the thanksgiving",
+          "explanation": "Nehemiah 12:8 describes Mattaniah as the one over the thanksgiving along with his brethren.",
+          "verseReference": "Nehemiah 12:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-hard-q3",
+          "question": "According to Nehemiah 12, which family lineage is traced through Jeshua, Joiakim, Eliashib, Joiada, Jonathan, and Jaddua?",
+          "type": "multiple-choice",
+          "options": [
+            "Priestly lineage",
+            "Royal lineage",
+            "Levite gatekeepers",
+            "Prophetic descendants"
+          ],
+          "correctAnswer": "Priestly lineage",
+          "explanation": "Nehemiah 12:10-11 traces the genealogy of priests beginning with Jeshua and continuing through Joiakim and others.",
+          "verseReference": "Nehemiah 12:10-11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-hard-q4",
+          "question": "Which Persian king's reign is mentioned in connection with the priests and Levites in Nehemiah 12?",
+          "type": "multiple-choice",
+          "options": [
+            "Darius the Persian",
+            "Cyrus the Great",
+            "Artaxerxes",
+            "Xerxes"
+          ],
+          "correctAnswer": "Darius the Persian",
+          "explanation": "Nehemiah 12:22 refers to the priests and Levites being recorded up to the reign of Darius the Persian.",
+          "verseReference": "Nehemiah 12:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-hard-q5",
+          "question": "What was the purpose of appointing Mattaniah, Bakbukiah, Obadiah, Meshullam, Talmon, and Akkub as porters?",
+          "type": "multiple-choice",
+          "options": [
+            "Keeping the ward at the thresholds of the gates",
+            "Leading the musical worship",
+            "Collecting tithes",
+            "Writing the chronicles"
+          ],
+          "correctAnswer": "Keeping the ward at the thresholds of the gates",
+          "explanation": "Nehemiah 12:25 states these men were porters responsible for guarding the gates.",
+          "verseReference": "Nehemiah 12:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-hard-q6",
+          "question": "During the dedication of the wall of Jerusalem, what instruments did the Levites use for praise and thanksgiving?",
+          "type": "multiple-choice",
+          "options": [
+            "Cymbals, psalteries, and harps",
+            "Trumpets only",
+            "Drums and flutes",
+            "Lyres and horns"
+          ],
+          "correctAnswer": "Cymbals, psalteries, and harps",
+          "explanation": "Nehemiah 12:27 mentions the Levites used cymbals, psalteries, and harps during the dedication.",
+          "verseReference": "Nehemiah 12:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-hard-q7",
+          "question": "Which city gates are mentioned in the procession during the dedication of the wall in Nehemiah 12?",
+          "type": "multiple-choice",
+          "options": [
+            "Dung gate, Fountain gate, Water gate",
+            "Golden gate, Sheep gate, East gate",
+            "North gate, South gate, West gate",
+            "Lion gate, Gate of Ephraim, Fish gate"
+          ],
+          "correctAnswer": "Dung gate, Fountain gate, Water gate",
+          "explanation": "Nehemiah 12:31-37 describe the procession going from the dung gate to the fountain gate and up to the water gate.",
+          "verseReference": "Nehemiah 12:31-37",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-hard-q8",
+          "question": "Who led the company of priests with trumpets during the dedication procession in Nehemiah 12?",
+          "type": "multiple-choice",
+          "options": [
+            "Zechariah the son of Jonathan",
+            "Ezra the scribe",
+            "Nehemiah the governor",
+            "Jeshua the son of Kadmiel"
+          ],
+          "correctAnswer": "Zechariah the son of Jonathan",
+          "explanation": "Nehemiah 12:35 identifies Zechariah son of Jonathan as one of the priests with trumpets in the procession.",
+          "verseReference": "Nehemiah 12:35",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-hard-q9",
+          "question": "What was the significance of the joy and sacrifices offered during the wall dedication as described in Nehemiah 12?",
+          "type": "multiple-choice",
+          "options": [
+            "God had made them rejoice with great joy",
+            "It was a royal festival honoring the king",
+            "It marked the end of a famine",
+            "It was a tribute to the Persian empire"
+          ],
+          "correctAnswer": "God had made them rejoice with great joy",
+          "explanation": "Nehemiah 12:43 explains their great joy and sacrifices were because God had caused them to rejoice.",
+          "verseReference": "Nehemiah 12:43",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-hard-q10",
+          "question": "What function did some individuals have over the chambers for treasures, offerings, firstfruits, and tithes during Nehemiah’s time?",
+          "type": "multiple-choice",
+          "options": [
+            "To gather portions of the law for priests and Levites",
+            "To lead the musical worship",
+            "To guard the city gates",
+            "To write the chronicles"
+          ],
+          "correctAnswer": "To gather portions of the law for priests and Levites",
+          "explanation": "Nehemiah 12:44 says some were appointed to oversee the chambers to gather offerings and tithes for priests and Levites.",
+          "verseReference": "Nehemiah 12:44",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-hard-q11",
+          "question": "According to Nehemiah 12, the singers and porters kept the ward according to the commandment of whom?",
+          "type": "multiple-choice",
+          "options": [
+            "David and Solomon",
+            "Moses and Aaron",
+            "Zerubbabel and Jeshua",
+            "Ezra and Nehemiah"
+          ],
+          "correctAnswer": "David and Solomon",
+          "explanation": "Nehemiah 12:45 states the singers and porters kept the ward according to the commandment of David and Solomon.",
+          "verseReference": "Nehemiah 12:45",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-hard-q12",
+          "question": "What is the relationship between the days of Zerubbabel and Nehemiah and the giving of portions to singers and porters?",
+          "type": "multiple-choice",
+          "options": [
+            "Portions were given daily and sanctified to the Levites",
+            "Portions were withheld due to scarcity",
+            "Only occasional offerings were given",
+            "Portions were given exclusively to priests"
+          ],
+          "correctAnswer": "Portions were given daily and sanctified to the Levites",
+          "explanation": "Nehemiah 12:47 explains that during Zerubbabel and Nehemiah's days, portions were daily given and sanctified to the Levites.",
+          "verseReference": "Nehemiah 12:47",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-hard-q13",
+          "question": "True or False: The sons of the singers gathered themselves from villages around Jerusalem including Netophathi, Gilgal, Geba, and Azmaveth.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Nehemiah 12:28-29 describes singers gathering from these surrounding villages to Jerusalem.",
+          "verseReference": "Nehemiah 12:28-29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-hard-q14",
+          "question": "Fill in the blank: The priests and Levites purified themselves, the people, the gates, and the _____ during the dedication.",
+          "type": "multiple-choice",
+          "options": [
+            "wall",
+            "altar",
+            "temple",
+            "courtyard"
+          ],
+          "correctAnswer": "wall",
+          "explanation": "Nehemiah 12:30 states that the priests and Levites purified the gates and the wall along with themselves and the people.",
+          "verseReference": "Nehemiah 12:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-hard-q15",
+          "question": "Which scribe is mentioned as going before the musical procession during the dedication of the wall?",
+          "type": "multiple-choice",
+          "options": [
+            "Ezra the scribe",
+            "Nehemiah the governor",
+            "Joiada the priest",
+            "Jonathan the Levite"
+          ],
+          "correctAnswer": "Ezra the scribe",
+          "explanation": "Nehemiah 12:36 notes Ezra the scribe going before the procession with musical instruments of David.",
+          "verseReference": "Nehemiah 12:36",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "nehemiah-12-quiz",
+      "tags": [
+        "nehemiah",
+        "chapter-12",
+        "nehemiah",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "nehemiah-12-theological",
+      "title": "Nehemiah Chapter 12 Quiz - Theological Level",
+      "description": "Deep biblical theology from Nehemiah Chapter 12 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Nehemiah",
+      "chapter": 12,
+      "questions": [
+        {
+          "id": "nehemiah-12-theological-q1",
+          "question": "Who were the priests and Levites that returned with Zerubbabel and Jeshua as mentioned at the beginning of Nehemiah 12?",
+          "type": "multiple-choice",
+          "options": [
+            "Seraiah, Jeremiah, Ezra",
+            "Moses, Aaron, Eleazar",
+            "Samuel, Nathan, Gad",
+            "Elijah, Elisha, Isaiah"
+          ],
+          "correctAnswer": "Seraiah, Jeremiah, Ezra",
+          "explanation": "Nehemiah 12:1 lists Seraiah, Jeremiah, and Ezra among those priests and Levites who returned with Zerubbabel and Jeshua. This reflects the restoration and reestablishment of temple worship, consistent with Ezra 2:2 and 1 Chronicles 9:2 where these leaders are associated with the post-exilic priesthood.",
+          "verseReference": "Nehemiah 12:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-theological-q2",
+          "question": "According to Nehemiah 12, who was over the thanksgiving among the Levites?",
+          "type": "multiple-choice",
+          "options": [
+            "Mattaniah",
+            "Jeshua",
+            "Kadmiel",
+            "Sherebiah"
+          ],
+          "correctAnswer": "Mattaniah",
+          "explanation": "Nehemiah 12:8 identifies Mattaniah as over the thanksgiving along with Jeshua, Binnui, Kadmiel, and Sherebiah. Leadership in worship and praise aligns with the role of Levites in temple service, echoing 1 Chronicles 15:16 and Psalm 95:1–2 where thanksgiving is central to divine worship.",
+          "verseReference": "Nehemiah 12:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-theological-q3",
+          "question": "Which figure in Nehemiah 12 is noted as the father of Joiakim, whose priestly lineage is recorded?",
+          "type": "multiple-choice",
+          "options": [
+            "Jeshua",
+            "Zerubbabel",
+            "Ezra",
+            "Nehemiah"
+          ],
+          "correctAnswer": "Jeshua",
+          "explanation": "Nehemiah 12:10 notes Jeshua begat Joiakim, establishing a priestly genealogy important for maintaining legitimate worship. This genealogical emphasis underlines the continuity of the covenant priesthood, similar to references in Ezra 7:1–5 and Luke 3:27 regarding priestly lineages.",
+          "verseReference": "Nehemiah 12:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-theological-q4",
+          "question": "What was the purpose of gathering the Levites during the dedication of Jerusalem's wall according to Nehemiah 12?",
+          "type": "multiple-choice",
+          "options": [
+            "To keep the dedication with gladness, thanksgivings, and singing",
+            "To fight against enemies",
+            "To build new houses",
+            "To write new laws"
+          ],
+          "correctAnswer": "To keep the dedication with gladness, thanksgivings, and singing",
+          "explanation": "Nehemiah 12:27 describes the Levites being gathered to celebrate the wall's dedication with joy, thanksgiving, and music, signifying God's faithfulness and the community's restoration. This celebration echoes themes of worship and restoration found in Psalm 122:1 and Isaiah 12:3–6.",
+          "verseReference": "Nehemiah 12:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-theological-q5",
+          "question": "Who led the two companies that gave thanks and praise on the wall during the dedication in Nehemiah 12?",
+          "type": "multiple-choice",
+          "options": [
+            "Hoshaiah and Azariah",
+            "Moses and Aaron",
+            "David and Solomon",
+            "Elijah and Elisha"
+          ],
+          "correctAnswer": "Hoshaiah and Azariah",
+          "explanation": "Nehemiah 12:32 and 12:33 mention Hoshaiah leading one company and Azariah along with others leading the other, showing organized worship leadership. This reflects the biblical pattern of communal praise under godly leadership as seen in 2 Chronicles 20:19 and 1 Chronicles 25:1.",
+          "verseReference": "Nehemiah 12:32-33",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-theological-q6",
+          "question": "According to Nehemiah 12, what instruments accompanied the singers during the dedication of the wall?",
+          "type": "multiple-choice",
+          "options": [
+            "Cymbals, psalteries, and harps",
+            "Trumpets, drums, and flutes",
+            "Lutes, lyres, and tambourines",
+            "Shofars, horns, and violins"
+          ],
+          "correctAnswer": "Cymbals, psalteries, and harps",
+          "explanation": "Nehemiah 12:27 specifies cymbals, psalteries, and harps used in worship during the dedication, instruments traditionally associated with temple praise (Psalm 150:4-6; 1 Chronicles 15:16). This demonstrates the continuation of the Levitical musical tradition in glorifying God.",
+          "verseReference": "Nehemiah 12:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-theological-q7",
+          "question": "What role did the porters have according to Nehemiah 12:25?",
+          "type": "multiple-choice",
+          "options": [
+            "Keeping the ward at the thresholds of the gates",
+            "Leading the singing",
+            "Offering sacrifices",
+            "Teaching the law"
+          ],
+          "correctAnswer": "Keeping the ward at the thresholds of the gates",
+          "explanation": "Nehemiah 12:25 describes porters as guardians stationed at the gates, a role vital for temple security and sanctity, consistent with 1 Chronicles 9:17-27 and Ezekiel 44:2-6 where gatekeepers protect the holy place, symbolizing the holiness and order required in worship.",
+          "verseReference": "Nehemiah 12:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-theological-q8",
+          "question": "Who is mentioned as overseeing the singers during the dedication ceremony in Nehemiah 12?",
+          "type": "multiple-choice",
+          "options": [
+            "Jezrahiah",
+            "David",
+            "Ezra",
+            "Nehemiah"
+          ],
+          "correctAnswer": "Jezrahiah",
+          "explanation": "Nehemiah 12:42 mentions Jezrahiah as the overseer of the singers, highlighting the organized, Spirit-led worship structure. This mirrors the importance of worship leaders in Scripture like David (1 Chronicles 16:4-7) and Asaph (Psalm 73 title), emphasizing orderly praise to God.",
+          "verseReference": "Nehemiah 12:42",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-theological-q9",
+          "question": "What was the significance of the great sacrifices offered during the dedication of the wall in Nehemiah 12?",
+          "type": "multiple-choice",
+          "options": [
+            "They symbolized God's provision and community's joy",
+            "They were meant to appease neighboring nations",
+            "They were to initiate a new priesthood",
+            "They replaced the Passover feast"
+          ],
+          "correctAnswer": "They symbolized God's provision and community's joy",
+          "explanation": "Nehemiah 12:43 explains the great sacrifices accompanied by joy, indicating God's blessing and the people's grateful celebration, reflecting themes seen in Leviticus 9:22-24 and Psalm 118:24 where sacrifice and rejoicing are linked to covenant renewal and salvation.",
+          "verseReference": "Nehemiah 12:43",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-theological-q10",
+          "question": "What was the function of those appointed over the chambers during Nehemiah's time according to Nehemiah 12:44?",
+          "type": "multiple-choice",
+          "options": [
+            "To gather offerings, firstfruits, and tithes for priests and Levites",
+            "To guard the temple gates",
+            "To lead the musical worship",
+            "To teach the people the law"
+          ],
+          "correctAnswer": "To gather offerings, firstfruits, and tithes for priests and Levites",
+          "explanation": "Nehemiah 12:44 states the appointed individuals managed collection of offerings and tithes, supporting the priests and Levites' sustenance, a practice rooted in Mosaic law (Numbers 18:21-24; Malachi 3:10) and vital for sustaining temple worship and ministry.",
+          "verseReference": "Nehemiah 12:44",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-theological-q11",
+          "question": "According to Nehemiah 12, what was the relationship between the singers, porters, and the Levites in their service to God?",
+          "type": "multiple-choice",
+          "options": [
+            "They all kept the ward and purification according to David's and Solomon's commandment",
+            "They competed for the best worship role",
+            "They worked independently without coordination",
+            "They were responsible only for sacrifices"
+          ],
+          "correctAnswer": "They all kept the ward and purification according to David's and Solomon's commandment",
+          "explanation": "Nehemiah 12:45 highlights the unity of singers, porters, and Levites in maintaining temple order and holiness, following Davidic and Solomonic precedents (1 Chronicles 23:28-32; 2 Chronicles 8:14), emphasizing ecclesiology and the sanctity of worship service.",
+          "verseReference": "Nehemiah 12:45",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-theological-q12",
+          "question": "How does Nehemiah 12 reflect the biblical theme of God's faithfulness through the restoration of worship?",
+          "type": "multiple-choice",
+          "options": [
+            "By recording priestly genealogies and organizing worship at the wall dedication",
+            "By narrating the conquest of Jerusalem",
+            "By commanding new laws to replace the Torah",
+            "By focusing on temple destruction"
+          ],
+          "correctAnswer": "By recording priestly genealogies and organizing worship at the wall dedication",
+          "explanation": "Nehemiah 12 emphasizes God’s faithfulness by preserving genealogies of priests (Nehemiah 12:10-23) and orchestrating joyful worship during the wall’s dedication (Nehemiah 12:27-43), reflecting covenant continuity and restoration themes found in Isaiah 40:1-5 and Jeremiah 33:7.",
+          "verseReference": "Nehemiah 12:10-27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-theological-q13",
+          "question": "In Nehemiah 12, what role does the book of chronicles play regarding the Levites?",
+          "type": "multiple-choice",
+          "options": [
+            "It records the sons of Levi and the chief of the fathers",
+            "It contains laws for sacrifices",
+            "It lists the kings of Israel",
+            "It details the construction of the temple"
+          ],
+          "correctAnswer": "It records the sons of Levi and the chief of the fathers",
+          "explanation": "Nehemiah 12:22-23 states the sons of Levi and chief fathers were written in the book of chronicles, underscoring the importance of genealogical records for priestly legitimacy (1 Chronicles 6:1-15; Ezra 2:62), vital for maintaining covenant identity and worship order.",
+          "verseReference": "Nehemiah 12:22-23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-theological-q14",
+          "question": "Which Old Testament king’s commandment is referenced in Nehemiah 12 as the basis for the Levites' duties in praise and thanksgiving?",
+          "type": "multiple-choice",
+          "options": [
+            "David",
+            "Solomon",
+            "Hezekiah",
+            "Josiah"
+          ],
+          "correctAnswer": "David",
+          "explanation": "Nehemiah 12:24 and 12:45 reference the commandment of David regarding praise and thanksgiving, highlighting his role in organizing temple worship (1 Chronicles 15:16; Psalm 68:24), signifying continuity with the Davidic covenant and the Messianic hope rooted in David’s lineage.",
+          "verseReference": "Nehemiah 12:24, 12:45",
+          "difficulty": "hard"
+        },
+        {
+          "id": "nehemiah-12-theological-q15",
+          "question": "How does Nehemiah 12 demonstrate the ecclesiological principle of orderly worship in the post-exilic community?",
+          "type": "multiple-choice",
+          "options": [
+            "Through detailed roles for priests, Levites, singers, and porters in worship and temple service",
+            "By abolishing all temple rituals",
+            "By decentralizing worship to individual homes",
+            "By prohibiting musical instruments"
+          ],
+          "correctAnswer": "Through detailed roles for priests, Levites, singers, and porters in worship and temple service",
+          "explanation": "Nehemiah 12 provides detailed descriptions of priestly and Levitical roles, including singers and porters maintaining worship order (Nehemiah 12:24-45). This reflects the biblical ecclesiology of ordered worship (1 Corinthians 14:40; Exodus 28:1-43), ensuring God’s holiness is upheld in the community.",
+          "verseReference": "Nehemiah 12:24-45",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "nehemiah-12-quiz",
+      "tags": [
+        "nehemiah",
+        "chapter-12",
+        "nehemiah",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

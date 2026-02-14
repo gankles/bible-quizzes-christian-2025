@@ -1,0 +1,981 @@
+{
+  "id": "mark-1-tabbed",
+  "title": "Mark Chapter 1 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Mark chapter 1 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "mark-1-easy",
+      "title": "Mark Chapter 1 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Mark Chapter 1.",
+      "type": "chapter",
+      "book": "Mark",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "mark-1-easy-q1",
+          "question": "Who baptized Jesus in the Jordan River?",
+          "type": "multiple-choice",
+          "options": [
+            "John",
+            "Peter",
+            "Andrew",
+            "James"
+          ],
+          "correctAnswer": "John",
+          "explanation": "Mark 1:9 states that Jesus was baptized by John in the Jordan River.",
+          "verseReference": "Mark 1:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-1-easy-q2",
+          "question": "What did John the Baptist eat while in the wilderness?",
+          "type": "multiple-choice",
+          "options": [
+            "Locusts and wild honey",
+            "Bread and fish",
+            "Fruits and nuts",
+            "Figs and olives"
+          ],
+          "correctAnswer": "Locusts and wild honey",
+          "explanation": "Mark 1:6 describes John as eating locusts and wild honey in the wilderness.",
+          "verseReference": "Mark 1:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-1-easy-q3",
+          "question": "What did the voice from heaven say to Jesus after He was baptized?",
+          "type": "multiple-choice",
+          "options": [
+            "Thou art my beloved Son, in whom I am well pleased",
+            "This is my servant, whom I have chosen",
+            "Behold the Lamb of God",
+            "Go and preach the gospel"
+          ],
+          "correctAnswer": "Thou art my beloved Son, in whom I am well pleased",
+          "explanation": "Mark 1:11 records the voice from heaven declaring Jesus as the beloved Son.",
+          "verseReference": "Mark 1:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-1-easy-q4",
+          "question": "How long was Jesus in the wilderness, tempted by Satan?",
+          "type": "multiple-choice",
+          "options": [
+            "40 days",
+            "30 days",
+            "7 days",
+            "3 days"
+          ],
+          "correctAnswer": "40 days",
+          "explanation": "Mark 1:13 states Jesus was in the wilderness for forty days, tempted by Satan.",
+          "verseReference": "Mark 1:13",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-1-easy-q5",
+          "question": "What profession did Simon and Andrew have before following Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "Fishers",
+            "Carpenters",
+            "Shepherds",
+            "Tax collectors"
+          ],
+          "correctAnswer": "Fishers",
+          "explanation": "Mark 1:16 says Simon and Andrew were fishers by the sea of Galilee.",
+          "verseReference": "Mark 1:16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-1-easy-q6",
+          "question": "Fill in the blank: Jesus said to Simon and Andrew, 'Come ye after me, and I will make you to become ______.'",
+          "type": "fill-blank",
+          "options": [
+            "fishers of men",
+            "builders of faith",
+            "servants of God",
+            "teachers of the law"
+          ],
+          "correctAnswer": "fishers of men",
+          "explanation": "Mark 1:17 quotes Jesus saying He would make them 'fishers of men'.",
+          "verseReference": "Mark 1:17",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-1-easy-q7",
+          "question": "Where did Jesus teach on the Sabbath, causing astonishment by His doctrine?",
+          "type": "multiple-choice",
+          "options": [
+            "Synagogue in Capernaum",
+            "Temple in Jerusalem",
+            "House of Simon",
+            "Mount of Olives"
+          ],
+          "correctAnswer": "Synagogue in Capernaum",
+          "explanation": "Mark 1:21 mentions Jesus teaching in the synagogue at Capernaum on the Sabbath.",
+          "verseReference": "Mark 1:21",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-1-easy-q8",
+          "question": "What did Jesus do when a man with an unclean spirit cried out in the synagogue?",
+          "type": "multiple-choice",
+          "options": [
+            "He rebuked the spirit and commanded it to come out",
+            "He ignored the man",
+            "He asked the man to leave",
+            "He prayed for the man"
+          ],
+          "correctAnswer": "He rebuked the spirit and commanded it to come out",
+          "explanation": "Mark 1:25 describes Jesus rebuking the unclean spirit and commanding it to come out.",
+          "verseReference": "Mark 1:25",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-1-easy-q9",
+          "question": "True or False: Mark 1:14 says Jesus began preaching the gospel after John was put in prison.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Mark 1:14 clearly states that Jesus began preaching after John was imprisoned.",
+          "verseReference": "Mark 1:14",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-1-easy-q10",
+          "question": "Who was healed by Jesus by taking her by the hand and lifting her up from a fever?",
+          "type": "multiple-choice",
+          "options": [
+            "Simon's wife's mother",
+            "A leper",
+            "A man with an unclean spirit",
+            "A widow from Capernaum"
+          ],
+          "correctAnswer": "Simon's wife's mother",
+          "explanation": "Mark 1:30-31 tells how Jesus healed Simon's wife's mother by lifting her up from her fever.",
+          "verseReference": "Mark 1:30",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-1-easy-q11",
+          "question": "True or False: Jesus prayed in a solitary place early in the morning.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Mark 1:35 records Jesus rising early to pray in a solitary place.",
+          "verseReference": "Mark 1:35",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-1-easy-q12",
+          "question": "What did Jesus say was at hand in Mark 1:15?",
+          "type": "multiple-choice",
+          "options": [
+            "The kingdom of God",
+            "The day of judgment",
+            "The end of the world",
+            "The temple rebuilding"
+          ],
+          "correctAnswer": "The kingdom of God",
+          "explanation": "Mark 1:15 says, 'The kingdom of God is at hand,' indicating its nearness.",
+          "verseReference": "Mark 1:15",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-1-easy-q13",
+          "question": "Who were the brothers that Jesus called while they were mending their nets?",
+          "type": "multiple-choice",
+          "options": [
+            "James and John",
+            "Peter and Andrew",
+            "Philip and Bartholomew",
+            "Thomas and Matthew"
+          ],
+          "correctAnswer": "James and John",
+          "explanation": "Mark 1:19-20 records Jesus calling James and John while they were fixing their nets.",
+          "verseReference": "Mark 1:19",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-1-easy-q14",
+          "question": "True or False: Jesus refused to cast out devils because they knew Him.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Mark 1:34 states Jesus cast out many devils and did not allow them to speak because they knew Him.",
+          "verseReference": "Mark 1:34",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-1-easy-q15",
+          "question": "What instruction did Jesus give the man healed of leprosy regarding telling others?",
+          "type": "multiple-choice",
+          "options": [
+            "See thou say nothing to any man",
+            "Go and tell everyone immediately",
+            "Preach in the synagogue",
+            "Write it down"
+          ],
+          "correctAnswer": "See thou say nothing to any man",
+          "explanation": "Mark 1:43-44 records Jesus commanding the healed leper to say nothing to anyone.",
+          "verseReference": "Mark 1:43",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "mark-1-quiz",
+      "tags": [
+        "mark",
+        "chapter-1",
+        "mark",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "mark-1-medium",
+      "title": "Mark Chapter 1 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Mark Chapter 1 to real-life situations.",
+      "type": "chapter",
+      "book": "Mark",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "mark-1-medium-q1",
+          "question": "How does Mark 1 teach us about the importance of obedience and trust in God's calling through the example of the first disciples?",
+          "type": "multiple-choice",
+          "options": [
+            "They immediately left their work and family to follow Jesus",
+            "They hesitated before deciding to follow Jesus",
+            "They questioned Jesus about their future before following",
+            "They continued their fishing while listening to Jesus"
+          ],
+          "correctAnswer": "They immediately left their work and family to follow Jesus",
+          "explanation": "Mark 1:18-20 shows Simon, Andrew, James, and John immediately forsaking their nets and following Jesus, demonstrating obedience and trust without delay. This teaches us to respond quickly to God's calling.",
+          "verseReference": "Mark 1:18-20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-1-medium-q2",
+          "question": "A fellow believer is struggling with temptation and isolation. Based on Mark 1, what biblical truth would you share to encourage them?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus was tempted in the wilderness but was ministered to by angels",
+            "Jesus never faced temptation or isolation",
+            "Jesus immediately escaped temptation without trial",
+            "Jesus only preached without personal struggle"
+          ],
+          "correctAnswer": "Jesus was tempted in the wilderness but was ministered to by angels",
+          "explanation": "Mark 1:12-13 reveals Jesus being driven into the wilderness, tempted by Satan for forty days, yet ministered to by angels. This shows believers that perseverance through trials is supported by God's care.",
+          "verseReference": "Mark 1:12-13",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-1-medium-q3",
+          "question": "How does the baptism of Jesus by John in Mark 1 demonstrate the principle of humility in Christian life?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus submitted to baptism even though He was sinless",
+            "Jesus baptized John instead",
+            "Jesus refused to be baptized",
+            "John baptized himself as a symbol"
+          ],
+          "correctAnswer": "Jesus submitted to baptism even though He was sinless",
+          "explanation": "Mark 1:9-10 shows Jesus coming to John to be baptized, demonstrating humility and obedience despite His sinless nature. This models submission to God's plan for believers.",
+          "verseReference": "Mark 1:9-10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-1-medium-q4",
+          "question": "What does the passage about Jesus' early morning prayer in Mark 1 teach about spiritual discipline?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus rose early to pray in a solitary place",
+            "Jesus prayed publicly with crowds daily",
+            "Jesus delegated prayer to His disciples only",
+            "Jesus did not pray often"
+          ],
+          "correctAnswer": "Jesus rose early to pray in a solitary place",
+          "explanation": "Mark 1:35 illustrates Jesus rising early before dawn to pray alone, emphasizing the importance of personal devotion and spiritual discipline for believers.",
+          "verseReference": "Mark 1:35",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-1-medium-q5",
+          "question": "According to Mark 1, how should believers respond when they see the power of Jesus over evil spirits?",
+          "type": "multiple-choice",
+          "options": [
+            "With amazement and recognizing His authority",
+            "With fear and rejection",
+            "By ignoring the miracles",
+            "By questioning His power"
+          ],
+          "correctAnswer": "With amazement and recognizing His authority",
+          "explanation": "Mark 1:27 shows that people were amazed at Jesus' authority over unclean spirits, acknowledging His divine power, which encourages believers to trust God's authority.",
+          "verseReference": "Mark 1:27",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-1-medium-q6",
+          "question": "How does Jesus' healing of Simon's mother-in-law in Mark 1 model serving others after receiving God's blessing?",
+          "type": "multiple-choice",
+          "options": [
+            "She was healed and immediately served them",
+            "She requested to rest instead of serving",
+            "She left to seek medical help elsewhere",
+            "She was healed but did not respond"
+          ],
+          "correctAnswer": "She was healed and immediately served them",
+          "explanation": "Mark 1:31 demonstrates that after Jesus healed Simon's mother-in-law, she immediately ministered to them, teaching the value of gratitude expressed through serving others.",
+          "verseReference": "Mark 1:31",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-1-medium-q7",
+          "question": "What does the interaction with the leper in Mark 1 teach us about faith and Jesus’ compassion?",
+          "type": "multiple-choice",
+          "options": [
+            "The leper's faith led Jesus to heal him out of compassion",
+            "Jesus healed only those with perfect faith",
+            "Jesus refused to touch the leper",
+            "The leper was healed without asking"
+          ],
+          "correctAnswer": "The leper's faith led Jesus to heal him out of compassion",
+          "explanation": "Mark 1:40-41 shows the leper pleading, 'If thou wilt, thou canst make me clean,' and Jesus, moved with compassion, healed him, highlighting the power of faith and compassion.",
+          "verseReference": "Mark 1:40-41",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-1-medium-q8",
+          "question": "True or False: According to Mark 1, Jesus only preached in Jerusalem and avoided other regions.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Mark 1:14, 38-39 show Jesus preaching throughout Galilee and in various synagogues, not restricting His ministry to Jerusalem.",
+          "verseReference": "Mark 1:14,38-39",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-1-medium-q9",
+          "question": "True or False: In Mark 1, John the Baptist claimed he was worthy to untie the latchet of Jesus' shoes.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Mark 1:7 states John said he was not worthy to stoop down and unloose the latchet of Jesus' shoes, showing humility and recognition of Jesus' greater authority.",
+          "verseReference": "Mark 1:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-1-medium-q10",
+          "question": "A believer feels overwhelmed by the demands of ministry. Based on Mark 1, what principle about prioritizing ministry and rest can you share?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus prayed alone early in the morning before continuing ministry",
+            "Jesus never took a break and worked nonstop",
+            "Jesus delegated all ministry tasks to others",
+            "Jesus only ministered at night"
+          ],
+          "correctAnswer": "Jesus prayed alone early in the morning before continuing ministry",
+          "explanation": "Mark 1:35-38 shows Jesus withdrawing early to pray and then continuing His mission, teaching the importance of balancing ministry with personal time with God.",
+          "verseReference": "Mark 1:35-38",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-1-medium-q11",
+          "question": "How does Jesus’ command to His disciples to become 'fishers of men' in Mark 1 teach us about evangelism?",
+          "type": "multiple-choice",
+          "options": [
+            "It calls believers to actively reach others and share the Gospel",
+            "It encourages believers to focus only on their own salvation",
+            "It tells believers to avoid public ministry",
+            "It emphasizes fishing as a profession only"
+          ],
+          "correctAnswer": "It calls believers to actively reach others and share the Gospel",
+          "explanation": "Mark 1:17 uses the metaphor of fishing to illustrate the disciples’ mission to bring people to faith in Christ, teaching believers about active evangelism.",
+          "verseReference": "Mark 1:17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-1-medium-q12",
+          "question": "Fill in the blank: Jesus said, 'The time is fulfilled, and the kingdom of God is at hand: ______ ye, and believe the gospel.'",
+          "type": "fill-blank",
+          "options": [
+            "Repent",
+            "Rejoice",
+            "Celebrate",
+            "Fast"
+          ],
+          "correctAnswer": "Repent",
+          "explanation": "Mark 1:15 teaches the call to repentance and faith as foundational responses to the gospel message.",
+          "verseReference": "Mark 1:15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-1-medium-q13",
+          "question": "What does Mark 1 teach about the role of family and work when Jesus called His first disciples?",
+          "type": "multiple-choice",
+          "options": [
+            "The disciples left their family and work immediately to follow Jesus",
+            "They prioritized family and work over following Jesus",
+            "They delayed following Jesus to finish their work",
+            "They asked permission from family first"
+          ],
+          "correctAnswer": "The disciples left their family and work immediately to follow Jesus",
+          "explanation": "Mark 1:18-20 shows the disciples forsaking their nets and leaving their father’s business without delay, indicating the priority of following Christ even over family and work.",
+          "verseReference": "Mark 1:18-20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-1-medium-q14",
+          "question": "How does the spreading fame of Jesus in Mark 1 encourage believers about the impact of faithful service?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus’ fame spread quickly as He healed and taught with authority",
+            "Jesus remained unknown and unnoticed",
+            "Jesus only ministered to a few people privately",
+            "Jesus avoided public attention"
+          ],
+          "correctAnswer": "Jesus’ fame spread quickly as He healed and taught with authority",
+          "explanation": "Mark 1:28 and 34 show that Jesus’ ministry attracted widespread attention because of His authoritative teaching and healing, encouraging believers that faithful service can have wide impact.",
+          "verseReference": "Mark 1:28,34",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-1-medium-q15",
+          "question": "What biblical principle about honesty and integrity can be learned from the baptism and ministry of John in Mark 1?",
+          "type": "multiple-choice",
+          "options": [
+            "John preached repentance and baptized many confessing their sins",
+            "John encouraged hiding sins and avoiding confession",
+            "John claimed to be the Messiah",
+            "John refused to baptize people"
+          ],
+          "correctAnswer": "John preached repentance and baptized many confessing their sins",
+          "explanation": "Mark 1:4-5 shows John’s call to repentance and public confession through baptism, modeling honesty and integrity before God and others.",
+          "verseReference": "Mark 1:4-5",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "mark-1-quiz",
+      "tags": [
+        "mark",
+        "chapter-1",
+        "mark",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "mark-1-hard",
+      "title": "Mark Chapter 1 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Mark Chapter 1.",
+      "type": "chapter",
+      "book": "Mark",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "mark-1-hard-q1",
+          "question": "What Old Testament prophetic role is John the Baptist fulfilling as described in Mark 1?",
+          "type": "multiple-choice",
+          "options": [
+            "Messenger preparing the way for the Lord",
+            "King delivering Israel from enemies",
+            "High Priest offering sacrifices",
+            "Scribe interpreting the Law"
+          ],
+          "correctAnswer": "Messenger preparing the way for the Lord",
+          "explanation": "Mark 1:2-3 cites prophecy about a messenger preparing the way, aligning John the Baptist with this prophetic role.",
+          "verseReference": "Mark 1:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-hard-q2",
+          "question": "According to Mark 1, what symbolic act did John perform to initiate repentance among the people?",
+          "type": "multiple-choice",
+          "options": [
+            "Baptism in the Jordan River",
+            "Sacrificial offerings at the temple",
+            "Anointing with oil",
+            "Reciting the Shema"
+          ],
+          "correctAnswer": "Baptism in the Jordan River",
+          "explanation": "Mark 1:4-5 describes John baptizing people in the Jordan for repentance and remission of sins.",
+          "verseReference": "Mark 1:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-hard-q3",
+          "question": "How is John the Baptist’s attire described in Mark 1, and what might this indicate about his prophetic identity?",
+          "type": "multiple-choice",
+          "options": [
+            "Clothed in camel’s hair with a leather girdle",
+            "Wearing royal robes and a crown",
+            "Dressed in priestly linen garments",
+            "Clothed in fine linen and purple"
+          ],
+          "correctAnswer": "Clothed in camel’s hair with a leather girdle",
+          "explanation": "Mark 1:6 describes John’s clothing, which aligns with Elijah’s prophetic style, symbolizing asceticism and prophetic authority.",
+          "verseReference": "Mark 1:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-hard-q4",
+          "question": "What is the significance of Jesus being baptized by John in the Jordan as narrated in Mark 1:9-11?",
+          "type": "multiple-choice",
+          "options": [
+            "It marks the divine affirmation of Jesus as God’s Son",
+            "It signifies Jesus’ repentance for sins",
+            "It inaugurates the temple priesthood",
+            "It fulfills the Mosaic Law of cleansing"
+          ],
+          "correctAnswer": "It marks the divine affirmation of Jesus as God’s Son",
+          "explanation": "Mark 1:10-11 recount the heavens opening and God's voice declaring Jesus as His beloved Son, affirming His divine identity.",
+          "verseReference": "Mark 1:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-hard-q5",
+          "question": "What literary device is present in the description of the Spirit descending like a dove in Mark 1:10?",
+          "type": "multiple-choice",
+          "options": [
+            "Simile",
+            "Metaphor",
+            "Alliteration",
+            "Hyperbole"
+          ],
+          "correctAnswer": "Simile",
+          "explanation": "The Spirit is described as descending 'like a dove,' a classic simile comparing the Spirit’s descent to a gentle dove.",
+          "verseReference": "Mark 1:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-hard-q6",
+          "question": "How long was Jesus tempted in the wilderness according to Mark 1, and what Old Testament event does this parallel?",
+          "type": "multiple-choice",
+          "options": [
+            "Forty days; paralleling Israel’s forty years in the wilderness",
+            "Seven days; paralleling creation’s seven days",
+            "Three days; paralleling Jonah in the belly of the fish",
+            "Twelve days; paralleling the twelve tribes of Israel"
+          ],
+          "correctAnswer": "Forty days; paralleling Israel’s forty years in the wilderness",
+          "explanation": "Mark 1:13 states Jesus was tempted for forty days, echoing Israel's forty years, symbolizing testing and preparation.",
+          "verseReference": "Mark 1:13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-hard-q7",
+          "question": "What does Jesus proclaim is at hand in Mark 1:15, and how does this relate to Jewish eschatological expectations?",
+          "type": "multiple-choice",
+          "options": [
+            "The kingdom of God; signaling the arrival of God's reign",
+            "A new temple; fulfilling prophetic restoration",
+            "The Messiah’s birth; fulfilling prophecy",
+            "The destruction of Jerusalem; fulfilling judgment"
+          ],
+          "correctAnswer": "The kingdom of God; signaling the arrival of God's reign",
+          "explanation": "Mark 1:15 announces the kingdom of God is near, aligning with Jewish hopes for divine rule and restoration.",
+          "verseReference": "Mark 1:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-hard-q8",
+          "question": "What is the typological significance of Jesus calling fishermen to follow Him in Mark 1:16-20?",
+          "type": "multiple-choice",
+          "options": [
+            "He calls them to become 'fishers of men,' symbolizing evangelistic mission",
+            "He appoints them as temple priests",
+            "He calls them to political leadership",
+            "He instructs them to build boats for ministry"
+          ],
+          "correctAnswer": "He calls them to become 'fishers of men,' symbolizing evangelistic mission",
+          "explanation": "Mark 1:17 uses fishing imagery to symbolize the disciples’ new role in gathering people into God's kingdom.",
+          "verseReference": "Mark 1:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-hard-q9",
+          "question": "How does Mark 1:22 highlight the uniqueness of Jesus’ teaching compared to the scribes?",
+          "type": "multiple-choice",
+          "options": [
+            "He teaches with authority",
+            "He quotes extensively from the Torah",
+            "He uses parables exclusively",
+            "He teaches only in Aramaic"
+          ],
+          "correctAnswer": "He teaches with authority",
+          "explanation": "Mark 1:22 notes that people were amazed because Jesus taught with inherent authority unlike the scribes who relied on tradition.",
+          "verseReference": "Mark 1:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-hard-q10",
+          "question": "In Mark 1, what does the reaction to Jesus casting out an unclean spirit in the synagogue reveal about His ministry?",
+          "type": "multiple-choice",
+          "options": [
+            "He has authority over evil spirits, demonstrating divine power",
+            "He is accused of blasphemy",
+            "He relies on the power of the Pharisees",
+            "He performs miracles only after the Sabbath"
+          ],
+          "correctAnswer": "He has authority over evil spirits, demonstrating divine power",
+          "explanation": "Mark 1:27 shows amazement at Jesus’ authority to command unclean spirits, validating His divine mission.",
+          "verseReference": "Mark 1:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-hard-q11",
+          "question": "What cultural and religious practice does Jesus instruct the healed leper to follow in Mark 1:44?",
+          "type": "multiple-choice",
+          "options": [
+            "Show himself to the priest and offer cleansing sacrifices",
+            "Celebrate a public festival",
+            "Offer alms to the poor immediately",
+            "Build a new synagogue"
+          ],
+          "correctAnswer": "Show himself to the priest and offer cleansing sacrifices",
+          "explanation": "Mark 1:44 commands the leper to comply with Mosaic Law by presenting himself to the priest as a testimony.",
+          "verseReference": "Mark 1:44",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-hard-q12",
+          "question": "What is the significance of Jesus rising early to pray in a solitary place as described in Mark 1:35?",
+          "type": "multiple-choice",
+          "options": [
+            "Demonstrates dependence on the Father and prioritizes prayer",
+            "Shows rejection of community",
+            "Indicates avoidance of disciples",
+            "Marks a ritual cleansing"
+          ],
+          "correctAnswer": "Demonstrates dependence on the Father and prioritizes prayer",
+          "explanation": "Mark 1:35 highlights Jesus’ model of spiritual discipline and reliance on God through solitary prayer.",
+          "verseReference": "Mark 1:35",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-hard-q13",
+          "question": "The phrase 'He will baptize you with the Holy Ghost' in Mark 1:8 foreshadows which New Testament event?",
+          "type": "multiple-choice",
+          "options": [
+            "Pentecost and the coming of the Holy Spirit",
+            "Jesus’ baptism by John",
+            "The Transfiguration",
+            "The crucifixion"
+          ],
+          "correctAnswer": "Pentecost and the coming of the Holy Spirit",
+          "explanation": "Mark 1:8 contrasts John's water baptism with the future baptism by the Holy Spirit at Pentecost.",
+          "verseReference": "Mark 1:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-hard-q14",
+          "question": "True or False: According to Mark 1, Jesus was more powerful than John the Baptist, to the extent that John said he was not worthy to untie Jesus’ shoe latchet.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Mark 1:7 records John acknowledging Jesus’ superiority, stating he was unworthy to untie his shoes.",
+          "verseReference": "Mark 1:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-hard-q15",
+          "question": "True or False: Following Jesus’ healing of the leper, the man obeyed Jesus’ command to remain silent about his healing as described in Mark 1.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Mark 1:45 states the healed leper disobeyed Jesus by publicly spreading the news, causing Jesus’ limited public access.",
+          "verseReference": "Mark 1:45",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "mark-1-quiz",
+      "tags": [
+        "mark",
+        "chapter-1",
+        "mark",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "mark-1-theological",
+      "title": "Mark Chapter 1 Quiz - Theological Level",
+      "description": "Deep biblical theology from Mark Chapter 1 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Mark",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "mark-1-theological-q1",
+          "question": "What is the theological significance of Jesus being called 'the Son of God' at the beginning of the gospel in Mark 1:1?",
+          "type": "multiple-choice",
+          "options": [
+            "It affirms Jesus' divine nature and messianic identity",
+            "It means Jesus was adopted by God",
+            "It suggests Jesus was a prophet only",
+            "It implies Jesus was a created being"
+          ],
+          "correctAnswer": "It affirms Jesus' divine nature and messianic identity",
+          "explanation": "Mark 1:1 presents Jesus as the Son of God, affirming His divine nature and messianic role, consistent with Psalm 2:7, Isaiah 9:6, John 1:14, Romans 1:4, and Hebrews 1:3 which affirm His deity and unique sonship.",
+          "verseReference": "Mark 1:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-theological-q2",
+          "question": "According to Mark 1:4, what was the purpose of John's baptism?",
+          "type": "multiple-choice",
+          "options": [
+            "To preach repentance for the remission of sins",
+            "To initiate people into a secret society",
+            "To cleanse people physically",
+            "To confirm people as priests"
+          ],
+          "correctAnswer": "To preach repentance for the remission of sins",
+          "explanation": "Mark 1:4 explains John baptized as a call to repentance for the forgiveness of sins, aligning with Old Testament calls to repentance (Isaiah 1:16-18, Joel 2:12-13) and New Testament teachings on forgiveness (Acts 2:38, Luke 24:47, Hebrews 10:22).",
+          "verseReference": "Mark 1:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-theological-q3",
+          "question": "What does John the Baptist mean when he says he is not worthy to stoop down and unloose the latchet of the shoes of the one coming after him (Mark 1:7)?",
+          "type": "multiple-choice",
+          "options": [
+            "He acknowledges the superior authority of Jesus",
+            "He shows humility but claims equal status",
+            "He intends to physically untie shoes",
+            "He disrespects Jesus' role"
+          ],
+          "correctAnswer": "He acknowledges the superior authority of Jesus",
+          "explanation": "Mark 1:7 depicts John’s humility and recognition of Jesus’ greater authority, consistent with the prophetic role of the Messiah in Malachi 3:1, Isaiah 40:3, Luke 3:16, and Philippians 2:9-11 emphasizing Christ’s exalted status.",
+          "verseReference": "Mark 1:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-theological-q4",
+          "question": "How does Mark 1:10-11 describe the divine affirmation of Jesus at His baptism?",
+          "type": "multiple-choice",
+          "options": [
+            "The heavens opened, the Spirit descended like a dove, and a voice declared Him God's beloved Son",
+            "An angel appeared and handed Him a scroll",
+            "A cloud covered Him with fire",
+            "The earth shook and stones split"
+          ],
+          "correctAnswer": "The heavens opened, the Spirit descended like a dove, and a voice declared Him God's beloved Son",
+          "explanation": "Mark 1:10-11 describes the Trinitarian revelation: the Spirit's descent and the Father's voice affirm Jesus' divine sonship, echoing Psalm 2:7, Isaiah 42:1, Matthew 3:16-17, and John 1:32-34 which underscore the Messianic identity and divine approval.",
+          "verseReference": "Mark 1:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-theological-q5",
+          "question": "What is the theological significance of Jesus being driven by the Spirit into the wilderness for 40 days as stated in Mark 1:12-13?",
+          "type": "multiple-choice",
+          "options": [
+            "It symbolizes His preparation and testing for ministry",
+            "It indicates His abandonment by God",
+            "It shows He was lost",
+            "It means He was hiding"
+          ],
+          "correctAnswer": "It symbolizes His preparation and testing for ministry",
+          "explanation": "Mark 1:12-13 shows Jesus’ Spirit-led testing in the wilderness, paralleling Israel’s 40 years (Deuteronomy 8:2), Moses’ time (Exodus 34:28), and Elijah’s experience (1 Kings 19:8), emphasizing preparation and victory over temptation as foundation for His redemptive work (Hebrews 4:15, James 1:12).",
+          "verseReference": "Mark 1:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-theological-q6",
+          "question": "What central message does Jesus proclaim in Mark 1:14-15 about the kingdom of God?",
+          "type": "multiple-choice",
+          "options": [
+            "The time is fulfilled, the kingdom is at hand; repent and believe the gospel",
+            "The kingdom will come in the distant future",
+            "Only the Jewish people will enter the kingdom",
+            "The kingdom is a political realm"
+          ],
+          "correctAnswer": "The time is fulfilled, the kingdom is at hand; repent and believe the gospel",
+          "explanation": "Mark 1:14-15 announces the inauguration of God’s kingdom, calling for repentance and faith, consistent with prophetic fulfillment (Daniel 9:24-27), Jesus’ teaching on the kingdom (Matthew 4:17), and the apostolic message (Acts 1:3, Romans 14:17, Revelation 1:6).",
+          "verseReference": "Mark 1:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-theological-q7",
+          "question": "What is the significance of Jesus calling Simon and Andrew to become 'fishers of men' in Mark 1:17?",
+          "type": "multiple-choice",
+          "options": [
+            "It symbolizes their new mission to gather people into God's kingdom",
+            "It means they should catch more fish",
+            "It indicates a business partnership",
+            "It is a metaphor for farming"
+          ],
+          "correctAnswer": "It symbolizes their new mission to gather people into God's kingdom",
+          "explanation": "In Mark 1:17, Jesus redefines their vocation to evangelism, echoing Old Testament imagery of gathering (Jeremiah 16:16), Jesus’ mission to save (Luke 19:10), and the Great Commission (Matthew 28:19-20), emphasizing discipleship and salvation.",
+          "verseReference": "Mark 1:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-theological-q8",
+          "question": "How does Mark 1:22 characterize Jesus' teaching compared to the scribes?",
+          "type": "multiple-choice",
+          "options": [
+            "He taught with authority, not as the scribes",
+            "He repeated the scribes' teachings",
+            "He avoided controversial topics",
+            "He only quoted the Old Testament"
+          ],
+          "correctAnswer": "He taught with authority, not as the scribes",
+          "explanation": "Mark 1:22 highlights Jesus’ unique authoritative teaching, contrasting with the scribes’ reliance on tradition, consistent with Matthew 7:29, Luke 4:32, John 7:46, and Hebrews 1:1-2, reflecting His divine authority and role as the ultimate teacher.",
+          "verseReference": "Mark 1:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-theological-q9",
+          "question": "What does the encounter with the unclean spirit in the synagogue (Mark 1:23-26) reveal about Jesus' authority?",
+          "type": "multiple-choice",
+          "options": [
+            "He commands unclean spirits and they obey Him, showing divine authority",
+            "He is afraid of unclean spirits",
+            "He negotiates with the spirit",
+            "He ignores the spirit"
+          ],
+          "correctAnswer": "He commands unclean spirits and they obey Him, showing divine authority",
+          "explanation": "Mark 1:23-26 demonstrates Jesus' sovereign authority over demonic powers, affirming His divine power as foretold in Isaiah 61:1, Luke 4:36, Colossians 2:15, and 1 John 3:8, emphasizing His role as the Messiah who triumphs over evil.",
+          "verseReference": "Mark 1:23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-theological-q10",
+          "question": "What is the significance of Jesus healing Simon’s mother-in-law in Mark 1:30-31?",
+          "type": "multiple-choice",
+          "options": [
+            "It shows Jesus’ power to heal and restore service",
+            "It was a symbolic act with no real healing",
+            "It was a private miracle to keep secret",
+            "It was the only healing He performed"
+          ],
+          "correctAnswer": "It shows Jesus’ power to heal and restore service",
+          "explanation": "Mark 1:30-31 illustrates Jesus’ healing power, restoring health and enabling service, consistent with His healing ministry in Matthew 8:14-15, Luke 4:38-39, Isaiah 53:4-5, and James 5:14-15, demonstrating divine compassion and authority over sickness.",
+          "verseReference": "Mark 1:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-theological-q11",
+          "question": "How does Mark 1:34 demonstrate Jesus’ comprehensive ministry?",
+          "type": "multiple-choice",
+          "options": [
+            "He healed many sick and cast out many demons",
+            "He only preached without healing",
+            "He focused on teaching only",
+            "He avoided the sick"
+          ],
+          "correctAnswer": "He healed many sick and cast out many demons",
+          "explanation": "Mark 1:34 shows Jesus’ holistic ministry addressing physical and spiritual needs, fulfilling Isaiah 61:1-3, Matthew 4:23-24, Luke 9:1-2, and Acts 10:38, signifying the in-breaking of God's kingdom and restoration of creation.",
+          "verseReference": "Mark 1:34",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-theological-q12",
+          "question": "What does Jesus’ early morning prayer in a solitary place (Mark 1:35) teach about His relationship with God?",
+          "type": "multiple-choice",
+          "options": [
+            "It shows the importance of communion with the Father",
+            "It indicates He was lonely",
+            "It was a moment of doubt",
+            "It was merely a ritual"
+          ],
+          "correctAnswer": "It shows the importance of communion with the Father",
+          "explanation": "Mark 1:35 emphasizes Jesus’ dependence on prayer and intimate fellowship with God, consistent with His teaching in John 5:19, Luke 5:16, Hebrews 5:7, and Philippians 2:5-8, modeling the necessity of prayer for ministry and obedience.",
+          "verseReference": "Mark 1:35",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-theological-q13",
+          "question": "What was the response of the people to Jesus’ healing of the leper in Mark 1:40-42?",
+          "type": "multiple-choice",
+          "options": [
+            "The leper was immediately cleansed after Jesus said 'I will; be thou clean'",
+            "The leper was healed after many days",
+            "The leper remained unclean",
+            "Jesus refused to heal the leper"
+          ],
+          "correctAnswer": "The leper was immediately cleansed after Jesus said 'I will; be thou clean'",
+          "explanation": "Mark 1:40-42 records an instantaneous healing by Jesus’ compassionate word, affirming His divine authority over disease, consistent with Matthew 8:3, Luke 5:13, Isaiah 53:4-5, and Acts 10:38, showcasing His power to restore both physically and spiritually.",
+          "verseReference": "Mark 1:40",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-theological-q14",
+          "question": "Why did Jesus command the healed leper to say nothing to anyone and show himself to the priest (Mark 1:43-44)?",
+          "type": "multiple-choice",
+          "options": [
+            "To fulfill Mosaic Law and avoid public sensationalism",
+            "Because He wanted to hide the miracle",
+            "Because He was ashamed",
+            "To prevent the leper from being healed"
+          ],
+          "correctAnswer": "To fulfill Mosaic Law and avoid public sensationalism",
+          "explanation": "Mark 1:43-44 instructs the leper to comply with Mosaic Law (Leviticus 14:2-32) and avoid premature publicity, consistent with Jesus’ frequent silencing of miracles (Mark 8:30, Luke 5:14), emphasizing order and prophetic fulfillment rather than sensationalism.",
+          "verseReference": "Mark 1:43",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-1-theological-q15",
+          "question": "What theological theme is presented by Jesus’ increasing fame and difficulty entering cities openly as described in Mark 1:45?",
+          "type": "multiple-choice",
+          "options": [
+            "The tension between Jesus’ ministry and societal opposition",
+            "That Jesus was unpopular",
+            "That Jesus wanted to avoid people",
+            "That His ministry was secretive"
+          ],
+          "correctAnswer": "The tension between Jesus’ ministry and societal opposition",
+          "explanation": "Mark 1:45 reveals the growing popularity and opposition Jesus faced, a theme seen in Isaiah 53:3, John 7:7, Matthew 10:22, and Acts 4:1-3, illustrating the paradox of Messiahship: widespread need and rejection, highlighting the cost of salvation history.",
+          "verseReference": "Mark 1:45",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "mark-1-quiz",
+      "tags": [
+        "mark",
+        "chapter-1",
+        "mark",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

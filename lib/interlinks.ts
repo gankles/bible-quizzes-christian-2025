@@ -36,7 +36,15 @@ export function generateRelatedLinks(quiz: Quiz): InternalLink[] {
       }
     }
 
-    // 2. Complete book quiz (Priority 5)
+    // 2. Cross-references for this chapter (Priority 5)
+    links.push({
+      title: `${quiz.book} ${currentChapter} Cross-References`,
+      href: `/cross-references/${bookSlug}/${currentChapter}/1`,
+      description: `Explore related scriptures for ${quiz.book} ${currentChapter}`,
+      type: 'study-guide' as any
+    });
+
+    // 3. Complete book quiz (Priority 6)
     links.push({
       title: `Complete ${quiz.book} Quiz`,
       href: `/${bookSlug}-quiz`,
@@ -44,7 +52,7 @@ export function generateRelatedLinks(quiz: Quiz): InternalLink[] {
       type: 'book'
     });
 
-    // 3. Related topic/theme quiz if we still need more links (Priority 6)
+    // 4. Related topic/theme quiz if we still need more links (Priority 7)
     if (links.length < 6) {
       const relatedTheme = getRelatedTheme(quiz.book, currentChapter);
       if (relatedTheme) {
@@ -153,7 +161,7 @@ export function generateRelatedLinks(quiz: Quiz): InternalLink[] {
 
   // If we don't have enough links, add popular general quizzes to reach 6
   while (links.length < 6) {
-    const fallbackLinks = [
+    const fallbackLinks: InternalLink[] = [
       { title: 'Jesus Christ Quiz', href: '/jesus-christ-quiz', description: 'Learn about the Savior', type: 'character' },
       { title: 'Salvation Quiz', href: '/salvation-quiz', description: 'How to be saved', type: 'theme' },
       { title: 'Prayer Quiz', href: '/prayer-quiz', description: 'Talking with God', type: 'theme' },

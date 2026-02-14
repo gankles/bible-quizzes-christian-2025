@@ -1,11 +1,18 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo, useCallback } from 'react';
 import { Quiz, QuizQuestion, QuizResult, QuizProgress } from '@/lib/types';
 import { generateRelatedLinks } from '@/lib/interlinks';
 import { standardizeQuiz } from '@/lib/quiz-generation';
-import { ClockIcon, CheckCircleIcon, ArrowLeftIcon, ArrowRightIcon, BookOpenIcon } from './icons';
+import { getVerseReferenceUrl } from '@/lib/verse-ref-utils';
+import { ClockIcon, CheckCircleIcon, ArrowRightIcon, BookOpenIcon } from './icons';
 import Link from 'next/link';
+
+const formatTime = (seconds: number) => {
+  const mins = Math.floor(seconds / 60);
+  const secs = seconds % 60;
+  return `${mins}:${secs.toString().padStart(2, '0')}`;
+};
 
 interface QuizInterfaceProps {
   quiz: Quiz;
@@ -18,20 +25,29 @@ interface UserAnswer {
 }
 
 export default function QuizInterface({ quiz, onComplete }: QuizInterfaceProps) {
-  // Automatically standardize all questions to ensure fill-blank and complete-phrase use radio options
-  const standardizedQuestions = standardizeQuiz(quiz.questions);
-  const standardizedQuiz = { ...quiz, questions: standardizedQuestions };
-  
+  const standardizedQuiz = useMemo(() => {
+    const standardizedQuestions = standardizeQuiz(quiz.questions);
+    return { ...quiz, questions: standardizedQuestions };
+  }, [quiz]);
+
   const [userAnswers, setUserAnswers] = useState<UserAnswer[]>([]);
-  const [progress, setProgress] = useState<QuizProgress>({
-    currentQuestion: 1,
-    answeredQuestions: 0,
-    percentage: 0,
-    estimatedTimeRemaining: quiz.estimatedTime
-  });
   const [startTime] = useState<Date>(new Date());
   const [timeElapsed, setTimeElapsed] = useState<number>(0);
   const [isSubmitted, setIsSubmitted] = useState(false);
+
+  // Derive progress during render instead of useEffect
+  const progress: QuizProgress = useMemo(() => {
+    const answeredCount = userAnswers.length;
+    const percentage = (answeredCount / standardizedQuiz.totalQuestions) * 100;
+    const remainingQuestions = standardizedQuiz.totalQuestions - answeredCount;
+    const estimatedTimeRemaining = Math.max(0, Math.ceil(remainingQuestions * 0.5));
+    return {
+      currentQuestion: answeredCount + 1,
+      answeredQuestions: answeredCount,
+      percentage,
+      estimatedTimeRemaining
+    };
+  }, [userAnswers.length, standardizedQuiz.totalQuestions]);
 
   // Update timer every second
   useEffect(() => {
@@ -43,35 +59,18 @@ export default function QuizInterface({ quiz, onComplete }: QuizInterfaceProps) 
     return () => clearInterval(timer);
   }, [startTime]);
 
-  // Update progress when answers change
-  useEffect(() => {
-    const answeredCount = userAnswers.length;
-    const percentage = (answeredCount / standardizedQuiz.totalQuestions) * 100;
-    const remainingQuestions = standardizedQuiz.totalQuestions - answeredCount;
-    const estimatedTimeRemaining = Math.max(0, Math.ceil(remainingQuestions * 0.5)); // 30 seconds per question
-
-    setProgress({
-      currentQuestion: answeredCount + 1,
-      answeredQuestions: answeredCount,
-      percentage,
-      estimatedTimeRemaining
-    });
-  }, [userAnswers, standardizedQuiz.totalQuestions]);
-
-  const handleAnswerChange = (questionId: string, answer: string) => {
+  const handleAnswerChange = useCallback((questionId: string, answer: string) => {
     setUserAnswers(prev => {
       const existingIndex = prev.findIndex(ua => ua.questionId === questionId);
       if (existingIndex >= 0) {
-        // Update existing answer
         const updated = [...prev];
         updated[existingIndex] = { questionId, answer };
         return updated;
       } else {
-        // Add new answer
         return [...prev, { questionId, answer }];
       }
     });
-  };
+  }, []);
 
   const handleSubmit = () => {
     const answeredQuestions = standardizedQuiz.questions.map(question => {
@@ -104,11 +103,8 @@ export default function QuizInterface({ quiz, onComplete }: QuizInterfaceProps) 
   };
 
   const canSubmit = userAnswers.length === standardizedQuiz.totalQuestions;
-  const formatTime = (seconds: number) => {
-    const mins = Math.floor(seconds / 60);
-    const secs = seconds % 60;
-    return `${mins}:${secs.toString().padStart(2, '0')}`;
-  };
+
+  const relatedLinks = useMemo(() => generateRelatedLinks(standardizedQuiz), [standardizedQuiz]);
 
   return (
     <div className="max-w-4xl mx-auto">
@@ -200,7 +196,7 @@ export default function QuizInterface({ quiz, onComplete }: QuizInterfaceProps) 
       <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mt-8">
         <h3 className="text-lg font-semibold text-blue-900 mb-4">Continue Your Bible Study Journey</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-          {generateRelatedLinks(standardizedQuiz).map((link) => (
+          {relatedLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
@@ -339,9 +335,21 @@ function QuestionCard({ question, questionNumber, userAnswer, onAnswerChange, di
           </span>
         </div>
         
-        <div className="text-sm text-gray-600 mb-4">
-          <strong>Reference:</strong> {question.verseReference}
-        </div>
+        {question.verseReference && (
+          <div className="text-sm text-gray-600 mb-4">
+            <strong>Reference:</strong>{' '}
+            {(() => {
+              const url = getVerseReferenceUrl(question.verseReference);
+              return url ? (
+                <Link href={url} className="text-blue-600 hover:underline">
+                  {question.verseReference}
+                </Link>
+              ) : (
+                <span>{question.verseReference}</span>
+              );
+            })()}
+          </div>
+        )}
       </div>
 
       {renderQuestionInput()}

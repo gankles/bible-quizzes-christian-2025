@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genesis 1 - King James Version | Bible Reading</title>
+    <meta name="description" content="Read Genesis Chapter 1 from the King James Version with verse-by-verse commentary and study tools.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --cream: #F5F1E8;
+            --navy: #2C3E50;
+            --blue: #3B82F6;
+        }
+
+        * {
+            color-scheme: light;
+        }
+
+        body {
+            background-color: var(--cream);
+            color: var(--navy);
+            font-family: 'Georgia', 'Garamond', serif;
+            line-height: 1.8;
+        }
+
+        .verse-number {
+            background-color: var(--blue);
+            color: white;
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 0.875rem;
+            flex-shrink: 0;
+        }
+
+        .verse-text {
+            font-size: 1.0625rem;
+            line-height: 1.9;
+            letter-spacing: 0.3px;
+        }
+
+        .commentary-toggle {
+            background: none;
+            border: none;
+            color: var(--blue);
+            cursor: pointer;
+            font-size: 0.875rem;
+            padding: 0.25rem 0;
+            text-decoration: underline;
+            transition: opacity 0.2s;
+        }
+
+        .commentary-toggle:hover {
+            opacity: 0.7;
+        }
+
+        .commentary-content {
+            background-color: rgba(59, 130, 246, 0.05);
+            border-left: 3px solid var(--blue);
+            padding: 1rem;
+            margin-top: 0.75rem;
+            border-radius: 0.25rem;
+            font-size: 0.9375rem;
+            line-height: 1.7;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+
+        .commentary-content.open {
+            max-height: 500px;
+        }
+
+        .breadcrumb a,
+        .nav-link,
+        .quiz-link {
+            color: var(--blue);
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+
+        .breadcrumb a:hover,
+        .nav-link:hover,
+        .quiz-link:hover {
+            opacity: 0.7;
+            text-decoration: underline;
+        }
+
+        .chapter-header {
+            border-bottom: 2px solid var(--blue);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .nav-button {
+            background-color: var(--blue);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.375rem;
+            text-decoration: none;
+            transition: opacity 0.2s;
+            display: inline-block;
+            font-size: 0.9375rem;
+            border: none;
+            cursor: pointer;
+        }
+
+        .nav-button:hover {
+            opacity: 0.85;
+        }
+
+        .nav-button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .quiz-section {
+            background-color: rgba(59, 130, 246, 0.08);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        .quiz-link {
+            background-color: var(--blue);
+            color: white;
+            padding: 0.625rem 1.25rem;
+            border-radius: 0.375rem;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 0.9375rem;
+            transition: opacity 0.2s;
+        }
+
+        .quiz-link:hover {
+            opacity: 0.85;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .verse-text {
+                font-size: 1rem;
+            }
+
+            .chapter-header h1 {
+                font-size: 1.75rem;
+            }
+
+            .nav-buttons {
+                flex-direction: column;
+                gap: 0.75rem;
+            }
+
+            .nav-button {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="min-h-screen flex flex-col">
+        <!-- Breadcrumb Navigation -->
+        <nav class="bg-white bg-opacity-50 border-b border-gray-200 sticky top-0 z-10">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+                <div class="breadcrumb text-sm">
+                    <a href="/">Home</a>
+                    <span class="mx-2 text-gray-400">/</span>
+                    <a href="/bible">Bible</a>
+                    <span class="mx-2 text-gray-400">/</span>
+                    <a href="/genesis-chapters">Genesis</a>
+                    <span class="mx-2 text-gray-400">/</span>
+                    <span class="text-gray-600">Chapter 1</span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="flex-1 max-w-4xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+            <!-- Chapter Header -->
+            <div class="chapter-header">
+                <p class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-2">King James Version</p>
+                <h1 class="text-4xl sm:text-5xl font-serif font-bold mb-2">Genesis 1</h1>
+                <p class="text-lg text-gray-600">31 verses</p>
+            </div>
+
+            <!-- Verses Container -->
+            <div class="space-y-8">
+                <!-- Verse 1 -->
+                <div class="verse-item">
+                    <div class="flex gap-4 sm:gap-6">
+                        <div class="verse-number">1</div>
+                        <div class="flex-1">
+                            <p class="verse-text">In the beginning God created the heaven and the earth.</p>
+                            <button class="commentary-toggle" onclick="toggleCommentary(this)">+ Commentary</button>
+                            <div class="commentary-content">
+                                <p><strong>Commentary:</strong> This opening verse establishes the fundamental truth of creation. The Hebrew word "bara" (created) emphasizes God's unique creative power. The phrase "heaven and earth" encompasses all of creation—the spiritual and physical realms.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Verse 2 -->
+                <div class="verse-item">
+                    <div class="flex gap-4 sm:gap-6">
+                        <div class="verse-number">2</div>
+                        <div class="flex-1">
+                            <p class="verse-text">And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters.</p>
+                            <button class="commentary-toggle" onclick="toggleCommentary(this)">+ Commentary</button>
+                            <div class="commentary-content">
+                                <p><strong>Commentary:</strong> The earth's initial state is described as formless and empty. The presence of God's Spirit moving over the waters foreshadows the creative work to follow. This verse emphasizes God's active involvement in creation from the very beginning.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Verse 3 -->
+                <div class="verse-item">
+                    <div class="flex gap-4 sm:gap-6">
+                        <div class="verse-number">3</div>
+                        <div class="flex-1">
+                            <p class="verse-text">And God said, Let there be light: and there was light.</p>
+                            <button class="commentary-toggle" onclick="toggleCommentary(this)">+ Commentary</button>
+                            <div class="commentary-content">
+                                <p><strong>Commentary:</strong> Light is the first creation, symbolizing God's power and the dispelling of darkness. The phrase "Let there be" demonstrates God's creative authority—His word alone brings things into existence. Light is often associated with truth, goodness, and God's presence throughout Scripture.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Verse 4 -->
+                <div class="verse-item">
+                    <div class="flex gap-4 sm:gap-6">
+                        <div class="verse-number">4</div>
+                        <div class="flex-1">
+                            <p class="verse-text">And God saw the light, that it was good: and God divided the light from the darkness.</p>
+                            <button class="commentary-toggle" onclick="toggleCommentary(this)">+ Commentary</button>
+                            <div class="commentary-content">
+                                <p><strong>Commentary:</strong> God's evaluation of His creation as "good" appears throughout Genesis 1. This establishes that creation is inherently good and reflects God's character. The division of light and darkness represents order and distinction in creation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Verse 5 -->
+                <div class="verse-item">
+                    <div class="flex gap-4 sm:gap-6">
+                        <div class="verse-number">5</div>
+                        <div class="flex-1">
+                            <p class="verse-text">And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day.</p>
+                            <button class="commentary-toggle" onclick="toggleCommentary(this)">+ Commentary</button>
+                            <div class="commentary-content">
+                                <p><strong>Commentary:</strong> The naming of light and darkness establishes the first day. The Hebrew understanding of a day runs from evening to morning, reflecting the pattern of rest followed by work. This structure sets the pattern for the six days of creation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Verse 6 -->
+                <div class="verse-item">
+                    <div class="flex gap-4 sm:gap-6">
+                        <div class="verse-number">6</div>
+                        <div class="flex-1">
+                            <p class="verse-text">And God said, Let there be a firmament in the midst of the waters: and let it divide the waters from the waters.</p>
+                            <button class="commentary-toggle" onclick="toggleCommentary(this)">+ Commentary</button>
+                            <div class="commentary-content">
+                                <p><strong>Commentary:</strong> The "firmament" (Hebrew "raqia") refers to the sky or expanse. God creates a separation between waters above and below, establishing the atmosphere. This demonstrates God's orderly arrangement of creation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Verse 7 -->
+                <div class="verse-item">
+                    <div class="flex gap-4 sm:gap-6">
+                        <div class="verse-number">7</div>
+                        <div class="flex-1">
+                            <p class="verse-text">And God made the firmament, and divided the waters which were under the firmament from the waters which were above the firmament: and it was so.</p>
+                            <button class="commentary-toggle" onclick="toggleCommentary(this)">+ Commentary</button>
+                            <div class="commentary-content">
+                                <p><strong>Commentary:</strong> The execution of God's command is immediate and complete. The phrase "and it was so" emphasizes the certainty and power of God's word. What He speaks comes to pass without delay or difficulty.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Verse 8 -->
+                <div class="verse-item">
+                    <div class="flex gap-4 sm:gap-6">
+                        <div class="verse-number">8</div>
+                        <div class="flex-1">
+                            <p class="verse-text">And God called the firmament Heaven. And the evening and the morning were the second day.</p>
+                            <button class="commentary-toggle" onclick="toggleCommentary(this)">+ Commentary</button>
+                            <div class="commentary-content">
+                                <p><strong>Commentary:</strong> The sky is named "Heaven," establishing the spatial structure of creation. The completion of the second day follows the same pattern as the first, with evening and morning marking the day's boundaries.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Verse 9 -->
+                <div class="verse-item">
+                    <div class="flex gap-4 sm:gap-6">
+                        <div class="verse-number">9</div>
+                        <div class="flex-1">
+                            <p class="verse-text">And God said, Let the waters under the heaven be gathered together unto one place, and let the dry land appear: and it was so.</p>
+                            <button class="commentary-toggle" onclick="toggleCommentary(this)">+ Commentary</button>
+                            <div class="commentary-content">
+                                <p><strong>Commentary:</strong> God commands the waters to gather, creating dry land. This separation of water and land is essential for life. The obedience of creation to God's word demonstrates the harmony of the created order.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Verse 10 -->
+                <div class="verse-item">
+                    <div class="flex gap-4 sm:gap-6">
+                        <div class="verse-number">10</div>
+                        <div class="flex-1">
+                            <p class="verse-text">And God called the dry land Earth; and the gathering together of the waters called he Seas: and God saw that it was good.</p>
+                            <button class="commentary-toggle" onclick="toggleCommentary(this)">+ Commentary</button>
+                            <div class="commentary-content">
+                                <p><strong>Commentary:</strong> God names the dry land "Earth" and the waters "Seas," establishing the basic geography of our world. The repeated affirmation that creation is "good" reinforces that God's work is perfect and purposeful. This completes the third day of creation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chapter Navigation -->
+            <div class="mt-12 pt-8 border-t border-gray-300">
+                <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 nav-buttons justify-between items-center">
+                    <button class="nav-button" onclick="previousChapter()">← Previous Chapter</button>
+                    <a href="/genesis-chapters" class="nav-button">All Chapters</a>
+                    <button class="nav-button" onclick="nextChapter()">Next Chapter →</button>
+                </div>
+            </div>
+
+            <!-- Test Your Knowledge Section -->
+            <div class="quiz-section">
+                <h2 class="text-2xl font-serif font-bold mb-4">Test Your Knowledge</h2>
+                <p class="text-gray-700 mb-6">Deepen your understanding of this chapter with our interactive quizzes.</p>
+                <div class="flex flex-col sm:flex-row gap-3">
+                    <a href="/genesis-1-quiz" class="quiz-link">Genesis 1 Quiz</a>
+                    <a href="/genesis-quiz" class="quiz-link">Complete Genesis Quiz</a>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="border-t border-gray-300 mt-12 py-8 bg-white bg-opacity-30">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-gray-600">
+                <p>King James Version (KJV) - Public Domain</p>
+                <p class="mt-2">© 2025 Bible Quiz & Study. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        function toggleCommentary(button) {
+            const commentary = button.nextElementSibling;
+            commentary.classList.toggle('open');
+            button.textContent = commentary.classList.contains('open') ? '- Hide Commentary' : '+ Commentary';
+        }
+
+        function previousChapter() {
+            // Genesis 1 is the first chapter, so this would navigate to a different book
+            // For now, we'll show an alert
+            alert('This is the first chapter of Genesis. Navigate to a previous book.');
+        }
+
+        function nextChapter() {
+            // Navigate to Genesis 2
+            window.location.href = '/genesis-2-quiz/';
+        }
+    </script>
+</body>
+</html>

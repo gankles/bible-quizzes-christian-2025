@@ -1,0 +1,624 @@
+{
+  "id": "matthew-book-quiz",
+  "title": "Matthew Quiz - Complete Book",
+  "description": "Test your comprehensive knowledge of the entire book of Matthew with 25 questions covering key events, people, and teachings from all 28 chapters.",
+  "type": "book",
+  "book": "Matthew",
+  "questions": [
+    {
+      "id": "matthew-bq-1",
+      "question": "Who is described as the son of David and the son of Abraham in the genealogy of Jesus?",
+      "type": "multiple-choice",
+      "options": [
+        "Joseph",
+        "Jesus",
+        "Solomon",
+        "David"
+      ],
+      "correctAnswer": "Jesus",
+      "explanation": "Matthew 1:1 states that Jesus Christ is the son of David, the son of Abraham.",
+      "verseReference": "Matthew 1:1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matthew-bq-2",
+      "question": "According to Matthew 1, how many generations are there from Abraham to David?",
+      "type": "multiple-choice",
+      "options": [
+        "10",
+        "14",
+        "7",
+        "21"
+      ],
+      "correctAnswer": "14",
+      "explanation": "Matthew 1:17 states there are fourteen generations from Abraham to David.",
+      "verseReference": "Matthew 1:17",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matthew-bq-3",
+      "question": "Who appeared to Joseph in a dream to tell him not to fear taking Mary as his wife?",
+      "type": "multiple-choice",
+      "options": [
+        "An angel of the Lord",
+        "Mary",
+        "A prophet",
+        "Jesus"
+      ],
+      "correctAnswer": "An angel of the Lord",
+      "explanation": "Matthew 1:20 records that an angel of the Lord appeared to Joseph in a dream.",
+      "verseReference": "Matthew 1:20",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matthew-bq-4",
+      "question": "What name was Joseph told to give to Mary's son because he shall save his people from their sins?",
+      "type": "multiple-choice",
+      "options": [
+        "Emmanuel",
+        "Jesus",
+        "John",
+        "Messiah"
+      ],
+      "correctAnswer": "Jesus",
+      "explanation": "Matthew 1:21 states the child shall be called Jesus because he shall save his people from their sins.",
+      "verseReference": "Matthew 1:21",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matthew-bq-5",
+      "question": "Complete this verse: 'Judge not, that ye be not ______.'",
+      "type": "fill-blank",
+      "options": [
+        "judged",
+        "condemned",
+        "saved",
+        "rejected"
+      ],
+      "correctAnswer": "judged",
+      "explanation": "Matthew 7:1 teaches not to judge others so that you will not be judged yourself.",
+      "verseReference": "Matthew 7:1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matthew-bq-6",
+      "question": "According to Matthew 7, how shall men be judged if they judge others?",
+      "type": "multiple-choice",
+      "options": [
+        "With mercy",
+        "With the same judgment",
+        "With kindness",
+        "With forgiveness"
+      ],
+      "correctAnswer": "With the same judgment",
+      "explanation": "Matthew 7:2 says with what judgment ye judge, ye shall be judged.",
+      "verseReference": "Matthew 7:2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matthew-bq-7",
+      "question": "True or False: Matthew 7 teaches that a good tree can bring forth evil fruit.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "Matthew 7:18 states a good tree cannot bring forth evil fruit.",
+      "verseReference": "Matthew 7:18",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matthew-bq-8",
+      "question": "In the parable of the sower, what happened to the seeds that fell upon stony places?",
+      "type": "multiple-choice",
+      "options": [
+        "They were eaten by birds",
+        "They sprang up quickly but withered because they had no root",
+        "They grew strong and bore fruit",
+        "They were choked by thorns"
+      ],
+      "correctAnswer": "They sprang up quickly but withered because they had no root",
+      "explanation": "Matthew 13:5-6 explains the seeds on stony places sprang up quickly but withered due to no root.",
+      "verseReference": "Matthew 13:5-6",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matthew-bq-9",
+      "question": "What does the seed sown on good ground represent in the parable of the sower?",
+      "type": "multiple-choice",
+      "options": [
+        "The wicked one",
+        "The word of the kingdom heard and understood",
+        "The cares of this world",
+        "The way side"
+      ],
+      "correctAnswer": "The word of the kingdom heard and understood",
+      "explanation": "Matthew 13:23 says the good ground represents those who hear and understand the word and bear fruit.",
+      "verseReference": "Matthew 13:23",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matthew-bq-10",
+      "question": "Fill in the blank: 'The kingdom of heaven is like unto a grain of ______ seed, which a man took, and sowed in his field.'",
+      "type": "fill-blank",
+      "options": [
+        "mustard",
+        "wheat",
+        "barley",
+        "rye"
+      ],
+      "correctAnswer": "mustard",
+      "explanation": "Matthew 13:31 compares the kingdom of heaven to a mustard seed.",
+      "verseReference": "Matthew 13:31",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matthew-bq-11",
+      "question": "True or False: Jesus taught the multitudes only in direct statements, never in parables.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "Matthew 13:34 states Jesus spoke all things in parables to the multitude.",
+      "verseReference": "Matthew 13:34",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matthew-bq-12",
+      "question": "Who asked Jesus, 'Is it lawful for a man to put away his wife for every cause?'",
+      "type": "multiple-choice",
+      "options": [
+        "Pharisees",
+        "Sadducees",
+        "Scribes",
+        "Disciples"
+      ],
+      "correctAnswer": "Pharisees",
+      "explanation": "Matthew 19:3 records the Pharisees asking Jesus about divorce.",
+      "verseReference": "Matthew 19:3",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matthew-bq-13",
+      "question": "According to Jesus in Matthew 19, from the beginning, God made them male and female for what purpose?",
+      "type": "multiple-choice",
+      "options": [
+        "To be fruitful and multiply",
+        "To leave father and mother and cleave to wife",
+        "To judge rightly",
+        "To serve in the temple"
+      ],
+      "correctAnswer": "To leave father and mother and cleave to wife",
+      "explanation": "Matthew 19:4-5 explains God made male and female to leave parents and cleave to spouse.",
+      "verseReference": "Matthew 19:4-5",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matthew-bq-14",
+      "question": "True or False: Jesus said it is easier for a camel to go through the eye of a needle than for a rich man to enter the kingdom of God.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Matthew 19:24 states this comparison about the difficulty for the rich to enter the kingdom.",
+      "verseReference": "Matthew 19:24",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matthew-bq-15",
+      "question": "What did Jesus say to the rich young man who asked how to have eternal life?",
+      "type": "multiple-choice",
+      "options": [
+        "Keep the commandments",
+        "Sell all and give to the poor",
+        "Pray daily",
+        "Fast twice a week"
+      ],
+      "correctAnswer": "Keep the commandments",
+      "explanation": "Matthew 19:16-17 records Jesus telling the young man to keep the commandments.",
+      "verseReference": "Matthew 19:16-17",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matthew-bq-16",
+      "question": "Complete the verse: 'For where two or three are gathered together in my name, there am I ______ them.'",
+      "type": "fill-blank",
+      "options": [
+        "with",
+        "among",
+        "before",
+        "between"
+      ],
+      "correctAnswer": "with",
+      "explanation": "Matthew 18:20 promises Jesus's presence where two or three are gathered in His name.",
+      "verseReference": "Matthew 18:20",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matthew-bq-17",
+      "question": "Who did Jesus say is the greatest in the kingdom of heaven?",
+      "type": "multiple-choice",
+      "options": [
+        "A rich man",
+        "A child",
+        "A Pharisee",
+        "A scribe"
+      ],
+      "correctAnswer": "A child",
+      "explanation": "Matthew 18:4 says whoever humbles himself as a little child is greatest in the kingdom.",
+      "verseReference": "Matthew 18:4",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matthew-bq-18",
+      "question": "True or False: Jesus taught that it was lawful to divorce a wife for any cause.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "Matthew 19:6-9 clarifies that divorce was not lawful except for fornication.",
+      "verseReference": "Matthew 19:6-9",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matthew-bq-19",
+      "question": "In Matthew 5, which group did Jesus say are blessed because theirs is the kingdom of heaven?",
+      "type": "multiple-choice",
+      "options": [
+        "The meek",
+        "The poor in spirit",
+        "The merciful",
+        "The pure in heart"
+      ],
+      "correctAnswer": "The poor in spirit",
+      "explanation": "Matthew 5:3 states, 'Blessed are the poor in spirit: for theirs is the kingdom of heaven.'",
+      "verseReference": "Matthew 5:3",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matthew-bq-20",
+      "question": "What did Jesus say about anger in Matthew 5?",
+      "type": "multiple-choice",
+      "options": [
+        "It is as bad as murder",
+        "It is acceptable in some cases",
+        "It should be ignored",
+        "It is good for the soul"
+      ],
+      "correctAnswer": "It is as bad as murder",
+      "explanation": "Matthew 5:21-22 equates anger without cause to the sin of murder.",
+      "verseReference": "Matthew 5:21-22",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matthew-bq-21",
+      "question": "True or False: Jesus said, 'Ye are the salt of the earth.'",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Matthew 5:13 contains Jesus's teaching that his followers are the salt of the earth.",
+      "verseReference": "Matthew 5:13",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matthew-bq-22",
+      "question": "According to Matthew 6, what does Jesus instruct to do in secret, so your Father who sees in secret will reward you?",
+      "type": "multiple-choice",
+      "options": [
+        "Giving alms",
+        "Praying loud",
+        "Fasting publicly",
+        "Judging others"
+      ],
+      "correctAnswer": "Giving alms",
+      "explanation": "Matthew 6:1-4 instructs giving alms in secret for heavenly reward.",
+      "verseReference": "Matthew 6:1-4",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matthew-bq-23",
+      "question": "Fill in the blank: 'But lay up for yourselves treasures in ______, where neither moth nor rust doth corrupt.'",
+      "type": "fill-blank",
+      "options": [
+        "heaven",
+        "earth",
+        "storehouses",
+        "paradise"
+      ],
+      "correctAnswer": "heaven",
+      "explanation": "Matthew 6:20 teaches to store treasures in heaven, not on earth.",
+      "verseReference": "Matthew 6:20",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matthew-bq-24",
+      "question": "What instruction does Jesus give about worrying in Matthew 6?",
+      "type": "multiple-choice",
+      "options": [
+        "Take no thought for your life",
+        "Make plans for tomorrow",
+        "Worry for your family",
+        "Seek more possessions"
+      ],
+      "correctAnswer": "Take no thought for your life",
+      "explanation": "Matthew 6:25 tells not to be anxious about life or what to eat or drink.",
+      "verseReference": "Matthew 6:25",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matthew-bq-25",
+      "question": "True or False: Jesus commands to forgive others so that your heavenly Father will also forgive you.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Matthew 6:14-15 teaches forgiveness from God depends on forgiving others.",
+      "verseReference": "Matthew 6:14-15",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matthew-bq-26",
+      "question": "What did Jesus say about the narrow gate in Matthew 7?",
+      "type": "multiple-choice",
+      "options": [
+        "It leads to life and few find it",
+        "It leads to destruction and many enter",
+        "It is wider than the broad gate",
+        "No one can find it"
+      ],
+      "correctAnswer": "It leads to life and few find it",
+      "explanation": "Matthew 7:13-14 contrasts the narrow gate leading to life and few finding it.",
+      "verseReference": "Matthew 7:13-14",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matthew-bq-27",
+      "question": "Who did Jesus say would be known by their fruits?",
+      "type": "multiple-choice",
+      "options": [
+        "False prophets",
+        "Disciples",
+        "Pharisees",
+        "Centurions"
+      ],
+      "correctAnswer": "False prophets",
+      "explanation": "Matthew 7:15-20 teaches that false prophets are known by their fruits.",
+      "verseReference": "Matthew 7:15-20",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matthew-bq-28",
+      "question": "True or False: Jesus said that everyone who calls Him 'Lord' will enter the kingdom of heaven.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "Matthew 7:21 teaches not everyone saying 'Lord, Lord' will enter, but only those who do the will of the Father.",
+      "verseReference": "Matthew 7:21",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matthew-bq-29",
+      "question": "What is the foundation of the wise man’s house in Jesus’ parable?",
+      "type": "multiple-choice",
+      "options": [
+        "Rock",
+        "Sand",
+        "Wood",
+        "Clay"
+      ],
+      "correctAnswer": "Rock",
+      "explanation": "Matthew 7:24-25 says the wise man built his house upon the rock, which withstood storms.",
+      "verseReference": "Matthew 7:24-25",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matthew-bq-30",
+      "question": "In Matthew 8, who was the centurion that asked Jesus to heal his servant?",
+      "type": "multiple-choice",
+      "options": [
+        "A Roman officer",
+        "A Pharisee",
+        "A tax collector",
+        "A fisherman"
+      ],
+      "correctAnswer": "A Roman officer",
+      "explanation": "Matthew 8:5-6 mentions a Roman centurion who sought healing for his servant.",
+      "verseReference": "Matthew 8:5-6",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matthew-bq-31",
+      "question": "True or False: Jesus praised the centurion’s faith as being greater than any in Israel.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Matthew 8:10 records Jesus marveling at the centurion's faith.",
+      "verseReference": "Matthew 8:10",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matthew-bq-32",
+      "question": "What miracle did Jesus perform on the sea in Matthew 8?",
+      "type": "multiple-choice",
+      "options": [
+        "Calmed the storm",
+        "Walked on water",
+        "Fed the multitudes",
+        "Healed a blind man"
+      ],
+      "correctAnswer": "Calmed the storm",
+      "explanation": "Matthew 8:26-27 describes Jesus calming the storm on the sea.",
+      "verseReference": "Matthew 8:26-27",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matthew-bq-33",
+      "question": "Fill in the blank: 'And Jesus said unto him, If thou canst believe, all things are ______ to him that believeth.'",
+      "type": "fill-blank",
+      "options": [
+        "possible",
+        "hard",
+        "difficult",
+        "forbidden"
+      ],
+      "correctAnswer": "possible",
+      "explanation": "Matthew 9:23 teaches that all things are possible to him that believeth.",
+      "verseReference": "Matthew 9:23",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matthew-bq-34",
+      "question": "Who did Jesus raise from the dead in Matthew chapter 9?",
+      "type": "multiple-choice",
+      "options": [
+        "The daughter of Jairus",
+        "Lazarus",
+        "The widow's son",
+        "Tabitha"
+      ],
+      "correctAnswer": "The daughter of Jairus",
+      "explanation": "Matthew 9:18-25 recounts Jesus raising Jairus's daughter.",
+      "verseReference": "Matthew 9:18-25",
+      "difficulty": "hard"
+    },
+    {
+      "id": "matthew-bq-35",
+      "question": "True or False: Jesus said the harvest is plenteous but the laborers are few.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Matthew 9:37 states this about the need for laborers in the harvest.",
+      "verseReference": "Matthew 9:37",
+      "difficulty": "hard"
+    },
+    {
+      "id": "matthew-bq-36",
+      "question": "In Matthew 10, who did Jesus send out to preach and heal?",
+      "type": "multiple-choice",
+      "options": [
+        "The twelve apostles",
+        "The seventy disciples",
+        "The Pharisees",
+        "The prophets"
+      ],
+      "correctAnswer": "The twelve apostles",
+      "explanation": "Matthew 10:1-4 shows Jesus sending out the twelve.",
+      "verseReference": "Matthew 10:1-4",
+      "difficulty": "hard"
+    },
+    {
+      "id": "matthew-bq-37",
+      "question": "True or False: Jesus told his disciples to take gold, silver, or brass in their purses when sent out.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "Matthew 10:9-10 instructs the disciples not to take money or extra provisions.",
+      "verseReference": "Matthew 10:9-10",
+      "difficulty": "hard"
+    },
+    {
+      "id": "matthew-bq-38",
+      "question": "What did Jesus say about those who receive a prophet in the name of a prophet?",
+      "type": "multiple-choice",
+      "options": [
+        "They will receive a prophet's reward",
+        "They will be rejected",
+        "They will be condemned",
+        "They will be ignored"
+      ],
+      "correctAnswer": "They will receive a prophet's reward",
+      "explanation": "Matthew 10:41 teaches that receiving a prophet in his name brings a prophet's reward.",
+      "verseReference": "Matthew 10:41",
+      "difficulty": "hard"
+    },
+    {
+      "id": "matthew-bq-39",
+      "question": "Fill in the blank: 'Come unto me, all ye that labour and are heavy ______, and I will give you rest.'",
+      "type": "fill-blank",
+      "options": [
+        "laden",
+        "hearted",
+        "burdened",
+        "afflicted"
+      ],
+      "correctAnswer": "laden",
+      "explanation": "Matthew 11:28 invites those who are heavily laden to find rest in Jesus.",
+      "verseReference": "Matthew 11:28",
+      "difficulty": "hard"
+    },
+    {
+      "id": "matthew-bq-40",
+      "question": "Who did Jesus say is meek and lowly in heart and will find rest to their souls?",
+      "type": "multiple-choice",
+      "options": [
+        "Those who follow the law",
+        "Those who come to Him",
+        "The Pharisees",
+        "The rich"
+      ],
+      "correctAnswer": "Those who come to Him",
+      "explanation": "Matthew 11:29 shows Jesus describing Himself as meek and lowly and inviting all to find rest in Him.",
+      "verseReference": "Matthew 11:29",
+      "difficulty": "hard"
+    },
+    {
+      "id": "matthew-bq-41",
+      "question": "True or False: Jesus rebuked the cities of Chorazin and Bethsaida for not repenting despite witnessing His miracles.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Matthew 11:20-24 records Jesus denouncing these cities for their unbelief.",
+      "verseReference": "Matthew 11:20-24",
+      "difficulty": "hard"
+    },
+    {
+      "id": "matthew-bq-42",
+      "question": "What is the main theme of the Sermon on the Mount in Matthew chapters 5-7?",
+      "type": "multiple-choice",
+      "options": [
+        "Kingdom ethics and righteousness",
+        "Historical events of Israel",
+        "Temple rituals",
+        "End times prophecy"
+      ],
+      "correctAnswer": "Kingdom ethics and righteousness",
+      "explanation": "Matthew 5-7 teaches the ethics of the kingdom and how followers should live.",
+      "verseReference": "Matthew 5:1-7:29",
+      "difficulty": "hard"
+    },
+    {
+      "id": "matthew-bq-43",
+      "question": "True or False: Jesus instructed to love your enemies and pray for those who persecute you.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Matthew 5:44 commands love for enemies and prayer for persecutors.",
+      "verseReference": "Matthew 5:44",
+      "difficulty": "hard"
+    },
+    {
+      "id": "matthew-bq-44",
+      "question": "What sign did Jesus give to the Pharisees and Sadducees to prove His authority?",
+      "type": "multiple-choice",
+      "options": [
+        "The sign of Jonah",
+        "A sign from heaven",
+        "A new law",
+        "A mighty army"
+      ],
+      "correctAnswer": "The sign of Jonah",
+      "explanation": "Matthew 12:39-40 records Jesus saying no sign will be given except the sign of Jonah.",
+      "verseReference": "Matthew 12:39-40",
+      "difficulty": "hard"
+    },
+    {
+      "id": "matthew-bq-45",
+      "question": "Fill in the blank: 'But seek ye first the kingdom of God, and his ______; and all these things shall be added unto you.'",
+      "type": "fill-blank",
+      "options": [
+        "righteousness",
+        "mercy",
+        "peace",
+        "glory"
+      ],
+      "correctAnswer": "righteousness",
+      "explanation": "Matthew 6:33 teaches to seek first the kingdom and His righteousness for provision.",
+      "verseReference": "Matthew 6:33",
+      "difficulty": "hard"
+    }
+  ],
+  "difficulty": "medium",
+  "isBookQuiz": true,
+  "slug": "matthew-quiz",
+  "tags": [
+    "matthew",
+    "matthew",
+    "book quiz",
+    "comprehensive",
+    "bible quiz"
+  ],
+  "totalQuestions": 45,
+  "estimatedTime": 34
+}

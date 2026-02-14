@@ -1,0 +1,983 @@
+{
+  "id": "acts-1-tabbed",
+  "title": "Acts Chapter 1 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Acts chapter 1 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "acts-1-easy",
+      "title": "Acts Chapter 1 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Acts Chapter 1.",
+      "type": "chapter",
+      "book": "Acts",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "acts-1-easy-q1",
+          "question": "To whom did Jesus give commandments through the Holy Ghost according to Acts 1?",
+          "type": "multiple-choice",
+          "options": [
+            "The Pharisees",
+            "The apostles",
+            "The disciples of John",
+            "The Sadducees"
+          ],
+          "correctAnswer": "The apostles",
+          "explanation": "Acts 1:2 states that Jesus gave commandments unto the apostles through the Holy Ghost.",
+          "verseReference": "Acts 1:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-1-easy-q2",
+          "question": "How many days did Jesus appear alive to the apostles after his passion?",
+          "type": "multiple-choice",
+          "options": [
+            "Seven days",
+            "Twenty days",
+            "Thirty days",
+            "Forty days"
+          ],
+          "correctAnswer": "Forty days",
+          "explanation": "Acts 1:3 says Jesus was seen by the apostles forty days after his passion.",
+          "verseReference": "Acts 1:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-1-easy-q3",
+          "question": "What did Jesus command the apostles to do while assembled together before his ascension?",
+          "type": "multiple-choice",
+          "options": [
+            "Leave Jerusalem immediately",
+            "Go preach in Samaria",
+            "Not depart from Jerusalem but wait for the promise of the Father",
+            "Build a temple"
+          ],
+          "correctAnswer": "Not depart from Jerusalem but wait for the promise of the Father",
+          "explanation": "Acts 1:4 records Jesus commanding them to stay in Jerusalem and wait for the Father's promise.",
+          "verseReference": "Acts 1:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-1-easy-q4",
+          "question": "Who baptized with water according to Acts 1?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus",
+            "Paul",
+            "John",
+            "Peter"
+          ],
+          "correctAnswer": "John",
+          "explanation": "Acts 1:5 mentions that John truly baptized with water.",
+          "verseReference": "Acts 1:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-1-easy-q5",
+          "question": "What did Jesus say the apostles would receive after the Holy Ghost came upon them?",
+          "type": "multiple-choice",
+          "options": [
+            "Wealth",
+            "Power",
+            "Peace",
+            "Prophecy"
+          ],
+          "correctAnswer": "Power",
+          "explanation": "Acts 1:8 states that the apostles would receive power after the Holy Ghost comes upon them.",
+          "verseReference": "Acts 1:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-1-easy-q6",
+          "question": "Where was Jesus taken up after he spoke to the apostles?",
+          "type": "multiple-choice",
+          "options": [
+            "Into a cloud",
+            "Into a mountain",
+            "Into a boat",
+            "Into a house"
+          ],
+          "correctAnswer": "Into a cloud",
+          "explanation": "Acts 1:9 says a cloud received Jesus out of the apostles' sight as he was taken up.",
+          "verseReference": "Acts 1:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-1-easy-q7",
+          "question": "Who appeared to the apostles while they were looking up at heaven?",
+          "type": "multiple-choice",
+          "options": [
+            "Two men in white apparel",
+            "An angel",
+            "Jesus' mother",
+            "A group of Pharisees"
+          ],
+          "correctAnswer": "Two men in white apparel",
+          "explanation": "Acts 1:10 describes two men standing by them in white apparel as they looked toward heaven.",
+          "verseReference": "Acts 1:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-1-easy-q8",
+          "question": "What did the two men in white say about Jesus' return?",
+          "type": "multiple-choice",
+          "options": [
+            "He will never return",
+            "He will return with a trumpet blast",
+            "He will come in like manner as he went into heaven",
+            "He will return only to Jerusalem"
+          ],
+          "correctAnswer": "He will come in like manner as he went into heaven",
+          "explanation": "Acts 1:11 states Jesus will come again in the same manner as He ascended.",
+          "verseReference": "Acts 1:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-1-easy-q9",
+          "question": "From which mount did the apostles return to Jerusalem?",
+          "type": "multiple-choice",
+          "options": [
+            "Mount Sinai",
+            "Mount Zion",
+            "Mount Olivet",
+            "Mount Carmel"
+          ],
+          "correctAnswer": "Mount Olivet",
+          "explanation": "Acts 1:12 says they returned from the mount called Olivet.",
+          "verseReference": "Acts 1:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-1-easy-q10",
+          "question": "How many disciples were gathered together when Peter stood up to speak?",
+          "type": "multiple-choice",
+          "options": [
+            "About 50",
+            "About 70",
+            "About 120",
+            "About 200"
+          ],
+          "correctAnswer": "About 120",
+          "explanation": "Acts 1:15 states the number of names together were about an hundred and twenty.",
+          "verseReference": "Acts 1:15",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-1-easy-q11",
+          "question": "True or False: According to Acts 1, Judas Iscariot was chosen by the apostles to replace Jesus.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Acts 1:25 explains Judas fell by transgression and someone else was chosen to take his place.",
+          "verseReference": "Acts 1:25",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-1-easy-q12",
+          "question": "True or False: The field purchased with the reward of Judas is called the Field of Blood.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Acts 1:19 states the field is called Aceldama, meaning the Field of Blood.",
+          "verseReference": "Acts 1:19",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-1-easy-q13",
+          "question": "True or False: Jesus told the apostles it was for them to know the times or seasons of the Father's plan.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Acts 1:7 says it is not for the apostles to know the times or seasons, which the Father has put in His own power.",
+          "verseReference": "Acts 1:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-1-easy-q14",
+          "question": "Complete this verse from Acts 1:8: 'But ye shall receive power, after that the ______ is come upon you.'",
+          "type": "fill-blank",
+          "options": [
+            "Holy Ghost",
+            "Angel",
+            "Spirit of Wisdom",
+            "Fire"
+          ],
+          "correctAnswer": "Holy Ghost",
+          "explanation": "Acts 1:8 clearly states you shall receive power after the Holy Ghost comes upon you.",
+          "verseReference": "Acts 1:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-1-easy-q15",
+          "question": "Complete the verse from Acts 1:20: 'Let his habitation be desolate, and let no man dwell therein: and his ______ let another take.'",
+          "type": "fill-blank",
+          "options": [
+            "bishoprick",
+            "kingdom",
+            "inheritance",
+            "priesthood"
+          ],
+          "correctAnswer": "bishoprick",
+          "explanation": "Acts 1:20 uses the word 'bishoprick' to describe the position that should be taken by another.",
+          "verseReference": "Acts 1:20",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "acts-1-quiz",
+      "tags": [
+        "acts",
+        "chapter-1",
+        "acts",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "acts-1-medium",
+      "title": "Acts Chapter 1 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Acts Chapter 1 to real-life situations.",
+      "type": "chapter",
+      "book": "Acts",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "acts-1-medium-q1",
+          "question": "A believer is feeling uncertain about God's timing in their life. Based on Acts 1, what biblical truth would you share about trusting God's timing?",
+          "type": "multiple-choice",
+          "options": [
+            "It is not for us to know the times or seasons, but to trust God's sovereign plan",
+            "We should try to predict God's plans through signs",
+            "God has already told us everything about the future",
+            "We must act quickly without waiting for God's guidance"
+          ],
+          "correctAnswer": "It is not for us to know the times or seasons, but to trust God's sovereign plan",
+          "explanation": "Acts 1:7 teaches that the times and seasons are in the Father's power, reminding us to trust God's sovereignty rather than seek to control or predict His timing. This encourages faith and patience (Acts 1:7, Acts 1:4, Acts 1:8).",
+          "verseReference": "Acts 1:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-1-medium-q2",
+          "question": "How does Acts 1 teach us about the importance of prayer and unity in the church?",
+          "type": "multiple-choice",
+          "options": [
+            "They continued with one accord in prayer and supplication",
+            "They argued about who would lead next",
+            "They separated into different groups for prayer",
+            "They stopped praying after Jesus ascended"
+          ],
+          "correctAnswer": "They continued with one accord in prayer and supplication",
+          "explanation": "Acts 1:14 shows the disciples, along with women and Mary, praying together in unity and agreement, emphasizing the power of communal prayer and fellowship in spiritual strength and guidance (Acts 1:14, Acts 1:4, Acts 1:8).",
+          "verseReference": "Acts 1:14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-1-medium-q3",
+          "question": "A fellow believer is struggling with doubt about their role in God's mission. Based on Acts 1, what biblical truth would encourage them about witness and service?",
+          "type": "multiple-choice",
+          "options": [
+            "You will receive power when the Holy Ghost comes and be witnesses to the ends of the earth",
+            "Only a select few are called to be witnesses",
+            "Witnessing is optional and only for some people",
+            "You must wait until you feel fully prepared before witnessing"
+          ],
+          "correctAnswer": "You will receive power when the Holy Ghost comes and be witnesses to the ends of the earth",
+          "explanation": "Acts 1:8 encourages believers that the Holy Spirit empowers them to be witnesses everywhere, highlighting the call for all Christians to actively share the gospel with courage and reliance on God's power (Acts 1:8, Acts 1:4, Acts 1:14).",
+          "verseReference": "Acts 1:8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-1-medium-q4",
+          "question": "What does Acts 1 teach about obedience and waiting on the Lord's promise?",
+          "type": "multiple-choice",
+          "options": [
+            "Do not depart from Jerusalem but wait for the promise of the Father",
+            "Go immediately without waiting for any promise",
+            "Wait only if you feel like it",
+            "Disobey instructions if you think you know better"
+          ],
+          "correctAnswer": "Do not depart from Jerusalem but wait for the promise of the Father",
+          "explanation": "Acts 1:4 instructs the disciples to remain in Jerusalem and wait for the Father's promise, teaching us obedience to God's timing and the importance of patience in spiritual preparation (Acts 1:4, Acts 1:5, Acts 1:8).",
+          "verseReference": "Acts 1:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-1-medium-q5",
+          "question": "A Christian is facing discouragement after a leader's failure. How does Acts 1 demonstrate God's provision and restoration in such times?",
+          "type": "multiple-choice",
+          "options": [
+            "The disciples chose Matthias to replace Judas, restoring the number of apostles",
+            "They gave up on the mission after Judas' betrayal",
+            "They ignored the situation and continued as before",
+            "They elected Judas back despite his transgression"
+          ],
+          "correctAnswer": "The disciples chose Matthias to replace Judas, restoring the number of apostles",
+          "explanation": "Acts 1:26 shows the apostles selecting Matthias after Judas' fall, illustrating God’s faithfulness in restoring leadership and continuing His work despite setbacks (Acts 1:15-26).",
+          "verseReference": "Acts 1:26",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-1-medium-q6",
+          "question": "How does Acts 1 guide believers in maintaining integrity and faithfulness in service?",
+          "type": "multiple-choice",
+          "options": [
+            "One must have accompanied Jesus throughout His ministry to be chosen for apostolic service",
+            "Anyone can claim a ministry position regardless of their experience",
+            "Ministry roles are based on popularity",
+            "Service requires no accountability"
+          ],
+          "correctAnswer": "One must have accompanied Jesus throughout His ministry to be chosen for apostolic service",
+          "explanation": "Acts 1:21-22 highlights that apostleship required witnessing Jesus' ministry from baptism to ascension, emphasizing integrity, faithfulness, and accountability in church service (Acts 1:21-22, Acts 1:16-17).",
+          "verseReference": "Acts 1:21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-1-medium-q7",
+          "question": "True or False: According to Acts 1, Jesus gave commandments to the apostles through the Holy Ghost before His ascension.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Acts 1:2 states that Jesus gave commandments to the apostles through the Holy Ghost before He was taken up, showing the importance of spiritual instruction before ministry begins (Acts 1:2).",
+          "verseReference": "Acts 1:2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-1-medium-q8",
+          "question": "True or False: The disciples immediately understood the timing of the kingdom restoration after Jesus' resurrection, as described in Acts 1.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Acts 1:6-7 shows the disciples asking about the kingdom restoration, but Jesus tells them it is not for them to know the times, emphasizing faith and trust rather than full understanding (Acts 1:6-7).",
+          "verseReference": "Acts 1:6",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-1-medium-q9",
+          "question": "Fill in the blank: Acts 1 teaches that after Jesus ascended, the disciples went to an upper room where they continued in ______ and supplication.",
+          "type": "fill-blank",
+          "options": [
+            "prayer",
+            "joy",
+            "singing",
+            "debate"
+          ],
+          "correctAnswer": "prayer",
+          "explanation": "Acts 1:13-14 describes the disciples going into an upper room and continuing with one accord in prayer and supplication, highlighting the importance of devotion and seeking God's guidance together (Acts 1:13-14).",
+          "verseReference": "Acts 1:14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-1-medium-q10",
+          "question": "How does Acts 1 exemplify humility and contentment in church leadership selection?",
+          "type": "multiple-choice",
+          "options": [
+            "Leaders prayed and cast lots to choose God's appointed person",
+            "They chose the loudest or most popular candidate",
+            "They fought over the position",
+            "They appointed themselves without prayer"
+          ],
+          "correctAnswer": "Leaders prayed and cast lots to choose God's appointed person",
+          "explanation": "Acts 1:24-26 shows the apostles praying and casting lots to discern God's choice, teaching humility, dependence on God, and contentment with His will in leadership decisions (Acts 1:24-26).",
+          "verseReference": "Acts 1:24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-1-medium-q11",
+          "question": "What practical lesson about evangelism and witness can be drawn from Acts 1?",
+          "type": "multiple-choice",
+          "options": [
+            "Witnessing should begin locally and extend to the entire world",
+            "Evangelism is only for trained professionals",
+            "Witnessing is unnecessary if others are doing it",
+            "Only the apostles were responsible to witness"
+          ],
+          "correctAnswer": "Witnessing should begin locally and extend to the entire world",
+          "explanation": "Acts 1:8 shows Jesus commissioning the disciples to be witnesses in Jerusalem, Judaea, Samaria, and to the ends of the earth, teaching the progressive and expansive nature of evangelism (Acts 1:8).",
+          "verseReference": "Acts 1:8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-1-medium-q12",
+          "question": "How does Acts 1 encourage believers to persevere through trials and uncertainty?",
+          "type": "multiple-choice",
+          "options": [
+            "By waiting in prayer and unity for God's promised help",
+            "By giving up when things are unclear",
+            "By seeking worldly solutions first",
+            "By acting independently without prayer"
+          ],
+          "correctAnswer": "By waiting in prayer and unity for God's promised help",
+          "explanation": "Acts 1:4 and 14 emphasize waiting in Jerusalem and praying together with one accord, encouraging perseverance through faith, prayer, and unity during uncertain times (Acts 1:4, Acts 1:14).",
+          "verseReference": "Acts 1:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-1-medium-q13",
+          "question": "What does Acts 1 teach about honesty and accountability in leadership through the example of Judas?",
+          "type": "multiple-choice",
+          "options": [
+            "Judas' betrayal and its consequences show the need for accountability and integrity",
+            "Leadership roles can be taken lightly",
+            "Betrayal has no consequences",
+            "Dishonesty is tolerated in ministry"
+          ],
+          "correctAnswer": "Judas' betrayal and its consequences show the need for accountability and integrity",
+          "explanation": "Acts 1:16-20 recounts Judas' betrayal and death, highlighting the serious consequences of unfaithfulness and the importance of integrity in ministry (Acts 1:16-20).",
+          "verseReference": "Acts 1:16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-1-medium-q14",
+          "question": "How can believers apply Acts 1's teaching on fellowship and mutual support in their church community?",
+          "type": "multiple-choice",
+          "options": [
+            "By continuing together with one accord in prayer and support",
+            "By isolating themselves from others",
+            "By competing for recognition",
+            "By neglecting fellowship"
+          ],
+          "correctAnswer": "By continuing together with one accord in prayer and support",
+          "explanation": "Acts 1:14 illustrates believers praying and supporting one another in unity, encouraging Christians to cultivate fellowship and mutual encouragement in their communities (Acts 1:14).",
+          "verseReference": "Acts 1:14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-1-medium-q15",
+          "question": "According to Acts 1, how should believers respond to God's promises when they seem delayed?",
+          "type": "multiple-choice",
+          "options": [
+            "Wait faithfully and obediently in prayer as the disciples did",
+            "Doubt and give up hope",
+            "Try to fulfill the promise by their own efforts",
+            "Ignore the promise"
+          ],
+          "correctAnswer": "Wait faithfully and obediently in prayer as the disciples did",
+          "explanation": "Acts 1:4-5 and 14 show the disciples waiting obediently and praying for the Father's promise, teaching believers to patiently trust and seek God even when fulfillment seems delayed (Acts 1:4-5, Acts 1:14).",
+          "verseReference": "Acts 1:4",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "acts-1-quiz",
+      "tags": [
+        "acts",
+        "chapter-1",
+        "acts",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "acts-1-hard",
+      "title": "Acts Chapter 1 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Acts Chapter 1.",
+      "type": "chapter",
+      "book": "Acts",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "acts-1-hard-q1",
+          "question": "What is the significance of the 'promise of the Father' that Jesus commands the apostles to wait for in Jerusalem?",
+          "type": "multiple-choice",
+          "options": [
+            "The coming of the Holy Ghost",
+            "The restoration of the kingdom to Israel",
+            "The resurrection of Jesus",
+            "The return of Elijah"
+          ],
+          "correctAnswer": "The coming of the Holy Ghost",
+          "explanation": "Acts 1:4-5 shows that the 'promise of the Father' refers to the baptism with the Holy Ghost, which is a fulfillment of Old Testament prophecy about the Spirit coming upon God's people.",
+          "verseReference": "Acts 1:4-5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-hard-q2",
+          "question": "How long did Jesus appear alive to the apostles after His passion, as a form of proof of His resurrection?",
+          "type": "multiple-choice",
+          "options": [
+            "Forty days",
+            "Seven days",
+            "Three days",
+            "Fifty days"
+          ],
+          "correctAnswer": "Forty days",
+          "explanation": "Acts 1:3 states that Jesus showed Himself alive by many infallible proofs for forty days, which correlates to the biblical symbolism of forty as a period of testing and preparation.",
+          "verseReference": "Acts 1:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-hard-q3",
+          "question": "In Acts 1, what is the Greek meaning and significance of the term translated as 'Holy Ghost'?",
+          "type": "multiple-choice",
+          "options": [
+            "Holy Spirit, referring to God's active presence",
+            "Holy Angel, a messenger of God",
+            "Holy Fire, symbolizing purification",
+            "Holy Breath, indicating life"
+          ],
+          "correctAnswer": "Holy Spirit, referring to God's active presence",
+          "explanation": "The Greek term 'Pneuma Hagion' (Holy Ghost or Holy Spirit) in Acts 1 refers to God's active presence empowering the apostles, fulfilling Old Testament prophecies like Joel 2.",
+          "verseReference": "Acts 1:2-5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-hard-q4",
+          "question": "What question did the apostles ask Jesus regarding the restoration of the kingdom, and what was His response about knowing the times?",
+          "type": "multiple-choice",
+          "options": [
+            "They asked if He would restore Israel's kingdom now; He said it was not for them to know the times or seasons.",
+            "They asked when the temple would be rebuilt; He said it would happen soon.",
+            "They asked about the end of the world; He gave them a detailed timeline.",
+            "They asked if they should take up arms; He told them to wait."
+          ],
+          "correctAnswer": "They asked if He would restore Israel's kingdom now; He said it was not for them to know the times or seasons.",
+          "explanation": "Acts 1:6-7 records the apostles’ question about restoring Israel’s kingdom and Jesus’ reply that the timing is under the Father’s authority, emphasizing divine sovereignty.",
+          "verseReference": "Acts 1:6-7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-hard-q5",
+          "question": "According to Acts 1:8, what geographical progression is given for the apostles' witness after receiving power from the Holy Ghost?",
+          "type": "multiple-choice",
+          "options": [
+            "Jerusalem, Judaea, Samaria, to the uttermost part of the earth",
+            "Jerusalem, Egypt, Babylon, Rome",
+            "Israel, Greece, Rome, Asia",
+            "Nazareth, Bethlehem, Jerusalem, Rome"
+          ],
+          "correctAnswer": "Jerusalem, Judaea, Samaria, to the uttermost part of the earth",
+          "explanation": "Acts 1:8 outlines a geographical and missional expansion beginning locally in Jerusalem and extending universally, fulfilling God's plan for spreading the gospel.",
+          "verseReference": "Acts 1:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-hard-q6",
+          "question": "What is the theological implication of Jesus being taken up into a cloud and disappearing from the apostles’ sight in Acts 1:9?",
+          "type": "multiple-choice",
+          "options": [
+            "It signifies His ascension into heaven and divine exaltation.",
+            "It means He was hidden because of fear.",
+            "It indicates a symbolic death.",
+            "It shows His return to earth immediately."
+          ],
+          "correctAnswer": "It signifies His ascension into heaven and divine exaltation.",
+          "explanation": "Acts 1:9 uses the cloud imagery traditionally associated with God's presence (as in Exodus) to signify Jesus’ ascension and exaltation at God's right hand.",
+          "verseReference": "Acts 1:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-hard-q7",
+          "question": "Who appeared to the apostles as Jesus ascended, and what message did they deliver about Jesus' return?",
+          "type": "multiple-choice",
+          "options": [
+            "Two men in white apparel, saying Jesus will come again as He went up.",
+            "An angel of the Lord, proclaiming the end times.",
+            "Moses and Elijah, predicting the Messiah’s kingdom.",
+            "A heavenly choir, singing of the new covenant."
+          ],
+          "correctAnswer": "Two men in white apparel, saying Jesus will come again as He went up.",
+          "explanation": "Acts 1:10-11 describes two men in white who remind the apostles that Jesus will return in the same manner as His ascension, emphasizing the promise of His second coming.",
+          "verseReference": "Acts 1:10-11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-hard-q8",
+          "question": "What is the meaning and cultural significance of the 'sabbath day's journey' mentioned in Acts 1:12?",
+          "type": "multiple-choice",
+          "options": [
+            "A distance of about 2,000 cubits allowed for travel on the Sabbath without breaking the law.",
+            "A pilgrimage route to the temple only allowed on the Sabbath.",
+            "A fast lasting one day commemorated weekly.",
+            "A ceremonial cleansing performed every Sabbath."
+          ],
+          "correctAnswer": "A distance of about 2,000 cubits allowed for travel on the Sabbath without breaking the law.",
+          "explanation": "Acts 1:12 notes the mount called Olivet is a Sabbath day's journey from Jerusalem, reflecting Jewish law limiting travel on the Sabbath to preserve holiness.",
+          "verseReference": "Acts 1:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-hard-q9",
+          "question": "Which disciples were present in the upper room according to Acts 1:13, and what does this list signify about apostolic continuity?",
+          "type": "multiple-choice",
+          "options": [
+            "Peter, James, John, Andrew, Philip, Thomas, Bartholomew, Matthew, James son of Alphaeus, Simon Zelotes, Judas brother of James",
+            "Paul, Barnabas, Silas, Timothy, Luke",
+            "Moses, Elijah, Isaiah, Jeremiah",
+            "John the Baptist, Nicodemus, Mary Magdalene, Lazarus"
+          ],
+          "correctAnswer": "Peter, James, John, Andrew, Philip, Thomas, Bartholomew, Matthew, James son of Alphaeus, Simon Zelotes, Judas brother of James",
+          "explanation": "Acts 1:13 lists the eleven apostles present, underscoring the continuity of the original apostolic group after Judas’ betrayal and death.",
+          "verseReference": "Acts 1:13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-hard-q10",
+          "question": "In Acts 1:14, who are mentioned as praying together with the apostles, and what does this indicate about the early Christian community?",
+          "type": "multiple-choice",
+          "options": [
+            "The apostles, women, Mary the mother of Jesus, and his brethren",
+            "Only the twelve apostles",
+            "The Pharisees and Sadducees",
+            "The Roman authorities"
+          ],
+          "correctAnswer": "The apostles, women, Mary the mother of Jesus, and his brethren",
+          "explanation": "Acts 1:14 highlights the inclusivity of the early church community involving men and women, including Jesus’ family, emphasizing communal prayer and unity.",
+          "verseReference": "Acts 1:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-hard-q11",
+          "question": "What Old Testament scripture is Peter referencing in Acts 1:16-20 to explain the necessity of replacing Judas Iscariot?",
+          "type": "multiple-choice",
+          "options": [
+            "Psalm 69:25 and 109:8, which speak of desolation and replacement",
+            "Isaiah 53 about the suffering servant",
+            "Genesis 12 about Abraham's descendants",
+            "Exodus 20 about the Ten Commandments"
+          ],
+          "correctAnswer": "Psalm 69:25 and 109:8, which speak of desolation and replacement",
+          "explanation": "Peter quotes Psalms in Acts 1:16-20 to show prophecy about Judas’ betrayal and the need for another apostle to take his place, linking Jesus’ story with Hebrew scripture.",
+          "verseReference": "Acts 1:16-20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-hard-q12",
+          "question": "What is the meaning of 'Aceldama' mentioned in Acts 1:19 and how does it relate to Judas' fate?",
+          "type": "multiple-choice",
+          "options": [
+            "It means 'Field of Blood,' named after Judas’ death and betrayal.",
+            "It means 'House of Prayer,' symbolizing forgiveness.",
+            "It means 'Place of Peace,' referring to the resurrection.",
+            "It means 'Garden of Eden,' symbolizing new beginnings."
+          ],
+          "correctAnswer": "It means 'Field of Blood,' named after Judas’ death and betrayal.",
+          "explanation": "Acts 1:19 explains 'Aceldama' as the field bought with Judas’ reward for betrayal, thus called the 'Field of Blood,' connecting place with his tragic end.",
+          "verseReference": "Acts 1:18-19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-hard-q13",
+          "question": "What criteria did the apostles use in Acts 1:21-22 to select a replacement for Judas?",
+          "type": "multiple-choice",
+          "options": [
+            "One who accompanied them all the time Jesus went in and out, from John's baptism to the ascension.",
+            "One who was wealthy and influential.",
+            "One who was a relative of Jesus.",
+            "One who was a Pharisee."
+          ],
+          "correctAnswer": "One who accompanied them all the time Jesus went in and out, from John's baptism to the ascension.",
+          "explanation": "Acts 1:21-22 sets the requirement that the new apostle must be a witness to Jesus’ ministry and resurrection, ensuring apostolic authority and continuity.",
+          "verseReference": "Acts 1:21-22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-hard-q14",
+          "question": "How was Matthias chosen to be the new apostle in Acts 1:23-26, and what does this process demonstrate about early church leadership?",
+          "type": "multiple-choice",
+          "options": [
+            "By prayer and casting lots, showing reliance on divine guidance.",
+            "By popular vote among the disciples.",
+            "By appointment from the Roman authorities.",
+            "By direct revelation to Peter only."
+          ],
+          "correctAnswer": "By prayer and casting lots, showing reliance on divine guidance.",
+          "explanation": "Acts 1:24-26 describes praying for God’s choice and casting lots, revealing the early church’s dependence on the Holy Spirit for guidance in leadership decisions.",
+          "verseReference": "Acts 1:23-26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-hard-q15",
+          "question": "True or False: The number of disciples gathered in Acts 1:15 was about one hundred and twenty.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Acts 1:15 explicitly states that about 120 disciples were present when Peter stood up to address them, indicating the size of the early Christian community.",
+          "verseReference": "Acts 1:15",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "acts-1-quiz",
+      "tags": [
+        "acts",
+        "chapter-1",
+        "acts",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "acts-1-theological",
+      "title": "Acts Chapter 1 Quiz - Theological Level",
+      "description": "Deep biblical theology from Acts Chapter 1 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Acts",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "acts-1-theological-q1",
+          "question": "According to Acts 1:3, for how many days did Jesus show Himself alive to the apostles after His resurrection?",
+          "type": "multiple-choice",
+          "options": [
+            "30 days",
+            "40 days",
+            "50 days",
+            "60 days"
+          ],
+          "correctAnswer": "40 days",
+          "explanation": "Acts 1:3 states Jesus was seen by the apostles for forty days after His resurrection. This affirms His bodily resurrection and ongoing teaching before His ascension, consistent with Luke 24:46 and 1 Corinthians 15:3-8.",
+          "verseReference": "Acts 1:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-theological-q2",
+          "question": "What command did Jesus give to the apostles regarding their location until the coming of the Holy Spirit?",
+          "type": "multiple-choice",
+          "options": [
+            "Go preach immediately",
+            "Depart to Galilee",
+            "Do not depart from Jerusalem",
+            "Build the church"
+          ],
+          "correctAnswer": "Do not depart from Jerusalem",
+          "explanation": "Acts 1:4 records Jesus commanding the apostles to stay in Jerusalem until they receive the promise of the Father, the Holy Spirit, which aligns with John 20:22 and Luke 24:49 emphasizing waiting for God's timing.",
+          "verseReference": "Acts 1:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-theological-q3",
+          "question": "In Acts 1:5, what distinction does Jesus make between John's baptism and the baptism the apostles will receive?",
+          "type": "multiple-choice",
+          "options": [
+            "John baptized with fire; they will be baptized with water",
+            "John baptized with water; they will be baptized with the Holy Ghost",
+            "John baptized with the Spirit; they will baptize with water",
+            "John baptized with water; they will baptize with fire"
+          ],
+          "correctAnswer": "John baptized with water; they will be baptized with the Holy Ghost",
+          "explanation": "Acts 1:5 contrasts John's water baptism with the coming baptism of the Holy Spirit, highlighting the transformative power of the Spirit promised in Joel 2:28-29 and fulfilled in Pentecost (Acts 2).",
+          "verseReference": "Acts 1:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-theological-q4",
+          "question": "What question did the apostles ask Jesus concerning Israel's future in Acts 1:6?",
+          "type": "multiple-choice",
+          "options": [
+            "Will you restore the kingdom to Israel now?",
+            "Will you judge the nations now?",
+            "Will you establish peace now?",
+            "Will you destroy the temple now?"
+          ],
+          "correctAnswer": "Will you restore the kingdom to Israel now?",
+          "explanation": "In Acts 1:6, the apostles inquire if Jesus will at that time restore the kingdom to Israel, reflecting Messianic expectations rooted in Old Testament promises (2 Samuel 7:12-16, Daniel 7:13-14).",
+          "verseReference": "Acts 1:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-theological-q5",
+          "question": "How does Jesus respond to the apostles' question about the restoration of Israel's kingdom in Acts 1:7?",
+          "type": "multiple-choice",
+          "options": [
+            "He gives a detailed timeline",
+            "He says it is not for them to know the times or seasons",
+            "He promises immediate restoration",
+            "He denies the restoration will happen"
+          ],
+          "correctAnswer": "He says it is not for them to know the times or seasons",
+          "explanation": "Acts 1:7 reveals Jesus directing the apostles to trust God's sovereign timing, indicating that knowledge of eschatological timing belongs to the Father alone, consistent with Matthew 24:36 and 1 Thessalonians 5:1-2.",
+          "verseReference": "Acts 1:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-theological-q6",
+          "question": "What promise does Jesus make in Acts 1:8 about the power the apostles will receive?",
+          "type": "multiple-choice",
+          "options": [
+            "Power to judge the world",
+            "Power to perform miracles only",
+            "Power after the Holy Ghost comes upon them to be witnesses",
+            "Power to overthrow rulers"
+          ],
+          "correctAnswer": "Power after the Holy Ghost comes upon them to be witnesses",
+          "explanation": "Acts 1:8 promises that the apostles will receive power through the Holy Spirit to be witnesses globally, underscoring the Spirit’s role in mission (Joel 2:28, Isaiah 11:2, Luke 24:49).",
+          "verseReference": "Acts 1:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-theological-q7",
+          "question": "What remarkable event concerning Jesus is described in Acts 1:9?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus ascends into a cloud out of their sight",
+            "Jesus performs a final miracle",
+            "Jesus appoints Matthias",
+            "Jesus descends to hell"
+          ],
+          "correctAnswer": "Jesus ascends into a cloud out of their sight",
+          "explanation": "Acts 1:9 describes the ascension of Jesus into heaven, a pivotal event affirming His exaltation and divine authority, corresponding with Luke 24:51 and Ephesians 4:8-10.",
+          "verseReference": "Acts 1:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-theological-q8",
+          "question": "Who appeared to the apostles as Jesus ascended, and what message did they bring according to Acts 1:10-11?",
+          "type": "multiple-choice",
+          "options": [
+            "Two angels; Jesus will return in like manner",
+            "Two priests; to continue the temple service",
+            "Jesus' family; to comfort them",
+            "John the Baptist; to baptize again"
+          ],
+          "correctAnswer": "Two angels; Jesus will return in like manner",
+          "explanation": "Acts 1:10-11 tells of two men in white (angels) assuring the apostles that Jesus will return as He ascended, confirming the doctrine of Christ’s second coming (Daniel 7:13, Zechariah 14:4).",
+          "verseReference": "Acts 1:10-11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-theological-q9",
+          "question": "Where did the apostles go immediately after Jesus' ascension, as stated in Acts 1:12?",
+          "type": "multiple-choice",
+          "options": [
+            "To Galilee",
+            "To the upper room in Jerusalem",
+            "To the Mount called Olivet",
+            "To the temple courts"
+          ],
+          "correctAnswer": "To the Mount called Olivet",
+          "explanation": "Acts 1:12 specifies the apostles returned to Jerusalem from the Mount called Olivet, a location significant for the ascension and later events, harmonizing with Luke 24:50.",
+          "verseReference": "Acts 1:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-theological-q10",
+          "question": "According to Acts 1:14, who continued together in prayer with the apostles?",
+          "type": "multiple-choice",
+          "options": [
+            "Only the apostles",
+            "The apostles and the women, including Mary the mother of Jesus and His brethren",
+            "Only the disciples and elders",
+            "The apostles and Roman soldiers"
+          ],
+          "correctAnswer": "The apostles and the women, including Mary the mother of Jesus and His brethren",
+          "explanation": "Acts 1:14 highlights the unity in prayer among apostles, women, Mary, and Jesus’ brothers, indicating the early church’s communal and prayerful life, supported by Luke 8:1-3 and 1 Corinthians 15:7.",
+          "verseReference": "Acts 1:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-theological-q11",
+          "question": "In Acts 1:15, approximately how many disciples were gathered when Peter stood up to speak?",
+          "type": "multiple-choice",
+          "options": [
+            "About 50",
+            "About 70",
+            "About 120",
+            "About 200"
+          ],
+          "correctAnswer": "About 120",
+          "explanation": "Acts 1:15 records about 120 disciples gathered, reflecting the size of the early community, which sets the stage for the coming Pentecost and the church’s expansion (Esther 2:15 parallels for number significance).",
+          "verseReference": "Acts 1:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-theological-q12",
+          "question": "What scripture did Peter cite in Acts 1:16-20 to explain the necessity of replacing Judas Iscariot?",
+          "type": "multiple-choice",
+          "options": [
+            "Psalm 69 and Psalm 109",
+            "Isaiah 53 and Daniel 9",
+            "Genesis 3 and Exodus 12",
+            "Proverbs 3 and Ecclesiastes 12"
+          ],
+          "correctAnswer": "Psalm 69 and Psalm 109",
+          "explanation": "Peter cites Psalms 69:25 and 109:8 in Acts 1:20 to show that Judas’ betrayal fulfilled prophecy and that his office must be filled, demonstrating continuity between Old Testament prophecy and New Testament church order.",
+          "verseReference": "Acts 1:16-20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-theological-q13",
+          "question": "What criteria did the apostles use to select a replacement for Judas as described in Acts 1:21-22?",
+          "type": "multiple-choice",
+          "options": [
+            "Someone from the tribe of Levi",
+            "Someone who had accompanied them from John's baptism until Jesus' ascension",
+            "A prophet from Jerusalem",
+            "A Roman citizen"
+          ],
+          "correctAnswer": "Someone who had accompanied them from John's baptism until Jesus' ascension",
+          "explanation": "Acts 1:21-22 emphasizes the importance of a witness to Jesus’ entire ministry and resurrection, highlighting apostolic continuity and eyewitness testimony foundational for church leadership (1 Corinthians 15:3-8).",
+          "verseReference": "Acts 1:21-22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-theological-q14",
+          "question": "Who were the two men nominated to replace Judas in Acts 1:23?",
+          "type": "multiple-choice",
+          "options": [
+            "Joseph called Barsabas and Matthias",
+            "Stephen and Philip",
+            "Barnabas and Silas",
+            "Paul and Timothy"
+          ],
+          "correctAnswer": "Joseph called Barsabas and Matthias",
+          "explanation": "Acts 1:23 names Joseph called Barsabas (Justus) and Matthias as candidates, illustrating the early church’s method of choosing leadership through nomination and prayer, consistent with principles in 1 Timothy 3.",
+          "verseReference": "Acts 1:23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-1-theological-q15",
+          "question": "How was the final decision made regarding the replacement of Judas according to Acts 1:24-26?",
+          "type": "multiple-choice",
+          "options": [
+            "By casting lots after prayer",
+            "By majority vote",
+            "By apostolic appointment",
+            "By prophetic revelation"
+          ],
+          "correctAnswer": "By casting lots after prayer",
+          "explanation": "Acts 1:24-26 shows the apostles prayed for God's guidance and cast lots to select Matthias, reflecting reliance on divine providence, a practice also seen in Joshua 18:10 and 1 Samuel 14:41.",
+          "verseReference": "Acts 1:24-26",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "acts-1-quiz",
+      "tags": [
+        "acts",
+        "chapter-1",
+        "acts",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

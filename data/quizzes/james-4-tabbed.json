@@ -1,0 +1,983 @@
+{
+  "id": "james-4-tabbed",
+  "title": "James Chapter 4 Quiz - Multi-Level",
+  "description": "An enhanced quiz on James chapter 4 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "james-4-easy",
+      "title": "James Chapter 4 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of James Chapter 4.",
+      "type": "chapter",
+      "book": "James",
+      "chapter": 4,
+      "questions": [
+        {
+          "id": "james-4-easy-q1",
+          "question": "According to James 4:1, from where do wars and fightings among people come?",
+          "type": "multiple-choice",
+          "options": [
+            "From your lusts that war in your members",
+            "From external enemies",
+            "From misunderstandings between nations",
+            "From natural disasters"
+          ],
+          "correctAnswer": "From your lusts that war in your members",
+          "explanation": "James 4:1 states that wars and fightings come from your lusts that war in your members.",
+          "verseReference": "James 4:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "james-4-easy-q2",
+          "question": "What reason does James 4:2 give for why people fight and war but do not have?",
+          "type": "multiple-choice",
+          "options": [
+            "Because they ask not",
+            "Because of bad luck",
+            "Because of lack of strength",
+            "Because of God's will"
+          ],
+          "correctAnswer": "Because they ask not",
+          "explanation": "James 4:2 explains that people fight and war but do not have because they ask not.",
+          "verseReference": "James 4:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "james-4-easy-q3",
+          "question": "Why do people not receive when they ask, according to James 4:3?",
+          "type": "multiple-choice",
+          "options": [
+            "Because they ask amiss to consume it upon their lusts",
+            "Because God is silent",
+            "Because they do not believe",
+            "Because of their pride"
+          ],
+          "correctAnswer": "Because they ask amiss to consume it upon their lusts",
+          "explanation": "James 4:3 says that people ask and receive not because they ask amiss, intending to consume it upon their lusts.",
+          "verseReference": "James 4:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "james-4-easy-q4",
+          "question": "James 4:4 refers to those who are friends of the world as what?",
+          "type": "multiple-choice",
+          "options": [
+            "Enemies of God",
+            "Beloved of God",
+            "Neutral",
+            "Friends of the church"
+          ],
+          "correctAnswer": "Enemies of God",
+          "explanation": "James 4:4 states that whoever will be a friend of the world is the enemy of God.",
+          "verseReference": "James 4:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "james-4-easy-q5",
+          "question": "According to James 4:6, God resists whom?",
+          "type": "multiple-choice",
+          "options": [
+            "The proud",
+            "The humble",
+            "The poor",
+            "The sick"
+          ],
+          "correctAnswer": "The proud",
+          "explanation": "James 4:6 says God resists the proud but gives grace to the humble.",
+          "verseReference": "James 4:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "james-4-easy-q6",
+          "question": "What should believers do to God and the devil, according to James 4:7?",
+          "type": "multiple-choice",
+          "options": [
+            "Submit to God and resist the devil",
+            "Ignore both God and the devil",
+            "Submit to the devil and resist God",
+            "Pray to the devil"
+          ],
+          "correctAnswer": "Submit to God and resist the devil",
+          "explanation": "James 4:7 instructs to submit yourselves to God and resist the devil, and he will flee from you.",
+          "verseReference": "James 4:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "james-4-easy-q7",
+          "question": "What will happen if you draw nigh to God, according to James 4:8?",
+          "type": "multiple-choice",
+          "options": [
+            "He will draw nigh to you",
+            "He will ignore you",
+            "He will punish you",
+            "Nothing will happen"
+          ],
+          "correctAnswer": "He will draw nigh to you",
+          "explanation": "James 4:8 promises that if you draw nigh to God, He will draw nigh to you.",
+          "verseReference": "James 4:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "james-4-easy-q8",
+          "question": "What does James 4:10 say will happen if you humble yourselves in the sight of the Lord?",
+          "type": "multiple-choice",
+          "options": [
+            "He shall lift you up",
+            "You will be ignored",
+            "You will be punished",
+            "You will be forgotten"
+          ],
+          "correctAnswer": "He shall lift you up",
+          "explanation": "James 4:10 says that humbling yourselves before the Lord will result in Him lifting you up.",
+          "verseReference": "James 4:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "james-4-easy-q9",
+          "question": "According to James 4:11, what should brethren not do to one another?",
+          "type": "multiple-choice",
+          "options": [
+            "Speak evil",
+            "Help one another",
+            "Pray together",
+            "Share possessions"
+          ],
+          "correctAnswer": "Speak evil",
+          "explanation": "James 4:11 commands not to speak evil of one another.",
+          "verseReference": "James 4:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "james-4-easy-q10",
+          "question": "Who is described as the only lawgiver in James 4:12?",
+          "type": "multiple-choice",
+          "options": [
+            "God",
+            "Moses",
+            "Jesus",
+            "The Apostle James"
+          ],
+          "correctAnswer": "God",
+          "explanation": "James 4:12 states there is one lawgiver who is able to save and destroy, referring to God.",
+          "verseReference": "James 4:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "james-4-easy-q11",
+          "question": "True or False: James 4:14 compares life to a vapour that appears for a little time and then vanishes away.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "James 4:14 compares life to a vapour that appears briefly and then vanishes.",
+          "verseReference": "James 4:14",
+          "difficulty": "easy"
+        },
+        {
+          "id": "james-4-easy-q12",
+          "question": "True or False: According to James 4:15, believers should say 'If the Lord will, we shall live, and do this or that.'",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "James 4:15 teaches believers to say 'If the Lord will, we shall live, and do this or that.'",
+          "verseReference": "James 4:15",
+          "difficulty": "easy"
+        },
+        {
+          "id": "james-4-easy-q13",
+          "question": "True or False: James 4:16 states that rejoicing in boastings is good.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "James 4:16 says all rejoicing in boastings is evil.",
+          "verseReference": "James 4:16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "james-4-easy-q14",
+          "question": "Complete the verse from James 4:9: 'Be afflicted, and mourn, and weep: let your laughter be turned to _______, and your joy to heaviness.'",
+          "type": "fill-blank",
+          "options": [
+            "mourning",
+            "dancing",
+            "singing",
+            "joy"
+          ],
+          "correctAnswer": "mourning",
+          "explanation": "James 4:9 says laughter should be turned to mourning and joy to heaviness.",
+          "verseReference": "James 4:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "james-4-easy-q15",
+          "question": "According to James 4:17, what is sin?",
+          "type": "multiple-choice",
+          "options": [
+            "To know good and not do it",
+            "To do good and not know it",
+            "To speak evil of others",
+            "To judge another"
+          ],
+          "correctAnswer": "To know good and not do it",
+          "explanation": "James 4:17 states that to him who knows to do good and does it not, to him it is sin.",
+          "verseReference": "James 4:17",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "james-4-quiz",
+      "tags": [
+        "james",
+        "chapter-4",
+        "james",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "james-4-medium",
+      "title": "James Chapter 4 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from James Chapter 4 to real-life situations.",
+      "type": "chapter",
+      "book": "James",
+      "chapter": 4,
+      "questions": [
+        {
+          "id": "james-4-medium-q1",
+          "question": "A fellow believer is struggling with jealousy and conflict in their church community. Based on James 4:1-3, what biblical truth would you share about the root cause of these conflicts?",
+          "type": "multiple-choice",
+          "options": [
+            "They arise from the lusts that battle within us",
+            "They come from external persecution",
+            "They are caused by misunderstandings only",
+            "They result from a lack of church discipline"
+          ],
+          "correctAnswer": "They arise from the lusts that battle within us",
+          "explanation": "James 4:1 explains that wars and fightings come from the lusts that war within us, and verses 2-3 show that these conflicts arise from unmet desires and asking amiss.",
+          "verseReference": "James 4:1-3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "james-4-medium-q2",
+          "question": "How does James 4:4 warn believers about their relationship with the world?",
+          "type": "multiple-choice",
+          "options": [
+            "Friendship with the world makes one an enemy of God",
+            "The world is a neutral place for believers",
+            "Believers should embrace worldly values",
+            "Worldly friendships strengthen faith"
+          ],
+          "correctAnswer": "Friendship with the world makes one an enemy of God",
+          "explanation": "James 4:4 clearly states that friendship with the world is enmity with God, and those who choose to be friends with the world are enemies of God.",
+          "verseReference": "James 4:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "james-4-medium-q3",
+          "question": "According to James 4:6, what attitude does God resist and what attitude does He give grace to?",
+          "type": "multiple-choice",
+          "options": [
+            "God resists the proud but gives grace to the humble",
+            "God resists the humble but gives grace to the proud",
+            "God resists the strong but gives grace to the weak",
+            "God resists the meek but gives grace to the bold"
+          ],
+          "correctAnswer": "God resists the proud but gives grace to the humble",
+          "explanation": "Verse 6 teaches that God opposes the proud but gives grace to those who are humble, emphasizing the importance of humility in the Christian walk.",
+          "verseReference": "James 4:6",
+          "difficulty": "medium"
+        },
+        {
+          "id": "james-4-medium-q4",
+          "question": "A believer is facing temptation from the devil. According to James 4:7, what is the proper response?",
+          "type": "multiple-choice",
+          "options": [
+            "Submit to God and resist the devil so he will flee",
+            "Ignore the temptation and hope it passes",
+            "Try to reason with the devil",
+            "Avoid all situations where temptation could arise"
+          ],
+          "correctAnswer": "Submit to God and resist the devil so he will flee",
+          "explanation": "James 4:7 instructs believers to submit to God and resist the devil, promising that the devil will flee when resisted in submission to God.",
+          "verseReference": "James 4:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "james-4-medium-q5",
+          "question": "According to James 4:8, what is the promised outcome when believers draw near to God?",
+          "type": "multiple-choice",
+          "options": [
+            "God will draw near to them",
+            "They will receive material blessings",
+            "They will be free from all troubles",
+            "They will become popular in the church"
+          ],
+          "correctAnswer": "God will draw near to them",
+          "explanation": "James 4:8 promises that if believers draw near to God, He will in turn draw near to them, highlighting the reciprocal nature of a close relationship with God.",
+          "verseReference": "James 4:8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "james-4-medium-q6",
+          "question": "What practical step does James 4:10 teach about humility before God?",
+          "type": "multiple-choice",
+          "options": [
+            "Humble yourselves in the sight of the Lord, and He will lift you up",
+            "Boast about your achievements to God",
+            "Ignore your faults and focus on others",
+            "Only humble when others are watching"
+          ],
+          "correctAnswer": "Humble yourselves in the sight of the Lord, and He will lift you up",
+          "explanation": "James 4:10 encourages believers to humble themselves before God, with the promise that God will exalt those who humble themselves.",
+          "verseReference": "James 4:10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "james-4-medium-q7",
+          "question": "How does James 4:11-12 instruct believers regarding judging others?",
+          "type": "multiple-choice",
+          "options": [
+            "Do not speak evil or judge others because God alone is Lawgiver and Judge",
+            "Judge others to keep them in line",
+            "Speak evil to correct faults",
+            "Ignore sin in others to avoid judgment"
+          ],
+          "correctAnswer": "Do not speak evil or judge others because God alone is Lawgiver and Judge",
+          "explanation": "These verses clarify that believers should not speak evil or judge others, as there is only one Lawgiver and Judge, God, who alone has authority over salvation and destruction.",
+          "verseReference": "James 4:11-12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "james-4-medium-q8",
+          "question": "A believer plans business activities without consulting God. What does James 4:13-15 teach about such plans?",
+          "type": "multiple-choice",
+          "options": [
+            "They should say 'If the Lord wills, we shall live and do this or that'",
+            "They should confidently plan without hesitation",
+            "They should avoid planning altogether",
+            "They should depend only on their own wisdom"
+          ],
+          "correctAnswer": "They should say 'If the Lord wills, we shall live and do this or that'",
+          "explanation": "James 4:13-15 teaches believers to acknowledge God's sovereignty in their plans by saying 'If the Lord will,' recognizing life's uncertainty and God's ultimate control.",
+          "verseReference": "James 4:13-15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "james-4-medium-q9",
+          "question": "Based on James 4:14, how should believers view the brevity of life in making daily decisions?",
+          "type": "multiple-choice",
+          "options": [
+            "As a vapor that appears briefly and then vanishes",
+            "As a long journey with no end",
+            "As a guarantee of future success",
+            "As a time to accumulate wealth without concern"
+          ],
+          "correctAnswer": "As a vapor that appears briefly and then vanishes",
+          "explanation": "Verse 14 compares life to a vapor, emphasizing its fleeting nature and urging believers to live with humility and dependence on God.",
+          "verseReference": "James 4:14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "james-4-medium-q10",
+          "question": "According to James 4:16, how does the chapter view boasting about future plans without God’s will?",
+          "type": "multiple-choice",
+          "options": [
+            "Such rejoicing is evil",
+            "It is encouraged as confident faith",
+            "It is neutral and harmless",
+            "It shows humility"
+          ],
+          "correctAnswer": "Such rejoicing is evil",
+          "explanation": "James 4:16 states that boasting without acknowledging God's will is evil, warning believers against prideful presumptions.",
+          "verseReference": "James 4:16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "james-4-medium-q11",
+          "question": "What does James 4:17 say about knowing to do good but failing to do it?",
+          "type": "multiple-choice",
+          "options": [
+            "It is sin to not do good when you know to do it",
+            "It is acceptable to delay doing good",
+            "It is a minor fault",
+            "It is excused if one is busy"
+          ],
+          "correctAnswer": "It is sin to not do good when you know to do it",
+          "explanation": "Verse 17 teaches that neglecting to do good when one knows what to do is sin, highlighting the responsibility of obedience.",
+          "verseReference": "James 4:17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "james-4-medium-q12",
+          "question": "True or False: James 4:9 encourages believers to turn their laughter into mourning as a sign of repentance.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "James 4:9 calls believers to be afflicted, mourn, and let laughter be turned into mourning as a sign of genuine repentance and humility before God.",
+          "verseReference": "James 4:9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "james-4-medium-q13",
+          "question": "True or False: According to James 4:5, the Spirit in us desires to envy, which causes internal conflict.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "James 4:5 mentions that the spirit dwelling in us lusts to envy, indicating the internal struggles believers face with envy and desire.",
+          "verseReference": "James 4:5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "james-4-medium-q14",
+          "question": "Fill in the blank: James 4:8 instructs believers to cleanse their ______ and purify their ______.",
+          "type": "fill-blank",
+          "options": [
+            "hands, hearts",
+            "minds, souls",
+            "feet, spirits",
+            "words, thoughts"
+          ],
+          "correctAnswer": "hands, hearts",
+          "explanation": "Verse 8 specifically calls for cleansing hands and purifying hearts, emphasizing both external actions and internal motives.",
+          "verseReference": "James 4:8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "james-4-medium-q15",
+          "question": "A believer is tempted to speak evil about a fellow Christian. Based on James 4:11, what should they remember?",
+          "type": "multiple-choice",
+          "options": [
+            "Speaking evil judges the law, and judging the law makes one a judge",
+            "Speaking evil is acceptable to protect the church",
+            "It is better to remain silent than to speak evil",
+            "Speaking evil shows zeal for righteousness"
+          ],
+          "correctAnswer": "Speaking evil judges the law, and judging the law makes one a judge",
+          "explanation": "James 4:11 explains that speaking evil of others judges the law itself, and judging the law makes one a judge rather than a doer, warning against slander.",
+          "verseReference": "James 4:11",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "james-4-quiz",
+      "tags": [
+        "james",
+        "chapter-4",
+        "james",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "james-4-hard",
+      "title": "James Chapter 4 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from James Chapter 4.",
+      "type": "chapter",
+      "book": "James",
+      "chapter": 4,
+      "questions": [
+        {
+          "id": "james-4-hard-q1",
+          "question": "According to James 4:1, what is the root cause of wars and fightings among believers?",
+          "type": "multiple-choice",
+          "options": [
+            "Their lusts that war within them",
+            "External political conflicts",
+            "Differences in doctrine",
+            "Economic inequalities"
+          ],
+          "correctAnswer": "Their lusts that war within them",
+          "explanation": "James 4:1 explicitly states that wars and fightings come from the lusts that war within members, indicating internal desires as the root cause.",
+          "verseReference": "James 4:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-hard-q2",
+          "question": "In James 4:3, why do believers sometimes not receive what they ask for?",
+          "type": "multiple-choice",
+          "options": [
+            "Because they ask amiss to consume it on their lusts",
+            "Because they lack faith",
+            "Because God is testing them",
+            "Because they do not pray enough"
+          ],
+          "correctAnswer": "Because they ask amiss to consume it on their lusts",
+          "explanation": "James 4:3 explains that requests are not granted because they are asked with wrong motives, specifically to satisfy selfish desires.",
+          "verseReference": "James 4:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-hard-q3",
+          "question": "James 4:4 uses the term 'adulterers and adulteresses' metaphorically to describe those who:",
+          "type": "multiple-choice",
+          "options": [
+            "Love the world over God",
+            "Commit literal adultery",
+            "Are unfaithful to their spouses",
+            "Ignore the law of Moses"
+          ],
+          "correctAnswer": "Love the world over God",
+          "explanation": "The metaphor in James 4:4 refers to those who are unfaithful to God by aligning themselves as friends with the world, which is enmity against God.",
+          "verseReference": "James 4:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-hard-q4",
+          "question": "Which Greek word translated as 'lusteth' in James 4:5 conveys strong desire or envy?",
+          "type": "multiple-choice",
+          "options": [
+            "Epipotheo",
+            "Agape",
+            "Pistis",
+            "Charis"
+          ],
+          "correctAnswer": "Epipotheo",
+          "explanation": "The Greek term 'epipotheo' used in James 4:5 describes an intense desire or longing, here rendered as lusting to envy.",
+          "verseReference": "James 4:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-hard-q5",
+          "question": "James 4:6 contrasts God’s grace with what human attitude?",
+          "type": "multiple-choice",
+          "options": [
+            "Pride",
+            "Ignorance",
+            "Fear",
+            "Doubt"
+          ],
+          "correctAnswer": "Pride",
+          "explanation": "Verse 6 states that God resists the proud but gives grace to the humble, highlighting pride as the opposing human attitude to grace.",
+          "verseReference": "James 4:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-hard-q6",
+          "question": "What is the sequence of actions James commands believers to take in James 4:7?",
+          "type": "multiple-choice",
+          "options": [
+            "Submit to God, resist the devil, and he will flee",
+            "Pray, fast, and give alms",
+            "Confess sins, forgive others, and repent",
+            "Study the law, teach it, and obey it"
+          ],
+          "correctAnswer": "Submit to God, resist the devil, and he will flee",
+          "explanation": "James 4:7 directs believers to submit themselves to God and resist the devil, promising that resistance will cause the devil to flee.",
+          "verseReference": "James 4:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-hard-q7",
+          "question": "In James 4:8, what parallelism is used to describe the relationship between God and the believer?",
+          "type": "multiple-choice",
+          "options": [
+            "Draw nigh to God and He will draw nigh to you",
+            "Cleanse your hands and purify your hearts",
+            "Be afflicted and mourn",
+            "Humble yourselves and be exalted"
+          ],
+          "correctAnswer": "Draw nigh to God and He will draw nigh to you",
+          "explanation": "James 4:8 uses parallelism to show mutual nearness between God and the believer—drawing near to God results in God drawing near as well.",
+          "verseReference": "James 4:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-hard-q8",
+          "question": "The call to 'Be afflicted, and mourn, and weep' in James 4:9 is an example of which literary device?",
+          "type": "multiple-choice",
+          "options": [
+            "Synonymous parallelism",
+            "Chiasmus",
+            "Metaphor",
+            "Hyperbole"
+          ],
+          "correctAnswer": "Synonymous parallelism",
+          "explanation": "James 4:9 repeats similar commands in synonymous parallelism to emphasize repentance and sorrow for sin.",
+          "verseReference": "James 4:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-hard-q9",
+          "question": "According to James 4:11, what is the danger in judging another brother?",
+          "type": "multiple-choice",
+          "options": [
+            "You become a judge of the law instead of a doer",
+            "You will be judged more harshly",
+            "You break fellowship with the church",
+            "You contradict the teachings of Jesus"
+          ],
+          "correctAnswer": "You become a judge of the law instead of a doer",
+          "explanation": "James 4:11 warns that judging others places one in the role of lawgiver or judge rather than obeying the law oneself.",
+          "verseReference": "James 4:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-hard-q10",
+          "question": "What theological truth is emphasized in James 4:12 about judgment?",
+          "type": "multiple-choice",
+          "options": [
+            "Only God is the Lawgiver and Judge",
+            "Judgment belongs to the elders of the church",
+            "Judgment is based on Mosaic Law",
+            "Believers should judge righteously"
+          ],
+          "correctAnswer": "Only God is the Lawgiver and Judge",
+          "explanation": "James 4:12 affirms monotheism and God’s exclusive authority to save and destroy, emphasizing human limitations in judgment.",
+          "verseReference": "James 4:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-hard-q11",
+          "question": "James 4:13-14 critiques the attitude of those who confidently plan their future without acknowledging what?",
+          "type": "multiple-choice",
+          "options": [
+            "The uncertainty of life and God’s will",
+            "The need for wealth",
+            "The importance of community",
+            "The law of Moses"
+          ],
+          "correctAnswer": "The uncertainty of life and God’s will",
+          "explanation": "These verses challenge presumptuous planning that ignores life’s brevity and dependence on God's sovereign will.",
+          "verseReference": "James 4:13-14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-hard-q12",
+          "question": "Fill in the blank from James 4:15: 'For that ye ought to say, If the Lord ____, we shall live, and do this, or that.'",
+          "type": "multiple-choice",
+          "options": [
+            "will",
+            "permit",
+            "bless",
+            "command"
+          ],
+          "correctAnswer": "will",
+          "explanation": "The verse emphasizes humility and dependence on God's will by instructing believers to say 'If the Lord will.'",
+          "verseReference": "James 4:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-hard-q13",
+          "question": "According to James 4:16, how should believers view boasting about future plans?",
+          "type": "multiple-choice",
+          "options": [
+            "As evil",
+            "As wise",
+            "As harmless",
+            "As encouraged"
+          ],
+          "correctAnswer": "As evil",
+          "explanation": "James 4:16 condemns rejoicing in boasting as evil, teaching humility before God.",
+          "verseReference": "James 4:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-hard-q14",
+          "question": "True or False: James 4:10 promises that God will exalt those who humble themselves before Him.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "James 4:10 explicitly states that those who humble themselves will be lifted up by the Lord, confirming this promise.",
+          "verseReference": "James 4:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-hard-q15",
+          "question": "What is the sin described in James 4:17?",
+          "type": "multiple-choice",
+          "options": [
+            "Knowing to do good and not doing it",
+            "Speaking evil of a brother",
+            "Boasting about future plans",
+            "Being double-minded"
+          ],
+          "correctAnswer": "Knowing to do good and not doing it",
+          "explanation": "James 4:17 defines sin as the failure to act on known good, emphasizing moral responsibility.",
+          "verseReference": "James 4:17",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "james-4-quiz",
+      "tags": [
+        "james",
+        "chapter-4",
+        "james",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "james-4-theological",
+      "title": "James Chapter 4 Quiz - Theological Level",
+      "description": "Deep biblical theology from James Chapter 4 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "James",
+      "chapter": 4,
+      "questions": [
+        {
+          "id": "james-4-theological-q1",
+          "question": "According to James 4:1, what is the primary source of wars and fightings among believers?",
+          "type": "multiple-choice",
+          "options": [
+            "Their lusts that war within them",
+            "External enemies attacking the church",
+            "Political disagreements",
+            "Economic disputes"
+          ],
+          "correctAnswer": "Their lusts that war within them",
+          "explanation": "James 4:1 states that wars and fightings come from the lusts that war within our members. This aligns with Galatians 5:17 which speaks of the conflict between flesh and Spirit; also Romans 7:23 and 1 John 2:16 discuss internal sinful desires as the root of conflict.",
+          "verseReference": "James 4:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-theological-q2",
+          "question": "What reason does James give in 4:3 for why prayers are not answered?",
+          "type": "multiple-choice",
+          "options": [
+            "Because they ask amiss to consume on their lusts",
+            "Because God is silent",
+            "Because they lack faith",
+            "Because they do not fast"
+          ],
+          "correctAnswer": "Because they ask amiss to consume on their lusts",
+          "explanation": "James 4:3 explains unanswered prayers result from asking with wrong motives, specifically to fulfill selfish desires. This is consistent with 1 John 5:14-15 on praying according to God's will, and Proverbs 21:27 about prayers of the wicked being an abomination.",
+          "verseReference": "James 4:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-theological-q3",
+          "question": "In James 4:4, what does friendship with the world equate to?",
+          "type": "multiple-choice",
+          "options": [
+            "Being an enemy of God",
+            "Being blessed by God",
+            "Gaining wisdom",
+            "Receiving grace"
+          ],
+          "correctAnswer": "Being an enemy of God",
+          "explanation": "James 4:4 declares friendship with the world is enmity with God, making one His enemy. This teaching aligns with 1 John 2:15-16 which warns against loving the world, and Romans 12:2 about not conforming to the world.",
+          "verseReference": "James 4:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-theological-q4",
+          "question": "What does James say God gives to the humble in James 4:6?",
+          "type": "multiple-choice",
+          "options": [
+            "Grace",
+            "Power",
+            "Wealth",
+            "Honor"
+          ],
+          "correctAnswer": "Grace",
+          "explanation": "James 4:6 states God gives more grace to the humble, contrasting with resisting the proud. This matches 1 Peter 5:5-6 on humility receiving God’s grace and Proverbs 3:34 about God opposing the proud.",
+          "verseReference": "James 4:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-theological-q5",
+          "question": "What two actions does James 4:7 urge believers to do in response to spiritual conflict?",
+          "type": "multiple-choice",
+          "options": [
+            "Submit to God and resist the devil",
+            "Fast and pray",
+            "Preach and teach",
+            "Give and forgive"
+          ],
+          "correctAnswer": "Submit to God and resist the devil",
+          "explanation": "James 4:7 commands submission to God and resistance against the devil, promising the devil will flee. This parallels Ephesians 6:11-12 on spiritual warfare and 1 Peter 5:8-9 exhorting resistance.",
+          "verseReference": "James 4:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-theological-q6",
+          "question": "According to James 4:8, what is the promised result of drawing nigh to God?",
+          "type": "multiple-choice",
+          "options": [
+            "He will draw nigh to you",
+            "You will receive wealth",
+            "You will be free from trials",
+            "You will become powerful"
+          ],
+          "correctAnswer": "He will draw nigh to you",
+          "explanation": "James 4:8 promises that if we draw near to God, He will draw near to us. This reflects Psalm 145:18 about God being near to all who call on Him and Hebrews 10:22 urging believers to approach God with a pure heart.",
+          "verseReference": "James 4:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-theological-q7",
+          "question": "What emotional response does James 4:9 encourage believers to exhibit?",
+          "type": "multiple-choice",
+          "options": [
+            "Affliction, mourning, and weeping",
+            "Joy and celebration",
+            "Anger and impatience",
+            "Indifference and silence"
+          ],
+          "correctAnswer": "Affliction, mourning, and weeping",
+          "explanation": "James 4:9 calls for mourning and weeping as a sign of repentance and humility before God. This corresponds with Joel 2:12-13 and Psalm 51:17 which emphasize broken and contrite hearts as pleasing to God.",
+          "verseReference": "James 4:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-theological-q8",
+          "question": "What does James 4:10 promise to those who humble themselves before the Lord?",
+          "type": "multiple-choice",
+          "options": [
+            "They shall be lifted up",
+            "They will be given riches",
+            "They will be healed",
+            "They will be a judge"
+          ],
+          "correctAnswer": "They shall be lifted up",
+          "explanation": "James 4:10 assures that God will exalt those who humble themselves, parallel to 1 Peter 5:6 and Proverbs 3:34 which affirm God's favor on the humble.",
+          "verseReference": "James 4:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-theological-q9",
+          "question": "According to James 4:11, what is wrong about speaking evil of a brother?",
+          "type": "multiple-choice",
+          "options": [
+            "It judges the law and makes one a judge instead of a doer",
+            "It is a sign of ignorance",
+            "It leads to physical harm",
+            "It is a form of idolatry"
+          ],
+          "correctAnswer": "It judges the law and makes one a judge instead of a doer",
+          "explanation": "James 4:11 teaches that speaking evil of a brother judges the law, which is improper since one should be a doer, not a judge. This relates to Matthew 7:1-5 about judging others and Romans 14:4 on God being the only rightful judge.",
+          "verseReference": "James 4:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-theological-q10",
+          "question": "Who does James 4:12 identify as the only Lawgiver and Judge?",
+          "type": "multiple-choice",
+          "options": [
+            "God",
+            "Moses",
+            "Jesus' disciples",
+            "The apostles"
+          ],
+          "correctAnswer": "God",
+          "explanation": "James 4:12 identifies God as the sole Lawgiver and Judge who can save and destroy. This matches Deuteronomy 32:39 and Romans 14:10-12 where God alone judges humanity.",
+          "verseReference": "James 4:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-theological-q11",
+          "question": "What attitude towards future plans does James 4:13-15 caution against?",
+          "type": "multiple-choice",
+          "options": [
+            "Boasting arrogantly without acknowledging God's will",
+            "Planning carefully with prayer",
+            "Avoiding all plans",
+            "Seeking counsel from elders"
+          ],
+          "correctAnswer": "Boasting arrogantly without acknowledging God's will",
+          "explanation": "James 4:13-15 warns against arrogantly boasting about future plans without saying 'If the Lord wills.' This echoes Proverbs 27:1 and Matthew 6:34 about trusting God's sovereignty over the future.",
+          "verseReference": "James 4:13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-theological-q12",
+          "question": "How does James 4:14 describe human life?",
+          "type": "multiple-choice",
+          "options": [
+            "As a vapor that appears briefly and then vanishes",
+            "As an unchanging stone",
+            "As an eternal flame",
+            "As a mighty river"
+          ],
+          "correctAnswer": "As a vapor that appears briefly and then vanishes",
+          "explanation": "James 4:14 compares life to a vapor that appears briefly and vanishes, emphasizing human frailty. This agrees with Psalm 39:5-6 and Job 7:7-10 illustrating the brevity of life.",
+          "verseReference": "James 4:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-theological-q13",
+          "question": "What does James 4:16 say about rejoicing in boastings?",
+          "type": "multiple-choice",
+          "options": [
+            "All such rejoicing is evil",
+            "It is encouraged",
+            "It is neutral",
+            "It is wise"
+          ],
+          "correctAnswer": "All such rejoicing is evil",
+          "explanation": "James 4:16 declares rejoicing in boastings is evil, condemning prideful self-exaltation. This aligns with Proverbs 16:18 on pride coming before destruction and Luke 18:14 praising humility.",
+          "verseReference": "James 4:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-theological-q14",
+          "question": "What is the consequence mentioned in James 4:17 for those who know to do good but do not do it?",
+          "type": "multiple-choice",
+          "options": [
+            "It is sin for them",
+            "They receive a blessing",
+            "They are praised",
+            "They escape judgment"
+          ],
+          "correctAnswer": "It is sin for them",
+          "explanation": "James 4:17 states that to know good and not do it is sin, emphasizing responsibility before God. This is consistent with Ezekiel 18:21-24 and Luke 12:47-48 about accountability for actions and omissions.",
+          "verseReference": "James 4:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "james-4-theological-q15",
+          "question": "What internal struggle does James 4:5 highlight about the spirit dwelling in us?",
+          "type": "multiple-choice",
+          "options": [
+            "It lusteth to envy",
+            "It is always peaceful",
+            "It hates sin",
+            "It is indifferent"
+          ],
+          "correctAnswer": "It lusteth to envy",
+          "explanation": "James 4:5 notes the spirit within us lusts to envy, showing the sinful nature's tendency toward covetousness. This agrees with Romans 7:15-25 and Galatians 5:19-21 describing internal desires opposing God’s law.",
+          "verseReference": "James 4:5",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "james-4-quiz",
+      "tags": [
+        "james",
+        "chapter-4",
+        "james",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

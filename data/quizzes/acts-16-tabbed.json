@@ -1,0 +1,983 @@
+{
+  "id": "acts-16-tabbed",
+  "title": "Acts Chapter 16 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Acts chapter 16 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "acts-16-easy",
+      "title": "Acts Chapter 16 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Acts Chapter 16.",
+      "type": "chapter",
+      "book": "Acts",
+      "chapter": 16,
+      "questions": [
+        {
+          "id": "acts-16-easy-q1",
+          "question": "Who was the disciple mentioned in Acts 16 that Paul took with him?",
+          "type": "multiple-choice",
+          "options": [
+            "Timotheus",
+            "Silas",
+            "Lydia",
+            "Paul"
+          ],
+          "correctAnswer": "Timotheus",
+          "explanation": "Acts 16:1 states that a certain disciple named Timotheus was there and Paul took him along.",
+          "verseReference": "Acts 16:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-16-easy-q2",
+          "question": "Why did Paul circumcise Timotheus according to Acts 16?",
+          "type": "multiple-choice",
+          "options": [
+            "Because he was a Greek",
+            "Because of the Jews in those quarters",
+            "Because he was not baptized",
+            "Because he requested it"
+          ],
+          "correctAnswer": "Because of the Jews in those quarters",
+          "explanation": "Acts 16:3 explains that Paul circumcised Timotheus because of the Jews in those quarters who knew his father was a Greek.",
+          "verseReference": "Acts 16:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-16-easy-q3",
+          "question": "Where did Paul and his companions go after Troas, according to Acts 16?",
+          "type": "multiple-choice",
+          "options": [
+            "Samothracia",
+            "Bithynia",
+            "Mysia",
+            "Galatia"
+          ],
+          "correctAnswer": "Samothracia",
+          "explanation": "Acts 16:11 says they came with a straight course to Samothracia after leaving Troas.",
+          "verseReference": "Acts 16:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-16-easy-q4",
+          "question": "What vision did Paul receive at night in Troas?",
+          "type": "multiple-choice",
+          "options": [
+            "A man of Macedonia praying to him",
+            "An angel commanding him to go to Jerusalem",
+            "A burning bush",
+            "A scroll with the gospel"
+          ],
+          "correctAnswer": "A man of Macedonia praying to him",
+          "explanation": "Acts 16:9 records that Paul saw a vision of a man from Macedonia asking for help.",
+          "verseReference": "Acts 16:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-16-easy-q5",
+          "question": "What was Lydia's occupation as mentioned in Acts 16?",
+          "type": "multiple-choice",
+          "options": [
+            "Seller of purple",
+            "Tentmaker",
+            "Fisherwoman",
+            "Teacher"
+          ],
+          "correctAnswer": "Seller of purple",
+          "explanation": "Acts 16:14 describes Lydia as a seller of purple from the city of Thyatira.",
+          "verseReference": "Acts 16:14",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-16-easy-q6",
+          "question": "What happened to the damsel possessed with a spirit of divination?",
+          "type": "multiple-choice",
+          "options": [
+            "Paul commanded the spirit to come out and it left immediately",
+            "She was healed by prayer",
+            "She was baptized",
+            "She was ignored"
+          ],
+          "correctAnswer": "Paul commanded the spirit to come out and it left immediately",
+          "explanation": "Acts 16:18 states that Paul commanded the spirit in Jesus' name to come out and it left the same hour.",
+          "verseReference": "Acts 16:18",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-16-easy-q7",
+          "question": "What city did Paul and Silas get imprisoned in?",
+          "type": "multiple-choice",
+          "options": [
+            "Philippi",
+            "Troas",
+            "Lystra",
+            "Derbe"
+          ],
+          "correctAnswer": "Philippi",
+          "explanation": "Acts 16:12-24 narrate the events of Paul and Silas being imprisoned in Philippi.",
+          "verseReference": "Acts 16:12-24",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-16-easy-q8",
+          "question": "What did Paul and Silas do at midnight in prison?",
+          "type": "multiple-choice",
+          "options": [
+            "Prayed and sang praises to God",
+            "Escaped through the window",
+            "Wrote letters",
+            "Slept"
+          ],
+          "correctAnswer": "Prayed and sang praises to God",
+          "explanation": "Acts 16:25 mentions that Paul and Silas prayed and sang praises to God at midnight.",
+          "verseReference": "Acts 16:25",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-16-easy-q9",
+          "question": "What caused the prison doors to open and the prisoners' chains to come loose?",
+          "type": "multiple-choice",
+          "options": [
+            "A great earthquake",
+            "An angel opening the doors",
+            "The jailer unlocking them",
+            "A violent storm"
+          ],
+          "correctAnswer": "A great earthquake",
+          "explanation": "Acts 16:26 describes a great earthquake that shook the prison and opened all doors.",
+          "verseReference": "Acts 16:26",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-16-easy-q10",
+          "question": "What did the prison keeper ask Paul and Silas after the earthquake?",
+          "type": "multiple-choice",
+          "options": [
+            "What must I do to be saved?",
+            "Can I be baptized now?",
+            "Will you escape?",
+            "Can I go free?"
+          ],
+          "correctAnswer": "What must I do to be saved?",
+          "explanation": "Acts 16:30 records the jailer asking, 'Sirs, what must I do to be saved?'",
+          "verseReference": "Acts 16:30",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-16-easy-q11",
+          "question": "True or False: According to Acts 16, the jailer immediately washed the stripes of the prisoners after they were baptized.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Acts 16:33 states that the jailer washed their stripes the same hour after baptism.",
+          "verseReference": "Acts 16:33",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-16-easy-q12",
+          "question": "True or False: Paul and Silas left the prison quietly without demanding justice.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Acts 16:37 shows Paul demanding the magistrates come themselves to release them because they were beaten unlawfully.",
+          "verseReference": "Acts 16:37",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-16-easy-q13",
+          "question": "True or False: The magistrates were afraid when they learned Paul and Silas were Romans.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Acts 16:38 says the magistrates feared when they heard Paul and Silas were Romans.",
+          "verseReference": "Acts 16:38",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-16-easy-q14",
+          "question": "Complete this verse from Acts 16:5: 'And so were the churches established in the ____, and increased in number daily.'",
+          "type": "fill-blank",
+          "options": [
+            "faith",
+            "love",
+            "hope",
+            "grace"
+          ],
+          "correctAnswer": "faith",
+          "explanation": "Acts 16:5 states that the churches were established in the faith and increased in number daily.",
+          "verseReference": "Acts 16:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-16-easy-q15",
+          "question": "Complete this verse from Acts 16:21: 'And teach customs, which are not lawful for us to receive, neither to observe, being ____.'",
+          "type": "fill-blank",
+          "options": [
+            "Romans",
+            "Jews",
+            "Greeks",
+            "Samaritans"
+          ],
+          "correctAnswer": "Romans",
+          "explanation": "Acts 16:21 records the accusation that Paul and Silas taught customs not lawful for Romans to receive or observe.",
+          "verseReference": "Acts 16:21",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "acts-16-quiz",
+      "tags": [
+        "acts",
+        "chapter-16",
+        "acts",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "acts-16-medium",
+      "title": "Acts Chapter 16 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Acts Chapter 16 to real-life situations.",
+      "type": "chapter",
+      "book": "Acts",
+      "chapter": 16,
+      "questions": [
+        {
+          "id": "acts-16-medium-q1",
+          "question": "How does Acts 16 teach us about obedience to God's guidance when facing obstacles in ministry?",
+          "type": "multiple-choice",
+          "options": [
+            "They continued preaching despite open doors",
+            "They ignored the Holy Spirit's direction",
+            "They obeyed the Holy Spirit by avoiding forbidden regions",
+            "They preached only where they wanted"
+          ],
+          "correctAnswer": "They obeyed the Holy Spirit by avoiding forbidden regions",
+          "explanation": "Verses Acts 16:6-7 show Paul and his companions were forbidden by the Holy Spirit to preach in Asia and Bithynia, so they obeyed and changed their path.",
+          "verseReference": "Acts 16:6-7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-16-medium-q2",
+          "question": "A fellow believer is struggling with sharing the Gospel in an unreceptive city. Based on Acts 16, what biblical truth would you share?",
+          "type": "multiple-choice",
+          "options": [
+            "Force your message regardless of opposition",
+            "Wait for a vision or clear guidance from God",
+            "Give up and return home",
+            "Ignore spiritual warnings"
+          ],
+          "correctAnswer": "Wait for a vision or clear guidance from God",
+          "explanation": "Acts 16:9-10 narrates Paul's vision of a man from Macedonia calling for help, which guided them to preach where God was calling them.",
+          "verseReference": "Acts 16:9-10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-16-medium-q3",
+          "question": "What example does Lydia provide about faith and response to the Gospel in Acts 16?",
+          "type": "multiple-choice",
+          "options": [
+            "She rejected the message",
+            "She was indifferent",
+            "She believed, was baptized, and opened her home for fellowship",
+            "She only listened but did not act"
+          ],
+          "correctAnswer": "She believed, was baptized, and opened her home for fellowship",
+          "explanation": "Acts 16:14-15 shows Lydia's heart was opened by the Lord, she was baptized with her household, and invited Paul and his companions to stay, demonstrating faith, obedience, and hospitality.",
+          "verseReference": "Acts 16:14-15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-16-medium-q4",
+          "question": "How does the story of Paul and Silas in prison encourage believers to respond to suffering and trials?",
+          "type": "multiple-choice",
+          "options": [
+            "Complain and give up",
+            "Pray and sing praises even in hardship",
+            "Seek revenge immediately",
+            "Remain silent and despondent"
+          ],
+          "correctAnswer": "Pray and sing praises even in hardship",
+          "explanation": "Acts 16:25 shows Paul and Silas praying and singing praises to God at midnight despite their imprisonment, teaching perseverance and trust in God through trials.",
+          "verseReference": "Acts 16:25",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-16-medium-q5",
+          "question": "What does the miraculous prison earthquake in Acts 16 teach about God's power and deliverance?",
+          "type": "multiple-choice",
+          "options": [
+            "God only helps when we escape physically",
+            "God's power can free us and change situations unexpectedly",
+            "God ignores prayers in prison",
+            "Miracles only happen to apostles"
+          ],
+          "correctAnswer": "God's power can free us and change situations unexpectedly",
+          "explanation": "Acts 16:26 describes a great earthquake opening prison doors and loosing prisoners' bonds, demonstrating God's sovereign power to deliver in unexpected ways.",
+          "verseReference": "Acts 16:26",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-16-medium-q6",
+          "question": "When the jailer feared for his life after the earthquake, what Christian virtue is demonstrated by Paul's response?",
+          "type": "multiple-choice",
+          "options": [
+            "Ignorance of danger",
+            "Compassion and reassurance",
+            "Ignoring the jailer",
+            "Blaming the jailer"
+          ],
+          "correctAnswer": "Compassion and reassurance",
+          "explanation": "In Acts 16:28, Paul tells the jailer \"Do thyself no harm: for we are all here,\" showing care and calming fear even amid danger.",
+          "verseReference": "Acts 16:27-28",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-16-medium-q7",
+          "question": "How does the conversion of the jailer and his household illustrate the importance of family faith and spiritual leadership?",
+          "type": "multiple-choice",
+          "options": [
+            "Faith only benefits the individual",
+            "Family faith is irrelevant for salvation",
+            "Belief can influence and bring salvation to the entire household",
+            "Only public figures can be saved"
+          ],
+          "correctAnswer": "Belief can influence and bring salvation to the entire household",
+          "explanation": "Acts 16:31-34 shows the jailer and all his household believing, being baptized, and rejoicing together, emphasizing the impact of faith within the family unit.",
+          "verseReference": "Acts 16:31-34",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-16-medium-q8",
+          "question": "What does Paul's insistence on proper legal treatment after release teach about integrity and standing up for rights?",
+          "type": "multiple-choice",
+          "options": [
+            "Accept injustice silently",
+            "Demand justice respectfully and openly",
+            "Avoid confrontation at all costs",
+            "Seek revenge"
+          ],
+          "correctAnswer": "Demand justice respectfully and openly",
+          "explanation": "Acts 16:37-38 shows Paul refusing to leave secretly after illegal beating and imprisonment, asserting his Roman rights with integrity and boldness.",
+          "verseReference": "Acts 16:37-38",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-16-medium-q9",
+          "question": "True or False: According to Acts 16, prayer and worship can have a powerful impact even in the darkest times.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Acts 16:25-26 shows Paul and Silas praying and singing in prison leading to a miraculous earthquake and their release, illustrating the power of prayer and worship.",
+          "verseReference": "Acts 16:25-26",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-16-medium-q10",
+          "question": "True or False: Paul circumcised Timothy to help with ministry among the Jews, showing sensitivity and respect for cultural practices.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Acts 16:3 states Paul circumcised Timothy because of the Jews in those places, demonstrating practical wisdom in ministry by respecting cultural customs.",
+          "verseReference": "Acts 16:3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-16-medium-q11",
+          "question": "A believer is discouraged by opposition while serving in church. Based on Acts 16, what biblical principle about fellowship and encouragement can you share?",
+          "type": "multiple-choice",
+          "options": [
+            "Avoid fellowship when discouraged",
+            "Comfort and strengthen one another in faith",
+            "Work alone without support",
+            "Ignore the needs of others"
+          ],
+          "correctAnswer": "Comfort and strengthen one another in faith",
+          "explanation": "Acts 16:40 shows Paul and Silas visiting the brethren to comfort them after release, highlighting the importance of mutual encouragement in the church family.",
+          "verseReference": "Acts 16:40",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-16-medium-q12",
+          "question": "Which practice from Acts 16 demonstrates the value of hospitality in Christian living?",
+          "type": "multiple-choice",
+          "options": [
+            "Lydia invited Paul and companions to her house after baptism",
+            "Paul rejected offers of hospitality",
+            "Hospitality was discouraged",
+            "They stayed only in inns"
+          ],
+          "correctAnswer": "Lydia invited Paul and companions to her house after baptism",
+          "explanation": "Acts 16:15 and 16:40 show Lydia inviting Paul to stay and Paul returning to Lydia's house, illustrating the biblical virtue of hospitality.",
+          "verseReference": "Acts 16:15, 40",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-16-medium-q13",
+          "question": "How does the story of the spirit-possessed damsel in Acts 16 teach about spiritual authority and prayer?",
+          "type": "multiple-choice",
+          "options": [
+            "Ignore evil spirits",
+            "Use the name of Jesus to command deliverance",
+            "Fear spiritual opposition and flee",
+            "Depend on soothsaying"
+          ],
+          "correctAnswer": "Use the name of Jesus to command deliverance",
+          "explanation": "Acts 16:18 shows Paul commanding the spirit to come out in Jesus' name, demonstrating the power and authority of prayer and faith over evil.",
+          "verseReference": "Acts 16:16-18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-16-medium-q14",
+          "question": "Fill in the blank: Paul and Silas were beaten and imprisoned because they were accused of __________.",
+          "type": "fill-blank",
+          "options": [
+            "troubling the city and teaching unlawful customs",
+            "stealing from the marketplace",
+            "preaching to the Gentiles only",
+            "breaking Roman laws by fleeing"
+          ],
+          "correctAnswer": "troubling the city and teaching unlawful customs",
+          "explanation": "Acts 16:20-21 explains that Paul and Silas were accused of troubling the city and teaching customs unlawful for Romans to accept.",
+          "verseReference": "Acts 16:20-21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-16-medium-q15",
+          "question": "What practical example of generosity and stewardship is found in Acts 16?",
+          "type": "multiple-choice",
+          "options": [
+            "Paul demanding payment for preaching",
+            "Lydia sharing her home and resources with believers",
+            "Timothy selling goods for profit",
+            "The jailer refusing to help Paul and Silas"
+          ],
+          "correctAnswer": "Lydia sharing her home and resources with believers",
+          "explanation": "Acts 16:15 and 16:40 show Lydia, a seller of purple, generously hosting Paul and the brethren, exemplifying stewardship and hospitality.",
+          "verseReference": "Acts 16:14-15, 40",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "acts-16-quiz",
+      "tags": [
+        "acts",
+        "chapter-16",
+        "acts",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "acts-16-hard",
+      "title": "Acts Chapter 16 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Acts Chapter 16.",
+      "type": "chapter",
+      "book": "Acts",
+      "chapter": 16,
+      "questions": [
+        {
+          "id": "acts-16-hard-q1",
+          "question": "What cultural and religious background of Timotheus influenced Paul's decision to circumcise him before their missionary journey?",
+          "type": "multiple-choice",
+          "options": [
+            "His mother was a believing Jewess and his father was a Greek",
+            "He was a Gentile who converted to Judaism",
+            "He was a Pharisee from Jerusalem",
+            "He was a Roman citizen by birth"
+          ],
+          "correctAnswer": "His mother was a believing Jewess and his father was a Greek",
+          "explanation": "Acts 16:1-3 explains that Timothy's mother was Jewish and a believer, but his father was Greek, so Paul circumcised him to avoid offense to Jewish communities.",
+          "verseReference": "Acts 16:1-3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-hard-q2",
+          "question": "What was the primary reason for Paul and his companions delivering decrees from the apostles and elders in Jerusalem as they traveled?",
+          "type": "multiple-choice",
+          "options": [
+            "To ensure the churches kept the faith and ordinances",
+            "To collect tithes for the Jerusalem church",
+            "To recruit new apostles for Jerusalem",
+            "To enforce Roman laws on Christians"
+          ],
+          "correctAnswer": "To ensure the churches kept the faith and ordinances",
+          "explanation": "Acts 16:4 indicates that Paul and his companions were delivering decrees to ensure that the new churches kept the instructions ordained by the apostles and elders in Jerusalem.",
+          "verseReference": "Acts 16:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-hard-q3",
+          "question": "Analyze the role of the Holy Spirit in guiding Paul's missionary journey in Acts 16. Which of the following best describes this guidance?",
+          "type": "multiple-choice",
+          "options": [
+            "The Holy Spirit forbade preaching in Asia and Bithynia, redirecting them to Macedonia",
+            "The Holy Spirit instructed Paul to circumcise Timothy",
+            "The Holy Spirit commanded Paul to stay in Jerusalem",
+            "The Holy Spirit revealed the prison earthquake beforehand"
+          ],
+          "correctAnswer": "The Holy Spirit forbade preaching in Asia and Bithynia, redirecting them to Macedonia",
+          "explanation": "In Acts 16:6-10, the Holy Spirit prevents them from preaching in Asia and Bithynia, leading to a vision that directs them to Macedonia, demonstrating divine guidance in mission strategy.",
+          "verseReference": "Acts 16:6-10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-hard-q4",
+          "question": "The vision of the man of Macedonia asking for help (Acts 16:9) serves as a typological foreshadowing of what larger biblical theme?",
+          "type": "multiple-choice",
+          "options": [
+            "The expansion of the gospel to the Gentiles",
+            "The return of the Israelites to the Promised Land",
+            "The establishment of the Mosaic Law in Europe",
+            "The building of the Temple in Jerusalem"
+          ],
+          "correctAnswer": "The expansion of the gospel to the Gentiles",
+          "explanation": "The Macedonian call symbolizes the gospel's movement beyond Jewish boundaries to Gentile regions, reflecting the universal mission seen throughout the New Testament.",
+          "verseReference": "Acts 16:9-10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-hard-q5",
+          "question": "What was the significance of Lydia's profession and origin in the context of early Christian witness in Philippi?",
+          "type": "multiple-choice",
+          "options": [
+            "She was a seller of purple cloth from Thyatira, indicating wealth and Gentile background",
+            "She was a Roman senator's wife from Rome",
+            "She was a Jewish priestess from Jerusalem",
+            "She was a slave from Macedonia"
+          ],
+          "correctAnswer": "She was a seller of purple cloth from Thyatira, indicating wealth and Gentile background",
+          "explanation": "Acts 16:14 shows Lydia as a prosperous Gentile woman dealing in purple, a luxury item, highlighting the gospel's reach into diverse social and ethnic groups.",
+          "verseReference": "Acts 16:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-hard-q6",
+          "question": "Which literary device is most evident in the narrative of the spirit of divination-possessed girl and her masters opposing Paul and Silas?",
+          "type": "multiple-choice",
+          "options": [
+            "Conflict foreshadowing through character opposition",
+            "Chiasm emphasizing spiritual liberation",
+            "Parable illustrating faith",
+            "Allegory of the Roman Empire"
+          ],
+          "correctAnswer": "Conflict foreshadowing through character opposition",
+          "explanation": "Acts 16:16-20 uses the confrontation between the possessed girl and Paul to foreshadow the ensuing persecution, highlighting the clash between spiritual forces.",
+          "verseReference": "Acts 16:16-20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-hard-q7",
+          "question": "What was the reaction of the magistrates after Paul and Silas cast out the spirit from the slave girl?",
+          "type": "multiple-choice",
+          "options": [
+            "They arrested and beat Paul and Silas for disturbing the city's customs",
+            "They rewarded Paul and Silas for freeing the girl",
+            "They invited Paul and Silas to teach in the synagogue",
+            "They ignored the incident"
+          ],
+          "correctAnswer": "They arrested and beat Paul and Silas for disturbing the city's customs",
+          "explanation": "Acts 16:19-22 describes how the slave girl's masters, angry at the loss of income, accused Paul and Silas leading to their public beating and imprisonment.",
+          "verseReference": "Acts 16:19-22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-hard-q8",
+          "question": "In the context of Roman law and citizenship, why was Paul's response to the magistrates significant after his imprisonment?",
+          "type": "multiple-choice",
+          "options": [
+            "He asserted his rights as a Roman citizen who was beaten without trial",
+            "He begged for mercy and apologized",
+            "He fled the city to avoid further persecution",
+            "He refused to speak to the magistrates"
+          ],
+          "correctAnswer": "He asserted his rights as a Roman citizen who was beaten without trial",
+          "explanation": "Acts 16:37-38 reveals Paul's insistence on legal rights as a Roman citizen, highlighting the theme of justice and protection under Roman law.",
+          "verseReference": "Acts 16:37-38",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-hard-q9",
+          "question": "What event immediately followed Paul and Silas praying and singing in prison at midnight?",
+          "type": "multiple-choice",
+          "options": [
+            "A great earthquake opened the prison doors and loosed their bonds",
+            "The jailer released them out of compassion",
+            "An angel appeared and freed them",
+            "The magistrates ordered their release"
+          ],
+          "correctAnswer": "A great earthquake opened the prison doors and loosed their bonds",
+          "explanation": "Acts 16:25-26 narrates a miraculous earthquake opening the prison, symbolizing divine intervention and liberation.",
+          "verseReference": "Acts 16:25-26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-hard-q10",
+          "question": "True or False: The jailer intended to kill himself because he thought the prisoners had escaped after the earthquake.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Acts 16:27 describes the jailer drawing his sword to kill himself, fearing the prisoners had fled.",
+          "verseReference": "Acts 16:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-hard-q11",
+          "question": "After the jailer asked what he must do to be saved, what was Paul's immediate response?",
+          "type": "multiple-choice",
+          "options": [
+            "Believe on the Lord Jesus Christ and you will be saved",
+            "Offer sacrifices to the gods",
+            "Follow the Mosaic Law strictly",
+            "Join the Roman army"
+          ],
+          "correctAnswer": "Believe on the Lord Jesus Christ and you will be saved",
+          "explanation": "Acts 16:30-31 records Paul's direct gospel message emphasizing faith in Jesus as the path to salvation.",
+          "verseReference": "Acts 16:30-31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-hard-q12",
+          "question": "What does the baptism of the jailer and his household signify in the broader context of early Christian community formation?",
+          "type": "multiple-choice",
+          "options": [
+            "Incorporation into the covenant community and public identification with Christ",
+            "A ritual to gain Roman citizenship",
+            "A purification rite for priests",
+            "A symbolic rejection of Jewish customs"
+          ],
+          "correctAnswer": "Incorporation into the covenant community and public identification with Christ",
+          "explanation": "Acts 16:33-34 shows baptism as the initiatory rite welcoming new believers into the Christian community, emphasizing familial and communal faith.",
+          "verseReference": "Acts 16:33-34",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-hard-q13",
+          "question": "How did Lydia demonstrate hospitality and support to Paul and his companions upon their arrival in Philippi?",
+          "type": "multiple-choice",
+          "options": [
+            "She invited them into her home after baptism and urged them to stay",
+            "She provided financial support but asked them to stay elsewhere",
+            "She arranged for them to meet the magistrates",
+            "She led them to a synagogue for teaching"
+          ],
+          "correctAnswer": "She invited them into her home after baptism and urged them to stay",
+          "explanation": "Acts 16:15 and 40 illustrate Lydia's role in hosting the missionaries, symbolizing the establishment of a house church.",
+          "verseReference": "Acts 16:15, 40",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-hard-q14",
+          "question": "What is the significance of the magistrates sending serjeants to release Paul and Silas in the morning after their imprisonment?",
+          "type": "multiple-choice",
+          "options": [
+            "It reflects the recognition of an unlawful punishment and fear due to Roman citizenship",
+            "It shows the magistrates' conversion to Christianity",
+            "It indicates that the jailer had overruled the magistrates",
+            "It was a customary daily release of prisoners"
+          ],
+          "correctAnswer": "It reflects the recognition of an unlawful punishment and fear due to Roman citizenship",
+          "explanation": "Acts 16:35-38 emphasizes the magistrates' concern upon learning Paul and Silas were Roman citizens, leading to their cautious release.",
+          "verseReference": "Acts 16:35-38",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-hard-q15",
+          "question": "Which theme prevalent in the Old Testament is echoed by Paul and Silas singing praises in prison despite their suffering?",
+          "type": "multiple-choice",
+          "options": [
+            "Trust in God’s deliverance amid adversity, similar to Psalms of lament and praise",
+            "The requirement of ritual sacrifice for protection",
+            "The importance of strict law observance",
+            "The prophecy of a coming Messiah"
+          ],
+          "correctAnswer": "Trust in God’s deliverance amid adversity, similar to Psalms of lament and praise",
+          "explanation": "Acts 16:25 resonates with Old Testament themes found in Psalms, where believers praise God in hardship, trusting in divine rescue.",
+          "verseReference": "Acts 16:25",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "acts-16-quiz",
+      "tags": [
+        "acts",
+        "chapter-16",
+        "acts",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "acts-16-theological",
+      "title": "Acts Chapter 16 Quiz - Theological Level",
+      "description": "Deep biblical theology from Acts Chapter 16 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Acts",
+      "chapter": 16,
+      "questions": [
+        {
+          "id": "acts-16-theological-q1",
+          "question": "Why did Paul circumcise Timothy before they traveled together?",
+          "type": "multiple-choice",
+          "options": [
+            "Because of the Jews in those regions who knew Timothy's father was Greek",
+            "Because Timothy requested it himself",
+            "To fulfill the Mosaic Law for all disciples",
+            "To symbolize Timothy's dedication to Christ"
+          ],
+          "correctAnswer": "Because of the Jews in those regions who knew Timothy's father was Greek",
+          "explanation": "Acts 16:3 says Paul circumcised Timothy 'because of the Jews which were in those quarters: for they knew all that his father was a Greek.' This shows Paul's pastoral sensitivity to cultural and religious barriers to ministry. Circumcision here was a strategic act to avoid offense, consistent with Paul's approach in 1 Corinthians 9:20-22. Old Testament law commanded circumcision as a sign of covenant (Genesis 17:10-14), but here it was for practical ministry purposes. This reflects the incarnation principle of the gospel adapting to cultural context (John 1:14).",
+          "verseReference": "Acts 16:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-theological-q2",
+          "question": "What does the Holy Spirit’s forbidding Paul and his companions from preaching in Asia and Bithynia teach about divine guidance in mission?",
+          "type": "multiple-choice",
+          "options": [
+            "The Spirit sovereignly directs the mission fields and timing",
+            "The Spirit restricts evangelism to certain people only",
+            "The Spirit prefers preaching only in Jerusalem",
+            "The Spirit discourages new church plants"
+          ],
+          "correctAnswer": "The Spirit sovereignly directs the mission fields and timing",
+          "explanation": "Acts 16:6-7 shows the Holy Spirit forbade them to preach in Asia and Bithynia, indicating the Spirit’s sovereign role in guiding the expansion of the gospel. This aligns with Jesus’ promise that the Spirit would lead believers into all truth (John 16:13) and direct missionary efforts (Romans 8:14). It demonstrates that mission is not merely human planning but Spirit-led (Isaiah 6:8).",
+          "verseReference": "Acts 16:6-7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-theological-q3",
+          "question": "What theological significance does the vision of the Macedonian man have in Acts 16?",
+          "type": "multiple-choice",
+          "options": [
+            "It marks the gospel’s call to reach Gentiles in Europe",
+            "It is a metaphor for spiritual warfare",
+            "It is a prophecy about the end times",
+            "It symbolizes the rejection of Jewish law"
+          ],
+          "correctAnswer": "It marks the gospel’s call to reach Gentiles in Europe",
+          "explanation": "Acts 16:9-10 records Paul's vision of a Macedonian man pleading for help, which is understood as God’s call to pioneer the gospel in Europe, expanding beyond the Jewish world. This fulfills the Abrahamic covenant’s promise that all nations would be blessed (Genesis 12:3) and the Great Commission (Matthew 28:19). The vision highlights God's initiative in salvation history to bring the gospel to the Gentiles (Romans 11:11-12).",
+          "verseReference": "Acts 16:9-10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-theological-q4",
+          "question": "Who was Lydia and what was her role in the early church as described in Acts 16?",
+          "type": "multiple-choice",
+          "options": [
+            "A God-fearing woman whose heart the Lord opened to receive the gospel and who hosted Paul and his companions",
+            "A Jewish priestess opposing Paul",
+            "A Roman official who imprisoned Paul",
+            "A Greek philosopher debating Paul"
+          ],
+          "correctAnswer": "A God-fearing woman whose heart the Lord opened to receive the gospel and who hosted Paul and his companions",
+          "explanation": "Acts 16:14-15 describes Lydia as a seller of purple cloth, a worshiper of God, whose heart the Lord opened to Paul's message. She was baptized along with her household and invited Paul to stay at her home, indicating her leadership and hospitality in the early church. This reflects the Spirit’s work in opening hearts (Ezekiel 36:26) and the role of women in supporting the gospel mission (Romans 16:1-2).",
+          "verseReference": "Acts 16:14-15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-theological-q5",
+          "question": "What does the account of the spirit-possessed slave girl in Acts 16 teach about spiritual authority in Christ?",
+          "type": "multiple-choice",
+          "options": [
+            "Christians have authority over evil spirits in Jesus’ name",
+            "All spirits should be tolerated as part of culture",
+            "Possession is evidence of divine blessing",
+            "Spiritual powers are stronger than human authority"
+          ],
+          "correctAnswer": "Christians have authority over evil spirits in Jesus’ name",
+          "explanation": "Acts 16:16-18 shows Paul commanding the spirit to come out of the slave girl in Jesus’ name, and it leaves immediately. This demonstrates the authority believers have over demonic powers by virtue of Christ’s lordship (Luke 10:19, Mark 16:17). It underscores the supremacy of Jesus over all spiritual forces (Colossians 2:15) and the power of prayer and proclamation in spiritual warfare.",
+          "verseReference": "Acts 16:16-18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-theological-q6",
+          "question": "Why were Paul and Silas beaten and imprisoned in Philippi according to Acts 16?",
+          "type": "multiple-choice",
+          "options": [
+            "Because they were accused of troubling the city and teaching unlawful customs to Romans",
+            "Because they refused to pay taxes to the Roman government",
+            "Because they attempted to overthrow the magistrates",
+            "Because they failed to perform pagan rituals"
+          ],
+          "correctAnswer": "Because they were accused of troubling the city and teaching unlawful customs to Romans",
+          "explanation": "Acts 16:19-21 records that the slave girl’s owners accused Paul and Silas of disturbing the city and teaching customs unlawful for Romans to accept. This reflects early opposition to the gospel based on misunderstanding and prejudice. It also illustrates the tension between the new Christian ethics and Roman cultural norms (Matthew 10:16).",
+          "verseReference": "Acts 16:19-21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-theological-q7",
+          "question": "What theological insight can be drawn from Paul and Silas praying and singing hymns in prison?",
+          "type": "multiple-choice",
+          "options": [
+            "Faith in God’s sovereignty enables rejoicing amid suffering",
+            "Prayer is only for times of deliverance",
+            "God does not intervene in human affairs",
+            "Joy depends on physical freedom"
+          ],
+          "correctAnswer": "Faith in God’s sovereignty enables rejoicing amid suffering",
+          "explanation": "Acts 16:25 shows Paul and Silas praying and singing praises to God at midnight despite their imprisonment and beating. Their response models trust in God’s sovereign control (Romans 8:28), illustrating that joy and worship are grounded in faith, not circumstances (Habakkuk 3:17-18, Philippians 4:4). This reflects the biblical theme of rejoicing in trials (James 1:2-3).",
+          "verseReference": "Acts 16:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-theological-q8",
+          "question": "What does the earthquake that opened the prison doors symbolize in the context of Acts 16?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s power to liberate his people and break spiritual bondage",
+            "A natural disaster unrelated to the story",
+            "Punishment of the magistrates",
+            "An apocalyptic sign of the end times"
+          ],
+          "correctAnswer": "God’s power to liberate his people and break spiritual bondage",
+          "explanation": "Acts 16:26 describes a great earthquake that opened the prison doors and loosed the prisoners’ chains. This miraculous event symbolizes God’s liberating power, echoing the Exodus theme of deliverance (Exodus 14:21-22) and the New Testament teaching that Christ sets captives free (John 8:36). It points to God’s sovereignty over physical and spiritual captivity.",
+          "verseReference": "Acts 16:26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-theological-q9",
+          "question": "How does the jailer’s question, 'What must I do to be saved?' reflect the doctrine of salvation?",
+          "type": "multiple-choice",
+          "options": [
+            "It emphasizes faith in Jesus Christ as the means of salvation",
+            "It demands adherence to the Mosaic Law",
+            "It requires monetary offerings",
+            "It insists on Jewish circumcision"
+          ],
+          "correctAnswer": "It emphasizes faith in Jesus Christ as the means of salvation",
+          "explanation": "Acts 16:30-31 records the jailer’s question and Paul's reply: 'Believe on the Lord Jesus Christ, and thou shalt be saved.' This affirms salvation by grace through faith in Christ alone (Ephesians 2:8-9), consistent with Old Testament prophecies about the Messiah (Isaiah 53) and New Testament teaching (John 3:16). It rejects works-based or ritualistic salvation (Galatians 2:16).",
+          "verseReference": "Acts 16:30-31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-theological-q10",
+          "question": "What does the immediate baptism of the jailer and his household indicate about early Christian ecclesiology?",
+          "type": "multiple-choice",
+          "options": [
+            "Baptism as a sign of entrance into the covenant community of believers",
+            "Baptism as a secret ritual for clergy only",
+            "Baptism as optional for new converts",
+            "Baptism as a political statement"
+          ],
+          "correctAnswer": "Baptism as a sign of entrance into the covenant community of believers",
+          "explanation": "Acts 16:33 describes the jailer and his household being baptized immediately after believing. This shows baptism as an integral rite of initiation into the church, symbolizing cleansing and new identity in Christ (Romans 6:3-4, Colossians 2:12). It indicates the corporate nature of faith and the early church’s emphasis on household conversions (1 Corinthians 1:16).",
+          "verseReference": "Acts 16:33",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-theological-q11",
+          "question": "What doctrinal truth is underscored by the magistrates’ fear upon learning Paul and Silas were Romans?",
+          "type": "multiple-choice",
+          "options": [
+            "The Roman citizenship provided legal protections even for Christians",
+            "Christianity was exempt from Roman law",
+            "Roman citizens could not be beaten under any circumstances",
+            "Roman citizenship was a religious status"
+          ],
+          "correctAnswer": "The Roman citizenship provided legal protections even for Christians",
+          "explanation": "Acts 16:37-38 reveals the magistrates’ fear when they discovered Paul and Silas were Roman citizens, a status that granted them legal rights and protections (cf. Acts 22:25-29). This emphasizes that Christians lived within the cultural and legal frameworks of their time and that the gospel respected social order (Romans 13:1-7). It also reveals the tension between worldly authorities and the gospel.",
+          "verseReference": "Acts 16:37-38",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-theological-q12",
+          "question": "How does the hospitality shown by Lydia to Paul and Silas reflect early church practice and theology?",
+          "type": "multiple-choice",
+          "options": [
+            "Providing a home for believers fostered community and supported missionary work",
+            "Hospitality was a political strategy",
+            "Hospitality was only for clergy",
+            "Hospitality was discouraged to avoid persecution"
+          ],
+          "correctAnswer": "Providing a home for believers fostered community and supported missionary work",
+          "explanation": "Acts 16:40 shows Paul and Silas going to Lydia’s house after release, where they met with the brothers and comforted them. This hospitality reflects the early Christian emphasis on fellowship (koinonia) and mutual support (Romans 12:13, Hebrews 13:2). Homes were central locations for worship and teaching, showing the incarnational nature of the church (1 Corinthians 16:19).",
+          "verseReference": "Acts 16:40",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-theological-q13",
+          "question": "What does Paul’s refusal to leave the prison secretly reveal about his understanding of Christian witness and justice?",
+          "type": "multiple-choice",
+          "options": [
+            "Christians must stand openly for their rights and testimony",
+            "Christians should avoid conflict at all costs",
+            "Secret escape is a sign of weakness",
+            "Justice is irrelevant to the gospel"
+          ],
+          "correctAnswer": "Christians must stand openly for their rights and testimony",
+          "explanation": "Acts 16:37 shows Paul refusing to depart quietly, insisting the magistrates come themselves to release them. Paul’s insistence highlights the importance of a public witness and justice (Proverbs 31:8-9). It teaches that believers must sometimes confront injustice boldly (Acts 5:29) and that the gospel respects lawful rights (Matthew 22:21).",
+          "verseReference": "Acts 16:37",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-theological-q14",
+          "question": "In what way does the conversion of the jailer and his household reflect the covenantal structure present in Scripture?",
+          "type": "multiple-choice",
+          "options": [
+            "Faith and salvation are extended to entire households, reflecting Old Testament covenant families",
+            "Salvation is only for individuals, not families",
+            "Household conversions were rare and discouraged",
+            "Only heads of households could be baptized"
+          ],
+          "correctAnswer": "Faith and salvation are extended to entire households, reflecting Old Testament covenant families",
+          "explanation": "Acts 16:31-34 shows the jailer and all his household believing and being baptized, reflecting the biblical pattern of covenant inclusion of families seen in the Old Testament (Genesis 17:7, Joshua 24:15). This covenantal theology carries into the New Testament where entire households joined the church (1 Corinthians 1:16), emphasizing the communal nature of salvation.",
+          "verseReference": "Acts 16:31-34",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-16-theological-q15",
+          "question": "What does the narrative of Acts 16 teach about the role of the Holy Spirit in church planting and mission?",
+          "type": "multiple-choice",
+          "options": [
+            "The Spirit directs, restricts, and empowers mission efforts",
+            "The Spirit is not involved in practical ministry decisions",
+            "Mission is solely based on human planning and effort",
+            "The Spirit only works in Jerusalem"
+          ],
+          "correctAnswer": "The Spirit directs, restricts, and empowers mission efforts",
+          "explanation": "In Acts 16:6-10, the Holy Spirit forbids Paul to preach in certain regions and then gives a vision directing them to Macedonia. This reveals the Spirit’s active role in guiding mission strategy (John 14:26), confirming that effective church planting requires Spirit-led obedience. The Spirit also empowers miracles and boldness (Acts 1:8).",
+          "verseReference": "Acts 16:6-10",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "acts-16-quiz",
+      "tags": [
+        "acts",
+        "chapter-16",
+        "acts",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

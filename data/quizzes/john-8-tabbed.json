@@ -1,0 +1,983 @@
+{
+  "id": "john-8-tabbed",
+  "title": "John Chapter 8 Quiz - Multi-Level",
+  "description": "An enhanced quiz on John chapter 8 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "john-8-easy",
+      "title": "John Chapter 8 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of John Chapter 8.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 8,
+      "questions": [
+        {
+          "id": "john-8-easy-q1",
+          "question": "Where did Jesus go according to John 8:1?",
+          "type": "multiple-choice",
+          "options": [
+            "Mount of Olives",
+            "Mount Sinai",
+            "Mount Carmel",
+            "Mount Zion"
+          ],
+          "correctAnswer": "Mount of Olives",
+          "explanation": "John 8:1 states that Jesus went unto the mount of Olives.",
+          "verseReference": "John 8:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-8-easy-q2",
+          "question": "What time of day did Jesus come into the temple as mentioned in John 8:2?",
+          "type": "multiple-choice",
+          "options": [
+            "Early in the morning",
+            "At noon",
+            "Late at night",
+            "In the afternoon"
+          ],
+          "correctAnswer": "Early in the morning",
+          "explanation": "John 8:2 says Jesus came again into the temple early in the morning.",
+          "verseReference": "John 8:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-8-easy-q3",
+          "question": "Who brought the woman taken in adultery to Jesus in John 8:3?",
+          "type": "multiple-choice",
+          "options": [
+            "Scribes and Pharisees",
+            "Disciples",
+            "Romans",
+            "Sadducees"
+          ],
+          "correctAnswer": "Scribes and Pharisees",
+          "explanation": "John 8:3 mentions that the scribes and Pharisees brought the woman to Jesus.",
+          "verseReference": "John 8:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-8-easy-q4",
+          "question": "What punishment did Moses command for adultery according to John 8:5?",
+          "type": "multiple-choice",
+          "options": [
+            "Stoning",
+            "Exile",
+            "Flogging",
+            "Burning"
+          ],
+          "correctAnswer": "Stoning",
+          "explanation": "John 8:5 states that Moses commanded those taken in adultery to be stoned.",
+          "verseReference": "John 8:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-8-easy-q5",
+          "question": "What did Jesus say to those without sin in John 8:7?",
+          "type": "multiple-choice",
+          "options": [
+            "Let him first cast a stone",
+            "Forgive the woman",
+            "Leave her alone",
+            "Go and sin no more"
+          ],
+          "correctAnswer": "Let him first cast a stone",
+          "explanation": "John 8:7 quotes Jesus saying, 'He that is without sin among you, let him first cast a stone at her.'",
+          "verseReference": "John 8:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-8-easy-q6",
+          "question": "What did Jesus write on the ground as mentioned in John 8:6 and John 8:8?",
+          "type": "multiple-choice",
+          "options": [
+            "It is not specified",
+            "The Ten Commandments",
+            "The sins of the accusers",
+            "The Law of Moses"
+          ],
+          "correctAnswer": "It is not specified",
+          "explanation": "John 8:6 and John 8:8 mention Jesus stooping down and writing on the ground but do not specify what he wrote.",
+          "verseReference": "John 8:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-8-easy-q7",
+          "question": "What did Jesus tell the woman after her accusers left in John 8:11?",
+          "type": "multiple-choice",
+          "options": [
+            "Neither do I condemn thee: go, and sin no more",
+            "Go and tell no one",
+            "You are forgiven",
+            "You must leave the temple"
+          ],
+          "correctAnswer": "Neither do I condemn thee: go, and sin no more",
+          "explanation": "John 8:11 records Jesus saying to the woman, 'Neither do I condemn thee: go, and sin no more.'",
+          "verseReference": "John 8:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-8-easy-q8",
+          "question": "What did Jesus say about himself in John 8:12?",
+          "type": "multiple-choice",
+          "options": [
+            "I am the light of the world",
+            "I am the bread of life",
+            "I am the good shepherd",
+            "I am the door"
+          ],
+          "correctAnswer": "I am the light of the world",
+          "explanation": "John 8:12 quotes Jesus saying, 'I am the light of the world.'",
+          "verseReference": "John 8:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-8-easy-q9",
+          "question": "How did Jesus describe the source of his testimony in John 8:18?",
+          "type": "multiple-choice",
+          "options": [
+            "I bear witness of myself, and the Father beareth witness of me",
+            "I rely on the prophets",
+            "I have no witness",
+            "The people testify for me"
+          ],
+          "correctAnswer": "I bear witness of myself, and the Father beareth witness of me",
+          "explanation": "John 8:18 states Jesus bears witness of himself and the Father sent him bears witness of him.",
+          "verseReference": "John 8:18",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-8-easy-q10",
+          "question": "What did Jesus say would make you free in John 8:32?",
+          "type": "multiple-choice",
+          "options": [
+            "The truth",
+            "The law",
+            "The prophets",
+            "The commandments"
+          ],
+          "correctAnswer": "The truth",
+          "explanation": "John 8:32 says, 'And ye shall know the truth, and the truth shall make you free.'",
+          "verseReference": "John 8:32",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-8-easy-q11",
+          "question": "True or False: Jesus said in John 8:34 that whoever commits sin is the servant of sin.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 8:34 states, 'Whosoever committeth sin is the servant of sin.'",
+          "verseReference": "John 8:34",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-8-easy-q12",
+          "question": "True or False: In John 8:58, Jesus said 'Before Abraham was, I am.'",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 8:58 records Jesus saying, 'Before Abraham was, I am.'",
+          "verseReference": "John 8:58",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-8-easy-q13",
+          "question": "True or False: According to John 8:24, Jesus said if you do not believe that He is, you shall die in your sins.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 8:24 says, 'if ye believe not that I am he, ye shall die in your sins.'",
+          "verseReference": "John 8:24",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-8-easy-q14",
+          "question": "Complete the verse from John 8:12: 'I am the light of the ______: he that followeth me shall not walk in darkness, but shall have the light of life.'",
+          "type": "fill-blank",
+          "options": [
+            "world",
+            "people",
+            "temple",
+            "heavens"
+          ],
+          "correctAnswer": "world",
+          "explanation": "John 8:12 states, 'I am the light of the world.'",
+          "verseReference": "John 8:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-8-easy-q15",
+          "question": "Complete the verse from John 8:32: 'And ye shall know the _______, and the truth shall make you free.'",
+          "type": "fill-blank",
+          "options": [
+            "truth",
+            "way",
+            "light",
+            "word"
+          ],
+          "correctAnswer": "truth",
+          "explanation": "John 8:32 reads, 'And ye shall know the truth, and the truth shall make you free.'",
+          "verseReference": "John 8:32",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "john-8-quiz",
+      "tags": [
+        "john",
+        "chapter-8",
+        "john",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "john-8-medium",
+      "title": "John Chapter 8 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from John Chapter 8 to real-life situations.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 8,
+      "questions": [
+        {
+          "id": "john-8-medium-q1",
+          "question": "A fellow believer struggles with guilt after sinning. Based on John 8, what biblical truth would you share about forgiveness?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus does not condemn but calls to sin no more",
+            "One must be punished publicly to be forgiven",
+            "Forgiveness requires proving innocence first",
+            "Sin cannot be forgiven once committed"
+          ],
+          "correctAnswer": "Jesus does not condemn but calls to sin no more",
+          "explanation": "John 8:10-11 shows Jesus telling the woman caught in adultery that He does not condemn her and commands her to 'go, and sin no more,' demonstrating forgiveness and a call to repentance.",
+          "verseReference": "John 8:10-11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-8-medium-q2",
+          "question": "How does John 8 teach us about humility when dealing with others' faults?",
+          "type": "multiple-choice",
+          "options": [
+            "Only those without sin should judge others",
+            "We should expose others’ faults publicly",
+            "Judging others is always necessary",
+            "Ignore sin completely to maintain peace"
+          ],
+          "correctAnswer": "Only those without sin should judge others",
+          "explanation": "Jesus says in John 8:7 that 'He that is without sin among you, let him first cast a stone at her,' emphasizing humility and self-examination before judging others (John 8:5-7, 9).",
+          "verseReference": "John 8:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-8-medium-q3",
+          "question": "What does John 8 teach about the source of true spiritual freedom?",
+          "type": "multiple-choice",
+          "options": [
+            "The Son makes you free indeed",
+            "Freedom comes from political power",
+            "Freedom is achieved by strict law-keeping",
+            "Freedom comes from wealth and possessions"
+          ],
+          "correctAnswer": "The Son makes you free indeed",
+          "explanation": "John 8:36 states 'If the Son therefore shall make you free, ye shall be free indeed,' teaching that true freedom is found through Jesus Christ (John 8:31-36).",
+          "verseReference": "John 8:36",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-8-medium-q4",
+          "question": "A believer is confused about Jesus' identity. Based on John 8, how does Jesus affirm who He is?",
+          "type": "multiple-choice",
+          "options": [
+            "He is the light of the world",
+            "He is a prophet like Moses",
+            "He is a Samaritan",
+            "He is a mere teacher"
+          ],
+          "correctAnswer": "He is the light of the world",
+          "explanation": "Jesus declares in John 8:12, 'I am the light of the world,' affirming His divine role in guiding and illuminating spiritual life (John 8:12, 58).",
+          "verseReference": "John 8:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-8-medium-q5",
+          "question": "How does John 8 instruct believers to respond to temptation and sin?",
+          "type": "multiple-choice",
+          "options": [
+            "Recognize sin makes one servant to sin and seek freedom through Christ",
+            "Ignore temptation as it will pass",
+            "Justify sin by blaming others",
+            "Accept sin as part of life"
+          ],
+          "correctAnswer": "Recognize sin makes one servant to sin and seek freedom through Christ",
+          "explanation": "John 8:34-36 explains that whoever commits sin is a servant of sin, but the Son can set them free, teaching believers to seek Christ for victory over sin (John 8:34-36).",
+          "verseReference": "John 8:34",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-8-medium-q6",
+          "question": "What does John 8 teach about continuing in Jesus' word for discipleship?",
+          "type": "multiple-choice",
+          "options": [
+            "Continuing in Jesus’ word makes one a true disciple",
+            "Discipleship depends on rituals only",
+            "Faith alone without obedience is enough",
+            "Discipleship is based on heritage"
+          ],
+          "correctAnswer": "Continuing in Jesus’ word makes one a true disciple",
+          "explanation": "John 8:31 states, 'If ye continue in my word, then are ye my disciples indeed,' emphasizing obedience and perseverance in Jesus’ teachings as marks of true discipleship (John 8:31-32).",
+          "verseReference": "John 8:31",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-8-medium-q7",
+          "question": "What practical lesson about integrity can be drawn from Jesus' teaching in John 8?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus’ testimony about Himself is true because it is supported by the Father",
+            "Self-testimony is unreliable and should be ignored",
+            "Only human judgment matters",
+            "Integrity depends on public opinion"
+          ],
+          "correctAnswer": "Jesus’ testimony about Himself is true because it is supported by the Father",
+          "explanation": "In John 8:14-18, Jesus explains His testimony is true because the Father who sent Him also bears witness, teaching believers to ground integrity in God's truth, not human opinion.",
+          "verseReference": "John 8:14-18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-8-medium-q8",
+          "question": "How should a Christian view accusations or misunderstandings from others, based on John 8?",
+          "type": "multiple-choice",
+          "options": [
+            "Remain faithful and trust God’s timing",
+            "Retaliate immediately",
+            "Avoid all contact with accusers",
+            "Change beliefs to please others"
+          ],
+          "correctAnswer": "Remain faithful and trust God’s timing",
+          "explanation": "John 8:20 shows Jesus teaching in the temple despite opposition, and no one laid hands on Him 'for his hour was not yet come,' illustrating trust in God’s timing amid opposition (John 8:20, 51).",
+          "verseReference": "John 8:20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-8-medium-q9",
+          "question": "True or False: According to John 8, Jesus claims that knowing Him is the same as knowing the Father.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Jesus states in John 8:19 that if people knew Him, they would know His Father also, affirming their identity is closely connected (John 8:19, 42).",
+          "verseReference": "John 8:19",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-8-medium-q10",
+          "question": "True or False: John 8 teaches that spiritual blindness prevents people from understanding Jesus' words.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "In John 8:43-47 Jesus explains that those not of God do not hear God's words, indicating spiritual blindness hinders understanding (John 8:43-47).",
+          "verseReference": "John 8:43-47",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-8-medium-q11",
+          "question": "Fill in the blank: Jesus said, 'Before Abraham was, ___.'",
+          "type": "fill-blank",
+          "options": [
+            "I am",
+            "I will come",
+            "I was born",
+            "I walked"
+          ],
+          "correctAnswer": "I am",
+          "explanation": "John 8:58 quotes Jesus saying, 'Before Abraham was, I am,' declaring His eternal existence and divinity (John 8:58).",
+          "verseReference": "John 8:58",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-8-medium-q12",
+          "question": "What does Jesus teach about judging others in John 8?",
+          "type": "multiple-choice",
+          "options": [
+            "He judges no man but His judgment is true when He does",
+            "He encourages harsh judgment for sinners",
+            "Judgment is only for religious leaders",
+            "Judgment is unnecessary"
+          ],
+          "correctAnswer": "He judges no man but His judgment is true when He does",
+          "explanation": "Jesus says in John 8:15-16 that He judges no man, but if He judges, His judgment is true because He is not alone, but the Father is with Him (John 8:15-16).",
+          "verseReference": "John 8:15-16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-8-medium-q13",
+          "question": "How does John 8 instruct believers about the relationship between love for God and love for Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "If God were your Father, ye would love me",
+            "Love for God and Jesus are unrelated",
+            "Love for Jesus is less important than law",
+            "Love is only shown by sacrifice"
+          ],
+          "correctAnswer": "If God were your Father, ye would love me",
+          "explanation": "In John 8:42, Jesus says that if God were their Father, they would love Him, showing the inseparable link between loving God and loving Jesus (John 8:41-42).",
+          "verseReference": "John 8:42",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-8-medium-q14",
+          "question": "According to John 8, what should be the believer's response to hearing and continuing in Jesus' word?",
+          "type": "multiple-choice",
+          "options": [
+            "They shall know the truth, and the truth shall make them free",
+            "They will be judged harshly",
+            "They will lose their freedom",
+            "They should question and doubt"
+          ],
+          "correctAnswer": "They shall know the truth, and the truth shall make them free",
+          "explanation": "John 8:31-32 teaches that continuing in Jesus' word leads to knowing the truth, which brings freedom (John 8:31-32).",
+          "verseReference": "John 8:31-32",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-8-medium-q15",
+          "question": "What does John 8 teach about the consequences of rejecting Jesus’ words?",
+          "type": "multiple-choice",
+          "options": [
+            "Those who reject Jesus will die in their sins",
+            "They will gain worldly power",
+            "They will be immediately forgiven",
+            "They will be celebrated by God"
+          ],
+          "correctAnswer": "Those who reject Jesus will die in their sins",
+          "explanation": "Jesus warns in John 8:24 and 21 that those who do not believe in Him will die in their sins, underscoring the serious consequences of unbelief (John 8:21-24).",
+          "verseReference": "John 8:21-24",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "john-8-quiz",
+      "tags": [
+        "john",
+        "chapter-8",
+        "john",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "john-8-hard",
+      "title": "John Chapter 8 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from John Chapter 8.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 8,
+      "questions": [
+        {
+          "id": "john-8-hard-q1",
+          "question": "In John 8, when the Pharisees bring the woman caught in adultery to Jesus, what Old Testament law do they reference as the basis for stoning her?",
+          "type": "multiple-choice",
+          "options": [
+            "The law given by Moses",
+            "The law of the prophets",
+            "The law of the judges",
+            "The law of the priests"
+          ],
+          "correctAnswer": "The law given by Moses",
+          "explanation": "John 8:5 states that Moses in the law commanded that such a woman should be stoned, referencing the Mosaic Law given in the Pentateuch.",
+          "verseReference": "John 8:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-hard-q2",
+          "question": "What literary device does Jesus employ when He stoops down and writes on the ground during the confrontation with the adulterous woman?",
+          "type": "multiple-choice",
+          "options": [
+            "Irony",
+            "Chiasmus",
+            "Silent rebuke",
+            "Metaphor"
+          ],
+          "correctAnswer": "Silent rebuke",
+          "explanation": "In John 8:6-8, Jesus stoops down and writes on the ground as though He heard them not, which functions as a silent rebuke and a pause to provoke self-examination among the accusers.",
+          "verseReference": "John 8:6-8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-hard-q3",
+          "question": "How does Jesus' statement 'He that is without sin among you, let him first cast a stone at her' demonstrate a principle also found in which Old Testament teaching?",
+          "type": "multiple-choice",
+          "options": [
+            "The prohibition of false witness in Exodus",
+            "The call for mercy in Micah",
+            "The emphasis on justice balanced with mercy in Deuteronomy",
+            "The commandment to love your neighbor in Leviticus"
+          ],
+          "correctAnswer": "The call for mercy in Micah",
+          "explanation": "Jesus’ appeal to sinlessness echoes Micah 6:8’s emphasis on mercy and justice, highlighting mercy over strict legalism.",
+          "verseReference": "John 8:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-hard-q4",
+          "question": "What is the significance of Jesus declaring Himself 'the light of the world' in John 8:12 in the context of Hebrew Scripture symbolism?",
+          "type": "multiple-choice",
+          "options": [
+            "Light symbolizes God's presence and guidance",
+            "Light represents the law only",
+            "Light is used exclusively for kingship titles",
+            "Light is a metaphor for wealth"
+          ],
+          "correctAnswer": "Light symbolizes God's presence and guidance",
+          "explanation": "In Hebrew Scripture, light often symbolizes God's presence and truth (e.g., Psalm 27:1), and Jesus uses this imagery in John 8:12 to assert His divine role as the spiritual guide.",
+          "verseReference": "John 8:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-hard-q5",
+          "question": "How does Jesus’ claim 'Before Abraham was, I am' in John 8:58 relate to the divine name revealed in the Old Testament?",
+          "type": "multiple-choice",
+          "options": [
+            "'I am' echoes God's self-identification in Exodus 3:14",
+            "It refers to the name 'El Shaddai'",
+            "It is a common Jewish greeting",
+            "It is a reference to the Messiah’s title"
+          ],
+          "correctAnswer": "'I am' echoes God's self-identification in Exodus 3:14",
+          "explanation": "Jesus uses the phrase 'I am,' directly connecting to God's self-identification to Moses in Exodus 3:14, thus asserting His divinity and eternal existence.",
+          "verseReference": "John 8:58",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-hard-q6",
+          "question": "In John 8, Jesus contrasts those who are 'from beneath' with Himself who is 'from above.' What theological theme does this dualism represent?",
+          "type": "multiple-choice",
+          "options": [
+            "The conflict between earthly and heavenly origins",
+            "The division between Jews and Samaritans",
+            "The contrast between law and grace",
+            "The difference between Pharisees and Sadducees"
+          ],
+          "correctAnswer": "The conflict between earthly and heavenly origins",
+          "explanation": "John 8:23 establishes a spiritual dualism reflecting the origin of human beings either from earthly (sinful) or heavenly (divine) realms, a theme prevalent throughout the Johannine writings.",
+          "verseReference": "John 8:23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-hard-q7",
+          "question": "What is the significance of Jesus’ teaching about sin making one a 'servant of sin' in John 8:34, in light of Old Testament slavery motifs?",
+          "type": "multiple-choice",
+          "options": [
+            "It reflects the bondage and liberation themes in Exodus",
+            "It is a new teaching without Old Testament background",
+            "It contradicts the law of Moses",
+            "It refers to literal slavery practices"
+          ],
+          "correctAnswer": "It reflects the bondage and liberation themes in Exodus",
+          "explanation": "Jesus’ metaphor in John 8:34 references slavery as a symbol of spiritual bondage, drawing on Exodus themes of Israel’s liberation from physical and spiritual slavery.",
+          "verseReference": "John 8:34",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-hard-q8",
+          "question": "Which Old Testament figure is referenced by Jesus as having 'rejoiced to see my day' in John 8:56, indicating a typological foreshadowing?",
+          "type": "multiple-choice",
+          "options": [
+            "Abraham",
+            "Moses",
+            "David",
+            "Isaiah"
+          ],
+          "correctAnswer": "Abraham",
+          "explanation": "John 8:56 explicitly mentions Abraham rejoicing to see Jesus’ day, showing typology where Abraham anticipates the Messianic fulfillment.",
+          "verseReference": "John 8:56",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-hard-q9",
+          "question": "What is the significance of Jesus’ statement 'If a man keep my saying, he shall never see death' in the cultural context of Second Temple Judaism?",
+          "type": "multiple-choice",
+          "options": [
+            "It promises spiritual eternal life contrasting physical death",
+            "It is a promise of physical immortality",
+            "It reflects a popular Jewish resurrection doctrine",
+            "It is a metaphor for social acceptance"
+          ],
+          "correctAnswer": "It promises spiritual eternal life contrasting physical death",
+          "explanation": "In John 8:51, Jesus offers eternal life through adherence to His word, echoing Jewish hopes for life beyond physical death but emphasizing spiritual freedom.",
+          "verseReference": "John 8:51",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-hard-q10",
+          "question": "How does Jesus’ dialogue with the Jews accusing Him of having a devil (John 8:48) illustrate the Johannine theme of spiritual blindness?",
+          "type": "multiple-choice",
+          "options": [
+            "It shows their inability to perceive divine truth",
+            "It indicates a historical conflict with Samaritans",
+            "It highlights Jesus’ weakness",
+            "It confirms Jesus’ demonic possession"
+          ],
+          "correctAnswer": "It shows their inability to perceive divine truth",
+          "explanation": "John 8:43-48 emphasizes that the Jews’ accusations arise from their spiritual blindness and rejection of Jesus’ truth.",
+          "verseReference": "John 8:48",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-hard-q11",
+          "question": "What is the significance of the setting 'the treasury' where Jesus taught in John 8:20 in relation to temple practices?",
+          "type": "multiple-choice",
+          "options": [
+            "It was a public place associated with offerings and tithes",
+            "It was a private room for priests only",
+            "It was outside the temple area",
+            "It was the place for sacrifice"
+          ],
+          "correctAnswer": "It was a public place associated with offerings and tithes",
+          "explanation": "The treasury was where temple offerings were stored and collected, making it a significant public location for Jesus to teach and confront religious leaders (John 8:20).",
+          "verseReference": "John 8:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-hard-q12",
+          "question": "True or False: According to John 8, Jesus says that His testimony alone is insufficient and requires the testimony of others to be valid.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Jesus claims in John 8:14-18 that although He bears testimony of Himself, His testimony is true because the Father also bears witness, thus His testimony alone is sufficient.",
+          "verseReference": "John 8:14-18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-hard-q13",
+          "question": "What intertextual connection is made by Jesus referencing 'the testimony of two men is true' in John 8:17?",
+          "type": "multiple-choice",
+          "options": [
+            "It alludes to Deuteronomy 19:15 concerning legal testimony",
+            "It refers to the Psalms about witnesses",
+            "It quotes Isaiah about justice",
+            "It connects to Leviticus concerning covenant"
+          ],
+          "correctAnswer": "It alludes to Deuteronomy 19:15 concerning legal testimony",
+          "explanation": "John 8:17 references Deuteronomy 19:15, which requires two or three witnesses to establish a matter, strengthening Jesus’ claim about His divine testimony.",
+          "verseReference": "John 8:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-hard-q14",
+          "question": "How does the theme of judgment in John 8:15-16 relate to Jewish concepts of Messiahship and divine authority?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus claims His judgment is true because it is unified with the Father’s",
+            "Jesus rejects all forms of judgment",
+            "Jesus claims to judge according to Roman law",
+            "Jesus avoids the topic of judgment completely"
+          ],
+          "correctAnswer": "Jesus claims His judgment is true because it is unified with the Father’s",
+          "explanation": "John 8:15-16 presents Jesus’ authority to judge as divine, aligned with the Father’s will, which is central to Jewish expectations of the Messiah as the righteous judge.",
+          "verseReference": "John 8:15-16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-hard-q15",
+          "question": "In John 8:44, Jesus describes the devil as 'a murderer from the beginning' and 'the father of lies.' How does this description connect to the portrayal of Satan in the Hebrew Bible?",
+          "type": "multiple-choice",
+          "options": [
+            "It echoes the serpent’s deception in Genesis 3",
+            "It originates solely in New Testament theology",
+            "It conflicts with Old Testament views",
+            "It refers only to a mythological figure"
+          ],
+          "correctAnswer": "It echoes the serpent’s deception in Genesis 3",
+          "explanation": "Jesus’ description in John 8:44 alludes to the serpent’s role in Genesis 3 as deceiver and source of death, linking Satan’s character with early biblical narratives.",
+          "verseReference": "John 8:44",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "john-8-quiz",
+      "tags": [
+        "john",
+        "chapter-8",
+        "john",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "john-8-theological",
+      "title": "John Chapter 8 Quiz - Theological Level",
+      "description": "Deep biblical theology from John Chapter 8 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 8,
+      "questions": [
+        {
+          "id": "john-8-theological-q1",
+          "question": "In John 8, how does Jesus respond to the accusation against the woman taken in adultery?",
+          "type": "multiple-choice",
+          "options": [
+            "He tells them to stone her immediately",
+            "He writes on the ground and challenges the accusers to cast the first stone if they are without sin",
+            "He dismisses the accusation without comment",
+            "He tells the woman to leave quietly"
+          ],
+          "correctAnswer": "He writes on the ground and challenges the accusers to cast the first stone if they are without sin",
+          "explanation": "Jesus stooped down and wrote on the ground, then said, 'He that is without sin among you, let him first cast a stone at her' (John 8:6-7). This reflects God's mercy and judgment principles as seen in Leviticus 20:10 and Deuteronomy 17:7, emphasizing human sinfulness and God's justice.",
+          "verseReference": "John 8:6-7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-theological-q2",
+          "question": "What title does Jesus claim for Himself in John 8:12, and what is its theological significance?",
+          "type": "multiple-choice",
+          "options": [
+            "I am the bread of life",
+            "I am the light of the world",
+            "I am the good shepherd",
+            "I am the way, the truth, and the life"
+          ],
+          "correctAnswer": "I am the light of the world",
+          "explanation": "Jesus declares, 'I am the light of the world: he that followeth me shall not walk in darkness, but shall have the light of life' (John 8:12). This signifies Christ as the divine revelation and source of spiritual illumination, consistent with Old Testament imagery of God as light (Psalm 27:1; Isaiah 9:2) and New Testament theology (1 John 1:5).",
+          "verseReference": "John 8:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-theological-q3",
+          "question": "According to John 8:14, on what basis does Jesus claim that His testimony about Himself is true?",
+          "type": "multiple-choice",
+          "options": [
+            "Because He has many witnesses",
+            "Because He has a strong following",
+            "Because He knows where He came from and where He is going",
+            "Because the Pharisees agree with Him"
+          ],
+          "correctAnswer": "Because He knows where He came from and where He is going",
+          "explanation": "Jesus says, 'Though I bear record of myself, yet my record is true: for I know whence I came, and whither I go' (John 8:14). His divine knowledge and origin affirm His truthfulness, aligning with the divine self-awareness seen in Isaiah 43:10 and John 1:1-4.",
+          "verseReference": "John 8:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-theological-q4",
+          "question": "What is the relationship between Jesus and the Father as described in John 8:16-18?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus acts independently of the Father",
+            "Jesus and the Father bear witness together",
+            "The Father is unaware of Jesus' actions",
+            "Jesus denies the existence of the Father"
+          ],
+          "correctAnswer": "Jesus and the Father bear witness together",
+          "explanation": "Jesus states, 'I am not alone, but I and the Father that sent me' and refers to the testimony of two men as true in the law (John 8:16-18). This emphasizes the unity and mutual witness between Jesus and God the Father, echoing the divine testimony concept in Deuteronomy 19:15 and 1 John 5:9.",
+          "verseReference": "John 8:16-18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-theological-q5",
+          "question": "What does Jesus mean in John 8:23 when He says, 'Ye are from beneath; I am from above'?",
+          "type": "multiple-choice",
+          "options": [
+            "He is referring to physical origins",
+            "He contrasts earthly origins with divine origin",
+            "He means they are from a lower social class",
+            "He implies they are from a nearby town"
+          ],
+          "correctAnswer": "He contrasts earthly origins with divine origin",
+          "explanation": "Jesus contrasts human, earthly origin ('from beneath') with His divine, heavenly origin ('from above') (John 8:23). This reflects the distinction between fallen humanity and the divine nature of Christ as seen in Jeremiah 17:5 and Philippians 3:20.",
+          "verseReference": "John 8:23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-theological-q6",
+          "question": "In John 8:24, Jesus warns people about dying in their sins. What condition does He give for not dying in sin?",
+          "type": "multiple-choice",
+          "options": [
+            "If they obey the Law of Moses perfectly",
+            "If they believe that He is the Messiah",
+            "If they are descendants of Abraham",
+            "If they perform good works"
+          ],
+          "correctAnswer": "If they believe that He is the Messiah",
+          "explanation": "Jesus says, 'if ye believe not that I am he, ye shall die in your sins' (John 8:24). Faith in Christ as the Messiah is the condition for salvation, consistent with John 3:16, Romans 10:9, and Isaiah 53:5.",
+          "verseReference": "John 8:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-theological-q7",
+          "question": "How does Jesus describe the nature of sin and its effect on a person in John 8:34?",
+          "type": "multiple-choice",
+          "options": [
+            "Sin is a minor mistake",
+            "Sin enslaves a person, making them a servant of sin",
+            "Sin only affects external behavior",
+            "Sin can be ignored without consequence"
+          ],
+          "correctAnswer": "Sin enslaves a person, making them a servant of sin",
+          "explanation": "Jesus states, 'Whosoever committeth sin is the servant of sin' (John 8:34). This reveals sin’s enslaving power, a theme echoed in Romans 6:16-18 and 2 Peter 2:19, highlighting the need for divine liberation.",
+          "verseReference": "John 8:34",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-theological-q8",
+          "question": "What does Jesus claim about the freedom He offers in John 8:36?",
+          "type": "multiple-choice",
+          "options": [
+            "He offers political freedom",
+            "He offers financial freedom",
+            "If the Son makes you free, you shall be free indeed",
+            "He offers freedom through strict law adherence"
+          ],
+          "correctAnswer": "If the Son makes you free, you shall be free indeed",
+          "explanation": "Jesus declares, 'If the Son therefore shall make you free, ye shall be free indeed' (John 8:36), indicating true spiritual freedom from sin and death, consistent with Galatians 5:1 and Romans 8:2.",
+          "verseReference": "John 8:36",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-theological-q9",
+          "question": "How does Jesus characterize the spiritual fatherhood of those who oppose Him in John 8:44?",
+          "type": "multiple-choice",
+          "options": [
+            "They have no father",
+            "They are children of Abraham",
+            "They are of the devil, who is a murderer and liar",
+            "Their father is a prophet"
+          ],
+          "correctAnswer": "They are of the devil, who is a murderer and liar",
+          "explanation": "Jesus says, 'Ye are of your father the devil... He was a murderer from the beginning, and abode not in the truth' (John 8:44). This identifies spiritual opposition to God as origin from Satan, consistent with Genesis 3, 1 John 3:8, and Ephesians 2:2.",
+          "verseReference": "John 8:44",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-theological-q10",
+          "question": "What is the significance of Jesus' statement in John 8:58, 'Before Abraham was, I am'?",
+          "type": "multiple-choice",
+          "options": [
+            "He is claiming to have existed before Abraham, using the divine name 'I am'",
+            "He is saying he is younger than Abraham",
+            "He is denying the existence of Abraham",
+            "He is referring to a future event"
+          ],
+          "correctAnswer": "He is claiming to have existed before Abraham, using the divine name 'I am'",
+          "explanation": "Jesus uses 'I am,' the divine name revealed in Exodus 3:14, to assert His eternal existence before Abraham (John 8:58), affirming His deity as supported by John 1:1-3 and Isaiah 43:10.",
+          "verseReference": "John 8:58",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-theological-q11",
+          "question": "According to John 8:31-32, what is required for someone to be Jesus' true disciple and to know the truth?",
+          "type": "multiple-choice",
+          "options": [
+            "To continue in Jesus' word",
+            "To follow the traditions of the elders",
+            "To perform miracles",
+            "To attend the temple regularly"
+          ],
+          "correctAnswer": "To continue in Jesus' word",
+          "explanation": "Jesus says, 'If ye continue in my word, then are ye my disciples indeed: And ye shall know the truth, and the truth shall make you free' (John 8:31-32). This highlights discipleship as ongoing faith and obedience, paralleling Matthew 28:20 and James 1:22.",
+          "verseReference": "John 8:31-32",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-theological-q12",
+          "question": "What accusation do the Jews make against Jesus in John 8:48, and how does Jesus respond in John 8:49?",
+          "type": "multiple-choice",
+          "options": [
+            "They accuse Him of being a Samaritan and having a devil; Jesus denies having a devil and says He honors the Father",
+            "They accuse Him of blasphemy; Jesus agrees",
+            "They accuse Him of theft; Jesus ignores them",
+            "They accuse Him of being a prophet; Jesus confirms it"
+          ],
+          "correctAnswer": "They accuse Him of being a Samaritan and having a devil; Jesus denies having a devil and says He honors the Father",
+          "explanation": "The Jews say, 'Thou art a Samaritan, and hast a devil' (John 8:48), to which Jesus replies, 'I have not a devil; but I honour my Father' (John 8:49). This exchange highlights rejection and Jesus' faithfulness to God, consistent with 1 John 3:10 and Matthew 10:40.",
+          "verseReference": "John 8:48-49",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-theological-q13",
+          "question": "In John 8:51, what promise does Jesus make to those who keep His word?",
+          "type": "multiple-choice",
+          "options": [
+            "They will never be hungry",
+            "They shall never see death",
+            "They will be wealthy",
+            "They will avoid persecution"
+          ],
+          "correctAnswer": "They shall never see death",
+          "explanation": "Jesus says, 'If a man keep my saying, he shall never see death' (John 8:51), referring to eternal life, a theme consistent with John 3:16, Romans 6:23, and Revelation 21:4.",
+          "verseReference": "John 8:51",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-theological-q14",
+          "question": "How do the Jews react to Jesus' claim about eternal life in John 8:52-53?",
+          "type": "multiple-choice",
+          "options": [
+            "They accept His teaching",
+            "They accuse Him of having a devil and question if He is greater than Abraham and the prophets",
+            "They ask for a sign",
+            "They ask Him to leave the temple"
+          ],
+          "correctAnswer": "They accuse Him of having a devil and question if He is greater than Abraham and the prophets",
+          "explanation": "The Jews say, 'Now we know that thou hast a devil... Art thou greater than our father Abraham?' (John 8:52-53), showing rejection of Jesus' divine authority, reflected in similar opposition in Matthew 12:24 and Mark 3:22.",
+          "verseReference": "John 8:52-53",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-8-theological-q15",
+          "question": "What does Jesus mean in John 8:29 when He says, 'for I do always those things that please him'?",
+          "type": "multiple-choice",
+          "options": [
+            "He acts according to His own will",
+            "He follows the will of the Father who sent Him",
+            "He pleases the Pharisees",
+            "He does what the crowds want"
+          ],
+          "correctAnswer": "He follows the will of the Father who sent Him",
+          "explanation": "Jesus declares He always does what pleases the Father (John 8:29), indicating His perfect obedience and unity with God’s will, a theme central in Philippians 2:8 and Hebrews 10:7.",
+          "verseReference": "John 8:29",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "john-8-quiz",
+      "tags": [
+        "john",
+        "chapter-8",
+        "john",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

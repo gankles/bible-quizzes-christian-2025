@@ -153,13 +153,13 @@ export const generateFAQSchema = () => {
 
 // Generate meta tags for SEO
 export const generateMetaTags = (quiz: Quiz, url: string) => {
-  const title = quiz.type === 'chapter' 
-    ? `${quiz.book} Chapter ${quiz.chapter} Quiz - Test Your Bible Knowledge | Bible Maximum`
+  const title = quiz.type === 'chapter'
+    ? `${quiz.book} Chapter ${quiz.chapter} Quiz | ${quiz.totalQuestions} Questions with Answers & Verse Explanations | Free Bible Knowledge Test | Bible Maximum`
     : quiz.type === 'book'
-    ? `${quiz.book} Quiz - Complete Bible Book Quiz | Bible Maximum`
+    ? `${quiz.book} Quiz | ${quiz.totalQuestions} Questions Covering the Entire Book | Multiple Choice & True/False with Explanations | Bible Maximum`
     : quiz.type === 'character'
-    ? `${quiz.character} Bible Quiz - Test Your Knowledge | Bible Maximum`
-    : `${quiz.theme} Bible Quiz - Scripture Knowledge Test | Bible Maximum`;
+    ? `${quiz.character} Bible Quiz | ${quiz.totalQuestions} Questions on Their Life, Faith & Key Scripture Moments | Free Study Tool | Bible Maximum`
+    : `${quiz.theme} Bible Quiz | ${quiz.totalQuestions} Scripture Questions from Old & New Testament | Perfect for Study Groups | Bible Maximum`;
 
   const description = quiz.type === 'chapter'
     ? `Test your knowledge of ${quiz.book} chapter ${quiz.chapter} with this interactive Bible quiz. ${quiz.totalQuestions} questions covering key verses, characters, and themes. Free instant results!`

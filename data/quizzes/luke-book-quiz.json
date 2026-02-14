@@ -1,0 +1,636 @@
+{
+  "id": "luke-book-quiz",
+  "title": "Luke Quiz - Complete Book",
+  "description": "Test your comprehensive knowledge of the entire book of Luke with 25 questions covering key events, people, and teachings from all 24 chapters.",
+  "type": "book",
+  "book": "Luke",
+  "questions": [
+    {
+      "id": "luke-bq-1",
+      "question": "Who was the priest of the course of Abia, married to Elisabeth?",
+      "type": "multiple-choice",
+      "options": [
+        "Zacharias",
+        "Joseph",
+        "Simeon",
+        "Nicodemus"
+      ],
+      "correctAnswer": "Zacharias",
+      "explanation": "Zacharias was the priest married to Elisabeth, as described in Luke 1:5.",
+      "verseReference": "Luke 1:5",
+      "difficulty": "easy"
+    },
+    {
+      "id": "luke-bq-2",
+      "question": "What was the name of the angel who appeared to Zacharias?",
+      "type": "multiple-choice",
+      "options": [
+        "Michael",
+        "Gabriel",
+        "Raphael",
+        "Uriel"
+      ],
+      "correctAnswer": "Gabriel",
+      "explanation": "The angel Gabriel was sent to Zacharias to announce the birth of John the Baptist.",
+      "verseReference": "Luke 1:19",
+      "difficulty": "easy"
+    },
+    {
+      "id": "luke-bq-3",
+      "question": "What was Mary's response to the angel Gabriel's message?",
+      "type": "multiple-choice",
+      "options": [
+        "She fled in fear",
+        "She questioned how it could be",
+        "She accepted as the Lord's handmaid",
+        "She refused"
+      ],
+      "correctAnswer": "She accepted as the Lord's handmaid",
+      "explanation": "Mary said, 'Behold the handmaid of the Lord; be it unto me according to thy word.'",
+      "verseReference": "Luke 1:38",
+      "difficulty": "easy"
+    },
+    {
+      "id": "luke-bq-4",
+      "question": "Who was the son born to Elisabeth and Zacharias?",
+      "type": "multiple-choice",
+      "options": [
+        "Jesus",
+        "John",
+        "James",
+        "Peter"
+      ],
+      "correctAnswer": "John",
+      "explanation": "Elisabeth bore a son named John, who became John the Baptist.",
+      "verseReference": "Luke 1:57",
+      "difficulty": "easy"
+    },
+    {
+      "id": "luke-bq-5",
+      "question": "What city was Mary from?",
+      "type": "multiple-choice",
+      "options": [
+        "Bethlehem",
+        "Nazareth",
+        "Jerusalem",
+        "Capernaum"
+      ],
+      "correctAnswer": "Nazareth",
+      "explanation": "Mary was a virgin espoused to Joseph of Nazareth.",
+      "verseReference": "Luke 1:26-27",
+      "difficulty": "easy"
+    },
+    {
+      "id": "luke-bq-6",
+      "question": "What was the name of the prophetess who praised God after seeing the infant Jesus at the temple?",
+      "type": "multiple-choice",
+      "options": [
+        "Anna",
+        "Miriam",
+        "Deborah",
+        "Hannah"
+      ],
+      "correctAnswer": "Anna",
+      "explanation": "Anna was a prophetess who gave thanks to God and spoke of the child Jesus to all.",
+      "verseReference": "Luke 2:36-38",
+      "difficulty": "easy"
+    },
+    {
+      "id": "luke-bq-7",
+      "question": "Where was Jesus born?",
+      "type": "multiple-choice",
+      "options": [
+        "Nazareth",
+        "Jerusalem",
+        "Bethlehem",
+        "Bethany"
+      ],
+      "correctAnswer": "Bethlehem",
+      "explanation": "Jesus was born in Bethlehem, fulfilling the prophecy about the Messiah's birthplace.",
+      "verseReference": "Luke 2:4-7",
+      "difficulty": "easy"
+    },
+    {
+      "id": "luke-bq-8",
+      "question": "What was the occupation of Joseph, Mary's husband?",
+      "type": "multiple-choice",
+      "options": [
+        "Carpenter",
+        "Fisherman",
+        "Shepherd",
+        "Tax collector"
+      ],
+      "correctAnswer": "Carpenter",
+      "explanation": "Joseph, the husband of Mary, was a carpenter by trade.",
+      "verseReference": "Luke 4:22",
+      "difficulty": "easy"
+    },
+    {
+      "id": "luke-bq-9",
+      "question": "At what age did Jesus stay behind in the temple, amazing the teachers?",
+      "type": "multiple-choice",
+      "options": [
+        "12 years",
+        "8 years",
+        "15 years",
+        "10 years"
+      ],
+      "correctAnswer": "12 years",
+      "explanation": "Jesus stayed in the temple at age twelve, discussing with teachers.",
+      "verseReference": "Luke 2:42-47",
+      "difficulty": "easy"
+    },
+    {
+      "id": "luke-bq-10",
+      "question": "What did John the Baptist eat while in the wilderness?",
+      "type": "multiple-choice",
+      "options": [
+        "Fish and bread",
+        "Locusts and wild honey",
+        "Figs and olives",
+        "Pomegranates and dates"
+      ],
+      "correctAnswer": "Locusts and wild honey",
+      "explanation": "John the Baptist lived on locusts and wild honey during his ministry in the wilderness.",
+      "verseReference": "Luke 3:4-6",
+      "difficulty": "easy"
+    },
+    {
+      "id": "luke-bq-11",
+      "question": "Who baptized Jesus?",
+      "type": "multiple-choice",
+      "options": [
+        "John the Baptist",
+        "Peter",
+        "Philip",
+        "Paul"
+      ],
+      "correctAnswer": "John the Baptist",
+      "explanation": "Jesus was baptized by John the Baptist in the Jordan River.",
+      "verseReference": "Luke 3:21-22",
+      "difficulty": "easy"
+    },
+    {
+      "id": "luke-bq-12",
+      "question": "What sign appeared after Jesus' baptism?",
+      "type": "multiple-choice",
+      "options": [
+        "A dove descended",
+        "A star shone",
+        "Fire fell",
+        "A voice thundered"
+      ],
+      "correctAnswer": "A dove descended",
+      "explanation": "The Holy Spirit descended like a dove upon Jesus after His baptism.",
+      "verseReference": "Luke 3:22",
+      "difficulty": "easy"
+    },
+    {
+      "id": "luke-bq-13",
+      "question": "How long was Jesus tempted in the wilderness?",
+      "type": "multiple-choice",
+      "options": [
+        "40 days",
+        "7 days",
+        "12 days",
+        "30 days"
+      ],
+      "correctAnswer": "40 days",
+      "explanation": "Jesus was tempted by the devil for forty days in the wilderness.",
+      "verseReference": "Luke 4:1-2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "luke-bq-14",
+      "question": "What was Jesus' first recorded teaching in the synagogue at Nazareth?",
+      "type": "multiple-choice",
+      "options": [
+        "The Beatitudes",
+        "The Spirit of the Lord is upon me",
+        "Parable of the Sower",
+        "The Lord's Prayer"
+      ],
+      "correctAnswer": "The Spirit of the Lord is upon me",
+      "explanation": "Jesus read from Isaiah, proclaiming the Spirit of the Lord was upon Him.",
+      "verseReference": "Luke 4:18-19",
+      "difficulty": "easy"
+    },
+    {
+      "id": "luke-bq-15",
+      "question": "Which prophet's words did Jesus read in the synagogue in Nazareth?",
+      "type": "multiple-choice",
+      "options": [
+        "Isaiah",
+        "Jeremiah",
+        "Ezekiel",
+        "Daniel"
+      ],
+      "correctAnswer": "Isaiah",
+      "explanation": "Jesus read from the book of Isaiah in the synagogue.",
+      "verseReference": "Luke 4:17",
+      "difficulty": "easy"
+    },
+    {
+      "id": "luke-bq-16",
+      "question": "What was the reaction of the people when Jesus read from Isaiah in the synagogue?",
+      "type": "multiple-choice",
+      "options": [
+        "They rejoiced and praised God",
+        "They marveled and questioned",
+        "They tried to kill Him",
+        "They ignored Him"
+      ],
+      "correctAnswer": "They marveled and questioned",
+      "explanation": "The people marveled at His words but later rejected Him.",
+      "verseReference": "Luke 4:22-24",
+      "difficulty": "medium"
+    },
+    {
+      "id": "luke-bq-17",
+      "question": "What was Jesus' response to the people’s skepticism in Nazareth?",
+      "type": "multiple-choice",
+      "options": [
+        "He performed many miracles there",
+        "He cited examples of Elijah and Elisha",
+        "He left immediately",
+        "He warned them of judgment"
+      ],
+      "correctAnswer": "He cited examples of Elijah and Elisha",
+      "explanation": "Jesus referenced Elijah and Elisha performing miracles for Gentiles.",
+      "verseReference": "Luke 4:25-27",
+      "difficulty": "medium"
+    },
+    {
+      "id": "luke-bq-18",
+      "question": "What was the first miracle Jesus performed as recorded in Luke?",
+      "type": "multiple-choice",
+      "options": [
+        "Healing a leper",
+        "Casting out a devil",
+        "Healing a man with a withered hand",
+        "Turning water into wine"
+      ],
+      "correctAnswer": "Casting out a devil",
+      "explanation": "Jesus cast out a devil from a man in the synagogue at Capernaum.",
+      "verseReference": "Luke 4:33-36",
+      "difficulty": "medium"
+    },
+    {
+      "id": "luke-bq-19",
+      "question": "Where did Jesus call His first disciples?",
+      "type": "multiple-choice",
+      "options": [
+        "Sea of Galilee",
+        "Jerusalem",
+        "Bethlehem",
+        "Jericho"
+      ],
+      "correctAnswer": "Sea of Galilee",
+      "explanation": "Jesus called His first disciples by the Sea of Galilee.",
+      "verseReference": "Luke 5:1-11",
+      "difficulty": "medium"
+    },
+    {
+      "id": "luke-bq-20",
+      "question": "What profession did Simon Peter and Andrew have before following Jesus?",
+      "type": "multiple-choice",
+      "options": [
+        "Fishermen",
+        "Tax collectors",
+        "Carpenters",
+        "Shepherds"
+      ],
+      "correctAnswer": "Fishermen",
+      "explanation": "Simon Peter and Andrew were fishermen before following Jesus.",
+      "verseReference": "Luke 5:2-10",
+      "difficulty": "medium"
+    },
+    {
+      "id": "luke-bq-21",
+      "question": "What did Jesus say to Simon Peter after the miraculous catch of fish?",
+      "type": "multiple-choice",
+      "options": [
+        "Follow me, and I will make you fishers of men",
+        "Return to your nets",
+        "Pray more often",
+        "Be baptized again"
+      ],
+      "correctAnswer": "Follow me, and I will make you fishers of men",
+      "explanation": "Jesus invited Simon Peter to follow Him and become a fisher of men.",
+      "verseReference": "Luke 5:10-11",
+      "difficulty": "medium"
+    },
+    {
+      "id": "luke-bq-22",
+      "question": "Who was the tax collector Jesus called to follow Him?",
+      "type": "multiple-choice",
+      "options": [
+        "Matthew",
+        "Zacchaeus",
+        "Judas Iscariot",
+        "Nicodemus"
+      ],
+      "correctAnswer": "Matthew",
+      "explanation": "Jesus called Matthew, a tax collector, to follow Him.",
+      "verseReference": "Luke 5:27-28",
+      "difficulty": "medium"
+    },
+    {
+      "id": "luke-bq-23",
+      "question": "What was Jesus’ response when questioned about eating with tax collectors and sinners?",
+      "type": "multiple-choice",
+      "options": [
+        "They needed the physician, not the healthy",
+        "They should be avoided",
+        "They must repent first",
+        "It was against the law"
+      ],
+      "correctAnswer": "They needed the physician, not the healthy",
+      "explanation": "Jesus said, 'I came not to call the righteous, but sinners to repentance.'",
+      "verseReference": "Luke 5:31-32",
+      "difficulty": "medium"
+    },
+    {
+      "id": "luke-bq-24",
+      "question": "What did Jesus teach about new wine and old wineskins?",
+      "type": "multiple-choice",
+      "options": [
+        "New wine must be put into new wineskins",
+        "Old wineskins are better",
+        "New wine can go into old wineskins",
+        "Wine should not be stored in skins"
+      ],
+      "correctAnswer": "New wine must be put into new wineskins",
+      "explanation": "Jesus taught that new wine must be put into new wineskins to preserve both.",
+      "verseReference": "Luke 5:37-39",
+      "difficulty": "medium"
+    },
+    {
+      "id": "luke-bq-25",
+      "question": "What parable did Jesus tell about the lost sheep?",
+      "type": "multiple-choice",
+      "options": [
+        "A shepherd leaves ninety-nine to find one lost sheep",
+        "A farmer sows seed on good ground",
+        "A prodigal son returns home",
+        "A wise man builds his house on the rock"
+      ],
+      "correctAnswer": "A shepherd leaves ninety-nine to find one lost sheep",
+      "explanation": "Jesus told the parable of the lost sheep who is sought until found.",
+      "verseReference": "Luke 15:4-7",
+      "difficulty": "medium"
+    },
+    {
+      "id": "luke-bq-26",
+      "question": "What is the main theme of the parable of the lost coin?",
+      "type": "multiple-choice",
+      "options": [
+        "Joy over repentance and restoration",
+        "The value of coins",
+        "The importance of saving money",
+        "The diligence of workers"
+      ],
+      "correctAnswer": "Joy over repentance and restoration",
+      "explanation": "The parable illustrates rejoicing when a lost sinner repents.",
+      "verseReference": "Luke 15:8-10",
+      "difficulty": "medium"
+    },
+    {
+      "id": "luke-bq-27",
+      "question": "What did the father do when his prodigal son returned home?",
+      "type": "multiple-choice",
+      "options": [
+        "Ran to him and embraced him",
+        "Rejected him",
+        "Sent him away again",
+        "Ignored him"
+      ],
+      "correctAnswer": "Ran to him and embraced him",
+      "explanation": "The father warmly welcomed his repentant son back with a feast.",
+      "verseReference": "Luke 15:20-24",
+      "difficulty": "medium"
+    },
+    {
+      "id": "luke-bq-28",
+      "question": "According to Jesus, who is the greatest in the kingdom of God?",
+      "type": "multiple-choice",
+      "options": [
+        "He who humbles himself as a little child",
+        "He who is the richest",
+        "He who is oldest",
+        "He who is a teacher"
+      ],
+      "correctAnswer": "He who humbles himself as a little child",
+      "explanation": "Jesus taught that humility like a child's is greatness in God's kingdom.",
+      "verseReference": "Luke 9:46-48",
+      "difficulty": "medium"
+    },
+    {
+      "id": "luke-bq-29",
+      "question": "What did Jesus say about the rich man and Lazarus in the afterlife?",
+      "type": "multiple-choice",
+      "options": [
+        "The rich man suffered in hell while Lazarus was comforted",
+        "Both went to the same place",
+        "The rich man was rewarded",
+        "Lazarus was forgotten"
+      ],
+      "correctAnswer": "The rich man suffered in hell while Lazarus was comforted",
+      "explanation": "Jesus told a parable showing reversal of fortunes after death.",
+      "verseReference": "Luke 16:19-31",
+      "difficulty": "medium"
+    },
+    {
+      "id": "luke-bq-30",
+      "question": "What did Jesus teach about forgiveness and prayer in Luke 11?",
+      "type": "multiple-choice",
+      "options": [
+        "Forgive others to be forgiven by God",
+        "Pray only in secret",
+        "Forgiveness is optional",
+        "Pray without faith"
+      ],
+      "correctAnswer": "Forgive others to be forgiven by God",
+      "explanation": "Jesus emphasized that forgiving others is essential to receive forgiveness.",
+      "verseReference": "Luke 11:4, Luke 11:4",
+      "difficulty": "medium"
+    },
+    {
+      "id": "luke-bq-31",
+      "question": "Complete this verse: 'And he said unto them, Which of you shall have a friend, and shall go unto him at midnight, and say unto him, Friend, lend me ______ loaves;'.",
+      "type": "fill-blank",
+      "options": [
+        "three",
+        "two",
+        "five",
+        "one"
+      ],
+      "correctAnswer": "three",
+      "explanation": "Jesus used this example to teach persistence in prayer.",
+      "verseReference": "Luke 11:5",
+      "difficulty": "medium"
+    },
+    {
+      "id": "luke-bq-32",
+      "question": "True or False: Jesus declared that the Son of man is Lord of the Sabbath.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Jesus stated this to affirm His authority over Sabbath laws.",
+      "verseReference": "Luke 6:5",
+      "difficulty": "medium"
+    },
+    {
+      "id": "luke-bq-33",
+      "question": "True or False: Jesus refused to heal on the Sabbath to avoid angering the Pharisees.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "Jesus healed a man with a withered hand on the Sabbath, challenging their understanding.",
+      "verseReference": "Luke 6:6-10",
+      "difficulty": "medium"
+    },
+    {
+      "id": "luke-bq-34",
+      "question": "True or False: Jesus taught to love your enemies and do good to those who hate you.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Jesus' teaching in the Sermon on the Plain includes loving enemies.",
+      "verseReference": "Luke 6:27",
+      "difficulty": "hard"
+    },
+    {
+      "id": "luke-bq-35",
+      "question": "True or False: The parable of the Good Samaritan is found in the book of Luke.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "The parable is in Luke 10:25-37 teaching love and mercy.",
+      "verseReference": "Luke 10:30-37",
+      "difficulty": "hard"
+    },
+    {
+      "id": "luke-bq-36",
+      "question": "True or False: Jesus told the parable of the unjust steward to teach dishonesty.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "Jesus used the parable to teach prudence and wise use of resources.",
+      "verseReference": "Luke 16:1-9",
+      "difficulty": "hard"
+    },
+    {
+      "id": "luke-bq-37",
+      "question": "True or False: Zacchaeus was a tax collector who climbed a sycamore tree to see Jesus.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Zacchaeus climbed a tree to see Jesus and was saved.",
+      "verseReference": "Luke 19:1-10",
+      "difficulty": "hard"
+    },
+    {
+      "id": "luke-bq-38",
+      "question": "True or False: Jesus healed ten lepers, and all ten returned to thank Him.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "Only one leper returned to give thanks, a Samaritan.",
+      "verseReference": "Luke 17:11-19",
+      "difficulty": "hard"
+    },
+    {
+      "id": "luke-bq-39",
+      "question": "True or False: Jesus told His disciples that the Kingdom of God cometh with observation.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "Jesus said the Kingdom of God is within you and does not come with observation.",
+      "verseReference": "Luke 17:20-21",
+      "difficulty": "hard"
+    },
+    {
+      "id": "luke-bq-40",
+      "question": "True or False: Jesus raised Lazarus from the dead in the book of Luke.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "The raising of Lazarus is recorded in John, not Luke.",
+      "verseReference": "N/A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "luke-bq-41",
+      "question": "True or False: Jesus wept over Jerusalem because they rejected Him.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Jesus wept over Jerusalem foretelling its destruction.",
+      "verseReference": "Luke 19:41-44",
+      "difficulty": "hard"
+    },
+    {
+      "id": "luke-bq-42",
+      "question": "Complete this verse: 'For the Son of man came to seek and to ______ that which was lost.'",
+      "type": "fill-blank",
+      "options": [
+        "save",
+        "destroy",
+        "judge",
+        "condemn"
+      ],
+      "correctAnswer": "save",
+      "explanation": "Jesus came to save the lost as in Luke 19:10.",
+      "verseReference": "Luke 19:10",
+      "difficulty": "hard"
+    },
+    {
+      "id": "luke-bq-43",
+      "question": "Complete this verse: 'Blessed are ye poor: for yours is the kingdom of ______.'",
+      "type": "fill-blank",
+      "options": [
+        "God",
+        "Heaven",
+        "Israel",
+        "David"
+      ],
+      "correctAnswer": "God",
+      "explanation": "Jesus pronounced blessings on the poor in spirit.",
+      "verseReference": "Luke 6:20",
+      "difficulty": "hard"
+    },
+    {
+      "id": "luke-bq-44",
+      "question": "Complete this verse: 'Judge not, and ye shall not be ______: condemn not, and ye shall not be condemned.'",
+      "type": "fill-blank",
+      "options": [
+        "judged",
+        "saved",
+        "ignored",
+        "blessed"
+      ],
+      "correctAnswer": "judged",
+      "explanation": "Jesus taught about mercy in judgment and forgiveness.",
+      "verseReference": "Luke 6:37",
+      "difficulty": "hard"
+    },
+    {
+      "id": "luke-bq-45",
+      "question": "Complete this verse: 'And he said unto them, Follow me, and I will make you ______ of men.'",
+      "type": "fill-blank",
+      "options": [
+        "fishers",
+        "builders",
+        "leaders",
+        "servants"
+      ],
+      "correctAnswer": "fishers",
+      "explanation": "Jesus called His disciples to be fishers of men.",
+      "verseReference": "Luke 5:10",
+      "difficulty": "hard"
+    }
+  ],
+  "difficulty": "medium",
+  "isBookQuiz": true,
+  "slug": "luke-quiz",
+  "tags": [
+    "luke",
+    "luke",
+    "book quiz",
+    "comprehensive",
+    "bible quiz"
+  ],
+  "totalQuestions": 45,
+  "estimatedTime": 34
+}

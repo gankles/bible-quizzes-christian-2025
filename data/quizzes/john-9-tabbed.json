@@ -1,0 +1,983 @@
+{
+  "id": "john-9-tabbed",
+  "title": "John Chapter 9 Quiz - Multi-Level",
+  "description": "An enhanced quiz on John chapter 9 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "john-9-easy",
+      "title": "John Chapter 9 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of John Chapter 9.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 9,
+      "questions": [
+        {
+          "id": "john-9-easy-q1",
+          "question": "Who was blind from birth according to John 9?",
+          "type": "multiple-choice",
+          "options": [
+            "A man Jesus saw",
+            "A Pharisee",
+            "A disciple",
+            "A neighbor"
+          ],
+          "correctAnswer": "A man Jesus saw",
+          "explanation": "John 9:1 states that Jesus saw a man who was blind from his birth.",
+          "verseReference": "John 9:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-9-easy-q2",
+          "question": "What question did the disciples ask Jesus about the man's blindness?",
+          "type": "multiple-choice",
+          "options": [
+            "Did the man or his parents sin?",
+            "Is the man a prophet?",
+            "Where is the man now?",
+            "Who healed the man?"
+          ],
+          "correctAnswer": "Did the man or his parents sin?",
+          "explanation": "John 9:2 records the disciples asking if the man or his parents sinned to cause his blindness.",
+          "verseReference": "John 9:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-9-easy-q3",
+          "question": "According to Jesus, why was the man born blind?",
+          "type": "multiple-choice",
+          "options": [
+            "To show the works of God",
+            "Because of his parents' sin",
+            "Because of his own sin",
+            "To test his faith"
+          ],
+          "correctAnswer": "To show the works of God",
+          "explanation": "Jesus said the man was not blind due to sin but so that God's works could be displayed (John 9:3).",
+          "verseReference": "John 9:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-9-easy-q4",
+          "question": "What did Jesus create to heal the blind man's eyes?",
+          "type": "multiple-choice",
+          "options": [
+            "Clay made from spittle",
+            "A wooden stick",
+            "A cloth",
+            "Water from a spring"
+          ],
+          "correctAnswer": "Clay made from spittle",
+          "explanation": "Jesus spat on the ground, made clay from the spittle, and anointed the blind man's eyes (John 9:6).",
+          "verseReference": "John 9:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-9-easy-q5",
+          "question": "Where did Jesus tell the man to go wash his eyes?",
+          "type": "multiple-choice",
+          "options": [
+            "The pool of Siloam",
+            "The Jordan River",
+            "The temple courtyard",
+            "Bethesda pool"
+          ],
+          "correctAnswer": "The pool of Siloam",
+          "explanation": "Jesus instructed the man to wash in the pool of Siloam to receive his sight (John 9:7).",
+          "verseReference": "John 9:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-9-easy-q6",
+          "question": "What was the reaction of the neighbors when the blind man could see?",
+          "type": "multiple-choice",
+          "options": [
+            "They questioned if it was the same man",
+            "They celebrated immediately",
+            "They ignored him",
+            "They reported him to the Pharisees"
+          ],
+          "correctAnswer": "They questioned if it was the same man",
+          "explanation": "Neighbors wondered if the man who could see was the same one who had been blind (John 9:8-9).",
+          "verseReference": "John 9:8-9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-9-easy-q7",
+          "question": "On what day did Jesus heal the man?",
+          "type": "multiple-choice",
+          "options": [
+            "The Sabbath",
+            "The Passover",
+            "A weekday",
+            "The Day of Atonement"
+          ],
+          "correctAnswer": "The Sabbath",
+          "explanation": "John 9:14 states that Jesus made the clay and healed the man on the Sabbath day.",
+          "verseReference": "John 9:14",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-9-easy-q8",
+          "question": "What was the Pharisees' reaction to Jesus healing on the Sabbath?",
+          "type": "multiple-choice",
+          "options": [
+            "Some said Jesus was not from God",
+            "They praised Jesus",
+            "They ignored the miracle",
+            "They made him their leader"
+          ],
+          "correctAnswer": "Some said Jesus was not from God",
+          "explanation": "Some Pharisees said Jesus was not from God because he did not keep the Sabbath (John 9:16).",
+          "verseReference": "John 9:16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-9-easy-q9",
+          "question": "What did the healed man say about Jesus when asked who healed him?",
+          "type": "multiple-choice",
+          "options": [
+            "He is a prophet",
+            "He is a sinner",
+            "He is a Pharisee",
+            "He is unknown"
+          ],
+          "correctAnswer": "He is a prophet",
+          "explanation": "The man answered that Jesus was a prophet (John 9:17).",
+          "verseReference": "John 9:17",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-9-easy-q10",
+          "question": "Why were the man's parents afraid to speak about Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "Because the Jews agreed to put out anyone confessing Christ",
+            "Because they did not believe in Jesus",
+            "Because they feared Roman authorities",
+            "Because they did not know Jesus"
+          ],
+          "correctAnswer": "Because the Jews agreed to put out anyone confessing Christ",
+          "explanation": "John 9:22 explains the parents feared Jews who agreed to expel anyone confessing Christ.",
+          "verseReference": "John 9:22",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-9-easy-q11",
+          "question": "True or False: The man who was healed denied that Jesus had opened his eyes.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "The healed man clearly testified that Jesus opened his eyes (John 9:25).",
+          "verseReference": "John 9:25",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-9-easy-q12",
+          "question": "True or False: The Pharisees accepted that Jesus was from God because of the miracle.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "The Pharisees were divided and some rejected Jesus despite the miracle (John 9:16, 9:29).",
+          "verseReference": "John 9:16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-9-easy-q13",
+          "question": "True or False: Jesus said He came into the world to bring judgment so that the blind might see and the seeing might become blind.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Jesus stated this purpose clearly in John 9:39.",
+          "verseReference": "John 9:39",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-9-easy-q14",
+          "question": "Complete the verse: 'He said unto him, Go, wash in the pool of ______.'",
+          "type": "fill-blank",
+          "options": [
+            "Siloam",
+            "Jordan",
+            "Bethesda",
+            "Gihon"
+          ],
+          "correctAnswer": "Siloam",
+          "explanation": "Jesus told the man to wash in the pool of Siloam to receive sight (John 9:7).",
+          "verseReference": "John 9:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-9-easy-q15",
+          "question": "Complete the verse: 'If ye were ______, ye should have no sin: but now ye say, We see; therefore your sin remaineth.'",
+          "type": "fill-blank",
+          "options": [
+            "blind",
+            "wise",
+            "faithful",
+            "righteous"
+          ],
+          "correctAnswer": "blind",
+          "explanation": "Jesus said this to the Pharisees, highlighting their spiritual blindness (John 9:41).",
+          "verseReference": "John 9:41",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "john-9-quiz",
+      "tags": [
+        "john",
+        "chapter-9",
+        "john",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "john-9-medium",
+      "title": "John Chapter 9 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from John Chapter 9 to real-life situations.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 9,
+      "questions": [
+        {
+          "id": "john-9-medium-q1",
+          "question": "A believer is struggling with understanding suffering. Based on John 9, what biblical truth would you share about the cause of suffering?",
+          "type": "multiple-choice",
+          "options": [
+            "Suffering is always a result of personal sin.",
+            "Suffering is never connected to sin.",
+            "Suffering can be used by God to reveal His works.",
+            "Suffering is punishment for the sins of ancestors."
+          ],
+          "correctAnswer": "Suffering can be used by God to reveal His works.",
+          "explanation": "Jesus explains that the man's blindness was not due to sin by him or his parents but so that the works of God might be displayed (John 9:2-3). This teaches us that suffering can have a divine purpose beyond human fault.",
+          "verseReference": "John 9:2-3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-9-medium-q2",
+          "question": "How does John 9 teach about obedience in following Jesus' instructions even when they seem unusual?",
+          "type": "multiple-choice",
+          "options": [
+            "The man ignored Jesus' instructions and was healed.",
+            "The man obeyed Jesus to wash in the pool and received sight.",
+            "The man asked for proof before obeying Jesus.",
+            "The man healed himself without Jesus' help."
+          ],
+          "correctAnswer": "The man obeyed Jesus to wash in the pool and received sight.",
+          "explanation": "Despite the unusual instruction to wash in the pool of Siloam, the blind man obeyed, and as a result, he received his sight (John 9:6-7). This shows the importance of trust and obedience to Jesus.",
+          "verseReference": "John 9:6-7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-9-medium-q3",
+          "question": "A fellow believer feels isolated after receiving a spiritual blessing. How does John 9 encourage us to respond to opposition when standing for the truth?",
+          "type": "multiple-choice",
+          "options": [
+            "Avoid sharing your testimony to prevent conflict.",
+            "Deny the truth to keep peace with others.",
+            "Confidently testify to what God has done despite opposition.",
+            "Blame others for their lack of faith."
+          ],
+          "correctAnswer": "Confidently testify to what God has done despite opposition.",
+          "explanation": "The man boldly testifies about Jesus healing him, even when the Pharisees reject and cast him out (John 9:25, 9:34). This teaches perseverance and courage in witnessing.",
+          "verseReference": "John 9:25, 9:34",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-9-medium-q4",
+          "question": "How does John 9 illustrate humility and reliance on God's power rather than human wisdom?",
+          "type": "multiple-choice",
+          "options": [
+            "The healed man claimed credit for his healing.",
+            "The Pharisees accepted the miracle as God's work.",
+            "The healed man acknowledged he did not know if Jesus was a sinner but trusted God’s work.",
+            "The healed man refused to answer questions."
+          ],
+          "correctAnswer": "The healed man acknowledged he did not know if Jesus was a sinner but trusted God’s work.",
+          "explanation": "When questioned, the man says he does not know whether Jesus is a sinner but knows he was blind and now sees (John 9:25). This shows humility and faith in God's power beyond human judgment.",
+          "verseReference": "John 9:24-25",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-9-medium-q5",
+          "question": "How does John 9 teach about the importance of personal testimony in evangelism?",
+          "type": "multiple-choice",
+          "options": [
+            "Only religious leaders should share the gospel.",
+            "Personal experience of God's work is a powerful witness.",
+            "Arguments and debates are more effective than testimony.",
+            "Testimonies should be kept private."
+          ],
+          "correctAnswer": "Personal experience of God's work is a powerful witness.",
+          "explanation": "The healed man shares his story repeatedly to the Pharisees and others, emphasizing the transformation God worked in him (John 9:10-11, 9:26-27). This highlights testimony as a key tool in evangelism.",
+          "verseReference": "John 9:10-11, 9:26-27",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-9-medium-q6",
+          "question": "What does John 9 teach about the relationship between spiritual sight and true faith?",
+          "type": "multiple-choice",
+          "options": [
+            "Physical sight guarantees spiritual faith.",
+            "Spiritual blindness is a condition even among those who claim to see.",
+            "Faith is not related to spiritual perception.",
+            "Only religious leaders have spiritual sight."
+          ],
+          "correctAnswer": "Spiritual blindness is a condition even among those who claim to see.",
+          "explanation": "Jesus states that some who claim to see are spiritually blind, as in the Pharisees’ case, highlighting that true faith is more than physical sight (John 9:39-41).",
+          "verseReference": "John 9:39-41",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-9-medium-q7",
+          "question": "How does John 9 encourage believers to trust God’s timing and work diligently?",
+          "type": "multiple-choice",
+          "options": [
+            "Work only when it is convenient.",
+            "Delay obedience until circumstances are perfect.",
+            "Jesus emphasizes working while it is day, because night comes when no one can work.",
+            "Rest and inactivity are preferred over work."
+          ],
+          "correctAnswer": "Jesus emphasizes working while it is day, because night comes when no one can work.",
+          "explanation": "Jesus teaches the importance of doing God’s work in the right time, urging diligence and faithfulness (John 9:4).",
+          "verseReference": "John 9:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-9-medium-q8",
+          "question": "How does John 9 emphasize the importance of faith in Jesus as the Son of God?",
+          "type": "multiple-choice",
+          "options": [
+            "Faith is irrelevant to receiving spiritual sight.",
+            "Belief in Jesus as the Son of God leads to worship and salvation.",
+            "Jesus denies being the Son of God.",
+            "The healed man rejects Jesus’ identity."
+          ],
+          "correctAnswer": "Belief in Jesus as the Son of God leads to worship and salvation.",
+          "explanation": "The healed man confesses his belief in Jesus as the Son of God and worships Him (John 9:35-38), showing the vital role of faith in Jesus.",
+          "verseReference": "John 9:35-38",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-9-medium-q9",
+          "question": "True or False: According to John 9, Jesus healed the man on the Sabbath, causing controversy among the Pharisees.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Jesus healed the blind man on the Sabbath, which led to dispute among the Pharisees about whether Jesus was from God (John 9:14, 9:16).",
+          "verseReference": "John 9:14, 9:16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-9-medium-q10",
+          "question": "True or False: The healed man's parents fully understood and supported how Jesus had healed their son, openly sharing this with the Pharisees.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "The parents acknowledged their son was blind but said they did not know how he was healed because they feared the Jews (John 9:20-22).",
+          "verseReference": "John 9:20-22",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-9-medium-q11",
+          "question": "Fill in the blank: Jesus said, \"I am the ______ of the world\" while healing the blind man.",
+          "type": "fill-blank",
+          "options": [
+            "light",
+            "bread",
+            "water",
+            "door"
+          ],
+          "correctAnswer": "light",
+          "explanation": "Jesus identifies Himself as the light of the world, emphasizing His role in bringing spiritual and physical sight (John 9:5).",
+          "verseReference": "John 9:5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-9-medium-q12",
+          "question": "How does John 9 encourage believers to respond to spiritual opposition and rejection?",
+          "type": "multiple-choice",
+          "options": [
+            "Retaliate harshly against opponents.",
+            "Withdraw from the community entirely.",
+            "Maintain faith and continue to testify about God’s work.",
+            "Deny the truth to avoid conflict."
+          ],
+          "correctAnswer": "Maintain faith and continue to testify about God’s work.",
+          "explanation": "Despite being cast out by the Pharisees, the healed man remains faithful and testifies about Jesus, showing perseverance in faith (John 9:34-35).",
+          "verseReference": "John 9:34-35",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-9-medium-q13",
+          "question": "What does John 9 teach about the nature of God’s work in the world?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s work is only for the elite.",
+            "God’s work is revealed through acts of mercy and miracles.",
+            "God’s work is secret and never witnessed.",
+            "God’s work depends on human strength alone."
+          ],
+          "correctAnswer": "God’s work is revealed through acts of mercy and miracles.",
+          "explanation": "Jesus healed the blind man to make the works of God manifest, demonstrating God’s power and mercy (John 9:3, 9:33).",
+          "verseReference": "John 9:3, 9:33",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-9-medium-q14",
+          "question": "Based on John 9, how does the healed man show integrity and honesty in his testimony?",
+          "type": "multiple-choice",
+          "options": [
+            "He makes up details to impress the Pharisees.",
+            "He refuses to answer any questions.",
+            "He honestly admits what he knows and what he doesn’t know.",
+            "He blames others for his blindness."
+          ],
+          "correctAnswer": "He honestly admits what he knows and what he doesn’t know.",
+          "explanation": "The man openly states he does not know if Jesus is a sinner but knows he was blind and now sees (John 9:25), showing integrity in his witness.",
+          "verseReference": "John 9:25",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-9-medium-q15",
+          "question": "How does John 9 teach about the importance of spiritual discernment within the church community?",
+          "type": "multiple-choice",
+          "options": [
+            "Accept all claims without question.",
+            "Discern truth by observing God’s works and hearing God’s servants.",
+            "Reject all miracles as suspicious.",
+            "Spiritual discernment is unnecessary."
+          ],
+          "correctAnswer": "Discern truth by observing God’s works and hearing God’s servants.",
+          "explanation": "The healed man argues that God does not hear sinners but hears those who do His will, encouraging discernment based on God’s work (John 9:31-33).",
+          "verseReference": "John 9:31-33",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "john-9-quiz",
+      "tags": [
+        "john",
+        "chapter-9",
+        "john",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "john-9-hard",
+      "title": "John Chapter 9 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from John Chapter 9.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 9,
+      "questions": [
+        {
+          "id": "john-9-hard-q1",
+          "question": "In John 9:3, Jesus says the man was born blind so that the works of God might be ________.",
+          "type": "multiple-choice",
+          "options": [
+            "manifested",
+            "hidden",
+            "punished",
+            "forgotten"
+          ],
+          "correctAnswer": "manifested",
+          "explanation": "John 9:3 states that the man was born blind not because of sin, but so that the works of God should be made manifest in him.",
+          "verseReference": "John 9:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-hard-q2",
+          "question": "What method did Jesus use to heal the blind man according to John 9:6?",
+          "type": "multiple-choice",
+          "options": [
+            "He spat on the ground and made clay of the spittle",
+            "He touched the man's eyes directly",
+            "He spoke a word of healing",
+            "He prayed silently over him"
+          ],
+          "correctAnswer": "He spat on the ground and made clay of the spittle",
+          "explanation": "John 9:6 describes Jesus spitting on the ground, making clay from the spittle, and anointing the man's eyes with it before instructing him to wash in the pool of Siloam.",
+          "verseReference": "John 9:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-hard-q3",
+          "question": "What does the name 'Siloam' mean as explained in John 9:7?",
+          "type": "multiple-choice",
+          "options": [
+            "Sent",
+            "Healed",
+            "Water",
+            "Light"
+          ],
+          "correctAnswer": "Sent",
+          "explanation": "John 9:7 clarifies that 'Siloam' means 'Sent', highlighting a possible typological connection to Jesus who is sent by the Father.",
+          "verseReference": "John 9:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-hard-q4",
+          "question": "The healing of the blind man took place on which day, according to John 9:14?",
+          "type": "multiple-choice",
+          "options": [
+            "The Sabbath",
+            "The first day of the week",
+            "The Day of Atonement",
+            "Passover"
+          ],
+          "correctAnswer": "The Sabbath",
+          "explanation": "John 9:14 explicitly states that Jesus made the clay and opened the man's eyes on the Sabbath, which is significant for the ensuing controversy.",
+          "verseReference": "John 9:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-hard-q5",
+          "question": "How did some Pharisees react to Jesus healing on the Sabbath as described in John 9:16?",
+          "type": "multiple-choice",
+          "options": [
+            "Some said He is not of God because He broke the Sabbath",
+            "They all unanimously accepted Jesus as God",
+            "They ignored the miracle",
+            "They praised Jesus for His healing"
+          ],
+          "correctAnswer": "Some said He is not of God because He broke the Sabbath",
+          "explanation": "John 9:16 shows a division among the Pharisees, with some rejecting Jesus because He did not observe the Sabbath law, while others questioned how a sinner could perform miracles.",
+          "verseReference": "John 9:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-hard-q6",
+          "question": "In John 9:17, the healed blind man calls Jesus a ________.",
+          "type": "multiple-choice",
+          "options": [
+            "prophet",
+            "king",
+            "priest",
+            "scribe"
+          ],
+          "correctAnswer": "prophet",
+          "explanation": "John 9:17 records the blind man’s response to the Pharisees, recognizing Jesus as a prophet, which connects typologically with Old Testament prophetic figures.",
+          "verseReference": "John 9:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-hard-q7",
+          "question": "What was the reason the blind man’s parents gave for not explaining how their son received sight in John 9:22?",
+          "type": "multiple-choice",
+          "options": [
+            "They feared the Jews",
+            "They did not know Jesus",
+            "They believed it was a miracle",
+            "They were ashamed"
+          ],
+          "correctAnswer": "They feared the Jews",
+          "explanation": "John 9:22 explains the parents’ reluctance was due to fear of the Jews, who had agreed to exclude anyone confessing Christ from the synagogue.",
+          "verseReference": "John 9:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-hard-q8",
+          "question": "How did the healed man respond when asked to give God the praise in John 9:24?",
+          "type": "multiple-choice",
+          "options": [
+            "He said, 'Whether he be a sinner or no, I know that I was blind and now I see'",
+            "He immediately praised God",
+            "He remained silent",
+            "He denied Jesus' involvement"
+          ],
+          "correctAnswer": "He said, 'Whether he be a sinner or no, I know that I was blind and now I see'",
+          "explanation": "John 9:25 quotes the man affirming his personal experience of healing, irrespective of Jesus’ sinfulness, emphasizing faith based on encounter rather than doctrinal dispute.",
+          "verseReference": "John 9:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-hard-q9",
+          "question": "Which Old Testament figure do the Pharisees claim to be disciples of, according to John 9:28?",
+          "type": "multiple-choice",
+          "options": [
+            "Moses",
+            "Elijah",
+            "Isaiah",
+            "David"
+          ],
+          "correctAnswer": "Moses",
+          "explanation": "John 9:28 shows the Pharisees asserting their allegiance to Moses, contrasting their skepticism of Jesus’ origins.",
+          "verseReference": "John 9:28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-hard-q10",
+          "question": "What argument does the healed man give in John 9:31 to prove Jesus is from God?",
+          "type": "multiple-choice",
+          "options": [
+            "God hears not sinners but those who worship and do His will",
+            "Jesus performed many miracles",
+            "He saw Jesus with his own eyes",
+            "He was told by his parents"
+          ],
+          "correctAnswer": "God hears not sinners but those who worship and do His will",
+          "explanation": "John 9:31 emphasizes a theological point that God responds to those who worship Him and obey His will, implying Jesus’ works are divine.",
+          "verseReference": "John 9:31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-hard-q11",
+          "question": "According to John 9:32, what was unprecedented about Jesus healing the man born blind?",
+          "type": "multiple-choice",
+          "options": [
+            "No one had ever opened the eyes of a man born blind before",
+            "Many had done so before",
+            "It was a common miracle",
+            "It was not a miracle but a trick"
+          ],
+          "correctAnswer": "No one had ever opened the eyes of a man born blind before",
+          "explanation": "John 9:32 highlights the uniqueness of Jesus’ miracle, underscoring its divine and authoritative nature.",
+          "verseReference": "John 9:32",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-hard-q12",
+          "question": "What is the theological significance of Jesus declaring Himself \"the light of the world\" in John 9:5?",
+          "type": "multiple-choice",
+          "options": [
+            "It signifies Jesus as the spiritual illuminator in a world of darkness",
+            "It refers to a literal light source",
+            "It is a metaphor for physical healing only",
+            "It indicates Jesus' role as a political leader"
+          ],
+          "correctAnswer": "It signifies Jesus as the spiritual illuminator in a world of darkness",
+          "explanation": "John 9:5 uses light metaphorically to describe Jesus’ role in bringing spiritual enlightenment, a theme consistent with Old Testament imagery like Isaiah 9:2 and Psalm 27:1.",
+          "verseReference": "John 9:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-hard-q13",
+          "question": "True or False: According to John 9:41, Jesus taught that those who claim to see but are spiritually blind have no sin.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 9:41 says that if they were blind, they would have no sin; but since they claim to see, their sin remains, indicating spiritual blindness carries guilt.",
+          "verseReference": "John 9:41",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-hard-q14",
+          "question": "How does the dialogue between Jesus and the Pharisees in John 9 function as a literary device?",
+          "type": "multiple-choice",
+          "options": [
+            "It serves as a chiasm highlighting spiritual blindness and sight",
+            "It is a simple narrative without deeper meaning",
+            "It is an example of parabolic teaching",
+            "It illustrates prophetic fulfillment only"
+          ],
+          "correctAnswer": "It serves as a chiasm highlighting spiritual blindness and sight",
+          "explanation": "The narrative contrasts physical and spiritual sight and blindness, a typical Johannine chiastic structure emphasizing irony and judgment (John 9:39-41).",
+          "verseReference": "John 9:39",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-hard-q15",
+          "question": "Which Old Testament theme does the man’s healing in John 9 most closely parallel?",
+          "type": "multiple-choice",
+          "options": [
+            "The Exodus leading the blind out of darkness",
+            "The creation of light in Genesis",
+            "The healing miracles of Elijah and Elisha",
+            "The rebuilding of the temple in Ezra"
+          ],
+          "correctAnswer": "The healing miracles of Elijah and Elisha",
+          "explanation": "The healing of the blind man resonates with prophetic miracles in Kings, where God’s power restores sight and life, affirming Jesus as a prophet (John 9:17).",
+          "verseReference": "John 9:17",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "john-9-quiz",
+      "tags": [
+        "john",
+        "chapter-9",
+        "john",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "john-9-theological",
+      "title": "John Chapter 9 Quiz - Theological Level",
+      "description": "Deep biblical theology from John Chapter 9 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 9,
+      "questions": [
+        {
+          "id": "john-9-theological-q1",
+          "question": "What reason does Jesus give for the man being born blind?",
+          "type": "multiple-choice",
+          "options": [
+            "To manifest the works of God",
+            "Because of the man's sin",
+            "Because of his parents' sin",
+            "To test the faith of the disciples"
+          ],
+          "correctAnswer": "To manifest the works of God",
+          "explanation": "Jesus clarifies that neither the man nor his parents sinned, but that the man was born blind so that the works of God might be revealed in him (John 9:3). This aligns with God's sovereign purpose in allowing suffering for His glory, consistent with Job 1:21, Romans 8:28, Isaiah 64:8, and 2 Corinthians 12:9.",
+          "verseReference": "John 9:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-theological-q2",
+          "question": "How does Jesus describe His role while He is in the world?",
+          "type": "multiple-choice",
+          "options": [
+            "I am the light of the world",
+            "I am the bread of life",
+            "I am the good shepherd",
+            "I am the way, the truth, and the life"
+          ],
+          "correctAnswer": "I am the light of the world",
+          "explanation": "Jesus declares He is the light of the world during His earthly ministry (John 9:5), revealing divine truth and dispelling spiritual darkness. This echoes themes from Isaiah 9:2, Psalm 27:1, 2 Corinthians 4:6, and Revelation 21:23.",
+          "verseReference": "John 9:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-theological-q3",
+          "question": "What method did Jesus use to heal the man's blindness?",
+          "type": "multiple-choice",
+          "options": [
+            "He made clay with spittle and anointed the man's eyes",
+            "He touched the man's eyes directly",
+            "He spoke a word of healing",
+            "He laid hands on the man's head"
+          ],
+          "correctAnswer": "He made clay with spittle and anointed the man's eyes",
+          "explanation": "Jesus spat on the ground, made clay with the saliva, anointed the man’s eyes, and told him to wash in the pool of Siloam to receive sight (John 9:6-7). This physical act signifies the incarnational nature of Christ’s healing ministry, similar to Old Testament signs like Elisha's healing of Naaman (2 Kings 5:10) and prophetic symbolic acts (Ezekiel 4:1).",
+          "verseReference": "John 9:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-theological-q4",
+          "question": "What is the significance of the pool of Siloam in the healing narrative?",
+          "type": "multiple-choice",
+          "options": [
+            "It means 'Sent', symbolizing Jesus as the sent one",
+            "It was the only pool in Jerusalem",
+            "It was a place of ritual cleansing for sin",
+            "It was a healing spring with medicinal properties"
+          ],
+          "correctAnswer": "It means 'Sent', symbolizing Jesus as the sent one",
+          "explanation": "The pool's name means 'Sent', pointing to Jesus as the one sent by the Father to bring healing and salvation (John 9:7). This reflects the messianic mission outlined in Isaiah 61:1, John 3:17, Luke 4:18, and Hebrews 10:5.",
+          "verseReference": "John 9:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-theological-q5",
+          "question": "How did the neighbors respond to the man's healing?",
+          "type": "multiple-choice",
+          "options": [
+            "Some recognized him as the blind beggar; others said he only looked like him",
+            "They immediately worshipped Jesus",
+            "They rejected the healing as a trick",
+            "They reported the healing to the priests"
+          ],
+          "correctAnswer": "Some recognized him as the blind beggar; others said he only looked like him",
+          "explanation": "The neighbors debated whether the healed man was the same person who had been blind (John 9:8-9). This highlights the reality of human skepticism and the challenge of recognizing divine intervention, consistent with reactions to miracles in Exodus 4:1, Numbers 13:33, Mark 6:2, and Acts 3:12.",
+          "verseReference": "John 9:8-9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-theological-q6",
+          "question": "What was the reaction of the Pharisees to the healing?",
+          "type": "multiple-choice",
+          "options": [
+            "They were divided, some saying Jesus was not from God because He healed on the Sabbath, others wondered how a sinner could perform such miracles",
+            "They glorified God for the miracle",
+            "They immediately believed Jesus was the Messiah",
+            "They arrested the healed man"
+          ],
+          "correctAnswer": "They were divided, some saying Jesus was not from God because He healed on the Sabbath, others wondered how a sinner could perform such miracles",
+          "explanation": "The Pharisees debated Jesus' authority and divine origin because He healed on the Sabbath (John 9:16). This division illustrates the tension between legalism and recognition of God's work, paralleling conflicts in Numbers 15:32-36, Matthew 12:1-14, Luke 13:14-17, and Hebrews 4:9-10.",
+          "verseReference": "John 9:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-theological-q7",
+          "question": "How did the man born blind describe Jesus when asked about Him by the Pharisees?",
+          "type": "multiple-choice",
+          "options": [
+            "He said Jesus was a prophet",
+            "He called Jesus a sinner",
+            "He refused to answer",
+            "He said Jesus was just a teacher"
+          ],
+          "correctAnswer": "He said Jesus was a prophet",
+          "explanation": "The healed man acknowledged Jesus as a prophet (John 9:17), recognizing His divine authority and messianic role, consistent with Old Testament prophetic expectations (Deuteronomy 18:15, Isaiah 9:6, Malachi 3:1, Luke 7:16).",
+          "verseReference": "John 9:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-theological-q8",
+          "question": "Why were the parents of the healed man hesitant to speak openly about Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "They feared the Jews who had agreed to expel anyone confessing Christ",
+            "They did not believe their son was healed",
+            "They were ashamed of their son's former blindness",
+            "They wanted to protect Jesus from persecution"
+          ],
+          "correctAnswer": "They feared the Jews who had agreed to expel anyone confessing Christ",
+          "explanation": "The parents feared the Jewish authorities because of the threat of excommunication from the synagogue for confessing Jesus as Christ (John 9:22). This reflects early opposition to Jesus' ministry seen in Acts 4:1-21, John 12:42, Exodus 23:2, and Matthew 10:16-23.",
+          "verseReference": "John 9:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-theological-q9",
+          "question": "What was the healed man's response when told to give God the praise and call Jesus a sinner?",
+          "type": "multiple-choice",
+          "options": [
+            "He said he only knew that he was blind but now he sees",
+            "He agreed that Jesus was a sinner",
+            "He refused to answer",
+            "He denied the miracle happened"
+          ],
+          "correctAnswer": "He said he only knew that he was blind but now he sees",
+          "explanation": "The man focused on the undeniable fact of his healing rather than theological speculation about Jesus' sinfulness (John 9:25). This testimony underscores faith grounded in experience, consistent with Psalm 34:8, Isaiah 35:5, Jeremiah 31:34, and Acts 4:20.",
+          "verseReference": "John 9:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-theological-q10",
+          "question": "How did the healed man respond to the Pharisees' repeated questioning about Jesus' healing method?",
+          "type": "multiple-choice",
+          "options": [
+            "He expressed frustration and questioned why they would listen again, asking if they wanted to become Jesus' disciples",
+            "He explained in detail again",
+            "He remained silent",
+            "He denied knowing Jesus"
+          ],
+          "correctAnswer": "He expressed frustration and questioned why they would listen again, asking if they wanted to become Jesus' disciples",
+          "explanation": "The man's response (John 9:27) shows his conviction and the Pharisees' unwillingness to accept the truth, illustrating the hardness of heart seen in Scripture (Isaiah 6:10, John 12:40, Hebrews 3:7-8, Romans 1:18-21).",
+          "verseReference": "John 9:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-theological-q11",
+          "question": "What argument did the healed man use to affirm Jesus' divine authority despite the Pharisees' rejection?",
+          "type": "multiple-choice",
+          "options": [
+            "He pointed out the miracle of opening eyes from birth blindness as unprecedented",
+            "He cited Old Testament prophecies directly",
+            "He claimed to be a prophet himself",
+            "He called the Pharisees sinners"
+          ],
+          "correctAnswer": "He pointed out the miracle of opening eyes from birth blindness as unprecedented",
+          "explanation": "The man emphasized that no one had ever healed a congenital blindness before (John 9:30-32), asserting that such power must come from God, consistent with God's unique ability to perform miracles in Exodus 14:21-22, Psalm 146:8, Isaiah 42:7, and Matthew 11:4-5.",
+          "verseReference": "John 9:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-theological-q12",
+          "question": "What does the healed man say about God hearing sinners versus those who worship God and do His will?",
+          "type": "multiple-choice",
+          "options": [
+            "God does not hear sinners but hears those who worship Him and do His will",
+            "God hears everyone equally",
+            "God ignores all prayers",
+            "God only hears the Pharisees"
+          ],
+          "correctAnswer": "God does not hear sinners but hears those who worship Him and do His will",
+          "explanation": "The man states a principle that God listens to those who are obedient and worship Him genuinely (John 9:31), aligned with teachings in Psalm 66:18, Proverbs 15:29, Isaiah 59:2, and 1 John 3:22 about God's responsive nature to righteousness.",
+          "verseReference": "John 9:31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-theological-q13",
+          "question": "How did the Jewish leaders respond to the man's testimony about Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "They accused him of being born in sin and cast him out",
+            "They accepted his testimony and believed in Jesus",
+            "They arrested Jesus immediately",
+            "They asked for more witnesses"
+          ],
+          "correctAnswer": "They accused him of being born in sin and cast him out",
+          "explanation": "The leaders rejected the man's witness, accusing him of sinfulness and expelling him (John 9:34), illustrating spiritual blindness and opposition to God's work, as seen in Isaiah 6:9-10, Matthew 23:13, John 12:37-40, and Revelation 3:16.",
+          "verseReference": "John 9:34",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-theological-q14",
+          "question": "What question does Jesus ask the man after He finds out he was cast out?",
+          "type": "multiple-choice",
+          "options": [
+            "Dost thou believe on the Son of God?",
+            "Do you want to be healed again?",
+            "Who told you to follow me?",
+            "Are you angry with the Pharisees?"
+          ],
+          "correctAnswer": "Dost thou believe on the Son of God?",
+          "explanation": "Jesus directly asks the man if he believes in the Son of God (John 9:35), connecting physical healing with spiritual salvation, consistent with John 3:16, John 6:40, Romans 10:9, and Hebrews 11:6.",
+          "verseReference": "John 9:35",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-9-theological-q15",
+          "question": "How does the healed man respond to Jesus' question about belief in the Son of God?",
+          "type": "multiple-choice",
+          "options": [
+            "He asks, 'Who is he, Lord, that I might believe on him?'",
+            "He immediately declares his faith",
+            "He denies belief",
+            "He remains silent"
+          ],
+          "correctAnswer": "He asks, 'Who is he, Lord, that I might believe on him?'",
+          "explanation": "The man shows humility and desire for understanding before faith (John 9:36), reflecting the biblical pattern of seeking knowledge leading to faith, as seen in Acts 8:30-31, John 20:24-29, Psalm 34:8, and Proverbs 2:3-6.",
+          "verseReference": "John 9:36",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "john-9-quiz",
+      "tags": [
+        "john",
+        "chapter-9",
+        "john",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

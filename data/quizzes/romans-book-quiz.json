@@ -1,0 +1,624 @@
+{
+  "id": "romans-book-quiz",
+  "title": "Romans Quiz - Complete Book",
+  "description": "Test your comprehensive knowledge of the entire book of Romans with 25 questions covering key events, people, and teachings from all 16 chapters.",
+  "type": "book",
+  "book": "Romans",
+  "questions": [
+    {
+      "id": "romans-bq-1",
+      "question": "Who is the author of the Book of Romans?",
+      "type": "multiple-choice",
+      "options": [
+        "Peter",
+        "Paul",
+        "John",
+        "James"
+      ],
+      "correctAnswer": "Paul",
+      "explanation": "Paul identifies himself as the author in Romans 1:1.",
+      "verseReference": "Romans 1:1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "romans-bq-2",
+      "question": "According to Romans 1:16, why is Paul not ashamed of the gospel of Christ?",
+      "type": "multiple-choice",
+      "options": [
+        "It is the power of God unto salvation",
+        "It is a tradition of men",
+        "It brings worldly riches",
+        "It is known by all"
+      ],
+      "correctAnswer": "It is the power of God unto salvation",
+      "explanation": "Paul states the gospel is the power of God for salvation to everyone who believes.",
+      "verseReference": "Romans 1:16",
+      "difficulty": "easy"
+    },
+    {
+      "id": "romans-bq-3",
+      "question": "What does Romans 1:17 say is revealed from faith to faith?",
+      "type": "multiple-choice",
+      "options": [
+        "The wrath of God",
+        "The love of man",
+        "The righteousness of God",
+        "The commandments of Moses"
+      ],
+      "correctAnswer": "The righteousness of God",
+      "explanation": "The righteousness of God is revealed from faith to faith as written, 'The just shall live by faith.'",
+      "verseReference": "Romans 1:17",
+      "difficulty": "easy"
+    },
+    {
+      "id": "romans-bq-4",
+      "question": "According to Romans 3:23, all have sinned and come short of what?",
+      "type": "multiple-choice",
+      "options": [
+        "The glory of God",
+        "The law of Moses",
+        "The kingdom of heaven",
+        "The love of God"
+      ],
+      "correctAnswer": "The glory of God",
+      "explanation": "Paul teaches all have sinned and fall short of the glory of God.",
+      "verseReference": "Romans 3:23",
+      "difficulty": "easy"
+    },
+    {
+      "id": "romans-bq-5",
+      "question": "What is the gift of God according to Romans 6:23?",
+      "type": "multiple-choice",
+      "options": [
+        "Eternal life through Jesus Christ",
+        "Prosperity and peace",
+        "The law and commandments",
+        "Blessings of the earth"
+      ],
+      "correctAnswer": "Eternal life through Jesus Christ",
+      "explanation": "Romans 6:23 contrasts death as the wages of sin with the gift of God, which is eternal life in Christ Jesus.",
+      "verseReference": "Romans 6:23",
+      "difficulty": "easy"
+    },
+    {
+      "id": "romans-bq-6",
+      "question": "True or False: Romans 5:8 states that God commended His love toward us while we were still sinners.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "God's love is shown by Christ dying for us while we were sinners.",
+      "verseReference": "Romans 5:8",
+      "difficulty": "easy"
+    },
+    {
+      "id": "romans-bq-7",
+      "question": "Who is described as being 'justified freely by his grace' in Romans 3:24?",
+      "type": "multiple-choice",
+      "options": [
+        "The Gentiles",
+        "The Jews",
+        "All who believe",
+        "The Pharisees"
+      ],
+      "correctAnswer": "All who believe",
+      "explanation": "All are justified freely by God's grace through the redemption in Christ Jesus.",
+      "verseReference": "Romans 3:24",
+      "difficulty": "easy"
+    },
+    {
+      "id": "romans-bq-8",
+      "question": "According to Romans 4:3, what was counted to Abraham for righteousness?",
+      "type": "multiple-choice",
+      "options": [
+        "His works",
+        "His faith",
+        "His offerings",
+        "His lineage"
+      ],
+      "correctAnswer": "His faith",
+      "explanation": "Abraham believed God, and it was counted to him for righteousness.",
+      "verseReference": "Romans 4:3",
+      "difficulty": "easy"
+    },
+    {
+      "id": "romans-bq-9",
+      "question": "Complete this verse: 'Therefore being justified by faith, we have peace with God through our Lord Jesus Christ:' (Romans ___:1)",
+      "type": "fill-blank",
+      "options": [
+        "6:1",
+        "5:1",
+        "4:1",
+        "7:1"
+      ],
+      "correctAnswer": "5:1",
+      "explanation": "Romans 5:1 speaks of peace with God through justification by faith.",
+      "verseReference": "Romans 5:1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "romans-bq-10",
+      "question": "True or False: Romans 7:7 teaches that the law is sin.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "Paul states, 'Is the law sin? God forbid.' The law reveals sin but is not sin itself.",
+      "verseReference": "Romans 7:7",
+      "difficulty": "easy"
+    },
+    {
+      "id": "romans-bq-11",
+      "question": "In Romans 8:1, what is said to be true for those who are in Christ Jesus?",
+      "type": "multiple-choice",
+      "options": [
+        "They have no condemnation",
+        "They shall suffer persecution",
+        "They must keep the law perfectly",
+        "They are separated from God"
+      ],
+      "correctAnswer": "They have no condemnation",
+      "explanation": "There is no condemnation to those in Christ Jesus who walk not after the flesh but after the Spirit.",
+      "verseReference": "Romans 8:1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "romans-bq-12",
+      "question": "Who are the 'called, chosen, and faithful' mentioned in Romans 8:28-30?",
+      "type": "multiple-choice",
+      "options": [
+        "The Jews only",
+        "The Gentiles only",
+        "Those predestined and justified by God",
+        "The Pharisees"
+      ],
+      "correctAnswer": "Those predestined and justified by God",
+      "explanation": "Paul explains God's work of predestination, calling, justification, and glorification of believers.",
+      "verseReference": "Romans 8:28-30",
+      "difficulty": "easy"
+    },
+    {
+      "id": "romans-bq-13",
+      "question": "True or False: Romans 9:16 says that salvation depends on the will of man.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "Salvation does not depend on man's will, but on God's mercy.",
+      "verseReference": "Romans 9:16",
+      "difficulty": "easy"
+    },
+    {
+      "id": "romans-bq-14",
+      "question": "What is the main teaching of Romans 10:9?",
+      "type": "multiple-choice",
+      "options": [
+        "Belief and confession lead to salvation",
+        "Circumcision is necessary for salvation",
+        "The law is the way to righteousness",
+        "Only Jews can be saved"
+      ],
+      "correctAnswer": "Belief and confession lead to salvation",
+      "explanation": "Confessing with the mouth and believing in the heart that God raised Jesus leads to salvation.",
+      "verseReference": "Romans 10:9",
+      "difficulty": "easy"
+    },
+    {
+      "id": "romans-bq-15",
+      "question": "Fill in the blank: 'For the wages of sin is _______, but the gift of God is eternal life through Jesus Christ our Lord.'",
+      "type": "fill-blank",
+      "options": [
+        "death",
+        "condemnation",
+        "punishment",
+        "suffering"
+      ],
+      "correctAnswer": "death",
+      "explanation": "Romans 6:23 contrasts death as wages of sin with the gift of eternal life.",
+      "verseReference": "Romans 6:23",
+      "difficulty": "easy"
+    },
+    {
+      "id": "romans-bq-16",
+      "question": "According to Romans 12:2, what should believers not be conformed to?",
+      "type": "multiple-choice",
+      "options": [
+        "The world",
+        "Their own desires",
+        "The law",
+        "Their neighbors"
+      ],
+      "correctAnswer": "The world",
+      "explanation": "Believers are urged not to be conformed to the world but be transformed by renewing their minds.",
+      "verseReference": "Romans 12:2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "romans-bq-17",
+      "question": "True or False: Romans 13:1 teaches that all authority comes from God and must be obeyed.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Paul instructs submission to governing authorities because they are ordained by God.",
+      "verseReference": "Romans 13:1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "romans-bq-18",
+      "question": "Who does Paul commend for their labor in the Lord in Romans 16:12?",
+      "type": "multiple-choice",
+      "options": [
+        "Tryphena and Tryphosa",
+        "Priscilla and Aquila",
+        "Phoebe",
+        "Andronicus and Junia"
+      ],
+      "correctAnswer": "Tryphena and Tryphosa",
+      "explanation": "Paul commends Tryphena and Tryphosa who have labored in the Lord.",
+      "verseReference": "Romans 16:12",
+      "difficulty": "medium"
+    },
+    {
+      "id": "romans-bq-19",
+      "question": "According to Romans 14:1, how should believers treat those who are weak in faith?",
+      "type": "multiple-choice",
+      "options": [
+        "Receive them with judgment",
+        "Receive them without doubt",
+        "Avoid them",
+        "Correct them harshly"
+      ],
+      "correctAnswer": "Receive them without doubt",
+      "explanation": "Believers are encouraged to accept those weak in faith, without disputes.",
+      "verseReference": "Romans 14:1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "romans-bq-20",
+      "question": "Fill in the blank: 'I am debtor both to the Greeks, and to the _______, both to the wise, and to the unwise.'",
+      "type": "fill-blank",
+      "options": [
+        "Romans",
+        "Barbarians",
+        "Jews",
+        "Gentiles"
+      ],
+      "correctAnswer": "Barbarians",
+      "explanation": "Paul expresses his obligation to preach to all, Greeks and Barbarians.",
+      "verseReference": "Romans 1:14",
+      "difficulty": "medium"
+    },
+    {
+      "id": "romans-bq-21",
+      "question": "True or False: Romans 8:38-39 assures believers that nothing can separate them from the love of God in Christ Jesus.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Paul declares that neither death, life, angels, or any other thing can separate believers from God's love.",
+      "verseReference": "Romans 8:38-39",
+      "difficulty": "medium"
+    },
+    {
+      "id": "romans-bq-22",
+      "question": "What does Romans 11:36 declare about God?",
+      "type": "multiple-choice",
+      "options": [
+        "He is the beginning and the end",
+        "All things are of Him, through Him, and to Him",
+        "He judges the nations",
+        "He gave the law to Moses"
+      ],
+      "correctAnswer": "All things are of Him, through Him, and to Him",
+      "explanation": "Paul praises God as the source and purpose of all things.",
+      "verseReference": "Romans 11:36",
+      "difficulty": "medium"
+    },
+    {
+      "id": "romans-bq-23",
+      "question": "True or False: According to Romans 8:28, God works all things together for good to those who love Him and are called according to His purpose.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "God orchestrates all circumstances for good to His people.",
+      "verseReference": "Romans 8:28",
+      "difficulty": "medium"
+    },
+    {
+      "id": "romans-bq-24",
+      "question": "Who is described as a 'wretched man' who asks 'who shall deliver me from the body of this death?' in Romans 7:24?",
+      "type": "multiple-choice",
+      "options": [
+        "Paul",
+        "Moses",
+        "David",
+        "Peter"
+      ],
+      "correctAnswer": "Paul",
+      "explanation": "Paul uses this expression to describe the struggle with sin in the flesh.",
+      "verseReference": "Romans 7:24",
+      "difficulty": "medium"
+    },
+    {
+      "id": "romans-bq-25",
+      "question": "According to Romans 15:13, what fills believers with joy and peace?",
+      "type": "multiple-choice",
+      "options": [
+        "Faith in God",
+        "Wealth and prosperity",
+        "Circumcision",
+        "Law-keeping"
+      ],
+      "correctAnswer": "Faith in God",
+      "explanation": "Faith in God leads to joy and peace by the power of the Holy Ghost.",
+      "verseReference": "Romans 15:13",
+      "difficulty": "medium"
+    },
+    {
+      "id": "romans-bq-26",
+      "question": "Fill in the blank: 'For we know that the law is spiritual: but I am _______, sold under sin.'",
+      "type": "fill-blank",
+      "options": [
+        "carnal",
+        "holy",
+        "righteous",
+        "just"
+      ],
+      "correctAnswer": "carnal",
+      "explanation": "Paul confesses his own struggle with sin in Romans 7:14.",
+      "verseReference": "Romans 7:14",
+      "difficulty": "medium"
+    },
+    {
+      "id": "romans-bq-27",
+      "question": "What does Romans 3:28 teach about justification?",
+      "type": "multiple-choice",
+      "options": [
+        "By works of the law only",
+        "By faith only",
+        "By circumcision",
+        "By sacrifices"
+      ],
+      "correctAnswer": "By faith only",
+      "explanation": "Paul teaches that a man is justified by faith without the deeds of the law.",
+      "verseReference": "Romans 3:28",
+      "difficulty": "medium"
+    },
+    {
+      "id": "romans-bq-28",
+      "question": "True or False: Romans 6:4 teaches that we are buried with Christ by baptism into death.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Paul explains baptism symbolizes burial and resurrection with Christ.",
+      "verseReference": "Romans 6:4",
+      "difficulty": "medium"
+    },
+    {
+      "id": "romans-bq-29",
+      "question": "According to Romans 5:12, how did sin enter into the world?",
+      "type": "multiple-choice",
+      "options": [
+        "By the law",
+        "By Adam",
+        "By Moses",
+        "By the prophets"
+      ],
+      "correctAnswer": "By Adam",
+      "explanation": "Sin entered the world by one man, Adam, and death by sin.",
+      "verseReference": "Romans 5:12",
+      "difficulty": "medium"
+    },
+    {
+      "id": "romans-bq-30",
+      "question": "Who is called 'our Father' and 'the father of all them that believe' in Romans?",
+      "type": "multiple-choice",
+      "options": [
+        "Abraham",
+        "Isaac",
+        "Jacob",
+        "Moses"
+      ],
+      "correctAnswer": "Abraham",
+      "explanation": "Abraham is the father of all who believe, circumcised or not.",
+      "verseReference": "Romans 4:11-12",
+      "difficulty": "medium"
+    },
+    {
+      "id": "romans-bq-31",
+      "question": "True or False: Romans 13:10 says 'Love worketh no ill to his neighbour: therefore love is the fulfilling of the law.'",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Love fulfills the law by not harming others.",
+      "verseReference": "Romans 13:10",
+      "difficulty": "medium"
+    },
+    {
+      "id": "romans-bq-32",
+      "question": "According to Romans 2:13, who will be justified before God?",
+      "type": "multiple-choice",
+      "options": [
+        "The hearers of the law",
+        "The doers of the law",
+        "The rich",
+        "The circumcised only"
+      ],
+      "correctAnswer": "The doers of the law",
+      "explanation": "It is not the hearers, but the doers of the law who will be justified.",
+      "verseReference": "Romans 2:13",
+      "difficulty": "medium"
+    },
+    {
+      "id": "romans-bq-33",
+      "question": "Fill in the blank: 'For whosoever shall call upon the name of the Lord shall be ______.'",
+      "type": "fill-blank",
+      "options": [
+        "saved",
+        "blessed",
+        "judged",
+        "condemned"
+      ],
+      "correctAnswer": "saved",
+      "explanation": "Romans 10:13 states that calling on the Lord's name brings salvation.",
+      "verseReference": "Romans 10:13",
+      "difficulty": "medium"
+    },
+    {
+      "id": "romans-bq-34",
+      "question": "Who does Paul greet as 'my beloved kinsman, and my fellow prisoner' in Romans 16:7?",
+      "type": "multiple-choice",
+      "options": [
+        "Andronicus and Junia",
+        "Priscilla and Aquila",
+        "Phoebe",
+        "Tertius"
+      ],
+      "correctAnswer": "Andronicus and Junia",
+      "explanation": "Paul mentions Andronicus and Junia as notable among the apostles and his kinsmen.",
+      "verseReference": "Romans 16:7",
+      "difficulty": "hard"
+    },
+    {
+      "id": "romans-bq-35",
+      "question": "True or False: Romans 8:9 states that if anyone does not have the Spirit of Christ, he is not of Him.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Possession of the Spirit of Christ is evidence of belonging to Him.",
+      "verseReference": "Romans 8:9",
+      "difficulty": "hard"
+    },
+    {
+      "id": "romans-bq-36",
+      "question": "According to Romans 11:33, what is described as unsearchable and past finding out?",
+      "type": "multiple-choice",
+      "options": [
+        "God's judgments and ways",
+        "The law of Moses",
+        "The wisdom of men",
+        "The prophets' writings"
+      ],
+      "correctAnswer": "God's judgments and ways",
+      "explanation": "Paul marvels at the depth and wisdom of God's judgments and ways.",
+      "verseReference": "Romans 11:33",
+      "difficulty": "hard"
+    },
+    {
+      "id": "romans-bq-37",
+      "question": "True or False: Romans 14:23 teaches that everything not done from faith is sin.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Paul instructs that whatever is not of faith is sin.",
+      "verseReference": "Romans 14:23",
+      "difficulty": "hard"
+    },
+    {
+      "id": "romans-bq-38",
+      "question": "What does Paul say about the law in Romans 7:12?",
+      "type": "multiple-choice",
+      "options": [
+        "The law is holy, just, and good",
+        "The law is obsolete",
+        "The law is sinful",
+        "The law is a burden"
+      ],
+      "correctAnswer": "The law is holy, just, and good",
+      "explanation": "Paul emphasizes the goodness of the law despite sin using it.",
+      "verseReference": "Romans 7:12",
+      "difficulty": "hard"
+    },
+    {
+      "id": "romans-bq-39",
+      "question": "Fill in the blank: 'For the promise, that he should be the heir of the world, was not to Abraham, or to his seed, through the _______, but through the righteousness of faith.'",
+      "type": "fill-blank",
+      "options": [
+        "law",
+        "prophets",
+        "works",
+        "commandments"
+      ],
+      "correctAnswer": "law",
+      "explanation": "The promise to Abraham was through faith, not law.",
+      "verseReference": "Romans 4:13",
+      "difficulty": "hard"
+    },
+    {
+      "id": "romans-bq-40",
+      "question": "Who is commended as a servant of the church at Cenchrea in Romans 16:1?",
+      "type": "multiple-choice",
+      "options": [
+        "Phoebe",
+        "Priscilla",
+        "Junia",
+        "Tryphena"
+      ],
+      "correctAnswer": "Phoebe",
+      "explanation": "Phoebe is mentioned as a servant and helper of many.",
+      "verseReference": "Romans 16:1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "romans-bq-41",
+      "question": "True or False: Romans 5:5 teaches that hope maketh not ashamed because God's love is shed abroad in our hearts by the Holy Ghost.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "God's love in believers' hearts through the Holy Spirit sustains hope.",
+      "verseReference": "Romans 5:5",
+      "difficulty": "hard"
+    },
+    {
+      "id": "romans-bq-42",
+      "question": "According to Romans 12:1, what should believers present their bodies as?",
+      "type": "multiple-choice",
+      "options": [
+        "Living sacrifices, holy, acceptable unto God",
+        "Temples of the Holy Ghost",
+        "Weapons of righteousness",
+        "Instruments of sin"
+      ],
+      "correctAnswer": "Living sacrifices, holy, acceptable unto God",
+      "explanation": "Paul urges believers to offer their bodies as living sacrifices.",
+      "verseReference": "Romans 12:1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "romans-bq-43",
+      "question": "What is the relationship between sin and the law described in Romans 7:8?",
+      "type": "multiple-choice",
+      "options": [
+        "Sin takes occasion by the commandment to work in us",
+        "Sin is the same as the law",
+        "Sin is abolished by the law",
+        "Sin does not exist where there is law"
+      ],
+      "correctAnswer": "Sin takes occasion by the commandment to work in us",
+      "explanation": "Sin uses the commandment to produce all manner of concupiscence.",
+      "verseReference": "Romans 7:8",
+      "difficulty": "hard"
+    },
+    {
+      "id": "romans-bq-44",
+      "question": "True or False: Romans 8:11 promises that the Spirit of Him who raised Jesus from the dead will give life to mortal bodies.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "The Spirit who raised Christ will also quicken believers' mortal bodies.",
+      "verseReference": "Romans 8:11",
+      "difficulty": "hard"
+    },
+    {
+      "id": "romans-bq-45",
+      "question": "According to Romans 6:6, what has been crucified with Christ?",
+      "type": "multiple-choice",
+      "options": [
+        "Our old man of sin",
+        "The law",
+        "The flesh",
+        "The world"
+      ],
+      "correctAnswer": "Our old man of sin",
+      "explanation": "Paul teaches that the old self was crucified with Christ to destroy sin.",
+      "verseReference": "Romans 6:6",
+      "difficulty": "hard"
+    }
+  ],
+  "difficulty": "medium",
+  "isBookQuiz": true,
+  "slug": "romans-quiz",
+  "tags": [
+    "romans",
+    "romans",
+    "book quiz",
+    "comprehensive",
+    "bible quiz"
+  ],
+  "totalQuestions": 45,
+  "estimatedTime": 34
+}

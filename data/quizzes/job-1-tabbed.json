@@ -1,0 +1,983 @@
+{
+  "id": "job-1-tabbed",
+  "title": "Job Chapter 1 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Job chapter 1 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "job-1-easy",
+      "title": "Job Chapter 1 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Job Chapter 1.",
+      "type": "chapter",
+      "book": "Job",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "job-1-easy-q1",
+          "question": "Where did Job live according to Job 1:1?",
+          "type": "multiple-choice",
+          "options": [
+            "Land of Uz",
+            "Land of Canaan",
+            "Land of Egypt",
+            "Land of Babylon"
+          ],
+          "correctAnswer": "Land of Uz",
+          "explanation": "Job 1:1 clearly states that Job was a man in the land of Uz.",
+          "verseReference": "Job 1:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-1-easy-q2",
+          "question": "How many sons did Job have according to Job 1:2?",
+          "type": "multiple-choice",
+          "options": [
+            "Seven",
+            "Three",
+            "Ten",
+            "Five"
+          ],
+          "correctAnswer": "Seven",
+          "explanation": "Job 1:2 mentions that Job had seven sons and three daughters.",
+          "verseReference": "Job 1:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-1-easy-q3",
+          "question": "What animal was NOT listed as part of Job's substance in Job 1:3?",
+          "type": "multiple-choice",
+          "options": [
+            "Sheep",
+            "Camels",
+            "Horses",
+            "Oxen"
+          ],
+          "correctAnswer": "Horses",
+          "explanation": "Job 1:3 lists sheep, camels, oxen, and she asses but does not mention horses.",
+          "verseReference": "Job 1:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-1-easy-q4",
+          "question": "What did Job do for his children after their feasting days according to Job 1:5?",
+          "type": "multiple-choice",
+          "options": [
+            "Offered burnt offerings",
+            "Held a feast",
+            "Built an altar",
+            "Prayed for rain"
+          ],
+          "correctAnswer": "Offered burnt offerings",
+          "explanation": "Job 1:5 says Job sanctified his children and offered burnt offerings for them.",
+          "verseReference": "Job 1:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-1-easy-q5",
+          "question": "Who came among the sons of God before the LORD in Job 1:6?",
+          "type": "multiple-choice",
+          "options": [
+            "Satan",
+            "Elijah",
+            "Michael",
+            "Gabriel"
+          ],
+          "correctAnswer": "Satan",
+          "explanation": "Job 1:6 states that Satan came also among the sons of God before the LORD.",
+          "verseReference": "Job 1:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-1-easy-q6",
+          "question": "What did Satan say about Job’s fear of God in Job 1:9?",
+          "type": "multiple-choice",
+          "options": [
+            "Doth Job fear God for nought?",
+            "Job fears God sincerely",
+            "Job does not fear God",
+            "Job is the most faithful"
+          ],
+          "correctAnswer": "Doth Job fear God for nought?",
+          "explanation": "Job 1:9 records Satan questioning if Job fears God without cause.",
+          "verseReference": "Job 1:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-1-easy-q7",
+          "question": "What did the LORD allow Satan to do to Job in Job 1:12?",
+          "type": "multiple-choice",
+          "options": [
+            "Take all that he hath except his life",
+            "Kill Job immediately",
+            "Bless Job's possessions",
+            "Send Job to exile"
+          ],
+          "correctAnswer": "Take all that he hath except his life",
+          "explanation": "Job 1:12 states the LORD gave Satan power over all Job had but not to harm Job himself.",
+          "verseReference": "Job 1:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-1-easy-q8",
+          "question": "What happened to Job’s oxen and donkeys in Job 1:15?",
+          "type": "multiple-choice",
+          "options": [
+            "They were taken and servants slain by the Sabeans",
+            "They were stolen by the Chaldeans",
+            "They were burned by fire from heaven",
+            "They were lost in the wilderness"
+          ],
+          "correctAnswer": "They were taken and servants slain by the Sabeans",
+          "explanation": "Job 1:15 says the Sabeans fell upon the oxen and donkeys, took them, and slew the servants.",
+          "verseReference": "Job 1:15",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-1-easy-q9",
+          "question": "What caused the house to fall on Job’s children according to Job 1:19?",
+          "type": "multiple-choice",
+          "options": [
+            "A great wind from the wilderness",
+            "An earthquake",
+            "A fire from heaven",
+            "A flood"
+          ],
+          "correctAnswer": "A great wind from the wilderness",
+          "explanation": "Job 1:19 states a great wind struck the house, causing it to fall on the young men.",
+          "verseReference": "Job 1:19",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-1-easy-q10",
+          "question": "What was Job's response after hearing the news of his losses in Job 1:20?",
+          "type": "multiple-choice",
+          "options": [
+            "He rent his mantle, shaved his head, and worshipped",
+            "He cursed God",
+            "He fled the land",
+            "He wept silently"
+          ],
+          "correctAnswer": "He rent his mantle, shaved his head, and worshipped",
+          "explanation": "Job 1:20 describes Job’s actions of mourning and worship after the calamities.",
+          "verseReference": "Job 1:20",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-1-easy-q11",
+          "question": "True or False: Job cursed God after losing his children and possessions according to Job 1:22.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Job 1:22 clearly says Job did not sin nor charge God foolishly.",
+          "verseReference": "Job 1:22",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-1-easy-q12",
+          "question": "True or False: Job had more daughters than sons according to Job 1:2.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Job 1:2 states Job had seven sons and three daughters, so he had more sons.",
+          "verseReference": "Job 1:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-1-easy-q13",
+          "question": "True or False: Satan claimed Job was faithful only because God protected him according to Job 1:10.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Job 1:10 shows Satan saying God made a hedge about Job and blessed him, implying Job's fear was due to protection.",
+          "verseReference": "Job 1:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-1-easy-q14",
+          "question": "Complete the verse from Job 1:21: 'Naked came I out of my mother's womb, and naked shall I ________.'",
+          "type": "fill-blank",
+          "options": [
+            "return thither",
+            "go to the land",
+            "be taken away",
+            "walk the earth"
+          ],
+          "correctAnswer": "return thither",
+          "explanation": "Job 1:21 says 'Naked came I out of my mother's womb, and naked shall I return thither.'",
+          "verseReference": "Job 1:21",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-1-easy-q15",
+          "question": "What did Job do continually for his children as described in Job 1:5?",
+          "type": "multiple-choice",
+          "options": [
+            "Offered burnt offerings for their possible sins",
+            "Fed the poor",
+            "Built houses for them",
+            "Gave them gifts"
+          ],
+          "correctAnswer": "Offered burnt offerings for their possible sins",
+          "explanation": "Job 1:5 explains Job offered burnt offerings regularly because he feared his children had sinned.",
+          "verseReference": "Job 1:5",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "job-1-quiz",
+      "tags": [
+        "job",
+        "chapter-1",
+        "job",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "job-1-medium",
+      "title": "Job Chapter 1 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Job Chapter 1 to real-life situations.",
+      "type": "chapter",
+      "book": "Job",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "job-1-medium-q1",
+          "question": "How does Job 1:1 teach us about the importance of integrity and reverence in our daily lives?",
+          "type": "multiple-choice",
+          "options": [
+            "By showing Job as perfect, upright, fearing God, and avoiding evil",
+            "By describing Job's wealth and family",
+            "By focusing on Satan's accusations",
+            "By emphasizing feasting and celebrations"
+          ],
+          "correctAnswer": "By showing Job as perfect, upright, fearing God, and avoiding evil",
+          "explanation": "Job 1:1 highlights Job's character as perfect and upright, one who fears God and shuns evil, teaching us the importance of integrity, reverence, and moral discipline in our daily walk with God.",
+          "verseReference": "Job 1:1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-1-medium-q2",
+          "question": "What lesson about stewardship can we learn from Job's wealth and possessions described in Job 1:3?",
+          "type": "multiple-choice",
+          "options": [
+            "God blesses faithful stewardship with increase",
+            "Wealth is a sign of personal merit",
+            "Possessions guarantee happiness",
+            "Only material blessings matter"
+          ],
+          "correctAnswer": "God blesses faithful stewardship with increase",
+          "explanation": "Job 1:3 shows Job's great wealth as a blessing from God, indicating that faithful stewardship and obedience can lead to God’s blessing and increase, encouraging us to manage resources responsibly.",
+          "verseReference": "Job 1:3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-1-medium-q3",
+          "question": "A fellow believer is worried about their children’s spiritual well-being. Based on Job 1:4-5, what practice would you encourage them to adopt?",
+          "type": "multiple-choice",
+          "options": [
+            "Regularly interceding and offering sacrifices for their children",
+            "Allowing children to do as they please without guidance",
+            "Focusing only on financial provision",
+            "Ignoring spiritual discipline"
+          ],
+          "correctAnswer": "Regularly interceding and offering sacrifices for their children",
+          "explanation": "Job 1:4-5 teaches the importance of spiritual discipline and intercession for family members, as Job sanctified his children and offered burnt offerings to seek their forgiveness and protection.",
+          "verseReference": "Job 1:4-5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-1-medium-q4",
+          "question": "How does Job 1:6-12 illustrate the reality of spiritual testing and perseverance?",
+          "type": "multiple-choice",
+          "options": [
+            "Job’s faithfulness is tested by Satan with God’s permission",
+            "Job immediately curses God when tested",
+            "The devil has ultimate control over Job",
+            "Job avoids all trials through his goodness"
+          ],
+          "correctAnswer": "Job’s faithfulness is tested by Satan with God’s permission",
+          "explanation": "Job 1:6-12 reveals that God allows Satan to test Job’s faithfulness, teaching that believers may face trials permitted by God but must persevere without blaming Him.",
+          "verseReference": "Job 1:6-12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-1-medium-q5",
+          "question": "What does Job’s response to his losses in Job 1:20-21 teach us about humility and gratitude in adversity?",
+          "type": "multiple-choice",
+          "options": [
+            "He worships God and acknowledges God’s sovereignty",
+            "He rebels and curses God",
+            "He blames others for his troubles",
+            "He gives up hope and faith"
+          ],
+          "correctAnswer": "He worships God and acknowledges God’s sovereignty",
+          "explanation": "In Job 1:20-21, Job humbly worships God despite loss, recognizing that God gives and takes away, which teaches us to remain grateful and humble in trials.",
+          "verseReference": "Job 1:20-21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-1-medium-q6",
+          "question": "How can Job 1:22 inspire believers to maintain integrity during difficult times?",
+          "type": "multiple-choice",
+          "options": [
+            "Job did not sin or blame God despite severe trials",
+            "Job ignored his problems",
+            "Job accepted blame for his losses",
+            "Job sought revenge"
+          ],
+          "correctAnswer": "Job did not sin or blame God despite severe trials",
+          "explanation": "Job 1:22 shows Job’s integrity in not sinning or accusing God foolishly during hardship, encouraging believers to trust God and maintain righteousness even when tested.",
+          "verseReference": "Job 1:22",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-1-medium-q7",
+          "question": "A believer struggles with understanding why God allows suffering. Based on Job 1:8-11, what truth would you share about God’s perspective on faithfulness?",
+          "type": "multiple-choice",
+          "options": [
+            "God values genuine fear and obedience beyond blessings",
+            "God rewards only material gain",
+            "Faithfulness depends on outward success",
+            "Suffering means God has abandoned us"
+          ],
+          "correctAnswer": "God values genuine fear and obedience beyond blessings",
+          "explanation": "Job 1:8-11 shows God affirming Job’s genuine fear and uprightness, teaching that true faithfulness is about trusting God beyond material blessings or circumstances.",
+          "verseReference": "Job 1:8-11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-1-medium-q8",
+          "question": "How does Job’s practice of sanctifying his children (Job 1:5) apply to parenting with biblical wisdom today?",
+          "type": "multiple-choice",
+          "options": [
+            "Parents should pray and seek God’s protection over their children",
+            "Parents should avoid addressing sin in their children",
+            "Material provision is enough for children’s well-being",
+            "Faith is a personal matter unrelated to family"
+          ],
+          "correctAnswer": "Parents should pray and seek God’s protection over their children",
+          "explanation": "Job 1:5 demonstrates Job’s concern for his children’s spiritual state and his continual intercession, encouraging parents to actively pray and discipline spiritually.",
+          "verseReference": "Job 1:5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-1-medium-q9",
+          "question": "True or False: Job immediately blamed God for his tragedies according to Job 1:22.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Job 1:22 explicitly states that Job did not sin or charge God foolishly despite his losses, showing his trust and integrity.",
+          "verseReference": "Job 1:22",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-1-medium-q10",
+          "question": "True or False: According to Job 1:12, God allowed Satan to test Job but restricted harm to Job's person.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Job 1:12 shows God permitting Satan to affect Job’s possessions but forbidding harm to Job himself, illustrating God’s sovereign protection even in trials.",
+          "verseReference": "Job 1:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-1-medium-q11",
+          "question": "Fill in the blank: Job’s reaction to the loss of his children and possessions was to ______, according to Job 1:20.",
+          "type": "fill-blank",
+          "options": [
+            "rent his mantle and worship God",
+            "curse God and despair",
+            "ignore the situation",
+            "seek revenge"
+          ],
+          "correctAnswer": "rent his mantle and worship God",
+          "explanation": "Job 1:20 describes Job’s humble and worshipful response to tragedy, emphasizing reverence and trust rather than anger or despair.",
+          "verseReference": "Job 1:20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-1-medium-q12",
+          "question": "How does the account of Job’s children feasting together in Job 1:4 highlight the importance of family fellowship and unity?",
+          "type": "multiple-choice",
+          "options": [
+            "It shows the value of regular family gatherings and mutual care",
+            "It indicates a careless attitude toward sin",
+            "It encourages indulgence without restraint",
+            "It suggests neglect of spiritual matters"
+          ],
+          "correctAnswer": "It shows the value of regular family gatherings and mutual care",
+          "explanation": "Job 1:4 portrays Job’s children dining together, emphasizing the biblical principle of family fellowship, strengthening relationships and mutual support.",
+          "verseReference": "Job 1:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-1-medium-q13",
+          "question": "From Job 1:14-19, what can we learn about responding to multiple hardships in life?",
+          "type": "multiple-choice",
+          "options": [
+            "One should maintain faith and not lose heart amid multiple trials",
+            "One should blame others immediately",
+            "One should isolate themselves from community",
+            "One should despair and give up"
+          ],
+          "correctAnswer": "One should maintain faith and not lose heart amid multiple trials",
+          "explanation": "Job 1:14-19 details multiple calamities striking at once, yet Job’s continued faithfulness teaches perseverance and trust in God despite overwhelming difficulties.",
+          "verseReference": "Job 1:14-19",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-1-medium-q14",
+          "question": "What does Job 1:10 teach about the protective blessings God places around His faithful servants?",
+          "type": "multiple-choice",
+          "options": [
+            "God sets a hedge of protection around His servants and their possessions",
+            "God removes all obstacles from the faithful",
+            "Faithfulness guarantees no suffering",
+            "Protection is based on human effort alone"
+          ],
+          "correctAnswer": "God sets a hedge of protection around His servants and their possessions",
+          "explanation": "Job 1:10 mentions God’s hedge around Job and his household, teaching that God’s protection surrounds those who fear Him, though it does not prevent all trials.",
+          "verseReference": "Job 1:10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-1-medium-q15",
+          "question": "How can Job’s example in Job 1:21 encourage believers to cultivate contentment and trust in God’s sovereignty?",
+          "type": "multiple-choice",
+          "options": [
+            "By acknowledging that everything comes from and returns to God",
+            "By striving to control all circumstances",
+            "By focusing solely on personal gain",
+            "By blaming God for losses"
+          ],
+          "correctAnswer": "By acknowledging that everything comes from and returns to God",
+          "explanation": "Job 1:21 reflects Job’s recognition that life’s blessings are from God and must be accepted with grace, teaching contentment and trust in God’s sovereign plan.",
+          "verseReference": "Job 1:21",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "job-1-quiz",
+      "tags": [
+        "job",
+        "chapter-1",
+        "job",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "job-1-hard",
+      "title": "Job Chapter 1 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Job Chapter 1.",
+      "type": "chapter",
+      "book": "Job",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "job-1-hard-q1",
+          "question": "What is the significance of Job being described as \"perfect and upright\" in Job 1:1, and how does this relate to the Hebrew concept of \"tamim\"?",
+          "type": "multiple-choice",
+          "options": [
+            "It denotes moral integrity and completeness, linking Job to the ideal of covenant faithfulness seen in Genesis.",
+            "It refers to Job's physical health and wealth, without moral implications.",
+            "It means Job was flawless and sinless, like a divine being.",
+            "It indicates Job was isolated from society and without family."
+          ],
+          "correctAnswer": "It denotes moral integrity and completeness, linking Job to the ideal of covenant faithfulness seen in Genesis.",
+          "explanation": "Job 1:1 uses the Hebrew word \"tamim,\" often translated as \"perfect\" or \"blameless,\" implying integrity and faithfulness to God, akin to the covenant ideal seen in patriarchal figures like Noah (Genesis 6:9).",
+          "verseReference": "Job 1:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-hard-q2",
+          "question": "How does the literary structure of Job 1:6-12 function as a prologue to the entire book?",
+          "type": "multiple-choice",
+          "options": [
+            "It sets up a courtroom or heavenly council scene introducing the conflict between God and Satan.",
+            "It narrates Job's genealogy and family background.",
+            "It describes the physical appearance of Job and his household.",
+            "It recounts the death of Job's children."
+          ],
+          "correctAnswer": "It sets up a courtroom or heavenly council scene introducing the conflict between God and Satan.",
+          "explanation": "Job 1:6-12 introduces a celestial dialogue resembling an ancient Near Eastern divine council motif, framing the theological conflict and testing of Job as the book's central theme.",
+          "verseReference": "Job 1:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-hard-q3",
+          "question": "What is the role of Satan in Job 1, and how does it compare to the New Testament understanding of Satan?",
+          "type": "multiple-choice",
+          "options": [
+            "Satan acts as an accuser and tester under God's permission, differing from the New Testament portrayal as the ultimate adversary.",
+            "Satan is a fallen angel seeking to overthrow God.",
+            "Satan is a metaphor for Job's inner doubts and fears.",
+            "Satan is a human enemy conspiring against Job."
+          ],
+          "correctAnswer": "Satan acts as an accuser and tester under God's permission, differing from the New Testament portrayal as the ultimate adversary.",
+          "explanation": "In Job 1:6-12, Satan appears as a member of the divine council with a role to challenge human piety, contrasting with the fully adversarial role seen in later biblical texts like Revelation.",
+          "verseReference": "Job 1:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-hard-q4",
+          "question": "Job 1:5 describes Job offering burnt offerings for his children. What cultural or religious practice does this reflect in the ancient Near East?",
+          "type": "multiple-choice",
+          "options": [
+            "Intercessory sacrifice to atone for potential sins of family members.",
+            "A ritual to gain wealth and prosperity.",
+            "A political alliance ceremony.",
+            "A vow to abandon pagan worship."
+          ],
+          "correctAnswer": "Intercessory sacrifice to atone for potential sins of family members.",
+          "explanation": "Job 1:5 shows Job acting as a priest for his household, offering sacrifices to prevent divine wrath for possible sins, reflecting ancient Israelite and Near Eastern sacrificial customs.",
+          "verseReference": "Job 1:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-hard-q5",
+          "question": "What is foreshadowed by the repeated phrase \"I only am escaped alone to tell thee\" in Job 1:15-19?",
+          "type": "multiple-choice",
+          "options": [
+            "The total destruction of Job's possessions and family, highlighting his coming trials.",
+            "The survival of Job's servants and wealth.",
+            "The arrival of reinforcements to help Job.",
+            "The false reports of disaster."
+          ],
+          "correctAnswer": "The total destruction of Job's possessions and family, highlighting his coming trials.",
+          "explanation": "The refrain emphasizes the completeness of Job's losses and sets the stage for his testing, paralleling lament and disaster motifs in other biblical texts like Lamentations.",
+          "verseReference": "Job 1:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-hard-q6",
+          "question": "How does Job's response in Job 1:20-21 demonstrate a theological theme consistent with the book of Ecclesiastes?",
+          "type": "multiple-choice",
+          "options": [
+            "It expresses the transient nature of life and possessions, emphasizing the sovereignty of God.",
+            "It rejects God's authority and curses him.",
+            "It boasts of Job's righteousness despite loss.",
+            "It demands recompense and justice from God."
+          ],
+          "correctAnswer": "It expresses the transient nature of life and possessions, emphasizing the sovereignty of God.",
+          "explanation": "Job 1:20-21 acknowledges that humans come into and leave life with nothing, affirming God's control—a theme echoed in Ecclesiastes' reflections on life's vanity and God's sovereignty.",
+          "verseReference": "Job 1:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-hard-q7",
+          "question": "In the context of Job 1:3, what does the enumeration of Job's wealth (sheep, camels, oxen, she asses) indicate about his social status in the ancient Near East?",
+          "type": "multiple-choice",
+          "options": [
+            "He was among the wealthiest and most influential men in the region.",
+            "He was a nomadic wanderer with no fixed home.",
+            "He was a temple priest with religious authority.",
+            "He was primarily a warrior rather than a landowner."
+          ],
+          "correctAnswer": "He was among the wealthiest and most influential men in the region.",
+          "explanation": "Job 1:3 lists extensive livestock and a large household, markers of wealth and status in ancient Near Eastern agrarian society, establishing Job's prominence.",
+          "verseReference": "Job 1:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-hard-q8",
+          "question": "What literary device is employed in Job 1:8-11 during the dialogue between God and Satan?",
+          "type": "multiple-choice",
+          "options": [
+            "A chiastic structure highlighting the cause and effect of Job's faithfulness and testing.",
+            "An epic poem style praising Job's virtues.",
+            "A prophetic oracle predicting Job's future.",
+            "A parable illustrating moral lessons."
+          ],
+          "correctAnswer": "A chiastic structure highlighting the cause and effect of Job's faithfulness and testing.",
+          "explanation": "The dialogue shows a chiastic pattern where Job's righteousness is affirmed, Satan challenges the motive, and God's permission to test Job is granted, framing the narrative tension.",
+          "verseReference": "Job 1:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-hard-q9",
+          "question": "True or False: Job sinned or accused God foolishly after he lost his children and possessions according to Job 1:22.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Job 1:22 explicitly states that despite all his suffering, Job did not sin or charge God with folly, demonstrating his remarkable faithfulness.",
+          "verseReference": "Job 1:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-hard-q10",
+          "question": "Which ancient Near Eastern cultural practice is reflected in Job 1:4 when Job's sons and daughters feast together and invite each other?",
+          "type": "multiple-choice",
+          "options": [
+            "Family solidarity and communal feasting to strengthen alliances.",
+            "Sacrificial offering to the gods.",
+            "Funeral rites for the ancestors.",
+            "A market trade gathering."
+          ],
+          "correctAnswer": "Family solidarity and communal feasting to strengthen alliances.",
+          "explanation": "The social custom of feasting with family members in Job 1:4 reflects cultural values of kinship and alliance-building common in the ancient Near East.",
+          "verseReference": "Job 1:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-hard-q11",
+          "question": "What theological theme is introduced by Satan's challenge in Job 1:9 that Job fears God \"for nought\"?",
+          "type": "multiple-choice",
+          "options": [
+            "The question of whether human righteousness is dependent on God's blessings.",
+            "The idea that Job is sinless by nature.",
+            "The belief that Job is secretly worshipping idols.",
+            "The assertion that God does not know Job."
+          ],
+          "correctAnswer": "The question of whether human righteousness is dependent on God's blessings.",
+          "explanation": "Satan's question challenges the sincerity of Job's piety, implying that Job's faithfulness is conditional upon his prosperity, a central issue in the book’s exploration of true righteousness.",
+          "verseReference": "Job 1:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-hard-q12",
+          "question": "How does the phrase \"the fire of God is fallen from heaven\" in Job 1:16 relate to other biblical theophanies or divine judgments?",
+          "type": "multiple-choice",
+          "options": [
+            "It echoes divine judgment imagery, such as the destruction of Sodom and Gomorrah in Genesis 19.",
+            "It describes a natural wildfire without divine implication.",
+            "It refers to the giving of the Ten Commandments.",
+            "It is a metaphor for a volcanic eruption."
+          ],
+          "correctAnswer": "It echoes divine judgment imagery, such as the destruction of Sodom and Gomorrah in Genesis 19.",
+          "explanation": "The expression in Job 1:16 recalls biblical motifs where fire from heaven symbolizes God’s judgment, connecting Job’s trials to broader biblical themes of divine sovereignty.",
+          "verseReference": "Job 1:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-hard-q13",
+          "question": "What is the significance of the phrase \"Naked came I out of my mother's womb, and naked shall I return thither\" in Job 1:21 in relation to human origin and destiny?",
+          "type": "multiple-choice",
+          "options": [
+            "It reflects the biblical theme of human mortality and dependence on God.",
+            "It is a declaration of Job's poverty.",
+            "It suggests Job was born without clothes due to cultural customs.",
+            "It implies reincarnation beliefs."
+          ],
+          "correctAnswer": "It reflects the biblical theme of human mortality and dependence on God.",
+          "explanation": "Job 1:21 emphasizes human vulnerability and the transient nature of material possessions, echoing themes of creation and return to dust found throughout Scripture.",
+          "verseReference": "Job 1:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-hard-q14",
+          "question": "In Job 1:12, what does God's permission to Satan to test Job \"but not to harm himself\" symbolize in theological terms?",
+          "type": "multiple-choice",
+          "options": [
+            "The limits of divine permission and the protection of human life despite suffering.",
+            "God’s indifference to human pain.",
+            "Satan’s ultimate power over human beings.",
+            "The beginning of Job’s physical healing."
+          ],
+          "correctAnswer": "The limits of divine permission and the protection of human life despite suffering.",
+          "explanation": "God’s restriction in Job 1:12 shows that while trials are allowed, human life is preserved, highlighting God’s sovereignty and mercy amid judgment.",
+          "verseReference": "Job 1:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-hard-q15",
+          "question": "How does the depiction of Job's family in Job 1:2-3 contribute to the later themes of loss and restoration in the book?",
+          "type": "multiple-choice",
+          "options": [
+            "It establishes the extent of Job's blessings, making his later losses more poignant.",
+            "It shows Job's family was unimportant to him.",
+            "It suggests Job had few possessions, minimizing his trials.",
+            "It indicates Job’s family was cursed from the start."
+          ],
+          "correctAnswer": "It establishes the extent of Job's blessings, making his later losses more poignant.",
+          "explanation": "The initial description of Job's large family and wealth sets up the dramatic contrast to his later suffering and the theme of restoration.",
+          "verseReference": "Job 1:2",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "job-1-quiz",
+      "tags": [
+        "job",
+        "chapter-1",
+        "job",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "job-1-theological",
+      "title": "Job Chapter 1 Quiz - Theological Level",
+      "description": "Deep biblical theology from Job Chapter 1 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Job",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "job-1-theological-q1",
+          "question": "What key characteristic of Job is emphasized at the beginning of the chapter to highlight his moral and spiritual stature?",
+          "type": "multiple-choice",
+          "options": [
+            "Perfect and upright, fearing God and eschewing evil",
+            "Wealthy and influential among men",
+            "A wise man with many proverbs",
+            "A prophet and priest of his people"
+          ],
+          "correctAnswer": "Perfect and upright, fearing God and eschewing evil",
+          "explanation": "Job 1:1 explicitly describes Job as \"perfect and upright, and one that feared God, and eschewed evil,\" emphasizing his moral integrity and reverence for God, consistent with the biblical ideal of a righteous man (cf. Psalm 15:2-5; Proverbs 3:7; Ecclesiastes 7:20; 1 Peter 1:16).",
+          "verseReference": "Job 1:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-theological-q2",
+          "question": "How many children did Job have according to Job 1?",
+          "type": "multiple-choice",
+          "options": [
+            "Seven sons and three daughters",
+            "Ten sons and no daughters",
+            "Five sons and five daughters",
+            "Three sons and seven daughters"
+          ],
+          "correctAnswer": "Seven sons and three daughters",
+          "explanation": "Job 1:2 states that Job had seven sons and three daughters, highlighting the completeness of his family and the blessings he enjoyed before his trials (cf. Genesis 15:5; Psalm 127:3; Proverbs 17:6).",
+          "verseReference": "Job 1:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-theological-q3",
+          "question": "What was the extent of Job's wealth as described in Job 1:3?",
+          "type": "multiple-choice",
+          "options": [
+            "Seven thousand sheep, three thousand camels, five hundred yoke of oxen, and five hundred she asses",
+            "Ten thousand sheep and cattle combined",
+            "Thousands of gold and silver coins",
+            "Vast lands and a large army"
+          ],
+          "correctAnswer": "Seven thousand sheep, three thousand camels, five hundred yoke of oxen, and five hundred she asses",
+          "explanation": "Job 1:3 details Job's extensive wealth including seven thousand sheep, three thousand camels, five hundred yoke of oxen, and five hundred she asses, illustrating the material blessings God had bestowed upon him (cf. Genesis 13:2; Deuteronomy 8:18; 1 Chronicles 29:12; Luke 12:15).",
+          "verseReference": "Job 1:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-theological-q4",
+          "question": "What spiritual practice did Job perform regularly for his children after their feasts?",
+          "type": "multiple-choice",
+          "options": [
+            "He sanctified them and offered burnt offerings",
+            "He taught them the Law of Moses",
+            "He prayed for their wisdom",
+            "He anointed them with oil"
+          ],
+          "correctAnswer": "He sanctified them and offered burnt offerings",
+          "explanation": "Job 1:5 describes how Job would sanctify his children and offer burnt offerings for them, showing his concern for their spiritual well-being and the seriousness with which he regarded sin and intercession (cf. Leviticus 1:3; Numbers 15:25-26; Hebrews 7:27; 1 Timothy 2:1).",
+          "verseReference": "Job 1:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-theological-q5",
+          "question": "In the heavenly court scene, who is described as presenting themselves before the LORD alongside Satan?",
+          "type": "multiple-choice",
+          "options": [
+            "The sons of God",
+            "The angels of light",
+            "The elders and the four living creatures",
+            "The cherubim and seraphim"
+          ],
+          "correctAnswer": "The sons of God",
+          "explanation": "Job 1:6 states that the \"sons of God\" came to present themselves before the LORD, a phrase often understood to mean angelic beings or divine council members, which contrasts with Satan's role as adversary (cf. Genesis 6:2; Psalm 29:1; Daniel 7:10; Revelation 4:4).",
+          "verseReference": "Job 1:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-theological-q6",
+          "question": "How does Satan describe his activity on earth when questioned by the LORD?",
+          "type": "multiple-choice",
+          "options": [
+            "Going to and fro in the earth, walking up and down in it",
+            "Dwelling in the wilderness, prowling like a lion",
+            "Sitting in the shadow of the mountains",
+            "Waiting for the appointed time to accuse"
+          ],
+          "correctAnswer": "Going to and fro in the earth, walking up and down in it",
+          "explanation": "Job 1:7 records Satan's response that he has been \"going to and fro in the earth, and from walking up and down in it,\" signifying his active roaming and surveillance of humanity, consistent with his role as accuser and tempter (cf. 1 Peter 5:8; Zechariah 3:1; Revelation 12:10; John 8:44).",
+          "verseReference": "Job 1:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-theological-q7",
+          "question": "What accusation does Satan make regarding Job’s fear of God?",
+          "type": "multiple-choice",
+          "options": [
+            "Job fears God only because of the blessings he receives",
+            "Job is truly faithful and fears God wholeheartedly",
+            "Job fears God out of ignorance",
+            "Job fears God because of his family’s reputation"
+          ],
+          "correctAnswer": "Job fears God only because of the blessings he receives",
+          "explanation": "In Job 1:9, Satan questions whether Job fears God \"for nought,\" implying that Job's faithfulness is conditional on God's blessings, a theological challenge regarding the nature of true righteousness and faith (cf. Deuteronomy 6:24; Matthew 4:9-10; James 1:12; Hebrews 11:6).",
+          "verseReference": "Job 1:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-theological-q8",
+          "question": "What limitation does God place on Satan’s power over Job in the testing described in Job 1?",
+          "type": "multiple-choice",
+          "options": [
+            "Satan may not harm Job himself",
+            "Satan may not touch Job’s possessions",
+            "Satan must leave Job’s family unharmed",
+            "Satan cannot speak directly to Job"
+          ],
+          "correctAnswer": "Satan may not harm Job himself",
+          "explanation": "Job 1:12 explains the LORD's restriction that Satan may have all Job's possessions but must not touch Job himself, indicating God's sovereign control over trials and suffering (cf. Luke 22:31-32; 2 Corinthians 12:7-9; James 1:13; Revelation 2:10).",
+          "verseReference": "Job 1:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-theological-q9",
+          "question": "Which calamity is NOT among those reported to Job by messengers in the chapter?",
+          "type": "multiple-choice",
+          "options": [
+            "A plague striking Job's household directly",
+            "The Sabeans taking oxen and killing servants",
+            "Fire from heaven consuming sheep and servants",
+            "The Chaldeans raiding camels and killing servants"
+          ],
+          "correctAnswer": "A plague striking Job's household directly",
+          "explanation": "The chapter describes attacks by the Sabeans (Job 1:15), fire from heaven (Job 1:16), Chaldean raids (Job 1:17), and a wind destroying Job's children (Job 1:19), but no plague is mentioned, showing the specific nature of Job's trials (cf. Exodus 9:3-6; Psalm 91:3; 2 Samuel 24:15).",
+          "verseReference": "Job 1:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-theological-q10",
+          "question": "What natural disaster caused the death of Job’s children in the eldest brother’s house?",
+          "type": "multiple-choice",
+          "options": [
+            "A great wind from the wilderness",
+            "An earthquake shaking the foundations",
+            "A flood from a nearby river",
+            "A fire spreading through the house"
+          ],
+          "correctAnswer": "A great wind from the wilderness",
+          "explanation": "Job 1:19 reports that a great wind from the wilderness struck the four corners of the house, causing it to collapse and kill Job's children, emphasizing the suddenness and severity of his loss (cf. Psalm 83:13; Proverbs 1:27; Nahum 1:3; Luke 13:4-5).",
+          "verseReference": "Job 1:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-theological-q11",
+          "question": "How does Job respond to the series of calamities that befall him as described in Job 1:20-21?",
+          "type": "multiple-choice",
+          "options": [
+            "He worships God, acknowledging God’s sovereign giving and taking",
+            "He curses God and demands an explanation",
+            "He isolates himself in mourning without prayer",
+            "He blames his children for their sins"
+          ],
+          "correctAnswer": "He worships God, acknowledging God’s sovereign giving and taking",
+          "explanation": "Job 1:20-21 shows Job rising, tearing his mantle, shaving his head, then worshiping God while declaring that the LORD gave and the LORD has taken away, affirming the doctrine of God’s sovereignty over life and possessions (cf. Ecclesiastes 5:19; Hebrews 12:28; James 1:17; 1 Thessalonians 5:18).",
+          "verseReference": "Job 1:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-theological-q12",
+          "question": "What is Job’s final stance regarding sin and blame after all his losses in chapter 1?",
+          "type": "multiple-choice",
+          "options": [
+            "Job sinned not, nor charged God foolishly",
+            "Job questioned God’s justice",
+            "Job accused his friends of betrayal",
+            "Job abandoned his faith"
+          ],
+          "correctAnswer": "Job sinned not, nor charged God foolishly",
+          "explanation": "Job 1:22 concludes that despite severe trials, Job did not sin nor charge God foolishly, demonstrating steadfast faith and reverence, a key model of perseverance in righteous suffering (cf. Psalm 34:19; Romans 5:3-5; 1 Peter 2:21-23; James 5:11).",
+          "verseReference": "Job 1:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-theological-q13",
+          "question": "What theological implication does the dialogue between God and Satan in Job 1 have regarding the nature of righteousness?",
+          "type": "multiple-choice",
+          "options": [
+            "Righteousness may be tested through suffering and loss",
+            "Righteousness is solely based on material blessings",
+            "Satan has ultimate authority over believers",
+            "God punishes the wicked without cause"
+          ],
+          "correctAnswer": "Righteousness may be tested through suffering and loss",
+          "explanation": "The debate in Job 1 between God and Satan about Job’s fear of God reveals that true righteousness is subject to testing by trials (Job 1:8-11), consistent with biblical teaching on sanctification and perseverance (cf. Isaiah 48:10; Romans 5:3-5; James 1:2-4; 1 Peter 1:6-7).",
+          "verseReference": "Job 1:8-11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-theological-q14",
+          "question": "What does Job’s continual offering of sacrifices for his children imply about his understanding of sin and intercession?",
+          "type": "multiple-choice",
+          "options": [
+            "That sin can be unintentional and requires mediation",
+            "That his children were definitely guilty of great sins",
+            "That sacrifices were primarily for thanksgiving",
+            "That God accepts only burnt offerings"
+          ],
+          "correctAnswer": "That sin can be unintentional and requires mediation",
+          "explanation": "Job 1:5 shows Job offering burnt offerings continually because he feared his sons might have sinned and cursed God in their hearts, reflecting an understanding that sin can be hidden and that intercessory sacrifice is necessary, paralleling Old Testament priestly mediation (cf. Leviticus 4:27-35; Numbers 15:22-31; Hebrews 7:25; Romans 8:34).",
+          "verseReference": "Job 1:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-1-theological-q15",
+          "question": "How does Job’s story in chapter 1 contribute to the biblical doctrine of God’s sovereignty over suffering?",
+          "type": "multiple-choice",
+          "options": [
+            "God permits suffering within limits for purposes beyond human understanding",
+            "Suffering is always a direct punishment for sin",
+            "God is unaware of human suffering",
+            "Suffering is random and meaningless"
+          ],
+          "correctAnswer": "God permits suffering within limits for purposes beyond human understanding",
+          "explanation": "Job 1 demonstrates that God sovereignly permits Satan to test Job but limits the extent of suffering (Job 1:12), illustrating that suffering is under divine control for reasons ultimately beyond human comprehension (cf. Isaiah 45:7; Romans 8:28; 2 Corinthians 12:7-9; Revelation 21:4).",
+          "verseReference": "Job 1:12",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "job-1-quiz",
+      "tags": [
+        "job",
+        "chapter-1",
+        "job",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

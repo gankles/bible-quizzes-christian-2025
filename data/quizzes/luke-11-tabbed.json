@@ -1,0 +1,983 @@
+{
+  "id": "luke-11-tabbed",
+  "title": "Luke Chapter 11 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Luke chapter 11 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "luke-11-easy",
+      "title": "Luke Chapter 11 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Luke Chapter 11.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 11,
+      "questions": [
+        {
+          "id": "luke-11-easy-q1",
+          "question": "Who asked Jesus to teach them to pray in Luke 11?",
+          "type": "multiple-choice",
+          "options": [
+            "One of his disciples",
+            "The Pharisees",
+            "The scribes",
+            "The lawyers"
+          ],
+          "correctAnswer": "One of his disciples",
+          "explanation": "Luke 11:1 states that one of Jesus' disciples said unto him, 'Lord, teach us to pray.'",
+          "verseReference": "Luke 11:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-11-easy-q2",
+          "question": "What is the first line of the prayer Jesus taught in Luke 11?",
+          "type": "multiple-choice",
+          "options": [
+            "Our Father which art in heaven",
+            "Hallowed be thy name",
+            "Thy kingdom come",
+            "Give us day by day our daily bread"
+          ],
+          "correctAnswer": "Our Father which art in heaven",
+          "explanation": "Luke 11:2 begins the prayer with 'Our Father which art in heaven.'",
+          "verseReference": "Luke 11:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-11-easy-q3",
+          "question": "In the parable Jesus told in Luke 11, what did the man ask his friend to lend him at midnight?",
+          "type": "multiple-choice",
+          "options": [
+            "Three loaves",
+            "Five fishes",
+            "Two coins",
+            "Seven eggs"
+          ],
+          "correctAnswer": "Three loaves",
+          "explanation": "Luke 11:5 records the man asking his friend to lend him three loaves at midnight.",
+          "verseReference": "Luke 11:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-11-easy-q4",
+          "question": "According to Luke 11, what will happen if you ask, seek, and knock?",
+          "type": "multiple-choice",
+          "options": [
+            "It shall be given, found, and opened",
+            "You will be ignored",
+            "You will be judged",
+            "You will be sent away"
+          ],
+          "correctAnswer": "It shall be given, found, and opened",
+          "explanation": "Luke 11:9-10 states that if you ask, it shall be given; if you seek, you shall find; and if you knock, it shall be opened.",
+          "verseReference": "Luke 11:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-11-easy-q5",
+          "question": "What does Jesus say a father will not give his son if he asks for bread, according to Luke 11?",
+          "type": "multiple-choice",
+          "options": [
+            "A stone",
+            "A loaf",
+            "A fish",
+            "An egg"
+          ],
+          "correctAnswer": "A stone",
+          "explanation": "Luke 11:11 asks if a father would give his son a stone instead of bread, implying he would not.",
+          "verseReference": "Luke 11:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-11-easy-q6",
+          "question": "In Luke 11, what does Jesus say the heavenly Father will give to those who ask Him?",
+          "type": "multiple-choice",
+          "options": [
+            "The Holy Spirit",
+            "Gold and silver",
+            "Earthly riches",
+            "Power over devils"
+          ],
+          "correctAnswer": "The Holy Spirit",
+          "explanation": "Luke 11:13 states that the heavenly Father will give the Holy Spirit to those who ask Him.",
+          "verseReference": "Luke 11:13",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-11-easy-q7",
+          "question": "What was Jesus doing when He cast out a devil that was dumb, as mentioned in Luke 11?",
+          "type": "multiple-choice",
+          "options": [
+            "Casting out a devil",
+            "Teaching the disciples",
+            "Praying alone",
+            "Eating with Pharisees"
+          ],
+          "correctAnswer": "Casting out a devil",
+          "explanation": "Luke 11:14 describes Jesus casting out a devil that was dumb.",
+          "verseReference": "Luke 11:14",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-11-easy-q8",
+          "question": "Some people accused Jesus of casting out devils by the power of whom?",
+          "type": "multiple-choice",
+          "options": [
+            "Beelzebub",
+            "God",
+            "Zeus",
+            "Moses"
+          ],
+          "correctAnswer": "Beelzebub",
+          "explanation": "Luke 11:15 records some saying Jesus cast out devils through Beelzebub, the chief of devils.",
+          "verseReference": "Luke 11:15",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-11-easy-q9",
+          "question": "According to Jesus in Luke 11, what happens when a strong man armed keeps his palace?",
+          "type": "multiple-choice",
+          "options": [
+            "His goods are in peace",
+            "His goods are stolen",
+            "The palace is destroyed",
+            "He is overcome"
+          ],
+          "correctAnswer": "His goods are in peace",
+          "explanation": "Luke 11:21 says when a strong man armed keepeth his palace, his goods are in peace.",
+          "verseReference": "Luke 11:21",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-11-easy-q10",
+          "question": "What does Jesus say about someone who is not with Him, according to Luke 11?",
+          "type": "multiple-choice",
+          "options": [
+            "He is against Him",
+            "He is neutral",
+            "He is a friend",
+            "He is forgiven"
+          ],
+          "correctAnswer": "He is against Him",
+          "explanation": "Luke 11:23 states 'He that is not with me is against me.'",
+          "verseReference": "Luke 11:23",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-11-easy-q11",
+          "question": "When the unclean spirit returns to a man and finds the house swept and garnished, what does it do next, according to Luke 11?",
+          "type": "multiple-choice",
+          "options": [
+            "Takes seven other spirits more wicked",
+            "Leaves forever",
+            "Becomes good",
+            "Calls for help"
+          ],
+          "correctAnswer": "Takes seven other spirits more wicked",
+          "explanation": "Luke 11:26 states the spirit takes seven others more wicked and dwells there, making the man's last state worse.",
+          "verseReference": "Luke 11:26",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-11-easy-q12",
+          "question": "True or False: Jesus said that blessed are those who hear the word of God and keep it.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 11:28 says Jesus declared those who hear the word of God and keep it are blessed.",
+          "verseReference": "Luke 11:28",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-11-easy-q13",
+          "question": "True or False: Jesus promised a sign would be given to the evil generation seeking one other than the sign of Jonas.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Luke 11:29 states no sign will be given except the sign of Jonas the prophet.",
+          "verseReference": "Luke 11:29",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-11-easy-q14",
+          "question": "True or False: Jesus criticized the Pharisees for loving the uppermost seats in the synagogues and greetings in the markets.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 11:43 records Jesus saying woe unto the Pharisees for loving the best seats and greetings.",
+          "verseReference": "Luke 11:43",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-11-easy-q15",
+          "question": "Complete this verse from Luke 11:34: 'The light of the body is the _____: therefore when thine eye is single, thy whole body also is full of light.'",
+          "type": "fill-blank",
+          "options": [
+            "eye",
+            "heart",
+            "mind",
+            "soul"
+          ],
+          "correctAnswer": "eye",
+          "explanation": "Luke 11:34 states 'The light of the body is the eye.'",
+          "verseReference": "Luke 11:34",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "luke-11-quiz",
+      "tags": [
+        "luke",
+        "chapter-11",
+        "luke",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "luke-11-medium",
+      "title": "Luke Chapter 11 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Luke Chapter 11 to real-life situations.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 11,
+      "questions": [
+        {
+          "id": "luke-11-medium-q1",
+          "question": "How does Luke 11 teach us about prayer and persistence when a believer is struggling to see answers?",
+          "type": "multiple-choice",
+          "options": [
+            "Ask, seek, and knock persistently to receive from God",
+            "Pray only once and wait silently for God's answer",
+            "Ask only with a large crowd for God to hear",
+            "Fast and give offerings to ensure answers"
+          ],
+          "correctAnswer": "Ask, seek, and knock persistently to receive from God",
+          "explanation": "Luke 11:9-10 encourages believers to ask, seek, and knock persistently, promising that those who do will receive, find, and have doors opened to them. This shows God's readiness to respond to earnest prayer.",
+          "verseReference": "Luke 11:9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-11-medium-q2",
+          "question": "A believer is struggling with forgiveness in relationships. Based on Luke 11, what biblical principle would you share?",
+          "type": "multiple-choice",
+          "options": [
+            "Forgive others as you seek forgiveness from God",
+            "Hold grudges to protect yourself",
+            "Only forgive if the other person apologizes first",
+            "Forgiveness is unnecessary in difficult relationships"
+          ],
+          "correctAnswer": "Forgive others as you seek forgiveness from God",
+          "explanation": "Luke 11:4 teaches that we should forgive others their sins as we ask God to forgive us, showing the importance of forgiveness for spiritual health and relationship restoration.",
+          "verseReference": "Luke 11:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-11-medium-q3",
+          "question": "How does the teaching in Luke 11 about God's provision encourage believers facing material needs?",
+          "type": "multiple-choice",
+          "options": [
+            "God, our Heavenly Father, gives good gifts including the Holy Spirit",
+            "God only provides when we are perfect",
+            "Material needs must be met only by personal effort",
+            "God tests us by withholding all provision"
+          ],
+          "correctAnswer": "God, our Heavenly Father, gives good gifts including the Holy Spirit",
+          "explanation": "Luke 11:13 explains that if earthly fathers give good gifts, God will much more give the Holy Spirit to those who ask, assuring believers of God's generous provision.",
+          "verseReference": "Luke 11:13",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-11-medium-q4",
+          "question": "What instruction does Luke 11 give on the attitude toward God’s Word and obedience?",
+          "type": "multiple-choice",
+          "options": [
+            "Blessed are those who hear the word of God and keep it",
+            "Only birthright makes one blessed",
+            "Obedience is optional for believers",
+            "Faith alone without action is enough"
+          ],
+          "correctAnswer": "Blessed are those who hear the word of God and keep it",
+          "explanation": "Luke 11:28 teaches that true blessing comes to those who hear and obey God's word, emphasizing practical obedience as key to spiritual blessing.",
+          "verseReference": "Luke 11:28",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-11-medium-q5",
+          "question": "A believer feels discouraged about spiritual warfare. What truth from Luke 11 would you share?",
+          "type": "multiple-choice",
+          "options": [
+            "The kingdom of God has come when Jesus casts out devils by God's power",
+            "Spiritual battles prove God's absence",
+            "Devils cannot be cast out by humans",
+            "Satan’s kingdom will ultimately prevail"
+          ],
+          "correctAnswer": "The kingdom of God has come when Jesus casts out devils by God's power",
+          "explanation": "Luke 11:20 affirms that Jesus casting out demons by God's finger shows the kingdom of God’s presence and power to overcome evil, encouraging perseverance in spiritual battles.",
+          "verseReference": "Luke 11:20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-11-medium-q6",
+          "question": "How does Luke 11 address the issue of hypocrisy in spiritual leaders and believers?",
+          "type": "multiple-choice",
+          "options": [
+            "Cleanse inwardly and give alms to be truly clean",
+            "Focus only on outward rituals",
+            "Ignore inward sin if outward appearances are right",
+            "Hypocrisy is acceptable in religious leadership"
+          ],
+          "correctAnswer": "Cleanse inwardly and give alms to be truly clean",
+          "explanation": "Luke 11:39-41 rebukes those who clean only outwardly but neglect inward righteousness, teaching that true purity comes from inward cleansing and generosity.",
+          "verseReference": "Luke 11:39",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-11-medium-q7",
+          "question": "What does Luke 11 teach about the responsibility of leaders in guiding others in faith?",
+          "type": "multiple-choice",
+          "options": [
+            "Leaders should not burden others with heavy demands they don’t help carry",
+            "Leaders should demand strict obedience without compassion",
+            "Leaders must only focus on ritual compliance",
+            "Leaders can ignore those seeking knowledge"
+          ],
+          "correctAnswer": "Leaders should not burden others with heavy demands they don’t help carry",
+          "explanation": "Luke 11:46 criticizes lawyers who impose heavy burdens on people but do not help carry them, highlighting the importance of compassionate leadership.",
+          "verseReference": "Luke 11:46",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-11-medium-q8",
+          "question": "How does Luke 11 encourage believers to trust God concerning daily needs?",
+          "type": "multiple-choice",
+          "options": [
+            "Ask God daily for your daily bread",
+            "Save everything and do not rely on God",
+            "Ignore needs and focus only on spiritual matters",
+            "Only work for your needs without prayer"
+          ],
+          "correctAnswer": "Ask God daily for your daily bread",
+          "explanation": "Luke 11:3 includes a petition for daily bread in the Lord’s Prayer, teaching reliance on God for daily provision and trust in His care.",
+          "verseReference": "Luke 11:3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-11-medium-q9",
+          "question": "What warning does Luke 11 give about spiritual emptiness and the need for vigilance?",
+          "type": "multiple-choice",
+          "options": [
+            "An unclean spirit returning can bring worse conditions if the heart is empty",
+            "Once saved, no spiritual vigilance is needed",
+            "Spiritual emptiness leads to automatic blessing",
+            "Ignoring sin has no consequences"
+          ],
+          "correctAnswer": "An unclean spirit returning can bring worse conditions if the heart is empty",
+          "explanation": "Luke 11:24-26 warns that when an unclean spirit leaves but finds the person’s heart swept but empty, it returns with worse spirits, illustrating the need for ongoing spiritual vigilance.",
+          "verseReference": "Luke 11:24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-11-medium-q10",
+          "question": "How does Luke 11 use the example of a father’s response to a child’s request to teach about God's generosity?",
+          "type": "multiple-choice",
+          "options": [
+            "A father will not give a stone or serpent when asked for bread or fish",
+            "Fathers often deceive children with bad gifts",
+            "God gives less than earthly fathers",
+            "Parents only give gifts if children earn them"
+          ],
+          "correctAnswer": "A father will not give a stone or serpent when asked for bread or fish",
+          "explanation": "Luke 11:11-12 illustrates that just as earthly fathers do not give harmful substitutes for good gifts, God will give good gifts to those who ask, reinforcing trust in God’s goodness.",
+          "verseReference": "Luke 11:11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-11-medium-q11",
+          "question": "True or False: According to Luke 11, Jesus taught that a divided kingdom cannot stand, illustrating the futility of Satan opposing himself.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 11:17-18 states that a kingdom divided against itself cannot stand, and applies this to Satan’s kingdom, showing the logical inconsistency of accusing Jesus of casting out demons by Satan's power.",
+          "verseReference": "Luke 11:17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-11-medium-q12",
+          "question": "True or False: Luke 11 teaches that the greatest blessing is to have physical blessings and to be born into a blessed family.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Luke 11:27-28 shows Jesus correcting the idea that physical blessing is the greatest, instead teaching that those who hear and keep God’s word are truly blessed.",
+          "verseReference": "Luke 11:28",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-11-medium-q13",
+          "question": "Fill in the blank: According to Luke 11, the light of the body is the ______; therefore when your eye is single, your whole body is full of light.",
+          "type": "fill-blank",
+          "options": [
+            "eye",
+            "heart",
+            "mind",
+            "spirit"
+          ],
+          "correctAnswer": "eye",
+          "explanation": "Luke 11:34 teaches that the eye is the light of the body, linking spiritual perception with the overall condition of a person's life and purity.",
+          "verseReference": "Luke 11:34",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-11-medium-q14",
+          "question": "How does Luke 11 guide believers about humility and contentment, especially regarding outward appearances versus inner reality?",
+          "type": "multiple-choice",
+          "options": [
+            "God values inward purity over outward cleanliness",
+            "Outward appearances are more important than the heart",
+            "Contentment comes from public recognition",
+            "Humility is unnecessary if one follows rituals"
+          ],
+          "correctAnswer": "God values inward purity over outward cleanliness",
+          "explanation": "Luke 11:39-40 contrasts outward cleanliness with inward wickedness, emphasizing God's desire for inner purity and humility rather than mere external ritual.",
+          "verseReference": "Luke 11:39",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-11-medium-q15",
+          "question": "What does Luke 11 teach about the importance of generosity and stewardship in daily life?",
+          "type": "multiple-choice",
+          "options": [
+            "Giving alms cleanses and makes one clean before God",
+            "Tithing herbs is enough to fulfill God’s law",
+            "Only large gifts please God",
+            "Generosity is optional for believers"
+          ],
+          "correctAnswer": "Giving alms cleanses and makes one clean before God",
+          "explanation": "Luke 11:41 instructs that giving alms from what one has leads to cleanliness before God, showing the importance of generosity and stewardship as spiritual disciplines.",
+          "verseReference": "Luke 11:41",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "luke-11-quiz",
+      "tags": [
+        "luke",
+        "chapter-11",
+        "luke",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "luke-11-hard",
+      "title": "Luke Chapter 11 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Luke Chapter 11.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 11,
+      "questions": [
+        {
+          "id": "luke-11-hard-q1",
+          "question": "In Luke 11:2, Jesus teaches the disciples to pray beginning with 'Our Father which art in heaven.' What is the significant theological implication of addressing God as 'Our Father' in the context of first-century Jewish thought?",
+          "type": "multiple-choice",
+          "options": [
+            "It emphasizes God's universal fatherhood and personal relationship with believers",
+            "It reflects a pagan influence on Jewish prayer",
+            "It denotes a hierarchical distance between God and humans",
+            "It was a common title for kings in the region"
+          ],
+          "correctAnswer": "It emphasizes God's universal fatherhood and personal relationship with believers",
+          "explanation": "Luke 11:2 introduces the prayer with 'Our Father which art in heaven,' highlighting a relational and communal aspect of God, contrasting with the more distant depictions common in Jewish tradition, thus emphasizing intimacy and accessibility.",
+          "verseReference": "Luke 11:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-hard-q2",
+          "question": "Luke 11:9-10 employs a triadic structure: 'Ask, seek, knock.' This literary device is an example of what biblical rhetorical technique?",
+          "type": "multiple-choice",
+          "options": [
+            "Parallelism",
+            "Chiasmus",
+            "Typology",
+            "Allegory"
+          ],
+          "correctAnswer": "Parallelism",
+          "explanation": "The three imperatives 'Ask, seek, knock' in Luke 11:9-10 demonstrate parallelism, a common Hebrew poetic device, used here to emphasize persistent prayer and the certainty of receiving from God.",
+          "verseReference": "Luke 11:9-10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-hard-q3",
+          "question": "What does the analogy in Luke 11:11-12, comparing a father giving bread instead of a stone or a fish instead of a serpent, reveal about the nature of God's gifts to believers?",
+          "type": "multiple-choice",
+          "options": [
+            "God gives only good gifts in response to requests",
+            "God tests believers by giving harmful things",
+            "God is indifferent to the requests of believers",
+            "God's gifts are unpredictable"
+          ],
+          "correctAnswer": "God gives only good gifts in response to requests",
+          "explanation": "Luke 11:11-12 uses everyday examples of a father's good gifts versus harmful substitutes to illustrate that God, being a loving Father, will give good things like the Holy Spirit to those who ask, emphasizing divine generosity and care.",
+          "verseReference": "Luke 11:11-12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-hard-q4",
+          "question": "In the narrative of Luke 11:5-8, Jesus uses the parable of a man asking for bread at midnight. What cultural practice does this parable highlight to teach about persistent prayer?",
+          "type": "multiple-choice",
+          "options": [
+            "The importance of hospitality and neighborly aid",
+            "The necessity of fasting before prayer",
+            "The ritual purity laws about midnight",
+            "The rejection of petitions after dark"
+          ],
+          "correctAnswer": "The importance of hospitality and neighborly aid",
+          "explanation": "The parable in Luke 11:5-8 reflects the ancient Near Eastern cultural expectation of hospitality, where a neighbor's urgent request for bread at midnight would compel aid, illustrating persistence in prayer leading to answered requests.",
+          "verseReference": "Luke 11:5-8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-hard-q5",
+          "question": "How does the accusation against Jesus of casting out demons by Beelzebub in Luke 11:15 relate to Old Testament imagery and Israelite perceptions of evil?",
+          "type": "multiple-choice",
+          "options": [
+            "It reflects the association of Beelzebub, a Philistine deity, with demonic power",
+            "It indicates Jesus practiced pagan magic",
+            "It shows early Christian acceptance of demon worship",
+            "It is unrelated to Old Testament concepts"
+          ],
+          "correctAnswer": "It reflects the association of Beelzebub, a Philistine deity, with demonic power",
+          "explanation": "In Luke 11:15, Jesus is accused of using Beelzebub, a name linked to a Philistine god turned demon figure in Israelite tradition, reflecting the Jewish understanding of evil spirits and reinforcing the spiritual battle imagery.",
+          "verseReference": "Luke 11:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-hard-q6",
+          "question": "What is the theological significance of the statement in Luke 11:20, 'But if I with the finger of God cast out devils, no doubt the kingdom of God is come upon you'?",
+          "type": "multiple-choice",
+          "options": [
+            "It signifies the inauguration of God's kingdom through Jesus' ministry",
+            "It suggests Jesus is a magician",
+            "It implies the kingdom of God is a physical location",
+            "It denies the presence of evil spirits"
+          ],
+          "correctAnswer": "It signifies the inauguration of God's kingdom through Jesus' ministry",
+          "explanation": "Luke 11:20 underscores that Jesus casting out demons 'with the finger of God' symbolizes the arrival and active presence of God's kingdom, marking a key moment in salvation history.",
+          "verseReference": "Luke 11:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-hard-q7",
+          "question": "Luke 11:23 says, 'He that is not with me is against me.' How does this statement function as a literary and theological boundary marker in the Gospel narrative?",
+          "type": "multiple-choice",
+          "options": [
+            "It clearly distinguishes allegiance to Jesus from opposition",
+            "It encourages neutrality in faith matters",
+            "It promotes social harmony above all else",
+            "It reflects a political stance towards Roman authorities"
+          ],
+          "correctAnswer": "It clearly distinguishes allegiance to Jesus from opposition",
+          "explanation": "This statement in Luke 11:23 functions as a stark boundary, emphasizing that there is no neutral stance regarding Jesus' mission, thus calling for decisive commitment in the Gospel.",
+          "verseReference": "Luke 11:23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-hard-q8",
+          "question": "The description of the unclean spirit returning in Luke 11:24-26 uses imagery of a swept and garnished house. What does this metaphor illustrate about spiritual states and vulnerability?",
+          "type": "multiple-choice",
+          "options": [
+            "That external cleansing without internal filling leaves one vulnerable to worse evil",
+            "That physical cleanliness guarantees spiritual purity",
+            "That homes should be left messy to deter spirits",
+            "That spirits only return to dirty places"
+          ],
+          "correctAnswer": "That external cleansing without internal filling leaves one vulnerable to worse evil",
+          "explanation": "Luke 11:24-26 uses the metaphor of a cleaned but empty house to show that removing evil without filling the void with good (like the Spirit) can result in greater spiritual ruin, emphasizing the need for true inward transformation.",
+          "verseReference": "Luke 11:24-26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-hard-q9",
+          "question": "In Luke 11:28, Jesus says, 'Blessed are they that hear the word of God, and keep it.' How does this statement shift the focus from biological lineage to spiritual obedience?",
+          "type": "multiple-choice",
+          "options": [
+            "It emphasizes obedience as the true source of blessing over physical descent",
+            "It denies the importance of family",
+            "It promotes legalism",
+            "It excludes women from blessing"
+          ],
+          "correctAnswer": "It emphasizes obedience as the true source of blessing over physical descent",
+          "explanation": "Jesus' response in Luke 11:28 highlights that true blessedness comes from hearing and obeying God's word, not merely from biological connection or heritage, challenging traditional views of privilege.",
+          "verseReference": "Luke 11:28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-hard-q10",
+          "question": "Luke 11:29-30 references 'the sign of Jonas the prophet.' What typological connection is Jesus making between Jonah and Himself?",
+          "type": "multiple-choice",
+          "options": [
+            "Both involve a three-day period followed by deliverance",
+            "Both were prophets to the Gentiles only",
+            "Both performed miracles of feeding thousands",
+            "Both were kings of Israel"
+          ],
+          "correctAnswer": "Both involve a three-day period followed by deliverance",
+          "explanation": "Jesus in Luke 11:29-30 draws a typological parallel to Jonah, who was in the belly of the fish three days before deliverance, foreshadowing His own death and resurrection after three days as the ultimate sign.",
+          "verseReference": "Luke 11:29-30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-hard-q11",
+          "question": "How does the example of the Queen of the South in Luke 11:31 function as a condemnation of Jesus' contemporaries?",
+          "type": "multiple-choice",
+          "options": [
+            "She sought wisdom from Solomon, yet the current generation rejects a greater than Solomon",
+            "She was a Gentile who refused Israel's God",
+            "She was a symbol of political power against Israel",
+            "She represents the Pharisees' authority"
+          ],
+          "correctAnswer": "She sought wisdom from Solomon, yet the current generation rejects a greater than Solomon",
+          "explanation": "In Luke 11:31, the Queen of the South is presented as an example of one who sought wisdom, contrasting with Jesus' generation who reject Him, 'a greater than Solomon,' thus condemning their unbelief.",
+          "verseReference": "Luke 11:31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-hard-q12",
+          "question": "In Luke 11:33-36, Jesus uses the metaphor of light and the eye. What is the significance of the 'single eye' (Greek: haplous) in this passage?",
+          "type": "multiple-choice",
+          "options": [
+            "It symbolizes a focused, pure, and undivided spiritual vision",
+            "It refers to a physical eye condition",
+            "It means having both eyes open",
+            "It indicates a double-minded attitude"
+          ],
+          "correctAnswer": "It symbolizes a focused, pure, and undivided spiritual vision",
+          "explanation": "The Greek word 'haplous' translated as 'single' in Luke 11:34 implies simplicity, sincerity, and undivided focus, portraying a spiritually healthy person whose whole body is full of light.",
+          "verseReference": "Luke 11:34",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-hard-q13",
+          "question": "What critique does Jesus make of the Pharisees in Luke 11:39-42 concerning their religious practices and priorities?",
+          "type": "multiple-choice",
+          "options": [
+            "They cleanse outwardly but neglect inner righteousness and justice",
+            "They are too lenient with the law",
+            "They reject all ritual washing",
+            "They avoid giving alms"
+          ],
+          "correctAnswer": "They cleanse outwardly but neglect inner righteousness and justice",
+          "explanation": "In Luke 11:39-42, Jesus criticizes the Pharisees for focusing on external purity rituals while neglecting justice, the love of God, and inward moral integrity, revealing a disconnect between appearance and heart.",
+          "verseReference": "Luke 11:39-42",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-hard-q14",
+          "question": "Luke 11:47-51 recounts Jesus pronouncing woes on the lawyers for their role in killing the prophets. How does this passage connect to the broader biblical theme of prophetic rejection?",
+          "type": "multiple-choice",
+          "options": [
+            "It highlights continuity with Israel's history of rejecting God's messengers",
+            "It introduces a new concept of prophecy",
+            "It praises the lawyers for protecting the prophets",
+            "It denies the prophets' importance"
+          ],
+          "correctAnswer": "It highlights continuity with Israel's history of rejecting God's messengers",
+          "explanation": "This passage links Jesus' critique to the longstanding biblical theme (e.g., in the OT prophets) of Israel's leaders rejecting and killing God's prophets, emphasizing the gravity of their guilt.",
+          "verseReference": "Luke 11:47-51",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-hard-q15",
+          "question": "True or False: According to Luke 11:53-54, the scribes and Pharisees sought to trap Jesus by catching something he said to accuse him.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 11:53-54 describes the scribes and Pharisees laying wait and seeking to catch Jesus in his words in order to accuse him, indicating their antagonism toward his teaching.",
+          "verseReference": "Luke 11:53-54",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "luke-11-quiz",
+      "tags": [
+        "luke",
+        "chapter-11",
+        "luke",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "luke-11-theological",
+      "title": "Luke Chapter 11 Quiz - Theological Level",
+      "description": "Deep biblical theology from Luke Chapter 11 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 11,
+      "questions": [
+        {
+          "id": "luke-11-theological-q1",
+          "question": "In Luke 11:2, Jesus teaches His disciples to pray beginning with 'Our Father which art in heaven.' What theological significance does this title for God convey?",
+          "type": "multiple-choice",
+          "options": [
+            "God as a transcendent, personal Father who is in heaven",
+            "God as an impersonal force of nature",
+            "God as a distant and uninvolved deity",
+            "God only as a judge and lawgiver"
+          ],
+          "correctAnswer": "God as a transcendent, personal Father who is in heaven",
+          "explanation": "Luke 11:2 addresses God as 'Our Father which art in heaven,' emphasizing both His transcendence and personal relationship with believers. This aligns with passages like Matthew 6:9, Romans 8:15, and 2 Corinthians 6:18, which affirm God's fatherhood and nearness, and Psalm 123:1, which recognizes His heavenly sovereignty.",
+          "verseReference": "Luke 11:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-theological-q2",
+          "question": "According to Luke 11:4, what condition is linked with receiving forgiveness from God?",
+          "type": "multiple-choice",
+          "options": [
+            "Forgiving others who are indebted to us",
+            "Attending religious festivals",
+            "Performing good works",
+            "Fasting regularly"
+          ],
+          "correctAnswer": "Forgiving others who are indebted to us",
+          "explanation": "Luke 11:4 teaches that we must forgive others to receive God's forgiveness, highlighting the reciprocal nature of forgiveness consistent with Matthew 6:14-15, Mark 11:25, Ephesians 4:32, and Colossians 3:13, all affirming the necessity of forgiving others as integral to Christian life and salvation.",
+          "verseReference": "Luke 11:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-theological-q3",
+          "question": "In the parable of the friend at midnight (Luke 11:5-8), what does Jesus emphasize about persistent prayer?",
+          "type": "multiple-choice",
+          "options": [
+            "Persistence results in receiving what is needed",
+            "God ignores repeated requests",
+            "Prayer should be brief and infrequent",
+            "Only public prayers are effective"
+          ],
+          "correctAnswer": "Persistence results in receiving what is needed",
+          "explanation": "Luke 11:5-8 illustrates that persistent prayer leads to receiving necessary help, reflecting biblical themes found in Luke 18:1-8, Romans 12:12, 1 Thessalonians 5:17, and Hebrews 4:16, which encourage continual, faithful prayer.",
+          "verseReference": "Luke 11:5-8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-theological-q4",
+          "question": "What does Luke 11:9-10 teach about the nature of God's response to human requests?",
+          "type": "multiple-choice",
+          "options": [
+            "Everyone who asks receives; everyone who seeks finds; to everyone who knocks the door will be opened",
+            "God answers only some prayers selectively",
+            "Prayers must be made publicly to be answered",
+            "God's responses are unpredictable and arbitrary"
+          ],
+          "correctAnswer": "Everyone who asks receives; everyone who seeks finds; to everyone who knocks the door will be opened",
+          "explanation": "Luke 11:9-10 affirms God's generosity and readiness to respond to those who earnestly seek Him, consistent with James 1:5, Matthew 7:7-8, Jeremiah 29:13, and John 16:24, which emphasize God's faithfulness to those who ask, seek, and knock.",
+          "verseReference": "Luke 11:9-10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-theological-q5",
+          "question": "In Luke 11:11-13, how does Jesus compare earthly fathers to the heavenly Father in giving good gifts?",
+          "type": "multiple-choice",
+          "options": [
+            "The heavenly Father will give the Holy Spirit to those who ask Him",
+            "Earthly fathers are more generous than God",
+            "God is indifferent to the needs of His children",
+            "God gives only material blessings"
+          ],
+          "correctAnswer": "The heavenly Father will give the Holy Spirit to those who ask Him",
+          "explanation": "Luke 11:13 contrasts human paternal care with God's perfect generosity, assuring believers that God gives the Holy Spirit to those who ask, which is supported by John 14:16-17, Acts 2:38, Romans 8:9, and Galatians 5:22-23, emphasizing the gift of the Spirit as essential for salvation and sanctification.",
+          "verseReference": "Luke 11:11-13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-theological-q6",
+          "question": "What accusation do some people make against Jesus after He casts out a demon in Luke 11:15?",
+          "type": "multiple-choice",
+          "options": [
+            "That He casts out devils through Beelzebub, the chief of the devils",
+            "That He is a false prophet",
+            "That He is performing miracles by His own power",
+            "That He is a member of the Pharisees"
+          ],
+          "correctAnswer": "That He casts out devils through Beelzebub, the chief of the devils",
+          "explanation": "In Luke 11:15, some accuse Jesus of casting out demons by the power of Beelzebub, a charge He refutes in verses 17-20. This addresses early objections to His divine authority, with parallels in Matthew 12:24-28, Mark 3:22-27, and Acts 19:13-16, affirming His power is from God, not Satan.",
+          "verseReference": "Luke 11:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-theological-q7",
+          "question": "In Luke 11:20, by what means does Jesus say He casts out devils, indicating the arrival of God's kingdom?",
+          "type": "multiple-choice",
+          "options": [
+            "By the finger of God",
+            "By Beelzebub",
+            "By human authority",
+            "By his own natural power"
+          ],
+          "correctAnswer": "By the finger of God",
+          "explanation": "Jesus declares in Luke 11:20 that casting out demons by 'the finger of God' signals the kingdom of God has come, underscoring His divine authority and messianic mission, consistent with Exodus 8:19 (God’s power), Matthew 12:28, Luke 4:18-19, and Daniel 7:13-14, which speak of God's kingdom and power manifested through the Messiah.",
+          "verseReference": "Luke 11:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-theological-q8",
+          "question": "What principle does Jesus teach in Luke 11:23 regarding allegiance to Him?",
+          "type": "multiple-choice",
+          "options": [
+            "He who is not with me is against me; and he that gathereth not with me scattereth",
+            "Neutrality is acceptable in spiritual matters",
+            "One can be both for and against Christ simultaneously",
+            "Allegiance to Christ is optional and flexible"
+          ],
+          "correctAnswer": "He who is not with me is against me; and he that gathereth not with me scattereth",
+          "explanation": "Luke 11:23 teaches the absolute nature of loyalty to Christ, rejecting neutrality, which aligns with Matthew 12:30, John 3:18, Revelation 3:16, and Joshua 24:15, emphasizing decisive commitment in Christian discipleship and eschatological accountability.",
+          "verseReference": "Luke 11:23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-theological-q9",
+          "question": "According to Luke 11:24-26, what happens when an unclean spirit leaves a person but finds the 'house' swept and empty?",
+          "type": "multiple-choice",
+          "options": [
+            "It returns with seven other spirits more wicked, making the last state worse than the first",
+            "It never returns",
+            "The person is immediately filled with the Holy Spirit",
+            "The spirit flees to another person"
+          ],
+          "correctAnswer": "It returns with seven other spirits more wicked, making the last state worse than the first",
+          "explanation": "Luke 11:24-26 warns that a person who is cleansed externally but not filled with God's Spirit is vulnerable to worse spiritual bondage, consistent with Matthew 12:43-45, Ephesians 4:27, 1 Peter 5:8, and James 4:7, highlighting the need for inner transformation and spiritual vigilance.",
+          "verseReference": "Luke 11:24-26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-theological-q10",
+          "question": "In Luke 11:28, Jesus declares a blessing upon whom?",
+          "type": "multiple-choice",
+          "options": [
+            "Those who hear the word of God and keep it",
+            "Those who are born of noble lineage",
+            "Those who perform many miracles",
+            "Those who follow the traditions of the elders"
+          ],
+          "correctAnswer": "Those who hear the word of God and keep it",
+          "explanation": "Luke 11:28 emphasizes that true blessedness comes from hearing and obeying God's word, aligning with Deuteronomy 6:4-6, James 1:22, Romans 2:13, and Psalm 1:1-3, which affirm obedience to God's word as the hallmark of godly life.",
+          "verseReference": "Luke 11:28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-theological-q11",
+          "question": "What sign does Jesus say will be given to 'this evil generation' according to Luke 11:29-30?",
+          "type": "multiple-choice",
+          "options": [
+            "The sign of Jonah the prophet",
+            "The sign of Moses",
+            "The sign of Elijah",
+            "The sign of the burning bush"
+          ],
+          "correctAnswer": "The sign of Jonah the prophet",
+          "explanation": "Jesus declares in Luke 11:29-30 that no sign will be given except the sign of Jonah, which symbolizes His death, burial, and resurrection, paralleling Jonah's three days in the fish, supported by Matthew 12:39-41, Jonah 1:17, 1 Corinthians 15:3-4, and Hosea 6:2.",
+          "verseReference": "Luke 11:29-30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-theological-q12",
+          "question": "In Luke 11:31-32, which two groups are said to rise in judgment against Jesus' generation, condemning them?",
+          "type": "multiple-choice",
+          "options": [
+            "The queen of the south and the men of Nineveh",
+            "The Pharisees and Sadducees",
+            "The Romans and Greeks",
+            "The scribes and lawyers"
+          ],
+          "correctAnswer": "The queen of the south and the men of Nineveh",
+          "explanation": "Luke 11:31-32 references the queen of the south (Queen of Sheba) and the Ninevites who repented at Jonah's preaching, condemning Jesus' generation for their unbelief, consistent with 1 Kings 10:1-13, Jonah 3:5-10, Matthew 12:41, and Romans 2:1-3, highlighting the greater revelation in Christ and the accountability it brings.",
+          "verseReference": "Luke 11:31-32",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-theological-q13",
+          "question": "According to Luke 11:33-36, what is the metaphor Jesus uses to describe the eye as the light of the body, and what does it signify?",
+          "type": "multiple-choice",
+          "options": [
+            "A single (healthy) eye fills the body with light, while an evil eye fills it with darkness",
+            "The eye is unimportant to the body’s spiritual health",
+            "Both eyes must be closed to receive spiritual light",
+            "Darkness is preferable to light for spiritual insight"
+          ],
+          "correctAnswer": "A single (healthy) eye fills the body with light, while an evil eye fills it with darkness",
+          "explanation": "Jesus uses the eye as a metaphor in Luke 11:34-36 to teach that the condition of one’s perception affects the whole person spiritually, consistent with Matthew 6:22-23, Psalm 119:105, Proverbs 4:18-19, and Ephesians 1:18, emphasizing spiritual clarity and integrity.",
+          "verseReference": "Luke 11:33-36",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-theological-q14",
+          "question": "In Luke 11:39-41, Jesus criticizes the Pharisees for what spiritual hypocrisy?",
+          "type": "multiple-choice",
+          "options": [
+            "Cleaning the outside of the cup but neglecting the inward part full of wickedness",
+            "Failing to attend synagogue regularly",
+            "Ignoring the Sabbath laws",
+            "Neglecting to tithe mint and rue"
+          ],
+          "correctAnswer": "Cleaning the outside of the cup but neglecting the inward part full of wickedness",
+          "explanation": "Luke 11:39-41 exposes Pharisaic hypocrisy—concern for external rituals but inner moral corruption—echoing Isaiah 29:13, Matthew 23:25-28, Psalm 51:6, and Ezekiel 36:26, which stress inward purity alongside outward obedience.",
+          "verseReference": "Luke 11:39-41",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-11-theological-q15",
+          "question": "What are the 'woes' pronounced against the Pharisees and lawyers in Luke 11:42-52 primarily about?",
+          "type": "multiple-choice",
+          "options": [
+            "Their neglect of justice, love of God, and burdening others with legalistic demands without helping",
+            "Their refusal to marry",
+            "Their dietary restrictions",
+            "Their attendance at the temple"
+          ],
+          "correctAnswer": "Their neglect of justice, love of God, and burdening others with legalistic demands without helping",
+          "explanation": "Luke 11:42-52 condemns Pharisees and lawyers for emphasizing minor religious details while ignoring weightier matters like justice and God's love, and for imposing heavy burdens without assistance, consistent with Micah 6:8, Isaiah 1:17, Matthew 23:23-24, and James 2:8-13, underscoring social righteousness and mercy.",
+          "verseReference": "Luke 11:42-52",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "luke-11-quiz",
+      "tags": [
+        "luke",
+        "chapter-11",
+        "luke",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

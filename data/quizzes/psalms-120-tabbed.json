@@ -1,0 +1,981 @@
+{
+  "id": "psalms-120-tabbed",
+  "title": "Psalms Chapter 120 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Psalms chapter 120 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "psalms-120-easy",
+      "title": "Psalms Chapter 120 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Psalms Chapter 120.",
+      "type": "chapter",
+      "book": "Psalms",
+      "chapter": 120,
+      "questions": [
+        {
+          "id": "psalms-120-easy-q1",
+          "question": "Who did the psalmist cry unto in his distress?",
+          "type": "multiple-choice",
+          "options": [
+            "The LORD",
+            "Moses",
+            "David",
+            "Angels"
+          ],
+          "correctAnswer": "The LORD",
+          "explanation": "Psalms 120:1 states that in distress, the psalmist cried unto the LORD.",
+          "verseReference": "Psalms 120:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-120-easy-q2",
+          "question": "From what did the psalmist ask the LORD to deliver his soul?",
+          "type": "multiple-choice",
+          "options": [
+            "Lying lips and deceitful tongue",
+            "Enemies in battle",
+            "Storms and floods",
+            "Poverty and hunger"
+          ],
+          "correctAnswer": "Lying lips and deceitful tongue",
+          "explanation": "Psalms 120:2 specifically mentions deliverance from lying lips and a deceitful tongue.",
+          "verseReference": "Psalms 120:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-120-easy-q3",
+          "question": "What question is asked about the false tongue?",
+          "type": "multiple-choice",
+          "options": [
+            "What shall be given unto thee?",
+            "Who will protect thee?",
+            "Why do you lie?",
+            "When will you be silent?"
+          ],
+          "correctAnswer": "What shall be given unto thee?",
+          "explanation": "Psalms 120:3 asks, 'What shall be given unto thee? or what shall be done unto thee, thou false tongue?'",
+          "verseReference": "Psalms 120:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-120-easy-q4",
+          "question": "What are described as 'sharp arrows of the mighty' in the psalm?",
+          "type": "multiple-choice",
+          "options": [
+            "Coals of juniper",
+            "Flaming swords",
+            "Winds of the desert",
+            "Rivers of fire"
+          ],
+          "correctAnswer": "Coals of juniper",
+          "explanation": "Psalms 120:4 pairs 'sharp arrows of the mighty' with 'coals of juniper'.",
+          "verseReference": "Psalms 120:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-120-easy-q5",
+          "question": "In which places does the psalmist say he sojourns and dwells?",
+          "type": "multiple-choice",
+          "options": [
+            "Mesech and Kedar",
+            "Jerusalem and Zion",
+            "Babylon and Nineveh",
+            "Egypt and Assyria"
+          ],
+          "correctAnswer": "Mesech and Kedar",
+          "explanation": "Psalms 120:5 mentions sojourning in Mesech and dwelling in the tents of Kedar.",
+          "verseReference": "Psalms 120:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-120-easy-q6",
+          "question": "True or False: Psalms 120:6 states that the psalmist's soul has long dwelt with those who love peace.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Psalms 120:6 states the soul has long dwelt with him that hateth peace, not those who love peace.",
+          "verseReference": "Psalms 120:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-120-easy-q7",
+          "question": "What is the psalmist's attitude toward peace according to Psalms 120:7?",
+          "type": "multiple-choice",
+          "options": [
+            "I am for peace",
+            "I am for war",
+            "I am neutral",
+            "I avoid conflict"
+          ],
+          "correctAnswer": "I am for peace",
+          "explanation": "Psalms 120:7 clearly states, 'I am for peace: but when I speak, they are for war.'",
+          "verseReference": "Psalms 120:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-120-easy-q8",
+          "question": "True or False: The psalmist’s prayer was ignored according to Psalms 120:1.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Psalms 120:1 says the psalmist cried unto the LORD and He heard him, so the prayer was not ignored.",
+          "verseReference": "Psalms 120:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-120-easy-q9",
+          "question": "Fill in the blank: 'Deliver my soul, O LORD, from ______ lips, and from a deceitful tongue.'",
+          "type": "fill-blank",
+          "options": [
+            "lying",
+            "honest",
+            "gentle",
+            "kind"
+          ],
+          "correctAnswer": "lying",
+          "explanation": "Psalms 120:2 uses the phrase 'lying lips' to describe what the psalmist asks deliverance from.",
+          "verseReference": "Psalms 120:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-120-easy-q10",
+          "question": "True or False: The psalmist says he dwells in peaceful tents in Psalms 120:5.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Psalms 120:5 says he dwells in the tents of Kedar, associated with hardship, not peace.",
+          "verseReference": "Psalms 120:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-120-easy-q11",
+          "question": "What kind of tongue does the psalmist describe in Psalms 120:3?",
+          "type": "multiple-choice",
+          "options": [
+            "False",
+            "Gentle",
+            "Wise",
+            "Silent"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Psalms 120:3 refers to a 'false tongue'.",
+          "verseReference": "Psalms 120:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-120-easy-q12",
+          "question": "What does the psalmist compare to 'coals of juniper'?",
+          "type": "multiple-choice",
+          "options": [
+            "Sharp arrows of the mighty",
+            "Streams of water",
+            "Winds of the desert",
+            "Fires of the Lord"
+          ],
+          "correctAnswer": "Sharp arrows of the mighty",
+          "explanation": "Psalms 120:4 mentions 'Sharp arrows of the mighty, with coals of juniper' together.",
+          "verseReference": "Psalms 120:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-120-easy-q13",
+          "question": "Who hates peace according to Psalms 120:6?",
+          "type": "multiple-choice",
+          "options": [
+            "The one with whom my soul has long dwelt",
+            "The psalmist himself",
+            "The LORD",
+            "The false tongue"
+          ],
+          "correctAnswer": "The one with whom my soul has long dwelt",
+          "explanation": "Psalms 120:6 says, 'My soul hath long dwelt with him that hateth peace.'",
+          "verseReference": "Psalms 120:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-120-easy-q14",
+          "question": "What is the psalmist’s response when he speaks, according to Psalms 120:7?",
+          "type": "multiple-choice",
+          "options": [
+            "They are for war",
+            "They listen peacefully",
+            "They ignore him",
+            "They agree with peace"
+          ],
+          "correctAnswer": "They are for war",
+          "explanation": "Psalms 120:7 states, 'but when I speak, they are for war.'",
+          "verseReference": "Psalms 120:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-120-easy-q15",
+          "question": "Where does the psalmist say he sojourns in Psalms 120:5?",
+          "type": "multiple-choice",
+          "options": [
+            "Mesech",
+            "Jerusalem",
+            "Egypt",
+            "Babylon"
+          ],
+          "correctAnswer": "Mesech",
+          "explanation": "Psalms 120:5 states, 'that I sojourn in Mesech.'",
+          "verseReference": "Psalms 120:5",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "psalms-120-quiz",
+      "tags": [
+        "psalms",
+        "chapter-120",
+        "psalms",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "psalms-120-medium",
+      "title": "Psalms Chapter 120 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Psalms Chapter 120 to real-life situations.",
+      "type": "chapter",
+      "book": "Psalms",
+      "chapter": 120,
+      "questions": [
+        {
+          "id": "psalms-120-medium-q1",
+          "question": "A fellow believer is going through a trial and asks you for counsel. Based on Psalms 120, what biblical truth would you share about prayer in distress?",
+          "type": "multiple-choice",
+          "options": [
+            "God hears our cries when we are in distress",
+            "We must solve problems on our own without praying",
+            "Only priests can pray in times of trouble",
+            "Prayer is only for good times"
+          ],
+          "correctAnswer": "God hears our cries when we are in distress",
+          "explanation": "Psalms 120:1 says, 'In my distress I cried unto the LORD, and he heard me,' showing God hears and responds to our prayers in difficult times.",
+          "verseReference": "Psalms 120:1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-120-medium-q2",
+          "question": "How does Psalms 120 teach us about dealing with dishonesty in daily life?",
+          "type": "multiple-choice",
+          "options": [
+            "We should ask God to deliver us from lying lips and deceitful tongues",
+            "We should ignore lies and pretend they don't exist",
+            "We should lie back to defend ourselves",
+            "Dishonesty is not a concern for believers"
+          ],
+          "correctAnswer": "We should ask God to deliver us from lying lips and deceitful tongues",
+          "explanation": "Psalms 120:2 expresses a plea for deliverance from dishonesty, encouraging trust in God's protection against deceitful speech.",
+          "verseReference": "Psalms 120:2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-120-medium-q3",
+          "question": "What does Psalms 120:3 imply about the nature of false speech?",
+          "type": "multiple-choice",
+          "options": [
+            "False tongues deserve consequences or judgment",
+            "False speech is harmless and needs no response",
+            "We should always forgive false speech immediately",
+            "False speech is a sign of wisdom"
+          ],
+          "correctAnswer": "False tongues deserve consequences or judgment",
+          "explanation": "The verse asks, 'What shall be given unto thee? or what shall be done unto thee, thou false tongue?' indicating that false speech merits accountability.",
+          "verseReference": "Psalms 120:3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-120-medium-q4",
+          "question": "A believer is struggling with harsh words from others. Based on Psalms 120, what imagery could help them understand God's justice?",
+          "type": "multiple-choice",
+          "options": [
+            "Sharp arrows of the mighty with coals of juniper",
+            "Soft pillows and gentle breezes",
+            "Rivers flowing peacefully",
+            "Golden crowns and thrones"
+          ],
+          "correctAnswer": "Sharp arrows of the mighty with coals of juniper",
+          "explanation": "Psalms 120:4 uses this imagery to illustrate the painful nature of false words but also God's power to bring justice.",
+          "verseReference": "Psalms 120:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-120-medium-q5",
+          "question": "How can Psalms 120:5 encourage believers facing hostile environments?",
+          "type": "multiple-choice",
+          "options": [
+            "It acknowledges sorrow but encourages endurance despite dwelling among enemies",
+            "It advises abandoning faith when surrounded by hostility",
+            "It promises immediate escape from difficulties",
+            "It suggests ignoring the problem altogether"
+          ],
+          "correctAnswer": "It acknowledges sorrow but encourages endurance despite dwelling among enemies",
+          "explanation": "The verse says, 'Woe is me, that I sojourn in Mesech, that I dwell in the tents of Kedar!' acknowledging hardship but implying faithfulness amid trials.",
+          "verseReference": "Psalms 120:5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-120-medium-q6",
+          "question": "What spiritual attitude is reflected in Psalms 120:6 about living among those who hate peace?",
+          "type": "multiple-choice",
+          "options": [
+            "Endurance and recognition of opposition to peace",
+            "Retaliation and hatred",
+            "Ignoring the reality of conflict",
+            "Seeking isolation from all people"
+          ],
+          "correctAnswer": "Endurance and recognition of opposition to peace",
+          "explanation": "The verse notes, 'My soul hath long dwelt with him that hateth peace,' showing awareness and patience amidst conflict.",
+          "verseReference": "Psalms 120:6",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-120-medium-q7",
+          "question": "A believer wants to promote peace but faces opposition. According to Psalms 120:7, what reality should they expect?",
+          "type": "multiple-choice",
+          "options": [
+            "When I speak for peace, others may choose war",
+            "Everyone will immediately agree with peace",
+            "Peace can be achieved without effort",
+            "War is never a response to peace"
+          ],
+          "correctAnswer": "When I speak for peace, others may choose war",
+          "explanation": "Psalms 120:7 states, 'I am for peace: but when I speak, they are for war,' revealing the challenge of promoting peace.",
+          "verseReference": "Psalms 120:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-120-medium-q8",
+          "question": "How does Psalms 120 encourage believers to handle conflict with integrity?",
+          "type": "multiple-choice",
+          "options": [
+            "By praying for deliverance from deceit and speaking truth",
+            "By using deceit to fight deceit",
+            "By avoiding all communication",
+            "By giving up on peace efforts"
+          ],
+          "correctAnswer": "By praying for deliverance from deceit and speaking truth",
+          "explanation": "Verses 2 and 7 show a reliance on God for protection from lies and a commitment to peace and truthfulness.",
+          "verseReference": "Psalms 120:2,7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-120-medium-q9",
+          "question": "How can a believer maintain faith when surrounded by hostile people, according to Psalms 120?",
+          "type": "multiple-choice",
+          "options": [
+            "By trusting God to hear their cries and sustain them",
+            "By conforming to hostile behaviors",
+            "By isolating themselves completely",
+            "By ignoring their faith"
+          ],
+          "correctAnswer": "By trusting God to hear their cries and sustain them",
+          "explanation": "Psalms 120:1 and 120:5-6 express trusting in God's hearing and endurance despite hostile surroundings.",
+          "verseReference": "Psalms 120:1,5,6",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-120-medium-q10",
+          "question": "True or False: Psalms 120 teaches that God ignores the prayers of those in distress.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Psalms 120:1 clearly states, 'In my distress I cried unto the LORD, and he heard me,' showing God hears prayers in distress.",
+          "verseReference": "Psalms 120:1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-120-medium-q11",
+          "question": "True or False: According to Psalms 120, believers should expect peace to be uncontested in their lives.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Psalms 120:7 acknowledges that even when one speaks for peace, others may choose war, indicating conflict is common.",
+          "verseReference": "Psalms 120:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-120-medium-q12",
+          "question": "Fill in the blank: \"Deliver my soul, O LORD, from ______ lips, and from a deceitful tongue.\"",
+          "type": "fill-blank",
+          "options": [
+            "lying",
+            "kind",
+            "truthful",
+            "silent"
+          ],
+          "correctAnswer": "lying",
+          "explanation": "Psalms 120:2 requests deliverance specifically from 'lying lips' and deceitful speech, emphasizing the danger of dishonesty.",
+          "verseReference": "Psalms 120:2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-120-medium-q13",
+          "question": "What does Psalms 120 teach about reliance on God when facing verbal attacks?",
+          "type": "multiple-choice",
+          "options": [
+            "Pray for God's deliverance and trust His justice",
+            "Respond with equal harshness",
+            "Avoid all communication permanently",
+            "Pretend the attacks do not happen"
+          ],
+          "correctAnswer": "Pray for God's deliverance and trust His justice",
+          "explanation": "The psalmist prays for deliverance from false speech (verses 2-4), showing reliance on God rather than retaliation.",
+          "verseReference": "Psalms 120:2-4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-120-medium-q14",
+          "question": "How does Psalms 120 encourage believers to pursue peace in difficult relationships?",
+          "type": "multiple-choice",
+          "options": [
+            "Remain committed to peace even if others choose conflict",
+            "Give up on peace efforts",
+            "Engage in conflict aggressively",
+            "Avoid all relationships"
+          ],
+          "correctAnswer": "Remain committed to peace even if others choose conflict",
+          "explanation": "Verse 7 expresses the psalmist's commitment to peace despite others choosing war, encouraging perseverance.",
+          "verseReference": "Psalms 120:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-120-medium-q15",
+          "question": "What practical lesson about honesty can believers learn from Psalms 120:3?",
+          "type": "multiple-choice",
+          "options": [
+            "False speech deserves accountability and correction",
+            "Falsehoods are acceptable in some situations",
+            "Truth is less important than peace",
+            "Lying is not a serious issue"
+          ],
+          "correctAnswer": "False speech deserves accountability and correction",
+          "explanation": "The verse questions what should be done to a false tongue, implying that dishonesty must be addressed responsibly.",
+          "verseReference": "Psalms 120:3",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "psalms-120-quiz",
+      "tags": [
+        "psalms",
+        "chapter-120",
+        "psalms",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "psalms-120-hard",
+      "title": "Psalms Chapter 120 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Psalms Chapter 120.",
+      "type": "chapter",
+      "book": "Psalms",
+      "chapter": 120,
+      "questions": [
+        {
+          "id": "psalms-120-hard-q1",
+          "question": "In Psalms 120:1, the psalmist cries unto the LORD in what situation?",
+          "type": "multiple-choice",
+          "options": [
+            "In distress",
+            "In joy",
+            "In worship",
+            "In thanksgiving"
+          ],
+          "correctAnswer": "In distress",
+          "explanation": "The verse explicitly states, 'In my distress I cried unto the LORD,' indicating the psalmist's troubled state.",
+          "verseReference": "Psalms 120:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-hard-q2",
+          "question": "What is the psalmist asking deliverance from in Psalms 120:2?",
+          "type": "multiple-choice",
+          "options": [
+            "Lying lips and deceitful tongue",
+            "Enemies and war",
+            "Poverty and famine",
+            "Darkness and fear"
+          ],
+          "correctAnswer": "Lying lips and deceitful tongue",
+          "explanation": "The psalmist requests deliverance from 'lying lips' and 'a deceitful tongue' as stated in Psalms 120:2.",
+          "verseReference": "Psalms 120:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-hard-q3",
+          "question": "The question 'What shall be given unto thee?' directed at the false tongue in Psalms 120:3 is an example of which literary device?",
+          "type": "multiple-choice",
+          "options": [
+            "Rhetorical question",
+            "Metaphor",
+            "Simile",
+            "Alliteration"
+          ],
+          "correctAnswer": "Rhetorical question",
+          "explanation": "Psalms 120:3 uses a rhetorical question to emphasize the consequences deserved by the deceitful tongue.",
+          "verseReference": "Psalms 120:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-hard-q4",
+          "question": "In Psalms 120:4, what imagery is used to describe the consequences for the false tongue?",
+          "type": "multiple-choice",
+          "options": [
+            "Sharp arrows of the mighty, with coals of juniper",
+            "Fire and brimstone",
+            "Floodwaters and storms",
+            "Lion's roar and serpent's bite"
+          ],
+          "correctAnswer": "Sharp arrows of the mighty, with coals of juniper",
+          "explanation": "This vivid metaphor in Psalms 120:4 symbolizes painful and piercing judgment upon deceitfulness.",
+          "verseReference": "Psalms 120:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-hard-q5",
+          "question": "The reference to 'Mesech' and 'Kedar' in Psalms 120:5 primarily indicates what about the psalmist's situation?",
+          "type": "multiple-choice",
+          "options": [
+            "Living among hostile or foreign peoples",
+            "Dwelling in a place of worship",
+            "Residing in a peaceful city",
+            "Traveling through a desert oasis"
+          ],
+          "correctAnswer": "Living among hostile or foreign peoples",
+          "explanation": "Mesech and Kedar were known ancient Near Eastern tribes often associated with hostility or exile, reflecting the psalmist's distress in Psalms 120:5.",
+          "verseReference": "Psalms 120:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-hard-q6",
+          "question": "Fill in the blank: In Psalms 120:6, the psalmist's soul has long dwelt with him that ______ peace.",
+          "type": "multiple-choice",
+          "options": [
+            "hateth",
+            "loves",
+            "seeks",
+            "ignores"
+          ],
+          "correctAnswer": "hateth",
+          "explanation": "The verse explicitly uses the term 'hateth peace,' highlighting the psalmist's prolonged exposure to those opposed to peace.",
+          "verseReference": "Psalms 120:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-hard-q7",
+          "question": "What is the contrast presented in Psalms 120:7 between the psalmist and others?",
+          "type": "multiple-choice",
+          "options": [
+            "Psalmist desires peace; others desire war",
+            "Psalmist seeks wealth; others seek poverty",
+            "Psalmist loves God; others reject God",
+            "Psalmist is strong; others are weak"
+          ],
+          "correctAnswer": "Psalmist desires peace; others desire war",
+          "explanation": "Psalms 120:7 contrasts the psalmist's stance for peace with the opposition's inclination toward war.",
+          "verseReference": "Psalms 120:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-hard-q8",
+          "question": "The phrase 'a Song of degrees' in Psalms 120:1 likely refers to what literary or liturgical feature?",
+          "type": "multiple-choice",
+          "options": [
+            "A pilgrimage song sung on ascending steps",
+            "A lament sung at funerals",
+            "A victory hymn after battle",
+            "A creation psalm about the heavens"
+          ],
+          "correctAnswer": "A pilgrimage song sung on ascending steps",
+          "explanation": "The 'Song of degrees' is traditionally understood as a song sung by pilgrims ascending to Jerusalem, possibly on the temple steps.",
+          "verseReference": "Psalms 120:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-hard-q9",
+          "question": "How does the theme of deceitful tongues in Psalms 120 relate to New Testament teachings?",
+          "type": "multiple-choice",
+          "options": [
+            "It parallels James 3:6 where the tongue is described as a fire",
+            "It contradicts the New Testament's emphasis on truth",
+            "It is not mentioned elsewhere in Scripture",
+            "It supports the use of deceit for protection"
+          ],
+          "correctAnswer": "It parallels James 3:6 where the tongue is described as a fire",
+          "explanation": "James 3:6 describes the tongue as a fire, capable of great harm, which aligns with the warnings against deceitful speech in Psalms 120:2-4.",
+          "verseReference": "Psalms 120:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-hard-q10",
+          "question": "True or False: Psalms 120 expresses a hope for peace despite dwelling among those who hate peace.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Psalms 120:6-7 show the psalmist’s desire for peace, even though surrounded by those who hate it.",
+          "verseReference": "Psalms 120:6-7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-hard-q11",
+          "question": "Which ancient cultural context best explains the reference to 'coals of juniper' in Psalms 120:4?",
+          "type": "multiple-choice",
+          "options": [
+            "Juniper wood was used in the Near East for burning coals in purification rituals",
+            "Juniper was a symbol of fertility in Egyptian culture",
+            "Juniper was a sacred tree in Babylonian worship",
+            "Juniper coals were a metaphor for royal power in Assyria"
+          ],
+          "correctAnswer": "Juniper wood was used in the Near East for burning coals in purification rituals",
+          "explanation": "In the ancient Near East, juniper coals were often used for burning and purification, symbolizing painful judgment here in Psalms 120:4.",
+          "verseReference": "Psalms 120:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-hard-q12",
+          "question": "How does the psalmist’s plea in Psalms 120:1-2 foreshadow New Testament themes about prayer and deliverance?",
+          "type": "multiple-choice",
+          "options": [
+            "It anticipates Christ’s role as deliverer from sin and falsehood",
+            "It contradicts New Testament teachings on suffering",
+            "It emphasizes self-reliance over divine help",
+            "It denies the possibility of deliverance"
+          ],
+          "correctAnswer": "It anticipates Christ’s role as deliverer from sin and falsehood",
+          "explanation": "The plea for deliverance from falsehood in Psalms 120 anticipates the New Testament understanding of Christ as the ultimate deliverer.",
+          "verseReference": "Psalms 120:1-2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-hard-q13",
+          "question": "In the context of Psalms 120, how does the term 'false tongue' contribute to the overall message of the psalm?",
+          "type": "multiple-choice",
+          "options": [
+            "It symbolizes the destructive power of deceit and conflict",
+            "It refers to foreign languages spoken by enemies",
+            "It is a metaphor for physical weapons",
+            "It praises eloquent speech"
+          ],
+          "correctAnswer": "It symbolizes the destructive power of deceit and conflict",
+          "explanation": "The 'false tongue' in Psalms 120 is a symbol of lies and slander that cause strife and distress.",
+          "verseReference": "Psalms 120:2-3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-hard-q14",
+          "question": "What is the significance of the psalmist dwelling 'in the tents of Kedar' as mentioned in Psalms 120:5?",
+          "type": "multiple-choice",
+          "options": [
+            "It indicates living among nomadic tribes perceived as hostile",
+            "It suggests a joyful celebration among family",
+            "It implies residing in a temple sanctuary",
+            "It refers to a place of divine protection"
+          ],
+          "correctAnswer": "It indicates living among nomadic tribes perceived as hostile",
+          "explanation": "Kedar was associated with nomadic tribes often hostile to Israel, reflecting the psalmist's sense of alienation in Psalms 120:5.",
+          "verseReference": "Psalms 120:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-hard-q15",
+          "question": "True or False: Psalms 120 is primarily a hymn of praise celebrating peace and unity.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Psalms 120 is a lament expressing distress over deceit and conflict, with a desire for peace, not a celebration of peace itself.",
+          "verseReference": "Psalms 120:1-7",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "psalms-120-quiz",
+      "tags": [
+        "psalms",
+        "chapter-120",
+        "psalms",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "psalms-120-theological",
+      "title": "Psalms Chapter 120 Quiz - Theological Level",
+      "description": "Deep biblical theology from Psalms Chapter 120 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Psalms",
+      "chapter": 120,
+      "questions": [
+        {
+          "id": "psalms-120-theological-q1",
+          "question": "In Psalms 120:1, when the psalmist cries unto the LORD in distress, what is the divine response?",
+          "type": "multiple-choice",
+          "options": [
+            "He hears the cry",
+            "He ignores the plea",
+            "He sends angels immediately",
+            "He delays his answer"
+          ],
+          "correctAnswer": "He hears the cry",
+          "explanation": "Psalms 120:1 states that in distress the psalmist cried unto the LORD, and He heard him. This reflects God's attribute of being attentive to the prayers of His people, consistent with Psalm 34:17, Jeremiah 33:3, 1 Peter 3:12, and Hebrews 4:16 where God listens and responds to the cries of the faithful.",
+          "verseReference": "Psalms 120:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-theological-q2",
+          "question": "According to Psalms 120:2, from what two evils does the psalmist ask the LORD to deliver his soul?",
+          "type": "multiple-choice",
+          "options": [
+            "Lying lips and a deceitful tongue",
+            "Enemies and famine",
+            "Pestilence and war",
+            "Pride and envy"
+          ],
+          "correctAnswer": "Lying lips and a deceitful tongue",
+          "explanation": "In Psalms 120:2, the psalmist specifically requests deliverance from 'lying lips' and 'a deceitful tongue,' highlighting the human problem of falsehood and deceit. This aligns with Proverbs 6:16-19, Psalm 52:2, Revelation 21:8, and Ephesians 4:25 which condemn falsehood as sinful behavior opposed to God's truth.",
+          "verseReference": "Psalms 120:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-theological-q3",
+          "question": "What rhetorical question is posed in Psalms 120:3 regarding the false tongue?",
+          "type": "multiple-choice",
+          "options": [
+            "What shall be given unto thee? or what shall be done unto thee?",
+            "Why do you speak lies?",
+            "Who taught you to deceive?",
+            "When will you be silenced?"
+          ],
+          "correctAnswer": "What shall be given unto thee? or what shall be done unto thee?",
+          "explanation": "Psalms 120:3 asks, 'What shall be given unto thee? or what shall be done unto thee, thou false tongue?' This interrogative challenges the consequences of deceitful speech, emphasizing divine justice. Similar themes appear in Psalm 64:3-4, Proverbs 12:19, James 3:6, and Matthew 12:36 where God holds the tongue accountable.",
+          "verseReference": "Psalms 120:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-theological-q4",
+          "question": "Psalms 120:4 uses imagery to describe the harm caused by lies. What two images are used?",
+          "type": "multiple-choice",
+          "options": [
+            "Sharp arrows of the mighty and coals of juniper",
+            "Fire and brimstone",
+            "A roaring lion and a serpent",
+            "Thorns and thistles"
+          ],
+          "correctAnswer": "Sharp arrows of the mighty and coals of juniper",
+          "explanation": "Verse 4 employs vivid imagery—'sharp arrows of the mighty, with coals of juniper'—to depict the destructive power of deceitful speech. This metaphor resonates with Psalm 64:3-4, Ephesians 6:16, Hebrews 4:12, and Isaiah 49:2, illustrating the penetrating and burning effect of sinful words.",
+          "verseReference": "Psalms 120:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-theological-q5",
+          "question": "In Psalms 120:5, the psalmist expresses lament about sojourning in Mesech and dwelling in the tents of Kedar. What does this symbolize?",
+          "type": "multiple-choice",
+          "options": [
+            "Living among hostile or ungodly peoples",
+            "Enjoying peaceful rest",
+            "Being in the promised land",
+            "Celebrating victory"
+          ],
+          "correctAnswer": "Living among hostile or ungodly peoples",
+          "explanation": "The mention of Mesech and Kedar, known biblical regions associated with foreign and often hostile peoples (Genesis 10:2, Psalm 83:6, Isaiah 21:13-17, Jeremiah 2:10), symbolizes the psalmist’s distress at living among those opposed to God's ways, reflecting the experience of exile and alienation.",
+          "verseReference": "Psalms 120:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-theological-q6",
+          "question": "According to Psalms 120:6, with whom has the psalmist’s soul long dwelt?",
+          "type": "multiple-choice",
+          "options": [
+            "Him that hateth peace",
+            "The faithful and righteous",
+            "The meek and lowly",
+            "The joyful and thankful"
+          ],
+          "correctAnswer": "Him that hateth peace",
+          "explanation": "Psalms 120:6 states, 'My soul hath long dwelt with him that hateth peace,' indicating an ongoing association with those opposed to peace, symbolizing conflict and hostility. This contrasts with God's peace (shalom) as seen in Isaiah 57:21, Romans 12:18, James 3:18, and John 14:27 where God's peace is a gift to His people.",
+          "verseReference": "Psalms 120:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-theological-q7",
+          "question": "What is the psalmist’s stance on peace as expressed in Psalms 120:7?",
+          "type": "multiple-choice",
+          "options": [
+            "I am for peace; but when I speak, they are for war",
+            "I reject peace and embrace conflict",
+            "I am indifferent to peace or war",
+            "I provoke war to achieve peace"
+          ],
+          "correctAnswer": "I am for peace; but when I speak, they are for war",
+          "explanation": "The psalmist declares in verse 7 a commitment to peace despite opposition: 'I am for peace; but when I speak, they are for war,' highlighting the tension between the believer’s desire for reconciliation and the hostility of others. This reflects Christ’s teaching in Matthew 5:9, Romans 12:18, Hebrews 12:14, and James 3:18.",
+          "verseReference": "Psalms 120:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-theological-q8",
+          "question": "The psalmist’s cry in distress in Psalms 120:1 exemplifies which theological doctrine concerning God’s nature?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s attribute of omniscience and responsiveness",
+            "God’s hiddenness and silence",
+            "God’s wrathful judgment alone",
+            "God’s impartiality towards sinners"
+          ],
+          "correctAnswer": "God’s attribute of omniscience and responsiveness",
+          "explanation": "The psalmist cries in distress and the LORD hears, illustrating God's omniscience and attentiveness to human suffering (Psalm 34:17; Jeremiah 33:3; Hebrews 4:16; 1 John 5:14). This affirms the doctrine that God is both all-knowing and responsive to prayer.",
+          "verseReference": "Psalms 120:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-theological-q9",
+          "question": "How does the psalmist’s request in Psalms 120:2 reflect the Christian understanding of sin and salvation?",
+          "type": "multiple-choice",
+          "options": [
+            "A plea for deliverance from the deceitfulness of sin",
+            "An acceptance of sin as unavoidable",
+            "A request for worldly wealth",
+            "A prayer for vengeance"
+          ],
+          "correctAnswer": "A plea for deliverance from the deceitfulness of sin",
+          "explanation": "The psalmist asks God to 'deliver my soul from lying lips and a deceitful tongue,' recognizing sin’s corrupting power and seeking salvation from it. This aligns with Romans 6:12-14, 1 John 1:9, Psalm 51:10, and Ephesians 2:8-9 emphasizing deliverance from sin through God’s grace.",
+          "verseReference": "Psalms 120:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-theological-q10",
+          "question": "What eschatological truth is implied by the psalmist’s question in Psalms 120:3 about the fate of the false tongue?",
+          "type": "multiple-choice",
+          "options": [
+            "God will bring righteous judgment upon the deceitful",
+            "False tongues will be rewarded",
+            "Deceit will remain unpunished",
+            "Judgment is uncertain"
+          ],
+          "correctAnswer": "God will bring righteous judgment upon the deceitful",
+          "explanation": "The rhetorical question about what shall be done to the false tongue implies future divine judgment, consistent with eschatological themes in Psalm 37:28, Revelation 20:12-15, Romans 2:5-6, and Matthew 12:36 where God judges all speech and deeds.",
+          "verseReference": "Psalms 120:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-theological-q11",
+          "question": "The metaphor of 'sharp arrows' and 'coals of juniper' in Psalms 120:4 primarily conveys what about the nature of sin?",
+          "type": "multiple-choice",
+          "options": [
+            "Sin’s painful and penetrating effects",
+            "Sin as harmless and fleeting",
+            "Sin as a source of joy",
+            "Sin as easily ignored"
+          ],
+          "correctAnswer": "Sin’s painful and penetrating effects",
+          "explanation": "The imagery of sharp arrows and burning coals depicts the destructive and painful consequences of sin, especially deceitful speech. This imagery aligns with Hebrews 4:12, Ephesians 6:16, Isaiah 49:2, and Psalm 64:3-4 demonstrating sin’s harmful impact.",
+          "verseReference": "Psalms 120:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-theological-q12",
+          "question": "The lament in Psalms 120:5 about dwelling in Mesech and Kedar symbolizes which human condition in biblical theology?",
+          "type": "multiple-choice",
+          "options": [
+            "Exile and alienation from God’s people",
+            "Blessing and prosperity",
+            "Joyful worship",
+            "Perfect fellowship"
+          ],
+          "correctAnswer": "Exile and alienation from God’s people",
+          "explanation": "Mesech and Kedar represent foreign lands where God’s people experience exile and alienation (Genesis 10:2; Psalm 83:6; Jeremiah 2:10; Isaiah 21:13-17). This reflects the theological theme of the consequences of sin and separation from God’s covenant community.",
+          "verseReference": "Psalms 120:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-theological-q13",
+          "question": "In Psalms 120:6, what theological truth about human opposition to God’s peace is revealed?",
+          "type": "multiple-choice",
+          "options": [
+            "There are those who actively hate peace, opposing God’s kingdom",
+            "All people naturally love peace",
+            "Peace is irrelevant in human affairs",
+            "War is always justified"
+          ],
+          "correctAnswer": "There are those who actively hate peace, opposing God’s kingdom",
+          "explanation": "The psalmist’s soul dwells with 'him that hateth peace,' indicating the reality of human opposition to God’s peace (shalom). This is consistent with Isaiah 57:21, Romans 12:18, James 3:17-18, and John 14:27 which contrast God’s peace with worldly conflict.",
+          "verseReference": "Psalms 120:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-theological-q14",
+          "question": "How does the psalmist’s declaration in Psalms 120:7 reflect the Christian understanding of spiritual conflict?",
+          "type": "multiple-choice",
+          "options": [
+            "Believers seek peace but face opposition and spiritual warfare",
+            "Believers are always victorious without conflict",
+            "Conflict is to be avoided at all costs",
+            "Peace is achieved through violence"
+          ],
+          "correctAnswer": "Believers seek peace but face opposition and spiritual warfare",
+          "explanation": "The psalmist states, 'I am for peace: but when I speak, they are for war,' illustrating the believer’s experience of pursuing peace amid hostility, which aligns with Ephesians 6:12, 2 Corinthians 10:3-5, James 4:1, and Matthew 5:9 on spiritual warfare and the pursuit of peace.",
+          "verseReference": "Psalms 120:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-120-theological-q15",
+          "question": "The entire psalm emphasizes deliverance from deceitful speech. Which core Christian doctrine does this highlight?",
+          "type": "multiple-choice",
+          "options": [
+            "The sanctification and renewal of the believer’s heart and speech",
+            "Predestination and election",
+            "The infallibility of scripture",
+            "The doctrine of the Trinity"
+          ],
+          "correctAnswer": "The sanctification and renewal of the believer’s heart and speech",
+          "explanation": "The psalmist’s plea for deliverance from lying lips and deceitful tongue underscores the need for inner sanctification and transformation (Ephesians 4:29, Colossians 3:8-10, Psalm 51:10, James 3:2-10), reflecting core Christian teaching on holiness and renewal.",
+          "verseReference": "Psalms 120:2",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "psalms-120-quiz",
+      "tags": [
+        "psalms",
+        "chapter-120",
+        "psalms",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

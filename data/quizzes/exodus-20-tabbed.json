@@ -1,0 +1,998 @@
+{
+  "id": "exodus-20-tabbed",
+  "title": "Exodus Chapter 20 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Exodus chapter 20 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "exodus-20-easy",
+      "title": "Exodus Chapter 20 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Exodus Chapter 20.",
+      "type": "chapter",
+      "book": "Exodus",
+      "chapter": 20,
+      "questions": [
+        {
+          "id": "exodus-20-easy-q1",
+          "question": "According to Exodus 20:3, what are you not to have before God?",
+          "type": "multiple-choice",
+          "options": [
+            "Other gods",
+            "Idols",
+            "False prophets",
+            "Strangers"
+          ],
+          "correctAnswer": "Other gods",
+          "explanation": "Exodus 20:3 states, 'Thou shalt have no other gods before me.'",
+          "verseReference": "Exodus 20:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-20-easy-q2",
+          "question": "What did God say about making graven images in Exodus 20:4?",
+          "type": "multiple-choice",
+          "options": [
+            "Thou shalt not make any graven image or likeness of anything",
+            "Thou shalt make graven images for worship",
+            "Graven images are allowed if made of gold",
+            "Make images only of animals"
+          ],
+          "correctAnswer": "Thou shalt not make any graven image or likeness of anything",
+          "explanation": "Exodus 20:4 forbids making any graven image or likeness of anything in heaven, earth, or water.",
+          "verseReference": "Exodus 20:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-20-easy-q3",
+          "question": "How many days shall you labor according to Exodus 20:9?",
+          "type": "multiple-choice",
+          "options": [
+            "Six days",
+            "Seven days",
+            "Five days",
+            "Four days"
+          ],
+          "correctAnswer": "Six days",
+          "explanation": "Exodus 20:9 states, 'Six days shalt thou labour, and do all thy work.'",
+          "verseReference": "Exodus 20:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-20-easy-q4",
+          "question": "Who, besides you, is commanded not to work on the Sabbath according to Exodus 20:10?",
+          "type": "multiple-choice",
+          "options": [
+            "Thy son, thy daughter, thy manservant, thy maidservant, thy cattle, and thy stranger",
+            "Only thy son and daughter",
+            "Only thy manservant and maidservant",
+            "Thy friends and neighbors"
+          ],
+          "correctAnswer": "Thy son, thy daughter, thy manservant, thy maidservant, thy cattle, and thy stranger",
+          "explanation": "Exodus 20:10 lists all these who must not work on the Sabbath.",
+          "verseReference": "Exodus 20:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-20-easy-q5",
+          "question": "What reason does Exodus 20:11 give for the Sabbath day?",
+          "type": "multiple-choice",
+          "options": [
+            "Because God made heaven and earth in six days and rested the seventh",
+            "Because it is the first day of the week",
+            "Because it is a day for sacrificing animals",
+            "Because it is a day to gather crops"
+          ],
+          "correctAnswer": "Because God made heaven and earth in six days and rested the seventh",
+          "explanation": "Exodus 20:11 explains the Sabbath is blessed because God rested on the seventh day after creation.",
+          "verseReference": "Exodus 20:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-20-easy-q6",
+          "question": "What command is given in Exodus 20:12?",
+          "type": "multiple-choice",
+          "options": [
+            "Honour thy father and thy mother",
+            "Love thy neighbor as thyself",
+            "Keep the feast of Passover",
+            "Remember the day of atonement"
+          ],
+          "correctAnswer": "Honour thy father and thy mother",
+          "explanation": "Exodus 20:12 commands to honour father and mother for a long life.",
+          "verseReference": "Exodus 20:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-20-easy-q7",
+          "question": "Which commandment is given in Exodus 20:13?",
+          "type": "multiple-choice",
+          "options": [
+            "Thou shalt not kill",
+            "Thou shalt not steal",
+            "Thou shalt not commit adultery",
+            "Thou shalt not bear false witness"
+          ],
+          "correctAnswer": "Thou shalt not kill",
+          "explanation": "Exodus 20:13 simply states, 'Thou shalt not kill.'",
+          "verseReference": "Exodus 20:13",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-20-easy-q8",
+          "question": "What must you not take in vain according to Exodus 20:7?",
+          "type": "multiple-choice",
+          "options": [
+            "The name of the LORD thy God",
+            "The Sabbath day",
+            "The bread of the poor",
+            "The goods of thy neighbor"
+          ],
+          "correctAnswer": "The name of the LORD thy God",
+          "explanation": "Exodus 20:7 forbids taking the LORD's name in vain.",
+          "verseReference": "Exodus 20:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-20-easy-q9",
+          "question": "What did the people see that made them stand afar off according to Exodus 20:18?",
+          "type": "multiple-choice",
+          "options": [
+            "Thunder, lightning, trumpet noise, and mountain smoking",
+            "The burning bush",
+            "The Red Sea parting",
+            "Moses with the tablets"
+          ],
+          "correctAnswer": "Thunder, lightning, trumpet noise, and mountain smoking",
+          "explanation": "Exodus 20:18 describes the people's fear at seeing thunder, lightning, trumpet, and smoke.",
+          "verseReference": "Exodus 20:18",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-20-easy-q10",
+          "question": "True or False: Exodus 20:19 shows the people wanted God to speak directly to them.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Exodus 20:19 states the people asked Moses to speak to them instead of God directly because they feared they would die.",
+          "verseReference": "Exodus 20:19",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-20-easy-q11",
+          "question": "True or False: Moses approached the thick darkness where God was according to Exodus 20:21.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Exodus 20:21 says Moses drew near to the thick darkness where God was.",
+          "verseReference": "Exodus 20:21",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-20-easy-q12",
+          "question": "True or False: Exodus 20:23 permits making gods of silver and gold.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Exodus 20:23 explicitly forbids making gods of silver or gold.",
+          "verseReference": "Exodus 20:23",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-20-easy-q13",
+          "question": "Complete this verse from Exodus 20:8: 'Remember the ______ day, to keep it holy.'",
+          "type": "fill-blank",
+          "options": [
+            "Sabbath",
+            "First",
+            "Seventh",
+            "Holy"
+          ],
+          "correctAnswer": "Sabbath",
+          "explanation": "Exodus 20:8 commands, 'Remember the sabbath day, to keep it holy.'",
+          "verseReference": "Exodus 20:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-20-easy-q14",
+          "question": "What type of altar does Exodus 20:24 instruct to make?",
+          "type": "multiple-choice",
+          "options": [
+            "An altar of earth",
+            "An altar of gold",
+            "An altar of silver",
+            "An altar of hewn stone"
+          ],
+          "correctAnswer": "An altar of earth",
+          "explanation": "Exodus 20:24 instructs making an altar of earth for burnt and peace offerings.",
+          "verseReference": "Exodus 20:24",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-20-easy-q15",
+          "question": "According to Exodus 20:26, why must you not go up by steps to the altar?",
+          "type": "multiple-choice",
+          "options": [
+            "So that thy nakedness be not discovered",
+            "Because it is forbidden to climb",
+            "To avoid making noise",
+            "Because the altar is too high"
+          ],
+          "correctAnswer": "So that thy nakedness be not discovered",
+          "explanation": "Exodus 20:26 forbids going up steps to the altar to prevent exposing nakedness.",
+          "verseReference": "Exodus 20:26",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "exodus-20-quiz",
+      "tags": [
+        "exodus",
+        "chapter-20",
+        "exodus",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "exodus-20-medium",
+      "title": "Exodus Chapter 20 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Exodus Chapter 20 to real-life situations.",
+      "type": "chapter",
+      "book": "Exodus",
+      "chapter": 20,
+      "questions": [
+        {
+          "id": "exodus-20-medium-q1",
+          "question": "A fellow believer is struggling with prioritizing God in their life. Based on Exodus 20, what biblical truth would you share about faith and trust in God?",
+          "type": "multiple-choice",
+          "options": [
+            "Thou shalt have no other gods before me.",
+            "Thou shalt not steal.",
+            "Remember the sabbath day, to keep it holy.",
+            "Honour thy father and thy mother."
+          ],
+          "correctAnswer": "Thou shalt have no other gods before me.",
+          "explanation": "Exodus 20:3 commands us to have no other gods before the LORD, emphasizing total trust and faithfulness to God alone. This is foundational for Christian obedience and trust in God (Exodus 20:2, 20:5).",
+          "verseReference": "Exodus 20:3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-20-medium-q2",
+          "question": "How does Exodus 20 teach us about obedience and avoiding idolatry in daily life?",
+          "type": "multiple-choice",
+          "options": [
+            "Thou shalt not make unto thee any graven image.",
+            "Thou shalt not kill.",
+            "Thou shalt not bear false witness.",
+            "Thou shalt not covet thy neighbour's house."
+          ],
+          "correctAnswer": "Thou shalt not make unto thee any graven image.",
+          "explanation": "Exodus 20:4 warns against making graven images or likenesses for worship, teaching us to avoid idolatry and fully obey God's commands (Exodus 20:5, 20:23).",
+          "verseReference": "Exodus 20:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-20-medium-q3",
+          "question": "A believer is wondering about the importance of honoring parents. What practical advice does Exodus 20 give regarding family life?",
+          "type": "multiple-choice",
+          "options": [
+            "Honour thy father and thy mother.",
+            "Thou shalt not commit adultery.",
+            "Thou shalt not steal.",
+            "Remember the sabbath day, to keep it holy."
+          ],
+          "correctAnswer": "Honour thy father and thy mother.",
+          "explanation": "Exodus 20:12 commands honoring parents, promising long life on the land God gives. This highlights the importance of family respect and obedience as part of godly living (Exodus 20:13, 20:14).",
+          "verseReference": "Exodus 20:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-20-medium-q4",
+          "question": "How does this passage instruct us to maintain integrity and honesty in our relationships?",
+          "type": "multiple-choice",
+          "options": [
+            "Thou shalt not bear false witness against thy neighbour.",
+            "Thou shalt not kill.",
+            "Thou shalt not covet thy neighbour's wife.",
+            "Thou shalt not take the name of the LORD thy God in vain."
+          ],
+          "correctAnswer": "Thou shalt not bear false witness against thy neighbour.",
+          "explanation": "Exodus 20:16 forbids bearing false witness, promoting honesty and integrity in interpersonal relationships (Exodus 20:15, 20:13).",
+          "verseReference": "Exodus 20:16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-20-medium-q5",
+          "question": "A believer is facing temptation to dishonesty at work. How does Exodus 20 guide their work ethic?",
+          "type": "multiple-choice",
+          "options": [
+            "Thou shalt not steal.",
+            "Remember the sabbath day, to keep it holy.",
+            "Thou shalt not commit adultery.",
+            "Thou shalt not covet thy neighbour's ox."
+          ],
+          "correctAnswer": "Thou shalt not steal.",
+          "explanation": "Exodus 20:15 teaches not to steal, promoting honest work and integrity. This is practical for stewardship and ethical behavior in daily labor (Exodus 20:9-10).",
+          "verseReference": "Exodus 20:15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-20-medium-q6",
+          "question": "What does Exodus 20 say about rest and spiritual discipline?",
+          "type": "multiple-choice",
+          "options": [
+            "Remember the sabbath day, to keep it holy.",
+            "Thou shalt not kill.",
+            "Thou shalt not bear false witness.",
+            "Thou shalt not covet thy neighbour's wife."
+          ],
+          "correctAnswer": "Remember the sabbath day, to keep it holy.",
+          "explanation": "Exodus 20:8 instructs to keep the sabbath holy, resting on the seventh day as God did, teaching spiritual discipline and trust in God's provision (Exodus 20:9-11).",
+          "verseReference": "Exodus 20:8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-20-medium-q7",
+          "question": "A person is struggling with jealousy and discontent. According to Exodus 20, which commandment addresses this issue?",
+          "type": "multiple-choice",
+          "options": [
+            "Thou shalt not covet thy neighbour's house.",
+            "Thou shalt not kill.",
+            "Thou shalt not bear false witness.",
+            "Thou shalt not commit adultery."
+          ],
+          "correctAnswer": "Thou shalt not covet thy neighbour's house.",
+          "explanation": "Exodus 20:17 teaches against coveting, warning against envy and discontent, which can lead to sin and discord (Exodus 20:14, 20:15).",
+          "verseReference": "Exodus 20:17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-20-medium-q8",
+          "question": "How does Exodus 20 emphasize reverence in our speech?",
+          "type": "multiple-choice",
+          "options": [
+            "Thou shalt not take the name of the LORD thy God in vain.",
+            "Thou shalt not steal.",
+            "Thou shalt not kill.",
+            "Thou shalt not commit adultery."
+          ],
+          "correctAnswer": "Thou shalt not take the name of the LORD thy God in vain.",
+          "explanation": "Exodus 20:7 commands not to misuse God's name, teaching respect and reverence in speech as part of spiritual discipline (Exodus 20:2, 20:5).",
+          "verseReference": "Exodus 20:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-20-medium-q9",
+          "question": "A believer wants to understand God's character regarding justice and mercy. What does Exodus 20 reveal?",
+          "type": "multiple-choice",
+          "options": [
+            "The LORD is a jealous God, visiting iniquity to the third and fourth generation of those who hate Him, but showing mercy to thousands who love Him and keep His commandments.",
+            "God is indifferent to human sin.",
+            "God only cares about worship rituals.",
+            "God punishes everyone equally without mercy."
+          ],
+          "correctAnswer": "The LORD is a jealous God, visiting iniquity to the third and fourth generation of those who hate Him, but showing mercy to thousands who love Him and keep His commandments.",
+          "explanation": "Exodus 20:5-6 describes God's justice and mercy, showing His holiness and lovingkindness toward obedience and faithfulness.",
+          "verseReference": "Exodus 20:5-6",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-20-medium-q10",
+          "question": "True or False: According to Exodus 20, God instructed that altars should be made only of hewn stone.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Exodus 20:25 states that if an altar is made of stone, it must not be hewn, because using a tool pollutes it.",
+          "verseReference": "Exodus 20:25",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-20-medium-q11",
+          "question": "True or False: Exodus 20 commands believers to serve and bow down to graven images if they represent God.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Exodus 20:4-5 clearly forbids making or worshiping graven images, emphasizing exclusive worship of the LORD.",
+          "verseReference": "Exodus 20:4-5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-20-medium-q12",
+          "question": "Fill in the blank: According to Exodus 20, the seventh day is the sabbath of the LORD thy God; in it thou shalt not do any ____.",
+          "type": "multiple-choice",
+          "options": [
+            "work",
+            "celebration",
+            "praying",
+            "serving"
+          ],
+          "correctAnswer": "work",
+          "explanation": "Exodus 20:10 instructs that no work should be done on the sabbath by anyone within the household, emphasizing rest and holiness.",
+          "verseReference": "Exodus 20:10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-20-medium-q13",
+          "question": "Based on Exodus 20, what reason is given for honoring the sabbath day?",
+          "type": "multiple-choice",
+          "options": [
+            "Because God rested on the seventh day and blessed it.",
+            "Because it is a special day for sacrifices only.",
+            "Because it is the day to gather food.",
+            "Because it is the day to remember the Exodus."
+          ],
+          "correctAnswer": "Because God rested on the seventh day and blessed it.",
+          "explanation": "Exodus 20:11 explains that God created the world in six days and rested on the seventh, blessing and sanctifying the sabbath.",
+          "verseReference": "Exodus 20:11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-20-medium-q14",
+          "question": "A believer is hesitant about hearing God’s voice directly. What reassurance does Exodus 20 provide about fearing God and sinning?",
+          "type": "multiple-choice",
+          "options": [
+            "Fear not, for God is come to prove you, and that his fear may be before your faces, that ye sin not.",
+            "God speaks only to the priests.",
+            "Fear God to the point of avoiding Him.",
+            "God does not want people to hear Him directly."
+          ],
+          "correctAnswer": "Fear not, for God is come to prove you, and that his fear may be before your faces, that ye sin not.",
+          "explanation": "Exodus 20:20 records Moses reassuring the people that God's presence is to encourage reverence and prevent sin, not to harm them.",
+          "verseReference": "Exodus 20:20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-20-medium-q15",
+          "question": "According to Exodus 20, how should altars be made for sacrifices?",
+          "type": "multiple-choice",
+          "options": [
+            "An altar of earth or unhewn stone should be made.",
+            "Altars must be made of gold or silver.",
+            "Altars should be made with steps.",
+            "Altars can be made of any material."
+          ],
+          "correctAnswer": "An altar of earth or unhewn stone should be made.",
+          "explanation": "Exodus 20:24-25 instructs making altars of earth or unhewn stone, not polished or carved, to avoid pollution and maintain holiness.",
+          "verseReference": "Exodus 20:24-25",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "exodus-20-quiz",
+      "tags": [
+        "exodus",
+        "chapter-20",
+        "exodus",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "exodus-20-hard",
+      "title": "Exodus Chapter 20 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Exodus Chapter 20.",
+      "type": "chapter",
+      "book": "Exodus",
+      "chapter": 20,
+      "questions": [
+        {
+          "id": "exodus-20-hard-q1",
+          "question": "What is the primary reason given in Exodus 20 for God commanding the Israelites to have no other gods before Him?",
+          "type": "multiple-choice",
+          "options": [
+            "Because He is a jealous God",
+            "Because He is the Creator of the heavens and the earth",
+            "Because He brought them out of Egypt, the house of bondage",
+            "Because He demands exclusive worship"
+          ],
+          "correctAnswer": "Because He brought them out of Egypt, the house of bondage",
+          "explanation": "Exodus 20:2 states that God identifies Himself as the one who brought them out of Egypt, giving the foundation for His authority and their exclusive loyalty.",
+          "verseReference": "Exodus 20:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-hard-q2",
+          "question": "Which literary device is prominently used in Exodus 20:3-6 to emphasize the prohibition against idolatry and the consequences of obeying or disobeying God?",
+          "type": "multiple-choice",
+          "options": [
+            "Parallelism",
+            "Chiasm",
+            "Typology",
+            "Foreshadowing"
+          ],
+          "correctAnswer": "Parallelism",
+          "explanation": "Exodus 20:3-6 presents a parallel structure contrasting the punishment of the wicked and the mercy to the obedient, a common Hebrew poetic device.",
+          "verseReference": "Exodus 20:3-6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-hard-q3",
+          "question": "In the context of ancient Near Eastern culture, why was the prohibition against making graven images (Exodus 20:4) significant for Israelite identity?",
+          "type": "multiple-choice",
+          "options": [
+            "Because surrounding nations worshiped idols made of metal and stone",
+            "Because Israelites had no artisans skilled in carving images",
+            "Because images were considered ineffective in worship",
+            "Because God forbade any form of artistic expression"
+          ],
+          "correctAnswer": "Because surrounding nations worshiped idols made of metal and stone",
+          "explanation": "The prohibition in Exodus 20:4 served to distinguish Israel’s worship of the invisible God from the idol worship prevalent in neighboring cultures.",
+          "verseReference": "Exodus 20:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-hard-q4",
+          "question": "The commandment to 'Remember the sabbath day, to keep it holy' (Exodus 20:8) is typologically connected to which creation motif found earlier in Scripture?",
+          "type": "multiple-choice",
+          "options": [
+            "God resting on the seventh day after creation",
+            "The establishment of the Garden of Eden",
+            "The creation of man in God's image",
+            "The separation of light from darkness"
+          ],
+          "correctAnswer": "God resting on the seventh day after creation",
+          "explanation": "Exodus 20:11 connects the sabbath rest directly to God’s rest on the seventh day of creation, establishing a theological foundation for the command.",
+          "verseReference": "Exodus 20:8-11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-hard-q5",
+          "question": "How does the commandment 'Honour thy father and thy mother' (Exodus 20:12) serve a covenantal purpose in the context of the Promised Land?",
+          "type": "multiple-choice",
+          "options": [
+            "It promises long life in the land God gives",
+            "It ensures social order and family structure",
+            "It prevents idolatry within the household",
+            "It is a general moral principle without specific promise"
+          ],
+          "correctAnswer": "It promises long life in the land God gives",
+          "explanation": "Exodus 20:12 links honoring parents with a blessing of longevity in the land promised by God, emphasizing covenantal obedience and blessing.",
+          "verseReference": "Exodus 20:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-hard-q6",
+          "question": "What is the significance of the prohibition against 'taking the name of the LORD thy God in vain' (Exodus 20:7) in the ancient Israelite context?",
+          "type": "multiple-choice",
+          "options": [
+            "It protected the sacredness of God's name",
+            "It forbade using God's name in magical spells",
+            "It prevented false oaths and blasphemy",
+            "All of the above"
+          ],
+          "correctAnswer": "All of the above",
+          "explanation": "Exodus 20:7 underscores the holiness of God's name, prohibiting misuse in oaths, blasphemy, or magical practices common in that era.",
+          "verseReference": "Exodus 20:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-hard-q7",
+          "question": "Which theme present in Exodus 20:13-16 is foundational for both ancient Israelite ethics and later biblical law codes?",
+          "type": "multiple-choice",
+          "options": [
+            "Prohibition of murder, adultery, theft, and false witness",
+            "Laws about sacrificial offerings",
+            "Dietary restrictions",
+            "Rules for priestly conduct"
+          ],
+          "correctAnswer": "Prohibition of murder, adultery, theft, and false witness",
+          "explanation": "Exodus 20:13-16 lays down core ethical prohibitions that recur throughout biblical law and form the basis of social justice.",
+          "verseReference": "Exodus 20:13-16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-hard-q8",
+          "question": "The commandment against coveting (Exodus 20:17) specifically lists items belonging to a neighbor. What does this reveal about the scope of the commandment?",
+          "type": "multiple-choice",
+          "options": [
+            "It extends beyond actions to internal desires",
+            "It only applies to material possessions",
+            "It is concerned with public behavior only",
+            "It focuses on legal property disputes"
+          ],
+          "correctAnswer": "It extends beyond actions to internal desires",
+          "explanation": "Exodus 20:17 addresses the sinful inclination within the heart, showing that God’s law governs not only outward acts but also inner thoughts.",
+          "verseReference": "Exodus 20:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-hard-q9",
+          "question": "What is the theological significance of the people's reaction to God's revelation on Mount Sinai as described in Exodus 20:18-19?",
+          "type": "multiple-choice",
+          "options": [
+            "It shows their fear of direct divine encounter",
+            "It indicates a lack of faith in God's protection",
+            "It reflects the ancient Near Eastern motif of divine terror",
+            "Both A and C"
+          ],
+          "correctAnswer": "Both A and C",
+          "explanation": "The people's fear (Exodus 20:18-19) highlights both reverence and terror typical of ancient Near Eastern divine encounters, emphasizing God's holiness and otherness.",
+          "verseReference": "Exodus 20:18-19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-hard-q10",
+          "question": "In Exodus 20:20, Moses tells the people not to fear because God has come to 'prove' them. What is the purpose of this divine testing according to the text?",
+          "type": "multiple-choice",
+          "options": [
+            "That His fear may be before them so that they do not sin",
+            "To punish them for past sins",
+            "To demonstrate God's power over Egypt",
+            "To prepare them for war"
+          ],
+          "correctAnswer": "That His fear may be before them so that they do not sin",
+          "explanation": "Exodus 20:20 explains the testing is to instill reverence for God, leading to obedience and avoidance of sin.",
+          "verseReference": "Exodus 20:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-hard-q11",
+          "question": "Why does God command in Exodus 20:25 that an altar made of stone must not be made of hewn stone with tools?",
+          "type": "multiple-choice",
+          "options": [
+            "Because using tools would pollute the altar",
+            "Because stone altars were forbidden entirely",
+            "Because metal was considered unclean",
+            "To prevent idolatrous craftsmanship"
+          ],
+          "correctAnswer": "Because using tools would pollute the altar",
+          "explanation": "Exodus 20:25 states that hewing stone with tools would defile the altar, emphasizing the altar's sacredness and divine origin.",
+          "verseReference": "Exodus 20:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-hard-q12",
+          "question": "What does the command in Exodus 20:26 about not going up steps to the altar reveal about Israelite worship practices?",
+          "type": "multiple-choice",
+          "options": [
+            "A concern for modesty and propriety in worship",
+            "A prohibition against altars on elevated platforms",
+            "An avoidance of visual idolatry",
+            "A ritual purity regulation concerning priests"
+          ],
+          "correctAnswer": "A concern for modesty and propriety in worship",
+          "explanation": "Exodus 20:26 forbids steps to prevent exposure of nakedness, reflecting cultural values of modesty during worship.",
+          "verseReference": "Exodus 20:26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-hard-q13",
+          "question": "True or False: According to Exodus 20, God’s commandments were given to Moses in the form of spoken words accompanied by thunder, lightning, and smoke on the mountain.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Exodus 20:18 describes the dramatic theophany with thunder, lightning, trumpet sound, and smoke as God spoke the commandments.",
+          "verseReference": "Exodus 20:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-hard-q14",
+          "question": "Which New Testament passage most directly references the giving of the Ten Commandments as described in Exodus 20, emphasizing the law's moral foundation?",
+          "type": "multiple-choice",
+          "options": [
+            "Romans 13:9",
+            "Acts 2:1-4",
+            "Hebrews 11:1",
+            "Revelation 21:1"
+          ],
+          "correctAnswer": "Romans 13:9",
+          "explanation": "Romans 13:9 quotes several commandments from Exodus 20, framing them as foundational for Christian ethical teaching.",
+          "verseReference": "Exodus 20:13-16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-hard-q15",
+          "question": "How does the concept of God as a 'jealous God' in Exodus 20:5 relate to the broader biblical theme of covenant loyalty?",
+          "type": "multiple-choice",
+          "options": [
+            "It underscores exclusive devotion required by the covenant",
+            "It implies God’s emotional instability",
+            "It reflects a human trait projected onto God",
+            "It speaks only about idolatry punishments"
+          ],
+          "correctAnswer": "It underscores exclusive devotion required by the covenant",
+          "explanation": "Exodus 20:5 uses 'jealous' to express God's demand for undivided loyalty, integral to the covenant relationship throughout Scripture.",
+          "verseReference": "Exodus 20:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-hard-q16",
+          "question": "The command in Exodus 20:24 to build an altar of earth rather than metals like silver or gold symbolizes what about Israel’s worship?",
+          "type": "multiple-choice",
+          "options": [
+            "Simplicity and humility in approaching God",
+            "Preference for natural materials over crafted ones",
+            "Separation from pagan practices involving precious metals",
+            "All of the above"
+          ],
+          "correctAnswer": "All of the above",
+          "explanation": "Exodus 20:23-24 contrasts metal idols with simple earth altars, emphasizing humility, purity, and distinction from pagan cultic practices.",
+          "verseReference": "Exodus 20:23-24",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "exodus-20-quiz",
+      "tags": [
+        "exodus",
+        "chapter-20",
+        "exodus",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 16,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "exodus-20-theological",
+      "title": "Exodus Chapter 20 Quiz - Theological Level",
+      "description": "Deep biblical theology from Exodus Chapter 20 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Exodus",
+      "chapter": 20,
+      "questions": [
+        {
+          "id": "exodus-20-theological-q1",
+          "question": "According to Exodus 20, what is the foundational basis for God's authority to give the commandments?",
+          "type": "multiple-choice",
+          "options": [
+            "He is the LORD who brought Israel out of Egypt",
+            "He created the heavens and the earth",
+            "He is the God of Abraham, Isaac, and Jacob",
+            "He appeared in the burning bush"
+          ],
+          "correctAnswer": "He is the LORD who brought Israel out of Egypt",
+          "explanation": "Exodus 20:2 states that the LORD speaks as the God who brought Israel out of Egypt, establishing His authority over them. This is echoed in Deuteronomy 5:6 and reiterated in the New Testament, e.g. Hebrews 11:29 and 1 Corinthians 10:1-2, showing God's saving acts as the foundation for covenant obedience.",
+          "verseReference": "Exodus 20:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-theological-q2",
+          "question": "What attribute of God is revealed by His declaration that He is a 'jealous God' in Exodus 20?",
+          "type": "multiple-choice",
+          "options": [
+            "His zeal for exclusive worship",
+            "His anger towards all humanity",
+            "His indifference to idolatry",
+            "His preference for sacrifices"
+          ],
+          "correctAnswer": "His zeal for exclusive worship",
+          "explanation": "Exodus 20:5 reveals God's jealousy, indicating His demand for exclusive worship. The jealousy of God is a holy zeal for His honor, consistent with Deuteronomy 6:15 and Nahum 1:2. The New Testament affirms God's holiness and desire for pure worship (James 4:5, 1 Corinthians 10:22).",
+          "verseReference": "Exodus 20:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-theological-q3",
+          "question": "Which commandment in Exodus 20 emphasizes the sanctity of God's name and warns against misuse?",
+          "type": "multiple-choice",
+          "options": [
+            "Thou shalt not take the name of the LORD thy God in vain",
+            "Thou shalt not kill",
+            "Remember the sabbath day, to keep it holy",
+            "Thou shalt not bear false witness"
+          ],
+          "correctAnswer": "Thou shalt not take the name of the LORD thy God in vain",
+          "explanation": "Exodus 20:7 commands reverence for God's name, forbidding its misuse. This is rooted in God's holiness (Leviticus 19:12) and is reaffirmed in the New Testament (Matthew 6:9, Philippians 2:9-11). Respect for God's name reflects reverence for His character and authority.",
+          "verseReference": "Exodus 20:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-theological-q4",
+          "question": "What theological truth is taught by the command to 'Remember the sabbath day, to keep it holy' in Exodus 20?",
+          "type": "multiple-choice",
+          "options": [
+            "God's rest after creation sets a pattern for human rest",
+            "Work is inherently sinful",
+            "Human effort earns salvation",
+            "The sabbath is a day for sacrifice only"
+          ],
+          "correctAnswer": "God's rest after creation sets a pattern for human rest",
+          "explanation": "Exodus 20:8-11 links the sabbath rest to God's rest after creation, establishing a divine pattern for human rhythm. This is consistent with Genesis 2:2-3, Hebrews 4:4-10 (spiritual rest in Christ), and the call for holiness and dependence on God rather than works.",
+          "verseReference": "Exodus 20:8-11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-theological-q5",
+          "question": "What is the promised blessing connected to honoring one’s father and mother in Exodus 20?",
+          "type": "multiple-choice",
+          "options": [
+            "That thy days may be long upon the land",
+            "That thou shalt inherit the kingdom of God",
+            "That thou shalt receive riches and honor",
+            "That thou shalt be free from sickness"
+          ],
+          "correctAnswer": "That thy days may be long upon the land",
+          "explanation": "Exodus 20:12 promises longevity and blessing upon the land for honoring parents. This principle is echoed in Leviticus 19:3, Proverbs 20:20, and affirmed by Paul in Ephesians 6:2-3, emphasizing the social and spiritual importance of family honor in God's covenant order.",
+          "verseReference": "Exodus 20:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-theological-q6",
+          "question": "Which commandment forbids the act of killing, reflecting God’s regard for human life?",
+          "type": "multiple-choice",
+          "options": [
+            "Thou shalt not kill",
+            "Thou shalt not steal",
+            "Thou shalt not commit adultery",
+            "Thou shalt not bear false witness"
+          ],
+          "correctAnswer": "Thou shalt not kill",
+          "explanation": "Exodus 20:13 prohibits killing, affirming the sanctity of human life created in God's image (Genesis 1:27). This command is foundational for moral law and is reiterated in Matthew 5:21-22 and Romans 13:9, demonstrating God's protection over life.",
+          "verseReference": "Exodus 20:13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-theological-q7",
+          "question": "What is the primary concern behind the prohibition of making graven images in Exodus 20?",
+          "type": "multiple-choice",
+          "options": [
+            "Avoiding idolatry and worship of created things",
+            "Preventing artistic expression",
+            "Controlling religious ceremonies",
+            "Limiting the use of precious metals"
+          ],
+          "correctAnswer": "Avoiding idolatry and worship of created things",
+          "explanation": "Exodus 20:4-5 forbids making images for worship to prevent idolatry, emphasizing God's transcendence and exclusive worship. This theme is consistent with Deuteronomy 5:8, Isaiah 42:8, and New Testament teachings against idolatry (1 Corinthians 10:14, 1 John 5:21).",
+          "verseReference": "Exodus 20:4-5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-theological-q8",
+          "question": "How does Exodus 20:17's commandment against coveting relate to the broader moral law?",
+          "type": "multiple-choice",
+          "options": [
+            "It addresses the inward desires that lead to sinful actions",
+            "It only forbids theft of property",
+            "It permits coveting if no harm is done",
+            "It focuses solely on material possessions"
+          ],
+          "correctAnswer": "It addresses the inward desires that lead to sinful actions",
+          "explanation": "Exodus 20:17 forbids coveting, revealing that sin originates in the heart’s desires. Jesus teaches similarly in Matthew 5:27-28 about lust. Romans 7:7 and James 1:14-15 show that sinful desires precede sinful acts, underscoring heart morality.",
+          "verseReference": "Exodus 20:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-theological-q9",
+          "question": "What was the people's reaction to hearing God's voice and seeing the manifestations on the mountain in Exodus 20?",
+          "type": "multiple-choice",
+          "options": [
+            "They stood afar off and asked Moses to speak for them",
+            "They approached God boldly and asked many questions",
+            "They immediately worshiped God with sacrifices",
+            "They ignored the event and returned to their tents"
+          ],
+          "correctAnswer": "They stood afar off and asked Moses to speak for them",
+          "explanation": "Exodus 20:18-19 describes the people's fear upon witnessing thunder and smoke, leading them to request Moses as mediator. This shows human fear of God's holiness, consistent with Isaiah 6:5 and Revelation 1:17, highlighting the need for mediation (Hebrews 12:18-24).",
+          "verseReference": "Exodus 20:18-19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-theological-q10",
+          "question": "What reason does Moses give for not fearing God’s voice in Exodus 20?",
+          "type": "multiple-choice",
+          "options": [
+            "God came to prove them and instill reverence so they would not sin",
+            "God is weak and cannot harm them",
+            "God only speaks in dreams",
+            "God is distant and uninvolved"
+          ],
+          "correctAnswer": "God came to prove them and instill reverence so they would not sin",
+          "explanation": "Exodus 20:20 explains Moses reassured the people that God’s presence is to test and teach them, instilling holy fear to avoid sin. This aligns with Proverbs 1:7, Hebrews 12:28-29, and Psalm 34:11 about reverential fear as the foundation of obedience.",
+          "verseReference": "Exodus 20:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-theological-q11",
+          "question": "What instruction does God give regarding the construction of an altar in Exodus 20?",
+          "type": "multiple-choice",
+          "options": [
+            "If made of stone, it must not be hewn with tools",
+            "It must be made only of gold",
+            "It must be exactly seven steps high",
+            "It is forbidden to make altars"
+          ],
+          "correctAnswer": "If made of stone, it must not be hewn with tools",
+          "explanation": "Exodus 20:25 commands that altars made of stone not be hewn, to avoid ritual pollution, underscoring holiness in worship. This principle reflects reverence for God's presence seen in Leviticus 19:30 and foreshadows Christ's perfect sacrifice (Hebrews 10:1-10).",
+          "verseReference": "Exodus 20:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-theological-q12",
+          "question": "Why does God forbid going up steps to the altar in Exodus 20:26?",
+          "type": "multiple-choice",
+          "options": [
+            "To prevent the worshiper's nakedness from being exposed",
+            "To keep the altar inaccessible",
+            "To discourage frequent sacrifices",
+            "To ensure only priests could approach"
+          ],
+          "correctAnswer": "To prevent the worshiper's nakedness from being exposed",
+          "explanation": "Exodus 20:26 prohibits steps to avoid uncovering nakedness, symbolizing the need for purity and dignity before God. This reflects God's holiness and the need for proper approach to Him, consistent with Leviticus 18:6-18 and 1 Timothy 2:9.",
+          "verseReference": "Exodus 20:26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-theological-q13",
+          "question": "How does Exodus 20 describe the scope of the sabbath rest in relation to community members and animals?",
+          "type": "multiple-choice",
+          "options": [
+            "No work is to be done by anyone or anything within the gates",
+            "Only the head of the household must rest",
+            "Animals are exempt from rest",
+            "Only servants must rest"
+          ],
+          "correctAnswer": "No work is to be done by anyone or anything within the gates",
+          "explanation": "Exodus 20:10 says that no work shall be done by the individual, family members, servants, or animals, showing the sabbath’s communal and comprehensive nature. This prefigures the rest found in Hebrews 4:9 and emphasizes God's care for all creation.",
+          "verseReference": "Exodus 20:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-theological-q14",
+          "question": "What is the significance of God's statement in Exodus 20:11 regarding creation and the sabbath?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s rest on the seventh day sanctifies the sabbath as holy",
+            "God rested because He was tired",
+            "The sabbath is a human invention",
+            "Creation took place in seven literal 24-hour days"
+          ],
+          "correctAnswer": "God’s rest on the seventh day sanctifies the sabbath as holy",
+          "explanation": "Exodus 20:11 connects God's rest after creation with sanctifying the sabbath, giving it divine authority. This is reflected in Genesis 2:2-3 and the theological rest fulfilled in Christ (Hebrews 4:3-10). The sabbath points to God's order and provision for human rest.",
+          "verseReference": "Exodus 20:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-20-theological-q15",
+          "question": "In Exodus 20, what does God say about making gods of silver or gold?",
+          "type": "multiple-choice",
+          "options": [
+            "You shall not make gods of silver or gold",
+            "You may make gods of silver but not gold",
+            "You shall make gods only of wood",
+            "God prefers images made of stone"
+          ],
+          "correctAnswer": "You shall not make gods of silver or gold",
+          "explanation": "Exodus 20:23 forbids making gods of precious metals, reinforcing the command against idolatry. This prohibition aligns with Isaiah 44:9-20 and 1 Corinthians 10:14, emphasizing that God alone is worthy of worship, not man-made idols.",
+          "verseReference": "Exodus 20:23",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "exodus-20-quiz",
+      "tags": [
+        "exodus",
+        "chapter-20",
+        "exodus",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

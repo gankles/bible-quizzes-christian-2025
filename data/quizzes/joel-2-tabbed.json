@@ -1,0 +1,983 @@
+{
+  "id": "joel-2-tabbed",
+  "title": "Joel Chapter 2 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Joel chapter 2 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "joel-2-easy",
+      "title": "Joel Chapter 2 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Joel Chapter 2.",
+      "type": "chapter",
+      "book": "Joel",
+      "chapter": 2,
+      "questions": [
+        {
+          "id": "joel-2-easy-q1",
+          "question": "What sound is commanded to be blown in Zion according to Joel 2:1?",
+          "type": "multiple-choice",
+          "options": [
+            "The trumpet",
+            "The flute",
+            "The horn",
+            "The drum"
+          ],
+          "correctAnswer": "The trumpet",
+          "explanation": "Joel 2:1 commands to 'Blow ye the trumpet in Zion, and sound an alarm in my holy mountain'.",
+          "verseReference": "Joel 2:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "joel-2-easy-q2",
+          "question": "Joel 2:2 describes the day of the LORD as a day of what?",
+          "type": "multiple-choice",
+          "options": [
+            "Darkness and gloominess",
+            "Light and joy",
+            "Peace and prosperity",
+            "Rain and harvest"
+          ],
+          "correctAnswer": "Darkness and gloominess",
+          "explanation": "Joel 2:2 describes it as 'A day of darkness and of gloominess, a day of clouds and of thick darkness'.",
+          "verseReference": "Joel 2:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "joel-2-easy-q3",
+          "question": "In Joel 2:3, what is said to devour before them?",
+          "type": "multiple-choice",
+          "options": [
+            "A fire",
+            "A flood",
+            "A sword",
+            "A storm"
+          ],
+          "correctAnswer": "A fire",
+          "explanation": "Joel 2:3 says 'A fire devoureth before them; and behind them a flame burneth'.",
+          "verseReference": "Joel 2:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "joel-2-easy-q4",
+          "question": "According to Joel 2:4, the appearance of the people is compared to what?",
+          "type": "multiple-choice",
+          "options": [
+            "Horses",
+            "Lions",
+            "Eagles",
+            "Waves"
+          ],
+          "correctAnswer": "Horses",
+          "explanation": "Joel 2:4 states 'The appearance of them is as the appearance of horses; and as horsemen, so shall they run.'",
+          "verseReference": "Joel 2:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "joel-2-easy-q5",
+          "question": "What noise do the people make as they leap, according to Joel 2:5?",
+          "type": "multiple-choice",
+          "options": [
+            "Noise of chariots",
+            "Noise of thunder",
+            "Noise of trumpets",
+            "Noise of waterfalls"
+          ],
+          "correctAnswer": "Noise of chariots",
+          "explanation": "Joel 2:5 says 'Like the noise of chariots on the tops of mountains shall they leap'.",
+          "verseReference": "Joel 2:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "joel-2-easy-q6",
+          "question": "What shall happen to the sun and moon before the great day of the LORD as described in Joel 2:10?",
+          "type": "multiple-choice",
+          "options": [
+            "They shall be dark",
+            "They shall shine brighter",
+            "They shall move backwards",
+            "They shall disappear"
+          ],
+          "correctAnswer": "They shall be dark",
+          "explanation": "Joel 2:10 says 'the sun and the moon shall be dark, and the stars shall withdraw their shining'.",
+          "verseReference": "Joel 2:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "joel-2-easy-q7",
+          "question": "According to Joel 2:12, how should people turn to the LORD?",
+          "type": "multiple-choice",
+          "options": [
+            "With all your heart",
+            "With your hands",
+            "With your possessions",
+            "With your words only"
+          ],
+          "correctAnswer": "With all your heart",
+          "explanation": "Joel 2:12 says 'turn ye even to me with all your heart, and with fasting, and with weeping, and with mourning'.",
+          "verseReference": "Joel 2:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "joel-2-easy-q8",
+          "question": "Joel 2:13 tells us to rend what, not our garments?",
+          "type": "multiple-choice",
+          "options": [
+            "Your heart",
+            "Your clothes",
+            "Your hair",
+            "Your hands"
+          ],
+          "correctAnswer": "Your heart",
+          "explanation": "Joel 2:13 says 'And rend your heart, and not your garments'.",
+          "verseReference": "Joel 2:13",
+          "difficulty": "easy"
+        },
+        {
+          "id": "joel-2-easy-q9",
+          "question": "Who are called to assemble according to Joel 2:16?",
+          "type": "multiple-choice",
+          "options": [
+            "The elders, children, and those that suck the breasts",
+            "Only the priests",
+            "Only the kings",
+            "Only the warriors"
+          ],
+          "correctAnswer": "The elders, children, and those that suck the breasts",
+          "explanation": "Joel 2:16 says 'Gather the people, sanctify the congregation, assemble the elders, gather the children, and those that suck the breasts'.",
+          "verseReference": "Joel 2:16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "joel-2-easy-q10",
+          "question": "True or False: Joel 2:17 commands the priests to weep between the porch and the altar.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Joel 2:17 says 'Let the priests, the ministers of the LORD, weep between the porch and the altar'.",
+          "verseReference": "Joel 2:17",
+          "difficulty": "easy"
+        },
+        {
+          "id": "joel-2-easy-q11",
+          "question": "True or False: Joel 2:21 tells the land to fear and be afraid.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Joel 2:21 says 'Fear not, O land; be glad and rejoice', which is the opposite of fearing and being afraid.",
+          "verseReference": "Joel 2:21",
+          "difficulty": "easy"
+        },
+        {
+          "id": "joel-2-easy-q12",
+          "question": "True or False: Joel 2:28 promises the pouring out of God's spirit upon all flesh.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Joel 2:28 says 'I will pour out my spirit upon all flesh'.",
+          "verseReference": "Joel 2:28",
+          "difficulty": "easy"
+        },
+        {
+          "id": "joel-2-easy-q13",
+          "question": "Complete this verse from Joel 2:25: 'And I will restore to you the years that the ______ hath eaten.'",
+          "type": "fill-blank",
+          "options": [
+            "locust",
+            "wolf",
+            "lion",
+            "eagle"
+          ],
+          "correctAnswer": "locust",
+          "explanation": "Joel 2:25 states 'And I will restore to you the years that the locust hath eaten'.",
+          "verseReference": "Joel 2:25",
+          "difficulty": "easy"
+        },
+        {
+          "id": "joel-2-easy-q14",
+          "question": "According to Joel 2:30, what will God show in the heavens and the earth?",
+          "type": "multiple-choice",
+          "options": [
+            "Wonders of blood, fire, and pillars of smoke",
+            "Rain and thunder",
+            "Peace and prosperity",
+            "Angels and miracles"
+          ],
+          "correctAnswer": "Wonders of blood, fire, and pillars of smoke",
+          "explanation": "Joel 2:30 states 'And I will shew wonders in the heavens and in the earth, blood, and fire, and pillars of smoke'.",
+          "verseReference": "Joel 2:30",
+          "difficulty": "easy"
+        },
+        {
+          "id": "joel-2-easy-q15",
+          "question": "What will happen to those who call on the name of the LORD as per Joel 2:32?",
+          "type": "multiple-choice",
+          "options": [
+            "They shall be delivered",
+            "They shall be punished",
+            "They shall be ignored",
+            "They shall be questioned"
+          ],
+          "correctAnswer": "They shall be delivered",
+          "explanation": "Joel 2:32 says 'whosoever shall call on the name of the LORD shall be delivered'.",
+          "verseReference": "Joel 2:32",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "joel-2-quiz",
+      "tags": [
+        "joel",
+        "chapter-2",
+        "joel",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "joel-2-medium",
+      "title": "Joel Chapter 2 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Joel Chapter 2 to real-life situations.",
+      "type": "chapter",
+      "book": "Joel",
+      "chapter": 2,
+      "questions": [
+        {
+          "id": "joel-2-medium-q1",
+          "question": "A fellow believer is struggling with fear about the future and the 'day of the LORD.' Based on Joel 2, what biblical truth would you share to encourage them in faith?",
+          "type": "multiple-choice",
+          "options": [
+            "The LORD is gracious and merciful, slow to anger, and will restore and bless His people.",
+            "The day of the LORD is a time only for judgment and punishment without hope.",
+            "People must face the day of the LORD alone without God’s help.",
+            "The future is uncertain, so we should not trust in God’s promises."
+          ],
+          "correctAnswer": "The LORD is gracious and merciful, slow to anger, and will restore and bless His people.",
+          "explanation": "Joel 2:12-13 teaches God’s gracious and merciful nature, urging repentance. Joel 2:18-19 shows God’s pity and promise to bless. Joel 2:21 encourages rejoicing in the LORD’s great works.",
+          "verseReference": "Joel 2:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "joel-2-medium-q2",
+          "question": "How does Joel 2 teach us about humility and repentance in times of trial?",
+          "type": "multiple-choice",
+          "options": [
+            "Turn to God with all your heart, fasting, weeping, and mourning, and rend your heart, not your garments.",
+            "Ignore your problems and trust that they will disappear on their own.",
+            "Wear outward signs of mourning without changing your heart.",
+            "Rely on your own strength to overcome trials without seeking God."
+          ],
+          "correctAnswer": "Turn to God with all your heart, fasting, weeping, and mourning, and rend your heart, not your garments.",
+          "explanation": "Joel 2:12-13 calls for sincere repentance from the heart, not just outward ritual, emphasizing humility and genuine turning to God during trials (Joel 2:12-13, 2:15).",
+          "verseReference": "Joel 2:13",
+          "difficulty": "medium"
+        },
+        {
+          "id": "joel-2-medium-q3",
+          "question": "A believer is struggling with discouragement due to loss and hardship. According to Joel 2, what hope can you share about God’s restoration?",
+          "type": "multiple-choice",
+          "options": [
+            "God will restore the years the locusts have eaten and provide abundance and satisfaction.",
+            "Loss is permanent, and God does not intervene in hardships.",
+            "God only blesses the wealthy and powerful.",
+            "Restoration depends on human effort alone, not on God’s mercy."
+          ],
+          "correctAnswer": "God will restore the years the locusts have eaten and provide abundance and satisfaction.",
+          "explanation": "Joel 2:25-26 promises restoration of what was lost and abundant provision, encouraging trust in God's faithfulness during hardship (Joel 2:19, 2:25-26).",
+          "verseReference": "Joel 2:25",
+          "difficulty": "medium"
+        },
+        {
+          "id": "joel-2-medium-q4",
+          "question": "How does Joel 2 describe the attitude we should have towards God during times of corporate worship and fasting?",
+          "type": "multiple-choice",
+          "options": [
+            "Gather the people, sanctify the congregation, call a solemn assembly, and fast with a sincere heart.",
+            "Fast alone without involving the community or elders.",
+            "Focus only on outward rituals without heartfelt repentance.",
+            "Ignore the need for prayer and assembly during trials."
+          ],
+          "correctAnswer": "Gather the people, sanctify the congregation, call a solemn assembly, and fast with a sincere heart.",
+          "explanation": "Joel 2:15-16 instructs gathering the whole community and sanctifying it for fasting and solemn assembly, showing the importance of collective worship and sincere devotion (Joel 2:12, 2:15-16).",
+          "verseReference": "Joel 2:15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "joel-2-medium-q5",
+          "question": "What does Joel 2 teach about God’s power and justice in executing His word?",
+          "type": "multiple-choice",
+          "options": [
+            "The LORD is strong and His day is great and very terrible; no one can abide it without His mercy.",
+            "God is indifferent to justice and does not act in history.",
+            "Human power is more reliable than God’s.",
+            "God’s word is weak and often fails to be fulfilled."
+          ],
+          "correctAnswer": "The LORD is strong and His day is great and very terrible; no one can abide it without His mercy.",
+          "explanation": "Joel 2:11 describes God's power in executing judgment, emphasizing His strength and the seriousness of the day of the LORD, calling for reverent trust (Joel 2:1, 2:10-11).",
+          "verseReference": "Joel 2:11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "joel-2-medium-q6",
+          "question": "A believer feels overwhelmed by trials and wonders how to respond practically. What biblical virtue related to perseverance does Joel 2 encourage?",
+          "type": "multiple-choice",
+          "options": [
+            "Trust in God’s promise of deliverance and continue to call on His name for salvation.",
+            "Give up because the trials are too severe and God does not hear.",
+            "Rely solely on human strength to overcome challenges.",
+            "Avoid prayer and fasting since they seem ineffective."
+          ],
+          "correctAnswer": "Trust in God’s promise of deliverance and continue to call on His name for salvation.",
+          "explanation": "Joel 2:32 promises deliverance for those who call on the LORD, encouraging perseverance through faith and prayer (Joel 2:12, 2:32).",
+          "verseReference": "Joel 2:32",
+          "difficulty": "medium"
+        },
+        {
+          "id": "joel-2-medium-q7",
+          "question": "How does Joel 2 illustrate the importance of prayer and intercession within the church community?",
+          "type": "multiple-choice",
+          "options": [
+            "Priests and ministers weep and pray between the porch and altar, pleading for God to spare His people.",
+            "Prayer should be private and not involve church leaders.",
+            "Intercession is unnecessary because God acts without human involvement.",
+            "Only elders should pray, excluding children and others."
+          ],
+          "correctAnswer": "Priests and ministers weep and pray between the porch and altar, pleading for God to spare His people.",
+          "explanation": "Joel 2:17 shows the role of priests interceding with heartfelt prayer on behalf of the people, emphasizing corporate spiritual responsibility (Joel 2:15-17).",
+          "verseReference": "Joel 2:17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "joel-2-medium-q8",
+          "question": "What practical lesson about family and community worship can be drawn from Joel 2:16?",
+          "type": "multiple-choice",
+          "options": [
+            "Gather all generations—elders, children, infants, bridegroom and bride—for solemn assembly and worship.",
+            "Only the adults should participate in worship and fasting.",
+            "Worship should be limited to individual devotion without family involvement.",
+            "Children and young people should avoid public worship."
+          ],
+          "correctAnswer": "Gather all generations—elders, children, infants, bridegroom and bride—for solemn assembly and worship.",
+          "explanation": "Joel 2:16 highlights the inclusion of all ages and family members in worship, demonstrating the importance of communal and family spiritual life (Joel 2:15-16).",
+          "verseReference": "Joel 2:16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "joel-2-medium-q9",
+          "question": "True or False: Joel 2 teaches that God’s Spirit will be poured out only on the leaders and the wealthy.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Joel 2:28-29 states God will pour out His Spirit upon all flesh, including sons, daughters, old men, young men, servants, and handmaids, showing Spirit is given universally.",
+          "verseReference": "Joel 2:28",
+          "difficulty": "medium"
+        },
+        {
+          "id": "joel-2-medium-q10",
+          "question": "True or False: Joel 2 encourages believers to fear the land and the beasts because of the coming judgment.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Joel 2:21-22 encourages the land and beasts not to fear but to rejoice because the LORD will do great things and restore provision.",
+          "verseReference": "Joel 2:21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "joel-2-medium-q11",
+          "question": "How does Joel 2 describe the character of God in relation to His people’s repentance?",
+          "type": "multiple-choice",
+          "options": [
+            "Gracious, merciful, slow to anger, and of great kindness, repenting of evil.",
+            "Strict, unforgiving, and quick to punish without mercy.",
+            "Distant and disinterested in human repentance.",
+            "Indifferent to the hearts of His people."
+          ],
+          "correctAnswer": "Gracious, merciful, slow to anger, and of great kindness, repenting of evil.",
+          "explanation": "Joel 2:13 clearly describes God’s gracious and merciful nature, emphasizing His readiness to forgive when His people repent sincerely (Joel 2:12-14).",
+          "verseReference": "Joel 2:13",
+          "difficulty": "medium"
+        },
+        {
+          "id": "joel-2-medium-q12",
+          "question": "Fill in the blank: According to Joel 2:28, God will pour out His spirit upon all flesh; your sons and daughters shall _______, your old men shall dream dreams, your young men shall see visions.",
+          "type": "fill-blank",
+          "options": [
+            "prophesy",
+            "pray",
+            "fast",
+            "sing"
+          ],
+          "correctAnswer": "prophesy",
+          "explanation": "Joel 2:28 states that sons and daughters will prophesy, indicating the Spirit’s empowerment for speaking God’s truth.",
+          "verseReference": "Joel 2:28",
+          "difficulty": "medium"
+        },
+        {
+          "id": "joel-2-medium-q13",
+          "question": "According to Joel 2, what should be the response of God’s people when faced with calamity and judgment?",
+          "type": "multiple-choice",
+          "options": [
+            "Turn to God with fasting, weeping, mourning, and sincere repentance.",
+            "Ignore the calamity and continue in sin.",
+            "Blame others without self-examination.",
+            "Rely only on human wisdom to escape judgment."
+          ],
+          "correctAnswer": "Turn to God with fasting, weeping, mourning, and sincere repentance.",
+          "explanation": "Joel 2:12-13 emphasizes turning to God with all the heart through fasting and mourning as the proper response to impending judgment (Joel 2:15-16).",
+          "verseReference": "Joel 2:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "joel-2-medium-q14",
+          "question": "What practical teaching about stewardship and gratitude can be found in Joel 2:24-26?",
+          "type": "multiple-choice",
+          "options": [
+            "God will bless the work of our hands with abundance, so we should praise Him and be content.",
+            "Wealth and provision come only from human effort and luck.",
+            "Gratitude is unnecessary because blessings are guaranteed.",
+            "Material blessings are the only sign of God’s favor."
+          ],
+          "correctAnswer": "God will bless the work of our hands with abundance, so we should praise Him and be content.",
+          "explanation": "Joel 2:24-26 promises abundant provision and calls for praising God, teaching contentment and gratitude for His blessings.",
+          "verseReference": "Joel 2:24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "joel-2-medium-q15",
+          "question": "How does Joel 2 teach about God’s sovereignty over nations and His protection of His people?",
+          "type": "multiple-choice",
+          "options": [
+            "God will remove the invading army and protect His land and people from reproach.",
+            "God allows nations to rule without intervention.",
+            "His people must defend themselves without divine help.",
+            "God is powerless against earthly armies."
+          ],
+          "correctAnswer": "God will remove the invading army and protect His land and people from reproach.",
+          "explanation": "Joel 2:20-21 shows God driving away the northern army and protecting His people, affirming His sovereignty and care (Joel 2:17-20).",
+          "verseReference": "Joel 2:20",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "joel-2-quiz",
+      "tags": [
+        "joel",
+        "chapter-2",
+        "joel",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "joel-2-hard",
+      "title": "Joel Chapter 2 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Joel Chapter 2.",
+      "type": "chapter",
+      "book": "Joel",
+      "chapter": 2,
+      "questions": [
+        {
+          "id": "joel-2-hard-q1",
+          "question": "In Joel 2:1, what is the primary purpose of blowing the trumpet in Zion?",
+          "type": "multiple-choice",
+          "options": [
+            "To sound an alarm for the coming day of the LORD",
+            "To celebrate a festival",
+            "To announce a royal decree",
+            "To call the people to war"
+          ],
+          "correctAnswer": "To sound an alarm for the coming day of the LORD",
+          "explanation": "Joel 2:1 states that the trumpet is blown to sound an alarm because the day of the LORD is near, signaling judgment and prompting the inhabitants to tremble.",
+          "verseReference": "Joel 2:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-hard-q2",
+          "question": "Joel 2:2 describes a day of darkness and gloominess. Which Old Testament event shares a similar description of cosmic disturbance?",
+          "type": "multiple-choice",
+          "options": [
+            "The plague of darkness in Egypt (Exodus 10:21-23)",
+            "The crossing of the Red Sea (Exodus 14)",
+            "The fall of Jericho (Joshua 6)",
+            "The anointing of David (1 Samuel 16)"
+          ],
+          "correctAnswer": "The plague of darkness in Egypt (Exodus 10:21-23)",
+          "explanation": "The description of darkness and thick clouds in Joel 2:2 parallels the plague of darkness in Egypt, which was a supernatural judgment involving darkness over the land.",
+          "verseReference": "Joel 2:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-hard-q3",
+          "question": "What literary device is prominently used in Joel 2:3 where the land before the invading army is described as 'the garden of Eden' and behind them as 'a desolate wilderness'?",
+          "type": "multiple-choice",
+          "options": [
+            "Chiasm",
+            "Parallelism",
+            "Metaphor",
+            "Hyperbole"
+          ],
+          "correctAnswer": "Chiasm",
+          "explanation": "Joel 2:3 uses a chiasm, contrasting the lushness before the army (garden of Eden) with the desolation after them, emphasizing the devastating effect of the invasion.",
+          "verseReference": "Joel 2:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-hard-q4",
+          "question": "The description of the invading army in Joel 2:4-5 uses imagery of horses and chariots. What is the significance of this imagery in the ancient Near Eastern context?",
+          "type": "multiple-choice",
+          "options": [
+            "It symbolizes military strength and swiftness",
+            "It represents divine messengers",
+            "It indicates peaceful traders",
+            "It is a metaphor for natural disasters"
+          ],
+          "correctAnswer": "It symbolizes military strength and swiftness",
+          "explanation": "Horses and chariots were symbols of military power and speed in the ancient Near East, highlighting the formidable nature of the invading force described in Joel 2:4-5.",
+          "verseReference": "Joel 2:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-hard-q5",
+          "question": "According to Joel 2:6, what physical and emotional effect does the invading army have on the people?",
+          "type": "multiple-choice",
+          "options": [
+            "Much pain and blackened faces",
+            "Joy and celebration",
+            "Confusion and silence",
+            "Fear but no physical effect"
+          ],
+          "correctAnswer": "Much pain and blackened faces",
+          "explanation": "Joel 2:6 indicates that the people before the army are much pained and their faces gather blackness, symbolizing distress and terror.",
+          "verseReference": "Joel 2:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-hard-q6",
+          "question": "Joel 2:7-8 describes the army's disciplined movement. How does this contrast with typical descriptions of chaotic invasions in other ancient texts?",
+          "type": "multiple-choice",
+          "options": [
+            "They march without breaking ranks and do not thrust one another",
+            "They fight among themselves",
+            "They are easily scattered by defenders",
+            "They rely on stealth and ambush"
+          ],
+          "correctAnswer": "They march without breaking ranks and do not thrust one another",
+          "explanation": "Joel 2:7-8 emphasizes the orderliness and discipline of the invading army, which contrasts with the common portrayal of invasions as chaotic and disorganized.",
+          "verseReference": "Joel 2:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-hard-q7",
+          "question": "What cosmic signs accompany the invasion according to Joel 2:10-11, and how do these signs function theologically in prophetic literature?",
+          "type": "multiple-choice",
+          "options": [
+            "Earthquake, trembling heavens, darkened sun and moon, withdrawal of stars; they signify divine judgment",
+            "Rain and harvest; they signify blessing",
+            "Wind and fire only; they signify purification",
+            "Calm and peace; they signify restoration"
+          ],
+          "correctAnswer": "Earthquake, trembling heavens, darkened sun and moon, withdrawal of stars; they signify divine judgment",
+          "explanation": "Joel 2:10-11 lists cosmic disturbances that are typical prophetic signs of God's judgment and the approaching day of the LORD.",
+          "verseReference": "Joel 2:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-hard-q8",
+          "question": "True or False: Joel 2:12-13 calls for external ritual sacrifice as the primary means of repentance.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Joel 2:13 emphasizes 'rend your heart, and not your garments,' highlighting inner repentance over external rituals.",
+          "verseReference": "Joel 2:13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-hard-q9",
+          "question": "Joel 2:15-16 commands the sanctification of a fast and assembly. What is the significance of including 'the bridegroom' and 'the bride' in this gathering?",
+          "type": "multiple-choice",
+          "options": [
+            "To indicate that all social classes and ages participate in the communal repentance",
+            "To focus only on married couples",
+            "To celebrate a wedding amid the fast",
+            "To exclude children from the assembly"
+          ],
+          "correctAnswer": "To indicate that all social classes and ages participate in the communal repentance",
+          "explanation": "Mentioning the bridegroom and bride in Joel 2:16 symbolizes inclusivity, showing that everyone from elders to infants, and all social statuses, are called to repent.",
+          "verseReference": "Joel 2:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-hard-q10",
+          "question": "What type of prayer do the priests offer in Joel 2:17 and what is its theological significance?",
+          "type": "multiple-choice",
+          "options": [
+            "Intercessory prayer pleading for mercy and protection from reproach",
+            "Thanksgiving for past blessings",
+            "A curse upon the enemies",
+            "Silent meditation"
+          ],
+          "correctAnswer": "Intercessory prayer pleading for mercy and protection from reproach",
+          "explanation": "Joel 2:17 shows priests weeping and pleading with God to spare His people and prevent them from becoming a disgrace among the nations, which reflects intercession.",
+          "verseReference": "Joel 2:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-hard-q11",
+          "question": "Joel 2:18-19 depicts the LORD's response after repentance. Which of the following best describes this response?",
+          "type": "multiple-choice",
+          "options": [
+            "The LORD will be jealous for His land, pity His people, and send abundant provision",
+            "The LORD will destroy the land and withdraw His blessings",
+            "The LORD will remain silent and indifferent",
+            "The LORD will punish the priests"
+          ],
+          "correctAnswer": "The LORD will be jealous for His land, pity His people, and send abundant provision",
+          "explanation": "Joel 2:18-19 reveals God's compassionate response to repentance, promising restoration and provision to His people.",
+          "verseReference": "Joel 2:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-hard-q12",
+          "question": "How does Joel 2:25 illustrate the theme of restoration, and which other biblical book contains a similar promise of restoration after judgment?",
+          "type": "multiple-choice",
+          "options": [
+            "It promises restoration of years lost to locusts, similar to Jeremiah's promise of restoration (Jeremiah 30)",
+            "It promises immediate prosperity, similar to Proverbs",
+            "It promises new laws, similar to Deuteronomy",
+            "It promises conquest, similar to Joshua"
+          ],
+          "correctAnswer": "It promises restoration of years lost to locusts, similar to Jeremiah's promise of restoration (Jeremiah 30)",
+          "explanation": "Joel 2:25's promise to restore years lost parallels Jeremiah 30's theme of restoring Israel after exile and judgment.",
+          "verseReference": "Joel 2:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-hard-q13",
+          "question": "In Joel 2:28-29, God promises to pour out His spirit on all flesh. How is this passage referenced in the New Testament?",
+          "type": "multiple-choice",
+          "options": [
+            "It is quoted in Acts 2 as the prophecy fulfilled at Pentecost",
+            "It is referenced in Revelation 21 about the new heaven",
+            "It is cited in Hebrews about Melchizedek",
+            "It is mentioned in Matthew's genealogy"
+          ],
+          "correctAnswer": "It is quoted in Acts 2 as the prophecy fulfilled at Pentecost",
+          "explanation": "Acts 2:16-21 directly quotes Joel 2:28-29, indicating the outpouring of the Spirit at Pentecost as fulfillment of Joel's prophecy.",
+          "verseReference": "Joel 2:28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-hard-q14",
+          "question": "Joel 2:30-31 describes wonders in the heavens and a darkened sun and moon before the day of the LORD. Which New Testament book uses similar imagery to describe the apocalypse?",
+          "type": "multiple-choice",
+          "options": [
+            "Revelation",
+            "John",
+            "Romans",
+            "Psalms"
+          ],
+          "correctAnswer": "Revelation",
+          "explanation": "Revelation 6:12-14 uses similar cosmic signs—darkened sun, blood moon—as apocalyptic imagery, echoing Joel 2:30-31.",
+          "verseReference": "Joel 2:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-hard-q15",
+          "question": "According to Joel 2:32, what is the condition for deliverance on the great and terrible day of the LORD?",
+          "type": "multiple-choice",
+          "options": [
+            "Calling on the name of the LORD",
+            "Offering sacrifices",
+            "Performing miracles",
+            "Fasting and weeping"
+          ],
+          "correctAnswer": "Calling on the name of the LORD",
+          "explanation": "Joel 2:32 states that whoever calls on the name of the LORD will be delivered, emphasizing faith and reliance on God for salvation.",
+          "verseReference": "Joel 2:32",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "joel-2-quiz",
+      "tags": [
+        "joel",
+        "chapter-2",
+        "joel",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "joel-2-theological",
+      "title": "Joel Chapter 2 Quiz - Theological Level",
+      "description": "Deep biblical theology from Joel Chapter 2 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Joel",
+      "chapter": 2,
+      "questions": [
+        {
+          "id": "joel-2-theological-q1",
+          "question": "What is the primary reason given in Joel 2:1 for sounding the trumpet in Zion?",
+          "type": "multiple-choice",
+          "options": [
+            "Because the day of the LORD cometh and is near",
+            "To announce a harvest festival",
+            "To call the people to battle against enemies",
+            "To celebrate the restoration of Israel"
+          ],
+          "correctAnswer": "Because the day of the LORD cometh and is near",
+          "explanation": "Joel 2:1 commands the blowing of the trumpet to alert the inhabitants because the day of the LORD is coming soon. This day signifies God's intervention in history (cf. Amos 5:18, Zephaniah 1:14, Malachi 4:5, Acts 2:20).",
+          "verseReference": "Joel 2:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-theological-q2",
+          "question": "Joel 2:2 describes the day of the LORD as a day of what characteristics?",
+          "type": "multiple-choice",
+          "options": [
+            "Darkness, gloominess, clouds, and thick darkness",
+            "Light, joy, peace, and prosperity",
+            "War, famine, pestilence, and death",
+            "Harvest, singing, dancing, and rejoicing"
+          ],
+          "correctAnswer": "Darkness, gloominess, clouds, and thick darkness",
+          "explanation": "Joel 2:2 portrays the day of the LORD as a day filled with darkness and gloom, symbolizing judgment and divine wrath (cf. Isaiah 13:10, Matthew 24:29, Revelation 6:12, Exodus 10:21-23).",
+          "verseReference": "Joel 2:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-theological-q3",
+          "question": "According to Joel 2:3, how is the land described before and after the invading force?",
+          "type": "multiple-choice",
+          "options": [
+            "Like the garden of Eden before them, and behind them a desolate wilderness",
+            "Like a barren desert before them, and a fertile field behind them",
+            "Like a peaceful city before them, and a burning furnace behind them",
+            "Like a stormy sea before them, and a calm lake behind them"
+          ],
+          "correctAnswer": "Like the garden of Eden before them, and behind them a desolate wilderness",
+          "explanation": "Joel 2:3 uses the imagery of Eden to describe the land's fertility before the army, and desolation behind them, illustrating the devastating effect of God's judgment (cf. Genesis 2:8, Isaiah 51:3, Ezekiel 36:35, Revelation 22:1-2).",
+          "verseReference": "Joel 2:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-theological-q4",
+          "question": "In Joel 2:11, what is said about the one who executes God's word?",
+          "type": "multiple-choice",
+          "options": [
+            "He is strong and the day of the LORD is great and terrible",
+            "He is merciful and slow to anger",
+            "He is gentle and full of compassion",
+            "He is weak and needs help from His people"
+          ],
+          "correctAnswer": "He is strong and the day of the LORD is great and terrible",
+          "explanation": "Joel 2:11 highlights God's strength in executing judgment and the dreadful nature of the day of the LORD, emphasizing the holiness and justice of God (cf. Psalm 24:8, Nahum 1:3, Hebrews 12:29, Revelation 6:17).",
+          "verseReference": "Joel 2:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-theological-q5",
+          "question": "What does God call His people to do in Joel 2:12 as a response to the coming day of the LORD?",
+          "type": "multiple-choice",
+          "options": [
+            "Turn to Him with all their heart, fasting, weeping, and mourning",
+            "Build altars and offer sacrifices",
+            "Gather weapons and prepare for war",
+            "Sing songs of praise and rejoice"
+          ],
+          "correctAnswer": "Turn to Him with all their heart, fasting, weeping, and mourning",
+          "explanation": "Joel 2:12 urges heartfelt repentance as the proper response to God's impending judgment, reflecting themes of contrition found in 2 Chronicles 7:14, Jonah 3:5-10, Psalm 34:18, and Matthew 4:17.",
+          "verseReference": "Joel 2:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-theological-q6",
+          "question": "According to Joel 2:13, what kind of God are we called to turn to?",
+          "type": "multiple-choice",
+          "options": [
+            "Gracious, merciful, slow to anger, and of great kindness",
+            "Jealous, wrathful, and unforgiving",
+            "Distant, unknowable, and severe",
+            "Indifferent and passive"
+          ],
+          "correctAnswer": "Gracious, merciful, slow to anger, and of great kindness",
+          "explanation": "Joel 2:13 describes God's character emphasizing His grace and mercy, consistent with Exodus 34:6, Nehemiah 9:17, Psalm 103:8, and Ephesians 2:4.",
+          "verseReference": "Joel 2:13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-theological-q7",
+          "question": "What is the purpose of sanctifying a fast and calling a solemn assembly as stated in Joel 2:15?",
+          "type": "multiple-choice",
+          "options": [
+            "To seek the LORD's mercy and avert His judgment",
+            "To celebrate the harvest and give thanks",
+            "To prepare for battle against enemies",
+            "To inaugurate a new king"
+          ],
+          "correctAnswer": "To seek the LORD's mercy and avert His judgment",
+          "explanation": "Joel 2:15 calls for communal repentance and humility to appeal to God's mercy, paralleling traditions in Leviticus 23:27, Ezra 8:21-23, Nehemiah 9:1-3, and Acts 13:24.",
+          "verseReference": "Joel 2:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-theological-q8",
+          "question": "In Joel 2:17, what is the priests' role amid the impending judgment?",
+          "type": "multiple-choice",
+          "options": [
+            "To weep between the porch and the altar and plead for God to spare His people",
+            "To lead sacrifices and burnt offerings",
+            "To lead the army into battle",
+            "To proclaim victory over the nations"
+          ],
+          "correctAnswer": "To weep between the porch and the altar and plead for God to spare His people",
+          "explanation": "Joel 2:17 shows priests interceding for the people, highlighting their mediatory role similar to Exodus 32:30-32, Numbers 16:46-50, Psalm 99:6, and Hebrews 7:25.",
+          "verseReference": "Joel 2:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-theological-q9",
+          "question": "What promise does God make in Joel 2:19 regarding His people and the land?",
+          "type": "multiple-choice",
+          "options": [
+            "He will send corn, wine, and oil so they shall be satisfied",
+            "He will destroy the land and scatter His people",
+            "He will hide His face and allow enemies to triumph",
+            "He will withhold rain and cause famine"
+          ],
+          "correctAnswer": "He will send corn, wine, and oil so they shall be satisfied",
+          "explanation": "Joel 2:19 promises restoration and provision after repentance, echoing God's covenant blessings in Deuteronomy 28:4, Psalm 65:9-13, Isaiah 55:10-11, and John 6:35.",
+          "verseReference": "Joel 2:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-theological-q10",
+          "question": "According to Joel 2:25, what will God restore to His people?",
+          "type": "multiple-choice",
+          "options": [
+            "The years that the locust and other pests have eaten",
+            "The kingship and political power",
+            "The military strength and weapons",
+            "The temple and altar"
+          ],
+          "correctAnswer": "The years that the locust and other pests have eaten",
+          "explanation": "Joel 2:25 speaks of divine restoration of what was lost through judgment, a theme found also in Jeremiah 30:17, Isaiah 61:7, Psalm 126:4-6, and 2 Corinthians 1:20.",
+          "verseReference": "Joel 2:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-theological-q11",
+          "question": "What does Joel 2:27 say will be known by the people after restoration?",
+          "type": "multiple-choice",
+          "options": [
+            "That the LORD is in the midst of Israel and He is their God",
+            "That their enemies have been defeated forever",
+            "That the temple will never be destroyed again",
+            "That the kings of Israel are divinely appointed"
+          ],
+          "correctAnswer": "That the LORD is in the midst of Israel and He is their God",
+          "explanation": "Joel 2:27 affirms God's presence and exclusive deity, central to biblical monotheism (cf. Deuteronomy 6:4, Psalm 46:5, Jeremiah 31:33, John 14:23).",
+          "verseReference": "Joel 2:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-theological-q12",
+          "question": "What future event involving the Spirit does Joel 2:28 prophesy?",
+          "type": "multiple-choice",
+          "options": [
+            "God will pour out His Spirit on all flesh, leading to prophecy, dreams, and visions",
+            "The Spirit will be withdrawn from the earth",
+            "Only priests will receive the Spirit",
+            "The Spirit will rest solely on kings and prophets"
+          ],
+          "correctAnswer": "God will pour out His Spirit on all flesh, leading to prophecy, dreams, and visions",
+          "explanation": "Joel 2:28 predicts a universal outpouring of the Spirit, fulfilled at Pentecost (Acts 2:17-18), consistent with Ezekiel 36:27, Isaiah 44:3, and John 7:38-39.",
+          "verseReference": "Joel 2:28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-theological-q13",
+          "question": "Joel 2:30 describes signs in the heavens before the day of the LORD. Which of the following is NOT one of those signs?",
+          "type": "multiple-choice",
+          "options": [
+            "Pillars of smoke",
+            "Blood and fire",
+            "Earthquakes shaking the foundations",
+            "Wonders in the heavens and in the earth"
+          ],
+          "correctAnswer": "Earthquakes shaking the foundations",
+          "explanation": "Joel 2:30 mentions wonders like blood, fire, and pillars of smoke, but does not specifically mention earthquakes here, though they appear elsewhere (Joel 2:10, Matthew 24:7, Revelation 6:12).",
+          "verseReference": "Joel 2:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-theological-q14",
+          "question": "According to Joel 2:31, what will happen to the sun and moon before the great day of the LORD?",
+          "type": "multiple-choice",
+          "options": [
+            "The sun shall be turned into darkness, and the moon into blood",
+            "The sun shall shine brighter, and the moon will glow like the sun",
+            "The sun and moon will both be hidden behind clouds",
+            "The sun and moon will cease to exist"
+          ],
+          "correctAnswer": "The sun shall be turned into darkness, and the moon into blood",
+          "explanation": "Joel 2:31 describes cosmic disturbances signaling divine judgment, echoed in Matthew 24:29, Acts 2:20, Revelation 6:12, and Isaiah 13:10.",
+          "verseReference": "Joel 2:31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "joel-2-theological-q15",
+          "question": "What promise is given in Joel 2:32 regarding those who call on the name of the LORD?",
+          "type": "multiple-choice",
+          "options": [
+            "They shall be delivered and find salvation in Zion and Jerusalem",
+            "They will be judged and punished",
+            "They will be ignored by God",
+            "They will be exiled from the land"
+          ],
+          "correctAnswer": "They shall be delivered and find salvation in Zion and Jerusalem",
+          "explanation": "Joel 2:32 offers assurance of salvation for those who call on God, a theme consistent with Romans 10:13, Psalm 50:15, Isaiah 12:2, and Acts 2:21.",
+          "verseReference": "Joel 2:32",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "joel-2-quiz",
+      "tags": [
+        "joel",
+        "chapter-2",
+        "joel",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

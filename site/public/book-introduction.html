@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book of Genesis - Bible Quiz & Study</title>
+    <meta name="description" content="Explore the Book of Genesis with comprehensive study materials, chapter quizzes, and key themes. Learn about creation, the fall, and God's covenant.">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom CSS for design system -->
+    <style>
+        :root {
+            --navy: #2C3E50;
+            --blue: #3B82F6;
+            --cream: #F5F1E8;
+            --gold: #C9A961;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--cream);
+            color: var(--navy);
+        }
+        
+        /* Header Styles */
+        .header-navy {
+            color: var(--navy);
+        }
+        
+        .accent-blue {
+            color: var(--blue);
+        }
+        
+        .bg-navy {
+            background-color: var(--navy);
+        }
+        
+        .bg-blue {
+            background-color: var(--blue);
+        }
+        
+        .bg-cream {
+            background-color: var(--cream);
+        }
+        
+        .text-gold {
+            color: var(--gold);
+        }
+        
+        .border-gold {
+            border-color: var(--gold);
+        }
+        
+        /* Hero Gradient */
+        .hero-gradient {
+            background: linear-gradient(135deg, var(--blue) 0%, #1E40AF 100%);
+        }
+        
+        /* Badge Styles */
+        .badge {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        /* Theme Tags */
+        .theme-tag {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+            background-color: var(--cream);
+            border: 2px solid var(--gold);
+            color: var(--navy);
+            font-weight: 600;
+            font-size: 0.875rem;
+        }
+        
+        /* Verse Card */
+        .verse-card {
+            background: white;
+            border-left: 4px solid var(--gold);
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 8px rgba(44, 62, 80, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .verse-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 16px rgba(44, 62, 80, 0.15);
+        }
+        
+        /* Chapter Grid */
+        .chapter-card {
+            background: white;
+            border: 2px solid var(--cream);
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .chapter-card:hover {
+            border-color: var(--blue);
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
+            transform: translateY(-2px);
+        }
+        
+        .chapter-number {
+            font-size: 1.875rem;
+            font-weight: 700;
+            color: var(--blue);
+            margin-bottom: 0.5rem;
+        }
+        
+        .chapter-title {
+            font-size: 0.875rem;
+            color: var(--navy);
+            font-weight: 600;
+        }
+        
+        /* Stats Bar */
+        .stats-bar {
+            background: white;
+            border-top: 3px solid var(--gold);
+            border-bottom: 3px solid var(--gold);
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 1.5rem;
+        }
+        
+        .stat-number {
+            font-size: 1.875rem;
+            font-weight: 700;
+            color: var(--blue);
+        }
+        
+        .stat-label {
+            font-size: 0.875rem;
+            color: var(--navy);
+            font-weight: 600;
+            margin-top: 0.25rem;
+        }
+        
+        /* Section Headers */
+        .section-header {
+            font-size: 1.875rem;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 3px solid var(--gold);
+        }
+        
+        /* Outline Section */
+        .outline-item {
+            background: white;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-radius: 0.5rem;
+            border-left: 4px solid var(--blue);
+        }
+        
+        .outline-title {
+            font-size: 1.125rem;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 0.5rem;
+        }
+        
+        .outline-range {
+            font-size: 0.875rem;
+            color: var(--blue);
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+        
+        .outline-description {
+            font-size: 0.95rem;
+            color: #555;
+            line-height: 1.6;
+        }
+        
+        /* CTA Button */
+        .btn-primary {
+            background-color: var(--blue);
+            color: white;
+            padding: 0.75rem 2rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-block;
+            text-decoration: none;
+        }
+        
+        .btn-primary:hover {
+            background-color: #1E40AF;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+        }
+        
+        /* Breadcrumb */
+        .breadcrumb {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 2rem;
+        }
+        
+        .breadcrumb a {
+            color: var(--blue);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+        
+        .breadcrumb-separator {
+            color: #999;
+        }
+        
+        /* Navigation Grid */
+        .book-nav-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+        }
+        
+        .book-nav-item {
+            background: white;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            text-align: center;
+            border: 2px solid var(--cream);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: var(--navy);
+            font-weight: 600;
+        }
+        
+        .book-nav-item:hover {
+            border-color: var(--blue);
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
+            transform: translateY(-2px);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .section-header {
+                font-size: 1.5rem;
+            }
+            
+            .stat-item {
+                padding: 1rem;
+            }
+            
+            .stat-number {
+                font-size: 1.5rem;
+            }
+            
+            .chapter-number {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="bg-navy text-white py-4 shadow-lg">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center">
+                <h1 class="text-2xl font-bold">Bible Quiz & Study</h1>
+                <nav class="hidden md:flex gap-6">
+                    <a href="#" class="hover:text-yellow-300 transition">Home</a>
+                    <a href="#" class="hover:text-yellow-300 transition">Quizzes</a>
+                    <a href="#" class="hover:text-yellow-300 transition">Books</a>
+                    <a href="#" class="hover:text-yellow-300 transition">Study</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="bg-cream">
+        <!-- Breadcrumb -->
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+            <div class="breadcrumb">
+                <a href="#">Home</a>
+                <span class="breadcrumb-separator">/</span>
+                <a href="#">Bible</a>
+                <span class="breadcrumb-separator">/</span>
+                <a href="#">Old Testament</a>
+                <span class="breadcrumb-separator">/</span>
+                <span>Book of Genesis</span>
+            </div>
+        </div>
+
+        <!-- Hero Section -->
+        <section class="hero-gradient text-white py-16 mb-8">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
+                    <div>
+                        <h1 class="text-5xl md:text-6xl font-bold mb-4">Book of Genesis</h1>
+                        <p class="text-xl opacity-90 mb-6">The Beginning of God's Story</p>
+                        <div class="flex flex-wrap gap-3">
+                            <span class="badge">Old Testament</span>
+                            <span class="badge">Pentateuch</span>
+                            <span class="badge">Historical</span>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-6xl font-bold opacity-20 mb-4">01</div>
+                        <p class="text-sm opacity-75">First Book of the Bible</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Stats Bar -->
+        <section class="stats-bar mb-12">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                    <div class="stat-item border-r border-gray-200 md:border-r">
+                        <div class="stat-number">50</div>
+                        <div class="stat-label">Chapters</div>
+                    </div>
+                    <div class="stat-item border-r border-gray-200 md:border-r">
+                        <div class="stat-number">1,533</div>
+                        <div class="stat-label">Verses</div>
+                    </div>
+                    <div class="stat-item border-r border-gray-200 md:border-r">
+                        <div class="stat-number">Moses</div>
+                        <div class="stat-label">Author</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">1400</div>
+                        <div class="stat-label">BC (Approx.)</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Overview Section -->
+        <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+            <h2 class="section-header">Overview</h2>
+            <div class="bg-white rounded-lg p-8 shadow-md">
+                <p class="text-lg leading-relaxed text-gray-700 mb-4">
+                    The Book of Genesis is the foundational narrative of the Bible, establishing the theological framework for all of Scripture. It begins with the creation of the world and humanity, and traces the early history of God's people through the patriarchs Abraham, Isaac, and Jacob.
+                </p>
+                <p class="text-lg leading-relaxed text-gray-700">
+                    Genesis reveals God's character as Creator, Judge, and Redeemer. It introduces key theological concepts including the image of God in humanity, the reality of sin and its consequences, and God's covenant promises that would shape the entire biblical narrative. The book concludes with Joseph's rise to prominence in Egypt, setting the stage for the exodus and the formation of Israel as God's chosen nation.
+                </p>
+            </div>
+        </section>
+
+        <!-- Key Themes Section -->
+        <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+            <h2 class="section-header">Key Themes</h2>
+            <div class="flex flex-wrap gap-4">
+                <span class="theme-tag">Creation & Order</span>
+                <span class="theme-tag">The Fall & Sin</span>
+                <span class="theme-tag">Redemption & Grace</span>
+                <span class="theme-tag">God's Covenant</span>
+                <span class="theme-tag">Faith & Obedience</span>
+                <span class="theme-tag">God's Sovereignty</span>
+            </div>
+        </section>
+
+        <!-- Book Outline Section -->
+        <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+            <h2 class="section-header">Book Outline</h2>
+            <div class="space-y-4">
+                <div class="outline-item">
+                    <div class="outline-title">Creation & Humanity</div>
+                    <div class="outline-range">Chapters 1-2</div>
+                    <div class="outline-description">
+                        God creates the heavens, earth, and all living creatures. Humanity is created in God's image, and Adam and Eve are placed in the Garden of Eden to steward creation.
+                    </div>
+                </div>
+
+                <div class="outline-item">
+                    <div class="outline-title">The Fall & Early Humanity</div>
+                    <div class="outline-range">Chapters 3-11</div>
+                    <div class="outline-description">
+                        Adam and Eve disobey God, resulting in sin entering the world. The narrative follows humanity's descent into sin, culminating in the flood, and God's covenant with Noah. The Tower of Babel demonstrates humanity's continued rebellion.
+                    </div>
+                </div>
+
+                <div class="outline-item">
+                    <div class="outline-title">Abraham & God's Covenant</div>
+                    <div class="outline-range">Chapters 12-25</div>
+                    <div class="outline-description">
+                        God calls Abram (later Abraham) and establishes an everlasting covenant, promising him descendants and land. Abraham's faith is tested through trials, including the near-sacrifice of Isaac, demonstrating his obedience to God.
+                    </div>
+                </div>
+
+                <div class="outline-item">
+                    <div class="outline-title">Isaac & Jacob</div>
+                    <div class="outline-range">Chapters 26-36</div>
+                    <div class="outline-description">
+                        Isaac inherits the covenant promises and has twin sons, Esau and Jacob. Jacob, through deception and divine encounter, becomes Israel and receives the covenant blessing. His twelve sons become the foundation of the twelve tribes of Israel.
+                    </div>
+                </div>
+
+                <div class="outline-item">
+                    <div class="outline-title">Joseph & God's Providence</div>
+                    <div class="outline-range">Chapters 37-50</div>
+                    <div class="outline-description">
+                        Joseph, Jacob's favored son, is sold into slavery but rises to prominence in Egypt through God's guidance. His story demonstrates God's providential care and sets the stage for Israel's future in Egypt and eventual exodus.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Verses Section -->
+        <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+            <h2 class="section-header">Key Verses</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="verse-card">
+                    <p class="text-sm text-blue-600 font-bold mb-2">Genesis 1:27</p>
+                    <p class="text-gray-700 italic mb-3">
+                        "So God created mankind in his own image, in the image of God he created them; male and female he created them."
+                    </p>
+                    <p class="text-xs text-gray-500">Humanity's divine purpose and worth</p>
+                </div>
+
+                <div class="verse-card">
+                    <p class="text-sm text-blue-600 font-bold mb-2">Genesis 3:15</p>
+                    <p class="text-gray-700 italic mb-3">
+                        "And I will put enmity between you and the woman, and between your offspring and hers; he will crush your head, and you will strike his heel."
+                    </p>
+                    <p class="text-xs text-gray-500">The first promise of redemption</p>
+                </div>
+
+                <div class="verse-card">
+                    <p class="text-sm text-blue-600 font-bold mb-2">Genesis 12:2-3</p>
+                    <p class="text-gray-700 italic mb-3">
+                        "I will make you into a great nation, and I will bless you; I will make your name great, and you will be a blessing... and all peoples on earth will be blessed through you."
+                    </p>
+                    <p class="text-xs text-gray-500">God's covenant with Abraham</p>
+                </div>
+
+                <div class="verse-card">
+                    <p class="text-sm text-blue-600 font-bold mb-2">Genesis 50:20</p>
+                    <p class="text-gray-700 italic mb-3">
+                        "You intended to harm me, but God intended it for good to accomplish what is now being done, the saving of many lives."
+                    </p>
+                    <p class="text-xs text-gray-500">God's providence in Joseph's life</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chapter Grid Section -->
+        <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+            <h2 class="section-header">Chapters</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 mb-8">
+                <a href="#" class="chapter-card">
+                    <div class="chapter-number">1</div>
+                    <div class="chapter-title">Creation</div>
+                </a>
+                <a href="#" class="chapter-card">
+                    <div class="chapter-number">2</div>
+                    <div class="chapter-title">Garden of Eden</div>
+                </a>
+                <a href="#" class="chapter-card">
+                    <div class="chapter-number">3</div>
+                    <div class="chapter-title">The Fall</div>
+                </a>
+                <a href="#" class="chapter-card">
+                    <div class="chapter-number">4</div>
+                    <div class="chapter-title">Cain & Abel</div>
+                </a>
+                <a href="#" class="chapter-card">
+                    <div class="chapter-number">5</div>
+                    <div class="chapter-title">Genealogy</div>
+                </a>
+                <a href="#" class="chapter-card">
+                    <div class="chapter-number">6</div>
+                    <div class="chapter-title">Noah's Ark</div>
+                </a>
+                <a href="#" class="chapter-card">
+                    <div class="chapter-number">7</div>
+                    <div class="chapter-title">The Flood</div>
+                </a>
+                <a href="#" class="chapter-card">
+                    <div class="chapter-number">8</div>
+                    <div class="chapter-title">After the Flood</div>
+                </a>
+                <a href="#" class="chapter-card">
+                    <div class="chapter-number">9</div>
+                    <div class="chapter-title">Noah's Covenant</div>
+                </a>
+                <a href="#" class="chapter-card">
+                    <div class="chapter-number">10</div>
+                    <div class="chapter-title">Nations Spread</div>
+                </a>
+            </div>
+            <div class="text-center">
+                <a href="#" class="btn-primary">View All 50 Chapters</a>
+            </div>
+        </section>
+
+        <!-- Related Quizzes CTA -->
+        <section class="bg-navy text-white py-16 mb-16">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-4xl font-bold mb-4">Test Your Knowledge</h2>
+                <p class="text-xl opacity-90 mb-8 max-w-2xl mx-auto">
+                    Deepen your understanding of Genesis with our comprehensive quizzes. Challenge yourself with chapter-by-chapter questions or take the complete book quiz.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded font-bold transition">
+                        Chapter Quizzes
+                    </a>
+                    <a href="#" class="border-2 border-white hover:bg-white hover:text-navy text-white px-8 py-3 rounded font-bold transition">
+                        Complete Book Quiz
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Other Books Navigation -->
+        <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+            <h2 class="section-header">Explore Other Books</h2>
+            <div class="book-nav-grid">
+                <a href="#" class="book-nav-item">Exodus</a>
+                <a href="#" class="book-nav-item">Leviticus</a>
+                <a href="#" class="book-nav-item">Numbers</a>
+                <a href="#" class="book-nav-item">Deuteronomy</a>
+                <a href="#" class="book-nav-item">Joshua</a>
+                <a href="#" class="book-nav-item">Judges</a>
+                <a href="#" class="book-nav-item">Ruth</a>
+                <a href="#" class="book-nav-item">1 Samuel</a>
+                <a href="#" class="book-nav-item">2 Samuel</a>
+                <a href="#" class="book-nav-item">1 Kings</a>
+                <a href="#" class="book-nav-item">2 Kings</a>
+                <a href="#" class="book-nav-item">View All Books</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-navy text-white py-12 mt-16">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="font-bold text-lg mb-4">Bible Quiz & Study</h3>
+                    <p class="text-sm opacity-75">Explore Scripture with interactive quizzes and comprehensive study materials.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-sm opacity-75">
+                        <li><a href="#" class="hover:text-yellow-300 transition">Home</a></li>
+                        <li><a href="#" class="hover:text-yellow-300 transition">All Books</a></li>
+                        <li><a href="#" class="hover:text-yellow-300 transition">Quizzes</a></li>
+                        <li><a href="#" class="hover:text-yellow-300 transition">Study Guides</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Resources</h4>
+                    <ul class="space-y-2 text-sm opacity-75">
+                        <li><a href="#" class="hover:text-yellow-300 transition">About</a></li>
+                        <li><a href="#" class="hover:text-yellow-300 transition">Contact</a></li>
+                        <li><a href="#" class="hover:text-yellow-300 transition">Privacy</a></li>
+                        <li><a href="#" class="hover:text-yellow-300 transition">Terms</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Follow Us</h4>
+                    <ul class="space-y-2 text-sm opacity-75">
+                        <li><a href="#" class="hover:text-yellow-300 transition">Facebook</a></li>
+                        <li><a href="#" class="hover:text-yellow-300 transition">Twitter</a></li>
+                        <li><a href="#" class="hover:text-yellow-300 transition">Instagram</a></li>
+                        <li><a href="#" class="hover:text-yellow-300 transition">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-8 text-center text-sm opacity-75">
+                <p>&copy; 2025 Bible Quiz & Study. All rights reserved. Scripture quotations from the NIV.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

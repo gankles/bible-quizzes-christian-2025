@@ -1,0 +1,983 @@
+{
+  "id": "luke-23-tabbed",
+  "title": "Luke Chapter 23 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Luke chapter 23 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "luke-23-easy",
+      "title": "Luke Chapter 23 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Luke Chapter 23.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 23,
+      "questions": [
+        {
+          "id": "luke-23-easy-q1",
+          "question": "Who did the multitude lead Jesus to according to Luke 23:1?",
+          "type": "multiple-choice",
+          "options": [
+            "Pilate",
+            "Herod",
+            "Caesar",
+            "Peter"
+          ],
+          "correctAnswer": "Pilate",
+          "explanation": "Luke 23:1 states that the whole multitude led Jesus unto Pilate.",
+          "verseReference": "Luke 23:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-23-easy-q2",
+          "question": "What accusation did the people make against Jesus in Luke 23:2?",
+          "type": "multiple-choice",
+          "options": [
+            "Perverting the nation and forbidding tribute to Caesar",
+            "Stealing from the temple",
+            "Blasphemy against God",
+            "Breaking the Sabbath"
+          ],
+          "correctAnswer": "Perverting the nation and forbidding tribute to Caesar",
+          "explanation": "Luke 23:2 records the accusation that Jesus was perverting the nation and forbidding to give tribute to Caesar.",
+          "verseReference": "Luke 23:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-23-easy-q3",
+          "question": "What was Jesus' answer when Pilate asked if He was the King of the Jews in Luke 23:3?",
+          "type": "multiple-choice",
+          "options": [
+            "Thou sayest it",
+            "No",
+            "Yes",
+            "I am not"
+          ],
+          "correctAnswer": "Thou sayest it",
+          "explanation": "In Luke 23:3, Jesus answered Pilate by saying, 'Thou sayest it.'",
+          "verseReference": "Luke 23:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-23-easy-q4",
+          "question": "True or False: Pilate found fault in Jesus after examining Him according to Luke 23:4.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Luke 23:4 clearly states that Pilate said, 'I find no fault in this man.'",
+          "verseReference": "Luke 23:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-23-easy-q5",
+          "question": "Who did Pilate send Jesus to after learning He was from Galilee, as stated in Luke 23:7?",
+          "type": "multiple-choice",
+          "options": [
+            "Herod",
+            "Caesar",
+            "Peter",
+            "John"
+          ],
+          "correctAnswer": "Herod",
+          "explanation": "Luke 23:7 records that Pilate sent Jesus to Herod because Jesus was under Herod's jurisdiction.",
+          "verseReference": "Luke 23:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-23-easy-q6",
+          "question": "How did Herod respond when he saw Jesus according to Luke 23:8?",
+          "type": "multiple-choice",
+          "options": [
+            "He was exceeding glad",
+            "He was angry",
+            "He ignored him",
+            "He was fearful"
+          ],
+          "correctAnswer": "He was exceeding glad",
+          "explanation": "Luke 23:8 says Herod was exceeding glad because he desired to see Jesus for a long time.",
+          "verseReference": "Luke 23:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-23-easy-q7",
+          "question": "What did Herod and his men do to Jesus after mocking Him in Luke 23:11?",
+          "type": "multiple-choice",
+          "options": [
+            "Arrayed him in a gorgeous robe and sent him back to Pilate",
+            "Released him immediately",
+            "Beat him and sent him to prison",
+            "Crowned him king"
+          ],
+          "correctAnswer": "Arrayed him in a gorgeous robe and sent him back to Pilate",
+          "explanation": "Luke 23:11 states that Herod mocked Jesus, dressed Him in a gorgeous robe, then sent Him back to Pilate.",
+          "verseReference": "Luke 23:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-23-easy-q8",
+          "question": "What did Pilate say about Jesus after examining Him, according to Luke 23:14-15?",
+          "type": "multiple-choice",
+          "options": [
+            "He found no fault worthy of death",
+            "He found Jesus guilty",
+            "He sentenced Jesus to death",
+            "He did not examine Jesus"
+          ],
+          "correctAnswer": "He found no fault worthy of death",
+          "explanation": "In Luke 23:14-15, Pilate declares he found no fault in Jesus and that nothing worthy of death was done by Him.",
+          "verseReference": "Luke 23:14",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-23-easy-q9",
+          "question": "Who did the crowd ask Pilate to release instead of Jesus in Luke 23:18?",
+          "type": "multiple-choice",
+          "options": [
+            "Barabbas",
+            "Joseph",
+            "Simon",
+            "Peter"
+          ],
+          "correctAnswer": "Barabbas",
+          "explanation": "Luke 23:18 states the crowd cried out to release Barabbas instead of Jesus.",
+          "verseReference": "Luke 23:18",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-23-easy-q10",
+          "question": "True or False: Pilate was eager to crucify Jesus immediately without any hesitation according to Luke 23:22.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Luke 23:22 shows Pilate found no cause of death in Jesus and wanted to chastise and release Him.",
+          "verseReference": "Luke 23:22",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-23-easy-q11",
+          "question": "Who was compelled to carry Jesus' cross as mentioned in Luke 23:26?",
+          "type": "multiple-choice",
+          "options": [
+            "Simon the Cyrenian",
+            "Joseph of Arimathaea",
+            "Barabbas",
+            "Peter"
+          ],
+          "correctAnswer": "Simon the Cyrenian",
+          "explanation": "Luke 23:26 states that Simon, a Cyrenian, was made to bear the cross after Jesus.",
+          "verseReference": "Luke 23:26",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-23-easy-q12",
+          "question": "What did Jesus say to the daughters of Jerusalem in Luke 23:28?",
+          "type": "multiple-choice",
+          "options": [
+            "Weep not for me, but for yourselves and your children",
+            "Weep for me and my suffering",
+            "Rejoice for the kingdom is near",
+            "Do not weep at all"
+          ],
+          "correctAnswer": "Weep not for me, but for yourselves and your children",
+          "explanation": "In Luke 23:28, Jesus tells the daughters of Jerusalem to weep not for Him but for themselves and their children.",
+          "verseReference": "Luke 23:28",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-23-easy-q13",
+          "question": "Fill in the blank: According to Luke 23:34, Jesus said, 'Father, forgive them; for they know not what they ______.'",
+          "type": "fill-blank",
+          "options": [
+            "do",
+            "say",
+            "think",
+            "believe"
+          ],
+          "correctAnswer": "do",
+          "explanation": "Luke 23:34 records Jesus asking the Father to forgive them because they know not what they do.",
+          "verseReference": "Luke 23:34",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-23-easy-q14",
+          "question": "True or False: The veil of the temple was rent in the midst at the time of Jesus' death according to Luke 23:45.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 23:45 states that the veil of the temple was rent in the midst at Jesus' death.",
+          "verseReference": "Luke 23:45",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-23-easy-q15",
+          "question": "Who asked Pilate for the body of Jesus according to Luke 23:52?",
+          "type": "multiple-choice",
+          "options": [
+            "Joseph of Arimathaea",
+            "Simon the Cyrenian",
+            "Barabbas",
+            "Peter"
+          ],
+          "correctAnswer": "Joseph of Arimathaea",
+          "explanation": "Luke 23:52 tells us that Joseph of Arimathaea went to Pilate and begged for Jesus' body.",
+          "verseReference": "Luke 23:52",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "luke-23-quiz",
+      "tags": [
+        "luke",
+        "chapter-23",
+        "luke",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "luke-23-medium",
+      "title": "Luke Chapter 23 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Luke Chapter 23 to real-life situations.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 23,
+      "questions": [
+        {
+          "id": "luke-23-medium-q1",
+          "question": "A fellow believer is struggling with unjust accusations at work. Based on Luke 23, what biblical truth would you share about handling false accusations?",
+          "type": "multiple-choice",
+          "options": [
+            "Trust in God's justice and remain silent like Jesus did before Herod",
+            "Defend yourself aggressively to prove your innocence",
+            "Avoid all confrontation and isolate yourself",
+            "Seek revenge on those who accuse you"
+          ],
+          "correctAnswer": "Trust in God's justice and remain silent like Jesus did before Herod",
+          "explanation": "Luke 23:9 shows Jesus answered nothing to Herod's many questions, demonstrating humility and trust in God's timing. Luke 23:4 and 23:14-15 show Pilate found no fault in Jesus, emphasizing that God's justice prevails even amid false accusations.",
+          "verseReference": "Luke 23:9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-23-medium-q2",
+          "question": "How does Luke 23 teach us about forgiveness when facing mistreatment?",
+          "type": "multiple-choice",
+          "options": [
+            "Forgive those who wrong you as Jesus asked the Father to forgive his persecutors",
+            "Hold a grudge until justice is served",
+            "Avoid those who mistreat you",
+            "Demand an apology before forgiving"
+          ],
+          "correctAnswer": "Forgive those who wrong you as Jesus asked the Father to forgive his persecutors",
+          "explanation": "Luke 23:34 records Jesus saying, 'Father, forgive them; for they know not what they do,' teaching believers to forgive even in extreme suffering. This encourages humility and love for neighbors amid trials.",
+          "verseReference": "Luke 23:34",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-23-medium-q3",
+          "question": "When a Christian feels overwhelmed by suffering, what encouragement about perseverance can be drawn from Luke 23?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus bore suffering humbly and remained obedient to God's will",
+            "Suffering means God has abandoned you",
+            "Give up and seek comfort only",
+            "Blame others for your trials"
+          ],
+          "correctAnswer": "Jesus bore suffering humbly and remained obedient to God's will",
+          "explanation": "Luke 23:46 shows Jesus entrusting His spirit to the Father at death, exemplifying complete trust and obedience. Verses 26-31 show Jesus continuing to minister and teach even while suffering, encouraging perseverance.",
+          "verseReference": "Luke 23:46",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-23-medium-q4",
+          "question": "A believer is struggling to forgive a neighbor. What practical lesson does Luke 23 offer about love and forgiveness?",
+          "type": "multiple-choice",
+          "options": [
+            "Forgive others as Jesus forgave those who crucified Him",
+            "Only forgive if the other person asks first",
+            "Forgiveness is optional for believers",
+            "Keep a record of wrongs to protect yourself"
+          ],
+          "correctAnswer": "Forgive others as Jesus forgave those who crucified Him",
+          "explanation": "Jesus' prayer for forgiveness for His persecutors in Luke 23:34 models radical love and forgiveness. This teaches believers to forgive unconditionally, reflecting Christ's heart.",
+          "verseReference": "Luke 23:34",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-23-medium-q5",
+          "question": "Based on the interaction between the two malefactors in Luke 23, what does this passage teach about repentance and faith?",
+          "type": "multiple-choice",
+          "options": [
+            "True repentance leads to faith in Jesus and assurance of salvation",
+            "Faith is irrelevant in times of suffering",
+            "Repentance is only for the righteous",
+            "Salvation is based on works, not faith"
+          ],
+          "correctAnswer": "True repentance leads to faith in Jesus and assurance of salvation",
+          "explanation": "Luke 23:40-43 shows one malefactor rebuking the other and expressing faith in Jesus, who assures him of paradise, teaching the power of repentance and faith even at the last moment.",
+          "verseReference": "Luke 23:42",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-23-medium-q6",
+          "question": "How does Luke 23 teach believers to respond when facing unjust demands or peer pressure?",
+          "type": "multiple-choice",
+          "options": [
+            "Stand firm in integrity, like Pilate who initially found no fault in Jesus",
+            "Give in to demands to avoid conflict",
+            "Ignore justice and do what is popular",
+            "Act deceitfully to protect yourself"
+          ],
+          "correctAnswer": "Stand firm in integrity, like Pilate who initially found no fault in Jesus",
+          "explanation": "Pilate's initial judgment in Luke 23:4 and 23:14-15 shows integrity and reluctance to condemn an innocent man, teaching believers to hold to truth even under pressure.",
+          "verseReference": "Luke 23:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-23-medium-q7",
+          "question": "What does Luke 23 teach about humility and contentment in suffering?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus accepted suffering without resistance and entrusted His spirit to God",
+            "Demand comfort and avoid suffering at all costs",
+            "Boast about your trials to gain sympathy",
+            "Refuse to accept any hardship"
+          ],
+          "correctAnswer": "Jesus accepted suffering without resistance and entrusted His spirit to God",
+          "explanation": "Luke 23:46 records Jesus crying out and then giving up His spirit, showing humility and complete trust in God’s plan, offering an example of contentment through trials.",
+          "verseReference": "Luke 23:46",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-23-medium-q8",
+          "question": "How does Luke 23 encourage believers to support one another in times of grief or trial?",
+          "type": "multiple-choice",
+          "options": [
+            "Follow the example of the women who mourned and supported Jesus faithfully",
+            "Ignore others’ suffering to focus on your own",
+            "Criticize those who are weak",
+            "Leave the grieving alone without comfort"
+          ],
+          "correctAnswer": "Follow the example of the women who mourned and supported Jesus faithfully",
+          "explanation": "Luke 23:27 and 23:49 describe women and acquaintances standing by Jesus during His suffering, modeling compassionate support and fellowship for believers.",
+          "verseReference": "Luke 23:27",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-23-medium-q9",
+          "question": "True or False: According to Luke 23, Jesus performed miracles before Herod as Herod desired.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Luke 23:8-9 tells that Herod hoped to see a miracle, but Jesus answered him nothing, showing Jesus did not perform miracles on demand.",
+          "verseReference": "Luke 23:8-9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-23-medium-q10",
+          "question": "True or False: Pilate released Jesus immediately upon finding no fault in Him without yielding to the crowd.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Although Pilate found no fault (Luke 23:4, 14-15), he ultimately gave in to the crowd's demands and sentenced Jesus to be crucified (Luke 23:24-25).",
+          "verseReference": "Luke 23:24-25",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-23-medium-q11",
+          "question": "A believer asks about the importance of prayer and entrusting life to God in hardship. Based on Luke 23, how would you respond?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus’ final prayer entrusting His spirit to the Father models trust in God’s sovereignty",
+            "Prayer is unnecessary during suffering",
+            "Only pray when things are going well",
+            "Avoid praying about difficult situations"
+          ],
+          "correctAnswer": "Jesus’ final prayer entrusting His spirit to the Father models trust in God’s sovereignty",
+          "explanation": "Luke 23:46 shows Jesus praying, 'Father, into thy hands I commend my spirit,' teaching believers to trust God fully even in death and hardship.",
+          "verseReference": "Luke 23:46",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-23-medium-q12",
+          "question": "What example does Luke 23 give about serving others even in difficult circumstances?",
+          "type": "multiple-choice",
+          "options": [
+            "Simon of Cyrene was compelled to help Jesus carry the cross, showing the call to serve in trials",
+            "Avoid involvement in others’ struggles",
+            "Only serve when convenient",
+            "Ignore others’ burdens"
+          ],
+          "correctAnswer": "Simon of Cyrene was compelled to help Jesus carry the cross, showing the call to serve in trials",
+          "explanation": "Luke 23:26 records that Simon was made to carry Jesus’ cross, illustrating how Christians can be called to serve others especially during hardships.",
+          "verseReference": "Luke 23:26",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-23-medium-q13",
+          "question": "How does Luke 23 teach about integrity and honesty in leadership?",
+          "type": "multiple-choice",
+          "options": [
+            "Pilate honestly declared finding no fault in Jesus despite pressure",
+            "Leaders should lie to please the crowd",
+            "Deceit is acceptable to maintain power",
+            "Ignore truth to avoid conflict"
+          ],
+          "correctAnswer": "Pilate honestly declared finding no fault in Jesus despite pressure",
+          "explanation": "Luke 23:4 and 23:14-15 show Pilate’s honest assessment, teaching that leaders should uphold truth even under opposition.",
+          "verseReference": "Luke 23:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-23-medium-q14",
+          "question": "A fellow believer is struggling with fear facing trials. Based on Luke 23, what biblical truth would you share about courage and faith?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus faced suffering courageously, trusting God’s plan",
+            "Fear is a sign of weak faith and should be ignored",
+            "Avoid all trials to keep safe",
+            "Faith means never experiencing fear"
+          ],
+          "correctAnswer": "Jesus faced suffering courageously, trusting God’s plan",
+          "explanation": "Luke 23 shows Jesus enduring mockery, pain, and death with courage and trust (Luke 23:27-46), encouraging believers to persevere with faith.",
+          "verseReference": "Luke 23:27-46",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-23-medium-q15",
+          "question": "Fill in the blank: Jesus said to the daughters of Jerusalem, 'Weep not for me, but weep for ________.'",
+          "type": "fill-blank",
+          "options": [
+            "yourselves, and for your children",
+            "the temple and the city",
+            "your enemies and your neighbors",
+            "the soldiers and the priests"
+          ],
+          "correctAnswer": "yourselves, and for your children",
+          "explanation": "Luke 23:28 records Jesus instructing the daughters of Jerusalem to weep for themselves and their children, highlighting the importance of personal repentance and spiritual concern.",
+          "verseReference": "Luke 23:28",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "luke-23-quiz",
+      "tags": [
+        "luke",
+        "chapter-23",
+        "luke",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "luke-23-hard",
+      "title": "Luke Chapter 23 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Luke Chapter 23.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 23,
+      "questions": [
+        {
+          "id": "luke-23-hard-q1",
+          "question": "What accusation did the chief priests and people bring against Jesus before Pilate?",
+          "type": "multiple-choice",
+          "options": [
+            "Perverting the nation and forbidding tribute to Caesar",
+            "Blasphemy against God",
+            "Breaking the Sabbath",
+            "Leading a rebellion with armed men"
+          ],
+          "correctAnswer": "Perverting the nation and forbidding tribute to Caesar",
+          "explanation": "In Luke 23:2, they accused Jesus of perverting the nation and forbidding giving tribute to Caesar, claiming he said he was Christ a King.",
+          "verseReference": "Luke 23:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-hard-q2",
+          "question": "How did Jesus respond when Pilate asked if He was the King of the Jews?",
+          "type": "multiple-choice",
+          "options": [
+            "Thou sayest it",
+            "No, I am not",
+            "Yes, I am the King",
+            "He remained silent"
+          ],
+          "correctAnswer": "Thou sayest it",
+          "explanation": "Luke 23:3 records Jesus' answer to Pilate's question as 'Thou sayest it,' affirming the title indirectly.",
+          "verseReference": "Luke 23:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-hard-q3",
+          "question": "Why did Pilate send Jesus to Herod according to the chapter?",
+          "type": "multiple-choice",
+          "options": [
+            "Because Jesus was under Herod's jurisdiction",
+            "To seek Herod's approval for crucifixion",
+            "To let Herod perform a miracle",
+            "To punish Jesus with Herod"
+          ],
+          "correctAnswer": "Because Jesus was under Herod's jurisdiction",
+          "explanation": "Luke 23:6-7 explains Pilate sent Jesus to Herod upon learning he was a Galilean and thus under Herod's jurisdiction.",
+          "verseReference": "Luke 23:6-7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-hard-q4",
+          "question": "What was Herod's reaction when he saw Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "He was exceeding glad and hoped to see a miracle",
+            "He was angry and ordered immediate punishment",
+            "He ignored Jesus and sent him back",
+            "He questioned Jesus harshly and condemned him"
+          ],
+          "correctAnswer": "He was exceeding glad and hoped to see a miracle",
+          "explanation": "Luke 23:8 states Herod was exceeding glad because he had desired to see Jesus for a long time, hoping to witness a miracle.",
+          "verseReference": "Luke 23:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-hard-q5",
+          "question": "How did Herod and his soldiers treat Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "They mocked him, set him at nought, and arrayed him in a gorgeous robe",
+            "They defended him and released him",
+            "They prayed for him and blessed him",
+            "They kept him in prison without trial"
+          ],
+          "correctAnswer": "They mocked him, set him at nought, and arrayed him in a gorgeous robe",
+          "explanation": "Luke 23:11 describes Herod and his men mocking Jesus, treating him with contempt, and dressing him in a splendid robe before sending him back.",
+          "verseReference": "Luke 23:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-hard-q6",
+          "question": "What was the political significance of Pilate and Herod becoming friends on this day?",
+          "type": "multiple-choice",
+          "options": [
+            "They were previously enemies but united over the trial of Jesus",
+            "They united to oppose the Jewish people",
+            "They planned a rebellion against Rome",
+            "They agreed to release Jesus together"
+          ],
+          "correctAnswer": "They were previously enemies but united over the trial of Jesus",
+          "explanation": "Luke 23:12 notes that Pilate and Herod, who were previously at enmity, were made friends the same day, highlighting a political realignment centered on Jesus’ trial.",
+          "verseReference": "Luke 23:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-hard-q7",
+          "question": "What custom did Pilate refer to that required him to release one prisoner at the feast?",
+          "type": "multiple-choice",
+          "options": [
+            "The Passover amnesty for prisoners",
+            "The Feast of Tabernacles pardon",
+            "The Day of Atonement reprieve",
+            "The Sabbath release of captives"
+          ],
+          "correctAnswer": "The Passover amnesty for prisoners",
+          "explanation": "Luke 23:17 references the custom at the Passover feast where one prisoner was released, which Pilate tried to use to release Jesus.",
+          "verseReference": "Luke 23:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-hard-q8",
+          "question": "Who was released instead of Jesus, and what were his crimes?",
+          "type": "multiple-choice",
+          "options": [
+            "Barabbas, who was imprisoned for sedition and murder",
+            "Judas, who betrayed Jesus",
+            "Simon, a zealot rebel",
+            "Herod Antipas, for political reasons"
+          ],
+          "correctAnswer": "Barabbas, who was imprisoned for sedition and murder",
+          "explanation": "Luke 23:18-19 describes Barabbas as a man imprisoned for sedition in the city and murder, who was released instead of Jesus.",
+          "verseReference": "Luke 23:18-19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-hard-q9",
+          "question": "Who was compelled to carry Jesus’ cross, and what was his background?",
+          "type": "multiple-choice",
+          "options": [
+            "Simon, a Cyrenian coming out of the country",
+            "Joseph of Arimathaea, a counselor",
+            "A Roman centurion",
+            "One of the malefactors crucified alongside Jesus"
+          ],
+          "correctAnswer": "Simon, a Cyrenian coming out of the country",
+          "explanation": "Luke 23:26 states that Simon of Cyrene, coming from the country, was compelled to bear the cross after Jesus.",
+          "verseReference": "Luke 23:26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-hard-q10",
+          "question": "What is the literary significance of Jesus addressing the 'Daughters of Jerusalem' and telling them to weep for themselves and their children?",
+          "type": "multiple-choice",
+          "options": [
+            "It foreshadows coming judgment and suffering upon Jerusalem",
+            "It is a call for repentance and conversion immediately",
+            "It is a poetic lament about motherhood",
+            "It is an expression of Jesus’ regret for His fate"
+          ],
+          "correctAnswer": "It foreshadows coming judgment and suffering upon Jerusalem",
+          "explanation": "Luke 23:28-31 contains a prophetic lament where Jesus warns of future calamities, using metaphorical language about barren women and mountains covering them, signaling Jerusalem’s coming judgment.",
+          "verseReference": "Luke 23:28-31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-hard-q11",
+          "question": "What typological significance is found in Jesus being crucified between two malefactors?",
+          "type": "multiple-choice",
+          "options": [
+            "It fulfills the prophecy of the suffering servant bearing sin among the wicked",
+            "It represents Jesus’ victory over Roman authority",
+            "It shows Jesus’ equality with sinners",
+            "It is a symbol of Jewish and Gentile reconciliation"
+          ],
+          "correctAnswer": "It fulfills the prophecy of the suffering servant bearing sin among the wicked",
+          "explanation": "Luke 23:32-33 depicts Jesus crucified between two criminals, paralleling Isaiah’s suffering servant who is counted among transgressors, highlighting Jesus’ vicarious suffering.",
+          "verseReference": "Luke 23:32-33",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-hard-q12",
+          "question": "What is the significance of Jesus’ prayer, 'Father, forgive them; for they know not what they do'?",
+          "type": "multiple-choice",
+          "options": [
+            "It demonstrates Jesus’ mercy and intercession for his persecutors",
+            "It is a request for divine judgment on the crowd",
+            "It is a silent protest against injustice",
+            "It is a quotation from Psalm 22"
+          ],
+          "correctAnswer": "It demonstrates Jesus’ mercy and intercession for his persecutors",
+          "explanation": "Luke 23:34 highlights Jesus’ compassionate plea for forgiveness for those crucifying him, showing divine mercy despite human cruelty.",
+          "verseReference": "Luke 23:34",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-hard-q13",
+          "question": "True or False: The inscription above Jesus on the cross was written in Greek, Latin, and Hebrew.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 23:38 explicitly states that the superscription was written in Greek, Latin, and Hebrew, indicating the multilingual context of Jerusalem and the universal claim of Jesus as King of the Jews.",
+          "verseReference": "Luke 23:38",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-hard-q14",
+          "question": "What was the response of the repentant malefactor crucified beside Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "He asked Jesus to remember him when Jesus came into His kingdom",
+            "He mocked Jesus alongside the other malefactor",
+            "He remained silent throughout the crucifixion",
+            "He asked for release and freedom"
+          ],
+          "correctAnswer": "He asked Jesus to remember him when Jesus came into His kingdom",
+          "explanation": "Luke 23:42 records the repentant thief’s plea to Jesus, recognizing His kingship and seeking mercy.",
+          "verseReference": "Luke 23:42",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-hard-q15",
+          "question": "What event occurred at the sixth hour and lasted until the ninth hour during Jesus’ crucifixion?",
+          "type": "multiple-choice",
+          "options": [
+            "Darkness covered all the earth",
+            "A great earthquake shook the land",
+            "The temple gates were closed",
+            "The veil of the temple was torn"
+          ],
+          "correctAnswer": "Darkness covered all the earth",
+          "explanation": "Luke 23:44-45 reports darkness over the earth from the sixth to the ninth hour, symbolizing divine judgment and mourning.",
+          "verseReference": "Luke 23:44-45",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "luke-23-quiz",
+      "tags": [
+        "luke",
+        "chapter-23",
+        "luke",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "luke-23-theological",
+      "title": "Luke Chapter 23 Quiz - Theological Level",
+      "description": "Deep biblical theology from Luke Chapter 23 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 23,
+      "questions": [
+        {
+          "id": "luke-23-theological-q1",
+          "question": "What was the primary accusation brought against Jesus before Pilate?",
+          "type": "multiple-choice",
+          "options": [
+            "Perverting the nation and claiming to be Christ a King",
+            "Blasphemy against God",
+            "Stealing from the temple",
+            "Disrupting the Sabbath"
+          ],
+          "correctAnswer": "Perverting the nation and claiming to be Christ a King",
+          "explanation": "The accusation before Pilate was that Jesus was perverting the nation and claiming to be Christ a King (Luke 23:2). This aligns with the messianic claim and political charge against Jesus. Similar accusations appear in Matthew 27:11 and Mark 15:2, emphasizing the political threat perceived by the Jewish leaders. The claim to kingship fulfills the messianic prophecies in Isaiah 9:6-7 and Psalm 2.",
+          "verseReference": "Luke 23:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-theological-q2",
+          "question": "How did Jesus respond when Pilate asked if He was the King of the Jews?",
+          "type": "multiple-choice",
+          "options": [
+            "Thou sayest it",
+            "I am not",
+            "You say falsely",
+            "I will not answer"
+          ],
+          "correctAnswer": "Thou sayest it",
+          "explanation": "Jesus answered Pilate, 'Thou sayest it' (Luke 23:3), affirming His messianic identity without direct confrontation. This echoes the fulfillment of messianic prophecies about the suffering servant (Isaiah 53) and the rightful king (Zechariah 9:9). Christ's answer confirms His kingship in a way that transcends earthly political expectations, consistent with John 18:37.",
+          "verseReference": "Luke 23:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-theological-q3",
+          "question": "Why did Pilate send Jesus to Herod?",
+          "type": "multiple-choice",
+          "options": [
+            "Because Jesus was a Galilaean and under Herod's jurisdiction",
+            "Because Pilate wanted to avoid responsibility",
+            "Because Herod requested to see Jesus",
+            "Because the people demanded Herod's judgment"
+          ],
+          "correctAnswer": "Because Jesus was a Galilaean and under Herod's jurisdiction",
+          "explanation": "Pilate learned Jesus was from Galilee, which was under Herod's jurisdiction, so he sent Jesus to Herod (Luke 23:6-7). This shows the legal and political context of Jesus' trial, emphasizing human authority's role in the divine plan of redemption (Acts 4:27-28). It demonstrates God's sovereignty over earthly rulers (Daniel 2:21).",
+          "verseReference": "Luke 23:6-7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-theological-q4",
+          "question": "What was Herod's reaction upon seeing Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "He was exceeding glad and hoped to see a miracle",
+            "He immediately condemned Jesus to death",
+            "He ignored Jesus and sent Him back",
+            "He believed Jesus and released Him"
+          ],
+          "correctAnswer": "He was exceeding glad and hoped to see a miracle",
+          "explanation": "Herod was exceeding glad to see Jesus because he had heard many things about Him and hoped to see a miracle (Luke 23:8). This reflects human curiosity and the desire for signs, contrasting with Jesus' silent fulfillment of prophecy (Isaiah 53:7). Herod's mocking (Luke 23:11) highlights worldly rejection of the Messiah, paralleling Psalm 22:7.",
+          "verseReference": "Luke 23:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-theological-q5",
+          "question": "What did Herod and his soldiers do to Jesus after questioning Him?",
+          "type": "multiple-choice",
+          "options": [
+            "Mocked Him, arrayed Him in a gorgeous robe, and sent Him back to Pilate",
+            "Released Him to the people",
+            "Sent Him to be crucified immediately",
+            "Kept Him prisoner overnight"
+          ],
+          "correctAnswer": "Mocked Him, arrayed Him in a gorgeous robe, and sent Him back to Pilate",
+          "explanation": "Herod and his soldiers mocked Jesus, dressed Him in a splendid robe, and sent Him back to Pilate (Luke 23:11). This mocks Jesus' kingship, fulfilling Psalm 22:7-8 and Isaiah 50:6. The act of mockery underscores the rejection of Christ's true kingship by worldly powers (John 19:2-3).",
+          "verseReference": "Luke 23:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-theological-q6",
+          "question": "What was Pilate's verdict after examining Jesus and consulting with Herod?",
+          "type": "multiple-choice",
+          "options": [
+            "Found no fault worthy of death",
+            "Declared Him guilty and sentenced Him immediately",
+            "Asked for more evidence",
+            "Released Him without penalty"
+          ],
+          "correctAnswer": "Found no fault worthy of death",
+          "explanation": "Pilate stated he found no fault in Jesus that deserved death, and neither did Herod (Luke 23:14-15). This highlights Jesus' innocence despite the accusations, fulfilling the righteous servant prophecy (Isaiah 53:9) and Christ's sinless nature (1 Peter 2:22). Pilate’s verdict contrasts with the crowd's insistence on crucifixion, showing human injustice against divine righteousness.",
+          "verseReference": "Luke 23:14-15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-theological-q7",
+          "question": "Who did the crowd demand to be released instead of Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "Barabbas",
+            "Simon Peter",
+            "Joseph of Arimathaea",
+            "Nicodemus"
+          ],
+          "correctAnswer": "Barabbas",
+          "explanation": "The crowd demanded the release of Barabbas, a prisoner for sedition and murder, instead of Jesus (Luke 23:18-19). This choice symbolizes humanity’s preference for sin over righteousness, illustrating the substitutionary atonement of Christ who takes the place of sinners (Isaiah 53:12; 2 Corinthians 5:21).",
+          "verseReference": "Luke 23:18-19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-theological-q8",
+          "question": "Who was compelled to carry Jesus' cross on the way to Calvary?",
+          "type": "multiple-choice",
+          "options": [
+            "Simon, a Cyrenian",
+            "Joseph of Arimathaea",
+            "Barabbas",
+            "Herod"
+          ],
+          "correctAnswer": "Simon, a Cyrenian",
+          "explanation": "Simon, a Cyrenian, was compelled to carry Jesus' cross (Luke 23:26). This act shows the burden-bearing nature of discipleship (Matthew 16:24) and prefigures the believer’s participation in Christ’s sufferings (Philippians 3:10). It also fulfills the principle of sharing Christ’s cross in salvation history.",
+          "verseReference": "Luke 23:26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-theological-q9",
+          "question": "What did Jesus say to the women of Jerusalem as He was led to the cross?",
+          "type": "multiple-choice",
+          "options": [
+            "\"Weep not for me, but weep for yourselves and for your children\"",
+            "\"Pray for me and my disciples\"",
+            "\"I am innocent; do not weep\"",
+            "\"Rejoice because I am the Messiah\""
+          ],
+          "correctAnswer": "\"Weep not for me, but weep for yourselves and for your children\"",
+          "explanation": "Jesus told the women of Jerusalem not to weep for Him but for themselves and their children (Luke 23:28). This reflects the eschatological warning about coming judgment (Luke 21:23-24) and calls for repentance. It parallels Jeremiah 31:15 and foreshadows the consequences of rejecting the Messiah.",
+          "verseReference": "Luke 23:28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-theological-q10",
+          "question": "What is the significance of Jesus’ prayer, 'Father, forgive them; for they know not what they do'?",
+          "type": "multiple-choice",
+          "options": [
+            "It shows Christ’s forgiveness even towards His executioners",
+            "It denies responsibility for His death",
+            "It requests vengeance on His enemies",
+            "It expresses regret over His mission"
+          ],
+          "correctAnswer": "It shows Christ’s forgiveness even towards His executioners",
+          "explanation": "Jesus’ prayer for forgiveness for His executioners (Luke 23:34) reveals His divine mercy and fulfills the command to love enemies (Matthew 5:44). It demonstrates the extent of His atoning work (Isaiah 53:12) and God’s patience (2 Peter 3:9). The prayer underscores the gospel’s message of grace despite human sin.",
+          "verseReference": "Luke 23:34",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-theological-q11",
+          "question": "What was written on the placard above Jesus’ head during the crucifixion?",
+          "type": "multiple-choice",
+          "options": [
+            "\"THIS IS THE KING OF THE JEWS\"",
+            "\"Son of God\"",
+            "\"King of Israel\"",
+            "\"Prophet of Nazareth\""
+          ],
+          "correctAnswer": "\"THIS IS THE KING OF THE JEWS\"",
+          "explanation": "The inscription above Jesus read, 'THIS IS THE KING OF THE JEWS' (Luke 23:38). This ironically affirms His messianic kingship, fulfilling Psalm 2:6 and Daniel 7:13-14. It also highlights the misunderstanding of earthly powers about His kingdom, which is spiritual and eternal (John 18:36).",
+          "verseReference": "Luke 23:38",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-theological-q12",
+          "question": "How did one of the criminals crucified with Jesus respond to Him?",
+          "type": "multiple-choice",
+          "options": [
+            "\"Lord, remember me when thou comest into thy kingdom\"",
+            "\"Save yourself and us\"",
+            "\"You are a liar\"",
+            "\"We deserve our punishment\""
+          ],
+          "correctAnswer": "\"Lord, remember me when thou comest into thy kingdom\"",
+          "explanation": "One criminal asked Jesus to remember him when He came into His kingdom (Luke 23:42). This shows faith in Christ’s kingship and salvation, emphasizing justification by grace (Romans 4:5). Jesus’ promise of paradise (Luke 23:43) confirms the immediacy of salvation and eternal life.",
+          "verseReference": "Luke 23:42",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-theological-q13",
+          "question": "What extraordinary events occurred from the sixth to the ninth hour during the crucifixion?",
+          "type": "multiple-choice",
+          "options": [
+            "Darkness over all the earth",
+            "An earthquake and fire",
+            "A great storm and hail",
+            "Angelic appearances"
+          ],
+          "correctAnswer": "Darkness over all the earth",
+          "explanation": "From the sixth to the ninth hour, darkness covered the earth (Luke 23:44). This supernatural event signifies divine judgment (Amos 8:9) and mourning (Joel 2:31). It symbolizes the gravity of Christ’s atoning death and the cosmic significance of the crucifixion (Matthew 27:45).",
+          "verseReference": "Luke 23:44",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-theological-q14",
+          "question": "What happened to the veil of the temple at the moment of Jesus’ death?",
+          "type": "multiple-choice",
+          "options": [
+            "It was torn in two from top to bottom",
+            "It remained intact",
+            "It was removed by the priests",
+            "It caught fire"
+          ],
+          "correctAnswer": "It was torn in two from top to bottom",
+          "explanation": "At Jesus’ death, the veil of the temple was torn in the midst (Luke 23:45). This symbolizes the removal of the barrier between God and humanity (Hebrews 10:19-22), granting direct access to God through Christ’s sacrifice. It fulfills the prophecy of the new covenant (Jeremiah 31:31-34).",
+          "verseReference": "Luke 23:45",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-23-theological-q15",
+          "question": "What declaration did the centurion make upon witnessing Jesus’ death?",
+          "type": "multiple-choice",
+          "options": [
+            "\"Certainly this was a righteous man\"",
+            "\"Truly this was the Son of God\"",
+            "\"He deserved to die\"",
+            "\"He was just an ordinary man\""
+          ],
+          "correctAnswer": "\"Certainly this was a righteous man\"",
+          "explanation": "The centurion declared Jesus was a righteous man (Luke 23:47) after witnessing His death. This recognition by a Roman officer confirms Christ’s innocence and divine nature (Mark 15:39). It highlights the universal acknowledgment of Jesus’ righteousness beyond Jewish leaders, consistent with Isaiah 53:11.",
+          "verseReference": "Luke 23:47",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "luke-23-quiz",
+      "tags": [
+        "luke",
+        "chapter-23",
+        "luke",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

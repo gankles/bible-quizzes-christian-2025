@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore comprehensive New Testament Bible quizzes covering all 27 books. Test your knowledge of the Gospels, Acts, Paul's Letters, General Letters, and Revelation.">
+    <meta name="keywords" content="New Testament quizzes, Bible quizzes, Gospel quizzes, Paul's letters, Revelation quiz">
+    <title>New Testament Bible Quizzes - Test Your Knowledge</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        /* Header & Navigation */
+        header {
+            background: linear-gradient(135deg, #0052cc 0%, #0066ff 100%);
+            color: white;
+            padding: 1rem 0;
+            box-shadow: 0 2px 8px rgba(0, 82, 204, 0.15);
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 2rem;
+            font-size: 0.95rem;
+            transition: opacity 0.3s ease;
+        }
+
+        nav a:hover {
+            opacity: 0.8;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #0052cc 0%, #0066ff 50%, #003d99 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.05) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            letter-spacing: -1px;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            opacity: 0.95;
+            line-height: 1.8;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Introduction Section */
+        .intro-section {
+            padding: 3rem 0;
+            background: white;
+            margin-top: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+
+        .intro-section p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        /* Categories Section */
+        .categories-section {
+            padding: 3rem 0;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            color: #0052cc;
+            text-align: center;
+        }
+
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .category-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            border-left: 4px solid #0052cc;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .category-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 16px rgba(0, 82, 204, 0.15);
+        }
+
+        .category-card h3 {
+            color: #0052cc;
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        .category-card p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        /* Books Grid */
+        .books-section {
+            padding: 3rem 0;
+        }
+
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .book-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            border-top: 3px solid #0052cc;
+        }
+
+        .book-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 6px 20px rgba(0, 82, 204, 0.2);
+        }
+
+        .book-card h4 {
+            color: #0052cc;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .book-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .chapter-count {
+            background: #e6f0ff;
+            color: #0052cc;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .book-category {
+            color: #999;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .book-card a {
+            display: inline-block;
+            margin-top: 1rem;
+            color: #0052cc;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .book-card a:hover {
+            color: #003d99;
+        }
+
+        /* Featured Quizzes Section */
+        .featured-section {
+            padding: 3rem 0;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+            margin-bottom: 3rem;
+        }
+
+        .featured-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .featured-card {
+            background: linear-gradient(135deg, #f0f6ff 0%, #e6f0ff 100%);
+            padding: 2rem;
+            border-radius: 8px;
+            border: 2px solid #0052cc;
+            transition: all 0.3s ease;
+        }
+
+        .featured-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0, 82, 204, 0.2);
+        }
+
+        .featured-card h3 {
+            color: #0052cc;
+            margin-bottom: 0.5rem;
+            font-size: 1.3rem;
+        }
+
+        .featured-card p {
+            color: #666;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .featured-card a {
+            display: inline-block;
+            background: #0052cc;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+
+        .featured-card a:hover {
+            background: #003d99;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, #0052cc 0%, #0066ff 100%);
+            color: white;
+            padding: 3rem 2rem;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .cta-section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .cta-section p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: white;
+            color: #0052cc;
+            padding: 1rem 2.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            border: 2px solid white;
+        }
+
+        .cta-button:hover {
+            background: transparent;
+            color: white;
+        }
+
+        /* Footer */
+        footer {
+            background: #1a1a1a;
+            color: #999;
+            padding: 2rem;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #0052cc;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .categories-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .books-grid {
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            }
+
+            .featured-grid {
+                grid-template-columns: 1fr;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            nav a {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">Bible Quizzes</div>
+            <div>
+                <a href="/">Home</a>
+                <a href="/old-testament-quizzes.html">Old Testament</a>
+                <a href="/new-testament-quizzes.html">New Testament</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>New Testament Bible Quizzes</h1>
+            <p>Test your knowledge of the 27 books of the New Testament. From the Gospels to Revelation, challenge yourself with comprehensive quizzes covering all major biblical texts.</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Introduction -->
+        <section class="intro-section">
+            <p>The New Testament is the foundation of Christian faith, containing the life and teachings of Jesus Christ, the early church's development, and prophetic visions of the end times. Our comprehensive quiz collection covers all 27 books, organized by category to help you explore and deepen your understanding of Scripture. Whether you're a beginner or an advanced student of the Bible, these quizzes offer engaging ways to test and expand your biblical knowledge.</p>
+        </section>
+
+        <!-- Categories -->
+        <section class="categories-section">
+            <h2 class="section-title">New Testament Categories</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <h3>📖 The Gospels</h3>
+                    <p>The four accounts of Jesus' life, teachings, and resurrection: Matthew, Mark, Luke, and John.</p>
+                </div>
+                <div class="category-card">
+                    <h3>✝️ Acts</h3>
+                    <p>The history of the early church and the apostles' missionary journeys following Jesus' ascension.</p>
+                </div>
+                <div class="category-card">
+                    <h3>💌 Paul's Letters</h3>
+                    <p>Epistles written by the Apostle Paul to churches and individuals, addressing theological and practical matters.</p>
+                </div>
+                <div class="category-card">
+                    <h3>📜 General Letters</h3>
+                    <p>Epistles from James, Peter, John, and Jude offering wisdom and encouragement to early Christian communities.</p>
+                </div>
+                <div class="category-card">
+                    <h3>🔮 Revelation</h3>
+                    <p>John's apocalyptic vision of Christ's return and the end times, filled with symbolic imagery and prophecy.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Books Grid -->
+        <section class="books-section">
+            <h2 class="section-title">All 27 New Testament Books</h2>
+            <div class="books-grid">
+                <!-- The Gospels -->
+                <div class="book-card">
+                    <div class="book-category">The Gospels</div>
+                    <h4>Matthew</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">28 Chapters</span>
+                    </div>
+                    <p>The Gospel of Matthew emphasizes Jesus as the promised Messiah and King of the Jews, featuring the Sermon on the Mount.</p>
+                    <a href="/matthew-chapters/">Take Quiz →</a>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-category">The Gospels</div>
+                    <h4>Mark</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">16 Chapters</span>
+                    </div>
+                    <p>The shortest Gospel, Mark presents Jesus as the suffering servant with vivid, action-packed narratives of His ministry.</p>
+                    <a href="/mark-chapters/">Take Quiz →</a>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-category">The Gospels</div>
+                    <h4>Luke</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">24 Chapters</span>
+                    </div>
+                    <p>Luke's Gospel emphasizes Jesus' compassion for the poor and marginalized, with detailed historical accounts.</p>
+                    <a href="/luke-chapters/">Take Quiz →</a>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-category">The Gospels</div>
+                    <h4>John</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">21 Chapters</span>
+                    </div>
+                    <p>John's Gospel presents Jesus as the Word of God with profound theological insights and "I am" statements.</p>
+                    <a href="/john-chapters/">Take Quiz →</a>
+                </div>
+
+                <!-- Acts -->
+                <div class="book-card">
+                    <div class="book-category">Acts</div>
+                    <h4>Acts</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">28 Chapters</span>
+                    </div>
+                    <p>The Acts of the Apostles chronicles the early church's growth, Peter and Paul's ministries, and the Holy Spirit's power.</p>
+                    <a href="/acts-chapters/">Take Quiz →</a>
+                </div>
+
+                <!-- Paul's Letters -->
+                <div class="book-card">
+                    <div class="book-category">Paul's Letters</div>
+                    <h4>Romans</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">16 Chapters</span>
+                    </div>
+                    <p>Paul's masterpiece on justification by faith, explaining the Gospel's power and God's plan for salvation.</p>
+                    <a href="/romans-chapters/">Take Quiz →</a>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-category">Paul's Letters</div>
+                    <h4>1 Corinthians</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">16 Chapters</span>
+                    </div>
+                    <p>Paul addresses divisions and immorality in the Corinthian church, emphasizing unity and spiritual gifts.</p>
+                    <a href="/1-corinthians-chapters/">Take Quiz →</a>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-category">Paul's Letters</div>
+                    <h4>2 Corinthians</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">13 Chapters</span>
+                    </div>
+                    <p>Paul's defense of his apostolic authority and encouragement regarding Christian suffering and God's grace.</p>
+                    <a href="/2-corinthians-chapters/">Take Quiz →</a>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-category">Paul's Letters</div>
+                    <h4>Galatians</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">6 Chapters</span>
+                    </div>
+                    <p>Paul's passionate defense of salvation by grace alone, not by works of the law or circumcision.</p>
+                    <a href="/galatians-chapters/">Take Quiz →</a>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-category">Paul's Letters</div>
+                    <h4>Ephesians</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">6 Chapters</span>
+                    </div>
+                    <p>Paul's letter on the church as Christ's body, spiritual warfare, and God's eternal purpose for believers.</p>
+                    <a href="/ephesians-chapters/">Take Quiz →</a>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-category">Paul's Letters</div>
+                    <h4>Philippians</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">4 Chapters</span>
+                    </div>
+                    <p>Paul's joyful letter from prison, emphasizing rejoicing in Christ and the mind of Christ in believers.</p>
+                    <a href="/philippians-chapters/">Take Quiz →</a>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-category">Paul's Letters</div>
+                    <h4>Colossians</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">4 Chapters</span>
+                    </div>
+                    <p>Paul's letter emphasizing Christ's supremacy and the fullness found in Him, countering false teachings.</p>
+                    <a href="/colossians-chapters/">Take Quiz →</a>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-category">Paul's Letters</div>
+                    <h4>1 Thessalonians</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">5 Chapters</span>
+                    </div>
+                    <p>Paul's encouragement to a young church, addressing Christian living and Christ's second coming.</p>
+                    <a href="/1-thessalonians-chapters/">Take Quiz →</a>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-category">Paul's Letters</div>
+                    <h4>2 Thessalonians</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">3 Chapters</span>
+                    </div>
+                    <p>Paul's follow-up letter clarifying end-times events and encouraging steadfastness in faith.</p>
+                    <a href="/2-thessalonians-chapters/">Take Quiz →</a>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-category">Paul's Letters</div>
+                    <h4>1 Timothy</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">6 Chapters</span>
+                    </div>
+                    <p>Paul's pastoral letter to Timothy on church leadership, sound doctrine, and pastoral responsibilities.</p>
+                    <a href="/1-timothy-chapters/">Take Quiz →</a>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-category">Paul's Letters</div>
+                    <h4>2 Timothy</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">4 Chapters</span>
+                    </div>
+                    <p>Paul's final letter to Timothy, encouraging faithfulness and endurance in ministry and faith.</p>
+                    <a href="/2-timothy-chapters/">Take Quiz →</a>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-category">Paul's Letters</div>
+                    <h4>Titus</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">3 Chapters</span>
+                    </div>
+                    <p>Paul's letter to Titus on establishing church leadership and promoting sound doctrine and good works.</p>
+                    <a href="/titus-chapters/">Take Quiz →</a>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-category">Paul's Letters</div>
+                    <h4>Philemon</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">1 Chapter</span>
+                    </div>
+                    <p>Paul's brief personal letter requesting forgiveness for the runaway slave Onesimus, emphasizing Christian love.</p>
+                    <a href="/philemon-chapters/">Take Quiz →</a>
+                </div>
+
+                <!-- General Letters -->
+                <div class="book-card">
+                    <div class="book-category">General Letters</div>
+                    <h4>Hebrews</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">13 Chapters</span>
+                    </div>
+                    <p>A theological masterpiece presenting Jesus as the ultimate High Priest and superior to the Old Testament system.</p>
+                    <a href="/hebrews-chapters/">Take Quiz →</a>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-category">General Letters</div>
+                    <h4>James</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">5 Chapters</span>
+                    </div>
+                    <p>James emphasizes faith demonstrated through works, practical wisdom, and endurance in trials.</p>
+                    <a href="/james-chapters/">Take Quiz →</a>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-category">General Letters</div>
+                    <h4>1 Peter</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">5 Chapters</span>
+                    </div>
+                    <p>Peter's letter encouraging persecuted believers to stand firm in faith and live holy lives.</p>
+                    <a href="/1-peter-chapters/">Take Quiz →</a>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-category">General Letters</div>
+                    <h4>2 Peter</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">3 Chapters</span>
+                    </div>
+                    <p>Peter's warning against false teachers and encouragement to grow in grace and knowledge of Christ.</p>
+                    <a href="/2-peter-chapters/">Take Quiz →</a>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-category">General Letters</div>
+                    <h4>1 John</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">5 Chapters</span>
+                    </div>
+                    <p>John's letter on fellowship with God, love for one another, and assurance of eternal life in Christ.</p>
+                    <a href="/1-john-chapters/">Take Quiz →</a>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-category">General Letters</div>
+                    <h4>2 John</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">1 Chapter</span>
+                    </div>
+                    <p>John's brief letter warning against false teachers and encouraging truth and love in the church.</p>
+                    <a href="/2-john-chapters/">Take Quiz →</a>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-category">General Letters</div>
+                    <h4>3 John</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">1 Chapter</span>
+                    </div>
+                    <p>John's personal letter commending Gaius for his hospitality and support of traveling missionaries.</p>
+                    <a href="/3-john-chapters/">Take Quiz →</a>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-category">General Letters</div>
+                    <h4>Jude</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">1 Chapter</span>
+                    </div>
+                    <p>Jude's urgent letter warning against ungodly people and encouraging believers to contend for the faith.</p>
+                    <a href="/jude-chapters/">Take Quiz →</a>
+                </div>
+
+                <!-- Revelation -->
+                <div class="book-card">
+                    <div class="book-category">Revelation</div>
+                    <h4>Revelation</h4>
+                    <div class="book-info">
+                        <span class="chapter-count">22 Chapters</span>
+                    </div>
+                    <p>John's apocalyptic vision of Christ's return, the final judgment, and the new heaven and earth.</p>
+                    <a href="/revelation-chapters/">Take Quiz →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Quizzes -->
+        <section class="featured-section">
+            <h2 class="section-title">Featured Quizzes</h2>
+            <div class="featured-grid">
+                <div class="featured-card">
+                    <h3>Gospel Challenge</h3>
+                    <p>Test your knowledge of the four Gospels with questions covering the life, teachings, and miracles of Jesus Christ across Matthew, Mark, Luke, and John.</p>
+                    <a href="/gospels-quiz/">Start Quiz</a>
+                </div>
+                <div class="featured-card">
+                    <h3>Paul's Epistles Mastery</h3>
+                    <p>Explore Paul's letters to churches and individuals, covering themes of grace, faith, spiritual gifts, and Christian living across his 13 epistles.</p>
+                    <a href="/pauls-letters-quiz/">Start Quiz</a>
+                </div>
+                <div class="featured-card">
+                    <h3>Complete New Testament</h3>
+                    <p>The ultimate New Testament challenge! Comprehensive quiz covering all 27 books with questions spanning the Gospels, Acts, epistles, and Revelation.</p>
+                    <a href="/new-testament-quiz/">Start Quiz</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <h2>Ready to Explore the Old Testament?</h2>
+            <p>Deepen your biblical knowledge by taking quizzes on the 39 books of the Old Testament, from Genesis to Malachi.</p>
+            <a href="/old-testament-quizzes.html" class="cta-button">Explore Old Testament</a>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Bible Quizzes. All rights reserved. | <a href="/">Home</a> | <a href="/privacy">Privacy Policy</a> | <a href="/contact">Contact</a></p>
+    </footer>
+</body>
+</html>

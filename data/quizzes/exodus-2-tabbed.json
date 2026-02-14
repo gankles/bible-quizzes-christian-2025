@@ -1,0 +1,998 @@
+{
+  "id": "exodus-2-tabbed",
+  "title": "Exodus Chapter 2 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Exodus chapter 2 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "exodus-2-easy",
+      "title": "Exodus Chapter 2 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Exodus Chapter 2.",
+      "type": "chapter",
+      "book": "Exodus",
+      "chapter": 2,
+      "questions": [
+        {
+          "id": "exodus-2-easy-q1",
+          "question": "Who took a wife from the house of Levi?",
+          "type": "multiple-choice",
+          "options": [
+            "A man of the house of Levi",
+            "A man of the house of Judah",
+            "Pharaoh",
+            "Moses"
+          ],
+          "correctAnswer": "A man of the house of Levi",
+          "explanation": "Exodus 2:1 states that a man of the house of Levi took to wife a daughter of Levi.",
+          "verseReference": "Exodus 2:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-2-easy-q2",
+          "question": "How long did the mother hide her son after he was born?",
+          "type": "multiple-choice",
+          "options": [
+            "Three months",
+            "One year",
+            "Seven days",
+            "Six months"
+          ],
+          "correctAnswer": "Three months",
+          "explanation": "Exodus 2:2 explains that the woman hid her son for three months after he was born.",
+          "verseReference": "Exodus 2:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-2-easy-q3",
+          "question": "What was the baby placed in when he could no longer be hidden?",
+          "type": "multiple-choice",
+          "options": [
+            "An ark of bulrushes",
+            "A basket of reeds",
+            "A wooden box",
+            "A clay jar"
+          ],
+          "correctAnswer": "An ark of bulrushes",
+          "explanation": "Exodus 2:3 describes how the mother placed the child in an ark of bulrushes and daubed it with slime and pitch.",
+          "verseReference": "Exodus 2:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-2-easy-q4",
+          "question": "Who stood afar off to see what would happen to the child?",
+          "type": "multiple-choice",
+          "options": [
+            "His sister",
+            "Pharaoh's daughter",
+            "His mother",
+            "A shepherd"
+          ],
+          "correctAnswer": "His sister",
+          "explanation": "Exodus 2:4 states that his sister stood afar off to see what would be done to him.",
+          "verseReference": "Exodus 2:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-2-easy-q5",
+          "question": "Where did Pharaoh's daughter find the child?",
+          "type": "multiple-choice",
+          "options": [
+            "Among the flags by the river's brink",
+            "In the palace",
+            "In the fields",
+            "In the market"
+          ],
+          "correctAnswer": "Among the flags by the river's brink",
+          "explanation": "Exodus 2:5 tells that Pharaoh's daughter found the ark among the flags by the river's brink.",
+          "verseReference": "Exodus 2:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-2-easy-q6",
+          "question": "What was the reaction of the child when Pharaoh's daughter opened the ark?",
+          "type": "multiple-choice",
+          "options": [
+            "The babe wept",
+            "The child laughed",
+            "The child smiled",
+            "The child was silent"
+          ],
+          "correctAnswer": "The babe wept",
+          "explanation": "Exodus 2:6 reports that when Pharaoh's daughter opened the ark, the babe wept.",
+          "verseReference": "Exodus 2:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-2-easy-q7",
+          "question": "Who did the sister suggest Pharaoh's daughter call to nurse the child?",
+          "type": "multiple-choice",
+          "options": [
+            "A nurse of the Hebrew women",
+            "A servant of Pharaoh",
+            "A Midianite woman",
+            "A foreign nurse"
+          ],
+          "correctAnswer": "A nurse of the Hebrew women",
+          "explanation": "Exodus 2:7 shows that the sister suggested calling a nurse of the Hebrew women to nurse the child.",
+          "verseReference": "Exodus 2:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-2-easy-q8",
+          "question": "Who nursed the child after Pharaoh's daughter called her?",
+          "type": "multiple-choice",
+          "options": [
+            "The child's mother",
+            "Pharaoh's daughter",
+            "A Midianite woman",
+            "A servant"
+          ],
+          "correctAnswer": "The child's mother",
+          "explanation": "Exodus 2:8-9 states that the maid called the child's mother, who then nursed the child.",
+          "verseReference": "Exodus 2:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-2-easy-q9",
+          "question": "What name did Pharaoh's daughter give the child?",
+          "type": "multiple-choice",
+          "options": [
+            "Moses",
+            "Aaron",
+            "Gershom",
+            "Zipporah"
+          ],
+          "correctAnswer": "Moses",
+          "explanation": "Exodus 2:10 says Pharaoh's daughter named the child Moses because she drew him out of the water.",
+          "verseReference": "Exodus 2:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-2-easy-q10",
+          "question": "What did Moses do when he saw an Egyptian smiting a Hebrew?",
+          "type": "multiple-choice",
+          "options": [
+            "He killed the Egyptian",
+            "He ran away",
+            "He called the guards",
+            "He ignored it"
+          ],
+          "correctAnswer": "He killed the Egyptian",
+          "explanation": "Exodus 2:11-12 tells that Moses slew the Egyptian who was smiting a Hebrew.",
+          "verseReference": "Exodus 2:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-2-easy-q11",
+          "question": "True or False: Moses fled from Pharaoh and went to live in the land of Midian.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Exodus 2:15 confirms that Moses fled from Pharaoh and dwelt in the land of Midian.",
+          "verseReference": "Exodus 2:15",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-2-easy-q12",
+          "question": "True or False: The priest of Midian had seven daughters who came to draw water.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Exodus 2:16 states that the priest of Midian had seven daughters who drew water.",
+          "verseReference": "Exodus 2:16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-2-easy-q13",
+          "question": "True or False: Moses helped the daughters of Midian by driving away the shepherds who were troubling them.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Exodus 2:17 records that Moses stood up and helped the daughters by watering their flock.",
+          "verseReference": "Exodus 2:17",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-2-easy-q14",
+          "question": "Complete the verse: 'And she bare him a son, and he called his name ______: for he said, I have been a stranger in a strange land.'",
+          "type": "fill-blank",
+          "options": [
+            "Gershom",
+            "Moses",
+            "Aaron",
+            "Reuel"
+          ],
+          "correctAnswer": "Gershom",
+          "explanation": "Exodus 2:22 shows that Moses named his son Gershom because he said, 'I have been a stranger in a strange land.'",
+          "verseReference": "Exodus 2:22",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-2-easy-q15",
+          "question": "According to Exodus 2:24, what did God remember when He heard the groaning of the children of Israel?",
+          "type": "multiple-choice",
+          "options": [
+            "His covenant with Abraham, Isaac, and Jacob",
+            "His promise to Moses",
+            "His law given on Sinai",
+            "The creation of the world"
+          ],
+          "correctAnswer": "His covenant with Abraham, Isaac, and Jacob",
+          "explanation": "Exodus 2:24 states that God remembered His covenant with Abraham, Isaac, and Jacob when He heard Israel's groaning.",
+          "verseReference": "Exodus 2:24",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "exodus-2-quiz",
+      "tags": [
+        "exodus",
+        "chapter-2",
+        "exodus",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "exodus-2-medium",
+      "title": "Exodus Chapter 2 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Exodus Chapter 2 to real-life situations.",
+      "type": "chapter",
+      "book": "Exodus",
+      "chapter": 2,
+      "questions": [
+        {
+          "id": "exodus-2-medium-q1",
+          "question": "How does the story of Moses' mother hiding him for three months teach us about faith and obedience in difficult circumstances?",
+          "type": "multiple-choice",
+          "options": [
+            "She trusted God and obeyed His protection plan",
+            "She ignored the danger and hoped for the best",
+            "She gave Moses to strangers immediately",
+            "She left Moses unprotected by the river"
+          ],
+          "correctAnswer": "She trusted God and obeyed His protection plan",
+          "explanation": "Exodus 2:2-3 shows Moses' mother carefully hiding him and then placing him in an ark, demonstrating her faith and obedience to protect him despite danger.",
+          "verseReference": "Exodus 2:2-3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-2-medium-q2",
+          "question": "A believer is facing fear about their family's safety. Based on Exodus 2, what practical biblical truth about trusting God in trials can you share?",
+          "type": "multiple-choice",
+          "options": [
+            "God can provide protection through unexpected means",
+            "Fear should lead to abandoning faith",
+            "One must rely only on their own strength",
+            "Danger means God has abandoned us"
+          ],
+          "correctAnswer": "God can provide protection through unexpected means",
+          "explanation": "Moses was hidden and then saved by Pharaoh's daughter (Exodus 2:3-6), showing God's providence even in difficult situations (Exodus 2:23-25).",
+          "verseReference": "Exodus 2:3-6",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-2-medium-q3",
+          "question": "What biblical principle about serving others is illustrated by Moses helping Midian’s daughters at the well?",
+          "type": "multiple-choice",
+          "options": [
+            "Serving others with kindness reflects God’s love",
+            "Ignoring others’ troubles is wise",
+            "Helping only those you know is best",
+            "Avoid conflict by staying out of others’ affairs"
+          ],
+          "correctAnswer": "Serving others with kindness reflects God’s love",
+          "explanation": "In Exodus 2:17, Moses helps the daughters despite opposition, illustrating practical service and love for neighbor.",
+          "verseReference": "Exodus 2:17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-2-medium-q4",
+          "question": "How does Moses’ action of defending the Hebrew slave teach us about standing against injustice with integrity?",
+          "type": "multiple-choice",
+          "options": [
+            "It is righteous to defend those oppressed",
+            "Violence is always the solution",
+            "Ignoring injustice is acceptable",
+            "One should only defend family members"
+          ],
+          "correctAnswer": "It is righteous to defend those oppressed",
+          "explanation": "Exodus 2:11-12 highlights Moses’ intervention against unfair treatment, showing a commitment to justice and integrity.",
+          "verseReference": "Exodus 2:11-12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-2-medium-q5",
+          "question": "What lesson about humility and fear of consequences can we learn from Moses’ response when confronted by the Hebrew man?",
+          "type": "multiple-choice",
+          "options": [
+            "Moses recognized his actions were known and feared consequences",
+            "Moses was proud and unrepentant",
+            "He denied any wrongdoing",
+            "He ignored the situation"
+          ],
+          "correctAnswer": "Moses recognized his actions were known and feared consequences",
+          "explanation": "Exodus 2:14 shows Moses’ fear and acknowledgment of his actions, teaching humility and awareness of consequences.",
+          "verseReference": "Exodus 2:14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-2-medium-q6",
+          "question": "How does the story of Pharaoh seeking to kill Moses teach about perseverance through trials and trusting God’s timing?",
+          "type": "multiple-choice",
+          "options": [
+            "Moses fled but God’s plan continued, showing perseverance",
+            "Moses gave up on God’s promise",
+            "God abandoned Moses in trouble",
+            "Avoiding trials proves weak faith"
+          ],
+          "correctAnswer": "Moses fled but God’s plan continued, showing perseverance",
+          "explanation": "Exodus 2:15-25 depicts Moses fleeing danger yet God’s covenant is remembered and His plan unfolds, teaching perseverance.",
+          "verseReference": "Exodus 2:15-25",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-2-medium-q7",
+          "question": "A believer is struggling with loneliness in a new place. Based on Exodus 2, how can Moses’ experience encourage contentment and trust in God?",
+          "type": "multiple-choice",
+          "options": [
+            "Moses was a stranger but found family and purpose with God’s help",
+            "Moses gave up and returned home immediately",
+            "Loneliness means God is displeased",
+            "One should isolate themselves"
+          ],
+          "correctAnswer": "Moses was a stranger but found family and purpose with God’s help",
+          "explanation": "Exodus 2:21-22 shows Moses marrying and naming his son ‘Gershom’, acknowledging being a stranger but finding hope and contentment.",
+          "verseReference": "Exodus 2:21-22",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-2-medium-q8",
+          "question": "How does Pharaoh’s daughter’s willingness to pay Moses’ mother for nursing teach us about generosity and honoring family roles?",
+          "type": "multiple-choice",
+          "options": [
+            "Generosity honors family and God’s design for parenting",
+            "Family roles should be ignored",
+            "Money should not be exchanged for care",
+            "Parents must abandon children for status"
+          ],
+          "correctAnswer": "Generosity honors family and God’s design for parenting",
+          "explanation": "Exodus 2:8-9 shows Pharaoh’s daughter paying Moses’ mother to nurse him, honoring her role and demonstrating generosity.",
+          "verseReference": "Exodus 2:8-9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-2-medium-q9",
+          "question": "What does the naming of Moses teach us about God’s providence and the meaning we find in life’s events?",
+          "type": "multiple-choice",
+          "options": [
+            "Names can reflect God’s deliverance and purpose",
+            "Names are unimportant",
+            "Names should only reflect family tradition",
+            "Names must be chosen by rulers alone"
+          ],
+          "correctAnswer": "Names can reflect God’s deliverance and purpose",
+          "explanation": "Exodus 2:10 explains Moses’ name means ‘drawn out of the water’, reflecting God’s providence in his life.",
+          "verseReference": "Exodus 2:10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-2-medium-q10",
+          "question": "How does the children of Israel’s cry and God’s response teach us about prayer and God’s faithfulness to His promises?",
+          "type": "multiple-choice",
+          "options": [
+            "God hears our cries and remembers His covenant",
+            "Prayer has no impact on God",
+            "God forgets those who suffer",
+            "Promises are made without intent to keep"
+          ],
+          "correctAnswer": "God hears our cries and remembers His covenant",
+          "explanation": "Exodus 2:23-25 shows Israel’s cries reaching God, who remembers His covenant, teaching faith in God’s faithfulness through prayer.",
+          "verseReference": "Exodus 2:23-25",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-2-medium-q11",
+          "question": "True or False: Moses was raised by his biological mother from birth and never left her care.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Exodus 2:3-10 shows Moses was hidden by his mother but later raised by Pharaoh’s daughter after she took him from the river.",
+          "verseReference": "Exodus 2:3-10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-2-medium-q12",
+          "question": "True or False: Moses helped the Midianite women despite opposition from other shepherds, showing courage and kindness.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Exodus 2:16-17 records Moses defending and helping the daughters despite the shepherds’ hostility, exemplifying courage and kindness.",
+          "verseReference": "Exodus 2:16-17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-2-medium-q13",
+          "question": "Fill in the blank: Moses named his son Gershom because he said, \"I have been a _____ in a strange land.\"",
+          "type": "fill-in-the-blank",
+          "options": [
+            "stranger",
+            "king",
+            "prince",
+            "servant"
+          ],
+          "correctAnswer": "stranger",
+          "explanation": "Exodus 2:22 explains Moses named his son Gershom meaning 'stranger', expressing his experience living as a foreigner.",
+          "verseReference": "Exodus 2:22",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-2-medium-q14",
+          "question": "How does Moses’ flight to Midian demonstrate the importance of trusting God’s guidance when facing consequences for righteous actions?",
+          "type": "multiple-choice",
+          "options": [
+            "Moses fled but God’s plan led him to a new purpose",
+            "Running away shows lack of faith",
+            "Facing consequences alone is best",
+            "Ignoring God’s guidance is wise"
+          ],
+          "correctAnswer": "Moses fled but God’s plan led him to a new purpose",
+          "explanation": "Exodus 2:15-21 shows Moses fleeing danger yet God providing new opportunities, teaching trust in God’s direction amid trials.",
+          "verseReference": "Exodus 2:15-21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-2-medium-q15",
+          "question": "What does Exodus 2 teach about the role of godly parents in protecting and nurturing children even under threat?",
+          "type": "multiple-choice",
+          "options": [
+            "Parents must act with faith and wisdom to protect their children",
+            "Parents should leave children unprotected",
+            "Parental care is unimportant",
+            "Children should be abandoned if threatened"
+          ],
+          "correctAnswer": "Parents must act with faith and wisdom to protect their children",
+          "explanation": "Exodus 2:1-3 emphasizes the mother’s faith and wise actions to protect Moses, modeling godly parenting under threat.",
+          "verseReference": "Exodus 2:1-3",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "exodus-2-quiz",
+      "tags": [
+        "exodus",
+        "chapter-2",
+        "exodus",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "exodus-2-hard",
+      "title": "Exodus Chapter 2 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Exodus Chapter 2.",
+      "type": "chapter",
+      "book": "Exodus",
+      "chapter": 2,
+      "questions": [
+        {
+          "id": "exodus-2-hard-q1",
+          "question": "What is the significance of the name 'Moses' as given by Pharaoh's daughter, and how does it relate to typology in Scripture?",
+          "type": "multiple-choice",
+          "options": [
+            "It means 'drawn out,' symbolizing deliverance from water, foreshadowing salvation (Exodus 2:10)",
+            "It means 'leader,' indicating Moses’ future role as a judge",
+            "It means 'servant,' reflecting his humble beginnings",
+            "It means 'freedom,' representing Israel’s liberation"
+          ],
+          "correctAnswer": "It means 'drawn out,' symbolizing deliverance from water, foreshadowing salvation (Exodus 2:10)",
+          "explanation": "Exodus 2:10 states that Moses' name means 'Because I drew him out of the water,' which foreshadows the salvation theme central to his mission and parallels baptism imagery in the New Testament.",
+          "verseReference": "Exodus 2:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-hard-q2",
+          "question": "How does the ark of bulrushes in Exodus 2:3 serve as a literary and typological device within the biblical narrative?",
+          "type": "multiple-choice",
+          "options": [
+            "It prefigures Noah's ark as a symbol of deliverance from judgment",
+            "It represents the tabernacle as God’s dwelling place",
+            "It parallels the basket in Daniel’s story, symbolizing preservation",
+            "It foreshadows the protective role of the Messiah"
+          ],
+          "correctAnswer": "It prefigures Noah's ark as a symbol of deliverance from judgment",
+          "explanation": "Exodus 2:3 describes the ark of bulrushes used to save Moses, symbolically prefiguring Noah’s ark which also delivers God’s people from destruction, highlighting a recurring theme of divine rescue.",
+          "verseReference": "Exodus 2:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-hard-q3",
+          "question": "Which cultural practice is reflected in Pharaoh's daughter's decision to employ a Hebrew nurse for Moses, and what does this imply about Israelite-Egyptian relations?",
+          "type": "multiple-choice",
+          "options": [
+            "Respect for native customs and acknowledgment of Hebrew identity (Exodus 2:7-9)",
+            "Assimilation policy of Egyptians to absorb Hebrews",
+            "Egyptian distrust of Hebrews, keeping them under surveillance",
+            "Pharaoh's secret support for the Hebrew people"
+          ],
+          "correctAnswer": "Respect for native customs and acknowledgment of Hebrew identity (Exodus 2:7-9)",
+          "explanation": "The request to call a Hebrew nurse (Exodus 2:7) shows Pharaoh's daughter’s recognition of Hebrew customs and implies a nuanced relationship, contrasting the broader oppression.",
+          "verseReference": "Exodus 2:7-9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-hard-q4",
+          "question": "What is the historical significance of Moses fleeing to Midian, and how does this reflect Ancient Near Eastern customs?",
+          "type": "multiple-choice",
+          "options": [
+            "Exile to a foreign land to avoid execution was common (Exodus 2:15)",
+            "It represents a pilgrimage to a holy site",
+            "It is a symbolic death and rebirth motif",
+            "It reflects a political alliance through marriage"
+          ],
+          "correctAnswer": "Exile to a foreign land to avoid execution was common (Exodus 2:15)",
+          "explanation": "Exodus 2:15 shows Moses fleeing to Midian, reflecting the common ANE practice where fugitives sought asylum in foreign lands to escape death sentences.",
+          "verseReference": "Exodus 2:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-hard-q5",
+          "question": "How does the narrative structure around Moses’ killing of the Egyptian and subsequent flight demonstrate a chiastic pattern?",
+          "type": "multiple-choice",
+          "options": [
+            "Moses acts as deliverer (kill Egyptian), then becomes an exile (flight) (Exodus 2:11-15)",
+            "Moses rises and falls repeatedly",
+            "The story is told in a circular manner",
+            "Moses’ actions parallel Pharaoh’s decrees"
+          ],
+          "correctAnswer": "Moses acts as deliverer (kill Egyptian), then becomes an exile (flight) (Exodus 2:11-15)",
+          "explanation": "Verses 11-15 show a chiastic pattern: Moses first delivers an oppressed Hebrew by killing an Egyptian (A), then becomes a fugitive in Midian (B), illustrating the reversal and complexity of his role.",
+          "verseReference": "Exodus 2:11-15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-hard-q6",
+          "question": "What is the theological implication of God remembering His covenant with Abraham, Isaac, and Jacob in Exodus 2:24?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s faithfulness ensures deliverance despite Israel’s suffering",
+            "God is indifferent to human suffering",
+            "The covenant is conditional on Israel’s obedience",
+            "God’s covenant is limited to the patriarchs only"
+          ],
+          "correctAnswer": "God’s faithfulness ensures deliverance despite Israel’s suffering",
+          "explanation": "Exodus 2:24 emphasizes God’s remembrance of the covenant, assuring that despite Israel’s bondage, God's promises will bring redemption.",
+          "verseReference": "Exodus 2:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-hard-q7",
+          "question": "How does the motif of water function symbolically in the events of Exodus 2, especially in relation to Moses’ birth and rescue?",
+          "type": "multiple-choice",
+          "options": [
+            "Water represents both danger and salvation (Exodus 2:3, 10)",
+            "Water symbolizes chaos only",
+            "Water is a sign of purification exclusively",
+            "Water is depicted as a barrier between peoples"
+          ],
+          "correctAnswer": "Water represents both danger and salvation (Exodus 2:3, 10)",
+          "explanation": "The Nile waters threaten Moses' life, yet also serve as the means of his rescue and naming (Exodus 2:3, 10), showing water’s dual symbolic role.",
+          "verseReference": "Exodus 2:3, 10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-hard-q8",
+          "question": "What is the significance of Moses’ marriage to Zipporah, daughter of the priest of Midian, in the context of intercultural relations?",
+          "type": "multiple-choice",
+          "options": [
+            "It represents integration and alliance between Hebrews and Midianites (Exodus 2:21)",
+            "It marks Moses’ rejection of Hebrew identity",
+            "It is a political strategy to gain Egyptian favor",
+            "It symbolizes Israel’s future conquest of Midian"
+          ],
+          "correctAnswer": "It represents integration and alliance between Hebrews and Midianites (Exodus 2:21)",
+          "explanation": "Exodus 2:21 shows Moses marrying into Midian, indicating cultural integration and foreshadowing God's use of foreign lands in His plans.",
+          "verseReference": "Exodus 2:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-hard-q9",
+          "question": "True or False: Moses’ act of killing the Egyptian was carried out openly without concern for witnesses.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Exodus 2:12 shows Moses looked this way and that, ensuring no man was present before he killed the Egyptian, indicating secrecy.",
+          "verseReference": "Exodus 2:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-hard-q10",
+          "question": "Which literary device is employed when Moses’ sister watches 'afar off' to see what will happen to him (Exodus 2:4)?",
+          "type": "multiple-choice",
+          "options": [
+            "Foreshadowing",
+            "Irony",
+            "Metaphor",
+            "Hyperbole"
+          ],
+          "correctAnswer": "Foreshadowing",
+          "explanation": "The sister’s watchful stance (Exodus 2:4) foreshadows later protective actions and Moses’ preservation, enhancing narrative suspense.",
+          "verseReference": "Exodus 2:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-hard-q11",
+          "question": "How does the social status of Pharaoh’s daughter impact the narrative’s portrayal of divine providence?",
+          "type": "multiple-choice",
+          "options": [
+            "Her royal status facilitates Moses’ survival, showing God’s use of political authority (Exodus 2:5-10)",
+            "Her status leads to Moses’ rejection by the Hebrews",
+            "She is portrayed negatively for defying Pharaoh’s orders",
+            "Her actions have no theological significance"
+          ],
+          "correctAnswer": "Her royal status facilitates Moses’ survival, showing God’s use of political authority (Exodus 2:5-10)",
+          "explanation": "Pharaoh’s daughter’s position enables her to save Moses (Exodus 2:5-10), illustrating God’s providential use of unexpected agents.",
+          "verseReference": "Exodus 2:5-10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-hard-q12",
+          "question": "What cultural or legal norms might explain Pharaoh’s intent to kill Moses after the murder incident?",
+          "type": "multiple-choice",
+          "options": [
+            "Egyptian laws forbade rebellion and killing of Egyptians by slaves or foreigners (Exodus 2:15)",
+            "Pharaoh was personally offended by Moses",
+            "Moses was accused of treason against the throne",
+            "It was a ritual purification requirement"
+          ],
+          "correctAnswer": "Egyptian laws forbade rebellion and killing of Egyptians by slaves or foreigners (Exodus 2:15)",
+          "explanation": "Exodus 2:15 shows Pharaoh sought to kill Moses, reflecting strict Egyptian laws against such acts to maintain social order.",
+          "verseReference": "Exodus 2:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-hard-q13",
+          "question": "How do the cries of the Israelites in bondage and God’s response in Exodus 2:23-25 contribute to the overarching theme of redemption in the Pentateuch?",
+          "type": "multiple-choice",
+          "options": [
+            "They establish God’s active role in history responding to suffering",
+            "They show God’s indifference to human plight",
+            "They emphasize human effort over divine intervention",
+            "They reveal God’s judgment without mercy"
+          ],
+          "correctAnswer": "They establish God’s active role in history responding to suffering",
+          "explanation": "Exodus 2:23-25 highlights God hearing Israel’s cries and remembering His covenant, reinforcing the theme of divine redemption.",
+          "verseReference": "Exodus 2:23-25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-hard-q14",
+          "question": "What is the significance of the name Gershom given to Moses’ son, and how does it reflect Moses’ experience?",
+          "type": "multiple-choice",
+          "options": [
+            "It means 'a stranger there,' reflecting Moses’ alienation in Midian (Exodus 2:22)",
+            "It means 'leader of many,' symbolizing future Israelite leadership",
+            "It means 'gift of God,' indicating divine blessing",
+            "It means 'warrior,' foreshadowing conflict"
+          ],
+          "correctAnswer": "It means 'a stranger there,' reflecting Moses’ alienation in Midian (Exodus 2:22)",
+          "explanation": "Exodus 2:22 explains Gershom means 'I have been a stranger in a strange land,' directly reflecting Moses’ status.",
+          "verseReference": "Exodus 2:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-hard-q15",
+          "question": "How does Moses’ intervention in the quarrel between two Hebrews (Exodus 2:13-14) illustrate themes of justice and leadership?",
+          "type": "multiple-choice",
+          "options": [
+            "Moses asserts authority and attempts to mediate, foreshadowing judicial role (Exodus 2:13-14)",
+            "He avoids involvement in community disputes",
+            "He punishes both men harshly",
+            "He sides with the stronger party"
+          ],
+          "correctAnswer": "Moses asserts authority and attempts to mediate, foreshadowing judicial role (Exodus 2:13-14)",
+          "explanation": "Moses’ confrontation in Exodus 2:13-14 shows early leadership qualities and concern for justice among his people.",
+          "verseReference": "Exodus 2:13-14",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "exodus-2-quiz",
+      "tags": [
+        "exodus",
+        "chapter-2",
+        "exodus",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "exodus-2-theological",
+      "title": "Exodus Chapter 2 Quiz - Theological Level",
+      "description": "Deep biblical theology from Exodus Chapter 2 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Exodus",
+      "chapter": 2,
+      "questions": [
+        {
+          "id": "exodus-2-theological-q1",
+          "question": "What is the significance of Moses being hidden for three months by his mother?",
+          "type": "multiple-choice",
+          "options": [
+            "To protect him from Pharaoh's decree to kill Hebrew male infants",
+            "To hide him because he was a weak child",
+            "To prepare him for priestly duties",
+            "To prevent him from being adopted by Egyptians"
+          ],
+          "correctAnswer": "To protect him from Pharaoh's decree to kill Hebrew male infants",
+          "explanation": "Exodus 2:2 shows Moses' mother hid him to protect him from Pharaoh's command to kill Hebrew boys. This act foreshadows God's providential protection over His deliverer, consistent with God's protection of Isaac (Genesis 21:20-21), Samuel (1 Samuel 1:11-20), and Jesus (Matthew 2:13-15).",
+          "verseReference": "Exodus 2:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-theological-q2",
+          "question": "What materials were used to make the ark in which Moses was placed?",
+          "type": "multiple-choice",
+          "options": [
+            "Bulrushes, slime, and pitch",
+            "Wood, clay, and oil",
+            "Papyrus, tar, and wax",
+            "Reeds, mud, and resin"
+          ],
+          "correctAnswer": "Bulrushes, slime, and pitch",
+          "explanation": "Exodus 2:3 describes the ark made of bulrushes daubed with slime and pitch, showing human ingenuity under divine providence. This preservation method echoes God's care in Noah's Ark (Genesis 6:14), symbolizing salvation and deliverance.",
+          "verseReference": "Exodus 2:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-theological-q3",
+          "question": "Who witnessed Moses being placed in the ark and stayed nearby to see what would happen?",
+          "type": "multiple-choice",
+          "options": [
+            "His sister",
+            "His mother",
+            "Pharaoh's daughter",
+            "A Hebrew midwife"
+          ],
+          "correctAnswer": "His sister",
+          "explanation": "Exodus 2:4 mentions Moses' sister standing afar off to see his fate, indicating early faith and protection within his family. This parallels the faith of Anna who watched over Jesus (Luke 2:36-38) and the vigilance of faithful witnesses in Scripture.",
+          "verseReference": "Exodus 2:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-theological-q4",
+          "question": "What prompted Pharaoh's daughter to take the Hebrew child from the river?",
+          "type": "multiple-choice",
+          "options": [
+            "She had compassion when she saw the child weeping",
+            "She wanted a servant for her household",
+            "She recognized him as a prince of Egypt",
+            "She was searching for a lost Egyptian child"
+          ],
+          "correctAnswer": "She had compassion when she saw the child weeping",
+          "explanation": "Exodus 2:6 shows Pharaoh's daughter's compassion upon seeing the crying child, demonstrating God's mercy working through an unlikely agent. This reflects divine compassion in salvation history (Psalm 78:38, Luke 1:78).",
+          "verseReference": "Exodus 2:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-theological-q5",
+          "question": "Who was called to nurse the baby Moses after he was found by Pharaoh's daughter?",
+          "type": "multiple-choice",
+          "options": [
+            "His own mother",
+            "An Egyptian nurse",
+            "A Midianite woman",
+            "Pharaoh's daughter herself"
+          ],
+          "correctAnswer": "His own mother",
+          "explanation": "Exodus 2:7-9 reveals that Moses' sister arranged for their mother to nurse him, illustrating God's providential care and the preservation of Hebrew identity. This arrangement also prefigures God's use of family and covenant community in salvation (Isaiah 49:15).",
+          "verseReference": "Exodus 2:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-theological-q6",
+          "question": "What name was given to the child and what is the meaning of this name?",
+          "type": "multiple-choice",
+          "options": [
+            "Moses, meaning 'drawn out of the water'",
+            "Aaron, meaning 'exalted'",
+            "Joshua, meaning 'God is salvation'",
+            "Levi, meaning 'joined'"
+          ],
+          "correctAnswer": "Moses, meaning 'drawn out of the water'",
+          "explanation": "Exodus 2:10 states Pharaoh's daughter named him Moses because she drew him out of the water. This name signifies deliverance, prefiguring Christ as the one who rescues from death (John 3:14-15, Hebrews 11:23).",
+          "verseReference": "Exodus 2:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-theological-q7",
+          "question": "What motivated Moses to kill the Egyptian who was beating a Hebrew?",
+          "type": "multiple-choice",
+          "options": [
+            "He identified with his Hebrew brethren and sought justice",
+            "He wanted to become ruler of Egypt",
+            "He was angry at Pharaoh's daughter",
+            "He was acting out of personal revenge"
+          ],
+          "correctAnswer": "He identified with his Hebrew brethren and sought justice",
+          "explanation": "Exodus 2:11-12 shows Moses' empathy with his people and his sense of justice, reflecting God's concern for the oppressed (Psalm 82:3-4, Isaiah 1:17). This act reveals human sinfulness and the need for divine salvation.",
+          "verseReference": "Exodus 2:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-theological-q8",
+          "question": "Why did Moses flee to the land of Midian?",
+          "type": "multiple-choice",
+          "options": [
+            "Pharaoh sought to kill him after he killed the Egyptian",
+            "He wanted to study under Midianite priests",
+            "He was exiled by the Hebrews",
+            "He was called by God to Midian"
+          ],
+          "correctAnswer": "Pharaoh sought to kill him after he killed the Egyptian",
+          "explanation": "Exodus 2:15 records Moses fleeing because Pharaoh sought to kill him, illustrating the consequences of sin and God's providential protection. This exile parallels Joseph's time in Egypt (Genesis 39:7-20) and Jesus' flight to Egypt (Matthew 2:13).",
+          "verseReference": "Exodus 2:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-theological-q9",
+          "question": "How did Moses first assist the daughters of the priest of Midian?",
+          "type": "multiple-choice",
+          "options": [
+            "By defending them from shepherds and watering their flock",
+            "By teaching them the law",
+            "By giving them food and shelter",
+            "By leading them to a city"
+          ],
+          "correctAnswer": "By defending them from shepherds and watering their flock",
+          "explanation": "Exodus 2:17 describes Moses helping the daughters by defending them and watering the flock, demonstrating his compassionate character and foreshadowing his role as a shepherd of Israel (John 10:11).",
+          "verseReference": "Exodus 2:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-theological-q10",
+          "question": "What was the name of Moses' wife and what does her name signify in relation to Moses' life?",
+          "type": "multiple-choice",
+          "options": [
+            "Zipporah, signifying a connection to Midian",
+            "Miriam, meaning 'bitterness'",
+            "Deborah, meaning 'bee'",
+            "Hagar, meaning 'flight'"
+          ],
+          "correctAnswer": "Zipporah, signifying a connection to Midian",
+          "explanation": "Exodus 2:21 identifies Zipporah as Moses' wife, marking his integration into Midianite society. This union reflects God's providential preparation of Moses for his mission (Genesis 24:67, Judges 4:4).",
+          "verseReference": "Exodus 2:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-theological-q11",
+          "question": "What is the meaning of the name Moses gave to his son Gershom?",
+          "type": "multiple-choice",
+          "options": [
+            "'I have been a stranger in a strange land'",
+            "'God is my salvation'",
+            "'Exalted by God'",
+            "'Beloved of the Lord'"
+          ],
+          "correctAnswer": "'I have been a stranger in a strange land'",
+          "explanation": "Exodus 2:22 shows Gershom means 'stranger in a strange land,' reflecting Moses' experience of alienation and foreshadowing the Israelites' sojourn in Egypt (Hebrews 11:13).",
+          "verseReference": "Exodus 2:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-theological-q12",
+          "question": "What happened in Israel after the death of the king of Egypt according to this chapter?",
+          "type": "multiple-choice",
+          "options": [
+            "The children of Israel sighed because of bondage and cried to God",
+            "Israel immediately left Egypt",
+            "Pharaoh released the Israelites from slavery",
+            "The Israelites worshipped Egyptian gods"
+          ],
+          "correctAnswer": "The children of Israel sighed because of bondage and cried to God",
+          "explanation": "Exodus 2:23 describes Israel's suffering and their prayers reaching God, showing God's attentiveness to the oppressed and His covenant faithfulness (Psalm 34:17, Isaiah 63:9).",
+          "verseReference": "Exodus 2:23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-theological-q13",
+          "question": "How did God respond to the cries of the Israelites in bondage?",
+          "type": "multiple-choice",
+          "options": [
+            "God heard their groaning and remembered His covenant with the patriarchs",
+            "God ignored their cries",
+            "God punished them further",
+            "God immediately delivered them"
+          ],
+          "correctAnswer": "God heard their groaning and remembered His covenant with the patriarchs",
+          "explanation": "Exodus 2:24 shows God's covenant faithfulness and compassion, a foundational theme throughout Scripture (Deuteronomy 7:9, Psalm 105:8, Romans 11:29).",
+          "verseReference": "Exodus 2:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-theological-q14",
+          "question": "What does God's looking upon the children of Israel and having respect for them signify theologically?",
+          "type": "multiple-choice",
+          "options": [
+            "God's mercy and readiness to act for His covenant people",
+            "God's disinterest in human affairs",
+            "God's judgment on Israel",
+            "God's temporary favor only"
+          ],
+          "correctAnswer": "God's mercy and readiness to act for His covenant people",
+          "explanation": "Exodus 2:25 indicates God's compassionate regard and willingness to intervene, reflecting His steadfast love (Exodus 34:6-7, Lamentations 3:22-23, Luke 1:78-79).",
+          "verseReference": "Exodus 2:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-theological-q15",
+          "question": "How does Moses' killing of the Egyptian relate to the biblical doctrine of sin and justice?",
+          "type": "multiple-choice",
+          "options": [
+            "It reveals human sinfulness and God's call for justice",
+            "It legitimizes violent rebellion",
+            "It shows that ends justify means",
+            "It is an example of divine approval of murder"
+          ],
+          "correctAnswer": "It reveals human sinfulness and God's call for justice",
+          "explanation": "Exodus 2:12-14 illustrates both the reality of human sin and the need for righteous justice. Scripture consistently condemns murder (Exodus 20:13) but calls for justice for the oppressed (Isaiah 1:17, Romans 12:19).",
+          "verseReference": "Exodus 2:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-2-theological-q16",
+          "question": "What theological theme is reflected by Moses being drawn out of water and later becoming Israel's deliverer?",
+          "type": "multiple-choice",
+          "options": [
+            "Salvation and deliverance through God's providence",
+            "Judgment against Egypt",
+            "The futility of human effort",
+            "The rejection of Israel by God"
+          ],
+          "correctAnswer": "Salvation and deliverance through God's providence",
+          "explanation": "Exodus 2:10 portrays Moses' rescue from water as a symbol of salvation, prefiguring baptism (1 Corinthians 10:2) and Christ's deliverance (John 3:5), emphasizing God's sovereign salvation plan.",
+          "verseReference": "Exodus 2:10",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "exodus-2-quiz",
+      "tags": [
+        "exodus",
+        "chapter-2",
+        "exodus",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 16,
+      "estimatedTime": 25
+    }
+  }
+}

@@ -1,0 +1,983 @@
+{
+  "id": "mark-12-tabbed",
+  "title": "Mark Chapter 12 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Mark chapter 12 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "mark-12-easy",
+      "title": "Mark Chapter 12 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Mark Chapter 12.",
+      "type": "chapter",
+      "book": "Mark",
+      "chapter": 12,
+      "questions": [
+        {
+          "id": "mark-12-easy-q1",
+          "question": "In the parable told in Mark 12:1, what did the man plant?",
+          "type": "multiple-choice",
+          "options": [
+            "A vineyard",
+            "An orchard",
+            "A field of wheat",
+            "A garden"
+          ],
+          "correctAnswer": "A vineyard",
+          "explanation": "Mark 12:1 clearly states that a certain man planted a vineyard as the setting of the parable.",
+          "verseReference": "Mark 12:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-12-easy-q2",
+          "question": "What did the husbandmen do to the first servant sent to receive fruit from the vineyard?",
+          "type": "multiple-choice",
+          "options": [
+            "Caught him and beat him",
+            "Welcomed him",
+            "Ignored him",
+            "Gave him the fruit"
+          ],
+          "correctAnswer": "Caught him and beat him",
+          "explanation": "Mark 12:3 says the husbandmen caught the servant, beat him, and sent him away empty.",
+          "verseReference": "Mark 12:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-12-easy-q3",
+          "question": "How did the husbandmen treat the second servant sent by the owner?",
+          "type": "multiple-choice",
+          "options": [
+            "Cast stones and wounded him",
+            "Gave him the fruit",
+            "Sent him away peacefully",
+            "Ignored him"
+          ],
+          "correctAnswer": "Cast stones and wounded him",
+          "explanation": "According to Mark 12:4, the husbandmen cast stones at the second servant, wounded him in the head, and sent him away shamefully handled.",
+          "verseReference": "Mark 12:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-12-easy-q4",
+          "question": "What was the fate of the owner's son in the parable?",
+          "type": "multiple-choice",
+          "options": [
+            "They killed him and cast him out of the vineyard",
+            "They welcomed him",
+            "They ignored him",
+            "He escaped unhurt"
+          ],
+          "correctAnswer": "They killed him and cast him out of the vineyard",
+          "explanation": "Mark 12:8 states that they took the son, killed him, and cast him out of the vineyard.",
+          "verseReference": "Mark 12:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-12-easy-q5",
+          "question": "According to Jesus' teaching in Mark 12:17, what should be rendered to Caesar?",
+          "type": "multiple-choice",
+          "options": [
+            "The things that are Caesar's",
+            "All possessions",
+            "Nothing",
+            "Only offerings"
+          ],
+          "correctAnswer": "The things that are Caesar's",
+          "explanation": "Mark 12:17 records Jesus saying, 'Render to Caesar the things that are Caesar's, and to God the things that are God's.'",
+          "verseReference": "Mark 12:17",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-12-easy-q6",
+          "question": "Who came to Jesus to question Him about the resurrection in Mark 12?",
+          "type": "multiple-choice",
+          "options": [
+            "The Sadducees",
+            "The Pharisees",
+            "The disciples",
+            "The Romans"
+          ],
+          "correctAnswer": "The Sadducees",
+          "explanation": "Mark 12:18 states that the Sadducees, who say there is no resurrection, came to ask Jesus questions.",
+          "verseReference": "Mark 12:18",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-12-easy-q7",
+          "question": "What commandment did Jesus say is the first of all?",
+          "type": "multiple-choice",
+          "options": [
+            "Hear, O Israel; The Lord our God is one Lord",
+            "Thou shalt not kill",
+            "Honor thy father and mother",
+            "Thou shalt not steal"
+          ],
+          "correctAnswer": "Hear, O Israel; The Lord our God is one Lord",
+          "explanation": "Mark 12:29 records Jesus answering that the first commandment is, 'Hear, O Israel; The Lord our God is one Lord.'",
+          "verseReference": "Mark 12:29",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-12-easy-q8",
+          "question": "According to Mark 12:31, how should we love our neighbour?",
+          "type": "multiple-choice",
+          "options": [
+            "As thyself",
+            "More than thyself",
+            "Less than thyself",
+            "Not at all"
+          ],
+          "correctAnswer": "As thyself",
+          "explanation": "Mark 12:31 states the second commandment is to love thy neighbour as thyself.",
+          "verseReference": "Mark 12:31",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-12-easy-q9",
+          "question": "How did Jesus describe the scribes in Mark 12:38?",
+          "type": "multiple-choice",
+          "options": [
+            "They love to go in long clothing and salutations in marketplaces",
+            "They are humble and kind",
+            "They avoid public attention",
+            "They are generous with widows"
+          ],
+          "correctAnswer": "They love to go in long clothing and salutations in marketplaces",
+          "explanation": "Mark 12:38 describes the scribes as those who love to appear in long clothing and enjoy greetings in marketplaces.",
+          "verseReference": "Mark 12:38",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-12-easy-q10",
+          "question": "What did Jesus observe about the poor widow who put money into the treasury?",
+          "type": "multiple-choice",
+          "options": [
+            "She put in all she had, even all her living",
+            "She put in a large amount",
+            "She did not give anything",
+            "She gave only a small fraction of her wealth"
+          ],
+          "correctAnswer": "She put in all she had, even all her living",
+          "explanation": "Mark 12:44 states that the poor widow gave all she had, even all her living.",
+          "verseReference": "Mark 12:44",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-12-easy-q11",
+          "question": "True or False: The husbandmen killed all the servants sent by the vineyard owner.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Mark 12:3-5 shows servants were beaten, wounded, and some killed, but not all servants were killed.",
+          "verseReference": "Mark 12:3-5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-12-easy-q12",
+          "question": "True or False: Jesus said the God of Abraham, Isaac, and Jacob is the God of the living, not the dead.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Mark 12:27 quotes Jesus teaching that God is not the God of the dead but of the living.",
+          "verseReference": "Mark 12:27",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-12-easy-q13",
+          "question": "True or False: Jesus told the people to give tribute to Caesar and ignore God’s things.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Mark 12:17 shows Jesus teaches to render to Caesar what belongs to Caesar and to God what belongs to God, not to ignore God.",
+          "verseReference": "Mark 12:17",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-12-easy-q14",
+          "question": "Complete this verse from Mark 12:30: \"And thou shalt love the Lord thy God with all thy heart, and with all thy _______.\"",
+          "type": "fill-blank",
+          "options": [
+            "soul",
+            "mind",
+            "strength",
+            "understanding"
+          ],
+          "correctAnswer": "soul",
+          "explanation": "Mark 12:30 states to love God with all heart, soul, mind, and strength; here the blank is 'soul'.",
+          "verseReference": "Mark 12:30",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-12-easy-q15",
+          "question": "Complete this verse from Mark 12:10: \"The stone which the builders rejected is become the ______ of the corner.\"",
+          "type": "fill-blank",
+          "options": [
+            "head",
+            "foundation",
+            "pillar",
+            "cornerstone"
+          ],
+          "correctAnswer": "head",
+          "explanation": "Mark 12:10 quotes scripture saying the rejected stone became the head of the corner.",
+          "verseReference": "Mark 12:10",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "mark-12-quiz",
+      "tags": [
+        "mark",
+        "chapter-12",
+        "mark",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "mark-12-medium",
+      "title": "Mark Chapter 12 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Mark Chapter 12 to real-life situations.",
+      "type": "chapter",
+      "book": "Mark",
+      "chapter": 12,
+      "questions": [
+        {
+          "id": "mark-12-medium-q1",
+          "question": "A fellow believer is struggling with trusting God's justice when facing opposition. Based on the parable of the vineyard in Mark 12, what truth would you share about God's response to those who reject His messengers?",
+          "type": "multiple-choice",
+          "options": [
+            "God will destroy the wicked and give blessings to others",
+            "God ignores the rejection of His servants",
+            "God rewards only those who are wealthy",
+            "God allows evil to prosper indefinitely"
+          ],
+          "correctAnswer": "God will destroy the wicked and give blessings to others",
+          "explanation": "Mark 12:1-9 teaches that the lord of the vineyard sent servants and his son to receive fruit, but the wicked husbandmen beat and killed them. The owner will destroy those husbandmen and give the vineyard to others, showing God's justice and eventual judgment.",
+          "verseReference": "Mark 12:1-9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-12-medium-q2",
+          "question": "How does Jesus' teaching about giving to Caesar and to God (Mark 12:17) instruct believers about integrity and stewardship in daily life?",
+          "type": "multiple-choice",
+          "options": [
+            "Believers should respect both earthly and divine responsibilities",
+            "Believers should ignore earthly authorities completely",
+            "Believers should only focus on spiritual matters",
+            "Believers should avoid paying taxes at all costs"
+          ],
+          "correctAnswer": "Believers should respect both earthly and divine responsibilities",
+          "explanation": "In Mark 12:13-17, Jesus teaches to render to Caesar what belongs to Caesar and to God what belongs to God, illustrating the balance of integrity in fulfilling civil duties while honoring God fully.",
+          "verseReference": "Mark 12:13-17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-12-medium-q3",
+          "question": "A believer questions the resurrection and eternal life. Based on Jesus’ conversation with the Sadducees about marriage in the resurrection, what biblical truth would you share about eternal life?",
+          "type": "multiple-choice",
+          "options": [
+            "In the resurrection, people do not marry but are like angels",
+            "Marriage continues exactly the same after resurrection",
+            "There is no life after death",
+            "People will live solitary lives without relationships"
+          ],
+          "correctAnswer": "In the resurrection, people do not marry but are like angels",
+          "explanation": "Mark 12:18-25 explains that in the resurrection, people neither marry nor are given in marriage but are like the angels in heaven, teaching about the transformed nature of eternal life.",
+          "verseReference": "Mark 12:18-25",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-12-medium-q4",
+          "question": "How should a Christian prioritize their love and devotion according to Jesus’ answer to the scribe about the greatest commandment?",
+          "type": "multiple-choice",
+          "options": [
+            "Love God with all heart, soul, mind, and strength, and love neighbor as self",
+            "Love only God and ignore neighbors",
+            "Love neighbors more than God",
+            "Focus only on external religious rituals"
+          ],
+          "correctAnswer": "Love God with all heart, soul, mind, and strength, and love neighbor as self",
+          "explanation": "Mark 12:28-31 teaches that the greatest commandments are to love God completely and love one's neighbor as oneself, emphasizing wholehearted devotion and relational love.",
+          "verseReference": "Mark 12:28-31",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-12-medium-q5",
+          "question": "A believer is learning about humility and contentment. What example from Mark 12 shows the value of giving sacrificially regardless of wealth?",
+          "type": "multiple-choice",
+          "options": [
+            "The poor widow who gave two mites, all she had",
+            "The rich who gave large amounts",
+            "The scribes who wore long robes",
+            "The Pharisees who gave to Caesar"
+          ],
+          "correctAnswer": "The poor widow who gave two mites, all she had",
+          "explanation": "Mark 12:41-44 highlights the poor widow who gave all she had, showing that sacrificial giving from the heart is more valuable than large gifts from abundance, teaching humility and contentment.",
+          "verseReference": "Mark 12:41-44",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-12-medium-q6",
+          "question": "Based on Mark 12, how should believers respond to religious leaders who show pride and hypocrisy?",
+          "type": "multiple-choice",
+          "options": [
+            "Beware of them as they seek honor and exploit others",
+            "Follow them unquestioningly",
+            "Ignore their wrongdoing",
+            "Join them to gain status"
+          ],
+          "correctAnswer": "Beware of them as they seek honor and exploit others",
+          "explanation": "Mark 12:38-40 warns against scribes who love long clothing, greetings, chief seats, and who exploit widows, teaching believers to be cautious of prideful hypocrisy.",
+          "verseReference": "Mark 12:38-40",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-12-medium-q7",
+          "question": "What does Jesus’ question about the stone the builders rejected (Mark 12:10-11) teach us about God’s work through unexpected means?",
+          "type": "multiple-choice",
+          "options": [
+            "God often uses what people reject as the cornerstone of His plan",
+            "Only powerful people can serve God",
+            "God’s plans always follow human expectations",
+            "The rejected are without value in God’s eyes"
+          ],
+          "correctAnswer": "God often uses what people reject as the cornerstone of His plan",
+          "explanation": "Mark 12:10-11 quotes scripture about the stone rejected by builders becoming the cornerstone, illustrating God's surprising use of what is despised to accomplish His purposes.",
+          "verseReference": "Mark 12:10-11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-12-medium-q8",
+          "question": "True or False: Jesus taught that loving God with all our strength is more important than performing religious sacrifices.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Mark 12:33 states that loving God with all heart, understanding, soul, and strength, and loving neighbor is more important than all burnt offerings and sacrifices, emphasizing love over ritual.",
+          "verseReference": "Mark 12:33",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-12-medium-q9",
+          "question": "True or False: Jesus said that the God of Abraham, Isaac, and Jacob is only the God of the dead, not the living.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Mark 12:26-27 explains that God is the God of the living, not the dead, correcting the Sadducees’ misunderstanding about resurrection and affirming life after death.",
+          "verseReference": "Mark 12:26-27",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-12-medium-q10",
+          "question": "Fill in the blank: Jesus told the scribe that the first commandment of all is, \"Hear, O Israel; The Lord our God is _____ Lord.\"",
+          "type": "fill-blank",
+          "options": [
+            "one",
+            "our",
+            "the true",
+            "the only"
+          ],
+          "correctAnswer": "one",
+          "explanation": "Mark 12:29 records Jesus stating the first commandment as \"The Lord our God is one Lord,\" emphasizing the unity and singularity of God.",
+          "verseReference": "Mark 12:29",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-12-medium-q11",
+          "question": "How does Jesus’ teaching about marriage in the resurrection help believers face the challenge of understanding eternal life?",
+          "type": "multiple-choice",
+          "options": [
+            "It reassures that earthly institutions change in heaven",
+            "It denies the existence of heaven",
+            "It promises remarriage after resurrection",
+            "It says relationships end completely"
+          ],
+          "correctAnswer": "It reassures that earthly institutions change in heaven",
+          "explanation": "Mark 12:24-25 explains that in the resurrection people neither marry nor are given in marriage, but are like angels, teaching that eternal life transcends earthly relationships.",
+          "verseReference": "Mark 12:24-25",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-12-medium-q12",
+          "question": "In the parable of the vineyard, what does the sending of the son represent about God's final revelation and patience?",
+          "type": "multiple-choice",
+          "options": [
+            "God sending His beloved Son as a last appeal before judgment",
+            "God giving up on His people",
+            "God rewarding the wicked",
+            "God’s indifference to rejection"
+          ],
+          "correctAnswer": "God sending His beloved Son as a last appeal before judgment",
+          "explanation": "Mark 12:6-8 shows the owner sending his beloved son last, expecting respect, but the husbandmen kill him, symbolizing God's final and patient revelation through Jesus before judgment.",
+          "verseReference": "Mark 12:6-8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-12-medium-q13",
+          "question": "A believer is struggling with how to love others practically. Based on Mark 12, what is the biblical foundation for loving your neighbor?",
+          "type": "multiple-choice",
+          "options": [
+            "It is the second greatest commandment, like loving yourself",
+            "It is optional for believers",
+            "It is only for family members",
+            "It is less important than observing religious rituals"
+          ],
+          "correctAnswer": "It is the second greatest commandment, like loving yourself",
+          "explanation": "Mark 12:31 teaches that loving your neighbor as yourself is the second greatest commandment and none is greater than these two, highlighting love as central to Christian living.",
+          "verseReference": "Mark 12:31",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-12-medium-q14",
+          "question": "What warning does Jesus give about the behavior of certain scribes and how should believers apply this in church life?",
+          "type": "multiple-choice",
+          "options": [
+            "Beware of those who seek status and exploit others with false piety",
+            "Respect all leaders without question",
+            "Ignore hypocrisy among leaders",
+            "Seek positions of power at any cost"
+          ],
+          "correctAnswer": "Beware of those who seek status and exploit others with false piety",
+          "explanation": "Mark 12:38-40 warns about scribes loving long robes, greetings, chief seats, and devouring widows’ houses, teaching believers to be vigilant and seek genuine humility and service in church life.",
+          "verseReference": "Mark 12:38-40",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-12-medium-q15",
+          "question": "How does Jesus’ response to the question about paying tribute to Caesar teach believers about dealing with temptation and hypocrisy?",
+          "type": "multiple-choice",
+          "options": [
+            "He exposes hypocrisy and refuses to be trapped by their question",
+            "He ignores the question and changes the subject",
+            "He agrees with their trap to please them",
+            "He condemns paying taxes altogether"
+          ],
+          "correctAnswer": "He exposes hypocrisy and refuses to be trapped by their question",
+          "explanation": "Mark 12:14-15 shows Jesus recognizing their hypocrisy and asking for a coin to expose their trap, teaching believers to discern and resist temptations to compromise truth.",
+          "verseReference": "Mark 12:14-15",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "mark-12-quiz",
+      "tags": [
+        "mark",
+        "chapter-12",
+        "mark",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "mark-12-hard",
+      "title": "Mark Chapter 12 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Mark Chapter 12.",
+      "type": "chapter",
+      "book": "Mark",
+      "chapter": 12,
+      "questions": [
+        {
+          "id": "mark-12-hard-q1",
+          "question": "In the parable of the vineyard (Mark 12:1-12), the son sent by the vineyard owner is a typology for whom in the New Testament?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus Christ",
+            "John the Baptist",
+            "Peter",
+            "Paul"
+          ],
+          "correctAnswer": "Jesus Christ",
+          "explanation": "Mark 12:6-8 shows the vineyard owner sending his beloved son who is killed by the tenants, paralleling Jesus' role as the Son of God rejected and killed by the leaders.",
+          "verseReference": "Mark 12:6-8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-hard-q2",
+          "question": "What is the significance of the 'stone which the builders rejected' as cited by Jesus in Mark 12:10?",
+          "type": "multiple-choice",
+          "options": [
+            "It symbolizes the rejected Messiah becoming the cornerstone",
+            "It refers to the foundation of the temple",
+            "It is a symbol of Israel's kings",
+            "It denotes the destruction of Jerusalem"
+          ],
+          "correctAnswer": "It symbolizes the rejected Messiah becoming the cornerstone",
+          "explanation": "Mark 12:10 quotes Psalm 118:22, indicating Jesus as the rejected stone who becomes the key foundation of God's kingdom.",
+          "verseReference": "Mark 12:10-11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-hard-q3",
+          "question": "In Mark 12:13-17, Jesus' response to the question about paying tribute to Caesar reflects what theological principle?",
+          "type": "multiple-choice",
+          "options": [
+            "Separation of earthly and divine obligations",
+            "Rebellion against Roman rule",
+            "Absolute allegiance to the state",
+            "The rejection of taxation"
+          ],
+          "correctAnswer": "Separation of earthly and divine obligations",
+          "explanation": "Jesus distinguishes what belongs to Caesar (earthly authority) and what belongs to God (spiritual devotion), highlighting dual responsibilities (Mark 12:17).",
+          "verseReference": "Mark 12:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-hard-q4",
+          "question": "The Sadducees in Mark 12:18-27 deny which doctrine that Jesus affirms?",
+          "type": "multiple-choice",
+          "options": [
+            "Resurrection of the dead",
+            "The divinity of Christ",
+            "The existence of angels",
+            "The coming of the Messiah"
+          ],
+          "correctAnswer": "Resurrection of the dead",
+          "explanation": "Mark 12:18 explicitly identifies the Sadducees as denying resurrection, which Jesus corrects by citing God's self-identification as God of the living.",
+          "verseReference": "Mark 12:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-hard-q5",
+          "question": "According to Jesus in Mark 12:25, what is the nature of marriage in the resurrection?",
+          "type": "multiple-choice",
+          "options": [
+            "People neither marry nor are given in marriage",
+            "Marriage continues as on earth",
+            "People will marry multiple spouses",
+            "Marriage is only symbolic"
+          ],
+          "correctAnswer": "People neither marry nor are given in marriage",
+          "explanation": "Jesus teaches that resurrected beings are like angels and do not engage in marriage (Mark 12:25), indicating a transformed state after resurrection.",
+          "verseReference": "Mark 12:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-hard-q6",
+          "question": "What Old Testament event does Jesus reference in Mark 12:26 to argue for the resurrection?",
+          "type": "multiple-choice",
+          "options": [
+            "God's appearance to Moses at the burning bush",
+            "The giving of the Ten Commandments",
+            "The crossing of the Red Sea",
+            "The conquest of Canaan"
+          ],
+          "correctAnswer": "God's appearance to Moses at the burning bush",
+          "explanation": "Jesus cites God's declaration in Exodus that He is the God of Abraham, Isaac, and Jacob, emphasizing that these patriarchs are alive, thus supporting resurrection (Mark 12:26).",
+          "verseReference": "Mark 12:26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-hard-q7",
+          "question": "Which commandment does Jesus cite as the first and greatest in Mark 12:29-30?",
+          "type": "multiple-choice",
+          "options": [
+            "Love the Lord your God with all your heart, soul, mind, and strength",
+            "Do not steal",
+            "Honor your father and mother",
+            "Keep the Sabbath holy"
+          ],
+          "correctAnswer": "Love the Lord your God with all your heart, soul, mind, and strength",
+          "explanation": "Jesus quotes the Shema from Deuteronomy 6:4-5 as the greatest commandment, emphasizing total devotion to God (Mark 12:29-30).",
+          "verseReference": "Mark 12:29-30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-hard-q8",
+          "question": "In Mark 12:31, how does Jesus describe the second greatest commandment?",
+          "type": "multiple-choice",
+          "options": [
+            "Love your neighbor as yourself",
+            "Keep the Sabbath day holy",
+            "Do not bear false witness",
+            "You shall have no other gods"
+          ],
+          "correctAnswer": "Love your neighbor as yourself",
+          "explanation": "Jesus identifies loving one's neighbor as oneself, from Leviticus 19:18, as the second greatest commandment (Mark 12:31).",
+          "verseReference": "Mark 12:31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-hard-q9",
+          "question": "What is the scribe’s response to Jesus’ teaching on the commandments in Mark 12:32-33?",
+          "type": "multiple-choice",
+          "options": [
+            "He agrees and praises the truth of Jesus' words",
+            "He disagrees and argues for more commandments",
+            "He remains silent",
+            "He questions Jesus’ authority"
+          ],
+          "correctAnswer": "He agrees and praises the truth of Jesus' words",
+          "explanation": "The scribe acknowledges the truth of one God and the importance of loving God and neighbor over sacrifices (Mark 12:32-33).",
+          "verseReference": "Mark 12:32-33",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-hard-q10",
+          "question": "How does Jesus describe the scribes in Mark 12:38-40, and what cultural critique is he making?",
+          "type": "multiple-choice",
+          "options": [
+            "They seek status and exploit widows while pretending piety",
+            "They are humble and generous",
+            "They oppose the Pharisees",
+            "They are the true leaders of Israel"
+          ],
+          "correctAnswer": "They seek status and exploit widows while pretending piety",
+          "explanation": "Jesus criticizes scribes for loving honor and long prayers but exploiting vulnerable widows, indicating hypocrisy (Mark 12:38-40).",
+          "verseReference": "Mark 12:38-40",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-hard-q11",
+          "question": "What literary device is Jesus using in the parable of the vineyard (Mark 12:1-12) to critique the Jewish leaders?",
+          "type": "multiple-choice",
+          "options": [
+            "Allegory",
+            "Hyperbole",
+            "Riddle",
+            "Paradox"
+          ],
+          "correctAnswer": "Allegory",
+          "explanation": "The vineyard represents Israel, the tenants are leaders, servants are prophets, and the son symbolizes Jesus, making the parable an allegory (Mark 12:1-12).",
+          "verseReference": "Mark 12:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-hard-q12",
+          "question": "What cultural significance does the widow's offering in Mark 12:41-44 hold in the context of ancient Near Eastern society?",
+          "type": "multiple-choice",
+          "options": [
+            "It highlights sacrificial giving from poverty, contrasting with the rich's abundance",
+            "It shows the wealth of widows",
+            "It is a normative example of taxation",
+            "It symbolizes temple corruption"
+          ],
+          "correctAnswer": "It highlights sacrificial giving from poverty, contrasting with the rich's abundance",
+          "explanation": "Widows were vulnerable in society; her two mites represent sacrificial giving, showing true devotion compared to the rich giving out of surplus (Mark 12:41-44).",
+          "verseReference": "Mark 12:41-44",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-hard-q13",
+          "question": "True or False: In Mark 12:35-37, Jesus uses Psalm 110 to challenge the scribes' understanding of the Messiah’s lineage.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Jesus cites Psalm 110:1 to show that the Messiah is both David's son and Lord, challenging prevailing messianic expectations (Mark 12:35-37).",
+          "verseReference": "Mark 12:35-37",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-hard-q14",
+          "question": "In Mark 12:15, when Jesus asks for a penny to examine, what is the Greek term used for 'penny' and its significance?",
+          "type": "multiple-choice",
+          "options": [
+            "Denarius, a day’s wage coin",
+            "Drachma, a Greek coin",
+            "Shekel, a temple tax coin",
+            "Lepton, a small copper coin"
+          ],
+          "correctAnswer": "Denarius, a day’s wage coin",
+          "explanation": "The 'penny' is a denarius, a Roman silver coin worth a day’s wage, highlighting the irony of the question about paying tribute (Mark 12:15-16).",
+          "verseReference": "Mark 12:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-hard-q15",
+          "question": "What theme in Mark 12 is foreshadowed by the parable of the vineyard and later fulfilled in the passion narrative?",
+          "type": "multiple-choice",
+          "options": [
+            "Rejection and killing of the Son",
+            "The coming of the Holy Spirit",
+            "The establishment of the kingdom by force",
+            "The destruction of Rome"
+          ],
+          "correctAnswer": "Rejection and killing of the Son",
+          "explanation": "The vineyard owner's son in the parable is rejected and killed, foreshadowing Jesus’ own rejection and crucifixion (Mark 12:1-8).",
+          "verseReference": "Mark 12:6-8",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "mark-12-quiz",
+      "tags": [
+        "mark",
+        "chapter-12",
+        "mark",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "mark-12-theological",
+      "title": "Mark Chapter 12 Quiz - Theological Level",
+      "description": "Deep biblical theology from Mark Chapter 12 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Mark",
+      "chapter": 12,
+      "questions": [
+        {
+          "id": "mark-12-theological-q1",
+          "question": "In the parable of the vineyard owner, what was the ultimate fate of the owner's son sent to the husbandmen?",
+          "type": "multiple-choice",
+          "options": [
+            "He was welcomed and honored",
+            "He was beaten and sent away empty",
+            "He was killed and cast out of the vineyard",
+            "He received the fruit of the vineyard"
+          ],
+          "correctAnswer": "He was killed and cast out of the vineyard",
+          "explanation": "Mark 12:6-8 details that the son, sent last by the vineyard owner, was killed by the husbandmen and cast out, illustrating rejection of God's Son. This aligns with Psalm 118:22, Isaiah 53:3, and Acts 4:27-28, emphasizing the messianic rejection and suffering of Christ.",
+          "verseReference": "Mark 12:6-8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-theological-q2",
+          "question": "What is the significance of the stone which the builders rejected, according to Jesus in this chapter?",
+          "type": "multiple-choice",
+          "options": [
+            "It became the head of the corner",
+            "It was thrown away and lost",
+            "It was used for a foundation elsewhere",
+            "It remained rejected and useless"
+          ],
+          "correctAnswer": "It became the head of the corner",
+          "explanation": "Mark 12:10-11 cites Psalm 118:22, showing Jesus as the cornerstone rejected by the leaders but exalted by God. This demonstrates Christ’s central role in salvation history, as also seen in Ephesians 2:20 and 1 Peter 2:7.",
+          "verseReference": "Mark 12:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-theological-q3",
+          "question": "How did Jesus respond when asked whether it was lawful to give tribute to Caesar?",
+          "type": "multiple-choice",
+          "options": [
+            "He said not to pay any tribute",
+            "He said to pay tribute only if it is voluntary",
+            "He said to render unto Caesar what is Caesar's and to God what is God's",
+            "He refused to answer"
+          ],
+          "correctAnswer": "He said to render unto Caesar what is Caesar's and to God what is God's",
+          "explanation": "In Mark 12:17, Jesus teaches the principle of honoring earthly authorities while maintaining ultimate devotion to God, reflecting Romans 13:1-7 and 1 Peter 2:13-17 about submitting to governing powers under God's sovereignty.",
+          "verseReference": "Mark 12:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-theological-q4",
+          "question": "What doctrinal truth does Jesus affirm in his response to the Sadducees about the resurrection?",
+          "type": "multiple-choice",
+          "options": [
+            "There is no resurrection",
+            "Marriage continues in the resurrection",
+            "The dead do not rise; only the living exist with God",
+            "The dead will rise and be like angels, without marriage"
+          ],
+          "correctAnswer": "The dead will rise and be like angels, without marriage",
+          "explanation": "Mark 12:24-25 corrects the Sadducees' misconception, affirming resurrection and eternal life, consistent with 1 Corinthians 15:42-44 and Luke 20:34-36, emphasizing transformation in the resurrection and God's power over death.",
+          "verseReference": "Mark 12:24-25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-theological-q5",
+          "question": "What commandment did Jesus identify as the first and greatest?",
+          "type": "multiple-choice",
+          "options": [
+            "Thou shalt not kill",
+            "Love the Lord thy God with all thy heart, soul, mind, and strength",
+            "Honor thy father and mother",
+            "Thou shalt love thy neighbor as thyself"
+          ],
+          "correctAnswer": "Love the Lord thy God with all thy heart, soul, mind, and strength",
+          "explanation": "Mark 12:29-30 emphasizes loving God fully as the greatest commandment, reflecting Deuteronomy 6:4-5 and affirming the centrality of wholehearted devotion to God in Christian ethics and worship.",
+          "verseReference": "Mark 12:29-30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-theological-q6",
+          "question": "According to Jesus, which commandment is like the first and is equally important?",
+          "type": "multiple-choice",
+          "options": [
+            "Thou shalt not steal",
+            "Thou shalt love thy neighbor as thyself",
+            "Remember the Sabbath day",
+            "Thou shalt not bear false witness"
+          ],
+          "correctAnswer": "Thou shalt love thy neighbor as thyself",
+          "explanation": "Mark 12:31 connects love for neighbor to love for God, echoing Leviticus 19:18 and emphasizing relational holiness as integral to God's law, supported by Galatians 5:14 and Romans 13:9.",
+          "verseReference": "Mark 12:31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-theological-q7",
+          "question": "How did the scribe respond to Jesus' teaching on the greatest commandments?",
+          "type": "multiple-choice",
+          "options": [
+            "He disagreed and questioned Jesus",
+            "He affirmed Jesus' teaching as truthful and wise",
+            "He remained silent",
+            "He left angrily"
+          ],
+          "correctAnswer": "He affirmed Jesus' teaching as truthful and wise",
+          "explanation": "Mark 12:32-34 shows the scribe's recognition of Jesus' wisdom, highlighting the universal acknowledgment of God's oneness and the primacy of love in the law, consistent with Proverbs 1:7 and James 3:17.",
+          "verseReference": "Mark 12:32-34",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-theological-q8",
+          "question": "What challenge regarding the identity of the Messiah did Jesus raise about David's son?",
+          "type": "multiple-choice",
+          "options": [
+            "How can the Messiah be David's son if David calls him Lord?",
+            "Is the Messiah a political king or a priest?",
+            "Why does the Messiah not perform miracles?",
+            "Is the Messiah born in Bethlehem or Nazareth?"
+          ],
+          "correctAnswer": "How can the Messiah be David's son if David calls him Lord?",
+          "explanation": "Mark 12:35-37 presents Jesus' argument from Psalm 110:1 that the Messiah is both David's descendant and Lord, affirming the divine nature of Christ and His fulfillment of messianic prophecy, supported by Hebrews 1:3 and Luke 1:32-33.",
+          "verseReference": "Mark 12:35-37",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-theological-q9",
+          "question": "What warning did Jesus give about the scribes in his teaching?",
+          "type": "multiple-choice",
+          "options": [
+            "To obey all their teachings strictly",
+            "Beware of their love for status and their exploitation of widows",
+            "Ignore their teachings completely",
+            "Follow their example in public prayer"
+          ],
+          "correctAnswer": "Beware of their love for status and their exploitation of widows",
+          "explanation": "Mark 12:38-40 warns against the hypocrisy of scribes who seek honor and exploit vulnerable people, paralleling warnings in Matthew 23:1-36 and Jeremiah 23:1-4 about religious leaders’ corruption and judgment.",
+          "verseReference": "Mark 12:38-40",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-theological-q10",
+          "question": "What did Jesus observe about the poor widow who cast two mites into the treasury?",
+          "type": "multiple-choice",
+          "options": [
+            "She gave less than the rich",
+            "She gave out of her abundance",
+            "She gave more than all others, because she gave all she had",
+            "She was rebuked for giving so little"
+          ],
+          "correctAnswer": "She gave more than all others, because she gave all she had",
+          "explanation": "Mark 12:42-44 highlights the widow’s sacrificial giving as greater than the wealthy’s, illustrating the principle that God values the heart and sacrifice of giving, consistent with 2 Corinthians 8:2-3 and Luke 21:1-4.",
+          "verseReference": "Mark 12:42-44",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-theological-q11",
+          "question": "What theological truth is demonstrated by Jesus' teaching on rendering to Caesar and to God?",
+          "type": "multiple-choice",
+          "options": [
+            "Separation of church and state is absolute",
+            "Christians must prioritize earthly government over God",
+            "There are distinct spheres of authority under God's sovereignty",
+            "Governments are more important than spiritual matters"
+          ],
+          "correctAnswer": "There are distinct spheres of authority under God's sovereignty",
+          "explanation": "Mark 12:17 teaches that while believers respect civil authorities, ultimate allegiance belongs to God, reflecting the doctrine of God’s sovereign rule over all creation as seen in Daniel 4:17 and Colossians 1:16-17.",
+          "verseReference": "Mark 12:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-theological-q12",
+          "question": "Why did Jesus say the Sadducees were mistaken about the resurrection?",
+          "type": "multiple-choice",
+          "options": [
+            "Because they misunderstood the power of God and the scriptures",
+            "Because resurrection is impossible",
+            "Because only angels rise from the dead",
+            "Because Moses never wrote about resurrection"
+          ],
+          "correctAnswer": "Because they misunderstood the power of God and the scriptures",
+          "explanation": "Mark 12:24 teaches that error about resurrection comes from ignorance of Scripture and God's power, consistent with 1 Corinthians 15:12-19 and John 5:28-29 affirming resurrection as a biblical and divine reality.",
+          "verseReference": "Mark 12:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-theological-q13",
+          "question": "What does Jesus’ reference to God as 'the God of Abraham, Isaac, and Jacob' imply about God's nature?",
+          "type": "multiple-choice",
+          "options": [
+            "God is the God of ancient history only",
+            "God is the God of the living, not the dead",
+            "God changes according to generations",
+            "God is indifferent to human life"
+          ],
+          "correctAnswer": "God is the God of the living, not the dead",
+          "explanation": "Mark 12:26-27 reveals that God’s covenant relationship is with the living, affirming life after death and God's eternal nature, as supported by Exodus 3:6 and Luke 20:38 emphasizing God’s life-giving power.",
+          "verseReference": "Mark 12:26-27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-theological-q14",
+          "question": "What is the theological significance of Jesus being called both 'Son of David' and 'Lord' by David himself?",
+          "type": "multiple-choice",
+          "options": [
+            "It shows a contradiction in Scripture",
+            "It reveals the Messiah’s dual nature as king and divine",
+            "It limits the Messiah to a human king only",
+            "It denies the Messiah’s messianic role"
+          ],
+          "correctAnswer": "It reveals the Messiah’s dual nature as king and divine",
+          "explanation": "Mark 12:36-37 highlights the messianic prophecy that Jesus is both David's descendant and Lord, indicating His divine authority and kingship, in line with Isaiah 9:6-7 and Hebrews 1:8-13.",
+          "verseReference": "Mark 12:36-37",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-12-theological-q15",
+          "question": "In the parable, what is the Lord of the vineyard's response to the wicked husbandmen after they kill his son?",
+          "type": "multiple-choice",
+          "options": [
+            "He forgives them and lets them keep the vineyard",
+            "He destroys the husbandmen and gives the vineyard to others",
+            "He sells the vineyard to strangers",
+            "He abandons the vineyard"
+          ],
+          "correctAnswer": "He destroys the husbandmen and gives the vineyard to others",
+          "explanation": "Mark 12:9 explains that the owner will destroy the wicked tenants and give the vineyard to others, symbolizing God's judgment and transfer of His kingdom, consistent with Isaiah 5:1-7 and Matthew 21:43.",
+          "verseReference": "Mark 12:9",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "mark-12-quiz",
+      "tags": [
+        "mark",
+        "chapter-12",
+        "mark",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

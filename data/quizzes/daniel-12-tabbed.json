@@ -1,0 +1,983 @@
+{
+  "id": "daniel-12-tabbed",
+  "title": "Daniel Chapter 12 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Daniel chapter 12 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "daniel-12-easy",
+      "title": "Daniel Chapter 12 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Daniel Chapter 12.",
+      "type": "chapter",
+      "book": "Daniel",
+      "chapter": 12,
+      "questions": [
+        {
+          "id": "daniel-12-easy-q1",
+          "question": "Who is described as the great prince standing for the children of Daniel's people?",
+          "type": "multiple-choice",
+          "options": [
+            "Michael",
+            "Gabriel",
+            "Raphael",
+            "Uriel"
+          ],
+          "correctAnswer": "Michael",
+          "explanation": "Daniel 12:1 states that Michael is the great prince which standeth for the children of Daniel's people.",
+          "verseReference": "Daniel 12:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-12-easy-q2",
+          "question": "What will happen to many who sleep in the dust of the earth according to Daniel 12:2?",
+          "type": "multiple-choice",
+          "options": [
+            "They shall awake to everlasting life or shame",
+            "They shall remain asleep forever",
+            "They shall be forgotten",
+            "They shall rise as angels"
+          ],
+          "correctAnswer": "They shall awake to everlasting life or shame",
+          "explanation": "Daniel 12:2 says many who sleep in the dust shall awake, some to everlasting life, some to shame and everlasting contempt.",
+          "verseReference": "Daniel 12:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-12-easy-q3",
+          "question": "According to Daniel 12:3, those who are wise will shine as what?",
+          "type": "multiple-choice",
+          "options": [
+            "Brightness of the firmament",
+            "Stars in the sky",
+            "The sun",
+            "The moon"
+          ],
+          "correctAnswer": "Brightness of the firmament",
+          "explanation": "Daniel 12:3 indicates that the wise shall shine as the brightness of the firmament.",
+          "verseReference": "Daniel 12:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-12-easy-q4",
+          "question": "What is Daniel instructed to do with the words and the book in Daniel 12:4?",
+          "type": "multiple-choice",
+          "options": [
+            "Shut up the words and seal the book",
+            "Read the words aloud",
+            "Destroy the book",
+            "Share the book with all nations"
+          ],
+          "correctAnswer": "Shut up the words and seal the book",
+          "explanation": "Daniel 12:4 commands Daniel to shut up the words and seal the book until the time of the end.",
+          "verseReference": "Daniel 12:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-12-easy-q5",
+          "question": "Where were the two individuals standing that Daniel saw in Daniel 12:5?",
+          "type": "multiple-choice",
+          "options": [
+            "On each side of the bank of the river",
+            "On the mountain tops",
+            "In the temple",
+            "In the city gates"
+          ],
+          "correctAnswer": "On each side of the bank of the river",
+          "explanation": "Daniel 12:5 describes two standing on opposite sides of the river bank.",
+          "verseReference": "Daniel 12:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-12-easy-q6",
+          "question": "Who is described as being clothed in linen and upon the waters of the river in Daniel 12:6?",
+          "type": "multiple-choice",
+          "options": [
+            "The man clothed in linen",
+            "Michael the prince",
+            "Gabriel the messenger",
+            "Daniel himself"
+          ],
+          "correctAnswer": "The man clothed in linen",
+          "explanation": "Daniel 12:6 refers to a man clothed in linen who is upon the waters of the river.",
+          "verseReference": "Daniel 12:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-12-easy-q7",
+          "question": "How long shall it be until the end of the wonders according to the oath sworn in Daniel 12:7?",
+          "type": "multiple-choice",
+          "options": [
+            "A time, times, and a half",
+            "Seven years",
+            "One thousand years",
+            "Forty days and nights"
+          ],
+          "correctAnswer": "A time, times, and a half",
+          "explanation": "Daniel 12:7 states the duration as a time, times, and a half until the end of the wonders.",
+          "verseReference": "Daniel 12:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-12-easy-q8",
+          "question": "True or False: Daniel understood the meaning of the words he heard about the end immediately.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Daniel 12:8 says he heard but did not understand and asked what the end would be.",
+          "verseReference": "Daniel 12:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-12-easy-q9",
+          "question": "When are the words sealed until, according to Daniel 12:9?",
+          "type": "multiple-choice",
+          "options": [
+            "Till the time of the end",
+            "Forever",
+            "Until the next generation",
+            "Until the temple is rebuilt"
+          ],
+          "correctAnswer": "Till the time of the end",
+          "explanation": "Daniel 12:9 tells Daniel the words are sealed until the time of the end.",
+          "verseReference": "Daniel 12:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-12-easy-q10",
+          "question": "According to Daniel 12:10, who will understand the words?",
+          "type": "multiple-choice",
+          "options": [
+            "The wise",
+            "The wicked",
+            "Everyone",
+            "No one"
+          ],
+          "correctAnswer": "The wise",
+          "explanation": "Daniel 12:10 explains that the wise shall understand while the wicked will not.",
+          "verseReference": "Daniel 12:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-12-easy-q11",
+          "question": "Fill in the blank: From the time that the daily sacrifice shall be taken away, and the abomination that maketh desolate set up, there shall be ______ days.",
+          "type": "fill-blank",
+          "options": [
+            "one thousand two hundred and ninety",
+            "one thousand three hundred and five",
+            "seven hundred and fifty",
+            "one thousand"
+          ],
+          "correctAnswer": "one thousand two hundred and ninety",
+          "explanation": "Daniel 12:11 specifies the period as one thousand two hundred and ninety days.",
+          "verseReference": "Daniel 12:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-12-easy-q12",
+          "question": "Who is called blessed in Daniel 12:12?",
+          "type": "multiple-choice",
+          "options": [
+            "He that waiteth and cometh to the thousand three hundred and five and thirty days",
+            "He that runs swiftly",
+            "He that conquers nations",
+            "He that builds the temple"
+          ],
+          "correctAnswer": "He that waiteth and cometh to the thousand three hundred and five and thirty days",
+          "explanation": "Daniel 12:12 blesses those who wait and reach the specified days.",
+          "verseReference": "Daniel 12:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-12-easy-q13",
+          "question": "True or False: Daniel is told he will rest and stand in his lot at the end of the days.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Daniel 12:13 states Daniel will rest and stand in his lot at the end of the days.",
+          "verseReference": "Daniel 12:13",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-12-easy-q14",
+          "question": "True or False: Daniel 12:4 says knowledge shall decrease in the time of the end.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Daniel 12:4 says knowledge shall be increased, not decreased, at the time of the end.",
+          "verseReference": "Daniel 12:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-12-easy-q15",
+          "question": "According to Daniel 12:1, what will happen to the people found written in the book at the time of trouble?",
+          "type": "multiple-choice",
+          "options": [
+            "They shall be delivered",
+            "They shall perish",
+            "They shall be forgotten",
+            "They shall be imprisoned"
+          ],
+          "correctAnswer": "They shall be delivered",
+          "explanation": "Daniel 12:1 promises deliverance to those written in the book during the time of trouble.",
+          "verseReference": "Daniel 12:1",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "daniel-12-quiz",
+      "tags": [
+        "daniel",
+        "chapter-12",
+        "daniel",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "daniel-12-medium",
+      "title": "Daniel Chapter 12 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Daniel Chapter 12 to real-life situations.",
+      "type": "chapter",
+      "book": "Daniel",
+      "chapter": 12,
+      "questions": [
+        {
+          "id": "daniel-12-medium-q1",
+          "question": "A fellow believer is going through a time of intense trouble and asks you for encouragement. Based on Daniel 12:1, what biblical truth would you share about God's protection?",
+          "type": "multiple-choice",
+          "options": [
+            "Michael, the great prince, stands for God's people and they will be delivered",
+            "God will remove all troubles immediately",
+            "Believers will never face any trouble",
+            "Only those who are perfect will be protected"
+          ],
+          "correctAnswer": "Michael, the great prince, stands for God's people and they will be delivered",
+          "explanation": "Daniel 12:1 teaches that Michael stands up for God's people during unprecedented troubles and that those found written in the book will be delivered, showing God's faithful protection in trials.",
+          "verseReference": "Daniel 12:1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-12-medium-q2",
+          "question": "How does Daniel 12:2 encourage believers regarding death and eternal destiny?",
+          "type": "multiple-choice",
+          "options": [
+            "Many who sleep in the dust will awake to everlasting life or shame and contempt",
+            "Death is the end with no further hope",
+            "Only a few will awake after death",
+            "Everyone will be judged immediately after death"
+          ],
+          "correctAnswer": "Many who sleep in the dust will awake to everlasting life or shame and contempt",
+          "explanation": "Daniel 12:2 affirms the resurrection, promising that some will rise to everlasting life while others to shame, encouraging perseverance and faithfulness.",
+          "verseReference": "Daniel 12:2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-12-medium-q3",
+          "question": "A believer wants to live wisely and influence others. According to Daniel 12:3, what is the reward for wisdom and leading others to righteousness?",
+          "type": "multiple-choice",
+          "options": [
+            "They will shine like stars forever",
+            "They will receive earthly wealth",
+            "They will be free from all troubles",
+            "They will be spared from judgment"
+          ],
+          "correctAnswer": "They will shine like stars forever",
+          "explanation": "Daniel 12:3 promises that the wise and those who turn many to righteousness will shine like stars forever, encouraging godly wisdom and evangelism.",
+          "verseReference": "Daniel 12:3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-12-medium-q4",
+          "question": "How does Daniel 12:4 teach us about the value of knowledge and diligence in spiritual matters?",
+          "type": "multiple-choice",
+          "options": [
+            "Knowledge will increase and many will run to and fro at the time of the end",
+            "Knowledge is unnecessary for faith",
+            "Only prophets will understand the end times",
+            "Running physically is a sign of faith"
+          ],
+          "correctAnswer": "Knowledge will increase and many will run to and fro at the time of the end",
+          "explanation": "Daniel 12:4 encourages believers to seek understanding as knowledge grows, emphasizing spiritual diligence and study until the end.",
+          "verseReference": "Daniel 12:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-12-medium-q5",
+          "question": "What does the sealed book in Daniel 12:9 symbolize for believers in waiting times?",
+          "type": "multiple-choice",
+          "options": [
+            "Some truths are reserved for the time of the end",
+            "God hides all knowledge from believers",
+            "Believers should not seek understanding",
+            "The book will never be opened"
+          ],
+          "correctAnswer": "Some truths are reserved for the time of the end",
+          "explanation": "Daniel 12:9 explains that the words are sealed until the time of the end, teaching patience and trust in God's timing for revelation.",
+          "verseReference": "Daniel 12:9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-12-medium-q6",
+          "question": "A believer faces temptation to give up during trials. Based on Daniel 12:10, what encouragement about perseverance and understanding can you share?",
+          "type": "multiple-choice",
+          "options": [
+            "The wise will understand and be purified, but the wicked will continue in wickedness",
+            "Everyone will easily understand God's ways",
+            "Trials will end quickly for all",
+            "Wickedness will be rewarded"
+          ],
+          "correctAnswer": "The wise will understand and be purified, but the wicked will continue in wickedness",
+          "explanation": "Daniel 12:10 teaches that perseverance leads to purification and understanding, encouraging believers to remain faithful despite opposition.",
+          "verseReference": "Daniel 12:10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-12-medium-q7",
+          "question": "How can Daniel 12:11-12 help believers maintain hope during periods of waiting and hardship?",
+          "type": "multiple-choice",
+          "options": [
+            "Blessed is the one who waits and reaches the days mentioned, showing promise in endurance",
+            "Waiting is pointless and leads to despair",
+            "God will remove all waiting times",
+            "Only leaders will be blessed for waiting"
+          ],
+          "correctAnswer": "Blessed is the one who waits and reaches the days mentioned, showing promise in endurance",
+          "explanation": "Daniel 12:11-12 highlights blessings for those who patiently endure to the end, promoting hope and steadfastness.",
+          "verseReference": "Daniel 12:11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-12-medium-q8",
+          "question": "How does Daniel 12:13 encourage believers about the hope of resurrection and eternal reward?",
+          "type": "multiple-choice",
+          "options": [
+            "After their rest, believers will stand in their lot at the end of days",
+            "Believers will face eternal punishment",
+            "All will perish without hope",
+            "The end is unknown and irrelevant"
+          ],
+          "correctAnswer": "After their rest, believers will stand in their lot at the end of days",
+          "explanation": "Daniel 12:13 promises rest and reward after life, encouraging faithfulness and contentment in God's plan.",
+          "verseReference": "Daniel 12:13",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-12-medium-q9",
+          "question": "True or False: According to Daniel 12:3, leading others to righteousness has no lasting impact on a believer's reward.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Daniel 12:3 clearly states that those who turn many to righteousness will shine like stars forever, indicating a lasting reward.",
+          "verseReference": "Daniel 12:3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-12-medium-q10",
+          "question": "True or False: Daniel 12:10 teaches that the wicked will understand the end times just as the wise do.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Daniel 12:10 specifies that none of the wicked will understand, but the wise shall understand, emphasizing the importance of righteousness and wisdom.",
+          "verseReference": "Daniel 12:10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-12-medium-q11",
+          "question": "Fill in the blank: Daniel 12:1 says, 'At that time shall ______ stand up, the great prince which standeth for the children of thy people.'",
+          "type": "fill-blank",
+          "options": [
+            "Michael",
+            "Gabriel",
+            "Raphael",
+            "Uriel"
+          ],
+          "correctAnswer": "Michael",
+          "explanation": "Daniel 12:1 identifies Michael as the great prince standing for God's people during times of trouble.",
+          "verseReference": "Daniel 12:1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-12-medium-q12",
+          "question": "A believer is discouraged by the increase of evil and wickedness. Based on Daniel 12:10, how should they view this reality?",
+          "type": "multiple-choice",
+          "options": [
+            "The wicked will continue to do wickedly, but the wise will understand and be purified",
+            "Wickedness will eventually triumph over righteousness",
+            "God ignores the wickedness of the world",
+            "All will be purified equally"
+          ],
+          "correctAnswer": "The wicked will continue to do wickedly, but the wise will understand and be purified",
+          "explanation": "Daniel 12:10 teaches that while wickedness persists, the wise gain understanding and purification, encouraging perseverance and hope.",
+          "verseReference": "Daniel 12:10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-12-medium-q13",
+          "question": "How does Daniel 12:4 inspire believers to grow spiritually and mentally during challenging times?",
+          "type": "multiple-choice",
+          "options": [
+            "Knowledge will increase and many will seek understanding",
+            "Faith alone is enough without knowledge",
+            "Spiritual growth is irrelevant in trials",
+            "Only miracles can help believers"
+          ],
+          "correctAnswer": "Knowledge will increase and many will seek understanding",
+          "explanation": "Daniel 12:4 encourages the pursuit of knowledge and understanding, promoting spiritual growth and readiness for the end times.",
+          "verseReference": "Daniel 12:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-12-medium-q14",
+          "question": "In Daniel 12:7, the man clothed in linen swears by the one who lives forever. What is the duration mentioned before the end of these wonders?",
+          "type": "multiple-choice",
+          "options": [
+            "A time, times, and a half",
+            "Seven years",
+            "Ten days",
+            "One hundred years"
+          ],
+          "correctAnswer": "A time, times, and a half",
+          "explanation": "Daniel 12:7 mentions this specific period symbolizing a set time until the scattering of the holy people's power is accomplished.",
+          "verseReference": "Daniel 12:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-12-medium-q15",
+          "question": "What practical lesson about patience and hope can families learn from Daniel 12:12?",
+          "type": "multiple-choice",
+          "options": [
+            "Blessed are those who wait and reach the designated days, teaching endurance",
+            "Waiting has no benefit",
+            "Only leaders should wait",
+            "God rewards impatience"
+          ],
+          "correctAnswer": "Blessed are those who wait and reach the designated days, teaching endurance",
+          "explanation": "Daniel 12:12 encourages blessing for those who patiently wait, teaching families to cultivate endurance and faithfulness in daily life.",
+          "verseReference": "Daniel 12:12",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "daniel-12-quiz",
+      "tags": [
+        "daniel",
+        "chapter-12",
+        "daniel",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "daniel-12-hard",
+      "title": "Daniel Chapter 12 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Daniel Chapter 12.",
+      "type": "chapter",
+      "book": "Daniel",
+      "chapter": 12,
+      "questions": [
+        {
+          "id": "daniel-12-hard-q1",
+          "question": "In Daniel 12:1, who is described as the great prince standing up for the children of Daniel's people?",
+          "type": "multiple-choice",
+          "options": [
+            "Gabriel",
+            "Michael",
+            "Raphael",
+            "Uriel"
+          ],
+          "correctAnswer": "Michael",
+          "explanation": "Daniel 12:1 explicitly states that Michael is the great prince who stands for the children of Daniel's people.",
+          "verseReference": "Daniel 12:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-hard-q2",
+          "question": "According to Daniel 12:2, what will happen to those who 'sleep in the dust of the earth'?",
+          "type": "multiple-choice",
+          "options": [
+            "They will remain in eternal sleep",
+            "They will awake to everlasting life or shame and everlasting contempt",
+            "They will be forgotten forever",
+            "They will return to dust without awakening"
+          ],
+          "correctAnswer": "They will awake to everlasting life or shame and everlasting contempt",
+          "explanation": "Daniel 12:2 describes a resurrection where many will awaken, some to everlasting life and others to shame and everlasting contempt, indicating a final judgment.",
+          "verseReference": "Daniel 12:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-hard-q3",
+          "question": "What imagery is used in Daniel 12:3 to describe the wise and those who lead many to righteousness?",
+          "type": "multiple-choice",
+          "options": [
+            "They shall be like lions and eagles",
+            "They shall shine as the brightness of the firmament and stars forever",
+            "They shall be as mountains and rivers",
+            "They shall be like trees planted by water"
+          ],
+          "correctAnswer": "They shall shine as the brightness of the firmament and stars forever",
+          "explanation": "Daniel 12:3 uses celestial imagery, describing the wise as shining like the brightness of the firmament and those who turn many to righteousness as stars forever.",
+          "verseReference": "Daniel 12:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-hard-q4",
+          "question": "What does Daniel 12:4 instruct Daniel to do with the words and the book until the time of the end?",
+          "type": "multiple-choice",
+          "options": [
+            "Share the words openly with all nations",
+            "Shut up the words and seal the book",
+            "Rewrite the words in another language",
+            "Destroy the book to prevent misunderstanding"
+          ],
+          "correctAnswer": "Shut up the words and seal the book",
+          "explanation": "Daniel 12:4 commands Daniel to seal the words and the book until the time of the end, implying that the revelation was to be kept hidden until the appropriate time.",
+          "verseReference": "Daniel 12:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-hard-q5",
+          "question": "In Daniel 12:7, the man clothed in linen swears by him that liveth forever that the time of the end will last how long?",
+          "type": "multiple-choice",
+          "options": [
+            "A thousand years",
+            "A time, times, and a half",
+            "Seven years",
+            "Forty days and nights"
+          ],
+          "correctAnswer": "A time, times, and a half",
+          "explanation": "Daniel 12:7 specifies the period as 'a time, times, and an half,' a prophetic expression often interpreted as three and a half years.",
+          "verseReference": "Daniel 12:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-hard-q6",
+          "question": "What is the significance of the phrase ‘many shall run to and fro, and knowledge shall be increased’ in Daniel 12:4 in the context of biblical eschatology?",
+          "type": "multiple-choice",
+          "options": [
+            "It predicts a decline in wisdom and travel",
+            "It foreshadows increased global exploration and technological advancement before the end",
+            "It refers to physical running as a metaphor for prayer",
+            "It symbolizes the spread of ancient languages"
+          ],
+          "correctAnswer": "It foreshadows increased global exploration and technological advancement before the end",
+          "explanation": "Daniel 12:4's mention of 'running to and fro' and increasing knowledge is often understood as a prophetic foreshadowing of the modern era's rapid travel and explosion of knowledge, relevant to eschatological timelines.",
+          "verseReference": "Daniel 12:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-hard-q7",
+          "question": "True or False: According to Daniel 12:10, the wicked will understand the sealed words just as well as the wise.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Daniel 12:10 states that the wicked will not understand the words, but the wise shall understand, indicating a distinction in comprehension based on righteousness.",
+          "verseReference": "Daniel 12:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-hard-q8",
+          "question": "Fill in the blank from Daniel 12:11: 'And from the time that the daily sacrifice shall be taken away, and the abomination that maketh desolate set up, there shall be ______ days.'",
+          "type": "multiple-choice",
+          "options": [
+            "One thousand two hundred and ninety",
+            "Seven hundred",
+            "One thousand three hundred and five and thirty",
+            "Two thousand"
+          ],
+          "correctAnswer": "One thousand two hundred and ninety",
+          "explanation": "Daniel 12:11 clearly states the period as 1290 days from the cessation of the daily sacrifice until the setting up of the abomination that causes desolation.",
+          "verseReference": "Daniel 12:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-hard-q9",
+          "question": "What blessing is pronounced in Daniel 12:12, and what is the number of days associated with it?",
+          "type": "multiple-choice",
+          "options": [
+            "Blessed is he who conquers; 1000 days",
+            "Blessed is he that waiteth and cometh to the 1335 days",
+            "Blessed is the wise; 1200 days",
+            "Blessed is the merciful; 1400 days"
+          ],
+          "correctAnswer": "Blessed is he that waiteth and cometh to the 1335 days",
+          "explanation": "Daniel 12:12 pronounces a blessing on those who wait and reach the 1335 days, indicating a reward for perseverance through the tribulation period.",
+          "verseReference": "Daniel 12:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-hard-q10",
+          "question": "In Daniel 12:13, what is Daniel told will happen to him until the end of the days?",
+          "type": "multiple-choice",
+          "options": [
+            "He shall be taken to heaven",
+            "He shall rest and then stand in his lot at the end of the days",
+            "He shall live forever on earth",
+            "He shall forget the visions he received"
+          ],
+          "correctAnswer": "He shall rest and then stand in his lot at the end of the days",
+          "explanation": "Daniel 12:13 tells Daniel that he will rest (die) until the end of the days when he will stand in his allotted place, signifying resurrection and reward.",
+          "verseReference": "Daniel 12:13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-hard-q11",
+          "question": "The 'man clothed in linen' mentioned in Daniel 12:6 and 12:7 is a figure that parallels which of the following biblical figures or descriptions?",
+          "type": "multiple-choice",
+          "options": [
+            "The High Priest in the Old Testament",
+            "The Son of Man in Daniel 7",
+            "The prophet Elijah",
+            "The angel Gabriel"
+          ],
+          "correctAnswer": "The Son of Man in Daniel 7",
+          "explanation": "The 'man clothed in linen' on the waters of the river has parallels with the 'Son of Man' figure in Daniel 7, symbolizing a heavenly mediator or divine messenger.",
+          "verseReference": "Daniel 12:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-hard-q12",
+          "question": "What literary device is prominently used in Daniel 12:1-13 to frame the chapter's eschatological message?",
+          "type": "multiple-choice",
+          "options": [
+            "Chiasm",
+            "Allegory",
+            "Parable",
+            "Hyperbole"
+          ],
+          "correctAnswer": "Chiasm",
+          "explanation": "Scholars identify a chiastic structure in Daniel 12 where themes of judgment, resurrection, and reward are framed symmetrically to emphasize the climax of prophetic revelation.",
+          "verseReference": "Daniel 12:1-13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-hard-q13",
+          "question": "How does the theme of resurrection in Daniel 12:2 connect with New Testament teachings?",
+          "type": "multiple-choice",
+          "options": [
+            "It contradicts the New Testament's denial of resurrection",
+            "It foreshadows the resurrection of the dead as taught in 1 Corinthians 15",
+            "It only applies to Old Testament saints, not New Testament believers",
+            "It is unrelated to any New Testament doctrine"
+          ],
+          "correctAnswer": "It foreshadows the resurrection of the dead as taught in 1 Corinthians 15",
+          "explanation": "Daniel 12:2 anticipates a resurrection to everlasting life or contempt, a concept developed in the New Testament, particularly in 1 Corinthians 15 where the resurrection of the dead is central.",
+          "verseReference": "Daniel 12:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-hard-q14",
+          "question": "What is the historical-cultural significance of the 'abomination that maketh desolate' mentioned in Daniel 12:11?",
+          "type": "multiple-choice",
+          "options": [
+            "It refers to a pagan idol set up in the Jerusalem temple during the Maccabean period",
+            "It is a metaphor for the Babylonian exile",
+            "It symbolizes the destruction of the Tower of Babel",
+            "It denotes the Roman destruction of the Colosseum"
+          ],
+          "correctAnswer": "It refers to a pagan idol set up in the Jerusalem temple during the Maccabean period",
+          "explanation": "The phrase 'abomination that maketh desolate' historically relates to the desecration of the Jewish temple by Antiochus IV Epiphanes during the Maccabean revolt, a key cultural backdrop to Daniel's prophecy.",
+          "verseReference": "Daniel 12:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-hard-q15",
+          "question": "How does Daniel 12:10's distinction between the wicked and the wise reflect the theme of spiritual discernment in biblical literature?",
+          "type": "multiple-choice",
+          "options": [
+            "It emphasizes that only the wicked will understand prophecy",
+            "It highlights that spiritual discernment is granted to the wise, enabling them to understand mysteries",
+            "It suggests that knowledge is equally distributed regardless of moral standing",
+            "It denies the existence of spiritual understanding"
+          ],
+          "correctAnswer": "It highlights that spiritual discernment is granted to the wise, enabling them to understand mysteries",
+          "explanation": "Daniel 12:10 draws a clear distinction that the wise will understand while the wicked will not, underscoring a biblical theme where spiritual insight is a blessing granted to the righteous.",
+          "verseReference": "Daniel 12:10",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "daniel-12-quiz",
+      "tags": [
+        "daniel",
+        "chapter-12",
+        "daniel",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "daniel-12-theological",
+      "title": "Daniel Chapter 12 Quiz - Theological Level",
+      "description": "Deep biblical theology from Daniel Chapter 12 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Daniel",
+      "chapter": 12,
+      "questions": [
+        {
+          "id": "daniel-12-theological-q1",
+          "question": "Who is described as standing up for the children of Daniel's people during a time of unprecedented trouble?",
+          "type": "multiple-choice",
+          "options": [
+            "Michael, the great prince",
+            "Gabriel, the messenger",
+            "The Archangel Raphael",
+            "Jesus, the Messiah"
+          ],
+          "correctAnswer": "Michael, the great prince",
+          "explanation": "Daniel 12:1 identifies Michael as the great prince standing for the children of Daniel's people during a unique time of trouble. This aligns with other Scripture such as Jude 1:9 and Revelation 12:7, where Michael appears as a protector and leader in spiritual warfare.",
+          "verseReference": "Daniel 12:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-theological-q2",
+          "question": "According to Daniel 12, what happens to those who 'sleep in the dust of the earth'?",
+          "type": "multiple-choice",
+          "options": [
+            "Some awake to everlasting life, some to shame and everlasting contempt",
+            "They cease to exist",
+            "They reincarnate as new beings",
+            "They remain in eternal sleep until the end of time"
+          ],
+          "correctAnswer": "Some awake to everlasting life, some to shame and everlasting contempt",
+          "explanation": "Daniel 12:2 teaches a resurrection of both the righteous and the wicked, with differing eternal destinies. This is consistent with John 5:28-29 and Acts 24:15 which affirm resurrection and eternal judgment.",
+          "verseReference": "Daniel 12:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-theological-q3",
+          "question": "What is promised to those who are wise and turn many to righteousness in Daniel 12?",
+          "type": "multiple-choice",
+          "options": [
+            "They shall shine as the brightness of the firmament and as stars forever",
+            "They will receive earthly riches",
+            "They will rule over nations",
+            "They will be spared from all trouble"
+          ],
+          "correctAnswer": "They shall shine as the brightness of the firmament and as stars forever",
+          "explanation": "Daniel 12:3 promises glory and eternal recognition for the wise and righteous influencers. This echoes Matthew 13:43 and Philippians 2:15 where believers are described as shining lights in the world.",
+          "verseReference": "Daniel 12:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-theological-q4",
+          "question": "What instruction is given to Daniel regarding the words and the book until the time of the end?",
+          "type": "multiple-choice",
+          "options": [
+            "Shut up the words and seal the book",
+            "Preach the words openly to all nations",
+            "Destroy the book after writing",
+            "Interpret the words for the kings immediately"
+          ],
+          "correctAnswer": "Shut up the words and seal the book",
+          "explanation": "Daniel 12:4 commands Daniel to seal the prophecy until the end time. This concept of sealed prophecy is echoed in Revelation 5:1-5 where the scroll is sealed until the appointed time, highlighting God's sovereign timing.",
+          "verseReference": "Daniel 12:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-theological-q5",
+          "question": "What is said about knowledge in Daniel 12:4 in relation to the time of the end?",
+          "type": "multiple-choice",
+          "options": [
+            "Knowledge shall be increased",
+            "Knowledge will be lost",
+            "Only secret knowledge will remain",
+            "Knowledge will cause confusion"
+          ],
+          "correctAnswer": "Knowledge shall be increased",
+          "explanation": "Daniel 12:4 predicts an increase of knowledge in the last days, consistent with other prophetic Scriptures like Hosea 4:6 and 2 Timothy 3:7, which speak of knowledge and understanding in the eschatological context.",
+          "verseReference": "Daniel 12:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-theological-q6",
+          "question": "What does the man clothed in linen do when he swears by Him who lives forever?",
+          "type": "multiple-choice",
+          "options": [
+            "He holds up his right and left hands to heaven",
+            "He descends from heaven",
+            "He speaks softly to Daniel",
+            "He writes in the book of life"
+          ],
+          "correctAnswer": "He holds up his right and left hands to heaven",
+          "explanation": "Daniel 12:7 describes the man clothed in linen raising both hands to heaven as a solemn oath by the eternal God, emphasizing God's unchanging and sovereign nature, as also seen in Hebrews 6:13-17 where God swears by Himself.",
+          "verseReference": "Daniel 12:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-theological-q7",
+          "question": "How long is the period described by the man clothed in linen during which the holy people's power will be scattered?",
+          "type": "multiple-choice",
+          "options": [
+            "A time, times, and a half",
+            "Seven years",
+            "One thousand two hundred and ninety days",
+            "Forty days and nights"
+          ],
+          "correctAnswer": "A time, times, and a half",
+          "explanation": "Daniel 12:7 uses the apocalyptic phrase 'a time, times, and a half' indicating a period of persecution. This phrase parallels Revelation 12:14 and is traditionally understood as three and a half years, highlighting God's control over history.",
+          "verseReference": "Daniel 12:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-theological-q8",
+          "question": "What is the response when Daniel asks about the end of these things?",
+          "type": "multiple-choice",
+          "options": [
+            "Go thy way, for the words are closed up and sealed till the time of the end",
+            "You shall understand immediately",
+            "The end shall be revealed to all nations",
+            "Wait and the answer will come tomorrow"
+          ],
+          "correctAnswer": "Go thy way, for the words are closed up and sealed till the time of the end",
+          "explanation": "Daniel 12:9 shows that the understanding of these prophecies is reserved for the end times, reflecting the principle found in 1 Corinthians 13:9-10 that partial knowledge will be done away with when perfection comes.",
+          "verseReference": "Daniel 12:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-theological-q9",
+          "question": "According to Daniel 12, who will understand the words of the prophecy?",
+          "type": "multiple-choice",
+          "options": [
+            "The wise shall understand, but none of the wicked will",
+            "Everyone will understand equally",
+            "Only the priests will understand",
+            "No one will understand until the resurrection"
+          ],
+          "correctAnswer": "The wise shall understand, but none of the wicked will",
+          "explanation": "Daniel 12:10 states that the wise will comprehend the prophecy while the wicked will not, reflecting biblical teaching in Proverbs 1:5 and Matthew 13:11 about spiritual discernment granted by God to the wise.",
+          "verseReference": "Daniel 12:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-theological-q10",
+          "question": "What event marks the beginning of the 1290 days mentioned in Daniel 12?",
+          "type": "multiple-choice",
+          "options": [
+            "The daily sacrifice being taken away and the abomination that maketh desolate set up",
+            "The first trumpet sounding",
+            "The coming of the Messiah",
+            "The rebuilding of the Temple"
+          ],
+          "correctAnswer": "The daily sacrifice being taken away and the abomination that maketh desolate set up",
+          "explanation": "Daniel 12:11 specifies the removal of the daily sacrifice and the setting up of the abomination of desolation as the starting point for the 1290 days, a timeline also referenced by Jesus in Matthew 24:15-21 regarding end time tribulation.",
+          "verseReference": "Daniel 12:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-theological-q11",
+          "question": "Who is described as blessed in Daniel 12:12?",
+          "type": "multiple-choice",
+          "options": [
+            "He that waiteth and cometh to the 1335 days",
+            "He that conquers in battle",
+            "He that gains great wealth",
+            "He that leaves the land of his birth"
+          ],
+          "correctAnswer": "He that waiteth and cometh to the 1335 days",
+          "explanation": "Daniel 12:12 pronounces blessing on those who patiently endure until the 1335 days, illustrating the biblical theme of perseverance found in James 1:12 and Revelation 14:12.",
+          "verseReference": "Daniel 12:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-theological-q12",
+          "question": "What promise is given to Daniel about his own fate in Daniel 12:13?",
+          "type": "multiple-choice",
+          "options": [
+            "He shall rest and stand in his lot at the end of the days",
+            "He shall reign with the Messiah",
+            "He shall be taken to heaven immediately",
+            "He shall be forgotten and his writings lost"
+          ],
+          "correctAnswer": "He shall rest and stand in his lot at the end of the days",
+          "explanation": "Daniel 12:13 comforts Daniel with the assurance of rest (death) and resurrection to his appointed inheritance, echoing themes in Job 19:25-27 and John 11:25-26 regarding resurrection and eternal life.",
+          "verseReference": "Daniel 12:13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-theological-q13",
+          "question": "What is the relationship between the 'time of trouble' described in Daniel 12:1 and God's deliverance?",
+          "type": "multiple-choice",
+          "options": [
+            "The time of trouble is unprecedented, but God's people will be delivered",
+            "The time of trouble will destroy all without exception",
+            "The time of trouble is a myth and will not come",
+            "God will abandon His people during the time of trouble"
+          ],
+          "correctAnswer": "The time of trouble is unprecedented, but God's people will be delivered",
+          "explanation": "Daniel 12:1 presents a unique time of trouble but assures deliverance for those written in the book, consistent with God's faithfulness in Psalm 34:19 and Romans 8:28 to protect His people.",
+          "verseReference": "Daniel 12:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-theological-q14",
+          "question": "What does Daniel 12 teach about the final judgment?",
+          "type": "multiple-choice",
+          "options": [
+            "There will be a resurrection with everlasting life for some and everlasting contempt for others",
+            "All will be saved regardless of deeds",
+            "Judgment is symbolic and not literal",
+            "Only angels will be judged"
+          ],
+          "correctAnswer": "There will be a resurrection with everlasting life for some and everlasting contempt for others",
+          "explanation": "Daniel 12:2 describes a resurrection and eternal destinies, harmonizing with Revelation 20:12-15 and John 5:28-29, affirming a final judgment by God based on righteousness.",
+          "verseReference": "Daniel 12:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-12-theological-q15",
+          "question": "What does Daniel 12:10 say about the purification and trials of many?",
+          "type": "multiple-choice",
+          "options": [
+            "Many shall be purified, made white, and tried",
+            "All shall be condemned without exception",
+            "Only the wicked will be tried",
+            "Purification will come through earthly wealth"
+          ],
+          "correctAnswer": "Many shall be purified, made white, and tried",
+          "explanation": "Daniel 12:10 speaks of a refining process for many, which accords with biblical teachings on sanctification and testing in passages like 1 Peter 1:6-7 and Malachi 3:2-3.",
+          "verseReference": "Daniel 12:10",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "daniel-12-quiz",
+      "tags": [
+        "daniel",
+        "chapter-12",
+        "daniel",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

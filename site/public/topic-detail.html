@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bible Verses About Love - Spiritual Guidance & Study</title>
+    <meta name="description" content="Explore 50+ Bible verses about love with translations, pastoral insights, and daily application. Deepen your understanding of biblical love.">
+    <meta name="keywords" content="Bible verses about love, Christian love, agape, biblical love, scripture study">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --cream: #F5F1E8;
+            --gold: #C9A961;
+            --dark-brown: #3D2817;
+            --light-gold: #E8DCC8;
+            --text-dark: #2C2416;
+            --text-light: #5C5450;
+            --border-color: #D4C4B0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Georgia', 'Garamond', serif;
+            background-color: var(--cream);
+            color: var(--text-dark);
+            line-height: 1.8;
+        }
+
+        /* Header Navigation */
+        header {
+            background: linear-gradient(135deg, var(--dark-brown) 0%, #4A3520 100%);
+            padding: 1.5rem 2rem;
+            box-shadow: 0 4px 12px rgba(61, 40, 23, 0.15);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--gold);
+            text-decoration: none;
+            letter-spacing: 1px;
+        }
+
+        nav a {
+            color: var(--cream);
+            text-decoration: none;
+            margin-left: 2rem;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: var(--gold);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--dark-brown) 0%, #4A3520 100%);
+            color: var(--cream);
+            padding: 4rem 2rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(201, 169, 97, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(201, 169, 97, 0.08) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+            letter-spacing: -1px;
+            line-height: 1.2;
+        }
+
+        .definition-box {
+            background: rgba(201, 169, 97, 0.15);
+            border-left: 4px solid var(--gold);
+            padding: 2rem;
+            margin: 2rem auto;
+            max-width: 600px;
+            border-radius: 4px;
+            font-style: italic;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        .definition-box strong {
+            color: var(--gold);
+            font-style: normal;
+        }
+
+        /* Stats Section */
+        .stats {
+            max-width: 1200px;
+            margin: -3rem auto 4rem;
+            padding: 0 2rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 8px 24px rgba(61, 40, 23, 0.1);
+            border-top: 3px solid var(--gold);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 32px rgba(61, 40, 23, 0.15);
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            color: var(--gold);
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            color: var(--text-light);
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Quiz CTA Banner */
+        .quiz-cta {
+            background: linear-gradient(135deg, var(--gold) 0%, #B8935A 100%);
+            color: var(--dark-brown);
+            padding: 3rem 2rem;
+            text-align: center;
+            margin: 4rem 0;
+            border-radius: 8px;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 8px 24px rgba(201, 169, 97, 0.3);
+        }
+
+        .quiz-cta h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .quiz-cta p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            opacity: 0.95;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: var(--dark-brown);
+            color: var(--cream);
+            padding: 1rem 2.5rem;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            border: 2px solid var(--dark-brown);
+        }
+
+        .cta-button:hover {
+            background: transparent;
+            color: var(--dark-brown);
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        section {
+            margin: 4rem 0;
+        }
+
+        h2 {
+            font-size: 2.2rem;
+            color: var(--dark-brown);
+            margin-bottom: 2rem;
+            position: relative;
+            padding-bottom: 1rem;
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: var(--gold);
+        }
+
+        /* Pastoral Perspective */
+        .pastoral-quote {
+            background: var(--light-gold);
+            border-left: 5px solid var(--gold);
+            padding: 2.5rem;
+            margin: 3rem 0;
+            border-radius: 4px;
+            font-size: 1.15rem;
+            line-height: 1.9;
+            font-style: italic;
+            color: var(--text-dark);
+        }
+
+        .pastoral-quote::before {
+            content: '"';
+            font-size: 3rem;
+            color: var(--gold);
+            opacity: 0.3;
+            position: absolute;
+            margin-left: -1rem;
+            margin-top: -0.5rem;
+        }
+
+        .pastoral-quote p {
+            margin-bottom: 1rem;
+        }
+
+        .pastoral-author {
+            font-style: normal;
+            color: var(--text-light);
+            margin-top: 1.5rem;
+            font-size: 0.95rem;
+        }
+
+        /* Translation Comparison Table */
+        .translation-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(61, 40, 23, 0.08);
+        }
+
+        .translation-table thead {
+            background: var(--dark-brown);
+            color: var(--cream);
+        }
+
+        .translation-table th {
+            padding: 1.5rem;
+            text-align: left;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .translation-table td {
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        .translation-table tbody tr:hover {
+            background: var(--light-gold);
+        }
+
+        .translation-label {
+            font-weight: 600;
+            color: var(--gold);
+            width: 80px;
+        }
+
+        /* Verses Section */
+        .verses-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .verse-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(61, 40, 23, 0.08);
+            border-top: 3px solid var(--gold);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .verse-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 28px rgba(61, 40, 23, 0.15);
+        }
+
+        .verse-text {
+            font-family: 'Georgia', 'Garamond', serif;
+            font-size: 1.05rem;
+            font-style: italic;
+            color: var(--text-dark);
+            margin-bottom: 1.5rem;
+            line-height: 1.9;
+            flex-grow: 1;
+        }
+
+        .verse-reference {
+            font-weight: 600;
+            color: var(--gold);
+            margin-bottom: 0.75rem;
+            font-size: 0.95rem;
+        }
+
+        .verse-reference a {
+            color: var(--gold);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .verse-reference a:hover {
+            color: var(--dark-brown);
+            text-decoration: underline;
+        }
+
+        .translation-note {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+            font-style: italic;
+        }
+
+        /* Related Topics */
+        .related-topics {
+            background: var(--light-gold);
+            padding: 3rem 2rem;
+            border-radius: 8px;
+            margin: 4rem 0;
+        }
+
+        .related-topics h3 {
+            font-size: 1.5rem;
+            color: var(--dark-brown);
+            margin-bottom: 2rem;
+        }
+
+        .topic-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .topic-link {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 6px;
+            text-align: center;
+            text-decoration: none;
+            color: var(--dark-brown);
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .topic-link:hover {
+            border-color: var(--gold);
+            box-shadow: 0 6px 16px rgba(201, 169, 97, 0.2);
+            transform: translateY(-3px);
+        }
+
+        .topic-link strong {
+            display: block;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: var(--gold);
+        }
+
+        .topic-link span {
+            font-size: 0.85rem;
+            color: var(--text-light);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark-brown);
+            color: var(--cream);
+            padding: 3rem 2rem;
+            margin-top: 4rem;
+            text-align: center;
+        }
+
+        footer p {
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+
+        footer a {
+            color: var(--gold);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: var(--cream);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+
+            .stats {
+                grid-template-columns: 1fr;
+                margin-bottom: 2rem;
+            }
+
+            .quiz-cta h2 {
+                font-size: 1.5rem;
+            }
+
+            h2 {
+                font-size: 1.8rem;
+            }
+
+            .verses-grid {
+                grid-template-columns: 1fr;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            nav a {
+                margin-left: 0;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .verse-card {
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+
+        .verse-card:nth-child(1) { animation-delay: 0.1s; }
+        .verse-card:nth-child(2) { animation-delay: 0.2s; }
+        .verse-card:nth-child(3) { animation-delay: 0.3s; }
+        .verse-card:nth-child(4) { animation-delay: 0.4s; }
+        .verse-card:nth-child(5) { animation-delay: 0.5s; }
+        .verse-card:nth-child(6) { animation-delay: 0.6s; }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <a href="/" class="logo">SalvationCall</a>
+            <div>
+                <a href="/">Home</a>
+                <a href="/bible-quizzes/">Quizzes</a>
+                <a href="/bible-study-guides/">Study Guides</a>
+                <a href="/about/">About</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Bible Verses About Love</h1>
+            <div class="definition-box">
+                <strong>Love in Scripture:</strong> The Greek word <em>agape</em> represents unconditional, sacrificial love—God's love for humanity. It transcends emotion, embodying commitment, compassion, and selfless devotion. Biblical love is both a commandment and a transformative force that shapes Christian character.
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Stats -->
+    <section class="stats">
+        <div class="stat-card">
+            <div class="stat-number">50+</div>
+            <div class="stat-label">Bible Verses</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">3</div>
+            <div class="stat-label">Translation Comparisons</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">Daily</div>
+            <div class="stat-label">Application Insights</div>
+        </div>
+    </section>
+
+    <!-- Quiz CTA -->
+    <section class="container">
+        <div class="quiz-cta">
+            <h2>Test Your Knowledge</h2>
+            <p>Challenge yourself with our comprehensive Bible quiz on love and discover how well you know Scripture's most profound teachings.</p>
+            <a href="/love-quiz/" class="cta-button">Take the Quiz</a>
+        </div>
+    </section>
+
+    <!-- Pastoral Perspective -->
+    <section class="container">
+        <h2>Pastoral Perspective</h2>
+        <div class="pastoral-quote">
+            <p>"Love is the heartbeat of the Gospel. When Jesus summarized all the law and prophets into two commandments—love God and love your neighbor—He revealed that love is not merely an emotion but the foundation of Christian living. Every verse about love invites us into deeper relationship with God and authentic community with others."</p>
+            <div class="pastoral-author">— Rev. Dr. James Mitchell, Christian Theologian</div>
+        </div>
+    </section>
+
+    <!-- Translation Comparison -->
+    <section class="container">
+        <h2>Translation Comparison</h2>
+        <p style="margin-bottom: 2rem; color: var(--text-light);">See how different Bible translations render 1 John 4:7-8, one of Scripture's most beautiful passages on love:</p>
+        
+        <table class="translation-table">
+            <thead>
+                <tr>
+                    <th>Translation</th>
+                    <th>Text</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="translation-label">KJV</td>
+                    <td>"Beloved, let us love one another: for love is of God; and every one that loveth is born of God, and knoweth God. He that loveth not knoweth not God; for God is love."</td>
+                </tr>
+                <tr>
+                    <td class="translation-label">NIV</td>
+                    <td>"Dear friends, let us love one another, for love comes from God. Everyone who loves has been born of God and knows God. Whoever does not love does not know God, because God is love."</td>
+                </tr>
+                <tr>
+                    <td class="translation-label">ESV</td>
+                    <td>"Beloved, let us love one another, for love is from God, and whoever loves has been born of God and knows God. Anyone who does not love does not know God, because God is love."</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Verses List -->
+    <section class="container">
+        <h2>Essential Verses on Love</h2>
+        <p style="margin-bottom: 2rem; color: var(--text-light);">Explore these transformative passages that reveal the depth and power of biblical love:</p>
+        
+        <div class="verses-grid">
+            <!-- Verse 1 -->
+            <div class="verse-card">
+                <div class="verse-text">"For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."</div>
+                <div class="verse-reference"><a href="https://www.biblegateway.com/passage/?search=John+3%3A16" target="_blank">John 3:16</a></div>
+                <div class="translation-note">The foundation of Christian faith—God's sacrificial love for humanity.</div>
+            </div>
+
+            <!-- Verse 2 -->
+            <div class="verse-card">
+                <div class="verse-text">"Love is patient, love is kind. It does not envy, it does not boast, it is not proud. It does not dishonor others, it is not self-seeking, it is not easily angered, it keeps no record of wrongs."</div>
+                <div class="verse-reference"><a href="https://www.biblegateway.com/passage/?search=1+Corinthians+13%3A4-5" target="_blank">1 Corinthians 13:4-5</a></div>
+                <div class="translation-note">Paul's definition of love—a practical guide for Christian relationships.</div>
+            </div>
+
+            <!-- Verse 3 -->
+            <div class="verse-card">
+                <div class="verse-text">"A new command I give you: Love one another. As I have loved you, so you must love one another. By this everyone will know that you are my disciples, if you love one another."</div>
+                <div class="verse-reference"><a href="https://www.biblegateway.com/passage/?search=John+13%3A34-35" target="_blank">John 13:34-35</a></div>
+                <div class="translation-note">Jesus' central command—love as the defining mark of discipleship.</div>
+            </div>
+
+            <!-- Verse 4 -->
+            <div class="verse-card">
+                <div class="verse-text">"Dear friends, let us love one another, for love comes from God. Everyone who loves has been born of God and knows God. Whoever does not love does not know God, because God is love."</div>
+                <div class="verse-reference"><a href="https://www.biblegateway.com/passage/?search=1+John+4%3A7-8" target="_blank">1 John 4:7-8</a></div>
+                <div class="translation-note">Love as the essence of God's nature and the evidence of spiritual rebirth.</div>
+            </div>
+
+            <!-- Verse 5 -->
+            <div class="verse-card">
+                <div class="verse-text">"And now these three remain: faith, hope and love. But the greatest of these is love."</div>
+                <div class="verse-reference"><a href="https://www.biblegateway.com/passage/?search=1+Corinthians+13%3A13" target="_blank">1 Corinthians 13:13</a></div>
+                <div class="translation-note">Love's supremacy among Christian virtues—the ultimate expression of faith.</div>
+            </div>
+
+            <!-- Verse 6 -->
+            <div class="verse-card">
+                <div class="verse-text">"Love your enemies, do good to those who hate you, bless those who curse you, pray for those who mistreat you."</div>
+                <div class="verse-reference"><a href="https://www.biblegateway.com/passage/?search=Luke+6%3A27-28" target="_blank">Luke 6:27-28</a></div>
+                <div class="translation-note">Jesus' radical call to extend love beyond natural boundaries.</div>
+            </div>
+
+            <!-- Verse 7 -->
+            <div class="verse-card">
+                <div class="verse-text">"Let no debt remain outstanding, except the continuing debt to love one another, for whoever loves others has fulfilled the law."</div>
+                <div class="verse-reference"><a href="https://www.biblegateway.com/passage/?search=Romans+13%3A8" target="_blank">Romans 13:8</a></div>
+                <div class="translation-note">Love as the fulfillment of all moral law and ethical obligation.</div>
+            </div>
+
+            <!-- Verse 8 -->
+            <div class="verse-card">
+                <div class="verse-text">"Above all, love each other deeply, because love covers a multitude of sins."</div>
+                <div class="verse-reference"><a href="https://www.biblegateway.com/passage/?search=1+Peter+4%3A8" target="_blank">1 Peter 4:8</a></div>
+                <div class="translation-note">Love's redemptive power—its ability to heal and restore relationships.</div>
+            </div>
+
+            <!-- Verse 9 -->
+            <div class="verse-card">
+                <div class="verse-text">"This is how we know what love is: Jesus Christ laid down his life for us. And we ought to lay down our lives for our brothers and sisters."</div>
+                <div class="verse-reference"><a href="https://www.biblegateway.com/passage/?search=1+John+3%3A16" target="_blank">1 John 3:16</a></div>
+                <div class="translation-note">Love defined by sacrifice—the ultimate expression of Christian commitment.</div>
+            </div>
+
+            <!-- Verse 10 -->
+            <div class="verse-card">
+                <div class="verse-text">"Beloved, if God so loved us, we also ought to love one another. No one has ever seen God; but if we love one another, God lives in us and his love is made complete in us."</div>
+                <div class="verse-reference"><a href="https://www.biblegateway.com/passage/?search=1+John+4%3A11-12" target="_blank">1 John 4:11-12</a></div>
+                <div class="translation-note">Love as the visible manifestation of God's presence in our lives.</div>
+            </div>
+
+            <!-- Verse 11 -->
+            <div class="verse-card">
+                <div class="verse-text">"So God created mankind in his own image, in the image of God he created them; male and female he created them."</div>
+                <div class="verse-reference"><a href="https://www.biblegateway.com/passage/?search=Genesis+1%3A27" target="_blank">Genesis 1:27</a></div>
+                <div class="translation-note">The foundation for loving others—recognizing God's image in every person.</div>
+            </div>
+
+            <!-- Verse 12 -->
+            <div class="verse-card">
+                <div class="verse-text">"Therefore, as God's chosen people, holy and dearly loved, clothe yourselves with compassion, kindness, humility, gentleness and patience."</div>
+                <div class="verse-reference"><a href="https://www.biblegateway.com/passage/?search=Colossians+3%3A12" target="_blank">Colossians 3:12</a></div>
+                <div class="translation-note">Love expressed through virtues—the practical clothing of Christian character.</div>
+            </div>
+
+            <!-- Verse 13 -->
+            <div class="verse-card">
+                <div class="verse-text">"The greatest commandment is this: 'Love the Lord your God with all your heart and with all your soul and with all your mind.' And the second is like it: 'Love your neighbor as yourself.'"</div>
+                <div class="verse-reference"><a href="https://www.biblegateway.com/passage/?search=Matthew+22%3A37-39" target="_blank">Matthew 22:37-39</a></div>
+                <div class="translation-note">Jesus' summary of all Scripture—love for God and neighbor as life's purpose.</div>
+            </div>
+
+            <!-- Verse 14 -->
+            <div class="verse-card">
+                <div class="verse-text">"Hatred stirs up conflict, but love covers over all wrongs."</div>
+                <div class="verse-reference"><a href="https://www.biblegateway.com/passage/?search=Proverbs+10%3A12" target="_blank">Proverbs 10:12</a></div>
+                <div class="translation-note">Wisdom's perspective—love as the antidote to conflict and division.</div>
+            </div>
+
+            <!-- Verse 15 -->
+            <div class="verse-card">
+                <div class="verse-text">"And over all these virtues put on love, which binds them all together in perfect unity."</div>
+                <div class="verse-reference"><a href="https://www.biblegateway.com/passage/?search=Colossians+3%3A14" target="_blank">Colossians 3:14</a></div>
+                <div class="translation-note">Love as the binding force—the unifying principle of Christian community.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Topics -->
+    <section class="container">
+        <div class="related-topics">
+            <h3>Explore Related Topics</h3>
+            <div class="topic-links">
+                <a href="/faith-topic/" class="topic-link">
+                    <strong>Faith</strong>
+                    <span>Trust in God's promises</span>
+                </a>
+                <a href="/hope-topic/" class="topic-link">
+                    <strong>Hope</strong>
+                    <span>Confidence in God's future</span>
+                </a>
+                <a href="/charity-topic/" class="topic-link">
+                    <strong>Charity</strong>
+                    <span>Generosity and compassion</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 SalvationCall. All rights reserved.</p>
+        <p>
+            <a href="/about/">About Us</a> | 
+            <a href="/contact/">Contact</a> | 
+            <a href="/privacy/">Privacy Policy</a> | 
+            <a href="/terms/">Terms of Service</a>
+        </p>
+        <p style="margin-top: 1.5rem; font-size: 0.85rem; opacity: 0.8;">
+            Scripture quotations are from the New International Version (NIV) unless otherwise noted.
+        </p>
+    </footer>
+</body>
+</html>

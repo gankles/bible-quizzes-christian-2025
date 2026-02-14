@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King David - Bible Character Detail</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --gold: #C9A961;
+            --dark-bg: #0f1419;
+            --card-bg: #1a1f2e;
+            --text-primary: #f5f5f5;
+            --text-secondary: #b0b0b0;
+            --border-color: #2a3142;
+            --accent-light: #e8dcc8;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, var(--dark-bg) 0%, #1a1f2e 100%);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* Header Navigation */
+        header {
+            background: rgba(15, 20, 25, 0.95);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1.5rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--gold);
+            text-decoration: none;
+        }
+
+        .breadcrumb {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .breadcrumb a {
+            color: var(--gold);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .breadcrumb a:hover {
+            color: var(--accent-light);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, rgba(201, 169, 97, 0.1) 0%, rgba(201, 169, 97, 0.05) 100%);
+            border-bottom: 2px solid var(--gold);
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .avatar {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--gold) 0%, #a68a5a 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            font-weight: bold;
+            color: var(--dark-bg);
+            box-shadow: 0 10px 40px rgba(201, 169, 97, 0.3);
+            border: 3px solid var(--accent-light);
+        }
+
+        .hero-text h1 {
+            font-size: 3rem;
+            margin: 1rem 0;
+            color: var(--text-primary);
+        }
+
+        .badges {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            background: rgba(201, 169, 97, 0.2);
+            border: 1px solid var(--gold);
+            color: var(--accent-light);
+            padding: 0.5rem 1.2rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .significance-quote {
+            font-size: 1.2rem;
+            font-style: italic;
+            color: var(--accent-light);
+            max-width: 600px;
+            margin-top: 1.5rem;
+            padding: 1.5rem;
+            border-left: 3px solid var(--gold);
+            background: rgba(201, 169, 97, 0.1);
+        }
+
+        /* CTA Section */
+        .cta-section {
+            max-width: 1200px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .cta-button {
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .cta-primary {
+            background: linear-gradient(135deg, var(--gold) 0%, #a68a5a 100%);
+            color: var(--dark-bg);
+            box-shadow: 0 5px 20px rgba(201, 169, 97, 0.3);
+        }
+
+        .cta-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(201, 169, 97, 0.4);
+        }
+
+        .cta-secondary {
+            background: transparent;
+            color: var(--gold);
+            border: 2px solid var(--gold);
+        }
+
+        .cta-secondary:hover {
+            background: rgba(201, 169, 97, 0.1);
+            transform: translateY(-2px);
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            margin: 3rem 0;
+        }
+
+        /* Card Styling */
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 2rem;
+            transition: all 0.3s;
+        }
+
+        .card:hover {
+            border-color: var(--gold);
+            box-shadow: 0 5px 20px rgba(201, 169, 97, 0.2);
+        }
+
+        .card h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--accent-light);
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+        }
+
+        .card h2::before {
+            content: '';
+            width: 4px;
+            height: 24px;
+            background: var(--gold);
+            border-radius: 2px;
+        }
+
+        .card p {
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        /* Timeline */
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(180deg, var(--gold) 0%, transparent 100%);
+        }
+
+        .timeline-event {
+            margin-bottom: 2rem;
+            position: relative;
+        }
+
+        .timeline-event::before {
+            content: '';
+            position: absolute;
+            left: -2.5rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--gold);
+            border: 3px solid var(--card-bg);
+            box-shadow: 0 0 0 2px var(--gold);
+        }
+
+        .timeline-date {
+            font-weight: 600;
+            color: var(--gold);
+            font-size: 0.9rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .timeline-title {
+            font-weight: 600;
+            color: var(--accent-light);
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-description {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* Scripture References */
+        .scripture-list {
+            list-style: none;
+        }
+
+        .scripture-list li {
+            padding: 0.8rem 0;
+            border-bottom: 1px solid var(--border-color);
+            color: var(--text-secondary);
+        }
+
+        .scripture-list li:last-child {
+            border-bottom: none;
+        }
+
+        .scripture-ref {
+            color: var(--gold);
+            font-weight: 600;
+        }
+
+        /* Key Lessons */
+        .lesson {
+            background: rgba(201, 169, 97, 0.05);
+            border-left: 3px solid var(--gold);
+            padding: 1.2rem;
+            margin-bottom: 1.2rem;
+            border-radius: 4px;
+        }
+
+        .lesson-title {
+            color: var(--accent-light);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .lesson-text {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* Table */
+        .relationships-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        .relationships-table th {
+            background: rgba(201, 169, 97, 0.1);
+            color: var(--gold);
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+            border-bottom: 2px solid var(--gold);
+        }
+
+        .relationships-table td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border-color);
+            color: var(--text-secondary);
+        }
+
+        .relationships-table tr:hover {
+            background: rgba(201, 169, 97, 0.05);
+        }
+
+        /* Quick Facts */
+        .facts-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .fact-item {
+            background: rgba(201, 169, 97, 0.05);
+            padding: 1.2rem;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+
+        .fact-label {
+            color: var(--gold);
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+        }
+
+        .fact-value {
+            color: var(--accent-light);
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        /* Scripture Records Section */
+        .scripture-records {
+            margin: 4rem 0;
+            padding: 2rem;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+        }
+
+        .scripture-records h2 {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            color: var(--accent-light);
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+        }
+
+        .scripture-records h2::before {
+            content: '';
+            width: 4px;
+            height: 24px;
+            background: var(--gold);
+            border-radius: 2px;
+        }
+
+        .scripture-record {
+            background: rgba(201, 169, 97, 0.05);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-left: 3px solid var(--gold);
+            border-radius: 4px;
+        }
+
+        .scripture-record:last-child {
+            margin-bottom: 0;
+        }
+
+        .record-reference {
+            color: var(--gold);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .record-text {
+            color: var(--text-secondary);
+            font-style: italic;
+            line-height: 1.8;
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(15, 20, 25, 0.95);
+            border-top: 1px solid var(--border-color);
+            padding: 2rem;
+            margin-top: 4rem;
+            text-align: center;
+            color: var(--text-secondary);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .two-column {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .hero-text h1 {
+                font-size: 2rem;
+            }
+
+            .avatar {
+                width: 100px;
+                height: 100px;
+                font-size: 3rem;
+            }
+
+            .cta-section {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .cta-button {
+                width: 100%;
+                max-width: 300px;
+            }
+
+            .facts-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .badges {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="/" class="logo">📖 Bible Characters</a>
+            <div class="breadcrumb">
+                <a href="/">Home</a> / <a href="/characters">Characters</a> / King David
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="avatar">D</div>
+            <div class="hero-text">
+                <h1>King David</h1>
+                <div class="badges">
+                    <span class="badge">Old Testament</span>
+                    <span class="badge">King of Israel</span>
+                    <span class="badge">Psalmist</span>
+                </div>
+            </div>
+            <p class="significance-quote">
+                "The Lord has sought out a man after his own heart and appointed him leader of his people." — 1 Samuel 13:14
+            </p>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <button class="cta-button cta-primary">📝 Take David Quiz</button>
+        <button class="cta-button cta-secondary">⬇️ Download Study Guide</button>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="two-column">
+            <!-- Left Column -->
+            <div>
+                <!-- Biblical Biography -->
+                <div class="card">
+                    <h2>Biblical Biography</h2>
+                    <p>
+                        David was the youngest son of Jesse of Bethlehem and became the second king of Israel. Born around 1040 BC, he rose from humble shepherd boy to become one of the most significant figures in biblical history. His reign lasted approximately 40 years, during which he unified the kingdom, established Jerusalem as the capital, and expanded Israel's borders. David is remembered not only as a military leader and king but also as a poet and musician, credited with composing many of the Psalms. His life was marked by both great triumphs and profound struggles, making him a complex and deeply human figure in Scripture.
+                    </p>
+                </div>
+
+                <!-- Life Timeline -->
+                <div class="card">
+                    <h2>Life Timeline</h2>
+                    <div class="timeline">
+                        <div class="timeline-event">
+                            <div class="timeline-date">c. 1040 BC</div>
+                            <div class="timeline-title">Birth in Bethlehem</div>
+                            <div class="timeline-description">David is born as the youngest son of Jesse, a shepherd in Bethlehem.</div>
+                        </div>
+                        <div class="timeline-event">
+                            <div class="timeline-date">c. 1025 BC</div>
+                            <div class="timeline-title">Anointed by Samuel</div>
+                            <div class="timeline-description">The prophet Samuel anoints David as the future king of Israel while he tends his father's sheep.</div>
+                        </div>
+                        <div class="timeline-event">
+                            <div class="timeline-date">c. 1020 BC</div>
+                            <div class="timeline-title">Defeats Goliath</div>
+                            <div class="timeline-description">Young David defeats the Philistine giant Goliath with a sling and stone, becoming a national hero.</div>
+                        </div>
+                        <div class="timeline-event">
+                            <div class="timeline-date">c. 1010 BC</div>
+                            <div class="timeline-title">Becomes King</div>
+                            <div class="timeline-description">After Saul's death, David is anointed king of Judah, and later becomes king of all Israel.</div>
+                        </div>
+                        <div class="timeline-event">
+                            <div class="timeline-date">c. 1004 BC</div>
+                            <div class="timeline-title">Establishes Jerusalem</div>
+                            <div class="timeline-description">David captures Jerusalem from the Jebusites and makes it the capital of his kingdom.</div>
+                        </div>
+                        <div class="timeline-event">
+                            <div class="timeline-date">c. 1000 BC</div>
+                            <div class="timeline-title">Brings the Ark</div>
+                            <div class="timeline-description">David brings the Ark of the Covenant to Jerusalem, establishing it as the religious center of Israel.</div>
+                        </div>
+                        <div class="timeline-event">
+                            <div class="timeline-date">c. 970 BC</div>
+                            <div class="timeline-title">Death and Legacy</div>
+                            <div class="timeline-description">David dies after a 40-year reign, leaving behind a unified kingdom and a lasting spiritual legacy.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Key Scripture References -->
+                <div class="card">
+                    <h2>Key Scripture References</h2>
+                    <ul class="scripture-list">
+                        <li><span class="scripture-ref">1 Samuel 16-31</span> — David's early life and rise to power</li>
+                        <li><span class="scripture-ref">2 Samuel 1-24</span> — David's reign as king of Israel</li>
+                        <li><span class="scripture-ref">1 Chronicles 10-29</span> — Chronicles account of David's life</li>
+                        <li><span class="scripture-ref">Psalm 23</span> — The Lord is my Shepherd (attributed to David)</li>
+                        <li><span class="scripture-ref">2 Samuel 7</span> — God's covenant with David</li>
+                        <li><span class="scripture-ref">1 Samuel 17</span> — David and Goliath</li>
+                        <li><span class="scripture-ref">2 Samuel 11-12</span> — David's sin with Bathsheba</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div>
+                <!-- Key Life Lessons -->
+                <div class="card">
+                    <h2>Key Life Lessons</h2>
+                    <div class="lesson">
+                        <div class="lesson-title">🎯 Courage in Adversity</div>
+                        <div class="lesson-text">David's defeat of Goliath demonstrates that faith and courage can overcome seemingly impossible odds. Size and strength matter less than trust in God.</div>
+                    </div>
+                    <div class="lesson">
+                        <div class="lesson-title">🙏 Repentance and Restoration</div>
+                        <div class="lesson-text">Despite his grave sin with Bathsheba, David's genuine repentance and humility before God show that restoration is always possible through sincere confession.</div>
+                    </div>
+                    <div class="lesson">
+                        <div class="lesson-title">👑 Servant Leadership</div>
+                        <div class="lesson-text">David's heart for God and his people demonstrates that true leadership is about serving others and seeking God's will, not personal power.</div>
+                    </div>
+                    <div class="lesson">
+                        <div class="lesson-title">🎵 Worship and Expression</div>
+                        <div class="lesson-text">David's Psalms show the importance of expressing emotions honestly before God—joy, sorrow, fear, and praise are all valid forms of worship.</div>
+                    </div>
+                </div>
+
+                <!-- Key Relationships -->
+                <div class="card">
+                    <h2>Key Relationships</h2>
+                    <table class="relationships-table">
+                        <thead>
+                            <tr>
+                                <th>Person</th>
+                                <th>Relationship</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Samuel</td>
+                                <td>Prophet who anointed him king</td>
+                            </tr>
+                            <tr>
+                                <td>Saul</td>
+                                <td>First king; became jealous rival</td>
+                            </tr>
+                            <tr>
+                                <td>Jonathan</td>
+                                <td>Saul's son; loyal friend</td>
+                            </tr>
+                            <tr>
+                                <td>Bathsheba</td>
+                                <td>Wife; mother of Solomon</td>
+                            </tr>
+                            <tr>
+                                <td>Solomon</td>
+                                <td>Son; successor as king</td>
+                            </tr>
+                            <tr>
+                                <td>Nathan</td>
+                                <td>Prophet; confronted him about sin</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Quick Facts -->
+                <div class="card">
+                    <h2>Quick Facts</h2>
+                    <div class="facts-grid">
+                        <div class="fact-item">
+                            <div class="fact-label">Lifespan</div>
+                            <div class="fact-value">c. 1040–970 BC</div>
+                        </div>
+                        <div class="fact-item">
+                            <div class="fact-label">Era</div>
+                            <div class="fact-value">Iron Age II</div>
+                        </div>
+                        <div class="fact-item">
+                            <div class="fact-label">Occupation</div>
+                            <div class="fact-value">Shepherd, Warrior, King</div>
+                        </div>
+                        <div class="fact-item">
+                            <div class="fact-label">Reign Length</div>
+                            <div class="fact-value">~40 years</div>
+                        </div>
+                        <div class="fact-item">
+                            <div class="fact-label">Birthplace</div>
+                            <div class="fact-value">Bethlehem</div>
+                        </div>
+                        <div class="fact-item">
+                            <div class="fact-label">Capital</div>
+                            <div class="fact-value">Jerusalem</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scripture Records Section -->
+        <section class="scripture-records">
+            <h2>Scripture Records</h2>
+            <div class="scripture-record">
+                <div class="record-reference">1 Samuel 17:37 (David's Faith)</div>
+                <div class="record-text">
+                    "The Lord who rescued me from the paw of the lion and the paw of the bear will rescue me from the hand of this Philistine."
+                </div>
+            </div>
+            <div class="scripture-record">
+                <div class="record-reference">Psalm 23:1-3 (The Shepherd Psalm)</div>
+                <div class="record-text">
+                    "The Lord is my shepherd, I lack nothing. He makes me lie down in green pastures, he leads me beside quiet waters, he refreshes my soul."
+                </div>
+            </div>
+            <div class="scripture-record">
+                <div class="record-reference">2 Samuel 7:12-13 (God's Covenant)</div>
+                <div class="record-text">
+                    "When your days are over and you rest with your ancestors, I will raise up your offspring to succeed you, your own flesh and blood, and I will establish his kingdom."
+                </div>
+            </div>
+            <div class="scripture-record">
+                <div class="record-reference">Psalm 51:10 (Repentance)</div>
+                <div class="record-text">
+                    "Create in me a pure heart, O God, and renew a steadfast spirit within me."
+                </div>
+            </div>
+            <div class="scripture-record">
+                <div class="record-reference">Acts 13:22 (God's Assessment)</div>
+                <div class="record-text">
+                    "After removing Saul, he made David their king. God testified concerning him: 'I have found David son of Jesse, a man after my own heart; he will do everything I want him to do.'"
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Bible Characters. All rights reserved. | <a href="#" style="color: var(--gold); text-decoration: none;">Privacy Policy</a> | <a href="#" style="color: var(--gold); text-decoration: none;">Contact</a></p>
+    </footer>
+
+    <script>
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // CTA Button interactions
+        document.querySelectorAll('.cta-button').forEach(button => {
+            button.addEventListener('click', function() {
+                if (this.classList.contains('cta-primary')) {
+                    alert('Redirecting to David Quiz...');
+                } else {
+                    alert('Downloading Study Guide...');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

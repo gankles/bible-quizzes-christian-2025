@@ -1,10 +1,26 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo, useCallback } from 'react';
 import { Quiz, QuizQuestion, QuizResult, QuizProgress } from '@/lib/types';
 import { generateImprovedRelatedLinks } from '@/lib/improved-interlinks';
-import { ClockIcon, CheckCircleIcon, ArrowLeftIcon, ArrowRightIcon, BookOpenIcon, UserIcon, LinkIcon, StarIcon } from './icons';
+import { standardizeQuiz } from '@/lib/quiz-generation';
+import { getVerseReferenceUrl } from '@/lib/verse-ref-utils';
+import { ClockIcon, CheckCircleIcon, ArrowRightIcon, BookOpenIcon, UserIcon, LinkIcon, StarIcon } from './icons';
 import Link from 'next/link';
+
+const formatTime = (seconds: number) => {
+  const mins = Math.floor(seconds / 60);
+  const secs = seconds % 60;
+  return `${mins}:${secs.toString().padStart(2, '0')}`;
+};
+
+const BADGE_COLORS: Record<string, string> = {
+  sequential: 'bg-blue-100 text-blue-800',
+  'cross-reference': 'bg-purple-100 text-purple-800',
+  character: 'bg-orange-100 text-orange-800',
+  popular: 'bg-yellow-100 text-yellow-800',
+  hub: 'bg-gray-100 text-gray-800',
+};
 
 interface QuizInterfaceImprovedProps {
   quiz: Quiz;
@@ -17,16 +33,29 @@ interface UserAnswer {
 }
 
 export default function QuizInterfaceImproved({ quiz, onComplete }: QuizInterfaceImprovedProps) {
+  const standardizedQuiz = useMemo(() => {
+    const standardizedQuestions = standardizeQuiz(quiz.questions);
+    return { ...quiz, questions: standardizedQuestions };
+  }, [quiz]);
+
   const [userAnswers, setUserAnswers] = useState<UserAnswer[]>([]);
-  const [progress, setProgress] = useState<QuizProgress>({
-    currentQuestion: 1,
-    answeredQuestions: 0,
-    percentage: 0,
-    estimatedTimeRemaining: quiz.estimatedTime
-  });
   const [startTime] = useState<Date>(new Date());
   const [timeElapsed, setTimeElapsed] = useState<number>(0);
   const [isSubmitted, setIsSubmitted] = useState(false);
+
+  // Derive progress during render instead of useEffect
+  const progress: QuizProgress = useMemo(() => {
+    const answeredCount = userAnswers.length;
+    const percentage = (answeredCount / standardizedQuiz.totalQuestions) * 100;
+    const remainingQuestions = standardizedQuiz.totalQuestions - answeredCount;
+    const estimatedTimeRemaining = Math.max(0, Math.ceil(remainingQuestions * 0.5));
+    return {
+      currentQuestion: answeredCount + 1,
+      answeredQuestions: answeredCount,
+      percentage,
+      estimatedTimeRemaining
+    };
+  }, [userAnswers.length, standardizedQuiz.totalQuestions]);
 
   // Update timer every second
   useEffect(() => {
@@ -38,38 +67,21 @@ export default function QuizInterfaceImproved({ quiz, onComplete }: QuizInterfac
     return () => clearInterval(timer);
   }, [startTime]);
 
-  // Update progress when answers change
-  useEffect(() => {
-    const answeredCount = userAnswers.length;
-    const percentage = (answeredCount / quiz.totalQuestions) * 100;
-    const remainingQuestions = quiz.totalQuestions - answeredCount;
-    const estimatedTimeRemaining = Math.max(0, Math.ceil(remainingQuestions * 0.5)); // 30 seconds per question
-
-    setProgress({
-      currentQuestion: answeredCount + 1,
-      answeredQuestions: answeredCount,
-      percentage,
-      estimatedTimeRemaining
-    });
-  }, [userAnswers, quiz.totalQuestions]);
-
-  const handleAnswerChange = (questionId: string, answer: string) => {
+  const handleAnswerChange = useCallback((questionId: string, answer: string) => {
     setUserAnswers(prev => {
       const existingIndex = prev.findIndex(ua => ua.questionId === questionId);
       if (existingIndex >= 0) {
-        // Update existing answer
         const updated = [...prev];
         updated[existingIndex] = { questionId, answer };
         return updated;
       } else {
-        // Add new answer
         return [...prev, { questionId, answer }];
       }
     });
-  };
+  }, []);
 
   const handleSubmit = () => {
-    const answeredQuestions = quiz.questions.map(question => {
+    const answeredQuestions = standardizedQuiz.questions.map(question => {
       const userAnswer = userAnswers.find(ua => ua.questionId === question.id);
       const isCorrect = userAnswer?.answer === question.correctAnswer;
       
@@ -82,12 +94,12 @@ export default function QuizInterfaceImproved({ quiz, onComplete }: QuizInterfac
 
     const correctAnswers = answeredQuestions.filter(aq => aq.isCorrect).length;
     const score = correctAnswers;
-    const percentage = Math.round((correctAnswers / quiz.totalQuestions) * 100);
+    const percentage = Math.round((correctAnswers / standardizedQuiz.totalQuestions) * 100);
 
     const result: QuizResult = {
-      quizId: quiz.id,
+      quizId: standardizedQuiz.id,
       score,
-      totalQuestions: quiz.totalQuestions,
+      totalQuestions: standardizedQuiz.totalQuestions,
       percentage,
       answeredQuestions,
       completedAt: new Date(),
@@ -98,18 +110,11 @@ export default function QuizInterfaceImproved({ quiz, onComplete }: QuizInterfac
     onComplete(result);
   };
 
-  const canSubmit = userAnswers.length === quiz.totalQuestions;
-  const formatTime = (seconds: number) => {
-    const mins = Math.floor(seconds / 60);
-    const secs = seconds % 60;
-    return `${mins}:${secs.toString().padStart(2, '0')}`;
-  };
+  const canSubmit = userAnswers.length === standardizedQuiz.totalQuestions;
 
-  // Get improved interlinks
-  const improvedLinks = generateImprovedRelatedLinks(quiz);
+  const improvedLinks = useMemo(() => generateImprovedRelatedLinks(quiz), [quiz]);
 
-  // Helper function to get icon based on link type
-  const getLinkIcon = (type: string) => {
+  const getLinkIcon = useCallback((type: string) => {
     switch (type) {
       case 'sequential': return <ArrowRightIcon className="h-5 w-5 text-blue-600" />;
       case 'cross-reference': return <LinkIcon className="h-5 w-5 text-purple-600" />;
@@ -118,19 +123,7 @@ export default function QuizInterfaceImproved({ quiz, onComplete }: QuizInterfac
       case 'hub': return <BookOpenIcon className="h-5 w-5 text-gray-600" />;
       default: return <BookOpenIcon className="h-5 w-5 text-blue-600" />;
     }
-  };
-
-  // Helper function to get badge color based on link type
-  const getBadgeColor = (type: string) => {
-    switch (type) {
-      case 'sequential': return 'bg-blue-100 text-blue-800';
-      case 'cross-reference': return 'bg-purple-100 text-purple-800';
-      case 'character': return 'bg-orange-100 text-orange-800';
-      case 'popular': return 'bg-yellow-100 text-yellow-800';
-      case 'hub': return 'bg-gray-100 text-gray-800';
-      default: return 'bg-blue-100 text-blue-800';
-    }
-  };
+  }, []);
 
   return (
     <div className="max-w-4xl mx-auto">
@@ -139,10 +132,10 @@ export default function QuizInterfaceImproved({ quiz, onComplete }: QuizInterfac
         <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
           <div>
             <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
-              {quiz.title}
+              {standardizedQuiz.title}
             </h1>
             <p className="text-gray-600">
-              {quiz.description}
+              {standardizedQuiz.description}
             </p>
           </div>
           
@@ -153,7 +146,7 @@ export default function QuizInterfaceImproved({ quiz, onComplete }: QuizInterfac
             </div>
             <div className="flex items-center space-x-1 text-sm text-gray-600">
               <CheckCircleIcon className="h-4 w-4" />
-              <span>{progress.answeredQuestions}/{quiz.totalQuestions}</span>
+              <span>{progress.answeredQuestions}/{standardizedQuiz.totalQuestions}</span>
             </div>
           </div>
         </div>
@@ -178,14 +171,14 @@ export default function QuizInterfaceImproved({ quiz, onComplete }: QuizInterfac
           <li>• Answer all questions below and click Submit when complete</li>
           <li>• Choose the best answer for each question</li>
           <li>• Results will show immediately after submission</li>
-          <li>• This quiz takes approximately {quiz.estimatedTime} minutes</li>
+          <li>• This quiz takes approximately {standardizedQuiz.estimatedTime} minutes</li>
           <li>• Test your biblical knowledge and learn from detailed explanations!</li>
         </ul>
       </div>
 
       {/* Questions */}
       <div className="space-y-6">
-        {quiz.questions.map((question, index) => (
+        {standardizedQuiz.questions.map((question, index) => (
           <QuestionCard
             key={question.id}
             question={question}
@@ -208,7 +201,7 @@ export default function QuizInterfaceImproved({ quiz, onComplete }: QuizInterfac
               : 'bg-gray-300 text-gray-500 cursor-not-allowed'
           }`}
         >
-          {isSubmitted ? 'Quiz Submitted' : canSubmit ? 'Submit Quiz' : `Answer All Questions (${userAnswers.length}/${quiz.totalQuestions})`}
+          {isSubmitted ? 'Quiz Submitted' : canSubmit ? 'Submit Quiz' : `Answer All Questions (${userAnswers.length}/${standardizedQuiz.totalQuestions})`}
         </button>
         
         {!canSubmit && !isSubmitted && (
@@ -247,7 +240,7 @@ export default function QuizInterfaceImproved({ quiz, onComplete }: QuizInterfac
                   <div className="font-medium text-gray-900 group-hover:text-blue-700 truncate">
                     {link.title}
                   </div>
-                  <span className={`px-2 py-1 text-xs font-medium rounded-full ${getBadgeColor(link.type)}`}>
+                  <span className={`px-2 py-1 text-xs font-medium rounded-full ${BADGE_COLORS[link.type] || 'bg-blue-100 text-blue-800'}`}>
                     {link.type === 'sequential' && 'Next'}
                     {link.type === 'cross-reference' && 'Related'}
                     {link.type === 'character' && 'Character'}
@@ -409,9 +402,21 @@ function QuestionCard({ question, questionNumber, userAnswer, onAnswerChange, di
           </span>
         </div>
         
-        <div className="text-sm text-gray-600 mb-4">
-          <strong>Reference:</strong> {question.verseReference}
-        </div>
+        {question.verseReference && (
+          <div className="text-sm text-gray-600 mb-4">
+            <strong>Reference:</strong>{' '}
+            {(() => {
+              const url = getVerseReferenceUrl(question.verseReference);
+              return url ? (
+                <Link href={url} className="text-blue-600 hover:underline">
+                  {question.verseReference}
+                </Link>
+              ) : (
+                <span>{question.verseReference}</span>
+              );
+            })()}
+          </div>
+        )}
       </div>
 
       {renderQuestionInput()}

@@ -1,0 +1,983 @@
+{
+  "id": "matthew-14-tabbed",
+  "title": "Matthew Chapter 14 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Matthew chapter 14 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "matthew-14-easy",
+      "title": "Matthew Chapter 14 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Matthew Chapter 14.",
+      "type": "chapter",
+      "book": "Matthew",
+      "chapter": 14,
+      "questions": [
+        {
+          "id": "matthew-14-easy-q1",
+          "question": "Who did Herod the tetrarch believe Jesus to be according to Matthew 14?",
+          "type": "multiple-choice",
+          "options": [
+            "John the Baptist risen from the dead",
+            "Elijah returned",
+            "A prophet from Nazareth",
+            "A Roman messenger"
+          ],
+          "correctAnswer": "John the Baptist risen from the dead",
+          "explanation": "Herod thought Jesus was John the Baptist raised from the dead, as stated in Matthew 14:2.",
+          "verseReference": "Matthew 14:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-14-easy-q2",
+          "question": "Why did Herod put John the Baptist in prison?",
+          "type": "multiple-choice",
+          "options": [
+            "Because John criticized Herod",
+            "For Herodias' sake, his brother Philip's wife",
+            "Because John fled from Rome",
+            "For preaching in the temple"
+          ],
+          "correctAnswer": "For Herodias' sake, his brother Philip's wife",
+          "explanation": "Herod imprisoned John because John spoke against Herod's unlawful marriage to Herodias, his brother's wife (Matthew 14:3).",
+          "verseReference": "Matthew 14:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-14-easy-q3",
+          "question": "What did John the Baptist say to Herod about his relationship with Herodias?",
+          "type": "multiple-choice",
+          "options": [
+            "It is not lawful for thee to have her",
+            "You must divorce her immediately",
+            "She is a righteous woman",
+            "You should marry her officially"
+          ],
+          "correctAnswer": "It is not lawful for thee to have her",
+          "explanation": "John told Herod that it was not lawful for him to have Herodias as his wife (Matthew 14:4).",
+          "verseReference": "Matthew 14:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-14-easy-q4",
+          "question": "True or False: Herod immediately killed John the Baptist when he was imprisoned.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Herod feared the multitude because they counted John as a prophet and did not immediately kill him (Matthew 14:5).",
+          "verseReference": "Matthew 14:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-14-easy-q5",
+          "question": "What event led to John the Baptist's beheading?",
+          "type": "multiple-choice",
+          "options": [
+            "Herod's birthday party",
+            "Passover feast",
+            "A religious festival",
+            "A wedding celebration"
+          ],
+          "correctAnswer": "Herod's birthday party",
+          "explanation": "John was beheaded after Herodias' daughter danced at Herod's birthday, which pleased him (Matthew 14:6-8).",
+          "verseReference": "Matthew 14:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-14-easy-q6",
+          "question": "What did Herod promise to give the daughter of Herodias after her dance?",
+          "type": "multiple-choice",
+          "options": [
+            "Whatsoever she would ask",
+            "A large sum of money",
+            "A royal crown",
+            "A new dress"
+          ],
+          "correctAnswer": "Whatsoever she would ask",
+          "explanation": "Herod promised with an oath to give her whatever she would ask (Matthew 14:7).",
+          "verseReference": "Matthew 14:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-14-easy-q7",
+          "question": "What did the daughter of Herodias request from Herod?",
+          "type": "multiple-choice",
+          "options": [
+            "John the Baptist's head in a charger",
+            "Freedom for prisoners",
+            "A feast for the people",
+            "A new palace"
+          ],
+          "correctAnswer": "John the Baptist's head in a charger",
+          "explanation": "She requested John the Baptist’s head on a platter as instructed by her mother (Matthew 14:8).",
+          "verseReference": "Matthew 14:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-14-easy-q8",
+          "question": "True or False: After John was beheaded, his disciples buried his body and informed Jesus.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John’s disciples took his body, buried it, and told Jesus about it (Matthew 14:12).",
+          "verseReference": "Matthew 14:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-14-easy-q9",
+          "question": "Where did Jesus go after hearing about John the Baptist's death?",
+          "type": "multiple-choice",
+          "options": [
+            "Into a desert place apart by ship",
+            "Back to Nazareth",
+            "Into the city temple",
+            "To the mountains of Galilee"
+          ],
+          "correctAnswer": "Into a desert place apart by ship",
+          "explanation": "Jesus departed by ship into a desert place apart after hearing the news (Matthew 14:13).",
+          "verseReference": "Matthew 14:13",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-14-easy-q10",
+          "question": "How did Jesus respond when his disciples suggested sending the crowd away to buy food?",
+          "type": "multiple-choice",
+          "options": [
+            "They need not depart; give ye them to eat",
+            "Send them away immediately",
+            "Tell them to fast",
+            "Ask the Pharisees for help"
+          ],
+          "correctAnswer": "They need not depart; give ye them to eat",
+          "explanation": "Jesus instructed his disciples to feed the crowd themselves instead of sending them away (Matthew 14:16).",
+          "verseReference": "Matthew 14:16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-14-easy-q11",
+          "question": "How many loaves and fishes did the disciples say they had before the miracle?",
+          "type": "multiple-choice",
+          "options": [
+            "Five loaves and two fishes",
+            "Seven loaves and three fishes",
+            "Ten loaves and five fishes",
+            "Two loaves and five fishes"
+          ],
+          "correctAnswer": "Five loaves and two fishes",
+          "explanation": "The disciples told Jesus they only had five loaves and two fishes (Matthew 14:17).",
+          "verseReference": "Matthew 14:17",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-14-easy-q12",
+          "question": "What happened after Jesus blessed and broke the loaves and fishes?",
+          "type": "multiple-choice",
+          "options": [
+            "Everyone ate and was filled; twelve baskets of fragments remained",
+            "The food disappeared",
+            "Only a few ate",
+            "The disciples ate alone"
+          ],
+          "correctAnswer": "Everyone ate and was filled; twelve baskets of fragments remained",
+          "explanation": "All ate and were satisfied, and twelve baskets of leftovers were gathered (Matthew 14:20).",
+          "verseReference": "Matthew 14:20",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-14-easy-q13",
+          "question": "Fill in the blank: Jesus went up into a _____ apart to pray after sending the multitudes away.",
+          "type": "fill-blank",
+          "options": [
+            "mountain",
+            "valley",
+            "city",
+            "river"
+          ],
+          "correctAnswer": "mountain",
+          "explanation": "Jesus went up into a mountain apart to pray (Matthew 14:23).",
+          "verseReference": "Matthew 14:23",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-14-easy-q14",
+          "question": "True or False: Jesus walked on the sea during the fourth watch of the night.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Jesus walked on the sea in the fourth watch of the night (Matthew 14:25).",
+          "verseReference": "Matthew 14:25",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-14-easy-q15",
+          "question": "What did Peter say to Jesus when he saw him walking on the water?",
+          "type": "multiple-choice",
+          "options": [
+            "Lord, if it be thou, bid me come unto thee on the water",
+            "Master, save us!",
+            "Jesus, do not leave us",
+            "Show me a miracle"
+          ],
+          "correctAnswer": "Lord, if it be thou, bid me come unto thee on the water",
+          "explanation": "Peter asked Jesus to bid him come to Him on the water (Matthew 14:28).",
+          "verseReference": "Matthew 14:28",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "matthew-14-quiz",
+      "tags": [
+        "matthew",
+        "chapter-14",
+        "matthew",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "matthew-14-medium",
+      "title": "Matthew Chapter 14 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Matthew Chapter 14 to real-life situations.",
+      "type": "chapter",
+      "book": "Matthew",
+      "chapter": 14,
+      "questions": [
+        {
+          "id": "matthew-14-medium-q1",
+          "question": "A fellow believer is struggling with doubt in their faith during difficult times. Based on Matthew 14, what biblical truth would you share about trusting God?",
+          "type": "multiple-choice",
+          "options": [
+            "Faith requires trusting Jesus even when circumstances are fearful",
+            "Doubt is a sign that God has abandoned us",
+            "Only strong people can have faith without doubt",
+            "Faith means never asking for help"
+          ],
+          "correctAnswer": "Faith requires trusting Jesus even when circumstances are fearful",
+          "explanation": "In Matthew 14:28-31, Peter walked on water when he trusted Jesus, but began to sink when he doubted. Jesus encouraged him to have faith despite the wind and waves, showing that faith means trusting God even in trials.",
+          "verseReference": "Matthew 14:28-31",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-14-medium-q2",
+          "question": "How does Matthew 14 teach us about the importance of prayer and personal devotion in a busy ministry or work life?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus often withdrew to pray alone, showing the need for solitude in devotion",
+            "Jesus only prayed publicly, never alone",
+            "Prayer is not necessary if you are busy serving others",
+            "Ministry work replaces the need for prayer"
+          ],
+          "correctAnswer": "Jesus often withdrew to pray alone, showing the need for solitude in devotion",
+          "explanation": "Matthew 14:23 describes Jesus going up a mountain alone to pray after sending the crowds away, emphasizing the importance of personal prayer and spiritual discipline even when busy serving others.",
+          "verseReference": "Matthew 14:23",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-14-medium-q3",
+          "question": "According to Matthew 14, what does the feeding of the five thousand teach us about God's provision and stewardship?",
+          "type": "multiple-choice",
+          "options": [
+            "God can multiply small offerings to meet great needs",
+            "We must always have abundant resources before helping others",
+            "Only the wealthy can serve in ministry",
+            "Provision comes only through human effort"
+          ],
+          "correctAnswer": "God can multiply small offerings to meet great needs",
+          "explanation": "Matthew 14:17-20 shows Jesus using five loaves and two fishes to feed thousands, teaching that God blesses faithful stewardship and can multiply our small resources to bless many.",
+          "verseReference": "Matthew 14:17-20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-14-medium-q4",
+          "question": "What does Herod's fear of killing John the Baptist, despite knowing it was wrong, teach us about integrity and courage in difficult situations?",
+          "type": "multiple-choice",
+          "options": [
+            "Integrity requires standing firm in truth even when it is costly",
+            "Fear should always prevent us from doing what is right",
+            "Compromising truth is acceptable to please others",
+            "Courage is unnecessary if people admire you"
+          ],
+          "correctAnswer": "Integrity requires standing firm in truth even when it is costly",
+          "explanation": "Matthew 14:4-5 shows John boldly confronting Herod about sin, but Herod feared the crowd more than doing right. This warns that true integrity means courage to obey God despite fear or opposition.",
+          "verseReference": "Matthew 14:4-5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-14-medium-q5",
+          "question": "How does the reaction of the disciples when Jesus walked on water guide us in overcoming fear and recognizing Jesus' presence?",
+          "type": "multiple-choice",
+          "options": [
+            "Recognize Jesus and be encouraged rather than fearful",
+            "Fear proves that Jesus is not with us",
+            "Avoid situations that challenge your faith",
+            "Doubt is the only response when seeing the miraculous"
+          ],
+          "correctAnswer": "Recognize Jesus and be encouraged rather than fearful",
+          "explanation": "In Matthew 14:26-27, the disciples were afraid and thought Jesus was a spirit, but He reassured them to be of good cheer and not afraid, teaching us to trust and acknowledge His presence in trials.",
+          "verseReference": "Matthew 14:26-27",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-14-medium-q6",
+          "question": "A fellow believer is discouraged by obstacles in sharing the Gospel. Based on Matthew 14, what encouragement about evangelism can you offer?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus healed and met the needs of the crowd despite difficulties, showing compassion in ministry",
+            "Evangelism should only happen in easy conditions",
+            "Sharing the Gospel is optional for believers",
+            "Ministry success depends solely on human effort"
+          ],
+          "correctAnswer": "Jesus healed and met the needs of the crowd despite difficulties, showing compassion in ministry",
+          "explanation": "Matthew 14:14 and 35-36 show Jesus having compassion and healing many despite challenges, teaching that faithful compassion and service open doors for evangelism even in hard circumstances.",
+          "verseReference": "Matthew 14:14, 35-36",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-14-medium-q7",
+          "question": "What lesson about humility and gratitude can we learn from the disciples' role in distributing the loaves and fishes?",
+          "type": "multiple-choice",
+          "options": [
+            "Serving others with what we have is an act of humility and gratitude",
+            "Only leaders should distribute blessings",
+            "Gratitude means expecting rewards for service",
+            "Faithfulness in small tasks is unimportant"
+          ],
+          "correctAnswer": "Serving others with what we have is an act of humility and gratitude",
+          "explanation": "In Matthew 14:19-20, the disciples humbly distributed Jesus' blessing to the crowd, showing that serving others with what God provides is a practical expression of humility and grateful stewardship.",
+          "verseReference": "Matthew 14:19-20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-14-medium-q8",
+          "question": "How does the account of John the Baptist's imprisonment and death in Matthew 14 teach about perseverance through trials and standing for truth?",
+          "type": "multiple-choice",
+          "options": [
+            "John boldly spoke the truth despite imprisonment and death, exemplifying perseverance",
+            "Avoid speaking truth to avoid persecution",
+            "Trials mean God has abandoned you",
+            "Faithfulness is only for the successful"
+          ],
+          "correctAnswer": "John boldly spoke the truth despite imprisonment and death, exemplifying perseverance",
+          "explanation": "Matthew 14:3-12 shows John imprisoned and executed for speaking truth, teaching believers to persevere and remain faithful under persecution for righteousness.",
+          "verseReference": "Matthew 14:3-12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-14-medium-q9",
+          "question": "True or False: According to Matthew 14, Jesus immediately rebuked Peter for attempting to walk on water, showing that doubt is unforgivable.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "In Matthew 14:28-31, Jesus encouraged Peter to come, and when Peter doubted and began to sink, Jesus lovingly helped him and gently rebuked his little faith, showing doubt is an opportunity for growth, not unforgivable.",
+          "verseReference": "Matthew 14:28-31",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-14-medium-q10",
+          "question": "True or False: Matthew 14 shows that Jesus prioritized serving others even when He needed rest and prayer.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Matthew 14:13-14 shows Jesus healing the sick and serving the multitude despite having just heard of John's death, but He also withdrew to pray alone afterward (verse 23), balancing service and personal devotion.",
+          "verseReference": "Matthew 14:13-14, 23",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-14-medium-q11",
+          "question": "Fill in the blank: When the people were sick and sought Jesus in Matthew 14, they believed that touching the ______ of His garment would heal them.",
+          "type": "fill-blank",
+          "options": [
+            "hem",
+            "sleeve",
+            "cloak",
+            "belt"
+          ],
+          "correctAnswer": "hem",
+          "explanation": "Matthew 14:36 states that the diseased sought to touch the hem of Jesus' garment, believing it would bring healing, illustrating faith in His power to restore.",
+          "verseReference": "Matthew 14:36",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-14-medium-q12",
+          "question": "How does Matthew 14 illustrate the importance of obedience to God's Word in family and marriage relationships?",
+          "type": "multiple-choice",
+          "options": [
+            "John the Baptist rebuked Herod for unlawfully marrying Herodias, demonstrating obedience to God's commands",
+            "Herod's marriage was an example to follow",
+            "Family relationships should always avoid confrontation",
+            "Disobedience in family matters has no spiritual consequences"
+          ],
+          "correctAnswer": "John the Baptist rebuked Herod for unlawfully marrying Herodias, demonstrating obedience to God's commands",
+          "explanation": "Matthew 14:3-4 shows John confronting Herod about his unlawful marriage to his brother's wife, emphasizing the importance of obedience to God's moral standards in family life.",
+          "verseReference": "Matthew 14:3-4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-14-medium-q13",
+          "question": "According to Matthew 14, what does Jesus' command to the disciples to feed the multitude teach about generosity and serving others?",
+          "type": "multiple-choice",
+          "options": [
+            "We are called to take initiative in meeting others' needs with what we have",
+            "Generosity is only required when we have excess",
+            "Feeding others is the responsibility of leaders only",
+            "Serving others is optional in Christian life"
+          ],
+          "correctAnswer": "We are called to take initiative in meeting others' needs with what we have",
+          "explanation": "In Matthew 14:16-18, Jesus instructs the disciples to feed the crowd despite limited resources, teaching believers to be proactive and generous in serving others regardless of constraints.",
+          "verseReference": "Matthew 14:16-18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-14-medium-q14",
+          "question": "What does the disciples’ worship and confession of Jesus as the Son of God after the storm teach about humility and recognizing Christ’s authority?",
+          "type": "multiple-choice",
+          "options": [
+            "Acknowledging Jesus’ divine authority leads to worship and humility",
+            "Faithfulness means never admitting weakness",
+            "Authority comes only from human power",
+            "Only after success should we acknowledge Jesus"
+          ],
+          "correctAnswer": "Acknowledging Jesus’ divine authority leads to worship and humility",
+          "explanation": "Matthew 14:33 shows the disciples worshipping Jesus and confessing Him as the Son of God after He calmed the storm, teaching that true humility comes from recognizing Christ’s power and lordship.",
+          "verseReference": "Matthew 14:33",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-14-medium-q15",
+          "question": "How does the example of Herod’s promise to the daughter of Herodias warn about the importance of honesty and integrity in keeping one’s word?",
+          "type": "multiple-choice",
+          "options": [
+            "Herod felt sorry but kept his oath, showing the seriousness of integrity even when it causes regret",
+            "It is acceptable to break promises to avoid trouble",
+            "Oaths are unimportant in leadership",
+            "Promises should only be kept when convenient"
+          ],
+          "correctAnswer": "Herod felt sorry but kept his oath, showing the seriousness of integrity even when it causes regret",
+          "explanation": "Matthew 14:7-9 explains that Herod regretted his rash promise but kept it because of his oath and public company, illustrating the biblical value of honesty and integrity in keeping commitments.",
+          "verseReference": "Matthew 14:7-9",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "matthew-14-quiz",
+      "tags": [
+        "matthew",
+        "chapter-14",
+        "matthew",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "matthew-14-hard",
+      "title": "Matthew Chapter 14 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Matthew Chapter 14.",
+      "type": "chapter",
+      "book": "Matthew",
+      "chapter": 14,
+      "questions": [
+        {
+          "id": "matthew-14-hard-q1",
+          "question": "What theological significance can be drawn from Herod's belief that Jesus was John the Baptist risen from the dead?",
+          "type": "multiple-choice",
+          "options": [
+            "Recognition of Jesus' prophetic authority",
+            "Confusion between resurrection and reincarnation",
+            "A pagan misunderstanding of Jewish resurrection beliefs",
+            "A deliberate attempt to discredit Jesus"
+          ],
+          "correctAnswer": "Recognition of Jesus' prophetic authority",
+          "explanation": "Herod’s statement in Matthew 14:2 shows that Jesus’ miracles led to a recognition of prophetic power, linking Jesus to John the Baptist, a recognized prophet, which reveals early acknowledgment of Jesus' divine mission.",
+          "verseReference": "Matthew 14:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-hard-q2",
+          "question": "Why did Herod imprison John the Baptist according to the chapter, and how does this reflect the political and social customs of the time?",
+          "type": "multiple-choice",
+          "options": [
+            "Because John condemned Herod's unlawful marriage to Herodias",
+            "Because John incited rebellion against Roman rule",
+            "Because Herod feared John's popularity among the masses",
+            "Because John refused to pay taxes to Herod"
+          ],
+          "correctAnswer": "Because John condemned Herod's unlawful marriage to Herodias",
+          "explanation": "Matthew 14:3-4 states Herod imprisoned John for denouncing his marriage to Herodias, reflecting Jewish law prohibiting such unions and the tension between moral authority and political power.",
+          "verseReference": "Matthew 14:3-4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-hard-q3",
+          "question": "What literary device is used in the narrative of John the Baptist’s beheading and how does it foreshadow later events in Jesus' ministry?",
+          "type": "multiple-choice",
+          "options": [
+            "Chiasm illustrating sacrifice and rejection",
+            "Parable emphasizing forgiveness",
+            "Allegory representing Israel's history",
+            "Hyperbole to stress Herod's cruelty"
+          ],
+          "correctAnswer": "Chiasm illustrating sacrifice and rejection",
+          "explanation": "The structure of John’s imprisonment, execution, and the use of a 'charger' (plate) in Matthew 14:8-11 forms a chiastic pattern highlighting martyrdom that foreshadows Jesus’ own passion and rejection.",
+          "verseReference": "Matthew 14:8-11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-hard-q4",
+          "question": "How does the miracle of the feeding of the five thousand in Matthew 14 relate to Old Testament manna provision?",
+          "type": "multiple-choice",
+          "options": [
+            "It echoes God's provision of manna in the wilderness, showing Jesus as the new provider",
+            "It contradicts the Old Testament by introducing fish as food",
+            "It is unrelated, focusing only on Jesus' power over nature",
+            "It symbolizes the end of dietary laws"
+          ],
+          "correctAnswer": "It echoes God's provision of manna in the wilderness, showing Jesus as the new provider",
+          "explanation": "Matthew 14:15-21 parallels the Exodus manna narrative, emphasizing Jesus as the new source of spiritual and physical sustenance, fulfilling and surpassing God’s provision in the wilderness.",
+          "verseReference": "Matthew 14:15-21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-hard-q5",
+          "question": "What is the significance of Jesus' act of blessing the loaves and fishes before distributing them?",
+          "type": "multiple-choice",
+          "options": [
+            "It reflects Jewish blessing traditions and divine empowerment over creation",
+            "It is a pagan ritual adopted by Jesus",
+            "It is an arbitrary act without theological meaning",
+            "It was meant to impress the disciples"
+          ],
+          "correctAnswer": "It reflects Jewish blessing traditions and divine empowerment over creation",
+          "explanation": "In Matthew 14:19, Jesus’ blessing follows Jewish customs of blessing food, demonstrating divine authority and God's providence working through Jesus.",
+          "verseReference": "Matthew 14:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-hard-q6",
+          "question": "What does the phrase 'looking up to heaven' in the feeding miracle suggest about Jesus' relationship to God the Father?",
+          "type": "multiple-choice",
+          "options": [
+            "It indicates dependence on and communication with God the Father",
+            "It signifies Jesus' distraction during the miracle",
+            "It is a ritual borrowed from Greek traditions",
+            "It reflects doubt about the miracle's outcome"
+          ],
+          "correctAnswer": "It indicates dependence on and communication with God the Father",
+          "explanation": "Matthew 14:19 highlights Jesus’ reverence and connection to God the Father, emphasizing that the miracle operates through divine power rather than human effort alone.",
+          "verseReference": "Matthew 14:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-hard-q7",
+          "question": "How does Jesus walking on the sea function as a typological allusion in this chapter?",
+          "type": "multiple-choice",
+          "options": [
+            "It recalls God's mastery over chaotic waters in the Old Testament",
+            "It is a metaphor for conquering death",
+            "It symbolizes Israel's exile",
+            "It illustrates human fear of the unknown"
+          ],
+          "correctAnswer": "It recalls God's mastery over chaotic waters in the Old Testament",
+          "explanation": "The event in Matthew 14:25 recalls God's control over the seas in Psalms and Genesis, portraying Jesus as divine, sovereign over chaos and nature.",
+          "verseReference": "Matthew 14:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-hard-q8",
+          "question": "What is the significance of the disciples' initial fear and mistaking Jesus for a spirit while He walked on the sea?",
+          "type": "multiple-choice",
+          "options": [
+            "It reflects the ancient cultural fear of spirits and the supernatural",
+            "It shows their disbelief in resurrection",
+            "It indicates Jesus was invisible",
+            "It suggests they did not recognize Jesus' voice"
+          ],
+          "correctAnswer": "It reflects the ancient cultural fear of spirits and the supernatural",
+          "explanation": "Matthew 14:26 shows the disciples' fear consistent with Jewish and Greco-Roman apprehensions about spirits, underscoring the miraculous nature of Jesus' appearance.",
+          "verseReference": "Matthew 14:26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-hard-q9",
+          "question": "Why does Jesus’ phrase 'O thou of little faith, wherefore didst thou doubt?' to Peter carry theological weight?",
+          "type": "multiple-choice",
+          "options": [
+            "It emphasizes the necessity of faith to participate in divine works",
+            "It is an expression of anger",
+            "It suggests faith is irrelevant",
+            "It indicates Peter’s sinfulness"
+          ],
+          "correctAnswer": "It emphasizes the necessity of faith to participate in divine works",
+          "explanation": "In Matthew 14:31, Jesus highlights faith as essential for miraculous acts and trust in God's power, a recurring New Testament theme.",
+          "verseReference": "Matthew 14:31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-hard-q10",
+          "question": "What historical context helps explain Herod's fear of killing John despite wanting to do so?",
+          "type": "multiple-choice",
+          "options": [
+            "John's popularity among the people as a prophet prevented Herod from killing him openly",
+            "Roman laws forbade Herod from killing prophets",
+            "Herod feared divine retribution",
+            "Herod was politically allied with John"
+          ],
+          "correctAnswer": "John's popularity among the people as a prophet prevented Herod from killing him openly",
+          "explanation": "Matthew 14:5 states Herod feared the multitude because they regarded John as a prophet, showing the political risk of executing a popular religious figure in 1st-century Judea.",
+          "verseReference": "Matthew 14:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-hard-q11",
+          "question": "How does the setting of Jesus praying alone on the mountain after feeding the multitudes reflect Old Testament motifs?",
+          "type": "multiple-choice",
+          "options": [
+            "It recalls Moses' encounters with God on Mount Sinai",
+            "It imitates Solomon’s temple rituals",
+            "It symbolizes exile and captivity",
+            "It reflects Babylonian worship practices"
+          ],
+          "correctAnswer": "It recalls Moses' encounters with God on Mount Sinai",
+          "explanation": "Matthew 14:23 evokes the motif of solitary mountain prayer found in Exodus and other Old Testament texts, underlining Jesus’ role as a new Moses and mediator.",
+          "verseReference": "Matthew 14:23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-hard-q12",
+          "question": "Which Greek word often translated as 'compassion' is key to understanding Jesus’ motivation in healing the sick in Matthew 14:14, and what is its deeper meaning?",
+          "type": "multiple-choice",
+          "options": [
+            "Splagchnizomai, meaning a deep, visceral compassion from the inner being",
+            "Agape, meaning unconditional love",
+            "Charis, meaning grace",
+            "Dikaiosyne, meaning righteousness"
+          ],
+          "correctAnswer": "Splagchnizomai, meaning a deep, visceral compassion from the inner being",
+          "explanation": "Matthew 14:14 uses 'splagchnizomai' to depict Jesus’ profound emotional response, reflecting God’s merciful character in action.",
+          "verseReference": "Matthew 14:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-hard-q13",
+          "question": "How does the abundance of leftovers after the feeding miracle (twelve baskets) symbolize a broader biblical theme?",
+          "type": "multiple-choice",
+          "options": [
+            "It symbolizes God's abundant provision and the twelve tribes of Israel",
+            "It warns against wastefulness",
+            "It represents the twelve apostles' failure",
+            "It is a numerical coincidence with no significance"
+          ],
+          "correctAnswer": "It symbolizes God's abundant provision and the twelve tribes of Israel",
+          "explanation": "Matthew 14:20's mention of twelve baskets of leftovers reflects God's overflowing provision and may allude to the restoration of Israel through Jesus’ ministry.",
+          "verseReference": "Matthew 14:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-hard-q14",
+          "question": "True or False: Jesus immediately calmed the storm when he walked on the sea in Matthew 14.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "According to Matthew 14:32, the wind ceased only after Jesus and Peter entered the ship, indicating the calming of the storm followed their return, not immediately upon Jesus walking on the sea.",
+          "verseReference": "Matthew 14:32",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-hard-q15",
+          "question": "What is the significance of the people in Gennesaret seeking to touch only the hem of Jesus’ garment?",
+          "type": "multiple-choice",
+          "options": [
+            "It shows belief in Jesus' healing power through his presence, paralleling Old Testament notions of holy garments",
+            "It reflects a superstitious practice unrelated to faith",
+            "It indicates ritual purity laws being broken",
+            "It demonstrates rejection of Jesus' teachings"
+          ],
+          "correctAnswer": "It shows belief in Jesus' healing power through his presence, paralleling Old Testament notions of holy garments",
+          "explanation": "Matthew 14:35-36 recalls how touching the fringe (tzitzit) of a holy person’s garment was thought to convey divine blessing, emphasizing faith in Jesus’ sanctity and power.",
+          "verseReference": "Matthew 14:35-36",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "matthew-14-quiz",
+      "tags": [
+        "matthew",
+        "chapter-14",
+        "matthew",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "matthew-14-theological",
+      "title": "Matthew Chapter 14 Quiz - Theological Level",
+      "description": "Deep biblical theology from Matthew Chapter 14 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Matthew",
+      "chapter": 14,
+      "questions": [
+        {
+          "id": "matthew-14-theological-q1",
+          "question": "What theological significance does Herod's confusion about Jesus' identity in Matthew 14:2 suggest?",
+          "type": "multiple-choice",
+          "options": [
+            "He believed Jesus was John the Baptist resurrected",
+            "He recognized Jesus as the Messiah",
+            "He thought Jesus was a false prophet",
+            "He considered Jesus a political revolutionary"
+          ],
+          "correctAnswer": "He believed Jesus was John the Baptist resurrected",
+          "explanation": "Matthew 14:2 shows Herod mistakenly thought Jesus was John the Baptist risen from the dead, reflecting a misunderstanding of the resurrection and Messiahship. This confusion contrasts with biblical teaching about Jesus' unique identity (Isaiah 53:3-5; John 1:29; Acts 10:38; 1 Corinthians 15:20-22).",
+          "verseReference": "Matthew 14:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-theological-q2",
+          "question": "Why did Herod imprison John the Baptist according to Matthew 14:3-4?",
+          "type": "multiple-choice",
+          "options": [
+            "Because John condemned Herod's unlawful marriage",
+            "Because John incited rebellion",
+            "Because John claimed to be the Messiah",
+            "Because John refused to pay taxes"
+          ],
+          "correctAnswer": "Because John condemned Herod's unlawful marriage",
+          "explanation": "Herod imprisoned John because John rebuked him for marrying Herodias, his brother's wife, which was unlawful (Matthew 14:3-4). This aligns with Old Testament laws on marriage and holiness (Leviticus 18:16; Deuteronomy 27:20; Mark 6:18; Luke 3:19).",
+          "verseReference": "Matthew 14:3-4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-theological-q3",
+          "question": "What does Herod's reluctance to kill John the Baptist reveal about his view of John in Matthew 14:5?",
+          "type": "multiple-choice",
+          "options": [
+            "He feared public opinion because John was regarded as a prophet",
+            "He admired John's courage",
+            "He was completely indifferent to John",
+            "He thought John was innocent"
+          ],
+          "correctAnswer": "He feared public opinion because John was regarded as a prophet",
+          "explanation": "Matthew 14:5 indicates Herod feared killing John because the people regarded John as a prophet, showing recognition of John's spiritual authority and the people's reverence for God's messengers (Deuteronomy 18:15; Luke 7:16; Acts 13:24-25; Hebrews 11:32).",
+          "verseReference": "Matthew 14:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-theological-q4",
+          "question": "What theological lesson is demonstrated by Jesus feeding the five thousand with five loaves and two fishes in Matthew 14:16-20?",
+          "type": "multiple-choice",
+          "options": [
+            "God's provision is abundant and sovereign",
+            "Faith is unnecessary for miracles",
+            "Jesus only helps those who bring much",
+            "The crowd was miraculously transported away"
+          ],
+          "correctAnswer": "God's provision is abundant and sovereign",
+          "explanation": "The feeding miracle in Matthew 14:16-20 illustrates God's abundant and sovereign provision, emphasizing Jesus as the Bread of Life (John 6:35), fulfilling Old Testament typology of God's provision (Exodus 16:4; Psalm 78:24; Isaiah 55:1).",
+          "verseReference": "Matthew 14:16-20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-theological-q5",
+          "question": "What does the disciples’ initial doubt about providing food to the multitude reveal about human faith compared to divine power (Matthew 14:17)?",
+          "type": "multiple-choice",
+          "options": [
+            "Human limitations require dependence on God's power",
+            "Faith is irrelevant in divine miracles",
+            "Disciples were disobedient",
+            "Jesus discouraged faith"
+          ],
+          "correctAnswer": "Human limitations require dependence on God's power",
+          "explanation": "The disciples' doubt in Matthew 14:17 highlights human limitations and the necessity of trusting God's power to do the impossible, consistent with teachings on faith and reliance on God (2 Corinthians 12:9; Mark 9:23; Hebrews 11:1; Psalm 46:10).",
+          "verseReference": "Matthew 14:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-theological-q6",
+          "question": "What Christological truth is revealed when Jesus blesses and breaks the loaves before distributing them in Matthew 14:19?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus acts as the divine provider and mediator",
+            "Jesus performs magic tricks",
+            "Jesus relies on human effort",
+            "Jesus rejects communal sharing"
+          ],
+          "correctAnswer": "Jesus acts as the divine provider and mediator",
+          "explanation": "Jesus blessing and breaking the loaves (Matthew 14:19) points to His role as divine provider and mediator, prefiguring the Eucharist and God's covenant faithfulness (John 6:51-58; 1 Corinthians 11:23-26; Exodus 16:18; Psalm 104:14-15).",
+          "verseReference": "Matthew 14:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-theological-q7",
+          "question": "How does Jesus’ walking on water in Matthew 14:25 illustrate His divine nature?",
+          "type": "multiple-choice",
+          "options": [
+            "It demonstrates His authority over creation",
+            "It was a natural event misinterpreted",
+            "It shows His weakness",
+            "It was a parable, not a real event"
+          ],
+          "correctAnswer": "It demonstrates His authority over creation",
+          "explanation": "Jesus walking on water (Matthew 14:25) reveals His divine authority over nature, affirming His identity as God incarnate who controls creation (Psalm 77:19; Job 9:8; Mark 6:48; Hebrews 1:3; Colossians 1:16-17).",
+          "verseReference": "Matthew 14:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-theological-q8",
+          "question": "What does Peter’s attempt to walk on water toward Jesus teach about faith and doubt (Matthew 14:28-31)?",
+          "type": "multiple-choice",
+          "options": [
+            "Faith enables the impossible, but doubt leads to failure",
+            "Doubt is encouraged over faith",
+            "Faith is irrelevant",
+            "Only Jesus can walk on water"
+          ],
+          "correctAnswer": "Faith enables the impossible, but doubt leads to failure",
+          "explanation": "Peter walking on water (Matthew 14:28-31) teaches faith empowers believers to do the impossible, but doubt undermines faith’s effectiveness, illustrating the need for trust in Christ (Hebrews 11:6; James 1:6-8; Mark 9:23; Romans 4:20-21).",
+          "verseReference": "Matthew 14:28-31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-theological-q9",
+          "question": "What attribute of God is revealed when Jesus immediately saves Peter as he begins to sink (Matthew 14:31)?",
+          "type": "multiple-choice",
+          "options": [
+            "God's mercy and readiness to save",
+            "God's wrath and judgment",
+            "God's indifference",
+            "God's delay in answering prayers"
+          ],
+          "correctAnswer": "God's mercy and readiness to save",
+          "explanation": "Jesus immediately saving Peter (Matthew 14:31) reveals God's mercy and eagerness to rescue sinners who call on Him, consistent with scriptures emphasizing God's compassionate nature (Psalm 34:18; Lamentations 3:22-23; Luke 18:13-14; 2 Corinthians 1:3-4).",
+          "verseReference": "Matthew 14:31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-theological-q10",
+          "question": "Why did those in the ship worship Jesus after the wind ceased (Matthew 14:33)?",
+          "type": "multiple-choice",
+          "options": [
+            "Because they recognized Him as the Son of God",
+            "Because the storm ended naturally",
+            "Because they were relieved",
+            "Because they were superstitious"
+          ],
+          "correctAnswer": "Because they recognized Him as the Son of God",
+          "explanation": "In Matthew 14:33, the disciples worship Jesus as Son of God after witnessing His power over nature, affirming His divine identity, consistent with New Testament Christology (John 1:49; Philippians 2:9-11; Hebrews 1:6; Revelation 1:8).",
+          "verseReference": "Matthew 14:33",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-theological-q11",
+          "question": "What does Jesus’ withdrawal to a mountain to pray in Matthew 14:23 teach about His relationship with the Father?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus maintains intimate communion with God",
+            "Jesus is independent of the Father",
+            "Prayer is unnecessary for Jesus",
+            "Jesus avoids people to escape responsibility"
+          ],
+          "correctAnswer": "Jesus maintains intimate communion with God",
+          "explanation": "Jesus going to a mountain to pray (Matthew 14:23) highlights His dependence on and communion with the Father, modeling the necessity of prayer for believers (Luke 5:16; Mark 1:35; John 17:1-26; Hebrews 5:7).",
+          "verseReference": "Matthew 14:23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-theological-q12",
+          "question": "How does the healing of those who touched Jesus’ garment in Matthew 14:36 reflect the nature of Christ’s divine power?",
+          "type": "multiple-choice",
+          "options": [
+            "Healing flows from faith in Christ’s divine authority",
+            "Healing was purely psychosomatic",
+            "Only some were healed by coincidence",
+            "Healing required elaborate rituals"
+          ],
+          "correctAnswer": "Healing flows from faith in Christ’s divine authority",
+          "explanation": "The healing in Matthew 14:36 demonstrates that faith in Jesus’ divine authority brings restoration, consistent with biblical themes of faith and divine healing (Exodus 15:26; Isaiah 53:4-5; Mark 5:34; James 5:14-16).",
+          "verseReference": "Matthew 14:36",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-theological-q13",
+          "question": "What does the sending away of the multitudes by Jesus in Matthew 14:22 indicate about His mission and the role of His disciples?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus directs His disciples to continue His work and prepares for future ministry",
+            "Jesus abandons the people",
+            "Disciples are to avoid hardship",
+            "Jesus’ mission ends with the multitudes"
+          ],
+          "correctAnswer": "Jesus directs His disciples to continue His work and prepares for future ministry",
+          "explanation": "Matthew 14:22 shows Jesus sending the multitudes away and commanding disciples to go ahead, indicating the ongoing mission and the disciples’ role in ministry, aligning with the Great Commission (Matthew 28:19-20; Luke 10:1; Acts 1:8; John 20:21).",
+          "verseReference": "Matthew 14:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-theological-q14",
+          "question": "How does the narrative of John the Baptist’s beheading in Matthew 14:8-11 illustrate the cost of prophetic witness?",
+          "type": "multiple-choice",
+          "options": [
+            "Prophetic truth often leads to suffering and martyrdom",
+            "Prophets were always rewarded materially",
+            "Prophets avoided conflict",
+            "Prophetic words were uniformly welcomed"
+          ],
+          "correctAnswer": "Prophetic truth often leads to suffering and martyrdom",
+          "explanation": "John’s beheading (Matthew 14:8-11) exemplifies the danger and suffering inherent in declaring God’s truth, consistent with the experiences of Old Testament prophets (Jeremiah 26:20-23; 1 Kings 19:10; Acts 7:52; Revelation 6:9).",
+          "verseReference": "Matthew 14:8-11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-14-theological-q15",
+          "question": "What eschatological implication can be drawn from the crowd's recognition of Jesus as the Son of God after the storm calmed (Matthew 14:33)?",
+          "type": "multiple-choice",
+          "options": [
+            "Recognition of Jesus' divine authority anticipates final judgment",
+            "The crowd misunderstood Jesus’ identity",
+            "The event had no eschatological significance",
+            "Jesus denied His divine status"
+          ],
+          "correctAnswer": "Recognition of Jesus' divine authority anticipates final judgment",
+          "explanation": "The worship in Matthew 14:33 reflects acknowledgment of Jesus’ divine authority, foreshadowing His role in eschatological judgment and salvation (Matthew 25:31-46; Revelation 1:7; John 5:22; Daniel 7:13-14).",
+          "verseReference": "Matthew 14:33",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "matthew-14-quiz",
+      "tags": [
+        "matthew",
+        "chapter-14",
+        "matthew",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

@@ -1,0 +1,983 @@
+{
+  "id": "mark-10-tabbed",
+  "title": "Mark Chapter 10 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Mark chapter 10 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "mark-10-easy",
+      "title": "Mark Chapter 10 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Mark Chapter 10.",
+      "type": "chapter",
+      "book": "Mark",
+      "chapter": 10,
+      "questions": [
+        {
+          "id": "mark-10-easy-q1",
+          "question": "Where did Jesus go after he arose as mentioned in Mark 10:1?",
+          "type": "multiple-choice",
+          "options": [
+            "The coasts of Judaea by the farther side of Jordan",
+            "Galilee",
+            "Jerusalem",
+            "Nazareth"
+          ],
+          "correctAnswer": "The coasts of Judaea by the farther side of Jordan",
+          "explanation": "Mark 10:1 states that Jesus arose and came into the coasts of Judaea by the farther side of Jordan.",
+          "verseReference": "Mark 10:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-10-easy-q2",
+          "question": "What question did the Pharisees ask Jesus in Mark 10:2?",
+          "type": "multiple-choice",
+          "options": [
+            "Is it lawful for a man to put away his wife?",
+            "Who is the greatest in the kingdom of God?",
+            "How can one inherit eternal life?",
+            "What is the greatest commandment?"
+          ],
+          "correctAnswer": "Is it lawful for a man to put away his wife?",
+          "explanation": "In Mark 10:2, the Pharisees asked Jesus if it was lawful for a man to put away his wife.",
+          "verseReference": "Mark 10:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-10-easy-q3",
+          "question": "According to Jesus in Mark 10:6, how did God make humans from the beginning?",
+          "type": "multiple-choice",
+          "options": [
+            "Male and female",
+            "One flesh",
+            "Good and evil",
+            "Spirit and body"
+          ],
+          "correctAnswer": "Male and female",
+          "explanation": "Mark 10:6 says God made them male and female from the beginning of creation.",
+          "verseReference": "Mark 10:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-10-easy-q4",
+          "question": "Fill in the blank: 'What therefore God hath joined together, let not man ______.'",
+          "type": "fill-blank",
+          "options": [
+            "put asunder",
+            "judge",
+            "divide",
+            "ignore"
+          ],
+          "correctAnswer": "put asunder",
+          "explanation": "Mark 10:9 instructs that what God has joined, no man should put asunder.",
+          "verseReference": "Mark 10:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-10-easy-q5",
+          "question": "According to Mark 10:11, what sin is committed if a man puts away his wife and marries another?",
+          "type": "multiple-choice",
+          "options": [
+            "Adultery",
+            "Theft",
+            "Blasphemy",
+            "Idolatry"
+          ],
+          "correctAnswer": "Adultery",
+          "explanation": "Mark 10:11 states that whoever puts away his wife and marries another commits adultery against her.",
+          "verseReference": "Mark 10:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-10-easy-q6",
+          "question": "True or False: Jesus was pleased when his disciples rebuked those who brought children to Him (Mark 10:14).",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Mark 10:14 says Jesus was much displeased when His disciples rebuked those bringing children.",
+          "verseReference": "Mark 10:14",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-10-easy-q7",
+          "question": "Who did Jesus say must receive the kingdom of God like a little child? (Mark 10:15)",
+          "type": "multiple-choice",
+          "options": [
+            "Whosoever shall not",
+            "Only adults",
+            "The Pharisees",
+            "The rich"
+          ],
+          "correctAnswer": "Whosoever shall not",
+          "explanation": "Mark 10:15 teaches that whoever does not receive the kingdom of God as a little child shall not enter it.",
+          "verseReference": "Mark 10:15",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-10-easy-q8",
+          "question": "What did the rich man ask Jesus in Mark 10:17?",
+          "type": "multiple-choice",
+          "options": [
+            "What shall I do that I may inherit eternal life?",
+            "Where is the kingdom of God?",
+            "How can I be healed?",
+            "Who is the greatest in the kingdom?"
+          ],
+          "correctAnswer": "What shall I do that I may inherit eternal life?",
+          "explanation": "Mark 10:17 describes a man asking Jesus how he may inherit eternal life.",
+          "verseReference": "Mark 10:17",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-10-easy-q9",
+          "question": "What did Jesus tell the rich man to do to have treasure in heaven? (Mark 10:21)",
+          "type": "multiple-choice",
+          "options": [
+            "Sell all he had and give to the poor",
+            "Build a temple",
+            "Offer sacrifices",
+            "Fast and pray"
+          ],
+          "correctAnswer": "Sell all he had and give to the poor",
+          "explanation": "In Mark 10:21, Jesus told the man to sell his possessions and give to the poor to have treasure in heaven.",
+          "verseReference": "Mark 10:21",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-10-easy-q10",
+          "question": "True or False: Jesus said it is easier for a camel to go through the eye of a needle than for a rich man to enter the kingdom of God. (Mark 10:25)",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Mark 10:25 clearly states this comparison regarding the difficulty for a rich man to enter God's kingdom.",
+          "verseReference": "Mark 10:25",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-10-easy-q11",
+          "question": "What did Jesus say about those who have left all for his sake and the gospel's in Mark 10:30?",
+          "type": "multiple-choice",
+          "options": [
+            "They shall receive a hundredfold now and eternal life in the world to come",
+            "They shall be forgotten",
+            "They shall suffer only",
+            "They shall become rulers"
+          ],
+          "correctAnswer": "They shall receive a hundredfold now and eternal life in the world to come",
+          "explanation": "Mark 10:30 promises a hundredfold reward now and eternal life for those who leave all for Jesus and the gospel.",
+          "verseReference": "Mark 10:30",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-10-easy-q12",
+          "question": "Who came to Jesus asking to sit at his right and left hand in glory? (Mark 10:35)",
+          "type": "multiple-choice",
+          "options": [
+            "James and John, the sons of Zebedee",
+            "Peter and Andrew",
+            "Philip and Bartholomew",
+            "Thomas and Matthew"
+          ],
+          "correctAnswer": "James and John, the sons of Zebedee",
+          "explanation": "Mark 10:35 states that James and John asked Jesus for places of honor in His glory.",
+          "verseReference": "Mark 10:35",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-10-easy-q13",
+          "question": "True or False: Jesus said He came to be ministered to, not to minister. (Mark 10:45)",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Mark 10:45 states that the Son of man came to minister and give His life as a ransom, not to be ministered unto.",
+          "verseReference": "Mark 10:45",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-10-easy-q14",
+          "question": "Who was the blind man Jesus healed near Jericho? (Mark 10:46)",
+          "type": "multiple-choice",
+          "options": [
+            "Bartimaeus, the son of Timaeus",
+            "Lazarus",
+            "Nicodemus",
+            "Zacchaeus"
+          ],
+          "correctAnswer": "Bartimaeus, the son of Timaeus",
+          "explanation": "Mark 10:46 identifies the blind man as Bartimaeus, son of Timaeus.",
+          "verseReference": "Mark 10:46",
+          "difficulty": "easy"
+        },
+        {
+          "id": "mark-10-easy-q15",
+          "question": "What did Bartimaeus cry out to Jesus? (Mark 10:47)",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus, thou Son of David, have mercy on me",
+            "Lord, heal me",
+            "Master, save me",
+            "Son of God, help me"
+          ],
+          "correctAnswer": "Jesus, thou Son of David, have mercy on me",
+          "explanation": "Mark 10:47 records Bartimaeus crying out, 'Jesus, thou Son of David, have mercy on me.'",
+          "verseReference": "Mark 10:47",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "mark-10-quiz",
+      "tags": [
+        "mark",
+        "chapter-10",
+        "mark",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "mark-10-medium",
+      "title": "Mark Chapter 10 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Mark Chapter 10 to real-life situations.",
+      "type": "chapter",
+      "book": "Mark",
+      "chapter": 10,
+      "questions": [
+        {
+          "id": "mark-10-medium-q1",
+          "question": "A fellow believer is struggling with understanding the sanctity of marriage. Based on Mark 10, what biblical truth would you share about marriage?",
+          "type": "multiple-choice",
+          "options": [
+            "Marriage is a lifelong union instituted by God that should not be broken by man.",
+            "Marriage is just a social contract that can be ended by mutual agreement.",
+            "Divorce is allowed without any restriction according to God's word.",
+            "Marriage is only a temporary arrangement until personal happiness is found."
+          ],
+          "correctAnswer": "Marriage is a lifelong union instituted by God that should not be broken by man.",
+          "explanation": "Mark 10:6-9 teaches that God made male and female from the beginning and that what God has joined together, no man should put asunder. Jesus emphasizes the permanency and sacredness of marriage.",
+          "verseReference": "Mark 10:6-9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-10-medium-q2",
+          "question": "How does Mark 10 teach about forgiving and receiving others, especially children, in the kingdom of God?",
+          "type": "multiple-choice",
+          "options": [
+            "We should welcome and receive others with the humility and trust of children.",
+            "Children should be kept away from religious teaching until they are older.",
+            "Only adults are capable of entering the kingdom of God.",
+            "The kingdom of God is for those who are strong and self-reliant."
+          ],
+          "correctAnswer": "We should welcome and receive others with the humility and trust of children.",
+          "explanation": "Mark 10:13-15 shows Jesus welcoming children and teaching that receiving the kingdom of God must be like receiving it as a little child, highlighting humility and trust as key virtues.",
+          "verseReference": "Mark 10:13-15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-10-medium-q3",
+          "question": "A believer is anxious about their possessions and wealth. According to Mark 10, what biblical principle should they remember about riches?",
+          "type": "multiple-choice",
+          "options": [
+            "Riches can hinder entering the kingdom of God and require trust in God rather than wealth.",
+            "Wealth guarantees God's favor and entrance into the kingdom.",
+            "Riches should be hoarded for personal security.",
+            "The more possessions, the closer one is to God."
+          ],
+          "correctAnswer": "Riches can hinder entering the kingdom of God and require trust in God rather than wealth.",
+          "explanation": "Mark 10:23-27 teaches that it is difficult for the rich to enter God's kingdom and encourages trust in God over riches, underscoring the need for faith and reliance on God.",
+          "verseReference": "Mark 10:23-27",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-10-medium-q4",
+          "question": "What does Mark 10 teach about generosity and stewardship with possessions?",
+          "type": "multiple-choice",
+          "options": [
+            "Selling possessions and giving to the poor is a way to gain treasure in heaven.",
+            "Keeping possessions for oneself is the best way to ensure security.",
+            "Giving to the poor is optional and not related to spiritual life.",
+            "Possessions should be used only for personal enjoyment."
+          ],
+          "correctAnswer": "Selling possessions and giving to the poor is a way to gain treasure in heaven.",
+          "explanation": "Mark 10:21 shows Jesus telling a man to sell all he has and give to the poor to have treasure in heaven, highlighting the importance of generosity and detachment from wealth.",
+          "verseReference": "Mark 10:21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-10-medium-q5",
+          "question": "When a fellow believer is feeling discouraged about losing earthly treasures for following Christ, what encouragement does Mark 10 provide?",
+          "type": "multiple-choice",
+          "options": [
+            "Those who leave things for Jesus and the gospel will receive a hundredfold blessing and eternal life.",
+            "Losses for Christ have no reward in this life or the next.",
+            "It is better to hold on to possessions than to follow Jesus.",
+            "Only material wealth matters in God's kingdom."
+          ],
+          "correctAnswer": "Those who leave things for Jesus and the gospel will receive a hundredfold blessing and eternal life.",
+          "explanation": "Mark 10:29-30 assures believers that sacrifices made for Christ will be rewarded abundantly both now and eternally, encouraging perseverance and faithfulness.",
+          "verseReference": "Mark 10:29-30",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-10-medium-q6",
+          "question": "According to Mark 10, what attitude should believers have about greatness and leadership in the church?",
+          "type": "multiple-choice",
+          "options": [
+            "True greatness is shown through serving others humbly, not exercising authority over them.",
+            "Greatness is measured by how many people one rules over.",
+            "Leaders should seek power and authority for personal gain.",
+            "Being served is the mark of a great leader."
+          ],
+          "correctAnswer": "True greatness is shown through serving others humbly, not exercising authority over them.",
+          "explanation": "Mark 10:42-44 teaches that unlike worldly rulers, believers should seek to be servants and ministers, showing humility and love in leadership.",
+          "verseReference": "Mark 10:42-44",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-10-medium-q7",
+          "question": "How does Mark 10 illustrate Jesus’ approach to serving others?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus came to serve others and give his life as a ransom for many.",
+            "Jesus came to be served and exalted.",
+            "Jesus avoided serving people to maintain his authority.",
+            "Jesus only served those who were important."
+          ],
+          "correctAnswer": "Jesus came to serve others and give his life as a ransom for many.",
+          "explanation": "Mark 10:45 states that the Son of Man came not to be served but to minister and give his life as a ransom, modeling servant leadership and sacrificial love.",
+          "verseReference": "Mark 10:45",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-10-medium-q8",
+          "question": "A believer is experiencing fear and uncertainty about future trials. What does Mark 10 teach about trusting God's plan during difficult times?",
+          "type": "multiple-choice",
+          "options": [
+            "With God, all things are possible even when situations seem impossible.",
+            "Trials mean God has abandoned you.",
+            "You should rely only on your own strength during hardships.",
+            "Difficulties have no spiritual purpose."
+          ],
+          "correctAnswer": "With God, all things are possible even when situations seem impossible.",
+          "explanation": "Mark 10:27 encourages trust in God’s power, reminding believers that what is impossible for man is possible with God, offering hope amid trials.",
+          "verseReference": "Mark 10:27",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-10-medium-q9",
+          "question": "How does Mark 10 instruct believers to respond to those in need, like the blind man Bartimaeus?",
+          "type": "multiple-choice",
+          "options": [
+            "We should listen to their cries for help and respond with compassion and faith.",
+            "Ignore those who beg for help as it is not our responsibility.",
+            "Only help those who are part of our community.",
+            "Assume their needs are exaggerated and avoid involvement."
+          ],
+          "correctAnswer": "We should listen to their cries for help and respond with compassion and faith.",
+          "explanation": "Mark 10:46-52 shows Jesus responding to Bartimaeus’ persistent faith and healing him, teaching believers to be compassionate and attentive to those in need.",
+          "verseReference": "Mark 10:46-52",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-10-medium-q10",
+          "question": "True or False: According to Mark 10, Jesus taught that remarriage after divorce is acceptable without consequences.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Mark 10:11-12 clearly states that whoever divorces and remarries commits adultery, indicating remarriage after divorce is not without spiritual consequences.",
+          "verseReference": "Mark 10:11-12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-10-medium-q11",
+          "question": "True or False: Mark 10 teaches that humility and childlike faith are necessary to enter the kingdom of God.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Mark 10:14-15 emphasizes that receiving the kingdom of God must be like receiving it as a little child, highlighting humility and dependent faith as essential.",
+          "verseReference": "Mark 10:14-15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-10-medium-q12",
+          "question": "Fill in the blank: According to Mark 10, 'What therefore God hath joined together, let not man ________.'",
+          "type": "fill-blank",
+          "options": [
+            "put asunder",
+            "separate",
+            "break",
+            "divide"
+          ],
+          "correctAnswer": "put asunder",
+          "explanation": "Mark 10:9 teaches that man should not put asunder what God has joined together, emphasizing the sacredness and permanence of marriage.",
+          "verseReference": "Mark 10:9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-10-medium-q13",
+          "question": "A believer wants to follow Jesus fully but is hesitant because of personal sacrifices. What does Mark 10 teach about taking up the cross?",
+          "type": "multiple-choice",
+          "options": [
+            "Following Jesus requires self-denial, taking up one’s cross, and wholehearted commitment.",
+            "Following Jesus is easy and requires no sacrifice.",
+            "The cross is only symbolic and not a call to actual suffering.",
+            "One can follow Jesus without giving up possessions or comforts."
+          ],
+          "correctAnswer": "Following Jesus requires self-denial, taking up one’s cross, and wholehearted commitment.",
+          "explanation": "Mark 10:21 instructs the rich man to sell all and take up his cross to follow Jesus, highlighting the cost of discipleship and total commitment.",
+          "verseReference": "Mark 10:21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-10-medium-q14",
+          "question": "How does Mark 10 guide believers to view authority and leadership in contrast to worldly rulers?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s kingdom leadership is marked by service and humility, not domineering authority.",
+            "Leaders should seek to dominate and control others.",
+            "Authority is measured by power and fear.",
+            "Ruling others is the goal of Christian leadership."
+          ],
+          "correctAnswer": "God’s kingdom leadership is marked by service and humility, not domineering authority.",
+          "explanation": "Mark 10:42-44 contrasts worldly rulers with Jesus’ teaching that greatness in His kingdom means being a servant to all.",
+          "verseReference": "Mark 10:42-44",
+          "difficulty": "medium"
+        },
+        {
+          "id": "mark-10-medium-q15",
+          "question": "What biblical truth about obedience to God’s commandments does Mark 10 highlight in the interaction with the rich young man?",
+          "type": "multiple-choice",
+          "options": [
+            "Observing commandments is important, but following Jesus may require further personal sacrifice.",
+            "Keeping commandments alone guarantees inheriting eternal life.",
+            "Commandments are outdated and unnecessary for salvation.",
+            "Good deeds are more important than obedience."
+          ],
+          "correctAnswer": "Observing commandments is important, but following Jesus may require further personal sacrifice.",
+          "explanation": "Mark 10:19-22 shows the young man kept commandments but lacked willingness to give up possessions and follow Jesus, teaching that obedience involves heart and sacrifice.",
+          "verseReference": "Mark 10:19-22",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "mark-10-quiz",
+      "tags": [
+        "mark",
+        "chapter-10",
+        "mark",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "mark-10-hard",
+      "title": "Mark Chapter 10 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Mark Chapter 10.",
+      "type": "chapter",
+      "book": "Mark",
+      "chapter": 10,
+      "questions": [
+        {
+          "id": "mark-10-hard-q1",
+          "question": "In Mark 10:6-9, Jesus refers to the creation of male and female and their union in marriage. Which Old Testament passage does this teaching explicitly echo?",
+          "type": "multiple-choice",
+          "options": [
+            "Genesis 1:27-28",
+            "Genesis 2:24",
+            "Exodus 20:12",
+            "Leviticus 18:22"
+          ],
+          "correctAnswer": "Genesis 2:24",
+          "explanation": "Mark 10:6-9 quotes and builds on Genesis 2:24, emphasizing the original divine institution of marriage as one flesh.",
+          "verseReference": "Mark 10:6-9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-hard-q2",
+          "question": "What is the significance of Jesus’ statement in Mark 10:27 'With men it is impossible, but not with God: for with God all things are possible' in relation to salvation?",
+          "type": "multiple-choice",
+          "options": [
+            "It highlights human inability to earn salvation by works",
+            "It emphasizes the necessity of wealth for salvation",
+            "It shows that salvation is only for the Jewish people",
+            "It means that salvation is guaranteed without faith"
+          ],
+          "correctAnswer": "It highlights human inability to earn salvation by works",
+          "explanation": "Jesus teaches that entering the kingdom of God is impossible by human effort alone, but possible through God's power (Mark 10:27).",
+          "verseReference": "Mark 10:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-hard-q3",
+          "question": "The request of James and John in Mark 10:37 to sit at Jesus’ right and left hand can be understood as a foreshadowing of which Old Testament imagery?",
+          "type": "multiple-choice",
+          "options": [
+            "The seats of honor at King David’s table",
+            "The cherubim guarding the Ark of the Covenant",
+            "The two tablets of the Ten Commandments",
+            "The two witnesses in Revelation"
+          ],
+          "correctAnswer": "The seats of honor at King David’s table",
+          "explanation": "Their request reflects royal protocol where the right and left hand were places of highest honor, suggesting a desire for authority as in David’s royal court (Mark 10:37).",
+          "verseReference": "Mark 10:37",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-hard-q4",
+          "question": "In Mark 10:45, Jesus says the Son of man came 'to give his life a ransom for many.' What Hebrew concept underlies the idea of 'ransom' here?",
+          "type": "multiple-choice",
+          "options": [
+            "Kopher - a price for redemption",
+            "Shalom - peace",
+            "Shema - hearing",
+            "Torah - law"
+          ],
+          "correctAnswer": "Kopher - a price for redemption",
+          "explanation": "The Greek word 'lutron' (ransom) corresponds to Hebrew 'kopher', meaning a price paid for release or redemption (Mark 10:45).",
+          "verseReference": "Mark 10:45",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-hard-q5",
+          "question": "Which literary device is primarily used in Mark 10:31 'But many that are first shall be last; and the last first'?",
+          "type": "multiple-choice",
+          "options": [
+            "Chiasmus",
+            "Parallelism",
+            "Metaphor",
+            "Alliteration"
+          ],
+          "correctAnswer": "Chiasmus",
+          "explanation": "This verse exhibits a chiastic structure where ‘first’ and ‘last’ are inverted to emphasize reversal of expectations (Mark 10:31).",
+          "verseReference": "Mark 10:31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-hard-q6",
+          "question": "In the cultural context of Mark 10, why was Jesus’ welcoming of children (Mark 10:13-16) countercultural?",
+          "type": "multiple-choice",
+          "options": [
+            "Children were considered unclean and excluded from religious gatherings",
+            "Children were often neglected and not regarded as important in society",
+            "Children were usually taught by priests separately",
+            "Children were considered adults from birth"
+          ],
+          "correctAnswer": "Children were often neglected and not regarded as important in society",
+          "explanation": "In ancient Jewish culture, children had low social status and disciples rebuked those bringing children, but Jesus affirmed their value (Mark 10:13-16).",
+          "verseReference": "Mark 10:13-16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-hard-q7",
+          "question": "Fill in the blank: According to Mark 10:21, Jesus told the rich man to 'sell whatsoever thou hast, and give to the _____.'",
+          "type": "multiple-choice",
+          "options": [
+            "poor",
+            "priests",
+            "Pharisees",
+            "temple"
+          ],
+          "correctAnswer": "poor",
+          "explanation": "Jesus instructs the man to give to the poor as a demonstration of detachment from riches (Mark 10:21).",
+          "verseReference": "Mark 10:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-hard-q8",
+          "question": "True or False: In Mark 10:18, Jesus agrees with the man’s use of the title 'Good Master' without correction.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Jesus questions why the man calls Him good, saying only God is truly good (Mark 10:18).",
+          "verseReference": "Mark 10:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-hard-q9",
+          "question": "What is the theological significance of the blind man Bartimaeus' healing in Mark 10:46-52?",
+          "type": "multiple-choice",
+          "options": [
+            "It symbolizes spiritual sight and following Jesus",
+            "It demonstrates Jesus’ power over death",
+            "It fulfills a prophecy from Isaiah about the Messiah",
+            "It shows the rejection of Gentiles"
+          ],
+          "correctAnswer": "It symbolizes spiritual sight and following Jesus",
+          "explanation": "Bartimaeus receives physical sight and then follows Jesus, symbolizing the receiving of spiritual insight and discipleship (Mark 10:52).",
+          "verseReference": "Mark 10:46-52",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-hard-q10",
+          "question": "According to Mark 10:24-25, what metaphor does Jesus use to describe the difficulty for rich people to enter the kingdom of God?",
+          "type": "multiple-choice",
+          "options": [
+            "A camel going through the eye of a needle",
+            "A lion entering a sheepfold",
+            "A mountain moving into the sea",
+            "A river drying in the desert"
+          ],
+          "correctAnswer": "A camel going through the eye of a needle",
+          "explanation": "Jesus uses the hyperbolic metaphor of a camel passing through a needle’s eye to illustrate the impossibility of riches hindering salvation (Mark 10:25).",
+          "verseReference": "Mark 10:24-25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-hard-q11",
+          "question": "In Mark 10:42-44, Jesus contrasts Gentile rulers with His followers. What concept of leadership does He promote?",
+          "type": "multiple-choice",
+          "options": [
+            "Servanthood and humility",
+            "Absolute authority and control",
+            "Political dominance",
+            "Ritual purity"
+          ],
+          "correctAnswer": "Servanthood and humility",
+          "explanation": "Jesus teaches that true greatness is serving others, contrasting the lordship of Gentile rulers (Mark 10:42-44).",
+          "verseReference": "Mark 10:42-44",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-hard-q12",
+          "question": "How does Mark 10:33-34 foreshadow the Passion narrative?",
+          "type": "multiple-choice",
+          "options": [
+            "By predicting Jesus’ betrayal, suffering, death, and resurrection",
+            "By describing a victorious military campaign",
+            "By recounting Jesus’ birth",
+            "By detailing the building of the temple"
+          ],
+          "correctAnswer": "By predicting Jesus’ betrayal, suffering, death, and resurrection",
+          "explanation": "Jesus foretells His upcoming betrayal, condemnation, mockery, crucifixion, and resurrection, directly foreshadowing the Passion (Mark 10:33-34).",
+          "verseReference": "Mark 10:33-34",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-hard-q13",
+          "question": "Which theme in Mark 10 reflects a broader New Testament emphasis on the reversal of worldly values?",
+          "type": "multiple-choice",
+          "options": [
+            "Many that are first shall be last and the last first",
+            "The importance of strict legalism",
+            "The permanence of social class",
+            "The superiority of wealth"
+          ],
+          "correctAnswer": "Many that are first shall be last and the last first",
+          "explanation": "This theme of reversal challenges worldly status and is echoed throughout the New Testament (Mark 10:31).",
+          "verseReference": "Mark 10:31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-hard-q14",
+          "question": "What is the significance of Jesus’ question in Mark 10:38 about drinking the cup and being baptized with His baptism?",
+          "type": "multiple-choice",
+          "options": [
+            "It signifies participating in His suffering and mission",
+            "It refers to literal drinking ceremonies",
+            "It means joining the Jewish priesthood",
+            "It indicates a political revolution"
+          ],
+          "correctAnswer": "It signifies participating in His suffering and mission",
+          "explanation": "Jesus uses 'cup' and 'baptism' metaphorically to ask if James and John are prepared for His suffering and sacrifice (Mark 10:38).",
+          "verseReference": "Mark 10:38",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-hard-q15",
+          "question": "Fill in the blank: In Mark 10:29-30, Jesus promises those who have left all for His sake will receive _______ and eternal life.",
+          "type": "multiple-choice",
+          "options": [
+            "an hundredfold now in this time",
+            "immediate riches",
+            "political power",
+            "earthly fame"
+          ],
+          "correctAnswer": "an hundredfold now in this time",
+          "explanation": "Jesus promises abundant earthly blessings and eternal life for those who sacrifice for the gospel (Mark 10:29-30).",
+          "verseReference": "Mark 10:29-30",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "mark-10-quiz",
+      "tags": [
+        "mark",
+        "chapter-10",
+        "mark",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "mark-10-theological",
+      "title": "Mark Chapter 10 Quiz - Theological Level",
+      "description": "Deep biblical theology from Mark Chapter 10 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Mark",
+      "chapter": 10,
+      "questions": [
+        {
+          "id": "mark-10-theological-q1",
+          "question": "According to Mark 10, what is Jesus' teaching on divorce and remarriage?",
+          "type": "multiple-choice",
+          "options": [
+            "Putting away a wife and marrying another is adultery",
+            "Divorce is allowed for any reason",
+            "Remarriage after divorce is acceptable without consequence",
+            "Divorce was commanded by God in the New Testament"
+          ],
+          "correctAnswer": "Putting away a wife and marrying another is adultery",
+          "explanation": "Mark 10:11-12 clearly states that whoever divorces and marries another commits adultery. This teaching aligns with Matthew 19:6-9 where Jesus emphasizes the permanence of marriage, Genesis 2:24 which establishes the union as one flesh, Malachi 2:16 where God hates divorce, and 1 Corinthians 7:10-11 which advises believers not to divorce.",
+          "verseReference": "Mark 10:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-theological-q2",
+          "question": "What reason does Jesus give for Moses allowing divorce in Mark 10?",
+          "type": "multiple-choice",
+          "options": [
+            "Because of the hardness of people's hearts",
+            "Because God commanded it",
+            "To punish unfaithful spouses",
+            "To protect women's rights"
+          ],
+          "correctAnswer": "Because of the hardness of people's hearts",
+          "explanation": "Mark 10:5 reveals that Moses allowed divorce due to human hardness of heart. This explains the concession and is consistent with Exodus 21:10-11, Deuteronomy 24:1-4 which Moses legislated, Jeremiah 3:8 where God laments divorce, and Matthew 19:8 where Jesus reiterates this reason.",
+          "verseReference": "Mark 10:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-theological-q3",
+          "question": "How does Jesus describe the original design of marriage in Mark 10?",
+          "type": "multiple-choice",
+          "options": [
+            "Male and female created by God to become one flesh",
+            "A temporary arrangement until circumstances change",
+            "A civil contract approved by religious leaders",
+            "Two separate individuals bound by agreement"
+          ],
+          "correctAnswer": "Male and female created by God to become one flesh",
+          "explanation": "Mark 10:6-8 affirms God's original creation of male and female to become one flesh in marriage. This agrees with Genesis 1:27, Genesis 2:24 describing one flesh union, Ephesians 5:31-32 which links marriage to Christ and the church, and Matthew 19:4-6 where Jesus references this design.",
+          "verseReference": "Mark 10:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-theological-q4",
+          "question": "What attitude towards children does Jesus express in Mark 10?",
+          "type": "multiple-choice",
+          "options": [
+            "Children should be allowed to come to Him, for the kingdom of God belongs to such as these",
+            "Children should be kept away from holy matters",
+            "Children are unimportant in the kingdom of God",
+            "Only adults can receive salvation"
+          ],
+          "correctAnswer": "Children should be allowed to come to Him, for the kingdom of God belongs to such as these",
+          "explanation": "Mark 10:14-15 shows Jesus' displeasure at the disciples rebuking those bringing children, affirming the kingdom belongs to those with childlike faith. This corresponds with Matthew 18:2-4 about humility, Luke 18:16-17 where Jesus welcomes children, Psalm 127:3 valuing children as a heritage, and 1 Timothy 4:12 encouraging believers to be examples regardless of age.",
+          "verseReference": "Mark 10:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-theological-q5",
+          "question": "In Mark 10, why does Jesus question the man who calls Him 'Good Master'?",
+          "type": "multiple-choice",
+          "options": [
+            "Because only God is truly good",
+            "Because Jesus did not want to be called good",
+            "Because the man was disrespectful",
+            "Because Jesus was testing him"
+          ],
+          "correctAnswer": "Because only God is truly good",
+          "explanation": "Mark 10:18 reveals Jesus' affirmation of God's unique goodness, emphasizing His divine nature and distinguishing Himself from human teachers. This is consistent with Luke 18:19 where Jesus says the same, Psalm 25:8 affirming God's goodness, James 1:17 declaring God as the giver of every good gift, and John 10:11 where Jesus claims to be the good shepherd.",
+          "verseReference": "Mark 10:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-theological-q6",
+          "question": "What is the one thing Jesus tells the rich man to do to inherit eternal life?",
+          "type": "multiple-choice",
+          "options": [
+            "Sell all he has, give to the poor, take up his cross, and follow Jesus",
+            "Keep all his possessions and follow the commandments",
+            "Build a temple and give offerings",
+            "Pray daily and fast"
+          ],
+          "correctAnswer": "Sell all he has, give to the poor, take up his cross, and follow Jesus",
+          "explanation": "Mark 10:21 commands the rich man to sell all, give to the poor, and follow Jesus as the path to eternal life. This teaching aligns with Matthew 19:21, Luke 18:22 emphasizing detachment from wealth, 1 Timothy 6:17-19 warning against riches, and Philippians 3:7-8 valuing Christ over possessions.",
+          "verseReference": "Mark 10:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-theological-q7",
+          "question": "What metaphor does Jesus use in Mark 10 to describe how difficult it is for the rich to enter the kingdom of God?",
+          "type": "multiple-choice",
+          "options": [
+            "It is easier for a camel to go through the eye of a needle",
+            "It is like climbing a tall mountain",
+            "It is like finding a needle in a haystack",
+            "It is like crossing a raging river"
+          ],
+          "correctAnswer": "It is easier for a camel to go through the eye of a needle",
+          "explanation": "Mark 10:25 uses the camel and needle metaphor to illustrate the impossibility of self-reliant rich entering God's kingdom. This is consistent with Matthew 19:24, Luke 18:25, Proverbs 30:8-9 warning of riches, and 1 John 2:15-17 about not loving the world.",
+          "verseReference": "Mark 10:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-theological-q8",
+          "question": "How does Jesus respond when his disciples ask, 'Who then can be saved?' in Mark 10?",
+          "type": "multiple-choice",
+          "options": [
+            "With men it is impossible, but not with God: for with God all things are possible",
+            "Only the poor can be saved",
+            "Only the righteous can be saved",
+            "No one can be saved"
+          ],
+          "correctAnswer": "With men it is impossible, but not with God: for with God all things are possible",
+          "explanation": "Mark 10:27 teaches salvation is impossible by human means but possible through God’s power. This is consistent with Ephesians 2:8-9 on salvation by grace, John 3:16 emphasizing faith, Romans 8:31 affirming God's omnipotence, and Philippians 4:13 showing strength in God.",
+          "verseReference": "Mark 10:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-theological-q9",
+          "question": "What promise does Jesus give to those who leave all for His sake and the gospel's in Mark 10?",
+          "type": "multiple-choice",
+          "options": [
+            "They will receive a hundredfold now and eternal life in the world to come",
+            "They will be free from persecution",
+            "They will become wealthy",
+            "They will immediately enter heaven"
+          ],
+          "correctAnswer": "They will receive a hundredfold now and eternal life in the world to come",
+          "explanation": "Mark 10:29-30 promises abundant blessings and eternal life for those who sacrifice for Christ. This aligns with Luke 18:29-30, Hebrews 11:6 affirming reward for faith, Matthew 19:29, and Romans 8:17 about being heirs with Christ.",
+          "verseReference": "Mark 10:29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-theological-q10",
+          "question": "What does Jesus predict will happen to Him as He goes up to Jerusalem in Mark 10?",
+          "type": "multiple-choice",
+          "options": [
+            "He will be delivered to chief priests, condemned, mocked, scourged, killed, and rise again on the third day",
+            "He will be crowned king",
+            "He will perform many miracles",
+            "He will establish a new kingdom immediately"
+          ],
+          "correctAnswer": "He will be delivered to chief priests, condemned, mocked, scourged, killed, and rise again on the third day",
+          "explanation": "Mark 10:33-34 records Jesus’ prediction of His passion and resurrection. This is consistent with Isaiah 53:3-7 prophesying the suffering servant, Psalm 22 describing crucifixion, Matthew 16:21, and Luke 24:7 on resurrection.",
+          "verseReference": "Mark 10:33",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-theological-q11",
+          "question": "What request do James and John make to Jesus in Mark 10?",
+          "type": "multiple-choice",
+          "options": [
+            "To sit one on His right hand and the other on His left hand in His glory",
+            "To be healed of sickness",
+            "To cast out demons",
+            "To be given authority over all tribes"
+          ],
+          "correctAnswer": "To sit one on His right hand and the other on His left hand in His glory",
+          "explanation": "Mark 10:35-37 shows James and John asking for places of honor. This request reflects human misunderstanding of glory and power, contrasting with Jesus' teaching on servant leadership in Mark 10:42-45, Philippians 2:5-8 on humility, and Matthew 20:25-28 on servant kingship.",
+          "verseReference": "Mark 10:37",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-theological-q12",
+          "question": "How does Jesus define true greatness among His followers in Mark 10?",
+          "type": "multiple-choice",
+          "options": [
+            "Whoever wants to be great must be a servant of all",
+            "Whoever accumulates the most followers",
+            "Whoever has the most possessions",
+            "Whoever holds the highest position"
+          ],
+          "correctAnswer": "Whoever wants to be great must be a servant of all",
+          "explanation": "Mark 10:43-44 teaches servant leadership as true greatness, reversing worldly notions. This agrees with Matthew 23:11-12, Luke 22:26, John 13:12-17 where Jesus washes disciples’ feet, and Philippians 2:3-7.",
+          "verseReference": "Mark 10:44",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-theological-q13",
+          "question": "What is the purpose of the Son of Man's coming according to Mark 10?",
+          "type": "multiple-choice",
+          "options": [
+            "To serve and give His life as a ransom for many",
+            "To be served and glorified",
+            "To establish an earthly kingdom",
+            "To overthrow Roman rule"
+          ],
+          "correctAnswer": "To serve and give His life as a ransom for many",
+          "explanation": "Mark 10:45 states that Jesus came not to be served but to serve and give His life as ransom, emphasizing substitutionary atonement. This is supported by Isaiah 53:5-6, 1 Timothy 2:5-6, Romans 5:8, and John 10:11.",
+          "verseReference": "Mark 10:45",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-theological-q14",
+          "question": "How does blind Bartimaeus respond when Jesus calls him in Mark 10?",
+          "type": "multiple-choice",
+          "options": [
+            "He casts away his garment and comes to Jesus",
+            "He hesitates and stays seated",
+            "He asks for proof before coming",
+            "He ignores the call"
+          ],
+          "correctAnswer": "He casts away his garment and comes to Jesus",
+          "explanation": "Mark 10:50 shows Bartimaeus immediately responding in faith and obedience, symbolizing repentance and eagerness, similar to the parable of the lost sheep (Luke 15:4-7), and the call to discipleship (Matthew 4:18-20), and Acts 9:6 where Saul responds to Jesus' call.",
+          "verseReference": "Mark 10:50",
+          "difficulty": "hard"
+        },
+        {
+          "id": "mark-10-theological-q15",
+          "question": "What does Jesus say to Bartimaeus after he asks to receive his sight?",
+          "type": "multiple-choice",
+          "options": [
+            "Go thy way; thy faith hath made thee whole",
+            "Sit down and wait patiently",
+            "Your sight will return in time",
+            "You must follow the law first"
+          ],
+          "correctAnswer": "Go thy way; thy faith hath made thee whole",
+          "explanation": "Mark 10:52 highlights faith as the means of healing, a theme consistent with numerous healing accounts such as Matthew 9:22, Luke 17:19, John 9:25, and Hebrews 11:1 on faith’s power.",
+          "verseReference": "Mark 10:52",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "mark-10-quiz",
+      "tags": [
+        "mark",
+        "chapter-10",
+        "mark",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

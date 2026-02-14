@@ -1,0 +1,983 @@
+{
+  "id": "luke-4-tabbed",
+  "title": "Luke Chapter 4 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Luke chapter 4 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "luke-4-easy",
+      "title": "Luke Chapter 4 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Luke Chapter 4.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 4,
+      "questions": [
+        {
+          "id": "luke-4-easy-q1",
+          "question": "How long was Jesus tempted by the devil in the wilderness?",
+          "type": "multiple-choice",
+          "options": [
+            "Twenty days",
+            "Thirty days",
+            "Forty days",
+            "Fifty days"
+          ],
+          "correctAnswer": "Forty days",
+          "explanation": "Jesus was tempted by the devil for forty days as stated in Luke 4:2.",
+          "verseReference": "Luke 4:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-4-easy-q2",
+          "question": "What did Jesus say man shall not live by alone?",
+          "type": "multiple-choice",
+          "options": [
+            "Bread",
+            "Water",
+            "Gold",
+            "Clothing"
+          ],
+          "correctAnswer": "Bread",
+          "explanation": "Jesus said, 'man shall not live by bread alone, but by every word of God' in Luke 4:4.",
+          "verseReference": "Luke 4:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-4-easy-q3",
+          "question": "Where did the devil take Jesus to show him all the kingdoms of the world?",
+          "type": "multiple-choice",
+          "options": [
+            "A valley",
+            "A high mountain",
+            "The temple",
+            "The desert"
+          ],
+          "correctAnswer": "A high mountain",
+          "explanation": "The devil took Jesus to a high mountain to show him all the kingdoms of the world in a moment of time as in Luke 4:5.",
+          "verseReference": "Luke 4:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-4-easy-q4",
+          "question": "What did the devil promise to give Jesus if He worshiped him?",
+          "type": "multiple-choice",
+          "options": [
+            "All the power and glory of the kingdoms",
+            "Eternal life",
+            "The Holy Spirit",
+            "The keys to the kingdom of heaven"
+          ],
+          "correctAnswer": "All the power and glory of the kingdoms",
+          "explanation": "The devil said he would give Jesus all the power and glory of the kingdoms if He worshiped him (Luke 4:6-7).",
+          "verseReference": "Luke 4:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-4-easy-q5",
+          "question": "What was Jesus' response when the devil asked Him to worship him?",
+          "type": "multiple-choice",
+          "options": [
+            "Yes, I will worship you",
+            "Get thee behind me, Satan",
+            "Let me think about it",
+            "I will worship God only"
+          ],
+          "correctAnswer": "Get thee behind me, Satan",
+          "explanation": "Jesus answered, 'Get thee behind me, Satan: for it is written, Thou shalt worship the Lord thy God, and him only shalt thou serve' in Luke 4:8.",
+          "verseReference": "Luke 4:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-4-easy-q6",
+          "question": "Where did the devil take Jesus to tempt Him to cast Himself down?",
+          "type": "multiple-choice",
+          "options": [
+            "The pinnacle of the temple",
+            "A high mountain",
+            "A city gate",
+            "The wilderness"
+          ],
+          "correctAnswer": "The pinnacle of the temple",
+          "explanation": "The devil brought Jesus to the pinnacle of the temple to tempt Him to cast Himself down, as recorded in Luke 4:9.",
+          "verseReference": "Luke 4:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-4-easy-q7",
+          "question": "What scripture did Jesus quote to refuse the devil's temptation to throw Himself down?",
+          "type": "multiple-choice",
+          "options": [
+            "Thou shalt not tempt the Lord thy God",
+            "Thou shalt love thy neighbor as thyself",
+            "Blessed are the meek",
+            "Judge not, lest ye be judged"
+          ],
+          "correctAnswer": "Thou shalt not tempt the Lord thy God",
+          "explanation": "Jesus responded, 'It is said, Thou shalt not tempt the Lord thy God' in Luke 4:12.",
+          "verseReference": "Luke 4:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-4-easy-q8",
+          "question": "After the devil ended all the temptation, what did he do?",
+          "type": "multiple-choice",
+          "options": [
+            "He stayed with Jesus",
+            "He departed from Him for a season",
+            "He asked Jesus to follow him",
+            "He was defeated instantly"
+          ],
+          "correctAnswer": "He departed from Him for a season",
+          "explanation": "Luke 4:13 states the devil departed from Jesus for a season after the temptations ended.",
+          "verseReference": "Luke 4:13",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-4-easy-q9",
+          "question": "Where did Jesus return to teach after the wilderness temptation?",
+          "type": "multiple-choice",
+          "options": [
+            "Jerusalem",
+            "Nazareth",
+            "Capernaum",
+            "Galilee"
+          ],
+          "correctAnswer": "Galilee",
+          "explanation": "Jesus returned in the power of the Spirit into Galilee as noted in Luke 4:14.",
+          "verseReference": "Luke 4:14",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-4-easy-q10",
+          "question": "What book was delivered to Jesus when He went into the synagogue at Nazareth?",
+          "type": "multiple-choice",
+          "options": [
+            "Book of Psalms",
+            "Book of Esaias (Isaiah)",
+            "Book of Genesis",
+            "Book of Proverbs"
+          ],
+          "correctAnswer": "Book of Esaias (Isaiah)",
+          "explanation": "Luke 4:17 states that the book of the prophet Esaias was delivered to Jesus in the synagogue.",
+          "verseReference": "Luke 4:17",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-4-easy-q11",
+          "question": "True or False: Jesus read a passage about being anointed to preach the gospel to the poor.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "In Luke 4:18, Jesus read that the Spirit of the Lord anointed Him to preach the gospel to the poor.",
+          "verseReference": "Luke 4:18",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-4-easy-q12",
+          "question": "True or False: The people in the synagogue immediately accepted Jesus as a prophet without question.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "The people wondered and questioned Jesus as Joseph's son and later were filled with wrath, rejecting Him (Luke 4:22, 28).",
+          "verseReference": "Luke 4:22",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-4-easy-q13",
+          "question": "True or False: Jesus healed Simon's wife's mother by rebuking the fever.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Jesus rebuked the fever, and it left her, as described in Luke 4:39.",
+          "verseReference": "Luke 4:39",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-4-easy-q14",
+          "question": "Complete this verse from Luke 4:21: 'This day is this scripture _______ in your ears.'",
+          "type": "fill-blank",
+          "options": [
+            "spoken",
+            "fulfilled",
+            "written",
+            "remembered"
+          ],
+          "correctAnswer": "fulfilled",
+          "explanation": "Jesus said, 'This day is this scripture fulfilled in your ears,' in Luke 4:21.",
+          "verseReference": "Luke 4:21",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-4-easy-q15",
+          "question": "What did Jesus say He must preach to other cities also?",
+          "type": "multiple-choice",
+          "options": [
+            "The law of Moses",
+            "The kingdom of God",
+            "The history of Israel",
+            "The Ten Commandments"
+          ],
+          "correctAnswer": "The kingdom of God",
+          "explanation": "Jesus said, 'I must preach the kingdom of God to other cities also' in Luke 4:43.",
+          "verseReference": "Luke 4:43",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "luke-4-quiz",
+      "tags": [
+        "luke",
+        "chapter-4",
+        "luke",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "luke-4-medium",
+      "title": "Luke Chapter 4 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Luke Chapter 4 to real-life situations.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 4,
+      "questions": [
+        {
+          "id": "luke-4-medium-q1",
+          "question": "A fellow believer is struggling with temptation and asks how to resist it. Based on Luke 4, what biblical truth would you share about overcoming temptation?",
+          "type": "multiple-choice",
+          "options": [
+            "Rely on the Word of God and refuse to worship anything but God",
+            "Use physical strength to fight the devil",
+            "Ignore the devil and hope the temptation goes away",
+            "Make bargains with the devil for power"
+          ],
+          "correctAnswer": "Rely on the Word of God and refuse to worship anything but God",
+          "explanation": "Jesus resisted the devil's temptations by quoting Scripture and declaring worship belongs only to God (Luke 4:4, Luke 4:8, Luke 4:12). This shows the importance of relying on God's Word to overcome trials.",
+          "verseReference": "Luke 4:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-4-medium-q2",
+          "question": "How does Luke 4 teach us about humility and contentment when Jesus says, 'Man shall not live by bread alone, but by every word of God'?",
+          "type": "multiple-choice",
+          "options": [
+            "Spiritual nourishment is as important as physical needs",
+            "We should only focus on material food",
+            "Bread is the only thing that matters for life",
+            "Self-sufficiency is the key to life"
+          ],
+          "correctAnswer": "Spiritual nourishment is as important as physical needs",
+          "explanation": "Jesus emphasizes that physical needs like bread are not enough for life; spiritual sustenance through God's Word is essential (Luke 4:4). This teaches contentment that transcends material things.",
+          "verseReference": "Luke 4:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-4-medium-q3",
+          "question": "A believer is feeling discouraged about being rejected by family for their faith. How does Jesus' experience in Nazareth encourage them?",
+          "type": "multiple-choice",
+          "options": [
+            "No prophet is accepted in his own country",
+            "God will always make everyone accept you",
+            "Rejection means you are failing",
+            "You should leave your family immediately"
+          ],
+          "correctAnswer": "No prophet is accepted in his own country",
+          "explanation": "Jesus tells the people of Nazareth that prophets are often rejected by their own (Luke 4:24), encouraging believers to persevere despite rejection.",
+          "verseReference": "Luke 4:24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-4-medium-q4",
+          "question": "What biblical principle about evangelism can be drawn from Jesus’ statement, 'I must preach the kingdom of God to other cities also'?",
+          "type": "multiple-choice",
+          "options": [
+            "The gospel should be shared beyond familiar places",
+            "Evangelism is optional",
+            "Only preach to those who accept you immediately",
+            "Stay in one place and avoid new challenges"
+          ],
+          "correctAnswer": "The gospel should be shared beyond familiar places",
+          "explanation": "Jesus emphasizes the necessity of spreading the gospel to many locations, teaching believers to actively share their faith widely (Luke 4:43).",
+          "verseReference": "Luke 4:43",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-4-medium-q5",
+          "question": "How does Jesus’ healing of Simon’s mother-in-law teach us about serving others in the church community?",
+          "type": "multiple-choice",
+          "options": [
+            "Acts of healing and care lead to active service",
+            "Sickness is to be ignored",
+            "Only pastors should serve",
+            "Service is unnecessary"
+          ],
+          "correctAnswer": "Acts of healing and care lead to active service",
+          "explanation": "After Jesus healed her, Simon’s mother-in-law immediately began to serve (Luke 4:39), showing that receiving God’s blessing leads to serving others.",
+          "verseReference": "Luke 4:39",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-4-medium-q6",
+          "question": "What does Jesus’ refusal to allow demons to speak reveal about humility and trust in God’s timing?",
+          "type": "multiple-choice",
+          "options": [
+            "He controlled the situation and trusted God's timing",
+            "He wanted to show off his power",
+            "He encouraged the demons to speak freely",
+            "He ignored the spiritual battle"
+          ],
+          "correctAnswer": "He controlled the situation and trusted God's timing",
+          "explanation": "Jesus rebuked demons so they would not reveal His identity prematurely (Luke 4:41), demonstrating humble control and trust in God’s plan.",
+          "verseReference": "Luke 4:41",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-4-medium-q7",
+          "question": "A believer is struggling with hunger and lack of provision. What encouragement does Luke 4 offer regarding dependence on God?",
+          "type": "multiple-choice",
+          "options": [
+            "Depend on God’s word, not just physical bread",
+            "Only rely on your own efforts",
+            "Give up if hungry",
+            "Focus solely on physical needs"
+          ],
+          "correctAnswer": "Depend on God’s word, not just physical bread",
+          "explanation": "Jesus fasted for 40 days and emphasized living by God’s word, showing dependence on God beyond material needs (Luke 4:2, Luke 4:4).",
+          "verseReference": "Luke 4:2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-4-medium-q8",
+          "question": "True or False: According to Luke 4, Jesus was led by the Spirit into the wilderness specifically to be tempted by the devil.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 4:1-2 states Jesus was led by the Spirit into the wilderness where he was tempted by the devil for forty days, showing spiritual discipline and testing.",
+          "verseReference": "Luke 4:1-2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-4-medium-q9",
+          "question": "True or False: Jesus immediately accepted the devil’s offer to gain all the kingdoms of the world if he worshiped him.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Jesus refused the devil and rebuked him, affirming worship belongs only to God (Luke 4:7-8), teaching obedience and faithfulness.",
+          "verseReference": "Luke 4:7-8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-4-medium-q10",
+          "question": "When Jesus read from the book of Isaiah, He said the scripture was fulfilled that day. What does this teach about the importance of recognizing God’s timing in our lives?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s work happens at the appointed time",
+            "We must force God’s timing",
+            "Timing is unimportant",
+            "We decide when God acts"
+          ],
+          "correctAnswer": "God’s work happens at the appointed time",
+          "explanation": "Jesus declared the prophecy fulfilled 'this day' (Luke 4:21), showing God’s timing is perfect and must be trusted.",
+          "verseReference": "Luke 4:21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-4-medium-q11",
+          "question": "How does Luke 4 illustrate the importance of spiritual authority when Jesus commands the unclean spirit to come out?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus demonstrates authority over evil by commanding spirits",
+            "Spirits obey only humans who are loud",
+            "Authority is irrelevant in spiritual matters",
+            "Demons cannot be controlled"
+          ],
+          "correctAnswer": "Jesus demonstrates authority over evil by commanding spirits",
+          "explanation": "Jesus rebuked the unclean spirit and it obeyed (Luke 4:35-36), teaching believers about trusting Jesus’ power in spiritual battles.",
+          "verseReference": "Luke 4:35",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-4-medium-q12",
+          "question": "A person is questioning their purpose after rejection from their community. What lesson about perseverance does Luke 4 provide?",
+          "type": "multiple-choice",
+          "options": [
+            "Even Jesus was rejected but continued His mission",
+            "Give up when rejected",
+            "Only seek approval from others",
+            "Avoid difficult places"
+          ],
+          "correctAnswer": "Even Jesus was rejected but continued His mission",
+          "explanation": "Jesus was rejected in Nazareth (Luke 4:28-30) but continued preaching and healing, encouraging perseverance through trials.",
+          "verseReference": "Luke 4:28",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-4-medium-q13",
+          "question": "What does Jesus’ healing of many sick at sunset teach us about generosity and compassion in serving others?",
+          "type": "multiple-choice",
+          "options": [
+            "We should serve others generously regardless of time",
+            "Only help when it is convenient",
+            "Ignore the needs of many",
+            "Serve only certain people"
+          ],
+          "correctAnswer": "We should serve others generously regardless of time",
+          "explanation": "Jesus healed many at sunset (Luke 4:40), showing continuous generous compassion in ministry.",
+          "verseReference": "Luke 4:40",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-4-medium-q14",
+          "question": "Fill in the blank: Jesus said, 'Thou shalt worship the Lord thy God, and him only shalt thou ______.'",
+          "type": "fill-blank",
+          "options": [
+            "serve",
+            "fear",
+            "follow",
+            "honor"
+          ],
+          "correctAnswer": "serve",
+          "explanation": "Jesus rebuked the devil with this command about exclusive worship and service to God (Luke 4:8), emphasizing obedience and faithfulness.",
+          "verseReference": "Luke 4:8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-4-medium-q15",
+          "question": "How does Luke 4 teach about the role of spiritual discipline in preparing for ministry?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus was filled with the Holy Ghost and fasted before ministry",
+            "Ministry requires no preparation",
+            "Rely only on natural talents",
+            "Avoid solitude and fasting"
+          ],
+          "correctAnswer": "Jesus was filled with the Holy Ghost and fasted before ministry",
+          "explanation": "Jesus was full of the Spirit and fasted 40 days before beginning His public ministry (Luke 4:1-2, 4:14), showing spiritual preparation is essential.",
+          "verseReference": "Luke 4:1-2",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "luke-4-quiz",
+      "tags": [
+        "luke",
+        "chapter-4",
+        "luke",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "luke-4-hard",
+      "title": "Luke Chapter 4 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Luke Chapter 4.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 4,
+      "questions": [
+        {
+          "id": "luke-4-hard-q1",
+          "question": "In Luke 4, Jesus is led by the Spirit into the wilderness after being full of the Holy Ghost. What is the significance of the wilderness experience in biblical typology?",
+          "type": "multiple-choice",
+          "options": [
+            "It symbolizes a place of testing and preparation, similar to Israel's 40 years in the wilderness",
+            "It represents a place of divine punishment for sin",
+            "It is primarily a symbol of isolation and abandonment without divine presence",
+            "It foreshadows the destruction of Jerusalem"
+          ],
+          "correctAnswer": "It symbolizes a place of testing and preparation, similar to Israel's 40 years in the wilderness",
+          "explanation": "Luke 4:1-2 shows Jesus fasting and being tempted for 40 days, paralleling Israel's 40 years in the wilderness, indicating a time of testing and preparation.",
+          "verseReference": "Luke 4:1-2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-hard-q2",
+          "question": "Which Old Testament scripture does Jesus quote when he responds to the devil's temptation to turn stones into bread?",
+          "type": "multiple-choice",
+          "options": [
+            "Deuteronomy 8:3",
+            "Psalm 23:1",
+            "Isaiah 61:1",
+            "Genesis 1:26"
+          ],
+          "correctAnswer": "Deuteronomy 8:3",
+          "explanation": "Jesus quotes 'Man shall not live by bread alone, but by every word of God,' which is from Deuteronomy 8:3, emphasizing reliance on God's word over physical sustenance (Luke 4:4).",
+          "verseReference": "Luke 4:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-hard-q3",
+          "question": "The devil offers Jesus all the kingdoms of the world in exchange for what condition?",
+          "type": "multiple-choice",
+          "options": [
+            "Worshiping him",
+            "Performing a miracle",
+            "Building a temple for him",
+            "Renouncing God"
+          ],
+          "correctAnswer": "Worshiping him",
+          "explanation": "In Luke 4:7, the devil says if Jesus worships him, all the kingdoms will be his, highlighting a temptation of idolatry and power.",
+          "verseReference": "Luke 4:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-hard-q4",
+          "question": "What is the significance of Jesus’ command to the devil, 'Get thee behind me, Satan,' in a Jewish context?",
+          "type": "multiple-choice",
+          "options": [
+            "It echoes God's rebuke to Peter in Mark 8:33, signifying rejection of temptation",
+            "It was a common phrase used by priests",
+            "It was a phrase used to bless someone",
+            "It was a political statement against Roman authorities"
+          ],
+          "correctAnswer": "It echoes God's rebuke to Peter in Mark 8:33, signifying rejection of temptation",
+          "explanation": "Jesus' phrase recalls the rebuke in Mark 8:33, indicating a refusal to accept satanic temptation and a call for Satan to take his place behind the servant, not leading him (Luke 4:8).",
+          "verseReference": "Luke 4:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-hard-q5",
+          "question": "When the devil brings Jesus to the pinnacle of the temple, he quotes scripture about angels keeping Jesus safe. From which Psalm does this quotation originate?",
+          "type": "multiple-choice",
+          "options": [
+            "Psalm 91",
+            "Psalm 23",
+            "Psalm 100",
+            "Psalm 121"
+          ],
+          "correctAnswer": "Psalm 91",
+          "explanation": "The devil quotes Psalm 91:11-12 about angels bearing up the faithful, but Jesus counters by citing 'Thou shalt not tempt the Lord thy God' (Luke 4:10-12).",
+          "verseReference": "Luke 4:10-12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-hard-q6",
+          "question": "How does Jesus’ rejection of Satan’s temptations demonstrate fulfillment of the role of the 'Second Adam'?",
+          "type": "multiple-choice",
+          "options": [
+            "By succeeding where Adam failed, resisting temptation and remaining obedient",
+            "By creating new laws for Israel",
+            "By establishing a new temple",
+            "By conquering Roman authorities"
+          ],
+          "correctAnswer": "By succeeding where Adam failed, resisting temptation and remaining obedient",
+          "explanation": "Jesus’ victory over temptation echoes Adam’s failure in Eden, fulfilling the typology of the 'Second Adam' who obeys God perfectly (Luke 4:1-13).",
+          "verseReference": "Luke 4:1-13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-hard-q7",
+          "question": "In Luke 4, Jesus reads from the scroll of the prophet Isaiah. Which mission statement does He proclaim?",
+          "type": "multiple-choice",
+          "options": [
+            "To preach the gospel to the poor, heal the brokenhearted, and set the captives free",
+            "To overthrow the Roman government",
+            "To establish a new law code",
+            "To build the temple in Jerusalem"
+          ],
+          "correctAnswer": "To preach the gospel to the poor, heal the brokenhearted, and set the captives free",
+          "explanation": "Luke 4:18-19 quotes Isaiah 61:1-2, where Jesus declares His mission to bring good news to the poor and freedom to the oppressed.",
+          "verseReference": "Luke 4:18-19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-hard-q8",
+          "question": "What is the reaction of the people in Jesus' hometown of Nazareth after He reads and proclaims the fulfillment of Isaiah's prophecy?",
+          "type": "multiple-choice",
+          "options": [
+            "They are amazed but skeptical, questioning 'Is not this Joseph's son?'",
+            "They immediately worship Him as king",
+            "They ignore Him and leave",
+            "They report Him to the Roman authorities"
+          ],
+          "correctAnswer": "They are amazed but skeptical, questioning 'Is not this Joseph's son?'",
+          "explanation": "Luke 4:22 records that the people marveled at His words but doubted because He was known as Joseph's son, reflecting resistance to prophetic fulfillment in one's own community.",
+          "verseReference": "Luke 4:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-hard-q9",
+          "question": "Jesus mentions two Old Testament prophets, Elijah and Elisha, in His discourse at Nazareth. What is the purpose of these references?",
+          "type": "multiple-choice",
+          "options": [
+            "To illustrate that prophets are often rejected at home and minister to outsiders",
+            "To predict the exile to Babylon",
+            "To establish a genealogy",
+            "To condemn the Pharisees"
+          ],
+          "correctAnswer": "To illustrate that prophets are often rejected at home and minister to outsiders",
+          "explanation": "In Luke 4:24-27, Jesus uses Elijah and Elisha to show how God's blessings were given to Gentiles rather than Israelites, emphasizing the rejection He faces.",
+          "verseReference": "Luke 4:24-27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-hard-q10",
+          "question": "What literary device is prominently used in Jesus' temptation narrative in Luke 4, particularly in the sequence of the three temptations?",
+          "type": "multiple-choice",
+          "options": [
+            "Chiasm, highlighting the central temptation about worship",
+            "Parable, teaching through story",
+            "Allegory, symbolizing Israel's history",
+            "Hyperbole, exaggerating for effect"
+          ],
+          "correctAnswer": "Chiasm, highlighting the central temptation about worship",
+          "explanation": "The three temptations form a chiasm with the first and third dealing with proving identity and the central one focusing on worship, emphasizing Jesus' loyalty to God (Luke 4:3-8).",
+          "verseReference": "Luke 4:3-8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-hard-q11",
+          "question": "How does the healing of Simon's mother-in-law in Luke 4 demonstrate Jesus’ authority over illness?",
+          "type": "multiple-choice",
+          "options": [
+            "By rebuking the fever and immediately restoring her to service",
+            "By performing a sacrificial ritual",
+            "By calling the disciples to pray",
+            "By sending her to the temple for healing"
+          ],
+          "correctAnswer": "By rebuking the fever and immediately restoring her to service",
+          "explanation": "Luke 4:39 shows Jesus’ direct command over sickness, and the immediate healing signifies His divine authority and compassion.",
+          "verseReference": "Luke 4:39",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-hard-q12",
+          "question": "What is the significance of Jesus silencing demons who confess Him as the Christ in Luke 4?",
+          "type": "multiple-choice",
+          "options": [
+            "He prevents premature public disclosure of His Messianic identity",
+            "He does not believe their confession",
+            "He fears Roman persecution",
+            "He wants to keep His miracles secret"
+          ],
+          "correctAnswer": "He prevents premature public disclosure of His Messianic identity",
+          "explanation": "Luke 4:41 indicates Jesus silences demons because their testimony could cause misunderstanding about the timing and nature of His mission.",
+          "verseReference": "Luke 4:41",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-hard-q13",
+          "question": "True or False: After the temptations, Jesus immediately begins His public ministry in Galilee, teaching and healing with power.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 4:14-15 and Luke 4:31-32 describe Jesus returning in the power of the Spirit and teaching with authority in Galilean synagogues.",
+          "verseReference": "Luke 4:14-15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-hard-q14",
+          "question": "What cultural and historical significance does Jesus’ reading from Isaiah in the synagogue hold for His Jewish audience?",
+          "type": "multiple-choice",
+          "options": [
+            "It announces the arrival of the Messiah fulfilling long-awaited prophecy",
+            "It is a political rebellion against Rome",
+            "It calls for immediate military uprising",
+            "It establishes a new religious calendar"
+          ],
+          "correctAnswer": "It announces the arrival of the Messiah fulfilling long-awaited prophecy",
+          "explanation": "By reading Isaiah 61 in Luke 4:16-21, Jesus proclaims the fulfillment of the Messianic prophecy, a pivotal moment for His Jewish listeners anticipating deliverance.",
+          "verseReference": "Luke 4:16-21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-hard-q15",
+          "question": "Why do the people in the synagogue in Nazareth become angry and attempt to kill Jesus after His speech?",
+          "type": "multiple-choice",
+          "options": [
+            "Because He implied God’s blessing was extended to Gentiles and outsiders",
+            "Because He insulted the Roman authorities",
+            "Because He refused to read from the Torah",
+            "Because He claimed to be a king"
+          ],
+          "correctAnswer": "Because He implied God’s blessing was extended to Gentiles and outsiders",
+          "explanation": "Jesus’ references to Elijah and Elisha ministering to non-Israelites (Luke 4:24-27) angered His audience, who rejected this inclusive message (Luke 4:28-29).",
+          "verseReference": "Luke 4:28-29",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "luke-4-quiz",
+      "tags": [
+        "luke",
+        "chapter-4",
+        "luke",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "luke-4-theological",
+      "title": "Luke Chapter 4 Quiz - Theological Level",
+      "description": "Deep biblical theology from Luke Chapter 4 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 4,
+      "questions": [
+        {
+          "id": "luke-4-theological-q1",
+          "question": "What theological significance does Jesus' being 'full of the Holy Ghost' at the start of His ministry signify?",
+          "type": "multiple-choice",
+          "options": [
+            "Empowerment by the Spirit for ministry",
+            "Sign of divine adoption only",
+            "Temporary possession for miracles",
+            "A title for Jesus as God"
+          ],
+          "correctAnswer": "Empowerment by the Spirit for ministry",
+          "explanation": "Luke 4:1 shows Jesus filled with the Holy Ghost, indicating His empowerment by the Spirit for His redemptive ministry, consistent with Isaiah 61:1, Acts 10:38, John 3:34, and Romans 8:11, which affirm Spirit-empowerment for divine mission.",
+          "verseReference": "Luke 4:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-theological-q2",
+          "question": "How long was Jesus tempted by the devil in the wilderness, and what does this reveal about the nature of His temptation?",
+          "type": "multiple-choice",
+          "options": [
+            "Forty days, revealing His full identification with human testing",
+            "Seven days, symbolizing divine completeness",
+            "Three days, correlating with resurrection",
+            "One day, indicating a brief test"
+          ],
+          "correctAnswer": "Forty days, revealing His full identification with human testing",
+          "explanation": "Luke 4:2 states Jesus was tempted for forty days, paralleling Israel's wilderness testing (Deut 8:2), showing His full human experience of temptation without sin (Hebrews 4:15), affirming His role as the true Israel and perfect Savior.",
+          "verseReference": "Luke 4:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-theological-q3",
+          "question": "In Jesus' response to the devil's first temptation, which Old Testament principle does He invoke?",
+          "type": "multiple-choice",
+          "options": [
+            "\"Man shall not live by bread alone, but by every word of God.\"",
+            "\"You shall worship the Lord your God and Him only shall you serve.\"",
+            "\"You shall not tempt the Lord your God.\"",
+            "\"The Lord is my shepherd; I shall not want.\""
+          ],
+          "correctAnswer": "\"Man shall not live by bread alone, but by every word of God.\"",
+          "explanation": "Jesus quotes Deuteronomy 8:3 in Luke 4:4, emphasizing dependence on God's word over physical sustenance, teaching the primacy of spiritual nourishment consistent with Matthew 4:4 and Psalm 119:105.",
+          "verseReference": "Luke 4:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-theological-q4",
+          "question": "What theological claim is made by the devil when he offers Jesus 'all the kingdoms of the world'?",
+          "type": "multiple-choice",
+          "options": [
+            "That he has delegated authority over earthly kingdoms",
+            "That Jesus must conquer kingdoms by force",
+            "That kingdoms are irrelevant to God's plan",
+            "That Jesus should reject any earthly power"
+          ],
+          "correctAnswer": "That he has delegated authority over earthly kingdoms",
+          "explanation": "Luke 4:6 reveals the devil claiming delegated authority over worldly kingdoms, reflecting the reality of spiritual evil's temporary dominion (John 12:31, 2 Corinthians 4:4, Ephesians 2:2), which Christ challenges by affirming God's sole authority (Psalm 24:1).",
+          "verseReference": "Luke 4:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-theological-q5",
+          "question": "Which scriptural truth does Jesus affirm when He says, 'Thou shalt worship the Lord thy God, and him only shalt thou serve'?",
+          "type": "multiple-choice",
+          "options": [
+            "Exclusive worship and service belong to God alone",
+            "Worship can be shared with angels",
+            "Service to God is optional",
+            "Worship is primarily about rituals"
+          ],
+          "correctAnswer": "Exclusive worship and service belong to God alone",
+          "explanation": "In Luke 4:8, Jesus cites Deuteronomy 6:13, affirming monotheistic worship and service exclusive to God, a core biblical doctrine upheld throughout Scripture (Exodus 20:3-5, Isaiah 42:8, Matthew 22:37).",
+          "verseReference": "Luke 4:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-theological-q6",
+          "question": "What is the significance of Jesus' refusal to cast Himself down from the temple pinnacle using Scripture?",
+          "type": "multiple-choice",
+          "options": [
+            "It forbids tempting God and misusing divine protection",
+            "It permits testing God to demonstrate faith",
+            "It encourages miraculous displays to prove deity",
+            "It shows indifference to personal safety"
+          ],
+          "correctAnswer": "It forbids tempting God and misusing divine protection",
+          "explanation": "Luke 4:12 cites Deuteronomy 6:16 to show Jesus rejects tempting God, emphasizing trust without presumption, consistent with teachings in Matthew 4:7 and Psalm 91:11-12 about trusting God without testing Him.",
+          "verseReference": "Luke 4:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-theological-q7",
+          "question": "After the temptations, how does the Spirit empower Jesus' ministry according to this chapter?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus returns in the power of the Spirit and gains fame",
+            "Jesus abandons ministry to rest",
+            "Jesus relies solely on His own strength",
+            "Jesus immediately performs miracles without teaching"
+          ],
+          "correctAnswer": "Jesus returns in the power of the Spirit and gains fame",
+          "explanation": "Luke 4:14 describes Jesus returning in Spirit-power, initiating His public ministry marked by teaching and miracles, aligning with Isaiah 61:1-3 and Acts 10:38 regarding Spirit-anointed mission.",
+          "verseReference": "Luke 4:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-theological-q8",
+          "question": "What messianic prophecy does Jesus read and claim to fulfill in His hometown synagogue?",
+          "type": "multiple-choice",
+          "options": [
+            "Isaiah 61:1-2 about preaching good news, healing, and liberation",
+            "Psalm 23 about the Lord as shepherd",
+            "Genesis 12:3 about blessing all nations",
+            "Exodus 20 about the Ten Commandments"
+          ],
+          "correctAnswer": "Isaiah 61:1-2 about preaching good news, healing, and liberation",
+          "explanation": "Jesus reads Isaiah 61:1-2 in Luke 4:17-21, announcing His messianic mission to preach, heal, and liberate, fulfilling Old Testament prophecy and revealing His role as the anointed Savior (cf. Luke 7:22, Acts 10:38).",
+          "verseReference": "Luke 4:17-21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-theological-q9",
+          "question": "How do the people of Nazareth initially respond to Jesus' declaration that the scripture is fulfilled in their hearing?",
+          "type": "multiple-choice",
+          "options": [
+            "They marvel and question, 'Is not this Joseph's son?'",
+            "They immediately believe and worship Him",
+            "They ignore Him and leave quietly",
+            "They accuse Him of blasphemy"
+          ],
+          "correctAnswer": "They marvel and question, 'Is not this Joseph's son?'",
+          "explanation": "Luke 4:22 records amazement mixed with skepticism about Jesus' identity, reflecting human difficulty accepting Jesus' messiahship in familiar contexts, consistent with John 1:11 and Mark 6:3 about rejection in His hometown.",
+          "verseReference": "Luke 4:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-theological-q10",
+          "question": "What Old Testament examples does Jesus cite to illustrate that prophets are not accepted in their own country?",
+          "type": "multiple-choice",
+          "options": [
+            "Elijah sent to a widow in Sidon and Elisha cleansing Naaman the Syrian",
+            "Moses leading Israel out of Egypt and David as king",
+            "Abraham going to Canaan and Joseph ruling Egypt",
+            "Isaiah's prophecies in Jerusalem and Jeremiah's lament"
+          ],
+          "correctAnswer": "Elijah sent to a widow in Sidon and Elisha cleansing Naaman the Syrian",
+          "explanation": "In Luke 4:25-27, Jesus references Elijah and Elisha ministering outside Israel to show God's grace extends to Gentiles, and prophets face rejection at home, consistent with 1 Kings 17 and 2 Kings 5.",
+          "verseReference": "Luke 4:25-27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-theological-q11",
+          "question": "What was the reaction of the synagogue congregation to Jesus' words about prophets being rejected in their own country?",
+          "type": "multiple-choice",
+          "options": [
+            "They were filled with wrath and tried to kill Him",
+            "They praised Him and invited Him to stay",
+            "They debated quietly among themselves",
+            "They requested more teaching"
+          ],
+          "correctAnswer": "They were filled with wrath and tried to kill Him",
+          "explanation": "Luke 4:28-29 shows the congregation's anger leading to an attempt to throw Jesus off a cliff, illustrating human rejection of divine truth, paralleling the rejection of prophets in 1 Kings 19 and Jeremiah 26.",
+          "verseReference": "Luke 4:28-29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-theological-q12",
+          "question": "How does Jesus demonstrate His authority in the synagogue at Capernaum?",
+          "type": "multiple-choice",
+          "options": [
+            "By commanding an unclean spirit to come out of a man",
+            "By performing only verbal teachings without miracles",
+            "By avoiding confrontation with evil spirits",
+            "By retreating from public ministry"
+          ],
+          "correctAnswer": "By commanding an unclean spirit to come out of a man",
+          "explanation": "Luke 4:33-35 shows Jesus exercising authority over demons, demonstrating His divine power over evil, consistent with His role as Messiah in Mark 1:25-27 and Luke 11:20.",
+          "verseReference": "Luke 4:33-35",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-theological-q13",
+          "question": "What is the significance of the people’s amazement at Jesus' teaching and miracles?",
+          "type": "multiple-choice",
+          "options": [
+            "His word was with authority and power unlike the scribes",
+            "They were skeptical and dismissive",
+            "They only cared about the miracles, not the teaching",
+            "They considered Him a mere teacher"
+          ],
+          "correctAnswer": "His word was with authority and power unlike the scribes",
+          "explanation": "Luke 4:36 and 4:32 highlight the authoritative nature of Jesus' teaching and miracles, signifying His unique divine authority, fulfilling Deuteronomy 18:15-19 and Isaiah 55:11.",
+          "verseReference": "Luke 4:32, Luke 4:36",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-theological-q14",
+          "question": "How does Jesus' healing of Simon's mother-in-law reflect His messianic ministry?",
+          "type": "multiple-choice",
+          "options": [
+            "It demonstrates His power over sickness and His compassion",
+            "It was a purely symbolic act without real healing",
+            "It was performed only to gain popularity",
+            "It showed His reliance on others' prayers"
+          ],
+          "correctAnswer": "It demonstrates His power over sickness and His compassion",
+          "explanation": "Luke 4:38-39 depicts Jesus healing the fever, showing His authority over illness and His care for individuals, consistent with Isaiah 53:4 and Matthew 8:16-17 portraying the Messiah as healer.",
+          "verseReference": "Luke 4:38-39",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-4-theological-q15",
+          "question": "Why does Jesus silence the demons who confess Him as the Christ?",
+          "type": "multiple-choice",
+          "options": [
+            "Because they knew His identity but He did not want premature revelation",
+            "Because He doubted their confession",
+            "Because He wanted to hide His identity permanently",
+            "Because He welcomed public declarations from demons"
+          ],
+          "correctAnswer": "Because they knew His identity but He did not want premature revelation",
+          "explanation": "Luke 4:41 explains Jesus rebuked demons to prevent premature disclosure of His messianic identity, aligning with the Messianic Secret motif in Mark 1:34 and Isaiah 42:1.",
+          "verseReference": "Luke 4:41",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "luke-4-quiz",
+      "tags": [
+        "luke",
+        "chapter-4",
+        "luke",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

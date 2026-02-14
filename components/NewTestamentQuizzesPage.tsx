@@ -140,7 +140,7 @@ export default function NewTestamentQuizzesPage() {
 
           {/* Ultimate Challenge Card */}
           <div className="max-w-4xl mx-auto mb-8">
-            <div className="bg-green-50 border border-green-200 rounded-2xl p-8 text-center">
+            <div className="bg-green-50 border border-green-200 rounded-lg p-8 text-center">
               <h2 className="text-xl font-bold text-gray-900 mb-4">
                 ✨ Ultimate New Testament Challenge
               </h2>

@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John 3:16 - Bible Verse Study | SalvationCall</title>
+    <meta name="description" content="Deep study of John 3:16 with commentary, cross references, and original language analysis.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --cream: #F5F1E8;
+            --navy: #2C3E50;
+            --gold: #C9A961;
+            --gold-light: #E8DCC8;
+            --text-dark: #3D4A5C;
+            --text-light: #6B7A8F;
+            --border-color: #D4CCC0;
+            --shadow-light: rgba(44, 62, 80, 0.08);
+            --shadow-medium: rgba(44, 62, 80, 0.12);
+        }
+
+        body {
+            font-family: 'Georgia', 'Garamond', serif;
+            background-color: #FDFBF7;
+            color: var(--text-dark);
+            line-height: 1.7;
+            background-image: 
+                repeating-linear-gradient(
+                    90deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(201, 169, 97, 0.02) 2px,
+                    rgba(201, 169, 97, 0.02) 4px
+                ),
+                repeating-linear-gradient(
+                    0deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(201, 169, 97, 0.02) 2px,
+                    rgba(201, 169, 97, 0.02) 4px
+                );
+        }
+
+        /* Header */
+        header {
+            background-color: var(--navy);
+            color: var(--cream);
+            padding: 2rem 0;
+            border-bottom: 3px solid var(--gold);
+            box-shadow: 0 4px 12px var(--shadow-medium);
+        }
+
+        .header-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .header-title {
+            font-size: 1.1rem;
+            font-weight: 400;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 0.5rem;
+        }
+
+        .header-subtitle {
+            font-size: 2.5rem;
+            font-weight: 400;
+            line-height: 1.2;
+        }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+            font-size: 0.95rem;
+            color: var(--text-light);
+        }
+
+        .breadcrumb a {
+            color: var(--gold);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .breadcrumb a:hover {
+            color: var(--navy);
+        }
+
+        .breadcrumb span {
+            margin: 0 0.5rem;
+            color: var(--border-color);
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Verse Header Card */
+        .verse-header {
+            background-color: var(--cream);
+            border: 2px solid var(--border-color);
+            border-radius: 2px;
+            padding: 2.5rem;
+            margin-bottom: 3rem;
+            box-shadow: 0 2px 8px var(--shadow-light);
+            text-align: center;
+        }
+
+        .verse-reference {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--gold);
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .verse-version {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            margin-bottom: 0.5rem;
+        }
+
+        /* Main Verse Display */
+        .verse-display {
+            background: linear-gradient(135deg, var(--cream) 0%, #FAFAF8 100%);
+            border-left: 4px solid var(--gold);
+            padding: 3rem;
+            margin-bottom: 3rem;
+            position: relative;
+            border-radius: 2px;
+            box-shadow: 0 4px 16px var(--shadow-light);
+        }
+
+        .verse-display::before {
+            content: '"';
+            position: absolute;
+            top: 0.5rem;
+            left: 1rem;
+            font-size: 4rem;
+            color: var(--gold);
+            opacity: 0.3;
+            font-family: 'Georgia', serif;
+            line-height: 1;
+        }
+
+        .verse-text {
+            font-size: 1.8rem;
+            font-style: italic;
+            line-height: 1.8;
+            color: var(--navy);
+            margin: 0;
+            padding-left: 2rem;
+            font-weight: 400;
+        }
+
+        .verse-attribution {
+            text-align: right;
+            margin-top: 1.5rem;
+            font-size: 1rem;
+            color: var(--text-light);
+            font-style: normal;
+        }
+
+        /* Context Section */
+        .context-section {
+            margin-bottom: 3rem;
+        }
+
+        .section-title {
+            font-size: 1.3rem;
+            color: var(--navy);
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 2px solid var(--gold);
+            font-weight: 400;
+            letter-spacing: 0.02em;
+        }
+
+        .context-verses {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .context-card {
+            background-color: var(--cream);
+            border: 1px solid var(--border-color);
+            padding: 1.5rem;
+            border-radius: 2px;
+            transition: all 0.3s ease;
+        }
+
+        .context-card:hover {
+            box-shadow: 0 4px 12px var(--shadow-medium);
+            border-color: var(--gold);
+        }
+
+        .context-label {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: var(--gold);
+            margin-bottom: 0.75rem;
+            font-weight: 500;
+        }
+
+        .context-verse {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: var(--text-dark);
+            margin-bottom: 0.75rem;
+            font-style: italic;
+        }
+
+        .context-reference {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            font-style: normal;
+        }
+
+        /* Tabs */
+        .tabs-container {
+            margin-bottom: 3rem;
+        }
+
+        .tabs-header {
+            display: flex;
+            border-bottom: 2px solid var(--border-color);
+            gap: 0;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .tab-button {
+            background: none;
+            border: none;
+            padding: 1rem 1.5rem;
+            font-size: 1rem;
+            color: var(--text-light);
+            cursor: pointer;
+            font-family: 'Georgia', serif;
+            position: relative;
+            transition: color 0.3s ease;
+            border-bottom: 3px solid transparent;
+            margin-bottom: -2px;
+        }
+
+        .tab-button:hover {
+            color: var(--navy);
+        }
+
+        .tab-button.active {
+            color: var(--navy);
+            border-bottom-color: var(--gold);
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Tab Content Styles */
+        .commentary-text {
+            background-color: var(--cream);
+            padding: 2rem;
+            border-left: 4px solid var(--gold);
+            border-radius: 2px;
+            line-height: 1.8;
+            color: var(--text-dark);
+        }
+
+        .commentary-text p {
+            margin-bottom: 1.5rem;
+        }
+
+        .commentary-text strong {
+            color: var(--navy);
+            font-weight: 600;
+        }
+
+        /* Cross References */
+        .cross-references-list {
+            display: grid;
+            gap: 1.5rem;
+        }
+
+        .cross-ref-item {
+            background-color: var(--cream);
+            border: 1px solid var(--border-color);
+            padding: 1.5rem;
+            border-radius: 2px;
+            transition: all 0.3s ease;
+        }
+
+        .cross-ref-item:hover {
+            box-shadow: 0 4px 12px var(--shadow-medium);
+            border-color: var(--gold);
+            transform: translateX(4px);
+        }
+
+        .cross-ref-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+        }
+
+        .cross-ref-reference {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--navy);
+        }
+
+        .cross-ref-link {
+            color: var(--gold);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .cross-ref-link:hover {
+            color: var(--navy);
+            text-decoration: underline;
+        }
+
+        .cross-ref-text {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: var(--text-dark);
+            font-style: italic;
+            margin-bottom: 0.75rem;
+        }
+
+        .cross-ref-theme {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+
+        /* Original Language */
+        .language-section {
+            background-color: var(--cream);
+            padding: 2rem;
+            border-radius: 2px;
+        }
+
+        .language-item {
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .language-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .language-word {
+            font-size: 1.2rem;
+            color: var(--navy);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            font-family: 'Georgia', serif;
+        }
+
+        .language-transliteration {
+            font-size: 0.95rem;
+            color: var(--gold);
+            font-style: italic;
+            margin-bottom: 0.5rem;
+        }
+
+        .language-meaning {
+            font-size: 0.95rem;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        /* Application Section */
+        .application-content {
+            background-color: var(--cream);
+            padding: 2rem;
+            border-radius: 2px;
+        }
+
+        .application-content p {
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+
+        .application-content ul {
+            margin-left: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .application-content li {
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+
+        /* Navigation */
+        .verse-navigation {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1.5rem;
+            margin: 3rem 0;
+        }
+
+        .nav-button {
+            background-color: var(--navy);
+            color: var(--cream);
+            border: 2px solid var(--navy);
+            padding: 1.25rem;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 2px;
+            transition: all 0.3s ease;
+            font-family: 'Georgia', serif;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .nav-button:hover {
+            background-color: var(--cream);
+            color: var(--navy);
+            box-shadow: 0 4px 12px var(--shadow-medium);
+        }
+
+        .nav-button.secondary {
+            background-color: transparent;
+            color: var(--navy);
+        }
+
+        .nav-button.secondary:hover {
+            background-color: var(--gold-light);
+            border-color: var(--gold);
+        }
+
+        .nav-label {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            opacity: 0.8;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .nav-text {
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, var(--navy) 0%, #1A2332 100%);
+            color: var(--cream);
+            padding: 3rem;
+            border-radius: 2px;
+            margin: 3rem 0;
+            text-align: center;
+            box-shadow: 0 6px 20px var(--shadow-medium);
+        }
+
+        .cta-title {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            font-weight: 400;
+        }
+
+        .cta-description {
+            font-size: 1.05rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+            line-height: 1.6;
+        }
+
+        .cta-button {
+            background-color: var(--gold);
+            color: var(--navy);
+            border: none;
+            padding: 1rem 2.5rem;
+            font-size: 1rem;
+            border-radius: 2px;
+            cursor: pointer;
+            font-family: 'Georgia', serif;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .cta-button:hover {
+            background-color: var(--gold-light);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(201, 169, 97, 0.3);
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--navy);
+            color: var(--cream);
+            padding: 2rem;
+            text-align: center;
+            margin-top: 4rem;
+            border-top: 3px solid var(--gold);
+        }
+
+        footer p {
+            font-size: 0.95rem;
+            opacity: 0.9;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-subtitle {
+                font-size: 1.8rem;
+            }
+
+            .verse-text {
+                font-size: 1.4rem;
+            }
+
+            .context-verses {
+                grid-template-columns: 1fr;
+            }
+
+            .verse-navigation {
+                grid-template-columns: 1fr;
+            }
+
+            .tabs-header {
+                flex-direction: column;
+            }
+
+            .tab-button {
+                border-bottom: 2px solid var(--border-color);
+                margin-bottom: 0;
+            }
+
+            .tab-button.active {
+                border-bottom-color: var(--gold);
+                border-left: 4px solid var(--gold);
+            }
+
+            .verse-display {
+                padding: 2rem;
+            }
+
+            .verse-header {
+                padding: 1.5rem;
+            }
+
+            .cta-section {
+                padding: 2rem;
+            }
+
+            .cta-title {
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="header-title">Bible Verse Study</div>
+            <div class="header-subtitle">John 3:16</div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="container">
+        <nav class="breadcrumb">
+            <a href="/">Home</a>
+            <span>/</span>
+            <a href="/bible">Bible</a>
+            <span>/</span>
+            <a href="/john-chapters">John</a>
+            <span>/</span>
+            <a href="/john-3-quiz">Chapter 3</a>
+            <span>/</span>
+            <span>Verse 16</span>
+        </nav>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Verse Header -->
+        <div class="verse-header">
+            <div class="verse-version">King James Version</div>
+            <div class="verse-reference">John 3:16</div>
+        </div>
+
+        <!-- Main Verse Display -->
+        <div class="verse-display">
+            <p class="verse-text">For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.</p>
+            <div class="verse-attribution">— John 3:16 (KJV)</div>
+        </div>
+
+        <!-- Context Section -->
+        <section class="context-section">
+            <h2 class="section-title">Surrounding Context</h2>
+            <div class="context-verses">
+                <div class="context-card">
+                    <div class="context-label">Previous Verse</div>
+                    <p class="context-verse">"And as Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up:"</p>
+                    <div class="context-reference">John 3:14</div>
+                </div>
+                <div class="context-card">
+                    <div class="context-label">Next Verse</div>
+                    <p class="context-verse">"For God sent not his Son into the world to condemn the world; but that the world through him might be saved."</p>
+                    <div class="context-reference">John 3:17</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tabs Section -->
+        <section class="tabs-container">
+            <div class="tabs-header">
+                <button class="tab-button active" onclick="switchTab(event, 'commentary')">Commentary</button>
+                <button class="tab-button" onclick="switchTab(event, 'cross-refs')">Cross References</button>
+                <button class="tab-button" onclick="switchTab(event, 'language')">Original Language</button>
+                <button class="tab-button" onclick="switchTab(event, 'application')">Application</button>
+            </div>
+
+            <!-- Commentary Tab -->
+            <div id="commentary" class="tab-content active">
+                <div class="commentary-text">
+                    <p><strong>The Greatest Verse in Scripture</strong></p>
+                    <p>John 3:16 stands as one of the most profound statements in all of Scripture, encapsulating the essence of the Gospel message. This verse reveals the heart of God's redemptive plan for humanity.</p>
+                    <p><strong>"For God so loved the world"</strong> — The Greek word "kosmos" (world) refers not merely to the physical creation, but to humanity in its fallen state. The intensity of God's love is emphasized by the word "so" (houtos), indicating a love of such magnitude that it defies human comprehension.</p>
+                    <p><strong>"that he gave his only begotten Son"</strong> — The sacrifice of Christ represents the ultimate expression of divine love. The term "monogenes" (only begotten) emphasizes the uniqueness and preciousness of this sacrifice.</p>
+                    <p><strong>"that whosoever believeth in him should not perish, but have everlasting life"</strong> — Salvation is offered universally to all who believe. The promise of eternal life stands in stark contrast to perishing, offering hope to all who accept Christ's redemptive work.</p>
+                </div>
+            </div>
+
+            <!-- Cross References Tab -->
+            <div id="cross-refs" class="tab-content">
+                <div class="cross-references-list">
+                    <div class="cross-ref-item">
+                        <div class="cross-ref-header">
+                            <span class="cross-ref-reference">Romans 5:8</span>
+                            <a href="#" class="cross-ref-link">Read →</a>
+                        </div>
+                        <p class="cross-ref-text">"But God commendeth his love toward us, in that, while we were yet sinners, Christ died for us."</p>
+                        <div class="cross-ref-theme">Theme: God's Love & Sacrifice</div>
+                    </div>
+
+                    <div class="cross-ref-item">
+                        <div class="cross-ref-header">
+                            <span class="cross-ref-reference">1 John 4:9-10</span>
+                            <a href="#" class="cross-ref-link">Read →</a>
+                        </div>
+                        <p class="cross-ref-text">"In this was manifested the love of God toward us, because that God sent his only begotten Son into the world, that we might live through him."</p>
+                        <div class="cross-ref-theme">Theme: Divine Love Manifested</div>
+                    </div>
+
+                    <div class="cross-ref-item">
+                        <div class="cross-ref-header">
+                            <span class="cross-ref-reference">John 1:29</span>
+                            <a href="#" class="cross-ref-link">Read →</a>
+                        </div>
+                        <p class="cross-ref-text">"The next day John seeth Jesus coming unto him, and saith, Behold the Lamb of God, which taketh away the sin of the world."</p>
+                        <div class="cross-ref-theme">Theme: Christ as Sacrifice</div>
+                    </div>
+
+                    <div class="cross-ref-item">
+                        <div class="cross-ref-header">
+                            <span class="cross-ref-reference">Ephesians 2:4-5</span>
+                            <a href="#" class="cross-ref-link">Read →</a>
+                        </div>
+                        <p class="cross-ref-text">"But God, who is rich in mercy, for his great love wherewith he loved us, Even when we were dead in sins, hath quickened us together with Christ."</p>
+                        <div class="cross-ref-theme">Theme: Mercy & Redemption</div>
+                    </div>
+
+                    <div class="cross-ref-item">
+                        <div class="cross-ref-header">
+                            <span class="cross-ref-reference">Titus 3:4-5</span>
+                            <a href="#" class="cross-ref-link">Read →</a>
+                        </div>
+                        <p class="cross-ref-text">"But after that the kindness and love of God our Saviour toward man appeared, Not by works of righteousness which we have done, but according to his mercy he saved us."</p>
+                        <div class="cross-ref-theme">Theme: Salvation by Grace</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Original Language Tab -->
+            <div id="language" class="tab-content">
+                <div class="language-section">
+                    <div class="language-item">
+                        <div class="language-word">Agapao (ἀγαπάω)</div>
+                        <div class="language-transliteration">ag-ap-ah'-o</div>
+                        <div class="language-meaning">To love in a social or moral sense; to have affection for; to be fond of. This is the highest form of love in Greek, representing selfless, sacrificial love rather than emotional affection.</div>
+                    </div>
+
+                    <div class="language-item">
+                        <div class="language-word">Kosmos (κόσμος)</div>
+                        <div class="language-transliteration">kos'-mos</div>
+                        <div class="language-meaning">The world; the universe; the human race; the system of human affairs. In this context, it refers to humanity in its fallen, sinful state—all people without exception.</div>
+                    </div>
+
+                    <div class="language-item">
+                        <div class="language-word">Monogenes (μονογενής)</div>
+                        <div class="language-transliteration">mon-og-en-ace'</div>
+                        <div class="language-meaning">Only begotten; unique; one of a kind. This emphasizes the singular, irreplaceable nature of Christ as God's Son and the uniqueness of His sacrifice.</div>
+                    </div>
+
+                    <div class="language-item">
+                        <div class="language-word">Pisteuō (πιστεύω)</div>
+                        <div class="language-transliteration">pis-tyoo'-o</div>
+                        <div class="language-meaning">To believe; to have faith; to trust. This involves not merely intellectual assent but a commitment of the whole person to Christ and His redemptive work.</div>
+                    </div>
+
+                    <div class="language-item">
+                        <div class="language-word">Aionios (αἰώνιος)</div>
+                        <div class="language-transliteration">ahee-o'-nee-os</div>
+                        <div class="language-meaning">Eternal; everlasting; without end. This describes the quality and duration of the life promised to believers—not merely existence, but eternal communion with God.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Application Tab -->
+            <div id="application" class="tab-content">
+                <div class="application-content">
+                    <p><strong>How to Apply John 3:16 to Your Life</strong></p>
+                    <p>This verse is not merely a statement of doctrine but an invitation to personal transformation. Consider these practical applications:</p>
+                    
+                    <ul>
+                        <li><strong>Recognize God's Love:</strong> Meditate on the reality that God loves you personally and sacrificially. This love is not earned or deserved—it is freely given.</li>
+                        <li><strong>Accept Christ's Sacrifice:</strong> Understand that Christ's death and resurrection provide the means for your salvation. Believe in Him as your Savior and Lord.</li>
+                        <li><strong>Live in Gratitude:</strong> Let the awareness of God's love motivate a life of thanksgiving and obedience to His will.</li>
+                        <li><strong>Share the Gospel:</strong> As you experience the reality of this verse, share it with others. The Gospel message is meant to be proclaimed to all people.</li>
+                        <li><strong>Trust in Eternal Life:</strong> Find security and hope in the promise of everlasting life. This transforms how you face trials and uncertainties in this present world.</li>
+                        <li><strong>Love Others Sacrificially:</strong> As God has loved you, extend that same love to others. This is the foundation of Christian ethics and community.</li>
+                    </ul>
+
+                    <p>John 3:16 is a verse to return to repeatedly throughout your Christian journey. Each time you read it, ask the Holy Spirit to deepen your understanding and strengthen your faith in God's redemptive love.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Navigation -->
+        <div class="verse-navigation">
+            <a href="#" class="nav-button secondary">
+                <span class="nav-label">← Previous</span>
+                <span class="nav-text">John 3:15</span>
+            </a>
+            <a href="#" class="nav-button">
+                <span class="nav-label">Full Chapter</span>
+                <span class="nav-text">John 3</span>
+            </a>
+            <a href="#" class="nav-button secondary">
+                <span class="nav-label">Next →</span>
+                <span class="nav-text">John 3:17</span>
+            </a>
+        </div>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <h2 class="cta-title">Test Your Knowledge</h2>
+            <p class="cta-description">Deepen your understanding of John 3 with our comprehensive chapter quiz. Challenge yourself with questions about the context, meaning, and application of this transformative passage.</p>
+            <button class="cta-button" onclick="alert('Quiz functionality would be implemented here')">Take the John 3 Quiz</button>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 SalvationCall. All rights reserved. Scripture quotations are from the King James Version.</p>
+    </footer>
+
+    <script>
+        function switchTab(event, tabName) {
+            // Hide all tab contents
+            const contents = document.querySelectorAll('.tab-content');
+            contents.forEach(content => {
+                content.classList.remove('active');
+            });
+
+            // Remove active class from all buttons
+            const buttons = document.querySelectorAll('.tab-button');
+            buttons.forEach(button => {
+                button.classList.remove('active');
+            });
+
+            // Show selected tab content
+            document.getElementById(tabName).classList.add('active');
+
+            // Add active class to clicked button
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>

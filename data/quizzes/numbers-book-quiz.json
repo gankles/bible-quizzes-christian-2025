@@ -1,0 +1,600 @@
+{
+  "id": "numbers-book-quiz",
+  "title": "Numbers Quiz - Complete Book",
+  "description": "Test your comprehensive knowledge of the entire book of Numbers with 25 questions covering key events, people, and teachings from all 36 chapters.",
+  "type": "book",
+  "book": "Numbers",
+  "questions": [
+    {
+      "id": "numbers-bq-1",
+      "question": "Who was appointed by God to help Moses in the numbering of the children of Israel?",
+      "type": "multiple-choice",
+      "options": [
+        "Aaron",
+        "Joshua",
+        "Caleb",
+        "Eleazar"
+      ],
+      "correctAnswer": "Aaron",
+      "explanation": "Moses and Aaron were commanded to number the children of Israel by their armies.",
+      "verseReference": "Numbers 1:3",
+      "difficulty": "easy"
+    },
+    {
+      "id": "numbers-bq-2",
+      "question": "What was the minimum age for males to be counted in the census for war?",
+      "type": "multiple-choice",
+      "options": [
+        "15 years old",
+        "20 years old",
+        "25 years old",
+        "30 years old"
+      ],
+      "correctAnswer": "20 years old",
+      "explanation": "Only males from twenty years old and upward, able to go forth to war, were numbered.",
+      "verseReference": "Numbers 1:3",
+      "difficulty": "easy"
+    },
+    {
+      "id": "numbers-bq-3",
+      "question": "Which tribe's prince was Nahshon, son of Amminadab?",
+      "type": "multiple-choice",
+      "options": [
+        "Judah",
+        "Reuben",
+        "Simeon",
+        "Benjamin"
+      ],
+      "correctAnswer": "Judah",
+      "explanation": "Nahshon, son of Amminadab, was the prince of the tribe of Judah.",
+      "verseReference": "Numbers 1:7",
+      "difficulty": "easy"
+    },
+    {
+      "id": "numbers-bq-4",
+      "question": "How many men were numbered from the tribe of Reuben?",
+      "type": "multiple-choice",
+      "options": [
+        "46,500",
+        "59,300",
+        "62,700",
+        "54,400"
+      ],
+      "correctAnswer": "46,500",
+      "explanation": "The number of men from the tribe of Reuben was forty-six thousand five hundred.",
+      "verseReference": "Numbers 1:21",
+      "difficulty": "easy"
+    },
+    {
+      "id": "numbers-bq-5",
+      "question": "True or False: The Levites were included in the census for war among the tribes of Israel.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "The Levites were not counted among those numbered for war.",
+      "verseReference": "Numbers 1:47",
+      "difficulty": "easy"
+    },
+    {
+      "id": "numbers-bq-6",
+      "question": "What was the special responsibility of the tribe of Levi?",
+      "type": "multiple-choice",
+      "options": [
+        "To assist in war",
+        "To serve in the tabernacle",
+        "To be rulers over the tribes",
+        "To be judges"
+      ],
+      "correctAnswer": "To serve in the tabernacle",
+      "explanation": "The Levites were set apart to take care of the tabernacle and all its instruments.",
+      "verseReference": "Numbers 1:50-53",
+      "difficulty": "easy"
+    },
+    {
+      "id": "numbers-bq-7",
+      "question": "Complete this verse: 'And the LORD spake unto Moses in the wilderness of Sinai, in the tabernacle of the congregation, on the first day of the _____ month, in the second year after they were come out of the land of Egypt.'",
+      "type": "fill-blank",
+      "options": [
+        "first",
+        "second",
+        "third",
+        "fourth"
+      ],
+      "correctAnswer": "second",
+      "explanation": "The census was taken on the first day of the second month in the second year after the Exodus.",
+      "verseReference": "Numbers 1:1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "numbers-bq-8",
+      "question": "True or False: The children of Israel kept the Passover on the fourteenth day of the first month in the wilderness.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "They kept the Passover according to the LORD's command on the fourteenth day of the first month.",
+      "verseReference": "Numbers 9:5",
+      "difficulty": "easy"
+    },
+    {
+      "id": "numbers-bq-9",
+      "question": "What provision was made for those who were unclean by touching a dead body and could not keep the Passover at the appointed time?",
+      "type": "multiple-choice",
+      "options": [
+        "They were excused and did not have to keep it",
+        "They would keep it at the fourteenth day of the second month",
+        "They could keep it anytime in the year",
+        "They had to offer a sin offering instead"
+      ],
+      "correctAnswer": "They would keep it at the fourteenth day of the second month",
+      "explanation": "God commanded that those unclean or on a journey keep the Passover at the appointed time in the second month.",
+      "verseReference": "Numbers 9:10-11",
+      "difficulty": "easy"
+    },
+    {
+      "id": "numbers-bq-10",
+      "question": "True or False: The cloud that covered the tabernacle appeared only by day.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "The cloud covered the tabernacle by day and appeared as fire by night.",
+      "verseReference": "Numbers 9:15-16",
+      "difficulty": "easy"
+    },
+    {
+      "id": "numbers-bq-11",
+      "question": "How did the Israelites know when to journey or stay camped during their wilderness journey?",
+      "type": "multiple-choice",
+      "options": [
+        "By the sound of trumpets",
+        "By the position of the sun",
+        "When the cloud lifted from the tabernacle",
+        "By the word of the priests"
+      ],
+      "correctAnswer": "When the cloud lifted from the tabernacle",
+      "explanation": "They journeyed when the cloud lifted from the tabernacle and stayed when it remained.",
+      "verseReference": "Numbers 9:17-23",
+      "difficulty": "easy"
+    },
+    {
+      "id": "numbers-bq-12",
+      "question": "Complete the verse: 'Speak unto the children of Israel, and take of every one of them a _____ according to the house of their fathers.'",
+      "type": "fill-blank",
+      "options": [
+        "rod",
+        "staff",
+        "sword",
+        "shield"
+      ],
+      "correctAnswer": "rod",
+      "explanation": "God commanded Moses to take a rod from each prince of the tribes.",
+      "verseReference": "Numbers 17:2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "numbers-bq-13",
+      "question": "Which man's rod budded, blossomed, and yielded almonds as a sign from God?",
+      "type": "multiple-choice",
+      "options": [
+        "Moses",
+        "Aaron",
+        "Phinehas",
+        "Eleazar"
+      ],
+      "correctAnswer": "Aaron",
+      "explanation": "The rod of Aaron budded and blossomed to show God's choice of him for the priesthood.",
+      "verseReference": "Numbers 17:8",
+      "difficulty": "easy"
+    },
+    {
+      "id": "numbers-bq-14",
+      "question": "True or False: The rods of all twelve princes were placed before the LORD in the tabernacle as a testimony.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "All twelve rods, including Aaron's, were laid up before the LORD in the tabernacle.",
+      "verseReference": "Numbers 17:7",
+      "difficulty": "easy"
+    },
+    {
+      "id": "numbers-bq-15",
+      "question": "What was God's purpose in making Aaron's rod bud?",
+      "type": "multiple-choice",
+      "options": [
+        "To show His favor to the tribe of Levi",
+        "To silence the murmuring of the children of Israel",
+        "To indicate the start of the journey",
+        "To prove Moses' leadership"
+      ],
+      "correctAnswer": "To silence the murmuring of the children of Israel",
+      "explanation": "God intended the budding of Aaron's rod to stop the complaints against Moses and Aaron.",
+      "verseReference": "Numbers 17:5",
+      "difficulty": "easy"
+    },
+    {
+      "id": "numbers-bq-16",
+      "question": "True or False: Anyone who came near the tabernacle of the LORD without permission was subject to death.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "The Israelites feared death if they came near the tabernacle improperly.",
+      "verseReference": "Numbers 17:13",
+      "difficulty": "medium"
+    },
+    {
+      "id": "numbers-bq-17",
+      "question": "Where did the children of Israel begin to commit whoredom with the daughters of Moab?",
+      "type": "multiple-choice",
+      "options": [
+        "Shittim",
+        "Kadesh",
+        "Mount Sinai",
+        "Gilgal"
+      ],
+      "correctAnswer": "Shittim",
+      "explanation": "Israel stayed in Shittim where the people began to sin with Moabite women.",
+      "verseReference": "Numbers 25:1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "numbers-bq-18",
+      "question": "True or False: The children of Israel joined themselves to the god Baal-peor.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Israel joined themselves to Baal-peor, provoking the anger of the LORD.",
+      "verseReference": "Numbers 25:3",
+      "difficulty": "medium"
+    },
+    {
+      "id": "numbers-bq-19",
+      "question": "What action did God command Moses to do to turn away His fierce anger from Israel because of their sin with Baal-peor?",
+      "type": "multiple-choice",
+      "options": [
+        "Offer a sin offering",
+        "Hang the heads of the people before the LORD",
+        "Build an altar of repentance",
+        "Send the people into exile"
+      ],
+      "correctAnswer": "Hang the heads of the people before the LORD",
+      "explanation": "God told Moses to hang the heads of the offenders before the LORD against the sun.",
+      "verseReference": "Numbers 25:4",
+      "difficulty": "medium"
+    },
+    {
+      "id": "numbers-bq-20",
+      "question": "Who was instructed to slay every man that was joined to Baal-peor?",
+      "type": "multiple-choice",
+      "options": [
+        "Moses",
+        "The judges of Israel",
+        "The priests",
+        "The Levites"
+      ],
+      "correctAnswer": "The judges of Israel",
+      "explanation": "Moses commanded the judges to execute judgment on those joined to Baal-peor.",
+      "verseReference": "Numbers 25:5",
+      "difficulty": "medium"
+    },
+    {
+      "id": "numbers-bq-21",
+      "question": "Complete the verse: 'And the LORD said unto Moses, Take all the _____ of the people, and hang them up before the LORD against the sun.'",
+      "type": "fill-blank",
+      "options": [
+        "heads",
+        "hands",
+        "feet",
+        "robes"
+      ],
+      "correctAnswer": "heads",
+      "explanation": "God commanded hanging the heads of the people to turn away His anger.",
+      "verseReference": "Numbers 25:4",
+      "difficulty": "medium"
+    },
+    {
+      "id": "numbers-bq-22",
+      "question": "True or False: The Levites were numbered separately from the other tribes because they were given the responsibility of the tabernacle.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "The Levites were set apart for service in the tabernacle and were not counted with the fighting men.",
+      "verseReference": "Numbers 3:12",
+      "difficulty": "medium"
+    },
+    {
+      "id": "numbers-bq-23",
+      "question": "What was the total number of men able to go to war from the tribe of Judah?",
+      "type": "multiple-choice",
+      "options": [
+        "74,600",
+        "62,700",
+        "54,400",
+        "40,500"
+      ],
+      "correctAnswer": "74,600",
+      "explanation": "The number of men from Judah was seventy-four thousand six hundred.",
+      "verseReference": "Numbers 1:27",
+      "difficulty": "medium"
+    },
+    {
+      "id": "numbers-bq-24",
+      "question": "True or False: The cloud that covered the tabernacle sometimes tarried for a month or more, and the Israelites stayed in their tents until it lifted.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "The cloud could remain for long periods, and the people stayed camped as commanded.",
+      "verseReference": "Numbers 9:22",
+      "difficulty": "medium"
+    },
+    {
+      "id": "numbers-bq-25",
+      "question": "Who was the son of Gamaliel, prince of the tribe of Manasseh?",
+      "type": "multiple-choice",
+      "options": [
+        "Gamaliel",
+        "Pedahzur",
+        "Elishama",
+        "Abidan"
+      ],
+      "correctAnswer": "Gamaliel",
+      "explanation": "Gamaliel son of Pedahzur was the prince of the tribe of Manasseh.",
+      "verseReference": "Numbers 1:10",
+      "difficulty": "medium"
+    },
+    {
+      "id": "numbers-bq-26",
+      "question": "True or False: Moses wrote every man's name on his rod for the test of the budding rods.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Moses was instructed to write every man's name on his rod for identification.",
+      "verseReference": "Numbers 17:2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "numbers-bq-27",
+      "question": "Which tribe's prince was Shelumiel, son of Zurishaddai?",
+      "type": "multiple-choice",
+      "options": [
+        "Simeon",
+        "Dan",
+        "Asher",
+        "Naphtali"
+      ],
+      "correctAnswer": "Simeon",
+      "explanation": "Shelumiel son of Zurishaddai was prince of the tribe of Simeon.",
+      "verseReference": "Numbers 1:6",
+      "difficulty": "medium"
+    },
+    {
+      "id": "numbers-bq-28",
+      "question": "True or False: The men who were defiled by touching a dead body were allowed to keep the Passover on the usual day without exception.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "They were allowed to keep the Passover on the fourteenth day of the second month instead.",
+      "verseReference": "Numbers 9:6-11",
+      "difficulty": "medium"
+    },
+    {
+      "id": "numbers-bq-29",
+      "question": "What was the reaction of the children of Israel when they saw the rod of Aaron budded and blossomed?",
+      "type": "multiple-choice",
+      "options": [
+        "They rejoiced",
+        "They murmured",
+        "They feared they would perish",
+        "They ignored it"
+      ],
+      "correctAnswer": "They feared they would perish",
+      "explanation": "They said, 'Behold, we die, we perish, we all perish.'",
+      "verseReference": "Numbers 17:12-13",
+      "difficulty": "medium"
+    },
+    {
+      "id": "numbers-bq-30",
+      "question": "Complete the verse: 'And when the cloud was taken up from the tabernacle, then after that the children of Israel _____.'",
+      "type": "fill-blank",
+      "options": [
+        "rested",
+        "prayed",
+        "journeyed",
+        "sacrificed"
+      ],
+      "correctAnswer": "journeyed",
+      "explanation": "The Israelites journeyed whenever the cloud lifted from the tabernacle.",
+      "verseReference": "Numbers 9:17",
+      "difficulty": "medium"
+    },
+    {
+      "id": "numbers-bq-31",
+      "question": "Which tribe had 35,400 men able to go to war according to the census?",
+      "type": "multiple-choice",
+      "options": [
+        "Benjamin",
+        "Dan",
+        "Gad",
+        "Issachar"
+      ],
+      "correctAnswer": "Benjamin",
+      "explanation": "Benjamin had thirty-five thousand four hundred men able to go to war.",
+      "verseReference": "Numbers 1:37",
+      "difficulty": "medium"
+    },
+    {
+      "id": "numbers-bq-32",
+      "question": "True or False: Moses commanded the judges of Israel to slay every man who joined himself to Baal-peor.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Moses instructed the judges to execute judgment on those joined to Baal-peor.",
+      "verseReference": "Numbers 25:5",
+      "difficulty": "medium"
+    },
+    {
+      "id": "numbers-bq-33",
+      "question": "Who was the prince of the tribe of Dan?",
+      "type": "multiple-choice",
+      "options": [
+        "Pagiel",
+        "Ahiezer",
+        "Shelumiel",
+        "Abidan"
+      ],
+      "correctAnswer": "Ahiezer",
+      "explanation": "Ahiezer son of Ammishaddai was prince of the tribe of Dan.",
+      "verseReference": "Numbers 1:12",
+      "difficulty": "medium"
+    },
+    {
+      "id": "numbers-bq-34",
+      "question": "True or False: The children of Israel journeyed only when the cloud was taken up from the tabernacle, whether by day or by night.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "They journeyed whenever the cloud was taken up, regardless of time of day.",
+      "verseReference": "Numbers 9:21",
+      "difficulty": "hard"
+    },
+    {
+      "id": "numbers-bq-35",
+      "question": "Which tribe's prince was Pagiel, son of Ocran?",
+      "type": "multiple-choice",
+      "options": [
+        "Asher",
+        "Issachar",
+        "Naphtali",
+        "Zebulun"
+      ],
+      "correctAnswer": "Asher",
+      "explanation": "Pagiel son of Ocran was prince of the tribe of Asher.",
+      "verseReference": "Numbers 1:13",
+      "difficulty": "hard"
+    },
+    {
+      "id": "numbers-bq-36",
+      "question": "True or False: The rod of Aaron was kept as a token against the rebels among the children of Israel.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Aaron's rod was kept as a testimony against the murmurers.",
+      "verseReference": "Numbers 17:10",
+      "difficulty": "hard"
+    },
+    {
+      "id": "numbers-bq-37",
+      "question": "How many rods were taken from the princes of the tribes of Israel for the test of the budding rod?",
+      "type": "multiple-choice",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "15"
+      ],
+      "correctAnswer": "12",
+      "explanation": "One rod was taken from each of the twelve tribal princes.",
+      "verseReference": "Numbers 17:3-6",
+      "difficulty": "hard"
+    },
+    {
+      "id": "numbers-bq-38",
+      "question": "Complete the verse: 'If any man of you or of your posterity shall be unclean by reason of a dead body, or be in a journey afar off, yet he shall keep the _____ unto the LORD.'",
+      "type": "fill-blank",
+      "options": [
+        "Passover",
+        "Sabbath",
+        "Feast of Tabernacles",
+        "Day of Atonement"
+      ],
+      "correctAnswer": "Passover",
+      "explanation": "God allowed those unclean or traveling to keep the Passover later.",
+      "verseReference": "Numbers 9:10",
+      "difficulty": "hard"
+    },
+    {
+      "id": "numbers-bq-39",
+      "question": "True or False: The children of Israel murmured against Moses and Aaron because of the test involving the rods.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "The murmuring of Israel was the reason God chose to cause Aaron's rod to bud.",
+      "verseReference": "Numbers 17:5",
+      "difficulty": "hard"
+    },
+    {
+      "id": "numbers-bq-40",
+      "question": "Who was the prince of the tribe of Ephraim?",
+      "type": "multiple-choice",
+      "options": [
+        "Elishama",
+        "Gamaliel",
+        "Abidan",
+        "Eliasaph"
+      ],
+      "correctAnswer": "Elishama",
+      "explanation": "Elishama son of Ammihud was the prince of Ephraim.",
+      "verseReference": "Numbers 1:10",
+      "difficulty": "hard"
+    },
+    {
+      "id": "numbers-bq-41",
+      "question": "True or False: The children of Israel bowed down and sacrificed to the gods of Moab, provoking God's anger.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "They bowed to the sacrifices of Moab's gods, which angered the LORD.",
+      "verseReference": "Numbers 25:2",
+      "difficulty": "hard"
+    },
+    {
+      "id": "numbers-bq-42",
+      "question": "How many men were numbered from the tribe of Issachar?",
+      "type": "multiple-choice",
+      "options": [
+        "54,400",
+        "57,400",
+        "59,300",
+        "46,500"
+      ],
+      "correctAnswer": "54,400",
+      "explanation": "Fifty-four thousand four hundred men were counted from Issachar.",
+      "verseReference": "Numbers 1:29",
+      "difficulty": "hard"
+    },
+    {
+      "id": "numbers-bq-43",
+      "question": "Which tribe had the prince named Abidan, son of Gideoni?",
+      "type": "multiple-choice",
+      "options": [
+        "Benjamin",
+        "Naphtali",
+        "Judah",
+        "Reuben"
+      ],
+      "correctAnswer": "Benjamin",
+      "explanation": "Abidan son of Gideoni was the prince of the tribe of Benjamin.",
+      "verseReference": "Numbers 1:11",
+      "difficulty": "hard"
+    },
+    {
+      "id": "numbers-bq-44",
+      "question": "True or False: If a man was clean and not traveling but failed to keep the Passover, he would be cut off from his people.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Moses said such a man would bear his sin and be cut off.",
+      "verseReference": "Numbers 9:13",
+      "difficulty": "hard"
+    },
+    {
+      "id": "numbers-bq-45",
+      "question": "What sign accompanied the cloud over the tabernacle by night?",
+      "type": "multiple-choice",
+      "options": [
+        "Lightning",
+        "Fire",
+        "Thunder",
+        "Wind"
+      ],
+      "correctAnswer": "Fire",
+      "explanation": "The cloud appeared as fire by night over the tabernacle.",
+      "verseReference": "Numbers 9:16",
+      "difficulty": "hard"
+    }
+  ],
+  "difficulty": "medium",
+  "isBookQuiz": true,
+  "slug": "numbers-quiz",
+  "tags": [
+    "numbers",
+    "numbers",
+    "book quiz",
+    "comprehensive",
+    "bible quiz"
+  ],
+  "totalQuestions": 45,
+  "estimatedTime": 34
+}

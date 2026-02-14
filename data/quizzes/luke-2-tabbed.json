@@ -1,0 +1,983 @@
+{
+  "id": "luke-2-tabbed",
+  "title": "Luke Chapter 2 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Luke chapter 2 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "luke-2-easy",
+      "title": "Luke Chapter 2 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Luke Chapter 2.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 2,
+      "questions": [
+        {
+          "id": "luke-2-easy-q1",
+          "question": "Who issued the decree that all the world should be taxed?",
+          "type": "multiple-choice",
+          "options": [
+            "Caesar Augustus",
+            "Cyrenius",
+            "Herod",
+            "Pontius Pilate"
+          ],
+          "correctAnswer": "Caesar Augustus",
+          "explanation": "Luke 2:1 states that the decree for taxation went out from Caesar Augustus.",
+          "verseReference": "Luke 2:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-2-easy-q2",
+          "question": "Where did Joseph and Mary travel to be taxed?",
+          "type": "multiple-choice",
+          "options": [
+            "Bethlehem",
+            "Nazareth",
+            "Jerusalem",
+            "Capernaum"
+          ],
+          "correctAnswer": "Bethlehem",
+          "explanation": "Luke 2:4 explains that Joseph went to Bethlehem because he was of the house and lineage of David.",
+          "verseReference": "Luke 2:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-2-easy-q3",
+          "question": "Why was Jesus laid in a manger?",
+          "type": "multiple-choice",
+          "options": [
+            "No room in the inn",
+            "It was customary",
+            "He was born in a stable",
+            "Mary preferred it"
+          ],
+          "correctAnswer": "No room in the inn",
+          "explanation": "Luke 2:7 states that Jesus was laid in a manger because there was no room for them in the inn.",
+          "verseReference": "Luke 2:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-2-easy-q4",
+          "question": "Who were keeping watch over their flock by night when the angel appeared?",
+          "type": "multiple-choice",
+          "options": [
+            "Shepherds",
+            "Priests",
+            "Fishermen",
+            "Pharisees"
+          ],
+          "correctAnswer": "Shepherds",
+          "explanation": "Luke 2:8 mentions shepherds abiding in the field, keeping watch over their flock by night.",
+          "verseReference": "Luke 2:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-2-easy-q5",
+          "question": "What message did the angel bring to the shepherds?",
+          "type": "multiple-choice",
+          "options": [
+            "Good tidings of great joy",
+            "Warning of danger",
+            "Call to battle",
+            "A new law"
+          ],
+          "correctAnswer": "Good tidings of great joy",
+          "explanation": "Luke 2:10 records the angel saying he brings good tidings of great joy to all people.",
+          "verseReference": "Luke 2:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-2-easy-q6",
+          "question": "What was the sign the shepherds were told to look for?",
+          "type": "multiple-choice",
+          "options": [
+            "A babe wrapped in swaddling clothes lying in a manger",
+            "A star in the sky",
+            "A burning bush",
+            "A dove flying overhead"
+          ],
+          "correctAnswer": "A babe wrapped in swaddling clothes lying in a manger",
+          "explanation": "Luke 2:12 states the sign would be finding the babe wrapped in swaddling clothes and lying in a manger.",
+          "verseReference": "Luke 2:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-2-easy-q7",
+          "question": "What did the multitude of heavenly hosts do when the angel appeared?",
+          "type": "multiple-choice",
+          "options": [
+            "Praising God",
+            "Falling to the ground",
+            "Singing a song of lament",
+            "Disappearing immediately"
+          ],
+          "correctAnswer": "Praising God",
+          "explanation": "Luke 2:13 describes a multitude of the heavenly host praising God and saying glory to God in the highest.",
+          "verseReference": "Luke 2:13",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-2-easy-q8",
+          "question": "How did the shepherds respond after seeing Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "Glorifying and praising God",
+            "Keeping it to themselves",
+            "Returning to their fields silently",
+            "Reporting to the priests"
+          ],
+          "correctAnswer": "Glorifying and praising God",
+          "explanation": "Luke 2:20 says the shepherds returned, glorifying and praising God for all they had heard and seen.",
+          "verseReference": "Luke 2:20",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-2-easy-q9",
+          "question": "When was Jesus circumcised and given his name?",
+          "type": "multiple-choice",
+          "options": [
+            "On the eighth day",
+            "At birth",
+            "One month after birth",
+            "At the Passover"
+          ],
+          "correctAnswer": "On the eighth day",
+          "explanation": "Luke 2:21 tells us Jesus was circumcised and named Jesus on the eighth day.",
+          "verseReference": "Luke 2:21",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-2-easy-q10",
+          "question": "Who was Simeon waiting to see before he died?",
+          "type": "multiple-choice",
+          "options": [
+            "The Lord's Christ",
+            "The Messiah",
+            "A great prophet",
+            "A king of Israel"
+          ],
+          "correctAnswer": "The Lord's Christ",
+          "explanation": "Luke 2:26 states Simeon was told by the Holy Ghost he would not see death before he saw the Lord's Christ.",
+          "verseReference": "Luke 2:26",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-2-easy-q11",
+          "question": "True or False: Mary pondered all the things the shepherds told her in her heart.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 2:19 says Mary kept all these things and pondered them in her heart.",
+          "verseReference": "Luke 2:19",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-2-easy-q12",
+          "question": "True or False: Jesus stayed behind in Jerusalem after the Passover feast when he was twelve years old.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 2:43 tells us Jesus tarried behind in Jerusalem after the feast when he was twelve.",
+          "verseReference": "Luke 2:43",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-2-easy-q13",
+          "question": "True or False: The angel told Joseph and Mary to name the child John.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Luke 2:21 states the child's name was called Jesus, as the angel had named him before conception.",
+          "verseReference": "Luke 2:21",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-2-easy-q14",
+          "question": "Complete the verse from Luke 2:14: \"Glory to God in the highest, and on earth ______, good will toward men.\"",
+          "type": "fill-blank",
+          "options": [
+            "peace",
+            "joy",
+            "love",
+            "hope"
+          ],
+          "correctAnswer": "peace",
+          "explanation": "Luke 2:14 states 'Glory to God in the highest, and on earth peace, good will toward men.'",
+          "verseReference": "Luke 2:14",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-2-easy-q15",
+          "question": "Complete this verse from Luke 2:49: 'How is it that ye sought me? wist ye not that I must be about my ______ business?'",
+          "type": "fill-blank",
+          "options": [
+            "Father's",
+            "Mother's",
+            "Teacher's",
+            "King's"
+          ],
+          "correctAnswer": "Father's",
+          "explanation": "Luke 2:49 quotes Jesus saying he must be about his Father's business.",
+          "verseReference": "Luke 2:49",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "luke-2-quiz",
+      "tags": [
+        "luke",
+        "chapter-2",
+        "luke",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "luke-2-medium",
+      "title": "Luke Chapter 2 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Luke Chapter 2 to real-life situations.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 2,
+      "questions": [
+        {
+          "id": "luke-2-medium-q1",
+          "question": "How does Luke 2 teach us about obedience to God's word in daily life?",
+          "type": "multiple-choice",
+          "options": [
+            "Joseph and Mary traveled to Bethlehem to be taxed as commanded by Caesar Augustus",
+            "Mary refused to leave Nazareth despite the decree",
+            "The shepherds ignored the angel's message",
+            "Simeon did not go to the temple when God revealed it to him"
+          ],
+          "correctAnswer": "Joseph and Mary traveled to Bethlehem to be taxed as commanded by Caesar Augustus",
+          "explanation": "Luke 2:1-5 shows Joseph and Mary obeying the decree to travel to Bethlehem for the census, demonstrating submission to earthly authority and God's providence. This underscores the virtue of obedience and trust in God’s plan. Also see Luke 2:22-24 where they follow the law of Moses.",
+          "verseReference": "Luke 2:1-5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-2-medium-q2",
+          "question": "A believer is struggling with fear after receiving difficult news. Based on Luke 2, what biblical truth would you share?",
+          "type": "multiple-choice",
+          "options": [
+            "Fear not, for the angel brings good tidings of great joy for all people",
+            "Fear is a sign of weak faith and should be ignored",
+            "You must face fear alone without seeking help",
+            "Fear is punishment for disobedience"
+          ],
+          "correctAnswer": "Fear not, for the angel brings good tidings of great joy for all people",
+          "explanation": "Luke 2:9-10 records the angel telling shepherds 'Fear not' and announcing good news of great joy, teaching that God’s message brings peace and hope amidst fear. This encourages trust and faith during trials.",
+          "verseReference": "Luke 2:9-10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-2-medium-q3",
+          "question": "How does Luke 2 illustrate the importance of prayer and devotion in faith?",
+          "type": "multiple-choice",
+          "options": [
+            "Anna served God with fastings and prayers night and day",
+            "The shepherds prayed only after seeing Jesus",
+            "Joseph and Mary did not seek God’s guidance",
+            "Simeon was indifferent to prayer"
+          ],
+          "correctAnswer": "Anna served God with fastings and prayers night and day",
+          "explanation": "Luke 2:36-37 describes Anna as a prophetess who devoted herself to God with continual fasting and prayer, showing the value of persistent spiritual discipline and dedication in Christian life.",
+          "verseReference": "Luke 2:36-37",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-2-medium-q4",
+          "question": "What does Luke 2 teach about sharing the Gospel and being a witness?",
+          "type": "multiple-choice",
+          "options": [
+            "The shepherds spread the news about Jesus after seeing Him",
+            "Mary kept the news to herself only",
+            "The angels forbade the shepherds from telling anyone",
+            "Joseph told no one about Jesus’ birth"
+          ],
+          "correctAnswer": "The shepherds spread the news about Jesus after seeing Him",
+          "explanation": "Luke 2:17-18 and 20 show the shepherds declaring what they were told about Jesus, exemplifying evangelism and the importance of sharing the gospel joyfully with others.",
+          "verseReference": "Luke 2:17-20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-2-medium-q5",
+          "question": "Based on Luke 2, how does the chapter encourage humility and contentment in family life?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus was laid in a manger because there was no room in the inn",
+            "Joseph and Mary lived in a palace",
+            "The shepherds ignored the newborn Jesus",
+            "Mary traveled alone to Bethlehem"
+          ],
+          "correctAnswer": "Jesus was laid in a manger because there was no room in the inn",
+          "explanation": "Luke 2:6-7 describes Jesus’ humble birth in a manger, teaching believers about humility, simplicity, and contentment with what God provides within family life.",
+          "verseReference": "Luke 2:6-7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-2-medium-q6",
+          "question": "How does Luke 2 teach us about perseverance through trials?",
+          "type": "multiple-choice",
+          "options": [
+            "Mary kept reflecting on all things in her heart despite difficult circumstances",
+            "The shepherds abandoned their flocks at night out of fear",
+            "Joseph left Mary because of the hardships",
+            "Simeon gave up waiting for the Messiah"
+          ],
+          "correctAnswer": "Mary kept reflecting on all things in her heart despite difficult circumstances",
+          "explanation": "Luke 2:19 shows Mary pondering the events surrounding Jesus’ birth, illustrating thoughtful perseverance and trust in God’s unfolding plan despite trials and uncertainties.",
+          "verseReference": "Luke 2:19",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-2-medium-q7",
+          "question": "What biblical virtue is demonstrated by Simeon’s response when he saw Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "Faithful trust and praise to God",
+            "Doubt and skepticism",
+            "Indifference and silence",
+            "Anger and disappointment"
+          ],
+          "correctAnswer": "Faithful trust and praise to God",
+          "explanation": "Luke 2:25-29 shows Simeon, filled with the Holy Spirit, blessing God and expressing peace after seeing the Messiah, demonstrating trust, gratitude, and worshipfulness.",
+          "verseReference": "Luke 2:25-29",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-2-medium-q8",
+          "question": "How does Luke 2 encourage humility and respect within parenting?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus was subject to his parents even as He grew in wisdom and favor",
+            "Jesus disregarded His parents’ concerns",
+            "Joseph and Mary ignored Jesus’ whereabouts",
+            "Jesus demanded to be served by others"
+          ],
+          "correctAnswer": "Jesus was subject to his parents even as He grew in wisdom and favor",
+          "explanation": "Luke 2:51-52 highlights Jesus’ obedience and submission to His parents, teaching humility and respect as essential in family relationships.",
+          "verseReference": "Luke 2:51-52",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-2-medium-q9",
+          "question": "How does the chapter teach us about celebrating God’s peace and goodwill?",
+          "type": "multiple-choice",
+          "options": [
+            "The angelic hosts praised God saying 'Glory to God in the highest, and on earth peace, good will toward men'",
+            "The shepherds remained silent after the announcement",
+            "The people rejected the message of peace",
+            "Caesar Augustus ignored the angelic proclamation"
+          ],
+          "correctAnswer": "The angelic hosts praised God saying 'Glory to God in the highest, and on earth peace, good will toward men'",
+          "explanation": "Luke 2:13-14 records the angels praising God and proclaiming peace and goodwill, encouraging believers to embrace and celebrate God’s peace in their lives.",
+          "verseReference": "Luke 2:13-14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-2-medium-q10",
+          "question": "A believer feels overwhelmed by responsibilities. According to Luke 2, what example can be shared about balancing duties and spiritual growth?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus increased in wisdom and stature and favor with God and man while living a normal family life",
+            "Mary and Joseph neglected spiritual practices due to duties",
+            "Simeon avoided responsibilities to focus only on prayer",
+            "The shepherds abandoned their work to rest"
+          ],
+          "correctAnswer": "Jesus increased in wisdom and stature and favor with God and man while living a normal family life",
+          "explanation": "Luke 2:40 and 2:52 show Jesus growing both physically and spiritually within His family context, teaching believers to balance life responsibilities with spiritual development.",
+          "verseReference": "Luke 2:40, 52",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-2-medium-q11",
+          "question": "How does the chapter demonstrate the importance of worship and praising God?",
+          "type": "multiple-choice",
+          "options": [
+            "The shepherds returned glorifying and praising God for what they heard and saw",
+            "Mary remained silent after Jesus’ birth",
+            "Joseph ignored the angel’s message",
+            "The people in Bethlehem did not respond to the birth"
+          ],
+          "correctAnswer": "The shepherds returned glorifying and praising God for what they heard and saw",
+          "explanation": "Luke 2:20 shows the shepherds praising God after witnessing Jesus’ birth, illustrating the call to worship God for His blessings and works.",
+          "verseReference": "Luke 2:20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-2-medium-q12",
+          "question": "How does Luke 2 teach about integrity and honesty in daily life?",
+          "type": "multiple-choice",
+          "options": [
+            "Joseph honestly registered for the census as required by the law",
+            "Mary tried to avoid the census by hiding",
+            "The shepherds lied about seeing the angel",
+            "Simeon falsely claimed to have seen the Messiah"
+          ],
+          "correctAnswer": "Joseph honestly registered for the census as required by the law",
+          "explanation": "Luke 2:3-5 shows Joseph complying honestly and lawfully with the census decree, emphasizing integrity and faithfulness in civic duties.",
+          "verseReference": "Luke 2:3-5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-2-medium-q13",
+          "question": "True or False: The angel instructed the shepherds to keep the news of Jesus’ birth a secret.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Luke 2:17-18 shows the shepherds spreading the word about what they were told concerning the child, demonstrating the call to openly share the Gospel message.",
+          "verseReference": "Luke 2:17-18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-2-medium-q14",
+          "question": "True or False: Mary immediately understood all the things spoken about Jesus at His birth.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Luke 2:50 states that Mary and Joseph did not understand Jesus’ words fully at that time, but she kept them in her heart, showing faith and patience in spiritual growth.",
+          "verseReference": "Luke 2:50-51",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-2-medium-q15",
+          "question": "Fill in the blank: According to Luke 2, Jesus was laid in a ______ because there was no room for them in the inn.",
+          "type": "fill-blank",
+          "options": [
+            "manger",
+            "crib",
+            "bed",
+            "stable"
+          ],
+          "correctAnswer": "manger",
+          "explanation": "Luke 2:7 explicitly states that Jesus was laid in a manger due to no room in the inn, teaching humility and trust in God’s provision.",
+          "verseReference": "Luke 2:7",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "luke-2-quiz",
+      "tags": [
+        "luke",
+        "chapter-2",
+        "luke",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "luke-2-hard",
+      "title": "Luke Chapter 2 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Luke Chapter 2.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 2,
+      "questions": [
+        {
+          "id": "luke-2-hard-q1",
+          "question": "What historical figure issued the decree that caused Joseph and Mary to travel to Bethlehem for the census?",
+          "type": "multiple-choice",
+          "options": [
+            "Caesar Augustus",
+            "King Herod",
+            "Pontius Pilate",
+            "Tiberius Caesar"
+          ],
+          "correctAnswer": "Caesar Augustus",
+          "explanation": "Luke 2:1 states that a decree went out from Caesar Augustus that all the world should be taxed, prompting the journey to Bethlehem.",
+          "verseReference": "Luke 2:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-hard-q2",
+          "question": "The name 'Jesus' was given to the child on the eighth day according to whose instruction?",
+          "type": "multiple-choice",
+          "options": [
+            "The angel before he was conceived",
+            "Joseph after the census",
+            "Mary after the birth",
+            "Simeon in the temple"
+          ],
+          "correctAnswer": "The angel before he was conceived",
+          "explanation": "Luke 2:21 explains that Jesus was named by divine instruction given to Mary through the angel before conception, emphasizing divine initiative in the naming.",
+          "verseReference": "Luke 2:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-hard-q3",
+          "question": "What is the significance of the manger as the place where Jesus was laid, in relation to Old Testament typology?",
+          "type": "multiple-choice",
+          "options": [
+            "It foreshadows the humility of the Messiah",
+            "It represents the temple where sacrifices were made",
+            "It symbolizes the royal throne of David",
+            "It indicates Jesus’ priestly role"
+          ],
+          "correctAnswer": "It foreshadows the humility of the Messiah",
+          "explanation": "Luke 2:7 describes Jesus being laid in a manger due to no room at the inn, symbolizing humility contrasting with the expectations of a royal Messiah, paralleling themes of servant leadership found in Isaiah.",
+          "verseReference": "Luke 2:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-hard-q4",
+          "question": "Which Old Testament law is referenced in Luke 2:23 that dictates every male opening the womb shall be called holy to the Lord?",
+          "type": "multiple-choice",
+          "options": [
+            "Exodus 13:2",
+            "Leviticus 12:3",
+            "Numbers 6:2",
+            "Deuteronomy 15:19"
+          ],
+          "correctAnswer": "Exodus 13:2",
+          "explanation": "Luke 2:23 cites the law that every firstborn male is holy to the Lord, a command found in Exodus 13:2, illustrating continuity of Jewish covenantal practices.",
+          "verseReference": "Luke 2:23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-hard-q5",
+          "question": "Simeon’s prophecy about Jesus includes a reference to a sword piercing Mary's soul. What literary device is this an example of?",
+          "type": "multiple-choice",
+          "options": [
+            "Foreshadowing",
+            "Chiasm",
+            "Parallelism",
+            "Typology"
+          ],
+          "correctAnswer": "Foreshadowing",
+          "explanation": "In Luke 2:35, the sword piercing Mary’s soul foreshadows the future suffering she will endure, particularly during Jesus’ crucifixion, highlighting the cost of salvation.",
+          "verseReference": "Luke 2:35",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-hard-q6",
+          "question": "The phrase 'a light to lighten the Gentiles' in Simeon's song has intertextual connections to which prophet?",
+          "type": "multiple-choice",
+          "options": [
+            "Isaiah",
+            "Jeremiah",
+            "Ezekiel",
+            "Daniel"
+          ],
+          "correctAnswer": "Isaiah",
+          "explanation": "Luke 2:32 echoes Isaiah’s theme of the Messiah as a light to the Gentiles, showing the fulfillment of prophetic promises about the inclusion of the nations.",
+          "verseReference": "Luke 2:32",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-hard-q7",
+          "question": "What is the significance of the shepherds as the first to receive the angelic announcement?",
+          "type": "multiple-choice",
+          "options": [
+            "They represent the marginalized and humble",
+            "They were the most learned in the law",
+            "They were priests in the temple",
+            "They were wealthy landowners"
+          ],
+          "correctAnswer": "They represent the marginalized and humble",
+          "explanation": "Luke 2:8-10 shows shepherds—socially low and marginalized—as the recipients of the good news, emphasizing God’s concern for the humble and outcasts, a major theme in Luke’s Gospel.",
+          "verseReference": "Luke 2:8-10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-hard-q8",
+          "question": "How does Luke 2:40 describe Jesus’ development, and how does this relate to Old Testament expectations of the Messiah?",
+          "type": "multiple-choice",
+          "options": [
+            "Growing in wisdom, stature, and favor with God and man",
+            "Becoming a political leader of Israel",
+            "Performing miracles from infancy",
+            "Leading a rebellion against Rome"
+          ],
+          "correctAnswer": "Growing in wisdom, stature, and favor with God and man",
+          "explanation": "Luke 2:40 describes Jesus’ growth physically, intellectually, and spiritually, aligning with Messianic expectations that the Savior would be wise and favored by God and people.",
+          "verseReference": "Luke 2:40",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-hard-q9",
+          "question": "What does the presence of Anna the prophetess signify in the narrative of Jesus’ presentation?",
+          "type": "multiple-choice",
+          "options": [
+            "Continuation of prophetic witness in Israel",
+            "A new priestly order beginning",
+            "A political endorsement of Jesus",
+            "A rejection of temple law"
+          ],
+          "correctAnswer": "Continuation of prophetic witness in Israel",
+          "explanation": "Luke 2:36-38 shows Anna as a devout prophetess who recognizes Jesus and speaks of redemption, symbolizing the ongoing role of prophecy and hope in Israel’s restoration.",
+          "verseReference": "Luke 2:36-38",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-hard-q10",
+          "question": "What is the theological significance of Jesus being called 'Christ the Lord' in Luke 2:11?",
+          "type": "multiple-choice",
+          "options": [
+            "Affirmation of Jesus as the promised Messiah and divine authority",
+            "A political title given by Caesar",
+            "A title used only for kings of Israel",
+            "A common name for Jewish rabbis"
+          ],
+          "correctAnswer": "Affirmation of Jesus as the promised Messiah and divine authority",
+          "explanation": "Luke 2:11 calls Jesus 'Christ the Lord,' identifying Him as the anointed Messiah and sovereign Lord, fulfilling Jewish Messianic expectations and divine kingship.",
+          "verseReference": "Luke 2:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-hard-q11",
+          "question": "In Luke 2:22-24, the offerings made by Mary and Joseph are a pair of turtledoves or two young pigeons. What does this detail reveal about their social status?",
+          "type": "multiple-choice",
+          "options": [
+            "They were of modest means, unable to afford a lamb",
+            "They were wealthy landowners",
+            "They were priests",
+            "They were foreigners"
+          ],
+          "correctAnswer": "They were of modest means, unable to afford a lamb",
+          "explanation": "Luke 2:24 mentions the offering prescribed for those who could not afford a lamb, indicating Mary and Joseph’s humble economic status in the Jewish social structure.",
+          "verseReference": "Luke 2:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-hard-q12",
+          "question": "What does Jesus mean by 'I must be about my Father’s business' in Luke 2:49, especially in the context of Jewish understanding of 'Father'?",
+          "type": "multiple-choice",
+          "options": [
+            "He is referring to God as His Father and His divine mission",
+            "He means Joseph is His earthly father",
+            "He refers to a local rabbi’s instruction",
+            "He is speaking figuratively about his teachers"
+          ],
+          "correctAnswer": "He is referring to God as His Father and His divine mission",
+          "explanation": "In Luke 2:49, Jesus identifies God as His Father, asserting His unique divine sonship and the priority of fulfilling God’s will, a concept central to Messianic identity.",
+          "verseReference": "Luke 2:49",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-hard-q13",
+          "question": "How does the angelic proclamation in Luke 2:10-14 employ parallelism to emphasize the message?",
+          "type": "multiple-choice",
+          "options": [
+            "Repeating themes of joy, peace, and glory to God",
+            "Listing genealogies of Jesus",
+            "Describing the political situation in Rome",
+            "Naming the shepherds one by one"
+          ],
+          "correctAnswer": "Repeating themes of joy, peace, and glory to God",
+          "explanation": "The angelic message in Luke 2:10-14 uses parallelism by repeating phrases about joy to all people, peace on earth, and glory to God, a common Hebrew poetic device to reinforce the message.",
+          "verseReference": "Luke 2:10-14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-hard-q14",
+          "question": "True or False: According to Luke 2:25-26, Simeon was promised by the Holy Spirit that he would not die before seeing the Messiah.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 2:26 states that it was revealed to Simeon by the Holy Spirit that he would not see death before he had seen the Lord's Christ, confirming the promise.",
+          "verseReference": "Luke 2:26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-hard-q15",
+          "question": "What cultural practice is illustrated by Jesus being circumcised on the eighth day as seen in Luke 2:21?",
+          "type": "multiple-choice",
+          "options": [
+            "The Jewish covenant sign of circumcision as commanded in Genesis",
+            "Roman citizen registration",
+            "Greek initiation rites",
+            "Egyptian purification rituals"
+          ],
+          "correctAnswer": "The Jewish covenant sign of circumcision as commanded in Genesis",
+          "explanation": "Luke 2:21 reflects the Jewish practice rooted in Genesis 17 of circumcising male infants on the eighth day as a sign of the covenant between God and Israel.",
+          "verseReference": "Luke 2:21",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "luke-2-quiz",
+      "tags": [
+        "luke",
+        "chapter-2",
+        "luke",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "luke-2-theological",
+      "title": "Luke Chapter 2 Quiz - Theological Level",
+      "description": "Deep biblical theology from Luke Chapter 2 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 2,
+      "questions": [
+        {
+          "id": "luke-2-theological-q1",
+          "question": "What theological significance does the birthplace of Jesus in Bethlehem hold according to Luke 2?",
+          "type": "multiple-choice",
+          "options": [
+            "It fulfills the prophecy of the Messiah's lineage from David",
+            "It was the only city with an inn available",
+            "It was a major commercial center of the time",
+            "It was where the Roman governor resided"
+          ],
+          "correctAnswer": "It fulfills the prophecy of the Messiah's lineage from David",
+          "explanation": "Luke 2:4 notes Joseph went to Bethlehem 'because he was of the house and lineage of David,' fulfilling Messianic prophecy (Micah 5:2; Matthew 2:6). Bethlehem as the birthplace connects Jesus to David’s royal line, affirming His messianic identity.",
+          "verseReference": "Luke 2:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-theological-q2",
+          "question": "What does the angel's proclamation to the shepherds reveal about the nature of Christ's mission?",
+          "type": "multiple-choice",
+          "options": [
+            "He is born as a Savior for all people",
+            "He will establish a political kingdom",
+            "He will conquer Rome by force",
+            "He is a prophet for Israel only"
+          ],
+          "correctAnswer": "He is born as a Savior for all people",
+          "explanation": "Luke 2:10-11 announces the birth of a Savior 'which shall be to all people,' emphasizing the universal scope of salvation (John 3:16; Isaiah 49:6; Acts 13:47). This reflects God’s redemptive plan for humanity, not limited to Israel.",
+          "verseReference": "Luke 2:10-11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-theological-q3",
+          "question": "In Luke 2, what is the significance of Jesus being wrapped in swaddling clothes and laid in a manger?",
+          "type": "multiple-choice",
+          "options": [
+            "It signifies His humble and accessible incarnation",
+            "It indicates He was from a wealthy family",
+            "It shows He was born in a royal palace",
+            "It reveals He was hidden from the public"
+          ],
+          "correctAnswer": "It signifies His humble and accessible incarnation",
+          "explanation": "Luke 2:7 and 2:12 describe Jesus wrapped in swaddling clothes and placed in a manger, symbolizing humility and God’s identification with the lowly (Philippians 2:6-8; Isaiah 53:2-3). This contrasts worldly kingship and underscores incarnation theology.",
+          "verseReference": "Luke 2:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-theological-q4",
+          "question": "How does the role of the Holy Spirit manifest in the presentation of Jesus according to Luke 2?",
+          "type": "multiple-choice",
+          "options": [
+            "The Holy Spirit reveals Jesus as the Messiah to Simeon",
+            "The Holy Spirit performs miracles at Jesus' birth",
+            "The Holy Spirit speaks directly to Joseph",
+            "The Holy Spirit leads Mary to Bethlehem"
+          ],
+          "correctAnswer": "The Holy Spirit reveals Jesus as the Messiah to Simeon",
+          "explanation": "Luke 2:25-26 reveals the Holy Spirit was upon Simeon, revealing he would not die before seeing the Lord's Christ, affirming divine revelation through the Spirit (Isaiah 11:2; John 14:26; Acts 10:38). This is a pneumatological affirmation of Christ’s identity.",
+          "verseReference": "Luke 2:25-26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-theological-q5",
+          "question": "What is the theological implication of Simeon's declaration that Jesus is 'a light to lighten the Gentiles'?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus' salvation extends beyond Israel to the Gentiles",
+            "Jesus' ministry is exclusively for Israel",
+            "Jesus will only bring political freedom",
+            "Jesus will establish a temple worship system"
+          ],
+          "correctAnswer": "Jesus' salvation extends beyond Israel to the Gentiles",
+          "explanation": "In Luke 2:32, Simeon declares Jesus as 'a light to lighten the Gentiles,' emphasizing the inclusion of Gentiles in salvation, fulfilling Old Testament promises (Isaiah 42:6; 49:6; Acts 13:47). This reflects God’s covenant faithfulness to all nations.",
+          "verseReference": "Luke 2:32",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-theological-q6",
+          "question": "What does Mary’s response to the events surrounding Jesus’ birth indicate about her faith and understanding?",
+          "type": "multiple-choice",
+          "options": [
+            "She treasured and pondered these things in her heart",
+            "She immediately understood all prophecies",
+            "She rejected the angelic messages",
+            "She sought political power"
+          ],
+          "correctAnswer": "She treasured and pondered these things in her heart",
+          "explanation": "Luke 2:19 shows Mary keeping and pondering the events in her heart, indicating reflective faith and contemplation, consistent with prophetic insight (Psalm 119:15; 1 Samuel 3:9-10; Proverbs 2:2). It highlights the human response to divine revelation.",
+          "verseReference": "Luke 2:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-theological-q7",
+          "question": "How does Luke 2 portray the role of the shepherds in the narrative of Christ’s birth?",
+          "type": "multiple-choice",
+          "options": [
+            "They are the first to receive and proclaim the good news",
+            "They are skeptical and do not believe the angels",
+            "They are the political leaders of Israel",
+            "They reject Jesus as the Messiah"
+          ],
+          "correctAnswer": "They are the first to receive and proclaim the good news",
+          "explanation": "Luke 2:8-17 presents shepherds as the first recipients of the angelic announcement and the first evangelists, highlighting God's favor to the lowly (Psalm 23; Isaiah 40:11; John 10:11). This aligns with God's pattern of revealing salvation to humble people.",
+          "verseReference": "Luke 2:8-17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-theological-q8",
+          "question": "What doctrinal truth is conveyed through the naming of Jesus on the eighth day?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus' divine mission was predetermined by God",
+            "His name was chosen by popular vote",
+            "The name Jesus was a common Roman name",
+            "His naming was a casual family decision"
+          ],
+          "correctAnswer": "Jesus' divine mission was predetermined by God",
+          "explanation": "Luke 2:21 emphasizes that Jesus was named as the angel instructed before conception, indicating divine sovereignty and predestination (Isaiah 7:14; Matthew 1:21-23; Galatians 4:4). This affirms Christ's unique redemptive role.",
+          "verseReference": "Luke 2:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-theological-q9",
+          "question": "What does the purification and presentation of Jesus in the temple reveal about Jesus’ adherence to the Law?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus and His family observed Mosaic Law faithfully",
+            "They rejected all Old Testament laws",
+            "They only followed Roman customs",
+            "They did not participate in Jewish festivals"
+          ],
+          "correctAnswer": "Jesus and His family observed Mosaic Law faithfully",
+          "explanation": "Luke 2:22-24 shows Jesus’ presentation and sacrifice in accordance with the Law of Moses, demonstrating His family's obedience (Leviticus 12:6-8; Exodus 13:2; Deuteronomy 15:19). This affirms Jesus’ fulfillment, not abolition, of the Law (Matthew 5:17).",
+          "verseReference": "Luke 2:22-24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-theological-q10",
+          "question": "How does the encounter with Anna the prophetess contribute to the Messianic testimony in Luke 2?",
+          "type": "multiple-choice",
+          "options": [
+            "Anna recognized and proclaimed Jesus as the Redeemer",
+            "Anna opposed Jesus' mission",
+            "Anna was unaware of Jesus' identity",
+            "Anna sought to keep Jesus hidden"
+          ],
+          "correctAnswer": "Anna recognized and proclaimed Jesus as the Redeemer",
+          "explanation": "Luke 2:36-38 describes Anna giving thanks and speaking to those seeking redemption about Jesus, serving as a prophetic witness (Isaiah 61:1; Luke 4:18; John 4:25-26). This emphasizes the continuity of prophetic revelation about the Messiah.",
+          "verseReference": "Luke 2:36-38",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-theological-q11",
+          "question": "What theological insight is gained from Jesus being found in the temple discussing with the teachers at age twelve?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus demonstrated divine wisdom and commitment to God's work early on",
+            "Jesus was disobedient to His parents",
+            "Jesus was uninterested in religious matters",
+            "Jesus was learning to be a carpenter"
+          ],
+          "correctAnswer": "Jesus demonstrated divine wisdom and commitment to God's work early on",
+          "explanation": "Luke 2:46-47 shows Jesus' extraordinary understanding and engagement with temple teachers, indicating early awareness of His divine mission (Proverbs 2:6; Isaiah 11:2; John 5:19). This supports Christological doctrine of His divine wisdom.",
+          "verseReference": "Luke 2:46-47",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-theological-q12",
+          "question": "How does Luke 2 emphasize the humanity and humility of Jesus during His childhood?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus grew in wisdom, stature, and favor with God and man",
+            "Jesus performed miracles daily as a child",
+            "Jesus was born in a royal palace with attendants",
+            "Jesus commanded armies at a young age"
+          ],
+          "correctAnswer": "Jesus grew in wisdom, stature, and favor with God and man",
+          "explanation": "Luke 2:40 and 2:52 affirm Jesus' normal human development in wisdom and physical growth, while being filled with grace, illustrating the doctrine of the incarnation where Jesus is fully God and fully man (Hebrews 2:14-18; Philippians 2:7).",
+          "verseReference": "Luke 2:40",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-theological-q13",
+          "question": "What eschatological promise is connected to Simeon's experience in Luke 2?",
+          "type": "multiple-choice",
+          "options": [
+            "He would not die before seeing the Messiah",
+            "He would be the last prophet before Jesus",
+            "He would reign in the kingdom of God",
+            "He would witness the destruction of the temple"
+          ],
+          "correctAnswer": "He would not die before seeing the Messiah",
+          "explanation": "Luke 2:26 states the Holy Spirit revealed to Simeon he would not see death before he saw the Lord's Christ, linking his testimony with the fulfillment of God's redemptive plan and the dawning eschatological hope (Isaiah 7:14; John 1:29).",
+          "verseReference": "Luke 2:26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-theological-q14",
+          "question": "How does Luke 2 reflect on the theme of suffering and opposition in the life of Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "Simeon foretells Jesus is 'set for the fall and rising again' and opposed",
+            "Jesus will live a life of ease and acceptance",
+            "Jesus will avoid all conflict by staying hidden",
+            "Jesus' mission is purely political and military"
+          ],
+          "correctAnswer": "Simeon foretells Jesus is 'set for the fall and rising again' and opposed",
+          "explanation": "Luke 2:34-35 records Simeon's prophecy that Jesus will be a sign spoken against and that a sword will pierce Mary’s soul, indicating suffering and rejection, consistent with Isaiah 53 and New Testament passion narratives (Acts 3:18; John 15:18-20).",
+          "verseReference": "Luke 2:34-35",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-2-theological-q15",
+          "question": "What does the decree from Caesar Augustus initiating the census signify in theological terms?",
+          "type": "multiple-choice",
+          "options": [
+            "God's providence using political events to fulfill prophecy",
+            "Roman authority supersedes God's plan",
+            "The census was unrelated to Jesus' birth",
+            "Jesus was a Roman citizen by birth"
+          ],
+          "correctAnswer": "God's providence using political events to fulfill prophecy",
+          "explanation": "Luke 2:1-3 shows the Roman decree setting the stage for Jesus’ birth in Bethlehem, illustrating God's sovereign use of worldly powers to accomplish His redemptive purposes (Daniel 4:17; Romans 13:1; Genesis 50:20). This underscores divine providence in salvation history.",
+          "verseReference": "Luke 2:1",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "luke-2-quiz",
+      "tags": [
+        "luke",
+        "chapter-2",
+        "luke",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

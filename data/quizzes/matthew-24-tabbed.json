@@ -1,0 +1,983 @@
+{
+  "id": "matthew-24-tabbed",
+  "title": "Matthew Chapter 24 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Matthew chapter 24 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "matthew-24-easy",
+      "title": "Matthew Chapter 24 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Matthew Chapter 24.",
+      "type": "chapter",
+      "book": "Matthew",
+      "chapter": 24,
+      "questions": [
+        {
+          "id": "matthew-24-easy-q1",
+          "question": "What did Jesus say would happen to the temple buildings?",
+          "type": "multiple-choice",
+          "options": [
+            "Not one stone would be left upon another",
+            "They would be restored in three days",
+            "They would be protected forever",
+            "They would be moved to another city"
+          ],
+          "correctAnswer": "Not one stone would be left upon another",
+          "explanation": "Matthew 24:2 states Jesus said there shall not be left here one stone upon another, that shall not be thrown down.",
+          "verseReference": "Matthew 24:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-24-easy-q2",
+          "question": "Where was Jesus sitting when the disciples asked him about the sign of his coming and the end of the world?",
+          "type": "multiple-choice",
+          "options": [
+            "On the mount of Olives",
+            "In the temple courtyard",
+            "By the Sea of Galilee",
+            "In the city of Jerusalem"
+          ],
+          "correctAnswer": "On the mount of Olives",
+          "explanation": "Matthew 24:3 mentions Jesus sat upon the mount of Olives when the disciples came to him privately.",
+          "verseReference": "Matthew 24:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-24-easy-q3",
+          "question": "According to Matthew 24, what should you be careful not to be?",
+          "type": "multiple-choice",
+          "options": [
+            "Deceived",
+            "Hungry",
+            "Afraid",
+            "Alone"
+          ],
+          "correctAnswer": "Deceived",
+          "explanation": "In Matthew 24:4, Jesus warned to take heed that no man deceive you.",
+          "verseReference": "Matthew 24:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-24-easy-q4",
+          "question": "What will many come claiming to be, according to Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "Christ",
+            "A prophet",
+            "A king",
+            "A priest"
+          ],
+          "correctAnswer": "Christ",
+          "explanation": "Matthew 24:5 says many shall come in Jesus' name, saying, I am Christ, and shall deceive many.",
+          "verseReference": "Matthew 24:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-24-easy-q5",
+          "question": "What are some of the signs that Jesus said would happen before the end?",
+          "type": "multiple-choice",
+          "options": [
+            "Wars, famines, pestilences, earthquakes",
+            "Rainstorms and floods",
+            "Peace and prosperity",
+            "New temples being built"
+          ],
+          "correctAnswer": "Wars, famines, pestilences, earthquakes",
+          "explanation": "Matthew 24:7 lists nation rising against nation, famines, pestilences, and earthquakes in divers places as signs.",
+          "verseReference": "Matthew 24:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-24-easy-q6",
+          "question": "What will happen to the followers of Jesus during the tribulation?",
+          "type": "multiple-choice",
+          "options": [
+            "They will be delivered up to be afflicted and killed",
+            "They will become rulers",
+            "They will be wealthy",
+            "They will be immediately taken to heaven"
+          ],
+          "correctAnswer": "They will be delivered up to be afflicted and killed",
+          "explanation": "Matthew 24:9 states they shall deliver you up to be afflicted, and shall kill you.",
+          "verseReference": "Matthew 24:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-24-easy-q7",
+          "question": "What will happen to the love of many because of iniquity?",
+          "type": "multiple-choice",
+          "options": [
+            "It will grow cold",
+            "It will increase",
+            "It will remain unchanged",
+            "It will turn to hate"
+          ],
+          "correctAnswer": "It will grow cold",
+          "explanation": "Matthew 24:12 says because iniquity shall abound, the love of many shall wax cold.",
+          "verseReference": "Matthew 24:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-24-easy-q8",
+          "question": "What must be preached in all the world before the end comes?",
+          "type": "multiple-choice",
+          "options": [
+            "The gospel of the kingdom",
+            "The laws of Moses",
+            "The stories of the prophets",
+            "The history of Israel"
+          ],
+          "correctAnswer": "The gospel of the kingdom",
+          "explanation": "Matthew 24:14 states the gospel of the kingdom shall be preached in all the world for a witness unto all nations before the end.",
+          "verseReference": "Matthew 24:14",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-24-easy-q9",
+          "question": "What should those in Judaea do when they see the abomination of desolation standing in the holy place?",
+          "type": "multiple-choice",
+          "options": [
+            "Flee into the mountains",
+            "Stay in the city",
+            "Build a shelter",
+            "Offer sacrifices"
+          ],
+          "correctAnswer": "Flee into the mountains",
+          "explanation": "Matthew 24:16 instructs those in Judaea to flee into the mountains when they see the abomination of desolation.",
+          "verseReference": "Matthew 24:16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-24-easy-q10",
+          "question": "True or False: Matthew 24 says that the days of tribulation will be so long that no one will survive.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Matthew 24:22 says those days shall be shortened for the elect's sake so that flesh shall be saved.",
+          "verseReference": "Matthew 24:22",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-24-easy-q11",
+          "question": "Who knows the day and hour of the coming of the Son of man?",
+          "type": "multiple-choice",
+          "options": [
+            "Only the Father",
+            "The angels of heaven",
+            "The disciples",
+            "Everyone"
+          ],
+          "correctAnswer": "Only the Father",
+          "explanation": "Matthew 24:36 says no man, not even the angels, knows the day or hour, but only the Father.",
+          "verseReference": "Matthew 24:36",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-24-easy-q12",
+          "question": "True or False: According to Matthew 24, the coming of the Son of man will be as sudden and visible as lightning from east to west.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Matthew 24:27 compares the coming of the Son of man to lightning coming from the east and shining to the west.",
+          "verseReference": "Matthew 24:27",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-24-easy-q13",
+          "question": "Complete this verse from Matthew 24:13: 'But he that shall endure unto the _______, the same shall be saved.'",
+          "type": "fill-blank",
+          "options": [
+            "end",
+            "beginning",
+            "middle",
+            "night"
+          ],
+          "correctAnswer": "end",
+          "explanation": "Matthew 24:13 states that he that shall endure unto the end shall be saved.",
+          "verseReference": "Matthew 24:13",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-24-easy-q14",
+          "question": "What will happen when the sign of the Son of man appears in heaven?",
+          "type": "multiple-choice",
+          "options": [
+            "All tribes of the earth will mourn and see the Son of man coming with power and glory",
+            "The earth will become peaceful",
+            "The stars will stop shining",
+            "The temple will be rebuilt"
+          ],
+          "correctAnswer": "All tribes of the earth will mourn and see the Son of man coming with power and glory",
+          "explanation": "Matthew 24:30 says all the tribes of the earth shall mourn, and they shall see the Son of man coming in clouds with power and great glory.",
+          "verseReference": "Matthew 24:30",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-24-easy-q15",
+          "question": "True or False: Jesus said that no one should believe if someone claims Christ is in the desert or secret chambers.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Matthew 24:26 instructs not to believe if anyone says Christ is in the desert or secret chambers.",
+          "verseReference": "Matthew 24:26",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "matthew-24-quiz",
+      "tags": [
+        "matthew",
+        "chapter-24",
+        "matthew",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "matthew-24-medium",
+      "title": "Matthew Chapter 24 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Matthew Chapter 24 to real-life situations.",
+      "type": "chapter",
+      "book": "Matthew",
+      "chapter": 24,
+      "questions": [
+        {
+          "id": "matthew-24-medium-q1",
+          "question": "A fellow believer is going through a trial and asks you for counsel. Based on Matthew 24, what biblical truth would you share about perseverance?",
+          "type": "multiple-choice",
+          "options": [
+            "He that endureth to the end shall be saved",
+            "Trials mean God has abandoned you",
+            "Avoid all difficulties to avoid suffering",
+            "Only the strongest never face hardship"
+          ],
+          "correctAnswer": "He that endureth to the end shall be saved",
+          "explanation": "Matthew 24:13 teaches that enduring to the end leads to salvation. This encourages believers to persevere through trials with faith. Supporting verses include Matthew 24:9-12 describing hardships and Matthew 24:22 about God's mercy in shortening difficult times.",
+          "verseReference": "Matthew 24:13",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-24-medium-q2",
+          "question": "How does Matthew 24 instruct believers to respond to false teachers and deception?",
+          "type": "multiple-choice",
+          "options": [
+            "Take heed that no man deceive you",
+            "Follow anyone claiming to be Christ",
+            "Ignore teachings and do what feels right",
+            "Trust only popular leaders"
+          ],
+          "correctAnswer": "Take heed that no man deceive you",
+          "explanation": "Matthew 24:4 warns believers to be vigilant against deception. This is reinforced by verses 24:5, 24:11, and 24:24 which warn about false Christs and prophets, urging believers to remain discerning and grounded in truth.",
+          "verseReference": "Matthew 24:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-24-medium-q3",
+          "question": "Based on Matthew 24, what should believers do when they hear of wars and disasters?",
+          "type": "multiple-choice",
+          "options": [
+            "Do not be troubled, for these must come to pass",
+            "Panic and abandon faith",
+            "Assume the end has come immediately",
+            "Ignore all news and stay isolated"
+          ],
+          "correctAnswer": "Do not be troubled, for these must come to pass",
+          "explanation": "Matthew 24:6 encourages believers not to be troubled by wars and rumors of wars as these are signs leading up to the end times. Verses 24:7-8 also describe such events as the beginning of sorrows, not the immediate end.",
+          "verseReference": "Matthew 24:6",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-24-medium-q4",
+          "question": "What does Matthew 24 teach about sharing the gospel even in difficult times?",
+          "type": "multiple-choice",
+          "options": [
+            "The gospel must be preached in all the world before the end comes",
+            "Evangelism should stop during tribulation",
+            "Only preach to close friends and family",
+            "Wait for clear signs before sharing faith"
+          ],
+          "correctAnswer": "The gospel must be preached in all the world before the end comes",
+          "explanation": "Matthew 24:14 states that the gospel of the kingdom will be preached in all the world for a witness to all nations before the end. This highlights the importance of faithful evangelism regardless of circumstances.",
+          "verseReference": "Matthew 24:14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-24-medium-q5",
+          "question": "A believer feels discouraged because love seems to be fading around them. How does Matthew 24 explain this phenomenon?",
+          "type": "multiple-choice",
+          "options": [
+            "Because iniquity shall abound, the love of many shall wax cold",
+            "Love will always grow stronger",
+            "People should isolate themselves to avoid sin",
+            "God will remove all unloving people immediately"
+          ],
+          "correctAnswer": "Because iniquity shall abound, the love of many shall wax cold",
+          "explanation": "Matthew 24:12 explains that increasing wickedness causes the love of many to grow cold, which can challenge believers to remain steadfast in love and faith despite societal decline.",
+          "verseReference": "Matthew 24:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-24-medium-q6",
+          "question": "What practical advice does Matthew 24 give regarding readiness for the coming of the Son of Man?",
+          "type": "multiple-choice",
+          "options": [
+            "Watch and be ready because the exact hour is unknown",
+            "Ignore the signs and live without concern",
+            "Only prepare after clear signs appear",
+            "Rely on others to be prepared for you"
+          ],
+          "correctAnswer": "Watch and be ready because the exact hour is unknown",
+          "explanation": "Matthew 24:42 and 24:44 instruct believers to watch and be ready since no one knows the exact time of Christ's return, emphasizing vigilance and spiritual preparedness.",
+          "verseReference": "Matthew 24:42",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-24-medium-q7",
+          "question": "When a believer faces betrayal and hatred because of their faith, what encouragement does Matthew 24 provide?",
+          "type": "multiple-choice",
+          "options": [
+            "They will be hated of all nations for Christ's name's sake",
+            "They should give up their faith to avoid trouble",
+            "Ignore persecution and blend into society",
+            "Seek revenge on those who hate you"
+          ],
+          "correctAnswer": "They will be hated of all nations for Christ's name's sake",
+          "explanation": "Matthew 24:9 acknowledges that believers will face hatred and persecution because of their faith, encouraging them to expect trials but remain faithful and obedient.",
+          "verseReference": "Matthew 24:9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-24-medium-q8",
+          "question": "According to Matthew 24, how should believers pray concerning their escape during times of tribulation?",
+          "type": "multiple-choice",
+          "options": [
+            "Pray that their flight not be in winter or on the Sabbath",
+            "Pray for ease and comfort in tribulation",
+            "Pray only after tribulation begins",
+            "Pray for the removal of all trials"
+          ],
+          "correctAnswer": "Pray that their flight not be in winter or on the Sabbath",
+          "explanation": "Matthew 24:20 instructs believers to pray that their escape during times of distress not occur in difficult conditions like winter or on the Sabbath, indicating practical prayer for protection and wisdom.",
+          "verseReference": "Matthew 24:20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-24-medium-q9",
+          "question": "True or False: Matthew 24 teaches that the coming of the Son of Man will be sudden and visible to all, like lightning from east to west.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Matthew 24:27 describes the coming of the Son of Man as being like lightning shining from the east to the west, indicating a sudden and visible event.",
+          "verseReference": "Matthew 24:27",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-24-medium-q10",
+          "question": "True or False: Matthew 24 says that anyone claiming to be Christ during the end times should be believed if they perform signs and wonders.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Matthew 24:23-24 warns that false Christs and prophets will perform great signs and wonders to deceive, so believers should not believe such claims.",
+          "verseReference": "Matthew 24:23",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-24-medium-q11",
+          "question": "Fill in the blank: The parable of the fig tree teaches us that when its branch is tender and it puts forth leaves, we know that ______ is near.",
+          "type": "fill-blank",
+          "options": [
+            "summer",
+            "winter",
+            "spring",
+            "autumn"
+          ],
+          "correctAnswer": "summer",
+          "explanation": "Matthew 24:32 uses the fig tree putting forth leaves as a sign that summer is near, illustrating how believers can discern the nearness of the end by observing signs.",
+          "verseReference": "Matthew 24:32",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-24-medium-q12",
+          "question": "How does Matthew 24 encourage believers to handle the uncertainty of the timing of Christ's return?",
+          "type": "multiple-choice",
+          "options": [
+            "Be faithful and wise servants, ready at all times",
+            "Ignore the topic to avoid anxiety",
+            "Try to predict the exact day and hour",
+            "Live carelessly without concern"
+          ],
+          "correctAnswer": "Be faithful and wise servants, ready at all times",
+          "explanation": "Verses 24:45-47 describe the faithful servant who is ready and provides for others, showing that believers should live responsibly and expectantly because the timing is unknown (24:36).",
+          "verseReference": "Matthew 24:45",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-24-medium-q13",
+          "question": "A believer struggles with anger and mistreating others. What warning from Matthew 24 applies to them?",
+          "type": "multiple-choice",
+          "options": [
+            "The evil servant who mistreats fellow servants will be punished severely",
+            "Anger is acceptable during waiting periods",
+            "Ignore others' needs when troubled",
+            "God will overlook all behavior until Christ returns"
+          ],
+          "correctAnswer": "The evil servant who mistreats fellow servants will be punished severely",
+          "explanation": "Matthew 24:48-51 warns that an evil servant who abuses others and behaves selfishly will face judgment, underscoring the call to loving service and integrity.",
+          "verseReference": "Matthew 24:48",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-24-medium-q14",
+          "question": "What does Matthew 24 teach about the signs that will precede the end times, and how should this affect Christian living?",
+          "type": "multiple-choice",
+          "options": [
+            "Wars, famines, earthquakes are the beginning of sorrows and call for watchfulness",
+            "Ignore signs and live as if nothing is happening",
+            "Signs mean immediate judgment, so stop all work",
+            "Trust only in human plans, not in God’s timing"
+          ],
+          "correctAnswer": "Wars, famines, earthquakes are the beginning of sorrows and call for watchfulness",
+          "explanation": "Verses 24:6-8 describe various calamities as the beginning of sorrows, prompting believers to be watchful and faithful amid trials rather than fearful or inactive.",
+          "verseReference": "Matthew 24:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-24-medium-q15",
+          "question": "What does Matthew 24 say about the fate of those who are unprepared when the Lord returns?",
+          "type": "multiple-choice",
+          "options": [
+            "They will be cut asunder and assigned their portion with the hypocrites",
+            "They will receive a second chance immediately",
+            "They will be welcomed without question",
+            "Their unpreparedness has no consequences"
+          ],
+          "correctAnswer": "They will be cut asunder and assigned their portion with the hypocrites",
+          "explanation": "Matthew 24:50-51 warns that the unfaithful servant who is unprepared will face severe judgment and separation from God’s kingdom, urging readiness and obedience.",
+          "verseReference": "Matthew 24:50",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "matthew-24-quiz",
+      "tags": [
+        "matthew",
+        "chapter-24",
+        "matthew",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "matthew-24-hard",
+      "title": "Matthew Chapter 24 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Matthew Chapter 24.",
+      "type": "chapter",
+      "book": "Matthew",
+      "chapter": 24,
+      "questions": [
+        {
+          "id": "matthew-24-hard-q1",
+          "question": "What did Jesus predict about the temple buildings when his disciples showed them to him?",
+          "type": "multiple-choice",
+          "options": [
+            "Not one stone would be left upon another",
+            "The temple would be expanded",
+            "The temple would be renovated",
+            "The temple would remain intact forever"
+          ],
+          "correctAnswer": "Not one stone would be left upon another",
+          "explanation": "Jesus foretold the complete destruction of the temple, indicating that no stone would remain on another (Matthew 24:2). This prediction aligns with the historical destruction of the temple in 70 AD.",
+          "verseReference": "Matthew 24:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-hard-q2",
+          "question": "In Matthew 24, what are 'the beginning of sorrows' referring to?",
+          "type": "multiple-choice",
+          "options": [
+            "Wars, famines, pestilences, and earthquakes",
+            "The destruction of the temple",
+            "The coming of John the Baptist",
+            "The resurrection of the dead"
+          ],
+          "correctAnswer": "Wars, famines, pestilences, and earthquakes",
+          "explanation": "Jesus describes these calamities as the initial signs of the end times, calling them 'the beginning of sorrows' (Matthew 24:7-8), foreshadowing greater tribulations.",
+          "verseReference": "Matthew 24:7-8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-hard-q3",
+          "question": "According to Matthew 24, which prophet's words are referenced regarding the 'abomination of desolation'?",
+          "type": "multiple-choice",
+          "options": [
+            "Daniel",
+            "Isaiah",
+            "Jeremiah",
+            "Ezekiel"
+          ],
+          "correctAnswer": "Daniel",
+          "explanation": "Jesus refers to Daniel's prophecy about the 'abomination of desolation' standing in the holy place, linking the Olivet Discourse to Old Testament apocalyptic literature (Matthew 24:15).",
+          "verseReference": "Matthew 24:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-hard-q4",
+          "question": "What is the significance of the fig tree in Jesus’ teaching in Matthew 24?",
+          "type": "multiple-choice",
+          "options": [
+            "It is a parable to recognize the nearness of the kingdom",
+            "It represents the people of Israel",
+            "It symbolizes the temple's destruction",
+            "It depicts the fate of the wicked"
+          ],
+          "correctAnswer": "It is a parable to recognize the nearness of the kingdom",
+          "explanation": "Jesus uses the fig tree's budding as an analogy to understand the signs of the times, indicating that just as leaves show summer is near, so the signs indicate the kingdom's approach (Matthew 24:32-33).",
+          "verseReference": "Matthew 24:32-33",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-hard-q5",
+          "question": "Which phrase best captures the theme of vigilance taught in Matthew 24?",
+          "type": "multiple-choice",
+          "options": [
+            "Watch therefore: for ye know not what hour your Lord doth come",
+            "Pray without ceasing",
+            "Love your neighbor as yourself",
+            "Seek first the kingdom of God"
+          ],
+          "correctAnswer": "Watch therefore: for ye know not what hour your Lord doth come",
+          "explanation": "Jesus emphasizes the need for constant readiness because the exact time of his coming is unknown, echoing a key eschatological theme (Matthew 24:42).",
+          "verseReference": "Matthew 24:42",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-hard-q6",
+          "question": "What does Jesus say about false Christs and false prophets in this chapter?",
+          "type": "multiple-choice",
+          "options": [
+            "They will perform great signs and wonders to deceive if possible even the elect",
+            "They will be easily recognized by their lack of miracles",
+            "They will preach peace and unity",
+            "They will only deceive the unlearned"
+          ],
+          "correctAnswer": "They will perform great signs and wonders to deceive if possible even the elect",
+          "explanation": "Jesus warns that false Christs and prophets will use powerful signs to deceive many, highlighting the spiritual deception during the end times (Matthew 24:24).",
+          "verseReference": "Matthew 24:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-hard-q7",
+          "question": "How does Matthew 24:36 emphasize the sovereignty of God in eschatology?",
+          "type": "multiple-choice",
+          "options": [
+            "Only the Father knows the day and hour of the Son of man's coming",
+            "The angels and humans both know the exact time",
+            "Jesus declares the exact hour himself",
+            "The disciples will know the time through visions"
+          ],
+          "correctAnswer": "Only the Father knows the day and hour of the Son of man's coming",
+          "explanation": "This verse stresses that the timing of the end is hidden from all except God the Father, underscoring divine sovereignty and the mystery surrounding the last days (Matthew 24:36).",
+          "verseReference": "Matthew 24:36",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-hard-q8",
+          "question": "Which Old Testament figure's days does Jesus compare to the coming of the Son of man?",
+          "type": "multiple-choice",
+          "options": [
+            "Noe (Noah)",
+            "Moses",
+            "Elijah",
+            "David"
+          ],
+          "correctAnswer": "Noe (Noah)",
+          "explanation": "Jesus likens the suddenness and unexpectedness of his coming to the days of Noah before the flood, emphasizing preparedness (Matthew 24:37-39).",
+          "verseReference": "Matthew 24:37-39",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-hard-q9",
+          "question": "In the context of Matthew 24, what does the phrase 'the elect' refer to?",
+          "type": "multiple-choice",
+          "options": [
+            "Those chosen by God to be gathered at His coming",
+            "The political leaders of Israel",
+            "The false prophets",
+            "The Roman authorities"
+          ],
+          "correctAnswer": "Those chosen by God to be gathered at His coming",
+          "explanation": "The elect are those whom God has chosen and who will be gathered by angels from all corners of the earth at Jesus’ return (Matthew 24:31).",
+          "verseReference": "Matthew 24:31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-hard-q10",
+          "question": "What is the consequence described in Matthew 24 for the servant who assumes his lord's coming is delayed and behaves wickedly?",
+          "type": "multiple-choice",
+          "options": [
+            "He will be cut asunder and assigned a portion with the hypocrites",
+            "He will be rewarded for his patience",
+            "He will inherit the lord's goods",
+            "He will be forgiven after repentance"
+          ],
+          "correctAnswer": "He will be cut asunder and assigned a portion with the hypocrites",
+          "explanation": "Jesus warns that the evil servant who abuses others and indulges in sinful behavior, assuming delay, will face severe judgment (Matthew 24:50-51).",
+          "verseReference": "Matthew 24:50-51",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-hard-q11",
+          "question": "What does Jesus instruct those in Judea to do when they see the 'abomination of desolation' standing in the holy place?",
+          "type": "multiple-choice",
+          "options": [
+            "Flee into the mountains",
+            "Prepare sacrifices",
+            "Gather in the temple",
+            "Send for the priests"
+          ],
+          "correctAnswer": "Flee into the mountains",
+          "explanation": "Jesus commands immediate flight to the mountains to escape coming tribulations, reflecting the urgency of the prophecy (Matthew 24:16).",
+          "verseReference": "Matthew 24:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-hard-q12",
+          "question": "True or False: According to Matthew 24, the sun will be darkened and the moon will not give light immediately after the tribulation.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Jesus describes cosmic disturbances following the tribulation, including the darkening of the sun and moon, signaling apocalyptic events (Matthew 24:29).",
+          "verseReference": "Matthew 24:29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-hard-q13",
+          "question": "Fill in the blank: 'Because iniquity shall abound, the love of many shall ____.'",
+          "type": "multiple-choice",
+          "options": [
+            "wax cold",
+            "grow strong",
+            "remain unchanged",
+            "become fiery"
+          ],
+          "correctAnswer": "wax cold",
+          "explanation": "Jesus explains that increased wickedness will cause the love of many to grow cold, highlighting moral decline before the end (Matthew 24:12).",
+          "verseReference": "Matthew 24:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-hard-q14",
+          "question": "What literary device is predominantly used in Matthew 24 to describe the signs of the end times?",
+          "type": "multiple-choice",
+          "options": [
+            "Typology and foreshadowing",
+            "Parable of the sower",
+            "Allegory",
+            "Historical narrative"
+          ],
+          "correctAnswer": "Typology and foreshadowing",
+          "explanation": "Matthew 24 employs typology (e.g., days of Noah) and foreshadowing through signs and symbols to reveal future eschatological events.",
+          "verseReference": "Matthew 24:37-39",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-hard-q15",
+          "question": "How does Matthew 24 relate to the broader theme of kingdom proclamation across Scripture?",
+          "type": "multiple-choice",
+          "options": [
+            "The gospel of the kingdom will be preached in all the world before the end comes",
+            "The kingdom is only for Israel",
+            "Kingdom proclamation is ceased at the coming of the Son of man",
+            "Only priests are authorized to preach the kingdom"
+          ],
+          "correctAnswer": "The gospel of the kingdom will be preached in all the world before the end comes",
+          "explanation": "Jesus states that the gospel must be proclaimed globally as a witness to all nations before the end, linking to the Great Commission theme (Matthew 24:14).",
+          "verseReference": "Matthew 24:14",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "matthew-24-quiz",
+      "tags": [
+        "matthew",
+        "chapter-24",
+        "matthew",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "matthew-24-theological",
+      "title": "Matthew Chapter 24 Quiz - Theological Level",
+      "description": "Deep biblical theology from Matthew Chapter 24 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Matthew",
+      "chapter": 24,
+      "questions": [
+        {
+          "id": "matthew-24-theological-q1",
+          "question": "What did Jesus predict about the temple buildings in Matthew 24?",
+          "type": "multiple-choice",
+          "options": [
+            "Not one stone will be left upon another",
+            "The temple will be rebuilt in three days",
+            "The temple will be expanded to all nations",
+            "The temple will be consecrated for all time"
+          ],
+          "correctAnswer": "Not one stone will be left upon another",
+          "explanation": "Jesus foretold the complete destruction of the temple buildings, stating that not one stone would remain upon another (Matthew 24:2). This prophecy aligns with Old Testament warnings about judgment (Daniel 9:26), the destruction of Jerusalem (Lamentations 2:6), and New Testament fulfillment (Mark 13:2).",
+          "verseReference": "Matthew 24:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-theological-q2",
+          "question": "What did the disciples ask Jesus privately on the Mount of Olives?",
+          "type": "multiple-choice",
+          "options": [
+            "When will the temple be rebuilt and who will rule?",
+            "When shall these things be and what is the sign of your coming and end of the world?",
+            "What are the laws of the kingdom and how to pray?",
+            "When will Elijah return and restore Israel?"
+          ],
+          "correctAnswer": "When shall these things be and what is the sign of your coming and end of the world?",
+          "explanation": "The disciples asked Jesus about the timing of the destruction of the temple and the signs of His coming and the end of the age (Matthew 24:3), reflecting eschatological concerns found also in Daniel 12:4, Isaiah 2:2, and Revelation 1:7.",
+          "verseReference": "Matthew 24:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-theological-q3",
+          "question": "According to Jesus, what must believers be cautious of?",
+          "type": "multiple-choice",
+          "options": [
+            "False teachers who deceive many",
+            "The law of Moses being abolished",
+            "The coming of Elijah before the Messiah",
+            "The destruction of the temple"
+          ],
+          "correctAnswer": "False teachers who deceive many",
+          "explanation": "Jesus warned to take heed that no one deceives them, emphasizing the rise of false Christs and prophets (Matthew 24:4-5, 11, 24). This aligns with warnings in 2 Timothy 3:13, 2 Peter 2:1, and 1 John 4:1.",
+          "verseReference": "Matthew 24:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-theological-q4",
+          "question": "What events did Jesus say would happen before the end comes?",
+          "type": "multiple-choice",
+          "options": [
+            "Wars, famines, pestilences, and earthquakes",
+            "Peace and prosperity throughout the earth",
+            "The rebuilding of the temple",
+            "The conversion of all nations"
+          ],
+          "correctAnswer": "Wars, famines, pestilences, and earthquakes",
+          "explanation": "Jesus predicted wars, rumors of wars, famines, pestilences, and earthquakes as the beginning of sorrows before the end (Matthew 24:6-8). Similar signs are described in Mark 13:7-8, Luke 21:9-11, and Isaiah 24:5-6.",
+          "verseReference": "Matthew 24:6-7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-theological-q5",
+          "question": "What will happen to believers during the tribulation according to Matthew 24?",
+          "type": "multiple-choice",
+          "options": [
+            "They will be delivered up, afflicted, killed, and hated for Jesus’ name",
+            "They will be exempt from suffering",
+            "They will rule over nations",
+            "They will be hidden in secret places"
+          ],
+          "correctAnswer": "They will be delivered up, afflicted, killed, and hated for Jesus’ name",
+          "explanation": "Jesus foretells persecution of believers who will be delivered up, afflicted, and killed, and hated by all nations for His name's sake (Matthew 24:9). This is consistent with John 15:20, 2 Timothy 3:12, and Revelation 6:9-11.",
+          "verseReference": "Matthew 24:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-theological-q6",
+          "question": "What is the result of iniquity abounding as described in Matthew 24?",
+          "type": "multiple-choice",
+          "options": [
+            "The love of many will grow cold",
+            "People will become more faithful",
+            "The law will be fulfilled perfectly",
+            "Peace will reign on earth"
+          ],
+          "correctAnswer": "The love of many will grow cold",
+          "explanation": "Matthew 24:12 states that because iniquity will abound, the love of many will wax cold, indicating moral decay and apostasy before the end times, echoed in 2 Thessalonians 2:3, Jeremiah 9:5, and 2 Timothy 3:1-5.",
+          "verseReference": "Matthew 24:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-theological-q7",
+          "question": "What is promised to those who endure to the end?",
+          "type": "multiple-choice",
+          "options": [
+            "They shall be saved",
+            "They will avoid all trials",
+            "They will receive earthly kingdoms",
+            "They will be taken up before tribulation"
+          ],
+          "correctAnswer": "They shall be saved",
+          "explanation": "Jesus promises salvation to those who endure to the end (Matthew 24:13), which harmonizes with Romans 5:3-5, Hebrews 12:1-3, and Revelation 2:10 emphasizing perseverance in faith.",
+          "verseReference": "Matthew 24:13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-theological-q8",
+          "question": "According to Matthew 24, when will the gospel of the kingdom be preached to all nations?",
+          "type": "multiple-choice",
+          "options": [
+            "Before the end comes",
+            "After the millennium",
+            "During the great tribulation",
+            "Only to Israel"
+          ],
+          "correctAnswer": "Before the end comes",
+          "explanation": "Verse 14 states that the gospel will be preached to all nations as a witness before the end comes, which aligns with the Great Commission (Matthew 28:19-20), Acts 1:8, and Romans 10:18.",
+          "verseReference": "Matthew 24:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-theological-q9",
+          "question": "What does Jesus describe as the 'abomination of desolation'?",
+          "type": "multiple-choice",
+          "options": [
+            "A sacrilegious event standing in the holy place",
+            "The rebuilding of the temple",
+            "The coming of Elijah",
+            "The coronation of a king"
+          ],
+          "correctAnswer": "A sacrilegious event standing in the holy place",
+          "explanation": "Jesus refers to the 'abomination of desolation' spoken by Daniel as standing in the holy place (Matthew 24:15), a concept connected to Daniel 9:27 and 11:31, symbolizing desecration and judgment.",
+          "verseReference": "Matthew 24:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-theological-q10",
+          "question": "What instructions does Jesus give to those in Judea when they see the abomination of desolation?",
+          "type": "multiple-choice",
+          "options": [
+            "Flee to the mountains immediately",
+            "Offer sacrifices in the temple",
+            "Gather in the city squares",
+            "Wait for further instructions"
+          ],
+          "correctAnswer": "Flee to the mountains immediately",
+          "explanation": "Jesus commands those in Judea to flee into the mountains when the abomination of desolation is seen (Matthew 24:16), indicating urgent escape from coming judgment, consistent with Jeremiah 6:1 and Revelation 12:6.",
+          "verseReference": "Matthew 24:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-theological-q11",
+          "question": "What is said about the length of the days of great tribulation?",
+          "type": "multiple-choice",
+          "options": [
+            "They will be shortened for the elect's sake",
+            "They will last exactly seven years",
+            "They will continue indefinitely",
+            "They will end after the millennium"
+          ],
+          "correctAnswer": "They will be shortened for the elect's sake",
+          "explanation": "Matthew 24:22 teaches that except those days be shortened, no flesh would be saved, but for the elect's sake, the days will be shortened. This is consistent with God's mercy seen in Exodus 12:29-30 and Revelation 7:3.",
+          "verseReference": "Matthew 24:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-theological-q12",
+          "question": "What will false Christs and false prophets do during the end times?",
+          "type": "multiple-choice",
+          "options": [
+            "Show great signs and wonders to deceive if possible even the elect",
+            "Build new temples and restore worship",
+            "Convert many to true faith",
+            "Bring peace and justice to the earth"
+          ],
+          "correctAnswer": "Show great signs and wonders to deceive if possible even the elect",
+          "explanation": "False Christs and prophets will perform great signs and wonders to deceive many, including the elect (Matthew 24:24). This echoes warnings in 2 Thessalonians 2:9-10, Revelation 13:13-14, and Deuteronomy 13:1-3.",
+          "verseReference": "Matthew 24:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-theological-q13",
+          "question": "How is the coming of the Son of Man described in terms of visibility?",
+          "type": "multiple-choice",
+          "options": [
+            "Like lightning shining from the east to the west",
+            "Like a thief in the night, unseen by all",
+            "Like a quiet whisper in the wind",
+            "Like a hidden star in the darkness"
+          ],
+          "correctAnswer": "Like lightning shining from the east to the west",
+          "explanation": "Jesus compares His coming to lightning that flashes from east to west, indicating sudden and visible arrival (Matthew 24:27), similar to Luke 17:24 and Revelation 1:7.",
+          "verseReference": "Matthew 24:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-theological-q14",
+          "question": "What cosmic signs will accompany the tribulation and the coming of the Son of Man?",
+          "type": "multiple-choice",
+          "options": [
+            "The sun will be darkened, moon will not give light, stars will fall, and heavenly powers shaken",
+            "The sun will shine brighter than ever",
+            "The moon will turn red and disappear",
+            "The stars will form new constellations"
+          ],
+          "correctAnswer": "The sun will be darkened, moon will not give light, stars will fall, and heavenly powers shaken",
+          "explanation": "Matthew 24:29 describes cosmic disturbances including darkened sun, moon failing to give light, stars falling, and shaking of heavenly powers, paralleling Joel 2:31, Isaiah 13:10, and Revelation 6:12-14.",
+          "verseReference": "Matthew 24:29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-24-theological-q15",
+          "question": "Who will be gathered by the angels at the sound of the trumpet when the Son of Man comes?",
+          "type": "multiple-choice",
+          "options": [
+            "The elect from the four winds, from one end of heaven to the other",
+            "All nations to judgment",
+            "Only the Israelites",
+            "The fallen angels"
+          ],
+          "correctAnswer": "The elect from the four winds, from one end of heaven to the other",
+          "explanation": "Matthew 24:31 states that angels will gather the elect from all corners of heaven, consistent with 1 Thessalonians 4:16-17, Isaiah 27:13, and Revelation 7:9-14.",
+          "verseReference": "Matthew 24:31",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "matthew-24-quiz",
+      "tags": [
+        "matthew",
+        "chapter-24",
+        "matthew",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

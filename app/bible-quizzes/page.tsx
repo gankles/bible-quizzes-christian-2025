@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BibleQuizzesPage from '@/components/BibleQuizzesPage';
 
 export const metadata: Metadata = {
-  title: 'Bible Quizzes - Complete Collection | Bible Maximum',
+  title: 'Bible Quizzes | Free Interactive Quizzes for Every Book & Chapter | Multiple Choice, True/False & Fill-in-the-Blank with Verse References | Bible Maximum',
   description: 'Comprehensive Bible quizzes for all 66 books of the Bible. Test your biblical knowledge with interactive quizzes covering Old and New Testament. Perfect for Bible study groups and personal growth.',
   keywords: 'bible quiz, scripture test, bible knowledge, christian quiz, bible study, old testament, new testament, bible trivia, biblical education',
   openGraph: {

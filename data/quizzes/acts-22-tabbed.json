@@ -1,0 +1,983 @@
+{
+  "id": "acts-22-tabbed",
+  "title": "Acts Chapter 22 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Acts chapter 22 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "acts-22-easy",
+      "title": "Acts Chapter 22 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Acts Chapter 22.",
+      "type": "chapter",
+      "book": "Acts",
+      "chapter": 22,
+      "questions": [
+        {
+          "id": "acts-22-easy-q1",
+          "question": "To whom did Paul address his defense in Acts 22:1?",
+          "type": "multiple-choice",
+          "options": [
+            "Men, brethren, and fathers",
+            "The chief captain",
+            "The Gentiles",
+            "The high priest"
+          ],
+          "correctAnswer": "Men, brethren, and fathers",
+          "explanation": "Acts 22:1 states, 'Men, brethren, and fathers, hear ye my defence which I make now unto you.'",
+          "verseReference": "Acts 22:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-22-easy-q2",
+          "question": "What language did Paul speak when he began his defense according to Acts 22:2?",
+          "type": "multiple-choice",
+          "options": [
+            "Hebrew",
+            "Greek",
+            "Latin",
+            "Aramaic"
+          ],
+          "correctAnswer": "Hebrew",
+          "explanation": "Acts 22:2 says that when they heard Paul spoke in the Hebrew tongue, they kept silence.",
+          "verseReference": "Acts 22:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-22-easy-q3",
+          "question": "Where was Paul born, as mentioned in Acts 22:3?",
+          "type": "multiple-choice",
+          "options": [
+            "Tarsus",
+            "Jerusalem",
+            "Damascus",
+            "Cilicia"
+          ],
+          "correctAnswer": "Tarsus",
+          "explanation": "Acts 22:3 states Paul was born in Tarsus, a city in Cilicia.",
+          "verseReference": "Acts 22:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-22-easy-q4",
+          "question": "What was Paul zealous for before his conversion, according to Acts 22:3?",
+          "type": "multiple-choice",
+          "options": [
+            "God",
+            "Money",
+            "Power",
+            "The Roman Empire"
+          ],
+          "correctAnswer": "God",
+          "explanation": "Acts 22:3 says Paul was zealous toward God.",
+          "verseReference": "Acts 22:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-22-easy-q5",
+          "question": "What did Paul do to those who followed the Way before his conversion, as described in Acts 22:4?",
+          "type": "multiple-choice",
+          "options": [
+            "Persecuted them unto death",
+            "Helped them",
+            "Ignored them",
+            "Preached to them"
+          ],
+          "correctAnswer": "Persecuted them unto death",
+          "explanation": "Acts 22:4 says Paul persecuted this way unto death, binding and delivering both men and women into prisons.",
+          "verseReference": "Acts 22:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-22-easy-q6",
+          "question": "What happened to Paul as he neared Damascus, according to Acts 22:6?",
+          "type": "multiple-choice",
+          "options": [
+            "A great light shone from heaven around him",
+            "He was arrested",
+            "He fell ill",
+            "He met Ananias"
+          ],
+          "correctAnswer": "A great light shone from heaven around him",
+          "explanation": "Acts 22:6 says suddenly a great light shone from heaven round about Paul as he came near Damascus.",
+          "verseReference": "Acts 22:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-22-easy-q7",
+          "question": "What did the voice from heaven say to Paul in Acts 22:7?",
+          "type": "multiple-choice",
+          "options": [
+            "Saul, Saul, why persecutest thou me?",
+            "Go to Damascus",
+            "Fear not, Paul",
+            "I am with you always"
+          ],
+          "correctAnswer": "Saul, Saul, why persecutest thou me?",
+          "explanation": "Acts 22:7 records the voice saying, 'Saul, Saul, why persecutest thou me?'",
+          "verseReference": "Acts 22:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-22-easy-q8",
+          "question": "Who identified himself to Paul as the one he was persecuting, according to Acts 22:8?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus of Nazareth",
+            "Ananias",
+            "Gamaliel",
+            "The high priest"
+          ],
+          "correctAnswer": "Jesus of Nazareth",
+          "explanation": "Acts 22:8 says the voice identified as Jesus of Nazareth whom Paul persecuted.",
+          "verseReference": "Acts 22:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-22-easy-q9",
+          "question": "What did Paul ask the Lord after hearing the voice, in Acts 22:10?",
+          "type": "multiple-choice",
+          "options": [
+            "What shall I do, Lord?",
+            "Why have you forsaken me?",
+            "Who are you?",
+            "Where am I?"
+          ],
+          "correctAnswer": "What shall I do, Lord?",
+          "explanation": "Acts 22:10 states Paul said, 'What shall I do, Lord?'",
+          "verseReference": "Acts 22:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-22-easy-q10",
+          "question": "Who came to Paul in Damascus to restore his sight, as per Acts 22:12-13?",
+          "type": "multiple-choice",
+          "options": [
+            "Ananias",
+            "Gamaliel",
+            "The high priest",
+            "A Roman centurion"
+          ],
+          "correctAnswer": "Ananias",
+          "explanation": "Acts 22:12-13 mentions Ananias, a devout man, who told Paul to receive his sight.",
+          "verseReference": "Acts 22:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-22-easy-q11",
+          "question": "True or False: According to Acts 22:16, Paul was told to be baptized to wash away his sins.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Acts 22:16 instructs Paul to arise, be baptized, and wash away his sins.",
+          "verseReference": "Acts 22:16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-22-easy-q12",
+          "question": "True or False: Acts 22:20 states Paul stood by and consented to the death of Stephen.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Acts 22:20 records Paul as consenting to Stephen's death and keeping the raiment of those who killed him.",
+          "verseReference": "Acts 22:20",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-22-easy-q13",
+          "question": "True or False: In Acts 22:21, Paul was told he would be sent to the Gentiles.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Acts 22:21 says Paul was told to depart because he would be sent far to the Gentiles.",
+          "verseReference": "Acts 22:21",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-22-easy-q14",
+          "question": "Complete this verse from Acts 22:25: 'Is it lawful for you to ______ a man that is a Roman, and uncondemned?'",
+          "type": "fill-blank",
+          "options": [
+            "scourge",
+            "bind",
+            "imprison",
+            "judge"
+          ],
+          "correctAnswer": "scourge",
+          "explanation": "Acts 22:25 records Paul asking if it is lawful to scourge a Roman who is uncondemned.",
+          "verseReference": "Acts 22:25",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-22-easy-q15",
+          "question": "What was Paul's citizenship status according to Acts 22:28?",
+          "type": "multiple-choice",
+          "options": [
+            "Free born Roman",
+            "Slave",
+            "Citizen of Tarsus",
+            "Subject of Cilicia"
+          ],
+          "correctAnswer": "Free born Roman",
+          "explanation": "Acts 22:28 states Paul was free born, not having purchased his Roman citizenship.",
+          "verseReference": "Acts 22:28",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "acts-22-quiz",
+      "tags": [
+        "acts",
+        "chapter-22",
+        "acts",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "acts-22-medium",
+      "title": "Acts Chapter 22 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Acts Chapter 22 to real-life situations.",
+      "type": "chapter",
+      "book": "Acts",
+      "chapter": 22,
+      "questions": [
+        {
+          "id": "acts-22-medium-q1",
+          "question": "How does Paul’s experience in Acts 22 teach us about obedience to God's calling even when facing opposition?",
+          "type": "multiple-choice",
+          "options": [
+            "Obey God promptly and trust His guidance",
+            "Wait for others to confirm before acting",
+            "Ignore the calling if it causes trouble",
+            "Only obey when it is convenient"
+          ],
+          "correctAnswer": "Obey God promptly and trust His guidance",
+          "explanation": "Paul obeyed the Lord immediately when told to arise and go into Damascus and later to depart for the Gentiles (Acts 22:10, 21). His swift obedience despite opposition shows trust and submission to God's will.",
+          "verseReference": "Acts 22:10, 21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-22-medium-q2",
+          "question": "A fellow believer is struggling with fear after facing harsh criticism for their faith. Based on Acts 22, what biblical truth about courage and reassurance can you share?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s presence and calling give strength to persevere",
+            "Avoid confrontations to keep peace",
+            "Only speak when you are strong enough",
+            "Rely on others to defend your faith"
+          ],
+          "correctAnswer": "God’s presence and calling give strength to persevere",
+          "explanation": "Paul was strengthened by God's direct revelation and calling despite threats and opposition (Acts 22:6-7, 21-22). This shows how God’s presence enables believers to stand firm.",
+          "verseReference": "Acts 22:6-7, 21-22",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-22-medium-q3",
+          "question": "How does Paul’s testimony about his former persecution of Christians teach us about humility and repentance?",
+          "type": "multiple-choice",
+          "options": [
+            "Confess past mistakes honestly and turn to God",
+            "Hide past sins to maintain reputation",
+            "Blame others for your faults",
+            "Ignore past errors and continue as before"
+          ],
+          "correctAnswer": "Confess past mistakes honestly and turn to God",
+          "explanation": "Paul openly admitted persecuting believers and consenting to Stephen's death, showing humility and repentance (Acts 22:4, 20). His transformation encourages believers to confess and change.",
+          "verseReference": "Acts 22:4, 20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-22-medium-q4",
+          "question": "What practical lesson about prayer and spiritual discipline can be drawn from Paul’s trance and vision in the temple?",
+          "type": "multiple-choice",
+          "options": [
+            "Persistent prayer leads to divine revelation and guidance",
+            "Prayer is unnecessary if you already know God’s will",
+            "Only pray when in trouble",
+            "Avoid deep devotion to prevent distractions"
+          ],
+          "correctAnswer": "Persistent prayer leads to divine revelation and guidance",
+          "explanation": "Paul received a vision during prayer in the temple, indicating that earnest devotion can result in God’s specific direction (Acts 22:17-18). This encourages steady prayer life.",
+          "verseReference": "Acts 22:17-18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-22-medium-q5",
+          "question": "How does the command to be baptized and wash away sins in Acts 22 encourage believers in their walk with God?",
+          "type": "multiple-choice",
+          "options": [
+            "Baptism symbolizes cleansing and commitment to Christ",
+            "Baptism is optional for true faith",
+            "Only priests can baptize",
+            "Baptism removes all future struggles"
+          ],
+          "correctAnswer": "Baptism symbolizes cleansing and commitment to Christ",
+          "explanation": "Paul was told to arise, be baptized, and call on the Lord to wash away sins, highlighting baptism as a sign of repentance and new life (Acts 22:16).",
+          "verseReference": "Acts 22:16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-22-medium-q6",
+          "question": "What does Paul’s background and training under Gamaliel teach about the value of sound teaching and integrity in Christian life?",
+          "type": "multiple-choice",
+          "options": [
+            "Proper teaching builds a foundation for zealous and informed faith",
+            "Education is irrelevant to faith",
+            "Only personal experience matters",
+            "Traditions should never be questioned"
+          ],
+          "correctAnswer": "Proper teaching builds a foundation for zealous and informed faith",
+          "explanation": "Paul was trained according to the perfect manner of the law under Gamaliel, which shaped his zeal and understanding (Acts 22:3). Sound teaching equips believers for faithful living.",
+          "verseReference": "Acts 22:3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-22-medium-q7",
+          "question": "How does Paul’s respectful address of his listeners as 'men, brethren, and fathers' model humility and respect in sharing the gospel?",
+          "type": "multiple-choice",
+          "options": [
+            "Respectful speech opens hearts to the message",
+            "Demanding attention is more effective",
+            "Avoid addressing opponents directly",
+            "Use harsh words to prove a point"
+          ],
+          "correctAnswer": "Respectful speech opens hearts to the message",
+          "explanation": "Paul began his defense with respectful terms, showing humility and honor which can foster receptiveness (Acts 22:1).",
+          "verseReference": "Acts 22:1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-22-medium-q8",
+          "question": "True or False: According to Acts 22, Paul’s companions heard the voice speaking to him during the light from heaven.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "The companions saw the light but did not hear the voice speaking to Paul (Acts 22:9). This highlights Paul’s unique encounter with Christ.",
+          "verseReference": "Acts 22:9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-22-medium-q9",
+          "question": "True or False: Paul’s Roman citizenship protected him from being scourged without trial.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Paul revealed his Roman citizenship which caused the captain to fear because it was unlawful to scourge a Roman uncondemned (Acts 22:25-29).",
+          "verseReference": "Acts 22:25-29",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-22-medium-q10",
+          "question": "A believer feels discouraged after being rejected by their local church. Based on Acts 22, what encouragement about perseverance and God’s plan can you offer?",
+          "type": "multiple-choice",
+          "options": [
+            "God may send you to serve others beyond your current circle",
+            "Give up if you are rejected",
+            "Seek approval from everyone",
+            "Ignore God’s plans and focus on yourself"
+          ],
+          "correctAnswer": "God may send you to serve others beyond your current circle",
+          "explanation": "Paul was told to leave Jerusalem because the Jews would not accept his testimony and to go to the Gentiles, showing God’s purpose beyond rejection (Acts 22:18, 21).",
+          "verseReference": "Acts 22:18, 21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-22-medium-q11",
+          "question": "What does the story of Ananias restoring Paul's sight teach about fellowship and serving others in the church?",
+          "type": "multiple-choice",
+          "options": [
+            "Serving others with faith and good reputation strengthens the church",
+            "Only leaders should serve",
+            "Service is optional in the church",
+            "Helping is for those seeking status"
+          ],
+          "correctAnswer": "Serving others with faith and good reputation strengthens the church",
+          "explanation": "Ananias, a devout man with a good report, was sent to heal Paul, demonstrating faithful service and care within the church community (Acts 22:12-13).",
+          "verseReference": "Acts 22:12-13",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-22-medium-q12",
+          "question": "How does Paul’s example of witnessing what he has seen and heard inspire believers in evangelism?",
+          "type": "multiple-choice",
+          "options": [
+            "Be a witness to all people about God’s work in your life",
+            "Keep spiritual experiences private",
+            "Only share with close friends",
+            "Avoid discussing faith publicly"
+          ],
+          "correctAnswer": "Be a witness to all people about God’s work in your life",
+          "explanation": "Paul was chosen to be a witness to all men of what he had seen and heard (Acts 22:15), encouraging believers to share their testimony boldly.",
+          "verseReference": "Acts 22:15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-22-medium-q13",
+          "question": "How is integrity demonstrated in Paul’s interaction with the Roman authorities in Acts 22?",
+          "type": "multiple-choice",
+          "options": [
+            "He truthfully declared his Roman citizenship to avoid unlawful treatment",
+            "He lied to escape punishment",
+            "He refused to answer questions",
+            "He bribed officials for freedom"
+          ],
+          "correctAnswer": "He truthfully declared his Roman citizenship to avoid unlawful treatment",
+          "explanation": "Paul honestly confirmed his citizenship when questioned, showing integrity and respect for lawful rights (Acts 22:27-28).",
+          "verseReference": "Acts 22:25-28",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-22-medium-q14",
+          "question": "Fill in the blank: Paul was brought before the _______ after being released from his bonds to know the certainty of the accusations against him.",
+          "type": "fill-blank",
+          "options": [
+            "chief priests and council",
+            "Roman governor",
+            "synagogue elders",
+            "high priest alone"
+          ],
+          "correctAnswer": "chief priests and council",
+          "explanation": "Paul was commanded to appear before the chief priests and all their council to clarify the accusations (Acts 22:30).",
+          "verseReference": "Acts 22:30",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-22-medium-q15",
+          "question": "How does Paul’s experience of persecution and later commission to the Gentiles teach us about perseverance through trials?",
+          "type": "multiple-choice",
+          "options": [
+            "Trials can prepare and redirect believers for greater purpose",
+            "Trials mean God has abandoned you",
+            "Avoid trials at all costs",
+            "Only the strong survive trials"
+          ],
+          "correctAnswer": "Trials can prepare and redirect believers for greater purpose",
+          "explanation": "Paul’s initial persecution of Christians was transformed into a divine mission to the Gentiles, showing how God uses trials for His plan (Acts 22:4, 21).",
+          "verseReference": "Acts 22:4, 21",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "acts-22-quiz",
+      "tags": [
+        "acts",
+        "chapter-22",
+        "acts",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "acts-22-hard",
+      "title": "Acts Chapter 22 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Acts Chapter 22.",
+      "type": "chapter",
+      "book": "Acts",
+      "chapter": 22,
+      "questions": [
+        {
+          "id": "acts-22-hard-q1",
+          "question": "In Acts 22:3, Paul describes his upbringing and education. What is significant about his teacher Gamaliel in a Jewish historical context?",
+          "type": "multiple-choice",
+          "options": [
+            "Gamaliel was a respected Pharisee and member of the Sanhedrin",
+            "Gamaliel was a Roman governor",
+            "Gamaliel was a Sadducee priest",
+            "Gamaliel was a Gentile convert"
+          ],
+          "correctAnswer": "Gamaliel was a respected Pharisee and member of the Sanhedrin",
+          "explanation": "Acts 22:3 shows Paul was taught at the feet of Gamaliel, who was a renowned Pharisee and a member of the Jewish ruling council, the Sanhedrin, indicating Paul's strong Pharisaic roots and strict adherence to the law.",
+          "verseReference": "Acts 22:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-hard-q2",
+          "question": "Acts 22:6-7 describes a divine encounter on the road to Damascus. What literary device is primarily used in the description of the 'great light' from heaven?",
+          "type": "multiple-choice",
+          "options": [
+            "Symbolism representing divine revelation",
+            "Allegory for spiritual blindness",
+            "Parable about the law",
+            "Hyperbole to emphasize fear"
+          ],
+          "correctAnswer": "Symbolism representing divine revelation",
+          "explanation": "The 'great light' symbolizes God's revelation to Saul (Paul), marking a moment of divine intervention and illumination, a common biblical motif for God's presence (Acts 22:6-7).",
+          "verseReference": "Acts 22:6-7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-hard-q3",
+          "question": "What is the significance of Paul addressing the crowd in the Hebrew tongue in Acts 22:2?",
+          "type": "multiple-choice",
+          "options": [
+            "It indicates his intent to connect with his Jewish audience on a cultural and religious level",
+            "It shows he was rebuking the Gentiles present",
+            "It was a secret code to his followers",
+            "It was to confuse his Roman captors"
+          ],
+          "correctAnswer": "It indicates his intent to connect with his Jewish audience on a cultural and religious level",
+          "explanation": "Speaking in Hebrew enabled Paul to engage his Jewish listeners intimately, showing respect for their heritage and making his defense more persuasive (Acts 22:2).",
+          "verseReference": "Acts 22:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-hard-q4",
+          "question": "In Acts 22:4-5, Paul mentions persecuting 'this way.' To what Old Testament prophetic theme does 'this way' allude?",
+          "type": "multiple-choice",
+          "options": [
+            "The prophetic anticipation of a new covenant and the Messiah's followers",
+            "The Mosaic law given on Mount Sinai",
+            "The Babylonian exile",
+            "The establishment of the Davidic kingdom"
+          ],
+          "correctAnswer": "The prophetic anticipation of a new covenant and the Messiah's followers",
+          "explanation": "'This way' refers to the early Christian movement, which fulfilled Old Testament prophecies of a new covenant and the Messiah’s coming, often opposed by traditionalists like Paul before his conversion (Acts 22:4-5).",
+          "verseReference": "Acts 22:4-5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-hard-q5",
+          "question": "What theological significance does the voice from heaven ask Paul in Acts 22:7, 'Saul, Saul, why persecutest thou me?'",
+          "type": "multiple-choice",
+          "options": [
+            "It reveals the unity of Christ with His followers, identifying Himself with them",
+            "It is a rhetorical question with no real meaning",
+            "It indicates Jesus was unaware of Paul's actions",
+            "It reflects a human misunderstanding of persecution"
+          ],
+          "correctAnswer": "It reveals the unity of Christ with His followers, identifying Himself with them",
+          "explanation": "The question underscores the identification of Jesus with His followers, implying that persecuting believers is equivalent to persecuting Christ Himself, a profound theological claim (Acts 22:7).",
+          "verseReference": "Acts 22:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-hard-q6",
+          "question": "In Acts 22:13-14, Ananias calls Saul 'Brother Saul.' What does this term signify in the cultural and theological context?",
+          "type": "multiple-choice",
+          "options": [
+            "Recognition of Saul’s new identity as a fellow believer",
+            "A sarcastic term to mock Saul",
+            "A term used exclusively for family members",
+            "A title given to Roman officials"
+          ],
+          "correctAnswer": "Recognition of Saul’s new identity as a fellow believer",
+          "explanation": "'Brother' signifies Saul’s acceptance into the Christian community, marking a transformation from persecutor to believer and equal member in the family of God (Acts 22:13).",
+          "verseReference": "Acts 22:13-14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-hard-q7",
+          "question": "Acts 22:16 emphasizes baptism as a means to 'wash away thy sins.' How does this align with Jewish purification rituals?",
+          "type": "multiple-choice",
+          "options": [
+            "It parallels mikveh immersion used for ritual purification but signifies spiritual cleansing",
+            "It replaces the Passover sacrifice",
+            "It contradicts all Jewish purification customs",
+            "It is unrelated to any Jewish practice"
+          ],
+          "correctAnswer": "It parallels mikveh immersion used for ritual purification but signifies spiritual cleansing",
+          "explanation": "Baptism reflects and spiritualizes the Jewish mikveh ritual, where immersion symbolizes cleansing and renewal, but here it signifies the washing away of sin through Christ (Acts 22:16).",
+          "verseReference": "Acts 22:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-hard-q8",
+          "question": "Considering Acts 22:17-18, how does Paul's vision in the temple foreshadow his future mission?",
+          "type": "multiple-choice",
+          "options": [
+            "God instructs him to leave Jerusalem because his testimony will be rejected, indicating his mission to the Gentiles",
+            "He is told to become a temple priest",
+            "He is commanded to cease preaching",
+            "He receives a promise of political power"
+          ],
+          "correctAnswer": "God instructs him to leave Jerusalem because his testimony will be rejected, indicating his mission to the Gentiles",
+          "explanation": "The vision predicts opposition in Jerusalem and directs Paul to a broader mission field among Gentiles, showing divine guidance for the spread of the gospel (Acts 22:17-18).",
+          "verseReference": "Acts 22:17-18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-hard-q9",
+          "question": "In Acts 22:20, Paul mentions his presence at the martyrdom of Stephen. What literary purpose does this serve in his defense?",
+          "type": "multiple-choice",
+          "options": [
+            "Acknowledges his past wrongs to highlight his transformation",
+            "Denies any involvement with Stephen's death",
+            "Claims credit for Stephen's death",
+            "Avoids responsibility for persecution"
+          ],
+          "correctAnswer": "Acknowledges his past wrongs to highlight his transformation",
+          "explanation": "By confessing his past participation, Paul contrasts his former zeal in persecution with his current mission, underscoring the radical nature of his conversion (Acts 22:20).",
+          "verseReference": "Acts 22:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-hard-q10",
+          "question": "What historical privilege is highlighted in Paul’s question in Acts 22:25 about being scourged as a Roman citizen?",
+          "type": "multiple-choice",
+          "options": [
+            "Roman citizens were legally protected from scourging without trial",
+            "Roman citizens had no legal rights",
+            "Roman citizens were required to be scourged",
+            "Roman citizenship was purely honorary"
+          ],
+          "correctAnswer": "Roman citizens were legally protected from scourging without trial",
+          "explanation": "Paul asserts his Roman citizenship, which protected him from corporal punishment without a formal trial, reflecting the legal rights of Roman citizens in the empire (Acts 22:25).",
+          "verseReference": "Acts 22:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-hard-q11",
+          "question": "Acts 22:28 reveals Paul’s status as a Roman citizen by birth. What significance does this have in the context of his ministry?",
+          "type": "multiple-choice",
+          "options": [
+            "It gave him unique legal protections and access to diverse audiences",
+            "It made him a Roman official",
+            "It disqualified him from Jewish synagogues",
+            "It required him to pay higher taxes"
+          ],
+          "correctAnswer": "It gave him unique legal protections and access to diverse audiences",
+          "explanation": "As a freeborn Roman citizen, Paul had privileges that facilitated his missionary work, including legal protections and the ability to appeal to Roman authorities (Acts 22:28).",
+          "verseReference": "Acts 22:28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-hard-q12",
+          "question": "How does the crowd's reaction in Acts 22:22 illustrate the tension between early Christians and Jewish authorities?",
+          "type": "multiple-choice",
+          "options": [
+            "They called for Paul's death, showing hostility to his message",
+            "They welcomed Paul warmly",
+            "They ignored Paul's speech",
+            "They requested Paul to become high priest"
+          ],
+          "correctAnswer": "They called for Paul's death, showing hostility to his message",
+          "explanation": "The crowd’s violent outburst demonstrates the deep conflict and rejection Paul faced from some Jewish groups opposed to the Christian message (Acts 22:22).",
+          "verseReference": "Acts 22:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-hard-q13",
+          "question": "True or False: In Acts 22:9, Paul's companions heard both the light and the voice speaking to Paul.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Acts 22:9 clarifies that Paul's companions saw the light and were afraid, but did not hear the voice speaking to Paul.",
+          "verseReference": "Acts 22:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-hard-q14",
+          "question": "What is the significance of the chief captain's fear after discovering Paul's Roman citizenship in Acts 22:29?",
+          "type": "multiple-choice",
+          "options": [
+            "He feared legal repercussions for unlawfully binding a Roman citizen",
+            "He was afraid of Paul’s physical strength",
+            "He feared the Jewish leaders",
+            "He was afraid of the crowd's reaction"
+          ],
+          "correctAnswer": "He feared legal repercussions for unlawfully binding a Roman citizen",
+          "explanation": "The captain’s fear reflects the serious legal consequences for mistreating a Roman citizen without due process, showing the power of Roman law (Acts 22:29).",
+          "verseReference": "Acts 22:29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-hard-q15",
+          "question": "In Acts 22:21, Jesus tells Paul he will be sent 'far hence unto the Gentiles.' How does this statement align with Old Testament prophecies?",
+          "type": "multiple-choice",
+          "options": [
+            "It fulfills Isaiah's prophecy of the Messiah being a light to the Gentiles",
+            "It contradicts the exclusivity of Israel",
+            "It ignores the Abrahamic covenant",
+            "It signals the end of missionary work"
+          ],
+          "correctAnswer": "It fulfills Isaiah's prophecy of the Messiah being a light to the Gentiles",
+          "explanation": "Jesus’ commission to Paul echoes Isaiah 42:6 and 49:6, where the Servant is called to bring salvation to the Gentiles, expanding God's covenant promises beyond Israel (Acts 22:21).",
+          "verseReference": "Acts 22:21",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "acts-22-quiz",
+      "tags": [
+        "acts",
+        "chapter-22",
+        "acts",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "acts-22-theological",
+      "title": "Acts Chapter 22 Quiz - Theological Level",
+      "description": "Deep biblical theology from Acts Chapter 22 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Acts",
+      "chapter": 22,
+      "questions": [
+        {
+          "id": "acts-22-theological-q1",
+          "question": "According to Paul's defense in Acts 22, how was he instructed to act after his encounter with Jesus on the road to Damascus?",
+          "type": "multiple-choice",
+          "options": [
+            "Arise and go into Damascus where it will be told what he must do",
+            "Return to Jerusalem and preach in the temple",
+            "Stay in Tarsus and teach the Gentiles",
+            "Go to Gamaliel for further instruction"
+          ],
+          "correctAnswer": "Arise and go into Damascus where it will be told what he must do",
+          "explanation": "Acts 22:10 records that after Paul's encounter, the Lord told him to 'Arise, and go into Damascus; and there it shall be told thee of all things which are appointed for thee to do.' This is consistent with God's pattern of revealing His will progressively (cf. Acts 9:6; Jeremiah 29:11; Isaiah 30:21; Psalm 32:8).",
+          "verseReference": "Acts 22:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-theological-q2",
+          "question": "What was Paul's background and training before his conversion as stated in Acts 22?",
+          "type": "multiple-choice",
+          "options": [
+            "A Jew born in Tarsus, trained at the feet of Gamaliel according to the law",
+            "A Greek philosopher from Athens, trained in rhetoric",
+            "A Roman citizen educated in Rome's law schools",
+            "A Samaritan raised in the desert by prophets"
+          ],
+          "correctAnswer": "A Jew born in Tarsus, trained at the feet of Gamaliel according to the law",
+          "explanation": "Acts 22:3 clearly states Paul was 'a Jew, born in Tarsus, a city in Cilicia, yet brought up in this city at the feet of Gamaliel,' and was taught according to the perfect manner of the law, showing his rigorous Pharisaic training (cf. Philippians 3:5-6; Galatians 1:14; Exodus 24:12; Deuteronomy 6:6-7).",
+          "verseReference": "Acts 22:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-theological-q3",
+          "question": "How did Paul describe his attitude toward God and the law before his conversion?",
+          "type": "multiple-choice",
+          "options": [
+            "Zealous toward God as the others were",
+            "Indifferent to the law and religion",
+            "Hostile to Jewish customs",
+            "Unaware of God's commandments"
+          ],
+          "correctAnswer": "Zealous toward God as the others were",
+          "explanation": "Acts 22:3 mentions Paul was 'zealous toward God, as ye all are this day,' reflecting his fervent commitment to Judaism prior to conversion (cf. Romans 10:2; Galatians 1:14; Exodus 20:5; Romans 3:20).",
+          "verseReference": "Acts 22:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-theological-q4",
+          "question": "What did Paul claim to have done to those who followed 'this way' before his conversion?",
+          "type": "multiple-choice",
+          "options": [
+            "Persecuted them unto death, binding and delivering them to prisons",
+            "Preached to them about Jesus",
+            "Ignored them",
+            "Supported their teachings quietly"
+          ],
+          "correctAnswer": "Persecuted them unto death, binding and delivering them to prisons",
+          "explanation": "Acts 22:4 states Paul 'persecuted this way unto the death, binding and delivering into prisons both men and women,' illustrating his active opposition to early Christians (cf. Acts 9:1-2; Philippians 3:6; Exodus 22:20; Psalm 94:20).",
+          "verseReference": "Acts 22:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-theological-q5",
+          "question": "Who bore witness to Paul's authority to persecute Christians and gave him letters to the brethren in Damascus?",
+          "type": "multiple-choice",
+          "options": [
+            "The high priest and the elders",
+            "The Roman governor",
+            "The Pharisees only",
+            "The Gentile council"
+          ],
+          "correctAnswer": "The high priest and the elders",
+          "explanation": "Acts 22:5 states the high priest and elders gave Paul letters to persecute Christians in Damascus, confirming his legitimacy under Jewish authority (cf. Acts 9:1-2; John 18:13; Exodus 18:13; Hebrews 13:7).",
+          "verseReference": "Acts 22:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-theological-q6",
+          "question": "What supernatural event did Paul experience near Damascus that led to his conversion?",
+          "type": "multiple-choice",
+          "options": [
+            "A great light from heaven shone around him",
+            "An earthquake shook the ground",
+            "Angels appeared and sang",
+            "A thunderstorm with fire"
+          ],
+          "correctAnswer": "A great light from heaven shone around him",
+          "explanation": "Acts 22:6 records 'suddenly there shone from heaven a great light round about me,' signifying God's direct intervention and revelation, consistent with other divine appearances (cf. Acts 9:3; Exodus 3:2; Isaiah 6:1; Luke 2:9).",
+          "verseReference": "Acts 22:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-theological-q7",
+          "question": "What question did the voice from heaven ask Paul during his encounter?",
+          "type": "multiple-choice",
+          "options": [
+            "Saul, Saul, why persecutest thou me?",
+            "Who do you seek?",
+            "Why do you doubt?",
+            "Will you follow me?"
+          ],
+          "correctAnswer": "Saul, Saul, why persecutest thou me?",
+          "explanation": "Acts 22:7 shows the voice asked, 'Saul, Saul, why persecutest thou me?' revealing the identification of Christ with His followers and emphasizing the personal nature of persecution (cf. Acts 9:4; Matthew 25:40; John 15:20; Hebrews 13:3).",
+          "verseReference": "Acts 22:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-theological-q8",
+          "question": "How did Paul respond when he heard the voice on the road to Damascus?",
+          "type": "multiple-choice",
+          "options": [
+            "Who art thou, Lord?",
+            "I will stop persecuting",
+            "I am unworthy",
+            "What must I do?"
+          ],
+          "correctAnswer": "Who art thou, Lord?",
+          "explanation": "Acts 22:8 records Paul's immediate response as 'Who art thou, Lord?' demonstrating his seeking to understand the divine revelation, a response consistent with humility and inquiry (cf. Acts 9:5; Isaiah 6:8; Psalm 25:4; John 4:25).",
+          "verseReference": "Acts 22:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-theological-q9",
+          "question": "Who was sent to restore Paul's sight after his encounter with Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "Ananias, a devout man according to the law",
+            "Peter the apostle",
+            "John the Baptist",
+            "A Roman centurion"
+          ],
+          "correctAnswer": "Ananias, a devout man according to the law",
+          "explanation": "Acts 22:12-13 describes Ananias as the one sent to Paul to restore his sight, emphasizing God's use of faithful believers to minister (cf. Acts 9:10-12; Luke 1:6; Exodus 3:7; James 5:14).",
+          "verseReference": "Acts 22:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-theological-q10",
+          "question": "What divine purpose was Paul chosen for, as explained by Ananias?",
+          "type": "multiple-choice",
+          "options": [
+            "To know God's will, see the Just One, and be His witness to all men",
+            "To become a high priest in Jerusalem",
+            "To lead the Pharisees against Christians",
+            "To build a new temple"
+          ],
+          "correctAnswer": "To know God's will, see the Just One, and be His witness to all men",
+          "explanation": "Acts 22:14-15 states Paul was chosen to 'know his will, see that Just One, and be his witness unto all men,' underscoring the apostolic mission of revealing Christ and spreading the gospel (cf. Isaiah 42:1; John 1:29; Acts 1:8; Romans 1:16).",
+          "verseReference": "Acts 22:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-theological-q11",
+          "question": "What command did Ananias give Paul concerning his spiritual cleansing?",
+          "type": "multiple-choice",
+          "options": [
+            "Arise, be baptized, and wash away thy sins",
+            "Fast for forty days",
+            "Offer a sacrifice at the temple",
+            "Go to Jerusalem for approval"
+          ],
+          "correctAnswer": "Arise, be baptized, and wash away thy sins",
+          "explanation": "Acts 22:16 commands Paul to 'arise, and be baptized, and wash away thy sins, calling on the name of the Lord,' highlighting the theological significance of baptism as a symbol of repentance and cleansing (cf. Romans 6:3-4; 1 Peter 3:21; Mark 1:4; Ezekiel 36:25).",
+          "verseReference": "Acts 22:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-theological-q12",
+          "question": "What vision did Paul receive when praying in the temple in Jerusalem after his conversion?",
+          "type": "multiple-choice",
+          "options": [
+            "A command to flee Jerusalem quickly because the people would reject his testimony",
+            "A promise of immediate acceptance by Jewish leaders",
+            "A vision of the destruction of the temple",
+            "A revelation about the end times"
+          ],
+          "correctAnswer": "A command to flee Jerusalem quickly because the people would reject his testimony",
+          "explanation": "Acts 22:18 reveals Paul saw a vision commanding him to 'Make haste, and get thee quickly out of Jerusalem: for they will not receive thy testimony,' indicating God's protective guidance and the initial rejection of the gospel by Jewish authorities (cf. Acts 9:23-25; Matthew 10:16; John 15:18; Psalm 37:39).",
+          "verseReference": "Acts 22:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-theological-q13",
+          "question": "What role did Paul have in the death of Stephen, according to his own testimony?",
+          "type": "multiple-choice",
+          "options": [
+            "He stood by, consented, and kept the raiment of those who slew him",
+            "He tried to defend Stephen",
+            "He was unaware of Stephen's death",
+            "He was not present at the event"
+          ],
+          "correctAnswer": "He stood by, consented, and kept the raiment of those who slew him",
+          "explanation": "Acts 22:20 shows Paul admitting he 'was standing by, and consenting unto his death, and kept the raiment of them that slew him,' confessing his complicity and underscoring human sinfulness and need for redemption (cf. Acts 7:58; John 18:38; Romans 3:23; Psalm 51:5).",
+          "verseReference": "Acts 22:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-theological-q14",
+          "question": "What was Paul's citizenship status and how did it affect his treatment by Roman authorities?",
+          "type": "multiple-choice",
+          "options": [
+            "He was a Roman citizen by birth, which protected him from illegal scourging",
+            "He was a slave and had no rights",
+            "He was a Greek citizen with limited privileges",
+            "He was a Jewish citizen only"
+          ],
+          "correctAnswer": "He was a Roman citizen by birth, which protected him from illegal scourging",
+          "explanation": "Acts 22:25-29 explains Paul questioned the legality of scourging a Roman citizen uncondemned; the chief captain learned Paul was 'free born,' leading to his release from chains, illustrating the Roman legal protections (cf. Acts 16:37; Exodus 21:26-27; Deuteronomy 24:16; Luke 23:8).",
+          "verseReference": "Acts 22:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-22-theological-q15",
+          "question": "What was the reaction of the crowd to Paul's message about being sent to the Gentiles?",
+          "type": "multiple-choice",
+          "options": [
+            "They shouted, 'Away with such a fellow from the earth!'",
+            "They welcomed him with open arms",
+            "They asked him to explain further",
+            "They remained silent in confusion"
+          ],
+          "correctAnswer": "They shouted, 'Away with such a fellow from the earth!'",
+          "explanation": "Acts 22:22 records that upon hearing Paul speak of his mission to Gentiles, the crowd cried out for his death, evidencing the intense ethnic and religious tensions and opposition to the gospel (cf. Acts 13:45; John 7:48; Matthew 27:22; Psalm 2:1-3).",
+          "verseReference": "Acts 22:22",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "acts-22-quiz",
+      "tags": [
+        "acts",
+        "chapter-22",
+        "acts",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hebrew Lexicon - Biblical Word Study</title>
+    <meta name="description" content="Browse 8,600+ Hebrew words from the Bible with Strong's numbers, transliterations, and definitions.">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --rose: #E11D48;
+            --rose-light: #F43F5E;
+            --rose-dark: #BE123C;
+            --bg-dark: #0F172A;
+            --bg-card: rgba(15, 23, 42, 0.7);
+            --bg-glass: rgba(30, 41, 59, 0.5);
+            --text-primary: #F1F5F9;
+            --text-secondary: #CBD5E1;
+            --border-color: rgba(226, 29, 72, 0.2);
+            --accent-gold: #D4AF37;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #0F172A 100%);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            direction: rtl;
+        }
+
+        /* Navigation */
+        nav {
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--rose);
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+
+        nav .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: var(--rose);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 4rem 2rem;
+            text-align: center;
+            background: linear-gradient(180deg, rgba(226, 29, 72, 0.1) 0%, transparent 100%);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .hero .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--rose) 0%, var(--rose-light) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: -1px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: rgba(226, 29, 72, 0.15);
+            border: 1px solid var(--rose);
+            color: var(--rose);
+            padding: 0.5rem 1.2rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            letter-spacing: 0.5px;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+        }
+
+        .word-count {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--rose);
+            margin-top: 1rem;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Controls Section */
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 3rem 0 2rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 250px;
+            position: relative;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            background: var(--bg-glass);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-primary);
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+        }
+
+        .search-box input::placeholder {
+            color: var(--text-secondary);
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: var(--rose);
+            background: rgba(30, 41, 59, 0.8);
+            box-shadow: 0 0 0 3px rgba(226, 29, 72, 0.1);
+        }
+
+        .filter-select {
+            padding: 0.75rem 1rem;
+            background: var(--bg-glass);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-primary);
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .filter-select:hover {
+            border-color: var(--rose);
+        }
+
+        .filter-select:focus {
+            outline: none;
+            border-color: var(--rose);
+            box-shadow: 0 0 0 3px rgba(226, 29, 72, 0.1);
+        }
+
+        /* Word Grid */
+        .word-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0 3rem;
+        }
+
+        @media (max-width: 1200px) {
+            .word-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .word-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .word-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Word Card */
+        .word-card {
+            background: var(--bg-glass);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .word-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(226, 29, 72, 0.1) 0%, transparent 100%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            pointer-events: none;
+        }
+
+        .word-card:hover {
+            border-color: var(--rose);
+            background: rgba(30, 41, 59, 0.8);
+            transform: translateY(-4px);
+            box-shadow: 0 8px 32px rgba(226, 29, 72, 0.15);
+        }
+
+        .word-card:hover::before {
+            opacity: 1;
+        }
+
+        .strongs-number {
+            display: inline-block;
+            background: rgba(226, 29, 72, 0.2);
+            color: var(--rose);
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            letter-spacing: 0.5px;
+        }
+
+        .hebrew-word {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--rose);
+            margin: 0.75rem 0;
+            font-family: 'Arial', 'Segoe UI', sans-serif;
+            line-height: 1.4;
+        }
+
+        .transliteration {
+            font-size: 0.95rem;
+            color: var(--accent-gold);
+            font-style: italic;
+            margin-bottom: 0.75rem;
+            font-weight: 500;
+        }
+
+        .definition {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            margin-top: 0.75rem;
+        }
+
+        /* Pagination */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+            margin: 3rem 0;
+            flex-wrap: wrap;
+        }
+
+        .pagination button,
+        .pagination a {
+            padding: 0.6rem 0.9rem;
+            background: var(--bg-glass);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            color: var(--text-primary);
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .pagination button:hover,
+        .pagination a:hover {
+            border-color: var(--rose);
+            background: rgba(226, 29, 72, 0.1);
+        }
+
+        .pagination .active {
+            background: var(--rose);
+            border-color: var(--rose);
+            color: white;
+            font-weight: 600;
+        }
+
+        .pagination .disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .pagination .disabled:hover {
+            border-color: var(--border-color);
+            background: var(--bg-glass);
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, #0F172A 0%, #1A1F35 100%);
+            border-top: 2px solid var(--rose);
+            border-bottom: 2px solid var(--rose);
+            padding: 4rem 2rem;
+            margin: 4rem 0;
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .cta-section p {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--rose) 0%, var(--rose-light) 100%);
+            color: white;
+            padding: 1rem 2.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            letter-spacing: 0.5px;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 24px rgba(226, 29, 72, 0.3);
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(15, 23, 42, 0.95);
+            border-top: 1px solid var(--border-color);
+            padding: 2rem;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--rose);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: var(--rose-light);
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .word-card {
+            animation: fadeInUp 0.5s ease forwards;
+        }
+
+        .word-card:nth-child(1) { animation-delay: 0.05s; }
+        .word-card:nth-child(2) { animation-delay: 0.1s; }
+        .word-card:nth-child(3) { animation-delay: 0.15s; }
+        .word-card:nth-child(4) { animation-delay: 0.2s; }
+        .word-card:nth-child(5) { animation-delay: 0.25s; }
+        .word-card:nth-child(6) { animation-delay: 0.3s; }
+        .word-card:nth-child(7) { animation-delay: 0.35s; }
+        .word-card:nth-child(8) { animation-delay: 0.4s; }
+        .word-card:nth-child(9) { animation-delay: 0.45s; }
+        .word-card:nth-child(10) { animation-delay: 0.5s; }
+        .word-card:nth-child(11) { animation-delay: 0.55s; }
+        .word-card:nth-child(12) { animation-delay: 0.6s; }
+        .word-card:nth-child(13) { animation-delay: 0.65s; }
+        .word-card:nth-child(14) { animation-delay: 0.7s; }
+        .word-card:nth-child(15) { animation-delay: 0.75s; }
+        .word-card:nth-child(16) { animation-delay: 0.8s; }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="/" class="logo">📖 SalvationCall</a>
+            <ul class="nav-links">
+                <li><a href="/bible-quizzes">Bible Quizzes</a></li>
+                <li><a href="/lexicon-hebrew.html">Hebrew Lexicon</a></li>
+                <li><a href="/lexicon-greek.html">Greek Lexicon</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <span class="badge">📜 Manuscript Index</span>
+            <h1>Hebrew Lexicon</h1>
+            <p>Explore biblical Hebrew words with Strong's numbers and scholarly definitions</p>
+            <div class="word-count">8,600+ Words</div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Controls -->
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" placeholder="Search by transliteration or definition..." id="searchInput">
+            </div>
+            <select class="filter-select" id="filterSelect">
+                <option value="">All Categories</option>
+                <option value="noun">Nouns</option>
+                <option value="verb">Verbs</option>
+                <option value="adjective">Adjectives</option>
+                <option value="preposition">Prepositions</option>
+            </select>
+        </div>
+
+        <!-- Word Grid -->
+        <div class="word-grid">
+            <!-- Card 1 -->
+            <div class="word-card">
+                <div class="strongs-number">H7965</div>
+                <div class="hebrew-word">שָׁלוֹם</div>
+                <div class="transliteration">Shalom</div>
+                <div class="definition">Peace, completeness, welfare, wholeness. Represents not merely the absence of conflict but a state of harmony and well-being.</div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="word-card">
+                <div class="strongs-number">H2617</div>
+                <div class="hebrew-word">חֶסֶד</div>
+                <div class="transliteration">Chesed</div>
+                <div class="definition">Loving-kindness, mercy, grace. Denotes God's covenant love and steadfast devotion toward His people.</div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="word-card">
+                <div class="strongs-number">H530</div>
+                <div class="hebrew-word">אֱמוּנָה</div>
+                <div class="transliteration">Emunah</div>
+                <div class="definition">Faith, faithfulness, trust, reliability. Expresses unwavering confidence in God's character and promises.</div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="word-card">
+                <div class="strongs-number">H1697</div>
+                <div class="hebrew-word">דָּבָר</div>
+                <div class="transliteration">Dabar</div>
+                <div class="definition">Word, matter, thing, speech. Fundamental concept representing God's creative and revelatory word.</div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="word-card">
+                <div class="strongs-number">H3820</div>
+                <div class="hebrew-word">לֵב</div>
+                <div class="transliteration">Lev</div>
+                <div class="definition">Heart, mind, will, center of emotions and intellect. The seat of understanding and moral decision-making.</div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="word-card">
+                <div class="strongs-number">H6944</div>
+                <div class="hebrew-word">קֹדֶשׁ</div>
+                <div class="transliteration">Kodesh</div>
+                <div class="definition">Holiness, sanctity, sacred. Denotes separation from the profane and dedication to God's purposes.</div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="word-card">
+                <div class="strongs-number">H3468</div>
+                <div class="hebrew-word">יְשׁוּעָה</div>
+                <div class="transliteration">Yeshuah</div>
+                <div class="definition">Salvation, deliverance, victory. Represents God's redemptive action and rescue from danger or sin.</div>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="word-card">
+                <div class="strongs-number">H8451</div>
+                <div class="hebrew-word">תּוֹרָה</div>
+                <div class="transliteration">Torah</div>
+                <div class="definition">Law, instruction, teaching, guidance. The divine instruction and revelation given by God to His people.</div>
+            </div>
+
+            <!-- Card 9 -->
+            <div class="word-card">
+                <div class="strongs-number">H2713</div>
+                <div class="hebrew-word">חָקַר</div>
+                <div class="transliteration">Chaqar</div>
+                <div class="definition">To search, examine, investigate, explore. Implies deep inquiry and thorough examination of truth.</div>
+            </div>
+
+            <!-- Card 10 -->
+            <div class="word-card">
+                <div class="strongs-number">H5315</div>
+                <div class="hebrew-word">נֶפֶשׁ</div>
+                <div class="transliteration">Nephesh</div>
+                <div class="definition">Soul, life, person, appetite, desire. Represents the vital principle and the whole person in their existence.</div>
+            </div>
+
+            <!-- Card 11 -->
+            <div class="word-card">
+                <div class="strongs-number">H7307</div>
+                <div class="hebrew-word">רוּחַ</div>
+                <div class="transliteration">Ruach</div>
+                <div class="definition">Spirit, wind, breath, attitude. Denotes the divine Spirit and the immaterial aspect of human existence.</div>
+            </div>
+
+            <!-- Card 12 -->
+            <div class="word-card">
+                <div class="strongs-number">H2026</div>
+                <div class="hebrew-word">הָרַג</div>
+                <div class="transliteration">Harag</div>
+                <div class="definition">To kill, slay, murder, destroy. Describes the act of taking life or causing death.</div>
+            </div>
+
+            <!-- Card 13 -->
+            <div class="word-card">
+                <div class="strongs-number">H1245</div>
+                <div class="hebrew-word">בָּקַשׁ</div>
+                <div class="transliteration">Baqash</div>
+                <div class="definition">To seek, search for, desire, request. Expresses the act of pursuing or looking for something earnestly.</div>
+            </div>
+
+            <!-- Card 14 -->
+            <div class="word-card">
+                <div class="strongs-number">H3050</div>
+                <div class="hebrew-word">יָהּ</div>
+                <div class="transliteration">Yah</div>
+                <div class="definition">The Lord, God. A shortened form of the divine name YHWH, emphasizing God's eternal nature.</div>
+            </div>
+
+            <!-- Card 15 -->
+            <div class="word-card">
+                <div class="strongs-number">H4191</div>
+                <div class="hebrew-word">מוּת</div>
+                <div class="transliteration">Mut</div>
+                <div class="definition">To die, perish, be dead. Represents physical death and spiritual separation from God.</div>
+            </div>
+
+            <!-- Card 16 -->
+            <div class="word-card">
+                <div class="strongs-number">H2421</div>
+                <div class="hebrew-word">חָיָה</div>
+                <div class="transliteration">Chayah</div>
+                <div class="definition">To live, be alive, revive, preserve. Denotes physical life and spiritual vitality in God's presence.</div>
+            </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="pagination">
+            <button class="disabled">← Previous</button>
+            <a href="#" class="active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <span>...</span>
+            <a href="#">539</a>
+            <button>Next →</button>
+        </div>
+    </main>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Explore Greek Lexicon</h2>
+            <p>Dive into 5,600+ Greek words from the New Testament with detailed etymologies and biblical context.</p>
+            <a href="/lexicon-greek.html" class="cta-button">Shift to Greek →</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 SalvationCall. Academic biblical resources for study and reflection. | <a href="/privacy">Privacy</a> | <a href="/terms">Terms</a></p>
+    </footer>
+
+    <script>
+        // Search functionality
+        const searchInput = document.getElementById('searchInput');
+        const filterSelect = document.getElementById('filterSelect');
+        const wordCards = document.querySelectorAll('.word-card');
+
+        function filterCards() {
+            const searchTerm = searchInput.value.toLowerCase();
+            const filterCategory = filterSelect.value;
+
+            wordCards.forEach(card => {
+                const hebrew = card.querySelector('.hebrew-word').textContent.toLowerCase();
+                const transliteration = card.querySelector('.transliteration').textContent.toLowerCase();
+                const definition = card.querySelector('.definition').textContent.toLowerCase();
+
+                const matchesSearch = hebrew.includes(searchTerm) || 
+                                    transliteration.includes(searchTerm) || 
+                                    definition.includes(searchTerm);
+
+                const matchesFilter = !filterCategory || 
+                                    card.dataset.category === filterCategory;
+
+                card.style.display = (matchesSearch && matchesFilter) ? 'block' : 'none';
+            });
+        }
+
+        searchInput.addEventListener('input', filterCards);
+        filterSelect.addEventListener('change', filterCards);
+
+        // Pagination click handlers
+        document.querySelectorAll('.pagination a, .pagination button').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                if (!btn.classList.contains('disabled')) {
+                    e.preventDefault();
+                    // Scroll to top of word grid
+                    document.querySelector('.word-grid').scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

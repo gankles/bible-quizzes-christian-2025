@@ -1,0 +1,996 @@
+{
+  "id": "numbers-26-tabbed",
+  "title": "Numbers Chapter 26 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Numbers chapter 26 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "numbers-26-easy",
+      "title": "Numbers Chapter 26 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Numbers Chapter 26.",
+      "type": "chapter",
+      "book": "Numbers",
+      "chapter": 26,
+      "questions": [
+        {
+          "id": "numbers-26-easy-q1",
+          "question": "Who spoke to Moses and Eleazar after the plague?",
+          "type": "multiple-choice",
+          "options": [
+            "The LORD",
+            "Pharaoh",
+            "Aaron",
+            "Joshua"
+          ],
+          "correctAnswer": "The LORD",
+          "explanation": "Numbers 26:1 states that the LORD spoke unto Moses and Eleazar after the plague.",
+          "verseReference": "Numbers 26:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-26-easy-q2",
+          "question": "What age group was to be counted in the census according to the LORD's command?",
+          "type": "multiple-choice",
+          "options": [
+            "From twenty years old and upward",
+            "From five years old and upward",
+            "From thirty years old and upward",
+            "From fifteen years old and upward"
+          ],
+          "correctAnswer": "From twenty years old and upward",
+          "explanation": "Numbers 26:2 commands that the sum be taken of all from twenty years old and upward.",
+          "verseReference": "Numbers 26:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-26-easy-q3",
+          "question": "Where were Moses and Eleazar when they spoke to the Israelites about the census?",
+          "type": "multiple-choice",
+          "options": [
+            "In the plains of Moab by Jordan near Jericho",
+            "On Mount Sinai",
+            "In the land of Egypt",
+            "Near the Red Sea"
+          ],
+          "correctAnswer": "In the plains of Moab by Jordan near Jericho",
+          "explanation": "Numbers 26:3 specifies the location as the plains of Moab by Jordan near Jericho.",
+          "verseReference": "Numbers 26:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-26-easy-q4",
+          "question": "Which son of Israel was the eldest mentioned in the census?",
+          "type": "multiple-choice",
+          "options": [
+            "Reuben",
+            "Judah",
+            "Simeon",
+            "Gad"
+          ],
+          "correctAnswer": "Reuben",
+          "explanation": "Numbers 26:5 mentions Reuben as the eldest son of Israel.",
+          "verseReference": "Numbers 26:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-26-easy-q5",
+          "question": "Who were the three sons of Eliab mentioned who opposed Moses and Aaron?",
+          "type": "multiple-choice",
+          "options": [
+            "Nemuel, Dathan, and Abiram",
+            "Hanoch, Pallu, and Hezron",
+            "Zerah, Shaul, and Jamin",
+            "Machir, Gilead, and Zelophehad"
+          ],
+          "correctAnswer": "Nemuel, Dathan, and Abiram",
+          "explanation": "Numbers 26:9 names Nemuel, Dathan, and Abiram as sons of Eliab who opposed Moses and Aaron.",
+          "verseReference": "Numbers 26:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-26-easy-q6",
+          "question": "True or False: The children of Korah died when the earth opened its mouth.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Numbers 26:11 states that the children of Korah did not die despite the earth swallowing others.",
+          "verseReference": "Numbers 26:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-26-easy-q7",
+          "question": "How many were numbered of the Simeonites?",
+          "type": "multiple-choice",
+          "options": [
+            "22,200",
+            "43,730",
+            "40,500",
+            "64,400"
+          ],
+          "correctAnswer": "22,200",
+          "explanation": "Numbers 26:14 records that the Simeonites numbered twenty-two thousand two hundred.",
+          "verseReference": "Numbers 26:14",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-26-easy-q8",
+          "question": "Which two sons of Judah died in the land of Canaan?",
+          "type": "multiple-choice",
+          "options": [
+            "Er and Onan",
+            "Pharez and Zerah",
+            "Shelah and Hamul",
+            "Hezron and Pharez"
+          ],
+          "correctAnswer": "Er and Onan",
+          "explanation": "Numbers 26:19 specifies that Er and Onan, sons of Judah, died in the land of Canaan.",
+          "verseReference": "Numbers 26:19",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-26-easy-q9",
+          "question": "Who was the father of Machir, the head of a family in Manasseh?",
+          "type": "multiple-choice",
+          "options": [
+            "Manasseh",
+            "Joseph",
+            "Ephraim",
+            "Gilead"
+          ],
+          "correctAnswer": "Manasseh",
+          "explanation": "Numbers 26:29 states that Machir was the son of Manasseh.",
+          "verseReference": "Numbers 26:29",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-26-easy-q10",
+          "question": "Which daughter of Zelophehad is NOT named in the list?",
+          "type": "multiple-choice",
+          "options": [
+            "Mahlah",
+            "Noah",
+            "Hoglah",
+            "Sarah"
+          ],
+          "correctAnswer": "Sarah",
+          "explanation": "Numbers 26:33 names Mahlah, Noah, Hoglah, Milcah, and Tirzah as Zelophehad's daughters; Sarah is mentioned as Asher's daughter in 26:46.",
+          "verseReference": "Numbers 26:33",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-26-easy-q11",
+          "question": "True or False: The Levites were given an inheritance of land among the children of Israel.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Numbers 26:62 states that the Levites were not numbered among the children of Israel because they had no inheritance among them.",
+          "verseReference": "Numbers 26:62",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-26-easy-q12",
+          "question": "What was the total number of the children of Israel counted in this census?",
+          "type": "multiple-choice",
+          "options": [
+            "601,730",
+            "500,000",
+            "700,000",
+            "450,600"
+          ],
+          "correctAnswer": "601,730",
+          "explanation": "Numbers 26:51 gives the total number as six hundred thousand and one thousand seven hundred and thirty.",
+          "verseReference": "Numbers 26:51",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-26-easy-q13",
+          "question": "According to the LORD's instructions, how was the land to be divided among the tribes?",
+          "type": "multiple-choice",
+          "options": [
+            "According to the number of names and by lot",
+            "By age and family size",
+            "Only to the oldest sons",
+            "By geographical location alone"
+          ],
+          "correctAnswer": "According to the number of names and by lot",
+          "explanation": "Numbers 26:53-55 explain the land was to be divided according to the number of names and by lot.",
+          "verseReference": "Numbers 26:53",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-26-easy-q14",
+          "question": "Fill in the blank: 'And Nadab and Abihu died, when they offered ______ before the LORD.'",
+          "type": "fill-blank",
+          "options": [
+            "strange fire",
+            "incense",
+            "bread",
+            "water"
+          ],
+          "correctAnswer": "strange fire",
+          "explanation": "Numbers 26:61 states Nadab and Abihu died when they offered strange fire before the LORD.",
+          "verseReference": "Numbers 26:61",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-26-easy-q15",
+          "question": "True or False: Only Caleb and Joshua survived from those numbered at Sinai.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Numbers 26:65 confirms that only Caleb son of Jephunneh and Joshua son of Nun were left from those numbered at Sinai.",
+          "verseReference": "Numbers 26:65",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "numbers-26-quiz",
+      "tags": [
+        "numbers",
+        "chapter-26",
+        "numbers",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "numbers-26-medium",
+      "title": "Numbers Chapter 26 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Numbers Chapter 26 to real-life situations.",
+      "type": "chapter",
+      "book": "Numbers",
+      "chapter": 26,
+      "questions": [
+        {
+          "id": "numbers-26-medium-q1",
+          "question": "A fellow believer is struggling with discouragement after facing consequences for past sins. Based on Numbers 26:65, what biblical truth would you share about God's faithfulness and hope?",
+          "type": "multiple-choice",
+          "options": [
+            "God allows no one to survive after punishment",
+            "God remembers and preserves those who remain faithful",
+            "Everyone who sins is abandoned by God",
+            "Punishment is permanent with no hope for restoration"
+          ],
+          "correctAnswer": "God remembers and preserves those who remain faithful",
+          "explanation": "Numbers 26:65 shows that though most were punished in the wilderness, Caleb and Joshua were preserved because of their faithfulness, demonstrating God's faithfulness and hope for those who trust Him.",
+          "verseReference": "Numbers 26:65",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-26-medium-q2",
+          "question": "How does Numbers 26:2 teach us about the importance of responsibility and readiness in spiritual service?",
+          "type": "multiple-choice",
+          "options": [
+            "Only the weak should serve",
+            "All are responsible to be prepared for God's work",
+            "Service is optional and not urgent",
+            "Only leaders have spiritual responsibilities"
+          ],
+          "correctAnswer": "All are responsible to be prepared for God's work",
+          "explanation": "Numbers 26:2 commands taking a census of all able men from twenty years old up, emphasizing readiness and responsibility of every capable person to serve God faithfully.",
+          "verseReference": "Numbers 26:2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-26-medium-q3",
+          "question": "A believer is feeling isolated and unsure how to serve the church. Based on Numbers 26:57-59, what biblical principle about family and service can encourage them?",
+          "type": "multiple-choice",
+          "options": [
+            "Service is limited to only a few chosen people",
+            "Family lineage influences service roles but all can contribute",
+            "Only priests from Aaron's line can serve God",
+            "No family connection is needed to serve"
+          ],
+          "correctAnswer": "Family lineage influences service roles but all can contribute",
+          "explanation": "Numbers 26:57-59 details the Levite families and their roles, showing God assigns service according to family but implies every member has a part, encouraging believers to serve within their gifts and contexts.",
+          "verseReference": "Numbers 26:57-59",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-26-medium-q4",
+          "question": "How does the census in Numbers 26 emphasize the biblical virtue of stewardship in managing God's blessings?",
+          "type": "multiple-choice",
+          "options": [
+            "Counting people is unnecessary for stewardship",
+            "Knowing God's people allows fair distribution and responsible management",
+            "Stewardship only applies to money, not people",
+            "God's blessings cannot be managed or counted"
+          ],
+          "correctAnswer": "Knowing God's people allows fair distribution and responsible management",
+          "explanation": "Numbers 26:51-56 shows God instructing Moses to count the people so land inheritance could be fairly divided, teaching stewardship requires careful, responsible management of blessings.",
+          "verseReference": "Numbers 26:51-56",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-26-medium-q5",
+          "question": "A church leader is seeking guidance on humility and contentment in ministry. Based on Numbers 26:54-56, what principle can be applied?",
+          "type": "multiple-choice",
+          "options": [
+            "Ministers should seek the greatest rewards",
+            "Each receives according to what God has assigned, whether more or less",
+            "Comparison among believers leads to blessing",
+            "Inheritances are earned by human effort alone"
+          ],
+          "correctAnswer": "Each receives according to what God has assigned, whether more or less",
+          "explanation": "Numbers 26:54-56 explains land was divided by lot, with more given to many and less to few, teaching humility and contentment with God's sovereign distribution.",
+          "verseReference": "Numbers 26:54-56",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-26-medium-q6",
+          "question": "A believer is tempted to compare their spiritual gifts with others. What does Numbers 26 teach about God’s allocation of gifts and roles?",
+          "type": "multiple-choice",
+          "options": [
+            "God gives gifts based on favoritism",
+            "God assigns roles and blessings according to His wisdom and purpose",
+            "Everyone should receive equal gifts",
+            "Gifts are irrelevant for service"
+          ],
+          "correctAnswer": "God assigns roles and blessings according to His wisdom and purpose",
+          "explanation": "Numbers 26:54-56 and the detailed families' census reveal God’s sovereign distribution of roles and blessings, teaching believers to trust His wisdom rather than compare.",
+          "verseReference": "Numbers 26:54-56",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-26-medium-q7",
+          "question": "How does the account of Korah, Dathan, and Abiram in Numbers 26:9-11 teach us about the dangers of rebellion and the importance of obedience?",
+          "type": "multiple-choice",
+          "options": [
+            "Rebellion leads to destruction, obedience brings life",
+            "Disobedience is rewarded",
+            "God ignores rebellion",
+            "Rebellion is a way to gain power"
+          ],
+          "correctAnswer": "Rebellion leads to destruction, obedience brings life",
+          "explanation": "Numbers 26:9-11 recounts how Korah and his followers were swallowed by the earth for rebelling, showing the severe consequences of disobedience and the need for submission to God’s authority.",
+          "verseReference": "Numbers 26:9-11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-26-medium-q8",
+          "question": "True or False: Numbers 26 shows that all the Levites were counted with the rest of Israel for land inheritance purposes.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Numbers 26:62 states the Levites were counted separately and were not numbered among the children of Israel for land inheritance because they had no inheritance among them.",
+          "verseReference": "Numbers 26:62",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-26-medium-q9",
+          "question": "True or False: Numbers 26 teaches that spiritual leadership requires both family heritage and personal obedience to God.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Numbers 26:57-61 describes the Levitical families and mentions Nadab and Abihu who died for offering strange fire, highlighting that heritage alone is not enough without obedience.",
+          "verseReference": "Numbers 26:57-61",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-26-medium-q10",
+          "question": "Fill in the blank: According to Numbers 26:33, Zelophehad had no sons but had daughters named Mahlah, Noah, Hoglah, Milcah, and _____.",
+          "type": "fill-in-the-blank",
+          "options": [
+            "Tirzah",
+            "Sarah",
+            "Miriam",
+            "Jochebed"
+          ],
+          "correctAnswer": "Tirzah",
+          "explanation": "Numbers 26:33 lists the daughters of Zelophehad as Mahlah, Noah, Hoglah, Milcah, and Tirzah, showing God's provision for inheritance through daughters when no sons are present.",
+          "verseReference": "Numbers 26:33",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-26-medium-q11",
+          "question": "How does the detailed census and family listing in Numbers 26 encourage us in the virtue of faithfulness in family and community life?",
+          "type": "multiple-choice",
+          "options": [
+            "Faithfulness is irrelevant in family",
+            "God values and remembers each family and individual",
+            "Only leaders matter in God's plan",
+            "Families are unimportant to God"
+          ],
+          "correctAnswer": "God values and remembers each family and individual",
+          "explanation": "The extensive family records in Numbers 26 (e.g., verses 5-50) demonstrate God's care for each family line, encouraging believers to be faithful in their family roles and community life.",
+          "verseReference": "Numbers 26:5-50",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-26-medium-q12",
+          "question": "A believer is discouraged about their small role in the church. Based on the land inheritance teaching in Numbers 26:54-56, what biblical truth can you share?",
+          "type": "multiple-choice",
+          "options": [
+            "Small roles are unimportant",
+            "God assigns importance based on size alone",
+            "Every role, whether large or small, is part of God's plan",
+            "Only leaders receive blessings"
+          ],
+          "correctAnswer": "Every role, whether large or small, is part of God's plan",
+          "explanation": "Numbers 26:54-56 teaches that land was divided by lot according to the number of people, with both more and less given, showing that God values all roles regardless of size.",
+          "verseReference": "Numbers 26:54-56",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-26-medium-q13",
+          "question": "Based on Numbers 26:63, what spiritual discipline is demonstrated through the census and recording of Israel’s tribes?",
+          "type": "multiple-choice",
+          "options": [
+            "Prayer and worship",
+            "Accountability and remembrance",
+            "Ignoring details",
+            "Avoiding responsibility"
+          ],
+          "correctAnswer": "Accountability and remembrance",
+          "explanation": "Numbers 26:63 shows Moses and Eleazar numbering the people, illustrating the spiritual discipline of accountability and remembering God’s people and their place in His plan.",
+          "verseReference": "Numbers 26:63",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-26-medium-q14",
+          "question": "How does Numbers 26:61 warn believers about the importance of reverence and holiness in approaching God?",
+          "type": "multiple-choice",
+          "options": [
+            "God accepts informal worship",
+            "Irreverence leads to serious consequences",
+            "Holiness is optional",
+            "Fire is a symbol of anger only"
+          ],
+          "correctAnswer": "Irreverence leads to serious consequences",
+          "explanation": "Numbers 26:61 mentions that Nadab and Abihu died when they offered strange fire before the LORD, warning believers to approach God with reverence and holiness.",
+          "verseReference": "Numbers 26:61",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-26-medium-q15",
+          "question": "How does the census in Numbers 26 teach us about perseverance through trials and God's provision for His people?",
+          "type": "multiple-choice",
+          "options": [
+            "Trials mean God abandons us",
+            "God preserves a remnant who remain faithful",
+            "Counting is irrelevant to faith",
+            "Faithfulness guarantees earthly ease"
+          ],
+          "correctAnswer": "God preserves a remnant who remain faithful",
+          "explanation": "Numbers 26:64-65 explains that none of the previous generation survived the wilderness except Caleb and Joshua, illustrating God's preservation of a faithful remnant through trials.",
+          "verseReference": "Numbers 26:64-65",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "numbers-26-quiz",
+      "tags": [
+        "numbers",
+        "chapter-26",
+        "numbers",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "numbers-26-hard",
+      "title": "Numbers Chapter 26 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Numbers Chapter 26.",
+      "type": "chapter",
+      "book": "Numbers",
+      "chapter": 26,
+      "questions": [
+        {
+          "id": "numbers-26-hard-q1",
+          "question": "What was the primary reason for the census taken in Numbers 26?",
+          "type": "multiple-choice",
+          "options": [
+            "To prepare for the division of the Promised Land",
+            "To determine the number of Levites for priestly duties",
+            "To record the genealogy of Moses and Aaron",
+            "To count the number of people who died in the wilderness"
+          ],
+          "correctAnswer": "To prepare for the division of the Promised Land",
+          "explanation": "Numbers 26:52-56 shows that the census was taken to allocate the land inheritance according to the number of names.",
+          "verseReference": "Numbers 26:52",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-hard-q2",
+          "question": "Which two leaders were commanded by the LORD to conduct the census in Numbers 26?",
+          "type": "multiple-choice",
+          "options": [
+            "Moses and Eleazar",
+            "Moses and Aaron",
+            "Joshua and Caleb",
+            "Eleazar and Phinehas"
+          ],
+          "correctAnswer": "Moses and Eleazar",
+          "explanation": "In Numbers 26:1, the LORD spoke to Moses and Eleazar the son of Aaron to take the census.",
+          "verseReference": "Numbers 26:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-hard-q3",
+          "question": "In Numbers 26, which family is noted to have survived the judgment that swallowed up Korah and his company?",
+          "type": "multiple-choice",
+          "options": [
+            "The children of Korah",
+            "The children of Dathan",
+            "The children of Abiram",
+            "The children of Levi"
+          ],
+          "correctAnswer": "The children of Korah",
+          "explanation": "Numbers 26:11 states that the children of Korah did not die, even though Korah and his company were swallowed by the earth.",
+          "verseReference": "Numbers 26:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-hard-q4",
+          "question": "Which tribe had the highest number of men able to go to war according to the census in Numbers 26?",
+          "type": "multiple-choice",
+          "options": [
+            "Reuben",
+            "Gad",
+            "Judah",
+            "Simeon"
+          ],
+          "correctAnswer": "Judah",
+          "explanation": "Numbers 26:22 records Judah with 76,500 men, the highest among the tribes listed.",
+          "verseReference": "Numbers 26:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-hard-q5",
+          "question": "How does the census of Numbers 26 relate to the promise made to Abraham about his descendants?",
+          "type": "multiple-choice",
+          "options": [
+            "It shows the fulfillment of God's promise of numerous descendants",
+            "It contradicts the promise because the numbers are low",
+            "It focuses only on the Levites, unrelated to Abraham's promise",
+            "It was meant to prepare for exile, not fulfillment"
+          ],
+          "correctAnswer": "It shows the fulfillment of God's promise of numerous descendants",
+          "explanation": "The large numbers in Numbers 26:51 reflect the fulfillment of God's promise to Abraham about his seed being as numerous as the stars (Genesis 15:5).",
+          "verseReference": "Numbers 26:51",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-hard-q6",
+          "question": "Which daughters are mentioned in Numbers 26 as the heirs in the absence of a male heir?",
+          "type": "multiple-choice",
+          "options": [
+            "Mahlah, Noah, Hoglah, Milcah, and Tirzah",
+            "Sarah, Rebekah, Leah, Rachel, and Miriam",
+            "Dinah, Zipporah, Deborah, Huldah, and Anna",
+            "Esther, Ruth, Abigail, Bathsheba, and Judith"
+          ],
+          "correctAnswer": "Mahlah, Noah, Hoglah, Milcah, and Tirzah",
+          "explanation": "Numbers 26:33 names the daughters of Zelophehad who inherited because he had no sons.",
+          "verseReference": "Numbers 26:33",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-hard-q7",
+          "question": "True or False: The Levites were included in the general census for land inheritance in Numbers 26.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Numbers 26:62 explains the Levites were not numbered among the children of Israel for inheritance because they had no land allotment.",
+          "verseReference": "Numbers 26:62",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-hard-q8",
+          "question": "What literary device is evident in the enumeration of families and their descendants in Numbers 26, reflecting ancient Near Eastern practices?",
+          "type": "multiple-choice",
+          "options": [
+            "Genealogical parallelism",
+            "Typological prophecy",
+            "Chiasm",
+            "Historical annalistic listing"
+          ],
+          "correctAnswer": "Historical annalistic listing",
+          "explanation": "The detailed listing of families and numbers reflects the ancient Near Eastern annalistic style of recording census and genealogies as a historical record (Numbers 26:5-50).",
+          "verseReference": "Numbers 26:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-hard-q9",
+          "question": "How does the census in Numbers 26 foreshadow the New Testament concept of inheritance?",
+          "type": "multiple-choice",
+          "options": [
+            "Land inheritance parallels spiritual inheritance through Christ",
+            "It predicts the division of the church into tribes",
+            "It prefigures the establishment of the Levitical priesthood",
+            "It symbolizes the judgment of nations"
+          ],
+          "correctAnswer": "Land inheritance parallels spiritual inheritance through Christ",
+          "explanation": "The allocation of land by number in Numbers 26:54-56 typologically prefigures the spiritual inheritance believers receive in Christ as heirs (cf. Ephesians 1:11).",
+          "verseReference": "Numbers 26:54",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-hard-q10",
+          "question": "Which sons of Joseph are detailed in Numbers 26, and what significance do they hold in Israelite tribal identity?",
+          "type": "multiple-choice",
+          "options": [
+            "Manasseh and Ephraim, representing the double portion inheritance",
+            "Reuben and Simeon, as the eldest tribes",
+            "Gad and Asher, as warrior clans",
+            "Dan and Naphtali, as coastal tribes"
+          ],
+          "correctAnswer": "Manasseh and Ephraim, representing the double portion inheritance",
+          "explanation": "Numbers 26:28 names Manasseh and Ephraim, Joseph’s sons who each became tribes, signifying Joseph’s double portion inheritance (cf. Genesis 48).",
+          "verseReference": "Numbers 26:28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-hard-q11",
+          "question": "What is the significance of the mention of Nadab and Abihu in Numbers 26 in relation to priestly legitimacy?",
+          "type": "multiple-choice",
+          "options": [
+            "They died offering unauthorized fire, illustrating the importance of obedience",
+            "They became high priests after Aaron",
+            "They led the Israelites into battle",
+            "They were censured for refusing the census"
+          ],
+          "correctAnswer": "They died offering unauthorized fire, illustrating the importance of obedience",
+          "explanation": "Numbers 26:61 recalls Nadab and Abihu’s death for offering strange fire, emphasizing priestly obedience and holiness.",
+          "verseReference": "Numbers 26:61",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-hard-q12",
+          "question": "True or False: Caleb and Joshua were the only men from the previous generation counted in the first census who survived to be counted in Numbers 26.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Numbers 26:64-65 notes that all from the previous census had died except Caleb and Joshua, fulfilling the LORD's judgment.",
+          "verseReference": "Numbers 26:64",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-hard-q13",
+          "question": "Which verse in Numbers 26 highlights the cultural practice of inheritance by lot among the tribes of Israel?",
+          "type": "multiple-choice",
+          "options": [
+            "Numbers 26:55",
+            "Numbers 26:33",
+            "Numbers 26:11",
+            "Numbers 26:62"
+          ],
+          "correctAnswer": "Numbers 26:55",
+          "explanation": "Numbers 26:55 states the land shall be divided by lot according to the tribes, reflecting a cultural method of land allocation.",
+          "verseReference": "Numbers 26:55",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-hard-q14",
+          "question": "What is the significance of the daughters of Zelophehad in Numbers 26 for biblical inheritance laws?",
+          "type": "multiple-choice",
+          "options": [
+            "They established a precedent for female inheritance in the absence of sons",
+            "They were excluded from inheritance rights",
+            "They became priestesses in the tabernacle",
+            "They led a rebellion against Moses"
+          ],
+          "correctAnswer": "They established a precedent for female inheritance in the absence of sons",
+          "explanation": "Numbers 26:33 mentions these daughters, linking to the legal precedent in Numbers 27:1-11 for daughters inheriting if no sons existed.",
+          "verseReference": "Numbers 26:33",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-hard-q15",
+          "question": "How does the census in Numbers 26 reflect the theological theme of covenant faithfulness?",
+          "type": "multiple-choice",
+          "options": [
+            "The renewed numbering shows God's ongoing commitment to Israel despite previous failures",
+            "It shows God's rejection of the generation that disobeyed",
+            "It emphasizes the Levites as the only faithful tribe",
+            "It focuses on military strength rather than covenant"
+          ],
+          "correctAnswer": "The renewed numbering shows God's ongoing commitment to Israel despite previous failures",
+          "explanation": "Numbers 26:51-65 indicates this census follows the plague, showing God's faithfulness to preserve a new generation to inherit the promise.",
+          "verseReference": "Numbers 26:51",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "numbers-26-quiz",
+      "tags": [
+        "numbers",
+        "chapter-26",
+        "numbers",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "numbers-26-theological",
+      "title": "Numbers Chapter 26 Quiz - Theological Level",
+      "description": "Deep biblical theology from Numbers Chapter 26 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Numbers",
+      "chapter": 26,
+      "questions": [
+        {
+          "id": "numbers-26-theological-q1",
+          "question": "What was the primary purpose of the census taken in Numbers 26?",
+          "type": "multiple-choice",
+          "options": [
+            "To determine the number of men able to go to war",
+            "To assign Levites their priestly duties",
+            "To record the names of all Israelite women",
+            "To count the livestock of the tribes"
+          ],
+          "correctAnswer": "To determine the number of men able to go to war",
+          "explanation": "Numbers 26:2 states the census was to count all Israelite males aged twenty and above able to go to war. This aligns with the Old Testament practice of numbering the fighting men (Exodus 30:12; Deuteronomy 20:3-4) and finds a New Testament echo in the spiritual warfare imagery (Ephesians 6:10-18).",
+          "verseReference": "Numbers 26:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-theological-q2",
+          "question": "Who were the leaders instructed by the LORD to conduct the census in Numbers 26?",
+          "type": "multiple-choice",
+          "options": [
+            "Moses and Eleazar the priest",
+            "Aaron and Joshua",
+            "Caleb and Phinehas",
+            "Moses and Joshua"
+          ],
+          "correctAnswer": "Moses and Eleazar the priest",
+          "explanation": "Numbers 26:1 shows that God spoke to Moses and Eleazar, son of Aaron the priest, to take the census. Moses as God's mediator and Eleazar as the priest signify the unity of civil and priestly authority, reflecting God's order in leadership (Hebrews 3:1-6; Numbers 3:32).",
+          "verseReference": "Numbers 26:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-theological-q3",
+          "question": "Which tribe's men are noted as not having died in the wilderness despite the rebellion associated with Korah?",
+          "type": "multiple-choice",
+          "options": [
+            "The children of Korah",
+            "The tribe of Levi",
+            "The tribe of Simeon",
+            "The tribe of Reuben"
+          ],
+          "correctAnswer": "The children of Korah",
+          "explanation": "Numbers 26:11 states that the children of Korah did not die during the rebellion where Korah and others were swallowed by the earth (Numbers 26:9-10). This demonstrates God's justice and mercy, sparing some who remained faithful, prefiguring Christ's intercession (Romans 8:34) and God's preservation of His elect (John 10:27-29).",
+          "verseReference": "Numbers 26:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-theological-q4",
+          "question": "According to Numbers 26, what was the basis for dividing the land among the tribes of Israel?",
+          "type": "multiple-choice",
+          "options": [
+            "According to the number of names in each tribe",
+            "Based on each tribe's military strength",
+            "By the order of the tribes' founding fathers",
+            "By the merit of each family's faithfulness"
+          ],
+          "correctAnswer": "According to the number of names in each tribe",
+          "explanation": "Numbers 26:53-54 explains that the land inheritance was to be divided according to the number of names in each tribe, showing God's principle of equitable distribution based on His sovereign counting. This reflects God's justice (Psalm 89:14) and foreshadows New Testament teachings on stewardship and rewards (Matthew 25:14-30).",
+          "verseReference": "Numbers 26:53",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-theological-q5",
+          "question": "What theological significance can be derived from the deaths of Nadab and Abihu mentioned in Numbers 26?",
+          "type": "multiple-choice",
+          "options": [
+            "God's holiness demands reverence in worship",
+            "God rewards those who offer strange fire",
+            "Priestly duties can be performed without fear",
+            "God is patient with disobedience"
+          ],
+          "correctAnswer": "God's holiness demands reverence in worship",
+          "explanation": "Numbers 26:61 recounts Nadab and Abihu dying for offering strange fire, emphasizing God's holiness (Isaiah 6:3), the necessity of proper worship (Hebrews 12:28-29), and the seriousness of sin before a holy God (Romans 3:23). This event prefigures Christ's perfect atonement enabling true worship (John 4:23-24).",
+          "verseReference": "Numbers 26:61",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-theological-q6",
+          "question": "Which two men were the only survivors from the generation numbered in the wilderness census, as stated in Numbers 26?",
+          "type": "multiple-choice",
+          "options": [
+            "Caleb and Joshua",
+            "Moses and Aaron",
+            "Eleazar and Phinehas",
+            "Gideon and Barak"
+          ],
+          "correctAnswer": "Caleb and Joshua",
+          "explanation": "Numbers 26:65 emphasizes that only Caleb son of Jephunneh and Joshua son of Nun survived from the wilderness generation, illustrating God's faithfulness to those who trust Him (Hebrews 11:32-40) and the concept of divine judgment on unbelief (Hebrews 3:16-19). Their survival prefigures the faithful remnant theme throughout Scripture (Romans 11:5).",
+          "verseReference": "Numbers 26:65",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-theological-q7",
+          "question": "What does the detailed listing of families and tribes in Numbers 26 teach about God's covenant relationship with Israel?",
+          "type": "multiple-choice",
+          "options": [
+            "God maintains a structured community based on covenant promises",
+            "God favors only the largest tribes",
+            "God shows partiality to certain families",
+            "God disregards family lineage in His plan"
+          ],
+          "correctAnswer": "God maintains a structured community based on covenant promises",
+          "explanation": "The genealogical and tribal structure in Numbers 26 (e.g., verses 5-51) illustrates God's orderly covenant relationship with Israel, emphasizing His faithfulness to promises given to the patriarchs (Genesis 17:7) and the importance of identity and inheritance in His plan (Acts 7:8). This structure foreshadows the unity and diversity in the body of Christ (1 Corinthians 12:12-27).",
+          "verseReference": "Numbers 26:5-51",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-theological-q8",
+          "question": "Why were the Levites not numbered among the other tribes in the census of Numbers 26?",
+          "type": "multiple-choice",
+          "options": [
+            "Because they had no inheritance among the children of Israel",
+            "Because they were the smallest tribe",
+            "Because they were not part of the covenant",
+            "Because they were unclean"
+          ],
+          "correctAnswer": "Because they had no inheritance among the children of Israel",
+          "explanation": "Numbers 26:62 clarifies that Levites were not numbered with the other tribes because they had no land inheritance, highlighting their unique role as priests and mediators (Deuteronomy 10:8-9; Hebrews 7:23-28). This teaches about God's provision for spiritual leadership distinct from material inheritance (1 Peter 2:9).",
+          "verseReference": "Numbers 26:62",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-theological-q9",
+          "question": "What is the significance of Zelophehad's daughters being named in Numbers 26?",
+          "type": "multiple-choice",
+          "options": [
+            "It highlights the provision for inheritance rights of daughters",
+            "It shows a failure to produce male heirs",
+            "It indicates a separate tribe formed by women",
+            "It suggests daughters could not inherit property"
+          ],
+          "correctAnswer": "It highlights the provision for inheritance rights of daughters",
+          "explanation": "Numbers 26:33 notes that Zelophehad had no sons but daughters, reflecting God's justice in ensuring inheritance rights for daughters (Numbers 27:1-11). This points to God's care for equity and foreshadows New Testament teachings on inheritance in Christ for all believers (Galatians 3:29; Romans 8:17).",
+          "verseReference": "Numbers 26:33",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-theological-q10",
+          "question": "How does the census in Numbers 26 reinforce the doctrine of God's sovereignty in salvation history?",
+          "type": "multiple-choice",
+          "options": [
+            "God directs the numbering and inheritance by His sovereign will",
+            "The census was random and based on human decision",
+            "The inheritance was given to those who demanded it",
+            "Salvation was dependent on tribal size"
+          ],
+          "correctAnswer": "God directs the numbering and inheritance by His sovereign will",
+          "explanation": "Numbers 26:53-56 shows God commanding the division of the land by lot according to names, emphasizing His sovereign control over Israel's history and inheritance. This aligns with the biblical truth that God ordains all events (Proverbs 16:33; Romans 8:28), ensuring His redemptive plan unfolds according to His purpose (Ephesians 1:11).",
+          "verseReference": "Numbers 26:53",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-theological-q11",
+          "question": "What doctrinal truth is underscored by the death of the rebellious leaders Dathan and Abiram as recorded in Numbers 26?",
+          "type": "multiple-choice",
+          "options": [
+            "God's judgment on rebellion against His appointed leaders",
+            "Rebellion is often overlooked by God",
+            "Leaders are above accountability",
+            "God does not punish sin immediately"
+          ],
+          "correctAnswer": "God's judgment on rebellion against His appointed leaders",
+          "explanation": "Numbers 26:9-10 records that Dathan and Abiram, who rebelled against Moses and Aaron, were swallowed by the earth as a sign of God's judgment. This reveals God's holiness and justice (Psalm 7:11), the seriousness of opposing His chosen servants (Hebrews 13:17), and prefigures Christ's ultimate authority (Matthew 28:18).",
+          "verseReference": "Numbers 26:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-theological-q12",
+          "question": "What does the census in Numbers 26 reveal about the fulfillment of God's promise to Abraham regarding numerous descendants?",
+          "type": "multiple-choice",
+          "options": [
+            "The children of Israel were numbered at over 600,000 men able to go to war",
+            "The tribes were small and insignificant",
+            "Only a few families remained from the patriarchs",
+            "The promise was unfulfilled at this time"
+          ],
+          "correctAnswer": "The children of Israel were numbered at over 600,000 men able to go to war",
+          "explanation": "Numbers 26:51 reports the total census as 601,730 men, fulfilling God's promise to Abraham that his descendants would be as numerous as the stars (Genesis 15:5). This demonstrates God's faithfulness to covenant promises (Romans 4:20-21) and prefigures the spiritual multitude redeemed by Christ (Revelation 7:9).",
+          "verseReference": "Numbers 26:51",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-theological-q13",
+          "question": "How does Numbers 26 connect with the doctrine of ecclesiology regarding the unity and diversity of God's people?",
+          "type": "multiple-choice",
+          "options": [
+            "It details the distinct tribes and families forming one covenant community",
+            "It promotes tribal divisions and disunity",
+            "It excludes Levites from the community",
+            "It focuses only on individuals, not groups"
+          ],
+          "correctAnswer": "It details the distinct tribes and families forming one covenant community",
+          "explanation": "The enumeration of tribes and families in Numbers 26 (e.g., verses 12-50) reveals God's design for a unified yet diverse people, prefiguring the New Testament Church composed of many members in one body (1 Corinthians 12:12-27). This highlights God's providence in organizing His people for worship and mission (Ephesians 4:4-6).",
+          "verseReference": "Numbers 26:12-50",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-theological-q14",
+          "question": "What role does Eleazar the priest play in Numbers 26, and what does this indicate about priestly function in Israel's covenant community?",
+          "type": "multiple-choice",
+          "options": [
+            "He assists Moses in numbering the people, demonstrating priestly mediation",
+            "He leads the army into battle",
+            "He is the sole leader of the tribes",
+            "He performs sacrifices alone without Moses"
+          ],
+          "correctAnswer": "He assists Moses in numbering the people, demonstrating priestly mediation",
+          "explanation": "Numbers 26:1-3 shows Eleazar assisting Moses in conducting the census, reflecting the priestly role as mediator between God and Israel (Leviticus 10:3; Hebrews 7:23-28). This cooperation underscores the integration of spiritual leadership in communal governance, anticipating Christ's eternal priesthood (Hebrews 4:14).",
+          "verseReference": "Numbers 26:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-theological-q15",
+          "question": "Which attribute of God is most clearly demonstrated by the instructions to divide the inheritance by lot among the tribes in Numbers 26?",
+          "type": "multiple-choice",
+          "options": [
+            "God's justice and impartiality",
+            "God's arbitrary will",
+            "God's favoritism toward certain tribes",
+            "God's indifference to human affairs"
+          ],
+          "correctAnswer": "God's justice and impartiality",
+          "explanation": "Numbers 26:55-56 explains that land was divided by lot according to the tribes, illustrating God's justice and impartiality in distributing inheritance. This reflects biblical themes of divine fairness (Deuteronomy 10:17), the righteousness of God (Psalm 89:14), and God's sovereign governance over His people (Romans 3:4).",
+          "verseReference": "Numbers 26:55",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-26-theological-q16",
+          "question": "What does the census in Numbers 26 teach about the consequences of unbelief and disobedience in the wilderness generation?",
+          "type": "multiple-choice",
+          "options": [
+            "None of the men numbered in the first census survived except Caleb and Joshua",
+            "All the men numbered were allowed to enter the promised land",
+            "Unbelief had no impact on inheritance",
+            "Disobedience was overlooked by God"
+          ],
+          "correctAnswer": "None of the men numbered in the first census survived except Caleb and Joshua",
+          "explanation": "Numbers 26:64-65 reveals that none of the men numbered in the wilderness census survived except Caleb and Joshua, illustrating God's judgment on unbelief and disobedience (Hebrews 3:16-19). This underscores the seriousness of faith and obedience in the covenant community (James 2:14-26) and highlights God's holiness and justice (Psalm 7:11).",
+          "verseReference": "Numbers 26:64",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "numbers-26-quiz",
+      "tags": [
+        "numbers",
+        "chapter-26",
+        "numbers",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 16,
+      "estimatedTime": 25
+    }
+  }
+}

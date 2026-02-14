@@ -49,7 +49,16 @@ export function generateImprovedRelatedLinks(quiz: Quiz): ImprovedInternalLink[]
       });
     }
 
-    // 2. CROSS-REFERENCE (Different book, same theme)
+    // 2. SCRIPTURE CROSS-REFERENCES for this chapter
+    links.push({
+      title: `${quiz.book} ${currentChapter} Cross-References`,
+      href: `/cross-references/${bookSlug}/${currentChapter}/1`,
+      description: `Explore related scriptures for ${quiz.book} ${currentChapter}`,
+      type: 'cross-reference',
+      priority: 3
+    });
+
+    // 3. CROSS-REFERENCE (Different book, same theme)
     const crossReference = getCrossReference(quiz.book, currentChapter);
     if (crossReference) {
       links.push({

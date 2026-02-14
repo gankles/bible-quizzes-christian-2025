@@ -1,0 +1,996 @@
+{
+  "id": "genesis-5-tabbed",
+  "title": "Genesis Chapter 5 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Genesis chapter 5 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "genesis-5-easy",
+      "title": "Genesis Chapter 5 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Genesis Chapter 5.",
+      "type": "chapter",
+      "book": "Genesis",
+      "chapter": 5,
+      "questions": [
+        {
+          "id": "genesis-5-easy-q1",
+          "question": "Who was created in the likeness of God according to Genesis 5:1?",
+          "type": "multiple-choice",
+          "options": [
+            "Man",
+            "Animals",
+            "Angels",
+            "Trees"
+          ],
+          "correctAnswer": "Man",
+          "explanation": "Genesis 5:1 states that God created man in His likeness.",
+          "verseReference": "Genesis 5:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-5-easy-q2",
+          "question": "According to Genesis 5:2, what did God call the male and female He created?",
+          "type": "multiple-choice",
+          "options": [
+            "Adam",
+            "Eve",
+            "Noah",
+            "Seth"
+          ],
+          "correctAnswer": "Adam",
+          "explanation": "Genesis 5:2 says God called their name Adam when He created them.",
+          "verseReference": "Genesis 5:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-5-easy-q3",
+          "question": "At what age did Adam begat his son Seth, according to Genesis 5:3?",
+          "type": "multiple-choice",
+          "options": [
+            "130 years",
+            "100 years",
+            "150 years",
+            "200 years"
+          ],
+          "correctAnswer": "130 years",
+          "explanation": "Genesis 5:3 clearly states Adam was 130 years old when he begat Seth.",
+          "verseReference": "Genesis 5:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-5-easy-q4",
+          "question": "How many total years did Adam live as mentioned in Genesis 5:5?",
+          "type": "multiple-choice",
+          "options": [
+            "930 years",
+            "800 years",
+            "912 years",
+            "905 years"
+          ],
+          "correctAnswer": "930 years",
+          "explanation": "Genesis 5:5 states Adam lived 930 years in total.",
+          "verseReference": "Genesis 5:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-5-easy-q5",
+          "question": "Who was Seth's son according to Genesis 5:6?",
+          "type": "multiple-choice",
+          "options": [
+            "Enos",
+            "Cainan",
+            "Jared",
+            "Methuselah"
+          ],
+          "correctAnswer": "Enos",
+          "explanation": "Genesis 5:6 mentions Seth begat Enos.",
+          "verseReference": "Genesis 5:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-5-easy-q6",
+          "question": "True or False: Seth lived 912 years according to Genesis 5:8.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Genesis 5:8 states that Seth lived 912 years.",
+          "verseReference": "Genesis 5:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-5-easy-q7",
+          "question": "At what age did Enos begat Cainan as per Genesis 5:9?",
+          "type": "multiple-choice",
+          "options": [
+            "90 years",
+            "70 years",
+            "105 years",
+            "65 years"
+          ],
+          "correctAnswer": "90 years",
+          "explanation": "Genesis 5:9 specifies that Enos was 90 years old when he begat Cainan.",
+          "verseReference": "Genesis 5:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-5-easy-q8",
+          "question": "How long did Enos live in total according to Genesis 5:11?",
+          "type": "multiple-choice",
+          "options": [
+            "905 years",
+            "912 years",
+            "910 years",
+            "895 years"
+          ],
+          "correctAnswer": "905 years",
+          "explanation": "Genesis 5:11 states Enos lived 905 years.",
+          "verseReference": "Genesis 5:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-5-easy-q9",
+          "question": "Who was Cainan's son mentioned in Genesis 5:12?",
+          "type": "multiple-choice",
+          "options": [
+            "Mahalaleel",
+            "Jared",
+            "Enoch",
+            "Lamech"
+          ],
+          "correctAnswer": "Mahalaleel",
+          "explanation": "Genesis 5:12 names Mahalaleel as Cainan's son.",
+          "verseReference": "Genesis 5:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-5-easy-q10",
+          "question": "True or False: Jared begat Enoch when he was 162 years old according to Genesis 5:18.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Genesis 5:18 states Jared was 162 when he begat Enoch.",
+          "verseReference": "Genesis 5:18",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-5-easy-q11",
+          "question": "How many years did Enoch live before God took him, according to Genesis 5:23-24?",
+          "type": "multiple-choice",
+          "options": [
+            "365 years",
+            "300 years",
+            "782 years",
+            "777 years"
+          ],
+          "correctAnswer": "365 years",
+          "explanation": "Genesis 5:23-24 states Enoch lived 365 years before God took him.",
+          "verseReference": "Genesis 5:23-24",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-5-easy-q12",
+          "question": "According to Genesis 5:25, who was Methuselah's father?",
+          "type": "multiple-choice",
+          "options": [
+            "Enoch",
+            "Jared",
+            "Lamech",
+            "Seth"
+          ],
+          "correctAnswer": "Enoch",
+          "explanation": "Genesis 5:25 shows Methuselah was begat by Enoch.",
+          "verseReference": "Genesis 5:25",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-5-easy-q13",
+          "question": "Who was Lamech's son that he named Noah, according to Genesis 5:28-29?",
+          "type": "multiple-choice",
+          "options": [
+            "Noah",
+            "Shem",
+            "Ham",
+            "Japheth"
+          ],
+          "correctAnswer": "Noah",
+          "explanation": "Genesis 5:28-29 records Lamech naming his son Noah.",
+          "verseReference": "Genesis 5:28-29",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-5-easy-q14",
+          "question": "True or False: Genesis 5:31 states that Lamech lived 777 years.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Genesis 5:31 confirms Lamech lived 777 years.",
+          "verseReference": "Genesis 5:31",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-5-easy-q15",
+          "question": "Complete the verse from Genesis 5:32: 'And Noah was ______ years old: and Noah begat Shem, Ham, and Japheth.'",
+          "type": "fill-blank",
+          "options": [
+            "five hundred",
+            "one hundred",
+            "six hundred",
+            "four hundred"
+          ],
+          "correctAnswer": "five hundred",
+          "explanation": "Genesis 5:32 states Noah was five hundred years old when he begat his sons.",
+          "verseReference": "Genesis 5:32",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "genesis-5-quiz",
+      "tags": [
+        "genesis",
+        "chapter-5",
+        "genesis",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "genesis-5-medium",
+      "title": "Genesis Chapter 5 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Genesis Chapter 5 to real-life situations.",
+      "type": "chapter",
+      "book": "Genesis",
+      "chapter": 5,
+      "questions": [
+        {
+          "id": "genesis-5-medium-q1",
+          "question": "A fellow believer is struggling with the challenge of trusting God's timing in their family life. Based on Genesis 5, what biblical truth would you share?",
+          "type": "multiple-choice",
+          "options": [
+            "God's timing is perfect; He blesses and calls families in His way and time.",
+            "We should rush to have children as soon as possible.",
+            "Family life is only about having many children quickly.",
+            "God's blessing depends on how many children we have."
+          ],
+          "correctAnswer": "God's timing is perfect; He blesses and calls families in His way and time.",
+          "explanation": "Genesis 5:1-2 shows God created man and woman and blessed them, calling them Adam, indicating God's intentional timing and blessing in family creation. Verses 3-5 and following highlight the orderly generations, teaching trust in God's timing for family growth.",
+          "verseReference": "Genesis 5:1-5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-5-medium-q2",
+          "question": "How does Genesis 5 teach us about perseverance through trials when considering the long lives and faithfulness of the patriarchs?",
+          "type": "multiple-choice",
+          "options": [
+            "Faithfulness over many years reflects perseverance and trust in God's plan.",
+            "Only short lives are meaningful in God's eyes.",
+            "Perseverance means immediate results.",
+            "Long life guarantees an easy, trouble-free journey."
+          ],
+          "correctAnswer": "Faithfulness over many years reflects perseverance and trust in God's plan.",
+          "explanation": "The extended lives of Adam, Seth, Enos, and others (Genesis 5:3-31) show perseverance and faithfulness over time, encouraging believers to trust God through long trials. The example of Enoch walking with God (Genesis 5:22-24) especially highlights steadfastness.",
+          "verseReference": "Genesis 5:3-31",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-5-medium-q3",
+          "question": "A believer wants to understand the importance of walking closely with God in daily life. What does Genesis 5 teach about this spiritual discipline?",
+          "type": "multiple-choice",
+          "options": [
+            "Walking with God leads to a blessed and intimate relationship, as shown by Enoch.",
+            "Walking with God is unnecessary for long life.",
+            "Only physical actions matter, not spiritual closeness.",
+            "Walking with God causes isolation from others."
+          ],
+          "correctAnswer": "Walking with God leads to a blessed and intimate relationship, as shown by Enoch.",
+          "explanation": "Genesis 5:22-24 describes Enoch's walk with God and how God took him, emphasizing the blessing and intimacy of faithful spiritual discipline. This teaches believers to prioritize close daily fellowship with God.",
+          "verseReference": "Genesis 5:22-24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-5-medium-q4",
+          "question": "Considering Genesis 5, how can believers apply the example of naming and blessing children in parenting with biblical wisdom?",
+          "type": "multiple-choice",
+          "options": [
+            "Naming children with meaning reflects faith and hope for their future.",
+            "Names have no spiritual significance.",
+            "Parents should choose names based on popularity, not faith.",
+            "Blessings are unnecessary in parenting."
+          ],
+          "correctAnswer": "Naming children with meaning reflects faith and hope for their future.",
+          "explanation": "Lamech named his son Noah, saying he shall comfort them because of the cursed ground (Genesis 5:29), showing how naming can express faith and hope. This is a model for parents to bless and speak purpose over their children.",
+          "verseReference": "Genesis 5:29",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-5-medium-q5",
+          "question": "How does Genesis 5 encourage believers to exhibit humility and contentment in their daily lives?",
+          "type": "multiple-choice",
+          "options": [
+            "Recognizing our finite days and God’s sovereignty leads to humility.",
+            "We should boast about our long years.",
+            "Contentment depends on worldly achievements.",
+            "Ignoring God’s plan fosters humility."
+          ],
+          "correctAnswer": "Recognizing our finite days and God’s sovereignty leads to humility.",
+          "explanation": "Verses throughout Genesis 5 (e.g., 5:5, 5:27, 5:31) record the lifespan and death of patriarchs, reminding believers of life’s brevity and God's control, encouraging humility and contentment.",
+          "verseReference": "Genesis 5:5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-5-medium-q6",
+          "question": "A fellow believer is discouraged about their work and toil. Based on Genesis 5, what truth about God’s comfort can you share?",
+          "type": "multiple-choice",
+          "options": [
+            "God provides comfort through His promises and faithful offspring, as shown by Noah’s naming.",
+            "Hard work is always without reward.",
+            "God does not care about our toil.",
+            "Comfort comes from wealth and possessions."
+          ],
+          "correctAnswer": "God provides comfort through His promises and faithful offspring, as shown by Noah’s naming.",
+          "explanation": "Lamech named his son Noah, expressing hope for comfort concerning their work and toil because of the cursed ground (Genesis 5:29), teaching believers to trust God’s comfort in their labor.",
+          "verseReference": "Genesis 5:29",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-5-medium-q7",
+          "question": "What lesson about integrity in daily life can be drawn from the genealogy and life records in Genesis 5?",
+          "type": "multiple-choice",
+          "options": [
+            "Honest record-keeping and faithfulness reflect integrity before God.",
+            "Genealogies are unimportant details.",
+            "Integrity only matters in public life.",
+            "Life details should be hidden from others."
+          ],
+          "correctAnswer": "Honest record-keeping and faithfulness reflect integrity before God.",
+          "explanation": "Genesis 5 carefully records each generation’s age, offspring, and death (e.g., verses 3-31), demonstrating the importance of truthfulness and integrity in life’s details.",
+          "verseReference": "Genesis 5:6-11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-5-medium-q8",
+          "question": "True or False: According to Genesis 5, Enoch was taken by God because he walked faithfully with Him.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Genesis 5:24 states that Enoch walked with God and was not, for God took him, indicating his faithful relationship with God led to this unique departure.",
+          "verseReference": "Genesis 5:24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-5-medium-q9",
+          "question": "True or False: Genesis 5 shows that all the patriarchs lived less than 500 years.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Genesis 5 records many patriarchs living well over 500 years, such as Adam (930 years, 5:5) and Methuselah (969 years, 5:27), disproving the statement.",
+          "verseReference": "Genesis 5:5, 5:27",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-5-medium-q10",
+          "question": "Fill in the blank: According to Genesis 5, after Adam begat Seth, he lived another ______ years and had other sons and daughters.",
+          "type": "fill-in-the-blank",
+          "options": [
+            "800",
+            "500",
+            "1000",
+            "900"
+          ],
+          "correctAnswer": "800",
+          "explanation": "Genesis 5:4 states Adam lived 800 years after he begat Seth and had other sons and daughters, teaching patience and faithfulness in family life.",
+          "verseReference": "Genesis 5:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-5-medium-q11",
+          "question": "How does Genesis 5 teach us about the role of prayer and devotion in spiritual legacy?",
+          "type": "multiple-choice",
+          "options": [
+            "Walking with God like Enoch shows the impact of devotion on future generations.",
+            "Prayer has no lasting effect on family.",
+            "Devotion is only for personal benefit.",
+            "Spiritual legacy depends on wealth."
+          ],
+          "correctAnswer": "Walking with God like Enoch shows the impact of devotion on future generations.",
+          "explanation": "Enoch’s close walk with God (Genesis 5:22-24) sets an example of prayer and devotion influencing spiritual legacy, encouraging believers to cultivate such habits.",
+          "verseReference": "Genesis 5:22-24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-5-medium-q12",
+          "question": "In the context of church life and fellowship, how does Genesis 5 highlight the importance of family and community continuity?",
+          "type": "multiple-choice",
+          "options": [
+            "Generations are linked through family, showing the value of community continuity in faith.",
+            "Church life is separate from family lineage.",
+            "Community has no role in faith development.",
+            "Families should isolate from church fellowship."
+          ],
+          "correctAnswer": "Generations are linked through family, showing the value of community continuity in faith.",
+          "explanation": "Genesis 5 demonstrates the succession of generations from Adam to Noah (verses 1-32), emphasizing the importance of family continuity for maintaining faith and fellowship.",
+          "verseReference": "Genesis 5:1-32",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-5-medium-q13",
+          "question": "What can Genesis 5 teach about dealing with temptation and maintaining obedience over a lifetime?",
+          "type": "multiple-choice",
+          "options": [
+            "Long faithful life, like those recorded, shows perseverance and obedience amid trials.",
+            "Temptation is not mentioned and is irrelevant.",
+            "Obedience requires perfection immediately.",
+            "Temptation should be ignored, not dealt with."
+          ],
+          "correctAnswer": "Long faithful life, like those recorded, shows perseverance and obedience amid trials.",
+          "explanation": "The long lives and faithfulness described, like Enoch’s walk with God (Genesis 5:22-24), teach perseverance and obedience through temptation and trials over time.",
+          "verseReference": "Genesis 5:22-24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-5-medium-q14",
+          "question": "How does Genesis 5 encourage generosity and stewardship in family and work life?",
+          "type": "multiple-choice",
+          "options": [
+            "Acknowledging God’s blessing in family and work encourages faithful stewardship.",
+            "Generosity is unrelated to family lineage.",
+            "Stewardship only applies to church funds.",
+            "Work is a curse with no blessing."
+          ],
+          "correctAnswer": "Acknowledging God’s blessing in family and work encourages faithful stewardship.",
+          "explanation": "Lamech’s naming of Noah (Genesis 5:29) connects human toil and God’s blessing, teaching believers to steward their work and family as gifts from God.",
+          "verseReference": "Genesis 5:29",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-5-medium-q15",
+          "question": "How can Genesis 5 inspire believers to be witnesses and share the Gospel in their families?",
+          "type": "multiple-choice",
+          "options": [
+            "The recorded faithful generations encourage passing faith and testimony to descendants.",
+            "Evangelism is only for church leaders.",
+            "Family faith has no impact on others.",
+            "Sharing faith should be avoided in families."
+          ],
+          "correctAnswer": "The recorded faithful generations encourage passing faith and testimony to descendants.",
+          "explanation": "The genealogical record (Genesis 5) shows faith passed from Adam to Noah, encouraging believers to witness and share the Gospel within their families.",
+          "verseReference": "Genesis 5:1-32",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "genesis-5-quiz",
+      "tags": [
+        "genesis",
+        "chapter-5",
+        "genesis",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "genesis-5-hard",
+      "title": "Genesis Chapter 5 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Genesis Chapter 5.",
+      "type": "chapter",
+      "book": "Genesis",
+      "chapter": 5,
+      "questions": [
+        {
+          "id": "genesis-5-hard-q1",
+          "question": "What is the significance of the phrase 'in the likeness of God made he him' in Genesis 5:1 regarding the theological anthropology in the Bible?",
+          "type": "multiple-choice",
+          "options": [
+            "It emphasizes man's unique creation distinct from animals",
+            "It indicates humans were made as physical copies of God",
+            "It suggests humans have divine powers equal to God",
+            "It refers to humans being created from God's own body"
+          ],
+          "correctAnswer": "It emphasizes man's unique creation distinct from animals",
+          "explanation": "Genesis 5:1 states that man was created in the likeness of God, underscoring human uniqueness and intrinsic dignity unlike other creatures, setting a theological foundation for humanity's role in Scripture.",
+          "verseReference": "Genesis 5:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-hard-q2",
+          "question": "How does the genealogy in Genesis 5 serve as a literary bridge between creation and the flood narrative later in Genesis?",
+          "type": "multiple-choice",
+          "options": [
+            "By tracing the lineage from Adam to Noah, it establishes continuity of humanity before the flood",
+            "It introduces the concept of divine judgment through long lifespans",
+            "It focuses on the nations that arise after the flood",
+            "It depicts the fall of angels before the flood"
+          ],
+          "correctAnswer": "By tracing the lineage from Adam to Noah, it establishes continuity of humanity before the flood",
+          "explanation": "Genesis 5 traces the generations from Adam to Noah (Genesis 5:32), linking the primeval creation with the impending flood, showing continuity and the unfolding of God's plan.",
+          "verseReference": "Genesis 5:32",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-hard-q3",
+          "question": "What is the significance of the name 'Noah' as explained in Genesis 5:29 in the context of ancient Near Eastern cultural expectations?",
+          "type": "multiple-choice",
+          "options": [
+            "He is called 'Noah' because he will comfort humanity from the cursed ground",
+            "Noah means 'warrior' reflecting his future role in battles",
+            "The name signifies 'builder' referring to the ark construction",
+            "Noah means 'judge' indicating his role in legal matters"
+          ],
+          "correctAnswer": "He is called 'Noah' because he will comfort humanity from the cursed ground",
+          "explanation": "Genesis 5:29 states that Lamech named his son Noah because he will provide comfort concerning the toil caused by the cursed ground, reflecting hope amidst judgment in ancient agrarian society.",
+          "verseReference": "Genesis 5:29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-hard-q4",
+          "question": "Which figure in Genesis 5 is uniquely noted for 'walking with God' and what theological implication does this have?",
+          "type": "multiple-choice",
+          "options": [
+            "Enoch, implying a life of intimate fellowship with God and divine favor",
+            "Methuselah, indicating his longevity was a blessing",
+            "Noah, foreshadowing his role in the flood",
+            "Seth, representing the righteous line"
+          ],
+          "correctAnswer": "Enoch, implying a life of intimate fellowship with God and divine favor",
+          "explanation": "Genesis 5:22-24 highlights Enoch's unique relationship with God, emphasizing the theme of righteous living and divine acceptance, as he was taken by God instead of dying.",
+          "verseReference": "Genesis 5:22-24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-hard-q5",
+          "question": "The long lifespans recorded in Genesis 5, such as Methuselah's 969 years, are often interpreted as what within biblical scholarship?",
+          "type": "multiple-choice",
+          "options": [
+            "Symbolic of an idealized antediluvian era of human longevity",
+            "Literal historical ages without exaggeration",
+            "Numerical codes for hidden prophecies",
+            "Indications of multiple generations conflated into one person"
+          ],
+          "correctAnswer": "Symbolic of an idealized antediluvian era of human longevity",
+          "explanation": "Genesis 5 details ages like Methuselah’s 969 years (Genesis 5:27), widely seen as symbolic or theological exaggeration to contrast pre- and post-flood humanity, emphasizing a lost era of fullness.",
+          "verseReference": "Genesis 5:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-hard-q6",
+          "question": "How does the genealogy in Genesis 5 reflect the ancient Near Eastern practice of recording genealogies?",
+          "type": "multiple-choice",
+          "options": [
+            "It emphasizes patrilineal descent and longevity to legitimize ancestral lines",
+            "It records all descendants without omissions",
+            "It focuses on maternal ancestry primarily",
+            "It lists only kings and rulers"
+          ],
+          "correctAnswer": "It emphasizes patrilineal descent and longevity to legitimize ancestral lines",
+          "explanation": "Genesis 5 follows a patrilineal pattern common in the ancient Near East, highlighting male descendants and their ages (e.g., Genesis 5:3-31), legitimizing the lineage from Adam to Noah.",
+          "verseReference": "Genesis 5:3-31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-hard-q7",
+          "question": "The phrase 'God took him' regarding Enoch (Genesis 5:24) is interpreted in biblical theology as what kind of typology?",
+          "type": "multiple-choice",
+          "options": [
+            "A type of resurrection or translation prefiguring Christ’s ascension",
+            "A euphemism for death by natural causes",
+            "An indication of Enoch's exile",
+            "A symbolic expression for spiritual death"
+          ],
+          "correctAnswer": "A type of resurrection or translation prefiguring Christ’s ascension",
+          "explanation": "Genesis 5:24’s statement that Enoch was taken by God without dying is often read as a typological foreshadowing of Christ’s ascension and the hope of eternal life.",
+          "verseReference": "Genesis 5:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-hard-q8",
+          "question": "What does the recurring phrase 'begat sons and daughters' alongside specific named sons in Genesis 5 suggest about the genealogy's purpose?",
+          "type": "multiple-choice",
+          "options": [
+            "It highlights the named son as the chosen heir while acknowledging broader family",
+            "It diminishes the importance of daughters in the lineage",
+            "It indicates the exact number of offspring",
+            "It refers only to symbolic descendants"
+          ],
+          "correctAnswer": "It highlights the named son as the chosen heir while acknowledging broader family",
+          "explanation": "Verses like Genesis 5:4 and 5:7 state 'begat sons and daughters' but focus on one son’s name, underscoring that genealogies emphasize key heirs while recognizing the extended family.",
+          "verseReference": "Genesis 5:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-hard-q9",
+          "question": "True or False: Genesis 5 emphasizes the theme of human mortality by repeatedly stating the exact age at death of each patriarch.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Genesis 5 consistently records the ages at death of the patriarchs (e.g., Genesis 5:5, 8, 11), underscoring the reality of death even among the long-lived pre-flood generations.",
+          "verseReference": "Genesis 5:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-hard-q10",
+          "question": "In what way does the genealogy in Genesis 5 connect to the New Testament teaching about human origins?",
+          "type": "multiple-choice",
+          "options": [
+            "It establishes Adam as the first man, a key figure in Romans 5 contrasting with Christ",
+            "It is referenced in Revelation as part of end-time prophecy",
+            "It is cited in the Gospels as evidence of Jesus’ royal lineage",
+            "It is used in Acts to explain the spread of nations"
+          ],
+          "correctAnswer": "It establishes Adam as the first man, a key figure in Romans 5 contrasting with Christ",
+          "explanation": "Paul in Romans 5 contrasts Adam, the first man referenced in Genesis 5:1-5, with Christ as the 'second Adam,' highlighting theological anthropology and sin's origins.",
+          "verseReference": "Genesis 5:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-hard-q11",
+          "question": "What is the literary function of the repeated formulaic structure in Genesis 5 (e.g., age at begetting, years after, total lifespan) in biblical genealogies?",
+          "type": "multiple-choice",
+          "options": [
+            "It creates a rhythmic and mnemonic pattern emphasizing continuity",
+            "It obscures the historical accuracy of the text",
+            "It serves as a legal code for inheritance",
+            "It is a poetic device to honor the patriarchs"
+          ],
+          "correctAnswer": "It creates a rhythmic and mnemonic pattern emphasizing continuity",
+          "explanation": "The repeated structured phrasing in Genesis 5 (e.g., Genesis 5:6-7) helps oral transmission and emphasizes the unbroken line from Adam to Noah, reinforcing covenant continuity.",
+          "verseReference": "Genesis 5:6-7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-hard-q12",
+          "question": "How do the names of the patriarchs in Genesis 5 reflect theological or prophetic meanings in the ancient Hebrew context?",
+          "type": "multiple-choice",
+          "options": [
+            "Names like 'Enoch' (dedicated) and 'Methuselah' (his death shall bring) carry symbolic significance",
+            "They are random and lack meaning",
+            "They are borrowed from surrounding nations without change",
+            "They all mean 'man' or 'human'"
+          ],
+          "correctAnswer": "Names like 'Enoch' (dedicated) and 'Methuselah' (his death shall bring) carry symbolic significance",
+          "explanation": "Many names in Genesis 5 have meanings relevant to their narrative or prophetic roles, e.g., Methuselah’s name is linked to the flood’s timing (Genesis 5:21-27).",
+          "verseReference": "Genesis 5:21-27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-hard-q13",
+          "question": "Which of the following best describes the authorial intent behind including the detailed lifespans and genealogies in Genesis 5 for its ancient audience?",
+          "type": "multiple-choice",
+          "options": [
+            "To establish divine order and legitimacy of human history from creation to flood",
+            "To entertain with extraordinary age stories",
+            "To provide scientific explanations for longevity",
+            "To list all family members for legal reasons"
+          ],
+          "correctAnswer": "To establish divine order and legitimacy of human history from creation to flood",
+          "explanation": "The genealogy in Genesis 5 legitimizes the human line from Adam to Noah, demonstrating God's sovereign ordering of history, important for the ancient Israelite audience.",
+          "verseReference": "Genesis 5:1-32",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-hard-q14",
+          "question": "What foreshadowing is present in Genesis 5:29 related to Noah's future role in Scripture?",
+          "type": "multiple-choice",
+          "options": [
+            "Noah will bring comfort from the curse of the ground, hinting at salvation after the flood",
+            "Noah will be a king who conquers nations",
+            "Noah will be a prophet who foretells exile",
+            "Noah will be a judge who imposes laws"
+          ],
+          "correctAnswer": "Noah will bring comfort from the curse of the ground, hinting at salvation after the flood",
+          "explanation": "Lamech naming Noah in Genesis 5:29 anticipates Noah’s role as a deliverer who will relieve human toil caused by the cursed ground, foreshadowing the salvation narrative in Genesis 6-9.",
+          "verseReference": "Genesis 5:29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-hard-q15",
+          "question": "True or False: According to Genesis 5, Noah had three sons named Shem, Ham, and Japheth after he was 500 years old.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Genesis 5:32 states that Noah was 500 years old when he begat Shem, Ham, and Japheth, confirming the timing of his sons’ births.",
+          "verseReference": "Genesis 5:32",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "genesis-5-quiz",
+      "tags": [
+        "genesis",
+        "chapter-5",
+        "genesis",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "genesis-5-theological",
+      "title": "Genesis Chapter 5 Quiz - Theological Level",
+      "description": "Deep biblical theology from Genesis Chapter 5 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Genesis",
+      "chapter": 5,
+      "questions": [
+        {
+          "id": "genesis-5-theological-q1",
+          "question": "What is the significance of the phrase 'in the likeness of God made he him' in Genesis 5:1 regarding the nature of humanity?",
+          "type": "multiple-choice",
+          "options": [
+            "It indicates that humans are created with a divine nature reflecting God's image",
+            "It means humans were created as gods themselves",
+            "It suggests humans were created identical to angels",
+            "It refers to humans being made from the dust of the ground"
+          ],
+          "correctAnswer": "It indicates that humans are created with a divine nature reflecting God's image",
+          "explanation": "Genesis 5:1 states that man was made in God's likeness, which aligns with Genesis 1:26-27 where God creates man in His image, indicating a unique divine reflection in humanity. This is affirmed in James 3:9 which acknowledges humans made in God's likeness, and Colossians 3:10 which speaks of being renewed in knowledge after the image of the Creator.",
+          "verseReference": "Genesis 5:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-theological-q2",
+          "question": "According to Genesis 5:3, what is notable about the son Adam begat, Seth?",
+          "type": "multiple-choice",
+          "options": [
+            "Seth was born in Adam's likeness and after his image",
+            "Seth was the first son of Adam",
+            "Seth was born before the fall of man",
+            "Seth was named after a city"
+          ],
+          "correctAnswer": "Seth was born in Adam's likeness and after his image",
+          "explanation": "Genesis 5:3 explicitly states Seth was begotten in Adam's own likeness and after his image, emphasizing the transmission of the divine image through generations. This concept is echoed in Psalm 51:5 about human nature inherited, and Romans 5:12 discusses sin entering through Adam, indicating the importance of lineage.",
+          "verseReference": "Genesis 5:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-theological-q3",
+          "question": "What is the theological implication of Enoch's life as described in Genesis 5:24?",
+          "type": "multiple-choice",
+          "options": [
+            "Enoch 'walked with God' and was taken by God, implying he did not experience death",
+            "Enoch was the first prophet to predict the flood",
+            "Enoch was the longest-lived man in the genealogy",
+            "Enoch built an altar to God"
+          ],
+          "correctAnswer": "Enoch 'walked with God' and was taken by God, implying he did not experience death",
+          "explanation": "Genesis 5:24's statement that Enoch 'walked with God' and 'was not; for God took him' indicates a unique intimacy with God and a departure from death. Hebrews 11:5 confirms Enoch's faith pleased God and he was taken away to avoid death. This foreshadows Christian eschatology of believers being caught up to God (1 Thessalonians 4:17).",
+          "verseReference": "Genesis 5:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-theological-q4",
+          "question": "How does Genesis 5:29 reflect a messianic hope connected to Noah's birth?",
+          "type": "multiple-choice",
+          "options": [
+            "Noah is seen as a comforter concerning the curse of the ground",
+            "Noah was prophesied to be a king over Israel",
+            "Noah was destined to be a priest",
+            "Noah was called to build a temple"
+          ],
+          "correctAnswer": "Noah is seen as a comforter concerning the curse of the ground",
+          "explanation": "Genesis 5:29 reveals Lamech naming Noah with the hope that he would bring comfort amid the curse on the ground. This points to a redemptive hope after sin's consequences (Genesis 3:17-19). The New Testament sees Noah as a type of Christ who brings salvation (1 Peter 3:20-21), and the comfort theme echoes Isaiah 40:1-2.",
+          "verseReference": "Genesis 5:29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-theological-q5",
+          "question": "What does the long lifespan of the patriarchs in Genesis 5 teach about God's creation and human nature before the flood?",
+          "type": "multiple-choice",
+          "options": [
+            "It indicates that early humans were created with vitality and longevity, reflecting God's original design",
+            "It means humans were immortal until the flood",
+            "It suggests that ages were symbolic rather than literal",
+            "It implies that humans were more like angels"
+          ],
+          "correctAnswer": "It indicates that early humans were created with vitality and longevity, reflecting God's original design",
+          "explanation": "The extensive lifespans (e.g., Methuselah 969 years in Genesis 5:27) show the original design for human life was prolonged, reflecting God's sustaining power. Psalm 90:10 contrasts normal human lifespan post-flood, and 1 Timothy 6:16 describes God's eternal nature, highlighting the difference. These ages symbolize God's sustaining grace before judgment.",
+          "verseReference": "Genesis 5:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-theological-q6",
+          "question": "Who is the first person in Genesis 5 described as 'walking with God' and what does this signify?",
+          "type": "multiple-choice",
+          "options": [
+            "Enoch, signifying a life of holiness and close fellowship with God",
+            "Adam, signifying his role as first man",
+            "Noah, signifying his obedience",
+            "Seth, signifying the continuation of the godly line"
+          ],
+          "correctAnswer": "Enoch, signifying a life of holiness and close fellowship with God",
+          "explanation": "Genesis 5:22-24 describes Enoch as the one who 'walked with God,' indicating intimate fellowship and righteousness. This is echoed in Hebrews 11:5, highlighting faith and pleasing God. Such walking with God is a biblical metaphor for obedience and sanctification (Micah 6:8).",
+          "verseReference": "Genesis 5:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-theological-q7",
+          "question": "What pattern regarding human reproduction and longevity is established in Genesis 5?",
+          "type": "multiple-choice",
+          "options": [
+            "Each patriarch fathers a son 'in his likeness,' lives many years afterward, and begets other sons and daughters",
+            "Each patriarch fathers only one son and dies soon after",
+            "Each patriarch is infertile except for one son",
+            "Each patriarch fathers sons only after 500 years of age"
+          ],
+          "correctAnswer": "Each patriarch fathers a son 'in his likeness,' lives many years afterward, and begets other sons and daughters",
+          "explanation": "Genesis 5 repeatedly shows a pattern: the patriarch begets a son in his likeness, lives many more years, and has other children (e.g., Genesis 5:3, 5:6, 5:9). This pattern emphasizes continuity of the divine image and human lineage. Romans 5:12-14 discusses sin spreading through generations, reinforcing human descent themes.",
+          "verseReference": "Genesis 5:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-theological-q8",
+          "question": "According to Genesis 5:32, how old was Noah when he became a father to Shem, Ham, and Japheth?",
+          "type": "multiple-choice",
+          "options": [
+            "Five hundred years old",
+            "One hundred years old",
+            "Nine hundred years old",
+            "Six hundred years old"
+          ],
+          "correctAnswer": "Five hundred years old",
+          "explanation": "Genesis 5:32 states Noah was 500 years old when he fathered Shem, Ham, and Japheth, consistent with Genesis 7:6 where Noah is 600 at the flood, showing a divine timetable. This reflects God's providential timing in salvation history (Galatians 4:4).",
+          "verseReference": "Genesis 5:32",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-theological-q9",
+          "question": "What does the genealogy in Genesis 5 reveal about the transmission of the divine image in humanity?",
+          "type": "multiple-choice",
+          "options": [
+            "The divine image is passed from father to son, preserving humanity's likeness to God",
+            "The divine image was lost after Adam",
+            "Only Seth's line bore God's image",
+            "The divine image is irrelevant to human genealogy"
+          ],
+          "correctAnswer": "The divine image is passed from father to son, preserving humanity's likeness to God",
+          "explanation": "Genesis 5:3 emphasizes Seth was born in Adam's likeness and image, indicating the divine image continues through generations. This is foundational for doctrines of Imago Dei (Genesis 1:27). James 3:9 affirms all humans bear God's image, maintaining theological consistency.",
+          "verseReference": "Genesis 5:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-theological-q10",
+          "question": "Why does the chapter emphasize the total lifespan of each patriarch alongside the years after their son's birth?",
+          "type": "multiple-choice",
+          "options": [
+            "To highlight both the age at fatherhood and the extensive lives God granted",
+            "To show that they died shortly after fathering a son",
+            "To indicate the sons were born late in life",
+            "To prove the ages were symbolic"
+          ],
+          "correctAnswer": "To highlight both the age at fatherhood and the extensive lives God granted",
+          "explanation": "Genesis 5 details both the age at which each patriarch fathered a son and their total lifespan (e.g., Genesis 5:6-8) emphasizing God's sustaining power and the importance of lineage. This is theologically significant showing God's providence over human life (Psalm 139:16) and human mortality (Ecclesiastes 3:1-2).",
+          "verseReference": "Genesis 5:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-theological-q11",
+          "question": "What is the theological importance of the phrase 'God took him' in reference to Enoch in Genesis 5:24?",
+          "type": "multiple-choice",
+          "options": [
+            "It signifies God's sovereign power over life and death and foreshadows resurrection",
+            "It means Enoch was taken to exile",
+            "It implies Enoch was abandoned by God",
+            "It suggests Enoch died a normal death"
+          ],
+          "correctAnswer": "It signifies God's sovereign power over life and death and foreshadows resurrection",
+          "explanation": "Genesis 5:24's phrase 'God took him' shows divine authority over death, as Enoch did not die but was taken alive, foreshadowing resurrection themes (1 Corinthians 15:51-52). This demonstrates God's ability to preserve life beyond death, a hope fulfilled in Christ (John 11:25-26).",
+          "verseReference": "Genesis 5:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-theological-q12",
+          "question": "How does Genesis 5 contribute to the biblical understanding of sin and death entering humanity?",
+          "type": "multiple-choice",
+          "options": [
+            "By tracing the lineage from Adam to Noah, it shows the spread of humanity subject to death after sin",
+            "By showing all patriarchs were sinless",
+            "By revealing that sin was removed through genealogy",
+            "By proving death was absent before Noah"
+          ],
+          "correctAnswer": "By tracing the lineage from Adam to Noah, it shows the spread of humanity subject to death after sin",
+          "explanation": "Genesis 5 traces descendants from Adam who died (Genesis 5:5) onward, illustrating mortality as a consequence of sin (Romans 5:12). This genealogy underscores the universality of sin and death, which Christ came to conquer (Romans 6:23; 1 Corinthians 15:22).",
+          "verseReference": "Genesis 5:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-theological-q13",
+          "question": "What role does the genealogy in Genesis 5 play in the grand narrative of Scripture?",
+          "type": "multiple-choice",
+          "options": [
+            "It bridges creation to the flood, showing continuity of God's plan for humanity",
+            "It is purely historical with no theological significance",
+            "It introduces the law of Moses",
+            "It narrates the exile of Israel"
+          ],
+          "correctAnswer": "It bridges creation to the flood, showing continuity of God's plan for humanity",
+          "explanation": "Genesis 5 serves as a theological bridge from creation (Genesis 1-3) to the flood narrative (Genesis 6-9), emphasizing God's ongoing providence and the preservation of the faithful line culminating in Noah. This continuity is vital for understanding covenant history (Genesis 9:8-17) and God's redemptive purposes (Hebrews 11:7).",
+          "verseReference": "Genesis 5:32",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-theological-q14",
+          "question": "What does the repeated phrase 'and he died' after each patriarch's lifespan in Genesis 5 communicate doctrinally?",
+          "type": "multiple-choice",
+          "options": [
+            "It affirms the reality of human mortality as a result of sin",
+            "It denies the existence of an afterlife",
+            "It implies that only certain men died",
+            "It suggests death was a punishment only for righteous men"
+          ],
+          "correctAnswer": "It affirms the reality of human mortality as a result of sin",
+          "explanation": "The refrain 'and he died' (e.g., Genesis 5:5, 8, 11) highlights death as the inevitable consequence of sin (Genesis 3:19; Romans 6:23). This sets the stage for the hope of resurrection and eternal life through Christ (John 11:25; 1 Corinthians 15:20).",
+          "verseReference": "Genesis 5:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-theological-q15",
+          "question": "How does the naming of Noah in Genesis 5:29 relate to God's curse on the ground in Genesis 3:17?",
+          "type": "multiple-choice",
+          "options": [
+            "Noah is named with the hope of bringing relief from the toil caused by the cursed ground",
+            "Noah was named to signify judgment on the earth",
+            "Noah's name means 'destroyer of the ground'",
+            "Noah was named after a city"
+          ],
+          "correctAnswer": "Noah is named with the hope of bringing relief from the toil caused by the cursed ground",
+          "explanation": "Genesis 5:29 connects Noah's name to the expectation that he would comfort humanity regarding the cursed ground from Genesis 3:17. This reflects God's mercy and plan for redemption despite the fall, echoed in Isaiah 61:1-3 where comfort is promised to the afflicted.",
+          "verseReference": "Genesis 5:29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-5-theological-q16",
+          "question": "What theological theme is highlighted by the phrase 'begat sons and daughters' repeated throughout Genesis 5?",
+          "type": "multiple-choice",
+          "options": [
+            "God's blessing of fruitfulness and the continuation of human life despite the fall",
+            "The exclusivity of male descendants",
+            "The prohibition against polygamy",
+            "The promise of immediate salvation"
+          ],
+          "correctAnswer": "God's blessing of fruitfulness and the continuation of human life despite the fall",
+          "explanation": "The repeated mention of 'begat sons and daughters' (e.g., Genesis 5:4, 7, 10) underscores God's blessing of multiplication and the ongoing preservation of humanity despite sin's effects. This aligns with Genesis 1:28's command to be fruitful and multiply and the hope found in Acts 17:26.",
+          "verseReference": "Genesis 5:4",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "genesis-5-quiz",
+      "tags": [
+        "genesis",
+        "chapter-5",
+        "genesis",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 16,
+      "estimatedTime": 25
+    }
+  }
+}

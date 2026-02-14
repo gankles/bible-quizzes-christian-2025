@@ -1,0 +1,983 @@
+{
+  "id": "daniel-2-tabbed",
+  "title": "Daniel Chapter 2 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Daniel chapter 2 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "daniel-2-easy",
+      "title": "Daniel Chapter 2 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Daniel Chapter 2.",
+      "type": "chapter",
+      "book": "Daniel",
+      "chapter": 2,
+      "questions": [
+        {
+          "id": "daniel-2-easy-q1",
+          "question": "In which year of Nebuchadnezzar's reign did he have the troubling dream?",
+          "type": "multiple-choice",
+          "options": [
+            "First year",
+            "Second year",
+            "Third year",
+            "Fourth year"
+          ],
+          "correctAnswer": "Second year",
+          "explanation": "Daniel 2:1 states that the dream occurred in the second year of Nebuchadnezzar's reign.",
+          "verseReference": "Daniel 2:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-2-easy-q2",
+          "question": "Who did Nebuchadnezzar command to be called to interpret his dream?",
+          "type": "multiple-choice",
+          "options": [
+            "Prophets and priests",
+            "Magicians, astrologers, sorcerers, and Chaldeans",
+            "Soldiers and captains",
+            "Hebrew elders"
+          ],
+          "correctAnswer": "Magicians, astrologers, sorcerers, and Chaldeans",
+          "explanation": "Daniel 2:2 shows the king commanded magicians, astrologers, sorcerers, and Chaldeans to be called.",
+          "verseReference": "Daniel 2:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-2-easy-q3",
+          "question": "What was Nebuchadnezzar's threat if the wise men did not reveal the dream and its interpretation?",
+          "type": "multiple-choice",
+          "options": [
+            "They would be exiled",
+            "They would be made slaves",
+            "They would be cut in pieces and their houses made a dunghill",
+            "They would be imprisoned"
+          ],
+          "correctAnswer": "They would be cut in pieces and their houses made a dunghill",
+          "explanation": "According to Daniel 2:5, Nebuchadnezzar threatened to cut them in pieces and make their houses a dunghill if they failed.",
+          "verseReference": "Daniel 2:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-2-easy-q4",
+          "question": "How did the Chaldeans respond when asked to tell the king the dream?",
+          "type": "multiple-choice",
+          "options": [
+            "They immediately told the dream",
+            "They asked for more time",
+            "They said the king must tell them the dream first",
+            "They refused to speak"
+          ],
+          "correctAnswer": "They said the king must tell them the dream first",
+          "explanation": "Daniel 2:7 records the Chaldeans saying the king should tell the dream so they could interpret it.",
+          "verseReference": "Daniel 2:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-2-easy-q5",
+          "question": "What decree did Nebuchadnezzar issue when the wise men failed to reveal the dream?",
+          "type": "multiple-choice",
+          "options": [
+            "To promote the wise men",
+            "To destroy all the wise men of Babylon",
+            "To send the wise men away",
+            "To imprison the wise men"
+          ],
+          "correctAnswer": "To destroy all the wise men of Babylon",
+          "explanation": "Daniel 2:12 says the king was angry and commanded the destruction of all wise men of Babylon.",
+          "verseReference": "Daniel 2:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-2-easy-q6",
+          "question": "Who did Daniel first speak to about the king's decree to kill the wise men?",
+          "type": "multiple-choice",
+          "options": [
+            "The king’s captain Arioch",
+            "The king himself",
+            "The magicians",
+            "Hananiah, Mishael, and Azariah"
+          ],
+          "correctAnswer": "The king’s captain Arioch",
+          "explanation": "Daniel 2:14 states that Daniel answered with counsel to Arioch, the king's captain.",
+          "verseReference": "Daniel 2:14",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-2-easy-q7",
+          "question": "What did Daniel request from the king to help him interpret the dream?",
+          "type": "multiple-choice",
+          "options": [
+            "Permission to leave Babylon",
+            "Time to seek God’s mercy",
+            "A reward before interpretation",
+            "More wise men to help"
+          ],
+          "correctAnswer": "Time to seek God’s mercy",
+          "explanation": "Daniel 2:16 shows Daniel asking the king for time to reveal the interpretation.",
+          "verseReference": "Daniel 2:16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-2-easy-q8",
+          "question": "How was the secret of the dream revealed to Daniel?",
+          "type": "multiple-choice",
+          "options": [
+            "By a prophet",
+            "In a night vision",
+            "By the king’s command",
+            "Through the Chaldeans"
+          ],
+          "correctAnswer": "In a night vision",
+          "explanation": "Daniel 2:19 says the secret was revealed to Daniel in a night vision.",
+          "verseReference": "Daniel 2:19",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-2-easy-q9",
+          "question": "What did Daniel say about wisdom and might in his blessing?",
+          "type": "multiple-choice",
+          "options": [
+            "They are given by the king",
+            "They come from the gods of Babylon",
+            "They belong to God forever",
+            "They come from human knowledge"
+          ],
+          "correctAnswer": "They belong to God forever",
+          "explanation": "Daniel 2:20 praises God for wisdom and might being His forever and ever.",
+          "verseReference": "Daniel 2:20",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-2-easy-q10",
+          "question": "What did the head of the great image in Nebuchadnezzar's dream represent?",
+          "type": "multiple-choice",
+          "options": [
+            "The kingdom of Babylon",
+            "The kingdom of Persia",
+            "The kingdom of Greece",
+            "The kingdom of Rome"
+          ],
+          "correctAnswer": "The kingdom of Babylon",
+          "explanation": "Daniel 2:38 identifies the head of gold as Nebuchadnezzar’s kingdom, Babylon.",
+          "verseReference": "Daniel 2:38",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-2-easy-q11",
+          "question": "Which material made up the legs of the great image in the dream?",
+          "type": "multiple-choice",
+          "options": [
+            "Gold",
+            "Silver",
+            "Iron",
+            "Clay"
+          ],
+          "correctAnswer": "Iron",
+          "explanation": "Daniel 2:33 states the legs were made of iron.",
+          "verseReference": "Daniel 2:33",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-2-easy-q12",
+          "question": "True or False: The stone that struck the image was cut out by human hands.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Daniel 2:34 specifies the stone was cut out without hands.",
+          "verseReference": "Daniel 2:34",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-2-easy-q13",
+          "question": "True or False: Nebuchadnezzar worshipped Daniel after hearing the interpretation.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Daniel 2:46 describes Nebuchadnezzar falling on his face and worshipping Daniel.",
+          "verseReference": "Daniel 2:46",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-2-easy-q14",
+          "question": "True or False: Daniel claimed the secret was revealed to him because of his own superior wisdom.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Daniel 2:30 says the secret was revealed not for his own wisdom but to make known the interpretation.",
+          "verseReference": "Daniel 2:30",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-2-easy-q15",
+          "question": "Complete the verse: 'Thou art this head of ____.'",
+          "type": "fill-blank",
+          "options": [
+            "gold",
+            "silver",
+            "iron",
+            "clay"
+          ],
+          "correctAnswer": "gold",
+          "explanation": "Daniel 2:38 states the king is the head of gold.",
+          "verseReference": "Daniel 2:38",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "daniel-2-quiz",
+      "tags": [
+        "daniel",
+        "chapter-2",
+        "daniel",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "daniel-2-medium",
+      "title": "Daniel Chapter 2 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Daniel Chapter 2 to real-life situations.",
+      "type": "chapter",
+      "book": "Daniel",
+      "chapter": 2,
+      "questions": [
+        {
+          "id": "daniel-2-medium-q1",
+          "question": "A fellow believer is anxious because they feel their prayers are unanswered. Based on Daniel 2, what biblical truth about prayer and divine wisdom could you share?",
+          "type": "multiple-choice",
+          "options": [
+            "God reveals secrets and grants wisdom to those who seek Him in prayer",
+            "God only answers prayers if they are made in public",
+            "Prayer is unnecessary if you have natural wisdom",
+            "God reveals secrets only to kings and rulers"
+          ],
+          "correctAnswer": "God reveals secrets and grants wisdom to those who seek Him in prayer",
+          "explanation": "Daniel 2:18 shows Daniel and his friends praying for mercy concerning the secret, and Daniel 2:19-23 explains that God revealed the secret and gave wisdom. This teaches that sincere prayer invites God's wisdom.",
+          "verseReference": "Daniel 2:18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-2-medium-q2",
+          "question": "How does Daniel 2 teach us about humility when God grants us understanding or success?",
+          "type": "multiple-choice",
+          "options": [
+            "We should acknowledge that wisdom and might come from God, not ourselves",
+            "We should boast about our knowledge to others",
+            "We should take all credit for our success",
+            "We should hide our gifts so no one knows"
+          ],
+          "correctAnswer": "We should acknowledge that wisdom and might come from God, not ourselves",
+          "explanation": "Daniel 2:20-23 shows Daniel blessing God for wisdom and might, recognizing that the understanding was given by God, emphasizing humility in receiving gifts from Him.",
+          "verseReference": "Daniel 2:20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-2-medium-q3",
+          "question": "A believer is facing pressure to conform to worldly values at work. What principle about integrity and faithfulness can you share from Daniel 2's narrative?",
+          "type": "multiple-choice",
+          "options": [
+            "Stay faithful to God and trust Him to reveal His truth even under threat",
+            "Compromise to keep your position",
+            "Avoid any involvement in your workplace",
+            "Only focus on personal gain"
+          ],
+          "correctAnswer": "Stay faithful to God and trust Him to reveal His truth even under threat",
+          "explanation": "Daniel 2:12-13 describes the king's decree to kill wise men, yet Daniel remained faithful and sought God's wisdom. This shows perseverance with integrity amid trials.",
+          "verseReference": "Daniel 2:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-2-medium-q4",
+          "question": "In what way does Daniel 2 encourage believers to trust God’s sovereign control over life events?",
+          "type": "multiple-choice",
+          "options": [
+            "God changes times and seasons and sets up and removes kings according to His purpose",
+            "Life is random and unpredictable without order",
+            "Only human effort determines outcomes",
+            "God lets human rulers do whatever they want without control"
+          ],
+          "correctAnswer": "God changes times and seasons and sets up and removes kings according to His purpose",
+          "explanation": "Daniel 2:21 states that God changes times and seasons and removes and sets up kings, teaching believers to trust God’s sovereign control over history and personal circumstances.",
+          "verseReference": "Daniel 2:21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-2-medium-q5",
+          "question": "How does Daniel 2 illustrate the value of seeking counsel and praying with fellow believers during difficult times?",
+          "type": "multiple-choice",
+          "options": [
+            "Daniel shared the problem with Hananiah, Mishael, and Azariah and prayed together for mercy",
+            "Daniel dealt with the problem alone without telling anyone",
+            "Daniel ignored the problem hoping it would go away",
+            "Daniel sought only the king's advice"
+          ],
+          "correctAnswer": "Daniel shared the problem with Hananiah, Mishael, and Azariah and prayed together for mercy",
+          "explanation": "Daniel 2:17-18 shows Daniel confiding in his friends and praying with them, demonstrating the importance of fellowship and collective prayer in trials.",
+          "verseReference": "Daniel 2:17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-2-medium-q6",
+          "question": "A believer feels overwhelmed by uncertainty about the future. What hope does Daniel 2 offer about God’s knowledge and revelation?",
+          "type": "multiple-choice",
+          "options": [
+            "God reveals deep and secret things and knows what is in darkness",
+            "The future is unknowable and hidden from God",
+            "Only human wisdom can predict the future",
+            "Believers should avoid thinking about the future"
+          ],
+          "correctAnswer": "God reveals deep and secret things and knows what is in darkness",
+          "explanation": "Daniel 2:22 explains God reveals deep and secret things and that light dwells with Him, encouraging believers to trust God’s knowledge even when the future is uncertain.",
+          "verseReference": "Daniel 2:22",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-2-medium-q7",
+          "question": "According to Daniel 2, what should be our response when God reveals His plans to us?",
+          "type": "multiple-choice",
+          "options": [
+            "Respond with thanksgiving, praise, and trust",
+            "Ignore the revelation and keep it secret",
+            "Doubt and question God’s plan",
+            "Share the revelation only with close friends"
+          ],
+          "correctAnswer": "Respond with thanksgiving, praise, and trust",
+          "explanation": "Daniel 2:23 and 2:46 show Daniel praising God and the king worshipping Daniel’s God after the revelation, teaching believers to respond with gratitude and trust.",
+          "verseReference": "Daniel 2:23",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-2-medium-q8",
+          "question": "How does Daniel 2 teach the importance of standing firm in faith when facing threats or trials?",
+          "type": "multiple-choice",
+          "options": [
+            "Daniel courageously approached Arioch to request time and trusted God for the interpretation",
+            "Daniel fled and hid to avoid danger",
+            "Daniel compromised with the king’s demands",
+            "Daniel gave up and accepted the decree"
+          ],
+          "correctAnswer": "Daniel courageously approached Arioch to request time and trusted God for the interpretation",
+          "explanation": "Daniel 2:14-16 shows Daniel’s boldness and faith in asking for time to seek God’s help before the king, modeling trust and courage under pressure.",
+          "verseReference": "Daniel 2:16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-2-medium-q9",
+          "question": "True or False: According to Daniel 2, human wisdom alone can reveal the king’s dream and its interpretation.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Daniel 2:27-28 states that human wisdom cannot reveal the king’s dream; it is God who reveals secrets, emphasizing reliance on divine wisdom rather than human knowledge.",
+          "verseReference": "Daniel 2:27",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-2-medium-q10",
+          "question": "True or False: Daniel was appointed ruler over the whole province of Babylon because he revealed the king’s dream and interpretation.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Daniel 2:48 confirms that the king made Daniel a great man and ruler over the province of Babylon after he revealed the interpretation, showing God’s blessing on faithful service.",
+          "verseReference": "Daniel 2:48",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-2-medium-q11",
+          "question": "A fellow believer is confused about God’s kingdom and earthly kingdoms. Based on Daniel 2, how would you explain the relationship between God’s eternal kingdom and earthly powers?",
+          "type": "multiple-choice",
+          "options": [
+            "God will set up a kingdom that will never be destroyed, which will consume all earthly kingdoms",
+            "Earthly kingdoms are eternal and unchanging",
+            "God’s kingdom is only symbolic and has no real power",
+            "Earthly kingdoms are more powerful than God’s kingdom"
+          ],
+          "correctAnswer": "God will set up a kingdom that will never be destroyed, which will consume all earthly kingdoms",
+          "explanation": "Daniel 2:44-45 teaches that God’s kingdom will break in pieces and consume all others, showing the supremacy and eternal nature of God’s rule.",
+          "verseReference": "Daniel 2:44",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-2-medium-q12",
+          "question": "Fill in the blank: Daniel told the king that the stone that broke the image was cut out of the _____ without hands.",
+          "type": "fill-blank",
+          "options": [
+            "mountain",
+            "earth",
+            "sky",
+            "river"
+          ],
+          "correctAnswer": "mountain",
+          "explanation": "Daniel 2:34 describes a stone cut out of the mountain without hands striking the image, symbolizing God’s kingdom. This teaches reliance on divine power rather than human strength.",
+          "verseReference": "Daniel 2:34",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-2-medium-q13",
+          "question": "What does Daniel 2 teach about sharing God’s truth with others in challenging situations?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s truth should be boldly shared even if it involves risk",
+            "Truth should be hidden to avoid conflict",
+            "Only share truth with those who agree with you",
+            "Wait for perfect conditions before sharing truth"
+          ],
+          "correctAnswer": "God’s truth should be boldly shared even if it involves risk",
+          "explanation": "Daniel 2:24-26 shows Daniel volunteering to reveal the dream to the king despite dangers, exemplifying courage in witnessing and obedience to God.",
+          "verseReference": "Daniel 2:24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-2-medium-q14",
+          "question": "How does Daniel 2 illustrate the role of gratitude in a believer’s life after receiving God’s blessings?",
+          "type": "multiple-choice",
+          "options": [
+            "Daniel blessed and praised God continually after receiving wisdom",
+            "Daniel took the blessings for granted",
+            "Daniel demanded more blessings without thanks",
+            "Daniel kept the blessings secret"
+          ],
+          "correctAnswer": "Daniel blessed and praised God continually after receiving wisdom",
+          "explanation": "Daniel 2:19-23 shows Daniel blessing God for wisdom and revelation, teaching that gratitude is a natural response to God’s gifts.",
+          "verseReference": "Daniel 2:19",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-2-medium-q15",
+          "question": "According to Daniel 2, how should believers view the changing of leaders and seasons in life?",
+          "type": "multiple-choice",
+          "options": [
+            "As God’s sovereign will, for He removeth kings and setteth up kings",
+            "As random and meaningless events",
+            "As failures of human planning",
+            "As purely political matters with no spiritual significance"
+          ],
+          "correctAnswer": "As God’s sovereign will, for He removeth kings and setteth up kings",
+          "explanation": "Daniel 2:21 highlights God’s control over times and rulers, encouraging believers to trust God’s plan in life transitions.",
+          "verseReference": "Daniel 2:21",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "daniel-2-quiz",
+      "tags": [
+        "daniel",
+        "chapter-2",
+        "daniel",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "daniel-2-hard",
+      "title": "Daniel Chapter 2 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Daniel Chapter 2.",
+      "type": "chapter",
+      "book": "Daniel",
+      "chapter": 2,
+      "questions": [
+        {
+          "id": "daniel-2-hard-q1",
+          "question": "What is the significance of Nebuchadnezzar's dream as revealed in Daniel 2, in the context of biblical typology?",
+          "type": "multiple-choice",
+          "options": [
+            "It foreshadows the coming Messiah's eternal kingdom",
+            "It predicts the destruction of Jerusalem in 586 BC",
+            "It symbolizes the cycles of Israel's judges",
+            "It represents the exile of the northern kingdom Israel"
+          ],
+          "correctAnswer": "It foreshadows the coming Messiah's eternal kingdom",
+          "explanation": "Daniel 2:44 describes a kingdom set up by God that will never be destroyed, which is widely interpreted as a typological foreshadowing of the Messianic kingdom established in the New Testament.",
+          "verseReference": "Daniel 2:44",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-hard-q2",
+          "question": "In Daniel 2, the statue's head is made of what material, and what does it represent historically?",
+          "type": "multiple-choice",
+          "options": [
+            "Gold; the Babylonian Empire",
+            "Silver; the Medo-Persian Empire",
+            "Bronze; the Greek Empire",
+            "Iron; the Roman Empire"
+          ],
+          "correctAnswer": "Gold; the Babylonian Empire",
+          "explanation": "Daniel 2:32 and 2:38 explain that the head of gold corresponds to Nebuchadnezzar himself and his kingdom, Babylon, establishing the historical context within the ancient Near East.",
+          "verseReference": "Daniel 2:32,38",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-hard-q3",
+          "question": "Which literary device is prominently used in Daniel 2 when describing the statue composed of different metals?",
+          "type": "multiple-choice",
+          "options": [
+            "Symbolism",
+            "Chiasm",
+            "Parable",
+            "Hyperbole"
+          ],
+          "correctAnswer": "Symbolism",
+          "explanation": "The statue with parts of gold, silver, bronze, iron, and clay symbolizes successive kingdoms, an example of symbolism used to communicate prophetic history (Daniel 2:31-33).",
+          "verseReference": "Daniel 2:31-33",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-hard-q4",
+          "question": "What role do Daniel's three friends—Hananiah, Mishael, and Azariah—play in the narrative of Daniel 2?",
+          "type": "multiple-choice",
+          "options": [
+            "They join Daniel in prayer for divine revelation",
+            "They interpret the dream after Daniel",
+            "They challenge the king's decree",
+            "They counsel Nebuchadnezzar directly"
+          ],
+          "correctAnswer": "They join Daniel in prayer for divine revelation",
+          "explanation": "Daniel 2:17-18 shows Daniel sharing the problem with his companions and praying together to God for mercy concerning the secret.",
+          "verseReference": "Daniel 2:17-18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-hard-q5",
+          "question": "Which ancient Near Eastern cultural context is reflected in Nebuchadnezzar's initial request for his dream and its interpretation?",
+          "type": "multiple-choice",
+          "options": [
+            "Reliance on magicians, astrologers, and Chaldeans for divination",
+            "Use of Egyptian hieroglyphs for prophecy",
+            "Consultation of Greek oracles",
+            "Zoroastrian priestly divinations"
+          ],
+          "correctAnswer": "Reliance on magicians, astrologers, and Chaldeans for divination",
+          "explanation": "Nebuchadnezzar calls magicians, astrologers, sorcerers, and Chaldeans (Daniel 2:2) reflecting the Mesopotamian practice of seeking divine knowledge through occult specialists.",
+          "verseReference": "Daniel 2:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-hard-q6",
+          "question": "True or False: Daniel claims that the dream's interpretation was revealed to him because of his own superior wisdom above all others.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Daniel 2:30 explicitly states that the secret was not revealed to him because of his own wisdom but for the sake of making the interpretation known to the king.",
+          "verseReference": "Daniel 2:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-hard-q7",
+          "question": "How does Daniel 2:21 describe God's sovereignty over human history and kingship?",
+          "type": "multiple-choice",
+          "options": [
+            "God changes times and seasons, removes kings, and sets up kings",
+            "God directly commands all kings in battle",
+            "God remains uninvolved in political affairs",
+            "God only influences Israelite kings"
+          ],
+          "correctAnswer": "God changes times and seasons, removes kings, and sets up kings",
+          "explanation": "Daniel 2:21 emphasizes God's control over historical events and rulers, highlighting divine sovereignty over the rise and fall of kingdoms.",
+          "verseReference": "Daniel 2:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-hard-q8",
+          "question": "What is the significance of the stone 'cut out without hands' in Daniel's vision?",
+          "type": "multiple-choice",
+          "options": [
+            "It symbolizes a divine kingdom established without human agency",
+            "It represents an earthquake that destroyed Babylon",
+            "It is a metaphor for Nebuchadnezzar's wisdom",
+            "It denotes the physical temple in Jerusalem"
+          ],
+          "correctAnswer": "It symbolizes a divine kingdom established without human agency",
+          "explanation": "Daniel 2:34-35 describes a stone cut out without hands breaking the statue's feet, symbolizing a kingdom instituted by God rather than human means.",
+          "verseReference": "Daniel 2:34-35",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-hard-q9",
+          "question": "Which phrase in Daniel 2 indicates the tension between iron and clay in the statue's feet, and what does it imply about the kingdom represented?",
+          "type": "multiple-choice",
+          "options": [
+            "‘They shall not cleave one to another, even as iron is not mixed with clay’ – indicating internal division",
+            "‘They shall be fused into one strong kingdom’ – indicating unity",
+            "‘They shall crumble immediately’ – indicating quick collapse",
+            "‘They will be as gold and silver’ – indicating prosperity"
+          ],
+          "correctAnswer": "‘They shall not cleave one to another, even as iron is not mixed with clay’ – indicating internal division",
+          "explanation": "Daniel 2:43 uses this phrase to describe the mixed strength and fragility of the divided kingdom, highlighting its instability.",
+          "verseReference": "Daniel 2:43",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-hard-q10",
+          "question": "What is the historical significance of Nebuchadnezzar’s reaction to Daniel after the dream interpretation?",
+          "type": "multiple-choice",
+          "options": [
+            "He worshipped Daniel and acknowledged the God of heaven",
+            "He ordered Daniel to be executed for sorcery",
+            "He sent Daniel back to Judah",
+            "He ignored Daniel’s interpretation"
+          ],
+          "correctAnswer": "He worshipped Daniel and acknowledged the God of heaven",
+          "explanation": "Daniel 2:46-47 records Nebuchadnezzar falling on his face to worship Daniel and confessing that Daniel’s God is a revealer of secrets, showing a moment of acknowledgment of divine power.",
+          "verseReference": "Daniel 2:46-47",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-hard-q11",
+          "question": "How does Daniel 2 connect with the New Testament theme of God's kingdom as eternal and unshakable?",
+          "type": "multiple-choice",
+          "options": [
+            "The stone kingdom breaking all others anticipates Christ’s eternal kingdom",
+            "It predicts the fall of the Roman Empire",
+            "It prophesies the establishment of the church in Acts",
+            "It describes the millennium reign of the apostles"
+          ],
+          "correctAnswer": "The stone kingdom breaking all others anticipates Christ’s eternal kingdom",
+          "explanation": "Daniel 2:44-45 portrays a kingdom set up by God that will endure forever, a theme echoed in the New Testament regarding Christ’s eternal reign (e.g., Revelation 11:15).",
+          "verseReference": "Daniel 2:44-45",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-hard-q12",
+          "question": "What is the meaning of the Hebrew term often translated as 'Chaldeans' in Daniel 2, and why is it significant?",
+          "type": "multiple-choice",
+          "options": [
+            "It refers to an elite class of Babylonian astrologers and magicians",
+            "It means 'wise men' in Hebrew",
+            "It denotes the priests of Israel",
+            "It is a term for Persian governors"
+          ],
+          "correctAnswer": "It refers to an elite class of Babylonian astrologers and magicians",
+          "explanation": "Daniel 2:2 and 2:10 use 'Chaldeans' to identify specialists skilled in astrology and magic, important for understanding the cultural and religious context of Babylon.",
+          "verseReference": "Daniel 2:2,10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-hard-q13",
+          "question": "Which theme developed in Daniel 2 is also a major theme in the book of Revelation?",
+          "type": "multiple-choice",
+          "options": [
+            "The establishment of an everlasting divine kingdom",
+            "The destruction of Israel",
+            "The fall of Egypt",
+            "The exile of the northern kingdom"
+          ],
+          "correctAnswer": "The establishment of an everlasting divine kingdom",
+          "explanation": "The vision of the eternal kingdom in Daniel 2:44 parallels Revelation’s depiction of God's eternal reign over all nations (Revelation 11:15).",
+          "verseReference": "Daniel 2:44",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-hard-q14",
+          "question": "According to Daniel 2, what was the king's immediate threat to the wise men who could not reveal his dream and interpretation?",
+          "type": "multiple-choice",
+          "options": [
+            "They would be cut in pieces and their houses made a dunghill",
+            "They would be exiled",
+            "They would be imprisoned",
+            "They would be publicly humiliated"
+          ],
+          "correctAnswer": "They would be cut in pieces and their houses made a dunghill",
+          "explanation": "Daniel 2:5 states Nebuchadnezzar’s threat of death and destruction to the wise men if they failed to disclose his dream and its meaning.",
+          "verseReference": "Daniel 2:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-hard-q15",
+          "question": "What does Daniel request from King Nebuchadnezzar before providing the interpretation of the dream?",
+          "type": "multiple-choice",
+          "options": [
+            "Time to seek God’s mercy and reveal the secret",
+            "Immediate execution of false magicians",
+            "A promotion to chief of the wise men",
+            "Permission to leave Babylon"
+          ],
+          "correctAnswer": "Time to seek God’s mercy and reveal the secret",
+          "explanation": "Daniel 2:16 records Daniel asking the king for time to provide the interpretation, demonstrating his reliance on divine revelation rather than human wisdom.",
+          "verseReference": "Daniel 2:16",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "daniel-2-quiz",
+      "tags": [
+        "daniel",
+        "chapter-2",
+        "daniel",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "daniel-2-theological",
+      "title": "Daniel Chapter 2 Quiz - Theological Level",
+      "description": "Deep biblical theology from Daniel Chapter 2 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Daniel",
+      "chapter": 2,
+      "questions": [
+        {
+          "id": "daniel-2-theological-q1",
+          "question": "What attribute of God is primarily revealed through Daniel's interpretation of Nebuchadnezzar's dream?",
+          "type": "multiple-choice",
+          "options": [
+            "God's sovereignty over kingdoms and history",
+            "God's judgment on sin",
+            "God's mercy to Israel alone",
+            "God's indifference to earthly rulers"
+          ],
+          "correctAnswer": "God's sovereignty over kingdoms and history",
+          "explanation": "Daniel 2:21 shows God changes times and seasons and sets up and removes kings, demonstrating His sovereignty. This is consistent with Psalm 22:28, Isaiah 46:10, Acts 17:26-27, and Revelation 17:17, affirming God's control over human history and rulers.",
+          "verseReference": "Daniel 2:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-theological-q2",
+          "question": "According to Daniel 2, why were the Babylonian wise men unable to interpret the king's dream?",
+          "type": "multiple-choice",
+          "options": [
+            "Because only God in heaven reveals secrets",
+            "Because they lacked education",
+            "Because the king did not trust them",
+            "Because the dream was meaningless"
+          ],
+          "correctAnswer": "Because only God in heaven reveals secrets",
+          "explanation": "Daniel 2:11-12 states that no man on earth can reveal the king's matter except the gods, whose dwelling is not with flesh, indicating divine revelation alone can unveil such mysteries. This aligns with Deuteronomy 29:29, Job 12:22, Matthew 11:25, and 1 Corinthians 2:10.",
+          "verseReference": "Daniel 2:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-theological-q3",
+          "question": "What does the stone cut out without hands symbolize in Nebuchadnezzar's dream?",
+          "type": "multiple-choice",
+          "options": [
+            "The eternal kingdom set up by God",
+            "A natural disaster",
+            "The Babylonian empire",
+            "The destruction of Israel"
+          ],
+          "correctAnswer": "The eternal kingdom set up by God",
+          "explanation": "Daniel 2:34-35 and 44 describe the stone breaking the image to pieces and becoming a great mountain filling the earth, symbolizing God's everlasting kingdom. This is echoed in Isaiah 9:7, Daniel 7:14, Matthew 4:17, and Revelation 11:15.",
+          "verseReference": "Daniel 2:34",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-theological-q4",
+          "question": "What theological truth is affirmed by Daniel's prayer of thanksgiving after receiving the dream's interpretation?",
+          "type": "multiple-choice",
+          "options": [
+            "God gives wisdom and reveals mysteries",
+            "Only kings possess true wisdom",
+            "Dreams are the highest form of prophecy",
+            "Human wisdom is superior to divine revelation"
+          ],
+          "correctAnswer": "God gives wisdom and reveals mysteries",
+          "explanation": "Daniel 2:20-23 expresses praise for God's wisdom and revelation of secrets, affirming divine granting of understanding. Similar themes are found in Proverbs 2:6, James 1:5, Colossians 2:3, and 1 Corinthians 2:7.",
+          "verseReference": "Daniel 2:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-theological-q5",
+          "question": "In Daniel 2, what does the mixture of iron and clay in the statue's feet represent?",
+          "type": "multiple-choice",
+          "options": [
+            "A divided kingdom partly strong and partly weak",
+            "A perfectly united empire",
+            "The eternal reign of Israel",
+            "The destruction of all kingdoms"
+          ],
+          "correctAnswer": "A divided kingdom partly strong and partly weak",
+          "explanation": "Daniel 2:41-43 describes the feet as part iron and part clay, symbolizing a divided kingdom with internal weakness despite some strength, illustrating human political fragmentation. This connects with 1 Corinthians 1:27-29, Ecclesiastes 3:1-8, Romans 13:1-2, and Revelation 13:2.",
+          "verseReference": "Daniel 2:41",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-theological-q6",
+          "question": "How does Daniel 2 portray God's control over the rise and fall of earthly kingdoms?",
+          "type": "multiple-choice",
+          "options": [
+            "God sets up and removes kings according to His purpose",
+            "Kings rule independently of God’s will",
+            "Kingship is determined by military strength alone",
+            "God’s role is limited to Israel only"
+          ],
+          "correctAnswer": "God sets up and removes kings according to His purpose",
+          "explanation": "Daniel 2:21 states God removes kings and sets up kings, confirming divine sovereignty over political powers. This is supported by Proverbs 21:1, Isaiah 45:1, Romans 13:1, and Acts 4:27-28.",
+          "verseReference": "Daniel 2:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-theological-q7",
+          "question": "What is the significance of Daniel being described as a captive of Judah who reveals the king’s dream?",
+          "type": "multiple-choice",
+          "options": [
+            "God uses His people even in exile to reveal His purposes",
+            "Only Babylonians can interpret dreams",
+            "Exile means total separation from God",
+            "Captives cannot have divine insight"
+          ],
+          "correctAnswer": "God uses His people even in exile to reveal His purposes",
+          "explanation": "Daniel 2:25-26 shows Daniel, a captive of Judah, reveals God's secret to a pagan king, emphasizing God's faithfulness to His people and His use of them for His purposes even in exile. This theme appears in Jeremiah 29:7, Ezekiel 36:24-28, Romans 11:1-2, and 2 Corinthians 6:16.",
+          "verseReference": "Daniel 2:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-theological-q8",
+          "question": "What eschatological theme is depicted in the statue’s various metals and the stone in Daniel’s vision?",
+          "type": "multiple-choice",
+          "options": [
+            "The succession of earthly kingdoms culminating in God’s eternal kingdom",
+            "The final victory of Babylon alone",
+            "The destruction of Israel by all kingdoms",
+            "The immediate end of the world"
+          ],
+          "correctAnswer": "The succession of earthly kingdoms culminating in God’s eternal kingdom",
+          "explanation": "Daniel 2:31-45 presents a sequence of kingdoms symbolized by metals culminating in God’s everlasting kingdom represented by the stone, reflecting biblical eschatology like Daniel 7, Revelation 11:15, Isaiah 2:2-4, and Matthew 6:10.",
+          "verseReference": "Daniel 2:31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-theological-q9",
+          "question": "How does Daniel 2 illustrate God’s attribute of omniscience?",
+          "type": "multiple-choice",
+          "options": [
+            "God reveals what is hidden in darkness and future events",
+            "God only knows the present",
+            "God is limited to knowing Israel's affairs",
+            "God does not reveal secrets to humans"
+          ],
+          "correctAnswer": "God reveals what is hidden in darkness and future events",
+          "explanation": "Daniel 2:22 describes God as knowing what is in the darkness and revealing deep and secret things, demonstrating His omniscience. This aligns with Psalm 139:1-4, Isaiah 40:28, Hebrews 4:13, and John 16:30.",
+          "verseReference": "Daniel 2:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-theological-q10",
+          "question": "What does Nebuchadnezzar’s response to Daniel’s interpretation reveal about the king’s recognition of God?",
+          "type": "multiple-choice",
+          "options": [
+            "He acknowledges God as the revealer of secrets and Lord of kings",
+            "He rejects God and worships idols",
+            "He doubts the interpretation",
+            "He elevates Daniel above God"
+          ],
+          "correctAnswer": "He acknowledges God as the revealer of secrets and Lord of kings",
+          "explanation": "Daniel 2:47 shows Nebuchadnezzar praising Daniel's God as God of gods and revealer of secrets, indicating a recognition of divine sovereignty. This is consistent with Joshua 5:14, 2 Chronicles 20:6, Psalm 95:3, and Revelation 19:16.",
+          "verseReference": "Daniel 2:47",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-theological-q11",
+          "question": "Which core Christian doctrine is reflected in the prophecy of the stone kingdom that breaks all others?",
+          "type": "multiple-choice",
+          "options": [
+            "The establishment of Christ’s eternal kingdom",
+            "The final destruction of Israel",
+            "The supremacy of earthly empires",
+            "The denial of future hope"
+          ],
+          "correctAnswer": "The establishment of Christ’s eternal kingdom",
+          "explanation": "Daniel 2:44-45 foretells a kingdom set up by God that will never be destroyed, which aligns with the New Testament teaching of Christ’s eternal kingdom (Luke 1:33, Hebrews 12:28, Revelation 11:15, Philippians 2:9-11).",
+          "verseReference": "Daniel 2:44",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-theological-q12",
+          "question": "How does Daniel 2 emphasize the role of prayer and dependence on God for wisdom?",
+          "type": "multiple-choice",
+          "options": [
+            "Daniel and his friends prayed for mercy to understand the secret",
+            "Daniel relied solely on his own knowledge",
+            "The wise men used magic to find answers",
+            "The king revealed the dream to Daniel"
+          ],
+          "correctAnswer": "Daniel and his friends prayed for mercy to understand the secret",
+          "explanation": "Daniel 2:17-18 shows Daniel and his companions seeking God's mercy through prayer to reveal the secret, highlighting dependence on God. This principle is echoed in James 1:5, Philippians 4:6, Psalm 25:4-5, and 1 Kings 3:9.",
+          "verseReference": "Daniel 2:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-theological-q13",
+          "question": "What does Daniel’s refusal to interpret the dream without God’s revelation teach about the nature of true wisdom?",
+          "type": "multiple-choice",
+          "options": [
+            "True wisdom comes from God’s revelation, not human ability",
+            "True wisdom is based on human intellect alone",
+            "Wisdom is irrelevant to interpreting dreams",
+            "Only kings have wisdom"
+          ],
+          "correctAnswer": "True wisdom comes from God’s revelation, not human ability",
+          "explanation": "Daniel 2:30 states that the secret was revealed not because of Daniel’s wisdom but for God’s purposes, teaching that divine revelation is essential for true wisdom, consistent with Proverbs 2:6, 1 Corinthians 1:25-30, Colossians 2:3, and James 3:17.",
+          "verseReference": "Daniel 2:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-theological-q14",
+          "question": "Which doctrine relating to God’s providence is illustrated by God giving Nebuchadnezzar dominion over beasts and people?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s providential rule over all creation",
+            "Human sovereignty is independent of God",
+            "God only cares for animals",
+            "Kings rule by chance"
+          ],
+          "correctAnswer": "God’s providential rule over all creation",
+          "explanation": "Daniel 2:38 shows God giving the king dominion over animals and humans, illustrating divine providence. This is consistent with Psalm 103:19, Colossians 1:16-17, Romans 8:28, and Matthew 28:18.",
+          "verseReference": "Daniel 2:38",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-2-theological-q15",
+          "question": "How does Daniel 2 address the issue of God’s revelation to non-Israelites?",
+          "type": "multiple-choice",
+          "options": [
+            "God reveals secrets to Gentiles through His servants",
+            "God reveals only to Israel",
+            "God hides His plans from all nations",
+            "God communicates only by angels"
+          ],
+          "correctAnswer": "God reveals secrets to Gentiles through His servants",
+          "explanation": "Daniel 2:25-27 shows God revealing the king’s dream to Daniel, a captive Jew, who then reveals it to Nebuchadnezzar, a Gentile king, indicating God’s revelation extends beyond Israel. This is consistent with Isaiah 42:6, Acts 10:34-35, Romans 1:16, and Galatians 3:28.",
+          "verseReference": "Daniel 2:26",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "daniel-2-quiz",
+      "tags": [
+        "daniel",
+        "chapter-2",
+        "daniel",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

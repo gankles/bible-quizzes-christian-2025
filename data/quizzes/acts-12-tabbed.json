@@ -1,0 +1,983 @@
+{
+  "id": "acts-12-tabbed",
+  "title": "Acts Chapter 12 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Acts chapter 12 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "acts-12-easy",
+      "title": "Acts Chapter 12 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Acts Chapter 12.",
+      "type": "chapter",
+      "book": "Acts",
+      "chapter": 12,
+      "questions": [
+        {
+          "id": "acts-12-easy-q1",
+          "question": "Who did King Herod kill with the sword according to Acts 12?",
+          "type": "multiple-choice",
+          "options": [
+            "James the brother of John",
+            "Peter",
+            "John the Baptist",
+            "Paul"
+          ],
+          "correctAnswer": "James the brother of John",
+          "explanation": "Acts 12:2 states that Herod killed James the brother of John with the sword.",
+          "verseReference": "Acts 12:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-12-easy-q2",
+          "question": "Why did Herod proceed to take Peter as well?",
+          "type": "multiple-choice",
+          "options": [
+            "Because it pleased the Jews",
+            "Because Peter escaped",
+            "Because of a vision",
+            "Because of a command from God"
+          ],
+          "correctAnswer": "Because it pleased the Jews",
+          "explanation": "Acts 12:3 explains that Herod took Peter because he saw it pleased the Jews.",
+          "verseReference": "Acts 12:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-12-easy-q3",
+          "question": "Where was Peter put after he was apprehended?",
+          "type": "multiple-choice",
+          "options": [
+            "In prison",
+            "In a house",
+            "In a temple",
+            "On a ship"
+          ],
+          "correctAnswer": "In prison",
+          "explanation": "Acts 12:4 says Herod put Peter in prison and assigned soldiers to keep him.",
+          "verseReference": "Acts 12:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-12-easy-q4",
+          "question": "What was the church doing for Peter while he was in prison?",
+          "type": "multiple-choice",
+          "options": [
+            "Praying without ceasing",
+            "Eating meals",
+            "Going on missions",
+            "Writing letters"
+          ],
+          "correctAnswer": "Praying without ceasing",
+          "explanation": "Acts 12:5 states that the church was praying to God without ceasing for Peter.",
+          "verseReference": "Acts 12:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-12-easy-q5",
+          "question": "Who came to rescue Peter from prison?",
+          "type": "multiple-choice",
+          "options": [
+            "The angel of the Lord",
+            "John",
+            "Barnabas",
+            "Paul"
+          ],
+          "correctAnswer": "The angel of the Lord",
+          "explanation": "Acts 12:7 describes how the angel of the Lord came upon Peter and helped him escape.",
+          "verseReference": "Acts 12:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-12-easy-q6",
+          "question": "True or False: Peter immediately recognized that his escape was real and not a vision.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Acts 12:9 states Peter thought he was seeing a vision and did not initially realize the escape was real.",
+          "verseReference": "Acts 12:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-12-easy-q7",
+          "question": "What opened of its own accord to let Peter out during his escape?",
+          "type": "multiple-choice",
+          "options": [
+            "The iron gate leading to the city",
+            "The prison door",
+            "A window",
+            "A secret tunnel"
+          ],
+          "correctAnswer": "The iron gate leading to the city",
+          "explanation": "Acts 12:10 says the iron gate that led to the city opened by itself to let Peter out.",
+          "verseReference": "Acts 12:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-12-easy-q8",
+          "question": "After Peter escaped, to whose house did he go?",
+          "type": "multiple-choice",
+          "options": [
+            "Mary the mother of John Mark",
+            "Mary Magdalene",
+            "Martha",
+            "Elizabeth"
+          ],
+          "correctAnswer": "Mary the mother of John Mark",
+          "explanation": "Acts 12:12 identifies the house of Mary, mother of John whose surname was Mark, as the place Peter went to.",
+          "verseReference": "Acts 12:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-12-easy-q9",
+          "question": "What was the name of the damsel who came to hear Peter knocking?",
+          "type": "multiple-choice",
+          "options": [
+            "Rhoda",
+            "Martha",
+            "Mary",
+            "Anna"
+          ],
+          "correctAnswer": "Rhoda",
+          "explanation": "Acts 12:13 states that Rhoda was the damsel who came to listen at the door.",
+          "verseReference": "Acts 12:13",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-12-easy-q10",
+          "question": "True or False: The people immediately believed Rhoda when she told them Peter was at the door.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Acts 12:15 shows that the people thought Rhoda was mad and said it was his angel, not Peter himself.",
+          "verseReference": "Acts 12:15",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-12-easy-q11",
+          "question": "What happened to the soldiers who kept Peter in prison after he escaped?",
+          "type": "multiple-choice",
+          "options": [
+            "They were put to death",
+            "They escaped",
+            "They were promoted",
+            "They were imprisoned"
+          ],
+          "correctAnswer": "They were put to death",
+          "explanation": "Acts 12:19 says that Herod commanded the keepers to be put to death after Peter's escape.",
+          "verseReference": "Acts 12:19",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-12-easy-q12",
+          "question": "How did the people react to Herod's speech when he was arrayed in royal apparel?",
+          "type": "multiple-choice",
+          "options": [
+            "They shouted it was the voice of a god",
+            "They booed him",
+            "They ignored him",
+            "They asked him to stop"
+          ],
+          "correctAnswer": "They shouted it was the voice of a god",
+          "explanation": "Acts 12:22 records that the people shouted it was the voice of a god, not of a man.",
+          "verseReference": "Acts 12:22",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-12-easy-q13",
+          "question": "What happened to Herod immediately after the people praised him as a god?",
+          "type": "multiple-choice",
+          "options": [
+            "The angel of the Lord smote him",
+            "He was crowned king",
+            "He fled the city",
+            "He apologized"
+          ],
+          "correctAnswer": "The angel of the Lord smote him",
+          "explanation": "Acts 12:23 describes how the angel of the Lord smote Herod because he did not give glory to God.",
+          "verseReference": "Acts 12:23",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-12-easy-q14",
+          "question": "True or False: The word of God stopped growing after Herod’s death.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Acts 12:24 states that the word of God grew and multiplied despite Herod’s death.",
+          "verseReference": "Acts 12:24",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-12-easy-q15",
+          "question": "Fill in the blank: Barnabas and Saul returned from Jerusalem when they had fulfilled their ministry and took with them ____, whose surname was Mark.",
+          "type": "fill-blank",
+          "options": [
+            "John",
+            "Peter",
+            "Paul",
+            "James"
+          ],
+          "correctAnswer": "John",
+          "explanation": "Acts 12:25 tells us Barnabas and Saul took John, whose surname was Mark, with them.",
+          "verseReference": "Acts 12:25",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "acts-12-quiz",
+      "tags": [
+        "acts",
+        "chapter-12",
+        "acts",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "acts-12-medium",
+      "title": "Acts Chapter 12 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Acts Chapter 12 to real-life situations.",
+      "type": "chapter",
+      "book": "Acts",
+      "chapter": 12,
+      "questions": [
+        {
+          "id": "acts-12-medium-q1",
+          "question": "How does Acts 12 teach us about the power of prayer when facing persecution?",
+          "type": "multiple-choice",
+          "options": [
+            "Prayer is continuous and fervent among believers",
+            "Prayer is optional during trials",
+            "Prayer alone without action is sufficient",
+            "Prayer should be done secretly only"
+          ],
+          "correctAnswer": "Prayer is continuous and fervent among believers",
+          "explanation": "Acts 12:5 shows that the church prayed without ceasing for Peter's deliverance, illustrating the importance of persistent prayer during persecution. This is supported by verses 12:5, 12:12, and 12:17 which emphasize prayer and thanksgiving.",
+          "verseReference": "Acts 12:5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-12-medium-q2",
+          "question": "A fellow believer is anxious about being falsely imprisoned for their faith. Based on Acts 12, what biblical truth would you share about God's deliverance?",
+          "type": "multiple-choice",
+          "options": [
+            "God can send His angel to rescue in miraculous ways",
+            "Escape depends solely on human effort",
+            "Prison is always permanent for believers",
+            "Deliverance is only through political influence"
+          ],
+          "correctAnswer": "God can send His angel to rescue in miraculous ways",
+          "explanation": "Acts 12:6-11 recounts how an angel of the Lord miraculously freed Peter from prison, demonstrating that God's power can intervene supernaturally to deliver His people. This teaches trust in divine rescue amid trials (Acts 12:7, 12:11).",
+          "verseReference": "Acts 12:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-12-medium-q3",
+          "question": "What does the reaction of the church to Peter's escape teach about fellowship and encouragement in the body of Christ?",
+          "type": "multiple-choice",
+          "options": [
+            "The church gathers in prayer and rejoices when God acts",
+            "The church ignores miraculous events",
+            "Believers should doubt reports of deliverance",
+            "The church discourages sharing good news"
+          ],
+          "correctAnswer": "The church gathers in prayer and rejoices when God acts",
+          "explanation": "Acts 12:12 describes many gathered in prayer at Mary's house, and verses 12:13-16 show their astonishment and eventual joy upon Peter's arrival, emphasizing the importance of fellowship and mutual encouragement in trials.",
+          "verseReference": "Acts 12:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-12-medium-q4",
+          "question": "How does Peter's humility after his escape from prison in Acts 12:17 teach us about giving God glory?",
+          "type": "multiple-choice",
+          "options": [
+            "He quietly shared God's deliverance and left to another place",
+            "He boasted publicly about his escape",
+            "He blamed others for his imprisonment",
+            "He demanded recognition from the church"
+          ],
+          "correctAnswer": "He quietly shared God's deliverance and left to another place",
+          "explanation": "Acts 12:17 shows Peter signaling for silence and calmly recounting how the Lord rescued him, then departing, demonstrating humility and giving God the glory rather than seeking personal praise (Acts 12:17, 12:23).",
+          "verseReference": "Acts 12:17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-12-medium-q5",
+          "question": "Based on Acts 12, what can we learn about trust and obedience to God's guidance even when the situation seems unreal?",
+          "type": "multiple-choice",
+          "options": [
+            "Peter followed the angel without fully understanding at first",
+            "Peter refused to leave because he doubted",
+            "Peter escaped by force without faith",
+            "Peter waited passively for freedom"
+          ],
+          "correctAnswer": "Peter followed the angel without fully understanding at first",
+          "explanation": "Acts 12:8-9 shows Peter obeying the angel’s instructions even though he thought it was a vision, teaching us to trust and obey God's leading despite uncertainty (Acts 12:8-10).",
+          "verseReference": "Acts 12:8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-12-medium-q6",
+          "question": "How does Acts 12 demonstrate the role of God's sovereignty in the midst of human plans?",
+          "type": "multiple-choice",
+          "options": [
+            "The iron gate opened by itself for Peter to escape",
+            "Peter escaped by his own strength",
+            "The jailers willingly released Peter",
+            "Herod's plans were fulfilled without interference"
+          ],
+          "correctAnswer": "The iron gate opened by itself for Peter to escape",
+          "explanation": "Acts 12:10 describes the iron gate opening on its own as Peter and the angel passed, showing God's sovereign control over circumstances despite human intentions (Acts 12:4, 12:19).",
+          "verseReference": "Acts 12:10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-12-medium-q7",
+          "question": "What warning does Acts 12 give about pride and giving glory to oneself rather than God?",
+          "type": "multiple-choice",
+          "options": [
+            "Herod was struck down because he accepted praise as a god",
+            "Pride leads to honor from God",
+            "God blesses those who exalt themselves",
+            "Self-glorification is encouraged"
+          ],
+          "correctAnswer": "Herod was struck down because he accepted praise as a god",
+          "explanation": "Acts 12:22-23 narrates how Herod accepted divine praise and was immediately judged by God, showing the danger of pride and the importance of giving God glory (Acts 12:23).",
+          "verseReference": "Acts 12:23",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-12-medium-q8",
+          "question": "A believer is discouraged because their witness seems ineffective. What encouragement can be drawn from Acts 12 about the growth of God's word?",
+          "type": "multiple-choice",
+          "options": [
+            "The word of God grows and multiplies despite opposition",
+            "Witnessing is futile if opposed",
+            "Only powerful leaders can spread the word",
+            "Growth depends on popular opinion"
+          ],
+          "correctAnswer": "The word of God grows and multiplies despite opposition",
+          "explanation": "Acts 12:24 states that despite persecution and trials, the word of God continued to grow, encouraging believers to persevere in sharing the gospel (Acts 12:1-2, 12:24).",
+          "verseReference": "Acts 12:24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-12-medium-q9",
+          "question": "How does the example of the church’s persistent prayer in Acts 12 encourage us in our personal spiritual discipline?",
+          "type": "multiple-choice",
+          "options": [
+            "Prayer should be continual and communal in times of need",
+            "Prayer is only for private moments",
+            "Intercession is unnecessary for others",
+            "Prayer is ineffective without signs"
+          ],
+          "correctAnswer": "Prayer should be continual and communal in times of need",
+          "explanation": "Acts 12:5 and 12:12 show believers praying continuously and together for Peter’s release, teaching the value of persistent, united prayer within the church (Acts 12:5, 12:12).",
+          "verseReference": "Acts 12:5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-12-medium-q10",
+          "question": "True or False: Herod was pleased to persecute the church because he wanted to please the Jews.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Acts 12:3 states that Herod proceeded to take Peter because he saw it pleased the Jews, showing his motivation to satisfy public opinion through persecution.",
+          "verseReference": "Acts 12:3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-12-medium-q11",
+          "question": "True or False: Peter immediately recognized that the angel's intervention was real and not a vision.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Acts 12:9 says Peter did not initially understand that what was happening was real; he thought he was seeing a vision until later (Acts 12:9, 12:11).",
+          "verseReference": "Acts 12:9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-12-medium-q12",
+          "question": "Fill in the blank: According to Acts 12:25, Barnabas and Saul returned from Jerusalem having fulfilled their ______.",
+          "type": "fill-blank",
+          "options": [
+            "ministry",
+            "journey",
+            "mission",
+            "work"
+          ],
+          "correctAnswer": "ministry",
+          "explanation": "Acts 12:25 mentions that Barnabas and Saul returned after fulfilling their ministry, emphasizing faithful service and obedience in church work.",
+          "verseReference": "Acts 12:25",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-12-medium-q13",
+          "question": "How does Acts 12 illustrate the importance of sharing encouraging news within the Christian community?",
+          "type": "multiple-choice",
+          "options": [
+            "Rhoda ran to tell others that Peter was at the door",
+            "Believers kept good news to themselves",
+            "News of deliverance was doubted and ignored",
+            "Sharing news caused confusion and division"
+          ],
+          "correctAnswer": "Rhoda ran to tell others that Peter was at the door",
+          "explanation": "Acts 12:13-14 describes how Rhoda, upon hearing Peter’s voice, ran to share the news with others, highlighting the joy and encouragement in sharing God's works within the church.",
+          "verseReference": "Acts 12:14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-12-medium-q14",
+          "question": "What does Herod’s death in Acts 12:23 teach us about the consequences of failing to honor God?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s judgment comes swiftly on those who do not give Him glory",
+            "God ignores prideful rulers",
+            "Consequences are delayed indefinitely",
+            "God rewards arrogance in leadership"
+          ],
+          "correctAnswer": "God’s judgment comes swiftly on those who do not give Him glory",
+          "explanation": "Acts 12:23 shows that because Herod accepted praise as a god and did not glorify God, an angel struck him down immediately, demonstrating divine judgment against pride.",
+          "verseReference": "Acts 12:23",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-12-medium-q15",
+          "question": "How does the sending away of Barnabas and Saul with John Mark in Acts 12:25 teach about teamwork in ministry?",
+          "type": "multiple-choice",
+          "options": [
+            "Ministry is often fulfilled through cooperative efforts",
+            "Ministry is a solo endeavor",
+            "Only Barnabas and Saul were important workers",
+            "John Mark was excluded from ministry"
+          ],
+          "correctAnswer": "Ministry is often fulfilled through cooperative efforts",
+          "explanation": "Acts 12:25 describes Barnabas and Saul returning with John Mark after their ministry, illustrating the collaborative nature of spreading the gospel.",
+          "verseReference": "Acts 12:25",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "acts-12-quiz",
+      "tags": [
+        "acts",
+        "chapter-12",
+        "acts",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "acts-12-hard",
+      "title": "Acts Chapter 12 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Acts Chapter 12.",
+      "type": "chapter",
+      "book": "Acts",
+      "chapter": 12,
+      "questions": [
+        {
+          "id": "acts-12-hard-q1",
+          "question": "Who was killed by Herod with the sword as an act of persecution against the church?",
+          "type": "multiple-choice",
+          "options": [
+            "James the brother of John",
+            "Peter",
+            "John the Baptist",
+            "Paul"
+          ],
+          "correctAnswer": "James the brother of John",
+          "explanation": "Acts 12:2 states that Herod killed James the brother of John with the sword as part of his persecution.",
+          "verseReference": "Acts 12:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-hard-q2",
+          "question": "What was the significance of the timing when Herod apprehended Peter?",
+          "type": "multiple-choice",
+          "options": [
+            "It was during the days of unleavened bread",
+            "It was during the Feast of Tabernacles",
+            "It was just after Passover",
+            "It was during the Sabbath"
+          ],
+          "correctAnswer": "It was during the days of unleavened bread",
+          "explanation": "Acts 12:3 specifically notes that Peter's arrest occurred during the days of unleavened bread, indicating the Passover season.",
+          "verseReference": "Acts 12:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-hard-q3",
+          "question": "How many soldiers were assigned to guard Peter in prison?",
+          "type": "multiple-choice",
+          "options": [
+            "Four quaternions",
+            "Two centurions",
+            "One legion",
+            "Six cohorts"
+          ],
+          "correctAnswer": "Four quaternions",
+          "explanation": "Acts 12:4 mentions that Peter was handed over to four quaternions of soldiers, which means 16 soldiers, reflecting Roman military terminology.",
+          "verseReference": "Acts 12:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-hard-q4",
+          "question": "What continuous action did the church take for Peter while he was imprisoned?",
+          "type": "multiple-choice",
+          "options": [
+            "Prayer without ceasing",
+            "Fasting for seven days",
+            "Sending gifts to the prison",
+            "Preaching in the streets"
+          ],
+          "correctAnswer": "Prayer without ceasing",
+          "explanation": "Acts 12:5 emphasizes that the church was earnestly praying to God for Peter's release without ceasing.",
+          "verseReference": "Acts 12:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-hard-q5",
+          "question": "What unusual event occurred while Peter was sleeping in prison?",
+          "type": "multiple-choice",
+          "options": [
+            "An angel of the Lord appeared and freed him",
+            "A violent earthquake broke the prison walls",
+            "Peter had a vision of Jesus",
+            "The guards fell asleep and let him escape"
+          ],
+          "correctAnswer": "An angel of the Lord appeared and freed him",
+          "explanation": "Acts 12:6-7 describe how an angel of the Lord appeared, shone light, and liberated Peter by removing his chains.",
+          "verseReference": "Acts 12:6-7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-hard-q6",
+          "question": "What specific instructions did the angel give Peter after freeing him?",
+          "type": "multiple-choice",
+          "options": [
+            "Gird thyself and bind on thy sandals; cast thy garment about thee and follow me",
+            "Run to the temple and preach immediately",
+            "Hide in the city until morning",
+            "Meet with James immediately"
+          ],
+          "correctAnswer": "Gird thyself and bind on thy sandals; cast thy garment about thee and follow me",
+          "explanation": "Acts 12:8 records the angel instructing Peter to prepare himself and follow him out of the prison.",
+          "verseReference": "Acts 12:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-hard-q7",
+          "question": "What was Peter's initial reaction as he followed the angel out of prison?",
+          "type": "multiple-choice",
+          "options": [
+            "He thought it was a vision",
+            "He immediately believed he was freed",
+            "He tried to escape through the roof",
+            "He woke the other prisoners"
+          ],
+          "correctAnswer": "He thought it was a vision",
+          "explanation": "Acts 12:9 shows Peter was unaware that the event was real and thought he was seeing a vision.",
+          "verseReference": "Acts 12:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-hard-q8",
+          "question": "How did the iron gate leading to the city respond to Peter and the angel?",
+          "type": "multiple-choice",
+          "options": [
+            "It opened of its own accord",
+            "It required a key from the guard",
+            "It was broken down by the angel",
+            "It remained closed until morning"
+          ],
+          "correctAnswer": "It opened of its own accord",
+          "explanation": "Acts 12:10 describes the iron gate opening by itself as they approached, indicating divine intervention.",
+          "verseReference": "Acts 12:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-hard-q9",
+          "question": "Where did Peter go after realizing he was free?",
+          "type": "multiple-choice",
+          "options": [
+            "To the house of Mary, the mother of John Mark",
+            "To the temple courts",
+            "To the home of Barnabas",
+            "To Herod's palace"
+          ],
+          "correctAnswer": "To the house of Mary, the mother of John Mark",
+          "explanation": "Acts 12:12 states Peter went to the house of Mary, the mother of John Mark, where many were praying.",
+          "verseReference": "Acts 12:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-hard-q10",
+          "question": "Who recognized Peter's voice when he knocked at the gate, but did not initially open it?",
+          "type": "multiple-choice",
+          "options": [
+            "Rhoda",
+            "Mary",
+            "James",
+            "John Mark"
+          ],
+          "correctAnswer": "Rhoda",
+          "explanation": "Acts 12:13-14 tells how a young woman named Rhoda recognized Peter’s voice but was so overjoyed she ran in to tell others instead of opening the gate.",
+          "verseReference": "Acts 12:13-14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-hard-q11",
+          "question": "How did the people inside respond to Rhoda’s claim that Peter was at the gate?",
+          "type": "multiple-choice",
+          "options": [
+            "They said, 'It is his angel'",
+            "They opened the gate immediately",
+            "They ignored her completely",
+            "They called the guards"
+          ],
+          "correctAnswer": "They said, 'It is his angel'",
+          "explanation": "Acts 12:15 records that those inside doubted Rhoda and thought she was seeing Peter’s angel, reflecting a belief in guardian angels or visions.",
+          "verseReference": "Acts 12:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-hard-q12",
+          "question": "What was Herod’s reaction when he learned that Peter had escaped from prison?",
+          "type": "multiple-choice",
+          "options": [
+            "He ordered the keepers to be put to death",
+            "He immediately pursued Peter",
+            "He apologized to the church",
+            "He fled to Caesarea"
+          ],
+          "correctAnswer": "He ordered the keepers to be put to death",
+          "explanation": "Acts 12:19 shows Herod’s harsh response: he executed the guards responsible for watching Peter.",
+          "verseReference": "Acts 12:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-hard-q13",
+          "question": "What event happened to Herod after he gave a public speech and the people acclaimed him as a god?",
+          "type": "multiple-choice",
+          "options": [
+            "He was struck down by an angel and died",
+            "He was crowned emperor",
+            "He was overthrown by his guards",
+            "He was exiled to Babylon"
+          ],
+          "correctAnswer": "He was struck down by an angel and died",
+          "explanation": "Acts 12:23 states that because Herod did not give glory to God, the angel of the Lord smote him and he died from being eaten by worms.",
+          "verseReference": "Acts 12:22-23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-hard-q14",
+          "question": "What happened to the word of God during and after the persecution described in this chapter?",
+          "type": "multiple-choice",
+          "options": [
+            "It grew and multiplied",
+            "It was silenced temporarily",
+            "It was removed from Jerusalem",
+            "It was confined to the church"
+          ],
+          "correctAnswer": "It grew and multiplied",
+          "explanation": "Acts 12:24 affirms that despite persecution, the word of God continued to grow and spread.",
+          "verseReference": "Acts 12:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-hard-q15",
+          "question": "True or False: Barnabas and Saul took John Mark with them when they returned from Jerusalem after fulfilling their ministry.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Acts 12:25 confirms that Barnabas and Saul returned from Jerusalem and took John Mark along with them.",
+          "verseReference": "Acts 12:25",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "acts-12-quiz",
+      "tags": [
+        "acts",
+        "chapter-12",
+        "acts",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "acts-12-theological",
+      "title": "Acts Chapter 12 Quiz - Theological Level",
+      "description": "Deep biblical theology from Acts Chapter 12 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Acts",
+      "chapter": 12,
+      "questions": [
+        {
+          "id": "acts-12-theological-q1",
+          "question": "What was the primary motivation behind Herod's persecution of the church in Acts 12?",
+          "type": "multiple-choice",
+          "options": [
+            "To please the Jews",
+            "To gain more territory",
+            "To support Roman authorities",
+            "To stop false teaching"
+          ],
+          "correctAnswer": "To please the Jews",
+          "explanation": "Herod persecuted the church and killed James because he saw it pleased the Jews (Acts 12:3). This reflects the political and social pressures leaders faced, paralleling Pharaoh's opposition to Israel in Exodus 1:10 and the hostility Jesus faced from Jewish leaders (John 11:47-53).",
+          "verseReference": "Acts 12:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-theological-q2",
+          "question": "Who was killed by Herod with the sword according to Acts 12?",
+          "type": "multiple-choice",
+          "options": [
+            "James the brother of John",
+            "Peter",
+            "John Mark",
+            "Barnabas"
+          ],
+          "correctAnswer": "James the brother of John",
+          "explanation": "Herod executed James, the brother of John, with the sword (Acts 12:2). This martyrdom echoes the suffering of the early church and the prophetic warnings about persecution (Matthew 10:21-22, Revelation 6:9).",
+          "verseReference": "Acts 12:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-theological-q3",
+          "question": "How many soldiers were assigned to keep Peter in prison?",
+          "type": "multiple-choice",
+          "options": [
+            "Four quaternions",
+            "Two centurions",
+            "Ten guards",
+            "One hundred soldiers"
+          ],
+          "correctAnswer": "Four quaternions",
+          "explanation": "Peter was guarded by four quaternions of soldiers, meaning sixteen soldiers (Acts 12:4), highlighting the severity of his imprisonment. This shows the seriousness of Herod's intent, contrasting with God’s sovereign intervention (Psalm 34:7, Daniel 6:22).",
+          "verseReference": "Acts 12:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-theological-q4",
+          "question": "What was the church doing while Peter was kept in prison?",
+          "type": "multiple-choice",
+          "options": [
+            "Praying without ceasing",
+            "Fasting and mourning",
+            "Protesting before the palace",
+            "Sending messengers to Rome"
+          ],
+          "correctAnswer": "Praying without ceasing",
+          "explanation": "The church was continuously praying to God for Peter’s release (Acts 12:5), exemplifying the biblical doctrine of intercessory prayer (1 Timothy 2:1, James 5:16, Philippians 4:6).",
+          "verseReference": "Acts 12:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-theological-q5",
+          "question": "What miraculous event enabled Peter's escape from prison?",
+          "type": "multiple-choice",
+          "options": [
+            "An angel smote Peter and freed him",
+            "The guards fell asleep",
+            "A secret passage opened",
+            "Peter broke his chains himself"
+          ],
+          "correctAnswer": "An angel smote Peter and freed him",
+          "explanation": "An angel of the Lord appeared, struck Peter’s side, and caused his chains to fall off, leading to his escape (Acts 12:7). This demonstrates God's sovereignty and his power over imprisonment, similar to the deliverance of Daniel (Daniel 6:22) and the Exodus (Exodus 14:21-22).",
+          "verseReference": "Acts 12:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-theological-q6",
+          "question": "How did Peter initially react to the angel's rescue?",
+          "type": "multiple-choice",
+          "options": [
+            "He thought he was seeing a vision",
+            "He immediately fled the city",
+            "He thanked the guards",
+            "He went to the temple"
+          ],
+          "correctAnswer": "He thought he was seeing a vision",
+          "explanation": "Peter did not immediately realize the truth and thought the event was a vision (Acts 12:9), showing human limitations in understanding divine acts, as also seen in visions experienced by prophets (Daniel 10:7-9, Ezekiel 1:28).",
+          "verseReference": "Acts 12:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-theological-q7",
+          "question": "Where did Peter go after escaping the prison?",
+          "type": "multiple-choice",
+          "options": [
+            "To the house of Mary, the mother of John Mark",
+            "To the temple courts",
+            "To the mountain outside the city",
+            "To Herod's palace"
+          ],
+          "correctAnswer": "To the house of Mary, the mother of John Mark",
+          "explanation": "Peter went to the house of Mary, the mother of John Mark, where many believers were gathered in prayer (Acts 12:12). This emphasizes the early Christian community's role in prayer and fellowship (Romans 12:4-5, Hebrews 10:25).",
+          "verseReference": "Acts 12:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-theological-q8",
+          "question": "Who recognized Peter's voice when he knocked at the gate?",
+          "type": "multiple-choice",
+          "options": [
+            "Rhoda",
+            "Mary",
+            "John Mark",
+            "Barnabas"
+          ],
+          "correctAnswer": "Rhoda",
+          "explanation": "Rhoda, a servant girl, recognized Peter's voice (Acts 12:13), illustrating the personal relationships within the early church and the power of testimony (Luke 24:34, John 20:16).",
+          "verseReference": "Acts 12:13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-theological-q9",
+          "question": "What was the initial reaction of those inside when Rhoda said Peter was at the door?",
+          "type": "multiple-choice",
+          "options": [
+            "They thought she was mad",
+            "They immediately opened the door",
+            "They prayed for Peter's safety",
+            "They reported it to the authorities"
+          ],
+          "correctAnswer": "They thought she was mad",
+          "explanation": "The people inside doubted Rhoda and said she was mad (Acts 12:15), reflecting human skepticism even in the face of miraculous events, similar to the disciples' initial doubt of Jesus' resurrection (Luke 24:11).",
+          "verseReference": "Acts 12:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-theological-q10",
+          "question": "What was Herod’s punishment for the soldiers who guarded Peter after his escape?",
+          "type": "multiple-choice",
+          "options": [
+            "They were put to death",
+            "They were imprisoned",
+            "They were flogged",
+            "They were exiled"
+          ],
+          "correctAnswer": "They were put to death",
+          "explanation": "Herod had the guards examined and commanded their execution because they failed to keep Peter (Acts 12:19), showing the severity of accountability in leadership and security, paralleling Old Testament laws on responsibility (Exodus 21:14).",
+          "verseReference": "Acts 12:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-theological-q11",
+          "question": "What was the reaction of the people when Herod made an oration arrayed in royal apparel?",
+          "type": "multiple-choice",
+          "options": [
+            "They shouted, 'It is the voice of a god, and not of a man'",
+            "They booed him",
+            "They remained silent",
+            "They asked for mercy"
+          ],
+          "correctAnswer": "They shouted, 'It is the voice of a god, and not of a man'",
+          "explanation": "The people proclaimed Herod’s voice as divine (Acts 12:22), demonstrating idolatry and false worship, which God judges severely (Isaiah 45:5-7, Romans 1:25).",
+          "verseReference": "Acts 12:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-theological-q12",
+          "question": "What happened to Herod immediately after the people praised him as a god?",
+          "type": "multiple-choice",
+          "options": [
+            "He was struck down by an angel and died",
+            "He ascended the throne",
+            "He repented and praised God",
+            "He fled the city"
+          ],
+          "correctAnswer": "He was struck down by an angel and died",
+          "explanation": "Herod was struck by the angel of the Lord for not giving glory to God and died from being eaten by worms (Acts 12:23), demonstrating divine judgment against pride and blasphemy (1 Samuel 2:25, Proverbs 16:18, Luke 12:20).",
+          "verseReference": "Acts 12:23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-theological-q13",
+          "question": "What is the theological significance of the word of God growing and multiplying despite persecution?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s word cannot be hindered by human opposition",
+            "The church must avoid persecution",
+            "Only peaceful preaching is effective",
+            "Growth depends solely on human effort"
+          ],
+          "correctAnswer": "God’s word cannot be hindered by human opposition",
+          "explanation": "Acts 12:24 states the word of God grew and multiplied, teaching that divine truth advances despite human hostility, echoing Isaiah 55:11, Matthew 16:18, and Romans 8:38-39 about God’s sovereign power and protection over His promises.",
+          "verseReference": "Acts 12:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-theological-q14",
+          "question": "Who returned from Jerusalem with Barnabas after fulfilling their ministry?",
+          "type": "multiple-choice",
+          "options": [
+            "Saul and John Mark",
+            "Peter and John",
+            "Philip and Stephen",
+            "James and Andrew"
+          ],
+          "correctAnswer": "Saul and John Mark",
+          "explanation": "Barnabas and Saul returned from Jerusalem with John, surnamed Mark (Acts 12:25), indicating the ongoing missionary efforts in spreading the gospel (Romans 15:20, 2 Timothy 4:11).",
+          "verseReference": "Acts 12:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-12-theological-q15",
+          "question": "What does the angel’s intervention in Peter’s escape reveal about God’s nature?",
+          "type": "multiple-choice",
+          "options": [
+            "God is sovereign and delivers his servants",
+            "God is distant from human affairs",
+            "God punishes without warning",
+            "God only works through human effort"
+          ],
+          "correctAnswer": "God is sovereign and delivers his servants",
+          "explanation": "The angel’s freeing of Peter (Acts 12:7-10) illustrates God’s sovereignty and providential care over His people, consistent with Psalm 91:11, Daniel 3:28, and Hebrews 13:5, affirming God’s active role in salvation history.",
+          "verseReference": "Acts 12:7",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "acts-12-quiz",
+      "tags": [
+        "acts",
+        "chapter-12",
+        "acts",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

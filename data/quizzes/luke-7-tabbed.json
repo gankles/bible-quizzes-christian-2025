@@ -1,0 +1,981 @@
+{
+  "id": "luke-7-tabbed",
+  "title": "Luke Chapter 7 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Luke chapter 7 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "luke-7-easy",
+      "title": "Luke Chapter 7 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Luke Chapter 7.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 7,
+      "questions": [
+        {
+          "id": "luke-7-easy-q1",
+          "question": "Where did Jesus enter after ending all his sayings in the audience of the people?",
+          "type": "multiple-choice",
+          "options": [
+            "Capernaum",
+            "Jerusalem",
+            "Nazareth",
+            "Bethlehem"
+          ],
+          "correctAnswer": "Capernaum",
+          "explanation": "Luke 7:1 states that Jesus entered into Capernaum after ending all his sayings.",
+          "verseReference": "Luke 7:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-7-easy-q2",
+          "question": "What relationship did the centurion have with the servant who was sick?",
+          "type": "multiple-choice",
+          "options": [
+            "He was dear unto him",
+            "He was his brother",
+            "He was his servant",
+            "He was his son"
+          ],
+          "correctAnswer": "He was dear unto him",
+          "explanation": "Luke 7:2 says the centurion's servant was dear unto him and was sick.",
+          "verseReference": "Luke 7:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-7-easy-q3",
+          "question": "Who did the centurion send to Jesus to ask for healing of his servant?",
+          "type": "multiple-choice",
+          "options": [
+            "The elders of the Jews",
+            "The Pharisees",
+            "John the Baptist",
+            "Two disciples"
+          ],
+          "correctAnswer": "The elders of the Jews",
+          "explanation": "Luke 7:3 mentions that the centurion sent the elders of the Jews to Jesus to beseech him to heal his servant.",
+          "verseReference": "Luke 7:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-7-easy-q4",
+          "question": "Why did the elders say the centurion was worthy of Jesus' help?",
+          "type": "multiple-choice",
+          "options": [
+            "He loves their nation and built a synagogue",
+            "He was rich",
+            "He was a Pharisee",
+            "He was a prophet"
+          ],
+          "correctAnswer": "He loves their nation and built a synagogue",
+          "explanation": "Luke 7:5 explains that the elders said the centurion loved their nation and had built a synagogue.",
+          "verseReference": "Luke 7:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-7-easy-q5",
+          "question": "What did the centurion say to Jesus about entering his house?",
+          "type": "multiple-choice",
+          "options": [
+            "Do not trouble yourself, I am not worthy",
+            "Come quickly",
+            "Enter freely",
+            "Bring your disciples"
+          ],
+          "correctAnswer": "Do not trouble yourself, I am not worthy",
+          "explanation": "Luke 7:6-7 records that the centurion sent friends to tell Jesus not to trouble himself because he was not worthy to have Jesus enter under his roof.",
+          "verseReference": "Luke 7:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-7-easy-q6",
+          "question": "How did the centurion describe his own authority?",
+          "type": "multiple-choice",
+          "options": [
+            "I say to one, Go, and he goes",
+            "I command armies",
+            "I control the temple",
+            "I lead the Pharisees"
+          ],
+          "correctAnswer": "I say to one, Go, and he goes",
+          "explanation": "Luke 7:8 describes the centurion as one under authority who commands soldiers and they obey him.",
+          "verseReference": "Luke 7:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-7-easy-q7",
+          "question": "What was Jesus' reaction to the centurion's faith?",
+          "type": "multiple-choice",
+          "options": [
+            "He marveled and said he found no such great faith in Israel",
+            "He was angry",
+            "He ignored it",
+            "He doubted it"
+          ],
+          "correctAnswer": "He marveled and said he found no such great faith in Israel",
+          "explanation": "Luke 7:9 shows Jesus marveling at the centurion's faith and stating He had not found such great faith in Israel.",
+          "verseReference": "Luke 7:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-7-easy-q8",
+          "question": "What happened when the messengers returned to the centurion's house?",
+          "type": "multiple-choice",
+          "options": [
+            "They found the servant whole",
+            "The servant was still sick",
+            "Jesus had not come",
+            "The servant had died"
+          ],
+          "correctAnswer": "They found the servant whole",
+          "explanation": "Luke 7:10 says the messengers returned to the house and found the servant healed.",
+          "verseReference": "Luke 7:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-7-easy-q9",
+          "question": "In which city did Jesus raise a widow's only son from the dead?",
+          "type": "multiple-choice",
+          "options": [
+            "Nain",
+            "Capernaum",
+            "Jerusalem",
+            "Bethlehem"
+          ],
+          "correctAnswer": "Nain",
+          "explanation": "Luke 7:11 states that Jesus went into the city called Nain where he raised the widow's son.",
+          "verseReference": "Luke 7:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-7-easy-q10",
+          "question": "What did Jesus say to the widow at the gate of Nain?",
+          "type": "multiple-choice",
+          "options": [
+            "Weep not",
+            "Have faith",
+            "Go in peace",
+            "Your son will live"
+          ],
+          "correctAnswer": "Weep not",
+          "explanation": "Luke 7:13 records Jesus telling the widow, \"Weep not\" as he had compassion on her.",
+          "verseReference": "Luke 7:13",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-7-easy-q11",
+          "question": "True or False: John the Baptist sent his disciples to ask Jesus if He was the one to come or if they should look for another.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 7:19-20 recounts John sending two disciples to ask Jesus this question.",
+          "verseReference": "Luke 7:19",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-7-easy-q12",
+          "question": "True or False: Jesus healed many and gave sight to the blind when John's disciples visited Him.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 7:21 says Jesus healed many infirmities and gave sight to many blind at that hour.",
+          "verseReference": "Luke 7:21",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-7-easy-q13",
+          "question": "True or False: Jesus said that among those born of women there is no greater prophet than John the Baptist.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 7:28 states that there is no greater prophet than John the Baptist among those born of women.",
+          "verseReference": "Luke 7:28",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-7-easy-q14",
+          "question": "Complete this verse from Luke 7:47: 'Her sins, which are many, are forgiven; for she _______'",
+          "type": "fill-blank",
+          "options": [
+            "loved much",
+            "feared God",
+            "prayed much",
+            "trusted Jesus"
+          ],
+          "correctAnswer": "loved much",
+          "explanation": "Luke 7:47 explains her many sins are forgiven because she loved much.",
+          "verseReference": "Luke 7:47",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-7-easy-q15",
+          "question": "Who said, 'Thy faith hath saved thee; go in peace'?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus",
+            "John the Baptist",
+            "Simon the Pharisee",
+            "The centurion"
+          ],
+          "correctAnswer": "Jesus",
+          "explanation": "Luke 7:50 records Jesus speaking these words to the woman whose sins were forgiven.",
+          "verseReference": "Luke 7:50",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "luke-7-quiz",
+      "tags": [
+        "luke",
+        "chapter-7",
+        "luke",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "luke-7-medium",
+      "title": "Luke Chapter 7 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Luke Chapter 7 to real-life situations.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 7,
+      "questions": [
+        {
+          "id": "luke-7-medium-q1",
+          "question": "How does the centurion's faith in Luke 7 teach us about trust in God's authority and power?",
+          "type": "multiple-choice",
+          "options": [
+            "Faith means trusting God's word even without physical presence or proof",
+            "Faith requires seeing miracles before believing",
+            "Faith is shown only through sacrifices",
+            "Faith is limited to religious leaders"
+          ],
+          "correctAnswer": "Faith means trusting God's word even without physical presence or proof",
+          "explanation": "The centurion believed Jesus could heal his servant just by speaking a word, showing trust in God's authority without needing Jesus to come (Luke 7:6-8, Luke 7:9). This teaches us to trust God's power even when we don't see immediate evidence.",
+          "verseReference": "Luke 7:6-9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-7-medium-q2",
+          "question": "What biblical lesson about compassion and serving others can we learn from Jesus raising the widow's son?",
+          "type": "multiple-choice",
+          "options": [
+            "Compassion leads us to act to restore and help those in need",
+            "Only religious officials can perform miracles",
+            "We should avoid involvement in others' problems",
+            "Faith is unnecessary in helping the needy"
+          ],
+          "correctAnswer": "Compassion leads us to act to restore and help those in need",
+          "explanation": "Jesus showed compassion to the widow by raising her son from the dead (Luke 7:13-15). This teaches Christians to respond with mercy and action to those suffering or in need.",
+          "verseReference": "Luke 7:13-15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-7-medium-q3",
+          "question": "A fellow believer doubts their worthiness to come to Jesus. Based on the centurion's example, what truth would you share?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus honors humble faith regardless of social status",
+            "Only the righteous can approach Jesus",
+            "You must earn Jesus' favor through works",
+            "Jesus only helps those who invite Him in person"
+          ],
+          "correctAnswer": "Jesus honors humble faith regardless of social status",
+          "explanation": "The centurion considered himself unworthy for Jesus to enter his house but trusted Jesus' word alone to heal (Luke 7:6-7). Jesus commended his faith, showing that sincere faith is what matters.",
+          "verseReference": "Luke 7:6-9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-7-medium-q4",
+          "question": "How does Jesus' response to John's messengers encourage believers facing doubts about His identity and mission?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus points to His works as evidence of God's kingdom",
+            "Jesus ignores questions about His identity",
+            "Believers must wait for signs before trusting",
+            "Doubts show lack of faith and are unforgivable"
+          ],
+          "correctAnswer": "Jesus points to His works as evidence of God's kingdom",
+          "explanation": "Jesus told John's disciples to report the miracles and good news He was bringing (Luke 7:21-22), encouraging trust based on His works and fulfillment of prophecy.",
+          "verseReference": "Luke 7:18-22",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-7-medium-q5",
+          "question": "What does Luke 7 teach about humility and recognizing our need for forgiveness through the story of the sinful woman?",
+          "type": "multiple-choice",
+          "options": [
+            "Those forgiven much love much and show humility",
+            "Pride protects us from sin",
+            "Forgiveness is only for the righteous",
+            "Public approval validates forgiveness"
+          ],
+          "correctAnswer": "Those forgiven much love much and show humility",
+          "explanation": "Jesus explained that the woman's many sins were forgiven because of her great love (Luke 7:47-48). This teaches humility and gratitude toward God's forgiveness.",
+          "verseReference": "Luke 7:36-50",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-7-medium-q6",
+          "question": "How does Jesus' teaching about John the Baptist encourage us in spiritual discipline and perseverance?",
+          "type": "multiple-choice",
+          "options": [
+            "John's austere lifestyle calls us to serious devotion",
+            "Comfort and ease are signs of God's favor",
+            "Spiritual discipline is unnecessary",
+            "Criticism of prophets should be ignored"
+          ],
+          "correctAnswer": "John's austere lifestyle calls us to serious devotion",
+          "explanation": "Jesus contrasted John's strict life with criticism from others (Luke 7:33-34), emphasizing the value of spiritual discipline and faithfulness even when misunderstood.",
+          "verseReference": "Luke 7:33-34",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-7-medium-q7",
+          "question": "In what way does Luke 7 illustrate the importance of forgiveness and reconciliation in Christian fellowship?",
+          "type": "multiple-choice",
+          "options": [
+            "Forgiveness leads to love and peace among believers",
+            "Unforgiveness protects us from being hurt",
+            "Reconciliation is optional for strong faith",
+            "Only leaders should offer forgiveness"
+          ],
+          "correctAnswer": "Forgiveness leads to love and peace among believers",
+          "explanation": "Jesus forgave the sinful woman and affirmed her faith brought salvation (Luke 7:48, 50), showing that forgiveness fosters love and reconciliation.",
+          "verseReference": "Luke 7:47-50",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-7-medium-q8",
+          "question": "How does the centurion's understanding of authority in Luke 7 encourage integrity and obedience in daily life?",
+          "type": "multiple-choice",
+          "options": [
+            "Obedience to authority is a model for trusting God's commands",
+            "Authority should be questioned at all times",
+            "Only personal desires matter in decisions",
+            "Obedience is irrelevant to faith"
+          ],
+          "correctAnswer": "Obedience to authority is a model for trusting God's commands",
+          "explanation": "The centurion explained how he commands soldiers and they obey, illustrating how we should trust and obey God's authority (Luke 7:8).",
+          "verseReference": "Luke 7:8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-7-medium-q9",
+          "question": "True or False: Jesus praised the centurion's faith as the greatest He had found in Israel.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Jesus said He had not found such great faith even in Israel as that of the centurion (Luke 7:9), highlighting the importance of strong trust in God.",
+          "verseReference": "Luke 7:9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-7-medium-q10",
+          "question": "True or False: The Pharisees and lawyers accepted the baptism of John and the message he preached.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "The Pharisees and lawyers rejected God's counsel and refused to be baptized by John (Luke 7:30), showing resistance to God's call.",
+          "verseReference": "Luke 7:30",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-7-medium-q11",
+          "question": "Fill in the blank: Jesus said, 'Blessed is he, whosoever shall not be __________ in me.'",
+          "type": "fill-blank",
+          "options": [
+            "offended",
+            "faithful",
+            "doubtful",
+            "silent"
+          ],
+          "correctAnswer": "offended",
+          "explanation": "Jesus said that those who are not offended or scandalized by Him are blessed, encouraging perseverance in faith (Luke 7:23).",
+          "verseReference": "Luke 7:23",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-7-medium-q12",
+          "question": "How does the story of the sinful woman washing Jesus' feet teach practical Christian living about gratitude?",
+          "type": "multiple-choice",
+          "options": [
+            "Gratitude is shown through humble, loving actions",
+            "Gratitude requires public recognition",
+            "Only words express true thankfulness",
+            "Gratitude is unnecessary if forgiven"
+          ],
+          "correctAnswer": "Gratitude is shown through humble, loving actions",
+          "explanation": "The woman showed her love and gratitude by washing and anointing Jesus' feet with tears and ointment (Luke 7:38), teaching that true gratitude is expressed in humble service.",
+          "verseReference": "Luke 7:36-38",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-7-medium-q13",
+          "question": "Based on Jesus' teaching about John the Baptist, how should believers respond to criticism or misunderstanding?",
+          "type": "multiple-choice",
+          "options": [
+            "Persevere in faith despite criticism",
+            "Retaliate against critics",
+            "Withdraw from public ministry",
+            "Ignore God's calling"
+          ],
+          "correctAnswer": "Persevere in faith despite criticism",
+          "explanation": "Jesus described how both John and He faced criticism but wisdom is justified by her children (Luke 7:33-35), teaching perseverance in God's mission.",
+          "verseReference": "Luke 7:33-35",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-7-medium-q14",
+          "question": "What lesson about evangelism and witnessing can be drawn from the spread of Jesus' fame after His miracles in Luke 7?",
+          "type": "multiple-choice",
+          "options": [
+            "God's work leads to widespread testimony and glorifying Him",
+            "Miracles should be hidden to avoid attention",
+            "Evangelism is unnecessary without signs",
+            "Faith should be kept private"
+          ],
+          "correctAnswer": "God's work leads to widespread testimony and glorifying Him",
+          "explanation": "After Jesus raised the widow's son, the people glorified God and the news spread throughout Judea (Luke 7:16-17), illustrating how God's acts inspire evangelism.",
+          "verseReference": "Luke 7:16-17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-7-medium-q15",
+          "question": "How does Jesus' interaction with Simon the Pharisee teach us about humility in church fellowship and hospitality?",
+          "type": "multiple-choice",
+          "options": [
+            "True hospitality includes honoring others with respect and love",
+            "Only leaders provide hospitality",
+            "Hospitality is unnecessary in faith communities",
+            "Judging others is acceptable in fellowship"
+          ],
+          "correctAnswer": "True hospitality includes honoring others with respect and love",
+          "explanation": "Jesus contrasted Simon's lack of hospitality with the woman's loving acts, teaching that humility and honoring others are vital in Christian fellowship (Luke 7:44-46).",
+          "verseReference": "Luke 7:36-46",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "luke-7-quiz",
+      "tags": [
+        "luke",
+        "chapter-7",
+        "luke",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "luke-7-hard",
+      "title": "Luke Chapter 7 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Luke Chapter 7.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 7,
+      "questions": [
+        {
+          "id": "luke-7-hard-q1",
+          "question": "What is the significance of the centurion's faith in Luke 7, especially in light of Jewish and Gentile relations in the first century?",
+          "type": "multiple-choice",
+          "options": [
+            "His faith was greater than any in Israel, showing Gentile inclusion in God's plan",
+            "His faith was doubted by Jesus because he was a Roman officer",
+            "His faith was only in his soldiers, not in Jesus",
+            "His faith was a typical example of Jewish piety"
+          ],
+          "correctAnswer": "His faith was greater than any in Israel, showing Gentile inclusion in God's plan",
+          "explanation": "Luke 7:9 states that Jesus marveled at the centurion's faith and said he had not found so great faith, no, not in Israel, highlighting the theme of Gentile inclusion in the kingdom of God.",
+          "verseReference": "Luke 7:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-hard-q2",
+          "question": "In the story of the widow's son at Nain (Luke 7:11-17), what Old Testament motif is Jesus fulfilling by raising the young man from the dead?",
+          "type": "multiple-choice",
+          "options": [
+            "The prophet Elijah raising the widow's son (1 Kings 17:17-24)",
+            "The creation of Adam in Genesis",
+            "The Passover lamb's sacrifice",
+            "The fall of Jericho"
+          ],
+          "correctAnswer": "The prophet Elijah raising the widow's son (1 Kings 17:17-24)",
+          "explanation": "Jesus raising the widow's son at Nain echoes Elijah's miracle in 1 Kings 17, demonstrating Jesus as a greater prophet and bringing life, fulfilling prophetic typology.",
+          "verseReference": "Luke 7:14-15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-hard-q3",
+          "question": "How does Jesus' response to John's disciples (Luke 7:22) serve as a fulfillment of Messianic prophecy?",
+          "type": "multiple-choice",
+          "options": [
+            "He describes miracles that align with Isaiah's prophecy about the Messiah's works",
+            "He only speaks about preaching and teaching",
+            "He denies being the Messiah",
+            "He refers to the Exodus story"
+          ],
+          "correctAnswer": "He describes miracles that align with Isaiah's prophecy about the Messiah's works",
+          "explanation": "In Luke 7:22, Jesus lists miracles such as giving sight to the blind and raising the dead, fulfilling Isaiah 35:5-6 and 61:1, signaling his Messianic identity.",
+          "verseReference": "Luke 7:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-hard-q4",
+          "question": "What literary device is present in Jesus' comparison of the current generation to children in the marketplace (Luke 7:31-32)?",
+          "type": "multiple-choice",
+          "options": [
+            "Simile illustrating stubbornness and rejection",
+            "Parable of the sower",
+            "Allegory of the vineyard",
+            "Metaphor for faith"
+          ],
+          "correctAnswer": "Simile illustrating stubbornness and rejection",
+          "explanation": "Luke 7:31-32 uses a simile comparing the generation to children who refuse to respond appropriately, highlighting their obstinate rejection of both John and Jesus.",
+          "verseReference": "Luke 7:31-32",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-hard-q5",
+          "question": "In Luke 7:28, Jesus says, 'Among those that are born of women there is not a greater prophet than John the Baptist.' What theological implication does this statement have regarding the Kingdom of God?",
+          "type": "multiple-choice",
+          "options": [
+            "The least in the Kingdom of God is greater than John, indicating a new eschatological order",
+            "John is the greatest in the Kingdom of God",
+            "The Kingdom of God is only for prophets",
+            "Only those born of women can enter the Kingdom"
+          ],
+          "correctAnswer": "The least in the Kingdom of God is greater than John, indicating a new eschatological order",
+          "explanation": "Luke 7:28 contrasts John's greatness as a prophet with the greater status of even the least in the Kingdom of God, signaling a transformative new era in salvation history.",
+          "verseReference": "Luke 7:28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-hard-q6",
+          "question": "How does the story of the sinful woman anointing Jesus' feet (Luke 7:36-50) reflect concepts of forgiveness and love in the New Testament?",
+          "type": "multiple-choice",
+          "options": [
+            "Her many sins are forgiven because of her great love, showing the link between forgiveness and love",
+            "She is condemned for her sins and rejected",
+            "Jesus ignores her actions",
+            "Her actions are merely cultural etiquette"
+          ],
+          "correctAnswer": "Her many sins are forgiven because of her great love, showing the link between forgiveness and love",
+          "explanation": "Luke 7:47-48 explains that her many sins are forgiven because she loved much, illustrating the New Testament theme that forgiveness results in great love.",
+          "verseReference": "Luke 7:47-48",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-hard-q7",
+          "question": "What is the significance of the centurion saying, 'Lord, trouble not thyself: for I am not worthy that thou shouldest enter under my roof' (Luke 7:6) in the context of Jewish purity laws?",
+          "type": "multiple-choice",
+          "options": [
+            "It reflects his understanding of Jewish purity laws that forbid Gentiles from entering Jewish homes",
+            "It shows his arrogance and pride",
+            "It means he did not want Jesus to come",
+            "It is a common Roman greeting"
+          ],
+          "correctAnswer": "It reflects his understanding of Jewish purity laws that forbid Gentiles from entering Jewish homes",
+          "explanation": "The centurion, a Gentile, recognizes Jewish purity customs and humbly declines Jesus entering his home, showing respect and understanding of cultural boundaries (Luke 7:6).",
+          "verseReference": "Luke 7:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-hard-q8",
+          "question": "True or False: The miracles described in Luke 7 serve as signs that confirm Jesus as the promised Messiah according to Jewish expectations.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 7:22 recounts miracles such as healing the blind and raising the dead, which align with Messianic expectations found in Isaiah, confirming Jesus' identity.",
+          "verseReference": "Luke 7:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-hard-q9",
+          "question": "What parallel can be drawn between the forgiveness parable Jesus tells Simon the Pharisee (Luke 7:41-43) and the cultural context of debt forgiveness in ancient Near Eastern societies?",
+          "type": "multiple-choice",
+          "options": [
+            "It uses the concept of debt forgiveness to illustrate God's mercy and human response in love",
+            "It condemns debt forgiveness as unfair",
+            "It has no relevance to ancient customs",
+            "It promotes economic debt forgiveness only"
+          ],
+          "correctAnswer": "It uses the concept of debt forgiveness to illustrate God's mercy and human response in love",
+          "explanation": "Jesus uses the culturally familiar concept of debt forgiveness to symbolize God’s mercy and how it provokes love, as explained in Luke 7:41-43.",
+          "verseReference": "Luke 7:41-43",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-hard-q10",
+          "question": "In Luke 7:20, John the Baptist’s disciples ask Jesus, 'Art thou he that should come? or look we for another?' How does this question reflect the Messianic expectations of Second Temple Judaism?",
+          "type": "multiple-choice",
+          "options": [
+            "It reflects uncertainty about the Messiah's identity and fulfillment of prophecy",
+            "It shows John's disbelief in Jesus entirely",
+            "It denies the concept of the Messiah",
+            "It is a rhetorical question with no theological weight"
+          ],
+          "correctAnswer": "It reflects uncertainty about the Messiah's identity and fulfillment of prophecy",
+          "explanation": "John's question in Luke 7:20 reflects Second Temple Jewish expectations, where the Messiah's coming was anticipated but his exact identity and nature were debated.",
+          "verseReference": "Luke 7:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-hard-q11",
+          "question": "How does Luke 7:35, 'But wisdom is justified of all her children,' function as a literary conclusion to the preceding comparisons between John the Baptist and Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "It asserts that true understanding validates the differing ministries of John and Jesus",
+            "It condemns both John and Jesus",
+            "It praises only John",
+            "It dismisses wisdom as irrelevant"
+          ],
+          "correctAnswer": "It asserts that true understanding validates the differing ministries of John and Jesus",
+          "explanation": "The verse in Luke 7:35 concludes the section by affirming that wisdom is proven right by the outcomes and responses to both John’s and Jesus’ ministries.",
+          "verseReference": "Luke 7:35",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-hard-q12",
+          "question": "What is the significance of the phrase 'Thy faith hath saved thee' in the context of Luke 7:50, considering the broader Johannine and Pauline themes of faith and salvation?",
+          "type": "multiple-choice",
+          "options": [
+            "It emphasizes personal faith as instrumental in salvation, consistent with New Testament theology",
+            "It denies the need for faith",
+            "It only pertains to physical healing",
+            "It promotes salvation by works"
+          ],
+          "correctAnswer": "It emphasizes personal faith as instrumental in salvation, consistent with New Testament theology",
+          "explanation": "Luke 7:50 highlights faith as the means of salvation, aligning with the broader New Testament emphasis on faith found in the teachings of John and Paul.",
+          "verseReference": "Luke 7:50",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-hard-q13",
+          "question": "Which Greek term in Luke 7:43, translated as 'rightly judged', carries connotations of both legal and moral correctness, and how does this enrich the interpretation of Simon's answer?",
+          "type": "multiple-choice",
+          "options": [
+            "Dikaiosyne, implying both justice and righteousness",
+            "Agape, meaning love",
+            "Charis, meaning grace",
+            "Koinonia, meaning fellowship"
+          ],
+          "correctAnswer": "Dikaiosyne, implying both justice and righteousness",
+          "explanation": "The Greek 'dikaiosyne' in Luke 7:43 conveys that Simon’s judgment was not only legally correct but also morally upright, deepening the understanding of the parable’s ethical dimension.",
+          "verseReference": "Luke 7:43",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-hard-q14",
+          "question": "How does the author's inclusion of the centurion’s building of a synagogue (Luke 7:5) serve to foreshadow later New Testament themes regarding Gentile participation in worship?",
+          "type": "multiple-choice",
+          "options": [
+            "It anticipates the expansion of worship beyond Israel to include Gentiles",
+            "It criticizes Gentiles for building synagogues",
+            "It indicates that Gentiles must convert to Judaism first",
+            "It is unrelated to later themes"
+          ],
+          "correctAnswer": "It anticipates the expansion of worship beyond Israel to include Gentiles",
+          "explanation": "Luke 7:5 shows the centurion’s positive relationship with the Jewish community, foreshadowing the New Testament theme of Gentile inclusion in the people of God.",
+          "verseReference": "Luke 7:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-hard-q15",
+          "question": "True or False: The reaction of those present at the raising of the widow's son (Luke 7:16) demonstrates an early recognition of Jesus as a prophet and a divine visitation to Israel.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 7:16 records that the people glorified God and said, 'A great prophet is risen up among us; and God hath visited his people,' showing recognition of Jesus' prophetic and divine role.",
+          "verseReference": "Luke 7:16",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "luke-7-quiz",
+      "tags": [
+        "luke",
+        "chapter-7",
+        "luke",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "luke-7-theological",
+      "title": "Luke Chapter 7 Quiz - Theological Level",
+      "description": "Deep biblical theology from Luke Chapter 7 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 7,
+      "questions": [
+        {
+          "id": "luke-7-theological-q1",
+          "question": "What aspect of the centurion's faith did Jesus highlight as unparalleled in Israel?",
+          "type": "multiple-choice",
+          "options": [
+            "His great faith",
+            "His wealth",
+            "His position as a soldier",
+            "His nationality"
+          ],
+          "correctAnswer": "His great faith",
+          "explanation": "Jesus marveled at the centurion's faith and stated He had not found so great faith in Israel, highlighting the centurion's trust in Jesus' authority to heal remotely (Luke 7:9). This reflects the biblical theme of faith as essential for salvation and healing (Hebrews 11:6; Romans 4:20-21; Matthew 8:10; John 6:29).",
+          "verseReference": "Luke 7:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-theological-q2",
+          "question": "What miracle did Jesus perform at the city of Nain?",
+          "type": "multiple-choice",
+          "options": [
+            "He raised a widow's only son from the dead",
+            "He healed a centurion's servant",
+            "He fed five thousand people",
+            "He calmed a storm"
+          ],
+          "correctAnswer": "He raised a widow's only son from the dead",
+          "explanation": "Jesus had compassion on the widow and raised her only son from the dead (Luke 7:11-15). This miracle demonstrates His power over death, prefiguring the resurrection and affirming His messianic authority (John 11:43-44; 1 Kings 17:17-24; Ezekiel 37:12-14; Romans 6:9).",
+          "verseReference": "Luke 7:11-15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-theological-q3",
+          "question": "How did Jesus describe John the Baptist in relation to other prophets?",
+          "type": "multiple-choice",
+          "options": [
+            "The greatest prophet born of women",
+            "A minor prophet",
+            "A king",
+            "An ordinary man"
+          ],
+          "correctAnswer": "The greatest prophet born of women",
+          "explanation": "Jesus declared John the Baptist the greatest prophet born of women, yet stated even the least in the kingdom of God is greater than he (Luke 7:28). This stresses John's pivotal role in salvation history as the forerunner of Christ and introduces the inaugurated kingdom (Malachi 3:1; Isaiah 40:3; Matthew 11:11; Revelation 1:5).",
+          "verseReference": "Luke 7:28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-theological-q4",
+          "question": "What did Jesus say was preached to the poor as a sign of His ministry?",
+          "type": "multiple-choice",
+          "options": [
+            "The gospel",
+            "The law",
+            "Prophecy",
+            "Wisdom"
+          ],
+          "correctAnswer": "The gospel",
+          "explanation": "Jesus told John’s disciples to report that the gospel is preached to the poor, indicating the inclusive nature of the kingdom and salvation offered to all, especially the marginalized (Luke 7:22). This aligns with Isaiah's prophecy about the Messiah bringing good news to the poor (Isaiah 61:1; Matthew 11:5; Luke 4:18; Romans 15:20).",
+          "verseReference": "Luke 7:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-theological-q5",
+          "question": "What was Jesus’ response to those who criticized John the Baptist for his ascetic lifestyle and Him for socializing with sinners?",
+          "type": "multiple-choice",
+          "options": [
+            "Wisdom is justified by her children",
+            "They were right to criticize",
+            "He ignored their criticism",
+            "He stopped His ministry"
+          ],
+          "correctAnswer": "Wisdom is justified by her children",
+          "explanation": "Jesus responded that wisdom is justified by her children (Luke 7:35), affirming that the fruits of John’s and His own ministries validate their divine authority despite criticisms. This reflects the biblical principle that true wisdom and revelation are confirmed by outcomes and the Spirit’s work (Proverbs 3:19-20; Matthew 11:19; James 3:17; 1 Corinthians 1:24).",
+          "verseReference": "Luke 7:35",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-theological-q6",
+          "question": "In the parable Jesus told Simon the Pharisee about two debtors, what was the key lesson on love and forgiveness?",
+          "type": "multiple-choice",
+          "options": [
+            "The one forgiven more loves more",
+            "The one forgiven less loves more",
+            "Love is unrelated to forgiveness",
+            "Both loved equally"
+          ],
+          "correctAnswer": "The one forgiven more loves more",
+          "explanation": "Jesus taught that the debtor forgiven the greater debt loves more (Luke 7:41-43), illustrating the theological truth that awareness of God’s abundant grace leads to greater love and repentance (Psalm 103:10-12; 1 John 4:19; Ephesians 2:4-5; Luke 7:47).",
+          "verseReference": "Luke 7:41-43",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-theological-q7",
+          "question": "What was the reaction of those dining with Jesus when He forgave the woman’s sins?",
+          "type": "multiple-choice",
+          "options": [
+            "They questioned who could forgive sins",
+            "They praised the woman",
+            "They left immediately",
+            "They sang hymns"
+          ],
+          "correctAnswer": "They questioned who could forgive sins",
+          "explanation": "Those at the meal questioned among themselves who Jesus was to forgive sins, revealing the radical claim of divine authority Jesus exercised (Luke 7:49). Forgiveness of sins is a prerogative of God alone (Mark 2:5-7; Isaiah 43:25; Psalm 103:3; Matthew 9:6), underscoring Jesus' deity and messianic identity.",
+          "verseReference": "Luke 7:49",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-theological-q8",
+          "question": "How did the centurion demonstrate his understanding of authority and Jesus' authority?",
+          "type": "multiple-choice",
+          "options": [
+            "By saying Jesus only needed to speak a word to heal",
+            "By sending a large army to protect Jesus",
+            "By offering Jesus a gift",
+            "By inviting Jesus to a feast"
+          ],
+          "correctAnswer": "By saying Jesus only needed to speak a word to heal",
+          "explanation": "The centurion expressed that he was unworthy to have Jesus enter his home and believed Jesus only needed to say a word to heal his servant (Luke 7:6-7). This reflects a profound recognition of Jesus' sovereign authority, paralleling the centurion’s own command over soldiers, and reveals Christ's power over illness by a word (Psalm 107:20; John 11:43; Matthew 8:8; Isaiah 55:11).",
+          "verseReference": "Luke 7:6-7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-theological-q9",
+          "question": "What does Luke 7 reveal about Jesus’ compassion and His role as the Messiah?",
+          "type": "multiple-choice",
+          "options": [
+            "He had compassion on the widow and raised her son, showing His power over death",
+            "He ignored the suffering of the people",
+            "He only healed those who were wealthy",
+            "He refused to associate with sinners"
+          ],
+          "correctAnswer": "He had compassion on the widow and raised her son, showing His power over death",
+          "explanation": "Jesus’ compassion moved Him to raise the widow’s dead son (Luke 7:13-15), demonstrating His messianic authority to restore life and fulfill Old Testament promises of restoration (Hosea 6:2; Ezekiel 37; Isaiah 25:8; John 11:25-26). This compassion reflects God's loving character toward humanity (Psalm 103:13; Matthew 9:36).",
+          "verseReference": "Luke 7:13-15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-theological-q10",
+          "question": "According to Luke 7, how did the people respond to Jesus’ miracles and teachings about John the Baptist?",
+          "type": "multiple-choice",
+          "options": [
+            "They justified God and were baptized with John's baptism",
+            "They rejected all teachings",
+            "They ignored John’s message",
+            "They became Pharisees"
+          ],
+          "correctAnswer": "They justified God and were baptized with John's baptism",
+          "explanation": "The people who heard Jesus and John’s message justified God and submitted to John's baptism (Luke 7:29), signaling repentance and acceptance of God’s plan, consistent with the call to repentance throughout Scripture (Joel 2:12-13; Acts 2:38; Mark 1:4; Matthew 3:5-6).",
+          "verseReference": "Luke 7:29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-theological-q11",
+          "question": "What criticism did the Pharisees and lawyers have toward John the Baptist according to Luke 7?",
+          "type": "multiple-choice",
+          "options": [
+            "They rejected the counsel of God and refused to be baptized by him",
+            "They fully supported John",
+            "They asked John to lead Israel",
+            "They ignored Jesus’ miracles"
+          ],
+          "correctAnswer": "They rejected the counsel of God and refused to be baptized by him",
+          "explanation": "Pharisees and lawyers rejected God's counsel by not submitting to John’s baptism (Luke 7:30), showing spiritual resistance despite evidence, a theme echoed in the Old Testament about Israel’s rebellion (Isaiah 1:2-4; Jeremiah 7:24; Matthew 21:31-32; Hebrews 3:8).",
+          "verseReference": "Luke 7:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-theological-q12",
+          "question": "How did Jesus illustrate the unbelief and fickleness of the current generation in Luke 7?",
+          "type": "multiple-choice",
+          "options": [
+            "By comparing them to children in the marketplace who reject both joy and sorrow",
+            "By praising their faith",
+            "By ignoring them",
+            "By calling them faithful"
+          ],
+          "correctAnswer": "By comparing them to children in the marketplace who reject both joy and sorrow",
+          "explanation": "Jesus likened the generation to children refusing to dance or mourn despite invitations, illustrating their spiritual obstinacy and inability to accept God's messengers (Luke 7:31-32). This reflects the prophetic critique of Israel’s hardness of heart (Jeremiah 6:10; Isaiah 65:2; Matthew 11:16-17; Proverbs 1:24-26).",
+          "verseReference": "Luke 7:31-32",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-theological-q13",
+          "question": "What is the significance of the woman washing Jesus’ feet with her tears and anointing them in the Pharisee’s house?",
+          "type": "multiple-choice",
+          "options": [
+            "It demonstrated her great love and repentance, resulting in forgiveness",
+            "It was a common custom with no deeper meaning",
+            "It offended Jesus",
+            "It was done to embarrass the Pharisee"
+          ],
+          "correctAnswer": "It demonstrated her great love and repentance, resulting in forgiveness",
+          "explanation": "The woman’s actions showed deep contrition and love, and Jesus declared her sins forgiven because of her faith and love (Luke 7:38, 44-48, 50). This illustrates the biblical principle that repentance and faith lead to forgiveness and restoration (Psalm 51; 1 John 1:9; Isaiah 1:18; Luke 7:47).",
+          "verseReference": "Luke 7:38, 44-48",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-theological-q14",
+          "question": "What does Luke 7 teach about Jesus' authority to forgive sins?",
+          "type": "multiple-choice",
+          "options": [
+            "He has divine authority to forgive sins",
+            "Only God the Father can forgive sins",
+            "He cannot forgive sins",
+            "Only priests can forgive sins"
+          ],
+          "correctAnswer": "He has divine authority to forgive sins",
+          "explanation": "Jesus forgave the woman’s sins (Luke 7:48), prompting amazement from onlookers, demonstrating His divine prerogative to forgive sins, a key claim to deity supported elsewhere (Mark 2:5-7; Isaiah 43:25; Matthew 9:6; John 1:14).",
+          "verseReference": "Luke 7:48-49",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-7-theological-q15",
+          "question": "How does the centurion’s understanding of authority provide a Christological insight in Luke 7?",
+          "type": "multiple-choice",
+          "options": [
+            "It parallels Jesus’ authority over sickness and spiritual forces",
+            "It shows that only soldiers have authority",
+            "It limits Jesus’ power to physical presence",
+            "It denies Jesus’ divinity"
+          ],
+          "correctAnswer": "It parallels Jesus’ authority over sickness and spiritual forces",
+          "explanation": "The centurion recognized authority as issuing commands that are obeyed, applying this to Jesus who healed at a distance (Luke 7:8). This prefigures Jesus’ sovereign authority over nature, sickness, and demons (Mark 1:27; Matthew 8:13; Colossians 1:16-17; Hebrews 1:3).",
+          "verseReference": "Luke 7:8",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "luke-7-quiz",
+      "tags": [
+        "luke",
+        "chapter-7",
+        "luke",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

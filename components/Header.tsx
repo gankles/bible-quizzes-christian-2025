@@ -28,6 +28,23 @@ const navigation = [
     ]
   },
   {
+    name: 'Bible Books',
+    href: '/bible-quizzes',
+    icon: BookOpenIcon,
+    children: [
+      { name: 'Genesis', href: '/books/genesis' },
+      { name: 'Exodus', href: '/books/exodus' },
+      { name: 'Psalms', href: '/books/psalms' },
+      { name: 'Proverbs', href: '/books/proverbs' },
+      { name: 'Isaiah', href: '/books/isaiah' },
+      { name: 'Matthew', href: '/books/matthew' },
+      { name: 'John', href: '/books/john' },
+      { name: 'Romans', href: '/books/romans' },
+      { name: 'Revelation', href: '/books/revelation' },
+      { name: 'All 66 Books', href: '/bible-quizzes' }
+    ]
+  },
+  {
     name: 'Study Guides',
     href: '/bible-study-guides',
     icon: AcademicCapIcon,

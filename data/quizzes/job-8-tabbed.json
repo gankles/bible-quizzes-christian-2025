@@ -1,0 +1,983 @@
+{
+  "id": "job-8-tabbed",
+  "title": "Job Chapter 8 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Job chapter 8 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "job-8-easy",
+      "title": "Job Chapter 8 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Job Chapter 8.",
+      "type": "chapter",
+      "book": "Job",
+      "chapter": 8,
+      "questions": [
+        {
+          "id": "job-8-easy-q1",
+          "question": "Who answered Job in Job chapter 8?",
+          "type": "multiple-choice",
+          "options": [
+            "Bildad the Shuhite",
+            "Eliphaz the Temanite",
+            "Zophar the Naamathite",
+            "Job himself"
+          ],
+          "correctAnswer": "Bildad the Shuhite",
+          "explanation": "Job 8:1 states that Bildad the Shuhite answered Job.",
+          "verseReference": "Job 8:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-8-easy-q2",
+          "question": "According to Job 8:3, what question does Bildad ask about God?",
+          "type": "multiple-choice",
+          "options": [
+            "Doth God pervert judgment?",
+            "Is God angry with Job?",
+            "Will God forgive sin?",
+            "Does God listen to prayers?"
+          ],
+          "correctAnswer": "Doth God pervert judgment?",
+          "explanation": "Job 8:3 asks, 'Doth God pervert judgment? or doth the Almighty pervert justice?'",
+          "verseReference": "Job 8:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-8-easy-q3",
+          "question": "According to Job 8:5, what should Job do to seek help?",
+          "type": "multiple-choice",
+          "options": [
+            "Make supplication to the Almighty",
+            "Build a house",
+            "Offer sacrifices",
+            "Travel to a holy place"
+          ],
+          "correctAnswer": "Make supplication to the Almighty",
+          "explanation": "Job 8:5 says, 'If thou wouldest seek unto God betimes, and make thy supplication to the Almighty.'",
+          "verseReference": "Job 8:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-8-easy-q4",
+          "question": "True or False: Job 8:6 states that if Job were pure and upright, God would prosper his habitation.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Job 8:6 clearly states that if Job were pure and upright, God would awake for him and make the habitation of his righteousness prosperous.",
+          "verseReference": "Job 8:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-8-easy-q5",
+          "question": "What does Bildad say about the beginning and latter end in Job 8:7?",
+          "type": "multiple-choice",
+          "options": [
+            "Though thy beginning was small, yet thy latter end should greatly increase",
+            "Thy beginning was great, but thy latter end shall decrease",
+            "Both thy beginning and latter end will be small",
+            "Thy beginning was small, and thy latter end will remain the same"
+          ],
+          "correctAnswer": "Though thy beginning was small, yet thy latter end should greatly increase",
+          "explanation": "Job 8:7 states this directly about the comparison of beginning and latter end.",
+          "verseReference": "Job 8:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-8-easy-q6",
+          "question": "Fill in the blank from Job 8:9: 'For we are but of _______, and know nothing, because our days upon earth are a shadow:'",
+          "type": "fill-blank",
+          "options": [
+            "yesterday",
+            "today",
+            "tomorrow",
+            "the morning"
+          ],
+          "correctAnswer": "yesterday",
+          "explanation": "Job 8:9 says, 'For we are but of yesterday, and know nothing...'",
+          "verseReference": "Job 8:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-8-easy-q7",
+          "question": "According to Job 8:11, can the rush grow up without what?",
+          "type": "multiple-choice",
+          "options": [
+            "mire",
+            "sunlight",
+            "wind",
+            "soil"
+          ],
+          "correctAnswer": "mire",
+          "explanation": "Job 8:11 says, 'Can the rush grow up without mire? can the flag grow without water?'",
+          "verseReference": "Job 8:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-8-easy-q8",
+          "question": "True or False: Job 8:13 says the paths of all who forget God will prosper.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Job 8:13 states that the paths of all that forget God will perish, not prosper.",
+          "verseReference": "Job 8:13",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-8-easy-q9",
+          "question": "What is the hope of the hypocrite compared to in Job 8:14?",
+          "type": "multiple-choice",
+          "options": [
+            "a spider's web",
+            "a strong rock",
+            "a burning flame",
+            "a mighty tree"
+          ],
+          "correctAnswer": "a spider's web",
+          "explanation": "Job 8:14 says the hypocrite's hope shall be a spider's web.",
+          "verseReference": "Job 8:14",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-8-easy-q10",
+          "question": "According to Job 8:15, what will happen to the house that a hypocrite leans upon?",
+          "type": "multiple-choice",
+          "options": [
+            "It shall not stand",
+            "It shall be strong",
+            "It shall be blessed",
+            "It shall grow"
+          ],
+          "correctAnswer": "It shall not stand",
+          "explanation": "Job 8:15 says he shall lean upon his house, but it shall not stand.",
+          "verseReference": "Job 8:15",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-8-easy-q11",
+          "question": "In Job 8:16, how is the man described before the sun?",
+          "type": "multiple-choice",
+          "options": [
+            "Green",
+            "Dry",
+            "Weak",
+            "Dark"
+          ],
+          "correctAnswer": "Green",
+          "explanation": "Job 8:16 states, 'He is green before the sun, and his branch shooteth forth in his garden.'",
+          "verseReference": "Job 8:16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-8-easy-q12",
+          "question": "True or False: Job 8:20 says God will cast away a perfect man.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Job 8:20 says God will not cast away a perfect man.",
+          "verseReference": "Job 8:20",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-8-easy-q13",
+          "question": "What will God fill Job's mouth with according to Job 8:21?",
+          "type": "multiple-choice",
+          "options": [
+            "Laughing",
+            "Tears",
+            "Silence",
+            "Troubles"
+          ],
+          "correctAnswer": "Laughing",
+          "explanation": "Job 8:21 states God will fill Job's mouth with laughing and lips with rejoicing.",
+          "verseReference": "Job 8:21",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-8-easy-q14",
+          "question": "According to Job 8:22, what will happen to those who hate Job?",
+          "type": "multiple-choice",
+          "options": [
+            "They shall be clothed with shame",
+            "They shall prosper",
+            "They shall be honored",
+            "They shall be forgiven"
+          ],
+          "correctAnswer": "They shall be clothed with shame",
+          "explanation": "Job 8:22 says those who hate Job shall be clothed with shame.",
+          "verseReference": "Job 8:22",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-8-easy-q15",
+          "question": "According to Job 8:10, what will the former ages do?",
+          "type": "multiple-choice",
+          "options": [
+            "Teach and tell thee, utter words out of their heart",
+            "Remain silent",
+            "Forget God",
+            "Judge the present"
+          ],
+          "correctAnswer": "Teach and tell thee, utter words out of their heart",
+          "explanation": "Job 8:10 says the former ages shall teach and tell, uttering words from their heart.",
+          "verseReference": "Job 8:10",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "job-8-quiz",
+      "tags": [
+        "job",
+        "chapter-8",
+        "job",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "job-8-medium",
+      "title": "Job Chapter 8 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Job Chapter 8 to real-life situations.",
+      "type": "chapter",
+      "book": "Job",
+      "chapter": 8,
+      "questions": [
+        {
+          "id": "job-8-medium-q1",
+          "question": "A fellow believer is going through a trial and asks you for counsel. Based on Job 8, what biblical truth would you share about seeking God?",
+          "type": "multiple-choice",
+          "options": [
+            "If you seek God early and make supplication to the Almighty, He will bless you",
+            "God rarely listens to prayers during hardships",
+            "Only perfect people can approach God with confidence",
+            "God perverts justice for the righteous"
+          ],
+          "correctAnswer": "If you seek God early and make supplication to the Almighty, He will bless you",
+          "explanation": "Job 8:5 encourages seeking God early and making supplication, while verses 6 and 21 promise blessings and rejoicing for the upright. Verses 3 and 20 affirm God's justice and care for the righteous.",
+          "verseReference": "Job 8:5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-8-medium-q2",
+          "question": "How does Job 8 teach about the consequences of forgetting God in daily life?",
+          "type": "multiple-choice",
+          "options": [
+            "Those who forget God will have hopes that perish like a spider's web",
+            "Forgetting God leads to immediate prosperity and joy",
+            "God will still protect those who forget Him",
+            "Forgetting God has no real consequences"
+          ],
+          "correctAnswer": "Those who forget God will have hopes that perish like a spider's web",
+          "explanation": "Verses 13 and 14 describe the paths of those who forget God as leading to perishing hopes and fragile trust like a spider's web. Verse 15 further illustrates instability for those who rely on such hopes.",
+          "verseReference": "Job 8:13",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-8-medium-q3",
+          "question": "According to Job 8, what is a sign of a person who is 'green before the sun' and has flourishing roots?",
+          "type": "multiple-choice",
+          "options": [
+            "A person who is prospering in righteousness and stability",
+            "Someone who is destined to fail and be forgotten",
+            "A hypocrite whose hopes will be cut off",
+            "One who places trust in wealth and not God"
+          ],
+          "correctAnswer": "A person who is prospering in righteousness and stability",
+          "explanation": "Verses 16 and 17 describe a person as green before the sun with roots wrapped about the heap, symbolizing prosperity and stability. This contrasts with the hypocrite's unstable hope mentioned earlier.",
+          "verseReference": "Job 8:16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-8-medium-q4",
+          "question": "What does Bildad suggest about God's justice in Job 8 when responding to Job's complaints?",
+          "type": "multiple-choice",
+          "options": [
+            "God does not pervert judgment or justice",
+            "God is unjust and punishes without reason",
+            "God is indifferent to human actions",
+            "God favors the wicked over the righteous"
+          ],
+          "correctAnswer": "God does not pervert judgment or justice",
+          "explanation": "Verse 3 explicitly asks if God perverts judgment or the Almighty perverts justice, implying that He does not and His judgments are righteous and fair.",
+          "verseReference": "Job 8:3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-8-medium-q5",
+          "question": "How does Job 8 counsel believers to learn from previous generations?",
+          "type": "multiple-choice",
+          "options": [
+            "By enquiring of the former age and preparing to search their fathers’ experiences",
+            "By ignoring the past and focusing only on the present",
+            "By trusting only their own understanding",
+            "By valuing only the new teachings over the old"
+          ],
+          "correctAnswer": "By enquiring of the former age and preparing to search their fathers’ experiences",
+          "explanation": "Verses 8 and 9 encourage learning from the past generations, highlighting that we are new and have limited knowledge, so we should seek wisdom from those before us.",
+          "verseReference": "Job 8:8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-8-medium-q6",
+          "question": "Based on Job 8, what happens to the hypocrite’s hope?",
+          "type": "multiple-choice",
+          "options": [
+            "It perishes and is like a spider’s web that cannot endure",
+            "It grows strong like a mighty tree",
+            "It is guaranteed to be fulfilled",
+            "It brings lasting joy and prosperity"
+          ],
+          "correctAnswer": "It perishes and is like a spider’s web that cannot endure",
+          "explanation": "Verses 13 and 14 describe the hypocrite’s hope as perishing and being like a spider's web, fragile and unable to stand or endure.",
+          "verseReference": "Job 8:13",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-8-medium-q7",
+          "question": "True or False: Job 8 teaches that God will cast away a perfect man and help evildoers.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Verse 20 clearly states that God will not cast away a perfect man, nor will He help evildoers, emphasizing divine justice and protection for the righteous.",
+          "verseReference": "Job 8:20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-8-medium-q8",
+          "question": "What does Bildad say about the beginning and the end of a person's life in Job 8?",
+          "type": "multiple-choice",
+          "options": [
+            "Though the beginning was small, the latter end should greatly increase",
+            "The beginning is always the most important part",
+            "The end of a righteous person is always sorrowful",
+            "A person's life never changes in its course"
+          ],
+          "correctAnswer": "Though the beginning was small, the latter end should greatly increase",
+          "explanation": "Verse 7 states that although a person's beginning might be small, their latter end should greatly increase, pointing to hope and growth in righteousness.",
+          "verseReference": "Job 8:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-8-medium-q9",
+          "question": "How does Job 8 illustrate the fragility of those who rely on their own strength rather than God?",
+          "type": "multiple-choice",
+          "options": [
+            "He shall lean upon his house, but it shall not stand",
+            "Their foundations are like a rock, unmovable",
+            "They will rise to great heights",
+            "They are like a tree firmly planted by water"
+          ],
+          "correctAnswer": "He shall lean upon his house, but it shall not stand",
+          "explanation": "Verse 15 explains that a person who trusts in their own strength will find that their support does not endure, illustrating instability and failure.",
+          "verseReference": "Job 8:15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-8-medium-q10",
+          "question": "True or False: According to Job 8, the righteous will eventually have their mouths filled with laughter and their lips with rejoicing.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Verse 21 promises that God will fill the righteous person’s mouth with laughter and their lips with rejoicing, signifying joy after trials.",
+          "verseReference": "Job 8:21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-8-medium-q11",
+          "question": "A believer feels their efforts are small and insignificant. What encouragement does Job 8 offer regarding beginnings and endings?",
+          "type": "multiple-choice",
+          "options": [
+            "Though your beginning was small, your latter end shall greatly increase",
+            "Small beginnings always lead to failure",
+            "Only great beginnings matter to God",
+            "Your efforts are meaningless regardless of the outcome"
+          ],
+          "correctAnswer": "Though your beginning was small, your latter end shall greatly increase",
+          "explanation": "Verse 7 reminds believers that initial smallness does not dictate the final outcome, offering hope for growth and blessing.",
+          "verseReference": "Job 8:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-8-medium-q12",
+          "question": "Fill in the blank: 'Can the rush grow up without ___? can the flag grow without water?'",
+          "type": "fill-blank",
+          "options": [
+            "mire",
+            "sun",
+            "wind",
+            "fire"
+          ],
+          "correctAnswer": "mire",
+          "explanation": "Verse 11 uses this imagery to teach dependence on God and proper conditions for growth, emphasizing the necessity of foundational support.",
+          "verseReference": "Job 8:11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-8-medium-q13",
+          "question": "What lesson about integrity and trust can be learned from the metaphor of the spider’s web in Job 8?",
+          "type": "multiple-choice",
+          "options": [
+            "Trust based on hypocrisy is fragile and will not endure",
+            "A spider’s web is strong and lasting",
+            "All trust is equally reliable",
+            "Trusting others is foolish"
+          ],
+          "correctAnswer": "Trust based on hypocrisy is fragile and will not endure",
+          "explanation": "Verse 14 compares the hypocrite’s trust to a spider’s web, highlighting its fragility and ultimate failure.",
+          "verseReference": "Job 8:14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-8-medium-q14",
+          "question": "Based on Job 8, how should believers view the words and wisdom of those who came before them?",
+          "type": "multiple-choice",
+          "options": [
+            "They should learn and gain insight from the former generations",
+            "They should disregard old teachings as outdated",
+            "They should rely only on personal experience",
+            "They should replace all old wisdom with new ideas"
+          ],
+          "correctAnswer": "They should learn and gain insight from the former generations",
+          "explanation": "Verses 8-10 encourage enquiring and learning from previous generations because human knowledge is limited and past wisdom can teach valuable lessons.",
+          "verseReference": "Job 8:8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-8-medium-q15",
+          "question": "What does Bildad affirm about God’s treatment of the perfect man and evildoers in Job 8?",
+          "type": "multiple-choice",
+          "options": [
+            "God will not cast away the perfect man nor help evildoers",
+            "God favors evildoers over the perfect man",
+            "God ignores human righteousness",
+            "God treats all people the same regardless of actions"
+          ],
+          "correctAnswer": "God will not cast away the perfect man nor help evildoers",
+          "explanation": "Verse 20 clearly states God's justice by supporting the perfect man and not helping those who do evil.",
+          "verseReference": "Job 8:20",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "job-8-quiz",
+      "tags": [
+        "job",
+        "chapter-8",
+        "job",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "job-8-hard",
+      "title": "Job Chapter 8 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Job Chapter 8.",
+      "type": "chapter",
+      "book": "Job",
+      "chapter": 8,
+      "questions": [
+        {
+          "id": "job-8-hard-q1",
+          "question": "What metaphor does Bildad use in Job 8 to describe the futility of those who forget God?",
+          "type": "multiple-choice",
+          "options": [
+            "A spider's web",
+            "A flowing river",
+            "A burning fire",
+            "A mighty mountain"
+          ],
+          "correctAnswer": "A spider's web",
+          "explanation": "Job 8:14 uses the metaphor of a spider's web to illustrate the fragile and unreliable hope of the hypocrite who forgets God.",
+          "verseReference": "Job 8:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-hard-q2",
+          "question": "According to Bildad in Job 8, what happens to a man who is 'perfect' before God?",
+          "type": "multiple-choice",
+          "options": [
+            "God will not cast him away",
+            "He will never face trials",
+            "He will become wealthy",
+            "He will be free from death"
+          ],
+          "correctAnswer": "God will not cast him away",
+          "explanation": "Job 8:20 states that God will not cast away a perfect man, implying divine protection for the righteous.",
+          "verseReference": "Job 8:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-hard-q3",
+          "question": "In Job 8, Bildad challenges Job by asking if God perverts justice. What is the implied answer to this rhetorical question?",
+          "type": "multiple-choice",
+          "options": [
+            "No, God does not pervert justice",
+            "Yes, God sometimes perverts justice",
+            "It depends on the person",
+            "God is indifferent to justice"
+          ],
+          "correctAnswer": "No, God does not pervert justice",
+          "explanation": "Job 8:3 questions if God perverts judgment, implying that God’s justice is perfect and does not pervert justice.",
+          "verseReference": "Job 8:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-hard-q4",
+          "question": "What does Bildad suggest is the cause of Job's troubles in Job 8?",
+          "type": "multiple-choice",
+          "options": [
+            "Sin of his children",
+            "Natural disaster",
+            "Political oppression",
+            "Job's own righteousness"
+          ],
+          "correctAnswer": "Sin of his children",
+          "explanation": "Job 8:4 suggests that if Job’s children have sinned, God may have cast them away for their transgression.",
+          "verseReference": "Job 8:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-hard-q5",
+          "question": "Identify the imagery used to describe the fleeting life of the wicked in Job 8.",
+          "type": "multiple-choice",
+          "options": [
+            "Rush and flag that wither before any other herb",
+            "Stone carved by water",
+            "Tree that grows tall and strong",
+            "Mountain standing firm"
+          ],
+          "correctAnswer": "Rush and flag that wither before any other herb",
+          "explanation": "Job 8:11-12 uses the imagery of rushes and flags that wither quickly to symbolize the transient nature of the wicked.",
+          "verseReference": "Job 8:11-12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-hard-q6",
+          "question": "How does Bildad in Job 8 advise Job to respond to his suffering?",
+          "type": "multiple-choice",
+          "options": [
+            "Seek God early and make supplication to the Almighty",
+            "Isolate himself from others",
+            "Accuse God of injustice",
+            "Ignore his suffering"
+          ],
+          "correctAnswer": "Seek God early and make supplication to the Almighty",
+          "explanation": "Job 8:5 encourages Job to seek God early (betimes) and make supplication to the Almighty as a remedy to his troubles.",
+          "verseReference": "Job 8:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-hard-q7",
+          "question": "In Job 8, Bildad references 'former age' and 'fathers' to support his argument. What literary device is this an example of?",
+          "type": "multiple-choice",
+          "options": [
+            "Appeal to tradition",
+            "Metaphor",
+            "Chiasm",
+            "Parable"
+          ],
+          "correctAnswer": "Appeal to tradition",
+          "explanation": "Job 8:8-10 appeals to the wisdom of previous generations as a source of teaching and authority, illustrating an appeal to tradition.",
+          "verseReference": "Job 8:8-10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-hard-q8",
+          "question": "True or False: Bildad asserts that God helps evildoers in Job chapter 8.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Job 8:20 states that God will not help evildoers, emphasizing divine justice against wickedness.",
+          "verseReference": "Job 8:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-hard-q9",
+          "question": "Which phrase in Job 8 symbolizes the instability and impermanence of a hypocrite’s hope?",
+          "type": "multiple-choice",
+          "options": [
+            "Leaning upon his house which shall not stand",
+            "A strong mountain",
+            "An unshakable rock",
+            "A flourishing tree"
+          ],
+          "correctAnswer": "Leaning upon his house which shall not stand",
+          "explanation": "Job 8:15 describes the hypocrite’s hope as leaning on a house that will not endure, symbolizing instability.",
+          "verseReference": "Job 8:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-hard-q10",
+          "question": "What does Bildad mean by 'If thou wert pure and upright; surely now he would awake for thee' in Job 8:6?",
+          "type": "multiple-choice",
+          "options": [
+            "God responds favorably to the righteous",
+            "God ignores the upright",
+            "Only the wicked receive help",
+            "Righteousness leads to immediate wealth"
+          ],
+          "correctAnswer": "God responds favorably to the righteous",
+          "explanation": "Job 8:6 implies that if Job were truly pure and upright, God would act on his behalf and prosper his righteousness.",
+          "verseReference": "Job 8:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-hard-q11",
+          "question": "In Job 8, Bildad compares human life to what natural phenomenon emphasizing its brevity?",
+          "type": "multiple-choice",
+          "options": [
+            "A shadow",
+            "A river",
+            "A flame",
+            "A mountain"
+          ],
+          "correctAnswer": "A shadow",
+          "explanation": "Job 8:9 describes human life on earth as a shadow, highlighting its fleeting and insubstantial nature.",
+          "verseReference": "Job 8:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-hard-q12",
+          "question": "What is the significance of the agricultural imagery in Job 8:16-17 regarding the person who forgets God?",
+          "type": "multiple-choice",
+          "options": [
+            "Roots wrapped about stones symbolize instability and eventual destruction",
+            "It represents prosperity and strength",
+            "It shows eternal life",
+            "It refers to a harvest festival"
+          ],
+          "correctAnswer": "Roots wrapped about stones symbolize instability and eventual destruction",
+          "explanation": "Job 8:16-17 uses the image of roots wrapped around stones to illustrate the precarious and doomed state of the wicked.",
+          "verseReference": "Job 8:16-17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-hard-q13",
+          "question": "How does Bildad describe the eventual outcome for those who hate Job, according to Job 8?",
+          "type": "multiple-choice",
+          "options": [
+            "They shall be clothed with shame",
+            "They shall prosper",
+            "They shall be forgotten",
+            "They shall be exalted"
+          ],
+          "correctAnswer": "They shall be clothed with shame",
+          "explanation": "Job 8:22 declares that those who hate Job will be clothed with shame, indicating their disgrace.",
+          "verseReference": "Job 8:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-hard-q14",
+          "question": "Fill in the blank: 'Till he fill thy mouth with ________, and thy lips with rejoicing.' (Job 8:21)",
+          "type": "multiple-choice",
+          "options": [
+            "laughing",
+            "tears",
+            "silence",
+            "wisdom"
+          ],
+          "correctAnswer": "laughing",
+          "explanation": "Job 8:21 states that God will fill Job's mouth with laughing, symbolizing restoration and joy.",
+          "verseReference": "Job 8:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-hard-q15",
+          "question": "Bildad’s speech in Job 8 reflects which common ancient Near Eastern belief about suffering?",
+          "type": "multiple-choice",
+          "options": [
+            "Suffering is a result of sin or moral failure",
+            "Suffering is random and without cause",
+            "God punishes the innocent",
+            "Prosperity is unrelated to righteousness"
+          ],
+          "correctAnswer": "Suffering is a result of sin or moral failure",
+          "explanation": "Throughout Job 8, Bildad argues that suffering indicates sin, consistent with ancient Near Eastern retributive justice theology.",
+          "verseReference": "Job 8:4-6",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "job-8-quiz",
+      "tags": [
+        "job",
+        "chapter-8",
+        "job",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "job-8-theological",
+      "title": "Job Chapter 8 Quiz - Theological Level",
+      "description": "Deep biblical theology from Job Chapter 8 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Job",
+      "chapter": 8,
+      "questions": [
+        {
+          "id": "job-8-theological-q1",
+          "question": "According to Bildad in Job 8, what is the reason God would cast away the children of a man?",
+          "type": "multiple-choice",
+          "options": [
+            "If thy children have sinned against Him",
+            "If thy children are poor",
+            "If thy children are uneducated",
+            "If thy children are weak"
+          ],
+          "correctAnswer": "If thy children have sinned against Him",
+          "explanation": "Bildad explains in Job 8:4 that God casts away children because of their sin. This aligns with the biblical principle that sin brings judgment (Psalm 51:5; Romans 6:23; Ezekiel 18:20; Hebrews 12:6).",
+          "verseReference": "Job 8:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-theological-q2",
+          "question": "What does Bildad suggest is the consequence of being pure and upright before God?",
+          "type": "multiple-choice",
+          "options": [
+            "God would awake for thee and make the habitation of thy righteousness prosperous",
+            "God would grant wealth and power",
+            "God would remove all suffering immediately",
+            "God would make all enemies flee"
+          ],
+          "correctAnswer": "God would awake for thee and make the habitation of thy righteousness prosperous",
+          "explanation": "Job 8:6 states that if one were pure and upright, God would respond by prospering their righteousness. This reflects the biblical promise that God honors the righteous (Psalm 1:3; Proverbs 10:6; Matthew 5:6; James 1:12).",
+          "verseReference": "Job 8:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-theological-q3",
+          "question": "In Job 8, what metaphor does Bildad use to describe the hope of a hypocrite?",
+          "type": "multiple-choice",
+          "options": [
+            "A spider's web",
+            "A solid rock",
+            "A flowing river",
+            "A growing tree"
+          ],
+          "correctAnswer": "A spider's web",
+          "explanation": "Verse 14 describes the hypocrite's hope as a spider's web, illustrating its fragility and emptiness. This aligns with Proverbs 30:5-6 and Isaiah 59:4, which warn against relying on empty hopes.",
+          "verseReference": "Job 8:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-theological-q4",
+          "question": "What does Bildad say about the beginning and end of a man's life who seeks God?",
+          "type": "multiple-choice",
+          "options": [
+            "Though thy beginning was small, yet thy latter end should greatly increase",
+            "The beginning is glorious, but the end is in darkness",
+            "The beginning and end are equally difficult",
+            "The end will be sorrowful despite a good beginning"
+          ],
+          "correctAnswer": "Though thy beginning was small, yet thy latter end should greatly increase",
+          "explanation": "Job 8:7 teaches that a humble beginning can lead to a prosperous end for those who seek God. This is consistent with biblical themes of restoration and blessing (Psalm 37:23-24; Joel 2:25; Isaiah 61:7; 2 Corinthians 9:8).",
+          "verseReference": "Job 8:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-theological-q5",
+          "question": "What reason does Bildad give for why humans should inquire of the former age and their fathers?",
+          "type": "multiple-choice",
+          "options": [
+            "Because we are but of yesterday and know nothing",
+            "Because the former age was stronger",
+            "Because the former age had more wealth",
+            "Because the former age was favored by kings"
+          ],
+          "correctAnswer": "Because we are but of yesterday and know nothing",
+          "explanation": "Job 8:9 highlights human frailty and limited knowledge, urging learning from past generations. This reflects the biblical principle of wisdom through the testimony of elders (Proverbs 1:5; Ecclesiastes 1:10; Deuteronomy 32:7; Psalm 78:4).",
+          "verseReference": "Job 8:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-theological-q6",
+          "question": "What does Bildad imply about God’s justice in Job 8?",
+          "type": "multiple-choice",
+          "options": [
+            "God does not pervert judgment or justice",
+            "God often ignores injustice",
+            "God favors the rich regardless of their deeds",
+            "God is unpredictable in judgment"
+          ],
+          "correctAnswer": "God does not pervert judgment or justice",
+          "explanation": "According to Job 8:3, God’s justice is pure and unperverted. This aligns with scriptures emphasizing God's righteousness and faithfulness in judgment (Deuteronomy 32:4; Psalm 89:14; Isaiah 45:21; Romans 2:11).",
+          "verseReference": "Job 8:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-theological-q7",
+          "question": "Bildad uses the imagery of plants in Job 8. What does he say happens to the rush and flag without proper nourishment?",
+          "type": "multiple-choice",
+          "options": [
+            "They wither before any other herb",
+            "They grow stronger and taller",
+            "They bear fruit abundantly",
+            "They survive without water"
+          ],
+          "correctAnswer": "They wither before any other herb",
+          "explanation": "Verses 11-12 describe how rushes and flags must have mire and water or they wither, symbolizing how those who forget God perish. This metaphor is consistent with Psalms 1:3 and Jeremiah 17:7-8.",
+          "verseReference": "Job 8:11-12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-theological-q8",
+          "question": "What does Bildad assert about God’s treatment of a 'perfect man' and the 'evil doers'?",
+          "type": "multiple-choice",
+          "options": [
+            "God will not cast away a perfect man, nor help evildoers",
+            "God treats all men equally regardless of behavior",
+            "God favors evildoers over the perfect man",
+            "God ignores the perfect man but punishes evildoers"
+          ],
+          "correctAnswer": "God will not cast away a perfect man, nor help evildoers",
+          "explanation": "Job 8:20 states that God preserves the righteous and does not help evildoers, reflecting divine justice (Psalm 37:28; Proverbs 11:31; Isaiah 3:10; 1 Peter 3:12).",
+          "verseReference": "Job 8:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-theological-q9",
+          "question": "According to Bildad, what will fill Job's mouth and lips if he seeks God and is righteous?",
+          "type": "multiple-choice",
+          "options": [
+            "Laughter and rejoicing",
+            "Weeping and sorrow",
+            "Silence and contemplation",
+            "Wisdom and knowledge"
+          ],
+          "correctAnswer": "Laughter and rejoicing",
+          "explanation": "Job 8:21 promises that God will fill the righteous with laughter and rejoicing, a theme echoed in Psalms 126:2, Proverbs 10:28, Ecclesiastes 3:4, and Luke 6:21.",
+          "verseReference": "Job 8:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-theological-q10",
+          "question": "What does Bildad say about the dwelling place of the wicked?",
+          "type": "multiple-choice",
+          "options": [
+            "It shall come to nought",
+            "It shall be secure forever",
+            "It shall be filled with treasure",
+            "It shall be blessed by God"
+          ],
+          "correctAnswer": "It shall come to nought",
+          "explanation": "Job 8:22 declares the dwelling place of the wicked will be destroyed, aligning with Proverbs 15:29, Psalm 9:17, Malachi 4:1, and 2 Thessalonians 1:9 on the ultimate fate of the wicked.",
+          "verseReference": "Job 8:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-theological-q11",
+          "question": "Bildad uses the imagery of a man leaning on his house in Job 8. What happens to that house?",
+          "type": "multiple-choice",
+          "options": [
+            "It shall not stand and shall not endure",
+            "It shall be strengthened and endure",
+            "It shall become a palace",
+            "It shall be blessed with peace"
+          ],
+          "correctAnswer": "It shall not stand and shall not endure",
+          "explanation": "Verse 15 shows the instability of those who forget God, likened to a house that will not stand, consistent with Matthew 7:26-27 and Psalm 11:3 emphasizing the consequences of a lack of foundation in God.",
+          "verseReference": "Job 8:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-theological-q12",
+          "question": "In Job 8, what is the significance of the roots being wrapped about the heap and seeing the place of stones?",
+          "type": "multiple-choice",
+          "options": [
+            "It symbolizes a plant's firm but precarious hold, which can be destroyed",
+            "It indicates a plant thriving in fertile soil",
+            "It means the plant is immune to destruction",
+            "It represents a plant that will grow into a tree"
+          ],
+          "correctAnswer": "It symbolizes a plant's firm but precarious hold, which can be destroyed",
+          "explanation": "Verses 16-18 describe a plant with roots around stones, showing seeming strength yet vulnerability, analogous to the fragile hope of the wicked, paralleling Isaiah 40:24 and Jeremiah 12:2 on the frailty of human strength.",
+          "verseReference": "Job 8:16-18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-theological-q13",
+          "question": "What does Bildad challenge Job regarding his words in Job 8?",
+          "type": "multiple-choice",
+          "options": [
+            "How long wilt thou speak these things, and how long shall the words of thy mouth be like a strong wind?",
+            "Why do you remain silent and not answer?",
+            "Why do you praise your enemies?",
+            "Why do you boast about your wealth?"
+          ],
+          "correctAnswer": "How long wilt thou speak these things, and how long shall the words of thy mouth be like a strong wind?",
+          "explanation": "Job 8:2 shows Bildad challenging Job's continual complaints as empty and noisy, similar to the rebuke in Psalm 10:3 and Ecclesiastes 7:6 against empty words.",
+          "verseReference": "Job 8:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-theological-q14",
+          "question": "What does Bildad say about the teaching of the former generations and their words?",
+          "type": "multiple-choice",
+          "options": [
+            "They can teach thee and utter words out of their heart",
+            "They are irrelevant to current times",
+            "They were filled with mistakes and errors",
+            "They were silent in times of trouble"
+          ],
+          "correctAnswer": "They can teach thee and utter words out of their heart",
+          "explanation": "Job 8:10 emphasizes learning from the wisdom of ancestors, which is a biblical theme found in Deuteronomy 32:7, Psalm 78:1-4, Proverbs 4:1, and Romans 15:4.",
+          "verseReference": "Job 8:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-8-theological-q15",
+          "question": "In Job 8, Bildad claims that the hypocrite’s hope will perish. What does this imply about hypocrisy in relation to God?",
+          "type": "multiple-choice",
+          "options": [
+            "Hypocrisy leads to destruction and loss of hope",
+            "Hypocrisy is accepted by God if accompanied by sacrifice",
+            "Hypocrisy leads to immediate blessing",
+            "Hypocrisy guarantees social honor"
+          ],
+          "correctAnswer": "Hypocrisy leads to destruction and loss of hope",
+          "explanation": "Verse 13 states the paths of those who forget God and are hypocrites end in perishing, consistent with Proverbs 21:27, Matthew 23:27-28, 1 Corinthians 5:11, and Hebrews 10:26-27 on the danger of hypocrisy.",
+          "verseReference": "Job 8:13",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "job-8-quiz",
+      "tags": [
+        "job",
+        "chapter-8",
+        "job",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

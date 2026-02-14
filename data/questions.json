@@ -1,0 +1,89 @@
+{
+    "questions": [
+        {
+            "id": "q1",
+            "slug": "what-is-the-trinity",
+            "category": "Theology",
+            "question": "What is the biblical basis for the Trinity?",
+            "answer": "The doctrine of the Trinity is the Christian belief that there is one God who exists eternally in three distinct persons: the Father, the Son (Jesus Christ), and the Holy Spirit. While the word 'Trinity' is not explicitly in the Bible, the concept is woven throughout Scripture. Key passages include the baptism of Jesus (Matthew 3:16-17), the Great Commission (Matthew 28:19), and the apostolic benediction (2 Corinthians 13:14). Each person of the Trinity is described as divine, yet there is only one God (Deuteronomy 6:4).",
+            "relatedVerses": [
+                "matthew-3-16",
+                "matthew-28-19",
+                "2-corinthians-13-14",
+                "deuteronomy-6-4"
+            ],
+            "tags": [
+                "God",
+                "Trinity",
+                "Doctrine",
+                "Holy Spirit",
+                "Jesus"
+            ]
+        },
+        {
+            "id": "q2",
+            "slug": "how-to-pray-effectively",
+            "category": "Christian Life",
+            "question": "How can I develop a more effective prayer life?",
+            "answer": "Effective prayer is less about the right words and more about the posture of the heart. Jesus provided a model for prayer in the Lord's Prayer (Matthew 6:9-13), emphasizing worship, submission to God's will, and dependence on His provision. Consistency is key; setting aside a specific time and place can help (Mark 1:35). Authentic prayer involves honesty with God, persistence (Luke 18:1), and praying in accordance with His Word and Spirit.",
+            "relatedVerses": [
+                "matthew-6-9",
+                "mark-1-35",
+                "luke-18-1",
+                "1-thessalonians-5-17"
+            ],
+            "tags": [
+                "Prayer",
+                "Spiritual Growth",
+                "Jesus",
+                "Faith"
+            ]
+        },
+        {
+            "id": "q3",
+            "slug": "who-was-melchizedek",
+            "category": "Bible Characters",
+            "question": "Who was Melchizedek and why is he significant?",
+            "answer": "Melchizedek was the King of Salem and a priest of God Most High who appears in Genesis 14:18-20, blessing Abraham. He is significant because he serves as a 'type' or foreshadowing of Jesus Christ. The author of Hebrews (Hebrews 7) explains that Jesus is a priest 'after the order of Melchizedek,' which is superior to the Levitical priesthood because it is eternal and not based on genealogy. Melchizedek's name means 'King of Righteousness,' and his title 'King of Salem' means 'King of Peace.'",
+            "relatedVerses": [
+                "genesis-14-18",
+                "psalm-110-4",
+                "hebrews-7-1",
+                "hebrews-7-17"
+            ],
+            "tags": [
+                "Abraham",
+                "Jesus",
+                "Priesthood",
+                "Old Testament",
+                "Hebrews"
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "name": "Theology",
+            "slug": "theology",
+            "description": "Deep dives into the core doctrines of the Christian faith.",
+            "icon": "ChurchIcon"
+        },
+        {
+            "name": "Christian Life",
+            "slug": "christian-life",
+            "description": "Practical guidance for living out your faith in the modern world.",
+            "icon": "SunIcon"
+        },
+        {
+            "name": "Bible Characters",
+            "slug": "bible-characters",
+            "description": "Learning from the lives of the men and women of the Bible.",
+            "icon": "UsersIcon"
+        },
+        {
+            "name": "Apologetics",
+            "slug": "apologetics",
+            "description": "Reasoned defenses for the truth of the Gospel.",
+            "icon": "ShieldCheckIcon"
+        }
+    ]
+}

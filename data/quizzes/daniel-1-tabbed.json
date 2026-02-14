@@ -1,0 +1,985 @@
+{
+  "id": "daniel-1-tabbed",
+  "title": "Daniel Chapter 1 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Daniel chapter 1 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "daniel-1-easy",
+      "title": "Daniel Chapter 1 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Daniel Chapter 1.",
+      "type": "chapter",
+      "book": "Daniel",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "daniel-1-easy-q1",
+          "question": "Who besieged Jerusalem in the third year of Jehoiakim's reign?",
+          "type": "multiple-choice",
+          "options": [
+            "Nebuchadnezzar king of Babylon",
+            "Cyrus king of Persia",
+            "Ashpenaz the eunuch",
+            "Jehoiakim king of Judah"
+          ],
+          "correctAnswer": "Nebuchadnezzar king of Babylon",
+          "explanation": "Daniel 1:1 states that Nebuchadnezzar king of Babylon came to Jerusalem and besieged it.",
+          "verseReference": "Daniel 1:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-1-easy-q2",
+          "question": "What did the Lord give into Nebuchadnezzar's hand according to Daniel 1:2?",
+          "type": "multiple-choice",
+          "options": [
+            "Jehoiakim king of Judah and part of the vessels of the house of God",
+            "The land of Shinar",
+            "The children of Israel",
+            "The treasures of Egypt"
+          ],
+          "correctAnswer": "Jehoiakim king of Judah and part of the vessels of the house of God",
+          "explanation": "Daniel 1:2 explains that the Lord gave Jehoiakim king of Judah into Nebuchadnezzar's hand along with some vessels from the house of God.",
+          "verseReference": "Daniel 1:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-1-easy-q3",
+          "question": "Who was the master of the king's eunuchs that was commanded to bring children of Israel?",
+          "type": "multiple-choice",
+          "options": [
+            "Ashpenaz",
+            "Melzar",
+            "Nebuchadnezzar",
+            "Daniel"
+          ],
+          "correctAnswer": "Ashpenaz",
+          "explanation": "Daniel 1:3 states the king spoke to Ashpenaz, the master of his eunuchs, to bring certain children of Israel.",
+          "verseReference": "Daniel 1:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-1-easy-q4",
+          "question": "What qualities were the children selected by the king supposed to have?",
+          "type": "multiple-choice",
+          "options": [
+            "No blemish, well favored, wise, knowledgeable, and able to learn the Chaldean language",
+            "Strong and tall",
+            "Only from the tribe of Levi",
+            "Able to fight in battle"
+          ],
+          "correctAnswer": "No blemish, well favored, wise, knowledgeable, and able to learn the Chaldean language",
+          "explanation": "Daniel 1:4 describes the children as having no blemish, well favored, skillful in wisdom and knowledge, and able to learn the Chaldean language.",
+          "verseReference": "Daniel 1:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-1-easy-q5",
+          "question": "For how many years did the king nourish the selected children with his meat and wine?",
+          "type": "multiple-choice",
+          "options": [
+            "Three years",
+            "One year",
+            "Seven years",
+            "Ten years"
+          ],
+          "correctAnswer": "Three years",
+          "explanation": "Daniel 1:5 states the king provided meat and wine to nourish them for three years.",
+          "verseReference": "Daniel 1:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-1-easy-q6",
+          "question": "Which four children of Judah were among those selected?",
+          "type": "multiple-choice",
+          "options": [
+            "Daniel, Hananiah, Mishael, and Azariah",
+            "Shadrach, Meshach, Abednego, and Daniel",
+            "Nebuchadnezzar, Ashpenaz, Melzar, and Daniel",
+            "Jehoiakim, Cyrus, Daniel, and Hananiah"
+          ],
+          "correctAnswer": "Daniel, Hananiah, Mishael, and Azariah",
+          "explanation": "Daniel 1:6 names Daniel, Hananiah, Mishael, and Azariah as among the children of Judah selected.",
+          "verseReference": "Daniel 1:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-1-easy-q7",
+          "question": "What new name was given to Daniel by the prince of the eunuchs?",
+          "type": "multiple-choice",
+          "options": [
+            "Belteshazzar",
+            "Shadrach",
+            "Meshach",
+            "Abednego"
+          ],
+          "correctAnswer": "Belteshazzar",
+          "explanation": "Daniel 1:7 states that Daniel was given the name Belteshazzar.",
+          "verseReference": "Daniel 1:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-1-easy-q8",
+          "question": "What did Daniel purpose in his heart regarding the king's meat and wine?",
+          "type": "multiple-choice",
+          "options": [
+            "Not to defile himself with it",
+            "To eat it without question",
+            "To only drink the wine",
+            "To request more meat and wine"
+          ],
+          "correctAnswer": "Not to defile himself with it",
+          "explanation": "Daniel 1:8 says Daniel resolved not to defile himself by the king's meat and wine.",
+          "verseReference": "Daniel 1:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-1-easy-q9",
+          "question": "Who did Daniel request permission from to avoid eating the king's meat?",
+          "type": "multiple-choice",
+          "options": [
+            "The prince of the eunuchs",
+            "Nebuchadnezzar",
+            "Ashpenaz",
+            "Melzar"
+          ],
+          "correctAnswer": "The prince of the eunuchs",
+          "explanation": "Daniel 1:8 shows Daniel asked the prince of the eunuchs not to defile himself.",
+          "verseReference": "Daniel 1:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-1-easy-q10",
+          "question": "What was the prince of the eunuchs afraid of if Daniel and his friends did not eat the king's food?",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Daniel 1:10 reveals the prince of the eunuchs feared the king would see their faces looking worse and endanger his own life.",
+          "verseReference": "Daniel 1:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-1-easy-q11",
+          "question": "What did Daniel propose to prove to Melzar instead of eating the king's meat?",
+          "type": "multiple-choice",
+          "options": [
+            "Eating pulse and drinking water for ten days",
+            "Eating only fruits for seven days",
+            "Eating the king's meat for three days",
+            "Not eating anything for ten days"
+          ],
+          "correctAnswer": "Eating pulse and drinking water for ten days",
+          "explanation": "Daniel 1:12 describes Daniel's proposal to eat pulse and drink water for ten days as a test.",
+          "verseReference": "Daniel 1:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-1-easy-q12",
+          "question": "What was the result after ten days of eating pulse and drinking water?",
+          "type": "multiple-choice",
+          "options": [
+            "Their countenances appeared fairer and fatter",
+            "They became weaker",
+            "They looked worse than others",
+            "They left the king's palace"
+          ],
+          "correctAnswer": "Their countenances appeared fairer and fatter",
+          "explanation": "Daniel 1:15 says after ten days their appearance was better than those eating the king's meat.",
+          "verseReference": "Daniel 1:15",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-1-easy-q13",
+          "question": "Who was set over Daniel, Hananiah, Mishael, and Azariah to oversee their diet?",
+          "type": "multiple-choice",
+          "options": [
+            "Melzar",
+            "Ashpenaz",
+            "Nebuchadnezzar",
+            "The prince of the eunuchs"
+          ],
+          "correctAnswer": "Melzar",
+          "explanation": "Daniel 1:11 and 1:16 show Melzar was set over the four to oversee their care.",
+          "verseReference": "Daniel 1:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-1-easy-q14",
+          "question": "True or False: God gave Daniel, Hananiah, Mishael, and Azariah knowledge, skill, and understanding in visions and dreams.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Daniel 1:17 affirms that God gave them knowledge, skill, and understanding in visions and dreams.",
+          "verseReference": "Daniel 1:17",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-1-easy-q15",
+          "question": "Fill in the blank: 'And in all matters of wisdom and understanding, that the king enquired of them, he found them _____ than all the magicians and astrologers.'",
+          "type": "fill-blank",
+          "options": [
+            "ten times better",
+            "less wise",
+            "about equal",
+            "not knowledgeable"
+          ],
+          "correctAnswer": "ten times better",
+          "explanation": "Daniel 1:20 states the king found them ten times better in wisdom and understanding than all the magicians and astrologers.",
+          "verseReference": "Daniel 1:20",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "daniel-1-quiz",
+      "tags": [
+        "daniel",
+        "chapter-1",
+        "daniel",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "daniel-1-medium",
+      "title": "Daniel Chapter 1 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Daniel Chapter 1 to real-life situations.",
+      "type": "chapter",
+      "book": "Daniel",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "daniel-1-medium-q1",
+          "question": "A fellow believer is facing pressure to compromise their convictions at work. Based on Daniel 1, what biblical truth would you share about standing firm in faith?",
+          "type": "multiple-choice",
+          "options": [
+            "Choose to purify yourself and trust God for favor and strength",
+            "Compromise a little to keep peace with everyone",
+            "Avoid confrontation by blending in with the crowd",
+            "Focus only on your work without concern for spiritual matters"
+          ],
+          "correctAnswer": "Choose to purify yourself and trust God for favor and strength",
+          "explanation": "Daniel purposed not to defile himself with the king's meat and trusted God who brought him favor (Daniel 1:8-9). This shows the importance of faith and trust in God when facing pressure (Daniel 1:15-17).",
+          "verseReference": "Daniel 1:8-9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-1-medium-q2",
+          "question": "How does Daniel 1 teach us about the importance of wisdom and learning from God in our daily work?",
+          "type": "multiple-choice",
+          "options": [
+            "God gave Daniel and his friends knowledge, skill, and understanding in all learning and wisdom",
+            "Wisdom is only important for religious leaders",
+            "Human wisdom is better than God’s provision",
+            "Learning is irrelevant if you have faith"
+          ],
+          "correctAnswer": "God gave Daniel and his friends knowledge, skill, and understanding in all learning and wisdom",
+          "explanation": "Daniel 1:17 shows God gave them knowledge and skill in all learning and wisdom. Their ability was a direct result of God’s blessing, teaching us to seek God’s wisdom in our work (Daniel 1:4, 1:20).",
+          "verseReference": "Daniel 1:17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-1-medium-q3",
+          "question": "A believer struggles with temptation to conform to worldly practices. What practical advice from Daniel 1 can you offer?",
+          "type": "multiple-choice",
+          "options": [
+            "Refuse to defile yourself and seek God’s help to remain pure",
+            "Conform silently to avoid conflict",
+            "Ignore the temptation and hope it goes away",
+            "Give in occasionally to fit in better"
+          ],
+          "correctAnswer": "Refuse to defile yourself and seek God’s help to remain pure",
+          "explanation": "Daniel resolved not to defile himself with the king’s food and drink and trusted God who gave him favor (Daniel 1:8-9). This teaches us to be intentional about purity and trust God for strength (Daniel 1:15-16).",
+          "verseReference": "Daniel 1:8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-1-medium-q4",
+          "question": "In terms of spiritual discipline, what does Daniel 1 imply about prayer and personal conviction in trials?",
+          "type": "multiple-choice",
+          "options": [
+            "Daniel’s decision reflected personal conviction and reliance on God’s favor",
+            "Prayer is unnecessary when following rules",
+            "Conviction should be avoided to maintain social harmony",
+            "Spiritual discipline is only for clergy"
+          ],
+          "correctAnswer": "Daniel’s decision reflected personal conviction and reliance on God’s favor",
+          "explanation": "Daniel purposed in his heart not to defile himself and God granted him favor (Daniel 1:8-9). This shows the importance of personal conviction supported by prayer and trust in God (Daniel 1:17, 1:20).",
+          "verseReference": "Daniel 1:8-9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-1-medium-q5",
+          "question": "Based on Daniel 1, what does God’s favor toward Daniel and his friends teach about integrity at work?",
+          "type": "multiple-choice",
+          "options": [
+            "Integrity leads to favor and success even in difficult environments",
+            "Integrity is secondary to achieving results",
+            "Favor comes only from human connections",
+            "Workplace success depends on compromising values"
+          ],
+          "correctAnswer": "Integrity leads to favor and success even in difficult environments",
+          "explanation": "God gave Daniel favor with the prince of the eunuchs and made them excel beyond others (Daniel 1:9, 1:20). Their integrity and faithfulness led to blessing and success despite captivity (Daniel 1:6-7).",
+          "verseReference": "Daniel 1:9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-1-medium-q6",
+          "question": "How does Daniel 1 encourage believers to handle cultural differences in church or fellowship settings?",
+          "type": "multiple-choice",
+          "options": [
+            "Respectfully maintain godly convictions while adapting to learn new things",
+            "Conform completely to local customs without question",
+            "Avoid fellowship with those different from you",
+            "Ignore cultural differences entirely"
+          ],
+          "correctAnswer": "Respectfully maintain godly convictions while adapting to learn new things",
+          "explanation": "Daniel and friends learned the language and wisdom of the Chaldeans but refused to defile themselves (Daniel 1:4, 1:8). This shows balancing respect for culture with faithfulness (Daniel 1:12-15).",
+          "verseReference": "Daniel 1:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-1-medium-q7",
+          "question": "A believer is struggling with contentment during a trial. What truth from Daniel 1 can help encourage them?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s provision and favor enable flourishing despite difficult circumstances",
+            "Contentment depends on changing circumstances quickly",
+            "Only material abundance brings satisfaction",
+            "Trials always mean God’s disfavor"
+          ],
+          "correctAnswer": "God’s provision and favor enable flourishing despite difficult circumstances",
+          "explanation": "Though Daniel and friends were captives, God gave them knowledge, favor, and health, causing them to prosper (Daniel 1:9, 1:15, 1:17). This reminds us to trust God’s provision in trials (Daniel 1:21).",
+          "verseReference": "Daniel 1:15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-1-medium-q8",
+          "question": "True or False: Daniel and his friends ate the king's meat as a sign of obedience to the king's command.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Daniel resolved not to defile himself with the king’s meat and asked for a different diet (Daniel 1:8, 1:12). This shows obedience to God over the king’s command.",
+          "verseReference": "Daniel 1:8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-1-medium-q9",
+          "question": "True or False: The king found none like Daniel, Hananiah, Mishael, and Azariah in wisdom and understanding.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "The king found none like these four in wisdom and understanding, and they stood before him (Daniel 1:19). This shows God’s blessing on faithfulness and learning.",
+          "verseReference": "Daniel 1:19",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-1-medium-q10",
+          "question": "Fill in the blank: Daniel and his friends were given new names by the prince of the eunuchs. Daniel was called ________.",
+          "type": "fill-blank",
+          "options": [
+            "Belteshazzar",
+            "Shadrach",
+            "Meshach",
+            "Abednego"
+          ],
+          "correctAnswer": "Belteshazzar",
+          "explanation": "The prince of the eunuchs gave Daniel the name Belteshazzar (Daniel 1:7). The other names correspond to his friends' new names.",
+          "verseReference": "Daniel 1:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-1-medium-q11",
+          "question": "What does Daniel 1 teach about trusting God’s timing and plan during long periods of preparation?",
+          "type": "multiple-choice",
+          "options": [
+            "Trust in God to equip and prepare you even if it takes years",
+            "Impatience leads to better results",
+            "Preparation is unnecessary if you have natural talent",
+            "God’s plan is only revealed suddenly without preparation"
+          ],
+          "correctAnswer": "Trust in God to equip and prepare you even if it takes years",
+          "explanation": "The king provided for them three years to nourish them before they stood before him (Daniel 1:5, 1:18). God’s preparation is important for future service (Daniel 1:17, 1:20).",
+          "verseReference": "Daniel 1:5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-1-medium-q12",
+          "question": "How does Daniel 1 demonstrate the value of humility and contentment in service to God and others?",
+          "type": "multiple-choice",
+          "options": [
+            "Daniel and friends served faithfully and humbly, resulting in God’s favor",
+            "Pride and self-promotion lead to spiritual blessing",
+            "Contentment is irrelevant in public service",
+            "Only leaders can receive God’s favor"
+          ],
+          "correctAnswer": "Daniel and friends served faithfully and humbly, resulting in God’s favor",
+          "explanation": "Daniel and his friends served in captivity with humility and God gave them favor and success (Daniel 1:9, 1:20). Their obedience and humility were key.",
+          "verseReference": "Daniel 1:9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-1-medium-q13",
+          "question": "A believer wants to witness effectively in a secular workplace. What example from Daniel 1 supports their approach?",
+          "type": "multiple-choice",
+          "options": [
+            "Live with integrity and excellence so others see God’s work",
+            "Avoid sharing your faith to keep your job",
+            "Conform to workplace norms to avoid offense",
+            "Focus only on work and never mention faith"
+          ],
+          "correctAnswer": "Live with integrity and excellence so others see God’s work",
+          "explanation": "Daniel and friends’ excellence in wisdom and conduct made them stand out before the king (Daniel 1:20, 1:19). Their integrity was a powerful witness.",
+          "verseReference": "Daniel 1:20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-1-medium-q14",
+          "question": "What does Daniel 1 suggest about the role of perseverance in trials and temptations?",
+          "type": "multiple-choice",
+          "options": [
+            "Perseverance rooted in faith leads to God’s blessing",
+            "Giving up is acceptable when trials are hard",
+            "Avoiding trials is the best way to live",
+            "Temptation should be ignored rather than resisted"
+          ],
+          "correctAnswer": "Perseverance rooted in faith leads to God’s blessing",
+          "explanation": "Daniel’s perseverance in refusing defilement and trusting God resulted in favor and wisdom (Daniel 1:8-9, 1:17). Perseverance through trials is vital.",
+          "verseReference": "Daniel 1:8-9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-1-medium-q15",
+          "question": "How does Daniel 1 encourage generosity and stewardship in daily life?",
+          "type": "multiple-choice",
+          "options": [
+            "God blesses faithful stewardship and wise use of resources",
+            "Generosity is unrelated to wisdom or favor",
+            "Stewardship is only for religious leaders",
+            "Selfishness leads to success"
+          ],
+          "correctAnswer": "God blesses faithful stewardship and wise use of resources",
+          "explanation": "Daniel and friends wisely managed their diet and demonstrated discipline, resulting in health and favor (Daniel 1:12-16). This reflects good stewardship and trust in God.",
+          "verseReference": "Daniel 1:12-16",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "daniel-1-quiz",
+      "tags": [
+        "daniel",
+        "chapter-1",
+        "daniel",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "daniel-1-hard",
+      "title": "Daniel Chapter 1 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Daniel Chapter 1.",
+      "type": "chapter",
+      "book": "Daniel",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "daniel-1-hard-q1",
+          "question": "In Daniel 1:2, where were the vessels from the house of God taken by Nebuchadnezzar?",
+          "type": "multiple-choice",
+          "options": [
+            "Land of Shinar",
+            "Babylon",
+            "Jerusalem",
+            "Egypt"
+          ],
+          "correctAnswer": "Land of Shinar",
+          "explanation": "Daniel 1:2 states that the vessels were carried into the land of Shinar to the house of his god.",
+          "verseReference": "Daniel 1:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-hard-q2",
+          "question": "What was the primary reason Daniel refused to defile himself with the king's meat and wine, as described in Daniel 1:8?",
+          "type": "multiple-choice",
+          "options": [
+            "To maintain ritual purity",
+            "He disliked the taste",
+            "He was allergic",
+            "The king forbade it"
+          ],
+          "correctAnswer": "To maintain ritual purity",
+          "explanation": "Daniel purposed in his heart not to defile himself, which implies a concern for ritual purity consistent with Jewish dietary laws (Daniel 1:8).",
+          "verseReference": "Daniel 1:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-hard-q3",
+          "question": "Which four young men from Judah were chosen to serve in Nebuchadnezzar’s court?",
+          "type": "multiple-choice",
+          "options": [
+            "Daniel, Hananiah, Mishael, Azariah",
+            "Daniel, Shadrach, Meshach, Abednego",
+            "Elijah, Elisha, Samuel, David",
+            "Moses, Aaron, Joshua, Caleb"
+          ],
+          "correctAnswer": "Daniel, Hananiah, Mishael, Azariah",
+          "explanation": "Daniel 1:6 lists these four specifically as the children of Judah among those taken.",
+          "verseReference": "Daniel 1:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-hard-q4",
+          "question": "What new names were given to Daniel, Hananiah, Mishael, and Azariah by the prince of the eunuchs, as per Daniel 1:7?",
+          "type": "multiple-choice",
+          "options": [
+            "Belteshazzar, Shadrach, Meshach, Abednego",
+            "Nebuchadnezzar, Ashpenaz, Melzar, Cyrus",
+            "Daniel, Hananiah, Mishael, Azariah",
+            "Mordecai, Esther, Haman, Vashti"
+          ],
+          "correctAnswer": "Belteshazzar, Shadrach, Meshach, Abednego",
+          "explanation": "Daniel 1:7 states these Babylonian names were given to the four young men.",
+          "verseReference": "Daniel 1:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-hard-q5",
+          "question": "True or False: Daniel’s decision to avoid the king’s food was immediately accepted without any concern by the prince of the eunuchs.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "In Daniel 1:10, the prince of the eunuchs expressed concern about the king’s reaction if Daniel’s appearance was worse than the others due to the diet.",
+          "verseReference": "Daniel 1:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-hard-q6",
+          "question": "What was the outcome after Daniel and his friends ate only pulse and water for ten days, according to Daniel 1:15?",
+          "type": "multiple-choice",
+          "options": [
+            "Their countenances appeared fairer and fatter",
+            "They became weaker and ill",
+            "They were expelled from the king's court",
+            "They lost all their wisdom"
+          ],
+          "correctAnswer": "Their countenances appeared fairer and fatter",
+          "explanation": "Daniel 1:15 describes how their appearance was better than those who ate the king’s meat after the ten-day trial.",
+          "verseReference": "Daniel 1:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-hard-q7",
+          "question": "In Daniel 1:17, what special gifts did God bestow on Daniel and his three friends?",
+          "type": "multiple-choice",
+          "options": [
+            "Knowledge and skill in learning and wisdom",
+            "Wealth and power",
+            "Physical strength and agility",
+            "Prophetic dreams only"
+          ],
+          "correctAnswer": "Knowledge and skill in learning and wisdom",
+          "explanation": "Daniel 1:17 clearly states God gave them knowledge and skill in all learning and wisdom.",
+          "verseReference": "Daniel 1:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-hard-q8",
+          "question": "How does Daniel’s experience in the Babylonian court foreshadow the New Testament theme of faithful witness under foreign rule?",
+          "type": "multiple-choice",
+          "options": [
+            "By demonstrating loyalty to God over earthly powers",
+            "By promoting Babylonian gods",
+            "By abandoning his Hebrew identity",
+            "By conquering the king’s enemies"
+          ],
+          "correctAnswer": "By demonstrating loyalty to God over earthly powers",
+          "explanation": "Daniel’s refusal to defile himself and his success under exile foreshadows the New Testament call for believers to remain faithful under oppressive regimes (Daniel 1:8-9).",
+          "verseReference": "Daniel 1:8-9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-hard-q9",
+          "question": "What literary device is most evident in the structure of Daniel 1, where the initial challenge is met with a test and then a divine reward?",
+          "type": "multiple-choice",
+          "options": [
+            "Chiasm",
+            "Allegory",
+            "Paradox",
+            "Foreshadowing"
+          ],
+          "correctAnswer": "Chiasm",
+          "explanation": "The chapter follows a chiastic structure: captivity and challenge, test of faithfulness, divine favor and reward (Daniel 1:1-21).",
+          "verseReference": "Daniel 1:1-21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-hard-q10",
+          "question": "What is the significance of the names given to Daniel and his friends in relation to Babylonian religion and culture?",
+          "type": "multiple-choice",
+          "options": [
+            "They reflect Babylonian gods and serve as a cultural assimilation tool",
+            "They were Hebrew names meaning 'God is my judge'",
+            "They had no particular meaning",
+            "They were Egyptian names"
+          ],
+          "correctAnswer": "They reflect Babylonian gods and serve as a cultural assimilation tool",
+          "explanation": "Names like Belteshazzar and Abednego relate to Babylonian deities, indicating an attempt to assimilate the youths culturally (Daniel 1:7).",
+          "verseReference": "Daniel 1:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-hard-q11",
+          "question": "Which historical context best explains the captivity described in Daniel 1:1-2?",
+          "type": "multiple-choice",
+          "options": [
+            "Babylonian exile under Nebuchadnezzar",
+            "Assyrian conquest of Israel",
+            "Persian conquest of Babylon",
+            "Roman occupation of Judea"
+          ],
+          "correctAnswer": "Babylonian exile under Nebuchadnezzar",
+          "explanation": "Daniel 1:1-2 situates the event during Nebuchadnezzar’s siege and captivity of Jerusalem, marking the Babylonian exile period.",
+          "verseReference": "Daniel 1:1-2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-hard-q12",
+          "question": "How does Daniel 1:21 connect to the broader biblical narrative concerning Persian rule?",
+          "type": "multiple-choice",
+          "options": [
+            "Daniel’s life extended into the reign of Cyrus, linking the Babylonian exile to the Persian restoration",
+            "Daniel was killed by Cyrus",
+            "Cyrus destroyed the temple",
+            "Daniel became king under Cyrus"
+          ],
+          "correctAnswer": "Daniel’s life extended into the reign of Cyrus, linking the Babylonian exile to the Persian restoration",
+          "explanation": "Daniel 1:21 notes that Daniel continued until the first year of Cyrus, signaling the transition from Babylonian to Persian rule and the eventual return of exiles.",
+          "verseReference": "Daniel 1:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-hard-q13",
+          "question": "Why is the mention of 'visions and dreams' in Daniel 1:17 significant in the context of biblical prophecy?",
+          "type": "multiple-choice",
+          "options": [
+            "It introduces Daniel’s prophetic role later in Scripture",
+            "It is a general statement with no prophetic implication",
+            "It refers only to common dreams",
+            "It contradicts earlier biblical tradition"
+          ],
+          "correctAnswer": "It introduces Daniel’s prophetic role later in Scripture",
+          "explanation": "Daniel 1:17 highlights his understanding of visions and dreams, which prefigures his extensive prophetic revelations in later chapters.",
+          "verseReference": "Daniel 1:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-hard-q14",
+          "question": "The daily provision of the king's meat and wine for the young men (Daniel 1:5) symbolizes what cultural and religious challenge?",
+          "type": "multiple-choice",
+          "options": [
+            "Pressure to conform to Babylonian religious and cultural practices",
+            "Physical nourishment only",
+            "A gift of friendship",
+            "An attempt to poison them"
+          ],
+          "correctAnswer": "Pressure to conform to Babylonian religious and cultural practices",
+          "explanation": "The king’s meat and wine likely conflicted with Jewish dietary laws, representing a test of faith and identity (Daniel 1:5).",
+          "verseReference": "Daniel 1:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-hard-q15",
+          "question": "How does Daniel 1 illustrate the theme of divine sovereignty over earthly kingdoms?",
+          "type": "multiple-choice",
+          "options": [
+            "God gives the king of Judah into Nebuchadnezzar’s hand, showing His control over nations",
+            "God is powerless",
+            "Nebuchadnezzar rules independently",
+            "The chapter does not address divine sovereignty"
+          ],
+          "correctAnswer": "God gives the king of Judah into Nebuchadnezzar’s hand, showing His control over nations",
+          "explanation": "Daniel 1:2 explicitly states that the Lord gave Jehoiakim into Nebuchadnezzar’s hand, emphasizing divine sovereignty.",
+          "verseReference": "Daniel 1:2",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "daniel-1-quiz",
+      "tags": [
+        "daniel",
+        "chapter-1",
+        "daniel",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "daniel-1-theological",
+      "title": "Daniel Chapter 1 Quiz - Theological Level",
+      "description": "Deep biblical theology from Daniel Chapter 1 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Daniel",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "daniel-1-theological-q1",
+          "question": "What divine attribute is primarily demonstrated by God giving Daniel favor and tender love with the prince of the eunuchs?",
+          "type": "multiple-choice",
+          "options": [
+            "God's sovereignty",
+            "God's justice",
+            "God's mercy",
+            "God's wrath"
+          ],
+          "correctAnswer": "God's mercy",
+          "explanation": "Daniel 1:9 shows God's mercy in granting Daniel favor. Similarly, God's mercy is evident in Exodus 33:19, Psalm 103:8, Lamentations 3:22-23, and Ephesians 2:4-5 where God shows compassion and kindness to His people.",
+          "verseReference": "Daniel 1:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-theological-q2",
+          "question": "According to Daniel 1, why did Daniel refuse to defile himself with the king’s meat and wine?",
+          "type": "multiple-choice",
+          "options": [
+            "To obey the dietary laws given to Israel",
+            "Because he was allergic to the food",
+            "To show disrespect to the king",
+            "To please the prince of the eunuchs"
+          ],
+          "correctAnswer": "To obey the dietary laws given to Israel",
+          "explanation": "Daniel 1:8 indicates Daniel's purpose was to avoid defilement, implying adherence to God's covenant laws (Leviticus 11:44-45, Deuteronomy 14:3-21). This reflects God's holiness and the call for His people to be holy (1 Peter 1:15-16).",
+          "verseReference": "Daniel 1:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-theological-q3",
+          "question": "What was the purpose of the king providing daily provisions of his meat and wine to the young men?",
+          "type": "multiple-choice",
+          "options": [
+            "To nourish them for three years so they could stand before the king",
+            "To poison them",
+            "To make them kings in Babylon",
+            "To convert them to the Lord"
+          ],
+          "correctAnswer": "To nourish them for three years so they could stand before the king",
+          "explanation": "Daniel 1:5 reveals the king's intention to nourish these youths for service. This shows the king's worldly plan contrasted with God's sovereign plan (Acts 4:27-28, Proverbs 21:1).",
+          "verseReference": "Daniel 1:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-theological-q4",
+          "question": "What does the renaming of Daniel and his friends by the prince of the eunuchs symbolize in a biblical theological context?",
+          "type": "multiple-choice",
+          "options": [
+            "A forced assimilation into Babylonian culture",
+            "A sign of divine election",
+            "A prophetic fulfillment",
+            "A covenant renewal"
+          ],
+          "correctAnswer": "A forced assimilation into Babylonian culture",
+          "explanation": "Daniel 1:7 shows the renaming which symbolizes cultural assimilation efforts. This parallels exile themes (Genesis 17:5, Exodus 3:13-15) and contrasts God’s preservation of identity (Romans 12:2).",
+          "verseReference": "Daniel 1:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-theological-q5",
+          "question": "What theological theme is illustrated by God giving Daniel and his friends knowledge, skill, and understanding in visions and dreams?",
+          "type": "multiple-choice",
+          "options": [
+            "Divine revelation and wisdom",
+            "Human intellectual achievement",
+            "Astrological power",
+            "Magical arts"
+          ],
+          "correctAnswer": "Divine revelation and wisdom",
+          "explanation": "Daniel 1:17 emphasizes God’s gift of wisdom and revelation, reflecting James 1:5 and Proverbs 2:6 where wisdom is a divine gift, not human achievement.",
+          "verseReference": "Daniel 1:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-theological-q6",
+          "question": "How does Daniel's refusal to eat the king's meat and his request for pulse align with the doctrine of sanctification?",
+          "type": "multiple-choice",
+          "options": [
+            "It demonstrates personal holiness and separation from defilement",
+            "It shows rejection of human authority",
+            "It is a sign of legalism",
+            "It indicates dietary preference"
+          ],
+          "correctAnswer": "It demonstrates personal holiness and separation from defilement",
+          "explanation": "Daniel 1:8-14 highlights separation from defilement, reflecting sanctification principles (1 Corinthians 6:19-20, Romans 12:1-2, 2 Timothy 2:21).",
+          "verseReference": "Daniel 1:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-theological-q7",
+          "question": "What does the outcome of the ten-day test of pulse and water teach about trusting God over worldly provisions?",
+          "type": "multiple-choice",
+          "options": [
+            "Trusting God leads to better health and favor",
+            "Worldly provisions are superior",
+            "Testing God is unnecessary",
+            "God only blesses after three years"
+          ],
+          "correctAnswer": "Trusting God leads to better health and favor",
+          "explanation": "Daniel 1:15-16 shows God's blessing on the test. This aligns with Psalm 34:8, Matthew 6:33, and Philippians 4:19 where reliance on God brings blessing.",
+          "verseReference": "Daniel 1:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-theological-q8",
+          "question": "What doctrinal truth about God’s providence is evident in Nebuchadnezzar’s siege and the captivity of Judah?",
+          "type": "multiple-choice",
+          "options": [
+            "God sovereignly uses nations to accomplish His purposes",
+            "God is powerless over earthly kings",
+            "God is indifferent to Israel's fate",
+            "God only acts through miracles"
+          ],
+          "correctAnswer": "God sovereignly uses nations to accomplish His purposes",
+          "explanation": "Daniel 1:1-2 demonstrates God's providential control over nations, consistent with Isaiah 10:5-7, Romans 13:1-4, and Proverbs 21:1.",
+          "verseReference": "Daniel 1:1-2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-theological-q9",
+          "question": "What does Daniel’s continued presence until the first year of King Cyrus signify in the grand narrative of Scripture?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s faithfulness to His covenant people throughout exile",
+            "Daniel’s political ambition",
+            "The end of Israel’s covenant",
+            "The failure of Babylonian gods"
+          ],
+          "correctAnswer": "God’s faithfulness to His covenant people throughout exile",
+          "explanation": "Daniel 1:21 points to God’s sustaining presence during exile, echoing Jeremiah 29:10-14, Ezra 1:1-4, and Romans 11:25-27.",
+          "verseReference": "Daniel 1:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-theological-q10",
+          "question": "How does Daniel 1 reveal the attribute of God’s sovereignty over human wisdom and knowledge?",
+          "type": "multiple-choice",
+          "options": [
+            "God grants superior wisdom to His servants over magicians and astrologers",
+            "Human wisdom is superior to divine revelation",
+            "Wisdom is irrelevant to God’s plan",
+            "God rejects human knowledge"
+          ],
+          "correctAnswer": "God grants superior wisdom to His servants over magicians and astrologers",
+          "explanation": "Daniel 1:20 describes God giving superior wisdom, consistent with Proverbs 2:6, 1 Corinthians 1:25, and Colossians 2:3.",
+          "verseReference": "Daniel 1:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-theological-q11",
+          "question": "What Christological theme can be drawn from Daniel’s understanding of visions and dreams?",
+          "type": "multiple-choice",
+          "options": [
+            "Prefiguration of Christ as the ultimate revealer of truth",
+            "Daniel as the Messiah",
+            "Visions as irrelevant",
+            "Dreams as purely human"
+          ],
+          "correctAnswer": "Prefiguration of Christ as the ultimate revealer of truth",
+          "explanation": "Daniel 1:17 foreshadows Christ’s role in revelation (John 1:14, Hebrews 1:1-3, Revelation 19:10).",
+          "verseReference": "Daniel 1:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-theological-q12",
+          "question": "In Daniel 1, what does the successful test of pulse and water imply about the role of faith in daily life?",
+          "type": "multiple-choice",
+          "options": [
+            "Faith can guide practical decisions that honor God",
+            "Faith forbids testing any provision",
+            "Faith requires complete withdrawal from society",
+            "Faith is unrelated to diet"
+          ],
+          "correctAnswer": "Faith can guide practical decisions that honor God",
+          "explanation": "Daniel 1:12-16 illustrates faith influencing choices, paralleling Proverbs 3:5-6 and Hebrews 11.",
+          "verseReference": "Daniel 1:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-theological-q13",
+          "question": "What does the king’s inquiry and finding no one like Daniel and his friends teach about God’s power in witness and testimony?",
+          "type": "multiple-choice",
+          "options": [
+            "God empowers His people to stand out and glorify Him",
+            "God hides His people from rulers",
+            "God limits His power to Israel only",
+            "God’s power is irrelevant in exile"
+          ],
+          "correctAnswer": "God empowers His people to stand out and glorify Him",
+          "explanation": "Daniel 1:19 shows God’s empowering presence, consistent with Acts 4:13 and Matthew 5:16.",
+          "verseReference": "Daniel 1:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-theological-q14",
+          "question": "How does Daniel 1 illustrate the doctrine of human responsibility cooperating with divine grace?",
+          "type": "multiple-choice",
+          "options": [
+            "Daniel’s decision to not defile himself combined with God’s granting of favor",
+            "Daniel’s success was purely by human effort",
+            "God’s grace removes all human responsibility",
+            "Human effort is futile without miracles"
+          ],
+          "correctAnswer": "Daniel’s decision to not defile himself combined with God’s granting of favor",
+          "explanation": "Daniel 1:8-9 shows human resolve and divine favor working together, echoing Philippians 2:12-13 and James 2:17.",
+          "verseReference": "Daniel 1:8-9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-1-theological-q15",
+          "question": "What does the test of pulse and water and the resulting blessing teach about God’s care for the physical well-being of His servants?",
+          "type": "multiple-choice",
+          "options": [
+            "God sustains and blesses both body and soul of His faithful",
+            "God cares only for the soul",
+            "Physical health is irrelevant to faith",
+            "God requires suffering for faith"
+          ],
+          "correctAnswer": "God sustains and blesses both body and soul of His faithful",
+          "explanation": "Daniel 1:15-16 shows God’s care for physical health, consistent with Psalm 103:2-3, 1 Timothy 4:8, and 3 John 1:2.",
+          "verseReference": "Daniel 1:15",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "daniel-1-quiz",
+      "tags": [
+        "daniel",
+        "chapter-1",
+        "daniel",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

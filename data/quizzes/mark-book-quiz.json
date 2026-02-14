@@ -1,0 +1,624 @@
+{
+  "id": "mark-book-quiz",
+  "title": "Mark Quiz - Complete Book",
+  "description": "Test your comprehensive knowledge of the entire book of Mark with 25 questions covering key events, people, and teachings from all 16 chapters.",
+  "type": "book",
+  "book": "Mark",
+  "questions": [
+    {
+      "id": "mark-bq-1",
+      "question": "Who baptized Jesus in the river Jordan?",
+      "type": "multiple-choice",
+      "options": [
+        "John the Baptist",
+        "Peter",
+        "Paul",
+        "Elijah"
+      ],
+      "correctAnswer": "John the Baptist",
+      "explanation": "Jesus was baptized by John the Baptist in the river Jordan as recorded in Mark 1:9.",
+      "verseReference": "Mark 1:9",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mark-bq-2",
+      "question": "What did Jesus say to Simon and Andrew when he first called them?",
+      "type": "multiple-choice",
+      "options": [
+        "Follow me, and I will make you fishers of men",
+        "Come and help me preach",
+        "Leave your nets and rest",
+        "Go and find the lost sheep"
+      ],
+      "correctAnswer": "Follow me, and I will make you fishers of men",
+      "explanation": "Jesus called Simon and Andrew with the words 'Come ye after me, and I will make you to become fishers of men.'",
+      "verseReference": "Mark 1:17",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mark-bq-3",
+      "question": "How long was Jesus tempted in the wilderness?",
+      "type": "multiple-choice",
+      "options": [
+        "20 days",
+        "30 days",
+        "40 days",
+        "50 days"
+      ],
+      "correctAnswer": "40 days",
+      "explanation": "Jesus was in the wilderness forty days, tempted of Satan.",
+      "verseReference": "Mark 1:13",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mark-bq-4",
+      "question": "In Mark 2, who did Jesus say had a right to heal on the Sabbath, the sick or the law?",
+      "type": "multiple-choice",
+      "options": [
+        "The law",
+        "The priests",
+        "The sick",
+        "The elders"
+      ],
+      "correctAnswer": "The sick",
+      "explanation": "Jesus emphasized mercy over sacrifice, showing the importance of healing the sick even on the Sabbath.",
+      "verseReference": "Mark 2:27-28",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mark-bq-5",
+      "question": "What miracle did Jesus perform for the man with the withered hand on the Sabbath?",
+      "type": "multiple-choice",
+      "options": [
+        "He healed the hand",
+        "He gave him a new hand",
+        "He blessed him",
+        "He told him to rest"
+      ],
+      "correctAnswer": "He healed the hand",
+      "explanation": "Jesus healed the man’s withered hand despite the Sabbath controversy.",
+      "verseReference": "Mark 3:5",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mark-bq-6",
+      "question": "Who were the sons of Zebedee that Jesus called to follow Him?",
+      "type": "multiple-choice",
+      "options": [
+        "James and John",
+        "Peter and Andrew",
+        "Philip and Bartholomew",
+        "Matthew and Thomas"
+      ],
+      "correctAnswer": "James and John",
+      "explanation": "James and John, sons of Zebedee, were called by Jesus to follow Him.",
+      "verseReference": "Mark 1:19-20",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mark-bq-7",
+      "question": "What did Jesus do to the storm while on the boat with His disciples?",
+      "type": "multiple-choice",
+      "options": [
+        "He prayed for rain",
+        "He rebuked the wind and said, Peace, be still",
+        "He ignored it",
+        "He told the disciples to row harder"
+      ],
+      "correctAnswer": "He rebuked the wind and said, Peace, be still",
+      "explanation": "Jesus calmed the storm by commanding the wind and sea to be still.",
+      "verseReference": "Mark 4:39",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mark-bq-8",
+      "question": "In the parable of the sower, what does the seed that fell on stony ground represent?",
+      "type": "multiple-choice",
+      "options": [
+        "Those who hear the word and immediately receive it with gladness but have no root",
+        "Those who hear but Satan takes away the word",
+        "Those who hear but are choked by cares",
+        "Those who hear and bear fruit"
+      ],
+      "correctAnswer": "Those who hear the word and immediately receive it with gladness but have no root",
+      "explanation": "The seed on stony ground represents those who initially receive the word joyfully but fall away when troubles arise.",
+      "verseReference": "Mark 4:16-17",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mark-bq-9",
+      "question": "What is the mustard seed compared to in the kingdom of God parable?",
+      "type": "multiple-choice",
+      "options": [
+        "A small seed that grows into the largest of all herbs",
+        "A tiny grain that never grows",
+        "A seed that is eaten by birds",
+        "A seed that falls among thorns"
+      ],
+      "correctAnswer": "A small seed that grows into the largest of all herbs",
+      "explanation": "The mustard seed is used to illustrate how the kingdom of God starts small but grows large and expansive.",
+      "verseReference": "Mark 4:31-32",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mark-bq-10",
+      "question": "What did Jesus say defiles a man, according to Mark 7?",
+      "type": "multiple-choice",
+      "options": [
+        "What comes out of a man",
+        "What enters a man",
+        "Unwashed hands",
+        "Eating forbidden foods"
+      ],
+      "correctAnswer": "What comes out of a man",
+      "explanation": "Jesus taught that evil thoughts and actions emerging from within defile a man, not external things like unwashed hands.",
+      "verseReference": "Mark 7:15, 20-23",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mark-bq-11",
+      "question": "Which prophet did Jesus quote when addressing the Pharisees' hypocrisy?",
+      "type": "multiple-choice",
+      "options": [
+        "Isaiah",
+        "Jeremiah",
+        "Ezekiel",
+        "Daniel"
+      ],
+      "correctAnswer": "Isaiah",
+      "explanation": "Jesus quoted Isaiah to accuse the Pharisees of honoring God with lips but having hearts far from Him.",
+      "verseReference": "Mark 7:6",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mark-bq-12",
+      "question": "Who was the woman that touched Jesus’ garment and was healed?",
+      "type": "multiple-choice",
+      "options": [
+        "A woman with an issue of blood",
+        "A woman with leprosy",
+        "A blind woman",
+        "A deaf woman"
+      ],
+      "correctAnswer": "A woman with an issue of blood",
+      "explanation": "A woman suffering from a bleeding issue touched Jesus’ clothes and was instantly healed.",
+      "verseReference": "Mark 5:25-34",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mark-bq-13",
+      "question": "What did Jesus do when Jairus’ daughter had died?",
+      "type": "multiple-choice",
+      "options": [
+        "He said she was only sleeping",
+        "He wept and then raised her",
+        "He told them to cry",
+        "He left the house"
+      ],
+      "correctAnswer": "He said she was only sleeping",
+      "explanation": "Jesus told those mourning that the girl was sleeping and then raised her from the dead.",
+      "verseReference": "Mark 5:39-41",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mark-bq-14",
+      "question": "Who was the first to see Jesus after His resurrection according to Mark 16?",
+      "type": "multiple-choice",
+      "options": [
+        "Mary Magdalene",
+        "Peter",
+        "John",
+        "Thomas"
+      ],
+      "correctAnswer": "Mary Magdalene",
+      "explanation": "Mary Magdalene was the first to see the risen Jesus as He appeared to her.",
+      "verseReference": "Mark 16:9",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mark-bq-15",
+      "question": "What did the angel say to the women at the tomb?",
+      "type": "multiple-choice",
+      "options": [
+        "He is not here, he is risen",
+        "Stay here and wait",
+        "Jesus will come again soon",
+        "The tomb is sealed forever"
+      ],
+      "correctAnswer": "He is not here, he is risen",
+      "explanation": "The angel announced that Jesus had risen and was not in the tomb.",
+      "verseReference": "Mark 16:6",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mark-bq-16",
+      "question": "What was Jesus’ instruction to His disciples after His resurrection?",
+      "type": "multiple-choice",
+      "options": [
+        "Go into all the world and preach the gospel",
+        "Stay in Jerusalem",
+        "Build a new temple",
+        "Wait for the Romans"
+      ],
+      "correctAnswer": "Go into all the world and preach the gospel",
+      "explanation": "Jesus commanded His disciples to preach the gospel to all creation.",
+      "verseReference": "Mark 16:15",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mark-bq-17",
+      "question": "What was the reaction of the people when Jesus healed the man possessed by an unclean spirit in the synagogue?",
+      "type": "multiple-choice",
+      "options": [
+        "They were amazed and questioned His authority",
+        "They rejected Him",
+        "They called the Roman guards",
+        "They ignored Him"
+      ],
+      "correctAnswer": "They were amazed and questioned His authority",
+      "explanation": "People were astonished because Jesus taught with authority and commanded unclean spirits.",
+      "verseReference": "Mark 1:27",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mark-bq-18",
+      "question": "According to Mark, what was the first title given to Jesus in the gospel?",
+      "type": "multiple-choice",
+      "options": [
+        "Son of God",
+        "Messiah",
+        "King of the Jews",
+        "Son of Man"
+      ],
+      "correctAnswer": "Son of God",
+      "explanation": "The gospel is introduced as the beginning of the gospel of Jesus Christ, the Son of God.",
+      "verseReference": "Mark 1:1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mark-bq-19",
+      "question": "What did Jesus do early in the morning before preaching in Galilee?",
+      "type": "multiple-choice",
+      "options": [
+        "He prayed in a solitary place",
+        "He ate breakfast",
+        "He taught the disciples",
+        "He went fishing"
+      ],
+      "correctAnswer": "He prayed in a solitary place",
+      "explanation": "Jesus rose early and went to a solitary place to pray.",
+      "verseReference": "Mark 1:35",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mark-bq-20",
+      "question": "Who did Jesus heal that was sick with a fever in Mark 1?",
+      "type": "multiple-choice",
+      "options": [
+        "Simon Peter's mother-in-law",
+        "Mary Magdalene",
+        "Jairus' daughter",
+        "The centurion's servant"
+      ],
+      "correctAnswer": "Simon Peter's mother-in-law",
+      "explanation": "Jesus healed Simon Peter's mother-in-law of her fever.",
+      "verseReference": "Mark 1:30-31",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mark-bq-21",
+      "question": "How did Jesus respond when the Pharisees questioned His disciples eating without washing their hands?",
+      "type": "multiple-choice",
+      "options": [
+        "He rebuked the Pharisees for valuing tradition over God's commandments",
+        "He told His disciples to wash their hands",
+        "He ignored the question",
+        "He agreed with the Pharisees"
+      ],
+      "correctAnswer": "He rebuked the Pharisees for valuing tradition over God's commandments",
+      "explanation": "Jesus criticized the Pharisees for making the commandments of men more important than God's law.",
+      "verseReference": "Mark 7:6-9",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mark-bq-22",
+      "question": "What did Jesus say about the kingdom of God in the parable of the seed growing secretly?",
+      "type": "multiple-choice",
+      "options": [
+        "It grows without the sower knowing how",
+        "It only grows when the sower watches",
+        "It grows quickly and visibly",
+        "It does not grow at all"
+      ],
+      "correctAnswer": "It grows without the sower knowing how",
+      "explanation": "The seed grows by itself, the man does not understand how, illustrating the mysterious growth of God's kingdom.",
+      "verseReference": "Mark 4:26-27",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mark-bq-23",
+      "question": "What did the disciples do when Jesus healed the deaf and dumb man?",
+      "type": "multiple-choice",
+      "options": [
+        "They were astonished and told no one",
+        "They immediately told everyone",
+        "They doubted Jesus",
+        "They asked for more miracles"
+      ],
+      "correctAnswer": "They were astonished and told no one",
+      "explanation": "Jesus charged them not to tell anyone, but they were greatly astonished.",
+      "verseReference": "Mark 7:37",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mark-bq-24",
+      "question": "True or False: Jesus commanded the unclean spirits to speak and reveal His identity freely.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "Jesus often forbade unclean spirits to speak because they knew who He was.",
+      "verseReference": "Mark 1:34",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mark-bq-25",
+      "question": "True or False: Jesus healed a leper who came kneeling to Him and asking to be made clean.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Jesus healed the leper who humbly sought Him.",
+      "verseReference": "Mark 1:40-42",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mark-bq-26",
+      "question": "True or False: The parable of the sower teaches that all who hear the word will bear fruit.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "The parable shows different responses to the word; not all bear fruit.",
+      "verseReference": "Mark 4:3-20",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mark-bq-27",
+      "question": "True or False: Jesus sent out the twelve disciples two by two to preach and cast out devils.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Jesus sent the twelve out in pairs to preach and heal.",
+      "verseReference": "Mark 6:7",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mark-bq-28",
+      "question": "True or False: Jesus fed 5,000 men with five loaves and two fishes.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Jesus miraculously fed 5,000 men with five loaves and two fishes.",
+      "verseReference": "Mark 6:41-44",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mark-bq-29",
+      "question": "True or False: Jesus walked on water to meet His disciples in the boat during a storm.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Jesus walked on the sea toward the disciples’ boat.",
+      "verseReference": "Mark 6:48",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mark-bq-30",
+      "question": "True or False: The Pharisees welcomed Jesus’ teachings about the traditions of the elders gladly.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "The Pharisees often opposed Jesus because He challenged their traditions.",
+      "verseReference": "Mark 7:1-5",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mark-bq-31",
+      "question": "True or False: Jesus told the disciples that the Son of man must be betrayed and killed and rise again after three days.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Jesus predicted His suffering, death, and resurrection.",
+      "verseReference": "Mark 8:31",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mark-bq-32",
+      "question": "True or False: Peter confessed Jesus as the Christ, the Son of the living God.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Peter declared Jesus to be the Christ, the Son of God.",
+      "verseReference": "Mark 8:29",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mark-bq-33",
+      "question": "True or False: Jesus was transfigured on a high mountain before Peter, James, and John.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Jesus was transfigured, appearing radiant and speaking with Moses and Elijah.",
+      "verseReference": "Mark 9:2-7",
+      "difficulty": "medium"
+    },
+    {
+      "id": "mark-bq-34",
+      "question": "Complete this verse: 'The sabbath was made for ___, and not ___ for the sabbath.'",
+      "type": "fill-blank",
+      "options": [
+        "man, man",
+        "man, the sabbath",
+        "man, man",
+        "man, sabbath"
+      ],
+      "correctAnswer": "man, man",
+      "explanation": "Jesus taught that the Sabbath was made for man, not man for the Sabbath.",
+      "verseReference": "Mark 2:27",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mark-bq-35",
+      "question": "Complete this verse: 'For what shall it profit a man, if he shall gain the whole world, and lose his ___?'",
+      "type": "fill-blank",
+      "options": [
+        "soul",
+        "life",
+        "faith",
+        "hope"
+      ],
+      "correctAnswer": "soul",
+      "explanation": "Jesus taught the value of the soul over worldly gain.",
+      "verseReference": "Mark 8:36",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mark-bq-36",
+      "question": "Complete this verse: 'Go ye into all the world, and preach the gospel to ___.'",
+      "type": "fill-blank",
+      "options": [
+        "every creature",
+        "every nation",
+        "all men",
+        "the lost"
+      ],
+      "correctAnswer": "every creature",
+      "explanation": "Jesus commanded to preach the gospel to every creature after His resurrection.",
+      "verseReference": "Mark 16:15",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mark-bq-37",
+      "question": "Complete this verse: 'He that hath ears to hear, let him ___.'",
+      "type": "fill-blank",
+      "options": [
+        "hear",
+        "listen",
+        "believe",
+        "understand"
+      ],
+      "correctAnswer": "hear",
+      "explanation": "Jesus often used this phrase to urge attentive listening.",
+      "verseReference": "Mark 4:9",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mark-bq-38",
+      "question": "Who was the disciple that Jesus nicknamed 'Cephas' (Peter)?",
+      "type": "multiple-choice",
+      "options": [
+        "Simon",
+        "James",
+        "John",
+        "Andrew"
+      ],
+      "correctAnswer": "Simon",
+      "explanation": "Jesus gave Simon the name Cephas, which means Peter.",
+      "verseReference": "Mark 3:16",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mark-bq-39",
+      "question": "What did Jesus say about the least in the kingdom of God?",
+      "type": "multiple-choice",
+      "options": [
+        "That he is greater than all",
+        "That he is the greatest",
+        "That he is the least of all and servant of all",
+        "That he shall be cast out"
+      ],
+      "correctAnswer": "That he is the least of all and servant of all",
+      "explanation": "Jesus taught humility and servanthood as keys to greatness in the kingdom.",
+      "verseReference": "Mark 9:35",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mark-bq-40",
+      "question": "Who did Jesus say was the greatest in the kingdom of heaven?",
+      "type": "multiple-choice",
+      "options": [
+        "One who humbles himself like a child",
+        "The richest man",
+        "The strongest man",
+        "The most learned man"
+      ],
+      "correctAnswer": "One who humbles himself like a child",
+      "explanation": "Jesus said to receive a child in His name is to receive Him and be greatest.",
+      "verseReference": "Mark 9:36-37",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mark-bq-41",
+      "question": "What did Jesus say about causing little ones to stumble?",
+      "type": "multiple-choice",
+      "options": [
+        "It would be better to have a millstone tied around one's neck and be cast into the sea",
+        "They should be ignored",
+        "They should be taught with kindness",
+        "It is not important"
+      ],
+      "correctAnswer": "It would be better to have a millstone tied around one's neck and be cast into the sea",
+      "explanation": "Jesus strongly condemned causing little ones to sin.",
+      "verseReference": "Mark 9:42",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mark-bq-42",
+      "question": "What did Jesus say about divorce in Mark 10?",
+      "type": "multiple-choice",
+      "options": [
+        "That Moses permitted it because of hardness of heart",
+        "That it is allowed anytime",
+        "That it is not mentioned in the law",
+        "That it is encouraged"
+      ],
+      "correctAnswer": "That Moses permitted it because of hardness of heart",
+      "explanation": "Jesus explained divorce was permitted due to hardness of heart but was not God's original intention.",
+      "verseReference": "Mark 10:5",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mark-bq-43",
+      "question": "Who asked Jesus, 'Good Master, what shall I do to inherit eternal life?'",
+      "type": "multiple-choice",
+      "options": [
+        "A certain young man",
+        "Peter",
+        "John",
+        "Judas"
+      ],
+      "correctAnswer": "A certain young man",
+      "explanation": "A young ruler asked Jesus about inheriting eternal life.",
+      "verseReference": "Mark 10:17",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mark-bq-44",
+      "question": "True or False: Jesus said it is easier for a camel to go through the eye of a needle than for a rich man to enter the kingdom of God.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Jesus used this vivid image to teach about the difficulty for the rich to enter God's kingdom.",
+      "verseReference": "Mark 10:25",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mark-bq-45",
+      "question": "True or False: Jesus healed a blind man named Bartimaeus at Jericho.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Jesus restored the sight of Bartimaeus near Jericho.",
+      "verseReference": "Mark 10:46-52",
+      "difficulty": "hard"
+    }
+  ],
+  "difficulty": "medium",
+  "isBookQuiz": true,
+  "slug": "mark-quiz",
+  "tags": [
+    "mark",
+    "mark",
+    "book quiz",
+    "comprehensive",
+    "bible quiz"
+  ],
+  "totalQuestions": 45,
+  "estimatedTime": 34
+}

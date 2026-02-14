@@ -1,0 +1,983 @@
+{
+  "id": "job-10-tabbed",
+  "title": "Job Chapter 10 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Job chapter 10 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "job-10-easy",
+      "title": "Job Chapter 10 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Job Chapter 10.",
+      "type": "chapter",
+      "book": "Job",
+      "chapter": 10,
+      "questions": [
+        {
+          "id": "job-10-easy-q1",
+          "question": "According to Job 10:1, what is Job's soul weary of?",
+          "type": "multiple-choice",
+          "options": [
+            "His life",
+            "His wealth",
+            "His family",
+            "His work"
+          ],
+          "correctAnswer": "His life",
+          "explanation": "Job 10:1 states, 'My soul is weary of my life,' showing that Job's weariness is specifically about his life.",
+          "verseReference": "Job 10:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-10-easy-q2",
+          "question": "In Job 10:2, what does Job ask God not to do?",
+          "type": "multiple-choice",
+          "options": [
+            "Condemn him",
+            "Heal him",
+            "Ignore him",
+            "Bless him"
+          ],
+          "correctAnswer": "Condemn him",
+          "explanation": "Job 10:2 records Job saying, 'Do not condemn me,' indicating his plea to God not to judge him harshly.",
+          "verseReference": "Job 10:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-10-easy-q3",
+          "question": "Job questions in Job 10:3 if it is good for God to do what?",
+          "type": "multiple-choice",
+          "options": [
+            "Oppress and despise the work of His hands",
+            "Bless the wicked",
+            "Ignore the poor",
+            "Punish the innocent"
+          ],
+          "correctAnswer": "Oppress and despise the work of His hands",
+          "explanation": "Job 10:3 asks, 'Is it good unto thee that thou shouldest oppress, that thou shouldest despise the work of thine hands?'",
+          "verseReference": "Job 10:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-10-easy-q4",
+          "question": "According to Job 10:4, what does Job ask God about His eyes?",
+          "type": "multiple-choice",
+          "options": [
+            "Are they eyes of flesh?",
+            "Can they see the future?",
+            "Are they as bright as the sun?",
+            "Are they blind?"
+          ],
+          "correctAnswer": "Are they eyes of flesh?",
+          "explanation": "Job 10:4 asks, 'Hast thou eyes of flesh? or seest thou as man seeth?'",
+          "verseReference": "Job 10:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-10-easy-q5",
+          "question": "True or False: Job 10:7 says that there is no one who can deliver Job out of God's hand.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Job 10:7 states, 'there is none that can deliver out of thine hand,' confirming the truth of the statement.",
+          "verseReference": "Job 10:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-10-easy-q6",
+          "question": "What does Job say God has made him from in Job 10:9?",
+          "type": "multiple-choice",
+          "options": [
+            "Clay",
+            "Gold",
+            "Stone",
+            "Water"
+          ],
+          "correctAnswer": "Clay",
+          "explanation": "Job 10:9 says, 'Remember, I beseech thee, that thou hast made me as the clay,' referring to his formation.",
+          "verseReference": "Job 10:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-10-easy-q7",
+          "question": "In Job 10:10, Job compares his formation to what two substances?",
+          "type": "multiple-choice",
+          "options": [
+            "Milk and cheese",
+            "Water and bread",
+            "Clay and stone",
+            "Gold and silver"
+          ],
+          "correctAnswer": "Milk and cheese",
+          "explanation": "Job 10:10 says, 'Hast thou not poured me out as milk, and curdled me like cheese?'",
+          "verseReference": "Job 10:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-10-easy-q8",
+          "question": "According to Job 10:11, God has clothed Job with what?",
+          "type": "multiple-choice",
+          "options": [
+            "Skin and flesh",
+            "Clothes and jewels",
+            "Feathers and wings",
+            "Armor and weapons"
+          ],
+          "correctAnswer": "Skin and flesh",
+          "explanation": "Job 10:11 states, 'Thou hast clothed me with skin and flesh, and hast fenced me with bones and sinews.'",
+          "verseReference": "Job 10:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-10-easy-q9",
+          "question": "True or False: Job 10:15 expresses that even if he is righteous, he will not lift up his head.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Job 10:15 says, 'If I be wicked, woe unto me; and if I be righteous, yet will I not lift up my head.'",
+          "verseReference": "Job 10:15",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-10-easy-q10",
+          "question": "What animal does Job compare God to in Job 10:16?",
+          "type": "multiple-choice",
+          "options": [
+            "A fierce lion",
+            "A mighty eagle",
+            "A gentle lamb",
+            "A roaring bear"
+          ],
+          "correctAnswer": "A fierce lion",
+          "explanation": "Job 10:16 states, 'Thou huntest me as a fierce lion,' showing the comparison.",
+          "verseReference": "Job 10:16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-10-easy-q11",
+          "question": "Fill in the blank from Job 10:18: 'Wherefore then hast thou brought me forth out of the womb? Oh that I had given up the _______, and no eye had seen me!'",
+          "type": "fill-blank",
+          "options": [
+            "ghost",
+            "life",
+            "breath",
+            "soul"
+          ],
+          "correctAnswer": "ghost",
+          "explanation": "Job 10:18 contains the phrase, 'Oh that I had given up the ghost,' referring to death or departing life.",
+          "verseReference": "Job 10:18",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-10-easy-q12",
+          "question": "According to Job 10:20, what does Job ask God to do so he may find a little comfort?",
+          "type": "multiple-choice",
+          "options": [
+            "Cease then, and let me alone",
+            "Heal my body",
+            "Send me riches",
+            "Remove my enemies"
+          ],
+          "correctAnswer": "Cease then, and let me alone",
+          "explanation": "Job 10:20 says, 'cease then, and let me alone, that I may take comfort a little.'",
+          "verseReference": "Job 10:20",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-10-easy-q13",
+          "question": "Where does Job say he will go from which he shall not return in Job 10:21?",
+          "type": "multiple-choice",
+          "options": [
+            "The land of darkness and the shadow of death",
+            "The city of the living",
+            "The mountains of Zion",
+            "The river of life"
+          ],
+          "correctAnswer": "The land of darkness and the shadow of death",
+          "explanation": "Job 10:21 states, 'Before I go whence I shall not return, even to the land of darkness and the shadow of death;'",
+          "verseReference": "Job 10:21",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-10-easy-q14",
+          "question": "True or False: Job 10:5 questions if God's days are as the days of man.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Job 10:5 asks, 'Are thy days as the days of man? are thy years as man's days,' comparing God's days to man's.",
+          "verseReference": "Job 10:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-10-easy-q15",
+          "question": "According to Job 10:22, how is the land of darkness described?",
+          "type": "multiple-choice",
+          "options": [
+            "As darkness itself; and of the shadow of death, without any order",
+            "Bright and full of light",
+            "Covered with flowers",
+            "A place of peace and rest"
+          ],
+          "correctAnswer": "As darkness itself; and of the shadow of death, without any order",
+          "explanation": "Job 10:22 describes this land as 'A land of darkness, as darkness itself; and of the shadow of death, without any order.'",
+          "verseReference": "Job 10:22",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "job-10-quiz",
+      "tags": [
+        "job",
+        "chapter-10",
+        "job",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "job-10-medium",
+      "title": "Job Chapter 10 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Job Chapter 10 to real-life situations.",
+      "type": "chapter",
+      "book": "Job",
+      "chapter": 10,
+      "questions": [
+        {
+          "id": "job-10-medium-q1",
+          "question": "How does Job 10 teach us about expressing our feelings to God during times of struggle?",
+          "type": "multiple-choice",
+          "options": [
+            "We should speak honestly about our bitterness and complaints to God",
+            "We must hide our pain and always appear joyful",
+            "We should only praise God and never question Him",
+            "We are to blame ourselves silently without speaking"
+          ],
+          "correctAnswer": "We should speak honestly about our bitterness and complaints to God",
+          "explanation": "Job 10:1 shows Job openly expressing the bitterness of his soul, indicating that honest communication with God about our struggles is appropriate. Verses 2 and 3 also illustrate him questioning God openly.",
+          "verseReference": "Job 10:1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-10-medium-q2",
+          "question": "A fellow believer feels overwhelmed by God's discipline and wonders if God sees their pain. Based on Job 10, what biblical truth would you share?",
+          "type": "multiple-choice",
+          "options": [
+            "God understands and observes our condition beyond human sight",
+            "God only sees our external actions and ignores our pain",
+            "God has eyes of flesh and sees as humans do",
+            "God is indifferent to our suffering"
+          ],
+          "correctAnswer": "God understands and observes our condition beyond human sight",
+          "explanation": "Job 10:4-5 reminds us that God does not see as man sees and is not limited by human perspective, showing His understanding of our true condition.",
+          "verseReference": "Job 10:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-10-medium-q3",
+          "question": "What does Job 10 teach about trusting God's purpose even when facing trials?",
+          "type": "multiple-choice",
+          "options": [
+            "Trust that God has made and fashioned us with care, even if He allows hardship",
+            "Trust only when life is easy and prosperous",
+            "Trust ourselves more than God during difficulties",
+            "Avoid trusting God if we do not understand our suffering"
+          ],
+          "correctAnswer": "Trust that God has made and fashioned us with care, even if He allows hardship",
+          "explanation": "Job 10:8-12 shows Job acknowledging God’s careful creation of him, encouraging trust in God's ongoing purpose despite suffering.",
+          "verseReference": "Job 10:8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-10-medium-q4",
+          "question": "How can Job 10 guide us in maintaining humility during times of confusion and affliction?",
+          "type": "multiple-choice",
+          "options": [
+            "Recognize our limitations and express our need for God's mercy",
+            "Pretend to have all answers and hide confusion",
+            "Blame others for our problems",
+            "Ignore God and rely solely on ourselves"
+          ],
+          "correctAnswer": "Recognize our limitations and express our need for God's mercy",
+          "explanation": "Job 10:15-16 reveals Job’s humility by admitting confusion and pleading for God's attention, teaching us to acknowledge our need for divine help.",
+          "verseReference": "Job 10:15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-10-medium-q5",
+          "question": "Based on Job 10, what biblical principle can help us persevere through ongoing trials?",
+          "type": "multiple-choice",
+          "options": [
+            "Continue to seek God honestly and trust His wisdom despite repeated affliction",
+            "Give up and abandon faith in difficult times",
+            "Resent God and reject His counsel",
+            "Isolate ourselves from others"
+          ],
+          "correctAnswer": "Continue to seek God honestly and trust His wisdom despite repeated affliction",
+          "explanation": "Job 10:16-17 shows Job facing intensified trials but continuing to address God directly, encouraging perseverance and honest dialogue with God.",
+          "verseReference": "Job 10:16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-10-medium-q6",
+          "question": "A brother in the church is struggling with feelings of worthlessness. According to Job 10, what spiritual truth would you encourage him to remember?",
+          "type": "multiple-choice",
+          "options": [
+            "God is our Creator who has formed us with care and purpose",
+            "Our worth depends solely on our achievements",
+            "We are insignificant and forgotten by God",
+            "Only the strong have value before God"
+          ],
+          "correctAnswer": "God is our Creator who has formed us with care and purpose",
+          "explanation": "Job 10:8-12 emphasizes God’s intimate involvement in creating and sustaining life, reminding us of our value as God’s handiwork.",
+          "verseReference": "Job 10:8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-10-medium-q7",
+          "question": "How does Job 10 illustrate the importance of honesty in prayer?",
+          "type": "multiple-choice",
+          "options": [
+            "Honest expression of confusion and complaint is acceptable before God",
+            "Prayer must be only praise without any complaint",
+            "We should never question God in prayer",
+            "Prayer is unnecessary when we suffer"
+          ],
+          "correctAnswer": "Honest expression of confusion and complaint is acceptable before God",
+          "explanation": "Job 10:1-3 shows Job openly complaining and questioning God, demonstrating that honesty in prayer is part of a genuine relationship with God.",
+          "verseReference": "Job 10:1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-10-medium-q8",
+          "question": "True or False: According to Job 10, Job admits to being wicked and deserving of his suffering.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Job 10:7 states that Job knows he is not wicked, indicating he does not accept that he deserves the suffering he is experiencing.",
+          "verseReference": "Job 10:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-10-medium-q9",
+          "question": "True or False: Job 10 describes death as a peaceful and ordered place full of light.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Job 10:21-22 describes the land of death as a place of darkness and disorder, indicating it is not peaceful or full of light.",
+          "verseReference": "Job 10:21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-10-medium-q10",
+          "question": "Fill in the blank: Job 10 compares God's creation of man to pouring out ______ and curdling it like cheese.",
+          "type": "fill-blank",
+          "options": [
+            "milk",
+            "water",
+            "wine",
+            "oil"
+          ],
+          "correctAnswer": "milk",
+          "explanation": "Job 10:10 uses the analogy of God pouring out milk and curdling it like cheese to describe the formation of man.",
+          "verseReference": "Job 10:10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-10-medium-q11",
+          "question": "What does Job 10 teach about how we should view our lifespan and trials?",
+          "type": "multiple-choice",
+          "options": [
+            "Our days are few and we should seek comfort and trust God in the time we have",
+            "Our days are limitless and trials are rare",
+            "We control the length of our days completely",
+            "Trials prove God has abandoned us"
+          ],
+          "correctAnswer": "Our days are few and we should seek comfort and trust God in the time we have",
+          "explanation": "Job 10:19-20 reflects Job’s awareness of the brevity of life and his plea for comfort, teaching us to trust God amid limited days.",
+          "verseReference": "Job 10:19",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-10-medium-q12",
+          "question": "How does Job 10 encourage us to respond when God’s discipline feels harsh?",
+          "type": "multiple-choice",
+          "options": [
+            "Recognize God’s right to discipline but seek His mercy and understanding",
+            "Reject God and become bitter",
+            "Ignore the discipline and continue in sin",
+            "Blame others for our hardships"
+          ],
+          "correctAnswer": "Recognize God’s right to discipline but seek His mercy and understanding",
+          "explanation": "Job 10:14-15 acknowledge God's awareness of sin and discipline, but also show Job’s plea for mercy and understanding.",
+          "verseReference": "Job 10:14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-10-medium-q13",
+          "question": "What aspect of God’s character does Job 10 highlight that can help believers trust Him through suffering?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s intimate knowledge and craftsmanship in creating us",
+            "God’s indifference to human pain",
+            "God’s limitation to human sight",
+            "God’s preference for the wicked"
+          ],
+          "correctAnswer": "God’s intimate knowledge and craftsmanship in creating us",
+          "explanation": "Job 10:8-12 emphasizes God's detailed work in forming man, encouraging trust in His sovereign care even during trials.",
+          "verseReference": "Job 10:8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-10-medium-q14",
+          "question": "How does Job 10 guide a Christian facing confusion about their suffering in terms of prayer and trust?",
+          "type": "multiple-choice",
+          "options": [
+            "Encourage honest lament and questioning while maintaining trust in God's justice",
+            "Avoid prayer since it won’t change suffering",
+            "Demand God explain everything before trusting",
+            "Stop trusting God if suffering continues"
+          ],
+          "correctAnswer": "Encourage honest lament and questioning while maintaining trust in God's justice",
+          "explanation": "Job 10:1-3 and 13 show Job's candid lament alongside his acknowledgment of God’s hidden wisdom, teaching faith amid questions.",
+          "verseReference": "Job 10:1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-10-medium-q15",
+          "question": "How can Job 10 help believers understand the importance of humility in the midst of trials?",
+          "type": "multiple-choice",
+          "options": [
+            "By admitting confusion and not lifting up the head in pride during affliction",
+            "By boasting about their faith despite trials",
+            "By blaming others and refusing to admit weakness",
+            "By ignoring their feelings and pretending all is well"
+          ],
+          "correctAnswer": "By admitting confusion and not lifting up the head in pride during affliction",
+          "explanation": "Job 10:15 reveals Job’s humility in acknowledging confusion and not lifting his head, modeling humble dependence on God in suffering.",
+          "verseReference": "Job 10:15",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "job-10-quiz",
+      "tags": [
+        "job",
+        "chapter-10",
+        "job",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "job-10-hard",
+      "title": "Job Chapter 10 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Job Chapter 10.",
+      "type": "chapter",
+      "book": "Job",
+      "chapter": 10,
+      "questions": [
+        {
+          "id": "job-10-hard-q1",
+          "question": "In Job 10:3, Job questions whether God finds it good to oppress and despise what?",
+          "type": "multiple-choice",
+          "options": [
+            "The work of His hands",
+            "The counsel of the righteous",
+            "The prayers of the faithful",
+            "The beauty of creation"
+          ],
+          "correctAnswer": "The work of His hands",
+          "explanation": "Job 10:3 specifically asks if it is good for God to oppress and despise the work of His hands, highlighting Job's lament about his suffering despite being God's creation.",
+          "verseReference": "Job 10:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-hard-q2",
+          "question": "What metaphor does Job use in Job 10:16 to describe how God pursues him?",
+          "type": "multiple-choice",
+          "options": [
+            "A fierce lion",
+            "A roaring storm",
+            "A swift eagle",
+            "A raging fire"
+          ],
+          "correctAnswer": "A fierce lion",
+          "explanation": "Job 10:16 says, 'Thou huntest me as a fierce lion,' portraying God's pursuit as intense and relentless, which is a vivid metaphor of his distress.",
+          "verseReference": "Job 10:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-hard-q3",
+          "question": "According to Job 10:8-11, which process of human formation is described in detail?",
+          "type": "multiple-choice",
+          "options": [
+            "God fashioning Job from clay and curdling him like cheese",
+            "Man being formed from dust and receiving breath",
+            "Creation of Adam from the dust of the ground",
+            "The formation of the tabernacle by the craftsmen"
+          ],
+          "correctAnswer": "God fashioning Job from clay and curdling him like cheese",
+          "explanation": "Verses 8-11 describe God’s hands making and fashioning Job, using the imagery of clay and cheese curdling, which reflects ancient Near Eastern creation motifs of human formation.",
+          "verseReference": "Job 10:8-11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-hard-q4",
+          "question": "In Job 10:12, what does Job say God granted him that preserved his spirit?",
+          "type": "multiple-choice",
+          "options": [
+            "Life and favour",
+            "Wealth and honor",
+            "Health and strength",
+            "Peace and rest"
+          ],
+          "correctAnswer": "Life and favour",
+          "explanation": "Job 10:12 states that God granted him life and favour, and His visitation preserved his spirit, indicating Job acknowledges God's sustaining grace despite his suffering.",
+          "verseReference": "Job 10:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-hard-q5",
+          "question": "Job asks in Job 10:4 if God has eyes of flesh or sees as whom?",
+          "type": "multiple-choice",
+          "options": [
+            "Man",
+            "Angels",
+            "Animals",
+            "The heavens"
+          ],
+          "correctAnswer": "Man",
+          "explanation": "Job 10:4 questions whether God sees as man sees or has eyes of flesh, implying a challenge to God's perceived anthropomorphic limitations.",
+          "verseReference": "Job 10:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-hard-q6",
+          "question": "Which ancient Near Eastern cultural concept is reflected in Job 10:9-11 regarding human formation?",
+          "type": "multiple-choice",
+          "options": [
+            "Humans shaped from clay and molded by divine hands",
+            "Humans emerging from cosmic chaos",
+            "Humans as descendants of divine offspring",
+            "Humans created from fire and water"
+          ],
+          "correctAnswer": "Humans shaped from clay and molded by divine hands",
+          "explanation": "Job 10:9-11 reflects the common ANE motif of humans being formed from clay, similar to Mesopotamian and Egyptian creation stories, emphasizing God's intimate craftsmanship.",
+          "verseReference": "Job 10:9-11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-hard-q7",
+          "question": "True or False: In Job 10:14, Job admits that if he sins, God marks him and will not acquit him of his iniquity.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Job 10:14 clearly states that if Job sins, God marks him and will not acquit him, showing Job's struggle with understanding divine justice.",
+          "verseReference": "Job 10:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-hard-q8",
+          "question": "What literary device is prominent in Job 10:15-17 where Job expresses confusion and increasing affliction?",
+          "type": "multiple-choice",
+          "options": [
+            "Parallelism",
+            "Allegory",
+            "Chiasm",
+            "Hyperbole"
+          ],
+          "correctAnswer": "Parallelism",
+          "explanation": "The verses 15-17 use parallelism, a common Hebrew poetic device, juxtaposing Job’s righteousness and suffering with repeated expressions of his confusion and divine judgment.",
+          "verseReference": "Job 10:15-17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-hard-q9",
+          "question": "In Job 10:18-19, Job laments his birth and wishes he had done what?",
+          "type": "multiple-choice",
+          "options": [
+            "Given up the ghost before being seen by any eye",
+            "Never left his father's house",
+            "Walked a righteous path",
+            "Known God's reasons for suffering"
+          ],
+          "correctAnswer": "Given up the ghost before being seen by any eye",
+          "explanation": "Job 10:18-19 expresses Job’s wish that he had died at birth, emphasizing the depth of his despair and the theme of questioning the purpose of life amidst suffering.",
+          "verseReference": "Job 10:18-19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-hard-q10",
+          "question": "What theme in Job 10:21-22 is foreshadowed by the description of the 'land of darkness and shadow of death'?",
+          "type": "multiple-choice",
+          "options": [
+            "The afterlife and Sheol imagery",
+            "The promise of resurrection",
+            "Heavenly reward for the righteous",
+            "The fiery judgment of the wicked"
+          ],
+          "correctAnswer": "The afterlife and Sheol imagery",
+          "explanation": "Job 10:21-22 employs imagery of darkness and shadow, commonly associated in Hebrew thought with Sheol, the abode of the dead, foreshadowing themes of death and the afterlife.",
+          "verseReference": "Job 10:21-22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-hard-q11",
+          "question": "In the context of Job 10, how does Job's questioning of God relate to the broader biblical motif found in Psalms?",
+          "type": "multiple-choice",
+          "options": [
+            "It parallels lament psalms where the psalmist questions God's justice",
+            "It contradicts the psalms that only praise God",
+            "It mirrors royal psalms celebrating kingship",
+            "It alludes to wisdom psalms teaching righteousness"
+          ],
+          "correctAnswer": "It parallels lament psalms where the psalmist questions God's justice",
+          "explanation": "Job 10’s tone of lament and questioning God’s justice is similar to lament psalms (e.g., Psalm 13), where the psalmist pleads with God amid suffering, highlighting a biblical pattern of honest dialogue with God.",
+          "verseReference": "Job 10:1-3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-hard-q12",
+          "question": "The Hebrew word used in Job 10:8 for 'fashioned' (yatsar) is significant because it also appears in which other biblical creation account?",
+          "type": "multiple-choice",
+          "options": [
+            "Genesis 2:7, describing God forming man from the dust",
+            "Exodus 20:11, during the creation week",
+            "Psalm 23:1, as a metaphor for guidance",
+            "Isaiah 53:5, referring to suffering"
+          ],
+          "correctAnswer": "Genesis 2:7, describing God forming man from the dust",
+          "explanation": "The Hebrew verb 'yatsar' in Job 10:8 is the same as in Genesis 2:7, underscoring the theme of God as a potter shaping human life intimately.",
+          "verseReference": "Job 10:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-hard-q13",
+          "question": "What does Job imply about God’s nature in Job 10:5 when he asks if God's days are like man's days?",
+          "type": "multiple-choice",
+          "options": [
+            "He implies God is eternal and not limited by human time",
+            "He suggests God is mortal like humans",
+            "He claims God is unaware of human suffering",
+            "He accuses God of being slow to act"
+          ],
+          "correctAnswer": "He implies God is eternal and not limited by human time",
+          "explanation": "Job 10:5 contrasts human temporality with God's eternal nature, questioning God's purpose in scrutinizing Job’s sins despite God's timelessness.",
+          "verseReference": "Job 10:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-hard-q14",
+          "question": "How does Job 10:7 express the theme of divine sovereignty and human helplessness?",
+          "type": "multiple-choice",
+          "options": [
+            "Job acknowledges he cannot escape God's hand",
+            "Job claims he can overcome God’s power",
+            "Job declares himself righteous and free",
+            "Job questions the existence of God"
+          ],
+          "correctAnswer": "Job acknowledges he cannot escape God's hand",
+          "explanation": "In Job 10:7, Job admits there is none who can deliver him from God's hand, reflecting the biblical theme of God's absolute sovereignty over human fate.",
+          "verseReference": "Job 10:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-hard-q15",
+          "question": "Which New Testament passage echoes Job’s lament about being formed by God and questioning his suffering?",
+          "type": "multiple-choice",
+          "options": [
+            "Romans 9:20-21, regarding the potter and the clay",
+            "John 3:16, on God’s love for the world",
+            "Hebrews 11, about faith heroes",
+            "1 Corinthians 13, on love"
+          ],
+          "correctAnswer": "Romans 9:20-21, regarding the potter and the clay",
+          "explanation": "Romans 9:20-21 references the potter’s sovereignty over the clay, paralleling Job’s metaphor of God as the one who fashions him, engaging the theme of divine authority over human destiny.",
+          "verseReference": "Job 10:8-9",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "job-10-quiz",
+      "tags": [
+        "job",
+        "chapter-10",
+        "job",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "job-10-theological",
+      "title": "Job Chapter 10 Quiz - Theological Level",
+      "description": "Deep biblical theology from Job Chapter 10 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Job",
+      "chapter": 10,
+      "questions": [
+        {
+          "id": "job-10-theological-q1",
+          "question": "In Job 10, how does Job describe his soul in relation to his life?",
+          "type": "multiple-choice",
+          "options": [
+            "Weary of my life",
+            "Joyful and grateful",
+            "Indifferent to my fate",
+            "Hopeful for the future"
+          ],
+          "correctAnswer": "Weary of my life",
+          "explanation": "Job 10:1 states, 'My soul is weary of my life,' reflecting deep existential fatigue, consistent with Psalm 42:11 and Lamentations 3:17 where similar expressions of soul weariness appear.",
+          "verseReference": "Job 10:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-theological-q2",
+          "question": "What plea does Job make to God regarding his suffering in Job 10:2?",
+          "type": "multiple-choice",
+          "options": [
+            "Do not condemn me; show me why you contend with me",
+            "Take away my enemies",
+            "Give me wealth and honor",
+            "Teach me your commandments"
+          ],
+          "correctAnswer": "Do not condemn me; show me why you contend with me",
+          "explanation": "Job 10:2 shows Job asking God not to condemn him without explanation, echoing themes of divine justice and human suffering found in Psalm 13:1 and Habakkuk 1:2.",
+          "verseReference": "Job 10:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-theological-q3",
+          "question": "According to Job 10:3, what does Job question God about concerning His treatment of His creation?",
+          "type": "multiple-choice",
+          "options": [
+            "Is it good to oppress and despise the work of your hands?",
+            "Is it right to bless the wicked?",
+            "Do you forget your covenant promises?",
+            "Why do you hide your face?"
+          ],
+          "correctAnswer": "Is it good to oppress and despise the work of your hands?",
+          "explanation": "Job 10:3 questions God's justice in oppressing His creation, paralleling Isaiah 45:9 which warns against contending with the Potter, emphasizing God's sovereign yet just authority.",
+          "verseReference": "Job 10:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-theological-q4",
+          "question": "What rhetorical question does Job ask about God's perception in Job 10:4?",
+          "type": "multiple-choice",
+          "options": [
+            "Hast thou eyes of flesh? or seest thou as man seeth?",
+            "Do you hear the cries of the righteous?",
+            "Does your hand guide the stars?",
+            "Are your thoughts higher than ours?"
+          ],
+          "correctAnswer": "Hast thou eyes of flesh? or seest thou as man seeth?",
+          "explanation": "Job 10:4 challenges God's mode of perception, highlighting God's transcendence over human limitations, a theme also in Isaiah 55:8-9 and Psalm 139:1-4.",
+          "verseReference": "Job 10:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-theological-q5",
+          "question": "In Job 10:5, what does Job ask regarding the length of God's days compared to man's?",
+          "type": "multiple-choice",
+          "options": [
+            "Are thy days as the days of man? are thy years as man's days?",
+            "Do you forget the years of eternity?",
+            "Is your time measured by the sun?",
+            "Do your years pass like a shadow?"
+          ],
+          "correctAnswer": "Are thy days as the days of man? are thy years as man's days?",
+          "explanation": "Job 10:5 questions God's temporality, contrasting divine eternity with human temporality, consistent with Psalm 90:4 and 2 Peter 3:8 affirming God's timeless nature.",
+          "verseReference": "Job 10:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-theological-q6",
+          "question": "What does Job admit about his sinfulness in Job 10:6?",
+          "type": "multiple-choice",
+          "options": [
+            "That God searches after my sin and iniquity",
+            "That I am without sin before you",
+            "That my righteousness exceeds the law",
+            "That my sin is hidden from your eyes"
+          ],
+          "correctAnswer": "That God searches after my sin and iniquity",
+          "explanation": "Job 10:6 acknowledges God's thorough knowledge of human sinfulness, echoing Proverbs 15:3 and Hebrews 4:13 about God's omniscient judgment.",
+          "verseReference": "Job 10:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-theological-q7",
+          "question": "How does Job describe his own innocence in Job 10:7?",
+          "type": "multiple-choice",
+          "options": [
+            "I am not wicked; none can deliver from your hand",
+            "I am righteous and free from sin",
+            "I am perfect in all my ways",
+            "I have no need for deliverance"
+          ],
+          "correctAnswer": "I am not wicked; none can deliver from your hand",
+          "explanation": "Job 10:7 declares Job's innocence while recognizing God's sovereign power, reflecting themes found in Psalm 34:22 and Romans 8:38-39 about God's ultimate authority.",
+          "verseReference": "Job 10:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-theological-q8",
+          "question": "What metaphor does Job use for his creation by God in Job 10:9?",
+          "type": "multiple-choice",
+          "options": [
+            "Made as the clay, and returned to dust",
+            "Formed like a mountain, unshaken",
+            "Created like the stars, eternal",
+            "Built as a house, strong and secure"
+          ],
+          "correctAnswer": "Made as the clay, and returned to dust",
+          "explanation": "Job 10:9 uses the clay metaphor, consistent with Genesis 2:7 and Isaiah 64:8, underscoring humanity's dependence on God as the Potter and the transient nature of human life.",
+          "verseReference": "Job 10:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-theological-q9",
+          "question": "What does Job say God has done to him in Job 10:10?",
+          "type": "multiple-choice",
+          "options": [
+            "Poured me out as milk and curdled me like cheese",
+            "Forgiven all my transgressions",
+            "Given me strength and honor",
+            "Protected me from my enemies"
+          ],
+          "correctAnswer": "Poured me out as milk and curdled me like cheese",
+          "explanation": "Job 10:10 describes God's formative work likened to milk curdling into cheese, illustrating the intimate and sovereign involvement in human formation, paralleling Psalm 139:13-16.",
+          "verseReference": "Job 10:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-theological-q10",
+          "question": "In Job 10:12, what blessings does Job acknowledge that God has granted him?",
+          "type": "multiple-choice",
+          "options": [
+            "Life, favor, and preservation of his spirit",
+            "Wealth, power, and long life",
+            "Peace, joy, and health",
+            "Victory over enemies"
+          ],
+          "correctAnswer": "Life, favor, and preservation of his spirit",
+          "explanation": "Job 10:12 credits God with life, favor, and preservation, reflecting divine grace and sustaining power found in Nehemiah 9:20 and Psalm 31:24.",
+          "verseReference": "Job 10:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-theological-q11",
+          "question": "According to Job 10:14, what does God do if Job sins?",
+          "type": "multiple-choice",
+          "options": [
+            "Marks him and will not acquit him from iniquity",
+            "Immediately forgives and forgets",
+            "Ignores the sin",
+            "Punishes others instead"
+          ],
+          "correctAnswer": "Marks him and will not acquit him from iniquity",
+          "explanation": "Job 10:14 reflects God's holiness and justice, holding sinners accountable, consistent with Ezekiel 18:4 and Hebrews 10:26-27 regarding divine judgment.",
+          "verseReference": "Job 10:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-theological-q12",
+          "question": "What does Job say about his condition even if he is righteous in Job 10:15?",
+          "type": "multiple-choice",
+          "options": [
+            "He will not lift up his head and is full of confusion",
+            "He will rejoice and be exalted",
+            "He will receive immediate vindication",
+            "He will be free from suffering"
+          ],
+          "correctAnswer": "He will not lift up his head and is full of confusion",
+          "explanation": "Job 10:15 expresses Job's confusion and discouragement despite righteousness, illustrating the mystery of suffering in the godly, paralleling passages like Psalm 73 and 1 Peter 4:12-13.",
+          "verseReference": "Job 10:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-theological-q13",
+          "question": "How does Job describe God's treatment of him in Job 10:16?",
+          "type": "multiple-choice",
+          "options": [
+            "God hunts him as a fierce lion and shows Himself marvellous upon him",
+            "God protects him like a shepherd",
+            "God hides His face from him",
+            "God blesses him abundantly"
+          ],
+          "correctAnswer": "God hunts him as a fierce lion and shows Himself marvellous upon him",
+          "explanation": "Job 10:16 uses the metaphor of a lion hunting to depict divine affliction, echoing Habakkuk 1:8 and Revelation 5:5 where God’s power is both fearsome and sovereign.",
+          "verseReference": "Job 10:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-theological-q14",
+          "question": "What lament does Job express about his birth in Job 10:18?",
+          "type": "multiple-choice",
+          "options": [
+            "Oh that I had died before seeing the light",
+            "I am grateful to have been born",
+            "My birth brought great joy",
+            "I was born for a special purpose"
+          ],
+          "correctAnswer": "Oh that I had died before seeing the light",
+          "explanation": "Job 10:18 voices the lament of wishing for death before birth, a profound expression of despair also seen in Jeremiah 20:14-18 and Psalm 88:3-6.",
+          "verseReference": "Job 10:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-10-theological-q15",
+          "question": "In Job 10:21, where does Job say he is going from which he will not return?",
+          "type": "multiple-choice",
+          "options": [
+            "To the land of darkness and the shadow of death",
+            "To the promised land",
+            "To the city of God",
+            "To the place of eternal joy"
+          ],
+          "correctAnswer": "To the land of darkness and the shadow of death",
+          "explanation": "Job 10:21 describes death as a journey to a land of darkness and shadow, illustrating the ancient biblical view of Sheol, as also described in Psalm 23:4 and Ecclesiastes 9:10.",
+          "verseReference": "Job 10:21",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "job-10-quiz",
+      "tags": [
+        "job",
+        "chapter-10",
+        "job",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

@@ -1,0 +1,983 @@
+{
+  "id": "john-1-tabbed",
+  "title": "John Chapter 1 Quiz - Multi-Level",
+  "description": "An enhanced quiz on John chapter 1 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "john-1-easy",
+      "title": "John Chapter 1 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of John Chapter 1.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "john-1-easy-q1",
+          "question": "According to John 1:1, who was with God in the beginning?",
+          "type": "multiple-choice",
+          "options": [
+            "The Word",
+            "The Light",
+            "John",
+            "The Spirit"
+          ],
+          "correctAnswer": "The Word",
+          "explanation": "John 1:1 states, 'In the beginning was the Word, and the Word was with God.'",
+          "verseReference": "John 1:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-1-easy-q2",
+          "question": "What was made by him according to John 1:3?",
+          "type": "multiple-choice",
+          "options": [
+            "All things",
+            "Only the earth",
+            "Only the heavens",
+            "Only mankind"
+          ],
+          "correctAnswer": "All things",
+          "explanation": "John 1:3 says, 'All things were made by him; and without him was not any thing made that was made.'",
+          "verseReference": "John 1:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-1-easy-q3",
+          "question": "What is described as the light of men in John 1:4?",
+          "type": "multiple-choice",
+          "options": [
+            "Life",
+            "The Word",
+            "The Spirit",
+            "Grace"
+          ],
+          "correctAnswer": "Life",
+          "explanation": "John 1:4 states, 'In him was life; and the life was the light of men.'",
+          "verseReference": "John 1:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-1-easy-q4",
+          "question": "Who was sent from God according to John 1:6?",
+          "type": "multiple-choice",
+          "options": [
+            "John",
+            "Moses",
+            "Jesus",
+            "Philip"
+          ],
+          "correctAnswer": "John",
+          "explanation": "John 1:6 says, 'There was a man sent from God, whose name was John.'",
+          "verseReference": "John 1:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-1-easy-q5",
+          "question": "True or False: John 1:9 describes the true Light as lighting every man that comes into the world.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 1:9 states, 'That was the true Light, which lighteth every man that cometh into the world.'",
+          "verseReference": "John 1:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-1-easy-q6",
+          "question": "According to John 1:12, what is given to those who receive him?",
+          "type": "multiple-choice",
+          "options": [
+            "Power to become the sons of God",
+            "Eternal riches",
+            "Peace on earth",
+            "Knowledge of the law"
+          ],
+          "correctAnswer": "Power to become the sons of God",
+          "explanation": "John 1:12 says, 'But as many as received him, to them gave he power to become the sons of God.'",
+          "verseReference": "John 1:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-1-easy-q7",
+          "question": "Fill in the blank: 'And the Word was made ______, and dwelt among us.'",
+          "type": "fill-blank",
+          "options": [
+            "flesh",
+            "light",
+            "spirit",
+            "water"
+          ],
+          "correctAnswer": "flesh",
+          "explanation": "John 1:14 states, 'And the Word was made flesh, and dwelt among us.'",
+          "verseReference": "John 1:14",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-1-easy-q8",
+          "question": "Who did John say he was not, according to John 1:20?",
+          "type": "multiple-choice",
+          "options": [
+            "The Christ",
+            "Elias",
+            "The prophet",
+            "Jesus"
+          ],
+          "correctAnswer": "The Christ",
+          "explanation": "John 1:20 records John saying, 'I am not the Christ.'",
+          "verseReference": "John 1:20",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-1-easy-q9",
+          "question": "According to John 1:23, what did John say he was the voice of?",
+          "type": "multiple-choice",
+          "options": [
+            "One crying in the wilderness",
+            "The Messiah",
+            "A prophet",
+            "The Light"
+          ],
+          "correctAnswer": "One crying in the wilderness",
+          "explanation": "John 1:23 says, 'I am the voice of one crying in the wilderness, Make straight the way of the Lord.'",
+          "verseReference": "John 1:23",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-1-easy-q10",
+          "question": "Where was John baptizing according to John 1:28?",
+          "type": "multiple-choice",
+          "options": [
+            "Bethabara beyond Jordan",
+            "Jerusalem",
+            "Nazareth",
+            "Galilee"
+          ],
+          "correctAnswer": "Bethabara beyond Jordan",
+          "explanation": "John 1:28 states, 'These things were done in Bethabara beyond Jordan, where John was baptizing.'",
+          "verseReference": "John 1:28",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-1-easy-q11",
+          "question": "True or False: John 1:29 refers to Jesus as the Lamb of God who takes away the sin of the world.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 1:29 says, 'Behold the Lamb of God, which taketh away the sin of the world.'",
+          "verseReference": "John 1:29",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-1-easy-q12",
+          "question": "Who did Andrew find and bring to Jesus according to John 1:41-42?",
+          "type": "multiple-choice",
+          "options": [
+            "Simon Peter",
+            "Philip",
+            "Nathanael",
+            "John"
+          ],
+          "correctAnswer": "Simon Peter",
+          "explanation": "John 1:41-42 describes Andrew finding his brother Simon and bringing him to Jesus.",
+          "verseReference": "John 1:41-42",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-1-easy-q13",
+          "question": "What new name did Jesus give to Simon, as stated in John 1:42?",
+          "type": "multiple-choice",
+          "options": [
+            "Cephas",
+            "Nathanael",
+            "Philip",
+            "John"
+          ],
+          "correctAnswer": "Cephas",
+          "explanation": "John 1:42 says Jesus called Simon 'Cephas,' which means a stone.",
+          "verseReference": "John 1:42",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-1-easy-q14",
+          "question": "True or False: John 1:18 says that many have seen God at any time.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 1:18 states, 'No man hath seen God at any time.'",
+          "verseReference": "John 1:18",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-1-easy-q15",
+          "question": "According to John 1:51, what will people see in the future?",
+          "type": "multiple-choice",
+          "options": [
+            "Heaven open and angels ascending and descending upon the Son of man",
+            "The end of days",
+            "The return of Elijah",
+            "The coming of the Spirit"
+          ],
+          "correctAnswer": "Heaven open and angels ascending and descending upon the Son of man",
+          "explanation": "John 1:51 states, 'Hereafter ye shall see heaven open, and the angels of God ascending and descending upon the Son of man.'",
+          "verseReference": "John 1:51",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "john-1-quiz",
+      "tags": [
+        "john",
+        "chapter-1",
+        "john",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "john-1-medium",
+      "title": "John Chapter 1 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from John Chapter 1 to real-life situations.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "john-1-medium-q1",
+          "question": "A fellow believer is struggling with doubt about Jesus' divine nature. Based on John 1, what biblical truth would you share about Jesus' identity?",
+          "type": "multiple-choice",
+          "options": [
+            "The Word was with God, and the Word was God",
+            "Jesus is a good teacher but not divine",
+            "Jesus was a prophet like Moses",
+            "Jesus came after John the Baptist"
+          ],
+          "correctAnswer": "The Word was with God, and the Word was God",
+          "explanation": "John 1:1 clearly states that the Word was God and was with God from the beginning. This establishes Jesus' divine nature, supported also by verses 1:14 and 1:18 which show the Word became flesh and declared the Father.",
+          "verseReference": "John 1:1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-1-medium-q2",
+          "question": "How does John 1 teach about the importance of being a witness for Christ in daily life?",
+          "type": "multiple-choice",
+          "options": [
+            "John came to bear witness of the Light so that all might believe through him",
+            "John baptized only the righteous",
+            "John was the Light himself",
+            "John did not speak about Jesus openly"
+          ],
+          "correctAnswer": "John came to bear witness of the Light so that all might believe through him",
+          "explanation": "John 1:7 explains John the Baptist's role as a witness of the Light (Jesus), emphasizing the importance of witnessing so that others may believe. This is echoed in verses 1:8 and 1:15.",
+          "verseReference": "John 1:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-1-medium-q3",
+          "question": "A believer is discouraged in prayer, feeling distant from God. Based on John 1, what encouragement regarding life and light would you offer?",
+          "type": "multiple-choice",
+          "options": [
+            "In him was life; and the life was the light of men",
+            "Prayer is only for the righteous",
+            "Darkness always overcomes the light",
+            "God is distant and unapproachable"
+          ],
+          "correctAnswer": "In him was life; and the life was the light of men",
+          "explanation": "John 1:4 teaches that life is found in Jesus and this life is the light that shines in darkness. This means believers can find hope and encouragement through Him, even in times of spiritual struggle.",
+          "verseReference": "John 1:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-1-medium-q4",
+          "question": "How does John 1 encourage believers to respond to rejection and opposition in their faith journey?",
+          "type": "multiple-choice",
+          "options": [
+            "He came unto his own, and his own received him not",
+            "Believers should avoid those who reject them",
+            "Rejection means God has abandoned you",
+            "Opposition is a sign to stop believing"
+          ],
+          "correctAnswer": "He came unto his own, and his own received him not",
+          "explanation": "John 1:11 reveals that Jesus Himself was rejected by His own people, encouraging believers to remain faithful and trust God despite opposition, supported by verses 1:10 and 1:12.",
+          "verseReference": "John 1:11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-1-medium-q5",
+          "question": "What does John 1 teach about receiving Jesus and the resulting change in identity?",
+          "type": "multiple-choice",
+          "options": [
+            "As many as received him, to them gave he power to become the sons of God",
+            "Receiving Jesus guarantees worldly success",
+            "Believers become angels when they receive Jesus",
+            "Receiving Jesus means leaving family behind"
+          ],
+          "correctAnswer": "As many as received him, to them gave he power to become the sons of God",
+          "explanation": "John 1:12 teaches that those who receive Jesus gain the right to become children of God, emphasizing faith's transformative power. This is linked to verses 1:13 and 1:14 about spiritual rebirth and the Word becoming flesh.",
+          "verseReference": "John 1:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-1-medium-q6",
+          "question": "A Christian is seeking to understand true spiritual birth. According to John 1, how is one born spiritually?",
+          "type": "multiple-choice",
+          "options": [
+            "Not of blood, nor of the will of the flesh, nor of the will of man, but of God",
+            "Only through human effort and good works",
+            "By following the traditions of men",
+            "Through physical birth alone"
+          ],
+          "correctAnswer": "Not of blood, nor of the will of the flesh, nor of the will of man, but of God",
+          "explanation": "John 1:13 clarifies spiritual birth is a divine act, not dependent on human ancestry or will, underscoring the necessity of God's work in regeneration. This supports the believer's new identity mentioned in verse 1:12.",
+          "verseReference": "John 1:13",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-1-medium-q7",
+          "question": "How does John 1 teach us about humility in recognizing Jesus' superiority?",
+          "type": "multiple-choice",
+          "options": [
+            "He is preferred before me, for he was before me",
+            "I am greater than he who comes after me",
+            "Jesus is just a man like me",
+            "John the Baptist was the Messiah"
+          ],
+          "correctAnswer": "He is preferred before me, for he was before me",
+          "explanation": "John 1:15 shows John the Baptist acknowledging Jesus' preeminence and eternal existence, teaching humility to recognize Christ's superiority. This is echoed in verses 1:27 and 1:30.",
+          "verseReference": "John 1:15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-1-medium-q8",
+          "question": "How does John 1 emphasize the importance of grace and truth in the Christian life?",
+          "type": "multiple-choice",
+          "options": [
+            "Grace and truth came by Jesus Christ",
+            "The law alone is sufficient for salvation",
+            "Truth is relative and grace optional",
+            "Grace is only for the righteous"
+          ],
+          "correctAnswer": "Grace and truth came by Jesus Christ",
+          "explanation": "John 1:17 contrasts the law given by Moses with grace and truth brought by Jesus Christ, highlighting the necessity of receiving Jesus for a life enriched by God's grace and genuine truth.",
+          "verseReference": "John 1:17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-1-medium-q9",
+          "question": "A new believer asks about knowing God personally. According to John 1, how has God been revealed to us?",
+          "type": "multiple-choice",
+          "options": [
+            "The only begotten Son, who is in the bosom of the Father, has declared Him",
+            "God appears in visible form to everyone",
+            "God only reveals Himself through angels",
+            "We cannot know God in this life"
+          ],
+          "correctAnswer": "The only begotten Son, who is in the bosom of the Father, has declared Him",
+          "explanation": "John 1:18 explains that no one has seen God except the Son, who reveals Him fully. This teaches believers to look to Jesus for true knowledge of God.",
+          "verseReference": "John 1:18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-1-medium-q10",
+          "question": "How does John 1 teach about the role of baptism as a testimony to faith?",
+          "type": "multiple-choice",
+          "options": [
+            "John baptized with water to make Jesus manifest to Israel",
+            "Baptism is unnecessary for believers",
+            "Baptism earns salvation by itself",
+            "John baptized only animals"
+          ],
+          "correctAnswer": "John baptized with water to make Jesus manifest to Israel",
+          "explanation": "John 1:31 shows John the Baptist's purpose in baptizing was to reveal Jesus to Israel, emphasizing baptism as a public witness of faith. This is also supported by verses 1:26 and 1:33.",
+          "verseReference": "John 1:31",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-1-medium-q11",
+          "question": "True or False: According to John 1, John the Baptist claimed he was the Christ.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 1:20 records John the Baptist denying that he was the Christ, emphasizing his role as a witness rather than the Messiah himself.",
+          "verseReference": "John 1:20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-1-medium-q12",
+          "question": "True or False: John 1 teaches that Jesus is the Lamb of God who takes away the sin of the world.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 1:29 clearly states Jesus is the Lamb of God who takes away the sin of the world, emphasizing His role in salvation and atonement.",
+          "verseReference": "John 1:29",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-1-medium-q13",
+          "question": "Fill in the blank: John said, \"I am the voice of one crying in the wilderness, Make straight the way of the ______.\"",
+          "type": "fill-blank",
+          "options": [
+            "Lord",
+            "King",
+            "Prophet",
+            "Redeemer"
+          ],
+          "correctAnswer": "Lord",
+          "explanation": "John 1:23 quotes John the Baptist identifying himself as the voice crying in the wilderness to prepare the way of the Lord, highlighting the call for repentance and readiness for Christ.",
+          "verseReference": "John 1:23",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-1-medium-q14",
+          "question": "How does John 1 guide believers in sharing the gospel with others?",
+          "type": "multiple-choice",
+          "options": [
+            "Follow Jesus and tell others 'We have found the Messias'",
+            "Keep faith private and do not share",
+            "Only priests should spread the gospel",
+            "Wait for others to ask about faith"
+          ],
+          "correctAnswer": "Follow Jesus and tell others 'We have found the Messias'",
+          "explanation": "John 1:41 shows Andrew telling his brother Simon that they have found the Messiah, encouraging believers to actively share the good news with family and friends. This is supported by verses 1:35-37 and 1:45.",
+          "verseReference": "John 1:41",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-1-medium-q15",
+          "question": "A believer is struggling with contentment and humility. What example from John 1 illustrates humility before Christ?",
+          "type": "multiple-choice",
+          "options": [
+            "John said he was not worthy to loose the shoe's latchet of Jesus",
+            "John claimed to be greater than Jesus",
+            "John refused to baptize Jesus",
+            "John ignored Jesus when he came"
+          ],
+          "correctAnswer": "John said he was not worthy to loose the shoe's latchet of Jesus",
+          "explanation": "John 1:27 records John the Baptist humbly declaring he is not worthy even to untie Jesus' sandal, demonstrating profound humility and reverence before Christ.",
+          "verseReference": "John 1:27",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "john-1-quiz",
+      "tags": [
+        "john",
+        "chapter-1",
+        "john",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "john-1-hard",
+      "title": "John Chapter 1 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from John Chapter 1.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "john-1-hard-q1",
+          "question": "What is the theological significance of the phrase 'In the beginning was the Word' in John 1:1?",
+          "type": "multiple-choice",
+          "options": [
+            "It affirms the eternal preexistence of the Word, identifying Him with God",
+            "It denotes the start of Jesus' earthly ministry",
+            "It refers to the beginning of the written Gospel of John",
+            "It symbolizes the start of creation by Moses"
+          ],
+          "correctAnswer": "It affirms the eternal preexistence of the Word, identifying Him with God",
+          "explanation": "John 1:1 states 'In the beginning was the Word,' indicating the Word's existence before creation, affirming His divinity and eternal nature, paralleling Genesis 1:1's 'In the beginning God created.'",
+          "verseReference": "John 1:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-hard-q2",
+          "question": "How does John 1:3 connect the Word to the creation narrative found in Genesis?",
+          "type": "multiple-choice",
+          "options": [
+            "All things were made by him, establishing the Word as Creator",
+            "The Word only created spiritual beings",
+            "The Word is a metaphor for Moses' law",
+            "Creation happened independently of the Word"
+          ],
+          "correctAnswer": "All things were made by him, establishing the Word as Creator",
+          "explanation": "John 1:3 affirms that 'All things were made by him,' directly relating the Word to the Creator role attributed to God in Genesis 1, showing continuity between the Old and New Testament theology.",
+          "verseReference": "John 1:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-hard-q3",
+          "question": "In John 1:5, the phrase 'the light shineth in darkness; and the darkness comprehended it not' employs which literary device?",
+          "type": "multiple-choice",
+          "options": [
+            "Personification, portraying light and darkness as opposing forces",
+            "Simile, comparing light to a shining star",
+            "Paradox, stating an impossible truth",
+            "Hyperbole, exaggerating the power of light"
+          ],
+          "correctAnswer": "Personification, portraying light and darkness as opposing forces",
+          "explanation": "The verse uses personification to depict light and darkness as entities in conflict, symbolizing good and evil or truth and ignorance, a common biblical motif.",
+          "verseReference": "John 1:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-hard-q4",
+          "question": "What is the significance of John the Baptist's role as described in John 1:7-8?",
+          "type": "multiple-choice",
+          "options": [
+            "He was sent to bear witness to the Light, not to be the Light himself",
+            "He was the Messiah himself",
+            "He was a prophet who performed miracles",
+            "He was a priest from Jerusalem"
+          ],
+          "correctAnswer": "He was sent to bear witness to the Light, not to be the Light himself",
+          "explanation": "John 1:7-8 clarifies John the Baptist's mission as a witness to Jesus (the Light), emphasizing his subordinate role and preparing the way for Christ.",
+          "verseReference": "John 1:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-hard-q5",
+          "question": "According to John 1:14, what doctrine is established by 'The Word was made flesh'?",
+          "type": "multiple-choice",
+          "options": [
+            "The Incarnation, affirming Jesus' full divinity and humanity",
+            "The Trinity, defining the three persons of God",
+            "The Resurrection, referring to Jesus rising from the dead",
+            "The Mosaic Law, emphasizing the Old Testament commandments"
+          ],
+          "correctAnswer": "The Incarnation, affirming Jesus' full divinity and humanity",
+          "explanation": "John 1:14 states 'The Word was made flesh,' which is a clear assertion of the Incarnation, central to Christian theology, identifying Jesus as both fully God and fully man.",
+          "verseReference": "John 1:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-hard-q6",
+          "question": "What does the Greek term 'Logos' translated as 'Word' in John 1:1 signify in Hellenistic philosophy and Jewish thought?",
+          "type": "multiple-choice",
+          "options": [
+            "Divine reason or principle that orders the universe",
+            "A mere human spoken word",
+            "An angelic messenger",
+            "A physical book of laws"
+          ],
+          "correctAnswer": "Divine reason or principle that orders the universe",
+          "explanation": "In Greek philosophy, 'Logos' denotes the rational principle organizing cosmos; John’s use aligns Jesus with this concept, while also connecting to Jewish Wisdom traditions.",
+          "verseReference": "John 1:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-hard-q7",
+          "question": "How does John 1:17 contrast the roles of Moses and Jesus Christ?",
+          "type": "multiple-choice",
+          "options": [
+            "Law was given by Moses; grace and truth came by Jesus Christ",
+            "Jesus gave the law; Moses brought grace",
+            "Both gave the law equally",
+            "Neither gave law or grace"
+          ],
+          "correctAnswer": "Law was given by Moses; grace and truth came by Jesus Christ",
+          "explanation": "John 1:17 contrasts the Old Covenant, represented by Moses and the law, with the New Covenant of grace and truth brought by Jesus, highlighting fulfillment and transformation.",
+          "verseReference": "John 1:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-hard-q8",
+          "question": "What historical context is referenced by 'Bethabara beyond Jordan' in John 1:28?",
+          "type": "multiple-choice",
+          "options": [
+            "A location where John the Baptist conducted baptisms",
+            "The birthplace of Jesus",
+            "A Roman military camp",
+            "The city of Jerusalem"
+          ],
+          "correctAnswer": "A location where John the Baptist conducted baptisms",
+          "explanation": "John 1:28 situates John’s ministry geographically, identifying the site known for baptism and highlighting the Jordan River’s significance in Jewish purification rituals.",
+          "verseReference": "John 1:28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-hard-q9",
+          "question": "In John 1:34, what is the significance of John the Baptist's declaration 'This is the Son of God'?",
+          "type": "multiple-choice",
+          "options": [
+            "It identifies Jesus' divine sonship and messianic identity",
+            "It confuses Jesus with Elijah",
+            "It denies Jesus' divinity",
+            "It refers to a future prophet"
+          ],
+          "correctAnswer": "It identifies Jesus' divine sonship and messianic identity",
+          "explanation": "John 1:34 is a pivotal confession recognizing Jesus as the divine Son of God, affirming his unique role in salvation history.",
+          "verseReference": "John 1:34",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-hard-q10",
+          "question": "What literary structure is evident in John 1:29-34 where John the Baptist testifies about Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "A chiastic structure emphasizing Jesus as the Lamb of God",
+            "A parable illustrating the kingdom of God",
+            "An allegory about the law and grace",
+            "A genealogical list"
+          ],
+          "correctAnswer": "A chiastic structure emphasizing Jesus as the Lamb of God",
+          "explanation": "These verses showcase a chiastic pattern focusing on Jesus’ identity as the Lamb of God, a typology linking Him to sacrificial lamb imagery in the Old Testament.",
+          "verseReference": "John 1:29-34",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-hard-q11",
+          "question": "How does the setting of the dialogue between Jesus and His first disciples in John 1:38-39 reflect ancient Jewish teacher-disciple relationships?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus inviting them to 'Come and see' models the rabbinic tradition of personal mentorship",
+            "It shows a formal public sermon setting",
+            "It depicts a political gathering",
+            "It illustrates a marketplace discussion"
+          ],
+          "correctAnswer": "Jesus inviting them to 'Come and see' models the rabbinic tradition of personal mentorship",
+          "explanation": "Jesus’ personal invitation aligns with rabbinic customs where disciples followed a teacher closely, learning through direct experience and presence.",
+          "verseReference": "John 1:38-39",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-hard-q12",
+          "question": "What cultural significance does the renaming of Simon to Cephas (Peter) in John 1:42 hold?",
+          "type": "multiple-choice",
+          "options": [
+            "It signifies a new identity and foundational role in the community",
+            "It indicates rejection by Jesus",
+            "It was a common practice to rename slaves",
+            "It was a punishment for sin"
+          ],
+          "correctAnswer": "It signifies a new identity and foundational role in the community",
+          "explanation": "Renaming Simon as Cephas ('stone') symbolizes his role as a foundational figure in the early Church, reflecting Jewish and biblical customs of name changes indicating mission or destiny.",
+          "verseReference": "John 1:42",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-hard-q13",
+          "question": "True or False: According to John 1:18, anyone has seen God directly at any time.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 1:18 states 'No man hath seen God at any time,' emphasizing the unique revelation of God through the Son, not direct human sight.",
+          "verseReference": "John 1:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-hard-q14",
+          "question": "What is the theological implication of John 1:12’s promise to 'as many as received him'?",
+          "type": "multiple-choice",
+          "options": [
+            "They are empowered to become sons of God through belief in Jesus’ name",
+            "They will be judged by the law of Moses",
+            "They must perform rituals to attain salvation",
+            "They inherit the throne of David"
+          ],
+          "correctAnswer": "They are empowered to become sons of God through belief in Jesus’ name",
+          "explanation": "John 1:12 explains that reception and belief in Jesus confer divine sonship, emphasizing faith as the means of entrance into God’s family.",
+          "verseReference": "John 1:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-hard-q15",
+          "question": "How does John 1:51 allude to the Old Testament dream of Jacob at Bethel?",
+          "type": "multiple-choice",
+          "options": [
+            "He references angels ascending and descending, echoing Jacob’s ladder vision",
+            "He talks about Moses receiving the law",
+            "He describes the burning bush",
+            "He mentions David’s throne"
+          ],
+          "correctAnswer": "He references angels ascending and descending, echoing Jacob’s ladder vision",
+          "explanation": "The imagery in John 1:51 recalls Genesis 28:12 where Jacob sees angels on a ladder, linking Jesus as the mediator between heaven and earth.",
+          "verseReference": "John 1:51",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "john-1-quiz",
+      "tags": [
+        "john",
+        "chapter-1",
+        "john",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "john-1-theological",
+      "title": "John Chapter 1 Quiz - Theological Level",
+      "description": "Deep biblical theology from John Chapter 1 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "john-1-theological-q1",
+          "question": "According to John 1:1, what is the relationship between the Word and God?",
+          "type": "multiple-choice",
+          "options": [
+            "The Word was with God and was God",
+            "The Word was created by God",
+            "The Word was an angel of God",
+            "The Word is a metaphor for God's wisdom"
+          ],
+          "correctAnswer": "The Word was with God and was God",
+          "explanation": "John 1:1 clearly states that the Word was both with God and was God, affirming the eternal divinity of the Word. This is consistent with Proverbs 8:22-30 where Wisdom is personified but distinct, and Colossians 1:15-17 that describes Christ as the image of the invisible God and creator of all things.",
+          "verseReference": "John 1:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-theological-q2",
+          "question": "What does John 1:3 teach about creation?",
+          "type": "multiple-choice",
+          "options": [
+            "All things were made by the Word, and nothing was made without Him",
+            "Creation was done through angels",
+            "The Word only created spiritual things",
+            "Creation was a gradual process over time"
+          ],
+          "correctAnswer": "All things were made by the Word, and nothing was made without Him",
+          "explanation": "John 1:3 asserts the Word's active role in creation, stating nothing was made without Him. This supports passages like Genesis 1:1-3 where God created all things, Hebrews 1:2 where the Son created the worlds, and Colossians 1:16 that affirms all things were created through Him.",
+          "verseReference": "John 1:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-theological-q3",
+          "question": "According to John 1:4, what is the significance of life in the Word?",
+          "type": "multiple-choice",
+          "options": [
+            "Life in the Word is the light of men",
+            "Life is a physical attribute only",
+            "Life is a temporary condition",
+            "Life belongs only to angels"
+          ],
+          "correctAnswer": "Life in the Word is the light of men",
+          "explanation": "John 1:4 teaches that the life in the Word is the light that illuminates humanity, symbolizing spiritual life and truth. This corresponds with Genesis 1:3 where God said 'Let there be light', Psalm 36:9 emphasizing God as the source of life and light, and 1 John 1:5 describing God as light without darkness.",
+          "verseReference": "John 1:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-theological-q4",
+          "question": "What does John 1:5 say about the Light and darkness?",
+          "type": "multiple-choice",
+          "options": [
+            "The light shines in darkness, but the darkness did not comprehend it",
+            "Darkness overpowers the light",
+            "Light and darkness are equal",
+            "Darkness was created before the light"
+          ],
+          "correctAnswer": "The light shines in darkness, but the darkness did not comprehend it",
+          "explanation": "John 1:5 affirms the triumph of divine light over darkness, indicating darkness cannot overcome or understand the light. This theme is echoed in Isaiah 9:2 about the people walking in darkness seeing a great light, 2 Corinthians 4:6 about God shining light in hearts, and Revelation 21:23 where God's light dispels all darkness.",
+          "verseReference": "John 1:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-theological-q5",
+          "question": "Who was the man sent from God mentioned in John 1:6?",
+          "type": "multiple-choice",
+          "options": [
+            "John",
+            "Moses",
+            "Elijah",
+            "Jesus"
+          ],
+          "correctAnswer": "John",
+          "explanation": "John 1:6 identifies the man sent from God as John the Baptist, who came to bear witness of the Light. This is consistent with Malachi 3:1 predicting a messenger, Luke 1:17 describing John preparing the way, and Matthew 3:1-3 confirming John's role as the forerunner of Christ.",
+          "verseReference": "John 1:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-theological-q6",
+          "question": "What was John's purpose as described in John 1:7-8?",
+          "type": "multiple-choice",
+          "options": [
+            "To bear witness of the Light so all might believe",
+            "To perform miracles like Jesus",
+            "To be the Messiah himself",
+            "To establish a new law"
+          ],
+          "correctAnswer": "To bear witness of the Light so all might believe",
+          "explanation": "John 1:7-8 shows John's mission was to testify about the Light (Jesus) so that people might come to faith. This aligns with Isaiah 40:3 about preparing the way, Luke 3:4-6 describing John's preaching, and John 3:28 where John declares he is not the Christ but a witness.",
+          "verseReference": "John 1:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-theological-q7",
+          "question": "Fill in the blank: \"The Word was made ______, and dwelt among us\" (John 1:14).",
+          "type": "multiple-choice",
+          "options": [
+            "flesh",
+            "spirit",
+            "light",
+            "fire"
+          ],
+          "correctAnswer": "flesh",
+          "explanation": "John 1:14 affirms the incarnation, stating the Word became flesh, indicating God took on human nature. This foundational doctrine is supported by Philippians 2:6-8 about Christ's humility, Hebrews 2:14 about sharing flesh and blood, and Isaiah 7:14 predicting Immanuel 'God with us'.",
+          "verseReference": "John 1:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-theological-q8",
+          "question": "According to John 1:16-17, what came through Jesus Christ in contrast to the law given by Moses?",
+          "type": "multiple-choice",
+          "options": [
+            "Grace and truth",
+            "Judgment and condemnation",
+            "Ritual and sacrifice",
+            "Power and authority"
+          ],
+          "correctAnswer": "Grace and truth",
+          "explanation": "John 1:16-17 contrasts the law given by Moses with grace and truth coming through Jesus Christ, highlighting the new covenant of mercy and revelation. This is consistent with Romans 5:20-21 where grace abounds over sin, Hebrews 8:6 speaking of the new covenant, and Exodus 34:6 emphasizing God's grace and truth.",
+          "verseReference": "John 1:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-theological-q9",
+          "question": "Who, according to John 1:18, has declared God to mankind?",
+          "type": "multiple-choice",
+          "options": [
+            "The only begotten Son in the bosom of the Father",
+            "Moses on Mount Sinai",
+            "The prophets of Israel",
+            "The angels of heaven"
+          ],
+          "correctAnswer": "The only begotten Son in the bosom of the Father",
+          "explanation": "John 1:18 teaches that no one has seen God except the only begotten Son, who reveals the Father. This correlates with Hebrews 1:3 describing the Son as the radiance of God's glory, Colossians 1:15 calling Him the image of the invisible God, and Exodus 33:20 where no one can see God and live.",
+          "verseReference": "John 1:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-theological-q10",
+          "question": "What confession did John the Baptist make when asked if he was the Christ, Elijah, or the prophet (John 1:20-21)?",
+          "type": "multiple-choice",
+          "options": [
+            "He denied being any of them",
+            "He claimed to be Christ",
+            "He claimed to be Elijah",
+            "He claimed to be the prophet"
+          ],
+          "correctAnswer": "He denied being any of them",
+          "explanation": "John 1:20-21 shows John explicitly denying being the Christ, Elijah, or the prophet, acknowledging his role was different. This aligns with Malachi 4:5-6 predicting Elijah's return, Luke 1:17 distinguishing John from Elijah, and Matthew 11:14 identifying John as Elijah in spirit but not literally.",
+          "verseReference": "John 1:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-theological-q11",
+          "question": "What title did John the Baptist give to Jesus in John 1:29?",
+          "type": "multiple-choice",
+          "options": [
+            "Lamb of God",
+            "King of Israel",
+            "Son of Man",
+            "Rabbi"
+          ],
+          "correctAnswer": "Lamb of God",
+          "explanation": "John 1:29 calls Jesus the 'Lamb of God who takes away the sin of the world,' highlighting His sacrificial role. This is supported by Isaiah 53:7 foretelling the suffering servant as a lamb, Exodus 12:3-7 describing the Passover lamb, and 1 Corinthians 5:7 referring to Christ as our Passover lamb.",
+          "verseReference": "John 1:29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-theological-q12",
+          "question": "According to John 1:32-34, what sign confirmed Jesus as the Son of God?",
+          "type": "multiple-choice",
+          "options": [
+            "The Spirit descending like a dove and remaining on Him",
+            "A voice from heaven declaring Him",
+            "Miracles performed in His name",
+            "His resurrection from the dead"
+          ],
+          "correctAnswer": "The Spirit descending like a dove and remaining on Him",
+          "explanation": "John 1:32-34 describes the Spirit descending like a dove and remaining on Jesus as the sign identifying Him as the Son of God. This sign is consistent with Isaiah 11:2 describing the Spirit upon the Messiah, Matthew 3:16 confirming the baptism event, and Psalm 2:7 where God declares His Son.",
+          "verseReference": "John 1:32",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-theological-q13",
+          "question": "Who is the first disciple mentioned by name that followed Jesus after hearing John the Baptist (John 1:40)?",
+          "type": "multiple-choice",
+          "options": [
+            "Andrew",
+            "Simon Peter",
+            "Philip",
+            "Nathanael"
+          ],
+          "correctAnswer": "Andrew",
+          "explanation": "John 1:40 identifies Andrew as the first disciple who followed Jesus after hearing John the Baptist. This fits with Matthew 4:18 where Andrew is called first, Mark 1:16-18 noting Andrew and Peter's calling, and Luke 5:10 confirming Andrew's role among the first followers.",
+          "verseReference": "John 1:40",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-theological-q14",
+          "question": "What name did Jesus give to Simon, Andrew's brother, according to John 1:42?",
+          "type": "multiple-choice",
+          "options": [
+            "Cephas (Peter)",
+            "John",
+            "James",
+            "Nathanael"
+          ],
+          "correctAnswer": "Cephas (Peter)",
+          "explanation": "John 1:42 records Jesus renaming Simon as Cephas, meaning 'a stone' or 'rock'. This name change signifies his foundational role in the church. This is confirmed in Matthew 16:18 where Jesus calls him Peter, 1 Corinthians 1:12 referencing Cephas, and Acts 2:14 showing Peter's leadership.",
+          "verseReference": "John 1:42",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-1-theological-q15",
+          "question": "What was Nathanael's initial skepticism about Jesus before Philip invited him to come and see (John 1:46)?",
+          "type": "multiple-choice",
+          "options": [
+            "Can anything good come out of Nazareth?",
+            "Is Jesus really the Son of David?",
+            "Is He a prophet from Galilee?",
+            "Is He the Messiah from Bethlehem?"
+          ],
+          "correctAnswer": "Can anything good come out of Nazareth?",
+          "explanation": "John 1:46 records Nathanael's skepticism questioning if anything good can come from Nazareth, reflecting a regional bias. This contrasts with Isaiah 11:1-10 predicting the Messiah's humble origins and Micah 5:2 indicating Bethlehem, showing God's unexpected ways.",
+          "verseReference": "John 1:46",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "john-1-quiz",
+      "tags": [
+        "john",
+        "chapter-1",
+        "john",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

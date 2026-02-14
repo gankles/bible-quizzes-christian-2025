@@ -1,0 +1,983 @@
+{
+  "id": "luke-6-tabbed",
+  "title": "Luke Chapter 6 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Luke chapter 6 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "luke-6-easy",
+      "title": "Luke Chapter 6 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Luke Chapter 6.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 6,
+      "questions": [
+        {
+          "id": "luke-6-easy-q1",
+          "question": "What did Jesus' disciples do in the corn fields on the sabbath according to Luke 6:1?",
+          "type": "multiple-choice",
+          "options": [
+            "Plucked ears of corn and rubbed them in their hands",
+            "Harvested wheat and made bread",
+            "Prayed silently",
+            "Gathered fruit from trees"
+          ],
+          "correctAnswer": "Plucked ears of corn and rubbed them in their hands",
+          "explanation": "Luke 6:1 describes how Jesus' disciples plucked ears of corn and rubbed them in their hands to eat on the sabbath.",
+          "verseReference": "Luke 6:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-6-easy-q2",
+          "question": "Who questioned Jesus' disciples about what they were doing on the sabbath in Luke 6:2?",
+          "type": "multiple-choice",
+          "options": [
+            "The Pharisees",
+            "The Sadducees",
+            "The Romans",
+            "The disciples"
+          ],
+          "correctAnswer": "The Pharisees",
+          "explanation": "Luke 6:2 states that certain of the Pharisees asked why the disciples did what was not lawful on the sabbath.",
+          "verseReference": "Luke 6:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-6-easy-q3",
+          "question": "What example did Jesus give to defend his disciples eating on the sabbath in Luke 6:3-4?",
+          "type": "multiple-choice",
+          "options": [
+            "What David did when he ate the shewbread",
+            "The manna given to the Israelites",
+            "The temple sacrifices",
+            "The Sabbath day creation story"
+          ],
+          "correctAnswer": "What David did when he ate the shewbread",
+          "explanation": "Jesus referred to David eating the shewbread, which was lawful only for priests, to illustrate lawful exceptions on the sabbath (Luke 6:3-4).",
+          "verseReference": "Luke 6:3-4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-6-easy-q4",
+          "question": "According to Luke 6:5, who is Lord of the sabbath?",
+          "type": "multiple-choice",
+          "options": [
+            "The Son of man",
+            "Moses",
+            "David",
+            "The High Priest"
+          ],
+          "correctAnswer": "The Son of man",
+          "explanation": "Jesus declared in Luke 6:5 that the Son of man is Lord also of the sabbath.",
+          "verseReference": "Luke 6:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-6-easy-q5",
+          "question": "What physical ailment did the man have in the synagogue that Jesus healed on the sabbath according to Luke 6:6-7?",
+          "type": "multiple-choice",
+          "options": [
+            "A withered right hand",
+            "Blindness",
+            "A lame leg",
+            "Deafness"
+          ],
+          "correctAnswer": "A withered right hand",
+          "explanation": "Luke 6:6-7 describes a man whose right hand was withered whom Jesus healed in the synagogue on the sabbath.",
+          "verseReference": "Luke 6:6-7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-6-easy-q6",
+          "question": "What question did Jesus ask regarding doing good or evil on the sabbath in Luke 6:9?",
+          "type": "multiple-choice",
+          "options": [
+            "Is it lawful on the sabbath days to do good or to do evil?",
+            "Should we rest on the sabbath or work?",
+            "Is the sabbath more important than the temple?",
+            "Can the sabbath laws be changed?"
+          ],
+          "correctAnswer": "Is it lawful on the sabbath days to do good or to do evil?",
+          "explanation": "In Luke 6:9, Jesus asks if it is lawful to do good or evil on the sabbath, emphasizing doing good.",
+          "verseReference": "Luke 6:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-6-easy-q7",
+          "question": "How did Jesus heal the man with the withered hand according to Luke 6:10?",
+          "type": "multiple-choice",
+          "options": [
+            "He told him to stretch forth his hand, which was then restored",
+            "He laid hands on him and prayed",
+            "He spoke a word and the hand was healed",
+            "He anointed the hand with oil"
+          ],
+          "correctAnswer": "He told him to stretch forth his hand, which was then restored",
+          "explanation": "Luke 6:10 explains that Jesus told the man to stretch forth his hand, and it was restored whole.",
+          "verseReference": "Luke 6:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-6-easy-q8",
+          "question": "What did Jesus do on the mountain before choosing the twelve apostles in Luke 6:12-13?",
+          "type": "multiple-choice",
+          "options": [
+            "Prayed all night to God",
+            "Preached to the crowd",
+            "Fasted for seven days",
+            "Rested and meditated"
+          ],
+          "correctAnswer": "Prayed all night to God",
+          "explanation": "According to Luke 6:12, Jesus went out into a mountain and prayed all night before choosing the twelve apostles.",
+          "verseReference": "Luke 6:12-13",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-6-easy-q9",
+          "question": "Which of these was NOT named among the twelve apostles in Luke 6:14-16?",
+          "type": "multiple-choice",
+          "options": [
+            "Paul",
+            "Simon called Peter",
+            "James the son of Alphaeus",
+            "Judas Iscariot"
+          ],
+          "correctAnswer": "Paul",
+          "explanation": "Paul is not listed among the twelve apostles in Luke 6:14-16; the others are named there.",
+          "verseReference": "Luke 6:14-16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-6-easy-q10",
+          "question": "From where did the great multitude come to hear Jesus and be healed according to Luke 6:17-18?",
+          "type": "multiple-choice",
+          "options": [
+            "All Judaea, Jerusalem, and the sea coast of Tyre and Sidon",
+            "Rome and Greece",
+            "Egypt and Babylon",
+            "Galilee and Samaria"
+          ],
+          "correctAnswer": "All Judaea, Jerusalem, and the sea coast of Tyre and Sidon",
+          "explanation": "Luke 6:17-18 states the multitude came from Judaea, Jerusalem, and the sea coast of Tyre and Sidon.",
+          "verseReference": "Luke 6:17-18",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-6-easy-q11",
+          "question": "According to Luke 6:20, who did Jesus say are blessed?",
+          "type": "multiple-choice",
+          "options": [
+            "The poor",
+            "The rich",
+            "The powerful",
+            "The rulers"
+          ],
+          "correctAnswer": "The poor",
+          "explanation": "Luke 6:20 records Jesus saying, 'Blessed be ye poor: for yours is the kingdom of God.'",
+          "verseReference": "Luke 6:20",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-6-easy-q12",
+          "question": "True or False: Luke 6:27 teaches to love your enemies and do good to those who hate you.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 6:27 explicitly instructs to love your enemies and do good to those who hate you.",
+          "verseReference": "Luke 6:27",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-6-easy-q13",
+          "question": "True or False: Luke 6:31 says to do to others as you would have them do to you.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 6:31 teaches the Golden Rule: do to others as you would have them do to you.",
+          "verseReference": "Luke 6:31",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-6-easy-q14",
+          "question": "True or False: Luke 6:37 says to judge others so that you will not be judged.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Luke 6:37 says 'Judge not, and ye shall not be judged,' so the statement is false.",
+          "verseReference": "Luke 6:37",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-6-easy-q15",
+          "question": "Complete the verse from Luke 6:39: 'Can the blind lead the _____? shall they not both fall into the ditch?'",
+          "type": "fill-blank",
+          "options": [
+            "blind",
+            "wise",
+            "strong",
+            "faithful"
+          ],
+          "correctAnswer": "blind",
+          "explanation": "Luke 6:39 uses the phrase 'Can the blind lead the blind? shall they not both fall into the ditch?'",
+          "verseReference": "Luke 6:39",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "luke-6-quiz",
+      "tags": [
+        "luke",
+        "chapter-6",
+        "luke",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "luke-6-medium",
+      "title": "Luke Chapter 6 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Luke Chapter 6 to real-life situations.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 6,
+      "questions": [
+        {
+          "id": "luke-6-medium-q1",
+          "question": "How does Luke 6 teach us about prioritizing mercy and compassion over strict legalism?",
+          "type": "multiple-choice",
+          "options": [
+            "Doing good and saving life is lawful on the Sabbath",
+            "Strictly avoiding work on the Sabbath at all costs",
+            "Only priests may perform acts on the Sabbath",
+            "Avoiding healing on the Sabbath to prevent accusations"
+          ],
+          "correctAnswer": "Doing good and saving life is lawful on the Sabbath",
+          "explanation": "Luke 6:9 shows Jesus teaching that it is lawful to do good and save life on the Sabbath, emphasizing mercy over rigid legalism. This is supported by verses 6-10 where Jesus heals a man on the Sabbath, illustrating compassion.",
+          "verseReference": "Luke 6:9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-6-medium-q2",
+          "question": "A fellow believer is struggling with feeling rejected for their faith. Based on Luke 6, what biblical truth would you share about perseverance and reward?",
+          "type": "multiple-choice",
+          "options": [
+            "They will be rewarded greatly in heaven for enduring hatred",
+            "They should avoid people who hate them",
+            "They will have no reward if they suffer",
+            "Rejection means God has abandoned them"
+          ],
+          "correctAnswer": "They will be rewarded greatly in heaven for enduring hatred",
+          "explanation": "Luke 6:22-23 encourages believers that when they face hatred and rejection for the Son of man's sake, they should rejoice because their reward is great in heaven. This teaches perseverance and hope.",
+          "verseReference": "Luke 6:22",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-6-medium-q3",
+          "question": "How does Luke 6 instruct believers to respond to enemies and those who mistreat them?",
+          "type": "multiple-choice",
+          "options": [
+            "Love your enemies, bless those who curse you, and pray for those who mistreat you",
+            "Avoid all contact with enemies",
+            "Retaliate equally when mistreated",
+            "Ignore those who curse you"
+          ],
+          "correctAnswer": "Love your enemies, bless those who curse you, and pray for those who mistreat you",
+          "explanation": "Luke 6:27-28 teaches love, blessing, and prayer for enemies and those who mistreat believers, highlighting radical love and forgiveness as Christ's standard.",
+          "verseReference": "Luke 6:27",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-6-medium-q4",
+          "question": "According to Luke 6, what attitude should believers have regarding judging others?",
+          "type": "multiple-choice",
+          "options": [
+            "Do not judge or condemn, but forgive to be forgiven",
+            "Judge strictly to maintain righteousness",
+            "Condemn sinners openly",
+            "Ignore others' sins completely"
+          ],
+          "correctAnswer": "Do not judge or condemn, but forgive to be forgiven",
+          "explanation": "Luke 6:37 instructs believers not to judge or condemn others but to forgive, promising that they will be forgiven themselves. This encourages humility and mercy in interpersonal relationships.",
+          "verseReference": "Luke 6:37",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-6-medium-q5",
+          "question": "What practical teaching about generosity is found in Luke 6?",
+          "type": "multiple-choice",
+          "options": [
+            "Give to everyone who asks without expecting anything back",
+            "Give only to those who can return the favor",
+            "Save your resources for yourself",
+            "Give only in public to be praised"
+          ],
+          "correctAnswer": "Give to everyone who asks without expecting anything back",
+          "explanation": "Luke 6:30-35 teaches believers to give generously to all who ask, without expecting repayment, and to love even those who are ungrateful, reflecting God's kindness and generosity.",
+          "verseReference": "Luke 6:30",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-6-medium-q6",
+          "question": "What does Luke 6 teach about humility and self-examination before helping others?",
+          "type": "multiple-choice",
+          "options": [
+            "Remove the beam from your own eye before helping your brother with his mote",
+            "Focus on others' faults first",
+            "Ignore your own faults when correcting others",
+            "Judge others harshly to keep them accountable"
+          ],
+          "correctAnswer": "Remove the beam from your own eye before helping your brother with his mote",
+          "explanation": "Luke 6:41-42 teaches that one must address their own significant faults before correcting others' minor faults, promoting humility and self-awareness.",
+          "verseReference": "Luke 6:41",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-6-medium-q7",
+          "question": "How does Luke 6 describe the importance of hearing and obeying Jesus' teachings for a believer's stability in life?",
+          "type": "multiple-choice",
+          "options": [
+            "Like a man who builds his house on a rock and withstands floods",
+            "Like a man who builds a house without a foundation and it falls",
+            "Like a man who ignores building a house",
+            "Like a man who builds a house on sand and it lasts forever"
+          ],
+          "correctAnswer": "Like a man who builds his house on a rock and withstands floods",
+          "explanation": "Luke 6:47-48 explains that those who hear and obey Jesus are like someone who builds on a rock foundation, able to withstand life's trials and storms, symbolizing spiritual stability.",
+          "verseReference": "Luke 6:48",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-6-medium-q8",
+          "question": "True or False: According to Luke 6, it is acceptable to build your life without obedience to Jesus and still expect to withstand life's challenges.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Luke 6:49 states that those who hear but do not obey Jesus are like a man who builds a house without a foundation, which falls immediately when faced with storms, emphasizing the necessity of obedience.",
+          "verseReference": "Luke 6:49",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-6-medium-q9",
+          "question": "True or False: Luke 6 teaches that loving only those who love you is sufficient for Christian living.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Luke 6:32-35 teaches that loving only those who love you is what sinners do; instead, believers are called to love their enemies and do good without expecting anything in return, reflecting God's love.",
+          "verseReference": "Luke 6:32",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-6-medium-q10",
+          "question": "Fill in the blank: Luke 6 says, 'Give, and it shall be given unto you; good measure, pressed down, and shaken together, and running over, shall men give into your ______.'",
+          "type": "fill-blank",
+          "options": [
+            "bosom",
+            "hands",
+            "heart",
+            "mouth"
+          ],
+          "correctAnswer": "bosom",
+          "explanation": "Luke 6:38 teaches that generous giving will be returned abundantly, using the imagery of a 'bosom' where blessings overflow, encouraging generous stewardship.",
+          "verseReference": "Luke 6:38",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-6-medium-q11",
+          "question": "How should a believer respond when falsely praised by others, according to Luke 6?",
+          "type": "multiple-choice",
+          "options": [
+            "Be cautious, as this is how false prophets were treated",
+            "Accept it as proof of righteousness",
+            "Seek more praise from others",
+            "Ignore it and continue sinning"
+          ],
+          "correctAnswer": "Be cautious, as this is how false prophets were treated",
+          "explanation": "Luke 6:26 warns that when all men speak well of you, it is a sign similar to how false prophets were treated, urging believers to remain humble and discerning.",
+          "verseReference": "Luke 6:26",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-6-medium-q12",
+          "question": "What does Luke 6 say about the source and result of a person's words and actions?",
+          "type": "multiple-choice",
+          "options": [
+            "A good man brings forth good from the good treasure of his heart, and an evil man brings forth evil",
+            "Words and actions are unrelated to the heart",
+            "Only actions matter, not the heart",
+            "Good words can come from an evil heart"
+          ],
+          "correctAnswer": "A good man brings forth good from the good treasure of his heart, and an evil man brings forth evil",
+          "explanation": "Luke 6:45 teaches that the abundance of the heart determines what a person speaks and does, emphasizing the importance of inner transformation.",
+          "verseReference": "Luke 6:45",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-6-medium-q13",
+          "question": "According to Luke 6, how should believers treat those who take their possessions?",
+          "type": "multiple-choice",
+          "options": [
+            "Do not stop them and even give more if asked",
+            "Fight to keep possessions",
+            "Report them to authorities",
+            "Seek revenge later"
+          ],
+          "correctAnswer": "Do not stop them and even give more if asked",
+          "explanation": "Luke 6:29-30 instructs believers to offer the other cheek and not forbid someone from taking more, teaching radical generosity and non-retaliation.",
+          "verseReference": "Luke 6:29",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-6-medium-q14",
+          "question": "How does Luke 6 encourage believers to approach prayer and personal devotion?",
+          "type": "multiple-choice",
+          "options": [
+            "Spend time in solitary, all-night prayer for guidance",
+            "Only pray publicly during worship",
+            "Pray only when in need",
+            "Avoid long prayers"
+          ],
+          "correctAnswer": "Spend time in solitary, all-night prayer for guidance",
+          "explanation": "Luke 6:12 shows Jesus going out to a mountain and praying all night before choosing the twelve apostles, underscoring the importance of devoted, solitary prayer for important decisions.",
+          "verseReference": "Luke 6:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-6-medium-q15",
+          "question": "What does Luke 6 say about the character of a disciple in relation to their master?",
+          "type": "multiple-choice",
+          "options": [
+            "A disciple is not above his master, but everyone perfected will be like the master",
+            "A disciple is always superior to the master",
+            "A disciple does not need to follow the master",
+            "A disciple should only imitate some of the master's actions"
+          ],
+          "correctAnswer": "A disciple is not above his master, but everyone perfected will be like the master",
+          "explanation": "Luke 6:40 teaches that discipleship involves humility and growth toward becoming like the master, emphasizing obedience and spiritual maturity.",
+          "verseReference": "Luke 6:40",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "luke-6-quiz",
+      "tags": [
+        "luke",
+        "chapter-6",
+        "luke",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "luke-6-hard",
+      "title": "Luke Chapter 6 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Luke Chapter 6.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 6,
+      "questions": [
+        {
+          "id": "luke-6-hard-q1",
+          "question": "In Luke 6:4, Jesus refers to David eating the shewbread, which was lawful only for whom to eat?",
+          "type": "multiple-choice",
+          "options": [
+            "The priests alone",
+            "The kings alone",
+            "The elders of Israel",
+            "The prophets alone"
+          ],
+          "correctAnswer": "The priests alone",
+          "explanation": "Luke 6:4 states that the shewbread was not lawful to be eaten except by the priests, highlighting a cultural and religious context of priestly exclusivity in temple practices.",
+          "verseReference": "Luke 6:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-hard-q2",
+          "question": "What title does Jesus claim for Himself in relation to the Sabbath in Luke 6:5?",
+          "type": "multiple-choice",
+          "options": [
+            "Lord of the Sabbath",
+            "Son of David",
+            "King of Israel",
+            "Prophet of Nazareth"
+          ],
+          "correctAnswer": "Lord of the Sabbath",
+          "explanation": "In Luke 6:5, Jesus declares Himself 'Lord also of the sabbath,' asserting His authority over Sabbath observance and foreshadowing His role in redefining Mosaic law.",
+          "verseReference": "Luke 6:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-hard-q3",
+          "question": "According to Luke 6:9, what question does Jesus pose about the lawfulness of actions on the Sabbath?",
+          "type": "multiple-choice",
+          "options": [
+            "Is it lawful to do good or to do evil, to save life or to destroy it?",
+            "Is it lawful to rest or to work?",
+            "Is it lawful to pray or to speak?",
+            "Is it lawful to fast or to feast?"
+          ],
+          "correctAnswer": "Is it lawful to do good or to do evil, to save life or to destroy it?",
+          "explanation": "Jesus challenges the Pharisees' strict interpretation of Sabbath law by emphasizing the higher moral principle of doing good and saving life (Luke 6:9).",
+          "verseReference": "Luke 6:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-hard-q4",
+          "question": "Who was chosen and named as apostles by Jesus in Luke 6:13-16?",
+          "type": "multiple-choice",
+          "options": [
+            "Simon Peter, Andrew, James, John, Philip, Bartholomew, Matthew, Thomas, James son of Alphaeus, Simon called Zelotes, Judas brother of James, Judas Iscariot",
+            "Peter, John, Paul, James, Philip, Bartholomew, Matthew, Thomas, Simon, Judas, Barnabas, Timothy",
+            "Andrew, Peter, John, Thomas, Matthew, Judas, Bartholomew, James, Paul, Simon Zelotes, Barnabas, Silas",
+            "Peter, Andrew, James, John, Thomas, Paul, Barnabas, Judas, Matthias, Philip, Bartholomew, John Mark"
+          ],
+          "correctAnswer": "Simon Peter, Andrew, James, John, Philip, Bartholomew, Matthew, Thomas, James son of Alphaeus, Simon called Zelotes, Judas brother of James, Judas Iscariot",
+          "explanation": "Luke 6:14-16 provides the specific list of the twelve apostles chosen by Jesus, reflecting the foundational leadership of the early church.",
+          "verseReference": "Luke 6:13-16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-hard-q5",
+          "question": "The crowds that gathered to hear Jesus and be healed in Luke 6:17-19 came from which regions?",
+          "type": "multiple-choice",
+          "options": [
+            "Judaea, Jerusalem, Tyre, and Sidon",
+            "Galilee, Samaria, Egypt, and Babylon",
+            "Rome, Alexandria, Antioch, and Cyprus",
+            "Philistia, Moab, Edom, and Ammon"
+          ],
+          "correctAnswer": "Judaea, Jerusalem, Tyre, and Sidon",
+          "explanation": "Luke 6:17 mentions the geographic diversity of the crowd, indicating both Jewish and Gentile regions, which underscores Jesus' expanding ministry beyond Israel.",
+          "verseReference": "Luke 6:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-hard-q6",
+          "question": "In the Beatitudes of Luke 6:20-23, who does Jesus say are 'blessed' and why?",
+          "type": "multiple-choice",
+          "options": [
+            "The poor, the hungry, the weeping, and those hated for the Son of man's sake, because theirs is the kingdom of God and great reward in heaven",
+            "The rich and powerful, because they have earthly dominion",
+            "The scribes and Pharisees, because they uphold the law",
+            "The rulers and kings, because they govern justly"
+          ],
+          "correctAnswer": "The poor, the hungry, the weeping, and those hated for the Son of man's sake, because theirs is the kingdom of God and great reward in heaven",
+          "explanation": "Luke 6:20-23 contrasts earthly status with divine blessing, emphasizing reversal of fortunes and God's care for the marginalized.",
+          "verseReference": "Luke 6:20-23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-hard-q7",
+          "question": "What literary device is prominently used in Luke 6:24-26 where Jesus pronounces woes against certain groups?",
+          "type": "multiple-choice",
+          "options": [
+            "Chiasm, contrasting blessings and woes",
+            "Parable, teaching through story",
+            "Hyperbole, exaggeration for effect",
+            "Simile, comparison using 'like' or 'as'"
+          ],
+          "correctAnswer": "Chiasm, contrasting blessings and woes",
+          "explanation": "The structure of blessings followed by woes in Luke 6:20-26 is an example of chiasm, highlighting thematic reversals and moral contrasts.",
+          "verseReference": "Luke 6:24-26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-hard-q8",
+          "question": "According to Luke 6:27-36, which of the following best summarizes Jesus' teaching about love and mercy?",
+          "type": "multiple-choice",
+          "options": [
+            "Love your enemies, do good to those who hate you, and be merciful as your Father is merciful",
+            "Love only those who love you and repay good for good",
+            "Avoid enemies and seek revenge when wronged",
+            "Keep strict justice and judge others harshly"
+          ],
+          "correctAnswer": "Love your enemies, do good to those who hate you, and be merciful as your Father is merciful",
+          "explanation": "This passage (Luke 6:27-36) emphasizes radical love and mercy that transcends natural human inclinations, reflecting God's character.",
+          "verseReference": "Luke 6:27-36",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-hard-q9",
+          "question": "What is the significance of the Greek term translated as 'virtue' in Luke 6:19, referring to the power that went out from Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "Dunamis - signifying miraculous power or strength",
+            "Charis - meaning grace or favor",
+            "Logos - meaning word or reason",
+            "Agape - meaning unconditional love"
+          ],
+          "correctAnswer": "Dunamis - signifying miraculous power or strength",
+          "explanation": "The term 'virtue' in Luke 6:19 comes from the Greek 'dunamis,' indicating the miraculous power flowing from Jesus to heal and restore, highlighting His divine authority.",
+          "verseReference": "Luke 6:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-hard-q10",
+          "question": "In Luke 6:39-40, Jesus uses the metaphor of the blind leading the blind. What is the main lesson conveyed by this metaphor?",
+          "type": "multiple-choice",
+          "options": [
+            "A disciple must not be above his master and should learn properly to avoid failure",
+            "Blind people can lead others safely if they try hard",
+            "Leaders should be chosen regardless of their knowledge",
+            "Blindness is a physical condition unrelated to teaching"
+          ],
+          "correctAnswer": "A disciple must not be above his master and should learn properly to avoid failure",
+          "explanation": "The metaphor in Luke 6:39-40 warns about faulty guidance and stresses the importance of discipleship and proper learning under a competent master.",
+          "verseReference": "Luke 6:39-40",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-hard-q11",
+          "question": "Which theme in Luke 6:41-42 is illustrated by the metaphor of the 'mote' and the 'beam' in the eye?",
+          "type": "multiple-choice",
+          "options": [
+            "Hypocrisy and self-examination before judging others",
+            "Physical eyesight and healing miracles",
+            "Legalism versus grace",
+            "Faith versus works"
+          ],
+          "correctAnswer": "Hypocrisy and self-examination before judging others",
+          "explanation": "Jesus uses this vivid metaphor in Luke 6:41-42 to expose hypocrisy, teaching that one must address their own flaws before correcting others.",
+          "verseReference": "Luke 6:41-42",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-hard-q12",
+          "question": "What does Luke 6:43-45 teach about the relationship between a person's heart and their actions or words?",
+          "type": "multiple-choice",
+          "options": [
+            "A good man brings forth good from the good treasure of his heart, and an evil man brings forth evil from the evil treasure",
+            "Actions are unrelated to a person's heart",
+            "Only words reflect the heart, not actions",
+            "Good deeds can come from an evil heart"
+          ],
+          "correctAnswer": "A good man brings forth good from the good treasure of his heart, and an evil man brings forth evil from the evil treasure",
+          "explanation": "This passage (Luke 6:43-45) uses the analogy of trees and their fruit to illustrate that inner character determines outward behavior and speech.",
+          "verseReference": "Luke 6:43-45",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-hard-q13",
+          "question": "In Luke 6:46-49, Jesus compares those who hear and do His sayings to a man who built a house on what kind of foundation?",
+          "type": "multiple-choice",
+          "options": [
+            "A rock foundation",
+            "Sand",
+            "Clay",
+            "Water"
+          ],
+          "correctAnswer": "A rock foundation",
+          "explanation": "Jesus uses the imagery of a house built on rock to symbolize stability and resilience for those who obey His teachings (Luke 6:48).",
+          "verseReference": "Luke 6:46-48",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-hard-q14",
+          "question": "True or False: According to Luke 6:37, Jesus teaches that judging others will result in being judged oneself.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 6:37 clearly states 'Judge not, and ye shall not be judged,' linking judgment of others to one's own judgment.",
+          "verseReference": "Luke 6:37",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-hard-q15",
+          "question": "In Luke 6:29, Jesus instructs to offer the other cheek if someone smites you on one. This teaching most closely connects to which Old Testament concept?",
+          "type": "multiple-choice",
+          "options": [
+            "Turning the other cheek as a radical non-retaliation ethic",
+            "An eye for an eye justice (lex talionis)",
+            "Retribution by the elders",
+            "The law of the talmudic sages"
+          ],
+          "correctAnswer": "Turning the other cheek as a radical non-retaliation ethic",
+          "explanation": "Jesus' teaching in Luke 6:29 contrasts with the Old Testament principle of lex talionis by advocating non-retaliation and mercy.",
+          "verseReference": "Luke 6:29",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "luke-6-quiz",
+      "tags": [
+        "luke",
+        "chapter-6",
+        "luke",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "luke-6-theological",
+      "title": "Luke Chapter 6 Quiz - Theological Level",
+      "description": "Deep biblical theology from Luke Chapter 6 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 6,
+      "questions": [
+        {
+          "id": "luke-6-theological-q1",
+          "question": "In Luke 6, how does Jesus justify His disciples plucking grain on the Sabbath?",
+          "type": "multiple-choice",
+          "options": [
+            "He refers to David eating the shewbread which was lawful only for priests",
+            "He claims the Sabbath is no longer binding",
+            "He says the disciples were not aware it was the Sabbath",
+            "He states that plucking grain is not work"
+          ],
+          "correctAnswer": "He refers to David eating the shewbread which was lawful only for priests",
+          "explanation": "Jesus refers to the example of David eating the shewbread when hungry, which was lawful only for priests, to show mercy and human need supersede certain Sabbath restrictions (Luke 6:3-4). This aligns with the principle in 1 Samuel 21:1-6 and Hosea 6:6 emphasizing mercy over sacrifice, and Matthew 12:7 confirming Jesus' teaching.",
+          "verseReference": "Luke 6:3-4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-theological-q2",
+          "question": "What title does Jesus claim for Himself in relation to the Sabbath in Luke 6?",
+          "type": "multiple-choice",
+          "options": [
+            "Lord of the Sabbath",
+            "Son of David",
+            "Rabbi of the Law",
+            "Prophet of Nazareth"
+          ],
+          "correctAnswer": "Lord of the Sabbath",
+          "explanation": "Jesus declares Himself 'Lord also of the sabbath' (Luke 6:5), asserting His authority over the Sabbath command, which corresponds with His divine lordship as seen in Mark 2:28 and John 5:17-18. This reveals His divinity and authority over God's law.",
+          "verseReference": "Luke 6:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-theological-q3",
+          "question": "Why did the Pharisees watch Jesus closely in the synagogue on the Sabbath?",
+          "type": "multiple-choice",
+          "options": [
+            "To find an accusation because He might heal on the Sabbath",
+            "Because they wanted to learn from Him",
+            "To invite Him to teach more often",
+            "To ask Him about the law of Moses"
+          ],
+          "correctAnswer": "To find an accusation because He might heal on the Sabbath",
+          "explanation": "The Pharisees watched Jesus to find a reason to accuse Him, particularly if He healed on the Sabbath (Luke 6:7). This reflects their legalistic interpretation of Sabbath laws, similar to the opposition Jesus faced in Matthew 12:9-14 and John 9:14-16.",
+          "verseReference": "Luke 6:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-theological-q4",
+          "question": "What question does Jesus ask to challenge the Pharisees about healing on the Sabbath?",
+          "type": "multiple-choice",
+          "options": [
+            "Is it lawful to do good or to do evil on the Sabbath?",
+            "Who created the Sabbath?",
+            "Is the Sabbath made for man or man for the Sabbath?",
+            "Do you honor the Sabbath or your traditions?"
+          ],
+          "correctAnswer": "Is it lawful to do good or to do evil on the Sabbath?",
+          "explanation": "Jesus asks whether it is lawful to do good or evil, to save life or destroy it on the Sabbath (Luke 6:9), emphasizing the intent of the law is mercy and preservation of life, consistent with Jeremiah 7:22-23 and Hosea 6:6.",
+          "verseReference": "Luke 6:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-theological-q5",
+          "question": "What was the result when Jesus healed the man with the withered hand?",
+          "type": "multiple-choice",
+          "options": [
+            "His hand was restored whole as the other",
+            "The man remained withered but was comforted",
+            "The crowd rejected the healing",
+            "The Pharisees praised Jesus"
+          ],
+          "correctAnswer": "His hand was restored whole as the other",
+          "explanation": "Jesus commanded the man to stretch forth his hand, and it was restored completely (Luke 6:10). This miracle demonstrated Jesus' divine authority and power to heal, as also seen in Matthew 12:13 and Mark 3:5.",
+          "verseReference": "Luke 6:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-theological-q6",
+          "question": "After healing the man on the Sabbath, what was the reaction of the scribes and Pharisees?",
+          "type": "multiple-choice",
+          "options": [
+            "They were filled with madness and plotted against Jesus",
+            "They immediately believed in Him",
+            "They asked for more teachings",
+            "They asked the healed man to testify"
+          ],
+          "correctAnswer": "They were filled with madness and plotted against Jesus",
+          "explanation": "The Pharisees were enraged and conspired what to do to Jesus (Luke 6:11), showing their opposition to His messianic work, paralleling opposition in John 11:53 and Matthew 26:3-4.",
+          "verseReference": "Luke 6:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-theological-q7",
+          "question": "How many apostles did Jesus choose after praying all night on the mountain?",
+          "type": "multiple-choice",
+          "options": [
+            "Twelve",
+            "Seven",
+            "Seventy",
+            "One hundred and twenty"
+          ],
+          "correctAnswer": "Twelve",
+          "explanation": "Jesus chose twelve apostles after all-night prayer (Luke 6:13), fulfilling the symbolic number representing the twelve tribes of Israel, foundational for the new covenant community, consistent with Matthew 10:1-4 and Acts 1:13.",
+          "verseReference": "Luke 6:13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-theological-q8",
+          "question": "Which of these was NOT named among the twelve apostles in Luke 6?",
+          "type": "multiple-choice",
+          "options": [
+            "Paul",
+            "Simon called Peter",
+            "James the son of Alphaeus",
+            "Judas Iscariot"
+          ],
+          "correctAnswer": "Paul",
+          "explanation": "Paul is not listed among the twelve apostles chosen by Jesus in Luke 6:14-16; he became an apostle later through revelation (Acts 9:1-19). The twelve listed include Peter, James, and Judas Iscariot.",
+          "verseReference": "Luke 6:14-16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-theological-q9",
+          "question": "What blessing does Jesus pronounce upon the poor in spirit in Luke 6?",
+          "type": "multiple-choice",
+          "options": [
+            "Theirs is the kingdom of God",
+            "They shall be hungry",
+            "They shall weep",
+            "They shall be condemned"
+          ],
+          "correctAnswer": "Theirs is the kingdom of God",
+          "explanation": "Jesus declares 'Blessed be ye poor: for yours is the kingdom of God' (Luke 6:20), highlighting God's preferential option for the humble, consistent with Matthew 5:3 and Isaiah 61:1-3.",
+          "verseReference": "Luke 6:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-theological-q10",
+          "question": "According to Luke 6, what is Jesus' teaching on loving enemies?",
+          "type": "multiple-choice",
+          "options": [
+            "Love your enemies and do good to those who hate you",
+            "Love only those who love you",
+            "Avoid your enemies to keep peace",
+            "Pray for your friends only"
+          ],
+          "correctAnswer": "Love your enemies and do good to those who hate you",
+          "explanation": "Jesus commands love for enemies and doing good to those who hate you (Luke 6:27), underscoring the radical ethic of the Kingdom, echoed in Matthew 5:44 and Romans 12:20-21.",
+          "verseReference": "Luke 6:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-theological-q11",
+          "question": "What principle does Jesus teach in Luke 6 about how we should treat others?",
+          "type": "multiple-choice",
+          "options": [
+            "Do unto others as you would have them do unto you",
+            "An eye for an eye",
+            "Love only your neighbors",
+            "Judge others strictly"
+          ],
+          "correctAnswer": "Do unto others as you would have them do unto you",
+          "explanation": "Jesus teaches the Golden Rule: 'as ye would that men should do to you, do ye also to them likewise' (Luke 6:31). This principle is foundational in ethical teaching, also seen in Matthew 7:12 and Leviticus 19:18.",
+          "verseReference": "Luke 6:31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-theological-q12",
+          "question": "What warning does Jesus give about judging others in Luke 6?",
+          "type": "multiple-choice",
+          "options": [
+            "Judge not, and ye shall not be judged",
+            "Judge everyone strictly to maintain order",
+            "Judge only sinners harshly",
+            "Judge only after confession"
+          ],
+          "correctAnswer": "Judge not, and ye shall not be judged",
+          "explanation": "Jesus warns against judgmentalism, promising reciprocal mercy if we forgive and do not condemn (Luke 6:37). This aligns with Matthew 7:1-5 and Romans 14:10-13 emphasizing humility and mercy.",
+          "verseReference": "Luke 6:37",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-theological-q13",
+          "question": "In the parable Jesus spoke in Luke 6, what happens when the blind lead the blind?",
+          "type": "multiple-choice",
+          "options": [
+            "They both fall into the ditch",
+            "They reach the promised land",
+            "They find a path",
+            "They overcome obstacles together"
+          ],
+          "correctAnswer": "They both fall into the ditch",
+          "explanation": "Jesus says the blind leading the blind will both fall into the ditch (Luke 6:39), illustrating the danger of following false teachers, consistent with Proverbs 19:27 and Matthew 15:14.",
+          "verseReference": "Luke 6:39",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-theological-q14",
+          "question": "According to Luke 6, what is the analogy Jesus uses for a person who hears His words and acts on them?",
+          "type": "multiple-choice",
+          "options": [
+            "Like a man who builds a house on a rock",
+            "Like a seed sown on rocky ground",
+            "Like a bird building a nest in a tree",
+            "Like a shepherd tending sheep"
+          ],
+          "correctAnswer": "Like a man who builds a house on a rock",
+          "explanation": "Jesus compares the obedient person to one who builds a house on rock, able to withstand floods (Luke 6:48). This is a metaphor for spiritual stability, also found in Matthew 7:24-27 and Psalm 18:2.",
+          "verseReference": "Luke 6:48",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-6-theological-q15",
+          "question": "What does Jesus say about the person who hears His words but does not do them?",
+          "type": "multiple-choice",
+          "options": [
+            "Like a man who built a house without foundation that falls in a flood",
+            "Like a wise builder",
+            "Like a fruitful tree",
+            "Like a faithful servant"
+          ],
+          "correctAnswer": "Like a man who built a house without foundation that falls in a flood",
+          "explanation": "Jesus states that those who hear but do not act are like a house built without foundation that collapses (Luke 6:49), symbolizing spiritual ruin, as also warned in James 1:22-25 and Proverbs 10:25.",
+          "verseReference": "Luke 6:49",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "luke-6-quiz",
+      "tags": [
+        "luke",
+        "chapter-6",
+        "luke",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

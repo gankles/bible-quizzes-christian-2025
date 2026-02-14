@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greek Lexicon - Biblical Greek Words & Definitions</title>
+    <meta name="description" content="Browse 5,600+ biblical Greek words with Strong's numbers, transliterations, and definitions. Academic Greek lexicon for biblical study.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #4F46E5;
+            --primary-dark: #4338CA;
+            --primary-light: #6366F1;
+            --bg-dark: #0F172A;
+            --bg-light: #F8FAFC;
+            --text-dark: #1E293B;
+            --text-light: #64748B;
+            --border: #E2E8F0;
+            --glass-bg: rgba(255, 255, 255, 0.7);
+            --glass-border: rgba(255, 255, 255, 0.2);
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Helvetica Neue', system-ui, sans-serif;
+            background: linear-gradient(135deg, #F8FAFC 0%, #F1F5F9 100%);
+            color: var(--text-dark);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* Felt-paper texture overlay */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                repeating-linear-gradient(
+                    0deg,
+                    rgba(0, 0, 0, 0.02) 0px,
+                    rgba(0, 0, 0, 0.02) 1px,
+                    transparent 1px,
+                    transparent 2px
+                ),
+                repeating-linear-gradient(
+                    90deg,
+                    rgba(0, 0, 0, 0.02) 0px,
+                    rgba(0, 0, 0, 0.02) 1px,
+                    transparent 1px,
+                    transparent 2px
+                );
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+
+        nav .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav .logo {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--primary);
+            letter-spacing: -0.5px;
+        }
+
+        nav .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        nav a {
+            color: var(--text-dark);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        nav a:hover {
+            color: var(--primary);
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            transition: width 0.3s ease;
+        }
+
+        nav a:hover::after {
+            width: 100%;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 4rem 2rem;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            color: var(--text-dark);
+            margin-bottom: 1rem;
+            letter-spacing: -1px;
+            line-height: 1.1;
+        }
+
+        .hero-subtitle {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            margin-bottom: 1.5rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .badge-group {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 50px;
+            backdrop-filter: blur(10px);
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--primary);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .badge-icon {
+            font-size: 1.2rem;
+        }
+
+        .word-count {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-top: 1rem;
+        }
+
+        /* Grid Section */
+        .grid-section {
+            margin-bottom: 4rem;
+        }
+
+        .grid-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        .grid-header h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-dark);
+        }
+
+        .filter-controls {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .filter-btn {
+            padding: 0.6rem 1.2rem;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            color: var(--text-dark);
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .filter-btn:hover,
+        .filter-btn.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        /* Word Grid */
+        .word-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        @media (max-width: 1200px) {
+            .word-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .word-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .word-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Word Card */
+        .word-card {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .word-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--primary), var(--primary-light));
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.3s ease;
+        }
+
+        .word-card:hover {
+            background: rgba(255, 255, 255, 0.85);
+            border-color: var(--primary-light);
+            box-shadow: 0 12px 24px rgba(79, 70, 229, 0.15);
+            transform: translateY(-4px);
+        }
+
+        .word-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .strongs-number {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            color: white;
+            padding: 0.4rem 0.8rem;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            letter-spacing: 0.5px;
+        }
+
+        .greek-word {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 0.5rem;
+            font-family: 'Noto Sans', serif;
+            letter-spacing: -0.5px;
+        }
+
+        .transliteration {
+            font-size: 0.95rem;
+            color: var(--primary);
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            font-style: italic;
+            letter-spacing: 0.3px;
+        }
+
+        .definition {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+
+        .word-meta {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .meta-tag {
+            font-size: 0.75rem;
+            padding: 0.3rem 0.6rem;
+            background: rgba(79, 70, 229, 0.1);
+            color: var(--primary);
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        /* Pagination */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            margin: 3rem 0;
+        }
+
+        .pagination-btn {
+            padding: 0.75rem 1.5rem;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            color: var(--text-dark);
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .pagination-btn:hover:not(:disabled) {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        .pagination-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .pagination-info {
+            font-size: 0.95rem;
+            color: var(--text-light);
+            font-weight: 600;
+            min-width: 120px;
+            text-align: center;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, var(--bg-dark) 0%, #1E293B 100%);
+            color: white;
+            padding: 4rem 2rem;
+            border-radius: 16px;
+            text-align: center;
+            margin: 4rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(79, 70, 229, 0.1) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .cta-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .cta-section h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            letter-spacing: -0.5px;
+        }
+
+        .cta-section p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            border: 2px solid var(--primary);
+        }
+
+        .cta-btn:hover {
+            background: transparent;
+            color: var(--primary);
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(10px);
+            border-top: 1px solid var(--border);
+            padding: 2rem;
+            text-align: center;
+            color: var(--text-light);
+            font-size: 0.9rem;
+            margin-top: 4rem;
+        }
+
+        footer a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: var(--primary-dark);
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .word-card {
+            animation: fadeInUp 0.5s ease forwards;
+        }
+
+        .word-card:nth-child(1) { animation-delay: 0.05s; }
+        .word-card:nth-child(2) { animation-delay: 0.1s; }
+        .word-card:nth-child(3) { animation-delay: 0.15s; }
+        .word-card:nth-child(4) { animation-delay: 0.2s; }
+        .word-card:nth-child(5) { animation-delay: 0.25s; }
+        .word-card:nth-child(6) { animation-delay: 0.3s; }
+        .word-card:nth-child(7) { animation-delay: 0.35s; }
+        .word-card:nth-child(8) { animation-delay: 0.4s; }
+        .word-card:nth-child(9) { animation-delay: 0.45s; }
+        .word-card:nth-child(10) { animation-delay: 0.5s; }
+        .word-card:nth-child(11) { animation-delay: 0.55s; }
+        .word-card:nth-child(12) { animation-delay: 0.6s; }
+        .word-card:nth-child(13) { animation-delay: 0.65s; }
+        .word-card:nth-child(14) { animation-delay: 0.7s; }
+        .word-card:nth-child(15) { animation-delay: 0.75s; }
+        .word-card:nth-child(16) { animation-delay: 0.8s; }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">Lexicon</div>
+            <ul class="nav-links">
+                <li><a href="#greek">Greek</a></li>
+                <li><a href="#hebrew">Hebrew</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Greek Lexicon</h1>
+            <p class="hero-subtitle">Explore biblical Greek words with Strong's numbers, transliterations, and scholarly definitions</p>
+            
+            <div class="badge-group">
+                <div class="badge">
+                    <span class="badge-icon">📜</span>
+                    <span>Manuscript Index</span>
+                </div>
+                <div class="badge">
+                    <span class="badge-icon">✓</span>
+                    <span>Verified Definitions</span>
+                </div>
+            </div>
+
+            <div class="word-count">5,600+</div>
+            <p class="hero-subtitle" style="font-size: 0.95rem; margin-top: 0.5rem;">Biblical Greek words indexed</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Grid Section -->
+        <section class="grid-section">
+            <div class="grid-header">
+                <h2>Browse Words</h2>
+                <div class="filter-controls">
+                    <button class="filter-btn active">All</button>
+                    <button class="filter-btn">Nouns</button>
+                    <button class="filter-btn">Verbs</button>
+                </div>
+            </div>
+
+            <!-- Word Grid -->
+            <div class="word-grid">
+                <!-- Word 1 -->
+                <div class="word-card">
+                    <div class="strongs-number">G26</div>
+                    <div class="greek-word">ἀγάπη</div>
+                    <div class="transliteration">agápē</div>
+                    <div class="definition">Love; affection; benevolence; the highest form of love, often used for divine love</div>
+                    <div class="word-meta">
+                        <span class="meta-tag">Noun</span>
+                        <span class="meta-tag">Feminine</span>
+                    </div>
+                </div>
+
+                <!-- Word 2 -->
+                <div class="word-card">
+                    <div class="strongs-number">G3056</div>
+                    <div class="greek-word">λόγος</div>
+                    <div class="transliteration">lógos</div>
+                    <div class="definition">Word; speech; discourse; reason; the divine word or principle; used for Christ in John 1:1</div>
+                    <div class="word-meta">
+                        <span class="meta-tag">Noun</span>
+                        <span class="meta-tag">Masculine</span>
+                    </div>
+                </div>
+
+                <!-- Word 3 -->
+                <div class="word-card">
+                    <div class="strongs-number">G5485</div>
+                    <div class="greek-word">χάρις</div>
+                    <div class="transliteration">charis</div>
+                    <div class="definition">Grace; favor; kindness; the unmerited favor of God; a gift or benefit</div>
+                    <div class="word-meta">
+                        <span class="meta-tag">Noun</span>
+                        <span class="meta-tag">Feminine</span>
+                    </div>
+                </div>
+
+                <!-- Word 4 -->
+                <div class="word-card">
+                    <div class="strongs-number">G4102</div>
+                    <div class="greek-word">πίστις</div>
+                    <div class="transliteration">pistis</div>
+                    <div class="definition">Faith; belief; trust; confidence; persuasion; the conviction of the truth of the gospel</div>
+                    <div class="word-meta">
+                        <span class="meta-tag">Noun</span>
+                        <span class="meta-tag">Feminine</span>
+                    </div>
+                </div>
+
+                <!-- Word 5 -->
+                <div class="word-card">
+                    <div class="strongs-number">G1391</div>
+                    <div class="greek-word">δόξα</div>
+                    <div class="transliteration">dóxa</div>
+                    <div class="definition">Glory; honor; dignity; splendor; the divine majesty and brightness of God</div>
+                    <div class="word-meta">
+                        <span class="meta-tag">Noun</span>
+                        <span class="meta-tag">Feminine</span>
+                    </div>
+                </div>
+
+                <!-- Word 6 -->
+                <div class="word-card">
+                    <div class="strongs-number">G2316</div>
+                    <div class="greek-word">θεός</div>
+                    <div class="transliteration">theós</div>
+                    <div class="definition">God; deity; the supreme being; the object of worship in monotheistic religions</div>
+                    <div class="word-meta">
+                        <span class="meta-tag">Noun</span>
+                        <span class="meta-tag">Masculine</span>
+                    </div>
+                </div>
+
+                <!-- Word 7 -->
+                <div class="word-card">
+                    <div class="strongs-number">G2424</div>
+                    <div class="greek-word">Ἰησοῦς</div>
+                    <div class="transliteration">Iēsoûs</div>
+                    <div class="definition">Jesus; the name of the Son of God; means "Yahweh is salvation" in Hebrew</div>
+                    <div class="word-meta">
+                        <span class="meta-tag">Proper Noun</span>
+                        <span class="meta-tag">Masculine</span>
+                    </div>
+                </div>
+
+                <!-- Word 8 -->
+                <div class="word-card">
+                    <div class="strongs-number">G4151</div>
+                    <div class="greek-word">πνεῦμα</div>
+                    <div class="transliteration">pneûma</div>
+                    <div class="definition">Spirit; breath; wind; the Holy Spirit; the immaterial part of human beings</div>
+                    <div class="word-meta">
+                        <span class="meta-tag">Noun</span>
+                        <span class="meta-tag">Neuter</span>
+                    </div>
+                </div>
+
+                <!-- Word 9 -->
+                <div class="word-card">
+                    <div class="strongs-number">G2588</div>
+                    <div class="greek-word">καρδία</div>
+                    <div class="transliteration">kardía</div>
+                    <div class="definition">Heart; the center of physical, emotional, and spiritual life; the seat of understanding</div>
+                    <div class="word-meta">
+                        <span class="meta-tag">Noun</span>
+                        <span class="meta-tag">Feminine</span>
+                    </div>
+                </div>
+
+                <!-- Word 10 -->
+                <div class="word-card">
+                    <div class="strongs-number">G1408</div>
+                    <div class="greek-word">δύναμις</div>
+                    <div class="transliteration">dýnamis</div>
+                    <div class="definition">Power; strength; ability; might; the power of God to perform miracles</div>
+                    <div class="word-meta">
+                        <span class="meta-tag">Noun</span>
+                        <span class="meta-tag">Feminine</span>
+                    </div>
+                </div>
+
+                <!-- Word 11 -->
+                <div class="word-card">
+                    <div class="strongs-number">G1519</div>
+                    <div class="greek-word">εἰς</div>
+                    <div class="transliteration">eis</div>
+                    <div class="definition">Into; unto; to; toward; expressing motion, direction, or purpose</div>
+                    <div class="word-meta">
+                        <span class="meta-tag">Preposition</span>
+                    </div>
+                </div>
+
+                <!-- Word 12 -->
+                <div class="word-card">
+                    <div class="strongs-number">G3004</div>
+                    <div class="greek-word">λέγω</div>
+                    <div class="transliteration">légō</div>
+                    <div class="definition">To say; to speak; to tell; to utter words; to declare or affirm</div>
+                    <div class="word-meta">
+                        <span class="meta-tag">Verb</span>
+                        <span class="meta-tag">Active</span>
+                    </div>
+                </div>
+
+                <!-- Word 13 -->
+                <div class="word-card">
+                    <div class="strongs-number">G1325</div>
+                    <div class="greek-word">δίδωμι</div>
+                    <div class="transliteration">dídōmi</div>
+                    <div class="definition">To give; to grant; to bestow; to deliver; to allow or permit</div>
+                    <div class="word-meta">
+                        <span class="meta-tag">Verb</span>
+                        <span class="meta-tag">Active</span>
+                    </div>
+                </div>
+
+                <!-- Word 14 -->
+                <div class="word-card">
+                    <div class="strongs-number">G2192</div>
+                    <div class="greek-word">ἔχω</div>
+                    <div class="transliteration">échō</div>
+                    <div class="definition">To have; to hold; to possess; to keep; to be in a certain condition</div>
+                    <div class="word-meta">
+                        <span class="meta-tag">Verb</span>
+                        <span class="meta-tag">Active</span>
+                    </div>
+                </div>
+
+                <!-- Word 15 -->
+                <div class="word-card">
+                    <div class="strongs-number">G1096</div>
+                    <div class="greek-word">γίνομαι</div>
+                    <div class="transliteration">gínomai</div>
+                    <div class="definition">To become; to come into being; to be made; to happen; to occur</div>
+                    <div class="word-meta">
+                        <span class="meta-tag">Verb</span>
+                        <span class="meta-tag">Middle</span>
+                    </div>
+                </div>
+
+                <!-- Word 16 -->
+                <div class="word-card">
+                    <div class="strongs-number">G2424</div>
+                    <div class="greek-word">ζωή</div>
+                    <div class="transliteration">zōḗ</div>
+                    <div class="definition">Life; existence; the state of being alive; eternal life; the principle of life</div>
+                    <div class="word-meta">
+                        <span class="meta-tag">Noun</span>
+                        <span class="meta-tag">Feminine</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <button class="pagination-btn">← Previous</button>
+                <div class="pagination-info">Page 1 of 350</div>
+                <button class="pagination-btn">Next →</button>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="cta-content">
+                <h2>Explore Hebrew Lexicon</h2>
+                <p>Shift to our comprehensive Hebrew word database with 8,000+ Old Testament terms and definitions</p>
+                <a href="#hebrew" class="cta-btn">Shift to Hebrew</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Biblical Lexicon. All rights reserved. | <a href="#privacy">Privacy</a> | <a href="#terms">Terms</a> | <a href="#contact">Contact</a></p>
+    </footer>
+
+    <script>
+        // Filter button functionality
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        // Pagination button functionality
+        document.querySelectorAll('.pagination-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                if (!this.disabled) {
+                    // Scroll to grid
+                    document.querySelector('.word-grid').scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Word card click interaction
+        document.querySelectorAll('.word-card').forEach(card => {
+            card.addEventListener('click', function() {
+                console.log('Word card clicked:', this.querySelector('.greek-word').textContent);
+            });
+        });
+    </script>
+</body>
+</html>

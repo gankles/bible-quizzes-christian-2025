@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { PlayIcon, ClockIcon, CheckCircleIcon, ArrowRightIcon, BookOpenIcon } from '@/components/icons';
 import { BIBLE_BOOKS } from '@/lib/bible-data';
+import { SearchBox, DailyVerse, QuickStartSection } from '@/components/HomePageClient';
 
 // Featured quizzes data
 const featuredQuizzes = [
@@ -85,29 +86,20 @@ export default function Home() {
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-              Test Your{' '}
-              <span className="text-blue-600">Bible Knowledge</span>
+            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">
+              How Well Do You{' '}
+              <span className="text-blue-600">Know the Bible?</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Comprehensive Bible quizzes for all 66 books. From Genesis to Revelation, 
-              deepen your understanding with interactive quizzes designed for every skill level.
+            <p className="text-xl md:text-2xl text-gray-600 mb-2 max-w-3xl mx-auto">
+              Let&apos;s find out together.
+            </p>
+            <p className="text-lg text-gray-500 mb-8 max-w-2xl mx-auto">
+              66 books, 1,189 chapters, thousands of questions. Whether you grew up in Sunday school 
+              or just picked up a Bible for the first time—there&apos;s something here for you.
             </p>
             
-            {/* Search Bar */}
-            <div className="max-w-2xl mx-auto mb-8">
-              <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <svg className="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-                  </svg>
-                </div>
-                <input
-                  type="text"
-                  placeholder="Search Bible books, chapters, or topics..."
-                  className="block w-full pl-10 pr-4 py-4 border border-gray-300 rounded-lg leading-5 bg-white/90 backdrop-blur-sm placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-lg shadow-lg"
-                />
-              </div>
+            <div className="mb-8">
+              <SearchBox />
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -146,15 +138,21 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Featured Quizzes Section */}
-      <section className="py-16 bg-white">
+      <section className="py-8 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <DailyVerse />
+          <QuickStartSection />
+        </div>
+      </section>
+
+      <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Popular Bible Quizzes
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Start with these popular quizzes, loved by thousands of Bible students worldwide.
+              These are fan favorites. Thousands have taken them—now it&apos;s your turn.
             </p>
           </div>
 
@@ -281,6 +279,43 @@ export default function Home() {
                 </Link>
               ))}
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Study Resources Section */}
+      <section className="py-16 bg-white border-b">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Bible Study Resources
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Go deeper with word studies, topical guides, character profiles, and encyclopedic references.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+            {[
+              { href: '/topics', name: 'Bible Topics', desc: 'Verses by theme', count: '500+' },
+              { href: '/lexicon', name: 'Greek & Hebrew Lexicon', desc: 'Original language', count: '14,000+' },
+              { href: '/characters', name: 'Bible Characters', desc: 'Profiles & bios', count: '200+' },
+              { href: '/nave-topics', name: "Nave's Topical Bible", desc: 'Classic reference', count: '5,300+' },
+              { href: '/people', name: 'People Directory', desc: 'Every person named', count: '3,000+' },
+              { href: '/bible-names', name: 'Bible Names', desc: 'Meanings & origins', count: '2,600+' },
+            ].map((resource) => (
+              <Link
+                key={resource.href}
+                href={resource.href}
+                className="bg-gray-50 border border-gray-200 rounded-lg p-4 text-center hover:shadow-md hover:border-blue-300 transition-all duration-200 group"
+              >
+                <div className="text-2xl font-bold text-blue-600 mb-1">{resource.count}</div>
+                <div className="text-sm font-semibold text-gray-900 group-hover:text-blue-600 mb-1">
+                  {resource.name}
+                </div>
+                <div className="text-xs text-gray-500">{resource.desc}</div>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

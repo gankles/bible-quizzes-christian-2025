@@ -1,0 +1,998 @@
+{
+  "id": "numbers-2-tabbed",
+  "title": "Numbers Chapter 2 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Numbers chapter 2 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "numbers-2-easy",
+      "title": "Numbers Chapter 2 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Numbers Chapter 2.",
+      "type": "chapter",
+      "book": "Numbers",
+      "chapter": 2,
+      "questions": [
+        {
+          "id": "numbers-2-easy-q1",
+          "question": "Who was the captain of the children of Judah according to Numbers 2?",
+          "type": "multiple-choice",
+          "options": [
+            "Nahshon son of Amminadab",
+            "Elizur son of Shedeur",
+            "Elishama son of Ammihud",
+            "Ahiezer son of Ammishaddai"
+          ],
+          "correctAnswer": "Nahshon son of Amminadab",
+          "explanation": "Numbers 2:3 states that Nahshon son of Amminadab was captain of the children of Judah.",
+          "verseReference": "Numbers 2:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-2-easy-q2",
+          "question": "Where were the children of Israel to pitch their tents according to Numbers 2?",
+          "type": "multiple-choice",
+          "options": [
+            "Far off about the tabernacle of the congregation",
+            "Near the river Jordan",
+            "On the mountain of Sinai",
+            "By the desert edge"
+          ],
+          "correctAnswer": "Far off about the tabernacle of the congregation",
+          "explanation": "Numbers 2:2 explains that the children of Israel were to pitch far off about the tabernacle of the congregation.",
+          "verseReference": "Numbers 2:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-2-easy-q3",
+          "question": "Which tribe pitched on the east side toward the rising of the sun?",
+          "type": "multiple-choice",
+          "options": [
+            "Judah",
+            "Reuben",
+            "Ephraim",
+            "Dan"
+          ],
+          "correctAnswer": "Judah",
+          "explanation": "Numbers 2:3 states that the camp of Judah was on the east side toward the rising of the sun.",
+          "verseReference": "Numbers 2:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-2-easy-q4",
+          "question": "How many were numbered in the tribe of Issachar?",
+          "type": "multiple-choice",
+          "options": [
+            "54,400",
+            "74,600",
+            "57,400",
+            "46,500"
+          ],
+          "correctAnswer": "54,400",
+          "explanation": "Numbers 2:6 states the number of those numbered in the tribe of Issachar was fifty and four thousand and four hundred.",
+          "verseReference": "Numbers 2:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-2-easy-q5",
+          "question": "Who was captain of the children of Simeon?",
+          "type": "multiple-choice",
+          "options": [
+            "Shelumiel son of Zurishaddai",
+            "Eliasaph son of Reuel",
+            "Nethaneel son of Zuar",
+            "Eliab son of Helon"
+          ],
+          "correctAnswer": "Shelumiel son of Zurishaddai",
+          "explanation": "Numbers 2:12 identifies Shelumiel son of Zurishaddai as captain of the children of Simeon.",
+          "verseReference": "Numbers 2:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-2-easy-q6",
+          "question": "True or False: The Levites were numbered among the children of Israel in Numbers 2.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Numbers 2:33 clearly states that the Levites were not numbered among the children of Israel.",
+          "verseReference": "Numbers 2:33",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-2-easy-q7",
+          "question": "Which tribe was to camp on the south side according to Numbers 2?",
+          "type": "multiple-choice",
+          "options": [
+            "Reuben",
+            "Ephraim",
+            "Judah",
+            "Dan"
+          ],
+          "correctAnswer": "Reuben",
+          "explanation": "Numbers 2:10 states that the standard of the camp of Reuben was on the south side.",
+          "verseReference": "Numbers 2:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-2-easy-q8",
+          "question": "How many were numbered in the tribe of Gad?",
+          "type": "multiple-choice",
+          "options": [
+            "45,650",
+            "59,300",
+            "40,500",
+            "35,400"
+          ],
+          "correctAnswer": "45,650",
+          "explanation": "Numbers 2:15 shows that the tribe of Gad had forty and five thousand and six hundred and fifty numbered.",
+          "verseReference": "Numbers 2:15",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-2-easy-q9",
+          "question": "Who was the captain of the children of Ephraim?",
+          "type": "multiple-choice",
+          "options": [
+            "Elishama son of Ammihud",
+            "Gamaliel son of Pedahzur",
+            "Abidan son of Gideoni",
+            "Ahira son of Enan"
+          ],
+          "correctAnswer": "Elishama son of Ammihud",
+          "explanation": "Numbers 2:18 names Elishama son of Ammihud as captain of the children of Ephraim.",
+          "verseReference": "Numbers 2:18",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-2-easy-q10",
+          "question": "Which tribe camped by the tribe of Ephraim?",
+          "type": "multiple-choice",
+          "options": [
+            "Manasseh",
+            "Benjamin",
+            "Asher",
+            "Naphtali"
+          ],
+          "correctAnswer": "Manasseh",
+          "explanation": "Numbers 2:20 states that the tribe of Manasseh camped by Ephraim.",
+          "verseReference": "Numbers 2:20",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-2-easy-q11",
+          "question": "True or False: The tribe of Dan camped on the north side according to Numbers 2.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Numbers 2:25 explains that the standard of the camp of Dan was on the north side.",
+          "verseReference": "Numbers 2:25",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-2-easy-q12",
+          "question": "Who was the captain of the children of Dan?",
+          "type": "multiple-choice",
+          "options": [
+            "Ahiezer son of Ammishaddai",
+            "Pagiel son of Ocran",
+            "Ahira son of Enan",
+            "Abidan son of Gideoni"
+          ],
+          "correctAnswer": "Ahiezer son of Ammishaddai",
+          "explanation": "Numbers 2:25 names Ahiezer son of Ammishaddai as captain of the children of Dan.",
+          "verseReference": "Numbers 2:25",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-2-easy-q13",
+          "question": "How many were numbered in the tribe of Naphtali?",
+          "type": "multiple-choice",
+          "options": [
+            "53,400",
+            "41,500",
+            "62,700",
+            "30,500"
+          ],
+          "correctAnswer": "53,400",
+          "explanation": "Numbers 2:30 states the host of Naphtali was fifty and three thousand and four hundred.",
+          "verseReference": "Numbers 2:30",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-2-easy-q14",
+          "question": "Complete the verse from Numbers 2:17: 'Then the tabernacle of the congregation shall set forward with the camp of the ______ in the midst of the camp.'",
+          "type": "fill-blank",
+          "options": [
+            "Levites",
+            "Judah",
+            "Reuben",
+            "Ephraim"
+          ],
+          "correctAnswer": "Levites",
+          "explanation": "Numbers 2:17 states that the tabernacle of the congregation sets forward with the camp of the Levites.",
+          "verseReference": "Numbers 2:17",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-2-easy-q15",
+          "question": "True or False: Numbers 2:34 states that the children of Israel pitched by their standards as the LORD commanded Moses.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Numbers 2:34 confirms that the children of Israel did according to all that the LORD commanded Moses and pitched by their standards.",
+          "verseReference": "Numbers 2:34",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "numbers-2-quiz",
+      "tags": [
+        "numbers",
+        "chapter-2",
+        "numbers",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "numbers-2-medium",
+      "title": "Numbers Chapter 2 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Numbers Chapter 2 to real-life situations.",
+      "type": "chapter",
+      "book": "Numbers",
+      "chapter": 2,
+      "questions": [
+        {
+          "id": "numbers-2-medium-q1",
+          "question": "A fellow believer is struggling to remain obedient and orderly in their spiritual life. Based on Numbers 2, what biblical truth would you share about the importance of obedience?",
+          "type": "multiple-choice",
+          "options": [
+            "Obedience to God's instructions brings order and blessing.",
+            "Obedience is optional if circumstances are difficult.",
+            "God only requires obedience from leaders, not all people.",
+            "Obedience is less important than personal feelings."
+          ],
+          "correctAnswer": "Obedience to God's instructions brings order and blessing.",
+          "explanation": "Numbers 2:1-2 and 2:34 show that God gave specific instructions about how Israel should camp and move, and the people obeyed exactly as commanded. This demonstrates that obedience to God's Word brings order and blessing.",
+          "verseReference": "Numbers 2:1, 2, 34",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-2-medium-q2",
+          "question": "How does Numbers 2 teach us about the value of unity and cooperation within the church family?",
+          "type": "multiple-choice",
+          "options": [
+            "Each tribe camped by their own standard, yet all were arranged around the tabernacle.",
+            "Everyone did whatever they wanted without coordination.",
+            "Only the Levites were important for unity.",
+            "Unity is not necessary if each person is strong individually."
+          ],
+          "correctAnswer": "Each tribe camped by their own standard, yet all were arranged around the tabernacle.",
+          "explanation": "Numbers 2:2 and 2:17 describe how each tribe camped around the tabernacle in an orderly way, showing unity and cooperation under God's presence, teaching the importance of organized fellowship and serving together.",
+          "verseReference": "Numbers 2:2, 17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-2-medium-q3",
+          "question": "A believer is discouraged about their place in the church service. What encouragement about serving others can you share from Numbers 2?",
+          "type": "multiple-choice",
+          "options": [
+            "Every tribe had a specific place and leader, showing all roles matter.",
+            "Only the largest tribe matters in service.",
+            "Service is only for those with spiritual gifts.",
+            "Service is only important for clergy."
+          ],
+          "correctAnswer": "Every tribe had a specific place and leader, showing all roles matter.",
+          "explanation": "Numbers 2:3-31 lists each tribe with its captain and place, illustrating that every member and role is important in God's plan, encouraging believers to serve faithfully regardless of size or prominence.",
+          "verseReference": "Numbers 2:3-31",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-2-medium-q4",
+          "question": "How does Numbers 2 illustrate the value of leadership and responsibility in the Christian life?",
+          "type": "multiple-choice",
+          "options": [
+            "Each tribe had a captain responsible for their people.",
+            "Leadership was only given to the oldest members.",
+            "Leadership was optional and informal.",
+            "Only Moses and Aaron led the people."
+          ],
+          "correctAnswer": "Each tribe had a captain responsible for their people.",
+          "explanation": "Numbers 2:3, 5, 7, 10, 12, 14, 18, 20, 22, 25, 27, 29 show that each tribe had a designated captain, emphasizing responsible leadership and accountability in serving God's people.",
+          "verseReference": "Numbers 2:3, 5, 7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-2-medium-q5",
+          "question": "A believer asks about perseverance through trials and obstacles. What principle from Numbers 2 can you share about moving forward in faith?",
+          "type": "multiple-choice",
+          "options": [
+            "The tribes moved forward in ranks, faithfully following God's order.",
+            "They waited until all obstacles were removed before moving.",
+            "They moved forward by their own decisions without guidance.",
+            "They avoided moving forward to prevent hardship."
+          ],
+          "correctAnswer": "The tribes moved forward in ranks, faithfully following God's order.",
+          "explanation": "Numbers 2:9, 16, 24, 31 explain the order in which tribes set forward, demonstrating perseverance and trust in God's plan despite challenges.",
+          "verseReference": "Numbers 2:9, 16, 24, 31",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-2-medium-q6",
+          "question": "How does Numbers 2 teach about humility and contentment within one's God-ordained role?",
+          "type": "multiple-choice",
+          "options": [
+            "Each tribe accepted its designated position around the tabernacle.",
+            "Tribes competed for the best positions.",
+            "Only the biggest tribes deserved honor.",
+            "Positions were changed based on personal preference."
+          ],
+          "correctAnswer": "Each tribe accepted its designated position around the tabernacle.",
+          "explanation": "Numbers 2:2-31 shows that all tribes accepted their assigned places, teaching humility and contentment in following God's arrangement for us.",
+          "verseReference": "Numbers 2:2-31",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-2-medium-q7",
+          "question": "A fellow believer is struggling with stewardship and generosity. What insight from Numbers 2 can you share about faithful stewardship?",
+          "type": "multiple-choice",
+          "options": [
+            "Each tribe was numbered and accounted for, showing responsible stewardship.",
+            "Stewardship is optional if the need is great.",
+            "Only leaders are responsible for stewardship.",
+            "Stewardship is unnecessary in community life."
+          ],
+          "correctAnswer": "Each tribe was numbered and accounted for, showing responsible stewardship.",
+          "explanation": "Numbers 2:4, 6, 8, 11, 13, 15, 19, 21, 23, 26, 28, 30 emphasize careful counting and organization, reflecting responsibility in managing God's people and resources.",
+          "verseReference": "Numbers 2:4, 6, 8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-2-medium-q8",
+          "question": "How does Numbers 2 encourage believers to trust in God's guidance during transitions and changes?",
+          "type": "multiple-choice",
+          "options": [
+            "The camp moved forward only as God commanded through Moses.",
+            "They moved whenever they felt ready without direction.",
+            "They followed human leaders instead of God's commands.",
+            "They resisted change to avoid uncertainty."
+          ],
+          "correctAnswer": "The camp moved forward only as God commanded through Moses.",
+          "explanation": "Numbers 2:1 and 2:34 show that the Israelites obeyed God's command in their movement and encampment, teaching trust in God's timing and guidance.",
+          "verseReference": "Numbers 2:1, 34",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-2-medium-q9",
+          "question": "True or False: According to Numbers 2, the Levites were included in the census and camp numbering of the children of Israel.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Numbers 2:32-33 clearly states the Levites were not numbered among the children of Israel as the LORD commanded Moses, indicating their special role.",
+          "verseReference": "Numbers 2:32-33",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-2-medium-q10",
+          "question": "True or False: The camp of Judah was assigned to the east side toward the rising of the sun, according to Numbers 2.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Numbers 2:3 states that the standard of Judah camped on the east side toward the rising of the sun, showing God's precise instructions for order.",
+          "verseReference": "Numbers 2:3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-2-medium-q11",
+          "question": "A believer wants to understand how to live with integrity and faithfulness in family life. What does Numbers 2 teach about the importance of family identity and order?",
+          "type": "multiple-choice",
+          "options": [
+            "Each man pitched by the ensign of their father's house, respecting family structure.",
+            "Family identity was disregarded for individual freedom.",
+            "Families combined without regard to lineage.",
+            "Only leaders mattered, not family connections."
+          ],
+          "correctAnswer": "Each man pitched by the ensign of their father's house, respecting family structure.",
+          "explanation": "Numbers 2:2 emphasizes that every man pitched by the ensign of their father's house, teaching respect for family order and heritage.",
+          "verseReference": "Numbers 2:2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-2-medium-q12",
+          "question": "Fill in the blank: \"Then the tribe of _____; and Eliab the son of Helon shall be captain of the children of Zebulun.\"",
+          "type": "fill-in-the-blank",
+          "options": [
+            "Zebulun",
+            "Issachar",
+            "Gad",
+            "Benjamin"
+          ],
+          "correctAnswer": "Zebulun",
+          "explanation": "Numbers 2:7 states that the tribe of Zebulun had Eliab the son of Helon as captain, showing God's specific order of leadership.",
+          "verseReference": "Numbers 2:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-2-medium-q13",
+          "question": "How does Numbers 2 teach about the importance of spiritual discipline and regular devotion in the Christian walk?",
+          "type": "multiple-choice",
+          "options": [
+            "The camp was arranged around the tabernacle, symbolizing constant focus on God's presence.",
+            "The camp ignored the tabernacle and focused on their own tents.",
+            "Devotion was only for priests, not the people.",
+            "The people camped randomly without spiritual focus."
+          ],
+          "correctAnswer": "The camp was arranged around the tabernacle, symbolizing constant focus on God's presence.",
+          "explanation": "Numbers 2:2 and 2:17 show that the tribes encamped around the tabernacle, symbolizing the need for believers to keep God at the center of life through spiritual discipline.",
+          "verseReference": "Numbers 2:2, 17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-2-medium-q14",
+          "question": "A believer is concerned about how to handle trials and maintain faith. What lesson from Numbers 2 about perseverance would you share?",
+          "type": "multiple-choice",
+          "options": [
+            "The tribes set forth in ranks as God commanded, showing steadfast faith.",
+            "They abandoned the order when trials came.",
+            "They only moved when they felt strong.",
+            "They ignored God's commands during hardship."
+          ],
+          "correctAnswer": "The tribes set forth in ranks as God commanded, showing steadfast faith.",
+          "explanation": "Numbers 2:9, 16, 24, 31 demonstrate the tribes' faithful obedience in moving forward in God's order, teaching perseverance through trials.",
+          "verseReference": "Numbers 2:9, 16, 24, 31",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-2-medium-q15",
+          "question": "What does Numbers 2 teach about God's provision and care for His people through organized community life?",
+          "type": "multiple-choice",
+          "options": [
+            "God arranged the tribes around the tabernacle with leaders and numbers, showing His care.",
+            "God left the people to organize themselves without guidance.",
+            "God only cared for the priests, not the tribes.",
+            "Community organization was irrelevant to God's provision."
+          ],
+          "correctAnswer": "God arranged the tribes around the tabernacle with leaders and numbers, showing His care.",
+          "explanation": "Numbers 2:1-31 describe God's detailed instructions for the camp's arrangement, demonstrating His loving provision and order for His people.",
+          "verseReference": "Numbers 2:1-31",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "numbers-2-quiz",
+      "tags": [
+        "numbers",
+        "chapter-2",
+        "numbers",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "numbers-2-hard",
+      "title": "Numbers Chapter 2 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Numbers Chapter 2.",
+      "type": "chapter",
+      "book": "Numbers",
+      "chapter": 2,
+      "questions": [
+        {
+          "id": "numbers-2-hard-q1",
+          "question": "Which tribe was assigned to camp on the east side of the tabernacle according to Numbers 2?",
+          "type": "multiple-choice",
+          "options": [
+            "Judah",
+            "Reuben",
+            "Ephraim",
+            "Dan"
+          ],
+          "correctAnswer": "Judah",
+          "explanation": "Numbers 2:3 states that the tribe of Judah was to pitch on the east side toward the rising of the sun.",
+          "verseReference": "Numbers 2:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-hard-q2",
+          "question": "Who was the captain of the tribe of Issachar as mentioned in Numbers 2?",
+          "type": "multiple-choice",
+          "options": [
+            "Nethaneel",
+            "Nahshon",
+            "Eliab",
+            "Elizur"
+          ],
+          "correctAnswer": "Nethaneel",
+          "explanation": "Numbers 2:5 identifies Nethaneel son of Zuar as the captain of the children of Issachar.",
+          "verseReference": "Numbers 2:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-hard-q3",
+          "question": "How many men were numbered from the tribe of Zebulun?",
+          "type": "multiple-choice",
+          "options": [
+            "57,400",
+            "54,400",
+            "46,500",
+            "40,500"
+          ],
+          "correctAnswer": "57,400",
+          "explanation": "According to Numbers 2:8, the tribe of Zebulun had 57,400 men numbered in their host.",
+          "verseReference": "Numbers 2:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-hard-q4",
+          "question": "Which tribe camped on the south side of the tabernacle?",
+          "type": "multiple-choice",
+          "options": [
+            "Reuben",
+            "Judah",
+            "Ephraim",
+            "Dan"
+          ],
+          "correctAnswer": "Reuben",
+          "explanation": "Numbers 2:10 describes the camp of Reuben as set on the south side according to their armies.",
+          "verseReference": "Numbers 2:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-hard-q5",
+          "question": "Identify the captain of the tribe of Simeon.",
+          "type": "multiple-choice",
+          "options": [
+            "Shelumiel",
+            "Eliasaph",
+            "Elishama",
+            "Ahiezer"
+          ],
+          "correctAnswer": "Shelumiel",
+          "explanation": "Numbers 2:12 names Shelumiel son of Zurishaddai as the captain of the children of Simeon.",
+          "verseReference": "Numbers 2:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-hard-q6",
+          "question": "Which tribe was led by Eliasaph the son of Reuel?",
+          "type": "multiple-choice",
+          "options": [
+            "Gad",
+            "Manasseh",
+            "Benjamin",
+            "Naphtali"
+          ],
+          "correctAnswer": "Gad",
+          "explanation": "Numbers 2:14 states that Eliasaph son of Reuel was the captain of the tribe of Gad.",
+          "verseReference": "Numbers 2:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-hard-q7",
+          "question": "What is the total number of men in the camp of Reuben as given in Numbers 2?",
+          "type": "multiple-choice",
+          "options": [
+            "151,450",
+            "100,000",
+            "105,400",
+            "120,000"
+          ],
+          "correctAnswer": "151,450",
+          "explanation": "Numbers 2:16 sums the camp of Reuben at 151,450 men throughout their armies.",
+          "verseReference": "Numbers 2:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-hard-q8",
+          "question": "Which camp followed the Levites and the tabernacle when setting forward?",
+          "type": "multiple-choice",
+          "options": [
+            "Camp of Ephraim",
+            "Camp of Reuben",
+            "Camp of Judah",
+            "Camp of Dan"
+          ],
+          "correctAnswer": "Camp of Ephraim",
+          "explanation": "Numbers 2:17-18 indicates the Levites and tabernacle are in the midst, and the camp of Ephraim is on the west side, moving after them.",
+          "verseReference": "Numbers 2:17-18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-hard-q9",
+          "question": "Who was the captain of the tribe of Manasseh?",
+          "type": "multiple-choice",
+          "options": [
+            "Gamaliel",
+            "Abidan",
+            "Elishama",
+            "Pagiel"
+          ],
+          "correctAnswer": "Gamaliel",
+          "explanation": "Numbers 2:20 assigns Gamaliel son of Pedahzur as captain of the children of Manasseh.",
+          "verseReference": "Numbers 2:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-hard-q10",
+          "question": "How many men were numbered in the camp of Ephraim?",
+          "type": "multiple-choice",
+          "options": [
+            "100,800",
+            "105,700",
+            "110,000",
+            "95,600"
+          ],
+          "correctAnswer": "100,800",
+          "explanation": "Numbers 2:24 states the total of the camp of Ephraim as 100,800 men.",
+          "verseReference": "Numbers 2:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-hard-q11",
+          "question": "Which tribe was assigned to camp on the north side of the tabernacle?",
+          "type": "multiple-choice",
+          "options": [
+            "Dan",
+            "Asher",
+            "Naphtali",
+            "Benjamin"
+          ],
+          "correctAnswer": "Dan",
+          "explanation": "Numbers 2:25 identifies the camp of Dan as being on the north side by their armies.",
+          "verseReference": "Numbers 2:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-hard-q12",
+          "question": "Who was the captain of the tribe of Asher?",
+          "type": "multiple-choice",
+          "options": [
+            "Pagiel",
+            "Ahira",
+            "Shelumiel",
+            "Elishama"
+          ],
+          "correctAnswer": "Pagiel",
+          "explanation": "Numbers 2:27 names Pagiel son of Ocran as captain of the children of Asher.",
+          "verseReference": "Numbers 2:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-hard-q13",
+          "question": "Which tribe did Ahira son of Enan lead?",
+          "type": "multiple-choice",
+          "options": [
+            "Naphtali",
+            "Manasseh",
+            "Benjamin",
+            "Simeon"
+          ],
+          "correctAnswer": "Naphtali",
+          "explanation": "Numbers 2:29 states Ahira son of Enan as the captain of the children of Naphtali.",
+          "verseReference": "Numbers 2:29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-hard-q14",
+          "question": "True or False: The Levites were numbered among the children of Israel according to Numbers 2.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Numbers 2:33 clearly states that the Levites were not numbered among the children of Israel as the LORD commanded Moses.",
+          "verseReference": "Numbers 2:33",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-hard-q15",
+          "question": "What was the total number of men numbered from the camp of Dan?",
+          "type": "multiple-choice",
+          "options": [
+            "157,600",
+            "150,000",
+            "160,500",
+            "145,300"
+          ],
+          "correctAnswer": "157,600",
+          "explanation": "Numbers 2:31 gives the total of the camp of Dan as 157,600 men.",
+          "verseReference": "Numbers 2:31",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "numbers-2-quiz",
+      "tags": [
+        "numbers",
+        "chapter-2",
+        "numbers",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "numbers-2-theological",
+      "title": "Numbers Chapter 2 Quiz - Theological Level",
+      "description": "Deep biblical theology from Numbers Chapter 2 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Numbers",
+      "chapter": 2,
+      "questions": [
+        {
+          "id": "numbers-2-theological-q1",
+          "question": "According to Numbers 2, what is the significance of the Israelites pitching their camps by their own standards and ensigns?",
+          "type": "multiple-choice",
+          "options": [
+            "It symbolizes their order and unity under God's command",
+            "It was merely a military strategy without spiritual meaning",
+            "It represented their individual family pride only",
+            "It was to separate the Levites from other tribes permanently"
+          ],
+          "correctAnswer": "It symbolizes their order and unity under God's command",
+          "explanation": "Numbers 2:2 shows God commanding the children of Israel to pitch by their own standards, indicating divine order and unity. This reflects God's sovereign authority organizing His people (cf. Exodus 13:21-22, Joshua 4:6-7, 1 Corinthians 14:40, Hebrews 12:1).",
+          "verseReference": "Numbers 2:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-theological-q2",
+          "question": "Who was appointed as the captain of the tribe of Judah according to Numbers 2?",
+          "type": "multiple-choice",
+          "options": [
+            "Nahshon the son of Amminadab",
+            "Elizur the son of Shedeur",
+            "Eliasaph the son of Reuel",
+            "Shelumiel the son of Zurishaddai"
+          ],
+          "correctAnswer": "Nahshon the son of Amminadab",
+          "explanation": "Numbers 2:3 names Nahshon as captain of Judah, highlighting God’s appointment of leaders for His people. This demonstrates God’s providential ordering (cf. Genesis 34:24, Joshua 15:2, 1 Chronicles 2:10, Hebrews 11:32).",
+          "verseReference": "Numbers 2:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-theological-q3",
+          "question": "What does the numbering of the tribes in Numbers 2 primarily reveal about God's relationship with Israel?",
+          "type": "multiple-choice",
+          "options": [
+            "God's sovereign organization and care for His covenant people",
+            "A focus on military strength only",
+            "A system to divide land possession among tribes",
+            "A human attempt to control population"
+          ],
+          "correctAnswer": "God's sovereign organization and care for His covenant people",
+          "explanation": "The census in Numbers 2:4-31 reflects God's sovereign ordering and care for Israel, His covenant community (cf. Exodus 30:12, Deuteronomy 7:6, Psalm 147:19-20, Romans 9:4-5).",
+          "verseReference": "Numbers 2:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-theological-q4",
+          "question": "Which tribe was assigned to camp on the east side of the tabernacle, and what theological significance might this have?",
+          "type": "multiple-choice",
+          "options": [
+            "Judah, symbolizing leadership and messianic promise",
+            "Reuben, symbolizing firstborn status",
+            "Ephraim, symbolizing blessing",
+            "Dan, symbolizing judgment"
+          ],
+          "correctAnswer": "Judah, symbolizing leadership and messianic promise",
+          "explanation": "Numbers 2:3 places Judah on the east side, symbolizing leadership and messianic hope (cf. Genesis 49:10, Psalm 78:67-68, Matthew 1:2, Hebrews 7:14).",
+          "verseReference": "Numbers 2:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-theological-q5",
+          "question": "What is the role of the Levites in the arrangement described in Numbers 2, and what doctrinal truth does this reveal?",
+          "type": "multiple-choice",
+          "options": [
+            "They camp in the midst of Israel, representing God's holiness among His people",
+            "They lead the armies into battle",
+            "They are numbered among the tribes as warriors",
+            "They camp outside the camp to be separate"
+          ],
+          "correctAnswer": "They camp in the midst of Israel, representing God's holiness among His people",
+          "explanation": "Numbers 2:17 and 2:33 show Levites camp in the center with the tabernacle, illustrating God's holy presence dwelling among His people (cf. Exodus 25:8, Leviticus 26:11-12, John 1:14, 1 Corinthians 3:16).",
+          "verseReference": "Numbers 2:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-theological-q6",
+          "question": "According to Numbers 2, which tribe's captain was Elizur the son of Shedeur, and what does this indicate about God's leadership structure?",
+          "type": "multiple-choice",
+          "options": [
+            "Reuben, demonstrating God’s appointed tribal chiefs",
+            "Simeon, showing diversity of leadership",
+            "Gad, representing military organization",
+            "Benjamin, indicating God's election"
+          ],
+          "correctAnswer": "Reuben, demonstrating God’s appointed tribal chiefs",
+          "explanation": "Numbers 2:10-11 names Elizur as captain of Reuben, showing God appoints leaders to organize His people under divine authority (cf. Exodus 18:21, Deuteronomy 1:13, 1 Chronicles 27:17, Hebrews 13:7).",
+          "verseReference": "Numbers 2:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-theological-q7",
+          "question": "What theological truth can be drawn from the fact that the Levites were not numbered among the children of Israel in Numbers 2?",
+          "type": "multiple-choice",
+          "options": [
+            "They were set apart as a holy priestly tribe dedicated to God",
+            "They were excluded from God's covenant promises",
+            "They were a smaller tribe without significance",
+            "They were temporary servants only"
+          ],
+          "correctAnswer": "They were set apart as a holy priestly tribe dedicated to God",
+          "explanation": "Numbers 2:33 explains Levites were not numbered, indicating their unique priestly role set apart for God’s service (cf. Numbers 3:12, Deuteronomy 10:8, Hebrews 7:23-28, 1 Peter 2:9).",
+          "verseReference": "Numbers 2:33",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-theological-q8",
+          "question": "How does the precise numbering of each tribe in Numbers 2 reflect God’s attribute of sovereignty?",
+          "type": "multiple-choice",
+          "options": [
+            "It shows God’s control and knowledge over His people’s organization",
+            "It is evidence of human control over the tribes",
+            "It was only for military tactics without divine implication",
+            "It demonstrates randomness in God’s plan"
+          ],
+          "correctAnswer": "It shows God’s control and knowledge over His people’s organization",
+          "explanation": "The census in Numbers 2:4-31 reflects God’s sovereign knowledge and control over Israel’s order (cf. Psalm 147:4-5, Isaiah 40:26, Matthew 10:30, Hebrews 4:13).",
+          "verseReference": "Numbers 2:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-theological-q9",
+          "question": "Which tribe camped on the west side of the tabernacle, and what does this placement signify in biblical symbolism?",
+          "type": "multiple-choice",
+          "options": [
+            "Ephraim, symbolizing strength and blessing",
+            "Dan, symbolizing judgment",
+            "Judah, symbolizing kingship",
+            "Reuben, symbolizing firstborn"
+          ],
+          "correctAnswer": "Ephraim, symbolizing strength and blessing",
+          "explanation": "Numbers 2:18 places Ephraim on the west, often a direction associated with blessing and strength (cf. Genesis 48:19, Psalm 78:67, Jeremiah 17:1, Revelation 7:5-8).",
+          "verseReference": "Numbers 2:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-theological-q10",
+          "question": "What doctrinal insight does the order of marching and setting forward in Numbers 2 provide about God’s providence?",
+          "type": "multiple-choice",
+          "options": [
+            "God directs the movement and order of His people according to His will",
+            "Israel acted independently without divine guidance",
+            "The order was based on military strength only",
+            "The tribes marched randomly without any set plan"
+          ],
+          "correctAnswer": "God directs the movement and order of His people according to His will",
+          "explanation": "Numbers 2:34 shows Israel moved according to God’s command, reflecting His providential guidance (cf. Psalm 23:3, Proverbs 16:9, Isaiah 48:13, Romans 8:28).",
+          "verseReference": "Numbers 2:34",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-theological-q11",
+          "question": "What is the significance of the tribe of Dan camping on the north side according to Numbers 2, in biblical theology?",
+          "type": "multiple-choice",
+          "options": [
+            "It represents God’s comprehensive care over all directions",
+            "It was a punishment for idolatry",
+            "It signifies the tribe’s exclusion",
+            "It shows Dan’s leadership role"
+          ],
+          "correctAnswer": "It represents God’s comprehensive care over all directions",
+          "explanation": "Numbers 2:25 places Dan on the north, illustrating God’s sovereign control over all parts of Israel (cf. Psalm 48:2, Ezekiel 1:4, Revelation 7:2, Isaiah 37:22).",
+          "verseReference": "Numbers 2:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-theological-q12",
+          "question": "How does the leadership structure described in Numbers 2 affirm the doctrine of God’s providential governance of His people?",
+          "type": "multiple-choice",
+          "options": [
+            "God appoints captains over each tribe to govern His people orderly",
+            "The leaders are elected by popular vote",
+            "Leadership is based on military conquest",
+            "No leadership structure is evident in the chapter"
+          ],
+          "correctAnswer": "God appoints captains over each tribe to govern His people orderly",
+          "explanation": "Numbers 2:3, 10, 12, 14, 18, 20, 22, 25, 27, 29 all identify captains appointed by God, showing His providential governance (cf. Exodus 18:21, Deuteronomy 1:13, Romans 13:1-2, Hebrews 13:7).",
+          "verseReference": "Numbers 2:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-theological-q13",
+          "question": "What does the total number of men able to go to war in Numbers 2 symbolize in terms of Israel’s covenant identity?",
+          "type": "multiple-choice",
+          "options": [
+            "The completeness and strength of God’s covenant community",
+            "A focus solely on military might",
+            "The exclusion of the Levites from God’s covenant",
+            "A temporary census with no covenantal meaning"
+          ],
+          "correctAnswer": "The completeness and strength of God’s covenant community",
+          "explanation": "Numbers 2:32 totals 603,550 men, symbolizing God’s faithful and comprehensive covenant people (cf. Deuteronomy 7:6, Psalm 147:19-20, Ephesians 2:19-22, Revelation 7:9).",
+          "verseReference": "Numbers 2:32",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-theological-q14",
+          "question": "What theological truth is illustrated by the tabernacle setting forward in the midst of the camps in Numbers 2?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s presence is central and moves with His people",
+            "The tabernacle is just a physical structure without significance",
+            "The Levites are isolated from the people",
+            "The tribes lead the tabernacle"
+          ],
+          "correctAnswer": "God’s presence is central and moves with His people",
+          "explanation": "Numbers 2:17 shows the tabernacle moving in the midst, symbolizing God’s abiding presence leading His people (cf. Exodus 25:8, Psalm 46:4, John 1:14, Hebrews 13:5).",
+          "verseReference": "Numbers 2:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-theological-q15",
+          "question": "In Numbers 2, which tribe had the largest number of men, and what might this suggest about God’s sovereign choice in leadership and blessing?",
+          "type": "multiple-choice",
+          "options": [
+            "Judah, indicating God’s sovereign choice of messianic lineage",
+            "Reuben, as the firstborn tribe",
+            "Ephraim, as the favored tribe",
+            "Dan, as the tribe of judgment"
+          ],
+          "correctAnswer": "Judah, indicating God’s sovereign choice of messianic lineage",
+          "explanation": "Numbers 2:4 and 2:9 show Judah had 74,600 men, the largest number, reflecting God’s sovereign blessing and the messianic promise (cf. Genesis 49:10, Luke 3:33, Hebrews 7:14, Revelation 5:5).",
+          "verseReference": "Numbers 2:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-2-theological-q16",
+          "question": "How does the arrangement of tribes around the tabernacle in Numbers 2 prefigure the New Testament doctrine of the church?",
+          "type": "multiple-choice",
+          "options": [
+            "It prefigures the diverse yet unified body of Christ centered on God’s presence",
+            "It only describes an ancient military camp without spiritual meaning",
+            "It prefigures the division and conflict among believers",
+            "It shows the separation of clergy and laity"
+          ],
+          "correctAnswer": "It prefigures the diverse yet unified body of Christ centered on God’s presence",
+          "explanation": "The tribal arrangement around the tabernacle in Numbers 2 symbolizes the unified yet diverse people of God centered on His presence, prefiguring the church (cf. 1 Corinthians 12:12-27, Ephesians 2:19-22, Colossians 1:18, Hebrews 12:22-24).",
+          "verseReference": "Numbers 2:2",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "numbers-2-quiz",
+      "tags": [
+        "numbers",
+        "chapter-2",
+        "numbers",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 16,
+      "estimatedTime": 25
+    }
+  }
+}

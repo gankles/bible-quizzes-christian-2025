@@ -1,0 +1,983 @@
+{
+  "id": "john-12-tabbed",
+  "title": "John Chapter 12 Quiz - Multi-Level",
+  "description": "An enhanced quiz on John chapter 12 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "john-12-easy",
+      "title": "John Chapter 12 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of John Chapter 12.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 12,
+      "questions": [
+        {
+          "id": "john-12-easy-q1",
+          "question": "Where did Jesus go six days before the Passover?",
+          "type": "multiple-choice",
+          "options": [
+            "Bethany",
+            "Jerusalem",
+            "Nazareth",
+            "Capernaum"
+          ],
+          "correctAnswer": "Bethany",
+          "explanation": "John 12:1 states that Jesus came to Bethany six days before the Passover.",
+          "verseReference": "John 12:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-12-easy-q2",
+          "question": "Who served at the supper made for Jesus in Bethany?",
+          "type": "multiple-choice",
+          "options": [
+            "Martha",
+            "Mary",
+            "Lazarus",
+            "Judas"
+          ],
+          "correctAnswer": "Martha",
+          "explanation": "John 12:2 says Martha served at the supper made for Jesus.",
+          "verseReference": "John 12:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-12-easy-q3",
+          "question": "What did Mary anoint Jesus' feet with?",
+          "type": "multiple-choice",
+          "options": [
+            "Ointment of spikenard",
+            "Olive oil",
+            "Myrrh",
+            "Frankincense"
+          ],
+          "correctAnswer": "Ointment of spikenard",
+          "explanation": "John 12:3 mentions Mary took a pound of ointment of spikenard to anoint Jesus' feet.",
+          "verseReference": "John 12:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-12-easy-q4",
+          "question": "Who questioned why the ointment was not sold and given to the poor?",
+          "type": "multiple-choice",
+          "options": [
+            "Judas Iscariot",
+            "Peter",
+            "John",
+            "Thomas"
+          ],
+          "correctAnswer": "Judas Iscariot",
+          "explanation": "John 12:4-5 records Judas Iscariot asking why the ointment was not sold for three hundred pence and given to the poor.",
+          "verseReference": "John 12:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-12-easy-q5",
+          "question": "Why did Judas Iscariot really object to the ointment being used?",
+          "type": "multiple-choice",
+          "options": [
+            "He was a thief",
+            "He cared for the poor",
+            "He disliked Mary",
+            "He wanted to keep the ointment"
+          ],
+          "correctAnswer": "He was a thief",
+          "explanation": "John 12:6 explains Judas did not care for the poor but was a thief and carried the money bag.",
+          "verseReference": "John 12:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-12-easy-q6",
+          "question": "What did Jesus say about the ointment Mary used?",
+          "type": "multiple-choice",
+          "options": [
+            "She kept it for the day of my burying",
+            "It was wasted",
+            "It should be sold",
+            "It was too costly"
+          ],
+          "correctAnswer": "She kept it for the day of my burying",
+          "explanation": "John 12:7 records Jesus saying Mary kept the ointment for the day of His burial.",
+          "verseReference": "John 12:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-12-easy-q7",
+          "question": "What did Jesus say about the poor in John 12:8?",
+          "type": "multiple-choice",
+          "options": [
+            "The poor always ye have with you",
+            "Give all to the poor",
+            "Do not help the poor",
+            "The poor will be blessed"
+          ],
+          "correctAnswer": "The poor always ye have with you",
+          "explanation": "John 12:8 states that the poor are always present, but Jesus will not be with them always.",
+          "verseReference": "John 12:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-12-easy-q8",
+          "question": "Why did many Jews come to see Jesus at Bethany?",
+          "type": "multiple-choice",
+          "options": [
+            "To see Lazarus, whom Jesus raised from the dead",
+            "To hear Jesus preach",
+            "To worship at the temple",
+            "To buy ointment"
+          ],
+          "correctAnswer": "To see Lazarus, whom Jesus raised from the dead",
+          "explanation": "John 12:9 says many came not only for Jesus but also to see Lazarus whom He raised.",
+          "verseReference": "John 12:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-12-easy-q9",
+          "question": "What did the chief priests plan to do because of Lazarus?",
+          "type": "multiple-choice",
+          "options": [
+            "Put Lazarus to death",
+            "Make Lazarus a priest",
+            "Exile Lazarus",
+            "Ignore Lazarus"
+          ],
+          "correctAnswer": "Put Lazarus to death",
+          "explanation": "John 12:10 records the chief priests' consultation to put Lazarus to death.",
+          "verseReference": "John 12:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-12-easy-q10",
+          "question": "What did the crowds do when Jesus came to Jerusalem on the next day?",
+          "type": "multiple-choice",
+          "options": [
+            "Took palm branches and cried Hosanna",
+            "Threw stones",
+            "Sang hymns quietly",
+            "Left the city"
+          ],
+          "correctAnswer": "Took palm branches and cried Hosanna",
+          "explanation": "John 12:12-13 describes the crowd taking palm branches and shouting Hosanna as Jesus entered Jerusalem.",
+          "verseReference": "John 12:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-12-easy-q11",
+          "question": "On what animal did Jesus ride into Jerusalem?",
+          "type": "multiple-choice",
+          "options": [
+            "A young ass",
+            "A horse",
+            "A camel",
+            "A chariot"
+          ],
+          "correctAnswer": "A young ass",
+          "explanation": "John 12:14 says Jesus found a young ass and sat on it as He entered Jerusalem.",
+          "verseReference": "John 12:14",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-12-easy-q12",
+          "question": "True or False: The disciples immediately understood the significance of Jesus riding on a young ass.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 12:16 states the disciples did not understand at first but remembered after Jesus was glorified.",
+          "verseReference": "John 12:16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-12-easy-q13",
+          "question": "True or False: Greeks came to Philip asking to see Jesus.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 12:20-21 records certain Greeks requesting Philip to show them Jesus.",
+          "verseReference": "John 12:20",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-12-easy-q14",
+          "question": "Complete the verse: 'Except a corn of wheat fall into the ground and ______, it abideth alone:'",
+          "type": "fill-blank",
+          "options": [
+            "die",
+            "grow",
+            "sleep",
+            "hide"
+          ],
+          "correctAnswer": "die",
+          "explanation": "John 12:24 says except a corn of wheat falls into the ground and dies, it abides alone.",
+          "verseReference": "John 12:24",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-12-easy-q15",
+          "question": "True or False: Jesus said He came to judge the world.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 12:47 says Jesus did not come to judge the world but to save it.",
+          "verseReference": "John 12:47",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "john-12-quiz",
+      "tags": [
+        "john",
+        "chapter-12",
+        "john",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "john-12-medium",
+      "title": "John Chapter 12 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from John Chapter 12 to real-life situations.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 12,
+      "questions": [
+        {
+          "id": "john-12-medium-q1",
+          "question": "How does John 12 teach us about generosity and honoring Jesus in our personal devotion?",
+          "type": "multiple-choice",
+          "options": [
+            "By anointing Jesus' feet with costly ointment and wiping them with hair",
+            "By selling all possessions to give to the poor",
+            "By fasting and praying for days",
+            "By publicly preaching in the temple"
+          ],
+          "correctAnswer": "By anointing Jesus' feet with costly ointment and wiping them with hair",
+          "explanation": "Mary’s act of anointing Jesus' feet with expensive ointment and wiping it with her hair shows deep personal devotion and generosity (John 12:3, 7-8). Jesus values heartfelt worship and preparing for His burial more than mere financial giving.",
+          "verseReference": "John 12:3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-12-medium-q2",
+          "question": "What warning does Jesus give about loving one's life in this world, based on John 12?",
+          "type": "multiple-choice",
+          "options": [
+            "He that loveth his life shall lose it; he that hateth his life shall keep it unto life eternal",
+            "He that loves his life shall be blessed with wealth",
+            "He that hates his life will be punished",
+            "He that seeks pleasure will find peace"
+          ],
+          "correctAnswer": "He that loveth his life shall lose it; he that hateth his life shall keep it unto life eternal",
+          "explanation": "Jesus teaches that attachment to worldly life leads to loss, but self-denial and focus on eternal life bring true preservation (John 12:25). This calls for humility and contentment with God's plan.",
+          "verseReference": "John 12:25",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-12-medium-q3",
+          "question": "How does John 12 emphasize the importance of serving Jesus in daily life?",
+          "type": "multiple-choice",
+          "options": [
+            "If any man serve me, let him follow me; and where I am, there shall also my servant be",
+            "Serve only when convenient",
+            "Serve only in large crowds",
+            "Serve only after gaining wealth"
+          ],
+          "correctAnswer": "If any man serve me, let him follow me; and where I am, there shall also my servant be",
+          "explanation": "Jesus highlights that true service involves following Him closely, sharing in His presence and receiving honor from the Father (John 12:26). This teaches obedience and faithfulness in Christian service.",
+          "verseReference": "John 12:26",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-12-medium-q4",
+          "question": "A fellow believer is struggling with fear about trials. Based on John 12, what biblical truth can you share about Jesus’ attitude toward difficult moments?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus was troubled in soul but accepted the hour as His purpose",
+            "Jesus avoided difficult situations",
+            "Jesus always remained joyful without concern",
+            "Jesus refused to face suffering"
+          ],
+          "correctAnswer": "Jesus was troubled in soul but accepted the hour as His purpose",
+          "explanation": "Jesus expressed deep trouble about His approaching suffering yet embraced it as the reason for His coming (John 12:27-28). This teaches perseverance and trust in God’s plan during trials.",
+          "verseReference": "John 12:27",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-12-medium-q5",
+          "question": "What does Jesus mean by saying, 'Except a corn of wheat fall into the ground and die, it abideth alone: but if it die, it bringeth forth much fruit'?",
+          "type": "multiple-choice",
+          "options": [
+            "Self-sacrifice leads to fruitful spiritual life",
+            "Planting crops is necessary for survival",
+            "Avoiding suffering ensures success",
+            "Wealth guarantees blessing"
+          ],
+          "correctAnswer": "Self-sacrifice leads to fruitful spiritual life",
+          "explanation": "Jesus uses the metaphor of a seed dying to produce fruit to teach that losing self for His sake results in abundant spiritual growth and impact (John 12:24). This encourages humility and perseverance.",
+          "verseReference": "John 12:24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-12-medium-q6",
+          "question": "How do the people’s actions in John 12 when Jesus entered Jerusalem demonstrate faith and worship?",
+          "type": "multiple-choice",
+          "options": [
+            "They took palm branches and shouted, 'Hosanna! Blessed is the King of Israel!'",
+            "They ignored Jesus completely",
+            "They challenged Jesus publicly",
+            "They scattered and fled"
+          ],
+          "correctAnswer": "They took palm branches and shouted, 'Hosanna! Blessed is the King of Israel!'",
+          "explanation": "The crowd’s worshipful reception with palm branches and praise shows recognizing Jesus as King and Messiah (John 12:12-13). This models open faith and communal praise.",
+          "verseReference": "John 12:12-13",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-12-medium-q7",
+          "question": "True or False: Jesus came to judge the world immediately according to John 12.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Jesus clearly states He did not come to judge the world but to save it (John 12:47). Judgment comes later for those who reject Him (John 12:48).",
+          "verseReference": "John 12:47",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-12-medium-q8",
+          "question": "True or False: The Pharisees were pleased that many people followed Jesus after He raised Lazarus from the dead.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "The Pharisees were displeased and sought to kill Lazarus because many believed in Jesus through him (John 12:10-11). This reflects opposition to genuine faith.",
+          "verseReference": "John 12:10-11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-12-medium-q9",
+          "question": "Fill in the blank: Jesus said, 'I am come a ______ into the world, that whosoever believeth on me should not abide in darkness.'",
+          "type": "fill-blank",
+          "options": [
+            "light",
+            "king",
+            "shepherd",
+            "teacher"
+          ],
+          "correctAnswer": "light",
+          "explanation": "Jesus identifies Himself as the light that brings people out of spiritual darkness when they believe (John 12:46). This teaches reliance on Him for guidance and truth.",
+          "verseReference": "John 12:46",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-12-medium-q10",
+          "question": "How does John 12 illustrate the importance of faith in Jesus as sent by the Father?",
+          "type": "multiple-choice",
+          "options": [
+            "Believing in Jesus is believing in God who sent Him",
+            "Believing in Jesus only is enough without God",
+            "Faith is unnecessary for salvation",
+            "Only miracles prove faith"
+          ],
+          "correctAnswer": "Believing in Jesus is believing in God who sent Him",
+          "explanation": "Jesus teaches that to believe in Him is to believe in the Father who sent Him (John 12:44-45). This underscores the unity of God’s revelation and the call to trust both.",
+          "verseReference": "John 12:44-45",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-12-medium-q11",
+          "question": "What does the crowd’s misunderstanding about 'The Son of man must be lifted up' teach us about spiritual insight and growth?",
+          "type": "multiple-choice",
+          "options": [
+            "Spiritual understanding often comes after Jesus is glorified",
+            "Everyone understands Jesus’ words immediately",
+            "The crowd fully comprehended Jesus’ death",
+            "Jesus refused to explain His mission"
+          ],
+          "correctAnswer": "Spiritual understanding often comes after Jesus is glorified",
+          "explanation": "The disciples did not understand at first but recalled the scriptures after Jesus’ glorification (John 12:16, 33). This shows patience in spiritual growth and the unfolding of God’s plan.",
+          "verseReference": "John 12:16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-12-medium-q12",
+          "question": "How does John 12 demonstrate the value of honest confession and courage in faith despite opposition?",
+          "type": "multiple-choice",
+          "options": [
+            "Many believed but did not confess Jesus for fear of being put out of the synagogue",
+            "Everyone openly confessed Jesus without fear",
+            "No one believed in Jesus",
+            "Confession was not necessary"
+          ],
+          "correctAnswer": "Many believed but did not confess Jesus for fear of being put out of the synagogue",
+          "explanation": "Though some rulers believed, they feared losing social standing and did not openly confess Jesus (John 12:42-43). This warns believers to prioritize God’s praise over man’s.",
+          "verseReference": "John 12:42-43",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-12-medium-q13",
+          "question": "According to John 12, what is the consequence of rejecting Jesus' words?",
+          "type": "multiple-choice",
+          "options": [
+            "The word spoken by Jesus will judge them on the last day",
+            "They will be ignored forever",
+            "They will receive immediate punishment",
+            "They will be praised by men"
+          ],
+          "correctAnswer": "The word spoken by Jesus will judge them on the last day",
+          "explanation": "Jesus states that rejecting His words leads to judgment by the very words He spoke (John 12:48), emphasizing the seriousness of obedience and faith.",
+          "verseReference": "John 12:48",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-12-medium-q14",
+          "question": "How does the interaction with the Greeks in John 12 encourage believers about sharing their faith with others from different backgrounds?",
+          "type": "multiple-choice",
+          "options": [
+            "Believers should be open to seekers from all nations and share Jesus with them",
+            "Faith should be kept within one's own group only",
+            "Outsiders are not interested in faith",
+            "Witnessing is only for religious leaders"
+          ],
+          "correctAnswer": "Believers should be open to seekers from all nations and share Jesus with them",
+          "explanation": "Greeks seeking Jesus show that faith crosses cultural boundaries (John 12:20-21). Philip and Andrew bring this request to Jesus, demonstrating openness and evangelism.",
+          "verseReference": "John 12:20-22",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-12-medium-q15",
+          "question": "What lesson about humility and recognition of God’s timing can be drawn from Jesus riding a young donkey into Jerusalem?",
+          "type": "multiple-choice",
+          "options": [
+            "True kingship is humble and fulfills prophecy",
+            "Power is shown by riding horses and chariots",
+            "Jesus refused to fulfill Old Testament prophecies",
+            "Humility means avoiding public recognition"
+          ],
+          "correctAnswer": "True kingship is humble and fulfills prophecy",
+          "explanation": "Jesus riding a young ass fulfills prophecy (John 12:14-15) and models humble leadership, teaching believers to value humility and God’s ordained timing.",
+          "verseReference": "John 12:14-15",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "john-12-quiz",
+      "tags": [
+        "john",
+        "chapter-12",
+        "john",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "john-12-hard",
+      "title": "John Chapter 12 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from John Chapter 12.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 12,
+      "questions": [
+        {
+          "id": "john-12-hard-q1",
+          "question": "What is the significance of Jesus riding on a young ass as described in John 12:14-15?",
+          "type": "multiple-choice",
+          "options": [
+            "It fulfills the prophecy of Zechariah about the coming King",
+            "It symbolizes Jesus' humility and peace",
+            "It represents the Davidic kingship",
+            "All of the above"
+          ],
+          "correctAnswer": "All of the above",
+          "explanation": "John 12:14-15 explicitly cites the prophecy about the King coming on an ass's colt, fulfilling Zechariah 9:9. This act is a typology of humility contrasting a conquering king on a horse, signaling peace and Davidic lineage.",
+          "verseReference": "John 12:14-15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-hard-q2",
+          "question": "In John 12:3, Mary anoints Jesus' feet with a costly ointment. What is the Greek word for 'ointment' used here, and what does it culturally signify?",
+          "type": "multiple-choice",
+          "options": [
+            "Spikenard; a rare and expensive perfume used for burial and honor",
+            "Myrrh; a common spice for cooking",
+            "Frankincense; a gift for temple worship",
+            "Olive oil; used for anointing kings"
+          ],
+          "correctAnswer": "Spikenard; a rare and expensive perfume used for burial and honor",
+          "explanation": "The text uses 'spikenard,' a costly and aromatic ointment from the Himalayas, symbolizing honor and foreshadowing Jesus' burial (John 12:3,7).",
+          "verseReference": "John 12:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-hard-q3",
+          "question": "How does Jesus’ statement in John 12:24 about the corn of wheat falling into the ground illustrate a theme of death and resurrection in Scripture?",
+          "type": "multiple-choice",
+          "options": [
+            "It uses agricultural imagery to symbolize death bringing new life",
+            "It references Old Testament sacrificial systems",
+            "It is an allusion to the creation narrative",
+            "It contrasts pagan fertility rites"
+          ],
+          "correctAnswer": "It uses agricultural imagery to symbolize death bringing new life",
+          "explanation": "Jesus uses the metaphor of a seed dying to produce much fruit, illustrating the necessity of his death for salvation and the theme of resurrection prevalent throughout Scripture (John 12:24).",
+          "verseReference": "John 12:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-hard-q4",
+          "question": "What does the voice from heaven in John 12:28-29 signify in the context of Jewish expectations and divine revelation?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s confirmation of Jesus’ mission and glorification",
+            "A thunderstorm interpreted as divine judgment",
+            "An angelic message to the crowd",
+            "A sign of the coming Messiah's defeat"
+          ],
+          "correctAnswer": "God’s confirmation of Jesus’ mission and glorification",
+          "explanation": "The voice declares God's glorification of His name, affirming Jesus’ divine mission, though some witnesses misunderstood it as thunder or angelic speech (John 12:28-29).",
+          "verseReference": "John 12:28-29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-hard-q5",
+          "question": "Why do the Pharisees say in John 12:19, 'Behold, the world is gone after him,' and how does this reflect their concerns?",
+          "type": "multiple-choice",
+          "options": [
+            "They recognize Jesus’ growing influence threatening their authority",
+            "They see Jesus as a political revolutionary",
+            "They fear losing control over the temple",
+            "They want to join Jesus’ movement"
+          ],
+          "correctAnswer": "They recognize Jesus’ growing influence threatening their authority",
+          "explanation": "The Pharisees express alarm that Jesus’ miracles and teachings attract large crowds, undermining their religious leadership (John 12:19).",
+          "verseReference": "John 12:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-hard-q6",
+          "question": "In John 12:20-22, Greeks seek Jesus through Philip and Andrew. What does their request symbolize about the expanding scope of Jesus' ministry?",
+          "type": "multiple-choice",
+          "options": [
+            "The inclusion of Gentiles in salvation",
+            "The political alliance with Greeks",
+            "A test of Jesus’ teachings",
+            "A cultural exchange during Passover"
+          ],
+          "correctAnswer": "The inclusion of Gentiles in salvation",
+          "explanation": "The Greeks’ desire to see Jesus signifies the opening of Jesus’ message beyond Israel, foreshadowing the Gentile mission (John 12:20-22).",
+          "verseReference": "John 12:20-22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-hard-q7",
+          "question": "What does Jesus mean in John 12:25 when he says, 'He that loveth his life shall lose it; and he that hateth his life in this world shall keep it unto life eternal'?",
+          "type": "multiple-choice",
+          "options": [
+            "Self-sacrifice leads to eternal life",
+            "Worldly attachments result in loss",
+            "Spiritual life transcends physical life",
+            "All of the above"
+          ],
+          "correctAnswer": "All of the above",
+          "explanation": "Jesus teaches that prioritizing worldly life leads to spiritual loss, but renouncing it in obedience leads to eternal life, a key Johannine theme (John 12:25).",
+          "verseReference": "John 12:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-hard-q8",
+          "question": "How does John 12:31-32 connect Jesus' crucifixion to cosmic judgment and redemption?",
+          "type": "multiple-choice",
+          "options": [
+            "The crucifixion initiates judgment on evil powers",
+            "Jesus being lifted up draws all people to salvation",
+            "It reveals the defeat of the prince of this world (Satan)",
+            "All of the above"
+          ],
+          "correctAnswer": "All of the above",
+          "explanation": "Jesus’ death is portrayed as both a moment of judgment on Satan and a redemptive act attracting all to salvation (John 12:31-32).",
+          "verseReference": "John 12:31-32",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-hard-q9",
+          "question": "In John 12:38-40, Isaiah’s prophecy about blindness and hardening hearts is cited. What theological concept does this illustrate?",
+          "type": "multiple-choice",
+          "options": [
+            "Divine sovereignty in judgment",
+            "The fulfillment of Messianic prophecy",
+            "The mystery of human unbelief",
+            "All of the above"
+          ],
+          "correctAnswer": "All of the above",
+          "explanation": "The quotation of Isaiah shows God’s sovereign role in judgment, the fulfillment of prophecy, and the perplexing reality of unbelief despite clear signs (John 12:38-40).",
+          "verseReference": "John 12:38-40",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-hard-q10",
+          "question": "What literary device is used in John 12:16 where the disciples only understand Jesus' actions after His glorification?",
+          "type": "multiple-choice",
+          "options": [
+            "Foreshadowing",
+            "Irony",
+            "Typology",
+            "Allusion"
+          ],
+          "correctAnswer": "Foreshadowing",
+          "explanation": "John indicates that the disciples’ later understanding after Jesus’ glorification is a literary foreshadowing of the resurrection and exaltation (John 12:16).",
+          "verseReference": "John 12:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-hard-q11",
+          "question": "How does Jesus' declaration in John 12:46, 'I am come a light into the world,' relate to Old Testament imagery?",
+          "type": "multiple-choice",
+          "options": [
+            "It echoes the motif of God as light in Isaiah",
+            "It parallels the pillar of fire guiding Israel",
+            "It contrasts darkness as sin and ignorance",
+            "All of the above"
+          ],
+          "correctAnswer": "All of the above",
+          "explanation": "Jesus identifies himself with divine light imagery found in Isaiah and Exodus, symbolizing guidance, revelation, and salvation (John 12:46).",
+          "verseReference": "John 12:46",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-hard-q12",
+          "question": "According to John 12:6, what was Judas Iscariot’s true motive for criticizing Mary’s anointing of Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "He was a thief and wanted the money for himself",
+            "He cared deeply for the poor",
+            "He doubted Jesus’ identity",
+            "He wanted to honor Jesus differently"
+          ],
+          "correctAnswer": "He was a thief and wanted the money for himself",
+          "explanation": "John explicitly states Judas criticized Mary’s act not out of concern for the poor but because he was a thief who stole from the common purse (John 12:6).",
+          "verseReference": "John 12:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-hard-q13",
+          "question": "True or False: In John 12:11, the chief priests sought to kill Lazarus because his resurrection caused many Jews to believe in Jesus.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 12:10-11 shows the chief priests plotted to kill Lazarus since his resurrection led many to believe in Jesus.",
+          "verseReference": "John 12:10-11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-hard-q14",
+          "question": "What does Jesus mean in John 12:27 when he says, 'Now is my soul troubled; and what shall I say? Father, save me from this hour: but for this cause came I unto this hour'?",
+          "type": "multiple-choice",
+          "options": [
+            "He expresses human distress yet submission to the divine plan",
+            "He wishes to avoid suffering but accepts it",
+            "He anticipates his glorification through suffering",
+            "All of the above"
+          ],
+          "correctAnswer": "All of the above",
+          "explanation": "Jesus reveals his struggle and submission, acknowledging that his suffering is part of God’s redemptive purpose (John 12:27).",
+          "verseReference": "John 12:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-hard-q15",
+          "question": "How does John 12:44-45 emphasize the unity between Jesus and the Father?",
+          "type": "multiple-choice",
+          "options": [
+            "Believing in Jesus is believing in the Father",
+            "Seeing Jesus is seeing the Father",
+            "Jesus reveals the Father’s nature",
+            "All of the above"
+          ],
+          "correctAnswer": "All of the above",
+          "explanation": "Jesus teaches that faith in him equates to faith in the Father and that his visible presence reveals the invisible God (John 12:44-45).",
+          "verseReference": "John 12:44-45",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "john-12-quiz",
+      "tags": [
+        "john",
+        "chapter-12",
+        "john",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "john-12-theological",
+      "title": "John Chapter 12 Quiz - Theological Level",
+      "description": "Deep biblical theology from John Chapter 12 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 12,
+      "questions": [
+        {
+          "id": "john-12-theological-q1",
+          "question": "What significant event does John 12:1 describe happening six days before the Passover?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus raising Lazarus from the dead",
+            "Jesus coming to Bethany where Lazarus was",
+            "The Last Supper",
+            "Jesus entering Jerusalem on a donkey"
+          ],
+          "correctAnswer": "Jesus coming to Bethany where Lazarus was",
+          "explanation": "John 12:1 states Jesus came to Bethany where Lazarus was, whom He had raised from the dead. This highlights Jesus' power over death, fulfilling messianic prophecy (cf. John 11:43-44, Isaiah 25:8, 1 Corinthians 15:54-55).",
+          "verseReference": "John 12:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-theological-q2",
+          "question": "In John 12:3, what does Mary use to anoint Jesus' feet, and what is significant about it?",
+          "type": "multiple-choice",
+          "options": [
+            "A pound of costly spikenard ointment",
+            "A jar of expensive perfume",
+            "Olive oil from Bethany",
+            "A bowl of water and fragrant spices"
+          ],
+          "correctAnswer": "A pound of costly spikenard ointment",
+          "explanation": "Mary anointed Jesus' feet with a costly spikenard ointment, a symbol of honor and preparation for burial (John 12:3, Mark 14:3, Psalms 45:7, Proverbs 27:9). This act foreshadows Jesus' death and burial.",
+          "verseReference": "John 12:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-theological-q3",
+          "question": "According to John 12:5, what objection does Judas Iscariot raise about Mary's anointing of Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "Why was the ointment not sold and given to the poor?",
+            "Why did she use such a costly ointment on Jesus?",
+            "Why did she anoint only Jesus’ feet?",
+            "Why was Lazarus allowed to sit at the table?"
+          ],
+          "correctAnswer": "Why was the ointment not sold and given to the poor?",
+          "explanation": "Judas objects, questioning why the ointment was not sold for three hundred pence to help the poor (John 12:5). This reveals his hypocrisy as he was a thief (John 12:6), contrasting true compassion and self-interest.",
+          "verseReference": "John 12:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-theological-q4",
+          "question": "What theological truth about Jesus’ mission is revealed in John 12:23?",
+          "type": "multiple-choice",
+          "options": [
+            "The hour has come for the Son of Man to be glorified",
+            "Jesus will establish a political kingdom",
+            "The prophetic ministry of Jesus is complete",
+            "Jesus will no longer perform miracles"
+          ],
+          "correctAnswer": "The hour has come for the Son of Man to be glorified",
+          "explanation": "John 12:23 reveals the pivotal moment when Jesus declares His glorification through suffering and death, emphasizing the redemptive purpose of His mission (cf. John 17:1, Isaiah 53:10, Philippians 2:8-11, Hebrews 2:9).",
+          "verseReference": "John 12:23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-theological-q5",
+          "question": "John 12:24 uses the metaphor of a grain of wheat to teach what spiritual principle?",
+          "type": "multiple-choice",
+          "options": [
+            "Except a grain of wheat falls into the ground and dies, it remains alone but if it dies, it bears much fruit",
+            "A grain of wheat grows best in fertile soil",
+            "Harvest comes only after long waiting",
+            "The wheat must be separated from the chaff"
+          ],
+          "correctAnswer": "Except a grain of wheat falls into the ground and dies, it remains alone but if it dies, it bears much fruit",
+          "explanation": "This metaphor teaches that Jesus’ death is necessary for fruitfulness and salvation (John 12:24). It reflects the doctrine of substitutionary atonement and spiritual life through death (cf. 1 Corinthians 15:36-38, Galatians 2:20, Romans 6:5).",
+          "verseReference": "John 12:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-theological-q6",
+          "question": "How does John 12:25 contrast worldly life with eternal life?",
+          "type": "multiple-choice",
+          "options": [
+            "He who loves his life will lose it, but he who hates his life in this world will keep it to eternal life",
+            "The rich will inherit the kingdom of God",
+            "Life is to be enjoyed to the fullest",
+            "Faith in works secures eternal life"
+          ],
+          "correctAnswer": "He who loves his life will lose it, but he who hates his life in this world will keep it to eternal life",
+          "explanation": "This verse teaches the paradox of discipleship: true life is found in self-denial and surrender to God (Mark 8:35, Matthew 10:39, Luke 9:24, Philippians 1:21). It contrasts temporal attachment with eternal salvation.",
+          "verseReference": "John 12:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-theological-q7",
+          "question": "What promise does Jesus give to those who serve Him according to John 12:26?",
+          "type": "multiple-choice",
+          "options": [
+            "They will be honored by the Father and be where Jesus is",
+            "They will inherit the earth",
+            "They will never suffer",
+            "They will be rulers over nations"
+          ],
+          "correctAnswer": "They will be honored by the Father and be where Jesus is",
+          "explanation": "Jesus promises that those who serve Him will follow Him and be with Him, and that the Father will honor them (John 12:26). This expresses the doctrine of eternal fellowship with Christ and divine reward (cf. Matthew 25:21, Hebrews 12:2, Revelation 3:21).",
+          "verseReference": "John 12:26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-theological-q8",
+          "question": "What significant prayer does Jesus make in John 12:28, and what is the divine response?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus prays 'Father, glorify thy name,' and a voice from heaven responds affirming glorification",
+            "Jesus prays for deliverance from suffering, and an angel appears",
+            "Jesus prays for His disciples, and the Holy Spirit descends",
+            "Jesus prays for peace, and a cloud covers Him"
+          ],
+          "correctAnswer": "Jesus prays 'Father, glorify thy name,' and a voice from heaven responds affirming glorification",
+          "explanation": "Jesus petitions for God's name to be glorified, and God responds audibly confirming His glorification (John 12:28-29). This reveals the intimate relationship between Father and Son and the divine approval of Jesus' redemptive work (cf. John 17:1, Isaiah 42:8, Philippians 2:9-11).",
+          "verseReference": "John 12:28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-theological-q9",
+          "question": "According to John 12:31, what cosmic event is described as taking place 'now'?",
+          "type": "multiple-choice",
+          "options": [
+            "The judgment of this world and the casting out of the prince of the world",
+            "The destruction of Jerusalem",
+            "The resurrection of the dead",
+            "The establishment of the kingdom of Israel"
+          ],
+          "correctAnswer": "The judgment of this world and the casting out of the prince of the world",
+          "explanation": "John 12:31 declares that the judgment of the world and the defeat of Satan (the prince of this world) occurs through Jesus’ glorification, indicating the inauguration of eschatological victory (cf. Revelation 20:10, Colossians 2:15, Hebrews 2:14, 1 John 3:8).",
+          "verseReference": "John 12:31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-theological-q10",
+          "question": "What does Jesus mean by 'if I be lifted up from the earth' in John 12:32?",
+          "type": "multiple-choice",
+          "options": [
+            "His crucifixion and exaltation will draw all men to Him",
+            "He will ascend to heaven without dying",
+            "He will be honored as a political king",
+            "He will be removed from the earth permanently"
+          ],
+          "correctAnswer": "His crucifixion and exaltation will draw all men to Him",
+          "explanation": "The phrase refers to Jesus' crucifixion ('lifted up') which results in drawing all people to salvation (John 3:14-15, Isaiah 52:13, Philippians 2:9-11, Hebrews 12:2). His death is the means of universal atonement and invitation.",
+          "verseReference": "John 12:32",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-theological-q11",
+          "question": "How do the people react in John 12:34 when Jesus speaks of the Son of Man being lifted up?",
+          "type": "multiple-choice",
+          "options": [
+            "They express confusion, citing that Christ abides forever and question who the Son of Man is",
+            "They immediately recognize Jesus as the Messiah",
+            "They reject his teaching and call for his arrest",
+            "They plan a feast to celebrate"
+          ],
+          "correctAnswer": "They express confusion, citing that Christ abides forever and question who the Son of Man is",
+          "explanation": "John 12:34 shows the crowd's misunderstanding and skepticism about Jesus’ death and messianic identity, reflecting the difficulty in grasping the suffering Messiah concept (cf. Psalm 110:1, Daniel 7:13-14, Isaiah 53, Luke 24:25-27).",
+          "verseReference": "John 12:34",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-theological-q12",
+          "question": "What does Jesus instruct people to do while they have 'the light' according to John 12:35-36?",
+          "type": "multiple-choice",
+          "options": [
+            "Walk in the light and believe in it to become children of light",
+            "Celebrate with joy and share the light",
+            "Build a temple to honor the light",
+            "Ignore the darkness and focus on the light"
+          ],
+          "correctAnswer": "Walk in the light and believe in it to become children of light",
+          "explanation": "Jesus teaches the necessity of faith and obedience during the present opportunity, emphasizing spiritual vigilance and conversion (John 12:35-36; cf. Ephesians 5:8, 1 John 1:7, Psalm 27:1, Isaiah 9:2).",
+          "verseReference": "John 12:35-36",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-theological-q13",
+          "question": "According to John 12:38-40, why could many not believe in Jesus despite His miracles?",
+          "type": "multiple-choice",
+          "options": [
+            "Because Isaiah prophesied their eyes would be blinded and hearts hardened",
+            "Because Jesus did not fulfill political expectations",
+            "Because they were deceived by the Pharisees",
+            "Because they demanded more miracles"
+          ],
+          "correctAnswer": "Because Isaiah prophesied their eyes would be blinded and hearts hardened",
+          "explanation": "John cites Isaiah’s prophecy explaining spiritual blindness and hardness of heart that prevents belief (Isaiah 6:9-10, Romans 11:8, 2 Corinthians 4:4, Hebrews 3:8). This reveals human resistance to divine revelation due to sin.",
+          "verseReference": "John 12:38-40",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-theological-q14",
+          "question": "What does John 12:44-45 teach about the relationship between belief in Jesus and belief in the Father?",
+          "type": "multiple-choice",
+          "options": [
+            "Believing in Jesus is believing in the Father who sent Him",
+            "Belief in Jesus is separate from belief in the Father",
+            "Only the Father is to be worshiped, not Jesus",
+            "Jesus is to be believed only after the Father is believed"
+          ],
+          "correctAnswer": "Believing in Jesus is believing in the Father who sent Him",
+          "explanation": "Jesus clarifies the unity of the Father and Son in revelation and salvation (John 12:44-45). This supports orthodox Christology that faith in Christ is faith in God (John 10:30, John 14:9, Colossians 1:15-20, Hebrews 1:3).",
+          "verseReference": "John 12:44-45",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-12-theological-q15",
+          "question": "What is the purpose of Jesus coming as 'a light into the world' as stated in John 12:46?",
+          "type": "multiple-choice",
+          "options": [
+            "That whoever believes in Him should not remain in darkness",
+            "To perform miracles and heal the sick",
+            "To establish a new law replacing the old",
+            "To judge the nations immediately"
+          ],
+          "correctAnswer": "That whoever believes in Him should not remain in darkness",
+          "explanation": "Jesus came to bring spiritual illumination and salvation, overcoming sin and ignorance (John 12:46, Isaiah 9:2, John 8:12, Ephesians 5:8, 1 John 1:5). Belief in Him results in deliverance from spiritual darkness.",
+          "verseReference": "John 12:46",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "john-12-quiz",
+      "tags": [
+        "john",
+        "chapter-12",
+        "john",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

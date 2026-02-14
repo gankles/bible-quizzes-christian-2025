@@ -1,0 +1,642 @@
+{
+  "id": "job-book-quiz",
+  "title": "Job Quiz - Complete Book",
+  "description": "Test your comprehensive knowledge of the entire book of Job with 25 questions covering key events, people, and teachings from all 42 chapters.",
+  "type": "book",
+  "book": "Job",
+  "questions": [
+    {
+      "id": "job-bq-1",
+      "question": "Who is described as perfect and upright, fearing God and eschewing evil at the beginning of the book?",
+      "type": "multiple-choice",
+      "options": [
+        "Job",
+        "Eliphaz",
+        "Bildad",
+        "Zophar"
+      ],
+      "correctAnswer": "Job",
+      "explanation": "Job is introduced as a man perfect and upright, fearing God and turning away from evil.",
+      "verseReference": "Job 1:1",
+      "difficulty": "easy"
+    },
+    {
+      "id": "job-bq-2",
+      "question": "How many sons and daughters did Job have?",
+      "type": "multiple-choice",
+      "options": [
+        "7 sons and 3 daughters",
+        "3 sons and 7 daughters",
+        "5 sons and 5 daughters",
+        "10 sons and 10 daughters"
+      ],
+      "correctAnswer": "7 sons and 3 daughters",
+      "explanation": "Job had seven sons and three daughters according to the text.",
+      "verseReference": "Job 1:2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "job-bq-3",
+      "question": "What was the total number of Job's sheep?",
+      "type": "multiple-choice",
+      "options": [
+        "7,000",
+        "3,000",
+        "5,000",
+        "10,000"
+      ],
+      "correctAnswer": "7,000",
+      "explanation": "Job had seven thousand sheep as part of his great wealth.",
+      "verseReference": "Job 1:3",
+      "difficulty": "easy"
+    },
+    {
+      "id": "job-bq-4",
+      "question": "What did Job do for his children after their feasts to sanctify them?",
+      "type": "multiple-choice",
+      "options": [
+        "Offered burnt offerings",
+        "Built an altar",
+        "Fasted",
+        "Prayed for them"
+      ],
+      "correctAnswer": "Offered burnt offerings",
+      "explanation": "Job offered burnt offerings for each of his children, fearing they might have sinned.",
+      "verseReference": "Job 1:5",
+      "difficulty": "easy"
+    },
+    {
+      "id": "job-bq-5",
+      "question": "Who came to present themselves before the LORD along with Satan?",
+      "type": "multiple-choice",
+      "options": [
+        "Sons of God",
+        "Angels",
+        "Prophets",
+        "The Nephilim"
+      ],
+      "correctAnswer": "Sons of God",
+      "explanation": "The sons of God came to present themselves before the LORD, and Satan came among them.",
+      "verseReference": "Job 1:6",
+      "difficulty": "easy"
+    },
+    {
+      "id": "job-bq-6",
+      "question": "What was Satan's response to God's question about Job's righteousness?",
+      "type": "multiple-choice",
+      "options": [
+        "Job fears God for nought",
+        "Job is truly righteous",
+        "Job is perfect",
+        "Job is blessed"
+      ],
+      "correctAnswer": "Job fears God for nought",
+      "explanation": "Satan argued Job only fears God because he is blessed and protected.",
+      "verseReference": "Job 1:9",
+      "difficulty": "easy"
+    },
+    {
+      "id": "job-bq-7",
+      "question": "What did God allow Satan to do to test Job?",
+      "type": "multiple-choice",
+      "options": [
+        "Touch all he had except Job himself",
+        "Harm Job's body",
+        "Take Job's life",
+        "Speak to Job's friends"
+      ],
+      "correctAnswer": "Touch all he had except Job himself",
+      "explanation": "God permitted Satan to touch all Job's possessions but not to harm Job himself.",
+      "verseReference": "Job 1:12",
+      "difficulty": "easy"
+    },
+    {
+      "id": "job-bq-8",
+      "question": "What calamity struck Job's oxen and servants according to the first messenger?",
+      "type": "multiple-choice",
+      "options": [
+        "Sabeans fell upon them and took them away",
+        "Fire consumed them",
+        "Chaldeans attacked",
+        "A great wind destroyed them"
+      ],
+      "correctAnswer": "Sabeans fell upon them and took them away",
+      "explanation": "The Sabeans attacked and took away the oxen and killed the servants.",
+      "verseReference": "Job 1:15",
+      "difficulty": "easy"
+    },
+    {
+      "id": "job-bq-9",
+      "question": "What was Job's immediate reaction after hearing about his children's death and losses?",
+      "type": "multiple-choice",
+      "options": [
+        "He rent his mantle, shaved his head, and worshipped",
+        "He cursed God",
+        "He fled from God",
+        "He wept silently"
+      ],
+      "correctAnswer": "He rent his mantle, shaved his head, and worshipped",
+      "explanation": "Job mourned but worshipped, showing his faithfulness despite loss.",
+      "verseReference": "Job 1:20",
+      "difficulty": "easy"
+    },
+    {
+      "id": "job-bq-10",
+      "question": "What did Job say about the LORD's giving and taking away?",
+      "type": "multiple-choice",
+      "options": [
+        "The LORD gave, and the LORD hath taken away; blessed be the name of the LORD",
+        "The LORD is unjust",
+        "Why does the LORD punish me?",
+        "God is silent"
+      ],
+      "correctAnswer": "The LORD gave, and the LORD hath taken away; blessed be the name of the LORD",
+      "explanation": "Job accepted God's sovereignty with blessing despite his suffering.",
+      "verseReference": "Job 1:21",
+      "difficulty": "easy"
+    },
+    {
+      "id": "job-bq-11",
+      "question": "What was the result of all Job's initial trials as stated at the end of chapter 1?",
+      "type": "multiple-choice",
+      "options": [
+        "Job sinned not, nor charged God foolishly",
+        "Job renounced God",
+        "Job cursed God",
+        "Job lost faith"
+      ],
+      "correctAnswer": "Job sinned not, nor charged God foolishly",
+      "explanation": "Job remained blameless and faithful despite misfortunes.",
+      "verseReference": "Job 1:22",
+      "difficulty": "easy"
+    },
+    {
+      "id": "job-bq-12",
+      "question": "What physical affliction did Satan inflict on Job in chapter 2?",
+      "type": "multiple-choice",
+      "options": [
+        "Sores from head to foot",
+        "Blindness",
+        "Paralysis",
+        "Fever"
+      ],
+      "correctAnswer": "Sores from head to foot",
+      "explanation": "Satan afflicted Job with painful sores all over his body.",
+      "verseReference": "Job 2:7",
+      "difficulty": "easy"
+    },
+    {
+      "id": "job-bq-13",
+      "question": "What did Job's wife advise him to do during his suffering?",
+      "type": "multiple-choice",
+      "options": [
+        "Curse God and die",
+        "Pray earnestly",
+        "Be patient",
+        "Seek a healer"
+      ],
+      "correctAnswer": "Curse God and die",
+      "explanation": "Job's wife urged him to curse God and abandon his faith due to suffering.",
+      "verseReference": "Job 2:9",
+      "difficulty": "easy"
+    },
+    {
+      "id": "job-bq-14",
+      "question": "How did Job respond to his wife's advice?",
+      "type": "multiple-choice",
+      "options": [
+        "He rebuked her and did not sin with his lips",
+        "He followed her advice",
+        "He ignored her",
+        "He left her"
+      ],
+      "correctAnswer": "He rebuked her and did not sin with his lips",
+      "explanation": "Job maintained his integrity and refused to curse God.",
+      "verseReference": "Job 2:10",
+      "difficulty": "easy"
+    },
+    {
+      "id": "job-bq-15",
+      "question": "Which friend came first to comfort Job?",
+      "type": "multiple-choice",
+      "options": [
+        "Eliphaz the Temanite",
+        "Bildad the Shuhite",
+        "Zophar the Naamathite",
+        "Elihu"
+      ],
+      "correctAnswer": "Eliphaz the Temanite",
+      "explanation": "Eliphaz was the first friend to arrive and speak to Job.",
+      "verseReference": "Job 2:11",
+      "difficulty": "easy"
+    },
+    {
+      "id": "job-bq-16",
+      "question": "What is the main theme of Eliphaz’s first speech?",
+      "type": "multiple-choice",
+      "options": [
+        "The wicked suffer and the innocent are rewarded",
+        "Job’s sin caused his suffering",
+        "God is unjust",
+        "Suffering is random"
+      ],
+      "correctAnswer": "Job’s sin caused his suffering",
+      "explanation": "Eliphaz insinuates Job’s suffering is due to personal sin.",
+      "verseReference": "Job 4:7-8",
+      "difficulty": "medium"
+    },
+    {
+      "id": "job-bq-17",
+      "question": "According to Zophar in chapter 11, what is God’s attitude toward Job’s iniquity?",
+      "type": "multiple-choice",
+      "options": [
+        "God exacteth of thee less than thine iniquity deserveth",
+        "God is merciful",
+        "God ignores iniquity",
+        "God rewards the wicked"
+      ],
+      "correctAnswer": "God exacteth of thee less than thine iniquity deserveth",
+      "explanation": "Zophar claims God’s judgment is even lighter than Job’s sins deserve.",
+      "verseReference": "Job 11:6",
+      "difficulty": "medium"
+    },
+    {
+      "id": "job-bq-18",
+      "question": "What does Job say about the fate of the wicked in chapter 21?",
+      "type": "multiple-choice",
+      "options": [
+        "The wicked live long and prosper before their destruction",
+        "The wicked are immediately punished",
+        "The wicked never prosper",
+        "The wicked always confess"
+      ],
+      "correctAnswer": "The wicked live long and prosper before their destruction",
+      "explanation": "Job observes the apparent prosperity of the wicked despite their end.",
+      "verseReference": "Job 21:7",
+      "difficulty": "medium"
+    },
+    {
+      "id": "job-bq-19",
+      "question": "Which of these is NOT an observation Job makes about the wicked in chapter 21?",
+      "type": "multiple-choice",
+      "options": [
+        "Their houses are safe",
+        "Their children dance",
+        "They always repent",
+        "They spend days in wealth"
+      ],
+      "correctAnswer": "They always repent",
+      "explanation": "Job notes the wicked do not repent; they live in apparent security.",
+      "verseReference": "Job 21:9-13",
+      "difficulty": "medium"
+    },
+    {
+      "id": "job-bq-20",
+      "question": "What rhetorical question does Job ask about the Almighty in chapter 21?",
+      "type": "multiple-choice",
+      "options": [
+        "What is the Almighty, that we should serve him?",
+        "Why does God hide?",
+        "Where is God in suffering?",
+        "How can God forgive?"
+      ],
+      "correctAnswer": "What is the Almighty, that we should serve him?",
+      "explanation": "Job questions the benefit of serving God amidst apparent injustice.",
+      "verseReference": "Job 21:15",
+      "difficulty": "medium"
+    },
+    {
+      "id": "job-bq-21",
+      "question": "What does Job say about the fate of both the righteous and the wicked in chapter 21?",
+      "type": "multiple-choice",
+      "options": [
+        "Both lie down alike in the dust",
+        "Only the wicked die young",
+        "Only the righteous live long",
+        "The wicked are always punished immediately"
+      ],
+      "correctAnswer": "Both lie down alike in the dust",
+      "explanation": "Job notes that both the righteous and wicked ultimately die and are covered by worms.",
+      "verseReference": "Job 21:26",
+      "difficulty": "medium"
+    },
+    {
+      "id": "job-bq-22",
+      "question": "In chapter 31, what kind of covenant does Job say he made?",
+      "type": "multiple-choice",
+      "options": [
+        "Covenant with his eyes not to look lustfully",
+        "Covenant with God to be obedient",
+        "Covenant with his servants",
+        "Covenant with his wealth"
+      ],
+      "correctAnswer": "Covenant with his eyes not to look lustfully",
+      "explanation": "Job vowed not to look upon a maid lustfully.",
+      "verseReference": "Job 31:1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "job-bq-23",
+      "question": "What does Job ask to be weighed in an even balance in chapter 31?",
+      "type": "multiple-choice",
+      "options": [
+        "His integrity",
+        "His wealth",
+        "His strength",
+        "His faith"
+      ],
+      "correctAnswer": "His integrity",
+      "explanation": "Job wants God to weigh his integrity fairly.",
+      "verseReference": "Job 31:6",
+      "difficulty": "medium"
+    },
+    {
+      "id": "job-bq-24",
+      "question": "What punishment does Job say is due if he has been unjust to his servants?",
+      "type": "multiple-choice",
+      "options": [
+        "Destruction from God",
+        "Exile",
+        "Imprisonment",
+        "Fines"
+      ],
+      "correctAnswer": "Destruction from God",
+      "explanation": "Job acknowledges destruction from God as a terrifying punishment for injustice.",
+      "verseReference": "Job 31:14-15,23",
+      "difficulty": "medium"
+    },
+    {
+      "id": "job-bq-25",
+      "question": "What example does Job give about withholding from the poor or widows?",
+      "type": "multiple-choice",
+      "options": [
+        "He would be guilty of sin",
+        "He has always helped them",
+        "He did not know any poor",
+        "He gave only food"
+      ],
+      "correctAnswer": "He would be guilty of sin",
+      "explanation": "Job confesses it would be sinful to withhold from the poor or widows.",
+      "verseReference": "Job 31:16-17",
+      "difficulty": "medium"
+    },
+    {
+      "id": "job-bq-26",
+      "question": "How does Job describe his openness to travelers?",
+      "type": "multiple-choice",
+      "options": [
+        "He opened his doors to the traveler",
+        "He turned them away",
+        "He charged them",
+        "He ignored them"
+      ],
+      "correctAnswer": "He opened his doors to the traveler",
+      "explanation": "Job states he did not lodge strangers in the street but welcomed them.",
+      "verseReference": "Job 31:32",
+      "difficulty": "medium"
+    },
+    {
+      "id": "job-bq-27",
+      "question": "What does Job say about hiding his transgressions as Adam did?",
+      "type": "multiple-choice",
+      "options": [
+        "He did not cover his iniquity",
+        "He hid all his sins",
+        "He blamed others",
+        "He confessed immediately"
+      ],
+      "correctAnswer": "He did not cover his iniquity",
+      "explanation": "Job claims he did not hide his sins as Adam did.",
+      "verseReference": "Job 31:33",
+      "difficulty": "medium"
+    },
+    {
+      "id": "job-bq-28",
+      "question": "Complete this verse: 'Then Job answered the LORD, and said, I know that thou canst do every ______, and that no thought can be withholden from thee.'",
+      "type": "fill-blank",
+      "options": [
+        "thing",
+        "word",
+        "miracle",
+        "deed"
+      ],
+      "correctAnswer": "thing",
+      "explanation": "Job acknowledges God's omnipotence and omniscience.",
+      "verseReference": "Job 42:1-2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "job-bq-29",
+      "question": "True or False: Job's friends agreed with him that he was innocent and undeserving of suffering.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "Job’s friends insisted he must have sinned to deserve his suffering.",
+      "verseReference": "Job 4:7-8; Job 11:6",
+      "difficulty": "medium"
+    },
+    {
+      "id": "job-bq-30",
+      "question": "True or False: Job cursed God after losing his children and possessions.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "Job did not curse God but worshipped despite his losses.",
+      "verseReference": "Job 1:20-22",
+      "difficulty": "medium"
+    },
+    {
+      "id": "job-bq-31",
+      "question": "True or False: Satan was allowed to take Job’s life as part of the testing.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "God forbade Satan from harming Job's person.",
+      "verseReference": "Job 1:12",
+      "difficulty": "medium"
+    },
+    {
+      "id": "job-bq-32",
+      "question": "True or False: Job’s wife supported him in his faith throughout his trials.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "Job’s wife urged him to curse God and die.",
+      "verseReference": "Job 2:9",
+      "difficulty": "medium"
+    },
+    {
+      "id": "job-bq-33",
+      "question": "True or False: Job believed he could fully understand God’s ways by searching.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "Job’s friends say no one can find out God to perfection, implying Job did not fully understand.",
+      "verseReference": "Job 11:7",
+      "difficulty": "medium"
+    },
+    {
+      "id": "job-bq-34",
+      "question": "True or False: Job’s friends accused him of hypocrisy and sin throughout their dialogues.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Eliphaz, Bildad, and Zophar repeatedly accuse Job of wrongdoing.",
+      "verseReference": "Job 4:7-8; Job 8:20; Job 11:6",
+      "difficulty": "hard"
+    },
+    {
+      "id": "job-bq-35",
+      "question": "True or False: Job laments the prosperity of the wicked in chapter 21.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Job questions why the wicked live long and seem powerful.",
+      "verseReference": "Job 21:7",
+      "difficulty": "hard"
+    },
+    {
+      "id": "job-bq-36",
+      "question": "True or False: Job made a covenant with his eyes to avoid lustful thoughts.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "Job declared he would not look upon a maid lustfully.",
+      "verseReference": "Job 31:1",
+      "difficulty": "hard"
+    },
+    {
+      "id": "job-bq-37",
+      "question": "True or False: Job concluded his speeches by declaring his own sinfulness and unworthiness.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "explanation": "Job maintained his innocence and integrity throughout.",
+      "verseReference": "Job 31",
+      "difficulty": "hard"
+    },
+    {
+      "id": "job-bq-38",
+      "question": "Complete this verse: 'Naked came I out of my mother's womb, and naked shall I ______ thither.'",
+      "type": "fill-blank",
+      "options": [
+        "return",
+        "go",
+        "come",
+        "walk"
+      ],
+      "correctAnswer": "return",
+      "explanation": "Job acknowledges the fleeting nature of life and possessions.",
+      "verseReference": "Job 1:21",
+      "difficulty": "hard"
+    },
+    {
+      "id": "job-bq-39",
+      "question": "Complete this verse: 'If I have walked with vanity, or if my foot hath hasted to ______;'",
+      "type": "fill-blank",
+      "options": [
+        "deceit",
+        "sin",
+        "wrong",
+        "evil"
+      ],
+      "correctAnswer": "deceit",
+      "explanation": "Job calls for God to weigh his integrity honestly.",
+      "verseReference": "Job 31:5",
+      "difficulty": "hard"
+    },
+    {
+      "id": "job-bq-40",
+      "question": "Complete this verse: 'For destruction from God was a terror to me, and by reason of his highness I could not ______ him.'",
+      "type": "fill-blank",
+      "options": [
+        "endure",
+        "see",
+        "question",
+        "escape"
+      ],
+      "correctAnswer": "endure",
+      "explanation": "Job expresses reverence and fear of God's majesty.",
+      "verseReference": "Job 31:23",
+      "difficulty": "hard"
+    },
+    {
+      "id": "job-bq-41",
+      "question": "Complete this verse: 'If the men of my tabernacle said not, Oh that we had of his ______! we cannot be satisfied.'",
+      "type": "fill-blank",
+      "options": [
+        "flesh",
+        "wealth",
+        "wisdom",
+        "blessing"
+      ],
+      "correctAnswer": "flesh",
+      "explanation": "Job denies that his household envied or coveted others' flesh.",
+      "verseReference": "Job 31:31",
+      "difficulty": "hard"
+    },
+    {
+      "id": "job-bq-42",
+      "question": "What was God's final response to Job at the end of the book?",
+      "type": "multiple-choice",
+      "options": [
+        "God spoke out of a whirlwind, questioning Job's understanding",
+        "God ignored Job's complaints",
+        "God punished Job further",
+        "God admitted Job was wrong"
+      ],
+      "correctAnswer": "God spoke out of a whirlwind, questioning Job's understanding",
+      "explanation": "God challenges Job’s knowledge and perspective from a whirlwind.",
+      "verseReference": "Job 38:1-3",
+      "difficulty": "hard"
+    },
+    {
+      "id": "job-bq-43",
+      "question": "What did God do to Job after his trials were over?",
+      "type": "multiple-choice",
+      "options": [
+        "Restored his fortunes and gave him twice as much as before",
+        "Left him destitute",
+        "Punished him further",
+        "Ignored him"
+      ],
+      "correctAnswer": "Restored his fortunes and gave him twice as much as before",
+      "explanation": "God blessed Job with double his previous possessions and more children.",
+      "verseReference": "Job 42:10-12",
+      "difficulty": "hard"
+    },
+    {
+      "id": "job-bq-44",
+      "question": "How many additional children did Job have after his restoration?",
+      "type": "multiple-choice",
+      "options": [
+        "7 sons and 3 daughters",
+        "5 sons and 5 daughters",
+        "10 sons and 0 daughters",
+        "None"
+      ],
+      "correctAnswer": "7 sons and 3 daughters",
+      "explanation": "Job had seven sons and three daughters again after his restoration.",
+      "verseReference": "Job 42:13",
+      "difficulty": "hard"
+    },
+    {
+      "id": "job-bq-45",
+      "question": "What is a major theme of the book of Job?",
+      "type": "multiple-choice",
+      "options": [
+        "The mystery of suffering and God's justice",
+        "The power of wealth",
+        "The importance of sacrifice",
+        "The history of Israel"
+      ],
+      "correctAnswer": "The mystery of suffering and God's justice",
+      "explanation": "The book explores why the righteous suffer and God's justice in the face of that.",
+      "verseReference": "Throughout the book",
+      "difficulty": "hard"
+    }
+  ],
+  "difficulty": "medium",
+  "isBookQuiz": true,
+  "slug": "job-quiz",
+  "tags": [
+    "job",
+    "job",
+    "book quiz",
+    "comprehensive",
+    "bible quiz"
+  ],
+  "totalQuestions": 45,
+  "estimatedTime": 34
+}

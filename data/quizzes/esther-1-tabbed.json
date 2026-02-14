@@ -1,0 +1,985 @@
+{
+  "id": "esther-1-tabbed",
+  "title": "Esther Chapter 1 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Esther chapter 1 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "esther-1-easy",
+      "title": "Esther Chapter 1 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Esther Chapter 1.",
+      "type": "chapter",
+      "book": "Esther",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "esther-1-easy-q1",
+          "question": "Who was the king reigning during the events described in Esther Chapter 1?",
+          "type": "multiple-choice",
+          "options": [
+            "Ahasuerus",
+            "Darius",
+            "Cyrus",
+            "Nebuchadnezzar"
+          ],
+          "correctAnswer": "Ahasuerus",
+          "explanation": "Esther 1:1 states that Ahasuerus was the king reigning from India to Ethiopia over 127 provinces.",
+          "verseReference": "Esther 1:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "esther-1-easy-q2",
+          "question": "Where was King Ahasuerus sitting on his throne during the time described in Esther 1?",
+          "type": "multiple-choice",
+          "options": [
+            "Shushan the palace",
+            "Babylon",
+            "Nineveh",
+            "Jerusalem"
+          ],
+          "correctAnswer": "Shushan the palace",
+          "explanation": "Esther 1:2 notes that King Ahasuerus sat on the throne of his kingdom in Shushan the palace.",
+          "verseReference": "Esther 1:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "esther-1-easy-q3",
+          "question": "In which year of his reign did King Ahasuerus make a feast for all his princes and servants?",
+          "type": "multiple-choice",
+          "options": [
+            "Third year",
+            "First year",
+            "Tenth year",
+            "Fifth year"
+          ],
+          "correctAnswer": "Third year",
+          "explanation": "Esther 1:3 says that in the third year of his reign, the king made a feast for all his princes and servants.",
+          "verseReference": "Esther 1:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "esther-1-easy-q4",
+          "question": "How long did King Ahasuerus show the riches of his kingdom and the honor of his majesty?",
+          "type": "multiple-choice",
+          "options": [
+            "One hundred and eighty days",
+            "Thirty days",
+            "Seven days",
+            "One year"
+          ],
+          "correctAnswer": "One hundred and eighty days",
+          "explanation": "Esther 1:4 describes that the king showed the riches of his glorious kingdom many days, even 180 days.",
+          "verseReference": "Esther 1:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "esther-1-easy-q5",
+          "question": "How many days did the king's feast for all the people in Shushan last?",
+          "type": "multiple-choice",
+          "options": [
+            "Seven days",
+            "Three days",
+            "Ten days",
+            "One day"
+          ],
+          "correctAnswer": "Seven days",
+          "explanation": "Esther 1:5 states that the king made a feast for all the people present in Shushan lasting seven days.",
+          "verseReference": "Esther 1:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "esther-1-easy-q6",
+          "question": "What colors were the hangings in the king's garden court during the feast?",
+          "type": "multiple-choice",
+          "options": [
+            "White, green, and blue",
+            "Red, gold, and black",
+            "Purple, scarlet, and silver",
+            "Yellow, brown, and orange"
+          ],
+          "correctAnswer": "White, green, and blue",
+          "explanation": "Esther 1:6 describes the hangings as white, green, and blue, fastened with cords of fine linen and purple.",
+          "verseReference": "Esther 1:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "esther-1-easy-q7",
+          "question": "What type of vessels were used to give drink at the feast?",
+          "type": "multiple-choice",
+          "options": [
+            "Vessels of gold",
+            "Vessels of clay",
+            "Vessels of bronze",
+            "Vessels of silver"
+          ],
+          "correctAnswer": "Vessels of gold",
+          "explanation": "Esther 1:7 states that the drink was given in vessels of gold, each different from the other.",
+          "verseReference": "Esther 1:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "esther-1-easy-q8",
+          "question": "According to Esther 1:8, how was the drinking regulated during the feast?",
+          "type": "multiple-choice",
+          "options": [
+            "According to the law; none was compelled",
+            "Everyone had to drink",
+            "Only the nobles drank",
+            "Only the king drank"
+          ],
+          "correctAnswer": "According to the law; none was compelled",
+          "explanation": "Esther 1:8 explains that the drinking was according to the law and no one was forced to drink.",
+          "verseReference": "Esther 1:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "esther-1-easy-q9",
+          "question": "Who made a feast for the women in the royal house?",
+          "type": "multiple-choice",
+          "options": [
+            "Vashti the queen",
+            "Esther",
+            "Mordecai",
+            "Memucan"
+          ],
+          "correctAnswer": "Vashti the queen",
+          "explanation": "Esther 1:9 tells that Vashti, the queen, made a feast for the women in the royal house.",
+          "verseReference": "Esther 1:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "esther-1-easy-q10",
+          "question": "On the seventh day, what did King Ahasuerus command his seven chamberlains to do?",
+          "type": "multiple-choice",
+          "options": [
+            "Bring Queen Vashti before him wearing the crown royal",
+            "Bring Esther before him",
+            "Start a new feast",
+            "Send letters to all provinces"
+          ],
+          "correctAnswer": "Bring Queen Vashti before him wearing the crown royal",
+          "explanation": "Esther 1:10-11 records that the king ordered his chamberlains to bring Vashti before him to show her beauty.",
+          "verseReference": "Esther 1:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "esther-1-easy-q11",
+          "question": "Did Queen Vashti obey the king's command to appear before him?",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Esther 1:12 confirms that Vashti refused to come at the king's command, which angered him.",
+          "verseReference": "Esther 1:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "esther-1-easy-q12",
+          "question": "True or False: The king consulted his wise men and princes about what to do with Queen Vashti after her refusal.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Esther 1:13-15 shows that the king asked his wise men and princes what should be done to Vashti according to law.",
+          "verseReference": "Esther 1:13",
+          "difficulty": "easy"
+        },
+        {
+          "id": "esther-1-easy-q13",
+          "question": "According to Memucan, Vashti's refusal was an offense against whom?",
+          "type": "multiple-choice",
+          "options": [
+            "The king, all princes, and all the people in the provinces",
+            "Only the king",
+            "Only the princes",
+            "Only the women"
+          ],
+          "correctAnswer": "The king, all princes, and all the people in the provinces",
+          "explanation": "Esther 1:16 states Memucan said Vashti wronged not only the king but all princes and people throughout the provinces.",
+          "verseReference": "Esther 1:16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "esther-1-easy-q14",
+          "question": "What did Memucan suggest should happen to Vashti?",
+          "type": "multiple-choice",
+          "options": [
+            "She should never come before the king again and her royal estate given to another",
+            "She should be forgiven and remain queen",
+            "She should be imprisoned",
+            "She should be banished from the kingdom"
+          ],
+          "correctAnswer": "She should never come before the king again and her royal estate given to another",
+          "explanation": "Esther 1:19 says Memucan advised that a royal decree be made that Vashti never come before the king again and that her estate be given to another better than her.",
+          "verseReference": "Esther 1:19",
+          "difficulty": "easy"
+        },
+        {
+          "id": "esther-1-easy-q15",
+          "question": "Complete the verse from Esther 1:22: 'For he sent letters into all the king's provinces, into every province according to the writing thereof, and to every people after their language, that every man should ______.'",
+          "type": "fill-blank",
+          "options": [
+            "bear rule in his own house",
+            "serve in the army",
+            "offer sacrifices",
+            "honor the king"
+          ],
+          "correctAnswer": "bear rule in his own house",
+          "explanation": "Esther 1:22 states the king sent letters that every man should bear rule in his own house, published in every language.",
+          "verseReference": "Esther 1:22",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "esther-1-quiz",
+      "tags": [
+        "esther",
+        "chapter-1",
+        "esther",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "esther-1-medium",
+      "title": "Esther Chapter 1 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Esther Chapter 1 to real-life situations.",
+      "type": "chapter",
+      "book": "Esther",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "esther-1-medium-q1",
+          "question": "How does Esther 1 teach us about the importance of honoring authority in marriage?",
+          "type": "multiple-choice",
+          "options": [
+            "Wives should give honor to their husbands as rulers in their homes",
+            "Husbands should always obey their wives' commands",
+            "Authority in marriage should be shared equally without respect",
+            "Children should decide who leads the family"
+          ],
+          "correctAnswer": "Wives should give honor to their husbands as rulers in their homes",
+          "explanation": "Esther 1:20-22 shows that the king’s decree enforced that all wives honor their husbands, teaching respect for authority within the family structure.",
+          "verseReference": "Esther 1:20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "esther-1-medium-q2",
+          "question": "A fellow believer is struggling with submission to their spouse. Based on Esther 1, what biblical truth would you share?",
+          "type": "multiple-choice",
+          "options": [
+            "Submission honors the order God has established in the home",
+            "One should only submit when it feels convenient",
+            "Submission means losing all personal identity",
+            "Marriage roles are irrelevant to faith"
+          ],
+          "correctAnswer": "Submission honors the order God has established in the home",
+          "explanation": "Esther 1:19-22 emphasizes the importance of wives respecting their husbands, which reflects God's design for order and harmony in marriage.",
+          "verseReference": "Esther 1:19",
+          "difficulty": "medium"
+        },
+        {
+          "id": "esther-1-medium-q3",
+          "question": "What does the king’s anger at Queen Vashti teach us about consequences for disobedience?",
+          "type": "multiple-choice",
+          "options": [
+            "Disobedience to rightful authority brings serious consequences",
+            "There are no consequences for disobedience",
+            "Anger should always be expressed publicly",
+            "Disobedience is a sign of strength"
+          ],
+          "correctAnswer": "Disobedience to rightful authority brings serious consequences",
+          "explanation": "Esther 1:12-15 shows the king's anger at Vashti’s refusal to obey, leading to a legal decision, highlighting consequences for defiance.",
+          "verseReference": "Esther 1:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "esther-1-medium-q4",
+          "question": "How can Esther 1 encourage believers to trust God’s providence during trials?",
+          "type": "multiple-choice",
+          "options": [
+            "God is sovereign over kingdoms and situations",
+            "God abandons those in trouble",
+            "Trials mean God is angry with you",
+            "Believers should only rely on themselves"
+          ],
+          "correctAnswer": "God is sovereign over kingdoms and situations",
+          "explanation": "Esther 1:1-4 reminds us of God's control over the king's vast empire, showing His sovereignty over all events, including personal trials.",
+          "verseReference": "Esther 1:1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "esther-1-medium-q5",
+          "question": "What spiritual discipline is illustrated by the king’s appointment that drinking be voluntary at the feast?",
+          "type": "multiple-choice",
+          "options": [
+            "Self-control and freedom in Christian liberty",
+            "Compulsion for everyone to drink",
+            "Excessive indulgence without limits",
+            "Ignoring others’ preferences"
+          ],
+          "correctAnswer": "Self-control and freedom in Christian liberty",
+          "explanation": "Esther 1:8 indicates the drinking was according to personal pleasure without compulsion, teaching respect for individual conscience and self-control.",
+          "verseReference": "Esther 1:8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "esther-1-medium-q6",
+          "question": "How does the feast described in Esther 1:5-7 teach about stewardship and generosity?",
+          "type": "multiple-choice",
+          "options": [
+            "Generous hospitality reflects God’s blessings and stewardship",
+            "Feasting is wasteful and selfish",
+            "Only the rich should be invited to celebrations",
+            "Hospitality should be minimal to save resources"
+          ],
+          "correctAnswer": "Generous hospitality reflects God’s blessings and stewardship",
+          "explanation": "Verses 5-7 describe a lavish feast shared with all people, demonstrating generous use of resources to bless others.",
+          "verseReference": "Esther 1:5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "esther-1-medium-q7",
+          "question": "Based on Esther 1, what can we learn about humility in leadership from the king’s consultation with his advisers?",
+          "type": "multiple-choice",
+          "options": [
+            "Wise leaders seek counsel before making decisions",
+            "Leaders should act without consulting others",
+            "Only the king’s opinion matters",
+            "Advisers are unnecessary and a burden"
+          ],
+          "correctAnswer": "Wise leaders seek counsel before making decisions",
+          "explanation": "Esther 1:13-15 shows the king consulting the wise men and princes, demonstrating humility and wisdom in leadership.",
+          "verseReference": "Esther 1:13",
+          "difficulty": "medium"
+        },
+        {
+          "id": "esther-1-medium-q8",
+          "question": "True or False: According to Esther 1, the queen’s refusal to obey the king was considered just a personal matter without wider implications.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Esther 1:16-18 explains that Vashti’s disobedience was seen as disrespectful not only to the king but to all the princes and people, with broader social consequences.",
+          "verseReference": "Esther 1:16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "esther-1-medium-q9",
+          "question": "True or False: The king’s command that wives honor their husbands was a temporary rule that could be changed easily.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Esther 1:19-22 states that the king’s decree was to be written among the laws of Persia and Media, that it should not be altered, showing its permanence.",
+          "verseReference": "Esther 1:19",
+          "difficulty": "medium"
+        },
+        {
+          "id": "esther-1-medium-q10",
+          "question": "Fill in the blank: The king’s feast lasted for _____ days to show the riches and honor of his kingdom.",
+          "type": "fill-blank",
+          "options": [
+            "One hundred and eighty",
+            "Seven",
+            "Thirty",
+            "Twelve"
+          ],
+          "correctAnswer": "One hundred and eighty",
+          "explanation": "Esther 1:4 states the king showed the riches and honor of his kingdom for one hundred and eighty days.",
+          "verseReference": "Esther 1:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "esther-1-medium-q11",
+          "question": "How does Esther 1 teach us about integrity and honesty in leadership through the king’s response to Queen Vashti’s disobedience?",
+          "type": "multiple-choice",
+          "options": [
+            "Leaders must uphold laws consistently to maintain order",
+            "Leaders should ignore disobedience to avoid conflict",
+            "Leaders should show favoritism despite disobedience",
+            "Leaders must act impulsively without counsel"
+          ],
+          "correctAnswer": "Leaders must uphold laws consistently to maintain order",
+          "explanation": "The king’s decision following advice from his princes (Esther 1:15-21) illustrates the need for consistent, just leadership.",
+          "verseReference": "Esther 1:15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "esther-1-medium-q12",
+          "question": "What lesson about spiritual discipline can be drawn from Queen Vashti holding a separate feast for the women?",
+          "type": "multiple-choice",
+          "options": [
+            "Personal devotion and fellowship among believers is important",
+            "Separation from others is always better",
+            "Women should not participate in celebrations",
+            "Feasts are only for the king and princes"
+          ],
+          "correctAnswer": "Personal devotion and fellowship among believers is important",
+          "explanation": "Esther 1:9 shows Vashti made a feast for the women, teaching the value of fellowship and spiritual nourishment in smaller groups.",
+          "verseReference": "Esther 1:9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "esther-1-medium-q13",
+          "question": "How does Esther 1 illustrate the importance of humility and contentment through the king’s lavish feast?",
+          "type": "multiple-choice",
+          "options": [
+            "Gratitude for God’s blessings should temper pride and excess",
+            "Lavishness is the ultimate goal in life",
+            "Showing off wealth brings true happiness",
+            "Contentment is irrelevant in times of prosperity"
+          ],
+          "correctAnswer": "Gratitude for God’s blessings should temper pride and excess",
+          "explanation": "While the king’s feast was grand (Esther 1:3-7), the story later warns against pride and disobedience, teaching humility and contentment.",
+          "verseReference": "Esther 1:3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "esther-1-medium-q14",
+          "question": "What practical lesson about perseverance can be learned from the king’s handling of Vashti’s refusal?",
+          "type": "multiple-choice",
+          "options": [
+            "Leaders and believers must persevere in upholding God-ordained roles despite challenges",
+            "Giving up easily is acceptable",
+            "Ignoring problems leads to peace",
+            "Disobedience should be rewarded"
+          ],
+          "correctAnswer": "Leaders and believers must persevere in upholding God-ordained roles despite challenges",
+          "explanation": "The king’s firm decision (Esther 1:21-22) demonstrates perseverance in maintaining order and discipline.",
+          "verseReference": "Esther 1:21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "esther-1-medium-q15",
+          "question": "How does Esther 1 guide believers in practicing forgiveness and love when faced with disobedience in their families?",
+          "type": "multiple-choice",
+          "options": [
+            "Discipline should be balanced with love and restoration",
+            "Disobedience should be punished without mercy",
+            "Ignoring disobedience is best to avoid hurt feelings",
+            "Love means allowing any behavior without correction"
+          ],
+          "correctAnswer": "Discipline should be balanced with love and restoration",
+          "explanation": "While Esther 1 shows discipline for Vashti’s disobedience, the broader biblical context encourages love and restoration alongside correction.",
+          "verseReference": "Esther 1:12-15",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "esther-1-quiz",
+      "tags": [
+        "esther",
+        "chapter-1",
+        "esther",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "esther-1-hard",
+      "title": "Esther Chapter 1 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Esther Chapter 1.",
+      "type": "chapter",
+      "book": "Esther",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "esther-1-hard-q1",
+          "question": "In Esther 1:1, King Ahasuerus reigned over how many provinces?",
+          "type": "multiple-choice",
+          "options": [
+            "127",
+            "100",
+            "50",
+            "72"
+          ],
+          "correctAnswer": "127",
+          "explanation": "Esther 1:1 states that Ahasuerus reigned over 127 provinces, from India to Ethiopia.",
+          "verseReference": "Esther 1:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-hard-q2",
+          "question": "Where was King Ahasuerus seated when he made the feast described in Esther 1?",
+          "type": "multiple-choice",
+          "options": [
+            "Shushan the palace",
+            "Babylon",
+            "Nineveh",
+            "Jerusalem"
+          ],
+          "correctAnswer": "Shushan the palace",
+          "explanation": "Esther 1:2 specifies that the king sat on his throne in Shushan the palace.",
+          "verseReference": "Esther 1:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-hard-q3",
+          "question": "How long did King Ahasuerus show the riches and honor of his kingdom in Esther 1?",
+          "type": "multiple-choice",
+          "options": [
+            "180 days",
+            "30 days",
+            "7 days",
+            "100 days"
+          ],
+          "correctAnswer": "180 days",
+          "explanation": "Esther 1:4 mentions the king showed his riches and majesty many days, specifically 180 days (a hundred and fourscore).",
+          "verseReference": "Esther 1:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-hard-q4",
+          "question": "The feast made by King Ahasuerus for all the people in Shushan lasted how many days according to Esther 1?",
+          "type": "multiple-choice",
+          "options": [
+            "7 days",
+            "3 days",
+            "10 days",
+            "1 day"
+          ],
+          "correctAnswer": "7 days",
+          "explanation": "Esther 1:5 states the king made a feast for all the people for seven days in the garden court.",
+          "verseReference": "Esther 1:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-hard-q5",
+          "question": "The luxurious decorations during the feast included beds made of what materials?",
+          "type": "multiple-choice",
+          "options": [
+            "Gold and silver",
+            "Wood and bronze",
+            "Iron and brass",
+            "Stone and gold"
+          ],
+          "correctAnswer": "Gold and silver",
+          "explanation": "Esther 1:6 describes beds of gold and silver upon a pavement of multicolored marble.",
+          "verseReference": "Esther 1:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-hard-q6",
+          "question": "According to Esther 1:8, how was drinking regulated during the feast?",
+          "type": "multiple-choice",
+          "options": [
+            "None was compelled; each drank according to his pleasure",
+            "Drinking was forbidden",
+            "Only the king could drink wine",
+            "Drink was compulsory for all"
+          ],
+          "correctAnswer": "None was compelled; each drank according to his pleasure",
+          "explanation": "Esther 1:8 says the king appointed that no one was compelled to drink; each did as he pleased.",
+          "verseReference": "Esther 1:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-hard-q7",
+          "question": "Who made a feast for the women in the royal house according to Esther 1?",
+          "type": "multiple-choice",
+          "options": [
+            "Queen Vashti",
+            "Queen Esther",
+            "Mordecai",
+            "Memucan"
+          ],
+          "correctAnswer": "Queen Vashti",
+          "explanation": "Esther 1:9 states that Vashti the queen made a feast for the women in the royal house.",
+          "verseReference": "Esther 1:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-hard-q8",
+          "question": "What was King Ahasuerus' command to the seven chamberlains on the seventh day of the feast?",
+          "type": "multiple-choice",
+          "options": [
+            "Bring Queen Vashti before him wearing the royal crown",
+            "End the feast immediately",
+            "Call all princes to council",
+            "Send gifts to the provinces"
+          ],
+          "correctAnswer": "Bring Queen Vashti before him wearing the royal crown",
+          "explanation": "Esther 1:10-11 recount the king commanding the chamberlains to bring Vashti before him with the royal crown to display her beauty.",
+          "verseReference": "Esther 1:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-hard-q9",
+          "question": "What was Queen Vashti's response to the king's command as recorded in Esther 1?",
+          "type": "multiple-choice",
+          "options": [
+            "She refused to come",
+            "She immediately obeyed",
+            "She sent a messenger instead",
+            "She was absent due to illness"
+          ],
+          "correctAnswer": "She refused to come",
+          "explanation": "Esther 1:12 clearly states that Vashti refused to come at the king’s command, making him very angry.",
+          "verseReference": "Esther 1:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-hard-q10",
+          "question": "Who advised King Ahasuerus on what should be done to Queen Vashti for her refusal?",
+          "type": "multiple-choice",
+          "options": [
+            "The seven princes of Persia and Media",
+            "The royal priests",
+            "The palace guards",
+            "Mordecai the Jew"
+          ],
+          "correctAnswer": "The seven princes of Persia and Media",
+          "explanation": "Esther 1:14 identifies the seven princes who were next unto the king and gave counsel regarding Vashti.",
+          "verseReference": "Esther 1:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-hard-q11",
+          "question": "According to Memucan's advice in Esther 1, Vashti's refusal was an offense against whom?",
+          "type": "multiple-choice",
+          "options": [
+            "The king, the princes, and all the people in the provinces",
+            "Only the king",
+            "Only the princes",
+            "The women of Persia"
+          ],
+          "correctAnswer": "The king, the princes, and all the people in the provinces",
+          "explanation": "Esther 1:16 shows Memucan stating Vashti offended not just the king but also all princes and people throughout the empire.",
+          "verseReference": "Esther 1:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-hard-q12",
+          "question": "What was Memucan's main concern about the effect of Vashti's disobedience on other women?",
+          "type": "multiple-choice",
+          "options": [
+            "Women would despise their husbands",
+            "Women would leave the kingdom",
+            "Women would refuse to attend feasts",
+            "Women would worship other gods"
+          ],
+          "correctAnswer": "Women would despise their husbands",
+          "explanation": "Esther 1:17 explains that Memucan feared the story would spread and women would despise their husbands.",
+          "verseReference": "Esther 1:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-hard-q13",
+          "question": "What legal decree did Memucan propose regarding Queen Vashti in Esther 1?",
+          "type": "multiple-choice",
+          "options": [
+            "That Vashti should never again come before the king and her royal estate be given to another",
+            "That Vashti be imprisoned",
+            "That Vashti be forgiven",
+            "That Vashti be exiled to another province"
+          ],
+          "correctAnswer": "That Vashti should never again come before the king and her royal estate be given to another",
+          "explanation": "Esther 1:19 recommends a royal command that Vashti not come before the king again and her estate be given to a better queen.",
+          "verseReference": "Esther 1:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-hard-q14",
+          "question": "What was the intended effect of the king's decree on wives throughout the empire?",
+          "type": "multiple-choice",
+          "options": [
+            "All wives should honor their husbands",
+            "All wives should revolt",
+            "All wives should be silent",
+            "All wives should leave their homes"
+          ],
+          "correctAnswer": "All wives should honor their husbands",
+          "explanation": "Esther 1:20 states the decree aimed to ensure that all wives give honor to their husbands, both great and small.",
+          "verseReference": "Esther 1:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-hard-q15",
+          "question": "True or False: According to Esther 1:22, the king’s letters were sent only to the Persian provinces and not to Media.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Esther 1:22 indicates letters were sent to all provinces, including Persia and Media, in every language.",
+          "verseReference": "Esther 1:22",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "esther-1-quiz",
+      "tags": [
+        "esther",
+        "chapter-1",
+        "esther",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "esther-1-theological",
+      "title": "Esther Chapter 1 Quiz - Theological Level",
+      "description": "Deep biblical theology from Esther Chapter 1 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Esther",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "esther-1-theological-q1",
+          "question": "What was the extent of King Ahasuerus' reign as described in Esther 1?",
+          "type": "multiple-choice",
+          "options": [
+            "From India even unto Ethiopia, over 127 provinces",
+            "Only over the city of Shushan",
+            "From Babylon to Egypt, over 50 provinces",
+            "Across the entire Roman Empire"
+          ],
+          "correctAnswer": "From India even unto Ethiopia, over 127 provinces",
+          "explanation": "Esther 1:1 states that Ahasuerus reigned from India to Ethiopia over 127 provinces, demonstrating the vastness of his kingdom, similar to God's universal sovereignty described in Psalm 103:19 and Daniel 7:27.",
+          "verseReference": "Esther 1:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-theological-q2",
+          "question": "Where was King Ahasuerus' throne located during his feast in the third year of his reign?",
+          "type": "multiple-choice",
+          "options": [
+            "In Shushan the palace",
+            "In Babylon",
+            "In Jerusalem",
+            "In Susa"
+          ],
+          "correctAnswer": "In Shushan the palace",
+          "explanation": "According to Esther 1:2, the king sat on his throne in Shushan the palace. This highlights the historical and geographical setting of God's providential plan, reminiscent of God’s establishment of His throne in Zion (Psalm 132:13).",
+          "verseReference": "Esther 1:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-theological-q3",
+          "question": "How long did King Ahasuerus show the riches of his kingdom before the feast?",
+          "type": "multiple-choice",
+          "options": [
+            "180 days",
+            "7 days",
+            "30 days",
+            "100 days"
+          ],
+          "correctAnswer": "180 days",
+          "explanation": "Esther 1:4 records that the king displayed the riches of his kingdom for 180 days, symbolizing the opulence and earthly glory contrasted with the transient nature of human kingdoms (James 4:14, Psalm 49:12).",
+          "verseReference": "Esther 1:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-theological-q4",
+          "question": "What was the duration of the feast made for all the people in Shushan?",
+          "type": "multiple-choice",
+          "options": [
+            "Seven days",
+            "Three days",
+            "Twelve days",
+            "One day"
+          ],
+          "correctAnswer": "Seven days",
+          "explanation": "Esther 1:5 states the feast lasted seven days, a number often symbolizing completion and divine order, as seen in Genesis 2:2 and Revelation 1:10.",
+          "verseReference": "Esther 1:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-theological-q5",
+          "question": "What colors were the hangings in the king’s garden court during the feast?",
+          "type": "multiple-choice",
+          "options": [
+            "White, green, and blue",
+            "Red, yellow, and black",
+            "Purple, gold, and silver",
+            "Blue, purple, and scarlet"
+          ],
+          "correctAnswer": "White, green, and blue",
+          "explanation": "Esther 1:6 describes the hangings as white, green, and blue. These colors are symbolically significant in Scripture, representing purity, life, and heaven (Exodus 26:1; Numbers 15:38; Ezekiel 1:26).",
+          "verseReference": "Esther 1:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-theological-q6",
+          "question": "How was the drinking regulated during the feast according to the king’s law?",
+          "type": "multiple-choice",
+          "options": [
+            "None did compel; each did according to his pleasure",
+            "All were forced to drink the royal wine",
+            "Only the nobles drank wine",
+            "Drinking was forbidden during the feast"
+          ],
+          "correctAnswer": "None did compel; each did according to his pleasure",
+          "explanation": "Esther 1:8 says that no one was compelled to drink, reflecting the principle of free will and personal responsibility under God’s law (Deuteronomy 30:19; Romans 14:5).",
+          "verseReference": "Esther 1:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-theological-q7",
+          "question": "Who was queen during King Ahasuerus’ reign at the time of the feast?",
+          "type": "multiple-choice",
+          "options": [
+            "Vashti",
+            "Esther",
+            "Mordecai",
+            "Memucan"
+          ],
+          "correctAnswer": "Vashti",
+          "explanation": "Esther 1:9 identifies Vashti as queen, whose refusal to obey the king’s command illustrates human sin and rebellion against authority (Romans 13:1-2; Ephesians 5:22-24).",
+          "verseReference": "Esther 1:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-theological-q8",
+          "question": "What was King Ahasuerus’ command to Vashti on the seventh day?",
+          "type": "multiple-choice",
+          "options": [
+            "To appear before him wearing the royal crown to show her beauty",
+            "To host another feast for the nobles",
+            "To leave the palace permanently",
+            "To bring his royal scepter"
+          ],
+          "correctAnswer": "To appear before him wearing the royal crown to show her beauty",
+          "explanation": "Esther 1:11 shows the king’s command for Vashti to appear before the people with the royal crown, symbolizing authority and beauty, but her refusal reveals the consequences of disobedience (Proverbs 31:30; 1 Peter 3:3-6).",
+          "verseReference": "Esther 1:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-theological-q9",
+          "question": "What was the king’s reaction to Queen Vashti’s refusal to come at his command?",
+          "type": "multiple-choice",
+          "options": [
+            "He was very wroth and his anger burned",
+            "He ignored her refusal",
+            "He immediately replaced her",
+            "He sent her to exile without counsel"
+          ],
+          "correctAnswer": "He was very wroth and his anger burned",
+          "explanation": "Esther 1:12 describes the king’s anger, illustrating the consequences of defiance against earthly authority, paralleling divine judgment upon sin (Romans 1:18; Proverbs 29:1).",
+          "verseReference": "Esther 1:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-theological-q10",
+          "question": "Who did King Ahasuerus consult to decide what to do about Queen Vashti?",
+          "type": "multiple-choice",
+          "options": [
+            "The wise men and the seven princes of Persia and Media",
+            "The prophets and priests",
+            "The common people of Shushan",
+            "His personal servants only"
+          ],
+          "correctAnswer": "The wise men and the seven princes of Persia and Media",
+          "explanation": "Esther 1:13-14 shows the king consulting wise men and princes, emphasizing the use of counsel in governance, aligning with Proverbs 11:14 and 15:22 on wise counsel.",
+          "verseReference": "Esther 1:13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-theological-q11",
+          "question": "What reason did Memucan give for Vashti's disobedience being wrong?",
+          "type": "multiple-choice",
+          "options": [
+            "It wronged not only the king but also all princes and people",
+            "It was a personal offense only to the king",
+            "It was a minor issue with no consequences",
+            "It showed her loyalty to the people"
+          ],
+          "correctAnswer": "It wronged not only the king but also all princes and people",
+          "explanation": "Esther 1:16 explains that Vashti’s refusal was seen as an offense against the entire kingdom’s order, highlighting the biblical principle that sin affects the community (1 Corinthians 12:26; Romans 12:5).",
+          "verseReference": "Esther 1:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-theological-q12",
+          "question": "What consequence did Memucan suggest for Queen Vashti's refusal?",
+          "type": "multiple-choice",
+          "options": [
+            "That she come no more before the king and her royal estate be given to another",
+            "That she be forgiven and reinstated",
+            "That she be sent to rule another province",
+            "That she be publicly praised for her courage"
+          ],
+          "correctAnswer": "That she come no more before the king and her royal estate be given to another",
+          "explanation": "Esther 1:19 records Memucan’s advice to issue a royal decree removing Vashti, reflecting justice and order in governance, akin to biblical mandates for church discipline (Matthew 18:15-17).",
+          "verseReference": "Esther 1:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-theological-q13",
+          "question": "What was the intended effect of the royal decree suggested by Memucan regarding wives and husbands?",
+          "type": "multiple-choice",
+          "options": [
+            "That all wives honor their husbands, both great and small",
+            "That wives would gain equal authority with husbands",
+            "That husbands be subservient to wives",
+            "That no decree be made about wives and husbands"
+          ],
+          "correctAnswer": "That all wives honor their husbands, both great and small",
+          "explanation": "Esther 1:20 states the decree would enforce wives to honor their husbands, reflecting the biblical teaching on marital roles found in Ephesians 5:22-33 and 1 Peter 3:1-6.",
+          "verseReference": "Esther 1:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-theological-q14",
+          "question": "How did King Ahasuerus respond to the advice given by Memucan?",
+          "type": "multiple-choice",
+          "options": [
+            "He was pleased and did according to the word of Memucan",
+            "He rejected the advice and pardoned Vashti",
+            "He consulted the prophets for further guidance",
+            "He postponed any decision"
+          ],
+          "correctAnswer": "He was pleased and did according to the word of Memucan",
+          "explanation": "Esther 1:21 reveals the king’s acceptance of the counsel, illustrating the principle of submission to wise counsel, as encouraged in Proverbs 12:15 and Romans 13:1.",
+          "verseReference": "Esther 1:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "esther-1-theological-q15",
+          "question": "What was the scope of the letters sent out by King Ahasuerus after the decree?",
+          "type": "multiple-choice",
+          "options": [
+            "To all the king's provinces, according to their language",
+            "Only to the nobles in Shushan",
+            "Only to the seven princes of Persia and Media",
+            "To the priests and Levites only"
+          ],
+          "correctAnswer": "To all the king's provinces, according to their language",
+          "explanation": "Esther 1:22 states the king sent letters to all provinces in their own language, reflecting God's universal authority and the importance of clear communication in governance, as seen in Acts 2:6-11.",
+          "verseReference": "Esther 1:22",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "esther-1-quiz",
+      "tags": [
+        "esther",
+        "chapter-1",
+        "esther",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

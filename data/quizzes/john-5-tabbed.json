@@ -1,0 +1,983 @@
+{
+  "id": "john-5-tabbed",
+  "title": "John Chapter 5 Quiz - Multi-Level",
+  "description": "An enhanced quiz on John chapter 5 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "john-5-easy",
+      "title": "John Chapter 5 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of John Chapter 5.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 5,
+      "questions": [
+        {
+          "id": "john-5-easy-q1",
+          "question": "Where did Jesus go after the feast of the Jews?",
+          "type": "multiple-choice",
+          "options": [
+            "Jerusalem",
+            "Bethesda",
+            "Nazareth",
+            "Bethany"
+          ],
+          "correctAnswer": "Jerusalem",
+          "explanation": "John 5:1 states that Jesus went up to Jerusalem after the feast of the Jews.",
+          "verseReference": "John 5:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-5-easy-q2",
+          "question": "What is the name of the pool in Jerusalem near the sheep market?",
+          "type": "multiple-choice",
+          "options": [
+            "Bethesda",
+            "Siloam",
+            "Gihon",
+            "Euphrates"
+          ],
+          "correctAnswer": "Bethesda",
+          "explanation": "John 5:2 tells us that the pool near the sheep market is called Bethesda in the Hebrew tongue.",
+          "verseReference": "John 5:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-5-easy-q3",
+          "question": "How many porches did the pool Bethesda have?",
+          "type": "multiple-choice",
+          "options": [
+            "Three",
+            "Four",
+            "Five",
+            "Six"
+          ],
+          "correctAnswer": "Five",
+          "explanation": "John 5:2 mentions that the pool Bethesda had five porches.",
+          "verseReference": "John 5:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-5-easy-q4",
+          "question": "According to John 5, who troubled the water of the pool Bethesda?",
+          "type": "multiple-choice",
+          "options": [
+            "An angel",
+            "Jesus",
+            "A priest",
+            "A prophet"
+          ],
+          "correctAnswer": "An angel",
+          "explanation": "John 5:4 explains that an angel went down and troubled the water of the pool.",
+          "verseReference": "John 5:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-5-easy-q5",
+          "question": "How long had the man Jesus healed at Bethesda been sick?",
+          "type": "multiple-choice",
+          "options": [
+            "10 years",
+            "20 years",
+            "38 years",
+            "50 years"
+          ],
+          "correctAnswer": "38 years",
+          "explanation": "John 5:5 states that the man had an infirmity for thirty and eight years.",
+          "verseReference": "John 5:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-5-easy-q6",
+          "question": "What did Jesus say to the man lying at the pool Bethesda?",
+          "type": "multiple-choice",
+          "options": [
+            "Wilt thou be made whole?",
+            "Do you want to be healed?",
+            "Come to me to be healed",
+            "Faith has made you well"
+          ],
+          "correctAnswer": "Wilt thou be made whole?",
+          "explanation": "John 5:6 records Jesus asking the man, 'Wilt thou be made whole?'.",
+          "verseReference": "John 5:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-5-easy-q7",
+          "question": "What was the man's excuse for not getting into the pool Bethesda first?",
+          "type": "multiple-choice",
+          "options": [
+            "He had no strength",
+            "He had no one to help him",
+            "He was afraid of the water",
+            "He did not know when the water was troubled"
+          ],
+          "correctAnswer": "He had no one to help him",
+          "explanation": "John 5:7 explains the man said he had no man to put him into the pool when the water was troubled.",
+          "verseReference": "John 5:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-5-easy-q8",
+          "question": "What command did Jesus give to the man at Bethesda?",
+          "type": "multiple-choice",
+          "options": [
+            "Rise, take up thy bed, and walk",
+            "Come here and be healed",
+            "Be made whole by faith",
+            "Go and sin no more"
+          ],
+          "correctAnswer": "Rise, take up thy bed, and walk",
+          "explanation": "John 5:8 records Jesus telling the man to rise, take up his bed, and walk.",
+          "verseReference": "John 5:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-5-easy-q9",
+          "question": "On what day did Jesus heal the man at the pool Bethesda?",
+          "type": "multiple-choice",
+          "options": [
+            "The Passover",
+            "The Sabbath",
+            "The Feast of Tabernacles",
+            "The Day of Atonement"
+          ],
+          "correctAnswer": "The Sabbath",
+          "explanation": "John 5:9 states that the healing happened on the Sabbath day.",
+          "verseReference": "John 5:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-5-easy-q10",
+          "question": "Why did the Jews persecute Jesus after the healing at Bethesda?",
+          "type": "multiple-choice",
+          "options": [
+            "Because he healed on the Sabbath",
+            "Because he claimed to be king",
+            "Because he cast out demons",
+            "Because he ignored the temple rules"
+          ],
+          "correctAnswer": "Because he healed on the Sabbath",
+          "explanation": "John 5:16 says the Jews persecuted Jesus because he did these things on the Sabbath day.",
+          "verseReference": "John 5:16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-5-easy-q11",
+          "question": "True or False: Jesus said, 'My Father worketh hitherto, and I work' in response to the Jews' accusations.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 5:17 records Jesus answering the Jews that his Father works, and he works also.",
+          "verseReference": "John 5:17",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-5-easy-q12",
+          "question": "True or False: Jesus said the Son can do things independently without seeing the Father.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 5:19 states the Son can do nothing of himself but what he sees the Father do.",
+          "verseReference": "John 5:19",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-5-easy-q13",
+          "question": "True or False: According to John 5, the Father has committed all judgment unto the Son.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 5:22 clearly states that the Father judgeth no man but hath committed all judgment to the Son.",
+          "verseReference": "John 5:22",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-5-easy-q14",
+          "question": "Complete the verse: 'He that heareth my word, and believeth on him that sent me, hath everlasting life, and shall not come into ______.'",
+          "type": "fill-blank",
+          "options": [
+            "condemnation",
+            "darkness",
+            "poverty",
+            "silence"
+          ],
+          "correctAnswer": "condemnation",
+          "explanation": "John 5:24 states believers shall not come into condemnation.",
+          "verseReference": "John 5:24",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-5-easy-q15",
+          "question": "Who bore witness to Jesus according to John 5 besides Jesus himself?",
+          "type": "multiple-choice",
+          "options": [
+            "John the Baptist",
+            "Peter",
+            "Moses",
+            "Paul"
+          ],
+          "correctAnswer": "John the Baptist",
+          "explanation": "John 5:33 mentions John as the one who bore witness to Jesus.",
+          "verseReference": "John 5:33",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "john-5-quiz",
+      "tags": [
+        "john",
+        "chapter-5",
+        "john",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "john-5-medium",
+      "title": "John Chapter 5 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from John Chapter 5 to real-life situations.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 5,
+      "questions": [
+        {
+          "id": "john-5-medium-q1",
+          "question": "A fellow believer is struggling with feelings of helplessness and waiting for healing. Based on John 5, what biblical truth would you share about faith and trust in God?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus has power to heal and restore immediately when we trust Him",
+            "We must wait for the angel to trouble the water before healing can come",
+            "Healing only comes through human effort and timing",
+            "Only the physically strong are chosen to be healed"
+          ],
+          "correctAnswer": "Jesus has power to heal and restore immediately when we trust Him",
+          "explanation": "John 5:8-9 shows that Jesus commanded the man to rise and walk, and he was immediately healed. This demonstrates that faith and trust in Jesus' power bring restoration, not waiting for external signs like the troubling of the water (John 5:4-7).",
+          "verseReference": "John 5:8-9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-5-medium-q2",
+          "question": "How does John 5 teach us about obedience and honoring God's law even when facing criticism?",
+          "type": "multiple-choice",
+          "options": [
+            "The healed man obeyed Jesus and carried his bed on the Sabbath despite criticism",
+            "The healed man refused to obey Jesus because it was the Sabbath",
+            "Jesus told the man to hide from the Jews to avoid confrontation",
+            "Obedience to men is more important than obedience to God"
+          ],
+          "correctAnswer": "The healed man obeyed Jesus and carried his bed on the Sabbath despite criticism",
+          "explanation": "John 5:8-10 shows the man obeyed Jesus' command to take up his bed and walk on the Sabbath, even though the Jews criticized him (John 5:10). This teaches obedience to God's instructions even when it may bring opposition.",
+          "verseReference": "John 5:8-10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-5-medium-q3",
+          "question": "A believer asks about the relationship between the Father and the Son. Based on John 5, what biblical truth would you share about their work and unity?",
+          "type": "multiple-choice",
+          "options": [
+            "The Son can only do what He sees the Father doing; they work in perfect unity",
+            "The Son acts independently without regard to the Father",
+            "The Father works only occasionally and the Son works all the time",
+            "The Son is less important than the Father in judgment"
+          ],
+          "correctAnswer": "The Son can only do what He sees the Father doing; they work in perfect unity",
+          "explanation": "John 5:19 explains that the Son does nothing of Himself but what He sees the Father do. John 5:17 confirms both work continuously, showing their unity and shared purpose.",
+          "verseReference": "John 5:17,19",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-5-medium-q4",
+          "question": "Based on John 5, how should believers understand eternal life and its connection to faith?",
+          "type": "multiple-choice",
+          "options": [
+            "Those who hear Jesus' word and believe the Father have everlasting life and pass from death to life",
+            "Eternal life is earned through good works alone",
+            "Only those who keep the Sabbath perfectly will have eternal life",
+            "Eternal life is a future hope unrelated to present faith"
+          ],
+          "correctAnswer": "Those who hear Jesus' word and believe the Father have everlasting life and pass from death to life",
+          "explanation": "John 5:24 teaches that hearing Jesus' word and believing in the Father who sent Him grants everlasting life and moves a person from death to life, emphasizing faith as the key to eternal life.",
+          "verseReference": "John 5:24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-5-medium-q5",
+          "question": "A fellow believer feels discouraged about their witness for Christ. What encouragement about evangelism does John 5 provide?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus' works and the testimony of John the Baptist confirm His divine mission, encouraging believers to witness boldly",
+            "Witnessing is unnecessary because only Jesus can save",
+            "Believers should only share the Gospel with those who already believe",
+            "Human testimony is more important than Jesus’ works"
+          ],
+          "correctAnswer": "Jesus' works and the testimony of John the Baptist confirm His divine mission, encouraging believers to witness boldly",
+          "explanation": "John 5:31-36 explains that Jesus does not rely solely on His own testimony but on the works given Him by the Father and John the Baptist’s witness, encouraging believers that their witness aligns with divine confirmation.",
+          "verseReference": "John 5:31-36",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-5-medium-q6",
+          "question": "How does John 5 teach about humility and dependence on God in decision-making and judgment?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus states He can do nothing on His own but judges according to the Father's will, modeling humility",
+            "Jesus acts on His own authority without consulting the Father",
+            "Judgment is based on personal preference",
+            "Dependence on God is not necessary for righteous judgment"
+          ],
+          "correctAnswer": "Jesus states He can do nothing on His own but judges according to the Father's will, modeling humility",
+          "explanation": "John 5:30 shows Jesus’ humility as He says He judges only as He hears from the Father, seeking not His own will but the Father's, setting an example for believers to depend on God’s guidance.",
+          "verseReference": "John 5:30",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-5-medium-q7",
+          "question": "According to John 5, how should believers respond to God’s Word and the Scriptures?",
+          "type": "multiple-choice",
+          "options": [
+            "Search the Scriptures because they testify of Jesus, and come to Him for life",
+            "The Scriptures are only historical and have no bearing on eternal life",
+            "Believers should rely solely on personal intuition rather than Scripture",
+            "Jesus' words replace the need for Scripture"
+          ],
+          "correctAnswer": "Search the Scriptures because they testify of Jesus, and come to Him for life",
+          "explanation": "John 5:39-40 encourages believers to search the Scriptures as they testify of Jesus, and to come to Him in order to have life, underscoring the importance of Scripture and faith in Christ.",
+          "verseReference": "John 5:39-40",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-5-medium-q8",
+          "question": "A believer is facing temptation to seek praise from others rather than from God. What teaching in John 5 addresses this issue?",
+          "type": "multiple-choice",
+          "options": [
+            "Seek not the honor that comes from men but the honor that comes from God alone",
+            "It is acceptable to seek honor from men as long as God is honored too",
+            "Pride in human approval is a sign of spiritual health",
+            "God does not care about where our honor comes from"
+          ],
+          "correctAnswer": "Seek not the honor that comes from men but the honor that comes from God alone",
+          "explanation": "John 5:44 warns against seeking honor from one another and instructs believers to seek the honor that comes only from God, teaching humility and proper focus in life.",
+          "verseReference": "John 5:44",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-5-medium-q9",
+          "question": "How does John 5 teach us about perseverance through trials and opposition in Christian service?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus was persecuted for doing good on the Sabbath but continued His work, encouraging believers to persevere",
+            "Believers should avoid all opposition by compromising their faith",
+            "Trials indicate God’s disfavor and should be avoided",
+            "Only those without opposition are truly faithful"
+          ],
+          "correctAnswer": "Jesus was persecuted for doing good on the Sabbath but continued His work, encouraging believers to persevere",
+          "explanation": "John 5:16-18 shows Jesus faced persecution for healing on the Sabbath, yet He continued His work, teaching believers to persevere in doing good despite opposition.",
+          "verseReference": "John 5:16-18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-5-medium-q10",
+          "question": "True or False: According to John 5, Jesus claimed equality with God by calling God His Father and working as God does.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 5:17-18 explains that Jesus referred to God as His Father and said, \"I work,\" implying equality with God, which caused the Jews to seek to kill Him.",
+          "verseReference": "John 5:17-18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-5-medium-q11",
+          "question": "True or False: John 5 teaches that belief in Jesus is unnecessary if one believes in Moses and the Law.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 5:45-47 teaches that if people truly believed Moses, they would believe Jesus because Moses wrote about Him, emphasizing that belief in Jesus is essential even for those who trust the Law.",
+          "verseReference": "John 5:45-47",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-5-medium-q12",
+          "question": "Fill in the blank: Jesus said, \"He that heareth my word, and believeth on him that sent me, hath ________, and shall not come into condemnation; but is passed from death unto life.\"",
+          "type": "fill-blank",
+          "options": [
+            "everlasting life",
+            "great wealth",
+            "earthly blessings",
+            "a long life"
+          ],
+          "correctAnswer": "everlasting life",
+          "explanation": "John 5:24 clearly states that those who hear Jesus' word and believe in the Father have everlasting life and pass from death to life, emphasizing the gift of eternal life through faith.",
+          "verseReference": "John 5:24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-5-medium-q13",
+          "question": "A believer is tempted to judge others harshly. According to John 5, what biblical principle should guide their judgment?",
+          "type": "multiple-choice",
+          "options": [
+            "Judgment must be just and aligned with God's will, not personal will",
+            "Judgment should be based on personal opinions",
+            "It is acceptable to judge others without self-examination",
+            "Judgment is unnecessary and should be avoided"
+          ],
+          "correctAnswer": "Judgment must be just and aligned with God's will, not personal will",
+          "explanation": "John 5:30 shows Jesus judges justly because He seeks not His own will but the Father's, teaching believers to align their judgment with God’s will and fairness.",
+          "verseReference": "John 5:30",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-5-medium-q14",
+          "question": "How does John 5 encourage believers to grow in love for God?",
+          "type": "multiple-choice",
+          "options": [
+            "By receiving Jesus and His words, which leads to loving God",
+            "By seeking honor from others",
+            "By relying on human testimony alone",
+            "By trusting in the Law without faith in Jesus"
+          ],
+          "correctAnswer": "By receiving Jesus and His words, which leads to loving God",
+          "explanation": "John 5:42 and 5:40 indicate that not receiving Jesus means lacking God's love, and coming to Jesus leads to life, encouraging believers to embrace Jesus to grow in God's love.",
+          "verseReference": "John 5:40,42",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-5-medium-q15",
+          "question": "According to John 5, what is the role of resurrection in the Christian hope and judgment?",
+          "type": "multiple-choice",
+          "options": [
+            "All in the graves will hear Jesus' voice and be raised; the righteous to life, the wicked to damnation",
+            "Resurrection is only symbolic and not literal",
+            "Only a select few will be resurrected",
+            "Resurrection occurs only in dreams"
+          ],
+          "correctAnswer": "All in the graves will hear Jesus' voice and be raised; the righteous to life, the wicked to damnation",
+          "explanation": "John 5:28-29 announces the coming resurrection when all in the graves will hear Jesus' voice and rise, with a judgment separating the righteous and wicked, affirming the Christian hope of bodily resurrection.",
+          "verseReference": "John 5:28-29",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "john-5-quiz",
+      "tags": [
+        "john",
+        "chapter-5",
+        "john",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "john-5-hard",
+      "title": "John Chapter 5 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from John Chapter 5.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 5,
+      "questions": [
+        {
+          "id": "john-5-hard-q1",
+          "question": "What is the significance of the pool called Bethesda, mentioned in John 5:2, in the context of Jewish healing traditions and its Greek name meaning?",
+          "type": "multiple-choice",
+          "options": [
+            "It was believed the water had healing powers due to angelic intervention",
+            "It was a marketplace for sacrificial sheep",
+            "It was a site for ritual ablutions before temple worship",
+            "It was a Roman bathhouse named after a governor"
+          ],
+          "correctAnswer": "It was believed the water had healing powers due to angelic intervention",
+          "explanation": "John 5:2-4 describes the pool of Bethesda as having five porches and an angel troubling the water, which was believed to heal the first person who entered afterward. This reflects Jewish traditions of divine or angelic healing.",
+          "verseReference": "John 5:2-4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-hard-q2",
+          "question": "How does the healing of the invalid man at Bethesda (John 5:5-9) serve as a typological foreshadowing of resurrection themes in John 5?",
+          "type": "multiple-choice",
+          "options": [
+            "It symbolizes spiritual awakening paralleling resurrection of the dead",
+            "It foreshadows the destruction of the temple",
+            "It illustrates the power of the Law over grace",
+            "It represents the exile of Israel"
+          ],
+          "correctAnswer": "It symbolizes spiritual awakening paralleling resurrection of the dead",
+          "explanation": "The healing after 38 years and the instruction to 'rise and walk' (John 5:8-9) prefigures the later theme of resurrection and new life in John 5:25-29 where the dead hear the Son's voice and live.",
+          "verseReference": "John 5:5-9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-hard-q3",
+          "question": "In John 5:10-18, why do the Jewish leaders persecute Jesus after the healing on the Sabbath?",
+          "type": "multiple-choice",
+          "options": [
+            "Because Jesus healed on the Sabbath and claimed God as His Father, making Himself equal to God",
+            "Because Jesus refused to attend the synagogue",
+            "Because Jesus challenged the Roman authorities",
+            "Because Jesus denied the Law of Moses"
+          ],
+          "correctAnswer": "Because Jesus healed on the Sabbath and claimed God as His Father, making Himself equal to God",
+          "explanation": "John 5:16-18 shows the Jews sought to kill Jesus for breaking Sabbath law and for His claim of God as His Father, implying equality with God, which was blasphemous in their view.",
+          "verseReference": "John 5:16-18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-hard-q4",
+          "question": "What does Jesus mean when He says, 'The Son can do nothing of himself, but what he seeth the Father do' (John 5:19), in terms of divine authority and action?",
+          "type": "multiple-choice",
+          "options": [
+            "The Son’s actions perfectly mirror the Father’s will and work",
+            "The Son is limited and powerless without the Father",
+            "The Son works independently from the Father",
+            "The Son only acts after human approval"
+          ],
+          "correctAnswer": "The Son’s actions perfectly mirror the Father’s will and work",
+          "explanation": "John 5:19 emphasizes Jesus’ unity with the Father, showing that His works are a direct reflection of the Father’s actions, highlighting divine authority and obedience.",
+          "verseReference": "John 5:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-hard-q5",
+          "question": "How does John 5:21 connect Jesus’ power to quicken the dead with Old Testament themes of divine resurrection?",
+          "type": "multiple-choice",
+          "options": [
+            "It parallels Ezekiel’s vision of dry bones being revived",
+            "It references Elijah’s raising of the widow’s son",
+            "It relates to the creation of Adam from dust",
+            "It alludes to Daniel’s vision of the resurrection"
+          ],
+          "correctAnswer": "It parallels Ezekiel’s vision of dry bones being revived",
+          "explanation": "John 5:21’s statement that the Son quickens whom He will connects to Ezekiel 37 where God breathes life into dry bones, symbolizing God’s power over life and death.",
+          "verseReference": "John 5:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-hard-q6",
+          "question": "According to John 5:22-23, what judicial authority has been given to the Son, and how does this relate to the concept of divine honor?",
+          "type": "multiple-choice",
+          "options": [
+            "The Father has given all judgment to the Son, and all men must honor the Son as they honor the Father",
+            "The Son judges only Gentiles, honoring the Father’s covenant",
+            "The Son has limited judgment, subordinate to human courts",
+            "The Son judges only during the final day"
+          ],
+          "correctAnswer": "The Father has given all judgment to the Son, and all men must honor the Son as they honor the Father",
+          "explanation": "Verses 22-23 affirm that the Son shares divine authority and deserves the same honor as the Father, underscoring the unity and equality within the Godhead.",
+          "verseReference": "John 5:22-23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-hard-q7",
+          "question": "What theological implication does John 5:24 present about hearing Jesus’ word and belief in God who sent Him?",
+          "type": "multiple-choice",
+          "options": [
+            "Believers have eternal life and pass from death to life, avoiding condemnation",
+            "Belief is irrelevant without works",
+            "Hearing alone guarantees salvation",
+            "Only Jewish people inherit eternal life"
+          ],
+          "correctAnswer": "Believers have eternal life and pass from death to life, avoiding condemnation",
+          "explanation": "John 5:24 teaches that faith in Jesus and God who sent Him results in eternal life and a spiritual transition from death to life, emphasizing salvation by faith.",
+          "verseReference": "John 5:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-hard-q8",
+          "question": "In John 5:25-29, how does Jesus describe the resurrection, and what is the basis for the resurrection of life versus damnation?",
+          "type": "multiple-choice",
+          "options": [
+            "All in graves will hear His voice; those who did good rise to life, those who did evil to damnation",
+            "Only the righteous will be resurrected to life",
+            "Resurrection happens only at the final judgment without distinction",
+            "Resurrection is symbolic of spiritual awakening only"
+          ],
+          "correctAnswer": "All in graves will hear His voice; those who did good rise to life, those who did evil to damnation",
+          "explanation": "John 5:28-29 clearly differentiates resurrection outcomes based on deeds, highlighting judgment and eternal destinies.",
+          "verseReference": "John 5:28-29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-hard-q9",
+          "question": "Why does Jesus say in John 5:30 that He can do nothing of Himself but judges justly according to the Father’s will, and how does this reflect the concept of divine mission?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus’ mission is to perfectly fulfill the Father’s will, showing unity and justice",
+            "Jesus is dependent on human approval for judgment",
+            "Jesus acts arbitrarily without guidance",
+            "Jesus’ judgment is flawed and partial"
+          ],
+          "correctAnswer": "Jesus’ mission is to perfectly fulfill the Father’s will, showing unity and justice",
+          "explanation": "John 5:30 emphasizes Jesus’ obedience and submission to the Father, reflecting His role as the divine agent carrying out God’s just judgment.",
+          "verseReference": "John 5:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-hard-q10",
+          "question": "Who is the 'other' that bears witness of Jesus in John 5:32-36, and how does this witness establish Jesus’ divine authority?",
+          "type": "multiple-choice",
+          "options": [
+            "John the Baptist and the works given by the Father",
+            "Moses and the Law",
+            "The Pharisees and Sadducees",
+            "The Roman authorities"
+          ],
+          "correctAnswer": "John the Baptist and the works given by the Father",
+          "explanation": "John 5:33-36 identifies John the Baptist’s testimony and Jesus’ miraculous works as authentic witnesses confirming His divine mission and authority.",
+          "verseReference": "John 5:32-36",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-hard-q11",
+          "question": "What does Jesus mean by 'ye have not his word abiding in you: for whom he hath sent, him ye believe not' in John 5:38, and how does this critique the audience’s reception of Scripture?",
+          "type": "multiple-choice",
+          "options": [
+            "They do not truly internalize God’s word or believe in the one sent by God",
+            "They faithfully follow the Law but reject Jesus",
+            "They only accept oral tradition",
+            "They believe in all prophets except Jesus"
+          ],
+          "correctAnswer": "They do not truly internalize God’s word or believe in the one sent by God",
+          "explanation": "John 5:38 critiques the failure to truly embrace God’s word and the rejection of Jesus, despite being sent by God, highlighting spiritual blindness.",
+          "verseReference": "John 5:38",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-hard-q12",
+          "question": "How does John 5:39-40 illustrate the tension between scriptural knowledge and spiritual life in Jesus’ ministry?",
+          "type": "multiple-choice",
+          "options": [
+            "People search scriptures for eternal life but refuse to come to Jesus who offers it",
+            "Scriptures are irrelevant to salvation",
+            "Only knowledge of the Law brings life",
+            "Faith must be abandoned for works"
+          ],
+          "correctAnswer": "People search scriptures for eternal life but refuse to come to Jesus who offers it",
+          "explanation": "Jesus exposes the paradox that despite diligent scriptural study, the people reject Him and thus miss the life He offers (John 5:39-40).",
+          "verseReference": "John 5:39-40",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-hard-q13",
+          "question": "In John 5:41-44, what does Jesus identify as the reason for the audience’s rejection of Him, and how does this connect with the theme of honor in the chapter?",
+          "type": "multiple-choice",
+          "options": [
+            "They seek honor from men rather than from God",
+            "They misunderstand His miracles",
+            "They are politically opposed to Jesus",
+            "They are loyal to the Pharisees"
+          ],
+          "correctAnswer": "They seek honor from men rather than from God",
+          "explanation": "John 5:44 calls out the audience’s desire for human approval, contrasting it with the honor that comes from God alone, a key theme of divine versus human recognition.",
+          "verseReference": "John 5:44",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-hard-q14",
+          "question": "What is the significance of Moses as an accuser in John 5:45-47, and how does this reflect intertextual connections with the Pentateuch?",
+          "type": "multiple-choice",
+          "options": [
+            "Moses represents the Law, which testifies about Jesus and condemns those who disbelieve",
+            "Moses is a false prophet rejecting Jesus",
+            "Moses is unrelated to Jesus’ mission",
+            "Moses supports the Pharisees’ rejection"
+          ],
+          "correctAnswer": "Moses represents the Law, which testifies about Jesus and condemns those who disbelieve",
+          "explanation": "John 5:45-47 uses Moses as a symbolic figure of the Law, which points to Jesus and serves as a witness against unbelief, tying Jesus’ mission to the Pentateuch.",
+          "verseReference": "John 5:45-47",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-hard-q15",
+          "question": "True or False: According to John 5:26, the Son has life in Himself because the Father has given it to Him, indicating a unique sharing of divine life within the Godhead.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 5:26 states that just as the Father has life in Himself, He has granted the Son to have life in Himself, showing the unique divine life shared within the Trinity.",
+          "verseReference": "John 5:26",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "john-5-quiz",
+      "tags": [
+        "john",
+        "chapter-5",
+        "john",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "john-5-theological",
+      "title": "John Chapter 5 Quiz - Theological Level",
+      "description": "Deep biblical theology from John Chapter 5 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 5,
+      "questions": [
+        {
+          "id": "john-5-theological-q1",
+          "question": "What significance does the pool called Bethesda have in John 5?",
+          "type": "multiple-choice",
+          "options": [
+            "It was a place where an angel stirred the water to heal the sick",
+            "It was a market where sheep were sold",
+            "It was the location where Jesus performed his first miracle",
+            "It was the temple treasury where offerings were collected"
+          ],
+          "correctAnswer": "It was a place where an angel stirred the water to heal the sick",
+          "explanation": "John 5:2-4 describes the pool Bethesda where a multitude of infirm people waited for the angel to trouble the water so that the first to enter after would be healed. This reflects the Old Testament theme of God’s provision for healing (Exodus 15:26, Isaiah 53:4-5), and Jesus’ healing ministry fulfills this provision (Matthew 8:16-17, Acts 10:38).",
+          "verseReference": "John 5:2-4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-theological-q2",
+          "question": "How long had the man Jesus healed at Bethesda been infirm?",
+          "type": "multiple-choice",
+          "options": [
+            "Thirty and eight years",
+            "Twelve years",
+            "Seven years",
+            "Forty years"
+          ],
+          "correctAnswer": "Thirty and eight years",
+          "explanation": "John 5:5 explicitly states the man had an infirmity for 38 years, highlighting the depth of his suffering and the power of Jesus to heal longstanding afflictions. This long duration emphasizes Jesus’ authority over human suffering and echoes Israel’s 40 years in the wilderness, a time of testing and need for divine intervention (Numbers 14:33-34, Psalm 103:3).",
+          "verseReference": "John 5:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-theological-q3",
+          "question": "What command did Jesus give to the man He healed at Bethesda?",
+          "type": "multiple-choice",
+          "options": [
+            "Rise, take up thy bed, and walk",
+            "Go and sin no more",
+            "Follow me",
+            "Be made whole"
+          ],
+          "correctAnswer": "Rise, take up thy bed, and walk",
+          "explanation": "In John 5:8, Jesus commands the man to rise, take up his bed, and walk, demonstrating His authority over physical infirmity and initiating the man’s restoration. This echoes God's commands in the Old Testament to rise and walk in newness of life (Isaiah 35:6, Ezekiel 37:1-14) and prefigures the resurrection power of Christ (Romans 6:4).",
+          "verseReference": "John 5:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-theological-q4",
+          "question": "Why did the Jews persecute Jesus after He healed the man on the Sabbath?",
+          "type": "multiple-choice",
+          "options": [
+            "Because He had broken the Sabbath and claimed God as His Father",
+            "Because He healed a Gentile",
+            "Because He taught false doctrine openly",
+            "Because He destroyed the temple"
+          ],
+          "correctAnswer": "Because He had broken the Sabbath and claimed God as His Father",
+          "explanation": "John 5:16-18 explains the Jews sought to kill Jesus because He healed on the Sabbath, which they considered unlawful, and because He claimed God as His Father, making Himself equal with God. This reveals the tension between Jesus’ divine identity and Jewish legalism, underscoring the Son’s unique relationship with the Father (Exodus 20:8-11, Psalm 2:7, Isaiah 9:6).",
+          "verseReference": "John 5:16-18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-theological-q5",
+          "question": "What does Jesus say about His ability to do works on His own authority?",
+          "type": "multiple-choice",
+          "options": [
+            "The Son can do nothing of himself, but what he seeth the Father do",
+            "He acts independently without consulting the Father",
+            "He only does what the people demand",
+            "He does works according to the law of Moses"
+          ],
+          "correctAnswer": "The Son can do nothing of himself, but what he seeth the Father do",
+          "explanation": "John 5:19 highlights Jesus’ perfect unity with the Father, doing only what He sees the Father doing. This affirms the doctrine of the Trinity’s unity of will and action (John 10:30, Philippians 2:6-8, Hebrews 1:3) and distinguishes Jesus’ divine authority from human autonomy (Psalm 110:1).",
+          "verseReference": "John 5:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-theological-q6",
+          "question": "What is the basis for the Son's authority to execute judgment according to John 5?",
+          "type": "multiple-choice",
+          "options": [
+            "Because He is the Son of Man",
+            "Because He is a prophet",
+            "Because He is a teacher of the law",
+            "Because He is a rabbi"
+          ],
+          "correctAnswer": "Because He is the Son of Man",
+          "explanation": "John 5:27 states that the Son has been given authority to execute judgment because He is the Son of Man, a messianic title from Daniel 7:13-14 signifying divine authority and kingdom rule. This connects Jesus' earthly humanity with His divine role as judge, fulfilling Old Testament prophecy (Psalm 96:13, Matthew 25:31-46).",
+          "verseReference": "John 5:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-theological-q7",
+          "question": "According to John 5, what will happen at the resurrection when the dead hear the voice of the Son of God?",
+          "type": "multiple-choice",
+          "options": [
+            "Those who have done good will rise to life, and those who have done evil to condemnation",
+            "All will be judged equally without distinction",
+            "Only the righteous will be resurrected",
+            "The dead will remain in their graves"
+          ],
+          "correctAnswer": "Those who have done good will rise to life, and those who have done evil to condemnation",
+          "explanation": "John 5:28-29 teaches a dual resurrection and judgment, where the righteous receive eternal life and the wicked face damnation. This eschatological teaching is consistent with Daniel 12:2, Revelation 20:12-15, and Matthew 25:46, affirming the finality of divine judgment based on moral conduct.",
+          "verseReference": "John 5:28-29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-theological-q8",
+          "question": "What does Jesus say about those who hear His word and believe in Him who sent Him?",
+          "type": "multiple-choice",
+          "options": [
+            "They have everlasting life and shall not come into condemnation",
+            "They will still face judgment but be forgiven",
+            "They must perform works to be saved",
+            "They will be excluded from the kingdom"
+          ],
+          "correctAnswer": "They have everlasting life and shall not come into condemnation",
+          "explanation": "John 5:24 promises eternal life and freedom from condemnation to those who hear Jesus’ word and believe in the Father who sent Him. This doctrine of salvation by faith aligns with John 3:16, Romans 8:1, and Ephesians 2:8-9, emphasizing grace and eternal security.",
+          "verseReference": "John 5:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-theological-q9",
+          "question": "According to John 5, how does Jesus describe His judgment?",
+          "type": "multiple-choice",
+          "options": [
+            "Just, because He seeks not His own will but the Father's",
+            "Partial, favoring His followers",
+            "Hastily rendered without evidence",
+            "Based on popular opinion"
+          ],
+          "correctAnswer": "Just, because He seeks not His own will but the Father's",
+          "explanation": "John 5:30 states Jesus’ judgment is just because He does not seek His own will but the Father's will. This highlights divine justice and unity within the Trinity, consistent with Psalms 89:14, Isaiah 11:3-5, and Romans 2:11.",
+          "verseReference": "John 5:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-theological-q10",
+          "question": "What testimony does Jesus affirm as true regarding Himself?",
+          "type": "multiple-choice",
+          "options": [
+            "The testimony of John the Baptist",
+            "The testimony of the Pharisees",
+            "The testimony of the people",
+            "The testimony of the priests"
+          ],
+          "correctAnswer": "The testimony of John the Baptist",
+          "explanation": "John 5:32-33 affirms John the Baptist’s testimony as true concerning Jesus. John’s role as the forerunner is affirmed in Isaiah 40:3, Malachi 3:1, and Luke 1:17, confirming Jesus’ messianic identity.",
+          "verseReference": "John 5:32-33",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-theological-q11",
+          "question": "What greater witness than John’s does Jesus claim in John 5?",
+          "type": "multiple-choice",
+          "options": [
+            "The works the Father gave Jesus to finish",
+            "The writings of Moses",
+            "The miracles of the apostles",
+            "The law given to Israel"
+          ],
+          "correctAnswer": "The works the Father gave Jesus to finish",
+          "explanation": "John 5:36 states that Jesus’ works, given by the Father to finish, bear greater witness than John’s testimony. This emphasizes the divine authority and power behind Jesus’ ministry (Psalm 40:6-8, Hebrews 10:5-10, John 14:10).",
+          "verseReference": "John 5:36",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-theological-q12",
+          "question": "What accusation does Jesus say will come against the Jewish leaders instead of Himself?",
+          "type": "multiple-choice",
+          "options": [
+            "Moses will accuse them",
+            "The prophets will accuse them",
+            "The Romans will accuse them",
+            "The people will accuse them"
+          ],
+          "correctAnswer": "Moses will accuse them",
+          "explanation": "John 5:45 states that Moses will be the one accusing the Jewish leaders because they trusted in him but did not believe Jesus. This reflects the continuity between Moses’ law and Jesus’ fulfillment of it (Deuteronomy 18:15, Matthew 5:17, Acts 3:22-23).",
+          "verseReference": "John 5:45",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-theological-q13",
+          "question": "What does Jesus say about the Jewish leaders’ belief in Moses’ writings?",
+          "type": "multiple-choice",
+          "options": [
+            "If they believed Moses, they would believe Jesus",
+            "They believed Moses but rejected Jesus",
+            "They rejected both Moses and Jesus",
+            "They believed Jesus but not Moses"
+          ],
+          "correctAnswer": "If they believed Moses, they would believe Jesus",
+          "explanation": "John 5:46 teaches that belief in Moses’ writings would naturally lead to belief in Jesus, as Moses wrote about Him. This underscores the messianic fulfillment of the Law (Deuteronomy 18:15, Luke 24:27, John 1:45).",
+          "verseReference": "John 5:46",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-theological-q14",
+          "question": "According to John 5, what is the relationship between the Father and the Son in regard to life?",
+          "type": "multiple-choice",
+          "options": [
+            "The Father has life in Himself and has given the Son to have life in Himself",
+            "The Son has life through the Father’s power alone",
+            "The Son is mortal and dependent on the Father for life",
+            "The Father and Son are unrelated in life"
+          ],
+          "correctAnswer": "The Father has life in Himself and has given the Son to have life in Himself",
+          "explanation": "John 5:26 states the Father has life in Himself and grants the Son to have life in Himself, showing co-eternal divine life and equality in the Godhead (Genesis 2:7, Psalm 36:9, John 1:4, Colossians 1:17).",
+          "verseReference": "John 5:26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-5-theological-q15",
+          "question": "What does Jesus say about honor in John 5?",
+          "type": "multiple-choice",
+          "options": [
+            "All men should honor the Son as they honor the Father",
+            "Only the Father deserves honor",
+            "Honor is unnecessary for the Son",
+            "Honor should be given only to earthly kings"
+          ],
+          "correctAnswer": "All men should honor the Son as they honor the Father",
+          "explanation": "John 5:23 declares that honoring the Son is equal to honoring the Father who sent Him, affirming the Son’s divine status. This aligns with Philippians 2:9-11 and Hebrews 1:6, emphasizing the worship due to Christ.",
+          "verseReference": "John 5:23",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "john-5-quiz",
+      "tags": [
+        "john",
+        "chapter-5",
+        "john",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

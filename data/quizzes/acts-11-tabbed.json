@@ -1,0 +1,983 @@
+{
+  "id": "acts-11-tabbed",
+  "title": "Acts Chapter 11 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Acts chapter 11 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "acts-11-easy",
+      "title": "Acts Chapter 11 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Acts Chapter 11.",
+      "type": "chapter",
+      "book": "Acts",
+      "chapter": 11,
+      "questions": [
+        {
+          "id": "acts-11-easy-q1",
+          "question": "Who contended with Peter when he came up to Jerusalem?",
+          "type": "multiple-choice",
+          "options": [
+            "They that were of the circumcision",
+            "The Gentiles",
+            "The apostles",
+            "The Pharisees"
+          ],
+          "correctAnswer": "They that were of the circumcision",
+          "explanation": "Acts 11:2 states that those of the circumcision contended with Peter.",
+          "verseReference": "Acts 11:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-11-easy-q2",
+          "question": "What vision did Peter see while praying in Joppa?",
+          "type": "multiple-choice",
+          "options": [
+            "A great sheet let down from heaven containing animals",
+            "A burning bush",
+            "A ladder reaching to heaven",
+            "An angel with a scroll"
+          ],
+          "correctAnswer": "A great sheet let down from heaven containing animals",
+          "explanation": "Acts 11:5-6 describe Peter's vision of a great sheet let down from heaven containing various animals.",
+          "verseReference": "Acts 11:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-11-easy-q3",
+          "question": "What did the voice say to Peter in the vision?",
+          "type": "multiple-choice",
+          "options": [
+            "Arise, Peter; slay and eat",
+            "Go and preach to the Gentiles",
+            "Do not eat anything unclean",
+            "Follow the man from Caesarea"
+          ],
+          "correctAnswer": "Arise, Peter; slay and eat",
+          "explanation": "Acts 11:7 records the voice commanding Peter to arise, slay and eat.",
+          "verseReference": "Acts 11:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-11-easy-q4",
+          "question": "How did Peter respond to the voice saying, 'Slay and eat'?",
+          "type": "multiple-choice",
+          "options": [
+            "Not so, Lord: for nothing common or unclean hath entered into my mouth",
+            "I will obey immediately",
+            "Tell me what this means",
+            "I will go to Caesarea"
+          ],
+          "correctAnswer": "Not so, Lord: for nothing common or unclean hath entered into my mouth",
+          "explanation": "Acts 11:8 shows Peter’s objection based on his prior practice of not eating unclean things.",
+          "verseReference": "Acts 11:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-11-easy-q5",
+          "question": "How many times was the vision of the great sheet shown to Peter?",
+          "type": "multiple-choice",
+          "options": [
+            "Three times",
+            "Once",
+            "Twice",
+            "Four times"
+          ],
+          "correctAnswer": "Three times",
+          "explanation": "Acts 11:10 states that this vision was done three times.",
+          "verseReference": "Acts 11:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-11-easy-q6",
+          "question": "Who came to Peter’s house that was sent from Caesarea?",
+          "type": "multiple-choice",
+          "options": [
+            "Three men",
+            "An angel",
+            "Barnabas",
+            "Saul"
+          ],
+          "correctAnswer": "Three men",
+          "explanation": "Acts 11:11 mentions three men who had come to Peter’s house from Caesarea.",
+          "verseReference": "Acts 11:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-11-easy-q7",
+          "question": "What did the Spirit tell Peter to do when the men from Caesarea arrived?",
+          "type": "multiple-choice",
+          "options": [
+            "Go with them, nothing doubting",
+            "Refuse to go",
+            "Wait for further instruction",
+            "Tell them to come back later"
+          ],
+          "correctAnswer": "Go with them, nothing doubting",
+          "explanation": "Acts 11:12 explains that the Spirit bade Peter to go with the men without doubting.",
+          "verseReference": "Acts 11:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-11-easy-q8",
+          "question": "What was the name of the man whose house Peter entered in Caesarea?",
+          "type": "multiple-choice",
+          "options": [
+            "Cornelius",
+            "Agabus",
+            "Barnabas",
+            "Saul"
+          ],
+          "correctAnswer": "Cornelius",
+          "explanation": "Acts 11:13 describes how Peter was called to Cornelius’s house, where an angel instructed Cornelius.",
+          "verseReference": "Acts 11:13",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-11-easy-q9",
+          "question": "What did the angel say to Cornelius about Peter?",
+          "type": "multiple-choice",
+          "options": [
+            "Send men to Joppa to call for Simon, whose surname is Peter",
+            "Peter will bring a great army",
+            "Peter will baptize you immediately",
+            "Peter will heal the sick"
+          ],
+          "correctAnswer": "Send men to Joppa to call for Simon, whose surname is Peter",
+          "explanation": "Acts 11:13 states the angel told Cornelius to send for Simon Peter in Joppa.",
+          "verseReference": "Acts 11:13",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-11-easy-q10",
+          "question": "What happened when Peter began to speak to the Gentiles?",
+          "type": "multiple-choice",
+          "options": [
+            "The Holy Ghost fell on them",
+            "They rejected his message",
+            "They asked him to leave",
+            "They were silent"
+          ],
+          "correctAnswer": "The Holy Ghost fell on them",
+          "explanation": "Acts 11:15 records that when Peter began to speak, the Holy Ghost fell on the Gentiles as it had on the apostles previously.",
+          "verseReference": "Acts 11:15",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-11-easy-q11",
+          "question": "True or False: The disciples were first called Christians in Jerusalem.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Acts 11:26 states the disciples were called Christians first in Antioch, not Jerusalem.",
+          "verseReference": "Acts 11:26",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-11-easy-q12",
+          "question": "True or False: Barnabas was sent to Antioch after hearing about the Gentiles' conversion.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Acts 11:22 shows that the church in Jerusalem sent Barnabas to Antioch after hearing the news.",
+          "verseReference": "Acts 11:22",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-11-easy-q13",
+          "question": "True or False: Prophets came from Jerusalem to Antioch during this time.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Acts 11:27 mentions that prophets came from Jerusalem to Antioch.",
+          "verseReference": "Acts 11:27",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-11-easy-q14",
+          "question": "Complete this verse from Acts 11:24: 'For he was a good man, and full of the Holy Ghost and of ________.'",
+          "type": "fill-blank",
+          "options": [
+            "faith",
+            "hope",
+            "love",
+            "prayer"
+          ],
+          "correctAnswer": "faith",
+          "explanation": "Acts 11:24 states Barnabas was full of the Holy Ghost and of faith.",
+          "verseReference": "Acts 11:24",
+          "difficulty": "easy"
+        },
+        {
+          "id": "acts-11-easy-q15",
+          "question": "According to Acts 11:18, what did the listeners glorify God for?",
+          "type": "multiple-choice",
+          "options": [
+            "God granting repentance unto the Gentiles",
+            "The miracles performed by Peter",
+            "The building of the church in Jerusalem",
+            "The healing of the sick in Judea"
+          ],
+          "correctAnswer": "God granting repentance unto the Gentiles",
+          "explanation": "Acts 11:18 shows the listeners glorified God because He granted repentance unto life to the Gentiles.",
+          "verseReference": "Acts 11:18",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "acts-11-quiz",
+      "tags": [
+        "acts",
+        "chapter-11",
+        "acts",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "acts-11-medium",
+      "title": "Acts Chapter 11 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Acts Chapter 11 to real-life situations.",
+      "type": "chapter",
+      "book": "Acts",
+      "chapter": 11,
+      "questions": [
+        {
+          "id": "acts-11-medium-q1",
+          "question": "How does Acts 11 teach us about obedience to God's guidance when Peter received a vision about unclean animals?",
+          "type": "multiple-choice",
+          "options": [
+            "Peter refused to obey because he knew the animals were unclean",
+            "Peter obeyed the vision and ate the animals after God said they were cleansed",
+            "Peter ignored the vision and did not change his behavior",
+            "Peter shared the vision only with the apostles in Jerusalem"
+          ],
+          "correctAnswer": "Peter obeyed the vision and ate the animals after God said they were cleansed",
+          "explanation": "Acts 11:5-10 shows Peter receiving a vision where God told him to eat unclean animals, and Peter obeyed after God said, 'What God hath cleansed, that call not thou common.' This teaches us to trust and obey God's guidance even when it challenges our previous beliefs.",
+          "verseReference": "Acts 11:5-10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-11-medium-q2",
+          "question": "A believer is struggling with accepting others different from themselves. Based on Peter's experience, what biblical truth from Acts 11 can help?",
+          "type": "multiple-choice",
+          "options": [
+            "God does not want us to fellowship with those outside our group",
+            "God shows no partiality and calls us to accept all who receive Him",
+            "We should only share the Gospel with those who are like us",
+            "We must wait for others to change before accepting them"
+          ],
+          "correctAnswer": "God shows no partiality and calls us to accept all who receive Him",
+          "explanation": "Acts 11:17-18 explains that God gave the same gift of the Holy Spirit to Gentiles as to Jews, showing God accepts all who believe. This encourages believers to accept and love others regardless of background.",
+          "verseReference": "Acts 11:17-18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-11-medium-q3",
+          "question": "What practical lesson about prayer and spiritual devotion can we learn from Peter in Acts 11?",
+          "type": "multiple-choice",
+          "options": [
+            "Peter was praying in Joppa when he received a vision from God",
+            "Peter only prayed after preaching to the Gentiles",
+            "Peter avoided prayer because he was busy with ministry",
+            "Peter prayed only in the temple in Jerusalem"
+          ],
+          "correctAnswer": "Peter was praying in Joppa when he received a vision from God",
+          "explanation": "Acts 11:5 highlights Peter’s practice of prayer which prepared him to receive God’s vision. This teaches the importance of personal devotion and prayer in discerning God’s will.",
+          "verseReference": "Acts 11:5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-11-medium-q4",
+          "question": "How does Acts 11 illustrate the importance of evangelism and sharing the Gospel across cultural boundaries?",
+          "type": "multiple-choice",
+          "options": [
+            "The apostles only preached to the Jews and excluded Gentiles",
+            "Some believers preached to the Grecians in Antioch, leading to many conversions",
+            "Evangelism was limited to Jerusalem and Judea",
+            "The Gospel was shared only after Gentiles became circumcised"
+          ],
+          "correctAnswer": "Some believers preached to the Grecians in Antioch, leading to many conversions",
+          "explanation": "Acts 11:20-21 shows believers preaching to Greek-speaking Gentiles in Antioch, resulting in many turning to the Lord, emphasizing the call to share the Gospel widely and inclusively.",
+          "verseReference": "Acts 11:20-21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-11-medium-q5",
+          "question": "Based on Acts 11, what principle about humility and contentment can we learn from Barnabas' ministry in Antioch?",
+          "type": "multiple-choice",
+          "options": [
+            "Barnabas sought personal glory and recognition",
+            "Barnabas was glad and exhorted believers to cleave to the Lord with purpose of heart",
+            "Barnabas discouraged the new believers from growing in faith",
+            "Barnabas left Antioch immediately without serving the church"
+          ],
+          "correctAnswer": "Barnabas was glad and exhorted believers to cleave to the Lord with purpose of heart",
+          "explanation": "Acts 11:23-24 records Barnabas' joyful encouragement and faithful service, demonstrating humility, contentment, and dedication to strengthening the church.",
+          "verseReference": "Acts 11:23-24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-11-medium-q6",
+          "question": "True or False: Acts 11 teaches that fellowship and unity in the church require accepting God's work even among those we might initially doubt.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Acts 11:17 shows Peter acknowledging he could not withstand God’s decision to give the Holy Spirit to Gentiles, teaching believers to accept God’s work and maintain unity.",
+          "verseReference": "Acts 11:17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-11-medium-q7",
+          "question": "How does Acts 11 guide believers in generosity and stewardship during times of trial?",
+          "type": "multiple-choice",
+          "options": [
+            "Disciples sent relief to brethren in Judea according to their ability",
+            "Believers were told to keep resources for themselves during the famine",
+            "No provision was made for suffering believers",
+            "Only the apostles handled the relief without involving others"
+          ],
+          "correctAnswer": "Disciples sent relief to brethren in Judea according to their ability",
+          "explanation": "Acts 11:29-30 teaches believers to give generously and proportionally to help those in need, reinforcing stewardship and care within the church family.",
+          "verseReference": "Acts 11:29-30",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-11-medium-q8",
+          "question": "What does Acts 11 reveal about perseverance through trials in the life of the early church?",
+          "type": "multiple-choice",
+          "options": [
+            "Believers scattered by persecution continued preaching the Gospel",
+            "The church stopped ministering due to fear",
+            "Only the leaders preached during persecution",
+            "The Gospel was hidden to avoid further trouble"
+          ],
+          "correctAnswer": "Believers scattered by persecution continued preaching the Gospel",
+          "explanation": "Acts 11:19 shows that those scattered by persecution preached the word even in new regions, demonstrating perseverance and faithful witness despite trials.",
+          "verseReference": "Acts 11:19",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-11-medium-q9",
+          "question": "Fill in the blank: The disciples in Antioch were called ________ first, according to Acts 11.",
+          "type": "fill-blank",
+          "options": [
+            "Christians",
+            "Jews",
+            "Apostles",
+            "Believers"
+          ],
+          "correctAnswer": "Christians",
+          "explanation": "Acts 11:26 notes that the disciples were called Christians first at Antioch, marking a distinct identity related to their faith in Christ.",
+          "verseReference": "Acts 11:26",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-11-medium-q10",
+          "question": "A fellow believer is confused about how God works through different people. What does Acts 11 teach about God’s Spirit falling on Gentiles?",
+          "type": "multiple-choice",
+          "options": [
+            "The Holy Spirit fell on the Gentiles just as it did on Jewish believers",
+            "The Holy Spirit was only for Jewish believers",
+            "Gentiles had to become Jewish first to receive the Spirit",
+            "The Spirit came only after baptism with water"
+          ],
+          "correctAnswer": "The Holy Spirit fell on the Gentiles just as it did on Jewish believers",
+          "explanation": "Acts 11:15-16 describes the Holy Spirit falling on Gentiles in the same way as on Jewish believers at Pentecost, showing God’s impartial work.",
+          "verseReference": "Acts 11:15-16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-11-medium-q11",
+          "question": "What does the response of the church in Jerusalem to Peter’s explanation teach us about humility and glorifying God?",
+          "type": "multiple-choice",
+          "options": [
+            "They held their peace and glorified God for granting repentance to Gentiles",
+            "They rejected Peter and insisted on traditional customs",
+            "They questioned God’s plan and argued",
+            "They ignored the news about Gentiles receiving the word"
+          ],
+          "correctAnswer": "They held their peace and glorified God for granting repentance to Gentiles",
+          "explanation": "Acts 11:18 shows the church’s humble acceptance and praise to God, demonstrating the importance of glorifying God’s work rather than resisting it.",
+          "verseReference": "Acts 11:18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-11-medium-q12",
+          "question": "True or False: According to Acts 11, the early church sent Barnabas to encourage and strengthen the believers in Antioch.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Acts 11:22-23 records how the church in Jerusalem sent Barnabas to Antioch to encourage the new believers, highlighting the importance of fellowship and support in church life.",
+          "verseReference": "Acts 11:22-23",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-11-medium-q13",
+          "question": "How does Acts 11 model integrity and honesty in sharing the Gospel when Peter explained his actions to the Jerusalem church?",
+          "type": "multiple-choice",
+          "options": [
+            "Peter recounted the vision and events honestly and in order",
+            "Peter avoided explaining his actions to prevent conflict",
+            "Peter exaggerated the story to convince others",
+            "Peter blamed others for his actions"
+          ],
+          "correctAnswer": "Peter recounted the vision and events honestly and in order",
+          "explanation": "Acts 11:4-14 shows Peter giving a straightforward and detailed account to explain his actions, emphasizing honesty and transparency in church leadership.",
+          "verseReference": "Acts 11:4-14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-11-medium-q14",
+          "question": "What can we learn about spiritual discernment and trusting God from Peter’s willingness to go with the men from Caesarea?",
+          "type": "multiple-choice",
+          "options": [
+            "He went without doubt as the Spirit bade him",
+            "He hesitated and only went after much persuasion",
+            "He refused to go because of fear",
+            "He went only after consulting the apostles"
+          ],
+          "correctAnswer": "He went without doubt as the Spirit bade him",
+          "explanation": "Acts 11:12 records that Peter went with the men from Caesarea, trusting the Spirit’s leading, teaching us to obey God promptly and without doubt.",
+          "verseReference": "Acts 11:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "acts-11-medium-q15",
+          "question": "How does the prediction of famine by Agabus in Acts 11 encourage believers in facing future hardships?",
+          "type": "multiple-choice",
+          "options": [
+            "Believers prepared to help one another by sending relief",
+            "Believers ignored the warning and were unprepared",
+            "The prophecy caused division in the church",
+            "Believers fled and abandoned their faith"
+          ],
+          "correctAnswer": "Believers prepared to help one another by sending relief",
+          "explanation": "Acts 11:28-30 shows the prophets warning of famine and the disciples responding with generosity, teaching preparedness and mutual support during trials.",
+          "verseReference": "Acts 11:28-30",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "acts-11-quiz",
+      "tags": [
+        "acts",
+        "chapter-11",
+        "acts",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "acts-11-hard",
+      "title": "Acts Chapter 11 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Acts Chapter 11.",
+      "type": "chapter",
+      "book": "Acts",
+      "chapter": 11,
+      "questions": [
+        {
+          "id": "acts-11-hard-q1",
+          "question": "What vision did Peter see while praying in Joppa that challenged Jewish dietary laws?",
+          "type": "multiple-choice",
+          "options": [
+            "A great sheet descending from heaven containing various animals",
+            "A ladder reaching to heaven with angels ascending and descending",
+            "A burning bush that was not consumed",
+            "A scroll with seven seals"
+          ],
+          "correctAnswer": "A great sheet descending from heaven containing various animals",
+          "explanation": "Peter saw a vision of a great sheet let down from heaven containing fourfooted beasts, wild beasts, creeping things, and birds (Acts 11:5-6). This vision challenged traditional Jewish dietary laws.",
+          "verseReference": "Acts 11:5-6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-hard-q2",
+          "question": "How many times was the vision of the sheet and animals repeated to Peter?",
+          "type": "multiple-choice",
+          "options": [
+            "Three times",
+            "Once",
+            "Seven times",
+            "Twice"
+          ],
+          "correctAnswer": "Three times",
+          "explanation": "The vision was done three times as Peter recounts in Acts 11:10, emphasizing the certainty of the message.",
+          "verseReference": "Acts 11:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-hard-q3",
+          "question": "What was Peter's initial reaction to the command to eat animals considered unclean?",
+          "type": "multiple-choice",
+          "options": [
+            "He refused, saying nothing common or unclean had entered his mouth",
+            "He immediately obeyed without question",
+            "He consulted the other apostles",
+            "He asked for clarification from God"
+          ],
+          "correctAnswer": "He refused, saying nothing common or unclean had entered his mouth",
+          "explanation": "Peter said, 'Not so, Lord: for nothing common or unclean hath at any time entered into my mouth,' showing his adherence to Jewish purity laws (Acts 11:8).",
+          "verseReference": "Acts 11:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-hard-q4",
+          "question": "What theological principle did the heavenly voice teach Peter regarding clean and unclean animals?",
+          "type": "multiple-choice",
+          "options": [
+            "What God has cleansed, do not call common",
+            "All animals are inherently unclean",
+            "Only animals from the land of Israel are clean",
+            "Cleanliness depends on ritual washing"
+          ],
+          "correctAnswer": "What God has cleansed, do not call common",
+          "explanation": "The voice said, 'What God hath cleansed, that call not thou common,' indicating a divine redefinition of purity (Acts 11:9).",
+          "verseReference": "Acts 11:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-hard-q5",
+          "question": "Who came to Peter's house from Caesarea, prompting him to act in obedience to the Spirit?",
+          "type": "multiple-choice",
+          "options": [
+            "Three men sent from Cornelius",
+            "The Pharisees",
+            "The Sanhedrin elders",
+            "Roman centurions"
+          ],
+          "correctAnswer": "Three men sent from Cornelius",
+          "explanation": "Three men sent from Caesarea came to Peter, as described in Acts 11:11, indicating the beginning of Gentile inclusion.",
+          "verseReference": "Acts 11:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-hard-q6",
+          "question": "What was the significance of the Holy Ghost falling on the Gentiles as Peter began to speak?",
+          "type": "multiple-choice",
+          "options": [
+            "It showed that Gentiles received the same gift of the Holy Spirit as Jewish believers",
+            "It was a sign that Gentiles must be circumcised",
+            "It indicated that Gentiles were second-class believers",
+            "It was a temporary phenomenon that ceased soon after"
+          ],
+          "correctAnswer": "It showed that Gentiles received the same gift of the Holy Spirit as Jewish believers",
+          "explanation": "Peter noted the Holy Ghost fell on them as on the Jewish believers at the beginning, signaling equality (Acts 11:15-17).",
+          "verseReference": "Acts 11:15-17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-hard-q7",
+          "question": "In Acts 11:18, how did the Jerusalem church respond to Peter's account about Gentiles receiving the word of God?",
+          "type": "multiple-choice",
+          "options": [
+            "They glorified God and accepted that God granted repentance to the Gentiles",
+            "They rejected Peter's testimony and excommunicated him",
+            "They demanded Gentiles follow Jewish customs first",
+            "They were indifferent and said nothing"
+          ],
+          "correctAnswer": "They glorified God and accepted that God granted repentance to the Gentiles",
+          "explanation": "The church held their peace and glorified God, acknowledging that God granted repentance to life even to the Gentiles (Acts 11:18).",
+          "verseReference": "Acts 11:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-hard-q8",
+          "question": "Where did the scattered believers preach the word only to Jews after Stephen's persecution?",
+          "type": "multiple-choice",
+          "options": [
+            "Phenice, Cyprus, and Antioch",
+            "Rome, Alexandria, and Carthage",
+            "Ephesus, Corinth, and Galatia",
+            "Babylon, Damascus, and Tyre"
+          ],
+          "correctAnswer": "Phenice, Cyprus, and Antioch",
+          "explanation": "Acts 11:19 states that those scattered due to persecution preached to Jews only in Phenice, Cyprus, and Antioch.",
+          "verseReference": "Acts 11:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-hard-q9",
+          "question": "Which men began preaching to the Grecians in Antioch, marking the first outreach to Gentiles there?",
+          "type": "multiple-choice",
+          "options": [
+            "Men from Cyprus and Cyrene",
+            "The twelve apostles",
+            "The Pharisees",
+            "Roman soldiers"
+          ],
+          "correctAnswer": "Men from Cyprus and Cyrene",
+          "explanation": "Men of Cyprus and Cyrene spoke to the Grecians, indicating the spread of the gospel beyond Jews (Acts 11:20).",
+          "verseReference": "Acts 11:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-hard-q10",
+          "question": "Who was sent from Jerusalem to Antioch to encourage the new believers and witness the grace of God there?",
+          "type": "multiple-choice",
+          "options": [
+            "Barnabas",
+            "Saul",
+            "Peter",
+            "John"
+          ],
+          "correctAnswer": "Barnabas",
+          "explanation": "The church in Jerusalem sent Barnabas to Antioch to encourage and see the grace of God (Acts 11:22-23).",
+          "verseReference": "Acts 11:22-23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-hard-q11",
+          "question": "What notable title was first used for the disciples in Antioch according to Acts 11:26?",
+          "type": "multiple-choice",
+          "options": [
+            "Christians",
+            "Nazarenes",
+            "Followers of the Way",
+            "Saints"
+          ],
+          "correctAnswer": "Christians",
+          "explanation": "The disciples were first called Christians in Antioch, marking a significant identity development (Acts 11:26).",
+          "verseReference": "Acts 11:26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-hard-q12",
+          "question": "Who did Barnabas seek out in Tarsus to help teach the new believers in Antioch?",
+          "type": "multiple-choice",
+          "options": [
+            "Saul",
+            "Silas",
+            "Timothy",
+            "Luke"
+          ],
+          "correctAnswer": "Saul",
+          "explanation": "Barnabas went to Tarsus to find Saul and brought him to Antioch to teach the church (Acts 11:25-26).",
+          "verseReference": "Acts 11:25-26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-hard-q13",
+          "question": "What prophecy did Agabus deliver in Antioch, and what historical event did it foreshadow?",
+          "type": "multiple-choice",
+          "options": [
+            "A great famine throughout the world during the days of Claudius Caesar",
+            "The destruction of the Temple in Jerusalem",
+            "The fall of the Roman Empire",
+            "The coming of the Messiah"
+          ],
+          "correctAnswer": "A great famine throughout the world during the days of Claudius Caesar",
+          "explanation": "Agabus signified by the Spirit that a great famine would come to pass during Claudius Caesar’s reign (Acts 11:28).",
+          "verseReference": "Acts 11:28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-hard-q14",
+          "question": "What action did the disciples take in response to Agabus's prophecy about the famine?",
+          "type": "multiple-choice",
+          "options": [
+            "They sent relief to the brethren in Judaea according to their ability",
+            "They fled Antioch to avoid the famine",
+            "They fasted and prayed for deliverance",
+            "They ignored the prophecy"
+          ],
+          "correctAnswer": "They sent relief to the brethren in Judaea according to their ability",
+          "explanation": "The disciples determined to send aid to believers in Judaea, showing solidarity and care (Acts 11:29-30).",
+          "verseReference": "Acts 11:29-30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-hard-q15",
+          "question": "True or False: The inclusion of Gentiles into the early church was met with immediate acceptance by all Jewish believers without controversy.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "There was contention among those of the circumcision when Peter returned to Jerusalem because he ate with uncircumcised men (Acts 11:2-3), indicating controversy.",
+          "verseReference": "Acts 11:2-3",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "acts-11-quiz",
+      "tags": [
+        "acts",
+        "chapter-11",
+        "acts",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "acts-11-theological",
+      "title": "Acts Chapter 11 Quiz - Theological Level",
+      "description": "Deep biblical theology from Acts Chapter 11 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Acts",
+      "chapter": 11,
+      "questions": [
+        {
+          "id": "acts-11-theological-q1",
+          "question": "What was the initial issue that caused contention among the circumcised believers concerning Peter's actions?",
+          "type": "multiple-choice",
+          "options": [
+            "Peter had eaten with uncircumcised men",
+            "Peter had preached to the Gentiles",
+            "Peter had baptized Gentiles",
+            "Peter had denied the law of Moses"
+          ],
+          "correctAnswer": "Peter had eaten with uncircumcised men",
+          "explanation": "Acts 11:2-3 shows the contention arose because Peter went to men uncircumcised and ate with them, which challenged Jewish purity laws (cf. Leviticus 11; Mark 7:18-19; Romans 14:14; Galatians 2:11-14).",
+          "verseReference": "Acts 11:2-3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-theological-q2",
+          "question": "In Peter's vision, what descended from heaven and was let down to him?",
+          "type": "multiple-choice",
+          "options": [
+            "A great sheet or vessel",
+            "A golden scroll",
+            "A burning bush",
+            "A dove"
+          ],
+          "correctAnswer": "A great sheet or vessel",
+          "explanation": "Acts 11:5 describes a vision where a great sheet or vessel was let down from heaven, symbolizing God's revelation to Peter about the inclusion of Gentiles (cf. Acts 10:11; Ezekiel 1:1-28; Revelation 4:6; John 1:32).",
+          "verseReference": "Acts 11:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-theological-q3",
+          "question": "What creatures did Peter see in the vision that challenged Jewish dietary laws?",
+          "type": "multiple-choice",
+          "options": [
+            "Fourfooted beasts, wild beasts, creeping things, and fowls of the air",
+            "Only clean animals",
+            "Serpents and scorpions",
+            "Fish and locusts"
+          ],
+          "correctAnswer": "Fourfooted beasts, wild beasts, creeping things, and fowls of the air",
+          "explanation": "Acts 11:6 lists various animals including those considered unclean, indicating God's intention to remove distinctions between clean and unclean (cf. Leviticus 11; Deuteronomy 14; Mark 7:15; Romans 14:20).",
+          "verseReference": "Acts 11:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-theological-q4",
+          "question": "How did Peter initially respond to the command to eat the animals in the vision?",
+          "type": "multiple-choice",
+          "options": [
+            "He said, 'Not so, Lord: for nothing common or unclean hath at any time entered into my mouth.'",
+            "He immediately obeyed without question",
+            "He asked for clarification",
+            "He fled from the vision"
+          ],
+          "correctAnswer": "He said, 'Not so, Lord: for nothing common or unclean hath at any time entered into my mouth.'",
+          "explanation": "Acts 11:8 shows Peter's adherence to Jewish purity laws, refusing to eat anything unclean, reflecting the theological tension between law and grace (cf. Leviticus 11; Acts 10:14; Romans 14:14; Galatians 2:11-14).",
+          "verseReference": "Acts 11:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-theological-q5",
+          "question": "What was God's response to Peter's objection in the vision?",
+          "type": "multiple-choice",
+          "options": [
+            "'What God hath cleansed, that call not thou common.'",
+            "'You must obey the law of Moses.'",
+            "'Separate yourself from the Gentiles.'",
+            "'Wait until further instruction.'"
+          ],
+          "correctAnswer": "'What God hath cleansed, that call not thou common.'",
+          "explanation": "Acts 11:9 records God's command to Peter to not call clean what God has made clean, revealing a divine shift in understanding purity and inclusion of Gentiles (cf. Ezekiel 36:25-27; Isaiah 52:15; Romans 14:14-20; Colossians 2:16-17).",
+          "verseReference": "Acts 11:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-theological-q6",
+          "question": "How many times did the vision of the sheet and animals occur to Peter?",
+          "type": "multiple-choice",
+          "options": [
+            "Three times",
+            "Once",
+            "Seven times",
+            "Twice"
+          ],
+          "correctAnswer": "Three times",
+          "explanation": "Acts 11:10 states the vision was repeated three times, emphasizing the certainty and importance of the revelation, paralleling other biblical triple affirmations (cf. Luke 1:26-38; Matthew 26:69-75; Revelation 4:1-3).",
+          "verseReference": "Acts 11:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-theological-q7",
+          "question": "Who were the men that came to Peter’s house, prompting him to go with them?",
+          "type": "multiple-choice",
+          "options": [
+            "Men sent from Caesarea",
+            "Roman soldiers",
+            "Pharisees from Jerusalem",
+            "Travelers from Antioch"
+          ],
+          "correctAnswer": "Men sent from Caesarea",
+          "explanation": "Acts 11:11 identifies the men as sent from Caesarea, indicating God's providential orchestration in extending the gospel to Gentile households (cf. Acts 10:1-8; Romans 10:15; Isaiah 49:6; John 4:1-42).",
+          "verseReference": "Acts 11:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-theological-q8",
+          "question": "What role did the Holy Spirit play when Peter began to speak to the Gentiles?",
+          "type": "multiple-choice",
+          "options": [
+            "The Holy Ghost fell on them as on the apostles at Pentecost",
+            "The Holy Spirit was silent",
+            "The Holy Spirit confused the listeners",
+            "The Holy Spirit restrained Peter"
+          ],
+          "correctAnswer": "The Holy Ghost fell on them as on the apostles at Pentecost",
+          "explanation": "Acts 11:15 shows the Holy Spirit descending on Gentiles, confirming their inclusion and validating salvation by the Spirit, consistent with Pentecost (Acts 2:1-4; Joel 2:28-29; John 14:16-17; Romans 8:9).",
+          "verseReference": "Acts 11:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-theological-q9",
+          "question": "According to Peter, what did the Lord say about baptism that he recalled upon this event?",
+          "type": "multiple-choice",
+          "options": [
+            "John baptized with water, but you shall be baptized with the Holy Ghost",
+            "Baptism is only for the circumcised",
+            "Baptism is unnecessary for salvation",
+            "Baptism should be repeated often"
+          ],
+          "correctAnswer": "John baptized with water, but you shall be baptized with the Holy Ghost",
+          "explanation": "Acts 11:16 recalls Jesus' promise distinguishing water baptism from Spirit baptism, highlighting the new covenant and eschatological fulfillment (cf. Matthew 3:11; John 1:33; Luke 3:16; Ezekiel 36:25-27).",
+          "verseReference": "Acts 11:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-theological-q10",
+          "question": "How did the Jerusalem believers respond after hearing Peter's explanation of Gentile inclusion?",
+          "type": "multiple-choice",
+          "options": [
+            "They glorified God and accepted that God granted repentance to Gentiles",
+            "They rejected the idea and expelled Peter",
+            "They demanded Gentiles be circumcised",
+            "They remained silent in confusion"
+          ],
+          "correctAnswer": "They glorified God and accepted that God granted repentance to Gentiles",
+          "explanation": "Acts 11:18 indicates the believers glorified God, recognizing God's sovereign grace extends to Gentiles, aligning with prophetic promises (cf. Isaiah 49:6; Romans 11:30-32; Galatians 3:28; Ephesians 2:11-22).",
+          "verseReference": "Acts 11:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-theological-q11",
+          "question": "Where did the scattered believers preach the word after Stephen's persecution?",
+          "type": "multiple-choice",
+          "options": [
+            "Phenice, Cyprus, and Antioch",
+            "Rome and Corinth",
+            "Jerusalem only",
+            "Babylon and Persia"
+          ],
+          "correctAnswer": "Phenice, Cyprus, and Antioch",
+          "explanation": "Acts 11:19 shows the spread of the gospel beyond Jerusalem to these regions, demonstrating early church expansion fulfilling Jesus' command (cf. Acts 1:8; Isaiah 49:6; Matthew 28:19-20; Romans 15:20).",
+          "verseReference": "Acts 11:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-theological-q12",
+          "question": "Who was sent by the Jerusalem church to Antioch to encourage the new believers?",
+          "type": "multiple-choice",
+          "options": [
+            "Barnabas",
+            "Paul",
+            "Peter",
+            "James"
+          ],
+          "correctAnswer": "Barnabas",
+          "explanation": "Acts 11:22 indicates Barnabas was sent, highlighting his role as an encourager and leader in the early church (cf. Acts 4:36-37; Acts 13:1-3; 2 Corinthians 8:18-23; Galatians 2:1-10).",
+          "verseReference": "Acts 11:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-theological-q13",
+          "question": "What was the significant outcome of Barnabas' encouragement in Antioch?",
+          "type": "multiple-choice",
+          "options": [
+            "Much people were added to the Lord",
+            "The church was divided",
+            "Gentiles were excluded",
+            "Barnabas took no action"
+          ],
+          "correctAnswer": "Much people were added to the Lord",
+          "explanation": "Acts 11:24 states that Barnabas' ministry led to growth, showing the power of the Spirit and faith in expanding the church (cf. Acts 2:47; Psalm 68:6; John 15:16; 1 Corinthians 3:6-7).",
+          "verseReference": "Acts 11:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-theological-q14",
+          "question": "Who did Barnabas seek out in Tarsus to bring to Antioch for teaching?",
+          "type": "multiple-choice",
+          "options": [
+            "Saul (Paul)",
+            "John Mark",
+            "Stephen",
+            "Philip"
+          ],
+          "correctAnswer": "Saul (Paul)",
+          "explanation": "Acts 11:25-26 records Barnabas seeking Saul, who became a pivotal teacher and missionary, emphasizing God's providential preparation of leaders (cf. Acts 9:1-22; Romans 11:13; 2 Timothy 4:5; Galatians 1:15-16).",
+          "verseReference": "Acts 11:25-26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "acts-11-theological-q15",
+          "question": "What was the first city where the disciples were called Christians?",
+          "type": "multiple-choice",
+          "options": [
+            "Antioch",
+            "Jerusalem",
+            "Caesarea",
+            "Tarsus"
+          ],
+          "correctAnswer": "Antioch",
+          "explanation": "Acts 11:26 reveals that the term 'Christians' was first used in Antioch, marking a new identity centered on Christ (cf. Acts 26:28; 1 Peter 4:16; Philippians 1:27; 1 Corinthians 1:12-13).",
+          "verseReference": "Acts 11:26",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "acts-11-quiz",
+      "tags": [
+        "acts",
+        "chapter-11",
+        "acts",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

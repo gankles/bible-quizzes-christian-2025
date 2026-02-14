@@ -1,0 +1,981 @@
+{
+  "id": "john-15-tabbed",
+  "title": "John Chapter 15 Quiz - Multi-Level",
+  "description": "An enhanced quiz on John chapter 15 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "john-15-easy",
+      "title": "John Chapter 15 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of John Chapter 15.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 15,
+      "questions": [
+        {
+          "id": "john-15-easy-q1",
+          "question": "Who is described as the true vine in John 15?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus",
+            "Peter",
+            "John",
+            "Moses"
+          ],
+          "correctAnswer": "Jesus",
+          "explanation": "John 15:1 states, 'I am the true vine,' referring to Jesus.",
+          "verseReference": "John 15:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-15-easy-q2",
+          "question": "According to John 15:2, what happens to every branch that does not bear fruit?",
+          "type": "multiple-choice",
+          "options": [
+            "It is taken away",
+            "It is watered",
+            "It is pruned",
+            "It is blessed"
+          ],
+          "correctAnswer": "It is taken away",
+          "explanation": "John 15:2 states that every branch that beareth not fruit is taken away.",
+          "verseReference": "John 15:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-15-easy-q3",
+          "question": "What makes the branches clean according to John 15:3?",
+          "type": "multiple-choice",
+          "options": [
+            "The word spoken by Jesus",
+            "Water from the river",
+            "The prayers of the disciples",
+            "The dust of the earth"
+          ],
+          "correctAnswer": "The word spoken by Jesus",
+          "explanation": "John 15:3 says, 'Now ye are clean through the word which I have spoken unto you.'",
+          "verseReference": "John 15:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-15-easy-q4",
+          "question": "Fill in the blank: 'Abide in me, and I in you. As the branch cannot bear fruit of itself, except it abide in the _____; no more can ye, except ye abide in me.'",
+          "type": "fill-blank",
+          "options": [
+            "vine",
+            "tree",
+            "root",
+            "water"
+          ],
+          "correctAnswer": "vine",
+          "explanation": "John 15:4 says a branch must abide in the vine to bear fruit.",
+          "verseReference": "John 15:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-15-easy-q5",
+          "question": "What does Jesus say about those who do not abide in him in John 15:6?",
+          "type": "multiple-choice",
+          "options": [
+            "They are cast forth, wither, and are burned",
+            "They will bear fruit",
+            "They will be blessed",
+            "They will be healed"
+          ],
+          "correctAnswer": "They are cast forth, wither, and are burned",
+          "explanation": "John 15:6 states that if a man does not abide in Jesus, he is cast forth as a branch and burned.",
+          "verseReference": "John 15:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-15-easy-q6",
+          "question": "According to John 15:7, what will happen if you abide in Jesus and His words abide in you?",
+          "type": "multiple-choice",
+          "options": [
+            "You shall ask what you will, and it shall be done",
+            "You shall never be hungry",
+            "You shall be invisible",
+            "You shall walk on water"
+          ],
+          "correctAnswer": "You shall ask what you will, and it shall be done",
+          "explanation": "John 15:7 promises that abiding in Jesus and His words allows your prayers to be answered.",
+          "verseReference": "John 15:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-15-easy-q7",
+          "question": "What glorifies the Father according to John 15:8?",
+          "type": "multiple-choice",
+          "options": [
+            "Bearing much fruit",
+            "Building great temples",
+            "Performing miracles",
+            "Offering sacrifices"
+          ],
+          "correctAnswer": "Bearing much fruit",
+          "explanation": "John 15:8 says the Father is glorified when you bear much fruit.",
+          "verseReference": "John 15:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-15-easy-q8",
+          "question": "How does Jesus describe his love for us in John 15:9?",
+          "type": "multiple-choice",
+          "options": [
+            "As the Father hath loved him",
+            "As a mother loves her child",
+            "As a shepherd loves his sheep",
+            "As a friend loves a friend"
+          ],
+          "correctAnswer": "As the Father hath loved him",
+          "explanation": "John 15:9 states Jesus loves us as the Father has loved Him.",
+          "verseReference": "John 15:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-15-easy-q9",
+          "question": "What is the commandment Jesus gives in John 15:12?",
+          "type": "multiple-choice",
+          "options": [
+            "That ye love one another as I have loved you",
+            "That ye eat daily bread",
+            "That ye fast every week",
+            "That ye go and make disciples"
+          ],
+          "correctAnswer": "That ye love one another as I have loved you",
+          "explanation": "John 15:12 commands loving one another as Jesus has loved us.",
+          "verseReference": "John 15:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-15-easy-q10",
+          "question": "What is the greatest love according to John 15:13?",
+          "type": "multiple-choice",
+          "options": [
+            "Laying down one’s life for friends",
+            "Giving gifts to strangers",
+            "Praying daily",
+            "Helping the poor"
+          ],
+          "correctAnswer": "Laying down one’s life for friends",
+          "explanation": "John 15:13 explains the greatest love is laying down life for friends.",
+          "verseReference": "John 15:13",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-15-easy-q11",
+          "question": "True or False: Jesus calls his followers servants because they do not know what their lord does.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 15:15 says Jesus calls them friends, not servants, because servants do not know what their lord does.",
+          "verseReference": "John 15:15",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-15-easy-q12",
+          "question": "True or False: According to John 15:18, the world will love Jesus’ followers because they are of the world.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 15:18 states the world hated Jesus before it hated his followers, implying they are not loved because they are not of the world.",
+          "verseReference": "John 15:18",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-15-easy-q13",
+          "question": "True or False: In John 15:26, the Comforter is sent from the Father and is called the Spirit of truth.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 15:26 identifies the Comforter as the Spirit of truth sent from the Father.",
+          "verseReference": "John 15:26",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-15-easy-q14",
+          "question": "Who does Jesus say has chosen his followers according to John 15:16?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus",
+            "The followers themselves",
+            "The Pharisees",
+            "The disciples"
+          ],
+          "correctAnswer": "Jesus",
+          "explanation": "John 15:16 says Jesus has chosen his followers, not they themselves.",
+          "verseReference": "John 15:16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-15-easy-q15",
+          "question": "According to John 15:20, what happens to those who have persecuted Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "They will also persecute his followers",
+            "They will be forgiven immediately",
+            "They will be rewarded",
+            "They will become leaders"
+          ],
+          "correctAnswer": "They will also persecute his followers",
+          "explanation": "John 15:20 states if they have persecuted Jesus, they will also persecute his followers.",
+          "verseReference": "John 15:20",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "john-15-quiz",
+      "tags": [
+        "john",
+        "chapter-15",
+        "john",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "john-15-medium",
+      "title": "John Chapter 15 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from John Chapter 15 to real-life situations.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 15,
+      "questions": [
+        {
+          "id": "john-15-medium-q1",
+          "question": "How does John 15 teach us about the importance of abiding in Christ for spiritual fruitfulness?",
+          "type": "multiple-choice",
+          "options": [
+            "We must remain connected to Christ as branches to the vine to bear fruit.",
+            "We can bear much fruit by our own strength without Christ.",
+            "Fruitfulness is unrelated to our relationship with Christ.",
+            "Only some branches need to abide in the vine to produce fruit."
+          ],
+          "correctAnswer": "We must remain connected to Christ as branches to the vine to bear fruit.",
+          "explanation": "John 15:4-5 teaches that just as branches cannot bear fruit unless they abide in the vine, believers cannot bear fruit unless they remain in Christ. Verses 2 and 8 also emphasize pruning and glorifying God through fruitfulness.",
+          "verseReference": "John 15:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-15-medium-q2",
+          "question": "A fellow believer feels discouraged because they are not seeing much fruit in their life. According to John 15, what biblical truth about pruning would encourage them?",
+          "type": "multiple-choice",
+          "options": [
+            "God prunes fruitful branches to help them bear more fruit.",
+            "Branches that bear fruit are left alone without pruning.",
+            "Pruning is a punishment for failure to bear fruit.",
+            "Only unfruitful branches are kept and nurtured."
+          ],
+          "correctAnswer": "God prunes fruitful branches to help them bear more fruit.",
+          "explanation": "John 15:2 explains that God purges or prunes branches that bear fruit so they may bring forth more fruit, indicating God's discipline is for growth, not punishment.",
+          "verseReference": "John 15:2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-15-medium-q3",
+          "question": "What assurance does John 15 give about prayer to those who abide in Christ and have His words abide in them?",
+          "type": "multiple-choice",
+          "options": [
+            "They may ask what they will, and it shall be done unto them.",
+            "They will only receive what they deserve.",
+            "They should pray only for their own needs.",
+            "Prayer is optional for those who abide in Christ."
+          ],
+          "correctAnswer": "They may ask what they will, and it shall be done unto them.",
+          "explanation": "John 15:7 promises that if believers abide in Christ and His words abide in them, their prayers will be answered according to God's will, showing the power of prayer rooted in relationship.",
+          "verseReference": "John 15:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-15-medium-q4",
+          "question": "How does John 15 connect bearing fruit with glorifying God and being recognized as Jesus' disciples?",
+          "type": "multiple-choice",
+          "options": [
+            "Bearing much fruit glorifies the Father and identifies us as His disciples.",
+            "Fruit-bearing is unrelated to glorifying God or discipleship.",
+            "Only spiritual gifts glorify God, not fruitfulness.",
+            "Discipleship is shown by knowledge, not fruit-bearing."
+          ],
+          "correctAnswer": "Bearing much fruit glorifies the Father and identifies us as His disciples.",
+          "explanation": "John 15:8 states that bearing much fruit glorifies God the Father and confirms that we are Jesus' disciples, emphasizing the importance of visible spiritual fruit.",
+          "verseReference": "John 15:8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-15-medium-q5",
+          "question": "A believer struggles to love others consistently. According to John 15, what commandment would you share to guide them?",
+          "type": "multiple-choice",
+          "options": [
+            "Love one another as I have loved you.",
+            "Love only those who love you.",
+            "Love is optional for discipleship.",
+            "Love is only for friends, not enemies."
+          ],
+          "correctAnswer": "Love one another as I have loved you.",
+          "explanation": "John 15:12 and 17 command believers to love each other just as Jesus loved them, making love the defining mark of Christian life and obedience.",
+          "verseReference": "John 15:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-15-medium-q6",
+          "question": "What is the greatest demonstration of love according to John 15?",
+          "type": "multiple-choice",
+          "options": [
+            "Laying down one's life for one's friends.",
+            "Giving generously to the poor.",
+            "Serving in the church.",
+            "Praying for others."
+          ],
+          "correctAnswer": "Laying down one's life for one's friends.",
+          "explanation": "John 15:13 teaches that the greatest love is shown by laying down one's life for friends, highlighting sacrificial love as the highest standard.",
+          "verseReference": "John 15:13",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-15-medium-q7",
+          "question": "How does John 15 describe the relationship between Jesus and His followers, contrasting it with servants?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus calls them friends because He has revealed the Father's will to them.",
+            "Jesus calls them servants because they must obey without understanding.",
+            "They are strangers to Jesus' plans.",
+            "They are merely servants without intimacy."
+          ],
+          "correctAnswer": "Jesus calls them friends because He has revealed the Father's will to them.",
+          "explanation": "John 15:15 explains that Jesus no longer calls believers servants but friends, because He has shared with them all that He has heard from the Father, indicating intimacy and revelation.",
+          "verseReference": "John 15:15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-15-medium-q8",
+          "question": "According to John 15, why does the world hate Jesus’ followers?",
+          "type": "multiple-choice",
+          "options": [
+            "Because they are not of the world, just as Jesus was chosen out of the world.",
+            "Because they have done evil deeds.",
+            "Because they seek worldly power.",
+            "Because they conform to the world's standards."
+          ],
+          "correctAnswer": "Because they are not of the world, just as Jesus was chosen out of the world.",
+          "explanation": "John 15:18-19 states that the world hates believers because they are not of the world, just as it hated Jesus, who was chosen out of the world by the Father.",
+          "verseReference": "John 15:18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-15-medium-q9",
+          "question": "What encouragement does John 15 offer about persecution to believers?",
+          "type": "multiple-choice",
+          "options": [
+            "If they persecuted Jesus, they will also persecute His followers.",
+            "Persecution means God has abandoned them.",
+            "Persecution is a sign of failure.",
+            "Believers will never face persecution."
+          ],
+          "correctAnswer": "If they persecuted Jesus, they will also persecute His followers.",
+          "explanation": "John 15:20 reminds believers that since Jesus was persecuted, His followers can expect similar treatment, encouraging endurance and faithfulness.",
+          "verseReference": "John 15:20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-15-medium-q10",
+          "question": "How does John 15 teach us about the origin and purpose of choosing believers?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus chose believers to go and bear fruit that remains.",
+            "Believers choose Jesus for their own benefit.",
+            "Believers are chosen for worldly success.",
+            "Choosing is based on human merit."
+          ],
+          "correctAnswer": "Jesus chose believers to go and bear fruit that remains.",
+          "explanation": "John 15:16 states that Jesus chose believers and appointed them to bear lasting fruit, emphasizing divine initiative and purpose in the Christian life.",
+          "verseReference": "John 15:16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-15-medium-q11",
+          "question": "A believer is struggling with joy in their spiritual walk. Based on John 15, what truth would encourage them?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus spoke these things so that His joy would remain in believers and their joy be full.",
+            "Joy comes only from material blessings.",
+            "Joy is unrelated to abiding in Jesus.",
+            "Joy depends on circumstances."
+          ],
+          "correctAnswer": "Jesus spoke these things so that His joy would remain in believers and their joy be full.",
+          "explanation": "John 15:11 shows that Jesus shared His teachings so believers might have His enduring and complete joy, encouraging them to abide in Him.",
+          "verseReference": "John 15:11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-15-medium-q12",
+          "question": "True or False: According to John 15, a branch that does not bear fruit is kept and cherished by the husbandman.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 15:2 and 6 explain that unfruitful branches are taken away and wither, then gathered and burned, indicating they are not kept but removed.",
+          "verseReference": "John 15:2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-15-medium-q13",
+          "question": "True or False: John 15 teaches that hatred toward believers is a new experience, not something Jesus also faced.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 15:18-20 clearly states that the world hated Jesus before it hated His followers, showing believers share in His experience of hatred.",
+          "verseReference": "John 15:18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-15-medium-q14",
+          "question": "Fill in the blank: John 15:1 states, \"I am the true ____, and my Father is the husbandman.\"",
+          "type": "fill-blank",
+          "options": [
+            "vine",
+            "branch",
+            "tree",
+            "root"
+          ],
+          "correctAnswer": "vine",
+          "explanation": "John 15:1 uses the metaphor of the vine to illustrate the relationship between Jesus, the Father, and believers, emphasizing spiritual connection and growth.",
+          "verseReference": "John 15:1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-15-medium-q15",
+          "question": "According to John 15, what is the condition for believers to abide in Jesus’ love?",
+          "type": "multiple-choice",
+          "options": [
+            "Keeping His commandments.",
+            "Performing miracles.",
+            "Attending religious services.",
+            "Accumulating wealth."
+          ],
+          "correctAnswer": "Keeping His commandments.",
+          "explanation": "John 15:10 teaches that abiding in Jesus’ love depends on obeying His commandments, just as He obeyed the Father to abide in His love.",
+          "verseReference": "John 15:10",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "john-15-quiz",
+      "tags": [
+        "john",
+        "chapter-15",
+        "john",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "john-15-hard",
+      "title": "John Chapter 15 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from John Chapter 15.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 15,
+      "questions": [
+        {
+          "id": "john-15-hard-q1",
+          "question": "In John 15:1, Jesus refers to Himself as the 'true vine.' What Old Testament imagery is He drawing upon to convey this metaphor?",
+          "type": "multiple-choice",
+          "options": [
+            "The vineyard imagery of Israel in Psalm 80",
+            "The burning bush in Exodus 3",
+            "The pillar of cloud and fire in Exodus 13",
+            "The manna in the wilderness in Exodus 16"
+          ],
+          "correctAnswer": "The vineyard imagery of Israel in Psalm 80",
+          "explanation": "John 15:1 uses the metaphor of the vine, which alludes to Old Testament passages such as Psalm 80:8-16 and Isaiah 5:1-7, where Israel is portrayed as a vineyard or vine cultivated by God.",
+          "verseReference": "John 15:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-hard-q2",
+          "question": "According to John 15:2, what is the purpose of God purging the fruitful branches?",
+          "type": "multiple-choice",
+          "options": [
+            "So that they may bring forth more fruit",
+            "To make the branches wither",
+            "To prepare the branches for harvest",
+            "To separate them from the vine"
+          ],
+          "correctAnswer": "So that they may bring forth more fruit",
+          "explanation": "John 15:2 explains that God prunes fruitful branches to increase their productivity, which is a metaphor for spiritual growth and sanctification.",
+          "verseReference": "John 15:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-hard-q3",
+          "question": "Fill in the blank from John 15:4: 'Abide in me, and I in you. As the branch cannot bear fruit of itself, except it abide in the ____; no more can ye, except ye abide in me.'",
+          "type": "multiple-choice",
+          "options": [
+            "vine",
+            "tree",
+            "root",
+            "branch"
+          ],
+          "correctAnswer": "vine",
+          "explanation": "The metaphor in John 15:4 centers on the vine and branches, emphasizing the necessity of remaining connected to Jesus, the true vine, to bear fruit.",
+          "verseReference": "John 15:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-hard-q4",
+          "question": "What does Jesus say in John 15:5 is impossible without abiding in Him?",
+          "type": "multiple-choice",
+          "options": [
+            "To bear fruit",
+            "To teach others",
+            "To perform miracles",
+            "To enter the kingdom of heaven"
+          ],
+          "correctAnswer": "To bear fruit",
+          "explanation": "John 15:5 states that without Jesus, the true vine, one cannot bear fruit, which symbolizes spiritual productivity and life.",
+          "verseReference": "John 15:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-hard-q5",
+          "question": "True or False: According to John 15:6, a branch that does not abide in the vine is gathered and used for building purposes.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 15:6 explains that branches not abiding in the vine are gathered and cast into the fire to be burned, symbolizing judgment, not building.",
+          "verseReference": "John 15:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-hard-q6",
+          "question": "According to John 15:7, what condition must be met for Jesus' followers' prayers to be answered?",
+          "type": "multiple-choice",
+          "options": [
+            "If ye abide in me, and my words abide in you",
+            "If ye fast and pray",
+            "If ye give offerings",
+            "If ye gather in His name"
+          ],
+          "correctAnswer": "If ye abide in me, and my words abide in you",
+          "explanation": "John 15:7 emphasizes the necessity of abiding in Jesus and His words remaining in believers as the condition for answered prayers.",
+          "verseReference": "John 15:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-hard-q7",
+          "question": "In John 15:8, what is glorified when believers bear much fruit?",
+          "type": "multiple-choice",
+          "options": [
+            "The Father",
+            "The Son",
+            "The Holy Spirit",
+            "The Church"
+          ],
+          "correctAnswer": "The Father",
+          "explanation": "John 15:8 clearly states that the Father is glorified when His disciples bear much fruit, indicating that productive discipleship honors God.",
+          "verseReference": "John 15:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-hard-q8",
+          "question": "What commandment does Jesus give in John 15:12 that reflects the central ethical teaching of the New Testament?",
+          "type": "multiple-choice",
+          "options": [
+            "That ye love one another, as I have loved you",
+            "That ye keep the Sabbath holy",
+            "That ye give alms secretly",
+            "That ye preach to all nations"
+          ],
+          "correctAnswer": "That ye love one another, as I have loved you",
+          "explanation": "John 15:12 commands love among believers, mirroring Jesus' own love, which is foundational throughout the New Testament ethics.",
+          "verseReference": "John 15:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-hard-q9",
+          "question": "John 15:13 speaks of the greatest love. How is this love described?",
+          "type": "multiple-choice",
+          "options": [
+            "Laying down one's life for friends",
+            "Feeding the hungry",
+            "Visiting the sick",
+            "Forgiving seventy times seven"
+          ],
+          "correctAnswer": "Laying down one's life for friends",
+          "explanation": "John 15:13 highlights self-sacrificial love as the highest form of love, prefiguring Jesus' own sacrifice on the cross.",
+          "verseReference": "John 15:13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-hard-q10",
+          "question": "According to John 15:15, why does Jesus call His disciples 'friends' instead of 'servants'?",
+          "type": "multiple-choice",
+          "options": [
+            "Because He has made known to them all things He heard from the Father",
+            "Because they have obeyed all His commands",
+            "Because they are part of the Jewish leadership",
+            "Because they are wealthy supporters"
+          ],
+          "correctAnswer": "Because He has made known to them all things He heard from the Father",
+          "explanation": "John 15:15 explains that Jesus elevates His disciples to friends by revealing divine truths to them, showing intimacy beyond mere servanthood.",
+          "verseReference": "John 15:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-hard-q11",
+          "question": "Who does Jesus say has chosen the disciples in John 15:16, and what is the purpose of this choosing?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus has chosen them to go and bring forth fruit",
+            "The disciples have chosen Jesus to lead them",
+            "The Father has chosen them to build the temple",
+            "The crowds have chosen them to be rulers"
+          ],
+          "correctAnswer": "Jesus has chosen them to go and bring forth fruit",
+          "explanation": "John 15:16 states Jesus chose His disciples so that they would bear lasting spiritual fruit, emphasizing divine initiative and mission.",
+          "verseReference": "John 15:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-hard-q12",
+          "question": "True or False: John 15:18 teaches that the world will love Jesus' followers because they are of the world.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 15:18 teaches the opposite: the world hates Jesus' followers because they are not of the world, reflecting the conflict between the kingdom of God and worldly values.",
+          "verseReference": "John 15:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-hard-q13",
+          "question": "What reason does John 15:21 give for the persecution of Jesus' followers?",
+          "type": "multiple-choice",
+          "options": [
+            "Because they know not Him that sent Jesus",
+            "Because they are wealthy",
+            "Because they refuse to pay taxes",
+            "Because they practice different customs"
+          ],
+          "correctAnswer": "Because they know not Him that sent Jesus",
+          "explanation": "John 15:21 explains followers are persecuted due to ignorance of God who sent Jesus, indicating spiritual blindness behind hostility.",
+          "verseReference": "John 15:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-hard-q14",
+          "question": "According to John 15:25, what Old Testament law is fulfilled by those who hate Jesus without cause?",
+          "type": "multiple-choice",
+          "options": [
+            "They hated me without a cause",
+            "An eye for an eye",
+            "Love your neighbor as yourself",
+            "The day of atonement"
+          ],
+          "correctAnswer": "They hated me without a cause",
+          "explanation": "John 15:25 cites Psalm 35:19 and 69:4, referencing the prophetic fulfillment of unjust hatred towards Jesus.",
+          "verseReference": "John 15:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-hard-q15",
+          "question": "What role does the 'Comforter' play according to John 15:26?",
+          "type": "multiple-choice",
+          "options": [
+            "The Spirit of truth who testifies of Jesus",
+            "A political leader who defends the disciples",
+            "A prophet who predicts the future",
+            "An angel who delivers messages"
+          ],
+          "correctAnswer": "The Spirit of truth who testifies of Jesus",
+          "explanation": "John 15:26 describes the Comforter (Holy Spirit) as the Spirit of truth sent from the Father to testify about Jesus, emphasizing the Spirit's revelatory role.",
+          "verseReference": "John 15:26",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "john-15-quiz",
+      "tags": [
+        "john",
+        "chapter-15",
+        "john",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "john-15-theological",
+      "title": "John Chapter 15 Quiz - Theological Level",
+      "description": "Deep biblical theology from John Chapter 15 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 15,
+      "questions": [
+        {
+          "id": "john-15-theological-q1",
+          "question": "In John 15:1, Jesus declares Himself as the true vine. What theological significance does this imagery carry regarding Christ's relationship to believers?",
+          "type": "multiple-choice",
+          "options": [
+            "Christ is the source of spiritual life and sustenance for believers",
+            "Christ is a distant ruler who commands from afar",
+            "Believers are independent from Christ for their spiritual growth",
+            "Christ is only a symbol without real power"
+          ],
+          "correctAnswer": "Christ is the source of spiritual life and sustenance for believers",
+          "explanation": "John 15:1 presents Jesus as the true vine, emphasizing that believers (branches) derive their spiritual life and fruitfulness from Him. This aligns with Scriptures like Isaiah 5:1-7 where Israel is depicted as a vine cared for by God, Psalm 80:8-16 where God is the vinedresser, and Hebrews 12:2 which calls Jesus the author and finisher of faith, indicating reliance on Him for spiritual vitality.",
+          "verseReference": "John 15:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-theological-q2",
+          "question": "According to John 15:2, what does the Father do to every branch that does not bear fruit?",
+          "type": "multiple-choice",
+          "options": [
+            "He taketh it away",
+            "He prunes it",
+            "He nourishes it",
+            "He ignores it"
+          ],
+          "correctAnswer": "He taketh it away",
+          "explanation": "John 15:2 clearly states that every branch not bearing fruit is taken away by the Father, symbolizing divine judgment upon unfruitfulness. This is consistent with Ezekiel 15:2-6 where unproductive wood is burned, Psalm 1:3 which contrasts fruitful and unfruitful lives, and Matthew 3:10 where unfruitful trees are cut down, highlighting God's holiness and requirement for fruitfulness.",
+          "verseReference": "John 15:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-theological-q3",
+          "question": "Fill in the blank: 'Abide in me, and I in you. As the branch cannot bear fruit of itself, except it abide in the _____; no more can ye, except ye abide in me.'",
+          "type": "multiple-choice",
+          "options": [
+            "vine",
+            "tree",
+            "root",
+            "trunk"
+          ],
+          "correctAnswer": "vine",
+          "explanation": "John 15:4 uses the vine and branch metaphor to teach that spiritual fruitfulness depends on abiding in Christ (the vine). This concept is echoed in Romans 11:17-24 where branches are grafted into the olive tree, Psalm 80:8-9 describing God as the vinedresser, and 1 Corinthians 3:6-7 emphasizing God’s role in growth.",
+          "verseReference": "John 15:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-theological-q4",
+          "question": "What does Jesus say about the ability to produce fruit apart from Him in John 15:5?",
+          "type": "multiple-choice",
+          "options": [
+            "Without me ye can do nothing",
+            "You can bear some fruit by your own effort",
+            "Fruitfulness is unrelated to abiding in Christ",
+            "Fruit comes from human wisdom"
+          ],
+          "correctAnswer": "Without me ye can do nothing",
+          "explanation": "John 15:5 teaches the absolute dependence on Christ for spiritual productivity. This is consistent with 2 Corinthians 3:5 which says our sufficiency is from God, Philippians 4:13 where strength comes through Christ, and Colossians 1:17 affirming Christ’s sustenance of all things.",
+          "verseReference": "John 15:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-theological-q5",
+          "question": "According to John 15:6, what happens to a man who does not abide in Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "He is cast forth, withered, gathered, and burned",
+            "He is forgiven and restored immediately",
+            "He remains fruitful despite separation",
+            "He is exalted by men"
+          ],
+          "correctAnswer": "He is cast forth, withered, gathered, and burned",
+          "explanation": "John 15:6 describes judgment on those who do not abide in Christ, symbolized by being cut off and burned. This aligns with Matthew 7:19 about trees that do not bear good fruit being cut down, Psalm 37:20 describing the fate of the wicked, and Malachi 4:1 which depicts unrepentant sinners burned like stubble.",
+          "verseReference": "John 15:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-theological-q6",
+          "question": "What promise is given in John 15:7 for those who abide in Jesus and His words abide in them?",
+          "type": "multiple-choice",
+          "options": [
+            "They shall ask what they will, and it shall be done unto them",
+            "They will never face trials",
+            "They will become wealthy",
+            "They will be free from sin"
+          ],
+          "correctAnswer": "They shall ask what they will, and it shall be done unto them",
+          "explanation": "John 15:7 promises answered prayer for those abiding in Christ and His word, emphasizing spiritual alignment with God's will. This is supported by 1 John 5:14-15 about confident prayer, Matthew 21:22 which links faith and answered prayer, and James 4:3 warning against selfish requests.",
+          "verseReference": "John 15:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-theological-q7",
+          "question": "How is the Father glorified according to John 15:8?",
+          "type": "multiple-choice",
+          "options": [
+            "By bearing much fruit",
+            "By performing miracles",
+            "By building great buildings",
+            "By winning arguments"
+          ],
+          "correctAnswer": "By bearing much fruit",
+          "explanation": "John 15:8 teaches that glorifying the Father occurs through disciples bearing fruit, which reflects Christ's life in them. This corresponds with Matthew 5:16 about letting your light shine, Ephesians 2:10 regarding good works prepared by God, and Psalm 92:12-14 describing the righteous bearing fruit.",
+          "verseReference": "John 15:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-theological-q8",
+          "question": "What commandment does Jesus give in John 15:12?",
+          "type": "multiple-choice",
+          "options": [
+            "Love one another as I have loved you",
+            "Keep the Sabbath holy",
+            "Offer sacrifices daily",
+            "Build a church"
+          ],
+          "correctAnswer": "Love one another as I have loved you",
+          "explanation": "John 15:12 commands love modeled on Christ’s sacrificial love. This reflects Leviticus 19:18’s call to love your neighbor, Romans 13:8-10 on love fulfilling the law, 1 John 4:7-12 emphasizing love as from God, and Matthew 22:37-40 summarizing the greatest commandments.",
+          "verseReference": "John 15:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-theological-q9",
+          "question": "According to John 15:13, what is the greatest form of love?",
+          "type": "multiple-choice",
+          "options": [
+            "Laying down one's life for friends",
+            "Giving gifts generously",
+            "Praying for others",
+            "Serving in the church"
+          ],
+          "correctAnswer": "Laying down one's life for friends",
+          "explanation": "John 15:13 states the greatest love is sacrificial death for friends, exemplified supremely by Christ. This is consistent with Romans 5:8 showing Christ’s love in dying for sinners, 1 John 3:16 on laying down life for brethren, and Ephesians 5:2 calling believers to walk in love as Christ did.",
+          "verseReference": "John 15:13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-theological-q10",
+          "question": "In John 15:15, why does Jesus call His disciples friends rather than servants?",
+          "type": "multiple-choice",
+          "options": [
+            "Because He has made known to them all things heard from the Father",
+            "Because they are paid servants",
+            "Because friends obey blindly",
+            "Because servants are equal to masters"
+          ],
+          "correctAnswer": "Because He has made known to them all things heard from the Father",
+          "explanation": "John 15:15 highlights the intimacy and revelation granted to disciples, making them friends rather than mere servants. This aligns with Exodus 33:11 describing Moses speaking to God face to face, James 2:23 calling Abraham God’s friend, and Hebrews 1:1-2 showing God’s final revelation in Christ to His friends.",
+          "verseReference": "John 15:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-theological-q11",
+          "question": "What does Jesus say about the origin of the disciples' choosing in John 15:16?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus chose them, not the other way around",
+            "They chose Jesus by their own will",
+            "They were randomly selected",
+            "The crowd voted for them"
+          ],
+          "correctAnswer": "Jesus chose them, not the other way around",
+          "explanation": "John 15:16 affirms divine election in the calling of disciples, emphasizing God's sovereign initiative. This corresponds with Ephesians 1:4-5 on God choosing believers before the world, Romans 8:29-30 on predestination, and John 6:44 where no one can come unless drawn by the Father.",
+          "verseReference": "John 15:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-theological-q12",
+          "question": "According to John 15:18, why does the world hate the disciples?",
+          "type": "multiple-choice",
+          "options": [
+            "Because it hated Jesus first",
+            "Because they are wealthy",
+            "Because they are politically powerful",
+            "Because they oppose government"
+          ],
+          "correctAnswer": "Because it hated Jesus first",
+          "explanation": "John 15:18 teaches that the hatred disciples face is a continuation of the world's hatred for Jesus. This is consistent with Psalm 69:4 predicting hatred without cause, 1 John 3:13 on hatred as evidence of spiritual death, and Matthew 10:22 about being hated for Jesus' name's sake.",
+          "verseReference": "John 15:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-theological-q13",
+          "question": "What warning does Jesus give in John 15:20 regarding persecution?",
+          "type": "multiple-choice",
+          "options": [
+            "If they persecuted Jesus, they will also persecute you",
+            "Persecution will never come to you",
+            "Only unbelievers will be persecuted",
+            "Persecution is a sign of failure"
+          ],
+          "correctAnswer": "If they persecuted Jesus, they will also persecute you",
+          "explanation": "John 15:20 warns disciples about suffering similar to Christ’s persecution, signifying faithfulness. This aligns with 2 Timothy 3:12 stating all who desire to live godly will suffer, Acts 14:22 encouraging perseverance through tribulation, and 1 Peter 4:12-16 about rejoicing in suffering for Christ.",
+          "verseReference": "John 15:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-theological-q14",
+          "question": "According to John 15:22, what is the consequence if Jesus had not come and spoken to the people?",
+          "type": "multiple-choice",
+          "options": [
+            "They would not have had sin",
+            "They would have been righteous",
+            "They would have been saved",
+            "They would have understood the law"
+          ],
+          "correctAnswer": "They would not have had sin",
+          "explanation": "John 15:22 explains that Christ’s coming brings accountability and awareness of sin. This corresponds with Romans 5:13 on sin not imputed without law, Hebrews 9:14 showing Christ’s blood dealing with sin, and John 3:19 describing light exposing sin.",
+          "verseReference": "John 15:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-15-theological-q15",
+          "question": "Who is the Comforter mentioned in John 15:26, and what is His role?",
+          "type": "multiple-choice",
+          "options": [
+            "The Spirit of truth who proceeds from the Father and testifies of Jesus",
+            "An angel sent to guide the disciples",
+            "A prophet who will come after Jesus",
+            "A human teacher appointed by Jesus"
+          ],
+          "correctAnswer": "The Spirit of truth who proceeds from the Father and testifies of Jesus",
+          "explanation": "John 15:26 identifies the Comforter as the Spirit of truth sent by the Father to testify about Jesus. This is consistent with John 14:26 describing the Holy Spirit teaching and reminding, Acts 1:8 on receiving power from the Spirit, and Romans 8:16 affirming the Spirit’s witness to believers.",
+          "verseReference": "John 15:26",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "john-15-quiz",
+      "tags": [
+        "john",
+        "chapter-15",
+        "john",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+    "prayers": [
+        {
+            "id": "p1",
+            "slug": "prayer-for-anxious-heart",
+            "category": "Peace",
+            "title": "A Prayer for an Anxious Heart",
+            "content": "Dear Lord, my heart is heavy with worry and my mind is racing with 'what-ifs.' I come to You now, laying these burdens at Your feet. Your Word says that Your peace surpasses all understanding. I ask for that peace to guard my heart and mind in Christ Jesus. Help me to trust in Your goodness and Your sovereignty over my situation. Replace my fear with Your perfect love. Amen.",
+            "scripture": "Philippians 4:6-7",
+            "tags": [
+                "Anxiety",
+                "Fear",
+                "Peace",
+                "Trust"
+            ]
+        },
+        {
+            "id": "p2",
+            "slug": "strength-in-the-storm",
+            "category": "Strength",
+            "title": "Strength in the Midst of the Storm",
+            "content": "Heavenly Father, I feel overwhelmed by the trials I am facing. The waters are rising and I feel my strength failing. But I know that You are my rock and my fortress. I ask for Your supernatural strength to carry me through this season. Remind me that when I am weak, then I am strong through Your power. Give me the endurance to keep my eyes fixed on You. Amen.",
+            "scripture": "Isaiah 41:10",
+            "tags": [
+                "Hardship",
+                "Strength",
+                "Trial",
+                "Endurance"
+            ]
+        },
+        {
+            "id": "p3",
+            "slug": "gratitude-for-daily-bread",
+            "category": "Gratitude",
+            "title": "Gratitude for Daily Provisions",
+            "content": "Lord, I stop today simply to say thank You. Thank You for the roof over my head, the food on my table, and the breath in my lungs. I often take these simple blessings for granted, but I recognize that every good and perfect gift comes from You. Help me to maintain a heart of thanksgiving in every circumstance, knowing that You are my faithful provider. Amen.",
+            "scripture": "Psalm 103:2",
+            "tags": [
+                "Thankfulness",
+                "Blessings",
+                "Gods Provision"
+            ]
+        },
+        {
+            "id": "p4",
+            "slug": "wisdom-for-difficult-decisions",
+            "category": "Wisdom",
+            "title": "Seeking Wisdom for Hard Decisions",
+            "content": "Father, I stand at a crossroads and I don't know which way to go. Your Word promises that if anyone lacks wisdom, they should ask of You. I am asking now. Clear away the confusion and the noise. Align my desires with Your will. Give me a spirit of discernment so that I may walk in the path You have prepared for me. Amen.",
+            "scripture": "James 1:5",
+            "tags": [
+                "Wisdom",
+                "Guidance",
+                "Decisions",
+                "Discernment"
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "name": "Peace",
+            "slug": "peace",
+            "description": "Prayers for mental clarity, calming anxiety, and resting in God.",
+            "icon": "SunIcon"
+        },
+        {
+            "name": "Strength",
+            "slug": "strength",
+            "description": "Finding power and endurance during life's greatest challenges.",
+            "icon": "ShieldCheckIcon"
+        },
+        {
+            "name": "Gratitude",
+            "slug": "gratitude",
+            "description": "Cultivating a heart of thankfulness for God's blessings.",
+            "icon": "SparklesIcon"
+        },
+        {
+            "name": "Wisdom",
+            "slug": "wisdom",
+            "description": "Seeking divine guidance and clarity for life's navigation.",
+            "icon": "BoltIcon"
+        }
+    ]
+}

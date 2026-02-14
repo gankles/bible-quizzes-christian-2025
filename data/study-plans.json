@@ -1,0 +1,92 @@
+{
+    "studyPlans": [
+        {
+            "id": "7-day-faith",
+            "slug": "7-day-faith",
+            "title": "7-Day Faith Journey",
+            "description": "Strengthen your faith through daily Scripture reading and reflection. Perfect for beginners seeking to deepen their relationship with God.",
+            "duration": 7,
+            "difficulty": "easy",
+            "topic": "faith",
+            "days": [
+                {
+                    "day": 1,
+                    "title": "What is Faith?",
+                    "readings": [
+                        "hebrews-11-1",
+                        "hebrews-11-6"
+                    ],
+                    "reflection": "Faith is the foundation of our relationship with God. It's not just believing that God exists, but trusting in His character and promises. Today, reflect on what faith means to you personally.",
+                    "questions": [
+                        "How would you define faith in your own words?",
+                        "What area of your life requires more faith right now?",
+                        "How can you demonstrate faith in God today?"
+                    ],
+                    "prayer": "Lord, increase my faith. Help me to trust You more deeply and to live out my faith in practical ways. Amen."
+                },
+                {
+                    "day": 2,
+                    "title": "Faith in Action",
+                    "readings": [
+                        "james-2-14",
+                        "james-2-17",
+                        "james-2-26"
+                    ],
+                    "reflection": "True faith is never passive. James reminds us that faith without works is dead. Our actions should reflect our beliefs. Consider how your daily choices demonstrate your faith.",
+                    "questions": [
+                        "What actions in your life demonstrate your faith?",
+                        "Are there areas where your actions don't align with your beliefs?",
+                        "What is one practical way you can put your faith into action today?"
+                    ],
+                    "prayer": "Father, help my faith to be active and alive. Show me opportunities to demonstrate Your love through my actions. Amen."
+                },
+                {
+                    "day": 3,
+                    "title": "Overcoming Doubt",
+                    "readings": [
+                        "mark-9-24",
+                        "matthew-14-31",
+                        "jude-1-22"
+                    ],
+                    "reflection": "Even the strongest believers experience doubt. The key is bringing our doubts to God honestly, like the father who cried, 'I believe; help my unbelief!' God is big enough to handle our questions.",
+                    "questions": [
+                        "What doubts or questions do you have about your faith?",
+                        "How have you seen God work despite your doubts?",
+                        "Who can you talk to about your spiritual questions?"
+                    ],
+                    "prayer": "Lord, I believe; help my unbelief. Meet me in my doubts and strengthen my trust in You. Amen."
+                }
+            ],
+            "downloads": {
+                "pdf": "/downloads/7-day-faith.pdf",
+                "epub": "/downloads/7-day-faith.epub"
+            }
+        },
+        {
+            "id": "30-day-prayer",
+            "slug": "30-day-prayer",
+            "title": "30-Day Prayer Challenge",
+            "description": "Transform your prayer life with this month-long journey through different aspects of prayer, from adoration to intercession.",
+            "duration": 30,
+            "difficulty": "medium",
+            "topic": "prayer",
+            "days": [
+                {
+                    "day": 1,
+                    "title": "The Power of Prayer",
+                    "readings": [
+                        "james-5-16",
+                        "1-thessalonians-5-17"
+                    ],
+                    "reflection": "Prayer is our direct line to God. It's not about perfect words but a sincere heart. Today, we begin by understanding that prayer is both a privilege and a powerful tool.",
+                    "questions": [
+                        "What does prayer mean to you?",
+                        "When do you find it easiest to pray?",
+                        "What obstacles keep you from praying regularly?"
+                    ],
+                    "prayer": "Father, teach me to pray. Help me to see prayer not as a duty but as a joy and privilege. Amen."
+                }
+            ]
+        }
+    ]
+}

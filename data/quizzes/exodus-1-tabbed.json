@@ -1,0 +1,1015 @@
+{
+  "id": "exodus-1-tabbed",
+  "title": "Exodus Chapter 1 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Exodus chapter 1 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "exodus-1-easy",
+      "title": "Exodus Chapter 1 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Exodus Chapter 1.",
+      "type": "chapter",
+      "book": "Exodus",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "exodus-1-easy-q1",
+          "question": "Who came into Egypt with Jacob according to Exodus 1:1?",
+          "type": "multiple-choice",
+          "options": [
+            "The children of Israel",
+            "The Egyptians",
+            "The Midwives",
+            "The Pharaoh's servants"
+          ],
+          "correctAnswer": "The children of Israel",
+          "explanation": "Exodus 1:1 states that the children of Israel came into Egypt with Jacob.",
+          "verseReference": "Exodus 1:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-1-easy-q2",
+          "question": "Which of these names is NOT listed among the children of Israel in Exodus 1:2-4?",
+          "type": "multiple-choice",
+          "options": [
+            "Reuben",
+            "Levi",
+            "Aaron",
+            "Benjamin"
+          ],
+          "correctAnswer": "Aaron",
+          "explanation": "Aaron is not listed among the sons of Jacob in Exodus 1:2-4; the names listed include Reuben, Levi, and Benjamin.",
+          "verseReference": "Exodus 1:2-4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-1-easy-q3",
+          "question": "How many souls came out of the loins of Jacob according to Exodus 1:5?",
+          "type": "multiple-choice",
+          "options": [
+            "Seventy",
+            "Twelve",
+            "One hundred",
+            "Forty"
+          ],
+          "correctAnswer": "Seventy",
+          "explanation": "Exodus 1:5 states that seventy souls came out of the loins of Jacob.",
+          "verseReference": "Exodus 1:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-1-easy-q4",
+          "question": "What happened to Joseph according to Exodus 1:6?",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Exodus 1:6 states that Joseph died, along with all his brethren and that generation.",
+          "verseReference": "Exodus 1:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-1-easy-q5",
+          "question": "What was the condition of the children of Israel in Egypt as described in Exodus 1:7?",
+          "type": "multiple-choice",
+          "options": [
+            "Fruitful and multiplied abundantly",
+            "Weak and few",
+            "Scattered and lost",
+            "Silent and oppressed"
+          ],
+          "correctAnswer": "Fruitful and multiplied abundantly",
+          "explanation": "Exodus 1:7 describes the children of Israel as fruitful, increased abundantly, multiplied, and waxed exceeding mighty.",
+          "verseReference": "Exodus 1:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-1-easy-q6",
+          "question": "True or False: The new king of Egypt knew Joseph according to Exodus 1:8.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Exodus 1:8 says that a new king arose who knew not Joseph.",
+          "verseReference": "Exodus 1:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-1-easy-q7",
+          "question": "What reason did the king of Egypt give for fearing the children of Israel in Exodus 1:9?",
+          "type": "multiple-choice",
+          "options": [
+            "They were more and mightier than us",
+            "They had many weapons",
+            "They had foreign allies",
+            "They were spies"
+          ],
+          "correctAnswer": "They were more and mightier than us",
+          "explanation": "Exodus 1:9 states the king's concern that the children of Israel were more and mightier than the Egyptians.",
+          "verseReference": "Exodus 1:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-1-easy-q8",
+          "question": "What did the Egyptians set over the children of Israel to afflict them according to Exodus 1:11?",
+          "type": "multiple-choice",
+          "options": [
+            "Taskmasters",
+            "Kings",
+            "Priests",
+            "Soldiers"
+          ],
+          "correctAnswer": "Taskmasters",
+          "explanation": "Exodus 1:11 says the Egyptians set taskmasters over them to afflict them with burdens.",
+          "verseReference": "Exodus 1:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-1-easy-q9",
+          "question": "What were the names of the treasure cities built by the children of Israel as mentioned in Exodus 1:11?",
+          "type": "multiple-choice",
+          "options": [
+            "Pithom and Raamses",
+            "Memphis and Thebes",
+            "Goshen and Zoan",
+            "Jericho and Ai"
+          ],
+          "correctAnswer": "Pithom and Raamses",
+          "explanation": "Exodus 1:11 states that the children of Israel built for Pharaoh the treasure cities Pithom and Raamses.",
+          "verseReference": "Exodus 1:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-1-easy-q10",
+          "question": "True or False: The harder the Egyptians made the bondage, the fewer the Israelites became according to Exodus 1:12.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Exodus 1:12 explains that the more the Israelites were afflicted, the more they multiplied and grew.",
+          "verseReference": "Exodus 1:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-1-easy-q11",
+          "question": "According to Exodus 1:15, what were the names of the Hebrew midwives?",
+          "type": "multiple-choice",
+          "options": [
+            "Shiphrah and Puah",
+            "Miriam and Deborah",
+            "Rachel and Leah",
+            "Hannah and Abigail"
+          ],
+          "correctAnswer": "Shiphrah and Puah",
+          "explanation": "Exodus 1:15 names the Hebrew midwives as Shiphrah and Puah.",
+          "verseReference": "Exodus 1:15",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-1-easy-q12",
+          "question": "What command did the king of Egypt give to the Hebrew midwives according to Exodus 1:16?",
+          "type": "multiple-choice",
+          "options": [
+            "Kill all the male children at birth",
+            "Save all children",
+            "Bring all children to Pharaoh",
+            "Teach the children Hebrew"
+          ],
+          "correctAnswer": "Kill all the male children at birth",
+          "explanation": "Exodus 1:16 records Pharaoh's order to kill the male Hebrew children when they were born.",
+          "verseReference": "Exodus 1:16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-1-easy-q13",
+          "question": "Why did the Hebrew midwives not obey Pharaoh's command according to Exodus 1:17?",
+          "type": "multiple-choice",
+          "options": [
+            "They feared God",
+            "They feared Pharaoh",
+            "They did not understand",
+            "They were bribed"
+          ],
+          "correctAnswer": "They feared God",
+          "explanation": "Exodus 1:17 states the midwives feared God and did not kill the male children as Pharaoh commanded.",
+          "verseReference": "Exodus 1:17",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-1-easy-q14",
+          "question": "How did the Hebrew midwives explain to Pharaoh that they did not kill the male children, according to Exodus 1:19?",
+          "type": "multiple-choice",
+          "options": [
+            "The Hebrew women are lively and deliver before the midwives arrive",
+            "They did not see any sons born",
+            "They feared Pharaoh's wrath",
+            "The children were hidden by the mothers"
+          ],
+          "correctAnswer": "The Hebrew women are lively and deliver before the midwives arrive",
+          "explanation": "Exodus 1:19 records the midwives' explanation that Hebrew women give birth quickly, before they can arrive.",
+          "verseReference": "Exodus 1:19",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-1-easy-q15",
+          "question": "Fill in the blank: According to Exodus 1:22, Pharaoh charged all his people, saying, 'Every son that is born ye shall _____ into the river.'",
+          "type": "fill-blank",
+          "options": [
+            "cast",
+            "hide",
+            "save",
+            "ignore"
+          ],
+          "correctAnswer": "cast",
+          "explanation": "Exodus 1:22 states that Pharaoh commanded every son born to be cast into the river.",
+          "verseReference": "Exodus 1:22",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "exodus-1-quiz",
+      "tags": [
+        "exodus",
+        "chapter-1",
+        "exodus",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "exodus-1-medium",
+      "title": "Exodus Chapter 1 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Exodus Chapter 1 to real-life situations.",
+      "type": "chapter",
+      "book": "Exodus",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "exodus-1-medium-q1",
+          "question": "A fellow believer is feeling overwhelmed by the challenges they face at work. Based on Exodus 1, what biblical truth about perseverance and multiplication through trials can you share?",
+          "type": "multiple-choice",
+          "options": [
+            "God blesses and increases His people even amid affliction",
+            "Trials are signs that God has abandoned us",
+            "Hard work never leads to growth",
+            "Oppression always stops God's plan"
+          ],
+          "correctAnswer": "God blesses and increases His people even amid affliction",
+          "explanation": "Exodus 1:7, 1:12, and 1:20 show that despite Israel's hardships and cruel oppression, they multiplied and became mighty because God blessed them.",
+          "verseReference": "Exodus 1:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-1-medium-q2",
+          "question": "How does Exodus 1 teach us about trusting God's sovereignty when circumstances look discouraging?",
+          "type": "multiple-choice",
+          "options": [
+            "God is in control and can use even difficult times to fulfill His promises",
+            "We should only trust God when life is easy",
+            "God is powerless during trials",
+            "We must rely solely on our own strength"
+          ],
+          "correctAnswer": "God is in control and can use even difficult times to fulfill His promises",
+          "explanation": "The Israelites grew strong despite oppression (Exodus 1:7, 1:12), indicating God's sovereign hand working through hardship (Exodus 1:20).",
+          "verseReference": "Exodus 1:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-1-medium-q3",
+          "question": "A believer is struggling to maintain honesty and integrity at work where there is pressure to compromise. What example from Exodus 1 encourages faithfulness in difficult service?",
+          "type": "multiple-choice",
+          "options": [
+            "The Israelites served with rigor but remained faithful and multiplied",
+            "They gave in to oppression without resistance",
+            "They abandoned their faith to avoid hardship",
+            "They stopped working to protest"
+          ],
+          "correctAnswer": "The Israelites served with rigor but remained faithful and multiplied",
+          "explanation": "Exodus 1:13-14 tells how the Israelites endured harsh labor but continued to grow, showing perseverance and integrity under pressure.",
+          "verseReference": "Exodus 1:14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-1-medium-q4",
+          "question": "How can Exodus 1 guide a believer in prayer when facing a seemingly hopeless situation?",
+          "type": "multiple-choice",
+          "options": [
+            "Pray with faith that God is working even when unseen",
+            "Give up praying if no immediate results appear",
+            "Only pray when circumstances are good",
+            "Rely on luck instead of prayer"
+          ],
+          "correctAnswer": "Pray with faith that God is working even when unseen",
+          "explanation": "Despite Pharaoh’s harsh decrees, God’s blessing on Israel continued (Exodus 1:20), encouraging believers to trust and pray persistently.",
+          "verseReference": "Exodus 1:20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-1-medium-q5",
+          "question": "What does the obedience of the Hebrew midwives in Exodus 1 teach about fearing God over human authority?",
+          "type": "multiple-choice",
+          "options": [
+            "Faithful obedience to God may require courageous resistance to ungodly commands",
+            "Human authority should always be obeyed without question",
+            "Fear of man is more important than fear of God",
+            "Obedience is irrelevant in difficult situations"
+          ],
+          "correctAnswer": "Faithful obedience to God may require courageous resistance to ungodly commands",
+          "explanation": "The midwives feared God and disobeyed Pharaoh’s order to kill Hebrew boys, showing obedience to God above human rulers (Exodus 1:15-17).",
+          "verseReference": "Exodus 1:17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-1-medium-q6",
+          "question": "A parent asks how Exodus 1 helps with parenting wisdom when facing societal pressures that contradict God's ways. What biblical principle would you share?",
+          "type": "multiple-choice",
+          "options": [
+            "Protect and nurture children according to God’s commands, even if it opposes society",
+            "Conform parenting to society’s demands",
+            "Ignore children’s spiritual needs",
+            "Avoid teaching children about God"
+          ],
+          "correctAnswer": "Protect and nurture children according to God’s commands, even if it opposes society",
+          "explanation": "The midwives saved the Hebrew boys despite the king’s order (Exodus 1:16-17), modeling protection of life and obedience to God’s moral law.",
+          "verseReference": "Exodus 1:16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-1-medium-q7",
+          "question": "How does the multiplication of Israel in Egypt despite adversity inspire believers in their witness and evangelism?",
+          "type": "multiple-choice",
+          "options": [
+            "God can grow His people and spread His kingdom even under hostile conditions",
+            "Evangelism is impossible under persecution",
+            "Growth depends only on favorable circumstances",
+            "Believers should hide their faith when threatened"
+          ],
+          "correctAnswer": "God can grow His people and spread His kingdom even under hostile conditions",
+          "explanation": "Exodus 1:7, 1:12, and 1:20 show that Israel multiplied mightily despite oppression, indicating God’s power to grow His people.",
+          "verseReference": "Exodus 1:20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-1-medium-q8",
+          "question": "True or False: The new king of Egypt remembered Joseph's contributions and treated the Israelites kindly.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Exodus 1:8 states the new king did not know Joseph and therefore oppressed the Israelites.",
+          "verseReference": "Exodus 1:8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-1-medium-q9",
+          "question": "True or False: The Israelites' growth caused fear in the Egyptians, leading to harsh treatment.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Exodus 1:9-10 explains the Egyptians feared Israel's increasing population and strength, prompting oppression.",
+          "verseReference": "Exodus 1:9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-1-medium-q10",
+          "question": "Fill in the blank: The king of Egypt commanded the Hebrew midwives to kill all _______ born to the Hebrew women.",
+          "type": "fill-in-the-blank",
+          "options": [
+            "sons",
+            "daughters",
+            "elders",
+            "servants"
+          ],
+          "correctAnswer": "sons",
+          "explanation": "Exodus 1:16 specifies that the midwives were told to kill the male children but let the daughters live.",
+          "verseReference": "Exodus 1:16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-1-medium-q11",
+          "question": "What lesson about humility and contentment can be drawn from the Israelites’ experience in Egypt as seen in Exodus 1?",
+          "type": "multiple-choice",
+          "options": [
+            "Endurance in humble circumstances leads to God's blessing and growth",
+            "Seeking status quickly is always rewarded",
+            "Pride protects from hardship",
+            "Contentment is irrelevant in trials"
+          ],
+          "correctAnswer": "Endurance in humble circumstances leads to God's blessing and growth",
+          "explanation": "Despite their lowly status and harsh labor (Exodus 1:13-14), the Israelites multiplied and became strong through God’s blessing (Exodus 1:7, 1:20).",
+          "verseReference": "Exodus 1:13",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-1-medium-q12",
+          "question": "How does Exodus 1 encourage believers to maintain a strong family life and faith legacy under pressure?",
+          "type": "multiple-choice",
+          "options": [
+            "Trust God to bless and multiply your family despite external hardships",
+            "Give up on family faith under persecution",
+            "Separate family from faith practice",
+            "Ignore God’s promises for your family"
+          ],
+          "correctAnswer": "Trust God to bless and multiply your family despite external hardships",
+          "explanation": "Exodus 1:5-7 shows Israel’s growth as God blessed Jacob’s descendants even in a foreign land under hardship.",
+          "verseReference": "Exodus 1:5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-1-medium-q13",
+          "question": "A believer is discouraged by opposition in their church service. How does Exodus 1 model faithful service amid opposition?",
+          "type": "multiple-choice",
+          "options": [
+            "Serve faithfully even when burdened and opposed, trusting God’s ultimate plan",
+            "Stop serving when faced with opposition",
+            "Serve only when appreciated",
+            "Seek to avoid all difficulties"
+          ],
+          "correctAnswer": "Serve faithfully even when burdened and opposed, trusting God’s ultimate plan",
+          "explanation": "Israelites were afflicted with harsh burdens but continued to serve and multiply (Exodus 1:11-14, 1:20), demonstrating faithful endurance.",
+          "verseReference": "Exodus 1:11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-1-medium-q14",
+          "question": "What does the king’s command to cast all newborn sons into the river teach about the value of obedience to God over worldly decrees?",
+          "type": "multiple-choice",
+          "options": [
+            "Obedience to God must come before obeying unjust human laws",
+            "All human laws must be obeyed regardless of morality",
+            "We should ignore God’s commands when pressured",
+            "Worldly decrees are always right"
+          ],
+          "correctAnswer": "Obedience to God must come before obeying unjust human laws",
+          "explanation": "Pharaoh’s cruel order to kill Hebrew boys (Exodus 1:22) was defied by the midwives who feared God (Exodus 1:17), showing obedience to divine law.",
+          "verseReference": "Exodus 1:22",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-1-medium-q15",
+          "question": "How does Exodus 1 illustrate God's reward for those who fear Him and act righteously?",
+          "type": "multiple-choice",
+          "options": [
+            "God dealt well with the midwives and gave them families",
+            "God punished those who feared Him",
+            "Fear of God leads to hardship only",
+            "Righteous acts are ignored by God"
+          ],
+          "correctAnswer": "God dealt well with the midwives and gave them families",
+          "explanation": "Exodus 1:20-21 describes how God blessed the midwives for their fear of Him by giving them households.",
+          "verseReference": "Exodus 1:21",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "exodus-1-quiz",
+      "tags": [
+        "exodus",
+        "chapter-1",
+        "exodus",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "exodus-1-hard",
+      "title": "Exodus Chapter 1 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Exodus Chapter 1.",
+      "type": "chapter",
+      "book": "Exodus",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "exodus-1-hard-q1",
+          "question": "How many sons of Jacob are named in Exodus 1, marking the foundation of the Israelite tribes?",
+          "type": "multiple-choice",
+          "options": [
+            "Twelve",
+            "Ten",
+            "Fourteen",
+            "Seven"
+          ],
+          "correctAnswer": "Twelve",
+          "explanation": "Exodus 1:2-4 lists twelve sons of Jacob, which form the basis for the twelve tribes of Israel.",
+          "verseReference": "Exodus 1:2-4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-hard-q2",
+          "question": "What is the significance of the number seventy mentioned in Exodus 1:5 in the broader biblical narrative?",
+          "type": "multiple-choice",
+          "options": [
+            "It represents the total number of Jacob's descendants who went to Egypt",
+            "It is the number of years Israelites spent in Egypt",
+            "It refers to the number of commandments given",
+            "It is the age of Joseph when he died"
+          ],
+          "correctAnswer": "It represents the total number of Jacob's descendants who went to Egypt",
+          "explanation": "Exodus 1:5 states seventy souls came out of Jacob's loins, aligning with the Genesis account of seventy family members going to Egypt, highlighting God's covenantal faithfulness.",
+          "verseReference": "Exodus 1:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-hard-q3",
+          "question": "What literary device is evident in the phrase 'fruitful, and increased abundantly, and multiplied, and waxed exceeding mighty' in Exodus 1:7?",
+          "type": "multiple-choice",
+          "options": [
+            "Parallelism",
+            "Chiasm",
+            "Alliteration",
+            "Metaphor"
+          ],
+          "correctAnswer": "Parallelism",
+          "explanation": "The phrase in Exodus 1:7 uses parallelism, a common Hebrew poetic device, to emphasize Israel's rapid growth in Egypt.",
+          "verseReference": "Exodus 1:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-hard-q4",
+          "question": "The 'new king over Egypt, which knew not Joseph' in Exodus 1:8 foreshadows what major theme in Exodus?",
+          "type": "multiple-choice",
+          "options": [
+            "Oppression of Israel and subsequent deliverance",
+            "Peaceful coexistence with Egypt",
+            "Israel's conquest of Egypt",
+            "Joseph's rise to power"
+          ],
+          "correctAnswer": "Oppression of Israel and subsequent deliverance",
+          "explanation": "Exodus 1:8 introduces a king unfamiliar with Joseph, setting the stage for Israel's oppression and God's deliverance, a central theme in Exodus.",
+          "verseReference": "Exodus 1:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-hard-q5",
+          "question": "Why did Pharaoh fear the Israelites according to Exodus 1:9-10, reflecting the historical context of ancient Near Eastern empires?",
+          "type": "multiple-choice",
+          "options": [
+            "Because they were numerous and might join enemies in war",
+            "Because they worshipped a foreign god",
+            "Because they controlled Egypt's wealth",
+            "Because they refused to build cities"
+          ],
+          "correctAnswer": "Because they were numerous and might join enemies in war",
+          "explanation": "Exodus 1:9-10 records Pharaoh's fear that Israel's numbers could threaten Egypt's security by siding with enemies during conflict, reflecting geopolitical concerns of ancient empires.",
+          "verseReference": "Exodus 1:9-10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-hard-q6",
+          "question": "What role did the 'taskmasters' serve as mentioned in Exodus 1:11, and how does this relate to ancient Egyptian labor practices?",
+          "type": "multiple-choice",
+          "options": [
+            "They oppressed Israelites with forced labor and built storage cities",
+            "They were military leaders protecting Egypt",
+            "They were religious officials",
+            "They served as scribes recording history"
+          ],
+          "correctAnswer": "They oppressed Israelites with forced labor and built storage cities",
+          "explanation": "Exodus 1:11 describes taskmasters enforcing harsh labor on Israelites to build cities like Pithom and Raamses, consistent with known Egyptian use of forced labor for monumental construction.",
+          "verseReference": "Exodus 1:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-hard-q7",
+          "question": "Despite harsh conditions, why did the Israelites continue to multiply according to Exodus 1:12, illustrating a theological theme in Scripture?",
+          "type": "multiple-choice",
+          "options": [
+            "God blessed and caused them to increase despite affliction",
+            "They escaped to other lands",
+            "They stopped working",
+            "They assimilated with Egyptians"
+          ],
+          "correctAnswer": "God blessed and caused them to increase despite affliction",
+          "explanation": "Exodus 1:12 reveals that even under oppression, Israel's growth continued, highlighting God's providential blessing over His chosen people despite adversity.",
+          "verseReference": "Exodus 1:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-hard-q8",
+          "question": "What was Pharaoh's specific command to the Hebrew midwives as recorded in Exodus 1:16, and how does this reflect cultural attitudes toward population control in ancient Egypt?",
+          "type": "multiple-choice",
+          "options": [
+            "Kill all newborn Hebrew boys, but save the girls",
+            "Kill all newborns regardless of gender",
+            "Save all children",
+            "Send all Hebrew children to Pharaoh"
+          ],
+          "correctAnswer": "Kill all newborn Hebrew boys, but save the girls",
+          "explanation": "Exodus 1:16 records Pharaoh's order to kill Hebrew male infants, reflecting an ancient practice of controlling populations perceived as threats.",
+          "verseReference": "Exodus 1:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-hard-q9",
+          "question": "How did the Hebrew midwives respond to Pharaoh's command in Exodus 1:17, and what does this reveal about their faith and fear of God?",
+          "type": "multiple-choice",
+          "options": [
+            "They disobeyed and saved the male children",
+            "They obeyed Pharaoh fully",
+            "They fled Egypt",
+            "They reported the children to Pharaoh"
+          ],
+          "correctAnswer": "They disobeyed and saved the male children",
+          "explanation": "Exodus 1:17 shows the midwives feared God more than Pharaoh, choosing to save Hebrew boys, demonstrating civil disobedience rooted in faith.",
+          "verseReference": "Exodus 1:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-hard-q10",
+          "question": "What reason did the midwives give Pharaoh for sparing the Hebrew male infants according to Exodus 1:19, and how does this exemplify wisdom in an oppressive context?",
+          "type": "multiple-choice",
+          "options": [
+            "Hebrew women give birth quickly before midwives arrive",
+            "They feared Pharaoh's wrath",
+            "They did not understand the order",
+            "They were bribed by the families"
+          ],
+          "correctAnswer": "Hebrew women give birth quickly before midwives arrive",
+          "explanation": "Exodus 1:19 records the midwives' explanation that Hebrew women deliver rapidly, justifying their inability to kill male infants and cleverly avoiding Pharaoh's wrath.",
+          "verseReference": "Exodus 1:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-hard-q11",
+          "question": "What reward did God bestow on the midwives for their faithfulness as described in Exodus 1:20-21?",
+          "type": "multiple-choice",
+          "options": [
+            "They were blessed with families and houses",
+            "They became rulers of Egypt",
+            "They were exiled",
+            "They were forgotten"
+          ],
+          "correctAnswer": "They were blessed with families and houses",
+          "explanation": "Exodus 1:20-21 states God dealt well with the midwives, allowing them to have families and established homes, recognizing their reverence and courage.",
+          "verseReference": "Exodus 1:20-21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-hard-q12",
+          "question": "What does Pharaoh's final decree in Exodus 1:22 symbolize in the larger biblical narrative?",
+          "type": "multiple-choice",
+          "options": [
+            "The intensification of Israelite persecution leading to deliverance",
+            "The end of Israel in Egypt",
+            "Peace between Egyptians and Israelites",
+            "The building of the temple"
+          ],
+          "correctAnswer": "The intensification of Israelite persecution leading to deliverance",
+          "explanation": "Exodus 1:22 shows Pharaoh ordering the drowning of Hebrew boys, escalating oppression that ultimately leads to God's intervention and Israel's salvation.",
+          "verseReference": "Exodus 1:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-hard-q13",
+          "question": "Which theme in Exodus 1 is foreshadowed by the Israelites' growth despite Egyptian oppression?",
+          "type": "multiple-choice",
+          "options": [
+            "God's faithfulness to His covenant promises",
+            "Egypt's total victory over Israel",
+            "Israel's assimilation",
+            "The end of God's covenant"
+          ],
+          "correctAnswer": "God's faithfulness to His covenant promises",
+          "explanation": "The multiplication of Israel in Exodus 1:7 and 12 foreshadows God's unbroken covenant with Abraham's descendants despite external threats.",
+          "verseReference": "Exodus 1:7,12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-hard-q14",
+          "question": "True or False: The names of the Hebrew midwives who defied Pharaoh's order are Shiphrah and Puah, illustrating individuals who acted on moral conviction.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Exodus 1:15 names the Hebrew midwives Shiphrah and Puah, who defied Pharaoh's commands, exemplifying courage and faith.",
+          "verseReference": "Exodus 1:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-hard-q15",
+          "question": "What typological significance does the survival of Hebrew male infants in Exodus 1 have for later biblical events?",
+          "type": "multiple-choice",
+          "options": [
+            "It prefigures the birth and preservation of Moses, Israel's deliverer",
+            "It signals the end of Israelite lineage",
+            "It represents Egypt's triumph",
+            "It indicates the failure of God's promise"
+          ],
+          "correctAnswer": "It prefigures the birth and preservation of Moses, Israel's deliverer",
+          "explanation": "The saving of Hebrew boys in Exodus 1 foreshadows Moses' birth and God's deliverance of Israel from Egypt, a key event in biblical history.",
+          "verseReference": "Exodus 1:17-22",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "exodus-1-quiz",
+      "tags": [
+        "exodus",
+        "chapter-1",
+        "exodus",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "exodus-1-theological",
+      "title": "Exodus Chapter 1 Quiz - Theological Level",
+      "description": "Deep biblical theology from Exodus Chapter 1 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Exodus",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "exodus-1-theological-q1",
+          "question": "According to Exodus 1:5, how many souls came out of the loins of Jacob to Egypt?",
+          "type": "multiple-choice",
+          "options": [
+            "Seventy souls",
+            "Sixty souls",
+            "Eighty souls",
+            "Ninety souls"
+          ],
+          "correctAnswer": "Seventy souls",
+          "explanation": "Exodus 1:5 states that seventy souls came out of Jacob's loins, excluding Joseph who was already in Egypt. This number symbolizes the fullness of Israel's family. Similarly, Genesis 46:27 confirms seventy members of Jacob's family came to Egypt. Acts 7:14 also references this number, affirming God's providential preservation of Israel.",
+          "verseReference": "Exodus 1:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-theological-q2",
+          "question": "What was the new king of Egypt's attitude toward Joseph as described in Exodus 1:8?",
+          "type": "multiple-choice",
+          "options": [
+            "He did not know Joseph",
+            "He honored Joseph's memory",
+            "He was Joseph's descendant",
+            "He sought Joseph's counsel"
+          ],
+          "correctAnswer": "He did not know Joseph",
+          "explanation": "Exodus 1:8 reveals that the new king 'knew not Joseph,' indicating a break in memory or respect for Joseph's contributions. This sets the stage for Israel's oppression. This theme of forgetting God's deliverance is echoed in Psalm 106:21 and Jeremiah 2:32, warning against spiritual amnesia.",
+          "verseReference": "Exodus 1:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-theological-q3",
+          "question": "In Exodus 1:10, what reason did Pharaoh give for wanting to deal wisely with the Israelites?",
+          "type": "multiple-choice",
+          "options": [
+            "They might join enemies in war",
+            "They were stealing food",
+            "They refused to work",
+            "They worshiped other gods"
+          ],
+          "correctAnswer": "They might join enemies in war",
+          "explanation": "Pharaoh feared that if war broke out, the Israelites would join Egypt's enemies (Exodus 1:10). This reflects a fear of Israel's growing power and potential disloyalty. This concern about allegiance in conflict is mirrored in Nehemiah 4:14 and Romans 13:1-4, which address loyalty to governing authorities.",
+          "verseReference": "Exodus 1:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-theological-q4",
+          "question": "What were the names of the two cities the Israelites built for Pharaoh as mentioned in Exodus 1:11?",
+          "type": "multiple-choice",
+          "options": [
+            "Pithom and Raamses",
+            "Jericho and Ai",
+            "Goshen and Zoan",
+            "Hebron and Shechem"
+          ],
+          "correctAnswer": "Pithom and Raamses",
+          "explanation": "Exodus 1:11 records that the Israelites built the treasure cities Pithom and Raamses for Pharaoh, signifying their forced labor under oppression. These cities symbolize the burden of slavery. This imagery of forced labor is echoed in Jeremiah 22:28 and 2 Chronicles 28:15, illustrating human suffering under unjust rule.",
+          "verseReference": "Exodus 1:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-theological-q5",
+          "question": "How did the Israelites respond to the increased affliction under Egyptian taskmasters according to Exodus 1:12?",
+          "type": "multiple-choice",
+          "options": [
+            "They multiplied and grew",
+            "They fled Egypt",
+            "They stopped working",
+            "They worshiped Egyptian gods"
+          ],
+          "correctAnswer": "They multiplied and grew",
+          "explanation": "Despite affliction, Exodus 1:12 says Israel multiplied and grew stronger, demonstrating God's sustaining power over human suffering. This divine blessing despite adversity is consistent with Genesis 12:2 and Psalm 127:3-5, showing God's faithfulness to His covenant people.",
+          "verseReference": "Exodus 1:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-theological-q6",
+          "question": "What does Exodus 1:15 reveal about the names of the Hebrew midwives who feared God?",
+          "type": "multiple-choice",
+          "options": [
+            "Shiphrah and Puah",
+            "Miriam and Deborah",
+            "Hannah and Abigail",
+            "Zipporah and Rahab"
+          ],
+          "correctAnswer": "Shiphrah and Puah",
+          "explanation": "Exodus 1:15 names the Hebrew midwives as Shiphrah and Puah, highlighting their courage and reverence for God. Their faithfulness contrasts with Pharaoh's cruelty. Their story parallels other faithful women in Scripture like Deborah (Judges 4:4-9) and Hannah (1 Samuel 1:20), who acted in obedience to God's purposes.",
+          "verseReference": "Exodus 1:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-theological-q7",
+          "question": "What command did Pharaoh give to the Hebrew midwives concerning newborn Hebrew boys in Exodus 1:16?",
+          "type": "multiple-choice",
+          "options": [
+            "Kill the male children at birth",
+            "Hide the male children",
+            "Bring the male children to Pharaoh",
+            "Raise the male children as Egyptians"
+          ],
+          "correctAnswer": "Kill the male children at birth",
+          "explanation": "Pharaoh commanded the midwives to kill male Hebrew infants (Exodus 1:16) as a strategy to control Israel's growth. This act of infanticide is a grave sin against God’s gift of life (Psalm 139:13-16, Jeremiah 1:5). The midwives’ refusal demonstrates obedience to God’s law over human commands (Acts 5:29).",
+          "verseReference": "Exodus 1:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-theological-q8",
+          "question": "Why did the Hebrew midwives not obey Pharaoh's command according to Exodus 1:17?",
+          "type": "multiple-choice",
+          "options": [
+            "They feared God",
+            "They feared Pharaoh",
+            "They did not understand the command",
+            "They favored the Egyptians"
+          ],
+          "correctAnswer": "They feared God",
+          "explanation": "Exodus 1:17 says the midwives feared God and did not kill the male children, showing the supremacy of divine authority over earthly rulers. Their fear of God aligns with Proverbs 1:7 and Ecclesiastes 12:13 as the beginning of wisdom and obedience. Their faithfulness prefigures New Testament calls to obey God rather than men (Acts 5:29).",
+          "verseReference": "Exodus 1:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-theological-q9",
+          "question": "What explanation did the midwives give Pharaoh for not killing the male children in Exodus 1:19?",
+          "type": "multiple-choice",
+          "options": [
+            "Hebrew women are vigorous and give birth before midwives arrive",
+            "They lost the male children",
+            "They were bribed by the Israelites",
+            "Pharaoh did not command them clearly"
+          ],
+          "correctAnswer": "Hebrew women are vigorous and give birth before midwives arrive",
+          "explanation": "The midwives claimed that Hebrew women were vigorous and delivered babies quickly, preventing them from killing the males (Exodus 1:19). This explanation is a wise evasion to protect life. This act of civil disobedience based on conscience aligns with Daniel 3:16-18, where faithfulness to God surpasses human orders.",
+          "verseReference": "Exodus 1:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-theological-q10",
+          "question": "What blessing did God give to the midwives because of their faithfulness according to Exodus 1:20-21?",
+          "type": "multiple-choice",
+          "options": [
+            "He dealt well with them and made them houses",
+            "He made them wealthy",
+            "He granted them long life",
+            "He gave them the land of Egypt"
+          ],
+          "correctAnswer": "He dealt well with them and made them houses",
+          "explanation": "God blessed the midwives by dealing well with them and giving them families (houses) as stated in Exodus 1:20-21. This reward for obedience reflects God's justice and faithfulness (Hebrews 11:33-34). It mirrors promises in Genesis 12:2 and Psalm 128:3-4 about God honoring those who fear Him.",
+          "verseReference": "Exodus 1:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-theological-q11",
+          "question": "What final decree did Pharaoh issue regarding Hebrew sons in Exodus 1:22?",
+          "type": "multiple-choice",
+          "options": [
+            "Every son born must be cast into the river",
+            "Every son must be enslaved",
+            "Every son must be hidden",
+            "Every son must be educated in Egypt",
+            "Every son born must be cast into the river"
+          ],
+          "correctAnswer": "Every son born must be cast into the river",
+          "explanation": "Exodus 1:22 records Pharaoh’s decree to cast every Hebrew male infant into the river, a direct attempt to annihilate Israel’s future. This act of mass infanticide violates God's sanctity of life (Genesis 9:6). The preservation of life later through Moses anticipates God’s salvation plan (Psalm 127:3, John 1:29).",
+          "verseReference": "Exodus 1:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-theological-q12",
+          "question": "Fill in the blank: 'The children of Israel were fruitful, and increased abundantly, and multiplied, and waxed ______ mighty; and the land was filled with them.'",
+          "type": "multiple-choice",
+          "options": [
+            "exceeding",
+            "somewhat",
+            "moderately",
+            "barely"
+          ],
+          "correctAnswer": "exceeding",
+          "explanation": "Exodus 1:7 says the children of Israel waxed 'exceeding mighty,' indicating God's blessing on their population growth despite oppression. This emphasizes God's providence in fulfilling His covenant promises (Genesis 17:6, Deuteronomy 7:13). The phrase also resonates with Luke 1:80, describing John the Baptist’s growth.",
+          "verseReference": "Exodus 1:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-theological-q13",
+          "question": "According to Exodus 1:14, how did the Egyptians make the lives of the Israelites bitter?",
+          "type": "multiple-choice",
+          "options": [
+            "With hard bondage in mortar, brick, and field work",
+            "By withholding food",
+            "By forcing them to worship idols",
+            "By banishing them from the cities"
+          ],
+          "correctAnswer": "With hard bondage in mortar, brick, and field work",
+          "explanation": "Exodus 1:14 describes the bitterness of Israel's bondage through harsh labor making mortar and bricks and field work. This suffering illustrates the reality of sin’s curse on humanity (Genesis 3:17-19) and God's promise of deliverance (Isaiah 42:6-7). It prefigures Christ’s mission to free captives (Luke 4:18).",
+          "verseReference": "Exodus 1:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-theological-q14",
+          "question": "Which of the following best describes the theological significance of the midwives' fear of God in Exodus 1:17?",
+          "type": "multiple-choice",
+          "options": [
+            "It represents submission to divine authority over human authority",
+            "It shows fear of punishment by Pharaoh",
+            "It highlights their ignorance of Pharaoh's power",
+            "It indicates their loyalty to Egypt"
+          ],
+          "correctAnswer": "It represents submission to divine authority over human authority",
+          "explanation": "The midwives' fear of God in Exodus 1:17 illustrates that obedience to God supersedes obedience to oppressive human rulers, a key doctrine in biblical ethics (Acts 5:29). Their faithfulness exemplifies the principle that God's moral law is supreme (Romans 13:1-7, Daniel 3:16-18).",
+          "verseReference": "Exodus 1:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-theological-q15",
+          "question": "What is the significance of the phrase 'which knew not Joseph' in Exodus 1:8 in the broader biblical narrative?",
+          "type": "multiple-choice",
+          "options": [
+            "It illustrates human forgetfulness of God's providence",
+            "It shows Joseph was unimportant",
+            "It indicates a peaceful transition of power",
+            "It means Joseph was still alive",
+            "It illustrates human forgetfulness of God's providence"
+          ],
+          "correctAnswer": "It illustrates human forgetfulness of God's providence",
+          "explanation": "Exodus 1:8's phrase 'which knew not Joseph' reveals how human history often forgets God's saving acts, leading to oppression. This theme of divine providence forgotten is echoed in Psalm 106:13-15 and Isaiah 63:7-9. It sets the stage for God's redemptive intervention in Exodus.",
+          "verseReference": "Exodus 1:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-theological-q16",
+          "question": "What does the growth and multiplication of Israel in Egypt (Exodus 1:7) teach about God's sovereignty over history?",
+          "type": "multiple-choice",
+          "options": [
+            "God sustains His covenant people despite adversity",
+            "Human effort alone ensures survival",
+            "Growth is a result of Egyptian tolerance",
+            "Israel prospered without God's involvement"
+          ],
+          "correctAnswer": "God sustains His covenant people despite adversity",
+          "explanation": "The multiplication of Israel in Exodus 1:7 demonstrates God's sovereign blessing and faithfulness to His covenant promises, even in hostile conditions. This aligns with God's promises in Genesis 15:5 and Psalm 105:37-38, showing divine control over history for salvation purposes (Romans 8:28).",
+          "verseReference": "Exodus 1:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-1-theological-q17",
+          "question": "Why is Pharaoh's command to cast Hebrew sons into the river (Exodus 1:22) significant in biblical theology?",
+          "type": "multiple-choice",
+          "options": [
+            "It represents human opposition to God's redemptive plan",
+            "It was a common practice among all nations",
+            "It reflects Pharaoh's mercy",
+            "It was ignored by all Egyptians"
+          ],
+          "correctAnswer": "It represents human opposition to God's redemptive plan",
+          "explanation": "Pharaoh's decree in Exodus 1:22 symbolizes rebellion against God's covenant and His plan to redeem Israel through a deliverer. This foreshadows Christ's salvation mission (Luke 2:1-20). Opposition to God's plan is a recurrent biblical theme (Genesis 3:15, Romans 5:18).",
+          "verseReference": "Exodus 1:22",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "exodus-1-quiz",
+      "tags": [
+        "exodus",
+        "chapter-1",
+        "exodus",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 17,
+      "estimatedTime": 25
+    }
+  }
+}

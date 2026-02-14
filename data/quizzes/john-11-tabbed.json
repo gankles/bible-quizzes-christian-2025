@@ -1,0 +1,983 @@
+{
+  "id": "john-11-tabbed",
+  "title": "John Chapter 11 Quiz - Multi-Level",
+  "description": "An enhanced quiz on John chapter 11 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "john-11-easy",
+      "title": "John Chapter 11 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of John Chapter 11.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 11,
+      "questions": [
+        {
+          "id": "john-11-easy-q1",
+          "question": "Who was the man that was sick in Bethany?",
+          "type": "multiple-choice",
+          "options": [
+            "Lazarus",
+            "Thomas",
+            "Caiaphas",
+            "Jesus"
+          ],
+          "correctAnswer": "Lazarus",
+          "explanation": "John 11:1 states that a certain man named Lazarus was sick in Bethany.",
+          "verseReference": "John 11:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-11-easy-q2",
+          "question": "Who anointed the Lord with ointment and wiped his feet with her hair?",
+          "type": "multiple-choice",
+          "options": [
+            "Mary",
+            "Martha",
+            "Mary Magdalene",
+            "Elizabeth"
+          ],
+          "correctAnswer": "Mary",
+          "explanation": "John 11:2 identifies Mary as the one who anointed the Lord and wiped His feet with her hair.",
+          "verseReference": "John 11:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-11-easy-q3",
+          "question": "What did Jesus say about Lazarus' sickness?",
+          "type": "multiple-choice",
+          "options": [
+            "This sickness is not unto death",
+            "He will recover soon",
+            "It is a punishment",
+            "He will be healed immediately"
+          ],
+          "correctAnswer": "This sickness is not unto death",
+          "explanation": "John 11:4 quotes Jesus saying the sickness is not unto death but for God’s glory.",
+          "verseReference": "John 11:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-11-easy-q4",
+          "question": "How many days did Jesus stay where he was after hearing Lazarus was sick?",
+          "type": "multiple-choice",
+          "options": [
+            "Two days",
+            "One day",
+            "Three days",
+            "Four days"
+          ],
+          "correctAnswer": "Two days",
+          "explanation": "John 11:6 states Jesus abode two days in the same place after hearing Lazarus was sick.",
+          "verseReference": "John 11:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-11-easy-q5",
+          "question": "What did Thomas say to the disciples about going to Judaea?",
+          "type": "multiple-choice",
+          "options": [
+            "Let us also go, that we may die with him",
+            "Let us wait until it is safe",
+            "Let us send a message first",
+            "Let us avoid danger"
+          ],
+          "correctAnswer": "Let us also go, that we may die with him",
+          "explanation": "John 11:16 records Thomas saying they should go that they may die with Jesus.",
+          "verseReference": "John 11:16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-11-easy-q6",
+          "question": "How many days had Lazarus been in the grave when Jesus arrived?",
+          "type": "multiple-choice",
+          "options": [
+            "Four days",
+            "Two days",
+            "One day",
+            "Three days"
+          ],
+          "correctAnswer": "Four days",
+          "explanation": "John 11:17 says Lazarus had lain in the grave four days when Jesus came.",
+          "verseReference": "John 11:17",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-11-easy-q7",
+          "question": "How far was Bethany from Jerusalem?",
+          "type": "multiple-choice",
+          "options": [
+            "About fifteen furlongs",
+            "About ten furlongs",
+            "About twenty furlongs",
+            "About five furlongs"
+          ],
+          "correctAnswer": "About fifteen furlongs",
+          "explanation": "John 11:18 states Bethany was about fifteen furlongs from Jerusalem.",
+          "verseReference": "John 11:18",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-11-easy-q8",
+          "question": "What did Martha say to Jesus when she heard he was coming?",
+          "type": "multiple-choice",
+          "options": [
+            "Lord, if thou hadst been here, my brother had not died",
+            "Come quickly to heal him",
+            "Please pray for him",
+            "He will rise soon"
+          ],
+          "correctAnswer": "Lord, if thou hadst been here, my brother had not died",
+          "explanation": "John 11:21 quotes Martha expressing that if Jesus had been there, her brother would not have died.",
+          "verseReference": "John 11:21",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-11-easy-q9",
+          "question": "What did Jesus say to Martha about himself?",
+          "type": "multiple-choice",
+          "options": [
+            "I am the resurrection, and the life",
+            "I am the way, the truth, and the life",
+            "I am the light of the world",
+            "I am the bread of life"
+          ],
+          "correctAnswer": "I am the resurrection, and the life",
+          "explanation": "John 11:25 quotes Jesus declaring He is the resurrection and the life.",
+          "verseReference": "John 11:25",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-11-easy-q10",
+          "question": "What did Jesus do when he saw Mary and the Jews weeping?",
+          "type": "multiple-choice",
+          "options": [
+            "He wept",
+            "He spoke a prayer",
+            "He immediately went to the tomb",
+            "He healed someone else"
+          ],
+          "correctAnswer": "He wept",
+          "explanation": "John 11:35 records that Jesus wept upon seeing their sorrow.",
+          "verseReference": "John 11:35",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-11-easy-q11",
+          "question": "What did Jesus command to be done with the stone at Lazarus’ tomb?",
+          "type": "multiple-choice",
+          "options": [
+            "Take ye away the stone",
+            "Seal the stone tightly",
+            "Move the stone a little",
+            "Leave the stone as it is"
+          ],
+          "correctAnswer": "Take ye away the stone",
+          "explanation": "John 11:39 shows Jesus telling them to remove the stone from Lazarus’ tomb.",
+          "verseReference": "John 11:39",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-11-easy-q12",
+          "question": "True or False: Jesus told the disciples that Lazarus was only sleeping, and not dead.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 11:11 shows Jesus saying Lazarus sleepeth, meaning he was dead but Jesus spoke figuratively.",
+          "verseReference": "John 11:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-11-easy-q13",
+          "question": "True or False: The Pharisees and chief priests decided to protect Jesus after the miracle of Lazarus.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 11:53 states that from that day they took counsel to put Jesus to death.",
+          "verseReference": "John 11:53",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-11-easy-q14",
+          "question": "True or False: Jesus openly walked among the Jews after raising Lazarus.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 11:54 states Jesus walked no more openly among the Jews after Lazarus was raised.",
+          "verseReference": "John 11:54",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-11-easy-q15",
+          "question": "Complete the verse from John 11:43: 'And when he thus had spoken, he cried with a loud voice, ________.'",
+          "type": "fill-blank",
+          "options": [
+            "Lazarus, come forth",
+            "Rise up and walk",
+            "Be healed now",
+            "Come to me"
+          ],
+          "correctAnswer": "Lazarus, come forth",
+          "explanation": "John 11:43 records Jesus calling Lazarus to come forth from the grave.",
+          "verseReference": "John 11:43",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "john-11-quiz",
+      "tags": [
+        "john",
+        "chapter-11",
+        "john",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "john-11-medium",
+      "title": "John Chapter 11 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from John Chapter 11 to real-life situations.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 11,
+      "questions": [
+        {
+          "id": "john-11-medium-q1",
+          "question": "A fellow believer is discouraged by the death of a loved one and doubts God's power. Based on John 11, what biblical truth would you share about faith and resurrection?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus is the resurrection and the life; whoever believes in Him will live even though they die.",
+            "Death is the final end, and there is no hope beyond it.",
+            "Faith is irrelevant when death occurs, as it cannot change the outcome.",
+            "Only those who never face death will be rewarded by God."
+          ],
+          "correctAnswer": "Jesus is the resurrection and the life; whoever believes in Him will live even though they die.",
+          "explanation": "John 11:25-26 teaches that Jesus is the resurrection and the life, promising eternal life to believers even after physical death. This encourages trust in God's power over death (John 11:23, John 11:27).",
+          "verseReference": "John 11:25",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-11-medium-q2",
+          "question": "How does Jesus' delay of two days before going to Lazarus teach us about trusting God's timing in trials?",
+          "type": "multiple-choice",
+          "options": [
+            "God's timing is perfect, even if it seems delayed to us.",
+            "Delays mean God is not concerned about our problems.",
+            "We should act immediately without waiting on God.",
+            "Trials always end quickly if we trust God."
+          ],
+          "correctAnswer": "God's timing is perfect, even if it seems delayed to us.",
+          "explanation": "John 11:6 shows Jesus stayed two days before going to Lazarus, indicating that God's timing serves a greater purpose for His glory and our faith (John 11:4, John 11:15).",
+          "verseReference": "John 11:6",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-11-medium-q3",
+          "question": "A believer is afraid to face opposition for their faith. Based on John 11, what encouragement can you give about walking in the light?",
+          "type": "multiple-choice",
+          "options": [
+            "Walking in the light prevents stumbling and fear of opposition.",
+            "Avoid all opposition by hiding your faith.",
+            "Opposition means you are not truly faithful.",
+            "Fear is a sign that God has abandoned you."
+          ],
+          "correctAnswer": "Walking in the light prevents stumbling and fear of opposition.",
+          "explanation": "John 11:9-10 teaches that walking in the light (living by God's truth) helps believers avoid stumbling, providing courage in the face of danger (John 11:7-8).",
+          "verseReference": "John 11:9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-11-medium-q4",
+          "question": "What does Jesus’ statement that Lazarus’ sickness is 'not unto death, but for the glory of God' teach about trials and God's purpose?",
+          "type": "multiple-choice",
+          "options": [
+            "God can use trials to glorify Himself and strengthen faith.",
+            "Trials occur because God is angry with us.",
+            "Sickness always leads to death without hope.",
+            "God does not care about human suffering."
+          ],
+          "correctAnswer": "God can use trials to glorify Himself and strengthen faith.",
+          "explanation": "John 11:4 explains that Lazarus’ illness had a divine purpose—to display God's glory and deepen belief in the Son of God (John 11:15, John 11:42).",
+          "verseReference": "John 11:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-11-medium-q5",
+          "question": "How does Jesus’ compassion in weeping at Lazarus’ death teach us about empathy and love in times of sorrow?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus shows that feeling sorrow and empathy is important in comforting others.",
+            "Showing emotion is a sign of weak faith.",
+            "We should avoid grief to appear strong.",
+            "Compassion is unnecessary because faith alone heals."
+          ],
+          "correctAnswer": "Jesus shows that feeling sorrow and empathy is important in comforting others.",
+          "explanation": "John 11:33-35 demonstrates Jesus’ deep compassion as He wept with those mourning, teaching the value of empathy in Christian love (John 11:36-37).",
+          "verseReference": "John 11:35",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-11-medium-q6",
+          "question": "When Martha said, 'Lord, if thou hadst been here, my brother had not died,' what biblical principle about faith and trust in God's presence can we learn?",
+          "type": "multiple-choice",
+          "options": [
+            "We grow in faith by trusting God's presence even when He seems distant.",
+            "God’s presence is only beneficial when we physically see Him.",
+            "Doubt shows a lack of faith and should be hidden.",
+            "God punishes us by withholding His presence."
+          ],
+          "correctAnswer": "We grow in faith by trusting God's presence even when He seems distant.",
+          "explanation": "John 11:21 shows Martha’s struggle, but Jesus later assures her of resurrection power, teaching us to trust God even when His presence isn’t immediately felt (John 11:23-26).",
+          "verseReference": "John 11:21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-11-medium-q7",
+          "question": "True or False: Jesus told His disciples that Lazarus was sleeping, and they understood that he was dead.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Jesus spoke of Lazarus 'sleeping' as a metaphor for death, but the disciples thought He meant natural sleep (John 11:11-13). Jesus then plainly stated Lazarus was dead (John 11:14).",
+          "verseReference": "John 11:11-14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-11-medium-q8",
+          "question": "How can the disciples’ reaction, 'Let us also go, that we may die with him,' teach us about loyalty and courage in Christian fellowship?",
+          "type": "multiple-choice",
+          "options": [
+            "True followers show loyalty and courage even in dangerous situations.",
+            "It is better to avoid all risks to keep safe.",
+            "Loyalty means agreeing with everything without question.",
+            "Fear should always stop us from following Jesus."
+          ],
+          "correctAnswer": "True followers show loyalty and courage even in dangerous situations.",
+          "explanation": "John 11:16 shows Thomas expressing willingness to face danger alongside Jesus, exemplifying faithful commitment and courage in fellowship (John 11:7-8).",
+          "verseReference": "John 11:16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-11-medium-q9",
+          "question": "What does the reaction of the Jews who said, 'Behold how he loved him!' teach about expressing love and compassion openly?",
+          "type": "multiple-choice",
+          "options": [
+            "Openly showing love and compassion is a powerful testimony of faith.",
+            "Showing emotions is a weakness in spiritual life.",
+            "Love should be hidden to avoid judgment.",
+            "Compassion is less important than strict rules."
+          ],
+          "correctAnswer": "Openly showing love and compassion is a powerful testimony of faith.",
+          "explanation": "John 11:36 highlights how Jesus’ public display of love and sorrow deeply moved others, showing that love is essential in Christian witness (John 11:33-35).",
+          "verseReference": "John 11:36",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-11-medium-q10",
+          "question": "After Lazarus was raised, many believed, but some reported to the Pharisees. What does this teach about obedience in sharing the Gospel despite opposition?",
+          "type": "multiple-choice",
+          "options": [
+            "Believers must faithfully witness even if others oppose or misunderstand.",
+            "It is better to keep faith private to avoid trouble.",
+            "Only those who never face opposition are true witnesses.",
+            "Opposition means the message is false."
+          ],
+          "correctAnswer": "Believers must faithfully witness even if others oppose or misunderstand.",
+          "explanation": "John 11:45-46 shows belief arising from Jesus’ miracle but also opposition, teaching perseverance in evangelism despite challenges (John 11:53).",
+          "verseReference": "John 11:45",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-11-medium-q11",
+          "question": "What does Jesus’ prayer thanking the Father before raising Lazarus teach about the role of prayer and dependence on God in ministry?",
+          "type": "multiple-choice",
+          "options": [
+            "Prayer acknowledges God’s power and invites His glory in our actions.",
+            "Prayer is unnecessary if we have enough faith.",
+            "We should act independently without seeking God’s guidance.",
+            "God’s will happens regardless of prayer."
+          ],
+          "correctAnswer": "Prayer acknowledges God’s power and invites His glory in our actions.",
+          "explanation": "John 11:41-42 shows Jesus praying to thank God, demonstrating reliance on God’s power and setting an example for prayerful ministry (John 11:4, John 11:43).",
+          "verseReference": "John 11:41",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-11-medium-q12",
+          "question": "True or False: Caiaphas unknowingly prophesied that Jesus would die for the nation and gather God’s scattered children together.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 11:49-52 records Caiaphas’ statement, which was a prophecy about Jesus’ sacrificial death and spiritual gathering, though Caiaphas did not realize its full meaning.",
+          "verseReference": "John 11:49-52",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-11-medium-q13",
+          "question": "When Martha expressed her belief that Lazarus would rise again at the last day, what does this teach us about hope in the resurrection and eternal life?",
+          "type": "multiple-choice",
+          "options": [
+            "Belief in the resurrection gives hope beyond present suffering.",
+            "Resurrection is only a metaphor and not literal.",
+            "Hope should be placed only in earthly life.",
+            "Eternal life is guaranteed without faith."
+          ],
+          "correctAnswer": "Belief in the resurrection gives hope beyond present suffering.",
+          "explanation": "John 11:24 shows Martha’s faith in resurrection, emphasizing Christian hope in life after death that sustains believers during trials (John 11:25-26).",
+          "verseReference": "John 11:24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-11-medium-q14",
+          "question": "A believer struggling with doubt is reminded by Jesus’ question, 'Believest thou this?' How does this encourage personal faith and confession?",
+          "type": "multiple-choice",
+          "options": [
+            "Faith must be personal and openly confessed to grow strong.",
+            "Doubt should be ignored and hidden.",
+            "Belief is unnecessary if you attend church.",
+            "Confession is only for spiritual leaders."
+          ],
+          "correctAnswer": "Faith must be personal and openly confessed to grow strong.",
+          "explanation": "John 11:26-27 shows Jesus inviting Martha to personally affirm faith, highlighting the importance of personal belief and confession in spiritual growth.",
+          "verseReference": "John 11:26",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-11-medium-q15",
+          "question": "Fill in the blank: Jesus said, 'If thou wouldest believe, thou shouldest see the _____ of God.'",
+          "type": "fill-blank",
+          "options": [
+            "power",
+            "glory",
+            "mercy",
+            "judgment"
+          ],
+          "correctAnswer": "glory",
+          "explanation": "John 11:40 records Jesus telling Martha that belief would lead her to witness the glory of God, emphasizing the connection between faith and seeing God's works.",
+          "verseReference": "John 11:40",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "john-11-quiz",
+      "tags": [
+        "john",
+        "chapter-11",
+        "john",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "john-11-hard",
+      "title": "John Chapter 11 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from John Chapter 11.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 11,
+      "questions": [
+        {
+          "id": "john-11-hard-q1",
+          "question": "In John 11, what is the significance of Jesus referring to Lazarus's death as 'sleep' before plainly stating he was dead?",
+          "type": "multiple-choice",
+          "options": [
+            "It foreshadows Lazarus's resurrection and symbolizes temporary death",
+            "It indicates Lazarus was only physically resting",
+            "It was a common euphemism to avoid mourning",
+            "It shows Jesus's uncertainty about Lazarus's condition"
+          ],
+          "correctAnswer": "It foreshadows Lazarus's resurrection and symbolizes temporary death",
+          "explanation": "In John 11:11-14, Jesus uses 'sleep' as a metaphor for death, indicating the temporary nature of Lazarus's death and foreshadowing his resurrection.",
+          "verseReference": "John 11:11-14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-hard-q2",
+          "question": "What theological claim does Jesus make in John 11:25 that connects to Old Testament themes of resurrection and life?",
+          "type": "multiple-choice",
+          "options": [
+            "I am the resurrection and the life",
+            "The Lord is my shepherd",
+            "I am the bread of life",
+            "Blessed are the meek"
+          ],
+          "correctAnswer": "I am the resurrection and the life",
+          "explanation": "In John 11:25, Jesus explicitly claims to be the source of resurrection and life, echoing Old Testament hopes found in passages like Ezekiel 37 about God's power over death.",
+          "verseReference": "John 11:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-hard-q3",
+          "question": "How does the response of Martha in John 11:24 demonstrate Jewish eschatological belief of the time?",
+          "type": "multiple-choice",
+          "options": [
+            "She affirms belief in the resurrection at the last day",
+            "She denies any resurrection",
+            "She expects immediate resurrection",
+            "She believes only prophets rise again"
+          ],
+          "correctAnswer": "She affirms belief in the resurrection at the last day",
+          "explanation": "John 11:24 shows Martha's belief in a future resurrection at the last day, reflecting contemporary Pharisaic eschatology as in Daniel 12:2.",
+          "verseReference": "John 11:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-hard-q4",
+          "question": "What is the cultural significance of Mary anointing Jesus with ointment and wiping his feet with her hair as mentioned in John 11:2?",
+          "type": "multiple-choice",
+          "options": [
+            "It was an act of humble devotion and honor in ancient Jewish culture",
+            "It was a common greeting among friends",
+            "It symbolized a marital betrothal",
+            "It was a ritual for cleansing sins"
+          ],
+          "correctAnswer": "It was an act of humble devotion and honor in ancient Jewish culture",
+          "explanation": "John 11:2 references anointing and hair-wiping as gestures of deep reverence and hospitality, demonstrating Mary’s profound respect for Jesus.",
+          "verseReference": "John 11:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-hard-q5",
+          "question": "In John 11:9-10, Jesus uses the analogy of walking in the day versus walking at night. What does this metaphor primarily illustrate?",
+          "type": "multiple-choice",
+          "options": [
+            "Walking in spiritual truth versus spiritual darkness",
+            "The difference between daytime and nighttime travel safety",
+            "The Jewish calendar's division of hours",
+            "The physical dangers of Judean roads"
+          ],
+          "correctAnswer": "Walking in spiritual truth versus spiritual darkness",
+          "explanation": "Jesus uses the metaphor in John 11:9-10 to contrast living in the knowledge and light of God with stumbling in ignorance and spiritual darkness.",
+          "verseReference": "John 11:9-10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-hard-q6",
+          "question": "What is the significance of Jesus weeping in John 11:35, especially in the context of ancient Jewish views on mourning?",
+          "type": "multiple-choice",
+          "options": [
+            "It reveals Jesus’ genuine compassion and shared grief",
+            "It shows Jesus doubting his power",
+            "It violates Jewish customs of stoicism",
+            "It reflects confusion about Lazarus's death"
+          ],
+          "correctAnswer": "It reveals Jesus’ genuine compassion and shared grief",
+          "explanation": "Jesus weeping (John 11:35) demonstrates deep empathy, aligning with Jewish traditions of mourning and highlighting his human nature.",
+          "verseReference": "John 11:35",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-hard-q7",
+          "question": "In John 11:17, the text notes Lazarus had been in the grave four days. What is the theological or symbolic importance of this detail?",
+          "type": "multiple-choice",
+          "options": [
+            "It underscores the certainty of death, heightening the miracle of resurrection",
+            "It is a common burial period in Jewish culture",
+            "It represents a prophetic number in Hebrew numerology",
+            "It shows Jesus’s delay was accidental"
+          ],
+          "correctAnswer": "It underscores the certainty of death, heightening the miracle of resurrection",
+          "explanation": "Mentioning four days (John 11:17) emphasizes Lazarus's actual death, enhancing the miracle’s impact and foreshadowing Jesus’s own resurrection.",
+          "verseReference": "John 11:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-hard-q8",
+          "question": "How does the reaction of the Jews who witnessed Lazarus’s resurrection (John 11:45-46) illustrate early division over Jesus’ ministry?",
+          "type": "multiple-choice",
+          "options": [
+            "Some believed, while others reported to the Pharisees to oppose him",
+            "All immediately accepted Jesus as Messiah",
+            "They ignored the miracle entirely",
+            "They celebrated with a public festival"
+          ],
+          "correctAnswer": "Some believed, while others reported to the Pharisees to oppose him",
+          "explanation": "John 11:45-46 records mixed reactions, showing both belief and opposition, which highlights the growing tension leading to Jesus’s death.",
+          "verseReference": "John 11:45-46",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-hard-q9",
+          "question": "What role does Caiaphas’s prophecy in John 11:49-52 play in the narrative’s theological development?",
+          "type": "multiple-choice",
+          "options": [
+            "It foreshadows Jesus’s sacrificial death for the nation and scattered children of God",
+            "It predicts the destruction of Jerusalem",
+            "It condemns Jesus as a false prophet",
+            "It announces a new political kingdom"
+          ],
+          "correctAnswer": "It foreshadows Jesus’s sacrificial death for the nation and scattered children of God",
+          "explanation": "John 11:49-52 reveals Caiaphas’s unwitting prophecy that Jesus would die to save Israel and gather God’s people, linking Jesus’s death with salvation.",
+          "verseReference": "John 11:49-52",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-hard-q10",
+          "question": "Why does Jesus delay going to Lazarus despite knowing of his sickness, as per John 11:6, and how does this delay function in the narrative?",
+          "type": "multiple-choice",
+          "options": [
+            "To demonstrate that the event will glorify God and strengthen faith",
+            "Because he was afraid of the Jews",
+            "He did not receive the message immediately",
+            "He was healing others first"
+          ],
+          "correctAnswer": "To demonstrate that the event will glorify God and strengthen faith",
+          "explanation": "John 11:4,6 explains the delay was purposeful so that Jesus’s glory would be revealed and disciples’ faith increased.",
+          "verseReference": "John 11:4,6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-hard-q11",
+          "question": "How does Thomas’s statement in John 11:16 reflect the disciples' understanding of the danger involved in following Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "He acknowledges their willingness to die with Jesus, showing loyalty despite danger",
+            "He encourages them to avoid danger at all costs",
+            "He doubts Jesus’s power to heal",
+            "He wants to flee secretly"
+          ],
+          "correctAnswer": "He acknowledges their willingness to die with Jesus, showing loyalty despite danger",
+          "explanation": "Thomas’s willingness to die with Jesus (John 11:16) reveals the disciples’ commitment and understanding of the risks amid Jewish hostility.",
+          "verseReference": "John 11:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-hard-q12",
+          "question": "What does the removal of the stone from Lazarus’s tomb in John 11:39 symbolize in the broader biblical context?",
+          "type": "multiple-choice",
+          "options": [
+            "The removal of barriers to life and the forthcoming divine miracle",
+            "The opening of a new covenant",
+            "The end of Jewish burial customs",
+            "A symbol of mourning concluded"
+          ],
+          "correctAnswer": "The removal of barriers to life and the forthcoming divine miracle",
+          "explanation": "Removing the stone (John 11:39) symbolizes the breaking of death’s hold and anticipates the resurrection, a common biblical motif.",
+          "verseReference": "John 11:39",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-hard-q13",
+          "question": "Which of the following best explains the intertextual connection between Jesus calling Lazarus forth and Old Testament resurrection motifs?",
+          "type": "multiple-choice",
+          "options": [
+            "It echoes God’s command to bring life from death as in Ezekiel 37's valley of dry bones",
+            "It parallels Elijah’s ascension to heaven",
+            "It imitates Moses’s staff miracles",
+            "It references Solomon’s wisdom"
+          ],
+          "correctAnswer": "It echoes God’s command to bring life from death as in Ezekiel 37's valley of dry bones",
+          "explanation": "Jesus’s call in John 11:43 parallels God’s life-giving power in Ezekiel 37, symbolizing restoration and resurrection.",
+          "verseReference": "John 11:43",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-hard-q14",
+          "question": "True or False: According to John 11, Jesus walked openly among the Jews after Lazarus’s resurrection without fear.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 11:54 states Jesus ceased walking openly among the Jews after Lazarus’s resurrection due to increased danger.",
+          "verseReference": "John 11:54",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-hard-q15",
+          "question": "How does the author of John use the story of Lazarus to develop the theme of belief in Jesus as the Son of God?",
+          "type": "multiple-choice",
+          "options": [
+            "By presenting a miraculous resurrection that leads many to believe in Him",
+            "By showing Jesus’s political power",
+            "By focusing on Jesus’s teachings only",
+            "By emphasizing the disciples’ confusion"
+          ],
+          "correctAnswer": "By presenting a miraculous resurrection that leads many to believe in Him",
+          "explanation": "John 11:45 shows that many Jews believed after witnessing Lazarus’s resurrection, reinforcing the theme of belief in Jesus’s divine identity.",
+          "verseReference": "John 11:45",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "john-11-quiz",
+      "tags": [
+        "john",
+        "chapter-11",
+        "john",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "john-11-theological",
+      "title": "John Chapter 11 Quiz - Theological Level",
+      "description": "Deep biblical theology from John Chapter 11 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 11,
+      "questions": [
+        {
+          "id": "john-11-theological-q1",
+          "question": "What theological truth does Jesus convey when He says, 'I am the resurrection, and the life'?",
+          "type": "multiple-choice",
+          "options": [
+            "He declares that belief in Him grants eternal life beyond physical death",
+            "He states that resurrection is only a future hope at the last day",
+            "He teaches that resurrection depends on human works",
+            "He denies physical resurrection"
+          ],
+          "correctAnswer": "He declares that belief in Him grants eternal life beyond physical death",
+          "explanation": "John 11:25-26 shows Jesus affirming that belief in Him overcomes death itself, promising eternal life. This aligns with earlier Old Testament promises of resurrection (Daniel 12:2), the hope of eternal life in Isaiah 26:19, and Paul's teaching in 1 Corinthians 15:20-22 about Christ as the firstfruits of resurrection.",
+          "verseReference": "John 11:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-theological-q2",
+          "question": "How does Jesus describe the purpose of Lazarus' sickness?",
+          "type": "multiple-choice",
+          "options": [
+            "It is not unto death but for the glory of God",
+            "It is a punishment for sin",
+            "It is a random occurrence",
+            "It is to test the faith of Lazarus alone"
+          ],
+          "correctAnswer": "It is not unto death but for the glory of God",
+          "explanation": "John 11:4 states Jesus said the sickness was to glorify God through the Son. This reflects the biblical theme that suffering can serve God's redemptive purposes (Romans 8:28, John 9:3). It highlights God's sovereignty over illness and death (Psalm 103:3).",
+          "verseReference": "John 11:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-theological-q3",
+          "question": "What does Jesus mean when He tells His disciples Lazarus 'sleepeth'?",
+          "type": "multiple-choice",
+          "options": [
+            "He uses 'sleep' as a metaphor for death",
+            "He means Lazarus is resting temporarily",
+            "He refers to Lazarus being unconscious",
+            "He means Lazarus is in a coma"
+          ],
+          "correctAnswer": "He uses 'sleep' as a metaphor for death",
+          "explanation": "John 11:11-13 clarifies Jesus spoke of Lazarus' death as sleep, a common biblical metaphor for death (1 Thessalonians 4:13-14, Daniel 12:2). This metaphor emphasizes the temporary nature of death for believers and the hope of resurrection.",
+          "verseReference": "John 11:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-theological-q4",
+          "question": "Why did Jesus delay going to Bethany after hearing Lazarus was sick?",
+          "type": "multiple-choice",
+          "options": [
+            "So that the glory of God would be revealed through Lazarus’ resurrection",
+            "Because He was afraid to go",
+            "Because He did not love Lazarus",
+            "To avoid confrontation with the Jews"
+          ],
+          "correctAnswer": "So that the glory of God would be revealed through Lazarus’ resurrection",
+          "explanation": "John 11:6 and 11:15 show Jesus stayed two more days so Lazarus would die, allowing a greater miracle to glorify God. This fits with God's timing theme in Scripture (Ecclesiastes 3:1, Galatians 4:4) and Christ’s mission to glorify the Father (John 17:1).",
+          "verseReference": "John 11:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-theological-q5",
+          "question": "What is the significance of Lazarus being dead four days before Jesus arrived?",
+          "type": "multiple-choice",
+          "options": [
+            "It emphasizes the reality and finality of death before resurrection",
+            "It shows Jesus' lack of urgency",
+            "It means Lazarus was not truly dead",
+            "It was to test Martha and Mary’s faith"
+          ],
+          "correctAnswer": "It emphasizes the reality and finality of death before resurrection",
+          "explanation": "John 11:17 and 39 mention Lazarus had been dead four days, reinforcing the certainty of death and magnifying the miracle of resurrection. This confirms that Jesus has power over real death, consistent with Old Testament resurrection accounts (2 Kings 4:32-37) and Pauline theology (Romans 6:9).",
+          "verseReference": "John 11:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-theological-q6",
+          "question": "How does Martha express her faith amidst grief?",
+          "type": "multiple-choice",
+          "options": [
+            "She acknowledges the resurrection at the last day and believes Jesus is the Christ",
+            "She denies any hope beyond death",
+            "She blames Jesus for not coming sooner",
+            "She asks for immediate healing instead of resurrection"
+          ],
+          "correctAnswer": "She acknowledges the resurrection at the last day and believes Jesus is the Christ",
+          "explanation": "John 11:24-27 shows Martha’s confession of faith in resurrection and in Jesus as the Messiah, revealing the early Christian belief in bodily resurrection and Christ’s identity (Isaiah 53, Psalm 16:10). This affirms core Christian doctrines of eschatology and Christology.",
+          "verseReference": "John 11:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-theological-q7",
+          "question": "What does Jesus’ weeping near Lazarus’ tomb reveal about His nature?",
+          "type": "multiple-choice",
+          "options": [
+            "His genuine compassion and full humanity",
+            "His weakness in the face of death",
+            "His uncertainty about raising Lazarus",
+            "His anger at the Jews"
+          ],
+          "correctAnswer": "His genuine compassion and full humanity",
+          "explanation": "John 11:35 and surrounding verses show Jesus weeping, demonstrating His empathy and sorrow. This supports the doctrine of the incarnation, that Jesus is fully God and fully man (Hebrews 4:15, Philippians 2:6-8) and reveals God’s love for humanity (Psalm 34:18).",
+          "verseReference": "John 11:35",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-theological-q8",
+          "question": "What was the reaction of the Jewish leaders to the raising of Lazarus?",
+          "type": "multiple-choice",
+          "options": [
+            "They plotted to kill Jesus fearing Roman intervention",
+            "They welcomed Jesus as Messiah",
+            "They ignored the miracle",
+            "They asked Jesus to perform more miracles"
+          ],
+          "correctAnswer": "They plotted to kill Jesus fearing Roman intervention",
+          "explanation": "John 11:47-53 records the chief priests and Pharisees’ council to kill Jesus because His miracles threatened their control and the nation’s status under Rome. This fulfills prophetic warnings of opposition to Messiah (Psalm 2:1-3, Isaiah 53:3, John 15:18-20).",
+          "verseReference": "John 11:47",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-theological-q9",
+          "question": "How does Caiaphas’ statement reveal divine providence?",
+          "type": "multiple-choice",
+          "options": [
+            "He unknowingly prophesied Jesus' sacrificial death for the people",
+            "He planned Jesus' death for political reasons",
+            "He denied Jesus' significance",
+            "He sought to protect Jesus"
+          ],
+          "correctAnswer": "He unknowingly prophesied Jesus' sacrificial death for the people",
+          "explanation": "John 11:49-51 shows Caiaphas, though intending political strategy, prophesied Jesus would die for the nation, demonstrating God's sovereign use of human actions to fulfill salvation (Acts 2:23, Isaiah 53:10, Genesis 50:20).",
+          "verseReference": "John 11:50",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-theological-q10",
+          "question": "What does Jesus’ act of praying aloud before raising Lazarus demonstrate?",
+          "type": "multiple-choice",
+          "options": [
+            "His relationship and dependence on the Father, and to manifest divine authority",
+            "His doubt about the resurrection",
+            "His desire for human applause",
+            "His need for encouragement from the crowd"
+          ],
+          "correctAnswer": "His relationship and dependence on the Father, and to manifest divine authority",
+          "explanation": "John 11:41-42 shows Jesus thanking the Father publicly, underscoring the unity in the Trinity and His role as the Son sent by God (John 5:19, Hebrews 1:3). This prayer also serves an apologetic function, revealing divine power to eyewitnesses.",
+          "verseReference": "John 11:41",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-theological-q11",
+          "question": "What doctrinal truth is revealed by Lazarus coming forth bound in graveclothes?",
+          "type": "multiple-choice",
+          "options": [
+            "The reality of bodily resurrection and the continuity of the person",
+            "That Lazarus was still dead and bound",
+            "That Jesus simply unwrapped him later",
+            "That resurrection is spiritual only"
+          ],
+          "correctAnswer": "The reality of bodily resurrection and the continuity of the person",
+          "explanation": "John 11:44 shows Lazarus physically bound, indicating Jesus raised him bodily, confirming Christian teaching of resurrection of the body (Philippians 3:21, 1 Corinthians 15:42-44, Job 19:25-27). This counters purely spiritual or metaphorical interpretations.",
+          "verseReference": "John 11:44",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-theological-q12",
+          "question": "How does this chapter illustrate Jesus' authority over death?",
+          "type": "multiple-choice",
+          "options": [
+            "By raising Lazarus from the dead after four days",
+            "By healing Lazarus without raising him",
+            "By avoiding death Himself",
+            "By predicting His own death only"
+          ],
+          "correctAnswer": "By raising Lazarus from the dead after four days",
+          "explanation": "John 11:43-44 demonstrates Jesus' sovereign power over death, foreshadowing His own resurrection (Acts 2:24, Revelation 1:18). This authority confirms His divinity and the promise of resurrection for believers (Romans 8:11).",
+          "verseReference": "John 11:43",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-theological-q13",
+          "question": "What eschatological hope is reflected in Martha's conversation with Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "The belief in resurrection at the last day",
+            "The hope of reincarnation",
+            "The denial of life after death",
+            "The assurance of immediate heaven upon death"
+          ],
+          "correctAnswer": "The belief in resurrection at the last day",
+          "explanation": "John 11:24 shows Martha's hope in resurrection at the last day, consistent with Jewish eschatology and affirmed in New Testament teaching (Daniel 12:2, 1 Corinthians 15:52, Revelation 20:12-13). This reflects the future bodily resurrection hope central to Christian doctrine.",
+          "verseReference": "John 11:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-theological-q14",
+          "question": "What does Jesus’ statement, 'And whosoever liveth and believeth in me shall never die,' teach about eternal life?",
+          "type": "multiple-choice",
+          "options": [
+            "Eternal life begins now and continues beyond physical death",
+            "Only physical life is guaranteed",
+            "Eternal life depends on works",
+            "Belief is not necessary for eternal life"
+          ],
+          "correctAnswer": "Eternal life begins now and continues beyond physical death",
+          "explanation": "John 11:26 affirms the present and future reality of eternal life through faith in Christ, paralleling John 5:24 and 1 John 5:11-13, highlighting eternal life as a present possession and future hope.",
+          "verseReference": "John 11:26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-11-theological-q15",
+          "question": "How does the chapter depict Jesus' love for Lazarus and his sisters?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus loved them deeply, shown through His actions and emotions",
+            "Jesus was indifferent to their plight",
+            "Jesus only helped because He was commanded",
+            "Jesus avoided them initially"
+          ],
+          "correctAnswer": "Jesus loved them deeply, shown through His actions and emotions",
+          "explanation": "John 11:5 and 11:36 reveal Jesus’ love through His delay, sorrow, and powerful resurrection of Lazarus. This exemplifies God’s love for humanity (John 3:16, Romans 5:8) and His compassion (Psalm 103:13).",
+          "verseReference": "John 11:5",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "john-11-quiz",
+      "tags": [
+        "john",
+        "chapter-11",
+        "john",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

@@ -1,0 +1,983 @@
+{
+  "id": "john-7-tabbed",
+  "title": "John Chapter 7 Quiz - Multi-Level",
+  "description": "An enhanced quiz on John chapter 7 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "john-7-easy",
+      "title": "John Chapter 7 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of John Chapter 7.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 7,
+      "questions": [
+        {
+          "id": "john-7-easy-q1",
+          "question": "Why did Jesus not walk openly in Jewry according to John 7?",
+          "type": "multiple-choice",
+          "options": [
+            "Because the Jews sought to kill him",
+            "Because he was afraid of the Pharisees",
+            "Because he was not welcome there",
+            "Because he was sick"
+          ],
+          "correctAnswer": "Because the Jews sought to kill him",
+          "explanation": "John 7:1 states that Jesus would not walk in Jewry because the Jews sought to kill him.",
+          "verseReference": "John 7:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-7-easy-q2",
+          "question": "What feast was at hand in John 7?",
+          "type": "multiple-choice",
+          "options": [
+            "The feast of tabernacles",
+            "The feast of unleavened bread",
+            "The feast of Pentecost",
+            "The feast of Passover"
+          ],
+          "correctAnswer": "The feast of tabernacles",
+          "explanation": "John 7:2 mentions that the Jews' feast of tabernacles was at hand.",
+          "verseReference": "John 7:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-7-easy-q3",
+          "question": "Who told Jesus to go into Judaea so his disciples might see his works?",
+          "type": "multiple-choice",
+          "options": [
+            "His brethren",
+            "The Pharisees",
+            "The chief priests",
+            "The disciples"
+          ],
+          "correctAnswer": "His brethren",
+          "explanation": "John 7:3 states that Jesus' brethren said unto him to go into Judaea.",
+          "verseReference": "John 7:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-7-easy-q4",
+          "question": "What reason did Jesus give for not yet going to the feast openly?",
+          "type": "multiple-choice",
+          "options": [
+            "His time was not yet come",
+            "He was feeling unwell",
+            "The feast was not important to him",
+            "He wanted to avoid the crowds"
+          ],
+          "correctAnswer": "His time was not yet come",
+          "explanation": "John 7:6-8 records Jesus saying his time was not yet come to go openly to the feast.",
+          "verseReference": "John 7:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-7-easy-q5",
+          "question": "How did Jesus go to the feast after his brethren had gone up?",
+          "type": "multiple-choice",
+          "options": [
+            "Not openly, but as it were in secret",
+            "With a large crowd",
+            "On a donkey",
+            "In a chariot"
+          ],
+          "correctAnswer": "Not openly, but as it were in secret",
+          "explanation": "John 7:10 states Jesus went to the feast not openly, but in secret.",
+          "verseReference": "John 7:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-7-easy-q6",
+          "question": "What did some people say about Jesus at the feast?",
+          "type": "multiple-choice",
+          "options": [
+            "He is a good man",
+            "He is a carpenter",
+            "He is a prophet from Egypt",
+            "He is a Roman"
+          ],
+          "correctAnswer": "He is a good man",
+          "explanation": "John 7:12 says some said Jesus is a good man, others said he deceiveth the people.",
+          "verseReference": "John 7:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-7-easy-q7",
+          "question": "Where did Jesus go to teach about the midst of the feast?",
+          "type": "multiple-choice",
+          "options": [
+            "Into the temple",
+            "To the mountaintop",
+            "To the marketplace",
+            "To the synagogue"
+          ],
+          "correctAnswer": "Into the temple",
+          "explanation": "John 7:14 states Jesus went up into the temple and taught.",
+          "verseReference": "John 7:14",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-7-easy-q8",
+          "question": "What was the reaction of the Jews to Jesus' knowledge according to John 7?",
+          "type": "multiple-choice",
+          "options": [
+            "They marveled because he had never learned",
+            "They ignored him",
+            "They praised the Pharisees",
+            "They asked him to leave"
+          ],
+          "correctAnswer": "They marveled because he had never learned",
+          "explanation": "John 7:15 records the Jews marveling how Jesus knew letters without learning.",
+          "verseReference": "John 7:15",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-7-easy-q9",
+          "question": "According to Jesus, whose doctrine did he teach?",
+          "type": "multiple-choice",
+          "options": [
+            "His doctrine is not his, but of him that sent him",
+            "His own doctrine",
+            "The doctrine of the Pharisees",
+            "The doctrine of Moses"
+          ],
+          "correctAnswer": "His doctrine is not his, but of him that sent him",
+          "explanation": "John 7:16 quotes Jesus saying his doctrine is from the one who sent him.",
+          "verseReference": "John 7:16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-7-easy-q10",
+          "question": "True or False: Jesus said that the world hates him because he testifies that the works of the world are evil.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 7:7 states the world hates Jesus because he testifies the works thereof are evil.",
+          "verseReference": "John 7:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-7-easy-q11",
+          "question": "True or False: The Pharisees and chief priests sent officers to take Jesus at the feast.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 7:32 states the Pharisees and chief priests sent officers to take Jesus.",
+          "verseReference": "John 7:32",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-7-easy-q12",
+          "question": "True or False: Nicodemus was one of those who came to Jesus by day according to John 7.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 7:50 identifies Nicodemus as the one who came to Jesus by night.",
+          "verseReference": "John 7:50",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-7-easy-q13",
+          "question": "Fill in the blank: 'In the last day, that great day of the feast, Jesus stood and cried, saying, If any man thirst, let him come unto me, and ______.'",
+          "type": "fill-blank",
+          "options": [
+            "drink",
+            "listen",
+            "pray",
+            "believe"
+          ],
+          "correctAnswer": "drink",
+          "explanation": "John 7:37 records Jesus saying 'If any man thirst, let him come unto me, and drink.'",
+          "verseReference": "John 7:37",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-7-easy-q14",
+          "question": "According to John 7, what flows out of the belly of those who believe in Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "Rivers of living water",
+            "Streams of milk",
+            "Waves of fire",
+            "Springs of wisdom"
+          ],
+          "correctAnswer": "Rivers of living water",
+          "explanation": "John 7:38 states that out of the belly of believers shall flow rivers of living water.",
+          "verseReference": "John 7:38",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-7-easy-q15",
+          "question": "What did the officers say when asked why they had not brought Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "Never man spake like this man",
+            "He escaped",
+            "He was not there",
+            "He was hiding"
+          ],
+          "correctAnswer": "Never man spake like this man",
+          "explanation": "John 7:46 records the officers saying 'Never man spake like this man.'",
+          "verseReference": "John 7:46",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "john-7-quiz",
+      "tags": [
+        "john",
+        "chapter-7",
+        "john",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "john-7-medium",
+      "title": "John Chapter 7 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from John Chapter 7 to real-life situations.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 7,
+      "questions": [
+        {
+          "id": "john-7-medium-q1",
+          "question": "A fellow believer is struggling with feeling rejected for their faith. Based on John 7, what biblical truth would you share about enduring such trials?",
+          "type": "multiple-choice",
+          "options": [
+            "The world hates those who testify against its evil works.",
+            "God will remove all enemies immediately.",
+            "Believers should avoid public witness to stay safe.",
+            "Faith guarantees a comfortable life."
+          ],
+          "correctAnswer": "The world hates those who testify against its evil works.",
+          "explanation": "John 7:7 teaches that the world hates Jesus because He testifies against its evil works, implying believers may face hatred for standing firm in faith. This encourages perseverance through trials (John 7:1, 7:30).",
+          "verseReference": "John 7:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-7-medium-q2",
+          "question": "How does John 7 instruct us to handle judgment and discernment in daily life?",
+          "type": "multiple-choice",
+          "options": [
+            "Judge not according to appearance, but with righteous judgment.",
+            "Judge harshly to correct others quickly.",
+            "Ignore all judgments to avoid conflict.",
+            "Judge only those outside the church."
+          ],
+          "correctAnswer": "Judge not according to appearance, but with righteous judgment.",
+          "explanation": "John 7:24 advises us to avoid superficial judgment and to seek righteous judgment, promoting fairness and integrity in how we assess others.",
+          "verseReference": "John 7:24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-7-medium-q3",
+          "question": "A believer is confused about Jesus' teachings because He had no formal schooling. Based on John 7, how can we understand the source of His wisdom?",
+          "type": "multiple-choice",
+          "options": [
+            "His doctrine is from God who sent Him.",
+            "He learned from the religious leaders secretly.",
+            "He taught only what He invented himself.",
+            "He copied teachings from Moses."
+          ],
+          "correctAnswer": "His doctrine is from God who sent Him.",
+          "explanation": "John 7:15-17 shows that Jesus’ teaching amazed the Jews because He had not studied formally, but His doctrine is from God, and those who do God's will will recognize its divine source.",
+          "verseReference": "John 7:15-17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-7-medium-q4",
+          "question": "What does John 7 teach about the proper response to God's will and teachings?",
+          "type": "multiple-choice",
+          "options": [
+            "If anyone does God's will, they will know the doctrine is from God.",
+            "Faith is not necessary to recognize God's truth.",
+            "Only scholars can understand God's teachings.",
+            "God's will is a mystery that cannot be understood."
+          ],
+          "correctAnswer": "If anyone does God's will, they will know the doctrine is from God.",
+          "explanation": "John 7:17 explains that obedience to God’s will enables a person to discern the truth of Jesus’ teachings, highlighting the importance of faith and action.",
+          "verseReference": "John 7:17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-7-medium-q5",
+          "question": "A believer feels discouraged because others doubt their faith. According to John 7, what example can encourage them regarding public witness?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus initially went to the feast in secret but later taught boldly in the temple.",
+            "Followers should hide their faith to avoid criticism.",
+            "Faith should only be practiced privately.",
+            "Public proclamation is unnecessary for discipleship."
+          ],
+          "correctAnswer": "Jesus initially went to the feast in secret but later taught boldly in the temple.",
+          "explanation": "John 7:10 and 7:14 show Jesus’ careful timing—He first came in secret but then taught openly, encouraging believers to be bold in sharing their faith when the time is right.",
+          "verseReference": "John 7:10, 7:14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-7-medium-q6",
+          "question": "How does John 7 encourage believers to handle division or disagreement within the church community?",
+          "type": "multiple-choice",
+          "options": [
+            "Recognize that differences of opinion may arise about Christ but remain open to truth.",
+            "Reject anyone who disagrees as a heretic.",
+            "Avoid all discussion to maintain peace.",
+            "Only accept those who come from your own region."
+          ],
+          "correctAnswer": "Recognize that differences of opinion may arise about Christ but remain open to truth.",
+          "explanation": "John 7:41-43 describes division among the people about Jesus’ identity, teaching that disagreement is natural, but believers should seek understanding and unity in truth.",
+          "verseReference": "John 7:41-43",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-7-medium-q7",
+          "question": "A Christian is tempted to judge others superficially. Based on John 7, what principle should guide their judgment?",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 7:24 instructs believers to not judge by outward appearance but to judge righteously, reminding us to avoid superficial or unfair judgments.",
+          "verseReference": "John 7:24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-7-medium-q8",
+          "question": "Does John 7 indicate that Jesus sought His own glory in His teachings?",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 7:18 states that Jesus did not seek His own glory but the glory of the One who sent Him, emphasizing humility and obedience in His ministry.",
+          "verseReference": "John 7:18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-7-medium-q9",
+          "question": "Jesus spoke about rivers of living water flowing from those who believe in Him. What does this symbolize according to John 7?",
+          "type": "multiple-choice",
+          "options": [
+            "The Holy Spirit given to believers after Jesus is glorified.",
+            "A literal river that believers will find.",
+            "Physical water from wells in the temple.",
+            "Material blessings for the faithful."
+          ],
+          "correctAnswer": "The Holy Spirit given to believers after Jesus is glorified.",
+          "explanation": "John 7:38-39 explains that the 'living water' represents the Holy Spirit that believers would receive after Jesus’ glorification, highlighting spiritual renewal and empowerment.",
+          "verseReference": "John 7:38-39",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-7-medium-q10",
+          "question": "A believer is concerned about being misunderstood or accused by others. How does Jesus' experience in John 7 provide guidance?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus was accused of having a demon and deceiving people, yet He continued to fulfill His mission.",
+            "Jesus avoided all public interaction to stay safe.",
+            "Jesus only taught those who fully accepted Him.",
+            "Jesus responded with retaliation against His accusers."
+          ],
+          "correctAnswer": "Jesus was accused of having a demon and deceiving people, yet He continued to fulfill His mission.",
+          "explanation": "John 7:20 and 7:44 show that Jesus faced false accusations but remained steadfast in His work, teaching believers to persevere despite misunderstanding.",
+          "verseReference": "John 7:20, 7:44",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-7-medium-q11",
+          "question": "What does John 7 teach about the relationship between obeying God's law and showing compassion in practical ways?",
+          "type": "multiple-choice",
+          "options": [
+            "It is right to heal and do good on the Sabbath, showing mercy over strict ritual.",
+            "No deeds should be done on the Sabbath.",
+            "Only ritual observance matters, not compassion.",
+            "Mercy is optional and not part of the law."
+          ],
+          "correctAnswer": "It is right to heal and do good on the Sabbath, showing mercy over strict ritual.",
+          "explanation": "John 7:21-23 highlights Jesus’ healing on the Sabbath and challenges the hypocrisy of the religious leaders, teaching practical mercy and obedience to God's intent.",
+          "verseReference": "John 7:21-23",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-7-medium-q12",
+          "question": "A believer feels uncertain about Jesus’ origins and identity. What does John 7 reveal about Jesus’ claim regarding His origin?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus said He knows God because He is sent from Him.",
+            "Jesus refused to say where He came from.",
+            "Jesus claimed to be from Galilee only.",
+            "Jesus said no one can know where He is from."
+          ],
+          "correctAnswer": "Jesus said He knows God because He is sent from Him.",
+          "explanation": "John 7:28-29 shows Jesus declaring His divine origin and mission, affirming His unique relationship with God the Father to dispel doubts.",
+          "verseReference": "John 7:28-29",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-7-medium-q13",
+          "question": "How does John 7 instruct believers about seeking Jesus after His departure?",
+          "type": "multiple-choice",
+          "options": [
+            "They will seek Him but not find Him, because He will go to the Father.",
+            "They will easily find Him anywhere.",
+            "Jesus will remain physically present among them forever.",
+            "They will find Him only in Jerusalem."
+          ],
+          "correctAnswer": "They will seek Him but not find Him, because He will go to the Father.",
+          "explanation": "John 7:33-34 records Jesus saying He will go to the One who sent Him and people will seek Him but not find Him, teaching about His ascension and spiritual invisibility.",
+          "verseReference": "John 7:33-34",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-7-medium-q14",
+          "question": "A believer is invited to the Feast of Tabernacles but is unsure when to go. What lesson can be learned from Jesus’ timing in John 7?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus delayed going because His time had not yet come, showing obedience to God's timing.",
+            "Jesus went immediately to please others.",
+            "Jesus ignored the feast entirely.",
+            "Jesus refused to attend any Jewish festivals."
+          ],
+          "correctAnswer": "Jesus delayed going because His time had not yet come, showing obedience to God's timing.",
+          "explanation": "John 7:6-10 shows Jesus explaining that His timing is controlled by God’s plan, teaching believers to trust God's timing in their lives.",
+          "verseReference": "John 7:6-10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-7-medium-q15",
+          "question": "Fill in the blank: Jesus said, 'If any man thirst, let him come unto me, and drink. He that believeth on me, as the scripture hath said, out of his belly shall flow rivers of ________ water.'",
+          "type": "fill-blank",
+          "options": [
+            "living",
+            "cold",
+            "stagnant",
+            "clear"
+          ],
+          "correctAnswer": "living",
+          "explanation": "John 7:37-38 states that believers receive 'rivers of living water,' symbolizing the life-giving Holy Spirit that flows from faith in Jesus.",
+          "verseReference": "John 7:37-38",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "john-7-quiz",
+      "tags": [
+        "john",
+        "chapter-7",
+        "john",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "john-7-hard",
+      "title": "John Chapter 7 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from John Chapter 7.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 7,
+      "questions": [
+        {
+          "id": "john-7-hard-q1",
+          "question": "What reason does Jesus give for not going up to the feast of tabernacles at the same time as his brethren?",
+          "type": "multiple-choice",
+          "options": [
+            "His time was not yet come",
+            "He was afraid of the Pharisees",
+            "He wanted to avoid the crowds",
+            "He was unwell"
+          ],
+          "correctAnswer": "His time was not yet come",
+          "explanation": "Jesus explicitly states that his time was not yet come, indicating divine timing governs his actions (John 7:6-8).",
+          "verseReference": "John 7:6-8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-hard-q2",
+          "question": "How do the Jews react to Jesus' teaching at the feast according to John 7:12?",
+          "type": "multiple-choice",
+          "options": [
+            "Some said He is a good man, others said He deceiveth the people",
+            "They all accepted Him as the Christ",
+            "They ignored Him completely",
+            "They immediately arrested Him"
+          ],
+          "correctAnswer": "Some said He is a good man, others said He deceiveth the people",
+          "explanation": "Verse John 7:12 shows division among the people, reflecting skepticism and varied opinions about Jesus.",
+          "verseReference": "John 7:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-hard-q3",
+          "question": "What teaching method does Jesus use when he speaks in the temple about His doctrine?",
+          "type": "multiple-choice",
+          "options": [
+            "He declares that his doctrine is from God who sent Him",
+            "He quotes extensively from the Torah without explanation",
+            "He uses parables exclusively",
+            "He refuses to answer any questions"
+          ],
+          "correctAnswer": "He declares that his doctrine is from God who sent Him",
+          "explanation": "Jesus clarifies that His teaching is not His own but from God, emphasizing divine authority (John 7:16).",
+          "verseReference": "John 7:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-hard-q4",
+          "question": "In John 7:19, Jesus challenges the Jews by comparing their behavior to that of Moses' law. What hypocrisy does He highlight?",
+          "type": "multiple-choice",
+          "options": [
+            "They seek to kill Him despite not fully keeping the law themselves",
+            "They honor Moses but reject the prophets",
+            "They observe the Sabbath but not the Passover",
+            "They tithe but neglect justice"
+          ],
+          "correctAnswer": "They seek to kill Him despite not fully keeping the law themselves",
+          "explanation": "Jesus points out their failure to keep the law while plotting to kill Him, exposing their inconsistency (John 7:19).",
+          "verseReference": "John 7:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-hard-q5",
+          "question": "According to John 7:22-23, why do the Jews not criticize circumcision on the Sabbath but are angry at Jesus for healing on the Sabbath?",
+          "type": "multiple-choice",
+          "options": [
+            "Because circumcision was given by Moses and is necessary, but healing was seen as work",
+            "Because healing was forbidden on all holy days",
+            "Because Jesus did not perform a miracle",
+            "Because circumcision was not considered a law"
+          ],
+          "correctAnswer": "Because circumcision was given by Moses and is necessary, but healing was seen as work",
+          "explanation": "Jesus contrasts their acceptance of circumcision on the Sabbath, which is lawful, with their anger at His healing, challenging their judgment (John 7:22-23).",
+          "verseReference": "John 7:22-23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-hard-q6",
+          "question": "What principle does Jesus teach in John 7:24 regarding judgment?",
+          "type": "multiple-choice",
+          "options": [
+            "Judge righteous judgment, not according to appearance",
+            "Judge quickly and with zeal",
+            "Judge only when commanded by leaders",
+            "Judge based on popular opinion"
+          ],
+          "correctAnswer": "Judge righteous judgment, not according to appearance",
+          "explanation": "Jesus instructs to judge with righteousness rather than superficial appearances, emphasizing true justice (John 7:24).",
+          "verseReference": "John 7:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-hard-q7",
+          "question": "How do some people in Jerusalem respond to Jesus speaking boldly during the feast according to John 7:25-26?",
+          "type": "multiple-choice",
+          "options": [
+            "They wonder if He is the Christ and note His boldness",
+            "They immediately reject Him as a heretic",
+            "They arrest Him on the spot",
+            "They ask Him to leave the city"
+          ],
+          "correctAnswer": "They wonder if He is the Christ and note His boldness",
+          "explanation": "Verses 25-26 reveal the crowd's mixed reactions, including recognition of His boldness and questioning His identity as the Christ.",
+          "verseReference": "John 7:25-26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-hard-q8",
+          "question": "What does Jesus claim about His origin and His relationship with the sender in John 7:28-29?",
+          "type": "multiple-choice",
+          "options": [
+            "He is from God and was sent by Him, whom He knows",
+            "He is from Nazareth and speaks on His own authority",
+            "He is from the synagogue and was chosen by the Pharisees",
+            "He is from Galilee but unknown to God"
+          ],
+          "correctAnswer": "He is from God and was sent by Him, whom He knows",
+          "explanation": "Jesus declares He is sent by God and knows Him, asserting divine origin and authority (John 7:28-29).",
+          "verseReference": "John 7:28-29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-hard-q9",
+          "question": "Why were the officers unable to seize Jesus at the feast according to John 7:30?",
+          "type": "multiple-choice",
+          "options": [
+            "Because His hour was not yet come",
+            "Because He escaped through the crowds",
+            "Because the people protected Him",
+            "Because the Pharisees forbade it"
+          ],
+          "correctAnswer": "Because His hour was not yet come",
+          "explanation": "The text states no one laid hands on Him because the appointed time for His arrest had not yet arrived (John 7:30).",
+          "verseReference": "John 7:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-hard-q10",
+          "question": "What does Jesus say on the last day of the feast, inviting those who thirst to come to Him (John 7:37-38)?",
+          "type": "multiple-choice",
+          "options": [
+            "If any man thirst, let him come unto me, and drink",
+            "Come and receive manna from heaven",
+            "Follow me and you shall never hunger",
+            "Blessed are the meek, for they shall inherit the earth"
+          ],
+          "correctAnswer": "If any man thirst, let him come unto me, and drink",
+          "explanation": "Jesus offers living water as spiritual sustenance, inviting all who are spiritually thirsty to come to Him (John 7:37-38).",
+          "verseReference": "John 7:37-38",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-hard-q11",
+          "question": "What is the significance of the 'living water' Jesus speaks of in John 7:39?",
+          "type": "multiple-choice",
+          "options": [
+            "It refers to the Holy Spirit believers would receive",
+            "It refers to actual water from the temple",
+            "It refers to the Jordan River",
+            "It refers to a future rain in Galilee"
+          ],
+          "correctAnswer": "It refers to the Holy Spirit believers would receive",
+          "explanation": "The passage clarifies that 'living water' symbolizes the Spirit given after Jesus is glorified (John 7:39).",
+          "verseReference": "John 7:39",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-hard-q12",
+          "question": "What division arises among the people regarding Jesus after His teaching at the feast (John 7:40-43)?",
+          "type": "multiple-choice",
+          "options": [
+            "Some say He is the Prophet, others say He is the Christ, others doubt because Christ should come from Bethlehem",
+            "All agree He is the Messiah",
+            "They unanimously reject Him as a false teacher",
+            "They decide to follow the Pharisees instead"
+          ],
+          "correctAnswer": "Some say He is the Prophet, others say He is the Christ, others doubt because Christ should come from Bethlehem",
+          "explanation": "The crowd is divided over Jesus’ identity, showing differing expectations of the Messiah (John 7:40-43).",
+          "verseReference": "John 7:40-43",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-hard-q13",
+          "question": "How do the officers describe Jesus' speech when questioned by the chief priests and Pharisees (John 7:46)?",
+          "type": "multiple-choice",
+          "options": [
+            "Never man spake like this man",
+            "He speaks nonsense",
+            "He uses blasphemy",
+            "His words are confusing"
+          ],
+          "correctAnswer": "Never man spake like this man",
+          "explanation": "The officers are impressed by Jesus’ unique and authoritative speech (John 7:46).",
+          "verseReference": "John 7:46",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-hard-q14",
+          "question": "What argument does Nicodemus use to defend Jesus in the council (John 7:50-51)?",
+          "type": "multiple-choice",
+          "options": [
+            "Our law does not judge a man before hearing him and knowing what he does",
+            "Jesus performed miracles publicly",
+            "The people desire peace",
+            "He is a prophet from Galilee"
+          ],
+          "correctAnswer": "Our law does not judge a man before hearing him and knowing what he does",
+          "explanation": "Nicodemus appeals to the legal principle of fair hearing before judgment (John 7:50-51).",
+          "verseReference": "John 7:50-51",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-hard-q15",
+          "question": "True or False: The Pharisees believed in Jesus and supported Nicodemus' defense of Him.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "The Pharisees rejected Jesus and questioned Nicodemus, showing no belief in Jesus (John 7:47-48).",
+          "verseReference": "John 7:47-48",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "john-7-quiz",
+      "tags": [
+        "john",
+        "chapter-7",
+        "john",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "john-7-theological",
+      "title": "John Chapter 7 Quiz - Theological Level",
+      "description": "Deep biblical theology from John Chapter 7 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 7,
+      "questions": [
+        {
+          "id": "john-7-theological-q1",
+          "question": "Why did Jesus initially avoid walking in Jewry according to John 7?",
+          "type": "multiple-choice",
+          "options": [
+            "Because the Jews sought to kill him",
+            "Because it was not the appointed time",
+            "Because he was going to Galilee",
+            "Because he was teaching in secret"
+          ],
+          "correctAnswer": "Because the Jews sought to kill him",
+          "explanation": "John 7:1 states that Jesus walked in Galilee because he would not walk in Jewry since the Jews sought to kill him. This reflects the theme of opposition to Jesus seen in Psalms 2:2 and Isaiah 53:3, where the Messiah is rejected and persecuted.",
+          "verseReference": "John 7:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-theological-q2",
+          "question": "What feast was at hand during the events of John 7?",
+          "type": "multiple-choice",
+          "options": [
+            "The Feast of Tabernacles",
+            "Passover",
+            "Pentecost",
+            "The Feast of Unleavened Bread"
+          ],
+          "correctAnswer": "The Feast of Tabernacles",
+          "explanation": "John 7:2 identifies the feast as the Jews' Feast of Tabernacles, which is a significant Old Testament festival described in Leviticus 23:34-44 and symbolizes God's provision and dwelling with His people, linking to Jesus' later teaching of living water.",
+          "verseReference": "John 7:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-theological-q3",
+          "question": "What was the attitude of Jesus' brothers toward him before his public ministry?",
+          "type": "multiple-choice",
+          "options": [
+            "They did not believe in him",
+            "They fully supported him",
+            "They were unaware of his works",
+            "They sought to follow him secretly"
+          ],
+          "correctAnswer": "They did not believe in him",
+          "explanation": "John 7:5 states that even Jesus' own brothers did not believe in him, showing the initial unbelief even among his close family, consistent with themes of rejection in Isaiah 53:3 and Psalm 69:8.",
+          "verseReference": "John 7:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-theological-q4",
+          "question": "According to Jesus in John 7:6-8, what is the reason he did not immediately go to the feast with his brothers?",
+          "type": "multiple-choice",
+          "options": [
+            "His time had not yet come",
+            "He was afraid of the Jews",
+            "He was unwell",
+            "He was waiting for a sign"
+          ],
+          "correctAnswer": "His time had not yet come",
+          "explanation": "Jesus explained in John 7:6-8 that his 'time' had not yet come, indicating divine timing and sovereignty in his ministry, reflecting the Messianic fulfillment themes in Psalm 40:6-8 and Daniel 9:24.",
+          "verseReference": "John 7:6-8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-theological-q5",
+          "question": "How did the people react when Jesus taught in the temple during the feast?",
+          "type": "multiple-choice",
+          "options": [
+            "Some said he was a good man, others said he deceived the people",
+            "All accepted him as the Messiah",
+            "They ignored him completely",
+            "They immediately arrested him"
+          ],
+          "correctAnswer": "Some said he was a good man, others said he deceived the people",
+          "explanation": "John 7:12 records mixed reactions, highlighting the division and skepticism toward Jesus, which aligns with the prophetic conflict in Isaiah 53:3 and Jeremiah 20:7 where the servant is both praised and rejected.",
+          "verseReference": "John 7:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-theological-q6",
+          "question": "What did Jesus claim about the origin of his teaching in John 7:16?",
+          "type": "multiple-choice",
+          "options": [
+            "His doctrine is from the one who sent him",
+            "His doctrine is his own invention",
+            "He learned it from the Pharisees",
+            "He received it through human tradition"
+          ],
+          "correctAnswer": "His doctrine is from the one who sent him",
+          "explanation": "In John 7:16, Jesus asserts that his teaching is not his own but from God who sent him, emphasizing his divine authority, consistent with Deuteronomy 18:18 and Isaiah 61:1-3 regarding the prophet sent by God.",
+          "verseReference": "John 7:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-theological-q7",
+          "question": "What principle about judgment does Jesus teach in John 7:24?",
+          "type": "multiple-choice",
+          "options": [
+            "Judge not according to appearance, but judge righteous judgment",
+            "Judge harshly to maintain order",
+            "Judge only when commanded by authorities",
+            "Judge according to popular opinion"
+          ],
+          "correctAnswer": "Judge not according to appearance, but judge righteous judgment",
+          "explanation": "Jesus instructs in John 7:24 to judge righteously rather than superficially, which aligns with Old Testament justice commands in Leviticus 19:15 and Proverbs 31:9, emphasizing God's standard for justice.",
+          "verseReference": "John 7:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-theological-q8",
+          "question": "What miracle did Jesus refer to in John 7:21 to demonstrate his authority?",
+          "type": "multiple-choice",
+          "options": [
+            "Healing a man completely on the Sabbath",
+            "Feeding the five thousand",
+            "Raising Lazarus from the dead",
+            "Walking on water"
+          ],
+          "correctAnswer": "Healing a man completely on the Sabbath",
+          "explanation": "John 7:21-23 references Jesus healing a man fully on the Sabbath, challenging Pharisaic interpretations of the law, echoing themes of mercy over sacrifice in Hosea 6:6 and Isaiah 58:6-7.",
+          "verseReference": "John 7:21-23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-theological-q9",
+          "question": "What did Jesus say about those who speak of themselves in John 7:18?",
+          "type": "multiple-choice",
+          "options": [
+            "They seek their own glory",
+            "They are always truthful",
+            "They speak with divine authority",
+            "They are misunderstood prophets"
+          ],
+          "correctAnswer": "They seek their own glory",
+          "explanation": "John 7:18 teaches that those who speak on their own seek personal glory, contrasting with Jesus who seeks the glory of the one who sent him, paralleling John 5:41 and Isaiah 42:1 about God's servant.",
+          "verseReference": "John 7:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-theological-q10",
+          "question": "According to John 7:37-38, what does Jesus offer to those who thirst?",
+          "type": "multiple-choice",
+          "options": [
+            "Living water",
+            "Earthly riches",
+            "Political power",
+            "Physical healing"
+          ],
+          "correctAnswer": "Living water",
+          "explanation": "Jesus offers 'living water' to those who thirst, symbolizing the Holy Spirit and eternal life, as explained in John 7:39 and supported by Isaiah 55:1 and Ezekiel 47:1-12 where water represents life and renewal.",
+          "verseReference": "John 7:37-38",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-theological-q11",
+          "question": "What was the people's reaction to Jesus' claim about living water, according to John 7:40-42?",
+          "type": "multiple-choice",
+          "options": [
+            "They were divided, some calling him the Prophet or Christ, others questioning his origin",
+            "They unanimously accepted him as the Messiah",
+            "They ignored his claims",
+            "They arrested him immediately"
+          ],
+          "correctAnswer": "They were divided, some calling him the Prophet or Christ, others questioning his origin",
+          "explanation": "John 7:40-42 describes a division among the people about Jesus' identity, with some seeing him as the Prophet or Christ, others doubting because of his Galilean origin, reflecting the Messianic expectations in Deuteronomy 18:15 and Micah 5:2.",
+          "verseReference": "John 7:40-42",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-theological-q12",
+          "question": "Why did the officers sent to arrest Jesus fail to do so according to John 7:30 and John 7:44?",
+          "type": "multiple-choice",
+          "options": [
+            "Because his hour had not yet come",
+            "Because Jesus escaped through the crowd",
+            "Because the rulers stopped them",
+            "Because Jesus was not present"
+          ],
+          "correctAnswer": "Because his hour had not yet come",
+          "explanation": "John 7:30 and 7:44 indicate that Jesus was not arrested because the appointed time for his passion had not yet arrived, emphasizing divine sovereignty over the timing of salvation events, as seen in Mark 14:41 and Luke 22:53.",
+          "verseReference": "John 7:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-theological-q13",
+          "question": "What was Nicodemus' argument regarding Jesus in John 7:50-51?",
+          "type": "multiple-choice",
+          "options": [
+            "That the law requires hearing a man before judging him",
+            "That Jesus was a false teacher",
+            "That Jesus should be arrested immediately",
+            "That Galilee was the source of all prophets"
+          ],
+          "correctAnswer": "That the law requires hearing a man before judging him",
+          "explanation": "Nicodemus appealed to the law's requirement of fair hearing before judgment (John 7:50-51), reflecting principles of justice in Deuteronomy 1:16-17 and Proverbs 18:13, underscoring the importance of righteous judgment.",
+          "verseReference": "John 7:50-51",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-theological-q14",
+          "question": "How did the Pharisees respond to Nicodemus' defense of Jesus in John 7:52?",
+          "type": "multiple-choice",
+          "options": [
+            "They rejected him because he was from Galilee",
+            "They agreed to consider Jesus' case",
+            "They praised his courage",
+            "They remained silent"
+          ],
+          "correctAnswer": "They rejected him because he was from Galilee",
+          "explanation": "John 7:52 shows the Pharisees dismissing Nicodemus' defense by asserting no prophet arises from Galilee, ignoring Scriptural prophecy such as Jonah 1:1 and Nahum 1:1 about God’s work beyond Jerusalem, revealing their rejection of God's sovereignty.",
+          "verseReference": "John 7:52",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-7-theological-q15",
+          "question": "What does John 7:29 reveal about Jesus' relationship to God the Father?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus knows God because He is from Him and sent by Him",
+            "Jesus acts independently of God",
+            "Jesus is uncertain of His origin",
+            "Jesus seeks His own glory"
+          ],
+          "correctAnswer": "Jesus knows God because He is from Him and sent by Him",
+          "explanation": "John 7:29 affirms Jesus' intimate knowledge of God, declaring His divine origin and mission, consistent with John 1:1-3 and Hebrews 1:3, emphasizing the unity of the Son with the Father in salvation history.",
+          "verseReference": "John 7:29",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "john-7-quiz",
+      "tags": [
+        "john",
+        "chapter-7",
+        "john",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

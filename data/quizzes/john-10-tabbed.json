@@ -1,0 +1,983 @@
+{
+  "id": "john-10-tabbed",
+  "title": "John Chapter 10 Quiz - Multi-Level",
+  "description": "An enhanced quiz on John chapter 10 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "john-10-easy",
+      "title": "John Chapter 10 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of John Chapter 10.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 10,
+      "questions": [
+        {
+          "id": "john-10-easy-q1",
+          "question": "According to John 10:1, how does Jesus describe the one who climbs up some other way into the sheepfold?",
+          "type": "multiple-choice",
+          "options": [
+            "A thief and a robber",
+            "A good shepherd",
+            "A porter",
+            "A stranger"
+          ],
+          "correctAnswer": "A thief and a robber",
+          "explanation": "John 10:1 states that he who enters not by the door but climbs up another way is a thief and a robber.",
+          "verseReference": "John 10:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-10-easy-q2",
+          "question": "In John 10:3, what do the sheep do when they hear the shepherd's voice?",
+          "type": "multiple-choice",
+          "options": [
+            "They follow him",
+            "They ignore him",
+            "They flee",
+            "They scatter"
+          ],
+          "correctAnswer": "They follow him",
+          "explanation": "John 10:3 says the sheep hear his voice, he calls them by name and leads them out, so they follow him.",
+          "verseReference": "John 10:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-10-easy-q3",
+          "question": "True or False: According to John 10:5, the sheep will follow a stranger because they know his voice.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 10:5 states that the sheep will not follow a stranger but will flee from him because they do not know the voice of strangers.",
+          "verseReference": "John 10:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-10-easy-q4",
+          "question": "Who does Jesus say He is in John 10:7?",
+          "type": "multiple-choice",
+          "options": [
+            "The door of the sheep",
+            "The hireling",
+            "A stranger",
+            "The wolf"
+          ],
+          "correctAnswer": "The door of the sheep",
+          "explanation": "John 10:7 records Jesus saying, 'I am the door of the sheep.'",
+          "verseReference": "John 10:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-10-easy-q5",
+          "question": "According to John 10:11, what is the role of the good shepherd?",
+          "type": "multiple-choice",
+          "options": [
+            "He gives his life for the sheep",
+            "He flees from the wolf",
+            "He climbs up another way",
+            "He is a hireling"
+          ],
+          "correctAnswer": "He gives his life for the sheep",
+          "explanation": "John 10:11 clearly states that the good shepherd gives his life for the sheep.",
+          "verseReference": "John 10:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-10-easy-q6",
+          "question": "In John 10:12, what does the hireling do when he sees the wolf coming?",
+          "type": "multiple-choice",
+          "options": [
+            "Leaves the sheep and flees",
+            "Fights the wolf",
+            "Calls the porter",
+            "Leads the sheep out"
+          ],
+          "correctAnswer": "Leaves the sheep and flees",
+          "explanation": "John 10:12 explains that the hireling sees the wolf coming and leaves the sheep to be scattered.",
+          "verseReference": "John 10:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-10-easy-q7",
+          "question": "True or False: John 10:14 says Jesus knows His sheep and is known by them.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 10:14 states, 'I am the good shepherd, and know my sheep, and am known of mine.'",
+          "verseReference": "John 10:14",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-10-easy-q8",
+          "question": "According to John 10:16, what will happen to the other sheep not of this fold?",
+          "type": "multiple-choice",
+          "options": [
+            "They shall hear His voice and become one fold",
+            "They will be left out",
+            "They will be scattered",
+            "They will be hired as shepherds"
+          ],
+          "correctAnswer": "They shall hear His voice and become one fold",
+          "explanation": "John 10:16 states that other sheep will hear His voice and there will be one fold and one shepherd.",
+          "verseReference": "John 10:16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-10-easy-q9",
+          "question": "What reason does Jesus give in John 10:17 for the Father's love for Him?",
+          "type": "multiple-choice",
+          "options": [
+            "Because He lays down His life to take it again",
+            "Because He performs miracles",
+            "Because He teaches the law",
+            "Because He feeds the sheep"
+          ],
+          "correctAnswer": "Because He lays down His life to take it again",
+          "explanation": "John 10:17 says the Father loves Jesus because He lays down His life that He might take it again.",
+          "verseReference": "John 10:17",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-10-easy-q10",
+          "question": "Fill in the blank from John 10:28: 'And I give unto them ________; and they shall never perish, neither shall any man pluck them out of my hand.'",
+          "type": "fill-blank",
+          "options": [
+            "eternal life",
+            "power",
+            "peace",
+            "salvation"
+          ],
+          "correctAnswer": "eternal life",
+          "explanation": "John 10:28 states that Jesus gives eternal life to His sheep who shall never perish.",
+          "verseReference": "John 10:28",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-10-easy-q11",
+          "question": "According to John 10:30, what is the relationship between Jesus and the Father?",
+          "type": "multiple-choice",
+          "options": [
+            "I and my Father are one",
+            "I am greater than my Father",
+            "My Father is a stranger",
+            "We are like sheep and shepherd"
+          ],
+          "correctAnswer": "I and my Father are one",
+          "explanation": "John 10:30 records Jesus saying, 'I and my Father are one.'",
+          "verseReference": "John 10:30",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-10-easy-q12",
+          "question": "True or False: In John 10:31, the Jews responded to Jesus' words by taking up stones to stone Him.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 10:31 states that the Jews took up stones again to stone Jesus.",
+          "verseReference": "John 10:31",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-10-easy-q13",
+          "question": "What reason do the Jews give in John 10:33 for wanting to stone Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "Blasphemy because He makes Himself God",
+            "For healing the sick",
+            "For teaching the law",
+            "For feeding the sheep"
+          ],
+          "correctAnswer": "Blasphemy because He makes Himself God",
+          "explanation": "John 10:33 says the Jews wanted to stone Him for blasphemy and because He, being a man, made Himself God.",
+          "verseReference": "John 10:33",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-10-easy-q14",
+          "question": "Complete this verse from John 10:34: 'Is it not written in your law, I said, Ye are ________?'",
+          "type": "fill-blank",
+          "options": [
+            "gods",
+            "shepherds",
+            "strangers",
+            "wolves"
+          ],
+          "correctAnswer": "gods",
+          "explanation": "John 10:34 quotes scripture saying, 'I said, Ye are gods.'",
+          "verseReference": "John 10:34",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-10-easy-q15",
+          "question": "According to John 10:41, what did many say about John the Baptist?",
+          "type": "multiple-choice",
+          "options": [
+            "John did no miracle but his words about Jesus were true",
+            "John was a prophet",
+            "John was the Messiah",
+            "John was a hireling"
+          ],
+          "correctAnswer": "John did no miracle but his words about Jesus were true",
+          "explanation": "John 10:41 states many said John did no miracle but all he spoke about Jesus was true.",
+          "verseReference": "John 10:41",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "john-10-quiz",
+      "tags": [
+        "john",
+        "chapter-10",
+        "john",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "john-10-medium",
+      "title": "John Chapter 10 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from John Chapter 10 to real-life situations.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 10,
+      "questions": [
+        {
+          "id": "john-10-medium-q1",
+          "question": "A fellow believer is struggling with fear and doubt about following Jesus. Based on John 10, what biblical truth would you share about trusting Jesus as the shepherd?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus is the good shepherd who knows His sheep and leads them safely",
+            "Jesus is a stranger whose voice the sheep do not recognize",
+            "Jesus is a hired worker who flees when danger comes",
+            "Jesus is a thief who seeks to steal and destroy"
+          ],
+          "correctAnswer": "Jesus is the good shepherd who knows His sheep and leads them safely",
+          "explanation": "John 10:11,14-15 explain that Jesus is the good shepherd who knows His sheep, lays down His life for them, and leads them. This teaches us to trust Jesus for safety and guidance.",
+          "verseReference": "John 10:11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-10-medium-q2",
+          "question": "How does John 10 teach about the importance of recognizing and obeying the voice of Jesus in our spiritual life?",
+          "type": "multiple-choice",
+          "options": [
+            "Sheep hear the shepherd's voice and follow him because they know it",
+            "Sheep follow any voice they hear in the field",
+            "Sheep ignore their shepherd and listen to strangers",
+            "Sheep only follow the loudest voice they hear"
+          ],
+          "correctAnswer": "Sheep hear the shepherd's voice and follow him because they know it",
+          "explanation": "John 10:3-5 show that the sheep hear the shepherd's voice, recognize it, and follow him, but they flee from strangers. This teaches believers to discern and obey Jesus' voice.",
+          "verseReference": "John 10:3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-10-medium-q3",
+          "question": "A believer is concerned about eternal security and fears losing salvation. What assurance does John 10 provide?",
+          "type": "multiple-choice",
+          "options": [
+            "No one can snatch the sheep out of Jesus' or the Father's hand",
+            "Salvation depends on constant human effort and is easily lost",
+            "The sheep can be plucked out by strangers if they are not careful",
+            "Salvation is temporary and can be revoked at any time"
+          ],
+          "correctAnswer": "No one can snatch the sheep out of Jesus' or the Father's hand",
+          "explanation": "John 10:28-29 teaches that Jesus gives eternal life and no one can take the sheep from His or the Father's hand, giving believers assurance of eternal security.",
+          "verseReference": "John 10:28",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-10-medium-q4",
+          "question": "How does Jesus describe those who try to come into the sheepfold by other ways besides the door, and what practical lesson does this teach about integrity?",
+          "type": "multiple-choice",
+          "options": [
+            "They are thieves and robbers, showing the importance of honest ways",
+            "They are faithful shepherds caring for the sheep",
+            "They are protectors who guard the sheep",
+            "They are helpers invited by the shepherd"
+          ],
+          "correctAnswer": "They are thieves and robbers, showing the importance of honest ways",
+          "explanation": "John 10:1 explains that entering by other ways makes one a thief and robber, teaching believers to act with honesty and integrity in all matters.",
+          "verseReference": "John 10:1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-10-medium-q5",
+          "question": "A church member is neglecting service because they only care for themselves. What warning from John 10 can help correct this attitude?",
+          "type": "multiple-choice",
+          "options": [
+            "The hireling flees when the wolf comes because he does not care for the sheep",
+            "The good shepherd lays down his life for the sheep",
+            "The sheep follow the voice of the shepherd",
+            "The door leads to pasture and safety"
+          ],
+          "correctAnswer": "The hireling flees when the wolf comes because he does not care for the sheep",
+          "explanation": "John 10:12-13 warn that the hireling, who is not the shepherd, flees and leaves the sheep vulnerable, highlighting the need for genuine care and responsibility in service.",
+          "verseReference": "John 10:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-10-medium-q6",
+          "question": "What does Jesus say about the purpose of His coming, and how does this relate to Christian hope in daily life?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus came that we might have life and have it more abundantly",
+            "Jesus came only to judge and condemn",
+            "Jesus came to bring fear and uncertainty",
+            "Jesus came to impose strict laws without mercy"
+          ],
+          "correctAnswer": "Jesus came that we might have life and have it more abundantly",
+          "explanation": "John 10:10 teaches that Jesus came to give abundant life, encouraging believers to live with hope and joy despite trials.",
+          "verseReference": "John 10:10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-10-medium-q7",
+          "question": "According to John 10, how should believers respond to the works Jesus has done as evidence of His identity?",
+          "type": "multiple-choice",
+          "options": [
+            "Believe in Jesus because His works testify of Him",
+            "Reject Jesus regardless of His works",
+            "Ignore Jesus' works and focus only on words",
+            "Wait for others to believe first"
+          ],
+          "correctAnswer": "Believe in Jesus because His works testify of Him",
+          "explanation": "John 10:25 and 10:38 emphasize that Jesus' works bear witness to His identity and believers are called to trust Him based on these works.",
+          "verseReference": "John 10:25",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-10-medium-q8",
+          "question": "A believer faces opposition for their faith. How does John 10 encourage perseverance through trials?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus has power to lay down His life and take it again, showing control over suffering",
+            "Believers should avoid all trials to stay safe",
+            "Opposition means God has abandoned them",
+            "They should give up if persecution is too hard"
+          ],
+          "correctAnswer": "Jesus has power to lay down His life and take it again, showing control over suffering",
+          "explanation": "John 10:17-18 shows Jesus' voluntary sacrifice and authority over life and death, encouraging believers to trust God’s control despite trials.",
+          "verseReference": "John 10:18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-10-medium-q9",
+          "question": "How does Jesus' statement 'I and my Father are one' (John 10:30) teach humility and reverence in Christian life?",
+          "type": "multiple-choice",
+          "options": [
+            "It reveals Jesus' unity with God, calling for reverence and submission",
+            "It means Jesus is separate and unrelated to God",
+            "It suggests believers can be equal to God",
+            "It implies God and Jesus are rivals"
+          ],
+          "correctAnswer": "It reveals Jesus' unity with God, calling for reverence and submission",
+          "explanation": "John 10:30 shows Jesus' divine unity with the Father, teaching believers to approach Him with humility and worship.",
+          "verseReference": "John 10:30",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-10-medium-q10",
+          "question": "True or False: According to John 10, the sheep will follow any voice they hear, even if it is a stranger's voice.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 10:5 states that sheep will not follow a stranger's voice but will flee from it because they do not recognize it.",
+          "verseReference": "John 10:5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-10-medium-q11",
+          "question": "True or False: Jesus claims that He is the door to the sheepfold and that anyone entering by Him will be saved and find pasture.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 10:7-9 clearly states Jesus is the door, and those who enter by Him will be saved and have access to pasture, symbolizing safety and provision.",
+          "verseReference": "John 10:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-10-medium-q12",
+          "question": "Fill in the blank: Jesus says, 'My sheep hear my _______, and I know them, and they follow me.'",
+          "type": "fill-blank",
+          "options": [
+            "voice",
+            "word",
+            "command",
+            "name"
+          ],
+          "correctAnswer": "voice",
+          "explanation": "John 10:27 states that Jesus' sheep hear His voice, know Him, and follow Him, highlighting the importance of listening and obedience.",
+          "verseReference": "John 10:27",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-10-medium-q13",
+          "question": "How does John 10 illustrate the biblical virtue of sacrificial love in family and community life?",
+          "type": "multiple-choice",
+          "options": [
+            "The good shepherd lays down his life for the sheep",
+            "The hireling runs away when danger comes",
+            "The thief climbs up another way to steal",
+            "The stranger calls the sheep by name"
+          ],
+          "correctAnswer": "The good shepherd lays down his life for the sheep",
+          "explanation": "John 10:11 teaches that sacrificial love involves willingly giving oneself for others, a principle applicable in family and community relationships.",
+          "verseReference": "John 10:11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-10-medium-q14",
+          "question": "A believer is struggling with recognizing false teachings. What does John 10 teach about discerning true leadership in the church?",
+          "type": "multiple-choice",
+          "options": [
+            "True shepherds enter by the door and the sheep hear their voice",
+            "False teachers sneak in by the door to deceive",
+            "The hireling protects the sheep at all costs",
+            "Strangers’ voices are always trustworthy"
+          ],
+          "correctAnswer": "True shepherds enter by the door and the sheep hear their voice",
+          "explanation": "John 10:1-3 clarifies that true leaders enter legitimately and the sheep recognize their voice, helping believers discern authentic spiritual guidance.",
+          "verseReference": "John 10:1",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-10-medium-q15",
+          "question": "What practical lesson about trust in God’s provision can be drawn from Jesus stating, 'I am the door: by me if any man enter in, he shall... find pasture'?",
+          "type": "multiple-choice",
+          "options": [
+            "Trusting Jesus leads to spiritual nourishment and safety",
+            "Trusting Jesus leads to hardship and want",
+            "Trusting in wealth is more important than trusting Jesus",
+            "Pasture is irrelevant to spiritual life"
+          ],
+          "correctAnswer": "Trusting Jesus leads to spiritual nourishment and safety",
+          "explanation": "John 10:9 teaches that entering through Jesus the door leads to salvation and provision, encouraging believers to rely on Him for their needs.",
+          "verseReference": "John 10:9",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "john-10-quiz",
+      "tags": [
+        "john",
+        "chapter-10",
+        "john",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "john-10-hard",
+      "title": "John Chapter 10 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from John Chapter 10.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 10,
+      "questions": [
+        {
+          "id": "john-10-hard-q1",
+          "question": "In John 10, Jesus refers to Himself as 'the door of the sheep.' What Old Testament imagery is He invoking by this metaphor?",
+          "type": "multiple-choice",
+          "options": [
+            "The protective gates of the Israelite temple",
+            "The door of the tabernacle in the wilderness",
+            "The entrance to the sheepfold as in Psalm 23",
+            "The gate of the city of Jerusalem"
+          ],
+          "correctAnswer": "The entrance to the sheepfold as in Psalm 23",
+          "explanation": "Jesus uses the door of the sheepfold imagery (John 10:7-9) which parallels Psalm 23 where the shepherd leads his sheep to pasture, emphasizing safety and access to life.",
+          "verseReference": "John 10:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-hard-q2",
+          "question": "What is the significance of Jesus stating, 'I and my Father are one' in John 10:30 in the context of Jewish monotheism?",
+          "type": "multiple-choice",
+          "options": [
+            "He claims equality with God, a statement understood as blasphemy by His audience",
+            "He means they have the same mission but are distinct beings",
+            "He is emphasizing His role as a prophet like Moses",
+            "He is declaring political unity with the Jewish leaders"
+          ],
+          "correctAnswer": "He claims equality with God, a statement understood as blasphemy by His audience",
+          "explanation": "In John 10:30, Jesus’ claim to oneness with the Father challenges Jewish monotheism and leads to accusations of blasphemy (John 10:31-33), indicating His divine nature.",
+          "verseReference": "John 10:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-hard-q3",
+          "question": "In John 10:11-13, Jesus contrasts Himself as the good shepherd with the hireling. What Old Testament passage does this shepherd imagery recall?",
+          "type": "multiple-choice",
+          "options": [
+            "Ezekiel 34, where God condemns bad shepherds of Israel",
+            "Genesis 37, Joseph as a shepherd",
+            "Psalm 23, The Lord as Shepherd",
+            "Isaiah 40, The shepherd who tends his flock"
+          ],
+          "correctAnswer": "Ezekiel 34, where God condemns bad shepherds of Israel",
+          "explanation": "The hireling imagery in John 10:11-13 echoes Ezekiel 34's condemnation of unfaithful shepherds, underscoring Jesus' role as the true protector of God’s people.",
+          "verseReference": "John 10:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-hard-q4",
+          "question": "How does the Greek word for 'hireling' (μισθωτός, misthōtos) used in John 10:12 enrich the meaning of the passage?",
+          "type": "multiple-choice",
+          "options": [
+            "It implies a paid worker lacking personal commitment to the sheep",
+            "It means a slave bound to serve regardless of danger",
+            "It signifies a family member caring for the sheep",
+            "It denotes a thief who steals sheep"
+          ],
+          "correctAnswer": "It implies a paid worker lacking personal commitment to the sheep",
+          "explanation": "The term 'hireling' (μισθωτός) in John 10:12 highlights someone motivated only by wages, not genuine care, contrasting with the good shepherd's sacrificial love.",
+          "verseReference": "John 10:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-hard-q5",
+          "question": "Which literary device is primarily used by Jesus in John 10:1-6 when describing the door and the shepherd?",
+          "type": "multiple-choice",
+          "options": [
+            "Parable",
+            "Allegory",
+            "Simile",
+            "Hyperbole"
+          ],
+          "correctAnswer": "Parable",
+          "explanation": "Jesus uses a parable in John 10:1-6 to illustrate spiritual truths about leadership, safety, and salvation through earthly imagery familiar to His audience.",
+          "verseReference": "John 10:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-hard-q6",
+          "question": "What theological theme in John 10:28-29 emphasizes the security of the believer?",
+          "type": "multiple-choice",
+          "options": [
+            "Eternal security and divine protection",
+            "Human free will and choice",
+            "Moral accountability",
+            "Church discipline"
+          ],
+          "correctAnswer": "Eternal security and divine protection",
+          "explanation": "Jesus promises eternal life and that no one can snatch His sheep from His or the Father's hand (John 10:28-29), highlighting the theme of eternal security.",
+          "verseReference": "John 10:28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-hard-q7",
+          "question": "How does the statement in John 10:18 about Jesus laying down His life 'of myself' foreshadow New Testament Christology?",
+          "type": "multiple-choice",
+          "options": [
+            "It anticipates the voluntary nature of His sacrificial death",
+            "It denies His death altogether",
+            "It emphasizes His weakness",
+            "It refers to His resurrection only"
+          ],
+          "correctAnswer": "It anticipates the voluntary nature of His sacrificial death",
+          "explanation": "John 10:18 emphasizes Jesus’ sovereign authority to lay down His life, prefiguring the voluntary atonement central to Christian Christology.",
+          "verseReference": "John 10:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-hard-q8",
+          "question": "What is the cultural significance of sheep and shepherd imagery in the ancient Near East as reflected in John 10?",
+          "type": "multiple-choice",
+          "options": [
+            "Sheep represented wealth and shepherds were figures of leadership and care",
+            "Sheep were considered unclean animals",
+            "Shepherds were despised and avoided by society",
+            "Sheepfolds were military fortresses"
+          ],
+          "correctAnswer": "Sheep represented wealth and shepherds were figures of leadership and care",
+          "explanation": "In the ancient Near East, sheep were valuable property and shepherds symbolized responsible leadership, which Jesus leverages in John 10 to reveal His role as protector.",
+          "verseReference": "John 10:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-hard-q9",
+          "question": "In John 10:16, Jesus speaks of 'other sheep not of this fold.' What is the broader biblical implication of this statement?",
+          "type": "multiple-choice",
+          "options": [
+            "Inclusion of Gentiles into God's people",
+            "Exclusion of Jews from salvation",
+            "Reference to a future messianic king",
+            "A parable about false teachers"
+          ],
+          "correctAnswer": "Inclusion of Gentiles into God's people",
+          "explanation": "John 10:16 foreshadows the inclusion of Gentiles alongside Jews in the one flock under one shepherd, expanding salvation beyond Israel.",
+          "verseReference": "John 10:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-hard-q10",
+          "question": "What is the significance of the feast of the dedication mentioned in John 10:22 regarding Jesus’ discourse?",
+          "type": "multiple-choice",
+          "options": [
+            "It is Hanukkah, commemorating temple rededication, underscoring Jesus’ claim as the true temple's shepherd",
+            "It is Passover, highlighting Jesus as the Lamb",
+            "It is Pentecost, symbolizing the Spirit’s arrival",
+            "It is Sukkot, signifying dwelling with God"
+          ],
+          "correctAnswer": "It is Hanukkah, commemorating temple rededication, underscoring Jesus’ claim as the true temple's shepherd",
+          "explanation": "John 10:22 places Jesus’ teaching during the Feast of Dedication (Hanukkah), which celebrates temple purification, reinforcing His role as the true shepherd and temple.",
+          "verseReference": "John 10:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-hard-q11",
+          "question": "According to John 10:27, what evidences a true disciple of Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "Hearing His voice, being known by Him, and following Him",
+            "Performing miracles",
+            "Observing strict ritual laws",
+            "Publicly preaching"
+          ],
+          "correctAnswer": "Hearing His voice, being known by Him, and following Him",
+          "explanation": "John 10:27 identifies true disciples by their response to Jesus’ voice, their relationship with Him, and their obedience.",
+          "verseReference": "John 10:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-hard-q12",
+          "question": "What reason do the Jews give for attempting to stone Jesus in John 10:31-33, and how does it reflect their interpretation of His claims?",
+          "type": "multiple-choice",
+          "options": [
+            "Blasphemy, because He, a man, makes Himself God",
+            "Political sedition against Rome",
+            "Teaching false doctrine about the Law",
+            "Breaking Sabbath laws"
+          ],
+          "correctAnswer": "Blasphemy, because He, a man, makes Himself God",
+          "explanation": "In John 10:33, the Jews accuse Jesus of blasphemy for His divine claims, demonstrating their rejection of His messianic identity.",
+          "verseReference": "John 10:33",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-hard-q13",
+          "question": "How does Jesus use Psalm 82:6 in John 10:34 to defend His claim of divinity?",
+          "type": "multiple-choice",
+          "options": [
+            "He points out that scripture refers to humans as 'gods,' so His claim is not blasphemous",
+            "He denies using the title 'Son of God'",
+            "He claims Psalm 82 supports His resurrection",
+            "He questions the authority of the Old Testament"
+          ],
+          "correctAnswer": "He points out that scripture refers to humans as 'gods,' so His claim is not blasphemous",
+          "explanation": "John 10:34 references Psalm 82:6 to argue that if scripture applies 'gods' to humans, His divine sonship claim is consistent, challenging the blasphemy charge.",
+          "verseReference": "John 10:34",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-hard-q14",
+          "question": "What does the division among the Jews in John 10:19 reveal about the reception of Jesus' teaching?",
+          "type": "multiple-choice",
+          "options": [
+            "His message was controversial and divided opinions",
+            "Everyone accepted Him immediately",
+            "They ignored Him completely",
+            "They unanimously condemned Him"
+          ],
+          "correctAnswer": "His message was controversial and divided opinions",
+          "explanation": "John 10:19 shows that Jesus’ claims caused division, indicating the polarizing nature of His identity and teachings.",
+          "verseReference": "John 10:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-hard-q15",
+          "question": "True or False: According to John 10:41, John the Baptist performed miracles to validate his testimony about Jesus.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 10:41 states that John the Baptist did no miracles, but his testimony about Jesus was true.",
+          "verseReference": "John 10:41",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "john-10-quiz",
+      "tags": [
+        "john",
+        "chapter-10",
+        "john",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "john-10-theological",
+      "title": "John Chapter 10 Quiz - Theological Level",
+      "description": "Deep biblical theology from John Chapter 10 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 10,
+      "questions": [
+        {
+          "id": "john-10-theological-q1",
+          "question": "According to John 10, what is the significance of Jesus stating 'I am the door of the sheep'?",
+          "type": "multiple-choice",
+          "options": [
+            "He is the exclusive means of salvation and access to God",
+            "He is simply a gatekeeper among many",
+            "He offers a metaphor for political leadership",
+            "He is a symbol of tradition and law"
+          ],
+          "correctAnswer": "He is the exclusive means of salvation and access to God",
+          "explanation": "John 10:7-9 presents Jesus as the exclusive door to salvation, promising that through Him one shall be saved and find pasture. This aligns with passages like Acts 4:12 and Isaiah 35:8 which emphasize the exclusivity of God's provision for salvation.",
+          "verseReference": "John 10:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-theological-q2",
+          "question": "What does Jesus mean by 'My sheep hear my voice, and I know them, and they follow me' in John 10?",
+          "type": "multiple-choice",
+          "options": [
+            "True believers recognize and respond to Christ's call",
+            "Sheep literally understand human speech",
+            "Only a few chosen hear the voice",
+            "Following is based on fear"
+          ],
+          "correctAnswer": "True believers recognize and respond to Christ's call",
+          "explanation": "John 10:27 highlights the intimate knowledge between Christ and His followers, symbolizing the relationship between the believer and the Savior. This correlates with passages such as Ezekiel 34:11-16 and Psalm 23 which depict God's care for His people.",
+          "verseReference": "John 10:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-theological-q3",
+          "question": "In John 10, how is the 'hireling' contrasted with the 'good shepherd'?",
+          "type": "multiple-choice",
+          "options": [
+            "The hireling flees at danger, while the good shepherd sacrifices for the sheep",
+            "The hireling works harder than the shepherd",
+            "The hireling protects the sheep better",
+            "The hireling is more knowledgeable"
+          ],
+          "correctAnswer": "The hireling flees at danger, while the good shepherd sacrifices for the sheep",
+          "explanation": "John 10:11-13 contrasts the selfless sacrifice of the good shepherd who lays down his life with the hireling who abandons the sheep for fear. This reflects the servant leadership model seen in Isaiah 53:7 and Philippians 2:6-8.",
+          "verseReference": "John 10:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-theological-q4",
+          "question": "What theological truth is affirmed when Jesus says, 'I and my Father are one' in John 10?",
+          "type": "multiple-choice",
+          "options": [
+            "The unity of essence and purpose between Jesus and God the Father",
+            "Jesus is a mere prophet",
+            "Jesus is subordinate to the Father",
+            "Jesus is a created being"
+          ],
+          "correctAnswer": "The unity of essence and purpose between Jesus and God the Father",
+          "explanation": "John 10:30 declares the divine unity, supporting the doctrine of the Trinity, consistent with passages such as John 1:1 and Colossians 2:9 affirming Christ's divinity and oneness with the Father.",
+          "verseReference": "John 10:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-theological-q5",
+          "question": "According to John 10, why do the Jews accuse Jesus of blasphemy?",
+          "type": "multiple-choice",
+          "options": [
+            "Because He, being a man, calls Himself God",
+            "Because He broke the Sabbath",
+            "Because He claimed to be a prophet",
+            "Because He healed on the temple grounds"
+          ],
+          "correctAnswer": "Because He, being a man, calls Himself God",
+          "explanation": "John 10:33 shows the Jews accusing Jesus of blasphemy due to His claim of divinity. This is consistent with the Old Testament law on blasphemy (Leviticus 24:16) and the New Testament affirmation of Christ's divine identity (Hebrews 1:3).",
+          "verseReference": "John 10:33",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-theological-q6",
+          "question": "How does Jesus defend His claim to be the Son of God in John 10?",
+          "type": "multiple-choice",
+          "options": [
+            "By pointing to His works as witness",
+            "By quoting Old Testament prophets only",
+            "By denying the charge outright",
+            "By appealing to popular opinion"
+          ],
+          "correctAnswer": "By pointing to His works as witness",
+          "explanation": "In John 10:37-38, Jesus invites His listeners to believe in His works as evidence of His divine mission, paralleling themes in John 5:36 and Romans 1:4 where divine authority is confirmed through miracles and resurrection.",
+          "verseReference": "John 10:37",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-theological-q7",
+          "question": "What does Jesus mean when He says, 'I lay down my life, that I might take it again' in John 10?",
+          "type": "multiple-choice",
+          "options": [
+            "He voluntarily sacrifices Himself and has authority over life and death",
+            "He is uncertain about His fate",
+            "He expects someone else to save Him",
+            "He refers to a metaphorical death"
+          ],
+          "correctAnswer": "He voluntarily sacrifices Himself and has authority over life and death",
+          "explanation": "John 10:17-18 emphasizes Christ's sovereign authority to lay down and take up His life, affirming His voluntary and redemptive death, consistent with Isaiah 53:10 and Philippians 2:8.",
+          "verseReference": "John 10:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-theological-q8",
+          "question": "What does John 10 reveal about the security of believers in Christ?",
+          "type": "multiple-choice",
+          "options": [
+            "No one can snatch them from Jesus or the Father’s hand",
+            "Believers must constantly fight to maintain their salvation",
+            "Salvation is temporary and uncertain",
+            "Believers depend solely on their own strength"
+          ],
+          "correctAnswer": "No one can snatch them from Jesus or the Father’s hand",
+          "explanation": "John 10:28-29 assures eternal security for believers, reflecting the doctrine of perseverance of the saints and God's sovereign protection, in harmony with Romans 8:38-39 and Ephesians 1:13-14.",
+          "verseReference": "John 10:28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-theological-q9",
+          "question": "In John 10, what does the 'other sheep' mentioned by Jesus represent?",
+          "type": "multiple-choice",
+          "options": [
+            "Gentiles or believers outside the Jewish fold who will be united in one flock",
+            "Literal sheep from another pasture",
+            "False teachers",
+            "Angels in heaven"
+          ],
+          "correctAnswer": "Gentiles or believers outside the Jewish fold who will be united in one flock",
+          "explanation": "John 10:16 speaks of other sheep not of this fold, indicating the inclusion of Gentiles into God's people, a theme consistent with Ephesians 2:14-16 and Isaiah 56:6-8 on the inclusion of the nations.",
+          "verseReference": "John 10:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-theological-q10",
+          "question": "What is the primary purpose of the thief coming, according to Jesus in John 10?",
+          "type": "multiple-choice",
+          "options": [
+            "To steal, kill, and destroy",
+            "To bring peace and life",
+            "To heal and restore",
+            "To preach repentance"
+          ],
+          "correctAnswer": "To steal, kill, and destroy",
+          "explanation": "John 10:10 contrasts the thief’s destructive purpose with Jesus’ mission to give abundant life, resonating with 1 Peter 5:8 on the enemy’s intent and John 14:6 on Jesus as the life-giver.",
+          "verseReference": "John 10:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-theological-q11",
+          "question": "How does John 10 describe the relationship between Jesus and the Father?",
+          "type": "multiple-choice",
+          "options": [
+            "They are one in essence and purpose",
+            "They are distant and unrelated",
+            "The Father is subordinate to Jesus",
+            "They disagree on salvation"
+          ],
+          "correctAnswer": "They are one in essence and purpose",
+          "explanation": "John 10:30 states 'I and my Father are one,' asserting the unity of Jesus and the Father, reflecting Trinitarian doctrine as supported by John 1:1 and Hebrews 1:3.",
+          "verseReference": "John 10:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-theological-q12",
+          "question": "What role does Jesus claim in relation to the sheep in John 10?",
+          "type": "multiple-choice",
+          "options": [
+            "He is the good shepherd who knows, protects, and lays down His life for the sheep",
+            "He is a hired hand indifferent to the sheep",
+            "He is an overseer who counts the sheep",
+            "He is a stranger to the sheep"
+          ],
+          "correctAnswer": "He is the good shepherd who knows, protects, and lays down His life for the sheep",
+          "explanation": "John 10:11 and 14 describe Jesus as the good shepherd who intimately knows and sacrifices for His sheep, paralleling Psalm 23 and Ezekiel 34 emphasizing God's pastoral care.",
+          "verseReference": "John 10:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-theological-q13",
+          "question": "What response did Jesus’ claims in John 10 provoke among the Jews?",
+          "type": "multiple-choice",
+          "options": [
+            "They were divided, some accusing Him of madness or possession, others marveling at His works",
+            "They unanimously accepted Him as the Messiah",
+            "They ignored Him completely",
+            "They immediately arrested Him"
+          ],
+          "correctAnswer": "They were divided, some accusing Him of madness or possession, others marveling at His works",
+          "explanation": "John 10:19-21 records the division among the Jews with accusations of madness and demonic possession contrasted with acknowledgments of His miracles, aligning with reactions to prophets in 1 Kings 18 and Acts 3.",
+          "verseReference": "John 10:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-theological-q14",
+          "question": "In John 10, what is the significance of Jesus walking in Solomon's porch during the feast of dedication?",
+          "type": "multiple-choice",
+          "options": [
+            "It situates Jesus in the temple during a major Jewish festival, highlighting His public ministry and confrontation",
+            "It shows He was avoiding crowds",
+            "It implies He was celebrating pagan rites",
+            "It indicates He was traveling outside Jerusalem"
+          ],
+          "correctAnswer": "It situates Jesus in the temple during a major Jewish festival, highlighting His public ministry and confrontation",
+          "explanation": "John 10:22-23 places Jesus in the temple during the Feast of Dedication (Hanukkah), a significant Jewish festival, emphasizing His role in public teaching and foreshadowing conflict, consistent with themes in Luke 2:41-42 and John 7:14.",
+          "verseReference": "John 10:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-10-theological-q15",
+          "question": "What does Jesus say is the witness that validates His identity as the Christ in John 10?",
+          "type": "multiple-choice",
+          "options": [
+            "The works He does in His Father's name",
+            "The testimony of the Pharisees",
+            "The political support He receives",
+            "The number of His followers"
+          ],
+          "correctAnswer": "The works He does in His Father's name",
+          "explanation": "John 10:25 asserts that Jesus’ miraculous works bear witness to His divine identity, aligning with John 5:36 and Acts 2:22 which emphasize miracles as authenticating His messianic role.",
+          "verseReference": "John 10:25",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "john-10-quiz",
+      "tags": [
+        "john",
+        "chapter-10",
+        "john",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

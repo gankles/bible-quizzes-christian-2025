@@ -1,0 +1,981 @@
+{
+  "id": "luke-16-tabbed",
+  "title": "Luke Chapter 16 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Luke chapter 16 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "luke-16-easy",
+      "title": "Luke Chapter 16 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Luke Chapter 16.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 16,
+      "questions": [
+        {
+          "id": "luke-16-easy-q1",
+          "question": "Who was accused of wasting his goods in Luke 16?",
+          "type": "multiple-choice",
+          "options": [
+            "The steward",
+            "The rich man",
+            "The Pharisees",
+            "Lazarus"
+          ],
+          "correctAnswer": "The steward",
+          "explanation": "Luke 16:1 states that the steward was accused of wasting his goods.",
+          "verseReference": "Luke 16:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-16-easy-q2",
+          "question": "What did the rich man ask the steward to do regarding his stewardship?",
+          "type": "multiple-choice",
+          "options": [
+            "Give an account of thy stewardship",
+            "Leave immediately",
+            "Beg for forgiveness",
+            "Sell his goods"
+          ],
+          "correctAnswer": "Give an account of thy stewardship",
+          "explanation": "Luke 16:2 shows the rich man calling the steward and asking for an account of his stewardship.",
+          "verseReference": "Luke 16:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-16-easy-q3",
+          "question": "Why did the steward say he could not dig or beg?",
+          "type": "multiple-choice",
+          "options": [
+            "He was ashamed to beg",
+            "He was physically unable to dig",
+            "He was afraid",
+            "He refused to work"
+          ],
+          "correctAnswer": "He was ashamed to beg",
+          "explanation": "In Luke 16:3, the steward says he cannot dig and that he is ashamed to beg.",
+          "verseReference": "Luke 16:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-16-easy-q4",
+          "question": "What was the steward's plan to secure a place to live after losing his stewardship?",
+          "type": "multiple-choice",
+          "options": [
+            "To make friends by reducing debts owed to his lord",
+            "To start begging on the streets",
+            "To take over his lord's property",
+            "To sell his belongings"
+          ],
+          "correctAnswer": "To make friends by reducing debts owed to his lord",
+          "explanation": "Luke 16:4-7 describe the steward's plan to reduce debts owed to his lord so that debtors would welcome him.",
+          "verseReference": "Luke 16:4-7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-16-easy-q5",
+          "question": "How much did the steward reduce the debt of the first debtor who owed oil?",
+          "type": "multiple-choice",
+          "options": [
+            "Fifty measures",
+            "One hundred measures",
+            "Eighty measures",
+            "Ten measures"
+          ],
+          "correctAnswer": "Fifty measures",
+          "explanation": "Luke 16:6 states the steward reduced the oil debt from one hundred to fifty measures.",
+          "verseReference": "Luke 16:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-16-easy-q6",
+          "question": "Why did the lord commend the unjust steward?",
+          "type": "multiple-choice",
+          "options": [
+            "Because he had done wisely",
+            "Because he was honest",
+            "Because he was faithful",
+            "Because he returned the goods"
+          ],
+          "correctAnswer": "Because he had done wisely",
+          "explanation": "Luke 16:8 says the lord commended the unjust steward for having acted wisely.",
+          "verseReference": "Luke 16:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-16-easy-q7",
+          "question": "Who are wiser, according to Luke 16:8?",
+          "type": "multiple-choice",
+          "options": [
+            "Children of this world",
+            "Children of light",
+            "Pharisees",
+            "The disciples"
+          ],
+          "correctAnswer": "Children of this world",
+          "explanation": "Luke 16:8 states children of this world are wiser in their generation than children of light.",
+          "verseReference": "Luke 16:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-16-easy-q8",
+          "question": "What should one make friends of, according to Luke 16:9?",
+          "type": "multiple-choice",
+          "options": [
+            "The mammon of unrighteousness",
+            "The law and the prophets",
+            "Faith and hope",
+            "Gold and silver"
+          ],
+          "correctAnswer": "The mammon of unrighteousness",
+          "explanation": "Luke 16:9 instructs to make friends of the mammon of unrighteousness to be received into everlasting habitations.",
+          "verseReference": "Luke 16:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-16-easy-q9",
+          "question": "Fill in the blank from Luke 16:10: 'He that is faithful in that which is least is faithful also in ______'.",
+          "type": "fill-blank",
+          "options": [
+            "much",
+            "little",
+            "few",
+            "many"
+          ],
+          "correctAnswer": "much",
+          "explanation": "Luke 16:10 says he that is faithful in least is faithful also in much.",
+          "verseReference": "Luke 16:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-16-easy-q10",
+          "question": "According to Luke 16:13, can a servant serve two masters?",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Luke 16:13 states no servant can serve two masters; you cannot serve God and mammon.",
+          "verseReference": "Luke 16:13",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-16-easy-q11",
+          "question": "How did the Pharisees react to Jesus' teachings in Luke 16:14?",
+          "type": "multiple-choice",
+          "options": [
+            "They derided him",
+            "They believed him",
+            "They ignored him",
+            "They followed him"
+          ],
+          "correctAnswer": "They derided him",
+          "explanation": "Luke 16:14 states the Pharisees, who were covetous, derided Jesus after hearing his words.",
+          "verseReference": "Luke 16:14",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-16-easy-q12",
+          "question": "True or False: According to Luke 16:17, a tittle of the law can fail before heaven and earth pass.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Luke 16:17 says it is easier for heaven and earth to pass than one tittle of the law to fail.",
+          "verseReference": "Luke 16:17",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-16-easy-q13",
+          "question": "What was the rich man in Luke 16 clothed in?",
+          "type": "multiple-choice",
+          "options": [
+            "Purple and fine linen",
+            "Rags and cloth",
+            "Wool and camel hair",
+            "Silk and gold"
+          ],
+          "correctAnswer": "Purple and fine linen",
+          "explanation": "Luke 16:19 describes the rich man as clothed in purple and fine linen.",
+          "verseReference": "Luke 16:19",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-16-easy-q14",
+          "question": "Where was Lazarus laid, according to Luke 16?",
+          "type": "multiple-choice",
+          "options": [
+            "At the rich man's gate",
+            "In the synagogue",
+            "In the marketplace",
+            "By the river"
+          ],
+          "correctAnswer": "At the rich man's gate",
+          "explanation": "Luke 16:20 states Lazarus was laid at the rich man's gate, full of sores.",
+          "verseReference": "Luke 16:20",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-16-easy-q15",
+          "question": "True or False: According to Luke 16:31, if people will not listen to Moses and the prophets, they will be persuaded even if one rose from the dead.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Luke 16:31 says if they hear not Moses and the prophets, neither will they be persuaded though one rose from the dead.",
+          "verseReference": "Luke 16:31",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "luke-16-quiz",
+      "tags": [
+        "luke",
+        "chapter-16",
+        "luke",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "luke-16-medium",
+      "title": "Luke Chapter 16 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Luke Chapter 16 to real-life situations.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 16,
+      "questions": [
+        {
+          "id": "luke-16-medium-q1",
+          "question": "A fellow believer is struggling with managing resources honestly at work. Based on Luke 16, what biblical principle would you share about stewardship?",
+          "type": "multiple-choice",
+          "options": [
+            "Be faithful in little things to be trusted with more",
+            "Use resources only for personal gain",
+            "Ignore accountability if it is burdensome",
+            "Delay making any financial decisions"
+          ],
+          "correctAnswer": "Be faithful in little things to be trusted with more",
+          "explanation": "Luke 16:10 teaches that being faithful in little things is essential to being trusted with much. This principle encourages integrity and responsibility in stewardship (Luke 16:10, 16:11, 16:12).",
+          "verseReference": "Luke 16:10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-16-medium-q2",
+          "question": "How does Luke 16 instruct believers on serving God in relation to money?",
+          "type": "multiple-choice",
+          "options": [
+            "You cannot serve God and mammon (wealth)",
+            "Money is the most important master",
+            "Serve money first, then God",
+            "Serve God only if money is abundant"
+          ],
+          "correctAnswer": "You cannot serve God and mammon (wealth)",
+          "explanation": "Luke 16:13 clearly states that no one can serve two masters, emphasizing that serving God and wealth simultaneously is impossible, urging believers to prioritize God over material riches (Luke 16:13, 16:9).",
+          "verseReference": "Luke 16:13",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-16-medium-q3",
+          "question": "A Christian friend asks about using worldly wealth to build lasting relationships. What does Luke 16 teach about this?",
+          "type": "multiple-choice",
+          "options": [
+            "Make friends with worldly wealth for eternal benefit",
+            "Avoid using money to help others",
+            "Store up wealth only for yourself",
+            "Ignore others and focus on wealth accumulation"
+          ],
+          "correctAnswer": "Make friends with worldly wealth for eternal benefit",
+          "explanation": "Luke 16:9 encourages believers to use worldly wealth ('mammon of unrighteousness') to make friends who will welcome them into eternal dwellings, teaching generosity and wise use of resources (Luke 16:9, 16:1-7).",
+          "verseReference": "Luke 16:9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-16-medium-q4",
+          "question": "What warning does Luke 16 give about self-justification and God's judgment?",
+          "type": "multiple-choice",
+          "options": [
+            "God knows your heart even if you justify yourself before men",
+            "Justifying yourself before men is enough",
+            "Only public approval matters",
+            "God ignores hidden motives"
+          ],
+          "correctAnswer": "God knows your heart even if you justify yourself before men",
+          "explanation": "Luke 16:15 teaches that God knows the heart and that self-justification before men does not impress Him; what is esteemed by men may be abomination to God (Luke 16:15, 16:14).",
+          "verseReference": "Luke 16:15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-16-medium-q5",
+          "question": "How does Luke 16 emphasize faithfulness with what belongs to others?",
+          "type": "multiple-choice",
+          "options": [
+            "If you are unfaithful with others' things, you won't receive your own",
+            "You can be unfaithful with others' things without consequence",
+            "Faithfulness only matters with your own possessions",
+            "Being unfaithful with others' things is acceptable"
+          ],
+          "correctAnswer": "If you are unfaithful with others' things, you won't receive your own",
+          "explanation": "Luke 16:12 teaches that faithfulness in handling what belongs to another is required before one is entrusted with their own possessions, stressing accountability and integrity (Luke 16:11, 16:12).",
+          "verseReference": "Luke 16:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-16-medium-q6",
+          "question": "According to Luke 16, what is the consequence of putting away a wife and marrying another?",
+          "type": "multiple-choice",
+          "options": [
+            "Committing adultery",
+            "Receiving a blessing",
+            "Being praised by the community",
+            "Having no consequences"
+          ],
+          "correctAnswer": "Committing adultery",
+          "explanation": "Luke 16:18 clearly states that anyone who divorces his wife and marries another commits adultery, emphasizing the sanctity and permanence of marriage (Luke 16:18).",
+          "verseReference": "Luke 16:18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-16-medium-q7",
+          "question": "What lesson does the parable of the rich man and Lazarus teach about generosity and compassion?",
+          "type": "multiple-choice",
+          "options": [
+            "Ignoring the needy leads to eternal torment",
+            "Wealth guarantees salvation",
+            "Ignoring the poor has no consequences",
+            "Compassion is optional"
+          ],
+          "correctAnswer": "Ignoring the needy leads to eternal torment",
+          "explanation": "The parable in Luke 16:19-31 shows the rich man’s neglect of Lazarus resulting in his torment after death, teaching the importance of compassion and generosity toward the needy (Luke 16:19-24, 16:25-26).",
+          "verseReference": "Luke 16:19",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-16-medium-q8",
+          "question": "True or False: Luke 16 teaches that the law and the prophets were until John, and since then the kingdom of God is preached.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 16:16 states that the law and the prophets were until John the Baptist, and since then the kingdom of God is preached, highlighting the new era of gospel proclamation.",
+          "verseReference": "Luke 16:16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-16-medium-q9",
+          "question": "True or False: According to Luke 16, the Pharisees were pleased and accepted Jesus' teaching about money and faithfulness.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Luke 16:14 records that the Pharisees, who were covetous, heard the teachings and derided Jesus, showing their rejection of His message about money and faithfulness.",
+          "verseReference": "Luke 16:14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-16-medium-q10",
+          "question": "Fill in the blank: The steward who was accused of wasting his master's goods was commended because he had done __________.",
+          "type": "fill-blank",
+          "options": [
+            "wisely",
+            "foolishly",
+            "dishonestly",
+            "carelessly"
+          ],
+          "correctAnswer": "wisely",
+          "explanation": "Luke 16:8 shows that the lord commended the unjust steward because he acted wisely in securing his future, illustrating prudence even in difficult circumstances.",
+          "verseReference": "Luke 16:8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-16-medium-q11",
+          "question": "What does Luke 16 teach about faithfulness in small matters?",
+          "type": "multiple-choice",
+          "options": [
+            "Faithfulness in small matters leads to trust in greater matters",
+            "Small matters are not important",
+            "Faithfulness is only required in big things",
+            "Unfaithfulness in small things is acceptable"
+          ],
+          "correctAnswer": "Faithfulness in small matters leads to trust in greater matters",
+          "explanation": "Luke 16:10 teaches that faithfulness in little matters is a prerequisite for being trusted with more, emphasizing integrity in everyday life (Luke 16:10, 16:11).",
+          "verseReference": "Luke 16:10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-16-medium-q12",
+          "question": "In the parable of the rich man and Lazarus, what does Abraham say about the possibility of crossing the great gulf between them?",
+          "type": "multiple-choice",
+          "options": [
+            "No one can cross from either side",
+            "They can cross anytime they want",
+            "Only angels can cross",
+            "The rich man can cross if he asks"
+          ],
+          "correctAnswer": "No one can cross from either side",
+          "explanation": "Luke 16:26 states there is a great fixed gulf between the places of comfort and torment that no one can cross, illustrating eternal separation based on earthly life choices.",
+          "verseReference": "Luke 16:26",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-16-medium-q13",
+          "question": "How does Luke 16 instruct regarding accountability and testimony to others through family?",
+          "type": "multiple-choice",
+          "options": [
+            "The rich man asked Abraham to send Lazarus to warn his brothers",
+            "Family members are not responsible for each other",
+            "No warning is necessary for family",
+            "Only strangers need to be warned"
+          ],
+          "correctAnswer": "The rich man asked Abraham to send Lazarus to warn his brothers",
+          "explanation": "In Luke 16:27-28, the rich man requests Abraham to send Lazarus to warn his five brothers, emphasizing responsibility to witness and warn family members about spiritual truth.",
+          "verseReference": "Luke 16:27",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-16-medium-q14",
+          "question": "What does Jesus say about those who refuse to listen to Moses and the prophets even if someone rises from the dead?",
+          "type": "multiple-choice",
+          "options": [
+            "They will not be persuaded",
+            "They will immediately repent",
+            "They will believe only after miracles",
+            "They will be confused but convinced"
+          ],
+          "correctAnswer": "They will not be persuaded",
+          "explanation": "Luke 16:31 explains that if people do not listen to Moses and the prophets, they will not be convinced even if someone rises from the dead, underscoring the hardness of their hearts.",
+          "verseReference": "Luke 16:31",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-16-medium-q15",
+          "question": "What does Luke 16 teach about the permanence of God's law?",
+          "type": "multiple-choice",
+          "options": [
+            "It is easier for heaven and earth to pass than one tittle of the law to fail",
+            "The law can be changed at will",
+            "Only parts of the law are permanent",
+            "The law is obsolete"
+          ],
+          "correctAnswer": "It is easier for heaven and earth to pass than one tittle of the law to fail",
+          "explanation": "Luke 16:17 emphasizes the unchanging nature of God's law, stating that not even the smallest part will fail, highlighting the importance of obedience.",
+          "verseReference": "Luke 16:17",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "luke-16-quiz",
+      "tags": [
+        "luke",
+        "chapter-16",
+        "luke",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "luke-16-hard",
+      "title": "Luke Chapter 16 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Luke Chapter 16.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 16,
+      "questions": [
+        {
+          "id": "luke-16-hard-q1",
+          "question": "In Luke 16, what commendation does the lord give to his unjust steward, and what does this reveal about the children of this world compared to the children of light?",
+          "type": "multiple-choice",
+          "options": [
+            "The lord condemned him for dishonesty, showing the children of light are wiser",
+            "The lord commended him for shrewdness, showing the children of this world are wiser in their generation",
+            "The lord ignored his actions, emphasizing faithfulness over cunning",
+            "The lord rewarded him financially, as the children of light are more generous"
+          ],
+          "correctAnswer": "The lord commended him for shrewdness, showing the children of this world are wiser in their generation",
+          "explanation": "Verse Luke 16:8 states the lord commended the unjust steward because he had done wisely, illustrating that worldly people often show more practical wisdom than spiritual ones.",
+          "verseReference": "Luke 16:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-hard-q2",
+          "question": "What is the significance of the phrase \"No servant can serve two masters\" in Luke 16:13 within the context of first-century Jewish society?",
+          "type": "multiple-choice",
+          "options": [
+            "It reflects the impossibility of legal dual citizenship in Roman provinces",
+            "It highlights the exclusive loyalty required between God and wealth, contrasting spiritual devotion with materialism",
+            "It refers to the political tension between Pharisees and Sadducees",
+            "It is a metaphor for the dual roles of priests and kings in Israel"
+          ],
+          "correctAnswer": "It highlights the exclusive loyalty required between God and wealth, contrasting spiritual devotion with materialism",
+          "explanation": "Luke 16:13 teaches that one cannot simultaneously serve God and mammon (wealth), reflecting the cultural and religious tension regarding loyalty that was central to Jewish identity under Roman rule.",
+          "verseReference": "Luke 16:13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-hard-q3",
+          "question": "The parable of the rich man and Lazarus in Luke 16:19-31 serves as a typology foreshadowing which theological concept prominent in later Christian doctrine?",
+          "type": "multiple-choice",
+          "options": [
+            "The resurrection of the dead and final judgment",
+            "The establishment of the Davidic kingdom",
+            "The covenant with Abraham",
+            "The priestly mediation of the Levites"
+          ],
+          "correctAnswer": "The resurrection of the dead and final judgment",
+          "explanation": "The narrative in Luke 16:22-31 depicts post-mortem destinies and a fixed gulf, prefiguring Christian teachings on resurrection and judgment after death.",
+          "verseReference": "Luke 16:22-26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-hard-q4",
+          "question": "How does Luke 16:16 relate the era of the Law and the Prophets to the preaching of the kingdom of God, and what does this imply about the transition in salvation history?",
+          "type": "multiple-choice",
+          "options": [
+            "The Law and Prophets are abolished and replaced by the kingdom",
+            "The Law and Prophets persist alongside the kingdom without conflict",
+            "The Law and Prophets were until John, but since then the kingdom of God is preached, indicating a new covenant era",
+            "The Law and Prophets are irrelevant to the kingdom's arrival"
+          ],
+          "correctAnswer": "The Law and Prophets were until John, but since then the kingdom of God is preached, indicating a new covenant era",
+          "explanation": "Luke 16:16 marks a chronological and theological shift from the Mosaic covenant to the inaugurated kingdom of God, emphasizing John the Baptist as the last herald of the old era.",
+          "verseReference": "Luke 16:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-hard-q5",
+          "question": "What literary device is predominantly used in the parable of the rich man and Lazarus (Luke 16:19-31) to contrast their earthly conditions and eternal fates?",
+          "type": "multiple-choice",
+          "options": [
+            "Chiasmus",
+            "Irony",
+            "Parallelism",
+            "Metaphor"
+          ],
+          "correctAnswer": "Irony",
+          "explanation": "The parable employs irony by depicting the rich man’s earthly comfort contrasted with his eternal torment, while the poor Lazarus suffers now but is comforted after death (Luke 16:19-25).",
+          "verseReference": "Luke 16:19-25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-hard-q6",
+          "question": "In Luke 16:10-12, what principle about stewardship and faithfulness underpins the relationship between unrighteous mammon and true riches?",
+          "type": "multiple-choice",
+          "options": [
+            "Faithfulness in small matters leads to trust in greater, spiritual matters",
+            "Unrighteous mammon is to be avoided at all costs",
+            "True riches are unrelated to stewardship",
+            "Stewardship is only important in earthly wealth"
+          ],
+          "correctAnswer": "Faithfulness in small matters leads to trust in greater, spiritual matters",
+          "explanation": "These verses teach that being trustworthy with worldly wealth (unrighteous mammon) is a prerequisite for being entrusted with true, eternal riches (Luke 16:10-12).",
+          "verseReference": "Luke 16:10-12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-hard-q7",
+          "question": "The interaction between the rich man and Abraham in Luke 16:23-31 reflects which Old Testament motif concerning the afterlife and intercession?",
+          "type": "multiple-choice",
+          "options": [
+            "The concept of Sheol as a place of fixed separation",
+            "The prophetic call for social justice",
+            "The covenantal promises of land",
+            "The priestly atonement rituals"
+          ],
+          "correctAnswer": "The concept of Sheol as a place of fixed separation",
+          "explanation": "The 'great gulf fixed' (Luke 16:26) reflects the Jewish understanding of Sheol as a divided realm, where intercession from the dead is impossible, emphasizing fixed post-mortem destinies.",
+          "verseReference": "Luke 16:26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-hard-q8",
+          "question": "True or False: According to Luke 16:31, even a miraculous resurrection from the dead would persuade those who reject Moses and the prophets to repent.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Luke 16:31 explicitly states that if people do not listen to Moses and the prophets, they would not be convinced even if someone rose from the dead.",
+          "verseReference": "Luke 16:31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-hard-q9",
+          "question": "What Hebrew term underlies the Greek word 'mammon' used in Luke 16:9 and 16:13, and what does its usage imply about the nature of wealth in biblical theology?",
+          "type": "multiple-choice",
+          "options": [
+            "Kesef, implying wealth as a neutral tool",
+            "Otzar, emphasizing treasure or storehouse",
+            "Mammon, indicating wealth as a false master or idol",
+            "Nesheq, meaning silver and purity"
+          ],
+          "correctAnswer": "Mammon, indicating wealth as a false master or idol",
+          "explanation": "The Aramaic term 'mammon' used in Luke conveys wealth as an object of trust or worship that competes with God, often personified as a rival master (Luke 16:13).",
+          "verseReference": "Luke 16:9,13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-hard-q10",
+          "question": "How does the cultural context of the steward’s shame in Luke 16:3 ('I cannot dig; to beg I am ashamed') reflect the social status and dignity associated with certain labor in the ancient Near East?",
+          "type": "multiple-choice",
+          "options": [
+            "Digging was a noble profession only for landowners",
+            "Begging and manual labor were considered degrading for a steward of wealth",
+            "Stewards were expected to beg if dismissed",
+            "Manual labor was reserved for priests"
+          ],
+          "correctAnswer": "Begging and manual labor were considered degrading for a steward of wealth",
+          "explanation": "Luke 16:3 shows the steward’s fear of losing social status, as digging or begging was beneath someone accustomed to managing a rich man’s estate, illustrating honor-shame culture.",
+          "verseReference": "Luke 16:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-hard-q11",
+          "question": "Which Old Testament figures or writings are referenced by Abraham in Luke 16:29 to address the rich man’s concern for his brothers, and what does this imply about the sufficiency of Scripture?",
+          "type": "multiple-choice",
+          "options": [
+            "Moses and the Prophets, implying Scripture is sufficient for repentance",
+            "David and Solomon, emphasizing wisdom literature",
+            "The Psalms and Proverbs, highlighting worship",
+            "Isaiah and Jeremiah, focusing on prophets of exile"
+          ],
+          "correctAnswer": "Moses and the Prophets, implying Scripture is sufficient for repentance",
+          "explanation": "Abraham points to the Law and the Prophets (Luke 16:29) to indicate that the existing Scriptures provide adequate guidance for repentance and salvation.",
+          "verseReference": "Luke 16:29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-hard-q12",
+          "question": "In the teaching of Luke 16:18 about divorce and remarriage, what is the underlying theological principle linked to the Mosaic Law and the concept of adultery?",
+          "type": "multiple-choice",
+          "options": [
+            "Marriage is a temporary contract",
+            "Divorce dissolves the marital bond completely",
+            "Marriage is indissoluble; remarriage after divorce is adultery",
+            "Adultery is only a social offense"
+          ],
+          "correctAnswer": "Marriage is indissoluble; remarriage after divorce is adultery",
+          "explanation": "Luke 16:18 reflects Jesus’ reinforcement of the permanence of marriage as instituted in the Mosaic Law, condemning remarriage after divorce as adultery.",
+          "verseReference": "Luke 16:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-hard-q13",
+          "question": "What does the term 'Abraham's bosom' in Luke 16:22 represent in Jewish eschatology, and how does it contrast with the fate of the rich man?",
+          "type": "multiple-choice",
+          "options": [
+            "A place of torment for sinners",
+            "A metaphor for earthly wealth",
+            "A place of comfort and rest for the righteous dead",
+            "A reference to the temple courtyard"
+          ],
+          "correctAnswer": "A place of comfort and rest for the righteous dead",
+          "explanation": "Luke 16:22 uses 'Abraham's bosom' as a symbolic place of blessedness after death for the righteous like Lazarus, contrasting with the rich man’s torment in Hades.",
+          "verseReference": "Luke 16:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-hard-q14",
+          "question": "How does the motif of 'making friends with unrighteous mammon' in Luke 16:9 function as a foreshadowing of New Testament teaching on stewardship and eternal rewards?",
+          "type": "multiple-choice",
+          "options": [
+            "It encourages greed as a virtue",
+            "It teaches using worldly wealth to secure eternal relationships and rewards",
+            "It dismisses wealth as irrelevant to salvation",
+            "It commands redistribution of wealth to the poor"
+          ],
+          "correctAnswer": "It teaches using worldly wealth to secure eternal relationships and rewards",
+          "explanation": "Luke 16:9 advises believers to wisely use worldly resources to gain friends who will welcome them into eternal dwellings, foreshadowing stewardship principles in later epistles.",
+          "verseReference": "Luke 16:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-hard-q15",
+          "question": "True or False: In Luke 16:14-15, Jesus rebukes the Pharisees for their covetousness and for justifying themselves before men, highlighting God's knowledge of the heart over human esteem.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Jesus criticizes the Pharisees for their greed and self-righteousness in Luke 16:14-15, emphasizing that what is esteemed by people may be abominable to God.",
+          "verseReference": "Luke 16:14-15",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "luke-16-quiz",
+      "tags": [
+        "luke",
+        "chapter-16",
+        "luke",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "luke-16-theological",
+      "title": "Luke Chapter 16 Quiz - Theological Level",
+      "description": "Deep biblical theology from Luke Chapter 16 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 16,
+      "questions": [
+        {
+          "id": "luke-16-theological-q1",
+          "question": "What was the reason the rich man called his steward to give an account of his stewardship?",
+          "type": "multiple-choice",
+          "options": [
+            "Because he was accused of wasting his goods",
+            "Because he wanted to reward him",
+            "Because he was moving to another city",
+            "Because he wanted to promote him"
+          ],
+          "correctAnswer": "Because he was accused of wasting his goods",
+          "explanation": "Luke 16:1-2 explains that the steward was accused of wasting his master's goods, prompting the rich man to call him and demand an account of his stewardship. This reflects God's call for faithfulness in managing what He entrusts to us, consistent with scriptures like 1 Corinthians 4:2 and Matthew 25:14-30.",
+          "verseReference": "Luke 16:1-2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-theological-q2",
+          "question": "How did the steward plan to secure his future after losing his stewardship?",
+          "type": "multiple-choice",
+          "options": [
+            "By reducing the debts owed to his master",
+            "By begging in the marketplace",
+            "By digging and working the land",
+            "By fleeing to another city"
+          ],
+          "correctAnswer": "By reducing the debts owed to his master",
+          "explanation": "Luke 16:3-7 shows the steward's shrewd plan to reduce the debts owed to his master so that the debtors would welcome him into their homes later. This parable teaches the wise use of worldly resources as a means to secure eternal friendships, consistent with Proverbs 22:1 and Matthew 6:19-21.",
+          "verseReference": "Luke 16:3-7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-theological-q3",
+          "question": "Why did the lord commend the unjust steward?",
+          "type": "multiple-choice",
+          "options": [
+            "Because he had acted wisely",
+            "Because he was honest",
+            "Because he worked hard",
+            "Because he was faithful"
+          ],
+          "correctAnswer": "Because he had acted wisely",
+          "explanation": "Luke 16:8 says the lord commended the unjust steward because he acted wisely, illustrating that worldly prudence can teach spiritual lessons. This aligns with wisdom literature like Proverbs 13:16 and James 1:5, emphasizing discernment.",
+          "verseReference": "Luke 16:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-theological-q4",
+          "question": "What does Jesus teach about faithfulness in little things?",
+          "type": "multiple-choice",
+          "options": [
+            "Faithfulness in little things leads to faithfulness in much",
+            "Little things are unimportant in God's eyes",
+            "Faithfulness is only required in great matters",
+            "One can be faithful in little and unfaithful in much"
+          ],
+          "correctAnswer": "Faithfulness in little things leads to faithfulness in much",
+          "explanation": "Luke 16:10 emphasizes that whoever is faithful in little is faithful also in much. This principle is echoed in passages like Matthew 25:21 and Luke 12:48, highlighting God's demand for integrity and stewardship in all things.",
+          "verseReference": "Luke 16:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-theological-q5",
+          "question": "According to Luke 16, what cannot a servant do?",
+          "type": "multiple-choice",
+          "options": [
+            "Serve two masters",
+            "Serve God",
+            "Serve the poor",
+            "Serve the law"
+          ],
+          "correctAnswer": "Serve two masters",
+          "explanation": "Luke 16:13 states that no servant can serve two masters; one will hate the one and love the other. This teaches the impossibility of divided loyalty between God and mammon, consistent with Deuteronomy 6:5 and Matthew 6:24.",
+          "verseReference": "Luke 16:13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-theological-q6",
+          "question": "How did the Pharisees react to Jesus' teaching on money and stewardship?",
+          "type": "multiple-choice",
+          "options": [
+            "They derided Him",
+            "They praised Him",
+            "They were moved to repentance",
+            "They ignored Him"
+          ],
+          "correctAnswer": "They derided Him",
+          "explanation": "Luke 16:14 reports that the covetous Pharisees derided Jesus when they heard His teaching. This reveals the hardness of heart and resistance to God's truth, paralleling their opposition in John 8:44 and Matthew 23:13-36.",
+          "verseReference": "Luke 16:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-theological-q7",
+          "question": "What does Jesus say about those who justify themselves before men but are known by God?",
+          "type": "multiple-choice",
+          "options": [
+            "What is highly esteemed among men is an abomination to God",
+            "They are righteous in God's sight",
+            "God approves their actions",
+            "They will enter the kingdom of heaven"
+          ],
+          "correctAnswer": "What is highly esteemed among men is an abomination to God",
+          "explanation": "Luke 16:15 teaches that self-justification before men does not impress God, who knows the heart; what men esteem highly may be detestable to God. This is consistent with 1 Samuel 16:7 and Isaiah 66:1-2.",
+          "verseReference": "Luke 16:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-theological-q8",
+          "question": "What transition in revelation does Jesus describe concerning the Law and the prophets in Luke 16?",
+          "type": "multiple-choice",
+          "options": [
+            "The Law and prophets were until John; since then the kingdom of God is preached",
+            "The Law is replaced by the prophets",
+            "The prophets are no longer relevant",
+            "The Law and prophets are abolished"
+          ],
+          "correctAnswer": "The Law and prophets were until John; since then the kingdom of God is preached",
+          "explanation": "Luke 16:16 explains that the Law and prophets were in effect until John the Baptist, after which the kingdom of God began to be preached. This reflects the inaugurated eschatology of the New Testament (Romans 10:4, Matthew 11:13-14).",
+          "verseReference": "Luke 16:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-theological-q9",
+          "question": "What does Jesus say about the permanence of the Law?",
+          "type": "multiple-choice",
+          "options": [
+            "It is easier for heaven and earth to pass than for one tittle to fail",
+            "The Law will be abolished",
+            "The Law is temporary",
+            "The Law is not binding"
+          ],
+          "correctAnswer": "It is easier for heaven and earth to pass than for one tittle to fail",
+          "explanation": "Luke 16:17 asserts the enduring nature of the Law. This is consistent with Matthew 5:18 and Psalm 119:89, affirming God's unchanging standards and faithfulness.",
+          "verseReference": "Luke 16:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-theological-q10",
+          "question": "According to Luke 16, what sin is committed by one who divorces and marries another?",
+          "type": "multiple-choice",
+          "options": [
+            "Adultery",
+            "Theft",
+            "Blasphemy",
+            "Idolatry"
+          ],
+          "correctAnswer": "Adultery",
+          "explanation": "Luke 16:18 clearly states that whoever divorces and marries another commits adultery. This aligns with Jesus' teaching in Matthew 19:9 and Malachi 2:16 on the sanctity of marriage.",
+          "verseReference": "Luke 16:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-theological-q11",
+          "question": "What characterized the life of the rich man in the parable?",
+          "type": "multiple-choice",
+          "options": [
+            "He was clothed in purple and fine linen and fared sumptuously every day",
+            "He was poor and humble",
+            "He was a Pharisee",
+            "He was a tax collector"
+          ],
+          "correctAnswer": "He was clothed in purple and fine linen and fared sumptuously every day",
+          "explanation": "Luke 16:19 describes the rich man as clothed in purple and fine linen and living in luxury daily, contrasting him with Lazarus and illustrating themes of earthly wealth versus eternal judgment, consistent with James 5:1-6.",
+          "verseReference": "Luke 16:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-theological-q12",
+          "question": "What condition was Lazarus in, according to the parable?",
+          "type": "multiple-choice",
+          "options": [
+            "He was a beggar full of sores lying at the rich man's gate",
+            "He was a wealthy merchant",
+            "He was a Pharisee",
+            "He was a priest"
+          ],
+          "correctAnswer": "He was a beggar full of sores lying at the rich man's gate",
+          "explanation": "Luke 16:20-21 depicts Lazarus as a poor beggar covered with sores, desiring crumbs from the rich man's table. This highlights the biblical concern for the poor (Proverbs 14:31, Isaiah 58:6-7).",
+          "verseReference": "Luke 16:20-21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-theological-q13",
+          "question": "After death, where was Lazarus taken, and where was the rich man found?",
+          "type": "multiple-choice",
+          "options": [
+            "Lazarus was carried to Abraham's bosom; the rich man was in hell in torment",
+            "Both were taken to the same place of rest",
+            "Lazarus was sent to hell; the rich man to paradise",
+            "Both were resurrected immediately"
+          ],
+          "correctAnswer": "Lazarus was carried to Abraham's bosom; the rich man was in hell in torment",
+          "explanation": "Luke 16:22-23 narrates Lazarus being carried by angels to Abraham's bosom (a place of comfort) while the rich man was in hell, illustrating the doctrine of afterlife judgment (Daniel 12:2, Revelation 20:12-15).",
+          "verseReference": "Luke 16:22-23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-theological-q14",
+          "question": "What request did the rich man make to Abraham from hell?",
+          "type": "multiple-choice",
+          "options": [
+            "To send Lazarus to cool his tongue with water",
+            "To release him from torment",
+            "To forgive his sins",
+            "To send angels to rescue him"
+          ],
+          "correctAnswer": "To send Lazarus to cool his tongue with water",
+          "explanation": "Luke 16:24 records the rich man asking Abraham to send Lazarus to dip his finger in water to cool his tongue, demonstrating his awareness of torment and his plea for mercy, consistent with the doctrine of conscious afterlife (Luke 23:43).",
+          "verseReference": "Luke 16:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-16-theological-q15",
+          "question": "What does Abraham say about the fixed gulf between the rich man and Lazarus?",
+          "type": "multiple-choice",
+          "options": [
+            "A great gulf is fixed so no one can cross from either side",
+            "The gulf can be crossed with prayer",
+            "The gulf is temporary",
+            "The gulf is a metaphor for sin"
+          ],
+          "correctAnswer": "A great gulf is fixed so no one can cross from either side",
+          "explanation": "Luke 16:26 teaches that a great fixed gulf exists between the place of torment and comfort, signifying the finality of judgment, consistent with Hebrews 9:27 and Revelation 20:11-15.",
+          "verseReference": "Luke 16:26",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "luke-16-quiz",
+      "tags": [
+        "luke",
+        "chapter-16",
+        "luke",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

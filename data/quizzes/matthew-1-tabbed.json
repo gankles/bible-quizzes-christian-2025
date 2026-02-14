@@ -1,0 +1,983 @@
+{
+  "id": "matthew-1-tabbed",
+  "title": "Matthew Chapter 1 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Matthew chapter 1 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "matthew-1-easy",
+      "title": "Matthew Chapter 1 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Matthew Chapter 1.",
+      "type": "chapter",
+      "book": "Matthew",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "matthew-1-easy-q1",
+          "question": "Who is described as the son of David and the son of Abraham in Matthew 1?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus Christ",
+            "Isaac",
+            "Jacob",
+            "Solomon"
+          ],
+          "correctAnswer": "Jesus Christ",
+          "explanation": "Matthew 1:1 states that the book is about the generation of Jesus Christ, the son of David, the son of Abraham.",
+          "verseReference": "Matthew 1:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-1-easy-q2",
+          "question": "Who begat Isaac according to Matthew 1?",
+          "type": "multiple-choice",
+          "options": [
+            "Abraham",
+            "David",
+            "Jacob",
+            "Judas"
+          ],
+          "correctAnswer": "Abraham",
+          "explanation": "Matthew 1:2 shows Abraham begat Isaac.",
+          "verseReference": "Matthew 1:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-1-easy-q3",
+          "question": "Who was the father of Phares and Zara?",
+          "type": "multiple-choice",
+          "options": [
+            "Judas",
+            "Jacob",
+            "Esrom",
+            "Salmon"
+          ],
+          "correctAnswer": "Judas",
+          "explanation": "Matthew 1:3 records that Judas begat Phares and Zara of Thamar.",
+          "verseReference": "Matthew 1:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-1-easy-q4",
+          "question": "Who was the mother of Booz?",
+          "type": "multiple-choice",
+          "options": [
+            "Rachab",
+            "Ruth",
+            "Mary",
+            "Thamar"
+          ],
+          "correctAnswer": "Rachab",
+          "explanation": "Matthew 1:5 identifies Booz as the son of Salmon and Rachab.",
+          "verseReference": "Matthew 1:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-1-easy-q5",
+          "question": "Which king begat Solomon of her that had been the wife of Urias?",
+          "type": "multiple-choice",
+          "options": [
+            "David",
+            "Josias",
+            "Achaz",
+            "Jechonias"
+          ],
+          "correctAnswer": "David",
+          "explanation": "Matthew 1:6 states that David the king begat Solomon of her that had been the wife of Urias.",
+          "verseReference": "Matthew 1:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-1-easy-q6",
+          "question": "How many generations were there from Abraham to David?",
+          "type": "multiple-choice",
+          "options": [
+            "Fourteen",
+            "Twelve",
+            "Ten",
+            "Seventeen"
+          ],
+          "correctAnswer": "Fourteen",
+          "explanation": "Matthew 1:17 states there were fourteen generations from Abraham to David.",
+          "verseReference": "Matthew 1:17",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-1-easy-q7",
+          "question": "What was Joseph's initial reaction upon finding Mary with child?",
+          "type": "multiple-choice",
+          "options": [
+            "He was minded to put her away privily",
+            "He celebrated",
+            "He told everyone",
+            "He ignored it"
+          ],
+          "correctAnswer": "He was minded to put her away privily",
+          "explanation": "Matthew 1:19 explains Joseph was minded to put Mary away privily because he was a just man and did not want to make her a public example.",
+          "verseReference": "Matthew 1:19",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-1-easy-q8",
+          "question": "Who appeared to Joseph in a dream to explain Mary's pregnancy?",
+          "type": "multiple-choice",
+          "options": [
+            "The angel of the Lord",
+            "An old prophet",
+            "Mary herself",
+            "A disciple"
+          ],
+          "correctAnswer": "The angel of the Lord",
+          "explanation": "Matthew 1:20 states the angel of the Lord appeared to Joseph in a dream to explain the conception was of the Holy Ghost.",
+          "verseReference": "Matthew 1:20",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-1-easy-q9",
+          "question": "What name was Joseph instructed to give to Mary's son?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus",
+            "Emmanuel",
+            "David",
+            "Solomon"
+          ],
+          "correctAnswer": "Jesus",
+          "explanation": "Matthew 1:21 says Joseph was told to call the child Jesus because he shall save his people from their sins.",
+          "verseReference": "Matthew 1:21",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-1-easy-q10",
+          "question": "Complete the prophecy quoted in Matthew 1:23: 'Behold, a virgin shall be with child, and shall bring forth a son, and they shall call his name ________.'",
+          "type": "multiple-choice",
+          "options": [
+            "Emmanuel",
+            "Jesus",
+            "David",
+            "Joseph"
+          ],
+          "correctAnswer": "Emmanuel",
+          "explanation": "Matthew 1:23 states the son shall be called Emmanuel, meaning God with us.",
+          "verseReference": "Matthew 1:23",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-1-easy-q11",
+          "question": "True or False: Matthew 1 says Joseph was not willing to make Mary a public example.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Matthew 1:19 describes Joseph as a just man not willing to make Mary a public example.",
+          "verseReference": "Matthew 1:19",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-1-easy-q12",
+          "question": "True or False: According to Matthew 1, Mary and Joseph had no children before Jesus.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Matthew 1:25 states Joseph knew Mary not until she had brought forth her firstborn son Jesus.",
+          "verseReference": "Matthew 1:25",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-1-easy-q13",
+          "question": "True or False: The genealogy in Matthew 1 includes people carried away to Babylon.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Matthew 1:11-12 mentions Jechonias and his brethren about the time they were carried away to Babylon and the genealogy continues after that.",
+          "verseReference": "Matthew 1:11-12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-1-easy-q14",
+          "question": "Complete the name in Matthew 1:16: 'And Jacob begat Joseph the husband of Mary, of whom was born ______, who is called Christ.'",
+          "type": "fill-blank",
+          "options": [
+            "Jesus",
+            "David",
+            "Solomon",
+            "Judas"
+          ],
+          "correctAnswer": "Jesus",
+          "explanation": "Matthew 1:16 clearly states Jesus was born of Mary, wife of Joseph.",
+          "verseReference": "Matthew 1:16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-1-easy-q15",
+          "question": "Complete this verse from Matthew 1:21: 'And she shall bring forth a son, and thou shalt call his name ______: for he shall save his people from their sins.'",
+          "type": "fill-blank",
+          "options": [
+            "JESUS",
+            "EMMANUEL",
+            "DAVID",
+            "JOSEPH"
+          ],
+          "correctAnswer": "JESUS",
+          "explanation": "Matthew 1:21 instructs the name JESUS for the child because he will save his people from their sins.",
+          "verseReference": "Matthew 1:21",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "matthew-1-quiz",
+      "tags": [
+        "matthew",
+        "chapter-1",
+        "matthew",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "matthew-1-medium",
+      "title": "Matthew Chapter 1 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Matthew Chapter 1 to real-life situations.",
+      "type": "chapter",
+      "book": "Matthew",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "matthew-1-medium-q1",
+          "question": "A fellow believer is struggling with trust after learning unexpected news about their family. Based on Matthew 1, what biblical truth would you share about trusting God’s plan?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s plan unfolds through generations and is trustworthy",
+            "We must rely solely on our own understanding",
+            "Doubt is the only natural response to surprises",
+            "Family history is irrelevant to God’s purpose"
+          ],
+          "correctAnswer": "God’s plan unfolds through generations and is trustworthy",
+          "explanation": "Matthew 1:1-17 shows God’s sovereign plan through the genealogy of Jesus, emphasizing trust in God’s unfolding purpose. Verses 1, 17 and 20 reveal God’s faithfulness through generations.",
+          "verseReference": "Matthew 1:1-17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-1-medium-q2",
+          "question": "How does the genealogy in Matthew 1 teach us about humility in our daily work and life?",
+          "type": "multiple-choice",
+          "options": [
+            "God uses ordinary people and imperfect backgrounds to fulfill His promises",
+            "Only perfect ancestors matter in God’s plan",
+            "Genealogies are irrelevant to Christian humility",
+            "Success depends on personal merit alone"
+          ],
+          "correctAnswer": "God uses ordinary people and imperfect backgrounds to fulfill His promises",
+          "explanation": "The genealogy includes imperfect figures like David and Rahab (Matthew 1:5-6), teaching humility by showing God’s grace working through ordinary human stories. Verses 3, 5, and 6 highlight this truth.",
+          "verseReference": "Matthew 1:3-6",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-1-medium-q3",
+          "question": "A believer is uncertain about obeying God’s call in difficult circumstances. Based on Joseph’s example in Matthew 1, what should you advise?",
+          "type": "multiple-choice",
+          "options": [
+            "Obedience to God requires faith and action despite uncertainty",
+            "Wait for perfect clarity before acting",
+            "Ignore divine guidance if unsure",
+            "Only obey when it’s easy"
+          ],
+          "correctAnswer": "Obedience to God requires faith and action despite uncertainty",
+          "explanation": "Joseph obeyed the angel’s command (Matthew 1:20, 24) despite his initial confusion, showing trust and prompt obedience. Verses 19, 20, 24 illustrate this principle.",
+          "verseReference": "Matthew 1:19-24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-1-medium-q4",
+          "question": "In terms of family life and parenting, what lesson does Matthew 1 offer about naming and identity?",
+          "type": "multiple-choice",
+          "options": [
+            "Names carry spiritual and prophetic significance",
+            "Names have no real meaning",
+            "Children’s names should be chosen randomly",
+            "Family names are only for tradition"
+          ],
+          "correctAnswer": "Names carry spiritual and prophetic significance",
+          "explanation": "Joseph was instructed to name Jesus because the name had a mission—to save (Matthew 1:21) and was linked to prophecy (verse 23). This shows the importance of intentional naming.",
+          "verseReference": "Matthew 1:21-23",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-1-medium-q5",
+          "question": "How does Matthew 1 teach about dealing with temptation and maintaining integrity?",
+          "type": "multiple-choice",
+          "options": [
+            "Joseph chose to act justly and not expose Mary to public disgrace",
+            "Ignoring issues is best",
+            "Retaliation is justified when tempted",
+            "Compromise is acceptable in tough situations"
+          ],
+          "correctAnswer": "Joseph chose to act justly and not expose Mary to public disgrace",
+          "explanation": "Joseph’s decision to put Mary away quietly (Matthew 1:19) shows integrity and mercy, illustrating righteous conduct in testing times. Verses 19 and 20 support this.",
+          "verseReference": "Matthew 1:19-20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-1-medium-q6",
+          "question": "True or False: According to Matthew 1, Jesus’ birth was a fulfillment of Old Testament prophecy.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Matthew 1:22-23 explicitly states Jesus’ birth fulfilled the prophecy about a virgin bearing a son called Emmanuel, meaning God with us.",
+          "verseReference": "Matthew 1:22-23",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-1-medium-q7",
+          "question": "How does Matthew 1 encourage believers to be witnesses for Christ in their daily lives?",
+          "type": "multiple-choice",
+          "options": [
+            "By recognizing Jesus as Savior and sharing His story",
+            "By keeping faith private",
+            "By avoiding talk about Jesus",
+            "By relying on others for evangelism"
+          ],
+          "correctAnswer": "By recognizing Jesus as Savior and sharing His story",
+          "explanation": "The genealogy and birth narrative (Matthew 1:1-25) emphasize Jesus’ role as Savior, encouraging believers to share this good news. Verses 21 and 25 highlight His saving mission.",
+          "verseReference": "Matthew 1:21-25",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-1-medium-q8",
+          "question": "A believer is facing trials and doubts. What encouragement about perseverance can you draw from Matthew 1?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s plan persists through generations and circumstances",
+            "Trials mean God has abandoned you",
+            "Give up when things get hard",
+            "Only immediate results prove God’s presence"
+          ],
+          "correctAnswer": "God’s plan persists through generations and circumstances",
+          "explanation": "The genealogy (Matthew 1:1-17) shows God’s faithfulness through many generations, including exile, encouraging perseverance and trust. Verses 11, 12, and 17 are key here.",
+          "verseReference": "Matthew 1:11-17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-1-medium-q9",
+          "question": "True or False: Joseph knew Mary intimately before Jesus was born, according to Matthew 1.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Matthew 1:25 states Joseph did not know Mary until she had given birth, emphasizing obedience and purity before Jesus’ birth.",
+          "verseReference": "Matthew 1:25",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-1-medium-q10",
+          "question": "What does Matthew 1 teach about faith and prayer when facing unexpected challenges in marriage?",
+          "type": "multiple-choice",
+          "options": [
+            "Trusting God’s guidance and seeking His direction leads to peace",
+            "Making decisions without seeking God is best",
+            "Ignore problems in the relationship",
+            "Delay all decisions indefinitely"
+          ],
+          "correctAnswer": "Trusting God’s guidance and seeking His direction leads to peace",
+          "explanation": "Joseph’s response to Mary’s pregnancy was prayerful and trusting after the angel’s message (Matthew 1:20, 24), showing the importance of faith in marriage challenges.",
+          "verseReference": "Matthew 1:19-24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-1-medium-q11",
+          "question": "How does Matthew 1 encourage believers to practice humility and contentment in their spiritual walk?",
+          "type": "multiple-choice",
+          "options": [
+            "By reflecting on God’s use of imperfect people in His plan",
+            "By boasting about ancestry",
+            "By demanding perfection from others",
+            "By comparing ourselves to others"
+          ],
+          "correctAnswer": "By reflecting on God’s use of imperfect people in His plan",
+          "explanation": "The genealogy includes flawed ancestors such as David and others (Matthew 1:6, 11), teaching humility and contentment with God’s grace. Verses 6, 7, and 11 support this.",
+          "verseReference": "Matthew 1:6-7, 11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-1-medium-q12",
+          "question": "Fill in the blank: Joseph was described as a _______ man who did not want to expose Mary to public disgrace.",
+          "type": "fill-blank",
+          "options": [
+            "just",
+            "harsh",
+            "rash",
+            "unfaithful"
+          ],
+          "correctAnswer": "just",
+          "explanation": "Matthew 1:19 describes Joseph as a just man, showing his integrity and compassion toward Mary.",
+          "verseReference": "Matthew 1:19",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-1-medium-q13",
+          "question": "How does the account of Jesus’ birth in Matthew 1 teach about God’s presence with His people?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus is called Emmanuel, meaning God with us",
+            "God is distant and uninvolved",
+            "God’s presence is only symbolic",
+            "God’s presence depends on human effort"
+          ],
+          "correctAnswer": "Jesus is called Emmanuel, meaning God with us",
+          "explanation": "Matthew 1:23 identifies Jesus as Emmanuel, emphasizing God’s tangible presence among His people through Christ.",
+          "verseReference": "Matthew 1:23",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-1-medium-q14",
+          "question": "A believer is reflecting on stewardship and generational blessing. What can Matthew 1 teach about God’s faithfulness through family heritage?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s blessings and promises extend through generations",
+            "Each generation is independent of God’s plan",
+            "Heritage is irrelevant to faith",
+            "Only personal achievement matters"
+          ],
+          "correctAnswer": "God’s blessings and promises extend through generations",
+          "explanation": "The genealogy (Matthew 1:1-17) demonstrates God’s ongoing covenant through Abraham, David, and down to Jesus, showing generational faithfulness. Verses 1, 2, and 17 highlight this.",
+          "verseReference": "Matthew 1:1-2, 17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-1-medium-q15",
+          "question": "How does Joseph’s response to the angel’s message in Matthew 1 serve as a model for Christian obedience and humility?",
+          "type": "multiple-choice",
+          "options": [
+            "He obeyed immediately without hesitation",
+            "He ignored the message",
+            "He argued with the angel",
+            "He delayed obedience indefinitely"
+          ],
+          "correctAnswer": "He obeyed immediately without hesitation",
+          "explanation": "Matthew 1:24 shows Joseph rising immediately and taking Mary as his wife, modeling prompt obedience and humility before God’s will.",
+          "verseReference": "Matthew 1:24",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "matthew-1-quiz",
+      "tags": [
+        "matthew",
+        "chapter-1",
+        "matthew",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "matthew-1-hard",
+      "title": "Matthew Chapter 1 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Matthew Chapter 1.",
+      "type": "chapter",
+      "book": "Matthew",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "matthew-1-hard-q1",
+          "question": "What is the significance of the genealogy being divided into three sets of fourteen generations in Matthew 1:17?",
+          "type": "multiple-choice",
+          "options": [
+            "It symbolizes completeness and divine order",
+            "It reflects a historical error in genealogy",
+            "It is a random numerical grouping",
+            "It indicates three separate families"
+          ],
+          "correctAnswer": "It symbolizes completeness and divine order",
+          "explanation": "Matthew 1:17 presents the genealogy in three groups of fourteen generations, which many scholars believe symbolizes completeness and God's sovereign plan in history, reflecting Hebrew numerology and literary structure.",
+          "verseReference": "Matthew 1:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-hard-q2",
+          "question": "Which Old Testament figure is directly mentioned in Matthew 1:6 as the father of Solomon?",
+          "type": "multiple-choice",
+          "options": [
+            "David",
+            "Jesse",
+            "Abraham",
+            "Jacob"
+          ],
+          "correctAnswer": "David",
+          "explanation": "Matthew 1:6 states that Jesse begat David the king, and David begat Solomon, linking Jesus’ genealogy to King David as a fulfillment of messianic prophecy.",
+          "verseReference": "Matthew 1:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-hard-q3",
+          "question": "The name 'Emmanuel' mentioned in Matthew 1:23 is interpreted as:",
+          "type": "multiple-choice",
+          "options": [
+            "God with us",
+            "Prince of Peace",
+            "Mighty Savior",
+            "Light of the World"
+          ],
+          "correctAnswer": "God with us",
+          "explanation": "Matthew 1:23 quotes Isaiah 7:14, explaining that Emmanuel means 'God with us,' emphasizing the divine presence incarnate in Jesus.",
+          "verseReference": "Matthew 1:23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-hard-q4",
+          "question": "What is the cultural significance of Joseph being described as a 'just man' in Matthew 1:19?",
+          "type": "multiple-choice",
+          "options": [
+            "He was righteous but merciful, choosing to quietly divorce Mary",
+            "He was a strict enforcer of the law without compassion",
+            "He was wealthy and influential",
+            "He was a priest in the temple"
+          ],
+          "correctAnswer": "He was righteous but merciful, choosing to quietly divorce Mary",
+          "explanation": "Matthew 1:19 highlights Joseph’s righteousness and mercy by noting he did not want to publicly disgrace Mary, reflecting Jewish legal customs and his compassionate character.",
+          "verseReference": "Matthew 1:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-hard-q5",
+          "question": "In Matthew 1:18, the phrase 'before they came together' most directly points to which theological concept?",
+          "type": "multiple-choice",
+          "options": [
+            "Virgin birth",
+            "Adoption into the covenant",
+            "Temple sacrifice",
+            "Baptism of Jesus"
+          ],
+          "correctAnswer": "Virgin birth",
+          "explanation": "Matthew 1:18 emphasizes that Mary was found to be with child by the Holy Ghost before marital relations, affirming the doctrine of the virgin birth.",
+          "verseReference": "Matthew 1:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-hard-q6",
+          "question": "Which Old Testament prophet is implicitly referenced in Matthew 1:22-23 through the prophecy about the virgin birth?",
+          "type": "multiple-choice",
+          "options": [
+            "Isaiah",
+            "Jeremiah",
+            "Ezekiel",
+            "Micah"
+          ],
+          "correctAnswer": "Isaiah",
+          "explanation": "Matthew 1:22-23 quotes Isaiah 7:14 regarding the virgin birth and the name Emmanuel, showing the fulfillment of Isaiah’s prophecy in Jesus.",
+          "verseReference": "Matthew 1:22-23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-hard-q7",
+          "question": "What is the significance of the genealogy starting with Abraham in Matthew 1:1?",
+          "type": "multiple-choice",
+          "options": [
+            "It establishes Jesus' Jewish heritage and fulfillment of Abrahamic promises",
+            "It shows Jesus descended from Egyptian royalty",
+            "It traces Jesus' lineage to Greek philosophers",
+            "It highlights Jesus' Roman citizenship"
+          ],
+          "correctAnswer": "It establishes Jesus' Jewish heritage and fulfillment of Abrahamic promises",
+          "explanation": "Matthew 1:1 begins the genealogy with Abraham to emphasize Jesus as the fulfillment of God's promises to the patriarch and the Jewish people.",
+          "verseReference": "Matthew 1:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-hard-q8",
+          "question": "How does the mention of women like Tamar, Rahab, and Ruth in the genealogy (Matthew 1:3-5) contribute to the theological message?",
+          "type": "multiple-choice",
+          "options": [
+            "It highlights God's grace extending beyond traditional boundaries",
+            "It indicates the genealogy is incomplete",
+            "It shows Jesus’ lineage is purely royal",
+            "It emphasizes male lineage only"
+          ],
+          "correctAnswer": "It highlights God's grace extending beyond traditional boundaries",
+          "explanation": "Matthew 1:3-5 includes women with complex backgrounds, illustrating God's inclusive grace and foreshadowing Jesus' mission to all people.",
+          "verseReference": "Matthew 1:3-5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-hard-q9",
+          "question": "What is the historical context of 'being carried away to Babylon' mentioned in Matthew 1:11-12?",
+          "type": "multiple-choice",
+          "options": [
+            "The Babylonian exile of the Jewish people",
+            "The conquest of Egypt",
+            "The Roman occupation of Judea",
+            "The Assyrian invasion"
+          ],
+          "correctAnswer": "The Babylonian exile of the Jewish people",
+          "explanation": "Matthew 1:11-12 situates Jesus’ genealogy around the Babylonian exile, a pivotal event that shaped Jewish identity and messianic expectations.",
+          "verseReference": "Matthew 1:11-12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-hard-q10",
+          "question": "Why does Matthew emphasize Joseph as 'the husband of Mary, of whom was born Jesus' in Matthew 1:16?",
+          "type": "multiple-choice",
+          "options": [
+            "To clarify Jesus' legal, not biological, descent from David",
+            "To suggest Joseph was Jesus’ biological father",
+            "To deny Mary’s role in Jesus’ birth",
+            "To highlight Joseph’s priestly lineage"
+          ],
+          "correctAnswer": "To clarify Jesus' legal, not biological, descent from David",
+          "explanation": "Matthew 1:16 underscores Joseph’s legal fatherhood, important for messianic claims of descent from David, despite the virgin birth.",
+          "verseReference": "Matthew 1:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-hard-q11",
+          "question": "Which Greek term in Matthew 1:21 is used to describe Jesus' role as Savior, and what is its significance?",
+          "type": "multiple-choice",
+          "options": [
+            "Sōtēr, meaning deliverer or savior who rescues from sin",
+            "Kyrios, meaning lord or master",
+            "Logos, meaning the Word",
+            "Christos, meaning anointed one"
+          ],
+          "correctAnswer": "Sōtēr, meaning deliverer or savior who rescues from sin",
+          "explanation": "Matthew 1:21 uses the Greek term 'Sōtēr' to describe Jesus' saving role, emphasizing deliverance from sin, a key theme in New Testament soteriology.",
+          "verseReference": "Matthew 1:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-hard-q12",
+          "question": "True or False: According to Matthew 1:25, Joseph had marital relations with Mary before Jesus was born.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Matthew 1:25 states Joseph 'knew her not till she had brought forth her firstborn son,' indicating no marital relations until after Jesus’ birth.",
+          "verseReference": "Matthew 1:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-hard-q13",
+          "question": "How does Matthew 1:20’s reference to the 'angel of the Lord' appearing in a dream connect to Old Testament theophanies?",
+          "type": "multiple-choice",
+          "options": [
+            "It parallels divine communication methods seen in dreams throughout Hebrew Scriptures",
+            "It is unique and not found in Old Testament tradition",
+            "It contradicts Old Testament angelic appearances",
+            "It indicates an angelic messenger from Greek mythology"
+          ],
+          "correctAnswer": "It parallels divine communication methods seen in dreams throughout Hebrew Scriptures",
+          "explanation": "Matthew 1:20’s angelic dream visit aligns with Old Testament examples (e.g., Joseph son of Jacob, Daniel) where God communicates through dreams.",
+          "verseReference": "Matthew 1:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-hard-q14",
+          "question": "What does the phrase 'Jesus, who is called Christ' in Matthew 1:16 imply about Jesus' identity?",
+          "type": "multiple-choice",
+          "options": [
+            "He is the promised Messiah or Anointed One",
+            "He is a common Jewish teacher",
+            "He is a Roman official",
+            "He is an angelic being"
+          ],
+          "correctAnswer": "He is the promised Messiah or Anointed One",
+          "explanation": "Matthew 1:16 identifies Jesus as the 'Christ,' the Greek equivalent of Messiah, affirming his role as the anointed savior expected in Jewish tradition.",
+          "verseReference": "Matthew 1:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-hard-q15",
+          "question": "Why does Matthew include the mention of Jechonias and his brethren 'about the time they were carried away to Babylon' in Matthew 1:11?",
+          "type": "multiple-choice",
+          "options": [
+            "To mark a significant historical and theological break in Jewish history",
+            "To indicate a genealogical mistake",
+            "To emphasize the Roman exile",
+            "To highlight the Greek influence on Judaism"
+          ],
+          "correctAnswer": "To mark a significant historical and theological break in Jewish history",
+          "explanation": "Matthew 1:11 situates the genealogy within the context of the Babylonian exile, underscoring the disruption and later restoration of Israel’s hope in the Messiah.",
+          "verseReference": "Matthew 1:11",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "matthew-1-quiz",
+      "tags": [
+        "matthew",
+        "chapter-1",
+        "matthew",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "matthew-1-theological",
+      "title": "Matthew Chapter 1 Quiz - Theological Level",
+      "description": "Deep biblical theology from Matthew Chapter 1 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Matthew",
+      "chapter": 1,
+      "questions": [
+        {
+          "id": "matthew-1-theological-q1",
+          "question": "What theological significance is conveyed by Matthew 1:1 referring to Jesus as 'the son of David, the son of Abraham'?",
+          "type": "multiple-choice",
+          "options": [
+            "It affirms Jesus' legal and royal lineage fulfilling Messianic prophecy",
+            "It emphasizes Jesus' divine nature as God the Father",
+            "It denies Jesus' humanity and earthly ancestry",
+            "It focuses solely on Jesus' priestly role"
+          ],
+          "correctAnswer": "It affirms Jesus' legal and royal lineage fulfilling Messianic prophecy",
+          "explanation": "Matthew 1:1 establishes Jesus' genealogy linking Him to David and Abraham, fulfilling Old Testament promises (2 Samuel 7:12-16; Jeremiah 23:5; Genesis 12:3; Romans 1:3). This affirms Jesus as the promised Messiah from David's royal line and Abraham's covenantal seed.",
+          "verseReference": "Matthew 1:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-theological-q2",
+          "question": "According to Matthew 1:17, how many generations are there from Abraham to David, and what theological significance does this numerical pattern hold?",
+          "type": "multiple-choice",
+          "options": [
+            "Fourteen generations, symbolizing divine completeness and God's providential plan",
+            "Twelve generations, representing the twelve tribes of Israel",
+            "Seven generations, indicating perfection",
+            "Ten generations, symbolizing completeness of law"
+          ],
+          "correctAnswer": "Fourteen generations, symbolizing divine completeness and God's providential plan",
+          "explanation": "Matthew 1:17 highlights three sets of fourteen generations marking God's sovereign timing in history, reflecting completeness (Genesis 5; Revelation 21:6; Psalm 12:6; Galatians 4:4). The number fourteen also connects to David’s name numerically, emphasizing Jesus' royal messianic identity.",
+          "verseReference": "Matthew 1:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-theological-q3",
+          "question": "What role does the Holy Spirit play in the conception of Jesus according to Matthew 1:18-20?",
+          "type": "multiple-choice",
+          "options": [
+            "The Holy Spirit miraculously causes the virgin birth, affirming Jesus' divine origin",
+            "The Holy Spirit is not mentioned in Jesus’ conception",
+            "The Holy Spirit inspires Mary to conceive naturally",
+            "The Holy Spirit descends only after Jesus’ birth"
+          ],
+          "correctAnswer": "The Holy Spirit miraculously causes the virgin birth, affirming Jesus' divine origin",
+          "explanation": "Matthew 1:18-20 shows the Holy Spirit's supernatural work in Jesus’ conception, affirming His divine nature and sinless humanity (Isaiah 7:14; Luke 1:35; John 1:14; Romans 1:3-4; Hebrews 4:15). This underlines the incarnation doctrine.",
+          "verseReference": "Matthew 1:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-theological-q4",
+          "question": "Why was Joseph described as 'a just man' in Matthew 1:19, and how does this characterize his response to Mary's pregnancy?",
+          "type": "multiple-choice",
+          "options": [
+            "He was righteous and merciful, choosing to protect Mary’s honor quietly",
+            "He was harsh and demanded a public trial",
+            "He immediately rejected Mary publicly",
+            "He did not believe the angel's message"
+          ],
+          "correctAnswer": "He was righteous and merciful, choosing to protect Mary’s honor quietly",
+          "explanation": "Matthew 1:19 depicts Joseph as righteous, balancing adherence to the law with mercy, choosing a private course to avoid public disgrace (Deuteronomy 22:23-24; Psalm 4:5; Micah 6:8; James 2:13). His character models faithful obedience and compassion.",
+          "verseReference": "Matthew 1:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-theological-q5",
+          "question": "What is the significance of the angel's instruction to Joseph in Matthew 1:21 regarding the name 'Jesus'?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus means 'The Lord saves,' indicating His mission to save people from sin",
+            "Jesus means 'God with us,' focusing on His divinity",
+            "Jesus means 'Messiah,' emphasizing kingship",
+            "Jesus means 'Prophet,' highlighting teaching authority"
+          ],
+          "correctAnswer": "Jesus means 'The Lord saves,' indicating His mission to save people from sin",
+          "explanation": "Matthew 1:21 explains that the name Jesus (Yeshua) means 'The Lord saves,' directly revealing His redemptive mission (Isaiah 43:11; Luke 1:31-33; Acts 4:12; Hebrews 9:28; 1 Timothy 1:15). This affirms the doctrine of salvation through Christ.",
+          "verseReference": "Matthew 1:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-theological-q6",
+          "question": "How does Matthew 1:23 link the prophecy of Isaiah to the birth of Jesus, and what theological truth does it reveal?",
+          "type": "multiple-choice",
+          "options": [
+            "It fulfills Isaiah’s prophecy that a virgin will bear a son named Emmanuel, meaning 'God with us,' revealing Jesus’ divine presence",
+            "It denies the virgin birth prophecy, focusing on Joseph's lineage",
+            "It claims Jesus is a political leader rather than divine",
+            "It focuses on Moses’ prophecy instead"
+          ],
+          "correctAnswer": "It fulfills Isaiah’s prophecy that a virgin will bear a son named Emmanuel, meaning 'God with us,' revealing Jesus’ divine presence",
+          "explanation": "Matthew 1:23 cites Isaiah 7:14, confirming Jesus’ virgin birth and divine identity as God incarnate—Emmanuel means 'God with us' (John 1:14; Hebrews 1:3; Colossians 2:9; Philippians 2:6-7). This underscores the incarnation and God's presence with His people.",
+          "verseReference": "Matthew 1:23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-theological-q7",
+          "question": "What does the genealogy in Matthew 1 emphasize about God's providential plan for salvation history?",
+          "type": "multiple-choice",
+          "options": [
+            "God sovereignly orchestrated history through specific generations leading to Christ",
+            "Salvation history is random and unplanned",
+            "Jesus’ ancestry is irrelevant to His mission",
+            "The genealogy denies Old Testament promises"
+          ],
+          "correctAnswer": "God sovereignly orchestrated history through specific generations leading to Christ",
+          "explanation": "The genealogy (Matthew 1:2-17) shows God's providence fulfilling promises through Abraham and David’s line, culminating in Jesus (Genesis 12:3; 2 Samuel 7:12-16; Romans 9:5; Galatians 4:4-5; Hebrews 11:39-40). This highlights God's purposeful salvation plan.",
+          "verseReference": "Matthew 1:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-theological-q8",
+          "question": "How does Matthew 1:16 identify Joseph’s relationship to Jesus, and what is the theological implication?",
+          "type": "multiple-choice",
+          "options": [
+            "Joseph is the husband of Mary, the mother of Jesus, affirming Jesus' legal descent without biological paternity",
+            "Joseph is Jesus’ biological father",
+            "Joseph is unrelated to Jesus",
+            "Joseph is Jesus’ brother"
+          ],
+          "correctAnswer": "Joseph is the husband of Mary, the mother of Jesus, affirming Jesus' legal descent without biological paternity",
+          "explanation": "Matthew 1:16 clarifies Joseph’s legal fatherhood, important for messianic claims, while the Holy Spirit's role affirms Jesus' divine conception (Luke 1:34-35; Romans 1:3; Hebrews 2:14; Galatians 4:4). This preserves the doctrine of the virgin birth and Jesus' sinless nature.",
+          "verseReference": "Matthew 1:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-theological-q9",
+          "question": "What does Matthew 1:25 reveal about Joseph's relationship with Mary before Jesus' birth, and why is it significant doctrinally?",
+          "type": "multiple-choice",
+          "options": [
+            "Joseph did not have marital relations with Mary until after Jesus' birth, affirming the virgin birth",
+            "Joseph and Mary married after Jesus was born",
+            "Joseph rejected Mary before Jesus was born",
+            "Joseph was Jesus’ biological father"
+          ],
+          "correctAnswer": "Joseph did not have marital relations with Mary until after Jesus' birth, affirming the virgin birth",
+          "explanation": "Matthew 1:25 confirms Mary’s virginity was intact until Jesus’ birth, supporting the doctrine of the virgin birth and Jesus’ divine origin (Isaiah 7:14; Luke 1:34-35; John 1:14; Galatians 4:4; Hebrews 7:26). This underscores Christ’s sinlessness and deity.",
+          "verseReference": "Matthew 1:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-theological-q10",
+          "question": "How does the inclusion of certain women (e.g., Tamar, Rahab, Ruth, Bathsheba) in the genealogy (Matthew 1:3-6) contribute to biblical theology?",
+          "type": "multiple-choice",
+          "options": [
+            "It highlights God’s grace and the inclusion of Gentiles and sinners in salvation history",
+            "It denies Jesus' royal lineage",
+            "It emphasizes only Jewish purity",
+            "It focuses on patriarchal lineage exclusively"
+          ],
+          "correctAnswer": "It highlights God’s grace and the inclusion of Gentiles and sinners in salvation history",
+          "explanation": "Matthew 1:3-6 includes women with complex backgrounds, showing God's redemptive grace extends beyond Israel and purity laws (Genesis 38; Joshua 2; Ruth 1-4; 2 Samuel 11; Galatians 3:28; Ephesians 2:14-18). This anticipates the universal scope of salvation.",
+          "verseReference": "Matthew 1:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-theological-q11",
+          "question": "What is the significance of Matthew 1:11 mentioning the exile to Babylon in the genealogy?",
+          "type": "multiple-choice",
+          "options": [
+            "It marks a major covenantal and historical turning point in Israel’s history, fulfilled in Christ",
+            "It indicates the genealogy ends with the exile",
+            "It suggests Jesus was born in Babylon",
+            "It denies Jesus' Jewish heritage"
+          ],
+          "correctAnswer": "It marks a major covenantal and historical turning point in Israel’s history, fulfilled in Christ",
+          "explanation": "Matthew 1:11 situates Jesus' genealogy within Israel’s history, highlighting the exile as a judgment and restoration theme (2 Kings 25; Jeremiah 29:10; Daniel 9:24-27; Ezra 1:1-4; Luke 1:32-33). Jesus is portrayed as the fulfillment of God's promises after exile.",
+          "verseReference": "Matthew 1:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-theological-q12",
+          "question": "How does Matthew 1:22-23 demonstrate the principle of biblical fulfillment prophecy?",
+          "type": "multiple-choice",
+          "options": [
+            "It shows Jesus’ birth fulfills Old Testament prophecy about the Messiah",
+            "It describes a new prophecy unrelated to the Old Testament",
+            "It denies the prophetic tradition",
+            "It attributes the prophecy to human invention"
+          ],
+          "correctAnswer": "It shows Jesus’ birth fulfills Old Testament prophecy about the Messiah",
+          "explanation": "Matthew 1:22-23 explicitly connects Jesus’ birth with Isaiah’s prophecy, affirming the reliability of Scripture and divine inspiration (Isaiah 7:14; Luke 1:31; John 5:39; Acts 3:18; 2 Peter 1:20-21). This supports the doctrine of Scripture’s unity and Christ as fulfillment.",
+          "verseReference": "Matthew 1:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-theological-q13",
+          "question": "What doctrinal truth is revealed by the angel addressing Joseph as 'son of David' in Matthew 1:20?",
+          "type": "multiple-choice",
+          "options": [
+            "It confirms Jesus’ messianic claim as the heir of David’s throne",
+            "It denies Jesus’ divine nature",
+            "It emphasizes Joseph’s biological fatherhood",
+            "It refers to Joseph’s priestly role only"
+          ],
+          "correctAnswer": "It confirms Jesus’ messianic claim as the heir of David’s throne",
+          "explanation": "Matthew 1:20 calls Joseph 'son of David,' affirming Jesus’ royal lineage and messianic identity prophesied in the Old Testament (2 Samuel 7:12-16; Jeremiah 23:5; Psalm 89:3-4; Romans 1:3; Revelation 22:16). This is foundational for Christology.",
+          "verseReference": "Matthew 1:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-theological-q14",
+          "question": "What does Matthew 1:24 suggest about Joseph's obedience to divine revelation?",
+          "type": "multiple-choice",
+          "options": [
+            "Joseph immediately obeyed the angel’s command, modeling faith and submission",
+            "Joseph ignored the angel’s message",
+            "Joseph delayed obedience until after Jesus' birth",
+            "Joseph doubted and sought another sign"
+          ],
+          "correctAnswer": "Joseph immediately obeyed the angel’s command, modeling faith and submission",
+          "explanation": "Matthew 1:24 records Joseph’s prompt obedience, illustrating trust in God’s revelation (Genesis 22:1-3; Exodus 24:7; Isaiah 6:8; Luke 1:38; Hebrews 11:8). This highlights the virtue of faithful submission to God’s will.",
+          "verseReference": "Matthew 1:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-1-theological-q15",
+          "question": "Which theological theme is conveyed by the repeated phrase 'begat' in the genealogy of Matthew 1?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s covenant faithfulness across generations leading to Christ",
+            "The importance of biological descent over spiritual identity",
+            "The exclusivity of male lineage in salvation",
+            "Randomness of human history without divine purpose"
+          ],
+          "correctAnswer": "God’s covenant faithfulness across generations leading to Christ",
+          "explanation": "The repeated 'begat' emphasizes God’s covenantal promises honored through successive generations (Genesis 17:7; Exodus 6:2-8; Psalm 105:8-11; Romans 9:4-5; Hebrews 6:13-20). It shows the continuity of God’s plan culminating in Jesus.",
+          "verseReference": "Matthew 1:2",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "matthew-1-quiz",
+      "tags": [
+        "matthew",
+        "chapter-1",
+        "matthew",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

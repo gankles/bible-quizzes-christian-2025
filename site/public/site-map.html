@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitemap - Bible Quiz & Study</title>
+    <meta name="description" content="Complete sitemap of all Bible quizzes, chapters, and study resources organized by Old and New Testament books.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #2c3e50;
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            animation: fadeInDown 0.6s ease-out;
+        }
+
+        h1 {
+            font-size: 3em;
+            font-weight: 700;
+            color: #1a3a52;
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            color: #555;
+            font-weight: 300;
+        }
+
+        .search-engines {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            text-align: center;
+            animation: fadeInUp 0.6s ease-out 0.1s both;
+        }
+
+        .search-engines p {
+            margin-bottom: 12px;
+            color: #666;
+            font-size: 0.95em;
+        }
+
+        .search-engines a {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 10px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .search-engines a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+
+        section {
+            margin-bottom: 50px;
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        section:nth-child(2) { animation-delay: 0.1s; }
+        section:nth-child(3) { animation-delay: 0.2s; }
+        section:nth-child(4) { animation-delay: 0.3s; }
+
+        h2 {
+            font-size: 1.8em;
+            color: #1a3a52;
+            margin-bottom: 25px;
+            padding-bottom: 12px;
+            border-bottom: 3px solid #667eea;
+            font-weight: 700;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .grid-2col {
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        }
+
+        .link-card {
+            background: white;
+            padding: 16px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border-left: 4px solid #667eea;
+        }
+
+        .link-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+            border-left-color: #764ba2;
+        }
+
+        .link-card a {
+            color: #1a3a52;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95em;
+            display: block;
+            transition: color 0.2s;
+        }
+
+        .link-card a:hover {
+            color: #667eea;
+        }
+
+        .link-card .subtext {
+            font-size: 0.85em;
+            color: #888;
+            margin-top: 6px;
+            font-weight: 400;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.4em;
+            }
+
+            .grid {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                gap: 12px;
+            }
+
+            body {
+                padding: 20px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sitemap</h1>
+            <p class="subtitle">Complete Bible Quiz & Study Resource Directory</p>
+        </header>
+
+        <div class="search-engines">
+            <p>For search engines:</p>
+            <a href="/sitemap.xml">View XML Sitemap</a>
+        </div>
+
+        <!-- Main Pages -->
+        <section>
+            <h2>Main Pages</h2>
+            <div class="grid grid-2col">
+                <div class="link-card">
+                    <a href="/">Home</a>
+                    <span class="subtext">Main landing page</span>
+                </div>
+                <div class="link-card">
+                    <a href="/bible-quizzes">All Bible Quizzes</a>
+                    <span class="subtext">Complete quiz directory</span>
+                </div>
+                <div class="link-card">
+                    <a href="/about">About Us</a>
+                    <span class="subtext">Learn about our mission</span>
+                </div>
+                <div class="link-card">
+                    <a href="/contact">Contact</a>
+                    <span class="subtext">Get in touch</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Old Testament Books -->
+        <section>
+            <h2>Old Testament (39 Books)</h2>
+            <div class="grid">
+                <!-- Pentateuch -->
+                <div class="link-card">
+                    <a href="/genesis-chapters">Genesis</a>
+                    <span class="subtext">50 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/exodus-chapters">Exodus</a>
+                    <span class="subtext">40 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/leviticus-chapters">Leviticus</a>
+                    <span class="subtext">27 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/numbers-chapters">Numbers</a>
+                    <span class="subtext">36 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/deuteronomy-chapters">Deuteronomy</a>
+                    <span class="subtext">34 chapters</span>
+                </div>
+
+                <!-- Historical Books -->
+                <div class="link-card">
+                    <a href="/joshua-chapters">Joshua</a>
+                    <span class="subtext">24 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/judges-chapters">Judges</a>
+                    <span class="subtext">21 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/ruth-chapters">Ruth</a>
+                    <span class="subtext">4 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/1-samuel-chapters">1 Samuel</a>
+                    <span class="subtext">31 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/2-samuel-chapters">2 Samuel</a>
+                    <span class="subtext">24 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/1-kings-chapters">1 Kings</a>
+                    <span class="subtext">22 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/2-kings-chapters">2 Kings</a>
+                    <span class="subtext">25 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/1-chronicles-chapters">1 Chronicles</a>
+                    <span class="subtext">29 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/2-chronicles-chapters">2 Chronicles</a>
+                    <span class="subtext">36 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/ezra-chapters">Ezra</a>
+                    <span class="subtext">10 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/nehemiah-chapters">Nehemiah</a>
+                    <span class="subtext">13 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/esther-chapters">Esther</a>
+                    <span class="subtext">10 chapters</span>
+                </div>
+
+                <!-- Wisdom Books -->
+                <div class="link-card">
+                    <a href="/job-chapters">Job</a>
+                    <span class="subtext">42 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/psalms-chapters">Psalms</a>
+                    <span class="subtext">150 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/proverbs-chapters">Proverbs</a>
+                    <span class="subtext">31 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/ecclesiastes-chapters">Ecclesiastes</a>
+                    <span class="subtext">12 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/song-of-songs-chapters">Song of Songs</a>
+                    <span class="subtext">8 chapters</span>
+                </div>
+
+                <!-- Major Prophets -->
+                <div class="link-card">
+                    <a href="/isaiah-chapters">Isaiah</a>
+                    <span class="subtext">66 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/jeremiah-chapters">Jeremiah</a>
+                    <span class="subtext">52 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/lamentations-chapters">Lamentations</a>
+                    <span class="subtext">5 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/ezekiel-chapters">Ezekiel</a>
+                    <span class="subtext">48 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/daniel-chapters">Daniel</a>
+                    <span class="subtext">12 chapters</span>
+                </div>
+
+                <!-- Minor Prophets -->
+                <div class="link-card">
+                    <a href="/hosea-chapters">Hosea</a>
+                    <span class="subtext">14 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/joel-chapters">Joel</a>
+                    <span class="subtext">3 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/amos-chapters">Amos</a>
+                    <span class="subtext">9 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/obadiah-chapters">Obadiah</a>
+                    <span class="subtext">1 chapter</span>
+                </div>
+                <div class="link-card">
+                    <a href="/jonah-chapters">Jonah</a>
+                    <span class="subtext">4 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/micah-chapters">Micah</a>
+                    <span class="subtext">7 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/nahum-chapters">Nahum</a>
+                    <span class="subtext">3 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/habakkuk-chapters">Habakkuk</a>
+                    <span class="subtext">3 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/zephaniah-chapters">Zephaniah</a>
+                    <span class="subtext">3 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/haggai-chapters">Haggai</a>
+                    <span class="subtext">2 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/zechariah-chapters">Zechariah</a>
+                    <span class="subtext">14 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/malachi-chapters">Malachi</a>
+                    <span class="subtext">4 chapters</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Testament Books -->
+        <section>
+            <h2>New Testament (27 Books)</h2>
+            <div class="grid">
+                <!-- Gospels -->
+                <div class="link-card">
+                    <a href="/matthew-chapters">Matthew</a>
+                    <span class="subtext">28 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/mark-chapters">Mark</a>
+                    <span class="subtext">16 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/luke-chapters">Luke</a>
+                    <span class="subtext">24 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/john-chapters">John</a>
+                    <span class="subtext">21 chapters</span>
+                </div>
+
+                <!-- Acts & Paul's Letters -->
+                <div class="link-card">
+                    <a href="/acts-chapters">Acts</a>
+                    <span class="subtext">28 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/romans-chapters">Romans</a>
+                    <span class="subtext">16 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/1-corinthians-chapters">1 Corinthians</a>
+                    <span class="subtext">16 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/2-corinthians-chapters">2 Corinthians</a>
+                    <span class="subtext">13 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/galatians-chapters">Galatians</a>
+                    <span class="subtext">6 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/ephesians-chapters">Ephesians</a>
+                    <span class="subtext">6 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/philippians-chapters">Philippians</a>
+                    <span class="subtext">4 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/colossians-chapters">Colossians</a>
+                    <span class="subtext">4 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/1-thessalonians-chapters">1 Thessalonians</a>
+                    <span class="subtext">5 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/2-thessalonians-chapters">2 Thessalonians</a>
+                    <span class="subtext">3 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/1-timothy-chapters">1 Timothy</a>
+                    <span class="subtext">6 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/2-timothy-chapters">2 Timothy</a>
+                    <span class="subtext">4 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/titus-chapters">Titus</a>
+                    <span class="subtext">3 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/philemon-chapters">Philemon</a>
+                    <span class="subtext">1 chapter</span>
+                </div>
+
+                <!-- Hebrews & James -->
+                <div class="link-card">
+                    <a href="/hebrews-chapters">Hebrews</a>
+                    <span class="subtext">13 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/james-chapters">James</a>
+                    <span class="subtext">5 chapters</span>
+                </div>
+
+                <!-- Peter's Letters -->
+                <div class="link-card">
+                    <a href="/1-peter-chapters">1 Peter</a>
+                    <span class="subtext">5 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/2-peter-chapters">2 Peter</a>
+                    <span class="subtext">3 chapters</span>
+                </div>
+
+                <!-- John's Letters -->
+                <div class="link-card">
+                    <a href="/1-john-chapters">1 John</a>
+                    <span class="subtext">5 chapters</span>
+                </div>
+                <div class="link-card">
+                    <a href="/2-john-chapters">2 John</a>
+                    <span class="subtext">1 chapter</span>
+                </div>
+                <div class="link-card">
+                    <a href="/3-john-chapters">3 John</a>
+                    <span class="subtext">1 chapter</span>
+                </div>
+
+                <!-- Jude & Revelation -->
+                <div class="link-card">
+                    <a href="/jude-chapters">Jude</a>
+                    <span class="subtext">1 chapter</span>
+                </div>
+                <div class="link-card">
+                    <a href="/revelation-chapters">Revelation</a>
+                    <span class="subtext">22 chapters</span>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Bible Quiz & Study. All rights reserved. | <a href="/site-map.html" style="color: #667eea; text-decoration: none;">Sitemap</a> | <a href="/sitemap.xml" style="color: #667eea; text-decoration: none;">XML Sitemap</a></p>
+        </footer>
+    </div>
+</body>
+</html>

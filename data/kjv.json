@@ -1,0 +1,39 @@
+{
+    "name": "King James Version Bible Database",
+    "version": "1.0.0",
+    "description": "Complete KJV Bible text in JSON format for local access",
+    "testament": {
+        "old": 39,
+        "new": 27
+    },
+    "totalBooks": 66,
+    "totalChapters": 1189,
+    "totalVerses": 31102,
+    "verses": {
+        "genesis-1-1": "In the beginning God created the heaven and the earth.",
+        "genesis-1-2": "And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters.",
+        "genesis-1-3": "And God said, Let there be light: and there was light.",
+        "john-3-16": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.",
+        "john-3-17": "For God sent not his Son into the world to condemn the world; but that the world through him might be saved.",
+        "romans-8-28": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose.",
+        "psalm-23-1": "The LORD is my shepherd; I shall not want.",
+        "psalm-23-2": "He maketh me to lie down in green pastures: he leadeth me beside the still waters.",
+        "psalm-23-3": "He restoreth my soul: he leadeth me in the paths of righteousness for his name's sake.",
+        "psalm-23-4": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me.",
+        "psalm-23-5": "Thou preparest a table before me in the presence of mine enemies: thou anointest my head with oil; my cup runneth over.",
+        "psalm-23-6": "Surely goodness and mercy shall follow me all the days of my life: and I will dwell in the house of the LORD for ever.",
+        "proverbs-3-5": "Trust in the LORD with all thine heart; and lean not unto thine own understanding.",
+        "proverbs-3-6": "In all thy ways acknowledge him, and he shall direct thy paths.",
+        "philippians-4-13": "I can do all things through Christ which strengtheneth me.",
+        "jeremiah-29-11": "For I know the thoughts that I think toward you, saith the LORD, thoughts of peace, and not of evil, to give you an expected end.",
+        "matthew-28-19": "Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost:",
+        "matthew-28-20": "Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you always, even unto the end of the world. Amen."
+    },
+    "metadata": {
+        "source": "Public Domain King James Version",
+        "year": "1611",
+        "language": "English",
+        "copyright": "Public Domain",
+        "notes": "This is a sample subset. Full KJV database contains all 31,102 verses."
+    }
+}

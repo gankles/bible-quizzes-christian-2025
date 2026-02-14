@@ -1,6 +1,6 @@
 // Core interfaces for Bible Quiz application
 
-export type QuestionType = 'multiple-choice' | 'true-false' | 'fill-blank';
+export type QuestionType = 'multiple-choice' | 'true-false' | 'fill-blank' | 'fill-in-blank';
 
 export type DifficultyLevel = 'easy' | 'medium' | 'hard';
 
@@ -15,6 +15,7 @@ export interface QuizQuestion {
   explanation: string;
   verseReference: string;
   difficulty: DifficultyLevel;
+  cognitiveLevel?: string;
 }
 
 export interface Quiz {
@@ -78,7 +79,7 @@ export interface InternalLink {
   title: string;
   href: string;
   description: string;
-  type: 'study-guide' | 'quiz' | 'character' | 'book' | 'hub';
+  type: 'study-guide' | 'quiz' | 'character' | 'book' | 'hub' | 'theme';
 }
 
 // Progress tracking
@@ -105,4 +106,33 @@ export interface QuizStats {
   averageScore: number;
   totalTimeSpent: number;
   favoriteTopics: string[];
+}
+
+// Database query types
+export interface StudyPlanFilters {
+  topic?: string;
+  duration?: string;
+  difficulty?: string;
+}
+
+export interface SermonIllustration {
+  slug: string;
+  title: string;
+  topic: string;
+  content: string;
+  [key: string]: unknown;
+}
+
+export interface WordStudy {
+  word: string;
+  language: string;
+  definition: string;
+  [key: string]: unknown;
+}
+
+export interface BibleStudyGuide {
+  slug: string;
+  title: string;
+  topic: string;
+  [key: string]: unknown;
 }

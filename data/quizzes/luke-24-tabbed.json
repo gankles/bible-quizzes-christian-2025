@@ -1,0 +1,983 @@
+{
+  "id": "luke-24-tabbed",
+  "title": "Luke Chapter 24 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Luke chapter 24 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "luke-24-easy",
+      "title": "Luke Chapter 24 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Luke Chapter 24.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 24,
+      "questions": [
+        {
+          "id": "luke-24-easy-q1",
+          "question": "Who came to the sepulchre early on the first day of the week?",
+          "type": "multiple-choice",
+          "options": [
+            "Certain women bringing spices",
+            "The eleven apostles",
+            "Two men in shining garments",
+            "Mary and Martha only"
+          ],
+          "correctAnswer": "Certain women bringing spices",
+          "explanation": "Luke 24:1 states that very early on the first day of the week, they came unto the sepulchre bringing spices they had prepared, along with certain others.",
+          "verseReference": "Luke 24:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-24-easy-q2",
+          "question": "What did they find when they arrived at the sepulchre?",
+          "type": "multiple-choice",
+          "options": [
+            "The stone rolled away",
+            "Jesus' body inside",
+            "The door locked",
+            "A crowd gathered"
+          ],
+          "correctAnswer": "The stone rolled away",
+          "explanation": "Luke 24:2 tells us they found the stone rolled away from the sepulchre.",
+          "verseReference": "Luke 24:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-24-easy-q3",
+          "question": "What was missing inside the sepulchre when they entered?",
+          "type": "multiple-choice",
+          "options": [
+            "The body of the Lord Jesus",
+            "The spices",
+            "The linen clothes",
+            "The angel's presence"
+          ],
+          "correctAnswer": "The body of the Lord Jesus",
+          "explanation": "According to Luke 24:3, they found not the body of the Lord Jesus inside the sepulchre.",
+          "verseReference": "Luke 24:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-24-easy-q4",
+          "question": "What appeared to the women as they were perplexed at the sepulchre?",
+          "type": "multiple-choice",
+          "options": [
+            "Two men in shining garments",
+            "An angel of the Lord",
+            "Jesus Himself",
+            "The risen Christ in flesh"
+          ],
+          "correctAnswer": "Two men in shining garments",
+          "explanation": "Luke 24:4 describes that two men stood by them in shining garments while they were perplexed.",
+          "verseReference": "Luke 24:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-24-easy-q5",
+          "question": "What question did the men in shining garments ask the women?",
+          "type": "multiple-choice",
+          "options": [
+            "Why seek ye the living among the dead?",
+            "Have you seen the Lord?",
+            "Where is the body of Jesus?",
+            "Who rolled the stone away?"
+          ],
+          "correctAnswer": "Why seek ye the living among the dead?",
+          "explanation": "Luke 24:5 records the men asking why they seek the living among the dead.",
+          "verseReference": "Luke 24:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-24-easy-q6",
+          "question": "Fill in the blank: 'He is not here, but is ______.'",
+          "type": "fill-blank",
+          "options": [
+            "risen",
+            "dead",
+            "asleep",
+            "missing"
+          ],
+          "correctAnswer": "risen",
+          "explanation": "Luke 24:6 states clearly that He is not here, but is risen.",
+          "verseReference": "Luke 24:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-24-easy-q7",
+          "question": "Who were the women that told the apostles about the empty tomb?",
+          "type": "multiple-choice",
+          "options": [
+            "Mary Magdalene, Joanna, and Mary the mother of James",
+            "Martha, Mary, and Salome",
+            "Anna, Elizabeth, and Rachel",
+            "Mary, Martha, and Lydia"
+          ],
+          "correctAnswer": "Mary Magdalene, Joanna, and Mary the mother of James",
+          "explanation": "Luke 24:10 identifies these women as the ones who told the apostles.",
+          "verseReference": "Luke 24:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-24-easy-q8",
+          "question": "How did the apostles react to the women's report?",
+          "type": "multiple-choice",
+          "options": [
+            "They thought it was idle tales and did not believe",
+            "They immediately went to the tomb",
+            "They rejoiced and praised God",
+            "They sent others to investigate"
+          ],
+          "correctAnswer": "They thought it was idle tales and did not believe",
+          "explanation": "Luke 24:11 says their words seemed like idle tales and they did not believe them.",
+          "verseReference": "Luke 24:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-24-easy-q9",
+          "question": "What did Peter find when he ran to the sepulchre?",
+          "type": "multiple-choice",
+          "options": [
+            "The linen clothes laid by themselves",
+            "The body of Jesus",
+            "The stone still covering the tomb",
+            "The two men in shining garments"
+          ],
+          "correctAnswer": "The linen clothes laid by themselves",
+          "explanation": "Luke 24:12 describes that Peter saw the linen clothes laid by themselves and wondered at what had happened.",
+          "verseReference": "Luke 24:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-24-easy-q10",
+          "question": "To which village did two disciples go on the same day?",
+          "type": "multiple-choice",
+          "options": [
+            "Emmaus",
+            "Bethany",
+            "Jerusalem",
+            "Nazareth"
+          ],
+          "correctAnswer": "Emmaus",
+          "explanation": "Luke 24:13 states that two disciples went to a village called Emmaus.",
+          "verseReference": "Luke 24:13",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-24-easy-q11",
+          "question": "True or False: Jesus was immediately recognized by the two disciples on the road to Emmaus.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Luke 24:16 explains that their eyes were holden so they did not know Him at first.",
+          "verseReference": "Luke 24:16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-24-easy-q12",
+          "question": "What did Jesus do when He sat at meat with the two disciples?",
+          "type": "multiple-choice",
+          "options": [
+            "He took bread, blessed, broke it, and gave it to them",
+            "He disappeared immediately",
+            "He sang a psalm",
+            "He rebuked them for not believing"
+          ],
+          "correctAnswer": "He took bread, blessed, broke it, and gave it to them",
+          "explanation": "Luke 24:30 records Jesus taking bread, blessing it, breaking it, and giving it to them.",
+          "verseReference": "Luke 24:30",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-24-easy-q13",
+          "question": "What happened to the disciples' eyes after Jesus blessed and broke the bread?",
+          "type": "multiple-choice",
+          "options": [
+            "Their eyes were opened and they recognized Him",
+            "They fell asleep",
+            "They saw a vision of angels",
+            "They were blinded temporarily"
+          ],
+          "correctAnswer": "Their eyes were opened and they recognized Him",
+          "explanation": "Luke 24:31 says their eyes were opened and they knew Him after He broke the bread.",
+          "verseReference": "Luke 24:31",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-24-easy-q14",
+          "question": "True or False: When Jesus appeared to the disciples, they thought He was a spirit.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 24:37 states the disciples were terrified and supposed they had seen a spirit.",
+          "verseReference": "Luke 24:37",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-24-easy-q15",
+          "question": "True or False: Jesus showed the disciples His hands and feet to prove He was not a spirit.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 24:39-40 records Jesus showing His hands and feet to prove His physical body.",
+          "verseReference": "Luke 24:39",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "luke-24-quiz",
+      "tags": [
+        "luke",
+        "chapter-24",
+        "luke",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "luke-24-medium",
+      "title": "Luke Chapter 24 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Luke Chapter 24 to real-life situations.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 24,
+      "questions": [
+        {
+          "id": "luke-24-medium-q1",
+          "question": "How does Luke 24 teach us about trusting God's promises when facing confusion or doubt?",
+          "type": "multiple-choice",
+          "options": [
+            "By remembering Jesus' predictions about His death and resurrection",
+            "By immediately believing every story without question",
+            "By avoiding difficult questions about faith",
+            "By relying only on human wisdom"
+          ],
+          "correctAnswer": "By remembering Jesus' predictions about His death and resurrection",
+          "explanation": "The women were perplexed but remembered Jesus' words about His suffering and rising again (Luke 24:6-8). This shows the importance of trusting God's promises even when circumstances are confusing.",
+          "verseReference": "Luke 24:6-8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-24-medium-q2",
+          "question": "A fellow believer is struggling with doubt after hearing the resurrection story. Based on Luke 24, what biblical truth would you share to encourage faith?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus fulfilled all that was written in the Scriptures concerning Himself",
+            "Doubt is a sign of weak faith and should be ignored",
+            "Only miracles can prove faith",
+            "Faith does not require understanding Scripture"
+          ],
+          "correctAnswer": "Jesus fulfilled all that was written in the Scriptures concerning Himself",
+          "explanation": "Jesus explained to the disciples how all Scriptures, from Moses to the prophets, pointed to His suffering and resurrection (Luke 24:27, 44-46). This encourages believers to trust Scripture as the foundation of faith.",
+          "verseReference": "Luke 24:27, 44-46",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-24-medium-q3",
+          "question": "What practical lesson about evangelism can be learned from the women who reported the empty tomb in Luke 24?",
+          "type": "multiple-choice",
+          "options": [
+            "To boldly share eyewitness testimony even if others doubt it",
+            "To only share good news with those who will believe immediately",
+            "To avoid telling others about spiritual experiences",
+            "To wait until everyone agrees before sharing the Gospel"
+          ],
+          "correctAnswer": "To boldly share eyewitness testimony even if others doubt it",
+          "explanation": "The women told the apostles what they saw, although their words were initially considered idle tales (Luke 24:9-11). This teaches the value of faithful witness regardless of immediate acceptance.",
+          "verseReference": "Luke 24:9-11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-24-medium-q4",
+          "question": "How does Luke 24 encourage humility and openness in spiritual understanding?",
+          "type": "multiple-choice",
+          "options": [
+            "By showing that Jesus opened the disciples' understanding to the Scriptures",
+            "By emphasizing human wisdom over divine teaching",
+            "By discouraging questions about Scripture",
+            "By demanding immediate comprehension without guidance"
+          ],
+          "correctAnswer": "By showing that Jesus opened the disciples' understanding to the Scriptures",
+          "explanation": "Jesus opened the minds of the disciples so they could understand the Scriptures (Luke 24:45), reminding believers to seek God's help in understanding His Word with humility.",
+          "verseReference": "Luke 24:45",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-24-medium-q5",
+          "question": "A believer feels discouraged about persevering through trials. What lesson about perseverance does Luke 24 offer?",
+          "type": "multiple-choice",
+          "options": [
+            "Christ had to suffer and rise again, showing that suffering leads to glory",
+            "Trials are always a sign of God's displeasure",
+            "Avoid suffering at all costs",
+            "Only the perfect are rewarded"
+          ],
+          "correctAnswer": "Christ had to suffer and rise again, showing that suffering leads to glory",
+          "explanation": "Jesus explained that it was necessary for the Christ to suffer and then enter His glory (Luke 24:26, 46). This teaches believers to endure trials with hope of future glory.",
+          "verseReference": "Luke 24:26, 46",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-24-medium-q6",
+          "question": "According to Luke 24, what role does prayer and waiting on God's timing play in receiving power for Christian service?",
+          "type": "multiple-choice",
+          "options": [
+            "Believers should wait in Jerusalem to be endued with power from on high",
+            "Prayer is optional and waiting is unnecessary",
+            "Power is received through human effort alone",
+            "Immediate action without preparation is best"
+          ],
+          "correctAnswer": "Believers should wait in Jerusalem to be endued with power from on high",
+          "explanation": "Jesus instructed the disciples to stay in Jerusalem and wait for the promise of the Father, the Holy Spirit, to empower them (Luke 24:49). This teaches the importance of prayerful waiting for God's empowerment.",
+          "verseReference": "Luke 24:49",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-24-medium-q7",
+          "question": "How does Jesus' appearance and eating before the disciples in Luke 24 teach about integrity and honesty in daily life?",
+          "type": "multiple-choice",
+          "options": [
+            "Showing tangible proof of His resurrection to remove doubt",
+            "Hiding from others to avoid responsibility",
+            "Relying only on rumors and stories",
+            "Avoiding physical evidence to keep people guessing"
+          ],
+          "correctAnswer": "Showing tangible proof of His resurrection to remove doubt",
+          "explanation": "Jesus showed His hands and feet and ate before them to prove He was not a spirit (Luke 24:39-43). This models integrity and honesty, important for Christian witness.",
+          "verseReference": "Luke 24:39-43",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-24-medium-q8",
+          "question": "What does Luke 24 teach about the importance of fellowship and sharing spiritual experiences with others?",
+          "type": "multiple-choice",
+          "options": [
+            "The disciples shared their experience of recognizing Jesus and their hearts burning within them",
+            "Spiritual experiences are private and should not be shared",
+            "Fellowship is unnecessary for spiritual growth",
+            "Only leaders should share spiritual insights"
+          ],
+          "correctAnswer": "The disciples shared their experience of recognizing Jesus and their hearts burning within them",
+          "explanation": "The two disciples told others how their hearts burned within them as Jesus explained Scripture (Luke 24:32, 35), showing the value of fellowship and sharing in spiritual growth.",
+          "verseReference": "Luke 24:32, 35",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-24-medium-q9",
+          "question": "True or False: According to Luke 24, the disciples immediately believed the women who reported Jesus' resurrection.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "The disciples considered the women's report as idle tales and did not believe them at first (Luke 24:11). This illustrates that faith sometimes grows gradually.",
+          "verseReference": "Luke 24:11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-24-medium-q10",
+          "question": "True or False: Jesus' resurrection appearances included physical proofs that encourage believers to trust in the reality of the resurrection.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Jesus showed His hands and feet and ate food to prove He was physically risen (Luke 24:39-43), which strengthens trust in the resurrection's reality.",
+          "verseReference": "Luke 24:39-43",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-24-medium-q11",
+          "question": "Fill in the blank: Jesus taught that repentance and remission of sins should be preached in His name among all nations, beginning at ______.",
+          "type": "fill-blank",
+          "options": [
+            "Jerusalem",
+            "Bethany",
+            "Emmaus",
+            "Galilee"
+          ],
+          "correctAnswer": "Jerusalem",
+          "explanation": "Jesus instructed that the message of repentance and forgiveness be preached starting in Jerusalem (Luke 24:47), emphasizing obedience and evangelism beginning locally.",
+          "verseReference": "Luke 24:47",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-24-medium-q12",
+          "question": "How does Luke 24 demonstrate the importance of gratitude and worship in the Christian life?",
+          "type": "multiple-choice",
+          "options": [
+            "The disciples worshipped Jesus and continually praised God in the temple",
+            "Worship is only for special occasions",
+            "Gratitude is secondary to other duties",
+            "Worship should be private and hidden"
+          ],
+          "correctAnswer": "The disciples worshipped Jesus and continually praised God in the temple",
+          "explanation": "After Jesus' ascension, the disciples worshipped Him and were continually praising God in the temple (Luke 24:52-53), showing the centrality of worship and gratitude.",
+          "verseReference": "Luke 24:52-53",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-24-medium-q13",
+          "question": "What teaching on humility can be drawn from the disciples' reaction to Jesus' first post-resurrection appearance?",
+          "type": "multiple-choice",
+          "options": [
+            "They were terrified and thought they saw a spirit, showing human limitations",
+            "They immediately understood everything",
+            "They ignored Jesus because they were proud",
+            "They refused to believe even after seeing Him"
+          ],
+          "correctAnswer": "They were terrified and thought they saw a spirit, showing human limitations",
+          "explanation": "The disciples were afraid and thought Jesus was a spirit (Luke 24:37), illustrating the need for humility and openness to God's work.",
+          "verseReference": "Luke 24:37",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-24-medium-q14",
+          "question": "According to Luke 24, what biblical principle about serving others and fellowship is demonstrated at Emmaus?",
+          "type": "multiple-choice",
+          "options": [
+            "Inviting Jesus to stay with them led to blessing and revelation",
+            "Keeping to oneself is better than fellowship",
+            "Service is only for church leaders",
+            "Fellowship is optional for believers"
+          ],
+          "correctAnswer": "Inviting Jesus to stay with them led to blessing and revelation",
+          "explanation": "The disciples urged Jesus to stay with them, which resulted in their eyes being opened and recognition of Him (Luke 24:29-31). This shows the blessing of hospitality and fellowship.",
+          "verseReference": "Luke 24:29-31",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-24-medium-q15",
+          "question": "How does Luke 24 encourage believers to be witnesses of Christ's resurrection in daily life?",
+          "type": "multiple-choice",
+          "options": [
+            "By commissioning the disciples to be witnesses to all nations",
+            "By keeping the resurrection a secret",
+            "By discouraging testimony",
+            "By focusing only on personal faith"
+          ],
+          "correctAnswer": "By commissioning the disciples to be witnesses to all nations",
+          "explanation": "Jesus told His disciples they were witnesses of these things and that the message should be preached to all nations (Luke 24:48-47), encouraging active witness in daily life.",
+          "verseReference": "Luke 24:47-48",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "luke-24-quiz",
+      "tags": [
+        "luke",
+        "chapter-24",
+        "luke",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "luke-24-hard",
+      "title": "Luke Chapter 24 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Luke Chapter 24.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 24,
+      "questions": [
+        {
+          "id": "luke-24-hard-q1",
+          "question": "What is the significance of the stone being rolled away from the sepulchre in Luke 24, and how does it relate to Old Testament typology?",
+          "type": "multiple-choice",
+          "options": [
+            "It symbolizes the removal of death's barrier, paralleling Ezekiel's prophecy of resurrection",
+            "It represents the rejection of the Law of Moses",
+            "It signifies the destruction of the Temple",
+            "It foreshadows the destruction of Jerusalem by the Romans"
+          ],
+          "correctAnswer": "It symbolizes the removal of death's barrier, paralleling Ezekiel's prophecy of resurrection",
+          "explanation": "Luke 24:2 describes the stone rolled away, which symbolically removes the barrier of death. This correlates with Ezekiel 37's prophecy of dry bones coming to life, illustrating resurrection and new life.",
+          "verseReference": "Luke 24:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-hard-q2",
+          "question": "In Luke 24:6-7, the angels remind the women of Jesus' prophecy in Galilee. Which Old Testament prophecy does this fulfill?",
+          "type": "multiple-choice",
+          "options": [
+            "Isaiah 53's suffering servant",
+            "Psalm 22's description of crucifixion",
+            "Daniel's prophecy of the Son of Man",
+            "Jeremiah's promise of a new covenant"
+          ],
+          "correctAnswer": "Isaiah 53's suffering servant",
+          "explanation": "The angels' message in Luke 24:6-7 recalls Jesus' prediction of suffering and resurrection, fulfilling Isaiah 53's depiction of the suffering servant who is pierced and yet vindicated.",
+          "verseReference": "Luke 24:6-7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-hard-q3",
+          "question": "What literary device is employed in Luke 24:13-35 in the narrative of the two disciples on the road to Emmaus?",
+          "type": "multiple-choice",
+          "options": [
+            "Chiasm, highlighting Jesus’ revelation and recognition",
+            "Parallelism between the two disciples",
+            "Allegory representing Israel’s journey",
+            "Foreshadowing of Pentecost"
+          ],
+          "correctAnswer": "Chiasm, highlighting Jesus’ revelation and recognition",
+          "explanation": "Luke 24:13-35 uses a chiasm structure where Jesus explains the scriptures (v.27) and is then recognized at the breaking of bread (v.31), emphasizing revelation and recognition.",
+          "verseReference": "Luke 24:13-35",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-hard-q4",
+          "question": "In Luke 24:16, the disciples’ eyes are 'holden that they should not know him.' What is the theological significance of this in the context of the resurrection narrative?",
+          "type": "multiple-choice",
+          "options": [
+            "It represents spiritual blindness before understanding",
+            "It denies the physical resurrection of Jesus",
+            "It emphasizes Jesus' invisibility to all",
+            "It shows divine punishment for disbelief"
+          ],
+          "correctAnswer": "It represents spiritual blindness before understanding",
+          "explanation": "Luke 24:16 shows that the disciples could not recognize Jesus initially, symbolizing their spiritual blindness, which is later removed when Jesus opens their understanding (v.45).",
+          "verseReference": "Luke 24:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-hard-q5",
+          "question": "How does Jesus’ explanation starting 'beginning at Moses and all the prophets' in Luke 24:27 illustrate the author's intent regarding Old Testament continuity?",
+          "type": "multiple-choice",
+          "options": [
+            "It affirms Jesus as the fulfillment of Old Testament prophecy",
+            "It rejects the Old Testament laws in favor of new teachings",
+            "It introduces a new religious movement unrelated to Israel’s history",
+            "It focuses only on the Psalms as authoritative scripture"
+          ],
+          "correctAnswer": "It affirms Jesus as the fulfillment of Old Testament prophecy",
+          "explanation": "Luke 24:27 shows Jesus explaining scriptures from Moses to the prophets, underscoring that his life and work fulfill longstanding biblical prophecies, aligning with Luke’s theme of continuity.",
+          "verseReference": "Luke 24:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-hard-q6",
+          "question": "Which Old Testament theme is echoed when Jesus breaks bread with the disciples in Luke 24:30-31?",
+          "type": "multiple-choice",
+          "options": [
+            "The Passover meal as a symbol of deliverance",
+            "The manna in the wilderness as provision",
+            "The anointing of kings with oil",
+            "The covenant of circumcision"
+          ],
+          "correctAnswer": "The Passover meal as a symbol of deliverance",
+          "explanation": "The breaking of bread in Luke 24:30-31 resonates with the Passover tradition, symbolizing deliverance and foreshadowing Jesus as the new Passover Lamb.",
+          "verseReference": "Luke 24:30-31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-hard-q7",
+          "question": "What is the significance of Jesus showing his hands and feet to the disciples in Luke 24:39-40?",
+          "type": "multiple-choice",
+          "options": [
+            "It authenticates his physical resurrection against claims of a ghost",
+            "It symbolizes spiritual wounds",
+            "It represents a secret code for early Christians",
+            "It indicates his transformation into an angelic being"
+          ],
+          "correctAnswer": "It authenticates his physical resurrection against claims of a ghost",
+          "explanation": "In Luke 24:39-40, Jesus shows his wounds to confirm his bodily resurrection, countering the disciples’ fear that he might be a spirit (v.37).",
+          "verseReference": "Luke 24:39-40",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-hard-q8",
+          "question": "In Luke 24:44-45, Jesus opens the disciples’ understanding of the scriptures. How does this relate to the concept of 'hermeneutics' in biblical studies?",
+          "type": "multiple-choice",
+          "options": [
+            "It exemplifies divine illumination enabling correct interpretation",
+            "It suggests scriptures are inherently unclear and meaningless",
+            "It shows that only apostles can interpret scripture",
+            "It denies the validity of Old Testament scriptures"
+          ],
+          "correctAnswer": "It exemplifies divine illumination enabling correct interpretation",
+          "explanation": "Jesus opening the disciples’ minds (v.45) signifies divine hermeneutics—God enabling believers to understand scripture rightly.",
+          "verseReference": "Luke 24:44-45",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-hard-q9",
+          "question": "According to Luke 24:46-47, what must be preached in Jesus’ name, and how does this mission connect to the broader New Testament theme?",
+          "type": "multiple-choice",
+          "options": [
+            "Repentance and remission of sins, connecting to the Great Commission",
+            "Wealth and prosperity as God’s blessings",
+            "Adherence to Mosaic Law exclusively",
+            "Isolation from non-Jewish nations"
+          ],
+          "correctAnswer": "Repentance and remission of sins, connecting to the Great Commission",
+          "explanation": "Luke 24:47 commands preaching repentance and forgiveness, which aligns with the New Testament mandate to spread the gospel globally (cf. Matthew 28:19-20).",
+          "verseReference": "Luke 24:46-47",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-hard-q10",
+          "question": "What is the significance of Jesus promising 'the promise of my Father' in Luke 24:49, especially in the context of the coming of the Holy Spirit?",
+          "type": "multiple-choice",
+          "options": [
+            "It foretells Pentecost and empowerment for mission",
+            "It refers to material inheritance",
+            "It promises immediate political restoration",
+            "It predicts the destruction of Jerusalem"
+          ],
+          "correctAnswer": "It foretells Pentecost and empowerment for mission",
+          "explanation": "Luke 24:49 anticipates the coming of the Holy Spirit at Pentecost (Acts 2), empowering the disciples for their global mission.",
+          "verseReference": "Luke 24:49",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-hard-q11",
+          "question": "How does the ascension of Jesus in Luke 24:51 function theologically within Luke-Acts as a whole?",
+          "type": "multiple-choice",
+          "options": [
+            "It marks the transition from Jesus’ earthly ministry to the Spirit-empowered church",
+            "It indicates Jesus’ return to a physical throne on earth",
+            "It symbolizes Jesus’ failure to establish his kingdom",
+            "It serves as an allegory for death"
+          ],
+          "correctAnswer": "It marks the transition from Jesus’ earthly ministry to the Spirit-empowered church",
+          "explanation": "The ascension (v.51) concludes Luke’s gospel and initiates Acts’ focus on the Spirit-empowered church mission.",
+          "verseReference": "Luke 24:51",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-hard-q12",
+          "question": "True or False: According to Luke 24:11, the apostles immediately believed the women's report of Jesus’ resurrection.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Luke 24:11 states the apostles regarded the women's testimony as idle tales and did not believe them initially.",
+          "verseReference": "Luke 24:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-hard-q13",
+          "question": "What cultural practice is referenced by the women bringing spices to the sepulchre in Luke 24:1, and what does this reveal about Jewish burial customs?",
+          "type": "multiple-choice",
+          "options": [
+            "Anointing the body for burial, showing respect and care",
+            "Bringing sacrifices to the temple",
+            "Offering gifts to Roman guards",
+            "Preparing food for a feast"
+          ],
+          "correctAnswer": "Anointing the body for burial, showing respect and care",
+          "explanation": "Luke 24:1 mentions spices, reflecting Jewish burial customs of anointing the dead as a sign of honor and care.",
+          "verseReference": "Luke 24:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-hard-q14",
+          "question": "In Luke 24:25-26, Jesus calls the disciples 'slow of heart to believe all that the prophets have spoken.' Which theme does this critique emphasize in Luke's Gospel?",
+          "type": "multiple-choice",
+          "options": [
+            "The necessity of scriptural fulfillment for faith",
+            "The rejection of the Law of Moses",
+            "The superiority of Gentile wisdom",
+            "The condemnation of all Old Testament prophecy"
+          ],
+          "correctAnswer": "The necessity of scriptural fulfillment for faith",
+          "explanation": "Jesus rebukes their lack of understanding regarding prophecy fulfillment, emphasizing faith grounded in scripture fulfillment (v.25-26).",
+          "verseReference": "Luke 24:25-26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-hard-q15",
+          "question": "How does the reaction of the disciples in Luke 24:37-38 to Jesus’ appearance illustrate the historical-cultural context of resurrection beliefs?",
+          "type": "multiple-choice",
+          "options": [
+            "They feared seeing a spirit because Jews distinguished spirits from bodily resurrection",
+            "They immediately recognized Jesus as God",
+            "They expected a political revolution",
+            "They suspected Roman trickery"
+          ],
+          "correctAnswer": "They feared seeing a spirit because Jews distinguished spirits from bodily resurrection",
+          "explanation": "Luke 24:37-38 shows disciples' terror, reflecting Jewish views that spirits differ from resurrected bodies, thus Jesus proves physical resurrection (v.39).",
+          "verseReference": "Luke 24:37-38",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "luke-24-quiz",
+      "tags": [
+        "luke",
+        "chapter-24",
+        "luke",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "luke-24-theological",
+      "title": "Luke Chapter 24 Quiz - Theological Level",
+      "description": "Deep biblical theology from Luke Chapter 24 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Luke",
+      "chapter": 24,
+      "questions": [
+        {
+          "id": "luke-24-theological-q1",
+          "question": "What is the theological significance of the stone being rolled away from the sepulchre?",
+          "type": "multiple-choice",
+          "options": [
+            "It signifies the resurrection and victory over death",
+            "It shows that the tomb was left unlocked",
+            "It represents the removal of sin",
+            "It indicates the body was stolen"
+          ],
+          "correctAnswer": "It signifies the resurrection and victory over death",
+          "explanation": "Luke 24:2 describes the stone rolled away, symbolizing Christ's resurrection, which is the cornerstone of Christian faith (see also Matthew 28:2-6, John 20:1-9, 1 Corinthians 15:4, Romans 6:9). This event demonstrates Jesus' victory over death and sin.",
+          "verseReference": "Luke 24:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-theological-q2",
+          "question": "According to Luke 24, what did the two men in shining garments tell the women about Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "He is not here, but is risen",
+            "He has been taken by the authorities",
+            "He will come again soon",
+            "He was mistaken for dead"
+          ],
+          "correctAnswer": "He is not here, but is risen",
+          "explanation": "Luke 24:5-6 recounts the angels telling the women that Jesus has risen, affirming the resurrection which fulfills Old Testament prophecy (Psalm 16:10, Isaiah 53:10-11). This is central to Christian doctrine about salvation and eternal life (Romans 4:25, 1 Peter 1:3).",
+          "verseReference": "Luke 24:5-6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-theological-q3",
+          "question": "What prophecy did Jesus remind the disciples of concerning His death and resurrection?",
+          "type": "multiple-choice",
+          "options": [
+            "That the Son of man must be delivered to sinful men, be crucified, and rise on the third day",
+            "That He would reign forever without dying",
+            "That He would be betrayed but not suffer",
+            "That He would live a long life before dying"
+          ],
+          "correctAnswer": "That the Son of man must be delivered to sinful men, be crucified, and rise on the third day",
+          "explanation": "Luke 24:7 highlights Jesus' fulfillment of the suffering servant prophecy and resurrection, which aligns with Isaiah 53, Psalm 22, and Daniel 9:26. This confirms God’s redemptive plan through Christ’s death and resurrection (Acts 2:23-24, 1 Corinthians 15:3-4).",
+          "verseReference": "Luke 24:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-theological-q4",
+          "question": "Who were the women that first reported the resurrection to the apostles?",
+          "type": "multiple-choice",
+          "options": [
+            "Mary Magdalene, Joanna, Mary the mother of James, and others",
+            "Martha, Mary, and Salome",
+            "Elizabeth, Anna, and Ruth",
+            "Anna, Phoebe, and Lydia"
+          ],
+          "correctAnswer": "Mary Magdalene, Joanna, Mary the mother of James, and others",
+          "explanation": "Luke 24:10 identifies these women as the first witnesses, emphasizing the important role women played in the resurrection testimony. This is consistent with all four Gospels (Mark 16:1-8, John 20:1-18), affirming the trustworthiness of their witness in a culture that undervalued women’s testimony.",
+          "verseReference": "Luke 24:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-theological-q5",
+          "question": "How did the apostles initially react to the women's report of Jesus' resurrection?",
+          "type": "multiple-choice",
+          "options": [
+            "They considered it idle tales and did not believe",
+            "They immediately rejoiced and believed",
+            "They set out to find Jesus right away",
+            "They reported it to the authorities"
+          ],
+          "correctAnswer": "They considered it idle tales and did not believe",
+          "explanation": "Luke 24:11 shows the apostles' initial skepticism, which aligns with the human difficulty in accepting resurrection, a supernatural event (John 20:24-25, Acts 1:3, 1 Corinthians 15:5-8). This highlights the necessity of faith and the work of the Holy Spirit to open understanding (1 John 1:1-3).",
+          "verseReference": "Luke 24:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-theological-q6",
+          "question": "What did Peter find when he ran to the sepulchre after hearing the women's report?",
+          "type": "multiple-choice",
+          "options": [
+            "The linen clothes lying by themselves, but no body",
+            "The tomb sealed and guarded",
+            "Jesus' body wrapped and intact",
+            "A vision of angels"
+          ],
+          "correctAnswer": "The linen clothes lying by themselves, but no body",
+          "explanation": "Luke 24:12 records Peter's discovery of the empty tomb with the linen cloths, underscoring the reality of the resurrection (John 20:6-7, Mark 16:5-6). This evidence supports the bodily resurrection doctrine, distinguishing it from mere spiritual continuation (Romans 6:5).",
+          "verseReference": "Luke 24:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-theological-q7",
+          "question": "In the journey to Emmaus, why were the two disciples unable to recognize Jesus initially?",
+          "type": "multiple-choice",
+          "options": [
+            "Their eyes were holden that they should not know Him",
+            "He was disguised in different clothing",
+            "They were too sorrowful to see clearly",
+            "He appeared only as a spirit"
+          ],
+          "correctAnswer": "Their eyes were holden that they should not know Him",
+          "explanation": "Luke 24:16 explains their spiritual blindness, which reflects the biblical theme of human inability to comprehend divine truth without illumination (Isaiah 6:9-10, 2 Corinthians 4:4, John 9:39-41). This also highlights the role of the Spirit in opening eyes to Christ (Acts 26:18).",
+          "verseReference": "Luke 24:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-theological-q8",
+          "question": "What was Jesus' method of explaining the Scriptures to the disciples on the road to Emmaus?",
+          "type": "multiple-choice",
+          "options": [
+            "Beginning at Moses and all the prophets, He expounded concerning Himself",
+            "He gave a new revelation unrelated to previous Scriptures",
+            "He focused only on the Psalms",
+            "He spoke only in parables"
+          ],
+          "correctAnswer": "Beginning at Moses and all the prophets, He expounded concerning Himself",
+          "explanation": "Luke 24:27 shows Jesus interpreting the Old Testament as pointing to Himself, fulfilling typology and prophecy (Deuteronomy 18:15, Isaiah 53, Psalm 22). This is essential Christological teaching that Jesus is the fulfillment of all Scripture (John 5:39, Hebrews 1:1-3).",
+          "verseReference": "Luke 24:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-theological-q9",
+          "question": "What action caused the disciples' eyes to be opened and them to recognize Jesus on the road to Emmaus?",
+          "type": "multiple-choice",
+          "options": [
+            "When He took bread, blessed it, broke it, and gave it to them",
+            "When He revealed His wounds",
+            "When He spoke their names",
+            "When He prayed aloud"
+          ],
+          "correctAnswer": "When He took bread, blessed it, broke it, and gave it to them",
+          "explanation": "Luke 24:30-31 describes the breaking of bread as the moment of revelation, echoing the Last Supper (Luke 22:19) and Eucharistic theology, signifying Christ’s presence with His people (1 Corinthians 11:23-26). This action reveals Christ’s continuing covenantal work (John 6:35).",
+          "verseReference": "Luke 24:30-31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-theological-q10",
+          "question": "What message did Jesus convey about the fulfillment of Scripture to His disciples?",
+          "type": "multiple-choice",
+          "options": [
+            "All things written in the law, prophets, and psalms concerning Him must be fulfilled",
+            "Only the law is important for salvation",
+            "The prophets were mistaken about the Messiah",
+            "The psalms were poetic and not prophetic"
+          ],
+          "correctAnswer": "All things written in the law, prophets, and psalms concerning Him must be fulfilled",
+          "explanation": "Luke 24:44 states Christ’s fulfillment of the entire Old Testament witness, affirming the unity and divine inspiration of Scripture (2 Timothy 3:16-17, Matthew 5:17, Romans 15:4). This underlines the incarnation and atoning work as the climax of redemptive history.",
+          "verseReference": "Luke 24:44",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-theological-q11",
+          "question": "What role does repentance and remission of sins have according to Jesus' teaching in Luke 24?",
+          "type": "multiple-choice",
+          "options": [
+            "They should be preached in His name among all nations",
+            "They are only for the Jewish people",
+            "They are unnecessary after resurrection",
+            "They apply only to priests"
+          ],
+          "correctAnswer": "They should be preached in His name among all nations",
+          "explanation": "Luke 24:47 commands universal proclamation of repentance and forgiveness, establishing the Great Commission’s scope (Acts 2:38, Matthew 28:19-20, 2 Corinthians 7:10). This points to salvation available to all through Christ’s resurrection power (Ephesians 1:7).",
+          "verseReference": "Luke 24:47",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-theological-q12",
+          "question": "What promise did Jesus give to His disciples before His ascension?",
+          "type": "multiple-choice",
+          "options": [
+            "The promise of the Father, the Holy Spirit's power from on high",
+            "Immediate physical healing",
+            "Worldly riches and honor",
+            "To never suffer again"
+          ],
+          "correctAnswer": "The promise of the Father, the Holy Spirit's power from on high",
+          "explanation": "Luke 24:49 speaks of the coming Holy Spirit empowering the disciples, fulfilling Old Testament prophecy (Joel 2:28-29) and inaugurating the church’s mission (Acts 1:4-8). This pneumatological promise is foundational for Christian life and witness.",
+          "verseReference": "Luke 24:49",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-theological-q13",
+          "question": "How did Jesus demonstrate His physical resurrection to His disciples in Luke 24?",
+          "type": "multiple-choice",
+          "options": [
+            "He showed His hands and feet and ate before them",
+            "He appeared only as a spirit",
+            "He vanished immediately upon appearing",
+            "He only spoke to them without physical presence"
+          ],
+          "correctAnswer": "He showed His hands and feet and ate before them",
+          "explanation": "Luke 24:39-43 emphasizes Christ’s physical resurrection by showing wounds and eating, refuting notions that He was a ghost (John 20:27, 1 Corinthians 15:17-20). This confirms bodily resurrection as essential to Christian hope and eschatology (Philippians 3:21).",
+          "verseReference": "Luke 24:39-43",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-theological-q14",
+          "question": "What was the disciples' reaction when Jesus appeared among them after His resurrection?",
+          "type": "multiple-choice",
+          "options": [
+            "They were terrified and thought they saw a spirit",
+            "They immediately recognized Him and worshipped",
+            "They ignored Him",
+            "They questioned His identity calmly"
+          ],
+          "correctAnswer": "They were terrified and thought they saw a spirit",
+          "explanation": "Luke 24:37 describes their fear and confusion, reflecting the unprecedented nature of the resurrection appearances (Mark 16:14, John 20:19). This shows human limitations in comprehending divine mystery and the need for reassurance and teaching (Luke 24:38-40).",
+          "verseReference": "Luke 24:37",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-24-theological-q15",
+          "question": "What did Jesus commission His disciples to do before His ascension?",
+          "type": "multiple-choice",
+          "options": [
+            "Be witnesses of His resurrection and preach repentance to all nations",
+            "Build a physical temple",
+            "Gather a large army",
+            "Establish a new political kingdom"
+          ],
+          "correctAnswer": "Be witnesses of His resurrection and preach repentance to all nations",
+          "explanation": "Luke 24:48-47 commands the disciples to bear witness to Christ’s resurrection and spread the gospel globally, fulfilling the Abrahamic covenant and Old Testament promises (Genesis 12:3, Isaiah 49:6, Acts 1:8). This is foundational for the church’s mission and eschatological hope.",
+          "verseReference": "Luke 24:47-48",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "luke-24-quiz",
+      "tags": [
+        "luke",
+        "chapter-24",
+        "luke",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

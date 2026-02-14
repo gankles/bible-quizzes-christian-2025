@@ -1,0 +1,561 @@
+{
+  "id": "acts-book-quiz",
+  "title": "Acts Quiz - Complete Book",
+  "description": "Test your comprehensive knowledge of the entire book of Acts with 25 questions covering key events, people, and teachings from all 28 chapters.",
+  "type": "book",
+  "book": "Acts",
+  "questions": [
+    {
+      "id": "acts-bq-1",
+      "question": "Who was chosen by casting lots to replace Judas Iscariot as an apostle?",
+      "type": "multiple-choice",
+      "options": [
+        "Joseph called Barsabas",
+        "Matthias",
+        "Barnabas",
+        "Saul"
+      ],
+      "correctAnswer": "Matthias",
+      "explanation": "Matthias was chosen to take Judas' place as an apostle after prayer and casting lots.",
+      "verseReference": "Acts 1:23-26",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acts-bq-2",
+      "question": "What promise did Jesus instruct the apostles to wait for in Jerusalem?",
+      "type": "multiple-choice",
+      "options": [
+        "The restoration of the kingdom",
+        "The coming of Elijah",
+        "The promise of the Father - the Holy Ghost",
+        "The fall of Jerusalem"
+      ],
+      "correctAnswer": "The promise of the Father - the Holy Ghost",
+      "explanation": "Jesus told the apostles to wait in Jerusalem for the baptism with the Holy Ghost.",
+      "verseReference": "Acts 1:4-5",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acts-bq-3",
+      "question": "According to Acts 2, what sound was heard on the day of Pentecost?",
+      "type": "multiple-choice",
+      "options": [
+        "A mighty rushing wind",
+        "A trumpet blast",
+        "A loud thunder",
+        "A roaring fire"
+      ],
+      "correctAnswer": "A mighty rushing wind",
+      "explanation": "The sound like a mighty rushing wind filled the house where the apostles were sitting.",
+      "verseReference": "Acts 2:2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acts-bq-4",
+      "question": "Who preached the first sermon on the day of Pentecost?",
+      "type": "multiple-choice",
+      "options": [
+        "Peter",
+        "John",
+        "Stephen",
+        "Paul"
+      ],
+      "correctAnswer": "Peter",
+      "explanation": "Peter stood up with the eleven and preached to the crowd explaining the prophecy fulfillment.",
+      "verseReference": "Acts 2:14-36",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acts-bq-5",
+      "question": "True or False: The believers in the early church had all things common and sold possessions to distribute to any in need.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "verseReference": "Acts 2:44-45",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acts-bq-6",
+      "question": "What miracle did Peter and John perform at the Beautiful Gate of the temple?",
+      "type": "multiple-choice",
+      "options": [
+        "Healing a lame man",
+        "Raising a dead man",
+        "Casting out a demon",
+        "Turning water into wine"
+      ],
+      "correctAnswer": "Healing a lame man",
+      "explanation": "They healed a man who was lame from birth, who sat begging at the gate.",
+      "verseReference": "Acts 3:1-8",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acts-bq-7",
+      "question": "In Acts 4, what was the reaction of the priests and rulers when Peter and John testified about Jesus?",
+      "type": "multiple-choice",
+      "options": [
+        "They rejoiced",
+        "They arrested them",
+        "They were astonished and commanded them not to speak",
+        "They sent them to Rome"
+      ],
+      "correctAnswer": "They were astonished and commanded them not to speak",
+      "explanation": "They were amazed but commanded Peter and John not to teach in Jesus' name.",
+      "verseReference": "Acts 4:13-18",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acts-bq-8",
+      "question": "Complete this verse: \"Neither is there salvation in any other: for there is none other name under heaven given among men, whereby we must be saved, but _________.\"",
+      "type": "fill-blank",
+      "options": [
+        "Jesus",
+        "Peter",
+        "Paul",
+        "John"
+      ],
+      "correctAnswer": "Jesus",
+      "verseReference": "Acts 4:12",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acts-bq-9",
+      "question": "Who was the first Christian martyr, stoned to death after his defense before the Sanhedrin?",
+      "type": "multiple-choice",
+      "options": [
+        "Stephen",
+        "Philip",
+        "James",
+        "Barnabas"
+      ],
+      "correctAnswer": "Stephen",
+      "explanation": "Stephen was accused of blasphemy and was stoned after a powerful speech.",
+      "verseReference": "Acts 7:54-60",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acts-bq-10",
+      "question": "True or False: Stephen's face appeared like the face of an angel as he was being stoned.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "verseReference": "Acts 6:15",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acts-bq-11",
+      "question": "In Acts 8, who evangelized in Samaria and performed many miracles?",
+      "type": "multiple-choice",
+      "options": [
+        "Philip",
+        "Peter",
+        "Paul",
+        "Barnabas"
+      ],
+      "correctAnswer": "Philip",
+      "explanation": "Philip preached in Samaria and many believed, accompanied by miracles.",
+      "verseReference": "Acts 8:4-8",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acts-bq-12",
+      "question": "Who baptized the Ethiopian eunuch after explaining the scripture to him?",
+      "type": "multiple-choice",
+      "options": [
+        "Philip",
+        "Peter",
+        "Paul",
+        "John"
+      ],
+      "correctAnswer": "Philip",
+      "explanation": "Philip was led by the Spirit to meet and baptize the Ethiopian eunuch.",
+      "verseReference": "Acts 8:26-38",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acts-bq-13",
+      "question": "What event caused Saul to cease persecuting the church and become a believer?",
+      "type": "multiple-choice",
+      "options": [
+        "A dream of Jesus",
+        "A vision on the road to Damascus",
+        "A direct encounter with Peter",
+        "An angelic visitation"
+      ],
+      "correctAnswer": "A vision on the road to Damascus",
+      "explanation": "Saul saw a bright light and heard Jesus’ voice on the way to Damascus.",
+      "verseReference": "Acts 9:3-6",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acts-bq-14",
+      "question": "True or False: Ananias was hesitant but obeyed the Lord to go and heal Saul's blindness.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "verseReference": "Acts 9:10-17",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acts-bq-15",
+      "question": "What was Peter’s vision that led to the acceptance of Gentiles into the church?",
+      "type": "multiple-choice",
+      "options": [
+        "A sheet with unclean animals",
+        "A ladder reaching to heaven",
+        "A burning bush",
+        "A dove descending"
+      ],
+      "correctAnswer": "A sheet with unclean animals",
+      "explanation": "Peter saw a vision where unclean animals were lowered on a sheet, symbolizing Gentiles being accepted.",
+      "verseReference": "Acts 10:9-16",
+      "difficulty": "easy"
+    },
+    {
+      "id": "acts-bq-16",
+      "question": "Who was the Roman centurion that Peter visited, leading to the first Gentile conversion?",
+      "type": "multiple-choice",
+      "options": [
+        "Cornelius",
+        "Sergius Paulus",
+        "Lysanias",
+        "Felix"
+      ],
+      "correctAnswer": "Cornelius",
+      "explanation": "Cornelius was a devout Gentile who received the Holy Ghost after Peter’s visit.",
+      "verseReference": "Acts 10:1-48",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acts-bq-17",
+      "question": "True or False: The early church in Antioch was the first to call the followers of Jesus 'Christians'.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "verseReference": "Acts 11:26",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acts-bq-18",
+      "question": "Which two men were sent out by the Holy Ghost from Antioch for missionary work?",
+      "type": "multiple-choice",
+      "options": [
+        "Paul and Barnabas",
+        "Peter and John",
+        "Philip and Stephen",
+        "James and Silas"
+      ],
+      "correctAnswer": "Paul and Barnabas",
+      "explanation": "The Holy Ghost directed the church at Antioch to send Paul and Barnabas for the work.",
+      "verseReference": "Acts 13:2-4",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acts-bq-19",
+      "question": "Who opposed Paul and Barnabas on the island of Cyprus, leading Paul to pronounce blindness on him?",
+      "type": "multiple-choice",
+      "options": [
+        "Elymas the sorcerer",
+        "Sergius Paulus",
+        "Barjesus",
+        "Simon Magus"
+      ],
+      "correctAnswer": "Elymas the sorcerer",
+      "explanation": "Elymas sought to turn the proconsul away from the faith, and Paul struck him with blindness.",
+      "verseReference": "Acts 13:6-11",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acts-bq-20",
+      "question": "Complete this verse: \"And as many as were ordained to eternal life believed.\"",
+      "type": "fill-blank",
+      "options": [
+        "believed",
+        "obeyed",
+        "received",
+        "were saved"
+      ],
+      "correctAnswer": "believed",
+      "verseReference": "Acts 13:48",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acts-bq-21",
+      "question": "What was the main issue addressed at the Jerusalem Council in Acts 15?",
+      "type": "multiple-choice",
+      "options": [
+        "Whether Gentiles must be circumcised",
+        "Whether to preach to Samaritans",
+        "Whether to build a temple",
+        "Whether to observe the Sabbath"
+      ],
+      "correctAnswer": "Whether Gentiles must be circumcised",
+      "explanation": "The council debated if Gentile believers had to follow Mosaic law including circumcision.",
+      "verseReference": "Acts 15:1-29",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acts-bq-22",
+      "question": "Who was chosen to deliver the letter from the Jerusalem Council to the Gentile believers?",
+      "type": "multiple-choice",
+      "options": [
+        "Judas and Silas",
+        "Paul and Barnabas",
+        "Peter and James",
+        "Stephen and Philip"
+      ],
+      "correctAnswer": "Judas and Silas",
+      "explanation": "Judas called Barsabas and Silas were chosen to accompany Paul and Barnabas.",
+      "verseReference": "Acts 15:22",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acts-bq-23",
+      "question": "True or False: Paul and Silas were imprisoned in Philippi after casting out a spirit from a maiden.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "verseReference": "Acts 16:16-24",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acts-bq-24",
+      "question": "What miraculous event occurred while Paul and Silas were praying and singing in prison?",
+      "type": "multiple-choice",
+      "options": [
+        "An earthquake opened the prison doors",
+        "An angel released them",
+        "The jailer fell asleep",
+        "The prison walls crumbled"
+      ],
+      "correctAnswer": "An earthquake opened the prison doors",
+      "explanation": "A great earthquake shook the prison, opening doors and loosening chains.",
+      "verseReference": "Acts 16:25-26",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acts-bq-25",
+      "question": "Who was Lydia in the book of Acts?",
+      "type": "multiple-choice",
+      "options": [
+        "A seller of purple and a convert in Philippi",
+        "A prophetess in Jerusalem",
+        "A Roman official",
+        "A Jewish Pharisee"
+      ],
+      "correctAnswer": "A seller of purple and a convert in Philippi",
+      "explanation": "Lydia was a merchant woman who believed and was baptized along with her household.",
+      "verseReference": "Acts 16:14-15",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acts-bq-26",
+      "question": "Who was the young man that fell asleep and fell out of a window during Paul's preaching in Troas?",
+      "type": "multiple-choice",
+      "options": [
+        "Eutychus",
+        "Titus",
+        "Barnabas",
+        "Silas"
+      ],
+      "correctAnswer": "Eutychus",
+      "explanation": "Eutychus fell asleep and fell from the third story but was revived by Paul.",
+      "verseReference": "Acts 20:7-12",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acts-bq-27",
+      "question": "True or False: Paul was shipwrecked on the island of Malta during his voyage to Rome.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "verseReference": "Acts 27:39-44; 28:1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acts-bq-28",
+      "question": "What miraculous event happened to Paul on Malta that caused the islanders to think he was a god?",
+      "type": "multiple-choice",
+      "options": [
+        "He was bitten by a viper but unharmed",
+        "He walked on water",
+        "He healed the governor’s father",
+        "He raised a child from the dead"
+      ],
+      "correctAnswer": "He was bitten by a viper but unharmed",
+      "explanation": "A poisonous viper fastened on Paul's hand but he was not harmed, amazing the islanders.",
+      "verseReference": "Acts 28:3-6",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acts-bq-29",
+      "question": "Complete this verse: \"For the which cause I also suffer these things: nevertheless I am not _______.\"",
+      "type": "fill-blank",
+      "options": [
+        "ashamed",
+        "afraid",
+        "silent",
+        "discouraged"
+      ],
+      "correctAnswer": "ashamed",
+      "verseReference": "Acts 20:24",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acts-bq-30",
+      "question": "Who was the Roman governor that Paul appeared before in Caesarea and later was sent to Rome?",
+      "type": "multiple-choice",
+      "options": [
+        "Felix",
+        "Festus",
+        "Pilate",
+        "Herod Agrippa"
+      ],
+      "correctAnswer": "Festus",
+      "explanation": "Festus succeeded Felix and heard Paul's case before sending him to Caesar.",
+      "verseReference": "Acts 24:27; 25:1-12",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acts-bq-31",
+      "question": "True or False: Paul was released from house arrest in Rome and continued his missionary journeys freely.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "verseReference": "Acts 28:30-31",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acts-bq-32",
+      "question": "What was the main theme of Paul's message to the Jews in the synagogue at Antioch of Pisidia?",
+      "type": "multiple-choice",
+      "options": [
+        "Jesus is the Savior and fulfillment of prophecy",
+        "The law of Moses must be kept perfectly",
+        "A new temple will be built",
+        "The Messiah will come soon"
+      ],
+      "correctAnswer": "Jesus is the Savior and fulfillment of prophecy",
+      "explanation": "Paul preached Jesus as the promised deliverer and called for repentance.",
+      "verseReference": "Acts 13:16-41",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acts-bq-33",
+      "question": "True or False: The apostles performed many signs and wonders through the power of the Holy Ghost.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "verseReference": "Acts 5:12-16",
+      "difficulty": "medium"
+    },
+    {
+      "id": "acts-bq-34",
+      "question": "Fill in the blank: \"But ye shall receive power, after that the Holy Ghost is come upon you: and ye shall be _________ unto me both in Jerusalem, and in all Judaea, and in Samaria, and unto the uttermost part of the earth.\"",
+      "type": "fill-blank",
+      "options": [
+        "witnesses",
+        "priests",
+        "teachers",
+        "apostles"
+      ],
+      "correctAnswer": "witnesses",
+      "verseReference": "Acts 1:8",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acts-bq-35",
+      "question": "Who was Simon the Sorcerer and what did he attempt to do?",
+      "type": "multiple-choice",
+      "options": [
+        "A magician who tried to buy the Holy Ghost's power",
+        "A Roman centurion who welcomed Paul",
+        "A Jewish Pharisee who opposed Stephen",
+        "A prophet in Antioch"
+      ],
+      "correctAnswer": "A magician who tried to buy the Holy Ghost's power",
+      "explanation": "Simon tried to buy the power to bestow the Holy Ghost but was rebuked.",
+      "verseReference": "Acts 8:9-24",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acts-bq-36",
+      "question": "True or False: The disciples at Ephesus received the Holy Ghost and spoke with tongues and prophesied after Paul laid hands on them.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "verseReference": "Acts 19:1-7",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acts-bq-37",
+      "question": "What was the outcome of the riot in Ephesus caused by the silversmith Demetrius?",
+      "type": "multiple-choice",
+      "options": [
+        "Paul was arrested and imprisoned",
+        "The city was burned down",
+        "The crowd was confused and the town clerk quieted them",
+        "Paul fled the city immediately"
+      ],
+      "correctAnswer": "The crowd was confused and the town clerk quieted them",
+      "explanation": "The town clerk calmed the crowd to prevent further disturbance.",
+      "verseReference": "Acts 19:23-41",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acts-bq-38",
+      "question": "What vision did Paul have in Troas encouraging him to go to Macedonia?",
+      "type": "multiple-choice",
+      "options": [
+        "A man of Macedonia pleading for help",
+        "A burning bush",
+        "A ladder to heaven",
+        "A dove descending"
+      ],
+      "correctAnswer": "A man of Macedonia pleading for help",
+      "explanation": "Paul saw a vision of a man from Macedonia asking him to come and help.",
+      "verseReference": "Acts 16:9-10",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acts-bq-39",
+      "question": "Who was the young man whom Paul raised from the dead in Troas?",
+      "type": "multiple-choice",
+      "options": [
+        "Eutychus",
+        "Timothy",
+        "Silas",
+        "Luke"
+      ],
+      "correctAnswer": "Eutychus",
+      "explanation": "Eutychus fell from a window and was brought back to life by Paul.",
+      "verseReference": "Acts 20:9-12",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acts-bq-40",
+      "question": "True or False: Paul was acquitted by Felix after his trial in Caesarea and released immediately.",
+      "type": "true-false",
+      "correctAnswer": "false",
+      "verseReference": "Acts 24:27",
+      "difficulty": "hard"
+    },
+    {
+      "id": "acts-bq-41",
+      "question": "Complete this verse: \"And the word of God increased; and the number of the disciples multiplied in Jerusalem greatly; and a great company of the priests were _______ to the faith.\"",
+      "type": "fill-blank",
+      "options": [
+        "obedient",
+        "converted",
+        "added",
+        "obedient"
+      ],
+      "correctAnswer": "obedient",
+      "verseReference": "Acts 6:7",
+      "difficulty": "hard"
+    }
+  ],
+  "difficulty": "medium",
+  "isBookQuiz": true,
+  "slug": "acts-quiz",
+  "tags": [
+    "acts",
+    "acts",
+    "book quiz",
+    "comprehensive",
+    "bible quiz"
+  ],
+  "totalQuestions": 41,
+  "estimatedTime": 31
+}

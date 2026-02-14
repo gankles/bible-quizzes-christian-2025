@@ -9,9 +9,11 @@ yarn-error.log*
 .swc
 out
 
-# Environment files
-.env*
-!.env.example
+# Environment files (keep .env for build)
+.env.local
+.env.development
+.env.production
+.env.example
 
 # Development tools
 .vscode
@@ -40,8 +42,25 @@ docker-compose*
 
 # Documentation
 README.md
-*.md
+CLAUDE.md
 docs/
+*.xlsx
+# Keep data/bible-data/*.csv for data loaders
+Children*.csv
+*.png
+*.resolved
+*.resolved.txt
+site/
+test-results/
+scripts/
+Book1*
+Children*
+Screenshot*
+cross_references.txt
+topic-scores.txt
+dev.log
+mark-1-quiz-page.png
+next-prompt.md
 
 # Testing
 coverage
@@ -62,6 +81,7 @@ logs
 # Temporary files
 tmp/
 temp/
+.next-build/
 *.tmp
 *.temp
 

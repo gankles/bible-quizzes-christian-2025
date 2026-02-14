@@ -1,0 +1,612 @@
+{
+  "id": "john-book-quiz",
+  "title": "John Quiz - Complete Book",
+  "description": "Test your comprehensive knowledge of the entire book of John with 25 questions covering key events, people, and teachings from all 21 chapters.",
+  "type": "book",
+  "book": "John",
+  "questions": [
+    {
+      "id": "john-bq-1",
+      "question": "Who is described as 'the true Light, which lighteth every man that cometh into the world'?",
+      "type": "multiple-choice",
+      "options": [
+        "John the Baptist",
+        "Jesus Christ",
+        "Moses",
+        "Elijah"
+      ],
+      "correctAnswer": "Jesus Christ",
+      "explanation": "John 1:9 identifies Jesus as the true Light that enlightens every man coming into the world.",
+      "verseReference": "John 1:9",
+      "difficulty": "easy"
+    },
+    {
+      "id": "john-bq-2",
+      "question": "What was John the Baptist's role according to John 1?",
+      "type": "multiple-choice",
+      "options": [
+        "He was the Christ",
+        "He baptized with water to prepare the way",
+        "He was a prophet like Elias",
+        "He performed miracles"
+      ],
+      "correctAnswer": "He baptized with water to prepare the way",
+      "explanation": "John 1:26-27 declares John baptized with water and prepared the way for Jesus, whom he was not worthy to unloose the shoe latchet.",
+      "verseReference": "John 1:26-27",
+      "difficulty": "easy"
+    },
+    {
+      "id": "john-bq-3",
+      "question": "According to John 1, where was John baptizing when he saw Jesus?",
+      "type": "multiple-choice",
+      "options": [
+        "Jerusalem",
+        "Bethabara beyond Jordan",
+        "Nazareth",
+        "Capernaum"
+      ],
+      "correctAnswer": "Bethabara beyond Jordan",
+      "explanation": "John 1:28 states John was baptizing at Bethabara beyond Jordan when he saw Jesus.",
+      "verseReference": "John 1:28",
+      "difficulty": "easy"
+    },
+    {
+      "id": "john-bq-4",
+      "question": "What did John the Baptist call Jesus when he first saw Him?",
+      "type": "multiple-choice",
+      "options": [
+        "Son of Man",
+        "Lamb of God",
+        "Rabbi",
+        "Prophet"
+      ],
+      "correctAnswer": "Lamb of God",
+      "explanation": "John 1:29 says John the Baptist called Jesus 'the Lamb of God, which taketh away the sin of the world.'",
+      "verseReference": "John 1:29",
+      "difficulty": "easy"
+    },
+    {
+      "id": "john-bq-5",
+      "question": "Who was one of the first disciples to follow Jesus after hearing John the Baptist?",
+      "type": "multiple-choice",
+      "options": [
+        "Peter",
+        "Andrew",
+        "Philip",
+        "Nathanael"
+      ],
+      "correctAnswer": "Andrew",
+      "explanation": "John 1:40 identifies Andrew, Simon Peter's brother, as one of the first disciples to follow Jesus.",
+      "verseReference": "John 1:40",
+      "difficulty": "easy"
+    },
+    {
+      "id": "john-bq-6",
+      "question": "True or False: According to John 2, Jesus turned water into wine at a wedding in Cana.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "John 2:1-11 records Jesus' first miracle turning water into wine at Cana.",
+      "verseReference": "John 2:1-11",
+      "difficulty": "easy"
+    },
+    {
+      "id": "john-bq-7",
+      "question": "Where did Jesus cleanse the temple by casting out the money changers?",
+      "type": "multiple-choice",
+      "options": [
+        "Bethany",
+        "Jerusalem",
+        "Capernaum",
+        "Nazareth"
+      ],
+      "correctAnswer": "Jerusalem",
+      "explanation": "John 2:13-16 describes Jesus cleansing the temple in Jerusalem.",
+      "verseReference": "John 2:13-16",
+      "difficulty": "easy"
+    },
+    {
+      "id": "john-bq-8",
+      "question": "What sign did Jesus say would prove His authority to cleanse the temple?",
+      "type": "multiple-choice",
+      "options": [
+        "Raising Lazarus from the dead",
+        "Destroying the temple and raising it in three days",
+        "Walking on water",
+        "Feeding the five thousand"
+      ],
+      "correctAnswer": "Destroying the temple and raising it in three days",
+      "explanation": "John 2:19 records Jesus saying, 'Destroy this temple, and in three days I will raise it up.'",
+      "verseReference": "John 2:19",
+      "difficulty": "easy"
+    },
+    {
+      "id": "john-bq-9",
+      "question": "True or False: Nicodemus came to Jesus at night to ask about being born again.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "John 3:1-2 describes Nicodemus visiting Jesus by night to discuss rebirth.",
+      "verseReference": "John 3:1-2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "john-bq-10",
+      "question": "Complete this verse: 'For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have ________.'",
+      "type": "fill-blank",
+      "options": [
+        "life",
+        "peace",
+        "joy",
+        "hope"
+      ],
+      "correctAnswer": "life",
+      "explanation": "John 3:16 declares the promise of eternal life for believers.",
+      "verseReference": "John 3:16",
+      "difficulty": "easy"
+    },
+    {
+      "id": "john-bq-11",
+      "question": "What did John the Baptist say about Jesus in John 3:30?",
+      "type": "multiple-choice",
+      "options": [
+        "He must increase, but I must decrease",
+        "He is a prophet",
+        "He is Elijah returned",
+        "He is the Messiah"
+      ],
+      "correctAnswer": "He must increase, but I must decrease",
+      "explanation": "John 3:30 states John the Baptist's humility about Jesus' rising prominence.",
+      "verseReference": "John 3:30",
+      "difficulty": "easy"
+    },
+    {
+      "id": "john-bq-12",
+      "question": "True or False: Jesus told the Samaritan woman at the well that He could give her living water.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "John 4:10 records Jesus offering living water to the Samaritan woman.",
+      "verseReference": "John 4:10",
+      "difficulty": "easy"
+    },
+    {
+      "id": "john-bq-13",
+      "question": "Where did Jesus say true worshippers would worship the Father?",
+      "type": "multiple-choice",
+      "options": [
+        "In Jerusalem",
+        "On Mount Gerizim",
+        "In spirit and in truth",
+        "In the synagogue"
+      ],
+      "correctAnswer": "In spirit and in truth",
+      "explanation": "John 4:23-24 teaches true worship is in spirit and truth, not location-dependent.",
+      "verseReference": "John 4:23-24",
+      "difficulty": "easy"
+    },
+    {
+      "id": "john-bq-14",
+      "question": "Who was the royal official whose son Jesus healed after speaking to him in John 4?",
+      "type": "multiple-choice",
+      "options": [
+        "The centurion",
+        "A Pharisee",
+        "A nobleman of Capernaum",
+        "A Sadducee"
+      ],
+      "correctAnswer": "A nobleman of Capernaum",
+      "explanation": "John 4:46-54 tells of a nobleman whose son was healed by Jesus' word.",
+      "verseReference": "John 4:46-54",
+      "difficulty": "easy"
+    },
+    {
+      "id": "john-bq-15",
+      "question": "True or False: Jesus declared Himself as the bread of life in John 6.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "John 6:35 quotes Jesus saying He is the bread of life.",
+      "verseReference": "John 6:35",
+      "difficulty": "easy"
+    },
+    {
+      "id": "john-bq-16",
+      "question": "How many people did Jesus feed with five barley loaves and two fishes?",
+      "type": "multiple-choice",
+      "options": [
+        "About one thousand",
+        "About two thousand",
+        "About five thousand",
+        "About ten thousand"
+      ],
+      "correctAnswer": "About five thousand",
+      "explanation": "John 6:10 states about five thousand men were fed miraculously.",
+      "verseReference": "John 6:10",
+      "difficulty": "medium"
+    },
+    {
+      "id": "john-bq-17",
+      "question": "After the feeding of the five thousand, what did Jesus do that amazed His disciples?",
+      "type": "multiple-choice",
+      "options": [
+        "Walked on water",
+        "Healed a blind man",
+        "Preached the Sermon on the Mount",
+        "Turned stones to bread"
+      ],
+      "correctAnswer": "Walked on water",
+      "explanation": "John 6:19-20 recounts Jesus walking on the sea to His disciples' boat.",
+      "verseReference": "John 6:19-20",
+      "difficulty": "medium"
+    },
+    {
+      "id": "john-bq-18",
+      "question": "What did Jesus say was the work of God in John 6?",
+      "type": "multiple-choice",
+      "options": [
+        "To perform miracles",
+        "To believe on Him whom God sent",
+        "To keep the commandments",
+        "To give alms to the poor"
+      ],
+      "correctAnswer": "To believe on Him whom God sent",
+      "explanation": "John 6:29 explains that the work God requires is belief in Jesus.",
+      "verseReference": "John 6:29",
+      "difficulty": "medium"
+    },
+    {
+      "id": "john-bq-19",
+      "question": "True or False: Jesus said no man can come to Him unless the Father draws him.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "John 6:44 teaches that the Father must draw a person to Jesus for salvation.",
+      "verseReference": "John 6:44",
+      "difficulty": "medium"
+    },
+    {
+      "id": "john-bq-20",
+      "question": "According to John 7, where did Jesus go secretly because the Jews sought to kill Him?",
+      "type": "multiple-choice",
+      "options": [
+        "Bethany",
+        "Galilee",
+        "Jerusalem",
+        "Nazareth"
+      ],
+      "correctAnswer": "Galilee",
+      "explanation": "John 7:1 states Jesus stayed in Galilee to avoid the Jews seeking to kill Him.",
+      "verseReference": "John 7:1",
+      "difficulty": "medium"
+    },
+    {
+      "id": "john-bq-21",
+      "question": "Where was the Feast of Tabernacles held, where Jesus taught in John 7?",
+      "type": "multiple-choice",
+      "options": [
+        "Jerusalem",
+        "Bethany",
+        "Capernaum",
+        "Bethlehem"
+      ],
+      "correctAnswer": "Jerusalem",
+      "explanation": "John 7:2-14 shows Jesus teaching during the feast in Jerusalem.",
+      "verseReference": "John 7:2-14",
+      "difficulty": "medium"
+    },
+    {
+      "id": "john-bq-22",
+      "question": "True or False: Jesus said the Spirit would be given only after He was glorified.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "John 7:39 explains the Spirit was not yet given because Jesus was not yet glorified.",
+      "verseReference": "John 7:39",
+      "difficulty": "medium"
+    },
+    {
+      "id": "john-bq-23",
+      "question": "What did Jesus say about the living water in John 7?",
+      "type": "multiple-choice",
+      "options": [
+        "It is the water of the Jordan",
+        "It is the Holy Spirit given to believers",
+        "It is the water from the temple",
+        "It is the water of baptism"
+      ],
+      "correctAnswer": "It is the Holy Spirit given to believers",
+      "explanation": "John 7:37-39 describes living water as the Spirit given to those who believe.",
+      "verseReference": "John 7:37-39",
+      "difficulty": "medium"
+    },
+    {
+      "id": "john-bq-24",
+      "question": "True or False: In John 8, Jesus declared, 'I am the light of the world.'",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "John 8:12 quotes Jesus saying He is the light of the world.",
+      "verseReference": "John 8:12",
+      "difficulty": "medium"
+    },
+    {
+      "id": "john-bq-25",
+      "question": "In John 8, who did Jesus say would know the truth, and the truth would make them free?",
+      "type": "multiple-choice",
+      "options": [
+        "The Jews",
+        "The disciples",
+        "Those who believe in Him",
+        "The children of Abraham"
+      ],
+      "correctAnswer": "Those who believe in Him",
+      "explanation": "John 8:32 teaches that knowing Jesus' word brings freedom through truth.",
+      "verseReference": "John 8:32",
+      "difficulty": "medium"
+    },
+    {
+      "id": "john-bq-26",
+      "question": "Who did Jesus say was a murderer from the beginning and a liar in John 8?",
+      "type": "multiple-choice",
+      "options": [
+        "Satan",
+        "Pharisees",
+        "Peter",
+        "Judas"
+      ],
+      "correctAnswer": "Satan",
+      "explanation": "John 8:44 describes the devil as the father of lies and a murderer from the beginning.",
+      "verseReference": "John 8:44",
+      "difficulty": "medium"
+    },
+    {
+      "id": "john-bq-27",
+      "question": "True or False: Jesus forgave the woman caught in adultery and told her to sin no more.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "John 8:11 records Jesus forgiving the adulterous woman and instructing her to go and sin no more.",
+      "verseReference": "John 8:11",
+      "difficulty": "medium"
+    },
+    {
+      "id": "john-bq-28",
+      "question": "What did Jesus do when He healed the man born blind in John 9?",
+      "type": "multiple-choice",
+      "options": [
+        "Spoke a word and the man saw",
+        "Anointed the man's eyes with clay and told him to wash in Siloam",
+        "Touched the man's eyes",
+        "Prayed for the man"
+      ],
+      "correctAnswer": "Anointed the man's eyes with clay and told him to wash in Siloam",
+      "explanation": "John 9:6-7 recounts Jesus making clay, anointing the man's eyes, and instructing him to wash.",
+      "verseReference": "John 9:6-7",
+      "difficulty": "medium"
+    },
+    {
+      "id": "john-bq-29",
+      "question": "True or False: The healed blind man confessed Jesus as a prophet after gaining sight.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "John 9:17 shows the man saying Jesus must be a prophet.",
+      "verseReference": "John 9:17",
+      "difficulty": "medium"
+    },
+    {
+      "id": "john-bq-30",
+      "question": "What did Jesus say about Himself in John 10:11?",
+      "type": "multiple-choice",
+      "options": [
+        "I am the door of the sheep",
+        "I am the good shepherd",
+        "I am the way, the truth, and the life",
+        "I am the resurrection and the life"
+      ],
+      "correctAnswer": "I am the good shepherd",
+      "explanation": "John 10:11 quotes Jesus saying He is the good shepherd who lays down His life for the sheep.",
+      "verseReference": "John 10:11",
+      "difficulty": "medium"
+    },
+    {
+      "id": "john-bq-31",
+      "question": "True or False: Jesus said His sheep hear His voice and follow Him.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "John 10:27 states that Jesus’ sheep hear His voice and follow Him.",
+      "verseReference": "John 10:27",
+      "difficulty": "medium"
+    },
+    {
+      "id": "john-bq-32",
+      "question": "Complete this verse: 'I am the resurrection, and the _______: he that believeth in me, though he were dead, yet shall he live.'",
+      "type": "fill-blank",
+      "options": [
+        "life",
+        "truth",
+        "hope",
+        "way"
+      ],
+      "correctAnswer": "life",
+      "explanation": "John 11:25 records Jesus' declaration of being the resurrection and the life.",
+      "verseReference": "John 11:25",
+      "difficulty": "medium"
+    },
+    {
+      "id": "john-bq-33",
+      "question": "Who were the siblings of Lazarus in Bethany mentioned in John 11?",
+      "type": "multiple-choice",
+      "options": [
+        "Mary and Martha",
+        "Anna and Elisabeth",
+        "Rachel and Leah",
+        "Sarah and Rebecca"
+      ],
+      "correctAnswer": "Mary and Martha",
+      "explanation": "John 11:1-2 identifies Mary and Martha as Lazarus' sisters.",
+      "verseReference": "John 11:1-2",
+      "difficulty": "medium"
+    },
+    {
+      "id": "john-bq-34",
+      "question": "How long had Lazarus been dead before Jesus raised him?",
+      "type": "multiple-choice",
+      "options": [
+        "Two days",
+        "Three days",
+        "Four days",
+        "Five days"
+      ],
+      "correctAnswer": "Four days",
+      "explanation": "John 11:17 states Lazarus had been in the grave four days.",
+      "verseReference": "John 11:17",
+      "difficulty": "hard"
+    },
+    {
+      "id": "john-bq-35",
+      "question": "What was Thomas' reaction when Jesus said they should go to Judea to see Lazarus?",
+      "type": "multiple-choice",
+      "options": [
+        "Let's go, even if we die with Him",
+        "We should wait",
+        "We can't go there",
+        "Let's send others first"
+      ],
+      "correctAnswer": "Let's go, even if we die with Him",
+      "explanation": "John 11:16 quotes Thomas saying, 'Let us also go, that we may die with him.'",
+      "verseReference": "John 11:16",
+      "difficulty": "hard"
+    },
+    {
+      "id": "john-bq-36",
+      "question": "True or False: Jesus wept at Lazarus' tomb.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "John 11:35 records Jesus weeping at the tomb of Lazarus.",
+      "verseReference": "John 11:35",
+      "difficulty": "hard"
+    },
+    {
+      "id": "john-bq-37",
+      "question": "What did Jesus say to Lazarus before he rose from the dead?",
+      "type": "multiple-choice",
+      "options": [
+        "Come forth",
+        "Rise up",
+        "Be healed",
+        "Walk in faith"
+      ],
+      "correctAnswer": "Come forth",
+      "explanation": "John 11:43 shows Jesus commanding Lazarus to come forth from the grave.",
+      "verseReference": "John 11:43",
+      "difficulty": "hard"
+    },
+    {
+      "id": "john-bq-38",
+      "question": "True or False: After Lazarus was raised, many of the Jews believed in Jesus.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "John 11:45 states many Jews believed because of the miracle.",
+      "verseReference": "John 11:45",
+      "difficulty": "hard"
+    },
+    {
+      "id": "john-bq-39",
+      "question": "Complete this verse: 'If ye continue in my word, then are ye my disciples indeed; And ye shall know the ________, and the truth shall make you free.'",
+      "type": "fill-blank",
+      "options": [
+        "truth",
+        "peace",
+        "way",
+        "word"
+      ],
+      "correctAnswer": "truth",
+      "explanation": "John 8:31-32 teaches that abiding in Jesus' word brings knowledge of truth and freedom.",
+      "verseReference": "John 8:31-32",
+      "difficulty": "hard"
+    },
+    {
+      "id": "john-bq-40",
+      "question": "Where did Jesus wash His disciples' feet, showing humility and service?",
+      "type": "multiple-choice",
+      "options": [
+        "On the Mount of Olives",
+        "In the upper room",
+        "At the temple",
+        "By the Sea of Galilee"
+      ],
+      "correctAnswer": "In the upper room",
+      "explanation": "John 13:1-17 describes Jesus washing the disciples' feet in the upper room.",
+      "verseReference": "John 13:1-17",
+      "difficulty": "hard"
+    },
+    {
+      "id": "john-bq-41",
+      "question": "True or False: Jesus gave the new commandment to love one another as He loved them.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "John 13:34 records Jesus commanding His disciples to love one another.",
+      "verseReference": "John 13:34",
+      "difficulty": "hard"
+    },
+    {
+      "id": "john-bq-42",
+      "question": "Who did Jesus identify as the one who would betray Him during the Last Supper?",
+      "type": "multiple-choice",
+      "options": [
+        "Peter",
+        "Judas Iscariot",
+        "John",
+        "Thomas"
+      ],
+      "correctAnswer": "Judas Iscariot",
+      "explanation": "John 13:21-27 reveals Jesus identified Judas as the betrayer.",
+      "verseReference": "John 13:21-27",
+      "difficulty": "hard"
+    },
+    {
+      "id": "john-bq-43",
+      "question": "What promise did Jesus give about the Holy Spirit in John 14?",
+      "type": "multiple-choice",
+      "options": [
+        "The Spirit will convict the world of sin",
+        "The Spirit will teach and remind the disciples of all things",
+        "The Spirit will come to glorify Jesus",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above",
+      "explanation": "John 14:16-17, 26, and 15:26 detail the Spirit convicting of sin, teaching, and glorifying Jesus.",
+      "verseReference": "John 14:16-17, 26; 15:26",
+      "difficulty": "hard"
+    },
+    {
+      "id": "john-bq-44",
+      "question": "True or False: Jesus said He and the Father are one.",
+      "type": "true-false",
+      "correctAnswer": "true",
+      "explanation": "John 10:30 quotes Jesus saying, 'I and my Father are one.'",
+      "verseReference": "John 10:30",
+      "difficulty": "hard"
+    },
+    {
+      "id": "john-bq-45",
+      "question": "Complete this verse: 'Greater love hath no man than this, that a man lay down his _______ for his friends.'",
+      "type": "fill-blank",
+      "options": [
+        "life",
+        "wealth",
+        "honor",
+        "power"
+      ],
+      "correctAnswer": "life",
+      "explanation": "John 15:13 states the greatest love is laying down one's life for friends.",
+      "verseReference": "John 15:13",
+      "difficulty": "hard"
+    }
+  ],
+  "difficulty": "medium",
+  "isBookQuiz": true,
+  "slug": "john-quiz",
+  "tags": [
+    "john",
+    "john",
+    "book quiz",
+    "comprehensive",
+    "bible quiz"
+  ],
+  "totalQuestions": 45,
+  "estimatedTime": 34
+}

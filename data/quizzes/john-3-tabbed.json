@@ -1,0 +1,983 @@
+{
+  "id": "john-3-tabbed",
+  "title": "John Chapter 3 Quiz - Multi-Level",
+  "description": "An enhanced quiz on John chapter 3 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "john-3-easy",
+      "title": "John Chapter 3 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of John Chapter 3.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 3,
+      "questions": [
+        {
+          "id": "john-3-easy-q1",
+          "question": "Who came to Jesus by night in John 3?",
+          "type": "multiple-choice",
+          "options": [
+            "Nicodemus",
+            "Peter",
+            "John the Baptist",
+            "Matthew"
+          ],
+          "correctAnswer": "Nicodemus",
+          "explanation": "John 3:1 states that Nicodemus, a man of the Pharisees and a ruler of the Jews, came to Jesus by night.",
+          "verseReference": "John 3:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-3-easy-q2",
+          "question": "What did Nicodemus acknowledge about Jesus in John 3:2?",
+          "type": "multiple-choice",
+          "options": [
+            "He is a teacher come from God",
+            "He is the Messiah",
+            "He is a prophet",
+            "He is a carpenter"
+          ],
+          "correctAnswer": "He is a teacher come from God",
+          "explanation": "John 3:2 records Nicodemus calling Jesus 'Rabbi' and saying he is a teacher from God because of the miracles He performed.",
+          "verseReference": "John 3:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-3-easy-q3",
+          "question": "According to Jesus in John 3:3, what must a man be to see the kingdom of God?",
+          "type": "multiple-choice",
+          "options": [
+            "Born again",
+            "Righteous",
+            "Wealthy",
+            "A Pharisee"
+          ],
+          "correctAnswer": "Born again",
+          "explanation": "Jesus said in John 3:3 that except a man be born again, he cannot see the kingdom of God.",
+          "verseReference": "John 3:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-3-easy-q4",
+          "question": "What was Nicodemus' question about being born again in John 3:4?",
+          "type": "multiple-choice",
+          "options": [
+            "How can a man be born when he is old?",
+            "What does it mean to be born again?",
+            "Who can be born again?",
+            "Is it necessary to be born again?"
+          ],
+          "correctAnswer": "How can a man be born when he is old?",
+          "explanation": "John 3:4 records Nicodemus asking how a man can be born again when he is old, questioning the possibility of reentering the womb.",
+          "verseReference": "John 3:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-3-easy-q5",
+          "question": "Fill in the blank: Jesus said, 'Except a man be born of ______ and of the Spirit, he cannot enter into the kingdom of God.'",
+          "type": "fill-blank",
+          "options": [
+            "water",
+            "fire",
+            "earth",
+            "air"
+          ],
+          "correctAnswer": "water",
+          "explanation": "John 3:5 shows Jesus stating that being born of water and of the Spirit is necessary to enter the kingdom of God.",
+          "verseReference": "John 3:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-3-easy-q6",
+          "question": "In John 3:8, Jesus compares those born of the Spirit to what natural phenomenon?",
+          "type": "multiple-choice",
+          "options": [
+            "The wind",
+            "The rain",
+            "The sun",
+            "The sea"
+          ],
+          "correctAnswer": "The wind",
+          "explanation": "Jesus compares the Spirit's movement to the wind, which blows where it wishes and is heard but not seen clearly, in John 3:8.",
+          "verseReference": "John 3:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-3-easy-q7",
+          "question": "True or False: Jesus said no man has ascended into heaven except the Son of Man who came down from heaven.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 3:13 states that no one has ascended to heaven except the Son of Man who came down from heaven.",
+          "verseReference": "John 3:13",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-3-easy-q8",
+          "question": "According to John 3:14, what must happen to the Son of Man, similar to what Moses did?",
+          "type": "multiple-choice",
+          "options": [
+            "Be lifted up",
+            "Be crowned king",
+            "Be anointed with oil",
+            "Be sent to Egypt"
+          ],
+          "correctAnswer": "Be lifted up",
+          "explanation": "John 3:14 refers to the Son of Man being lifted up like the serpent Moses lifted in the wilderness.",
+          "verseReference": "John 3:14",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-3-easy-q9",
+          "question": "What is promised to whoever believes in the Son of Man, according to John 3:15?",
+          "type": "multiple-choice",
+          "options": [
+            "Not perish but have eternal life",
+            "Wealth and prosperity",
+            "Power over nations",
+            "A long life on earth"
+          ],
+          "correctAnswer": "Not perish but have eternal life",
+          "explanation": "John 3:15 promises eternal life to whoever believes in the Son of Man and not perishing.",
+          "verseReference": "John 3:15",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-3-easy-q10",
+          "question": "What reason does John 3:16 give for God sending His only begotten Son?",
+          "type": "multiple-choice",
+          "options": [
+            "Because He loved the world",
+            "Because the world was righteous",
+            "Because angels requested it",
+            "Because there was a famine"
+          ],
+          "correctAnswer": "Because He loved the world",
+          "explanation": "John 3:16 says God loved the world so much that He gave His only begotten Son for believers to have everlasting life.",
+          "verseReference": "John 3:16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-3-easy-q11",
+          "question": "True or False: God sent His Son to condemn the world, according to John 3:17.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 3:17 explains that God did not send His Son to condemn the world but to save it through Him.",
+          "verseReference": "John 3:17",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-3-easy-q12",
+          "question": "According to John 3:18, what happens to those who do not believe in the Son of God?",
+          "type": "multiple-choice",
+          "options": [
+            "They are condemned already",
+            "They receive eternal life",
+            "They become angels",
+            "They are forgiven"
+          ],
+          "correctAnswer": "They are condemned already",
+          "explanation": "John 3:18 states that those who do not believe in the Son of God are already condemned.",
+          "verseReference": "John 3:18",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-3-easy-q13",
+          "question": "What do those who do evil do in relation to the light, according to John 3:20?",
+          "type": "multiple-choice",
+          "options": [
+            "They hate the light and avoid it",
+            "They seek the light",
+            "They ignore the light",
+            "They love the light"
+          ],
+          "correctAnswer": "They hate the light and avoid it",
+          "explanation": "John 3:20 explains that those who do evil hate the light and do not come to it for fear their deeds will be exposed.",
+          "verseReference": "John 3:20",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-3-easy-q14",
+          "question": "Where was John baptizing when Jesus and His disciples went into Judaea, according to John 3:22?",
+          "type": "multiple-choice",
+          "options": [
+            "The land of Judaea",
+            "Jerusalem",
+            "Galilee",
+            "Bethlehem"
+          ],
+          "correctAnswer": "The land of Judaea",
+          "explanation": "John 3:22 describes Jesus and His disciples going into Judaea where they stayed and baptized.",
+          "verseReference": "John 3:22",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-3-easy-q15",
+          "question": "True or False: John the Baptist said, 'He must increase, but I must decrease,' according to John 3:30.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "In John 3:30, John the Baptist states that Jesus must increase in prominence while he must decrease.",
+          "verseReference": "John 3:30",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "john-3-quiz",
+      "tags": [
+        "john",
+        "chapter-3",
+        "john",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "john-3-medium",
+      "title": "John Chapter 3 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from John Chapter 3 to real-life situations.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 3,
+      "questions": [
+        {
+          "id": "john-3-medium-q1",
+          "question": "A fellow believer is struggling with understanding spiritual rebirth. Based on John 3, what biblical truth would you share about being born again?",
+          "type": "multiple-choice",
+          "options": [
+            "One must be born of water and the Spirit to enter the kingdom of God",
+            "Being born again means returning to one's mother's womb",
+            "Physical birth is sufficient for salvation",
+            "Rebirth is only symbolic and not necessary for salvation"
+          ],
+          "correctAnswer": "One must be born of water and the Spirit to enter the kingdom of God",
+          "explanation": "John 3:3-5 teaches that except a person is born again, specifically born of water and the Spirit, they cannot see or enter the kingdom of God. Nicodemus misunderstood this as physical rebirth (John 3:4), but Jesus clarified the spiritual nature of rebirth (John 3:6-8).",
+          "verseReference": "John 3:5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-3-medium-q2",
+          "question": "How does John 3 instruct us about faith and eternal life?",
+          "type": "multiple-choice",
+          "options": [
+            "Believing in the Son results in eternal life",
+            "Faith is not necessary for eternal life",
+            "Only good works guarantee eternal life",
+            "Eternal life is given to those who follow the law perfectly"
+          ],
+          "correctAnswer": "Believing in the Son results in eternal life",
+          "explanation": "John 3:15-16 and John 3:36 emphasize that whoever believes in the Son has eternal life. Faith in Jesus is the essential condition for receiving everlasting life and avoiding condemnation.",
+          "verseReference": "John 3:16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-3-medium-q3",
+          "question": "A believer is confused about the role of Jesus in salvation. According to John 3, what is Jesus' purpose in coming into the world?",
+          "type": "multiple-choice",
+          "options": [
+            "To save the world, not to condemn it",
+            "To condemn sinners immediately",
+            "To establish earthly kingdoms",
+            "To abolish the law completely"
+          ],
+          "correctAnswer": "To save the world, not to condemn it",
+          "explanation": "John 3:17 explains that God sent His Son not to condemn the world but so that the world might be saved through Him. This highlights Jesus' mission of salvation and grace rather than judgment.",
+          "verseReference": "John 3:17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-3-medium-q4",
+          "question": "How should a Christian respond when others reject the gospel message, based on John 3?",
+          "type": "multiple-choice",
+          "options": [
+            "Continue to bear witness faithfully despite rejection",
+            "Stop sharing the gospel if people do not listen",
+            "Use force to convince others",
+            "Ignore the message and focus on personal success"
+          ],
+          "correctAnswer": "Continue to bear witness faithfully despite rejection",
+          "explanation": "John 3:11 and John 3:32 show that Jesus and His followers testify of what they have seen and heard, even though many do not receive their testimony. Christians are called to persist in proclaiming God's truth regardless of rejection.",
+          "verseReference": "John 3:11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-3-medium-q5",
+          "question": "A believer is facing temptation to compromise integrity at work. According to John 3, what principle can guide them?",
+          "type": "multiple-choice",
+          "options": [
+            "Walk in the light so that your deeds may be seen as done in God",
+            "Hide your actions to avoid criticism",
+            "Compromise if necessary to gain favor",
+            "Do what everyone else does regardless of right or wrong"
+          ],
+          "correctAnswer": "Walk in the light so that your deeds may be seen as done in God",
+          "explanation": "John 3:20-21 teaches that those who do truth come to the light so their deeds can be clearly seen as done in God. This encourages believers to act with integrity and transparency.",
+          "verseReference": "John 3:21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-3-medium-q6",
+          "question": "How does John 3 teach about humility in the believer’s life?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus must increase, but we must decrease",
+            "We should seek to increase our own status",
+            "Humility is not mentioned in this chapter",
+            "We must rely on our own wisdom rather than God’s"
+          ],
+          "correctAnswer": "Jesus must increase, but we must decrease",
+          "explanation": "John 3:30 states clearly that 'He must increase, but I must decrease,' teaching believers the importance of humility and putting Christ first in their lives.",
+          "verseReference": "John 3:30",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-3-medium-q7",
+          "question": "A believer is discouraged because their witness is not accepted. What encouragement does John 3 offer about being a witness for Christ?",
+          "type": "multiple-choice",
+          "options": [
+            "The friend of the bridegroom rejoices when hearing the bridegroom’s voice",
+            "Witnessing is futile if people reject the message",
+            "Only leaders should witness to others",
+            "Witnessing is optional for believers"
+          ],
+          "correctAnswer": "The friend of the bridegroom rejoices when hearing the bridegroom’s voice",
+          "explanation": "John 3:29 compares the believer to the friend of the bridegroom who rejoices greatly to hear the bridegroom’s voice, showing that witnessing brings joy even if the world does not accept the message.",
+          "verseReference": "John 3:29",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-3-medium-q8",
+          "question": "True or False: According to John 3, those who do evil love the light and eagerly come to it.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 3:19-20 explains that those who do evil hate the light and do not come to it because their deeds would be exposed, indicating avoidance rather than eagerness.",
+          "verseReference": "John 3:19",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-3-medium-q9",
+          "question": "True or False: John the Baptist claimed to be the Christ in John 3.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 3:28 records John the Baptist stating that he is not the Christ but was sent before Him, clarifying his role as the forerunner.",
+          "verseReference": "John 3:28",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-3-medium-q10",
+          "question": "Fill in the blank: According to John 3, \"For God so loved the _____, that he gave his only begotten Son...\"",
+          "type": "fill-blank",
+          "options": [
+            "world",
+            "church",
+            "Israelites",
+            "disciples"
+          ],
+          "correctAnswer": "world",
+          "explanation": "John 3:16 states 'For God so loved the world,' emphasizing the universal scope of God's love and salvation offer.",
+          "verseReference": "John 3:16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-3-medium-q11",
+          "question": "A believer wants to understand the relationship between the Spirit and spiritual life. Based on John 3, what teaching is given about the Spirit?",
+          "type": "multiple-choice",
+          "options": [
+            "The Spirit moves like the wind and cannot be fully explained",
+            "The Spirit is only a symbol with no real effect",
+            "The Spirit is limited to certain people",
+            "The Spirit has no role in being born again"
+          ],
+          "correctAnswer": "The Spirit moves like the wind and cannot be fully explained",
+          "explanation": "John 3:8 compares the Spirit to the wind that blows where it wishes; you hear its sound but cannot tell where it comes from or goes, illustrating the mysterious and sovereign work of the Spirit in rebirth.",
+          "verseReference": "John 3:8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-3-medium-q12",
+          "question": "How does John 3 encourage believers to respond in prayer and trust regarding spiritual matters?",
+          "type": "multiple-choice",
+          "options": [
+            "Trust what has been revealed and testified from heaven",
+            "Demand signs and wonders before believing",
+            "Rely solely on human wisdom to understand spiritual truths",
+            "Ignore heavenly things as they are too mysterious"
+          ],
+          "correctAnswer": "Trust what has been revealed and testified from heaven",
+          "explanation": "John 3:11-12 encourages believers to trust the testimony of those who have seen and heard heavenly things, emphasizing faith and reliance on God’s revelation.",
+          "verseReference": "John 3:11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-3-medium-q13",
+          "question": "A believer is serving in the church and wonders about the source of their ability to serve faithfully. According to John 3, what truth would you share?",
+          "type": "multiple-choice",
+          "options": [
+            "A man can receive nothing except it be given from heaven",
+            "All ability comes from personal effort alone",
+            "Service depends only on human knowledge",
+            "Spiritual gifts are earned by good works"
+          ],
+          "correctAnswer": "A man can receive nothing except it be given from heaven",
+          "explanation": "John 3:27 teaches that no one can receive anything unless it is given from heaven, highlighting God as the source of all spiritual gifts and abilities for service.",
+          "verseReference": "John 3:27",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-3-medium-q14",
+          "question": "How does John 3 illustrate the concept of God's authority and the Son's place in divine order?",
+          "type": "multiple-choice",
+          "options": [
+            "The Father loves the Son and has given all things into his hand",
+            "The Son is independent and does not answer to the Father",
+            "The Son operates separately from God's will",
+            "The Son has limited authority compared to angels"
+          ],
+          "correctAnswer": "The Father loves the Son and has given all things into his hand",
+          "explanation": "John 3:35 declares that the Father loves the Son and has entrusted all things to Him, affirming the Son's divine authority and unity with the Father.",
+          "verseReference": "John 3:35",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-3-medium-q15",
+          "question": "What practical lesson about faith and consequences does John 3 teach regarding those who do not believe in the Son?",
+          "type": "multiple-choice",
+          "options": [
+            "The wrath of God abides on those who do not believe in the Son",
+            "Disbelief has no spiritual consequence",
+            "Faith is optional for salvation",
+            "Only works determine God's judgment"
+          ],
+          "correctAnswer": "The wrath of God abides on those who do not believe in the Son",
+          "explanation": "John 3:18 and John 3:36 warn that those who do not believe in the Son are already condemned and remain under God's wrath, emphasizing the serious consequence of unbelief.",
+          "verseReference": "John 3:18",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "john-3-quiz",
+      "tags": [
+        "john",
+        "chapter-3",
+        "john",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "john-3-hard",
+      "title": "John Chapter 3 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from John Chapter 3.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 3,
+      "questions": [
+        {
+          "id": "john-3-hard-q1",
+          "question": "Who came to Jesus by night to discuss being born again?",
+          "type": "multiple-choice",
+          "options": [
+            "Nicodemus",
+            "Peter",
+            "John the Baptist",
+            "Philip"
+          ],
+          "correctAnswer": "Nicodemus",
+          "explanation": "John 3:1 tells us that Nicodemus, a Pharisee and ruler of the Jews, came to Jesus at night to speak with Him.",
+          "verseReference": "John 3:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-hard-q2",
+          "question": "According to Jesus in John 3, what is necessary to see the kingdom of God?",
+          "type": "multiple-choice",
+          "options": [
+            "Being born again",
+            "Performing miracles",
+            "Following the law",
+            "Being a Pharisee"
+          ],
+          "correctAnswer": "Being born again",
+          "explanation": "Jesus explicitly states in John 3:3 that except a man be born again, he cannot see the kingdom of God.",
+          "verseReference": "John 3:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-hard-q3",
+          "question": "In John 3, Jesus compares the Spirit to what natural phenomenon to illustrate its mysterious work?",
+          "type": "multiple-choice",
+          "options": [
+            "The wind",
+            "Fire",
+            "Water",
+            "Light"
+          ],
+          "correctAnswer": "The wind",
+          "explanation": "John 3:8 uses the metaphor of the wind that blows where it wishes, unseen and unpredictable, to describe the Spirit’s work.",
+          "verseReference": "John 3:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-hard-q4",
+          "question": "What Old Testament event does Jesus reference to foreshadow His own crucifixion in John 3?",
+          "type": "multiple-choice",
+          "options": [
+            "Moses lifting up the serpent in the wilderness",
+            "The crossing of the Red Sea",
+            "The giving of the Ten Commandments",
+            "The sacrifice of Isaac"
+          ],
+          "correctAnswer": "Moses lifting up the serpent in the wilderness",
+          "explanation": "John 3:14 alludes to Numbers 21:8-9, where Moses lifted up a serpent to heal the Israelites, paralleling Jesus being lifted up on the cross.",
+          "verseReference": "John 3:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-hard-q5",
+          "question": "Fill in the blank: 'For God so loved the world, that he gave his only ______ Son.'",
+          "type": "multiple-choice",
+          "options": [
+            "begotten",
+            "firstborn",
+            "chosen",
+            "beloved"
+          ],
+          "correctAnswer": "begotten",
+          "explanation": "John 3:16 uses the term 'only begotten Son' (Greek: monogenēs) emphasizing the unique relationship between Jesus and the Father.",
+          "verseReference": "John 3:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-hard-q6",
+          "question": "What does John the Baptist say must happen to him as Jesus increases in prominence?",
+          "type": "multiple-choice",
+          "options": [
+            "He must decrease",
+            "He must increase",
+            "He must leave",
+            "He must baptize more people"
+          ],
+          "correctAnswer": "He must decrease",
+          "explanation": "John 3:30 illustrates John the Baptist's humility and his recognition of Jesus’ supremacy: 'He must increase, but I must decrease.'",
+          "verseReference": "John 3:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-hard-q7",
+          "question": "True or False: According to John 3, Jesus was sent into the world to condemn it.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 3:17 states that God sent His Son not to condemn the world but to save it through Him.",
+          "verseReference": "John 3:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-hard-q8",
+          "question": "How does Jesus describe the relationship between being born of the flesh and being born of the Spirit?",
+          "type": "multiple-choice",
+          "options": [
+            "Flesh produces flesh; Spirit produces spirit",
+            "Flesh produces spirit; Spirit produces flesh",
+            "Both produce the same",
+            "Neither produce anything"
+          ],
+          "correctAnswer": "Flesh produces flesh; Spirit produces spirit",
+          "explanation": "John 3:6 explains the duality between natural birth and spiritual rebirth—flesh begets flesh, Spirit begets spirit.",
+          "verseReference": "John 3:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-hard-q9",
+          "question": "What is the significance of the phrase 'verily, verily' (Greek: amen, amen) used by Jesus in this chapter?",
+          "type": "multiple-choice",
+          "options": [
+            "To emphasize the truth and importance of His statements",
+            "To indicate uncertainty",
+            "To address only Nicodemus",
+            "To signal the end of teaching"
+          ],
+          "correctAnswer": "To emphasize the truth and importance of His statements",
+          "explanation": "The double 'verily' is a Johannine literary device underscoring the absolute truth of Jesus’ teachings (John 3:3, 5, 11).",
+          "verseReference": "John 3:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-hard-q10",
+          "question": "Which title does John the Baptist use for Jesus to describe His origin and authority?",
+          "type": "multiple-choice",
+          "options": [
+            "He that cometh from above",
+            "Rabbi",
+            "Master of Israel",
+            "Son of David"
+          ],
+          "correctAnswer": "He that cometh from above",
+          "explanation": "John 3:31 identifies Jesus as 'He that cometh from above,' emphasizing His heavenly origin and authority over earthly things.",
+          "verseReference": "John 3:31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-hard-q11",
+          "question": "According to John 3, what is the consequence of not believing in the Son?",
+          "type": "multiple-choice",
+          "options": [
+            "Condemnation and the wrath of God abiding on him",
+            "Immediate death",
+            "Exile from Israel",
+            "Loss of earthly possessions"
+          ],
+          "correctAnswer": "Condemnation and the wrath of God abiding on him",
+          "explanation": "John 3:18 and John 3:36 teach that unbelief in Jesus results in condemnation and God’s wrath remaining on the person.",
+          "verseReference": "John 3:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-hard-q12",
+          "question": "What does John 3 reveal about the Spirit's role in new birth?",
+          "type": "multiple-choice",
+          "options": [
+            "The Spirit's work is mysterious and sovereign, like the wind",
+            "The Spirit is visible and controlled by man",
+            "The Spirit is only symbolic",
+            "The Spirit is unnecessary"
+          ],
+          "correctAnswer": "The Spirit's work is mysterious and sovereign, like the wind",
+          "explanation": "John 3:8 compares the Spirit to the wind that blows unpredictably, highlighting the Spirit’s sovereign and mysterious activity in new birth.",
+          "verseReference": "John 3:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-hard-q13",
+          "question": "Which Old Testament figure is implicitly referenced by the term 'Bridegroom' as used by John the Baptist in John 3?",
+          "type": "multiple-choice",
+          "options": [
+            "God",
+            "Moses",
+            "David",
+            "Isaiah"
+          ],
+          "correctAnswer": "God",
+          "explanation": "John 3:29 uses 'Bridegroom,' a term rich in Old Testament nuptial imagery where God is often portrayed as the bridegroom of Israel (e.g., Isaiah 54).",
+          "verseReference": "John 3:29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-hard-q14",
+          "question": "What cultural or religious role did Nicodemus hold, as noted in John 3?",
+          "type": "multiple-choice",
+          "options": [
+            "Ruler of the Jews and Pharisee",
+            "Roman governor",
+            "Samaritan leader",
+            "Temple priest"
+          ],
+          "correctAnswer": "Ruler of the Jews and Pharisee",
+          "explanation": "John 3:1 identifies Nicodemus as a Pharisee and ruler of the Jews, indicating his leadership and religious authority.",
+          "verseReference": "John 3:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-hard-q15",
+          "question": "What does John 3 suggest about the nature of Jesus’ testimony?",
+          "type": "multiple-choice",
+          "options": [
+            "It is based on what He has seen and heard from heaven",
+            "It is merely human speculation",
+            "It is derived from the Pharisees",
+            "It is unknowable"
+          ],
+          "correctAnswer": "It is based on what He has seen and heard from heaven",
+          "explanation": "John 3:32 states Jesus testifies to what He has seen and heard, emphasizing His heavenly origin and divine authority.",
+          "verseReference": "John 3:32",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "john-3-quiz",
+      "tags": [
+        "john",
+        "chapter-3",
+        "john",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "john-3-theological",
+      "title": "John Chapter 3 Quiz - Theological Level",
+      "description": "Deep biblical theology from John Chapter 3 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 3,
+      "questions": [
+        {
+          "id": "john-3-theological-q1",
+          "question": "Who was Nicodemus, as introduced in John chapter 3?",
+          "type": "multiple-choice",
+          "options": [
+            "A Pharisee and ruler of the Jews",
+            "A tax collector",
+            "A Roman centurion",
+            "A fisherman"
+          ],
+          "correctAnswer": "A Pharisee and ruler of the Jews",
+          "explanation": "John 3:1 identifies Nicodemus as a man of the Pharisees and a ruler of the Jews, indicating his religious authority and social standing. This fits the pattern of religious leaders questioning Jesus throughout the Gospels (cf. Matthew 23:1-3; Luke 11:37-54).",
+          "verseReference": "John 3:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-theological-q2",
+          "question": "According to Jesus in John 3, what is necessary to see the kingdom of God?",
+          "type": "multiple-choice",
+          "options": [
+            "Being born again",
+            "Performing miracles",
+            "Following the law",
+            "Being a teacher"
+          ],
+          "correctAnswer": "Being born again",
+          "explanation": "John 3:3 states that Jesus said, 'Except a man be born again, he cannot see the kingdom of God,' teaching the necessity of spiritual rebirth for salvation, consistent with themes in Ezekiel 36:26-27 and 2 Corinthians 5:17.",
+          "verseReference": "John 3:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-theological-q3",
+          "question": "How does Jesus describe the new birth in John 3?",
+          "type": "multiple-choice",
+          "options": [
+            "Born of water and of the Spirit",
+            "Born of the flesh alone",
+            "Only through water baptism",
+            "Born by human effort"
+          ],
+          "correctAnswer": "Born of water and of the Spirit",
+          "explanation": "John 3:5 emphasizes that one must be born of water and of the Spirit to enter the kingdom of God, indicating both cleansing (cf. Ezekiel 36:25) and spiritual regeneration (cf. Titus 3:5).",
+          "verseReference": "John 3:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-theological-q4",
+          "question": "What analogy does Jesus use to explain the work of the Spirit in John 3?",
+          "type": "multiple-choice",
+          "options": [
+            "The wind blowing where it wills",
+            "A shepherd leading sheep",
+            "A lamp lighting a room",
+            "A seed growing silently"
+          ],
+          "correctAnswer": "The wind blowing where it wills",
+          "explanation": "John 3:8 compares the Spirit to the wind that blows unpredictably, illustrating the sovereign and mysterious work of the Holy Spirit in regeneration, consistent with Ezekiel 37:9-10 and Acts 2:2.",
+          "verseReference": "John 3:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-theological-q5",
+          "question": "In John 3, Jesus refers to a figure lifted up by Moses in the wilderness. Who is this referring to?",
+          "type": "multiple-choice",
+          "options": [
+            "The Son of man",
+            "Aaron the high priest",
+            "Elijah the prophet",
+            "Moses himself"
+          ],
+          "correctAnswer": "The Son of man",
+          "explanation": "John 3:14 states, 'As Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up,' referring to Jesus' crucifixion as a means of salvation, echoing Numbers 21:8-9 and John 12:32-33.",
+          "verseReference": "John 3:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-theological-q6",
+          "question": "What is the purpose of God sending His Son into the world, according to John 3?",
+          "type": "multiple-choice",
+          "options": [
+            "To save the world, not to condemn it",
+            "To judge the world immediately",
+            "To establish a political kingdom",
+            "To abolish the law"
+          ],
+          "correctAnswer": "To save the world, not to condemn it",
+          "explanation": "John 3:17 teaches that God sent His Son not to condemn but to save the world through Him, emphasizing God's redemptive love consistent with 1 Timothy 2:4 and 2 Peter 3:9.",
+          "verseReference": "John 3:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-theological-q7",
+          "question": "According to John 3, what happens to those who believe in the Son?",
+          "type": "multiple-choice",
+          "options": [
+            "They have everlasting life",
+            "They are immediately condemned",
+            "They lose their salvation",
+            "They become rulers on earth"
+          ],
+          "correctAnswer": "They have everlasting life",
+          "explanation": "John 3:16 and 3:36 affirm that belief in the Son results in eternal life, a central biblical truth also taught in Romans 6:23 and 1 John 5:11-12.",
+          "verseReference": "John 3:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-theological-q8",
+          "question": "What does John 3 say about those who do not believe in the Son?",
+          "type": "multiple-choice",
+          "options": [
+            "They are condemned already because they have not believed",
+            "They will be saved eventually",
+            "They are given second chances automatically",
+            "They are not judged at all"
+          ],
+          "correctAnswer": "They are condemned already because they have not believed",
+          "explanation": "John 3:18 explains that unbelief results in condemnation, consistent with John 3:36 and Hebrews 10:26-27, underscoring the necessity of faith for salvation.",
+          "verseReference": "John 3:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-theological-q9",
+          "question": "How does John 3 describe the human preference for darkness or light?",
+          "type": "multiple-choice",
+          "options": [
+            "Men loved darkness rather than light because their deeds were evil",
+            "Men always love the light more than darkness",
+            "Light and darkness are equally loved",
+            "Men are indifferent to light or darkness"
+          ],
+          "correctAnswer": "Men loved darkness rather than light because their deeds were evil",
+          "explanation": "John 3:19 reveals the human tendency to reject God's light due to sinful deeds, resonating with Isaiah 59:2 and Romans 1:18 about sin separating humans from God.",
+          "verseReference": "John 3:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-theological-q10",
+          "question": "What role does John the Baptist affirm he has in relation to Jesus in John 3?",
+          "type": "multiple-choice",
+          "options": [
+            "Friend of the bridegroom who rejoices at his voice",
+            "Equal partner in ministry with Jesus",
+            "Messiah himself",
+            "A rival prophet"
+          ],
+          "correctAnswer": "Friend of the bridegroom who rejoices at his voice",
+          "explanation": "John 3:29 describes John the Baptist as the friend of the bridegroom who rejoices greatly at the bridegroom's voice, illustrating his role as forerunner (cf. Malachi 3:1, Luke 1:17).",
+          "verseReference": "John 3:29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-theological-q11",
+          "question": "What does John 3 say about the origin and authority of Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "He who comes from above is above all",
+            "He is of the earth and speaks earthly things",
+            "He has no authority from heaven",
+            "He is a mere man without divine origin"
+          ],
+          "correctAnswer": "He who comes from above is above all",
+          "explanation": "John 3:31 affirms Jesus' heavenly origin and supreme authority, consistent with Philippians 2:9-11 and Colossians 1:15-20 about Christ's divine status.",
+          "verseReference": "John 3:31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-theological-q12",
+          "question": "According to John 3, what is the relationship between believing in the Son and receiving life?",
+          "type": "multiple-choice",
+          "options": [
+            "Believing in the Son grants everlasting life",
+            "Believing in the Son results in death",
+            "Belief has no effect on life",
+            "Only works, not belief, grant life"
+          ],
+          "correctAnswer": "Believing in the Son grants everlasting life",
+          "explanation": "John 3:36 states clearly that belief in the Son results in everlasting life, affirming salvation by faith (cf. Ephesians 2:8-9 and John 5:24).",
+          "verseReference": "John 3:36",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-theological-q13",
+          "question": "What does John 3 teach about the Spirit's measure given to Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "God gives the Spirit without measure to Jesus",
+            "Jesus receives the Spirit in limited quantity",
+            "The Spirit is not given to Jesus",
+            "Jesus receives the Spirit only after resurrection"
+          ],
+          "correctAnswer": "God gives the Spirit without measure to Jesus",
+          "explanation": "John 3:34 states that God gives the Spirit without measure to the Son, emphasizing Jesus' unique divine empowerment, paralleling Isaiah 11:2 and Luke 4:18.",
+          "verseReference": "John 3:34",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-theological-q14",
+          "question": "What is the reason Jesus says He must increase and John must decrease in John 3?",
+          "type": "multiple-choice",
+          "options": [
+            "Because Jesus is the Messiah and must gain prominence",
+            "Because John was losing followers",
+            "Because Jesus wanted to be alone",
+            "Because John was to start another ministry"
+          ],
+          "correctAnswer": "Because Jesus is the Messiah and must gain prominence",
+          "explanation": "John 3:30 declares 'He must increase, but I must decrease,' reflecting John the Baptist’s recognition of Jesus’ messianic role and the transition of focus to Christ, in line with Isaiah 42:1 and Luke 3:16.",
+          "verseReference": "John 3:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-3-theological-q15",
+          "question": "What does Jesus say about testimony and belief in John 3?",
+          "type": "multiple-choice",
+          "options": [
+            "Those who receive His testimony acknowledge that God is true",
+            "No one can testify of Jesus",
+            "Belief is unrelated to testimony",
+            "Testimony leads to rejection always"
+          ],
+          "correctAnswer": "Those who receive His testimony acknowledge that God is true",
+          "explanation": "John 3:33 teaches that receiving Jesus' testimony is equivalent to affirming God's truthfulness, consistent with Isaiah 8:20 and Hebrews 12:2.",
+          "verseReference": "John 3:33",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "john-3-quiz",
+      "tags": [
+        "john",
+        "chapter-3",
+        "john",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

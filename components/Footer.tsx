@@ -63,7 +63,7 @@ const footerSections = [
       { name: 'FAQ', href: '/bible-quiz-faq' },
       { name: 'Privacy Policy', href: '/privacy-policy' },
       { name: 'Terms of Service', href: '/terms-of-service' },
-      { name: 'Sitemap', href: '/sitemap' },
+      { name: 'Sitemap', href: '/site-map' },
       { name: 'Newsletter', href: '/newsletter-signup' },
       { name: 'Submit Quiz', href: '/submit-quiz-questions' },
       { name: 'Feedback', href: '/feedback' },
@@ -127,7 +127,7 @@ export default function Footer() {
               {oldTestamentBooks.map((book) => (
                 <Link
                   key={book.slug}
-                  href={`/${book.slug}-quiz`}
+                  href={`/books/${book.slug}`}
                   className="text-gray-300 hover:text-blue-400 transition-colors duration-200"
                 >
                   {book.name}
@@ -143,7 +143,7 @@ export default function Footer() {
               {newTestamentBooks.map((book) => (
                 <Link
                   key={book.slug}
-                  href={`/${book.slug}-quiz`}
+                  href={`/books/${book.slug}`}
                   className="text-gray-300 hover:text-blue-400 transition-colors duration-200"
                 >
                   {book.name}

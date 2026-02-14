@@ -1,0 +1,384 @@
+// Database Schema for Bible Programmatic SEO
+// Using Prisma ORM for type-safe database access
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// ============================================
+// Core Bible Content Models
+// ============================================
+
+model Verse {
+  id          String @id @default(cuid())
+  book        String // e.g., "john", "genesis"
+  bookName    String // e.g., "John", "Genesis"
+  chapter     Int
+  verse       Int
+  text        String
+  translation String // KJV, BSB, LSV, WEB
+  testament   String // Old, New
+
+  // SEO & Content
+  tags     String?
+  topics   String?
+  keywords String?
+
+  // Analytics
+  popularity Int       @default(0)
+  views      Int       @default(0)
+  lastViewed DateTime?
+
+  // Timestamps
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  crossRefs  CrossReference[]
+  Commentary Commentary[]
+
+  @@unique([book, chapter, verse, translation])
+  @@index([book, chapter])
+  @@index([topics])
+  @@index([popularity])
+  @@index([translation])
+  @@map("verses")
+}
+
+model Chapter {
+  id        String @id @default(cuid())
+  book      String
+  bookName  String
+  chapter   Int
+  testament String
+
+  // Content
+  summary    String
+  keyThemes  String?
+  verseCount Int
+
+  // SEO
+  metaTitle String?
+  metaDesc  String?
+  slug      String  @unique
+
+  // Analytics
+  popularity Int @default(0)
+  views      Int @default(0)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([book, chapter])
+  @@index([book])
+  @@index([popularity])
+  @@map("chapters")
+}
+
+model Book {
+  id        String @id @default(cuid())
+  name      String @unique
+  slug      String @unique
+  testament String
+
+  // Metadata
+  author       String
+  dateWritten  String
+  genre        String
+  chapterCount Int
+  verseCount   Int
+
+  // Content
+  summary      String
+  introduction String
+  keyThemes    String?
+  outline      String // JSON string: Array of {section, chapters, description}
+
+  // SEO
+  metaTitle String?
+  metaDesc  String?
+
+  // Analytics
+  popularity Int @default(0)
+  views      Int @default(0)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([testament])
+  @@index([popularity])
+  @@map("books")
+}
+
+model Topic {
+  id       String @id @default(cuid())
+  name     String @unique
+  slug     String @unique
+  category String // Emotions, Theology, Relationships, etc.
+
+  // Content
+  description String
+  definition  String
+  verseRefs   String? // JSON string: Array of "book-chapter-verse"
+  verseCount  Int
+
+  // Relations
+  subtopics     String?
+  relatedTopics String?
+
+  // SEO
+  metaTitle String?
+  metaDesc  String?
+  keywords  String?
+
+  // Analytics
+  popularity Int @default(0)
+  views      Int @default(0)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([category])
+  @@index([popularity])
+  @@map("topics")
+}
+
+model Character {
+  id        String @id @default(cuid())
+  name      String @unique
+  slug      String @unique
+  testament String
+
+  // Content
+  biography    String
+  significance String
+  verseRefs    String?
+
+  // Metadata
+  occupation    String?
+  lifespan      String?
+  timeline      String // JSON string: Array of {event, date, verses, significance}
+  relationships String // JSON string: Array of {person, relationship, description}
+
+  // SEO
+  metaTitle String?
+  metaDesc  String?
+  keywords  String?
+
+  // Analytics
+  popularity Int @default(0)
+  views      Int @default(0)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([testament])
+  @@index([popularity])
+  @@map("characters")
+}
+
+model StudyPlan {
+  id    String @id @default(cuid())
+  title String
+  slug  String @unique
+  topic String
+
+  // Content
+  description String
+  duration    Int // days
+  difficulty  String // easy, medium, hard
+  targetAge   String? // comma-separated: kids, teens, adults, seniors
+
+  // Structure
+  dailyReadings String // JSON string: Array of {day, title, passages, questions, commentary}
+
+  // SEO
+  metaTitle String?
+  metaDesc  String?
+  keywords  String?
+
+  // Analytics
+  popularity  Int @default(0)
+  views       Int @default(0)
+  enrollments Int @default(0)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([topic])
+  @@index([difficulty])
+  @@index([popularity])
+  @@map("study_plans")
+}
+
+// ============================================
+// SEO & Analytics Models
+// ============================================
+
+model CrossReference {
+  id           String @id @default(cuid())
+  primaryVerse String // "john-3-16"
+  relatedVerse String // "romans-5-8"
+  relationship String // "parallel", "contrast", "fulfillment", etc.
+  strength     Int // 1-10 relevance score
+
+  verse Verse @relation(fields: [primaryVerse], references: [id])
+
+  createdAt DateTime @default(now())
+
+  @@unique([primaryVerse, relatedVerse])
+  @@index([primaryVerse])
+  @@map("cross_references")
+}
+
+model PageView {
+  id       String @id @default(cuid())
+  url      String @unique
+  pageType String // verse, chapter, book, topic, character, study-plan
+
+  // Analytics
+  views         Int    @default(1)
+  uniqueViews   Int    @default(1)
+  avgTimeOnPage Int? // seconds
+  bounceRate    Float?
+
+  // SEO Metrics
+  clickThrough Float? // CTR from search
+  avgPosition  Float? // Average SERP position
+  impressions  Int    @default(0)
+
+  // Timestamps
+  firstView DateTime @default(now())
+  lastView  DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([pageType])
+  @@index([views])
+  @@map("page_views")
+}
+
+model SitemapEntry {
+  id         String @id @default(cuid())
+  url        String @unique
+  pageType   String
+  priority   Float  @default(0.5)
+  changeFreq String @default("monthly") // always, hourly, daily, weekly, monthly, yearly, never
+
+  lastMod   DateTime @default(now())
+  createdAt DateTime @default(now())
+
+  @@index([pageType])
+  @@index([priority])
+  @@map("sitemap_entries")
+}
+
+model ContentHash {
+  id          String @id @default(cuid())
+  url         String @unique
+  titleHash   String // MD5 hash of title
+  descHash    String // MD5 hash of description
+  contentHash String // MD5 hash of main content
+
+  // Deduplication flags
+  isDuplicate Boolean @default(false)
+  duplicateOf String? // URL of original if duplicate
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([titleHash])
+  @@index([isDuplicate])
+  @@map("content_hashes")
+}
+
+// ============================================
+// Scholarly Verification Models
+// ============================================
+
+model Commentary {
+  id         String @id @default(cuid())
+  author     String // e.g., "Matthew Henry"
+  source     String // e.g., "Concise Commentary"
+  sourceYear Int?
+
+  // Location
+  book    String
+  chapter Int
+  verse   Int? // Some commentaries are on entire chapters
+
+  // Content
+  content String
+  tags    String?
+
+  // Relations
+  verseRef    Verse? @relation(fields: [book, chapter, verse, translation], references: [book, chapter, verse, translation])
+  translation String @default("KJV") // Commentaries are usually based on a specific version
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([book, chapter, verse])
+  @@index([author])
+  @@map("commentaries")
+}
+
+model StudyNote {
+  id      String @id @default(cuid())
+  label   String // e.g., "Historical Context", "Cultural Insight"
+  content String
+
+  // Location
+  book    String
+  chapter Int
+  verse   Int?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([book, chapter, verse])
+  @@map("study_notes")
+}
+
+// ============================================
+// Cache Models (for ISR optimization)
+// ============================================
+
+model CacheEntry {
+  id    String @id @default(cuid())
+  key   String @unique
+  value String
+
+  // TTL
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+
+  @@index([expiresAt])
+  @@map("cache_entries")
+}
+
+model LexiconEntry {
+  strongs         String @id // e.g., "G25", "H7965"
+  word            String
+  transliteration String
+  pronunciation   String?
+  language        String // "greek" | "hebrew"
+  
+  definitions     String? // JSON string: { strongs: string, lsj?: string, bdb?: string, ... }
+  morphology      String? // JSON string: { code: string, explanation: string }
+  stats           String? // JSON string: { totalOccurences, ... }
+  synergy         String? // JSON string: { peopleAlsoAsked: [], crossReferences: [] }
+  
+  rootWord        String?
+  verseSample     String? // JSON string: Array of { ref, text }
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([language])
+  @@map("lexicon_entries")
+}

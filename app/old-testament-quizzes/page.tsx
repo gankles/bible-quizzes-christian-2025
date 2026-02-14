@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import OldTestamentQuizzesPage from '@/components/OldTestamentQuizzesPage';
 
 export const metadata: Metadata = {
-  title: 'Old Testament Bible Quizzes - Test Your Scripture Knowledge | Bible Maximum',
+  title: 'Old Testament Bible Quizzes | All 39 Books from Genesis to Malachi | Free Chapter-by-Chapter Questions with Answers | Bible Maximum',
   description: 'Explore comprehensive Old Testament Bible quizzes covering all 39 books from Genesis to Malachi. Test your knowledge with detailed questions and explanations.',
   keywords: 'old testament quizzes, hebrew bible, genesis, exodus, psalms, isaiah, biblical history, moses, david, prophets',
   openGraph: {

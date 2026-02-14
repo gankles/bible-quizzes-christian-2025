@@ -1,0 +1,981 @@
+{
+  "id": "genesis-2-tabbed",
+  "title": "Genesis Chapter 2 Quiz - Multi-Level",
+  "description": "An enhanced quiz on Genesis chapter 2 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "genesis-2-easy",
+      "title": "Genesis Chapter 2 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Genesis Chapter 2.",
+      "type": "chapter",
+      "book": "Genesis",
+      "chapter": 2,
+      "questions": [
+        {
+          "id": "genesis-2-easy-q1",
+          "question": "On which day did God rest from all His work according to Genesis 2?",
+          "type": "multiple-choice",
+          "options": [
+            "Seventh day",
+            "Sixth day",
+            "Fifth day",
+            "First day"
+          ],
+          "correctAnswer": "Seventh day",
+          "explanation": "Genesis 2:2 states that God ended His work on the seventh day and rested from all His work.",
+          "verseReference": "Genesis 2:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-2-easy-q2",
+          "question": "What did God do to the seventh day, according to Genesis 2:3?",
+          "type": "multiple-choice",
+          "options": [
+            "Blessed and sanctified it",
+            "Ignored it",
+            "Made it a holiday",
+            "Called it the first day"
+          ],
+          "correctAnswer": "Blessed and sanctified it",
+          "explanation": "Genesis 2:3 says God blessed the seventh day and sanctified it because He rested on it.",
+          "verseReference": "Genesis 2:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-2-easy-q3",
+          "question": "According to Genesis 2:7, what did the LORD God breathe into man?",
+          "type": "multiple-choice",
+          "options": [
+            "The breath of life",
+            "Fire",
+            "Water",
+            "Wind"
+          ],
+          "correctAnswer": "The breath of life",
+          "explanation": "Genesis 2:7 states that God breathed into man's nostrils the breath of life, making him a living soul.",
+          "verseReference": "Genesis 2:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-2-easy-q4",
+          "question": "Where did the LORD God plant a garden and place the man He had formed?",
+          "type": "multiple-choice",
+          "options": [
+            "Eastward in Eden",
+            "In the wilderness",
+            "Near the mountains",
+            "By the sea"
+          ],
+          "correctAnswer": "Eastward in Eden",
+          "explanation": "Genesis 2:8 mentions that God planted a garden eastward in Eden and put the man there.",
+          "verseReference": "Genesis 2:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-2-easy-q5",
+          "question": "Which two special trees are mentioned as being in the midst of the garden in Genesis 2?",
+          "type": "multiple-choice",
+          "options": [
+            "Tree of life and tree of knowledge of good and evil",
+            "Oak tree and fig tree",
+            "Palm tree and olive tree",
+            "Cedar tree and pine tree"
+          ],
+          "correctAnswer": "Tree of life and tree of knowledge of good and evil",
+          "explanation": "Genesis 2:9 describes the tree of life and the tree of knowledge of good and evil in the garden's midst.",
+          "verseReference": "Genesis 2:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-2-easy-q6",
+          "question": "How many rivers did the river that went out of Eden split into?",
+          "type": "multiple-choice",
+          "options": [
+            "Four",
+            "Two",
+            "Three",
+            "Five"
+          ],
+          "correctAnswer": "Four",
+          "explanation": "Genesis 2:10 states that the river from Eden parted and became four heads.",
+          "verseReference": "Genesis 2:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-2-easy-q7",
+          "question": "What is the name of the first river mentioned that compasses the whole land of Havilah?",
+          "type": "multiple-choice",
+          "options": [
+            "Pison",
+            "Gihon",
+            "Hiddekel",
+            "Euphrates"
+          ],
+          "correctAnswer": "Pison",
+          "explanation": "Genesis 2:11 names the first river as Pison, which surrounds the land of Havilah.",
+          "verseReference": "Genesis 2:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-2-easy-q8",
+          "question": "According to Genesis 2:15, why did God put man in the garden of Eden?",
+          "type": "multiple-choice",
+          "options": [
+            "To dress it and to keep it",
+            "To rest",
+            "To eat only from one tree",
+            "To build a house"
+          ],
+          "correctAnswer": "To dress it and to keep it",
+          "explanation": "Genesis 2:15 says God put man in the garden to dress it and keep it.",
+          "verseReference": "Genesis 2:15",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-2-easy-q9",
+          "question": "What command did God give man regarding the trees of the garden?",
+          "type": "multiple-choice",
+          "options": [
+            "Eat freely of every tree except the tree of knowledge of good and evil",
+            "Do not eat any fruit",
+            "Only eat vegetables",
+            "Eat only the tree of life"
+          ],
+          "correctAnswer": "Eat freely of every tree except the tree of knowledge of good and evil",
+          "explanation": "Genesis 2:16-17 states the command that man may eat from every tree except the tree of knowledge of good and evil.",
+          "verseReference": "Genesis 2:16-17",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-2-easy-q10",
+          "question": "Who or what did God say was not good for man to be alone?",
+          "type": "multiple-choice",
+          "options": [
+            "Man",
+            "The animals",
+            "The garden",
+            "The trees"
+          ],
+          "correctAnswer": "Man",
+          "explanation": "Genesis 2:18 states that it was not good for man to be alone, so God planned to make a helper for him.",
+          "verseReference": "Genesis 2:18",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-2-easy-q11",
+          "question": "True or False: Adam gave names to all the cattle, fowl, and beasts, but no suitable helper was found for him.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Genesis 2:20 confirms Adam named all animals, but none was found to be a suitable helper for him.",
+          "verseReference": "Genesis 2:20",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-2-easy-q12",
+          "question": "True or False: God made woman from one of Adam's ribs according to Genesis 2.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Genesis 2:21-22 describes God taking one of Adam's ribs to make a woman.",
+          "verseReference": "Genesis 2:21-22",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-2-easy-q13",
+          "question": "True or False: Genesis 2 states that Adam called the woman 'Woman' because she was taken out of man.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Genesis 2:23 shows Adam naming her Woman because she was taken out of Man.",
+          "verseReference": "Genesis 2:23",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-2-easy-q14",
+          "question": "Complete the verse from Genesis 2:24: 'Therefore shall a man leave his father and his mother, and shall cleave unto his ______.'",
+          "type": "fill-blank",
+          "options": [
+            "wife",
+            "brother",
+            "friend",
+            "neighbor"
+          ],
+          "correctAnswer": "wife",
+          "explanation": "Genesis 2:24 states a man shall cleave unto his wife, becoming one flesh.",
+          "verseReference": "Genesis 2:24",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-2-easy-q15",
+          "question": "According to Genesis 2:25, how were the man and his wife described after they were created?",
+          "type": "multiple-choice",
+          "options": [
+            "Both naked and not ashamed",
+            "Clothed in animal skins",
+            "Covered with leaves",
+            "Wearing crowns"
+          ],
+          "correctAnswer": "Both naked and not ashamed",
+          "explanation": "Genesis 2:25 explains that the man and his wife were both naked and felt no shame.",
+          "verseReference": "Genesis 2:25",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "genesis-2-quiz",
+      "tags": [
+        "genesis",
+        "chapter-2",
+        "genesis",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "genesis-2-medium",
+      "title": "Genesis Chapter 2 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from Genesis Chapter 2 to real-life situations.",
+      "type": "chapter",
+      "book": "Genesis",
+      "chapter": 2,
+      "questions": [
+        {
+          "id": "genesis-2-medium-q1",
+          "question": "How does Genesis 2 teach us about the importance of rest and trust in God's timing?",
+          "type": "multiple-choice",
+          "options": [
+            "God rested on the seventh day after completing His work",
+            "Man should work without rest to prove his faith",
+            "Rest is unnecessary if work is important",
+            "God never rested but kept working"
+          ],
+          "correctAnswer": "God rested on the seventh day after completing His work",
+          "explanation": "Genesis 2:2-3 shows that God ended His work on the seventh day and rested, blessing and sanctifying that day. This teaches believers to trust God's timing and the importance of rest as part of obedience and faith.",
+          "verseReference": "Genesis 2:2-3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-2-medium-q2",
+          "question": "A fellow believer is overwhelmed with work and neglecting spiritual rest. What biblical truth from Genesis 2 would you share?",
+          "type": "multiple-choice",
+          "options": [
+            "God rested on the seventh day and blessed it, showing the value of rest",
+            "Work should always come before rest",
+            "Rest is a sign of weakness",
+            "Man was created only to work and never rest"
+          ],
+          "correctAnswer": "God rested on the seventh day and blessed it, showing the value of rest",
+          "explanation": "Genesis 2:2-3 teaches that God rested after His creation work and blessed this day, instructing believers to incorporate rest as a spiritual discipline and trust in God's provision.",
+          "verseReference": "Genesis 2:2-3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-2-medium-q3",
+          "question": "What does Genesis 2 teach about the biblical view of work ethic?",
+          "type": "multiple-choice",
+          "options": [
+            "God put man in the garden to dress and keep it",
+            "Work is a curse from God",
+            "Man should avoid work to focus on rest",
+            "Work is only for survival, not stewardship"
+          ],
+          "correctAnswer": "God put man in the garden to dress and keep it",
+          "explanation": "Genesis 2:15 explains that God gave man responsibility to care for the garden, highlighting the value of diligent work, stewardship, and integrity in daily labor.",
+          "verseReference": "Genesis 2:15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-2-medium-q4",
+          "question": "How does Genesis 2 address the importance of obedience to God's commands?",
+          "type": "multiple-choice",
+          "options": [
+            "Man was commanded not to eat from the tree of knowledge of good and evil",
+            "Man could eat from any tree without restriction",
+            "God did not give any commands to man",
+            "Man was free to decide what to obey"
+          ],
+          "correctAnswer": "Man was commanded not to eat from the tree of knowledge of good and evil",
+          "explanation": "Genesis 2:16-17 shows God's command forbidding man to eat from a specific tree, emphasizing obedience as essential to trust and faithfulness in God’s Word.",
+          "verseReference": "Genesis 2:16-17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-2-medium-q5",
+          "question": "A believer struggles with temptation to disobey God. Based on Genesis 2, what principle would you share?",
+          "type": "multiple-choice",
+          "options": [
+            "God commands obedience and warns of consequences for disobedience",
+            "Temptation is a sign God has abandoned us",
+            "Disobedience has no consequences",
+            "Man can choose any path without accountability"
+          ],
+          "correctAnswer": "God commands obedience and warns of consequences for disobedience",
+          "explanation": "Genesis 2:17 teaches that eating from the forbidden tree would lead to death, underscoring God’s holiness and the need for believers to persevere in obedience despite temptation.",
+          "verseReference": "Genesis 2:17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-2-medium-q6",
+          "question": "What does Genesis 2 teach about the biblical foundation of marriage and family life?",
+          "type": "multiple-choice",
+          "options": [
+            "A man shall leave his father and mother and cleave to his wife, becoming one flesh",
+            "Marriage is optional and unrelated to God’s plan",
+            "Man should stay with parents and avoid marriage",
+            "Marriage is only for convenience"
+          ],
+          "correctAnswer": "A man shall leave his father and mother and cleave to his wife, becoming one flesh",
+          "explanation": "Genesis 2:24 establishes the biblical principle of leaving parents to unite with one’s spouse, forming a new family bond that is foundational for Christian marriage and family life.",
+          "verseReference": "Genesis 2:24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-2-medium-q7",
+          "question": "How can Genesis 2 guide a believer who is feeling lonely and seeking companionship?",
+          "type": "multiple-choice",
+          "options": [
+            "God said it is not good for man to be alone and made a suitable helper for him",
+            "Loneliness is a permanent condition with no remedy",
+            "Man should rely only on himself",
+            "Companionship is unnecessary for spiritual growth"
+          ],
+          "correctAnswer": "God said it is not good for man to be alone and made a suitable helper for him",
+          "explanation": "Genesis 2:18 highlights that God created woman as a helper suitable for man, teaching that fellowship and companionship are part of God's design for human flourishing.",
+          "verseReference": "Genesis 2:18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-2-medium-q8",
+          "question": "According to Genesis 2, what biblical truth about human dignity and identity can we share with others?",
+          "type": "multiple-choice",
+          "options": [
+            "Man was formed from the dust and given the breath of life by God",
+            "Humans are accidental products of nature",
+            "Man is less significant than animals",
+            "Identity is based only on social status"
+          ],
+          "correctAnswer": "Man was formed from the dust and given the breath of life by God",
+          "explanation": "Genesis 2:7 teaches that God formed man from dust and breathed life into him, emphasizing human dignity as created by God with life and soul.",
+          "verseReference": "Genesis 2:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-2-medium-q9",
+          "question": "How can Genesis 2 inspire us to be grateful and content with God's provision?",
+          "type": "multiple-choice",
+          "options": [
+            "God planted a garden with every pleasant tree and food for man",
+            "Man must constantly worry about lack of resources",
+            "Provision is uncertain and unreliable",
+            "God did not care about man's needs"
+          ],
+          "correctAnswer": "God planted a garden with every pleasant tree and food for man",
+          "explanation": "Genesis 2:8-9 shows God's generous provision by planting a garden with abundant trees and food, encouraging believers to be grateful and content with God’s care.",
+          "verseReference": "Genesis 2:8-9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-2-medium-q10",
+          "question": "What does Genesis 2 teach about the role of prayer and dependence on God in daily life?",
+          "type": "multiple-choice",
+          "options": [
+            "Man was formed and given life directly by God’s breath",
+            "Man can live independently without God",
+            "Prayer is unnecessary for daily living",
+            "God created man but left him to survive alone"
+          ],
+          "correctAnswer": "Man was formed and given life directly by God’s breath",
+          "explanation": "Genesis 2:7 reveals that life itself comes from God’s breath, teaching believers to depend on God continually and cultivate a prayerful relationship acknowledging His sustaining power.",
+          "verseReference": "Genesis 2:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-2-medium-q11",
+          "question": "How does Genesis 2 guide believers in stewardship and generosity?",
+          "type": "multiple-choice",
+          "options": [
+            "God gave man the responsibility to dress and keep the garden",
+            "Stewardship is optional for believers",
+            "Man owns everything and can waste resources",
+            "Generosity is not mentioned in the Bible"
+          ],
+          "correctAnswer": "God gave man the responsibility to dress and keep the garden",
+          "explanation": "Genesis 2:15 assigns man the duty to care for God’s creation, teaching believers the importance of responsible stewardship and generosity with God’s gifts.",
+          "verseReference": "Genesis 2:15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-2-medium-q12",
+          "question": "True or False: According to Genesis 2, Adam named all the animals himself.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Genesis 2:19-20 states that God brought the animals to Adam, and Adam named each living creature, highlighting the human role in God’s creation.",
+          "verseReference": "Genesis 2:19-20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-2-medium-q13",
+          "question": "True or False: Genesis 2 teaches that man was created last after the animals.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Genesis 2:7 shows that man was formed first from the dust before the animals were created (Genesis 2:19), indicating man's unique creation order.",
+          "verseReference": "Genesis 2:7,19",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-2-medium-q14",
+          "question": "Fill in the blank: According to Genesis 2, God made a woman from a man's ____.",
+          "type": "fill-in-the-blank",
+          "options": [
+            "rib",
+            "hand",
+            "foot",
+            "hair"
+          ],
+          "correctAnswer": "rib",
+          "explanation": "Genesis 2:21-22 explains that God took one of Adam’s ribs and made it into a woman, illustrating the intimate connection in marriage.",
+          "verseReference": "Genesis 2:21-22",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-2-medium-q15",
+          "question": "What biblical principle about integrity and honesty can be drawn from Genesis 2?",
+          "type": "multiple-choice",
+          "options": [
+            "God gave clear commands, and man was responsible to obey",
+            "Man can ignore God's word without consequences",
+            "Honesty is optional in following God",
+            "Integrity is unrelated to God’s commands"
+          ],
+          "correctAnswer": "God gave clear commands, and man was responsible to obey",
+          "explanation": "Genesis 2:16-17 shows God gave explicit instructions to man, teaching that integrity involves obeying God's word faithfully in daily life.",
+          "verseReference": "Genesis 2:16-17",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "genesis-2-quiz",
+      "tags": [
+        "genesis",
+        "chapter-2",
+        "genesis",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "genesis-2-hard",
+      "title": "Genesis Chapter 2 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from Genesis Chapter 2.",
+      "type": "chapter",
+      "book": "Genesis",
+      "chapter": 2,
+      "questions": [
+        {
+          "id": "genesis-2-hard-q1",
+          "question": "What is the significance of God resting on the seventh day in Genesis 2:2, in relation to the ancient Near Eastern creation narratives?",
+          "type": "multiple-choice",
+          "options": [
+            "It establishes the Sabbath as a holy day of rest",
+            "It shows God’s fatigue after creation",
+            "It implies creation was incomplete",
+            "It suggests the seventh day was unimportant"
+          ],
+          "correctAnswer": "It establishes the Sabbath as a holy day of rest",
+          "explanation": "Genesis 2:2 highlights God resting on the seventh day, which sets the foundation for the Sabbath, a concept unique in the ancient Near East where gods were often portrayed as resting due to fatigue. This rest is deliberate and sanctified, establishing a pattern for Israel.",
+          "verseReference": "Genesis 2:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-hard-q2",
+          "question": "In Genesis 2:7, the Hebrew phrase translated as 'breath of life' is \"nishmat chayim.\" What does this typologically foreshadow in the New Testament?",
+          "type": "multiple-choice",
+          "options": [
+            "The indwelling of the Holy Spirit",
+            "The creation of angels",
+            "The destruction of the world",
+            "The giving of the law"
+          ],
+          "correctAnswer": "The indwelling of the Holy Spirit",
+          "explanation": "The 'breath of life' (nishmat chayim) in Genesis 2:7 is a Hebrew idiom for divine life-giving power, which typologically foreshadows the New Testament concept of the Holy Spirit imparting life and regeneration (e.g., John 20:22).",
+          "verseReference": "Genesis 2:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-hard-q3",
+          "question": "What does the planting of the garden eastward in Eden (Genesis 2:8) symbolize in the broader biblical context?",
+          "type": "multiple-choice",
+          "options": [
+            "A place of divine presence and human stewardship",
+            "A mythical location with no real significance",
+            "A site of judgment only",
+            "A representation of chaos"
+          ],
+          "correctAnswer": "A place of divine presence and human stewardship",
+          "explanation": "Genesis 2:8’s mention of the garden eastward in Eden symbolizes a sacred space where God’s presence dwells and humans are given responsibility, foreshadowing later biblical themes of covenant land and temple imagery.",
+          "verseReference": "Genesis 2:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-hard-q4",
+          "question": "Which literary device is demonstrated by the description of the four rivers flowing from Eden in Genesis 2:10-14?",
+          "type": "multiple-choice",
+          "options": [
+            "Chiasm",
+            "Parallelism",
+            "Typology",
+            "Symbolic geography"
+          ],
+          "correctAnswer": "Symbolic geography",
+          "explanation": "The detailed naming of four rivers in Genesis 2:10-14 uses symbolic geography to emphasize Eden as a source of life and blessing, reflecting ancient Near Eastern garden motifs and illustrating divine provision.",
+          "verseReference": "Genesis 2:10-14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-hard-q5",
+          "question": "In Genesis 2:16-17, the command regarding the tree of knowledge of good and evil introduces which theological theme that develops throughout Scripture?",
+          "type": "multiple-choice",
+          "options": [
+            "Free will and moral responsibility",
+            "God’s indifference to human actions",
+            "Predestination without human choice",
+            "The inevitability of sin"
+          ],
+          "correctAnswer": "Free will and moral responsibility",
+          "explanation": "God’s command in Genesis 2:16-17 introduces the theme of free will and moral responsibility, foundational for understanding sin and obedience as developed throughout the Bible.",
+          "verseReference": "Genesis 2:16-17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-hard-q6",
+          "question": "How is the creation of woman from man's rib in Genesis 2:21-22 best understood in terms of Hebrew cultural context?",
+          "type": "multiple-choice",
+          "options": [
+            "It signifies equality and intimate relationship between man and woman",
+            "It indicates woman is inferior to man",
+            "It suggests woman was created first",
+            "It means woman was created from dirt"
+          ],
+          "correctAnswer": "It signifies equality and intimate relationship between man and woman",
+          "explanation": "In Hebrew culture, the rib symbolizes protection and closeness, so creating woman from man’s rib (Genesis 2:21-22) indicates equality and intimate partnership rather than inferiority.",
+          "verseReference": "Genesis 2:21-22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-hard-q7",
+          "question": "Which New Testament passage explicitly references the union of man and woman described in Genesis 2:24?",
+          "type": "multiple-choice",
+          "options": [
+            "Matthew 19:5",
+            "Romans 5:12",
+            "John 1:1",
+            "Hebrews 4:9"
+          ],
+          "correctAnswer": "Matthew 19:5",
+          "explanation": "Matthew 19:5 quotes Genesis 2:24 to affirm the divine design of marriage, emphasizing the one-flesh union between man and woman.",
+          "verseReference": "Genesis 2:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-hard-q8",
+          "question": "What is the meaning of the Hebrew term \"ezer kenegdo\" translated as 'help meet' in Genesis 2:18?",
+          "type": "multiple-choice",
+          "options": [
+            "A helper corresponding to or suitable for him",
+            "A servant subordinate to him",
+            "An adversary against him",
+            "A temporary companion"
+          ],
+          "correctAnswer": "A helper corresponding to or suitable for him",
+          "explanation": "The phrase 'ezer kenegdo' in Genesis 2:18 means a helper who corresponds to or complements man, signifying partnership, not subordination.",
+          "verseReference": "Genesis 2:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-hard-q9",
+          "question": "What literary structure is evident in the sequence of creation events from man’s formation to the creation of woman in Genesis 2?",
+          "type": "multiple-choice",
+          "options": [
+            "Chiastic structure highlighting human relationality",
+            "Linear chronological summary",
+            "Parallel narratives of creation",
+            "Prophetic oracle"
+          ],
+          "correctAnswer": "Chiastic structure highlighting human relationality",
+          "explanation": "Genesis 2’s narrative follows a chiastic structure focusing on human relationality, centering on the creation of man, the animals, and finally woman as a complement, emphasizing relationship and community.",
+          "verseReference": "Genesis 2:7-22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-hard-q10",
+          "question": "According to Genesis 2:5-6, what natural phenomenon replaced rain in watering the earth before man's creation, and what does this imply about the ancient Near Eastern understanding of creation?",
+          "type": "multiple-choice",
+          "options": [
+            "A mist or misty vapor, implying a controlled, gentle provision",
+            "Floodwaters, implying chaos",
+            "Windstorms, implying divine wrath",
+            "Dew only, implying scarcity"
+          ],
+          "correctAnswer": "A mist or misty vapor, implying a controlled, gentle provision",
+          "explanation": "Genesis 2:5-6 describes a mist rising from the ground instead of rain, suggesting a controlled and gentle watering method, reflecting a cultural understanding of divine care before human cultivation.",
+          "verseReference": "Genesis 2:5-6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-hard-q11",
+          "question": "True or False: In Genesis 2:19-20, Adam naming the animals demonstrates human dominion and authority over creation.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Genesis 2:19-20 shows Adam naming the animals, which indicates human dominion and authority over creation, a key theme in biblical anthropology.",
+          "verseReference": "Genesis 2:19-20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-hard-q12",
+          "question": "In Genesis 2:15, the term 'dress it and keep it' refers to which cultural role of humans in the ancient Near East?",
+          "type": "multiple-choice",
+          "options": [
+            "Stewardship or caretaking of the land",
+            "Conquering and destroying",
+            "Ignoring the land",
+            "Worshipping idols"
+          ],
+          "correctAnswer": "Stewardship or caretaking of the land",
+          "explanation": "The phrase in Genesis 2:15 reflects the role of humans as stewards or caretakers of the earth, a concept foundational to biblical environmental ethics.",
+          "verseReference": "Genesis 2:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-hard-q13",
+          "question": "Which precious materials mentioned in Genesis 2:12 connect Eden to the wider ancient Near Eastern trade and cultural context?",
+          "type": "multiple-choice",
+          "options": [
+            "Gold, bdellium, and onyx stone",
+            "Silver, frankincense, and myrrh",
+            "Iron, bronze, and marble",
+            "Salt, spices, and wheat"
+          ],
+          "correctAnswer": "Gold, bdellium, and onyx stone",
+          "explanation": "Genesis 2:12 mentions gold, bdellium, and onyx stone, valuable materials known in ancient Near Eastern trade, linking Eden to historical and cultural realities.",
+          "verseReference": "Genesis 2:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-hard-q14",
+          "question": "How does Genesis 2:23’s naming of the woman as 'Woman' (ishah) function as a literary and theological device?",
+          "type": "multiple-choice",
+          "options": [
+            "It expresses identity and origin from man, emphasizing unity",
+            "It shows woman is a separate creation unrelated to man",
+            "It implies woman is superior to man",
+            "It is a random naming with no significance"
+          ],
+          "correctAnswer": "It expresses identity and origin from man, emphasizing unity",
+          "explanation": "Genesis 2:23 uses the name 'Woman' (ishah), derived from 'man' (ish), to express the woman’s origin and unity with man, underscoring relationality and shared humanity.",
+          "verseReference": "Genesis 2:23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-hard-q15",
+          "question": "True or False: Genesis 2:25 indicates that man and woman were ashamed of their nakedness in the Garden of Eden.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Genesis 2:25 explicitly states that man and woman were both naked and were not ashamed, emphasizing innocence before the Fall.",
+          "verseReference": "Genesis 2:25",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "genesis-2-quiz",
+      "tags": [
+        "genesis",
+        "chapter-2",
+        "genesis",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "genesis-2-theological",
+      "title": "Genesis Chapter 2 Quiz - Theological Level",
+      "description": "Deep biblical theology from Genesis Chapter 2 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "Genesis",
+      "chapter": 2,
+      "questions": [
+        {
+          "id": "genesis-2-theological-q1",
+          "question": "What theological significance does God resting on the seventh day have according to Genesis 2?",
+          "type": "multiple-choice",
+          "options": [
+            "It signifies the completion and sanctification of creation",
+            "It indicates God was tired and needed to recuperate",
+            "It shows God’s indifference to the rest of creation",
+            "It implies the seventh day is a day of sorrow"
+          ],
+          "correctAnswer": "It signifies the completion and sanctification of creation",
+          "explanation": "Genesis 2:2-3 states God ended His work and blessed the seventh day, sanctifying it because He rested from all His work. This sets a divine pattern for Sabbath rest, reflecting completeness and holiness consistent with Exodus 20:8-11, Hebrews 4:4-10, and Mark 2:27.",
+          "verseReference": "Genesis 2:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-theological-q2",
+          "question": "According to Genesis 2, from what substance did God form man?",
+          "type": "multiple-choice",
+          "options": [
+            "Dust of the ground",
+            "Water from the river",
+            "Clay from the garden",
+            "Fire from heaven"
+          ],
+          "correctAnswer": "Dust of the ground",
+          "explanation": "Genesis 2:7 reveals that God formed man from the dust of the ground and breathed into his nostrils the breath of life. This emphasizes humanity’s earthly origin and divine life-giving, aligning with Job 33:4, Ecclesiastes 12:7, and John 20:22.",
+          "verseReference": "Genesis 2:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-theological-q3",
+          "question": "What was the primary role assigned to man in the Garden of Eden?",
+          "type": "multiple-choice",
+          "options": [
+            "To dress and keep the garden",
+            "To build a city",
+            "To conquer other creatures",
+            "To worship angels"
+          ],
+          "correctAnswer": "To dress and keep the garden",
+          "explanation": "Genesis 2:15 states the LORD God put man into the garden to dress it and keep it, indicating stewardship over creation. This theme of dominion and caretaking is echoed in Psalm 8:6, Colossians 1:16, and Revelation 22:2.",
+          "verseReference": "Genesis 2:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-theological-q4",
+          "question": "Which two special trees are mentioned as being in the midst of the Garden of Eden?",
+          "type": "multiple-choice",
+          "options": [
+            "The tree of life and the tree of knowledge of good and evil",
+            "The olive tree and the fig tree",
+            "The cedar tree and the palm tree",
+            "The acacia and the cypress"
+          ],
+          "correctAnswer": "The tree of life and the tree of knowledge of good and evil",
+          "explanation": "Genesis 2:9 identifies the tree of life and the tree of knowledge of good and evil as in the garden’s center. These trees symbolize divine life and moral choice, foundational to doctrines of original sin and salvation, also referenced in Revelation 2:7 and 22:2.",
+          "verseReference": "Genesis 2:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-theological-q5",
+          "question": "What warning did God give regarding the tree of the knowledge of good and evil?",
+          "type": "multiple-choice",
+          "options": [
+            "If eaten from, the man shall surely die",
+            "Its fruit will give eternal life",
+            "It is the source of all wisdom",
+            "It is forbidden only on the Sabbath"
+          ],
+          "correctAnswer": "If eaten from, the man shall surely die",
+          "explanation": "Genesis 2:17 commands that man must not eat from the tree of knowledge of good and evil, warning that eating will result in death. This introduces the doctrine of original sin and human fallenness, related to Romans 5:12, James 1:15, and Ezekiel 18:4.",
+          "verseReference": "Genesis 2:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-theological-q6",
+          "question": "What does the formation of woman from man’s rib teach about human relationships?",
+          "type": "multiple-choice",
+          "options": [
+            "That woman is bone of man's bones and flesh of his flesh, emphasizing unity",
+            "That woman is created separately and unrelated to man",
+            "That woman is superior to man",
+            "That woman was formed from dust like the animals"
+          ],
+          "correctAnswer": "That woman is bone of man's bones and flesh of his flesh, emphasizing unity",
+          "explanation": "Genesis 2:22-23 shows woman was made from man’s rib, underscoring profound relational unity and equality, foundational to marriage doctrine. This is supported by Ephesians 5:28-31 and 1 Corinthians 11:11-12.",
+          "verseReference": "Genesis 2:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-theological-q7",
+          "question": "How does Genesis 2 describe God’s attitude toward man being alone?",
+          "type": "multiple-choice",
+          "options": [
+            "God said it is not good for man to be alone",
+            "God declared solitude as man’s blessing",
+            "God commanded man to remain solitary",
+            "God ignored man’s loneliness"
+          ],
+          "correctAnswer": "God said it is not good for man to be alone",
+          "explanation": "Genesis 2:18 states it was not good that man should be alone, prompting the creation of a suitable helper. This reveals God’s design for community and relational life, echoed in Hebrews 10:24-25 and Ecclesiastes 4:9-12.",
+          "verseReference": "Genesis 2:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-theological-q8",
+          "question": "What role does the breath of life given to man in Genesis 2 signify?",
+          "type": "multiple-choice",
+          "options": [
+            "God imparting a living soul and divine life",
+            "Man’s ability to speak multiple languages",
+            "The physical act of breathing only",
+            "A symbol of earthly origin alone"
+          ],
+          "correctAnswer": "God imparting a living soul and divine life",
+          "explanation": "Genesis 2:7 teaches that God breathing life into man made him a living soul, indicating a distinct spiritual life given by God. This aligns with Job 33:4, John 20:22, and 1 Corinthians 2:14.",
+          "verseReference": "Genesis 2:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-theological-q9",
+          "question": "What does the naming of the animals by Adam indicate about humanity’s role?",
+          "type": "multiple-choice",
+          "options": [
+            "Human authority and stewardship over creation",
+            "Humans as servants to animals",
+            "Animals having independent authority",
+            "Naming as a trivial act with no significance"
+          ],
+          "correctAnswer": "Human authority and stewardship over creation",
+          "explanation": "Genesis 2:19-20 shows Adam naming animals, reflecting human dominion and responsibility over creation. This symbolizes God’s delegation of authority, consistent with Psalm 8:6 and Colossians 1:16.",
+          "verseReference": "Genesis 2:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-theological-q10",
+          "question": "Which rivers are described as flowing out of Eden in Genesis 2?",
+          "type": "multiple-choice",
+          "options": [
+            "Pison, Gihon, Hiddekel, and Euphrates",
+            "Nile, Jordan, Tigris, and Amazon",
+            "Ganges, Nile, Euphrates, and Danube",
+            "Tigris, Jordan, Nile, and Mississippi"
+          ],
+          "correctAnswer": "Pison, Gihon, Hiddekel, and Euphrates",
+          "explanation": "Genesis 2:10-14 describes the river from Eden splitting into four: Pison, Gihon, Hiddekel, and Euphrates, highlighting the garden’s geographical and theological uniqueness. This connects to biblical geography in 1 Kings 10:28 and Ezekiel 47:1-12.",
+          "verseReference": "Genesis 2:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-theological-q11",
+          "question": "What does Genesis 2 teach about God’s method of creating humanity?",
+          "type": "multiple-choice",
+          "options": [
+            "Forming man from dust and breathing life into him",
+            "Speaking man into existence directly",
+            "Creating man from water and fire",
+            "Forming man from clay without breath"
+          ],
+          "correctAnswer": "Forming man from dust and breathing life into him",
+          "explanation": "Genesis 2:7 details God forming man from dust and breathing life into him, showing an intimate and personal creation. This contrasts with more general creation by command in Genesis 1, and is echoed in Job 10:9 and Zechariah 12:1.",
+          "verseReference": "Genesis 2:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-theological-q12",
+          "question": "What does the institution of marriage in Genesis 2:24 reveal about human relationships?",
+          "type": "multiple-choice",
+          "options": [
+            "A man shall leave his parents and be united to his wife as one flesh",
+            "Marriage is a temporary arrangement",
+            "Marriage is solely for procreation",
+            "Men and women remain separate in marriage"
+          ],
+          "correctAnswer": "A man shall leave his parents and be united to his wife as one flesh",
+          "explanation": "Genesis 2:24 teaches the foundational principle of marriage as a permanent uniting of man and woman, leaving parents and becoming one flesh. This is foundational for Christian marriage theology, supported by Matthew 19:5-6 and Ephesians 5:31.",
+          "verseReference": "Genesis 2:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-theological-q13",
+          "question": "What does the presence of bdellium and onyx in the land of Havilah signify in theological terms?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s provision of beauty and value in creation",
+            "A curse upon the land",
+            "A sign of destruction and judgment",
+            "A reference to future wealth in Egypt"
+          ],
+          "correctAnswer": "God’s provision of beauty and value in creation",
+          "explanation": "Genesis 2:12 mentions bdellium and onyx in Havilah, symbolizing God’s abundant provision and aesthetic goodness in creation. This reflects God’s creative goodness seen in Psalm 104:24 and James 1:17.",
+          "verseReference": "Genesis 2:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-theological-q14",
+          "question": "What is the significance of God causing a deep sleep to fall upon Adam before creating woman?",
+          "type": "multiple-choice",
+          "options": [
+            "It symbolizes a divine act of preparation for a suitable helper",
+            "It indicates Adam’s loss of consciousness forever",
+            "It shows God’s abandonment of Adam",
+            "It represents man’s independence from God"
+          ],
+          "correctAnswer": "It symbolizes a divine act of preparation for a suitable helper",
+          "explanation": "Genesis 2:21 describes God causing a deep sleep on Adam to create woman from his rib, symbolizing divine sovereignty and purpose in human companionship. This typifies Christ’s sacrificial work (Ephesians 5:25-32) and God’s providential care.",
+          "verseReference": "Genesis 2:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-2-theological-q15",
+          "question": "How does Genesis 2 describe the relationship between man and woman before the fall?",
+          "type": "multiple-choice",
+          "options": [
+            "They were both naked and not ashamed",
+            "They were fearful and ashamed of each other",
+            "They lived separately and independently",
+            "They were clothed in animal skins"
+          ],
+          "correctAnswer": "They were both naked and not ashamed",
+          "explanation": "Genesis 2:25 indicates man and woman were naked and unashamed, reflecting innocence and perfect fellowship before sin, a state restored ultimately in Revelation 21:4 and 1 Corinthians 15:22.",
+          "verseReference": "Genesis 2:25",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "genesis-2-quiz",
+      "tags": [
+        "genesis",
+        "chapter-2",
+        "genesis",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

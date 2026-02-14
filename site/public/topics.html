@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bible Verses By Topic - Explore Scripture by Subject</title>
+    <meta name="description" content="Browse Bible verses organized by topic. Find scriptures on love, faith, hope, peace, strength, wisdom, prayer, forgiveness, grace, salvation, and more.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --primary-blue: #3B82F6;
+            --light-blue: #EFF6FF;
+            --dark-blue: #1E40AF;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: #ffffff;
+            color: #1f2937;
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, #ffffff 0%, var(--light-blue) 100%);
+            padding: 4rem 2rem;
+            text-align: center;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .hero-title {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #111827;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+
+        .hero-subtitle {
+            font-size: 1.125rem;
+            color: #6b7280;
+            font-style: italic;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero-quote {
+            font-size: 0.95rem;
+            color: var(--primary-blue);
+            font-weight: 500;
+            margin-top: 1rem;
+        }
+
+        .search-container {
+            max-width: 600px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 0.875rem 1.25rem;
+            font-size: 1rem;
+            border: 2px solid #e5e7eb;
+            border-radius: 0.5rem;
+            transition: all 0.3s ease;
+            background-color: #ffffff;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--primary-blue);
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+        }
+
+        .search-input::placeholder {
+            color: #9ca3af;
+        }
+
+        .featured-section {
+            max-width: 1200px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #111827;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .section-title::before {
+            content: '';
+            width: 4px;
+            height: 1.5rem;
+            background-color: var(--primary-blue);
+            border-radius: 2px;
+        }
+
+        .featured-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .all-topics-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem 3rem;
+        }
+
+        .topics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 1.5rem;
+        }
+
+        @media (min-width: 768px) {
+            .topics-grid {
+                grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .topics-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .topics-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        .topic-card {
+            background-color: #ffffff;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .topic-card:hover {
+            border-color: var(--primary-blue);
+            box-shadow: 0 10px 25px rgba(59, 130, 246, 0.1);
+            transform: translateY(-4px);
+        }
+
+        .topic-icon {
+            width: 3rem;
+            height: 3rem;
+            background-color: var(--light-blue);
+            border-radius: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+
+        .topic-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+
+        .topic-name {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #111827;
+        }
+
+        .verse-badge {
+            background-color: var(--primary-blue);
+            color: #ffffff;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        .topic-description {
+            font-size: 0.95rem;
+            color: #6b7280;
+            line-height: 1.5;
+        }
+
+        .topic-link {
+            color: var(--primary-blue);
+            font-weight: 500;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+            transition: gap 0.3s ease;
+        }
+
+        .topic-link:hover {
+            gap: 0.75rem;
+        }
+
+        .featured-badge {
+            display: inline-block;
+            background-color: #fef3c7;
+            color: #92400e;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+
+        .filter-buttons {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+            justify-content: center;
+        }
+
+        .filter-btn {
+            padding: 0.5rem 1rem;
+            border: 1px solid #e5e7eb;
+            background-color: #ffffff;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: #6b7280;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .filter-btn:hover,
+        .filter-btn.active {
+            background-color: var(--primary-blue);
+            color: #ffffff;
+            border-color: var(--primary-blue);
+        }
+
+        .footer-section {
+            background-color: #f9fafb;
+            padding: 2rem;
+            text-align: center;
+            color: #6b7280;
+            font-size: 0.95rem;
+            border-top: 1px solid #e5e7eb;
+            margin-top: 3rem;
+        }
+
+        .footer-section a {
+            color: var(--primary-blue);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .footer-section a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <h1 class="hero-title">Bible Verses By Topic</h1>
+        <p class="hero-subtitle">Explore Scripture organized by subject</p>
+        <p class="hero-quote">"All Scripture is God-breathed and is useful for teaching, rebuking, correcting and training in righteousness." — 2 Timothy 3:16</p>
+    </section>
+
+    <!-- Search Bar -->
+    <div class="search-container">
+        <input 
+            type="text" 
+            class="search-input" 
+            id="searchInput" 
+            placeholder="Search topics... (e.g., love, faith, hope)"
+        >
+    </div>
+
+    <!-- Filter Buttons -->
+    <div class="search-container">
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All Topics</button>
+            <button class="filter-btn" data-filter="popular">Popular</button>
+            <button class="filter-btn" data-filter="spiritual">Spiritual Growth</button>
+            <button class="filter-btn" data-filter="emotions">Emotions & Feelings</button>
+            <button class="filter-btn" data-filter="guidance">Guidance & Wisdom</button>
+        </div>
+    </div>
+
+    <!-- Featured Topics Section -->
+    <section class="featured-section">
+        <h2 class="section-title">Featured Topics</h2>
+        <div class="featured-grid">
+            <!-- Love -->
+            <div class="topic-card" data-category="popular,spiritual,emotions">
+                <div class="featured-badge">⭐ Featured</div>
+                <div class="topic-icon">❤️</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Love</h3>
+                        <p class="topic-description">God's love, loving others, and the greatest commandment</p>
+                    </div>
+                    <span class="verse-badge">10</span>
+                </div>
+                <a href="#love" class="topic-link">Explore verses →</a>
+            </div>
+
+            <!-- Faith -->
+            <div class="topic-card" data-category="popular,spiritual">
+                <div class="featured-badge">⭐ Featured</div>
+                <div class="topic-icon">✨</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Faith</h3>
+                        <p class="topic-description">Trust in God, believing without seeing, and spiritual confidence</p>
+                    </div>
+                    <span class="verse-badge">8</span>
+                </div>
+                <a href="#faith" class="topic-link">Explore verses →</a>
+            </div>
+
+            <!-- Hope -->
+            <div class="topic-card" data-category="popular,spiritual,emotions">
+                <div class="featured-badge">⭐ Featured</div>
+                <div class="topic-icon">🌅</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Hope</h3>
+                        <p class="topic-description">Encouragement, future promise, and overcoming despair</p>
+                    </div>
+                    <span class="verse-badge">6</span>
+                </div>
+                <a href="#hope" class="topic-link">Explore verses →</a>
+            </div>
+
+            <!-- Strength -->
+            <div class="topic-card" data-category="popular,spiritual,emotions">
+                <div class="featured-badge">⭐ Featured</div>
+                <div class="topic-icon">💪</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Strength</h3>
+                        <p class="topic-description">God's strength, overcoming weakness, and perseverance</p>
+                    </div>
+                    <span class="verse-badge">9</span>
+                </div>
+                <a href="#strength" class="topic-link">Explore verses →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- All Topics Section -->
+    <section class="all-topics-section">
+        <h2 class="section-title">All Topics</h2>
+        <div class="topics-grid" id="topicsGrid">
+            <!-- Peace -->
+            <div class="topic-card" data-category="spiritual,emotions" id="peace">
+                <div class="topic-icon">☮️</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Peace</h3>
+                        <p class="topic-description">Inner peace, God's peace, and tranquility in faith</p>
+                    </div>
+                    <span class="verse-badge">7</span>
+                </div>
+                <a href="#peace" class="topic-link">Explore verses →</a>
+            </div>
+
+            <!-- Wisdom -->
+            <div class="topic-card" data-category="guidance">
+                <div class="topic-icon">🧠</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Wisdom</h3>
+                        <p class="topic-description">God's wisdom, seeking knowledge, and spiritual understanding</p>
+                    </div>
+                    <span class="verse-badge">5</span>
+                </div>
+                <a href="#wisdom" class="topic-link">Explore verses →</a>
+            </div>
+
+            <!-- Prayer -->
+            <div class="topic-card" data-category="spiritual">
+                <div class="topic-icon">🙏</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Prayer</h3>
+                        <p class="topic-description">Communicating with God, intercession, and answered prayers</p>
+                    </div>
+                    <span class="verse-badge">8</span>
+                </div>
+                <a href="#prayer" class="topic-link">Explore verses →</a>
+            </div>
+
+            <!-- Forgiveness -->
+            <div class="topic-card" data-category="spiritual,emotions">
+                <div class="topic-icon">🕊️</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Forgiveness</h3>
+                        <p class="topic-description">Forgiving others, God's forgiveness, and reconciliation</p>
+                    </div>
+                    <span class="verse-badge">6</span>
+                </div>
+                <a href="#forgiveness" class="topic-link">Explore verses →</a>
+            </div>
+
+            <!-- Grace -->
+            <div class="topic-card" data-category="spiritual">
+                <div class="topic-icon">✝️</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Grace</h3>
+                        <p class="topic-description">God's grace, unmerited favor, and redemption through Christ</p>
+                    </div>
+                    <span class="verse-badge">7</span>
+                </div>
+                <a href="#grace" class="topic-link">Explore verses →</a>
+            </div>
+
+            <!-- Salvation -->
+            <div class="topic-card" data-category="spiritual">
+                <div class="topic-icon">🔑</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Salvation</h3>
+                        <p class="topic-description">Eternal life, redemption, and accepting Christ as Savior</p>
+                    </div>
+                    <span class="verse-badge">9</span>
+                </div>
+                <a href="#salvation" class="topic-link">Explore verses →</a>
+            </div>
+
+            <!-- Joy -->
+            <div class="topic-card" data-category="emotions">
+                <div class="topic-icon">😊</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Joy</h3>
+                        <p class="topic-description">Happiness in faith, rejoicing, and spiritual delight</p>
+                    </div>
+                    <span class="verse-badge">7</span>
+                </div>
+                <a href="#joy" class="topic-link">Explore verses →</a>
+            </div>
+
+            <!-- Patience -->
+            <div class="topic-card" data-category="spiritual,emotions">
+                <div class="topic-icon">⏳</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Patience</h3>
+                        <p class="topic-description">Waiting on God, endurance, and perseverance through trials</p>
+                    </div>
+                    <span class="verse-badge">6</span>
+                </div>
+                <a href="#patience" class="topic-link">Explore verses →</a>
+            </div>
+
+            <!-- Courage -->
+            <div class="topic-card" data-category="spiritual,emotions">
+                <div class="topic-icon">🦁</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Courage</h3>
+                        <p class="topic-description">Bravery in faith, overcoming fear, and standing firm</p>
+                    </div>
+                    <span class="verse-badge">8</span>
+                </div>
+                <a href="#courage" class="topic-link">Explore verses →</a>
+            </div>
+
+            <!-- Humility -->
+            <div class="topic-card" data-category="spiritual">
+                <div class="topic-icon">🙇</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Humility</h3>
+                        <p class="topic-description">Meekness, serving others, and submission to God</p>
+                    </div>
+                    <span class="verse-badge">5</span>
+                </div>
+                <a href="#humility" class="topic-link">Explore verses →</a>
+            </div>
+
+            <!-- Kindness -->
+            <div class="topic-card" data-category="spiritual,emotions">
+                <div class="topic-icon">🤝</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Kindness</h3>
+                        <p class="topic-description">Compassion, generosity, and caring for others</p>
+                    </div>
+                    <span class="verse-badge">6</span>
+                </div>
+                <a href="#kindness" class="topic-link">Explore verses →</a>
+            </div>
+
+            <!-- Trust -->
+            <div class="topic-card" data-category="spiritual,guidance">
+                <div class="topic-icon">🤲</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Trust</h3>
+                        <p class="topic-description">Trusting God's plan, reliance, and confidence in His care</p>
+                    </div>
+                    <span class="verse-badge">8</span>
+                </div>
+                <a href="#trust" class="topic-link">Explore verses →</a>
+            </div>
+
+            <!-- Obedience -->
+            <div class="topic-card" data-category="spiritual,guidance">
+                <div class="topic-icon">✅</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Obedience</h3>
+                        <p class="topic-description">Following God's commands, submission, and righteousness</p>
+                    </div>
+                    <span class="verse-badge">7</span>
+                </div>
+                <a href="#obedience" class="topic-link">Explore verses →</a>
+            </div>
+
+            <!-- Healing -->
+            <div class="topic-card" data-category="spiritual,emotions">
+                <div class="topic-icon">🩹</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Healing</h3>
+                        <p class="topic-description">Physical healing, emotional restoration, and wholeness</p>
+                    </div>
+                    <span class="verse-badge">7</span>
+                </div>
+                <a href="#healing" class="topic-link">Explore verses →</a>
+            </div>
+
+            <!-- Perseverance -->
+            <div class="topic-card" data-category="spiritual,emotions">
+                <div class="topic-icon">🏃</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Perseverance</h3>
+                        <p class="topic-description">Endurance, running the race, and finishing strong</p>
+                    </div>
+                    <span class="verse-badge">6</span>
+                </div>
+                <a href="#perseverance" class="topic-link">Explore verses →</a>
+            </div>
+
+            <!-- Righteousness -->
+            <div class="topic-card" data-category="spiritual,guidance">
+                <div class="topic-icon">⚖️</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Righteousness</h3>
+                        <p class="topic-description">Living right, holiness, and moral integrity</p>
+                    </div>
+                    <span class="verse-badge">8</span>
+                </div>
+                <a href="#righteousness" class="topic-link">Explore verses →</a>
+            </div>
+
+            <!-- Gratitude -->
+            <div class="topic-card" data-category="emotions">
+                <div class="topic-icon">🙌</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Gratitude</h3>
+                        <p class="topic-description">Thanksgiving, appreciation, and praising God</p>
+                    </div>
+                    <span class="verse-badge">6</span>
+                </div>
+                <a href="#gratitude" class="topic-link">Explore verses →</a>
+            </div>
+
+            <!-- Love for Enemies -->
+            <div class="topic-card" data-category="spiritual,emotions">
+                <div class="topic-icon">🕊️</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Love for Enemies</h3>
+                        <p class="topic-description">Loving those who hurt us, turning the other cheek</p>
+                    </div>
+                    <span class="verse-badge">5</span>
+                </div>
+                <a href="#love-enemies" class="topic-link">Explore verses →</a>
+            </div>
+
+            <!-- Temptation -->
+            <div class="topic-card" data-category="spiritual,guidance">
+                <div class="topic-icon">⚔️</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Temptation</h3>
+                        <p class="topic-description">Resisting sin, overcoming temptation, and spiritual warfare</p>
+                    </div>
+                    <span class="verse-badge">7</span>
+                </div>
+                <a href="#temptation" class="topic-link">Explore verses →</a>
+            </div>
+
+            <!-- Anxiety & Fear -->
+            <div class="topic-card" data-category="emotions,guidance">
+                <div class="topic-icon">🧘</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Anxiety & Fear</h3>
+                        <p class="topic-description">Overcoming worry, finding peace, and casting cares on God</p>
+                    </div>
+                    <span class="verse-badge">8</span>
+                </div>
+                <a href="#anxiety" class="topic-link">Explore verses →</a>
+            </div>
+
+            <!-- Generosity -->
+            <div class="topic-card" data-category="spiritual">
+                <div class="topic-icon">💝</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Generosity</h3>
+                        <p class="topic-description">Giving freely, sharing blessings, and helping the poor</p>
+                    </div>
+                    <span class="verse-badge">6</span>
+                </div>
+                <a href="#generosity" class="topic-link">Explore verses →</a>
+            </div>
+
+            <!-- Faithfulness -->
+            <div class="topic-card" data-category="spiritual">
+                <div class="topic-icon">💎</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Faithfulness</h3>
+                        <p class="topic-description">Loyalty, commitment, and being true to God's word</p>
+                    </div>
+                    <span class="verse-badge">7</span>
+                </div>
+                <a href="#faithfulness" class="topic-link">Explore verses →</a>
+            </div>
+
+            <!-- Repentance -->
+            <div class="topic-card" data-category="spiritual,guidance">
+                <div class="topic-icon">🔄</div>
+                <div class="topic-header">
+                    <div>
+                        <h3 class="topic-name">Repentance</h3>
+                        <p class="topic-description">Turning from sin, confession, and spiritual renewal</p>
+                    </div>
+                    <span class="verse-badge">6</span>
+                </div>
+                <a href="#repentance" class="topic-link">Explore verses →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <p>Browse Bible verses by topic to deepen your understanding of Scripture. Each topic includes carefully selected verses to help you explore God's Word.</p>
+        <p style="margin-top: 1rem;">
+            <a href="/">Home</a> • 
+            <a href="/quizzes">Bible Quizzes</a> • 
+            <a href="/topics">Topics</a> • 
+            <a href="/about">About</a>
+        </p>
+    </footer>
+
+    <script>
+        // Search functionality
+        const searchInput = document.getElementById('searchInput');
+        const topicsGrid = document.getElementById('topicsGrid');
+        const allCards = document.querySelectorAll('.topic-card');
+        const filterButtons = document.querySelectorAll('.filter-btn');
+
+        let currentFilter = 'all';
+
+        // Search filter
+        searchInput.addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase();
+            
+            allCards.forEach(card => {
+                const topicName = card.querySelector('.topic-name').textContent.toLowerCase();
+                const topicDesc = card.querySelector('.topic-description').textContent.toLowerCase();
+                
+                const matches = topicName.includes(searchTerm) || topicDesc.includes(searchTerm);
+                const categoryMatches = currentFilter === 'all' || card.dataset.category.includes(currentFilter);
+                
+                card.style.display = (matches && categoryMatches) ? 'flex' : 'none';
+            });
+        });
+
+        // Category filter
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterButtons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentFilter = btn.dataset.filter;
+                
+                const searchTerm = searchInput.value.toLowerCase();
+                
+                allCards.forEach(card => {
+                    const topicName = card.querySelector('.topic-name').textContent.toLowerCase();
+                    const topicDesc = card.querySelector('.topic-description').textContent.toLowerCase();
+                    
+                    const matches = topicName.includes(searchTerm) || topicDesc.includes(searchTerm);
+                    const categoryMatches = currentFilter === 'all' || card.dataset.category.includes(currentFilter);
+                    
+                    card.style.display = (matches && categoryMatches) ? 'flex' : 'none';
+                });
+            });
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

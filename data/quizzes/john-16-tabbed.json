@@ -1,0 +1,983 @@
+{
+  "id": "john-16-tabbed",
+  "title": "John Chapter 16 Quiz - Multi-Level",
+  "description": "An enhanced quiz on John chapter 16 with Easy, Medium, Hard, and Theological levels. Each level has 15 carefully crafted questions. Choose your difficulty and dive in!",
+  "tabs": {
+    "easy": {
+      "id": "john-16-easy",
+      "title": "John Chapter 16 Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of John Chapter 16.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 16,
+      "questions": [
+        {
+          "id": "john-16-easy-q1",
+          "question": "According to John 16:2, what will those who kill believers think they are doing?",
+          "type": "multiple-choice",
+          "options": [
+            "Doing God service",
+            "Punishing sinners",
+            "Protecting the law",
+            "Spreading peace"
+          ],
+          "correctAnswer": "Doing God service",
+          "explanation": "John 16:2 states that those who kill believers will think they are doing God service.",
+          "verseReference": "John 16:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-16-easy-q2",
+          "question": "Why will believers be put out of the synagogues, according to John 16:2?",
+          "type": "multiple-choice",
+          "options": [
+            "Because they follow Jesus",
+            "Because they are sinners",
+            "Because they are priests",
+            "Because they disobey laws"
+          ],
+          "correctAnswer": "Because they follow Jesus",
+          "explanation": "John 16:2 indicates believers will be put out of synagogues as a consequence of their faith in Jesus.",
+          "verseReference": "John 16:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-16-easy-q3",
+          "question": "What reason does Jesus give in John 16:3 for why these wrongs will be done to believers?",
+          "type": "multiple-choice",
+          "options": [
+            "Because they have not known the Father nor Jesus",
+            "Because they broke the law",
+            "Because they opposed the leaders",
+            "Because they are rebellious"
+          ],
+          "correctAnswer": "Because they have not known the Father nor Jesus",
+          "explanation": "John 16:3 explains that these acts are done because the perpetrators have not known the Father nor Jesus.",
+          "verseReference": "John 16:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-16-easy-q4",
+          "question": "In John 16:7, why is it expedient for Jesus to go away?",
+          "type": "multiple-choice",
+          "options": [
+            "So the Comforter will come",
+            "So the disciples can rest",
+            "So the temple can be rebuilt",
+            "So the law can be fulfilled"
+          ],
+          "correctAnswer": "So the Comforter will come",
+          "explanation": "John 16:7 states it is expedient for Jesus to go away so that the Comforter may come to the disciples.",
+          "verseReference": "John 16:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-16-easy-q5",
+          "question": "According to John 16:8, what three things will the Comforter reprove the world of?",
+          "type": "multiple-choice",
+          "options": [
+            "Sin, righteousness, and judgment",
+            "Love, peace, and joy",
+            "Faith, hope, and charity",
+            "Law, prophets, and kings"
+          ],
+          "correctAnswer": "Sin, righteousness, and judgment",
+          "explanation": "John 16:8 clearly states that the Comforter will reprove the world of sin, righteousness, and judgment.",
+          "verseReference": "John 16:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-16-easy-q6",
+          "question": "Fill in the blank from John 16:22: 'And ye now therefore have sorrow: but I will see you again, and your heart shall ______.'",
+          "type": "fill-blank",
+          "options": [
+            "rejoice",
+            "weep",
+            "frown",
+            "lament"
+          ],
+          "correctAnswer": "rejoice",
+          "explanation": "John 16:22 says that after sorrow, Jesus will see the disciples again and their heart shall rejoice.",
+          "verseReference": "John 16:22",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-16-easy-q7",
+          "question": "True or False: According to John 16:11, the prince of this world is judged.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 16:11 states that judgment occurs because the prince of this world is judged.",
+          "verseReference": "John 16:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-16-easy-q8",
+          "question": "What will the Spirit of truth do according to John 16:13?",
+          "type": "multiple-choice",
+          "options": [
+            "Guide into all truth",
+            "Perform miracles",
+            "Write new scripture",
+            "Preach in the temple"
+          ],
+          "correctAnswer": "Guide into all truth",
+          "explanation": "John 16:13 explains that the Spirit of truth will guide the disciples into all truth.",
+          "verseReference": "John 16:13",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-16-easy-q9",
+          "question": "Who does Jesus say has all things, as mentioned in John 16:15?",
+          "type": "multiple-choice",
+          "options": [
+            "The Father",
+            "The disciples",
+            "The Pharisees",
+            "The Comforter"
+          ],
+          "correctAnswer": "The Father",
+          "explanation": "John 16:15 states that all things the Father has are Jesus', indicating divine ownership.",
+          "verseReference": "John 16:15",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-16-easy-q10",
+          "question": "According to John 16:20, what will happen to the disciples' sorrow?",
+          "type": "multiple-choice",
+          "options": [
+            "It shall be turned into joy",
+            "It will increase",
+            "It will remain forever",
+            "It will be forgotten"
+          ],
+          "correctAnswer": "It shall be turned into joy",
+          "explanation": "John 16:20 assures that the sorrow of the disciples will be turned into joy.",
+          "verseReference": "John 16:20",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-16-easy-q11",
+          "question": "True or False: John 16:23 says that in that day, the disciples shall ask Jesus nothing but will ask the Father in Jesus' name.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 16:23 teaches that disciples will ask the Father in Jesus' name and not ask Jesus directly.",
+          "verseReference": "John 16:23",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-16-easy-q12",
+          "question": "What does Jesus say in John 16:28 about where He came from and where He is going?",
+          "type": "multiple-choice",
+          "options": [
+            "He came from the Father and goes back to the Father",
+            "He came from Jerusalem and goes to Nazareth",
+            "He came from the temple and goes to the market",
+            "He came from the people and goes to the priests"
+          ],
+          "correctAnswer": "He came from the Father and goes back to the Father",
+          "explanation": "John 16:28 states Jesus came forth from the Father and will leave the world to go to the Father.",
+          "verseReference": "John 16:28",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-16-easy-q13",
+          "question": "According to John 16:33, what does Jesus say to encourage believers facing tribulation?",
+          "type": "multiple-choice",
+          "options": [
+            "Be of good cheer; I have overcome the world",
+            "Run away from danger",
+            "Pray for immediate escape",
+            "Ignore the troubles"
+          ],
+          "correctAnswer": "Be of good cheer; I have overcome the world",
+          "explanation": "John 16:33 encourages believers to be of good cheer because Jesus has overcome the world despite tribulations.",
+          "verseReference": "John 16:33",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-16-easy-q14",
+          "question": "True or False: John 16:32 says Jesus will be left completely alone without the Father.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 16:32 states Jesus will be left alone by the disciples but not alone because the Father is with Him.",
+          "verseReference": "John 16:32",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-16-easy-q15",
+          "question": "When Jesus says 'A little while, and ye shall not see me: and again, a little while, and ye shall see me' in John 16:16, what were the disciples' reaction?",
+          "type": "multiple-choice",
+          "options": [
+            "They did not understand what He meant",
+            "They immediately understood",
+            "They laughed in joy",
+            "They left Him confused"
+          ],
+          "correctAnswer": "They did not understand what He meant",
+          "explanation": "John 16:17-18 shows the disciples questioned among themselves because they did not understand Jesus' statement.",
+          "verseReference": "John 16:16",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "john-16-quiz",
+      "tags": [
+        "john",
+        "chapter-16",
+        "john",
+        "bible-quiz",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "john-16-medium",
+      "title": "John Chapter 16 Quiz - Medium Level",
+      "description": "Ready for more? Apply biblical truths from John Chapter 16 to real-life situations.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 16,
+      "questions": [
+        {
+          "id": "john-16-medium-q1",
+          "question": "A believer is feeling sorrow because of upcoming hardships. Based on John 16, what hope can you share to encourage them?",
+          "type": "multiple-choice",
+          "options": [
+            "Their sorrow will turn into joy",
+            "They will be abandoned in their sorrow",
+            "They should hide their feelings",
+            "Sorrow means they are not faithful"
+          ],
+          "correctAnswer": "Their sorrow will turn into joy",
+          "explanation": "John 16:20-22 teaches that although believers will weep and lament, their sorrow will be turned into joy, just like a woman forgetting her anguish after childbirth. This brings hope and comfort during trials.",
+          "verseReference": "John 16:20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-16-medium-q2",
+          "question": "How does John 16 instruct believers to approach prayer when they face needs or challenges?",
+          "type": "multiple-choice",
+          "options": [
+            "Ask the Father in Jesus' name and receive joy",
+            "Pray only when in church",
+            "Ask others to pray for you instead",
+            "Pray without faith and doubt the answer"
+          ],
+          "correctAnswer": "Ask the Father in Jesus' name and receive joy",
+          "explanation": "John 16:23-24 encourages believers to ask the Father in Jesus' name, promising that they will receive, so their joy may be full. This teaches the importance of faith-filled prayer directly to God.",
+          "verseReference": "John 16:23",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-16-medium-q3",
+          "question": "A church member struggles with doubt about Jesus’ identity. What biblical truth from John 16 would strengthen their faith?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus came from the Father and knows all things",
+            "Jesus is only a good teacher",
+            "Jesus sometimes does not know everything",
+            "Faith is not necessary to believe in Jesus"
+          ],
+          "correctAnswer": "Jesus came from the Father and knows all things",
+          "explanation": "John 16:30 affirms that Jesus knows all things and came forth from God, which strengthens believers' faith by affirming His divine origin and wisdom.",
+          "verseReference": "John 16:30",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-16-medium-q4",
+          "question": "What does John 16 say about the role of the Comforter (Holy Spirit) in a believer’s life?",
+          "type": "multiple-choice",
+          "options": [
+            "He will guide into all truth and glorify Jesus",
+            "He will speak on his own authority",
+            "He will leave believers to struggle alone",
+            "He will teach only worldly wisdom"
+          ],
+          "correctAnswer": "He will guide into all truth and glorify Jesus",
+          "explanation": "John 16:13-14 teaches that the Spirit of truth will guide believers into all truth and glorify Jesus by showing what He receives from the Father, aiding spiritual growth and discernment.",
+          "verseReference": "John 16:13",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-16-medium-q5",
+          "question": "How can John 16 help a believer understand the trials they face from those who reject the Gospel?",
+          "type": "multiple-choice",
+          "options": [
+            "Opposition happens because they do not know the Father nor Jesus",
+            "Trials mean God has abandoned them",
+            "Believers should avoid all conflicts",
+            "Opposition proves the Gospel is false"
+          ],
+          "correctAnswer": "Opposition happens because they do not know the Father nor Jesus",
+          "explanation": "John 16:2-3 explains that believers will be put out and persecuted because those who oppose them do not know the Father or Jesus, helping believers understand opposition is rooted in spiritual blindness.",
+          "verseReference": "John 16:3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-16-medium-q6",
+          "question": "A Christian parent wants to teach their children about perseverance in trials. What lesson from John 16 is most applicable?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus’ followers will face tribulation but can have peace in Him",
+            "Trials mean God is punishing them",
+            "Avoid all hardships to keep faith strong",
+            "Sorrow should be hidden from others"
+          ],
+          "correctAnswer": "Jesus’ followers will face tribulation but can have peace in Him",
+          "explanation": "John 16:33 tells believers that although they will have tribulation in the world, they can be of good cheer because Jesus has overcome the world, encouraging perseverance and peace through faith.",
+          "verseReference": "John 16:33",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-16-medium-q7",
+          "question": "How does John 16 teach about humility and dependence on God in daily life?",
+          "type": "multiple-choice",
+          "options": [
+            "Believers must depend on the Spirit’s guidance, not their own understanding",
+            "Believers can rely solely on their own wisdom",
+            "God expects believers to figure everything out themselves",
+            "The Spirit will only guide those naturally wise"
+          ],
+          "correctAnswer": "Believers must depend on the Spirit’s guidance, not their own understanding",
+          "explanation": "John 16:13 explains the Spirit of truth will guide believers into all truth, indicating the need for humble dependence on God's Spirit rather than trusting solely in human understanding.",
+          "verseReference": "John 16:13",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-16-medium-q8",
+          "question": "True or False: According to John 16, Jesus assures believers that their joy can never be taken away.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 16:22 states that the joy believers have will not be taken from them, offering assurance and security in their relationship with Christ.",
+          "verseReference": "John 16:22",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-16-medium-q9",
+          "question": "True or False: John 16 teaches that Jesus will always be physically present with believers to guide them.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "John 16:7 explains that Jesus must go away so the Comforter (Holy Spirit) can come and guide believers, indicating Jesus’ physical presence will end but spiritual guidance continues.",
+          "verseReference": "John 16:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-16-medium-q10",
+          "question": "How does John 16 encourage believers to handle persecution and rejection from their community?",
+          "type": "multiple-choice",
+          "options": [
+            "Recognize it is due to others not knowing the Father or Jesus",
+            "Retaliate with anger and bitterness",
+            "Withdraw completely from community life",
+            "Doubt their faith and stop witnessing"
+          ],
+          "correctAnswer": "Recognize it is due to others not knowing the Father or Jesus",
+          "explanation": "John 16:3 states persecution happens because people have not known the Father or Jesus, encouraging believers to maintain faith and understanding rather than bitterness or withdrawal.",
+          "verseReference": "John 16:3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-16-medium-q11",
+          "question": "A believer is confused about Jesus’ statement ‘a little while, and ye shall not see me.’ How does John 16 clarify this?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus will leave to go to the Father and will return",
+            "Jesus will disappear forever",
+            "Jesus will never be seen again",
+            "Jesus meant a very long time"
+          ],
+          "correctAnswer": "Jesus will leave to go to the Father and will return",
+          "explanation": "John 16:16-17 clarifies that Jesus’ departure is temporary as He goes to the Father, and the disciples will see Him again, reassuring believers of His return.",
+          "verseReference": "John 16:16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-16-medium-q12",
+          "question": "Fill in the blank: Jesus said, 'It is expedient for you that I _____ away: for if I go not away, the Comforter will not come unto you.'",
+          "type": "fill-blank",
+          "options": [
+            "go",
+            "stay",
+            "hide",
+            "wait"
+          ],
+          "correctAnswer": "go",
+          "explanation": "John 16:7 states it is necessary that Jesus goes away so the Comforter (Holy Spirit) can come to the believers, emphasizing divine timing in spiritual guidance.",
+          "verseReference": "John 16:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-16-medium-q13",
+          "question": "According to John 16, what is the basis for the Spirit’s conviction of the world regarding sin?",
+          "type": "multiple-choice",
+          "options": [
+            "Because they believe not on Jesus",
+            "Because they keep the law perfectly",
+            "Because they attend synagogue",
+            "Because they are rich"
+          ],
+          "correctAnswer": "Because they believe not on Jesus",
+          "explanation": "John 16:9 teaches that the Spirit will convict the world of sin specifically because they do not believe in Jesus, highlighting faith as the key to righteousness.",
+          "verseReference": "John 16:9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-16-medium-q14",
+          "question": "How does John 16 instruct believers about sharing the knowledge of God and Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "The Spirit will show believers things to come and glorify Jesus",
+            "Believers should keep knowledge secret",
+            "Jesus will teach everything directly only",
+            "Knowledge is not important for faith"
+          ],
+          "correctAnswer": "The Spirit will show believers things to come and glorify Jesus",
+          "explanation": "John 16:13-14 reveals the Spirit's role in guiding believers into truth and glorifying Jesus by revealing what He receives, emphasizing the Spirit's ongoing teaching ministry.",
+          "verseReference": "John 16:14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-16-medium-q15",
+          "question": "What assurance does Jesus give believers about facing the world’s troubles in John 16?",
+          "type": "multiple-choice",
+          "options": [
+            "He has overcome the world and offers peace",
+            "Believers will be left to face troubles alone",
+            "Troubles mean failure of faith",
+            "God will remove all troubles immediately"
+          ],
+          "correctAnswer": "He has overcome the world and offers peace",
+          "explanation": "John 16:33 assures believers that although they will experience tribulation, Jesus has overcome the world, providing peace and encouragement to remain steadfast.",
+          "verseReference": "John 16:33",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "john-16-quiz",
+      "tags": [
+        "john",
+        "chapter-16",
+        "john",
+        "bible-quiz",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "john-16-hard",
+      "title": "John Chapter 16 Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections from John Chapter 16.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 16,
+      "questions": [
+        {
+          "id": "john-16-hard-q1",
+          "question": "In John 16:7, why does Jesus say it is expedient for Him to go away?",
+          "type": "multiple-choice",
+          "options": [
+            "So that the Comforter may come to the disciples",
+            "So that the disciples will understand the Law better",
+            "To fulfill the Old Testament prophecies",
+            "To demonstrate His power over death"
+          ],
+          "correctAnswer": "So that the Comforter may come to the disciples",
+          "explanation": "John 16:7 states that it is necessary for Jesus to go away so that the Comforter (Holy Spirit) can come to the disciples, highlighting the role of the Spirit in continuing Jesus' work.",
+          "verseReference": "John 16:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-hard-q2",
+          "question": "According to John 16:8-11, what are the three things the Spirit of truth will reprove the world of?",
+          "type": "multiple-choice",
+          "options": [
+            "Sin, righteousness, and judgment",
+            "Law, prophecy, and grace",
+            "Faith, hope, and love",
+            "Heaven, earth, and hell"
+          ],
+          "correctAnswer": "Sin, righteousness, and judgment",
+          "explanation": "John 16:8-11 explains that the Spirit will convict the world regarding sin (unbelief in Jesus), righteousness (Jesus going to the Father), and judgment (the prince of this world being judged).",
+          "verseReference": "John 16:8-11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-hard-q3",
+          "question": "What theme found in John 16:21 about sorrow turning to joy is typologically related to which Old Testament experience?",
+          "type": "multiple-choice",
+          "options": [
+            "The birth of Isaac to Sarah (Genesis 21)",
+            "The Exodus from Egypt (Exodus 12)",
+            "The fall of Jericho (Joshua 6)",
+            "The giving of the Law at Sinai (Exodus 20)"
+          ],
+          "correctAnswer": "The birth of Isaac to Sarah (Genesis 21)",
+          "explanation": "John 16:21 uses the metaphor of a woman’s labor pain turning to joy at childbirth, which typologically connects to Sarah’s long-awaited joy at Isaac’s birth (Genesis 21), illustrating suffering followed by divine joy.",
+          "verseReference": "John 16:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-hard-q4",
+          "question": "In John 16:13, what is the key characteristic of the Spirit of truth’s teaching?",
+          "type": "multiple-choice",
+          "options": [
+            "He will not speak on His own authority but only what He hears",
+            "He will perform miracles to convince the world",
+            "He will write new scriptures for the disciples",
+            "He will reveal secret mysteries unknown to the Father"
+          ],
+          "correctAnswer": "He will not speak on His own authority but only what He hears",
+          "explanation": "John 16:13 emphasizes that the Spirit of truth will guide the disciples into all truth by speaking only what He hears, demonstrating divine unity and authority in revelation.",
+          "verseReference": "John 16:13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-hard-q5",
+          "question": "How does Jesus describe the relationship between the Father and Himself in John 16:15?",
+          "type": "multiple-choice",
+          "options": [
+            "All things that the Father has are His, so the Spirit will take from Him and show to the disciples",
+            "He is separate and distinct from the Father in all things",
+            "He competes with the Father for authority",
+            "He has more authority than the Father"
+          ],
+          "correctAnswer": "All things that the Father has are His, so the Spirit will take from Him and show to the disciples",
+          "explanation": "John 16:15 shows the intimate unity between Father and Son, where Jesus declares that everything the Father has is His, and the Spirit will take from Jesus to reveal to the disciples.",
+          "verseReference": "John 16:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-hard-q6",
+          "question": "What does the phrase 'a little while' in John 16:16-18 foreshadow in the narrative of the Gospel?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus’ death, resurrection, and return to the Father",
+            "The destruction of Jerusalem",
+            "The coming of the Messiah",
+            "The giving of the Law to Moses"
+          ],
+          "correctAnswer": "Jesus’ death, resurrection, and return to the Father",
+          "explanation": "The phrase 'a little while' in John 16:16-18 foreshadows Jesus’ impending death, the temporary absence from His disciples, and His resurrection followed by His ascension to the Father.",
+          "verseReference": "John 16:16-18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-hard-q7",
+          "question": "According to John 16:23-24, how is prayer to the Father to be made after Jesus’ departure?",
+          "type": "multiple-choice",
+          "options": [
+            "In Jesus’ name, and requests will be granted",
+            "Only by the high priests",
+            "Through sacrifices at the temple",
+            "In silence without words"
+          ],
+          "correctAnswer": "In Jesus’ name, and requests will be granted",
+          "explanation": "John 16:23-24 teaches that after Jesus’ departure, believers will ask the Father directly in Jesus’ name, and their requests will be granted, emphasizing the new access to God through Christ.",
+          "verseReference": "John 16:23-24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-hard-q8",
+          "question": "What is the significance of Jesus saying 'I came forth from the Father, and am come into the world; again, I leave the world, and go to the Father' in John 16:28?",
+          "type": "multiple-choice",
+          "options": [
+            "It reveals His divine origin and mission, and foreshadows His return",
+            "It denies His divine nature",
+            "It promises an earthly kingdom",
+            "It emphasizes His human ancestry"
+          ],
+          "correctAnswer": "It reveals His divine origin and mission, and foreshadows His return",
+          "explanation": "John 16:28 highlights Jesus’ pre-existence and divine mission, indicating His coming from God into the world and His eventual return, which is key to Christological understanding.",
+          "verseReference": "John 16:28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-hard-q9",
+          "question": "In John 16:2-3, what reason does Jesus give for why the world will persecute His followers?",
+          "type": "multiple-choice",
+          "options": [
+            "Because they have not known the Father nor Jesus",
+            "Because they are politically rebellious",
+            "Because they refuse to pay taxes",
+            "Because they are spreading false teachings"
+          ],
+          "correctAnswer": "Because they have not known the Father nor Jesus",
+          "explanation": "John 16:2-3 explains that persecution arises from ignorance of God the Father and Jesus, indicating a spiritual blindness behind opposition to believers.",
+          "verseReference": "John 16:2-3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-hard-q10",
+          "question": "What emotional state do the disciples experience in John 16:6 after Jesus speaks about His departure?",
+          "type": "multiple-choice",
+          "options": [
+            "Sorrow",
+            "Joy",
+            "Anger",
+            "Fear"
+          ],
+          "correctAnswer": "Sorrow",
+          "explanation": "John 16:6 states that sorrow filled the disciples' hearts because Jesus told them of His impending departure, revealing their emotional struggle with His leaving.",
+          "verseReference": "John 16:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-hard-q11",
+          "question": "True or False: According to John 16:33, Jesus promises His disciples peace in Him despite the tribulation they will face in the world.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "John 16:33 explicitly states that Jesus gives peace to His disciples even though they will experience tribulation in the world, encouraging them to be of good cheer.",
+          "verseReference": "John 16:33",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-hard-q12",
+          "question": "How do the disciples respond in John 16:29-30 when Jesus speaks plainly about His origin and knowledge?",
+          "type": "multiple-choice",
+          "options": [
+            "They affirm their belief that Jesus came from God",
+            "They question His teachings",
+            "They fall asleep",
+            "They decide to leave Him"
+          ],
+          "correctAnswer": "They affirm their belief that Jesus came from God",
+          "explanation": "In John 16:29-30, the disciples express confidence in Jesus’ divine origin and knowledge, showing their growing faith as He speaks plainly.",
+          "verseReference": "John 16:29-30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-hard-q13",
+          "question": "What literary device is employed in John 16:20-22 where sorrow is compared to a woman in labor who forgets her anguish after childbirth?",
+          "type": "multiple-choice",
+          "options": [
+            "Typology",
+            "Hyperbole",
+            "Parable",
+            "Alliteration"
+          ],
+          "correctAnswer": "Typology",
+          "explanation": "John 16:20-22 uses typology by likening the disciples' sorrow and subsequent joy to a woman’s labor pains and childbirth, symbolizing transformation through suffering.",
+          "verseReference": "John 16:20-22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-hard-q14",
+          "question": "What is the significance of Jesus telling the disciples in John 16:12 that He has many things to say but they cannot bear them now?",
+          "type": "multiple-choice",
+          "options": [
+            "It foreshadows the future revelation by the Spirit of truth",
+            "It implies the disciples are unfaithful",
+            "It means Jesus will stop teaching them",
+            "It suggests the disciples already know everything"
+          ],
+          "correctAnswer": "It foreshadows the future revelation by the Spirit of truth",
+          "explanation": "John 16:12 prepares the audience for the coming of the Spirit who will guide them into all truth, indicating progressive revelation rather than immediate understanding.",
+          "verseReference": "John 16:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-hard-q15",
+          "question": "According to John 16:31-32, what is about to happen to the disciples, and how does Jesus describe His own state?",
+          "type": "multiple-choice",
+          "options": [
+            "The disciples will be scattered and Jesus will not be alone because the Father is with Him",
+            "The disciples will conquer Jerusalem and Jesus will lead them",
+            "The disciples will become teachers and Jesus will leave the earth",
+            "The disciples will write scriptures and Jesus will ascend immediately"
+          ],
+          "correctAnswer": "The disciples will be scattered and Jesus will not be alone because the Father is with Him",
+          "explanation": "John 16:31-32 states that the disciples will be scattered and leave Jesus alone, but Jesus affirms He is not alone because the Father remains with Him, highlighting divine support amidst abandonment.",
+          "verseReference": "John 16:31-32",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "john-16-quiz",
+      "tags": [
+        "john",
+        "chapter-16",
+        "john",
+        "bible-quiz",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "john-16-theological",
+      "title": "John Chapter 16 Quiz - Theological Level",
+      "description": "Deep biblical theology from John Chapter 16 that unites all believers. Explore foundational truths about God, creation, and humanity.",
+      "type": "chapter",
+      "book": "John",
+      "chapter": 16,
+      "questions": [
+        {
+          "id": "john-16-theological-q1",
+          "question": "According to John 16, why will believers be put out of the synagogues and even killed?",
+          "type": "multiple-choice",
+          "options": [
+            "Because they have not known the Father nor Jesus",
+            "Because they reject the law of Moses",
+            "Because they preach a false gospel",
+            "Because they refuse to pay taxes"
+          ],
+          "correctAnswer": "Because they have not known the Father nor Jesus",
+          "explanation": "John 16:2-3 explains that believers will face persecution because those who do not know the Father or Jesus will oppose them. This aligns with the consistent biblical theme of the world rejecting God's people (Psalm 37:12, Matthew 10:22, 2 Timothy 3:12, 1 John 3:13).",
+          "verseReference": "John 16:2-3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-theological-q2",
+          "question": "What is the purpose of Jesus telling his disciples about these persecutions beforehand?",
+          "type": "multiple-choice",
+          "options": [
+            "So they would not be offended",
+            "So they would avoid trouble",
+            "So they could defend themselves",
+            "So they could flee to another country"
+          ],
+          "correctAnswer": "So they would not be offended",
+          "explanation": "John 16:1 states that Jesus spoke these things so that the disciples would not be offended. This preparation helps believers endure hardships with faith (Isaiah 41:10, Romans 5:3-5, 1 Peter 4:12-13, 2 Corinthians 12:9-10).",
+          "verseReference": "John 16:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-theological-q3",
+          "question": "Why is it expedient for Jesus to go away according to John 16?",
+          "type": "multiple-choice",
+          "options": [
+            "So the Comforter (Holy Spirit) may come",
+            "So He can avoid His enemies",
+            "So He can rest",
+            "So He can appoint new leaders"
+          ],
+          "correctAnswer": "So the Comforter (Holy Spirit) may come",
+          "explanation": "John 16:7 teaches that Jesus must depart so the Comforter (Holy Spirit) can come to guide believers. This is consistent with Jesus’ promise to send the Spirit (John 14:16-17), and the Spirit’s work in convicting the world (John 16:8), empowering the Church (Acts 1:8), and glorifying Christ (John 16:14).",
+          "verseReference": "John 16:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-theological-q4",
+          "question": "What three things will the Spirit of Truth reprove the world of?",
+          "type": "multiple-choice",
+          "options": [
+            "Sin, righteousness, and judgment",
+            "Love, faith, and hope",
+            "Law, prophets, and gospel",
+            "Peace, grace, and mercy"
+          ],
+          "correctAnswer": "Sin, righteousness, and judgment",
+          "explanation": "John 16:8 states the Spirit will convict the world of sin (because they do not believe in Jesus), righteousness (because Jesus goes to the Father), and judgment (because the prince of this world is judged). This aligns with Scriptural teaching on conviction (Isaiah 59:2, Romans 3:23, Hebrews 9:27, Revelation 20:11-15).",
+          "verseReference": "John 16:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-theological-q5",
+          "question": "Why is the world guilty of sin according to the Spirit’s reproving?",
+          "type": "multiple-choice",
+          "options": [
+            "Because they believe not on Jesus",
+            "Because they break the law",
+            "Because they worship idols",
+            "Because they are proud"
+          ],
+          "correctAnswer": "Because they believe not on Jesus",
+          "explanation": "John 16:9 clearly states sin is reproved because people do not believe in Jesus. Faith in Christ is foundational for salvation (John 3:18, Romans 10:9, Ephesians 2:8-9, 1 John 5:1).",
+          "verseReference": "John 16:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-theological-q6",
+          "question": "How does Jesus describe the Spirit of Truth’s manner of speaking?",
+          "type": "multiple-choice",
+          "options": [
+            "He shall not speak of himself, but what he hears",
+            "He will speak only in tongues",
+            "He will speak only to the priests",
+            "He will speak in riddles and proverbs"
+          ],
+          "correctAnswer": "He shall not speak of himself, but what he hears",
+          "explanation": "John 16:13 explains the Spirit speaks not on His own authority but conveys what He hears from the Father and Son. This highlights the Trinitarian unity and the Spirit’s role as guide (Isaiah 11:2, John 14:26, 1 Corinthians 2:10-13, Hebrews 1:1-2).",
+          "verseReference": "John 16:13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-theological-q7",
+          "question": "What will the Spirit of Truth do concerning Jesus, according to John 16?",
+          "type": "multiple-choice",
+          "options": [
+            "He shall glorify Jesus",
+            "He shall replace Jesus",
+            "He shall rebuke Jesus",
+            "He shall teach a new gospel"
+          ],
+          "correctAnswer": "He shall glorify Jesus",
+          "explanation": "John 16:14 states the Spirit will glorify Jesus by taking from what is His and showing it to believers. This is consistent with Jesus’ exaltation and the Spirit’s role in magnifying Christ (Luke 24:26, Acts 2:33, Philippians 2:9-11, Hebrews 1:3).",
+          "verseReference": "John 16:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-theological-q8",
+          "question": "What does Jesus mean by 'A little while, and ye shall not see me; and again, a little while, and ye shall see me'?",
+          "type": "multiple-choice",
+          "options": [
+            "He will soon die and then rise again",
+            "He will go on a journey and return soon",
+            "He will become invisible for a time",
+            "He will be imprisoned and released"
+          ],
+          "correctAnswer": "He will soon die and then rise again",
+          "explanation": "John 16:16 and following verses show Jesus predicting His death (absence) and resurrection (return). This fits the gospel narrative of the Passion and Resurrection (Isaiah 53, Psalm 16:10, Luke 24:6-7, 1 Corinthians 15:3-4).",
+          "verseReference": "John 16:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-theological-q9",
+          "question": "How does Jesus describe the sorrow and joy his disciples will experience?",
+          "type": "multiple-choice",
+          "options": [
+            "Their sorrow will be turned into joy",
+            "They will have sorrow without joy",
+            "They will have joy without sorrow",
+            "Their sorrow will last forever"
+          ],
+          "correctAnswer": "Their sorrow will be turned into joy",
+          "explanation": "John 16:20-22 uses the metaphor of childbirth to explain that though disciples will sorrow, it will turn into lasting joy after Jesus’ resurrection. This reflects biblical themes of suffering leading to glory (Psalm 30:5, Romans 8:18, James 1:2-4, 1 Peter 1:6-8).",
+          "verseReference": "John 16:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-theological-q10",
+          "question": "According to John 16, how will believers pray after Jesus' resurrection?",
+          "type": "multiple-choice",
+          "options": [
+            "They will ask the Father in Jesus' name",
+            "They will pray only in secret",
+            "They will pray through angels",
+            "They will pray without faith"
+          ],
+          "correctAnswer": "They will ask the Father in Jesus' name",
+          "explanation": "John 16:23-24 teaches believers will ask the Father directly in Jesus' name, receiving answers to complete their joy. This is a central New Testament doctrine on prayer (John 14:13-14, Romans 8:26-27, Ephesians 2:18, Hebrews 4:16).",
+          "verseReference": "John 16:23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-theological-q11",
+          "question": "What is the reason Jesus gives for the Father’s love toward believers?",
+          "type": "multiple-choice",
+          "options": [
+            "Because they have loved Jesus and believed He came from God",
+            "Because they keep the law perfectly",
+            "Because they are wealthy and generous",
+            "Because they fast and pray often"
+          ],
+          "correctAnswer": "Because they have loved Jesus and believed He came from God",
+          "explanation": "John 16:27 affirms the Father loves believers because they have loved Jesus and believed in His divine origin. This reflects the biblical principle of faith and love as foundational to relationship with God (Deuteronomy 7:7, John 3:16, Romans 5:5, 1 John 4:10-11).",
+          "verseReference": "John 16:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-theological-q12",
+          "question": "What assurance does Jesus give about His knowledge and origin?",
+          "type": "multiple-choice",
+          "options": [
+            "He knows all things and came forth from God",
+            "He is limited in knowledge but sent by God",
+            "He is a prophet but not divine",
+            "He learned from the elders"
+          ],
+          "correctAnswer": "He knows all things and came forth from God",
+          "explanation": "John 16:30 shows the disciples affirm Jesus' divine knowledge and origin. The full deity of Christ is central to biblical doctrine (Isaiah 9:6, Colossians 2:9, Hebrews 1:3, John 1:1-3).",
+          "verseReference": "John 16:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-theological-q13",
+          "question": "What does Jesus say will happen to the disciples at the coming hour?",
+          "type": "multiple-choice",
+          "options": [
+            "They will be scattered and leave Him alone",
+            "They will be crowned kings",
+            "They will build a great temple",
+            "They will defeat all their enemies"
+          ],
+          "correctAnswer": "They will be scattered and leave Him alone",
+          "explanation": "John 16:32 predicts the disciples’ scattering at Jesus’ arrest, fulfilling prophecy and illustrating human weakness (Zechariah 13:7, Mark 14:50, Matthew 26:31, Luke 22:31-34).",
+          "verseReference": "John 16:32",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-theological-q14",
+          "question": "What final encouragement does Jesus give to His disciples about peace and tribulation?",
+          "type": "multiple-choice",
+          "options": [
+            "In Him they have peace despite tribulation, and He has overcome the world",
+            "They will have no peace until the world ends",
+            "Peace will come only after all enemies are defeated",
+            "Tribulation means God has abandoned them"
+          ],
+          "correctAnswer": "In Him they have peace despite tribulation, and He has overcome the world",
+          "explanation": "John 16:33 concludes with Jesus assuring peace in Him amid worldly tribulation, emphasizing His victory over evil. This encouragement is echoed in Psalm 46:1-3, Romans 8:37-39, 2 Timothy 4:18, Revelation 21:4.",
+          "verseReference": "John 16:33",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-16-theological-q15",
+          "question": "Why did Jesus initially refrain from telling the disciples many things, according to this chapter?",
+          "type": "multiple-choice",
+          "options": [
+            "Because they could not bear them yet",
+            "Because He was afraid",
+            "Because He was unsure",
+            "Because He was waiting for a sign"
+          ],
+          "correctAnswer": "Because they could not bear them yet",
+          "explanation": "John 16:12 explains Jesus had more to say but the disciples were not ready. This shows progressive revelation and the Spirit’s role in guiding believers into full truth (1 Corinthians 3:1-3, Hebrews 5:11-14, Luke 24:45, John 14:26).",
+          "verseReference": "John 16:12",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "john-16-quiz",
+      "tags": [
+        "john",
+        "chapter-16",
+        "john",
+        "bible-quiz",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}
