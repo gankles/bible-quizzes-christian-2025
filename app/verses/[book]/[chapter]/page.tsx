@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getBookBySlug } from "@/lib/bibleData";
@@ -15,6 +16,17 @@ interface ChapterPageProps {
     params: {
         book: string;
         chapter: string;
+    };
+}
+
+export async function generateMetadata({ params }: ChapterPageProps): Promise<Metadata> {
+    const { book, chapter } = params;
+    const bookData = getBookBySlug(book);
+    const bookName = bookData?.name || book;
+    return {
+        title: `${bookName} Chapter ${chapter} - Verse by Verse Study | Bible Maximum`,
+        description: `Study ${bookName} Chapter ${chapter} verse by verse. Click any verse for in-depth cross-references, word studies, and commentary.`,
+        alternates: { canonical: `/verses/${book}/${chapter}` },
     };
 }
 

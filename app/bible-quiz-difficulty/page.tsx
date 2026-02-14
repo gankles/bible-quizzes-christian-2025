@@ -4,6 +4,7 @@ import ComingSoon from '@/components/ComingSoon';
 export const metadata: Metadata = {
   title: 'Bible Quiz Difficulty Levels - Coming Soon | Bible Maximum',
   description: 'Choose your Bible quiz difficulty level. Easy, medium, and hard quizzes coming soon.',
+  alternates: { canonical: '/bible-quiz-difficulty' },
 };
 
 export default function BibleQuizDifficultyPage() {

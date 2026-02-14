@@ -16,6 +16,7 @@ import {
 export const metadata = {
     title: 'Bible Lexicon | 14,000+ Greek & Hebrew Word Studies with Strong\'s Concordance | Abbott-Smith, LSJ & BDB Definitions | Scripture References | Bible Maximum',
     description: 'Unlock the original languages of Scripture. Explore Strong\'s concordance, theological insights, and deep word studies for every Greek and Hebrew term in the Bible.',
+    alternates: { canonical: '/lexicon' },
 }
 
 export const revalidate = 86400 // 24 hours

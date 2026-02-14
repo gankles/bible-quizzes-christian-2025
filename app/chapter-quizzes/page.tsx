@@ -4,6 +4,7 @@ import ComingSoon from '@/components/ComingSoon';
 export const metadata: Metadata = {
   title: 'Chapter Quizzes - Coming Soon | Bible Maximum',
   description: 'Individual chapter quizzes for every chapter in the Bible. Currently focusing on Genesis.',
+  alternates: { canonical: '/chapter-quizzes' },
 };
 
 export default function ChapterQuizzesPage() {

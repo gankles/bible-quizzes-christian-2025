@@ -31,7 +31,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         if (data) {
             return {
                 title: `${data.verse1.bookName} ${data.verse1.chapter}:${data.verse1.verse} and ${data.verse2.bookName} ${data.verse2.chapter}:${data.verse2.verse} Synergy`,
-                description: `Deep theological comparison between ${data.verse1.bookName} and ${data.verse2.bookName}.`
+                description: `Deep theological comparison between ${data.verse1.bookName} and ${data.verse2.bookName}.`,
+                alternates: { canonical: `/verses/${slug}` },
             }
         }
     }
@@ -41,7 +42,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     if (bookData) {
         return {
             title: `${bookData.name} - Study & Analysis Hub | Bible Maximum`,
-            description: `Complete study guide for the Book of ${bookData.name}. Featuring high-resolution chapter mappings and scholarly analysis.`
+            description: `Complete study guide for the Book of ${bookData.name}. Featuring high-resolution chapter mappings and scholarly analysis.`,
+            alternates: { canonical: `/verses/${slug}` },
         }
     }
 

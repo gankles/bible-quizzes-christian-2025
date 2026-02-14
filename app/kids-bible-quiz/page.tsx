@@ -4,6 +4,7 @@ import ComingSoon from '@/components/ComingSoon';
 export const metadata: Metadata = {
   title: 'Kids Bible Quiz - Coming Soon | Bible Maximum',
   description: 'Fun and engaging Bible quizzes designed specifically for children. Coming soon.',
+  alternates: { canonical: '/kids-bible-quiz' },
 };
 
 export default function KidsBibleQuizPage() {

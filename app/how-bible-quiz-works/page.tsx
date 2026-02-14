@@ -4,6 +4,7 @@ import ComingSoon from '@/components/ComingSoon';
 export const metadata: Metadata = {
   title: 'How Bible Quiz Works - Coming Soon | Bible Maximum',
   description: 'Learn how our Bible quizzes work and how to get the most out of your study time. Coming soon.',
+  alternates: { canonical: '/how-bible-quiz-works' },
 };
 
 export default function HowBibleQuizWorksPage() {

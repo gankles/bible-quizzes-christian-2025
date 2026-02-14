@@ -30,7 +30,8 @@ export async function generateMetadata({ params }: CharacterPageProps): Promise<
         const [name1, name2] = parts.map(p => p.charAt(0).toUpperCase() + p.slice(1).replace(/-/g, ' '));
         return {
             title: `${name1} and ${name2}: A Biblical Comparison & Study | Relationship, Shared History & Theological Significance | Bible Maximum`,
-            description: `Explore the relationship, shared history, and theological significance of ${name1} and ${name2}. Compare their roles, key events, and lessons for believers today.`
+            description: `Explore the relationship, shared history, and theological significance of ${name1} and ${name2}. Compare their roles, key events, and lessons for believers today.`,
+            alternates: { canonical: `/characters/${slug}` },
         };
     }
 

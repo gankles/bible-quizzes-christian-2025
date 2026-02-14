@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Privacy Policy | Bible Maximum',
   description: 'Privacy policy for Bible Maximum. Learn how we handle your data and protect your privacy.',
+  alternates: { canonical: '/privacy-policy' },
 };
 
 export default function PrivacyPolicyPage() {

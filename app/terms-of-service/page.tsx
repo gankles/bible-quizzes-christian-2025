@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Terms of Service | Bible Maximum',
   description: 'Terms of service for Bible Maximum. Understand the guidelines for using our Bible quizzes and study tools.',
+  alternates: { canonical: '/terms-of-service' },
 };
 
 export default function TermsOfServicePage() {

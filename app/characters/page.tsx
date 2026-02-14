@@ -5,6 +5,7 @@ import { CharacterGrid } from '@/components/CharacterGrid';
 export const metadata: Metadata = {
     title: 'Biblical Characters | Biographies of Every Person in the Bible | Key Life Lessons, Scripture References & Study Notes | Bible Maximum',
     description: 'Study the lives of biblical figures from Abraham to Paul. Discovery biographies, key life lessons, and every scripture reference for thousands of Bible characters.',
+    alternates: { canonical: '/characters' },
 };
 
 export default async function CharactersPage() {

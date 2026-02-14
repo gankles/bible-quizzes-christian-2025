@@ -23,6 +23,7 @@ export const metadata: Metadata = {
             "Explore in-depth word studies of original Greek and Hebrew Bible words. Discover the meaning, etymology, and theological significance of key biblical terms.",
         type: 'website',
     },
+    alternates: { canonical: '/word-studies' },
 };
 
 export default async function WordStudiesPage() {

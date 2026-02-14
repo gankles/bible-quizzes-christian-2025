@@ -4,6 +4,7 @@ import ComingSoon from '@/components/ComingSoon';
 export const metadata: Metadata = {
   title: 'Romans 8 Quiz - Coming Soon | Bible Maximum',
   description: 'Test your knowledge of life in the Spirit and God\'s love in Christ Jesus. Coming soon.',
+  alternates: { canonical: '/romans-8-quiz' },
 };
 
 export default function Romans8QuizPage() {

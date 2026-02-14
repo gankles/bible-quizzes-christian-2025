@@ -47,6 +47,7 @@ export async function generateMetadata({ params }: ComparePageProps): Promise<Me
         title,
         description,
         openGraph: { title, description, type: 'article' },
+        alternates: { canonical: `/lexicon/compare/${comparison}` },
     };
 }
 

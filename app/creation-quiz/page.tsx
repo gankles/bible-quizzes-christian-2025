@@ -4,6 +4,7 @@ import ComingSoon from '@/components/ComingSoon';
 export const metadata: Metadata = {
   title: 'Creation Quiz - Coming Soon | Bible Maximum',
   description: 'Test your knowledge of biblical creation from Genesis. Coming soon.',
+  alternates: { canonical: '/creation-quiz' },
 };
 
 export default function CreationQuizPage() {

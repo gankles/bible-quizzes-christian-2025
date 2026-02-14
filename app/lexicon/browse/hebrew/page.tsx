@@ -13,6 +13,7 @@ import {
 export const metadata: Metadata = {
     title: 'Hebrew Lexicon | Browse All 8,600+ Old Testament Words with Strong\'s Numbers | Definitions from Brown-Driver-Briggs | Bible Maximum',
     description: 'Explore every Hebrew word in the Old Testament. A complete, paginated index of the Hebrew Lexicon with Strong\'s numbers, definitions, and usage stats.',
+    alternates: { canonical: '/lexicon/browse/hebrew' },
 };
 
 export default async function HebrewLexiconBrowsePage({

@@ -4,6 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'About Bible Maximum | Bible Quizzes & Word Studies',
   description: 'Bible Maximum provides free Bible quizzes, Greek and Hebrew lexicon tools, and verse-by-verse study resources to help Christians grow in biblical knowledge.',
+  alternates: { canonical: '/about' },
 };
 
 export default function AboutPage() {

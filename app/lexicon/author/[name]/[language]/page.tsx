@@ -19,6 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ name: str
     return {
         title: `${authorName}'s ${language.charAt(0).toUpperCase() + language.slice(1)} Vocabulary | Bible Maximum`,
         description: `Analyze the high-frequency vocabulary and linguistic style of ${authorName} in the original ${language} text. Discover their most emphasized theological terms.`,
+        alternates: { canonical: `/lexicon/author/${name}/${language}` },
     };
 }
 

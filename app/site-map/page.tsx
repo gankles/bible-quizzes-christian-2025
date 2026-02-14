@@ -4,6 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Sitemap | Bible Maximum',
   description: 'Browse all pages on Bible Maximum including Bible quizzes, lexicon tools, verse studies, and more.',
+  alternates: { canonical: '/site-map' },
 };
 
 const OT_BOOKS = [

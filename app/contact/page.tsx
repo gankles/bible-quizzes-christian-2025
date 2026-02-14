@@ -4,6 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Contact Us | Bible Maximum',
   description: 'Get in touch with the Bible Maximum team. Report issues, suggest improvements, or ask questions about our Bible quizzes and study tools.',
+  alternates: { canonical: '/contact' },
 };
 
 export default function ContactPage() {

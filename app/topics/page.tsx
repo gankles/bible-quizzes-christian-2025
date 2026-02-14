@@ -5,6 +5,7 @@ import { TopicGrid } from '@/components/TopicGrid';
 export const metadata: Metadata = {
     title: 'Bible Verses by Topic | Love, Faith, Hope, Forgiveness & Hundreds More Themes | Bible Maximum',
     description: 'Find every Bible verse on topics like Love, Faith, Hope, and Forgiveness. Browse thousands of biblical themes categorized for deep study and daily guidance.',
+    alternates: { canonical: '/topics' },
 };
 
 export default async function TopicsPage() {

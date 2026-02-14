@@ -4,6 +4,7 @@ import ComingSoon from '@/components/ComingSoon';
 export const metadata: Metadata = {
   title: 'Psalm 23 Quiz - Coming Soon | Bible Maximum',
   description: 'Test your knowledge of the beloved Shepherd\'s Psalm. Coming soon.',
+  alternates: { canonical: '/psalms-23-quiz' },
 };
 
 export default function Psalms23QuizPage() {

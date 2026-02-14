@@ -16,9 +16,11 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://biblemaximum.com'),
   title: "Bible Quiz & Study | Free Quizzes for All 66 Books with Answers & Explanations | Greek & Hebrew Lexicon Included | Bible Maximum",
   description: "Comprehensive Bible quizzes for all 66 books with 16-25 questions each. Test your biblical knowledge with interactive quizzes covering Old and New Testament. Perfect for Bible study groups, Sunday school, and personal growth.",
   keywords: "bible quiz, scripture test, bible knowledge, christian quiz, bible study, old testament, new testament, bible trivia",
+  alternates: { canonical: '/' },
 };
 
 export default function RootLayout({

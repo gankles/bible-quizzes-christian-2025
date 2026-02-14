@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     description: 'Test your knowledge of Genesis with chapter-by-chapter quizzes covering Creation, the Patriarchs, and Joseph in Egypt.',
     type: 'website',
   },
+  alternates: { canonical: '/genesis-chapters' },
 };
 
 export default function GenesisChaptersPage() {

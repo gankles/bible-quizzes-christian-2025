@@ -525,6 +525,7 @@ export function generateLexiconMetadata(entry: any) {
             card: 'summary_large_image',
             title,
             description,
-        }
+        },
+        alternates: { canonical: `/lexicon/${entry.strongs}` },
     };
 }

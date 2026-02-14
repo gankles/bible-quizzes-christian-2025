@@ -35,6 +35,7 @@ export async function generateMetadata({ params }: ConceptPageProps): Promise<Me
             description: concept.description,
             type: 'article',
         },
+        alternates: { canonical: `/lexicon/concept/${slug}` },
     };
 }
 

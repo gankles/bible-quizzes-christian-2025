@@ -4,6 +4,7 @@ import ComingSoon from '@/components/ComingSoon';
 export const metadata: Metadata = {
   title: 'John Chapter 3 Quiz - Coming Soon | Bible Maximum',
   description: 'Test your knowledge of John 3, including the famous conversation with Nicodemus. Coming soon.',
+  alternates: { canonical: '/john-3-quiz' },
 };
 
 export default function John3QuizPage() {

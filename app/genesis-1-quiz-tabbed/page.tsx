@@ -11,6 +11,7 @@ export const metadata: Metadata = {
     description: 'Choose your difficulty level: Easy, Medium, Hard, or Theological. Perfect for beginners to seminary students.',
     type: 'website',
   },
+  alternates: { canonical: '/genesis-1-quiz-tabbed' },
   twitter: {
     card: 'summary_large_image',
     title: 'Genesis Chapter 1 Quiz - Multi-Level Learning',

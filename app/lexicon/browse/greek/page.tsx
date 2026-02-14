@@ -14,6 +14,7 @@ import {
 export const metadata: Metadata = {
     title: 'Greek Lexicon | Browse All 5,600+ New Testament Words with Strong\'s Numbers | Definitions from Abbott-Smith & Liddell-Scott-Jones | Bible Maximum',
     description: 'Explore every Greek word in the New Testament. A complete, paginated index of the Greek Lexicon with Strong\'s numbers, definitions, and usage stats.',
+    alternates: { canonical: '/lexicon/browse/greek' },
 };
 
 export default async function GreekLexiconBrowsePage({
