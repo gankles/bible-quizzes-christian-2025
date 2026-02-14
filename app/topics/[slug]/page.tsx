@@ -18,30 +18,32 @@ export async function generateStaticParams() {
 }
 
 interface TopicPageProps {
-    params: {
+    params: Promise<{
         slug: string;
-    };
+    }>;
 }
 
 export async function generateMetadata({ params }: TopicPageProps): Promise<Metadata> {
-    const topic = await getCachedTopic(params.slug);
+    const { slug } = await params;
+    const topic = await getCachedTopic(slug);
     if (!topic) return {};
 
     return generatePageMetadata({
         type: 'topic',
         data: topic,
-        url: `/topics/${params.slug}`,
+        url: `/topics/${slug}`,
     });
 }
 
 export default async function TopicDetailPage({ params }: TopicPageProps) {
-    const topic = await getCachedTopic(params.slug, true);
+    const { slug } = await params;
+    const topic = await getCachedTopic(slug, true);
 
     if (!topic) {
         notFound();
     }
 
-    const url = `/topics/${params.slug}`;
+    const url = `/topics/${slug}`;
     trackPageView(url, 'topic').catch(err => console.error('Analytics error:', err));
 
     const schemas = generateSchema({
@@ -56,7 +58,7 @@ export default async function TopicDetailPage({ params }: TopicPageProps) {
 
     const crossLinks = getCrossPillarLinks({
         name: topic.name,
-        slug: topic.slug || params.slug,
+        slug: topic.slug || slug,
         category: topic.category || '',
         verseRefs: topic.verseRefs || [],
         keywords: topic.keywords || [],

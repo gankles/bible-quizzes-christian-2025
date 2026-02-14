@@ -14,7 +14,7 @@ import ChapterCommandments from '@/components/ChapterCommandments';
 import { getCommandmentsByChapter } from '@/lib/commandments-data';
 
 interface PageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 // Section color palette for book outlines
@@ -73,10 +73,11 @@ export async function generateStaticParams() {
 export const dynamicParams = true;
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const url = `/${params.slug}`;
+  const { slug } = await params;
+  const url = `/${slug}`;
 
   // Check for book chapters page (e.g., "exodus-chapters")
-  const chaptersBook = parseChaptersSlug(params.slug);
+  const chaptersBook = parseChaptersSlug(slug);
   if (chaptersBook) {
     const meta = BOOK_METADATA[chaptersBook];
     const bookName = meta?.name || BOOK_NAMES[chaptersBook] || chaptersBook;
@@ -104,7 +105,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   // Check for book quiz first (e.g., "genesis-quiz")
-  const bookSlug = parseBookQuizSlug(params.slug);
+  const bookSlug = parseBookQuizSlug(slug);
   if (bookSlug) {
     const bookQuiz = loadBookQuiz(bookSlug);
     if (bookQuiz) {
@@ -124,7 +125,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   // Check for generic quiz (e.g., "ten-commandments-quiz")
-  const genericQuiz = loadGenericQuiz(params.slug);
+  const genericQuiz = loadGenericQuiz(slug);
   if (genericQuiz) {
     const title = `${genericQuiz.title} | Free Bible Quiz with Answers and Verse Explanations | Bible Maximum`;
     const description = genericQuiz.description || `Take the ${genericQuiz.title} — ${genericQuiz.totalQuestions} questions with instant results.`;
@@ -139,7 +140,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   // Check for chapter quiz (e.g., "genesis-1-quiz")
-  const parsed = parseQuizSlug(params.slug);
+  const parsed = parseQuizSlug(slug);
   if (!parsed) return {};
 
   const bookName = BOOK_NAMES[parsed.book] || parsed.book;
@@ -191,9 +192,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-export default function DynamicPage({ params }: PageProps) {
+export default async function DynamicPage({ params }: PageProps) {
+  const { slug } = await params;
   // Check for book chapters page (e.g., "exodus-chapters")
-  const chaptersBook = parseChaptersSlug(params.slug);
+  const chaptersBook = parseChaptersSlug(slug);
   if (chaptersBook) {
     const meta = BOOK_METADATA[chaptersBook];
     const bookName = meta?.name || BOOK_NAMES[chaptersBook] || chaptersBook;
@@ -238,7 +240,7 @@ export default function DynamicPage({ params }: PageProps) {
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://biblemaximum.com' },
           { '@type': 'ListItem', position: 2, name: 'Bible Quizzes', item: 'https://biblemaximum.com/bible-quizzes' },
-          { '@type': 'ListItem', position: 3, name: `${bookName} Chapters`, item: `https://biblemaximum.com/${params.slug}` },
+          { '@type': 'ListItem', position: 3, name: `${bookName} Chapters`, item: `https://biblemaximum.com/${slug}` },
         ],
       },
     };
@@ -408,32 +410,32 @@ export default function DynamicPage({ params }: PageProps) {
   }
 
   // Check for book quiz first (e.g., "genesis-quiz")
-  const bookSlug = parseBookQuizSlug(params.slug);
+  const bookSlug = parseBookQuizSlug(slug);
   if (bookSlug) {
     const bookQuiz = loadBookQuiz(bookSlug);
     if (bookQuiz) {
       return (
         <QuizPage
           quiz={bookQuiz}
-          url={`https://biblemaximum.com/${params.slug}`}
+          url={`https://biblemaximum.com/${slug}`}
         />
       );
     }
   }
 
   // Check for generic quiz (e.g., "ten-commandments-quiz")
-  const genericQuiz = loadGenericQuiz(params.slug);
+  const genericQuiz = loadGenericQuiz(slug);
   if (genericQuiz) {
     return (
       <QuizPage
         quiz={genericQuiz}
-        url={`https://biblemaximum.com/${params.slug}`}
+        url={`https://biblemaximum.com/${slug}`}
       />
     );
   }
 
   // Check for chapter quiz (e.g., "genesis-1-quiz")
-  const parsed = parseQuizSlug(params.slug);
+  const parsed = parseQuizSlug(slug);
   if (!parsed) notFound();
 
   // Try tabbed quiz first (AI-generated)
@@ -447,7 +449,7 @@ export default function DynamicPage({ params }: PageProps) {
       <>
         <TabbedQuizPage
           tabbedQuiz={tabbedQuiz}
-          url={`https://biblemaximum.com/${params.slug}`}
+          url={`https://biblemaximum.com/${slug}`}
         />
         <ChapterCommandments
           commandments={chapterCommandments}
@@ -466,7 +468,7 @@ export default function DynamicPage({ params }: PageProps) {
     <>
       <QuizPage
         quiz={quiz}
-        url={`https://biblemaximum.com/${params.slug}`}
+        url={`https://biblemaximum.com/${slug}`}
       />
       <ChapterCommandments
         commandments={chapterCommandments}

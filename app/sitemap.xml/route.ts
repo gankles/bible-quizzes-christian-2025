@@ -1,6 +1,8 @@
 import { NextResponse } from 'next/server';
 import { generateAllUrls, groupUrlsByPattern, splitIntoChunks, generateSitemapIndex } from '@/lib/sitemap-generator';
 
+export const dynamic = 'force-dynamic';
+
 export async function GET() {
   try {
     // Generate all URLs

@@ -20,13 +20,14 @@ import {
 } from '@/components/icons'
 
 interface LexiconPageProps {
-    params: {
+    params: Promise<{
         strongs: string
-    }
+    }>
 }
 
 export async function generateMetadata({ params }: LexiconPageProps): Promise<Metadata> {
-    const entry = await getLexiconEntry(params.strongs)
+    const { strongs } = await params
+    const entry = await getLexiconEntry(strongs)
     if (!entry) return { title: 'Word Study Not Found' }
 
     return generateLexiconMetadata(entry)
@@ -38,7 +39,8 @@ export async function generateStaticParams() {
 }
 
 export default async function LexiconDetailPage({ params }: LexiconPageProps) {
-    const entry = await getLexiconEntry(params.strongs)
+    const { strongs } = await params
+    const entry = await getLexiconEntry(strongs)
 
     if (!entry) {
         notFound()

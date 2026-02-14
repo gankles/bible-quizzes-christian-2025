@@ -5,10 +5,10 @@ import Link from 'next/link'
 import topicsData from '@/data/topics.json'
 
 interface Props {
-    params: {
+    params: Promise<{
         slug: string
         book: string
-    }
+    }>
 }
 
 export async function generateStaticParams() {
@@ -17,8 +17,9 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-    const topicName = params.slug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())
-    const bookName = params.book.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())
+    const { slug, book } = await params
+    const topicName = slug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())
+    const bookName = book.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())
 
     return {
         title: `${topicName} in ${bookName} - Bible Verses & Study Guide | Bible Maximum`,
@@ -27,9 +28,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function TopicInBookPage({ params }: Props) {
+    const { slug, book } = await params
     const [data, bookData] = await Promise.all([
-        getTopicInBook(params.slug, params.book),
-        getBook(params.book)
+        getTopicInBook(slug, book),
+        getBook(book)
     ])
 
     if (!data || !bookData) notFound()
@@ -53,7 +55,7 @@ export default async function TopicInBookPage({ params }: Props) {
                         </li>
                         <li className="text-gray-400 mx-2">/</li>
                         <li>
-                            <Link href={`/topics/${params.slug}`} className="text-blue-600 hover:underline">{topicName}</Link>
+                            <Link href={`/topics/${slug}`} className="text-blue-600 hover:underline">{topicName}</Link>
                         </li>
                         <li className="text-gray-400 mx-2">/</li>
                         <li className="text-gray-600">{bookName}</li>
@@ -140,7 +142,7 @@ export default async function TopicInBookPage({ params }: Props) {
                         <p className="text-blue-100 text-sm">Take quizzes and explore every chapter in depth.</p>
                     </div>
                     <Link
-                        href={`/${params.book}-chapters`}
+                        href={`/${book}-chapters`}
                         className="whitespace-nowrap px-6 py-3 bg-white text-blue-600 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
                     >
                         {bookName} Chapters
@@ -151,7 +153,7 @@ export default async function TopicInBookPage({ params }: Props) {
                 <section className="bg-gray-50 border border-gray-200 rounded-xl p-6">
                     <h3 className="text-lg font-bold text-gray-900 mb-3">Related Resources</h3>
                     <div className="grid gap-2 sm:grid-cols-2">
-                        <Link href={`/topics/${params.slug}`} className="text-blue-600 hover:underline text-sm">
+                        <Link href={`/topics/${slug}`} className="text-blue-600 hover:underline text-sm">
                             All {topicName} Verses
                         </Link>
                         <Link href="/topics" className="text-blue-600 hover:underline text-sm">Browse All Topics</Link>
@@ -172,7 +174,7 @@ export default async function TopicInBookPage({ params }: Props) {
                             '@type': 'Article',
                             headline: `${topicName} in ${bookName}`,
                             description: `${frequency} Bible verses about ${topicName} in the Book of ${bookName}`,
-                            url: `https://biblemaximum.com/topics/${params.slug}/in/${params.book}`,
+                            url: `https://biblemaximum.com/topics/${slug}/in/${book}`,
                             isPartOf: {
                                 '@type': 'CollectionPage',
                                 name: `Bible Topics`,

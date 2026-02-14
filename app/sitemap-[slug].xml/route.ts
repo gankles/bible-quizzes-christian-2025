@@ -1,16 +1,15 @@
 import { NextResponse } from 'next/server';
 import { generateAllUrls, groupUrlsByPattern, splitIntoChunks, generateSitemapXml } from '@/lib/sitemap-generator';
 
+// Never statically generate — serve dynamically with CDN caching
+export const dynamic = 'force-dynamic';
+
 export async function GET(
   request: Request,
-  context: any
+  { params }: { params: { slug: string } }
 ) {
   try {
-    // Handle both Next.js 14 (plain object) and 15+ (Promise) params
-    const resolvedParams = context?.params
-      ? (typeof context.params.then === 'function' ? await context.params : context.params)
-      : null;
-    const slug = resolvedParams?.slug;
+    const slug = params?.slug;
 
     if (!slug) {
       return new NextResponse('Sitemap slug required', { status: 400 });
@@ -45,21 +44,5 @@ export async function GET(
   } catch (error) {
     console.error('Error generating sitemap:', error);
     return new NextResponse('Error generating sitemap', { status: 500 });
-  }
-}
-
-// Generate static params for all possible sitemap chunks
-export async function generateStaticParams() {
-  try {
-    const allUrls = generateAllUrls();
-    const groupedUrls = groupUrlsByPattern(allUrls);
-    const chunks = splitIntoChunks(groupedUrls, 5000);
-
-    return chunks.map(chunk => ({
-      slug: chunk.name,
-    }));
-  } catch (error) {
-    console.error('Error generating static params for sitemaps:', error);
-    return [];
   }
 }

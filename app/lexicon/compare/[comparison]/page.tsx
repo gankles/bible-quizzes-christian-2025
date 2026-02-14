@@ -12,7 +12,7 @@ import {
 } from '@/components/icons';
 
 interface ComparePageProps {
-    params: { comparison: string };
+    params: Promise<{ comparison: string }>;
 }
 
 // Predefined comparisons from the hub
@@ -23,14 +23,15 @@ const COMPARISONS = [
 ];
 
 export async function generateMetadata({ params }: ComparePageProps): Promise<Metadata> {
-    const compDef = COMPARISONS.find(c => c.slug === params.comparison);
+    const { comparison } = await params;
+    const compDef = COMPARISONS.find(c => c.slug === comparison);
     if (!compDef) {
         // Try to parse the URL pattern
-        const match = params.comparison.match(/^([GH]\d+)-vs-([GH]\d+)$/i);
+        const match = comparison.match(/^([GH]\d+)-vs-([GH]\d+)$/i);
         if (!match) return { title: 'Comparison Not Found' };
     }
 
-    const match = params.comparison.match(/^([GH]\d+)-vs-([GH]\d+)$/i);
+    const match = comparison.match(/^([GH]\d+)-vs-([GH]\d+)$/i);
     if (!match) return { title: 'Comparison Not Found' };
 
     const data = await getLexiconComparison(match[1].toUpperCase(), match[2].toUpperCase());
@@ -54,7 +55,8 @@ export async function generateStaticParams() {
 }
 
 export default async function ComparisonPage({ params }: ComparePageProps) {
-    const match = params.comparison.match(/^([GH]\d+)-vs-([GH]\d+)$/i);
+    const { comparison } = await params;
+    const match = comparison.match(/^([GH]\d+)-vs-([GH]\d+)$/i);
     if (!match) notFound();
 
     const strongsA = match[1].toUpperCase();
@@ -63,7 +65,7 @@ export default async function ComparisonPage({ params }: ComparePageProps) {
     if (!data) notFound();
 
     const { entryA, entryB } = data;
-    const compDef = COMPARISONS.find(c => c.slug === params.comparison);
+    const compDef = COMPARISONS.find(c => c.slug === comparison);
 
     return (
         <div className="bg-[#FAFAF9] pb-32 min-h-screen">
@@ -245,12 +247,12 @@ export default async function ComparisonPage({ params }: ComparePageProps) {
             </section>
 
             {/* OTHER COMPARISONS */}
-            {COMPARISONS.filter(c => c.slug !== params.comparison).length > 0 && (
+            {COMPARISONS.filter(c => c.slug !== comparison).length > 0 && (
                 <section className="py-20">
                     <div className="max-w-7xl mx-auto px-6">
                         <h2 className="text-3xl font-bold text-gray-950 tracking-tighter mb-12">More Comparisons</h2>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            {COMPARISONS.filter(c => c.slug !== params.comparison).map((comp) => (
+                            {COMPARISONS.filter(c => c.slug !== comparison).map((comp) => (
                                 <Link
                                     key={comp.slug}
                                     href={`/lexicon/compare/${comp.slug}`}
@@ -288,7 +290,7 @@ export default async function ComparisonPage({ params }: ComparePageProps) {
                         publisher: { '@type': 'Organization', name: 'Bible Maximum' },
                         mainEntityOfPage: {
                             '@type': 'WebPage',
-                            '@id': `https://biblemaximum.com/lexicon/compare/${params.comparison}`
+                            '@id': `https://biblemaximum.com/lexicon/compare/${comparison}`
                         }
                     })
                 }}

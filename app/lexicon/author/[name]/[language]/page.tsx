@@ -13,16 +13,18 @@ import {
     BoltIcon
 } from '@/components/icons';
 
-export async function generateMetadata({ params }: { params: { name: string; language: string } }): Promise<Metadata> {
-    const authorName = params.name.charAt(0).toUpperCase() + params.name.slice(1);
+export async function generateMetadata({ params }: { params: Promise<{ name: string; language: string }> }): Promise<Metadata> {
+    const { name, language } = await params;
+    const authorName = name.charAt(0).toUpperCase() + name.slice(1);
     return {
-        title: `${authorName}'s ${params.language.charAt(0).toUpperCase() + params.language.slice(1)} Vocabulary | Bible Maximum`,
-        description: `Analyze the high-frequency vocabulary and linguistic style of ${authorName} in the original ${params.language} text. Discover their most emphasized theological terms.`,
+        title: `${authorName}'s ${language.charAt(0).toUpperCase() + language.slice(1)} Vocabulary | Bible Maximum`,
+        description: `Analyze the high-frequency vocabulary and linguistic style of ${authorName} in the original ${language} text. Discover their most emphasized theological terms.`,
     };
 }
 
-export default async function LexiconAuthorPage({ params }: { params: { name: string; language: string } }) {
-    const data = await getAuthorLexicon(params.name, params.language);
+export default async function LexiconAuthorPage({ params }: { params: Promise<{ name: string; language: string }> }) {
+    const { name, language } = await params;
+    const data = await getAuthorLexicon(name, language);
 
     if (!data) {
         notFound();

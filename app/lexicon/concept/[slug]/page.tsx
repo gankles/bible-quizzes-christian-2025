@@ -19,11 +19,12 @@ import {
 } from '@/components/icons';
 
 interface ConceptPageProps {
-    params: { slug: string };
+    params: Promise<{ slug: string }>;
 }
 
 export async function generateMetadata({ params }: ConceptPageProps): Promise<Metadata> {
-    const concept = await getCachedConcept(params.slug);
+    const { slug } = await params;
+    const concept = await getCachedConcept(slug);
     if (!concept) return { title: 'Concept Not Found' };
 
     return {
@@ -43,11 +44,12 @@ export async function generateStaticParams() {
 }
 
 export default async function ConceptStudyPage({ params }: ConceptPageProps) {
-    const concept = await getCachedConcept(params.slug);
+    const { slug } = await params;
+    const concept = await getCachedConcept(slug);
     if (!concept) notFound();
 
     const allConcepts = await getAllLexiconConcepts();
-    const relatedConcepts = allConcepts.filter((c: any) => c.slug !== params.slug).slice(0, 4);
+    const relatedConcepts = allConcepts.filter((c: any) => c.slug !== slug).slice(0, 4);
 
     // Separate Greek and Hebrew entries
     const greekEntries = concept.entries.filter((e: any) => e.language?.toLowerCase() === 'greek');
@@ -290,7 +292,7 @@ export default async function ConceptStudyPage({ params }: ConceptPageProps) {
                         publisher: { '@type': 'Organization', name: 'Bible Maximum' },
                         mainEntityOfPage: {
                             '@type': 'WebPage',
-                            '@id': `https://biblemaximum.com/lexicon/concept/${params.slug}`
+                            '@id': `https://biblemaximum.com/lexicon/concept/${slug}`
                         }
                     })
                 }}
