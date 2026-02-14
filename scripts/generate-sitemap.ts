@@ -2,78 +2,60 @@
 
 import fs from 'fs';
 import path from 'path';
-import { generateAllUrls, generateSitemapXml, generateSitemapIndex } from '../lib/sitemap-generator';
+import { generateAllUrls, generateSitemapXml, generateSitemapIndex, SitemapUrl } from '../lib/sitemap-generator';
 
 const PUBLIC_DIR = path.join(process.cwd(), 'public');
+const MAX_URLS_PER_SITEMAP = 5000;
+
 const urls = generateAllUrls();
 
-// Split URLs into categories for sub-sitemaps
-const staticUrls = urls.filter(u => {
-  const p = u.url.replace('https://biblemaximum.com', '');
-  return !p.includes('-chapters') && !p.match(/-\d*-?quiz$/) && !p.startsWith('/books/') && !p.startsWith('/lexicon/') && !p.startsWith('/verses/') && !p.startsWith('/chapters/') && !p.match(/^\/cross-references\/.+/) && !p.match(/^\/topics\/.+/);
-});
-
-const chapterPageUrls = urls.filter(u => u.url.includes('-chapters'));
-const bookQuizUrls = urls.filter(u => u.url.match(/-quiz$/) && !u.url.match(/-\d+-quiz$/));
-const chapterQuizUrls = urls.filter(u => u.url.match(/-\d+-quiz$/));
-const bookInfoUrls = urls.filter(u => u.url.includes('/books/'));
-const lexiconUrls = urls.filter(u => u.url.includes('/lexicon/') && !staticUrls.some(s => s.url === u.url));
-const verseUrls = urls.filter(u => u.url.includes('/verses/'));
-const chapterReadingUrls = urls.filter(u => u.url.includes('/chapters/'));
-const topicUrls = urls.filter(u => u.url.match(/\/topics\/.+/));
-const crossRefUrls = urls.filter(u => u.url.includes('/cross-references/') && !staticUrls.some(s => s.url === u.url));
-
-// Write sub-sitemaps (split verses into chunks of 10,000 for Google's 50K limit)
-const sitemaps: { name: string; urls: typeof urls }[] = [
-  { name: 'sitemap-pages.xml', urls: staticUrls },
-  { name: 'sitemap-book-chapters.xml', urls: chapterPageUrls },
-  { name: 'sitemap-book-quizzes.xml', urls: bookQuizUrls },
-  { name: 'sitemap-chapter-quizzes.xml', urls: chapterQuizUrls },
-  { name: 'sitemap-book-info.xml', urls: bookInfoUrls },
-  { name: 'sitemap-lexicon.xml', urls: lexiconUrls },
-  { name: 'sitemap-chapter-reading.xml', urls: chapterReadingUrls },
-  { name: 'sitemap-topics.xml', urls: topicUrls },
-];
-
-// Split cross-reference URLs into chunks if > 40,000
-const CROSSREF_CHUNK_SIZE = 40000;
-if (crossRefUrls.length <= CROSSREF_CHUNK_SIZE) {
-  sitemaps.push({ name: 'sitemap-cross-references.xml', urls: crossRefUrls });
-} else {
-  for (let i = 0; i < crossRefUrls.length; i += CROSSREF_CHUNK_SIZE) {
-    const chunk = crossRefUrls.slice(i, i + CROSSREF_CHUNK_SIZE);
-    const idx = Math.floor(i / CROSSREF_CHUNK_SIZE) + 1;
-    sitemaps.push({ name: `sitemap-cross-references-${idx}.xml`, urls: chunk });
-  }
+// Group URLs by their assigned group tag
+const grouped: Record<string, SitemapUrl[]> = {};
+for (const u of urls) {
+  const key = u.group || 'pages';
+  if (!grouped[key]) grouped[key] = [];
+  grouped[key].push(u);
 }
 
-// Split verse URLs into chunks if > 40,000
-const VERSE_CHUNK_SIZE = 40000;
-if (verseUrls.length <= VERSE_CHUNK_SIZE) {
-  sitemaps.push({ name: 'sitemap-verses.xml', urls: verseUrls });
-} else {
-  for (let i = 0; i < verseUrls.length; i += VERSE_CHUNK_SIZE) {
-    const chunk = verseUrls.slice(i, i + VERSE_CHUNK_SIZE);
-    const idx = Math.floor(i / VERSE_CHUNK_SIZE) + 1;
-    sitemaps.push({ name: `sitemap-verses-${idx}.xml`, urls: chunk });
-  }
-}
-
+// Generate sub-sitemaps, chunking large groups
 const sitemapNames: string[] = [];
-sitemaps.forEach(({ name, urls: sitemapUrls }) => {
-  if (sitemapUrls.length === 0) return;
-  const xml = generateSitemapXml(sitemapUrls);
-  fs.writeFileSync(path.join(PUBLIC_DIR, name), xml);
-  sitemapNames.push(name);
-});
+
+for (const [group, groupUrls] of Object.entries(grouped)) {
+  if (groupUrls.length === 0) continue;
+
+  if (groupUrls.length <= MAX_URLS_PER_SITEMAP) {
+    // Single sitemap for this group
+    const name = `sitemap-${group}.xml`;
+    fs.writeFileSync(path.join(PUBLIC_DIR, name), generateSitemapXml(groupUrls));
+    sitemapNames.push(name);
+  } else {
+    // Split into chunks
+    for (let i = 0; i < groupUrls.length; i += MAX_URLS_PER_SITEMAP) {
+      const chunk = groupUrls.slice(i, i + MAX_URLS_PER_SITEMAP);
+      const idx = Math.floor(i / MAX_URLS_PER_SITEMAP) + 1;
+      const name = `sitemap-${group}-${idx}.xml`;
+      fs.writeFileSync(path.join(PUBLIC_DIR, name), generateSitemapXml(chunk));
+      sitemapNames.push(name);
+    }
+  }
+}
 
 // Write sitemap index
 const indexXml = generateSitemapIndex(sitemapNames);
 fs.writeFileSync(path.join(PUBLIC_DIR, 'sitemap.xml'), indexXml);
 
 // Stats
-console.log(`Sitemap index generated: public/sitemap.xml`);
-console.log(`Total URLs: ${urls.length}\n`);
-sitemaps.forEach(({ name, urls: s }) => {
-  if (s.length > 0) console.log(`  ${name}: ${s.length} URLs`);
-});
+console.log(`\nSitemap index: public/sitemap.xml`);
+console.log(`Total URLs: ${urls.length.toLocaleString()}`);
+console.log(`Sub-sitemaps: ${sitemapNames.length}\n`);
+
+// Sort by URL count descending
+const stats = Object.entries(grouped)
+  .map(([group, urls]) => ({ group, count: urls.length }))
+  .sort((a, b) => b.count - a.count);
+
+for (const { group, count } of stats) {
+  const chunks = Math.ceil(count / MAX_URLS_PER_SITEMAP);
+  const suffix = chunks > 1 ? ` (${chunks} chunks)` : '';
+  console.log(`  ${group}: ${count.toLocaleString()} URLs${suffix}`);
+}
