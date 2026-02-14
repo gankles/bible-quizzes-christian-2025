@@ -1,8 +1,66 @@
-import prisma from './client'
+// JSON-only query layer — no Prisma/SQLite dependency
+// All data loaded from JSON files in data/ directory
+
 import { cache, cacheKeys, cacheTTL } from './cache'
 import { fetchVerseFromAPI, BibleTranslation } from '../bibleApi'
 import { getBookBySlug } from '../bible-data'
 import { getChapterWithCommentary, stripHtml, getBookName } from '../bolls-api'
+
+// ============================================
+// JSON Loaders (cached in memory)
+// ============================================
+
+let _lexiconCache: any[] | null = null;
+function loadLexiconJSON(): any[] {
+    if (_lexiconCache) return _lexiconCache;
+    try {
+        const fs = require('fs');
+        const path = require('path');
+        const filePath = path.join(process.cwd(), 'data', 'lexicon.json');
+        const raw = fs.readFileSync(filePath, 'utf-8');
+        const parsed = JSON.parse(raw);
+        _lexiconCache = parsed.entries || parsed || [];
+        return _lexiconCache!;
+    } catch {
+        return [];
+    }
+}
+
+let _topicsCache: any[] | null = null;
+function loadTopicsJSON(): any[] {
+    if (_topicsCache) return _topicsCache;
+    try {
+        const fs = require('fs');
+        const path = require('path');
+        const filePath = path.join(process.cwd(), 'data', 'topics.json');
+        const raw = fs.readFileSync(filePath, 'utf-8');
+        const parsed = JSON.parse(raw);
+        _topicsCache = parsed.topics || parsed || [];
+        return _topicsCache!;
+    } catch {
+        return [];
+    }
+}
+
+let _charactersCache: any[] | null = null;
+function loadCharactersJSON(): any[] {
+    if (_charactersCache) return _charactersCache;
+    try {
+        const fs = require('fs');
+        const path = require('path');
+        const filePath = path.join(process.cwd(), 'data', 'characters.json');
+        const raw = fs.readFileSync(filePath, 'utf-8');
+        const parsed = JSON.parse(raw);
+        _charactersCache = parsed.characters || parsed || [];
+        return _charactersCache!;
+    } catch {
+        return [];
+    }
+}
+
+// ============================================
+// Verse Queries (via Bolls API)
+// ============================================
 
 /**
  * Get a single verse by reference
@@ -14,50 +72,24 @@ export async function getVerse(
     translation: string = 'KJV'
 ) {
     try {
-        const cached = await cache.getOrSet(
+        return await cache.getOrSet(
             cacheKeys.verse(book, chapter, verse, translation),
             async () => {
-                const result = await prisma.verse.findUnique({
-                    where: {
-                        book_chapter_verse_translation: {
-                            book,
-                            chapter,
-                            verse,
-                            translation,
-                        },
-                    },
-                })
-                return result
+                const result = await fetchVerseFromAPI(book, chapter, verse, translation as BibleTranslation)
+                if (result) {
+                    const bookData = getBookBySlug(book)
+                    return {
+                        ...result,
+                        bookName: bookData?.name || book,
+                        testament: bookData?.testament || 'old'
+                    }
+                }
+                return null
             },
             cacheTTL.verse
         )
-
-        if (cached) return cached
-
-        // Fallback to API/Local JSON if not in DB
-        const fallback = await fetchVerseFromAPI(book, chapter, verse, translation as BibleTranslation)
-        if (fallback) {
-            const bookData = getBookBySlug(book)
-            return {
-                ...fallback,
-                bookName: bookData?.name || book,
-                testament: bookData?.testament || (parseInt(chapter.toString()) > 0 ? 'Old' : 'New') // Simple guess
-            }
-        }
-
-        return null
     } catch (error) {
         console.error('Error fetching verse:', error)
-        try {
-            const fallback = await fetchVerseFromAPI(book, chapter, verse, translation as BibleTranslation)
-            if (fallback) {
-                const bookData = getBookBySlug(book)
-                return {
-                    ...fallback,
-                    bookName: bookData?.name || book
-                }
-            }
-        } catch { }
         return null
     }
 }
@@ -74,16 +106,7 @@ export async function getChapterVerses(
         return await cache.getOrSet(
             `chapter-verses:${book}:${chapter}:${translation}`,
             async () => {
-                const verses = await prisma.verse.findMany({
-                    where: {
-                        book,
-                        chapter,
-                        translation,
-                    },
-                    orderBy: {
-                        verse: 'asc',
-                    },
-                })
+                const verses = await getChapterWithCommentary(translation, book, chapter)
                 return verses
             },
             cacheTTL.chapter
@@ -99,21 +122,14 @@ export async function getChapterVerses(
  */
 export async function getChapter(book: string, chapter: number) {
     try {
-        return await cache.getOrSet(
-            cacheKeys.chapter(book, chapter),
-            async () => {
-                const result = await prisma.chapter.findUnique({
-                    where: {
-                        book_chapter: {
-                            book,
-                            chapter,
-                        },
-                    },
-                })
-                return result
-            },
-            cacheTTL.chapter
-        )
+        const bookData = getBookBySlug(book)
+        if (!bookData) return null
+        return {
+            book,
+            chapter,
+            bookName: bookData.name,
+            totalChapters: bookData.chapters,
+        }
     } catch (error) {
         console.error('Error fetching chapter:', error)
         return null
@@ -125,16 +141,15 @@ export async function getChapter(book: string, chapter: number) {
  */
 export async function getBook(slug: string) {
     try {
-        return await cache.getOrSet(
-            cacheKeys.book(slug),
-            async () => {
-                const result = await prisma.book.findUnique({
-                    where: { slug },
-                })
-                return result
-            },
-            cacheTTL.book
-        )
+        const bookData = getBookBySlug(slug)
+        if (!bookData) return null
+        return {
+            slug,
+            name: bookData.name,
+            testament: bookData.testament,
+            chapters: bookData.chapters,
+            order: bookData.order,
+        }
     } catch (error) {
         console.error('Error fetching book:', error)
         return null
@@ -146,23 +161,21 @@ export async function getBook(slug: string) {
  */
 export async function getVerseCombination(slug1: string, slug2: string) {
     try {
-        const [v1Parts, v2Parts] = [slug1.split('-'), slug2.split('-')]
-
-        // Use a composite key for caching combinations
         const cacheKey = `verse-combo:${slug1}:${slug2}`
 
         return await cache.getOrSet(
             cacheKey,
             async () => {
-                const parseRef = (parts: string[]) => {
+                const parseRef = (slug: string) => {
+                    const parts = slug.split('-')
                     const verse = parseInt(parts.pop() || '0')
                     const chapter = parseInt(parts.pop() || '0')
                     const book = parts.join('-')
                     return { book, chapter, verse }
                 }
 
-                const ref1 = parseRef(v1Parts)
-                const ref2 = parseRef(v2Parts)
+                const ref1 = parseRef(slug1)
+                const ref2 = parseRef(slug2)
 
                 const [verse1, verse2] = await Promise.all([
                     getVerse(ref1.book, ref1.chapter, ref1.verse),
@@ -181,55 +194,9 @@ export async function getVerseCombination(slug1: string, slug2: string) {
     }
 }
 
-/**
- * Get topic with verses
- */
-export async function getTopic(slug: string, includeVerses: boolean = false) {
-    try {
-        const topic = await cache.getOrSet(
-            `${cacheKeys.topic(slug)}${includeVerses ? ':with-verses' : ''}`,
-            async () => {
-                let topic = await prisma.topic.findUnique({
-                    where: { slug },
-                })
-
-                // Fallback to JSON if DB fails or is empty
-                if (!topic) {
-                    const topicsModule = await import('@/data/topics.json')
-                    const topics = (topicsModule.default || topicsModule).topics
-                    topic = (topics.find((t: any) => t.slug === slug) as any) || null
-                }
-
-                if (!topic) return null;
-                const verseRefs = typeof topic.verseRefs === 'string' ? JSON.parse(topic.verseRefs) : topic.verseRefs
-                if (includeVerses && verseRefs?.length > 0) {
-                    const verses = await resolveVerseRefs(verseRefs)
-                    return { ...topic, verses }
-                }
-
-                return topic
-            },
-            cacheTTL.topic
-        )
-        return topic
-    } catch (error) {
-        console.error('Error fetching topic:', error)
-        try {
-            const topicsModule = await import('@/data/topics.json')
-            const topics = (topicsModule.default || topicsModule).topics
-            const topic = (topics.find((t: any) => t.slug === slug) as any) || null
-
-            const verseRefs = typeof topic.verseRefs === 'string' ? JSON.parse(topic.verseRefs) : topic.verseRefs
-            if (topic && includeVerses && verseRefs?.length > 0) {
-                const verses = await resolveVerseRefs(verseRefs)
-                return { ...topic, verses }
-            }
-            return topic
-        } catch {
-            return null
-        }
-    }
-}
+// ============================================
+// Topic Queries (JSON)
+// ============================================
 
 /**
  * Helper to resolve verse references using Bolls API with chapter-level batching
@@ -237,7 +204,6 @@ export async function getTopic(slug: string, includeVerses: boolean = false) {
 async function resolveVerseRefs(refs: string[]) {
     const sliced = refs.slice(0, 50)
 
-    // Group refs by book-chapter to batch API calls
     const chapterGroups = new Map<string, { book: string; chapter: number; verses: number[]; refIndices: number[] }>()
     sliced.forEach((ref, idx) => {
         const parts = ref.split('-')
@@ -252,7 +218,6 @@ async function resolveVerseRefs(refs: string[]) {
         chapterGroups.get(key)!.refIndices.push(idx)
     })
 
-    // Fetch each chapter once from Bolls API
     const results: (any | null)[] = new Array(sliced.length).fill(null)
     await Promise.all(
         Array.from(chapterGroups.values()).map(async ({ book, chapter, verses, refIndices }) => {
@@ -270,7 +235,7 @@ async function resolveVerseRefs(refs: string[]) {
                             verse: verseNum,
                             text: stripHtml(found.text),
                             translation: 'KJV',
-                            testament: bookData?.testament || 'Old',
+                            testament: bookData?.testament || 'old',
                         }
                     }
                 })
@@ -281,6 +246,34 @@ async function resolveVerseRefs(refs: string[]) {
     )
 
     return results.filter(Boolean)
+}
+
+/**
+ * Get topic with verses
+ */
+export async function getTopic(slug: string, includeVerses: boolean = false) {
+    try {
+        return await cache.getOrSet(
+            `${cacheKeys.topic(slug)}${includeVerses ? ':with-verses' : ''}`,
+            async () => {
+                const topics = loadTopicsJSON()
+                const topic = topics.find((t: any) => t.slug === slug) || null
+                if (!topic) return null
+
+                const verseRefs = typeof topic.verseRefs === 'string' ? JSON.parse(topic.verseRefs) : topic.verseRefs
+                if (includeVerses && verseRefs?.length > 0) {
+                    const verses = await resolveVerseRefs(verseRefs)
+                    return { ...topic, verses }
+                }
+
+                return topic
+            },
+            cacheTTL.topic
+        )
+    } catch (error) {
+        console.error('Error fetching topic:', error)
+        return null
+    }
 }
 
 /**
@@ -296,9 +289,7 @@ export async function getTopicInBook(topicSlug: string, bookSlug: string) {
                 const topic = await getTopic(topicSlug, true)
                 if (!topic || !topic.verses) return null
 
-                // Filter verses by book
                 const filteredVerses = topic.verses.filter((v: any) => v.book === bookSlug)
-
                 if (filteredVerses.length === 0) return null
 
                 return {
@@ -323,62 +314,38 @@ export async function getAllTopics() {
         return await cache.getOrSet(
             'all-topics',
             async () => {
-                let topics = await prisma.topic.findMany({
-                    orderBy: { name: 'asc' },
-                })
-
-                if (topics.length === 0) {
-                    const topicsModule = await import('@/data/topics.json')
-                    topics = (topicsModule.default || topicsModule).topics as any
-                }
-
-                // Group by category
+                const topics = loadTopicsJSON()
                 const groups: Record<string, any[]> = {}
-                topics.forEach(topic => {
+                topics.forEach((topic: any) => {
                     if (!groups[topic.category]) groups[topic.category] = []
                     groups[topic.category].push(topic)
                 })
-
                 return groups
             },
             cacheTTL.topic
         )
     } catch (error) {
         console.error('Error fetching all topics:', error)
-        try {
-            const topicsModule = await import('@/data/topics.json')
-            const topics = (topicsModule.default || topicsModule).topics
-            const groups: Record<string, any[]> = {}
-            topics.forEach((topic: any) => {
-                if (!groups[topic.category]) groups[topic.category] = []
-                groups[topic.category].push(topic)
-            })
-            return groups
-        } catch {
-            return {}
-        }
+        return {}
     }
 }
+
+// ============================================
+// Character Queries (JSON)
+// ============================================
 
 /**
  * Get character biography
  */
 export async function getCharacter(slug: string, includeVerses: boolean = false) {
     try {
-        const character = await cache.getOrSet(
+        return await cache.getOrSet(
             `${cacheKeys.character(slug)}${includeVerses ? ':with-verses' : ''}`,
             async () => {
-                let character = await prisma.character.findUnique({
-                    where: { slug },
-                })
+                const characters = loadCharactersJSON()
+                const character = characters.find((c: any) => c.slug === slug) || null
+                if (!character) return null
 
-                if (!character) {
-                    const charModule = await import('@/data/characters.json')
-                    const characters = (charModule.default || charModule).characters
-                    character = (characters.find((c: any) => c.slug === slug) as any) || null
-                }
-
-                if (!character) return null;
                 const verseRefs = typeof character.verseRefs === 'string' ? JSON.parse(character.verseRefs) : character.verseRefs
                 if (includeVerses && verseRefs?.length > 0) {
                     const verses = await resolveVerseRefs(verseRefs)
@@ -389,23 +356,9 @@ export async function getCharacter(slug: string, includeVerses: boolean = false)
             },
             cacheTTL.character
         )
-        return character
     } catch (error) {
         console.error('Error fetching character:', error)
-        try {
-            const charModule = await import('@/data/characters.json')
-            const characters = (charModule.default || charModule).characters
-            const character = (characters.find((c: any) => c.slug === slug) as any) || null
-
-            const verseRefs = typeof character.verseRefs === 'string' ? JSON.parse(character.verseRefs) : character.verseRefs
-            if (character && includeVerses && verseRefs?.length > 0) {
-                const verses = await resolveVerseRefs(verseRefs)
-                return { ...character, verses }
-            }
-            return character
-        } catch {
-            return null
-        }
+        return null
     }
 }
 
@@ -425,7 +378,6 @@ export async function getCharacterCombination(slug1: string, slug2: string) {
                 ])
 
                 if (!char1 || !char2) return null
-
                 return { char1, char2 }
             },
             cacheTTL.character
@@ -444,29 +396,52 @@ export async function getAllCharacters() {
         return await cache.getOrSet(
             'all-characters',
             async () => {
-                let characters = await prisma.character.findMany({
-                    orderBy: { name: 'asc' },
-                })
-
-                if (characters.length === 0) {
-                    const charModule = await import('@/data/characters.json')
-                    characters = (charModule.default || charModule).characters as any
-                }
-
-                return characters
+                const characters = loadCharactersJSON()
+                return [...characters].sort((a: any, b: any) => (a.name || '').localeCompare(b.name || ''))
             },
             cacheTTL.character
         )
     } catch (error) {
         console.error('Error fetching all characters:', error)
-        try {
-            const charModule = await import('@/data/characters.json')
-            return (charModule.default || charModule).characters
-        } catch {
-            return []
-        }
+        return []
     }
 }
+
+// ============================================
+// Analytics (no-ops without database)
+// ============================================
+
+/**
+ * Track page view — no-op without database
+ */
+export async function trackPageView(_url: string, _pageType: string) {
+    // No-op: analytics tracking requires a database
+}
+
+/**
+ * Check for duplicate content — no-op without database
+ */
+export async function checkDuplicateContent(
+    _url: string,
+    _title: string,
+    _description: string,
+    _content: string
+) {
+    return { isDuplicate: false }
+}
+
+/**
+ * Get popular verses — returns empty without database
+ */
+export async function getPopularVerses(_limit: number = 1000) {
+    return []
+}
+
+// ============================================
+// Study Resources Queries (JSON)
+// ============================================
+
+import type { StudyPlanFilters, SermonIllustration, WordStudy, BibleStudyGuide } from '../types'
 
 /**
  * Get study plan
@@ -476,145 +451,18 @@ export async function getStudyPlan(slug: string) {
         return await cache.getOrSet(
             cacheKeys.studyPlan(slug),
             async () => {
-                let result = null
-                try {
-                    // @ts-ignore - StudyPlan model might not exist in client yet
-                    result = await prisma.studyPlan.findUnique({
-                        where: { slug },
-                    })
-                } catch { }
-
-                if (!result) {
-                    const plansModule = await import('@/data/study-plans.json')
-                    const plans = (plansModule.default || plansModule).studyPlans
-                    result = (plans.find((p: any) => p.slug === slug) as any) || null
-                }
-
-                return result
+                const plansModule = await import('@/data/study-plans.json')
+                const plans = (plansModule.default || plansModule).studyPlans
+                return (plans.find((p: any) => p.slug === slug) as any) || null
             },
             cacheTTL.studyPlan
         )
     } catch (error) {
         console.error('Error fetching study plan:', error)
-        try {
-            const plansModule = await import('@/data/study-plans.json')
-            const plans = (plansModule.default || plansModule).studyPlans
-            return (plans.find((p: any) => p.slug === slug) as any) || null
-        } catch {
-            return null
-        }
+        return null
     }
 }
 
-/**
- * Get popular verses for static generation
- */
-export async function getPopularVerses(limit: number = 1000) {
-    try {
-        return await cache.getOrSet(
-            cacheKeys.popularVerses(limit),
-            async () => {
-                const verses = await prisma.verse.findMany({
-                    where: {
-                        translation: 'KJV',
-                    },
-                    orderBy: {
-                        popularity: 'desc',
-                    },
-                    take: limit,
-                    select: {
-                        book: true,
-                        chapter: true,
-                        verse: true,
-                    },
-                })
-                return verses
-            },
-            cacheTTL.analytics
-        )
-    } catch (error) {
-        console.error('Error fetching popular verses:', error)
-        return []
-    }
-}
-
-/**
- * Track page view for analytics
- */
-export async function trackPageView(url: string, pageType: string) {
-    try {
-        await prisma.pageView.upsert({
-            where: { url },
-            update: {
-                views: { increment: 1 },
-                uniqueViews: { increment: 1 },
-                lastView: new Date(),
-            },
-            create: {
-                url,
-                pageType,
-                views: 1,
-                uniqueViews: 1,
-            },
-        })
-    } catch (error) {
-        console.error('Error tracking page view:', error)
-    }
-}
-
-/**
- * Check for duplicate content
- */
-export async function checkDuplicateContent(
-    url: string,
-    title: string,
-    description: string,
-    content: string
-) {
-    try {
-        const crypto = await import('crypto')
-        const titleHash = crypto.createHash('md5').update(title).digest('hex')
-        const descHash = crypto.createHash('md5').update(description).digest('hex')
-        const contentHash = crypto.createHash('md5').update(content).digest('hex')
-
-        const existing = await prisma.contentHash.findFirst({
-            where: {
-                OR: [
-                    { titleHash },
-                    { descHash },
-                    { contentHash },
-                ],
-                url: { not: url },
-            },
-        })
-
-        if (existing) {
-            return {
-                isDuplicate: true,
-                duplicateOf: existing.url,
-            }
-        }
-
-        // Store hash for this page
-        await prisma.contentHash.upsert({
-            where: { url },
-            update: { titleHash, descHash, contentHash },
-            create: { url, titleHash, descHash, contentHash },
-        })
-
-        return { isDuplicate: false }
-    } catch (error) {
-        console.error('Error checking duplicate content:', error)
-        return { isDuplicate: false }
-    }
-}
-
-
-// ============================================
-// PHASE 3: Study Resources Queries
-// ============================================
-
-import type { StudyPlanFilters, SermonIllustration, WordStudy, BibleStudyGuide } from '../types'
 /**
  * Get all study plans with optional filters
  */
@@ -625,26 +473,16 @@ export async function getAllStudyPlans(filters?: StudyPlanFilters) {
         return await cache.getOrSet(
             cacheKey,
             async () => {
-                let plans: unknown[] = []
-                try {
-                    // @ts-ignore
-                    plans = await prisma.studyPlan.findMany()
-                } catch { }
+                const plansModule = await import('@/data/study-plans.json')
+                let plans = (plansModule.default || plansModule).studyPlans as any[]
 
-                if (plans.length === 0) {
-                    const plansModule = await import('@/data/study-plans.json')
-                    plans = (plansModule.default || plansModule).studyPlans
-                }
-
-                // Apply filters
-                let filteredPlans = plans as any[]
                 if (filters) {
-                    if (filters.topic) filteredPlans = filteredPlans.filter(p => p.topic === filters.topic)
-                    if (filters.duration) filteredPlans = filteredPlans.filter(p => p.duration === filters.duration)
-                    if (filters.difficulty) filteredPlans = filteredPlans.filter(p => p.difficulty === filters.difficulty)
+                    if (filters.topic) plans = plans.filter(p => p.topic === filters.topic)
+                    if (filters.duration) plans = plans.filter(p => p.duration === filters.duration)
+                    if (filters.difficulty) plans = plans.filter(p => p.difficulty === filters.difficulty)
                 }
 
-                return filteredPlans
+                return plans
             },
             cacheTTL.topic
         )
@@ -664,18 +502,9 @@ export async function getSermonIllustration(slug: string): Promise<SermonIllustr
         return await cache.getOrSet(
             cacheKey,
             async () => {
-                let result = null
-                try {
-                    // @ts-ignore
-                    result = await prisma.sermonIllustration.findUnique({ where: { slug } })
-                } catch { }
-
-                if (!result) {
-                    const module = await import('@/data/sermon-illustrations.json')
-                    const items = (module.default || module).sermonIllustrations
-                    result = items.find((i: any) => i.slug === slug) || null
-                }
-                return result as any
+                const module = await import('@/data/sermon-illustrations.json')
+                const items = (module.default || module).sermonIllustrations
+                return (items.find((i: any) => i.slug === slug) || null) as any
             },
             cacheTTL.topic
         )
@@ -695,18 +524,9 @@ export async function getSermonIllustrationsByTopic(topic: string): Promise<Serm
         return await cache.getOrSet(
             cacheKey,
             async () => {
-                let items: any[] = []
-                try {
-                    // @ts-ignore
-                    items = await prisma.sermonIllustration.findMany({ where: { topic } })
-                } catch { }
-
-                if (items.length === 0) {
-                    const module = await import('@/data/sermon-illustrations.json')
-                    const allItems = (module.default || module).sermonIllustrations
-                    items = allItems.filter((i: any) => i.topic === topic)
-                }
-                return items as any[]
+                const module = await import('@/data/sermon-illustrations.json')
+                const allItems = (module.default || module).sermonIllustrations
+                return allItems.filter((i: any) => i.topic === topic) as any[]
             },
             cacheTTL.topic
         )
@@ -726,20 +546,9 @@ export async function getWordStudy(word: string, language: string): Promise<Word
         return await cache.getOrSet(
             cacheKey,
             async () => {
-                let result = null
-                try {
-                    // @ts-ignore
-                    result = await prisma.wordStudy.findFirst({
-                        where: { slug: word, language: language as any }
-                    })
-                } catch { }
-
-                if (!result) {
-                    const module = await import('@/data/word-studies.json')
-                    const items = (module.default || module).wordStudies
-                    result = items.find((i: any) => i.slug === word && i.language === language) || null
-                }
-                return result as any
+                const module = await import('@/data/word-studies.json')
+                const items = (module.default || module).wordStudies
+                return (items.find((i: any) => i.slug === word && i.language === language) || null) as any
             },
             cacheTTL.verse
         )
@@ -757,17 +566,8 @@ export async function getAllWordStudies() {
         return await cache.getOrSet(
             'all-word-studies',
             async () => {
-                let items: any[] = []
-                try {
-                    // @ts-ignore
-                    items = await prisma.wordStudy.findMany({ orderBy: { slug: 'asc' } })
-                } catch { }
-
-                if (items.length === 0) {
-                    const module = await import('@/data/word-studies.json')
-                    items = (module.default || module).wordStudies as any[]
-                }
-                return items
+                const module = await import('@/data/word-studies.json')
+                return (module.default || module).wordStudies as any[]
             },
             cacheTTL.topic
         )
@@ -785,28 +585,14 @@ export async function getAllSermonIllustrations(): Promise<SermonIllustration[]>
         return await cache.getOrSet(
             'all-sermon-illustrations',
             async () => {
-                let items: any[] = []
-                try {
-                    // @ts-ignore
-                    items = await prisma.sermonIllustration.findMany({ orderBy: { title: 'asc' } })
-                } catch { }
-
-                if (items.length === 0) {
-                    const module = await import('@/data/sermon-illustrations.json')
-                    items = (module.default || module).sermonIllustrations as any[]
-                }
-                return items
+                const module = await import('@/data/sermon-illustrations.json')
+                return (module.default || module).sermonIllustrations as any[]
             },
             cacheTTL.topic
         )
     } catch (error) {
         console.error('Error fetching all sermon illustrations:', error)
-        try {
-            const module = await import('@/data/sermon-illustrations.json')
-            return (module.default || module).sermonIllustrations as any[]
-        } catch {
-            return []
-        }
+        return []
     }
 }
 
@@ -818,28 +604,14 @@ export async function getAllBibleStudyGuides(): Promise<BibleStudyGuide[]> {
         return await cache.getOrSet(
             'all-bible-study-guides',
             async () => {
-                let items: any[] = []
-                try {
-                    // @ts-ignore
-                    items = await prisma.bibleStudyGuide.findMany({ orderBy: { title: 'asc' } })
-                } catch { }
-
-                if (items.length === 0) {
-                    const module = await import('@/data/bible-study-guides.json')
-                    items = (module.default || module).bibleStudyGuides as any[]
-                }
-                return items
+                const module = await import('@/data/bible-study-guides.json')
+                return (module.default || module).bibleStudyGuides as any[]
             },
             cacheTTL.topic
         )
     } catch (error) {
         console.error('Error fetching all bible study guides:', error)
-        try {
-            const module = await import('@/data/bible-study-guides.json')
-            return (module.default || module).bibleStudyGuides as any[]
-        } catch {
-            return []
-        }
+        return []
     }
 }
 
@@ -853,18 +625,9 @@ export async function getBibleStudyGuide(slug: string): Promise<BibleStudyGuide 
         return await cache.getOrSet(
             cacheKey,
             async () => {
-                let result = null
-                try {
-                    // @ts-ignore
-                    result = await prisma.bibleStudyGuide.findUnique({ where: { slug } })
-                } catch { }
-
-                if (!result) {
-                    const module = await import('@/data/bible-study-guides.json')
-                    const items = (module.default || module).bibleStudyGuides
-                    result = items.find((i: any) => i.slug === slug) || null
-                }
-                return result as any
+                const module = await import('@/data/bible-study-guides.json')
+                const items = (module.default || module).bibleStudyGuides
+                return (items.find((i: any) => i.slug === slug) || null) as any
             },
             cacheTTL.topic
         )
@@ -875,7 +638,7 @@ export async function getBibleStudyGuide(slug: string): Promise<BibleStudyGuide 
 }
 
 // ============================================
-// PHASE 4: Q&A System Queries
+// Q&A System Queries (JSON)
 // ============================================
 
 export async function getQuestions() {
@@ -935,7 +698,7 @@ export async function getRelatedQuestions(questionSlug: string, limit = 3) {
 }
 
 // ============================================
-// PHASE 4B: Prayer Library Queries
+// Prayer Library Queries (JSON)
 // ============================================
 
 export async function getPrayers() {
@@ -995,95 +758,35 @@ export async function getRelatedPrayers(prayerSlug: string, limit = 3) {
 }
 
 // ============================================
-// PHASE 4F: Lexicon Pillar Queries
+// Lexicon Queries (JSON)
 // ============================================
-
-// Cached lexicon loader — reads 23MB JSON file once via fs, not import()
-let _lexiconCache: any[] | null = null;
-function loadLexiconJSON(): any[] {
-    if (_lexiconCache) return _lexiconCache;
-    try {
-        const fs = require('fs');
-        const path = require('path');
-        const filePath = path.join(process.cwd(), 'data', 'lexicon.json');
-        const raw = fs.readFileSync(filePath, 'utf-8');
-        const parsed = JSON.parse(raw);
-        _lexiconCache = parsed.entries || parsed || [];
-        return _lexiconCache!;
-    } catch {
-        return [];
-    }
-}
 
 export async function getLexiconEntry(strongs: string) {
     try {
-        const entry = await (prisma as any).lexiconEntry.findUnique({
-            where: { strongs: strongs.toUpperCase() }
-        });
-
-        if (!entry) throw new Error('Not found in DB');
-
-        // Parse JSON strings back to objects
-        return {
-            ...entry,
-            definitions: entry.definitions ? JSON.parse(entry.definitions) : {},
-            morphology: entry.morphology ? JSON.parse(entry.morphology) : {},
-            stats: entry.stats ? JSON.parse(entry.stats) : {},
-            synergy: entry.synergy ? JSON.parse(entry.synergy) : {},
-            verseSample: entry.verseSample ? JSON.parse(entry.verseSample) : []
-        };
+        const arr = loadLexiconJSON();
+        return arr.find((e: any) => e.strongs?.toUpperCase() === strongs.toUpperCase()) || null;
     } catch {
-        // JSON fallback
-        try {
-            const arr = loadLexiconJSON();
-            const found = arr.find((e: any) => e.strongs?.toUpperCase() === strongs.toUpperCase());
-            return found || null;
-        } catch {
-            return null;
-        }
+        return null;
     }
 }
 
 export async function getAllLexiconEntries() {
     try {
-        const entries = await (prisma as any).lexiconEntry.findMany({
-            orderBy: { strongs: 'asc' }
-        });
-
-        if (!entries || entries.length === 0) throw new Error('No DB entries');
-
-        // Parse JSON strings back to objects for all entries
-        return entries.map((entry: any) => ({
-            ...entry,
-            definitions: entry.definitions ? JSON.parse(entry.definitions) : {},
-            morphology: entry.morphology ? JSON.parse(entry.morphology) : {},
-            stats: entry.stats ? JSON.parse(entry.stats) : {},
-            synergy: entry.synergy ? JSON.parse(entry.synergy) : {},
-            verseSample: entry.verseSample ? JSON.parse(entry.verseSample) : []
-        }));
+        const arr = loadLexiconJSON();
+        return [...arr].sort((a: any, b: any) => (a.strongs || '').localeCompare(b.strongs || ''));
     } catch {
-        // JSON fallback
-        try {
-            const arr = loadLexiconJSON();
-            return [...arr].sort((a: any, b: any) => (a.strongs || '').localeCompare(b.strongs || ''));
-        } catch {
-            return [];
-        }
+        return [];
     }
 }
 
-// ============================================
-// PHASE 4H: Keyword Scaling Queries
-// ============================================
-
 export async function getLexiconConcept(slug: string) {
     try {
+        // eslint-disable-next-line @typescript-eslint/no-require-imports
         const data = require('../../data/lexicon-concepts.json');
         const concept = data.find((c: any) => c.slug === slug.toLowerCase()) || null;
 
         if (!concept) return null;
 
-        // Fetch all the Strong's entries for this concept
         const entries = await Promise.all(
             concept.strongs.map((s: string) => getLexiconEntry(s))
         );
@@ -1099,6 +802,7 @@ export async function getLexiconConcept(slug: string) {
 
 export async function getAllLexiconConcepts() {
     try {
+        // eslint-disable-next-line @typescript-eslint/no-require-imports
         const data = require('../../data/lexicon-concepts.json');
         return data;
     } catch {
@@ -1113,33 +817,11 @@ export async function getLexiconFamily(strongs: string) {
 
         const rootStrongs = entry.rootWord || entry.strongs;
 
-        // Try Prisma first, fall back to JSON
-        let family: any[] = [];
-        try {
-            family = await (prisma as any).lexiconEntry.findMany({
-                where: {
-                    OR: [
-                        { strongs: rootStrongs },
-                        { rootWord: rootStrongs }
-                    ]
-                }
-            });
-            family = family.map((e: any) => ({
-                ...e,
-                definitions: e.definitions ? JSON.parse(e.definitions) : {},
-                morphology: e.morphology ? JSON.parse(e.morphology) : {},
-                stats: e.stats ? JSON.parse(e.stats) : {},
-                synergy: e.synergy ? JSON.parse(e.synergy) : {},
-                verseSample: e.verseSample ? JSON.parse(e.verseSample) : []
-            }));
-        } catch {
-            // JSON fallback — find entries sharing the root
-            const arr = loadLexiconJSON();
-            family = arr.filter((e: any) =>
-                e.strongs?.toUpperCase() === rootStrongs.toUpperCase() ||
-                e.rootWord?.toUpperCase() === rootStrongs.toUpperCase()
-            );
-        }
+        const arr = loadLexiconJSON();
+        const family = arr.filter((e: any) =>
+            e.strongs?.toUpperCase() === rootStrongs.toUpperCase() ||
+            e.rootWord?.toUpperCase() === rootStrongs.toUpperCase()
+        );
 
         return {
             root: await getLexiconEntry(rootStrongs),
@@ -1158,25 +840,9 @@ export async function getAuthorLexicon(authorName: string, language: string) {
 
         if (!author) return null;
 
-        // Try Prisma first, fall back to JSON
-        let allEntries: any[] = [];
-        try {
-            allEntries = await (prisma as any).lexiconEntry.findMany({
-                where: { language: language }
-            });
-            // Parse JSON strings from Prisma
-            allEntries = allEntries.map((e: any) => ({
-                ...e,
-                definitions: e.definitions ? JSON.parse(e.definitions) : {},
-                stats: e.stats ? JSON.parse(e.stats) : {},
-            }));
-        } catch {
-            // JSON fallback
-            const arr = loadLexiconJSON();
-            allEntries = arr.filter((e: any) => e.language?.toLowerCase() === language.toLowerCase());
-        }
+        const arr = loadLexiconJSON();
+        const allEntries = arr.filter((e: any) => e.language?.toLowerCase() === language.toLowerCase());
 
-        // Filter and aggregate stats for the author's books
         const vocab = allEntries.map((e: any) => {
             const stats = e.stats || {};
             const bookBreakdown = stats.bookBreakdown || {};
@@ -1215,10 +881,7 @@ export async function getLexiconComparison(strongsA: string, strongsB: string) {
 
         if (!entryA || !entryB) return null;
 
-        return {
-            entryA,
-            entryB
-        };
+        return { entryA, entryB };
     } catch (error) {
         console.error('Error fetching lexicon comparison:', error);
         return null;
@@ -1227,52 +890,22 @@ export async function getLexiconComparison(strongsA: string, strongsB: string) {
 
 export async function getLexiconPaginated(language: string, page: number = 1, pageSize: number = 100) {
     try {
+        const arr = loadLexiconJSON();
+        const filtered = arr
+            .filter((e: any) => e.language?.toLowerCase() === language.toLowerCase())
+            .sort((a: any, b: any) => (a.strongs || '').localeCompare(b.strongs || ''));
+
+        const totalCount = filtered.length;
         const skip = (page - 1) * pageSize;
-
-        const [entries, totalCount] = await Promise.all([
-            (prisma as any).lexiconEntry.findMany({
-                where: { language: language.toLowerCase() },
-                orderBy: { strongs: 'asc' },
-                skip,
-                take: pageSize
-            }),
-            (prisma as any).lexiconEntry.count({
-                where: { language: language.toLowerCase() }
-            })
-        ]);
-
-        if (!entries || entries.length === 0) throw new Error('No DB entries');
+        const entries = filtered.slice(skip, skip + pageSize);
 
         return {
-            entries: entries.map((e: any) => ({
-                ...e,
-                definitions: e.definitions ? JSON.parse(e.definitions) : {},
-                stats: e.stats ? JSON.parse(e.stats) : {}
-            })),
+            entries,
             totalCount,
             totalPages: Math.ceil(totalCount / pageSize),
             currentPage: page
         };
     } catch {
-        // JSON fallback with case-insensitive language filter
-        try {
-            const arr = loadLexiconJSON();
-            const filtered = arr
-                .filter((e: any) => e.language?.toLowerCase() === language.toLowerCase())
-                .sort((a: any, b: any) => (a.strongs || '').localeCompare(b.strongs || ''));
-
-            const totalCount = filtered.length;
-            const skip = (page - 1) * pageSize;
-            const entries = filtered.slice(skip, skip + pageSize);
-
-            return {
-                entries,
-                totalCount,
-                totalPages: Math.ceil(totalCount / pageSize),
-                currentPage: page
-            };
-        } catch {
-            return { entries: [], totalCount: 0, totalPages: 0, currentPage: page };
-        }
+        return { entries: [], totalCount: 0, totalPages: 0, currentPage: page };
     }
 }
