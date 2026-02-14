@@ -11,11 +11,9 @@ Allow: /chapter-quizzes
 Allow: /old-testament-quizzes
 Allow: /new-testament-quizzes
 
-# Disallow admin or private paths (if any)
-# Disallow: /admin
-# Disallow: /private
+# Allow CSS, JS, fonts, and images for proper rendering
+Allow: /_next/static/
 
-# Disallow common non-content paths
+# Disallow non-content paths
 Disallow: /api/
-Disallow: /_next/
-Disallow: /static/
+Disallow: /_next/data/
