@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { PlayIcon, ClockIcon, CheckCircleIcon, ArrowRightIcon, BookOpenIcon } from '@/components/icons';
@@ -99,7 +100,9 @@ export default function Home() {
             </p>
             
             <div className="mb-8">
-              <SearchBox />
+              <Suspense fallback={<div className="max-w-2xl mx-auto h-14 bg-white/50 rounded-xl animate-pulse" />}>
+                <SearchBox />
+              </Suspense>
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -140,8 +143,12 @@ export default function Home() {
 
       <section className="py-8 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <DailyVerse />
-          <QuickStartSection />
+          <Suspense fallback={<div className="h-32 bg-amber-50/50 rounded-xl animate-pulse mb-8" />}>
+            <DailyVerse />
+          </Suspense>
+          <Suspense fallback={<div className="h-40 bg-gray-50 rounded-xl animate-pulse" />}>
+            <QuickStartSection />
+          </Suspense>
         </div>
       </section>
 

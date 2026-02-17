@@ -62,6 +62,43 @@ function loadChapterBreakdown(bookSlug: string): Record<string, { title: string;
   }
 }
 
+// Hoisted outside DynamicPage to prevent re-creation per render
+function ChapterQuizIntro({ book, chapter, bookDisplayName, chapterInfo, bookMeta }: {
+  book: string;
+  chapter: number;
+  bookDisplayName: string;
+  chapterInfo: { title: string; keyEvent: string } | null | undefined;
+  bookMeta: { author: string; dateWritten: string; category: string; keyThemes: string[] } | null | undefined;
+}) {
+  return (
+    <div className="bg-white border-b border-gray-200">
+      <div className="max-w-4xl mx-auto px-4 py-3">
+        <nav aria-label="Breadcrumb">
+          <ol className="flex items-center flex-wrap gap-y-1 text-sm">
+            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
+            <li className="text-gray-400 mx-2">/</li>
+            <li><Link href="/bible-quizzes" className="text-blue-600 hover:underline">Bible Quizzes</Link></li>
+            <li className="text-gray-400 mx-2">/</li>
+            <li><Link href={`/${book}-chapters`} className="text-blue-600 hover:underline">{bookDisplayName}</Link></li>
+            <li className="text-gray-400 mx-2">/</li>
+            <li className="text-gray-600">Chapter {chapter}</li>
+          </ol>
+        </nav>
+      </div>
+      <div className="max-w-4xl mx-auto px-4 pb-6 pt-2">
+        <p className="text-gray-600 leading-relaxed">
+          {chapterInfo
+            ? `${bookDisplayName} chapter ${chapter} covers ${chapterInfo.title.toLowerCase()}${chapterInfo.keyEvent ? ` — ${chapterInfo.keyEvent.toLowerCase()}` : ''}. `
+            : `Test your knowledge of ${bookDisplayName} chapter ${chapter}. `}
+          {bookMeta
+            ? `${bookDisplayName}, written by ${bookMeta.author} (${bookMeta.dateWritten}), is part of the ${bookMeta.category} and centers on themes of ${bookMeta.keyThemes.slice(0, 3).join(', ').toLowerCase()}.`
+            : `This quiz covers key people, events, and teachings from this chapter.`}
+        </p>
+      </div>
+    </div>
+  );
+}
+
 export async function generateStaticParams() {
   const chapterSlugs = getAllQuizSlugs().map(slug => ({ slug }));
   const bookSlugs = getAllBookQuizSlugs().map(slug => ({ slug }));
@@ -443,10 +480,24 @@ export default async function DynamicPage({ params }: PageProps) {
   const chapterCommandments = getCommandmentsByChapter(parsed.book, parsed.chapter);
   const bookDisplayName = BOOK_NAMES[parsed.book] || parsed.book;
 
+  // Load chapter breakdown for intro context
+  const chapterData = loadChapterBreakdown(parsed.book);
+  const chapterInfo = chapterData?.[String(parsed.chapter)];
+  const bookMeta = BOOK_METADATA[parsed.book];
+
+  const introProps = {
+    book: parsed.book,
+    chapter: parsed.chapter,
+    bookDisplayName,
+    chapterInfo,
+    bookMeta,
+  };
+
   const tabbedQuiz = loadTabbedQuiz(parsed.book, parsed.chapter);
   if (tabbedQuiz) {
     return (
       <>
+        <ChapterQuizIntro {...introProps} />
         <TabbedQuizPage
           tabbedQuiz={tabbedQuiz}
           url={`https://biblemaximum.com/${slug}`}
@@ -466,6 +517,7 @@ export default async function DynamicPage({ params }: PageProps) {
 
   return (
     <>
+      <ChapterQuizIntro {...introProps} />
       <QuizPage
         quiz={quiz}
         url={`https://biblemaximum.com/${slug}`}

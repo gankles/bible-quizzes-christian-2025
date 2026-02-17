@@ -1,11 +1,13 @@
 'use client';
 
 import { useState } from 'react';
+import dynamic from 'next/dynamic';
 import { Quiz, QuizResult } from '@/lib/types';
 import { generateAllSchemas, generateMetaTags } from '@/lib/seo';
 import QuizInterface from './QuizInterface';
-import QuizResults from './QuizResults';
 import Script from 'next/script';
+
+const QuizResults = dynamic(() => import('./QuizResults'));
 
 interface QuizPageProps {
   quiz: Quiz;

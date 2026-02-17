@@ -1,10 +1,12 @@
 'use client';
 
 import { useState, useCallback } from 'react';
+import dynamic from 'next/dynamic';
 import { Quiz, QuizResult } from '@/lib/types';
 import { TabbedQuiz } from '@/lib/genesis-1-quiz-tabbed-system';
 import QuizInterface from './QuizInterface';
-import QuizResults from './QuizResults';
+
+const QuizResults = dynamic(() => import('./QuizResults'));
 
 type TabKey = 'easy' | 'medium' | 'hard' | 'theological';
 
