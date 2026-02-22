@@ -27,16 +27,16 @@ export default async function HebrewLexiconBrowsePage({
     return (
         <div className="bg-[#FAFAF9] pb-32 min-h-screen">
             {/* NAVIGATION */}
-            <div className="bg-white/40 border-b border-gray-200 backdrop-blur-md">
+            <div className="bg-white/40 border-b border-grace backdrop-blur-md">
                 <div className="max-w-7xl mx-auto px-6 h-14 flex items-center justify-between">
-                    <Link href="/lexicon" className="group flex items-center text-gray-500 hover:text-rose-600 transition-all text-[11px] font-bold uppercase">
+                    <Link href="/lexicon" className="group flex items-center text-primary-dark/60 hover:text-rose-600 transition-all text-[11px] font-bold uppercase">
                         <ArrowLeftIcon className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" />
                         <span>Return to Hub</span>
                     </Link>
-                    <div className="hidden md:flex items-center space-x-6 text-[10px] font-bold uppercase text-gray-400">
+                    <div className="hidden md:flex items-center space-x-6 text-[10px] font-bold uppercase text-primary-dark/40">
                         <span>Old Testament Corpus</span>
                         <span className="w-1.5 h-1.5 bg-rose-600 rounded-full"></span>
-                        <span className="text-gray-900">Hebrew Strong&apos;s resolution index</span>
+                        <span className="text-scripture">Hebrew Strong&apos;s resolution index</span>
                     </div>
                 </div>
             </div>
@@ -50,16 +50,16 @@ export default async function HebrewLexiconBrowsePage({
                                 <SparklesIcon className="w-4 h-4" />
                                 <span>Manuscript Index Alpha-Index</span>
                             </div>
-                            <h1 className="text-5xl md:text-7xl font-bold text-gray-950 tracking-tighter mb-6">
+                            <h1 className="text-5xl md:text-7xl font-display font-bold text-scripture tracking-tighter mb-6">
                                 Hebrew <span className="text-rose-600 italic">Lexicon.</span>
                             </h1>
-                            <p className="text-xl text-gray-600 font-medium leading-relaxed max-w-2xl">
-                                Complete resolution of <span className="text-gray-950 font-bold">{totalCount.toLocaleString()}</span> unique Hebrew variables found in the Old Testament manuscripts.
+                            <p className="text-xl text-primary-dark/70 font-medium leading-relaxed max-w-2xl">
+                                Complete resolution of <span className="text-scripture font-bold">{totalCount.toLocaleString()}</span> unique Hebrew variables found in the Old Testament manuscripts.
                             </p>
                         </div>
-                        <div className="glass-panel p-10 rounded-[40px] border border-gray-100 bg-white/60 shadow-xl shrink-0 text-center md:text-left">
-                            <div className="text-[10px] font-bold text-gray-400 uppercase mb-2">Inventory Count</div>
-                            <div className="text-5xl font-bold text-gray-950">{totalCount.toLocaleString()}</div>
+                        <div className="glass-panel p-10 rounded-[40px] border border-grace/50 bg-white/60 shadow-xl shrink-0 text-center md:text-left">
+                            <div className="text-[10px] font-bold text-primary-dark/40 uppercase mb-2">Inventory Count</div>
+                            <div className="text-5xl font-bold text-scripture">{totalCount.toLocaleString()}</div>
                             <div className="text-[9px] font-bold text-rose-500 uppercase mt-2">Active Data Points</div>
                         </div>
                     </div>
@@ -78,18 +78,18 @@ export default async function HebrewLexiconBrowsePage({
                             >
                                 <div>
                                     <div className="flex items-center justify-between mb-8">
-                                        <span className="text-[11px] font-bold text-gray-300 uppercase group-hover:text-rose-600 transition-colors">{entry.strongs}</span>
-                                        <div className="w-8 h-8 rounded-xl bg-gray-50 flex items-center justify-center text-gray-200 group-hover:bg-rose-50 group-hover:text-rose-400 transition-all">
+                                        <span className="text-[11px] font-bold text-primary-dark/40 uppercase group-hover:text-rose-600 transition-colors">{entry.strongs}</span>
+                                        <div className="w-8 h-8 rounded-xl bg-primary-light/30 flex items-center justify-center text-primary-dark/40 group-hover:bg-rose-50 group-hover:text-rose-400 transition-all">
                                             <BookOpenIcon className="w-4 h-4" />
                                         </div>
                                     </div>
-                                    <div className="text-4xl font-bold text-gray-950 mb-3 tracking-tighter group-hover:text-rose-600 transition-colors text-right" dir="rtl">
+                                    <div className="text-4xl font-bold text-scripture mb-3 tracking-tighter group-hover:text-rose-600 transition-colors text-right" dir="rtl">
                                         {entry.word}
                                     </div>
-                                    <div className="text-[11px] font-bold text-gray-400 uppercase tracking-[0.2em] mb-4 opacity-70">
+                                    <div className="text-[11px] font-bold text-primary-dark/40 uppercase tracking-[0.2em] mb-4 opacity-70">
                                         {entry.transliteration}
                                     </div>
-                                    <p className="text-gray-500 text-[13px] font-medium leading-relaxed mb-8 line-clamp-2">
+                                    <p className="text-primary-dark/60 text-[13px] font-medium leading-relaxed mb-8 line-clamp-2">
                                         {entry.definitions?.strongs?.split(';')[0] || 'Execute full lexical breakdown...'}
                                     </p>
                                 </div>
@@ -106,7 +106,7 @@ export default async function HebrewLexiconBrowsePage({
                             {currentPage > 1 ? (
                                 <Link
                                     href={`/lexicon/browse/hebrew?page=${currentPage - 1}`}
-                                    className="group flex items-center text-[11px] font-bold uppercase tracking-[0.2em] text-gray-500 hover:text-rose-600 transition-all"
+                                    className="group flex items-center text-[11px] font-bold uppercase tracking-[0.2em] text-primary-dark/60 hover:text-rose-600 transition-all"
                                 >
                                     <ChevronLeftIcon className="w-5 h-5 mr-3 group-hover:-translate-x-2 transition-transform" />
                                     <span>Inverse Sequence</span>
@@ -115,17 +115,17 @@ export default async function HebrewLexiconBrowsePage({
                                 <div className="w-40" />
                             )}
 
-                            <div className="glass-panel px-10 py-5 rounded-full border border-gray-100 bg-white/60 shadow-lg flex items-center space-x-6">
-                                <span className="text-[10px] font-bold text-gray-400 uppercase">Sequence Layer</span>
-                                <div className="text-xl font-bold text-gray-950">
-                                    {currentPage} <span className="text-gray-300 font-medium">/ {totalPages}</span>
+                            <div className="glass-panel px-10 py-5 rounded-full border border-grace/50 bg-white/60 shadow-lg flex items-center space-x-6">
+                                <span className="text-[10px] font-bold text-primary-dark/40 uppercase">Sequence Layer</span>
+                                <div className="text-xl font-bold text-scripture">
+                                    {currentPage} <span className="text-primary-dark/40 font-medium">/ {totalPages}</span>
                                 </div>
                             </div>
 
                             {currentPage < totalPages ? (
                                 <Link
                                     href={`/lexicon/browse/hebrew?page=${currentPage + 1}`}
-                                    className="group flex items-center text-[11px] font-bold uppercase tracking-[0.2em] text-gray-500 hover:text-rose-600 transition-all"
+                                    className="group flex items-center text-[11px] font-bold uppercase tracking-[0.2em] text-primary-dark/60 hover:text-rose-600 transition-all"
                                 >
                                     <span>Next Sequence</span>
                                     <ChevronRightIcon className="w-5 h-5 ml-3 group-hover:translate-x-2 transition-transform" />
@@ -140,10 +140,10 @@ export default async function HebrewLexiconBrowsePage({
 
             {/* CTA: SHIFT TO GREEK */}
             <section className="py-32 px-4">
-                <div className="max-w-5xl mx-auto glass-panel p-20 rounded-[64px] border border-gray-100 bg-gray-900 text-center relative overflow-hidden group">
+                <div className="max-w-5xl mx-auto glass-panel p-20 rounded-[64px] border border-grace/50 bg-scripture text-center relative overflow-hidden group">
                     <div className="absolute inset-0 bg-gradient-to-br from-blue-900/40 via-transparent to-transparent -z-10" />
                     <h2 className="text-4xl md:text-6xl font-bold text-white mb-8 tracking-tighter">Shift to <span className="text-blue-500 italic">Greek.</span></h2>
-                    <p className="text-xl text-gray-400 mb-12 max-w-2xl mx-auto font-medium leading-relaxed">
+                    <p className="text-xl text-primary-dark/40 mb-12 max-w-2xl mx-auto font-medium leading-relaxed">
                         Execute ancient textual analysis on the Greek variables of the New Testament layer.
                     </p>
                     <Link href="/lexicon/browse/greek" className="btn-premium px-12 py-6 bg-blue-600 text-white rounded-[32px] text-sm font-bold uppercase shadow-2xl hover:scale-105 transition-all inline-flex items-center group/btn">

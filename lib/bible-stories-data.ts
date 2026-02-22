@@ -2,15 +2,51 @@ import fs from 'fs';
 import path from 'path';
 
 export interface BibleStory {
-  reference: string;
   title: string;
   slug: string;
+  description: string;
+  category: string;
+  categorySlug: string;
+  verses: string[];
+  themes: string[];
+  characters: string[];
+  narrative: string;
+  kidsTitle: string;
+  kidsDescription: string;
+  kidsNarrative: string;
   book: string;
-  chapter: number;
   bookSlug: string;
+  chapter: number;
+}
+
+export interface StoryCategory {
+  name: string;
+  slug: string;
+  description: string;
+}
+
+interface RawStory {
+  title: string;
+  slug: string;
+  description: string;
+  verses: string[];
+  themes: string[];
+  characters: string[];
+  narrative: string;
+  kids_title: string;
+  kids_description: string;
+  kids_narrative: string;
+}
+
+interface RawFile {
+  category: string;
+  slug: string;
+  description: string;
+  stories: RawStory[];
 }
 
 let _cache: BibleStory[] | null = null;
+let _categoryCache: StoryCategory[] | null = null;
 
 function toSlug(text: string): string {
   return text
@@ -19,70 +55,86 @@ function toSlug(text: string): string {
     .replace(/(^-|-$)/g, '');
 }
 
-function extractBook(reference: string): string {
-  // Extract book name from references like "Genesis 1:1-25" or "1 Samuel 3:1-18"
-  const match = reference.match(/^(\d?\s?[A-Za-z]+)\s/);
-  return match ? match[1].trim() : '';
-}
-
-function extractChapter(reference: string): number {
-  const match = reference.match(/(\d+):/);
-  return match ? parseInt(match[1], 10) : 0;
+function extractBookAndChapter(verseRef: string): { book: string; chapter: number } {
+  // Match book name (optional leading digit + words) and chapter number
+  // Examples: "Genesis 1:1-31", "1 Samuel 3:1-21", "Exodus 14:1-31"
+  const match = verseRef.match(/^(\d?\s?[A-Za-z]+(?:\s+of\s+[A-Za-z]+)?)\s+(\d+)/);
+  if (match) {
+    return { book: match[1].trim(), chapter: parseInt(match[2], 10) };
+  }
+  return { book: '', chapter: 0 };
 }
 
 function loadAll(): BibleStory[] {
   if (_cache) return _cache;
 
-  const csvPath = path.join(process.cwd(), "Children's Bible stories - Sheet1.csv");
-  if (!fs.existsSync(csvPath)) return [];
+  const storiesDir = path.join(process.cwd(), 'data/kjvstudy/stories');
+  if (!fs.existsSync(storiesDir)) return [];
 
-  const csv = fs.readFileSync(csvPath, 'utf-8');
-  const clean = csv.charCodeAt(0) === 0xFEFF ? csv.slice(1) : csv;
-  const lines = clean.trim().split('\n');
+  const files = fs.readdirSync(storiesDir)
+    .filter(f => f.endsWith('.json'))
+    .sort();
 
-  // The CSV is a matrix: first column is Reference, second is Story title
-  // Rows 1-6 are headers/metadata, row 7 is separator, actual data starts at row 8
   const stories: BibleStory[] = [];
-  const slugCounts = new Map<string, number>();
 
-  for (let i = 7; i < lines.length; i++) {
-    const line = lines[i];
-    if (!line.trim()) continue;
+  for (const file of files) {
+    const raw: RawFile = JSON.parse(
+      fs.readFileSync(path.join(storiesDir, file), 'utf-8')
+    );
 
-    // Split on first two commas to get Reference and Story
-    const firstComma = line.indexOf(',');
-    if (firstComma === -1) continue;
+    for (const s of raw.stories) {
+      const firstVerse = s.verses[0] || '';
+      const { book, chapter } = extractBookAndChapter(firstVerse);
 
-    const reference = line.slice(0, firstComma).trim();
-    if (!reference || !reference.match(/^[0-9]?\s?[A-Z]/i)) continue;
-
-    const rest = line.slice(firstComma + 1);
-    const secondComma = rest.indexOf(',');
-    const title = (secondComma === -1 ? rest : rest.slice(0, secondComma)).trim();
-    if (!title) continue;
-
-    const book = extractBook(reference);
-    const chapter = extractChapter(reference);
-    let baseSlug = toSlug(title);
-    if (!baseSlug) baseSlug = toSlug(reference);
-
-    // Deduplicate slugs
-    const count = slugCounts.get(baseSlug) || 0;
-    slugCounts.set(baseSlug, count + 1);
-    const slug = count > 0 ? `${baseSlug}-${count + 1}` : baseSlug;
-
-    stories.push({
-      reference,
-      title,
-      slug,
-      book,
-      chapter,
-      bookSlug: toSlug(book),
-    });
+      stories.push({
+        title: s.title,
+        slug: s.slug,
+        description: s.description,
+        category: raw.category,
+        categorySlug: raw.slug,
+        verses: s.verses,
+        themes: s.themes,
+        characters: s.characters,
+        narrative: s.narrative,
+        kidsTitle: s.kids_title,
+        kidsDescription: s.kids_description || '',
+        kidsNarrative: s.kids_narrative,
+        book,
+        bookSlug: toSlug(book),
+        chapter,
+      });
+    }
   }
 
   _cache = stories;
   return _cache;
+}
+
+function loadCategories(): StoryCategory[] {
+  if (_categoryCache) return _categoryCache;
+
+  const storiesDir = path.join(process.cwd(), 'data/kjvstudy/stories');
+  if (!fs.existsSync(storiesDir)) return [];
+
+  const files = fs.readdirSync(storiesDir)
+    .filter(f => f.endsWith('.json'))
+    .sort();
+
+  const categories: StoryCategory[] = [];
+
+  for (const file of files) {
+    const raw: RawFile = JSON.parse(
+      fs.readFileSync(path.join(storiesDir, file), 'utf-8')
+    );
+    categories.push({
+      name: raw.category,
+      slug: raw.slug,
+      description: raw.description,
+    });
+  }
+
+  _categoryCache = categories;
+  return _categoryCache;
 }
 
 // ── Public API ──
@@ -112,5 +164,14 @@ export function getStoriesStats() {
   return {
     total: all.length,
     books: getStoryBooks().length,
+    categories: getCategories().length,
   };
+}
+
+export function getCategories(): StoryCategory[] {
+  return loadCategories();
+}
+
+export function getStoriesByCategory(categorySlug: string): BibleStory[] {
+  return loadAll().filter(s => s.categorySlug === categorySlug);
 }

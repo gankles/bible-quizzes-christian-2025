@@ -103,10 +103,10 @@ export default function BookChaptersClient({
       <section className="py-12 md:py-16 bg-white border-b">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
+            <h2 className="text-2xl md:text-3xl font-bold text-scripture mb-2">
               Build Your {bookName} Study Plan
             </h2>
-            <p className="text-gray-600">
+            <p className="text-primary-dark/70">
               Tell us how many days you have, and we&apos;ll create a personalized reading schedule.
               No rush—God&apos;s Word isn&apos;t going anywhere.
             </p>
@@ -114,7 +114,7 @@ export default function BookChaptersClient({
 
           <div className={`${testament === 'old' ? 'bg-amber-50 border-amber-200' : 'bg-blue-50 border-blue-200'} border rounded-xl p-6`}>
             <div className="flex flex-col sm:flex-row items-center gap-4 mb-6">
-              <label className="font-medium text-gray-700">I want to finish {bookName} in</label>
+              <label className="font-medium text-primary-dark/80">I want to finish {bookName} in</label>
               <select
                 value={studyDays}
                 onChange={(e) => setStudyDays(Number(e.target.value))}
@@ -149,17 +149,17 @@ export default function BookChaptersClient({
                 </div>
                 <div className="max-h-64 overflow-y-auto">
                   <table className="w-full text-sm">
-                    <thead className="bg-gray-50 sticky top-0">
+                    <thead className="bg-primary-light/30 sticky top-0">
                       <tr>
-                        <th className="px-4 py-2 text-left font-medium text-gray-600">Day</th>
-                        <th className="px-4 py-2 text-left font-medium text-gray-600">Chapters</th>
-                        <th className="px-4 py-2 text-left font-medium text-gray-600">Focus</th>
-                        <th className="px-4 py-2 text-left font-medium text-gray-600">Quiz Link</th>
+                        <th className="px-4 py-2 text-left font-medium text-primary-dark/70">Day</th>
+                        <th className="px-4 py-2 text-left font-medium text-primary-dark/70">Chapters</th>
+                        <th className="px-4 py-2 text-left font-medium text-primary-dark/70">Focus</th>
+                        <th className="px-4 py-2 text-left font-medium text-primary-dark/70">Quiz Link</th>
                       </tr>
                     </thead>
                     <tbody>
                       {generateStudyPlan().map((item) => (
-                        <tr key={item.day} className={`border-t border-gray-100 ${testament === 'old' ? 'hover:bg-amber-50' : 'hover:bg-blue-50'}`}>
+                        <tr key={item.day} className={`border-t border-grace/50 ${testament === 'old' ? 'hover:bg-amber-50' : 'hover:bg-primary-light'}`}>
                           <td className="px-4 py-2 font-medium">Day {item.day}</td>
                           <td className="px-4 py-2">
                             {item.chapters.length === 1
@@ -167,7 +167,7 @@ export default function BookChaptersClient({
                               : `Chapters ${item.chapters[0]}-${item.chapters[item.chapters.length - 1]}`
                             }
                           </td>
-                          <td className="px-4 py-2 text-gray-600">{item.focus}</td>
+                          <td className="px-4 py-2 text-primary-dark/70">{item.focus}</td>
                           <td className="px-4 py-2">
                             <Link
                               href={`/${bookSlug}-${item.chapters[0]}-quiz`}
@@ -188,18 +188,18 @@ export default function BookChaptersClient({
       </section>
 
       {/* Chapter Grid Section */}
-      <section className="py-8 bg-gray-50">
+      <section className="py-8 bg-primary-light/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {sections.length > 1 && (
             <>
-              <h2 className="text-xl font-bold text-gray-900 mb-4 text-center">Filter by Section</h2>
+              <h2 className="text-xl font-bold text-scripture mb-4 text-center">Filter by Section</h2>
               <div className="flex flex-wrap justify-center gap-3 mb-8">
                 <button
                   onClick={() => setSelectedSection(null)}
                   className={`px-4 py-2 rounded-lg font-medium transition-colors ${
                     selectedSection === null
-                      ? 'bg-gray-900 text-white'
-                      : 'bg-white border border-gray-200 text-gray-700 hover:border-gray-400'
+                      ? 'bg-scripture text-white'
+                      : 'bg-white border border-grace text-primary-dark/80 hover:border-primary-dark/40'
                   }`}
                 >
                   All Chapters ({totalChapters})
@@ -211,7 +211,7 @@ export default function BookChaptersClient({
                     className={`px-4 py-2 rounded-lg font-medium transition-colors border ${
                       selectedSection === section.name
                         ? section.color
-                        : 'bg-white border-gray-200 text-gray-700 hover:border-gray-400'
+                        : 'bg-white border-grace text-primary-dark/80 hover:border-primary-dark/40'
                     }`}
                   >
                     {section.name} ({section.chaptersRange})
@@ -220,7 +220,7 @@ export default function BookChaptersClient({
               </div>
 
               {selectedSection && (
-                <p className="text-center text-gray-600 mb-6">
+                <p className="text-center text-primary-dark/70 mb-6">
                   {sections.find(s => s.name === selectedSection)?.description}
                 </p>
               )}
@@ -231,16 +231,16 @@ export default function BookChaptersClient({
             {filteredChapters.map((chapter) => (
               <div
                 key={chapter}
-                className="flex flex-col rounded-lg bg-white border border-gray-200 shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden"
+                className="flex flex-col rounded-lg bg-white border border-grace shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden"
               >
                 <Link
                   href={`/${bookSlug}-${chapter}-quiz`}
                   className={`group flex-1 flex flex-col items-center justify-center py-3 transition-colors ${
-                    testament === 'old' ? 'hover:bg-amber-50' : 'hover:bg-blue-50'
+                    testament === 'old' ? 'hover:bg-amber-50' : 'hover:bg-primary-light'
                   }`}
                   title={`${bookName} ${chapter} Quiz`}
                 >
-                  <span className={`text-lg md:text-xl font-bold text-gray-700 ${
+                  <span className={`text-lg md:text-xl font-bold text-primary-dark/80 ${
                     testament === 'old' ? 'group-hover:text-amber-700' : 'group-hover:text-blue-700'
                   }`}>
                     {chapter}
@@ -248,10 +248,10 @@ export default function BookChaptersClient({
                 </Link>
                 <Link
                   href={`/chapters/${bookSlug}/${chapter}`}
-                  className={`text-center text-xs py-1.5 border-t border-gray-100 transition-colors ${
+                  className={`text-center text-xs py-1.5 border-t border-grace/50 transition-colors ${
                     testament === 'old'
                       ? 'text-amber-600 hover:bg-amber-50'
-                      : 'text-blue-600 hover:bg-blue-50'
+                      : 'text-blue-600 hover:bg-primary-light'
                   }`}
                   title={`Read ${bookName} ${chapter}`}
                 >
@@ -286,7 +286,7 @@ export default function BookChaptersClient({
               className={`${
                 testament === 'old'
                   ? 'bg-white text-amber-900 hover:bg-amber-50'
-                  : 'bg-white text-blue-900 hover:bg-blue-50'
+                  : 'bg-white text-blue-900 hover:bg-primary-light'
               } px-8 py-3 rounded-lg font-semibold transition-colors`}
             >
               Start with Chapter 1

@@ -43,32 +43,32 @@ export default async function TopicInBookPage({ params }: Props) {
     const frequency = verses.length
 
     return (
-        <div className="min-h-screen bg-gray-50">
-            <nav className="bg-white border-b border-gray-200">
+        <div className="min-h-screen bg-primary-light/30">
+            <nav className="bg-white border-b border-grace">
                 <div className="max-w-4xl mx-auto px-4 py-3">
                     <ol className="flex items-center flex-wrap gap-y-1 text-sm">
                         <li>
                             <Link href="/" className="text-blue-600 hover:underline">Home</Link>
                         </li>
-                        <li className="text-gray-400 mx-2">/</li>
+                        <li className="text-primary-dark/40 mx-2">/</li>
                         <li>
                             <Link href="/topics" className="text-blue-600 hover:underline">Topics</Link>
                         </li>
-                        <li className="text-gray-400 mx-2">/</li>
+                        <li className="text-primary-dark/40 mx-2">/</li>
                         <li>
                             <Link href={`/topics/${slug}`} className="text-blue-600 hover:underline">{topicName}</Link>
                         </li>
-                        <li className="text-gray-400 mx-2">/</li>
-                        <li className="text-gray-600">{bookName}</li>
+                        <li className="text-primary-dark/40 mx-2">/</li>
+                        <li className="text-primary-dark/70">{bookName}</li>
                     </ol>
                 </div>
             </nav>
 
             <main className="max-w-4xl mx-auto px-4 py-8">
-                <header className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden mb-6">
+                <header className="bg-white rounded-xl shadow-sm border border-grace overflow-hidden mb-6">
                     <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-8">
                         <p className="text-blue-100 text-sm font-medium mb-2">Thematic Book Study</p>
-                        <h1 className="text-3xl font-bold">
+                        <h1 className="text-3xl font-display font-bold">
                             {topicName} in <span className="text-blue-100">{bookName}</span>
                         </h1>
                         <p className="text-blue-100 mt-2">
@@ -78,24 +78,24 @@ export default async function TopicInBookPage({ params }: Props) {
                 </header>
 
                 <div className="grid grid-cols-3 gap-4 mb-6">
-                    <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
+                    <div className="bg-white border border-grace rounded-lg shadow-sm p-4 text-center">
                         <div className="text-2xl font-bold text-blue-600">{frequency}</div>
-                        <div className="text-xs text-gray-500 mt-1">Verses Found</div>
+                        <div className="text-xs text-primary-dark/60 mt-1">Verses Found</div>
                     </div>
-                    <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
+                    <div className="bg-white border border-grace rounded-lg shadow-sm p-4 text-center">
                         <div className="text-2xl font-bold text-blue-600">{bookData.testament}</div>
-                        <div className="text-xs text-gray-500 mt-1">Testament</div>
+                        <div className="text-xs text-primary-dark/60 mt-1">Testament</div>
                     </div>
-                    <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
+                    <div className="bg-white border border-grace rounded-lg shadow-sm p-4 text-center">
                         <div className="text-2xl font-bold text-blue-600">Deep</div>
-                        <div className="text-xs text-gray-500 mt-1">Study Level</div>
+                        <div className="text-xs text-primary-dark/60 mt-1">Study Level</div>
                     </div>
                 </div>
 
                 {/* Literary Analysis */}
-                <section className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-6">
-                    <h2 className="text-lg font-bold text-gray-900 mb-4">Literary & Theological Context</h2>
-                    <p className="text-gray-600 leading-relaxed">
+                <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
+                    <h2 className="text-lg font-bold text-scripture mb-4">Literary & Theological Context</h2>
+                    <p className="text-primary-dark/70 leading-relaxed">
                         The author of {bookName} treats the theme of {topicName} with emphasis on its theological significance.
                         Unlike other books in the {bookData.testament} Testament, {bookName} highlights the practical application
                         of {topicName} within its unique historical and literary context.
@@ -104,7 +104,7 @@ export default async function TopicInBookPage({ params }: Props) {
 
                 {/* Key Verses */}
                 <section className="mb-6">
-                    <h2 className="text-xl font-bold text-gray-900 mb-4">
+                    <h2 className="text-xl font-bold text-scripture mb-4">
                         {frequency} Key Verses on {topicName} in {bookName}
                     </h2>
 
@@ -112,9 +112,9 @@ export default async function TopicInBookPage({ params }: Props) {
                         {verses.map((verse: any, i: number) => (
                             <div
                                 key={i}
-                                className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow"
+                                className="bg-white rounded-xl shadow-sm border border-grace p-6 hover:shadow-md transition-shadow"
                             >
-                                <blockquote className="text-lg text-gray-700 leading-relaxed mb-4 border-l-4 border-blue-600 pl-4 italic">
+                                <blockquote className="text-lg text-primary-dark/80 leading-relaxed mb-4 border-l-4 border-blue-600 pl-4 italic">
                                     &ldquo;{verse.text}&rdquo;
                                 </blockquote>
                                 <div className="flex items-center justify-between">
@@ -126,7 +126,7 @@ export default async function TopicInBookPage({ params }: Props) {
                                     </Link>
                                     <Link
                                         href={`/cross-references/${verse.book}/${verse.chapter}/${verse.verse}`}
-                                        className="text-sm text-gray-500 hover:text-blue-600"
+                                        className="text-sm text-primary-dark/60 hover:text-blue-600"
                                     >
                                         Cross-references
                                     </Link>
@@ -144,15 +144,15 @@ export default async function TopicInBookPage({ params }: Props) {
                     </div>
                     <Link
                         href={`/${book}-chapters`}
-                        className="whitespace-nowrap px-6 py-3 bg-white text-blue-600 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+                        className="whitespace-nowrap px-6 py-3 bg-white text-blue-600 rounded-lg font-semibold hover:bg-grace/20 transition-colors"
                     >
                         {bookName} Chapters
                     </Link>
                 </section>
 
                 {/* Internal Links */}
-                <section className="bg-gray-50 border border-gray-200 rounded-xl p-6">
-                    <h3 className="text-lg font-bold text-gray-900 mb-3">Related Resources</h3>
+                <section className="bg-grace/10 border border-grace rounded-xl p-6">
+                    <h3 className="text-lg font-bold text-scripture mb-3">Related Resources</h3>
                     <div className="grid gap-2 sm:grid-cols-2">
                         <Link href={`/topics/${slug}`} className="text-blue-600 hover:underline text-sm">
                             All {topicName} Verses

@@ -5,8 +5,8 @@ export default function NotFound() {
     <div className="min-h-[60vh] flex items-center justify-center px-4">
       <div className="max-w-lg text-center">
         <p className="text-6xl font-bold text-blue-600 mb-4">404</p>
-        <h1 className="text-2xl font-bold text-gray-900 mb-2">Page Not Found</h1>
-        <p className="text-gray-600 mb-8">
+        <h1 className="text-2xl font-bold text-scripture mb-2">Page Not Found</h1>
+        <p className="text-primary-dark/70 mb-8">
           The page you&apos;re looking for doesn&apos;t exist or may have been moved.
         </p>
 
@@ -19,14 +19,14 @@ export default function NotFound() {
           </Link>
           <Link
             href="/bible-quizzes"
-            className="border border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-medium hover:bg-gray-50 transition-colors"
+            className="border border-grace text-primary-dark/80 px-6 py-3 rounded-lg font-medium hover:bg-primary-light/30 transition-colors"
           >
             Browse Quizzes
           </Link>
         </div>
 
-        <div className="border-t border-gray-200 pt-6">
-          <p className="text-sm text-gray-500 mb-3">Popular starting points:</p>
+        <div className="border-t border-grace pt-6">
+          <p className="text-sm text-primary-dark/60 mb-3">Popular starting points:</p>
           <div className="flex flex-wrap justify-center gap-2">
             {[
               { href: '/genesis-chapters', label: 'Genesis' },

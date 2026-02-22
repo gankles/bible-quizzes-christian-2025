@@ -17,7 +17,7 @@ export function VoiceSelector({ selectedVoice, onChange }: VoiceSelectorProps) {
                 aria-label="Scholarly voice - Academic analysis with word studies and cross-references"
                 className={`px-6 py-3 rounded-xl font-medium transition-all ${selectedVoice === 'scholarly'
                     ? 'blue-600 text-white shadow-lg'
-                    : 'bg-white dark:bg-dark-surface text-primary-dark dark:text-gray-300 hover:bg-grace dark:hover:bg-gray-700'
+                    : 'bg-white dark:bg-dark-surface text-primary-dark dark:text-primary-dark/40 hover:bg-grace dark:hover:bg-scripture/80'
                     }`}
             >
                 📚 Scholarly
@@ -30,7 +30,7 @@ export function VoiceSelector({ selectedVoice, onChange }: VoiceSelectorProps) {
                 aria-label="Devotional voice - Heart-centered reflections and prayer prompts"
                 className={`px-6 py-3 rounded-xl font-medium transition-all ${selectedVoice === 'devotional'
                     ? 'blue-600 text-white shadow-lg'
-                    : 'bg-white dark:bg-dark-surface text-primary-dark dark:text-gray-300 hover:bg-grace dark:hover:bg-gray-700'
+                    : 'bg-white dark:bg-dark-surface text-primary-dark dark:text-primary-dark/40 hover:bg-grace dark:hover:bg-scripture/80'
                     }`}
             >
                 🙏 Devotional
@@ -43,7 +43,7 @@ export function VoiceSelector({ selectedVoice, onChange }: VoiceSelectorProps) {
                 aria-label="Practical voice - Action steps and real-life applications"
                 className={`px-6 py-3 rounded-xl font-medium transition-all ${selectedVoice === 'practical'
                     ? 'blue-600 text-white shadow-lg'
-                    : 'bg-white dark:bg-dark-surface text-primary-dark dark:text-gray-300 hover:bg-grace dark:hover:bg-gray-700'
+                    : 'bg-white dark:bg-dark-surface text-primary-dark dark:text-primary-dark/40 hover:bg-grace dark:hover:bg-scripture/80'
                     }`}
             >
                 💡 Practical

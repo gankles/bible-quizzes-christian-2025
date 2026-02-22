@@ -69,15 +69,15 @@ export default async function ScripturalSlugPage({ params }: Props) {
                 />
 
                 {/* SCHOLAR'S NAVIGATION */}
-                <div className="bg-gray-50 border-b border-gray-500/10 ">
+                <div className="bg-primary-light/30 border-b border-grace/50 ">
                     <div className="max-w-7xl mx-auto px-6 h-14 flex items-center justify-between">
                         <div className="flex items-center space-x-4">
-                            <Link href="/bible-quizzes" className="group flex items-center text-gray-500 hover:text-blue-600 transition-all text-[10px] font-bold uppercase">
+                            <Link href="/bible-quizzes" className="group flex items-center text-primary-dark/60 hover:text-blue-600 transition-all text-[10px] font-bold uppercase">
                                 <ArrowLeftIcon className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" />
                                 <span>Return to Study Library</span>
                             </Link>
-                            <span className="w-px h-4 bg-gray-500/20" />
-                            <span className="text-[10px] font-bold uppercase text-gray-900/40">
+                            <span className="w-px h-4 bg-grace/30" />
+                            <span className="text-[10px] font-bold uppercase text-scripture/40">
                                 Scriptural Synergy
                             </span>
                         </div>
@@ -85,17 +85,17 @@ export default async function ScripturalSlugPage({ params }: Props) {
                 </div>
 
                 {/* HERO: SYNERGY SCAN */}
-                <section className="relative py-24 overflow-hidden border-b border-gray-500/10 bg-white">
+                <section className="relative py-24 overflow-hidden border-b border-grace/50 bg-white">
                     <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/felt-paper.png')] opacity-10" />
                     <div className="max-w-7xl mx-auto px-6 text-center relative z-10">
-                        <div className="inline-flex items-center space-x-3 px-6 py-1.5 rounded-lg border border-gray-500/20 bg-gray-50 text-gray-500 text-[10px] font-bold uppercase  mb-12 shadow-sm">
+                        <div className="inline-flex items-center space-x-3 px-6 py-1.5 rounded-lg border border-grace bg-primary-light/30 text-primary-dark/60 text-[10px] font-bold uppercase  mb-12 shadow-sm">
                             <SparklesIcon className="w-4 h-4" />
                             <span>Scriptural Comparison</span>
                         </div>
-                        <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-8 tracking-tighter leading-tight uppercase italic">
+                        <h1 className="text-5xl md:text-7xl font-bold text-scripture mb-8 tracking-tighter leading-tight uppercase italic">
                             {verse1.bookName} {verse1.chapter}:{verse1.verse} <span className="text-blue-600 not-italic font-light">&</span> {verse2.bookName} {verse2.chapter}:{verse2.verse}
                         </h1>
-                        <p className="text-xl text-gray-900/40 font-medium max-w-3xl mx-auto mb-16 leading-relaxed italic">
+                        <p className="text-xl text-scripture/40 font-medium max-w-3xl mx-auto mb-16 leading-relaxed italic">
                             Exploring the theological intersection between two powerful scriptural passages.
                             Uncovering the harmony of truth.
                         </p>
@@ -105,26 +105,26 @@ export default async function ScripturalSlugPage({ params }: Props) {
                 {/* SIDE-BY-SIDE: THE SYMMETRY CARDS */}
                 <section className="py-24 max-w-7xl mx-auto px-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-24">
-                        <div className="group p-12 md:p-16 rounded-xl border border-gray-500/10 bg-white shadow-xl relative overflow-hidden transition-all duration-700 hover:-translate-y-1">
-                            <div className="text-[10px] font-bold text-gray-500 uppercase  mb-10">Passage I: {verse1.bookName}</div>
-                            <p className="text-2xl md:text-3xl font-bold text-gray-900 leading-[1.4] italic uppercase border-l-4 border-gray-50 group-hover:border-blue-600 transition-colors pl-10">
+                        <div className="group p-12 md:p-16 rounded-xl border border-grace/50 bg-white shadow-xl relative overflow-hidden transition-all duration-700 hover:-translate-y-1">
+                            <div className="text-[10px] font-bold text-primary-dark/60 uppercase  mb-10">Passage I: {verse1.bookName}</div>
+                            <p className="text-2xl md:text-3xl font-bold text-scripture leading-[1.4] italic uppercase border-l-4 border-grace/50 group-hover:border-blue-600 transition-colors pl-10">
                                 "{verse1.text}"
                             </p>
                             <div className="mt-12 flex items-center justify-between">
-                                <span className="text-[10px] font-bold text-gray-900/20 uppercase">{verse1.translation} Standard</span>
+                                <span className="text-[10px] font-bold text-scripture/20 uppercase">{verse1.translation} Standard</span>
                                 <Link href={`/verses/${verse1.book}/${verse1.chapter}/${verse1.verse}`} className="text-[10px] font-bold text-blue-600 uppercase opacity-0 group-hover:opacity-100 transition-all flex items-center">
                                     Full Study <ArrowRightIcon className="w-4 h-4 ml-2" />
                                 </Link>
                             </div>
                         </div>
 
-                        <div className="group p-12 md:p-16 rounded-xl border border-gray-500/10 bg-white shadow-xl relative overflow-hidden transition-all duration-700 hover:-translate-y-1">
-                            <div className="text-[10px] font-bold text-gray-500 uppercase  mb-10">Passage II: {verse2.bookName}</div>
-                            <p className="text-2xl md:text-3xl font-bold text-gray-900 leading-[1.4] italic uppercase border-l-4 border-gray-50 group-hover:border-blue-600 transition-colors pl-10">
+                        <div className="group p-12 md:p-16 rounded-xl border border-grace/50 bg-white shadow-xl relative overflow-hidden transition-all duration-700 hover:-translate-y-1">
+                            <div className="text-[10px] font-bold text-primary-dark/60 uppercase  mb-10">Passage II: {verse2.bookName}</div>
+                            <p className="text-2xl md:text-3xl font-bold text-scripture leading-[1.4] italic uppercase border-l-4 border-grace/50 group-hover:border-blue-600 transition-colors pl-10">
                                 "{verse2.text}"
                             </p>
                             <div className="mt-12 flex items-center justify-between">
-                                <span className="text-[10px] font-bold text-gray-900/20 uppercase">{verse2.translation} Standard</span>
+                                <span className="text-[10px] font-bold text-scripture/20 uppercase">{verse2.translation} Standard</span>
                                 <Link href={`/verses/${verse2.book}/${verse2.chapter}/${verse2.verse}`} className="text-[10px] font-bold text-blue-600 uppercase opacity-0 group-hover:opacity-100 transition-all flex items-center">
                                     Full Study <ArrowRightIcon className="w-4 h-4 ml-2" />
                                 </Link>
@@ -134,7 +134,7 @@ export default async function ScripturalSlugPage({ params }: Props) {
 
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
                         <div className="lg:col-span-8">
-                            <div className="p-12 md:p-20 rounded-[48px] bg-gray-900 text-white shadow-2xl relative overflow-hidden group">
+                            <div className="p-12 md:p-20 rounded-[48px] bg-scripture text-white shadow-2xl relative overflow-hidden group">
                                 <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/felt-paper.png')] opacity-10" />
                                 <div className="flex items-center space-x-6 mb-12">
                                     <div className="w-16 h-16 rounded-lg bg-blue-600 flex items-center justify-center text-white shadow-2xl group-hover:rotate-12 transition-transform">
@@ -149,15 +149,15 @@ export default async function ScripturalSlugPage({ params }: Props) {
                         </div>
 
                         <div className="lg:col-span-4">
-                            <div className="p-12 rounded-xl bg-white border border-gray-500/10 shadow-xl">
+                            <div className="p-12 rounded-xl bg-white border border-grace/50 shadow-xl">
                                 <h3 className="text-xl font-bold mb-8 uppercase text-blue-600 italic">Study Metadata</h3>
                                 <div className="space-y-6">
-                                    <div className="flex items-center justify-between border-b border-gray-50 pb-4">
-                                        <span className="text-gray-900/30 font-bold uppercase text-[10px]">Contextual Parity</span>
-                                        <span className="text-gray-900 font-bold">Scholarly</span>
+                                    <div className="flex items-center justify-between border-b border-grace/50 pb-4">
+                                        <span className="text-scripture/30 font-bold uppercase text-[10px]">Contextual Parity</span>
+                                        <span className="text-scripture font-bold">Scholarly</span>
                                     </div>
-                                    <div className="flex items-center justify-between border-b border-gray-50 pb-4">
-                                        <span className="text-gray-900/30 font-bold uppercase text-[10px]">Theological Depth</span>
+                                    <div className="flex items-center justify-between border-b border-grace/50 pb-4">
+                                        <span className="text-scripture/30 font-bold uppercase text-[10px]">Theological Depth</span>
                                         <span className="text-blue-600 font-bold italic">Foundational</span>
                                     </div>
                                 </div>
@@ -175,15 +175,15 @@ export default async function ScripturalSlugPage({ params }: Props) {
         return (
             <div className="bg-[#FAFAF9] pb-32 min-h-screen">
                 {/* SCHOLAR'S NAVIGATION */}
-                <div className="bg-gray-50 border-b border-gray-500/10 ">
+                <div className="bg-primary-light/30 border-b border-grace/50 ">
                     <div className="max-w-7xl mx-auto px-6 h-14 flex items-center justify-between">
                         <div className="flex items-center space-x-4">
-                            <Link href="/bible-quizzes" className="group flex items-center text-gray-500 hover:text-blue-600 transition-all text-[10px] font-bold uppercase">
+                            <Link href="/bible-quizzes" className="group flex items-center text-primary-dark/60 hover:text-blue-600 transition-all text-[10px] font-bold uppercase">
                                 <ArrowLeftIcon className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" />
                                 <span>Return to Library</span>
                             </Link>
-                            <span className="w-px h-4 bg-gray-500/20" />
-                            <span className="text-[10px] font-bold uppercase text-gray-900">
+                            <span className="w-px h-4 bg-grace/30" />
+                            <span className="text-[10px] font-bold uppercase text-scripture">
                                 {bookData.name} Study Hub
                             </span>
                         </div>
@@ -191,17 +191,17 @@ export default async function ScripturalSlugPage({ params }: Props) {
                 </div>
 
                 {/* HERO: BOOK STUDY */}
-                <section className="relative py-24 overflow-hidden border-b border-gray-500/10 bg-white">
+                <section className="relative py-24 overflow-hidden border-b border-grace/50 bg-white">
                     <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/felt-paper.png')] opacity-10" />
                     <div className="max-w-7xl mx-auto px-6 text-center relative z-10">
-                        <div className="inline-flex items-center space-x-3 px-6 py-1.5 rounded-lg border border-gray-500/20 bg-gray-50 text-gray-500 text-[10px] font-bold uppercase  mb-12 shadow-sm">
+                        <div className="inline-flex items-center space-x-3 px-6 py-1.5 rounded-lg border border-grace bg-primary-light/30 text-primary-dark/60 text-[10px] font-bold uppercase  mb-12 shadow-sm">
                             <SparklesIcon className="w-4 h-4" />
                             <span>Scriptural Study: {bookData.name}</span>
                         </div>
-                        <h1 className="text-6xl md:text-8xl font-bold text-gray-900 mb-8 tracking-tighter leading-tight uppercase italic">
+                        <h1 className="text-6xl md:text-8xl font-bold text-scripture mb-8 tracking-tighter leading-tight uppercase italic">
                             The Book of <span className="text-blue-600 not-italic font-light">{bookData.name}</span>
                         </h1>
-                        <p className="text-xl text-gray-900/40 font-medium uppercase  mb-16 italic">
+                        <p className="text-xl text-scripture/40 font-medium uppercase  mb-16 italic">
                             {bookData.testament} Testament • Canonical Study
                         </p>
                     </div>
@@ -210,8 +210,8 @@ export default async function ScripturalSlugPage({ params }: Props) {
                 {/* CHAPTER GRID */}
                 <main className="max-w-7xl mx-auto px-6 py-24">
                     <div className="flex items-center justify-between mb-16">
-                        <h2 className="text-4xl font-bold text-gray-900 tracking-tight uppercase italic">Navigate <span className="text-blue-600/30 not-italic font-light text-3xl">Chapters.</span></h2>
-                        <span className="text-[10px] font-bold text-gray-900/30 uppercase">
+                        <h2 className="text-4xl font-bold text-scripture tracking-tight uppercase italic">Navigate <span className="text-blue-600/30 not-italic font-light text-3xl">Chapters.</span></h2>
+                        <span className="text-[10px] font-bold text-scripture/30 uppercase">
                             {bookData.chapters} Chapters
                         </span>
                     </div>
@@ -220,10 +220,10 @@ export default async function ScripturalSlugPage({ params }: Props) {
                             <Link
                                 key={chapterNum}
                                 href={`/verses/${slug}/${chapterNum}`}
-                                className="group aspect-square flex flex-col items-center justify-center rounded-lg border border-gray-500/10 bg-white hover:bg-gray-900 hover:border-gray-900 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl shadow-lg"
+                                className="group aspect-square flex flex-col items-center justify-center rounded-lg border border-grace/50 bg-white hover:bg-scripture hover:border-scripture transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl shadow-lg"
                             >
-                                <span className="text-[9px] font-bold text-gray-500 uppercase mb-1 group-hover:text-blue-600">CH</span>
-                                <span className="text-3xl font-bold text-gray-900 group-hover:text-white transition-colors">{chapterNum}</span>
+                                <span className="text-[9px] font-bold text-primary-dark/60 uppercase mb-1 group-hover:text-blue-600">CH</span>
+                                <span className="text-3xl font-bold text-scripture group-hover:text-white transition-colors">{chapterNum}</span>
                             </Link>
                         ))}
                     </div>

@@ -12,6 +12,7 @@ import QuizPage from '@/components/QuizPage';
 import BookChaptersClient from '@/components/BookChaptersClient';
 import ChapterCommandments from '@/components/ChapterCommandments';
 import { getCommandmentsByChapter } from '@/lib/commandments-data';
+import { getBookIntroduction } from '@/lib/book-introductions';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -71,22 +72,22 @@ function ChapterQuizIntro({ book, chapter, bookDisplayName, chapterInfo, bookMet
   bookMeta: { author: string; dateWritten: string; category: string; keyThemes: string[] } | null | undefined;
 }) {
   return (
-    <div className="bg-white border-b border-gray-200">
+    <div className="bg-white border-b border-grace">
       <div className="max-w-4xl mx-auto px-4 py-3">
         <nav aria-label="Breadcrumb">
           <ol className="flex items-center flex-wrap gap-y-1 text-sm">
             <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
-            <li className="text-gray-400 mx-2">/</li>
+            <li className="text-primary-dark/40 mx-2">/</li>
             <li><Link href="/bible-quizzes" className="text-blue-600 hover:underline">Bible Quizzes</Link></li>
-            <li className="text-gray-400 mx-2">/</li>
+            <li className="text-primary-dark/40 mx-2">/</li>
             <li><Link href={`/${book}-chapters`} className="text-blue-600 hover:underline">{bookDisplayName}</Link></li>
-            <li className="text-gray-400 mx-2">/</li>
-            <li className="text-gray-600">Chapter {chapter}</li>
+            <li className="text-primary-dark/40 mx-2">/</li>
+            <li className="text-primary-dark/70">Chapter {chapter}</li>
           </ol>
         </nav>
       </div>
       <div className="max-w-4xl mx-auto px-4 pb-6 pt-2">
-        <p className="text-gray-600 leading-relaxed">
+        <p className="text-primary-dark/70 leading-relaxed">
           {chapterInfo
             ? `${bookDisplayName} chapter ${chapter} covers ${chapterInfo.title.toLowerCase()}${chapterInfo.keyEvent ? ` — ${chapterInfo.keyEvent.toLowerCase()}` : ''}. `
             : `Test your knowledge of ${bookDisplayName} chapter ${chapter}. `}
@@ -239,6 +240,7 @@ export default async function DynamicPage({ params }: PageProps) {
     const totalChapters = getBookChapters(chaptersBook);
     const testament = meta?.testament || 'old';
     const chapterBreakdown = loadChapterBreakdown(chaptersBook);
+    const bookIntro = getBookIntroduction(chaptersBook);
 
     // Build sections from outline
     const sections = (meta?.outline || []).map((item, i) => {
@@ -389,37 +391,95 @@ export default async function DynamicPage({ params }: PageProps) {
           testament={testament}
         />
 
+        {bookIntro && (
+          <section className="py-12 bg-white">
+            <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+              {/* Introduction */}
+              <div className="mb-10">
+                <h2 className="text-2xl font-bold text-scripture mb-4">About {bookName}</h2>
+                <div className="text-primary-dark/80 leading-relaxed space-y-4">
+                  {bookIntro.introduction.split('\n\n').slice(0, 3).map((p, i) => (
+                    <p key={i}>{p}</p>
+                  ))}
+                </div>
+              </div>
+
+              {/* Key Themes */}
+              {bookIntro.keyThemes.length > 0 && (
+                <div className="mb-10">
+                  <h2 className="text-2xl font-bold text-scripture mb-4">Key Themes</h2>
+                  <div className="grid gap-4 sm:grid-cols-2">
+                    {bookIntro.keyThemes.slice(0, 6).map((t, i) => (
+                      <div key={i} className="border border-grace rounded-lg p-4">
+                        <h3 className="font-semibold text-scripture mb-1">{t.theme}</h3>
+                        <p className="text-sm text-primary-dark/70">{t.description.slice(0, 150)}{t.description.length > 150 ? '...' : ''}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Christ in Book */}
+              {bookIntro.christInBook && (
+                <div className="mb-10">
+                  <h2 className="text-2xl font-bold text-scripture mb-4">Christ in {bookName}</h2>
+                  <div className="text-primary-dark/80 leading-relaxed space-y-4">
+                    {bookIntro.christInBook.split('\n\n').slice(0, 2).map((p, i) => (
+                      <p key={i}>{p}</p>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Key Verses */}
+              {bookIntro.keyVerses.length > 0 && (
+                <div className="mb-10">
+                  <h2 className="text-2xl font-bold text-scripture mb-4">Key Verses</h2>
+                  <div className="space-y-3">
+                    {bookIntro.keyVerses.slice(0, 8).map((v, i) => (
+                      <div key={i} className="border-l-2 border-blue-300 pl-4">
+                        <p className="font-serif italic text-scripture">&ldquo;{v.text}&rdquo;</p>
+                        <p className="text-sm text-primary-dark/60 mt-1">{v.reference}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          </section>
+        )}
+
         {/* Chapter-by-Chapter Breakdown */}
         {chapterBreakdown && Object.keys(chapterBreakdown).length > 0 && (
           <section className="py-12 md:py-16 bg-white">
             <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-8">
-                <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
+                <h2 className="text-2xl md:text-3xl font-bold text-scripture mb-2">
                   Chapter-by-Chapter Breakdown
                 </h2>
-                <p className="text-gray-600">
+                <p className="text-primary-dark/70">
                   Pick your battles wisely. Here&apos;s what you&apos;re getting into.
                 </p>
               </div>
 
-              <div className="overflow-x-auto rounded-xl border border-gray-200">
+              <div className="overflow-x-auto rounded-xl border border-grace">
                 <table className="w-full text-sm">
-                  <thead className="bg-gray-50">
+                  <thead className="bg-primary-light/30">
                     <tr>
-                      <th className="px-4 py-3 text-left font-semibold text-gray-700">Ch</th>
-                      <th className="px-4 py-3 text-left font-semibold text-gray-700">Title</th>
-                      <th className="px-4 py-3 text-left font-semibold text-gray-700">Key Event</th>
-                      <th className="px-4 py-3 text-center font-semibold text-gray-700">Verses</th>
-                      <th className="px-4 py-3 text-center font-semibold text-gray-700">Action</th>
+                      <th className="px-4 py-3 text-left font-semibold text-primary-dark/80">Ch</th>
+                      <th className="px-4 py-3 text-left font-semibold text-primary-dark/80">Title</th>
+                      <th className="px-4 py-3 text-left font-semibold text-primary-dark/80">Key Event</th>
+                      <th className="px-4 py-3 text-center font-semibold text-primary-dark/80">Verses</th>
+                      <th className="px-4 py-3 text-center font-semibold text-primary-dark/80">Action</th>
                     </tr>
                   </thead>
                   <tbody>
                     {Object.entries(chapterBreakdown).slice(0, 20).map(([ch, data]) => (
-                      <tr key={ch} className={`border-t border-gray-100 ${testament === 'old' ? 'hover:bg-amber-50' : 'hover:bg-blue-50'} transition-colors`}>
+                      <tr key={ch} className={`border-t border-grace/50 ${testament === 'old' ? 'hover:bg-amber-50' : 'hover:bg-blue-50'} transition-colors`}>
                         <td className={`px-4 py-3 font-bold ${testament === 'old' ? 'text-amber-800' : 'text-blue-800'}`}>{ch}</td>
-                        <td className="px-4 py-3 font-medium text-gray-900">{data.title}</td>
-                        <td className="px-4 py-3 text-gray-600">{data.keyEvent}</td>
-                        <td className="px-4 py-3 text-center text-gray-500">{data.verses}</td>
+                        <td className="px-4 py-3 font-medium text-scripture">{data.title}</td>
+                        <td className="px-4 py-3 text-primary-dark/70">{data.keyEvent}</td>
+                        <td className="px-4 py-3 text-center text-primary-dark/60">{data.verses}</td>
                         <td className="px-4 py-3 text-center">
                           <Link
                             href={`/${chaptersBook}-${ch}-quiz`}
@@ -436,7 +496,7 @@ export default async function DynamicPage({ params }: PageProps) {
 
               {Object.keys(chapterBreakdown).length > 20 && (
                 <div className="text-center mt-4">
-                  <p className="text-sm text-gray-500">Showing first 20 of {Object.keys(chapterBreakdown).length} chapters. Click any chapter above to see its quiz.</p>
+                  <p className="text-sm text-primary-dark/60">Showing first 20 of {Object.keys(chapterBreakdown).length} chapters. Click any chapter above to see its quiz.</p>
                 </div>
               )}
             </div>

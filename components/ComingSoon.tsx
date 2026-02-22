@@ -25,11 +25,11 @@ export default function ComingSoon({
         </div>
 
         {/* Content */}
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        <h1 className="text-4xl md:text-5xl font-bold font-display text-scripture mb-4">
           {title}
         </h1>
         
-        <p className="text-xl text-gray-600 mb-6 max-w-lg mx-auto">
+        <p className="text-xl text-primary-dark/70 mb-6 max-w-lg mx-auto">
           {description}
         </p>
 
@@ -45,7 +45,7 @@ export default function ComingSoon({
 
         {/* Available Content */}
         <div className="mb-8">
-          <h2 className="text-lg font-semibold text-gray-900 mb-4">
+          <h2 className="text-lg font-semibold text-scripture mb-4">
             Available Now:
           </h2>
           <div className="flex flex-wrap justify-center gap-3">
@@ -89,18 +89,18 @@ export default function ComingSoon({
         </div>
 
         {/* Notification Signup */}
-        <div className="mt-12 bg-gray-50 rounded-lg p-6">
-          <h3 className="text-lg font-semibold text-gray-900 mb-2">
+        <div className="mt-12 bg-primary-light/30 rounded-lg p-6">
+          <h3 className="text-lg font-semibold text-scripture mb-2">
             Get Notified When We Launch
           </h3>
-          <p className="text-gray-600 text-sm mb-4">
+          <p className="text-primary-dark/70 text-sm mb-4">
             Be the first to know when new Bible quizzes are available.
           </p>
           <div className="flex flex-col sm:flex-row gap-2 max-w-md mx-auto">
             <input
               type="email"
               placeholder="Enter your email"
-              className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              className="flex-1 px-4 py-2 border border-grace rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
             />
             <button className="bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors">
               Notify Me

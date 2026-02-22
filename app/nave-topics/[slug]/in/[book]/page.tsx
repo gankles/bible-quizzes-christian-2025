@@ -78,7 +78,7 @@ export default async function NaveTopicInBookPage({ params }: PageProps) {
       <StructuredData data={jsonLd} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-gray-500">
+      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
         <Link href="/" className="hover:text-blue-600">Home</Link>
         <span className="mx-1.5">/</span>
         <Link href="/nave-topics" className="hover:text-blue-600">Nave&apos;s Topical Bible</Link>
@@ -87,7 +87,7 @@ export default async function NaveTopicInBookPage({ params }: PageProps) {
           {name}
         </Link>
         <span className="mx-1.5">/</span>
-        <span className="text-gray-900 font-medium">{bookName}</span>
+        <span className="text-scripture font-medium">{bookName}</span>
       </nav>
 
       <article className="max-w-4xl mx-auto px-4 py-8">
@@ -101,23 +101,23 @@ export default async function NaveTopicInBookPage({ params }: PageProps) {
               {bookName}
             </span>
           </div>
-          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2 capitalize">
+          <h1 className="text-3xl md:text-4xl font-display font-bold text-scripture mb-2 capitalize">
             {name} in {bookName}
           </h1>
-          <p className="text-lg text-gray-600">
+          <p className="text-lg text-primary-dark/70">
             {refCount} scripture references from Nave&apos;s Topical Bible
           </p>
         </div>
 
         {/* Entries */}
-        <div className="bg-white border border-gray-200 rounded-xl p-6 mb-8">
-          <h2 className="text-lg font-bold text-gray-900 mb-4">
+        <div className="bg-white border border-grace rounded-xl p-6 mb-8">
+          <h2 className="text-lg font-bold text-scripture mb-4">
             Entries ({entries.length})
           </h2>
           <div className="space-y-3">
             {entries.map((entry, i) => (
-              <div key={i} className="border-b border-gray-100 pb-3 last:border-0 last:pb-0">
-                <p className="text-gray-700 text-sm leading-relaxed whitespace-pre-line">
+              <div key={i} className="border-b border-grace/50 pb-3 last:border-0 last:pb-0">
+                <p className="text-primary-dark/80 text-sm leading-relaxed whitespace-pre-line">
                   {entry.text}
                 </p>
                 {entry.references.length > 0 && (
@@ -139,8 +139,8 @@ export default async function NaveTopicInBookPage({ params }: PageProps) {
 
         {/* Other books for this topic */}
         {otherBooks.length > 0 && (
-          <div className="bg-white border border-gray-200 rounded-xl p-6 mb-8">
-            <h2 className="text-lg font-bold text-gray-900 mb-4">
+          <div className="bg-white border border-grace rounded-xl p-6 mb-8">
+            <h2 className="text-lg font-bold text-scripture mb-4">
               {name} in Other Books ({otherBooks.length})
             </h2>
             <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
@@ -148,9 +148,9 @@ export default async function NaveTopicInBookPage({ params }: PageProps) {
                 <Link
                   key={b.code}
                   href={`/nave-topics/${topic.slug}/in/${b.slug}`}
-                  className="bg-gray-50 border border-gray-200 rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
+                  className="bg-primary-light/30 border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
                 >
-                  <span className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
+                  <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
                     {b.name}
                   </span>
                 </Link>
@@ -170,8 +170,8 @@ export default async function NaveTopicInBookPage({ params }: PageProps) {
         </div>
 
         {/* Internal Links */}
-        <section className="bg-gray-50 border border-gray-200 rounded-xl p-6">
-          <h2 className="text-lg font-bold text-gray-900 mb-3">Related Resources</h2>
+        <section className="bg-grace/10 border border-grace rounded-xl p-6">
+          <h2 className="text-lg font-bold text-scripture mb-3">Related Resources</h2>
           <div className="grid gap-2 sm:grid-cols-2">
             <Link href={`/nave-topics/${topic.slug}`} className="text-blue-600 hover:underline text-sm capitalize">
               {name} — Full Topic

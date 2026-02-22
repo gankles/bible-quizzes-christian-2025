@@ -6,49 +6,34 @@ interface CrossReferencesSectionProps {
   currentReference: string;
 }
 
-export default function CrossReferencesSection({ 
-  crossRefs, 
-  currentReference 
+export default function CrossReferencesSection({
+  crossRefs,
+  currentReference
 }: CrossReferencesSectionProps) {
   if (crossRefs.length === 0) return null;
 
   return (
-    <section className="bg-white border border-gray-200 rounded-lg p-4 mb-6">
-      <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">
-        Cross-References
-      </h3>
-      <p className="text-xs text-gray-500 mb-4">
-        Verses related to {currentReference}
+    <section className="mb-8">
+      <h2 className="text-xl font-semibold text-scripture mb-1">Cross-References</h2>
+      <p className="text-sm text-primary-dark/40 mb-4">
+        Verses related to {currentReference} from Treasury of Scripture Knowledge
       </p>
-      
+
       <div className="grid gap-2 sm:grid-cols-2">
         {crossRefs.map((ref, index) => (
           <Link
             key={`${ref.bookSlug}-${ref.chapter}-${ref.verse}-${index}`}
             href={ref.url}
-            className="group flex items-center gap-2 p-3 border border-gray-200 rounded-lg hover:border-blue-300 hover:bg-blue-50 transition-colors"
+            className="group flex items-center justify-between p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-all"
           >
-            <div className="flex-shrink-0 w-8 h-8 bg-blue-100 text-blue-700 rounded-full flex items-center justify-center">
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
-              </svg>
-            </div>
-            <div className="flex-1 min-w-0">
-              <span className="text-blue-600 font-medium group-hover:underline">
-                {ref.reference}
-              </span>
-            </div>
-            <span className="text-gray-400 group-hover:text-blue-600 transition-colors">
-              &rarr;
+            <span className="text-blue-600 font-medium text-sm group-hover:underline">
+              {ref.reference}
             </span>
+            <svg className="w-4 h-4 text-primary-dark/40 group-hover:text-blue-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
+            </svg>
           </Link>
         ))}
-      </div>
-      
-      <div className="mt-4 pt-3 border-t border-gray-100 text-center">
-        <span className="text-xs text-gray-500">
-          Cross-references from Treasury of Scripture Knowledge
-        </span>
       </div>
     </section>
   );

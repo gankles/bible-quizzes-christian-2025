@@ -12,9 +12,11 @@ import {
 } from '@/lib/bolls-api';
 import { getCrossReferences } from '@/lib/cross-references';
 import { getVerseCommentary } from '@/lib/commentary-loader';
+import { getInterlinearVerse, isOldTestament } from '@/lib/interlinear-data';
 import AdjacentVerses from '@/components/verse-study/AdjacentVerses';
 import OriginalLanguage from '@/components/verse-study/OriginalLanguage';
 import CrossReferencesSection from '@/components/verse-study/CrossReferencesSection';
+import CommentarySection from '@/components/verse-study/CommentarySection';
 import StudyTabs from '@/components/verse-study/StudyTabs';
 import TopicalTags from '@/components/verse-study/TopicalTags';
 
@@ -40,15 +42,15 @@ interface VerseData {
 const getVerseData = cache(async function getVerseData(book: string, chapter: number, verse: number): Promise<VerseData | null> {
   const bookId = getBookId(book);
   if (!bookId) return null;
-  
+
   try {
     const verses = await getChapterWithCommentary('KJV', book, chapter);
     const verseData = verses.find(v => v.verse === verse);
     if (!verseData) return null;
-    
+
     const prevVerse = verses.find(v => v.verse === verse - 1);
     const nextVerse = verses.find(v => v.verse === verse + 1);
-    
+
     return {
       verse: verseData,
       allVerses: verses,
@@ -69,30 +71,31 @@ export async function generateMetadata({ params }: VersePageProps): Promise<Meta
   const { book, chapter, verse } = resolvedParams;
   const chapterNum = parseInt(chapter, 10);
   const verseNum = parseInt(verse, 10);
-  
+
   const data = await getVerseData(book, chapterNum, verseNum);
   if (!data) {
     return { title: 'Verse Not Found' };
   }
-  
+
   const verseText = stripHtml(data.verse.text);
   const commentary = getVerseCommentary(book, chapterNum, verseNum);
   const commentarySnippet = commentary ? ` ${commentary.text.substring(0, 100).replace(/\n/g, ' ')}...` : '';
-  const title = `What Does ${data.reference} Mean? | Verse By Verse Commentary | Bible Maximum`;
+  const title = `What Does ${data.reference} Mean? | Verse Study with Commentary & Cross-References | Bible Maximum`;
   const description = `What does ${data.reference} mean? "${verseText.substring(0, 80)}" - Study this verse with Ellicott's commentary, cross-references, and original language analysis.${commentarySnippet}`;
-  
+
   return {
     title,
     description,
     keywords: [
       data.reference,
       `${data.bookName} ${chapter}:${verse}`,
+      `${data.reference} meaning`,
+      `${data.reference} commentary`,
       'Bible verse study',
       'KJV',
-      'scripture',
-      'commentary',
+      'scripture commentary',
       'cross-references',
-      'Greek Hebrew study',
+      'Greek Hebrew word study',
       data.bookName,
     ],
     openGraph: {
@@ -113,7 +116,6 @@ export async function generateMetadata({ params }: VersePageProps): Promise<Meta
 }
 
 export async function generateStaticParams() {
-  // Generated on-demand via ISR — avoids Bolls API calls during build
   return [];
 }
 
@@ -122,190 +124,219 @@ export default async function VersePage({ params }: VersePageProps) {
   const { book, chapter, verse } = resolvedParams;
   const chapterNum = parseInt(chapter, 10);
   const verseNum = parseInt(verse, 10);
-  
+
   if (isNaN(chapterNum) || isNaN(verseNum) || !getBookId(book)) {
     notFound();
   }
-  
+
   const data = await getVerseData(book, chapterNum, verseNum);
   if (!data) {
     notFound();
   }
-  
+
   const verseText = stripHtml(data.verse.text);
   const crossRefs = getCrossReferences(book, chapterNum, verseNum, 6);
   const verseCommentary = getVerseCommentary(book, chapterNum, verseNum);
+  const interlinearWords = getInterlinearVerse(book, chapterNum, verseNum);
+  const isOT = isOldTestament(book);
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <nav className="bg-white border-b border-gray-200">
-        <div className="max-w-4xl mx-auto px-4 py-3">
-          <ol className="flex items-center space-x-2 text-sm">
-            <li>
-              <Link href="/" className="text-blue-600 hover:underline">Home</Link>
-            </li>
-            <li className="text-gray-400">/</li>
-            <li>
-              <Link href="/bible-quizzes" className="text-blue-600 hover:underline">Bible</Link>
-            </li>
-            <li className="text-gray-400">/</li>
-            <li>
-              <Link href={`/${book}-chapters`} className="text-blue-600 hover:underline">
-                {data.bookName}
-              </Link>
-            </li>
-            <li className="text-gray-400">/</li>
-            <li>
-              <Link href={`/chapters/${book}/${chapter}`} className="text-blue-600 hover:underline">
-                Chapter {chapter}
-              </Link>
-            </li>
-            <li className="text-gray-400">/</li>
-            <li className="text-gray-600">Verse {verse}</li>
-          </ol>
-        </div>
+    <div className="max-w-3xl mx-auto px-4 sm:px-6">
+      {/* Breadcrumb */}
+      <nav className="py-4">
+        <ol className="flex items-center gap-1.5 text-sm text-primary-dark/40 flex-wrap">
+          <li><Link href="/" className="hover:text-primary-dark/80 transition-colors">Home</Link></li>
+          <li>/</li>
+          <li><Link href={`/${book}-chapters`} className="hover:text-primary-dark/80 transition-colors">{data.bookName}</Link></li>
+          <li>/</li>
+          <li><Link href={`/chapters/${book}/${chapter}`} className="hover:text-primary-dark/80 transition-colors">{data.bookName} {chapter}</Link></li>
+          <li>/</li>
+          <li className="text-primary-dark/80">Verse {verse}</li>
+        </ol>
       </nav>
 
-      <main className="max-w-4xl mx-auto px-4 py-8">
-        <article className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden mb-6">
-          <header className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-8">
-            <p className="text-blue-100 text-sm font-medium mb-2">King James Version</p>
-            <h1 className="text-3xl font-bold">What Does {data.reference} Mean?</h1>
-          </header>
+      {/* Verse Hero */}
+      <article className="pt-6 pb-10">
+        <div className="text-center">
+          <p className="text-xs font-medium tracking-widest uppercase text-primary-dark/60 mb-3">
+            King James Version
+          </p>
+          <h1 className="text-xl sm:text-2xl font-semibold font-display text-scripture">
+            What Does {data.reference} Mean?
+          </h1>
+        </div>
 
-          <div className="p-6 md:p-8">
-            <blockquote className="text-2xl md:text-3xl leading-relaxed text-gray-800 italic border-l-4 border-blue-600 pl-6">
-              &ldquo;{verseText}&rdquo;
-            </blockquote>
-          </div>
-        </article>
+        <blockquote className="mt-8 font-serif text-[1.75rem] sm:text-[2rem] md:text-[2.25rem] leading-[1.6] text-scripture italic text-center">
+          &ldquo;{verseText}&rdquo;
+        </blockquote>
 
-        <AdjacentVerses
-          verses={data.allVerses}
-          currentVerse={verseNum}
-          bookSlug={book}
-          chapter={chapterNum}
-          bookName={data.bookName}
+        <p className="text-center mt-5 text-sm text-primary-dark/60 font-medium">
+          {data.reference} &middot; KJV
+        </p>
+      </article>
+
+      <TopicalTags verseText={verseText} bookId={data.bookId} />
+
+      <hr className="border-grace mt-8 mb-8" />
+
+      {/* Context: Adjacent Verses */}
+      <AdjacentVerses
+        verses={data.allVerses}
+        currentVerse={verseNum}
+        bookSlug={book}
+        chapter={chapterNum}
+        bookName={data.bookName}
+      />
+
+      {/* Commentary */}
+      {verseCommentary && (
+        <CommentarySection
+          text={verseCommentary.text}
+          source={verseCommentary.source}
+          author={verseCommentary.author}
+          historical={verseCommentary.historical}
+          questions={verseCommentary.questions}
         />
+      )}
 
-        <TopicalTags verseText={verseText} bookId={data.bookId} />
+      {/* Original Language Analysis */}
+      <OriginalLanguage
+        words={interlinearWords}
+        isOldTestament={isOT}
+        bookSlug={book}
+      />
 
-        {verseCommentary && (
-          <section className="bg-white border border-gray-200 rounded-lg overflow-hidden mb-6">
-            <div className="px-5 py-3 bg-gray-50 border-b border-gray-200 flex items-center justify-between">
-              <h2 className="font-semibold text-gray-900">Commentary</h2>
-              <span className="text-xs text-gray-500">{verseCommentary.source}</span>
-            </div>
-            <div className="p-5">
-              <div className="text-sm text-gray-700 leading-relaxed whitespace-pre-line">
-                {verseCommentary.text}
-              </div>
-              <p className="text-xs text-gray-400 mt-4">
-                {verseCommentary.author}. Public Domain.
-              </p>
-            </div>
-          </section>
+      {/* Study Guide Tabs */}
+      <StudyTabs
+        reference={data.reference}
+        verseText={verseText}
+        commentary={data.verse.comment || null}
+        bookName={data.bookName}
+      />
+
+      {/* Cross-References */}
+      <CrossReferencesSection
+        crossRefs={crossRefs}
+        currentReference={data.reference}
+      />
+
+      {/* Verse Navigation */}
+      <nav className="flex items-center justify-between py-6 border-t border-grace mt-4">
+        {data.prevVerse ? (
+          <Link
+            href={`/verses/${book}/${chapter}/${verseNum - 1}`}
+            className="group flex items-center gap-2 text-sm text-primary-dark/60 hover:text-scripture transition-colors"
+          >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19l-7-7 7-7" />
+            </svg>
+            <span><span className="text-primary-dark/40">Previous:</span> Verse {verseNum - 1}</span>
+          </Link>
+        ) : (
+          <div />
         )}
 
-        <OriginalLanguage verseText={verseText} bookId={data.bookId} />
+        <Link
+          href={`/chapters/${book}/${chapter}`}
+          className="px-5 py-2 text-sm font-medium text-blue-600 border border-blue-200 rounded-lg hover:bg-primary-light transition-colors"
+        >
+          Full Chapter
+        </Link>
 
-        <StudyTabs
-          reference={data.reference}
-          verseText={verseText}
-          commentary={data.verse.comment || null}
-          bookName={data.bookName}
-        />
-
-        <CrossReferencesSection 
-          crossRefs={crossRefs} 
-          currentReference={data.reference} 
-        />
-
-        <nav className="flex justify-between items-center mt-6 mb-8">
-          {data.prevVerse ? (
-            <Link
-              href={`/verses/${book}/${chapter}/${verseNum - 1}`}
-              className="flex items-center px-4 py-2 bg-white border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors"
-            >
-              <span className="mr-2">&larr;</span>
-              <span className="text-sm text-gray-600">Verse {verseNum - 1}</span>
-            </Link>
-          ) : (
-            <div />
-          )}
-          
+        {data.nextVerse ? (
           <Link
-            href={`/chapters/${book}/${chapter}`}
-            className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+            href={`/verses/${book}/${chapter}/${verseNum + 1}`}
+            className="group flex items-center gap-2 text-sm text-primary-dark/60 hover:text-scripture transition-colors"
           >
-            Full Chapter
+            <span><span className="text-primary-dark/40">Next:</span> Verse {verseNum + 1}</span>
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
+            </svg>
           </Link>
-          
-          {data.nextVerse ? (
-            <Link
-              href={`/verses/${book}/${chapter}/${verseNum + 1}`}
-              className="flex items-center px-4 py-2 bg-white border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors"
-            >
-              <span className="text-sm text-gray-600">Verse {verseNum + 1}</span>
-              <span className="ml-2">&rarr;</span>
-            </Link>
-          ) : (
-            <div />
-          )}
-        </nav>
+        ) : (
+          <div />
+        )}
+      </nav>
 
-        <section className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
-          <h2 className="text-lg font-bold text-gray-900 mb-4">Test Your Knowledge</h2>
-          <div className="grid gap-3 md:grid-cols-2">
-            <Link
-              href={`/${book}-${chapter}-quiz`}
-              className="flex items-center p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:bg-blue-50 transition-colors"
-            >
-              <div>
-                <span className="text-blue-600 font-semibold block">{data.bookName} {chapter} Quiz</span>
-                <span className="text-sm text-gray-500">Test your knowledge of this chapter</span>
-              </div>
-            </Link>
-            <Link
-              href={`/${book}-quiz`}
-              className="flex items-center p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:bg-blue-50 transition-colors"
-            >
-              <div>
-                <span className="text-blue-600 font-semibold block">{data.bookName} Book Quiz</span>
-                <span className="text-sm text-gray-500">Comprehensive quiz for the entire book</span>
-              </div>
-            </Link>
-          </div>
-        </section>
+      {/* Quiz CTA */}
+      <section className="py-8">
+        <h2 className="text-lg font-semibold text-scripture mb-4">Test Your Knowledge</h2>
+        <div className="grid gap-3 sm:grid-cols-2">
+          <Link
+            href={`/${book}-${chapter}-quiz`}
+            className="group p-4 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-all"
+          >
+            <span className="text-blue-600 font-semibold group-hover:underline">{data.bookName} {chapter} Quiz</span>
+            <span className="block text-sm text-primary-dark/60 mt-0.5">Test your knowledge of this chapter</span>
+          </Link>
+          <Link
+            href={`/${book}-quiz`}
+            className="group p-4 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-all"
+          >
+            <span className="text-blue-600 font-semibold group-hover:underline">{data.bookName} Book Quiz</span>
+            <span className="block text-sm text-primary-dark/60 mt-0.5">Comprehensive quiz for the entire book</span>
+          </Link>
+        </div>
+      </section>
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'Article',
-              headline: data.reference,
-              description: verseText,
-              author: {
-                '@type': 'Organization',
-                name: 'Bible Maximum',
-              },
-              publisher: {
-                '@type': 'Organization',
-                name: 'Bible Maximum',
-              },
-              mainEntityOfPage: {
-                '@type': 'WebPage',
-                '@id': `https://biblemaximum.com/verses/${book}/${chapter}/${verse}`,
-              },
-              about: {
-                '@type': 'CreativeWork',
-                name: 'King James Version Bible',
-              },
-            }),
-          }}
-        />
-      </main>
+      {/* Continue Your Study */}
+      <section className="py-6 bg-grace/10 border border-grace rounded-xl p-6">
+        <h2 className="text-sm font-semibold text-primary-dark/40 uppercase tracking-wide mb-4">Continue Your Study</h2>
+        <div className="grid gap-x-6 gap-y-2 sm:grid-cols-2 text-sm">
+          <Link href={`/chapters/${book}/${chapter}`} className="text-blue-600 hover:underline">
+            Read {data.bookName} {chapter} with Commentary
+          </Link>
+          <Link href={`/${book}-chapters`} className="text-blue-600 hover:underline">
+            All {data.bookName} Chapters
+          </Link>
+          <Link href={`/${book}-quiz`} className="text-blue-600 hover:underline">
+            Complete {data.bookName} Quiz
+          </Link>
+          <Link href="/people" className="text-blue-600 hover:underline">
+            Bible Characters
+          </Link>
+          <Link href="/nave-topics" className="text-blue-600 hover:underline">
+            Nave&apos;s Topical Bible
+          </Link>
+          <Link href="/bible-quizzes" className="text-blue-600 hover:underline">
+            All Bible Quizzes
+          </Link>
+        </div>
+      </section>
+
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Article',
+            headline: `What Does ${data.reference} Mean? — Commentary, Cross-References & Word Study`,
+            description: verseText.substring(0, 200),
+            author: { '@type': 'Organization', name: 'Bible Maximum' },
+            publisher: { '@type': 'Organization', name: 'Bible Maximum' },
+            mainEntityOfPage: {
+              '@type': 'WebPage',
+              '@id': `https://biblemaximum.com/verses/${book}/${chapter}/${verse}`,
+            },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://biblemaximum.com/' },
+              { '@type': 'ListItem', position: 2, name: data.bookName, item: `https://biblemaximum.com/${book}-chapters` },
+              { '@type': 'ListItem', position: 3, name: `${data.bookName} ${chapter}`, item: `https://biblemaximum.com/chapters/${book}/${chapter}` },
+              { '@type': 'ListItem', position: 4, name: `Verse ${verse}` },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

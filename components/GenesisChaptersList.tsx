@@ -67,12 +67,12 @@ export default function GenesisChaptersList() {
   );
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-primary-light/30">
       {/* Header */}
-      <div className="bg-white border-b border-gray-200">
+      <div className="bg-white border-b border-grace">
         <div className="max-w-4xl mx-auto px-4 py-12 text-center">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Genesis Chapter Quizzes</h1>
-          <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+          <h1 className="text-4xl font-bold text-scripture mb-4">Genesis Chapter Quizzes</h1>
+          <p className="text-lg text-primary-dark/70 mb-8 max-w-2xl mx-auto">
             Explore every chapter of Genesis from creation to Joseph's death. Each quiz focuses on the key events and lessons of that chapter.
           </p>
           
@@ -83,33 +83,33 @@ export default function GenesisChaptersList() {
               placeholder="Search chapters, titles, or descriptions..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg text-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              className="w-full px-4 py-3 border border-grace rounded-lg text-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
             />
           </div>
 
           {/* Stats */}
           <div className="flex justify-center gap-8 mb-8">
             <div className="text-center">
-              <div className="text-3xl font-bold text-gray-900">50</div>
-              <div className="text-sm text-gray-600">Chapters</div>
+              <div className="text-3xl font-bold text-scripture">50</div>
+              <div className="text-sm text-primary-dark/70">Chapters</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-gray-900">1,533</div>
-              <div className="text-sm text-gray-600">Verses</div>
+              <div className="text-3xl font-bold text-scripture">1,533</div>
+              <div className="text-sm text-primary-dark/70">Verses</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-gray-900">800+</div>
-              <div className="text-sm text-gray-600">Quiz Questions</div>
+              <div className="text-3xl font-bold text-scripture">800+</div>
+              <div className="text-sm text-primary-dark/70">Quiz Questions</div>
             </div>
           </div>
 
           {/* Ultimate Genesis Challenge */}
           <div className="max-w-4xl mx-auto mb-8">
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-8 text-center">
-              <h2 className="text-xl font-bold text-gray-900 mb-4">
+              <h2 className="text-xl font-bold text-scripture mb-4">
                 ✨ Ultimate Genesis Challenge
               </h2>
-              <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
+              <p className="text-primary-dark/70 mb-6 max-w-2xl mx-auto">
                 Test your comprehensive knowledge of all 50 Genesis chapters with our ultimate 25-question quiz covering Creation, the Patriarchs, and the foundations of faith.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
@@ -119,7 +119,7 @@ export default function GenesisChaptersList() {
                 >
                   Take 25-Question Genesis Quiz
                 </Link>
-                <div className="flex items-center gap-4 text-sm text-gray-600">
+                <div className="flex items-center gap-4 text-sm text-primary-dark/70">
                   <div className="flex items-center gap-1">
                     <span>⏱️</span>
                     <span>~15 minutes</span>
@@ -137,19 +137,19 @@ export default function GenesisChaptersList() {
 
       {/* Content - List Format */}
       <div className="max-w-4xl mx-auto px-4 py-8">
-        <div className="bg-white rounded-lg shadow-sm border border-gray-200">
-          <div className="p-6 border-b border-gray-200">
-            <h2 className="text-xl font-bold text-gray-900">
+        <div className="bg-white rounded-lg shadow-sm border border-grace">
+          <div className="p-6 border-b border-grace">
+            <h2 className="text-xl font-bold text-scripture">
               Genesis Chapters ({filteredChapters.length} chapters)
             </h2>
           </div>
           
-          <div className="divide-y divide-gray-200">
+          <div className="divide-y divide-grace">
             {filteredChapters.map((item) => (
               <Link
                 key={item.chapter}
                 href={`/genesis-${item.chapter}-quiz`}
-                className="block p-6 hover:bg-gray-50 transition-colors duration-150"
+                className="block p-6 hover:bg-primary-light/50 transition-colors duration-150"
               >
                 <div className="flex items-start justify-between">
                   <div className="flex-1">
@@ -157,16 +157,16 @@ export default function GenesisChaptersList() {
                       <span className="bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded">
                         Genesis {item.chapter} Quiz
                       </span>
-                      <h3 className="text-lg font-semibold text-gray-900">
+                      <h3 className="text-lg font-semibold text-scripture">
                         {item.title}
                       </h3>
                     </div>
-                    <p className="text-gray-600 text-sm leading-relaxed">
+                    <p className="text-primary-dark/70 text-sm leading-relaxed">
                       {item.description}
                     </p>
                   </div>
                   <div className="ml-4 flex-shrink-0">
-                    <svg className="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 text-primary-dark/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                   </div>
@@ -179,9 +179,9 @@ export default function GenesisChaptersList() {
         {/* No Results */}
         {filteredChapters.length === 0 && (
           <div className="text-center py-12">
-            <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-12">
-              <h3 className="text-lg font-medium text-gray-900 mb-2">No chapters found</h3>
-              <p className="text-gray-600 mb-4">
+            <div className="bg-white rounded-lg shadow-sm border border-grace p-12">
+              <h3 className="text-lg font-medium text-scripture mb-2">No chapters found</h3>
+              <p className="text-primary-dark/70 mb-4">
                 Try searching for a different chapter number, title, or description.
               </p>
               <button
@@ -205,7 +205,7 @@ export default function GenesisChaptersList() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/genesis-1-quiz"
-              className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
+              className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-primary-light transition-colors"
             >
               Begin with Creation
             </Link>

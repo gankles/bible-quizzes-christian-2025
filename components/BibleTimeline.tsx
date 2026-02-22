@@ -29,7 +29,7 @@ export function BibleTimeline({ currentBookSlug }: BibleTimelineProps) {
 
             <div className="relative">
                 {/* Progress Line */}
-                <div className="h-2 w-full bg-grace dark:bg-gray-700 rounded-full overflow-hidden">
+                <div className="h-2 w-full bg-grace dark:bg-scripture/80 rounded-full overflow-hidden">
                     <div
                         className="h-full blue-600 transition-all duration-1000 ease-out"
                         style={{ width: `${progress}%` }}
@@ -37,15 +37,15 @@ export function BibleTimeline({ currentBookSlug }: BibleTimelineProps) {
                 </div>
 
                 {/* Markers */}
-                <div className="flex justify-between mt-2 text-[10px] uppercase tracking-wider font-bold text-primary-dark/40 dark:text-gray-500">
+                <div className="flex justify-between mt-2 text-[10px] uppercase tracking-wider font-bold text-primary-dark/40 dark:text-primary-dark/60">
                     <span>Genesis</span>
                     <div className="flex flex-col items-center">
-                        <div className="w-px h-2 bg-grace dark:bg-gray-600 mb-1" />
+                        <div className="w-px h-2 bg-grace dark:bg-scripture/80 mb-1" />
                         <span>Prophets</span>
                     </div>
                     <span>Gospels</span>
                     <div className="flex flex-col items-center">
-                        <div className="w-px h-2 bg-grace dark:bg-gray-600 mb-1" />
+                        <div className="w-px h-2 bg-grace dark:bg-scripture/80 mb-1" />
                         <span>Letters</span>
                     </div>
                     <span>Revelation</span>
@@ -67,11 +67,11 @@ export function BibleTimeline({ currentBookSlug }: BibleTimelineProps) {
 
             <div className="mt-12 grid grid-cols-2 gap-4">
                 <div className={`p-4 rounded-xl border ${currentBook.testament === 'Old' ? 'border-sacred/30 blue-50' : 'border-grace dark:border-dark-border opacity-50'}`}>
-                    <span className="text-xs font-bold text-primary-dark/60 dark:text-gray-400 block mb-1">Testament</span>
+                    <span className="text-xs font-bold text-primary-dark/60 dark:text-primary-dark/40 block mb-1">Testament</span>
                     <span className="font-bold text-scripture dark:text-white">Old Testament</span>
                 </div>
                 <div className={`p-4 rounded-xl border ${currentBook.testament === 'New' ? 'border-sacred/30 blue-50' : 'border-grace dark:border-dark-border opacity-50'}`}>
-                    <span className="text-xs font-bold text-primary-dark/60 dark:text-gray-400 block mb-1">Testament</span>
+                    <span className="text-xs font-bold text-primary-dark/60 dark:text-primary-dark/40 block mb-1">Testament</span>
                     <span className="font-bold text-scripture dark:text-white">New Testament</span>
                 </div>
             </div>

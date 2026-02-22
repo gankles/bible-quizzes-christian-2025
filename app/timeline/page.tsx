@@ -40,30 +40,30 @@ export default function TimelinePage() {
       <StructuredData data={jsonLd} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-gray-500">
+      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
         <Link href="/" className="hover:text-blue-600">Home</Link>
         <span className="mx-1.5">/</span>
-        <span className="text-gray-900 font-medium">Bible Timeline</span>
+        <span className="text-scripture font-medium">Bible Timeline</span>
       </nav>
 
       {/* Hero */}
       <section className="max-w-6xl mx-auto px-4 py-10">
-        <div className="rounded-2xl overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
+        <div className="rounded-2xl overflow-hidden bg-white border-b border-grace">
           <div className="p-8 md:p-12">
-            <h1 className="text-3xl md:text-4xl font-bold mb-3">Bible Timeline</h1>
-            <p className="text-lg text-gray-300 max-w-2xl mb-6">
+            <h1 className="text-3xl md:text-4xl font-bold font-display text-scripture mb-3">Bible Timeline</h1>
+            <p className="text-lg text-primary-dark/70 max-w-2xl mb-6">
               A chronological journey through the Bible — from Creation through the patriarchs,
               judges, kings, and prophets. Explore the lifespans, reigns, and pivotal events of
               biblical history.
             </p>
             <div className="flex flex-wrap gap-6 text-center">
               <div>
-                <p className="text-3xl font-bold">{stats.total}</p>
-                <p className="text-xs text-gray-400 uppercase tracking-wider">Epochs</p>
+                <p className="text-3xl font-bold text-scripture">{stats.total}</p>
+                <p className="text-xs text-primary-dark/40 uppercase tracking-wider">Epochs</p>
               </div>
               <div>
-                <p className="text-3xl font-bold">{stats.types}</p>
-                <p className="text-xs text-gray-400 uppercase tracking-wider">Types</p>
+                <p className="text-3xl font-bold text-scripture">{stats.types}</p>
+                <p className="text-xs text-primary-dark/40 uppercase tracking-wider">Types</p>
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ export default function TimelinePage() {
               <a
                 key={type}
                 href={`#type-${type.toLowerCase()}`}
-                className="px-3 py-1.5 bg-white border border-gray-200 rounded-lg text-sm text-gray-700 hover:bg-blue-50 hover:border-blue-300 transition-colors"
+                className="px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-primary-dark/80 hover:bg-primary-light hover:border-blue-300 transition-colors"
               >
                 {type} ({count})
               </a>
@@ -94,7 +94,7 @@ export default function TimelinePage() {
           const epochs = getEpochsByType(type);
           return (
             <div key={type} id={`type-${type.toLowerCase()}`} className="mb-10">
-              <h2 className="text-xl font-bold text-gray-900 mb-4">
+              <h2 className="text-xl font-bold text-scripture mb-4">
                 {type} ({epochs.length})
               </h2>
               <div className="space-y-2">
@@ -102,28 +102,28 @@ export default function TimelinePage() {
                   <Link
                     key={epoch.id}
                     href={`/timeline/${epoch.slug}`}
-                    className="block bg-white border border-gray-200 rounded-lg px-5 py-4 hover:shadow-md hover:border-blue-300 transition-all group"
+                    className="block bg-white border border-grace rounded-lg px-5 py-4 hover:shadow-md hover:border-blue-300 transition-all group"
                   >
                     <div className="flex items-start justify-between gap-4">
                       <div className="flex-1">
-                        <h3 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
+                        <h3 className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
                           {epoch.name}
                         </h3>
                         {epoch.description && (
-                          <p className="text-sm text-gray-500 mt-1 line-clamp-2">
+                          <p className="text-sm text-primary-dark/60 mt-1 line-clamp-2">
                             {epoch.description}
                           </p>
                         )}
                       </div>
                       <div className="text-right shrink-0">
                         {epoch.startYear !== null && (
-                          <span className="text-sm font-mono text-gray-600">
+                          <span className="text-sm font-mono text-primary-dark/70">
                             {epoch.startYear} AH
                             {epoch.endYear !== null && ` — ${epoch.endYear} AH`}
                           </span>
                         )}
                         {epoch.periodLength !== null && (
-                          <span className="block text-xs text-gray-400">
+                          <span className="block text-xs text-primary-dark/40">
                             {epoch.periodLength} years
                           </span>
                         )}
@@ -139,13 +139,13 @@ export default function TimelinePage() {
 
       {/* Related */}
       <section className="max-w-6xl mx-auto px-4 pb-12">
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 text-center">
-          <h2 className="text-xl font-bold text-gray-900 mb-2">Explore More</h2>
+        <div className="bg-primary-light/30 border border-grace rounded-xl p-6 text-center">
+          <h2 className="text-xl font-bold text-scripture mb-2">Explore More</h2>
           <div className="flex flex-wrap justify-center gap-3">
             <Link href="/people" className="px-5 py-2.5 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors">
               Bible People
             </Link>
-            <Link href="/bible-names" className="px-5 py-2.5 bg-white text-blue-600 text-sm font-medium rounded-lg border border-blue-300 hover:bg-blue-50 transition-colors">
+            <Link href="/bible-names" className="px-5 py-2.5 bg-white text-blue-600 text-sm font-medium rounded-lg border border-blue-300 hover:bg-primary-light transition-colors">
               Bible Names
             </Link>
           </div>

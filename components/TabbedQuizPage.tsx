@@ -90,14 +90,14 @@ export default function TabbedQuizPage({ tabbedQuiz, url }: TabbedQuizPageProps)
   const currentQuiz = tabbedQuiz.tabs[activeTab];
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-primary-light/30">
       {/* Header Section */}
       <div className="bg-white shadow-sm border-b">
         <div className="max-w-4xl mx-auto px-2 sm:px-4 py-6">
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">
+          <h1 className="text-3xl font-bold text-scripture mb-2">
             {tabbedQuiz.title}
           </h1>
-          <p className="text-gray-600 mb-6">
+          <p className="text-primary-dark/70 mb-6">
             {tabbedQuiz.description}
           </p>
 
@@ -111,27 +111,27 @@ export default function TabbedQuizPage({ tabbedQuiz, url }: TabbedQuizPageProps)
                   relative p-2 sm:p-4 rounded-lg border-2 transition-all duration-200 text-left
                   ${activeTab === tab.key 
                     ? `${tab.color} border-transparent shadow-lg transform scale-105` 
-                    : `bg-white border-gray-200 ${tab.hoverColor} hover:border-gray-300 hover:shadow-md`
+                    : `bg-white border-grace ${tab.hoverColor} hover:border-grace hover:shadow-md`
                   }
                 `}
               >
                 <div className="flex items-center space-x-2 sm:space-x-3 mb-2">
                   <span className="text-xl sm:text-2xl">{tab.icon}</span>
                   <span className={`font-semibold text-sm sm:text-lg ${
-                    activeTab === tab.key ? 'text-white' : 'text-gray-900'
+                    activeTab === tab.key ? 'text-white' : 'text-scripture'
                   }`}>
                     {tab.label}
                   </span>
                 </div>
                 
                 <p className={`text-xs sm:text-sm mb-2 sm:mb-3 ${
-                  activeTab === tab.key ? 'text-white/90' : 'text-gray-600'
+                  activeTab === tab.key ? 'text-white/90' : 'text-primary-dark/70'
                 }`}>
                   {tab.description}
                 </p>
                 
                 <div className={`flex justify-between items-center text-xs ${
-                  activeTab === tab.key ? 'text-white/80' : 'text-gray-500'
+                  activeTab === tab.key ? 'text-white/80' : 'text-primary-dark/60'
                 }`}>
                   <span>{tab.questions} questions</span>
                   <span>{tab.time}</span>

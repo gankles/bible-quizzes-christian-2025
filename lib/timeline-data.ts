@@ -163,3 +163,53 @@ export function getTimelineStats() {
     latestYear: all[all.length - 1]?.endYear || 0,
   };
 }
+
+// ── KJV Study Timeline Enhancement ──
+
+export interface TimelineEvent {
+  title: string;
+  date: string;
+  altDates?: string;
+  sidenote?: string;
+  description: string;
+  scriptureRefs: string[];
+  era: string;
+}
+
+export interface TimelineEra {
+  name: string;
+  events: TimelineEvent[];
+}
+
+let _kjvstudyTimeline: { eras: TimelineEra[]; introduction: string } | null = null;
+
+export function getKjvStudyTimeline(): { eras: TimelineEra[]; introduction: string } {
+  if (_kjvstudyTimeline) return _kjvstudyTimeline;
+
+  const filePath = path.join(process.cwd(), 'data', 'kjvstudy', 'biblical_timeline.json');
+  try {
+    const raw = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    const eras: TimelineEra[] = [];
+
+    for (const [eraName, events] of Object.entries(raw.timeline_events || {})) {
+      eras.push({
+        name: eraName,
+        events: (events as any[]).map(e => ({
+          title: e.title,
+          date: e.date || '',
+          altDates: e.alt_dates,
+          sidenote: e.sidenote,
+          description: e.description || '',
+          scriptureRefs: (e.verses || []).map((v: any) => v.reference),
+          era: eraName,
+        })),
+      });
+    }
+
+    _kjvstudyTimeline = { eras, introduction: raw.introduction || '' };
+  } catch {
+    _kjvstudyTimeline = { eras: [], introduction: '' };
+  }
+
+  return _kjvstudyTimeline;
+}

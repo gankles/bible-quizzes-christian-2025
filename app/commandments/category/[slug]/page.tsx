@@ -72,27 +72,27 @@ export default async function CategoryPage({ params }: PageProps) {
       <StructuredData data={jsonLd} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-gray-500">
+      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
         <Link href="/" className="hover:text-blue-600">Home</Link>
         <span className="mx-1.5">/</span>
         <Link href="/commandments" className="hover:text-blue-600">613 Commandments</Link>
         <span className="mx-1.5">/</span>
-        <span className="text-gray-900 font-medium">{cat.name}</span>
+        <span className="text-scripture font-medium">{cat.name}</span>
       </nav>
 
       {/* Header */}
       <section className="max-w-4xl mx-auto px-4 py-8">
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
+        <h1 className="text-2xl md:text-3xl font-display font-bold text-scripture mb-2">
           {cat.name} Commandments
         </h1>
-        <p className="text-gray-600 mb-4">
+        <p className="text-primary-dark/70 mb-4">
           There are <strong>{cat.count}</strong> biblical commandments in the &ldquo;{cat.name}&rdquo;
           category &mdash; <span className="text-emerald-600 font-medium">{cat.positive} positive</span> and{' '}
           <span className="text-red-600 font-medium">{cat.negative} negative</span>.
         </p>
 
         {/* Stats bar */}
-        <div className="h-2 rounded-full overflow-hidden bg-gray-200 max-w-md">
+        <div className="h-2 rounded-full overflow-hidden bg-grace/20 max-w-md">
           <div
             className="h-full bg-emerald-500 float-left"
             style={{ width: `${(cat.positive / cat.count) * 100}%` }}
@@ -107,24 +107,24 @@ export default async function CategoryPage({ params }: PageProps) {
       {/* Positive Commandments */}
       {positive.length > 0 && (
         <section className="max-w-4xl mx-auto px-4 pb-8">
-          <h2 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
+          <h2 className="text-lg font-bold text-scripture mb-3 flex items-center gap-2">
             <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-emerald-100 text-emerald-700 text-xs font-bold">+</span>
             Positive Commandments ({positive.length})
           </h2>
-          <div className="bg-white rounded-xl border border-gray-200 divide-y divide-gray-100 overflow-hidden">
+          <div className="bg-white rounded-xl border border-grace divide-y divide-grace/50 overflow-hidden">
             {positive.map(cmd => {
               const quizSlug = referenceToQuizSlug(cmd.referenceId);
               return (
-                <div key={cmd.number} className="px-5 py-3 flex items-start gap-3 hover:bg-gray-50 transition-colors">
-                  <span className="text-xs text-gray-400 font-mono mt-0.5 w-8 shrink-0">{cmd.number}</span>
+                <div key={cmd.number} className="px-5 py-3 flex items-start gap-3 hover:bg-primary-light/50 transition-colors">
+                  <span className="text-xs text-primary-dark/40 font-mono mt-0.5 w-8 shrink-0">{cmd.number}</span>
                   <div className="min-w-0 flex-1">
                     <Link
                       href={`/commandments/${cmd.number}`}
-                      className="text-sm font-medium text-gray-900 hover:text-blue-600 transition-colors"
+                      className="text-sm font-medium text-scripture hover:text-blue-600 transition-colors"
                     >
                       {cmd.concept}
                     </Link>
-                    <p className="text-xs text-gray-500 mt-0.5">
+                    <p className="text-xs text-primary-dark/60 mt-0.5">
                       {quizSlug ? (
                         <Link href={`/${quizSlug}`} className="hover:text-blue-600 hover:underline">
                           {formatReference(cmd.referenceId)}
@@ -144,24 +144,24 @@ export default async function CategoryPage({ params }: PageProps) {
       {/* Negative Commandments */}
       {negative.length > 0 && (
         <section className="max-w-4xl mx-auto px-4 pb-8">
-          <h2 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
+          <h2 className="text-lg font-bold text-scripture mb-3 flex items-center gap-2">
             <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-red-100 text-red-700 text-xs font-bold">{'\u2212'}</span>
             Negative Commandments ({negative.length})
           </h2>
-          <div className="bg-white rounded-xl border border-gray-200 divide-y divide-gray-100 overflow-hidden">
+          <div className="bg-white rounded-xl border border-grace divide-y divide-grace/50 overflow-hidden">
             {negative.map(cmd => {
               const quizSlug = referenceToQuizSlug(cmd.referenceId);
               return (
-                <div key={cmd.number} className="px-5 py-3 flex items-start gap-3 hover:bg-gray-50 transition-colors">
-                  <span className="text-xs text-gray-400 font-mono mt-0.5 w-8 shrink-0">{cmd.number}</span>
+                <div key={cmd.number} className="px-5 py-3 flex items-start gap-3 hover:bg-primary-light/50 transition-colors">
+                  <span className="text-xs text-primary-dark/40 font-mono mt-0.5 w-8 shrink-0">{cmd.number}</span>
                   <div className="min-w-0 flex-1">
                     <Link
                       href={`/commandments/${cmd.number}`}
-                      className="text-sm font-medium text-gray-900 hover:text-blue-600 transition-colors"
+                      className="text-sm font-medium text-scripture hover:text-blue-600 transition-colors"
                     >
                       {cmd.concept}
                     </Link>
-                    <p className="text-xs text-gray-500 mt-0.5">
+                    <p className="text-xs text-primary-dark/60 mt-0.5">
                       {quizSlug ? (
                         <Link href={`/${quizSlug}`} className="hover:text-blue-600 hover:underline">
                           {formatReference(cmd.referenceId)}
@@ -180,18 +180,18 @@ export default async function CategoryPage({ params }: PageProps) {
 
       {/* Related Categories */}
       <section className="max-w-4xl mx-auto px-4 pb-8">
-        <h2 className="text-lg font-bold text-gray-900 mb-4">Other Categories</h2>
+        <h2 className="text-lg font-bold text-scripture mb-4">Other Categories</h2>
         <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
           {relatedCategories.map(rc => (
             <Link
               key={rc.slug}
               href={`/commandments/category/${rc.slug}`}
-              className="bg-white border border-gray-200 rounded-lg p-3 hover:shadow-sm hover:border-blue-300 transition-all group"
+              className="bg-white border border-grace rounded-lg p-3 hover:shadow-sm hover:border-blue-300 transition-all group"
             >
-              <p className="text-sm font-medium text-gray-900 group-hover:text-blue-600 transition-colors">
+              <p className="text-sm font-medium text-scripture group-hover:text-blue-600 transition-colors">
                 {rc.name}
               </p>
-              <p className="text-xs text-gray-500">
+              <p className="text-xs text-primary-dark/60">
                 {rc.count} commandments &middot; {rc.positive}+ / {rc.negative}&minus;
               </p>
             </Link>
@@ -202,15 +202,15 @@ export default async function CategoryPage({ params }: PageProps) {
       {/* Quiz CTA */}
       <section className="max-w-4xl mx-auto px-4 pb-8">
         <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 text-center">
-          <h2 className="text-lg font-bold text-gray-900 mb-1">Test Your Knowledge</h2>
-          <p className="text-sm text-gray-600 mb-4">
+          <h2 className="text-lg font-bold text-scripture mb-1">Test Your Knowledge</h2>
+          <p className="text-sm text-primary-dark/70 mb-4">
             How well do you know the biblical commandments?
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             <Link href="/ten-commandments-quiz" className="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors">
               Ten Commandments Quiz
             </Link>
-            <Link href="/613-commandments-quiz" className="px-4 py-2 bg-white text-blue-600 text-sm font-medium rounded-lg border border-blue-300 hover:bg-blue-50 transition-colors">
+            <Link href="/613-commandments-quiz" className="px-4 py-2 bg-white text-blue-600 text-sm font-medium rounded-lg border border-blue-300 hover:bg-primary-light transition-colors">
               All 613 Quiz
             </Link>
           </div>
@@ -219,8 +219,8 @@ export default async function CategoryPage({ params }: PageProps) {
 
       {/* Internal Links */}
       <section className="max-w-4xl mx-auto px-4 pb-12">
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-6">
-          <h2 className="text-lg font-bold text-gray-900 mb-3">Related Resources</h2>
+        <div className="bg-grace/10 border border-grace rounded-xl p-6">
+          <h2 className="text-lg font-bold text-scripture mb-3">Related Resources</h2>
           <div className="grid gap-2 sm:grid-cols-2">
             <Link href="/commandments" className="text-blue-600 hover:underline text-sm">All 613 Commandments</Link>
             <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">Bible Quizzes</Link>

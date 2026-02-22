@@ -2,10 +2,10 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { 
-  Bars3Icon, 
-  XMarkIcon, 
-  BookOpenIcon, 
+import {
+  Bars3Icon,
+  XMarkIcon,
+  BookOpenIcon,
   AcademicCapIcon,
   UserGroupIcon,
   InformationCircleIcon,
@@ -53,7 +53,8 @@ const navigation = [
       { name: 'Book Studies', href: '/bible-book-studies' },
       { name: 'Chapter Studies', href: '/bible-chapter-studies' },
       { name: 'Reading Plans', href: '/bible-reading-plans' },
-      { name: 'Discussion Questions', href: '/bible-discussion-questions' }
+      { name: 'Discussion Questions', href: '/bible-discussion-questions' },
+      { name: 'Interlinear Bible', href: '/interlinear' }
     ]
   },
   {
@@ -100,14 +101,14 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-white shadow-lg relative z-50">
+    <header className="bg-white border-b border-grace shadow-sm relative z-50">
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Top">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
               <BookOpenIcon className="h-8 w-8 text-blue-600" />
-              <span className="text-xl font-bold text-gray-900">Bible Maximum</span>
+              <span className="text-xl font-bold text-scripture">Bible Maximum</span>
             </Link>
           </div>
 
@@ -119,19 +120,19 @@ export default function Header() {
                   <div className="group">
                     <button
                       type="button"
-                      className="flex items-center space-x-1 text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                      className="flex items-center space-x-1 text-primary-dark/80 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
                       onMouseEnter={() => setActiveDropdown(item.name)}
                       onMouseLeave={() => setActiveDropdown(null)}
                     >
                       <span>{item.name}</span>
                       <ChevronDownIcon className="h-4 w-4" />
                     </button>
-                    
+
                     {/* Dropdown menu */}
                     <div
-                      className={`absolute left-0 top-full mt-1 w-64 bg-white rounded-md shadow-lg border border-gray-200 transition-all duration-200 ${
-                        activeDropdown === item.name 
-                          ? 'opacity-100 visible transform translate-y-0' 
+                      className={`absolute left-0 top-full mt-1 w-64 bg-white rounded-md shadow-lg border border-grace transition-all duration-200 ${
+                        activeDropdown === item.name
+                          ? 'opacity-100 visible transform translate-y-0'
                           : 'opacity-0 invisible transform -translate-y-2'
                       }`}
                       onMouseEnter={() => setActiveDropdown(item.name)}
@@ -142,7 +143,7 @@ export default function Header() {
                           <Link
                             key={child.name}
                             href={child.href}
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150"
+                            className="block px-4 py-2 text-sm text-primary-dark/80 hover:bg-primary-light hover:text-blue-600 transition-colors duration-150"
                           >
                             {child.name}
                           </Link>
@@ -153,7 +154,7 @@ export default function Header() {
                 ) : (
                   <Link
                     href={item.href}
-                    className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                    className="text-primary-dark/80 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
                   >
                     {item.name}
                   </Link>
@@ -172,7 +173,7 @@ export default function Header() {
           <div className="lg:hidden">
             <button
               type="button"
-              className="text-gray-700 hover:text-blue-600 p-2"
+              className="text-primary-dark/80 hover:text-blue-600 p-2"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               aria-label="Toggle mobile menu"
             >
@@ -191,18 +192,18 @@ export default function Header() {
             mobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
           }`}
         >
-          <div className="flex items-center justify-between p-4 border-b border-gray-200">
-            <span className="text-lg font-semibold text-gray-900">Menu</span>
+          <div className="flex items-center justify-between p-4 border-b border-grace">
+            <span className="text-lg font-semibold text-scripture">Menu</span>
             <button
               type="button"
-              className="text-gray-500 hover:text-gray-700 p-1"
+              className="text-primary-dark/60 hover:text-primary-dark/80 p-1"
               onClick={closeMobileMenu}
               aria-label="Close mobile menu"
             >
               <XMarkIcon className="h-6 w-6" />
             </button>
           </div>
-          
+
           <div className="px-4 py-6 space-y-1 overflow-y-auto h-full">
             {navigation.map((item) => (
               <div key={item.name}>
@@ -210,20 +211,20 @@ export default function Header() {
                   <div>
                     <button
                       type="button"
-                      className="flex items-center justify-between w-full text-left px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50 rounded-lg"
+                      className="flex items-center justify-between w-full text-left px-3 py-2 text-base font-medium text-scripture hover:bg-primary-light/50 rounded-lg"
                       onClick={() => toggleDropdown(item.name)}
                     >
                       <span className="flex items-center space-x-2">
                         {item.icon && <item.icon className="h-5 w-5" />}
                         <span>{item.name}</span>
                       </span>
-                      <ChevronDownIcon 
+                      <ChevronDownIcon
                         className={`h-4 w-4 transform transition-transform duration-200 ${
                           activeDropdown === item.name ? 'rotate-180' : ''
-                        }`} 
+                        }`}
                       />
                     </button>
-                    
+
                     <div className={`ml-4 space-y-1 transition-all duration-200 ${
                       activeDropdown === item.name ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'
                     }`}>
@@ -231,7 +232,7 @@ export default function Header() {
                         <Link
                           key={child.name}
                           href={child.href}
-                          className="block px-3 py-2 text-sm text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded-lg"
+                          className="block px-3 py-2 text-sm text-primary-dark/70 hover:text-blue-600 hover:bg-primary-light rounded-lg"
                           onClick={closeMobileMenu}
                         >
                           {child.name}
@@ -242,7 +243,7 @@ export default function Header() {
                 ) : (
                   <Link
                     href={item.href}
-                    className="flex items-center space-x-2 px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50 rounded-lg"
+                    className="flex items-center space-x-2 px-3 py-2 text-base font-medium text-scripture hover:bg-primary-light/50 rounded-lg"
                     onClick={closeMobileMenu}
                   >
                     {item.icon && <item.icon className="h-5 w-5" />}
@@ -251,8 +252,8 @@ export default function Header() {
                 )}
               </div>
             ))}
-            
-            <div className="pt-4 border-t border-gray-200">
+
+            <div className="pt-4 border-t border-grace">
               <Link
                 href="/login"
                 className="block w-full bg-blue-600 text-white text-center px-3 py-2 rounded-lg text-base font-medium hover:bg-blue-700 transition-colors duration-200"

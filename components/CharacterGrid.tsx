@@ -46,19 +46,19 @@ export const CharacterGrid: React.FC<CharacterGridProps> = ({ initialCharacters 
                 <div className="flex p-1 bg-grace/30 dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border">
                     <button
                         onClick={() => setTestamentFilter('all')}
-                        className={`px-6 py-2 rounded-lg text-sm font-bold transition-all ${testamentFilter === 'all' ? 'bg-white dark:blue-600 text-blue-600 dark:text-white shadow-sm' : 'text-primary-dark/60 dark:text-gray-400'}`}
+                        className={`px-6 py-2 rounded-lg text-sm font-bold transition-all ${testamentFilter === 'all' ? 'bg-white dark:blue-600 text-blue-600 dark:text-white shadow-sm' : 'text-primary-dark/60 dark:text-primary-dark/40'}`}
                     >
                         All
                     </button>
                     <button
                         onClick={() => setTestamentFilter('Old')}
-                        className={`px-6 py-2 rounded-lg text-sm font-bold transition-all ${testamentFilter === 'Old' ? 'bg-white dark:blue-600 text-blue-600 dark:text-white shadow-sm' : 'text-primary-dark/60 dark:text-gray-400'}`}
+                        className={`px-6 py-2 rounded-lg text-sm font-bold transition-all ${testamentFilter === 'Old' ? 'bg-white dark:blue-600 text-blue-600 dark:text-white shadow-sm' : 'text-primary-dark/60 dark:text-primary-dark/40'}`}
                     >
                         Old Testament
                     </button>
                     <button
                         onClick={() => setTestamentFilter('New')}
-                        className={`px-6 py-2 rounded-lg text-sm font-bold transition-all ${testamentFilter === 'New' ? 'bg-white dark:blue-600 text-blue-600 dark:text-white shadow-sm' : 'text-primary-dark/60 dark:text-gray-400'}`}
+                        className={`px-6 py-2 rounded-lg text-sm font-bold transition-all ${testamentFilter === 'New' ? 'bg-white dark:blue-600 text-blue-600 dark:text-white shadow-sm' : 'text-primary-dark/60 dark:text-primary-dark/40'}`}
                     >
                         New Testament
                     </button>
@@ -82,7 +82,7 @@ export const CharacterGrid: React.FC<CharacterGridProps> = ({ initialCharacters 
                                     <h3 className="font-bold text-scripture dark:text-white group-hover:text-blue-600 transition-colors">
                                         {char.name}
                                     </h3>
-                                    <div className="text-xs font-bold text-primary-dark/40 dark:text-gray-500 uppercase">
+                                    <div className="text-xs font-bold text-primary-dark/40 dark:text-primary-dark/60 uppercase">
                                         {char.testament} Testament • {char.occupation || 'Biblical Figure'}
                                     </div>
                                 </div>
@@ -93,7 +93,7 @@ export const CharacterGrid: React.FC<CharacterGridProps> = ({ initialCharacters 
             ) : (
                 <div className="text-center py-20">
                     <h3 className="text-2xl font-bold text-scripture dark:text-white mb-2">No people found</h3>
-                    <p className="text-primary-dark/60 dark:text-gray-500">Try adjusting your search or filters.</p>
+                    <p className="text-primary-dark/60 dark:text-primary-dark/60">Try adjusting your search or filters.</p>
                 </div>
             )}
         </div>

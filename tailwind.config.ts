@@ -27,9 +27,9 @@ const config: Config = {
         "dark-border": "#3d342c",
       },
       fontFamily: {
-        serif: ["Crimson Text", "Georgia", "serif"],      // For Bible text
-        display: ["Merriweather", "serif"],               // For headings
-        sans: ["Open Sans", "system-ui", "sans-serif"],   // For UI elements
+        serif: ["var(--font-crimson)", "Georgia", "serif"],  // For Bible text
+        display: ["var(--font-merriweather)", "serif"],         // For headings
+        sans: ["Open Sans", "system-ui", "sans-serif"],      // For UI elements
       },
       borderRadius: {
         DEFAULT: "0.5rem",    // 8px

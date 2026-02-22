@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { BIBLE_BOOKS } from '@/lib/bible-data';
 
 const difficultyFilters = [
-  { value: 'all', label: 'All Levels', color: 'bg-gray-100 text-gray-700' },
+  { value: 'all', label: 'All Levels', color: 'bg-grace/20 text-primary-dark/80' },
   { value: 'beginner', label: 'Beginner Friendly', color: 'bg-green-100 text-green-700' },
   { value: 'intermediate', label: 'Some Experience', color: 'bg-amber-100 text-amber-700' },
   { value: 'advanced', label: 'Bible Scholar', color: 'bg-red-100 text-red-700' },
@@ -92,7 +92,7 @@ export default function BibleQuizzesPage() {
   const hasActiveFilters = searchTerm || selectedTestament !== 'all' || selectedDifficulty !== 'all' || selectedCategory !== 'all';
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-primary-light/30">
       <div className="relative bg-gradient-to-br from-blue-900 via-indigo-800 to-purple-900 text-white">
         <div className="absolute inset-0 bg-black/30" />
         <Image
@@ -114,7 +114,7 @@ export default function BibleQuizzesPage() {
           
           <div className="max-w-md mx-auto mb-8">
             <div className="relative">
-              <svg className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-primary-dark/40" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
               <input
@@ -122,7 +122,7 @@ export default function BibleQuizzesPage() {
                 placeholder="Search for a book... (try 'Genesis' or 'John')"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-10 pr-4 py-3 border-0 rounded-lg text-gray-900 bg-white/95 backdrop-blur-sm text-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+                className="w-full pl-10 pr-4 py-3 border-0 rounded-lg text-scripture bg-white/95 backdrop-blur-sm text-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
               />
             </div>
           </div>
@@ -151,17 +151,17 @@ export default function BibleQuizzesPage() {
       <div className="bg-white border-b sticky top-0 z-40 shadow-sm">
         <div className="max-w-6xl mx-auto px-4 py-4">
           <div className="flex flex-wrap items-center gap-3">
-            <span className="text-sm font-medium text-gray-700">Filter:</span>
+            <span className="text-sm font-medium text-primary-dark/80">Filter:</span>
             
-            <div className="flex gap-1 p-1 bg-gray-100 rounded-lg">
+            <div className="flex gap-1 p-1 bg-grace/20 rounded-lg">
               {['all', 'old', 'new'].map((testament) => (
                 <button
                   key={testament}
                   onClick={() => setSelectedTestament(testament)}
                   className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
                     selectedTestament === testament 
-                      ? 'bg-white shadow text-gray-900' 
-                      : 'text-gray-600 hover:text-gray-900'
+                      ? 'bg-white shadow text-scripture' 
+                      : 'text-primary-dark/70 hover:text-scripture'
                   }`}
                 >
                   {testament === 'all' ? 'All' : testament === 'old' ? 'OT' : 'NT'}
@@ -172,7 +172,7 @@ export default function BibleQuizzesPage() {
             <select
               value={selectedCategory}
               onChange={(e) => setSelectedCategory(e.target.value)}
-              className="px-3 py-1.5 border border-gray-200 rounded-lg text-sm bg-white focus:ring-2 focus:ring-blue-500"
+              className="px-3 py-1.5 border border-grace rounded-lg text-sm bg-white focus:ring-2 focus:ring-blue-500"
             >
               {categoryFilters.map((cat) => (
                 <option key={cat.value} value={cat.value}>{cat.label}</option>
@@ -182,7 +182,7 @@ export default function BibleQuizzesPage() {
             <select
               value={selectedDifficulty}
               onChange={(e) => setSelectedDifficulty(e.target.value)}
-              className="px-3 py-1.5 border border-gray-200 rounded-lg text-sm bg-white focus:ring-2 focus:ring-blue-500"
+              className="px-3 py-1.5 border border-grace rounded-lg text-sm bg-white focus:ring-2 focus:ring-blue-500"
             >
               {difficultyFilters.map((diff) => (
                 <option key={diff.value} value={diff.value}>{diff.label}</option>
@@ -198,7 +198,7 @@ export default function BibleQuizzesPage() {
               </button>
             )}
 
-            <span className="ml-auto text-sm text-gray-500">
+            <span className="ml-auto text-sm text-primary-dark/60">
               {filteredBooks.length} {filteredBooks.length === 1 ? 'book' : 'books'} found
             </span>
           </div>
@@ -209,8 +209,8 @@ export default function BibleQuizzesPage() {
         {filteredBooks.length === 0 ? (
           <div className="text-center py-16">
             <div className="text-6xl mb-4">🔍</div>
-            <h3 className="text-xl font-semibold text-gray-900 mb-2">No books match your filters</h3>
-            <p className="text-gray-600 mb-6">Try adjusting your search or filters to find what you&apos;re looking for.</p>
+            <h3 className="text-xl font-semibold text-scripture mb-2">No books match your filters</h3>
+            <p className="text-primary-dark/70 mb-6">Try adjusting your search or filters to find what you&apos;re looking for.</p>
             <button
               onClick={clearFilters}
               className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
@@ -224,10 +224,10 @@ export default function BibleQuizzesPage() {
               <Link
                 key={book.slug}
                 href={`/books/${book.slug}`}
-                className="bg-white border border-gray-200 rounded-xl p-5 hover:shadow-lg hover:border-blue-300 transition-all duration-200 group"
+                className="bg-white border border-grace rounded-xl p-5 hover:shadow-lg hover:border-blue-300 transition-all duration-200 group"
               >
                 <div className="flex items-start justify-between mb-2">
-                  <h3 className="font-semibold text-gray-900 group-hover:text-blue-600">{book.name}</h3>
+                  <h3 className="font-semibold text-scripture group-hover:text-blue-600">{book.name}</h3>
                   <span className={`text-xs px-2 py-0.5 rounded-full ${
                     beginnerBooks.includes(book.slug) ? 'bg-green-100 text-green-700' :
                     advancedBooks.includes(book.slug) ? 'bg-red-100 text-red-700' :
@@ -237,9 +237,9 @@ export default function BibleQuizzesPage() {
                      advancedBooks.includes(book.slug) ? 'Hard' : 'Med'}
                   </span>
                 </div>
-                <p className="text-sm text-gray-500 mb-3">{book.chapters} chapters</p>
+                <p className="text-sm text-primary-dark/60 mb-3">{book.chapters} chapters</p>
                 <div className="flex gap-2">
-                  <span className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded">
+                  <span className="text-xs bg-grace/20 text-primary-dark/70 px-2 py-1 rounded">
                     {book.testament === 'old' ? 'Old Testament' : 'New Testament'}
                   </span>
                 </div>
@@ -251,8 +251,8 @@ export default function BibleQuizzesPage() {
             <div className="mb-12">
               <div className="flex items-center justify-between mb-6">
                 <div>
-                  <h2 className="text-2xl font-bold text-gray-900">Old Testament</h2>
-                  <p className="text-gray-600">39 books from Creation to the prophets</p>
+                  <h2 className="text-2xl font-bold text-scripture">Old Testament</h2>
+                  <p className="text-primary-dark/70">39 books from Creation to the prophets</p>
                 </div>
                 <Link href="/old-testament-quizzes" className="text-blue-600 hover:text-blue-700 font-medium text-sm">
                   View All →
@@ -263,12 +263,12 @@ export default function BibleQuizzesPage() {
                   <Link
                     key={book.slug}
                     href={`/books/${book.slug}`}
-                    className="bg-white border border-gray-200 rounded-lg p-3 text-center hover:shadow-md hover:border-blue-300 transition-all duration-200 group"
+                    className="bg-white border border-grace rounded-lg p-3 text-center hover:shadow-md hover:border-blue-300 transition-all duration-200 group"
                   >
-                    <div className="font-medium text-gray-900 group-hover:text-blue-600 text-sm truncate">
+                    <div className="font-medium text-scripture group-hover:text-blue-600 text-sm truncate">
                       {book.name}
                     </div>
-                    <div className="text-xs text-gray-500 mt-1">
+                    <div className="text-xs text-primary-dark/60 mt-1">
                       {book.chapters} ch
                     </div>
                   </Link>
@@ -279,8 +279,8 @@ export default function BibleQuizzesPage() {
             <div>
               <div className="flex items-center justify-between mb-6">
                 <div>
-                  <h2 className="text-2xl font-bold text-gray-900">New Testament</h2>
-                  <p className="text-gray-600">27 books from the Gospels to Revelation</p>
+                  <h2 className="text-2xl font-bold text-scripture">New Testament</h2>
+                  <p className="text-primary-dark/70">27 books from the Gospels to Revelation</p>
                 </div>
                 <Link href="/new-testament-quizzes" className="text-purple-600 hover:text-purple-700 font-medium text-sm">
                   View All →
@@ -291,12 +291,12 @@ export default function BibleQuizzesPage() {
                   <Link
                     key={book.slug}
                     href={`/books/${book.slug}`}
-                    className="bg-white border border-gray-200 rounded-lg p-3 text-center hover:shadow-md hover:border-purple-300 transition-all duration-200 group"
+                    className="bg-white border border-grace rounded-lg p-3 text-center hover:shadow-md hover:border-purple-300 transition-all duration-200 group"
                   >
-                    <div className="font-medium text-gray-900 group-hover:text-purple-600 text-sm truncate">
+                    <div className="font-medium text-scripture group-hover:text-purple-600 text-sm truncate">
                       {book.name}
                     </div>
-                    <div className="text-xs text-gray-500 mt-1">
+                    <div className="text-xs text-primary-dark/60 mt-1">
                       {book.chapters} ch
                     </div>
                   </Link>
@@ -339,38 +339,38 @@ export default function BibleQuizzesPage() {
         </div>
       </div>
 
-      <div className="bg-gray-100 py-12">
+      <div className="bg-grace/20 py-12">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-2xl font-bold text-gray-900 text-center mb-8">
+          <h2 className="text-2xl font-bold text-scripture text-center mb-8">
             Frequently Asked Questions
           </h2>
           <div className="space-y-4">
-            <details className="bg-white rounded-lg border border-gray-200 p-4 group">
-              <summary className="font-medium text-gray-900 cursor-pointer list-none flex justify-between items-center">
+            <details className="bg-white rounded-lg border border-grace p-4 group">
+              <summary className="font-medium text-scripture cursor-pointer list-none flex justify-between items-center">
                 How many questions are in each quiz?
-                <span className="text-gray-400 group-open:rotate-180 transition-transform">▼</span>
+                <span className="text-primary-dark/40 group-open:rotate-180 transition-transform">▼</span>
               </summary>
-              <p className="mt-3 text-gray-600">
+              <p className="mt-3 text-primary-dark/70">
                 Chapter quizzes have 16 questions each. Book quizzes have 25 comprehensive questions covering the entire book. 
                 All questions include detailed explanations and Bible verse references.
               </p>
             </details>
-            <details className="bg-white rounded-lg border border-gray-200 p-4 group">
-              <summary className="font-medium text-gray-900 cursor-pointer list-none flex justify-between items-center">
+            <details className="bg-white rounded-lg border border-grace p-4 group">
+              <summary className="font-medium text-scripture cursor-pointer list-none flex justify-between items-center">
                 Are the quizzes free?
-                <span className="text-gray-400 group-open:rotate-180 transition-transform">▼</span>
+                <span className="text-primary-dark/40 group-open:rotate-180 transition-transform">▼</span>
               </summary>
-              <p className="mt-3 text-gray-600">
+              <p className="mt-3 text-primary-dark/70">
                 Yes! All quizzes are completely free. No account required, no hidden fees. 
                 We believe Bible education should be accessible to everyone.
               </p>
             </details>
-            <details className="bg-white rounded-lg border border-gray-200 p-4 group">
-              <summary className="font-medium text-gray-900 cursor-pointer list-none flex justify-between items-center">
+            <details className="bg-white rounded-lg border border-grace p-4 group">
+              <summary className="font-medium text-scripture cursor-pointer list-none flex justify-between items-center">
                 What Bible version do you use?
-                <span className="text-gray-400 group-open:rotate-180 transition-transform">▼</span>
+                <span className="text-primary-dark/40 group-open:rotate-180 transition-transform">▼</span>
               </summary>
-              <p className="mt-3 text-gray-600">
+              <p className="mt-3 text-primary-dark/70">
                 Questions are based primarily on the King James Version (KJV), but are written to be applicable 
                 across most major translations. Verse references are provided so you can look up any version.
               </p>

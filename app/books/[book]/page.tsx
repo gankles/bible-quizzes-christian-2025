@@ -73,8 +73,8 @@ function getBookImage(): string {
 
 function OutlineSection({ outline }: { outline: BookMetadata['outline'] }) {
   return (
-    <section className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-6">
-      <h2 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
+    <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
+      <h2 className="text-xl font-bold text-scripture mb-4 flex items-center">
         <svg className="w-5 h-5 mr-2 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
         </svg>
@@ -84,12 +84,12 @@ function OutlineSection({ outline }: { outline: BookMetadata['outline'] }) {
         {outline.map((section, index) => (
           <div key={index} className="border-l-4 border-blue-500 pl-4 py-2">
             <div className="flex items-start justify-between">
-              <h3 className="font-semibold text-gray-900">{section.heading}</h3>
+              <h3 className="font-semibold text-scripture">{section.heading}</h3>
               <span className="text-sm text-blue-600 font-mono bg-blue-50 px-2 py-1 rounded">
                 {section.reference}
               </span>
             </div>
-            <p className="text-gray-600 text-sm mt-1">{section.description}</p>
+            <p className="text-primary-dark/70 text-sm mt-1">{section.description}</p>
           </div>
         ))}
       </div>
@@ -99,8 +99,8 @@ function OutlineSection({ outline }: { outline: BookMetadata['outline'] }) {
 
 function FamousVersesSection({ verses, bookSlug }: { verses: BookMetadata['famousVerses']; bookSlug: string }) {
   return (
-    <section className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-6">
-      <h2 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
+    <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
+      <h2 className="text-xl font-bold text-scripture mb-4 flex items-center">
         <svg className="w-5 h-5 mr-2 text-amber-500" fill="currentColor" viewBox="0 0 24 24">
           <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
         </svg>
@@ -114,8 +114,8 @@ function FamousVersesSection({ verses, bookSlug }: { verses: BookMetadata['famou
             : null;
           
           return (
-            <div key={index} className="bg-gray-50 rounded-lg p-4">
-              <blockquote className="text-gray-700 italic mb-2">
+            <div key={index} className="bg-primary-light/30 rounded-lg p-4">
+              <blockquote className="text-primary-dark/80 italic mb-2">
                 &ldquo;{verse.text}&rdquo;
               </blockquote>
               <div className="flex items-center justify-between">
@@ -150,8 +150,8 @@ function ThemesSection({ themes }: { themes: string[] }) {
   ];
   
   return (
-    <section className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-6">
-      <h2 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
+    <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
+      <h2 className="text-xl font-bold text-scripture mb-4 flex items-center">
         <svg className="w-5 h-5 mr-2 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
         </svg>
@@ -176,9 +176,9 @@ function ChapterGrid({ bookSlug, bookName, totalChapters }: { bookSlug: string; 
   const displayChapters = Math.min(totalChapters, maxPreviewChapters);
   
   return (
-    <section className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-6">
+    <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
       <div className="flex items-center justify-between mb-4">
-        <h2 className="text-xl font-bold text-gray-900 flex items-center">
+        <h2 className="text-xl font-bold text-scripture flex items-center">
           <svg className="w-5 h-5 mr-2 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
           </svg>
@@ -197,7 +197,7 @@ function ChapterGrid({ bookSlug, bookName, totalChapters }: { bookSlug: string; 
           <Link
             key={chapter}
             href={`/${bookSlug}-${chapter}-quiz`}
-            className="aspect-square flex items-center justify-center bg-gray-100 hover:bg-blue-100 text-gray-700 hover:text-blue-700 font-medium rounded-lg transition-colors text-sm"
+            className="aspect-square flex items-center justify-center bg-grace/20 hover:bg-blue-100 text-primary-dark/80 hover:text-blue-700 font-medium rounded-lg transition-colors text-sm"
           >
             {chapter}
           </Link>
@@ -265,19 +265,19 @@ export default async function BookPage({ params }: BookPageProps) {
   const bookImage = getBookImage();
   
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-primary-light/30">
       {/* Breadcrumb Navigation */}
-      <nav className="bg-white border-b border-gray-200">
+      <nav className="bg-white border-b border-grace">
         <div className="max-w-4xl mx-auto px-4 py-3">
           <ol className="flex items-center space-x-2 text-sm">
             <li>
               <Link href="/" className="text-blue-600 hover:underline">Home</Link>
             </li>
-            <li className="text-gray-400">/</li>
+            <li className="text-primary-dark/40">/</li>
             <li>
               <Link href="/bible-quizzes" className="text-blue-600 hover:underline">Bible</Link>
             </li>
-            <li className="text-gray-400">/</li>
+            <li className="text-primary-dark/40">/</li>
             <li>
               <Link 
                 href={metadata.testament === 'old' ? '/old-testament-quizzes' : '/new-testament-quizzes'} 
@@ -286,15 +286,15 @@ export default async function BookPage({ params }: BookPageProps) {
                 {metadata.testament === 'old' ? 'Old Testament' : 'New Testament'}
               </Link>
             </li>
-            <li className="text-gray-400">/</li>
-            <li className="text-gray-600">{metadata.name}</li>
+            <li className="text-primary-dark/40">/</li>
+            <li className="text-primary-dark/70">{metadata.name}</li>
           </ol>
         </div>
       </nav>
 
       <main className="max-w-4xl mx-auto px-4 py-8">
         {/* Hero Section */}
-        <article className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden mb-6">
+        <article className="bg-white rounded-xl shadow-sm border border-grace overflow-hidden mb-6">
           <div className="relative h-48 md:h-64 bg-gradient-to-r from-blue-600 to-blue-700">
             <Image
               src={bookImage}
@@ -312,48 +312,48 @@ export default async function BookPage({ params }: BookPageProps) {
                   {metadata.category}
                 </span>
               </div>
-              <h1 className="text-3xl md:text-4xl font-bold text-white">
+              <h1 className="text-3xl md:text-4xl font-bold font-display text-white">
                 Book of {metadata.name}
               </h1>
             </div>
           </div>
           
           {/* Quick Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-4 divide-x divide-gray-200 border-b border-gray-200">
+          <div className="grid grid-cols-2 md:grid-cols-4 divide-x divide-grace border-b border-grace">
             <div className="p-4 text-center">
               <p className="text-2xl font-bold text-blue-600">{metadata.chapters}</p>
-              <p className="text-sm text-gray-600">Chapters</p>
+              <p className="text-sm text-primary-dark/70">Chapters</p>
             </div>
             <div className="p-4 text-center">
               <p className="text-2xl font-bold text-blue-600">{metadata.verseCount.toLocaleString()}</p>
-              <p className="text-sm text-gray-600">Verses</p>
+              <p className="text-sm text-primary-dark/70">Verses</p>
             </div>
             <div className="p-4 text-center">
-              <p className="text-lg font-semibold text-gray-900">{metadata.author}</p>
-              <p className="text-sm text-gray-600">Author</p>
+              <p className="text-lg font-semibold text-scripture">{metadata.author}</p>
+              <p className="text-sm text-primary-dark/70">Author</p>
             </div>
             <div className="p-4 text-center">
-              <p className="text-lg font-semibold text-gray-900">{metadata.dateRange}</p>
-              <p className="text-sm text-gray-600">Date Written</p>
+              <p className="text-lg font-semibold text-scripture">{metadata.dateRange}</p>
+              <p className="text-sm text-primary-dark/70">Date Written</p>
             </div>
           </div>
           
           {/* Summary */}
           <div className="p-6 md:p-8">
-            <h2 className="text-lg font-bold text-gray-900 mb-3">Overview</h2>
-            <p className="text-gray-700 leading-relaxed mb-4">{metadata.summary}</p>
+            <h2 className="text-lg font-bold text-scripture mb-3">Overview</h2>
+            <p className="text-primary-dark/80 leading-relaxed mb-4">{metadata.summary}</p>
             
-            <h3 className="text-md font-semibold text-gray-900 mb-2">Purpose</h3>
-            <p className="text-gray-700 leading-relaxed mb-4">{metadata.purpose}</p>
+            <h3 className="text-md font-semibold text-scripture mb-2">Purpose</h3>
+            <p className="text-primary-dark/80 leading-relaxed mb-4">{metadata.purpose}</p>
             
-            <h3 className="text-md font-semibold text-gray-900 mb-2">Historical Context</h3>
-            <p className="text-gray-700 leading-relaxed">{metadata.historicalContext}</p>
+            <h3 className="text-md font-semibold text-scripture mb-2">Historical Context</h3>
+            <p className="text-primary-dark/80 leading-relaxed">{metadata.historicalContext}</p>
           </div>
         </article>
 
         {/* Book Name Origins */}
-        <section className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-6">
-          <h2 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
+        <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
+          <h2 className="text-xl font-bold text-scripture mb-4 flex items-center">
             <svg className="w-5 h-5 mr-2 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
             </svg>
@@ -363,17 +363,17 @@ export default async function BookPage({ params }: BookPageProps) {
             {metadata.hebrewName && (
               <div className="bg-amber-50 rounded-lg p-4 border border-amber-100">
                 <p className="text-xs font-medium text-amber-600 uppercase tracking-wide mb-1">Hebrew</p>
-                <p className="text-2xl font-bold text-gray-900 mb-1" dir="rtl" lang="he">{metadata.hebrewName}</p>
-                <p className="text-sm text-gray-700 italic mb-1">{metadata.hebrewTransliteration}</p>
-                <p className="text-sm text-gray-600">&ldquo;{metadata.hebrewMeaning}&rdquo;</p>
+                <p className="text-2xl font-bold text-scripture mb-1" dir="rtl" lang="he">{metadata.hebrewName}</p>
+                <p className="text-sm text-primary-dark/80 italic mb-1">{metadata.hebrewTransliteration}</p>
+                <p className="text-sm text-primary-dark/70">&ldquo;{metadata.hebrewMeaning}&rdquo;</p>
               </div>
             )}
             <div className={`bg-blue-50 rounded-lg p-4 border border-blue-100 ${!metadata.hebrewName ? 'sm:col-span-2' : ''}`}>
               <p className="text-xs font-medium text-blue-600 uppercase tracking-wide mb-1">Greek</p>
-              <p className="text-2xl font-bold text-gray-900 mb-1" lang="el">{metadata.greekName}</p>
-              <p className="text-sm text-gray-700 italic mb-1">{metadata.greekTransliteration}</p>
+              <p className="text-2xl font-bold text-scripture mb-1" lang="el">{metadata.greekName}</p>
+              <p className="text-sm text-primary-dark/80 italic mb-1">{metadata.greekTransliteration}</p>
               {metadata.greekMeaning && (
-                <p className="text-sm text-gray-600">&ldquo;{metadata.greekMeaning}&rdquo;</p>
+                <p className="text-sm text-primary-dark/70">&ldquo;{metadata.greekMeaning}&rdquo;</p>
               )}
             </div>
           </div>
@@ -407,29 +407,29 @@ export default async function BookPage({ params }: BookPageProps) {
         <RelatedQuizzes bookSlug={book} bookName={metadata.name} />
 
         {/* Navigation to Other Books */}
-        <section className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
-          <h2 className="text-xl font-bold text-gray-900 mb-4">Explore More Books</h2>
+        <section className="bg-white rounded-xl shadow-sm border border-grace p-6">
+          <h2 className="text-xl font-bold text-scripture mb-4">Explore More Books</h2>
           <div className="grid gap-3 sm:grid-cols-2">
             <Link
               href={metadata.testament === 'old' ? '/old-testament-quizzes' : '/new-testament-quizzes'}
-              className="flex items-center p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:bg-blue-50 transition-colors"
+              className="flex items-center p-4 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors"
             >
               <div>
                 <span className="text-blue-600 font-semibold block">
                   {metadata.testament === 'old' ? 'Old Testament' : 'New Testament'} Books
                 </span>
-                <span className="text-sm text-gray-500">
+                <span className="text-sm text-primary-dark/60">
                   {metadata.testament === 'old' ? '39 books' : '27 books'} to explore
                 </span>
               </div>
             </Link>
             <Link
               href="/bible-quizzes"
-              className="flex items-center p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:bg-blue-50 transition-colors"
+              className="flex items-center p-4 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors"
             >
               <div>
                 <span className="text-blue-600 font-semibold block">All Bible Quizzes</span>
-                <span className="text-sm text-gray-500">Browse all quiz categories</span>
+                <span className="text-sm text-primary-dark/60">Browse all quiz categories</span>
               </div>
             </Link>
           </div>

@@ -12,13 +12,13 @@ export default async function TopicsPage() {
     const topicGroups = await getAllTopics();
 
     return (
-        <div className="min-h-screen bg-gray-50">
-            <section className="py-16 bg-gradient-to-b from-blue-50 to-gray-50">
+        <div className="min-h-screen bg-primary-light/30">
+            <section className="py-16 bg-gradient-to-b from-blue-50 to-primary-light/30">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                    <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                    <h1 className="text-4xl md:text-5xl font-bold font-display text-scripture mb-4">
                         Bible Verses <span className="text-blue-600">By Topic</span>
                     </h1>
-                    <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                    <p className="text-lg text-primary-dark/70 max-w-2xl mx-auto">
                         Discover specific scripture for every life situation and theological question.
                         Browse our library of cross-referenced biblical topics.
                     </p>

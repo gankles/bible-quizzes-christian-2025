@@ -51,7 +51,7 @@ export function DailyVerse() {
         </div>
         <div className="flex-1">
           <div className="text-sm font-medium text-amber-600 mb-1">Verse of the Day</div>
-          <blockquote className="text-gray-800 italic mb-2">
+          <blockquote className="text-scripture italic mb-2">
             &ldquo;{verse.text}&rdquo;
           </blockquote>
           <div className="flex items-center justify-between">
@@ -122,7 +122,7 @@ export function SearchBox() {
   return (
     <div className="relative max-w-2xl mx-auto">
       <div className="relative">
-        <svg className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-primary-dark/40" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
         </svg>
         <input
@@ -132,28 +132,28 @@ export function SearchBox() {
           onChange={(e) => setQuery(e.target.value)}
           onFocus={() => setIsFocused(true)}
           onBlur={() => setTimeout(() => setIsFocused(false), 200)}
-          className="block w-full pl-12 pr-4 py-4 border border-gray-300 rounded-xl text-lg bg-white/95 backdrop-blur-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 shadow-lg"
+          className="block w-full pl-12 pr-4 py-4 border border-grace rounded-xl text-lg bg-white/95 backdrop-blur-sm placeholder-primary-dark/40 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 shadow-lg"
         />
       </div>
 
       {isFocused && results.length > 0 && (
-        <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-xl shadow-xl border border-gray-200 overflow-hidden z-50">
+        <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-xl shadow-xl border border-grace overflow-hidden z-50">
           {results.map((result, index) => (
             <Link
               key={index}
               href={result.href}
-              className="flex items-center px-4 py-3 hover:bg-blue-50 transition-colors border-b border-gray-100 last:border-0"
+              className="flex items-center px-4 py-3 hover:bg-primary-light transition-colors border-b border-grace/50 last:border-0"
             >
               <div className={`w-8 h-8 rounded-lg flex items-center justify-center mr-3 ${
                 result.type === 'book' ? 'bg-blue-100 text-blue-600' :
                 result.type === 'chapter' ? 'bg-green-100 text-green-600' :
                 'bg-purple-100 text-purple-600'
               }`}>
-                {result.type === 'book' ? '📖' : result.type === 'chapter' ? '📄' : '🏷️'}
+                {result.type === 'book' ? 'B' : result.type === 'chapter' ? 'Ch' : 'T'}
               </div>
               <div>
-                <div className="font-medium text-gray-900">{result.name}</div>
-                <div className="text-sm text-gray-500">{result.description}</div>
+                <div className="font-medium text-scripture">{result.name}</div>
+                <div className="text-sm text-primary-dark/60">{result.description}</div>
               </div>
             </Link>
           ))}
@@ -161,8 +161,8 @@ export function SearchBox() {
       )}
 
       {isFocused && query && results.length === 0 && (
-        <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-xl shadow-xl border border-gray-200 p-4 text-center z-50">
-          <p className="text-gray-600">No results found for &ldquo;{query}&rdquo;</p>
+        <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-xl shadow-xl border border-grace p-4 text-center z-50">
+          <p className="text-primary-dark/70">No results found for &ldquo;{query}&rdquo;</p>
           <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm mt-2 inline-block">
             Browse all quizzes →
           </Link>
@@ -174,32 +174,38 @@ export function SearchBox() {
 
 export function QuickStartSection() {
   return (
-    <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
-      <h3 className="font-bold text-gray-900 mb-4">Quick Start: Pick Your Path</h3>
+    <div className="bg-white border border-grace rounded-xl p-6 shadow-sm">
+      <h3 className="font-bold text-scripture mb-4">Quick Start: Pick Your Path</h3>
       <div className="grid sm:grid-cols-3 gap-4">
         <Link
           href="/genesis-chapters"
           className="p-4 bg-amber-50 hover:bg-amber-100 border border-amber-200 rounded-lg transition-colors text-center"
         >
-          <div className="text-2xl mb-2">🌅</div>
-          <div className="font-medium text-gray-900">From the Beginning</div>
-          <div className="text-sm text-gray-600">Start with Genesis</div>
+          <div className="w-10 h-10 mx-auto mb-2 bg-amber-200 rounded-full flex items-center justify-center">
+            <svg className="w-5 h-5 text-amber-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
+          </div>
+          <div className="font-medium text-scripture">From the Beginning</div>
+          <div className="text-sm text-primary-dark/70">Start with Genesis</div>
         </Link>
         <Link
-          href="/books/matthew"
+          href="/matthew-chapters"
           className="p-4 bg-blue-50 hover:bg-blue-100 border border-blue-200 rounded-lg transition-colors text-center"
         >
-          <div className="text-2xl mb-2">✝️</div>
-          <div className="font-medium text-gray-900">Meet Jesus</div>
-          <div className="text-sm text-gray-600">Start with Matthew</div>
+          <div className="w-10 h-10 mx-auto mb-2 bg-blue-200 rounded-full flex items-center justify-center">
+            <svg className="w-5 h-5 text-blue-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342" /></svg>
+          </div>
+          <div className="font-medium text-scripture">Meet Jesus</div>
+          <div className="text-sm text-primary-dark/70">Start with Matthew</div>
         </Link>
         <Link
-          href="/bible-quiz-difficulty"
+          href="/bible-quizzes"
           className="p-4 bg-purple-50 hover:bg-purple-100 border border-purple-200 rounded-lg transition-colors text-center"
         >
-          <div className="text-2xl mb-2">🎯</div>
-          <div className="font-medium text-gray-900">By Difficulty</div>
-          <div className="text-sm text-gray-600">Find your level</div>
+          <div className="w-10 h-10 mx-auto mb-2 bg-purple-200 rounded-full flex items-center justify-center">
+            <svg className="w-5 h-5 text-purple-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" /></svg>
+          </div>
+          <div className="font-medium text-scripture">Browse Quizzes</div>
+          <div className="text-sm text-primary-dark/70">All books and chapters</div>
         </Link>
       </div>
     </div>

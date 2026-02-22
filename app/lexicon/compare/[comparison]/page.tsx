@@ -71,16 +71,16 @@ export default async function ComparisonPage({ params }: ComparePageProps) {
     return (
         <div className="bg-[#FAFAF9] pb-32 min-h-screen">
             {/* NAVIGATION */}
-            <div className="bg-white/40 border-b border-gray-200 backdrop-blur-md">
+            <div className="bg-white/40 border-b border-grace backdrop-blur-md">
                 <div className="max-w-7xl mx-auto px-6 h-14 flex items-center justify-between">
-                    <Link href="/lexicon" className="group flex items-center text-gray-500 hover:text-blue-600 transition-all text-[11px] font-bold uppercase">
+                    <Link href="/lexicon" className="group flex items-center text-primary-dark/60 hover:text-blue-600 transition-all text-[11px] font-bold uppercase">
                         <ArrowLeftIcon className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" />
                         <span>Lexicon Hub</span>
                     </Link>
-                    <div className="hidden md:flex items-center space-x-6 text-[10px] font-bold uppercase text-gray-400">
+                    <div className="hidden md:flex items-center space-x-6 text-[10px] font-bold uppercase text-primary-dark/40">
                         <span>Word Comparison</span>
                         <span className="w-1.5 h-1.5 bg-blue-600 rounded-full"></span>
-                        <span className="text-gray-900">{entryA.strongs} vs {entryB.strongs}</span>
+                        <span className="text-scripture">{entryA.strongs} vs {entryB.strongs}</span>
                     </div>
                 </div>
             </div>
@@ -93,11 +93,11 @@ export default async function ComparisonPage({ params }: ComparePageProps) {
                             <ChartBarIcon className="w-4 h-4" />
                             <span>Comparative Word Study</span>
                         </div>
-                        <h1 className="text-5xl md:text-7xl font-bold text-gray-950 tracking-tighter mb-6">
+                        <h1 className="text-5xl md:text-7xl font-display font-bold text-scripture tracking-tighter mb-6">
                             {compDef ? compDef.title : `${entryA.word} vs ${entryB.word}`}
                         </h1>
                         {compDef && (
-                            <p className="text-xl text-gray-600 font-medium leading-relaxed">
+                            <p className="text-xl text-primary-dark/70 font-medium leading-relaxed">
                                 {compDef.subtitle}. Side-by-side analysis of these biblical terms in their original languages.
                             </p>
                         )}
@@ -114,7 +114,7 @@ export default async function ComparisonPage({ params }: ComparePageProps) {
                             const accentColor = isGreek ? 'indigo' : 'rose';
 
                             return (
-                                <div key={entry.strongs} className={`p-10 rounded-[32px] border border-gray-200 bg-white shadow-lg`}>
+                                <div key={entry.strongs} className={`p-10 rounded-[32px] border border-grace bg-white shadow-lg`}>
                                     <div className="flex items-center justify-between mb-8">
                                         <span className={`px-5 py-2 rounded-lg bg-${accentColor}-50 text-${accentColor}-600 text-[10px] font-bold uppercase`}>
                                             {entry.strongs}
@@ -124,30 +124,30 @@ export default async function ComparisonPage({ params }: ComparePageProps) {
                                         </span>
                                     </div>
 
-                                    <div className={`text-5xl font-bold text-gray-950 mb-3 tracking-tighter ${!isGreek ? 'text-right' : ''}`} dir={!isGreek ? 'rtl' : 'ltr'}>
+                                    <div className={`text-5xl font-bold text-scripture mb-3 tracking-tighter ${!isGreek ? 'text-right' : ''}`} dir={!isGreek ? 'rtl' : 'ltr'}>
                                         {entry.word}
                                     </div>
-                                    <div className="text-sm text-gray-500 font-medium mb-1">{entry.transliteration}</div>
+                                    <div className="text-sm text-primary-dark/60 font-medium mb-1">{entry.transliteration}</div>
                                     {entry.pronunciation && (
-                                        <div className="text-xs text-gray-400 mb-6">{entry.pronunciation}</div>
+                                        <div className="text-xs text-primary-dark/40 mb-6">{entry.pronunciation}</div>
                                     )}
 
                                     <div className="space-y-6">
                                         {/* Strong's Definition */}
-                                        <div className="p-6 rounded-xl bg-gray-50 border border-gray-100">
-                                            <div className="text-[10px] font-bold text-gray-400 uppercase mb-3">Strong&apos;s Definition</div>
-                                            <p className="text-gray-700 text-sm leading-relaxed">
+                                        <div className="p-6 rounded-xl bg-primary-light/30 border border-grace/50">
+                                            <div className="text-[10px] font-bold text-primary-dark/40 uppercase mb-3">Strong&apos;s Definition</div>
+                                            <p className="text-primary-dark/80 text-sm leading-relaxed">
                                                 {entry.definitions?.strongs || 'N/A'}
                                             </p>
                                         </div>
 
                                         {/* Secondary Definition */}
                                         {(entry.definitions?.lsj || entry.definitions?.bdb) && (
-                                            <div className="p-6 rounded-xl bg-gray-50 border border-gray-100">
-                                                <div className="text-[10px] font-bold text-gray-400 uppercase mb-3">
+                                            <div className="p-6 rounded-xl bg-primary-light/30 border border-grace/50">
+                                                <div className="text-[10px] font-bold text-primary-dark/40 uppercase mb-3">
                                                     {isGreek ? 'LSJ Classical' : 'BDB Hebrew'}
                                                 </div>
-                                                <p className="text-gray-700 text-sm leading-relaxed line-clamp-4">
+                                                <p className="text-primary-dark/80 text-sm leading-relaxed line-clamp-4">
                                                     {entry.definitions?.lsj || entry.definitions?.bdb}
                                                 </p>
                                             </div>
@@ -155,19 +155,19 @@ export default async function ComparisonPage({ params }: ComparePageProps) {
 
                                         {/* Morphology */}
                                         <div className="flex items-center space-x-4">
-                                            <span className="text-[10px] font-bold text-gray-400 uppercase">Morphology:</span>
-                                            <span className="font-mono text-sm font-bold text-gray-700">{entry.morphology?.code || 'N/A'}</span>
+                                            <span className="text-[10px] font-bold text-primary-dark/40 uppercase">Morphology:</span>
+                                            <span className="font-mono text-sm font-bold text-primary-dark/80">{entry.morphology?.code || 'N/A'}</span>
                                         </div>
 
                                         {/* Stats */}
-                                        <div className="flex items-center justify-between pt-4 border-t border-gray-100">
+                                        <div className="flex items-center justify-between pt-4 border-t border-grace/50">
                                             <div>
-                                                <div className="text-[10px] font-bold text-gray-400 uppercase">Occurrences</div>
-                                                <div className="text-2xl font-bold text-gray-900">{entry.stats?.totalOccurrences || 0}</div>
+                                                <div className="text-[10px] font-bold text-primary-dark/40 uppercase">Occurrences</div>
+                                                <div className="text-2xl font-bold text-scripture">{entry.stats?.totalOccurrences || 0}</div>
                                             </div>
                                             <div className="text-right">
-                                                <div className="text-[10px] font-bold text-gray-400 uppercase">Most Frequent</div>
-                                                <div className="text-sm font-bold text-gray-700">{entry.stats?.mostFrequentBook || 'N/A'}</div>
+                                                <div className="text-[10px] font-bold text-primary-dark/40 uppercase">Most Frequent</div>
+                                                <div className="text-sm font-bold text-primary-dark/80">{entry.stats?.mostFrequentBook || 'N/A'}</div>
                                             </div>
                                         </div>
                                     </div>
@@ -193,53 +193,53 @@ export default async function ComparisonPage({ params }: ComparePageProps) {
                             <BoltIcon className="w-4 h-4" />
                             <span>At a Glance</span>
                         </div>
-                        <h2 className="text-3xl font-bold text-gray-950 tracking-tighter">Direct Comparison</h2>
+                        <h2 className="text-3xl font-bold text-scripture tracking-tighter">Direct Comparison</h2>
                     </div>
 
-                    <div className="overflow-x-auto rounded-[32px] border border-gray-200 bg-white shadow-lg">
+                    <div className="overflow-x-auto rounded-[32px] border border-grace bg-white shadow-lg">
                         <table className="w-full text-left">
                             <thead>
-                                <tr className="border-b border-gray-100 bg-gray-50/50">
-                                    <th className="px-8 py-5 text-[10px] font-bold text-gray-400 uppercase">Attribute</th>
-                                    <th className="px-8 py-5 text-[10px] font-bold text-gray-400 uppercase">{entryA.strongs}</th>
-                                    <th className="px-8 py-5 text-[10px] font-bold text-gray-400 uppercase">{entryB.strongs}</th>
+                                <tr className="border-b border-grace/50 bg-primary-light/30">
+                                    <th className="px-8 py-5 text-[10px] font-bold text-primary-dark/40 uppercase">Attribute</th>
+                                    <th className="px-8 py-5 text-[10px] font-bold text-primary-dark/40 uppercase">{entryA.strongs}</th>
+                                    <th className="px-8 py-5 text-[10px] font-bold text-primary-dark/40 uppercase">{entryB.strongs}</th>
                                 </tr>
                             </thead>
-                            <tbody className="divide-y divide-gray-100">
-                                <tr className="hover:bg-gray-50/50 transition-colors">
-                                    <td className="px-8 py-5 text-sm font-bold text-gray-600">Word</td>
-                                    <td className="px-8 py-5 text-xl font-bold text-gray-900">{entryA.word}</td>
-                                    <td className="px-8 py-5 text-xl font-bold text-gray-900" dir={entryB.language?.toLowerCase() === 'hebrew' ? 'rtl' : 'ltr'}>{entryB.word}</td>
+                            <tbody className="divide-y divide-grace/50">
+                                <tr className="hover:bg-primary-light/50 transition-colors">
+                                    <td className="px-8 py-5 text-sm font-bold text-primary-dark/70">Word</td>
+                                    <td className="px-8 py-5 text-xl font-bold text-scripture">{entryA.word}</td>
+                                    <td className="px-8 py-5 text-xl font-bold text-scripture" dir={entryB.language?.toLowerCase() === 'hebrew' ? 'rtl' : 'ltr'}>{entryB.word}</td>
                                 </tr>
-                                <tr className="hover:bg-gray-50/50 transition-colors">
-                                    <td className="px-8 py-5 text-sm font-bold text-gray-600">Transliteration</td>
-                                    <td className="px-8 py-5 text-sm text-gray-700">{entryA.transliteration}</td>
-                                    <td className="px-8 py-5 text-sm text-gray-700">{entryB.transliteration}</td>
+                                <tr className="hover:bg-primary-light/50 transition-colors">
+                                    <td className="px-8 py-5 text-sm font-bold text-primary-dark/70">Transliteration</td>
+                                    <td className="px-8 py-5 text-sm text-primary-dark/80">{entryA.transliteration}</td>
+                                    <td className="px-8 py-5 text-sm text-primary-dark/80">{entryB.transliteration}</td>
                                 </tr>
-                                <tr className="hover:bg-gray-50/50 transition-colors">
-                                    <td className="px-8 py-5 text-sm font-bold text-gray-600">Language</td>
-                                    <td className="px-8 py-5 text-sm text-gray-700">{entryA.language}</td>
-                                    <td className="px-8 py-5 text-sm text-gray-700">{entryB.language}</td>
+                                <tr className="hover:bg-primary-light/50 transition-colors">
+                                    <td className="px-8 py-5 text-sm font-bold text-primary-dark/70">Language</td>
+                                    <td className="px-8 py-5 text-sm text-primary-dark/80">{entryA.language}</td>
+                                    <td className="px-8 py-5 text-sm text-primary-dark/80">{entryB.language}</td>
                                 </tr>
-                                <tr className="hover:bg-gray-50/50 transition-colors">
-                                    <td className="px-8 py-5 text-sm font-bold text-gray-600">Strong&apos;s Definition</td>
-                                    <td className="px-8 py-5 text-sm text-gray-600 max-w-xs">{entryA.definitions?.strongs || 'N/A'}</td>
-                                    <td className="px-8 py-5 text-sm text-gray-600 max-w-xs">{entryB.definitions?.strongs || 'N/A'}</td>
+                                <tr className="hover:bg-primary-light/50 transition-colors">
+                                    <td className="px-8 py-5 text-sm font-bold text-primary-dark/70">Strong&apos;s Definition</td>
+                                    <td className="px-8 py-5 text-sm text-primary-dark/70 max-w-xs">{entryA.definitions?.strongs || 'N/A'}</td>
+                                    <td className="px-8 py-5 text-sm text-primary-dark/70 max-w-xs">{entryB.definitions?.strongs || 'N/A'}</td>
                                 </tr>
-                                <tr className="hover:bg-gray-50/50 transition-colors">
-                                    <td className="px-8 py-5 text-sm font-bold text-gray-600">Morphology</td>
-                                    <td className="px-8 py-5 font-mono text-sm text-gray-700">{entryA.morphology?.code || 'N/A'}</td>
-                                    <td className="px-8 py-5 font-mono text-sm text-gray-700">{entryB.morphology?.code || 'N/A'}</td>
+                                <tr className="hover:bg-primary-light/50 transition-colors">
+                                    <td className="px-8 py-5 text-sm font-bold text-primary-dark/70">Morphology</td>
+                                    <td className="px-8 py-5 font-mono text-sm text-primary-dark/80">{entryA.morphology?.code || 'N/A'}</td>
+                                    <td className="px-8 py-5 font-mono text-sm text-primary-dark/80">{entryB.morphology?.code || 'N/A'}</td>
                                 </tr>
-                                <tr className="hover:bg-gray-50/50 transition-colors">
-                                    <td className="px-8 py-5 text-sm font-bold text-gray-600">Total Occurrences</td>
-                                    <td className="px-8 py-5 text-lg font-bold text-gray-900">{entryA.stats?.totalOccurrences || 0}</td>
-                                    <td className="px-8 py-5 text-lg font-bold text-gray-900">{entryB.stats?.totalOccurrences || 0}</td>
+                                <tr className="hover:bg-primary-light/50 transition-colors">
+                                    <td className="px-8 py-5 text-sm font-bold text-primary-dark/70">Total Occurrences</td>
+                                    <td className="px-8 py-5 text-lg font-bold text-scripture">{entryA.stats?.totalOccurrences || 0}</td>
+                                    <td className="px-8 py-5 text-lg font-bold text-scripture">{entryB.stats?.totalOccurrences || 0}</td>
                                 </tr>
-                                <tr className="hover:bg-gray-50/50 transition-colors">
-                                    <td className="px-8 py-5 text-sm font-bold text-gray-600">Most Frequent Book</td>
-                                    <td className="px-8 py-5 text-sm text-gray-700">{entryA.stats?.mostFrequentBook || 'N/A'}</td>
-                                    <td className="px-8 py-5 text-sm text-gray-700">{entryB.stats?.mostFrequentBook || 'N/A'}</td>
+                                <tr className="hover:bg-primary-light/50 transition-colors">
+                                    <td className="px-8 py-5 text-sm font-bold text-primary-dark/70">Most Frequent Book</td>
+                                    <td className="px-8 py-5 text-sm text-primary-dark/80">{entryA.stats?.mostFrequentBook || 'N/A'}</td>
+                                    <td className="px-8 py-5 text-sm text-primary-dark/80">{entryB.stats?.mostFrequentBook || 'N/A'}</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -251,21 +251,21 @@ export default async function ComparisonPage({ params }: ComparePageProps) {
             {COMPARISONS.filter(c => c.slug !== comparison).length > 0 && (
                 <section className="py-20">
                     <div className="max-w-7xl mx-auto px-6">
-                        <h2 className="text-3xl font-bold text-gray-950 tracking-tighter mb-12">More Comparisons</h2>
+                        <h2 className="text-3xl font-bold text-scripture tracking-tighter mb-12">More Comparisons</h2>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             {COMPARISONS.filter(c => c.slug !== comparison).map((comp) => (
                                 <Link
                                     key={comp.slug}
                                     href={`/lexicon/compare/${comp.slug}`}
-                                    className="group p-8 rounded-xl bg-white border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all"
+                                    className="group p-8 rounded-xl bg-white border border-grace hover:border-blue-300 hover:shadow-md transition-all"
                                 >
                                     <div className="flex items-center space-x-3 mb-4">
                                         <span className="px-3 py-1 rounded-lg bg-blue-600 text-white text-xs font-bold">{comp.a}</span>
-                                        <span className="text-gray-400 text-xs font-bold">vs</span>
-                                        <span className="px-3 py-1 rounded-lg bg-gray-900 text-white text-xs font-bold">{comp.b}</span>
+                                        <span className="text-primary-dark/40 text-xs font-bold">vs</span>
+                                        <span className="px-3 py-1 rounded-lg bg-scripture text-white text-xs font-bold">{comp.b}</span>
                                     </div>
-                                    <h3 className="text-xl font-bold text-gray-900 mb-2">{comp.title}</h3>
-                                    <p className="text-sm text-gray-500">{comp.subtitle}</p>
+                                    <h3 className="text-xl font-bold text-scripture mb-2">{comp.title}</h3>
+                                    <p className="text-sm text-primary-dark/60">{comp.subtitle}</p>
                                     <div className="mt-4 flex items-center text-sm font-medium text-blue-600 opacity-0 group-hover:opacity-100 transition-all">
                                         Compare <ArrowRightIcon className="w-4 h-4 ml-1" />
                                     </div>

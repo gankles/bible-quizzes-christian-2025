@@ -6,6 +6,7 @@ import {
   getBibleNameBySlug,
   getBibleNamesForLetter,
 } from '@/lib/bible-names-data';
+import { searchPeople } from '@/lib/people-data';
 import { StructuredData } from '@/components/StructuredData';
 
 interface PageProps {
@@ -54,7 +55,21 @@ export default async function BibleNamePage({ params }: PageProps) {
     .filter(n => n.slug !== entry.slug)
     .slice(0, 12);
 
-  const jsonLd = {
+  // Cross-link to matching people entries
+  const matchingPeople = searchPeople(entry.name)
+    .filter(p => p.name.toLowerCase() === entry.name.toLowerCase())
+    .slice(0, 8);
+
+  // Find names with similar meanings (share a key word in the meaning)
+  const meaningWords = entry.meaning.toLowerCase().split(/[;,\s]+/).filter(w => w.length > 3);
+  const similarNames = meaningWords.length > 0
+    ? allNames
+        .filter(n => n.slug !== entry.slug && meaningWords.some(w => n.meaning.toLowerCase().includes(w)))
+        .slice(0, 6)
+    : [];
+
+  // Schema markup
+  const definedTermSchema = {
     '@context': 'https://schema.org',
     '@type': 'DefinedTerm',
     name: entry.name,
@@ -67,17 +82,54 @@ export default async function BibleNamePage({ params }: PageProps) {
     },
   };
 
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://biblemaximum.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Bible Names', item: 'https://biblemaximum.com/bible-names' },
+      { '@type': 'ListItem', position: 3, name: entry.name },
+    ],
+  };
+
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `What does ${entry.name} mean in the Bible?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `The biblical name ${entry.name} means "${entry.meaning}." This name comes from Hitchcock's Bible Names Dictionary and reflects the deep significance that names held in biblical culture.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `Who was ${entry.name} in the Bible?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: matchingPeople.length > 0
+            ? `${entry.name} appears in the Bible as ${matchingPeople.map(p => p.uniqueAttribute || 'a biblical figure').join('; ')}. The name means "${entry.meaning}."`
+            : `${entry.name} is a biblical name meaning "${entry.meaning}." Names in the Bible often reflected a person's character, destiny, or the circumstances of their birth.`,
+        },
+      },
+    ],
+  };
+
   return (
     <>
-      <StructuredData data={jsonLd} />
+      <StructuredData data={definedTermSchema} />
+      <StructuredData data={breadcrumbSchema} />
+      <StructuredData data={faqSchema} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-gray-500">
+      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
         <Link href="/" className="hover:text-blue-600">Home</Link>
         <span className="mx-1.5">/</span>
         <Link href="/bible-names" className="hover:text-blue-600">Bible Names</Link>
         <span className="mx-1.5">/</span>
-        <span className="text-gray-900 font-medium">{entry.name}</span>
+        <span className="text-scripture font-medium">{entry.name}</span>
       </nav>
 
       {/* Main Content */}
@@ -88,61 +140,118 @@ export default async function BibleNamePage({ params }: PageProps) {
             <span className="w-10 h-10 flex items-center justify-center rounded-lg bg-blue-600 text-white font-bold text-lg">
               {entry.firstLetter}
             </span>
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
+            <h1 className="text-3xl md:text-4xl font-display font-bold text-scripture">
               {entry.name}
             </h1>
           </div>
-          <p className="text-lg text-gray-600 mt-2">
-            Biblical name meaning: <span className="font-semibold text-gray-900">&ldquo;{entry.meaning}&rdquo;</span>
+          <p className="text-lg text-primary-dark/70 mt-2">
+            Biblical name meaning: <span className="font-semibold text-scripture">&ldquo;{entry.meaning}&rdquo;</span>
           </p>
         </div>
 
-        {/* Meaning Card */}
-        <div className="bg-white border border-gray-200 rounded-xl p-6 mb-8">
-          <h2 className="text-lg font-bold text-gray-900 mb-4">Name Details</h2>
-          <dl className="grid gap-4 sm:grid-cols-2">
+        {/* Name Meaning — unique content per name */}
+        <div className="bg-white border border-grace rounded-xl p-6 mb-8">
+          <h2 className="text-lg font-bold text-scripture mb-3">
+            What Does &ldquo;{entry.name}&rdquo; Mean in the Bible?
+          </h2>
+          <p className="text-primary-dark/80 leading-relaxed mb-3">
+            The name <strong>{entry.name}</strong> is a biblical name meaning{' '}
+            <strong>&ldquo;{entry.meaning}&rdquo;</strong>.
+            {matchingPeople.length > 0 ? (
+              <> In Scripture, {matchingPeople.length === 1 ? 'this name belongs to' : 'this name is shared by'}{' '}
+              {matchingPeople.map((p, i) => (
+                <span key={p.slug}>
+                  {i > 0 && (i === matchingPeople.length - 1 ? ' and ' : ', ')}
+                  <Link href={`/people/${p.slug}`} className="text-blue-600 hover:underline">
+                    {p.name}{p.uniqueAttribute ? `, ${p.uniqueAttribute.toLowerCase()}` : ''}
+                  </Link>
+                </span>
+              ))}.
+              </>
+            ) : (
+              <> This name from Hitchcock&apos;s Bible Names Dictionary reflects the deep significance that names held in biblical culture, often revealing a person&apos;s character, calling, or the circumstances surrounding their birth.</>
+            )}
+          </p>
+          <dl className="grid gap-3 sm:grid-cols-2 mt-4 pt-4 border-t border-grace/50">
             <div>
-              <dt className="text-xs font-medium text-gray-500 uppercase tracking-wider mb-1">Name</dt>
-              <dd className="text-lg font-semibold text-gray-900">{entry.name}</dd>
+              <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Meaning</dt>
+              <dd className="text-scripture font-medium">{entry.meaning}</dd>
             </div>
             <div>
-              <dt className="text-xs font-medium text-gray-500 uppercase tracking-wider mb-1">Meaning</dt>
-              <dd className="text-gray-900">{entry.meaning}</dd>
-            </div>
-            <div>
-              <dt className="text-xs font-medium text-gray-500 uppercase tracking-wider mb-1">First Letter</dt>
-              <dd className="text-gray-900">{entry.firstLetter}</dd>
-            </div>
-            <div>
-              <dt className="text-xs font-medium text-gray-500 uppercase tracking-wider mb-1">Source</dt>
-              <dd className="text-gray-900">Hitchcock&apos;s Bible Names Dictionary</dd>
+              <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Source</dt>
+              <dd className="text-scripture">Hitchcock&apos;s Bible Names Dictionary</dd>
             </div>
           </dl>
         </div>
 
-        {/* About Section */}
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
-          <h2 className="text-lg font-bold text-gray-900 mb-3">
-            What Does &ldquo;{entry.name}&rdquo; Mean in the Bible?
-          </h2>
-          <p className="text-gray-700 leading-relaxed">
-            The name <strong>{entry.name}</strong> is a biblical name meaning{' '}
-            <strong>&ldquo;{entry.meaning}&rdquo;</strong>. In the Bible, names carried deep
-            significance, often reflecting a person&apos;s character, destiny, or the
-            circumstances of their birth. Understanding the meaning of biblical names enriches
-            our reading of Scripture and reveals layers of significance in the biblical narrative.
-          </p>
-        </div>
+        {/* People with This Name */}
+        {matchingPeople.length > 0 && (
+          <section className="bg-white border border-grace rounded-xl p-6 mb-8">
+            <h2 className="text-lg font-bold text-scripture mb-4">
+              {entry.name} in the Bible
+            </h2>
+            <div className="space-y-3">
+              {matchingPeople.map(person => (
+                <Link
+                  key={person.slug}
+                  href={`/people/${person.slug}`}
+                  className="flex items-center gap-3 bg-primary-light/30 rounded-lg px-4 py-3 hover:bg-primary-light border border-grace hover:border-blue-300 transition-all group block"
+                >
+                  <span className={`w-8 h-8 flex items-center justify-center rounded-full text-white text-xs font-bold flex-shrink-0 ${
+                    person.sex === 'male' ? 'bg-blue-600' : person.sex === 'female' ? 'bg-pink-600' : 'bg-primary-dark/60'
+                  }`}>
+                    {person.name.charAt(0)}
+                  </span>
+                  <div>
+                    <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                      {person.name}
+                      {person.nameInstance > 1 && <span className="text-primary-dark/40 text-sm ml-1">({person.nameInstance})</span>}
+                    </span>
+                    {person.uniqueAttribute && (
+                      <span className="block text-sm text-primary-dark/60">{person.uniqueAttribute}</span>
+                    )}
+                    {person.tribe && (
+                      <span className="text-xs text-primary-dark/40">Tribe of {person.tribe}</span>
+                    )}
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Names with Similar Meanings */}
+        {similarNames.length > 0 && (
+          <section className="bg-white border border-grace rounded-xl p-6 mb-8">
+            <h2 className="text-lg font-bold text-scripture mb-4">Names with Similar Meanings</h2>
+            <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+              {similarNames.map(n => (
+                <Link
+                  key={n.slug}
+                  href={`/bible-names/${n.slug}`}
+                  className="bg-primary-light/30 border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
+                >
+                  <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                    {n.name}
+                  </span>
+                  <span className="block text-xs text-primary-dark/60 mt-0.5 line-clamp-1">
+                    {n.meaning}
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* Prev/Next Navigation */}
         <div className="flex items-center justify-between gap-4 mb-10">
           {prev ? (
             <Link
               href={`/bible-names/${prev.slug}`}
-              className="flex-1 bg-white border border-gray-200 rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+              className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
             >
-              <span className="text-xs text-gray-500">Previous</span>
-              <span className="block font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
+              <span className="text-xs text-primary-dark/60">Previous</span>
+              <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
                 {prev.name}
               </span>
             </Link>
@@ -152,10 +261,10 @@ export default async function BibleNamePage({ params }: PageProps) {
           {next ? (
             <Link
               href={`/bible-names/${next.slug}`}
-              className="flex-1 text-right bg-white border border-gray-200 rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+              className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
             >
-              <span className="text-xs text-gray-500">Next</span>
-              <span className="block font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
+              <span className="text-xs text-primary-dark/60">Next</span>
+              <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
                 {next.name}
               </span>
             </Link>
@@ -167,7 +276,7 @@ export default async function BibleNamePage({ params }: PageProps) {
         {/* More Names Starting With Same Letter */}
         {sameLetterNames.length > 0 && (
           <section className="mb-10">
-            <h2 className="text-xl font-bold text-gray-900 mb-4">
+            <h2 className="text-xl font-bold text-scripture mb-4">
               More Names Starting with &ldquo;{entry.firstLetter}&rdquo;
             </h2>
             <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
@@ -175,12 +284,12 @@ export default async function BibleNamePage({ params }: PageProps) {
                 <Link
                   key={n.slug}
                   href={`/bible-names/${n.slug}`}
-                  className="bg-white border border-gray-200 rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
+                  className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
                 >
-                  <span className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
+                  <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
                     {n.name}
                   </span>
-                  <span className="block text-xs text-gray-500 mt-0.5 line-clamp-1">
+                  <span className="block text-xs text-primary-dark/60 mt-0.5 line-clamp-1">
                     {n.meaning}
                   </span>
                 </Link>
@@ -189,24 +298,49 @@ export default async function BibleNamePage({ params }: PageProps) {
           </section>
         )}
 
-        {/* Internal Links Section */}
-        <section className="bg-gray-50 border border-gray-200 rounded-xl p-6">
-          <h2 className="text-lg font-bold text-gray-900 mb-3">Related Resources</h2>
+        {/* FAQ Section */}
+        <section className="bg-white border border-grace rounded-xl p-6 mb-8">
+          <h2 className="text-lg font-bold text-scripture mb-4">Frequently Asked Questions</h2>
+          <div className="space-y-4">
+            <div>
+              <h3 className="font-semibold text-scripture mb-1">
+                What does {entry.name} mean in the Bible?
+              </h3>
+              <p className="text-primary-dark/80 text-sm leading-relaxed">
+                The biblical name {entry.name} means &ldquo;{entry.meaning}&rdquo;. This name comes from Hitchcock&apos;s Bible Names Dictionary and reflects the deep significance that names held in biblical culture.
+              </p>
+            </div>
+            <div className="border-t border-grace/50 pt-4">
+              <h3 className="font-semibold text-scripture mb-1">
+                Who was {entry.name} in the Bible?
+              </h3>
+              <p className="text-primary-dark/80 text-sm leading-relaxed">
+                {matchingPeople.length > 0
+                  ? <>{entry.name} appears in the Bible as {matchingPeople.map((p, i) => (
+                      <span key={p.slug}>
+                        {i > 0 && (i === matchingPeople.length - 1 ? ' and ' : ', ')}
+                        {p.uniqueAttribute || 'a biblical figure'}
+                      </span>
+                    ))}. The name means &ldquo;{entry.meaning}&rdquo;.</>
+                  : <>{entry.name} is a biblical name meaning &ldquo;{entry.meaning}&rdquo;. Names in the Bible often reflected a person&apos;s character, destiny, or the circumstances of their birth.</>
+                }
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Contextual Internal Links */}
+        <section className="bg-grace/10 border border-grace rounded-xl p-6">
+          <h2 className="text-lg font-bold text-scripture mb-3">Continue Your Study</h2>
           <div className="grid gap-2 sm:grid-cols-2">
             <Link href="/bible-names" className="text-blue-600 hover:underline text-sm">
               All Bible Names &amp; Meanings
             </Link>
             <Link href="/people" className="text-blue-600 hover:underline text-sm">
-              Bible People Directory
+              Bible Characters Directory
             </Link>
-            <Link href="/bible-stories" className="text-blue-600 hover:underline text-sm">
-              Bible Stories for Children
-            </Link>
-            <Link href="/timeline" className="text-blue-600 hover:underline text-sm">
-              Bible Timeline
-            </Link>
-            <Link href="/commandments" className="text-blue-600 hover:underline text-sm">
-              613 Commandments
+            <Link href={`/bible-names#${entry.firstLetter.toLowerCase()}`} className="text-blue-600 hover:underline text-sm">
+              Names Starting with {entry.firstLetter}
             </Link>
             <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">
               Bible Quizzes
@@ -214,8 +348,8 @@ export default async function BibleNamePage({ params }: PageProps) {
             <Link href="/topics" className="text-blue-600 hover:underline text-sm">
               Bible Topics
             </Link>
-            <Link href="/bible-book-names" className="text-blue-600 hover:underline text-sm">
-              Bible Book Names &amp; Origins
+            <Link href="/lexicon" className="text-blue-600 hover:underline text-sm">
+              Hebrew &amp; Greek Word Study
             </Link>
           </div>
         </section>

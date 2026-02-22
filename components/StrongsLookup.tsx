@@ -34,11 +34,11 @@ export default function StrongsLookup({ initialQuery = '' }: StrongsLookupProps)
   };
 
   return (
-    <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
-      <h2 className="text-xl font-bold text-gray-900 mb-4">
+    <div className="bg-white rounded-xl shadow-sm border border-grace p-6">
+      <h2 className="text-xl font-bold text-scripture mb-4">
         Strong&apos;s Concordance Lookup
       </h2>
-      <p className="text-sm text-gray-600 mb-4">
+      <p className="text-sm text-primary-dark/70 mb-4">
         Enter a Strong&apos;s number (H157, G25), Hebrew/Greek word, or English word
       </p>
 
@@ -48,12 +48,12 @@ export default function StrongsLookup({ initialQuery = '' }: StrongsLookupProps)
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="e.g., H157, G25, love, agape"
-          className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"
+          className="flex-1 px-4 py-2 border border-grace rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"
         />
         <button
           type="submit"
           disabled={loading}
-          className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:bg-gray-400 transition-colors"
+          className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:bg-primary-dark/40 transition-colors"
         >
           {loading ? 'Searching...' : 'Search'}
         </button>
@@ -66,7 +66,7 @@ export default function StrongsLookup({ initialQuery = '' }: StrongsLookupProps)
       )}
 
       {searched && !loading && results.length === 0 && !error && (
-        <div className="p-4 bg-gray-50 border border-gray-200 rounded-lg text-gray-600">
+        <div className="p-4 bg-primary-light/30 border border-grace rounded-lg text-primary-dark/70">
           No definitions found for &quot;{query}&quot;
         </div>
       )}
@@ -76,7 +76,7 @@ export default function StrongsLookup({ initialQuery = '' }: StrongsLookupProps)
           {results.map((entry, index) => (
             <div 
               key={`${entry.topic}-${index}`}
-              className="p-4 border border-gray-200 rounded-lg hover:border-blue-200 transition-colors"
+              className="p-4 border border-grace rounded-lg hover:border-blue-200 transition-colors"
             >
               <div className="flex items-start justify-between mb-2">
                 <div>
@@ -86,13 +86,13 @@ export default function StrongsLookup({ initialQuery = '' }: StrongsLookupProps)
                   <span className="text-2xl">{entry.lexeme}</span>
                 </div>
                 {entry.weight > 0 && (
-                  <span className="text-xs text-gray-400">
+                  <span className="text-xs text-primary-dark/40">
                     {Math.round(entry.weight * 100)}% match
                   </span>
                 )}
               </div>
 
-              <div className="grid grid-cols-2 gap-2 text-sm text-gray-600 mb-3">
+              <div className="grid grid-cols-2 gap-2 text-sm text-primary-dark/70 mb-3">
                 <div>
                   <span className="font-medium">Transliteration:</span>{' '}
                   {entry.transliteration}
@@ -103,7 +103,7 @@ export default function StrongsLookup({ initialQuery = '' }: StrongsLookupProps)
                 </div>
               </div>
 
-              <div className="text-sm text-gray-700 mb-2">
+              <div className="text-sm text-primary-dark/80 mb-2">
                 <span className="font-medium">Short definition:</span>{' '}
                 {entry.short_definition}
               </div>
@@ -113,7 +113,7 @@ export default function StrongsLookup({ initialQuery = '' }: StrongsLookupProps)
                   Full definition
                 </summary>
                 <div 
-                  className="mt-2 text-sm text-gray-700 prose prose-sm max-w-none"
+                  className="mt-2 text-sm text-primary-dark/80 prose prose-sm max-w-none"
                   dangerouslySetInnerHTML={{ __html: entry.definition }}
                 />
               </details>

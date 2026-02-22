@@ -102,12 +102,12 @@ export default function NewTestamentQuizzesPage() {
   }, [filteredBooks]);
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-primary-light/30">
       {/* Header */}
-      <div className="bg-white border-b border-gray-200">
+      <div className="bg-white border-b border-grace">
         <div className="max-w-6xl mx-auto px-4 py-12 text-center">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">New Testament Bible Quizzes</h1>
-          <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+          <h1 className="text-4xl font-bold text-scripture mb-4">New Testament Bible Quizzes</h1>
+          <p className="text-lg text-primary-dark/70 mb-8 max-w-2xl mx-auto">
             Explore the life of Jesus and the early Christian church with comprehensive quizzes covering all 27 books from Matthew to Revelation.
           </p>
           
@@ -118,33 +118,33 @@ export default function NewTestamentQuizzesPage() {
               placeholder="Search New Testament books..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg text-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              className="w-full px-4 py-3 border border-grace rounded-lg text-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
             />
           </div>
 
           {/* Stats */}
           <div className="flex justify-center gap-8 mb-8">
             <div className="text-center">
-              <div className="text-3xl font-bold text-gray-900">27</div>
-              <div className="text-sm text-gray-600">Books</div>
+              <div className="text-3xl font-bold text-scripture">27</div>
+              <div className="text-sm text-primary-dark/70">Books</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-gray-900">{totalChapters.toLocaleString()}</div>
-              <div className="text-sm text-gray-600">Chapters</div>
+              <div className="text-3xl font-bold text-scripture">{totalChapters.toLocaleString()}</div>
+              <div className="text-sm text-primary-dark/70">Chapters</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-gray-900">7K+</div>
-              <div className="text-sm text-gray-600">Questions</div>
+              <div className="text-3xl font-bold text-scripture">7K+</div>
+              <div className="text-sm text-primary-dark/70">Questions</div>
             </div>
           </div>
 
           {/* Ultimate Challenge Card */}
           <div className="max-w-4xl mx-auto mb-8">
             <div className="bg-green-50 border border-green-200 rounded-lg p-8 text-center">
-              <h2 className="text-xl font-bold text-gray-900 mb-4">
+              <h2 className="text-xl font-bold text-scripture mb-4">
                 ✨ Ultimate New Testament Challenge
               </h2>
-              <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
+              <p className="text-primary-dark/70 mb-6 max-w-2xl mx-auto">
                 Test your comprehensive knowledge of all 27 New Testament books with our ultimate 30-question quiz covering the Gospels, Acts, Letters, and Revelation.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
@@ -154,7 +154,7 @@ export default function NewTestamentQuizzesPage() {
                 >
                   Take 30-Question New Testament Quiz
                 </Link>
-                <div className="flex items-center gap-4 text-sm text-gray-600">
+                <div className="flex items-center gap-4 text-sm text-primary-dark/70">
                   <div className="flex items-center gap-1">
                     <span>⏱️</span>
                     <span>~20 minutes</span>
@@ -170,13 +170,13 @@ export default function NewTestamentQuizzesPage() {
 
           {/* Category Filter */}
           <div className="flex justify-center">
-            <div className="bg-gray-100 p-1 rounded-lg">
+            <div className="bg-grace/20 p-1 rounded-lg">
               <button
                 onClick={() => setSelectedCategory('all')}
                 className={`px-4 py-2 rounded-md font-medium text-sm transition-colors ${
                   selectedCategory === 'all' 
-                    ? 'bg-gray-900 text-white' 
-                    : 'text-gray-600 hover:text-gray-900'
+                    ? 'bg-scripture text-white' 
+                    : 'text-primary-dark/70 hover:text-scripture'
                 }`}
               >
                 All Books
@@ -188,7 +188,7 @@ export default function NewTestamentQuizzesPage() {
                   className={`px-4 py-2 rounded-md font-medium text-sm transition-colors ${
                     selectedCategory === key 
                       ? 'bg-blue-600 text-white' 
-                      : 'text-gray-600 hover:text-gray-900'
+                      : 'text-primary-dark/70 hover:text-scripture'
                   }`}
                 >
                   {label}
@@ -209,17 +209,17 @@ export default function NewTestamentQuizzesPage() {
             
             return (
               <div key={categoryKey} className={`mb-12 p-6 rounded-lg border-2 ${CATEGORY_COLORS[categoryKey as keyof typeof CATEGORY_COLORS]}`}>
-                <h2 className="text-2xl font-bold text-gray-900 mb-6">{categoryLabel} ({categoryBooks.length} Books)</h2>
+                <h2 className="text-2xl font-bold text-scripture mb-6">{categoryLabel} ({categoryBooks.length} Books)</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                   {categoryBooks.map((book) => (
                     <Link
                       key={book.slug}
                       href={`/${book.slug}-quiz`}
-                      className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md hover:border-blue-300 transition-all duration-200 hover:-translate-y-1"
+                      className="bg-white border border-grace rounded-lg p-4 hover:shadow-md hover:border-blue-300 transition-all duration-200 hover:-translate-y-1"
                     >
-                      <h3 className="font-semibold text-gray-900 mb-2">{book.name}</h3>
-                      <p className="text-sm text-gray-600 mb-2">{book.description}</p>
-                      <p className="text-xs text-gray-500">{book.chapters} chapters</p>
+                      <h3 className="font-semibold text-scripture mb-2">{book.name}</h3>
+                      <p className="text-sm text-primary-dark/70 mb-2">{book.description}</p>
+                      <p className="text-xs text-primary-dark/60">{book.chapters} chapters</p>
                     </Link>
                   ))}
                 </div>
@@ -229,7 +229,7 @@ export default function NewTestamentQuizzesPage() {
         ) : (
           // Show single category
           <div className={`p-6 rounded-lg border-2 ${CATEGORY_COLORS[selectedCategory as keyof typeof CATEGORY_COLORS]}`}>
-            <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+            <h2 className="text-2xl font-bold text-scripture mb-6 text-center">
               {CATEGORY_LABELS[selectedCategory as keyof typeof CATEGORY_LABELS]} ({filteredBooks.length} Books)
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -237,11 +237,11 @@ export default function NewTestamentQuizzesPage() {
                 <Link
                   key={book.slug}
                   href={`/${book.slug}-quiz`}
-                  className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md hover:border-blue-300 transition-all duration-200 hover:-translate-y-1"
+                  className="bg-white border border-grace rounded-lg p-4 hover:shadow-md hover:border-blue-300 transition-all duration-200 hover:-translate-y-1"
                 >
-                  <h3 className="font-semibold text-gray-900 mb-2">{book.name}</h3>
-                  <p className="text-sm text-gray-600 mb-2">{book.description}</p>
-                  <p className="text-xs text-gray-500">{book.chapters} chapters</p>
+                  <h3 className="font-semibold text-scripture mb-2">{book.name}</h3>
+                  <p className="text-sm text-primary-dark/70 mb-2">{book.description}</p>
+                  <p className="text-xs text-primary-dark/60">{book.chapters} chapters</p>
                 </Link>
               ))}
             </div>
@@ -251,8 +251,8 @@ export default function NewTestamentQuizzesPage() {
         {/* No Results */}
         {filteredBooks.length === 0 && (
           <div className="text-center py-12">
-            <h3 className="text-lg font-medium text-gray-900 mb-2">No books found</h3>
-            <p className="text-gray-600 mb-4">
+            <h3 className="text-lg font-medium text-scripture mb-2">No books found</h3>
+            <p className="text-primary-dark/70 mb-4">
               Try searching for a different book name or adjust your category filter.
             </p>
             <button
@@ -278,7 +278,7 @@ export default function NewTestamentQuizzesPage() {
           <div className="flex flex-wrap justify-center gap-4">
             <Link
               href="/matthew-quiz"
-              className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
+              className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-primary-light transition-colors"
             >
               Start with Matthew
             </Link>

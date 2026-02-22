@@ -45,20 +45,20 @@ export default function AuthorVocabularyFrequency({ vocab, authorName, language 
                             />
 
                             <div className="relative z-10">
-                                <div className={`text-5xl font-bold mb-4 tracking-tighter text-gray-900 group-hover/card:text-blue-600 transition-colors ${language === 'hebrew' ? 'text-right' : ''}`} dir={language === 'hebrew' ? 'rtl' : 'ltr'}>
+                                <div className={`text-5xl font-bold mb-4 tracking-tighter text-scripture group-hover/card:text-blue-600 transition-colors ${language === 'hebrew' ? 'text-right' : ''}`} dir={language === 'hebrew' ? 'rtl' : 'ltr'}>
                                     {entry.word}
                                 </div>
-                                <div className="text-[10px] font-bold text-gray-900/40 uppercase tracking-[0.2em] mb-2 italic">
+                                <div className="text-[10px] font-bold text-scripture/40 uppercase tracking-[0.2em] mb-2 italic">
                                     {entry.strongs}
                                 </div>
-                                <div className={`inline-flex items-center px-3 py-1 rounded-lg bg-gray-50 text-gray-500 text-[9px] font-bold uppercase border border-gray-500/5`}>
+                                <div className={`inline-flex items-center px-3 py-1 rounded-lg bg-primary-light/30 text-primary-dark/60 text-[9px] font-bold uppercase border border-primary-dark/5`}>
                                     {entry.authorUsage}x Frequency
                                 </div>
                             </div>
 
                             {/* HOVER DETAILS: SCHOLARLY TOOLTIP */}
                             <div className="absolute inset-x-2 bottom-2 top-2 opacity-0 group-hover/card:opacity-100 transition-all duration-500 transform translate-y-4 group-hover/card:translate-y-0 z-20">
-                                <div className="h-full w-full rounded-[32px] bg-gray-900 p-6 flex flex-col items-center justify-center text-white shadow-3xl">
+                                <div className="h-full w-full rounded-[32px] bg-scripture p-6 flex flex-col items-center justify-center text-white shadow-3xl">
                                     <div className="text-blue-600 text-[10px] font-bold uppercase tracking-[0.2em] mb-3 italic">
                                         Scholarly Review Active
                                     </div>
@@ -79,19 +79,19 @@ export default function AuthorVocabularyFrequency({ vocab, authorName, language 
             </div>
 
             {/* LEGEND: FREQUENCY SCALE */}
-            <div className="mt-20 flex flex-wrap gap-12 items-center justify-center border-t border-gray-500/10 pt-12">
-                <div className="text-[10px] font-bold text-gray-900/40 uppercase italic">Frequency Scale:</div>
+            <div className="mt-20 flex flex-wrap gap-12 items-center justify-center border-t border-primary-dark/10 pt-12">
+                <div className="text-[10px] font-bold text-scripture/40 uppercase italic">Frequency Scale:</div>
                 <div className="flex items-center space-x-3">
-                    <div className="w-4 h-4 rounded-lg bg-gray-50" />
-                    <span className="text-[10px] font-bold text-gray-900/40 uppercase italic">Occasional</span>
+                    <div className="w-4 h-4 rounded-lg bg-primary-light/30" />
+                    <span className="text-[10px] font-bold text-scripture/40 uppercase italic">Occasional</span>
                 </div>
                 <div className="flex items-center space-x-3">
                     <div className={`w-4 h-4 rounded-lg opacity-40 bg-blue-600 shadow-lg`} />
-                    <span className="text-[10px] font-bold text-gray-900/40 uppercase italic">Moderate</span>
+                    <span className="text-[10px] font-bold text-scripture/40 uppercase italic">Moderate</span>
                 </div>
                 <div className="flex items-center space-x-3">
                     <div className={`w-4 h-4 rounded-lg bg-blue-600 shadow-xl`} />
-                    <span className="text-[10px] font-bold text-gray-900/40 uppercase italic">Dominant Theme</span>
+                    <span className="text-[10px] font-bold text-scripture/40 uppercase italic">Dominant Theme</span>
                 </div>
             </div>
         </div>

@@ -35,13 +35,13 @@ export default function SitemapPage() {
   return (
     <div className="bg-[#FAFAF9] min-h-screen pb-24">
       <div className="max-w-5xl mx-auto px-6 pt-16">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">Sitemap</h1>
-        <p className="text-lg text-gray-500 mb-12">Browse all pages and resources on Bible Maximum.</p>
+        <h1 className="text-4xl font-bold font-display text-scripture mb-4">Sitemap</h1>
+        <p className="text-lg text-primary-dark/60 mb-12">Browse all pages and resources on Bible Maximum.</p>
 
         <div className="space-y-12">
           {/* Main Pages */}
           <section>
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Main Pages</h2>
+            <h2 className="text-2xl font-semibold text-scripture mb-4">Main Pages</h2>
             <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2">
               {[
                 { name: 'Home', href: '/' },
@@ -65,7 +65,7 @@ export default function SitemapPage() {
 
           {/* Old Testament */}
           <section>
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Old Testament Chapter Quizzes</h2>
+            <h2 className="text-2xl font-semibold text-scripture mb-4">Old Testament Chapter Quizzes</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
               {OT_BOOKS.map(book => (
                 <Link
@@ -81,7 +81,7 @@ export default function SitemapPage() {
 
           {/* New Testament */}
           <section>
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">New Testament Chapter Quizzes</h2>
+            <h2 className="text-2xl font-semibold text-scripture mb-4">New Testament Chapter Quizzes</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
               {NT_BOOKS.map(book => (
                 <Link
@@ -97,8 +97,8 @@ export default function SitemapPage() {
 
           {/* XML Sitemap */}
           <section>
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">For Search Engines</h2>
-            <p className="text-gray-600 text-sm">
+            <h2 className="text-2xl font-semibold text-scripture mb-4">For Search Engines</h2>
+            <p className="text-primary-dark/70 text-sm">
               Looking for the XML sitemap?{' '}
               <a href="/sitemap.xml" className="text-blue-600 hover:text-blue-700 underline">View sitemap.xml</a>
             </p>

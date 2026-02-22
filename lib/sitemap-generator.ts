@@ -7,6 +7,11 @@ import { getAllEpochs } from './timeline-data';
 import { getAllStories } from './bible-stories-data';
 import { getAllNaveTopics, getAllNaveTopicBookCombos } from './naves-data';
 import { getAllCategories, getAllCommandments } from './commandments-data';
+import { getAllInterlinearBookSlugs, getInterlinearChapters, getInterlinearChapterVerses, getBookName } from './interlinear-data';
+import { getAllResources, getAllResourceItemSlugs } from './resources-data';
+import { getAllDevotionals } from './devotionals-data';
+import { getAllReadingPlans } from './reading-plans-data';
+import { getAllStudyGuides } from './study-guides-data';
 
 export interface SitemapUrl {
   url: string;
@@ -38,6 +43,12 @@ const GROUP_DATE_RANGES: Record<string, [string, string]> = {
   'bible-stories':    ['2025-12-05', '2025-12-15'],
   'nave-topics':      ['2026-01-15', '2026-02-05'],
   'commandments':     ['2026-01-25', '2026-02-10'],
+  'interlinear':      ['2026-02-01', '2026-02-20'],
+  'resource-items':   ['2026-02-05', '2026-02-18'],
+  'resources':        ['2026-01-20', '2026-02-05'],
+  'devotionals':      ['2026-01-15', '2026-02-10'],
+  'reading-plans':    ['2026-01-25', '2026-02-08'],
+  'study-guides':     ['2026-01-10', '2026-02-01'],
 };
 
 /** Assign realistic, gradually-spread lastmod dates per content group */
@@ -333,6 +344,69 @@ export function generateAllUrls(): SitemapUrl[] {
     cats.forEach(c => {
       urls.push(makeUrl(`${baseUrl}/commandments/category/${c.slug}`, 'commandments', 0.5));
     });
+  } catch {}
+
+  // 22. Devotionals (/devotionals, /devotionals/{slug})
+  try {
+    const devotionals = getAllDevotionals();
+    urls.push(makeUrl(`${baseUrl}/devotionals`, 'devotionals', 0.7));
+    devotionals.forEach(d => {
+      urls.push(makeUrl(`${baseUrl}/devotionals/${d.slug}`, 'devotionals', 0.5));
+    });
+  } catch {}
+
+  // 23. Resources hub + detail pages (/resources, /resources/{slug})
+  try {
+    const resources = getAllResources();
+    urls.push(makeUrl(`${baseUrl}/resources`, 'resources', 0.7));
+    resources.forEach(r => {
+      urls.push(makeUrl(`${baseUrl}/resources/${r.slug}`, 'resources', 0.6));
+    });
+  } catch {}
+
+  // 24. Reading plans (/reading-plans, /reading-plans/{slug})
+  try {
+    const plans = getAllReadingPlans();
+    urls.push(makeUrl(`${baseUrl}/reading-plans`, 'reading-plans', 0.7));
+    plans.forEach(p => {
+      urls.push(makeUrl(`${baseUrl}/reading-plans/${p.slug}`, 'reading-plans', 0.5));
+    });
+  } catch {}
+
+  // 25. Red Letter (Words of Jesus) hub
+  urls.push(makeUrl(`${baseUrl}/red-letter`, 'pages', 0.6));
+
+  // 26. Bible study guide detail pages (/bible-study-guides/{slug})
+  try {
+    const guides = getAllStudyGuides();
+    guides.forEach(g => {
+      urls.push(makeUrl(`${baseUrl}/bible-study-guides/${g.slug}`, 'study-guides', 0.5));
+    });
+  } catch {}
+
+  // 28. Interlinear pages (/interlinear, /interlinear/{book}, /interlinear/{book}/{chapter}, /interlinear/{book}/{chapter}/{verse})
+  try {
+    urls.push(makeUrl(`${baseUrl}/interlinear`, 'interlinear', 0.8));
+    const bookSlugs = getAllInterlinearBookSlugs();
+    for (const bookSlug of bookSlugs) {
+      urls.push(makeUrl(`${baseUrl}/interlinear/${bookSlug}`, 'interlinear', 0.6));
+      const chapters = getInterlinearChapters(bookSlug);
+      for (const ch of chapters) {
+        urls.push(makeUrl(`${baseUrl}/interlinear/${bookSlug}/${ch}`, 'interlinear', 0.5));
+        const verses = getInterlinearChapterVerses(bookSlug, ch);
+        for (const v of verses) {
+          urls.push(makeUrl(`${baseUrl}/interlinear/${bookSlug}/${ch}/${v.verse}`, 'interlinear', 0.4));
+        }
+      }
+    }
+  } catch {}
+
+  // 29. Resource item sub-pages (/resources/{slug}/{item})
+  try {
+    const itemSlugs = getAllResourceItemSlugs();
+    for (const { resourceSlug, itemSlug } of itemSlugs) {
+      urls.push(makeUrl(`${baseUrl}/resources/${resourceSlug}/${itemSlug}`, 'resource-items', 0.5));
+    }
   } catch {}
 
   return urls;

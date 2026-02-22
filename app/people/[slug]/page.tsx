@@ -6,7 +6,9 @@ import {
   getPersonBySlug,
   getPersonById,
 } from '@/lib/people-data';
+import { getBibleNameBySlug } from '@/lib/bible-names-data';
 import { StructuredData } from '@/components/StructuredData';
+import { findBiography } from '@/lib/biographies-data';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -45,10 +47,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
+// Build a simple slug for name lookup
+function nameSlug(name: string): string {
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+}
+
 export default async function PersonPage({ params }: PageProps) {
   const { slug } = await params;
   const person = getPersonBySlug(slug);
   if (!person) notFound();
+
+  const biography = findBiography(person.name);
 
   const allPeople = getAllPeople();
   const currentIndex = allPeople.findIndex(p => p.slug === person.slug);
@@ -63,7 +72,25 @@ export default async function PersonPage({ params }: PageProps) {
     relsByType[type].push(rel);
   }
 
-  const jsonLd = {
+  // Cross-link to bible-names for name meaning
+  const nameMeaning = getBibleNameBySlug(nameSlug(person.name));
+
+  // Get first label's reference for scripture cross-link
+  const firstRef = person.labels.find(l => l.reference)?.reference || '';
+  const refMatch = firstRef.match(/^([A-Z0-9]+)\s+(\d+):?(\d+)?/);
+
+  // Collect unique scripture references from labels
+  const scriptureRefs = person.labels
+    .filter(l => l.reference)
+    .map(l => l.reference)
+    .filter((ref, i, arr) => arr.indexOf(ref) === i)
+    .slice(0, 5);
+
+  // Count total verse mentions
+  const totalRefs = person.labels.filter(l => l.reference).length + person.relationships.filter(r => r.reference).length;
+
+  // Schema markup
+  const personSchema = {
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: person.name,
@@ -72,17 +99,56 @@ export default async function PersonPage({ params }: PageProps) {
     ...(person.sex ? { gender: person.sex } : {}),
   };
 
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://biblemaximum.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Bible People', item: 'https://biblemaximum.com/people' },
+      { '@type': 'ListItem', position: 3, name: person.name },
+    ],
+  };
+
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `Who is ${person.name} in the Bible?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: biography
+            ? `${biography.summary} ${biography.significance}`
+            : person.uniqueAttribute
+              ? `${person.name} is described in the Bible as ${person.uniqueAttribute}.${person.tribe ? ` ${person.name} belonged to the tribe of ${person.tribe}.` : ''}`
+              : `${person.name} is a person mentioned in the Bible.${person.tribe ? ` ${person.name} belonged to the tribe of ${person.tribe}.` : ''}`,
+        },
+      },
+      ...(nameMeaning ? [{
+        '@type': 'Question',
+        name: `What does the name ${person.name} mean?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `The name ${person.name} means "${nameMeaning.meaning}" according to Hitchcock's Bible Names Dictionary.`,
+        },
+      }] : []),
+    ],
+  };
+
   return (
     <>
-      <StructuredData data={jsonLd} />
+      <StructuredData data={personSchema} />
+      <StructuredData data={breadcrumbSchema} />
+      <StructuredData data={faqSchema} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-gray-500">
+      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
         <Link href="/" className="hover:text-blue-600">Home</Link>
         <span className="mx-1.5">/</span>
         <Link href="/people" className="hover:text-blue-600">Bible People</Link>
         <span className="mx-1.5">/</span>
-        <span className="text-gray-900 font-medium">{person.name}</span>
+        <span className="text-scripture font-medium">{person.name}</span>
       </nav>
 
       <article className="max-w-4xl mx-auto px-4 py-8">
@@ -93,69 +159,114 @@ export default async function PersonPage({ params }: PageProps) {
               <span className={`w-10 h-10 flex items-center justify-center rounded-lg text-white font-bold text-lg ${
                 person.sex === 'male' ? 'bg-blue-600' : 'bg-pink-600'
               }`}>
-                {person.sex === 'male' ? 'M' : 'F'}
+                {person.name.charAt(0)}
               </span>
             )}
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
+            <h1 className="text-3xl md:text-4xl font-display font-bold text-scripture">
               {person.name}
               {person.nameInstance > 1 && (
-                <span className="text-lg text-gray-400 ml-2">({person.nameInstance})</span>
+                <span className="text-lg text-primary-dark/40 ml-2">({person.nameInstance})</span>
               )}
             </h1>
           </div>
           {person.uniqueAttribute && (
-            <p className="text-lg text-gray-600 mt-2">{person.uniqueAttribute}</p>
+            <p className="text-lg text-primary-dark/70 mt-2">{person.uniqueAttribute}</p>
+          )}
+          {nameMeaning && (
+            <p className="text-sm text-primary-dark/60 mt-1">
+              Name meaning: <Link href={`/bible-names/${nameMeaning.slug}`} className="text-blue-600 hover:underline">&ldquo;{nameMeaning.meaning}&rdquo;</Link>
+            </p>
           )}
         </div>
 
-        {/* Details Card */}
-        <div className="bg-white border border-gray-200 rounded-xl p-6 mb-8">
-          <h2 className="text-lg font-bold text-gray-900 mb-4">Profile</h2>
-          <dl className="grid gap-4 sm:grid-cols-2">
-            <div>
-              <dt className="text-xs font-medium text-gray-500 uppercase tracking-wider mb-1">Name</dt>
-              <dd className="text-lg font-semibold text-gray-900">{person.name}</dd>
-            </div>
-            {person.surname && (
-              <div>
-                <dt className="text-xs font-medium text-gray-500 uppercase tracking-wider mb-1">Surname</dt>
-                <dd className="text-gray-900">{person.surname}</dd>
-              </div>
-            )}
+        {/* Profile Summary — streamlined, no duplication */}
+        <div className="bg-white border border-grace rounded-xl p-6 mb-8">
+          <h2 className="text-lg font-bold text-scripture mb-4">Profile</h2>
+          <dl className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {person.sex && (
               <div>
-                <dt className="text-xs font-medium text-gray-500 uppercase tracking-wider mb-1">Gender</dt>
-                <dd className="text-gray-900 capitalize">{person.sex}</dd>
+                <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Gender</dt>
+                <dd className="text-scripture capitalize">{person.sex}</dd>
               </div>
             )}
             {person.tribe && (
               <div>
-                <dt className="text-xs font-medium text-gray-500 uppercase tracking-wider mb-1">Tribe</dt>
-                <dd className="text-gray-900">{person.tribe}</dd>
+                <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Tribe</dt>
+                <dd className="text-scripture">{person.tribe}</dd>
               </div>
             )}
-            {person.uniqueAttribute && (
-              <div className="sm:col-span-2">
-                <dt className="text-xs font-medium text-gray-500 uppercase tracking-wider mb-1">Description</dt>
-                <dd className="text-gray-900">{person.uniqueAttribute}</dd>
+            {person.surname && (
+              <div>
+                <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Surname</dt>
+                <dd className="text-scripture">{person.surname}</dd>
+              </div>
+            )}
+            {totalRefs > 0 && (
+              <div>
+                <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Scripture References</dt>
+                <dd className="text-scripture">{totalRefs} reference{totalRefs !== 1 ? 's' : ''}</dd>
+              </div>
+            )}
+            {person.labels.length > 0 && (
+              <div>
+                <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Known Names</dt>
+                <dd className="text-scripture">{person.labels.length} name{person.labels.length !== 1 ? 's' : ''}</dd>
+              </div>
+            )}
+            {person.relationships.length > 0 && (
+              <div>
+                <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Relationships</dt>
+                <dd className="text-scripture">{person.relationships.length} connection{person.relationships.length !== 1 ? 's' : ''}</dd>
               </div>
             )}
           </dl>
         </div>
 
+        {/* Biography */}
+        {biography && (
+          <div className="bg-white border border-grace rounded-xl p-6 mb-8">
+            <h2 className="text-lg font-bold text-scripture mb-4">Biography</h2>
+            <p className="text-primary-dark/80 leading-relaxed mb-4">{biography.summary}</p>
+
+            {biography.significance && (
+              <div className="mb-4">
+                <h3 className="text-sm font-semibold text-primary-dark/60 uppercase tracking-wider mb-2">Significance</h3>
+                <p className="text-primary-dark/80 leading-relaxed">{biography.significance}</p>
+              </div>
+            )}
+
+            {biography.keyEvents.length > 0 && (
+              <div>
+                <h3 className="text-sm font-semibold text-primary-dark/60 uppercase tracking-wider mb-3">Key Events</h3>
+                <div className="space-y-2">
+                  {biography.keyEvents.map((evt, i) => (
+                    <div key={i} className="flex gap-3 text-sm">
+                      <div className="flex-shrink-0 w-2 h-2 rounded-full bg-blue-400 mt-1.5" />
+                      <div>
+                        <span className="text-primary-dark/80">{evt.event}</span>
+                        <span className="text-primary-dark/50 ml-2">({evt.verse})</span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+
         {/* Hebrew/Greek Names (Labels) */}
         {person.labels.length > 0 && (
-          <div className="bg-white border border-gray-200 rounded-xl p-6 mb-8">
-            <h2 className="text-lg font-bold text-gray-900 mb-4">
+          <div className="bg-white border border-grace rounded-xl p-6 mb-8">
+            <h2 className="text-lg font-bold text-scripture mb-4">
               Names &amp; Labels ({person.labels.length})
             </h2>
             <div className="space-y-4">
               {person.labels.map((label, i) => (
-                <div key={i} className="border-b border-gray-100 pb-4 last:border-0 last:pb-0">
+                <div key={i} className="border-b border-grace/50 pb-4 last:border-0 last:pb-0">
                   <div className="flex items-center gap-2 mb-2">
-                    <span className="font-semibold text-gray-900">{label.labelName}</span>
+                    <span className="font-semibold text-scripture">{label.labelName}</span>
                     {label.labelType && (
-                      <span className="text-xs px-2 py-0.5 bg-gray-100 text-gray-600 rounded">
+                      <span className="text-xs px-2 py-0.5 bg-grace/20 text-primary-dark/70 rounded">
                         {label.labelType}
                       </span>
                     )}
@@ -168,37 +279,37 @@ export default async function PersonPage({ params }: PageProps) {
                   <dl className="grid gap-2 text-sm sm:grid-cols-2">
                     {label.meaningHe && (
                       <div>
-                        <dt className="text-xs text-gray-500">Hebrew</dt>
-                        <dd className="text-gray-900 font-medium" dir="rtl">{label.meaningHe}</dd>
+                        <dt className="text-xs text-primary-dark/60">Hebrew</dt>
+                        <dd className="text-scripture font-medium" dir="rtl">{label.meaningHe}</dd>
                       </div>
                     )}
                     {label.hebrewTransliterated && (
                       <div>
-                        <dt className="text-xs text-gray-500">Transliteration</dt>
-                        <dd className="text-gray-900 italic">{label.hebrewTransliterated}</dd>
+                        <dt className="text-xs text-primary-dark/60">Transliteration</dt>
+                        <dd className="text-scripture italic">{label.hebrewTransliterated}</dd>
                       </div>
                     )}
                     {label.meaningEn && (
                       <div>
-                        <dt className="text-xs text-gray-500">Meaning</dt>
-                        <dd className="text-gray-900">{label.meaningEn}</dd>
+                        <dt className="text-xs text-primary-dark/60">Meaning</dt>
+                        <dd className="text-scripture">{label.meaningEn}</dd>
                       </div>
                     )}
                     {label.greekLabel && (
                       <div>
-                        <dt className="text-xs text-gray-500">Greek</dt>
-                        <dd className="text-gray-900">{label.greekLabel}</dd>
+                        <dt className="text-xs text-primary-dark/60">Greek</dt>
+                        <dd className="text-scripture">{label.greekLabel}</dd>
                       </div>
                     )}
                     {label.reference && (
                       <div>
-                        <dt className="text-xs text-gray-500">Reference</dt>
-                        <dd className="text-gray-700">{label.reference}</dd>
+                        <dt className="text-xs text-primary-dark/60">Reference</dt>
+                        <dd className="text-primary-dark/80">{label.reference}</dd>
                       </div>
                     )}
                     {label.hebrewStrongsNumber && (
                       <div>
-                        <dt className="text-xs text-gray-500">Strong&apos;s</dt>
+                        <dt className="text-xs text-primary-dark/60">Strong&apos;s</dt>
                         <dd>
                           <Link
                             href={`/lexicon/${label.hebrewStrongsNumber}`}
@@ -218,18 +329,18 @@ export default async function PersonPage({ params }: PageProps) {
 
         {/* Relationships */}
         {person.relationships.length > 0 && (
-          <div className="bg-white border border-gray-200 rounded-xl p-6 mb-8">
-            <h2 className="text-lg font-bold text-gray-900 mb-4">
+          <div className="bg-white border border-grace rounded-xl p-6 mb-8">
+            <h2 className="text-lg font-bold text-scripture mb-4">
               Family &amp; Relationships ({person.relationships.length})
             </h2>
             {Object.entries(relsByType).map(([type, rels]) => (
               <div key={type} className="mb-4 last:mb-0">
-                <h3 className="text-sm font-semibold text-gray-700 mb-2 capitalize">{type}</h3>
+                <h3 className="text-sm font-semibold text-primary-dark/80 mb-2 capitalize">{type}</h3>
                 <div className="grid gap-2 sm:grid-cols-2">
                   {rels.map((rel, i) => {
                     const otherPerson = getPersonById(rel.otherPersonId);
                     return (
-                      <div key={i} className="flex items-center gap-2 bg-gray-50 rounded-lg px-3 py-2">
+                      <div key={i} className="flex items-center gap-2 bg-primary-light/30 rounded-lg px-3 py-2">
                         {otherPerson ? (
                           <Link
                             href={`/people/${otherPerson.slug}`}
@@ -238,10 +349,10 @@ export default async function PersonPage({ params }: PageProps) {
                             {rel.otherPersonName}
                           </Link>
                         ) : (
-                          <span className="font-medium text-gray-900">{rel.otherPersonName}</span>
+                          <span className="font-medium text-scripture">{rel.otherPersonName}</span>
                         )}
                         {rel.reference && (
-                          <span className="text-xs text-gray-500">({rel.reference})</span>
+                          <span className="text-xs text-primary-dark/60">({rel.reference})</span>
                         )}
                       </div>
                     );
@@ -254,9 +365,9 @@ export default async function PersonPage({ params }: PageProps) {
 
         {/* Notes */}
         {person.notes && (
-          <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
-            <h2 className="text-lg font-bold text-gray-900 mb-3">Notes</h2>
-            <p className="text-gray-700 leading-relaxed whitespace-pre-line">{person.notes}</p>
+          <div className="bg-primary-light/30 border border-grace rounded-xl p-6 mb-8">
+            <h2 className="text-lg font-bold text-scripture mb-3">Notes</h2>
+            <p className="text-primary-dark/80 leading-relaxed whitespace-pre-line">{person.notes}</p>
           </div>
         )}
 
@@ -265,10 +376,10 @@ export default async function PersonPage({ params }: PageProps) {
           {prev ? (
             <Link
               href={`/people/${prev.slug}`}
-              className="flex-1 bg-white border border-gray-200 rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+              className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
             >
-              <span className="text-xs text-gray-500">Previous</span>
-              <span className="block font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
+              <span className="text-xs text-primary-dark/60">Previous</span>
+              <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
                 {prev.name}
               </span>
             </Link>
@@ -278,10 +389,10 @@ export default async function PersonPage({ params }: PageProps) {
           {next ? (
             <Link
               href={`/people/${next.slug}`}
-              className="flex-1 text-right bg-white border border-gray-200 rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+              className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
             >
-              <span className="text-xs text-gray-500">Next</span>
-              <span className="block font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
+              <span className="text-xs text-primary-dark/60">Next</span>
+              <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
                 {next.name}
               </span>
             </Link>
@@ -290,33 +401,57 @@ export default async function PersonPage({ params }: PageProps) {
           )}
         </div>
 
-        {/* Internal Links Section */}
-        <section className="bg-gray-50 border border-gray-200 rounded-xl p-6">
-          <h2 className="text-lg font-bold text-gray-900 mb-3">Related Resources</h2>
+        {/* FAQ Section */}
+        <section className="bg-white border border-grace rounded-xl p-6 mb-8">
+          <h2 className="text-lg font-bold text-scripture mb-4">Frequently Asked Questions</h2>
+          <div className="space-y-4">
+            <div>
+              <h3 className="font-semibold text-scripture mb-1">
+                Who is {person.name} in the Bible?
+              </h3>
+              <p className="text-primary-dark/80 text-sm leading-relaxed">
+                {person.uniqueAttribute
+                  ? <>{person.name} is described in the Bible as {person.uniqueAttribute}.{person.tribe ? ` ${person.name} belonged to the tribe of ${person.tribe}.` : ''}</>
+                  : <>{person.name} is a person mentioned in the Bible.{person.tribe ? ` ${person.name} belonged to the tribe of ${person.tribe}.` : ''}</>
+                }
+              </p>
+            </div>
+            {nameMeaning && (
+              <div className="border-t border-grace/50 pt-4">
+                <h3 className="font-semibold text-scripture mb-1">
+                  What does the name {person.name} mean?
+                </h3>
+                <p className="text-primary-dark/80 text-sm leading-relaxed">
+                  The name {person.name} means &ldquo;{nameMeaning.meaning}&rdquo; according to Hitchcock&apos;s Bible Names Dictionary.
+                </p>
+              </div>
+            )}
+          </div>
+        </section>
+
+        {/* Contextual Internal Links */}
+        <section className="bg-grace/10 border border-grace rounded-xl p-6">
+          <h2 className="text-lg font-bold text-scripture mb-3">Continue Your Study</h2>
           <div className="grid gap-2 sm:grid-cols-2">
+            {nameMeaning && (
+              <Link href={`/bible-names/${nameMeaning.slug}`} className="text-blue-600 hover:underline text-sm">
+                Meaning of &ldquo;{person.name}&rdquo;
+              </Link>
+            )}
             <Link href="/people" className="text-blue-600 hover:underline text-sm">
-              All Bible People
+              All Bible Characters
             </Link>
             <Link href="/bible-names" className="text-blue-600 hover:underline text-sm">
               Bible Name Meanings
             </Link>
-            <Link href="/bible-stories" className="text-blue-600 hover:underline text-sm">
-              Bible Stories for Children
-            </Link>
             <Link href="/timeline" className="text-blue-600 hover:underline text-sm">
               Bible Timeline
-            </Link>
-            <Link href="/commandments" className="text-blue-600 hover:underline text-sm">
-              613 Commandments
             </Link>
             <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">
               Bible Quizzes
             </Link>
             <Link href="/topics" className="text-blue-600 hover:underline text-sm">
               Bible Topics
-            </Link>
-            <Link href="/bible-book-names" className="text-blue-600 hover:underline text-sm">
-              Bible Book Names &amp; Origins
             </Link>
           </div>
         </section>

@@ -43,18 +43,18 @@ export default function QuizResults({ quiz, result, onRetake }: QuizResultsProps
   return (
     <div className="max-w-4xl mx-auto">
       {/* Results Header */}
-      <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-8 mb-8 text-center">
-        <h2 className="text-3xl font-bold text-gray-900 mb-6">Your Results</h2>
+      <div className="bg-white rounded-lg shadow-lg border border-grace p-8 mb-8 text-center">
+        <h2 className="text-3xl font-bold text-scripture mb-6">Your Results</h2>
         
         {/* Score Circle */}
         <div className="flex justify-center mb-6">
           <div className="relative">
-            <div className="w-32 h-32 rounded-full border-8 border-gray-200 flex items-center justify-center">
+            <div className="w-32 h-32 rounded-full border-8 border-grace flex items-center justify-center">
               <div className="text-center">
                 <div className={`text-4xl font-bold ${getPerformanceColor(result.percentage)}`}>
                   {result.percentage}%
                 </div>
-                <div className="text-sm text-gray-600">
+                <div className="text-sm text-primary-dark/70">
                   {result.score}/{result.totalQuestions}
                 </div>
               </div>
@@ -68,23 +68,23 @@ export default function QuizResults({ quiz, result, onRetake }: QuizResultsProps
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-lg mx-auto">
           <div className="text-center">
-            <div className="text-2xl font-bold text-gray-900">{result.score}</div>
-            <div className="text-sm text-gray-600">Correct Answers</div>
+            <div className="text-2xl font-bold text-scripture">{result.score}</div>
+            <div className="text-sm text-primary-dark/70">Correct Answers</div>
           </div>
           <div className="text-center">
-            <div className="text-2xl font-bold text-gray-900">{result.percentage}%</div>
-            <div className="text-sm text-gray-600">Accuracy</div>
+            <div className="text-2xl font-bold text-scripture">{result.percentage}%</div>
+            <div className="text-sm text-primary-dark/70">Accuracy</div>
           </div>
           <div className="text-center">
-            <div className="text-2xl font-bold text-gray-900">{formatTime(result.timeSpent)}</div>
-            <div className="text-sm text-gray-600">Time Taken</div>
+            <div className="text-2xl font-bold text-scripture">{formatTime(result.timeSpent)}</div>
+            <div className="text-sm text-primary-dark/70">Time Taken</div>
           </div>
         </div>
       </div>
 
       {/* Detailed Results */}
-      <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 mb-8">
-        <h3 className="text-xl font-semibold text-gray-900 mb-6">Question Breakdown</h3>
+      <div className="bg-white rounded-lg shadow-sm border border-grace p-6 mb-8">
+        <h3 className="text-xl font-semibold text-scripture mb-6">Question Breakdown</h3>
         
         <div className="space-y-4">
           {quiz.questions.map((question, index) => {
@@ -105,13 +105,13 @@ export default function QuizResults({ quiz, result, onRetake }: QuizResultsProps
                   </div>
                   
                   <div className="flex-1">
-                    <h4 className="font-semibold text-gray-900 mb-2">
+                    <h4 className="font-semibold text-scripture mb-2">
                       {index + 1}. {question.question}
                     </h4>
                     
                     <div className="text-sm space-y-2">
                       <div>
-                        <span className="font-medium text-gray-700">Your answer: </span>
+                        <span className="font-medium text-primary-dark/80">Your answer: </span>
                         <span className={isCorrect ? 'text-green-700' : 'text-red-700'}>
                           {userResult?.userAnswer || 'No answer'}
                         </span>
@@ -119,19 +119,19 @@ export default function QuizResults({ quiz, result, onRetake }: QuizResultsProps
                       
                       {!isCorrect && (
                         <div>
-                          <span className="font-medium text-gray-700">Correct answer: </span>
+                          <span className="font-medium text-primary-dark/80">Correct answer: </span>
                           <span className="text-green-700">{question.correctAnswer}</span>
                         </div>
                       )}
                       
-                      <div className="bg-white rounded p-3 border border-gray-200">
-                        <span className="font-medium text-gray-700">Explanation: </span>
-                        <span className="text-gray-600">{question.explanation}</span>
+                      <div className="bg-white rounded p-3 border border-grace">
+                        <span className="font-medium text-primary-dark/80">Explanation: </span>
+                        <span className="text-primary-dark/70">{question.explanation}</span>
                       </div>
                       
                       {question.verseReference && (
                         <div className="flex items-center flex-wrap gap-x-3 gap-y-1">
-                          <span className="font-medium text-gray-700">Reference: </span>
+                          <span className="font-medium text-primary-dark/80">Reference: </span>
                           {(() => {
                             const verseUrl = getVerseReferenceUrl(question.verseReference);
                             const crossRefUrl = getCrossRefPageUrl(question.verseReference);
@@ -176,13 +176,13 @@ export default function QuizResults({ quiz, result, onRetake }: QuizResultsProps
                 {link.type === 'book' && <BookOpenIcon className="h-5 w-5 text-green-600" />}
                 {link.type === 'theme' && <BookOpenIcon className="h-5 w-5 text-purple-600" />}
                 {link.type === 'character' && <BookOpenIcon className="h-5 w-5 text-orange-600" />}
-                {link.type === 'hub' && <BookOpenIcon className="h-5 w-5 text-gray-600" />}
+                {link.type === 'hub' && <BookOpenIcon className="h-5 w-5 text-primary-dark/70" />}
               </div>
               <div className="flex-1">
-                <div className="font-medium text-gray-900 group-hover:text-blue-700">
+                <div className="font-medium text-scripture group-hover:text-blue-700">
                   {link.title}
                 </div>
-                <div className="text-sm text-gray-600">
+                <div className="text-sm text-primary-dark/70">
                   {link.description}
                 </div>
               </div>
@@ -202,7 +202,7 @@ export default function QuizResults({ quiz, result, onRetake }: QuizResultsProps
         
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          className="border border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors duration-200"
+          className="border border-grace text-primary-dark/80 px-6 py-3 rounded-lg font-semibold hover:bg-primary-light/50 transition-colors duration-200"
         >
           Back to Top
         </button>

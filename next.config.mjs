@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  distDir: '.next-build',
   // Enable ISR for static generation
   trailingSlash: false,
   // Optimize images

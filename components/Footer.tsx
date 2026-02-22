@@ -34,7 +34,8 @@ const footerSections = [
       { name: 'Maps & Charts', href: '/bible-maps-charts' },
       { name: 'Printable Resources', href: '/printable-bible-resources' },
       { name: 'Teaching Materials', href: '/bible-teaching-materials' },
-      { name: 'Study Guides', href: '/bible-study-guides' }
+      { name: 'Study Guides', href: '/bible-study-guides' },
+      { name: 'Interlinear Bible', href: '/interlinear' }
     ]
   },
   {
@@ -93,19 +94,19 @@ export default function Footer() {
   const newTestamentBooks = BIBLE_BOOKS.filter(book => book.testament === 'new');
 
   return (
-    <footer className="bg-gray-900 text-white">
+    <footer className="bg-scripture text-white">
       {/* Main footer content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {footerSections.map((section) => (
             <div key={section.title}>
-              <h3 className="text-lg font-semibold mb-4 text-blue-400">{section.title}</h3>
+              <h3 className="text-lg font-semibold mb-4 text-sacred">{section.title}</h3>
               <ul className="space-y-2">
                 {section.links.map((link) => (
                   <li key={link.name}>
                     <Link
                       href={link.href}
-                      className="text-gray-300 hover:text-white text-sm transition-colors duration-200"
+                      className="text-grace hover:text-white text-sm transition-colors duration-200"
                     >
                       {link.name}
                     </Link>
@@ -117,18 +118,18 @@ export default function Footer() {
         </div>
 
         {/* Bible Books Section */}
-        <div className="mt-12 pt-8 border-t border-gray-700">
-          <h3 className="text-lg font-semibold mb-6 text-blue-400">Bible Books</h3>
-          
+        <div className="mt-12 pt-8 border-t border-primary-dark/20">
+          <h3 className="text-lg font-semibold mb-6 text-sacred">Bible Books</h3>
+
           {/* Old Testament */}
           <div className="mb-6">
-            <h4 className="text-md font-medium mb-3 text-gray-200">Old Testament:</h4>
+            <h4 className="text-md font-medium mb-3 text-grace">Old Testament:</h4>
             <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-x-4 gap-y-1 text-sm">
               {oldTestamentBooks.map((book) => (
                 <Link
                   key={book.slug}
                   href={`/books/${book.slug}`}
-                  className="text-gray-300 hover:text-blue-400 transition-colors duration-200"
+                  className="text-grace/70 hover:text-sacred transition-colors duration-200"
                 >
                   {book.name}
                 </Link>
@@ -138,13 +139,13 @@ export default function Footer() {
 
           {/* New Testament */}
           <div className="mb-6">
-            <h4 className="text-md font-medium mb-3 text-gray-200">New Testament:</h4>
+            <h4 className="text-md font-medium mb-3 text-grace">New Testament:</h4>
             <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-x-4 gap-y-1 text-sm">
               {newTestamentBooks.map((book) => (
                 <Link
                   key={book.slug}
                   href={`/books/${book.slug}`}
-                  className="text-gray-300 hover:text-blue-400 transition-colors duration-200"
+                  className="text-grace/70 hover:text-sacred transition-colors duration-200"
                 >
                   {book.name}
                 </Link>
@@ -154,14 +155,14 @@ export default function Footer() {
         </div>
 
         {/* Quiz Categories */}
-        <div className="mt-8 pt-8 border-t border-gray-700">
-          <h3 className="text-lg font-semibold mb-4 text-blue-400">Quiz Categories</h3>
+        <div className="mt-8 pt-8 border-t border-primary-dark/20">
+          <h3 className="text-lg font-semibold mb-4 text-sacred">Quiz Categories</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-2">
             {quizCategories.map((category) => (
               <Link
                 key={category.name}
                 href={category.href}
-                className="text-gray-300 hover:text-blue-400 text-sm transition-colors duration-200"
+                className="text-grace/70 hover:text-sacred text-sm transition-colors duration-200"
               >
                 {category.name}
               </Link>
@@ -171,48 +172,48 @@ export default function Footer() {
       </div>
 
       {/* Bottom footer */}
-      <div className="border-t border-gray-700 bg-gray-800">
+      <div className="border-t border-primary-dark/20 bg-scripture/90">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             {/* Logo and copyright */}
             <div className="flex items-center space-x-4">
               <div className="flex items-center space-x-2">
-                <BookOpenIcon className="h-6 w-6 text-blue-400" />
+                <BookOpenIcon className="h-6 w-6 text-sacred" />
                 <span className="text-lg font-bold">Bible Maximum</span>
               </div>
-              <span className="text-gray-400 text-sm">
+              <span className="text-grace/70 text-sm">
                 © 2025 Bible Maximum. All rights reserved.
               </span>
             </div>
 
             {/* Links */}
             <div className="flex items-center space-x-6 text-sm">
-              <Link href="/privacy-policy" className="text-gray-400 hover:text-white transition-colors">
+              <Link href="/privacy-policy" className="text-grace/70 hover:text-white transition-colors">
                 Privacy Policy
               </Link>
-              <Link href="/terms-of-service" className="text-gray-400 hover:text-white transition-colors">
+              <Link href="/terms-of-service" className="text-grace/70 hover:text-white transition-colors">
                 Terms
               </Link>
-              <Link href="/contact" className="text-gray-400 hover:text-white transition-colors">
+              <Link href="/contact" className="text-grace/70 hover:text-white transition-colors">
                 Contact
               </Link>
-              <Link href="/sitemap" className="text-gray-400 hover:text-white transition-colors">
+              <Link href="/sitemap" className="text-grace/70 hover:text-white transition-colors">
                 Sitemap
               </Link>
             </div>
 
             {/* Social links */}
             <div className="flex items-center space-x-4">
-              <Link href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <Link href="#" className="text-grace/70 hover:text-sacred transition-colors">
                 Facebook
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <Link href="#" className="text-grace/70 hover:text-sacred transition-colors">
                 Twitter
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <Link href="#" className="text-grace/70 hover:text-sacred transition-colors">
                 YouTube
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <Link href="#" className="text-grace/70 hover:text-sacred transition-colors">
                 Instagram
               </Link>
             </div>

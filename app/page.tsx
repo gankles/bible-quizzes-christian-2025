@@ -70,7 +70,7 @@ const quickStats = [
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
+    <div className="min-h-screen bg-white border-b border-grace">
       {/* Hero Section */}
       <section className="relative py-20 lg:py-32 overflow-hidden">
         {/* Hero Background Image */}
@@ -87,14 +87,14 @@ export default function Home() {
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">
+            <h1 className="text-4xl md:text-6xl font-bold font-display text-scripture mb-4">
               How Well Do You{' '}
               <span className="text-blue-600">Know the Bible?</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 mb-2 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-primary-dark/70 mb-2 max-w-3xl mx-auto">
               Let&apos;s find out together.
             </p>
-            <p className="text-lg text-gray-500 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg text-primary-dark/60 mb-8 max-w-2xl mx-auto">
               66 books, 1,189 chapters, thousands of questions. Whether you grew up in Sunday school 
               or just picked up a Bible for the first time—there&apos;s something here for you.
             </p>
@@ -115,7 +115,7 @@ export default function Home() {
               </Link>
               <Link
                 href="/genesis-1-quiz"
-                className="border border-blue-600 text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-50 transition-colors duration-200"
+                className="border border-blue-600 text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-light transition-colors duration-200"
               >
                 Try Genesis 1 Quiz
               </Link>
@@ -128,10 +128,10 @@ export default function Home() {
                   <div className="text-3xl md:text-4xl font-bold text-blue-600 mb-2">
                     {stat.value}
                   </div>
-                  <div className="text-sm font-semibold text-gray-900 mb-1">
+                  <div className="text-sm font-semibold text-scripture mb-1">
                     {stat.label}
                   </div>
-                  <div className="text-xs text-gray-600">
+                  <div className="text-xs text-primary-dark/70">
                     {stat.description}
                   </div>
                 </div>
@@ -146,26 +146,26 @@ export default function Home() {
           <Suspense fallback={<div className="h-32 bg-amber-50/50 rounded-xl animate-pulse mb-8" />}>
             <DailyVerse />
           </Suspense>
-          <Suspense fallback={<div className="h-40 bg-gray-50 rounded-xl animate-pulse" />}>
+          <Suspense fallback={<div className="h-40 bg-primary-light/30 rounded-xl animate-pulse" />}>
             <QuickStartSection />
           </Suspense>
         </div>
       </section>
 
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-primary-light/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-scripture mb-4">
               Popular Bible Quizzes
             </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <p className="text-lg text-primary-dark/70 max-w-2xl mx-auto">
               These are fan favorites. Thousands have taken them—now it&apos;s your turn.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {featuredQuizzes.map((quiz) => (
-              <div key={quiz.href} className="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 overflow-hidden">
+              <div key={quiz.href} className="bg-white border border-grace rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 overflow-hidden">
                 {/* Quiz Image */}
                 <div className="relative h-48 w-full">
                   <Image
@@ -191,15 +191,15 @@ export default function Home() {
                 </div>
                 
                 <div className="p-6">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                  <h3 className="text-lg font-semibold text-scripture mb-2">
                     {quiz.title}
                   </h3>
                   
-                  <p className="text-gray-600 text-sm mb-4">
+                  <p className="text-primary-dark/70 text-sm mb-4">
                     {quiz.description}
                   </p>
                   
-                  <div className="flex items-center justify-between text-sm text-gray-500 mb-4">
+                  <div className="flex items-center justify-between text-sm text-primary-dark/60 mb-4">
                     <div className="flex items-center space-x-1">
                       <CheckCircleIcon className="h-4 w-4" />
                       <span>{quiz.questions} Questions</span>
@@ -235,31 +235,31 @@ export default function Home() {
       </section>
 
       {/* Bible Books Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-primary-light/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-scripture mb-4">
               Choose Your Bible Book
             </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <p className="text-lg text-primary-dark/70 max-w-2xl mx-auto">
               Explore quizzes for every book of the Bible. From familiar stories to deep theological concepts.
             </p>
           </div>
 
           {/* Old Testament */}
           <div className="mb-12">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Old Testament</h3>
+            <h3 className="text-2xl font-bold text-scripture mb-6">Old Testament</h3>
             <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-3">
               {BIBLE_BOOKS.filter(book => book.testament === 'old').map((book) => (
                 <Link
                   key={book.slug}
                   href={`/${book.slug}-chapters`}
-                  className="bg-white border border-gray-200 rounded-lg p-3 text-center hover:shadow-md hover:border-blue-300 transition-all duration-200 group"
+                  className="bg-white border border-grace rounded-lg p-3 text-center hover:shadow-md hover:border-blue-300 transition-all duration-200 group"
                 >
-                  <div className="text-sm font-semibold text-gray-900 group-hover:text-blue-600">
+                  <div className="text-sm font-semibold text-scripture group-hover:text-blue-600">
                     {book.name}
                   </div>
-                  <div className="text-xs text-gray-500 mt-1">
+                  <div className="text-xs text-primary-dark/60 mt-1">
                     {book.chapters} {book.chapters === 1 ? 'chapter' : 'chapters'}
                   </div>
                 </Link>
@@ -269,18 +269,18 @@ export default function Home() {
 
           {/* New Testament */}
           <div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">New Testament</h3>
+            <h3 className="text-2xl font-bold text-scripture mb-6">New Testament</h3>
             <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-3">
               {BIBLE_BOOKS.filter(book => book.testament === 'new').map((book) => (
                 <Link
                   key={book.slug}
                   href={`/${book.slug}-chapters`}
-                  className="bg-white border border-gray-200 rounded-lg p-3 text-center hover:shadow-md hover:border-blue-300 transition-all duration-200 group"
+                  className="bg-white border border-grace rounded-lg p-3 text-center hover:shadow-md hover:border-blue-300 transition-all duration-200 group"
                 >
-                  <div className="text-sm font-semibold text-gray-900 group-hover:text-blue-600">
+                  <div className="text-sm font-semibold text-scripture group-hover:text-blue-600">
                     {book.name}
                   </div>
-                  <div className="text-xs text-gray-500 mt-1">
+                  <div className="text-xs text-primary-dark/60 mt-1">
                     {book.chapters} {book.chapters === 1 ? 'chapter' : 'chapters'}
                   </div>
                 </Link>
@@ -294,10 +294,10 @@ export default function Home() {
       <section className="py-16 bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-scripture mb-4">
               Bible Study Resources
             </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <p className="text-lg text-primary-dark/70 max-w-2xl mx-auto">
               Go deeper with word studies, topical guides, character profiles, and encyclopedic references.
             </p>
           </div>
@@ -314,13 +314,13 @@ export default function Home() {
               <Link
                 key={resource.href}
                 href={resource.href}
-                className="bg-gray-50 border border-gray-200 rounded-lg p-4 text-center hover:shadow-md hover:border-blue-300 transition-all duration-200 group"
+                className="bg-primary-light/30 border border-grace rounded-lg p-4 text-center hover:shadow-md hover:border-blue-300 transition-all duration-200 group"
               >
                 <div className="text-2xl font-bold text-blue-600 mb-1">{resource.count}</div>
-                <div className="text-sm font-semibold text-gray-900 group-hover:text-blue-600 mb-1">
+                <div className="text-sm font-semibold text-scripture group-hover:text-blue-600 mb-1">
                   {resource.name}
                 </div>
-                <div className="text-xs text-gray-500">{resource.desc}</div>
+                <div className="text-xs text-primary-dark/60">{resource.desc}</div>
               </Link>
             ))}
           </div>
@@ -331,7 +331,7 @@ export default function Home() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-scripture mb-4">
               Why Choose Our Bible Quizzes?
             </h2>
           </div>
@@ -341,8 +341,8 @@ export default function Home() {
               <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <CheckCircleIcon className="h-8 w-8 text-blue-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Comprehensive Coverage</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-semibold text-scripture mb-2">Comprehensive Coverage</h3>
+              <p className="text-primary-dark/70">
                 Every book, every chapter of the Bible has been carefully crafted into engaging quizzes 
                 with detailed explanations and verse references.
               </p>
@@ -352,8 +352,8 @@ export default function Home() {
               <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <ClockIcon className="h-8 w-8 text-green-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Quick & Engaging</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-semibold text-scripture mb-2">Quick & Engaging</h3>
+              <p className="text-primary-dark/70">
                 Most quizzes take 5-15 minutes to complete, perfect for daily Bible study, 
                 Sunday school preparation, or group activities.
               </p>
@@ -363,8 +363,8 @@ export default function Home() {
               <div className="bg-purple-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <PlayIcon className="h-8 w-8 text-purple-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Interactive Learning</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-semibold text-scripture mb-2">Interactive Learning</h3>
+              <p className="text-primary-dark/70">
                 Multiple choice, true/false, and fill-in-the-blank questions keep you engaged 
                 while building deeper biblical understanding.
               </p>
@@ -386,7 +386,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
               href="/bible-quizzes"
-              className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors duration-200 flex items-center space-x-2"
+              className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-grace/20 transition-colors duration-200 flex items-center space-x-2"
             >
               <BookOpenIcon className="h-5 w-5" />
               <span>Browse All Quizzes</span>

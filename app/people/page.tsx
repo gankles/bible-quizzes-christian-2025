@@ -49,44 +49,44 @@ export default function PeoplePage() {
       <StructuredData data={jsonLd} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-gray-500">
+      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
         <Link href="/" className="hover:text-blue-600">Home</Link>
         <span className="mx-1.5">/</span>
-        <span className="text-gray-900 font-medium">Bible People</span>
+        <span className="text-scripture font-medium">Bible People</span>
       </nav>
 
       {/* Hero */}
       <section className="max-w-6xl mx-auto px-4 py-10">
-        <div className="rounded-2xl overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
+        <div className="bg-white border-b border-grace">
           <div className="p-8 md:p-12">
-            <h1 className="text-3xl md:text-4xl font-bold mb-3">
+            <h1 className="text-3xl md:text-4xl font-bold font-display mb-3 text-scripture">
               Bible People Directory
             </h1>
-            <p className="text-lg text-gray-300 max-w-2xl mb-6">
+            <p className="text-lg text-primary-dark/70 max-w-2xl mb-6">
               Discover every person mentioned in the Bible — their names in Hebrew
               and Greek, family relationships, tribal affiliations, and scriptural references.
             </p>
 
             <div className="flex flex-wrap gap-6 text-center">
               <div>
-                <p className="text-3xl font-bold">{stats.total.toLocaleString()}</p>
-                <p className="text-xs text-gray-400 uppercase tracking-wider">People</p>
+                <p className="text-3xl font-bold text-scripture">{stats.total.toLocaleString()}</p>
+                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">People</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-blue-400">{stats.male.toLocaleString()}</p>
-                <p className="text-xs text-gray-400 uppercase tracking-wider">Men</p>
+                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Men</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-pink-400">{stats.female.toLocaleString()}</p>
-                <p className="text-xs text-gray-400 uppercase tracking-wider">Women</p>
+                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Women</p>
               </div>
               <div>
-                <p className="text-3xl font-bold">{stats.tribes}</p>
-                <p className="text-xs text-gray-400 uppercase tracking-wider">Tribes</p>
+                <p className="text-3xl font-bold text-scripture">{stats.tribes}</p>
+                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Tribes</p>
               </div>
               <div>
-                <p className="text-3xl font-bold">{stats.totalRelationships.toLocaleString()}</p>
-                <p className="text-xs text-gray-400 uppercase tracking-wider">Relationships</p>
+                <p className="text-3xl font-bold text-scripture">{stats.totalRelationships.toLocaleString()}</p>
+                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Relationships</p>
               </div>
             </div>
           </div>
@@ -96,12 +96,12 @@ export default function PeoplePage() {
       {/* Tribes */}
       {tribes.length > 0 && (
         <section className="max-w-6xl mx-auto px-4 pb-8">
-          <h2 className="text-lg font-bold text-gray-900 mb-3">Browse by Tribe</h2>
+          <h2 className="text-lg font-bold text-scripture mb-3">Browse by Tribe</h2>
           <div className="flex flex-wrap gap-2">
             {tribes.map(tribe => (
               <span
                 key={tribe}
-                className="px-3 py-1.5 bg-white border border-gray-200 rounded-lg text-sm text-gray-700"
+                className="px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-primary-dark/80"
               >
                 {tribe}
               </span>
@@ -117,7 +117,7 @@ export default function PeoplePage() {
             <a
               key={letter}
               href={`#letter-${letter}`}
-              className="w-9 h-9 flex items-center justify-center rounded-lg bg-white border border-gray-200 text-sm font-bold text-gray-700 hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-colors"
+              className="w-9 h-9 flex items-center justify-center rounded-lg bg-white border border-grace text-sm font-bold text-primary-dark/80 hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-colors"
             >
               {letter}
             </a>
@@ -135,21 +135,21 @@ export default function PeoplePage() {
                 <span className="w-10 h-10 flex items-center justify-center rounded-lg bg-blue-600 text-white font-bold text-lg">
                   {letter}
                 </span>
-                <h2 className="text-xl font-bold text-gray-900">{letter}</h2>
-                <span className="text-sm text-gray-500">({people.length})</span>
+                <h2 className="text-xl font-bold text-scripture">{letter}</h2>
+                <span className="text-sm text-primary-dark/60">({people.length})</span>
               </div>
               <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
                 {people.map(p => (
                   <Link
                     key={p.id}
                     href={`/people/${p.slug}`}
-                    className="bg-white border border-gray-200 rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
+                    className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
                   >
                     <div className="flex items-center gap-2">
-                      <span className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
+                      <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
                         {p.name}
                         {p.nameInstance > 1 && (
-                          <span className="text-xs text-gray-400 ml-1">({p.nameInstance})</span>
+                          <span className="text-xs text-primary-dark/40 ml-1">({p.nameInstance})</span>
                         )}
                       </span>
                       {p.sex && (
@@ -161,7 +161,7 @@ export default function PeoplePage() {
                       )}
                     </div>
                     {p.uniqueAttribute && (
-                      <span className="block text-xs text-gray-500 mt-0.5 line-clamp-1">
+                      <span className="block text-xs text-primary-dark/60 mt-0.5 line-clamp-1">
                         {p.uniqueAttribute}
                       </span>
                     )}
@@ -175,19 +175,19 @@ export default function PeoplePage() {
 
       {/* Related Resources */}
       <section className="max-w-6xl mx-auto px-4 pb-12">
-        <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 text-center">
-          <h2 className="text-xl font-bold text-gray-900 mb-2">Explore More</h2>
-          <p className="text-sm text-gray-600 mb-4">
+        <div className="bg-primary-light/30 border border-grace rounded-xl p-6 text-center">
+          <h2 className="text-xl font-bold text-scripture mb-2">Explore More</h2>
+          <p className="text-sm text-primary-dark/70 mb-4">
             Discover more about the people, names, and stories of the Bible.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             <Link href="/bible-names" className="px-5 py-2.5 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors">
               Bible Name Meanings
             </Link>
-            <Link href="/commandments" className="px-5 py-2.5 bg-white text-blue-600 text-sm font-medium rounded-lg border border-blue-300 hover:bg-blue-50 transition-colors">
+            <Link href="/commandments" className="px-5 py-2.5 bg-white text-blue-600 text-sm font-medium rounded-lg border border-blue-300 hover:bg-primary-light transition-colors">
               613 Commandments
             </Link>
-            <Link href="/bible-quizzes" className="px-5 py-2.5 bg-white text-gray-700 text-sm font-medium rounded-lg border border-gray-300 hover:bg-gray-50 transition-colors">
+            <Link href="/bible-quizzes" className="px-5 py-2.5 bg-white text-primary-dark/80 text-sm font-medium rounded-lg border border-grace hover:bg-primary-light/50 transition-colors">
               Bible Quizzes
             </Link>
           </div>

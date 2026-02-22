@@ -114,10 +114,10 @@ export default function GenesisChaptersClient() {
       <section className="py-12 md:py-16 bg-white border-b">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
+            <h2 className="text-2xl md:text-3xl font-bold text-scripture mb-2">
               Build Your Genesis Study Plan
             </h2>
-            <p className="text-gray-600">
+            <p className="text-primary-dark/70">
               Tell us how many days you have, and we&apos;ll create a personalized reading schedule. 
               No rush—God&apos;s Word isn&apos;t going anywhere.
             </p>
@@ -125,7 +125,7 @@ export default function GenesisChaptersClient() {
 
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6">
             <div className="flex flex-col sm:flex-row items-center gap-4 mb-6">
-              <label className="font-medium text-gray-700">I want to finish Genesis in</label>
+              <label className="font-medium text-primary-dark/80">I want to finish Genesis in</label>
               <select
                 value={studyDays}
                 onChange={(e) => setStudyDays(Number(e.target.value))}
@@ -153,17 +153,17 @@ export default function GenesisChaptersClient() {
                 </div>
                 <div className="max-h-64 overflow-y-auto">
                   <table className="w-full text-sm">
-                    <thead className="bg-gray-50 sticky top-0">
+                    <thead className="bg-primary-light/30 sticky top-0">
                       <tr>
-                        <th className="px-4 py-2 text-left font-medium text-gray-600">Day</th>
-                        <th className="px-4 py-2 text-left font-medium text-gray-600">Chapters</th>
-                        <th className="px-4 py-2 text-left font-medium text-gray-600">Focus</th>
-                        <th className="px-4 py-2 text-left font-medium text-gray-600">Quiz Link</th>
+                        <th className="px-4 py-2 text-left font-medium text-primary-dark/70">Day</th>
+                        <th className="px-4 py-2 text-left font-medium text-primary-dark/70">Chapters</th>
+                        <th className="px-4 py-2 text-left font-medium text-primary-dark/70">Focus</th>
+                        <th className="px-4 py-2 text-left font-medium text-primary-dark/70">Quiz Link</th>
                       </tr>
                     </thead>
                     <tbody>
                       {generateStudyPlan().map((item) => (
-                        <tr key={item.day} className="border-t border-gray-100 hover:bg-amber-50">
+                        <tr key={item.day} className="border-t border-grace/50 hover:bg-amber-50">
                           <td className="px-4 py-2 font-medium">Day {item.day}</td>
                           <td className="px-4 py-2">
                             {item.chapters.length === 1 
@@ -171,7 +171,7 @@ export default function GenesisChaptersClient() {
                               : `Chapters ${item.chapters[0]}-${item.chapters[item.chapters.length - 1]}`
                             }
                           </td>
-                          <td className="px-4 py-2 text-gray-600">{item.focus}</td>
+                          <td className="px-4 py-2 text-primary-dark/70">{item.focus}</td>
                           <td className="px-4 py-2">
                             <Link 
                               href={`/genesis-${item.chapters[0]}-quiz`}
@@ -191,16 +191,16 @@ export default function GenesisChaptersClient() {
         </div>
       </section>
 
-      <section className="py-8 bg-gray-50">
+      <section className="py-8 bg-primary-light/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-xl font-bold text-gray-900 mb-4 text-center">Filter by Story Section</h2>
+          <h2 className="text-xl font-bold text-scripture mb-4 text-center">Filter by Story Section</h2>
           <div className="flex flex-wrap justify-center gap-3 mb-8">
             <button
               onClick={() => setSelectedSection(null)}
               className={`px-4 py-2 rounded-lg font-medium transition-colors ${
                 selectedSection === null 
-                  ? 'bg-gray-900 text-white' 
-                  : 'bg-white border border-gray-200 text-gray-700 hover:border-gray-400'
+                  ? 'bg-scripture text-white' 
+                  : 'bg-white border border-grace text-primary-dark/80 hover:border-primary-dark/40'
               }`}
             >
               All Chapters (50)
@@ -212,7 +212,7 @@ export default function GenesisChaptersClient() {
                 className={`px-4 py-2 rounded-lg font-medium transition-colors border ${
                   selectedSection === section.name 
                     ? section.color
-                    : 'bg-white border-gray-200 text-gray-700 hover:border-gray-400'
+                    : 'bg-white border-grace text-primary-dark/80 hover:border-primary-dark/40'
                 }`}
               >
                 {section.name} ({section.chapters})
@@ -221,7 +221,7 @@ export default function GenesisChaptersClient() {
           </div>
 
           {selectedSection && (
-            <p className="text-center text-gray-600 mb-6">
+            <p className="text-center text-primary-dark/70 mb-6">
               {genesisSections.find(s => s.name === selectedSection)?.description}
             </p>
           )}
@@ -233,10 +233,10 @@ export default function GenesisChaptersClient() {
                 <Link
                   key={chapter}
                   href={`/genesis-${chapter}-quiz`}
-                  className={`group relative aspect-square flex flex-col items-center justify-center rounded-lg transition-all duration-200 bg-white hover:bg-amber-50 border border-gray-200 hover:border-amber-300 shadow-sm hover:shadow-md`}
+                  className={`group relative aspect-square flex flex-col items-center justify-center rounded-lg transition-all duration-200 bg-white hover:bg-amber-50 border border-grace hover:border-amber-300 shadow-sm hover:shadow-md`}
                   title={data ? `Genesis ${chapter}: ${data.title} (${data.readTime} min read)` : `Genesis ${chapter} Quiz`}
                 >
-                  <span className="text-lg md:text-xl font-bold text-gray-700 group-hover:text-amber-700">
+                  <span className="text-lg md:text-xl font-bold text-primary-dark/80 group-hover:text-amber-700">
                     {chapter}
                   </span>
                   {data && (
@@ -253,7 +253,7 @@ export default function GenesisChaptersClient() {
             })}
           </div>
 
-          <div className="mt-6 flex justify-center items-center gap-6 text-sm text-gray-600">
+          <div className="mt-6 flex justify-center items-center gap-6 text-sm text-primary-dark/70">
             <div className="flex items-center gap-2">
               <span className="px-2 py-0.5 bg-green-100 text-green-700 rounded text-xs">3m</span>
               <span>Easy</span>
@@ -273,35 +273,35 @@ export default function GenesisChaptersClient() {
       <section className="py-12 md:py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
+            <h2 className="text-2xl md:text-3xl font-bold text-scripture mb-2">
               Chapter-by-Chapter Breakdown
             </h2>
-            <p className="text-gray-600">
+            <p className="text-primary-dark/70">
               Pick your battles wisely. Here&apos;s what you&apos;re getting into.
             </p>
           </div>
 
-          <div className="overflow-x-auto rounded-xl border border-gray-200">
+          <div className="overflow-x-auto rounded-xl border border-grace">
             <table className="w-full text-sm">
-              <thead className="bg-gray-50">
+              <thead className="bg-primary-light/30">
                 <tr>
-                  <th className="px-4 py-3 text-left font-semibold text-gray-700">Ch</th>
-                  <th className="px-4 py-3 text-left font-semibold text-gray-700">Title</th>
-                  <th className="px-4 py-3 text-left font-semibold text-gray-700">Key Event</th>
-                  <th className="px-4 py-3 text-center font-semibold text-gray-700">Verses</th>
-                  <th className="px-4 py-3 text-center font-semibold text-gray-700">Read</th>
-                  <th className="px-4 py-3 text-center font-semibold text-gray-700">Quiz</th>
-                  <th className="px-4 py-3 text-center font-semibold text-gray-700">Action</th>
+                  <th className="px-4 py-3 text-left font-semibold text-primary-dark/80">Ch</th>
+                  <th className="px-4 py-3 text-left font-semibold text-primary-dark/80">Title</th>
+                  <th className="px-4 py-3 text-left font-semibold text-primary-dark/80">Key Event</th>
+                  <th className="px-4 py-3 text-center font-semibold text-primary-dark/80">Verses</th>
+                  <th className="px-4 py-3 text-center font-semibold text-primary-dark/80">Read</th>
+                  <th className="px-4 py-3 text-center font-semibold text-primary-dark/80">Quiz</th>
+                  <th className="px-4 py-3 text-center font-semibold text-primary-dark/80">Action</th>
                 </tr>
               </thead>
               <tbody>
                 {Object.entries(chapterData).slice(0, 15).map(([ch, data]) => (
-                  <tr key={ch} className="border-t border-gray-100 hover:bg-amber-50 transition-colors">
+                  <tr key={ch} className="border-t border-grace/50 hover:bg-amber-50 transition-colors">
                     <td className="px-4 py-3 font-bold text-amber-800">{ch}</td>
-                    <td className="px-4 py-3 font-medium text-gray-900">{data.title}</td>
-                    <td className="px-4 py-3 text-gray-600">{data.keyEvent}</td>
-                    <td className="px-4 py-3 text-center text-gray-500">{data.verses}</td>
-                    <td className="px-4 py-3 text-center text-gray-500">{data.readTime}m</td>
+                    <td className="px-4 py-3 font-medium text-scripture">{data.title}</td>
+                    <td className="px-4 py-3 text-primary-dark/70">{data.keyEvent}</td>
+                    <td className="px-4 py-3 text-center text-primary-dark/60">{data.verses}</td>
+                    <td className="px-4 py-3 text-center text-primary-dark/60">{data.readTime}m</td>
                     <td className="px-4 py-3 text-center">
                       <span className={`px-2 py-0.5 rounded text-xs font-medium ${
                         data.difficulty === 'easy' ? 'bg-green-100 text-green-700' :
@@ -326,7 +326,7 @@ export default function GenesisChaptersClient() {
           </div>
           
           <div className="text-center mt-4">
-            <p className="text-sm text-gray-500">Showing first 15 chapters. Click any chapter above to see its quiz.</p>
+            <p className="text-sm text-primary-dark/60">Showing first 15 chapters. Click any chapter above to see its quiz.</p>
           </div>
         </div>
       </section>
@@ -360,28 +360,28 @@ export default function GenesisChaptersClient() {
         </div>
       </section>
 
-      <section className="py-12 md:py-16 bg-gray-50">
+      <section className="py-12 md:py-16 bg-primary-light/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
+          <h2 className="text-2xl font-bold text-scripture mb-8 text-center">
             Continue Your Old Testament Journey
           </h2>
           
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            <Link href="/exodus-chapters" className="p-6 bg-white rounded-xl hover:shadow-lg transition-shadow border border-gray-100">
-              <h3 className="font-semibold text-gray-900 mb-2">Exodus Chapters</h3>
-              <p className="text-sm text-gray-600">The sequel: Moses, plagues, and freedom from Egypt</p>
+            <Link href="/exodus-chapters" className="p-6 bg-white rounded-xl hover:shadow-lg transition-shadow border border-grace/50">
+              <h3 className="font-semibold text-scripture mb-2">Exodus Chapters</h3>
+              <p className="text-sm text-primary-dark/70">The sequel: Moses, plagues, and freedom from Egypt</p>
             </Link>
-            <Link href="/creation-quiz" className="p-6 bg-white rounded-xl hover:shadow-lg transition-shadow border border-gray-100">
-              <h3 className="font-semibold text-gray-900 mb-2">Creation Deep Dive</h3>
-              <p className="text-sm text-gray-600">Focus quiz on the seven days of creation</p>
+            <Link href="/creation-quiz" className="p-6 bg-white rounded-xl hover:shadow-lg transition-shadow border border-grace/50">
+              <h3 className="font-semibold text-scripture mb-2">Creation Deep Dive</h3>
+              <p className="text-sm text-primary-dark/70">Focus quiz on the seven days of creation</p>
             </Link>
-            <Link href="/noahs-ark-quiz" className="p-6 bg-white rounded-xl hover:shadow-lg transition-shadow border border-gray-100">
-              <h3 className="font-semibold text-gray-900 mb-2">Noah&apos;s Ark Quiz</h3>
-              <p className="text-sm text-gray-600">Test your flood knowledge</p>
+            <Link href="/noahs-ark-quiz" className="p-6 bg-white rounded-xl hover:shadow-lg transition-shadow border border-grace/50">
+              <h3 className="font-semibold text-scripture mb-2">Noah&apos;s Ark Quiz</h3>
+              <p className="text-sm text-primary-dark/70">Test your flood knowledge</p>
             </Link>
-            <Link href="/books/genesis" className="p-6 bg-white rounded-xl hover:shadow-lg transition-shadow border border-gray-100">
-              <h3 className="font-semibold text-gray-900 mb-2">Genesis Introduction</h3>
-              <p className="text-sm text-gray-600">Themes, outline, key verses, and historical context</p>
+            <Link href="/books/genesis" className="p-6 bg-white rounded-xl hover:shadow-lg transition-shadow border border-grace/50">
+              <h3 className="font-semibold text-scripture mb-2">Genesis Introduction</h3>
+              <p className="text-sm text-primary-dark/70">Themes, outline, key verses, and historical context</p>
             </Link>
           </div>
         </div>

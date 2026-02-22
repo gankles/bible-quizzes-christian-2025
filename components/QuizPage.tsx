@@ -60,7 +60,7 @@ export default function QuizPage({ quiz, url = '' }: QuizPageProps) {
             alt="Close-up of person holding Bible during study"
             className="w-full h-full object-cover opacity-5"
           />
-          <div className="absolute inset-0 bg-gray-50/95"></div>
+          <div className="absolute inset-0 bg-primary-light/95"></div>
         </div>
         
         <div className="relative z-10 py-8">
