@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { getBookMetadata, getAllBookMetadata, BookMetadata } from '@/lib/book-metadata';
 import BookTools from './BookTools';
+import { getPlacesForBook, formatPlaceTypeSingular } from '@/lib/geocoding-data';
 
 interface BookPageProps {
   params: Promise<{
@@ -248,6 +249,16 @@ function RelatedQuizzes({ bookSlug, bookName }: { bookSlug: string; bookName: st
           </div>
           <span>&rarr;</span>
         </Link>
+        <Link
+          href={`/bible-chapter-summaries/${bookSlug}`}
+          className="flex items-center justify-between p-4 bg-white/10 hover:bg-white/20 rounded-lg transition-colors sm:col-span-2"
+        >
+          <div>
+            <span className="font-semibold block">Chapter Summaries</span>
+            <span className="text-sm text-blue-200">Read chapter-by-chapter overview</span>
+          </div>
+          <span>&rarr;</span>
+        </Link>
       </div>
     </section>
   );
@@ -395,6 +406,63 @@ export default async function BookPage({ params }: BookPageProps) {
 
         {/* Famous Verses */}
         <FamousVersesSection verses={metadata.famousVerses} bookSlug={book} />
+
+        {/* Key Locations */}
+        {(() => {
+          const bookPlaces = getPlacesForBook(book);
+          if (bookPlaces.length === 0) return null;
+          const topPlaces = bookPlaces
+            .sort((a, b) => {
+              const aCount = a.verses.filter(v => v.bookSlug === book).length;
+              const bCount = b.verses.filter(v => v.bookSlug === book).length;
+              return bCount - aCount;
+            })
+            .slice(0, 12);
+          return (
+            <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="text-xl font-bold text-scripture flex items-center">
+                  <svg className="w-5 h-5 mr-2 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                  Key Locations
+                </h2>
+                <Link
+                  href={`/bible-geography/${book}`}
+                  className="text-sm text-blue-600 hover:underline"
+                >
+                  All {bookPlaces.length} places &rarr;
+                </Link>
+              </div>
+              <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                {topPlaces.map((place) => {
+                  const mentionCount = place.verses.filter(v => v.bookSlug === book).length;
+                  return (
+                    <Link
+                      key={place.slug}
+                      href={`/bible-places/${place.slug}`}
+                      className="group flex items-start gap-3 p-3 border border-grace rounded-lg hover:border-green-300 hover:bg-green-50/30 transition-colors"
+                    >
+                      <div className="flex-shrink-0 w-8 h-8 bg-green-100 text-green-700 rounded-full flex items-center justify-center text-xs font-bold">
+                        {mentionCount}
+                      </div>
+                      <div className="min-w-0">
+                        <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors block text-sm">
+                          {place.name}
+                        </span>
+                        <span className="text-xs text-primary-dark/60">
+                          {formatPlaceTypeSingular(place.type)}
+                          {place.modernName ? ` · ${place.modernName}` : ''}
+                        </span>
+                      </div>
+                    </Link>
+                  );
+                })}
+              </div>
+            </section>
+          );
+        })()}
 
         {/* Chapter Grid */}
         <ChapterGrid 

@@ -36,7 +36,9 @@
     ".next-build/types/**/*.ts",
     "/tmp/next-build/types/**/*.ts",
     "/tmp/next-build-bible/types/**/*.ts",
-    "tmp/next-build/types/**/*.ts"
+    "tmp/next-build/types/**/*.ts",
+    "/tmp/bible-next-build/types/**/*.ts",
+    ".next-build-geo/types/**/*.ts"
   ],
   "exclude": [
     "node_modules",

@@ -16,6 +16,7 @@ import { getKjvStudyChapterCommentary } from '@/lib/commentary-loader';
 import { getChapterHeadings } from '@/lib/section-headings';
 import { isRedLetter } from '@/lib/red-letter';
 import { isPoetryChapter } from '@/lib/poetry-formatting';
+import { getPlacesForChapter, formatPlaceTypeSingular } from '@/lib/geocoding-data';
 
 interface ChapterPageProps {
   params: Promise<{
@@ -189,6 +190,54 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
             )}
           </div>
         )}
+
+        {/* Geographic Context */}
+        {(() => {
+          const chapterPlaces = getPlacesForChapter(book, chapterNum);
+          if (chapterPlaces.length === 0) return null;
+          return (
+            <div className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="text-lg font-bold text-scripture flex items-center">
+                  <svg className="w-5 h-5 mr-2 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                  Places in This Chapter
+                </h2>
+                <Link
+                  href={`/bible-geography/${book}/${chapterNum}`}
+                  className="text-sm text-blue-600 hover:underline"
+                >
+                  View map &rarr;
+                </Link>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {chapterPlaces.slice(0, 8).map((place) => (
+                  <Link
+                    key={place.slug}
+                    href={`/bible-places/${place.slug}`}
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-green-50 text-green-800 border border-green-200 rounded-full text-sm hover:bg-green-100 transition-colors"
+                  >
+                    <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    </svg>
+                    {place.name}
+                    <span className="text-green-600/60 text-xs">({formatPlaceTypeSingular(place.type)})</span>
+                  </Link>
+                ))}
+                {chapterPlaces.length > 8 && (
+                  <Link
+                    href={`/bible-geography/${book}/${chapterNum}`}
+                    className="inline-flex items-center px-3 py-1.5 bg-blue-50 text-blue-700 border border-blue-200 rounded-full text-sm hover:bg-blue-100 transition-colors"
+                  >
+                    +{chapterPlaces.length - 8} more
+                  </Link>
+                )}
+              </div>
+            </div>
+          );
+        })()}
 
         <article className="bg-white rounded-xl shadow-sm border border-grace overflow-hidden">
           <header className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-8">

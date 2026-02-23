@@ -12,6 +12,7 @@ import { getAllResources, getAllResourceItemSlugs } from './resources-data';
 import { getAllDevotionals } from './devotionals-data';
 import { getAllReadingPlans } from './reading-plans-data';
 import { getAllStudyGuides } from './study-guides-data';
+import { getAllPlaceSlugs, getAllVersePlaceKeys, getBooksWithPlaces, getPlacesByBookChapterKeys, getAllPlaceTypes } from './geocoding-data';
 
 export interface SitemapUrl {
   url: string;
@@ -49,6 +50,10 @@ const GROUP_DATE_RANGES: Record<string, [string, string]> = {
   'devotionals':      ['2026-01-15', '2026-02-10'],
   'reading-plans':    ['2026-01-25', '2026-02-08'],
   'study-guides':     ['2026-01-10', '2026-02-01'],
+  'bible-places':     ['2026-03-01', '2026-03-15'],
+  'verse-places':     ['2026-03-05', '2026-03-20'],
+  'bible-geography':  ['2026-03-01', '2026-03-18'],
+  'geography-quizzes': ['2026-03-10', '2026-03-20'],
 };
 
 /** Assign realistic, gradually-spread lastmod dates per content group */
@@ -407,6 +412,56 @@ export function generateAllUrls(): SitemapUrl[] {
     for (const { resourceSlug, itemSlug } of itemSlugs) {
       urls.push(makeUrl(`${baseUrl}/resources/${resourceSlug}/${itemSlug}`, 'resource-items', 0.5));
     }
+  } catch {}
+
+  // 30. Bible Places (/bible-places, /bible-places/{slug}, /bible-places/type/{type}, /bible-places/near/{slug})
+  try {
+    urls.push(makeUrl(`${baseUrl}/bible-places`, 'bible-places', 0.8));
+    const placeSlugs = getAllPlaceSlugs();
+    placeSlugs.forEach(slug => {
+      urls.push(makeUrl(`${baseUrl}/bible-places/${slug}`, 'bible-places', 0.6));
+      urls.push(makeUrl(`${baseUrl}/bible-places/near/${slug}`, 'bible-places', 0.4));
+    });
+    const placeTypes = getAllPlaceTypes().filter(t => t !== 'special');
+    placeTypes.forEach(t => {
+      urls.push(makeUrl(`${baseUrl}/bible-places/type/${t.replace(/\s+/g, '-')}`, 'bible-places', 0.5));
+    });
+  } catch {}
+
+  // 31. Verse-Place pages (/bible-places/{slug}/{verseRef}) — ~5,600+ ISR pages
+  try {
+    const verseKeys = getAllVersePlaceKeys();
+    // Include all verse-place combos in sitemap for discovery
+    const versePlacesData = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'geocoding', 'verse-places.json'), 'utf-8'));
+    for (const [verseRef, slugs] of Object.entries(versePlacesData)) {
+      for (const slug of (slugs as string[])) {
+        urls.push(makeUrl(`${baseUrl}/bible-places/${slug}/${verseRef}`, 'verse-places', 0.3));
+      }
+    }
+  } catch {}
+
+  // 32. Bible Geography (/bible-geography, /bible-geography/{book}, /bible-geography/{book}/{chapter})
+  try {
+    urls.push(makeUrl(`${baseUrl}/bible-geography`, 'bible-geography', 0.8));
+    const geoBooks = getBooksWithPlaces();
+    geoBooks.forEach(book => {
+      urls.push(makeUrl(`${baseUrl}/bible-geography/${book}`, 'bible-geography', 0.6));
+    });
+    const chapterKeys = getPlacesByBookChapterKeys();
+    chapterKeys.forEach(key => {
+      const parts = key.split('-');
+      const chapter = parts.pop()!;
+      const book = parts.join('-');
+      urls.push(makeUrl(`${baseUrl}/bible-geography/${book}/${chapter}`, 'bible-geography', 0.5));
+    });
+  } catch {}
+
+  // 33. Geography Quizzes (/bible-geography-quiz/{book})
+  try {
+    const geoBooks = getBooksWithPlaces();
+    geoBooks.forEach(book => {
+      urls.push(makeUrl(`${baseUrl}/bible-geography-quiz/${book}`, 'geography-quizzes', 0.6));
+    });
   } catch {}
 
   return urls;

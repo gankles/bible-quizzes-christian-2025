@@ -35,7 +35,9 @@ const footerSections = [
       { name: 'Printable Resources', href: '/printable-bible-resources' },
       { name: 'Teaching Materials', href: '/bible-teaching-materials' },
       { name: 'Study Guides', href: '/bible-study-guides' },
-      { name: 'Interlinear Bible', href: '/interlinear' }
+      { name: 'Interlinear Bible', href: '/interlinear' },
+      { name: 'Bible Places', href: '/bible-places' },
+      { name: 'Bible Geography', href: '/bible-geography' }
     ]
   },
   {

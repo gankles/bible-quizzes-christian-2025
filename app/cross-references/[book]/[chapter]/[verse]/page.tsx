@@ -15,6 +15,8 @@ import {
   FormattedCrossRef,
 } from '@/lib/cross-references';
 import { getVerseContext, VerseContext } from '@/lib/verse-context';
+import { getVersePlaces, formatPlaceTypeSingular } from '@/lib/geocoding-data';
+import { getKJVText, getVerseCommandments, getVerseCommentary, getSectionHeading, getFeaturedVerse, isRedLetterVerse } from '@/lib/enrichment-data';
 
 interface CrossRefPageProps {
   params: Promise<{
@@ -134,6 +136,20 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
   const { prev, next } = getAdjacentVerses(book, chapterNum, verseNum, allKeys);
   const context = getVerseContext(book, chapterNum, verseNum);
 
+  // Enrichment data
+  const commentary = getVerseCommentary(book, chapterNum, verseNum);
+  const commandments = getVerseCommandments(book, chapterNum, verseNum);
+  const sectionHeading = getSectionHeading(book, chapterNum, verseNum);
+  const featuredVerse = getFeaturedVerse(book, chapterNum, verseNum);
+  const isRedLetter = isRedLetterVerse(book, chapterNum, verseNum);
+
+  // Load KJV text for top cross-referenced verses (up to 10)
+  const crossRefsWithText = crossRefs.slice(0, 10).map((ref: FormattedCrossRef) => {
+    const text = getKJVText(ref.bookSlug, ref.chapter, ref.verse);
+    return { ...ref, text };
+  });
+  const remainingRefs = crossRefs.slice(10);
+
   return (
     <div className="min-h-screen bg-primary-light/30">
       <nav className="bg-white border-b border-grace">
@@ -172,13 +188,37 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
 
           {verseText && (
             <div className="p-6">
-              <blockquote className="text-xl leading-relaxed text-scripture italic border-l-4 border-sacred pl-6">
+              {sectionHeading && (
+                <p className="text-xs font-semibold text-blue-600 uppercase tracking-wider mb-2">{sectionHeading}</p>
+              )}
+              <blockquote className={`text-xl leading-relaxed italic border-l-4 pl-6 ${isRedLetter ? 'text-red-700 border-red-400' : 'text-scripture border-sacred'}`}>
                 &ldquo;{verseText}&rdquo;
               </blockquote>
-              <p className="mt-3 text-sm text-primary-dark/60">{reference} (KJV)</p>
+              <div className="flex items-center gap-3 mt-3">
+                <p className="text-sm text-primary-dark/60">{reference} (KJV)</p>
+                {isRedLetter && (
+                  <span className="text-xs bg-red-100 text-red-700 px-2 py-0.5 rounded-full font-medium">Words of Jesus</span>
+                )}
+              </div>
             </div>
           )}
         </header>
+
+        {/* Featured Verse Annotation */}
+        {featuredVerse && (
+          <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-6">
+            <p className="text-xs font-semibold text-amber-700 uppercase tracking-wider mb-1">Featured Verse</p>
+            {featuredVerse.theme && (
+              <p className="text-sm text-primary-dark/80 font-medium">{featuredVerse.theme}</p>
+            )}
+            {featuredVerse.devotional && (
+              <p className="text-sm text-primary-dark/70 mt-1">{featuredVerse.devotional}</p>
+            )}
+            {featuredVerse.application && (
+              <p className="text-sm text-primary-dark/60 mt-1 italic">{featuredVerse.application}</p>
+            )}
+          </div>
+        )}
 
         {context && (context.persons.length > 0 || context.places.length > 0 || context.events.length > 0) && (
           <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
@@ -207,31 +247,58 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
               </div>
             )}
 
-            {context.places.length > 0 && (
-              <div className="mb-5">
-                <h3 className="text-sm font-semibold text-primary-dark/60 uppercase tracking-wide mb-3">Places Mentioned</h3>
-                <div className="grid gap-3 sm:grid-cols-2">
-                  {context.places.map((place) => (
-                    <div key={place.id} className="flex items-start gap-3 p-3 bg-green-50 border border-green-100 rounded-lg">
-                      <div className="flex-shrink-0 w-9 h-9 bg-green-200 text-green-800 rounded-full flex items-center justify-center">
-                        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                        </svg>
-                      </div>
-                      <div className="min-w-0">
-                        <span className="font-semibold text-scripture block">{place.name}</span>
-                        {(place.type || place.modern) && (
+            {(() => {
+              const geoPlaces = getVersePlaces(`${book}-${chapterNum}-${verseNum}`);
+              const hasGeo = geoPlaces.length > 0;
+              const hasContext = context.places.length > 0;
+              if (!hasGeo && !hasContext) return null;
+              return (
+                <div className="mb-5">
+                  <h3 className="text-sm font-semibold text-primary-dark/60 uppercase tracking-wide mb-3">Places Mentioned</h3>
+                  <div className="grid gap-3 sm:grid-cols-2">
+                    {hasGeo ? geoPlaces.map((place) => (
+                      <Link key={place.slug} href={`/bible-places/${place.slug}`} className="flex items-start gap-3 p-3 bg-green-50 border border-green-100 rounded-lg hover:border-green-300 transition-colors group">
+                        <div className="flex-shrink-0 w-9 h-9 bg-green-200 text-green-800 rounded-full flex items-center justify-center">
+                          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                          </svg>
+                        </div>
+                        <div className="min-w-0">
+                          <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors block">{place.name}</span>
                           <span className="text-xs text-primary-dark/70 block mt-0.5">
-                            {place.type}{place.type && place.modern ? ' · ' : ''}{place.modern && `Modern: ${place.modern}`}
+                            {formatPlaceTypeSingular(place.type)}
+                            {place.modernName ? ` · Modern: ${place.modernName}` : ''}
                           </span>
-                        )}
+                          {place.lat !== null && (
+                            <span className="text-xs text-primary-dark/40 block mt-0.5">
+                              {place.lat.toFixed(2)}°N, {place.lon!.toFixed(2)}°E · {place.verseCount} verse{place.verseCount !== 1 ? 's' : ''}
+                            </span>
+                          )}
+                        </div>
+                      </Link>
+                    )) : context.places.map((place) => (
+                      <div key={place.id} className="flex items-start gap-3 p-3 bg-green-50 border border-green-100 rounded-lg">
+                        <div className="flex-shrink-0 w-9 h-9 bg-green-200 text-green-800 rounded-full flex items-center justify-center">
+                          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                          </svg>
+                        </div>
+                        <div className="min-w-0">
+                          <span className="font-semibold text-scripture block">{place.name}</span>
+                          {(place.type || place.modern) && (
+                            <span className="text-xs text-primary-dark/70 block mt-0.5">
+                              {place.type}{place.type && place.modern ? ' · ' : ''}{place.modern && `Modern: ${place.modern}`}
+                            </span>
+                          )}
+                        </div>
                       </div>
-                    </div>
-                  ))}
+                    ))}
+                  </div>
                 </div>
-              </div>
-            )}
+              );
+            })()}
 
             {context.events.length > 0 && (
               <div>
@@ -259,6 +326,44 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
           </section>
         )}
 
+        {/* Verse Commentary */}
+        {commentary && (
+          <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
+            <h2 className="text-lg font-bold text-scripture mb-3">
+              Commentary on {reference}
+            </h2>
+            <p className="text-primary-dark/80 leading-relaxed text-sm">
+              {commentary.length > 600 ? commentary.slice(0, 600) + '...' : commentary}
+            </p>
+            <p className="mt-3 text-xs text-primary-dark/40">Source: KJV Study Commentary</p>
+          </section>
+        )}
+
+        {/* Commandments */}
+        {commandments.length > 0 && (
+          <section className="bg-amber-50 rounded-xl border border-amber-200 p-6 mb-6">
+            <h2 className="text-lg font-bold text-scripture mb-3">
+              Commandment{commandments.length > 1 ? 's' : ''} in This Verse
+            </h2>
+            <div className="space-y-3">
+              {commandments.map((cmd, i) => (
+                <Link key={i} href={`/commandments/${cmd.number}`} className="flex items-start gap-3 p-3 bg-white border border-amber-100 rounded-lg hover:border-amber-300 transition-colors group">
+                  <span className="flex-shrink-0 w-8 h-8 bg-amber-200 text-amber-800 rounded-full flex items-center justify-center text-sm font-bold">
+                    #{cmd.number}
+                  </span>
+                  <div className="min-w-0">
+                    <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors block text-sm">{cmd.concept}</span>
+                    <span className="text-xs text-primary-dark/60">
+                      {cmd.polarity === 'P' ? 'Positive' : 'Negative'} commandment
+                      {cmd.category ? ` · ${cmd.category}` : ''}
+                    </span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
         {crossRefs.length > 0 ? (
           <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
             <h2 className="text-lg font-bold text-scripture mb-1">
@@ -268,30 +373,54 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
               Ranked by relevance from Treasury of Scripture Knowledge
             </p>
 
-            <div className="grid gap-3 sm:grid-cols-2">
-              {crossRefs.map((ref: FormattedCrossRef, index: number) => (
+            {/* Top cross-refs with verse text */}
+            <div className="space-y-3 mb-4">
+              {crossRefsWithText.map((ref, index: number) => (
                 <Link
                   key={`${ref.bookSlug}-${ref.chapter}-${ref.verse}-${index}`}
                   href={ref.url}
-                  className="group flex items-center gap-3 p-4 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors"
+                  className="group block p-4 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light/20 transition-colors"
                 >
-                  <div className="flex-shrink-0 w-8 h-8 bg-blue-100 text-blue-700 rounded-full flex items-center justify-center text-sm font-semibold">
-                    {index + 1}
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <span className="text-blue-600 font-medium group-hover:underline block">
+                  <div className="flex items-center gap-3 mb-2">
+                    <div className="flex-shrink-0 w-7 h-7 bg-blue-100 text-blue-700 rounded-full flex items-center justify-center text-xs font-semibold">
+                      {index + 1}
+                    </div>
+                    <span className="text-blue-600 font-medium group-hover:underline">
                       {ref.reference}
                     </span>
-                    <span className="text-xs text-primary-dark/40">
+                    <span className="text-xs text-primary-dark/40 ml-auto">
                       {ref.votes} vote{ref.votes !== 1 ? 's' : ''}
                     </span>
                   </div>
-                  <span className="text-primary-dark/40 group-hover:text-blue-600 transition-colors">
-                    &rarr;
-                  </span>
+                  {ref.text && (
+                    <p className="text-sm text-primary-dark/70 italic pl-10 line-clamp-2">
+                      &ldquo;{ref.text}&rdquo;
+                    </p>
+                  )}
                 </Link>
               ))}
             </div>
+
+            {/* Remaining cross-refs (compact) */}
+            {remainingRefs.length > 0 && (
+              <div className="grid gap-2 sm:grid-cols-2">
+                {remainingRefs.map((ref: FormattedCrossRef, index: number) => (
+                  <Link
+                    key={`${ref.bookSlug}-${ref.chapter}-${ref.verse}-${index + 10}`}
+                    href={ref.url}
+                    className="group flex items-center gap-2 p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors"
+                  >
+                    <span className="text-xs text-primary-dark/40 w-5 text-center">{index + 11}</span>
+                    <span className="text-blue-600 text-sm font-medium group-hover:underline flex-1">
+                      {ref.reference}
+                    </span>
+                    <span className="text-xs text-primary-dark/40">
+                      {ref.votes}v
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            )}
 
             <div className="mt-5 pt-4 border-t border-grace/50 text-center">
               <span className="text-xs text-primary-dark/60">

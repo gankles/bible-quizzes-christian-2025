@@ -19,6 +19,7 @@ import CrossReferencesSection from '@/components/verse-study/CrossReferencesSect
 import CommentarySection from '@/components/verse-study/CommentarySection';
 import StudyTabs from '@/components/verse-study/StudyTabs';
 import TopicalTags from '@/components/verse-study/TopicalTags';
+import { getVersePlaces, formatPlaceTypeSingular } from '@/lib/geocoding-data';
 
 interface VersePageProps {
   params: Promise<{
@@ -219,6 +220,54 @@ export default async function VersePage({ params }: VersePageProps) {
         crossRefs={crossRefs}
         currentReference={data.reference}
       />
+
+      {/* Places in This Verse */}
+      {(() => {
+        const versePlaces = getVersePlaces(`${book}-${chapterNum}-${verseNum}`);
+        if (versePlaces.length === 0) return null;
+        return (
+          <section className="mt-8">
+            <h2 className="text-lg font-semibold text-scripture mb-4">Places in This Verse</h2>
+            <div className="grid gap-3 sm:grid-cols-2">
+              {versePlaces.map((place) => (
+                <Link
+                  key={place.slug}
+                  href={`/bible-places/${place.slug}`}
+                  className="group flex items-start gap-3 p-4 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors"
+                >
+                  <div className="flex-shrink-0 w-9 h-9 bg-green-100 text-green-700 rounded-full flex items-center justify-center">
+                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                  </div>
+                  <div className="min-w-0">
+                    <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors block">
+                      {place.name}
+                    </span>
+                    <span className="text-xs text-primary-dark/60 block mt-0.5">
+                      {formatPlaceTypeSingular(place.type)}
+                      {place.modernName ? ` · Modern: ${place.modernName}` : ''}
+                      {place.lat !== null ? ` · ${place.lat.toFixed(2)}°N, ${place.lon!.toFixed(2)}°E` : ''}
+                    </span>
+                    <span className="text-xs text-primary-dark/40 mt-1 block">
+                      {place.verseCount} verse{place.verseCount !== 1 ? 's' : ''} across {place.books.length} book{place.books.length !== 1 ? 's' : ''}
+                    </span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+            <div className="mt-3 text-right">
+              <Link
+                href={`/bible-geography/${book}/${chapterNum}`}
+                className="text-sm text-blue-600 hover:underline"
+              >
+                View all places in {data.bookName} {chapterNum} &rarr;
+              </Link>
+            </div>
+          </section>
+        );
+      })()}
 
       {/* Verse Navigation */}
       <nav className="flex items-center justify-between py-6 border-t border-grace mt-4">

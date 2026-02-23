@@ -8,6 +8,7 @@ import {
 } from '@/lib/bible-names-data';
 import { searchPeople } from '@/lib/people-data';
 import { StructuredData } from '@/components/StructuredData';
+import { getAllPersonsByName, getBiography } from '@/lib/enrichment-data';
 
 interface PageProps {
   params: Promise<{ name: string }>;
@@ -60,6 +61,41 @@ export default async function BibleNamePage({ params }: PageProps) {
     .filter(p => p.name.toLowerCase() === entry.name.toLowerCase())
     .slice(0, 8);
 
+  // Enrichment data from persons CSV
+  const enrichedPersons = getAllPersonsByName(entry.name);
+  const biography = getBiography(entry.name);
+
+  // Collect unique etymology labels across all person matches
+  const etymologyLabels: Array<{
+    english: string; hebrew: string; hebrewTranslit: string; hebrewMeaning: string;
+    hebrewStrongs: string; greek: string; greekTranslit: string; greekMeaning: string;
+    greekStrongs: string; firstRef: string; type: string; givenByGod: boolean;
+  }> = [];
+  const seenLabels = new Set<string>();
+  for (const person of enrichedPersons) {
+    for (const label of person.labels || []) {
+      const key = `${label.english}-${label.hebrew}-${label.greek}`;
+      if (!seenLabels.has(key) && (label.hebrew || label.greek)) {
+        seenLabels.add(key);
+        etymologyLabels.push(label);
+      }
+    }
+  }
+
+  // Collect unique relationships across all person matches
+  const relationships = enrichedPersons.flatMap(p => (p.relationships || []).map(r => ({ ...r, personId: p.id })));
+
+  // Group relationships by type for family tree display
+  const relByType: Record<string, Array<{ relatedName: string; ref: string }>> = {};
+  for (const rel of relationships) {
+    const type = rel.type || 'unknown';
+    if (!relByType[type]) relByType[type] = [];
+    // Avoid duplicates
+    if (!relByType[type].find(r => r.relatedName === rel.relatedName)) {
+      relByType[type].push({ relatedName: rel.relatedName, ref: rel.ref });
+    }
+  }
+
   // Find names with similar meanings (share a key word in the meaning)
   const meaningWords = entry.meaning.toLowerCase().split(/[;,\s]+/).filter(w => w.length > 3);
   const similarNames = meaningWords.length > 0
@@ -92,6 +128,12 @@ export default async function BibleNamePage({ params }: PageProps) {
     ],
   };
 
+  // Build richer FAQ answers using enrichment data
+  const hebrewEtymology = etymologyLabels.find(l => l.hebrew);
+  const etymologyNote = hebrewEtymology
+    ? ` In Hebrew, it is written as ${hebrewEtymology.hebrew}${hebrewEtymology.hebrewTranslit ? ` (${hebrewEtymology.hebrewTranslit})` : ''}${hebrewEtymology.hebrewMeaning ? `, meaning "${hebrewEtymology.hebrewMeaning}"` : ''}.`
+    : '';
+
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
@@ -101,7 +143,7 @@ export default async function BibleNamePage({ params }: PageProps) {
         name: `What does ${entry.name} mean in the Bible?`,
         acceptedAnswer: {
           '@type': 'Answer',
-          text: `The biblical name ${entry.name} means "${entry.meaning}." This name comes from Hitchcock's Bible Names Dictionary and reflects the deep significance that names held in biblical culture.`,
+          text: `The biblical name ${entry.name} means "${entry.meaning}."${etymologyNote} This name comes from Hitchcock's Bible Names Dictionary and reflects the deep significance that names held in biblical culture.`,
         },
       },
       {
@@ -111,7 +153,9 @@ export default async function BibleNamePage({ params }: PageProps) {
           '@type': 'Answer',
           text: matchingPeople.length > 0
             ? `${entry.name} appears in the Bible as ${matchingPeople.map(p => p.uniqueAttribute || 'a biblical figure').join('; ')}. The name means "${entry.meaning}."`
-            : `${entry.name} is a biblical name meaning "${entry.meaning}." Names in the Bible often reflected a person's character, destiny, or the circumstances of their birth.`,
+            : biography?.summary
+              ? `${biography.summary} The name ${entry.name} means "${entry.meaning}."`
+              : `${entry.name} is a biblical name meaning "${entry.meaning}." Names in the Bible often reflected a person's character, destiny, or the circumstances of their birth.`,
         },
       },
     ],
@@ -181,8 +225,163 @@ export default async function BibleNamePage({ params }: PageProps) {
               <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Source</dt>
               <dd className="text-scripture">Hitchcock&apos;s Bible Names Dictionary</dd>
             </div>
+            {enrichedPersons.length > 0 && enrichedPersons[0].sex && (
+              <div>
+                <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Gender</dt>
+                <dd className="text-scripture capitalize">{enrichedPersons[0].sex}</dd>
+              </div>
+            )}
+            {enrichedPersons.length > 0 && enrichedPersons[0].tribe && (
+              <div>
+                <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Tribe</dt>
+                <dd className="text-scripture">{enrichedPersons[0].tribe}</dd>
+              </div>
+            )}
           </dl>
         </div>
+
+        {/* Hebrew & Greek Etymology — from enrichment data */}
+        {etymologyLabels.length > 0 && (
+          <section className="bg-white border border-grace rounded-xl p-6 mb-8">
+            <h2 className="text-lg font-bold text-scripture mb-4">
+              Hebrew &amp; Greek Etymology
+            </h2>
+            <div className="space-y-4">
+              {etymologyLabels.map((label, i) => (
+                <div key={i} className={i > 0 ? 'border-t border-grace/50 pt-4' : ''}>
+                  {label.english && (
+                    <p className="font-semibold text-scripture mb-2">{label.english}</p>
+                  )}
+                  <dl className="grid gap-3 sm:grid-cols-2">
+                    {label.hebrew && (
+                      <div>
+                        <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Hebrew</dt>
+                        <dd>
+                          <span className="text-xl font-serif text-scripture">{label.hebrew}</span>
+                          {label.hebrewTranslit && (
+                            <span className="text-sm text-primary-dark/60 ml-2">({label.hebrewTranslit})</span>
+                          )}
+                        </dd>
+                        {label.hebrewMeaning && (
+                          <dd className="text-sm text-primary-dark/70 mt-1">&ldquo;{label.hebrewMeaning}&rdquo;</dd>
+                        )}
+                        {label.hebrewStrongs && (
+                          <dd className="mt-1">
+                            <Link
+                              href={`/lexicon/hebrew/${label.hebrewStrongs.replace(/^H/, '')}`}
+                              className="text-xs text-blue-600 hover:underline"
+                            >
+                              Strong&apos;s {label.hebrewStrongs}
+                            </Link>
+                          </dd>
+                        )}
+                      </div>
+                    )}
+                    {label.greek && (
+                      <div>
+                        <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Greek</dt>
+                        <dd>
+                          <span className="text-xl font-serif text-scripture">{label.greek}</span>
+                          {label.greekTranslit && (
+                            <span className="text-sm text-primary-dark/60 ml-2">({label.greekTranslit})</span>
+                          )}
+                        </dd>
+                        {label.greekMeaning && (
+                          <dd className="text-sm text-primary-dark/70 mt-1">&ldquo;{label.greekMeaning}&rdquo;</dd>
+                        )}
+                        {label.greekStrongs && (
+                          <dd className="mt-1">
+                            <Link
+                              href={`/lexicon/greek/${label.greekStrongs.replace(/^G/, '')}`}
+                              className="text-xs text-blue-600 hover:underline"
+                            >
+                              Strong&apos;s {label.greekStrongs}
+                            </Link>
+                          </dd>
+                        )}
+                      </div>
+                    )}
+                  </dl>
+                  {label.firstRef && (
+                    <p className="text-xs text-primary-dark/50 mt-2">
+                      First referenced: {label.firstRef}
+                    </p>
+                  )}
+                  {label.givenByGod && (
+                    <p className="text-xs text-blue-600 font-medium mt-1">Name given by God</p>
+                  )}
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Family Relationships — from enrichment data */}
+        {Object.keys(relByType).length > 0 && (
+          <section className="bg-white border border-grace rounded-xl p-6 mb-8">
+            <h2 className="text-lg font-bold text-scripture mb-4">
+              Family &amp; Relationships
+            </h2>
+            <dl className="grid gap-3 sm:grid-cols-2">
+              {Object.entries(relByType).map(([type, rels]) => (
+                <div key={type}>
+                  <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">
+                    {type.replace(/_/g, ' ')}
+                  </dt>
+                  <dd className="space-y-1">
+                    {rels.map((rel, i) => (
+                      <span key={i} className="block text-scripture text-sm">
+                        {rel.relatedName}
+                        {rel.ref && (
+                          <span className="text-xs text-primary-dark/40 ml-1">({rel.ref})</span>
+                        )}
+                      </span>
+                    ))}
+                  </dd>
+                </div>
+              ))}
+            </dl>
+          </section>
+        )}
+
+        {/* Biography — from kjvstudy.org */}
+        {biography && (
+          <section className="bg-white border border-grace rounded-xl p-6 mb-8">
+            <h2 className="text-lg font-bold text-scripture mb-3">
+              {entry.name} in Scripture
+            </h2>
+            {biography.summary && (
+              <p className="text-primary-dark/80 leading-relaxed mb-4">{biography.summary}</p>
+            )}
+            {biography.significance && (
+              <div className="mb-4">
+                <h3 className="font-semibold text-scripture mb-1">Significance</h3>
+                <p className="text-primary-dark/80 text-sm leading-relaxed">{biography.significance}</p>
+              </div>
+            )}
+            {biography.key_events && biography.key_events.length > 0 && (
+              <div>
+                <h3 className="font-semibold text-scripture mb-2">Key Life Events</h3>
+                <div className="space-y-2">
+                  {biography.key_events.slice(0, 10).map((evt: any, i: number) => (
+                    <div key={i} className="flex items-start gap-3 text-sm">
+                      <span className="flex-shrink-0 w-16 text-xs text-primary-dark/50 pt-0.5">
+                        {evt.age ? `Age ${evt.age}` : ''}
+                      </span>
+                      <div className="flex-1">
+                        <span className="text-primary-dark/80">{evt.event}</span>
+                        {evt.verse && (
+                          <span className="text-xs text-blue-600 ml-1">({evt.verse})</span>
+                        )}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+            <p className="text-xs text-primary-dark/40 mt-4">Source: kjvstudy.org</p>
+          </section>
+        )}
 
         {/* People with This Name */}
         {matchingPeople.length > 0 && (
@@ -307,7 +506,13 @@ export default async function BibleNamePage({ params }: PageProps) {
                 What does {entry.name} mean in the Bible?
               </h3>
               <p className="text-primary-dark/80 text-sm leading-relaxed">
-                The biblical name {entry.name} means &ldquo;{entry.meaning}&rdquo;. This name comes from Hitchcock&apos;s Bible Names Dictionary and reflects the deep significance that names held in biblical culture.
+                The biblical name {entry.name} means &ldquo;{entry.meaning}&rdquo;.
+                {hebrewEtymology && (
+                  <> In Hebrew, it is written as {hebrewEtymology.hebrew}
+                  {hebrewEtymology.hebrewTranslit && <> ({hebrewEtymology.hebrewTranslit})</>}
+                  {hebrewEtymology.hebrewMeaning && <>, meaning &ldquo;{hebrewEtymology.hebrewMeaning}&rdquo;</>}.</>
+                )}
+                {' '}This name comes from Hitchcock&apos;s Bible Names Dictionary and reflects the deep significance that names held in biblical culture.
               </p>
             </div>
             <div className="border-t border-grace/50 pt-4">
@@ -322,7 +527,9 @@ export default async function BibleNamePage({ params }: PageProps) {
                         {p.uniqueAttribute || 'a biblical figure'}
                       </span>
                     ))}. The name means &ldquo;{entry.meaning}&rdquo;.</>
-                  : <>{entry.name} is a biblical name meaning &ldquo;{entry.meaning}&rdquo;. Names in the Bible often reflected a person&apos;s character, destiny, or the circumstances of their birth.</>
+                  : biography?.summary
+                    ? <>{biography.summary} The name {entry.name} means &ldquo;{entry.meaning}&rdquo;.</>
+                    : <>{entry.name} is a biblical name meaning &ldquo;{entry.meaning}&rdquo;. Names in the Bible often reflected a person&apos;s character, destiny, or the circumstances of their birth.</>
                 }
               </p>
             </div>

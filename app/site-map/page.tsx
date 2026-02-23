@@ -49,6 +49,9 @@ export default function SitemapPage() {
                 { name: 'Lexicon', href: '/lexicon' },
                 { name: 'Greek Lexicon', href: '/lexicon/browse/greek' },
                 { name: 'Hebrew Lexicon', href: '/lexicon/browse/hebrew' },
+                { name: 'Bible Chapter Summaries', href: '/bible-chapter-summaries' },
+                { name: 'Bible Places', href: '/bible-places' },
+                { name: 'Bible Geography', href: '/bible-geography' },
                 { name: 'About', href: '/about' },
                 { name: 'Contact', href: '/contact' },
                 { name: 'Privacy Policy', href: '/privacy-policy' },
@@ -90,6 +93,67 @@ export default function SitemapPage() {
                   className="text-blue-600 hover:text-blue-700 text-sm hover:underline"
                 >
                   {book}
+                </Link>
+              ))}
+            </div>
+          </section>
+
+          {/* Old Testament Chapter Summaries */}
+          <section>
+            <h2 className="text-2xl font-semibold text-scripture mb-4">Old Testament Chapter Summaries</h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
+              {OT_BOOKS.map(book => (
+                <Link
+                  key={`summary-${book}`}
+                  href={`/bible-chapter-summaries/${bookToSlug(book)}`}
+                  className="text-blue-600 hover:text-blue-700 text-sm hover:underline"
+                >
+                  {book} Summaries
+                </Link>
+              ))}
+            </div>
+          </section>
+
+          {/* New Testament Chapter Summaries */}
+          <section>
+            <h2 className="text-2xl font-semibold text-scripture mb-4">New Testament Chapter Summaries</h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
+              {NT_BOOKS.map(book => (
+                <Link
+                  key={`summary-${book}`}
+                  href={`/bible-chapter-summaries/${bookToSlug(book)}`}
+                  className="text-blue-600 hover:text-blue-700 text-sm hover:underline"
+                >
+                  {book} Summaries
+                </Link>
+              ))}
+            </div>
+          </section>
+
+          {/* Bible Geography */}
+          <section>
+            <h2 className="text-2xl font-semibold text-scripture mb-4">Bible Geography</h2>
+            <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+              {[
+                { name: 'Bible Places A-Z', href: '/bible-places' },
+                { name: 'Bible Geography by Book', href: '/bible-geography' },
+              ].map(link => (
+                <li key={link.href}>
+                  <Link href={link.href} className="text-blue-600 hover:text-blue-700 text-sm hover:underline">
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <h3 className="text-lg font-semibold text-scripture mt-4 mb-2">Geography by Book</h3>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
+              {[...OT_BOOKS, ...NT_BOOKS].map(book => (
+                <Link
+                  key={`geo-${book}`}
+                  href={`/bible-geography/${bookToSlug(book)}`}
+                  className="text-blue-600 hover:text-blue-700 text-sm hover:underline"
+                >
+                  {book} Places
                 </Link>
               ))}
             </div>

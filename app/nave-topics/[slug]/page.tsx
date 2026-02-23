@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       url: `/nave-topics/${topic.slug}`,
       type: 'article',
     },
-    alternates: { canonical: `/nave-topics/${topic.slug}` },
+    alternates: { canonical: `/topics/${topic.slug}` },
   };
 }
 

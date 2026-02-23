@@ -9,6 +9,7 @@ import {
   getInterlinearChapterVerses,
 } from '@/lib/interlinear-data';
 import { StructuredData } from '@/components/StructuredData';
+import { getVersePlaces, formatPlaceTypeSingular } from '@/lib/geocoding-data';
 
 interface PageProps {
   params: Promise<{ book: string; chapter: string; verse: string }>;
@@ -218,6 +219,32 @@ export default async function InterlinearVersePage({ params }: PageProps) {
               </table>
             </div>
           </section>
+
+          {/* Geographic Context */}
+          {(() => {
+            const versePlaces = getVersePlaces(`${bookSlug}-${chapter}-${verse}`);
+            if (versePlaces.length === 0) return null;
+            return (
+              <section className="mb-10">
+                <h2 className="text-lg font-bold text-scripture mb-4">Geographic Context</h2>
+                <div className="flex flex-wrap gap-2">
+                  {versePlaces.map((place) => (
+                    <Link
+                      key={place.slug}
+                      href={`/bible-places/${place.slug}`}
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-green-50 text-green-800 border border-green-200 rounded-full text-sm hover:bg-green-100 transition-colors"
+                    >
+                      <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      </svg>
+                      {place.name}
+                      <span className="text-green-600/60 text-xs">({formatPlaceTypeSingular(place.type)})</span>
+                    </Link>
+                  ))}
+                </div>
+              </section>
+            );
+          })()}
 
           {/* Verse Context */}
           <section className="mb-10">

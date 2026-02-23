@@ -9,6 +9,7 @@ import {
 import { getBibleNameBySlug } from '@/lib/bible-names-data';
 import { StructuredData } from '@/components/StructuredData';
 import { findBiography } from '@/lib/biographies-data';
+import { getVersePlaces, formatPlaceTypeSingular, GeocodingPlace } from '@/lib/geocoding-data';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -253,6 +254,68 @@ export default async function PersonPage({ params }: PageProps) {
             )}
           </div>
         )}
+
+        {/* Associated Places */}
+        {(() => {
+          // Collect unique places from this person's scripture references
+          const placeMap = new Map<string, GeocodingPlace>();
+          for (const label of person.labels) {
+            if (!label.reference) continue;
+            const refMatch = label.reference.match(/^(\d?\s?[A-Za-z]+)\s+(\d+):(\d+)/);
+            if (!refMatch) continue;
+            const bookSlug = refMatch[1].toLowerCase().replace(/\s+/g, '-');
+            const ch = refMatch[2];
+            const vs = refMatch[3];
+            const places = getVersePlaces(`${bookSlug}-${ch}-${vs}`);
+            for (const p of places) {
+              if (!placeMap.has(p.slug)) placeMap.set(p.slug, p);
+            }
+          }
+          for (const rel of person.relationships) {
+            if (!rel.reference) continue;
+            const refMatch = rel.reference.match(/^(\d?\s?[A-Za-z]+)\s+(\d+):(\d+)/);
+            if (!refMatch) continue;
+            const bookSlug = refMatch[1].toLowerCase().replace(/\s+/g, '-');
+            const ch = refMatch[2];
+            const vs = refMatch[3];
+            const places = getVersePlaces(`${bookSlug}-${ch}-${vs}`);
+            for (const p of places) {
+              if (!placeMap.has(p.slug)) placeMap.set(p.slug, p);
+            }
+          }
+          const associatedPlaces = Array.from(placeMap.values()).slice(0, 8);
+          if (associatedPlaces.length === 0) return null;
+          return (
+            <div className="bg-white border border-grace rounded-xl p-6 mb-8">
+              <h2 className="text-lg font-bold text-scripture mb-4 flex items-center">
+                <svg className="w-5 h-5 mr-2 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                Associated Places
+              </h2>
+              <div className="grid gap-2 sm:grid-cols-2">
+                {associatedPlaces.map((place) => (
+                  <Link
+                    key={place.slug}
+                    href={`/bible-places/${place.slug}`}
+                    className="group flex items-center gap-2 p-3 bg-green-50 border border-green-100 rounded-lg hover:border-green-300 transition-colors"
+                  >
+                    <div className="flex-shrink-0 w-8 h-8 bg-green-200 text-green-800 rounded-full flex items-center justify-center">
+                      <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      </svg>
+                    </div>
+                    <div className="min-w-0">
+                      <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors text-sm block">{place.name}</span>
+                      <span className="text-xs text-primary-dark/60">{formatPlaceTypeSingular(place.type)}</span>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          );
+        })()}
 
         {/* Hebrew/Greek Names (Labels) */}
         {person.labels.length > 0 && (

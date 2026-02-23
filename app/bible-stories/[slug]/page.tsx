@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation';
 import { getAllStories, getStoryBySlug, getStoriesByCategory } from '@/lib/bible-stories-data';
 import { getChapter, stripHtml, getBookId } from '@/lib/bolls-api';
 import { StructuredData } from '@/components/StructuredData';
+import { getPlacesForChapter, formatPlaceTypeSingular } from '@/lib/geocoding-data';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -315,6 +316,47 @@ export default async function StoryPage({ params }: PageProps) {
             </div>
           </section>
         )}
+
+        {/* Settings & Locations */}
+        {(() => {
+          if (!story.bookSlug || !story.chapter) return null;
+          const storyPlaces = getPlacesForChapter(story.bookSlug, story.chapter);
+          if (storyPlaces.length === 0) return null;
+          return (
+            <section className="bg-white border border-grace rounded-xl p-6 mb-8">
+              <h2 className="text-lg font-bold text-scripture mb-4 flex items-center">
+                <svg className="w-5 h-5 mr-2 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                Settings &amp; Locations
+              </h2>
+              <div className="flex flex-wrap gap-2">
+                {storyPlaces.slice(0, 6).map((place) => (
+                  <Link
+                    key={place.slug}
+                    href={`/bible-places/${place.slug}`}
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-green-50 text-green-800 border border-green-200 rounded-full text-sm hover:bg-green-100 transition-colors"
+                  >
+                    <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    </svg>
+                    {place.name}
+                    <span className="text-green-600/60 text-xs">({formatPlaceTypeSingular(place.type)})</span>
+                  </Link>
+                ))}
+              </div>
+              <div className="mt-3">
+                <Link
+                  href={`/bible-geography/${story.bookSlug}/${story.chapter}`}
+                  className="text-sm text-blue-600 hover:underline"
+                >
+                  View map of {story.book} {story.chapter} locations &rarr;
+                </Link>
+              </div>
+            </section>
+          );
+        })()}
 
         {/* 7. Scripture Text */}
         {verses && verses.length > 0 ? (
