@@ -115,6 +115,28 @@ export default async function TopicDetailPage({ params }: TopicPageProps) {
                     </div>
                 </div>
 
+                {/* Top 10 Verses — Featured Snippet Optimized */}
+                {(topic as any).verses && (topic as any).verses.length > 0 && (
+                    <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
+                        <h2 className="text-lg font-bold text-scripture mb-4">
+                            Top {Math.min(10, (topic as any).verses.length)} Bible Verses About {topic.name}
+                        </h2>
+                        <ol className="space-y-3 list-decimal list-inside">
+                            {(topic as any).verses.slice(0, 10).map((v: any, i: number) => (
+                                <li key={i} className="text-sm leading-relaxed text-primary-dark/80">
+                                    <Link
+                                        href={`/verses/${v.book}/${v.chapter}/${v.verse}`}
+                                        className="font-semibold text-blue-600 hover:underline"
+                                    >
+                                        {v.bookName} {v.chapter}:{v.verse}
+                                    </Link>
+                                    {' '}&mdash; &ldquo;{v.text.length > 200 ? v.text.substring(0, 200) + '...' : v.text}&rdquo;
+                                </li>
+                            ))}
+                        </ol>
+                    </section>
+                )}
+
                 {/* Translation Comparison */}
                 {(topic as any).verses && (topic as any).verses.length > 0 && (
                     <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">

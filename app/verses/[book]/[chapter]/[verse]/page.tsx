@@ -376,6 +376,35 @@ export default async function VersePage({ params }: VersePageProps) {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              {
+                '@type': 'Question',
+                name: `What does ${data.reference} mean?`,
+                acceptedAnswer: {
+                  '@type': 'Answer',
+                  text: verseCommentary
+                    ? `${data.reference} says: "${verseText.substring(0, 150)}${verseText.length > 150 ? '...' : ''}" ${verseCommentary.text.substring(0, 300).replace(/\n/g, ' ')}${verseCommentary.text.length > 300 ? '...' : ''}`
+                    : `${data.reference} in the King James Version reads: "${verseText.substring(0, 200)}${verseText.length > 200 ? '...' : ''}" This verse is found in ${data.bookName}, chapter ${chapter}, verse ${verse}.`,
+                },
+              },
+              {
+                '@type': 'Question',
+                name: `What is the context of ${data.reference}?`,
+                acceptedAnswer: {
+                  '@type': 'Answer',
+                  text: `${data.reference} is part of ${data.bookName} chapter ${chapter}, which contains ${data.totalVerses} verses. ${crossRefs.length > 0 ? `This verse has ${crossRefs.length} cross-references to other scriptures, showing its connections throughout the Bible.` : 'Study this verse with commentary and original language analysis for deeper understanding.'}`,
+                },
+              },
+            ],
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
               { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://biblemaximum.com/' },
