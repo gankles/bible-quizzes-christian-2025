@@ -12,49 +12,46 @@ const footerSections = [
       { name: 'Romans Quiz', href: '/romans-chapters' },
       { name: 'Psalms Quiz', href: '/psalms-chapters' },
       { name: 'Revelation Quiz', href: '/revelation-chapters' },
-      { name: 'Jesus Quiz', href: '/jesus-quiz' },
-      { name: 'Moses Quiz', href: '/moses-quiz' },
-      { name: 'David Quiz', href: '/david-quiz' },
-      { name: 'Paul Quiz', href: '/paul-quiz' },
+      { name: 'Old Testament Quizzes', href: '/old-testament-quizzes' },
+      { name: 'New Testament Quizzes', href: '/new-testament-quizzes' },
+      { name: 'Bible Trivia', href: '/bible-trivia' },
+      { name: 'Quiz Difficulty Levels', href: '/bible-quiz-difficulty' },
       { name: 'All Quizzes', href: '/bible-quizzes' },
-      { name: 'Quiz Categories', href: '/bible-quiz-categories' }
+      { name: 'How It Works', href: '/how-bible-quiz-works' }
     ]
   },
   {
     title: 'Study Resources',
     links: [
-      { name: 'Bible Study Plans', href: '/bible-study-plans' },
+      { name: 'How to Study the Bible', href: '/how-to-study-the-bible' },
+      { name: 'Bible Study for Beginners', href: '/bible-study-for-beginners' },
       { name: 'Chapter Summaries', href: '/bible-chapter-summaries' },
-      { name: 'Book Overviews', href: '/bible-book-overviews' },
-      { name: 'Character Studies', href: '/bible-character-studies' },
-      { name: 'Verse Explanations', href: '/bible-verses-explained' },
-      { name: 'Memory Verses', href: '/bible-memory-verses' },
-      { name: 'Discussion Questions', href: '/bible-discussion-questions' },
-      { name: 'Bible Timeline', href: '/bible-timeline' },
-      { name: 'Maps & Charts', href: '/bible-maps-charts' },
-      { name: 'Printable Resources', href: '/printable-bible-resources' },
-      { name: 'Teaching Materials', href: '/bible-teaching-materials' },
+      { name: 'Books of the Bible', href: '/books-of-the-bible' },
+      { name: 'Famous Bible Verses', href: '/famous-bible-verses' },
       { name: 'Study Guides', href: '/bible-study-guides' },
+      { name: 'Reading Plans', href: '/reading-plans' },
+      { name: 'Bible Timeline', href: '/timeline' },
+      { name: 'Bible Maps', href: '/bible-maps' },
       { name: 'Interlinear Bible', href: '/interlinear' },
       { name: 'Bible Places', href: '/bible-places' },
       { name: 'Bible Geography', href: '/bible-geography' }
     ]
   },
   {
-    title: 'Popular Topics',
+    title: 'Bible Tools',
     links: [
-      { name: 'Ten Commandments', href: '/ten-commandments-quiz' },
-      { name: "Lord's Prayer", href: '/lords-prayer-quiz' },
-      { name: 'Miracles of Jesus', href: '/miracles-jesus-quiz' },
-      { name: 'Parables', href: '/parables-quiz' },
-      { name: 'Christmas', href: '/christmas-bible-quiz' },
-      { name: 'Easter', href: '/easter-bible-quiz' },
-      { name: 'Creation', href: '/creation-quiz' },
-      { name: "Noah's Ark", href: '/noahs-ark-quiz' },
-      { name: 'Exodus', href: '/exodus-quiz' },
-      { name: 'Crucifixion', href: '/crucifixion-quiz' },
-      { name: 'Resurrection', href: '/resurrection-quiz' },
-      { name: 'All Topics', href: '/bible-quiz-topics' }
+      { name: 'Hebrew Words', href: '/hebrew-words' },
+      { name: 'Greek Words', href: '/greek-words' },
+      { name: 'Hebrew Lexicon', href: '/lexicon/browse/hebrew' },
+      { name: 'Greek Lexicon', href: '/lexicon/browse/greek' },
+      { name: 'Word Studies', href: '/word-studies' },
+      { name: 'Cross-References', href: '/cross-references' },
+      { name: 'Bible Topics', href: '/topics' },
+      { name: "Nave's Topical Bible", href: '/nave-topics' },
+      { name: 'Bible Names', href: '/bible-names' },
+      { name: 'Bible People', href: '/people' },
+      { name: 'Bible Stories', href: '/bible-stories' },
+      { name: 'Commandments', href: '/commandments' }
     ]
   },
   {
@@ -62,33 +59,27 @@ const footerSections = [
     links: [
       { name: 'About Us', href: '/about' },
       { name: 'Contact', href: '/contact' },
-      { name: 'How It Works', href: '/how-bible-quiz-works' },
       { name: 'FAQ', href: '/bible-quiz-faq' },
       { name: 'Privacy Policy', href: '/privacy-policy' },
       { name: 'Terms of Service', href: '/terms-of-service' },
-      { name: 'Sitemap', href: '/site-map' },
-      { name: 'Newsletter', href: '/newsletter-signup' },
-      { name: 'Submit Quiz', href: '/submit-quiz-questions' },
-      { name: 'Feedback', href: '/feedback' },
-      { name: 'Mobile App', href: '/bible-quiz-app' },
-      { name: 'RSS Feed', href: '/rss' }
+      { name: 'Sitemap', href: '/site-map' }
     ]
   }
 ];
 
 const quizCategories = [
-  { name: 'Easy Bible Quiz', href: '/easy-bible-quiz' },
-  { name: 'Hard Bible Quiz', href: '/hard-bible-quiz' },
+  { name: 'Easy Quizzes', href: '/bible-quiz-difficulty/easy' },
+  { name: 'Medium Quizzes', href: '/bible-quiz-difficulty/medium' },
+  { name: 'Hard Quizzes', href: '/bible-quiz-difficulty/hard' },
+  { name: 'Theological Quizzes', href: '/bible-quiz-difficulty/theological' },
   { name: 'Kids Bible Quiz', href: '/kids-bible-quiz' },
-  { name: 'Youth Bible Quiz', href: '/youth-bible-quiz' },
-  { name: 'Adult Bible Quiz', href: '/adult-bible-quiz' },
-  { name: 'Multiple Choice', href: '/multiple-choice-bible-quiz' },
-  { name: 'True/False', href: '/true-false-bible-quiz' },
-  { name: 'Fill in Blank', href: '/fill-in-blank-bible-quiz' },
-  { name: 'Printable Quiz', href: '/printable-bible-quiz' },
-  { name: 'Interactive Quiz', href: '/interactive-bible-quiz' },
-  { name: 'Daily Bible Quiz', href: '/daily-bible-quiz' },
-  { name: 'Quiz Games', href: '/bible-quiz-games' }
+  { name: 'Old Testament Quizzes', href: '/old-testament-quizzes' },
+  { name: 'New Testament Quizzes', href: '/new-testament-quizzes' },
+  { name: 'Bible Trivia', href: '/bible-trivia' },
+  { name: 'Genesis Chapters', href: '/genesis-chapters' },
+  { name: 'Psalms Chapters', href: '/psalms-chapters' },
+  { name: 'Matthew Chapters', href: '/matthew-chapters' },
+  { name: 'Revelation Chapters', href: '/revelation-chapters' }
 ];
 
 export default function Footer() {
@@ -199,24 +190,8 @@ export default function Footer() {
               <Link href="/contact" className="text-grace/70 hover:text-white transition-colors">
                 Contact
               </Link>
-              <Link href="/sitemap" className="text-grace/70 hover:text-white transition-colors">
+              <Link href="/site-map" className="text-grace/70 hover:text-white transition-colors">
                 Sitemap
-              </Link>
-            </div>
-
-            {/* Social links */}
-            <div className="flex items-center space-x-4">
-              <Link href="#" className="text-grace/70 hover:text-sacred transition-colors">
-                Facebook
-              </Link>
-              <Link href="#" className="text-grace/70 hover:text-sacred transition-colors">
-                Twitter
-              </Link>
-              <Link href="#" className="text-grace/70 hover:text-sacred transition-colors">
-                YouTube
-              </Link>
-              <Link href="#" className="text-grace/70 hover:text-sacred transition-colors">
-                Instagram
               </Link>
             </div>
           </div>
