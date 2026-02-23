@@ -233,6 +233,14 @@ export default function BibleMapsPage() {
               <p className="text-xs text-white/70 uppercase tracking-wider">Bible Books</p>
             </div>
           </div>
+          <div className="mt-6">
+            <Link
+              href="/bible-quizzes"
+              className="inline-flex items-center px-6 py-3 bg-white text-green-800 font-bold rounded-lg hover:bg-green-50 transition-colors shadow-md w-fit"
+            >
+              Test Your Bible Geography — Take a Quiz
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -312,6 +320,15 @@ export default function BibleMapsPage() {
               </p>
             </Link>
           ))}
+        </div>
+        <div className="mt-4 text-center">
+          <p className="text-primary-dark/60 text-sm mb-2">Know these places?</p>
+          <Link
+            href="/bible-quizzes"
+            className="inline-flex items-center px-5 py-2.5 bg-green-700 text-white font-bold rounded-lg hover:bg-green-800 transition-colors"
+          >
+            Take a Bible Geography Quiz
+          </Link>
         </div>
       </section>
 
@@ -424,10 +441,10 @@ export default function BibleMapsPage() {
           </Link>
           <Link
             href="/bible-quizzes"
-            className="bg-white rounded-xl border border-grace p-4 hover:border-green-400 hover:shadow-sm transition-all"
+            className="bg-green-700 rounded-xl border border-green-700 p-4 hover:bg-green-800 hover:shadow-sm transition-all"
           >
-            <span className="font-bold text-scripture">Bible Quizzes</span>
-            <p className="text-sm text-primary-dark/60 mt-1">Test your Bible knowledge</p>
+            <span className="font-bold text-white">Bible Quizzes</span>
+            <p className="text-sm text-green-100 mt-1">Test your Bible geography knowledge</p>
           </Link>
         </div>
       </section>

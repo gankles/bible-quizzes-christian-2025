@@ -63,9 +63,10 @@ function BookCard({ name, slug, chapters, testament }: { name: string; slug: str
         <span className="text-sm text-primary-dark/70">{chapters} {chapters === 1 ? 'chapter' : 'chapters'}</span>
         <span className="text-xs text-primary-dark/50">{author}</span>
       </div>
-      <span className="block text-blue-600 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-opacity">
-        View Chapters &rarr;
-      </span>
+      <div className="flex items-center justify-between mt-2 opacity-0 group-hover:opacity-100 transition-opacity">
+        <span className="text-blue-600 text-sm">View Chapters &rarr;</span>
+        <span className="text-xs text-primary-dark/50">{chapters} quizzes</span>
+      </div>
     </Link>
   );
 }
@@ -209,9 +210,15 @@ export default function BooksOfTheBiblePage() {
               <h1 className="text-3xl md:text-4xl font-display font-bold text-white mb-2">
                 Books of the Bible
               </h1>
-              <p className="text-amber-100 max-w-2xl">
+              <p className="text-amber-100 max-w-2xl mb-4">
                 Complete guide to all 66 books of the Bible. Explore every book from Genesis to Revelation with authors, chapter counts, and categories.
               </p>
+              <Link
+                href="/bible-quizzes"
+                className="inline-flex items-center px-6 py-3 bg-white text-amber-900 font-bold rounded-lg hover:bg-amber-50 transition-colors shadow-md w-fit"
+              >
+                Test Your Bible Knowledge — Take a Quiz
+              </Link>
             </div>
           </div>
 
@@ -306,8 +313,8 @@ export default function BooksOfTheBiblePage() {
             <Link href="/bible-chapter-summaries" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
               <span className="text-blue-600 font-medium text-sm">Bible Chapter Summaries</span>
             </Link>
-            <Link href="/bible-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">Bible Quizzes</span>
+            <Link href="/bible-quizzes" className="flex items-center p-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+              <span className="font-bold text-sm">Test Your Knowledge — Bible Quizzes</span>
             </Link>
             <Link href="/old-testament-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
               <span className="text-blue-600 font-medium text-sm">Old Testament Quizzes</span>

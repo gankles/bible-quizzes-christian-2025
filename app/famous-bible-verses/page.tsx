@@ -463,11 +463,17 @@ export default function FamousBibleVersesPage() {
                   <h1 className="text-3xl md:text-4xl font-display font-bold text-white mb-2">
                     Famous Bible Verses
                   </h1>
-                  <p className="text-amber-100 max-w-2xl">
+                  <p className="text-amber-100 max-w-2xl mb-4">
                     The 50 most well-known, frequently quoted, and beloved scriptures from
                     the King James Bible -- verses that have shaped faith, inspired
                     generations, and proclaimed the gospel across the world.
                   </p>
+                  <Link
+                    href="/bible-quizzes"
+                    className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md w-fit"
+                  >
+                    Can You Identify These Verses? Take a Quiz
+                  </Link>
                 </div>
               </div>
 
@@ -585,6 +591,13 @@ export default function FamousBibleVersesPage() {
                       >
                         {verse.book} Chapters
                       </Link>
+                      <span className="text-primary-dark/30">|</span>
+                      <Link
+                        href={`/${verse.bookSlug}-${verse.chapter}-quiz`}
+                        className="text-blue-600 hover:underline font-semibold"
+                      >
+                        {verse.book} {verse.chapter} Quiz
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -592,6 +605,24 @@ export default function FamousBibleVersesPage() {
             ))}
           </ol>
         </main>
+
+        {/* Mid-Content CTA Banner */}
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-6 md:p-8 text-white">
+            <h2 className="text-xl md:text-2xl font-display font-bold mb-2">
+              Think You Know These Verses? Prove It.
+            </h2>
+            <p className="text-blue-100 mb-4 max-w-2xl">
+              Take a chapter quiz from any book featured on this page. 15 questions per quiz with instant scoring and verse-by-verse explanations.
+            </p>
+            <Link
+              href="/bible-quizzes"
+              className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md"
+            >
+              Take a Quiz Now
+            </Link>
+          </div>
+        </section>
 
         {/* Old Testament vs New Testament Breakdown */}
         <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
@@ -698,9 +729,9 @@ export default function FamousBibleVersesPage() {
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
               <Link
                 href="/bible-quizzes"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 hover:shadow-sm transition-all"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Bible Quizzes</span>
+                <span>Bible Quizzes</span>
               </Link>
               <Link
                 href="/devotionals"

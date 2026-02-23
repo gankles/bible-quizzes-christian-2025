@@ -155,12 +155,18 @@ export default function BibleStudyForBeginnersPage() {
             <h1 className="text-3xl md:text-4xl font-bold font-display mb-4 text-scripture">
               Bible Study for Beginners
             </h1>
-            <p className="text-lg text-primary-dark/70 max-w-3xl mb-6">
+            <p className="text-lg text-primary-dark/70 max-w-3xl mb-4">
               Your complete guide to starting a meaningful Bible reading practice. Whether you are
               a new Christian, returning to faith after years away, or simply curious about what
               the Bible actually says, this guide will walk you through everything you need to know
               to open the Scriptures with confidence and begin a lifelong journey in God&apos;s Word.
             </p>
+            <Link
+              href="/bible-quizzes"
+              className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md w-fit mb-6"
+            >
+              Start Learning — Take Your First Quiz
+            </Link>
             <div className="flex flex-wrap gap-6 text-center mb-6">
               <div>
                 <p className="text-3xl font-bold text-scripture">66</p>
@@ -690,6 +696,22 @@ export default function BibleStudyForBeginnersPage() {
           </div>
         </section>
 
+        {/* Mid-Content CTA */}
+        <section className="mb-12 bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-6 md:p-8 text-white">
+          <h2 className="text-xl md:text-2xl font-display font-bold mb-2">
+            Learn by Doing — Try a Beginner Quiz
+          </h2>
+          <p className="text-blue-100 mb-4 max-w-2xl">
+            The best way to remember what you read is to test yourself. Our easy-level quizzes are designed for beginners with clear, encouraging questions.
+          </p>
+          <Link
+            href="/bible-quiz-difficulty/easy"
+            className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md"
+          >
+            Try an Easy Bible Quiz
+          </Link>
+        </section>
+
         {/* Section 6: Building a Daily Habit */}
         <section id="daily-habit" className="mb-12">
           <h2 className="text-2xl font-bold font-display text-scripture mb-4 border-b border-grace pb-2">
@@ -839,6 +861,30 @@ export default function BibleStudyForBeginnersPage() {
           </p>
         </section>
 
+        {/* Return-visit hook */}
+        <section className="mb-12 bg-white border-2 border-blue-200 rounded-xl p-6 md:p-8">
+          <h2 className="text-xl font-bold font-display text-scripture mb-3">
+            Make Bible Study a Daily Habit
+          </h2>
+          <p className="text-primary-dark/80 leading-relaxed mb-4">
+            Bookmark this page as your reference guide. Come back each day to apply these methods to the next chapter in your reading plan. Track your progress by completing a quiz after each chapter you study.
+          </p>
+          <div className="flex flex-wrap gap-3">
+            <Link
+              href="/reading-plans"
+              className="inline-flex items-center px-5 py-2.5 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              Choose a Reading Plan
+            </Link>
+            <Link
+              href="/bible-quizzes"
+              className="inline-flex items-center px-5 py-2.5 border-2 border-blue-600 text-blue-600 font-bold rounded-lg hover:bg-blue-50 transition-colors"
+            >
+              Start Your First Quiz
+            </Link>
+          </div>
+        </section>
+
       </article>
 
       {/* Internal Links */}
@@ -852,7 +898,7 @@ export default function BibleStudyForBeginnersPage() {
             <Link href="/reading-plans" className="text-blue-600 hover:underline text-sm">
               Bible Reading Plans
             </Link>
-            <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-quizzes" className="bg-blue-600 text-white text-sm font-bold px-3 py-1.5 rounded-lg hover:bg-blue-700 transition-colors">
               Bible Quizzes
             </Link>
             <Link href="/books-of-the-bible" className="text-blue-600 hover:underline text-sm">

@@ -247,6 +247,12 @@ export default function BibleQuizDifficultyLevelPage({ params }: { params: { lev
               <p className="text-white/90 max-w-2xl text-sm md:text-base">
                 {config.heroDescription}
               </p>
+              <Link
+                href="/genesis-1-quiz"
+                className="inline-flex items-center px-6 py-3 bg-white text-green-700 font-bold rounded-lg hover:bg-green-50 transition-colors shadow-md w-fit mt-4"
+              >
+                Start with Genesis Chapter 1
+              </Link>
             </div>
           </div>
 
@@ -271,6 +277,11 @@ export default function BibleQuizDifficultyLevelPage({ params }: { params: { lev
         <div className={`${config.bgColor} border ${config.textColor === 'text-green-700' ? 'border-green-200' : config.textColor === 'text-amber-700' ? 'border-amber-200' : config.textColor === 'text-red-700' ? 'border-red-200' : 'border-purple-200'} rounded-xl p-5 mb-8`}>
           <p className={`font-display font-bold ${config.textColor} mb-1`}>Question Format</p>
           <p className="text-primary-dark/70 text-sm">{config.questionBreakdown}</p>
+        </div>
+
+        {/* Motivational Banner */}
+        <div className="bg-white border-2 border-green-200 rounded-xl p-4 mb-6 text-center">
+          <p className="text-scripture font-display font-bold">Choose any book to begin. Each quiz has 15 questions with instant scoring.</p>
         </div>
 
         {/* Old Testament Books */}

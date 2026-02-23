@@ -154,9 +154,15 @@ export default function NewTestamentBooksPage() {
               <h1 className="text-3xl md:text-4xl font-display font-bold text-white mb-2">
                 Books of the New Testament
               </h1>
-              <p className="text-blue-100 max-w-2xl">
+              <p className="text-blue-100 max-w-2xl mb-4">
                 All 27 books of the New Testament organized by category. From the Gospels of Jesus Christ to the prophecy of Revelation, explore every book with authors, chapter counts, and chapter-by-chapter quizzes.
               </p>
+              <Link
+                href="/new-testament-quizzes"
+                className="inline-flex items-center px-6 py-3 bg-white text-blue-900 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md w-fit"
+              >
+                Take a New Testament Quiz
+              </Link>
             </div>
           </div>
 
@@ -243,8 +249,8 @@ export default function NewTestamentBooksPage() {
             <Link href="/books-of-the-bible/old-testament" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
               <span className="text-blue-600 font-medium text-sm">Old Testament Books</span>
             </Link>
-            <Link href="/new-testament-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">New Testament Quizzes</span>
+            <Link href="/new-testament-quizzes" className="flex items-center p-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+              <span className="font-bold text-sm">Test Your Knowledge — New Testament Quizzes</span>
             </Link>
             <Link href="/bible-chapter-summaries" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
               <span className="text-blue-600 font-medium text-sm">Bible Chapter Summaries</span>

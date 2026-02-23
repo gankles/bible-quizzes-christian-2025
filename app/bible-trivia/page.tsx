@@ -283,11 +283,17 @@ export default function BibleTriviaPage() {
                   <h1 className="text-3xl md:text-4xl font-display font-bold text-white mb-2">
                     Bible Trivia Questions &amp; Answers
                   </h1>
-                  <p className="text-purple-100 max-w-2xl">
+                  <p className="text-purple-100 max-w-2xl mb-4">
                     500+ free Bible trivia questions covering the Old Testament, New
                     Testament, and every book from Genesis to Revelation. Perfect for
                     family game night, Sunday school, small groups, and personal study.
                   </p>
+                  <Link
+                    href="/bible-quizzes"
+                    className="inline-flex items-center px-6 py-3 bg-white text-purple-700 font-bold rounded-lg hover:bg-purple-50 transition-colors shadow-md w-fit"
+                  >
+                    Start Playing Now — Pick a Category
+                  </Link>
                 </div>
               </div>
 
@@ -393,6 +399,17 @@ export default function BibleTriviaPage() {
               </li>
             ))}
           </ol>
+
+          <div className="mt-6 bg-gradient-to-r from-purple-600 to-purple-700 rounded-xl p-6 text-white text-center">
+            <p className="text-lg font-display font-bold mb-2">Got all 10 right? Challenge yourself with a full quiz.</p>
+            <p className="text-purple-100 text-sm mb-4">Choose from 500+ questions across all 66 books of the Bible, with instant scoring and verse references.</p>
+            <Link
+              href="/bible-quizzes"
+              className="inline-flex items-center px-6 py-3 bg-white text-purple-700 font-bold rounded-lg hover:bg-purple-50 transition-colors shadow-md"
+            >
+              Start a Full Bible Quiz
+            </Link>
+          </div>
         </section>
 
         {/* ---------------------------------------------------------------- */}
@@ -516,11 +533,9 @@ export default function BibleTriviaPage() {
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
               <Link
                 href="/bible-quizzes"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 hover:shadow-sm transition-all"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">
-                  Bible Quizzes
-                </span>
+                <span>Bible Quizzes</span>
               </Link>
               <Link
                 href="/old-testament-quizzes"

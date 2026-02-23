@@ -149,6 +149,13 @@ export default function HebrewWordsPage() {
                                 <div className="text-sm text-white/70">OT Books Covered</div>
                             </div>
                         </div>
+
+                        <Link
+                          href="/bible-quiz-difficulty/theological"
+                          className="inline-flex items-center px-6 py-3 bg-white text-amber-900 font-bold rounded-lg hover:bg-amber-50 transition-colors shadow-md w-fit"
+                        >
+                          Test Your Biblical Hebrew Knowledge
+                        </Link>
                     </div>
                 </div>
             </section>
@@ -268,6 +275,24 @@ export default function HebrewWordsPage() {
                 </div>
             </section>
 
+            {/* QUIZ CTA */}
+            <section className="py-12 px-4 sm:px-6 lg:px-8">
+              <div className="max-w-4xl mx-auto bg-gradient-to-r from-amber-700 to-amber-800 rounded-xl p-6 md:p-8 text-white text-center">
+                <h2 className="text-2xl font-bold font-display mb-3">
+                  Test Your Knowledge of Biblical Hebrew
+                </h2>
+                <p className="text-amber-100 mb-6 max-w-2xl mx-auto">
+                  Our theological-level quizzes include questions on Hebrew word studies, original language meanings, and Old Testament vocabulary.
+                </p>
+                <Link
+                  href="/bible-quiz-difficulty/theological"
+                  className="inline-flex items-center px-8 py-4 bg-white text-amber-800 font-bold rounded-lg hover:bg-amber-50 transition-colors shadow-lg text-lg"
+                >
+                  Take a Theological Quiz
+                </Link>
+              </div>
+            </section>
+
             {/* INTERNAL LINKS */}
             <section className="py-16 border-t border-grace">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -276,6 +301,19 @@ export default function HebrewWordsPage() {
                     </h2>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                        <Link
+                            href="/bible-quiz-difficulty/theological"
+                            className="group p-6 rounded-xl bg-amber-700 text-white hover:bg-amber-800 hover:shadow-md transition-all duration-300"
+                        >
+                            <h3 className="text-lg font-bold mb-2">
+                                Test Your Hebrew Knowledge
+                            </h3>
+                            <p className="text-sm text-amber-100 mb-4">Take a theological quiz on Hebrew word studies and Old Testament vocabulary</p>
+                            <div className="flex items-center text-white text-sm font-semibold">
+                                <span>Take Quiz</span>
+                                <ArrowRightIcon className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
+                            </div>
+                        </Link>
                         {[
                             { href: '/lexicon', title: 'Bible Lexicon', desc: 'Full Greek & Hebrew lexicon with 14,000+ entries' },
                             { href: '/greek-words', title: 'Greek Words in the Bible', desc: 'Explore New Testament Greek vocabulary and meanings' },

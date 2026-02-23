@@ -297,6 +297,14 @@ export default async function WhatDoesBibleSayAboutPage({ params }: WhatDoesBibl
                             What Does the Bible Say About {topicName}?
                         </h1>
                         <p className="text-blue-100 mt-3 text-lg">{verseCount} Scripture references with full text and commentary</p>
+                        <div className="mt-4">
+                          <Link
+                            href="/bible-quizzes"
+                            className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md"
+                          >
+                            Test Your Knowledge of {topicName}
+                          </Link>
+                        </div>
                     </div>
                 </header>
 
@@ -406,6 +414,30 @@ export default async function WhatDoesBibleSayAboutPage({ params }: WhatDoesBibl
                     </ul>
                 </section>
 
+                {/* Topic Quiz Challenge */}
+                <section className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-6 md:p-8 text-white mb-8">
+                    <h2 className="text-xl md:text-2xl font-display font-bold mb-2">
+                        How Well Do You Know What the Bible Says About {topicName}?
+                    </h2>
+                    <p className="text-blue-100 mb-4 max-w-2xl">
+                        You have studied {verseCount} verses about {topicName.toLowerCase()}. Now test your knowledge with chapter-by-chapter quizzes covering the books where these verses appear.
+                    </p>
+                    <div className="flex flex-wrap gap-3">
+                        <Link
+                            href="/bible-quizzes"
+                            className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md"
+                        >
+                            Take a Bible Quiz
+                        </Link>
+                        <Link
+                            href="/bible-quiz-difficulty/easy"
+                            className="inline-flex items-center px-6 py-3 bg-blue-500 text-white font-bold rounded-lg hover:bg-blue-400 transition-colors border border-white/30"
+                        >
+                            Start with Easy Level
+                        </Link>
+                    </div>
+                </section>
+
                 {/* FAQ Section (visible on page) */}
                 <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-8">
                     <h2 className="text-xl font-display font-bold text-scripture mb-6">
@@ -481,17 +513,17 @@ export default async function WhatDoesBibleSayAboutPage({ params }: WhatDoesBibl
 
                         <Link
                             href="/bible-quizzes"
-                            className="flex items-start gap-3 p-4 rounded-lg border border-grace/50 hover:border-blue-300 hover:bg-primary-light transition-colors group"
+                            className="flex items-start gap-3 p-4 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-colors group"
                         >
-                            <span className="mt-0.5 text-xs font-semibold uppercase tracking-wider text-primary-dark/40 group-hover:text-blue-500 whitespace-nowrap">
+                            <span className="mt-0.5 text-xs font-semibold uppercase tracking-wider text-white/70 whitespace-nowrap">
                                 Quiz
                             </span>
                             <div className="min-w-0">
-                                <div className="text-sm font-medium text-scripture group-hover:text-blue-600 truncate">
+                                <div className="text-sm font-medium text-white truncate">
                                     Bible Quizzes
                                 </div>
-                                <div className="text-xs text-primary-dark/60 mt-0.5">
-                                    Test your Bible knowledge
+                                <div className="text-xs text-blue-100 mt-0.5">
+                                    Test your knowledge of {topicName}
                                 </div>
                             </div>
                         </Link>

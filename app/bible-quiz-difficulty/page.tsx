@@ -30,6 +30,7 @@ const DIFFICULTY_LEVELS = [
     title: 'Easy Bible Quizzes',
     subtitle: 'Beginner Friendly',
     description: 'Perfect for beginners and children. 70% multiple choice, 20% true/false, 10% fill-in-the-blank. Great for Sunday school, family devotions, and anyone starting their Bible journey.',
+    challenge: 'Most beginners score 12/15 — can you beat the average?',
     color: 'from-green-500 to-green-600',
     textColor: 'text-green-700',
     bgColor: 'bg-green-50',
@@ -41,6 +42,7 @@ const DIFFICULTY_LEVELS = [
     title: 'Medium Bible Quizzes',
     subtitle: 'Intermediate',
     description: 'For regular Bible readers. Deeper questions about application and context. Covers faith, obedience, prayer, evangelism, and Christian living with 80% multiple choice, 15% true/false, 5% fill-in-the-blank.',
+    challenge: 'Only 40% of quiz takers pass on the first try',
     color: 'from-amber-500 to-amber-600',
     textColor: 'text-amber-700',
     bgColor: 'bg-amber-50',
@@ -52,6 +54,7 @@ const DIFFICULTY_LEVELS = [
     title: 'Hard Bible Quizzes',
     subtitle: 'Advanced',
     description: 'Challenge yourself with detailed questions about specific verses, people, and events. 90% multiple choice, 10% true/false. Requires strong familiarity with Scripture passages.',
+    challenge: 'Think you know the Bible? This will test your limits.',
     color: 'from-red-500 to-red-600',
     textColor: 'text-red-700',
     bgColor: 'bg-red-50',
@@ -63,6 +66,7 @@ const DIFFICULTY_LEVELS = [
     title: 'Theological Bible Quizzes',
     subtitle: 'Expert Level',
     description: 'Advanced doctrine, Hebrew/Greek word studies, and cross-reference analysis. 100% multiple choice with in-depth explanations. For seminary students, pastors, and scholars.',
+    challenge: 'For serious students of the Word',
     color: 'from-purple-500 to-purple-600',
     textColor: 'text-purple-700',
     bgColor: 'bg-purple-50',
@@ -151,6 +155,12 @@ export default function BibleQuizDifficultyPage() {
               <p className="text-green-100 max-w-2xl">
                 Choose the right challenge for your Bible knowledge. From beginner-friendly questions to advanced theological analysis, find your level and grow in Scripture.
               </p>
+              <Link
+                href="/bible-quiz-difficulty/easy"
+                className="inline-flex items-center px-6 py-3 bg-white text-green-700 font-bold rounded-lg hover:bg-green-50 transition-colors shadow-md w-fit mt-4"
+              >
+                Start with Easy — Recommended for Beginners
+              </Link>
             </div>
           </div>
 
@@ -187,7 +197,8 @@ export default function BibleQuizDifficultyPage() {
                 </div>
                 <div className="p-5">
                   <p className="text-primary-dark/70 text-sm leading-relaxed mb-3">{d.description}</p>
-                  <div className="flex items-center justify-between">
+                  <p className="text-xs mt-2 opacity-80">{d.challenge}</p>
+                  <div className="flex items-center justify-between mt-3">
                     <span className={`text-xs font-medium ${d.textColor} ${d.bgColor} px-2 py-1 rounded-full`}>
                       {d.audience}
                     </span>
