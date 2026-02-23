@@ -44,16 +44,18 @@ const GROUP_DATE_RANGES: Record<string, [string, string]> = {
   'bible-stories':    ['2025-12-05', '2025-12-15'],
   'nave-topics':      ['2026-01-15', '2026-02-05'],
   'commandments':     ['2026-01-25', '2026-02-10'],
-  'interlinear':      ['2026-02-01', '2026-02-20'],
+  'interlinear':      ['2026-01-15', '2026-02-15'],
   'resource-items':   ['2026-02-05', '2026-02-18'],
   'resources':        ['2026-01-20', '2026-02-05'],
   'devotionals':      ['2026-01-15', '2026-02-10'],
   'reading-plans':    ['2026-01-25', '2026-02-08'],
   'study-guides':     ['2026-01-10', '2026-02-01'],
-  'bible-places':     ['2026-03-01', '2026-03-15'],
-  'verse-places':     ['2026-03-05', '2026-03-20'],
-  'bible-geography':  ['2026-03-01', '2026-03-18'],
-  'geography-quizzes': ['2026-03-10', '2026-03-20'],
+  'bible-places':     ['2026-02-01', '2026-02-20'],
+  'verse-places':     ['2026-02-05', '2026-02-20'],
+  'bible-geography':  ['2026-02-05', '2026-02-20'],
+  'geography-quizzes': ['2026-02-10', '2026-02-20'],
+  'chapter-summaries': ['2026-02-10', '2026-02-23'],
+  'lexicon-concepts': ['2026-02-15', '2026-02-23'],
 };
 
 /** Assign realistic, gradually-spread lastmod dates per content group */
@@ -197,6 +199,9 @@ export function generateAllUrls(): SitemapUrl[] {
     { path: '/what-does-the-bible-say-about/salvation', priority: 0.8, changeFreq: 'monthly' as const },
     { path: '/what-does-the-bible-say-about/grace', priority: 0.8, changeFreq: 'monthly' as const },
     { path: '/what-does-the-bible-say-about/joy', priority: 0.7, changeFreq: 'monthly' as const },
+    { path: '/bible-chapter-summaries', priority: 0.7, changeFreq: 'monthly' as const },
+    { path: '/bible-book-names', priority: 0.5, changeFreq: 'monthly' as const },
+    { path: '/kids-bible-quiz', priority: 0.5, changeFreq: 'monthly' as const },
   ];
 
   staticPages.forEach(page => {
@@ -234,7 +239,7 @@ export function generateAllUrls(): SitemapUrl[] {
   // 7. Lexicon concept pages (/lexicon/concept/{slug})
   const conceptSlugs = getLexiconConceptSlugs();
   conceptSlugs.forEach(slug => {
-    urls.push(makeUrl(`${baseUrl}/lexicon/concept/${slug}`, 'lexicon', 0.6));
+    urls.push(makeUrl(`${baseUrl}/lexicon/concept/${slug}`, 'lexicon-concepts', 0.6));
   });
 
   // 8. Verse study pages (/verses/{book}/{chapter}/{verse})
@@ -502,6 +507,14 @@ export function generateAllUrls(): SitemapUrl[] {
       urls.push(makeUrl(`${baseUrl}/bible-geography-quiz/${book}`, 'geography-quizzes', 0.6));
     });
   } catch {}
+
+  // 34. Bible Chapter Summaries (/bible-chapter-summaries/{book}, /bible-chapter-summaries/{book}/{chapter})
+  BIBLE_BOOKS.forEach(book => {
+    urls.push(makeUrl(`${baseUrl}/bible-chapter-summaries/${book.slug}`, 'chapter-summaries', 0.6));
+    for (let chapter = 1; chapter <= book.chapters; chapter++) {
+      urls.push(makeUrl(`${baseUrl}/bible-chapter-summaries/${book.slug}/${chapter}`, 'chapter-summaries', 0.5));
+    }
+  });
 
   return urls;
 }
