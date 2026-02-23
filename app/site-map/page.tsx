@@ -52,6 +52,21 @@ export default function SitemapPage() {
                 { name: 'Bible Chapter Summaries', href: '/bible-chapter-summaries' },
                 { name: 'Bible Places', href: '/bible-places' },
                 { name: 'Bible Geography', href: '/bible-geography' },
+                { name: 'Bible Maps', href: '/bible-maps' },
+                { name: 'Books of the Bible', href: '/books-of-the-bible' },
+                { name: 'Old Testament Books', href: '/books-of-the-bible/old-testament' },
+                { name: 'New Testament Books', href: '/books-of-the-bible/new-testament' },
+                { name: 'Famous Bible Verses', href: '/famous-bible-verses' },
+                { name: 'How to Study the Bible', href: '/how-to-study-the-bible' },
+                { name: 'Bible Study for Beginners', href: '/bible-study-for-beginners' },
+                { name: 'Bible Trivia', href: '/bible-trivia' },
+                { name: 'Hebrew Words', href: '/hebrew-words' },
+                { name: 'Greek Words', href: '/greek-words' },
+                { name: 'Quiz Difficulty Levels', href: '/bible-quiz-difficulty' },
+                { name: 'Easy Quizzes', href: '/bible-quiz-difficulty/easy' },
+                { name: 'Medium Quizzes', href: '/bible-quiz-difficulty/medium' },
+                { name: 'Hard Quizzes', href: '/bible-quiz-difficulty/hard' },
+                { name: 'Theological Quizzes', href: '/bible-quiz-difficulty/theological' },
                 { name: 'About', href: '/about' },
                 { name: 'Contact', href: '/contact' },
                 { name: 'Privacy Policy', href: '/privacy-policy' },
@@ -125,6 +140,28 @@ export default function SitemapPage() {
                   className="text-blue-600 hover:text-blue-700 text-sm hover:underline"
                 >
                   {book} Summaries
+                </Link>
+              ))}
+            </div>
+          </section>
+
+          {/* What Does the Bible Say About */}
+          <section>
+            <h2 className="text-2xl font-semibold text-scripture mb-4">What Does the Bible Say About...</h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
+              {[
+                'Love', 'Strength', 'Faith', 'Death', 'Healing',
+                'Anxiety', 'Prayer', 'Forgiveness', 'Hope', 'Marriage',
+                'Peace', 'Patience', 'Money', 'Friendship', 'Worry',
+                'Jealousy', 'Fear', 'Anger', 'Gratitude', 'Humility',
+                'Pride', 'Temptation', 'Salvation', 'Grace', 'Joy',
+              ].map(topic => (
+                <Link
+                  key={topic}
+                  href={`/what-does-the-bible-say-about/${topic.toLowerCase()}`}
+                  className="text-blue-600 hover:text-blue-700 text-sm hover:underline"
+                >
+                  {topic}
                 </Link>
               ))}
             </div>
