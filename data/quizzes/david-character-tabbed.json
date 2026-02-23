@@ -1,0 +1,991 @@
+{
+  "id": "david-character-tabbed",
+  "title": "King David Quiz - Multi-Level",
+  "description": "Test your knowledge about King David — the shepherd boy who became Israel's greatest king, a man after God's own heart, psalmist, and ancestor of the Messiah.",
+  "tabs": {
+    "easy": {
+      "id": "david-character-easy",
+      "title": "King David Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of King David in the Bible.",
+      "type": "character",
+      "character": "King David",
+      "questions": [
+        {
+          "id": "david-easy-q1",
+          "question": "Who anointed David as king over Israel?",
+          "type": "multiple-choice",
+          "options": [
+            "Samuel",
+            "Saul",
+            "Nathan",
+            "Goliath"
+          ],
+          "correctAnswer": "Samuel",
+          "explanation": "David was anointed by the prophet Samuel as the future king of Israel, as described in 1 Samuel 16:13.",
+          "verseReference": "1 Samuel 16:13",
+          "difficulty": "easy"
+        },
+        {
+          "id": "david-easy-q2",
+          "question": "What weapon did David use to defeat Goliath?",
+          "type": "multiple-choice",
+          "options": [
+            "Sling and stone",
+            "Sword",
+            "Spear",
+            "Bow and arrow"
+          ],
+          "correctAnswer": "Sling and stone",
+          "explanation": "David defeated Goliath using a sling and a stone, as narrated in 1 Samuel 17:49.",
+          "verseReference": "1 Samuel 17:49",
+          "difficulty": "easy"
+        },
+        {
+          "id": "david-easy-q3",
+          "question": "Who was David's close friend and the son of King Saul?",
+          "type": "multiple-choice",
+          "options": [
+            "Jonathan",
+            "Absalom",
+            "Nathan",
+            "Joab"
+          ],
+          "correctAnswer": "Jonathan",
+          "explanation": "Jonathan, Saul’s son, was David's close friend, as told in 1 Samuel 18:1.",
+          "verseReference": "1 Samuel 18:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "david-easy-q4",
+          "question": "True or False: David fled from Saul because Saul wanted to kill him.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "David fled from King Saul who sought to kill him out of jealousy, as seen in 1 Samuel 19:10.",
+          "verseReference": "1 Samuel 19:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "david-easy-q5",
+          "question": "Where was David anointed king over Judah after Saul's death?",
+          "type": "multiple-choice",
+          "options": [
+            "Hebron",
+            "Jerusalem",
+            "Bethlehem",
+            "Gibeah"
+          ],
+          "correctAnswer": "Hebron",
+          "explanation": "David was anointed king over Judah in Hebron, as recorded in 2 Samuel 2:1-4.",
+          "verseReference": "2 Samuel 2:1-4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "david-easy-q6",
+          "question": "Which city did David conquer and make his capital?",
+          "type": "multiple-choice",
+          "options": [
+            "Jerusalem",
+            "Hebron",
+            "Samaria",
+            "Shechem"
+          ],
+          "correctAnswer": "Jerusalem",
+          "explanation": "David captured Jerusalem and made it his capital city, described in 2 Samuel 5:6-7.",
+          "verseReference": "2 Samuel 5:6-7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "david-easy-q7",
+          "question": "What important religious object did David bring to Jerusalem?",
+          "type": "multiple-choice",
+          "options": [
+            "Ark of the Covenant",
+            "Golden Calf",
+            "Menorah",
+            "Tablets of Stone"
+          ],
+          "correctAnswer": "Ark of the Covenant",
+          "explanation": "David brought the Ark of the Covenant to Jerusalem, as told in 2 Samuel 6:12-15.",
+          "verseReference": "2 Samuel 6:12-15",
+          "difficulty": "easy"
+        },
+        {
+          "id": "david-easy-q8",
+          "question": "Who was Bathsheba's husband before David?",
+          "type": "multiple-choice",
+          "options": [
+            "Uriah",
+            "Joab",
+            "Abner",
+            "Absalom"
+          ],
+          "correctAnswer": "Uriah",
+          "explanation": "Bathsheba was married to Uriah the Hittite before David took her, as stated in 2 Samuel 11:3.",
+          "verseReference": "2 Samuel 11:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "david-easy-q9",
+          "question": "True or False: Absalom was David's son who rebelled against him.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Absalom, David’s son, led a rebellion against him as described in 2 Samuel 15:1-6.",
+          "verseReference": "2 Samuel 15:1-6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "david-easy-q10",
+          "question": "Which book contains many of the songs and prayers written by David?",
+          "type": "multiple-choice",
+          "options": [
+            "Psalms",
+            "Proverbs",
+            "Ecclesiastes",
+            "Song of Songs"
+          ],
+          "correctAnswer": "Psalms",
+          "explanation": "Many psalms are attributed to David, recorded in the Book of Psalms.",
+          "verseReference": "Psalms",
+          "difficulty": "easy"
+        },
+        {
+          "id": "david-easy-q11",
+          "question": "What covenant did God make with David?",
+          "type": "multiple-choice",
+          "options": [
+            "David's throne would be established forever",
+            "David would never face enemies",
+            "David would build the temple",
+            "David's family would be priests"
+          ],
+          "correctAnswer": "David's throne would be established forever",
+          "explanation": "God promised David that his throne and kingdom would endure forever, as recorded in 2 Samuel 7:16.",
+          "verseReference": "2 Samuel 7:16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "david-easy-q12",
+          "question": "Who was the prophet that advised David about building the temple?",
+          "type": "multiple-choice",
+          "options": [
+            "Nathan",
+            "Samuel",
+            "Elijah",
+            "Gad"
+          ],
+          "correctAnswer": "Nathan",
+          "explanation": "The prophet Nathan told David that his son Solomon would build the temple, as in 2 Samuel 7:4-13.",
+          "verseReference": "2 Samuel 7:4-13",
+          "difficulty": "easy"
+        },
+        {
+          "id": "david-easy-q13",
+          "question": "Fill in the blank: David's mighty men were known for their ______.",
+          "type": "fill-blank",
+          "options": [
+            "bravery",
+            "wealth",
+            "wisdom",
+            "prophecy"
+          ],
+          "correctAnswer": "bravery",
+          "explanation": "David's mighty men were renowned for their bravery and heroic exploits, as detailed in 1 Chronicles 11:10-47.",
+          "verseReference": "1 Chronicles 11:10-47",
+          "difficulty": "easy"
+        },
+        {
+          "id": "david-easy-q14",
+          "question": "True or False: David numbered the people of Israel which displeased God.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "David conducted a census of Israel which was considered sinful and displeased God, as described in 2 Samuel 24:1-10.",
+          "verseReference": "2 Samuel 24:1-10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "david-easy-q15",
+          "question": "Why did David flee from Saul according to 1 Samuel 21:10-15?",
+          "type": "multiple-choice",
+          "options": [
+            "Because Saul sought to kill him",
+            "To conquer more lands",
+            "To build the temple",
+            "To visit Jonathan"
+          ],
+          "correctAnswer": "Because Saul sought to kill him",
+          "explanation": "David fled from Saul because Saul wanted to kill him out of jealousy and fear, as seen in 1 Samuel 21:10-15.",
+          "verseReference": "1 Samuel 21:10-15",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "david-quiz",
+      "tags": [
+        "david",
+        "king",
+        "psalms",
+        "old testament",
+        "goliath",
+        "shepherd",
+        "israel",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "david-character-medium",
+      "title": "King David Quiz - Medium Level",
+      "description": "Apply biblical truths from King David's life to real-life situations.",
+      "type": "character",
+      "character": "King David",
+      "questions": [
+        {
+          "id": "david-medium-q1",
+          "question": "A fellow believer is struggling with feeling unworthy of God's calling. Based on King David's anointing by Samuel, what biblical truth would you share about God's choice and calling?",
+          "type": "multiple-choice",
+          "options": [
+            "God looks at the heart, not outward appearance",
+            "God chooses the strongest and most experienced",
+            "God calls only the eldest sons",
+            "God’s calling depends on human merit"
+          ],
+          "correctAnswer": "God looks at the heart, not outward appearance",
+          "explanation": "In 1 Samuel 16:7, Samuel is told that the Lord does not look at the things man looks at but at the heart, teaching us that God’s calling is based on inner qualities, not external factors. This is supported by David's anointing in 1 Samuel 16:13 and echoed in 1 Chronicles 28:9.",
+          "verseReference": "1 Samuel 16:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "david-medium-q2",
+          "question": "How does King David's victory over Goliath teach us about trusting God in difficult challenges?",
+          "type": "multiple-choice",
+          "options": [
+            "Faith in God empowers us to overcome giants",
+            "Relying on weapons guarantees success",
+            "Fighting alone is the path to victory",
+            "Avoid confronting problems"
+          ],
+          "correctAnswer": "Faith in God empowers us to overcome giants",
+          "explanation": "David’s faith in God gave him confidence to face Goliath despite the odds (1 Samuel 17:45-47). This shows that trusting God is key in overcoming obstacles. Similar lessons are found in Psalm 18:29 and 2 Samuel 22:31.",
+          "verseReference": "1 Samuel 17:45-47",
+          "difficulty": "medium"
+        },
+        {
+          "id": "david-medium-q3",
+          "question": "A believer is facing rejection from friends. What can King David’s friendship with Jonathan teach about loyalty and love?",
+          "type": "multiple-choice",
+          "options": [
+            "True friendship is loyal and sacrificial",
+            "Friends must always agree with you",
+            "Friendship depends on shared interests",
+            "Friends should avoid conflict"
+          ],
+          "correctAnswer": "True friendship is loyal and sacrificial",
+          "explanation": "Jonathan’s friendship with David was marked by loyalty and selflessness (1 Samuel 18:1-4; 20:17). Their bond teaches us to love and support friends even in adversity, as shown also in 1 Samuel 23:16-18.",
+          "verseReference": "1 Samuel 18:1-4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "david-medium-q4",
+          "question": "When fleeing from Saul, how does David’s example teach us about patience and trusting God’s timing?",
+          "type": "multiple-choice",
+          "options": [
+            "Wait on God’s timing without taking revenge",
+            "Fight immediately against enemies",
+            "Seek revenge to protect yourself",
+            "Ignore God and act on your own"
+          ],
+          "correctAnswer": "Wait on God’s timing without taking revenge",
+          "explanation": "David repeatedly spared Saul’s life (1 Samuel 24:1-7; 26:8-11), demonstrating patience and trust in God’s justice rather than taking revenge. This attitude is reinforced in Psalm 37:7 and 2 Samuel 12:13.",
+          "verseReference": "1 Samuel 24:1-7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "david-medium-q5",
+          "question": "How does King David’s anointing as king after Saul’s death teach about God’s sovereignty in leadership?",
+          "type": "multiple-choice",
+          "options": [
+            "God establishes leaders according to His plan",
+            "Leaders come only through popular vote",
+            "Leadership is inherited automatically",
+            "Leadership depends on personal ambition"
+          ],
+          "correctAnswer": "God establishes leaders according to His plan",
+          "explanation": "David’s rise to kingship (2 Samuel 2:4; 5:3) shows that God ordains rulers according to His purpose, not merely by human decision. This is confirmed in 1 Chronicles 11:3 and Psalm 78:70.",
+          "verseReference": "2 Samuel 5:3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "david-medium-q6",
+          "question": "What can we learn from David’s conquest of Jerusalem about perseverance and God’s guidance in accomplishing difficult tasks?",
+          "type": "multiple-choice",
+          "options": [
+            "With God’s help, we can achieve what seems impossible",
+            "Success depends on human strength alone",
+            "Avoid challenges to prevent failure",
+            "Only the strongest can succeed"
+          ],
+          "correctAnswer": "With God’s help, we can achieve what seems impossible",
+          "explanation": "David’s capture of Jerusalem (2 Samuel 5:6-10) was a strategic and spiritual victory, showing God’s empowering presence. Psalm 48:1-3 also celebrates Jerusalem’s significance as God’s city.",
+          "verseReference": "2 Samuel 5:6-10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "david-medium-q7",
+          "question": "How does bringing the Ark of the Covenant to Jerusalem illustrate the importance of honoring God in our worship and life?",
+          "type": "multiple-choice",
+          "options": [
+            "Honoring God publicly brings blessing",
+            "Worship should be private only",
+            "Physical objects have no spiritual meaning",
+            "God is pleased only with offerings"
+          ],
+          "correctAnswer": "Honoring God publicly brings blessing",
+          "explanation": "David’s joyful bringing of the Ark to Jerusalem (2 Samuel 6:12-15) exemplifies reverence and celebration of God’s presence, teaching the value of honoring God openly. See also 1 Chronicles 15:25-29 and Psalm 105:1-3.",
+          "verseReference": "2 Samuel 6:12-15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "david-medium-q8",
+          "question": "A believer is dealing with sin and guilt. What does David’s story with Bathsheba and Uriah reveal about repentance and forgiveness?",
+          "type": "multiple-choice",
+          "options": [
+            "Confessing sin leads to God’s forgiveness",
+            "Sin can be ignored without consequences",
+            "Repentance is unnecessary",
+            "Forgiveness depends on human approval"
+          ],
+          "correctAnswer": "Confessing sin leads to God’s forgiveness",
+          "explanation": "David’s sin (2 Samuel 11) and his heartfelt repentance after Nathan’s rebuke (2 Samuel 12:13; Psalm 51) teach that genuine confession restores relationship with God. This is a model of grace and humility.",
+          "verseReference": "Psalm 51:1-4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "david-medium-q9",
+          "question": "How does Absalom’s rebellion against David teach us about forgiveness and reconciliation in family relationships?",
+          "type": "multiple-choice",
+          "options": [
+            "Seek reconciliation despite family conflicts",
+            "Ignore family problems to avoid pain",
+            "Family disputes should be settled by force",
+            "Hold grudges forever"
+          ],
+          "correctAnswer": "Seek reconciliation despite family conflicts",
+          "explanation": "David’s pain over Absalom’s betrayal (2 Samuel 15-18) and his mourning (2 Samuel 18:33) illustrate the challenge and importance of forgiveness and longing for restoration in broken family ties, as encouraged in 1 Chronicles 28:9 and Psalm 103:12.",
+          "verseReference": "2 Samuel 18:33",
+          "difficulty": "medium"
+        },
+        {
+          "id": "david-medium-q10",
+          "question": "What do David’s psalms teach us about prayer and personal devotion during trials?",
+          "type": "multiple-choice",
+          "options": [
+            "Prayer expresses trust and dependence on God",
+            "Prayer is unnecessary in hardship",
+            "Only priests should pray",
+            "God ignores our prayers in pain"
+          ],
+          "correctAnswer": "Prayer expresses trust and dependence on God",
+          "explanation": "David’s psalms (e.g., Psalm 23, 27, 34) model honest, trusting prayer that seeks God’s help and praises Him in difficulty, teaching us spiritual discipline and faith under trial (Psalm 18:6; 2 Samuel 22:7).",
+          "verseReference": "Psalm 23:1-4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "david-medium-q11",
+          "question": "How does God’s covenant with David teach us about God’s faithfulness and the assurance of His promises?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s promises endure forever",
+            "God changes His mind frequently",
+            "Promises depend on human effort",
+            "God’s covenant is temporary"
+          ],
+          "correctAnswer": "God’s promises endure forever",
+          "explanation": "God’s covenant with David (2 Samuel 7:12-16) assures an everlasting dynasty, highlighting God’s faithfulness and sovereign plan. This is confirmed in Psalm 89:3-4 and 1 Chronicles 17:11-14.",
+          "verseReference": "2 Samuel 7:12-16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "david-medium-q12",
+          "question": "What does David’s preparation for the temple teach us about diligent service and stewardship in God’s work?",
+          "type": "multiple-choice",
+          "options": [
+            "Prepare carefully and serve God faithfully",
+            "God’s work requires no effort",
+            "Only priests can serve God",
+            "Stewardship is optional"
+          ],
+          "correctAnswer": "Prepare carefully and serve God faithfully",
+          "explanation": "David’s detailed preparations for Solomon’s temple (1 Chronicles 22:5-16; 28:11-19) show the importance of planning and dedication in serving God’s purposes, encouraging believers to commit to faithful stewardship (Psalm 132:5-7).",
+          "verseReference": "1 Chronicles 22:5-16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "david-medium-q13",
+          "question": "How does the example of David’s mighty men teach us about teamwork and loyalty in accomplishing God’s mission?",
+          "type": "multiple-choice",
+          "options": [
+            "Faithful teamwork strengthens God’s work",
+            "Leaders should work alone",
+            "Loyalty is not important",
+            "Individual success is all that matters"
+          ],
+          "correctAnswer": "Faithful teamwork strengthens God’s work",
+          "explanation": "David’s mighty men (2 Samuel 23:8-39; 1 Chronicles 11:10-47) exemplify loyal support and collaboration in God’s mission, teaching the value of unity and dependable relationships in ministry (Psalm 133:1).",
+          "verseReference": "2 Samuel 23:8-39",
+          "difficulty": "medium"
+        },
+        {
+          "id": "david-medium-q14",
+          "question": "True or False: David’s numbering of Israel was pleasing to God and brought blessing to the nation.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "David’s census (2 Samuel 24:1-10) displeased God, resulting in judgment due to pride and lack of trust, teaching us humility and reliance on God rather than numbers (1 Chronicles 21:1-7; Psalm 51:17).",
+          "verseReference": "2 Samuel 24:1-10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "david-medium-q15",
+          "question": "True or False: David’s psalms frequently express gratitude and contentment in God’s provision despite trials.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Many psalms of David (e.g., Psalms 23, 34, 103) express thankfulness and contentment, teaching believers to trust God’s provision and remain grateful in all circumstances (Psalm 145:7; 2 Samuel 22:50).",
+          "verseReference": "Psalm 34:1-3",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "david-quiz",
+      "tags": [
+        "david",
+        "king",
+        "psalms",
+        "old testament",
+        "goliath",
+        "shepherd",
+        "israel",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "david-character-hard",
+      "title": "King David Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections about King David.",
+      "type": "character",
+      "character": "King David",
+      "questions": [
+        {
+          "id": "david-hard-q1",
+          "question": "Who anointed David as king over Israel, marking his divine selection?",
+          "type": "multiple-choice",
+          "options": [
+            "Samuel",
+            "Nathan",
+            "Gad",
+            "Ahijah"
+          ],
+          "correctAnswer": "Samuel",
+          "explanation": "1 Samuel 16:13 records that Samuel anointed David, indicating God's choice of David as king over Israel.",
+          "verseReference": "1 Samuel 16:13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-hard-q2",
+          "question": "What was David's weapon of choice when he defeated Goliath?",
+          "type": "multiple-choice",
+          "options": [
+            "Sword",
+            "Sling and stone",
+            "Spear",
+            "Bow and arrow"
+          ],
+          "correctAnswer": "Sling and stone",
+          "explanation": "1 Samuel 17:50 shows David killed Goliath with a sling and a stone, highlighting faith and skill over traditional weapons.",
+          "verseReference": "1 Samuel 17:50",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-hard-q3",
+          "question": "David had a covenant of friendship and loyalty with which son of King Saul?",
+          "type": "multiple-choice",
+          "options": [
+            "Jonathan",
+            "Abner",
+            "Ish-bosheth",
+            "Achish"
+          ],
+          "correctAnswer": "Jonathan",
+          "explanation": "1 Samuel 18:1-3 describes the deep friendship and covenant between David and Jonathan, Saul’s son.",
+          "verseReference": "1 Samuel 18:1-3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-hard-q4",
+          "question": "During David's flight from Saul, who protected him at the city of Nob by giving him consecrated bread?",
+          "type": "multiple-choice",
+          "options": [
+            "Ahimelech the priest",
+            "Abiathar the priest",
+            "Zadok the priest",
+            "Eli the priest"
+          ],
+          "correctAnswer": "Ahimelech the priest",
+          "explanation": "1 Samuel 21:1-6 records Ahimelech giving David consecrated bread, an act that later had serious consequences.",
+          "verseReference": "1 Samuel 21:1-6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-hard-q5",
+          "question": "After Saul's death, David was first anointed king over which tribe before becoming king over all Israel?",
+          "type": "multiple-choice",
+          "options": [
+            "Judah",
+            "Benjamin",
+            "Ephraim",
+            "Levi"
+          ],
+          "correctAnswer": "Judah",
+          "explanation": "2 Samuel 2:4 shows David was anointed king over Judah at Hebron before later being king over all Israel.",
+          "verseReference": "2 Samuel 2:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-hard-q6",
+          "question": "Which city did David conquer and establish as his capital, also calling it the City of David?",
+          "type": "multiple-choice",
+          "options": [
+            "Jerusalem",
+            "Hebron",
+            "Bethlehem",
+            "Shechem"
+          ],
+          "correctAnswer": "Jerusalem",
+          "explanation": "2 Samuel 5:6-9 describes David capturing Jerusalem, establishing it as his political and spiritual center.",
+          "verseReference": "2 Samuel 5:6-9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-hard-q7",
+          "question": "David brought the Ark of the Covenant to Jerusalem with great celebration. Who initially carried the Ark on a new cart?",
+          "type": "multiple-choice",
+          "options": [
+            "Uzzah and Ahio",
+            "Eleazar and Phinehas",
+            "Zadok and Abiathar",
+            "Joab and Abishai"
+          ],
+          "correctAnswer": "Uzzah and Ahio",
+          "explanation": "2 Samuel 6:3-4 narrates that Uzzah and Ahio drove the cart carrying the Ark, an event ending tragically when Uzzah touched the Ark.",
+          "verseReference": "2 Samuel 6:3-4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-hard-q8",
+          "question": "What was the name of Uriah's wife whom David committed adultery with, leading to a grave moral failure?",
+          "type": "multiple-choice",
+          "options": [
+            "Bathsheba",
+            "Michal",
+            "Abigail",
+            "Tamar"
+          ],
+          "correctAnswer": "Bathsheba",
+          "explanation": "2 Samuel 11:3-4 introduces Bathsheba as the wife of Uriah, whom David saw bathing and later took as his wife.",
+          "verseReference": "2 Samuel 11:3-4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-hard-q9",
+          "question": "David's son Absalom led a rebellion against him. Which chapter in 2 Samuel describes Absalom’s conspiracy and David’s flight?",
+          "type": "multiple-choice",
+          "options": [
+            "2 Samuel 15",
+            "2 Samuel 13",
+            "2 Samuel 18",
+            "2 Samuel 16"
+          ],
+          "correctAnswer": "2 Samuel 15",
+          "explanation": "2 Samuel 15 details Absalom’s conspiracy, his gaining support, and David fleeing Jerusalem to avoid conflict.",
+          "verseReference": "2 Samuel 15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-hard-q10",
+          "question": "Which Psalm is traditionally understood as David's lament and plea for forgiveness after his sin with Bathsheba?",
+          "type": "multiple-choice",
+          "options": [
+            "Psalm 51",
+            "Psalm 23",
+            "Psalm 27",
+            "Psalm 32"
+          ],
+          "correctAnswer": "Psalm 51",
+          "explanation": "Psalm 51 is attributed to David’s penitential prayer after Nathan confronted him about Bathsheba and Uriah (2 Samuel 12:13).",
+          "verseReference": "Psalm 51",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-hard-q11",
+          "question": "God made a covenant with David promising that his throne would be established forever. Which prophet delivered this covenant?",
+          "type": "multiple-choice",
+          "options": [
+            "Nathan",
+            "Samuel",
+            "Gad",
+            "Elijah"
+          ],
+          "correctAnswer": "Nathan",
+          "explanation": "2 Samuel 7:4-16 records Nathan delivering God's covenant promise regarding David’s enduring dynasty.",
+          "verseReference": "2 Samuel 7:4-16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-hard-q12",
+          "question": "David made preparations for the building of the temple which his son Solomon would construct. What did David primarily provide for this purpose?",
+          "type": "multiple-choice",
+          "options": [
+            "Materials and plans",
+            "Priests and Levites",
+            "The Ark of the Covenant",
+            "Sacrificial animals"
+          ],
+          "correctAnswer": "Materials and plans",
+          "explanation": "1 Chronicles 22:14-16 explains David’s extensive preparations of materials and detailed plans for Solomon's temple.",
+          "verseReference": "1 Chronicles 22:14-16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-hard-q13",
+          "question": "David's mighty men included a group called 'The Three.' Which of these was NOT one of David's mighty men?",
+          "type": "multiple-choice",
+          "options": [
+            "Eleazar",
+            "Abishai",
+            "Benaiah",
+            "Goliath"
+          ],
+          "correctAnswer": "Goliath",
+          "explanation": "1 Chronicles 11:10-47 lists the mighty men; Goliath was David's adversary, not one of his warriors.",
+          "verseReference": "1 Chronicles 11:10-47",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-hard-q14",
+          "question": "David's decision to conduct a census of Israel led to God's judgment. What was the reason for God's displeasure with this action?",
+          "type": "multiple-choice",
+          "options": [
+            "Pride and reliance on military strength",
+            "Lack of priests' approval",
+            "Political instability",
+            "To increase taxation"
+          ],
+          "correctAnswer": "Pride and reliance on military strength",
+          "explanation": "2 Samuel 24:1-14 shows that David’s census was seen as an act of pride and self-reliance rather than trust in God.",
+          "verseReference": "2 Samuel 24:1-14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-hard-q15",
+          "question": "True or False: David was the first king to unite all the tribes of Israel under a single monarchy.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "2 Samuel 5:1-5 describes David’s anointing as king over all Israel, uniting the tribes into one kingdom.",
+          "verseReference": "2 Samuel 5:1-5",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "david-quiz",
+      "tags": [
+        "david",
+        "king",
+        "psalms",
+        "old testament",
+        "goliath",
+        "shepherd",
+        "israel",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "david-character-theological",
+      "title": "King David Quiz - Theological Level",
+      "description": "Deep biblical theology exploring King David's significance in God's redemptive plan.",
+      "type": "character",
+      "character": "King David",
+      "questions": [
+        {
+          "id": "david-theological-q1",
+          "question": "In 1 Samuel 16, what was the primary reason Samuel anointed David as king over Israel?",
+          "type": "multiple-choice",
+          "options": [
+            "Because he was the youngest son and God looks at the heart",
+            "Because he was the tallest and strongest among his brothers",
+            "Because he was the eldest son",
+            "Because he was already a seasoned warrior"
+          ],
+          "correctAnswer": "Because he was the youngest son and God looks at the heart",
+          "explanation": "1 Samuel 16:7 explains that God told Samuel not to consider appearance or height but the heart, which God examines. This teaches that God's choice is based on inner qualities, not outward status. This theme is echoed in 1 Samuel 16:1-13, Psalm 78:70-72, Acts 13:22 (Jesus as the son of David), and Hebrews 11:32, illustrating God's sovereign election and the typology of David as a man after God's own heart.",
+          "verseReference": "1 Samuel 16:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-theological-q2",
+          "question": "How did David demonstrate his faith in God when facing Goliath in 1 Samuel 17?",
+          "type": "multiple-choice",
+          "options": [
+            "He refused Saul's armor and trusted God to deliver him",
+            "He built a large army to fight Goliath",
+            "He used a sword and shield like other soldiers",
+            "He requested a formal duel before the armies"
+          ],
+          "correctAnswer": "He refused Saul's armor and trusted God to deliver him",
+          "explanation": "1 Samuel 17:38-40 shows David rejecting Saul's armor, relying on God's help instead. This demonstrates trust in God's power rather than human strength. The New Testament reflects this trust typologically in Hebrews 11:32-34 and illustrates Christ's victory over sin and death, fulfilling the Messianic expectation rooted in David's faith.",
+          "verseReference": "1 Samuel 17:38-40",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-theological-q3",
+          "question": "What significant covenant did God establish with David in 2 Samuel 7, and what is its theological importance?",
+          "type": "multiple-choice",
+          "options": [
+            "God promised David an eternal kingdom through his descendants",
+            "God promised David victory over all his enemies only during his lifetime",
+            "God promised David that he would never face any trials",
+            "God promised David wealth and land but no lasting dynasty"
+          ],
+          "correctAnswer": "God promised David an eternal kingdom through his descendants",
+          "explanation": "2 Samuel 7:12-16 records God's covenant promising David an everlasting dynasty, which is foundational for Messianic hope fulfilled in Christ (Luke 1:32-33). This covenant reveals God's faithfulness and sovereignty, showing that salvation history culminates in the eternal reign of the Son of David, Jesus Christ. Psalm 89:3-4 and Acts 13:22-23 also affirm this covenant.",
+          "verseReference": "2 Samuel 7:12-16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-theological-q4",
+          "question": "In 1 Samuel 20, what does David's friendship with Jonathan reveal about covenant relationships under God's design?",
+          "type": "multiple-choice",
+          "options": [
+            "It exemplifies loyal, self-sacrificial love and mutual protection",
+            "It was primarily a political alliance for power",
+            "It was based on shared wealth and status",
+            "It was a superficial friendship without deep commitment"
+          ],
+          "correctAnswer": "It exemplifies loyal, self-sacrificial love and mutual protection",
+          "explanation": "1 Samuel 20:17 highlights Jonathan's covenant loyalty to David, showing godly friendship marked by love and faithfulness, reflecting God's covenant love for His people (John 15:13, Proverbs 17:17). This relationship prefigures Christ's self-giving love and teaches the theological virtue of steadfastness in trials (Romans 12:10).",
+          "verseReference": "1 Samuel 20:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-theological-q5",
+          "question": "During David's flight from Saul (1 Samuel 21-27), how does the narrative illustrate God's providence despite human sin and failure?",
+          "type": "multiple-choice",
+          "options": [
+            "God protects David despite his mistakes, preserving the messianic line",
+            "David's successes are entirely due to his own cunning",
+            "God abandons David during his exile",
+            "David gains power through alliances without God's involvement"
+          ],
+          "correctAnswer": "God protects David despite his mistakes, preserving the messianic line",
+          "explanation": "Passages like 1 Samuel 24 show David sparing Saul, trusting God's timing. Despite David's flaws and sins, God's providence preserves him as the messianic king (Psalm 37:23-24). This highlights divine sovereignty, grace, and the unfolding of salvation history (Romans 8:28, Psalm 89:30-37).",
+          "verseReference": "1 Samuel 24:1-7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-theological-q6",
+          "question": "What theological significance does David's conquest and establishment of Jerusalem as the capital city have in 2 Samuel 5?",
+          "type": "multiple-choice",
+          "options": [
+            "Jerusalem becomes the political and spiritual center, foreshadowing God's kingdom",
+            "It was merely a military strategy without spiritual meaning",
+            "Jerusalem was chosen because it was the largest city",
+            "David avoided Jerusalem to prevent conflict"
+          ],
+          "correctAnswer": "Jerusalem becomes the political and spiritual center, foreshadowing God's kingdom",
+          "explanation": "2 Samuel 5:6-10 depicts David capturing Jerusalem, uniting Israel under his kingship. Jerusalem's central role prefigures the Messianic Kingdom (Psalm 48), the dwelling place of God's presence (Ark of the Covenant), and ultimately the New Jerusalem in Revelation 21, emphasizing God's covenant faithfulness and kingdom rule.",
+          "verseReference": "2 Samuel 5:6-10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-theological-q7",
+          "question": "What does the moving of the Ark of the Covenant to Jerusalem under David's leadership symbolize in 2 Samuel 6?",
+          "type": "multiple-choice",
+          "options": [
+            "God's presence dwelling with His people and the establishment of covenant worship",
+            "A political tactic to intimidate enemies",
+            "A mere ceremonial tradition with no spiritual effect",
+            "David's attempt to replace the temple worship"
+          ],
+          "correctAnswer": "God's presence dwelling with His people and the establishment of covenant worship",
+          "explanation": "2 Samuel 6 shows David bringing the Ark to Jerusalem, symbolizing God's presence among His people and covenant renewal. This event anticipates the temple worship and the incarnation of Christ as Immanuel (God with us), underscoring God's desire to dwell with His people (Exodus 25:8, Psalm 132:13-14, John 1:14).",
+          "verseReference": "2 Samuel 6:12-23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-theological-q8",
+          "question": "According to 2 Samuel 11-12, what is the theological lesson from David's sin with Bathsheba and the subsequent confrontation by Nathan?",
+          "type": "multiple-choice",
+          "options": [
+            "Sin has consequences, but God’s mercy and repentance restore the sinner",
+            "David's sin was overlooked because of his status",
+            "God punishes sin without opportunity for repentance",
+            "David was unaware his actions were sinful"
+          ],
+          "correctAnswer": "Sin has consequences, but God’s mercy and repentance restore the sinner",
+          "explanation": "Nathan's rebuke in 2 Samuel 12 teaches about divine justice and mercy. David's repentance (Psalm 51) models confession and forgiveness, revealing God's grace despite human sinfulness. This theme is consistent in Romans 3:23-24, 2 Corinthians 7:10, and Psalm 32:5, illustrating the path to restoration through Christ.",
+          "verseReference": "2 Samuel 12:1-14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-theological-q9",
+          "question": "What doctrinal truth is highlighted by Absalom's rebellion against David in 2 Samuel 15-18?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s sovereign rule endures despite human rebellion and suffering",
+            "God abandons His people when leaders fail",
+            "Rebellion always results in immediate divine punishment",
+            "Human authority is absolute without divine oversight"
+          ],
+          "correctAnswer": "God’s sovereign rule endures despite human rebellion and suffering",
+          "explanation": "Absalom's rebellion illustrates that God's providence upholds David's throne despite trials (2 Samuel 15:25-26). This affirms God's sovereignty over history and the perseverance of His covenant promises (Psalm 3:7-8, Romans 8:28, Isaiah 55:8-9), shaping the understanding of suffering and divine governance.",
+          "verseReference": "2 Samuel 15:25-26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-theological-q10",
+          "question": "How do the psalms attributed to David contribute to Christian doctrinal understanding of God’s attributes?",
+          "type": "multiple-choice",
+          "options": [
+            "They reveal God's holiness, mercy, justice, and faithfulness",
+            "They only focus on historical events without theological themes",
+            "They deny God's involvement in human affairs",
+            "They promote self-reliance over trust in God"
+          ],
+          "correctAnswer": "They reveal God's holiness, mercy, justice, and faithfulness",
+          "explanation": "David’s psalms, such as Psalm 23 and Psalm 51, richly portray God’s character—His holiness, mercy, justice, and covenant faithfulness. These themes inform Christian worship and theology (Hebrews 1:3, Lamentations 3:22-23, Romans 15:13), showing God’s relational nature and redemptive plan.",
+          "verseReference": "Psalm 23:1-6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-theological-q11",
+          "question": "What was the significance of David's preparation for the temple as described in 1 Chronicles 22?",
+          "type": "multiple-choice",
+          "options": [
+            "David gathered materials and planned the temple, signaling God's enduring worship",
+            "David built the temple himself without divine guidance",
+            "David opposed the temple construction entirely",
+            "David neglected worship in favor of military conquests"
+          ],
+          "correctAnswer": "David gathered materials and planned the temple, signaling God's enduring worship",
+          "explanation": "1 Chronicles 22 shows David’s preparations for the temple, indicating the importance of worship and God’s presence among His people. Though Solomon built the temple, David’s role underscores God’s covenant and the anticipation of Christ's eternal priesthood and sanctuary (Hebrews 9:11-15).",
+          "verseReference": "1 Chronicles 22:5-16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-theological-q12",
+          "question": "Who were the 'mighty men' of David described in 2 Samuel 23, and what theological role do they represent?",
+          "type": "multiple-choice",
+          "options": [
+            "They were David’s elite warriors symbolizing God’s strength working through human agents",
+            "They were corrupt officials opposing David",
+            "They were foreign mercenaries hired for battle",
+            "They were religious leaders without military roles"
+          ],
+          "correctAnswer": "They were David’s elite warriors symbolizing God’s strength working through human agents",
+          "explanation": "2 Samuel 23 lists David’s mighty men, illustrating how God empowers His people for His purposes. This typifies Christ as the ultimate warrior and protector (Ephesians 6:10-18), demonstrating divine-human cooperation in spiritual warfare and kingdom advancement.",
+          "verseReference": "2 Samuel 23:8-39",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-theological-q13",
+          "question": "What was the theological significance of David ordering the census of Israel in 2 Samuel 24, and what does it teach about human sin and divine judgment?",
+          "type": "multiple-choice",
+          "options": [
+            "It reveals human pride and reliance on numbers instead of God's power, leading to judgment",
+            "It was an act of obedience to God's command",
+            "It brought immediate blessing and prosperity",
+            "It was a neutral administrative task without moral implications"
+          ],
+          "correctAnswer": "It reveals human pride and reliance on numbers instead of God's power, leading to judgment",
+          "explanation": "2 Samuel 24 shows David’s census as an expression of pride and distrust in God, resulting in divine punishment. This event illustrates biblical warnings against self-reliance (Psalm 20:7, Jeremiah 17:5-8) and the necessity of repentance (2 Chronicles 7:14, Jonah 3:10).",
+          "verseReference": "2 Samuel 24:1-17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-theological-q14",
+          "question": "How does the account of David's anointing and kingship in 1 Chronicles 11 emphasize God's sovereign election and kingdom theology?",
+          "type": "multiple-choice",
+          "options": [
+            "It stresses that God establishes kingship according to His plan, not human choice",
+            "It presents David's kingship as a result of military coup",
+            "It ignores God's role in David becoming king",
+            "It shows that David seized power without divine sanction"
+          ],
+          "correctAnswer": "It stresses that God establishes kingship according to His plan, not human choice",
+          "explanation": "1 Chronicles 11:1-3 highlights how leaders anointed David, acknowledging God’s sovereignty. This affirms the divine origin of kingship and foreshadows Christ’s eternal kingship (Psalm 2, Isaiah 9:6-7). It teaches that human authority is subordinate to God’s redemptive purposes.",
+          "verseReference": "1 Chronicles 11:1-3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "david-theological-q15",
+          "question": "What is the Christological significance of David’s psalms, especially those expressing his suffering and hope, such as Psalm 22?",
+          "type": "multiple-choice",
+          "options": [
+            "They prophetically foreshadow the Messiah’s suffering and resurrection",
+            "They only describe David's personal experiences with no Messianic meaning",
+            "They reject the idea of a suffering servant",
+            "They focus solely on Israel's political power"
+          ],
+          "correctAnswer": "They prophetically foreshadow the Messiah’s suffering and resurrection",
+          "explanation": "Psalm 22, attributed to David, vividly describes suffering that Christians see fulfilled in Christ's passion (Matthew 27:46, Mark 15:34). This typology underscores the Messianic hope rooted in David’s life and writings, linking Old Testament kingship with New Testament salvation (Acts 2:25-31, Hebrews 2:12).",
+          "verseReference": "Psalm 22:1-31",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "david-quiz",
+      "tags": [
+        "david",
+        "king",
+        "psalms",
+        "old testament",
+        "goliath",
+        "shepherd",
+        "israel",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

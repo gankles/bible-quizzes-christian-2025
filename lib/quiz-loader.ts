@@ -277,4 +277,17 @@ export function getAllGenericQuizSlugs(): string[] {
   return slugs;
 }
 
+/**
+ * Load a character-based tabbed quiz (e.g., jesus-character-tabbed.json)
+ */
+export function loadCharacterTabbedQuiz(characterSlug: string): TabbedQuiz | null {
+  const filePath = path.join(QUIZZES_DIR, `${characterSlug}-character-tabbed.json`);
+  try {
+    if (!fs.existsSync(filePath)) return null;
+    return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+  } catch {
+    return null;
+  }
+}
+
 export { BOOK_SLUGS };

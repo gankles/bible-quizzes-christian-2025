@@ -14,8 +14,12 @@ const footerSections = [
       { name: 'Revelation Quiz', href: '/revelation-chapters' },
       { name: 'Old Testament Quizzes', href: '/old-testament-quizzes' },
       { name: 'New Testament Quizzes', href: '/new-testament-quizzes' },
+      { name: 'Jesus Quiz', href: '/jesus-quiz' },
+      { name: 'Moses Quiz', href: '/moses-quiz' },
+      { name: 'David Quiz', href: '/david-quiz' },
+      { name: 'Paul Quiz', href: '/paul-quiz' },
       { name: 'Bible Trivia', href: '/bible-trivia' },
-      { name: 'Quiz Difficulty Levels', href: '/bible-quiz-difficulty' },
+      { name: 'Quiz Categories', href: '/bible-quiz-categories' },
       { name: 'All Quizzes', href: '/bible-quizzes' },
       { name: 'How It Works', href: '/how-bible-quiz-works' }
     ]

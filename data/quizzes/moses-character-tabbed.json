@@ -1,0 +1,993 @@
+{
+  "id": "moses-character-tabbed",
+  "title": "Moses Quiz - Multi-Level",
+  "description": "Test your knowledge about the life of Moses — from his birth in Egypt to leading Israel through the wilderness, receiving the Law at Sinai, and the journey to the Promised Land.",
+  "tabs": {
+    "easy": {
+      "id": "moses-character-easy",
+      "title": "Moses Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Moses in the Bible.",
+      "type": "character",
+      "character": "Moses",
+      "questions": [
+        {
+          "id": "moses-easy-q1",
+          "question": "Who found baby Moses in the Nile River?",
+          "type": "multiple-choice",
+          "options": [
+            "Pharaoh's daughter",
+            "Miriam",
+            "Jochebed",
+            "Zipporah"
+          ],
+          "correctAnswer": "Pharaoh's daughter",
+          "explanation": "Pharaoh's daughter found Moses in the Nile and adopted him, as recorded in Exodus 2:5-6.",
+          "verseReference": "Exodus 2:5-6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "moses-easy-q2",
+          "question": "What miraculous sign did God show Moses at the burning bush?",
+          "type": "multiple-choice",
+          "options": [
+            "The bush was not consumed by fire",
+            "Water turned into blood",
+            "The ground shook",
+            "A pillar of cloud appeared"
+          ],
+          "correctAnswer": "The bush was not consumed by fire",
+          "explanation": "God appeared to Moses in a bush that burned but was not consumed, as described in Exodus 3:2.",
+          "verseReference": "Exodus 3:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "moses-easy-q3",
+          "question": "What was the first plague that God sent upon Egypt?",
+          "type": "multiple-choice",
+          "options": [
+            "Water turned to blood",
+            "Frogs",
+            "Locusts",
+            "Darkness"
+          ],
+          "correctAnswer": "Water turned to blood",
+          "explanation": "The first plague was turning the Nile's water into blood, making it undrinkable, as told in Exodus 7:20.",
+          "verseReference": "Exodus 7:20",
+          "difficulty": "easy"
+        },
+        {
+          "id": "moses-easy-q4",
+          "question": "What feast did God institute to remember the night the Israelites were spared from the final plague?",
+          "type": "multiple-choice",
+          "options": [
+            "Passover",
+            "Feast of Tabernacles",
+            "Pentecost",
+            "Feast of Weeks"
+          ],
+          "correctAnswer": "Passover",
+          "explanation": "God commanded the Passover to commemorate the night of the final plague when Israelite homes were spared, as in Exodus 12:14.",
+          "verseReference": "Exodus 12:14",
+          "difficulty": "easy"
+        },
+        {
+          "id": "moses-easy-q5",
+          "question": "How did the Israelites cross the Red Sea?",
+          "type": "multiple-choice",
+          "options": [
+            "God parted the waters allowing them to walk on dry ground",
+            "They built rafts",
+            "They swam across",
+            "Moses led them through a desert path"
+          ],
+          "correctAnswer": "God parted the waters allowing them to walk on dry ground",
+          "explanation": "God parted the Red Sea so the Israelites could cross on dry ground, as narrated in Exodus 14:21-22.",
+          "verseReference": "Exodus 14:21-22",
+          "difficulty": "easy"
+        },
+        {
+          "id": "moses-easy-q6",
+          "question": "Where did Moses receive the Ten Commandments?",
+          "type": "multiple-choice",
+          "options": [
+            "Mount Sinai",
+            "Mount Carmel",
+            "Mount Nebo",
+            "Mount Zion"
+          ],
+          "correctAnswer": "Mount Sinai",
+          "explanation": "Moses received the Ten Commandments from God on Mount Sinai, according to Exodus 19:20.",
+          "verseReference": "Exodus 19:20",
+          "difficulty": "easy"
+        },
+        {
+          "id": "moses-easy-q7",
+          "question": "What sin did the Israelites commit that involved a golden calf?",
+          "type": "multiple-choice",
+          "options": [
+            "Idolatry",
+            "Murder",
+            "Stealing",
+            "Blasphemy"
+          ],
+          "correctAnswer": "Idolatry",
+          "explanation": "The Israelites made and worshiped a golden calf, committing idolatry, as described in Exodus 32:4.",
+          "verseReference": "Exodus 32:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "moses-easy-q8",
+          "question": "What was the purpose of the tabernacle built by the Israelites?",
+          "type": "multiple-choice",
+          "options": [
+            "To serve as a portable place of worship",
+            "To store grain",
+            "To house the king",
+            "To be a prison"
+          ],
+          "correctAnswer": "To serve as a portable place of worship",
+          "explanation": "The tabernacle was a movable sanctuary for God's presence, as explained in Exodus 26:1.",
+          "verseReference": "Exodus 26:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "moses-easy-q9",
+          "question": "Which leader led a rebellion against Moses during the wilderness wanderings?",
+          "type": "multiple-choice",
+          "options": [
+            "Korah",
+            "Aaron",
+            "Joshua",
+            "Caleb"
+          ],
+          "correctAnswer": "Korah",
+          "explanation": "Korah led a rebellion against Moses and Aaron, as recorded in Numbers 16:1-3.",
+          "verseReference": "Numbers 16:1-3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "moses-easy-q10",
+          "question": "What happened when Moses struck the rock at Meribah instead of speaking to it as God commanded?",
+          "type": "multiple-choice",
+          "options": [
+            "Water came out, but Moses was punished",
+            "No water came out",
+            "The rock split in two",
+            "The Israelites refused to drink"
+          ],
+          "correctAnswer": "Water came out, but Moses was punished",
+          "explanation": "Moses struck the rock and water flowed, but God punished him by forbidding entry into the Promised Land, as in Numbers 20:11-12.",
+          "verseReference": "Numbers 20:11-12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "moses-easy-q11",
+          "question": "Where did Moses die before entering the Promised Land?",
+          "type": "multiple-choice",
+          "options": [
+            "Mount Nebo",
+            "Mount Sinai",
+            "Mount Carmel",
+            "Mount Ararat"
+          ],
+          "correctAnswer": "Mount Nebo",
+          "explanation": "Moses died on Mount Nebo after viewing the Promised Land, as stated in Deuteronomy 34:5-6.",
+          "verseReference": "Deuteronomy 34:5-6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "moses-easy-q12",
+          "question": "What food did God provide to the Israelites daily in the wilderness?",
+          "type": "multiple-choice",
+          "options": [
+            "Manna",
+            "Quail",
+            "Bread",
+            "Fish"
+          ],
+          "correctAnswer": "Manna",
+          "explanation": "God provided manna from heaven to feed the Israelites, as recorded in Exodus 16:15.",
+          "verseReference": "Exodus 16:15",
+          "difficulty": "easy"
+        },
+        {
+          "id": "moses-easy-q13",
+          "question": "What was the purpose of the bronze serpent Moses made in the wilderness?",
+          "type": "multiple-choice",
+          "options": [
+            "To heal those bitten by snakes",
+            "To worship as an idol",
+            "To use as a weapon",
+            "To mark a boundary"
+          ],
+          "correctAnswer": "To heal those bitten by snakes",
+          "explanation": "God instructed Moses to make a bronze serpent to heal those bitten by venomous snakes, as told in Numbers 21:8-9.",
+          "verseReference": "Numbers 21:8-9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "moses-easy-q14",
+          "question": "Moses was adopted by Pharaoh's daughter because she found him in a basket on the Nile.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Pharaoh's daughter found Moses in a basket floating on the Nile and adopted him, as described in Exodus 2:3-10.",
+          "verseReference": "Exodus 2:3-10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "moses-easy-q15",
+          "question": "Moses was allowed to enter the Promised Land before he died.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "God did not allow Moses to enter the Promised Land because of his disobedience, as stated in Deuteronomy 34:4-5.",
+          "verseReference": "Deuteronomy 34:4-5",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "moses-quiz",
+      "tags": [
+        "moses",
+        "exodus",
+        "law",
+        "ten commandments",
+        "old testament",
+        "prophet",
+        "wilderness",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "moses-character-medium",
+      "title": "Moses Quiz - Medium Level",
+      "description": "Apply biblical truths from Moses's life to real-life situations.",
+      "type": "character",
+      "character": "Moses",
+      "questions": [
+        {
+          "id": "moses-medium-q1",
+          "question": "A fellow believer is struggling with trusting God's calling in difficult circumstances. Based on Moses's encounter at the burning bush, what biblical truth would you share about faith and obedience?",
+          "type": "multiple-choice",
+          "options": [
+            "God equips and sends us despite our fears",
+            "We must always wait for perfect conditions before acting",
+            "Human strength alone ensures success",
+            "Doubt disqualifies us from God's plan"
+          ],
+          "correctAnswer": "God equips and sends us despite our fears",
+          "explanation": "Exodus 3:2-12 shows God calling Moses from the burning bush, assuring him of divine presence and empowerment despite his doubts. Hebrews 11:27 emphasizes Moses' faith in God's calling even when the path was uncertain.",
+          "verseReference": "Exodus 3:2-12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "moses-medium-q2",
+          "question": "How does Moses's example teach us about perseverance through trials during the ten plagues in Egypt?",
+          "type": "multiple-choice",
+          "options": [
+            "Trusting God’s timing leads to deliverance",
+            "Giving up when things get hard is wise",
+            "Using our own power is best",
+            "Ignoring God's commands ensures safety"
+          ],
+          "correctAnswer": "Trusting God’s timing leads to deliverance",
+          "explanation": "Exodus 7-12 records the ten plagues where Moses obeyed God's instructions despite Pharaoh’s resistance. Trusting God's timing and power led to Israel’s deliverance, teaching patience and faith in trials (Exodus 7:5, 11:9, 12:29).",
+          "verseReference": "Exodus 7:5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "moses-medium-q3",
+          "question": "When teaching about humility and contentment, how can Moses’s life during the wilderness wanderings guide us?",
+          "type": "multiple-choice",
+          "options": [
+            "Depend on God daily for provision",
+            "Strive for independence from God",
+            "Demand instant results",
+            "Ignore God's guidance"
+          ],
+          "correctAnswer": "Depend on God daily for provision",
+          "explanation": "Exodus 16 describes manna from heaven to teach Israel daily reliance on God. Numbers 11:7-9 shows God’s provision despite complaints, highlighting humility and contentment through trust.",
+          "verseReference": "Exodus 16:4-5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "moses-medium-q4",
+          "question": "A believer is facing temptation and doubts God's provision. What lesson from Moses striking the rock can you share about obedience and trust?",
+          "type": "multiple-choice",
+          "options": [
+            "Obedience must be exact to honor God",
+            "God allows disobedience without consequence",
+            "Our actions don’t affect God’s plan",
+            "Striking the rock was a good solution"
+          ],
+          "correctAnswer": "Obedience must be exact to honor God",
+          "explanation": "Numbers 20:7-12 shows Moses disobeying by striking the rock instead of speaking to it as God commanded, resulting in consequences. This teaches the importance of precise obedience and trust.",
+          "verseReference": "Numbers 20:11-12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "moses-medium-q5",
+          "question": "How does Moses’s mediation between God and Israel during the golden calf incident teach us about forgiveness and intercession?",
+          "type": "multiple-choice",
+          "options": [
+            "We should intercede for others seeking God's mercy",
+            "Punishment is the only response to sin",
+            "Ignoring sin leads to peace",
+            "Selfishness protects us from others' failures"
+          ],
+          "correctAnswer": "We should intercede for others seeking God's mercy",
+          "explanation": "Exodus 32:11-14 and 30-32 show Moses pleading with God to forgive Israel after their idolatry, demonstrating intercession and seeking reconciliation.",
+          "verseReference": "Exodus 32:11-14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "moses-medium-q6",
+          "question": "What can Moses’s experience receiving the Ten Commandments on Mount Sinai teach us about the importance of God’s law in personal holiness?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s commandments guide us to live righteously",
+            "Laws are optional for spiritual growth",
+            "Ignoring God’s law brings blessings",
+            "Human wisdom surpasses God’s instructions"
+          ],
+          "correctAnswer": "God’s commandments guide us to live righteously",
+          "explanation": "Exodus 20 records the Ten Commandments given to Moses, establishing God’s moral standards for Israel’s holiness and obedience (Deuteronomy 5:1-22, Hebrews 8:10).",
+          "verseReference": "Exodus 20:1-17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "moses-medium-q7",
+          "question": "A believer struggles with jealousy and rebellion in their community. How does the story of Korah’s rebellion teach about humility and submission to God’s authority?",
+          "type": "multiple-choice",
+          "options": [
+            "Rebellion against God’s appointed leaders leads to judgment",
+            "Jealousy is harmless in spiritual matters",
+            "We should always challenge authority",
+            "God ignores prideful rebellion"
+          ],
+          "correctAnswer": "Rebellion against God’s appointed leaders leads to judgment",
+          "explanation": "Numbers 16 describes Korah’s rebellion against Moses and Aaron, resulting in God's judgment. It highlights the need for humility and submission to God’s authority (Numbers 16:26-35, Hebrews 13:17).",
+          "verseReference": "Numbers 16:26-35",
+          "difficulty": "medium"
+        },
+        {
+          "id": "moses-medium-q8",
+          "question": "How does Moses’s life encourage believers to be faithful witnesses, especially based on Stephen’s speech in Acts 7?",
+          "type": "multiple-choice",
+          "options": [
+            "Faithfulness to God’s calling even in opposition",
+            "Avoid witnessing to protect yourself",
+            "Compromise truth to please others",
+            "Silence is preferable to sharing faith"
+          ],
+          "correctAnswer": "Faithfulness to God’s calling even in opposition",
+          "explanation": "Acts 7:20-44 recounts Moses’s faithfulness to God’s mission despite challenges, serving as an example of courage and witness for believers today (Hebrews 11:24-27).",
+          "verseReference": "Acts 7:20-44",
+          "difficulty": "medium"
+        },
+        {
+          "id": "moses-medium-q9",
+          "question": "Based on Moses’s death on Mount Nebo, what biblical truth can we share about accepting God’s sovereign plan and legacy?",
+          "type": "multiple-choice",
+          "options": [
+            "Trust God's plan even when it differs from our desires",
+            "Rebellion guarantees blessings",
+            "We control our final destiny",
+            "Legacy depends only on personal effort"
+          ],
+          "correctAnswer": "Trust God's plan even when it differs from our desires",
+          "explanation": "Deuteronomy 34:1-5 shows Moses viewing the Promised Land before dying as God planned, teaching acceptance of God’s sovereignty and faithfulness to His promises.",
+          "verseReference": "Deuteronomy 34:1-5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "moses-medium-q10",
+          "question": "How does Moses’s role in the construction of the tabernacle teach us about serving others with integrity and devotion?",
+          "type": "multiple-choice",
+          "options": [
+            "Diligent obedience to God’s instructions honors Him",
+            "Careless work pleases God",
+            "Serving others is unimportant",
+            "Personal gain should be the main goal"
+          ],
+          "correctAnswer": "Diligent obedience to God’s instructions honors Him",
+          "explanation": "Exodus 25-31 and 35-40 describe Moses overseeing the tabernacle's building exactly as God commanded, showing devotion and integrity in service (Exodus 40:16-33).",
+          "verseReference": "Exodus 40:16-33",
+          "difficulty": "medium"
+        },
+        {
+          "id": "moses-medium-q11",
+          "question": "True or False: Moses’s birth and adoption by Pharaoh’s daughter demonstrate God’s providential care and preparation for leadership.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Exodus 2:1-10 recounts how Moses was saved and raised by Pharaoh’s daughter, showing God’s providential hand preparing him for his future role (Hebrews 11:23).",
+          "verseReference": "Exodus 2:1-10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "moses-medium-q12",
+          "question": "True or False: The bronze serpent Moses lifted up in the wilderness is an example of God's provision and a foreshadowing of salvation through Christ.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Numbers 21:4-9 records Moses lifting the bronze serpent to heal those bitten by snakes, symbolizing faith in God's provision and pointing to Christ's salvation (John 3:14-15).",
+          "verseReference": "Numbers 21:8-9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "moses-medium-q13",
+          "question": "Fill in the blank: Moses instructed the Israelites to celebrate the ______ as a reminder of God's deliverance from Egypt.",
+          "type": "fill-blank",
+          "options": [
+            "Passover",
+            "Pentecost",
+            "Tabernacles",
+            "Hanukkah"
+          ],
+          "correctAnswer": "Passover",
+          "explanation": "Exodus 12:14 explains the Passover as a lasting ordinance to remember God's deliverance of Israel from Egypt, teaching gratitude and faithfulness.",
+          "verseReference": "Exodus 12:14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "moses-medium-q14",
+          "question": "How does Moses’s example in leading the Israelites across the Red Sea teach us about trusting God in seemingly impossible situations?",
+          "type": "multiple-choice",
+          "options": [
+            "Faith in God brings deliverance through obstacles",
+            "We should avoid challenges at all cost",
+            "Human plans alone secure success",
+            "Doubt is the best response to fear"
+          ],
+          "correctAnswer": "Faith in God brings deliverance through obstacles",
+          "explanation": "Exodus 14:21-31 shows Moses trusting God's command to part the sea, enabling miraculous deliverance. This teaches reliance on God’s power in trials.",
+          "verseReference": "Exodus 14:21-31",
+          "difficulty": "medium"
+        },
+        {
+          "id": "moses-medium-q15",
+          "question": "What does Moses’s prayer and intercession for Israel after their complaints teach us about patience and leadership?",
+          "type": "multiple-choice",
+          "options": [
+            "Leaders should patiently intercede for others",
+            "Ignoring complaints is best",
+            "Punishment is the only response",
+            "Complaints show a lack of faith"
+          ],
+          "correctAnswer": "Leaders should patiently intercede for others",
+          "explanation": "Numbers 14:11-20 shows Moses interceding on behalf of Israel after their rebellion, demonstrating patience, love, and leadership responsibility.",
+          "verseReference": "Numbers 14:13-19",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "moses-quiz",
+      "tags": [
+        "moses",
+        "exodus",
+        "law",
+        "ten commandments",
+        "old testament",
+        "prophet",
+        "wilderness",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "moses-character-hard",
+      "title": "Moses Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections about Moses.",
+      "type": "character",
+      "character": "Moses",
+      "questions": [
+        {
+          "id": "moses-hard-q1",
+          "question": "What was the reason Pharaoh's daughter gave for naming the baby 'Moses'?",
+          "type": "multiple-choice",
+          "options": [
+            "Because she drew him out of the water",
+            "Because he was a gift from God",
+            "Because he was found in the reeds",
+            "Because he was born under a star"
+          ],
+          "correctAnswer": "Because she drew him out of the water",
+          "explanation": "Exodus 2:10 explains that Pharaoh's daughter named him Moses, saying, 'Because I drew him out of the water.'",
+          "verseReference": "Exodus 2:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-hard-q2",
+          "question": "At the burning bush, what name did God reveal to Moses as His own?",
+          "type": "multiple-choice",
+          "options": [
+            "I AM WHO I AM",
+            "El Shaddai",
+            "Yahweh",
+            "Adonai"
+          ],
+          "correctAnswer": "I AM WHO I AM",
+          "explanation": "In Exodus 3:14, God reveals His name as 'I AM WHO I AM,' indicating His eternal self-existence, a name central to the understanding of God in Scripture.",
+          "verseReference": "Exodus 3:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-hard-q3",
+          "question": "Which of the following was NOT one of the ten plagues God sent upon Egypt through Moses?",
+          "type": "multiple-choice",
+          "options": [
+            "Locusts",
+            "Hail",
+            "Darkness",
+            "Earthquake"
+          ],
+          "correctAnswer": "Earthquake",
+          "explanation": "Exodus 7-12 lists the ten plagues; earthquake is not among them, which included locusts (Exodus 10:4-15), hail (Exodus 9:22-26), and darkness (Exodus 10:21-29).",
+          "verseReference": "Exodus 7-12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-hard-q4",
+          "question": "What was the significance of the Passover lamb’s blood in Exodus 12?",
+          "type": "multiple-choice",
+          "options": [
+            "It was a sign for the angel of death to pass over the Israelite homes",
+            "It was used to anoint the priests",
+            "It was offered as a burnt sacrifice on the altar",
+            "It was mixed with water to purify the people"
+          ],
+          "correctAnswer": "It was a sign for the angel of death to pass over the Israelite homes",
+          "explanation": "Exodus 12:13 states that the blood on the doorposts was the sign for the Lord to pass over the houses, sparing the firstborn of Israel during the final plague.",
+          "verseReference": "Exodus 12:13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-hard-q5",
+          "question": "How did the Israelites cross the Red Sea according to Exodus 14?",
+          "type": "multiple-choice",
+          "options": [
+            "God parted the waters with a strong east wind",
+            "Moses built a bridge of wood",
+            "They swam across guided by pillars of fire",
+            "They crossed during a low tide"
+          ],
+          "correctAnswer": "God parted the waters with a strong east wind",
+          "explanation": "Exodus 14:21 describes that the Lord caused the sea to go back by a strong east wind, dividing the waters so the Israelites walked on dry ground.",
+          "verseReference": "Exodus 14:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-hard-q6",
+          "question": "What literary device is prominently used in the giving of the Ten Commandments on Mount Sinai?",
+          "type": "multiple-choice",
+          "options": [
+            "Chiasmus",
+            "Parable",
+            "Hyperbole",
+            "Allegory"
+          ],
+          "correctAnswer": "Chiasmus",
+          "explanation": "The Ten Commandments in Exodus 20 show a chiastic structure emphasizing the relationship between duties to God and neighbor, reflecting Hebrew literary style.",
+          "verseReference": "Exodus 20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-hard-q7",
+          "question": "What was Moses’ reaction when he saw the Israelites worshipping the golden calf?",
+          "type": "multiple-choice",
+          "options": [
+            "He broke the stone tablets in anger",
+            "He prayed silently for their forgiveness",
+            "He commanded them to build another altar",
+            "He immediately destroyed the idol with fire"
+          ],
+          "correctAnswer": "He broke the stone tablets in anger",
+          "explanation": "Exodus 32:19 records that Moses, upon seeing the golden calf and the revelry, broke the tablets containing the commandments in anger.",
+          "verseReference": "Exodus 32:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-hard-q8",
+          "question": "In Hebrews 11, Moses is described as having faith in what specific way?",
+          "type": "multiple-choice",
+          "options": [
+            "Choosing to suffer with God’s people rather than enjoy sin’s fleeting pleasures",
+            "Performing miracles to prove God’s power",
+            "Leading Israel to conquest militarily",
+            "Building the tabernacle with his own hands"
+          ],
+          "correctAnswer": "Choosing to suffer with God’s people rather than enjoy sin’s fleeting pleasures",
+          "explanation": "Hebrews 11:25-26 highlights Moses’ faith in rejecting Egypt’s treasures to suffer with God’s people, looking forward to heavenly reward.",
+          "verseReference": "Hebrews 11:25-26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-hard-q9",
+          "question": "Which part of the tabernacle was Moses instructed to build first according to Exodus 25-27?",
+          "type": "multiple-choice",
+          "options": [
+            "The ark of the covenant",
+            "The altar of burnt offering",
+            "The courtyard",
+            "The veil"
+          ],
+          "correctAnswer": "The ark of the covenant",
+          "explanation": "Exodus 25:10-22 details instructions for the ark of the covenant, which was central to the tabernacle’s construction and God’s presence among Israel.",
+          "verseReference": "Exodus 25:10-22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-hard-q10",
+          "question": "How did God provide for the Israelites in the wilderness according to Numbers 11?",
+          "type": "multiple-choice",
+          "options": [
+            "By sending manna from heaven and quail to eat",
+            "By digging wells for water",
+            "By sending daily rain",
+            "By instructing them to hunt wild animals"
+          ],
+          "correctAnswer": "By sending manna from heaven and quail to eat",
+          "explanation": "Numbers 11:7-9 describes manna as bread from heaven, and quail were provided for meat, sustaining the Israelites in the desert.",
+          "verseReference": "Numbers 11:7-9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-hard-q11",
+          "question": "What was the consequence for Moses striking the rock at Meribah instead of speaking to it as God commanded?",
+          "type": "multiple-choice",
+          "options": [
+            "He was not allowed to enter the Promised Land",
+            "He lost his staff",
+            "He was struck with leprosy",
+            "He was removed from leadership"
+          ],
+          "correctAnswer": "He was not allowed to enter the Promised Land",
+          "explanation": "Numbers 20:12 states that because Moses disobeyed by striking the rock, God forbade him from leading the people into the Promised Land.",
+          "verseReference": "Numbers 20:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-hard-q12",
+          "question": "True or False: Korah's rebellion was against Moses' leadership and authority as a mediator between God and Israel.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Numbers 16:1-3 describes Korah's challenge to Moses and Aaron’s leadership, which was a direct rebellion against their God-ordained authority.",
+          "verseReference": "Numbers 16:1-3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-hard-q13",
+          "question": "What is the symbolic significance of the bronze serpent Moses lifted up in the wilderness?",
+          "type": "multiple-choice",
+          "options": [
+            "It foreshadowed Christ’s saving work by faith",
+            "It was a symbol of Israel’s power over snakes",
+            "It represented the healing power of Moses’ staff",
+            "It was an idol worshipped by the Israelites"
+          ],
+          "correctAnswer": "It foreshadowed Christ’s saving work by faith",
+          "explanation": "John 3:14-15 connects Moses lifting the bronze serpent (Numbers 21:8-9) with Christ being lifted up for salvation, illustrating typology.",
+          "verseReference": "Numbers 21:8-9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-hard-q14",
+          "question": "Where did Moses die, and what was significant about this location?",
+          "type": "multiple-choice",
+          "options": [
+            "Mount Nebo, where he viewed the Promised Land but was not permitted to enter",
+            "Mount Sinai, where he received the Ten Commandments",
+            "In the plains of Moab, after crossing the Jordan River",
+            "Mount Horeb, the site of the burning bush"
+          ],
+          "correctAnswer": "Mount Nebo, where he viewed the Promised Land but was not permitted to enter",
+          "explanation": "Deuteronomy 34:1-5 shows Moses dying on Mount Nebo after viewing the Promised Land, symbolizing the end of his leadership and transition to Joshua.",
+          "verseReference": "Deuteronomy 34:1-5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-hard-q15",
+          "question": "How does Stephen’s speech in Acts 7 portray Moses in relation to God and Israel’s history?",
+          "type": "multiple-choice",
+          "options": [
+            "As a faithful deliverer and mediator who foreshadows Christ",
+            "As a rebellious leader who disobeyed God",
+            "As a minor prophet without authority",
+            "As a warrior king"
+          ],
+          "correctAnswer": "As a faithful deliverer and mediator who foreshadows Christ",
+          "explanation": "Acts 7:20-36 depicts Moses as God's chosen deliverer and mediator, setting a pattern for Jesus as the ultimate redeemer.",
+          "verseReference": "Acts 7:20-36",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "moses-quiz",
+      "tags": [
+        "moses",
+        "exodus",
+        "law",
+        "ten commandments",
+        "old testament",
+        "prophet",
+        "wilderness",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "moses-character-theological",
+      "title": "Moses Quiz - Theological Level",
+      "description": "Deep biblical theology exploring Moses's significance in God's redemptive plan.",
+      "type": "character",
+      "character": "Moses",
+      "questions": [
+        {
+          "id": "moses-theological-q1",
+          "question": "Who found baby Moses and adopted him as her son?",
+          "type": "multiple-choice",
+          "options": [
+            "Pharaoh's daughter",
+            "Miriam",
+            "Jochebed",
+            "Zipporah"
+          ],
+          "correctAnswer": "Pharaoh's daughter",
+          "explanation": "Exodus 2:5-10 describes Pharaoh's daughter finding Moses and adopting him, highlighting God's providence in preserving Moses for His redemptive plan. This typifies God's sovereign care (Acts 7:20-21), the faith of Moses' family (Hebrews 11:23), and God's deliverance through Moses (Exodus 2:10; Exodus 6:20).",
+          "verseReference": "Exodus 2:5-10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-theological-q2",
+          "question": "What miraculous sign did God show Moses at the burning bush?",
+          "type": "multiple-choice",
+          "options": [
+            "A bush that burned but was not consumed",
+            "A pillar of fire",
+            "Water turning to blood",
+            "A dove descending"
+          ],
+          "correctAnswer": "A bush that burned but was not consumed",
+          "explanation": "Exodus 3:2-3 records the burning bush that was not consumed, symbolizing God's holy presence and eternal nature. This reveals God's self-existence (I AM) and call to Moses, foreshadowing Christ's unquenchable life (John 8:58), God's holiness (Leviticus 10:3), and His covenant faithfulness (Hebrews 11:27).",
+          "verseReference": "Exodus 3:2-3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-theological-q3",
+          "question": "Which was NOT one of the ten plagues God sent upon Egypt?",
+          "type": "multiple-choice",
+          "options": [
+            "Locusts",
+            "Darkness",
+            "Water turning to wine",
+            "Frogs"
+          ],
+          "correctAnswer": "Water turning to wine",
+          "explanation": "Exodus 7-12 lists the ten plagues, including locusts (Exodus 10:12), darkness (Exodus 10:21), and frogs (Exodus 8:2), but water turning to wine is a miracle of Jesus (John 2:1-11), not a plague. The plagues demonstrate God's judgment on Egypt and power over false gods (Exodus 12:12; Hebrews 11:28).",
+          "verseReference": "Exodus 7:14-12:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-theological-q4",
+          "question": "What was the purpose of the Passover lamb's blood in the original Passover event?",
+          "type": "multiple-choice",
+          "options": [
+            "To protect Israel from the death of the firstborn",
+            "To purify the temple",
+            "To anoint the priests",
+            "To signify harvest time"
+          ],
+          "correctAnswer": "To protect Israel from the death of the firstborn",
+          "explanation": "Exodus 12:7,13 shows the blood on doorposts protected Israel from the death angel, typifying Christ's blood protecting believers from judgment (1 Corinthians 5:7; Hebrews 9:12-14). It reveals God's salvation through substitutionary atonement, a core gospel truth (John 1:29; Acts 7:36).",
+          "verseReference": "Exodus 12:7,13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-theological-q5",
+          "question": "How did God miraculously enable the Israelites to cross the Red Sea?",
+          "type": "multiple-choice",
+          "options": [
+            "By parting the waters with a strong east wind",
+            "By building a bridge",
+            "By drying up the sea completely",
+            "By sending an earthquake to open a path"
+          ],
+          "correctAnswer": "By parting the waters with a strong east wind",
+          "explanation": "Exodus 14:21 describes God parting the Red Sea by a strong east wind, demonstrating His power to save His people from bondage, prefiguring baptism and salvation (1 Corinthians 10:1-2; Hebrews 11:29; Acts 7:36). It reveals God's sovereignty over nature and history.",
+          "verseReference": "Exodus 14:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-theological-q6",
+          "question": "Where did Moses receive the Ten Commandments from God?",
+          "type": "multiple-choice",
+          "options": [
+            "Mount Sinai",
+            "Mount Ararat",
+            "Mount Carmel",
+            "Mount Moriah"
+          ],
+          "correctAnswer": "Mount Sinai",
+          "explanation": "Exodus 19:20 and 20:1-17 show Moses receiving the Ten Commandments on Mount Sinai, establishing God's covenant law revealing His holiness, justice, and moral order. This law points forward to Christ's fulfillment (Matthew 5:17) and defines human responsibility before God (Romans 7:7; Hebrews 8:6-10).",
+          "verseReference": "Exodus 19:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-theological-q7",
+          "question": "What idol did the Israelites create while Moses was on Mount Sinai?",
+          "type": "multiple-choice",
+          "options": [
+            "Golden calf",
+            "Baal",
+            "Asherah",
+            "Dagon"
+          ],
+          "correctAnswer": "Golden calf",
+          "explanation": "Exodus 32:1-4 records the golden calf incident, illustrating Israel's idolatry and breach of covenant. It reveals human sinfulness (Romans 3:23), the need for repentance (Psalm 106:19-23), and God's patience, but also judgment (Hebrews 3:16-19). Moses intercedes, typifying Christ as mediator (1 Timothy 2:5).",
+          "verseReference": "Exodus 32:1-4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-theological-q8",
+          "question": "What was the primary purpose of the Tabernacle constructed under Moses' leadership?",
+          "type": "multiple-choice",
+          "options": [
+            "To provide a dwelling place for God's presence among Israel",
+            "To serve as a royal palace",
+            "To function as a military headquarters",
+            "To be a marketplace"
+          ],
+          "correctAnswer": "To provide a dwelling place for God's presence among Israel",
+          "explanation": "Exodus 25:8 and 40:34-35 show the Tabernacle as God's dwelling among His people, signifying His holiness and immanence. It foreshadows Christ as Immanuel (John 1:14), the true tabernacle (Hebrews 8:1-5), and God's redemptive presence with His covenant people (Leviticus 26:11-12).",
+          "verseReference": "Exodus 25:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-theological-q9",
+          "question": "What was the consequence for Korah's rebellion against Moses' leadership?",
+          "type": "multiple-choice",
+          "options": [
+            "The earth opened and swallowed the rebels",
+            "They were exiled to Egypt",
+            "They were forgiven and reinstated",
+            "They were stoned by the people"
+          ],
+          "correctAnswer": "The earth opened and swallowed the rebels",
+          "explanation": "Numbers 16:31-33 describes God’s judgment on Korah and his followers by the earth swallowing them, affirming God's chosen leadership and warning against rebellion (Jude 1:11; Hebrews 3:16-19). It teaches God's holiness, justice, and the seriousness of opposing His appointed mediators.",
+          "verseReference": "Numbers 16:31-33",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-theological-q10",
+          "question": "What sin did Moses commit that prevented him from entering the Promised Land?",
+          "type": "multiple-choice",
+          "options": [
+            "Striking the rock twice instead of speaking to it",
+            "Worshiping the golden calf",
+            "Speaking against God openly",
+            "Falling asleep on duty"
+          ],
+          "correctAnswer": "Striking the rock twice instead of speaking to it",
+          "explanation": "Numbers 20:7-12 records Moses striking the rock twice instead of speaking as God commanded, showing disobedience and a failure to honor God’s holiness. This typifies human failure and the necessity of perfect obedience fulfilled in Christ (1 Corinthians 10:4; Hebrews 3:7-19).",
+          "verseReference": "Numbers 20:7-12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-theological-q11",
+          "question": "On which mountain did Moses die, viewing the Promised Land from afar?",
+          "type": "multiple-choice",
+          "options": [
+            "Mount Nebo",
+            "Mount Sinai",
+            "Mount Horeb",
+            "Mount Carmel"
+          ],
+          "correctAnswer": "Mount Nebo",
+          "explanation": "Deuteronomy 34:1-5 shows Moses dying on Mount Nebo after seeing the Promised Land, symbolizing the fulfillment of God’s promise to Abraham and the transition to Joshua’s leadership. It reflects the faithfulness of God’s covenant (Hebrews 11:27), human mortality, and hope in God's promises (Psalm 90:10).",
+          "verseReference": "Deuteronomy 34:1-5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-theological-q12",
+          "question": "What miraculous food did God provide for the Israelites in the wilderness?",
+          "type": "multiple-choice",
+          "options": [
+            "Manna from heaven",
+            "Quail from the mountains",
+            "Figs from the land",
+            "Olives from the trees"
+          ],
+          "correctAnswer": "Manna from heaven",
+          "explanation": "Exodus 16:4-36 describes manna as God’s provision, teaching dependence on Him for daily sustenance and prefiguring Christ as the true bread from heaven (John 6:31-35; Hebrews 9:4). It shows God's grace sustaining His people in the wilderness (Psalm 78:24-25).",
+          "verseReference": "Exodus 16:4-36",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-theological-q13",
+          "question": "What was the significance of the bronze serpent Moses made in the wilderness?",
+          "type": "multiple-choice",
+          "options": [
+            "It was a means of healing those bitten by snakes",
+            "A symbol of idolatry",
+            "A representation of Egyptian gods",
+            "A memorial of victory in battle"
+          ],
+          "correctAnswer": "It was a means of healing those bitten by snakes",
+          "explanation": "Numbers 21:8-9 shows the bronze serpent as God's provision for healing snake bites, symbolizing salvation through looking in faith, typifying Christ lifted up for our healing (John 3:14-15; Hebrews 11:4). It reveals God's mercy amid judgment and the power of faith.",
+          "verseReference": "Numbers 21:8-9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-theological-q14",
+          "question": "According to Stephen's speech in Acts, how is Moses described in relation to God's deliverance?",
+          "type": "multiple-choice",
+          "options": [
+            "As God's chosen deliverer of Israel",
+            "As a political revolutionary",
+            "As a priest of Egypt",
+            "As a warrior king"
+          ],
+          "correctAnswer": "As God's chosen deliverer of Israel",
+          "explanation": "Acts 7:20-36 portrays Moses as God's appointed deliverer, emphasizing God's providence and salvation history fulfilled in Christ. This affirms Moses’ role as a type of Christ (Deuteronomy 18:15; Hebrews 11:24-27) and God's plan to redeem His people.",
+          "verseReference": "Acts 7:20-36",
+          "difficulty": "hard"
+        },
+        {
+          "id": "moses-theological-q15",
+          "question": "How does Hebrews 11 describe Moses' faith despite not entering the Promised Land?",
+          "type": "multiple-choice",
+          "options": [
+            "He endured as seeing Him who is invisible",
+            "He lost faith and doubted God",
+            "He rebelled against God's command",
+            "He sought worldly power"
+          ],
+          "correctAnswer": "He endured as seeing Him who is invisible",
+          "explanation": "Hebrews 11:23-27 praises Moses’ faith as he chose to suffer with God's people and looked forward to God’s promises beyond visible circumstances, underscoring the nature of faith and God's promise of eternal salvation (Numbers 20:12; Deuteronomy 34:4; 2 Corinthians 5:7).",
+          "verseReference": "Hebrews 11:23-27",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "moses-quiz",
+      "tags": [
+        "moses",
+        "exodus",
+        "law",
+        "ten commandments",
+        "old testament",
+        "prophet",
+        "wilderness",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

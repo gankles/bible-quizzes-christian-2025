@@ -1,0 +1,991 @@
+{
+  "id": "jesus-character-tabbed",
+  "title": "Jesus Christ Quiz - Multi-Level",
+  "description": "Test your knowledge about the life, ministry, teachings, miracles, death, and resurrection of Jesus Christ across the four Gospels and the New Testament.",
+  "tabs": {
+    "easy": {
+      "id": "jesus-character-easy",
+      "title": "Jesus Christ Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Jesus Christ in the Bible.",
+      "type": "character",
+      "character": "Jesus Christ",
+      "questions": [
+        {
+          "id": "jesus-easy-q1",
+          "question": "In which Gospel is the account of Jesus' Sermon on the Mount primarily found?",
+          "type": "multiple-choice",
+          "options": [
+            "Matthew",
+            "Mark",
+            "Luke",
+            "John"
+          ],
+          "correctAnswer": "Matthew",
+          "explanation": "The Sermon on the Mount is mainly recorded in Matthew chapters 5 to 7.",
+          "verseReference": "Matthew 5:1-2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "jesus-easy-q2",
+          "question": "Who baptized Jesus according to the Bible?",
+          "type": "multiple-choice",
+          "options": [
+            "John the Baptist",
+            "Peter",
+            "Paul",
+            "Elijah"
+          ],
+          "correctAnswer": "John the Baptist",
+          "explanation": "Jesus was baptized by John the Baptist as described in the Gospels.",
+          "verseReference": "Mark 1:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "jesus-easy-q3",
+          "question": "Which miracle did Jesus perform at the wedding in Cana?",
+          "type": "multiple-choice",
+          "options": [
+            "Turning water into wine",
+            "Feeding 5000",
+            "Walking on water",
+            "Healing a blind man"
+          ],
+          "correctAnswer": "Turning water into wine",
+          "explanation": "Jesus' first recorded miracle was turning water into wine at Cana.",
+          "verseReference": "John 2:1-11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "jesus-easy-q4",
+          "question": "What parable did Jesus use to teach about forgiveness and mercy?",
+          "type": "multiple-choice",
+          "options": [
+            "The Parable of the Prodigal Son",
+            "The Parable of the Sower",
+            "The Parable of the Talents",
+            "The Parable of the Good Samaritan"
+          ],
+          "correctAnswer": "The Parable of the Prodigal Son",
+          "explanation": "The Parable of the Prodigal Son illustrates forgiveness and mercy.",
+          "verseReference": "Luke 15:11-32",
+          "difficulty": "easy"
+        },
+        {
+          "id": "jesus-easy-q5",
+          "question": "Where did Jesus pray before His arrest?",
+          "type": "multiple-choice",
+          "options": [
+            "Garden of Gethsemane",
+            "Mount of Olives",
+            "Capernaum",
+            "Bethlehem"
+          ],
+          "correctAnswer": "Garden of Gethsemane",
+          "explanation": "Jesus prayed in the Garden of Gethsemane before His arrest.",
+          "verseReference": "Matthew 26:36-39",
+          "difficulty": "easy"
+        },
+        {
+          "id": "jesus-easy-q6",
+          "question": "Who denied Jesus three times before the rooster crowed?",
+          "type": "multiple-choice",
+          "options": [
+            "Peter",
+            "John",
+            "Judas",
+            "Thomas"
+          ],
+          "correctAnswer": "Peter",
+          "explanation": "Peter denied Jesus three times as Jesus predicted.",
+          "verseReference": "Mark 14:66-72",
+          "difficulty": "easy"
+        },
+        {
+          "id": "jesus-easy-q7",
+          "question": "True or False: Jesus was crucified during the Jewish festival of Passover.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Jesus was crucified during Passover, as recorded in the Gospels.",
+          "verseReference": "John 19:14",
+          "difficulty": "easy"
+        },
+        {
+          "id": "jesus-easy-q8",
+          "question": "Who witnessed the Transfiguration of Jesus alongside Peter and John?",
+          "type": "multiple-choice",
+          "options": [
+            "James",
+            "Andrew",
+            "Philip",
+            "Matthew"
+          ],
+          "correctAnswer": "James",
+          "explanation": "Peter, James, and John witnessed the Transfiguration.",
+          "verseReference": "Mark 9:2-7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "jesus-easy-q9",
+          "question": "Which disciple walked on water toward Jesus but began to sink?",
+          "type": "multiple-choice",
+          "options": [
+            "Peter",
+            "John",
+            "James",
+            "Andrew"
+          ],
+          "correctAnswer": "Peter",
+          "explanation": "Peter walked on water toward Jesus but sank when afraid.",
+          "verseReference": "Matthew 14:28-31",
+          "difficulty": "easy"
+        },
+        {
+          "id": "jesus-easy-q10",
+          "question": "What is the key message of Jesus' teachings on the Kingdom of God?",
+          "type": "multiple-choice",
+          "options": [
+            "Repentance and faith",
+            "Wealth and power",
+            "Political rebellion",
+            "Legalism"
+          ],
+          "correctAnswer": "Repentance and faith",
+          "explanation": "Jesus taught that entering the Kingdom of God requires repentance and faith.",
+          "verseReference": "Mark 1:15",
+          "difficulty": "easy"
+        },
+        {
+          "id": "jesus-easy-q11",
+          "question": "True or False: Jesus called Matthew, a tax collector, to be one of His disciples.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Jesus called Matthew, the tax collector, to follow Him.",
+          "verseReference": "Matthew 9:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "jesus-easy-q12",
+          "question": "During the Last Supper, what did Jesus use to symbolize His body?",
+          "type": "multiple-choice",
+          "options": [
+            "Bread",
+            "Wine",
+            "Olives",
+            "Fish"
+          ],
+          "correctAnswer": "Bread",
+          "explanation": "Jesus broke bread to symbolize His body given for believers.",
+          "verseReference": "Luke 22:19",
+          "difficulty": "easy"
+        },
+        {
+          "id": "jesus-easy-q13",
+          "question": "Fill in the blank: Jesus said, \"I am the _____ of life.\"",
+          "type": "fill-blank",
+          "options": [
+            "light",
+            "bread",
+            "door",
+            "life"
+          ],
+          "correctAnswer": "light",
+          "explanation": "Jesus said, 'I am the light of life' indicating He brings spiritual illumination.",
+          "verseReference": "John 8:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "jesus-easy-q14",
+          "question": "True or False: Jesus ascended to heaven in the presence of His disciples.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Jesus ascended to heaven before His disciples' eyes.",
+          "verseReference": "Acts 1:9-11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "jesus-easy-q15",
+          "question": "What is one of the signs Jesus gave about His Second Coming?",
+          "type": "multiple-choice",
+          "options": [
+            "The sun will be darkened",
+            "The sea will dry up",
+            "The mountains will move",
+            "All people will become rich"
+          ],
+          "correctAnswer": "The sun will be darkened",
+          "explanation": "Jesus said the sun will be darkened as a sign of His return.",
+          "verseReference": "Matthew 24:29",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "jesus-quiz",
+      "tags": [
+        "jesus",
+        "christ",
+        "gospels",
+        "new testament",
+        "messiah",
+        "savior",
+        "son of god",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "jesus-character-medium",
+      "title": "Jesus Christ Quiz - Medium Level",
+      "description": "Apply biblical truths from Jesus Christ's life to real-life situations.",
+      "type": "character",
+      "character": "Jesus Christ",
+      "questions": [
+        {
+          "id": "jesus-medium-q1",
+          "question": "A fellow believer is struggling with forgiveness after being wronged. Based on Jesus Christ's teaching in the Sermon on the Mount, what biblical truth would you share?",
+          "type": "multiple-choice",
+          "options": [
+            "Forgive others so your Father in heaven may also forgive you",
+            "Hold grudges to protect yourself from further harm",
+            "Forgiveness is optional depending on the offense",
+            "Only forgive after the offender repents publicly"
+          ],
+          "correctAnswer": "Forgive others so your Father in heaven may also forgive you",
+          "explanation": "Jesus taught in Matthew 6:14-15 and Matthew 5:44 that forgiving others is essential for receiving God's forgiveness and living out love for enemies, promoting reconciliation and humility.",
+          "verseReference": "Matthew 6:14-15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "jesus-medium-q2",
+          "question": "How does Jesus Christ's example in healing the paralytic (Mark 2:1-12) teach us about faith and prayer in trials?",
+          "type": "multiple-choice",
+          "options": [
+            "Faith can lead to healing and forgiveness through Jesus’ power",
+            "Only priests can forgive sins and heal",
+            "Physical healing is always guaranteed for believers",
+            "Suffering should not be prayed about as it is God’s will"
+          ],
+          "correctAnswer": "Faith can lead to healing and forgiveness through Jesus’ power",
+          "explanation": "In Mark 2:5, Jesus saw the faith of the paralytic's friends and forgave his sins before healing him, showing that faith and approaching Jesus in prayer can result in both spiritual and physical restoration (Mark 2:5-12; Luke 5:20-25).",
+          "verseReference": "Mark 2:1-12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "jesus-medium-q3",
+          "question": "A Christian is tempted to seek wealth dishonestly. What teaching from Jesus’ parable about the rich fool (Luke 12:16-21) would guide them?",
+          "type": "multiple-choice",
+          "options": [
+            "Life’s true riches come from being rich toward God, not earthly wealth",
+            "Accumulating wealth is a sign of God’s favor",
+            "Planning for the future means storing earthly treasure",
+            "Selfishness is necessary to succeed financially"
+          ],
+          "correctAnswer": "Life’s true riches come from being rich toward God, not earthly wealth",
+          "explanation": "Jesus warns in Luke 12:16-21 that earthly riches are temporary and that being 'rich toward God'—living with generosity and trust—is what matters for eternal life, encouraging integrity and stewardship.",
+          "verseReference": "Luke 12:16-21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "jesus-medium-q4",
+          "question": "How does Jesus' example in the Garden of Gethsemane teach us about obedience and perseverance in difficult times?",
+          "type": "multiple-choice",
+          "options": [
+            "Obedience to God’s will may require surrendering personal desires",
+            "Avoid trials by seeking easier paths",
+            "Trust God only when circumstances are favorable",
+            "Obedience is optional when facing suffering"
+          ],
+          "correctAnswer": "Obedience to God’s will may require surrendering personal desires",
+          "explanation": "In Luke 22:42, Jesus prayed to submit to the Father’s will despite his anguish, teaching believers to trust God and persevere through trials by prioritizing obedience over personal comfort (Matthew 26:39; Mark 14:36).",
+          "verseReference": "Luke 22:42",
+          "difficulty": "medium"
+        },
+        {
+          "id": "jesus-medium-q5",
+          "question": "What does Jesus’ teaching on the Kingdom of God in John 3:3-5 teach us about spiritual rebirth and faith?",
+          "type": "multiple-choice",
+          "options": [
+            "Entering God's Kingdom requires being born again through the Spirit",
+            "Physical birth alone is sufficient for salvation",
+            "Good works automatically grant entry into the Kingdom",
+            "Faith is unnecessary for entering God’s Kingdom"
+          ],
+          "correctAnswer": "Entering God's Kingdom requires being born again through the Spirit",
+          "explanation": "Jesus explained to Nicodemus in John 3:3-5 that spiritual rebirth by the Spirit is essential to see and enter the Kingdom of God, emphasizing faith and transformation over external rituals (John 3:3-8; Titus 3:5).",
+          "verseReference": "John 3:3-5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "jesus-medium-q6",
+          "question": "A believer is struggling with pride. How does Jesus’ transfiguration (Matthew 17:1-9) encourage humility and dependence on God?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s voice affirms Jesus as His Son, calling for obedience to Him",
+            "Human achievement earns God’s approval",
+            "Pride is necessary for spiritual growth",
+            "The disciples were praised for their understanding"
+          ],
+          "correctAnswer": "God’s voice affirms Jesus as His Son, calling for obedience to Him",
+          "explanation": "In Matthew 17:5, God declares Jesus as His beloved Son and commands the disciples to listen to Him, highlighting humility in following Christ’s teachings rather than self-exaltation (Mark 9:7; Luke 9:35).",
+          "verseReference": "Matthew 17:1-9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "jesus-medium-q7",
+          "question": "How does Jesus’ example during the Last Supper teach us about servanthood and love for others?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus washed the disciples’ feet as a humble act of service",
+            "Jesus demanded to be served by others",
+            "Servanthood is optional for believers",
+            "Love is shown only through words, not actions"
+          ],
+          "correctAnswer": "Jesus washed the disciples’ feet as a humble act of service",
+          "explanation": "In John 13:12-17, Jesus modeled humble servanthood by washing His disciples’ feet, teaching that love is demonstrated through selfless actions and serving one another (Matthew 20:26-28; Philippians 2:5-7).",
+          "verseReference": "John 13:12-17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "jesus-medium-q8",
+          "question": "True or False: According to Hebrews 4:15, Jesus experienced every temptation except sin, teaching us He understands our struggles and can help us persevere.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Hebrews 4:15 states that Jesus was tempted in every way like us yet did not sin, showing His empathy and ability to aid believers in overcoming temptation (Hebrews 2:17; Matthew 4:1-11).",
+          "verseReference": "Hebrews 4:15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "jesus-medium-q9",
+          "question": "What does Jesus’ encounter with the Pharisees about the Sabbath (Mark 2:23-28) teach about the purpose of God's commandments?",
+          "type": "multiple-choice",
+          "options": [
+            "The Sabbath was made to benefit people, not to be a burden",
+            "Strict legalism is the highest way to honor God",
+            "Sabbath observance is no longer necessary",
+            "Breaking the law is acceptable if convenient"
+          ],
+          "correctAnswer": "The Sabbath was made to benefit people, not to be a burden",
+          "explanation": "Jesus explained in Mark 2:27 that the Sabbath was created for man’s good, emphasizing mercy and meeting human needs over rigid rule-keeping (Matthew 12:1-8; Luke 6:1-5).",
+          "verseReference": "Mark 2:23-28",
+          "difficulty": "medium"
+        },
+        {
+          "id": "jesus-medium-q10",
+          "question": "Fill in the blank: Jesus taught that the greatest commandment is to love God with all your heart and to love your ______ as yourself.",
+          "type": "fill-blank",
+          "options": [
+            "neighbor",
+            "enemy",
+            "family",
+            "prophet"
+          ],
+          "correctAnswer": "neighbor",
+          "explanation": "In Matthew 22:37-39, Jesus summarized the law with loving God fully and loving your neighbor as yourself, highlighting love as the foundation of Christian living (Mark 12:30-31; Luke 10:27).",
+          "verseReference": "Matthew 22:37-39",
+          "difficulty": "medium"
+        },
+        {
+          "id": "jesus-medium-q11",
+          "question": "How does Jesus’ resurrection (John 20:1-18) encourage believers facing fear and discouragement?",
+          "type": "multiple-choice",
+          "options": [
+            "The resurrection assures victory over death and hope for eternal life",
+            "Death is final and irreversible",
+            "Believers must rely only on their own strength",
+            "Jesus’ resurrection was a secret not to be shared"
+          ],
+          "correctAnswer": "The resurrection assures victory over death and hope for eternal life",
+          "explanation": "John 20:19-29 records Jesus’ resurrection appearances, which gave His disciples peace and courage, affirming that faith in the risen Christ brings hope beyond worldly trials (1 Corinthians 15:20-22; Romans 6:4).",
+          "verseReference": "John 20:1-18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "jesus-medium-q12",
+          "question": "What does Jesus’ teaching on the Beatitudes in the Sermon on the Mount (Matthew 5:3-12) teach about Christian character?",
+          "type": "multiple-choice",
+          "options": [
+            "Blessings come to those who exhibit humility, mercy, and purity of heart",
+            "Only the wealthy and powerful are blessed",
+            "Being meek means avoiding responsibility",
+            "Anger is acceptable if justified"
+          ],
+          "correctAnswer": "Blessings come to those who exhibit humility, mercy, and purity of heart",
+          "explanation": "The Beatitudes in Matthew 5:3-12 describe qualities like poverty of spirit, meekness, and mercy as marks of blessedness, encouraging believers to live with humility and love (Luke 6:20-23; James 1:17-18).",
+          "verseReference": "Matthew 5:3-12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "jesus-medium-q13",
+          "question": "A believer is discouraged because their witness seems ineffective. How does Jesus’ commissioning of the disciples in Acts 1:8 encourage perseverance in evangelism?",
+          "type": "multiple-choice",
+          "options": [
+            "The Holy Spirit empowers believers to be witnesses boldly",
+            "Evangelism depends only on human effort",
+            "Witnessing is optional for Christians",
+            "Only apostles can share the Gospel"
+          ],
+          "correctAnswer": "The Holy Spirit empowers believers to be witnesses boldly",
+          "explanation": "Acts 1:8 promises the Holy Spirit’s power for believers to witness effectively, encouraging reliance on God’s Spirit in evangelism rather than human strength alone (Luke 24:49; John 14:26).",
+          "verseReference": "Acts 1:8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "jesus-medium-q14",
+          "question": "How does Jesus’ teaching about storing treasures in heaven (Matthew 6:19-21) guide believers in stewardship and generosity?",
+          "type": "multiple-choice",
+          "options": [
+            "Believers should prioritize eternal values over earthly riches",
+            "Wealth should be hoarded for personal security",
+            "Giving is discouraged to protect possessions",
+            "Material wealth guarantees God’s favor"
+          ],
+          "correctAnswer": "Believers should prioritize eternal values over earthly riches",
+          "explanation": "Matthew 6:19-21 teaches that earthly treasures are temporary and vulnerable, while heavenly treasures are eternal, urging believers to live generously and focus on God’s kingdom (Luke 12:33-34; 1 Timothy 6:17-19).",
+          "verseReference": "Matthew 6:19-21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "jesus-medium-q15",
+          "question": "True or False: Jesus’ ascension in Acts 1:9-11 promises that He will return in the same way believers saw Him go, encouraging hope and readiness.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Acts 1:9-11 describes Jesus’ ascension and the angels’ promise of His return, assuring believers of His ongoing presence and motivating faithful living in anticipation (Revelation 1:7; Matthew 24:30).",
+          "verseReference": "Acts 1:9-11",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "jesus-quiz",
+      "tags": [
+        "jesus",
+        "christ",
+        "gospels",
+        "new testament",
+        "messiah",
+        "savior",
+        "son of god",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "jesus-character-hard",
+      "title": "Jesus Christ Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections about Jesus Christ.",
+      "type": "character",
+      "character": "Jesus Christ",
+      "questions": [
+        {
+          "id": "jesus-hard-q1",
+          "question": "In the Sermon on the Mount, Jesus teaches about the Beatitudes. Which of the following is NOT one of the Beatitudes Jesus proclaimed?",
+          "type": "multiple-choice",
+          "options": [
+            "Blessed are the meek, for they shall inherit the earth",
+            "Blessed are those who hunger and thirst for righteousness, for they shall be filled",
+            "Blessed are the rich in spirit, for theirs is the kingdom of heaven",
+            "Blessed are the peacemakers, for they shall be called sons of God"
+          ],
+          "correctAnswer": "Blessed are the rich in spirit, for theirs is the kingdom of heaven",
+          "explanation": "Matthew 5:3-9 lists the Beatitudes, including 'poor in spirit', not 'rich in spirit'. The correct phrase is 'Blessed are the poor in spirit...'.",
+          "verseReference": "Matthew 5:3-9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-hard-q2",
+          "question": "During the Transfiguration, Jesus' face shone like the sun and His clothes became white as light. Which two Old Testament figures appeared with Him?",
+          "type": "multiple-choice",
+          "options": [
+            "Moses and Elijah",
+            "Abraham and David",
+            "Isaiah and Jeremiah",
+            "Peter and John"
+          ],
+          "correctAnswer": "Moses and Elijah",
+          "explanation": "Matthew 17:1-3 describes Moses and Elijah appearing with Jesus during the Transfiguration, symbolizing the Law and the Prophets.",
+          "verseReference": "Matthew 17:1-3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-hard-q3",
+          "question": "In John 1:14, the Greek word 'logos' is used to describe Jesus. What does 'logos' most directly signify in this context?",
+          "type": "multiple-choice",
+          "options": [
+            "The Word",
+            "The Light",
+            "The Son",
+            "The Savior"
+          ],
+          "correctAnswer": "The Word",
+          "explanation": "John 1:14 uses 'logos' (λόγος) to describe Jesus as 'the Word' who became flesh, emphasizing the incarnation and divine communication.",
+          "verseReference": "John 1:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-hard-q4",
+          "question": "Which miracle performed by Jesus foreshadows His resurrection by demonstrating His power over death?",
+          "type": "multiple-choice",
+          "options": [
+            "Raising Lazarus from the dead",
+            "Turning water into wine",
+            "Feeding the 5000",
+            "Healing the centurion's servant"
+          ],
+          "correctAnswer": "Raising Lazarus from the dead",
+          "explanation": "John 11:43-44 shows Jesus raising Lazarus, a clear foreshadowing of His own resurrection and victory over death.",
+          "verseReference": "John 11:43-44",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-hard-q5",
+          "question": "At the Last Supper, Jesus identifies the bread as His body and the wine as His blood. What is the primary theological significance of this action?",
+          "type": "multiple-choice",
+          "options": [
+            "It institutes the New Covenant through His sacrificial death",
+            "It symbolizes the unity of His disciples",
+            "It commemorates the Passover meal",
+            "It signifies the kingdom of God coming in power"
+          ],
+          "correctAnswer": "It institutes the New Covenant through His sacrificial death",
+          "explanation": "Luke 22:19-20 records Jesus establishing the New Covenant in His blood, linking the Last Supper to His forthcoming crucifixion.",
+          "verseReference": "Luke 22:19-20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-hard-q6",
+          "question": "Jesus frequently confronted the Pharisees for their hypocrisy. Which parable directly addresses the theme of self-righteousness and repentance before God?",
+          "type": "multiple-choice",
+          "options": [
+            "The Parable of the Pharisee and the Tax Collector",
+            "The Parable of the Prodigal Son",
+            "The Parable of the Sower",
+            "The Parable of the Talents"
+          ],
+          "correctAnswer": "The Parable of the Pharisee and the Tax Collector",
+          "explanation": "Luke 18:9-14 features this parable contrasting self-righteousness with humble repentance, directly critiquing Pharisaic attitudes.",
+          "verseReference": "Luke 18:9-14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-hard-q7",
+          "question": "What phrase does Jesus use in John 11:25 to assert His authority over life and death, linking to Old Testament themes of resurrection?",
+          "type": "multiple-choice",
+          "options": [
+            "'I am the resurrection and the life'",
+            "'I am the way, the truth, and the life'",
+            "'I am the good shepherd'",
+            "'I am the bread of life'"
+          ],
+          "correctAnswer": "'I am the resurrection and the life'",
+          "explanation": "In John 11:25, Jesus declares this to Martha, asserting His divine power to grant eternal life, echoing resurrection hope from Isaiah.",
+          "verseReference": "John 11:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-hard-q8",
+          "question": "During Jesus' prayer in the Garden of Gethsemane, He says, 'Not as I will, but as you will.' What does this reveal about His nature and mission?",
+          "type": "multiple-choice",
+          "options": [
+            "Submission to the Father’s will despite suffering",
+            "Ambiguity about His mission",
+            "Desire to avoid crucifixion",
+            "Assertion of divine equality with the Father"
+          ],
+          "correctAnswer": "Submission to the Father’s will despite suffering",
+          "explanation": "Matthew 26:39 shows Jesus submitting to God’s plan, highlighting His obedience and the fulfillment of redemptive purpose.",
+          "verseReference": "Matthew 26:39",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-hard-q9",
+          "question": "The Greek word 'Christos' translated as 'Christ' is equivalent to which Hebrew term that signifies Jesus' messianic role?",
+          "type": "multiple-choice",
+          "options": [
+            "Messiah",
+            "Prophet",
+            "Priest",
+            "King"
+          ],
+          "correctAnswer": "Messiah",
+          "explanation": "Both 'Christos' (Greek) and 'Messiah' (Hebrew) mean 'Anointed One', signifying Jesus as the promised deliverer (Acts 2:36).",
+          "verseReference": "Acts 2:36",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-hard-q10",
+          "question": "Jesus teaches about the Kingdom of God extensively. According to Mark 1:15, what two elements characterize the arrival of God's Kingdom?",
+          "type": "multiple-choice",
+          "options": [
+            "Repentance and belief in the gospel",
+            "Faith and works",
+            "Law and grace",
+            "Love and peace"
+          ],
+          "correctAnswer": "Repentance and belief in the gospel",
+          "explanation": "Mark 1:15 emphasizes repentance and faith as necessary responses to the Kingdom's arrival.",
+          "verseReference": "Mark 1:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-hard-q11",
+          "question": "Which Old Testament prophecy is explicitly cited in Hebrews 1:3 to describe Jesus as the exact representation of God's being?",
+          "type": "multiple-choice",
+          "options": [
+            "Psalm 2:7",
+            "Isaiah 9:6",
+            "Psalm 110:1",
+            "Deuteronomy 18:15"
+          ],
+          "correctAnswer": "Psalm 2:7",
+          "explanation": "Hebrews 1:5-14 quotes Psalm 2:7 to affirm Jesus’ divine sonship and unique status as God's exact representation.",
+          "verseReference": "Hebrews 1:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-hard-q12",
+          "question": "True or False: According to Acts 1:9-11, Jesus ascended into heaven visibly before the disciples and promised to return in the same manner.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Acts 1:9-11 describes Jesus' visible ascension and the angels’ promise of His future return.",
+          "verseReference": "Acts 1:9-11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-hard-q13",
+          "question": "In Revelation 1:13-16, Jesus is described with symbolic imagery. Which of the following is NOT part of the description given there?",
+          "type": "multiple-choice",
+          "options": [
+            "Hair white like wool, as white as snow",
+            "Eyes like blazing fire",
+            "Feet like bronze glowing in a furnace",
+            "Wings like an eagle"
+          ],
+          "correctAnswer": "Wings like an eagle",
+          "explanation": "Revelation 1:13-16 describes Jesus with white hair, eyes like fire, and feet like bronze, but does not mention wings.",
+          "verseReference": "Revelation 1:13-16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-hard-q14",
+          "question": "Which disciple is called first by Jesus according to Matthew 4:18-19, illustrating Jesus' calling of fishermen to become 'fishers of men'?",
+          "type": "multiple-choice",
+          "options": [
+            "Simon Peter",
+            "James",
+            "John",
+            "Andrew"
+          ],
+          "correctAnswer": "Simon Peter",
+          "explanation": "Matthew 4:18-19 records Jesus calling Simon Peter and his brother Andrew to follow Him and become fishers of men.",
+          "verseReference": "Matthew 4:18-19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-hard-q15",
+          "question": "Jesus' healing ministry often included physical and spiritual restoration. In which passage does Jesus heal a man born blind, emphasizing spiritual sight?",
+          "type": "multiple-choice",
+          "options": [
+            "John 9:1-7",
+            "Mark 5:25-34",
+            "Luke 7:11-17",
+            "Matthew 8:14-17"
+          ],
+          "correctAnswer": "John 9:1-7",
+          "explanation": "John 9:1-7 recounts Jesus healing a man born blind, symbolizing enlightenment and spiritual insight.",
+          "verseReference": "John 9:1-7",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "jesus-quiz",
+      "tags": [
+        "jesus",
+        "christ",
+        "gospels",
+        "new testament",
+        "messiah",
+        "savior",
+        "son of god",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "jesus-character-theological",
+      "title": "Jesus Christ Quiz - Theological Level",
+      "description": "Deep biblical theology exploring Jesus Christ's significance in God's redemptive plan.",
+      "type": "character",
+      "character": "Jesus Christ",
+      "questions": [
+        {
+          "id": "jesus-theological-q1",
+          "question": "In which Gospel does Jesus declare, \"The Word became flesh and made his dwelling among us,\" affirming the incarnation?",
+          "type": "multiple-choice",
+          "options": [
+            "John",
+            "Matthew",
+            "Luke",
+            "Mark"
+          ],
+          "correctAnswer": "John",
+          "explanation": "John 1:14 clearly states the incarnation of the Word becoming flesh. This theme aligns with Isaiah 7:14 (prophecy of Immanuel), Hebrews 2:14 (Jesus sharing in flesh and blood), Philippians 2:7 (taking the form of a servant), and Colossians 2:9 (fullness of deity in bodily form).",
+          "verseReference": "John 1:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-theological-q2",
+          "question": "Which parable taught by Jesus emphasizes the principle of forgiveness and mercy, as found in Luke 15?",
+          "type": "multiple-choice",
+          "options": [
+            "The Prodigal Son",
+            "The Good Samaritan",
+            "The Sower",
+            "The Rich Fool"
+          ],
+          "correctAnswer": "The Prodigal Son",
+          "explanation": "Luke 15:11-32 presents the Prodigal Son teaching about forgiveness and God's mercy. This theme is supported by Matthew 18:21-35 (parable of the unforgiving servant), Ephesians 4:32 (be kind and forgiving), Psalm 103:12 (God removes our sins), and Micah 7:18-19 (God pardons iniquity).",
+          "verseReference": "Luke 15:11-32",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-theological-q3",
+          "question": "During the Sermon on the Mount, Jesus teaches the Beatitudes. Which of the following is NOT one of the Beatitudes found in Matthew 5?",
+          "type": "multiple-choice",
+          "options": [
+            "Blessed are the meek",
+            "Blessed are the poor in spirit",
+            "Blessed are the self-righteous",
+            "Blessed are the peacemakers"
+          ],
+          "correctAnswer": "Blessed are the self-righteous",
+          "explanation": "Matthew 5:3-12 lists the Beatitudes, highlighting humility, mercy, and righteousness. Self-righteousness contradicts Jesus' teachings here and in Luke 18:9-14 (parable of Pharisee and tax collector), Romans 3:10 (none righteous), and Isaiah 66:2 (humble spirit).",
+          "verseReference": "Matthew 5:3-12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-theological-q4",
+          "question": "Which miracle of Jesus demonstrates His authority over nature by calming a storm on the sea?",
+          "type": "multiple-choice",
+          "options": [
+            "Calming the storm",
+            "Feeding the 5000",
+            "Healing the paralytic",
+            "Raising Lazarus"
+          ],
+          "correctAnswer": "Calming the storm",
+          "explanation": "Mark 4:35-41 narrates Jesus calming the storm, showing divine authority over nature. This is consistent with Psalm 107:29 (God calming the storm), Job 38:8-11 (God controlling the sea), Hebrews 1:3 (sustaining all things), and Colossians 1:17 (Christ holds all things together).",
+          "verseReference": "Mark 4:35-41",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-theological-q5",
+          "question": "At the Last Supper, Jesus institutes the Lord's Supper. What does He say the bread represents?",
+          "type": "multiple-choice",
+          "options": [
+            "His body",
+            "His kingdom",
+            "His teachings",
+            "His covenant with Israel"
+          ],
+          "correctAnswer": "His body",
+          "explanation": "Luke 22:19 records Jesus breaking bread as His body given for believers. This fulfills Isaiah 53:5 (wounded for our transgressions), 1 Corinthians 11:24 (remembrance of Christ's body), Hebrews 10:10 (sanctified through the body of Christ), and John 6:51 (bread of life is His flesh).",
+          "verseReference": "Luke 22:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-theological-q6",
+          "question": "Jesus' transfiguration revealed His divine glory. Which of these disciples did NOT witness the event according to Matthew 17?",
+          "type": "multiple-choice",
+          "options": [
+            "Peter",
+            "John",
+            "James",
+            "Andrew"
+          ],
+          "correctAnswer": "Andrew",
+          "explanation": "Matthew 17:1-9 notes Peter, James, and John witnessed the transfiguration. Andrew is not mentioned. This event confirms Jesus' fulfillment of the Law (Moses) and the Prophets (Elijah), linking to Exodus 34:29-35, Malachi 4:5, and 2 Peter 1:16-18.",
+          "verseReference": "Matthew 17:1-9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-theological-q7",
+          "question": "Which Old Testament prophecy does Jesus fulfill when He rides into Jerusalem on a donkey, as recorded in Matthew 21?",
+          "type": "multiple-choice",
+          "options": [
+            "Zechariah 9:9",
+            "Isaiah 53:3",
+            "Psalm 22:16",
+            "Jeremiah 31:31"
+          ],
+          "correctAnswer": "Zechariah 9:9",
+          "explanation": "Matthew 21:4-5 cites Zechariah 9:9 about the king coming humble and riding a donkey. This contrasts with Isaiah 53 (suffering servant), Psalm 22 (passion), and Jeremiah 31 (new covenant), showing messianic fulfillment.",
+          "verseReference": "Matthew 21:4-5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-theological-q8",
+          "question": "What is the significance of Jesus' prayer in the Garden of Gethsemane, as found in Luke 22:42?",
+          "type": "multiple-choice",
+          "options": [
+            "Submission to the Father's will",
+            "Declaration of His messiahship",
+            "Calling the disciples to faith",
+            "Proclaiming the Kingdom of God"
+          ],
+          "correctAnswer": "Submission to the Father's will",
+          "explanation": "Luke 22:42 shows Jesus praying, 'not my will, but yours be done,' highlighting His obedience and submission. This echoes Isaiah 53:7 (willing suffering), Philippians 2:8 (obedient to death), Hebrews 5:8 (learned obedience), and John 6:38 (doing the Father's will).",
+          "verseReference": "Luke 22:42",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-theological-q9",
+          "question": "In which book and chapter is the ascension of Jesus described, marking His return to Heaven after resurrection?",
+          "type": "multiple-choice",
+          "options": [
+            "Acts 1",
+            "John 20",
+            "Mark 16",
+            "Hebrews 4"
+          ],
+          "correctAnswer": "Acts 1",
+          "explanation": "Acts 1:9-11 details Jesus' ascension to Heaven. This event fulfills Psalm 68:18 (ascending on high), Daniel 7:13-14 (Son of Man to the Ancient of Days), Hebrews 1:3 (sat down at God's right hand), and Ephesians 4:8-10 (ascended to give gifts).",
+          "verseReference": "Acts 1:9-11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-theological-q10",
+          "question": "Jesus often confronted the Pharisees. Which of the following accusations did Jesus NOT make against them in Matthew 23?",
+          "type": "multiple-choice",
+          "options": [
+            "Hypocrisy",
+            "Blind guides",
+            "Faithlessness",
+            "Love of money"
+          ],
+          "correctAnswer": "Love of money",
+          "explanation": "In Matthew 23, Jesus condemns the Pharisees for hypocrisy, being blind guides, and faithlessness (vv.13-33). While love of money is criticized elsewhere (e.g., Judas in John 12:6), it is not a primary charge in this chapter. This aligns with Isaiah 29:13 (lip service), Jeremiah 23:25-28, and Romans 2:17-24.",
+          "verseReference": "Matthew 23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-theological-q11",
+          "question": "Which disciple did Jesus call first, according to Matthew 4:18-19, highlighting the beginning of His disciple-calling ministry?",
+          "type": "multiple-choice",
+          "options": [
+            "Peter",
+            "John",
+            "James",
+            "Andrew"
+          ],
+          "correctAnswer": "Peter",
+          "explanation": "Matthew 4:18-19 shows Jesus calling Simon Peter and his brother Andrew. Peter is frequently the foremost disciple (Matthew 16:18). This calling fulfills Isaiah 42:1 (servant called to bring justice), Mark 3:13-19, Luke 5:1-11, and John 1:35-42.",
+          "verseReference": "Matthew 4:18-19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-theological-q12",
+          "question": "What is the theological significance of Jesus being called the 'Lamb of God' in John 1:29?",
+          "type": "multiple-choice",
+          "options": [
+            "He is the perfect sacrifice for sin",
+            "He is a humble teacher",
+            "He is a political Messiah",
+            "He is a prophet like Moses"
+          ],
+          "correctAnswer": "He is the perfect sacrifice for sin",
+          "explanation": "John 1:29 identifies Jesus as the Lamb of God who takes away the sin of the world, fulfilling sacrificial typology from Exodus 12 (Passover lamb), Isaiah 53 (suffering servant), 1 Corinthians 5:7, and Revelation 5:6-13 (Lamb worthy to open scroll).",
+          "verseReference": "John 1:29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-theological-q13",
+          "question": "In Revelation 19, Jesus is depicted as a rider on a white horse. What title is given to Him emphasizing His divine kingship and judgment?",
+          "type": "multiple-choice",
+          "options": [
+            "King of kings and Lord of lords",
+            "Son of David",
+            "Prince of Peace",
+            "Lamb of God"
+          ],
+          "correctAnswer": "King of kings and Lord of lords",
+          "explanation": "Revelation 19:16 describes Jesus as 'King of kings and Lord of lords,' affirming His ultimate authority. This title relates to Daniel 7:13-14, Psalm 2:6-12, 1 Timothy 6:15, and Isaiah 9:6-7, emphasizing His eternal reign and judgment role.",
+          "verseReference": "Revelation 19:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-theological-q14",
+          "question": "Which teaching of Jesus best summarizes the nature of the Kingdom of God as both present and future?",
+          "type": "multiple-choice",
+          "options": [
+            "The Kingdom of God is within you",
+            "The Kingdom will be established after the temple is destroyed",
+            "The Kingdom is only for the Jews",
+            "The Kingdom comes only at the end of the age"
+          ],
+          "correctAnswer": "The Kingdom of God is within you",
+          "explanation": "Luke 17:20-21 records Jesus teaching that the Kingdom of God is not coming with observable signs but is 'within you' or 'in your midst,' highlighting its present spiritual reality as well as future consummation (cf. Mark 1:15; Matthew 13:31-33; Romans 14:17; Revelation 11:15).",
+          "verseReference": "Luke 17:20-21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jesus-theological-q15",
+          "question": "According to Hebrews 4:15, what unique attribute does Jesus possess that qualifies Him as a perfect High Priest?",
+          "type": "multiple-choice",
+          "options": [
+            "He was tempted in every way, yet without sin",
+            "He was anointed by prophets",
+            "He was a king from birth",
+            "He performed signs and wonders"
+          ],
+          "correctAnswer": "He was tempted in every way, yet without sin",
+          "explanation": "Hebrews 4:15 states Jesus was tempted in every way but remained sinless, qualifying Him as a merciful and faithful High Priest. This is supported by 2 Corinthians 5:21, Isaiah 53:9, 1 Peter 2:22, and John 8:46, affirming His sinlessness and ability to sympathize with human weakness.",
+          "verseReference": "Hebrews 4:15",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "jesus-quiz",
+      "tags": [
+        "jesus",
+        "christ",
+        "gospels",
+        "new testament",
+        "messiah",
+        "savior",
+        "son of god",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

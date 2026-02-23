@@ -1,0 +1,991 @@
+{
+  "id": "paul-character-tabbed",
+  "title": "Apostle Paul Quiz - Multi-Level",
+  "description": "Test your knowledge about the Apostle Paul — from his conversion on the Damascus Road to his missionary journeys, epistles, and imprisonment for the Gospel.",
+  "tabs": {
+    "easy": {
+      "id": "paul-character-easy",
+      "title": "Apostle Paul Quiz - Easy Level",
+      "description": "Perfect for beginners! Test your basic knowledge of Apostle Paul in the Bible.",
+      "type": "character",
+      "character": "Apostle Paul",
+      "questions": [
+        {
+          "id": "paul-easy-q1",
+          "question": "Before his conversion, what was Saul's attitude toward Christians?",
+          "type": "multiple-choice",
+          "options": [
+            "He persecuted them",
+            "He ignored them",
+            "He helped them",
+            "He was one of them"
+          ],
+          "correctAnswer": "He persecuted them",
+          "explanation": "Acts 8:3 shows that Saul was actively persecuting the church by going from house to house to arrest Christians.",
+          "verseReference": "Acts 8:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "paul-easy-q2",
+          "question": "Where was Saul traveling when he experienced his dramatic conversion?",
+          "type": "multiple-choice",
+          "options": [
+            "Damascus",
+            "Jerusalem",
+            "Antioch",
+            "Rome"
+          ],
+          "correctAnswer": "Damascus",
+          "explanation": "Acts 9:3-6 describes Saul's encounter with Jesus on the road to Damascus, leading to his conversion.",
+          "verseReference": "Acts 9:3-6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "paul-easy-q3",
+          "question": "In which city did Paul and Barnabas begin their first missionary journey?",
+          "type": "multiple-choice",
+          "options": [
+            "Antioch",
+            "Corinth",
+            "Ephesus",
+            "Philippi"
+          ],
+          "correctAnswer": "Antioch",
+          "explanation": "Acts 13:1-3 shows that Paul and Barnabas were sent out from the church in Antioch for their first missionary journey.",
+          "verseReference": "Acts 13:1-3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "paul-easy-q4",
+          "question": "What was the main issue discussed at the Jerusalem Council where Paul was present?",
+          "type": "multiple-choice",
+          "options": [
+            "Whether Gentiles must be circumcised",
+            "Whether to build a new temple",
+            "Whether to collect offerings for the poor",
+            "Whether to stop preaching to Gentiles"
+          ],
+          "correctAnswer": "Whether Gentiles must be circumcised",
+          "explanation": "Acts 15:5-11 records the debate about circumcision for Gentile believers, a key topic at the Jerusalem Council.",
+          "verseReference": "Acts 15:5-11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "paul-easy-q5",
+          "question": "During which missionary journey did Paul spend 18 months teaching in Corinth?",
+          "type": "multiple-choice",
+          "options": [
+            "Second missionary journey",
+            "First missionary journey",
+            "Third missionary journey",
+            "After imprisonment in Rome"
+          ],
+          "correctAnswer": "Second missionary journey",
+          "explanation": "Acts 18:11 states that Paul stayed in Corinth for a year and a half during his second missionary journey.",
+          "verseReference": "Acts 18:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "paul-easy-q6",
+          "question": "True or False: Paul was arrested in Jerusalem and later taken to Caesarea for trials.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Acts 21:27-36 and Acts 23:23-35 show Paul was arrested in Jerusalem and transferred to Caesarea for trial.",
+          "verseReference": "Acts 21:27-36, 23:23-35",
+          "difficulty": "easy"
+        },
+        {
+          "id": "paul-easy-q7",
+          "question": "Who was the Roman governor before whom Paul first gave his defense in Caesarea?",
+          "type": "multiple-choice",
+          "options": [
+            "Felix",
+            "Festus",
+            "Agrippa",
+            "Pilate"
+          ],
+          "correctAnswer": "Felix",
+          "explanation": "Acts 24:24-25 shows Paul giving his defense before Governor Felix.",
+          "verseReference": "Acts 24:24-25",
+          "difficulty": "easy"
+        },
+        {
+          "id": "paul-easy-q8",
+          "question": "What happened to Paul during his voyage to Rome that is recorded in Acts?",
+          "type": "multiple-choice",
+          "options": [
+            "He was shipwrecked on Malta",
+            "He was welcomed warmly in Rome",
+            "He was released immediately",
+            "He escaped from prison"
+          ],
+          "correctAnswer": "He was shipwrecked on Malta",
+          "explanation": "Acts 27:39-44 and 28:1 describe Paul's shipwreck on the island of Malta during his journey to Rome.",
+          "verseReference": "Acts 27:39-44",
+          "difficulty": "easy"
+        },
+        {
+          "id": "paul-easy-q9",
+          "question": "What key doctrine did Paul emphasize in Romans regarding how people are made right with God?",
+          "type": "multiple-choice",
+          "options": [
+            "Justification by faith",
+            "Circumcision by law",
+            "Good works",
+            "Temple sacrifices"
+          ],
+          "correctAnswer": "Justification by faith",
+          "explanation": "Romans 3:28 highlights that a person is justified by faith apart from works of the law.",
+          "verseReference": "Romans 3:28",
+          "difficulty": "easy"
+        },
+        {
+          "id": "paul-easy-q10",
+          "question": "True or False: Paul described the church as the 'body of Christ' in his letters.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "1 Corinthians 12:27 states that believers collectively form the body of Christ.",
+          "verseReference": "1 Corinthians 12:27",
+          "difficulty": "easy"
+        },
+        {
+          "id": "paul-easy-q11",
+          "question": "Which letter of Paul contains instructions about spiritual gifts and their proper use in the church?",
+          "type": "multiple-choice",
+          "options": [
+            "1 Corinthians",
+            "Galatians",
+            "Philippians",
+            "Titus"
+          ],
+          "correctAnswer": "1 Corinthians",
+          "explanation": "1 Corinthians chapters 12-14 discuss spiritual gifts and their use in the church.",
+          "verseReference": "1 Corinthians 12-14",
+          "difficulty": "easy"
+        },
+        {
+          "id": "paul-easy-q12",
+          "question": "What did Paul say about the resurrection of the dead in 1 Corinthians 15?",
+          "type": "multiple-choice",
+          "options": [
+            "Christ's resurrection guarantees believers will also be raised",
+            "Resurrection is only spiritual",
+            "There is no resurrection",
+            "Resurrection is a metaphor"
+          ],
+          "correctAnswer": "Christ's resurrection guarantees believers will also be raised",
+          "explanation": "1 Corinthians 15:20-22 teaches that Christ's resurrection is the firstfruits of those who have fallen asleep, promising resurrection for believers.",
+          "verseReference": "1 Corinthians 15:20-22",
+          "difficulty": "easy"
+        },
+        {
+          "id": "paul-easy-q13",
+          "question": "Paul refers to a 'thorn in the flesh' given to him. What was its purpose according to him?",
+          "type": "multiple-choice",
+          "options": [
+            "To keep him humble",
+            "To make him famous",
+            "To punish him",
+            "To give him power"
+          ],
+          "correctAnswer": "To keep him humble",
+          "explanation": "2 Corinthians 12:7 explains Paul’s thorn was given to keep him from becoming conceited.",
+          "verseReference": "2 Corinthians 12:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "paul-easy-q14",
+          "question": "True or False: Paul was imprisoned in Rome and was allowed to receive visitors while under house arrest.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Acts 28:30-31 states Paul was under house arrest in Rome but welcomed all who came to him.",
+          "verseReference": "Acts 28:30-31",
+          "difficulty": "easy"
+        },
+        {
+          "id": "paul-easy-q15",
+          "question": "Paul was known as the Apostle to the ______.",
+          "type": "fill-blank",
+          "options": [
+            "Gentiles",
+            "Jews",
+            "Pharisees",
+            "Romans"
+          ],
+          "correctAnswer": "Gentiles",
+          "explanation": "Romans 11:13 refers to Paul as the apostle to the Gentiles, highlighting his mission focus.",
+          "verseReference": "Romans 11:13",
+          "difficulty": "easy"
+        }
+      ],
+      "difficulty": "easy",
+      "isBookQuiz": false,
+      "slug": "paul-quiz",
+      "tags": [
+        "paul",
+        "apostle",
+        "missionary",
+        "new testament",
+        "epistles",
+        "conversion",
+        "church",
+        "easy"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 8
+    },
+    "medium": {
+      "id": "paul-character-medium",
+      "title": "Apostle Paul Quiz - Medium Level",
+      "description": "Apply biblical truths from Apostle Paul's life to real-life situations.",
+      "type": "character",
+      "character": "Apostle Paul",
+      "questions": [
+        {
+          "id": "paul-medium-q1",
+          "question": "A fellow believer is struggling with bitterness after facing persecution. Based on Apostle Paul's experience as Saul persecuted Christians, what biblical truth would you share about forgiveness and transformation?",
+          "type": "multiple-choice",
+          "options": [
+            "God can transform even the hardest hearts through His mercy and grace.",
+            "Persecution is a sign that God has abandoned His people.",
+            "Only those born into faith can be changed by God.",
+            "Forgiveness is unnecessary if the offense is severe."
+          ],
+          "correctAnswer": "God can transform even the hardest hearts through His mercy and grace.",
+          "explanation": "Acts 7:58-8:3 shows Saul persecuting Christians, yet God transformed him (Acts 9:1-19). This teaches that no one is beyond God's grace. Paul's transformation into an apostle exemplifies forgiveness and renewal (1 Timothy 1:12-16; 2 Corinthians 5:17).",
+          "verseReference": "Acts 9:1-19",
+          "difficulty": "medium"
+        },
+        {
+          "id": "paul-medium-q2",
+          "question": "How does Apostle Paul's Damascus road conversion teach us about trusting God's call even when it disrupts plans?",
+          "type": "multiple-choice",
+          "options": [
+            "Obedient faith requires surrendering personal plans to God's mission.",
+            "God only calls those who are already perfect and ready.",
+            "Doubt is a sign that God is not calling you.",
+            "God's call is always easy and without hardship."
+          ],
+          "correctAnswer": "Obedient faith requires surrendering personal plans to God's mission.",
+          "explanation": "Paul’s sudden conversion (Acts 9:3-18) interrupted his persecution of Christians and called him to spread the Gospel. His obedience despite uncertainty (Philippians 3:7-14; Galatians 1:15-16) encourages believers to trust God’s plan above their own.",
+          "verseReference": "Acts 9:3-18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "paul-medium-q3",
+          "question": "A new church leader struggles with balancing teaching and pastoral care. Based on Paul's ministry in Antioch, what principle would you share about leadership in the church?",
+          "type": "multiple-choice",
+          "options": [
+            "Effective ministry combines solid teaching with nurturing community.",
+            "Leadership is mainly about enforcing rules strictly.",
+            "Popularity is the most important quality in leadership.",
+            "Leaders should avoid difficult conversations to keep peace."
+          ],
+          "correctAnswer": "Effective ministry combines solid teaching with nurturing community.",
+          "explanation": "Acts 11:25-26 describes Paul and Barnabas teaching and strengthening disciples in Antioch. Paul’s letters (Ephesians 4:11-13; 1 Timothy 3:1-7) emphasize teaching, shepherding, and building unity for healthy churches.",
+          "verseReference": "Acts 11:25-26",
+          "difficulty": "medium"
+        },
+        {
+          "id": "paul-medium-q4",
+          "question": "How does Paul's first missionary journey teach us about perseverance in sharing the Gospel despite opposition?",
+          "type": "multiple-choice",
+          "options": [
+            "Faithfulness includes enduring trials and opposition for Christ.",
+            "If ministry faces hardship, it should be abandoned.",
+            "Success is measured by immediate acceptance.",
+            "Avoid difficult places to prevent conflict."
+          ],
+          "correctAnswer": "Faithfulness includes enduring trials and opposition for Christ.",
+          "explanation": "During the first missionary journey (Acts 13-14), Paul faced persecution (Acts 14:19-22) but encouraged perseverance. His example teaches believers to remain steadfast, trusting God’s purpose (Romans 5:3-5; 2 Timothy 4:5).",
+          "verseReference": "Acts 13:13-14:28",
+          "difficulty": "medium"
+        },
+        {
+          "id": "paul-medium-q5",
+          "question": "Based on the Jerusalem Council, how does Paul's example teach us about unity and resolving doctrinal disputes in the church?",
+          "type": "multiple-choice",
+          "options": [
+            "Seek unity through open dialogue and reliance on Scripture and the Holy Spirit.",
+            "Impose beliefs without discussion to maintain order.",
+            "Avoid addressing disagreements to prevent division.",
+            "Accept all opinions as equally valid regardless of Scripture."
+          ],
+          "correctAnswer": "Seek unity through open dialogue and reliance on Scripture and the Holy Spirit.",
+          "explanation": "Acts 15 records the Jerusalem Council where Paul and others discussed Gentile believers’ requirements. The decision (Acts 15:28-29) shows the importance of listening, Scripture, and Spirit-led consensus for unity (Ephesians 4:1-6; Philippians 2:1-4).",
+          "verseReference": "Acts 15:1-29",
+          "difficulty": "medium"
+        },
+        {
+          "id": "paul-medium-q6",
+          "question": "A believer is discouraged after facing repeated setbacks in ministry. How does Paul's second and third missionary journeys teach about perseverance and reliance on God's strength?",
+          "type": "multiple-choice",
+          "options": [
+            "Perseverance through hardships is empowered by God's grace and purpose.",
+            "Setbacks indicate failure and should end ministry efforts.",
+            "Success depends solely on human effort, not on God.",
+            "Avoid challenges to prevent discouragement."
+          ],
+          "correctAnswer": "Perseverance through hardships is empowered by God's grace and purpose.",
+          "explanation": "Paul’s journeys (Acts 16-20) included imprisonments, beatings, and opposition (2 Corinthians 11:23-28) but he remained faithful, relying on God’s strength (Philippians 4:13; 2 Timothy 2:3-6). This models perseverance amid trials.",
+          "verseReference": "Acts 16:16-40",
+          "difficulty": "medium"
+        },
+        {
+          "id": "paul-medium-q7",
+          "question": "How does Paul's arrest in Jerusalem demonstrate the importance of respectful witness even when falsely accused?",
+          "type": "multiple-choice",
+          "options": [
+            "Maintaining respect and clear testimony honors God under persecution.",
+            "Defend yourself aggressively to win arguments.",
+            "Avoid speaking when accused to stay safe.",
+            "Retaliate against false accusations to protect reputation."
+          ],
+          "correctAnswer": "Maintaining respect and clear testimony honors God under persecution.",
+          "explanation": "In Acts 21-22, Paul was arrested unjustly but gave a respectful defense of his faith before the crowd and authorities (Acts 22:1-21). His conduct (1 Peter 2:12; 1 Timothy 1:16) teaches believers to witness calmly under trial.",
+          "verseReference": "Acts 22:1-21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "paul-medium-q8",
+          "question": "How does Paul's trial before Felix, Festus, and Agrippa teach about courage and trust in God's sovereignty during difficult times?",
+          "type": "multiple-choice",
+          "options": [
+            "Trusting God’s plan enables boldness even amid uncertainty.",
+            "Fear should prevent you from speaking your faith.",
+            "Only speak when conditions are perfectly safe.",
+            "Avoid legal authorities to prevent trouble."
+          ],
+          "correctAnswer": "Trusting God’s plan enables boldness even amid uncertainty.",
+          "explanation": "Paul’s trials before Felix, Festus, and Agrippa (Acts 24-26) show his fearless testimony despite imprisonment. He trusted God’s sovereignty (Romans 8:28; Philippians 1:12-14) and courageously shared the Gospel.",
+          "verseReference": "Acts 26:1-32",
+          "difficulty": "medium"
+        },
+        {
+          "id": "paul-medium-q9",
+          "question": "A believer is feeling weak and discouraged because of ongoing struggles. Based on Paul's 'thorn in the flesh,' what biblical truth would you share?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s grace is sufficient, and His power is made perfect in weakness.",
+            "Struggles mean God has abandoned you.",
+            "You must overcome weaknesses on your own strength.",
+            "Weakness is a sign of spiritual failure."
+          ],
+          "correctAnswer": "God’s grace is sufficient, and His power is made perfect in weakness.",
+          "explanation": "Paul describes his thorn in the flesh in 2 Corinthians 12:7-10, explaining that God’s grace sustains him and strength is shown in weakness. This encourages believers to rely on God's power, not their own.",
+          "verseReference": "2 Corinthians 12:7-10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "paul-medium-q10",
+          "question": "How does Paul's shipwreck on Malta teach us about trusting God's providence during unexpected trials?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s protection and purpose remain even in life’s storms.",
+            "Danger means God has forsaken you.",
+            "Avoid risks to prevent all troubles.",
+            "Self-reliance is the best way to survive crises."
+          ],
+          "correctAnswer": "God’s protection and purpose remain even in life’s storms.",
+          "explanation": "Acts 27-28 recount Paul’s shipwreck but God preserved all aboard, fulfilling His purpose for Paul’s ministry. This shows God’s providential care amid hardship (Psalm 91:1-4; Romans 8:38-39).",
+          "verseReference": "Acts 27:13-44",
+          "difficulty": "medium"
+        },
+        {
+          "id": "paul-medium-q11",
+          "question": "How does Paul's imprisonment in Rome illustrate the importance of rejoicing and prayer in difficult circumstances?",
+          "type": "multiple-choice",
+          "options": [
+            "Rejoicing and prayer sustain believers even in hardship.",
+            "Prayers are ineffective during imprisonment.",
+            "Despair is the only appropriate response to suffering.",
+            "Avoid spiritual discipline when discouraged."
+          ],
+          "correctAnswer": "Rejoicing and prayer sustain believers even in hardship.",
+          "explanation": "While imprisoned in Rome, Paul encouraged believers to rejoice and pray continually (Philippians 4:4-7; Ephesians 6:18). His example teaches maintaining joy and spiritual discipline despite suffering (Colossians 4:2).",
+          "verseReference": "Philippians 4:4-7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "paul-medium-q12",
+          "question": "A believer is confused about how justification before God is achieved. Based on Paul's teaching, what biblical truth would you share?",
+          "type": "multiple-choice",
+          "options": [
+            "Justification is by faith in Jesus Christ, not by works of the law.",
+            "Good works alone justify a person before God.",
+            "Faith and works have equal roles in justification.",
+            "Justification depends on following religious rituals."
+          ],
+          "correctAnswer": "Justification is by faith in Jesus Christ, not by works of the law.",
+          "explanation": "Paul clearly teaches justification by faith in Romans 3:28, 5:1 and Galatians 2:16, emphasizing trust in Christ’s work rather than law-keeping. This is foundational to Christian assurance and grace (Ephesians 2:8-9).",
+          "verseReference": "Romans 3:28",
+          "difficulty": "medium"
+        },
+        {
+          "id": "paul-medium-q13",
+          "question": "How does Paul's teaching on the 'body of Christ' in 1 Corinthians help us understand unity and diversity in the church?",
+          "type": "multiple-choice",
+          "options": [
+            "Each member has unique gifts and is vital to the whole body.",
+            "Only a few gifted leaders matter in the church.",
+            "Uniformity in all roles is required for unity.",
+            "Individualism is encouraged over community."
+          ],
+          "correctAnswer": "Each member has unique gifts and is vital to the whole body.",
+          "explanation": "In 1 Corinthians 12:12-27, Paul explains the church as a body with many parts, each necessary. This teaches the value of diverse gifts working together in unity (Ephesians 4:16; Romans 12:4-8).",
+          "verseReference": "1 Corinthians 12:12-27",
+          "difficulty": "medium"
+        },
+        {
+          "id": "paul-medium-q14",
+          "question": "True or False: Apostle Paul taught that the resurrection of Jesus is central to Christian hope and faith.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Paul emphasizes the resurrection as essential to faith in 1 Corinthians 15:12-22 and Romans 6:4-5, stating that without it, Christian hope is in vain.",
+          "verseReference": "1 Corinthians 15:12-22",
+          "difficulty": "medium"
+        },
+        {
+          "id": "paul-medium-q15",
+          "question": "True or False: Paul instructed Timothy to avoid teaching sound doctrine to prevent offending others.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Paul urges Timothy to preach sound doctrine boldly (2 Timothy 4:2-4) despite opposition, emphasizing faithfulness over popularity (1 Timothy 4:13-16).",
+          "verseReference": "2 Timothy 4:2",
+          "difficulty": "medium"
+        }
+      ],
+      "difficulty": "medium",
+      "isBookQuiz": false,
+      "slug": "paul-quiz",
+      "tags": [
+        "paul",
+        "apostle",
+        "missionary",
+        "new testament",
+        "epistles",
+        "conversion",
+        "church",
+        "medium"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 12
+    },
+    "hard": {
+      "id": "paul-character-hard",
+      "title": "Apostle Paul Quiz - Hard Level",
+      "description": "Challenge yourself with deep analysis and cross-biblical connections about Apostle Paul.",
+      "type": "character",
+      "character": "Apostle Paul",
+      "questions": [
+        {
+          "id": "paul-hard-q1",
+          "question": "Before his conversion, what was Saul's primary activity regarding early Christians?",
+          "type": "multiple-choice",
+          "options": [
+            "Persecuting and imprisoning Christians",
+            "Preaching in synagogues",
+            "Collecting offerings for the church",
+            "Translating Scripture"
+          ],
+          "correctAnswer": "Persecuting and imprisoning Christians",
+          "explanation": "Acts 8:3 describes Saul as ravaging the church and entering houses to drag off men and women, showing his active persecution of Christians.",
+          "verseReference": "Acts 8:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-hard-q2",
+          "question": "During Saul's encounter on the Damascus road, what question did Jesus ask him?",
+          "type": "multiple-choice",
+          "options": [
+            "\"Saul, Saul, why are you persecuting me?\"",
+            "\"Why do you flee from me?\"",
+            "\"Do you believe in the Son of Man?\"",
+            "\"Are you the chosen one?\""
+          ],
+          "correctAnswer": "\"Saul, Saul, why are you persecuting me?\"",
+          "explanation": "In Acts 9:4, Jesus addresses Saul with this question, revealing the identification of the church with Christ himself.",
+          "verseReference": "Acts 9:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-hard-q3",
+          "question": "Where did Barnabas first bring Saul to join the Christian community after his conversion?",
+          "type": "multiple-choice",
+          "options": [
+            "Antioch",
+            "Jerusalem",
+            "Caesarea",
+            "Tarsus"
+          ],
+          "correctAnswer": "Antioch",
+          "explanation": "Acts 11:25-26 narrates Barnabas bringing Saul to Antioch where they taught the church for a whole year, marking the beginning of Saul's wider ministry.",
+          "verseReference": "Acts 11:25-26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-hard-q4",
+          "question": "Which city was NOT visited during Paul's first missionary journey?",
+          "type": "multiple-choice",
+          "options": [
+            "Ephesus",
+            "Iconium",
+            "Lystra",
+            "Derbe"
+          ],
+          "correctAnswer": "Ephesus",
+          "explanation": "Acts 13-14 records the first missionary journey including Iconium, Lystra, and Derbe, but Ephesus is visited later on the second journey (Acts 18:19).",
+          "verseReference": "Acts 13:4-14:23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-hard-q5",
+          "question": "What was the main issue debated at the Jerusalem Council involving Paul and the apostles?",
+          "type": "multiple-choice",
+          "options": [
+            "Whether Gentile believers must be circumcised",
+            "Whether Christians should observe Jewish dietary laws",
+            "Whether to include women in leadership",
+            "Whether to celebrate Jewish festivals"
+          ],
+          "correctAnswer": "Whether Gentile believers must be circumcised",
+          "explanation": "Acts 15:1-29 describes the council debating if Gentile converts must follow Mosaic law, especially circumcision, affirming salvation by grace.",
+          "verseReference": "Acts 15:1-29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-hard-q6",
+          "question": "During Paul's second missionary journey, which city did he visit where he met a woman named Lydia?",
+          "type": "multiple-choice",
+          "options": [
+            "Philippi",
+            "Corinth",
+            "Thessalonica",
+            "Athens"
+          ],
+          "correctAnswer": "Philippi",
+          "explanation": "Acts 16:14 introduces Lydia, a seller of purple goods in Philippi, who becomes one of the first European converts.",
+          "verseReference": "Acts 16:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-hard-q7",
+          "question": "What key doctrine does Paul emphasize in Romans 3:28?",
+          "type": "multiple-choice",
+          "options": [
+            "Justification by faith apart from works of the law",
+            "The resurrection of the dead",
+            "Spiritual gifts for the church",
+            "The unity of Jew and Gentile in Christ"
+          ],
+          "correctAnswer": "Justification by faith apart from works of the law",
+          "explanation": "Romans 3:28 states that a person is justified by faith apart from the works of the law, a central Pauline doctrine.",
+          "verseReference": "Romans 3:28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-hard-q8",
+          "question": "Paul uses the metaphor of the 'body' to describe the church in which letter?",
+          "type": "multiple-choice",
+          "options": [
+            "1 Corinthians",
+            "Galatians",
+            "Philippians",
+            "Romans"
+          ],
+          "correctAnswer": "1 Corinthians",
+          "explanation": "In 1 Corinthians 12:12-27, Paul explains the church as one body with many members, emphasizing unity and diversity.",
+          "verseReference": "1 Corinthians 12:12-27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-hard-q9",
+          "question": "What was Paul's 'thorn in the flesh' as described in 2 Corinthians 12:7?",
+          "type": "multiple-choice",
+          "options": [
+            "A persistent physical ailment",
+            "Ongoing persecution",
+            "Spiritual temptation",
+            "Opposition from false teachers"
+          ],
+          "correctAnswer": "A persistent physical ailment",
+          "explanation": "Paul mentions a 'thorn in the flesh' given to keep him from pride, commonly interpreted as a physical weakness or ailment (2 Corinthians 12:7).",
+          "verseReference": "2 Corinthians 12:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-hard-q10",
+          "question": "True or False: Paul was shipwrecked on the island of Malta during his journey to Rome as a prisoner.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Acts 27:39-44 and 28:1 record Paul's shipwreck on Malta while being transported to Rome.",
+          "verseReference": "Acts 27:39-44; 28:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-hard-q11",
+          "question": "Before which Roman governor did Paul first make his defense after his arrest in Jerusalem?",
+          "type": "multiple-choice",
+          "options": [
+            "Felix",
+            "Festus",
+            "Agrippa",
+            "Pilate"
+          ],
+          "correctAnswer": "Felix",
+          "explanation": "Acts 24:24-27 describes Paul's appearance before Felix where he defends his faith and is kept in custody.",
+          "verseReference": "Acts 24:24-27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-hard-q12",
+          "question": "In Paul's letter to Philemon, what relationship does he emphasize between Philemon and Onesimus?",
+          "type": "multiple-choice",
+          "options": [
+            "Brotherhood in Christ",
+            "Master and servant",
+            "Roman citizens",
+            "Fellow Pharisees"
+          ],
+          "correctAnswer": "Brotherhood in Christ",
+          "explanation": "Philemon 1:16 urges Philemon to receive Onesimus no longer as a slave but as a beloved brother in Christ.",
+          "verseReference": "Philemon 1:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-hard-q13",
+          "question": "Which epistle contains Paul's teaching about the resurrection of the dead as central to Christian faith?",
+          "type": "multiple-choice",
+          "options": [
+            "1 Corinthians",
+            "Ephesians",
+            "Colossians",
+            "Galatians"
+          ],
+          "correctAnswer": "1 Corinthians",
+          "explanation": "1 Corinthians 15 extensively discusses the resurrection of the dead, affirming its essential place in the gospel.",
+          "verseReference": "1 Corinthians 15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-hard-q14",
+          "question": "In which city did Paul spend 18 months teaching, leading to a strong and influential church, during his second missionary journey?",
+          "type": "multiple-choice",
+          "options": [
+            "Corinth",
+            "Ephesus",
+            "Antioch",
+            "Philippi"
+          ],
+          "correctAnswer": "Corinth",
+          "explanation": "Acts 18:11 notes Paul stayed in Corinth for a year and a half, establishing the church there.",
+          "verseReference": "Acts 18:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-hard-q15",
+          "question": "Paul describes the gift of speaking in tongues as one of many spiritual gifts in which letter?",
+          "type": "multiple-choice",
+          "options": [
+            "1 Corinthians",
+            "Romans",
+            "Philippians",
+            "Galatians"
+          ],
+          "correctAnswer": "1 Corinthians",
+          "explanation": "1 Corinthians 12 and 14 discuss spiritual gifts including speaking in tongues and their proper use in the church.",
+          "verseReference": "1 Corinthians 12;14",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "paul-quiz",
+      "tags": [
+        "paul",
+        "apostle",
+        "missionary",
+        "new testament",
+        "epistles",
+        "conversion",
+        "church",
+        "hard"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 15
+    },
+    "theological": {
+      "id": "paul-character-theological",
+      "title": "Apostle Paul Quiz - Theological Level",
+      "description": "Deep biblical theology exploring Apostle Paul's significance in God's redemptive plan.",
+      "type": "character",
+      "character": "Apostle Paul",
+      "questions": [
+        {
+          "id": "paul-theological-q1",
+          "question": "Before his conversion, how did Saul (later Paul) persecute the early Christians?",
+          "type": "multiple-choice",
+          "options": [
+            "He approved the stoning of Stephen",
+            "He financially supported Christian communities",
+            "He preached forgiveness towards Christians",
+            "He baptized new believers"
+          ],
+          "correctAnswer": "He approved the stoning of Stephen",
+          "explanation": "Acts 7:58-8:1 shows Saul approving Stephen's stoning, highlighting his initial role in persecuting Christians, consistent with his zeal against the church as seen in Acts 9:1-2; Philippians 3:6; Galatians 1:13; and 1 Timothy 1:13.",
+          "verseReference": "Acts 7:58",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-theological-q2",
+          "question": "What key event led to Saul’s conversion and transformation into Paul?",
+          "type": "multiple-choice",
+          "options": [
+            "A vision of Jesus on the road to Damascus",
+            "A miraculous healing in Jerusalem",
+            "A dream of the risen Christ in Antioch",
+            "An angelic visitation in Rome"
+          ],
+          "correctAnswer": "A vision of Jesus on the road to Damascus",
+          "explanation": "Acts 9:3-6 recounts Saul's encounter with the risen Christ on the Damascus road, which marks his conversion. This event reveals Christ's lordship (1 Timothy 1:15), the power to save sinners (Titus 3:5), and fulfills Old Testament prophecy of God's salvation (Isaiah 53:5; Jeremiah 31:34; Joel 2:28).",
+          "verseReference": "Acts 9:3-6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-theological-q3",
+          "question": "Where was Paul first significantly involved in ministry alongside Barnabas after his conversion?",
+          "type": "multiple-choice",
+          "options": [
+            "Antioch",
+            "Corinth",
+            "Philippi",
+            "Ephesus"
+          ],
+          "correctAnswer": "Antioch",
+          "explanation": "Acts 11:25-26 describes Paul and Barnabas teaching in Antioch, where disciples were first called Christians. This ministry hub reflects the church's expansion (Acts 13:1-3), unity in mission (Romans 15:26), and the fulfillment of the Abrahamic blessing (Genesis 12:3).",
+          "verseReference": "Acts 11:25-26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-theological-q4",
+          "question": "During Paul’s first missionary journey, which island did he and Barnabas primarily evangelize?",
+          "type": "multiple-choice",
+          "options": [
+            "Cyprus",
+            "Crete",
+            "Malta",
+            "Rhodes"
+          ],
+          "correctAnswer": "Cyprus",
+          "explanation": "Acts 13:4-12 details the journey to Cyprus, where Paul confronted a sorcerer Elymas, demonstrating the gospel's triumph over falsehood, consistent with God's sovereignty in salvation (Isaiah 42:6-7; Psalm 2:8; Jeremiah 1:5; Matthew 28:19-20).",
+          "verseReference": "Acts 13:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-theological-q5",
+          "question": "What was the main issue addressed at the Jerusalem Council involving Paul and the apostles?",
+          "type": "multiple-choice",
+          "options": [
+            "Whether Gentile believers must be circumcised",
+            "The date for celebrating Passover",
+            "The role of women in the church",
+            "The necessity of tithing"
+          ],
+          "correctAnswer": "Whether Gentile believers must be circumcised",
+          "explanation": "Acts 15:1-29 recounts the Jerusalem Council debating circumcision for Gentiles, affirming salvation by grace through faith apart from works of the law (Galatians 2:16; Romans 3:28; Ephesians 2:8-9; Philippians 3:3).",
+          "verseReference": "Acts 15:5-6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-theological-q6",
+          "question": "Which city was a major center for Paul’s second missionary journey where he established a strong church?",
+          "type": "multiple-choice",
+          "options": [
+            "Corinth",
+            "Jerusalem",
+            "Lystra",
+            "Thessalonica"
+          ],
+          "correctAnswer": "Corinth",
+          "explanation": "Acts 18:1-11 shows Paul’s extended ministry in Corinth, emphasizing justification by faith (Romans 5:1), unity in the body of Christ (1 Corinthians 12:12-27), and resurrection hope (1 Corinthians 15:20-22), aligning with God's covenant promises (Genesis 12:1-3).",
+          "verseReference": "Acts 18:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-theological-q7",
+          "question": "What was a key doctrinal theme Paul taught in Ephesians regarding the church?",
+          "type": "multiple-choice",
+          "options": [
+            "The church as the body of Christ",
+            "The restoration of Israel's monarchy",
+            "The necessity of temple sacrifices",
+            "The exclusive role of Jewish believers"
+          ],
+          "correctAnswer": "The church as the body of Christ",
+          "explanation": "Ephesians 1:22-23 presents the church as Christ's body, revealing the mystery of God's plan to unite Jews and Gentiles (Ephesians 2:14-16), fulfilling Old Testament promises (Isaiah 11:10; Ezekiel 37:24-28; Psalm 22:27).",
+          "verseReference": "Ephesians 1:22-23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-theological-q8",
+          "question": "Which Apostle Paul metaphorically described his struggle with a 'thorn in the flesh'?",
+          "type": "multiple-choice",
+          "options": [
+            "A persistent physical ailment",
+            "A temptation to sin",
+            "A financial hardship",
+            "A conflict with Peter"
+          ],
+          "correctAnswer": "A persistent physical ailment",
+          "explanation": "2 Corinthians 12:7-9 refers to Paul's 'thorn in the flesh,' likely a physical affliction, illustrating God's power in weakness (Isaiah 40:29; Psalm 73:26; John 9:1-3; Romans 8:28), emphasizing grace over human strength.",
+          "verseReference": "2 Corinthians 12:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-theological-q9",
+          "question": "During Paul’s arrest and trials, before which Roman governor did he first give his defense?",
+          "type": "multiple-choice",
+          "options": [
+            "Felix",
+            "Festus",
+            "Agrippa",
+            "Pilate"
+          ],
+          "correctAnswer": "Felix",
+          "explanation": "Acts 24:24-27 shows Paul’s defense before Felix, highlighting his witness to the resurrection and righteousness, affirming Christ’s lordship (Acts 23:6; Romans 1:4; 1 Corinthians 15:3-4; Philippians 2:9-11).",
+          "verseReference": "Acts 24:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-theological-q10",
+          "question": "What happened to Paul during his voyage to Rome that demonstrated God’s providence?",
+          "type": "multiple-choice",
+          "options": [
+            "He was shipwrecked on Malta",
+            "He was arrested by pirates",
+            "He was welcomed by Caesar immediately",
+            "He escaped through a secret tunnel"
+          ],
+          "correctAnswer": "He was shipwrecked on Malta",
+          "explanation": "Acts 27:39-44 and 28:1 describe the shipwreck on Malta, showing God’s protection and purpose despite suffering (Psalm 107:23-30; Jonah 1:17; Isaiah 43:2; Romans 8:28; 2 Corinthians 4:8-9).",
+          "verseReference": "Acts 27:41",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-theological-q11",
+          "question": "Which letter of Paul most clearly articulates justification by faith apart from works of the law?",
+          "type": "multiple-choice",
+          "options": [
+            "Romans",
+            "Ephesians",
+            "Philippians",
+            "Colossians"
+          ],
+          "correctAnswer": "Romans",
+          "explanation": "Romans 3:28 and 5:1 emphasize justification by faith alone, echoing Old Testament themes of righteousness credited by faith (Genesis 15:6; Habakkuk 2:4; Isaiah 53:11; Galatians 2:16), foundational for Christian doctrine.",
+          "verseReference": "Romans 3:28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-theological-q12",
+          "question": "In which letter does Paul discuss spiritual gifts and their purpose for the edification of the church?",
+          "type": "multiple-choice",
+          "options": [
+            "1 Corinthians",
+            "Philippians",
+            "Colossians",
+            "Titus"
+          ],
+          "correctAnswer": "1 Corinthians",
+          "explanation": "1 Corinthians 12:4-31 explains spiritual gifts as given by the Spirit for building up the body of Christ, reflecting Old Testament gifting (Exodus 31:3; Numbers 11:25; Joel 2:28) and New Testament unity (Ephesians 4:11-13).",
+          "verseReference": "1 Corinthians 12:4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-theological-q13",
+          "question": "What is the primary hope Paul emphasizes concerning resurrection in his letters?",
+          "type": "multiple-choice",
+          "options": [
+            "Believers will be raised imperishable like Christ",
+            "Only the soul lives on after death",
+            "Resurrection applies only to Israel",
+            "The body remains in the grave forever"
+          ],
+          "correctAnswer": "Believers will be raised imperishable like Christ",
+          "explanation": "1 Corinthians 15:42-44 teaches resurrection bodies will be imperishable and glorified like Christ’s, affirming the doctrine of bodily resurrection (Daniel 12:2; Job 19:25-27; Isaiah 26:19; John 11:25).",
+          "verseReference": "1 Corinthians 15:42",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-theological-q14",
+          "question": "Which letter of Paul was written to encourage a young pastor to remain faithful despite opposition and false teaching?",
+          "type": "multiple-choice",
+          "options": [
+            "2 Timothy",
+            "Philippians",
+            "Galatians",
+            "1 Thessalonians"
+          ],
+          "correctAnswer": "2 Timothy",
+          "explanation": "2 Timothy 1:6-14 exhorts Timothy to persevere in sound doctrine amid hardship, mirroring Old Testament encouragement to faithful leaders (Joshua 1:9; Psalm 27:14; Isaiah 40:31; Jeremiah 1:17).",
+          "verseReference": "2 Timothy 1:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "paul-theological-q15",
+          "question": "How does Paul describe the relationship between law and grace in Galatians?",
+          "type": "multiple-choice",
+          "options": [
+            "The law was a tutor until Christ came",
+            "The law is the means of salvation",
+            "Grace is unnecessary if the law is kept",
+            "The law and grace are identical"
+          ],
+          "correctAnswer": "The law was a tutor until Christ came",
+          "explanation": "Galatians 3:24-25 calls the law a guardian until Christ, pointing to salvation by grace through faith (Exodus 19:6; Deuteronomy 6:5; Isaiah 61:1-3; Romans 6:14), demonstrating the new covenant fulfillment.",
+          "verseReference": "Galatians 3:24",
+          "difficulty": "hard"
+        }
+      ],
+      "difficulty": "hard",
+      "isBookQuiz": false,
+      "slug": "paul-quiz",
+      "tags": [
+        "paul",
+        "apostle",
+        "missionary",
+        "new testament",
+        "epistles",
+        "conversion",
+        "church",
+        "theological"
+      ],
+      "totalQuestions": 15,
+      "estimatedTime": 25
+    }
+  }
+}

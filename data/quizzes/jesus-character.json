@@ -1,0 +1,243 @@
+{
+  "id": "jesus-character-easy",
+  "title": "Jesus Christ Quiz - Easy Level",
+  "description": "Perfect for beginners! Test your basic knowledge of Jesus Christ in the Bible.",
+  "type": "character",
+  "character": "Jesus Christ",
+  "questions": [
+    {
+      "id": "jesus-easy-q1",
+      "question": "In which Gospel is the account of Jesus' Sermon on the Mount primarily found?",
+      "type": "multiple-choice",
+      "options": [
+        "Matthew",
+        "Mark",
+        "Luke",
+        "John"
+      ],
+      "correctAnswer": "Matthew",
+      "explanation": "The Sermon on the Mount is mainly recorded in Matthew chapters 5 to 7.",
+      "verseReference": "Matthew 5:1-2",
+      "difficulty": "easy"
+    },
+    {
+      "id": "jesus-easy-q2",
+      "question": "Who baptized Jesus according to the Bible?",
+      "type": "multiple-choice",
+      "options": [
+        "John the Baptist",
+        "Peter",
+        "Paul",
+        "Elijah"
+      ],
+      "correctAnswer": "John the Baptist",
+      "explanation": "Jesus was baptized by John the Baptist as described in the Gospels.",
+      "verseReference": "Mark 1:9",
+      "difficulty": "easy"
+    },
+    {
+      "id": "jesus-easy-q3",
+      "question": "Which miracle did Jesus perform at the wedding in Cana?",
+      "type": "multiple-choice",
+      "options": [
+        "Turning water into wine",
+        "Feeding 5000",
+        "Walking on water",
+        "Healing a blind man"
+      ],
+      "correctAnswer": "Turning water into wine",
+      "explanation": "Jesus' first recorded miracle was turning water into wine at Cana.",
+      "verseReference": "John 2:1-11",
+      "difficulty": "easy"
+    },
+    {
+      "id": "jesus-easy-q4",
+      "question": "What parable did Jesus use to teach about forgiveness and mercy?",
+      "type": "multiple-choice",
+      "options": [
+        "The Parable of the Prodigal Son",
+        "The Parable of the Sower",
+        "The Parable of the Talents",
+        "The Parable of the Good Samaritan"
+      ],
+      "correctAnswer": "The Parable of the Prodigal Son",
+      "explanation": "The Parable of the Prodigal Son illustrates forgiveness and mercy.",
+      "verseReference": "Luke 15:11-32",
+      "difficulty": "easy"
+    },
+    {
+      "id": "jesus-easy-q5",
+      "question": "Where did Jesus pray before His arrest?",
+      "type": "multiple-choice",
+      "options": [
+        "Garden of Gethsemane",
+        "Mount of Olives",
+        "Capernaum",
+        "Bethlehem"
+      ],
+      "correctAnswer": "Garden of Gethsemane",
+      "explanation": "Jesus prayed in the Garden of Gethsemane before His arrest.",
+      "verseReference": "Matthew 26:36-39",
+      "difficulty": "easy"
+    },
+    {
+      "id": "jesus-easy-q6",
+      "question": "Who denied Jesus three times before the rooster crowed?",
+      "type": "multiple-choice",
+      "options": [
+        "Peter",
+        "John",
+        "Judas",
+        "Thomas"
+      ],
+      "correctAnswer": "Peter",
+      "explanation": "Peter denied Jesus three times as Jesus predicted.",
+      "verseReference": "Mark 14:66-72",
+      "difficulty": "easy"
+    },
+    {
+      "id": "jesus-easy-q7",
+      "question": "True or False: Jesus was crucified during the Jewish festival of Passover.",
+      "type": "true-false",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanation": "Jesus was crucified during Passover, as recorded in the Gospels.",
+      "verseReference": "John 19:14",
+      "difficulty": "easy"
+    },
+    {
+      "id": "jesus-easy-q8",
+      "question": "Who witnessed the Transfiguration of Jesus alongside Peter and John?",
+      "type": "multiple-choice",
+      "options": [
+        "James",
+        "Andrew",
+        "Philip",
+        "Matthew"
+      ],
+      "correctAnswer": "James",
+      "explanation": "Peter, James, and John witnessed the Transfiguration.",
+      "verseReference": "Mark 9:2-7",
+      "difficulty": "easy"
+    },
+    {
+      "id": "jesus-easy-q9",
+      "question": "Which disciple walked on water toward Jesus but began to sink?",
+      "type": "multiple-choice",
+      "options": [
+        "Peter",
+        "John",
+        "James",
+        "Andrew"
+      ],
+      "correctAnswer": "Peter",
+      "explanation": "Peter walked on water toward Jesus but sank when afraid.",
+      "verseReference": "Matthew 14:28-31",
+      "difficulty": "easy"
+    },
+    {
+      "id": "jesus-easy-q10",
+      "question": "What is the key message of Jesus' teachings on the Kingdom of God?",
+      "type": "multiple-choice",
+      "options": [
+        "Repentance and faith",
+        "Wealth and power",
+        "Political rebellion",
+        "Legalism"
+      ],
+      "correctAnswer": "Repentance and faith",
+      "explanation": "Jesus taught that entering the Kingdom of God requires repentance and faith.",
+      "verseReference": "Mark 1:15",
+      "difficulty": "easy"
+    },
+    {
+      "id": "jesus-easy-q11",
+      "question": "True or False: Jesus called Matthew, a tax collector, to be one of His disciples.",
+      "type": "true-false",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanation": "Jesus called Matthew, the tax collector, to follow Him.",
+      "verseReference": "Matthew 9:9",
+      "difficulty": "easy"
+    },
+    {
+      "id": "jesus-easy-q12",
+      "question": "During the Last Supper, what did Jesus use to symbolize His body?",
+      "type": "multiple-choice",
+      "options": [
+        "Bread",
+        "Wine",
+        "Olives",
+        "Fish"
+      ],
+      "correctAnswer": "Bread",
+      "explanation": "Jesus broke bread to symbolize His body given for believers.",
+      "verseReference": "Luke 22:19",
+      "difficulty": "easy"
+    },
+    {
+      "id": "jesus-easy-q13",
+      "question": "Fill in the blank: Jesus said, \"I am the _____ of life.\"",
+      "type": "fill-blank",
+      "options": [
+        "light",
+        "bread",
+        "door",
+        "life"
+      ],
+      "correctAnswer": "light",
+      "explanation": "Jesus said, 'I am the light of life' indicating He brings spiritual illumination.",
+      "verseReference": "John 8:12",
+      "difficulty": "easy"
+    },
+    {
+      "id": "jesus-easy-q14",
+      "question": "True or False: Jesus ascended to heaven in the presence of His disciples.",
+      "type": "true-false",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "explanation": "Jesus ascended to heaven before His disciples' eyes.",
+      "verseReference": "Acts 1:9-11",
+      "difficulty": "easy"
+    },
+    {
+      "id": "jesus-easy-q15",
+      "question": "What is one of the signs Jesus gave about His Second Coming?",
+      "type": "multiple-choice",
+      "options": [
+        "The sun will be darkened",
+        "The sea will dry up",
+        "The mountains will move",
+        "All people will become rich"
+      ],
+      "correctAnswer": "The sun will be darkened",
+      "explanation": "Jesus said the sun will be darkened as a sign of His return.",
+      "verseReference": "Matthew 24:29",
+      "difficulty": "easy"
+    }
+  ],
+  "difficulty": "easy",
+  "isBookQuiz": false,
+  "slug": "jesus-quiz",
+  "tags": [
+    "jesus",
+    "christ",
+    "gospels",
+    "new testament",
+    "messiah",
+    "savior",
+    "son of god",
+    "easy"
+  ],
+  "totalQuestions": 15,
+  "estimatedTime": 8
+}
