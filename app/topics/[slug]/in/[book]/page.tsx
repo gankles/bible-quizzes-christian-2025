@@ -18,12 +18,18 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { slug, book } = await params
-    const topicName = slug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())
-    const bookName = book.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())
+    const [data, bookData] = await Promise.all([
+        getTopicInBook(slug, book),
+        getBook(book)
+    ])
+    const topicName = data?.name || slug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())
+    const bookName = bookData?.name || book.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())
+    const count = data?.verses?.length || 0
+    const chapterCount = count > 0 ? new Set(data.verses.map((v: any) => v.chapter)).size : 0
 
     return {
-        title: `${topicName} in ${bookName} - Bible Verses & Study Guide | Bible Maximum`,
-        description: `Explore Bible verses about ${topicName} in the Book of ${bookName}. Key scriptures, frequency analysis, and theological context.`,
+        title: `${topicName} in ${bookName} — ${count} Bible Verses Across ${chapterCount} Chapters | Bible Maximum`,
+        description: `Study ${count} Bible verses about ${topicName} in ${bookName}, spanning ${chapterCount} chapters. Read each verse in context with cross-references and chapter quizzes.`,
         alternates: { canonical: `/topics/${slug}/in/${book}` },
     }
 }
@@ -37,10 +43,22 @@ export default async function TopicInBookPage({ params }: Props) {
 
     if (!data || !bookData) notFound()
 
-    const { name: topicName, verses } = data
+    const { name: topicName, verses, category, relatedTopics } = data
     const { name: bookName } = bookData
 
     const frequency = verses.length
+
+    // Chapter distribution analysis
+    const chapterMap: Record<number, number> = {}
+    verses.forEach((v: any) => {
+        chapterMap[v.chapter] = (chapterMap[v.chapter] || 0) + 1
+    })
+    const chapters = Object.entries(chapterMap)
+        .sort(([a], [b]) => Number(a) - Number(b))
+    const topChapter = chapters.reduce((max, cur) =>
+        Number(cur[1]) > Number(max[1]) ? cur : max, chapters[0]
+    )
+    const chapterSpan = chapters.length
 
     return (
         <div className="min-h-screen bg-primary-light/30">
@@ -67,12 +85,14 @@ export default async function TopicInBookPage({ params }: Props) {
             <main className="max-w-4xl mx-auto px-4 py-8">
                 <header className="bg-white rounded-xl shadow-sm border border-grace overflow-hidden mb-6">
                     <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-8">
-                        <p className="text-blue-100 text-sm font-medium mb-2">Thematic Book Study</p>
+                        {category && (
+                            <p className="text-blue-100 text-sm font-medium mb-2">{category}</p>
+                        )}
                         <h1 className="text-3xl font-display font-bold">
                             {topicName} in <span className="text-blue-100">{bookName}</span>
                         </h1>
                         <p className="text-blue-100 mt-2">
-                            Examine how {bookName} presents the theme of {topicName}.
+                            {frequency} verse{frequency !== 1 ? 's' : ''} across {chapterSpan} chapter{chapterSpan !== 1 ? 's' : ''} of {bookName}
                         </p>
                     </div>
                 </header>
@@ -83,29 +103,76 @@ export default async function TopicInBookPage({ params }: Props) {
                         <div className="text-xs text-primary-dark/60 mt-1">Verses Found</div>
                     </div>
                     <div className="bg-white border border-grace rounded-lg shadow-sm p-4 text-center">
-                        <div className="text-2xl font-bold text-blue-600">{bookData.testament}</div>
-                        <div className="text-xs text-primary-dark/60 mt-1">Testament</div>
+                        <div className="text-2xl font-bold text-blue-600">{chapterSpan}</div>
+                        <div className="text-xs text-primary-dark/60 mt-1">Chapters Covered</div>
                     </div>
                     <div className="bg-white border border-grace rounded-lg shadow-sm p-4 text-center">
-                        <div className="text-2xl font-bold text-blue-600">Deep</div>
-                        <div className="text-xs text-primary-dark/60 mt-1">Study Level</div>
+                        <div className="text-2xl font-bold text-blue-600">{bookData.testament === 'old' ? 'OT' : 'NT'}</div>
+                        <div className="text-xs text-primary-dark/60 mt-1">{bookData.testament === 'old' ? 'Old' : 'New'} Testament</div>
                     </div>
                 </div>
 
-                {/* Literary Analysis */}
+                {/* Chapter Distribution */}
                 <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
-                    <h2 className="text-lg font-bold text-scripture mb-4">Literary & Theological Context</h2>
-                    <p className="text-primary-dark/70 leading-relaxed">
-                        The author of {bookName} treats the theme of {topicName} with emphasis on its theological significance.
-                        Unlike other books in the {bookData.testament} Testament, {bookName} highlights the practical application
-                        of {topicName} within its unique historical and literary context.
+                    <h2 className="text-lg font-bold text-scripture mb-4">Chapter Distribution</h2>
+                    <p className="text-primary-dark/70 leading-relaxed mb-4">
+                        References to {topicName} appear in {chapterSpan} of {bookData.chapters} chapters in {bookName}.
+                        {topChapter && Number(topChapter[1]) > 1 && (
+                            <> Chapter {topChapter[0]} contains the highest concentration with {topChapter[1]} verse{Number(topChapter[1]) !== 1 ? 's' : ''}.</>
+                        )}
                     </p>
+                    <div className="flex flex-wrap gap-2">
+                        {chapters.map(([ch, count]) => (
+                            <Link
+                                key={ch}
+                                href={`/${book}-${ch}-quiz`}
+                                className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-blue-50 text-blue-700 rounded-lg text-sm hover:bg-blue-100 transition-colors"
+                            >
+                                <span className="font-medium">Ch. {ch}</span>
+                                <span className="text-blue-500 text-xs">({count})</span>
+                            </Link>
+                        ))}
+                    </div>
                 </section>
 
-                {/* Key Verses */}
+                {/* Highlighted Verse */}
+                {verses.length > 0 && (
+                    <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
+                        <h2 className="text-lg font-bold text-scripture mb-3">Key Verse</h2>
+                        <blockquote className="text-lg text-primary-dark/80 leading-relaxed border-l-4 border-blue-600 pl-4 italic mb-3">
+                            &ldquo;{verses[0].text}&rdquo;
+                        </blockquote>
+                        <Link
+                            href={`/verses/${verses[0].book}/${verses[0].chapter}/${verses[0].verse}`}
+                            className="text-blue-600 font-medium hover:underline text-sm"
+                        >
+                            {bookName} {verses[0].chapter}:{verses[0].verse}
+                        </Link>
+                    </section>
+                )}
+
+                {/* Related Topics */}
+                {relatedTopics && relatedTopics.length > 0 && (
+                    <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
+                        <h2 className="text-lg font-bold text-scripture mb-3">Related Topics</h2>
+                        <div className="flex flex-wrap gap-2">
+                            {relatedTopics.slice(0, 10).map((rt: string) => (
+                                <Link
+                                    key={rt}
+                                    href={`/topics/${rt}`}
+                                    className="px-3 py-1.5 bg-primary-light/50 border border-grace rounded-full text-sm text-primary-dark/70 hover:border-blue-300 hover:text-blue-600 transition-colors capitalize"
+                                >
+                                    {rt.replace(/-/g, ' ')}
+                                </Link>
+                            ))}
+                        </div>
+                    </section>
+                )}
+
+                {/* All Verses */}
                 <section className="mb-6">
                     <h2 className="text-xl font-bold text-scripture mb-4">
-                        {frequency} Key Verses on {topicName} in {bookName}
+                        All {frequency} Verses on {topicName} in {bookName}
                     </h2>
 
                     <div className="space-y-4">

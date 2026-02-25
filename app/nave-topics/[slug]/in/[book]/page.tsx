@@ -159,11 +159,25 @@ export default async function NaveTopicInBookPage({ params }: PageProps) {
           </div>
         )}
 
+        {/* Study CTA */}
+        <section className="bg-blue-600 rounded-xl p-6 mb-8 text-white flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div>
+            <h3 className="text-lg font-bold">Study the Book of {bookName}</h3>
+            <p className="text-blue-100 text-sm">Take chapter quizzes and explore every chapter in depth.</p>
+          </div>
+          <Link
+            href={`/${book}-chapters`}
+            className="whitespace-nowrap px-6 py-3 bg-white text-blue-600 rounded-lg font-semibold hover:bg-grace/20 transition-colors"
+          >
+            {bookName} Chapters
+          </Link>
+        </section>
+
         {/* Back to full topic */}
         <div className="flex items-center justify-center mb-10">
           <Link
             href={`/nave-topics/${topic.slug}`}
-            className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+            className="px-6 py-3 bg-scripture text-white font-medium rounded-lg hover:bg-scripture/90 transition-colors"
           >
             View All {name} References ({topic.refCount} total)
           </Link>
