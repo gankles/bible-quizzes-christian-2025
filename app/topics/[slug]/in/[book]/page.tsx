@@ -25,7 +25,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         title: `${topicName} in ${bookName} - Bible Verses & Study Guide | Bible Maximum`,
         description: `Explore Bible verses about ${topicName} in the Book of ${bookName}. Key scriptures, frequency analysis, and theological context.`,
         alternates: { canonical: `/topics/${slug}/in/${book}` },
-        robots: { index: false, follow: true },
     }
 }
 

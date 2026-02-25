@@ -40,7 +40,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       type: 'article',
     },
     alternates: { canonical: `/nave-topics/${slug}/in/${book}` },
-    robots: { index: false, follow: true },
   };
 }
 
