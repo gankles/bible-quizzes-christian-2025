@@ -165,6 +165,10 @@ export default async function VersePage({ params }: VersePageProps) {
           <h1 className="text-xl sm:text-2xl font-semibold font-display text-scripture">
             What Does {data.reference} Mean?
           </h1>
+          <p className="mt-3 text-primary-dark/70 text-sm max-w-xl mx-auto">
+            {data.reference} in the King James Version says &ldquo;{verseText.substring(0, 120)}{verseText.length > 120 ? '...' : ''}&rdquo;{' '}
+            — study this verse from {data.bookName} chapter {chapter} with commentary, cross-references, and original {isOT ? 'Hebrew' : 'Greek'} word analysis.
+          </p>
         </div>
 
         <blockquote className="mt-8 font-serif text-[1.75rem] sm:text-[2rem] md:text-[2.25rem] leading-[1.6] text-scripture italic text-center">

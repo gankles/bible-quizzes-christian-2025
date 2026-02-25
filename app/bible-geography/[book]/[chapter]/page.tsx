@@ -168,6 +168,25 @@ export default async function ChapterGeographyPage({ params }: PageProps) {
         </div>
       </section>
 
+      {/* Continue Your Study */}
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <h2 className="text-xl font-bold text-scripture mb-4">Continue Your Study</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <Link href={`/${book}-${ch}-quiz`} className="block p-4 bg-blue-50 rounded-lg border border-blue-200 hover:border-blue-400 hover:shadow-md transition-all text-center">
+            <span className="font-semibold text-blue-800 block">Take the Quiz</span>
+            <span className="text-xs text-blue-600">Test your knowledge of this chapter</span>
+          </Link>
+          <Link href={`/bible-chapter-summaries/${book}/${ch}`} className="block p-4 bg-green-50 rounded-lg border border-green-200 hover:border-green-400 hover:shadow-md transition-all text-center">
+            <span className="font-semibold text-green-800 block">Chapter Summary</span>
+            <span className="text-xs text-green-600">Read the key events and themes</span>
+          </Link>
+          <Link href={`/${book}-chapters`} className="block p-4 bg-purple-50 rounded-lg border border-purple-200 hover:border-purple-400 hover:shadow-md transition-all text-center">
+            <span className="font-semibold text-purple-800 block">All Chapters</span>
+            <span className="text-xs text-purple-600">Browse all chapter quizzes</span>
+          </Link>
+        </div>
+      </div>
+
       {/* Internal Links */}
       <section className="max-w-6xl mx-auto px-4 pb-12">
         <div className="bg-primary-light/30 border border-grace rounded-xl p-6">

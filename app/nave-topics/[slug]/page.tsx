@@ -136,8 +136,8 @@ export default async function NaveTopicPage({ params }: PageProps) {
           <h1 className="text-3xl md:text-4xl font-display font-bold text-scripture mb-2 capitalize">
             {name}
           </h1>
-          <p className="text-lg text-primary-dark/70">
-            {topic.refCount} scripture references across {topic.books.length} books of the Bible
+          <p className="text-primary-dark/70">
+            Explore {topic.refCount} scripture references about {name.toLowerCase()} from Nave&apos;s Topical Bible, spanning {topic.books.length} books of the Bible with categorized entries, verse text, and cross-references.
           </p>
         </div>
 

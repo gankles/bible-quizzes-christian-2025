@@ -146,11 +146,8 @@ export default async function CommandmentPage({ params }: PageProps) {
             <h1 className="text-2xl md:text-3xl font-display font-bold text-scripture">
               {cmd.concept}
             </h1>
-            <p className="text-sm text-primary-dark/70 mt-2">
-              {ref} &middot;{' '}
-              <Link href={`/commandments/category/${categorySlug(cmd.category)}`} className="text-blue-600 hover:underline">
-                {cmd.category}
-              </Link>
+            <p className="text-primary-dark/70 mt-2 text-sm">
+              Commandment #{cmd.number} — {cmd.polarity === 'P' ? 'a positive obligation' : 'a prohibition'} from {ref}, classified under {cmd.category} in the 613 commandments of the Torah.
             </p>
           </div>
         </div>

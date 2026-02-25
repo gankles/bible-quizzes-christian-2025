@@ -160,6 +160,13 @@ export default async function EpochPage({ params }: PageProps) {
           <h1 className="text-3xl md:text-4xl font-display font-bold text-scripture mb-2">
             {epoch.name}
           </h1>
+          <p className="text-primary-dark/70 mb-3">
+            {epoch.description
+              ? epoch.description.substring(0, 160).replace(/\n/g, ' ') + (epoch.description.length > 160 ? '...' : '')
+              : `${epoch.name} is a period in the Bible timeline`}
+            {epoch.periodLength !== null ? `, spanning ${epoch.periodLength} years` : ''}
+            {epoch.personId ? ` associated with ${epoch.personId.replace(/_\d+$/, '').replace(/_/g, ' ')}` : ''}.
+          </p>
           {epoch.startYear !== null && (
             <div className="text-lg text-primary-dark/70">
               <span>{ahToBC(epoch.startYear)}</span>

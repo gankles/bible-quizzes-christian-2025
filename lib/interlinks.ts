@@ -36,7 +36,23 @@ export function generateRelatedLinks(quiz: Quiz): InternalLink[] {
       }
     }
 
-    // 2. Cross-references for this chapter (Priority 5)
+    // 2. Chapter Summary (Priority 5)
+    links.push({
+      title: `${quiz.book} ${currentChapter} Summary`,
+      href: `/bible-chapter-summaries/${bookSlug}/${currentChapter}`,
+      description: `Read the full summary of ${quiz.book} chapter ${currentChapter}`,
+      type: 'study-guide' as any
+    });
+
+    // 3. Chapter Geography (Priority 6)
+    links.push({
+      title: `${quiz.book} ${currentChapter} Places & Map`,
+      href: `/bible-geography/${bookSlug}/${currentChapter}`,
+      description: `Explore locations mentioned in ${quiz.book} ${currentChapter}`,
+      type: 'study-guide' as any
+    });
+
+    // 4. Cross-references for this chapter (Priority 7)
     links.push({
       title: `${quiz.book} ${currentChapter} Cross-References`,
       href: `/cross-references/${bookSlug}/${currentChapter}/1`,
@@ -44,7 +60,7 @@ export function generateRelatedLinks(quiz: Quiz): InternalLink[] {
       type: 'study-guide' as any
     });
 
-    // 3. Complete book quiz (Priority 6)
+    // 5. Complete book quiz (Priority 8)
     links.push({
       title: `Complete ${quiz.book} Quiz`,
       href: `/${bookSlug}-quiz`,
@@ -52,7 +68,7 @@ export function generateRelatedLinks(quiz: Quiz): InternalLink[] {
       type: 'book'
     });
 
-    // 4. Related topic/theme quiz if we still need more links (Priority 7)
+    // 6. Related topic/theme quiz if we still need more links (Priority 9)
     if (links.length < 6) {
       const relatedTheme = getRelatedTheme(quiz.book, currentChapter);
       if (relatedTheme) {
@@ -182,8 +198,8 @@ export function generateRelatedLinks(quiz: Quiz): InternalLink[] {
     }
   }
 
-  // Return exactly 6 links total for consistent UI across all quiz pages
-  return links.slice(0, 6);
+  // Return exactly 8 links total for consistent UI across all quiz pages
+  return links.slice(0, 8);
 }
 
 // Helper function to get related theme based on book and chapter content

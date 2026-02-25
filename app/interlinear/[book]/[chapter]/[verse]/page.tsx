@@ -116,9 +116,12 @@ export default async function InterlinearVersePage({ params }: PageProps) {
             <span className="inline-block px-3 py-1 rounded-full bg-blue-600/10 text-blue-600 text-xs font-bold uppercase mb-4">
               {lang} Interlinear
             </span>
-            <h1 className="text-3xl md:text-4xl font-bold text-scripture font-display mb-4">
+            <h1 className="text-3xl md:text-4xl font-bold text-scripture font-display mb-3">
               {bookName} {chapter}:{verse} Interlinear
             </h1>
+            <p className="text-primary-dark/70 text-sm mb-4 max-w-2xl">
+              Word-by-word {lang} interlinear analysis of {bookName} {chapter}:{verse}, showing the original {lang} text with Strong&apos;s numbers, transliteration, and English translation for each word.
+            </p>
             <blockquote className="text-lg text-primary-dark/70 italic border-l-4 border-blue-400 pl-4 py-1">
               &ldquo;{kjvText}&rdquo;
             </blockquote>

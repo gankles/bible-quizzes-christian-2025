@@ -268,6 +268,33 @@ export default function NewTestamentQuizzesPage() {
         )}
       </div>
 
+      {/* Cross-Links to Other Study Resources */}
+      <div className="max-w-5xl mx-auto px-6 py-12">
+        <h2 className="text-2xl font-bold text-scripture mb-2">More Ways to Study the New Testament</h2>
+        <p className="text-primary-dark/60 mb-6">Go deeper with these complementary study tools.</p>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+          {[
+            { name: 'Chapter Summaries', href: '/bible-chapter-summaries', desc: 'Concise summaries for every chapter' },
+            { name: 'Bible Geography', href: '/bible-geography', desc: 'Maps and locations in Scripture' },
+            { name: 'Bible Places', href: '/bible-places', desc: 'Explore biblical locations' },
+            { name: 'Interlinear Bible', href: '/interlinear', desc: 'Greek word-by-word analysis' },
+            { name: 'Greek Lexicon', href: '/lexicon/browse/greek', desc: 'Study original Greek words' },
+            { name: 'Bible Timeline', href: '/timeline', desc: 'Chronological events' },
+            { name: 'Character Quizzes', href: '/bible-quiz-categories', desc: 'Jesus, Moses, David, Paul' },
+            { name: 'Old Testament Quizzes', href: '/old-testament-quizzes', desc: 'Explore the OT foundation' },
+          ].map(link => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="block p-4 bg-white rounded-lg border border-grace hover:border-blue-300 hover:shadow-md transition-all"
+            >
+              <span className="font-semibold text-scripture text-sm block mb-1">{link.name}</span>
+              <span className="text-xs text-primary-dark/50">{link.desc}</span>
+            </Link>
+          ))}
+        </div>
+      </div>
+
       {/* Call to Action */}
       <div className="bg-blue-600 text-white py-12">
         <div className="max-w-4xl mx-auto text-center px-4">

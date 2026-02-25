@@ -181,8 +181,8 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
           <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-8">
             <p className="text-blue-100 text-sm font-medium mb-2">Treasury of Scripture Knowledge</p>
             <h1 className="text-3xl font-display font-bold">{reference} Cross-References</h1>
-            <p className="text-blue-100 mt-2">
-              {crossRefs.length} related scripture{crossRefs.length !== 1 ? 's' : ''} found
+            <p className="text-blue-100 mt-2 max-w-xl">
+              Explore {crossRefs.length} cross-reference{crossRefs.length !== 1 ? 's' : ''} for {reference} from the Treasury of Scripture Knowledge, connecting {bookName} chapter {chapter} verse {verse} to related passages throughout the Bible.
             </p>
           </div>
 

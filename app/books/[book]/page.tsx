@@ -326,9 +326,12 @@ export default async function BookPage({ params }: BookPageProps) {
               <h1 className="text-3xl md:text-4xl font-bold font-display text-white">
                 Book of {metadata.name}
               </h1>
+              <p className="text-white/80 mt-2 text-sm max-w-xl">
+                The Book of {metadata.name} was written by {metadata.author} ({metadata.dateWritten}) and contains {metadata.chapters} chapters and {metadata.verseCount.toLocaleString()} verses. Key themes include {metadata.keyThemes.slice(0, 3).join(', ')}.
+              </p>
             </div>
           </div>
-          
+
           {/* Quick Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 divide-x divide-grace border-b border-grace">
             <div className="p-4 text-center">

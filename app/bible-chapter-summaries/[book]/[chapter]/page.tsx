@@ -517,6 +517,20 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
         <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
           <h2 className="text-xl font-bold text-scripture mb-4">More on {bookData.name}</h2>
           <div className="grid gap-3 sm:grid-cols-2">
+            <Link href={`/${book}-${chapterNum}-quiz`} className="flex items-center justify-between p-3 bg-blue-50 border border-blue-200 rounded-lg hover:border-blue-400 hover:shadow-sm transition-all">
+              <div>
+                <span className="text-blue-700 font-semibold text-sm block">Take the Chapter {chapterNum} Quiz</span>
+                <span className="text-xs text-blue-600/70">Test your knowledge with 60 questions</span>
+              </div>
+              <span className="text-blue-600">&rarr;</span>
+            </Link>
+            <Link href={`/bible-geography/${book}/${chapterNum}`} className="flex items-center justify-between p-3 bg-green-50 border border-green-200 rounded-lg hover:border-green-400 hover:shadow-sm transition-all">
+              <div>
+                <span className="text-green-700 font-semibold text-sm block">Chapter {chapterNum} Places & Map</span>
+                <span className="text-xs text-green-600/70">Explore locations in this chapter</span>
+              </div>
+              <span className="text-green-600">&rarr;</span>
+            </Link>
             <Link href={`/bible-chapter-summaries/${book}`} className="flex items-center justify-between p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
               <div>
                 <span className="text-blue-600 font-semibold text-sm block">All Chapter Summaries</span>
@@ -526,8 +540,8 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
             </Link>
             <Link href={`/${book}-chapters`} className="flex items-center justify-between p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
               <div>
-                <span className="text-blue-600 font-semibold text-sm block">Chapter Quizzes</span>
-                <span className="text-xs text-primary-dark/60">Test each chapter</span>
+                <span className="text-blue-600 font-semibold text-sm block">All Chapter Quizzes</span>
+                <span className="text-xs text-primary-dark/60">Browse all {bookData.name} quizzes</span>
               </div>
               <span className="text-blue-600">&rarr;</span>
             </Link>

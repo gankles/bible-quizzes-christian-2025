@@ -170,9 +170,13 @@ export default async function PersonPage({ params }: PageProps) {
               )}
             </h1>
           </div>
-          {person.uniqueAttribute && (
-            <p className="text-lg text-primary-dark/70 mt-2">{person.uniqueAttribute}</p>
-          )}
+          <p className="text-primary-dark/70 mt-2">
+            {person.uniqueAttribute
+              ? `${person.name} in the Bible — ${person.uniqueAttribute}.`
+              : `${person.name} is a person mentioned in the Bible.`}
+            {person.tribe ? ` ${person.name} belonged to the tribe of ${person.tribe}.` : ''}
+            {totalRefs > 0 ? ` Referenced in ${totalRefs} scripture passage${totalRefs !== 1 ? 's' : ''}.` : ''}
+          </p>
           {nameMeaning && (
             <p className="text-sm text-primary-dark/60 mt-1">
               Name meaning: <Link href={`/bible-names/${nameMeaning.slug}`} className="text-blue-600 hover:underline">&ldquo;{nameMeaning.meaning}&rdquo;</Link>

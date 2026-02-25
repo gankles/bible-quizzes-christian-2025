@@ -22,9 +22,8 @@ const navigation = [
       { name: 'Old Testament', href: '/old-testament-quizzes' },
       { name: 'New Testament', href: '/new-testament-quizzes' },
       { name: 'By Difficulty', href: '/bible-quiz-difficulty' },
-      { name: 'Kids & Youth', href: '/kids-bible-quiz' },
-      { name: 'Popular Quizzes', href: '/popular-bible-quizzes' },
-      { name: 'Daily Quiz', href: '/daily-bible-quiz' }
+      { name: 'Quiz Categories', href: '/bible-quiz-categories' },
+      { name: 'Bible Trivia', href: '/bible-trivia' }
     ]
   },
   {
@@ -32,52 +31,56 @@ const navigation = [
     href: '/bible-quizzes',
     icon: BookOpenIcon,
     children: [
-      { name: 'Genesis', href: '/books/genesis' },
-      { name: 'Exodus', href: '/books/exodus' },
-      { name: 'Psalms', href: '/books/psalms' },
-      { name: 'Proverbs', href: '/books/proverbs' },
-      { name: 'Isaiah', href: '/books/isaiah' },
-      { name: 'Matthew', href: '/books/matthew' },
-      { name: 'John', href: '/books/john' },
-      { name: 'Romans', href: '/books/romans' },
-      { name: 'Revelation', href: '/books/revelation' },
-      { name: 'All 66 Books', href: '/bible-quizzes' }
-    ]
-  },
-  {
-    name: 'Study Guides',
-    href: '/bible-study-guides',
-    icon: AcademicCapIcon,
-    children: [
-      { name: 'All Study Guides', href: '/bible-study-guides' },
-      { name: 'Book Studies', href: '/bible-book-studies' },
-      { name: 'Chapter Studies', href: '/bible-chapter-studies' },
-      { name: 'Reading Plans', href: '/bible-reading-plans' },
-      { name: 'Discussion Questions', href: '/bible-discussion-questions' },
-      { name: 'Interlinear Bible', href: '/interlinear' }
+      { name: 'Genesis', href: '/genesis-chapters' },
+      { name: 'Exodus', href: '/exodus-chapters' },
+      { name: 'Psalms', href: '/psalms-chapters' },
+      { name: 'Proverbs', href: '/proverbs-chapters' },
+      { name: 'Isaiah', href: '/isaiah-chapters' },
+      { name: 'Matthew', href: '/matthew-chapters' },
+      { name: 'John', href: '/john-chapters' },
+      { name: 'Romans', href: '/romans-chapters' },
+      { name: 'Revelation', href: '/revelation-chapters' },
+      { name: 'All 66 Books', href: '/books-of-the-bible' }
     ]
   },
   {
     name: 'Characters',
-    href: '/bible-characters',
+    href: '/bible-quiz-categories',
     icon: UserGroupIcon,
     children: [
-      { name: 'All Characters', href: '/bible-characters' },
-      { name: 'Old Testament', href: '/old-testament-characters' },
-      { name: 'New Testament', href: '/new-testament-characters' },
-      { name: 'Women in Bible', href: '/women-bible-characters' },
-      { name: 'Character Studies', href: '/bible-character-studies' }
+      { name: 'Jesus Quiz', href: '/jesus-quiz' },
+      { name: 'Moses Quiz', href: '/moses-quiz' },
+      { name: 'David Quiz', href: '/david-quiz' },
+      { name: 'Paul Quiz', href: '/paul-quiz' },
+      { name: 'Bible People', href: '/people' },
+      { name: 'Bible Names', href: '/bible-names' }
     ]
   },
   {
-    name: 'Resources',
-    href: '/bible-resources',
+    name: 'Study',
+    href: '/how-to-study-the-bible',
+    icon: AcademicCapIcon,
     children: [
-      { name: 'How to Study', href: '/how-to-study-bible' },
-      { name: 'Bible Timeline', href: '/bible-timeline' },
-      { name: 'Memory Verses', href: '/bible-memory-verses' },
-      { name: 'Downloads', href: '/bible-study-downloads' },
-      { name: 'Teaching Materials', href: '/bible-teaching-materials' }
+      { name: 'Chapter Summaries', href: '/bible-chapter-summaries' },
+      { name: 'Bible Places', href: '/bible-places' },
+      { name: 'Bible Geography', href: '/bible-geography' },
+      { name: 'Bible Maps', href: '/bible-maps' },
+      { name: 'Interlinear Bible', href: '/interlinear' },
+      { name: 'Bible Timeline', href: '/timeline' },
+      { name: 'How to Study', href: '/how-to-study-the-bible' }
+    ]
+  },
+  {
+    name: 'Tools',
+    href: '/lexicon',
+    children: [
+      { name: 'Hebrew Lexicon', href: '/lexicon/browse/hebrew' },
+      { name: 'Greek Lexicon', href: '/lexicon/browse/greek' },
+      { name: 'Hebrew Words', href: '/hebrew-words' },
+      { name: 'Greek Words', href: '/greek-words' },
+      { name: 'Word Studies', href: '/word-studies' },
+      { name: "Nave's Topics", href: '/nave-topics' },
+      { name: 'Cross-References', href: '/cross-references' }
     ]
   },
   {

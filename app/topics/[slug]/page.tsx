@@ -92,7 +92,9 @@ export default async function TopicDetailPage({ params }: TopicPageProps) {
                     <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-8">
                         <p className="text-blue-100 text-sm font-medium mb-2">{topic.category}</p>
                         <h1 className="text-3xl font-display font-bold">Bible Verses About {topic.name}</h1>
-                        <p className="text-blue-100 mt-2">{topic.verseCount} key scriptures</p>
+                        <p className="text-blue-100 mt-2 max-w-xl">
+                            {topic.verseCount} key scriptures about {topic.name.toLowerCase()} from across the Old and New Testaments, with verse text, commentary, and cross-references for deeper Bible study.
+                        </p>
                     </div>
 
                     <div className="p-6">
