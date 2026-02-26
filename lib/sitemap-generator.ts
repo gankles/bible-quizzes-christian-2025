@@ -17,6 +17,10 @@ import { getAllEraGeographySlugs } from './timeline-geography-bridge';
 import { getAllReadingPlans } from './reading-plans-data';
 import { getAllStudyGuides } from './study-guides-data';
 import { getAllPlaceSlugs, getAllVersePlaceKeys, getBooksWithPlaces, getPlacesByBookChapterKeys, getAllPlaceTypes } from './geocoding-data';
+import { getAllHebrewSlugs, getAllGreekSlugs } from './strongs-data';
+import { getAllChainStudies } from './chain-data';
+import { getAllEncyclopediaSlugs } from './encyclopedia-data';
+import { getAllGrammarForms } from './grammar-data';
 
 export interface SitemapUrl {
   url: string;
@@ -64,6 +68,13 @@ const GROUP_DATE_RANGES: Record<string, [string, string]> = {
   'characters-by-topic': ['2026-02-20', '2026-02-25'],
   'commandments-by-topic': ['2026-02-20', '2026-02-25'],
   'timeline-geography': ['2026-02-20', '2026-02-25'],
+  'hebrew-word':        ['2026-02-20', '2026-02-26'],
+  'greek-word':         ['2026-02-20', '2026-02-26'],
+  'bible-topics':       ['2026-02-20', '2026-02-26'],
+  'chain-study':        ['2026-02-22', '2026-02-26'],
+  'bible-encyclopedia': ['2026-02-22', '2026-02-26'],
+  'greek-grammar':      ['2026-02-24', '2026-02-26'],
+  'pillar-pages':       ['2026-02-18', '2026-02-26'],
 };
 
 /** Assign realistic, gradually-spread lastmod dates per content group */
@@ -559,6 +570,74 @@ export function generateAllUrls(): SitemapUrl[] {
     for (let chapter = 1; chapter <= book.chapters; chapter++) {
       urls.push(makeUrl(`${baseUrl}/bible-chapter-summaries/${book.slug}/${chapter}`, 'chapter-summaries', 0.5));
     }
+  });
+
+  // 39. Hebrew Word Studies (/hebrew-word, /hebrew-word/{slug}) — ~8,674 pages
+  try {
+    urls.push(makeUrl(`${baseUrl}/hebrew-word`, 'hebrew-word', 0.8));
+    const hebrewSlugs = getAllHebrewSlugs();
+    hebrewSlugs.forEach(slug => {
+      urls.push(makeUrl(`${baseUrl}/hebrew-word/${slug}`, 'hebrew-word', 0.5));
+    });
+  } catch {}
+
+  // 40. Greek Word Studies (/greek-word, /greek-word/{slug}) — ~5,523 pages
+  try {
+    urls.push(makeUrl(`${baseUrl}/greek-word`, 'greek-word', 0.8));
+    const greekSlugs = getAllGreekSlugs();
+    greekSlugs.forEach(slug => {
+      urls.push(makeUrl(`${baseUrl}/greek-word/${slug}`, 'greek-word', 0.5));
+    });
+  } catch {}
+
+  // 41. Bible Topics / Nave's Topical (/bible-topics, /bible-topics/{slug}) — ~5,319 pages
+  try {
+    urls.push(makeUrl(`${baseUrl}/bible-topics`, 'bible-topics', 0.8));
+    const naveTopicList = getAllNaveTopics();
+    naveTopicList.forEach(t => {
+      urls.push(makeUrl(`${baseUrl}/bible-topics/${t.slug}`, 'bible-topics', 0.5));
+    });
+  } catch {}
+
+  // 42. Chain Studies (/chain-study, /chain-study/{slug}) — ~916 pages
+  try {
+    urls.push(makeUrl(`${baseUrl}/chain-study`, 'chain-study', 0.8));
+    const chains = getAllChainStudies();
+    chains.forEach(c => {
+      urls.push(makeUrl(`${baseUrl}/chain-study/${c.slug}`, 'chain-study', 0.5));
+    });
+  } catch {}
+
+  // 43. Bible Encyclopedia (/bible-encyclopedia, /bible-encyclopedia/{slug}) — ~11,478 pages
+  try {
+    urls.push(makeUrl(`${baseUrl}/bible-encyclopedia`, 'bible-encyclopedia', 0.8));
+    const encSlugs = getAllEncyclopediaSlugs();
+    encSlugs.forEach(slug => {
+      urls.push(makeUrl(`${baseUrl}/bible-encyclopedia/${slug}`, 'bible-encyclopedia', 0.5));
+    });
+  } catch {}
+
+  // 44. Greek Grammar (/greek-grammar, /greek-grammar/{slug}) — ~18 pages
+  try {
+    urls.push(makeUrl(`${baseUrl}/greek-grammar`, 'greek-grammar', 0.8));
+    const grammarForms = getAllGrammarForms();
+    grammarForms.forEach(g => {
+      urls.push(makeUrl(`${baseUrl}/greek-grammar/${g.slug}`, 'greek-grammar', 0.6));
+    });
+  } catch {}
+
+  // 45. Pillar Pages (verse study landing pages)
+  const pillarPages = [
+    '/john-3-16',
+    '/psalm-23',
+    '/romans-8-28',
+    '/philippians-4-13',
+    '/proverbs-3-5-6',
+    '/jeremiah-29-11',
+    '/isaiah-41-10',
+  ];
+  pillarPages.forEach(p => {
+    urls.push(makeUrl(`${baseUrl}${p}`, 'pillar-pages', 0.9, 'monthly'));
   });
 
   return urls;
