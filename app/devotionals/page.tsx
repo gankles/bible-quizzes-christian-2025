@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { getAllDevotionals, getDevotionalThemes, getDevotionalsStats } from '@/lib/devotionals-data';
+import { getAllDevotionals, getDevotionalThemes, getDevotionalsStats, getDevotionalBooks } from '@/lib/devotionals-data';
 import { StructuredData } from '@/components/StructuredData';
 import Breadcrumb from '@/components/Breadcrumb';
 
@@ -35,6 +35,7 @@ export default function DevotionalsPage() {
   const devotionals = getAllDevotionals();
   const themes = getDevotionalThemes();
   const stats = getDevotionalsStats();
+  const books = getDevotionalBooks();
 
   // Group devotionals by theme, preserving theme order from getDevotionalThemes
   const grouped = new Map<string, typeof devotionals>();
@@ -124,6 +125,23 @@ export default function DevotionalsPage() {
             </div>
           </section>
 
+          {/* Browse by Book */}
+          <section className="mb-12">
+            <h2 className="text-lg font-bold text-scripture mb-4">Browse by Book</h2>
+            <div className="flex flex-wrap gap-2">
+              {books.map(({ bookSlug, bookName, count }) => (
+                <Link
+                  key={bookSlug}
+                  href={`/${bookSlug}-chapters`}
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-primary-dark/80 hover:border-blue-300 hover:text-blue-600 transition-colors"
+                >
+                  {bookName}
+                  <span className="text-xs text-primary-dark/40">({count})</span>
+                </Link>
+              ))}
+            </div>
+          </section>
+
           {/* Devotionals Grouped by Theme */}
           {themes.map(({ theme }) => {
             const items = grouped.get(theme) || [];
@@ -183,14 +201,17 @@ export default function DevotionalsPage() {
               <Link href="/characters" className="text-blue-600 hover:underline text-sm">
                 Bible Characters
               </Link>
+              <Link href="/character-quiz" className="text-blue-600 hover:underline text-sm">
+                Character Quizzes
+              </Link>
+              <Link href="/reading-plans" className="text-blue-600 hover:underline text-sm">
+                Reading Plans
+              </Link>
               <Link href="/timeline" className="text-blue-600 hover:underline text-sm">
                 Bible Timeline
               </Link>
               <Link href="/cross-references" className="text-blue-600 hover:underline text-sm">
                 Cross References
-              </Link>
-              <Link href="/lexicon" className="text-blue-600 hover:underline text-sm">
-                Greek and Hebrew Lexicon
               </Link>
               <Link href="/commandments" className="text-blue-600 hover:underline text-sm">
                 Bible Commandments

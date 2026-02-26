@@ -11,6 +11,7 @@ import { StructuredData } from '@/components/StructuredData';
 import { generateSchema } from '@/lib/seo/schema-generator';
 import { ClockIcon, UserGroupIcon, AcademicCapIcon, SparklesIcon, BoltIcon, UsersIcon } from '@/components/icons';
 import Link from 'next/link';
+import { getTopicsForCharacter } from '@/lib/character-topic-bridge';
 
 interface CharacterPageProps {
     params: Promise<{ slug: string }>;
@@ -113,7 +114,7 @@ export default async function CharacterDetailPage({ params }: CharacterPageProps
                             <h3 className="font-bold text-lg">Character Quiz</h3>
                             <p className="text-white/80 text-xs">Test your knowledge of {character.name}</p>
                         </div>
-                        <Link href="/bible-quizzes" className="bg-white text-blue-600 px-4 py-2 rounded-lg font-bold text-sm tracking-wider uppercase">Begin</Link>
+                        <Link href={`/character-quiz/${slug}`} className="bg-white text-blue-600 px-4 py-2 rounded-lg font-bold text-sm tracking-wider uppercase">Begin</Link>
                     </div>
                     <div className="bg-scripture dark:bg-dark-bg rounded-lg p-6 text-white shadow-lg flex items-center justify-between">
                         <div>
@@ -250,6 +251,28 @@ export default async function CharacterDetailPage({ params }: CharacterPageProps
                         </div>
                     </div>
                 </div>
+
+                {/* Related Topics */}
+                {(() => {
+                    const relatedTopics = getTopicsForCharacter(slug).slice(0, 8);
+                    if (relatedTopics.length === 0) return null;
+                    return (
+                        <section className="mt-12 bg-white rounded-xl border border-grace p-6 shadow-sm">
+                            <h2 className="text-lg font-bold text-scripture mb-4">Related Topics</h2>
+                            <div className="flex flex-wrap gap-2">
+                                {relatedTopics.map(t => (
+                                    <Link
+                                        key={t.slug}
+                                        href={`/characters-by-topic/${t.slug}`}
+                                        className="px-3 py-1.5 bg-primary-light/30 border border-grace rounded-lg text-sm text-primary-dark/80 hover:border-blue-300 hover:text-blue-600 transition-colors"
+                                    >
+                                        {t.name.replace(/\b\w/g, l => l.toUpperCase())}
+                                    </Link>
+                                ))}
+                            </div>
+                        </section>
+                    );
+                })()}
 
                 {/* Internal Links */}
                 <section className="mt-12 bg-primary-light/30 border border-grace rounded-xl p-6">

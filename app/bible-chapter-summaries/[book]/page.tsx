@@ -355,6 +355,19 @@ export default async function BookSummaryPage({ params }: BookSummaryPageProps) 
           </div>
         </section>
 
+        {/* Cross-Template Links */}
+        <section className="bg-grace/10 border border-grace rounded-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-scripture mb-3">More Study Resources</h2>
+          <div className="grid gap-2 sm:grid-cols-2">
+            <Link href={`/bible-geography/${book}`} className="text-blue-600 hover:underline text-sm">{bookData.name} Geography &amp; Map</Link>
+            <Link href={`/bible-geography-quiz/${book}`} className="text-blue-600 hover:underline text-sm">{bookData.name} Geography Quiz</Link>
+            <Link href="/character-quiz" className="text-blue-600 hover:underline text-sm">Character Quizzes</Link>
+            <Link href="/characters-by-topic" className="text-blue-600 hover:underline text-sm">Characters by Topic</Link>
+            <Link href="/commandments/topic" className="text-blue-600 hover:underline text-sm">Commandments by Topic</Link>
+            <Link href="/devotionals" className="text-blue-600 hover:underline text-sm">Daily Devotionals</Link>
+          </div>
+        </section>
+
         {/* JSON-LD */}
         <script
           type="application/ld+json"

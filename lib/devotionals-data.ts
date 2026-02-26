@@ -108,6 +108,31 @@ export function getDevotionalsByTheme(theme: string): Devotional[] {
   return loadDevotionals().filter(d => d.theme === theme);
 }
 
+export function getDevotionalsByBook(bookSlug: string): Devotional[] {
+  const bookName = bookSlug.replace(/-/g, ' ');
+  return loadDevotionals().filter(d =>
+    d.book.toLowerCase() === bookName.toLowerCase() ||
+    d.book.toLowerCase().replace(/\s+/g, '-') === bookSlug.toLowerCase()
+  );
+}
+
+export function getDevotionalBooks(): { bookSlug: string; bookName: string; count: number }[] {
+  const devotionals = loadDevotionals();
+  const map = new Map<string, { bookName: string; count: number }>();
+  for (const d of devotionals) {
+    const slug = d.book.toLowerCase().replace(/\s+/g, '-');
+    const entry = map.get(slug);
+    if (entry) {
+      entry.count++;
+    } else {
+      map.set(slug, { bookName: d.book, count: 1 });
+    }
+  }
+  return Array.from(map.entries())
+    .map(([bookSlug, { bookName, count }]) => ({ bookSlug, bookName, count }))
+    .sort((a, b) => a.bookName.localeCompare(b.bookName));
+}
+
 export function getDevotionalsStats(): {
   total: number;
   themes: number;

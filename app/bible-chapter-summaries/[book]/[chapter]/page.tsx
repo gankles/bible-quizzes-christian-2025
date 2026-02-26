@@ -6,6 +6,7 @@ import { BIBLE_BOOKS, getBookBySlug } from '@/lib/bible-data';
 import { getBookMetadata } from '@/lib/book-metadata';
 import { loadChapterBreakdown, getChapterBreakdown, loadChapterSummary } from '@/lib/chapter-breakdowns';
 import { getBookIntroduction } from '@/lib/book-introductions';
+import { getDevotionalsByBook } from '@/lib/devotionals-data';
 
 interface ChapterSummaryPageProps {
   params: Promise<{ book: string; chapter: string }>;
@@ -558,6 +559,42 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
                 <span className="text-xs text-primary-dark/60">Author, themes, study guide</span>
               </div>
               <span className="text-blue-600">&rarr;</span>
+            </Link>
+          </div>
+        </section>
+
+        {/* Cross-Template Links */}
+        <section className="bg-grace/10 border border-grace rounded-xl p-6 mb-6">
+          <h2 className="text-lg font-bold text-scripture mb-3">Explore Related Content</h2>
+          <div className="grid gap-2 sm:grid-cols-2">
+            <Link href={`/bible-geography/${book}/${chapterNum}`} className="text-blue-600 hover:underline text-sm">
+              {bookData.name} {chapterNum} Geography &amp; Map
+            </Link>
+            <Link href={`/bible-geography-quiz/${book}`} className="text-blue-600 hover:underline text-sm">
+              {bookData.name} Geography Quiz
+            </Link>
+            <Link href="/character-quiz" className="text-blue-600 hover:underline text-sm">
+              Bible Character Quizzes
+            </Link>
+            <Link href="/characters-by-topic" className="text-blue-600 hover:underline text-sm">
+              Characters by Topic
+            </Link>
+            <Link href="/commandments/topic" className="text-blue-600 hover:underline text-sm">
+              Commandments by Topic
+            </Link>
+            {(() => {
+              const devs = getDevotionalsByBook(book).slice(0, 1);
+              return devs.length > 0 ? (
+                <Link href={`/devotionals/${devs[0].slug}`} className="text-blue-600 hover:underline text-sm">
+                  {bookData.name} Devotional
+                </Link>
+              ) : null;
+            })()}
+            <Link href="/devotionals" className="text-blue-600 hover:underline text-sm">
+              Daily Devotionals
+            </Link>
+            <Link href="/bible-places/era" className="text-blue-600 hover:underline text-sm">
+              Places by Historical Era
             </Link>
           </div>
         </section>

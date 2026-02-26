@@ -10,6 +10,10 @@ import { getAllCategories, getAllCommandments } from './commandments-data';
 import { getAllInterlinearBookSlugs, getInterlinearChapters, getInterlinearChapterVerses, getBookName } from './interlinear-data';
 import { getAllResources, getAllResourceItemSlugs } from './resources-data';
 import { getAllDevotionals } from './devotionals-data';
+import { getAllCharacterQuizSlugs } from './character-quiz-generator';
+import { getAllCharacterTopicBridgeSlugs } from './character-topic-bridge';
+import { getAllCommandmentTopicSlugs } from './commandment-topic-bridge';
+import { getAllEraGeographySlugs } from './timeline-geography-bridge';
 import { getAllReadingPlans } from './reading-plans-data';
 import { getAllStudyGuides } from './study-guides-data';
 import { getAllPlaceSlugs, getAllVersePlaceKeys, getBooksWithPlaces, getPlacesByBookChapterKeys, getAllPlaceTypes } from './geocoding-data';
@@ -56,6 +60,10 @@ const GROUP_DATE_RANGES: Record<string, [string, string]> = {
   'geography-quizzes': ['2026-02-10', '2026-02-20'],
   'chapter-summaries': ['2026-02-10', '2026-02-23'],
   'lexicon-concepts': ['2026-02-15', '2026-02-23'],
+  'character-quizzes': ['2026-02-20', '2026-02-25'],
+  'characters-by-topic': ['2026-02-20', '2026-02-25'],
+  'commandments-by-topic': ['2026-02-20', '2026-02-25'],
+  'timeline-geography': ['2026-02-20', '2026-02-25'],
 };
 
 /** Assign realistic, gradually-spread lastmod dates per content group */
@@ -200,6 +208,7 @@ export function generateAllUrls(): SitemapUrl[] {
     { path: '/what-does-the-bible-say-about/grace', priority: 0.8, changeFreq: 'monthly' as const },
     { path: '/what-does-the-bible-say-about/joy', priority: 0.7, changeFreq: 'monthly' as const },
     { path: '/bible-chapter-summaries', priority: 0.7, changeFreq: 'monthly' as const },
+    { path: '/bible-geography-quiz', priority: 0.7, changeFreq: 'monthly' as const },
     { path: '/bible-book-names', priority: 0.5, changeFreq: 'monthly' as const },
     { path: '/kids-bible-quiz', priority: 0.5, changeFreq: 'monthly' as const },
   ];
@@ -505,6 +514,42 @@ export function generateAllUrls(): SitemapUrl[] {
     const geoBooks = getBooksWithPlaces();
     geoBooks.forEach(book => {
       urls.push(makeUrl(`${baseUrl}/bible-geography-quiz/${book}`, 'geography-quizzes', 0.6));
+    });
+  } catch {}
+
+  // 35. Character Quizzes (/character-quiz, /character-quiz/{slug})
+  try {
+    const charQuizSlugs = getAllCharacterQuizSlugs();
+    urls.push(makeUrl(`${baseUrl}/character-quiz`, 'character-quizzes', 0.7));
+    charQuizSlugs.forEach(slug => {
+      urls.push(makeUrl(`${baseUrl}/character-quiz/${slug}`, 'character-quizzes', 0.6));
+    });
+  } catch {}
+
+  // 36. Characters by Topic (/characters-by-topic, /characters-by-topic/{slug})
+  try {
+    const charTopicSlugs = getAllCharacterTopicBridgeSlugs();
+    urls.push(makeUrl(`${baseUrl}/characters-by-topic`, 'characters-by-topic', 0.7));
+    charTopicSlugs.forEach(slug => {
+      urls.push(makeUrl(`${baseUrl}/characters-by-topic/${slug}`, 'characters-by-topic', 0.5));
+    });
+  } catch {}
+
+  // 37. Commandments by Topic (/commandments/topic, /commandments/topic/{slug})
+  try {
+    const cmdTopicSlugs = getAllCommandmentTopicSlugs();
+    urls.push(makeUrl(`${baseUrl}/commandments/topic`, 'commandments-by-topic', 0.7));
+    cmdTopicSlugs.forEach(slug => {
+      urls.push(makeUrl(`${baseUrl}/commandments/topic/${slug}`, 'commandments-by-topic', 0.5));
+    });
+  } catch {}
+
+  // 38. Timeline Geography (/bible-places/era, /bible-places/era/{slug})
+  try {
+    const eraSlugs = getAllEraGeographySlugs();
+    urls.push(makeUrl(`${baseUrl}/bible-places/era`, 'timeline-geography', 0.7));
+    eraSlugs.forEach(slug => {
+      urls.push(makeUrl(`${baseUrl}/bible-places/era/${slug}`, 'timeline-geography', 0.6));
     });
   } catch {}
 

@@ -51,6 +51,21 @@ export function getBiography(name: string): Biography | null {
 }
 
 // Try to find by matching the person's display name
+export function getAllBiographies(): Biography[] {
+  const data = loadData();
+  return Object.entries(data.biographies).map(([name, bio]) => ({
+    name,
+    summary: bio.summary,
+    significance: bio.significance,
+    keyEvents: bio.key_events || [],
+  }));
+}
+
+export function getAllBiographyNames(): string[] {
+  const data = loadData();
+  return Object.keys(data.biographies);
+}
+
 export function findBiography(personName: string): Biography | null {
   const data = loadData();
   // Direct match

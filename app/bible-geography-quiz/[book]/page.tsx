@@ -247,11 +247,23 @@ export default async function GeographyQuizPage({ params }: PageProps) {
             <Link href={`/${book}-chapters`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
               {bookName} Chapter Quizzes
             </Link>
+            <Link href={`/${book}-quiz`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+              {bookName} Book Quiz
+            </Link>
+            <Link href="/bible-geography-quiz" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+              All Geography Quizzes
+            </Link>
             <Link href="/bible-places" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
               All Bible Places
             </Link>
+            <Link href="/bible-places/era" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+              Places by Era
+            </Link>
             <Link href="/bible-quizzes" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
               More Bible Quizzes
+            </Link>
+            <Link href="/character-quiz" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+              Character Quizzes
             </Link>
           </div>
         </div>

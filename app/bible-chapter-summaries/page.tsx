@@ -138,6 +138,24 @@ export default function BibleChapterSummariesPage() {
             <Link href="/new-testament-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
               <span className="text-blue-600 font-medium text-sm">New Testament Quizzes</span>
             </Link>
+            <Link href="/character-quiz" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
+              <span className="text-blue-600 font-medium text-sm">Character Quizzes</span>
+            </Link>
+            <Link href="/bible-geography-quiz" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
+              <span className="text-blue-600 font-medium text-sm">Geography Quizzes</span>
+            </Link>
+            <Link href="/characters-by-topic" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
+              <span className="text-blue-600 font-medium text-sm">Characters by Topic</span>
+            </Link>
+            <Link href="/commandments/topic" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
+              <span className="text-blue-600 font-medium text-sm">Commandments by Topic</span>
+            </Link>
+            <Link href="/devotionals" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
+              <span className="text-blue-600 font-medium text-sm">Daily Devotionals</span>
+            </Link>
+            <Link href="/bible-places/era" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
+              <span className="text-blue-600 font-medium text-sm">Places by Era</span>
+            </Link>
           </div>
         </section>
 

@@ -11,6 +11,7 @@ import {
 } from '@/lib/commandments-data';
 import { StructuredData } from '@/components/StructuredData';
 import { ChevronLeftIcon, ChevronRightIcon, BookOpenIcon, ArrowRightIcon } from '@/components/icons';
+import { getTopicsForCommandment } from '@/lib/commandment-topic-bridge';
 
 interface PageProps {
   params: Promise<{ number: string }>;
@@ -337,6 +338,30 @@ export default async function CommandmentPage({ params }: PageProps) {
         </div>
       </section>
 
+      {/* Related Topics */}
+      {(() => {
+        const relatedTopics = getTopicsForCommandment(num).slice(0, 6);
+        if (relatedTopics.length === 0) return null;
+        return (
+          <section className="max-w-4xl mx-auto px-4 pb-6">
+            <div className="bg-white rounded-xl border border-grace p-6 shadow-sm">
+              <h2 className="text-lg font-bold text-scripture mb-4">Related Topics</h2>
+              <div className="flex flex-wrap gap-2">
+                {relatedTopics.map(t => (
+                  <Link
+                    key={t.slug}
+                    href={`/commandments/topic/${t.slug}`}
+                    className="px-3 py-1.5 bg-primary-light/30 border border-grace rounded-lg text-sm text-primary-dark/80 hover:border-blue-300 hover:text-blue-600 transition-colors"
+                  >
+                    {t.name.replace(/\b\w/g, l => l.toUpperCase())}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        );
+      })()}
+
       {/* Contextual Internal Links */}
       <section className="max-w-4xl mx-auto px-4 pb-12">
         <div className="bg-grace/10 border border-grace rounded-xl p-6">
@@ -352,6 +377,9 @@ export default async function CommandmentPage({ params }: PageProps) {
             </Link>
             <Link href="/commandments" className="text-blue-600 hover:underline text-sm">
               All 613 Commandments
+            </Link>
+            <Link href="/commandments/topic" className="text-blue-600 hover:underline text-sm">
+              Commandments by Topic
             </Link>
             <Link href="/nave-topics" className="text-blue-600 hover:underline text-sm">
               Nave&apos;s Topical Bible

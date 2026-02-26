@@ -182,6 +182,12 @@ export default async function BookGeographyPage({ params }: PageProps) {
             <Link href="/bible-places" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
               Bible Places A-Z
             </Link>
+            <Link href="/bible-geography-quiz" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+              All Geography Quizzes
+            </Link>
+            <Link href="/bible-places/era" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+              Places by Era
+            </Link>
           </div>
         </div>
         <GeoAttribution compact />

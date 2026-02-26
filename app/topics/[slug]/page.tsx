@@ -10,6 +10,9 @@ import { generatePageMetadata } from '@/lib/seo/metadata-generator';
 import { StructuredData } from '@/components/StructuredData';
 import { generateSchema } from '@/lib/seo/schema-generator';
 import { getCrossPillarLinks, CrossPillarLink } from '@/lib/cross-pillar-links';
+import { getCharactersForTopic } from '@/lib/character-topic-bridge';
+import { getCommandmentsForTopic } from '@/lib/commandment-topic-bridge';
+import { formatReference } from '@/lib/commandments-data';
 import { getKjvStudyTopic } from '@/lib/kjvstudy-topics';
 import Link from 'next/link';
 
@@ -257,6 +260,74 @@ export default async function TopicDetailPage({ params }: TopicPageProps) {
                         </div>
                     </section>
                 )}
+
+                {/* Related Characters */}
+                {(() => {
+                    const relatedCharacters = getCharactersForTopic(slug).slice(0, 6);
+                    if (relatedCharacters.length === 0) return null;
+                    return (
+                        <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
+                            <h3 className="text-lg font-bold text-scripture mb-4">Related Bible Characters</h3>
+                            <div className="grid sm:grid-cols-2 gap-3">
+                                {relatedCharacters.map(char => (
+                                    <Link
+                                        key={char.slug}
+                                        href={`/characters/${char.slug}`}
+                                        className="flex items-center gap-3 p-3 rounded-lg border border-grace/50 hover:border-blue-300 hover:bg-primary-light transition-colors group"
+                                    >
+                                        <span className="w-8 h-8 rounded-lg bg-blue-600 text-white flex items-center justify-center text-sm font-bold shrink-0">
+                                            {char.name.charAt(0)}
+                                        </span>
+                                        <div className="min-w-0">
+                                            <div className="text-sm font-medium text-scripture group-hover:text-blue-600 truncate">{char.name}</div>
+                                            <div className="text-xs text-primary-dark/60 mt-0.5 line-clamp-1">{char.significance}</div>
+                                        </div>
+                                    </Link>
+                                ))}
+                            </div>
+                            <Link
+                                href={`/characters-by-topic/${slug}`}
+                                className="block mt-3 text-sm text-blue-600 hover:underline font-medium"
+                            >
+                                View all characters related to {topic.name}
+                            </Link>
+                        </section>
+                    );
+                })()}
+
+                {/* Related Commandments */}
+                {(() => {
+                    const relatedCmds = getCommandmentsForTopic(slug).slice(0, 6);
+                    if (relatedCmds.length === 0) return null;
+                    return (
+                        <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
+                            <h3 className="text-lg font-bold text-scripture mb-4">Related Commandments</h3>
+                            <div className="space-y-2">
+                                {relatedCmds.map(cmd => (
+                                    <Link
+                                        key={cmd.number}
+                                        href={`/commandments/${cmd.number}`}
+                                        className="flex items-center gap-3 p-3 rounded-lg border border-grace/50 hover:border-blue-300 hover:bg-primary-light transition-colors group"
+                                    >
+                                        <span className={`w-8 h-8 rounded-lg text-white flex items-center justify-center text-xs font-bold shrink-0 ${cmd.polarity === 'P' ? 'bg-green-600' : 'bg-red-600'}`}>
+                                            #{cmd.number}
+                                        </span>
+                                        <div className="min-w-0">
+                                            <div className="text-sm font-medium text-scripture group-hover:text-blue-600 truncate">{cmd.concept}</div>
+                                            <div className="text-xs text-primary-dark/60 mt-0.5">{formatReference(cmd.referenceId)}</div>
+                                        </div>
+                                    </Link>
+                                ))}
+                            </div>
+                            <Link
+                                href={`/commandments/topic/${slug}`}
+                                className="block mt-3 text-sm text-blue-600 hover:underline font-medium"
+                            >
+                                View all commandments related to {topic.name}
+                            </Link>
+                        </section>
+                    );
+                })()}
 
                 {/* Related Topics */}
                 {topic.relatedTopics && topic.relatedTopics.length > 0 && (

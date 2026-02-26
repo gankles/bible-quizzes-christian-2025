@@ -6,6 +6,8 @@ import {
   getDevotionalBySlug,
   getDevotionalsByTheme,
 } from '@/lib/devotionals-data';
+import { findBiography } from '@/lib/biographies-data';
+import { getCharacterQuizSlug } from '@/lib/character-quiz-generator';
 import { StructuredData } from '@/components/StructuredData';
 import Breadcrumb from '@/components/Breadcrumb';
 
@@ -281,6 +283,9 @@ export default async function DevotionalDetailPage({ params }: PageProps) {
             <Link href={`/chapters/${bookSlug}/${devotional.chapter}`} className="text-blue-600 hover:underline text-sm">
               Read {devotional.book} {devotional.chapter}
             </Link>
+            <Link href={`/bible-chapter-summaries/${bookSlug}/${devotional.chapter}`} className="text-blue-600 hover:underline text-sm">
+              {devotional.book} {devotional.chapter} Summary
+            </Link>
             <Link href={`/${bookSlug}-chapters`} className="text-blue-600 hover:underline text-sm">
               All {devotional.book} Chapters
             </Link>
@@ -293,11 +298,14 @@ export default async function DevotionalDetailPage({ params }: PageProps) {
             <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">
               Bible Quizzes
             </Link>
+            <Link href="/character-quiz" className="text-blue-600 hover:underline text-sm">
+              Character Quizzes
+            </Link>
             <Link href="/topics" className="text-blue-600 hover:underline text-sm">
               Bible Topics
             </Link>
-            <Link href="/bible-stories" className="text-blue-600 hover:underline text-sm">
-              Bible Stories
+            <Link href="/reading-plans" className="text-blue-600 hover:underline text-sm">
+              Reading Plans
             </Link>
           </div>
         </section>

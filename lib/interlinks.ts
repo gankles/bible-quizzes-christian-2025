@@ -178,6 +178,11 @@ export function generateRelatedLinks(quiz: Quiz): InternalLink[] {
   // If we don't have enough links, add popular general quizzes to reach 6
   while (links.length < 6) {
     const fallbackLinks: InternalLink[] = [
+      { title: 'John 3:16 Explained', href: '/john-3-16', description: 'The most famous Bible verse', type: 'theme' },
+      { title: 'Psalm 23 Explained', href: '/psalm-23', description: 'The Lord is my shepherd', type: 'theme' },
+      { title: 'Jeremiah 29:11 Explained', href: '/jeremiah-29-11', description: 'God\'s plan for you', type: 'theme' },
+      { title: 'Romans 8:28 Explained', href: '/romans-8-28', description: 'All things for good', type: 'theme' },
+      { title: 'Philippians 4:13 Explained', href: '/philippians-4-13', description: 'Strength through Christ', type: 'theme' },
       { title: 'Jesus Christ Quiz', href: '/jesus-christ-quiz', description: 'Learn about the Savior', type: 'character' },
       { title: 'Salvation Quiz', href: '/salvation-quiz', description: 'How to be saved', type: 'theme' },
       { title: 'Prayer Quiz', href: '/prayer-quiz', description: 'Talking with God', type: 'theme' },
@@ -222,17 +227,29 @@ function getRelatedTheme(book: string, chapter: number): InternalLink | null {
       28: { title: 'Resurrection Quiz', href: '/resurrection-quiz', description: 'Christ\'s victory', type: 'theme' }
     },
     'John': {
-      3: { title: 'Salvation Quiz', href: '/salvation-quiz', description: 'Born again message', type: 'theme' },
+      3: { title: 'John 3:16 Explained', href: '/john-3-16', description: 'Word-by-word study of the most famous verse', type: 'theme' },
       14: { title: 'Jesus\' Promises Quiz', href: '/jesus-promises-quiz', description: 'Comfort and hope', type: 'theme' },
       20: { title: 'Resurrection Quiz', href: '/resurrection-quiz', description: 'Easter morning', type: 'theme' }
     },
     'Romans': {
-      8: { title: 'Holy Spirit Quiz', href: '/holy-spirit-quiz', description: 'Life in the Spirit', type: 'theme' },
+      8: { title: 'Romans 8:28 Explained', href: '/romans-8-28', description: 'All things work together for good', type: 'theme' },
       12: { title: 'Christian Living Quiz', href: '/christian-living-quiz', description: 'Practical faith', type: 'theme' }
     },
     'Psalms': {
-      23: { title: 'Shepherd Quiz', href: '/good-shepherd-quiz', description: 'The Lord is my shepherd', type: 'theme' },
+      23: { title: 'Psalm 23 Explained', href: '/psalm-23', description: 'The Lord is my shepherd — verse-by-verse', type: 'theme' },
       1: { title: 'Blessed Life Quiz', href: '/blessed-life-quiz', description: 'Tree by the water', type: 'theme' }
+    },
+    'Jeremiah': {
+      29: { title: 'Jeremiah 29:11 Explained', href: '/jeremiah-29-11', description: 'God\'s plan of hope and a future', type: 'theme' }
+    },
+    'Philippians': {
+      4: { title: 'Philippians 4:13 Explained', href: '/philippians-4-13', description: 'I can do all things through Christ', type: 'theme' }
+    },
+    'Proverbs': {
+      3: { title: 'Proverbs 3:5-6 Explained', href: '/proverbs-3-5-6', description: 'Trust in the Lord with all your heart', type: 'theme' }
+    },
+    'Isaiah': {
+      41: { title: 'Isaiah 41:10 Explained', href: '/isaiah-41-10', description: 'Fear not, for I am with thee', type: 'theme' }
     }
   };
 
@@ -279,13 +296,25 @@ function getRelatedThemesForBook(bookName: string): InternalLink[] {
       { title: 'Promised Land Quiz', href: '/promised-land-quiz', description: 'God\'s inheritance', type: 'theme' }
     ],
     'Psalms': [
+      { title: 'Psalm 23 Explained', href: '/psalm-23', description: 'The Lord is My Shepherd study', type: 'theme' },
       { title: 'Worship Quiz', href: '/worship-quiz', description: 'Praising the Lord', type: 'theme' },
       { title: 'David Quiz', href: '/david-quiz', description: 'Man after God\'s heart', type: 'character' },
       { title: 'Prayer Quiz', href: '/prayer-quiz', description: 'Talking with God', type: 'theme' }
     ],
     'Proverbs': [
+      { title: 'Proverbs 3:5-6 Explained', href: '/proverbs-3-5-6', description: 'Trust in the Lord with all your heart', type: 'theme' },
       { title: 'Wisdom Quiz', href: '/wisdom-quiz', description: 'Fear of the Lord', type: 'theme' },
       { title: 'Solomon Quiz', href: '/solomon-quiz', description: 'Wisest king', type: 'character' }
+    ],
+    'Isaiah': [
+      { title: 'Isaiah 41:10 Explained', href: '/isaiah-41-10', description: 'Fear not, for I am with thee', type: 'theme' },
+      { title: 'Prophecy Quiz', href: '/prophecy-quiz', description: 'Messianic prophecies', type: 'theme' }
+    ],
+    'Jeremiah': [
+      { title: 'Jeremiah 29:11 Explained', href: '/jeremiah-29-11', description: 'God\'s plan of hope and a future', type: 'theme' }
+    ],
+    'Philippians': [
+      { title: 'Philippians 4:13 Explained', href: '/philippians-4-13', description: 'I can do all things through Christ', type: 'theme' }
     ],
     'Matthew': [
       { title: 'Parables Quiz', href: '/parables-quiz', description: 'Jesus\' teaching stories', type: 'theme' },
@@ -294,11 +323,13 @@ function getRelatedThemesForBook(bookName: string): InternalLink[] {
       { title: 'Jesus Christ Quiz', href: '/jesus-christ-quiz', description: 'Son of God', type: 'character' }
     ],
     'John': [
+      { title: 'John 3:16 Explained', href: '/john-3-16', description: 'The most famous verse in the Bible', type: 'theme' },
       { title: 'Eternal Life Quiz', href: '/eternal-life-quiz', description: 'Gift of salvation', type: 'theme' },
       { title: 'Love Quiz', href: '/love-quiz', description: 'God\'s greatest commandment', type: 'theme' },
       { title: 'Jesus Christ Quiz', href: '/jesus-christ-quiz', description: 'I Am statements', type: 'character' }
     ],
     'Romans': [
+      { title: 'Romans 8:28 Explained', href: '/romans-8-28', description: 'All things work together for good', type: 'theme' },
       { title: 'Salvation Quiz', href: '/salvation-quiz', description: 'Saved by grace', type: 'theme' },
       { title: 'Paul Quiz', href: '/paul-quiz', description: 'Apostle to Gentiles', type: 'character' },
       { title: 'Grace Quiz', href: '/grace-quiz', description: 'Unmerited favor', type: 'theme' }
@@ -430,4 +461,148 @@ function getBooksWithTheme(themeName: string): typeof BIBLE_BOOKS[number][] {
 
   const bookNames = themeBooks[themeName] || [];
   return BIBLE_BOOKS.filter(book => bookNames.includes(book.name));
+}
+
+// ━━━ Cross-Page-Type Linking for 7 Study Page Types ━━━
+// Generates related links across all page types for maximum internal mesh
+
+export type StudyPageType = 'word-study' | 'topic' | 'chain' | 'cross-ref' | 'encyclopedia' | 'bible-names' | 'grammar';
+
+export interface StudyLink extends InternalLink {
+  type: 'quiz' | 'book' | 'hub' | 'theme' | 'character' | 'word-study' | 'topic' | 'chain' | 'cross-ref' | 'encyclopedia' | 'bible-names' | 'grammar';
+}
+
+/** Generate cross-page-type links for any study page */
+export function generateStudyLinks(
+  pageType: StudyPageType,
+  context: {
+    slug?: string;
+    subject?: string;
+    testament?: 'old' | 'new' | 'both';
+    relatedStrongs?: string[];
+    relatedTopics?: string[];
+    relatedBooks?: string[];
+  }
+): StudyLink[] {
+  const links: StudyLink[] = [];
+  const { slug, subject, testament, relatedStrongs, relatedTopics, relatedBooks } = context;
+
+  // 1. Link to word studies if Strong's numbers are available
+  if (relatedStrongs && relatedStrongs.length > 0 && pageType !== 'word-study') {
+    const firstStrongs = relatedStrongs[0];
+    const isHebrew = firstStrongs.startsWith('H');
+    links.push({
+      title: `${isHebrew ? 'Hebrew' : 'Greek'} Word Study`,
+      href: `/${isHebrew ? 'hebrew' : 'greek'}-word/${firstStrongs.toLowerCase()}`,
+      description: `Explore the original ${isHebrew ? 'Hebrew' : 'Greek'} word`,
+      type: 'word-study',
+    });
+  }
+
+  // 2. Link to Nave's topic if available
+  if (relatedTopics && relatedTopics.length > 0 && pageType !== 'topic') {
+    links.push({
+      title: `${relatedTopics[0]} in the Bible`,
+      href: `/bible-topics/${relatedTopics[0].toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
+      description: `Every verse about ${relatedTopics[0]}`,
+      type: 'topic',
+    });
+  }
+
+  // 3. Link to chain study for major themes
+  if (subject && pageType !== 'chain') {
+    const chainSlug = subject.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    links.push({
+      title: `${subject} — Chain Study`,
+      href: `/chain-study/${chainSlug}`,
+      description: `Trace ${subject} from Genesis to Revelation`,
+      type: 'chain',
+    });
+  }
+
+  // 4. Link to encyclopedia entry
+  if (subject && pageType !== 'encyclopedia') {
+    const encSlug = subject.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    links.push({
+      title: `${subject} — Bible Encyclopedia`,
+      href: `/bible-encyclopedia/${encSlug}`,
+      description: `Comprehensive entry on ${subject}`,
+      type: 'encyclopedia',
+    });
+  }
+
+  // 5. Link to Bible names if it's a person/place
+  if (subject && pageType !== 'bible-names') {
+    const nameSlug = subject.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    links.push({
+      title: `${subject} — Name Meaning`,
+      href: `/bible-names/${nameSlug}`,
+      description: `Origin and meaning of the name ${subject}`,
+      type: 'bible-names',
+    });
+  }
+
+  // 6. Link to grammar pages for Greek word studies
+  if (pageType === 'word-study' && testament !== 'old') {
+    links.push({
+      title: 'Greek Grammar Guide',
+      href: '/greek-grammar',
+      description: 'Understand how Greek grammar shapes meaning',
+      type: 'grammar',
+    });
+  }
+
+  // 7. Link to relevant quizzes
+  if (relatedBooks && relatedBooks.length > 0) {
+    const bookSlug = relatedBooks[0].toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+    links.push({
+      title: `${relatedBooks[0]} Quiz`,
+      href: `/${bookSlug}-quiz`,
+      description: `Test your knowledge of ${relatedBooks[0]}`,
+      type: 'quiz',
+    });
+  }
+
+  // 8. Link to pillar pages based on testament
+  const pillarLinks: StudyLink[] = [
+    { title: 'John 3:16 Explained', href: '/john-3-16', description: 'The most famous verse', type: 'theme' },
+    { title: 'Psalm 23 Study', href: '/psalm-23', description: 'The Lord is my shepherd', type: 'theme' },
+    { title: 'Romans 8:28 Study', href: '/romans-8-28', description: 'All things for good', type: 'theme' },
+  ];
+  const unusedPillar = pillarLinks.find(p => !links.some(l => l.href === p.href));
+  if (unusedPillar && links.length < 8) {
+    links.push(unusedPillar);
+  }
+
+  // 9. Browse hub links
+  const browseLinks: StudyLink[] = [
+    { title: 'Hebrew Word Studies', href: '/hebrew-word', description: '8,674 Hebrew words', type: 'word-study' },
+    { title: 'Greek Word Studies', href: '/greek-word', description: '5,523 Greek words', type: 'word-study' },
+    { title: 'Bible Topics A-Z', href: '/bible-topics', description: '5,319 topical studies', type: 'topic' },
+    { title: 'Bible Names A-Z', href: '/bible-names', description: '2,623 name meanings', type: 'bible-names' },
+    { title: 'Chain Studies', href: '/chain-study', description: 'Themes through Scripture', type: 'chain' },
+    { title: 'Bible Encyclopedia', href: '/bible-encyclopedia', description: 'Comprehensive entries', type: 'encyclopedia' },
+    { title: 'Greek Grammar', href: '/greek-grammar', description: 'NT grammar guide', type: 'grammar' },
+    { title: 'All Bible Quizzes', href: '/bible-quizzes', description: 'Test your knowledge', type: 'hub' },
+  ];
+
+  // Add 2-3 browse links that aren't for the current page type
+  const relevantBrowse = browseLinks.filter(b => {
+    if (pageType === 'word-study' && (b.href === '/hebrew-word' || b.href === '/greek-word')) return false;
+    if (pageType === 'topic' && b.href === '/bible-topics') return false;
+    if (pageType === 'chain' && b.href === '/chain-study') return false;
+    if (pageType === 'encyclopedia' && b.href === '/bible-encyclopedia') return false;
+    if (pageType === 'bible-names' && b.href === '/bible-names') return false;
+    if (pageType === 'grammar' && b.href === '/greek-grammar') return false;
+    return true;
+  });
+
+  while (links.length < 8 && relevantBrowse.length > 0) {
+    const next = relevantBrowse.shift();
+    if (next && !links.some(l => l.href === next.href)) {
+      links.push(next);
+    }
+  }
+
+  return links.slice(0, 10);
 }

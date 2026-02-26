@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { getAllEpochs, getEpochBySlug, getEpochsByType, getKjvStudyTimeline } from '@/lib/timeline-data';
 import { getPersonBySlug } from '@/lib/people-data';
 import { StructuredData } from '@/components/StructuredData';
+import { getAllEraGeographySlugs, getGeographyForEra } from '@/lib/timeline-geography-bridge';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -357,6 +358,41 @@ export default async function EpochPage({ params }: PageProps) {
           </div>
         </section>
 
+        {/* Places in this Period */}
+        {(() => {
+          const eraSlugs = getAllEraGeographySlugs();
+          // Try to match this epoch to a timeline era
+          const matchedEra = eraSlugs.find(es => {
+            const eraData = getGeographyForEra(es);
+            return eraData && eraData.eraName.toLowerCase().includes(epoch.name.toLowerCase().slice(0, 8));
+          });
+          if (!matchedEra) return null;
+          const eraData = getGeographyForEra(matchedEra);
+          if (!eraData || eraData.places.length === 0) return null;
+          return (
+            <section className="bg-white rounded-xl border border-grace p-6 mb-6 shadow-sm">
+              <h2 className="text-lg font-bold text-scripture mb-4">Places in this Period</h2>
+              <div className="flex flex-wrap gap-1.5 mb-3">
+                {eraData.places.slice(0, 12).map(p => (
+                  <Link
+                    key={p.slug}
+                    href={`/bible-places/${p.slug}`}
+                    className="px-2.5 py-1 bg-blue-50 text-blue-600 text-xs rounded hover:bg-blue-100 transition-colors"
+                  >
+                    {p.name}
+                  </Link>
+                ))}
+              </div>
+              <Link
+                href={`/bible-places/era/${matchedEra}`}
+                className="text-sm text-blue-600 hover:underline font-medium"
+              >
+                View all places from the {eraData.eraName}
+              </Link>
+            </section>
+          );
+        })()}
+
         {/* Contextual Internal Links */}
         <section className="bg-grace/10 border border-grace rounded-xl p-6">
           <h2 className="text-lg font-bold text-scripture mb-3">Continue Your Study</h2>
@@ -368,6 +404,9 @@ export default async function EpochPage({ params }: PageProps) {
             )}
             <Link href="/timeline" className="text-blue-600 hover:underline text-sm">
               Full Bible Timeline
+            </Link>
+            <Link href="/bible-places/era" className="text-blue-600 hover:underline text-sm">
+              Places by Historical Era
             </Link>
             <Link href="/people" className="text-blue-600 hover:underline text-sm">
               Bible Characters Directory
