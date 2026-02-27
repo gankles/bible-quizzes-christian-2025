@@ -582,6 +582,8 @@ export function generateStudyLinks(
     { title: 'Bible Names A-Z', href: '/bible-names', description: '2,623 name meanings', type: 'bible-names' },
     { title: 'Chain Studies', href: '/chain-study', description: 'Themes through Scripture', type: 'chain' },
     { title: 'Bible Encyclopedia', href: '/bible-encyclopedia', description: 'Comprehensive entries', type: 'encyclopedia' },
+    { title: 'Bible Quotes', href: '/bible-quotes', description: '7,700+ topics with verses', type: 'topic' },
+    { title: 'What Does the Bible Say?', href: '/what-does-the-bible-say-about', description: '7,700+ study guides', type: 'topic' },
     { title: 'Greek Grammar', href: '/greek-grammar', description: 'NT grammar guide', type: 'grammar' },
     { title: 'All Bible Quizzes', href: '/bible-quizzes', description: 'Test your knowledge', type: 'hub' },
   ];

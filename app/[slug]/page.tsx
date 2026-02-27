@@ -13,6 +13,9 @@ import BookChaptersClient from '@/components/BookChaptersClient';
 import ChapterCommandments from '@/components/ChapterCommandments';
 import { getCommandmentsByChapter } from '@/lib/commandments-data';
 import { getBookIntroduction } from '@/lib/book-introductions';
+import { parseKjvSlug, getVerseTopic } from '@/lib/kjv-verse-data';
+import { getChapterWithCommentary, stripHtml } from '@/lib/bolls-api';
+import KjvVersePage from '@/components/KjvVersePage';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -113,6 +116,38 @@ export const dynamicParams = true;
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
   const url = `/${slug}`;
+
+  // Check for KJV verse page (e.g., "john-3-16-kjv")
+  const kjvParsed = parseKjvSlug(slug);
+  if (kjvParsed) {
+    const { bookSlug, chapter, verse, bookName } = kjvParsed;
+    const topic = getVerseTopic(bookSlug, chapter, verse);
+    const reference = `${bookName} ${chapter}:${verse}`;
+
+    // Load verse text for title excerpt
+    let verseExcerpt = '';
+    try {
+      const chapterVerses = await getChapterWithCommentary('KJV', bookSlug, chapter);
+      const found = chapterVerses.find((v: any) => v.verse === verse);
+      if (found) {
+        const text = stripHtml(found.text);
+        verseExcerpt = text.length > 55 ? text.substring(0, 52) + '...' : text;
+      }
+    } catch {}
+
+    const title = verseExcerpt
+      ? `KJV ${reference} - ${verseExcerpt} | ${topic}`
+      : `KJV ${reference} - King James Version | ${topic}`;
+    const description = `Read ${reference} in the King James Version: "${verseExcerpt || 'Full verse text'}". Study this scripture about ${topic.toLowerCase()} with cross-references and context.`;
+
+    return {
+      title,
+      description,
+      alternates: { canonical: `https://biblemaximum.com/${slug}` },
+      openGraph: { title, description, url, type: 'article' },
+      twitter: { card: 'summary', title, description },
+    };
+  }
 
   // Check for book chapters page (e.g., "exodus-chapters")
   const chaptersBook = parseChaptersSlug(slug);
@@ -232,6 +267,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function DynamicPage({ params }: PageProps) {
   const { slug } = await params;
+
+  // Check for KJV verse page (e.g., "john-3-16-kjv")
+  const kjvParsed = parseKjvSlug(slug);
+  if (kjvParsed) {
+    const result = await KjvVersePage(kjvParsed);
+    if (result) return result;
+    notFound();
+  }
+
   // Check for book chapters page (e.g., "exodus-chapters")
   const chaptersBook = parseChaptersSlug(slug);
   if (chaptersBook) {

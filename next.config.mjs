@@ -19,6 +19,26 @@ const nextConfig = {
   // PWA and performance optimizations
   poweredByHeader: false,
   reactStrictMode: true,
+  // 301 redirects: consolidate /topics/ → /bible-quotes/ (same SERP)
+  async redirects() {
+    return [
+      {
+        source: '/topics',
+        destination: '/bible-quotes',
+        permanent: true,
+      },
+      {
+        source: '/topics/:slug',
+        destination: '/bible-quotes/:slug',
+        permanent: true,
+      },
+      {
+        source: '/topics/:slug/in/:book',
+        destination: '/bible-quotes/:slug',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

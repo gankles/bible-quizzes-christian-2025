@@ -21,6 +21,8 @@ import { getAllHebrewSlugs, getAllGreekSlugs } from './strongs-data';
 import { getAllChainStudies } from './chain-data';
 import { getAllEncyclopediaSlugs } from './encyclopedia-data';
 import { getAllGrammarForms } from './grammar-data';
+import { getAllQuoteSlugs } from './bible-quotes-data';
+import { getAllKjvVerseSlugs } from './kjv-verse-data';
 
 export interface SitemapUrl {
   url: string;
@@ -75,6 +77,9 @@ const GROUP_DATE_RANGES: Record<string, [string, string]> = {
   'bible-encyclopedia': ['2026-02-22', '2026-02-26'],
   'greek-grammar':      ['2026-02-24', '2026-02-26'],
   'pillar-pages':       ['2026-02-18', '2026-02-26'],
+  'bible-quotes':       ['2026-02-27', '2026-02-27'],
+  'what-does-bible-say': ['2026-02-27', '2026-02-27'],
+  'kjv-verses':          ['2026-02-27', '2026-02-27'],
 };
 
 /** Assign realistic, gradually-spread lastmod dates per content group */
@@ -173,7 +178,6 @@ export function generateAllUrls(): SitemapUrl[] {
     { path: '/bible-study-guides', priority: 0.6, changeFreq: 'monthly' as const },
     { path: '/site-map', priority: 0.3, changeFreq: 'monthly' as const },
     { path: '/characters', priority: 0.6, changeFreq: 'monthly' as const },
-    { path: '/topics', priority: 0.6, changeFreq: 'monthly' as const },
     { path: '/lexicon', priority: 0.7, changeFreq: 'monthly' as const },
     { path: '/lexicon/browse/greek', priority: 0.7, changeFreq: 'monthly' as const },
     { path: '/lexicon/browse/hebrew', priority: 0.7, changeFreq: 'monthly' as const },
@@ -193,31 +197,6 @@ export function generateAllUrls(): SitemapUrl[] {
     { path: '/bible-quiz-difficulty/medium', priority: 0.7, changeFreq: 'monthly' as const },
     { path: '/bible-quiz-difficulty/hard', priority: 0.7, changeFreq: 'monthly' as const },
     { path: '/bible-quiz-difficulty/theological', priority: 0.7, changeFreq: 'monthly' as const },
-    { path: '/what-does-the-bible-say-about/love', priority: 0.8, changeFreq: 'monthly' as const },
-    { path: '/what-does-the-bible-say-about/strength', priority: 0.7, changeFreq: 'monthly' as const },
-    { path: '/what-does-the-bible-say-about/faith', priority: 0.8, changeFreq: 'monthly' as const },
-    { path: '/what-does-the-bible-say-about/death', priority: 0.7, changeFreq: 'monthly' as const },
-    { path: '/what-does-the-bible-say-about/healing', priority: 0.7, changeFreq: 'monthly' as const },
-    { path: '/what-does-the-bible-say-about/anxiety', priority: 0.7, changeFreq: 'monthly' as const },
-    { path: '/what-does-the-bible-say-about/prayer', priority: 0.8, changeFreq: 'monthly' as const },
-    { path: '/what-does-the-bible-say-about/forgiveness', priority: 0.7, changeFreq: 'monthly' as const },
-    { path: '/what-does-the-bible-say-about/hope', priority: 0.7, changeFreq: 'monthly' as const },
-    { path: '/what-does-the-bible-say-about/marriage', priority: 0.7, changeFreq: 'monthly' as const },
-    { path: '/what-does-the-bible-say-about/peace', priority: 0.7, changeFreq: 'monthly' as const },
-    { path: '/what-does-the-bible-say-about/patience', priority: 0.7, changeFreq: 'monthly' as const },
-    { path: '/what-does-the-bible-say-about/money', priority: 0.7, changeFreq: 'monthly' as const },
-    { path: '/what-does-the-bible-say-about/friendship', priority: 0.7, changeFreq: 'monthly' as const },
-    { path: '/what-does-the-bible-say-about/worry', priority: 0.7, changeFreq: 'monthly' as const },
-    { path: '/what-does-the-bible-say-about/jealousy', priority: 0.7, changeFreq: 'monthly' as const },
-    { path: '/what-does-the-bible-say-about/fear', priority: 0.7, changeFreq: 'monthly' as const },
-    { path: '/what-does-the-bible-say-about/anger', priority: 0.7, changeFreq: 'monthly' as const },
-    { path: '/what-does-the-bible-say-about/gratitude', priority: 0.7, changeFreq: 'monthly' as const },
-    { path: '/what-does-the-bible-say-about/humility', priority: 0.7, changeFreq: 'monthly' as const },
-    { path: '/what-does-the-bible-say-about/pride', priority: 0.7, changeFreq: 'monthly' as const },
-    { path: '/what-does-the-bible-say-about/temptation', priority: 0.7, changeFreq: 'monthly' as const },
-    { path: '/what-does-the-bible-say-about/salvation', priority: 0.8, changeFreq: 'monthly' as const },
-    { path: '/what-does-the-bible-say-about/grace', priority: 0.8, changeFreq: 'monthly' as const },
-    { path: '/what-does-the-bible-say-about/joy', priority: 0.7, changeFreq: 'monthly' as const },
     { path: '/bible-chapter-summaries', priority: 0.7, changeFreq: 'monthly' as const },
     { path: '/bible-geography-quiz', priority: 0.7, changeFreq: 'monthly' as const },
     { path: '/bible-book-names', priority: 0.5, changeFreq: 'monthly' as const },
@@ -293,35 +272,15 @@ export function generateAllUrls(): SitemapUrl[] {
     }
   });
 
-  // 12. Topic pages (/topics/{slug})
-  const topicSlugs = getTopicSlugs();
-  topicSlugs.forEach(slug => {
-    urls.push(makeUrl(`${baseUrl}/topics/${slug}`, 'topics', 0.6));
-  });
+  // 12. Topic pages — REMOVED: /topics/:slug now 301 redirects to /bible-quotes/:slug
 
-  // 12b. Topic-in-book pages (/topics/{slug}/in/{book})
-  try {
-    const topicsJson = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'topics.json'), 'utf-8'));
-    const seen = new Set<string>();
-    for (const topic of topicsJson.topics || []) {
-      if (!topic.verseRefs?.length) continue;
-      const books = new Set<string>();
-      for (const ref of topic.verseRefs) {
-        const parts = ref.split('-');
-        parts.pop(); // verse
-        parts.pop(); // chapter
-        const bookSlug = parts.join('-');
-        if (bookSlug) books.add(bookSlug);
-      }
-      for (const book of books) {
-        const key = `${topic.slug}:${book}`;
-        if (!seen.has(key)) {
-          seen.add(key);
-          urls.push(makeUrl(`${baseUrl}/topics/${topic.slug}/in/${book}`, 'topics', 0.4));
-        }
-      }
+  // 12b. What Does the Bible Say About pages (/what-does-the-bible-say-about/{slug})
+  {
+    const quoteSlugsForWdtbs = getAllQuoteSlugs();
+    for (const slug of quoteSlugsForWdtbs) {
+      urls.push(makeUrl(`${baseUrl}/what-does-the-bible-say-about/${slug}`, 'what-does-bible-say', 0.6));
     }
-  } catch {}
+  }
 
   // 13. Cross-reference pages (/cross-references/{book}/{chapter}/{verse})
   verseKeys.forEach(key => {
@@ -626,6 +585,15 @@ export function generateAllUrls(): SitemapUrl[] {
     });
   } catch {}
 
+  // 46. Bible Quotes (/bible-quotes, /bible-quotes/{slug}) — ~8,495 pages
+  urls.push(makeUrl(`${baseUrl}/bible-quotes`, 'bible-quotes', 0.8, 'weekly'));
+  {
+    const quoteSlugs = getAllQuoteSlugs();
+    for (const slug of quoteSlugs) {
+      urls.push(makeUrl(`${baseUrl}/bible-quotes/${slug}`, 'bible-quotes', 0.6));
+    }
+  }
+
   // 45. Pillar Pages (verse study landing pages)
   const pillarPages = [
     '/john-3-16',
@@ -639,6 +607,14 @@ export function generateAllUrls(): SitemapUrl[] {
   pillarPages.forEach(p => {
     urls.push(makeUrl(`${baseUrl}${p}`, 'pillar-pages', 0.9, 'monthly'));
   });
+
+  // 47. KJV Verse pages (/[book]-[chapter]-[verse]-kjv) — ~29,333 pages
+  {
+    const kjvSlugs = getAllKjvVerseSlugs();
+    for (const slug of kjvSlugs) {
+      urls.push(makeUrl(`${baseUrl}/${slug}`, 'kjv-verses', 0.5));
+    }
+  }
 
   return urls;
 }
