@@ -13,9 +13,10 @@ import BookChaptersClient from '@/components/BookChaptersClient';
 import ChapterCommandments from '@/components/ChapterCommandments';
 import { getCommandmentsByChapter } from '@/lib/commandments-data';
 import { getBookIntroduction } from '@/lib/book-introductions';
-import { parseKjvSlug, getVerseTopic } from '@/lib/kjv-verse-data';
+import { parseKjvSlug, parseKjvChapterSlug, getVerseTopic } from '@/lib/kjv-verse-data';
 import { getChapterWithCommentary, stripHtml } from '@/lib/bolls-api';
 import KjvVersePage from '@/components/KjvVersePage';
+import KjvChapterPage from '@/components/KjvChapterPage';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -149,6 +150,37 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  // Check for KJV chapter page (e.g., "psalm-93-kjv")
+  const kjvChapterParsed = parseKjvChapterSlug(slug);
+  if (kjvChapterParsed) {
+    const { bookSlug: chBookSlug, chapter: chChapter, bookName: chBookName } = kjvChapterParsed;
+    const chReference = `${chBookName} ${chChapter}`;
+
+    // Load first verse text for title excerpt
+    let chExcerpt = '';
+    try {
+      const chapterVerses = await getChapterWithCommentary('KJV', chBookSlug, chChapter);
+      const firstVerse = chapterVerses.find((v: any) => v.verse === 1);
+      if (firstVerse) {
+        const text = stripHtml(firstVerse.text);
+        chExcerpt = text.length > 55 ? text.substring(0, 52) + '...' : text;
+      }
+    } catch {}
+
+    const chTitle = chExcerpt
+      ? `KJV ${chReference} - ${chExcerpt}`
+      : `KJV ${chReference} - King James Version`;
+    const chDescription = `Read ${chReference} KJV (King James Version) — full chapter text. ${chExcerpt ? `Begins: "${chExcerpt}".` : ''} Study with cross-references, verse links, and commentary.`;
+
+    return {
+      title: chTitle,
+      description: chDescription,
+      alternates: { canonical: `https://biblemaximum.com/${slug}` },
+      openGraph: { title: chTitle, description: chDescription, url, type: 'article' },
+      twitter: { card: 'summary', title: chTitle, description: chDescription },
+    };
+  }
+
   // Check for book chapters page (e.g., "exodus-chapters")
   const chaptersBook = parseChaptersSlug(slug);
   if (chaptersBook) {
@@ -272,6 +304,14 @@ export default async function DynamicPage({ params }: PageProps) {
   const kjvParsed = parseKjvSlug(slug);
   if (kjvParsed) {
     const result = await KjvVersePage(kjvParsed);
+    if (result) return result;
+    notFound();
+  }
+
+  // Check for KJV chapter page (e.g., "psalm-93-kjv")
+  const kjvChapterParsed = parseKjvChapterSlug(slug);
+  if (kjvChapterParsed) {
+    const result = await KjvChapterPage(kjvChapterParsed);
     if (result) return result;
     notFound();
   }

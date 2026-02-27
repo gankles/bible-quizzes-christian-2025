@@ -22,7 +22,7 @@ import { getAllChainStudies } from './chain-data';
 import { getAllEncyclopediaSlugs } from './encyclopedia-data';
 import { getAllGrammarForms } from './grammar-data';
 import { getAllQuoteSlugs } from './bible-quotes-data';
-import { getAllKjvVerseSlugs } from './kjv-verse-data';
+import { getAllKjvVerseSlugs, getAllKjvChapterSlugs } from './kjv-verse-data';
 
 export interface SitemapUrl {
   url: string;
@@ -80,6 +80,7 @@ const GROUP_DATE_RANGES: Record<string, [string, string]> = {
   'bible-quotes':       ['2026-02-27', '2026-02-27'],
   'what-does-bible-say': ['2026-02-27', '2026-02-27'],
   'kjv-verses':          ['2026-02-27', '2026-02-27'],
+  'kjv-chapters':        ['2026-02-27', '2026-02-27'],
 };
 
 /** Assign realistic, gradually-spread lastmod dates per content group */
@@ -613,6 +614,14 @@ export function generateAllUrls(): SitemapUrl[] {
     const kjvSlugs = getAllKjvVerseSlugs();
     for (const slug of kjvSlugs) {
       urls.push(makeUrl(`${baseUrl}/${slug}`, 'kjv-verses', 0.5));
+    }
+  }
+
+  // 48. KJV Chapter pages (/[book]-[chapter]-kjv) — 1,189 pages
+  {
+    const kjvChapterSlugs = getAllKjvChapterSlugs();
+    for (const slug of kjvChapterSlugs) {
+      urls.push(makeUrl(`${baseUrl}/${slug}`, 'kjv-chapters', 0.6));
     }
   }
 

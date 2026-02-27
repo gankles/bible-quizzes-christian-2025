@@ -1,10 +1,12 @@
 /**
- * kjv-verse-data.ts — Data library for /[book]-[chapter]-[verse]-kjv pages
+ * kjv-verse-data.ts — Data library for KJV verse & chapter pages
  *
  * Provides:
- * - parseKjvSlug(): parse a slug like "john-3-16-kjv" into book/chapter/verse
+ * - parseKjvSlug(): parse "john-3-16-kjv" into book/chapter/verse
+ * - parseKjvChapterSlug(): parse "john-3-kjv" into book/chapter
  * - getVerseTopic(): get the most relevant topic name for a verse reference
- * - getAllKjvSlugs(): get all 31,102 verse slugs for sitemap generation
+ * - getAllKjvVerseSlugs(): get all ~29,333 verse slugs for sitemap
+ * - getAllKjvChapterSlugs(): get all 1,189 chapter slugs for sitemap
  */
 
 import fs from 'fs';
@@ -32,6 +34,9 @@ export function parseKjvSlug(slug: string): ParsedKjvSlug | null {
   const core = slug.slice(0, -4); // "john-3-16" or "1-samuel-2-3"
   const parts = core.split('-');
 
+  // Need at least book + chapter + verse = 3 parts minimum
+  if (parts.length < 3) return null;
+
   // Try matching from longest possible book slug to shortest
   // Book slugs can be multi-part: "1-samuel", "2-kings", "song-of-solomon"
   for (let i = parts.length - 2; i >= 1; i--) {
@@ -42,19 +47,59 @@ export function parseKjvSlug(slug: string): ParsedKjvSlug | null {
     if (BOOK_SLUG_SET.has(bookSlug) && i + 1 < parts.length) {
       const chapter = parseInt(chapterStr);
       const verse = parseInt(verseStr);
-      if (chapter > 0 && verse > 0) {
-        const book = BIBLE_BOOKS.find(b => b.slug === bookSlug);
-        return {
-          bookSlug,
-          chapter,
-          verse,
-          bookName: book?.name || bookSlug,
-        };
-      }
+      if (isNaN(chapter) || isNaN(verse) || chapter < 1 || verse < 1) continue;
+      const book = BIBLE_BOOKS.find(b => b.slug === bookSlug);
+      if (!book || chapter > book.chapters) continue;
+      return {
+        bookSlug,
+        chapter,
+        verse,
+        bookName: book.name,
+      };
     }
   }
 
   return null;
+}
+
+// ============================================
+// KJV Chapter slug parsing
+// ============================================
+
+interface ParsedKjvChapterSlug {
+  bookSlug: string;
+  chapter: number;
+  bookName: string;
+  totalChapters: number;
+}
+
+/** Parse a slug like "psalms-93-kjv" or "1-samuel-2-kjv" into book/chapter */
+export function parseKjvChapterSlug(slug: string): ParsedKjvChapterSlug | null {
+  if (!slug.endsWith('-kjv')) return null;
+
+  const core = slug.slice(0, -4); // "psalms-93" or "1-samuel-2"
+  const parts = core.split('-');
+
+  // Need at least book + chapter = 2 parts minimum
+  if (parts.length < 2) return null;
+
+  // The chapter number is always the last part; everything before is the book slug
+  const chapterStr = parts[parts.length - 1];
+  const chapter = parseInt(chapterStr);
+  if (isNaN(chapter) || chapter < 1) return null;
+
+  const bookSlug = parts.slice(0, parts.length - 1).join('-');
+  if (!BOOK_SLUG_SET.has(bookSlug)) return null;
+
+  const book = BIBLE_BOOKS.find(b => b.slug === bookSlug);
+  if (!book || chapter > book.chapters) return null;
+
+  return {
+    bookSlug,
+    chapter,
+    bookName: book.name,
+    totalChapters: book.chapters,
+  };
 }
 
 // ============================================
@@ -175,4 +220,19 @@ export function getAllKjvVerseSlugs(): string[] {
 /** Get verse ref count */
 export function getKjvVerseCount(): number {
   return loadAllVerseRefs().length;
+}
+
+// ============================================
+// All KJV chapter slugs for sitemap
+// ============================================
+
+/** Get all 1,189 KJV chapter slugs (e.g., "genesis-1-kjv", "psalm-93-kjv") */
+export function getAllKjvChapterSlugs(): string[] {
+  const slugs: string[] = [];
+  for (const book of BIBLE_BOOKS) {
+    for (let ch = 1; ch <= book.chapters; ch++) {
+      slugs.push(`${book.slug}-${ch}-kjv`);
+    }
+  }
+  return slugs;
 }
