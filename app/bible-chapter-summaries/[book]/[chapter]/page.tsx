@@ -7,6 +7,7 @@ import { getBookMetadata } from '@/lib/book-metadata';
 import { loadChapterBreakdown, getChapterBreakdown, loadChapterSummary } from '@/lib/chapter-breakdowns';
 import { getBookIntroduction } from '@/lib/book-introductions';
 import { getDevotionalsByBook } from '@/lib/devotionals-data';
+import { renderWithBold } from '@/lib/render-helpers';
 
 interface ChapterSummaryPageProps {
   params: Promise<{ book: string; chapter: string }>;
@@ -37,7 +38,7 @@ export async function generateMetadata({ params }: ChapterSummaryPageProps): Pro
   const meta = getBookMetadata(book);
   const chTitle = summary?.title || breakdown.title;
   const title = `${bookData.name} ${chapterNum} Summary: ${chTitle} | Bible Study Guide | Bible Maximum`;
-  const desc = summary?.shortSummary || `${bookData.name} chapter ${chapterNum} - "${breakdown.title}." ${breakdown.keyEvent}.`;
+  const desc = summary?.overview || summary?.shortSummary || `${bookData.name} chapter ${chapterNum} - "${breakdown.title}." ${breakdown.keyEvent}.`;
   const description = `${desc} ${breakdown.verses} verses. Author: ${meta?.author || 'Unknown'}.`;
 
   return {
@@ -189,7 +190,7 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
                 {bookData.name} {chapterNum}: {chTitle}
               </h1>
               <p className="text-amber-100/90 mt-1 text-sm md:text-base">
-                {summary?.shortSummary || currentChapter.keyEvent}
+                {summary?.overview ? summary.overview.slice(0, 200) + (summary.overview.length > 200 ? '...' : '') : (summary?.shortSummary || currentChapter.keyEvent)}
               </p>
             </div>
           </div>
@@ -232,17 +233,47 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
 
         {/* === RICH CONTENT (when AI data exists) === */}
 
-        {/* Key Characters */}
-        {summary?.keyCharacters && summary.keyCharacters.length > 0 && (
+        {/* Overview (full paragraph, only if longer than hero snippet) */}
+        {summary?.overview && summary.overview.length > 200 && (
+          <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
+            <h2 className="text-xl font-bold text-scripture mb-3 flex items-center">
+              <svg className="w-5 h-5 mr-2 text-blue-600" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              Overview
+            </h2>
+            <p className="text-primary-dark/80 leading-relaxed">{summary.overview}</p>
+          </section>
+        )}
+
+        {/* Structure & Organization */}
+        {summary?.structure && (
+          <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
+            <h2 className="text-xl font-bold text-scripture mb-3 flex items-center">
+              <svg className="w-5 h-5 mr-2 text-violet-600" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+              </svg>
+              Structure &amp; Organization
+            </h2>
+            <div className="text-primary-dark/80 leading-relaxed space-y-3">
+              {summary.structure.split('\n\n').map((para, i) => (
+                <p key={i}>{renderWithBold(para)}</p>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Characters, Events & Symbols */}
+        {summary?.characters && summary.characters.length > 0 && (
           <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
             <h2 className="text-xl font-bold text-scripture mb-4 flex items-center">
               <svg className="w-5 h-5 mr-2 text-indigo-600" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
-              Key Characters
+              Characters, Events &amp; Symbols
             </h2>
             <div className="space-y-3">
-              {summary.keyCharacters.map((char, i) => (
+              {summary.characters.map((char, i) => (
                 <div key={i} className="flex gap-3">
                   <div className="flex-shrink-0 w-8 h-8 rounded-full bg-indigo-100 text-indigo-700 flex items-center justify-center font-bold text-sm">
                     {char.name.charAt(0)}
@@ -433,8 +464,34 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
           </section>
         )}
 
-        {/* Key Themes (book-level, always shown) */}
-        {meta?.keyThemes && meta.keyThemes.length > 0 && (
+        {/* Main Themes (chapter-specific when available, book-level fallback) */}
+        {summary?.themes && summary.themes.length > 0 ? (
+          <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
+            <h2 className="text-xl font-bold text-scripture mb-4 flex items-center">
+              <svg className="w-5 h-5 mr-2 text-emerald-600" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+              </svg>
+              Main Themes
+            </h2>
+            <div className="space-y-3">
+              {summary.themes.map((t, i) => {
+                const colors = [
+                  'border-blue-400 bg-blue-50',
+                  'border-emerald-400 bg-emerald-50',
+                  'border-amber-400 bg-amber-50',
+                  'border-purple-400 bg-purple-50',
+                  'border-rose-400 bg-rose-50',
+                ];
+                return (
+                  <div key={i} className={`border-l-4 ${colors[i % colors.length]} rounded-r-lg p-3`}>
+                    <h3 className="font-semibold text-scripture text-sm mb-1">{t.theme}</h3>
+                    <p className="text-sm text-primary-dark/70">{t.description}</p>
+                  </div>
+                );
+              })}
+            </div>
+          </section>
+        ) : meta?.keyThemes && meta.keyThemes.length > 0 ? (
           <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
             <h2 className="text-xl font-bold text-scripture mb-3 flex items-center">
               <svg className="w-5 h-5 mr-2 text-emerald-600" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -459,6 +516,78 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
                 );
               })}
             </div>
+          </section>
+        ) : null}
+
+        {/* Historical & Cultural Context */}
+        {summary?.historicalContext && (
+          <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
+            <h2 className="text-xl font-bold text-scripture mb-3 flex items-center">
+              <svg className="w-5 h-5 mr-2 text-amber-700" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              Historical &amp; Cultural Context
+            </h2>
+            <div className="text-primary-dark/80 leading-relaxed space-y-3">
+              {summary.historicalContext.split('\n\n').map((para, i) => (
+                <p key={i}>{para}</p>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Theological Interpretations */}
+        {summary?.theologicalInterpretations && summary.theologicalInterpretations.length > 0 && (
+          <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
+            <h2 className="text-xl font-bold text-scripture mb-4 flex items-center">
+              <svg className="w-5 h-5 mr-2 text-purple-600" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+              </svg>
+              Theological Interpretations
+            </h2>
+            <div className="space-y-3">
+              {summary.theologicalInterpretations.map((interp, i) => (
+                <div key={i} className="border-l-4 border-purple-400 bg-purple-50 rounded-r-lg p-3">
+                  <h3 className="font-semibold text-scripture text-sm mb-1">{interp.view}</h3>
+                  <p className="text-sm text-primary-dark/70">{interp.description}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Cross-References */}
+        {summary?.crossReferences && summary.crossReferences.length > 0 && (
+          <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
+            <h2 className="text-xl font-bold text-scripture mb-4 flex items-center">
+              <svg className="w-5 h-5 mr-2 text-teal-600" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+              </svg>
+              Cross-References
+            </h2>
+            <div className="space-y-2">
+              {summary.crossReferences.map((ref, i) => (
+                <div key={i} className="flex gap-3 items-start">
+                  <span className="flex-shrink-0 text-xs font-mono text-teal-700 bg-teal-50 border border-teal-200 px-2 py-1 rounded mt-0.5 whitespace-nowrap">
+                    {ref.reference}
+                  </span>
+                  <p className="text-sm text-primary-dark/70">{ref.connection}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Conclusion */}
+        {summary?.conclusion && (
+          <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
+            <h2 className="text-xl font-bold text-scripture mb-3 flex items-center">
+              <svg className="w-5 h-5 mr-2 text-blue-600" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              Conclusion
+            </h2>
+            <p className="text-primary-dark/80 leading-relaxed">{summary.conclusion}</p>
           </section>
         )}
 
@@ -631,7 +760,7 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
               '@context': 'https://schema.org',
               '@type': 'Article',
               headline: `${bookData.name} ${chapterNum}: ${chTitle} - Chapter Summary & Study Guide`,
-              description: summary?.shortSummary || currentChapter.keyEvent,
+              description: summary?.overview || summary?.shortSummary || currentChapter.keyEvent,
               datePublished: '2025-02-01',
               dateModified: '2025-02-22',
               author: { '@type': 'Organization', name: 'Bible Maximum' },

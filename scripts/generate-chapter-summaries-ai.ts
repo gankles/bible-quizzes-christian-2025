@@ -34,17 +34,37 @@ interface ChapterSummaryData {
   bookName: string;
   chapter: number;
   title: string;
-  shortSummary: string;
-  timeline: string;
-  keyCharacters: Array<{ name: string; description: string }>;
-  definitions: Array<{ term: string; definition: string }>;
-  outline: Array<{
-    heading: string;
-    verseRange: string;
+  // 10-section rich format
+  overview: string;                    // Section 1: ~100-150 words
+  structure: string;                   // Section 2: multi-paragraph with bullets
+  keyVerses: Array<{                   // Section 3
+    reference: string;
+    text: string;                      // Exact KJV
+    significance: string;              // 2-3 sentences
+  }>;
+  characters: Array<{                  // Section 4
+    name: string;
     description: string;
   }>;
-  application: string[];
-  keyVerses: Array<{ reference: string; text: string; significance: string }>;
+  themes: Array<{                      // Section 5
+    theme: string;
+    description: string;
+  }>;
+  historicalContext: string;            // Section 6: 1-2 paragraphs
+  theologicalInterpretations: Array<{  // Section 7
+    view: string;
+    description: string;
+  }>;
+  crossReferences: Array<{             // Section 8
+    reference: string;
+    connection: string;
+  }>;
+  application: string[];               // Section 9: 4-6 points
+  conclusion: string;                  // Section 10: 1 paragraph
+  // Backward compat fields
+  timeline: string;
+  definitions: Array<{ term: string; definition: string }>;
+  outline: Array<{ heading: string; verseRange: string; description: string }>;
 }
 
 interface ProgressData {
@@ -245,44 +265,63 @@ async function fetchChapterText(bookSlug: string, chapter: number): Promise<stri
 // =============================================================================
 
 function buildPrompt(bookName: string, chapter: number, chapterText: string): string {
-  return `You are a Bible scholar creating a rich chapter study guide for ${bookName} Chapter ${chapter}.
+  return `You are a Bible scholar creating a rich 10-section chapter study guide for ${bookName} Chapter ${chapter}.
 
 CHAPTER TEXT (KJV):
 ${chapterText}
 
-Generate a comprehensive study guide for this chapter. Return ONLY valid JSON in this exact format:
+Generate a comprehensive study guide. Return ONLY valid JSON in this exact format:
 
 {
   "title": "Short title for this chapter (2-4 words, e.g. 'The Creation', 'Cain and Abel')",
-  "shortSummary": "A 2-3 sentence overview of the chapter's content and significance. Written in engaging, accessible prose.",
-  "timeline": "Historical time period (e.g. 'c. 4000 BC - Creation', 'c. 1446 BC - The Exodus', 'c. AD 57 - Paul's Third Missionary Journey'). Be specific where possible.",
-  "keyCharacters": [
-    { "name": "Character Name", "description": "Brief description of who they are and their role in this chapter (1-2 sentences)" }
+  "overview": "A 100-150 word overview of the chapter's content, significance, and place within the book. Written in engaging, accessible prose. This replaces a short summary — be thorough.",
+  "structure": "A multi-paragraph description of how this chapter is organized. Use **bold** markdown for section labels. Example: '**Verses 1-5: The Setting.** Description here.\\n\\n**Verses 6-12: The Conflict.** Description here.' Cover the entire chapter.",
+  "keyVerses": [
+    { "reference": "${bookName} ${chapter}:verse", "text": "Exact KJV text of the verse — must be word-for-word from the text above", "significance": "Why this verse matters — 2-3 sentences explaining its theological importance and how it connects to the chapter's message." }
   ],
+  "characters": [
+    { "name": "Character Name", "description": "Who they are and their role in this chapter (2-3 sentences). Include key actions, motivations, and significance." }
+  ],
+  "themes": [
+    { "theme": "Theme Name", "description": "How this theme appears specifically in THIS chapter (2-3 sentences). Connect to the broader biblical narrative." }
+  ],
+  "historicalContext": "1-2 paragraphs about the historical and cultural background needed to understand this chapter. Include time period, geography, customs, and political situation as relevant.",
+  "theologicalInterpretations": [
+    { "view": "Interpretation Name (e.g. 'Reformed View', 'Dispensational View', 'Church Fathers')", "description": "How this theological tradition interprets key passages in this chapter (2-3 sentences)." }
+  ],
+  "crossReferences": [
+    { "reference": "Book Chapter:Verse (e.g. 'Romans 5:12')", "connection": "How this passage connects to ${bookName} ${chapter} (1-2 sentences)." }
+  ],
+  "application": [
+    "Practical application point (1-2 sentences, specific and actionable for Christian living)"
+  ],
+  "conclusion": "A single paragraph summarizing the chapter's enduring significance for believers today. Tie together the key themes, verses, and application points.",
+  "timeline": "Historical time period (e.g. 'c. 4000 BC - Creation', 'c. 1446 BC - The Exodus', 'c. AD 57 - Paul's Third Missionary Journey'). Be specific where possible.",
   "definitions": [
     { "term": "Term", "definition": "Clear, concise definition relevant to understanding this chapter" }
   ],
   "outline": [
     { "heading": "Section heading", "verseRange": "${bookName} ${chapter}:1-5", "description": "2-3 sentence description of what happens in this section and its theological significance." }
-  ],
-  "application": [
-    "Practical application point 1 (1-2 sentences, specific and actionable for Christian living)",
-    "Practical application point 2",
-    "Practical application point 3"
-  ],
-  "keyVerses": [
-    { "reference": "${bookName} ${chapter}:verse", "text": "Exact KJV text of the verse", "significance": "Why this verse matters (1 sentence)" }
   ]
 }
 
 REQUIREMENTS:
-- keyCharacters: 2-5 characters (only include people actually present/mentioned in this chapter, not God unless He speaks or acts directly)
-- definitions: 2-5 terms (archaic KJV words, theological concepts, or cultural terms a modern reader would benefit from understanding)
-- outline: 3-6 sections that cover the entire chapter, with accurate verse ranges
-- application: 3-4 points focused on traditional Christian faith, prayer, obedience, and biblical wisdom
-- keyVerses: 2-4 of the most important/memorable verses from this chapter, with EXACT KJV text
-- All verse references must be from this chapter
+- overview: 100-150 words, engaging prose summarizing the whole chapter
+- structure: Multi-paragraph with **bold** section labels. Cover all verses.
+- keyVerses: 3-5 of the most important verses with EXACT KJV text copied from the chapter text above
+- characters: 2-5 people/entities (include God only if He speaks or acts directly). If no named characters, use "events" or "symbols" instead.
+- themes: 3-5 chapter-specific themes with descriptions connecting to broader biblical theology
+- historicalContext: 1-2 paragraphs with time period, geography, customs, political context
+- theologicalInterpretations: 2-3 different scholarly/denominational perspectives
+- crossReferences: 4-6 cross-references from OTHER books of the Bible (not ${bookName} ${chapter} itself)
+- application: 4-6 points focused on traditional Christian faith, prayer, obedience, and biblical wisdom
+- conclusion: 1 paragraph tying everything together
+- timeline: Specific historical date range
+- definitions: 3-5 archaic KJV words or theological concepts
+- outline: 3-6 sections covering the entire chapter with accurate verse ranges
+- All verse references in keyVerses must be from this chapter with EXACT KJV wording
 - Do NOT include social justice framing, environmental activism, or sensitivity-training language
+- Do NOT use "inherent worth/dignity" phrasing or modern political framing
 - Write from a conservative, evangelical perspective grounded in the biblical text`;
 }
 
@@ -315,7 +354,7 @@ async function generateChapterSummary(
           { role: 'user', content: prompt },
         ],
         temperature: 0.3,
-        max_tokens: 3000,
+        max_tokens: 6000,
       }, { timeout: OPENAI_TIMEOUT_MS });
 
       const content = response.choices[0]?.message?.content?.trim();
@@ -337,17 +376,25 @@ async function generateChapterSummary(
         bookName,
         chapter,
         title: parsed.title || '',
-        shortSummary: parsed.shortSummary || '',
+        // 10-section fields
+        overview: parsed.overview || '',
+        structure: parsed.structure || '',
+        keyVerses: Array.isArray(parsed.keyVerses) ? parsed.keyVerses : [],
+        characters: Array.isArray(parsed.characters) ? parsed.characters : [],
+        themes: Array.isArray(parsed.themes) ? parsed.themes : [],
+        historicalContext: parsed.historicalContext || '',
+        theologicalInterpretations: Array.isArray(parsed.theologicalInterpretations) ? parsed.theologicalInterpretations : [],
+        crossReferences: Array.isArray(parsed.crossReferences) ? parsed.crossReferences : [],
+        application: Array.isArray(parsed.application) ? parsed.application : [],
+        conclusion: parsed.conclusion || '',
+        // Backward compat fields
         timeline: parsed.timeline || '',
-        keyCharacters: Array.isArray(parsed.keyCharacters) ? parsed.keyCharacters : [],
         definitions: Array.isArray(parsed.definitions) ? parsed.definitions : [],
         outline: Array.isArray(parsed.outline) ? parsed.outline : [],
-        application: Array.isArray(parsed.application) ? parsed.application : [],
-        keyVerses: Array.isArray(parsed.keyVerses) ? parsed.keyVerses : [],
       };
 
       // Validation
-      if (!data.title || !data.shortSummary || data.outline.length === 0) {
+      if (!data.title || !data.overview || data.outline.length === 0) {
         throw new Error('Missing required fields in response');
       }
 
