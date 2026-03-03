@@ -258,29 +258,3 @@ export function LetterNav({
   );
 }
 
-/** Breadcrumb Navigation — consistent across all study pages */
-export function StudyBreadcrumb({
-  items,
-}: {
-  items: Array<{ label: string; href?: string }>;
-}) {
-  return (
-    <nav className="mb-6" aria-label="Breadcrumb">
-      <ol className="flex flex-wrap items-center gap-1 text-sm text-primary-dark/60 dark:text-primary-dark/40">
-        <li>
-          <Link href="/" className="hover:text-scripture transition-colors">Home</Link>
-        </li>
-        {items.map((item, i) => (
-          <li key={i} className="flex items-center gap-1">
-            <span>/</span>
-            {item.href ? (
-              <Link href={item.href} className="hover:text-scripture transition-colors">{item.label}</Link>
-            ) : (
-              <span className="text-scripture dark:text-white font-medium">{item.label}</span>
-            )}
-          </li>
-        ))}
-      </ol>
-    </nav>
-  );
-}

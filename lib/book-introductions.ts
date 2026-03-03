@@ -27,6 +27,8 @@ export interface BookIntroduction {
   historicalContext: string;
   theologicalSignificance: string;
   practicalApplication: string;
+  literaryStyle: string;
+  relationshipToNewTestament: string;
 }
 
 interface RawBookData {
@@ -39,6 +41,8 @@ interface RawBookData {
   historical_context: string;
   theological_significance: string;
   practical_application: string;
+  literary_style: string;
+  relationship_to_new_testament: string;
 }
 
 // Cache: slug -> BookIntroduction
@@ -99,6 +103,8 @@ export function getBookIntroduction(bookSlug: string): BookIntroduction | null {
       historicalContext: raw.historical_context || '',
       theologicalSignificance: raw.theological_significance || '',
       practicalApplication: raw.practical_application || '',
+      literaryStyle: raw.literary_style || '',
+      relationshipToNewTestament: raw.relationship_to_new_testament || '',
     };
     cache[bookSlug] = intro;
     return intro;
