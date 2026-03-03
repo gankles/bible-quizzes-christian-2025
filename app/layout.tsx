@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Crimson_Text, Merriweather } from "next/font/google";
 import Script from "next/script";
+import { headers } from "next/headers";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -38,11 +39,14 @@ export const metadata: Metadata = {
   alternates: { canonical: '/' },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const headersList = await headers();
+  const countryCode = headersList.get('x-country-code') || 'UNKNOWN';
+
   return (
     <html lang="en">
       <head>
@@ -61,11 +65,24 @@ export default function RootLayout({
                 j.async=true;
                 j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
                 f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','GTM-5PTL3XFC');
-            `,
-          }}
-        />
-      </head>
+      })(window,document,'script','dataLayer','GTM-5PTL3XFC');
+          `,
+        }}
+      />
+      {/* Push country code to dataLayer for GTM geo-blocking */}
+      <Script
+        id="gtm-country-data"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({
+              country_code: '${countryCode}'
+            });
+          `,
+        }}
+      />
+    </head>
     <body
       className={`${geistSans.variable} ${geistMono.variable} ${crimsonText.variable} ${merriweather.variable} antialiased min-h-screen flex flex-col bg-primary-light/30`}
     >
