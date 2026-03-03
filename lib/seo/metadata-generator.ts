@@ -3,6 +3,7 @@
 
 import { Metadata } from 'next'
 import crypto from 'crypto'
+import { SITE_CONFIG } from '@/lib/site-config'
 
 export interface PageMetadataParams {
     type: 'verse' | 'chapter' | 'book' | 'topic' | 'character' | 'study-plan' | 'home' | 'question' | 'prayer' | 'lexicon'
@@ -59,7 +60,7 @@ export function generatePageMetadata(params: PageMetadataParams): SEOMetadata {
     }
 
     // Add canonical URL
-    const canonical = `https://biblemaximum.com${url}`
+    const canonical = `${SITE_CONFIG.domain}${url}`
 
     // Generate uniqueness hash for deduplication
     const title = typeof metadata.title === 'string' ? metadata.title : 'Bible Study Hub'

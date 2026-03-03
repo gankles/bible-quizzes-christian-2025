@@ -44,7 +44,11 @@
     ".next-fresh/types/**/*.ts",
     "/tmp/tmp.ni0ofCNN90/types/**/*.ts",
     "/tmp/nextbuild-Cys3/types/**/*.ts",
-    "/tmp/next-build-test/types/**/*.ts"
+    "/tmp/next-build-test/types/**/*.ts",
+    ".next-build2/types/**/*.ts",
+    ".next-build3/types/**/*.ts",
+    "/tmp/next-build-bq/types/**/*.ts",
+    ".next-out/types/**/*.ts"
   ],
   "exclude": [
     "node_modules",

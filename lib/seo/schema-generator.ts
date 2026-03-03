@@ -1,6 +1,8 @@
 // Schema Markup Generator for Structured Data
 // Generates JSON-LD for Article, FAQ, Breadcrumb, Person, Course schemas
 
+import { SITE_CONFIG } from '@/lib/site-config'
+
 export interface SchemaParams {
     type: 'verse' | 'chapter' | 'book' | 'topic' | 'character' | 'study-plan' | 'verse-combination' | 'question' | 'prayer' | 'lexicon'
     data: any
@@ -70,7 +72,7 @@ function generateBreadcrumbSchema(data: any, url: string): object {
 
     const itemListElement = pathSegments.map((segment, index) => {
         const position = index + 2 // +1 for home, +1 for 1-indexed
-        const itemUrl = `https://biblemaximum.com/${pathSegments.slice(0, index + 1).join('/')}`
+        const itemUrl = `${SITE_CONFIG.domain}/${pathSegments.slice(0, index + 1).join('/')}`
         const name = segment.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())
 
         return {
@@ -89,7 +91,7 @@ function generateBreadcrumbSchema(data: any, url: string): object {
                 '@type': 'ListItem',
                 position: 1,
                 name: 'Home',
-                item: 'https://biblemaximum.com',
+                item: SITE_CONFIG.domain,
             },
             ...itemListElement,
         ],
@@ -110,7 +112,7 @@ function generateVerseArticleSchema(data: {
         '@type': 'Article',
         headline: `${data.bookName} ${data.chapter}:${data.verse}`,
         description: data.text,
-        url: `https://biblemaximum.com${url}`,
+        url: `${SITE_CONFIG.domain}${url}`,
         author: {
             '@type': 'Organization',
             name: 'Bible Study Hub',
@@ -120,7 +122,7 @@ function generateVerseArticleSchema(data: {
             name: 'Bible Study Hub',
             logo: {
                 '@type': 'ImageObject',
-                url: 'https://biblemaximum.com/logo.png',
+                url: `${SITE_CONFIG.domain}/logo.png`,
             },
         },
         datePublished: new Date().toISOString(),
@@ -184,7 +186,7 @@ function generateChapterArticleSchema(data: {
         '@type': 'Article',
         headline: `${data.bookName} Chapter ${data.chapter} Summary`,
         description: data.summary,
-        url: `https://biblemaximum.com${url}`,
+        url: `${SITE_CONFIG.domain}${url}`,
         author: {
             '@type': 'Organization',
             name: 'Bible Study Hub',
@@ -238,7 +240,7 @@ function generateChapterItemListSchema(data: {
             '@type': 'ListItem',
             position: i + 1,
             name: `${data.bookName} ${data.chapter}:${i + 1}`,
-            url: `https://biblemaximum.com/verses/${data.bookName.toLowerCase()}/${data.chapter}/${i + 1}`,
+            url: `${SITE_CONFIG.domain}/verses/${data.bookName.toLowerCase()}/${data.chapter}/${i + 1}`,
         })),
     }
 }
@@ -256,7 +258,7 @@ function generateBookArticleSchema(data: {
         '@type': 'Article',
         headline: `Book of ${data.name}`,
         description: data.summary,
-        url: `https://biblemaximum.com${url}`,
+        url: `${SITE_CONFIG.domain}${url}`,
         author: {
             '@type': 'Person',
             name: data.author,
@@ -303,7 +305,7 @@ function generateTopicArticleSchema(data: {
         '@type': 'Article',
         headline: `Bible Verses About ${data.name}`,
         description: data.description,
-        url: `https://biblemaximum.com${url}`,
+        url: `${SITE_CONFIG.domain}${url}`,
         publisher: {
             '@type': 'Organization',
             name: 'Bible Study Hub',
@@ -340,7 +342,7 @@ function generateCharacterPersonSchema(data: {
         name: data.name,
         description: data.biography,
         jobTitle: data.occupation,
-        url: `https://biblemaximum.com${url}`,
+        url: `${SITE_CONFIG.domain}${url}`,
     }
 }
 
@@ -356,7 +358,7 @@ function generateCharacterArticleSchema(data: {
         '@type': 'Article',
         headline: `${data.name} in the Bible`,
         description: data.biography,
-        url: `https://biblemaximum.com${url}`,
+        url: `${SITE_CONFIG.domain}${url}`,
         publisher: {
             '@type': 'Organization',
             name: 'Bible Study Hub',
@@ -382,7 +384,7 @@ function generateStudyPlanCourseSchema(data: {
             name: 'Bible Study Hub',
         },
         timeRequired: `P${data.duration}D`,
-        url: `https://biblemaximum.com${url}`,
+        url: `${SITE_CONFIG.domain}${url}`,
     }
 }
 /**
@@ -397,7 +399,7 @@ export function generateVerseCombinationSchema(data: {
         '@type': 'Article',
         headline: `${data.verse1.bookName} ${data.verse1.chapter}:${data.verse1.verse} and ${data.verse2.bookName} ${data.verse2.chapter}:${data.verse2.verse} Comparison`,
         description: `Comparative study and theological synergy between ${data.verse1.bookName} ${data.verse1.chapter}:${data.verse1.verse} and ${data.verse2.bookName} ${data.verse2.chapter}:${data.verse2.verse}.`,
-        url: `https://biblemaximum.com${url}`,
+        url: `${SITE_CONFIG.domain}${url}`,
         author: {
             '@type': 'Organization',
             name: 'Bible Study Hub',
@@ -445,7 +447,7 @@ function generateQuestionArticleSchema(data: {
         '@type': 'Article',
         headline: data.question,
         description: data.answer.substring(0, 160),
-        url: `https://biblemaximum.com${url}`,
+        url: `${SITE_CONFIG.domain}${url}`,
         articleSection: data.category,
         publisher: {
             '@type': 'Organization',
@@ -467,7 +469,7 @@ function generatePrayerArticleSchema(data: {
         '@type': 'Article',
         headline: data.title,
         description: data.content.substring(0, 160),
-        url: `https://biblemaximum.com${url}`,
+        url: `${SITE_CONFIG.domain}${url}`,
         articleSection: data.category,
         publisher: {
             '@type': 'Organization',
@@ -492,7 +494,7 @@ export function generateLexiconSchema(entry: any) {
         },
         'mainEntityOfPage': {
             '@type': 'WebPage',
-            '@id': `https://biblemaximum.com/lexicon/${entry.strongs}`
+            '@id': `${SITE_CONFIG.domain}/lexicon/${entry.strongs}`
         }
     };
 }

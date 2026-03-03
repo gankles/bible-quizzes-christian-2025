@@ -34,6 +34,9 @@ yarn-error.log*
 /.next-build/
 /test-results/
 
+# generated geo thumbnails (run scripts/filter-geo-thumbnails.ts to regenerate)
+/public/geo/
+
 # env
 .env
 
