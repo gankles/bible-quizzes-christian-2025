@@ -12,6 +12,11 @@ import {
   StrongsEntry,
 } from '@/lib/strongs-data';
 import { StructuredData } from '@/components/StructuredData';
+import { buildHebrewWordMetadata } from '@/lib/seo/metadata-builder';
+import { buildWordStudySchema, buildBreadcrumbSchema } from '@/lib/seo/schema-builders';
+import PrevNextNav from '@/components/page-sections/PrevNextNav';
+
+export const revalidate = 86400 // 24 hours
 
 export async function generateStaticParams() {
   // 8,674 pages — generated on-demand via ISR
@@ -26,34 +31,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { slug } = await params;
   const entry = getStrongsHebrew(slug);
   if (!entry) return {};
-
-  const translations = parseKjvTranslations(entry.kjvTranslations);
-  const primaryTranslation = translations[0] || entry.definition.split(',')[0]?.trim() || '';
-  const shortDef = entry.definition.length > 120
-    ? entry.definition.substring(0, 117) + '...'
-    : entry.definition;
-
-  return {
-    title: `${entry.transliteration} (${entry.number}) — Hebrew Word Study | "${primaryTranslation}" in the Bible | Bible Maximum`,
-    description: `Strong's ${entry.number}: ${entry.transliteration} (${entry.lemma}) means "${shortDef}" in Biblical Hebrew. Study this word's KJV translations, derivation, and related Hebrew words.`,
-    keywords: [
-      `${entry.transliteration} meaning`,
-      `strong's ${entry.number.toLowerCase()}`,
-      `hebrew word for ${primaryTranslation.toLowerCase()}`,
-      `${entry.number} strongs`,
-      `${entry.lemma} hebrew`,
-      `biblical hebrew word study`,
-      `old testament hebrew words`,
-    ],
-    openGraph: {
-      title: `${entry.transliteration} (${entry.number}) — Hebrew Word Study`,
-      description: `Strong's ${entry.number}: "${shortDef}" — Study this Hebrew word in the Bible.`,
-      url: `/hebrew-word/${entry.slug}`,
-      type: 'article',
-      images: ['/images/mrmkaj_Gentle_hands_holding_an_open_Bible_light_pouring_down_on_ca8c94ca-5316-47b7-a335-94f60bbfc8a8.png'],
-    },
-    alternates: { canonical: `/hebrew-word/${entry.slug}` },
-  };
+  return buildHebrewWordMetadata(entry);
 }
 
 export default async function HebrewWordPage({ params }: PageProps) {
@@ -96,29 +74,18 @@ export default async function HebrewWordPage({ params }: PageProps) {
       !entry.definition.includes('a primitive'));
 
   // JSON-LD
-  const definedTermSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'DefinedTerm',
-    name: `${entry.transliteration} (${entry.number})`,
-    description: entry.definition,
-    url: `https://biblemaximum.com/hebrew-word/${entry.slug}`,
-    inDefinedTermSet: {
-      '@type': 'DefinedTermSet',
-      name: "Strong's Exhaustive Concordance — Hebrew and Chaldee Dictionary",
-      url: 'https://biblemaximum.com/hebrew-word',
-    },
-    termCode: entry.number,
-  };
+  const definedTermSchema = buildWordStudySchema({
+    word: entry.transliteration,
+    number: entry.number,
+    definition: entry.definition,
+    slug: entry.slug,
+    language: 'Hebrew',
+  });
 
-  const breadcrumbSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://biblemaximum.com/' },
-      { '@type': 'ListItem', position: 2, name: 'Hebrew Word Studies', item: 'https://biblemaximum.com/hebrew-word' },
-      { '@type': 'ListItem', position: 3, name: entry.transliteration },
-    ],
-  };
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: 'Hebrew Word Studies', url: '/hebrew-word' },
+    { name: entry.transliteration },
+  ]);
 
   return (
     <>
@@ -407,36 +374,11 @@ export default async function HebrewWordPage({ params }: PageProps) {
         </section>
 
         {/* Prev / Next Navigation */}
-        <div className="flex items-center justify-between gap-4 mb-8">
-          {prev ? (
-            <Link
-              href={`/hebrew-word/${prev.slug}`}
-              className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-amber-300 hover:shadow-sm transition-all group"
-            >
-              <span className="text-xs text-primary-dark/60">Previous</span>
-              <span className="block font-semibold text-scripture group-hover:text-amber-700 transition-colors">
-                {prev.transliteration}
-              </span>
-              <span className="block text-xs text-primary-dark/50">{prev.number}</span>
-            </Link>
-          ) : (
-            <div className="flex-1" />
-          )}
-          {next ? (
-            <Link
-              href={`/hebrew-word/${next.slug}`}
-              className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-amber-300 hover:shadow-sm transition-all group"
-            >
-              <span className="text-xs text-primary-dark/60">Next</span>
-              <span className="block font-semibold text-scripture group-hover:text-amber-700 transition-colors">
-                {next.transliteration}
-              </span>
-              <span className="block text-xs text-primary-dark/50">{next.number}</span>
-            </Link>
-          ) : (
-            <div className="flex-1" />
-          )}
-        </div>
+        <PrevNextNav
+          prev={prev ? { href: `/hebrew-word/${prev.slug}`, label: prev.transliteration, detail: prev.number } : null}
+          next={next ? { href: `/hebrew-word/${next.slug}`, label: next.transliteration, detail: next.number } : null}
+          variant="amber"
+        />
 
         {/* Browse — Same Letter Words */}
         {sameLetterEntries.length > 0 && (

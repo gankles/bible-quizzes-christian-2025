@@ -21,6 +21,8 @@ import StudyTabs from '@/components/verse-study/StudyTabs';
 import TopicalTags from '@/components/verse-study/TopicalTags';
 import { getVersePlaces, formatPlaceTypeSingular } from '@/lib/geocoding-data';
 
+export const revalidate = 86400 // 24 hours
+
 interface VersePageProps {
   params: Promise<{
     book: string;

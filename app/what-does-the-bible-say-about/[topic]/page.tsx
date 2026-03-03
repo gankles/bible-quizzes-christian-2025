@@ -4,9 +4,12 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
 import { getQuoteTopic, getRelatedQuoteTopics, QuoteTopic } from '@/lib/bible-quotes-data';
-import { getChapterWithCommentary, stripHtml, getBookName } from '@/lib/bolls-api';
-import { getBookBySlug } from '@/lib/bible-data';
 import { StructuredData } from '@/components/StructuredData';
+import { buildWhatDoesBibleSayMetadata } from '@/lib/seo/metadata-builder';
+import { buildBreadcrumbSchema, buildArticleSchema, buildFAQSchema } from '@/lib/seo/schema-builders';
+import { resolveVerseRefs } from '@/lib/verse-resolution';
+
+export const revalidate = 86400 // 24 hours
 
 export async function generateStaticParams() {
   return [];
@@ -14,59 +17,6 @@ export async function generateStaticParams() {
 
 interface Props {
   params: Promise<{ topic: string }>;
-}
-
-// ============================================
-// Verse resolution (chapter-batched, capped at 100)
-// ============================================
-
-async function resolveVerseRefs(refs: string[], limit: number = 100) {
-  const sliced = refs.slice(0, limit);
-  const chapterGroups = new Map<string, { book: string; chapter: number; verses: number[]; refIndices: number[] }>();
-
-  sliced.forEach((ref, idx) => {
-    const parts = ref.split('-');
-    const verse = parseInt(parts.pop() || '0');
-    const chapter = parseInt(parts.pop() || '0');
-    const book = parts.join('-');
-    if (!book || !chapter || !verse) return;
-    const key = `${book}-${chapter}`;
-    if (!chapterGroups.has(key)) {
-      chapterGroups.set(key, { book, chapter, verses: [], refIndices: [] });
-    }
-    chapterGroups.get(key)!.verses.push(verse);
-    chapterGroups.get(key)!.refIndices.push(idx);
-  });
-
-  const results: (any | null)[] = new Array(sliced.length).fill(null);
-
-  await Promise.all(
-    Array.from(chapterGroups.values()).map(async ({ book, chapter, verses, refIndices }) => {
-      try {
-        const chapterVerses = await getChapterWithCommentary('KJV', book, chapter);
-        const bookNameStr = getBookName(book);
-        const bookData = getBookBySlug(book);
-        verses.forEach((verseNum, i) => {
-          const found = chapterVerses.find((v: any) => v.verse === verseNum);
-          if (found) {
-            results[refIndices[i]] = {
-              book,
-              bookName: bookNameStr,
-              chapter,
-              verse: verseNum,
-              text: stripHtml(found.text),
-              translation: 'KJV',
-              testament: bookData?.testament || 'old',
-            };
-          }
-        });
-      } catch (err) {
-        // Skip chapters that fail to load
-      }
-    })
-  );
-
-  return results.filter(Boolean);
 }
 
 // Cached data loading
@@ -134,37 +84,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { topic: slug } = await params;
   const topic = getCachedTopic(slug);
   if (!topic) return {};
-
-  const title = `What Does the Bible Say About ${topic.name}? — ${topic.verseCount} Scripture References | Complete Study Guide`;
-  const description = `What does the Bible say about ${topic.name.toLowerCase()}? Discover ${topic.verseCount} key Bible verses about ${topic.name.toLowerCase()} with full text, study tips, and practical application from both Old and New Testament.`;
-  const canonical = `https://biblemaximum.com/what-does-the-bible-say-about/${slug}`;
-
-  return {
-    title,
-    description,
-    keywords: [
-      `what does the bible say about ${topic.name.toLowerCase()}`,
-      `bible verses about ${topic.name.toLowerCase()}`,
-      `${topic.name.toLowerCase()} in the bible`,
-      `scriptures about ${topic.name.toLowerCase()}`,
-      `${topic.name.toLowerCase()} bible study`,
-      `${topic.name.toLowerCase()} scripture references`,
-      ...topic.keywords.slice(0, 3),
-    ],
-    alternates: { canonical },
-    openGraph: {
-      title: `What Does the Bible Say About ${topic.name}?`,
-      description,
-      url: canonical,
-      type: 'article',
-      siteName: 'Bible Maximum',
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: `What Does the Bible Say About ${topic.name}?`,
-      description,
-    },
-  };
+  return buildWhatDoesBibleSayMetadata(topic);
 }
 
 // ============================================
@@ -194,39 +114,22 @@ export default async function WhatDoesBibleSayAboutPage({ params }: Props) {
   const faqs = generateFAQs(topic, bestVerseText);
 
   // Schemas
-  const breadcrumbSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://biblemaximum.com' },
-      { '@type': 'ListItem', position: 2, name: 'What Does the Bible Say About...', item: 'https://biblemaximum.com/what-does-the-bible-say-about' },
-      { '@type': 'ListItem', position: 3, name: `${topic.name}`, item: `https://biblemaximum.com/what-does-the-bible-say-about/${slug}` },
-    ],
-  };
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: 'What Does the Bible Say About...', url: '/what-does-the-bible-say-about' },
+    { name: topic.name, url: `/what-does-the-bible-say-about/${slug}` },
+  ]);
 
-  const articleSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Article',
-    headline: `What Does the Bible Say About ${topic.name}?`,
+  const articleSchema = buildArticleSchema({
+    headline: 'What Does the Bible Say About ' + topic.name + '?',
     description: topic.description,
-    url: `https://biblemaximum.com/what-does-the-bible-say-about/${slug}`,
+    url: '/what-does-the-bible-say-about/' + slug,
+    about: topic.name,
     datePublished: '2026-02-27',
     dateModified: '2026-02-27',
-    author: { '@type': 'Organization', name: 'Bible Maximum', url: 'https://biblemaximum.com' },
-    publisher: { '@type': 'Organization', name: 'Bible Maximum', url: 'https://biblemaximum.com' },
-    about: { '@type': 'Thing', name: topic.name },
     wordCount: verses.reduce((sum: number, v: any) => sum + (v.text?.split(' ').length || 0), 0),
-  };
+  });
 
-  const faqSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: faqs.map((faq) => ({
-      '@type': 'Question',
-      name: faq.question,
-      acceptedAnswer: { '@type': 'Answer', text: faq.answer },
-    })),
-  };
+  const faqSchema = buildFAQSchema(faqs);
 
   const itemListSchema = {
     '@context': 'https://schema.org',

@@ -18,6 +18,8 @@ import { getVerseContext, VerseContext } from '@/lib/verse-context';
 import { getVersePlaces, formatPlaceTypeSingular } from '@/lib/geocoding-data';
 import { getKJVText, getVerseCommandments, getVerseCommentary, getSectionHeading, getFeaturedVerse, isRedLetterVerse } from '@/lib/enrichment-data';
 
+export const revalidate = 86400 // 24 hours
+
 interface CrossRefPageProps {
   params: Promise<{
     book: string;

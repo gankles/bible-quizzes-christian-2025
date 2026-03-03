@@ -6,6 +6,8 @@ import { BOOK_NAMES } from '@/lib/bolls-api';
 import { StructuredData } from '@/components/StructuredData';
 import GeoAttribution from '@/components/GeoAttribution';
 
+export const revalidate = 86400 // 24 hours
+
 interface PageProps {
   params: Promise<{ slug: string; verseRef: string }>;
 }

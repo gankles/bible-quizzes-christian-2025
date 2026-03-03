@@ -7,6 +7,8 @@ import { getChapter, stripHtml, getBookId } from '@/lib/bolls-api';
 import { StructuredData } from '@/components/StructuredData';
 import { getPlacesForChapter, formatPlaceTypeSingular } from '@/lib/geocoding-data';
 
+export const revalidate = 86400 // 24 hours
+
 interface PageProps {
   params: Promise<{ slug: string }>;
 }

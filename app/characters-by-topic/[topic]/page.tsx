@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation';
 import { getCharactersForTopic, getAllCharacterTopicBridgeSlugs } from '@/lib/character-topic-bridge';
 import { StructuredData } from '@/components/StructuredData';
 
+export const revalidate = 86400 // 24 hours
+
 interface PageProps {
   params: Promise<{ topic: string }>;
 }

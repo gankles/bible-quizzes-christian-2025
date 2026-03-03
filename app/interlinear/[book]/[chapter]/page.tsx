@@ -5,6 +5,8 @@ import { BIBLE_BOOKS } from '@/lib/bible-data';
 import { getBookName, isOldTestament, getInterlinearChapterVerses } from '@/lib/interlinear-data';
 import { StructuredData } from '@/components/StructuredData';
 
+export const revalidate = 86400 // 24 hours
+
 interface PageProps {
   params: Promise<{ book: string; chapter: string }>;
 }

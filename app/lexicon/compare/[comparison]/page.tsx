@@ -11,6 +11,8 @@ import {
     SparklesIcon
 } from '@/components/icons';
 
+export const revalidate = 86400 // 24 hours
+
 interface ComparePageProps {
     params: Promise<{ comparison: string }>;
 }

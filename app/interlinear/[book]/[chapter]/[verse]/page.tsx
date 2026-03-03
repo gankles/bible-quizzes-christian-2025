@@ -11,6 +11,8 @@ import {
 import { StructuredData } from '@/components/StructuredData';
 import { getVersePlaces, formatPlaceTypeSingular } from '@/lib/geocoding-data';
 
+export const revalidate = 86400 // 24 hours
+
 interface PageProps {
   params: Promise<{ book: string; chapter: string; verse: string }>;
 }

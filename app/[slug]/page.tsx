@@ -13,10 +13,13 @@ import BookChaptersClient from '@/components/BookChaptersClient';
 import ChapterCommandments from '@/components/ChapterCommandments';
 import { getCommandmentsByChapter } from '@/lib/commandments-data';
 import { getBookIntroduction } from '@/lib/book-introductions';
+import { renderWithBold } from '@/lib/render-helpers';
 import { parseKjvSlug, parseKjvChapterSlug, getVerseTopic } from '@/lib/kjv-verse-data';
 import { getChapterWithCommentary, stripHtml } from '@/lib/bolls-api';
 import KjvVersePage from '@/components/KjvVersePage';
 import KjvChapterPage from '@/components/KjvChapterPage';
+
+export const revalidate = 86400 // 24 hours
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -525,6 +528,66 @@ export default async function DynamicPage({ params }: PageProps) {
                         <p className="font-serif italic text-scripture">&ldquo;{v.text}&rdquo;</p>
                         <p className="text-sm text-primary-dark/60 mt-1">{v.reference}</p>
                       </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Historical Context */}
+              {bookIntro.historicalContext && (
+                <div className="mb-10">
+                  <h2 className="text-2xl font-bold text-scripture mb-4">Historical Context</h2>
+                  <div className="text-primary-dark/80 leading-relaxed space-y-4">
+                    {bookIntro.historicalContext.split('\n\n').map((p, i) => (
+                      <p key={i}>{renderWithBold(p)}</p>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Theological Significance */}
+              {bookIntro.theologicalSignificance && (
+                <div className="mb-10">
+                  <h2 className="text-2xl font-bold text-scripture mb-4">Theological Significance</h2>
+                  <div className="text-primary-dark/80 leading-relaxed space-y-4">
+                    {bookIntro.theologicalSignificance.split('\n\n').map((p, i) => (
+                      <p key={i}>{renderWithBold(p)}</p>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Literary Style */}
+              {bookIntro.literaryStyle && (
+                <div className="mb-10">
+                  <h2 className="text-2xl font-bold text-scripture mb-4">Literary Style</h2>
+                  <div className="text-primary-dark/80 leading-relaxed space-y-4">
+                    {bookIntro.literaryStyle.split('\n\n').map((p, i) => (
+                      <p key={i}>{renderWithBold(p)}</p>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Relationship to the New Testament */}
+              {bookIntro.relationshipToNewTestament && (
+                <div className="mb-10">
+                  <h2 className="text-2xl font-bold text-scripture mb-4">Relationship to the New Testament</h2>
+                  <div className="text-primary-dark/80 leading-relaxed space-y-4">
+                    {bookIntro.relationshipToNewTestament.split('\n\n').map((p, i) => (
+                      <p key={i}>{renderWithBold(p)}</p>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Practical Application */}
+              {bookIntro.practicalApplication && (
+                <div className="mb-10">
+                  <h2 className="text-2xl font-bold text-scripture mb-4">Practical Application</h2>
+                  <div className="text-primary-dark/80 leading-relaxed space-y-4">
+                    {bookIntro.practicalApplication.split('\n\n').map((p, i) => (
+                      <p key={i}>{renderWithBold(p)}</p>
                     ))}
                   </div>
                 </div>

@@ -11,6 +11,8 @@ import { getBiography } from '@/lib/biographies-data';
 import { StructuredData } from '@/components/StructuredData';
 import CharacterQuizClient from './CharacterQuizClient';
 
+export const revalidate = 86400 // 24 hours
+
 interface PageProps {
   params: Promise<{ slug: string }>;
 }

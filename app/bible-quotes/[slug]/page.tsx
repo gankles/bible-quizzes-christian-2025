@@ -4,9 +4,12 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
 import { getQuoteTopic, getRelatedQuoteTopics, QuoteTopic } from '@/lib/bible-quotes-data';
-import { getChapterWithCommentary, stripHtml, getBookName } from '@/lib/bolls-api';
-import { getBookBySlug } from '@/lib/bible-data';
 import { StructuredData } from '@/components/StructuredData';
+import { buildBibleQuoteMetadata } from '@/lib/seo/metadata-builder';
+import { buildBreadcrumbSchema, buildArticleSchema, buildFAQSchema } from '@/lib/seo/schema-builders';
+import { resolveVerseRefs } from '@/lib/verse-resolution';
+
+export const revalidate = 86400 // 24 hours
 
 export async function generateStaticParams() {
   return [];
@@ -14,59 +17,6 @@ export async function generateStaticParams() {
 
 interface Props {
   params: Promise<{ slug: string }>;
-}
-
-// ============================================
-// Verse resolution (chapter-batched, same pattern as queries.ts)
-// ============================================
-
-async function resolveVerseRefs(refs: string[], limit: number = 100) {
-  const sliced = refs.slice(0, limit);
-  const chapterGroups = new Map<string, { book: string; chapter: number; verses: number[]; refIndices: number[] }>();
-
-  sliced.forEach((ref, idx) => {
-    const parts = ref.split('-');
-    const verse = parseInt(parts.pop() || '0');
-    const chapter = parseInt(parts.pop() || '0');
-    const book = parts.join('-');
-    if (!book || !chapter || !verse) return;
-    const key = `${book}-${chapter}`;
-    if (!chapterGroups.has(key)) {
-      chapterGroups.set(key, { book, chapter, verses: [], refIndices: [] });
-    }
-    chapterGroups.get(key)!.verses.push(verse);
-    chapterGroups.get(key)!.refIndices.push(idx);
-  });
-
-  const results: (any | null)[] = new Array(sliced.length).fill(null);
-
-  await Promise.all(
-    Array.from(chapterGroups.values()).map(async ({ book, chapter, verses, refIndices }) => {
-      try {
-        const chapterVerses = await getChapterWithCommentary('KJV', book, chapter);
-        const bookNameStr = getBookName(book);
-        const bookData = getBookBySlug(book);
-        verses.forEach((verseNum, i) => {
-          const found = chapterVerses.find((v: any) => v.verse === verseNum);
-          if (found) {
-            results[refIndices[i]] = {
-              book,
-              bookName: bookNameStr,
-              chapter,
-              verse: verseNum,
-              text: stripHtml(found.text),
-              translation: 'KJV',
-              testament: bookData?.testament || 'old',
-            };
-          }
-        });
-      } catch (err) {
-        // Skip chapters that fail to load
-      }
-    })
-  );
-
-  return results.filter(Boolean);
 }
 
 // Cached data loading
@@ -86,32 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const topic = getCachedTopic(slug);
   if (!topic) return {};
-
-  const title = `${topic.verseCount} Bible Quotes About ${topic.name} — Scripture Verses (KJV)`;
-  const description = `Discover ${topic.verseCount} Bible quotes about ${topic.name.toLowerCase()} from the King James Version. Read, study, and meditate on what the Bible says about ${topic.name.toLowerCase()}.`;
-
-  return {
-    title,
-    description,
-    keywords: [
-      `bible quotes about ${topic.name.toLowerCase()}`,
-      `${topic.name.toLowerCase()} bible verses`,
-      `${topic.name.toLowerCase()} scripture`,
-      `what does the bible say about ${topic.name.toLowerCase()}`,
-      `bible verses on ${topic.name.toLowerCase()}`,
-      `${topic.name.toLowerCase()} in the bible`,
-      ...topic.keywords.slice(0, 4),
-    ],
-    alternates: {
-      canonical: `https://biblemaximum.com/bible-quotes/${slug}`,
-    },
-    openGraph: {
-      title: `Bible Quotes About ${topic.name}`,
-      description,
-      url: `https://biblemaximum.com/bible-quotes/${slug}`,
-      type: 'article',
-    },
-  };
+  return buildBibleQuoteMetadata(topic);
 }
 
 // ============================================
@@ -160,42 +85,22 @@ export default async function BibleQuoteDetailPage({ params }: Props) {
   const ntVerses = verses.filter((v: any) => v.testament === 'new');
 
   // Schemas
-  const breadcrumbSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://biblemaximum.com' },
-      { '@type': 'ListItem', position: 2, name: 'Bible Quotes', item: 'https://biblemaximum.com/bible-quotes' },
-      { '@type': 'ListItem', position: 3, name: `Bible Quotes About ${topic.name}`, item: `https://biblemaximum.com/bible-quotes/${slug}` },
-    ],
-  };
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: 'Bible Quotes', url: '/bible-quotes' },
+    { name: `Bible Quotes About ${topic.name}`, url: `/bible-quotes/${slug}` },
+  ]);
 
-  const articleSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Article',
+  const articleSchema = buildArticleSchema({
     headline: `${topic.verseCount} Bible Quotes About ${topic.name}`,
     description: topic.description,
-    url: `https://biblemaximum.com/bible-quotes/${slug}`,
+    url: `/bible-quotes/${slug}`,
+    about: topic.name,
     datePublished: '2026-02-27',
     dateModified: '2026-02-27',
-    author: { '@type': 'Organization', name: 'Bible Maximum', url: 'https://biblemaximum.com' },
-    publisher: { '@type': 'Organization', name: 'Bible Maximum', url: 'https://biblemaximum.com' },
-    about: { '@type': 'Thing', name: topic.name },
     wordCount: verses.reduce((sum: number, v: any) => sum + (v.text?.split(' ').length || 0), 0),
-  };
+  });
 
-  const faqSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: faqs.map((faq) => ({
-      '@type': 'Question',
-      name: faq.question,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: faq.answer,
-      },
-    })),
-  };
+  const faqSchema = buildFAQSchema(faqs);
 
   const itemListSchema = {
     '@context': 'https://schema.org',

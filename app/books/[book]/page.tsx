@@ -6,6 +6,8 @@ import { getBookMetadata, getAllBookMetadata, BookMetadata } from '@/lib/book-me
 import BookTools from './BookTools';
 import { getPlacesForBook, formatPlaceTypeSingular } from '@/lib/geocoding-data';
 
+export const revalidate = 86400 // 24 hours
+
 interface BookPageProps {
   params: Promise<{
     book: string;

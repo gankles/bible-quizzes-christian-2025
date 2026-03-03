@@ -8,6 +8,12 @@ import {
   EncyclopediaEntry,
   EntryType,
 } from '@/lib/encyclopedia-data';
+import { getBookMetadata } from '@/lib/book-metadata';
+import { getBookIntroduction } from '@/lib/book-introductions';
+import { renderWithBold } from '@/lib/render-helpers';
+import { buildEncyclopediaMetadata, buildEncyclopediaBookMetadata } from '@/lib/seo/metadata-builder';
+
+export const revalidate = 86400 // 24 hours
 
 interface EncyclopediaPageProps {
   params: Promise<{ slug: string }>;
@@ -23,36 +29,12 @@ export async function generateMetadata({ params }: EncyclopediaPageProps): Promi
   const entry = getEncyclopediaEntry(slug);
   if (!entry) return {};
 
-  const typeLabel = getTypeLabel(entry.type);
-  const etymologyNote = entry.etymology
-    ? ` The name means "${entry.etymology[0]}".`
-    : '';
+  const bookMeta = getBookMetadata(slug);
+  if (bookMeta) {
+    return buildEncyclopediaBookMetadata(bookMeta, slug);
+  }
 
-  const title = `${entry.title} -- Bible Encyclopedia | ${typeLabel} in the Bible | Bible Maximum`;
-  const description = entry.description
-    || entry.definition
-    || `${entry.title} in the Bible.${etymologyNote} ${entry.totalVerseRefs} verse references across ${entry.booksReferenced.length} books. Comprehensive encyclopedia entry with definitions, cross-references, and study resources.`;
-
-  return {
-    title,
-    description: description.slice(0, 300),
-    keywords: [
-      `${entry.title} in the Bible`,
-      `${entry.title} meaning`,
-      `${entry.title} definition`,
-      `${entry.title} Bible encyclopedia`,
-      `what is ${entry.title} in the Bible`,
-      ...(entry.etymology ? entry.etymology.map(m => `${entry.title} means ${m}`) : []),
-      ...entry.keywords.slice(0, 5),
-    ],
-    openGraph: {
-      title: `${entry.title} -- Bible Encyclopedia`,
-      description: description.slice(0, 200),
-      url: `/bible-encyclopedia/${slug}`,
-      type: 'article',
-    },
-    alternates: { canonical: `/bible-encyclopedia/${slug}` },
-  };
+  return buildEncyclopediaMetadata(entry);
 }
 
 function getTypeLabel(type: EntryType): string {
@@ -89,6 +71,9 @@ export default async function EncyclopediaDetailPage({ params }: EncyclopediaPag
   }
 
   const related = getRelatedEntries(slug, 8);
+  const bookMeta = getBookMetadata(slug);
+  const bookIntro = bookMeta ? getBookIntroduction(slug) : null;
+  const isBibleBook = !!bookMeta;
 
   // Extract key verses (first verse from each sub-topic, up to 10)
   const keyVerses: { reference: string; context: string }[] = [];
@@ -106,7 +91,7 @@ export default async function EncyclopediaDetailPage({ params }: EncyclopediaPag
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: `${entry.title} -- Bible Encyclopedia`,
+    headline: isBibleBook ? `Book of ${bookMeta!.name} -- Bible Encyclopedia` : `${entry.title} -- Bible Encyclopedia`,
     description: entry.description || entry.definition || `Bible encyclopedia entry for ${entry.title}.`,
     url: `https://biblemaximum.com/bible-encyclopedia/${slug}`,
     publisher: {
@@ -114,7 +99,13 @@ export default async function EncyclopediaDetailPage({ params }: EncyclopediaPag
       name: 'Bible Maximum',
       url: 'https://biblemaximum.com',
     },
-    about: {
+    about: isBibleBook ? {
+      '@type': 'Book',
+      name: `Book of ${bookMeta!.name}`,
+      author: { '@type': 'Person', name: bookMeta!.author },
+      datePublished: bookMeta!.dateWritten,
+      genre: bookMeta!.category,
+    } : {
       '@type': 'Thing',
       name: entry.title,
     },
@@ -151,7 +142,7 @@ export default async function EncyclopediaDetailPage({ params }: EncyclopediaPag
       {
         '@type': 'ListItem',
         position: 3,
-        name: entry.title,
+        name: isBibleBook ? `Book of ${bookMeta!.name}` : entry.title,
         item: `https://biblemaximum.com/bible-encyclopedia/${slug}`,
       },
     ],
@@ -177,7 +168,7 @@ export default async function EncyclopediaDetailPage({ params }: EncyclopediaPag
               <Link href="/bible-encyclopedia" className="text-blue-600 hover:underline">Bible Encyclopedia</Link>
             </li>
             <li className="text-primary-dark/40 mx-2">/</li>
-            <li className="text-primary-dark/70">{entry.title}</li>
+            <li className="text-primary-dark/70">{isBibleBook ? `Book of ${bookMeta!.name}` : entry.title}</li>
           </ol>
         </div>
       </nav>
@@ -192,6 +183,11 @@ export default async function EncyclopediaDetailPage({ params }: EncyclopediaPag
                 <span className={`inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium border ${getTypeBadgeColor(entry.type)}`}>
                   {getTypeLabel(entry.type)}
                 </span>
+                {isBibleBook && (
+                  <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800 border border-indigo-200">
+                    Bible Book
+                  </span>
+                )}
                 {entry.category && (
                   <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-700 border border-gray-200">
                     {entry.category}
@@ -211,7 +207,7 @@ export default async function EncyclopediaDetailPage({ params }: EncyclopediaPag
               </div>
 
               <h1 className="text-3xl md:text-4xl font-bold font-display text-scripture mb-4">
-                {entry.title}
+                {isBibleBook ? `Book of ${bookMeta!.name}` : entry.title}
               </h1>
 
               {entry.definition && (
@@ -222,35 +218,78 @@ export default async function EncyclopediaDetailPage({ params }: EncyclopediaPag
 
               {/* Stats */}
               <div className="flex flex-wrap gap-5 text-center">
-                {entry.totalVerseRefs > 0 && (
-                  <div>
-                    <p className="text-2xl font-bold text-scripture">{entry.totalVerseRefs.toLocaleString()}</p>
-                    <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Verse Refs</p>
-                  </div>
-                )}
-                {entry.booksReferenced.length > 0 && (
-                  <div>
-                    <p className="text-2xl font-bold text-scripture">{entry.booksReferenced.length}</p>
-                    <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Books</p>
-                  </div>
-                )}
-                {entry.subTopics.length > 0 && (
-                  <div>
-                    <p className="text-2xl font-bold text-scripture">{entry.subTopics.length}</p>
-                    <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Sub-Topics</p>
-                  </div>
+                {isBibleBook && bookMeta ? (
+                  <>
+                    <div>
+                      <p className="text-2xl font-bold text-scripture">{bookMeta.chapters}</p>
+                      <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Chapters</p>
+                    </div>
+                    <div>
+                      <p className="text-2xl font-bold text-scripture">{bookMeta.verseCount.toLocaleString()}</p>
+                      <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Verses</p>
+                    </div>
+                    {entry.totalVerseRefs > 0 && (
+                      <div>
+                        <p className="text-2xl font-bold text-scripture">{entry.totalVerseRefs.toLocaleString()}</p>
+                        <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Cross-Refs</p>
+                      </div>
+                    )}
+                    {entry.subTopics.length > 0 && (
+                      <div>
+                        <p className="text-2xl font-bold text-scripture">{entry.subTopics.length}</p>
+                        <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Sub-Topics</p>
+                      </div>
+                    )}
+                  </>
+                ) : (
+                  <>
+                    {entry.totalVerseRefs > 0 && (
+                      <div>
+                        <p className="text-2xl font-bold text-scripture">{entry.totalVerseRefs.toLocaleString()}</p>
+                        <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Verse Refs</p>
+                      </div>
+                    )}
+                    {entry.booksReferenced.length > 0 && (
+                      <div>
+                        <p className="text-2xl font-bold text-scripture">{entry.booksReferenced.length}</p>
+                        <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Books</p>
+                      </div>
+                    )}
+                    {entry.subTopics.length > 0 && (
+                      <div>
+                        <p className="text-2xl font-bold text-scripture">{entry.subTopics.length}</p>
+                        <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Sub-Topics</p>
+                      </div>
+                    )}
+                  </>
                 )}
               </div>
             </div>
 
             {/* Quick Facts Sidebar */}
-            {(entry.etymology || entry.character) && (
+            {(entry.etymology || entry.character || isBibleBook) && (
               <div className="lg:w-72 mt-6 lg:mt-0 flex-shrink-0">
                 <div className="bg-primary-light/50 rounded-lg border border-grace p-5">
                   <h2 className="text-sm font-bold text-scripture uppercase tracking-wider mb-3">
                     Quick Facts
                   </h2>
                   <dl className="space-y-3 text-sm">
+                    {isBibleBook && bookMeta && (
+                      <>
+                        <dt className="font-medium text-primary-dark/60">Author</dt>
+                        <dd className="text-primary-dark/80">{bookMeta.author}</dd>
+                        <dt className="font-medium text-primary-dark/60">Date Written</dt>
+                        <dd className="text-primary-dark/80">{bookMeta.dateWritten}</dd>
+                        <dt className="font-medium text-primary-dark/60">Category</dt>
+                        <dd className="text-primary-dark/80">{bookMeta.category}</dd>
+                        <dt className="font-medium text-primary-dark/60">Chapters</dt>
+                        <dd className="text-primary-dark/80">{bookMeta.chapters}</dd>
+                        <dt className="font-medium text-primary-dark/60">Verses</dt>
+                        <dd className="text-primary-dark/80">{bookMeta.verseCount.toLocaleString()}</dd>
+                        <dt className="font-medium text-primary-dark/60">Testament</dt>
+                        <dd className="text-primary-dark/80">{bookMeta.testament === 'old' ? 'Old' : 'New'} Testament</dd>
+                      </>
+                    )}
                     {entry.etymology && (
                       <>
                         <dt className="font-medium text-primary-dark/60">Etymology</dt>
@@ -276,19 +315,19 @@ export default async function EncyclopediaDetailPage({ params }: EncyclopediaPag
                         <dd className="text-primary-dark/80">{entry.character.lifespan}</dd>
                       </>
                     )}
-                    {entry.character?.testament && (
+                    {!isBibleBook && entry.character?.testament && (
                       <>
                         <dt className="font-medium text-primary-dark/60">Testament</dt>
                         <dd className="text-primary-dark/80">{entry.character.testament} Testament</dd>
                       </>
                     )}
-                    {entry.type !== 'concept' && (
+                    {!isBibleBook && entry.type !== 'concept' && (
                       <>
                         <dt className="font-medium text-primary-dark/60">Type</dt>
                         <dd className="text-primary-dark/80">{getTypeLabel(entry.type)}</dd>
                       </>
                     )}
-                    {entry.booksReferenced.length > 0 && (
+                    {!isBibleBook && entry.booksReferenced.length > 0 && (
                       <>
                         <dt className="font-medium text-primary-dark/60">Referenced In</dt>
                         <dd className="text-primary-dark/80">{entry.booksReferenced.length} books of the Bible</dd>
@@ -304,78 +343,182 @@ export default async function EncyclopediaDetailPage({ params }: EncyclopediaPag
 
       <main className="max-w-5xl mx-auto px-4 py-8 space-y-10">
 
-        {/* Character Biography */}
-        {entry.character && (
-          <section className="bg-white rounded-xl border border-grace p-6 md:p-8">
-            <h2 className="text-2xl font-bold font-display text-scripture mb-4">
-              Biography
-            </h2>
-            <p className="text-primary-dark/80 leading-relaxed mb-4">
-              {entry.character.biography}
-            </p>
-            {entry.character.significance && (
-              <>
-                <h3 className="text-lg font-semibold text-scripture mb-2">Significance</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
-                  {entry.character.significance}
-                </p>
-              </>
+        {/* Bible Book Rich Content */}
+        {isBibleBook && bookIntro ? (
+          <>
+            {/* About the Book */}
+            <section className="bg-white rounded-xl border border-grace p-6 md:p-8">
+              <h2 className="text-2xl font-bold font-display text-scripture mb-4">
+                About the Book of {bookMeta!.name}
+              </h2>
+              <div className="text-primary-dark/80 leading-relaxed space-y-4">
+                {bookIntro.introduction.split('\n\n').slice(0, 4).map((p, i) => (
+                  <p key={i}>{renderWithBold(p)}</p>
+                ))}
+              </div>
+            </section>
+
+            {/* Key Themes */}
+            {bookIntro.keyThemes.length > 0 && (
+              <section className="bg-white rounded-xl border border-grace p-6 md:p-8">
+                <h2 className="text-2xl font-bold font-display text-scripture mb-4">
+                  Key Themes
+                </h2>
+                <div className="grid gap-4 sm:grid-cols-2">
+                  {bookIntro.keyThemes.slice(0, 8).map((t, i) => (
+                    <div key={i} className="border border-grace rounded-lg p-4">
+                      <h3 className="font-semibold text-scripture mb-1">{t.theme}</h3>
+                      <p className="text-sm text-primary-dark/70">{t.description}</p>
+                    </div>
+                  ))}
+                </div>
+              </section>
             )}
 
-            {/* Timeline */}
-            {entry.character.timeline.length > 0 && (
-              <div className="mt-6">
-                <h3 className="text-lg font-semibold text-scripture mb-3">Timeline</h3>
+            {/* Book Outline */}
+            {bookMeta!.outline.length > 0 && (
+              <section className="bg-white rounded-xl border border-grace p-6 md:p-8">
+                <h2 className="text-2xl font-bold font-display text-scripture mb-4">
+                  Book Outline
+                </h2>
                 <div className="space-y-3">
-                  {entry.character.timeline.map((event, i) => (
-                    <div key={i} className="flex gap-4 items-start">
-                      <span className="flex-shrink-0 w-20 text-right text-sm font-mono text-amber-700">
-                        {event.date}
+                  {bookMeta!.outline.map((item, i) => (
+                    <div key={i} className="flex gap-4 items-start border-b border-grace/60 last:border-b-0 pb-3 last:pb-0">
+                      <span className="flex-shrink-0 w-8 h-8 rounded-full bg-indigo-100 text-indigo-700 text-sm font-bold flex items-center justify-center mt-0.5">
+                        {i + 1}
                       </span>
-                      <div className="flex-shrink-0 flex flex-col items-center">
-                        <span className="w-2.5 h-2.5 rounded-full bg-blue-400"></span>
-                        {i < entry.character!.timeline.length - 1 && (
-                          <span className="w-0.5 flex-1 bg-blue-200"></span>
-                        )}
-                      </div>
-                      <div className="pb-4">
-                        <p className="font-medium text-scripture">{event.event}</p>
-                        <p className="text-sm text-primary-dark/60">{event.significance}</p>
-                        <p className="text-xs text-primary-dark/40 mt-0.5">{event.verses}</p>
+                      <div>
+                        <p className="font-semibold text-scripture">{item.heading}</p>
+                        <p className="text-xs text-primary-dark/50 mb-1">{item.reference}</p>
+                        <p className="text-sm text-primary-dark/70">{item.description}</p>
                       </div>
                     </div>
                   ))}
                 </div>
-              </div>
+              </section>
             )}
 
-            {/* Relationships */}
-            {entry.character.relationships.length > 0 && (
-              <div className="mt-6">
-                <h3 className="text-lg font-semibold text-scripture mb-3">Key Relationships</h3>
-                <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-                  {entry.character.relationships.map((rel, i) => (
-                    <div key={i} className="bg-primary-light/50 rounded-lg p-3 border border-grace">
-                      <p className="font-medium text-scripture text-sm">{rel.person}</p>
-                      <p className="text-xs text-primary-dark/50">{rel.relationship}</p>
-                    </div>
+            {/* Christ in Book */}
+            {bookIntro.christInBook && (
+              <section className="bg-white rounded-xl border border-grace p-6 md:p-8">
+                <h2 className="text-2xl font-bold font-display text-scripture mb-4">
+                  Christ in {bookMeta!.name}
+                </h2>
+                <div className="text-primary-dark/80 leading-relaxed space-y-4">
+                  {bookIntro.christInBook.split('\n\n').slice(0, 3).map((p, i) => (
+                    <p key={i}>{renderWithBold(p)}</p>
                   ))}
                 </div>
-              </div>
+              </section>
             )}
-          </section>
-        )}
 
-        {/* Description (from Topics data) */}
-        {entry.description && !entry.character && (
-          <section className="bg-white rounded-xl border border-grace p-6 md:p-8">
-            <h2 className="text-2xl font-bold font-display text-scripture mb-4">
-              Overview
-            </h2>
-            <p className="text-primary-dark/80 leading-relaxed">
-              {entry.description}
-            </p>
-          </section>
+            {/* Theological Significance */}
+            {bookIntro.theologicalSignificance && (
+              <section className="bg-white rounded-xl border border-grace p-6 md:p-8">
+                <h2 className="text-2xl font-bold font-display text-scripture mb-4">
+                  Theological Significance
+                </h2>
+                <div className="text-primary-dark/80 leading-relaxed space-y-4">
+                  {bookIntro.theologicalSignificance.split('\n\n').slice(0, 4).map((p, i) => (
+                    <p key={i}>{renderWithBold(p)}</p>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* Famous Verses */}
+            {bookMeta!.famousVerses.length > 0 && (
+              <section className="bg-white rounded-xl border border-grace p-6 md:p-8">
+                <h2 className="text-2xl font-bold font-display text-scripture mb-4">
+                  Famous Verses
+                </h2>
+                <div className="space-y-4">
+                  {bookMeta!.famousVerses.map((v, i) => (
+                    <blockquote key={i} className="border-l-2 border-indigo-300 pl-4">
+                      <p className="font-serif italic text-scripture">&ldquo;{v.text}&rdquo;</p>
+                      <p className="text-sm text-primary-dark/60 mt-1">{v.reference}</p>
+                    </blockquote>
+                  ))}
+                </div>
+              </section>
+            )}
+          </>
+        ) : (
+          <>
+            {/* Character Biography */}
+            {entry.character && (
+              <section className="bg-white rounded-xl border border-grace p-6 md:p-8">
+                <h2 className="text-2xl font-bold font-display text-scripture mb-4">
+                  Biography
+                </h2>
+                <p className="text-primary-dark/80 leading-relaxed mb-4">
+                  {entry.character.biography}
+                </p>
+                {entry.character.significance && (
+                  <>
+                    <h3 className="text-lg font-semibold text-scripture mb-2">Significance</h3>
+                    <p className="text-primary-dark/80 leading-relaxed">
+                      {entry.character.significance}
+                    </p>
+                  </>
+                )}
+
+                {/* Timeline */}
+                {entry.character.timeline.length > 0 && (
+                  <div className="mt-6">
+                    <h3 className="text-lg font-semibold text-scripture mb-3">Timeline</h3>
+                    <div className="space-y-3">
+                      {entry.character.timeline.map((event, i) => (
+                        <div key={i} className="flex gap-4 items-start">
+                          <span className="flex-shrink-0 w-20 text-right text-sm font-mono text-amber-700">
+                            {event.date}
+                          </span>
+                          <div className="flex-shrink-0 flex flex-col items-center">
+                            <span className="w-2.5 h-2.5 rounded-full bg-blue-400"></span>
+                            {i < entry.character!.timeline.length - 1 && (
+                              <span className="w-0.5 flex-1 bg-blue-200"></span>
+                            )}
+                          </div>
+                          <div className="pb-4">
+                            <p className="font-medium text-scripture">{event.event}</p>
+                            <p className="text-sm text-primary-dark/60">{event.significance}</p>
+                            <p className="text-xs text-primary-dark/40 mt-0.5">{event.verses}</p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Relationships */}
+                {entry.character.relationships.length > 0 && (
+                  <div className="mt-6">
+                    <h3 className="text-lg font-semibold text-scripture mb-3">Key Relationships</h3>
+                    <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                      {entry.character.relationships.map((rel, i) => (
+                        <div key={i} className="bg-primary-light/50 rounded-lg p-3 border border-grace">
+                          <p className="font-medium text-scripture text-sm">{rel.person}</p>
+                          <p className="text-xs text-primary-dark/50">{rel.relationship}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </section>
+            )}
+
+            {/* Description (from Topics data) */}
+            {entry.description && !entry.character && (
+              <section className="bg-white rounded-xl border border-grace p-6 md:p-8">
+                <h2 className="text-2xl font-bold font-display text-scripture mb-4">
+                  Overview
+                </h2>
+                <p className="text-primary-dark/80 leading-relaxed">
+                  {entry.description}
+                </p>
+              </section>
+            )}
+          </>
         )}
 
         {/* Sub-Topics from Nave's */}
@@ -447,70 +590,112 @@ export default async function EncyclopediaDetailPage({ params }: EncyclopediaPag
             Explore Further
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            <Link
-              href={`/topics/${slug}`}
-              className="block bg-white rounded-lg border border-grace p-4 hover:border-blue-300 hover:shadow-sm transition-all group"
-            >
-              <p className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
-                {entry.title} Topic Study
-              </p>
-              <p className="text-sm text-primary-dark/60 mt-1">
-                Verse text and commentary for deeper study
-              </p>
-            </Link>
+            {isBibleBook ? (
+              <>
+                <Link
+                  href={`/${slug}-chapters`}
+                  className="block bg-white rounded-lg border border-grace p-4 hover:border-blue-300 hover:shadow-sm transition-all group"
+                >
+                  <p className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                    {bookMeta!.name} Chapter Quizzes
+                  </p>
+                  <p className="text-sm text-primary-dark/60 mt-1">
+                    All {bookMeta!.chapters} chapters with quiz questions
+                  </p>
+                </Link>
 
-            <Link
-              href={`/chain-study/${slug}`}
-              className="block bg-white rounded-lg border border-grace p-4 hover:border-blue-300 hover:shadow-sm transition-all group"
-            >
-              <p className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
-                Chain Study
-              </p>
-              <p className="text-sm text-primary-dark/60 mt-1">
-                Trace this theme chronologically through Scripture
-              </p>
-            </Link>
+                <Link
+                  href={`/${slug}-quiz`}
+                  className="block bg-white rounded-lg border border-grace p-4 hover:border-blue-300 hover:shadow-sm transition-all group"
+                >
+                  <p className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                    Complete {bookMeta!.name} Quiz
+                  </p>
+                  <p className="text-sm text-primary-dark/60 mt-1">
+                    25 questions covering the entire book
+                  </p>
+                </Link>
 
-            {entry.type === 'place' && (
-              <Link
-                href={`/bible-places`}
-                className="block bg-white rounded-lg border border-grace p-4 hover:border-blue-300 hover:shadow-sm transition-all group"
-              >
-                <p className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
-                  Bible Places Map
-                </p>
-                <p className="text-sm text-primary-dark/60 mt-1">
-                  Explore biblical locations with interactive maps
-                </p>
-              </Link>
-            )}
+                <Link
+                  href={`/books/${slug}`}
+                  className="block bg-white rounded-lg border border-grace p-4 hover:border-blue-300 hover:shadow-sm transition-all group"
+                >
+                  <p className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                    {bookMeta!.name} Study Guide
+                  </p>
+                  <p className="text-sm text-primary-dark/60 mt-1">
+                    In-depth study with commentary and notes
+                  </p>
+                </Link>
+              </>
+            ) : (
+              <>
+                <Link
+                  href={`/topics/${slug}`}
+                  className="block bg-white rounded-lg border border-grace p-4 hover:border-blue-300 hover:shadow-sm transition-all group"
+                >
+                  <p className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                    {entry.title} Topic Study
+                  </p>
+                  <p className="text-sm text-primary-dark/60 mt-1">
+                    Verse text and commentary for deeper study
+                  </p>
+                </Link>
 
-            {entry.type === 'person' && (
-              <Link
-                href={`/characters/${slug}`}
-                className="block bg-white rounded-lg border border-grace p-4 hover:border-blue-300 hover:shadow-sm transition-all group"
-              >
-                <p className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
-                  Character Profile
-                </p>
-                <p className="text-sm text-primary-dark/60 mt-1">
-                  Biography, timeline, and relationships
-                </p>
-              </Link>
-            )}
+                <Link
+                  href={`/chain-study/${slug}`}
+                  className="block bg-white rounded-lg border border-grace p-4 hover:border-blue-300 hover:shadow-sm transition-all group"
+                >
+                  <p className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                    Chain Study
+                  </p>
+                  <p className="text-sm text-primary-dark/60 mt-1">
+                    Trace this theme chronologically through Scripture
+                  </p>
+                </Link>
 
-            {entry.type !== 'place' && entry.type !== 'person' && (
-              <Link
-                href="/bible-quizzes"
-                className="block bg-white rounded-lg border border-grace p-4 hover:border-blue-300 hover:shadow-sm transition-all group"
-              >
-                <p className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
-                  Test Your Knowledge
-                </p>
-                <p className="text-sm text-primary-dark/60 mt-1">
-                  Take a Bible quiz to reinforce what you learned
-                </p>
-              </Link>
+                {entry.type === 'place' && (
+                  <Link
+                    href={`/bible-places`}
+                    className="block bg-white rounded-lg border border-grace p-4 hover:border-blue-300 hover:shadow-sm transition-all group"
+                  >
+                    <p className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                      Bible Places Map
+                    </p>
+                    <p className="text-sm text-primary-dark/60 mt-1">
+                      Explore biblical locations with interactive maps
+                    </p>
+                  </Link>
+                )}
+
+                {entry.type === 'person' && (
+                  <Link
+                    href={`/characters/${slug}`}
+                    className="block bg-white rounded-lg border border-grace p-4 hover:border-blue-300 hover:shadow-sm transition-all group"
+                  >
+                    <p className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                      Character Profile
+                    </p>
+                    <p className="text-sm text-primary-dark/60 mt-1">
+                      Biography, timeline, and relationships
+                    </p>
+                  </Link>
+                )}
+
+                {entry.type !== 'place' && entry.type !== 'person' && (
+                  <Link
+                    href="/bible-quizzes"
+                    className="block bg-white rounded-lg border border-grace p-4 hover:border-blue-300 hover:shadow-sm transition-all group"
+                  >
+                    <p className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                      Test Your Knowledge
+                    </p>
+                    <p className="text-sm text-primary-dark/60 mt-1">
+                      Take a Bible quiz to reinforce what you learned
+                    </p>
+                  </Link>
+                )}
+              </>
             )}
           </div>
         </section>

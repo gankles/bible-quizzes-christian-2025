@@ -11,6 +11,8 @@ import { getCharacterQuizSlug } from '@/lib/character-quiz-generator';
 import { StructuredData } from '@/components/StructuredData';
 import Breadcrumb from '@/components/Breadcrumb';
 
+export const revalidate = 86400 // 24 hours
+
 interface PageProps {
   params: Promise<{ slug: string }>;
 }

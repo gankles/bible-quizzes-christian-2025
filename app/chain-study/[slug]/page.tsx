@@ -9,6 +9,10 @@ import {
   ChainStudy,
   ChainBookGroup,
 } from '@/lib/chain-data';
+import { buildChainStudyMetadata } from '@/lib/seo/metadata-builder';
+import { buildArticleSchema, buildBreadcrumbSchema } from '@/lib/seo/schema-builders';
+
+export const revalidate = 86400 // 24 hours
 
 interface ChainPageProps {
   params: Promise<{ slug: string }>;
@@ -22,31 +26,7 @@ export async function generateMetadata({ params }: ChainPageProps): Promise<Meta
   const { slug } = await params;
   const chain = getChainStudy(slug);
   if (!chain) return {};
-
-  const title = `${chain.subject}: A Chain Study Through the Bible | ${chain.bookCount} Books, ${chain.totalVerses} Verses | Bible Maximum`;
-  const description = `Trace the theme of ${chain.subject} through ${chain.bookCount} books of the Bible, from ${chain.bookGroups[0]?.book || 'Genesis'} to ${chain.bookGroups[chain.bookGroups.length - 1]?.book || 'Revelation'}. ${chain.totalVerses} verse references across both testaments.`;
-
-  return {
-    title,
-    description,
-    keywords: [
-      `${chain.subject} in the Bible`,
-      `${chain.subject} chain study`,
-      `${chain.subject} Bible theme`,
-      'Thompson Chain Reference',
-      'Bible chain study',
-      'topical Bible study',
-      `${chain.subject} Old Testament`,
-      `${chain.subject} New Testament`,
-    ],
-    openGraph: {
-      title: `${chain.subject} -- Chain Study Through the Bible`,
-      description,
-      url: `/chain-study/${slug}`,
-      type: 'article',
-    },
-    alternates: { canonical: `/chain-study/${slug}` },
-  };
+  return buildChainStudyMetadata(chain);
 }
 
 function getTestamentColor(testament: 'OT' | 'NT'): {
@@ -125,48 +105,17 @@ export default async function ChainStudyDetailPage({ params }: ChainPageProps) {
   const related = getRelatedChains(slug, 6);
   const insights = generateChainInsights(chain);
 
-  const jsonLd = [
-    {
-      '@context': 'https://schema.org',
-      '@type': 'Article',
-      headline: `${chain.subject}: A Chain Study Through the Bible`,
-      description: `Trace ${chain.subject} through ${chain.bookCount} books of the Bible with ${chain.totalVerses} verse references.`,
-      url: `https://biblemaximum.com/chain-study/${slug}`,
-      publisher: {
-        '@type': 'Organization',
-        name: 'Bible Maximum',
-        url: 'https://biblemaximum.com',
-      },
-      about: {
-        '@type': 'Thing',
-        name: chain.subject,
-      },
-    },
-    {
-      '@context': 'https://schema.org',
-      '@type': 'BreadcrumbList',
-      itemListElement: [
-        {
-          '@type': 'ListItem',
-          position: 1,
-          name: 'Home',
-          item: 'https://biblemaximum.com',
-        },
-        {
-          '@type': 'ListItem',
-          position: 2,
-          name: 'Chain Studies',
-          item: 'https://biblemaximum.com/chain-study',
-        },
-        {
-          '@type': 'ListItem',
-          position: 3,
-          name: chain.subject,
-          item: `https://biblemaximum.com/chain-study/${slug}`,
-        },
-      ],
-    },
-  ];
+  const articleSchema = buildArticleSchema({
+    headline: `${chain.subject}: A Chain Study Through the Bible`,
+    description: `Trace ${chain.subject} through ${chain.bookCount} books of the Bible with ${chain.totalVerses} verse references.`,
+    url: `/chain-study/${slug}`,
+    about: chain.subject,
+  });
+
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: 'Chain Studies', url: '/chain-study' },
+    { name: chain.subject, url: `/chain-study/${slug}` },
+  ]);
 
   // Group book groups into OT and NT sections
   const otGroups = chain.bookGroups.filter(g => g.testament === 'OT');
@@ -174,8 +123,8 @@ export default async function ChainStudyDetailPage({ params }: ChainPageProps) {
 
   return (
     <div className="min-h-screen bg-primary-light/30">
-      <StructuredData data={jsonLd[0]} />
-      <StructuredData data={jsonLd[1]} />
+      <StructuredData data={articleSchema} />
+      <StructuredData data={breadcrumbSchema} />
 
       {/* Breadcrumb */}
       <nav className="bg-white border-b border-grace">

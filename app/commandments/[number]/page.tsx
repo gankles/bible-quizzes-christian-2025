@@ -13,6 +13,8 @@ import { StructuredData } from '@/components/StructuredData';
 import { ChevronLeftIcon, ChevronRightIcon, BookOpenIcon, ArrowRightIcon } from '@/components/icons';
 import { getTopicsForCommandment } from '@/lib/commandment-topic-bridge';
 
+export const revalidate = 86400 // 24 hours
+
 interface PageProps {
   params: Promise<{ number: string }>;
 }

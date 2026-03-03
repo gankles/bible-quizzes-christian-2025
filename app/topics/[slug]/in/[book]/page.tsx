@@ -4,6 +4,8 @@ import { getTopicInBook, getBook } from '@/lib/database/queries'
 import Link from 'next/link'
 import topicsData from '@/data/topics.json'
 
+export const revalidate = 86400 // 24 hours
+
 interface Props {
     params: Promise<{
         slug: string

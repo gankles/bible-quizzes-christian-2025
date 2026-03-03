@@ -7,6 +7,8 @@ import { getBookMetadata } from '@/lib/book-metadata';
 import { loadChapterBreakdown, getTotalVerses } from '@/lib/chapter-breakdowns';
 import { getBookIntroduction } from '@/lib/book-introductions';
 
+export const revalidate = 86400 // 24 hours
+
 interface BookSummaryPageProps {
   params: Promise<{ book: string }>;
 }

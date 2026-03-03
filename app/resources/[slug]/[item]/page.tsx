@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation';
 import { getResourceItem, getAllResourceItemSlugs, titleToItemSlug } from '@/lib/resources-data';
 import { StructuredData } from '@/components/StructuredData';
 
+export const revalidate = 86400 // 24 hours
+
 interface PageProps {
   params: Promise<{ slug: string; item: string }>;
 }

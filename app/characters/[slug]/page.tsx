@@ -13,6 +13,8 @@ import { ClockIcon, UserGroupIcon, AcademicCapIcon, SparklesIcon, BoltIcon, User
 import Link from 'next/link';
 import { getTopicsForCharacter } from '@/lib/character-topic-bridge';
 
+export const revalidate = 86400 // 24 hours
+
 interface CharacterPageProps {
     params: Promise<{ slug: string }>;
 }

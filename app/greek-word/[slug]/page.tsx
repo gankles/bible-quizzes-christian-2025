@@ -1,69 +1,27 @@
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import fs from 'fs'
-import path from 'path'
 import {
   BookOpenIcon,
   ArrowRightIcon,
   ArrowLeftIcon,
   ChevronRightIcon,
 } from '@/components/icons'
+import {
+  getStrongsGreek,
+  getAllGreekEntries,
+  getGreekLetterIndex,
+  getGreekByNumber,
+  getGreekNeighbors,
+  getGreekEntryCount,
+  StrongsEntry,
+} from '@/lib/strongs-data'
+import { buildGreekWordMetadata } from '@/lib/seo/metadata-builder'
+import { buildWordStudySchema, buildBreadcrumbSchema } from '@/lib/seo/schema-builders'
+import { StructuredData } from '@/components/StructuredData'
+import PrevNextNav from '@/components/page-sections/PrevNextNav'
 
-// ---------------------------------------------------------------------------
-// Data loading — use lib/strongs-data.ts if it exists, otherwise read JSON
-// ---------------------------------------------------------------------------
-
-interface StrongsGreekEntry {
-  number: string
-  lemma: string
-  transliteration: string
-  pronunciation: string
-  derivation: string
-  definition: string
-  kjvTranslations: string
-  slug: string
-}
-
-interface StrongsGreekIndex {
-  totalEntries: number
-  slugMap: Record<string, string>
-  letterIndex: Record<string, string[]>
-}
-
-let _dataCache: StrongsGreekEntry[] | null = null
-let _indexCache: StrongsGreekIndex | null = null
-
-function loadAllGreek(): StrongsGreekEntry[] {
-  if (_dataCache) return _dataCache
-  const filePath = path.join(process.cwd(), 'data/strongs-greek.json')
-  _dataCache = JSON.parse(fs.readFileSync(filePath, 'utf-8')) as StrongsGreekEntry[]
-  return _dataCache
-}
-
-function loadIndex(): StrongsGreekIndex {
-  if (_indexCache) return _indexCache
-  const filePath = path.join(process.cwd(), 'data/strongs-greek-index.json')
-  _indexCache = JSON.parse(fs.readFileSync(filePath, 'utf-8')) as StrongsGreekIndex
-  return _indexCache
-}
-
-// NOTE: When lib/strongs-data.ts is available, these can be replaced with:
-//   import { getStrongsGreek, getAllGreekSlugs, getGreekLetterIndex } from '@/lib/strongs-data'
-
-function getStrongsGreek(slug: string): StrongsGreekEntry | undefined {
-  const data = loadAllGreek()
-  return data.find((e) => e.slug === slug)
-}
-
-function getAllGreekSlugs(): string[] {
-  const index = loadIndex()
-  return Object.keys(index.slugMap)
-}
-
-function getGreekLetterIndex(): Record<string, string[]> {
-  return loadIndex().letterIndex
-}
+export const revalidate = 86400 // 24 hours
 
 // ---------------------------------------------------------------------------
 // Helpers
@@ -72,18 +30,16 @@ function getGreekLetterIndex(): Record<string, string[]> {
 /** Parse KJV translations string into array of {translation, parenthetical?} */
 function parseKjvTranslations(raw: string): { translation: string; raw: string }[] {
   if (!raw || raw === '--') return []
-  // Split on comma, then clean each
   return raw.split(',').map((t) => {
     const trimmed = t.trim().replace(/^--\s*/, '').replace(/\s+/g, ' ')
     return { translation: trimmed, raw: trimmed }
   }).filter((t) => t.translation.length > 0)
 }
 
-/** Extract Strong's number references from derivation text, e.g. "G25", "H0175" */
+/** Extract Strong's number references from derivation text */
 function parseDerivationRefs(derivation: string): { greekRefs: string[]; hebrewRefs: string[] } {
   const greekRefs: string[] = []
   const hebrewRefs: string[] = []
-  // Match patterns like G25, G3982, H0175, H011
   const matches = derivation.match(/[GH]\d+/g) || []
   for (const m of matches) {
     if (m.startsWith('G')) greekRefs.push(m)
@@ -94,19 +50,8 @@ function parseDerivationRefs(derivation: string): { greekRefs: string[]; hebrewR
 
 /** Find the slug for a given Strong's number like "G25" */
 function findSlugByNumber(number: string): string | null {
-  const data = loadAllGreek()
-  const entry = data.find((e) => e.number === number)
+  const entry = getGreekByNumber(number)
   return entry ? entry.slug : null
-}
-
-/** Get previous and next entries by array index */
-function getNeighbors(slug: string): { prev: StrongsGreekEntry | null; next: StrongsGreekEntry | null } {
-  const data = loadAllGreek()
-  const idx = data.findIndex((e) => e.slug === slug)
-  return {
-    prev: idx > 0 ? data[idx - 1] : null,
-    next: idx >= 0 && idx < data.length - 1 ? data[idx + 1] : null,
-  }
 }
 
 /** Get the first letter of the transliteration for grouping */
@@ -115,15 +60,14 @@ function getFirstLetter(transliteration: string): string {
 }
 
 /** Get same-letter words (up to 12, excluding current) */
-function getSameLetterWords(slug: string, transliteration: string): StrongsGreekEntry[] {
+function getSameLetterWords(slug: string, transliteration: string): StrongsEntry[] {
   const letter = getFirstLetter(transliteration)
   const letterIndex = getGreekLetterIndex()
   const slugsInLetter = letterIndex[letter] || []
-  const data = loadAllGreek()
-  const results: StrongsGreekEntry[] = []
+  const results: StrongsEntry[] = []
   for (const s of slugsInLetter) {
     if (s === slug) continue
-    const entry = data.find((e) => e.slug === s)
+    const entry = getStrongsGreek(s)
     if (entry) results.push(entry)
     if (results.length >= 12) break
   }
@@ -131,28 +75,25 @@ function getSameLetterWords(slug: string, transliteration: string): StrongsGreek
 }
 
 /** Build related Greek words from derivation refs */
-function getRelatedGreekWords(derivation: string, currentSlug: string): StrongsGreekEntry[] {
+function getRelatedGreekWords(derivation: string, currentSlug: string): StrongsEntry[] {
   const { greekRefs } = parseDerivationRefs(derivation)
-  const data = loadAllGreek()
-  const results: StrongsGreekEntry[] = []
+  const allData = getAllGreekEntries()
+  const results: StrongsEntry[] = []
   const seen = new Set<string>()
   seen.add(currentSlug)
 
-  // 1. Words referenced in this word's derivation
   for (const ref of greekRefs) {
-    const entry = data.find((e) => e.number === ref)
+    const entry = getGreekByNumber(ref)
     if (entry && !seen.has(entry.slug)) {
       results.push(entry)
       seen.add(entry.slug)
     }
   }
 
-  // 2. Words that reference this word in their derivation (reverse lookup)
-  //    Use regex with word boundary to avoid matching G26 inside G2607 etc.
-  const currentNumber = data.find((e) => e.slug === currentSlug)?.number
+  const currentNumber = getStrongsGreek(currentSlug)?.number
   if (currentNumber) {
     const pattern = new RegExp(`\\b${currentNumber}\\b`)
-    for (const entry of data) {
+    for (const entry of allData) {
       if (seen.has(entry.slug)) continue
       if (pattern.test(entry.derivation)) {
         results.push(entry)
@@ -188,36 +129,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { slug } = await params
   const entry = getStrongsGreek(slug)
   if (!entry) return { title: 'Greek Word Study Not Found' }
-
-  const translations = parseKjvTranslations(entry.kjvTranslations)
-  const primaryTranslation = translations[0]?.translation || entry.definition.split(',')[0].trim()
-  const defShort = entry.definition.length > 120
-    ? entry.definition.slice(0, 120) + '...'
-    : entry.definition
-
-  return {
-    title: `${entry.transliteration} (${entry.number}) -- Greek Word Study | "${capitalize(primaryTranslation)}" in the Bible | Bible Maximum`,
-    description: `Study the Greek word ${entry.transliteration} (${entry.lemma}), Strong's ${entry.number}. Definition: ${defShort}. See KJV translations, related words, and theological significance.`,
-    keywords: [
-      `${entry.transliteration} greek meaning`,
-      `strong's ${entry.number.toLowerCase()}`,
-      `${entry.transliteration} definition`,
-      `${entry.lemma} meaning`,
-      `greek word ${primaryTranslation}`,
-      `greek word for ${primaryTranslation}`,
-      `${entry.number} strong's concordance`,
-      'biblical greek word study',
-      'new testament greek',
-      'koine greek',
-    ],
-    alternates: { canonical: `/greek-word/${entry.slug}` },
-    openGraph: {
-      title: `${entry.transliteration} (${entry.number}) -- Greek Word Study`,
-      description: `Study ${entry.lemma} (${entry.transliteration}): ${defShort}`,
-      url: `/greek-word/${entry.slug}`,
-      type: 'article',
-    },
-  }
+  return buildGreekWordMetadata(entry)
 }
 
 export default async function GreekWordStudyPage({ params }: PageProps) {
@@ -228,7 +140,7 @@ export default async function GreekWordStudyPage({ params }: PageProps) {
   const translations = parseKjvTranslations(entry.kjvTranslations)
   const { greekRefs, hebrewRefs } = parseDerivationRefs(entry.derivation)
   const relatedWords = getRelatedGreekWords(entry.derivation, slug)
-  const { prev, next } = getNeighbors(slug)
+  const { prev, next } = getGreekNeighbors(entry)
   const sameLetterWords = getSameLetterWords(slug, entry.transliteration)
   const letter = getFirstLetter(entry.transliteration)
   const letterIndex = getGreekLetterIndex()
@@ -244,51 +156,22 @@ export default async function GreekWordStudyPage({ params }: PageProps) {
     })
 
   // JSON-LD Schema
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@graph': [
-      {
-        '@type': 'DefinedTerm',
-        name: entry.lemma,
-        description: entry.definition,
-        inDefinedTermSet: {
-          '@type': 'DefinedTermSet',
-          name: "Strong's Greek Concordance",
-        },
-        termCode: entry.number,
-        url: `https://biblemaximum.com/greek-word/${entry.slug}`,
-      },
-      {
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          {
-            '@type': 'ListItem',
-            position: 1,
-            name: 'Home',
-            item: 'https://biblemaximum.com',
-          },
-          {
-            '@type': 'ListItem',
-            position: 2,
-            name: 'Greek Word Studies',
-            item: 'https://biblemaximum.com/greek-word',
-          },
-          {
-            '@type': 'ListItem',
-            position: 3,
-            name: entry.transliteration,
-          },
-        ],
-      },
-    ],
-  }
+  const definedTermSchema = buildWordStudySchema({
+    word: entry.transliteration,
+    number: entry.number,
+    definition: entry.definition,
+    slug: entry.slug,
+    language: 'Greek',
+  })
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: 'Greek Word Studies', url: '/greek-word' },
+    { name: entry.transliteration },
+  ])
 
   return (
     <div className="bg-white pb-32">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <StructuredData data={definedTermSchema} />
+      <StructuredData data={breadcrumbSchema} />
 
       {/* BREADCRUMB */}
       <nav
@@ -599,7 +482,7 @@ export default async function GreekWordStudyPage({ params }: PageProps) {
                 Browse All Greek Words
               </div>
               <p className="text-sm text-indigo-200 mb-3">
-                Explore the complete Strong&apos;s Greek concordance with {loadIndex().totalEntries.toLocaleString()} entries.
+                Explore the complete Strong&apos;s Greek concordance with {getGreekEntryCount().toLocaleString()} entries.
               </p>
               <div className="flex items-center text-white text-sm font-semibold">
                 <span>Browse A-Z</span>
@@ -612,46 +495,13 @@ export default async function GreekWordStudyPage({ params }: PageProps) {
 
       {/* PREVIOUS / NEXT NAVIGATION */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {prev && (
-            <Link
-              href={`/greek-word/${prev.slug}`}
-              className="group flex items-center p-5 rounded-xl bg-white border border-grace hover:border-indigo-300 hover:shadow-md transition-all"
-            >
-              <ArrowLeftIcon className="w-5 h-5 text-indigo-600 mr-4 group-hover:-translate-x-1 transition-transform flex-shrink-0" />
-              <div>
-                <div className="text-xs font-bold uppercase text-primary-dark/40 tracking-wider mb-1">
-                  Previous Word
-                </div>
-                <div className="text-lg font-bold text-scripture group-hover:text-indigo-700 transition-colors">
-                  {prev.lemma}
-                </div>
-                <div className="text-sm text-indigo-600 italic">
-                  {prev.transliteration} ({prev.number})
-                </div>
-              </div>
-            </Link>
-          )}
-          {next && (
-            <Link
-              href={`/greek-word/${next.slug}`}
-              className="group flex items-center justify-end text-right p-5 rounded-xl bg-white border border-grace hover:border-indigo-300 hover:shadow-md transition-all md:col-start-2"
-            >
-              <div>
-                <div className="text-xs font-bold uppercase text-primary-dark/40 tracking-wider mb-1">
-                  Next Word
-                </div>
-                <div className="text-lg font-bold text-scripture group-hover:text-indigo-700 transition-colors">
-                  {next.lemma}
-                </div>
-                <div className="text-sm text-indigo-600 italic">
-                  {next.transliteration} ({next.number})
-                </div>
-              </div>
-              <ArrowRightIcon className="w-5 h-5 text-indigo-600 ml-4 group-hover:translate-x-1 transition-transform flex-shrink-0" />
-            </Link>
-          )}
-        </div>
+        <PrevNextNav
+          prev={prev ? { href: `/greek-word/${prev.slug}`, label: prev.lemma, sublabel: `${prev.transliteration} (${prev.number})` } : null}
+          next={next ? { href: `/greek-word/${next.slug}`, label: next.lemma, sublabel: `${next.transliteration} (${next.number})` } : null}
+          variant="indigo"
+          prevTitle="Previous Word"
+          nextTitle="Next Word"
+        />
       </section>
 
       {/* SAME LETTER BROWSE GRID */}

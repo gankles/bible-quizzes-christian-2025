@@ -1,10 +1,12 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { getAllPlaceTypes, getPlacesByType, formatPlaceType, formatPlaceTypeSingular } from '@/lib/geocoding-data';
+import { getAllPlaceTypes, getPlacesByType, formatPlaceType, formatPlaceTypeSingular, getPlaceThumbnailUrl, getPlacePlaceholderColor } from '@/lib/geocoding-data';
 import { StructuredData } from '@/components/StructuredData';
 import GeoAttribution from '@/components/GeoAttribution';
 import TypeMapClient from './TypeMapClient';
+
+export const revalidate = 86400 // 24 hours
 
 interface PageProps {
   params: Promise<{ type: string }>;
@@ -104,23 +106,52 @@ export default async function TypePage({ params }: PageProps) {
       <section className="max-w-6xl mx-auto px-4 pb-8">
         <h2 className="text-xl font-bold text-scripture mb-4">All Biblical {label}</h2>
         <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-          {sorted.map(p => (
-            <Link
-              key={p.slug}
-              href={`/bible-places/${p.slug}`}
-              className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
-            >
-              <div className="flex items-center justify-between">
-                <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
-                  {p.name}
-                </span>
-                <span className="text-xs text-primary-dark/40">{p.verseCount} verse{p.verseCount !== 1 ? 's' : ''}</span>
-              </div>
-              {p.modernName && p.modernName !== p.name && (
-                <span className="text-xs text-primary-dark/50">Modern: {p.modernName}</span>
-              )}
-            </Link>
-          ))}
+          {sorted.map(p => {
+            const thumbUrl = getPlaceThumbnailUrl(p);
+            return (
+              <Link
+                key={p.slug}
+                href={`/bible-places/${p.slug}`}
+                className="bg-white border border-grace rounded-lg overflow-hidden p-0 hover:shadow-md hover:border-blue-300 transition-all group"
+              >
+                {thumbUrl && (
+                  <div
+                    className="h-32 bg-cover bg-center"
+                    style={{
+                      backgroundImage: `url(${thumbUrl})`,
+                      backgroundColor: getPlacePlaceholderColor(p),
+                    }}
+                  />
+                )}
+                <div className="px-4 py-3">
+                  <div className="flex items-center justify-between">
+                    <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                      {p.name}
+                    </span>
+                    <span className="text-xs text-primary-dark/40">{p.verseCount} verse{p.verseCount !== 1 ? 's' : ''}</span>
+                  </div>
+                  {p.modernName && p.modernName !== p.name && (
+                    <span className="text-xs text-primary-dark/50">Modern: {p.modernName}</span>
+                  )}
+                </div>
+              </Link>
+            );
+          })}
+        </div>
+      </section>
+
+      {/* Quiz CTA */}
+      <section className="max-w-6xl mx-auto px-4 pb-8">
+        <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <p className="text-sm font-medium text-blue-900">
+            Explore {places.length} biblical {label.toLowerCase()} — then test your knowledge with a geography quiz.
+          </p>
+          <Link
+            href="/bible-geography-quiz"
+            className="bg-blue-600 hover:bg-blue-700 text-white text-sm font-bold px-5 py-2 rounded-lg transition-colors whitespace-nowrap"
+          >
+            Geography Quizzes &rarr;
+          </Link>
         </div>
       </section>
 

@@ -1,11 +1,13 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { getBooksWithPlaces, getPlacesForBook, getPlacesByBookChapterKeys } from '@/lib/geocoding-data';
+import { getBooksWithPlaces, getPlacesForBook, getPlacesByBookChapterKeys, getPlaceThumbnailUrl, getPlacePlaceholderColor } from '@/lib/geocoding-data';
 import { BOOK_NAMES } from '@/lib/bolls-api';
 import { StructuredData } from '@/components/StructuredData';
 import GeoAttribution from '@/components/GeoAttribution';
 import BookGeographyClient from './BookGeographyClient';
+
+export const revalidate = 86400 // 24 hours
 
 interface PageProps {
   params: Promise<{ book: string }>;
@@ -146,22 +148,49 @@ export default async function BookGeographyPage({ params }: PageProps) {
         <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
           {sortedPlaces.map(p => {
             const bookVerses = p.verses.filter(v => v.bookSlug === book);
+            const thumbUrl = getPlaceThumbnailUrl(p);
             return (
               <Link
                 key={p.slug}
                 href={`/bible-places/${p.slug}`}
-                className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
+                className="bg-white border border-grace rounded-lg overflow-hidden p-0 hover:shadow-md hover:border-blue-300 transition-all group"
               >
-                <div className="flex items-center justify-between">
-                  <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
-                    {p.name}
-                  </span>
-                  <span className="text-xs text-primary-dark/40">{bookVerses.length}x</span>
+                {thumbUrl && (
+                  <div
+                    className="h-32 bg-cover bg-center"
+                    style={{
+                      backgroundImage: `url(${thumbUrl})`,
+                      backgroundColor: getPlacePlaceholderColor(p),
+                    }}
+                  />
+                )}
+                <div className="px-4 py-3">
+                  <div className="flex items-center justify-between">
+                    <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                      {p.name}
+                    </span>
+                    <span className="text-xs text-primary-dark/40">{bookVerses.length}x</span>
+                  </div>
+                  <span className="text-xs text-primary-dark/50 capitalize">{p.type}</span>
                 </div>
-                <span className="text-xs text-primary-dark/50 capitalize">{p.type}</span>
               </Link>
             );
           })}
+        </div>
+      </section>
+
+      {/* Quiz CTA */}
+      <section className="max-w-6xl mx-auto px-4 pb-8">
+        <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <p className="text-sm font-medium text-blue-900">
+            How well do you know the places in {bookName}? Test yourself with {places.length} locations.
+          </p>
+          <Link
+            href={`/bible-geography-quiz/${book}`}
+            className="bg-blue-600 hover:bg-blue-700 text-white text-sm font-bold px-5 py-2 rounded-lg transition-colors whitespace-nowrap"
+          >
+            Take the Quiz &rarr;
+          </Link>
         </div>
       </section>
 

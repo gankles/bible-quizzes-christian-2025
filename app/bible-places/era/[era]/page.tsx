@@ -5,6 +5,8 @@ import { getGeographyForEra, getAllEraGeographySlugs } from '@/lib/timeline-geog
 import { StructuredData } from '@/components/StructuredData';
 import { BibleMap as BibleMapDynamic } from '@/components/BibleMapDynamic';
 
+export const revalidate = 86400 // 24 hours
+
 interface PageProps {
   params: Promise<{ era: string }>;
 }

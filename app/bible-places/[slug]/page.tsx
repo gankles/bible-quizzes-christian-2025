@@ -1,17 +1,22 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import Image from 'next/image';
 import {
   getAllPlaceSlugs,
   getPlaceBySlug,
   getNearbyPlaces,
   formatPlaceTypeSingular,
+  getPlaceThumbnailUrl,
+  getPlacePlaceholderColor,
 } from '@/lib/geocoding-data';
 import { BOOK_NAMES } from '@/lib/bolls-api';
 import { StructuredData } from '@/components/StructuredData';
 import GeoAttribution from '@/components/GeoAttribution';
 import PlacePageClient from './PlacePageClient';
 import { getKJVText } from '@/lib/enrichment-data';
+
+export const revalidate = 86400 // 24 hours
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -164,6 +169,50 @@ export default async function PlacePage({ params }: PageProps) {
               )}
             </div>
           </div>
+
+          {/* Thumbnail + CTA */}
+          {(() => {
+            const thumbUrl = getPlaceThumbnailUrl(place);
+            const bgColor = getPlacePlaceholderColor(place);
+            return (
+              <div className="mt-6 md:mt-0 md:w-72 shrink-0">
+                {thumbUrl && (
+                  <>
+                    <div
+                      className="rounded-xl overflow-hidden"
+                      style={{ backgroundColor: bgColor }}
+                    >
+                      <Image
+                        src={thumbUrl}
+                        alt={place.description || `Photo of ${place.name}`}
+                        width={512}
+                        height={512}
+                        className="w-full h-auto"
+                        loading="lazy"
+                      />
+                    </div>
+                    {place.credit && (
+                      <p className="text-[10px] text-primary-dark/40 mt-1">
+                        Photo: {place.creditUrl ? (
+                          <a href={place.creditUrl} target="_blank" rel="noopener noreferrer" className="hover:underline">
+                            {place.credit}
+                          </a>
+                        ) : place.credit}
+                      </p>
+                    )}
+                  </>
+                )}
+                {place.books[0] && (
+                  <Link
+                    href={`/bible-geography-quiz/${place.books[0]}`}
+                    className="mt-3 block text-center bg-blue-600 hover:bg-blue-700 text-white text-sm font-bold px-4 py-2.5 rounded-lg transition-colors"
+                  >
+                    Test Your Knowledge &rarr;
+                  </Link>
+                )}
+              </div>
+            );
+          })()}
         </div>
       </section>
 

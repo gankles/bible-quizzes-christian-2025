@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation';
 import { getAllReadingPlans, getReadingPlanBySlug } from '@/lib/reading-plans-data';
 import { StructuredData } from '@/components/StructuredData';
 
+export const revalidate = 86400 // 24 hours
+
 interface PageProps {
   params: Promise<{ slug: string }>;
 }

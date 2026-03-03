@@ -6,6 +6,8 @@ import { StructuredData } from '@/components/StructuredData';
 import GeoAttribution from '@/components/GeoAttribution';
 import NearbyMapClient from './NearbyMapClient';
 
+export const revalidate = 86400 // 24 hours
+
 interface PageProps {
   params: Promise<{ slug: string }>;
 }

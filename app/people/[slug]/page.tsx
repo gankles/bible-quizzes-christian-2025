@@ -11,6 +11,8 @@ import { StructuredData } from '@/components/StructuredData';
 import { findBiography } from '@/lib/biographies-data';
 import { getVersePlaces, formatPlaceTypeSingular, GeocodingPlace } from '@/lib/geocoding-data';
 
+export const revalidate = 86400 // 24 hours
+
 interface PageProps {
   params: Promise<{ slug: string }>;
 }

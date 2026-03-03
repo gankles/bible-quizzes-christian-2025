@@ -18,6 +18,8 @@ import { isRedLetter } from '@/lib/red-letter';
 import { isPoetryChapter } from '@/lib/poetry-formatting';
 import { getPlacesForChapter, formatPlaceTypeSingular } from '@/lib/geocoding-data';
 
+export const revalidate = 86400 // 24 hours
+
 interface ChapterPageProps {
   params: Promise<{
     book: string;

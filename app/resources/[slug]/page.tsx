@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation';
 import { getAllResources, getResourceBySlug, titleToItemSlug } from '@/lib/resources-data';
 import { StructuredData } from '@/components/StructuredData';
 
+export const revalidate = 86400 // 24 hours
+
 // ── Helpers ────────────────────────────────────────────────────────
 
 function referenceToLink(ref: string): string | null {

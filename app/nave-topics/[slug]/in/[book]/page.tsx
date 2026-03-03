@@ -10,6 +10,8 @@ import {
 } from '@/lib/naves-data';
 import { StructuredData } from '@/components/StructuredData';
 
+export const revalidate = 86400 // 24 hours
+
 interface PageProps {
   params: Promise<{ slug: string; book: string }>;
 }

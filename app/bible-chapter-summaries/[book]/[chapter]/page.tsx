@@ -9,6 +9,8 @@ import { getBookIntroduction } from '@/lib/book-introductions';
 import { getDevotionalsByBook } from '@/lib/devotionals-data';
 import { renderWithBold } from '@/lib/render-helpers';
 
+export const revalidate = 86400 // 24 hours
+
 interface ChapterSummaryPageProps {
   params: Promise<{ book: string; chapter: string }>;
 }

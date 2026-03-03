@@ -5,6 +5,8 @@ import { getCommandmentsForTopic, getAllCommandmentTopicSlugs } from '@/lib/comm
 import { formatReference } from '@/lib/commandments-data';
 import { StructuredData } from '@/components/StructuredData';
 
+export const revalidate = 86400 // 24 hours
+
 interface PageProps {
   params: Promise<{ topic: string }>;
 }

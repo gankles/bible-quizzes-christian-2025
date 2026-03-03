@@ -16,6 +16,8 @@ import { formatReference } from '@/lib/commandments-data';
 import { getKjvStudyTopic } from '@/lib/kjvstudy-topics';
 import Link from 'next/link';
 
+export const revalidate = 86400 // 24 hours
+
 export async function generateStaticParams() {
     // Generated on-demand via ISR — avoids Bolls API calls during build
     return [];

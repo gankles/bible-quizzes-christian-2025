@@ -4,6 +4,8 @@ import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { BIBLE_BOOKS } from '@/lib/bible-data';
 
+export const revalidate = 86400 // 24 hours
+
 type DifficultyLevel = 'easy' | 'medium' | 'hard' | 'theological';
 
 interface LevelConfig {

@@ -12,6 +12,8 @@ import {
     BoltIcon,
 } from '@/components/icons';
 
+export const revalidate = 86400 // 24 hours
+
 interface GrammarPageProps {
     params: Promise<{ slug: string }>;
 }

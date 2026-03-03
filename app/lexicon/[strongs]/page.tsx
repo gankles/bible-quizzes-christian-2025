@@ -13,6 +13,8 @@ import {
     BookOpenIcon
 } from '@/components/icons'
 
+export const revalidate = 86400 // 24 hours
+
 interface LexiconPageProps {
     params: Promise<{
         strongs: string

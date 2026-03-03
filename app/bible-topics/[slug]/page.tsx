@@ -13,6 +13,11 @@ import {
   NaveReference,
 } from '@/lib/naves-data';
 import { StructuredData } from '@/components/StructuredData';
+import { buildBibleTopicMetadata } from '@/lib/seo/metadata-builder';
+import { buildArticleSchema, buildBreadcrumbSchema } from '@/lib/seo/schema-builders';
+import PrevNextNav from '@/components/page-sections/PrevNextNav';
+
+export const revalidate = 86400 // 24 hours
 
 // ISR: build none at build time, generate on first request
 export async function generateStaticParams() {
@@ -124,27 +129,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { slug } = await params;
   const topic = getNaveTopicBySlug(slug);
   if (!topic) return {};
-
-  const title = `${topic.subject} in the Bible -- Every Verse and Sub-Topic | Nave's Topical Study`;
-  const description = `Explore ${topic.refCount} Bible verse references about ${topic.subject} organized into ${topic.entries.length} sub-topics. Nave's Topical Bible study covering ${topic.books.length} books of Scripture.`;
-
-  return {
-    title,
-    description,
-    keywords: [
-      `${topic.subject} bible verses`,
-      `${topic.subject} in the bible`,
-      `${topic.subject} scripture references`,
-      `${topic.subject.toLowerCase()} topical study`,
-      `nave's topical bible ${topic.subject.toLowerCase()}`,
-    ],
-    openGraph: {
-      title,
-      description,
-      type: 'article',
-    },
-    alternates: { canonical: `/bible-topics/${slug}` },
-  };
+  return buildBibleTopicMetadata(topic);
 }
 
 /* ─── Page ─── */
@@ -166,50 +151,17 @@ export default async function NaveTopicDetailPage({ params }: PageProps) {
   const topBook = bookDist.length > 0 ? bookDist[0] : null;
 
   // JSON-LD structured data
-  const articleSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Article',
+  const articleSchema = buildArticleSchema({
     headline: `${topic.subject} in the Bible`,
     description: overview,
-    url: `https://biblemaximum.com/bible-topics/${slug}`,
-    author: {
-      '@type': 'Organization',
-      name: 'Bible Maximum',
-    },
-    publisher: {
-      '@type': 'Organization',
-      name: 'Bible Maximum',
-    },
-    about: {
-      '@type': 'Thing',
-      name: topic.subject,
-    },
-  };
+    url: `/bible-topics/${slug}`,
+    about: topic.subject,
+  });
 
-  const breadcrumbSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      {
-        '@type': 'ListItem',
-        position: 1,
-        name: 'Home',
-        item: 'https://biblemaximum.com/',
-      },
-      {
-        '@type': 'ListItem',
-        position: 2,
-        name: 'Bible Topics',
-        item: 'https://biblemaximum.com/bible-topics',
-      },
-      {
-        '@type': 'ListItem',
-        position: 3,
-        name: topic.subject,
-        item: `https://biblemaximum.com/bible-topics/${slug}`,
-      },
-    ],
-  };
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: 'Bible Topics', url: '/bible-topics' },
+    { name: topic.subject, url: `/bible-topics/${slug}` },
+  ]);
 
   return (
     <div className="min-h-screen bg-primary-light/30">
@@ -410,34 +362,11 @@ export default async function NaveTopicDetailPage({ params }: PageProps) {
           </div>
 
           {/* Prev/Next navigation */}
-          <div className="flex items-center justify-between pt-4 border-t border-grace">
-            {prev ? (
-              <Link
-                href={`/bible-topics/${prev.slug}`}
-                className="text-sm text-blue-600 hover:underline flex items-center gap-1"
-              >
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-                </svg>
-                {prev.subject}
-              </Link>
-            ) : (
-              <span />
-            )}
-            {next ? (
-              <Link
-                href={`/bible-topics/${next.slug}`}
-                className="text-sm text-blue-600 hover:underline flex items-center gap-1"
-              >
-                {next.subject}
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-                </svg>
-              </Link>
-            ) : (
-              <span />
-            )}
-          </div>
+          <PrevNextNav
+            prev={prev ? { href: `/bible-topics/${prev.slug}`, label: prev.subject } : null}
+            next={next ? { href: `/bible-topics/${next.slug}`, label: next.subject } : null}
+            variant="amber"
+          />
         </section>
 
         {/* Internal Links / Cross-linking */}

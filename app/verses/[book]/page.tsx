@@ -15,6 +15,8 @@ import { generateVerseCombinationSchema } from '@/lib/seo/schema-generator'
 import { getBookBySlug } from "@/lib/bibleData";
 import Link from 'next/link'
 
+export const revalidate = 86400 // 24 hours
+
 interface Props {
     params: {
         book: string

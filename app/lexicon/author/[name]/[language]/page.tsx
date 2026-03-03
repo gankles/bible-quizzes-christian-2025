@@ -13,6 +13,8 @@ import {
     BoltIcon
 } from '@/components/icons';
 
+export const revalidate = 86400 // 24 hours
+
 export async function generateMetadata({ params }: { params: Promise<{ name: string; language: string }> }): Promise<Metadata> {
     const { name, language } = await params;
     const authorName = name.charAt(0).toUpperCase() + name.slice(1);

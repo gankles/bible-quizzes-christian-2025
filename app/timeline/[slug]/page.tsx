@@ -6,6 +6,8 @@ import { getPersonBySlug } from '@/lib/people-data';
 import { StructuredData } from '@/components/StructuredData';
 import { getAllEraGeographySlugs, getGeographyForEra } from '@/lib/timeline-geography-bridge';
 
+export const revalidate = 86400 // 24 hours
+
 interface PageProps {
   params: Promise<{ slug: string }>;
 }
