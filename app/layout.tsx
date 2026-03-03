@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Crimson_Text, Merriweather } from "next/font/google";
 import Script from "next/script";
-import { headers } from "next/headers";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import EngagementTracker from "@/components/EngagementTracker";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -39,18 +39,14 @@ export const metadata: Metadata = {
   alternates: { canonical: '/' },
 };
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const headersList = await headers();
-  const countryCode = headersList.get('x-country-code') || 'UNKNOWN';
-
   return (
     <html lang="en">
       <head>
-        {/* Google Tag Manager - Head Script */}
         <Script
           id="gtm-head"
           strategy="afterInteractive"
@@ -65,37 +61,24 @@ export default async function RootLayout({
                 j.async=true;
                 j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
                 f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-5PTL3XFC');
-          `,
-        }}
-      />
-      {/* Push country code to dataLayer for GTM geo-blocking */}
-      <Script
-        id="gtm-country-data"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            window.dataLayer.push({
-              country_code: '${countryCode}'
-            });
-          `,
-        }}
-      />
-    </head>
-    <body
-      className={`${geistSans.variable} ${geistMono.variable} ${crimsonText.variable} ${merriweather.variable} antialiased min-h-screen flex flex-col bg-primary-light/30`}
-    >
-      {/* Google Tag Manager - Body (noscript fallback) */}
-      <noscript>
-        <iframe
-          src="https://www.googletagmanager.com/ns.html?id=GTM-5PTL3XFC"
-          height="0"
-          width="0"
-          style={{ display: 'none', visibility: 'hidden' }}
+              })(window,document,'script','dataLayer','GTM-5PTL3XFC');
+            `,
+          }}
         />
-      </noscript>
-      <Header />
+      </head>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} ${crimsonText.variable} ${merriweather.variable} antialiased min-h-screen flex flex-col bg-primary-light/30`}
+      >
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-5PTL3XFC"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          />
+        </noscript>
+        <EngagementTracker />
+        <Header />
         <main className="flex-1">
           {children}
         </main>
