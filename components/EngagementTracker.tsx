@@ -9,15 +9,15 @@ declare global {
 }
 
 const SCROLL_THRESHOLD = 25;
-const TIME_THRESHOLD_MS = 10000;
 
-function pushEngagementEvent(scrollDepth: number, startTime: number, hasClicked: boolean) {
+function pushEngagementEvent(scrollDepth: number, startTime: number, hasClicked: boolean, hasScrolled: boolean) {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     event: 'user_engaged',
     engagement_scroll_depth: Math.round(scrollDepth),
     engagement_time_on_page: Math.round((Date.now() - startTime) / 1000),
     engagement_has_clicked: hasClicked,
+    engagement_has_scrolled: hasScrolled,
   });
 }
 
@@ -25,13 +25,17 @@ export default function EngagementTracker() {
   useEffect(() => {
     let maxScrollDepth = 0;
     let hasClicked = false;
+    let hasScrolled = false;
     let hasFiredEngagement = false;
     const startTime = Date.now();
 
-    function fireOnce() {
+    function tryFire() {
       if (hasFiredEngagement) return;
-      hasFiredEngagement = true;
-      pushEngagementEvent(maxScrollDepth, startTime, hasClicked);
+      // Require BOTH scroll past threshold AND a click
+      if (hasScrolled && hasClicked) {
+        hasFiredEngagement = true;
+        pushEngagementEvent(maxScrollDepth, startTime, hasClicked, hasScrolled);
+      }
     }
 
     const handleScroll = () => {
@@ -41,24 +45,20 @@ export default function EngagementTracker() {
       maxScrollDepth = Math.max(maxScrollDepth, scrolled);
 
       if (maxScrollDepth >= SCROLL_THRESHOLD) {
-        fireOnce();
+        hasScrolled = true;
+        tryFire();
       }
     };
 
     const handleClick = () => {
       hasClicked = true;
-      fireOnce();
+      tryFire();
     };
-
-    const timeoutId = setTimeout(() => {
-      fireOnce();
-    }, TIME_THRESHOLD_MS);
 
     window.addEventListener('scroll', handleScroll, { passive: true });
     window.addEventListener('click', handleClick);
 
     return () => {
-      clearTimeout(timeoutId);
       window.removeEventListener('scroll', handleScroll);
       window.removeEventListener('click', handleClick);
     };
