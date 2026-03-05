@@ -6,6 +6,9 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import EngagementTracker from "@/components/EngagementTracker";
+import { StructuredData } from "@/components/StructuredData";
+import { organizationSchema } from "@/lib/site-config";
+import { buildSearchActionSchema } from "@/lib/seo/schema-builders";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -77,6 +80,8 @@ export default function RootLayout({
             style={{ display: 'none', visibility: 'hidden' }}
           />
         </noscript>
+        <StructuredData data={organizationSchema()} />
+        <StructuredData data={buildSearchActionSchema()} />
         <EngagementTracker />
         <Header />
         <main className="flex-1">
