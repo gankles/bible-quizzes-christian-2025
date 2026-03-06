@@ -9,6 +9,7 @@ declare global {
 }
 
 const SCROLL_THRESHOLD = 25;
+const BLOCKED_TIMEZONES = ['Asia/Shanghai', 'Asia/Chongqing', 'Asia/Harbin', 'Asia/Urumqi', 'Asia/Singapore'];
 
 function pushEngagementEvent(scrollDepth: number, startTime: number, hasClicked: boolean, hasScrolled: boolean) {
   window.dataLayer = window.dataLayer || [];
@@ -23,6 +24,10 @@ function pushEngagementEvent(scrollDepth: number, startTime: number, hasClicked:
 
 export default function EngagementTracker() {
   useEffect(() => {
+    // Block analytics for bot-heavy regions
+    const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    if (BLOCKED_TIMEZONES.includes(tz)) return;
+
     let maxScrollDepth = 0;
     let hasClicked = false;
     let hasScrolled = false;
