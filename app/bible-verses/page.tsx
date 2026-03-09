@@ -6,7 +6,7 @@ import { StructuredData } from '@/components/StructuredData';
 const SITE_URL = 'https://biblemaximum.com';
 
 export const metadata: Metadata = {
-  title: 'Bible Verses — 100+ Most Popular Verses by Topic with Commentary | Bible Maximum',
+  title: 'Bible Verses — 100+ Most Popular Verses and Scripture Quotes | Bible Maximum',
   description: 'The most popular Bible verses organized by topic: love, strength, faith, hope, peace, healing, forgiveness, prayer, anxiety, wisdom, salvation, and more. Each verse includes context, meaning, and study links.',
   keywords: ['bible verses', 'bible verse', 'popular bible verses', 'best bible verses', 'bible verses about love', 'bible verses about strength', 'bible verses about faith', 'bible verses about hope', 'bible verses about peace', 'inspirational bible verses', 'encouraging bible verses', 'famous bible verses', 'top bible verses', 'bible quotes', 'scripture verses'],
   alternates: { canonical: '/bible-verses' },
