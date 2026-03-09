@@ -274,6 +274,40 @@ export default function PrayerPage() {
           </div>
         </section>
 
+        {/* Prayer in the Bible by the Numbers */}
+        <section className="mb-12 scroll-mt-20">
+          <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">Prayer in the Bible by the Numbers</h2>
+          <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-scripture/5 dark:bg-dark-border/30">
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Statistic</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Number</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">Detail</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { stat: 'Recorded prayers in the Bible', num: '650+', detail: 'From Genesis 4 to Revelation 22 — prayer spans the entire biblical narrative.' },
+                  { stat: 'Psalms that are prayers', num: '~100', detail: 'Nearly two-thirds of the Psalms are prayers — lament, praise, thanksgiving, and petition.' },
+                  { stat: 'Times Jesus is recorded praying', num: '25+', detail: 'In the Gospels alone. He prayed at every major moment: baptism, choosing disciples, Gethsemane, the cross.' },
+                  { stat: 'Longest prayer in the Bible', num: '~1,000 words', detail: 'Solomon\'s temple dedication prayer (1 Kings 8:22-53). Took about 5 minutes to read aloud.' },
+                  { stat: 'Shortest prayer in the Bible', num: '3 words', detail: '"Lord, save me" — Peter sinking in the waves (Matthew 14:30). God answered immediately.' },
+                  { stat: 'Books that mention prayer', num: '62 of 66', detail: 'Only Esther, Song of Solomon, Obadiah, and Nahum lack direct prayer references.' },
+                  { stat: 'Paul\'s prayer requests in his letters', num: '40+', detail: 'Paul asked churches to pray for boldness, open doors, deliverance, and the spread of the gospel.' },
+                  { stat: 'Answered prayers recorded', num: '450+', detail: 'Including healings, deliverances, military victories, provision, guidance, and resurrection.' },
+                ].map((r, idx) => (
+                  <tr key={idx} className="border-t border-grace dark:border-dark-border">
+                    <td className="px-4 py-3 font-medium text-scripture dark:text-white">{r.stat}</td>
+                    <td className="px-4 py-3 font-bold text-scripture dark:text-blue-400 whitespace-nowrap">{r.num}</td>
+                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden sm:table-cell">{r.detail}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+
         {/* The Lord's Prayer */}
         <section id="lords-prayer" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">The Lord&apos;s Prayer — Explained Line by Line</h2>
@@ -364,6 +398,41 @@ export default function PrayerPage() {
               <h3 className="font-bold text-scripture dark:text-white mb-2 text-sm">For Others</h3>
               <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">In <Link href="/cross-references/john/17/20" className="text-blue-600 hover:underline">John 17:20</Link>, Jesus prayed for future believers — including you. He prayed for your faith to hold, your unity with other Christians, and your joy to be complete.</p>
             </div>
+          </div>
+        </section>
+
+        {/* Old Testament vs New Testament Prayer */}
+        <section className="mb-12 scroll-mt-20">
+          <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">Old Testament vs New Testament Prayer</h2>
+          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+            Prayer didn&apos;t change between the testaments — but access did. Here&apos;s how the cross transformed the prayer life of God&apos;s people:
+          </p>
+          <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-scripture/5 dark:bg-dark-border/30">
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Aspect</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Old Testament</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">New Testament</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { aspect: 'Access to God', ot: 'Through priests and the temple (Leviticus 16)', nt: 'Direct access through Jesus (Hebrews 4:16)' },
+                  { aspect: 'Address', ot: '"O Lord God of Israel" (formal, covenantal)', nt: '"Abba, Father" (intimate, relational — Romans 8:15)' },
+                  { aspect: 'Mediator', ot: 'High priest offered sacrifices on your behalf', nt: 'Jesus is the one mediator (1 Timothy 2:5)' },
+                  { aspect: 'The Holy Spirit\'s role', ot: 'Came upon specific people at specific times', nt: 'Indwells every believer, intercedes in prayer (Romans 8:26)' },
+                  { aspect: 'Location', ot: 'Oriented toward the temple in Jerusalem (1 Kings 8:30)', nt: '"In spirit and truth" — any place, any time (John 4:24)' },
+                  { aspect: 'Basis', ot: 'God\'s covenant faithfulness to Abraham and Israel', nt: 'The finished work of Christ on the cross (Ephesians 2:18)' },
+                ].map((r, idx) => (
+                  <tr key={idx} className="border-t border-grace dark:border-dark-border">
+                    <td className="px-4 py-3 font-medium text-scripture dark:text-white">{r.aspect}</td>
+                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40">{r.ot}</td>
+                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40">{r.nt}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </section>
 

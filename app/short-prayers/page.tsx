@@ -488,6 +488,34 @@ export default function ShortPrayersPage() {
           </p>
         </section>
 
+        {/* All 33 Prayers at a Glance — Summary Table */}
+        <section className="mb-10">
+          <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">All 33 Prayers at a Glance</h2>
+          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-4 text-sm">Click any prayer to jump to the full text, Scripture reference, and explanation.</p>
+          <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-scripture/5 dark:bg-dark-border/30">
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 w-10">#</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Prayer</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">Category</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden md:table-cell">Scripture</th>
+                </tr>
+              </thead>
+              <tbody>
+                {PRAYERS.map((p) => (
+                  <tr key={p.number} className="border-t border-grace dark:border-dark-border hover:bg-blue-50/50 dark:hover:bg-dark-border/20">
+                    <td className="px-4 py-2 font-bold text-scripture dark:text-blue-400">{p.number}</td>
+                    <td className="px-4 py-2"><a href={`#prayer-${p.number}`} className="text-blue-600 hover:underline">{p.title}</a></td>
+                    <td className="px-4 py-2 hidden sm:table-cell"><span className="bg-blue-100 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300 text-xs px-2 py-0.5 rounded-full">{p.category}</span></td>
+                    <td className="px-4 py-2 text-primary-dark/70 dark:text-primary-dark/40 hidden md:table-cell text-xs">{p.scripture}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+
         {/* All 33 Prayers */}
         <div className="space-y-6 mb-12">
           {PRAYERS.map((p) => (
@@ -528,6 +556,41 @@ export default function ShortPrayersPage() {
                 John 3:16 Explained
               </Link>
             </div>
+          </div>
+        </section>
+
+        {/* ACTS Prayer Model */}
+        <section className="mb-12 scroll-mt-20">
+          <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">The ACTS Prayer Model</h2>
+          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+            Not sure how to structure a prayer? The ACTS model gives you a simple framework that keeps prayer balanced and God-centered.
+          </p>
+          <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-scripture/5 dark:bg-dark-border/30">
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Letter</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Element</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">What It Means</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden md:table-cell">Example from This Page</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { letter: 'A', element: 'Adoration', meaning: 'Praise God for who He is — His character, His holiness, His power.', example: 'Prayer #30 (Praise)' },
+                  { letter: 'C', element: 'Confession', meaning: 'Agree with God about your sin. Be specific and honest.', example: 'Prayer #6 (Forgiveness)' },
+                  { letter: 'T', element: 'Thanksgiving', meaning: 'Thank God for what He has done — answered prayers, daily provision, salvation.', example: 'Prayer #8 (Gratitude)' },
+                  { letter: 'S', element: 'Supplication', meaning: 'Bring your requests — for yourself and others. Be specific.', example: 'Prayer #4 (Healing)' },
+                ].map((item) => (
+                  <tr key={item.letter} className="border-t border-grace dark:border-dark-border">
+                    <td className="px-4 py-3 font-bold text-2xl text-scripture dark:text-blue-400">{item.letter}</td>
+                    <td className="px-4 py-3 font-medium text-scripture dark:text-white">{item.element}</td>
+                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden sm:table-cell">{item.meaning}</td>
+                    <td className="px-4 py-3 hidden md:table-cell"><a href={`#prayer-${item.letter === 'A' ? '30' : item.letter === 'C' ? '6' : item.letter === 'T' ? '8' : '4'}`} className="text-blue-600 hover:underline text-xs">{item.example}</a></td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </section>
 

@@ -417,6 +417,52 @@ export default function BibleVersesPage() {
           </p>
         </section>
 
+        {/* Bible Verses by Testament */}
+        <section className="mb-12 scroll-mt-20">
+          <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">Bible Verses by Testament</h2>
+          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-6 text-sm">A side-by-side comparison of the Old and New Testaments — the two halves of one unified story.</p>
+          <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-scripture/5 dark:bg-dark-border/30">
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Testament</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Verses</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Books</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">Written</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden md:table-cell">Language</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden md:table-cell">Focus</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-grace dark:border-dark-border hover:bg-blue-50/50 dark:hover:bg-dark-border/20">
+                  <td className="px-4 py-3 font-bold text-scripture dark:text-blue-400">Old Testament</td>
+                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40">23,145</td>
+                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40">39</td>
+                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden sm:table-cell">~1400–400 BC</td>
+                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden md:table-cell">Hebrew + Aramaic</td>
+                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden md:table-cell">God&apos;s law, prophecy, wisdom, history</td>
+                </tr>
+                <tr className="border-t border-grace dark:border-dark-border hover:bg-blue-50/50 dark:hover:bg-dark-border/20">
+                  <td className="px-4 py-3 font-bold text-scripture dark:text-blue-400">New Testament</td>
+                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40">7,957</td>
+                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40">27</td>
+                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden sm:table-cell">~AD 45–95</td>
+                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden md:table-cell">Koine Greek</td>
+                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden md:table-cell">Jesus Christ, salvation, the Church, end times</td>
+                </tr>
+                <tr className="border-t-2 border-scripture/20 dark:border-dark-border bg-scripture/5 dark:bg-dark-border/20">
+                  <td className="px-4 py-3 font-bold text-scripture dark:text-blue-400">Total</td>
+                  <td className="px-4 py-3 font-bold text-primary-dark/80 dark:text-primary-dark/50">31,102</td>
+                  <td className="px-4 py-3 font-bold text-primary-dark/80 dark:text-primary-dark/50">66</td>
+                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden sm:table-cell">~1,500 years</td>
+                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden md:table-cell">40+ authors</td>
+                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden md:table-cell">One unified story of redemption</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
         {/* Top 10 Most Popular */}
         <section id="most-popular" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">Top 10 Most Popular Bible Verses</h2>
@@ -449,6 +495,36 @@ export default function BibleVersesPage() {
                     <td className="px-4 py-3"><Link href={v.link} className="text-blue-600 hover:underline font-medium">{v.ref}</Link></td>
                     <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden sm:table-cell italic">{v.phrase}</td>
                     <td className="px-4 py-3 hidden md:table-cell"><span className="bg-blue-100 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300 text-xs px-2 py-0.5 rounded-full">{v.topic}</span></td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        {/* Verse Count by Topic */}
+        <section className="mb-12 scroll-mt-20">
+          <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">Verses by Life Topic</h2>
+          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-6 text-sm">A quick reference showing how many curated verses we&apos;ve selected for each life situation.</p>
+          <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-scripture/5 dark:bg-dark-border/30">
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Topic</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Verse Count</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">Top Verse</th>
+                </tr>
+              </thead>
+              <tbody>
+                {ALL_TOPICS.map((topic) => (
+                  <tr key={topic.id} className="border-t border-grace dark:border-dark-border hover:bg-blue-50/50 dark:hover:bg-dark-border/20">
+                    <td className="px-4 py-3">
+                      <Link href={`#${topic.id}`} className="text-blue-600 hover:underline font-medium">
+                        {topic.title.replace('Bible Verses About ', '')}
+                      </Link>
+                    </td>
+                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40">{topic.verses.length}</td>
+                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden sm:table-cell italic">{topic.verses[0].ref}</td>
                   </tr>
                 ))}
               </tbody>
