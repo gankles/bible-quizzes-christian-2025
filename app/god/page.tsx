@@ -243,16 +243,17 @@ export default function GodPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-2">
             {[
               { id: 'who-is-god', label: 'Who Is God?' },
-              { id: 'names', label: 'Names of God' },
               { id: 'attributes', label: 'Attributes of God' },
-              { id: 'trinity', label: 'The Holy Trinity' },
-              { id: 'why-christianity', label: 'Why the Christian God?' },
-              { id: 'arguments', label: 'Arguments for God' },
               { id: 'creator', label: 'God as Creator' },
-              { id: 'redeemer', label: 'God as Redeemer' },
+              { id: 'redeemer', label: 'God Is Love — The Gospel' },
+              { id: 'gods-love', label: "God's Love for You" },
+              { id: 'names', label: 'Names of God' },
+              { id: 'trinity', label: 'The Holy Trinity' },
+              { id: 'arguments', label: 'Arguments for God' },
+              { id: 'why-christianity', label: 'Why the Christian God?' },
               { id: 'what-god-is-not', label: 'What God Is NOT' },
-              { id: 'theologians', label: 'What Theologians Say' },
               { id: 'ot-nt', label: 'OT vs NT God' },
+              { id: 'theologians', label: 'What Theologians Say' },
               { id: 'faq', label: 'FAQ (15 Questions)' },
             ].map((item) => (
               <Link key={item.id} href={`#${item.id}`} className="text-blue-600 hover:underline text-sm py-1">
@@ -276,39 +277,6 @@ export default function GodPage() {
           </p>
           <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
             That sentence takes about 10 seconds to read. The Bible takes 66 books to unpack it. This page is an attempt to cover the essentials — who God is, what He&apos;s like, why the God of Christianity is the one true God, and how you can know Him personally. We&apos;ll draw from Scripture, church history, and the best theological and philosophical scholarship available.
-          </p>
-        </section>
-
-        {/* Names of God */}
-        <section id="names" className="mb-12 scroll-mt-20">
-          <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">The Names of God</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
-            In the ancient world, a name wasn&apos;t just a label — it revealed character. God has many names in the Bible, and each one discloses something about who He is. Here are the major names in the original Hebrew and Greek:
-          </p>
-          <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden overflow-x-auto">
-            <table className="w-full text-sm min-w-[600px]">
-              <thead>
-                <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Name</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Original</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Meaning</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden md:table-cell">Key Verse</th>
-                </tr>
-              </thead>
-              <tbody>
-                {NAMES_OF_GOD.map((n, idx) => (
-                  <tr key={idx} className="border-t border-grace dark:border-dark-border hover:bg-blue-50/50 dark:hover:bg-dark-border/20">
-                    <td className="px-4 py-2 font-medium text-scripture dark:text-white whitespace-nowrap">{n.name}</td>
-                    <td className="px-4 py-2 text-primary-dark/70 dark:text-primary-dark/40 font-serif">{n.transliteration} <span className="text-xs text-primary-dark/40">({n.language})</span></td>
-                    <td className="px-4 py-2 text-primary-dark/70 dark:text-primary-dark/40 text-xs">{n.meaning}</td>
-                    <td className="px-4 py-2 text-xs hidden md:table-cell"><Link href={`/cross-references/${n.ref.toLowerCase().replace(/\s+/g, '/').replace(/:/g, '/')}`} className="text-blue-600 hover:underline">{n.ref}</Link></td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 text-sm mt-3">
-            For deeper study of each name, explore our <Link href="/hebrew-words" className="text-blue-600 hover:underline">Hebrew Word Studies</Link> and <Link href="/greek-words" className="text-blue-600 hover:underline">Greek Word Studies</Link>.
           </p>
         </section>
 
@@ -348,91 +316,6 @@ export default function GodPage() {
                   <span className={`text-xs px-2 py-0.5 rounded-full ${a.category === 'Greatness' ? 'bg-blue-100 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300' : 'bg-amber-100 dark:bg-amber-950/30 text-amber-700 dark:text-amber-300'}`}>{a.category}</span>
                 </div>
                 <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">{a.detail}</p>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* The Holy Trinity */}
-        <section id="trinity" className="mb-12 scroll-mt-20">
-          <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">The Holy Trinity — One God in Three Persons</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
-            The Trinity is the most distinctive doctrine of Christianity. It separates the Christian God from every other conception of deity in history. And it&apos;s not a later invention — it&apos;s woven into the fabric of Scripture from Genesis 1:26 (&ldquo;Let <strong>us</strong> make man in <strong>our</strong> image&rdquo;) to Matthew 28:19 (&ldquo;baptizing them in the name of the Father, and of the Son, and of the Holy Ghost&rdquo;).
-          </p>
-          <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden mb-6">
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Person</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Called God</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">Role in Salvation</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden md:table-cell">Key Verse</th>
-                </tr>
-              </thead>
-              <tbody>
-                {[
-                  { person: 'God the Father', calledGod: '1 Corinthians 8:6 — "one God, the Father"', role: 'Plans salvation, sends the Son, draws sinners to Christ (John 6:44)', verse: 'John 3:16' },
-                  { person: 'God the Son (Jesus)', calledGod: 'John 1:1 — "the Word was God"; John 20:28 — "My Lord and my God"', role: 'Accomplishes salvation — lives, dies, rises in our place (2 Corinthians 5:21)', verse: 'Colossians 2:9' },
-                  { person: 'God the Holy Spirit', calledGod: 'Acts 5:3-4 — lying to the Spirit = lying to God', role: 'Applies salvation — convicts of sin, regenerates, indwells, seals believers (Titus 3:5)', verse: 'John 14:16-17' },
-                ].map((t, idx) => (
-                  <tr key={idx} className="border-t border-grace dark:border-dark-border">
-                    <td className="px-4 py-3 font-medium text-scripture dark:text-white">{t.person}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 text-xs">{t.calledGod}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 text-xs hidden sm:table-cell">{t.role}</td>
-                    <td className="px-4 py-3 text-xs hidden md:table-cell">{t.verse}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
-            <strong>Why does the Trinity matter?</strong> Because it answers a question no other religion can: how can God be love <em>eternally</em>? Love requires a subject (one who loves), an object (one who is loved), and a bond (the love between them). In the Trinity, the Father loves the Son, the Son loves the Father, and the Spirit is the bond of that love — all before creation ever existed. God didn&apos;t need to create the universe to experience love. He <em>is</em> love, within Himself, from all eternity (<Link href="/cross-references/1-john/4/8" className="text-blue-600 hover:underline">1 John 4:8</Link>).
-          </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
-            Augustine of Hippo first articulated this in <em>De Trinitate</em> (AD 400-416). Thomas Aquinas expanded it in <em>Summa Theologica</em> (13th century). Theologian Colin Gunton called it &ldquo;the most distinctive contribution of Christianity to human thought&rdquo; (<em>The Promise of Trinitarian Theology</em>, 1991). The Trinity is not a puzzle to solve — it&apos;s a reality to worship.
-          </p>
-        </section>
-
-        {/* Why the Christian God? */}
-        <section id="why-christianity" className="mb-12 scroll-mt-20">
-          <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">Why the God of Christianity Is the One True God</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
-            This is a bold claim. It&apos;s also the claim Christianity makes — not arrogantly, but because Jesus Himself made it: &ldquo;I am the way, the truth, and the life: no man cometh unto the Father, but by me&rdquo; (<Link href="/cross-references/john/14/6" className="text-blue-600 hover:underline">John 14:6</Link>). Here are the reasons, both theological and scholarly:
-          </p>
-          <div className="space-y-4">
-            {[
-              { title: '1. God Entered History', detail: 'Unlike the gods of other religions, the Christian God didn\'t remain distant. He entered human history as a real person — Jesus of Nazareth — in a specific place (Roman Judea), at a specific time (~4 BC - AD 30), under a specific governor (Pontius Pilate), documented by hostile sources (Tacitus, Josephus, Pliny the Younger). No other religion makes a claim this historically verifiable.', sources: 'Tacitus, Annals 15.44 | Josephus, Antiquities 18.3.3 | Pliny, Letters 10.96' },
-              { title: '2. The Resurrection Is Historically Verifiable', detail: 'The resurrection of Jesus is not a myth or a metaphor — it is a historical claim that can be tested. Virtually all scholars (including skeptics like Bart Ehrman and Gerd Lüdemann) accept three minimal facts: Jesus died by crucifixion, His followers sincerely believed He appeared to them alive, and the early Church exploded in hostile territory. N.T. Wright, former Bishop of Durham and Oxford professor, argues in his 800-page The Resurrection of the Son of God (2003) that no other hypothesis adequately explains all the evidence.', sources: 'N.T. Wright, The Resurrection of the Son of God (2003) | Gary Habermas, The Historical Jesus (1996) | William Lane Craig, Reasonable Faith (2008)' },
-              { title: '3. Fulfilled Prophecy', detail: 'The Old Testament contains over 300 prophecies about the Messiah — written 400-1,400 years before Jesus was born. He fulfilled them all: born in Bethlehem (Micah 5:2), born of a virgin (Isaiah 7:14), entering Jerusalem on a donkey (Zechariah 9:9), betrayed for 30 silver coins (Zechariah 11:12), crucified — described in detail in Psalm 22, written 1,000 years before crucifixion existed — and buried in a rich man\'s tomb (Isaiah 53:9). Mathematician Peter Stoner calculated the probability of one person fulfilling just 8 of these prophecies by chance at 1 in 10^17.', sources: 'Peter Stoner, Science Speaks (1958) | Alfred Edersheim, Life and Times of Jesus the Messiah (1883)' },
-              { title: '4. Moral Coherence — The Cross Solves the Dilemma', detail: 'Every serious religion faces a problem: how can God be both perfectly just AND perfectly merciful? Justice demands that sin is punished. Mercy demands that sinners are forgiven. You can\'t have both — unless someone pays the penalty on behalf of the sinner. That\'s exactly what the cross accomplishes. God doesn\'t compromise His justice or abandon His mercy. He satisfies both at once. As Paul wrote: "That he might be just, and the justifier of him which believeth in Jesus" (Romans 3:26). No other religion solves this dilemma.', sources: 'Romans 3:21-26 | J.I. Packer, Knowing God (1973) | John Stott, The Cross of Christ (1986)' },
-              { title: '5. Philosophical Coherence — The Trinity Grounds Love', detail: 'If God is unitarian (one person, as in Islam or deism), then God could not have been loving before He created anything — because love requires an object. He would have needed creation to experience love, making Him dependent on His own creation. But the Trinitarian God — Father, Son, and Spirit — has been loving within Himself for all eternity. Love is not something God does; it is who He is. This is philosophically superior to every other concept of God.', sources: 'Augustine, De Trinitate (AD 400-416) | Richard of St. Victor, De Trinitate (12th c.) | Colin Gunton, The Promise of Trinitarian Theology (1991)' },
-              { title: '6. Transformed Lives Across 2,000 Years', detail: 'The early Christians transformed the Roman Empire — not by force but by dying for their faith, caring for the sick during plagues, and treating slaves as brothers. They ended gladiatorial games, founded the first hospitals, created the first universities, and launched the abolition of slavery. Today, Christianity spans every nation, every language, every ethnic group on earth — the most diverse movement in human history. Sociologist Rodney Stark documented this in The Rise of Christianity (1996).', sources: 'Rodney Stark, The Rise of Christianity (1996) | Alvin Schmidt, How Christianity Changed the World (2004)' },
-            ].map((item) => (
-              <div key={item.title} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
-                <h3 className="font-bold text-scripture dark:text-white mb-2">{item.title}</h3>
-                <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed mb-2">{item.detail}</p>
-                <p className="text-xs text-primary-dark/40 italic">Sources: {item.sources}</p>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* Arguments for God's Existence */}
-        <section id="arguments" className="mb-12 scroll-mt-20">
-          <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">6 Arguments for God&apos;s Existence</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
-            The Bible says the evidence for God is obvious: &ldquo;The heavens declare the glory of God&rdquo; (<Link href="/cross-references/psalm/19/1" className="text-blue-600 hover:underline">Psalm 19:1</Link>) and &ldquo;the invisible things of him from the creation of the world are clearly seen&rdquo; (<Link href="/cross-references/romans/1/20" className="text-blue-600 hover:underline">Romans 1:20</Link>). Philosophers and scholars have formalized these intuitions into rigorous arguments:
-          </p>
-          <div className="space-y-4">
-            {ARGUMENTS.map((arg, idx) => (
-              <div key={idx} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
-                <h3 className="font-bold text-scripture dark:text-white mb-1">{arg.name}</h3>
-                <p className="text-xs text-primary-dark/40 mb-3"><strong>Key scholars:</strong> {arg.scholars}</p>
-                <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed mb-2">{arg.summary}</p>
-                <div className="bg-blue-50 dark:bg-blue-950/20 rounded-lg p-3">
-                  <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed"><strong>The key point:</strong> {arg.keyPoint}</p>
-                </div>
-                <p className="text-xs text-blue-600 mt-2">{arg.ref}</p>
               </div>
             ))}
           </div>
@@ -521,6 +404,141 @@ export default function GodPage() {
           </div>
         </section>
 
+        {/* God's Love for You — Personal Section */}
+        <section className="mb-12 scroll-mt-20">
+          <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">God&apos;s Love for You — Personally</h2>
+          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+            Everything on this page — the names, the attributes, the arguments, the scholarship — points to one reality: <strong>God wants to be known by you</strong>. Not just known about. Known personally.
+          </p>
+          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+            Jesus told a parable about a shepherd who had 100 sheep. When one wandered off, he left the 99 to search for the one (<Link href="/cross-references/luke/15/4" className="text-blue-600 hover:underline">Luke 15:4-7</Link>). That&apos;s not a God who is distant or uninterested. That&apos;s a God who pursues.
+          </p>
+          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+            He knows the number of hairs on your head (<Link href="/cross-references/matthew/10/30" className="text-blue-600 hover:underline">Matthew 10:30</Link>). He collects your tears in a bottle (<Link href="/cross-references/psalm/56/8" className="text-blue-600 hover:underline">Psalm 56:8</Link>). He knew you before you were born (<Link href="/cross-references/jeremiah/1/5" className="text-blue-600 hover:underline">Jeremiah 1:5</Link>). And He loved you enough to die for you while you were still running from Him (<Link href="/cross-references/romans/5/8" className="text-blue-600 hover:underline">Romans 5:8</Link>).
+          </p>
+          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
+            If you&apos;ve read this far, that&apos;s not an accident. God is drawing you. The fact that you&apos;re asking &ldquo;Who is God?&rdquo; may be the beginning of the most important relationship of your life.
+          </p>
+        </section>
+
+        {/* Names of God */}
+        <section id="names" className="mb-12 scroll-mt-20">
+          <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">The Names of God</h2>
+          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+            In the ancient world, a name wasn&apos;t just a label — it revealed character. God has many names in the Bible, and each one discloses something about who He is. Here are the major names in the original Hebrew and Greek:
+          </p>
+          <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden overflow-x-auto">
+            <table className="w-full text-sm min-w-[600px]">
+              <thead>
+                <tr className="bg-scripture/5 dark:bg-dark-border/30">
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Name</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Original</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Meaning</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden md:table-cell">Key Verse</th>
+                </tr>
+              </thead>
+              <tbody>
+                {NAMES_OF_GOD.map((n, idx) => (
+                  <tr key={idx} className="border-t border-grace dark:border-dark-border hover:bg-blue-50/50 dark:hover:bg-dark-border/20">
+                    <td className="px-4 py-2 font-medium text-scripture dark:text-white whitespace-nowrap">{n.name}</td>
+                    <td className="px-4 py-2 text-primary-dark/70 dark:text-primary-dark/40 font-serif">{n.transliteration} <span className="text-xs text-primary-dark/40">({n.language})</span></td>
+                    <td className="px-4 py-2 text-primary-dark/70 dark:text-primary-dark/40 text-xs">{n.meaning}</td>
+                    <td className="px-4 py-2 text-xs hidden md:table-cell"><Link href={`/cross-references/${n.ref.toLowerCase().replace(/\s+/g, '/').replace(/:/g, '/')}`} className="text-blue-600 hover:underline">{n.ref}</Link></td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-primary-dark/60 dark:text-primary-dark/40 text-sm mt-3">
+            For deeper study of each name, explore our <Link href="/hebrew-words" className="text-blue-600 hover:underline">Hebrew Word Studies</Link> and <Link href="/greek-words" className="text-blue-600 hover:underline">Greek Word Studies</Link>.
+          </p>
+        </section>
+
+        {/* The Holy Trinity */}
+        <section id="trinity" className="mb-12 scroll-mt-20">
+          <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">The Holy Trinity — One God in Three Persons</h2>
+          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+            The Trinity is the most distinctive doctrine of Christianity. It separates the Christian God from every other conception of deity in history. And it&apos;s not a later invention — it&apos;s woven into the fabric of Scripture from Genesis 1:26 (&ldquo;Let <strong>us</strong> make man in <strong>our</strong> image&rdquo;) to Matthew 28:19 (&ldquo;baptizing them in the name of the Father, and of the Son, and of the Holy Ghost&rdquo;).
+          </p>
+          <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden mb-6">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-scripture/5 dark:bg-dark-border/30">
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Person</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Called God</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">Role in Salvation</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden md:table-cell">Key Verse</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { person: 'God the Father', calledGod: '1 Corinthians 8:6 — "one God, the Father"', role: 'Plans salvation, sends the Son, draws sinners to Christ (John 6:44)', verse: 'John 3:16' },
+                  { person: 'God the Son (Jesus)', calledGod: 'John 1:1 — "the Word was God"; John 20:28 — "My Lord and my God"', role: 'Accomplishes salvation — lives, dies, rises in our place (2 Corinthians 5:21)', verse: 'Colossians 2:9' },
+                  { person: 'God the Holy Spirit', calledGod: 'Acts 5:3-4 — lying to the Spirit = lying to God', role: 'Applies salvation — convicts of sin, regenerates, indwells, seals believers (Titus 3:5)', verse: 'John 14:16-17' },
+                ].map((t, idx) => (
+                  <tr key={idx} className="border-t border-grace dark:border-dark-border">
+                    <td className="px-4 py-3 font-medium text-scripture dark:text-white">{t.person}</td>
+                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 text-xs">{t.calledGod}</td>
+                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 text-xs hidden sm:table-cell">{t.role}</td>
+                    <td className="px-4 py-3 text-xs hidden md:table-cell">{t.verse}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+            <strong>Why does the Trinity matter?</strong> Because it answers a question no other religion can: how can God be love <em>eternally</em>? Love requires a subject (one who loves), an object (one who is loved), and a bond (the love between them). In the Trinity, the Father loves the Son, the Son loves the Father, and the Spirit is the bond of that love — all before creation ever existed. God didn&apos;t need to create the universe to experience love. He <em>is</em> love, within Himself, from all eternity (<Link href="/cross-references/1-john/4/8" className="text-blue-600 hover:underline">1 John 4:8</Link>).
+          </p>
+          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
+            Augustine of Hippo first articulated this in <em>De Trinitate</em> (AD 400-416). Thomas Aquinas expanded it in <em>Summa Theologica</em> (13th century). Theologian Colin Gunton called it &ldquo;the most distinctive contribution of Christianity to human thought&rdquo; (<em>The Promise of Trinitarian Theology</em>, 1991). The Trinity is not a puzzle to solve — it&apos;s a reality to worship.
+          </p>
+        </section>
+
+        {/* Arguments for God's Existence */}
+        <section id="arguments" className="mb-12 scroll-mt-20">
+          <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">6 Arguments for God&apos;s Existence</h2>
+          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+            The Bible says the evidence for God is obvious: &ldquo;The heavens declare the glory of God&rdquo; (<Link href="/cross-references/psalm/19/1" className="text-blue-600 hover:underline">Psalm 19:1</Link>) and &ldquo;the invisible things of him from the creation of the world are clearly seen&rdquo; (<Link href="/cross-references/romans/1/20" className="text-blue-600 hover:underline">Romans 1:20</Link>). Philosophers and scholars have formalized these intuitions into rigorous arguments:
+          </p>
+          <div className="space-y-4">
+            {ARGUMENTS.map((arg, idx) => (
+              <div key={idx} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
+                <h3 className="font-bold text-scripture dark:text-white mb-1">{arg.name}</h3>
+                <p className="text-xs text-primary-dark/40 mb-3"><strong>Key scholars:</strong> {arg.scholars}</p>
+                <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed mb-2">{arg.summary}</p>
+                <div className="bg-blue-50 dark:bg-blue-950/20 rounded-lg p-3">
+                  <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed"><strong>The key point:</strong> {arg.keyPoint}</p>
+                </div>
+                <p className="text-xs text-blue-600 mt-2">{arg.ref}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Why the Christian God? */}
+        <section id="why-christianity" className="mb-12 scroll-mt-20">
+          <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">Why the God of Christianity Is the One True God</h2>
+          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+            This is a bold claim. It&apos;s also the claim Christianity makes — not arrogantly, but because Jesus Himself made it: &ldquo;I am the way, the truth, and the life: no man cometh unto the Father, but by me&rdquo; (<Link href="/cross-references/john/14/6" className="text-blue-600 hover:underline">John 14:6</Link>). Here are the reasons, both theological and scholarly:
+          </p>
+          <div className="space-y-4">
+            {[
+              { title: '1. God Entered History', detail: 'Unlike the gods of other religions, the Christian God didn\'t remain distant. He entered human history as a real person — Jesus of Nazareth — in a specific place (Roman Judea), at a specific time (~4 BC - AD 30), under a specific governor (Pontius Pilate), documented by hostile sources (Tacitus, Josephus, Pliny the Younger). No other religion makes a claim this historically verifiable.', sources: 'Tacitus, Annals 15.44 | Josephus, Antiquities 18.3.3 | Pliny, Letters 10.96' },
+              { title: '2. The Resurrection Is Historically Verifiable', detail: 'The resurrection of Jesus is not a myth or a metaphor — it is a historical claim that can be tested. Virtually all scholars (including skeptics like Bart Ehrman and Gerd Lüdemann) accept three minimal facts: Jesus died by crucifixion, His followers sincerely believed He appeared to them alive, and the early Church exploded in hostile territory. N.T. Wright, former Bishop of Durham and Oxford professor, argues in his 800-page The Resurrection of the Son of God (2003) that no other hypothesis adequately explains all the evidence.', sources: 'N.T. Wright, The Resurrection of the Son of God (2003) | Gary Habermas, The Historical Jesus (1996) | William Lane Craig, Reasonable Faith (2008)' },
+              { title: '3. Fulfilled Prophecy', detail: 'The Old Testament contains over 300 prophecies about the Messiah — written 400-1,400 years before Jesus was born. He fulfilled them all: born in Bethlehem (Micah 5:2), born of a virgin (Isaiah 7:14), entering Jerusalem on a donkey (Zechariah 9:9), betrayed for 30 silver coins (Zechariah 11:12), crucified — described in detail in Psalm 22, written 1,000 years before crucifixion existed — and buried in a rich man\'s tomb (Isaiah 53:9). Mathematician Peter Stoner calculated the probability of one person fulfilling just 8 of these prophecies by chance at 1 in 10^17.', sources: 'Peter Stoner, Science Speaks (1958) | Alfred Edersheim, Life and Times of Jesus the Messiah (1883)' },
+              { title: '4. Moral Coherence — The Cross Solves the Dilemma', detail: 'Every serious religion faces a problem: how can God be both perfectly just AND perfectly merciful? Justice demands that sin is punished. Mercy demands that sinners are forgiven. You can\'t have both — unless someone pays the penalty on behalf of the sinner. That\'s exactly what the cross accomplishes. God doesn\'t compromise His justice or abandon His mercy. He satisfies both at once. As Paul wrote: "That he might be just, and the justifier of him which believeth in Jesus" (Romans 3:26). No other religion solves this dilemma.', sources: 'Romans 3:21-26 | J.I. Packer, Knowing God (1973) | John Stott, The Cross of Christ (1986)' },
+              { title: '5. Philosophical Coherence — The Trinity Grounds Love', detail: 'If God is unitarian (one person, as in Islam or deism), then God could not have been loving before He created anything — because love requires an object. He would have needed creation to experience love, making Him dependent on His own creation. But the Trinitarian God — Father, Son, and Spirit — has been loving within Himself for all eternity. Love is not something God does; it is who He is. This is philosophically superior to every other concept of God.', sources: 'Augustine, De Trinitate (AD 400-416) | Richard of St. Victor, De Trinitate (12th c.) | Colin Gunton, The Promise of Trinitarian Theology (1991)' },
+              { title: '6. Transformed Lives Across 2,000 Years', detail: 'The early Christians transformed the Roman Empire — not by force but by dying for their faith, caring for the sick during plagues, and treating slaves as brothers. They ended gladiatorial games, founded the first hospitals, created the first universities, and launched the abolition of slavery. Today, Christianity spans every nation, every language, every ethnic group on earth — the most diverse movement in human history. Sociologist Rodney Stark documented this in The Rise of Christianity (1996).', sources: 'Rodney Stark, The Rise of Christianity (1996) | Alvin Schmidt, How Christianity Changed the World (2004)' },
+            ].map((item) => (
+              <div key={item.title} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
+                <h3 className="font-bold text-scripture dark:text-white mb-2">{item.title}</h3>
+                <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed mb-2">{item.detail}</p>
+                <p className="text-xs text-primary-dark/40 italic">Sources: {item.sources}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
         {/* What God Is NOT */}
         <section id="what-god-is-not" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">What God Is NOT — 8 Misconceptions Corrected</h2>
@@ -546,28 +564,6 @@ export default function GodPage() {
                 ))}
               </tbody>
             </table>
-          </div>
-        </section>
-
-        {/* What Theologians Say */}
-        <section id="theologians" className="mb-12 scroll-mt-20">
-          <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">What 12 Theologians and Scholars Say About God</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-4 text-sm">From the early Church fathers to modern philosophers — 2,000 years of the best minds reflecting on God.</p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {THEOLOGIAN_QUOTES.map((t, idx) => (
-              <div key={idx} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
-                <blockquote className="text-primary-dark/80 dark:text-primary-dark/30 italic text-sm leading-relaxed mb-3 border-l-3 border-scripture/30 pl-4">
-                  &ldquo;{t.quote}&rdquo;
-                </blockquote>
-                <div className="flex items-center justify-between">
-                  <div>
-                    <p className="font-bold text-scripture dark:text-white text-sm">{t.name}</p>
-                    <p className="text-primary-dark/40 text-xs">{t.era} · <em>{t.work}</em></p>
-                  </div>
-                </div>
-                <p className="text-primary-dark/60 dark:text-primary-dark/40 text-xs mt-2 leading-relaxed">{t.significance}</p>
-              </div>
-            ))}
           </div>
         </section>
 
@@ -609,21 +605,26 @@ export default function GodPage() {
           </p>
         </section>
 
-        {/* God's Love for You — Personal Section */}
-        <section className="mb-12 scroll-mt-20">
-          <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">God&apos;s Love for You — Personally</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
-            Everything on this page — the names, the attributes, the arguments, the scholarship — points to one reality: <strong>God wants to be known by you</strong>. Not just known about. Known personally.
-          </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
-            Jesus told a parable about a shepherd who had 100 sheep. When one wandered off, he left the 99 to search for the one (<Link href="/cross-references/luke/15/4" className="text-blue-600 hover:underline">Luke 15:4-7</Link>). That&apos;s not a God who is distant or uninterested. That&apos;s a God who pursues.
-          </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
-            He knows the number of hairs on your head (<Link href="/cross-references/matthew/10/30" className="text-blue-600 hover:underline">Matthew 10:30</Link>). He collects your tears in a bottle (<Link href="/cross-references/psalm/56/8" className="text-blue-600 hover:underline">Psalm 56:8</Link>). He knew you before you were born (<Link href="/cross-references/jeremiah/1/5" className="text-blue-600 hover:underline">Jeremiah 1:5</Link>). And He loved you enough to die for you while you were still running from Him (<Link href="/cross-references/romans/5/8" className="text-blue-600 hover:underline">Romans 5:8</Link>).
-          </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
-            If you&apos;ve read this far, that&apos;s not an accident. God is drawing you. The fact that you&apos;re asking &ldquo;Who is God?&rdquo; may be the beginning of the most important relationship of your life.
-          </p>
+        {/* What Theologians Say */}
+        <section id="theologians" className="mb-12 scroll-mt-20">
+          <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">What 12 Theologians and Scholars Say About God</h2>
+          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-4 text-sm">From the early Church fathers to modern philosophers — 2,000 years of the best minds reflecting on God.</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {THEOLOGIAN_QUOTES.map((t, idx) => (
+              <div key={idx} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
+                <blockquote className="text-primary-dark/80 dark:text-primary-dark/30 italic text-sm leading-relaxed mb-3 border-l-3 border-scripture/30 pl-4">
+                  &ldquo;{t.quote}&rdquo;
+                </blockquote>
+                <div className="flex items-center justify-between">
+                  <div>
+                    <p className="font-bold text-scripture dark:text-white text-sm">{t.name}</p>
+                    <p className="text-primary-dark/40 text-xs">{t.era} · <em>{t.work}</em></p>
+                  </div>
+                </div>
+                <p className="text-primary-dark/60 dark:text-primary-dark/40 text-xs mt-2 leading-relaxed">{t.significance}</p>
+              </div>
+            ))}
+          </div>
         </section>
 
         {/* Gospel CTA */}
