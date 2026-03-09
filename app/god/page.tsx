@@ -7,12 +7,12 @@ const SITE_URL = 'https://biblemaximum.com';
 
 export const metadata: Metadata = {
   title: 'God — Who Is God? The One True God of Christianity Explained | Bible Maximum',
-  description: 'Who is God? A comprehensive guide to the God of the Bible: His names, attributes, the Trinity, arguments for His existence, why the Christian God is the one true God, and what scholars and theologians say. With 200+ Scripture references.',
-  keywords: ['god', 'who is god', 'God of the Bible', 'one true God', 'Christian God', 'attributes of God', 'names of God', 'Trinity', 'is God real', 'arguments for God', 'nature of God', 'God the Father', 'God is love', 'does God exist', 'proof of God', 'theology of God', 'holy trinity', 'YHWH', 'Elohim'],
+  description: 'Who is God? A comprehensive guide to the God of the Bible: His names, attributes, arguments for His existence, why the Christian God is the one true God, and what scholars and theologians say. With 200+ Scripture references.',
+  keywords: ['god', 'who is god', 'God of the Bible', 'one true God', 'Christian God', 'attributes of God', 'names of God', 'is God real', 'arguments for God', 'nature of God', 'God the Father', 'God is love', 'does God exist', 'proof of God', 'theology of God', 'YHWH', 'Elohim'],
   alternates: { canonical: '/god' },
   openGraph: {
     title: 'God — Who Is God? The One True God of Christianity Explained',
-    description: 'Everything the Bible teaches about God: His names, nature, attributes, the Trinity, and why He alone is the one true God.',
+    description: 'Everything the Bible teaches about God: His names, nature, attributes, and why He alone is the one true God.',
     url: `${SITE_URL}/god`,
     type: 'article',
     images: ['/images/rocinanterelampago_central_verse_in_the_Bible_--ar_21_--profile_2a944dbf-6229-46ed-bb1e-0b1ec69c620b.png'],
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 
 const NAMES_OF_GOD = [
   { name: 'YHWH (Yahweh)', transliteration: 'יהוה', language: 'Hebrew', meaning: 'I AM WHO I AM — the self-existent, eternal, covenant-keeping God', ref: 'Exodus 3:14', significance: 'God\'s personal name, revealed to Moses at the burning bush. Appears 6,828 times in the OT. So sacred that Jews would not speak it aloud.' },
-  { name: 'Elohim', transliteration: 'אלהים', language: 'Hebrew', meaning: 'God (plural majesty) — the mighty Creator', ref: 'Genesis 1:1', significance: 'The first name for God in the Bible. The plural form hints at the Trinity even in the opening verse. Used 2,600+ times.' },
+  { name: 'Elohim', transliteration: 'אלהים', language: 'Hebrew', meaning: 'God (plural majesty) — the mighty Creator', ref: 'Genesis 1:1', significance: 'The first name for God in the Bible. The plural form hints at the fullness of God even in the opening verse. Used 2,600+ times.' },
   { name: 'El Shaddai', transliteration: 'אל שדי', language: 'Hebrew', meaning: 'God Almighty — the all-sufficient one', ref: 'Genesis 17:1', significance: 'The name God used when making His covenant with Abraham. Emphasizes God\'s power to do what is humanly impossible.' },
   { name: 'Adonai', transliteration: 'אדני', language: 'Hebrew', meaning: 'Lord, Master — sovereign ruler', ref: 'Psalm 110:1', significance: 'Used when Jews read Scripture aloud in place of YHWH. Emphasizes God\'s authority and lordship over all creation.' },
   { name: 'El Elyon', transliteration: 'אל עליון', language: 'Hebrew', meaning: 'God Most High — supreme over all', ref: 'Genesis 14:18-20', significance: 'Used by Melchizedek, the priest-king of Salem, when blessing Abraham. Declares God\'s supremacy over every power and authority.' },
@@ -126,8 +126,8 @@ const MISCONCEPTIONS = [
   { myth: 'God is one of many gods (polytheism)', reality: '"I am the Lord, and there is none else, there is no God beside me" (Isaiah 45:5). The Bible claims absolute monotheism — not that YHWH is the strongest god, but that He is the only God.', source: 'Isaiah 45:5; Deuteronomy 6:4' },
   { myth: 'God created the world and left (deism)', reality: 'God is actively involved in His creation every second. He sustains all things by the word of His power (Hebrews 1:3). He numbers the hairs on your head (Matthew 10:30). Deism\'s absent watchmaker is not the God of the Bible.', source: 'Hebrews 1:3; Colossians 1:17' },
   { myth: 'God is angry and vengeful', reality: 'God\'s wrath against sin is real — but it is always just, measured, and aimed at evil, never at innocent people. And His default posture is mercy: "slow to anger, and plenteous in mercy" (Psalm 103:8). The cross is where justice and mercy met.', source: 'Psalm 103:8; Exodus 34:6-7' },
-  { myth: 'All religions worship the same God', reality: 'The Christian God is Trinitarian (Father, Son, Holy Spirit), claims exclusivity ("no man cometh unto the Father but by me" — John 14:6), and offers salvation by grace. Islam denies the Trinity. Hinduism has millions of deities. Buddhism has no personal Creator. These are fundamentally different concepts.', source: 'John 14:6; 1 Timothy 2:5' },
-  { myth: 'God needs us', reality: 'God is self-sufficient. He didn\'t create because He was lonely. The Trinity means God has always existed in perfect, loving relationship — Father, Son, and Spirit. He created us not out of need but out of overflow.', source: 'Acts 17:25; John 17:5, 24' },
+  { myth: 'All religions worship the same God', reality: 'The Christian God claims exclusivity ("no man cometh unto the Father but by me" — John 14:6) and offers salvation by grace alone through faith in Jesus Christ. Islam rejects Jesus as God. Hinduism has millions of deities. Buddhism has no personal Creator. These are fundamentally different concepts.', source: 'John 14:6; 1 Timothy 2:5' },
+  { myth: 'God needs us', reality: 'God is self-sufficient. He didn\'t create because He was lonely. God has existed in perfect, loving relationship from all eternity. He created us not out of need but out of overflow of His goodness.', source: 'Acts 17:25; John 17:5, 24' },
   { myth: 'God is too loving to send anyone to hell', reality: 'God\'s love doesn\'t cancel His justice — it fulfills it. He loved the world enough to send His Son to die (John 3:16). Rejecting that gift is a choice God respects. Hell is not God sending people away; it is people choosing to remain separated from Him.', source: 'John 3:16-18; 2 Peter 3:9; Romans 6:23' },
 ];
 
@@ -135,9 +135,9 @@ const MISCONCEPTIONS = [
 // ─── FAQ ─────────────────────────────────────────────────────
 
 const FAQ_ITEMS = [
-  { question: 'Who is God?', answer: 'God is the eternal, self-existent Creator of all things. He is spirit (John 4:24), infinite in power, knowledge, and presence, and exists eternally as three persons — Father, Son, and Holy Spirit. He revealed His personal name as YHWH ("I AM WHO I AM") to Moses in Exodus 3:14.' },
+  { question: 'Who is God?', answer: 'God is the eternal, self-existent Creator of all things. He is spirit (John 4:24), infinite in power, knowledge, and presence. He revealed His personal name as YHWH ("I AM WHO I AM") to Moses in Exodus 3:14. He is perfectly holy, perfectly just, and perfectly loving — and He sent His Son Jesus Christ to save the world (John 3:16).' },
   { question: 'Does God exist?', answer: 'Multiple lines of evidence point to God\'s existence: the beginning of the universe (cosmological argument), the fine-tuning of physical constants (teleological argument), the existence of objective morality (moral argument), the reality of consciousness, and the historical resurrection of Jesus Christ. Philosophers like Thomas Aquinas, Alvin Plantinga, and William Lane Craig have formulated rigorous philosophical arguments that remain unrefuted.' },
-  { question: 'What is the Trinity?', answer: 'The Trinity is the Christian doctrine that one God eternally exists in three distinct persons: Father, Son (Jesus Christ), and Holy Spirit. They are not three gods (that would be tritheism) or one God wearing three masks (that would be modalism). They are one divine essence in three co-equal, co-eternal persons — each fully God, yet distinct in relationship.' },
+  { question: 'Is Jesus Christ God?', answer: 'Yes. The Bible explicitly identifies Jesus as God. John 1:1 says "the Word was God." Thomas called Him "My Lord and my God" (John 20:28). Jesus accepted worship (Matthew 14:33), forgave sins (Mark 2:5-7 — something only God can do), and claimed equality with the Father (John 10:30). The early Church affirmed His deity at the Council of Nicaea (AD 325).' },
   { question: 'Is Jesus God?', answer: 'Yes. The Bible explicitly identifies Jesus as God. John 1:1 — "The Word was God." Thomas called Him "My Lord and my God" (John 20:28). Jesus accepted worship (Matthew 14:33), forgave sins (Mark 2:5-7 — something only God can do), and claimed equality with the Father (John 10:30). The early Church affirmed this at the Council of Nicaea (AD 325).' },
   { question: 'Is God real or just a concept?', answer: 'The God of Christianity claims to be real — not a human concept but an actual being who created the universe, acts in history, speaks through Scripture, and can be known personally. The evidence — cosmological, moral, historical (especially the resurrection), and experiential — supports this claim. As C.S. Lewis noted, the question is not whether God is useful but whether He is true.' },
   { question: 'Why does God allow suffering?', answer: 'The Bible gives several reasons: suffering is a consequence of humanity\'s rebellion against God (Genesis 3), it can produce character and perseverance (Romans 5:3-4), it can draw people to God (Psalm 119:71), and God ultimately uses all suffering for good in the lives of believers (Romans 8:28). The cross proves God doesn\'t stand aloof from suffering — He entered it Himself.' },
@@ -148,7 +148,7 @@ const FAQ_ITEMS = [
   { question: 'Can God do anything?', answer: 'God is omnipotent — He can do all things consistent with His nature (Jeremiah 32:17). He cannot lie (Titus 1:2), cannot deny Himself (2 Timothy 2:13), and cannot be tempted by evil (James 1:13). These are not limitations of power but expressions of perfect character. God cannot do what is logically incoherent (create a square circle) because incoherence is not a "thing" to be done.' },
   { question: 'Where is God?', answer: 'God is omnipresent — He is everywhere at all times (Psalm 139:7-10). He is not contained in any building, planet, or dimension. Yet He is also described as dwelling in heaven (Matthew 6:9) and in the hearts of believers through the Holy Spirit (1 Corinthians 3:16). He is both transcendent (above all) and immanent (intimately present).' },
   { question: 'How can I know God personally?', answer: 'The Bible says knowing God begins with receiving Jesus Christ. "This is life eternal, that they might know thee the only true God, and Jesus Christ, whom thou hast sent" (John 17:3). It starts with believing that Jesus died for your sins and rose again, trusting Him as your Savior, and beginning a relationship through prayer and Scripture (John 3:16, Romans 10:9-10).' },
-  { question: 'Why did God create the world?', answer: 'God created the world for His glory (Isaiah 43:7) and to share His goodness with beings who could know and enjoy Him. The Trinity means God was not lonely — Father, Son, and Spirit existed in perfect love before creation. Creation is an overflow of God\'s nature, not a response to a need. As Jonathan Edwards wrote, God\'s purpose is to communicate His own fullness.' },
+  { question: 'Why did God create the world?', answer: 'God created the world for His glory (Isaiah 43:7) and to share His goodness with beings who could know and enjoy Him. God was not lonely — He existed in perfect love before creation. Creation is an overflow of God\'s nature, not a response to a need. As Jonathan Edwards wrote, God\'s purpose is to communicate His own fullness.' },
   { question: 'Is God male?', answer: 'God is spirit and does not have biological sex (John 4:24). However, God consistently reveals Himself using masculine language — Father, King, Shepherd, Husband. Jesus called God "Father" and instructed us to do the same (Matthew 6:9). This language reflects relational roles (authority, protection, provision), not physical anatomy. The Bible also uses feminine imagery for God\'s care (Isaiah 49:15, Matthew 23:37).' },
 ];
 
@@ -160,7 +160,7 @@ export default function GodPage() {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: 'God — Who Is God? The One True God of Christianity Explained',
-    description: 'Everything the Bible teaches about God: His names, nature, attributes, the Trinity, and why He alone is the one true God.',
+    description: 'Everything the Bible teaches about God: His names, nature, attributes, and why He alone is the one true God.',
     url: `${SITE_URL}/god`,
     datePublished: '2026-03-09',
     dateModified: '2026-03-09',
@@ -169,10 +169,9 @@ export default function GodPage() {
     mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE_URL}/god` },
     about: [
       { '@type': 'Thing', name: 'God in Christianity', sameAs: 'https://www.wikidata.org/wiki/Q190' },
-      { '@type': 'Thing', name: 'Trinity', sameAs: 'https://www.wikidata.org/wiki/Q9842' },
-      { '@type': 'Thing', name: 'Existence of God', sameAs: 'https://www.wikidata.org/wiki/Q468740' },
+{ '@type': 'Thing', name: 'Existence of God', sameAs: 'https://www.wikidata.org/wiki/Q468740' },
     ],
-    keywords: ['god', 'who is god', 'Christian God', 'attributes of God', 'names of God', 'Trinity', 'arguments for God'],
+    keywords: ['god', 'who is god', 'Christian God', 'attributes of God', 'names of God', 'arguments for God'],
   };
 
   const faqSchema = {
@@ -248,7 +247,6 @@ export default function GodPage() {
               { id: 'redeemer', label: 'God Is Love — The Gospel' },
               { id: 'gods-love', label: "God's Love for You" },
               { id: 'names', label: 'Names of God' },
-              { id: 'trinity', label: 'The Holy Trinity' },
               { id: 'arguments', label: 'Arguments for God' },
               { id: 'why-christianity', label: 'Why the Christian God?' },
               { id: 'what-god-is-not', label: 'What God Is NOT' },
@@ -273,7 +271,7 @@ export default function GodPage() {
             When Moses asked God for His name, God answered: <strong>&ldquo;I AM WHO I AM&rdquo;</strong> (<Link href="/cross-references/exodus/3/14" className="text-blue-600 hover:underline">Exodus 3:14</Link>). In Hebrew: <em>Ehyeh Asher Ehyeh</em>. God doesn&apos;t derive His existence from anything. He doesn&apos;t depend on anything. He simply <em>is</em>. Every other being in the universe exists because God made it. God exists because God is God.
           </p>
           <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
-            The Christian understanding of God can be stated in one sentence: <strong>God is the eternal, self-existent, all-powerful, all-knowing, perfectly holy, perfectly loving Creator and Sustainer of all things, who exists eternally in three persons — Father, Son, and Holy Spirit.</strong>
+            The Christian understanding of God can be stated in one sentence: <strong>God is the eternal, self-existent, all-powerful, all-knowing, perfectly holy, perfectly loving Creator and Sustainer of all things.</strong>
           </p>
           <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
             That sentence takes about 10 seconds to read. The Bible takes 66 books to unpack it. This page is an attempt to cover the essentials — who God is, what He&apos;s like, why the God of Christianity is the one true God, and how you can know Him personally. We&apos;ll draw from Scripture, church history, and the best theological and philosophical scholarship available.
@@ -366,7 +364,7 @@ export default function GodPage() {
             <div className="bg-amber-50 dark:bg-amber-950/20 rounded-xl border border-amber-200 dark:border-amber-900/40 p-5">
               <h3 className="font-bold text-amber-800 dark:text-amber-300 mb-2">The Solution: Jesus Christ</h3>
               <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed mb-2">
-                God the Son — the second person of the Trinity — left heaven, took on human flesh, was born of a virgin, lived a sinless life for 33 years, and then <strong>voluntarily</strong> went to the cross to pay the penalty for our sin. He died in our place. The righteous for the unrighteous. The innocent for the guilty.
+                God the Son — Jesus Christ — left heaven, took on human flesh, was born of a virgin, lived a sinless life for 33 years, and then <strong>voluntarily</strong> went to the cross to pay the penalty for our sin. He died in our place. The righteous for the unrighteous. The innocent for the guilty.
               </p>
               <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed mb-2">
                 &ldquo;For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life&rdquo; (<Link href="/john-3-16" className="text-blue-600 hover:underline">John 3:16</Link>). This is the most famous verse in the Bible because it is the most important truth in the Bible.
@@ -454,46 +452,6 @@ export default function GodPage() {
           </p>
         </section>
 
-        {/* The Holy Trinity */}
-        <section id="trinity" className="mb-12 scroll-mt-20">
-          <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">The Holy Trinity — One God in Three Persons</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
-            The Trinity is the most distinctive doctrine of Christianity. It separates the Christian God from every other conception of deity in history. And it&apos;s not a later invention — it&apos;s woven into the fabric of Scripture from Genesis 1:26 (&ldquo;Let <strong>us</strong> make man in <strong>our</strong> image&rdquo;) to Matthew 28:19 (&ldquo;baptizing them in the name of the Father, and of the Son, and of the Holy Ghost&rdquo;).
-          </p>
-          <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden mb-6">
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Person</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Called God</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">Role in Salvation</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden md:table-cell">Key Verse</th>
-                </tr>
-              </thead>
-              <tbody>
-                {[
-                  { person: 'God the Father', calledGod: '1 Corinthians 8:6 — "one God, the Father"', role: 'Plans salvation, sends the Son, draws sinners to Christ (John 6:44)', verse: 'John 3:16' },
-                  { person: 'God the Son (Jesus)', calledGod: 'John 1:1 — "the Word was God"; John 20:28 — "My Lord and my God"', role: 'Accomplishes salvation — lives, dies, rises in our place (2 Corinthians 5:21)', verse: 'Colossians 2:9' },
-                  { person: 'God the Holy Spirit', calledGod: 'Acts 5:3-4 — lying to the Spirit = lying to God', role: 'Applies salvation — convicts of sin, regenerates, indwells, seals believers (Titus 3:5)', verse: 'John 14:16-17' },
-                ].map((t, idx) => (
-                  <tr key={idx} className="border-t border-grace dark:border-dark-border">
-                    <td className="px-4 py-3 font-medium text-scripture dark:text-white">{t.person}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 text-xs">{t.calledGod}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 text-xs hidden sm:table-cell">{t.role}</td>
-                    <td className="px-4 py-3 text-xs hidden md:table-cell">{t.verse}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
-            <strong>Why does the Trinity matter?</strong> Because it answers a question no other religion can: how can God be love <em>eternally</em>? Love requires a subject (one who loves), an object (one who is loved), and a bond (the love between them). In the Trinity, the Father loves the Son, the Son loves the Father, and the Spirit is the bond of that love — all before creation ever existed. God didn&apos;t need to create the universe to experience love. He <em>is</em> love, within Himself, from all eternity (<Link href="/cross-references/1-john/4/8" className="text-blue-600 hover:underline">1 John 4:8</Link>).
-          </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
-            Augustine of Hippo first articulated this in <em>De Trinitate</em> (AD 400-416). Thomas Aquinas expanded it in <em>Summa Theologica</em> (13th century). Theologian Colin Gunton called it &ldquo;the most distinctive contribution of Christianity to human thought&rdquo; (<em>The Promise of Trinitarian Theology</em>, 1991). The Trinity is not a puzzle to solve — it&apos;s a reality to worship.
-          </p>
-        </section>
-
         {/* Arguments for God's Existence */}
         <section id="arguments" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">6 Arguments for God&apos;s Existence</h2>
@@ -527,7 +485,7 @@ export default function GodPage() {
               { title: '2. The Resurrection Is Historically Verifiable', detail: 'The resurrection of Jesus is not a myth or a metaphor — it is a historical claim that can be tested. Virtually all scholars (including skeptics like Bart Ehrman and Gerd Lüdemann) accept three minimal facts: Jesus died by crucifixion, His followers sincerely believed He appeared to them alive, and the early Church exploded in hostile territory. N.T. Wright, former Bishop of Durham and Oxford professor, argues in his 800-page The Resurrection of the Son of God (2003) that no other hypothesis adequately explains all the evidence.', sources: 'N.T. Wright, The Resurrection of the Son of God (2003) | Gary Habermas, The Historical Jesus (1996) | William Lane Craig, Reasonable Faith (2008)' },
               { title: '3. Fulfilled Prophecy', detail: 'The Old Testament contains over 300 prophecies about the Messiah — written 400-1,400 years before Jesus was born. He fulfilled them all: born in Bethlehem (Micah 5:2), born of a virgin (Isaiah 7:14), entering Jerusalem on a donkey (Zechariah 9:9), betrayed for 30 silver coins (Zechariah 11:12), crucified — described in detail in Psalm 22, written 1,000 years before crucifixion existed — and buried in a rich man\'s tomb (Isaiah 53:9). Mathematician Peter Stoner calculated the probability of one person fulfilling just 8 of these prophecies by chance at 1 in 10^17.', sources: 'Peter Stoner, Science Speaks (1958) | Alfred Edersheim, Life and Times of Jesus the Messiah (1883)' },
               { title: '4. Moral Coherence — The Cross Solves the Dilemma', detail: 'Every serious religion faces a problem: how can God be both perfectly just AND perfectly merciful? Justice demands that sin is punished. Mercy demands that sinners are forgiven. You can\'t have both — unless someone pays the penalty on behalf of the sinner. That\'s exactly what the cross accomplishes. God doesn\'t compromise His justice or abandon His mercy. He satisfies both at once. As Paul wrote: "That he might be just, and the justifier of him which believeth in Jesus" (Romans 3:26). No other religion solves this dilemma.', sources: 'Romans 3:21-26 | J.I. Packer, Knowing God (1973) | John Stott, The Cross of Christ (1986)' },
-              { title: '5. Philosophical Coherence — The Trinity Grounds Love', detail: 'If God is unitarian (one person, as in Islam or deism), then God could not have been loving before He created anything — because love requires an object. He would have needed creation to experience love, making Him dependent on His own creation. But the Trinitarian God — Father, Son, and Spirit — has been loving within Himself for all eternity. Love is not something God does; it is who He is. This is philosophically superior to every other concept of God.', sources: 'Augustine, De Trinitate (AD 400-416) | Richard of St. Victor, De Trinitate (12th c.) | Colin Gunton, The Promise of Trinitarian Theology (1991)' },
+              { title: '5. God Is Love — Eternally', detail: 'The God of the Bible has been loving from all eternity — love is not something He started doing when He created. "God is love" (1 John 4:8) is not a description of His activity but of His nature. The cross is the ultimate proof: "Greater love hath no man than this, that a man lay down his life for his friends" (John 15:13). No other religion offers a God who demonstrates His love by dying for the people who rejected Him.', sources: '1 John 4:8 | John 15:13 | Romans 5:8 | John Stott, The Cross of Christ (1986)' },
               { title: '6. Transformed Lives Across 2,000 Years', detail: 'The early Christians transformed the Roman Empire — not by force but by dying for their faith, caring for the sick during plagues, and treating slaves as brothers. They ended gladiatorial games, founded the first hospitals, created the first universities, and launched the abolition of slavery. Today, Christianity spans every nation, every language, every ethnic group on earth — the most diverse movement in human history. Sociologist Rodney Stark documented this in The Rise of Christianity (1996).', sources: 'Rodney Stark, The Rise of Christianity (1996) | Alvin Schmidt, How Christianity Changed the World (2004)' },
             ].map((item) => (
               <div key={item.title} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
