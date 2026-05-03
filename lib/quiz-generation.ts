@@ -27,10 +27,18 @@ export function standardizeQuestionFormat(question: QuizQuestion): QuizQuestion 
     return {
       ...question,
       type: 'multiple-choice',
-      options: question.options || generateOptionsForFillBlank(question.correctAnswer, question.question)
+      options: shuffleArray(question.options || generateOptionsForFillBlank(question.correctAnswer, question.question))
     };
   }
-  
+
+  // Shuffle options for multiple-choice so the correct answer isn't always in the same position
+  if (question.type === 'multiple-choice' && question.options && question.options.length > 1) {
+    return {
+      ...question,
+      options: shuffleArray(question.options)
+    };
+  }
+
   return question;
 }
 

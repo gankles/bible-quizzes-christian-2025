@@ -75,7 +75,7 @@ export default function QuizInterface({ quiz, onComplete }: QuizInterfaceProps) 
   const handleSubmit = () => {
     const answeredQuestions = standardizedQuiz.questions.map(question => {
       const userAnswer = userAnswers.find(ua => ua.questionId === question.id);
-      const isCorrect = userAnswer?.answer === question.correctAnswer;
+      const isCorrect = (userAnswer?.answer ?? '').toLowerCase() === question.correctAnswer.toLowerCase();
       
       return {
         questionId: question.id,
