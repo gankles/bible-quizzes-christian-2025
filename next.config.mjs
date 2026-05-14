@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  distDir: '.next-build',
-  // Enable ISR for static generation
+  output: 'standalone',
   trailingSlash: false,
   // Optimize images
   images: {

@@ -19,8 +19,6 @@ COPY . .
 
 ENV NEXT_TELEMETRY_DISABLED 1
 
-# Override distDir to .next for Docker builds
-RUN sed -i "s|distDir: 'tmp/next-build'|distDir: '.next'|" next.config.mjs
 RUN npm run build
 
 # Production image, copy all the files and run next
