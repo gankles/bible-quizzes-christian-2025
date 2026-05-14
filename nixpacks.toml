@@ -1,0 +1,5 @@
+[phases.setup]
+cmds = ["npx prisma generate"]
+
+[start]
+cmd = "npm start"
