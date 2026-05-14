@@ -34,6 +34,16 @@ yarn-error.log*
 /.next-build/
 /test-results/
 
+# large data files — hosted on GitHub Releases, downloaded at build time
+/data/lexicon.json
+/data/commentaries/mhcc.json
+/data/commentaries/ellicott.json
+/data/commentaries/jfb.json
+/data/cross-references.json
+/data/bible-quotes.json
+/data/topics.json
+/data/kjvstudy/verse_commentary/psalms.json
+
 # generated geo thumbnails (run scripts/filter-geo-thumbnails.ts to regenerate)
 /public/geo/
 
