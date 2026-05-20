@@ -27,7 +27,7 @@ export default function MosesQuizPage() {
   if (!tabbedQuiz) {
     return (
       <div className="min-h-screen flex items-center justify-center">
-        <p className="text-primary-dark/60">Quiz data not available. Please try again later.</p>
+        <p className="text-ink-muted">Quiz data not available. Please try again later.</p>
       </div>
     );
   }
@@ -38,16 +38,16 @@ export default function MosesQuizPage() {
         <div className="max-w-4xl mx-auto px-4 py-3">
           <nav aria-label="Breadcrumb">
             <ol className="flex items-center flex-wrap gap-y-1 text-sm">
-              <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
-              <li className="text-primary-dark/40 mx-2">/</li>
-              <li><Link href="/bible-quizzes" className="text-blue-600 hover:underline">Bible Quizzes</Link></li>
-              <li className="text-primary-dark/40 mx-2">/</li>
-              <li className="text-primary-dark/70">Moses Quiz</li>
+              <li><Link href="/" className="text-sacred hover:underline">Home</Link></li>
+              <li className="text-ink-light mx-2">/</li>
+              <li><Link href="/bible-quizzes" className="text-sacred hover:underline">Bible Quizzes</Link></li>
+              <li className="text-ink-light mx-2">/</li>
+              <li className="text-ink-muted">Moses Quiz</li>
             </ol>
           </nav>
         </div>
         <div className="max-w-4xl mx-auto px-4 pb-6 pt-2">
-          <p className="text-primary-dark/70 leading-relaxed">
+          <p className="text-ink-muted leading-relaxed">
             How well do you know Moses? This comprehensive quiz covers his birth and rescue by Pharaoh's daughter,
             the burning bush, ten plagues, Passover, crossing the Red Sea, receiving the Ten Commandments at Sinai,
             the golden calf, the tabernacle, wilderness wanderings, and his death on Mount Nebo.
@@ -77,7 +77,7 @@ export default function MosesQuizPage() {
             <Link
               key={link.href}
               href={link.href}
-              className="block p-3 bg-white rounded-lg border border-grace hover:border-blue-300 hover:shadow-sm transition-all text-sm text-blue-600 hover:text-blue-700"
+              className="block p-3 bg-white rounded-lg border border-grace hover:border-sacred/50 hover:shadow-sm transition-all text-sm text-sacred hover:text-gold-dark"
             >
               {link.name}
             </Link>

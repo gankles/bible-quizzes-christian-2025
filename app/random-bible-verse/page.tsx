@@ -160,7 +160,7 @@ export default function RandomBibleVersePage() {
         <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
           <div className="bg-white rounded-xl border border-grace p-6 md:p-8">
             <h2 className="text-xl font-display font-bold text-scripture mb-3">Why Use a Random Bible Verse Generator?</h2>
-            <div className="text-primary-dark/80 leading-relaxed space-y-3">
+            <div className="text-scripture leading-relaxed space-y-3">
               <p>A <strong>random Bible verse generator</strong> is a simple yet powerful tool for Christians looking to discover new scripture passages or break out of familiar reading patterns. While many believers return to the same well-known verses -- John 3:16, Psalm 23, Romans 8:28 -- a random scripture picker introduces you to passages you may have overlooked, sparking fresh insight and deeper devotional engagement with God&apos;s Word.</p>
               <p>The concept is rooted in the conviction that all Scripture is &ldquo;given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness&rdquo; (2 Timothy 3:16, KJV). Every verse in the Bible carries divine truth. A random verse generator simply removes the decision fatigue of choosing where to read next, making it especially useful for daily devotionals, prayer time, Bible journaling, or scripture memorization challenges.</p>
               <p>Our curated pool of {VERSE_POOL.length} verses is drawn from the <strong>King James Version</strong> and spans the full breadth of biblical themes: salvation and the gospel message, faith and trust in God, hope and encouragement, love and forgiveness, strength and courage, peace and comfort, prayer and worship, wisdom and guidance. Each verse links to a full study page with cross-references, original-language word studies from the Hebrew and Greek, and a chapter quiz so you can test your knowledge after reading.</p>
@@ -172,10 +172,10 @@ export default function RandomBibleVersePage() {
         <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
           <div className="bg-white rounded-xl border border-grace p-6 md:p-8">
             <h2 className="text-xl font-display font-bold text-scripture mb-4">All {VERSE_POOL.length} Verses in the Pool</h2>
-            <p className="text-sm text-primary-dark/70 mb-5">Browse the complete curated collection. Click any verse to study it in depth.</p>
+            <p className="text-sm text-ink-muted mb-5">Browse the complete curated collection. Click any verse to study it in depth.</p>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-2">
               {VERSE_POOL.map(v => (
-                <Link key={v.reference} href={`/verses/${v.bookSlug}/${v.chapter}/${v.verse}`} className="text-sm text-blue-600 hover:underline py-1">{v.reference} <span className="text-primary-dark/40">-- {v.theme}</span></Link>
+                <Link key={v.reference} href={`/verses/${v.bookSlug}/${v.chapter}/${v.verse}`} className="text-sm text-sacred hover:underline py-1">{v.reference} <span className="text-ink-light">-- {v.theme}</span></Link>
               ))}
             </div>
           </div>
@@ -183,10 +183,10 @@ export default function RandomBibleVersePage() {
 
         {/* Mid-Content CTA */}
         <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-6 md:p-8 text-white">
+          <div className="bg-gradient-to-r from-scripture to-scripture/80 rounded-xl p-6 md:p-8 text-white">
             <h2 className="text-xl md:text-2xl font-display font-bold mb-2">Know These Verses? Prove It.</h2>
-            <p className="text-blue-100 mb-4 max-w-2xl">Take a chapter quiz from any book of the Bible. 15 questions per quiz with instant scoring and verse-by-verse explanations.</p>
-            <Link href="/bible-quizzes" className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md">Take a Quiz Now</Link>
+            <p className="text-sacred-light mb-4 max-w-2xl">Take a chapter quiz from any book of the Bible. 15 questions per quiz with instant scoring and verse-by-verse explanations.</p>
+            <Link href="/bible-quizzes" className="inline-flex items-center px-6 py-3 bg-white text-scripture font-bold rounded-lg hover:bg-sacred-light transition-colors shadow-md">Take a Quiz Now</Link>
           </div>
         </section>
 
@@ -197,19 +197,19 @@ export default function RandomBibleVersePage() {
             <div className="space-y-6">
               <div>
                 <h3 className="font-bold text-scripture mb-1">How does the random Bible verse generator work?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">Our random Bible verse generator selects a scripture at random from a curated pool of {VERSE_POOL.length} powerful, well-known Bible verses from the King James Version. Each time you click &ldquo;Get Another Verse,&rdquo; a new passage is displayed with its full KJV text, theme, and links to study pages, chapter quizzes, and related Bible quotes.</p>
+                <p className="text-scripture leading-relaxed">Our random Bible verse generator selects a scripture at random from a curated pool of {VERSE_POOL.length} powerful, well-known Bible verses from the King James Version. Each time you click &ldquo;Get Another Verse,&rdquo; a new passage is displayed with its full KJV text, theme, and links to study pages, chapter quizzes, and related Bible quotes.</p>
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">What Bible version are the random verses from?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">All random verses are from the King James Version (KJV), first published in 1611. The KJV is one of the most widely read, memorized, and quoted English Bible translations, known for its literary beauty and faithfulness to the original manuscripts.</p>
+                <p className="text-scripture leading-relaxed">All random verses are from the King James Version (KJV), first published in 1611. The KJV is one of the most widely read, memorized, and quoted English Bible translations, known for its literary beauty and faithfulness to the original manuscripts.</p>
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">Can I use the random verse for daily devotionals?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">Absolutely. Many Christians use a random Bible verse as a starting point for daily devotional reading, prayer, and meditation. Click the button each morning for a fresh scripture, then use the study links to explore cross-references, commentary, and original-language word studies.</p>
+                <p className="text-scripture leading-relaxed">Absolutely. Many Christians use a random Bible verse as a starting point for daily devotional reading, prayer, and meditation. Click the button each morning for a fresh scripture, then use the study links to explore cross-references, commentary, and original-language word studies.</p>
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">What topics do the random verses cover?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">The curated verse pool covers the core themes of Scripture: salvation, faith, hope, love, strength, courage, comfort, peace, prayer, guidance, grace, forgiveness, protection, joy, and more. Every major spiritual theme is represented.</p>
+                <p className="text-scripture leading-relaxed">The curated verse pool covers the core themes of Scripture: salvation, faith, hope, love, strength, courage, comfort, peace, prayer, guidance, grace, forgiveness, protection, joy, and more. Every major spiritual theme is represented.</p>
               </div>
             </div>
           </div>
@@ -220,15 +220,15 @@ export default function RandomBibleVersePage() {
           <div className="bg-white rounded-xl border border-grace p-6 md:p-8">
             <h2 className="text-xl font-display font-bold text-scripture mb-4">Continue Exploring Scripture</h2>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
-              <Link href="/bible-quizzes" className="flex items-center px-4 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-all"><span>Bible Quizzes</span></Link>
-              <Link href="/bible-verse-of-the-day" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Verse of the Day</span></Link>
-              <Link href="/popular-bible-verses" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">100 Most Popular Verses</span></Link>
-              <Link href="/famous-bible-verses" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Famous Bible Verses</span></Link>
-              <Link href="/bible-quotes" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Bible Quotes Hub</span></Link>
-              <Link href="/devotionals" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Daily Devotionals</span></Link>
-              <Link href="/reading-plans" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Reading Plans</span></Link>
-              <Link href="/cross-references" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Cross References</span></Link>
-              <Link href="/topics" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Bible Topics</span></Link>
+              <Link href="/bible-quizzes" className="flex items-center px-4 py-3 bg-scripture text-white font-bold rounded-lg hover:bg-ink-muted transition-all"><span>Bible Quizzes</span></Link>
+              <Link href="/bible-verse-of-the-day" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Verse of the Day</span></Link>
+              <Link href="/popular-bible-verses" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">100 Most Popular Verses</span></Link>
+              <Link href="/famous-bible-verses" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Famous Bible Verses</span></Link>
+              <Link href="/bible-quotes" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Bible Quotes Hub</span></Link>
+              <Link href="/devotionals" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Daily Devotionals</span></Link>
+              <Link href="/reading-plans" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Reading Plans</span></Link>
+              <Link href="/cross-references" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Cross References</span></Link>
+              <Link href="/topics" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Bible Topics</span></Link>
             </div>
           </div>
         </section>

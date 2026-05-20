@@ -76,16 +76,16 @@ export default function BibleQuotesHubPage() {
         <div className="max-w-6xl mx-auto px-4 py-3">
           <ol className="flex items-center text-sm">
             <li>
-              <Link href="/" className="text-blue-600 hover:underline">Home</Link>
+              <Link href="/" className="text-sacred hover:underline">Home</Link>
             </li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li className="text-primary-dark/70">Bible Quotes</li>
+            <li className="text-ink-light mx-2">/</li>
+            <li className="text-ink-muted">Bible Quotes</li>
           </ol>
         </div>
       </nav>
 
       {/* Hero */}
-      <header className="relative bg-gradient-to-br from-blue-700 via-blue-800 to-blue-900 text-white overflow-hidden">
+      <header className="relative bg-gradient-to-br from-scripture via-scripture/60 to-scripture/80 text-white overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <Image
             src="/images/mrmkaj_Gentle_hands_holding_an_open_Bible_light_pouring_down_on_ca8c94ca-5316-47b7-a335-94f60bbfc8a8.png"
@@ -97,22 +97,22 @@ export default function BibleQuotesHubPage() {
         </div>
         <div className="relative max-w-6xl mx-auto px-4 py-12">
           <h1 className="text-4xl md:text-5xl font-display font-bold mb-4">Bible Quotes by Topic</h1>
-          <p className="text-blue-100 text-lg max-w-2xl mb-6">
+          <p className="text-sacred-light text-lg max-w-2xl mb-6">
             Explore {topicCount.toLocaleString()} topics with {verseCount.toLocaleString()} Scripture
             references from the King James Version. Find the perfect Bible verse for any subject.
           </p>
           <div className="flex gap-6 text-sm">
             <div className="bg-white/10 rounded-lg px-4 py-2">
               <span className="font-bold text-xl">{topicCount.toLocaleString()}</span>
-              <span className="text-blue-200 ml-2">Topics</span>
+              <span className="text-sacred ml-2">Topics</span>
             </div>
             <div className="bg-white/10 rounded-lg px-4 py-2">
               <span className="font-bold text-xl">{verseCount.toLocaleString()}</span>
-              <span className="text-blue-200 ml-2">Verse References</span>
+              <span className="text-sacred ml-2">Verse References</span>
             </div>
             <div className="bg-white/10 rounded-lg px-4 py-2">
               <span className="font-bold text-xl">66</span>
-              <span className="text-blue-200 ml-2">Bible Books</span>
+              <span className="text-sacred ml-2">Bible Books</span>
             </div>
           </div>
         </div>
@@ -121,7 +121,7 @@ export default function BibleQuotesHubPage() {
       <main className="max-w-6xl mx-auto px-4 py-8">
         {/* A-Z Navigation */}
         <nav className="bg-white rounded-xl shadow-sm border border-grace p-4 mb-8">
-          <h2 className="text-sm font-semibold text-primary-dark/60 uppercase tracking-wider mb-3">Browse by Letter</h2>
+          <h2 className="text-sm font-semibold text-ink-muted uppercase tracking-wider mb-3">Browse by Letter</h2>
           <div className="flex flex-wrap gap-1">
             {letterIndex.map(({ letter, count }) => (
               <Link
@@ -129,7 +129,7 @@ export default function BibleQuotesHubPage() {
                 href={`#letter-${letter}`}
                 className={`w-9 h-9 flex items-center justify-center rounded-lg text-sm font-medium transition-colors ${
                   count > 0
-                    ? 'bg-blue-50 text-blue-700 hover:bg-blue-100'
+                    ? 'bg-sacred-light text-scripture hover:bg-sacred-light'
                     : 'bg-gray-50 text-gray-300 cursor-default'
                 }`}
                 title={count > 0 ? `${count} topics starting with ${letter}` : `No topics starting with ${letter}`}
@@ -148,18 +148,18 @@ export default function BibleQuotesHubPage() {
               <Link
                 key={topic.slug}
                 href={`/bible-quotes/${topic.slug}`}
-                className="bg-white rounded-xl shadow-sm border border-grace p-5 hover:shadow-md hover:border-blue-300 transition-all group"
+                className="bg-white rounded-xl shadow-sm border border-grace p-5 hover:shadow-md hover:border-sacred/50 transition-all group"
               >
                 <div className="flex items-start justify-between mb-2">
-                  <h3 className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                  <h3 className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                     Bible Quotes About {topic.name}
                   </h3>
-                  <span className="text-xs bg-blue-50 text-blue-700 px-2 py-0.5 rounded-full whitespace-nowrap ml-2">
+                  <span className="text-xs bg-sacred-light text-scripture px-2 py-0.5 rounded-full whitespace-nowrap ml-2">
                     {topic.verseCount} verses
                   </span>
                 </div>
-                <p className="text-sm text-primary-dark/60 line-clamp-2">{topic.description}</p>
-                <span className="inline-block mt-3 text-xs text-blue-600 font-medium">
+                <p className="text-sm text-ink-muted line-clamp-2">{topic.description}</p>
+                <span className="inline-block mt-3 text-xs text-sacred font-medium">
                   Read Verses →
                 </span>
               </Link>
@@ -175,14 +175,14 @@ export default function BibleQuotesHubPage() {
               <div key={cat.name} className="bg-white rounded-xl shadow-sm border border-grace p-6">
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-lg font-bold text-scripture">{cat.name}</h3>
-                  <span className="text-xs text-primary-dark/50">{cat.count} topics</span>
+                  <span className="text-xs text-ink-muted">{cat.count} topics</span>
                 </div>
                 <div className="flex flex-wrap gap-2">
                   {cat.topTopics.map((topic) => (
                     <Link
                       key={topic.slug}
                       href={`/bible-quotes/${topic.slug}`}
-                      className="px-3 py-1.5 bg-primary-light/30 border border-grace rounded-lg text-sm text-primary-dark/80 hover:border-blue-300 hover:text-blue-600 transition-colors"
+                      className="px-3 py-1.5 bg-primary-light/30 border border-grace rounded-lg text-sm text-scripture hover:border-sacred/50 hover:text-gold-dark transition-colors"
                     >
                       {topic.name}
                     </Link>
@@ -202,30 +202,30 @@ export default function BibleQuotesHubPage() {
             return (
               <div key={letter} id={`letter-${letter}`} className="mb-6">
                 <div className="flex items-center gap-3 mb-3">
-                  <span className="w-10 h-10 flex items-center justify-center bg-blue-600 text-white rounded-lg font-bold text-lg">
+                  <span className="w-10 h-10 flex items-center justify-center bg-scripture text-white rounded-lg font-bold text-lg">
                     {letter}
                   </span>
-                  <span className="text-sm text-primary-dark/50">{count} topics</span>
+                  <span className="text-sm text-ink-muted">{count} topics</span>
                 </div>
               </div>
             );
           })}
-          <p className="text-sm text-primary-dark/60">
+          <p className="text-sm text-ink-muted">
             Use the search or browse individual topics above to explore all {topicCount.toLocaleString()} Bible quote categories.
           </p>
         </section>
 
         {/* CTA */}
-        <section className="bg-blue-600 rounded-xl p-8 text-white text-center">
+        <section className="bg-scripture rounded-xl p-8 text-white text-center">
           <h2 className="text-2xl font-bold mb-3">Study the Bible by Topic</h2>
-          <p className="text-blue-100 max-w-xl mx-auto mb-6">
+          <p className="text-sacred-light max-w-xl mx-auto mb-6">
             Deepen your understanding of Scripture with our topical Bible study tools,
             quizzes, word studies, and cross-references.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link
               href="/bible-quizzes"
-              className="px-6 py-3 bg-white text-blue-600 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
+              className="px-6 py-3 bg-white text-sacred rounded-lg font-semibold hover:bg-sacred-light transition-colors"
             >
               Bible Quizzes
             </Link>

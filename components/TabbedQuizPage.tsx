@@ -27,7 +27,7 @@ const TABS = [
     description: 'Apply biblical truths',
     icon: '🏃',
     color: 'bg-blue-500 text-white',
-    hoverColor: 'hover:bg-blue-600',
+    hoverColor: 'hover:bg-ink-muted',
     time: '12 min',
     questions: 15
   },
@@ -46,7 +46,7 @@ const TABS = [
     label: 'Theological',
     description: 'Deep biblical truths',
     icon: '🎓',
-    color: 'bg-purple-500 text-white',
+    color: 'bg-scripture/50 text-white',
     hoverColor: 'hover:bg-purple-600',
     time: '25 min',
     questions: 15
@@ -97,7 +97,7 @@ export default function TabbedQuizPage({ tabbedQuiz, url }: TabbedQuizPageProps)
           <h1 className="text-3xl font-bold text-scripture mb-2">
             {tabbedQuiz.title}
           </h1>
-          <p className="text-primary-dark/70 mb-6">
+          <p className="text-ink-muted mb-6">
             {tabbedQuiz.description}
           </p>
 
@@ -125,13 +125,13 @@ export default function TabbedQuizPage({ tabbedQuiz, url }: TabbedQuizPageProps)
                 </div>
                 
                 <p className={`text-xs sm:text-sm mb-2 sm:mb-3 ${
-                  activeTab === tab.key ? 'text-white/90' : 'text-primary-dark/70'
+                  activeTab === tab.key ? 'text-white/90' : 'text-ink-muted'
                 }`}>
                   {tab.description}
                 </p>
                 
                 <div className={`flex justify-between items-center text-xs ${
-                  activeTab === tab.key ? 'text-white/80' : 'text-primary-dark/60'
+                  activeTab === tab.key ? 'text-white/80' : 'text-ink-muted'
                 }`}>
                   <span>{tab.questions} questions</span>
                   <span>{tab.time}</span>
@@ -148,16 +148,16 @@ export default function TabbedQuizPage({ tabbedQuiz, url }: TabbedQuizPageProps)
           </div>
 
           {/* Level Description */}
-          <div className="mt-6 p-4 bg-blue-50 rounded-lg border border-blue-200">
+          <div className="mt-6 p-4 bg-blue-50 rounded-lg border border-sacred/20">
             <div className="flex items-start space-x-3">
               <div className="text-2xl">
                 {activeTabData.icon}
               </div>
               <div>
-                <h3 className="font-semibold text-blue-900 mb-1">
+                <h3 className="font-semibold text-scripture mb-1">
                   {activeTabData.label} Level Selected
                 </h3>
-                <p className="text-blue-800 text-sm">
+                <p className="text-scripture text-sm">
                   {getLevelDescription(activeTab)}
                 </p>
               </div>

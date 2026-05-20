@@ -87,23 +87,23 @@ export default async function InterlinearChapterPage({ params }: PageProps) {
         {/* Hero */}
         <div className="bg-white border-b border-grace py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-4 md:px-10">
-            <nav className="flex items-center gap-2 text-sm text-primary-dark/60 mb-6 flex-wrap">
-              <Link href="/" className="hover:text-blue-600 transition-colors">Home</Link>
+            <nav className="flex items-center gap-2 text-sm text-ink-muted mb-6 flex-wrap">
+              <Link href="/" className="hover:text-gold-dark transition-colors">Home</Link>
               <span>/</span>
-              <Link href="/interlinear" className="hover:text-blue-600 transition-colors">Interlinear</Link>
+              <Link href="/interlinear" className="hover:text-gold-dark transition-colors">Interlinear</Link>
               <span>/</span>
-              <Link href={`/interlinear/${bookSlug}`} className="hover:text-blue-600 transition-colors">{bookName}</Link>
+              <Link href={`/interlinear/${bookSlug}`} className="hover:text-gold-dark transition-colors">{bookName}</Link>
               <span>/</span>
               <span className="text-scripture font-medium">Chapter {chapter}</span>
             </nav>
 
-            <span className="inline-block px-3 py-1 rounded-full bg-blue-600/10 text-blue-600 text-xs font-bold uppercase mb-4">
+            <span className="inline-block px-3 py-1 rounded-full bg-sacred/10 text-sacred text-xs font-bold uppercase mb-4">
               {lang} Interlinear
             </span>
             <h1 className="text-3xl md:text-4xl font-bold text-scripture font-display mb-3">
               {bookName} {chapter} Interlinear
             </h1>
-            <p className="text-lg text-primary-dark/70">
+            <p className="text-lg text-ink-muted">
               {verses.length} verse{verses.length !== 1 ? 's' : ''} &middot; Word-by-word {lang} analysis
             </p>
           </div>
@@ -114,13 +114,13 @@ export default async function InterlinearChapterPage({ params }: PageProps) {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link
               href={`/${bookSlug}-${chapter}-quiz`}
-              className="bg-blue-600 rounded-lg p-5 text-white shadow-lg flex items-center justify-between hover:bg-blue-700 transition-colors"
+              className="bg-scripture rounded-lg p-5 text-white shadow-lg flex items-center justify-between hover:bg-ink-muted transition-colors"
             >
               <div>
                 <h3 className="font-bold text-lg">{bookName} {chapter} Quiz</h3>
                 <p className="text-white/80 text-xs">Test your knowledge</p>
               </div>
-              <span className="bg-white text-blue-600 px-4 py-2 rounded-lg font-bold text-sm tracking-wider uppercase">
+              <span className="bg-white text-sacred px-4 py-2 rounded-lg font-bold text-sm tracking-wider uppercase">
                 Start
               </span>
             </Link>
@@ -148,16 +148,16 @@ export default async function InterlinearChapterPage({ params }: PageProps) {
                 <Link
                   key={v.verse}
                   href={`/interlinear/${bookSlug}/${chapter}/${v.verse}`}
-                  className="flex items-start gap-3 bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
+                  className="flex items-start gap-3 bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-sacred/50 transition-all group"
                 >
-                  <span className="inline-flex items-center justify-center w-8 h-8 bg-blue-100 text-blue-700 rounded-full text-sm font-bold shrink-0 group-hover:bg-blue-200 transition-colors">
+                  <span className="inline-flex items-center justify-center w-8 h-8 bg-sacred/10 text-scripture rounded-full text-sm font-bold shrink-0 group-hover:bg-sacred-light transition-colors">
                     {v.verse}
                   </span>
                   <div>
-                    <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                    <span className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                       {bookName} {chapter}:{v.verse}
                     </span>
-                    <span className="block text-sm text-primary-dark/60 mt-0.5">
+                    <span className="block text-sm text-ink-muted mt-0.5">
                       {v.preview}...
                     </span>
                   </div>
@@ -171,10 +171,10 @@ export default async function InterlinearChapterPage({ params }: PageProps) {
             {prevChapter ? (
               <Link
                 href={`/interlinear/${bookSlug}/${prevChapter}`}
-                className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="text-xs text-primary-dark/60">Previous Chapter</span>
-                <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                <span className="text-xs text-ink-muted">Previous Chapter</span>
+                <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                   {bookName} {prevChapter}
                 </span>
               </Link>
@@ -182,10 +182,10 @@ export default async function InterlinearChapterPage({ params }: PageProps) {
             {nextChapter ? (
               <Link
                 href={`/interlinear/${bookSlug}/${nextChapter}`}
-                className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="text-xs text-primary-dark/60">Next Chapter</span>
-                <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                <span className="text-xs text-ink-muted">Next Chapter</span>
+                <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                   {bookName} {nextChapter}
                 </span>
               </Link>
@@ -196,22 +196,22 @@ export default async function InterlinearChapterPage({ params }: PageProps) {
           <section className="bg-grace/10 border border-grace rounded-xl p-6">
             <h2 className="text-lg font-bold text-scripture mb-3">Continue Your Study</h2>
             <div className="grid gap-2 sm:grid-cols-2">
-              <Link href={`/interlinear/${bookSlug}`} className="text-blue-600 hover:underline text-sm">
+              <Link href={`/interlinear/${bookSlug}`} className="text-sacred hover:underline text-sm">
                 All {bookName} Interlinear Chapters
               </Link>
-              <Link href={`/${bookSlug}-${chapter}-quiz`} className="text-blue-600 hover:underline text-sm">
+              <Link href={`/${bookSlug}-${chapter}-quiz`} className="text-sacred hover:underline text-sm">
                 {bookName} {chapter} Quiz
               </Link>
-              <Link href={`/${bookSlug}-chapters`} className="text-blue-600 hover:underline text-sm">
+              <Link href={`/${bookSlug}-chapters`} className="text-sacred hover:underline text-sm">
                 {bookName} Chapter Quizzes
               </Link>
-              <Link href={`/chapters/${bookSlug}/${chapter}`} className="text-blue-600 hover:underline text-sm">
+              <Link href={`/chapters/${bookSlug}/${chapter}`} className="text-sacred hover:underline text-sm">
                 Read {bookName} {chapter}
               </Link>
-              <Link href={`/lexicon/browse/${isOT ? 'hebrew' : 'greek'}`} className="text-blue-600 hover:underline text-sm">
+              <Link href={`/lexicon/browse/${isOT ? 'hebrew' : 'greek'}`} className="text-sacred hover:underline text-sm">
                 {lang} Lexicon
               </Link>
-              <Link href="/interlinear" className="text-blue-600 hover:underline text-sm">
+              <Link href="/interlinear" className="text-sacred hover:underline text-sm">
                 Interlinear Bible
               </Link>
             </div>

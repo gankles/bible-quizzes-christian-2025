@@ -259,19 +259,19 @@ export default function BiblePage() {
       <StructuredData data={breadcrumbSchema} />
 
       {/* Hero */}
-      <section className="relative bg-gradient-to-br from-scripture via-blue-900 to-blue-950 text-white overflow-hidden">
+      <section className="relative bg-gradient-to-br from-scripture via-scripture/60 to-scripture/80 text-white overflow-hidden">
         <Image src="/images/rocinanterelampago_central_verse_in_the_Bible_--ar_21_--profile_2a944dbf-6229-46ed-bb1e-0b1ec69c620b.png" alt="The Holy Bible" fill className="object-cover opacity-15" priority />
         <div className="relative max-w-4xl mx-auto px-4 py-16 md:py-24 text-center">
-          <nav className="text-blue-200/70 text-xs mb-6">
+          <nav className="text-sacred/70 text-xs mb-6">
             <Link href="/" className="hover:text-white">Home</Link> <span className="mx-1">/</span> <span className="text-white">The Bible</span>
           </nav>
           <h1 className="text-3xl md:text-5xl font-bold font-display mb-4 leading-tight">
             The Bible
           </h1>
-          <p className="text-lg md:text-xl text-blue-100/90 max-w-3xl mx-auto leading-relaxed mb-3">
+          <p className="text-lg md:text-xl text-sacred-light/90 max-w-3xl mx-auto leading-relaxed mb-3">
             66 books. 40+ authors. 1,500 years. One story.
           </p>
-          <p className="text-blue-200/70 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-sacred/70 max-w-2xl mx-auto leading-relaxed">
             The complete guide to the most published, most translated, most quoted, and most debated book in human history.
           </p>
         </div>
@@ -289,8 +289,8 @@ export default function BiblePage() {
             { num: '40+', label: 'Authors' },
           ].map((s) => (
             <div key={s.label} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-4 text-center shadow-sm">
-              <p className="text-2xl font-bold text-scripture dark:text-blue-400">{s.num}</p>
-              <p className="text-xs text-primary-dark/60 dark:text-primary-dark/40 mt-1">{s.label}</p>
+              <p className="text-2xl font-bold text-scripture dark:text-sacred">{s.num}</p>
+              <p className="text-xs text-ink-muted dark:text-ink-light mt-1">{s.label}</p>
             </div>
           ))}
         </div>
@@ -319,7 +319,7 @@ export default function BiblePage() {
               { id: 'reading-plans', label: 'Reading Plans' },
               { id: 'faq', label: 'FAQ (15 Questions)' },
             ].map((item) => (
-              <Link key={item.id} href={`#${item.id}`} className="text-blue-600 hover:underline text-sm py-1">
+              <Link key={item.id} href={`#${item.id}`} className="text-sacred hover:underline text-sm py-1">
                 {item.label}
               </Link>
             ))}
@@ -329,16 +329,16 @@ export default function BiblePage() {
         {/* What Is the Bible? */}
         <section id="what-is" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">What Is the Bible?</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             The Bible is a collection of 66 books written over approximately 1,500 years by more than 40 different authors on three continents in three languages. It is divided into two main sections: the <strong>Old Testament</strong> (39 books, written mostly in Hebrew) and the <strong>New Testament</strong> (27 books, written in Greek).
           </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
-            The word &ldquo;Bible&rdquo; comes from the Greek <em>biblia</em>, meaning &ldquo;books.&rdquo; Christians believe the Bible is the inspired Word of God — that God worked through human authors to communicate exactly what He intended (<Link href="/cross-references/2-timothy/3/16" className="text-blue-600 hover:underline">2 Timothy 3:16</Link>). It&apos;s not a single book written in a single sitting. It&apos;s a library.
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
+            The word &ldquo;Bible&rdquo; comes from the Greek <em>biblia</em>, meaning &ldquo;books.&rdquo; Christians believe the Bible is the inspired Word of God — that God worked through human authors to communicate exactly what He intended (<Link href="/cross-references/2-timothy/3/16" className="text-sacred hover:underline">2 Timothy 3:16</Link>). It&apos;s not a single book written in a single sitting. It&apos;s a library.
           </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             What makes the Bible unique is its unity despite its diversity. Shepherds, kings, fishermen, doctors, prophets, and prisoners all contributed — yet the narrative holds together with a single storyline: <strong>God creates, humanity falls, God rescues through Jesus Christ, and God restores all things.</strong>
           </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
+          <p className="text-scripture dark:text-ink-light leading-relaxed">
             The Bible has been translated into over 700 languages completely, with portions in over 3,500 languages. It remains the bestselling book every single year — estimated at 5 billion copies distributed worldwide. No other book in human history comes close.
           </p>
         </section>
@@ -350,10 +350,10 @@ export default function BiblePage() {
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Fact</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Old Testament</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">New Testament</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">Total</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Fact</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Old Testament</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">New Testament</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden sm:table-cell">Total</th>
                 </tr>
               </thead>
               <tbody>
@@ -369,9 +369,9 @@ export default function BiblePage() {
                 ].map((r, idx) => (
                   <tr key={idx} className="border-t border-grace dark:border-dark-border">
                     <td className="px-4 py-3 font-medium text-scripture dark:text-white">{r.fact}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40">{r.ot}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40">{r.nt}</td>
-                    <td className="px-4 py-3 font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">{r.total}</td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light">{r.ot}</td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light">{r.nt}</td>
+                    <td className="px-4 py-3 font-bold text-scripture dark:text-sacred hidden sm:table-cell">{r.total}</td>
                   </tr>
                 ))}
               </tbody>
@@ -382,26 +382,26 @@ export default function BiblePage() {
         {/* 39 Old Testament Books */}
         <section id="ot-books" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">The 39 Books of the Old Testament</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-4 text-sm">From Creation to 400 years of silence before Christ. Click any book to explore its chapters.</p>
+          <p className="text-ink-muted dark:text-ink-light mb-4 text-sm">From Creation to 400 years of silence before Christ. Click any book to explore its chapters.</p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Book</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">Author</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 w-14">Ch.</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">Category</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden md:table-cell">Theme</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Book</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden sm:table-cell">Author</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred w-14">Ch.</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden sm:table-cell">Category</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden md:table-cell">Theme</th>
                 </tr>
               </thead>
               <tbody>
                 {OT_BOOKS.map((book, idx) => (
-                  <tr key={idx} className="border-t border-grace dark:border-dark-border hover:bg-blue-50/50 dark:hover:bg-dark-border/20">
-                    <td className="px-4 py-2"><Link href={`/${bookSlug(book.name)}-chapters`} className="text-blue-600 hover:underline font-medium">{book.name}</Link></td>
-                    <td className="px-4 py-2 text-primary-dark/70 dark:text-primary-dark/40 hidden sm:table-cell">{book.author}</td>
-                    <td className="px-4 py-2 text-primary-dark/70 dark:text-primary-dark/40">{book.chapters}</td>
+                  <tr key={idx} className="border-t border-grace dark:border-dark-border hover:bg-sacred-light/50 dark:hover:bg-dark-border/20">
+                    <td className="px-4 py-2"><Link href={`/${bookSlug(book.name)}-chapters`} className="text-sacred hover:underline font-medium">{book.name}</Link></td>
+                    <td className="px-4 py-2 text-ink-muted dark:text-ink-light hidden sm:table-cell">{book.author}</td>
+                    <td className="px-4 py-2 text-ink-muted dark:text-ink-light">{book.chapters}</td>
                     <td className="px-4 py-2 hidden sm:table-cell"><span className="bg-amber-100 dark:bg-amber-950/30 text-amber-700 dark:text-amber-300 text-xs px-2 py-0.5 rounded-full">{book.category}</span></td>
-                    <td className="px-4 py-2 text-primary-dark/60 dark:text-primary-dark/40 text-xs hidden md:table-cell">{book.theme}</td>
+                    <td className="px-4 py-2 text-ink-muted dark:text-ink-light text-xs hidden md:table-cell">{book.theme}</td>
                   </tr>
                 ))}
               </tbody>
@@ -412,26 +412,26 @@ export default function BiblePage() {
         {/* 27 New Testament Books */}
         <section id="nt-books" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">The 27 Books of the New Testament</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-4 text-sm">From the birth of Christ to the vision of His return. Click any book to explore its chapters.</p>
+          <p className="text-ink-muted dark:text-ink-light mb-4 text-sm">From the birth of Christ to the vision of His return. Click any book to explore its chapters.</p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Book</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">Author</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 w-14">Ch.</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">Category</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden md:table-cell">Theme</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Book</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden sm:table-cell">Author</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred w-14">Ch.</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden sm:table-cell">Category</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden md:table-cell">Theme</th>
                 </tr>
               </thead>
               <tbody>
                 {NT_BOOKS.map((book, idx) => (
-                  <tr key={idx} className="border-t border-grace dark:border-dark-border hover:bg-blue-50/50 dark:hover:bg-dark-border/20">
-                    <td className="px-4 py-2"><Link href={`/${bookSlug(book.name)}-chapters`} className="text-blue-600 hover:underline font-medium">{book.name}</Link></td>
-                    <td className="px-4 py-2 text-primary-dark/70 dark:text-primary-dark/40 hidden sm:table-cell">{book.author}</td>
-                    <td className="px-4 py-2 text-primary-dark/70 dark:text-primary-dark/40">{book.chapters}</td>
-                    <td className="px-4 py-2 hidden sm:table-cell"><span className="bg-blue-100 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300 text-xs px-2 py-0.5 rounded-full">{book.category}</span></td>
-                    <td className="px-4 py-2 text-primary-dark/60 dark:text-primary-dark/40 text-xs hidden md:table-cell">{book.theme}</td>
+                  <tr key={idx} className="border-t border-grace dark:border-dark-border hover:bg-sacred-light/50 dark:hover:bg-dark-border/20">
+                    <td className="px-4 py-2"><Link href={`/${bookSlug(book.name)}-chapters`} className="text-sacred hover:underline font-medium">{book.name}</Link></td>
+                    <td className="px-4 py-2 text-ink-muted dark:text-ink-light hidden sm:table-cell">{book.author}</td>
+                    <td className="px-4 py-2 text-ink-muted dark:text-ink-light">{book.chapters}</td>
+                    <td className="px-4 py-2 hidden sm:table-cell"><span className="bg-sacred/10 dark:bg-sacred-light0/30 text-scripture dark:text-sacred text-xs px-2 py-0.5 rounded-full">{book.category}</span></td>
+                    <td className="px-4 py-2 text-ink-muted dark:text-ink-light text-xs hidden md:table-cell">{book.theme}</td>
                   </tr>
                 ))}
               </tbody>
@@ -442,16 +442,16 @@ export default function BiblePage() {
         {/* OT vs NT Comparison */}
         <section id="ot-vs-nt" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">Old Testament vs New Testament</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             People often ask: what&apos;s the difference? Think of the Old Testament as the setup and the New Testament as the payoff. The OT asks the question; the NT answers it.
           </p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Aspect</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Old Testament</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">New Testament</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Aspect</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Old Testament</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">New Testament</th>
                 </tr>
               </thead>
               <tbody>
@@ -467,8 +467,8 @@ export default function BiblePage() {
                 ].map((r, idx) => (
                   <tr key={idx} className="border-t border-grace dark:border-dark-border">
                     <td className="px-4 py-3 font-medium text-scripture dark:text-white">{r.aspect}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40">{r.ot}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40">{r.nt}</td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light">{r.ot}</td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light">{r.nt}</td>
                   </tr>
                 ))}
               </tbody>
@@ -479,24 +479,24 @@ export default function BiblePage() {
         {/* Who Wrote the Bible? */}
         <section id="authorship" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">Who Wrote the Bible?</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             Short answer: God used about 40 human authors. Long answer: it&apos;s more interesting than that.
           </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             The authors include a <strong>former prince of Egypt</strong> (Moses), a <strong>shepherd-turned-king</strong> (David), a <strong>tax collector</strong> (Matthew), a <strong>doctor</strong> (Luke), a <strong>tentmaker and former Pharisee</strong> (Paul), <strong>fishermen</strong> (Peter, John), a <strong>farmer</strong> (Amos), a <strong>cupbearer to a pagan king</strong> (Nehemiah), and a <strong>political prisoner on a remote island</strong> (John, when he wrote Revelation).
           </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
-            These men lived across 1,500 years on three continents (Africa, Asia, Europe), wrote in three languages (Hebrew, Aramaic, Greek), and came from every social class. Yet the Bible reads as one coherent story. Christians understand this through the doctrine of <strong>inspiration</strong>: &ldquo;All scripture is given by inspiration of God&rdquo; (<Link href="/cross-references/2-timothy/3/16" className="text-blue-600 hover:underline">2 Timothy 3:16</Link>). God didn&apos;t dictate — He guided each author&apos;s personality, vocabulary, and style while ensuring the result was exactly what He intended.
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
+            These men lived across 1,500 years on three continents (Africa, Asia, Europe), wrote in three languages (Hebrew, Aramaic, Greek), and came from every social class. Yet the Bible reads as one coherent story. Christians understand this through the doctrine of <strong>inspiration</strong>: &ldquo;All scripture is given by inspiration of God&rdquo; (<Link href="/cross-references/2-timothy/3/16" className="text-sacred hover:underline">2 Timothy 3:16</Link>). God didn&apos;t dictate — He guided each author&apos;s personality, vocabulary, and style while ensuring the result was exactly what He intended.
           </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
-            Peter put it this way: &ldquo;Holy men of God spake as they were moved by the Holy Ghost&rdquo; (<Link href="/cross-references/2-peter/1/21" className="text-blue-600 hover:underline">2 Peter 1:21</Link>). The word &ldquo;moved&rdquo; is the Greek <Link href="/greek-word/phero" className="text-blue-600 hover:underline"><em>phero</em></Link> — the same word used for wind carrying a ship. God carried the authors where He wanted the text to go.
+          <p className="text-scripture dark:text-ink-light leading-relaxed">
+            Peter put it this way: &ldquo;Holy men of God spake as they were moved by the Holy Ghost&rdquo; (<Link href="/cross-references/2-peter/1/21" className="text-sacred hover:underline">2 Peter 1:21</Link>). The word &ldquo;moved&rdquo; is the Greek <Link href="/greek-word/phero" className="text-sacred hover:underline"><em>phero</em></Link> — the same word used for wind carrying a ship. God carried the authors where He wanted the text to go.
           </p>
         </section>
 
         {/* How It Was Written & Preserved */}
         <section id="how-written" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">How the Bible Was Written and Preserved</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             The Bible wasn&apos;t dropped from heaven as a finished product. It was written over centuries, on scrolls of papyrus and parchment, then meticulously copied by hand for thousands of years before the printing press existed.
           </p>
           <div className="space-y-4 mb-6">
@@ -514,9 +514,9 @@ export default function BiblePage() {
                   {idx < 5 && <div className="w-0.5 flex-1 bg-scripture/20 mt-1" />}
                 </div>
                 <div className="pb-4">
-                  <p className="text-xs text-scripture dark:text-blue-400 font-bold">{item.period}</p>
+                  <p className="text-xs text-scripture dark:text-sacred font-bold">{item.period}</p>
                   <p className="font-bold text-scripture dark:text-white text-sm">{item.title}</p>
-                  <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">{item.detail}</p>
+                  <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">{item.detail}</p>
                 </div>
               </div>
             ))}
@@ -526,26 +526,26 @@ export default function BiblePage() {
         {/* Manuscript Evidence */}
         <section id="manuscripts" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">Ancient Manuscript Evidence</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             How do we know the Bible we read today matches what was originally written? Manuscripts. The Bible has more manuscript evidence than any other ancient document — and it&apos;s not even close.
           </p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Manuscript</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">Date</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden md:table-cell">Discovered</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Significance</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Manuscript</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden sm:table-cell">Date</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden md:table-cell">Discovered</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Significance</th>
                 </tr>
               </thead>
               <tbody>
                 {MANUSCRIPTS.map((m, idx) => (
                   <tr key={idx} className="border-t border-grace dark:border-dark-border">
                     <td className="px-4 py-3 font-medium text-scripture dark:text-white">{m.name}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden sm:table-cell whitespace-nowrap">{m.date}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden md:table-cell text-xs">{m.found}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 text-xs">{m.significance}</td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light hidden sm:table-cell whitespace-nowrap">{m.date}</td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light hidden md:table-cell text-xs">{m.found}</td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light text-xs">{m.significance}</td>
                   </tr>
                 ))}
               </tbody>
@@ -556,28 +556,28 @@ export default function BiblePage() {
         {/* Translations Compared */}
         <section id="translations" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">Major Bible Translations Compared</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             With dozens of English translations available, which one should you use? Here&apos;s a straightforward comparison. There&apos;s no single &ldquo;best&rdquo; translation — the best Bible is the one you actually read.
           </p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden overflow-x-auto">
             <table className="w-full text-sm min-w-[600px]">
               <thead>
                 <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Translation</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Year</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Type</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Reading Level</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Best For</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Translation</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Year</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Type</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Reading Level</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Best For</th>
                 </tr>
               </thead>
               <tbody>
                 {TRANSLATIONS.map((t, idx) => (
                   <tr key={idx} className="border-t border-grace dark:border-dark-border">
                     <td className="px-4 py-3 font-medium text-scripture dark:text-white whitespace-nowrap">{t.name}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40">{t.year}</td>
-                    <td className="px-4 py-3"><span className="bg-blue-100 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300 text-xs px-2 py-0.5 rounded-full whitespace-nowrap">{t.type}</span></td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40">{t.reading}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 text-xs">{t.best}</td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light">{t.year}</td>
+                    <td className="px-4 py-3"><span className="bg-sacred/10 dark:bg-sacred-light0/30 text-scripture dark:text-sacred text-xs px-2 py-0.5 rounded-full whitespace-nowrap">{t.type}</span></td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light">{t.reading}</td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light text-xs">{t.best}</td>
                   </tr>
                 ))}
               </tbody>
@@ -588,72 +588,72 @@ export default function BiblePage() {
         {/* Key People */}
         <section id="key-people" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">20 Key People in the Bible</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-4 text-sm">The Bible features hundreds of named individuals. These 20 shaped the story most dramatically.</p>
+          <p className="text-ink-muted dark:text-ink-light mb-4 text-sm">The Bible features hundreds of named individuals. These 20 shaped the story most dramatically.</p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Person</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">Role</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden md:table-cell">Key Passage</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Significance</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Person</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden sm:table-cell">Role</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden md:table-cell">Key Passage</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Significance</th>
                 </tr>
               </thead>
               <tbody>
                 {KEY_PEOPLE.map((p, idx) => (
-                  <tr key={idx} className="border-t border-grace dark:border-dark-border hover:bg-blue-50/50 dark:hover:bg-dark-border/20">
+                  <tr key={idx} className="border-t border-grace dark:border-dark-border hover:bg-sacred-light/50 dark:hover:bg-dark-border/20">
                     <td className="px-4 py-2">
-                      <Link href={`/bible-characters/${bookSlug(p.name)}`} className="text-blue-600 hover:underline font-medium">{p.name}</Link>
+                      <Link href={`/bible-characters/${bookSlug(p.name)}`} className="text-sacred hover:underline font-medium">{p.name}</Link>
                       <span className="ml-1 text-xs bg-amber-100 dark:bg-amber-950/30 text-amber-700 dark:text-amber-300 px-1.5 py-0.5 rounded-full">{p.testament}</span>
                     </td>
-                    <td className="px-4 py-2 text-primary-dark/70 dark:text-primary-dark/40 text-xs hidden sm:table-cell">{p.role}</td>
-                    <td className="px-4 py-2 text-primary-dark/70 dark:text-primary-dark/40 text-xs hidden md:table-cell">{p.ref}</td>
-                    <td className="px-4 py-2 text-primary-dark/70 dark:text-primary-dark/40 text-xs">{p.significance}</td>
+                    <td className="px-4 py-2 text-ink-muted dark:text-ink-light text-xs hidden sm:table-cell">{p.role}</td>
+                    <td className="px-4 py-2 text-ink-muted dark:text-ink-light text-xs hidden md:table-cell">{p.ref}</td>
+                    <td className="px-4 py-2 text-ink-muted dark:text-ink-light text-xs">{p.significance}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 text-sm mt-3">
-            Explore all biblical figures in our <Link href="/bible-characters" className="text-blue-600 hover:underline">Bible Characters directory</Link> or take a <Link href="/bible-quiz-categories" className="text-blue-600 hover:underline">Bible character quiz</Link>.
+          <p className="text-ink-muted dark:text-ink-light text-sm mt-3">
+            Explore all biblical figures in our <Link href="/bible-characters" className="text-sacred hover:underline">Bible Characters directory</Link> or take a <Link href="/bible-quiz-categories" className="text-sacred hover:underline">Bible character quiz</Link>.
           </p>
         </section>
 
         {/* Major Events Timeline */}
         <section id="timeline" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">Major Events in the Bible</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-4 text-sm">A chronological overview of the Bible&apos;s pivotal moments — from Creation to Revelation.</p>
+          <p className="text-ink-muted dark:text-ink-light mb-4 text-sm">A chronological overview of the Bible&apos;s pivotal moments — from Creation to Revelation.</p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Date</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Event</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">Description</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden md:table-cell">Reference</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Date</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Event</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden sm:table-cell">Description</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden md:table-cell">Reference</th>
                 </tr>
               </thead>
               <tbody>
                 {MAJOR_EVENTS.map((e, idx) => (
                   <tr key={idx} className="border-t border-grace dark:border-dark-border">
-                    <td className="px-4 py-2 text-scripture dark:text-blue-400 font-medium whitespace-nowrap text-xs">{e.date}</td>
+                    <td className="px-4 py-2 text-scripture dark:text-sacred font-medium whitespace-nowrap text-xs">{e.date}</td>
                     <td className="px-4 py-2 font-medium text-scripture dark:text-white text-xs">{e.event}</td>
-                    <td className="px-4 py-2 text-primary-dark/70 dark:text-primary-dark/40 text-xs hidden sm:table-cell">{e.description}</td>
-                    <td className="px-4 py-2 text-primary-dark/70 dark:text-primary-dark/40 text-xs hidden md:table-cell">{e.ref}</td>
+                    <td className="px-4 py-2 text-ink-muted dark:text-ink-light text-xs hidden sm:table-cell">{e.description}</td>
+                    <td className="px-4 py-2 text-ink-muted dark:text-ink-light text-xs hidden md:table-cell">{e.ref}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 text-sm mt-3">
-            See the full interactive timeline at our <Link href="/timeline" className="text-blue-600 hover:underline">Bible Timeline</Link> page.
+          <p className="text-ink-muted dark:text-ink-light text-sm mt-3">
+            See the full interactive timeline at our <Link href="/timeline" className="text-sacred hover:underline">Bible Timeline</Link> page.
           </p>
         </section>
 
         {/* One Story in 66 Books */}
         <section id="one-story" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">One Story in 66 Books</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             Here&apos;s what makes the Bible unlike any other book: 40 authors across 1,500 years didn&apos;t plan a meeting. They didn&apos;t share notes. Many never knew the others existed. Yet the Bible tells one continuous story with a beginning, a conflict, a climax, and a resolution.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
@@ -667,12 +667,12 @@ export default function BiblePage() {
             ].map((item) => (
               <div key={item.act} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
                 <h3 className="font-bold text-scripture dark:text-white mb-2">{item.act}</h3>
-                <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed mb-2">{item.detail}</p>
-                <p className="text-xs text-scripture dark:text-blue-400 font-medium">{item.books}</p>
+                <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed mb-2">{item.detail}</p>
+                <p className="text-xs text-scripture dark:text-sacred font-medium">{item.books}</p>
               </div>
             ))}
           </div>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
+          <p className="text-scripture dark:text-ink-light leading-relaxed">
             That&apos;s the Bible in six acts. Every book fits somewhere in this arc. When you know the big story, individual verses stop being random quotes and start making sense as part of something much larger.
           </p>
         </section>
@@ -680,24 +680,24 @@ export default function BiblePage() {
         {/* Common Misconceptions */}
         <section id="misconceptions" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">8 Common Misconceptions About the Bible</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             The Bible is the most quoted and most misquoted book in history. Here are claims you&apos;ve probably heard — and what the evidence actually shows.
           </p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">What People Say</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">What the Evidence Shows</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden md:table-cell">Why It Matters</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">What People Say</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">What the Evidence Shows</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden md:table-cell">Why It Matters</th>
                 </tr>
               </thead>
               <tbody>
                 {MISCONCEPTIONS.map((m, idx) => (
                   <tr key={idx} className="border-t border-grace dark:border-dark-border">
                     <td className="px-4 py-3 font-medium text-red-700 dark:text-red-400 text-xs">{m.myth}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 text-xs">{m.reality}</td>
-                    <td className="px-4 py-3 text-primary-dark/60 dark:text-primary-dark/40 text-xs hidden md:table-cell">{m.why}</td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light text-xs">{m.reality}</td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light text-xs hidden md:table-cell">{m.why}</td>
                   </tr>
                 ))}
               </tbody>
@@ -708,26 +708,26 @@ export default function BiblePage() {
         {/* Is the Bible Reliable? */}
         <section id="reliable" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">Is the Bible Reliable?</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             Fair question. Here are three categories of evidence — and you can verify all of them independently.
           </p>
           <div className="space-y-6">
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
               <h3 className="font-bold text-scripture dark:text-white mb-2">1. Manuscript Evidence</h3>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">
                 The New Testament has <strong>5,800+ Greek manuscripts</strong>, 10,000+ Latin manuscripts, and 9,300+ manuscripts in other languages. For comparison, Homer&apos;s <em>Iliad</em> has about 1,800 copies — the second-best attested ancient work. Caesar&apos;s <em>Gallic Wars</em>? About 10. The manuscript gap for the New Testament is closer to the original events than any other ancient document (some fragments within 30-40 years of the originals).
               </p>
             </div>
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
               <h3 className="font-bold text-scripture dark:text-white mb-2">2. Archaeological Evidence</h3>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">
-                Archaeology has confirmed hundreds of biblical details: the existence of the Hittites (once doubted), the <Link href="/bible-places/pool-of-siloam" className="text-blue-600 hover:underline">Pool of Siloam</Link>, Pontius Pilate&apos;s inscription found at Caesarea, the Tel Dan Stele mentioning the &ldquo;House of David,&rdquo; and Babylonian records of <Link href="/bible-places/jerusalem" className="text-blue-600 hover:underline">Jerusalem&apos;s</Link> fall in 586 BC. No archaeological discovery has ever contradicted a biblical account.
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">
+                Archaeology has confirmed hundreds of biblical details: the existence of the Hittites (once doubted), the <Link href="/bible-places/pool-of-siloam" className="text-sacred hover:underline">Pool of Siloam</Link>, Pontius Pilate&apos;s inscription found at Caesarea, the Tel Dan Stele mentioning the &ldquo;House of David,&rdquo; and Babylonian records of <Link href="/bible-places/jerusalem" className="text-sacred hover:underline">Jerusalem&apos;s</Link> fall in 586 BC. No archaeological discovery has ever contradicted a biblical account.
               </p>
             </div>
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
               <h3 className="font-bold text-scripture dark:text-white mb-2">3. Prophetic Evidence</h3>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">
-                The Old Testament contains over 300 prophecies about the Messiah — written centuries before Jesus was born. He fulfilled them all: born in <Link href="/bible-places/bethlehem" className="text-blue-600 hover:underline">Bethlehem</Link> (<Link href="/cross-references/micah/5/2" className="text-blue-600 hover:underline">Micah 5:2</Link>), born of a virgin (<Link href="/cross-references/isaiah/7/14" className="text-blue-600 hover:underline">Isaiah 7:14</Link>), betrayed for 30 pieces of silver (<Link href="/cross-references/zechariah/11/12" className="text-blue-600 hover:underline">Zechariah 11:12</Link>), crucified (<Link href="/cross-references/psalm/22/16" className="text-blue-600 hover:underline">Psalm 22:16</Link> — written 1,000 years before crucifixion was invented), buried in a rich man&apos;s tomb (<Link href="/cross-references/isaiah/53/9" className="text-blue-600 hover:underline">Isaiah 53:9</Link>).
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">
+                The Old Testament contains over 300 prophecies about the Messiah — written centuries before Jesus was born. He fulfilled them all: born in <Link href="/bible-places/bethlehem" className="text-sacred hover:underline">Bethlehem</Link> (<Link href="/cross-references/micah/5/2" className="text-sacred hover:underline">Micah 5:2</Link>), born of a virgin (<Link href="/cross-references/isaiah/7/14" className="text-sacred hover:underline">Isaiah 7:14</Link>), betrayed for 30 pieces of silver (<Link href="/cross-references/zechariah/11/12" className="text-sacred hover:underline">Zechariah 11:12</Link>), crucified (<Link href="/cross-references/psalm/22/16" className="text-sacred hover:underline">Psalm 22:16</Link> — written 1,000 years before crucifixion was invented), buried in a rich man&apos;s tomb (<Link href="/cross-references/isaiah/53/9" className="text-sacred hover:underline">Isaiah 53:9</Link>).
               </p>
             </div>
           </div>
@@ -736,7 +736,7 @@ export default function BiblePage() {
         {/* Influence on the World */}
         <section id="influence" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">The Bible&apos;s Influence on the World</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             Whether you believe it&apos;s divinely inspired or not, the Bible&apos;s impact on civilization is beyond dispute. Here&apos;s a fraction of what it shaped:
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -750,7 +750,7 @@ export default function BiblePage() {
             ].map((item) => (
               <div key={item.area} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
                 <h3 className="font-bold text-scripture dark:text-white text-sm mb-2">{item.area}</h3>
-                <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">{item.detail}</p>
+                <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">{item.detail}</p>
               </div>
             ))}
           </div>
@@ -759,7 +759,7 @@ export default function BiblePage() {
         {/* How to Read the Bible */}
         <section id="how-to-read" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">How to Read the Bible (A Practical Guide)</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-6">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-6">
             The Bible is 66 books, 1,189 chapters, and 783,000 words. That&apos;s intimidating. Here&apos;s how to actually start — and stick with it.
           </p>
           <div className="space-y-4">
@@ -776,8 +776,8 @@ export default function BiblePage() {
                   <span className="w-9 h-9 rounded-full bg-scripture text-white flex items-center justify-center text-sm font-bold shrink-0">{item.step}</span>
                   <div>
                     <h3 className="font-bold text-scripture dark:text-white mb-1">{item.title}</h3>
-                    <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed mb-2">{item.detail}</p>
-                    <Link href={item.link} className="text-blue-600 hover:underline text-xs font-medium">{item.linkText} &rarr;</Link>
+                    <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed mb-2">{item.detail}</p>
+                    <Link href={item.link} className="text-sacred hover:underline text-xs font-medium">{item.linkText} &rarr;</Link>
                   </div>
                 </div>
               </div>
@@ -788,17 +788,17 @@ export default function BiblePage() {
         {/* Reading Plans */}
         <section id="reading-plans" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">Bible Reading Plans for Beginners</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             Not sure where to start? Pick the plan that matches your goal:
           </p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Plan</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Duration</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">Daily Time</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Best For</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Plan</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Duration</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden sm:table-cell">Daily Time</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Best For</th>
                 </tr>
               </thead>
               <tbody>
@@ -812,28 +812,28 @@ export default function BiblePage() {
                 ].map((r, idx) => (
                   <tr key={idx} className="border-t border-grace dark:border-dark-border">
                     <td className="px-4 py-3 font-medium text-scripture dark:text-white">{r.plan}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40">{r.duration}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden sm:table-cell">{r.time}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 text-xs">{r.best}</td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light">{r.duration}</td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light hidden sm:table-cell">{r.time}</td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light text-xs">{r.best}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 text-sm mt-3">
-            Browse all available plans on our <Link href="/reading-plans" className="text-blue-600 hover:underline">Bible Reading Plans</Link> page.
+          <p className="text-ink-muted dark:text-ink-light text-sm mt-3">
+            Browse all available plans on our <Link href="/reading-plans" className="text-sacred hover:underline">Bible Reading Plans</Link> page.
           </p>
         </section>
 
         {/* Gospel CTA */}
         <section className="mb-12">
-          <div className="bg-gradient-to-br from-scripture via-scripture/95 to-blue-950 rounded-xl p-8 md:p-10 text-center text-white">
+          <div className="bg-gradient-to-br from-scripture via-scripture/95 to-scripture/80 rounded-xl p-8 md:p-10 text-center text-white">
             <h2 className="text-2xl md:text-3xl font-bold font-display mb-4">The Bible&apos;s Central Message in Four Sentences</h2>
-            <p className="text-blue-100/90 max-w-2xl mx-auto leading-relaxed mb-6">
+            <p className="text-sacred-light/90 max-w-2xl mx-auto leading-relaxed mb-6">
               God created you for a relationship with Himself. You broke that relationship through sin. Jesus Christ died to restore it. If you trust Him, you receive forgiveness and eternal life. That&apos;s the entire Bible — 66 books, 31,102 verses, one invitation.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <Link href="/john-3-16" className="inline-block bg-white text-scripture font-bold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors">
+              <Link href="/john-3-16" className="inline-block bg-white text-scripture font-bold px-6 py-3 rounded-lg hover:bg-sacred-light transition-colors">
                 Read John 3:16 Explained
               </Link>
               <Link href="/bible-verses#salvation" className="inline-block border-2 border-white/40 text-white font-bold px-6 py-3 rounded-lg hover:bg-white/10 transition-colors">
@@ -851,9 +851,9 @@ export default function BiblePage() {
               <details key={idx} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm group">
                 <summary className="px-5 py-4 cursor-pointer font-bold text-scripture dark:text-white text-sm flex items-center justify-between list-none">
                   {item.question}
-                  <span className="text-primary-dark/30 group-open:rotate-45 transition-transform text-lg">+</span>
+                  <span className="text-ink-light group-open:rotate-45 transition-transform text-lg">+</span>
                 </summary>
-                <div className="px-5 pb-5 text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">
+                <div className="px-5 pb-5 text-ink-muted dark:text-ink-light text-sm leading-relaxed">
                   {item.answer}
                 </div>
               </details>
@@ -875,9 +875,9 @@ export default function BiblePage() {
               { label: 'Cross-References', href: '/cross-references/john/3/16', desc: '29,000+ verse-to-verse connections' },
               { label: 'Bible Quizzes', href: '/bible-quizzes', desc: 'Test your knowledge with 1,000+ quiz questions' },
             ].map((item) => (
-              <Link key={item.href} href={item.href} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-4 shadow-sm hover:border-scripture dark:hover:border-blue-500 transition-colors group">
+              <Link key={item.href} href={item.href} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-4 shadow-sm hover:border-scripture dark:hover:border-sacred/50 transition-colors group">
                 <p className="font-bold text-scripture dark:text-white text-sm group-hover:underline">{item.label}</p>
-                <p className="text-primary-dark/60 dark:text-primary-dark/40 text-xs mt-1">{item.desc}</p>
+                <p className="text-ink-muted dark:text-ink-light text-xs mt-1">{item.desc}</p>
               </Link>
             ))}
           </div>
@@ -907,7 +907,7 @@ export default function BiblePage() {
               { label: 'Books of the Bible in Order', href: '/books-of-the-bible-in-order' },
               { label: 'Who Wrote the Bible?', href: '/who-wrote-the-bible' },
             ].map((link) => (
-              <Link key={link.href} href={link.href} className="text-xs bg-blue-50 dark:bg-blue-950/20 text-blue-700 dark:text-blue-300 px-3 py-1.5 rounded-full hover:bg-blue-100 dark:hover:bg-blue-950/40 transition-colors">
+              <Link key={link.href} href={link.href} className="text-xs bg-sacred-light dark:bg-sacred-light0/20 text-scripture dark:text-sacred px-3 py-1.5 rounded-full hover:bg-sacred-light dark:hover:bg-sacred-light/40 transition-colors">
                 {link.label}
               </Link>
             ))}

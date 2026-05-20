@@ -155,7 +155,7 @@ export default function BibleStudyForBeginnersPage() {
             <h1 className="text-3xl md:text-4xl font-bold font-display mb-4 text-scripture">
               Bible Study for Beginners
             </h1>
-            <p className="text-lg text-primary-dark/70 max-w-3xl mb-4">
+            <p className="text-lg text-ink-muted max-w-3xl mb-4">
               Your complete guide to starting a meaningful Bible reading practice. Whether you are
               a new Christian, returning to faith after years away, or simply curious about what
               the Bible actually says, this guide will walk you through everything you need to know
@@ -163,22 +163,22 @@ export default function BibleStudyForBeginnersPage() {
             </p>
             <Link
               href="/bible-quizzes"
-              className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md w-fit mb-6"
+              className="inline-flex items-center px-6 py-3 bg-white text-scripture font-bold rounded-lg hover:bg-sacred-light transition-colors shadow-md w-fit mb-6"
             >
               Start Learning — Take Your First Quiz
             </Link>
             <div className="flex flex-wrap gap-6 text-center mb-6">
               <div>
                 <p className="text-3xl font-bold text-scripture">66</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Books</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Books</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-scripture">5</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Key Starting Points</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Key Starting Points</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-scripture">4 R&apos;s</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Simple Method</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Simple Method</p>
               </div>
             </div>
           </div>
@@ -191,37 +191,37 @@ export default function BibleStudyForBeginnersPage() {
           <h2 className="text-lg font-bold text-scripture mb-3">Table of Contents</h2>
           <ol className="space-y-1.5 text-sm">
             <li>
-              <a href="#introduction" className="text-blue-600 hover:underline">
+              <a href="#introduction" className="text-sacred hover:underline">
                 1. Introduction: What Is the Bible?
               </a>
             </li>
             <li>
-              <a href="#where-to-start" className="text-blue-600 hover:underline">
+              <a href="#where-to-start" className="text-sacred hover:underline">
                 2. Where to Start Reading the Bible
               </a>
             </li>
             <li>
-              <a href="#essential-tools" className="text-blue-600 hover:underline">
+              <a href="#essential-tools" className="text-sacred hover:underline">
                 3. 5 Essential Tools for Bible Study
               </a>
             </li>
             <li>
-              <a href="#study-method" className="text-blue-600 hover:underline">
+              <a href="#study-method" className="text-sacred hover:underline">
                 4. The 4 R&apos;s: A Simple Bible Study Method for Beginners
               </a>
             </li>
             <li>
-              <a href="#common-questions" className="text-blue-600 hover:underline">
+              <a href="#common-questions" className="text-sacred hover:underline">
                 5. Common Questions from Beginners
               </a>
             </li>
             <li>
-              <a href="#daily-habit" className="text-blue-600 hover:underline">
+              <a href="#daily-habit" className="text-sacred hover:underline">
                 6. Building a Daily Bible Reading Habit
               </a>
             </li>
             <li>
-              <a href="#reading-plans" className="text-blue-600 hover:underline">
+              <a href="#reading-plans" className="text-sacred hover:underline">
                 7. Recommended First-Time Reading Plans
               </a>
             </li>
@@ -237,7 +237,7 @@ export default function BibleStudyForBeginnersPage() {
           <h2 className="text-2xl font-bold font-display text-scripture mb-4 border-b border-grace pb-2">
             1. Introduction: What Is the Bible?
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-4">
+          <p className="text-scripture leading-relaxed mb-4">
             If you are new to the Bible, the first thing to understand is that it is not a single book -- it
             is a library. The Bible contains 66 individual books written by approximately 40 different authors
             over a span of roughly 1,500 years. These authors included kings, shepherds, fishermen, a doctor,
@@ -245,7 +245,7 @@ export default function BibleStudyForBeginnersPage() {
             Christians believe the Bible is unified by a single divine Author -- God Himself -- who inspired
             every word through the Holy Spirit (2 Timothy 3:16).
           </p>
-          <p className="text-primary-dark/80 leading-relaxed mb-4">
+          <p className="text-scripture leading-relaxed mb-4">
             The Bible is divided into two major sections. The Old Testament contains 39 books and covers the
             period from the creation of the world through roughly 400 years before the birth of Jesus Christ.
             It includes the history of Israel, the law God gave to Moses, the poetry and wisdom of Solomon
@@ -254,21 +254,21 @@ export default function BibleStudyForBeginnersPage() {
             growth of the early church, the letters of the apostles explaining Christian doctrine, and the
             prophecy of Revelation describing the end of the age.
           </p>
-          <p className="text-primary-dark/80 leading-relaxed mb-4">
+          <p className="text-scripture leading-relaxed mb-4">
             Together, these 66 books tell one grand story: God created humanity for relationship with Himself,
             humanity fell into sin and separated itself from God, and God initiated a plan of redemption that
             culminated in the life, death, and resurrection of His Son, Jesus Christ. Every book in the Bible
             contributes to this overarching narrative. Understanding this big picture makes studying individual
             books and passages far more meaningful, because you can see how each piece fits into the whole.
           </p>
-          <p className="text-primary-dark/80 leading-relaxed mb-4">
+          <p className="text-scripture leading-relaxed mb-4">
             Do not let the size of the Bible intimidate you. You do not need to read all 66 books before you
             can benefit from Scripture. Even a single chapter, read carefully and prayerfully, can transform
             your understanding of God and yourself. The key is simply to begin. The fact that you are reading
             this guide means you are already taking the most important step -- the decision to open the Bible
             and let God speak to you through His Word.
           </p>
-          <p className="text-primary-dark/80 leading-relaxed">
+          <p className="text-scripture leading-relaxed">
             As the Psalmist wrote, &ldquo;The entrance of thy words giveth light; it giveth understanding
             unto the simple&rdquo; (Psalm 119:130). God promises that His Word will illuminate your path,
             regardless of how much you already know. You do not need a seminary degree to understand the
@@ -281,7 +281,7 @@ export default function BibleStudyForBeginnersPage() {
           <h2 className="text-2xl font-bold font-display text-scripture mb-4 border-b border-grace pb-2">
             2. Where to Start Reading the Bible
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-6">
+          <p className="text-scripture leading-relaxed mb-6">
             One of the most common questions beginners ask is, &ldquo;Where should I start?&rdquo; While
             you can technically open to any page and find something valuable, certain books are better
             entry points than others. Here are five recommended starting places, in the order most Bible
@@ -293,7 +293,7 @@ export default function BibleStudyForBeginnersPage() {
               <h3 className="font-semibold text-scripture mb-2">
                 1. The Gospel of John -- Meet Jesus
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed mb-3">
+              <p className="text-sm text-ink-muted leading-relaxed mb-3">
                 The Gospel of John is the single best place to start reading the Bible. Written by the
                 apostle John, who was one of Jesus&apos; closest disciples, this book presents the life,
                 teachings, miracles, death, and resurrection of Jesus Christ in a deeply personal and
@@ -308,7 +308,7 @@ export default function BibleStudyForBeginnersPage() {
               </p>
               <Link
                 href="/john-chapters"
-                className="text-blue-600 hover:underline text-sm font-medium"
+                className="text-sacred hover:underline text-sm font-medium"
               >
                 Start reading the Gospel of John &rarr;
               </Link>
@@ -318,7 +318,7 @@ export default function BibleStudyForBeginnersPage() {
               <h3 className="font-semibold text-scripture mb-2">
                 2. Genesis -- The Beginning of Everything
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed mb-3">
+              <p className="text-sm text-ink-muted leading-relaxed mb-3">
                 After meeting Jesus in John, go back to the very beginning. Genesis is the book of origins
                 -- the origin of the universe, of humanity, of marriage, of sin, of death, and of God&apos;s
                 plan of redemption. In Genesis, God creates the world, Adam and Eve fall into sin, and
@@ -331,7 +331,7 @@ export default function BibleStudyForBeginnersPage() {
               </p>
               <Link
                 href="/genesis-chapters"
-                className="text-blue-600 hover:underline text-sm font-medium"
+                className="text-sacred hover:underline text-sm font-medium"
               >
                 Start reading Genesis &rarr;
               </Link>
@@ -341,7 +341,7 @@ export default function BibleStudyForBeginnersPage() {
               <h3 className="font-semibold text-scripture mb-2">
                 3. Romans -- Core Christian Theology
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed mb-3">
+              <p className="text-sm text-ink-muted leading-relaxed mb-3">
                 The book of Romans, written by the apostle Paul, is the most systematic explanation of
                 the Christian gospel in the entire Bible. It answers fundamental questions: Why do humans
                 need salvation? How does God save sinners? What does it mean to be justified by faith?
@@ -354,7 +354,7 @@ export default function BibleStudyForBeginnersPage() {
               </p>
               <Link
                 href="/romans-chapters"
-                className="text-blue-600 hover:underline text-sm font-medium"
+                className="text-sacred hover:underline text-sm font-medium"
               >
                 Start reading Romans &rarr;
               </Link>
@@ -364,7 +364,7 @@ export default function BibleStudyForBeginnersPage() {
               <h3 className="font-semibold text-scripture mb-2">
                 4. Psalms -- Prayer and Worship
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed mb-3">
+              <p className="text-sm text-ink-muted leading-relaxed mb-3">
                 The book of Psalms is the Bible&apos;s prayer book and hymnal. It contains 150 poems and
                 songs that express every human emotion -- joy, sorrow, fear, anger, gratitude, loneliness,
                 and hope. Written primarily by King David, the Psalms teach you how to talk to God honestly.
@@ -375,7 +375,7 @@ export default function BibleStudyForBeginnersPage() {
               </p>
               <Link
                 href="/psalms-chapters"
-                className="text-blue-600 hover:underline text-sm font-medium"
+                className="text-sacred hover:underline text-sm font-medium"
               >
                 Start reading Psalms &rarr;
               </Link>
@@ -385,7 +385,7 @@ export default function BibleStudyForBeginnersPage() {
               <h3 className="font-semibold text-scripture mb-2">
                 5. Acts -- The Early Church in Action
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed mb-3">
+              <p className="text-sm text-ink-muted leading-relaxed mb-3">
                 The book of Acts picks up where the Gospels leave off. It records the birth of the Christian
                 church on the day of Pentecost, the dramatic conversion of the apostle Paul, and the spread
                 of the gospel from Jerusalem to Rome. Acts reads like an adventure story -- filled with
@@ -397,7 +397,7 @@ export default function BibleStudyForBeginnersPage() {
               </p>
               <Link
                 href="/acts-chapters"
-                className="text-blue-600 hover:underline text-sm font-medium"
+                className="text-sacred hover:underline text-sm font-medium"
               >
                 Start reading Acts &rarr;
               </Link>
@@ -410,7 +410,7 @@ export default function BibleStudyForBeginnersPage() {
           <h2 className="text-2xl font-bold font-display text-scripture mb-4 border-b border-grace pb-2">
             3. 5 Essential Tools for Bible Study
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-6">
+          <p className="text-scripture leading-relaxed mb-6">
             You do not need expensive equipment or advanced degrees to study the Bible effectively.
             However, a few basic tools will make your study more productive and more enjoyable. Here
             are the five essentials every beginner should have.
@@ -421,7 +421,7 @@ export default function BibleStudyForBeginnersPage() {
               <h3 className="font-semibold text-scripture mb-2">
                 1. A Readable Bible Translation
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 The King James Version (KJV) has been the gold standard of English Bible translations for
                 over 400 years. Its language is beautiful, precise, and deeply influential on the English
                 language itself. While some beginners find the Elizabethan vocabulary challenging at first,
@@ -438,7 +438,7 @@ export default function BibleStudyForBeginnersPage() {
               <h3 className="font-semibold text-scripture mb-2">
                 2. A Notebook or Journal
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Writing down what you learn transforms passive reading into active study. Keep a dedicated
                 Bible study notebook where you record observations, questions, verse references, prayer
                 requests, and personal applications. Many believers look back on years of Bible journals
@@ -452,11 +452,11 @@ export default function BibleStudyForBeginnersPage() {
               <h3 className="font-semibold text-scripture mb-2">
                 3. A Bible Dictionary or Concordance
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 When you encounter an unfamiliar word, place, or concept, a Bible dictionary explains it
                 in context. A concordance lets you look up every occurrence of a specific word in the Bible,
                 which is invaluable for understanding how Scripture uses a term. Bible Maximum&apos;s{' '}
-                <Link href="/lexicon" className="text-blue-600 hover:underline">
+                <Link href="/lexicon" className="text-sacred hover:underline">
                   Hebrew and Greek Lexicon
                 </Link>{' '}
                 provides original-language definitions for every word in the Bible, tied to Strong&apos;s
@@ -468,11 +468,11 @@ export default function BibleStudyForBeginnersPage() {
               <h3 className="font-semibold text-scripture mb-2">
                 4. A Reading Plan
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 A reading plan gives structure to your Bible study and prevents the aimless wandering
                 that often leads to abandoning the habit. It tells you exactly what to read each day,
                 how much to read, and in what order. Bible Maximum offers{' '}
-                <Link href="/reading-plans" className="text-blue-600 hover:underline">
+                <Link href="/reading-plans" className="text-sacred hover:underline">
                   structured reading plans
                 </Link>{' '}
                 ranging from 14 days to a full year, organized by category. For beginners, starting with
@@ -484,7 +484,7 @@ export default function BibleStudyForBeginnersPage() {
               <h3 className="font-semibold text-scripture mb-2">
                 5. A Study Group or Church Community
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 While personal Bible study is essential, studying in community adds accountability,
                 diverse perspectives, and encouragement. A local church, Sunday school class, or small
                 group Bible study provides a place to ask questions, discuss difficult passages, and
@@ -502,7 +502,7 @@ export default function BibleStudyForBeginnersPage() {
           <h2 className="text-2xl font-bold font-display text-scripture mb-4 border-b border-grace pb-2">
             4. The 4 R&apos;s: A Simple Bible Study Method for Beginners
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-4">
+          <p className="text-scripture leading-relaxed mb-4">
             Many beginners feel overwhelmed by formal study methods that involve complex charts,
             diagrams, or multi-step analytical processes. The 4 R&apos;s method is designed specifically
             for people who are just starting out. It is simple enough to do in 10 to 15 minutes, yet
@@ -515,7 +515,7 @@ export default function BibleStudyForBeginnersPage() {
               <h3 className="font-semibold text-scripture mb-2">
                 R1: READ -- Read a Short Passage
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Choose a single chapter or even a single paragraph. Do not try to read too much at once.
                 Quality matters more than quantity. Read the passage slowly, at least twice. On the first
                 reading, simply absorb the content. On the second reading, pay attention to details you
@@ -531,7 +531,7 @@ export default function BibleStudyForBeginnersPage() {
               <h3 className="font-semibold text-scripture mb-2">
                 R2: REFLECT -- Ask &ldquo;What Does This Tell Me About God?&rdquo;
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 After reading, pause and ask yourself one central question: What does this passage reveal
                 about the character, nature, or plan of God? Every passage in the Bible reveals something
                 about who God is -- His holiness, His mercy, His justice, His faithfulness, His love, His
@@ -546,7 +546,7 @@ export default function BibleStudyForBeginnersPage() {
               <h3 className="font-semibold text-scripture mb-2">
                 R3: RESPOND -- Write One Thing You Learned
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 In your notebook, write down one specific insight, lesson, or conviction from the passage.
                 This forces you to distill your reading into a concrete takeaway. It might be a truth
                 you had never considered before, a command you need to obey, a sin the passage convicts
@@ -560,7 +560,7 @@ export default function BibleStudyForBeginnersPage() {
               <h3 className="font-semibold text-scripture mb-2">
                 R4: REMEMBER -- Pick One Verse to Carry with You All Day
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Select the single verse that struck you most powerfully during your reading. Write it on
                 an index card, set it as your phone&apos;s lock screen, or simply repeat it to yourself
                 several times. The goal is to meditate on this verse throughout the day -- while
@@ -572,13 +572,13 @@ export default function BibleStudyForBeginnersPage() {
             </div>
           </div>
 
-          <p className="text-primary-dark/80 leading-relaxed">
+          <p className="text-scripture leading-relaxed">
             The beauty of the 4 R&apos;s method is that it works with any passage, at any reading level,
             in any amount of time. A busy parent can do it in five minutes during naptime. A college
             student can do it between classes. A retiree can expand it into an hour-long study session.
             The framework stays the same -- only the depth changes. For a more advanced approach as you
             grow, see our comprehensive guide to{' '}
-            <Link href="/how-to-study-the-bible" className="text-blue-600 hover:underline">
+            <Link href="/how-to-study-the-bible" className="text-sacred hover:underline">
               7 proven Bible study methods
             </Link>
             .
@@ -590,7 +590,7 @@ export default function BibleStudyForBeginnersPage() {
           <h2 className="text-2xl font-bold font-display text-scripture mb-4 border-b border-grace pb-2">
             5. Common Questions from Beginners
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-6">
+          <p className="text-scripture leading-relaxed mb-6">
             Every beginner has questions. That is a sign of healthy curiosity, not ignorance. Here
             are the questions we hear most often, along with honest, practical answers.
           </p>
@@ -600,7 +600,7 @@ export default function BibleStudyForBeginnersPage() {
               <h3 className="font-semibold text-scripture mb-2">
                 &ldquo;Should I read the Bible from beginning to end?&rdquo;
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 You can, and many believers eventually do read the entire Bible cover to cover. However,
                 most pastors and Bible teachers recommend a different approach for beginners. The Bible
                 is not arranged like a novel with a single linear plot. Starting in Genesis and reading
@@ -617,7 +617,7 @@ export default function BibleStudyForBeginnersPage() {
               <h3 className="font-semibold text-scripture mb-2">
                 &ldquo;How long should I study the Bible each day?&rdquo;
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Start with just 5 to 10 minutes a day. This may sound small, but consistency matters far
                 more than duration. A focused five-minute reading every single day produces more spiritual
                 growth than an occasional hour-long session once a week. The Puritan preacher Thomas Watson
@@ -634,7 +634,7 @@ export default function BibleStudyForBeginnersPage() {
               <h3 className="font-semibold text-scripture mb-2">
                 &ldquo;What if I don&apos;t understand what I&apos;m reading?&rdquo;
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 This is completely normal, especially when you are starting out. The Bible was written
                 across thousands of years in ancient Near Eastern and Greco-Roman cultures very different
                 from our own. Some passages require historical context, knowledge of literary genres, or
@@ -642,9 +642,9 @@ export default function BibleStudyForBeginnersPage() {
                 steps that help: pray for understanding before you read (James 1:5 promises God gives
                 wisdom generously to those who ask), use a study Bible with explanatory footnotes, look
                 up unfamiliar words in a{' '}
-                <Link href="/lexicon" className="text-blue-600 hover:underline">Bible dictionary or lexicon</Link>,
+                <Link href="/lexicon" className="text-sacred hover:underline">Bible dictionary or lexicon</Link>,
                 read a{' '}
-                <Link href="/bible-chapter-summaries" className="text-blue-600 hover:underline">chapter summary</Link>{' '}
+                <Link href="/bible-chapter-summaries" className="text-sacred hover:underline">chapter summary</Link>{' '}
                 before studying the chapter itself, and do not be afraid to skip a confusing passage
                 and return to it later. Understanding grows over time as you read more of the Bible and
                 see how its themes, characters, and doctrines connect across books and testaments.
@@ -655,18 +655,18 @@ export default function BibleStudyForBeginnersPage() {
               <h3 className="font-semibold text-scripture mb-2">
                 &ldquo;Do I need to learn Hebrew or Greek?&rdquo;
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 No. While knowledge of the original biblical languages -- Hebrew for the Old Testament
                 and Greek for the New Testament -- can certainly deepen your study, it is absolutely not
                 necessary for a meaningful and accurate understanding of Scripture. Good Bible translations
                 like the KJV, NKJV, and ESV are produced by teams of highly qualified scholars and
                 faithfully convey the meaning of the original text. When you want to explore the original
                 languages -- and many beginners develop this curiosity naturally -- tools like the{' '}
-                <Link href="/interlinear" className="text-blue-600 hover:underline">
+                <Link href="/interlinear" className="text-sacred hover:underline">
                   Interlinear Bible
                 </Link>{' '}
                 and the{' '}
-                <Link href="/lexicon" className="text-blue-600 hover:underline">
+                <Link href="/lexicon" className="text-sacred hover:underline">
                   Hebrew and Greek Lexicon
                 </Link>{' '}
                 allow you to examine original words, their definitions, and their usage across Scripture
@@ -678,7 +678,7 @@ export default function BibleStudyForBeginnersPage() {
               <h3 className="font-semibold text-scripture mb-2">
                 &ldquo;Which Bible translation should I use?&rdquo;
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Bible translations fall into two broad categories: word-for-word (formal equivalence)
                 and thought-for-thought (dynamic equivalence). Word-for-word translations prioritize
                 accuracy to the original language structure, while thought-for-thought translations
@@ -697,16 +697,16 @@ export default function BibleStudyForBeginnersPage() {
         </section>
 
         {/* Mid-Content CTA */}
-        <section className="mb-12 bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-6 md:p-8 text-white">
+        <section className="mb-12 bg-gradient-to-r from-scripture to-scripture/80 rounded-xl p-6 md:p-8 text-white">
           <h2 className="text-xl md:text-2xl font-display font-bold mb-2">
             Learn by Doing — Try a Beginner Quiz
           </h2>
-          <p className="text-blue-100 mb-4 max-w-2xl">
+          <p className="text-sacred-light mb-4 max-w-2xl">
             The best way to remember what you read is to test yourself. Our easy-level quizzes are designed for beginners with clear, encouraging questions.
           </p>
           <Link
             href="/bible-quiz-difficulty/easy"
-            className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md"
+            className="inline-flex items-center px-6 py-3 bg-white text-scripture font-bold rounded-lg hover:bg-sacred-light transition-colors shadow-md"
           >
             Try an Easy Bible Quiz
           </Link>
@@ -717,7 +717,7 @@ export default function BibleStudyForBeginnersPage() {
           <h2 className="text-2xl font-bold font-display text-scripture mb-4 border-b border-grace pb-2">
             6. Building a Daily Bible Reading Habit
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-6">
+          <p className="text-scripture leading-relaxed mb-6">
             Knowing how to study the Bible is valuable, but it is the daily practice that produces
             lasting transformation. Here are five proven strategies for building a Bible reading habit
             that endures.
@@ -726,7 +726,7 @@ export default function BibleStudyForBeginnersPage() {
           <div className="space-y-4">
             <div className="bg-white border border-grace rounded-xl p-5">
               <h3 className="font-semibold text-scripture mb-2">Start with Just 5 Minutes</h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 The biggest mistake beginners make is setting unrealistic goals. Committing to read for
                 an hour a day when you have never read the Bible consistently is a recipe for failure and
                 guilt. Start with five minutes. Read a single Psalm or one short passage. Do the 4 R&apos;s
@@ -738,7 +738,7 @@ export default function BibleStudyForBeginnersPage() {
 
             <div className="bg-white border border-grace rounded-xl p-5">
               <h3 className="font-semibold text-scripture mb-2">Pick a Consistent Time</h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Habits form fastest when they are anchored to a consistent time and place. Many believers
                 find that early morning works best, before the demands of the day crowd out their
                 intentions. Jesus Himself rose &ldquo;a great while before day&rdquo; to pray (Mark 1:35).
@@ -751,11 +751,11 @@ export default function BibleStudyForBeginnersPage() {
 
             <div className="bg-white border border-grace rounded-xl p-5">
               <h3 className="font-semibold text-scripture mb-2">Use a Reading Plan</h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 A reading plan eliminates the daily decision of &ldquo;What should I read today?&rdquo;
                 Decision fatigue is one of the silent killers of good habits. When you have a plan, you
                 simply open to the assigned passage and begin. Bible Maximum&apos;s{' '}
-                <Link href="/reading-plans" className="text-blue-600 hover:underline">reading plans</Link>{' '}
+                <Link href="/reading-plans" className="text-sacred hover:underline">reading plans</Link>{' '}
                 provide daily assignments with clear progress markers, so you always know where you are
                 and where you are going.
               </p>
@@ -765,7 +765,7 @@ export default function BibleStudyForBeginnersPage() {
               <h3 className="font-semibold text-scripture mb-2">
                 Don&apos;t Skip When You Miss a Day
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 You will miss a day. Everyone does. The critical moment is not the day you miss -- it is
                 the day after. Many people miss one day, then feel guilty, then miss another, and the
                 habit unravels. When you miss a day, do not try to &ldquo;catch up&rdquo; by reading
@@ -777,13 +777,13 @@ export default function BibleStudyForBeginnersPage() {
 
             <div className="bg-white border border-grace rounded-xl p-5">
               <h3 className="font-semibold text-scripture mb-2">Track Your Progress</h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Visible progress is motivating. Keep a simple checklist -- even just checkmarks on a
                 calendar -- to mark each day you read. After a week, you see seven checkmarks. After a
                 month, thirty. This visual streak becomes something you do not want to break. Some
                 believers track which books and chapters they have completed, gradually filling in a
                 map of the entire Bible. Testing your knowledge with{' '}
-                <Link href="/bible-quizzes" className="text-blue-600 hover:underline">Bible quizzes</Link>{' '}
+                <Link href="/bible-quizzes" className="text-sacred hover:underline">Bible quizzes</Link>{' '}
                 after completing a book is another excellent way to measure progress and reinforce
                 what you have learned.
               </p>
@@ -796,7 +796,7 @@ export default function BibleStudyForBeginnersPage() {
           <h2 className="text-2xl font-bold font-display text-scripture mb-4 border-b border-grace pb-2">
             7. Recommended First-Time Reading Plans
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-6">
+          <p className="text-scripture leading-relaxed mb-6">
             If you are ready to begin, here are three reading plans tailored for first-time Bible
             readers. Each one provides a structured path through Scripture, scaled to different
             levels of commitment.
@@ -807,15 +807,15 @@ export default function BibleStudyForBeginnersPage() {
               <h3 className="font-semibold text-scripture mb-2">
                 30-Day Gospel Plan
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Read all four Gospels -- Matthew, Mark, Luke, and John -- in 30 days. This gives you a
                 complete picture of the life of Jesus from four different perspectives. Read roughly three
                 chapters per day. Start with{' '}
-                <Link href="/john-chapters" className="text-blue-600 hover:underline">John</Link>, then{' '}
-                <Link href="/mark-chapters" className="text-blue-600 hover:underline">Mark</Link>{' '}
+                <Link href="/john-chapters" className="text-sacred hover:underline">John</Link>, then{' '}
+                <Link href="/mark-chapters" className="text-sacred hover:underline">Mark</Link>{' '}
                 (the shortest Gospel), then{' '}
-                <Link href="/luke-chapters" className="text-blue-600 hover:underline">Luke</Link>, then{' '}
-                <Link href="/matthew-chapters" className="text-blue-600 hover:underline">Matthew</Link>.
+                <Link href="/luke-chapters" className="text-sacred hover:underline">Luke</Link>, then{' '}
+                <Link href="/matthew-chapters" className="text-sacred hover:underline">Matthew</Link>.
                 By the end, you will have read the accounts of Jesus&apos; birth, ministry, teaching,
                 miracles, death, and resurrection four times -- each time from a slightly different angle.
               </p>
@@ -825,7 +825,7 @@ export default function BibleStudyForBeginnersPage() {
               <h3 className="font-semibold text-scripture mb-2">
                 90-Day Bible Overview Plan
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 This plan takes you through the major narrative arc of the Bible in 90 days by selecting
                 key chapters from each book. You will read the creation account in Genesis, the exodus
                 from Egypt, the giving of the law, the conquest of the Promised Land, the rise and fall
@@ -840,11 +840,11 @@ export default function BibleStudyForBeginnersPage() {
               <h3 className="font-semibold text-scripture mb-2">
                 Topical Approach
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 If you prefer to start with subjects that are personally relevant, try a topical approach.
                 Choose a topic that matters to you -- faith, prayer, anxiety, forgiveness, marriage,
                 parenting, money, suffering -- and read what the Bible says about it. Bible Maximum&apos;s{' '}
-                <Link href="/topics" className="text-blue-600 hover:underline">Bible Verses by Topic</Link>{' '}
+                <Link href="/topics" className="text-sacred hover:underline">Bible Verses by Topic</Link>{' '}
                 page organizes thousands of verses by subject, giving you an instant reading list on any
                 theme. This approach is especially helpful for people facing a specific life situation
                 and wanting to know what God&apos;s Word says about it.
@@ -852,7 +852,7 @@ export default function BibleStudyForBeginnersPage() {
             </div>
           </div>
 
-          <p className="text-primary-dark/80 leading-relaxed">
+          <p className="text-scripture leading-relaxed">
             Whichever plan you choose, remember that the goal is not to check a box or accumulate
             information. The goal is to know God more deeply, to be transformed by the renewing of your
             mind (Romans 12:2), and to grow in the grace and knowledge of our Lord and Saviour Jesus
@@ -862,23 +862,23 @@ export default function BibleStudyForBeginnersPage() {
         </section>
 
         {/* Return-visit hook */}
-        <section className="mb-12 bg-white border-2 border-blue-200 rounded-xl p-6 md:p-8">
+        <section className="mb-12 bg-white border-2 border-sacred/20 rounded-xl p-6 md:p-8">
           <h2 className="text-xl font-bold font-display text-scripture mb-3">
             Make Bible Study a Daily Habit
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-4">
+          <p className="text-scripture leading-relaxed mb-4">
             Bookmark this page as your reference guide. Come back each day to apply these methods to the next chapter in your reading plan. Track your progress by completing a quiz after each chapter you study.
           </p>
           <div className="flex flex-wrap gap-3">
             <Link
               href="/reading-plans"
-              className="inline-flex items-center px-5 py-2.5 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-colors"
+              className="inline-flex items-center px-5 py-2.5 bg-scripture text-white font-bold rounded-lg hover:bg-ink-muted transition-colors"
             >
               Choose a Reading Plan
             </Link>
             <Link
               href="/bible-quizzes"
-              className="inline-flex items-center px-5 py-2.5 border-2 border-blue-600 text-blue-600 font-bold rounded-lg hover:bg-blue-50 transition-colors"
+              className="inline-flex items-center px-5 py-2.5 border-2 border-sacred text-sacred font-bold rounded-lg hover:bg-sacred-light transition-colors"
             >
               Start Your First Quiz
             </Link>
@@ -892,40 +892,40 @@ export default function BibleStudyForBeginnersPage() {
         <div className="bg-primary-light/30 border border-grace rounded-xl p-6">
           <h2 className="text-xl font-bold text-scripture mb-3">Continue Your Journey</h2>
           <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-            <Link href="/how-to-study-the-bible" className="text-blue-600 hover:underline text-sm">
+            <Link href="/how-to-study-the-bible" className="text-sacred hover:underline text-sm">
               How to Study the Bible: 7 Methods
             </Link>
-            <Link href="/reading-plans" className="text-blue-600 hover:underline text-sm">
+            <Link href="/reading-plans" className="text-sacred hover:underline text-sm">
               Bible Reading Plans
             </Link>
-            <Link href="/bible-quizzes" className="bg-blue-600 text-white text-sm font-bold px-3 py-1.5 rounded-lg hover:bg-blue-700 transition-colors">
+            <Link href="/bible-quizzes" className="bg-scripture text-white text-sm font-bold px-3 py-1.5 rounded-lg hover:bg-ink-muted transition-colors">
               Bible Quizzes
             </Link>
-            <Link href="/books-of-the-bible" className="text-blue-600 hover:underline text-sm">
+            <Link href="/books-of-the-bible" className="text-sacred hover:underline text-sm">
               Books of the Bible
             </Link>
-            <Link href="/famous-bible-verses" className="text-blue-600 hover:underline text-sm">
+            <Link href="/famous-bible-verses" className="text-sacred hover:underline text-sm">
               Famous Bible Verses
             </Link>
-            <Link href="/topics" className="text-blue-600 hover:underline text-sm">
+            <Link href="/topics" className="text-sacred hover:underline text-sm">
               Bible Verses by Topic
             </Link>
-            <Link href="/lexicon" className="text-blue-600 hover:underline text-sm">
+            <Link href="/lexicon" className="text-sacred hover:underline text-sm">
               Hebrew &amp; Greek Lexicon
             </Link>
-            <Link href="/bible-chapter-summaries" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-chapter-summaries" className="text-sacred hover:underline text-sm">
               Bible Chapter Summaries
             </Link>
-            <Link href="/interlinear" className="text-blue-600 hover:underline text-sm">
+            <Link href="/interlinear" className="text-sacred hover:underline text-sm">
               Interlinear Bible
             </Link>
-            <Link href="/john-chapters" className="text-blue-600 hover:underline text-sm">
+            <Link href="/john-chapters" className="text-sacred hover:underline text-sm">
               Gospel of John Chapters
             </Link>
-            <Link href="/genesis-chapters" className="text-blue-600 hover:underline text-sm">
+            <Link href="/genesis-chapters" className="text-sacred hover:underline text-sm">
               Genesis Chapters
             </Link>
-            <Link href="/psalms-chapters" className="text-blue-600 hover:underline text-sm">
+            <Link href="/psalms-chapters" className="text-sacred hover:underline text-sm">
               Psalms Chapters
             </Link>
           </div>

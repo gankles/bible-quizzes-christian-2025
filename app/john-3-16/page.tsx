@@ -273,13 +273,13 @@ export default function John316Page() {
       <nav className="bg-white dark:bg-dark-surface border-b border-grace dark:border-dark-border">
         <div className="max-w-4xl mx-auto px-4 py-3">
           <ol className="flex items-center flex-wrap gap-y-1 text-sm">
-            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li><Link href="/bible-quizzes" className="text-blue-600 hover:underline">Bible Study</Link></li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li><Link href="/john-chapters" className="text-blue-600 hover:underline">Gospel of John</Link></li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li className="text-primary-dark/70 font-medium">John 3:16</li>
+            <li><Link href="/" className="text-sacred hover:underline">Home</Link></li>
+            <li className="text-ink-light mx-2">/</li>
+            <li><Link href="/bible-quizzes" className="text-sacred hover:underline">Bible Study</Link></li>
+            <li className="text-ink-light mx-2">/</li>
+            <li><Link href="/john-chapters" className="text-sacred hover:underline">Gospel of John</Link></li>
+            <li className="text-ink-light mx-2">/</li>
+            <li className="text-ink-muted font-medium">John 3:16</li>
           </ol>
         </div>
       </nav>
@@ -296,7 +296,7 @@ export default function John316Page() {
           />
         </div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 py-16 md:py-24 text-center">
-          <p className="text-blue-300 text-sm font-bold uppercase tracking-widest mb-4">The Most Famous Verse in the Bible</p>
+          <p className="text-sacred text-sm font-bold uppercase tracking-widest mb-4">The Most Famous Verse in the Bible</p>
           <h1 className="text-4xl md:text-6xl font-bold text-white font-display leading-tight mb-8">
             John 3:16 Explained
           </h1>
@@ -304,10 +304,10 @@ export default function John316Page() {
             <p className="text-xl md:text-2xl text-white leading-relaxed italic font-light">
               &ldquo;For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.&rdquo;
             </p>
-            <cite className="block mt-4 text-blue-200 text-sm font-bold not-italic">— John 3:16 (KJV)</cite>
+            <cite className="block mt-4 text-sacred text-sm font-bold not-italic">— John 3:16 (KJV)</cite>
           </blockquote>
           <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
-            <a href="#what-it-means" className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition-colors text-sm uppercase tracking-wider">
+            <a href="#what-it-means" className="inline-flex items-center justify-center bg-scripture hover:bg-ink-muted text-white font-bold py-3 px-8 rounded-lg transition-colors text-sm uppercase tracking-wider">
               What Does This Mean?
             </a>
             <a href="#word-study" className="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white border border-white/20 font-bold py-3 px-8 rounded-lg transition-colors text-sm uppercase tracking-wider">
@@ -323,62 +323,62 @@ export default function John316Page() {
         <nav id="toc" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 mb-12 shadow-sm scroll-mt-20">
           <h2 className="text-lg font-bold text-scripture dark:text-white mb-4">Table of Contents</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1">
-            <a href="#what-it-means" className="text-blue-600 hover:underline text-sm py-1">What Does John 3:16 Actually Mean?</a>
-            <a href="#translations" className="text-blue-600 hover:underline text-sm py-1">Translation Comparison</a>
-            <a href="#audience" className="text-blue-600 hover:underline text-sm py-1">Wherever You Are, This Verse Speaks to You</a>
-            <a href="#historical-context" className="text-blue-600 hover:underline text-sm py-1">Historical Context</a>
-            <a href="#literary-context" className="text-blue-600 hover:underline text-sm py-1">Literary Context in John&apos;s Gospel</a>
-            <a href="#greek-deep-dive" className="text-blue-600 hover:underline text-sm py-1">Koine Greek Deep Dive</a>
-            <a href="#clause-1" className="text-blue-600 hover:underline text-sm py-1">Clause 1: &ldquo;For God so loved the world&rdquo;</a>
-            <a href="#clause-2" className="text-blue-600 hover:underline text-sm py-1">Clause 2: &ldquo;He gave his only begotten Son&rdquo;</a>
-            <a href="#clause-3" className="text-blue-600 hover:underline text-sm py-1">Clause 3: &ldquo;Whosoever believeth in him&rdquo;</a>
-            <a href="#clause-4" className="text-blue-600 hover:underline text-sm py-1">Clause 4: &ldquo;Should not perish but have everlasting life&rdquo;</a>
-            <a href="#alternative-translations" className="text-blue-600 hover:underline text-sm py-1">Alternative Translations</a>
-            <a href="#word-study" className="text-blue-600 hover:underline text-sm py-1">Word-by-Word Study</a>
-            <a href="#theological-significance" className="text-blue-600 hover:underline text-sm py-1">Theological Significance</a>
-            <a href="#why-it-matters" className="text-blue-600 hover:underline text-sm py-1">Why John 3:16 Still Matters</a>
-            <a href="#application" className="text-blue-600 hover:underline text-sm py-1">Ancient &amp; Modern Application</a>
-            <a href="#honest-questions" className="text-blue-600 hover:underline text-sm py-1">Honest Questions People Ask</a>
-            <a href="#cross-references" className="text-blue-600 hover:underline text-sm py-1">Cross-References</a>
-            <a href="#faq" className="text-blue-600 hover:underline text-sm py-1">Frequently Asked Questions</a>
-            <a href="#continue" className="text-blue-600 hover:underline text-sm py-1">Continue Your Study</a>
+            <a href="#what-it-means" className="text-sacred hover:underline text-sm py-1">What Does John 3:16 Actually Mean?</a>
+            <a href="#translations" className="text-sacred hover:underline text-sm py-1">Translation Comparison</a>
+            <a href="#audience" className="text-sacred hover:underline text-sm py-1">Wherever You Are, This Verse Speaks to You</a>
+            <a href="#historical-context" className="text-sacred hover:underline text-sm py-1">Historical Context</a>
+            <a href="#literary-context" className="text-sacred hover:underline text-sm py-1">Literary Context in John&apos;s Gospel</a>
+            <a href="#greek-deep-dive" className="text-sacred hover:underline text-sm py-1">Koine Greek Deep Dive</a>
+            <a href="#clause-1" className="text-sacred hover:underline text-sm py-1">Clause 1: &ldquo;For God so loved the world&rdquo;</a>
+            <a href="#clause-2" className="text-sacred hover:underline text-sm py-1">Clause 2: &ldquo;He gave his only begotten Son&rdquo;</a>
+            <a href="#clause-3" className="text-sacred hover:underline text-sm py-1">Clause 3: &ldquo;Whosoever believeth in him&rdquo;</a>
+            <a href="#clause-4" className="text-sacred hover:underline text-sm py-1">Clause 4: &ldquo;Should not perish but have everlasting life&rdquo;</a>
+            <a href="#alternative-translations" className="text-sacred hover:underline text-sm py-1">Alternative Translations</a>
+            <a href="#word-study" className="text-sacred hover:underline text-sm py-1">Word-by-Word Study</a>
+            <a href="#theological-significance" className="text-sacred hover:underline text-sm py-1">Theological Significance</a>
+            <a href="#why-it-matters" className="text-sacred hover:underline text-sm py-1">Why John 3:16 Still Matters</a>
+            <a href="#application" className="text-sacred hover:underline text-sm py-1">Ancient &amp; Modern Application</a>
+            <a href="#honest-questions" className="text-sacred hover:underline text-sm py-1">Honest Questions People Ask</a>
+            <a href="#cross-references" className="text-sacred hover:underline text-sm py-1">Cross-References</a>
+            <a href="#faq" className="text-sacred hover:underline text-sm py-1">Frequently Asked Questions</a>
+            <a href="#continue" className="text-sacred hover:underline text-sm py-1">Continue Your Study</a>
           </div>
         </nav>
 
         {/* Plain-Language Summary — For Everyone */}
         <section id="what-it-means" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 md:p-8 mb-12 shadow-sm scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">What Does John 3:16 Actually Mean?</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed text-lg mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed text-lg mb-4">
             Strip away the religious language and John 3:16 says something remarkably simple: <strong>God loves you, He proved it, and He&apos;s offering you a way out of death and into life.</strong>
           </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             Here&apos;s the verse broken into four plain statements:
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
-            <div className="bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800 rounded-lg p-4">
-              <p className="text-sm font-bold text-blue-800 dark:text-blue-300 mb-1">The Motivation</p>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 text-sm">&ldquo;God so loved the world&rdquo; — He loves everyone, including you, right now, as you are.</p>
+            <div className="bg-sacred-light dark:bg-sacred-light0/20 border border-sacred/20 dark:border-sacred/20 rounded-lg p-4">
+              <p className="text-sm font-bold text-scripture dark:text-sacred mb-1">The Motivation</p>
+              <p className="text-scripture dark:text-ink-light text-sm">&ldquo;God so loved the world&rdquo; — He loves everyone, including you, right now, as you are.</p>
             </div>
-            <div className="bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800 rounded-lg p-4">
-              <p className="text-sm font-bold text-blue-800 dark:text-blue-300 mb-1">The Action</p>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 text-sm">&ldquo;He gave his only begotten Son&rdquo; — God sent Jesus to die in your place. This was the plan, not an accident.</p>
+            <div className="bg-sacred-light dark:bg-sacred-light0/20 border border-sacred/20 dark:border-sacred/20 rounded-lg p-4">
+              <p className="text-sm font-bold text-scripture dark:text-sacred mb-1">The Action</p>
+              <p className="text-scripture dark:text-ink-light text-sm">&ldquo;He gave his only begotten Son&rdquo; — God sent Jesus to die in your place. This was the plan, not an accident.</p>
             </div>
-            <div className="bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800 rounded-lg p-4">
-              <p className="text-sm font-bold text-blue-800 dark:text-blue-300 mb-1">Your Part</p>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 text-sm">&ldquo;Whosoever believeth in him&rdquo; — Anyone can receive this. The only requirement is trust — not perfection, not works.</p>
+            <div className="bg-sacred-light dark:bg-sacred-light0/20 border border-sacred/20 dark:border-sacred/20 rounded-lg p-4">
+              <p className="text-sm font-bold text-scripture dark:text-sacred mb-1">Your Part</p>
+              <p className="text-scripture dark:text-ink-light text-sm">&ldquo;Whosoever believeth in him&rdquo; — Anyone can receive this. The only requirement is trust — not perfection, not works.</p>
             </div>
-            <div className="bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800 rounded-lg p-4">
-              <p className="text-sm font-bold text-blue-800 dark:text-blue-300 mb-1">The Result</p>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 text-sm">&ldquo;Should not perish, but have everlasting life&rdquo; — Eternal life with God instead of eternal separation from Him.</p>
+            <div className="bg-sacred-light dark:bg-sacred-light0/20 border border-sacred/20 dark:border-sacred/20 rounded-lg p-4">
+              <p className="text-sm font-bold text-scripture dark:text-sacred mb-1">The Result</p>
+              <p className="text-scripture dark:text-ink-light text-sm">&ldquo;Should not perish, but have everlasting life&rdquo; — Eternal life with God instead of eternal separation from Him.</p>
             </div>
           </div>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             Martin Luther called John 3:16 &ldquo;the gospel in miniature.&rdquo; Whether you&apos;re reading the Bible for the first time or the thousandth time, this verse is the foundation everything else is built on.
           </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             What makes this verse extraordinary is not just what it says but what it assumes. It assumes a God who is personal, not abstract. It assumes a world in trouble &mdash; not evolving toward perfection but perishing. It assumes that human effort cannot bridge the gap between sinful people and a holy God. And it assumes that love, real love, is measured not by what it feels but by what it gives.
           </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
+          <p className="text-scripture dark:text-ink-light leading-relaxed">
             Every major world religion asks some version of the question: &ldquo;What must I do to reach God?&rdquo; John 3:16 flips the question entirely. It says God has already reached down to you. The only question left is whether you will receive what He is offering. Below, we dig into every layer of this verse &mdash; its historical context, Greek grammar, theological significance, and modern application.
           </p>
         </section>
@@ -386,7 +386,7 @@ export default function John316Page() {
         {/* Translation Comparison */}
         <section id="translations" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">How John 3:16 Reads Across Major Translations</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-6 text-sm">Every English translation makes interpretive choices. Comparing them reveals nuances that a single version cannot capture.</p>
+          <p className="text-ink-muted dark:text-ink-light mb-6 text-sm">Every English translation makes interpretive choices. Comparing them reveals nuances that a single version cannot capture.</p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
@@ -400,8 +400,8 @@ export default function John316Page() {
                 {TRANSLATION_COMPARISON.map((row, idx) => (
                   <tr key={idx} className="border-b border-grace/50 dark:border-dark-border/50">
                     <td className="p-3 font-medium text-scripture dark:text-white whitespace-nowrap">{row.version}</td>
-                    <td className="p-3 text-primary-dark/80 dark:text-primary-dark/40 italic">{row.text}</td>
-                    <td className="p-3 text-primary-dark/60 dark:text-primary-dark/40 text-xs">{row.notes}</td>
+                    <td className="p-3 text-scripture dark:text-ink-light italic">{row.text}</td>
+                    <td className="p-3 text-ink-muted dark:text-ink-light text-xs">{row.notes}</td>
                   </tr>
                 ))}
               </tbody>
@@ -420,32 +420,32 @@ export default function John316Page() {
           <div className="space-y-4">
             <div className="bg-white dark:bg-dark-surface rounded-lg border border-grace dark:border-dark-border p-5 shadow-sm">
               <h3 className="font-bold text-scripture dark:text-white mb-2">If you&apos;re curious and exploring</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed text-sm">
+              <p className="text-scripture dark:text-ink-light leading-relaxed text-sm">
                 You may have seen John 3:16 on a sign, a bumper sticker, or in a movie and wondered what it was about. You&apos;re in the right place. This page walks through every word of the verse, explains the backstory, and answers the questions people are actually asking — no assumptions, no jargon.
               </p>
             </div>
             <div className="bg-white dark:bg-dark-surface rounded-lg border border-grace dark:border-dark-border p-5 shadow-sm">
               <h3 className="font-bold text-scripture dark:text-white mb-2">If you&apos;re skeptical</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed text-sm">
+              <p className="text-scripture dark:text-ink-light leading-relaxed text-sm">
                 That&apos;s fine. Nicodemus — the man Jesus was talking to when He said this — was a highly educated religious leader with hard questions and real doubts. Jesus didn&apos;t dismiss him. He gave him a direct answer. This page does the same. Read the context, weigh the claims, and decide for yourself what you think.
               </p>
             </div>
             <div className="bg-white dark:bg-dark-surface rounded-lg border border-grace dark:border-dark-border p-5 shadow-sm">
               <h3 className="font-bold text-scripture dark:text-white mb-2">If you don&apos;t believe — or aren&apos;t sure</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed text-sm">
-                John 3:16 was spoken to a man who didn&apos;t understand yet. You don&apos;t have to believe before you can investigate. The verse itself says &ldquo;whosoever&rdquo; — the invitation is for anyone, including you, right now. The Bible says the response is to repent (turn from going your own way) and believe (trust Jesus with your life). If something here resonates, that&apos;s worth paying attention to. <Link href="/what-does-the-bible-say-about/salvation" className="text-blue-600 hover:underline">How to Be Saved</Link> is a good next step.
+              <p className="text-scripture dark:text-ink-light leading-relaxed text-sm">
+                John 3:16 was spoken to a man who didn&apos;t understand yet. You don&apos;t have to believe before you can investigate. The verse itself says &ldquo;whosoever&rdquo; — the invitation is for anyone, including you, right now. The Bible says the response is to repent (turn from going your own way) and believe (trust Jesus with your life). If something here resonates, that&apos;s worth paying attention to. <Link href="/what-does-the-bible-say-about/salvation" className="text-sacred hover:underline">How to Be Saved</Link> is a good next step.
               </p>
             </div>
             <div className="bg-white dark:bg-dark-surface rounded-lg border border-grace dark:border-dark-border p-5 shadow-sm">
               <h3 className="font-bold text-scripture dark:text-white mb-2">If you&apos;re a new believer</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed text-sm">
+              <p className="text-scripture dark:text-ink-light leading-relaxed text-sm">
                 Welcome. John 3:16 is your foundation. Everything you&apos;ll learn about the Bible builds on what this verse says: God loves you, Jesus died for you, and your eternal life is secure through faith. When doubts come — and they will — come back to this verse. It&apos;s not complicated. God loved. God gave. You believed. You have life. That&apos;s settled.
               </p>
             </div>
             <div className="bg-white dark:bg-dark-surface rounded-lg border border-grace dark:border-dark-border p-5 shadow-sm">
               <h3 className="font-bold text-scripture dark:text-white mb-2">If you&apos;ve known this verse for years</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed text-sm">
-                Familiarity can dull the impact of the most powerful words ever spoken. The <a href="#word-study" className="text-blue-600 hover:underline">word-by-word study below</a> digs into the Greek, the Old Testament background (the bronze serpent in Numbers 21), and the theology that seasoned believers often skim past. Let this verse hit you again like it did the first time.
+              <p className="text-scripture dark:text-ink-light leading-relaxed text-sm">
+                Familiarity can dull the impact of the most powerful words ever spoken. The <a href="#word-study" className="text-sacred hover:underline">word-by-word study below</a> digs into the Greek, the Old Testament background (the bronze serpent in Numbers 21), and the theology that seasoned believers often skim past. Let this verse hit you again like it did the first time.
               </p>
             </div>
           </div>
@@ -458,77 +458,77 @@ export default function John316Page() {
           <div className="space-y-6">
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 md:p-8 shadow-sm">
               <h3 className="text-xl font-bold text-scripture dark:text-white mb-3">The Political Landscape: Roman-Occupied Judea</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
+              <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
                 When Jesus spoke these words, Israel was not a free nation. Rome had occupied Judea since 63 BC, and by the time of Jesus&apos; ministry (approximately AD 27-30), the Jewish people lived under the shadow of the world&apos;s most powerful empire. Roman governors like Pontius Pilate enforced imperial law. Jewish kings like Herod Antipas ruled only at Rome&apos;s pleasure.
               </p>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
+              <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
                 The tension was suffocating. Jewish religious leaders walked a political tightrope &mdash; cooperate with Rome enough to keep their authority, resist enough to keep the people&apos;s loyalty. The common people longed for a Messiah, but most expected a military deliverer who would overthrow Rome and restore David&apos;s kingdom. Nobody expected what God actually sent.
               </p>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
+              <p className="text-scripture dark:text-ink-light leading-relaxed">
                 Into this pressure cooker walks a carpenter from Nazareth, performing miracles and claiming authority over the Sabbath. The Pharisees are alarmed. The Sadducees are suspicious. The crowds are fascinated. And one religious leader decides he needs to investigate for himself &mdash; quietly.
               </p>
             </div>
 
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 md:p-8 shadow-sm">
               <h3 className="text-xl font-bold text-scripture dark:text-white mb-3">Who Was Nicodemus?</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
-                <Link href="/characters/nicodemus" className="text-blue-600 font-medium hover:underline">Nicodemus</Link> was not a casual inquirer. He was a Pharisee &mdash; a member of the strictest religious sect in Judaism, devoted to meticulous obedience to the Law of Moses. He was also a &ldquo;ruler of the Jews&rdquo; (John 3:1), meaning he sat on the Sanhedrin &mdash; the 71-member supreme court that governed Jewish religious and civil life under Roman permission.
+              <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
+                <Link href="/characters/nicodemus" className="text-sacred font-medium hover:underline">Nicodemus</Link> was not a casual inquirer. He was a Pharisee &mdash; a member of the strictest religious sect in Judaism, devoted to meticulous obedience to the Law of Moses. He was also a &ldquo;ruler of the Jews&rdquo; (John 3:1), meaning he sat on the Sanhedrin &mdash; the 71-member supreme court that governed Jewish religious and civil life under Roman permission.
               </p>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
+              <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
                 Jesus called him &ldquo;a master of Israel&rdquo; (John 3:10) &mdash; literally &ldquo;THE teacher of Israel.&rdquo; The definite article suggests Nicodemus was not just any teacher but one of the most respected theological authorities in the nation. Think of the dean of the most prestigious seminary &mdash; that was Nicodemus.
               </p>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
+              <p className="text-scripture dark:text-ink-light leading-relaxed">
                 And Jesus told this man &mdash; this moral, educated, deeply religious man &mdash; that he needed to be born again. If Nicodemus wasn&apos;t good enough on his own, no one is.
               </p>
             </div>
 
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 md:p-8 shadow-sm">
               <h3 className="text-xl font-bold text-scripture dark:text-white mb-3">Why Did Nicodemus Come at Night?</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
+              <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
                 John 3:2 specifies that Nicodemus came to Jesus &ldquo;by night.&rdquo; Commentators have debated why for centuries. The most natural reading is that Nicodemus was protecting his reputation. A Sanhedrin member publicly visiting this controversial rabbi from Galilee would have been career suicide. His Pharisee colleagues were already plotting against Jesus.
               </p>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
+              <p className="text-scripture dark:text-ink-light leading-relaxed">
                 But there may be more to it. In John&apos;s Gospel, darkness and light carry symbolic weight (John 1:5, 8:12, 12:46). Nicodemus came out of spiritual darkness toward the Light of the World. He arrived in the dark &mdash; but he came. That took courage. And the conversation that followed changed everything.
               </p>
             </div>
 
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 md:p-8 shadow-sm">
               <h3 className="text-xl font-bold text-scripture dark:text-white mb-3">The Conversation Before the Verse (John 3:3-15)</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
+              <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
                 Nicodemus opened with a compliment: &ldquo;Rabbi, we know that thou art a teacher come from God: for no man can do these miracles that thou doest, except God be with him&rdquo; (John 3:2). He was testing the waters, feeling Jesus out intellectually.
               </p>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
-                Jesus didn&apos;t engage the flattery. He cut straight to the issue: <strong>&ldquo;Except a man be <Link href="/topics/born-again" className="text-blue-600 hover:underline">born again</Link>, he cannot see the kingdom of God&rdquo;</strong> (John 3:3). The Greek word <em>anothen</em> means both &ldquo;again&rdquo; and &ldquo;from above&rdquo; &mdash; Nicodemus needed a birth from heaven, not just a moral upgrade.
+              <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
+                Jesus didn&apos;t engage the flattery. He cut straight to the issue: <strong>&ldquo;Except a man be <Link href="/topics/born-again" className="text-sacred hover:underline">born again</Link>, he cannot see the kingdom of God&rdquo;</strong> (John 3:3). The Greek word <em>anothen</em> means both &ldquo;again&rdquo; and &ldquo;from above&rdquo; &mdash; Nicodemus needed a birth from heaven, not just a moral upgrade.
               </p>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
+              <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
                 Nicodemus was baffled: &ldquo;How can a man be born when he is old?&rdquo; He was thinking physically. Jesus meant spiritually. The wind analogy in John 3:8 illustrates the mystery: you can hear the wind and see its effects, but you cannot control or predict it. Spiritual rebirth is God&apos;s sovereign work, not a human achievement.
               </p>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
+              <p className="text-scripture dark:text-ink-light leading-relaxed">
                 Then Jesus made the connection that sets up verse 16: &ldquo;As Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up: That whosoever believeth in him should not perish, but have eternal life&rdquo; (John 3:14-15).
               </p>
             </div>
 
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 md:p-8 shadow-sm">
               <h3 className="text-xl font-bold text-scripture dark:text-white mb-3">The Bronze Serpent Connection (Numbers 21:4-9)</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
-                This is the Old Testament story Nicodemus would have known by heart. During Israel&apos;s wilderness wanderings, the people grumbled against God. He sent venomous serpents among them as judgment, and many died. When they repented, God told <Link href="/characters/moses" className="text-blue-600 hover:underline">Moses</Link> to make a bronze serpent and set it on a pole. Anyone who was bitten could look at the bronze serpent and live (<Link href="/cross-references/numbers/21/8" className="text-blue-600 hover:underline">Numbers 21:8-9</Link>).
+              <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
+                This is the Old Testament story Nicodemus would have known by heart. During Israel&apos;s wilderness wanderings, the people grumbled against God. He sent venomous serpents among them as judgment, and many died. When they repented, God told <Link href="/characters/moses" className="text-sacred hover:underline">Moses</Link> to make a bronze serpent and set it on a pole. Anyone who was bitten could look at the bronze serpent and live (<Link href="/cross-references/numbers/21/8" className="text-sacred hover:underline">Numbers 21:8-9</Link>).
               </p>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
+              <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
                 The parallels to the cross are precise. The serpent represented the curse of sin. The pole foreshadowed the cross. Looking at the serpent was an act of faith &mdash; not a magical cure but a response of trust in God&apos;s provided remedy. And the offer was universal: &ldquo;every one that is bitten, when he looketh upon it, shall live.&rdquo;
               </p>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
+              <p className="text-scripture dark:text-ink-light leading-relaxed">
                 Jesus used this image because it captured every element of John 3:16 before He even said it. A deadly problem (sin). A God-provided solution (the Son lifted up). A simple condition (look/believe). A guaranteed result (life). John 3:16 is the theological explanation of what the bronze serpent pictured.
               </p>
             </div>
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 md:p-8 shadow-sm">
               <h3 className="text-xl font-bold text-scripture dark:text-white mb-3">Jewish Messianic Expectations: What Israel Was Waiting For</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
-                First-century Jews were not waiting for a suffering savior. They were waiting for a conquering king. The dominant Messianic expectation &mdash; fueled by passages like <Link href="/cross-references/isaiah/9/6" className="text-blue-600 hover:underline">Isaiah 9:6-7</Link> and Daniel 7:13-14 &mdash; was that God would send a royal descendant of David who would overthrow Rome, restore Israel&apos;s political sovereignty, and inaugurate an era of unbroken peace. The Messiah was supposed to come with a sword, not a cross.
+              <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
+                First-century Jews were not waiting for a suffering savior. They were waiting for a conquering king. The dominant Messianic expectation &mdash; fueled by passages like <Link href="/cross-references/isaiah/9/6" className="text-sacred hover:underline">Isaiah 9:6-7</Link> and Daniel 7:13-14 &mdash; was that God would send a royal descendant of David who would overthrow Rome, restore Israel&apos;s political sovereignty, and inaugurate an era of unbroken peace. The Messiah was supposed to come with a sword, not a cross.
               </p>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
+              <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
                 This is why John 3:16 was so radical. Jesus told Nicodemus &mdash; a scholar who knew every Messianic prophecy &mdash; that God&apos;s plan was not military conquest but sacrificial love. The Son would not be &ldquo;lifted up&rdquo; on a throne but on a cross. The kingdom would not come through force but through faith. And the beneficiaries would not be Israel alone but &ldquo;the world.&rdquo;
               </p>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
+              <p className="text-scripture dark:text-ink-light leading-relaxed">
                 Nicodemus would have found this disorienting. The Psalms of Solomon (a first-century Jewish text) describe the expected Messiah as one who would &ldquo;purge Jerusalem from the nations that trample her&rdquo; and &ldquo;shatter all their substance with an iron rod.&rdquo; Jesus offered something entirely different: &ldquo;God sent not his Son into the world to condemn the world; but that the world through him might be saved&rdquo; (John 3:17). The Messiah came not to destroy the enemy but to die for them.
               </p>
             </div>
@@ -541,48 +541,48 @@ export default function John316Page() {
           <div className="space-y-6">
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 md:p-8 shadow-sm">
               <h3 className="text-lg font-bold text-scripture dark:text-white mb-3">The Structure of John&apos;s Gospel</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
+              <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
                 John organized his Gospel differently from Matthew, Mark, and Luke. While the Synoptic Gospels follow a largely chronological narrative, John structures his account around seven miraculous &ldquo;signs&rdquo; and a series of theological discourses. Scholars typically divide John into two major sections: the <strong>Book of Signs</strong> (chapters 1&ndash;12), which records Jesus&apos; public ministry, and the <strong>Book of Glory</strong> (chapters 13&ndash;21), which focuses on the passion, resurrection, and post-resurrection appearances.
               </p>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
-                John 3:16 falls in the <Link href="/bible-chapter-summaries/john/3" className="text-blue-600 hover:underline">Book of Signs</Link>, early in Jesus&apos; public ministry. It comes after the first sign &mdash; turning water into wine at Cana (John 2:1-11) &mdash; and the temple cleansing (John 2:13-22). These events established Jesus&apos; authority. The conversation with Nicodemus that contains John 3:16 is the first extended theological discourse in the Gospel, and it sets the interpretive framework for everything that follows.
+              <p className="text-scripture dark:text-ink-light leading-relaxed">
+                John 3:16 falls in the <Link href="/bible-chapter-summaries/john/3" className="text-sacred hover:underline">Book of Signs</Link>, early in Jesus&apos; public ministry. It comes after the first sign &mdash; turning water into wine at Cana (John 2:1-11) &mdash; and the temple cleansing (John 2:13-22). These events established Jesus&apos; authority. The conversation with Nicodemus that contains John 3:16 is the first extended theological discourse in the Gospel, and it sets the interpretive framework for everything that follows.
               </p>
             </div>
 
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 md:p-8 shadow-sm">
               <h3 className="text-lg font-bold text-scripture dark:text-white mb-3">John 3:16 as the Gospel&apos;s Thesis Statement</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
-                If John&apos;s Gospel were an essay, John 3:16 would be the thesis sentence. Every major theme John develops over 21 chapters is compressed into this single verse. The <Link href="/john-chapters" className="text-blue-600 hover:underline">remaining chapters</Link> unpack what John 3:16 compresses:
+              <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
+                If John&apos;s Gospel were an essay, John 3:16 would be the thesis sentence. Every major theme John develops over 21 chapters is compressed into this single verse. The <Link href="/john-chapters" className="text-sacred hover:underline">remaining chapters</Link> unpack what John 3:16 compresses:
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-3">
-                <div className="bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800 rounded-lg p-3">
-                  <p className="text-xs font-bold text-blue-800 dark:text-blue-300 mb-1">&ldquo;God so loved&rdquo;</p>
-                  <p className="text-primary-dark/80 dark:text-primary-dark/40 text-xs">Developed in the Bread of Life discourse (ch. 6), Good Shepherd (ch. 10), and the Farewell Discourse (chs. 14&ndash;17)</p>
+                <div className="bg-sacred-light dark:bg-sacred-light0/20 border border-sacred/20 dark:border-sacred/20 rounded-lg p-3">
+                  <p className="text-xs font-bold text-scripture dark:text-sacred mb-1">&ldquo;God so loved&rdquo;</p>
+                  <p className="text-scripture dark:text-ink-light text-xs">Developed in the Bread of Life discourse (ch. 6), Good Shepherd (ch. 10), and the Farewell Discourse (chs. 14&ndash;17)</p>
                 </div>
-                <div className="bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800 rounded-lg p-3">
-                  <p className="text-xs font-bold text-blue-800 dark:text-blue-300 mb-1">&ldquo;He gave his Son&rdquo;</p>
-                  <p className="text-primary-dark/80 dark:text-primary-dark/40 text-xs">Culminates in the Passion narrative (chs. 18&ndash;19) where the &ldquo;giving&rdquo; becomes visible at Calvary</p>
+                <div className="bg-sacred-light dark:bg-sacred-light0/20 border border-sacred/20 dark:border-sacred/20 rounded-lg p-3">
+                  <p className="text-xs font-bold text-scripture dark:text-sacred mb-1">&ldquo;He gave his Son&rdquo;</p>
+                  <p className="text-scripture dark:text-ink-light text-xs">Culminates in the Passion narrative (chs. 18&ndash;19) where the &ldquo;giving&rdquo; becomes visible at Calvary</p>
                 </div>
-                <div className="bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800 rounded-lg p-3">
-                  <p className="text-xs font-bold text-blue-800 dark:text-blue-300 mb-1">&ldquo;Whosoever believeth&rdquo;</p>
-                  <p className="text-primary-dark/80 dark:text-primary-dark/40 text-xs">Explored through belief/unbelief contrasts: the Samaritan woman (ch. 4), the blind man (ch. 9), Thomas (ch. 20)</p>
+                <div className="bg-sacred-light dark:bg-sacred-light0/20 border border-sacred/20 dark:border-sacred/20 rounded-lg p-3">
+                  <p className="text-xs font-bold text-scripture dark:text-sacred mb-1">&ldquo;Whosoever believeth&rdquo;</p>
+                  <p className="text-scripture dark:text-ink-light text-xs">Explored through belief/unbelief contrasts: the Samaritan woman (ch. 4), the blind man (ch. 9), Thomas (ch. 20)</p>
                 </div>
-                <div className="bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800 rounded-lg p-3">
-                  <p className="text-xs font-bold text-blue-800 dark:text-blue-300 mb-1">&ldquo;Eternal life&rdquo;</p>
-                  <p className="text-primary-dark/80 dark:text-primary-dark/40 text-xs">Defined in John 17:3 and demonstrated in the resurrection of Lazarus (ch. 11) and of Jesus Himself (ch. 20)</p>
+                <div className="bg-sacred-light dark:bg-sacred-light0/20 border border-sacred/20 dark:border-sacred/20 rounded-lg p-3">
+                  <p className="text-xs font-bold text-scripture dark:text-sacred mb-1">&ldquo;Eternal life&rdquo;</p>
+                  <p className="text-scripture dark:text-ink-light text-xs">Defined in John 17:3 and demonstrated in the resurrection of Lazarus (ch. 11) and of Jesus Himself (ch. 20)</p>
                 </div>
               </div>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
-                John even tells us why he wrote his Gospel, and it echoes John 3:16 almost word for word: &ldquo;These are written, that ye might <strong>believe</strong> that Jesus is the Christ, the <strong>Son of God</strong>; and that believing ye might have <strong>life</strong> through his name&rdquo; (<Link href="/cross-references/john/20/31" className="text-blue-600 hover:underline">John 20:31</Link>). The entire book is an extended argument for what John 3:16 declares in a single breath.
+              <p className="text-scripture dark:text-ink-light leading-relaxed">
+                John even tells us why he wrote his Gospel, and it echoes John 3:16 almost word for word: &ldquo;These are written, that ye might <strong>believe</strong> that Jesus is the Christ, the <strong>Son of God</strong>; and that believing ye might have <strong>life</strong> through his name&rdquo; (<Link href="/cross-references/john/20/31" className="text-sacred hover:underline">John 20:31</Link>). The entire book is an extended argument for what John 3:16 declares in a single breath.
               </p>
             </div>
 
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 md:p-8 shadow-sm">
               <h3 className="text-lg font-bold text-scripture dark:text-white mb-3">The Immediate Context: John 3:1-21</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
+              <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
                 John 3:16 does not stand alone. It is the climax of a 21-verse unit that moves through three stages: the <em>need</em> for new birth (vv. 1-8), the <em>means</em> of new birth &mdash; the Son lifted up like the bronze serpent (vv. 9-15), and the <em>motivation</em> behind it all &mdash; God&apos;s love (vv. 16-21). Verses 17-21 continue the thought by explaining that God sent the Son not to condemn but to save, and that judgment falls on those who reject the light, not on those who come to it.
               </p>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
+              <p className="text-scripture dark:text-ink-light leading-relaxed">
                 Reading John 3:16 without verses 17-21 is like reading the headline without the article. Verse 17 (&ldquo;God sent not his Son into the world to condemn the world&rdquo;) corrects the assumption that God&apos;s posture is wrath. Verse 18 (&ldquo;he that believeth on him is not condemned&rdquo;) clarifies that faith removes condemnation immediately, not at some future judgment. And verse 19 (&ldquo;men loved darkness rather than light&rdquo;) explains why some reject the offer &mdash; not because the light is insufficient, but because they prefer the dark.
               </p>
             </div>
@@ -592,15 +592,15 @@ export default function John316Page() {
         {/* Koine Greek Deep Dive */}
         <section id="greek-deep-dive" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">Koine Greek Deep Dive</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-6 text-sm">The original language reveals layers of meaning that English translations can only approximate.</p>
+          <p className="text-ink-muted dark:text-ink-light mb-6 text-sm">The original language reveals layers of meaning that English translations can only approximate.</p>
 
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 md:p-8 shadow-sm mb-6">
             <p className="text-lg text-scripture dark:text-white font-medium mb-2">Greek Text (NA28):</p>
-            <p className="text-xl text-blue-800 dark:text-blue-300 italic leading-relaxed mb-3" lang="grc">
+            <p className="text-xl text-scripture dark:text-sacred italic leading-relaxed mb-3" lang="grc">
               Οὕτως γὰρ ἠγάπησεν ὁ Θεὸς τὸν κόσμον, ὥστε τὸν υἱὸν τὸν μονογενῆ ἔδωκεν, ἵνα πᾶς ὁ πιστεύων εἰς αὐτὸν μὴ ἀπόληται ἀλλ᾽ ἔχῃ ζωὴν αἰώνιον.
             </p>
-            <p className="text-sm text-primary-dark/60 dark:text-primary-dark/40 italic mb-1">Transliteration: Houtōs gar ēgapēsen ho Theos ton kosmon, hōste ton huion ton monogenē edōken, hina pas ho pisteuōn eis auton mē apolētai all&apos; echē zōēn aiōnion.</p>
-            <p className="text-sm text-primary-dark/60 dark:text-primary-dark/40">KJV: &ldquo;For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.&rdquo;</p>
+            <p className="text-sm text-ink-muted dark:text-ink-light italic mb-1">Transliteration: Houtōs gar ēgapēsen ho Theos ton kosmon, hōste ton huion ton monogenē edōken, hina pas ho pisteuōn eis auton mē apolētai all&apos; echē zōēn aiōnion.</p>
+            <p className="text-sm text-ink-muted dark:text-ink-light">KJV: &ldquo;For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.&rdquo;</p>
           </div>
 
           {/* Greek Parsing Table */}
@@ -619,11 +619,11 @@ export default function John316Page() {
               <tbody>
                 {GREEK_PARSING.map((row, idx) => (
                   <tr key={idx} className="border-b border-grace/50 dark:border-dark-border/50 hover:bg-primary-light/10 dark:hover:bg-dark-bg/50">
-                    <td className="p-3 text-blue-700 dark:text-blue-300 font-medium" lang="grc">{row.greek}</td>
-                    <td className="p-3 italic text-primary-dark/70 dark:text-primary-dark/40">{row.transliteration}</td>
-                    <td className="p-3 text-primary-dark/70 dark:text-primary-dark/40">{row.partOfSpeech}</td>
-                    <td className="p-3 text-primary-dark/70 dark:text-primary-dark/40 text-xs">{row.parsing}</td>
-                    <td className="p-3 text-primary-dark/80 dark:text-primary-dark/40">{row.gloss}</td>
+                    <td className="p-3 text-scripture dark:text-sacred font-medium" lang="grc">{row.greek}</td>
+                    <td className="p-3 italic text-ink-muted dark:text-ink-light">{row.transliteration}</td>
+                    <td className="p-3 text-ink-muted dark:text-ink-light">{row.partOfSpeech}</td>
+                    <td className="p-3 text-ink-muted dark:text-ink-light text-xs">{row.parsing}</td>
+                    <td className="p-3 text-scripture dark:text-ink-light">{row.gloss}</td>
                   </tr>
                 ))}
               </tbody>
@@ -644,51 +644,51 @@ export default function John316Page() {
               <tbody>
                 {KEY_GREEK_TERMS.map((row, idx) => (
                   <tr key={idx} className="border-b border-grace/50 dark:border-dark-border/50 hover:bg-primary-light/10 dark:hover:bg-dark-bg/50">
-                    <td className="p-3 text-blue-700 dark:text-blue-300 font-medium">{row.word}</td>
-                    <td className="p-3 text-primary-dark/70 dark:text-primary-dark/40">{row.range}</td>
-                    <td className="p-3 text-primary-dark/80 dark:text-primary-dark/40">{row.significance}</td>
+                    <td className="p-3 text-scripture dark:text-sacred font-medium">{row.word}</td>
+                    <td className="p-3 text-ink-muted dark:text-ink-light">{row.range}</td>
+                    <td className="p-3 text-scripture dark:text-ink-light">{row.significance}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
 
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 text-sm mt-4">
-            Explore full word studies for the key terms above: <Link href="/greek-word/agapao" className="text-blue-600 hover:underline font-medium">agapaō (love)</Link>, <Link href="/greek-word/monogenes" className="text-blue-600 hover:underline font-medium">monogenēs (one and only)</Link>, <Link href="/greek-word/pisteuo" className="text-blue-600 hover:underline font-medium">pisteuō (believe)</Link>, and <Link href="/greek-word/apollymi" className="text-blue-600 hover:underline font-medium">apollymi (perish)</Link>. Each includes every NT occurrence, lexical range, and theological significance.
+          <p className="text-ink-muted dark:text-ink-light text-sm mt-4">
+            Explore full word studies for the key terms above: <Link href="/greek-word/agapao" className="text-sacred hover:underline font-medium">agapaō (love)</Link>, <Link href="/greek-word/monogenes" className="text-sacred hover:underline font-medium">monogenēs (one and only)</Link>, <Link href="/greek-word/pisteuo" className="text-sacred hover:underline font-medium">pisteuō (believe)</Link>, and <Link href="/greek-word/apollymi" className="text-sacred hover:underline font-medium">apollymi (perish)</Link>. Each includes every NT occurrence, lexical range, and theological significance.
           </p>
         </section>
 
         {/* Clause-by-Clause Greek Analysis */}
         <section id="clause-1" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">Clause 1: Οὕτως γὰρ ἠγάπησεν ὁ Θεὸς τὸν κόσμον</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-6 text-sm italic">&ldquo;For God so loved the world&rdquo;</p>
+          <p className="text-ink-muted dark:text-ink-light mb-6 text-sm italic">&ldquo;For God so loved the world&rdquo;</p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 md:p-8 shadow-sm">
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
+            <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
               The verse opens with an explanatory conjunction (<em>gar</em>, &ldquo;for&rdquo;) tying it directly to John 3:14-15 and the bronze serpent typology. This is not a standalone declaration &mdash; it is the <em>reason</em> the Son of Man must be lifted up.
             </p>
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
+            <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
               The adverb <em>houtos</em> (&ldquo;in this way / so&rdquo;) is demonstrative, not merely intensive. It points to the <em>manner</em> of God&apos;s love: He loved the world <strong>in this specific way</strong> &mdash; by giving His Son. English readers often read &ldquo;so&rdquo; as &ldquo;so much,&rdquo; which captures the intensity but misses the specificity. The NLT&apos;s rendering (&ldquo;This is how God loved the world&rdquo;) is arguably closer to the Greek.
             </p>
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
-              The verb <Link href="/greek-word/agapao" className="text-blue-600 hover:underline"><em>ēgapēsen</em></Link> is aorist active indicative &mdash; a completed, decisive action. God&apos;s love is not presented here as an ongoing emotional state but as a historic act that reached its apex at the cross. The aorist tense captures a love that <em>did something</em>.
+            <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
+              The verb <Link href="/greek-word/agapao" className="text-sacred hover:underline"><em>ēgapēsen</em></Link> is aorist active indicative &mdash; a completed, decisive action. God&apos;s love is not presented here as an ongoing emotional state but as a historic act that reached its apex at the cross. The aorist tense captures a love that <em>did something</em>.
             </p>
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
-              The object, <em>ton kosmon</em> (&ldquo;the world&rdquo;), carries weight in John&apos;s vocabulary. John uses <em>kosmos</em> 78 times &mdash; more than any other New Testament author. In this Gospel, the world is simultaneously the object of God&apos;s love and the system that opposes Him (John 1:10, 15:18-19). God loves what resists Him. That is the scandal of <Link href="/topics/gods-love" className="text-blue-600 hover:underline">agape</Link>.
+            <p className="text-scripture dark:text-ink-light leading-relaxed">
+              The object, <em>ton kosmon</em> (&ldquo;the world&rdquo;), carries weight in John&apos;s vocabulary. John uses <em>kosmos</em> 78 times &mdash; more than any other New Testament author. In this Gospel, the world is simultaneously the object of God&apos;s love and the system that opposes Him (John 1:10, 15:18-19). God loves what resists Him. That is the scandal of <Link href="/topics/gods-love" className="text-sacred hover:underline">agape</Link>.
             </p>
           </div>
         </section>
 
         <section id="clause-2" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">Clause 2: ὥστε τὸν υἱὸν τὸν μονογενῆ ἔδωκεν</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-6 text-sm italic">&ldquo;that he gave his only begotten Son&rdquo;</p>
+          <p className="text-ink-muted dark:text-ink-light mb-6 text-sm italic">&ldquo;that he gave his only begotten Son&rdquo;</p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 md:p-8 shadow-sm">
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
+            <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
               The conjunction <em>hōste</em> introduces a result clause: God&apos;s love <em>resulted in</em> giving. Love is not passive in this verse. It produces the costliest action in history. The gap between &ldquo;loved&rdquo; and &ldquo;gave&rdquo; is zero &mdash; love and sacrifice are inseparable.
             </p>
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
-              The adjective <Link href="/greek-word/monogenes" className="text-blue-600 hover:underline"><em>monogenē</em></Link> has been the subject of centuries of translation debate. The KJV&apos;s &ldquo;only begotten&rdquo; derives from the Latin <em>unigenitus</em> and suggests origin. Modern lexicography, however, traces <em>monogenēs</em> to <em>monos</em> (only) + <em>genos</em> (kind/type), not <em>gennao</em> (to beget). The meaning is &ldquo;one of a kind, unique&rdquo; &mdash; not that Jesus was created but that no one else shares His category of existence. Hebrews 11:17 uses the same word for Isaac, who was not Abraham&apos;s only son but his unique, promised son.
+            <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
+              The adjective <Link href="/greek-word/monogenes" className="text-sacred hover:underline"><em>monogenē</em></Link> has been the subject of centuries of translation debate. The KJV&apos;s &ldquo;only begotten&rdquo; derives from the Latin <em>unigenitus</em> and suggests origin. Modern lexicography, however, traces <em>monogenēs</em> to <em>monos</em> (only) + <em>genos</em> (kind/type), not <em>gennao</em> (to beget). The meaning is &ldquo;one of a kind, unique&rdquo; &mdash; not that Jesus was created but that no one else shares His category of existence. Hebrews 11:17 uses the same word for Isaac, who was not Abraham&apos;s only son but his unique, promised son.
             </p>
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
+            <p className="text-scripture dark:text-ink-light leading-relaxed">
               The verb <em>edōken</em> (&ldquo;gave&rdquo;) is again aorist &mdash; a decisive, completed act. The word choice is striking: God did not <em>loan</em> His Son, <em>send</em> Him on an errand, or <em>offer</em> Him tentatively. He <em>gave</em> Him. The same verb appears in John 6:32 where God &ldquo;gives&rdquo; the true bread from heaven. In John&apos;s theology, divine giving is permanent and sacrificial.
             </p>
           </div>
@@ -696,38 +696,38 @@ export default function John316Page() {
 
         <section id="clause-3" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">Clause 3: ἵνα πᾶς ὁ πιστεύων εἰς αὐτὸν</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-6 text-sm italic">&ldquo;that whosoever believeth in him&rdquo;</p>
+          <p className="text-ink-muted dark:text-ink-light mb-6 text-sm italic">&ldquo;that whosoever believeth in him&rdquo;</p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 md:p-8 shadow-sm">
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
+            <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
               The conjunction <em>hina</em> introduces a purpose clause: this is <em>why</em> God gave His Son. The purpose is not judgment (John 3:17 makes that explicit) but salvation for &ldquo;everyone believing.&rdquo;
             </p>
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
+            <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
               The adjective <em>pas</em> (&ldquo;every, all&rdquo;) combined with the articular participle <em>ho pisteuōn</em> (&ldquo;the one believing&rdquo;) creates a universal offer with a personal condition: <strong>every single person who believes</strong>. No ethnic, social, or moral boundary limits the offer. But the participle is present tense &mdash; indicating ongoing, continuous belief, not a one-time mental assent that fades into nothing.
             </p>
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
-              The preposition <em>eis</em> (&ldquo;into&rdquo;) is directional. Greek has multiple words for &ldquo;in&rdquo; &mdash; <em>en</em> (static, inside), <em>epi</em> (upon), and <em>eis</em> (into, toward). John chose <em>eis</em>, the word that implies <em>movement</em>. <Link href="/greek-word/pisteuo" className="text-blue-600 hover:underline">Biblical faith</Link> is not standing still and nodding. It is stepping forward and committing yourself &mdash; placing your trust <em>into</em> Christ.
+            <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
+              The preposition <em>eis</em> (&ldquo;into&rdquo;) is directional. Greek has multiple words for &ldquo;in&rdquo; &mdash; <em>en</em> (static, inside), <em>epi</em> (upon), and <em>eis</em> (into, toward). John chose <em>eis</em>, the word that implies <em>movement</em>. <Link href="/greek-word/pisteuo" className="text-sacred hover:underline">Biblical faith</Link> is not standing still and nodding. It is stepping forward and committing yourself &mdash; placing your trust <em>into</em> Christ.
             </p>
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
-              This is why &ldquo;believe&rdquo; in John 3:16 cannot mean merely acknowledging facts. Demons acknowledge facts about God (<Link href="/cross-references/james/2/19" className="text-blue-600 hover:underline">James 2:19</Link>). <em>Pisteuōn eis</em> means entrusting yourself to someone &mdash; the way you trust a surgeon when you lie down on the operating table. You are not just agreeing that surgery works. You are putting your life in the surgeon&apos;s hands.
+            <p className="text-scripture dark:text-ink-light leading-relaxed">
+              This is why &ldquo;believe&rdquo; in John 3:16 cannot mean merely acknowledging facts. Demons acknowledge facts about God (<Link href="/cross-references/james/2/19" className="text-sacred hover:underline">James 2:19</Link>). <em>Pisteuōn eis</em> means entrusting yourself to someone &mdash; the way you trust a surgeon when you lie down on the operating table. You are not just agreeing that surgery works. You are putting your life in the surgeon&apos;s hands.
             </p>
           </div>
         </section>
 
         <section id="clause-4" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">Clause 4: μὴ ἀπόληται ἀλλ&apos; ἔχῃ ζωὴν αἰώνιον</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-6 text-sm italic">&ldquo;should not perish, but have everlasting life&rdquo;</p>
+          <p className="text-ink-muted dark:text-ink-light mb-6 text-sm italic">&ldquo;should not perish, but have everlasting life&rdquo;</p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 md:p-8 shadow-sm">
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
-              The negated subjunctive <em>mē apolētai</em> (&ldquo;should not perish&rdquo;) is a purpose clause: the <em>goal</em> of God&apos;s giving is to prevent perishing. The middle voice of <Link href="/greek-word/apollymi" className="text-blue-600 hover:underline"><em>apollymi</em></Link> is significant &mdash; it carries the sense of self-destruction. Sin does not simply trigger an external punishment. It ruins the sinner from within. Perishing is not God doing something <em>to</em> you. It is what happens when you remove yourself from the source of life.
+            <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
+              The negated subjunctive <em>mē apolētai</em> (&ldquo;should not perish&rdquo;) is a purpose clause: the <em>goal</em> of God&apos;s giving is to prevent perishing. The middle voice of <Link href="/greek-word/apollymi" className="text-sacred hover:underline"><em>apollymi</em></Link> is significant &mdash; it carries the sense of self-destruction. Sin does not simply trigger an external punishment. It ruins the sinner from within. Perishing is not God doing something <em>to</em> you. It is what happens when you remove yourself from the source of life.
             </p>
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
+            <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
               The conjunction <em>alla</em> (&ldquo;but&rdquo;) is the strongest adversative in Greek. It does not mean &ldquo;however&rdquo; or &ldquo;on the other hand.&rdquo; It means &ldquo;on the <em>contrary</em>.&rdquo; The contrast is absolute: not perishing BUT eternal life. Two destinies, no middle ground, separated by one conjunction. The starkness is intentional.
             </p>
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
+            <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
               The phrase <em>zōēn aiōnion</em> (&ldquo;life eternal&rdquo;) uses <em>zōē</em>, not <em>bios</em>. In Greek, <em>bios</em> refers to biological existence &mdash; the kind of life you share with plants and animals. <em>Zōē</em> refers to life in its fullest, richest sense &mdash; the kind of life God Himself possesses. And <em>aiōnios</em> means not just &ldquo;unending&rdquo; but &ldquo;belonging to the age to come&rdquo; &mdash; the quality of existence in God&apos;s eternal kingdom.
             </p>
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
-              The verb <em>echē</em> (&ldquo;have, possess&rdquo;) is present subjunctive. The believer <em>has</em> eternal life as a present possession, not merely a future promise. Jesus confirmed this in <Link href="/cross-references/john/5/24" className="text-blue-600 hover:underline">John 5:24</Link>: &ldquo;He that heareth my word, and believeth on him that sent me, <strong>hath</strong> everlasting life, and shall not come into condemnation; but <strong>is passed</strong> from death unto life.&rdquo; The transfer is already complete.
+            <p className="text-scripture dark:text-ink-light leading-relaxed">
+              The verb <em>echē</em> (&ldquo;have, possess&rdquo;) is present subjunctive. The believer <em>has</em> eternal life as a present possession, not merely a future promise. Jesus confirmed this in <Link href="/cross-references/john/5/24" className="text-sacred hover:underline">John 5:24</Link>: &ldquo;He that heareth my word, and believeth on him that sent me, <strong>hath</strong> everlasting life, and shall not come into condemnation; but <strong>is passed</strong> from death unto life.&rdquo; The transfer is already complete.
             </p>
           </div>
         </section>
@@ -736,25 +736,25 @@ export default function John316Page() {
         <section id="alternative-translations" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-6">Alternative Translations of John 3:16</h2>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 md:p-8 shadow-sm">
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+            <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
               Every translation is an interpretation. No English rendering can capture every nuance of the Greek simultaneously. Here are three alternative translations that highlight different aspects of the original text:
             </p>
             <div className="space-y-4">
-              <div className="border-l-4 border-blue-600 pl-4">
-                <p className="text-primary-dark/80 dark:text-primary-dark/40 italic mb-1">&ldquo;For this is how God loved the world: He gave the Son, His one-and-only, so that every person trusting in Him would not be destroyed but would possess the life of the age to come.&rdquo;</p>
-                <p className="text-xs text-primary-dark/60 dark:text-primary-dark/40"><strong>Emphasis:</strong> Manner of love (houtos), uniqueness (monogenēs), directional faith (pisteuōn eis), quality of life (zōēn aiōnion)</p>
+              <div className="border-l-4 border-sacred pl-4">
+                <p className="text-scripture dark:text-ink-light italic mb-1">&ldquo;For this is how God loved the world: He gave the Son, His one-and-only, so that every person trusting in Him would not be destroyed but would possess the life of the age to come.&rdquo;</p>
+                <p className="text-xs text-ink-muted dark:text-ink-light"><strong>Emphasis:</strong> Manner of love (houtos), uniqueness (monogenēs), directional faith (pisteuōn eis), quality of life (zōēn aiōnion)</p>
               </div>
               <div className="border-l-4 border-green-600 pl-4">
-                <p className="text-primary-dark/80 dark:text-primary-dark/40 italic mb-1">&ldquo;For God loved the world in this way: He gave His unique Son, so that anyone who keeps on believing in Him will not come to ruin but will have eternal life as a present reality.&rdquo;</p>
-                <p className="text-xs text-primary-dark/60 dark:text-primary-dark/40"><strong>Emphasis:</strong> Present continuous belief (participle), present possession of life (echē), self-destruction in perishing (apollymi middle voice)</p>
+                <p className="text-scripture dark:text-ink-light italic mb-1">&ldquo;For God loved the world in this way: He gave His unique Son, so that anyone who keeps on believing in Him will not come to ruin but will have eternal life as a present reality.&rdquo;</p>
+                <p className="text-xs text-ink-muted dark:text-ink-light"><strong>Emphasis:</strong> Present continuous belief (participle), present possession of life (echē), self-destruction in perishing (apollymi middle voice)</p>
               </div>
               <div className="border-l-4 border-amber-600 pl-4">
-                <p className="text-primary-dark/80 dark:text-primary-dark/40 italic mb-1">&ldquo;Because of this &mdash; because God loved the world so intensely &mdash; He gave the one-of-a-kind Son, with the result that every believer in Him escapes destruction and gains the life that belongs to God&apos;s eternal kingdom.&rdquo;</p>
-                <p className="text-xs text-primary-dark/60 dark:text-primary-dark/40"><strong>Emphasis:</strong> Connection to preceding verses (gar), intensity and manner combined, kingdom eschatology (aiōnios)</p>
+                <p className="text-scripture dark:text-ink-light italic mb-1">&ldquo;Because of this &mdash; because God loved the world so intensely &mdash; He gave the one-of-a-kind Son, with the result that every believer in Him escapes destruction and gains the life that belongs to God&apos;s eternal kingdom.&rdquo;</p>
+                <p className="text-xs text-ink-muted dark:text-ink-light"><strong>Emphasis:</strong> Connection to preceding verses (gar), intensity and manner combined, kingdom eschatology (aiōnios)</p>
               </div>
             </div>
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mt-4">
-              No single rendering is &ldquo;right&rdquo; and the others &ldquo;wrong.&rdquo; The Greek carries all of these nuances simultaneously. Reading multiple translations side by side &mdash; as shown in the <a href="#translations" className="text-blue-600 hover:underline">comparison table above</a> &mdash; gives you a fuller picture than any one version can provide.
+            <p className="text-scripture dark:text-ink-light leading-relaxed mt-4">
+              No single rendering is &ldquo;right&rdquo; and the others &ldquo;wrong.&rdquo; The Greek carries all of these nuances simultaneously. Reading multiple translations side by side &mdash; as shown in the <a href="#translations" className="text-sacred hover:underline">comparison table above</a> &mdash; gives you a fuller picture than any one version can provide.
             </p>
           </div>
         </section>
@@ -762,16 +762,16 @@ export default function John316Page() {
         {/* Word-by-Word Study */}
         <section id="word-study" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">Word-by-Word Study of John 3:16</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-6 text-sm">Every phrase carries weight. Here&apos;s what you&apos;re actually reading.</p>
+          <p className="text-ink-muted dark:text-ink-light mb-6 text-sm">Every phrase carries weight. Here&apos;s what you&apos;re actually reading.</p>
           <div className="space-y-4">
             {WORD_STUDY.map((item, idx) => (
               <div key={idx} className="bg-white dark:bg-dark-surface rounded-lg border border-grace dark:border-dark-border p-5 shadow-sm">
                 <div className="flex items-start gap-4">
-                  <span className="shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm font-bold">{idx + 1}</span>
+                  <span className="shrink-0 w-8 h-8 rounded-full bg-scripture text-white flex items-center justify-center text-sm font-bold">{idx + 1}</span>
                   <div className="flex-1">
                     <h3 className="text-lg font-bold text-scripture dark:text-white mb-1">{item.phrase}</h3>
-                    <p className="text-xs text-blue-600 font-medium mb-2">Greek: <em>{item.greek}</em></p>
-                    <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed text-sm">{item.explanation}</p>
+                    <p className="text-xs text-sacred font-medium mb-2">Greek: <em>{item.greek}</em></p>
+                    <p className="text-scripture dark:text-ink-light leading-relaxed text-sm">{item.explanation}</p>
                   </div>
                 </div>
               </div>
@@ -782,7 +782,7 @@ export default function John316Page() {
         {/* Theological Significance */}
         <section id="theological-significance" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-6">Theological Significance: Five Doctrines in 26 Words</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-6">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-6">
             John 3:16 packs five major Christian doctrines into a single sentence. Theologians have spent lifetimes unpacking what Jesus communicated in 26 words. Here is a summary of each doctrine and how this verse teaches it.
           </p>
 
@@ -800,8 +800,8 @@ export default function John316Page() {
                 {FIVE_DOCTRINES.map((row, idx) => (
                   <tr key={idx} className="border-b border-grace/50 dark:border-dark-border/50">
                     <td className="p-3 font-medium text-scripture dark:text-white">{row.doctrine}</td>
-                    <td className="p-3 text-blue-700 dark:text-blue-300 italic">{row.phrase}</td>
-                    <td className="p-3 text-primary-dark/80 dark:text-primary-dark/40">{row.teaches}</td>
+                    <td className="p-3 text-scripture dark:text-sacred italic">{row.phrase}</td>
+                    <td className="p-3 text-scripture dark:text-ink-light">{row.teaches}</td>
                   </tr>
                 ))}
               </tbody>
@@ -811,21 +811,21 @@ export default function John316Page() {
           <div className="space-y-6">
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 shadow-sm">
               <h3 className="text-lg font-bold text-scripture dark:text-white mb-3">The Scope of God&apos;s Love: What Does &ldquo;the World&rdquo; Mean?</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
+              <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
                 &ldquo;The world&rdquo; (<em>ton kosmon</em>) is one of the most debated phrases in theology. Some traditions restrict it to the elect. Others expand it to mean every person who has ever lived. The most natural reading of John&apos;s usage is that God&apos;s love extends to the entire human race &mdash; not just Israel, not just the morally upright, but the whole rebellious, broken world.
               </p>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
-                This does not mean every person is automatically saved. The verse contains a condition: &ldquo;whosoever believeth.&rdquo; The offer is universal. The application is conditional on faith. God loves the world broadly and saves believers specifically. Both truths are in the same verse, and both must be held together. For more on what the Bible teaches about <Link href="/topics/eternal-life" className="text-blue-600 hover:underline">eternal life</Link> and <Link href="/topics/gods-love" className="text-blue-600 hover:underline">God&apos;s love</Link>, see the linked studies.
+              <p className="text-scripture dark:text-ink-light leading-relaxed">
+                This does not mean every person is automatically saved. The verse contains a condition: &ldquo;whosoever believeth.&rdquo; The offer is universal. The application is conditional on faith. God loves the world broadly and saves believers specifically. Both truths are in the same verse, and both must be held together. For more on what the Bible teaches about <Link href="/topics/eternal-life" className="text-sacred hover:underline">eternal life</Link> and <Link href="/topics/gods-love" className="text-sacred hover:underline">God&apos;s love</Link>, see the linked studies.
               </p>
             </div>
 
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 shadow-sm">
               <h3 className="text-lg font-bold text-scripture dark:text-white mb-3">Grace vs. Works: The Definitive Statement</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
+              <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
                 Notice what John 3:16 does NOT say. It does not say &ldquo;whosoever is good enough.&rdquo; It does not say &ldquo;whosoever performs the right rituals.&rdquo; It does not say &ldquo;whosoever belongs to the right ethnic group.&rdquo; The sole condition is belief &mdash; personal trust in the Son of God.
               </p>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
-                This was radical in Nicodemus&apos;s world, where <Link href="/what-does-the-bible-say-about/salvation" className="text-blue-600 hover:underline">salvation</Link> was assumed to come through Torah observance, circumcision, and ethnic identity. Jesus dismantled that entire framework with one sentence. Salvation is a gift received by faith, not a wage earned by works (<Link href="/cross-references/ephesians/2/8" className="text-blue-600 hover:underline">Ephesians 2:8-9</Link>). That&apos;s what separates Christianity from every other religious system on earth.
+              <p className="text-scripture dark:text-ink-light leading-relaxed">
+                This was radical in Nicodemus&apos;s world, where <Link href="/what-does-the-bible-say-about/salvation" className="text-sacred hover:underline">salvation</Link> was assumed to come through Torah observance, circumcision, and ethnic identity. Jesus dismantled that entire framework with one sentence. Salvation is a gift received by faith, not a wage earned by works (<Link href="/cross-references/ephesians/2/8" className="text-sacred hover:underline">Ephesians 2:8-9</Link>). That&apos;s what separates Christianity from every other religious system on earth.
               </p>
             </div>
 
@@ -845,7 +845,7 @@ export default function John316Page() {
                     <tr key={idx} className="border-b border-grace/50 dark:border-dark-border/50">
                       <td className="p-3 text-red-700 dark:text-red-400">{row.thinks}</td>
                       <td className="p-3 text-green-700 dark:text-green-400">{row.actual}</td>
-                      <td className="p-3 text-primary-dark/80 dark:text-primary-dark/40">{row.matters}</td>
+                      <td className="p-3 text-scripture dark:text-ink-light">{row.matters}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -860,21 +860,21 @@ export default function John316Page() {
           <div className="space-y-6">
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 shadow-sm">
               <h3 className="text-lg font-bold text-scripture dark:text-white mb-3">In a Post-Christian Culture</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
-                We live in a time when biblical literacy is at an all-time low. Most people under 30 cannot name the four Gospels. Church attendance has declined every decade since the 1960s. And yet &mdash; John 3:16 remains the most recognized verse in Western civilization. It shows up on protest signs, eye black strips at football games, and even in court testimony. The verse persists because its message addresses something no cultural shift can erase: the human need for love, meaning, and rescue from death. Post-Christian culture has not produced a replacement for the gospel. It has only produced more noise to drown it out. Paired with promises like <Link href="/romans-8-28" className="text-blue-600 hover:underline">Romans 8:28</Link> and <Link href="/jeremiah-29-11" className="text-blue-600 hover:underline">Jeremiah 29:11</Link>, John 3:16 anchors a worldview that suffering, confusion, and cultural shifts cannot shake.
+              <p className="text-scripture dark:text-ink-light leading-relaxed">
+                We live in a time when biblical literacy is at an all-time low. Most people under 30 cannot name the four Gospels. Church attendance has declined every decade since the 1960s. And yet &mdash; John 3:16 remains the most recognized verse in Western civilization. It shows up on protest signs, eye black strips at football games, and even in court testimony. The verse persists because its message addresses something no cultural shift can erase: the human need for love, meaning, and rescue from death. Post-Christian culture has not produced a replacement for the gospel. It has only produced more noise to drown it out. Paired with promises like <Link href="/romans-8-28" className="text-sacred hover:underline">Romans 8:28</Link> and <Link href="/jeremiah-29-11" className="text-sacred hover:underline">Jeremiah 29:11</Link>, John 3:16 anchors a worldview that suffering, confusion, and cultural shifts cannot shake.
               </p>
             </div>
 
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 shadow-sm">
               <h3 className="text-lg font-bold text-scripture dark:text-white mb-3">When Suffering Makes It Hard to Believe</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
-                &ldquo;If God loves the world, why did my child die?&rdquo; &ldquo;If God gave His Son, why won&apos;t He give me a cure?&rdquo; These are not abstract theological problems. They are real agony. And John 3:16 does not pretend they don&apos;t exist. What it does is point to the cross &mdash; where God Himself entered human suffering and died. The cross does not explain every tragedy. But it proves that God is not sitting in heaven untouched by pain. He gave His Son. He knows loss. And He promises that suffering is temporary, but eternal life is not. <Link href="/psalm-23" className="text-blue-600 hover:underline">Psalm 23</Link> captures this same truth: &ldquo;though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me.&rdquo;
+              <p className="text-scripture dark:text-ink-light leading-relaxed">
+                &ldquo;If God loves the world, why did my child die?&rdquo; &ldquo;If God gave His Son, why won&apos;t He give me a cure?&rdquo; These are not abstract theological problems. They are real agony. And John 3:16 does not pretend they don&apos;t exist. What it does is point to the cross &mdash; where God Himself entered human suffering and died. The cross does not explain every tragedy. But it proves that God is not sitting in heaven untouched by pain. He gave His Son. He knows loss. And He promises that suffering is temporary, but eternal life is not. <Link href="/psalm-23" className="text-sacred hover:underline">Psalm 23</Link> captures this same truth: &ldquo;though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me.&rdquo;
               </p>
             </div>
 
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 shadow-sm">
               <h3 className="text-lg font-bold text-scripture dark:text-white mb-3">For the Person Who Grew Up Hearing It but Never Felt It</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
+              <p className="text-scripture dark:text-ink-light leading-relaxed">
                 If you were raised in church, John 3:16 may feel like wallpaper &mdash; always there, never noticed. You can recite it from memory without its words touching your heart. That numbness is not proof that the verse is empty. It is proof that familiarity can be the greatest enemy of the most powerful words ever spoken. Read it again &mdash; slowly, as if you had never heard it. A God exists. He loves you. He proved it at unimaginable cost. And He is offering you everything. The question is not whether you know the verse. The question is whether you know the God behind it.
               </p>
             </div>
@@ -887,27 +887,27 @@ export default function John316Page() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 shadow-sm">
               <h3 className="text-lg font-bold text-scripture dark:text-white mb-3">First-Century Application</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
-                For <Link href="/characters/nicodemus" className="text-blue-600 hover:underline">Nicodemus</Link> and his contemporaries, John 3:16 dismantled three deeply held assumptions. First, that salvation was ethnic &mdash; reserved for Israel as God&apos;s covenant people. &ldquo;The world&rdquo; shattered that boundary. Second, that the Messiah would come in power to judge the nations. God &ldquo;gave&rdquo; His Son not to condemn but to save. Third, that righteousness was earned through Torah observance. The sole condition is faith.
+              <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
+                For <Link href="/characters/nicodemus" className="text-sacred hover:underline">Nicodemus</Link> and his contemporaries, John 3:16 dismantled three deeply held assumptions. First, that salvation was ethnic &mdash; reserved for Israel as God&apos;s covenant people. &ldquo;The world&rdquo; shattered that boundary. Second, that the Messiah would come in power to judge the nations. God &ldquo;gave&rdquo; His Son not to condemn but to save. Third, that righteousness was earned through Torah observance. The sole condition is faith.
               </p>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
+              <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
                 In a world where Gentiles were considered unclean, where Samaritans were despised, and where tax collectors were social outcasts, &ldquo;whosoever&rdquo; was a word that leveled every hierarchy. The Pharisee and the prostitute stood on equal footing before the cross: both needed to believe; neither could earn what was freely offered.
               </p>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
-                The early church took this seriously. Within a generation, the gospel had crossed every boundary the first-century world considered impassable &mdash; Jew to Gentile, slave to free, male to female (<Link href="/cross-references/galatians/3/28" className="text-blue-600 hover:underline">Galatians 3:28</Link>). John 3:16 was the theological engine behind that expansion.
+              <p className="text-scripture dark:text-ink-light leading-relaxed">
+                The early church took this seriously. Within a generation, the gospel had crossed every boundary the first-century world considered impassable &mdash; Jew to Gentile, slave to free, male to female (<Link href="/cross-references/galatians/3/28" className="text-sacred hover:underline">Galatians 3:28</Link>). John 3:16 was the theological engine behind that expansion.
               </p>
             </div>
 
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 shadow-sm">
               <h3 className="text-lg font-bold text-scripture dark:text-white mb-3">Twenty-First-Century Application</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
+              <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
                 Modern barriers to faith look different from Nicodemus&apos;s, but they are equally real. Where first-century Jews struggled with ethnic exclusivism, twenty-first-century people struggle with relativism (&ldquo;all paths lead to God&rdquo;), scientism (&ldquo;only measurable things are real&rdquo;), and moral autonomy (&ldquo;I define my own truth&rdquo;). John 3:16 confronts all three.
               </p>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-3">
+              <p className="text-scripture dark:text-ink-light leading-relaxed mb-3">
                 It confronts relativism by naming a specific Savior (&ldquo;his only Son&rdquo;), not a generic spiritual force. It confronts scientism by asserting realities that transcend measurement &mdash; love, sacrifice, eternal life. And it confronts moral autonomy by presenting a binary: believe and live, or refuse and perish. There is no third option in this verse.
               </p>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
-                At the same time, John 3:16 meets modern people exactly where first-century people were met: with an unconditional offer. You do not need to clean up first. You do not need a theology degree. You do not need to understand the aorist tense. You need to trust Christ. The invitation that crossed the Roman Empire still crosses every barrier the modern world puts up. As <Link href="/philippians-4-13" className="text-blue-600 hover:underline">Paul discovered in prison</Link>, the gospel is never chained &mdash; even when its messengers are.
+              <p className="text-scripture dark:text-ink-light leading-relaxed">
+                At the same time, John 3:16 meets modern people exactly where first-century people were met: with an unconditional offer. You do not need to clean up first. You do not need a theology degree. You do not need to understand the aorist tense. You need to trust Christ. The invitation that crossed the Roman Empire still crosses every barrier the modern world puts up. As <Link href="/philippians-4-13" className="text-sacred hover:underline">Paul discovered in prison</Link>, the gospel is never chained &mdash; even when its messengers are.
               </p>
             </div>
           </div>
@@ -915,16 +915,16 @@ export default function John316Page() {
 
         {/* Quick Study Links */}
         <div className="mb-12 grid grid-cols-1 sm:grid-cols-3 gap-3">
-          <Link href="/characters/nicodemus" className="flex items-center gap-2 bg-white dark:bg-dark-surface rounded-lg p-3 border border-grace dark:border-dark-border hover:border-blue-300 transition-colors shadow-sm">
-            <span className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm font-bold shrink-0">N</span>
+          <Link href="/characters/nicodemus" className="flex items-center gap-2 bg-white dark:bg-dark-surface rounded-lg p-3 border border-grace dark:border-dark-border hover:border-sacred/50 transition-colors shadow-sm">
+            <span className="w-8 h-8 rounded-full bg-scripture text-white flex items-center justify-center text-sm font-bold shrink-0">N</span>
             <span className="text-sm font-medium text-scripture dark:text-white">Study Nicodemus</span>
           </Link>
-          <Link href="/john-3-quiz" className="flex items-center gap-2 bg-white dark:bg-dark-surface rounded-lg p-3 border border-grace dark:border-dark-border hover:border-blue-300 transition-colors shadow-sm">
-            <span className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm font-bold shrink-0">Q</span>
+          <Link href="/john-3-quiz" className="flex items-center gap-2 bg-white dark:bg-dark-surface rounded-lg p-3 border border-grace dark:border-dark-border hover:border-sacred/50 transition-colors shadow-sm">
+            <span className="w-8 h-8 rounded-full bg-scripture text-white flex items-center justify-center text-sm font-bold shrink-0">Q</span>
             <span className="text-sm font-medium text-scripture dark:text-white">John 3 Full Quiz</span>
           </Link>
-          <Link href="/bible-chapter-summaries/john/3" className="flex items-center gap-2 bg-white dark:bg-dark-surface rounded-lg p-3 border border-grace dark:border-dark-border hover:border-blue-300 transition-colors shadow-sm">
-            <span className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm font-bold shrink-0">S</span>
+          <Link href="/bible-chapter-summaries/john/3" className="flex items-center gap-2 bg-white dark:bg-dark-surface rounded-lg p-3 border border-grace dark:border-dark-border hover:border-sacred/50 transition-colors shadow-sm">
+            <span className="w-8 h-8 rounded-full bg-scripture text-white flex items-center justify-center text-sm font-bold shrink-0">S</span>
             <span className="text-sm font-medium text-scripture dark:text-white">John 3 Summary</span>
           </Link>
         </div>
@@ -935,37 +935,37 @@ export default function John316Page() {
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 md:p-8 shadow-sm space-y-6">
             <div>
               <h3 className="font-bold text-scripture dark:text-white mb-2">&ldquo;If God loves the world, why is there so much suffering?&rdquo;</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed text-sm">
+              <p className="text-scripture dark:text-ink-light leading-relaxed text-sm">
                 Suffering entered the world through sin — humanity&apos;s choice to reject God (Genesis 3). God didn&apos;t cause it; we did. But John 3:16 shows His response: instead of abandoning a broken world, He entered it. Jesus suffered betrayal, injustice, torture, and death. God knows suffering firsthand. And He offers a future where &ldquo;God shall wipe away all tears from their eyes&rdquo; (Revelation 21:4). The cross doesn&apos;t explain all suffering — but it proves God hasn&apos;t left us alone in it.
               </p>
             </div>
             <div>
               <h3 className="font-bold text-scripture dark:text-white mb-2">&ldquo;Why does it have to be about believing in Jesus? What about good people?&rdquo;</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed text-sm">
-                <Link href="/characters/nicodemus" className="text-blue-600 hover:underline">Nicodemus</Link> was one of the most religiously educated, morally upright men alive — and Jesus told him he needed to be born again. The Bible&apos;s claim is that all people, regardless of how &ldquo;good&rdquo; they are, fall short of God&apos;s standard (<Link href="/cross-references/romans/3/23" className="text-blue-600 hover:underline">Romans 3:23</Link>). Salvation isn&apos;t about being good enough. It&apos;s about receiving a gift you could never earn. That&apos;s what makes it grace — &ldquo;not of works, lest any man should boast&rdquo; (<Link href="/cross-references/ephesians/2/9" className="text-blue-600 hover:underline">Ephesians 2:9</Link>).
+              <p className="text-scripture dark:text-ink-light leading-relaxed text-sm">
+                <Link href="/characters/nicodemus" className="text-sacred hover:underline">Nicodemus</Link> was one of the most religiously educated, morally upright men alive — and Jesus told him he needed to be born again. The Bible&apos;s claim is that all people, regardless of how &ldquo;good&rdquo; they are, fall short of God&apos;s standard (<Link href="/cross-references/romans/3/23" className="text-sacred hover:underline">Romans 3:23</Link>). Salvation isn&apos;t about being good enough. It&apos;s about receiving a gift you could never earn. That&apos;s what makes it grace — &ldquo;not of works, lest any man should boast&rdquo; (<Link href="/cross-references/ephesians/2/9" className="text-sacred hover:underline">Ephesians 2:9</Link>).
               </p>
             </div>
             <div>
               <h3 className="font-bold text-scripture dark:text-white mb-2">&ldquo;What if I&apos;ve done too much wrong?&rdquo;</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed text-sm">
-                The word &ldquo;whosoever&rdquo; exists specifically because of this question. It means <em>anyone</em> — no exceptions. The Apostle <Link href="/characters/paul" className="text-blue-600 hover:underline">Paul</Link> called himself the &ldquo;chief of sinners&rdquo; (<Link href="/cross-references/1-timothy/1/15" className="text-blue-600 hover:underline">1 Timothy 1:15</Link>) and said Jesus saved him to prove that no one is beyond reach. If &ldquo;whosoever&rdquo; doesn&apos;t include your story, it doesn&apos;t mean anything. But it does.
+              <p className="text-scripture dark:text-ink-light leading-relaxed text-sm">
+                The word &ldquo;whosoever&rdquo; exists specifically because of this question. It means <em>anyone</em> — no exceptions. The Apostle <Link href="/characters/paul" className="text-sacred hover:underline">Paul</Link> called himself the &ldquo;chief of sinners&rdquo; (<Link href="/cross-references/1-timothy/1/15" className="text-sacred hover:underline">1 Timothy 1:15</Link>) and said Jesus saved him to prove that no one is beyond reach. If &ldquo;whosoever&rdquo; doesn&apos;t include your story, it doesn&apos;t mean anything. But it does.
               </p>
             </div>
             <div>
               <h3 className="font-bold text-scripture dark:text-white mb-2">&ldquo;Do I have to change my life to be saved?&rdquo;</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed text-sm">
-                You don&apos;t have to fix yourself before coming to God — but you do have to be willing to turn. The Bible calls this <Link href="/what-does-the-bible-say-about/repentance" className="text-blue-600 hover:underline">repentance</Link>. Jesus said &ldquo;Repent, and believe the gospel&rdquo; (<Link href="/cross-references/mark/1/15" className="text-blue-600 hover:underline">Mark 1:15</Link>). Repentance isn&apos;t about becoming perfect overnight. It&apos;s an honest change of direction: admitting you&apos;ve been going your own way and choosing to follow God instead. You come as you are, but you don&apos;t stay as you are. God does the transforming — your job is to show up willing.
+              <p className="text-scripture dark:text-ink-light leading-relaxed text-sm">
+                You don&apos;t have to fix yourself before coming to God — but you do have to be willing to turn. The Bible calls this <Link href="/what-does-the-bible-say-about/repentance" className="text-sacred hover:underline">repentance</Link>. Jesus said &ldquo;Repent, and believe the gospel&rdquo; (<Link href="/cross-references/mark/1/15" className="text-sacred hover:underline">Mark 1:15</Link>). Repentance isn&apos;t about becoming perfect overnight. It&apos;s an honest change of direction: admitting you&apos;ve been going your own way and choosing to follow God instead. You come as you are, but you don&apos;t stay as you are. God does the transforming — your job is to show up willing.
               </p>
             </div>
             <div>
               <h3 className="font-bold text-scripture dark:text-white mb-2">&ldquo;Aren&apos;t all religions basically saying the same thing?&rdquo;</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed text-sm">
+              <p className="text-scripture dark:text-ink-light leading-relaxed text-sm">
                 John 3:16 makes a claim that no other religion makes: that the infinite God loved the world enough to sacrifice His own Son, and that salvation is received as a free gift through faith &mdash; not earned through works, meditation, moral improvement, or religious performance. Every other religious system tells you what you must do to reach God. Christianity says God reached down to you. That is a fundamental, irreconcilable difference.
               </p>
             </div>
             <div>
               <h3 className="font-bold text-scripture dark:text-white mb-2">&ldquo;What happened to Nicodemus after this conversation?&rdquo;</h3>
-              <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed text-sm">
+              <p className="text-scripture dark:text-ink-light leading-relaxed text-sm">
                 Nicodemus appears twice more in John&apos;s Gospel. In John 7:50-51, he speaks up in the Sanhedrin to defend Jesus&apos; right to a fair hearing &mdash; a courageous act that drew his colleagues&apos; contempt. Then in John 19:39-40, after the crucifixion, Nicodemus brings 75 pounds of myrrh and aloes to prepare Jesus&apos; body for burial &mdash; an extravagant, public act of devotion. The man who first came in darkness ended up caring for the body of the Light of the World. His story is one of the most beautiful arcs of growing faith in all of Scripture.
               </p>
             </div>
@@ -975,16 +975,16 @@ export default function John316Page() {
         {/* Cross-References */}
         <section id="cross-references" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">Cross-References: 10 Verses That Reinforce John 3:16</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-6 text-sm">John 3:16 isn&apos;t a lone verse. The entire Bible points to this message.</p>
+          <p className="text-ink-muted dark:text-ink-light mb-6 text-sm">John 3:16 isn&apos;t a lone verse. The entire Bible points to this message.</p>
           <div className="space-y-3">
             {CROSS_REFERENCES.map((verse, idx) => (
               <div key={idx} className="bg-white dark:bg-dark-surface rounded-lg border border-grace dark:border-dark-border p-5 shadow-sm">
                 <div className="flex items-center gap-2 mb-2">
-                  <span className="text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300">{verse.theme}</span>
-                  <Link href={verseRefToPath(verse.ref)} className="text-sm font-bold text-blue-600 hover:underline">— {verse.ref}</Link>
+                  <span className="text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-sacred/10 text-scripture dark:bg-scripture dark:text-sacred">{verse.theme}</span>
+                  <Link href={verseRefToPath(verse.ref)} className="text-sm font-bold text-sacred hover:underline">— {verse.ref}</Link>
                 </div>
-                <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed italic mb-2">&ldquo;{verse.text}&rdquo;</p>
-                <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm">{verse.commentary}</p>
+                <p className="text-scripture dark:text-ink-light leading-relaxed italic mb-2">&ldquo;{verse.text}&rdquo;</p>
+                <p className="text-ink-muted dark:text-ink-light text-sm">{verse.commentary}</p>
               </div>
             ))}
           </div>
@@ -992,16 +992,16 @@ export default function John316Page() {
 
         {/* Gospel CTA — For Non-Believers & Seekers */}
         <section className="mb-12">
-          <div className="bg-gradient-to-br from-scripture via-scripture/95 to-blue-950 rounded-xl p-8 md:p-10 text-white shadow-xl">
+          <div className="bg-gradient-to-br from-scripture via-scripture/95 to-scripture/80 rounded-xl p-8 md:p-10 text-white shadow-xl">
             <h2 className="text-2xl md:text-3xl font-bold font-display mb-4 text-center">This Verse Is an Invitation</h2>
-            <p className="text-blue-100 max-w-2xl mx-auto leading-relaxed mb-3 text-center">
+            <p className="text-sacred-light max-w-2xl mx-auto leading-relaxed mb-3 text-center">
               John 3:16 isn&apos;t information to file away. It&apos;s a question that requires an answer: <em>Will you repent and believe?</em>
             </p>
-            <p className="text-blue-100 max-w-2xl mx-auto leading-relaxed mb-6 text-center">
+            <p className="text-sacred-light max-w-2xl mx-auto leading-relaxed mb-6 text-center">
               You don&apos;t need to understand everything. You don&apos;t need to fix yourself first. You just need to be honest with God about where you are and willing to turn toward Him. That turning — repentance — and that trust — faith — are how eternal life begins. If you want to take the next step:
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <Link href="/what-does-the-bible-say-about/salvation" className="inline-flex items-center justify-center bg-white text-scripture font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors text-sm uppercase tracking-wider">
+              <Link href="/what-does-the-bible-say-about/salvation" className="inline-flex items-center justify-center bg-white text-scripture font-bold py-3 px-8 rounded-lg hover:bg-sacred-light transition-colors text-sm uppercase tracking-wider">
                 How to Be Saved
               </Link>
               <Link href="/what-does-the-bible-say-about/repentance" className="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white border border-white/30 font-bold py-3 px-8 rounded-lg transition-colors text-sm uppercase tracking-wider">
@@ -1019,9 +1019,9 @@ export default function John316Page() {
               <details key={idx} className="bg-white dark:bg-dark-surface rounded-lg border border-grace dark:border-dark-border shadow-sm group">
                 <summary className="p-5 cursor-pointer font-bold text-scripture dark:text-white text-lg flex items-center justify-between list-none">
                   <span>{item.question}</span>
-                  <span className="text-blue-600 text-xl ml-4 shrink-0 group-open:rotate-45 transition-transform">+</span>
+                  <span className="text-sacred text-xl ml-4 shrink-0 group-open:rotate-45 transition-transform">+</span>
                 </summary>
-                <div className="px-5 pb-5 text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed border-t border-grace dark:border-dark-border pt-4">
+                <div className="px-5 pb-5 text-scripture dark:text-ink-light leading-relaxed border-t border-grace dark:border-dark-border pt-4">
                   {item.answer}
                 </div>
               </details>
@@ -1032,16 +1032,16 @@ export default function John316Page() {
         {/* Secondary CTA — Study Paths */}
         <section className="mb-12">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/john-3-quiz" className="bg-blue-600 hover:bg-blue-700 rounded-xl p-6 text-white transition-colors shadow-lg group">
-              <p className="text-blue-200 text-xs font-bold uppercase tracking-wider mb-2">60 Questions, 4 Difficulty Levels</p>
+            <Link href="/john-3-quiz" className="bg-scripture hover:bg-ink-muted rounded-xl p-6 text-white transition-colors shadow-lg group">
+              <p className="text-sacred text-xs font-bold uppercase tracking-wider mb-2">60 Questions, 4 Difficulty Levels</p>
               <h3 className="text-xl font-bold mb-1">Complete John Chapter 3 Quiz</h3>
-              <p className="text-blue-100 text-sm">Test everything from Nicodemus to born again to eternal life.</p>
+              <p className="text-sacred-light text-sm">Test everything from Nicodemus to born again to eternal life.</p>
               <span className="inline-block mt-3 text-sm font-bold uppercase tracking-wider group-hover:translate-x-1 transition-transform">Start Quiz &rarr;</span>
             </Link>
             <Link href="/john-quiz" className="bg-scripture hover:bg-scripture/90 rounded-xl p-6 text-white transition-colors shadow-lg group">
-              <p className="text-blue-200 text-xs font-bold uppercase tracking-wider mb-2">25 Questions Covering All 21 Chapters</p>
+              <p className="text-sacred text-xs font-bold uppercase tracking-wider mb-2">25 Questions Covering All 21 Chapters</p>
               <h3 className="text-xl font-bold mb-1">Complete Gospel of John Quiz</h3>
-              <p className="text-blue-100 text-sm">From &ldquo;In the beginning was the Word&rdquo; to the risen Christ.</p>
+              <p className="text-sacred-light text-sm">From &ldquo;In the beginning was the Word&rdquo; to the risen Christ.</p>
               <span className="inline-block mt-3 text-sm font-bold uppercase tracking-wider group-hover:translate-x-1 transition-transform">Start Quiz &rarr;</span>
             </Link>
           </div>
@@ -1051,31 +1051,31 @@ export default function John316Page() {
         <section id="continue" className="bg-primary-light/30 dark:bg-dark-surface/30 border border-grace dark:border-dark-border rounded-xl p-6 scroll-mt-20">
           <h2 className="text-lg font-bold text-scripture dark:text-white mb-4">Continue Your Study</h2>
           <div className="grid gap-2 sm:grid-cols-2 md:grid-cols-3">
-            <Link href="/john-3-quiz" className="text-blue-600 hover:underline text-sm">John Chapter 3 Quiz</Link>
-            <Link href="/john-chapters" className="text-blue-600 hover:underline text-sm">All John Chapter Quizzes</Link>
-            <Link href="/john-quiz" className="text-blue-600 hover:underline text-sm">Complete Gospel of John Quiz</Link>
-            <Link href="/what-does-the-bible-say-about/salvation" className="text-blue-600 hover:underline text-sm">What the Bible Says About Salvation</Link>
-            <Link href="/what-does-the-bible-say-about/repentance" className="text-blue-600 hover:underline text-sm">What the Bible Says About Repentance</Link>
-            <Link href="/topics/born-again" className="text-blue-600 hover:underline text-sm">Bible Verses About Being Born Again</Link>
-            <Link href="/topics/eternal-life" className="text-blue-600 hover:underline text-sm">Bible Verses About Eternal Life</Link>
-            <Link href="/topics/gods-love" className="text-blue-600 hover:underline text-sm">Bible Verses About God&apos;s Love</Link>
-            <Link href="/characters/nicodemus" className="text-blue-600 hover:underline text-sm">Nicodemus Character Study</Link>
-            <Link href="/characters/john-apostle" className="text-blue-600 hover:underline text-sm">John the Apostle</Link>
-            <Link href="/bible-chapter-summaries/john/3" className="text-blue-600 hover:underline text-sm">John Chapter 3 Summary</Link>
-            <Link href="/bible-geography/john/3" className="text-blue-600 hover:underline text-sm">John 3 Places &amp; Map</Link>
-            <Link href="/verses/john/3/16" className="text-blue-600 hover:underline text-sm">John 3:16 Verse Commentary</Link>
-            <Link href="/greek-word/agapao" className="text-blue-600 hover:underline text-sm">Greek Word Study: Agapao</Link>
-            <Link href="/greek-word/monogenes" className="text-blue-600 hover:underline text-sm">Greek Word Study: Monogenes</Link>
-            <Link href="/greek-word/pisteuo" className="text-blue-600 hover:underline text-sm">Greek Word Study: Pisteuo</Link>
-            <Link href="/psalm-23" className="text-blue-600 hover:underline text-sm">Psalm 23 Explained</Link>
-            <Link href="/romans-8-28" className="text-blue-600 hover:underline text-sm">Romans 8:28 Explained</Link>
-            <Link href="/jeremiah-29-11" className="text-blue-600 hover:underline text-sm">Jeremiah 29:11 Explained</Link>
-            <Link href="/philippians-4-13" className="text-blue-600 hover:underline text-sm">Philippians 4:13 Explained</Link>
-            <Link href="/proverbs-3-5-6" className="text-blue-600 hover:underline text-sm">Proverbs 3:5-6 Explained</Link>
-            <Link href="/isaiah-41-10" className="text-blue-600 hover:underline text-sm">Isaiah 41:10 Explained</Link>
-            <Link href="/cross-references/john/3/16" className="text-blue-600 hover:underline text-sm">John 3:16 Cross-References</Link>
-            <Link href="/bible-topics/salvation" className="text-blue-600 hover:underline text-sm">Topical Study: Salvation</Link>
-            <Link href="/bible-topics/eternal-life" className="text-blue-600 hover:underline text-sm">Topical Study: Eternal Life</Link>
+            <Link href="/john-3-quiz" className="text-sacred hover:underline text-sm">John Chapter 3 Quiz</Link>
+            <Link href="/john-chapters" className="text-sacred hover:underline text-sm">All John Chapter Quizzes</Link>
+            <Link href="/john-quiz" className="text-sacred hover:underline text-sm">Complete Gospel of John Quiz</Link>
+            <Link href="/what-does-the-bible-say-about/salvation" className="text-sacred hover:underline text-sm">What the Bible Says About Salvation</Link>
+            <Link href="/what-does-the-bible-say-about/repentance" className="text-sacred hover:underline text-sm">What the Bible Says About Repentance</Link>
+            <Link href="/topics/born-again" className="text-sacred hover:underline text-sm">Bible Verses About Being Born Again</Link>
+            <Link href="/topics/eternal-life" className="text-sacred hover:underline text-sm">Bible Verses About Eternal Life</Link>
+            <Link href="/topics/gods-love" className="text-sacred hover:underline text-sm">Bible Verses About God&apos;s Love</Link>
+            <Link href="/characters/nicodemus" className="text-sacred hover:underline text-sm">Nicodemus Character Study</Link>
+            <Link href="/characters/john-apostle" className="text-sacred hover:underline text-sm">John the Apostle</Link>
+            <Link href="/bible-chapter-summaries/john/3" className="text-sacred hover:underline text-sm">John Chapter 3 Summary</Link>
+            <Link href="/bible-geography/john/3" className="text-sacred hover:underline text-sm">John 3 Places &amp; Map</Link>
+            <Link href="/verses/john/3/16" className="text-sacred hover:underline text-sm">John 3:16 Verse Commentary</Link>
+            <Link href="/greek-word/agapao" className="text-sacred hover:underline text-sm">Greek Word Study: Agapao</Link>
+            <Link href="/greek-word/monogenes" className="text-sacred hover:underline text-sm">Greek Word Study: Monogenes</Link>
+            <Link href="/greek-word/pisteuo" className="text-sacred hover:underline text-sm">Greek Word Study: Pisteuo</Link>
+            <Link href="/psalm-23" className="text-sacred hover:underline text-sm">Psalm 23 Explained</Link>
+            <Link href="/romans-8-28" className="text-sacred hover:underline text-sm">Romans 8:28 Explained</Link>
+            <Link href="/jeremiah-29-11" className="text-sacred hover:underline text-sm">Jeremiah 29:11 Explained</Link>
+            <Link href="/philippians-4-13" className="text-sacred hover:underline text-sm">Philippians 4:13 Explained</Link>
+            <Link href="/proverbs-3-5-6" className="text-sacred hover:underline text-sm">Proverbs 3:5-6 Explained</Link>
+            <Link href="/isaiah-41-10" className="text-sacred hover:underline text-sm">Isaiah 41:10 Explained</Link>
+            <Link href="/cross-references/john/3/16" className="text-sacred hover:underline text-sm">John 3:16 Cross-References</Link>
+            <Link href="/bible-topics/salvation" className="text-sacred hover:underline text-sm">Topical Study: Salvation</Link>
+            <Link href="/bible-topics/eternal-life" className="text-sacred hover:underline text-sm">Topical Study: Eternal Life</Link>
           </div>
         </section>
       </main>

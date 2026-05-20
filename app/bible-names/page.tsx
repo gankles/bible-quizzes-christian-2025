@@ -50,8 +50,8 @@ export default function BibleNamesPage() {
       <StructuredData data={jsonLd} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
-        <Link href="/" className="hover:text-blue-600">Home</Link>
+      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-ink-muted">
+        <Link href="/" className="hover:text-gold-dark">Home</Link>
         <span className="mx-1.5">/</span>
         <span className="text-scripture font-medium">Bible Names</span>
       </nav>
@@ -63,7 +63,7 @@ export default function BibleNamesPage() {
             <h1 className="text-3xl md:text-4xl font-bold font-display mb-3 text-scripture">
               Bible Names &amp; Meanings
             </h1>
-            <p className="text-lg text-primary-dark/70 max-w-2xl mb-6">
+            <p className="text-lg text-ink-muted max-w-2xl mb-6">
               Explore the meaning and origin of over {allNames.length.toLocaleString()} names found
               in the Bible — from patriarchs and prophets to kings and apostles.
             </p>
@@ -71,11 +71,11 @@ export default function BibleNamesPage() {
             <div className="flex flex-wrap gap-6 text-center">
               <div>
                 <p className="text-3xl font-bold text-scripture">{allNames.length.toLocaleString()}</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Names</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Names</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-scripture">{letters.length}</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Letters</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Letters</p>
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@ export default function BibleNamesPage() {
             <a
               key={letter}
               href={`#letter-${letter}`}
-              className="w-9 h-9 flex items-center justify-center rounded-lg bg-white border border-grace text-sm font-bold text-primary-dark/80 hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-colors"
+              className="w-9 h-9 flex items-center justify-center rounded-lg bg-white border border-grace text-sm font-bold text-scripture hover:bg-ink-muted hover:text-white hover:border-sacred/50 transition-colors"
             >
               {letter}
             </a>
@@ -104,25 +104,25 @@ export default function BibleNamesPage() {
           return (
             <div key={letter} id={`letter-${letter}`} className="mb-8">
               <div className="flex items-center gap-3 mb-4">
-                <span className="w-10 h-10 flex items-center justify-center rounded-lg bg-blue-600 text-white font-bold text-lg">
+                <span className="w-10 h-10 flex items-center justify-center rounded-lg bg-scripture text-white font-bold text-lg">
                   {letter}
                 </span>
                 <h2 className="text-xl font-bold text-scripture">
                   {letter}
                 </h2>
-                <span className="text-sm text-primary-dark/60">({names.length} names)</span>
+                <span className="text-sm text-ink-muted">({names.length} names)</span>
               </div>
               <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
                 {names.map(n => (
                   <Link
                     key={n.slug}
                     href={`/bible-names/${n.slug}`}
-                    className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
+                    className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-sacred/50 transition-all group"
                   >
-                    <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                    <span className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                       {n.name}
                     </span>
-                    <span className="block text-xs text-primary-dark/60 mt-0.5 line-clamp-1">
+                    <span className="block text-xs text-ink-muted mt-0.5 line-clamp-1">
                       {n.meaning}
                     </span>
                   </Link>
@@ -137,17 +137,17 @@ export default function BibleNamesPage() {
       <section className="max-w-6xl mx-auto px-4 pb-12">
         <div className="bg-primary-light/30 border border-grace rounded-xl p-6 text-center">
           <h2 className="text-xl font-bold text-scripture mb-2">Explore More</h2>
-          <p className="text-sm text-primary-dark/70 mb-4">
+          <p className="text-sm text-ink-muted mb-4">
             Dive deeper into the people and places of the Bible.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            <Link href="/people" className="px-5 py-2.5 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors">
+            <Link href="/people" className="px-5 py-2.5 bg-scripture text-white text-sm font-medium rounded-lg hover:bg-ink-muted transition-colors">
               Bible People Directory
             </Link>
-            <Link href="/bible-book-names" className="px-5 py-2.5 bg-white text-blue-600 text-sm font-medium rounded-lg border border-blue-300 hover:bg-primary-light transition-colors">
+            <Link href="/bible-book-names" className="px-5 py-2.5 bg-white text-sacred text-sm font-medium rounded-lg border border-sacred/50 hover:bg-primary-light transition-colors">
               Bible Book Names
             </Link>
-            <Link href="/commandments" className="px-5 py-2.5 bg-white text-primary-dark/80 text-sm font-medium rounded-lg border border-grace hover:bg-primary-light/50 transition-colors">
+            <Link href="/commandments" className="px-5 py-2.5 bg-white text-scripture text-sm font-medium rounded-lg border border-grace hover:bg-primary-light/50 transition-colors">
               613 Commandments
             </Link>
           </div>

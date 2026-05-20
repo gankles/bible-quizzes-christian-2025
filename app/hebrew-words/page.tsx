@@ -109,7 +109,7 @@ export default function HebrewWordsPage() {
 
             {/* BREADCRUMB */}
             <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 pb-2" aria-label="Breadcrumb">
-                <ol className="flex items-center space-x-2 text-sm text-primary-dark/50">
+                <ol className="flex items-center space-x-2 text-sm text-ink-muted">
                     <li><Link href="/" className="hover:text-scripture transition-colors">Home</Link></li>
                     <li><ChevronRightIcon className="w-3 h-3" /></li>
                     <li className="text-scripture font-semibold">Hebrew Words</li>
@@ -163,7 +163,7 @@ export default function HebrewWordsPage() {
             {/* INTRO PARAGRAPH */}
             <section className="py-16 bg-primary-light/30 border-b border-grace">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="prose prose-lg max-w-none text-primary-dark/70 leading-relaxed">
+                    <div className="prose prose-lg max-w-none text-ink-muted leading-relaxed">
                         <p>
                             Hebrew is the original language of the Old Testament, spoken and written by the patriarchs, prophets, and poets of ancient Israel over a span of roughly one thousand years. Unlike modern Western languages, biblical Hebrew is a Semitic language that reads right to left, uses a consonantal alphabet of 22 letters, and conveys meaning through a system of three-letter root words. Each root carries a core idea that branches into dozens of related forms -- verbs, nouns, adjectives -- all interconnected by a shared semantic thread.
                         </p>
@@ -204,7 +204,7 @@ export default function HebrewWordsPage() {
                                     {letter}
                                 </div>
                                 <div className="h-px flex-1 bg-grace" />
-                                <span className="text-sm text-primary-dark/40 font-medium">{grouped[letter].length} words</span>
+                                <span className="text-sm text-ink-light font-medium">{grouped[letter].length} words</span>
                             </div>
 
                             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -224,7 +224,7 @@ export default function HebrewWordsPage() {
                                         </div>
 
                                         {/* English Meaning */}
-                                        <div className="text-primary-dark/70 mb-4">
+                                        <div className="text-ink-muted mb-4">
                                             {entry.meaning}
                                         </div>
 
@@ -268,7 +268,7 @@ export default function HebrewWordsPage() {
                         {faqs.map((faq, i) => (
                             <div key={i} className="p-8 rounded-xl bg-white border border-grace">
                                 <h3 className="text-xl font-bold text-scripture mb-4">{faq.question}</h3>
-                                <p className="text-primary-dark/70 leading-relaxed">{faq.answer}</p>
+                                <p className="text-ink-muted leading-relaxed">{faq.answer}</p>
                             </div>
                         ))}
                     </div>
@@ -328,7 +328,7 @@ export default function HebrewWordsPage() {
                                 <h3 className="text-lg font-bold text-scripture mb-2 group-hover:text-amber-700 transition-colors">
                                     {link.title}
                                 </h3>
-                                <p className="text-sm text-primary-dark/60 mb-4">{link.desc}</p>
+                                <p className="text-sm text-ink-muted mb-4">{link.desc}</p>
                                 <div className="flex items-center text-amber-700 text-sm font-semibold">
                                     <span>Explore</span>
                                     <ArrowRightIcon className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />

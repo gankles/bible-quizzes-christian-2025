@@ -55,17 +55,17 @@ function BookCard({ name, slug, chapters, testament }: { name: string; slug: str
       href={`/${slug}-chapters`}
       className="group bg-white rounded-xl border border-grace hover:border-sacred/60 hover:shadow-md transition-all p-5"
     >
-      <h3 className="font-display font-bold text-scripture group-hover:text-blue-700 transition-colors">
+      <h3 className="font-display font-bold text-scripture group-hover:text-gold-dark transition-colors">
         {name}
       </h3>
-      <p className="text-xs text-primary-dark/50 mt-1">{category}</p>
+      <p className="text-xs text-ink-muted mt-1">{category}</p>
       <div className="flex items-center justify-between mt-3">
-        <span className="text-sm text-primary-dark/70">{chapters} {chapters === 1 ? 'chapter' : 'chapters'}</span>
-        <span className="text-xs text-primary-dark/50">{author}</span>
+        <span className="text-sm text-ink-muted">{chapters} {chapters === 1 ? 'chapter' : 'chapters'}</span>
+        <span className="text-xs text-ink-muted">{author}</span>
       </div>
       <div className="flex items-center justify-between mt-2 opacity-0 group-hover:opacity-100 transition-opacity">
-        <span className="text-blue-600 text-sm">View Chapters &rarr;</span>
-        <span className="text-xs text-primary-dark/50">{chapters} quizzes</span>
+        <span className="text-sacred text-sm">View Chapters &rarr;</span>
+        <span className="text-xs text-ink-muted">{chapters} quizzes</span>
       </div>
     </Link>
   );
@@ -77,9 +77,9 @@ function TestamentSection({ title, books, count, linkTo }: { title: string; book
       <div className="flex items-center justify-between mb-5">
         <div className="flex items-center gap-3">
           <h2 className="text-2xl font-display font-bold text-scripture">{title}</h2>
-          <span className="text-sm text-primary-dark/50">{count} books</span>
+          <span className="text-sm text-ink-muted">{count} books</span>
         </div>
-        <Link href={linkTo} className="text-sm text-blue-600 hover:underline">
+        <Link href={linkTo} className="text-sm text-sacred hover:underline">
           View All &rarr;
         </Link>
       </div>
@@ -188,9 +188,9 @@ export default function BooksOfTheBiblePage() {
       <nav aria-label="Breadcrumb" className="bg-white border-b border-grace">
         <div className="max-w-5xl mx-auto px-4 py-3">
           <ol className="flex items-center space-x-2 text-sm">
-            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
-            <li aria-hidden="true" className="text-primary-dark/40">/</li>
-            <li aria-current="page" className="text-primary-dark/70">Books of the Bible</li>
+            <li><Link href="/" className="text-sacred hover:underline">Home</Link></li>
+            <li aria-hidden="true" className="text-ink-light">/</li>
+            <li aria-current="page" className="text-ink-muted">Books of the Bible</li>
           </ol>
         </div>
       </nav>
@@ -225,20 +225,20 @@ export default function BooksOfTheBiblePage() {
           {/* Stats */}
           <div className="grid grid-cols-4 divide-x divide-grace border-b border-grace">
             <div className="p-4 text-center">
-              <p className="text-2xl font-bold text-blue-600">66</p>
-              <p className="text-sm text-primary-dark/70">Books</p>
+              <p className="text-2xl font-bold text-sacred">66</p>
+              <p className="text-sm text-ink-muted">Books</p>
             </div>
             <div className="p-4 text-center">
-              <p className="text-2xl font-bold text-blue-600">{totalChapters.toLocaleString()}</p>
-              <p className="text-sm text-primary-dark/70">Chapters</p>
+              <p className="text-2xl font-bold text-sacred">{totalChapters.toLocaleString()}</p>
+              <p className="text-sm text-ink-muted">Chapters</p>
             </div>
             <div className="p-4 text-center">
-              <p className="text-2xl font-bold text-blue-600">39</p>
-              <p className="text-sm text-primary-dark/70">Old Testament</p>
+              <p className="text-2xl font-bold text-sacred">39</p>
+              <p className="text-sm text-ink-muted">Old Testament</p>
             </div>
             <div className="p-4 text-center">
-              <p className="text-2xl font-bold text-blue-600">27</p>
-              <p className="text-sm text-primary-dark/70">New Testament</p>
+              <p className="text-2xl font-bold text-sacred">27</p>
+              <p className="text-sm text-ink-muted">New Testament</p>
             </div>
           </div>
         </div>
@@ -250,14 +250,14 @@ export default function BooksOfTheBiblePage() {
             className="flex-1 bg-white border border-grace rounded-xl p-4 hover:border-sacred/60 hover:shadow-md transition-all text-center"
           >
             <p className="font-display font-bold text-scripture">Old Testament</p>
-            <p className="text-sm text-primary-dark/60 mt-1">39 Books &middot; Genesis to Malachi</p>
+            <p className="text-sm text-ink-muted mt-1">39 Books &middot; Genesis to Malachi</p>
           </Link>
           <Link
             href="/books-of-the-bible/new-testament"
             className="flex-1 bg-white border border-grace rounded-xl p-4 hover:border-sacred/60 hover:shadow-md transition-all text-center"
           >
             <p className="font-display font-bold text-scripture">New Testament</p>
-            <p className="text-sm text-primary-dark/60 mt-1">27 Books &middot; Matthew to Revelation</p>
+            <p className="text-sm text-ink-muted mt-1">27 Books &middot; Matthew to Revelation</p>
           </Link>
         </div>
 
@@ -275,32 +275,32 @@ export default function BooksOfTheBiblePage() {
           <div className="space-y-6">
             <div>
               <h3 className="font-display font-bold text-scripture mb-2">How many books are in the Bible?</h3>
-              <p className="text-primary-dark/70 leading-relaxed">
+              <p className="text-ink-muted leading-relaxed">
                 The Bible contains 66 books in total: 39 books in the Old Testament and 27 books in the New Testament. These books were written by approximately 40 different authors over a period of about 1,500 years, from roughly 1400 BC to 95 AD.
               </p>
             </div>
             <div>
               <h3 className="font-display font-bold text-scripture mb-2">What is the first book of the Bible?</h3>
-              <p className="text-primary-dark/70 leading-relaxed">
-                The first book of the Bible is <Link href="/genesis-chapters" className="text-blue-600 hover:underline">Genesis</Link>, written by Moses around 1445-1405 BC. Genesis means &ldquo;beginning&rdquo; and covers the creation of the world, the fall of man, the flood, and the stories of the patriarchs Abraham, Isaac, Jacob, and Joseph.
+              <p className="text-ink-muted leading-relaxed">
+                The first book of the Bible is <Link href="/genesis-chapters" className="text-sacred hover:underline">Genesis</Link>, written by Moses around 1445-1405 BC. Genesis means &ldquo;beginning&rdquo; and covers the creation of the world, the fall of man, the flood, and the stories of the patriarchs Abraham, Isaac, Jacob, and Joseph.
               </p>
             </div>
             <div>
               <h3 className="font-display font-bold text-scripture mb-2">What is the last book of the Bible?</h3>
-              <p className="text-primary-dark/70 leading-relaxed">
-                The last book of the Bible is <Link href="/revelation-chapters" className="text-blue-600 hover:underline">Revelation</Link>, written by the Apostle John around 95 AD while exiled on the island of Patmos. Revelation contains prophetic visions about the end times, the return of Christ, and the new heaven and earth.
+              <p className="text-ink-muted leading-relaxed">
+                The last book of the Bible is <Link href="/revelation-chapters" className="text-sacred hover:underline">Revelation</Link>, written by the Apostle John around 95 AD while exiled on the island of Patmos. Revelation contains prophetic visions about the end times, the return of Christ, and the new heaven and earth.
               </p>
             </div>
             <div>
               <h3 className="font-display font-bold text-scripture mb-2">What is the shortest book of the Bible?</h3>
-              <p className="text-primary-dark/70 leading-relaxed">
-                By chapter count, <Link href="/obadiah-chapters" className="text-blue-600 hover:underline">Obadiah</Link>, <Link href="/philemon-chapters" className="text-blue-600 hover:underline">Philemon</Link>, <Link href="/2-john-chapters" className="text-blue-600 hover:underline">2 John</Link>, <Link href="/3-john-chapters" className="text-blue-600 hover:underline">3 John</Link>, and <Link href="/jude-chapters" className="text-blue-600 hover:underline">Jude</Link> each have only 1 chapter. By verse count, 2 John is the shortest with 13 verses, followed by 3 John with 14 verses.
+              <p className="text-ink-muted leading-relaxed">
+                By chapter count, <Link href="/obadiah-chapters" className="text-sacred hover:underline">Obadiah</Link>, <Link href="/philemon-chapters" className="text-sacred hover:underline">Philemon</Link>, <Link href="/2-john-chapters" className="text-sacred hover:underline">2 John</Link>, <Link href="/3-john-chapters" className="text-sacred hover:underline">3 John</Link>, and <Link href="/jude-chapters" className="text-sacred hover:underline">Jude</Link> each have only 1 chapter. By verse count, 2 John is the shortest with 13 verses, followed by 3 John with 14 verses.
               </p>
             </div>
             <div>
               <h3 className="font-display font-bold text-scripture mb-2">What is the longest book of the Bible?</h3>
-              <p className="text-primary-dark/70 leading-relaxed">
-                The longest book of the Bible is <Link href="/psalms-chapters" className="text-blue-600 hover:underline">Psalms</Link> with 150 chapters and 2,461 verses. By word count, Jeremiah is often considered the longest. The longest single chapter is Psalm 119 with 176 verses.
+              <p className="text-ink-muted leading-relaxed">
+                The longest book of the Bible is <Link href="/psalms-chapters" className="text-sacred hover:underline">Psalms</Link> with 150 chapters and 2,461 verses. By word count, Jeremiah is often considered the longest. The longest single chapter is Psalm 119 with 176 verses.
               </p>
             </div>
           </div>
@@ -310,32 +310,32 @@ export default function BooksOfTheBiblePage() {
         <section className="mt-8 bg-white rounded-xl shadow-sm border border-grace p-6">
           <h2 className="text-xl font-bold text-scripture mb-4">More Bible Resources</h2>
           <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3">
-            <Link href="/bible-chapter-summaries" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">Bible Chapter Summaries</span>
+            <Link href="/bible-chapter-summaries" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">Bible Chapter Summaries</span>
             </Link>
-            <Link href="/bible-quizzes" className="flex items-center p-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+            <Link href="/bible-quizzes" className="flex items-center p-3 bg-scripture text-white rounded-lg hover:bg-ink-muted transition-colors">
               <span className="font-bold text-sm">Test Your Knowledge — Bible Quizzes</span>
             </Link>
-            <Link href="/old-testament-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">Old Testament Quizzes</span>
+            <Link href="/old-testament-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">Old Testament Quizzes</span>
             </Link>
-            <Link href="/new-testament-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">New Testament Quizzes</span>
+            <Link href="/new-testament-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">New Testament Quizzes</span>
             </Link>
-            <Link href="/bible-study-guides" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">Bible Study Guides</span>
+            <Link href="/bible-study-guides" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">Bible Study Guides</span>
             </Link>
-            <Link href="/reading-plans" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">Reading Plans</span>
+            <Link href="/reading-plans" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">Reading Plans</span>
             </Link>
-            <Link href="/bible-stories" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">Bible Stories</span>
+            <Link href="/bible-stories" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">Bible Stories</span>
             </Link>
-            <Link href="/timeline" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">Bible Timeline</span>
+            <Link href="/timeline" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">Bible Timeline</span>
             </Link>
-            <Link href="/bible-places" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">Bible Places</span>
+            <Link href="/bible-places" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">Bible Places</span>
             </Link>
           </div>
         </section>

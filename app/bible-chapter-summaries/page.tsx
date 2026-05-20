@@ -30,13 +30,13 @@ function BookCard({ name, slug, chapters, testament }: { name: string; slug: str
       href={`/bible-chapter-summaries/${slug}`}
       className="group bg-white rounded-xl border border-grace hover:border-sacred/60 hover:shadow-md transition-all p-5"
     >
-      <h3 className="font-display font-bold text-scripture group-hover:text-blue-700 transition-colors">
+      <h3 className="font-display font-bold text-scripture group-hover:text-gold-dark transition-colors">
         {name}
       </h3>
-      <p className="text-xs text-primary-dark/50 mt-1">{category}</p>
+      <p className="text-xs text-ink-muted mt-1">{category}</p>
       <div className="flex items-center justify-between mt-3">
-        <span className="text-sm text-primary-dark/70">{chapters} {chapters === 1 ? 'chapter' : 'chapters'}</span>
-        <span className="text-blue-600 text-sm opacity-0 group-hover:opacity-100 transition-opacity">&rarr;</span>
+        <span className="text-sm text-ink-muted">{chapters} {chapters === 1 ? 'chapter' : 'chapters'}</span>
+        <span className="text-sacred text-sm opacity-0 group-hover:opacity-100 transition-opacity">&rarr;</span>
       </div>
     </Link>
   );
@@ -47,7 +47,7 @@ function TestamentSection({ title, books, count }: { title: string; books: typeo
     <section>
       <div className="flex items-center gap-3 mb-5">
         <h2 className="text-2xl font-display font-bold text-scripture">{title}</h2>
-        <span className="text-sm text-primary-dark/50">{count} books</span>
+        <span className="text-sm text-ink-muted">{count} books</span>
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
         {books.map((book) => (
@@ -75,9 +75,9 @@ export default function BibleChapterSummariesPage() {
       <nav aria-label="Breadcrumb" className="bg-white border-b border-grace">
         <div className="max-w-5xl mx-auto px-4 py-3">
           <ol className="flex items-center space-x-2 text-sm">
-            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
-            <li aria-hidden="true" className="text-primary-dark/40">/</li>
-            <li aria-current="page" className="text-primary-dark/70">Bible Chapter Summaries</li>
+            <li><Link href="/" className="text-sacred hover:underline">Home</Link></li>
+            <li aria-hidden="true" className="text-ink-light">/</li>
+            <li aria-current="page" className="text-ink-muted">Bible Chapter Summaries</li>
           </ol>
         </div>
       </nav>
@@ -106,16 +106,16 @@ export default function BibleChapterSummariesPage() {
           {/* Stats */}
           <div className="grid grid-cols-3 divide-x divide-grace border-b border-grace">
             <div className="p-4 text-center">
-              <p className="text-2xl font-bold text-blue-600">66</p>
-              <p className="text-sm text-primary-dark/70">Books</p>
+              <p className="text-2xl font-bold text-sacred">66</p>
+              <p className="text-sm text-ink-muted">Books</p>
             </div>
             <div className="p-4 text-center">
-              <p className="text-2xl font-bold text-blue-600">{totalChapters.toLocaleString()}</p>
-              <p className="text-sm text-primary-dark/70">Chapters</p>
+              <p className="text-2xl font-bold text-sacred">{totalChapters.toLocaleString()}</p>
+              <p className="text-sm text-ink-muted">Chapters</p>
             </div>
             <div className="p-4 text-center">
-              <p className="text-2xl font-bold text-blue-600">2</p>
-              <p className="text-sm text-primary-dark/70">Testaments</p>
+              <p className="text-2xl font-bold text-sacred">2</p>
+              <p className="text-sm text-ink-muted">Testaments</p>
             </div>
           </div>
         </div>
@@ -129,32 +129,32 @@ export default function BibleChapterSummariesPage() {
         <section className="mt-10 bg-white rounded-xl shadow-sm border border-grace p-6">
           <h2 className="text-xl font-bold text-scripture mb-4">More Bible Resources</h2>
           <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3">
-            <Link href="/bible-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">Bible Quizzes</span>
+            <Link href="/bible-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">Bible Quizzes</span>
             </Link>
-            <Link href="/old-testament-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">Old Testament Quizzes</span>
+            <Link href="/old-testament-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">Old Testament Quizzes</span>
             </Link>
-            <Link href="/new-testament-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">New Testament Quizzes</span>
+            <Link href="/new-testament-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">New Testament Quizzes</span>
             </Link>
-            <Link href="/character-quiz" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">Character Quizzes</span>
+            <Link href="/character-quiz" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">Character Quizzes</span>
             </Link>
-            <Link href="/bible-geography-quiz" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">Geography Quizzes</span>
+            <Link href="/bible-geography-quiz" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">Geography Quizzes</span>
             </Link>
-            <Link href="/characters-by-topic" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">Characters by Topic</span>
+            <Link href="/characters-by-topic" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">Characters by Topic</span>
             </Link>
-            <Link href="/commandments/topic" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">Commandments by Topic</span>
+            <Link href="/commandments/topic" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">Commandments by Topic</span>
             </Link>
-            <Link href="/devotionals" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">Daily Devotionals</span>
+            <Link href="/devotionals" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">Daily Devotionals</span>
             </Link>
-            <Link href="/bible-places/era" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">Places by Era</span>
+            <Link href="/bible-places/era" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">Places by Era</span>
             </Link>
           </div>
         </section>

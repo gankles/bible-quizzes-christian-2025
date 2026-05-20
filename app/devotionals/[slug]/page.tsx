@@ -114,7 +114,7 @@ export default async function DevotionalDetailPage({ params }: PageProps) {
       <article className="max-w-article mx-auto px-4 py-10">
         {/* Header */}
         <header className="mb-10">
-          <span className="inline-block px-3 py-1 bg-blue-50 text-blue-600 text-xs font-medium rounded-full mb-3">
+          <span className="inline-block px-3 py-1 bg-blue-50 text-sacred text-xs font-medium rounded-full mb-3">
             {devotional.theme}
           </span>
           <h1 className="text-3xl md:text-4xl font-display font-bold text-scripture mb-3">
@@ -122,7 +122,7 @@ export default async function DevotionalDetailPage({ params }: PageProps) {
           </h1>
           <Link
             href={verseUrl}
-            className="text-lg text-blue-600 hover:underline font-medium"
+            className="text-lg text-sacred hover:underline font-medium"
           >
             {devotional.reference}
           </Link>
@@ -132,13 +132,13 @@ export default async function DevotionalDetailPage({ params }: PageProps) {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 mt-[-0.5rem] relative z-20">
           <Link
             href={`/${bookSlug}-${devotional.chapter}-quiz`}
-            className="bg-blue-600 rounded-lg p-5 text-white shadow-lg flex items-center justify-between hover:bg-blue-700 transition-colors"
+            className="bg-scripture rounded-lg p-5 text-white shadow-lg flex items-center justify-between hover:bg-ink-muted transition-colors"
           >
             <div>
               <h3 className="font-bold text-lg">Take the {devotional.book} {devotional.chapter} Quiz</h3>
               <p className="text-white/80 text-xs">Test your knowledge of this chapter</p>
             </div>
-            <span className="bg-white text-blue-600 px-4 py-2 rounded-lg font-bold text-sm tracking-wider uppercase shrink-0 ml-3">
+            <span className="bg-white text-sacred px-4 py-2 rounded-lg font-bold text-sm tracking-wider uppercase shrink-0 ml-3">
               Begin
             </span>
           </Link>
@@ -159,17 +159,17 @@ export default async function DevotionalDetailPage({ params }: PageProps) {
         {/* Scripture Reference Card */}
         <Link
           href={verseUrl}
-          className="block mb-8 bg-white border border-grace rounded-xl p-6 hover:shadow-md hover:border-blue-300 transition-all group"
+          className="block mb-8 bg-white border border-grace rounded-xl p-6 hover:shadow-md hover:border-sacred/50 transition-all group"
         >
           <div className="flex items-start gap-4">
-            <span className="inline-flex items-center justify-center w-12 h-12 bg-blue-100 text-blue-700 rounded-xl text-lg font-bold shrink-0 group-hover:bg-blue-200 transition-colors">
+            <span className="inline-flex items-center justify-center w-12 h-12 bg-sacred/10 text-scripture rounded-xl text-lg font-bold shrink-0 group-hover:bg-sacred-light transition-colors">
               {devotional.chapter}:{devotional.verse}
             </span>
             <div>
-              <h2 className="text-lg font-bold text-scripture group-hover:text-blue-600 transition-colors mb-1">
+              <h2 className="text-lg font-bold text-scripture group-hover:text-gold-dark transition-colors mb-1">
                 {devotional.book} {devotional.chapter}:{devotional.verse}
               </h2>
-              <p className="text-sm text-primary-dark/60">
+              <p className="text-sm text-ink-muted">
                 Read this verse in depth with cross-references and study notes
               </p>
             </div>
@@ -177,13 +177,13 @@ export default async function DevotionalDetailPage({ params }: PageProps) {
         </Link>
 
         {/* Opening */}
-        <p className="text-xl text-primary-dark/80 leading-relaxed mb-8 font-serif">
+        <p className="text-xl text-scripture leading-relaxed mb-8 font-serif">
           {devotional.opening}
         </p>
 
         {/* Meditation */}
         <section className="mb-10">
-          <div className="text-primary-dark/70 text-lg leading-relaxed space-y-4">
+          <div className="text-ink-muted text-lg leading-relaxed space-y-4">
             {devotional.meditation.split('\n').map((paragraph, i) => (
               <p key={i}>{paragraph}</p>
             ))}
@@ -195,30 +195,30 @@ export default async function DevotionalDetailPage({ params }: PageProps) {
           <h2 className="text-lg font-bold text-scripture mb-3">
             Apply This Today
           </h2>
-          <p className="text-primary-dark/70 leading-relaxed">
+          <p className="text-ink-muted leading-relaxed">
             {devotional.application}
           </p>
         </section>
 
         {/* Prayer */}
-        <section className="mb-12 border-l-4 border-blue-400 pl-6 py-2">
+        <section className="mb-12 border-l-4 border-sacred pl-6 py-2">
           <h2 className="text-lg font-bold text-scripture mb-3">
             Prayer
           </h2>
-          <p className="text-primary-dark/70 leading-relaxed italic text-lg font-serif">
+          <p className="text-ink-muted leading-relaxed italic text-lg font-serif">
             {devotional.prayer}
           </p>
         </section>
 
         {/* Engagement Prompt */}
-        <div className="bg-blue-50 border border-blue-200 rounded-xl p-5 mb-12 flex items-center justify-between flex-wrap gap-3">
+        <div className="bg-blue-50 border border-sacred/20 rounded-xl p-5 mb-12 flex items-center justify-between flex-wrap gap-3">
           <div>
             <p className="font-semibold text-scripture">Continue your study of {devotional.book}</p>
-            <p className="text-sm text-primary-dark/60">Deepen your understanding with a chapter quiz.</p>
+            <p className="text-sm text-ink-muted">Deepen your understanding with a chapter quiz.</p>
           </div>
           <Link
             href={`/${bookSlug}-${devotional.chapter}-quiz`}
-            className="px-5 py-2.5 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors shrink-0"
+            className="px-5 py-2.5 bg-scripture text-white text-sm font-medium rounded-lg hover:bg-ink-muted transition-colors shrink-0"
           >
             {devotional.book} {devotional.chapter} Quiz
           </Link>
@@ -229,10 +229,10 @@ export default async function DevotionalDetailPage({ params }: PageProps) {
           {prev ? (
             <Link
               href={`/devotionals/${prev.slug}`}
-              className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+              className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
             >
-              <span className="text-xs text-primary-dark/60">Previous</span>
-              <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+              <span className="text-xs text-ink-muted">Previous</span>
+              <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                 {prev.title}
               </span>
             </Link>
@@ -240,10 +240,10 @@ export default async function DevotionalDetailPage({ params }: PageProps) {
           {next ? (
             <Link
               href={`/devotionals/${next.slug}`}
-              className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+              className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
             >
-              <span className="text-xs text-primary-dark/60">Next</span>
-              <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+              <span className="text-xs text-ink-muted">Next</span>
+              <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                 {next.title}
               </span>
             </Link>
@@ -261,12 +261,12 @@ export default async function DevotionalDetailPage({ params }: PageProps) {
                 <Link
                   key={d.slug}
                   href={`/devotionals/${d.slug}`}
-                  className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
+                  className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-sacred/50 transition-all group"
                 >
-                  <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                  <span className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                     {d.title}
                   </span>
-                  <span className="block text-xs text-primary-dark/60 mt-0.5">
+                  <span className="block text-xs text-ink-muted mt-0.5">
                     {d.reference}
                   </span>
                 </Link>
@@ -279,34 +279,34 @@ export default async function DevotionalDetailPage({ params }: PageProps) {
         <section className="bg-grace/10 border border-grace rounded-xl p-6">
           <h2 className="text-lg font-bold text-scripture mb-3">Continue Your Study</h2>
           <div className="grid gap-2 sm:grid-cols-2">
-            <Link href={verseUrl} className="text-blue-600 hover:underline text-sm">
+            <Link href={verseUrl} className="text-sacred hover:underline text-sm">
               Study {devotional.reference} in Depth
             </Link>
-            <Link href={`/chapters/${bookSlug}/${devotional.chapter}`} className="text-blue-600 hover:underline text-sm">
+            <Link href={`/chapters/${bookSlug}/${devotional.chapter}`} className="text-sacred hover:underline text-sm">
               Read {devotional.book} {devotional.chapter}
             </Link>
-            <Link href={`/bible-chapter-summaries/${bookSlug}/${devotional.chapter}`} className="text-blue-600 hover:underline text-sm">
+            <Link href={`/bible-chapter-summaries/${bookSlug}/${devotional.chapter}`} className="text-sacred hover:underline text-sm">
               {devotional.book} {devotional.chapter} Summary
             </Link>
-            <Link href={`/${bookSlug}-chapters`} className="text-blue-600 hover:underline text-sm">
+            <Link href={`/${bookSlug}-chapters`} className="text-sacred hover:underline text-sm">
               All {devotional.book} Chapters
             </Link>
-            <Link href={`/${bookSlug}-quiz`} className="text-blue-600 hover:underline text-sm">
+            <Link href={`/${bookSlug}-quiz`} className="text-sacred hover:underline text-sm">
               {devotional.book} Quiz
             </Link>
-            <Link href="/devotionals" className="text-blue-600 hover:underline text-sm">
+            <Link href="/devotionals" className="text-sacred hover:underline text-sm">
               All Devotionals
             </Link>
-            <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">
               Bible Quizzes
             </Link>
-            <Link href="/character-quiz" className="text-blue-600 hover:underline text-sm">
+            <Link href="/character-quiz" className="text-sacred hover:underline text-sm">
               Character Quizzes
             </Link>
-            <Link href="/topics" className="text-blue-600 hover:underline text-sm">
+            <Link href="/topics" className="text-sacred hover:underline text-sm">
               Bible Topics
             </Link>
-            <Link href="/reading-plans" className="text-blue-600 hover:underline text-sm">
+            <Link href="/reading-plans" className="text-sacred hover:underline text-sm">
               Reading Plans
             </Link>
           </div>

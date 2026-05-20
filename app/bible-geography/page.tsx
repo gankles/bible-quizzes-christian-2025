@@ -67,8 +67,8 @@ export default function BibleGeographyPage() {
       <StructuredData data={jsonLd} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
-        <Link href="/" className="hover:text-blue-600">Home</Link>
+      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-ink-muted">
+        <Link href="/" className="hover:text-gold-dark">Home</Link>
         <span className="mx-1.5">/</span>
         <span className="text-scripture font-medium">Bible Geography</span>
       </nav>
@@ -80,7 +80,7 @@ export default function BibleGeographyPage() {
             <h1 className="text-3xl md:text-4xl font-bold font-display mb-3 text-scripture">
               Bible Geography by Book
             </h1>
-            <p className="text-lg text-primary-dark/70 max-w-2xl mb-6">
+            <p className="text-lg text-ink-muted max-w-2xl mb-6">
               Explore the places of the Bible organized by book and chapter. Every book from
               Genesis through Revelation with interactive maps and place directories.
             </p>
@@ -88,15 +88,15 @@ export default function BibleGeographyPage() {
             <div className="flex flex-wrap gap-6 text-center">
               <div>
                 <p className="text-3xl font-bold text-scripture">{stats.totalPlaces.toLocaleString()}</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Places</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Places</p>
               </div>
               <div>
-                <p className="text-3xl font-bold text-blue-400">{stats.totalBooks}</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Books</p>
+                <p className="text-3xl font-bold text-sacred">{stats.totalBooks}</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Books</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-scripture">{stats.totalVerseRefs.toLocaleString()}</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Verse Refs</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Verse Refs</p>
               </div>
             </div>
           </div>
@@ -111,12 +111,12 @@ export default function BibleGeographyPage() {
             <Link
               key={book.slug}
               href={`/bible-geography/${book.slug}`}
-              className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
+              className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-sacred/50 transition-all group"
             >
-              <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+              <span className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                 {book.name}
               </span>
-              <span className="text-xs text-primary-dark/40 ml-2">{book.placeCount} places</span>
+              <span className="text-xs text-ink-light ml-2">{book.placeCount} places</span>
             </Link>
           ))}
         </div>
@@ -130,12 +130,12 @@ export default function BibleGeographyPage() {
             <Link
               key={book.slug}
               href={`/bible-geography/${book.slug}`}
-              className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
+              className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-sacred/50 transition-all group"
             >
-              <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+              <span className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                 {book.name}
               </span>
-              <span className="text-xs text-primary-dark/40 ml-2">{book.placeCount} places</span>
+              <span className="text-xs text-ink-light ml-2">{book.placeCount} places</span>
             </Link>
           ))}
         </div>
@@ -146,10 +146,10 @@ export default function BibleGeographyPage() {
         <div className="bg-primary-light/30 border border-grace rounded-xl p-6 text-center">
           <h2 className="text-xl font-bold text-scripture mb-2">Explore More</h2>
           <div className="flex flex-wrap justify-center gap-3">
-            <Link href="/bible-places" className="px-5 py-2.5 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors">
+            <Link href="/bible-places" className="px-5 py-2.5 bg-scripture text-white text-sm font-medium rounded-lg hover:bg-ink-muted transition-colors">
               Bible Places A-Z
             </Link>
-            <Link href="/bible-quizzes" className="px-5 py-2.5 bg-white text-blue-600 text-sm font-medium rounded-lg border border-blue-300 hover:bg-primary-light transition-colors">
+            <Link href="/bible-quizzes" className="px-5 py-2.5 bg-white text-sacred text-sm font-medium rounded-lg border border-sacred/50 hover:bg-primary-light transition-colors">
               Bible Quizzes
             </Link>
           </div>

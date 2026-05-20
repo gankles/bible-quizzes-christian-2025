@@ -288,33 +288,33 @@ export default function TenCommandmentsPage() {
           />
         </div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 py-16 md:py-24 text-center">
-          <p className="text-blue-300 text-sm font-bold uppercase tracking-widest mb-4">Complete Study Guide</p>
+          <p className="text-sacred text-sm font-bold uppercase tracking-widest mb-4">Complete Study Guide</p>
           <h1 className="text-4xl md:text-6xl font-bold text-white font-display leading-tight mb-4">
             The Ten Commandments
           </h1>
-          <p className="text-blue-200 text-lg md:text-xl max-w-2xl mx-auto mb-8">
+          <p className="text-sacred text-lg md:text-xl max-w-2xl mx-auto mb-8">
             God&apos;s Moral Law — Exodus 20:1-17 | Deuteronomy 5:6-21 (King James Version)
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-2xl mx-auto">
             <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-3">
               <p className="text-2xl font-bold text-white">10</p>
-              <p className="text-blue-200 text-xs">Commandments</p>
+              <p className="text-sacred text-xs">Commandments</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-3">
               <p className="text-2xl font-bold text-white">2</p>
-              <p className="text-blue-200 text-xs">Tablets</p>
+              <p className="text-sacred text-xs">Tablets</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-3">
               <p className="text-2xl font-bold text-white">4</p>
-              <p className="text-blue-200 text-xs">About God</p>
+              <p className="text-sacred text-xs">About God</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-3">
               <p className="text-2xl font-bold text-white">6</p>
-              <p className="text-blue-200 text-xs">About People</p>
+              <p className="text-sacred text-xs">About People</p>
             </div>
           </div>
           <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
-            <a href="#commandments" className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition-colors text-sm uppercase tracking-wider">
+            <a href="#commandments" className="inline-flex items-center justify-center bg-scripture hover:bg-ink-muted text-white font-bold py-3 px-8 rounded-lg transition-colors text-sm uppercase tracking-wider">
               Read All Ten
             </a>
             <a href="#jesus-and-the-law" className="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white border border-white/20 font-bold py-3 px-8 rounded-lg transition-colors text-sm uppercase tracking-wider">
@@ -329,7 +329,7 @@ export default function TenCommandmentsPage() {
         {/* NLP Article Section */}
         <section className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 md:p-8 mb-12 shadow-sm">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">Ten Rules That Changed Everything</h2>
-          <div className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed space-y-4">
+          <div className="text-scripture dark:text-ink-light leading-relaxed space-y-4">
             <p>
               The Ten Commandments weren&apos;t the first laws in human history. But they were the first that applied to everyone equally — king and slave, rich and poor. Before Sinai, law codes like Hammurabi&apos;s protected the ruling class. God&apos;s law protected the widow, the orphan, and the stranger. That was new. That was radical.
             </p>
@@ -371,12 +371,12 @@ export default function TenCommandmentsPage() {
           <div className="bg-amber-50/50 dark:bg-amber-950/10 border-2 border-amber-200 dark:border-amber-800/30 rounded-xl p-6 md:p-8">
             <h2 className="text-xl font-bold text-scripture dark:text-white font-display mb-3">Before the First Commandment</h2>
             <blockquote className="border-l-4 border-amber-400 dark:border-amber-600 pl-4 mb-4">
-              <p className="text-primary-dark/90 dark:text-primary-dark/50 italic leading-relaxed text-lg">
+              <p className="text-ink-muted dark:text-ink-muted italic leading-relaxed text-lg">
                 &ldquo;And God spake all these words, saying, I am the LORD thy God, which have brought thee out of the land of Egypt, out of the house of bondage.&rdquo;
               </p>
               <cite className="block mt-2 text-amber-700 dark:text-amber-400 text-xs font-bold not-italic">— Exodus 20:1-2 (KJV)</cite>
             </blockquote>
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed text-sm">
+            <p className="text-scripture dark:text-ink-light leading-relaxed text-sm">
               This preamble is easily overlooked, but it changes how you read everything that follows. God does not introduce Himself as a lawgiver. He introduces Himself as a rescuer. &ldquo;I brought you out.&rdquo; Before He asks anything of Israel, He reminds them of what He has already done. The commandments are not conditions for God&apos;s love. They are the response to it. Obedience flows from gratitude, not from fear. This is the pattern of the entire Bible: grace first, then instruction.
             </p>
           </div>
@@ -385,32 +385,32 @@ export default function TenCommandmentsPage() {
         {/* The Ten Commandments — Individual Sections */}
         <section id="commandments" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">The Ten Commandments — Full KJV Text &amp; Study</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-6 text-sm">Each commandment with the complete King James Version text from Exodus 20, Deuteronomy 5 parallel, explanation, and where Jesus teaches it in the New Testament.</p>
+          <p className="text-ink-muted dark:text-ink-light mb-6 text-sm">Each commandment with the complete King James Version text from Exodus 20, Deuteronomy 5 parallel, explanation, and where Jesus teaches it in the New Testament.</p>
 
           <div className="space-y-6">
             {COMMANDMENTS.map(cmd => (
-              <div key={cmd.number} id={`commandment-${cmd.number}`} className="bg-white dark:bg-dark-surface rounded-xl border-2 border-grace dark:border-dark-border hover:border-blue-200 dark:hover:border-blue-800 transition-all p-5 md:p-6 shadow-sm scroll-mt-20">
+              <div key={cmd.number} id={`commandment-${cmd.number}`} className="bg-white dark:bg-dark-surface rounded-xl border-2 border-grace dark:border-dark-border hover:border-sacred/50 dark:hover:border-sacred/50 transition-all p-5 md:p-6 shadow-sm scroll-mt-20">
                 {/* Header */}
                 <div className="flex flex-wrap items-center gap-3 mb-4">
-                  <span className="inline-flex items-center justify-center w-10 h-10 bg-blue-600 text-white text-lg font-bold rounded-full shrink-0">{cmd.number}</span>
+                  <span className="inline-flex items-center justify-center w-10 h-10 bg-scripture text-white text-lg font-bold rounded-full shrink-0">{cmd.number}</span>
                   <div>
                     <h3 className="text-xl font-bold text-scripture dark:text-white font-display">{cmd.shortName}</h3>
-                    <p className="text-xs text-primary-dark/50 dark:text-primary-dark/30">{cmd.exodusRef} | {cmd.deutRef}</p>
+                    <p className="text-xs text-ink-muted dark:text-ink-light">{cmd.exodusRef} | {cmd.deutRef}</p>
                   </div>
                 </div>
 
                 {/* KJV Blockquote */}
-                <blockquote className="border-l-4 border-blue-300 dark:border-blue-700 bg-blue-50/50 dark:bg-blue-950/20 rounded-r-lg pl-4 pr-4 py-3 mb-4">
-                  <p className="text-primary-dark/90 dark:text-primary-dark/50 italic leading-relaxed">
+                <blockquote className="border-l-4 border-sacred/50 dark:border-sacred/20 bg-sacred-light0/50 dark:bg-sacred-light0/20 rounded-r-lg pl-4 pr-4 py-3 mb-4">
+                  <p className="text-ink-muted dark:text-ink-muted italic leading-relaxed">
                     &ldquo;{cmd.kjvText}&rdquo;
                   </p>
-                  <cite className="block mt-2 text-blue-600 dark:text-blue-400 text-xs font-bold not-italic">
+                  <cite className="block mt-2 text-sacred dark:text-sacred text-xs font-bold not-italic">
                     — {cmd.exodusRef} (KJV)
                   </cite>
                 </blockquote>
 
                 {/* Explanation */}
-                <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+                <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
                   {cmd.explanation}
                 </p>
 
@@ -420,10 +420,10 @@ export default function TenCommandmentsPage() {
                   <div className="space-y-2">
                     {cmd.jesusRefs.map((jr, idx) => (
                       <div key={idx} className="flex items-start gap-2 bg-primary-light/30 dark:bg-dark-bg rounded-lg p-3 border border-grace dark:border-dark-border">
-                        <Link href={`/verses/${jr.ref.toLowerCase().replace(/\s+/g, '/').replace(/:/g, '/')}`} className="text-blue-600 dark:text-blue-400 text-sm font-bold whitespace-nowrap hover:underline shrink-0">
+                        <Link href={`/verses/${jr.ref.toLowerCase().replace(/\s+/g, '/').replace(/:/g, '/')}`} className="text-sacred dark:text-sacred text-sm font-bold whitespace-nowrap hover:underline shrink-0">
                           {jr.ref}
                         </Link>
-                        <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">{jr.note}</p>
+                        <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">{jr.note}</p>
                       </div>
                     ))}
                   </div>
@@ -431,7 +431,7 @@ export default function TenCommandmentsPage() {
 
                 {/* Supporting Verse */}
                 <div className="bg-amber-50/50 dark:bg-amber-950/10 border border-amber-200 dark:border-amber-800/30 rounded-lg p-3">
-                  <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm italic leading-relaxed">
+                  <p className="text-ink-muted dark:text-ink-light text-sm italic leading-relaxed">
                     &ldquo;{cmd.supportingVerse.text}&rdquo;
                   </p>
                   <p className="text-amber-700 dark:text-amber-400 text-xs font-bold mt-1">— {cmd.supportingVerse.ref}</p>
@@ -443,9 +443,9 @@ export default function TenCommandmentsPage() {
 
         {/* Jesus and the Ten Commandments */}
         <section id="jesus-and-the-law" className="mb-12 scroll-mt-20">
-          <div className="bg-gradient-to-br from-scripture via-scripture/95 to-blue-950 rounded-xl p-6 md:p-8 text-white shadow-xl">
+          <div className="bg-gradient-to-br from-scripture via-scripture/95 to-scripture/80 rounded-xl p-6 md:p-8 text-white shadow-xl">
             <h2 className="text-2xl md:text-3xl font-bold font-display mb-6 text-center">Jesus and the Ten Commandments</h2>
-            <div className="max-w-3xl mx-auto space-y-4 text-blue-100 leading-relaxed">
+            <div className="max-w-3xl mx-auto space-y-4 text-sacred-light leading-relaxed">
               <p>
                 People assume Jesus softened the law. The opposite is true. He sharpened it.
               </p>
@@ -469,7 +469,7 @@ export default function TenCommandmentsPage() {
               </p>
             </div>
             <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
-              <Link href="/what-does-the-bible-say-about/salvation" className="inline-flex items-center justify-center bg-white text-scripture font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors text-sm uppercase tracking-wider">
+              <Link href="/what-does-the-bible-say-about/salvation" className="inline-flex items-center justify-center bg-white text-scripture font-bold py-3 px-8 rounded-lg hover:bg-sacred-light transition-colors text-sm uppercase tracking-wider">
                 How to Be Saved
               </Link>
               <Link href="/matthew-5-quiz" className="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white border border-white/30 font-bold py-3 px-8 rounded-lg transition-colors text-sm uppercase tracking-wider">
@@ -482,46 +482,46 @@ export default function TenCommandmentsPage() {
         {/* Two Tablets Section */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">Two Tablets, Two Relationships</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-6 text-sm">
+          <p className="text-ink-muted dark:text-ink-light mb-6 text-sm">
             God wrote the Ten Commandments on two tablets of stone (Exodus 31:18). Tradition holds that the division reflects two categories of relationship.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Tablet 1 */}
-            <div className="bg-white dark:bg-dark-surface rounded-xl border-2 border-blue-200 dark:border-blue-800 p-6 shadow-sm">
+            <div className="bg-white dark:bg-dark-surface rounded-xl border-2 border-sacred/20 dark:border-sacred/20 p-6 shadow-sm">
               <div className="text-center mb-4">
-                <span className="inline-block bg-blue-600 text-white text-sm font-bold px-4 py-1 rounded-full">Tablet 1 — Commandments 1-4</span>
+                <span className="inline-block bg-scripture text-white text-sm font-bold px-4 py-1 rounded-full">Tablet 1 — Commandments 1-4</span>
                 <h3 className="text-xl font-bold text-scripture dark:text-white font-display mt-3">Love God</h3>
-                <p className="text-primary-dark/60 dark:text-primary-dark/40 text-sm mt-1">
+                <p className="text-ink-muted dark:text-ink-light text-sm mt-1">
                   &ldquo;Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind.&rdquo; — Matthew 22:37
                 </p>
               </div>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
-                  <span className="w-7 h-7 rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 flex items-center justify-center text-xs font-bold shrink-0">1</span>
+                  <span className="w-7 h-7 rounded-full bg-sacred/10 dark:bg-scripture text-sacred dark:text-sacred flex items-center justify-center text-xs font-bold shrink-0">1</span>
                   <div>
                     <p className="font-bold text-scripture dark:text-white text-sm">No Other Gods</p>
-                    <p className="text-primary-dark/60 dark:text-primary-dark/40 text-xs">God alone holds first place</p>
+                    <p className="text-ink-muted dark:text-ink-light text-xs">God alone holds first place</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="w-7 h-7 rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 flex items-center justify-center text-xs font-bold shrink-0">2</span>
+                  <span className="w-7 h-7 rounded-full bg-sacred/10 dark:bg-scripture text-sacred dark:text-sacred flex items-center justify-center text-xs font-bold shrink-0">2</span>
                   <div>
                     <p className="font-bold text-scripture dark:text-white text-sm">No Graven Images</p>
-                    <p className="text-primary-dark/60 dark:text-primary-dark/40 text-xs">Worship God as He is, not as we imagine</p>
+                    <p className="text-ink-muted dark:text-ink-light text-xs">Worship God as He is, not as we imagine</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="w-7 h-7 rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 flex items-center justify-center text-xs font-bold shrink-0">3</span>
+                  <span className="w-7 h-7 rounded-full bg-sacred/10 dark:bg-scripture text-sacred dark:text-sacred flex items-center justify-center text-xs font-bold shrink-0">3</span>
                   <div>
                     <p className="font-bold text-scripture dark:text-white text-sm">Honor God&apos;s Name</p>
-                    <p className="text-primary-dark/60 dark:text-primary-dark/40 text-xs">His name carries His character</p>
+                    <p className="text-ink-muted dark:text-ink-light text-xs">His name carries His character</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="w-7 h-7 rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 flex items-center justify-center text-xs font-bold shrink-0">4</span>
+                  <span className="w-7 h-7 rounded-full bg-sacred/10 dark:bg-scripture text-sacred dark:text-sacred flex items-center justify-center text-xs font-bold shrink-0">4</span>
                   <div>
                     <p className="font-bold text-scripture dark:text-white text-sm">Keep the Sabbath</p>
-                    <p className="text-primary-dark/60 dark:text-primary-dark/40 text-xs">Rest in God&apos;s provision</p>
+                    <p className="text-ink-muted dark:text-ink-light text-xs">Rest in God&apos;s provision</p>
                   </div>
                 </div>
               </div>
@@ -532,7 +532,7 @@ export default function TenCommandmentsPage() {
               <div className="text-center mb-4">
                 <span className="inline-block bg-amber-600 text-white text-sm font-bold px-4 py-1 rounded-full">Tablet 2 — Commandments 5-10</span>
                 <h3 className="text-xl font-bold text-scripture dark:text-white font-display mt-3">Love Your Neighbor</h3>
-                <p className="text-primary-dark/60 dark:text-primary-dark/40 text-sm mt-1">
+                <p className="text-ink-muted dark:text-ink-light text-sm mt-1">
                   &ldquo;Thou shalt love thy neighbour as thyself.&rdquo; — Matthew 22:39
                 </p>
               </div>
@@ -541,49 +541,49 @@ export default function TenCommandmentsPage() {
                   <span className="w-7 h-7 rounded-full bg-amber-100 dark:bg-amber-900 text-amber-600 dark:text-amber-300 flex items-center justify-center text-xs font-bold shrink-0">5</span>
                   <div>
                     <p className="font-bold text-scripture dark:text-white text-sm">Honor Parents</p>
-                    <p className="text-primary-dark/60 dark:text-primary-dark/40 text-xs">Respect begins at home</p>
+                    <p className="text-ink-muted dark:text-ink-light text-xs">Respect begins at home</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="w-7 h-7 rounded-full bg-amber-100 dark:bg-amber-900 text-amber-600 dark:text-amber-300 flex items-center justify-center text-xs font-bold shrink-0">6</span>
                   <div>
                     <p className="font-bold text-scripture dark:text-white text-sm">Do Not Murder</p>
-                    <p className="text-primary-dark/60 dark:text-primary-dark/40 text-xs">Protect the image of God in every person</p>
+                    <p className="text-ink-muted dark:text-ink-light text-xs">Protect the image of God in every person</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="w-7 h-7 rounded-full bg-amber-100 dark:bg-amber-900 text-amber-600 dark:text-amber-300 flex items-center justify-center text-xs font-bold shrink-0">7</span>
                   <div>
                     <p className="font-bold text-scripture dark:text-white text-sm">Do Not Commit Adultery</p>
-                    <p className="text-primary-dark/60 dark:text-primary-dark/40 text-xs">Guard the marriage covenant</p>
+                    <p className="text-ink-muted dark:text-ink-light text-xs">Guard the marriage covenant</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="w-7 h-7 rounded-full bg-amber-100 dark:bg-amber-900 text-amber-600 dark:text-amber-300 flex items-center justify-center text-xs font-bold shrink-0">8</span>
                   <div>
                     <p className="font-bold text-scripture dark:text-white text-sm">Do Not Steal</p>
-                    <p className="text-primary-dark/60 dark:text-primary-dark/40 text-xs">Honor honest labor and property</p>
+                    <p className="text-ink-muted dark:text-ink-light text-xs">Honor honest labor and property</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="w-7 h-7 rounded-full bg-amber-100 dark:bg-amber-900 text-amber-600 dark:text-amber-300 flex items-center justify-center text-xs font-bold shrink-0">9</span>
                   <div>
                     <p className="font-bold text-scripture dark:text-white text-sm">Do Not Bear False Witness</p>
-                    <p className="text-primary-dark/60 dark:text-primary-dark/40 text-xs">Truth holds community together</p>
+                    <p className="text-ink-muted dark:text-ink-light text-xs">Truth holds community together</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="w-7 h-7 rounded-full bg-amber-100 dark:bg-amber-900 text-amber-600 dark:text-amber-300 flex items-center justify-center text-xs font-bold shrink-0">10</span>
                   <div>
                     <p className="font-bold text-scripture dark:text-white text-sm">Do Not Covet</p>
-                    <p className="text-primary-dark/60 dark:text-primary-dark/40 text-xs">Guard your heart — sin starts on the inside</p>
+                    <p className="text-ink-muted dark:text-ink-light text-xs">Guard your heart — sin starts on the inside</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="mt-4 bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800 rounded-lg p-4 text-center">
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 text-sm leading-relaxed">
+          <div className="mt-4 bg-sacred-light dark:bg-sacred-light0/20 border border-sacred/20 dark:border-sacred/20 rounded-lg p-4 text-center">
+            <p className="text-scripture dark:text-ink-light text-sm leading-relaxed">
               Jesus summarized both tablets: <strong>&ldquo;On these two commandments hang all the law and the prophets&rdquo;</strong> (Matthew 22:40). Every commandment is an expression of love — love for God, or love for neighbor.
             </p>
           </div>
@@ -593,7 +593,7 @@ export default function TenCommandmentsPage() {
         <section className="mb-12">
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 md:p-8 shadow-sm">
             <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">How the Ten Commandments Apply Today</h2>
-            <div className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed space-y-4">
+            <div className="text-scripture dark:text-ink-light leading-relaxed space-y-4">
               <p>
                 You might wonder whether laws given to a nomadic nation 3,400 years ago have anything to say to someone scrolling on a phone. Short answer: yes. Long answer: look around.
               </p>
@@ -619,24 +619,24 @@ export default function TenCommandmentsPage() {
             <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">Where Else the Ten Commandments Appear in Scripture</h2>
             <div className="space-y-4">
               <div className="flex gap-4 items-start">
-                <span className="inline-flex items-center px-3 py-1 bg-blue-50 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300 text-sm font-medium rounded-lg border border-blue-100 dark:border-blue-800 whitespace-nowrap shrink-0">Exodus 20:1-17</span>
-                <p className="text-primary-dark/80 dark:text-primary-dark/40 text-sm leading-relaxed">The primary giving at Mount Sinai, spoken directly by God to Israel.</p>
+                <span className="inline-flex items-center px-3 py-1 bg-sacred-light dark:bg-sacred-light0/30 text-scripture dark:text-sacred text-sm font-medium rounded-lg border border-sacred/10 dark:border-sacred/20 whitespace-nowrap shrink-0">Exodus 20:1-17</span>
+                <p className="text-scripture dark:text-ink-light text-sm leading-relaxed">The primary giving at Mount Sinai, spoken directly by God to Israel.</p>
               </div>
               <div className="flex gap-4 items-start">
-                <span className="inline-flex items-center px-3 py-1 bg-blue-50 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300 text-sm font-medium rounded-lg border border-blue-100 dark:border-blue-800 whitespace-nowrap shrink-0">Deuteronomy 5:6-21</span>
-                <p className="text-primary-dark/80 dark:text-primary-dark/40 text-sm leading-relaxed">Moses restates the Ten Commandments to the new generation before entering the Promised Land.</p>
+                <span className="inline-flex items-center px-3 py-1 bg-sacred-light dark:bg-sacred-light0/30 text-scripture dark:text-sacred text-sm font-medium rounded-lg border border-sacred/10 dark:border-sacred/20 whitespace-nowrap shrink-0">Deuteronomy 5:6-21</span>
+                <p className="text-scripture dark:text-ink-light text-sm leading-relaxed">Moses restates the Ten Commandments to the new generation before entering the Promised Land.</p>
               </div>
               <div className="flex gap-4 items-start">
-                <span className="inline-flex items-center px-3 py-1 bg-blue-50 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300 text-sm font-medium rounded-lg border border-blue-100 dark:border-blue-800 whitespace-nowrap shrink-0">Matthew 22:37-40</span>
-                <p className="text-primary-dark/80 dark:text-primary-dark/40 text-sm leading-relaxed">Jesus summarizes all the commandments into two: love God with all your heart, and love your neighbor as yourself.</p>
+                <span className="inline-flex items-center px-3 py-1 bg-sacred-light dark:bg-sacred-light0/30 text-scripture dark:text-sacred text-sm font-medium rounded-lg border border-sacred/10 dark:border-sacred/20 whitespace-nowrap shrink-0">Matthew 22:37-40</span>
+                <p className="text-scripture dark:text-ink-light text-sm leading-relaxed">Jesus summarizes all the commandments into two: love God with all your heart, and love your neighbor as yourself.</p>
               </div>
               <div className="flex gap-4 items-start">
-                <span className="inline-flex items-center px-3 py-1 bg-blue-50 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300 text-sm font-medium rounded-lg border border-blue-100 dark:border-blue-800 whitespace-nowrap shrink-0">Romans 13:8-10</span>
-                <p className="text-primary-dark/80 dark:text-primary-dark/40 text-sm leading-relaxed">Paul writes that love is the fulfillment of the law — the person who loves their neighbor has kept every commandment.</p>
+                <span className="inline-flex items-center px-3 py-1 bg-sacred-light dark:bg-sacred-light0/30 text-scripture dark:text-sacred text-sm font-medium rounded-lg border border-sacred/10 dark:border-sacred/20 whitespace-nowrap shrink-0">Romans 13:8-10</span>
+                <p className="text-scripture dark:text-ink-light text-sm leading-relaxed">Paul writes that love is the fulfillment of the law — the person who loves their neighbor has kept every commandment.</p>
               </div>
               <div className="flex gap-4 items-start">
-                <span className="inline-flex items-center px-3 py-1 bg-blue-50 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300 text-sm font-medium rounded-lg border border-blue-100 dark:border-blue-800 whitespace-nowrap shrink-0">Matthew 5:21-48</span>
-                <p className="text-primary-dark/80 dark:text-primary-dark/40 text-sm leading-relaxed">In the Sermon on the Mount, Jesus deepens the commandments, showing that God judges the heart, not just outward behavior.</p>
+                <span className="inline-flex items-center px-3 py-1 bg-sacred-light dark:bg-sacred-light0/30 text-scripture dark:text-sacred text-sm font-medium rounded-lg border border-sacred/10 dark:border-sacred/20 whitespace-nowrap shrink-0">Matthew 5:21-48</span>
+                <p className="text-scripture dark:text-ink-light text-sm leading-relaxed">In the Sermon on the Mount, Jesus deepens the commandments, showing that God judges the heart, not just outward behavior.</p>
               </div>
             </div>
           </div>
@@ -645,7 +645,7 @@ export default function TenCommandmentsPage() {
         {/* Quick Reference Table */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">Ten Commandments Quick Reference</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-6 text-sm">All ten commandments at a glance with Exodus and Deuteronomy references.</p>
+          <p className="text-ink-muted dark:text-ink-light mb-6 text-sm">All ten commandments at a glance with Exodus and Deuteronomy references.</p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-4 md:p-6 shadow-sm overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
@@ -659,15 +659,15 @@ export default function TenCommandmentsPage() {
               </thead>
               <tbody>
                 {COMMANDMENTS.map(c => (
-                  <tr key={c.number} className="border-b border-grace/60 dark:border-dark-border/60 hover:bg-blue-50/30 dark:hover:bg-blue-950/10 transition-colors">
-                    <td className="py-3 pr-3 font-bold text-blue-600 dark:text-blue-400">{c.number}</td>
-                    <td className="py-3 pr-3 text-primary-dark/80 dark:text-primary-dark/40 font-medium">
-                      <a href={`#commandment-${c.number}`} className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">{c.shortName}</a>
+                  <tr key={c.number} className="border-b border-grace/60 dark:border-dark-border/60 hover:bg-sacred-light/30 dark:hover:bg-sacred-light/10 transition-colors">
+                    <td className="py-3 pr-3 font-bold text-sacred dark:text-sacred">{c.number}</td>
+                    <td className="py-3 pr-3 text-scripture dark:text-ink-light font-medium">
+                      <a href={`#commandment-${c.number}`} className="hover:text-gold-dark dark:hover:text-gold-dark transition-colors">{c.shortName}</a>
                     </td>
-                    <td className="py-3 pr-3 text-primary-dark/70 dark:text-primary-dark/30 whitespace-nowrap">{c.exodusRef}</td>
-                    <td className="py-3 pr-3 text-primary-dark/70 dark:text-primary-dark/30 whitespace-nowrap">{c.deutRef}</td>
+                    <td className="py-3 pr-3 text-ink-muted dark:text-ink-light whitespace-nowrap">{c.exodusRef}</td>
+                    <td className="py-3 pr-3 text-ink-muted dark:text-ink-light whitespace-nowrap">{c.deutRef}</td>
                     <td className="py-3">
-                      <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium ${c.number <= 4 ? 'bg-blue-50 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300 border border-blue-100 dark:border-blue-800' : 'bg-amber-50 dark:bg-amber-950/30 text-amber-700 dark:text-amber-300 border border-amber-100 dark:border-amber-800'}`}>
+                      <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium ${c.number <= 4 ? 'bg-sacred-light dark:bg-sacred-light0/30 text-scripture dark:text-sacred border border-sacred/10 dark:border-sacred/20' : 'bg-amber-50 dark:bg-amber-950/30 text-amber-700 dark:text-amber-300 border border-amber-100 dark:border-amber-800'}`}>
                         {c.number <= 4 ? 'Love God' : 'Love Neighbor'}
                       </span>
                     </td>
@@ -681,20 +681,20 @@ export default function TenCommandmentsPage() {
         {/* Supporting Verses */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">15 Bible Verses About God&apos;s Law</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-6 text-sm">The Ten Commandments are part of a larger biblical theme. These verses illuminate God&apos;s purpose for His law.</p>
+          <p className="text-ink-muted dark:text-ink-light mb-6 text-sm">The Ten Commandments are part of a larger biblical theme. These verses illuminate God&apos;s purpose for His law.</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {SUPPORTING_VERSES.map((verse, idx) => (
-              <div key={idx} className="bg-white dark:bg-dark-surface rounded-lg border border-grace dark:border-dark-border p-4 shadow-sm hover:border-blue-200 dark:hover:border-blue-800 transition-colors">
+              <div key={idx} className="bg-white dark:bg-dark-surface rounded-lg border border-grace dark:border-dark-border p-4 shadow-sm hover:border-sacred/50 dark:hover:border-sacred/50 transition-colors">
                 <div className="flex items-center gap-2 mb-2">
-                  <span className="inline-flex items-center justify-center w-6 h-6 bg-blue-600 text-white text-xs font-bold rounded-full shrink-0">{idx + 1}</span>
-                  <span className="text-sm font-bold text-blue-600 dark:text-blue-400">{verse.ref}</span>
-                  <span className="text-xs bg-blue-50 dark:bg-blue-950/30 text-blue-600 dark:text-blue-400 px-2 py-0.5 rounded-full border border-blue-100 dark:border-blue-800">{verse.label}</span>
+                  <span className="inline-flex items-center justify-center w-6 h-6 bg-scripture text-white text-xs font-bold rounded-full shrink-0">{idx + 1}</span>
+                  <span className="text-sm font-bold text-sacred dark:text-sacred">{verse.ref}</span>
+                  <span className="text-xs bg-sacred-light dark:bg-sacred-light0/30 text-sacred dark:text-sacred px-2 py-0.5 rounded-full border border-sacred/10 dark:border-sacred/20">{verse.label}</span>
                 </div>
-                <p className="text-primary-dark/80 dark:text-primary-dark/40 text-sm italic leading-relaxed">
+                <p className="text-scripture dark:text-ink-light text-sm italic leading-relaxed">
                   &ldquo;{verse.text}&rdquo;
                 </p>
                 <div className="mt-2">
-                  <Link href={`/topics/${verse.topic}`} className="text-xs text-blue-600 dark:text-blue-400 hover:underline font-medium">
+                  <Link href={`/topics/${verse.topic}`} className="text-xs text-sacred dark:text-sacred hover:underline font-medium">
                     Study &ldquo;{verse.label}&rdquo; &rarr;
                   </Link>
                 </div>
@@ -711,9 +711,9 @@ export default function TenCommandmentsPage() {
               <details key={idx} className="bg-white dark:bg-dark-surface rounded-lg border border-grace dark:border-dark-border shadow-sm group">
                 <summary className="p-5 cursor-pointer font-bold text-scripture dark:text-white text-lg flex items-center justify-between list-none">
                   <span>{item.question}</span>
-                  <span className="text-blue-600 text-xl ml-4 shrink-0 group-open:rotate-45 transition-transform">+</span>
+                  <span className="text-sacred text-xl ml-4 shrink-0 group-open:rotate-45 transition-transform">+</span>
                 </summary>
-                <div className="px-5 pb-5 text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed border-t border-grace dark:border-dark-border pt-4">
+                <div className="px-5 pb-5 text-scripture dark:text-ink-light leading-relaxed border-t border-grace dark:border-dark-border pt-4">
                   {item.answer}
                 </div>
               </details>
@@ -724,16 +724,16 @@ export default function TenCommandmentsPage() {
         {/* Secondary CTA — Study Paths */}
         <section className="mb-12">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/exodus-20-quiz" className="bg-blue-600 hover:bg-blue-700 rounded-xl p-6 text-white transition-colors shadow-lg group">
-              <p className="text-blue-200 text-xs font-bold uppercase tracking-wider mb-2">60 Questions, 4 Difficulty Levels</p>
+            <Link href="/exodus-20-quiz" className="bg-scripture hover:bg-ink-muted rounded-xl p-6 text-white transition-colors shadow-lg group">
+              <p className="text-sacred text-xs font-bold uppercase tracking-wider mb-2">60 Questions, 4 Difficulty Levels</p>
               <h3 className="text-xl font-bold mb-1">Exodus 20 Quiz</h3>
-              <p className="text-blue-100 text-sm">Test your knowledge of the chapter where God speaks the Ten Commandments.</p>
+              <p className="text-sacred-light text-sm">Test your knowledge of the chapter where God speaks the Ten Commandments.</p>
               <span className="inline-block mt-3 text-sm font-bold uppercase tracking-wider group-hover:translate-x-1 transition-transform">Start Quiz &rarr;</span>
             </Link>
             <Link href="/exodus-chapters" className="bg-scripture hover:bg-scripture/90 rounded-xl p-6 text-white transition-colors shadow-lg group">
-              <p className="text-blue-200 text-xs font-bold uppercase tracking-wider mb-2">40 Chapters From Slavery to Sinai</p>
+              <p className="text-sacred text-xs font-bold uppercase tracking-wider mb-2">40 Chapters From Slavery to Sinai</p>
               <h3 className="text-xl font-bold mb-1">All Exodus Chapter Quizzes</h3>
-              <p className="text-blue-100 text-sm">Walk through the entire book of Exodus chapter by chapter.</p>
+              <p className="text-sacred-light text-sm">Walk through the entire book of Exodus chapter by chapter.</p>
               <span className="inline-block mt-3 text-sm font-bold uppercase tracking-wider group-hover:translate-x-1 transition-transform">Browse Chapters &rarr;</span>
             </Link>
           </div>
@@ -741,16 +741,16 @@ export default function TenCommandmentsPage() {
 
         {/* Gospel CTA */}
         <section className="mb-12">
-          <div className="bg-gradient-to-br from-scripture via-scripture/95 to-blue-950 rounded-xl p-8 md:p-10 text-white shadow-xl">
+          <div className="bg-gradient-to-br from-scripture via-scripture/95 to-scripture/80 rounded-xl p-8 md:p-10 text-white shadow-xl">
             <h2 className="text-2xl md:text-3xl font-bold font-display mb-4 text-center">The Commandments Show Our Need. Christ Meets It.</h2>
-            <p className="text-blue-100 max-w-2xl mx-auto leading-relaxed mb-3 text-center">
+            <p className="text-sacred-light max-w-2xl mx-auto leading-relaxed mb-3 text-center">
               &ldquo;By the law is the knowledge of sin&rdquo; (Romans 3:20). The Ten Commandments were never a ladder to climb into heaven. They were a mirror — to show us that we fall short of God&apos;s standard.
             </p>
-            <p className="text-blue-100 max-w-2xl mx-auto leading-relaxed mb-6 text-center">
+            <p className="text-sacred-light max-w-2xl mx-auto leading-relaxed mb-6 text-center">
               But God did not leave us there. &ldquo;The wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord&rdquo; (Romans 6:23). Jesus kept the law perfectly and paid the penalty for everyone who couldn&apos;t. If you want to understand what that means for you:
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <Link href="/what-does-the-bible-say-about/salvation" className="inline-flex items-center justify-center bg-white text-scripture font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors text-sm uppercase tracking-wider">
+              <Link href="/what-does-the-bible-say-about/salvation" className="inline-flex items-center justify-center bg-white text-scripture font-bold py-3 px-8 rounded-lg hover:bg-sacred-light transition-colors text-sm uppercase tracking-wider">
                 How to Be Saved
               </Link>
               <Link href="/john-3-16" className="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white border border-white/30 font-bold py-3 px-8 rounded-lg transition-colors text-sm uppercase tracking-wider">
@@ -765,47 +765,47 @@ export default function TenCommandmentsPage() {
           <h2 className="text-lg font-bold text-scripture dark:text-white mb-4">Continue Your Study</h2>
 
           <div className="mb-4">
-            <p className="text-xs font-bold text-primary-dark/50 dark:text-primary-dark/30 uppercase tracking-wider mb-2">Quizzes</p>
+            <p className="text-xs font-bold text-ink-muted dark:text-ink-light uppercase tracking-wider mb-2">Quizzes</p>
             <div className="grid gap-2 sm:grid-cols-2 md:grid-cols-3">
-              <Link href="/exodus-20-quiz" className="text-blue-600 hover:underline text-sm">Exodus 20 Quiz</Link>
-              <Link href="/deuteronomy-5-quiz" className="text-blue-600 hover:underline text-sm">Deuteronomy 5 Quiz</Link>
-              <Link href="/matthew-5-quiz" className="text-blue-600 hover:underline text-sm">Sermon on the Mount Quiz</Link>
-              <Link href="/exodus-chapters" className="text-blue-600 hover:underline text-sm">Exodus Chapter Quizzes</Link>
-              <Link href="/deuteronomy-chapters" className="text-blue-600 hover:underline text-sm">Deuteronomy Chapter Quizzes</Link>
-              <Link href="/exodus-quiz" className="text-blue-600 hover:underline text-sm">Complete Exodus Quiz</Link>
-              <Link href="/deuteronomy-quiz" className="text-blue-600 hover:underline text-sm">Complete Deuteronomy Quiz</Link>
-              <Link href="/romans-quiz" className="text-blue-600 hover:underline text-sm">Complete Romans Quiz</Link>
-              <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">All Bible Quizzes</Link>
+              <Link href="/exodus-20-quiz" className="text-sacred hover:underline text-sm">Exodus 20 Quiz</Link>
+              <Link href="/deuteronomy-5-quiz" className="text-sacred hover:underline text-sm">Deuteronomy 5 Quiz</Link>
+              <Link href="/matthew-5-quiz" className="text-sacred hover:underline text-sm">Sermon on the Mount Quiz</Link>
+              <Link href="/exodus-chapters" className="text-sacred hover:underline text-sm">Exodus Chapter Quizzes</Link>
+              <Link href="/deuteronomy-chapters" className="text-sacred hover:underline text-sm">Deuteronomy Chapter Quizzes</Link>
+              <Link href="/exodus-quiz" className="text-sacred hover:underline text-sm">Complete Exodus Quiz</Link>
+              <Link href="/deuteronomy-quiz" className="text-sacred hover:underline text-sm">Complete Deuteronomy Quiz</Link>
+              <Link href="/romans-quiz" className="text-sacred hover:underline text-sm">Complete Romans Quiz</Link>
+              <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">All Bible Quizzes</Link>
             </div>
           </div>
 
           <div className="mb-4">
-            <p className="text-xs font-bold text-primary-dark/50 dark:text-primary-dark/30 uppercase tracking-wider mb-2">Related Topics</p>
+            <p className="text-xs font-bold text-ink-muted dark:text-ink-light uppercase tracking-wider mb-2">Related Topics</p>
             <div className="grid gap-2 sm:grid-cols-2 md:grid-cols-3">
-              <Link href="/what-does-the-bible-say-about/salvation" className="text-blue-600 hover:underline text-sm">What the Bible Says About Salvation</Link>
-              <Link href="/topics/obedience" className="text-blue-600 hover:underline text-sm">Bible Verses About Obedience</Link>
-              <Link href="/topics/gods-law" className="text-blue-600 hover:underline text-sm">Bible Verses About God&apos;s Law</Link>
-              <Link href="/topics/love" className="text-blue-600 hover:underline text-sm">Bible Verses About Love</Link>
-              <Link href="/topics/gods-word" className="text-blue-600 hover:underline text-sm">Bible Verses About God&apos;s Word</Link>
-              <Link href="/topics/sin" className="text-blue-600 hover:underline text-sm">Bible Verses About Sin</Link>
-              <Link href="/topics/repentance" className="text-blue-600 hover:underline text-sm">Bible Verses About Repentance</Link>
-              <Link href="/topics/grace" className="text-blue-600 hover:underline text-sm">Bible Verses About Grace</Link>
-              <Link href="/john-3-16" className="text-blue-600 hover:underline text-sm">John 3:16 Explained</Link>
+              <Link href="/what-does-the-bible-say-about/salvation" className="text-sacred hover:underline text-sm">What the Bible Says About Salvation</Link>
+              <Link href="/topics/obedience" className="text-sacred hover:underline text-sm">Bible Verses About Obedience</Link>
+              <Link href="/topics/gods-law" className="text-sacred hover:underline text-sm">Bible Verses About God&apos;s Law</Link>
+              <Link href="/topics/love" className="text-sacred hover:underline text-sm">Bible Verses About Love</Link>
+              <Link href="/topics/gods-word" className="text-sacred hover:underline text-sm">Bible Verses About God&apos;s Word</Link>
+              <Link href="/topics/sin" className="text-sacred hover:underline text-sm">Bible Verses About Sin</Link>
+              <Link href="/topics/repentance" className="text-sacred hover:underline text-sm">Bible Verses About Repentance</Link>
+              <Link href="/topics/grace" className="text-sacred hover:underline text-sm">Bible Verses About Grace</Link>
+              <Link href="/john-3-16" className="text-sacred hover:underline text-sm">John 3:16 Explained</Link>
             </div>
           </div>
 
           <div>
-            <p className="text-xs font-bold text-primary-dark/50 dark:text-primary-dark/30 uppercase tracking-wider mb-2">Study Resources</p>
+            <p className="text-xs font-bold text-ink-muted dark:text-ink-light uppercase tracking-wider mb-2">Study Resources</p>
             <div className="grid gap-2 sm:grid-cols-2 md:grid-cols-3">
-              <Link href="/characters/moses" className="text-blue-600 hover:underline text-sm">Moses Character Study</Link>
-              <Link href="/bible-geography/exodus" className="text-blue-600 hover:underline text-sm">Exodus Places &amp; Map</Link>
-              <Link href="/bible-chapter-summaries/exodus/20" className="text-blue-600 hover:underline text-sm">Exodus 20 Summary</Link>
-              <Link href="/cross-references/exodus/20/1" className="text-blue-600 hover:underline text-sm">Exodus 20 Cross-References</Link>
-              <Link href="/books-of-the-bible" className="text-blue-600 hover:underline text-sm">Books of the Bible</Link>
-              <Link href="/bible-study-guides" className="text-blue-600 hover:underline text-sm">Study Guides</Link>
-              <Link href="/popular-bible-verses" className="text-blue-600 hover:underline text-sm">100 Most Popular Verses</Link>
-              <Link href="/who-wrote-the-bible" className="text-blue-600 hover:underline text-sm">Who Wrote the Bible?</Link>
-              <Link href="/bible-quotes" className="text-blue-600 hover:underline text-sm">Bible Quotes Hub</Link>
+              <Link href="/characters/moses" className="text-sacred hover:underline text-sm">Moses Character Study</Link>
+              <Link href="/bible-geography/exodus" className="text-sacred hover:underline text-sm">Exodus Places &amp; Map</Link>
+              <Link href="/bible-chapter-summaries/exodus/20" className="text-sacred hover:underline text-sm">Exodus 20 Summary</Link>
+              <Link href="/cross-references/exodus/20/1" className="text-sacred hover:underline text-sm">Exodus 20 Cross-References</Link>
+              <Link href="/books-of-the-bible" className="text-sacred hover:underline text-sm">Books of the Bible</Link>
+              <Link href="/bible-study-guides" className="text-sacred hover:underline text-sm">Study Guides</Link>
+              <Link href="/popular-bible-verses" className="text-sacred hover:underline text-sm">100 Most Popular Verses</Link>
+              <Link href="/who-wrote-the-bible" className="text-sacred hover:underline text-sm">Who Wrote the Bible?</Link>
+              <Link href="/bible-quotes" className="text-sacred hover:underline text-sm">Bible Quotes Hub</Link>
             </div>
           </div>
         </section>

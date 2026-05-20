@@ -93,12 +93,12 @@ export default async function ChapterGeographyPage({ params }: PageProps) {
       <StructuredData data={jsonLd} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
-        <Link href="/" className="hover:text-blue-600">Home</Link>
+      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-ink-muted">
+        <Link href="/" className="hover:text-gold-dark">Home</Link>
         <span className="mx-1.5">/</span>
-        <Link href="/bible-geography" className="hover:text-blue-600">Bible Geography</Link>
+        <Link href="/bible-geography" className="hover:text-gold-dark">Bible Geography</Link>
         <span className="mx-1.5">/</span>
-        <Link href={`/bible-geography/${book}`} className="hover:text-blue-600">{bookName}</Link>
+        <Link href={`/bible-geography/${book}`} className="hover:text-gold-dark">{bookName}</Link>
         <span className="mx-1.5">/</span>
         <span className="text-scripture font-medium">Chapter {ch}</span>
       </nav>
@@ -108,7 +108,7 @@ export default async function ChapterGeographyPage({ params }: PageProps) {
         <h1 className="text-2xl md:text-3xl font-bold font-display mb-3 text-scripture">
           Places in {bookName} {ch}
         </h1>
-        <p className="text-primary-dark/70 max-w-2xl mb-4">
+        <p className="text-ink-muted max-w-2xl mb-4">
           <strong>{places.length}</strong> biblical place{places.length !== 1 ? 's' : ''} mentioned
           in {bookName} chapter {ch}, with interactive map and verse references.
         </p>
@@ -116,12 +116,12 @@ export default async function ChapterGeographyPage({ params }: PageProps) {
         {/* Prev/Next Navigation */}
         <div className="flex gap-3 mb-6">
           {prevCh !== null ? (
-            <Link href={`/bible-geography/${book}/${prevCh}`} className="px-4 py-2 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+            <Link href={`/bible-geography/${book}/${prevCh}`} className="px-4 py-2 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
               &larr; Chapter {prevCh}
             </Link>
           ) : <span />}
           {nextCh !== null && (
-            <Link href={`/bible-geography/${book}/${nextCh}`} className="px-4 py-2 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+            <Link href={`/bible-geography/${book}/${nextCh}`} className="px-4 py-2 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
               Chapter {nextCh} &rarr;
             </Link>
           )}
@@ -146,17 +146,17 @@ export default async function ChapterGeographyPage({ params }: PageProps) {
               <Link
                 key={p.slug}
                 href={`/bible-places/${p.slug}`}
-                className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
+                className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-sacred/50 transition-all group"
               >
                 <div className="flex items-center justify-between">
-                  <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                  <span className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                     {p.name}
                   </span>
                   {p.lat !== null && (
                     <span className="text-xs px-1.5 py-0.5 rounded bg-green-50 text-green-600">Mapped</span>
                   )}
                 </div>
-                <div className="text-xs text-primary-dark/50 mt-1">
+                <div className="text-xs text-ink-muted mt-1">
                   <span className="capitalize">{p.type}</span>
                   {chapterVerses.length > 0 && (
                     <span className="ml-2">
@@ -174,17 +174,17 @@ export default async function ChapterGeographyPage({ params }: PageProps) {
       <div className="max-w-4xl mx-auto px-4 py-8">
         <h2 className="text-xl font-bold text-scripture mb-4">Continue Your Study</h2>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-          <Link href={`/${book}-${ch}-quiz`} className="block p-4 bg-blue-50 rounded-lg border border-blue-200 hover:border-blue-400 hover:shadow-md transition-all text-center">
-            <span className="font-semibold text-blue-800 block">Take the Quiz</span>
-            <span className="text-xs text-blue-600">Test your knowledge of this chapter</span>
+          <Link href={`/${book}-${ch}-quiz`} className="block p-4 bg-blue-50 rounded-lg border border-sacred/20 hover:border-sacred/50 hover:shadow-md transition-all text-center">
+            <span className="font-semibold text-scripture block">Take the Quiz</span>
+            <span className="text-xs text-sacred">Test your knowledge of this chapter</span>
           </Link>
           <Link href={`/bible-chapter-summaries/${book}/${ch}`} className="block p-4 bg-green-50 rounded-lg border border-green-200 hover:border-green-400 hover:shadow-md transition-all text-center">
             <span className="font-semibold text-green-800 block">Chapter Summary</span>
             <span className="text-xs text-green-600">Read the key events and themes</span>
           </Link>
-          <Link href={`/${book}-chapters`} className="block p-4 bg-purple-50 rounded-lg border border-purple-200 hover:border-purple-400 hover:shadow-md transition-all text-center">
-            <span className="font-semibold text-purple-800 block">All Chapters</span>
-            <span className="text-xs text-purple-600">Browse all chapter quizzes</span>
+          <Link href={`/${book}-chapters`} className="block p-4 bg-scripture/5 rounded-lg border border-sacred/20 hover:border-sacred/20 hover:shadow-md transition-all text-center">
+            <span className="font-semibold text-scripture block">All Chapters</span>
+            <span className="text-xs text-scripture">Browse all chapter quizzes</span>
           </Link>
         </div>
       </div>
@@ -194,13 +194,13 @@ export default async function ChapterGeographyPage({ params }: PageProps) {
         <div className="bg-primary-light/30 border border-grace rounded-xl p-6">
           <h2 className="text-lg font-bold text-scripture mb-3">Related Resources</h2>
           <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-            <Link href={`/${book}-${ch}-quiz`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+            <Link href={`/${book}-${ch}-quiz`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
               {bookName} {ch} Quiz
             </Link>
-            <Link href={`/bible-geography/${book}`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+            <Link href={`/bible-geography/${book}`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
               All {bookName} Places
             </Link>
-            <Link href={`/${book}-chapters`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+            <Link href={`/${book}-chapters`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
               {bookName} Chapters
             </Link>
           </div>

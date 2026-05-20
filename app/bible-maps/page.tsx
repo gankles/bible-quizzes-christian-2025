@@ -199,7 +199,7 @@ export default function BibleMapsPage() {
       <StructuredData data={breadcrumbJsonLd} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
+      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-ink-muted">
         <Link href="/" className="hover:text-green-700">Home</Link>
         <span className="mx-1.5">/</span>
         <span className="text-scripture font-medium">Bible Maps</span>
@@ -250,7 +250,7 @@ export default function BibleMapsPage() {
           <h2 className="text-2xl font-bold font-display text-scripture mb-4">
             Why Bible Maps Matter for Scripture Study
           </h2>
-          <div className="prose prose-lg max-w-none text-primary-dark/70 space-y-4">
+          <div className="prose prose-lg max-w-none text-ink-muted space-y-4">
             <p>
               The Bible is not an abstract collection of theological ideas — it is a record of God
               acting in real places, among real people, across real landscapes. From the fertile
@@ -292,7 +292,7 @@ export default function BibleMapsPage() {
               <h3 className="text-lg font-bold font-display text-scripture group-hover:text-green-700 mb-2 transition-colors">
                 {collection.title}
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 {collection.description}
               </p>
             </Link>
@@ -315,14 +315,14 @@ export default function BibleMapsPage() {
               <h3 className="text-lg font-bold font-display text-scripture group-hover:text-green-700 mb-1.5 transition-colors">
                 {place.name}
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 {place.description}
               </p>
             </Link>
           ))}
         </div>
         <div className="mt-4 text-center">
-          <p className="text-primary-dark/60 text-sm mb-2">Know these places?</p>
+          <p className="text-ink-muted text-sm mb-2">Know these places?</p>
           <Link
             href="/bible-quizzes"
             className="inline-flex items-center px-5 py-2.5 bg-green-700 text-white font-bold rounded-lg hover:bg-green-800 transition-colors"
@@ -343,7 +343,7 @@ export default function BibleMapsPage() {
               <h3 className="text-lg font-bold font-display text-scripture mb-2">
                 Understand Distances & Terrain
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 The Bible frequently mentions journeys that spanned days or weeks on foot.
                 Maps reveal the actual distances between cities like Jerusalem and Jericho
                 (about 15 miles through dangerous desert), or the 1,000-mile trek from Ur
@@ -356,7 +356,7 @@ export default function BibleMapsPage() {
               <h3 className="text-lg font-bold font-display text-scripture mb-2">
                 Visualize Biblical Journeys
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 From the Exodus out of Egypt to Paul&apos;s four missionary journeys across the
                 Roman Empire, the Bible is filled with travel narratives. Seeing these routes
                 on a map transforms abstract place names into concrete paths. You can trace
@@ -369,7 +369,7 @@ export default function BibleMapsPage() {
               <h3 className="text-lg font-bold font-display text-scripture mb-2">
                 Historical & Archaeological Context
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Modern archaeology has confirmed the existence of hundreds of biblical
                 locations. Maps that incorporate scholarly data and confidence scores help
                 you see which sites have been positively identified and which remain
@@ -397,7 +397,7 @@ export default function BibleMapsPage() {
               <h3 className="text-lg font-bold font-display text-scripture mb-2">
                 {item.question}
               </h3>
-              <p className="text-primary-dark/70 leading-relaxed">
+              <p className="text-ink-muted leading-relaxed">
                 {item.answer}
               </p>
             </div>
@@ -416,28 +416,28 @@ export default function BibleMapsPage() {
             className="bg-white rounded-xl border border-grace p-4 hover:border-green-400 hover:shadow-sm transition-all"
           >
             <span className="font-bold text-scripture">Bible Places Directory</span>
-            <p className="text-sm text-primary-dark/60 mt-1">Browse all 1,300+ biblical locations</p>
+            <p className="text-sm text-ink-muted mt-1">Browse all 1,300+ biblical locations</p>
           </Link>
           <Link
             href="/bible-geography"
             className="bg-white rounded-xl border border-grace p-4 hover:border-green-400 hover:shadow-sm transition-all"
           >
             <span className="font-bold text-scripture">Bible Geography by Book</span>
-            <p className="text-sm text-primary-dark/60 mt-1">Places organized by all 66 books</p>
+            <p className="text-sm text-ink-muted mt-1">Places organized by all 66 books</p>
           </Link>
           <Link
             href="/bible-geography/genesis"
             className="bg-white rounded-xl border border-grace p-4 hover:border-green-400 hover:shadow-sm transition-all"
           >
             <span className="font-bold text-scripture">Genesis Geography</span>
-            <p className="text-sm text-primary-dark/60 mt-1">Map the journeys of the patriarchs</p>
+            <p className="text-sm text-ink-muted mt-1">Map the journeys of the patriarchs</p>
           </Link>
           <Link
             href="/topics"
             className="bg-white rounded-xl border border-grace p-4 hover:border-green-400 hover:shadow-sm transition-all"
           >
             <span className="font-bold text-scripture">Bible Topics</span>
-            <p className="text-sm text-primary-dark/60 mt-1">Study themes across Scripture</p>
+            <p className="text-sm text-ink-muted mt-1">Study themes across Scripture</p>
           </Link>
           <Link
             href="/bible-quizzes"

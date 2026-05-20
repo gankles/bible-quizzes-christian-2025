@@ -121,10 +121,10 @@ export default async function NaveTopicPage({ params }: PageProps) {
       <StructuredData data={faqSchema} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
-        <Link href="/" className="hover:text-blue-600">Home</Link>
+      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-ink-muted">
+        <Link href="/" className="hover:text-gold-dark">Home</Link>
         <span className="mx-1.5">/</span>
-        <Link href="/nave-topics" className="hover:text-blue-600">Nave&apos;s Topical Bible</Link>
+        <Link href="/nave-topics" className="hover:text-gold-dark">Nave&apos;s Topical Bible</Link>
         <span className="mx-1.5">/</span>
         <span className="text-scripture font-medium">{name}</span>
       </nav>
@@ -132,13 +132,13 @@ export default async function NaveTopicPage({ params }: PageProps) {
       <article className="max-w-4xl mx-auto px-4 py-8">
         {/* Header */}
         <div className="mb-8">
-          <span className="inline-block px-3 py-1 bg-blue-100 text-blue-700 text-xs font-medium rounded-full mb-3">
+          <span className="inline-block px-3 py-1 bg-sacred/10 text-scripture text-xs font-medium rounded-full mb-3">
             Section {topic.section}
           </span>
           <h1 className="text-3xl md:text-4xl font-display font-bold text-scripture mb-2 capitalize">
             {name}
           </h1>
-          <p className="text-primary-dark/70">
+          <p className="text-ink-muted">
             Explore {topic.refCount} scripture references about {name.toLowerCase()} from Nave&apos;s Topical Bible, spanning {topic.books.length} books of the Bible with categorized entries, verse text, and cross-references.
           </p>
         </div>
@@ -148,7 +148,7 @@ export default async function NaveTopicPage({ params }: PageProps) {
           <h2 className="text-lg font-bold text-scripture mb-3">
             What Does the Bible Say About {name}?
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed">
+          <p className="text-scripture leading-relaxed">
             The topic of <strong>{name.toLowerCase()}</strong> appears throughout Scripture with{' '}
             <strong>{topic.refCount} references</strong> spanning{' '}
             <strong>{topic.books.length} books</strong> of the Bible, from{' '}
@@ -171,12 +171,12 @@ export default async function NaveTopicPage({ params }: PageProps) {
                   <Link
                     key={bookCode}
                     href={`/nave-topics/${topic.slug}/in/${bookSlug}`}
-                    className="bg-primary-light/30 border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group flex items-center justify-between"
+                    className="bg-primary-light/30 border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-sacred/50 transition-all group flex items-center justify-between"
                   >
-                    <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                    <span className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                       {bookName}
                     </span>
-                    <span className="text-xs text-primary-dark/60 bg-grace/30 rounded-full px-2 py-0.5">
+                    <span className="text-xs text-ink-muted bg-grace/30 rounded-full px-2 py-0.5">
                       {count} ref{count !== 1 ? 's' : ''}
                     </span>
                   </Link>
@@ -194,7 +194,7 @@ export default async function NaveTopicPage({ params }: PageProps) {
           <div className="space-y-3">
             {topic.entries.map((entry, i) => (
               <div key={i} className="border-b border-grace/50 pb-3 last:border-0 last:pb-0">
-                <p className="text-primary-dark/80 text-sm leading-relaxed whitespace-pre-line">
+                <p className="text-scripture text-sm leading-relaxed whitespace-pre-line">
                   {entry.text}
                 </p>
                 {entry.references.length > 0 && (
@@ -203,13 +203,13 @@ export default async function NaveTopicPage({ params }: PageProps) {
                       <Link
                         key={j}
                         href={`/chapters/${ref.bookSlug}/${ref.chapter}`}
-                        className="text-xs text-blue-600 hover:underline bg-blue-50 rounded px-2 py-0.5"
+                        className="text-xs text-sacred hover:underline bg-blue-50 rounded px-2 py-0.5"
                       >
                         {ref.raw}
                       </Link>
                     ))}
                     {entry.references.length > 8 && (
-                      <span className="text-xs text-primary-dark/40">+{entry.references.length - 8} more</span>
+                      <span className="text-xs text-ink-light">+{entry.references.length - 8} more</span>
                     )}
                   </div>
                 )}
@@ -219,22 +219,22 @@ export default async function NaveTopicPage({ params }: PageProps) {
         </div>
 
         {/* Quiz CTA */}
-        <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-8">
+        <div className="bg-blue-50 border border-sacred/20 rounded-xl p-6 mb-8">
           <h2 className="text-lg font-bold text-scripture mb-2">Test Your Knowledge</h2>
-          <p className="text-sm text-primary-dark/70 mb-4">
+          <p className="text-sm text-ink-muted mb-4">
             Explore Bible quizzes related to the topics and books covered in this study.
           </p>
           <div className="flex flex-wrap gap-3">
             <Link
               href="/bible-quizzes"
-              className="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors"
+              className="px-4 py-2 bg-scripture text-white text-sm font-medium rounded-lg hover:bg-ink-muted transition-colors"
             >
               Browse Bible Quizzes
             </Link>
             {topic.bookSlugs.length > 0 && (
               <Link
                 href={`/${topic.bookSlugs[0]}-chapters`}
-                className="px-4 py-2 bg-white text-blue-600 text-sm font-medium rounded-lg border border-blue-300 hover:bg-blue-50 transition-colors"
+                className="px-4 py-2 bg-white text-sacred text-sm font-medium rounded-lg border border-sacred/50 hover:bg-sacred-light transition-colors"
               >
                 {USX_TO_NAME[topic.books[0]] || topic.books[0]} Quizzes
               </Link>
@@ -247,10 +247,10 @@ export default async function NaveTopicPage({ params }: PageProps) {
           {prev ? (
             <Link
               href={`/nave-topics/${prev.slug}`}
-              className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+              className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
             >
-              <span className="text-xs text-primary-dark/60">Previous</span>
-              <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors capitalize">
+              <span className="text-xs text-ink-muted">Previous</span>
+              <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors capitalize">
                 {prev.subject.toLowerCase()}
               </span>
             </Link>
@@ -258,10 +258,10 @@ export default async function NaveTopicPage({ params }: PageProps) {
           {next ? (
             <Link
               href={`/nave-topics/${next.slug}`}
-              className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+              className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
             >
-              <span className="text-xs text-primary-dark/60">Next</span>
-              <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors capitalize">
+              <span className="text-xs text-ink-muted">Next</span>
+              <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors capitalize">
                 {next.subject.toLowerCase()}
               </span>
             </Link>
@@ -279,12 +279,12 @@ export default async function NaveTopicPage({ params }: PageProps) {
                   <Link
                     key={t.slug}
                     href={`/nave-topics/${t.slug}`}
-                    className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
+                    className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-sacred/50 transition-all group"
                   >
-                    <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors capitalize">
+                    <span className="font-semibold text-scripture group-hover:text-gold-dark transition-colors capitalize">
                       {tName}
                     </span>
-                    <span className="block text-xs text-primary-dark/60 mt-0.5">
+                    <span className="block text-xs text-ink-muted mt-0.5">
                       {t.refCount} reference{t.refCount !== 1 ? 's' : ''} in {t.books.length} book{t.books.length !== 1 ? 's' : ''}
                     </span>
                   </Link>
@@ -302,7 +302,7 @@ export default async function NaveTopicPage({ params }: PageProps) {
               <h3 className="font-semibold text-scripture mb-1">
                 What does the Bible say about {name.toLowerCase()}?
               </h3>
-              <p className="text-primary-dark/80 text-sm leading-relaxed">
+              <p className="text-scripture text-sm leading-relaxed">
                 The Bible contains {topic.refCount} references to {name.toLowerCase()} across {topic.books.length} books of the Bible. Nave&apos;s Topical Bible organizes these references for in-depth study.
               </p>
             </div>
@@ -310,7 +310,7 @@ export default async function NaveTopicPage({ params }: PageProps) {
               <h3 className="font-semibold text-scripture mb-1">
                 Where is {name.toLowerCase()} mentioned in the Bible?
               </h3>
-              <p className="text-primary-dark/80 text-sm leading-relaxed">
+              <p className="text-scripture text-sm leading-relaxed">
                 {name} is referenced in {topic.books.slice(0, 5).map(b => USX_TO_NAME[b] || b).join(', ')}
                 {topic.books.length > 5 && `, and ${topic.books.length - 5} more books`}.
                 There are {topic.refCount} total scripture references on this topic.
@@ -323,22 +323,22 @@ export default async function NaveTopicPage({ params }: PageProps) {
         <section className="bg-grace/10 border border-grace rounded-xl p-6">
           <h2 className="text-lg font-bold text-scripture mb-3">Continue Your Study</h2>
           <div className="grid gap-2 sm:grid-cols-2">
-            <Link href={topicsCrossLink} className="text-blue-600 hover:underline text-sm">
+            <Link href={topicsCrossLink} className="text-sacred hover:underline text-sm">
               {name} — Bible Topics
             </Link>
-            <Link href="/nave-topics" className="text-blue-600 hover:underline text-sm">
+            <Link href="/nave-topics" className="text-sacred hover:underline text-sm">
               Nave&apos;s Topical Bible
             </Link>
-            <Link href="/topics" className="text-blue-600 hover:underline text-sm">
+            <Link href="/topics" className="text-sacred hover:underline text-sm">
               All Bible Topics
             </Link>
-            <Link href="/people" className="text-blue-600 hover:underline text-sm">
+            <Link href="/people" className="text-sacred hover:underline text-sm">
               Bible Characters Directory
             </Link>
-            <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">
               Bible Quizzes
             </Link>
-            <Link href="/lexicon" className="text-blue-600 hover:underline text-sm">
+            <Link href="/lexicon" className="text-sacred hover:underline text-sm">
               Hebrew &amp; Greek Word Study
             </Link>
           </div>

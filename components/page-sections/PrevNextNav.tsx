@@ -30,12 +30,12 @@ const variantStyles = {
     text: 'group-hover:text-indigo-700',
   },
   blue: {
-    border: 'hover:border-blue-300',
-    text: 'group-hover:text-blue-700',
+    border: 'hover:border-sacred/50',
+    text: 'group-hover:text-gold-dark',
   },
   default: {
     border: 'hover:border-gray-300',
-    text: 'group-hover:text-blue-600',
+    text: 'group-hover:text-gold-dark',
   },
 }
 
@@ -56,15 +56,15 @@ export default function PrevNextNav({
           href={prev.href}
           className={`flex-1 bg-white border border-grace rounded-lg px-4 py-3 ${styles.border} hover:shadow-sm transition-all group`}
         >
-          <span className="text-xs text-primary-dark/60">{prevTitle}</span>
+          <span className="text-xs text-ink-muted">{prevTitle}</span>
           <span className={`block font-semibold text-scripture ${styles.text} transition-colors`}>
             {prev.label}
           </span>
           {prev.sublabel && (
-            <span className="block text-xs text-primary-dark/50 italic">{prev.sublabel}</span>
+            <span className="block text-xs text-ink-muted italic">{prev.sublabel}</span>
           )}
           {prev.detail && (
-            <span className="block text-xs text-primary-dark/50">{prev.detail}</span>
+            <span className="block text-xs text-ink-muted">{prev.detail}</span>
           )}
         </Link>
       ) : (
@@ -75,15 +75,15 @@ export default function PrevNextNav({
           href={next.href}
           className={`flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 ${styles.border} hover:shadow-sm transition-all group`}
         >
-          <span className="text-xs text-primary-dark/60">{nextTitle}</span>
+          <span className="text-xs text-ink-muted">{nextTitle}</span>
           <span className={`block font-semibold text-scripture ${styles.text} transition-colors`}>
             {next.label}
           </span>
           {next.sublabel && (
-            <span className="block text-xs text-primary-dark/50 italic">{next.sublabel}</span>
+            <span className="block text-xs text-ink-muted italic">{next.sublabel}</span>
           )}
           {next.detail && (
-            <span className="block text-xs text-primary-dark/50">{next.detail}</span>
+            <span className="block text-xs text-ink-muted">{next.detail}</span>
           )}
         </Link>
       ) : (

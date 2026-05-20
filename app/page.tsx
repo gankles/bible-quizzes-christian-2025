@@ -82,19 +82,19 @@ export default function Home() {
             className="object-cover opacity-50"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-blue-50/50 to-white/70"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-scripture/50 to-white/70"></div>
         </div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold font-display text-scripture mb-4">
               How Well Do You{' '}
-              <span className="text-blue-600">Know the Bible?</span>
+              <span className="text-sacred">Know the Bible?</span>
             </h1>
-            <p className="text-xl md:text-2xl text-primary-dark/70 mb-2 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-ink-muted mb-2 max-w-3xl mx-auto">
               Let&apos;s find out together.
             </p>
-            <p className="text-lg text-primary-dark/60 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg text-ink-muted mb-8 max-w-2xl mx-auto">
               66 books, 1,189 chapters, thousands of questions. Whether you grew up in Sunday school 
               or just picked up a Bible for the first time—there&apos;s something here for you.
             </p>
@@ -108,14 +108,14 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
               <Link
                 href="/bible-quizzes"
-                className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors duration-200 flex items-center space-x-2"
+                className="bg-scripture text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-ink-muted transition-colors duration-200 flex items-center space-x-2"
               >
                 <PlayIcon className="h-5 w-5" />
                 <span>Start Quiz Now</span>
               </Link>
               <Link
                 href="/genesis-1-quiz"
-                className="border border-blue-600 text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-light transition-colors duration-200"
+                className="border border-sacred text-sacred px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-light transition-colors duration-200"
               >
                 Try Genesis 1 Quiz
               </Link>
@@ -125,13 +125,13 @@ export default function Home() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
               {quickStats.map((stat) => (
                 <div key={stat.label} className="text-center">
-                  <div className="text-3xl md:text-4xl font-bold text-blue-600 mb-2">
+                  <div className="text-3xl md:text-4xl font-bold text-sacred mb-2">
                     {stat.value}
                   </div>
                   <div className="text-sm font-semibold text-scripture mb-1">
                     {stat.label}
                   </div>
-                  <div className="text-xs text-primary-dark/70">
+                  <div className="text-xs text-ink-muted">
                     {stat.description}
                   </div>
                 </div>
@@ -158,7 +158,7 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-bold text-scripture mb-4">
               Popular Bible Quizzes
             </h2>
-            <p className="text-lg text-primary-dark/70 max-w-2xl mx-auto">
+            <p className="text-lg text-ink-muted max-w-2xl mx-auto">
               These are fan favorites. Thousands have taken them—now it&apos;s your turn.
             </p>
           </div>
@@ -183,7 +183,7 @@ export default function Home() {
                       {quiz.difficulty}
                     </span>
                     {quiz.popular && (
-                      <span className="px-2 py-1 bg-blue-100/90 text-blue-800 rounded-full text-xs font-medium backdrop-blur-sm">
+                      <span className="px-2 py-1 bg-sacred/10/90 text-scripture rounded-full text-xs font-medium backdrop-blur-sm">
                         Popular
                       </span>
                     )}
@@ -195,11 +195,11 @@ export default function Home() {
                     {quiz.title}
                   </h3>
                   
-                  <p className="text-primary-dark/70 text-sm mb-4">
+                  <p className="text-ink-muted text-sm mb-4">
                     {quiz.description}
                   </p>
                   
-                  <div className="flex items-center justify-between text-sm text-primary-dark/60 mb-4">
+                  <div className="flex items-center justify-between text-sm text-ink-muted mb-4">
                     <div className="flex items-center space-x-1">
                       <CheckCircleIcon className="h-4 w-4" />
                       <span>{quiz.questions} Questions</span>
@@ -212,7 +212,7 @@ export default function Home() {
                   
                   <Link
                     href={quiz.href}
-                    className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors duration-200 flex items-center justify-center space-x-2"
+                    className="w-full bg-scripture text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-ink-muted transition-colors duration-200 flex items-center justify-center space-x-2"
                   >
                     <span>Take Quiz</span>
                     <ArrowRightIcon className="h-4 w-4" />
@@ -225,7 +225,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <Link
               href="/bible-quizzes"
-              className="inline-flex items-center space-x-2 text-blue-600 hover:text-blue-700 font-semibold"
+              className="inline-flex items-center space-x-2 text-sacred hover:text-gold-dark font-semibold"
             >
               <span>View All Bible Quizzes</span>
               <ArrowRightIcon className="h-4 w-4" />
@@ -241,7 +241,7 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-bold text-scripture mb-4">
               Choose Your Bible Book
             </h2>
-            <p className="text-lg text-primary-dark/70 max-w-2xl mx-auto">
+            <p className="text-lg text-ink-muted max-w-2xl mx-auto">
               Explore quizzes for every book of the Bible. From familiar stories to deep theological concepts.
             </p>
           </div>
@@ -254,12 +254,12 @@ export default function Home() {
                 <Link
                   key={book.slug}
                   href={`/${book.slug}-chapters`}
-                  className="bg-white border border-grace rounded-lg p-3 text-center hover:shadow-md hover:border-blue-300 transition-all duration-200 group"
+                  className="bg-white border border-grace rounded-lg p-3 text-center hover:shadow-md hover:border-sacred/50 transition-all duration-200 group"
                 >
-                  <div className="text-sm font-semibold text-scripture group-hover:text-blue-600">
+                  <div className="text-sm font-semibold text-scripture group-hover:text-gold-dark">
                     {book.name}
                   </div>
-                  <div className="text-xs text-primary-dark/60 mt-1">
+                  <div className="text-xs text-ink-muted mt-1">
                     {book.chapters} {book.chapters === 1 ? 'chapter' : 'chapters'}
                   </div>
                 </Link>
@@ -275,12 +275,12 @@ export default function Home() {
                 <Link
                   key={book.slug}
                   href={`/${book.slug}-chapters`}
-                  className="bg-white border border-grace rounded-lg p-3 text-center hover:shadow-md hover:border-blue-300 transition-all duration-200 group"
+                  className="bg-white border border-grace rounded-lg p-3 text-center hover:shadow-md hover:border-sacred/50 transition-all duration-200 group"
                 >
-                  <div className="text-sm font-semibold text-scripture group-hover:text-blue-600">
+                  <div className="text-sm font-semibold text-scripture group-hover:text-gold-dark">
                     {book.name}
                   </div>
-                  <div className="text-xs text-primary-dark/60 mt-1">
+                  <div className="text-xs text-ink-muted mt-1">
                     {book.chapters} {book.chapters === 1 ? 'chapter' : 'chapters'}
                   </div>
                 </Link>
@@ -297,7 +297,7 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-bold text-scripture mb-4">
               Bible Study Resources
             </h2>
-            <p className="text-lg text-primary-dark/70 max-w-2xl mx-auto">
+            <p className="text-lg text-ink-muted max-w-2xl mx-auto">
               Go deeper with word studies, topical guides, character profiles, and encyclopedic references.
             </p>
           </div>
@@ -314,13 +314,13 @@ export default function Home() {
               <Link
                 key={resource.href}
                 href={resource.href}
-                className="bg-primary-light/30 border border-grace rounded-lg p-4 text-center hover:shadow-md hover:border-blue-300 transition-all duration-200 group"
+                className="bg-primary-light/30 border border-grace rounded-lg p-4 text-center hover:shadow-md hover:border-sacred/50 transition-all duration-200 group"
               >
-                <div className="text-2xl font-bold text-blue-600 mb-1">{resource.count}</div>
-                <div className="text-sm font-semibold text-scripture group-hover:text-blue-600 mb-1">
+                <div className="text-2xl font-bold text-sacred mb-1">{resource.count}</div>
+                <div className="text-sm font-semibold text-scripture group-hover:text-gold-dark mb-1">
                   {resource.name}
                 </div>
-                <div className="text-xs text-primary-dark/60">{resource.desc}</div>
+                <div className="text-xs text-ink-muted">{resource.desc}</div>
               </Link>
             ))}
           </div>
@@ -338,11 +338,11 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <CheckCircleIcon className="h-8 w-8 text-blue-600" />
+              <div className="bg-sacred/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <CheckCircleIcon className="h-8 w-8 text-sacred" />
               </div>
               <h3 className="text-xl font-semibold text-scripture mb-2">Comprehensive Coverage</h3>
-              <p className="text-primary-dark/70">
+              <p className="text-ink-muted">
                 Every book, every chapter of the Bible has been carefully crafted into engaging quizzes 
                 with detailed explanations and verse references.
               </p>
@@ -353,18 +353,18 @@ export default function Home() {
                 <ClockIcon className="h-8 w-8 text-green-600" />
               </div>
               <h3 className="text-xl font-semibold text-scripture mb-2">Quick & Engaging</h3>
-              <p className="text-primary-dark/70">
+              <p className="text-ink-muted">
                 Most quizzes take 5-15 minutes to complete, perfect for daily Bible study, 
                 Sunday school preparation, or group activities.
               </p>
             </div>
 
             <div className="text-center">
-              <div className="bg-purple-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <PlayIcon className="h-8 w-8 text-purple-600" />
+              <div className="bg-scripture/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <PlayIcon className="h-8 w-8 text-scripture" />
               </div>
               <h3 className="text-xl font-semibold text-scripture mb-2">Interactive Learning</h3>
-              <p className="text-primary-dark/70">
+              <p className="text-ink-muted">
                 Multiple choice, true/false, and fill-in-the-blank questions keep you engaged 
                 while building deeper biblical understanding.
               </p>
@@ -374,26 +374,26 @@ export default function Home() {
       </section>
 
       {/* Call to Action Section */}
-      <section className="py-16 bg-gradient-to-br from-blue-600 to-blue-800">
+      <section className="py-16 bg-gradient-to-br from-scripture to-scripture/80">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Ready to Test Your Bible Knowledge?
           </h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-sacred-light mb-8 max-w-2xl mx-auto">
             Join thousands of believers who are growing in their faith through interactive Bible study
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
               href="/bible-quizzes"
-              className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-grace/20 transition-colors duration-200 flex items-center space-x-2"
+              className="bg-white text-sacred px-8 py-4 rounded-lg text-lg font-semibold hover:bg-grace/20 transition-colors duration-200 flex items-center space-x-2"
             >
               <BookOpenIcon className="h-5 w-5" />
               <span>Browse All Quizzes</span>
             </Link>
             <Link
               href="/genesis-1-quiz"
-              className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors duration-200 flex items-center space-x-2"
+              className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-gold-dark transition-colors duration-200 flex items-center space-x-2"
             >
               <PlayIcon className="h-5 w-5" />
               <span>Start Your First Quiz</span>

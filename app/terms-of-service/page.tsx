@@ -11,9 +11,9 @@ export default function TermsOfServicePage() {
     <div className="bg-[#FAFAF9] min-h-screen pb-24">
       <div className="max-w-3xl mx-auto px-6 pt-16">
         <h1 className="text-4xl font-bold font-display text-scripture mb-2">Terms of Service</h1>
-        <p className="text-sm text-primary-dark/40 mb-12">Last updated: February 2026</p>
+        <p className="text-sm text-ink-light mb-12">Last updated: February 2026</p>
 
-        <div className="space-y-8 text-primary-dark/70 leading-relaxed">
+        <div className="space-y-8 text-ink-muted leading-relaxed">
           <section>
             <h2 className="text-xl font-semibold text-scripture mb-3">Acceptance of Terms</h2>
             <p>By accessing and using Bible Maximum, you agree to these terms of service. If you do not agree, please do not use the site.</p>
@@ -59,7 +59,7 @@ export default function TermsOfServicePage() {
 
           <section>
             <h2 className="text-xl font-semibold text-scripture mb-3">Contact</h2>
-            <p>Questions about these terms? Visit our <a href="/contact" className="text-blue-600 hover:text-blue-700 underline">contact page</a>.</p>
+            <p>Questions about these terms? Visit our <a href="/contact" className="text-sacred hover:text-gold-dark underline">contact page</a>.</p>
           </section>
         </div>
       </div>

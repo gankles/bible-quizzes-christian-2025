@@ -101,10 +101,10 @@ export default async function StudyGuidePage({ params }: PageProps) {
       <StructuredData data={breadcrumbSchema} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
-        <Link href="/" className="hover:text-blue-600">Home</Link>
+      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-ink-muted">
+        <Link href="/" className="hover:text-gold-dark">Home</Link>
         <span className="mx-1.5">/</span>
-        <Link href="/bible-study-guides" className="hover:text-blue-600">Bible Study Guides</Link>
+        <Link href="/bible-study-guides" className="hover:text-gold-dark">Bible Study Guides</Link>
         <span className="mx-1.5">/</span>
         <span className="text-scripture font-medium">{guide.title}</span>
       </nav>
@@ -112,16 +112,16 @@ export default async function StudyGuidePage({ params }: PageProps) {
       <article className="max-w-4xl mx-auto px-4 py-8">
         {/* Header */}
         <div className="mb-8">
-          <span className="inline-block px-3 py-1 bg-blue-100 text-blue-700 text-xs font-medium rounded-full mb-3">
+          <span className="inline-block px-3 py-1 bg-sacred/10 text-scripture text-xs font-medium rounded-full mb-3">
             {guide.category}
           </span>
           <h1 className="text-3xl md:text-4xl font-display font-bold text-scripture mb-2">
             {guide.title}
           </h1>
-          <p className="text-lg text-primary-dark/70">{guide.description}</p>
-          <div className="flex flex-wrap gap-4 mt-4 text-sm text-primary-dark/60">
+          <p className="text-lg text-ink-muted">{guide.description}</p>
+          <div className="flex flex-wrap gap-4 mt-4 text-sm text-ink-muted">
             <span>{guide.sections.length} sections</span>
-            <span className="w-1 h-1 rounded-full bg-primary-dark/30 self-center" />
+            <span className="w-1 h-1 rounded-full bg-scripture/30 self-center" />
             <span>{guide.verses.length} key verses</span>
           </div>
         </div>
@@ -134,7 +134,7 @@ export default async function StudyGuidePage({ params }: PageProps) {
               {guide.verses.map((v, i) => (
                 <span
                   key={i}
-                  className="text-sm bg-blue-50 text-blue-700 rounded-lg px-3 py-1"
+                  className="text-sm bg-blue-50 text-scripture rounded-lg px-3 py-1"
                 >
                   {v}
                 </span>
@@ -151,12 +151,12 @@ export default async function StudyGuidePage({ params }: PageProps) {
               <li key={i}>
                 <a
                   href={`#section-${i}`}
-                  className="text-blue-600 hover:underline text-sm"
+                  className="text-sacred hover:underline text-sm"
                 >
                   {i + 1}. {section.title}
                 </a>
                 {section.verses.length > 0 && (
-                  <span className="text-xs text-primary-dark/40 ml-2">
+                  <span className="text-xs text-ink-light ml-2">
                     ({section.verses.slice(0, 2).join(', ')}{section.verses.length > 2 ? ', ...' : ''})
                   </span>
                 )}
@@ -181,7 +181,7 @@ export default async function StudyGuidePage({ params }: PageProps) {
                 {section.verses.map((v, j) => (
                   <span
                     key={j}
-                    className="text-xs bg-blue-50 text-blue-700 rounded px-2 py-0.5"
+                    className="text-xs bg-blue-50 text-scripture rounded px-2 py-0.5"
                   >
                     {v}
                   </span>
@@ -189,7 +189,7 @@ export default async function StudyGuidePage({ params }: PageProps) {
               </div>
             )}
 
-            <div className="space-y-4 text-primary-dark/80 leading-relaxed">
+            <div className="space-y-4 text-scripture leading-relaxed">
               {splitParagraphs(section.content).map((paragraph, pi) => (
                 <p key={pi}>{paragraph}</p>
               ))}
@@ -198,7 +198,7 @@ export default async function StudyGuidePage({ params }: PageProps) {
             {section.discussionQuestions && section.discussionQuestions.length > 0 && (
               <div className="mt-6 bg-primary-light/30 border border-grace rounded-lg p-5">
                 <h3 className="text-sm font-bold text-scripture mb-3">Discussion Questions</h3>
-                <ol className="space-y-2 text-sm text-primary-dark/70">
+                <ol className="space-y-2 text-sm text-ink-muted">
                   {section.discussionQuestions.map((q, qi) => (
                     <li key={qi} className="pl-1">
                       {qi + 1}. {q}
@@ -211,21 +211,21 @@ export default async function StudyGuidePage({ params }: PageProps) {
         ))}
 
         {/* Quiz CTA */}
-        <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-8">
+        <div className="bg-blue-50 border border-sacred/20 rounded-xl p-6 mb-8">
           <h2 className="text-lg font-bold text-scripture mb-2">Test Your Knowledge</h2>
-          <p className="text-sm text-primary-dark/70 mb-4">
+          <p className="text-sm text-ink-muted mb-4">
             How well do you know what the Bible teaches about {guide.title.toLowerCase()}? Explore related quizzes and topics.
           </p>
           <div className="flex flex-wrap gap-3">
             <Link
               href="/bible-quizzes"
-              className="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors"
+              className="px-4 py-2 bg-scripture text-white text-sm font-medium rounded-lg hover:bg-ink-muted transition-colors"
             >
               Browse Bible Quizzes
             </Link>
             <Link
               href="/topics"
-              className="px-4 py-2 bg-white text-blue-600 text-sm font-medium rounded-lg border border-blue-300 hover:bg-primary-light transition-colors"
+              className="px-4 py-2 bg-white text-sacred text-sm font-medium rounded-lg border border-sacred/50 hover:bg-primary-light transition-colors"
             >
               Bible Topics
             </Link>
@@ -237,10 +237,10 @@ export default async function StudyGuidePage({ params }: PageProps) {
           {prev ? (
             <Link
               href={`/bible-study-guides/${prev.slug}`}
-              className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+              className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
             >
-              <span className="text-xs text-primary-dark/60">Previous Guide</span>
-              <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+              <span className="text-xs text-ink-muted">Previous Guide</span>
+              <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                 {prev.title}
               </span>
             </Link>
@@ -248,10 +248,10 @@ export default async function StudyGuidePage({ params }: PageProps) {
           {next ? (
             <Link
               href={`/bible-study-guides/${next.slug}`}
-              className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+              className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
             >
-              <span className="text-xs text-primary-dark/60">Next Guide</span>
-              <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+              <span className="text-xs text-ink-muted">Next Guide</span>
+              <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                 {next.title}
               </span>
             </Link>
@@ -269,12 +269,12 @@ export default async function StudyGuidePage({ params }: PageProps) {
                 <Link
                   key={g.slug}
                   href={`/bible-study-guides/${g.slug}`}
-                  className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
+                  className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-sacred/50 transition-all group"
                 >
-                  <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                  <span className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                     {g.title}
                   </span>
-                  <span className="block text-xs text-primary-dark/60 mt-0.5">
+                  <span className="block text-xs text-ink-muted mt-0.5">
                     {g.sections.length} sections
                   </span>
                 </Link>
@@ -287,28 +287,28 @@ export default async function StudyGuidePage({ params }: PageProps) {
         <section className="bg-grace/10 border border-grace rounded-xl p-6">
           <h2 className="text-lg font-bold text-scripture mb-3">Continue Your Study</h2>
           <div className="grid gap-2 sm:grid-cols-2">
-            <Link href="/bible-study-guides" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-study-guides" className="text-sacred hover:underline text-sm">
               All Bible Study Guides
             </Link>
-            <Link href="/topics" className="text-blue-600 hover:underline text-sm">
+            <Link href="/topics" className="text-sacred hover:underline text-sm">
               Bible Verses by Topic
             </Link>
-            <Link href="/nave-topics" className="text-blue-600 hover:underline text-sm">
+            <Link href="/nave-topics" className="text-sacred hover:underline text-sm">
               Nave&apos;s Topical Bible
             </Link>
-            <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">
               Bible Quizzes
             </Link>
-            <Link href="/bible-stories" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-stories" className="text-sacred hover:underline text-sm">
               Bible Stories
             </Link>
-            <Link href="/people" className="text-blue-600 hover:underline text-sm">
+            <Link href="/people" className="text-sacred hover:underline text-sm">
               Bible Characters Directory
             </Link>
-            <Link href="/lexicon" className="text-blue-600 hover:underline text-sm">
+            <Link href="/lexicon" className="text-sacred hover:underline text-sm">
               Hebrew &amp; Greek Word Study
             </Link>
-            <Link href="/cross-references" className="text-blue-600 hover:underline text-sm">
+            <Link href="/cross-references" className="text-sacred hover:underline text-sm">
               Cross References
             </Link>
           </div>

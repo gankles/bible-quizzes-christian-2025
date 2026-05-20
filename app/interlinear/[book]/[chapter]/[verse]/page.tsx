@@ -103,28 +103,28 @@ export default async function InterlinearVersePage({ params }: PageProps) {
         {/* Hero */}
         <div className="bg-white border-b border-grace py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-4 md:px-10">
-            <nav className="flex items-center gap-2 text-sm text-primary-dark/60 mb-6 flex-wrap">
-              <Link href="/" className="hover:text-blue-600 transition-colors">Home</Link>
+            <nav className="flex items-center gap-2 text-sm text-ink-muted mb-6 flex-wrap">
+              <Link href="/" className="hover:text-gold-dark transition-colors">Home</Link>
               <span>/</span>
-              <Link href="/interlinear" className="hover:text-blue-600 transition-colors">Interlinear</Link>
+              <Link href="/interlinear" className="hover:text-gold-dark transition-colors">Interlinear</Link>
               <span>/</span>
-              <Link href={`/interlinear/${bookSlug}`} className="hover:text-blue-600 transition-colors">{bookName}</Link>
+              <Link href={`/interlinear/${bookSlug}`} className="hover:text-gold-dark transition-colors">{bookName}</Link>
               <span>/</span>
-              <Link href={`/interlinear/${bookSlug}/${chapter}`} className="hover:text-blue-600 transition-colors">Chapter {chapter}</Link>
+              <Link href={`/interlinear/${bookSlug}/${chapter}`} className="hover:text-gold-dark transition-colors">Chapter {chapter}</Link>
               <span>/</span>
               <span className="text-scripture font-medium">Verse {verse}</span>
             </nav>
 
-            <span className="inline-block px-3 py-1 rounded-full bg-blue-600/10 text-blue-600 text-xs font-bold uppercase mb-4">
+            <span className="inline-block px-3 py-1 rounded-full bg-sacred/10 text-sacred text-xs font-bold uppercase mb-4">
               {lang} Interlinear
             </span>
             <h1 className="text-3xl md:text-4xl font-bold text-scripture font-display mb-3">
               {bookName} {chapter}:{verse} Interlinear
             </h1>
-            <p className="text-primary-dark/70 text-sm mb-4 max-w-2xl">
+            <p className="text-ink-muted text-sm mb-4 max-w-2xl">
               Word-by-word {lang} interlinear analysis of {bookName} {chapter}:{verse}, showing the original {lang} text with Strong&apos;s numbers, transliteration, and English translation for each word.
             </p>
-            <blockquote className="text-lg text-primary-dark/70 italic border-l-4 border-blue-400 pl-4 py-1">
+            <blockquote className="text-lg text-ink-muted italic border-l-4 border-sacred pl-4 py-1">
               &ldquo;{kjvText}&rdquo;
             </blockquote>
           </div>
@@ -135,13 +135,13 @@ export default async function InterlinearVersePage({ params }: PageProps) {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link
               href={`/${bookSlug}-${chapter}-quiz`}
-              className="bg-blue-600 rounded-lg p-5 text-white shadow-lg flex items-center justify-between hover:bg-blue-700 transition-colors"
+              className="bg-scripture rounded-lg p-5 text-white shadow-lg flex items-center justify-between hover:bg-ink-muted transition-colors"
             >
               <div>
                 <h3 className="font-bold text-lg">Take the {bookName} {chapter} Quiz</h3>
                 <p className="text-white/80 text-xs">Test your knowledge of this chapter</p>
               </div>
-              <span className="bg-white text-blue-600 px-4 py-2 rounded-lg font-bold text-sm tracking-wider uppercase shrink-0 ml-3">
+              <span className="bg-white text-sacred px-4 py-2 rounded-lg font-bold text-sm tracking-wider uppercase shrink-0 ml-3">
                 Begin
               </span>
             </Link>
@@ -170,28 +170,28 @@ export default async function InterlinearVersePage({ params }: PageProps) {
               <table className="w-full bg-white border border-grace rounded-xl overflow-hidden">
                 <thead>
                   <tr className="bg-grace/20 border-b border-grace">
-                    <th className="px-3 py-3 text-left text-[10px] font-bold uppercase text-primary-dark/50">#</th>
-                    <th className="px-3 py-3 text-left text-[10px] font-bold uppercase text-primary-dark/50">Original</th>
+                    <th className="px-3 py-3 text-left text-[10px] font-bold uppercase text-ink-muted">#</th>
+                    <th className="px-3 py-3 text-left text-[10px] font-bold uppercase text-ink-muted">Original</th>
                     {words.some(w => w.transliteration) && (
-                      <th className="px-3 py-3 text-left text-[10px] font-bold uppercase text-primary-dark/50">Transliteration</th>
+                      <th className="px-3 py-3 text-left text-[10px] font-bold uppercase text-ink-muted">Transliteration</th>
                     )}
-                    <th className="px-3 py-3 text-left text-[10px] font-bold uppercase text-primary-dark/50">Strong&apos;s</th>
-                    <th className="px-3 py-3 text-left text-[10px] font-bold uppercase text-primary-dark/50">English</th>
+                    <th className="px-3 py-3 text-left text-[10px] font-bold uppercase text-ink-muted">Strong&apos;s</th>
+                    <th className="px-3 py-3 text-left text-[10px] font-bold uppercase text-ink-muted">English</th>
                     {words.some(w => w.parsing) && (
-                      <th className="px-3 py-3 text-left text-[10px] font-bold uppercase text-primary-dark/50">Parsing</th>
+                      <th className="px-3 py-3 text-left text-[10px] font-bold uppercase text-ink-muted">Parsing</th>
                     )}
-                    <th className="px-3 py-3 text-left text-[10px] font-bold uppercase text-primary-dark/50">Definition</th>
+                    <th className="px-3 py-3 text-left text-[10px] font-bold uppercase text-ink-muted">Definition</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-grace/50">
                   {words.map((word, i) => (
-                    <tr key={i} className="hover:bg-blue-50/30 transition-colors">
-                      <td className="px-3 py-3 text-sm text-primary-dark/40 font-mono">{word.position}</td>
+                    <tr key={i} className="hover:bg-sacred-light/30 transition-colors">
+                      <td className="px-3 py-3 text-sm text-ink-light font-mono">{word.position}</td>
                       <td className="px-3 py-3 text-lg font-bold text-scripture" dir={isOT ? 'rtl' : 'ltr'}>
                         {word.original}
                       </td>
                       {words.some(w => w.transliteration) && (
-                        <td className="px-3 py-3 text-sm text-primary-dark/70 italic">
+                        <td className="px-3 py-3 text-sm text-ink-muted italic">
                           {word.transliteration}
                         </td>
                       )}
@@ -199,23 +199,23 @@ export default async function InterlinearVersePage({ params }: PageProps) {
                         {word.strongs ? (
                           <Link
                             href={`/lexicon/${word.strongs}`}
-                            className="inline-block px-2 py-0.5 bg-blue-100 text-blue-700 text-xs font-mono font-semibold rounded hover:bg-blue-200 transition-colors"
+                            className="inline-block px-2 py-0.5 bg-sacred/10 text-scripture text-xs font-mono font-semibold rounded hover:bg-sacred-light transition-colors"
                           >
                             {word.strongs}
                           </Link>
                         ) : (
-                          <span className="text-primary-dark/40 text-xs">—</span>
+                          <span className="text-ink-light text-xs">—</span>
                         )}
                       </td>
                       <td className="px-3 py-3 text-sm font-medium text-scripture">
                         {word.english}
                       </td>
                       {words.some(w => w.parsing) && (
-                        <td className="px-3 py-3 text-xs text-primary-dark/60 font-mono">
+                        <td className="px-3 py-3 text-xs text-ink-muted font-mono">
                           {word.parsing || '—'}
                         </td>
                       )}
-                      <td className="px-3 py-3 text-sm text-primary-dark/70 max-w-xs">
+                      <td className="px-3 py-3 text-sm text-ink-muted max-w-xs">
                         {word.definition}
                       </td>
                     </tr>
@@ -258,16 +258,16 @@ export default async function InterlinearVersePage({ params }: PageProps) {
               {prevVerse && (
                 <Link
                   href={`/interlinear/${bookSlug}/${chapter}/${prevVerse.verse}`}
-                  className="block bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 transition-all group"
+                  className="block bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 transition-all group"
                 >
-                  <span className="text-xs text-primary-dark/50">{bookName} {chapter}:{prevVerse.verse}</span>
-                  <span className="block text-sm text-primary-dark/70 group-hover:text-blue-600 transition-colors">
+                  <span className="text-xs text-ink-muted">{bookName} {chapter}:{prevVerse.verse}</span>
+                  <span className="block text-sm text-ink-muted group-hover:text-gold-dark transition-colors">
                     {prevVerse.preview}...
                   </span>
                 </Link>
               )}
-              <div className="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3">
-                <span className="text-xs font-bold text-blue-600">{bookName} {chapter}:{verse} (current)</span>
+              <div className="bg-blue-50 border border-sacred/20 rounded-lg px-4 py-3">
+                <span className="text-xs font-bold text-sacred">{bookName} {chapter}:{verse} (current)</span>
                 <span className="block text-sm text-scripture font-medium">
                   {kjvText}
                 </span>
@@ -275,10 +275,10 @@ export default async function InterlinearVersePage({ params }: PageProps) {
               {nextVerse && (
                 <Link
                   href={`/interlinear/${bookSlug}/${chapter}/${nextVerse.verse}`}
-                  className="block bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 transition-all group"
+                  className="block bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 transition-all group"
                 >
-                  <span className="text-xs text-primary-dark/50">{bookName} {chapter}:{nextVerse.verse}</span>
-                  <span className="block text-sm text-primary-dark/70 group-hover:text-blue-600 transition-colors">
+                  <span className="text-xs text-ink-muted">{bookName} {chapter}:{nextVerse.verse}</span>
+                  <span className="block text-sm text-ink-muted group-hover:text-gold-dark transition-colors">
                     {nextVerse.preview}...
                   </span>
                 </Link>
@@ -291,10 +291,10 @@ export default async function InterlinearVersePage({ params }: PageProps) {
             {prevVerse ? (
               <Link
                 href={`/interlinear/${bookSlug}/${chapter}/${prevVerse.verse}`}
-                className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="text-xs text-primary-dark/60">Previous Verse</span>
-                <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                <span className="text-xs text-ink-muted">Previous Verse</span>
+                <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                   {bookName} {chapter}:{prevVerse.verse}
                 </span>
               </Link>
@@ -302,10 +302,10 @@ export default async function InterlinearVersePage({ params }: PageProps) {
             {nextVerse ? (
               <Link
                 href={`/interlinear/${bookSlug}/${chapter}/${nextVerse.verse}`}
-                className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="text-xs text-primary-dark/60">Next Verse</span>
-                <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                <span className="text-xs text-ink-muted">Next Verse</span>
+                <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                   {bookName} {chapter}:{nextVerse.verse}
                 </span>
               </Link>
@@ -316,28 +316,28 @@ export default async function InterlinearVersePage({ params }: PageProps) {
           <section className="bg-grace/10 border border-grace rounded-xl p-6">
             <h2 className="text-lg font-bold text-scripture mb-3">Continue Your Study</h2>
             <div className="grid gap-2 sm:grid-cols-2">
-              <Link href={`/interlinear/${bookSlug}/${chapter}`} className="text-blue-600 hover:underline text-sm">
+              <Link href={`/interlinear/${bookSlug}/${chapter}`} className="text-sacred hover:underline text-sm">
                 {bookName} {chapter} Interlinear (all verses)
               </Link>
-              <Link href={`/${bookSlug}-${chapter}-quiz`} className="text-blue-600 hover:underline text-sm">
+              <Link href={`/${bookSlug}-${chapter}-quiz`} className="text-sacred hover:underline text-sm">
                 {bookName} {chapter} Quiz
               </Link>
-              <Link href={`/verses/${bookSlug}/${chapter}/${verse}`} className="text-blue-600 hover:underline text-sm">
+              <Link href={`/verses/${bookSlug}/${chapter}/${verse}`} className="text-sacred hover:underline text-sm">
                 {bookName} {chapter}:{verse} Verse Study
               </Link>
-              <Link href={`/cross-references/${bookSlug}/${chapter}/${verse}`} className="text-blue-600 hover:underline text-sm">
+              <Link href={`/cross-references/${bookSlug}/${chapter}/${verse}`} className="text-sacred hover:underline text-sm">
                 {bookName} {chapter}:{verse} Cross References
               </Link>
-              <Link href={`/chapters/${bookSlug}/${chapter}`} className="text-blue-600 hover:underline text-sm">
+              <Link href={`/chapters/${bookSlug}/${chapter}`} className="text-sacred hover:underline text-sm">
                 Read {bookName} {chapter}
               </Link>
-              <Link href={`/lexicon/browse/${isOT ? 'hebrew' : 'greek'}`} className="text-blue-600 hover:underline text-sm">
+              <Link href={`/lexicon/browse/${isOT ? 'hebrew' : 'greek'}`} className="text-sacred hover:underline text-sm">
                 Browse {lang} Lexicon
               </Link>
-              <Link href={`/interlinear/${bookSlug}`} className="text-blue-600 hover:underline text-sm">
+              <Link href={`/interlinear/${bookSlug}`} className="text-sacred hover:underline text-sm">
                 {bookName} Interlinear
               </Link>
-              <Link href="/interlinear" className="text-blue-600 hover:underline text-sm">
+              <Link href="/interlinear" className="text-sacred hover:underline text-sm">
                 Interlinear Bible
               </Link>
             </div>

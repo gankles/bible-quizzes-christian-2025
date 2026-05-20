@@ -36,7 +36,7 @@ export default function SitemapPage() {
     <div className="bg-[#FAFAF9] min-h-screen pb-24">
       <div className="max-w-5xl mx-auto px-6 pt-16">
         <h1 className="text-4xl font-bold font-display text-scripture mb-4">Sitemap</h1>
-        <p className="text-lg text-primary-dark/60 mb-12">Browse all pages and resources on Bible Maximum.</p>
+        <p className="text-lg text-ink-muted mb-12">Browse all pages and resources on Bible Maximum.</p>
 
         <div className="space-y-12">
           {/* Main Pages */}
@@ -78,7 +78,7 @@ export default function SitemapPage() {
                 { name: 'Terms of Service', href: '/terms-of-service' },
               ].map(link => (
                 <li key={link.href}>
-                  <Link href={link.href} className="text-blue-600 hover:text-blue-700 text-sm hover:underline">
+                  <Link href={link.href} className="text-sacred hover:text-gold-dark text-sm hover:underline">
                     {link.name}
                   </Link>
                 </li>
@@ -94,7 +94,7 @@ export default function SitemapPage() {
                 <Link
                   key={book}
                   href={`/${bookToSlug(book)}-chapters`}
-                  className="text-blue-600 hover:text-blue-700 text-sm hover:underline"
+                  className="text-sacred hover:text-gold-dark text-sm hover:underline"
                 >
                   {book}
                 </Link>
@@ -110,7 +110,7 @@ export default function SitemapPage() {
                 <Link
                   key={book}
                   href={`/${bookToSlug(book)}-chapters`}
-                  className="text-blue-600 hover:text-blue-700 text-sm hover:underline"
+                  className="text-sacred hover:text-gold-dark text-sm hover:underline"
                 >
                   {book}
                 </Link>
@@ -126,7 +126,7 @@ export default function SitemapPage() {
                 <Link
                   key={`summary-${book}`}
                   href={`/bible-chapter-summaries/${bookToSlug(book)}`}
-                  className="text-blue-600 hover:text-blue-700 text-sm hover:underline"
+                  className="text-sacred hover:text-gold-dark text-sm hover:underline"
                 >
                   {book} Summaries
                 </Link>
@@ -142,7 +142,7 @@ export default function SitemapPage() {
                 <Link
                   key={`summary-${book}`}
                   href={`/bible-chapter-summaries/${bookToSlug(book)}`}
-                  className="text-blue-600 hover:text-blue-700 text-sm hover:underline"
+                  className="text-sacred hover:text-gold-dark text-sm hover:underline"
                 >
                   {book} Summaries
                 </Link>
@@ -164,7 +164,7 @@ export default function SitemapPage() {
                 <Link
                   key={topic}
                   href={`/what-does-the-bible-say-about/${topic.toLowerCase()}`}
-                  className="text-blue-600 hover:text-blue-700 text-sm hover:underline"
+                  className="text-sacred hover:text-gold-dark text-sm hover:underline"
                 >
                   {topic}
                 </Link>
@@ -181,7 +181,7 @@ export default function SitemapPage() {
                 { name: 'Bible Geography by Book', href: '/bible-geography' },
               ].map(link => (
                 <li key={link.href}>
-                  <Link href={link.href} className="text-blue-600 hover:text-blue-700 text-sm hover:underline">
+                  <Link href={link.href} className="text-sacred hover:text-gold-dark text-sm hover:underline">
                     {link.name}
                   </Link>
                 </li>
@@ -193,7 +193,7 @@ export default function SitemapPage() {
                 <Link
                   key={`geo-${book}`}
                   href={`/bible-geography/${bookToSlug(book)}`}
-                  className="text-blue-600 hover:text-blue-700 text-sm hover:underline"
+                  className="text-sacred hover:text-gold-dark text-sm hover:underline"
                 >
                   {book} Places
                 </Link>
@@ -204,9 +204,9 @@ export default function SitemapPage() {
           {/* XML Sitemap */}
           <section>
             <h2 className="text-2xl font-semibold text-scripture mb-4">For Search Engines</h2>
-            <p className="text-primary-dark/70 text-sm">
+            <p className="text-ink-muted text-sm">
               Looking for the XML sitemap?{' '}
-              <a href="/sitemap.xml" className="text-blue-600 hover:text-blue-700 underline">View sitemap.xml</a>
+              <a href="/sitemap.xml" className="text-sacred hover:text-gold-dark underline">View sitemap.xml</a>
             </p>
           </section>
         </div>

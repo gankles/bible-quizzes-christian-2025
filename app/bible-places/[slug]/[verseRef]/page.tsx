@@ -98,25 +98,25 @@ export default async function VersePlacePage({ params }: PageProps) {
       <StructuredData data={jsonLd} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
-        <Link href="/" className="hover:text-blue-600">Home</Link>
+      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-ink-muted">
+        <Link href="/" className="hover:text-gold-dark">Home</Link>
         <span className="mx-1.5">/</span>
-        <Link href="/bible-places" className="hover:text-blue-600">Bible Places</Link>
+        <Link href="/bible-places" className="hover:text-gold-dark">Bible Places</Link>
         <span className="mx-1.5">/</span>
-        <Link href={`/bible-places/${slug}`} className="hover:text-blue-600">{place.name}</Link>
+        <Link href={`/bible-places/${slug}`} className="hover:text-gold-dark">{place.name}</Link>
         <span className="mx-1.5">/</span>
         <span className="text-scripture font-medium">{ref}</span>
       </nav>
 
       {/* Hero */}
       <section className="max-w-6xl mx-auto px-4 py-8">
-        <p className="text-sm text-blue-600 font-medium uppercase tracking-wider mb-1">
+        <p className="text-sm text-sacred font-medium uppercase tracking-wider mb-1">
           Bible Geography
         </p>
         <h1 className="text-2xl md:text-3xl font-bold font-display mb-3 text-scripture">
           {place.name} in {ref}
         </h1>
-        <p className="text-primary-dark/70 max-w-2xl mb-4">
+        <p className="text-ink-muted max-w-2xl mb-4">
           The biblical place <strong>{place.name}</strong> is referenced in{' '}
           <strong>{ref}</strong>.{' '}
           {place.name} is mentioned in a total of{' '}
@@ -125,7 +125,7 @@ export default async function VersePlacePage({ params }: PageProps) {
         </p>
 
         {place.lat !== null && (
-          <div className="flex items-center gap-2 text-sm text-primary-dark/50 mb-6">
+          <div className="flex items-center gap-2 text-sm text-ink-muted mb-6">
             <span>Coordinates: {place.lat.toFixed(4)}, {place.lon!.toFixed(4)}</span>
           </div>
         )}
@@ -137,19 +137,19 @@ export default async function VersePlacePage({ params }: PageProps) {
         <div className="flex flex-wrap gap-3">
           <Link
             href={`/${parsed.bookSlug}-${parsed.chapter}-quiz`}
-            className="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors"
+            className="px-4 py-2 bg-scripture text-white text-sm font-medium rounded-lg hover:bg-ink-muted transition-colors"
           >
             {bookName} {parsed.chapter} Quiz
           </Link>
           <Link
             href={`/bible-geography/${parsed.bookSlug}/${parsed.chapter}`}
-            className="px-4 py-2 bg-white text-blue-600 text-sm font-medium rounded-lg border border-blue-300 hover:bg-primary-light transition-colors"
+            className="px-4 py-2 bg-white text-sacred text-sm font-medium rounded-lg border border-sacred/50 hover:bg-primary-light transition-colors"
           >
             {bookName} {parsed.chapter} Geography
           </Link>
           <Link
             href={`/interlinear/${parsed.bookSlug}/${parsed.chapter}/${parsed.verse}`}
-            className="px-4 py-2 bg-white text-primary-dark/80 text-sm font-medium rounded-lg border border-grace hover:bg-primary-light/50 transition-colors"
+            className="px-4 py-2 bg-white text-scripture text-sm font-medium rounded-lg border border-grace hover:bg-primary-light/50 transition-colors"
           >
             Interlinear {ref}
           </Link>
@@ -167,7 +167,7 @@ export default async function VersePlacePage({ params }: PageProps) {
               <Link
                 key={v.ref}
                 href={`/bible-places/${slug}/${v.ref}`}
-                className="px-3 py-1.5 text-sm bg-white border border-grace rounded-lg hover:border-blue-300 hover:text-blue-600 transition-colors"
+                className="px-3 py-1.5 text-sm bg-white border border-grace rounded-lg hover:border-sacred/50 hover:text-gold-dark transition-colors"
               >
                 {v.readable}
               </Link>
@@ -181,19 +181,19 @@ export default async function VersePlacePage({ params }: PageProps) {
         <div className="bg-primary-light/30 border border-grace rounded-xl p-6">
           <h2 className="text-lg font-bold text-scripture mb-3">Related Resources</h2>
           <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-            <Link href={`/bible-places/${slug}`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+            <Link href={`/bible-places/${slug}`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
               All {place.name} Verses
             </Link>
-            <Link href={`/bible-places/near/${slug}`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+            <Link href={`/bible-places/near/${slug}`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
               Near {place.name}
             </Link>
-            <Link href={`/${parsed.bookSlug}-chapters`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+            <Link href={`/${parsed.bookSlug}-chapters`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
               {bookName} Chapters
             </Link>
-            <Link href="/bible-places" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+            <Link href="/bible-places" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
               All Bible Places
             </Link>
-            <Link href="/bible-geography" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+            <Link href="/bible-geography" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
               Bible Geography
             </Link>
           </div>

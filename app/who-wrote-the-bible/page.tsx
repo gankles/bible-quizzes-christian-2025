@@ -124,10 +124,10 @@ export default function WhoWroteTheBiblePage() {
                 </div>
               </div>
               <div className="grid grid-cols-4 divide-x divide-grace border-b border-grace">
-                <div className="p-4 text-center"><p className="text-2xl font-bold text-blue-600">40+</p><p className="text-sm text-primary-dark/70">Authors</p></div>
-                <div className="p-4 text-center"><p className="text-2xl font-bold text-blue-600">66</p><p className="text-sm text-primary-dark/70">Books</p></div>
-                <div className="p-4 text-center"><p className="text-2xl font-bold text-blue-600">1,500</p><p className="text-sm text-primary-dark/70">Years Span</p></div>
-                <div className="p-4 text-center"><p className="text-2xl font-bold text-blue-600">3</p><p className="text-sm text-primary-dark/70">Languages</p></div>
+                <div className="p-4 text-center"><p className="text-2xl font-bold text-sacred">40+</p><p className="text-sm text-ink-muted">Authors</p></div>
+                <div className="p-4 text-center"><p className="text-2xl font-bold text-sacred">66</p><p className="text-sm text-ink-muted">Books</p></div>
+                <div className="p-4 text-center"><p className="text-2xl font-bold text-sacred">1,500</p><p className="text-sm text-ink-muted">Years Span</p></div>
+                <div className="p-4 text-center"><p className="text-2xl font-bold text-sacred">3</p><p className="text-sm text-ink-muted">Languages</p></div>
               </div>
             </div>
           </div>
@@ -137,7 +137,7 @@ export default function WhoWroteTheBiblePage() {
         <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
           <div className="bg-white rounded-xl border border-grace p-6 md:p-8">
             <h2 className="text-xl font-display font-bold text-scripture mb-3">How Was the Bible Written?</h2>
-            <div className="text-primary-dark/80 leading-relaxed space-y-3">
+            <div className="text-scripture leading-relaxed space-y-3">
               <p>The Bible is not a single book written by one person; it is a collection of 66 books composed by approximately <strong>40 different authors</strong> over a period of roughly 1,500 years. These authors came from remarkably diverse backgrounds: Moses was a prince raised in Egypt, David was a shepherd who became king, Amos was a fig farmer, Daniel was a political exile in Babylon, Matthew was a tax collector, Luke was a physician, Peter and John were fishermen, and Paul was a Pharisee trained at the feet of Gamaliel.</p>
               <p>Despite this diversity, Christians believe the Bible is unified by a single divine Author. The doctrine of <strong>divine inspiration</strong> holds that &ldquo;all scripture is given by inspiration of God&rdquo; (2 Timothy 3:16, KJV). The Holy Spirit guided each human author so that what they wrote was exactly what God intended to communicate, while preserving each writer&apos;s unique voice, literary style, and historical context. The result is a single coherent narrative of creation, fall, redemption, and restoration that runs from Genesis 1:1 to Revelation 22:21.</p>
               <p>The Old Testament was written primarily in <strong>Hebrew</strong>, with portions of Ezra and Daniel in <strong>Aramaic</strong>. The New Testament was written entirely in <strong>Koine Greek</strong>, the common language of the Roman Empire. Together, these 66 books contain 1,189 chapters and 31,102 verses in the King James Version -- the most printed, translated, and read book in human history.</p>
@@ -151,15 +151,15 @@ export default function WhoWroteTheBiblePage() {
             <h2 className="text-xl font-display font-bold text-scripture mb-4">Old Testament Authors</h2>
             <div className="space-y-4">
               {otAuthors.map(author => (
-                <div key={author.name} className="bg-white rounded-xl border border-grace hover:border-blue-200 hover:shadow-sm transition-all p-5 md:p-6">
+                <div key={author.name} className="bg-white rounded-xl border border-grace hover:border-sacred/50 hover:shadow-sm transition-all p-5 md:p-6">
                   <div className="flex flex-wrap items-center gap-2 mb-2">
                     <h3 className="text-lg font-display font-bold text-scripture">{author.name}</h3>
-                    <span className="text-sm text-primary-dark/50">{author.period}</span>
+                    <span className="text-sm text-ink-muted">{author.period}</span>
                   </div>
-                  <p className="text-primary-dark/80 text-sm leading-relaxed mb-3">{author.description}</p>
+                  <p className="text-scripture text-sm leading-relaxed mb-3">{author.description}</p>
                   <div className="flex flex-wrap gap-2">
                     {author.bookSlugs.map((slug, i) => (
-                      <Link key={slug} href={`/${slug}-chapters`} className="inline-flex items-center px-3 py-1 bg-blue-50 text-blue-700 text-sm rounded-lg border border-blue-100 hover:bg-blue-100 transition-colors">{author.books[i]}</Link>
+                      <Link key={slug} href={`/${slug}-chapters`} className="inline-flex items-center px-3 py-1 bg-blue-50 text-scripture text-sm rounded-lg border border-sacred/10 hover:bg-sacred-light transition-colors">{author.books[i]}</Link>
                     ))}
                   </div>
                 </div>
@@ -171,15 +171,15 @@ export default function WhoWroteTheBiblePage() {
             <h2 className="text-xl font-display font-bold text-scripture mb-4">New Testament Authors</h2>
             <div className="space-y-4">
               {ntAuthors.map(author => (
-                <div key={author.name} className="bg-white rounded-xl border border-grace hover:border-blue-200 hover:shadow-sm transition-all p-5 md:p-6">
+                <div key={author.name} className="bg-white rounded-xl border border-grace hover:border-sacred/50 hover:shadow-sm transition-all p-5 md:p-6">
                   <div className="flex flex-wrap items-center gap-2 mb-2">
                     <h3 className="text-lg font-display font-bold text-scripture">{author.name}</h3>
-                    <span className="text-sm text-primary-dark/50">{author.period}</span>
+                    <span className="text-sm text-ink-muted">{author.period}</span>
                   </div>
-                  <p className="text-primary-dark/80 text-sm leading-relaxed mb-3">{author.description}</p>
+                  <p className="text-scripture text-sm leading-relaxed mb-3">{author.description}</p>
                   <div className="flex flex-wrap gap-2">
                     {author.bookSlugs.map((slug, i) => (
-                      <Link key={slug} href={`/${slug}-chapters`} className="inline-flex items-center px-3 py-1 bg-blue-50 text-blue-700 text-sm rounded-lg border border-blue-100 hover:bg-blue-100 transition-colors">{author.books[i]}</Link>
+                      <Link key={slug} href={`/${slug}-chapters`} className="inline-flex items-center px-3 py-1 bg-blue-50 text-scripture text-sm rounded-lg border border-sacred/10 hover:bg-sacred-light transition-colors">{author.books[i]}</Link>
                     ))}
                   </div>
                 </div>
@@ -190,10 +190,10 @@ export default function WhoWroteTheBiblePage() {
 
         {/* CTA */}
         <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-6 md:p-8 text-white">
+          <div className="bg-gradient-to-r from-scripture to-scripture/80 rounded-xl p-6 md:p-8 text-white">
             <h2 className="text-xl md:text-2xl font-display font-bold mb-2">Test Your Bible Knowledge</h2>
-            <p className="text-blue-100 mb-4 max-w-2xl">Chapter quizzes for all 66 books with instant scoring and verse-by-verse explanations.</p>
-            <Link href="/bible-quizzes" className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md">Take a Quiz Now</Link>
+            <p className="text-sacred-light mb-4 max-w-2xl">Chapter quizzes for all 66 books with instant scoring and verse-by-verse explanations.</p>
+            <Link href="/bible-quizzes" className="inline-flex items-center px-6 py-3 bg-white text-scripture font-bold rounded-lg hover:bg-sacred-light transition-colors shadow-md">Take a Quiz Now</Link>
           </div>
         </section>
 
@@ -204,23 +204,23 @@ export default function WhoWroteTheBiblePage() {
             <div className="space-y-6">
               <div>
                 <h3 className="font-bold text-scripture mb-1">Who wrote the Bible?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">The Bible was written by approximately 40 different authors over a period of roughly 1,500 years (c. 1446 BC &ndash; AD 95). Authors include kings (David, Solomon), prophets (Isaiah, Jeremiah), priests (Ezra), a physician (Luke), a tax collector (Matthew), fishermen (Peter, John), and a Pharisee (Paul). Christians believe all Scripture was divinely inspired by the Holy Spirit.</p>
+                <p className="text-scripture leading-relaxed">The Bible was written by approximately 40 different authors over a period of roughly 1,500 years (c. 1446 BC &ndash; AD 95). Authors include kings (David, Solomon), prophets (Isaiah, Jeremiah), priests (Ezra), a physician (Luke), a tax collector (Matthew), fishermen (Peter, John), and a Pharisee (Paul). Christians believe all Scripture was divinely inspired by the Holy Spirit.</p>
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">How many authors wrote the Bible?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">Approximately 40 authors. The exact number varies slightly because some books have disputed or unknown authorship (such as Hebrews and Job). These authors came from diverse backgrounds yet produced a unified narrative of God&apos;s redemptive plan.</p>
+                <p className="text-scripture leading-relaxed">Approximately 40 authors. The exact number varies slightly because some books have disputed or unknown authorship (such as Hebrews and Job). These authors came from diverse backgrounds yet produced a unified narrative of God&apos;s redemptive plan.</p>
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">Who wrote the most books of the Bible?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">The apostle Paul wrote the most New Testament books -- 13 epistles from Romans to Philemon. Moses wrote the most foundational books -- the five books of the Pentateuch. The apostle John wrote five books (the Gospel of John, 1&ndash;3 John, and Revelation).</p>
+                <p className="text-scripture leading-relaxed">The apostle Paul wrote the most New Testament books -- 13 epistles from Romans to Philemon. Moses wrote the most foundational books -- the five books of the Pentateuch. The apostle John wrote five books (the Gospel of John, 1&ndash;3 John, and Revelation).</p>
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">When was the Bible written?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">The Bible was written over approximately 1,500 years. The earliest books (the Pentateuch) date to around 1446&ndash;1406 BC. The last book (Revelation) was written around AD 90&ndash;95. The Old Testament was completed by roughly 400 BC; the entire New Testament was written in the first century AD.</p>
+                <p className="text-scripture leading-relaxed">The Bible was written over approximately 1,500 years. The earliest books (the Pentateuch) date to around 1446&ndash;1406 BC. The last book (Revelation) was written around AD 90&ndash;95. The Old Testament was completed by roughly 400 BC; the entire New Testament was written in the first century AD.</p>
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">Is the Bible the word of God or the word of man?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">Christians hold that the Bible is the inspired Word of God written through human authors. 2 Timothy 3:16 states: &ldquo;All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness.&rdquo; The Holy Spirit guided each author so that what they wrote was exactly what God intended.</p>
+                <p className="text-scripture leading-relaxed">Christians hold that the Bible is the inspired Word of God written through human authors. 2 Timothy 3:16 states: &ldquo;All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness.&rdquo; The Holy Spirit guided each author so that what they wrote was exactly what God intended.</p>
               </div>
             </div>
           </div>
@@ -231,15 +231,15 @@ export default function WhoWroteTheBiblePage() {
           <div className="bg-white rounded-xl border border-grace p-6 md:p-8">
             <h2 className="text-xl font-display font-bold text-scripture mb-4">Continue Exploring Scripture</h2>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
-              <Link href="/bible-quizzes" className="flex items-center px-4 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-all"><span>Bible Quizzes</span></Link>
-              <Link href="/books-of-the-bible" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Books of the Bible</span></Link>
-              <Link href="/books-of-the-bible-in-order" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Books in Order</span></Link>
-              <Link href="/bible-chapter-summaries" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Chapter Summaries</span></Link>
-              <Link href="/popular-bible-verses" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">100 Most Popular Verses</span></Link>
-              <Link href="/bible-quotes" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Bible Quotes Hub</span></Link>
-              <Link href="/bible-study-guides" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Study Guides</span></Link>
-              <Link href="/cross-references" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Cross References</span></Link>
-              <Link href="/reading-plans" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Reading Plans</span></Link>
+              <Link href="/bible-quizzes" className="flex items-center px-4 py-3 bg-scripture text-white font-bold rounded-lg hover:bg-ink-muted transition-all"><span>Bible Quizzes</span></Link>
+              <Link href="/books-of-the-bible" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Books of the Bible</span></Link>
+              <Link href="/books-of-the-bible-in-order" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Books in Order</span></Link>
+              <Link href="/bible-chapter-summaries" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Chapter Summaries</span></Link>
+              <Link href="/popular-bible-verses" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">100 Most Popular Verses</span></Link>
+              <Link href="/bible-quotes" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Bible Quotes Hub</span></Link>
+              <Link href="/bible-study-guides" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Study Guides</span></Link>
+              <Link href="/cross-references" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Cross References</span></Link>
+              <Link href="/reading-plans" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Reading Plans</span></Link>
             </div>
           </div>
         </section>

@@ -158,32 +158,32 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
         <div className="max-w-4xl mx-auto px-4 py-3">
           <ol className="flex items-center flex-wrap gap-y-1 text-sm">
             <li>
-              <Link href="/" className="text-blue-600 hover:underline">Home</Link>
+              <Link href="/" className="text-sacred hover:underline">Home</Link>
             </li>
-            <li className="text-primary-dark/40 mx-2">/</li>
+            <li className="text-ink-light mx-2">/</li>
             <li>
-              <Link href="/cross-references" className="text-blue-600 hover:underline">Cross-References</Link>
+              <Link href="/cross-references" className="text-sacred hover:underline">Cross-References</Link>
             </li>
-            <li className="text-primary-dark/40 mx-2">/</li>
+            <li className="text-ink-light mx-2">/</li>
             <li>
-              <Link href={`/${book}-chapters`} className="text-blue-600 hover:underline">{bookName}</Link>
+              <Link href={`/${book}-chapters`} className="text-sacred hover:underline">{bookName}</Link>
             </li>
-            <li className="text-primary-dark/40 mx-2">/</li>
+            <li className="text-ink-light mx-2">/</li>
             <li>
-              <Link href={`/chapters/${book}/${chapter}`} className="text-blue-600 hover:underline">Chapter {chapter}</Link>
+              <Link href={`/chapters/${book}/${chapter}`} className="text-sacred hover:underline">Chapter {chapter}</Link>
             </li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li className="text-primary-dark/70">Verse {verse}</li>
+            <li className="text-ink-light mx-2">/</li>
+            <li className="text-ink-muted">Verse {verse}</li>
           </ol>
         </div>
       </nav>
 
       <main className="max-w-4xl mx-auto px-4 py-8">
         <header className="bg-white rounded-xl shadow-sm border border-grace overflow-hidden mb-6">
-          <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-8">
-            <p className="text-blue-100 text-sm font-medium mb-2">Treasury of Scripture Knowledge</p>
+          <div className="bg-gradient-to-r from-scripture to-scripture/80 text-white px-6 py-8">
+            <p className="text-sacred-light text-sm font-medium mb-2">Treasury of Scripture Knowledge</p>
             <h1 className="text-3xl font-display font-bold">{reference} Cross-References</h1>
-            <p className="text-blue-100 mt-2 max-w-xl">
+            <p className="text-sacred-light mt-2 max-w-xl">
               Explore {crossRefs.length} cross-reference{crossRefs.length !== 1 ? 's' : ''} for {reference} from the Treasury of Scripture Knowledge, connecting {bookName} chapter {chapter} verse {verse} to related passages throughout the Bible.
             </p>
           </div>
@@ -191,13 +191,13 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
           {verseText && (
             <div className="p-6">
               {sectionHeading && (
-                <p className="text-xs font-semibold text-blue-600 uppercase tracking-wider mb-2">{sectionHeading}</p>
+                <p className="text-xs font-semibold text-sacred uppercase tracking-wider mb-2">{sectionHeading}</p>
               )}
               <blockquote className={`text-xl leading-relaxed italic border-l-4 pl-6 ${isRedLetter ? 'text-red-700 border-red-400' : 'text-scripture border-sacred'}`}>
                 &ldquo;{verseText}&rdquo;
               </blockquote>
               <div className="flex items-center gap-3 mt-3">
-                <p className="text-sm text-primary-dark/60">{reference} (KJV)</p>
+                <p className="text-sm text-ink-muted">{reference} (KJV)</p>
                 {isRedLetter && (
                   <span className="text-xs bg-red-100 text-red-700 px-2 py-0.5 rounded-full font-medium">Words of Jesus</span>
                 )}
@@ -211,13 +211,13 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-6">
             <p className="text-xs font-semibold text-amber-700 uppercase tracking-wider mb-1">Featured Verse</p>
             {featuredVerse.theme && (
-              <p className="text-sm text-primary-dark/80 font-medium">{featuredVerse.theme}</p>
+              <p className="text-sm text-scripture font-medium">{featuredVerse.theme}</p>
             )}
             {featuredVerse.devotional && (
-              <p className="text-sm text-primary-dark/70 mt-1">{featuredVerse.devotional}</p>
+              <p className="text-sm text-ink-muted mt-1">{featuredVerse.devotional}</p>
             )}
             {featuredVerse.application && (
-              <p className="text-sm text-primary-dark/60 mt-1 italic">{featuredVerse.application}</p>
+              <p className="text-sm text-ink-muted mt-1 italic">{featuredVerse.application}</p>
             )}
           </div>
         )}
@@ -230,7 +230,7 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
 
             {context.persons.length > 0 && (
               <div className="mb-5">
-                <h3 className="text-sm font-semibold text-primary-dark/60 uppercase tracking-wide mb-3">People Mentioned</h3>
+                <h3 className="text-sm font-semibold text-ink-muted uppercase tracking-wide mb-3">People Mentioned</h3>
                 <div className="grid gap-3 sm:grid-cols-2">
                   {context.persons.map((person) => (
                     <div key={person.id} className="flex items-start gap-3 p-3 bg-amber-50 border border-amber-100 rounded-lg">
@@ -240,7 +240,7 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
                       <div className="min-w-0">
                         <span className="font-semibold text-scripture block">{person.label}</span>
                         {person.attribute && (
-                          <span className="text-xs text-primary-dark/70 block mt-0.5">{person.attribute}</span>
+                          <span className="text-xs text-ink-muted block mt-0.5">{person.attribute}</span>
                         )}
                       </div>
                     </div>
@@ -256,7 +256,7 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
               if (!hasGeo && !hasContext) return null;
               return (
                 <div className="mb-5">
-                  <h3 className="text-sm font-semibold text-primary-dark/60 uppercase tracking-wide mb-3">Places Mentioned</h3>
+                  <h3 className="text-sm font-semibold text-ink-muted uppercase tracking-wide mb-3">Places Mentioned</h3>
                   <div className="grid gap-3 sm:grid-cols-2">
                     {hasGeo ? geoPlaces.map((place) => (
                       <Link key={place.slug} href={`/bible-places/${place.slug}`} className="flex items-start gap-3 p-3 bg-green-50 border border-green-100 rounded-lg hover:border-green-300 transition-colors group">
@@ -267,13 +267,13 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
                           </svg>
                         </div>
                         <div className="min-w-0">
-                          <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors block">{place.name}</span>
-                          <span className="text-xs text-primary-dark/70 block mt-0.5">
+                          <span className="font-semibold text-scripture group-hover:text-gold-dark transition-colors block">{place.name}</span>
+                          <span className="text-xs text-ink-muted block mt-0.5">
                             {formatPlaceTypeSingular(place.type)}
                             {place.modernName ? ` · Modern: ${place.modernName}` : ''}
                           </span>
                           {place.lat !== null && (
-                            <span className="text-xs text-primary-dark/40 block mt-0.5">
+                            <span className="text-xs text-ink-light block mt-0.5">
                               {place.lat.toFixed(2)}°N, {place.lon!.toFixed(2)}°E · {place.verseCount} verse{place.verseCount !== 1 ? 's' : ''}
                             </span>
                           )}
@@ -290,7 +290,7 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
                         <div className="min-w-0">
                           <span className="font-semibold text-scripture block">{place.name}</span>
                           {(place.type || place.modern) && (
-                            <span className="text-xs text-primary-dark/70 block mt-0.5">
+                            <span className="text-xs text-ink-muted block mt-0.5">
                               {place.type}{place.type && place.modern ? ' · ' : ''}{place.modern && `Modern: ${place.modern}`}
                             </span>
                           )}
@@ -304,21 +304,21 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
 
             {context.events.length > 0 && (
               <div>
-                <h3 className="text-sm font-semibold text-primary-dark/60 uppercase tracking-wide mb-3">Events</h3>
+                <h3 className="text-sm font-semibold text-ink-muted uppercase tracking-wide mb-3">Events</h3>
                 <div className="space-y-3">
                   {context.events.map((event) => (
-                    <div key={event.id} className="p-3 bg-blue-50 border border-blue-100 rounded-lg">
+                    <div key={event.id} className="p-3 bg-blue-50 border border-sacred/10 rounded-lg">
                       <div className="flex items-center gap-2 mb-1">
                         <span className="font-semibold text-scripture">{event.name}</span>
                         {event.year && (
-                          <span className="text-xs bg-blue-200 text-blue-800 px-2 py-0.5 rounded-full">{event.year}</span>
+                          <span className="text-xs bg-sacred/20 text-scripture px-2 py-0.5 rounded-full">{event.year}</span>
                         )}
                         {event.type && (
-                          <span className="text-xs text-primary-dark/60">{event.type}</span>
+                          <span className="text-xs text-ink-muted">{event.type}</span>
                         )}
                       </div>
                       {event.description && (
-                        <p className="text-sm text-primary-dark/70">{event.description}</p>
+                        <p className="text-sm text-ink-muted">{event.description}</p>
                       )}
                     </div>
                   ))}
@@ -334,10 +334,10 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
             <h2 className="text-lg font-bold text-scripture mb-3">
               Commentary on {reference}
             </h2>
-            <p className="text-primary-dark/80 leading-relaxed text-sm">
+            <p className="text-scripture leading-relaxed text-sm">
               {commentary.length > 600 ? commentary.slice(0, 600) + '...' : commentary}
             </p>
-            <p className="mt-3 text-xs text-primary-dark/40">Source: KJV Study Commentary</p>
+            <p className="mt-3 text-xs text-ink-light">Source: KJV Study Commentary</p>
           </section>
         )}
 
@@ -354,8 +354,8 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
                     #{cmd.number}
                   </span>
                   <div className="min-w-0">
-                    <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors block text-sm">{cmd.concept}</span>
-                    <span className="text-xs text-primary-dark/60">
+                    <span className="font-semibold text-scripture group-hover:text-gold-dark transition-colors block text-sm">{cmd.concept}</span>
+                    <span className="text-xs text-ink-muted">
                       {cmd.polarity === 'P' ? 'Positive' : 'Negative'} commandment
                       {cmd.category ? ` · ${cmd.category}` : ''}
                     </span>
@@ -371,7 +371,7 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
             <h2 className="text-lg font-bold text-scripture mb-1">
               Cross-References for {reference}
             </h2>
-            <p className="text-sm text-primary-dark/60 mb-5">
+            <p className="text-sm text-ink-muted mb-5">
               Ranked by relevance from Treasury of Scripture Knowledge
             </p>
 
@@ -381,21 +381,21 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
                 <Link
                   key={`${ref.bookSlug}-${ref.chapter}-${ref.verse}-${index}`}
                   href={ref.url}
-                  className="group block p-4 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light/20 transition-colors"
+                  className="group block p-4 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light/20 transition-colors"
                 >
                   <div className="flex items-center gap-3 mb-2">
-                    <div className="flex-shrink-0 w-7 h-7 bg-blue-100 text-blue-700 rounded-full flex items-center justify-center text-xs font-semibold">
+                    <div className="flex-shrink-0 w-7 h-7 bg-sacred/10 text-scripture rounded-full flex items-center justify-center text-xs font-semibold">
                       {index + 1}
                     </div>
-                    <span className="text-blue-600 font-medium group-hover:underline">
+                    <span className="text-sacred font-medium group-hover:underline">
                       {ref.reference}
                     </span>
-                    <span className="text-xs text-primary-dark/40 ml-auto">
+                    <span className="text-xs text-ink-light ml-auto">
                       {ref.votes} vote{ref.votes !== 1 ? 's' : ''}
                     </span>
                   </div>
                   {ref.text && (
-                    <p className="text-sm text-primary-dark/70 italic pl-10 line-clamp-2">
+                    <p className="text-sm text-ink-muted italic pl-10 line-clamp-2">
                       &ldquo;{ref.text}&rdquo;
                     </p>
                   )}
@@ -410,13 +410,13 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
                   <Link
                     key={`${ref.bookSlug}-${ref.chapter}-${ref.verse}-${index + 10}`}
                     href={ref.url}
-                    className="group flex items-center gap-2 p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors"
+                    className="group flex items-center gap-2 p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors"
                   >
-                    <span className="text-xs text-primary-dark/40 w-5 text-center">{index + 11}</span>
-                    <span className="text-blue-600 text-sm font-medium group-hover:underline flex-1">
+                    <span className="text-xs text-ink-light w-5 text-center">{index + 11}</span>
+                    <span className="text-sacred text-sm font-medium group-hover:underline flex-1">
                       {ref.reference}
                     </span>
-                    <span className="text-xs text-primary-dark/40">
+                    <span className="text-xs text-ink-light">
                       {ref.votes}v
                     </span>
                   </Link>
@@ -425,14 +425,14 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
             )}
 
             <div className="mt-5 pt-4 border-t border-grace/50 text-center">
-              <span className="text-xs text-primary-dark/60">
+              <span className="text-xs text-ink-muted">
                 Cross-references sourced from Treasury of Scripture Knowledge
               </span>
             </div>
           </section>
         ) : (
           <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6 text-center">
-            <p className="text-primary-dark/60">No cross-references found for this verse.</p>
+            <p className="text-ink-muted">No cross-references found for this verse.</p>
           </section>
         )}
 
@@ -443,7 +443,7 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
               className="flex items-center px-4 py-2 bg-white border border-grace rounded-lg hover:bg-primary-light/50 transition-colors"
             >
               <span className="mr-2">&larr;</span>
-              <span className="text-sm text-primary-dark/70">{bookName} {prev.chapter}:{prev.verse}</span>
+              <span className="text-sm text-ink-muted">{bookName} {prev.chapter}:{prev.verse}</span>
             </Link>
           ) : (
             <div />
@@ -451,7 +451,7 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
 
           <Link
             href={`/chapters/${book}/${chapter}`}
-            className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm"
+            className="px-4 py-2 bg-scripture text-white rounded-lg hover:bg-ink-muted transition-colors text-sm"
           >
             Read Full Chapter
           </Link>
@@ -461,7 +461,7 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
               href={`/cross-references/${next.book}/${next.chapter}/${next.verse}`}
               className="flex items-center px-4 py-2 bg-white border border-grace rounded-lg hover:bg-primary-light/50 transition-colors"
             >
-              <span className="text-sm text-primary-dark/70">{bookName} {next.chapter}:{next.verse}</span>
+              <span className="text-sm text-ink-muted">{bookName} {next.chapter}:{next.verse}</span>
               <span className="ml-2">&rarr;</span>
             </Link>
           ) : (
@@ -474,38 +474,38 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
           <div className="grid gap-3 md:grid-cols-2">
             <Link
               href={`/verses/${book}/${chapter}/${verse}`}
-              className="flex items-center p-4 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors"
+              className="flex items-center p-4 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors"
             >
               <div>
-                <span className="text-blue-600 font-semibold block">{reference} Verse Study</span>
-                <span className="text-sm text-primary-dark/60">Commentary, original language, and more</span>
+                <span className="text-sacred font-semibold block">{reference} Verse Study</span>
+                <span className="text-sm text-ink-muted">Commentary, original language, and more</span>
               </div>
             </Link>
             <Link
               href={`/${book}-${chapter}-quiz`}
-              className="flex items-center p-4 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors"
+              className="flex items-center p-4 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors"
             >
               <div>
-                <span className="text-blue-600 font-semibold block">{bookName} {chapter} Quiz</span>
-                <span className="text-sm text-primary-dark/60">Test your knowledge of this chapter</span>
+                <span className="text-sacred font-semibold block">{bookName} {chapter} Quiz</span>
+                <span className="text-sm text-ink-muted">Test your knowledge of this chapter</span>
               </div>
             </Link>
             <Link
               href={`/${book}-chapters`}
-              className="flex items-center p-4 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors"
+              className="flex items-center p-4 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors"
             >
               <div>
-                <span className="text-blue-600 font-semibold block">{bookName} Chapters</span>
-                <span className="text-sm text-primary-dark/60">Browse all chapters in {bookName}</span>
+                <span className="text-sacred font-semibold block">{bookName} Chapters</span>
+                <span className="text-sm text-ink-muted">Browse all chapters in {bookName}</span>
               </div>
             </Link>
             <Link
               href={`/${book}-quiz`}
-              className="flex items-center p-4 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors"
+              className="flex items-center p-4 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors"
             >
               <div>
-                <span className="text-blue-600 font-semibold block">{bookName} Book Quiz</span>
-                <span className="text-sm text-primary-dark/60">Comprehensive quiz for the entire book</span>
+                <span className="text-sacred font-semibold block">{bookName} Book Quiz</span>
+                <span className="text-sm text-ink-muted">Comprehensive quiz for the entire book</span>
               </div>
             </Link>
           </div>
@@ -515,14 +515,14 @@ export default async function CrossReferencePage({ params }: CrossRefPageProps) 
         <section className="bg-grace/10 border border-grace rounded-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-scripture mb-3">Related Resources</h2>
           <div className="grid gap-2 sm:grid-cols-2">
-            <Link href="/cross-references" className="text-blue-600 hover:underline text-sm">Cross-References Index</Link>
-            <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">Bible Quizzes</Link>
-            <Link href="/nave-topics" className="text-blue-600 hover:underline text-sm">Nave&apos;s Topical Bible</Link>
-            <Link href="/people" className="text-blue-600 hover:underline text-sm">Bible People Directory</Link>
-            <Link href="/bible-names" className="text-blue-600 hover:underline text-sm">Bible Name Meanings</Link>
-            <Link href="/commandments" className="text-blue-600 hover:underline text-sm">613 Commandments</Link>
-            <Link href="/timeline" className="text-blue-600 hover:underline text-sm">Bible Timeline</Link>
-            <Link href="/lexicon" className="text-blue-600 hover:underline text-sm">Greek &amp; Hebrew Lexicon</Link>
+            <Link href="/cross-references" className="text-sacred hover:underline text-sm">Cross-References Index</Link>
+            <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">Bible Quizzes</Link>
+            <Link href="/nave-topics" className="text-sacred hover:underline text-sm">Nave&apos;s Topical Bible</Link>
+            <Link href="/people" className="text-sacred hover:underline text-sm">Bible People Directory</Link>
+            <Link href="/bible-names" className="text-sacred hover:underline text-sm">Bible Name Meanings</Link>
+            <Link href="/commandments" className="text-sacred hover:underline text-sm">613 Commandments</Link>
+            <Link href="/timeline" className="text-sacred hover:underline text-sm">Bible Timeline</Link>
+            <Link href="/lexicon" className="text-sacred hover:underline text-sm">Greek &amp; Hebrew Lexicon</Link>
           </div>
         </section>
 

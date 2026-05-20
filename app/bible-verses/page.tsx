@@ -329,11 +329,11 @@ export default function BibleVersesPage() {
       <nav className="bg-white dark:bg-dark-surface border-b border-grace dark:border-dark-border">
         <div className="max-w-4xl mx-auto px-4 py-3">
           <ol className="flex items-center flex-wrap gap-y-1 text-sm">
-            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li><Link href="/bible-quizzes" className="text-blue-600 hover:underline">Bible Study</Link></li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li className="text-primary-dark/70 font-medium">Bible Verses</li>
+            <li><Link href="/" className="text-sacred hover:underline">Home</Link></li>
+            <li className="text-ink-light mx-2">/</li>
+            <li><Link href="/bible-quizzes" className="text-sacred hover:underline">Bible Study</Link></li>
+            <li className="text-ink-light mx-2">/</li>
+            <li className="text-ink-muted font-medium">Bible Verses</li>
           </ol>
         </div>
       </nav>
@@ -350,13 +350,13 @@ export default function BibleVersesPage() {
           />
         </div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 py-16 md:py-24 text-center">
-          <p className="text-blue-200 text-sm font-semibold tracking-wider uppercase mb-3">Complete Topical Collection</p>
+          <p className="text-sacred text-sm font-semibold tracking-wider uppercase mb-3">Complete Topical Collection</p>
           <h1 className="text-3xl md:text-5xl font-bold text-white font-display leading-tight mb-4">Bible Verses</h1>
-          <p className="text-lg md:text-xl text-blue-100/90 max-w-2xl mx-auto leading-relaxed mb-6">
+          <p className="text-lg md:text-xl text-sacred-light/90 max-w-2xl mx-auto leading-relaxed mb-6">
             {totalVerses}+ of the most popular and powerful Bible verses organized by {ALL_TOPICS.length} life topics — each with context, meaning, and links to deeper study.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
-            <Link href="#love" className="inline-block bg-white text-scripture font-bold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors">
+            <Link href="#love" className="inline-block bg-white text-scripture font-bold px-6 py-3 rounded-lg hover:bg-sacred-light transition-colors">
               Start Reading
             </Link>
             <Link href="#faq" className="inline-block border-2 border-white/40 text-white font-bold px-6 py-3 rounded-lg hover:bg-white/10 transition-colors">
@@ -371,20 +371,20 @@ export default function BibleVersesPage() {
         {/* Quick Stats */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-10">
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-4 text-center shadow-sm">
-            <p className="text-2xl font-bold text-scripture dark:text-blue-400">{totalVerses}+</p>
-            <p className="text-xs text-primary-dark/60 dark:text-primary-dark/40 mt-1">Curated Verses</p>
+            <p className="text-2xl font-bold text-scripture dark:text-sacred">{totalVerses}+</p>
+            <p className="text-xs text-ink-muted dark:text-ink-light mt-1">Curated Verses</p>
           </div>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-4 text-center shadow-sm">
-            <p className="text-2xl font-bold text-scripture dark:text-blue-400">{ALL_TOPICS.length}</p>
-            <p className="text-xs text-primary-dark/60 dark:text-primary-dark/40 mt-1">Life Topics</p>
+            <p className="text-2xl font-bold text-scripture dark:text-sacred">{ALL_TOPICS.length}</p>
+            <p className="text-xs text-ink-muted dark:text-ink-light mt-1">Life Topics</p>
           </div>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-4 text-center shadow-sm">
-            <p className="text-2xl font-bold text-scripture dark:text-blue-400">66</p>
-            <p className="text-xs text-primary-dark/60 dark:text-primary-dark/40 mt-1">Books Represented</p>
+            <p className="text-2xl font-bold text-scripture dark:text-sacred">66</p>
+            <p className="text-xs text-ink-muted dark:text-ink-light mt-1">Books Represented</p>
           </div>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-4 text-center shadow-sm">
-            <p className="text-2xl font-bold text-scripture dark:text-blue-400">KJV</p>
-            <p className="text-xs text-primary-dark/60 dark:text-primary-dark/40 mt-1">Primary Translation</p>
+            <p className="text-2xl font-bold text-scripture dark:text-sacred">KJV</p>
+            <p className="text-xs text-ink-muted dark:text-ink-light mt-1">Primary Translation</p>
           </div>
         </div>
 
@@ -393,70 +393,70 @@ export default function BibleVersesPage() {
           <h2 className="text-lg font-bold text-scripture dark:text-white mb-3">Browse Verses by Topic</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-2">
             {ALL_TOPICS.map((topic) => (
-              <Link key={topic.id} href={`#${topic.id}`} className="text-blue-600 hover:underline text-sm py-1 flex items-center gap-2">
-                <span>{topic.icon}</span> {topic.title.replace('Bible Verses About ', '')} <span className="text-primary-dark/30 text-xs">({topic.verses.length})</span>
+              <Link key={topic.id} href={`#${topic.id}`} className="text-sacred hover:underline text-sm py-1 flex items-center gap-2">
+                <span>{topic.icon}</span> {topic.title.replace('Bible Verses About ', '')} <span className="text-ink-light text-xs">({topic.verses.length})</span>
               </Link>
             ))}
-            <Link href="#most-popular" className="text-blue-600 hover:underline text-sm py-1">Top 10 Most Popular</Link>
-            <Link href="#faq" className="text-blue-600 hover:underline text-sm py-1">Common Questions</Link>
-            <Link href="#study-links" className="text-blue-600 hover:underline text-sm py-1">Continue Your Study</Link>
+            <Link href="#most-popular" className="text-sacred hover:underline text-sm py-1">Top 10 Most Popular</Link>
+            <Link href="#faq" className="text-sacred hover:underline text-sm py-1">Common Questions</Link>
+            <Link href="#study-links" className="text-sacred hover:underline text-sm py-1">Continue Your Study</Link>
           </div>
         </nav>
 
         {/* What Makes These Verses Special */}
         <section className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">Why These Bible Verses Matter</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             The Bible contains 31,102 verses. But a handful of them carry disproportionate weight — not because the others are less inspired, but because certain verses answer the questions every human being asks. <em>Does anyone love me? Is there hope? What happens when I die? How do I find peace?</em>
           </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             The verses on this page are the ones people search for most, memorize first, and return to in crisis. They span the entire Bible — from Genesis to Revelation, from ancient Hebrew poetry to first-century Greek letters. Each one addresses a specific human need with a specific divine promise.
           </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
-            We&apos;ve organized them by life topic so you can find exactly what you need. Every verse includes a brief note explaining its context and meaning. For deeper study, follow the links to our <Link href="/cross-references/john/3/16" className="text-blue-600 hover:underline">cross-reference pages</Link>, <Link href="/greek-word/agapao" className="text-blue-600 hover:underline">Greek word studies</Link>, and <Link href="/bible-topics/love" className="text-blue-600 hover:underline">topical studies</Link>.
+          <p className="text-scripture dark:text-ink-light leading-relaxed">
+            We&apos;ve organized them by life topic so you can find exactly what you need. Every verse includes a brief note explaining its context and meaning. For deeper study, follow the links to our <Link href="/cross-references/john/3/16" className="text-sacred hover:underline">cross-reference pages</Link>, <Link href="/greek-word/agapao" className="text-sacred hover:underline">Greek word studies</Link>, and <Link href="/bible-topics/love" className="text-sacred hover:underline">topical studies</Link>.
           </p>
         </section>
 
         {/* Bible Verses by Testament */}
         <section className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">Bible Verses by Testament</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-6 text-sm">A side-by-side comparison of the Old and New Testaments — the two halves of one unified story.</p>
+          <p className="text-ink-muted dark:text-ink-light mb-6 text-sm">A side-by-side comparison of the Old and New Testaments — the two halves of one unified story.</p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Testament</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Verses</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Books</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">Written</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden md:table-cell">Language</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden md:table-cell">Focus</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Testament</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Verses</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Books</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden sm:table-cell">Written</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden md:table-cell">Language</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden md:table-cell">Focus</th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-t border-grace dark:border-dark-border hover:bg-blue-50/50 dark:hover:bg-dark-border/20">
-                  <td className="px-4 py-3 font-bold text-scripture dark:text-blue-400">Old Testament</td>
-                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40">23,145</td>
-                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40">39</td>
-                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden sm:table-cell">~1400–400 BC</td>
-                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden md:table-cell">Hebrew + Aramaic</td>
-                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden md:table-cell">God&apos;s law, prophecy, wisdom, history</td>
+                <tr className="border-t border-grace dark:border-dark-border hover:bg-sacred-light/50 dark:hover:bg-dark-border/20">
+                  <td className="px-4 py-3 font-bold text-scripture dark:text-sacred">Old Testament</td>
+                  <td className="px-4 py-3 text-ink-muted dark:text-ink-light">23,145</td>
+                  <td className="px-4 py-3 text-ink-muted dark:text-ink-light">39</td>
+                  <td className="px-4 py-3 text-ink-muted dark:text-ink-light hidden sm:table-cell">~1400–400 BC</td>
+                  <td className="px-4 py-3 text-ink-muted dark:text-ink-light hidden md:table-cell">Hebrew + Aramaic</td>
+                  <td className="px-4 py-3 text-ink-muted dark:text-ink-light hidden md:table-cell">God&apos;s law, prophecy, wisdom, history</td>
                 </tr>
-                <tr className="border-t border-grace dark:border-dark-border hover:bg-blue-50/50 dark:hover:bg-dark-border/20">
-                  <td className="px-4 py-3 font-bold text-scripture dark:text-blue-400">New Testament</td>
-                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40">7,957</td>
-                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40">27</td>
-                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden sm:table-cell">~AD 45–95</td>
-                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden md:table-cell">Koine Greek</td>
-                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden md:table-cell">Jesus Christ, salvation, the Church, end times</td>
+                <tr className="border-t border-grace dark:border-dark-border hover:bg-sacred-light/50 dark:hover:bg-dark-border/20">
+                  <td className="px-4 py-3 font-bold text-scripture dark:text-sacred">New Testament</td>
+                  <td className="px-4 py-3 text-ink-muted dark:text-ink-light">7,957</td>
+                  <td className="px-4 py-3 text-ink-muted dark:text-ink-light">27</td>
+                  <td className="px-4 py-3 text-ink-muted dark:text-ink-light hidden sm:table-cell">~AD 45–95</td>
+                  <td className="px-4 py-3 text-ink-muted dark:text-ink-light hidden md:table-cell">Koine Greek</td>
+                  <td className="px-4 py-3 text-ink-muted dark:text-ink-light hidden md:table-cell">Jesus Christ, salvation, the Church, end times</td>
                 </tr>
                 <tr className="border-t-2 border-scripture/20 dark:border-dark-border bg-scripture/5 dark:bg-dark-border/20">
-                  <td className="px-4 py-3 font-bold text-scripture dark:text-blue-400">Total</td>
-                  <td className="px-4 py-3 font-bold text-primary-dark/80 dark:text-primary-dark/50">31,102</td>
-                  <td className="px-4 py-3 font-bold text-primary-dark/80 dark:text-primary-dark/50">66</td>
-                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden sm:table-cell">~1,500 years</td>
-                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden md:table-cell">40+ authors</td>
-                  <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden md:table-cell">One unified story of redemption</td>
+                  <td className="px-4 py-3 font-bold text-scripture dark:text-sacred">Total</td>
+                  <td className="px-4 py-3 font-bold text-scripture dark:text-ink-muted">31,102</td>
+                  <td className="px-4 py-3 font-bold text-scripture dark:text-ink-muted">66</td>
+                  <td className="px-4 py-3 text-ink-muted dark:text-ink-light hidden sm:table-cell">~1,500 years</td>
+                  <td className="px-4 py-3 text-ink-muted dark:text-ink-light hidden md:table-cell">40+ authors</td>
+                  <td className="px-4 py-3 text-ink-muted dark:text-ink-light hidden md:table-cell">One unified story of redemption</td>
                 </tr>
               </tbody>
             </table>
@@ -466,15 +466,15 @@ export default function BibleVersesPage() {
         {/* Top 10 Most Popular */}
         <section id="most-popular" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">Top 10 Most Popular Bible Verses</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-6 text-sm">Based on search volume, memorization frequency, and quotation data.</p>
+          <p className="text-ink-muted dark:text-ink-light mb-6 text-sm">Based on search volume, memorization frequency, and quotation data.</p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 w-10">#</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Verse</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">Key Phrase</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden md:table-cell">Topic</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred w-10">#</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Verse</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden sm:table-cell">Key Phrase</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden md:table-cell">Topic</th>
                 </tr>
               </thead>
               <tbody>
@@ -490,11 +490,11 @@ export default function BibleVersesPage() {
                   { rank: 9, ref: 'Ephesians 2:8-9', phrase: 'For by grace are ye saved through faith...', topic: 'Salvation', link: '/cross-references/ephesians/2/8' },
                   { rank: 10, ref: 'Philippians 4:6-7', phrase: 'Be careful for nothing; but in every thing...', topic: 'Anxiety / Peace', link: '/cross-references/philippians/4/6' },
                 ].map((v) => (
-                  <tr key={v.rank} className="border-t border-grace dark:border-dark-border hover:bg-blue-50/50 dark:hover:bg-dark-border/20">
-                    <td className="px-4 py-3 font-bold text-scripture dark:text-blue-400">{v.rank}</td>
-                    <td className="px-4 py-3"><Link href={v.link} className="text-blue-600 hover:underline font-medium">{v.ref}</Link></td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden sm:table-cell italic">{v.phrase}</td>
-                    <td className="px-4 py-3 hidden md:table-cell"><span className="bg-blue-100 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300 text-xs px-2 py-0.5 rounded-full">{v.topic}</span></td>
+                  <tr key={v.rank} className="border-t border-grace dark:border-dark-border hover:bg-sacred-light/50 dark:hover:bg-dark-border/20">
+                    <td className="px-4 py-3 font-bold text-scripture dark:text-sacred">{v.rank}</td>
+                    <td className="px-4 py-3"><Link href={v.link} className="text-sacred hover:underline font-medium">{v.ref}</Link></td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light hidden sm:table-cell italic">{v.phrase}</td>
+                    <td className="px-4 py-3 hidden md:table-cell"><span className="bg-sacred/10 dark:bg-sacred-light0/30 text-scripture dark:text-sacred text-xs px-2 py-0.5 rounded-full">{v.topic}</span></td>
                   </tr>
                 ))}
               </tbody>
@@ -505,26 +505,26 @@ export default function BibleVersesPage() {
         {/* Verse Count by Topic */}
         <section className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">Verses by Life Topic</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-6 text-sm">A quick reference showing how many curated verses we&apos;ve selected for each life situation.</p>
+          <p className="text-ink-muted dark:text-ink-light mb-6 text-sm">A quick reference showing how many curated verses we&apos;ve selected for each life situation.</p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Topic</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Verse Count</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">Top Verse</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Topic</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Verse Count</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden sm:table-cell">Top Verse</th>
                 </tr>
               </thead>
               <tbody>
                 {ALL_TOPICS.map((topic) => (
-                  <tr key={topic.id} className="border-t border-grace dark:border-dark-border hover:bg-blue-50/50 dark:hover:bg-dark-border/20">
+                  <tr key={topic.id} className="border-t border-grace dark:border-dark-border hover:bg-sacred-light/50 dark:hover:bg-dark-border/20">
                     <td className="px-4 py-3">
-                      <Link href={`#${topic.id}`} className="text-blue-600 hover:underline font-medium">
+                      <Link href={`#${topic.id}`} className="text-sacred hover:underline font-medium">
                         {topic.title.replace('Bible Verses About ', '')}
                       </Link>
                     </td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40">{topic.verses.length}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden sm:table-cell italic">{topic.verses[0].ref}</td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light">{topic.verses.length}</td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light hidden sm:table-cell italic">{topic.verses[0].ref}</td>
                   </tr>
                 ))}
               </tbody>
@@ -536,19 +536,19 @@ export default function BibleVersesPage() {
         {ALL_TOPICS.map((topic) => (
           <section key={topic.id} id={topic.id} className="mb-14 scroll-mt-20">
             <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">{topic.title}</h2>
-            <p className="text-primary-dark/70 dark:text-primary-dark/40 mb-6 leading-relaxed">{topic.description}</p>
+            <p className="text-ink-muted dark:text-ink-light mb-6 leading-relaxed">{topic.description}</p>
 
             <div className="space-y-4">
               {topic.verses.map((verse, idx) => (
                 <div key={idx} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
                   <div className="flex items-center justify-between mb-2">
-                    <Link href={verseRefToPath(verse.ref)} className="text-blue-600 hover:underline font-bold text-sm">{verse.ref}</Link>
-                    <span className="text-xs text-primary-dark/40">KJV</span>
+                    <Link href={verseRefToPath(verse.ref)} className="text-sacred hover:underline font-bold text-sm">{verse.ref}</Link>
+                    <span className="text-xs text-ink-light">KJV</span>
                   </div>
-                  <blockquote className="text-primary-dark/90 dark:text-primary-dark/30 leading-relaxed italic mb-3 border-l-3 border-scripture/30 pl-4">
+                  <blockquote className="text-ink-muted dark:text-ink-light leading-relaxed italic mb-3 border-l-3 border-scripture/30 pl-4">
                     &ldquo;{verse.text}&rdquo;
                   </blockquote>
-                  <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">{verse.note}</p>
+                  <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">{verse.note}</p>
                 </div>
               ))}
             </div>
@@ -558,13 +558,13 @@ export default function BibleVersesPage() {
               <Link href={`/bible-topics/${topic.id}`} className="text-xs bg-green-100 dark:bg-green-950/20 text-green-700 dark:text-green-300 px-3 py-1 rounded-full hover:bg-green-200 transition-colors">
                 Explore {topic.title.replace('Bible Verses About ', '')} Topic
               </Link>
-              {topic.id === 'love' && <Link href="/john-3-16" className="text-xs bg-blue-100 dark:bg-blue-950/20 text-blue-700 dark:text-blue-300 px-3 py-1 rounded-full hover:bg-blue-200 transition-colors">John 3:16 Deep Study</Link>}
-              {topic.id === 'strength' && <Link href="/philippians-4-13" className="text-xs bg-blue-100 dark:bg-blue-950/20 text-blue-700 dark:text-blue-300 px-3 py-1 rounded-full hover:bg-blue-200 transition-colors">Philippians 4:13 Deep Study</Link>}
-              {topic.id === 'hope' && <Link href="/jeremiah-29-11" className="text-xs bg-blue-100 dark:bg-blue-950/20 text-blue-700 dark:text-blue-300 px-3 py-1 rounded-full hover:bg-blue-200 transition-colors">Jeremiah 29:11 Deep Study</Link>}
-              {topic.id === 'peace' && <Link href="/psalm-23" className="text-xs bg-blue-100 dark:bg-blue-950/20 text-blue-700 dark:text-blue-300 px-3 py-1 rounded-full hover:bg-blue-200 transition-colors">Psalm 23 Deep Study</Link>}
-              {topic.id === 'faith' && <Link href="/romans-8-28" className="text-xs bg-blue-100 dark:bg-blue-950/20 text-blue-700 dark:text-blue-300 px-3 py-1 rounded-full hover:bg-blue-200 transition-colors">Romans 8:28 Deep Study</Link>}
-              {topic.id === 'wisdom' && <Link href="/proverbs-3-5-6" className="text-xs bg-blue-100 dark:bg-blue-950/20 text-blue-700 dark:text-blue-300 px-3 py-1 rounded-full hover:bg-blue-200 transition-colors">Proverbs 3:5-6 Deep Study</Link>}
-              {topic.id === 'anxiety' && <Link href="/isaiah-41-10" className="text-xs bg-blue-100 dark:bg-blue-950/20 text-blue-700 dark:text-blue-300 px-3 py-1 rounded-full hover:bg-blue-200 transition-colors">Isaiah 41:10 Deep Study</Link>}
+              {topic.id === 'love' && <Link href="/john-3-16" className="text-xs bg-sacred/10 dark:bg-sacred-light0/20 text-scripture dark:text-sacred px-3 py-1 rounded-full hover:bg-sacred-light transition-colors">John 3:16 Deep Study</Link>}
+              {topic.id === 'strength' && <Link href="/philippians-4-13" className="text-xs bg-sacred/10 dark:bg-sacred-light0/20 text-scripture dark:text-sacred px-3 py-1 rounded-full hover:bg-sacred-light transition-colors">Philippians 4:13 Deep Study</Link>}
+              {topic.id === 'hope' && <Link href="/jeremiah-29-11" className="text-xs bg-sacred/10 dark:bg-sacred-light0/20 text-scripture dark:text-sacred px-3 py-1 rounded-full hover:bg-sacred-light transition-colors">Jeremiah 29:11 Deep Study</Link>}
+              {topic.id === 'peace' && <Link href="/psalm-23" className="text-xs bg-sacred/10 dark:bg-sacred-light0/20 text-scripture dark:text-sacred px-3 py-1 rounded-full hover:bg-sacred-light transition-colors">Psalm 23 Deep Study</Link>}
+              {topic.id === 'faith' && <Link href="/romans-8-28" className="text-xs bg-sacred/10 dark:bg-sacred-light0/20 text-scripture dark:text-sacred px-3 py-1 rounded-full hover:bg-sacred-light transition-colors">Romans 8:28 Deep Study</Link>}
+              {topic.id === 'wisdom' && <Link href="/proverbs-3-5-6" className="text-xs bg-sacred/10 dark:bg-sacred-light0/20 text-scripture dark:text-sacred px-3 py-1 rounded-full hover:bg-sacred-light transition-colors">Proverbs 3:5-6 Deep Study</Link>}
+              {topic.id === 'anxiety' && <Link href="/isaiah-41-10" className="text-xs bg-sacred/10 dark:bg-sacred-light0/20 text-scripture dark:text-sacred px-3 py-1 rounded-full hover:bg-sacred-light transition-colors">Isaiah 41:10 Deep Study</Link>}
             </div>
           </section>
         ))}
@@ -575,32 +575,32 @@ export default function BibleVersesPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
               <h3 className="font-bold text-scripture dark:text-white mb-2">1. Read in Context</h3>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">Never read a verse in isolation. Read the full chapter — at minimum the paragraph before and after. A verse ripped from context can mean the opposite of what the author intended.</p>
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">Never read a verse in isolation. Read the full chapter — at minimum the paragraph before and after. A verse ripped from context can mean the opposite of what the author intended.</p>
             </div>
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
               <h3 className="font-bold text-scripture dark:text-white mb-2">2. Check Cross-References</h3>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">The Bible interprets itself. Use our <Link href="/cross-references/john/3/16" className="text-blue-600 hover:underline">cross-reference tool</Link> to find related passages that shed light on the verse you&apos;re studying.</p>
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">The Bible interprets itself. Use our <Link href="/cross-references/john/3/16" className="text-sacred hover:underline">cross-reference tool</Link> to find related passages that shed light on the verse you&apos;re studying.</p>
             </div>
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
               <h3 className="font-bold text-scripture dark:text-white mb-2">3. Look Up Key Words</h3>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">English translations flatten nuance. The Greek word for &ldquo;love&rdquo; in John 3:16 (<Link href="/greek-word/agapao" className="text-blue-600 hover:underline">agapao</Link>) is completely different from the love in John 21:15-17 (<Link href="/greek-word/phileo" className="text-blue-600 hover:underline">phileo</Link>).</p>
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">English translations flatten nuance. The Greek word for &ldquo;love&rdquo; in John 3:16 (<Link href="/greek-word/agapao" className="text-sacred hover:underline">agapao</Link>) is completely different from the love in John 21:15-17 (<Link href="/greek-word/phileo" className="text-sacred hover:underline">phileo</Link>).</p>
             </div>
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
               <h3 className="font-bold text-scripture dark:text-white mb-2">4. Apply Personally</h3>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">Ask: What does this verse reveal about God? What does it reveal about me? What should I do differently today? Bible study that doesn&apos;t change behavior isn&apos;t complete.</p>
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">Ask: What does this verse reveal about God? What does it reveal about me? What should I do differently today? Bible study that doesn&apos;t change behavior isn&apos;t complete.</p>
             </div>
           </div>
         </section>
 
         {/* Gospel CTA */}
         <section className="mb-12">
-          <div className="bg-gradient-to-br from-scripture via-scripture/95 to-blue-950 rounded-xl p-8 md:p-10 text-center text-white">
+          <div className="bg-gradient-to-br from-scripture via-scripture/95 to-scripture/80 rounded-xl p-8 md:p-10 text-center text-white">
             <h2 className="text-2xl md:text-3xl font-bold font-display mb-4">The Most Important Verse You&apos;ll Ever Read</h2>
-            <p className="text-blue-100/90 max-w-2xl mx-auto leading-relaxed mb-6">
+            <p className="text-sacred-light/90 max-w-2xl mx-auto leading-relaxed mb-6">
               Every verse on this page points to the same truth: God loves you, sin separates you from Him, and Jesus is the way back. If you&apos;ve never placed your trust in Christ, today is the day. &ldquo;Whosoever believeth in him should not perish, but have everlasting life&rdquo; (John 3:16).
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <Link href="/john-3-16" className="inline-block bg-white text-scripture font-bold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors">
+              <Link href="/john-3-16" className="inline-block bg-white text-scripture font-bold px-6 py-3 rounded-lg hover:bg-sacred-light transition-colors">
                 Read the Full John 3:16 Study
               </Link>
               <Link href="/jesus-christ" className="inline-block border-2 border-white/40 text-white font-bold px-6 py-3 rounded-lg hover:bg-white/10 transition-colors">
@@ -618,9 +618,9 @@ export default function BibleVersesPage() {
               <details key={idx} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm group">
                 <summary className="px-5 py-4 cursor-pointer font-bold text-scripture dark:text-white text-sm flex items-center justify-between list-none">
                   {item.question}
-                  <span className="text-primary-dark/30 group-open:rotate-45 transition-transform text-lg">+</span>
+                  <span className="text-ink-light group-open:rotate-45 transition-transform text-lg">+</span>
                 </summary>
-                <div className="px-5 pb-5 text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">
+                <div className="px-5 pb-5 text-ink-muted dark:text-ink-light text-sm leading-relaxed">
                   {item.answer}
                 </div>
               </details>
@@ -632,25 +632,25 @@ export default function BibleVersesPage() {
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-6">Go Deeper</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/bible-topics/love" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm hover:border-blue-300 transition-colors group">
-              <p className="text-xs font-bold text-blue-600 uppercase tracking-wider mb-1">Topical Study</p>
-              <h3 className="font-bold text-scripture dark:text-white group-hover:text-blue-600 transition-colors">What the Bible Says About Love</h3>
-              <p className="text-primary-dark/60 dark:text-primary-dark/40 text-sm mt-1">Every verse on love — organized, cross-referenced, and explained.</p>
+            <Link href="/bible-topics/love" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm hover:border-sacred/50 transition-colors group">
+              <p className="text-xs font-bold text-sacred uppercase tracking-wider mb-1">Topical Study</p>
+              <h3 className="font-bold text-scripture dark:text-white group-hover:text-gold-dark transition-colors">What the Bible Says About Love</h3>
+              <p className="text-ink-muted dark:text-ink-light text-sm mt-1">Every verse on love — organized, cross-referenced, and explained.</p>
             </Link>
-            <Link href="/john-3-16" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm hover:border-blue-300 transition-colors group">
+            <Link href="/john-3-16" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm hover:border-sacred/50 transition-colors group">
               <p className="text-xs font-bold text-green-600 uppercase tracking-wider mb-1">Pillar Study</p>
-              <h3 className="font-bold text-scripture dark:text-white group-hover:text-blue-600 transition-colors">John 3:16 — Complete Verse Study</h3>
-              <p className="text-primary-dark/60 dark:text-primary-dark/40 text-sm mt-1">Greek analysis, historical context, translation comparison, and more.</p>
+              <h3 className="font-bold text-scripture dark:text-white group-hover:text-gold-dark transition-colors">John 3:16 — Complete Verse Study</h3>
+              <p className="text-ink-muted dark:text-ink-light text-sm mt-1">Greek analysis, historical context, translation comparison, and more.</p>
             </Link>
-            <Link href="/jesus-christ" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm hover:border-blue-300 transition-colors group">
+            <Link href="/jesus-christ" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm hover:border-sacred/50 transition-colors group">
               <p className="text-xs font-bold text-amber-600 uppercase tracking-wider mb-1">Pillar Study</p>
-              <h3 className="font-bold text-scripture dark:text-white group-hover:text-blue-600 transition-colors">Who Is Jesus Christ?</h3>
-              <p className="text-primary-dark/60 dark:text-primary-dark/40 text-sm mt-1">Life, teachings, miracles, death, resurrection — the complete guide.</p>
+              <h3 className="font-bold text-scripture dark:text-white group-hover:text-gold-dark transition-colors">Who Is Jesus Christ?</h3>
+              <p className="text-ink-muted dark:text-ink-light text-sm mt-1">Life, teachings, miracles, death, resurrection — the complete guide.</p>
             </Link>
-            <Link href="/how-to-study-the-bible" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm hover:border-blue-300 transition-colors group">
+            <Link href="/how-to-study-the-bible" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm hover:border-sacred/50 transition-colors group">
               <p className="text-xs font-bold text-indigo-600 uppercase tracking-wider mb-1">Guide</p>
-              <h3 className="font-bold text-scripture dark:text-white group-hover:text-blue-600 transition-colors">How to Study the Bible</h3>
-              <p className="text-primary-dark/60 dark:text-primary-dark/40 text-sm mt-1">Methods, tools, and tips for getting the most out of Scripture.</p>
+              <h3 className="font-bold text-scripture dark:text-white group-hover:text-gold-dark transition-colors">How to Study the Bible</h3>
+              <p className="text-ink-muted dark:text-ink-light text-sm mt-1">Methods, tools, and tips for getting the most out of Scripture.</p>
             </Link>
           </div>
         </section>
@@ -659,33 +659,33 @@ export default function BibleVersesPage() {
         <section id="study-links" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">Continue Your Study</h2>
           <div className="grid gap-2 sm:grid-cols-2 md:grid-cols-3">
-            <Link href="/john-3-16" className="text-blue-600 hover:underline text-sm">John 3:16 Explained</Link>
-            <Link href="/psalm-23" className="text-blue-600 hover:underline text-sm">Psalm 23 Study</Link>
-            <Link href="/romans-8-28" className="text-blue-600 hover:underline text-sm">Romans 8:28 Study</Link>
-            <Link href="/jeremiah-29-11" className="text-blue-600 hover:underline text-sm">Jeremiah 29:11 Study</Link>
-            <Link href="/proverbs-3-5-6" className="text-blue-600 hover:underline text-sm">Proverbs 3:5-6 Study</Link>
-            <Link href="/philippians-4-13" className="text-blue-600 hover:underline text-sm">Philippians 4:13 Study</Link>
-            <Link href="/isaiah-41-10" className="text-blue-600 hover:underline text-sm">Isaiah 41:10 Study</Link>
-            <Link href="/jesus-christ" className="text-blue-600 hover:underline text-sm">Who Is Jesus Christ?</Link>
-            <Link href="/bible-topics/salvation" className="text-blue-600 hover:underline text-sm">Topical Study: Salvation</Link>
-            <Link href="/bible-topics/forgiveness" className="text-blue-600 hover:underline text-sm">Topical Study: Forgiveness</Link>
-            <Link href="/bible-topics/prayer" className="text-blue-600 hover:underline text-sm">Topical Study: Prayer</Link>
-            <Link href="/bible-topics/faith" className="text-blue-600 hover:underline text-sm">Topical Study: Faith</Link>
-            <Link href="/greek-word/agapao" className="text-blue-600 hover:underline text-sm">Greek Word: Agapao (Love)</Link>
-            <Link href="/greek-word/pistis" className="text-blue-600 hover:underline text-sm">Greek Word: Pistis (Faith)</Link>
-            <Link href="/greek-word/eirene" className="text-blue-600 hover:underline text-sm">Greek Word: Eirene (Peace)</Link>
-            <Link href="/greek-word/charis" className="text-blue-600 hover:underline text-sm">Greek Word: Charis (Grace)</Link>
-            <Link href="/hebrew-word/H7965" className="text-blue-600 hover:underline text-sm">Hebrew Word: Shalom (Peace)</Link>
-            <Link href="/hebrew-word/H2617" className="text-blue-600 hover:underline text-sm">Hebrew Word: Chesed (Mercy)</Link>
-            <Link href="/cross-references/john/3/16" className="text-blue-600 hover:underline text-sm">John 3:16 Cross-References</Link>
-            <Link href="/cross-references/romans/8/28" className="text-blue-600 hover:underline text-sm">Romans 8:28 Cross-References</Link>
-            <Link href="/matthew-chapters" className="text-blue-600 hover:underline text-sm">Matthew Chapter Quizzes</Link>
-            <Link href="/john-chapters" className="text-blue-600 hover:underline text-sm">John Chapter Quizzes</Link>
-            <Link href="/romans-chapters" className="text-blue-600 hover:underline text-sm">Romans Chapter Quizzes</Link>
-            <Link href="/psalms-chapters" className="text-blue-600 hover:underline text-sm">Psalms Chapter Quizzes</Link>
-            <Link href="/christmas-bible-verses" className="text-blue-600 hover:underline text-sm">Christmas Bible Verses</Link>
-            <Link href="/bible-encyclopedia/jesus" className="text-blue-600 hover:underline text-sm">Jesus Encyclopedia Entry</Link>
-            <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">All Bible Quizzes</Link>
+            <Link href="/john-3-16" className="text-sacred hover:underline text-sm">John 3:16 Explained</Link>
+            <Link href="/psalm-23" className="text-sacred hover:underline text-sm">Psalm 23 Study</Link>
+            <Link href="/romans-8-28" className="text-sacred hover:underline text-sm">Romans 8:28 Study</Link>
+            <Link href="/jeremiah-29-11" className="text-sacred hover:underline text-sm">Jeremiah 29:11 Study</Link>
+            <Link href="/proverbs-3-5-6" className="text-sacred hover:underline text-sm">Proverbs 3:5-6 Study</Link>
+            <Link href="/philippians-4-13" className="text-sacred hover:underline text-sm">Philippians 4:13 Study</Link>
+            <Link href="/isaiah-41-10" className="text-sacred hover:underline text-sm">Isaiah 41:10 Study</Link>
+            <Link href="/jesus-christ" className="text-sacred hover:underline text-sm">Who Is Jesus Christ?</Link>
+            <Link href="/bible-topics/salvation" className="text-sacred hover:underline text-sm">Topical Study: Salvation</Link>
+            <Link href="/bible-topics/forgiveness" className="text-sacred hover:underline text-sm">Topical Study: Forgiveness</Link>
+            <Link href="/bible-topics/prayer" className="text-sacred hover:underline text-sm">Topical Study: Prayer</Link>
+            <Link href="/bible-topics/faith" className="text-sacred hover:underline text-sm">Topical Study: Faith</Link>
+            <Link href="/greek-word/agapao" className="text-sacred hover:underline text-sm">Greek Word: Agapao (Love)</Link>
+            <Link href="/greek-word/pistis" className="text-sacred hover:underline text-sm">Greek Word: Pistis (Faith)</Link>
+            <Link href="/greek-word/eirene" className="text-sacred hover:underline text-sm">Greek Word: Eirene (Peace)</Link>
+            <Link href="/greek-word/charis" className="text-sacred hover:underline text-sm">Greek Word: Charis (Grace)</Link>
+            <Link href="/hebrew-word/H7965" className="text-sacred hover:underline text-sm">Hebrew Word: Shalom (Peace)</Link>
+            <Link href="/hebrew-word/H2617" className="text-sacred hover:underline text-sm">Hebrew Word: Chesed (Mercy)</Link>
+            <Link href="/cross-references/john/3/16" className="text-sacred hover:underline text-sm">John 3:16 Cross-References</Link>
+            <Link href="/cross-references/romans/8/28" className="text-sacred hover:underline text-sm">Romans 8:28 Cross-References</Link>
+            <Link href="/matthew-chapters" className="text-sacred hover:underline text-sm">Matthew Chapter Quizzes</Link>
+            <Link href="/john-chapters" className="text-sacred hover:underline text-sm">John Chapter Quizzes</Link>
+            <Link href="/romans-chapters" className="text-sacred hover:underline text-sm">Romans Chapter Quizzes</Link>
+            <Link href="/psalms-chapters" className="text-sacred hover:underline text-sm">Psalms Chapter Quizzes</Link>
+            <Link href="/christmas-bible-verses" className="text-sacred hover:underline text-sm">Christmas Bible Verses</Link>
+            <Link href="/bible-encyclopedia/jesus" className="text-sacred hover:underline text-sm">Jesus Encyclopedia Entry</Link>
+            <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">All Bible Quizzes</Link>
           </div>
         </section>
 

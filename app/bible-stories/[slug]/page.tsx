@@ -180,10 +180,10 @@ export default async function StoryPage({ params }: PageProps) {
       <StructuredData data={faqSchema} />
 
       {/* 1. Breadcrumb */}
-      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
-        <Link href="/" className="hover:text-blue-600">Home</Link>
+      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-ink-muted">
+        <Link href="/" className="hover:text-gold-dark">Home</Link>
         <span className="mx-1.5">/</span>
-        <Link href="/bible-stories" className="hover:text-blue-600">Bible Stories</Link>
+        <Link href="/bible-stories" className="hover:text-gold-dark">Bible Stories</Link>
         <span className="mx-1.5">/</span>
         <span className="text-scripture font-medium">{story.title}</span>
       </nav>
@@ -200,8 +200,8 @@ export default async function StoryPage({ params }: PageProps) {
           <h1 className="text-3xl md:text-4xl font-display font-bold text-scripture mb-2">
             {story.title}
           </h1>
-          <p className="text-lg text-primary-dark/70 mb-3">{story.description}</p>
-          <p className="text-sm text-primary-dark/50">{verseList}</p>
+          <p className="text-lg text-ink-muted mb-3">{story.description}</p>
+          <p className="text-sm text-ink-muted">{verseList}</p>
         </div>
 
         {/* CTA Strip */}
@@ -210,13 +210,13 @@ export default async function StoryPage({ params }: PageProps) {
             {chapterQuizSlug && (
               <Link
                 href={`/${chapterQuizSlug}`}
-                className="bg-blue-600 rounded-lg p-5 text-white shadow-lg flex items-center justify-between hover:bg-blue-700 transition-colors"
+                className="bg-scripture rounded-lg p-5 text-white shadow-lg flex items-center justify-between hover:bg-ink-muted transition-colors"
               >
                 <div>
                   <h3 className="font-bold text-lg">Take the {story.book} {story.chapter} Quiz</h3>
                   <p className="text-white/80 text-xs">Test your knowledge of this chapter</p>
                 </div>
-                <span className="bg-white text-blue-600 px-4 py-2 rounded-lg font-bold text-sm tracking-wider uppercase shrink-0 ml-3">
+                <span className="bg-white text-sacred px-4 py-2 rounded-lg font-bold text-sm tracking-wider uppercase shrink-0 ml-3">
                   Begin
                 </span>
               </Link>
@@ -244,7 +244,7 @@ export default async function StoryPage({ params }: PageProps) {
             {story.themes.map(theme => (
               <span
                 key={theme}
-                className="px-3 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded-full"
+                className="px-3 py-1 bg-blue-50 text-scripture text-xs font-medium rounded-full"
               >
                 {theme}
               </span>
@@ -267,7 +267,7 @@ export default async function StoryPage({ params }: PageProps) {
         {/* 5. Kids Version */}
         <section className="bg-amber-50/50 border border-amber-200/60 rounded-xl p-6 mb-10">
           <h2 className="text-xl font-bold text-scripture mb-1">{story.kidsTitle}</h2>
-          <p className="text-xs text-primary-dark/50 mb-4">Kids Version</p>
+          <p className="text-xs text-ink-muted mb-4">Kids Version</p>
           <div className="prose prose-scripture max-w-none">
             {kidsNarrativeParagraphs.map((para, i) => (
               <p key={i} className="text-scripture leading-relaxed mb-3 text-[15px]">
@@ -279,14 +279,14 @@ export default async function StoryPage({ params }: PageProps) {
 
         {/* Post-Kids CTA */}
         {chapterQuizSlug && (
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-5 mb-8 flex items-center justify-between flex-wrap gap-3">
+          <div className="bg-blue-50 border border-sacred/20 rounded-xl p-5 mb-8 flex items-center justify-between flex-wrap gap-3">
             <div>
               <p className="font-semibold text-scripture">Ready to test your knowledge?</p>
-              <p className="text-sm text-primary-dark/60">See how well you know this story from {story.book}.</p>
+              <p className="text-sm text-ink-muted">See how well you know this story from {story.book}.</p>
             </div>
             <Link
               href={`/${chapterQuizSlug}`}
-              className="px-5 py-2.5 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors shrink-0"
+              className="px-5 py-2.5 bg-scripture text-white text-sm font-medium rounded-lg hover:bg-ink-muted transition-colors shrink-0"
             >
               {story.book} {story.chapter} Quiz
             </Link>
@@ -304,12 +304,12 @@ export default async function StoryPage({ params }: PageProps) {
                   <Link
                     key={character}
                     href={`/people/${charSlug}`}
-                    className="inline-flex items-center gap-2 bg-primary-light/30 rounded-lg px-4 py-2 hover:bg-primary-light hover:border-blue-300 border border-grace transition-all group"
+                    className="inline-flex items-center gap-2 bg-primary-light/30 rounded-lg px-4 py-2 hover:bg-primary-light hover:border-sacred/50 border border-grace transition-all group"
                   >
-                    <span className="w-7 h-7 flex items-center justify-center rounded-full bg-blue-600 text-white text-xs font-bold flex-shrink-0">
+                    <span className="w-7 h-7 flex items-center justify-center rounded-full bg-scripture text-white text-xs font-bold flex-shrink-0">
                       {character.charAt(0)}
                     </span>
-                    <span className="font-medium text-sm text-scripture group-hover:text-blue-600 transition-colors">
+                    <span className="font-medium text-sm text-scripture group-hover:text-gold-dark transition-colors">
                       {character}
                     </span>
                   </Link>
@@ -351,7 +351,7 @@ export default async function StoryPage({ params }: PageProps) {
               <div className="mt-3">
                 <Link
                   href={`/bible-geography/${story.bookSlug}/${story.chapter}`}
-                  className="text-sm text-blue-600 hover:underline"
+                  className="text-sm text-sacred hover:underline"
                 >
                   View map of {story.book} {story.chapter} locations &rarr;
                 </Link>
@@ -371,7 +371,7 @@ export default async function StoryPage({ params }: PageProps) {
                 <p key={verse.pk} className="text-scripture leading-relaxed">
                   <Link
                     href={`/verses/${story.bookSlug}/${story.chapter}/${verse.verse}`}
-                    className="inline-flex items-center justify-center w-7 h-7 bg-blue-100 text-blue-700 rounded-full text-xs font-bold mr-2 hover:bg-blue-200 transition-colors flex-shrink-0"
+                    className="inline-flex items-center justify-center w-7 h-7 bg-sacred/10 text-scripture rounded-full text-xs font-bold mr-2 hover:bg-sacred-light transition-colors flex-shrink-0"
                   >
                     {verse.verse}
                   </Link>
@@ -383,7 +383,7 @@ export default async function StoryPage({ params }: PageProps) {
               <div className="mt-4 pt-4 border-t border-grace/50">
                 <Link
                   href={`/${chapterReaderSlug}`}
-                  className="text-blue-600 hover:underline text-sm font-medium"
+                  className="text-sacred hover:underline text-sm font-medium"
                 >
                   Read {story.book} {story.chapter} with full commentary
                 </Link>
@@ -391,15 +391,15 @@ export default async function StoryPage({ params }: PageProps) {
             )}
           </section>
         ) : (
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-8">
+          <div className="bg-blue-50 border border-sacred/20 rounded-xl p-6 mb-8">
             <h2 className="text-lg font-bold text-scripture mb-2">Read the Scripture</h2>
-            <p className="text-sm text-primary-dark/70 mb-4">
+            <p className="text-sm text-ink-muted mb-4">
               Open your Bible to {verseList} to read this story in full.
             </p>
             {chapterReaderSlug && (
               <Link
                 href={`/${chapterReaderSlug}`}
-                className="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors inline-block"
+                className="px-4 py-2 bg-scripture text-white text-sm font-medium rounded-lg hover:bg-ink-muted transition-colors inline-block"
               >
                 Read {story.book} {story.chapter} Online
               </Link>
@@ -414,7 +414,7 @@ export default async function StoryPage({ params }: PageProps) {
             <blockquote className="text-scripture italic text-lg leading-relaxed border-l-4 border-amber-400 pl-4">
               &ldquo;{stripHtml(memoryVerse.text)}&rdquo;
             </blockquote>
-            <p className="text-sm text-primary-dark/70 mt-2 font-medium">
+            <p className="text-sm text-ink-muted mt-2 font-medium">
               — {story.book} {story.chapter}:{memoryVerse.verse} (KJV)
             </p>
           </div>
@@ -422,22 +422,22 @@ export default async function StoryPage({ params }: PageProps) {
 
         {/* 9. Quiz CTA */}
         {chapterQuizSlug && (
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-8">
+          <div className="bg-blue-50 border border-sacred/20 rounded-xl p-6 mb-8">
             <h2 className="text-lg font-bold text-scripture mb-2">Test Your Knowledge</h2>
-            <p className="text-sm text-primary-dark/70 mb-4">
+            <p className="text-sm text-ink-muted mb-4">
               How well do you know the story of &ldquo;{story.title}&rdquo;? Take the quiz to find out.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link
                 href={`/${chapterQuizSlug}`}
-                className="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors"
+                className="px-4 py-2 bg-scripture text-white text-sm font-medium rounded-lg hover:bg-ink-muted transition-colors"
               >
                 {story.book} {story.chapter} Quiz
               </Link>
               {bookChaptersSlug && (
                 <Link
                   href={`/${bookChaptersSlug}`}
-                  className="px-4 py-2 bg-white text-blue-600 text-sm font-medium rounded-lg border border-blue-300 hover:bg-primary-light transition-colors"
+                  className="px-4 py-2 bg-white text-sacred text-sm font-medium rounded-lg border border-sacred/50 hover:bg-primary-light transition-colors"
                 >
                   All {story.book} Chapters
                 </Link>
@@ -451,10 +451,10 @@ export default async function StoryPage({ params }: PageProps) {
           {prev ? (
             <Link
               href={`/bible-stories/${prev.slug}`}
-              className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+              className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
             >
-              <span className="text-xs text-primary-dark/60">Previous Story</span>
-              <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+              <span className="text-xs text-ink-muted">Previous Story</span>
+              <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                 {prev.title}
               </span>
             </Link>
@@ -462,10 +462,10 @@ export default async function StoryPage({ params }: PageProps) {
           {next ? (
             <Link
               href={`/bible-stories/${next.slug}`}
-              className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+              className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
             >
-              <span className="text-xs text-primary-dark/60">Next Story</span>
-              <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+              <span className="text-xs text-ink-muted">Next Story</span>
+              <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                 {next.title}
               </span>
             </Link>
@@ -483,12 +483,12 @@ export default async function StoryPage({ params }: PageProps) {
                 <Link
                   key={s.slug}
                   href={`/bible-stories/${s.slug}`}
-                  className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
+                  className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-sacred/50 transition-all group"
                 >
-                  <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                  <span className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                     {s.title}
                   </span>
-                  <span className="block text-xs text-primary-dark/60 mt-0.5">{s.verses.join(', ')}</span>
+                  <span className="block text-xs text-ink-muted mt-0.5">{s.verses.join(', ')}</span>
                 </Link>
               ))}
             </div>
@@ -503,7 +503,7 @@ export default async function StoryPage({ params }: PageProps) {
               <h3 className="font-semibold text-scripture mb-1">
                 What is the story of &ldquo;{story.title}&rdquo; in the Bible?
               </h3>
-              <p className="text-primary-dark/80 text-sm leading-relaxed">
+              <p className="text-scripture text-sm leading-relaxed">
                 {story.description} This story is found in {verseList}.
               </p>
             </div>
@@ -511,7 +511,7 @@ export default async function StoryPage({ params }: PageProps) {
               <h3 className="font-semibold text-scripture mb-1">
                 Where is &ldquo;{story.title}&rdquo; found in the Bible?
               </h3>
-              <p className="text-primary-dark/80 text-sm leading-relaxed">
+              <p className="text-scripture text-sm leading-relaxed">
                 &ldquo;{story.title}&rdquo; is found in {verseList}, in the book of {story.book}.
               </p>
             </div>
@@ -519,7 +519,7 @@ export default async function StoryPage({ params }: PageProps) {
               <h3 className="font-semibold text-scripture mb-1">
                 What can children learn from &ldquo;{story.title}&rdquo;?
               </h3>
-              <p className="text-primary-dark/80 text-sm leading-relaxed">
+              <p className="text-scripture text-sm leading-relaxed">
                 This story teaches children about {themesText}. {story.kidsDescription || story.description}
               </p>
             </div>
@@ -531,33 +531,33 @@ export default async function StoryPage({ params }: PageProps) {
           <h2 className="text-lg font-bold text-scripture mb-3">Continue Your Study</h2>
           <div className="grid gap-2 sm:grid-cols-2">
             {chapterReaderSlug && (
-              <Link href={`/${chapterReaderSlug}`} className="text-blue-600 hover:underline text-sm">
+              <Link href={`/${chapterReaderSlug}`} className="text-sacred hover:underline text-sm">
                 Read {story.book} {story.chapter} with Commentary
               </Link>
             )}
             {chapterQuizSlug && (
-              <Link href={`/${chapterQuizSlug}`} className="text-blue-600 hover:underline text-sm">
+              <Link href={`/${chapterQuizSlug}`} className="text-sacred hover:underline text-sm">
                 {story.book} {story.chapter} Quiz
               </Link>
             )}
             {bookChaptersSlug && (
-              <Link href={`/${bookChaptersSlug}`} className="text-blue-600 hover:underline text-sm">
+              <Link href={`/${bookChaptersSlug}`} className="text-sacred hover:underline text-sm">
                 All {story.book} Chapters
               </Link>
             )}
-            <Link href={`/${story.bookSlug}-quiz`} className="text-blue-600 hover:underline text-sm">
+            <Link href={`/${story.bookSlug}-quiz`} className="text-sacred hover:underline text-sm">
               Complete {story.book} Quiz
             </Link>
-            <Link href="/bible-stories" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-stories" className="text-sacred hover:underline text-sm">
               All Bible Stories
             </Link>
-            <Link href="/people" className="text-blue-600 hover:underline text-sm">
+            <Link href="/people" className="text-sacred hover:underline text-sm">
               Bible Characters Directory
             </Link>
-            <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">
               Bible Quizzes
             </Link>
-            <Link href="/topics" className="text-blue-600 hover:underline text-sm">
+            <Link href="/topics" className="text-sacred hover:underline text-sm">
               Bible Topics
             </Link>
           </div>

@@ -174,7 +174,7 @@ export default function HowToReadTheBiblePage() {
             <h1 className="text-3xl md:text-4xl font-bold font-display mb-4 text-scripture">
               How to Read the Bible
             </h1>
-            <p className="text-lg text-primary-dark/70 max-w-3xl mb-4">
+            <p className="text-lg text-ink-muted max-w-3xl mb-4">
               A practical guide to 7 Bible reading methods that actually work, where to start,
               daily reading plans, and the study tools that will make Scripture come alive. Whether
               you have never opened a Bible or you have been reading it for thirty years, there is
@@ -182,26 +182,26 @@ export default function HowToReadTheBiblePage() {
             </p>
             <Link
               href="/bible-quizzes"
-              className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md w-fit mb-6"
+              className="inline-flex items-center px-6 py-3 bg-white text-scripture font-bold rounded-lg hover:bg-sacred-light transition-colors shadow-md w-fit mb-6"
             >
               Test Your Bible Knowledge -- Take a Quiz
             </Link>
             <div className="flex flex-wrap gap-6 text-center mb-6">
               <div>
                 <p className="text-3xl font-bold text-scripture">7</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Methods</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Methods</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-scripture">66</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Books</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Books</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-scripture">1,189</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Chapters</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Chapters</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-scripture">4</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">
+                <p className="text-xs text-ink-muted uppercase tracking-wider">
                   Reading Plans
                 </p>
               </div>
@@ -217,7 +217,7 @@ export default function HowToReadTheBiblePage() {
           <h2 className="text-2xl font-bold font-display text-scripture mb-4 border-b border-grace pb-2">
             Don&apos;t Start at Page One
           </h2>
-          <div className="text-primary-dark/80 leading-relaxed space-y-4">
+          <div className="text-scripture leading-relaxed space-y-4">
             <p>
               Here is the single best piece of advice nobody gives new Bible readers: do not start
               at Genesis 1:1 and try to read straight through. I know. It feels like the obvious
@@ -233,11 +233,11 @@ export default function HowToReadTheBiblePage() {
             </p>
             <p>
               Maybe you have already tried. You made it through the drama of{' '}
-              <Link href="/genesis-chapters" className="text-blue-600 hover:underline">
+              <Link href="/genesis-chapters" className="text-sacred hover:underline">
                 Genesis
               </Link>
               , pushed through{' '}
-              <Link href="/exodus-chapters" className="text-blue-600 hover:underline">
+              <Link href="/exodus-chapters" className="text-sacred hover:underline">
                 Exodus
               </Link>
               , and then hit Leviticus. Skin disease regulations. Grain offering measurements.
@@ -247,18 +247,18 @@ export default function HowToReadTheBiblePage() {
             </p>
             <p>
               Start with the{' '}
-              <Link href="/john-chapters" className="text-blue-600 hover:underline">
+              <Link href="/john-chapters" className="text-sacred hover:underline">
                 Gospel of John
               </Link>{' '}
               instead. Twenty-one chapters. Clear, profound language. John wrote it with a specific
               purpose: &ldquo;that ye might believe that Jesus is the Christ, the Son of God; and
               that believing ye might have life through his name&rdquo; (John 20:31). That is the
               heart of the entire Bible in one sentence. After John, read{' '}
-              <Link href="/mark-chapters" className="text-blue-600 hover:underline">
+              <Link href="/mark-chapters" className="text-sacred hover:underline">
                 Mark
               </Link>{' '}
               -- fast, vivid, action-packed. Then{' '}
-              <Link href="/romans-chapters" className="text-blue-600 hover:underline">
+              <Link href="/romans-chapters" className="text-sacred hover:underline">
                 Romans
               </Link>{' '}
               for the theology that holds everything together. Three books. That foundation will
@@ -278,7 +278,7 @@ export default function HowToReadTheBiblePage() {
           <h2 className="text-2xl font-bold font-display text-scripture mb-4 border-b border-grace pb-2">
             7 Bible Reading Methods That Actually Work
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-6">
+          <p className="text-scripture leading-relaxed mb-6">
             There is no single correct way to read the Bible. The right method is the one you will
             actually keep doing next Tuesday morning when your alarm goes off and the bed is warm.
             Here are seven approaches that have stood the test of centuries -- each one suited to a
@@ -291,7 +291,7 @@ export default function HowToReadTheBiblePage() {
               <h3 className="font-semibold text-scripture mb-2">
                 1. Start with the Gospel of John
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed mb-2">
+              <p className="text-sm text-ink-muted leading-relaxed mb-2">
                 This is not really a &ldquo;method&rdquo; so much as a starting point, but it
                 belongs here because it solves the biggest problem beginners face: not knowing
                 where to begin. John gives you the interpretive lens for the rest of the Bible.
@@ -299,7 +299,7 @@ export default function HowToReadTheBiblePage() {
                 move on to His backstory in the Old Testament. Think of it like watching a movie
                 trailer before the full film -- suddenly you know what to look for.
               </p>
-              <p className="text-xs text-primary-dark/50">
+              <p className="text-xs text-ink-muted">
                 Best for: absolute beginners, anyone returning to the Bible after years away
               </p>
             </div>
@@ -309,7 +309,7 @@ export default function HowToReadTheBiblePage() {
               <h3 className="font-semibold text-scripture mb-2">
                 2. The Read-a-Chapter-a-Day Approach
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed mb-2">
+              <p className="text-sm text-ink-muted leading-relaxed mb-2">
                 One chapter. Three to five minutes. That is it. The Bible has 1,189 chapters, so
                 at this pace you will finish in about 3 years and 3 months. Slow? Yes. Sustainable?
                 That is the entire point. No guilt, no marathon sessions, no falling behind a rigid
@@ -317,7 +317,7 @@ export default function HowToReadTheBiblePage() {
                 Pair it with a notebook and write one sentence about what you read. Over three years
                 you will have a personal commentary on the entire Bible written in your own hand.
               </p>
-              <p className="text-xs text-primary-dark/50">
+              <p className="text-xs text-ink-muted">
                 Best for: busy people, daily Bible reading habit builders, anyone who has failed at
                 ambitious plans before
               </p>
@@ -326,9 +326,9 @@ export default function HowToReadTheBiblePage() {
             {/* Method 3: Chronological */}
             <div className="bg-white border border-grace rounded-xl p-5">
               <h3 className="font-semibold text-scripture mb-2">3. Chronological Reading</h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed mb-2">
+              <p className="text-sm text-ink-muted leading-relaxed mb-2">
                 Read events in the order they happened, not the order the books appear on the page.{' '}
-                <Link href="/job-chapters" className="text-blue-600 hover:underline">
+                <Link href="/job-chapters" className="text-sacred hover:underline">
                   Job
                 </Link>{' '}
                 shows up around the time of Genesis. The Psalms get woven into David&apos;s life
@@ -337,7 +337,7 @@ export default function HowToReadTheBiblePage() {
                 rearranging a jigsaw puzzle so you can finally see the picture on the box.
                 Chronological Bible reading plans typically take one year at about 15 minutes a day.
               </p>
-              <p className="text-xs text-primary-dark/50">
+              <p className="text-xs text-ink-muted">
                 Best for: second-time readers, history lovers, anyone confused by the Old Testament
                 timeline
               </p>
@@ -346,21 +346,21 @@ export default function HowToReadTheBiblePage() {
             {/* Method 4: Topical Study */}
             <div className="bg-white border border-grace rounded-xl p-5">
               <h3 className="font-semibold text-scripture mb-2">4. Topical Study Method</h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed mb-2">
+              <p className="text-sm text-ink-muted leading-relaxed mb-2">
                 Pick a theme --{' '}
-                <Link href="/bible-quotes/forgiveness" className="text-blue-600 hover:underline">
+                <Link href="/bible-quotes/forgiveness" className="text-sacred hover:underline">
                   forgiveness
                 </Link>
                 ,{' '}
-                <Link href="/bible-quotes/prayer" className="text-blue-600 hover:underline">
+                <Link href="/bible-quotes/prayer" className="text-sacred hover:underline">
                   prayer
                 </Link>
                 ,{' '}
-                <Link href="/bible-quotes/faith" className="text-blue-600 hover:underline">
+                <Link href="/bible-quotes/faith" className="text-sacred hover:underline">
                   faith
                 </Link>
                 , marriage, suffering -- and trace it across the whole Bible using a concordance or{' '}
-                <Link href="/bible-topics" className="text-blue-600 hover:underline">
+                <Link href="/bible-topics" className="text-sacred hover:underline">
                   topical Bible study tool
                 </Link>
                 . You will not read cover to cover this way. But you will understand specific
@@ -369,7 +369,7 @@ export default function HowToReadTheBiblePage() {
                 actually say about anxiety? About money? About death? Topical study gives you
                 answers you can hold onto when life gets hard.
               </p>
-              <p className="text-xs text-primary-dark/50">
+              <p className="text-xs text-ink-muted">
                 Best for: answering life questions, devotional depth on a single subject, sermon
                 preparation
               </p>
@@ -380,7 +380,7 @@ export default function HowToReadTheBiblePage() {
               <h3 className="font-semibold text-scripture mb-2">
                 5. The SOAP Method (Scripture, Observe, Apply, Pray)
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed mb-2">
+              <p className="text-sm text-ink-muted leading-relaxed mb-2">
                 Four steps. Fifteen minutes. This is the gold standard for personal devotions and
                 it works whether you are brand new or you have been reading for decades. Read a
                 passage -- even a single chapter is plenty. Write out a verse that grabs you
@@ -389,7 +389,7 @@ export default function HowToReadTheBiblePage() {
                 today? (Apply). Then talk to God about it (Pray). No seminary degree required. Just
                 a Bible and a notebook.
               </p>
-              <p className="text-xs text-primary-dark/50">
+              <p className="text-xs text-ink-muted">
                 Best for: journalers, devotional readers, anyone who wants Bible reading to feel
                 personal rather than academic
               </p>
@@ -398,23 +398,23 @@ export default function HowToReadTheBiblePage() {
             {/* Method 6: Book-at-a-Time */}
             <div className="bg-white border border-grace rounded-xl p-5">
               <h3 className="font-semibold text-scripture mb-2">6. Book-at-a-Time Method</h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed mb-2">
+              <p className="text-sm text-ink-muted leading-relaxed mb-2">
                 Pick one book of the Bible and live in it for a while. Read it through quickly once
                 to get the big picture. Then go back and read it slowly, chapter by chapter, taking
                 notes. Read it a third time and you will notice things you completely missed the
                 first two times. Here is the thing most people miss: repetition is not boring when
                 you are reading Scripture. It is revealing. A short epistle like{' '}
-                <Link href="/james-chapters" className="text-blue-600 hover:underline">
+                <Link href="/james-chapters" className="text-sacred hover:underline">
                   James
                 </Link>{' '}
                 or{' '}
-                <Link href="/philippians-chapters" className="text-blue-600 hover:underline">
+                <Link href="/philippians-chapters" className="text-sacred hover:underline">
                   Philippians
                 </Link>{' '}
                 can be read in one sitting (twenty minutes, tops), which makes this method perfect
                 for deep-dive study over a few weeks.
               </p>
-              <p className="text-xs text-primary-dark/50">
+              <p className="text-xs text-ink-muted">
                 Best for: people who want depth over breadth, small group leaders, anyone preparing
                 to teach
               </p>
@@ -423,9 +423,9 @@ export default function HowToReadTheBiblePage() {
             {/* Method 7: Cross-Reference Study */}
             <div className="bg-white border border-grace rounded-xl p-5">
               <h3 className="font-semibold text-scripture mb-2">7. Cross-Reference Study</h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed mb-2">
+              <p className="text-sm text-ink-muted leading-relaxed mb-2">
                 Start with one verse. Look up its{' '}
-                <Link href="/cross-references" className="text-blue-600 hover:underline">
+                <Link href="/cross-references" className="text-sacred hover:underline">
                   cross-references
                 </Link>{' '}
                 -- the other passages in the Bible that connect to it. Follow each thread. A single
@@ -436,7 +436,7 @@ export default function HowToReadTheBiblePage() {
                 honest, is one of the most staggering facts about any piece of literature in human
                 history.)
               </p>
-              <p className="text-xs text-primary-dark/50">
+              <p className="text-xs text-ink-muted">
                 Best for: experienced readers, Bible scholars, anyone who loves seeing how
                 Scripture interprets Scripture
               </p>
@@ -445,18 +445,18 @@ export default function HowToReadTheBiblePage() {
         </section>
 
         {/* Mid-article CTA */}
-        <section className="mb-12 bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-6 md:p-8 text-white">
+        <section className="mb-12 bg-gradient-to-r from-scripture to-scripture/80 rounded-xl p-6 md:p-8 text-white">
           <h2 className="text-xl md:text-2xl font-display font-bold mb-2">
             Put Your Reading to the Test
           </h2>
-          <p className="text-blue-100 mb-4 max-w-2xl">
+          <p className="text-sacred-light mb-4 max-w-2xl">
             The best way to remember what you read is to quiz yourself on it. Chapter-by-chapter
             quizzes for all 66 books of the Bible with instant scoring and verse-by-verse
             explanations.
           </p>
           <Link
             href="/bible-quizzes"
-            className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md"
+            className="inline-flex items-center px-6 py-3 bg-white text-scripture font-bold rounded-lg hover:bg-sacred-light transition-colors shadow-md"
           >
             Browse All Bible Quizzes
           </Link>
@@ -467,7 +467,7 @@ export default function HowToReadTheBiblePage() {
           <h2 className="text-2xl font-bold font-display text-scripture mb-4 border-b border-grace pb-2">
             The Best Books of the Bible to Start With
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-6">
+          <p className="text-scripture leading-relaxed mb-6">
             If someone handed you a reading list of ten books and said &ldquo;read these and you
             will understand 80% of the Bible&apos;s message,&rdquo; this would be that list. They
             are not ranked by importance (every book of the Bible matters), but by accessibility
@@ -475,47 +475,47 @@ export default function HowToReadTheBiblePage() {
           </p>
 
           <div className="space-y-3">
-            <div className="bg-white border border-grace rounded-xl p-5 hover:border-blue-200 hover:shadow-sm transition-all">
+            <div className="bg-white border border-grace rounded-xl p-5 hover:border-sacred/50 hover:shadow-sm transition-all">
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <h3 className="font-semibold text-scripture mb-1">1. Gospel of John</h3>
-                  <p className="text-sm text-primary-dark/70 leading-relaxed">
+                  <p className="text-sm text-ink-muted leading-relaxed">
                     Written specifically so you would believe. Twenty-one chapters that reveal who
                     Jesus is, what He claimed, and why it matters for eternity.
                   </p>
                 </div>
                 <Link
                   href="/john-chapters"
-                  className="shrink-0 inline-flex items-center px-4 py-2 bg-blue-50 text-blue-700 text-sm font-medium rounded-lg border border-blue-100 hover:bg-blue-100 transition-colors"
+                  className="shrink-0 inline-flex items-center px-4 py-2 bg-blue-50 text-scripture text-sm font-medium rounded-lg border border-sacred/10 hover:bg-sacred-light transition-colors"
                 >
                   Read John
                 </Link>
               </div>
             </div>
 
-            <div className="bg-white border border-grace rounded-xl p-5 hover:border-blue-200 hover:shadow-sm transition-all">
+            <div className="bg-white border border-grace rounded-xl p-5 hover:border-sacred/50 hover:shadow-sm transition-all">
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <h3 className="font-semibold text-scripture mb-1">2. Genesis</h3>
-                  <p className="text-sm text-primary-dark/70 leading-relaxed">
+                  <p className="text-sm text-ink-muted leading-relaxed">
                     The origin story. Creation, the fall, the flood, Abraham, Isaac, Jacob, Joseph.
                     Every major theme in the Bible starts here.
                   </p>
                 </div>
                 <Link
                   href="/genesis-chapters"
-                  className="shrink-0 inline-flex items-center px-4 py-2 bg-blue-50 text-blue-700 text-sm font-medium rounded-lg border border-blue-100 hover:bg-blue-100 transition-colors"
+                  className="shrink-0 inline-flex items-center px-4 py-2 bg-blue-50 text-scripture text-sm font-medium rounded-lg border border-sacred/10 hover:bg-sacred-light transition-colors"
                 >
                   Read Genesis
                 </Link>
               </div>
             </div>
 
-            <div className="bg-white border border-grace rounded-xl p-5 hover:border-blue-200 hover:shadow-sm transition-all">
+            <div className="bg-white border border-grace rounded-xl p-5 hover:border-sacred/50 hover:shadow-sm transition-all">
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <h3 className="font-semibold text-scripture mb-1">3. Psalms</h3>
-                  <p className="text-sm text-primary-dark/70 leading-relaxed">
+                  <p className="text-sm text-ink-muted leading-relaxed">
                     The prayer book of the Bible. Raw, honest conversations with God covering grief,
                     joy, fear, praise, anger, and trust. Read one Psalm a day and you will never run
                     out of words to pray.
@@ -523,72 +523,72 @@ export default function HowToReadTheBiblePage() {
                 </div>
                 <Link
                   href="/psalms-chapters"
-                  className="shrink-0 inline-flex items-center px-4 py-2 bg-blue-50 text-blue-700 text-sm font-medium rounded-lg border border-blue-100 hover:bg-blue-100 transition-colors"
+                  className="shrink-0 inline-flex items-center px-4 py-2 bg-blue-50 text-scripture text-sm font-medium rounded-lg border border-sacred/10 hover:bg-sacred-light transition-colors"
                 >
                   Read Psalms
                 </Link>
               </div>
             </div>
 
-            <div className="bg-white border border-grace rounded-xl p-5 hover:border-blue-200 hover:shadow-sm transition-all">
+            <div className="bg-white border border-grace rounded-xl p-5 hover:border-sacred/50 hover:shadow-sm transition-all">
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <h3 className="font-semibold text-scripture mb-1">4. Proverbs</h3>
-                  <p className="text-sm text-primary-dark/70 leading-relaxed">
+                  <p className="text-sm text-ink-muted leading-relaxed">
                     Thirty-one chapters of practical wisdom for daily life. Money, relationships,
                     speech, discipline, work ethic. Read one chapter per day for a month.
                   </p>
                 </div>
                 <Link
                   href="/proverbs-chapters"
-                  className="shrink-0 inline-flex items-center px-4 py-2 bg-blue-50 text-blue-700 text-sm font-medium rounded-lg border border-blue-100 hover:bg-blue-100 transition-colors"
+                  className="shrink-0 inline-flex items-center px-4 py-2 bg-blue-50 text-scripture text-sm font-medium rounded-lg border border-sacred/10 hover:bg-sacred-light transition-colors"
                 >
                   Read Proverbs
                 </Link>
               </div>
             </div>
 
-            <div className="bg-white border border-grace rounded-xl p-5 hover:border-blue-200 hover:shadow-sm transition-all">
+            <div className="bg-white border border-grace rounded-xl p-5 hover:border-sacred/50 hover:shadow-sm transition-all">
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <h3 className="font-semibold text-scripture mb-1">5. Romans</h3>
-                  <p className="text-sm text-primary-dark/70 leading-relaxed">
+                  <p className="text-sm text-ink-muted leading-relaxed">
                     The apostle Paul&apos;s masterpiece on salvation by grace through faith. If you
                     want to understand what Christians actually believe and why, Romans is the book.
                   </p>
                 </div>
                 <Link
                   href="/romans-chapters"
-                  className="shrink-0 inline-flex items-center px-4 py-2 bg-blue-50 text-blue-700 text-sm font-medium rounded-lg border border-blue-100 hover:bg-blue-100 transition-colors"
+                  className="shrink-0 inline-flex items-center px-4 py-2 bg-blue-50 text-scripture text-sm font-medium rounded-lg border border-sacred/10 hover:bg-sacred-light transition-colors"
                 >
                   Read Romans
                 </Link>
               </div>
             </div>
 
-            <div className="bg-white border border-grace rounded-xl p-5 hover:border-blue-200 hover:shadow-sm transition-all">
+            <div className="bg-white border border-grace rounded-xl p-5 hover:border-sacred/50 hover:shadow-sm transition-all">
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <h3 className="font-semibold text-scripture mb-1">6. James</h3>
-                  <p className="text-sm text-primary-dark/70 leading-relaxed">
+                  <p className="text-sm text-ink-muted leading-relaxed">
                     Five chapters of no-nonsense, practical Christianity. Faith without works. The
                     tongue. Patience in suffering. James does not let you sit on the sidelines.
                   </p>
                 </div>
                 <Link
                   href="/james-chapters"
-                  className="shrink-0 inline-flex items-center px-4 py-2 bg-blue-50 text-blue-700 text-sm font-medium rounded-lg border border-blue-100 hover:bg-blue-100 transition-colors"
+                  className="shrink-0 inline-flex items-center px-4 py-2 bg-blue-50 text-scripture text-sm font-medium rounded-lg border border-sacred/10 hover:bg-sacred-light transition-colors"
                 >
                   Read James
                 </Link>
               </div>
             </div>
 
-            <div className="bg-white border border-grace rounded-xl p-5 hover:border-blue-200 hover:shadow-sm transition-all">
+            <div className="bg-white border border-grace rounded-xl p-5 hover:border-sacred/50 hover:shadow-sm transition-all">
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <h3 className="font-semibold text-scripture mb-1">7. Ephesians</h3>
-                  <p className="text-sm text-primary-dark/70 leading-relaxed">
+                  <p className="text-sm text-ink-muted leading-relaxed">
                     Six chapters on what it means to be &ldquo;in Christ.&rdquo; Identity, grace,
                     the church, spiritual warfare, and the armor of God. Dense with theology but
                     deeply personal.
@@ -596,18 +596,18 @@ export default function HowToReadTheBiblePage() {
                 </div>
                 <Link
                   href="/ephesians-chapters"
-                  className="shrink-0 inline-flex items-center px-4 py-2 bg-blue-50 text-blue-700 text-sm font-medium rounded-lg border border-blue-100 hover:bg-blue-100 transition-colors"
+                  className="shrink-0 inline-flex items-center px-4 py-2 bg-blue-50 text-scripture text-sm font-medium rounded-lg border border-sacred/10 hover:bg-sacred-light transition-colors"
                 >
                   Read Ephesians
                 </Link>
               </div>
             </div>
 
-            <div className="bg-white border border-grace rounded-xl p-5 hover:border-blue-200 hover:shadow-sm transition-all">
+            <div className="bg-white border border-grace rounded-xl p-5 hover:border-sacred/50 hover:shadow-sm transition-all">
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <h3 className="font-semibold text-scripture mb-1">8. Acts</h3>
-                  <p className="text-sm text-primary-dark/70 leading-relaxed">
+                  <p className="text-sm text-ink-muted leading-relaxed">
                     The sequel to the Gospels. How the early church exploded from a small group of
                     frightened disciples into a movement that changed the world. Reads like an
                     adventure novel.
@@ -615,18 +615,18 @@ export default function HowToReadTheBiblePage() {
                 </div>
                 <Link
                   href="/acts-chapters"
-                  className="shrink-0 inline-flex items-center px-4 py-2 bg-blue-50 text-blue-700 text-sm font-medium rounded-lg border border-blue-100 hover:bg-blue-100 transition-colors"
+                  className="shrink-0 inline-flex items-center px-4 py-2 bg-blue-50 text-scripture text-sm font-medium rounded-lg border border-sacred/10 hover:bg-sacred-light transition-colors"
                 >
                   Read Acts
                 </Link>
               </div>
             </div>
 
-            <div className="bg-white border border-grace rounded-xl p-5 hover:border-blue-200 hover:shadow-sm transition-all">
+            <div className="bg-white border border-grace rounded-xl p-5 hover:border-sacred/50 hover:shadow-sm transition-all">
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <h3 className="font-semibold text-scripture mb-1">9. Mark</h3>
-                  <p className="text-sm text-primary-dark/70 leading-relaxed">
+                  <p className="text-sm text-ink-muted leading-relaxed">
                     The shortest Gospel. Sixteen chapters of fast-paced, action-driven narrative.
                     Mark uses the word &ldquo;immediately&rdquo; over 40 times. It is the Gospel
                     for people who do not like to sit still.
@@ -634,18 +634,18 @@ export default function HowToReadTheBiblePage() {
                 </div>
                 <Link
                   href="/mark-chapters"
-                  className="shrink-0 inline-flex items-center px-4 py-2 bg-blue-50 text-blue-700 text-sm font-medium rounded-lg border border-blue-100 hover:bg-blue-100 transition-colors"
+                  className="shrink-0 inline-flex items-center px-4 py-2 bg-blue-50 text-scripture text-sm font-medium rounded-lg border border-sacred/10 hover:bg-sacred-light transition-colors"
                 >
                   Read Mark
                 </Link>
               </div>
             </div>
 
-            <div className="bg-white border border-grace rounded-xl p-5 hover:border-blue-200 hover:shadow-sm transition-all">
+            <div className="bg-white border border-grace rounded-xl p-5 hover:border-sacred/50 hover:shadow-sm transition-all">
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <h3 className="font-semibold text-scripture mb-1">10. Exodus</h3>
-                  <p className="text-sm text-primary-dark/70 leading-relaxed">
+                  <p className="text-sm text-ink-muted leading-relaxed">
                     The great rescue story. Slavery in Egypt, the ten plagues, the parting of the
                     Red Sea, the Ten Commandments, the golden calf. Exodus is where God reveals
                     His name and His character in unforgettable ways.
@@ -653,7 +653,7 @@ export default function HowToReadTheBiblePage() {
                 </div>
                 <Link
                   href="/exodus-chapters"
-                  className="shrink-0 inline-flex items-center px-4 py-2 bg-blue-50 text-blue-700 text-sm font-medium rounded-lg border border-blue-100 hover:bg-blue-100 transition-colors"
+                  className="shrink-0 inline-flex items-center px-4 py-2 bg-blue-50 text-scripture text-sm font-medium rounded-lg border border-sacred/10 hover:bg-sacred-light transition-colors"
                 >
                   Read Exodus
                 </Link>
@@ -667,7 +667,7 @@ export default function HowToReadTheBiblePage() {
           <h2 className="text-2xl font-bold font-display text-scripture mb-4 border-b border-grace pb-2">
             Bible Reading Plans
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-6">
+          <p className="text-scripture leading-relaxed mb-6">
             A reading plan eliminates the daily decision of &ldquo;what should I read today?&rdquo;
             Decision fatigue kills more Bible reading habits than anything else. When you have a
             plan, you just open to the assigned passage and start. No overthinking. Pick the pace
@@ -675,68 +675,68 @@ export default function HowToReadTheBiblePage() {
           </p>
 
           <div className="grid sm:grid-cols-2 gap-4">
-            <div className="bg-white border border-grace rounded-xl p-6 hover:border-blue-200 hover:shadow-sm transition-all">
+            <div className="bg-white border border-grace rounded-xl p-6 hover:border-sacred/50 hover:shadow-sm transition-all">
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
-                  <span className="text-xl font-bold text-blue-600">90</span>
+                  <span className="text-xl font-bold text-sacred">90</span>
                 </div>
                 <div>
                   <h3 className="font-semibold text-scripture">90-Day Whole Bible</h3>
-                  <p className="text-xs text-primary-dark/50">13 chapters per day</p>
+                  <p className="text-xs text-ink-muted">13 chapters per day</p>
                 </div>
               </div>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 The sprint. About 45 minutes to an hour of reading daily. Intense, but you will
                 finish the entire Bible in three months. Best for committed readers who want the
                 full picture fast.
               </p>
             </div>
 
-            <div className="bg-white border border-grace rounded-xl p-6 hover:border-blue-200 hover:shadow-sm transition-all">
+            <div className="bg-white border border-grace rounded-xl p-6 hover:border-sacred/50 hover:shadow-sm transition-all">
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
-                  <span className="text-xl font-bold text-blue-600">365</span>
+                  <span className="text-xl font-bold text-sacred">365</span>
                 </div>
                 <div>
                   <h3 className="font-semibold text-scripture">1-Year Whole Bible</h3>
-                  <p className="text-xs text-primary-dark/50">3-4 chapters per day</p>
+                  <p className="text-xs text-ink-muted">3-4 chapters per day</p>
                 </div>
               </div>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 The most popular plan in the world. Fifteen to twenty minutes a day, mixing Old
                 Testament and New Testament readings. Sustainable, thorough, and deeply rewarding
                 when you reach Revelation on December 31st.
               </p>
             </div>
 
-            <div className="bg-white border border-grace rounded-xl p-6 hover:border-blue-200 hover:shadow-sm transition-all">
+            <div className="bg-white border border-grace rounded-xl p-6 hover:border-sacred/50 hover:shadow-sm transition-all">
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
-                  <span className="text-lg font-bold text-blue-600">NT</span>
+                  <span className="text-lg font-bold text-sacred">NT</span>
                 </div>
                 <div>
                   <h3 className="font-semibold text-scripture">New Testament in 90 Days</h3>
-                  <p className="text-xs text-primary-dark/50">3 chapters per day</p>
+                  <p className="text-xs text-ink-muted">3 chapters per day</p>
                 </div>
               </div>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Perfect for beginners who want to start with Jesus and the early church before
                 tackling the Old Testament. Ten to fifteen minutes daily. The New Testament has 260
                 chapters, making this a very manageable pace.
               </p>
             </div>
 
-            <div className="bg-white border border-grace rounded-xl p-6 hover:border-blue-200 hover:shadow-sm transition-all">
+            <div className="bg-white border border-grace rounded-xl p-6 hover:border-sacred/50 hover:shadow-sm transition-all">
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
-                  <span className="text-lg font-bold text-blue-600">30</span>
+                  <span className="text-lg font-bold text-sacred">30</span>
                 </div>
                 <div>
                   <h3 className="font-semibold text-scripture">Psalms &amp; Proverbs 30-Day</h3>
-                  <p className="text-xs text-primary-dark/50">~2 chapters per day</p>
+                  <p className="text-xs text-ink-muted">~2 chapters per day</p>
                 </div>
               </div>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Read through all 150 Psalms and 31 Proverbs in one month. Roughly six chapters a
                 day total, but these are short chapters. Ideal for building a daily reading habit
                 with some of the most beautiful and practical writing in all of Scripture.
@@ -747,7 +747,7 @@ export default function HowToReadTheBiblePage() {
           <div className="mt-4">
             <Link
               href="/reading-plans"
-              className="inline-flex items-center px-5 py-2.5 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-colors"
+              className="inline-flex items-center px-5 py-2.5 bg-scripture text-white font-bold rounded-lg hover:bg-ink-muted transition-colors"
             >
               View All Reading Plans
             </Link>
@@ -759,7 +759,7 @@ export default function HowToReadTheBiblePage() {
           <h2 className="text-2xl font-bold font-display text-scripture mb-4 border-b border-grace pb-2">
             Free Bible Study Tools
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-6">
+          <p className="text-scripture leading-relaxed mb-6">
             Reading the Bible is the start. Studying it is where the depth comes. These tools are
             like having a seminary library on your screen -- original languages, topical indexes,
             cross-references, and encyclopedic entries for thousands of biblical subjects. All free.
@@ -768,12 +768,12 @@ export default function HowToReadTheBiblePage() {
           <div className="grid sm:grid-cols-2 gap-4">
             <Link
               href="/cross-references"
-              className="bg-white border border-grace rounded-xl p-5 hover:shadow-md hover:border-blue-300 transition-all group"
+              className="bg-white border border-grace rounded-xl p-5 hover:shadow-md hover:border-sacred/50 transition-all group"
             >
-              <h3 className="font-semibold text-scripture group-hover:text-blue-600 transition-colors mb-2">
+              <h3 className="font-semibold text-scripture group-hover:text-gold-dark transition-colors mb-2">
                 Cross References
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Discover how Scripture interprets Scripture. For any verse, find related passages
                 that illuminate the same themes, prophecies, and doctrines across the Old and New
                 Testaments.
@@ -782,12 +782,12 @@ export default function HowToReadTheBiblePage() {
 
             <Link
               href="/hebrew-words"
-              className="bg-white border border-grace rounded-xl p-5 hover:shadow-md hover:border-blue-300 transition-all group"
+              className="bg-white border border-grace rounded-xl p-5 hover:shadow-md hover:border-sacred/50 transition-all group"
             >
-              <h3 className="font-semibold text-scripture group-hover:text-blue-600 transition-colors mb-2">
+              <h3 className="font-semibold text-scripture group-hover:text-gold-dark transition-colors mb-2">
                 Hebrew Word Studies
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Explore 8,674 Hebrew words from the Old Testament with definitions,
                 transliterations, and every verse where each word appears in the King James Version.
               </p>
@@ -795,12 +795,12 @@ export default function HowToReadTheBiblePage() {
 
             <Link
               href="/greek-words"
-              className="bg-white border border-grace rounded-xl p-5 hover:shadow-md hover:border-blue-300 transition-all group"
+              className="bg-white border border-grace rounded-xl p-5 hover:shadow-md hover:border-sacred/50 transition-all group"
             >
-              <h3 className="font-semibold text-scripture group-hover:text-blue-600 transition-colors mb-2">
+              <h3 className="font-semibold text-scripture group-hover:text-gold-dark transition-colors mb-2">
                 Greek Word Studies
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Study 5,523 Greek words from the New Testament. See how the original language adds
                 layers of meaning that English translations cannot fully capture.
               </p>
@@ -808,12 +808,12 @@ export default function HowToReadTheBiblePage() {
 
             <Link
               href="/bible-topics"
-              className="bg-white border border-grace rounded-xl p-5 hover:shadow-md hover:border-blue-300 transition-all group"
+              className="bg-white border border-grace rounded-xl p-5 hover:shadow-md hover:border-sacred/50 transition-all group"
             >
-              <h3 className="font-semibold text-scripture group-hover:text-blue-600 transition-colors mb-2">
+              <h3 className="font-semibold text-scripture group-hover:text-gold-dark transition-colors mb-2">
                 Bible Topics
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Over 5,000 topical studies from Nave&apos;s Topical Bible. Browse by subject to
                 find every verse the Bible has to say about any theme you are studying.
               </p>
@@ -821,12 +821,12 @@ export default function HowToReadTheBiblePage() {
 
             <Link
               href="/bible-encyclopedia"
-              className="bg-white border border-grace rounded-xl p-5 hover:shadow-md hover:border-blue-300 transition-all group sm:col-span-2"
+              className="bg-white border border-grace rounded-xl p-5 hover:shadow-md hover:border-sacred/50 transition-all group sm:col-span-2"
             >
-              <h3 className="font-semibold text-scripture group-hover:text-blue-600 transition-colors mb-2">
+              <h3 className="font-semibold text-scripture group-hover:text-gold-dark transition-colors mb-2">
                 Bible Encyclopedia
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Over 11,000 entries covering people, places, concepts, and objects from the Bible.
                 A combined resource drawing from Nave&apos;s Topical Bible, Hitchcock&apos;s Bible
                 Names Dictionary, and our character database.
@@ -845,20 +845,20 @@ export default function HowToReadTheBiblePage() {
               <h3 className="font-semibold text-scripture mb-2">
                 What book of the Bible should I read first?
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 The{' '}
-                <Link href="/john-chapters" className="text-blue-600 hover:underline">
+                <Link href="/john-chapters" className="text-sacred hover:underline">
                   Gospel of John
                 </Link>
                 . Every time. John wrote it with a specific purpose: &ldquo;that ye might believe
                 that Jesus is the Christ, the Son of God&rdquo; (John 20:31). It is 21 chapters of
                 the clearest, most profound writing in the Bible, and it gives you the interpretive
                 lens you need for everything else. After John, read{' '}
-                <Link href="/mark-chapters" className="text-blue-600 hover:underline">
+                <Link href="/mark-chapters" className="text-sacred hover:underline">
                   Mark
                 </Link>{' '}
                 for a fast-paced account of Jesus&apos; ministry, then{' '}
-                <Link href="/romans-chapters" className="text-blue-600 hover:underline">
+                <Link href="/romans-chapters" className="text-sacred hover:underline">
                   Romans
                 </Link>{' '}
                 for the theology of salvation. That three-book foundation will change how you read
@@ -870,7 +870,7 @@ export default function HowToReadTheBiblePage() {
               <h3 className="font-semibold text-scripture mb-2">
                 How long does it take to read the entire Bible?
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 About 70 hours of total reading time. The King James Version has 1,189 chapters,
                 and the average chapter takes 3 to 5 minutes to read silently. At one chapter per
                 day, you will finish in roughly 3 years and 3 months. At 3 to 4 chapters per day
@@ -884,7 +884,7 @@ export default function HowToReadTheBiblePage() {
               <h3 className="font-semibold text-scripture mb-2">
                 Should I read the Old Testament or New Testament first?
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Start with the New Testament. Here is why: the Old Testament was written to point
                 forward to Jesus Christ. The New Testament reveals who He is. If you read the Old
                 Testament first without knowing Jesus, you are reading 39 books of setup without
@@ -900,7 +900,7 @@ export default function HowToReadTheBiblePage() {
               <h3 className="font-semibold text-scripture mb-2">
                 What is the SOAP Bible study method?
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 SOAP stands for Scripture, Observe, Apply, and Pray. Read a passage and write out
                 a verse or two that stand out (Scripture). Notice who is speaking, what is
                 happening, and what words repeat (Observe). Ask how this truth changes the way you
@@ -915,7 +915,7 @@ export default function HowToReadTheBiblePage() {
               <h3 className="font-semibold text-scripture mb-2">
                 How many chapters should I read per day?
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 That depends on your goals and your schedule. One chapter per day (3 to 5 minutes)
                 is the minimum for building a sustainable daily Bible reading habit. Three to four
                 chapters per day (15 to 20 minutes) is the standard Bible-in-a-year pace. Thirteen
@@ -930,7 +930,7 @@ export default function HowToReadTheBiblePage() {
               <h3 className="font-semibold text-scripture mb-2">
                 Is the King James Version hard to understand?
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Less than most people think. The King James Version uses 17th-century English, so
                 words like &ldquo;thee,&rdquo; &ldquo;thou,&rdquo; and &ldquo;hath&rdquo; can feel
                 unfamiliar at first. But here is the surprising part: most readers adapt within two
@@ -946,11 +946,11 @@ export default function HowToReadTheBiblePage() {
         </section>
 
         {/* Return-visit hook */}
-        <section className="mb-12 bg-white border-2 border-blue-200 rounded-xl p-6 md:p-8">
+        <section className="mb-12 bg-white border-2 border-sacred/20 rounded-xl p-6 md:p-8">
           <h2 className="text-xl font-bold font-display text-scripture mb-3">
             Make Bible Reading a Daily Habit
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-4">
+          <p className="text-scripture leading-relaxed mb-4">
             Bookmark this page. Come back each day to try a new method or pick up where you left
             off in your reading plan. Track your progress by completing a quiz after each chapter
             you finish.
@@ -958,13 +958,13 @@ export default function HowToReadTheBiblePage() {
           <div className="flex flex-wrap gap-3">
             <Link
               href="/reading-plans"
-              className="inline-flex items-center px-5 py-2.5 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-colors"
+              className="inline-flex items-center px-5 py-2.5 bg-scripture text-white font-bold rounded-lg hover:bg-ink-muted transition-colors"
             >
               Choose a Reading Plan
             </Link>
             <Link
               href="/bible-quizzes"
-              className="inline-flex items-center px-5 py-2.5 border-2 border-blue-600 text-blue-600 font-bold rounded-lg hover:bg-blue-50 transition-colors"
+              className="inline-flex items-center px-5 py-2.5 border-2 border-sacred text-sacred font-bold rounded-lg hover:bg-sacred-light transition-colors"
             >
               Start Your First Quiz
             </Link>
@@ -979,68 +979,68 @@ export default function HowToReadTheBiblePage() {
           <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
             <Link
               href="/bible-quizzes"
-              className="bg-blue-600 text-white text-sm font-bold px-3 py-1.5 rounded-lg hover:bg-blue-700 transition-colors"
+              className="bg-scripture text-white text-sm font-bold px-3 py-1.5 rounded-lg hover:bg-ink-muted transition-colors"
             >
               Bible Quizzes
             </Link>
             <Link
               href="/how-to-study-the-bible"
-              className="text-blue-600 hover:underline text-sm"
+              className="text-sacred hover:underline text-sm"
             >
               How to Study the Bible: 7 Methods
             </Link>
             <Link
               href="/bible-study-for-beginners"
-              className="text-blue-600 hover:underline text-sm"
+              className="text-sacred hover:underline text-sm"
             >
               Bible Study for Beginners
             </Link>
-            <Link href="/reading-plans" className="text-blue-600 hover:underline text-sm">
+            <Link href="/reading-plans" className="text-sacred hover:underline text-sm">
               Bible Reading Plans
             </Link>
-            <Link href="/books-of-the-bible" className="text-blue-600 hover:underline text-sm">
+            <Link href="/books-of-the-bible" className="text-sacred hover:underline text-sm">
               Books of the Bible
             </Link>
-            <Link href="/famous-bible-verses" className="text-blue-600 hover:underline text-sm">
+            <Link href="/famous-bible-verses" className="text-sacred hover:underline text-sm">
               Famous Bible Verses
             </Link>
-            <Link href="/bible-quotes" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-quotes" className="text-sacred hover:underline text-sm">
               Bible Quotes by Topic
             </Link>
             <Link
               href="/bible-chapter-summaries"
-              className="text-blue-600 hover:underline text-sm"
+              className="text-sacred hover:underline text-sm"
             >
               Bible Chapter Summaries
             </Link>
-            <Link href="/cross-references" className="text-blue-600 hover:underline text-sm">
+            <Link href="/cross-references" className="text-sacred hover:underline text-sm">
               Cross References
             </Link>
-            <Link href="/hebrew-words" className="text-blue-600 hover:underline text-sm">
+            <Link href="/hebrew-words" className="text-sacred hover:underline text-sm">
               Hebrew Word Studies
             </Link>
-            <Link href="/greek-words" className="text-blue-600 hover:underline text-sm">
+            <Link href="/greek-words" className="text-sacred hover:underline text-sm">
               Greek Word Studies
             </Link>
-            <Link href="/bible-topics" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-topics" className="text-sacred hover:underline text-sm">
               Topical Bible Studies
             </Link>
-            <Link href="/bible-encyclopedia" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-encyclopedia" className="text-sacred hover:underline text-sm">
               Bible Encyclopedia
             </Link>
-            <Link href="/who-wrote-the-bible" className="text-blue-600 hover:underline text-sm">
+            <Link href="/who-wrote-the-bible" className="text-sacred hover:underline text-sm">
               Who Wrote the Bible?
             </Link>
-            <Link href="/john-chapters" className="text-blue-600 hover:underline text-sm">
+            <Link href="/john-chapters" className="text-sacred hover:underline text-sm">
               Gospel of John Chapters
             </Link>
-            <Link href="/genesis-chapters" className="text-blue-600 hover:underline text-sm">
+            <Link href="/genesis-chapters" className="text-sacred hover:underline text-sm">
               Genesis Chapters
             </Link>
-            <Link href="/psalms-chapters" className="text-blue-600 hover:underline text-sm">
+            <Link href="/psalms-chapters" className="text-sacred hover:underline text-sm">
               Psalms Chapters
             </Link>
-            <Link href="/interlinear" className="text-blue-600 hover:underline text-sm">
+            <Link href="/interlinear" className="text-sacred hover:underline text-sm">
               Interlinear Bible
             </Link>
           </div>

@@ -108,23 +108,23 @@ export default async function ResourceItemPage({ params }: PageProps) {
         {/* Hero */}
         <div className="bg-white dark:bg-dark-surface border-b border-grace dark:border-dark-border py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-4 md:px-10">
-            <nav className="flex items-center gap-2 text-sm text-primary-dark/60 dark:text-primary-dark/40 mb-6 flex-wrap">
-              <Link href="/" className="hover:text-blue-600 transition-colors">Home</Link>
+            <nav className="flex items-center gap-2 text-sm text-ink-muted dark:text-ink-light mb-6 flex-wrap">
+              <Link href="/" className="hover:text-gold-dark transition-colors">Home</Link>
               <span>/</span>
-              <Link href="/resources" className="hover:text-blue-600 transition-colors">Resources</Link>
+              <Link href="/resources" className="hover:text-gold-dark transition-colors">Resources</Link>
               <span>/</span>
-              <Link href={`/resources/${slug}`} className="hover:text-blue-600 transition-colors">{resource.title}</Link>
+              <Link href={`/resources/${slug}`} className="hover:text-gold-dark transition-colors">{resource.title}</Link>
               <span>/</span>
               <span className="text-scripture dark:text-white font-medium">{item.title}</span>
             </nav>
 
-            <span className="inline-block px-3 py-1 rounded-full bg-blue-600/10 text-blue-600 text-xs font-bold uppercase mb-4">
+            <span className="inline-block px-3 py-1 rounded-full bg-sacred/10 text-sacred text-xs font-bold uppercase mb-4">
               {category}
             </span>
             <h1 className="text-3xl md:text-4xl font-bold text-scripture dark:text-white font-display mb-3">
               {item.title}
             </h1>
-            <p className="text-lg text-primary-dark/70 dark:text-primary-dark/40">
+            <p className="text-lg text-ink-muted dark:text-ink-light">
               {resource.title} &middot; {item.verses.length} verse{item.verses.length !== 1 ? 's' : ''}
             </p>
           </div>
@@ -133,12 +133,12 @@ export default async function ResourceItemPage({ params }: PageProps) {
         {/* CTA Strip */}
         <div className="max-w-4xl mx-auto px-4 md:px-10 mt-[-1.5rem] relative z-20">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="bg-blue-600 rounded-lg p-6 text-white shadow-lg flex items-center justify-between">
+            <div className="bg-scripture rounded-lg p-6 text-white shadow-lg flex items-center justify-between">
               <div>
                 <h3 className="font-bold text-lg">Take a Bible Quiz</h3>
                 <p className="text-white/80 text-xs">Test your scripture knowledge</p>
               </div>
-              <Link href="/bible-quizzes" className="bg-white text-blue-600 px-4 py-2 rounded-lg font-bold text-sm tracking-wider uppercase">
+              <Link href="/bible-quizzes" className="bg-white text-sacred px-4 py-2 rounded-lg font-bold text-sm tracking-wider uppercase">
                 Start
               </Link>
             </div>
@@ -159,7 +159,7 @@ export default async function ResourceItemPage({ params }: PageProps) {
           <section className="mb-10">
             <div className="space-y-4">
               {renderDescription(item.description).map((paragraph, i) => (
-                <p key={i} className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed text-lg">
+                <p key={i} className="text-scripture dark:text-ink-light leading-relaxed text-lg">
                   {paragraph}
                 </p>
               ))}
@@ -179,16 +179,16 @@ export default async function ResourceItemPage({ params }: PageProps) {
                     <div key={i} className="bg-white dark:bg-dark-surface border border-grace dark:border-dark-border rounded-xl p-5">
                       <div className="mb-2">
                         {link ? (
-                          <Link href={link} className="inline-block px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-sm font-semibold rounded-lg hover:bg-blue-200 transition-colors">
+                          <Link href={link} className="inline-block px-3 py-1 bg-sacred/10 dark:bg-scripture/30 text-scripture dark:text-sacred text-sm font-semibold rounded-lg hover:bg-sacred-light transition-colors">
                             {verse.reference}
                           </Link>
                         ) : (
-                          <span className="inline-block px-3 py-1 bg-blue-100 text-blue-700 text-sm font-semibold rounded-lg">
+                          <span className="inline-block px-3 py-1 bg-sacred/10 text-scripture text-sm font-semibold rounded-lg">
                             {verse.reference}
                           </span>
                         )}
                       </div>
-                      <blockquote className="text-primary-dark/70 dark:text-primary-dark/40 font-serif italic leading-relaxed">
+                      <blockquote className="text-ink-muted dark:text-ink-light font-serif italic leading-relaxed">
                         &ldquo;{verse.text}&rdquo;
                       </blockquote>
                     </div>
@@ -209,12 +209,12 @@ export default async function ResourceItemPage({ params }: PageProps) {
                   <Link
                     key={i}
                     href={`/resources/${slug}/${titleToItemSlug(entry.title)}`}
-                    className="bg-white dark:bg-dark-surface border border-grace dark:border-dark-border rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
+                    className="bg-white dark:bg-dark-surface border border-grace dark:border-dark-border rounded-lg px-4 py-3 hover:shadow-md hover:border-sacred/50 transition-all group"
                   >
-                    <span className="font-semibold text-scripture dark:text-white group-hover:text-blue-600 transition-colors">
+                    <span className="font-semibold text-scripture dark:text-white group-hover:text-gold-dark transition-colors">
                       {entry.title}
                     </span>
-                    <span className="block text-xs text-primary-dark/60 dark:text-primary-dark/40 mt-0.5">
+                    <span className="block text-xs text-ink-muted dark:text-ink-light mt-0.5">
                       {entry.verses.length} verse{entry.verses.length !== 1 ? 's' : ''}
                     </span>
                   </Link>
@@ -227,28 +227,28 @@ export default async function ResourceItemPage({ params }: PageProps) {
           <section className="bg-grace/10 dark:bg-dark-surface/30 border border-grace dark:border-dark-border rounded-xl p-6">
             <h2 className="text-lg font-bold text-scripture dark:text-white mb-3">Continue Your Study</h2>
             <div className="grid gap-2 sm:grid-cols-2">
-              <Link href={`/resources/${slug}`} className="text-blue-600 hover:underline text-sm">
+              <Link href={`/resources/${slug}`} className="text-sacred hover:underline text-sm">
                 {resource.title}
               </Link>
-              <Link href="/resources" className="text-blue-600 hover:underline text-sm">
+              <Link href="/resources" className="text-sacred hover:underline text-sm">
                 All Bible Resources
               </Link>
-              <Link href="/lexicon" className="text-blue-600 hover:underline text-sm">
+              <Link href="/lexicon" className="text-sacred hover:underline text-sm">
                 Hebrew &amp; Greek Lexicon
               </Link>
-              <Link href="/topics" className="text-blue-600 hover:underline text-sm">
+              <Link href="/topics" className="text-sacred hover:underline text-sm">
                 Bible Topics
               </Link>
-              <Link href="/nave-topics" className="text-blue-600 hover:underline text-sm">
+              <Link href="/nave-topics" className="text-sacred hover:underline text-sm">
                 Nave&apos;s Topical Bible
               </Link>
-              <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">
+              <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">
                 Bible Quizzes
               </Link>
-              <Link href="/bible-stories" className="text-blue-600 hover:underline text-sm">
+              <Link href="/bible-stories" className="text-sacred hover:underline text-sm">
                 Bible Stories
               </Link>
-              <Link href="/commandments" className="text-blue-600 hover:underline text-sm">
+              <Link href="/commandments" className="text-sacred hover:underline text-sm">
                 613 Commandments
               </Link>
             </div>

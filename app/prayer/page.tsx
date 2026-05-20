@@ -158,11 +158,11 @@ export default function PrayerPage() {
       <nav className="bg-white dark:bg-dark-surface border-b border-grace dark:border-dark-border">
         <div className="max-w-4xl mx-auto px-4 py-3">
           <ol className="flex items-center flex-wrap gap-y-1 text-sm">
-            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li><Link href="/bible-quizzes" className="text-blue-600 hover:underline">Bible Study</Link></li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li className="text-primary-dark/70 font-medium">Prayer</li>
+            <li><Link href="/" className="text-sacred hover:underline">Home</Link></li>
+            <li className="text-ink-light mx-2">/</li>
+            <li><Link href="/bible-quizzes" className="text-sacred hover:underline">Bible Study</Link></li>
+            <li className="text-ink-light mx-2">/</li>
+            <li className="text-ink-muted font-medium">Prayer</li>
           </ol>
         </div>
       </nav>
@@ -179,13 +179,13 @@ export default function PrayerPage() {
           />
         </div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 py-16 md:py-24 text-center">
-          <p className="text-blue-200 text-sm font-semibold tracking-wider uppercase mb-3">Complete Bible Study Guide</p>
+          <p className="text-sacred text-sm font-semibold tracking-wider uppercase mb-3">Complete Bible Study Guide</p>
           <h1 className="text-3xl md:text-5xl font-bold text-white font-display leading-tight mb-4">What Is Prayer?</h1>
-          <p className="text-lg md:text-xl text-blue-100/90 max-w-2xl mx-auto leading-relaxed mb-6">
+          <p className="text-lg md:text-xl text-sacred-light/90 max-w-2xl mx-auto leading-relaxed mb-6">
             Prayer isn&apos;t a religious obligation — it&apos;s a conversation with the God of the universe who actually listens. Here&apos;s everything the Bible says about how, why, and when to pray.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
-            <Link href="#what-is-prayer" className="inline-block bg-white text-scripture font-bold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors">
+            <Link href="#what-is-prayer" className="inline-block bg-white text-scripture font-bold px-6 py-3 rounded-lg hover:bg-sacred-light transition-colors">
               Start Reading
             </Link>
             <Link href="#lords-prayer" className="inline-block border-2 border-white/40 text-white font-bold px-6 py-3 rounded-lg hover:bg-white/10 transition-colors">
@@ -200,20 +200,20 @@ export default function PrayerPage() {
         {/* Quick Stats */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-10">
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-4 text-center shadow-sm">
-            <p className="text-2xl font-bold text-scripture dark:text-blue-400">650+</p>
-            <p className="text-xs text-primary-dark/60 dark:text-primary-dark/40 mt-1">Prayers in the Bible</p>
+            <p className="text-2xl font-bold text-scripture dark:text-sacred">650+</p>
+            <p className="text-xs text-ink-muted dark:text-ink-light mt-1">Prayers in the Bible</p>
           </div>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-4 text-center shadow-sm">
-            <p className="text-2xl font-bold text-scripture dark:text-blue-400">6</p>
-            <p className="text-xs text-primary-dark/60 dark:text-primary-dark/40 mt-1">Types of Prayer</p>
+            <p className="text-2xl font-bold text-scripture dark:text-sacred">6</p>
+            <p className="text-xs text-ink-muted dark:text-ink-light mt-1">Types of Prayer</p>
           </div>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-4 text-center shadow-sm">
-            <p className="text-2xl font-bold text-scripture dark:text-blue-400">7</p>
-            <p className="text-xs text-primary-dark/60 dark:text-primary-dark/40 mt-1">Greek/Hebrew Words</p>
+            <p className="text-2xl font-bold text-scripture dark:text-sacred">7</p>
+            <p className="text-xs text-ink-muted dark:text-ink-light mt-1">Greek/Hebrew Words</p>
           </div>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-4 text-center shadow-sm">
-            <p className="text-2xl font-bold text-scripture dark:text-blue-400">10</p>
-            <p className="text-xs text-primary-dark/60 dark:text-primary-dark/40 mt-1">Famous Bible Prayers</p>
+            <p className="text-2xl font-bold text-scripture dark:text-sacred">10</p>
+            <p className="text-xs text-ink-muted dark:text-ink-light mt-1">Famous Bible Prayers</p>
           </div>
         </div>
 
@@ -221,36 +221,36 @@ export default function PrayerPage() {
         <nav id="toc" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm p-6 mb-10 scroll-mt-20">
           <h2 className="text-lg font-bold text-scripture dark:text-white mb-3">In This Guide</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1">
-            <Link href="#what-is-prayer" className="text-blue-600 hover:underline text-sm py-1">What Is Prayer?</Link>
-            <Link href="#types" className="text-blue-600 hover:underline text-sm py-1">6 Types of Prayer</Link>
-            <Link href="#lords-prayer" className="text-blue-600 hover:underline text-sm py-1">The Lord&apos;s Prayer Explained</Link>
-            <Link href="#greek-hebrew" className="text-blue-600 hover:underline text-sm py-1">Greek &amp; Hebrew Word Study</Link>
-            <Link href="#how-jesus-prayed" className="text-blue-600 hover:underline text-sm py-1">How Jesus Prayed</Link>
-            <Link href="#famous-prayers" className="text-blue-600 hover:underline text-sm py-1">10 Famous Prayers in the Bible</Link>
-            <Link href="#prayer-verses" className="text-blue-600 hover:underline text-sm py-1">12 Key Prayer Verses</Link>
-            <Link href="#why-pray" className="text-blue-600 hover:underline text-sm py-1">Why Pray If God Knows Everything?</Link>
-            <Link href="#build-prayer-life" className="text-blue-600 hover:underline text-sm py-1">How to Build a Prayer Life</Link>
-            <Link href="#unanswered" className="text-blue-600 hover:underline text-sm py-1">When Prayer Feels Unanswered</Link>
-            <Link href="#faq" className="text-blue-600 hover:underline text-sm py-1">Common Questions</Link>
-            <Link href="#study-links" className="text-blue-600 hover:underline text-sm py-1">Continue Your Study</Link>
+            <Link href="#what-is-prayer" className="text-sacred hover:underline text-sm py-1">What Is Prayer?</Link>
+            <Link href="#types" className="text-sacred hover:underline text-sm py-1">6 Types of Prayer</Link>
+            <Link href="#lords-prayer" className="text-sacred hover:underline text-sm py-1">The Lord&apos;s Prayer Explained</Link>
+            <Link href="#greek-hebrew" className="text-sacred hover:underline text-sm py-1">Greek &amp; Hebrew Word Study</Link>
+            <Link href="#how-jesus-prayed" className="text-sacred hover:underline text-sm py-1">How Jesus Prayed</Link>
+            <Link href="#famous-prayers" className="text-sacred hover:underline text-sm py-1">10 Famous Prayers in the Bible</Link>
+            <Link href="#prayer-verses" className="text-sacred hover:underline text-sm py-1">12 Key Prayer Verses</Link>
+            <Link href="#why-pray" className="text-sacred hover:underline text-sm py-1">Why Pray If God Knows Everything?</Link>
+            <Link href="#build-prayer-life" className="text-sacred hover:underline text-sm py-1">How to Build a Prayer Life</Link>
+            <Link href="#unanswered" className="text-sacred hover:underline text-sm py-1">When Prayer Feels Unanswered</Link>
+            <Link href="#faq" className="text-sacred hover:underline text-sm py-1">Common Questions</Link>
+            <Link href="#study-links" className="text-sacred hover:underline text-sm py-1">Continue Your Study</Link>
           </div>
         </nav>
 
         {/* What Is Prayer */}
         <section id="what-is-prayer" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">What Is Prayer?</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             Prayer is talking to God. That&apos;s it. Not a formula, not a ritual, not a performance for an audience. It&apos;s a child speaking to their Father — honestly, directly, about anything.
           </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             The Hebrew word <em>palal</em> literally means &ldquo;to judge oneself&rdquo; — prayer forces you to examine your own heart before a holy God. The Greek word <em>proseuche</em> combines <em>pros</em> (toward) and <em>euche</em> (a wish or vow) — directing your deepest desires toward God. Both definitions reveal something important: prayer changes <em>you</em> as much as it changes your circumstances.
           </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
-            The Bible records over 650 prayers — from Abraham bargaining with God over Sodom (<Link href="/cross-references/genesis/18/23" className="text-blue-600 hover:underline">Genesis 18:23-32</Link>) to Paul praying for churches he&apos;d never visit (<Link href="/cross-references/colossians/1/9" className="text-blue-600 hover:underline">Colossians 1:9</Link>). Some are formal hymns. Others are desperate one-liners. God heard them all.
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
+            The Bible records over 650 prayers — from Abraham bargaining with God over Sodom (<Link href="/cross-references/genesis/18/23" className="text-sacred hover:underline">Genesis 18:23-32</Link>) to Paul praying for churches he&apos;d never visit (<Link href="/cross-references/colossians/1/9" className="text-sacred hover:underline">Colossians 1:9</Link>). Some are formal hymns. Others are desperate one-liners. God heard them all.
           </p>
           <div className="bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800 rounded-lg p-4 mb-4">
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 text-sm leading-relaxed">
-              <strong>Key insight:</strong> Prayer isn&apos;t about giving God information He doesn&apos;t have. He already knows everything (<Link href="/cross-references/matthew/6/8" className="text-blue-600 hover:underline">Matthew 6:8</Link>). Prayer is about <em>relationship</em> — the same way you talk to a friend even though they already know your situation. God wants the conversation, not just the request.
+            <p className="text-scripture dark:text-ink-light text-sm leading-relaxed">
+              <strong>Key insight:</strong> Prayer isn&apos;t about giving God information He doesn&apos;t have. He already knows everything (<Link href="/cross-references/matthew/6/8" className="text-sacred hover:underline">Matthew 6:8</Link>). Prayer is about <em>relationship</em> — the same way you talk to a friend even though they already know your situation. God wants the conversation, not just the request.
             </p>
           </div>
         </section>
@@ -258,7 +258,7 @@ export default function PrayerPage() {
         {/* 6 Types of Prayer */}
         <section id="types" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">6 Types of Prayer in the Bible</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-6 text-sm">The Bible describes different kinds of prayer for different situations. A healthy prayer life uses all six.</p>
+          <p className="text-ink-muted dark:text-ink-light mb-6 text-sm">The Bible describes different kinds of prayer for different situations. A healthy prayer life uses all six.</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {TYPES_OF_PRAYER.map((t, idx) => (
               <div key={idx} className={`bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm`}>
@@ -266,9 +266,9 @@ export default function PrayerPage() {
                   <span className={`w-3 h-3 rounded-full bg-${t.color}-500 shrink-0`} />
                   <h3 className="font-bold text-scripture dark:text-white text-sm">{t.type}</h3>
                 </div>
-                <p className="text-xs text-blue-600 dark:text-blue-400 mb-2 italic">{t.greek}</p>
-                <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed mb-2">{t.description}</p>
-                <p className="text-primary-dark/60 dark:text-primary-dark/40 text-xs border-t border-grace dark:border-dark-border pt-2 mt-2">{t.example}</p>
+                <p className="text-xs text-sacred dark:text-sacred mb-2 italic">{t.greek}</p>
+                <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed mb-2">{t.description}</p>
+                <p className="text-ink-muted dark:text-ink-light text-xs border-t border-grace dark:border-dark-border pt-2 mt-2">{t.example}</p>
               </div>
             ))}
           </div>
@@ -281,9 +281,9 @@ export default function PrayerPage() {
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Statistic</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Number</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">Detail</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Statistic</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Number</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden sm:table-cell">Detail</th>
                 </tr>
               </thead>
               <tbody>
@@ -299,8 +299,8 @@ export default function PrayerPage() {
                 ].map((r, idx) => (
                   <tr key={idx} className="border-t border-grace dark:border-dark-border">
                     <td className="px-4 py-3 font-medium text-scripture dark:text-white">{r.stat}</td>
-                    <td className="px-4 py-3 font-bold text-scripture dark:text-blue-400 whitespace-nowrap">{r.num}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden sm:table-cell">{r.detail}</td>
+                    <td className="px-4 py-3 font-bold text-scripture dark:text-sacred whitespace-nowrap">{r.num}</td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light hidden sm:table-cell">{r.detail}</td>
                   </tr>
                 ))}
               </tbody>
@@ -311,30 +311,30 @@ export default function PrayerPage() {
         {/* The Lord's Prayer */}
         <section id="lords-prayer" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">The Lord&apos;s Prayer — Explained Line by Line</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-6 text-sm">Matthew 6:9-13 — Jesus didn&apos;t just tell us to pray. He showed us how.</p>
+          <p className="text-ink-muted dark:text-ink-light mb-6 text-sm">Matthew 6:9-13 — Jesus didn&apos;t just tell us to pray. He showed us how.</p>
 
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden mb-6">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Phrase</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">Element</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Meaning</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Phrase</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden sm:table-cell">Element</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Meaning</th>
                 </tr>
               </thead>
               <tbody>
                 {LORDS_PRAYER_BREAKDOWN.map((line, idx) => (
                   <tr key={idx} className="border-t border-grace dark:border-dark-border">
                     <td className="px-4 py-3 font-medium text-scripture dark:text-white italic">{line.phrase}</td>
-                    <td className="px-4 py-3 hidden sm:table-cell"><span className="bg-blue-100 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300 text-xs px-2 py-0.5 rounded-full">{line.element}</span></td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40">{line.meaning}</td>
+                    <td className="px-4 py-3 hidden sm:table-cell"><span className="bg-sacred/10 dark:bg-sacred-light0/30 text-scripture dark:text-sacred text-xs px-2 py-0.5 rounded-full">{line.element}</span></td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light">{line.meaning}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <div className="bg-blue-50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800 rounded-lg p-4">
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 text-sm leading-relaxed">
+          <div className="bg-sacred-light dark:bg-sacred-light0/20 border border-sacred/20 dark:border-sacred/20 rounded-lg p-4">
+            <p className="text-scripture dark:text-ink-light text-sm leading-relaxed">
               <strong>Notice the order:</strong> The Lord&apos;s Prayer starts with God (His name, His kingdom, His will) before moving to human needs (bread, forgiveness, protection). Most of us pray in reverse — starting with our problems. Jesus says start with worship. Your perspective changes when you see God clearly before looking at your situation.
             </p>
           </div>
@@ -344,32 +344,32 @@ export default function PrayerPage() {
         {/* Greek & Hebrew Word Study */}
         <section id="greek-hebrew" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">Greek &amp; Hebrew Words for Prayer</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-6 text-sm">English has one word for &ldquo;prayer.&rdquo; The Bible has at least seven — each revealing a different dimension of talking to God.</p>
+          <p className="text-ink-muted dark:text-ink-light mb-6 text-sm">English has one word for &ldquo;prayer.&rdquo; The Bible has at least seven — each revealing a different dimension of talking to God.</p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Word</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">Language</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Meaning</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden md:table-cell">Significance</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Word</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden sm:table-cell">Language</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Meaning</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden md:table-cell">Significance</th>
                 </tr>
               </thead>
               <tbody>
                 {GREEK_HEBREW_WORDS.map((w, idx) => (
                   <tr key={idx} className="border-t border-grace dark:border-dark-border">
                     <td className="px-4 py-3 font-medium text-scripture dark:text-white italic text-xs">{w.word}</td>
-                    <td className="px-4 py-3 hidden sm:table-cell"><span className={`text-xs px-2 py-0.5 rounded-full ${w.language === 'Greek' ? 'bg-blue-100 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300' : 'bg-amber-100 dark:bg-amber-950/30 text-amber-700 dark:text-amber-300'}`}>{w.language}</span></td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40">{w.meaning}</td>
-                    <td className="px-4 py-3 text-primary-dark/60 dark:text-primary-dark/40 text-xs hidden md:table-cell">{w.significance}</td>
+                    <td className="px-4 py-3 hidden sm:table-cell"><span className={`text-xs px-2 py-0.5 rounded-full ${w.language === 'Greek' ? 'bg-sacred/10 dark:bg-sacred-light0/30 text-scripture dark:text-sacred' : 'bg-amber-100 dark:bg-amber-950/30 text-amber-700 dark:text-amber-300'}`}>{w.language}</span></td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light">{w.meaning}</td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light text-xs hidden md:table-cell">{w.significance}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
           <div className="mt-4 flex flex-wrap gap-2">
-            <Link href="/greek-word/proseuche" className="text-xs bg-blue-100 dark:bg-blue-950/20 text-blue-700 dark:text-blue-300 px-3 py-1 rounded-full hover:bg-blue-200 transition-colors">Greek: proseuche</Link>
-            <Link href="/greek-word/deesis" className="text-xs bg-blue-100 dark:bg-blue-950/20 text-blue-700 dark:text-blue-300 px-3 py-1 rounded-full hover:bg-blue-200 transition-colors">Greek: deēsis</Link>
+            <Link href="/greek-word/proseuche" className="text-xs bg-sacred/10 dark:bg-sacred-light0/20 text-scripture dark:text-sacred px-3 py-1 rounded-full hover:bg-sacred-light transition-colors">Greek: proseuche</Link>
+            <Link href="/greek-word/deesis" className="text-xs bg-sacred/10 dark:bg-sacred-light0/20 text-scripture dark:text-sacred px-3 py-1 rounded-full hover:bg-sacred-light transition-colors">Greek: deēsis</Link>
             <Link href="/hebrew-word/H6419" className="text-xs bg-amber-100 dark:bg-amber-950/20 text-amber-700 dark:text-amber-300 px-3 py-1 rounded-full hover:bg-amber-200 transition-colors">Hebrew: palal</Link>
             <Link href="/bible-topics/prayer" className="text-xs bg-green-100 dark:bg-green-950/20 text-green-700 dark:text-green-300 px-3 py-1 rounded-full hover:bg-green-200 transition-colors">All Prayer Verses</Link>
           </div>
@@ -378,25 +378,25 @@ export default function PrayerPage() {
         {/* How Jesus Prayed */}
         <section id="how-jesus-prayed" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">How Jesus Prayed</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             If anyone didn&apos;t need to pray, it was Jesus — He was God in human flesh. Yet He prayed more than anyone in the Gospels. That tells you something about prayer: it&apos;s not for the spiritually weak. It&apos;s for everyone who takes God seriously.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
               <h3 className="font-bold text-scripture dark:text-white mb-2 text-sm">Early Morning</h3>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">&ldquo;Rising up a great while before day, he went out...and there prayed&rdquo; (<Link href="/cross-references/mark/1/35" className="text-blue-600 hover:underline">Mark 1:35</Link>). Jesus prioritized prayer before the demands of the day could crowd it out.</p>
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">&ldquo;Rising up a great while before day, he went out...and there prayed&rdquo; (<Link href="/cross-references/mark/1/35" className="text-sacred hover:underline">Mark 1:35</Link>). Jesus prioritized prayer before the demands of the day could crowd it out.</p>
             </div>
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
               <h3 className="font-bold text-scripture dark:text-white mb-2 text-sm">All Night</h3>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">Before choosing the 12 apostles, &ldquo;he went out into a mountain to pray, and continued all night in prayer&rdquo; (<Link href="/cross-references/luke/6/12" className="text-blue-600 hover:underline">Luke 6:12</Link>). Major decisions require extended prayer.</p>
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">Before choosing the 12 apostles, &ldquo;he went out into a mountain to pray, and continued all night in prayer&rdquo; (<Link href="/cross-references/luke/6/12" className="text-sacred hover:underline">Luke 6:12</Link>). Major decisions require extended prayer.</p>
             </div>
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
               <h3 className="font-bold text-scripture dark:text-white mb-2 text-sm">In Crisis</h3>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">In Gethsemane, facing the cross, Jesus prayed three times: &ldquo;Not my will, but thine, be done&rdquo; (<Link href="/cross-references/matthew/26/39" className="text-blue-600 hover:underline">Matthew 26:39</Link>). He sweat drops of blood — yet He submitted.</p>
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">In Gethsemane, facing the cross, Jesus prayed three times: &ldquo;Not my will, but thine, be done&rdquo; (<Link href="/cross-references/matthew/26/39" className="text-sacred hover:underline">Matthew 26:39</Link>). He sweat drops of blood — yet He submitted.</p>
             </div>
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
               <h3 className="font-bold text-scripture dark:text-white mb-2 text-sm">For Others</h3>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">In <Link href="/cross-references/john/17/20" className="text-blue-600 hover:underline">John 17:20</Link>, Jesus prayed for future believers — including you. He prayed for your faith to hold, your unity with other Christians, and your joy to be complete.</p>
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">In <Link href="/cross-references/john/17/20" className="text-sacred hover:underline">John 17:20</Link>, Jesus prayed for future believers — including you. He prayed for your faith to hold, your unity with other Christians, and your joy to be complete.</p>
             </div>
           </div>
         </section>
@@ -404,16 +404,16 @@ export default function PrayerPage() {
         {/* Old Testament vs New Testament Prayer */}
         <section className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">Old Testament vs New Testament Prayer</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             Prayer didn&apos;t change between the testaments — but access did. Here&apos;s how the cross transformed the prayer life of God&apos;s people:
           </p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Aspect</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Old Testament</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">New Testament</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Aspect</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Old Testament</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">New Testament</th>
                 </tr>
               </thead>
               <tbody>
@@ -427,8 +427,8 @@ export default function PrayerPage() {
                 ].map((r, idx) => (
                   <tr key={idx} className="border-t border-grace dark:border-dark-border">
                     <td className="px-4 py-3 font-medium text-scripture dark:text-white">{r.aspect}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40">{r.ot}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40">{r.nt}</td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light">{r.ot}</td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light">{r.nt}</td>
                   </tr>
                 ))}
               </tbody>
@@ -439,18 +439,18 @@ export default function PrayerPage() {
         {/* Famous Prayers */}
         <section id="famous-prayers" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">10 Famous Prayers in the Bible</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-6 text-sm">These prayers changed nations, called fire from heaven, and moved the heart of God.</p>
+          <p className="text-ink-muted dark:text-ink-light mb-6 text-sm">These prayers changed nations, called fire from heaven, and moved the heart of God.</p>
           <div className="space-y-3">
             {FAMOUS_PRAYERS.map((p, idx) => (
               <div key={idx} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
                 <div className="flex items-center justify-between mb-2">
                   <div className="flex items-center gap-2">
-                    <span className="bg-scripture/10 dark:bg-blue-950/30 text-scripture dark:text-blue-300 text-xs font-bold px-2 py-0.5 rounded-full">{p.who}</span>
-                    <span className="text-primary-dark/40 text-xs">{p.occasion}</span>
+                    <span className="bg-scripture/10 dark:bg-sacred-light0/30 text-scripture dark:text-sacred text-xs font-bold px-2 py-0.5 rounded-full">{p.who}</span>
+                    <span className="text-ink-light text-xs">{p.occasion}</span>
                   </div>
-                  <Link href={verseRefToPath(p.ref)} className="text-blue-600 hover:underline text-xs">{p.ref}</Link>
+                  <Link href={verseRefToPath(p.ref)} className="text-sacred hover:underline text-xs">{p.ref}</Link>
                 </div>
-                <p className="text-primary-dark/80 dark:text-primary-dark/40 text-sm leading-relaxed mb-2">{p.summary}</p>
+                <p className="text-scripture dark:text-ink-light text-sm leading-relaxed mb-2">{p.summary}</p>
                 <p className="text-xs font-medium text-green-600 dark:text-green-400">Result: {p.result}</p>
               </div>
             ))}
@@ -461,12 +461,12 @@ export default function PrayerPage() {
         {/* Key Prayer Verses */}
         <section id="prayer-verses" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">12 Key Bible Verses About Prayer</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-6 text-sm">The Bible&apos;s clearest statements on what prayer is, how it works, and why it matters.</p>
+          <p className="text-ink-muted dark:text-ink-light mb-6 text-sm">The Bible&apos;s clearest statements on what prayer is, how it works, and why it matters.</p>
           <div className="space-y-3">
             {PRAYER_VERSES.map((v, idx) => (
               <div key={idx} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
-                <Link href={verseRefToPath(v.ref)} className="text-blue-600 hover:underline font-bold text-sm">{v.ref}</Link>
-                <blockquote className="text-primary-dark/80 dark:text-primary-dark/30 leading-relaxed italic mt-2 border-l-3 border-scripture/30 pl-4 text-sm">
+                <Link href={verseRefToPath(v.ref)} className="text-sacred hover:underline font-bold text-sm">{v.ref}</Link>
+                <blockquote className="text-scripture dark:text-ink-light leading-relaxed italic mt-2 border-l-3 border-scripture/30 pl-4 text-sm">
                   &ldquo;{v.text}&rdquo;
                 </blockquote>
               </div>
@@ -477,25 +477,25 @@ export default function PrayerPage() {
         {/* Why Pray */}
         <section id="why-pray" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">Why Pray If God Already Knows Everything?</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             This is the most honest question anyone asks about prayer. If God is omniscient, why does He need me to tell Him what&apos;s happening? He doesn&apos;t. Prayer isn&apos;t about giving God data — it&apos;s about giving Him <em>you</em>.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
               <h3 className="font-bold text-scripture dark:text-white mb-2 text-sm">Prayer Changes You</h3>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">When you articulate your fears to God, they shrink. When you confess sin, guilt lifts. When you thank Him, gratitude rewires your brain. Prayer is transformative, not merely transactional.</p>
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">When you articulate your fears to God, they shrink. When you confess sin, guilt lifts. When you thank Him, gratitude rewires your brain. Prayer is transformative, not merely transactional.</p>
             </div>
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
               <h3 className="font-bold text-scripture dark:text-white mb-2 text-sm">Prayer Builds Dependence</h3>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">Self-sufficiency is the enemy of faith. Prayer forces you to admit: I can&apos;t handle this alone. That honest acknowledgment is the starting point of every breakthrough.</p>
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">Self-sufficiency is the enemy of faith. Prayer forces you to admit: I can&apos;t handle this alone. That honest acknowledgment is the starting point of every breakthrough.</p>
             </div>
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
               <h3 className="font-bold text-scripture dark:text-white mb-2 text-sm">God Chose to Work Through Prayer</h3>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">James 4:2 says &ldquo;ye have not, because ye ask not.&rdquo; God has sovereignly decided that some things happen only when His people pray. He doesn&apos;t need prayer — but He uses it.</p>
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">James 4:2 says &ldquo;ye have not, because ye ask not.&rdquo; God has sovereignly decided that some things happen only when His people pray. He doesn&apos;t need prayer — but He uses it.</p>
             </div>
             <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
               <h3 className="font-bold text-scripture dark:text-white mb-2 text-sm">Relationship Requires Communication</h3>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">You don&apos;t stop talking to your spouse because they &ldquo;already know what you&apos;re thinking.&rdquo; Relationships require conversation. Prayer is how you maintain intimacy with God.</p>
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">You don&apos;t stop talking to your spouse because they &ldquo;already know what you&apos;re thinking.&rdquo; Relationships require conversation. Prayer is how you maintain intimacy with God.</p>
             </div>
           </div>
         </section>
@@ -503,7 +503,7 @@ export default function PrayerPage() {
         {/* How to Build a Prayer Life */}
         <section id="build-prayer-life" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">How to Build a Prayer Life</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-6">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-6">
             Nobody wakes up one day with a thriving prayer life. It&apos;s built — one honest conversation with God at a time. Here&apos;s a practical framework.
           </p>
           <div className="space-y-0 mb-6">
@@ -522,7 +522,7 @@ export default function PrayerPage() {
                 </div>
                 <div className="pb-5 flex-1">
                   <h3 className="font-bold text-scripture dark:text-white text-sm mb-1">{s.title}</h3>
-                  <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">{s.detail}</p>
+                  <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">{s.detail}</p>
                 </div>
               </div>
             ))}
@@ -532,16 +532,16 @@ export default function PrayerPage() {
         {/* When Prayer Feels Unanswered */}
         <section id="unanswered" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">When Prayer Feels Unanswered</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             Every honest Christian has prayed and heard silence. It doesn&apos;t mean God isn&apos;t listening. The Bible gives several reasons prayers seem unanswered:
           </p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden mb-4">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Reason</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Scripture</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">Explanation</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Reason</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Scripture</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden sm:table-cell">Explanation</th>
                 </tr>
               </thead>
               <tbody>
@@ -555,8 +555,8 @@ export default function PrayerPage() {
                 ].map((r, idx) => (
                   <tr key={idx} className="border-t border-grace dark:border-dark-border">
                     <td className="px-4 py-3 font-medium text-scripture dark:text-white">{r.reason}</td>
-                    <td className="px-4 py-3"><Link href={verseRefToPath(r.ref)} className="text-blue-600 hover:underline text-xs">{r.ref}</Link></td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden sm:table-cell">{r.explanation}</td>
+                    <td className="px-4 py-3"><Link href={verseRefToPath(r.ref)} className="text-sacred hover:underline text-xs">{r.ref}</Link></td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light hidden sm:table-cell">{r.explanation}</td>
                   </tr>
                 ))}
               </tbody>
@@ -566,13 +566,13 @@ export default function PrayerPage() {
 
         {/* Gospel CTA */}
         <section className="mb-12">
-          <div className="bg-gradient-to-br from-scripture via-scripture/95 to-blue-950 rounded-xl p-8 md:p-10 text-center text-white">
+          <div className="bg-gradient-to-br from-scripture via-scripture/95 to-scripture/80 rounded-xl p-8 md:p-10 text-center text-white">
             <h2 className="text-2xl md:text-3xl font-bold font-display mb-4">The Most Important Prayer You&apos;ll Ever Pray</h2>
-            <p className="text-blue-100/90 max-w-2xl mx-auto leading-relaxed mb-6">
+            <p className="text-sacred-light/90 max-w-2xl mx-auto leading-relaxed mb-6">
               If you&apos;ve never spoken to God before, start here: &ldquo;God, I know I&apos;m a sinner. I believe Jesus died for me and rose again. I trust Him as my Savior. Forgive me and give me eternal life.&rdquo; That prayer — prayed honestly — changes everything.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <Link href="/john-3-16" className="inline-block bg-white text-scripture font-bold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors">
+              <Link href="/john-3-16" className="inline-block bg-white text-scripture font-bold px-6 py-3 rounded-lg hover:bg-sacred-light transition-colors">
                 Read John 3:16 Explained
               </Link>
               <Link href="/bible-verses#salvation" className="inline-block border-2 border-white/40 text-white font-bold px-6 py-3 rounded-lg hover:bg-white/10 transition-colors">
@@ -590,9 +590,9 @@ export default function PrayerPage() {
               <details key={idx} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm group">
                 <summary className="px-5 py-4 cursor-pointer font-bold text-scripture dark:text-white text-sm flex items-center justify-between list-none">
                   {item.question}
-                  <span className="text-primary-dark/30 group-open:rotate-45 transition-transform text-lg">+</span>
+                  <span className="text-ink-light group-open:rotate-45 transition-transform text-lg">+</span>
                 </summary>
-                <div className="px-5 pb-5 text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">
+                <div className="px-5 pb-5 text-ink-muted dark:text-ink-light text-sm leading-relaxed">
                   {item.answer}
                 </div>
               </details>
@@ -604,25 +604,25 @@ export default function PrayerPage() {
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-6">Go Deeper</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/short-prayers" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm hover:border-blue-300 transition-colors group">
-              <p className="text-xs font-bold text-blue-600 uppercase tracking-wider mb-1">Practical Guide</p>
-              <h3 className="font-bold text-scripture dark:text-white group-hover:text-blue-600 transition-colors">23 Powerful Short Prayers</h3>
-              <p className="text-primary-dark/60 dark:text-primary-dark/40 text-sm mt-1">Quick, powerful prayers you can use daily for any situation.</p>
+            <Link href="/short-prayers" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm hover:border-sacred/50 transition-colors group">
+              <p className="text-xs font-bold text-sacred uppercase tracking-wider mb-1">Practical Guide</p>
+              <h3 className="font-bold text-scripture dark:text-white group-hover:text-gold-dark transition-colors">23 Powerful Short Prayers</h3>
+              <p className="text-ink-muted dark:text-ink-light text-sm mt-1">Quick, powerful prayers you can use daily for any situation.</p>
             </Link>
-            <Link href="/bible-verses#prayer" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm hover:border-blue-300 transition-colors group">
+            <Link href="/bible-verses#prayer" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm hover:border-sacred/50 transition-colors group">
               <p className="text-xs font-bold text-green-600 uppercase tracking-wider mb-1">Verse Collection</p>
-              <h3 className="font-bold text-scripture dark:text-white group-hover:text-blue-600 transition-colors">Bible Verses About Prayer</h3>
-              <p className="text-primary-dark/60 dark:text-primary-dark/40 text-sm mt-1">Every key verse on prayer with commentary and context.</p>
+              <h3 className="font-bold text-scripture dark:text-white group-hover:text-gold-dark transition-colors">Bible Verses About Prayer</h3>
+              <p className="text-ink-muted dark:text-ink-light text-sm mt-1">Every key verse on prayer with commentary and context.</p>
             </Link>
-            <Link href="/bible-topics/prayer" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm hover:border-blue-300 transition-colors group">
+            <Link href="/bible-topics/prayer" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm hover:border-sacred/50 transition-colors group">
               <p className="text-xs font-bold text-amber-600 uppercase tracking-wider mb-1">Topical Study</p>
-              <h3 className="font-bold text-scripture dark:text-white group-hover:text-blue-600 transition-colors">Prayer — Complete Topical Study</h3>
-              <p className="text-primary-dark/60 dark:text-primary-dark/40 text-sm mt-1">Every mention of prayer across all 66 books of the Bible.</p>
+              <h3 className="font-bold text-scripture dark:text-white group-hover:text-gold-dark transition-colors">Prayer — Complete Topical Study</h3>
+              <p className="text-ink-muted dark:text-ink-light text-sm mt-1">Every mention of prayer across all 66 books of the Bible.</p>
             </Link>
-            <Link href="/jesus-christ" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm hover:border-blue-300 transition-colors group">
+            <Link href="/jesus-christ" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm hover:border-sacred/50 transition-colors group">
               <p className="text-xs font-bold text-indigo-600 uppercase tracking-wider mb-1">Pillar Study</p>
-              <h3 className="font-bold text-scripture dark:text-white group-hover:text-blue-600 transition-colors">Who Is Jesus Christ?</h3>
-              <p className="text-primary-dark/60 dark:text-primary-dark/40 text-sm mt-1">The one who taught us how to pray — and who prays for us right now.</p>
+              <h3 className="font-bold text-scripture dark:text-white group-hover:text-gold-dark transition-colors">Who Is Jesus Christ?</h3>
+              <p className="text-ink-muted dark:text-ink-light text-sm mt-1">The one who taught us how to pray — and who prays for us right now.</p>
             </Link>
           </div>
         </section>
@@ -631,27 +631,27 @@ export default function PrayerPage() {
         <section id="study-links" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">Continue Your Study</h2>
           <div className="grid gap-2 sm:grid-cols-2 md:grid-cols-3">
-            <Link href="/short-prayers" className="text-blue-600 hover:underline text-sm">23 Short Prayers for Daily Use</Link>
-            <Link href="/bible-verses#prayer" className="text-blue-600 hover:underline text-sm">Bible Verses About Prayer</Link>
-            <Link href="/bible-topics/prayer" className="text-blue-600 hover:underline text-sm">Topical Study: Prayer</Link>
-            <Link href="/bible-topics/fasting" className="text-blue-600 hover:underline text-sm">Topical Study: Fasting</Link>
-            <Link href="/bible-topics/worship" className="text-blue-600 hover:underline text-sm">Topical Study: Worship</Link>
-            <Link href="/john-3-16" className="text-blue-600 hover:underline text-sm">John 3:16 Explained</Link>
-            <Link href="/jesus-christ" className="text-blue-600 hover:underline text-sm">Who Is Jesus Christ?</Link>
-            <Link href="/bible-verses" className="text-blue-600 hover:underline text-sm">100+ Bible Verses by Topic</Link>
-            <Link href="/psalm-23" className="text-blue-600 hover:underline text-sm">Psalm 23 Study</Link>
-            <Link href="/greek-word/proseuche" className="text-blue-600 hover:underline text-sm">Greek: Proseuche (Prayer)</Link>
-            <Link href="/greek-word/deesis" className="text-blue-600 hover:underline text-sm">Greek: Deēsis (Petition)</Link>
-            <Link href="/hebrew-word/H6419" className="text-blue-600 hover:underline text-sm">Hebrew: Palal (Pray)</Link>
-            <Link href="/cross-references/matthew/6/9" className="text-blue-600 hover:underline text-sm">Matthew 6:9 Cross-References</Link>
-            <Link href="/cross-references/philippians/4/6" className="text-blue-600 hover:underline text-sm">Philippians 4:6 Cross-References</Link>
-            <Link href="/matthew-chapters" className="text-blue-600 hover:underline text-sm">Matthew Chapter Quizzes</Link>
-            <Link href="/luke-chapters" className="text-blue-600 hover:underline text-sm">Luke Chapter Quizzes</Link>
-            <Link href="/characters/moses" className="text-blue-600 hover:underline text-sm">Moses — Character Study</Link>
-            <Link href="/characters/elijah" className="text-blue-600 hover:underline text-sm">Elijah — Character Study</Link>
-            <Link href="/characters/daniel" className="text-blue-600 hover:underline text-sm">Daniel — Character Study</Link>
-            <Link href="/characters/paul" className="text-blue-600 hover:underline text-sm">Paul — Character Study</Link>
-            <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">All Bible Quizzes</Link>
+            <Link href="/short-prayers" className="text-sacred hover:underline text-sm">23 Short Prayers for Daily Use</Link>
+            <Link href="/bible-verses#prayer" className="text-sacred hover:underline text-sm">Bible Verses About Prayer</Link>
+            <Link href="/bible-topics/prayer" className="text-sacred hover:underline text-sm">Topical Study: Prayer</Link>
+            <Link href="/bible-topics/fasting" className="text-sacred hover:underline text-sm">Topical Study: Fasting</Link>
+            <Link href="/bible-topics/worship" className="text-sacred hover:underline text-sm">Topical Study: Worship</Link>
+            <Link href="/john-3-16" className="text-sacred hover:underline text-sm">John 3:16 Explained</Link>
+            <Link href="/jesus-christ" className="text-sacred hover:underline text-sm">Who Is Jesus Christ?</Link>
+            <Link href="/bible-verses" className="text-sacred hover:underline text-sm">100+ Bible Verses by Topic</Link>
+            <Link href="/psalm-23" className="text-sacred hover:underline text-sm">Psalm 23 Study</Link>
+            <Link href="/greek-word/proseuche" className="text-sacred hover:underline text-sm">Greek: Proseuche (Prayer)</Link>
+            <Link href="/greek-word/deesis" className="text-sacred hover:underline text-sm">Greek: Deēsis (Petition)</Link>
+            <Link href="/hebrew-word/H6419" className="text-sacred hover:underline text-sm">Hebrew: Palal (Pray)</Link>
+            <Link href="/cross-references/matthew/6/9" className="text-sacred hover:underline text-sm">Matthew 6:9 Cross-References</Link>
+            <Link href="/cross-references/philippians/4/6" className="text-sacred hover:underline text-sm">Philippians 4:6 Cross-References</Link>
+            <Link href="/matthew-chapters" className="text-sacred hover:underline text-sm">Matthew Chapter Quizzes</Link>
+            <Link href="/luke-chapters" className="text-sacred hover:underline text-sm">Luke Chapter Quizzes</Link>
+            <Link href="/characters/moses" className="text-sacred hover:underline text-sm">Moses — Character Study</Link>
+            <Link href="/characters/elijah" className="text-sacred hover:underline text-sm">Elijah — Character Study</Link>
+            <Link href="/characters/daniel" className="text-sacred hover:underline text-sm">Daniel — Character Study</Link>
+            <Link href="/characters/paul" className="text-sacred hover:underline text-sm">Paul — Character Study</Link>
+            <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">All Bible Quizzes</Link>
           </div>
         </section>
 

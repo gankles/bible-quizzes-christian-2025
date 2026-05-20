@@ -52,19 +52,19 @@ export default function BookTools({ bookName, bookSlug, chapters, keyThemes }: B
   };
 
   return (
-    <section className="bg-gradient-to-br from-blue-50 to-blue-50 rounded-xl border border-blue-100 p-6 mb-6">
+    <section className="bg-gradient-to-br from-scripture to-scripture/80 rounded-xl border border-sacred/10 p-6 mb-6">
       <h2 className="text-xl font-bold text-scripture mb-2 flex items-center">
-        <svg className="w-5 h-5 mr-2 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-5 h-5 mr-2 text-sacred" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
         Reading Time Calculator
       </h2>
-      <p className="text-primary-dark/70 text-sm mb-4">
+      <p className="text-ink-muted text-sm mb-4">
         How long will it take you to read {bookName}? Let&apos;s find out.
       </p>
 
       <div className="bg-white rounded-lg p-4 mb-4">
-        <label className="block text-sm font-medium text-primary-dark/80 mb-2">Your reading pace:</label>
+        <label className="block text-sm font-medium text-scripture mb-2">Your reading pace:</label>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
           {readingSpeedOptions.map((option) => (
             <button
@@ -72,70 +72,70 @@ export default function BookTools({ bookName, bookSlug, chapters, keyThemes }: B
               onClick={() => { setReadingSpeed(option.wpm); setShowCalculation(true); }}
               className={`p-3 rounded-lg border-2 transition-all text-left ${
                 readingSpeed === option.wpm
-                  ? 'border-blue-500 bg-blue-50'
-                  : 'border-grace hover:border-blue-300'
+                  ? 'border-sacred bg-blue-50'
+                  : 'border-grace hover:border-sacred/50'
               }`}
             >
               <span className="font-medium text-scripture block">{option.label}</span>
-              <span className="text-xs text-primary-dark/60">{option.description}</span>
+              <span className="text-xs text-ink-muted">{option.description}</span>
             </button>
           ))}
         </div>
       </div>
 
       {showCalculation && (
-        <div className="bg-white rounded-lg p-4 border border-blue-200">
+        <div className="bg-white rounded-lg p-4 border border-sacred/20">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
             <div>
-              <div className="text-2xl font-bold text-blue-600">{chapters}</div>
-              <div className="text-xs text-primary-dark/60">Chapters</div>
+              <div className="text-2xl font-bold text-sacred">{chapters}</div>
+              <div className="text-xs text-ink-muted">Chapters</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-blue-600">~{totalVerses.toLocaleString()}</div>
-              <div className="text-xs text-primary-dark/60">Verses</div>
+              <div className="text-2xl font-bold text-sacred">~{totalVerses.toLocaleString()}</div>
+              <div className="text-xs text-ink-muted">Verses</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-blue-600">{readingTimeMinutes}m</div>
-              <div className="text-xs text-primary-dark/60">Total Time</div>
+              <div className="text-2xl font-bold text-sacred">{readingTimeMinutes}m</div>
+              <div className="text-xs text-ink-muted">Total Time</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-blue-600">{readingTimeHours}h</div>
-              <div className="text-xs text-primary-dark/60">Hours</div>
+              <div className="text-2xl font-bold text-sacred">{readingTimeHours}h</div>
+              <div className="text-xs text-ink-muted">Hours</div>
             </div>
           </div>
           
           <div className="mt-4 pt-4 border-t border-grace/50">
-            <p className="text-sm text-primary-dark/80">
+            <p className="text-sm text-scripture">
               <strong>Quick plan:</strong> {generateQuickPlan()}
             </p>
-            <p className="text-xs text-primary-dark/60 mt-1">
+            <p className="text-xs text-ink-muted mt-1">
               At {readingSpeed} words per minute, you&apos;ll finish {bookName} in about {readingTimeHours} hours of total reading.
             </p>
           </div>
         </div>
       )}
 
-      <div className="mt-6 pt-4 border-t border-blue-100">
+      <div className="mt-6 pt-4 border-t border-sacred/10">
         <h3 className="font-semibold text-scripture mb-3">Ready to test your knowledge?</h3>
         <div className="flex flex-wrap gap-3">
           <Link
             href={`/${bookSlug}-quiz`}
-            className="bg-blue-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
+            className="bg-scripture hover:bg-indigo-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
           >
             Take {bookName} Book Quiz
           </Link>
           <Link
             href={`/${bookSlug}-chapters`}
-            className="bg-white hover:bg-primary-light/30 text-blue-600 border border-blue-200 px-4 py-2 rounded-lg text-sm font-medium transition-colors"
+            className="bg-white hover:bg-primary-light/30 text-sacred border border-sacred/20 px-4 py-2 rounded-lg text-sm font-medium transition-colors"
           >
             Browse Chapter Quizzes
           </Link>
         </div>
       </div>
 
-      <div className="mt-6 pt-4 border-t border-blue-100">
+      <div className="mt-6 pt-4 border-t border-sacred/10">
         <h3 className="font-semibold text-scripture mb-2">Key themes to look for:</h3>
-        <p className="text-sm text-primary-dark/70">
+        <p className="text-sm text-ink-muted">
           As you read {bookName}, watch for these recurring ideas: {keyThemes.slice(0, 4).join(', ')}.
           They&apos;ll come up in the quizzes!
         </p>

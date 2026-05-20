@@ -120,10 +120,10 @@ export default async function PlacePage({ params }: PageProps) {
       <StructuredData data={jsonLd} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
-        <Link href="/" className="hover:text-blue-600">Home</Link>
+      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-ink-muted">
+        <Link href="/" className="hover:text-gold-dark">Home</Link>
         <span className="mx-1.5">/</span>
-        <Link href="/bible-places" className="hover:text-blue-600">Bible Places</Link>
+        <Link href="/bible-places" className="hover:text-gold-dark">Bible Places</Link>
         <span className="mx-1.5">/</span>
         <span className="text-scripture font-medium">{place.name}</span>
       </nav>
@@ -132,13 +132,13 @@ export default async function PlacePage({ params }: PageProps) {
       <section className="max-w-6xl mx-auto px-4 py-8">
         <div className="md:flex md:gap-8">
           <div className="flex-1">
-            <p className="text-sm text-blue-600 font-medium uppercase tracking-wider mb-1">
+            <p className="text-sm text-sacred font-medium uppercase tracking-wider mb-1">
               Biblical {typeLabel}
             </p>
             <h1 className="text-3xl md:text-4xl font-bold font-display mb-3 text-scripture">
               {place.name} in the Bible
             </h1>
-            <p className="text-primary-dark/70 mb-4">
+            <p className="text-ink-muted mb-4">
               {place.name} is {place.type === 'island' || place.type === 'altar' ? 'an' : 'a'} {typeLabel.toLowerCase()} mentioned in{' '}
               <strong>{place.verseCount}</strong> verse{place.verseCount !== 1 ? 's' : ''} across{' '}
               <strong>{place.books.length}</strong> book{place.books.length !== 1 ? 's' : ''} of the Bible.
@@ -150,20 +150,20 @@ export default async function PlacePage({ params }: PageProps) {
             {/* Quick stats */}
             <div className="flex flex-wrap gap-4 mb-6">
               <div className="px-4 py-2 bg-white border border-grace rounded-lg">
-                <p className="text-xs text-primary-dark/50 uppercase">Verses</p>
+                <p className="text-xs text-ink-muted uppercase">Verses</p>
                 <p className="text-lg font-bold text-scripture">{place.verseCount}</p>
               </div>
               <div className="px-4 py-2 bg-white border border-grace rounded-lg">
-                <p className="text-xs text-primary-dark/50 uppercase">Books</p>
+                <p className="text-xs text-ink-muted uppercase">Books</p>
                 <p className="text-lg font-bold text-scripture">{place.books.length}</p>
               </div>
               <div className="px-4 py-2 bg-white border border-grace rounded-lg">
-                <p className="text-xs text-primary-dark/50 uppercase">Confidence</p>
+                <p className="text-xs text-ink-muted uppercase">Confidence</p>
                 <p className={`text-lg font-bold ${confidenceColor}`}>{confidenceLabel}</p>
               </div>
               {place.lat !== null && (
                 <div className="px-4 py-2 bg-white border border-grace rounded-lg">
-                  <p className="text-xs text-primary-dark/50 uppercase">Coordinates</p>
+                  <p className="text-xs text-ink-muted uppercase">Coordinates</p>
                   <p className="text-sm font-mono text-scripture">{place.lat.toFixed(4)}, {place.lon!.toFixed(4)}</p>
                 </div>
               )}
@@ -192,7 +192,7 @@ export default async function PlacePage({ params }: PageProps) {
                       />
                     </div>
                     {place.credit && (
-                      <p className="text-[10px] text-primary-dark/40 mt-1">
+                      <p className="text-[10px] text-ink-light mt-1">
                         Photo: {place.creditUrl ? (
                           <a href={place.creditUrl} target="_blank" rel="noopener noreferrer" className="hover:underline">
                             {place.credit}
@@ -205,7 +205,7 @@ export default async function PlacePage({ params }: PageProps) {
                 {place.books[0] && (
                   <Link
                     href={`/bible-geography-quiz/${place.books[0]}`}
-                    className="mt-3 block text-center bg-blue-600 hover:bg-blue-700 text-white text-sm font-bold px-4 py-2.5 rounded-lg transition-colors"
+                    className="mt-3 block text-center bg-scripture hover:bg-ink-muted text-white text-sm font-bold px-4 py-2.5 rounded-lg transition-colors"
                   >
                     Test Your Knowledge &rarr;
                   </Link>
@@ -233,12 +233,12 @@ export default async function PlacePage({ params }: PageProps) {
           <div className="space-y-4">
             {versesWithText.filter(v => v.text).map(v => (
               <div key={v.ref} className="bg-white border border-grace rounded-lg p-4">
-                <blockquote className="text-primary-dark/80 leading-relaxed italic border-l-4 border-blue-600 pl-4 mb-2">
+                <blockquote className="text-scripture leading-relaxed italic border-l-4 border-sacred pl-4 mb-2">
                   &ldquo;{v.text}&rdquo;
                 </blockquote>
                 <Link
                   href={`/verses/${v.bookSlug}/${v.chapter}/${v.verse}`}
-                  className="text-sm text-blue-600 hover:underline font-medium"
+                  className="text-sm text-sacred hover:underline font-medium"
                 >
                   {v.readable} (KJV)
                 </Link>
@@ -257,17 +257,17 @@ export default async function PlacePage({ params }: PageProps) {
           {Object.entries(versesByBook).map(([bookSlug, verses]) => (
             <div key={bookSlug}>
               <h3 className="text-lg font-semibold text-scripture mb-2">
-                <Link href={`/${bookSlug}-chapters`} className="hover:text-blue-600">
+                <Link href={`/${bookSlug}-chapters`} className="hover:text-gold-dark">
                   {BOOK_NAMES[bookSlug] || bookSlug}
                 </Link>
-                <span className="text-sm text-primary-dark/40 ml-2">({verses.length})</span>
+                <span className="text-sm text-ink-light ml-2">({verses.length})</span>
               </h3>
               <div className="flex flex-wrap gap-2">
                 {verses.map(v => (
                   <Link
                     key={v.ref}
                     href={`/bible-places/${place.slug}/${v.ref}`}
-                    className="px-3 py-1.5 text-sm bg-white border border-grace rounded-lg hover:border-blue-300 hover:text-blue-600 transition-colors"
+                    className="px-3 py-1.5 text-sm bg-white border border-grace rounded-lg hover:border-sacred/50 hover:text-gold-dark transition-colors"
                   >
                     {v.readable}
                   </Link>
@@ -288,7 +288,7 @@ export default async function PlacePage({ params }: PageProps) {
                 href={place.wikipedia}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-4 py-2 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors"
+                className="px-4 py-2 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors"
               >
                 Wikipedia
               </a>
@@ -298,7 +298,7 @@ export default async function PlacePage({ params }: PageProps) {
                 href={place.wikidata}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-4 py-2 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors"
+                className="px-4 py-2 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors"
               >
                 Wikidata
               </a>
@@ -318,19 +318,19 @@ export default async function PlacePage({ params }: PageProps) {
               <Link
                 key={n.slug}
                 href={`/bible-places/${n.slug}`}
-                className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
+                className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-sacred/50 transition-all group"
               >
-                <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                <span className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                   {n.name}
                 </span>
-                <span className="text-xs text-primary-dark/40 ml-2">{n.distanceKm} km</span>
+                <span className="text-xs text-ink-light ml-2">{n.distanceKm} km</span>
               </Link>
             ))}
           </div>
           <div className="mt-3">
             <Link
               href={`/bible-places/near/${place.slug}`}
-              className="text-sm text-blue-600 hover:underline"
+              className="text-sm text-sacred hover:underline"
             >
               See all nearby places &rarr;
             </Link>
@@ -343,26 +343,26 @@ export default async function PlacePage({ params }: PageProps) {
         <div className="bg-primary-light/30 border border-grace rounded-xl p-6">
           <h2 className="text-lg font-bold text-scripture mb-3">Related Resources</h2>
           <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-            <Link href="/bible-places" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+            <Link href="/bible-places" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
               All Bible Places
             </Link>
-            <Link href="/bible-geography" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+            <Link href="/bible-geography" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
               Bible Geography by Book
             </Link>
             {place.types[0] && place.types[0] !== 'special' && (
-              <Link href={`/bible-places/type/${place.types[0].replace(/\s+/g, '-')}`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+              <Link href={`/bible-places/type/${place.types[0].replace(/\s+/g, '-')}`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
                 Biblical {formatPlaceTypeSingular(place.types[0])}s
               </Link>
             )}
             {place.books[0] && (
-              <Link href={`/bible-geography/${place.books[0]}`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+              <Link href={`/bible-geography/${place.books[0]}`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
                 Places in {BOOK_NAMES[place.books[0]] || place.books[0]}
               </Link>
             )}
-            <Link href="/people" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+            <Link href="/people" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
               Bible People Directory
             </Link>
-            <Link href="/bible-quizzes" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+            <Link href="/bible-quizzes" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
               Bible Quizzes
             </Link>
           </div>

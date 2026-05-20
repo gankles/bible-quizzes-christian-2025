@@ -84,10 +84,10 @@ const LEVEL_CONFIG: Record<DifficultyLevel, LevelConfig> = {
     heroDescription: 'Expert-level Bible quizzes exploring doctrine, systematic theology, Hebrew and Greek word studies, typology, and cross-reference analysis. Built for seminary students, pastors, scholars, and anyone seeking the deepest understanding of Scripture.',
     questionBreakdown: '100% multiple choice',
     color: 'from-purple-500 to-purple-600',
-    accentColor: 'text-purple-600',
-    textColor: 'text-purple-700',
-    bgColor: 'bg-purple-50',
-    badgeColor: 'bg-purple-100 text-purple-700',
+    accentColor: 'text-scripture',
+    textColor: 'text-scripture',
+    bgColor: 'bg-scripture/5',
+    badgeColor: 'bg-scripture/10 text-scripture',
     tips: [
       { title: 'Study original languages', text: 'Theological questions often reference Hebrew and Greek terms. Familiarize yourself with key words in the original languages and how they shape the meaning of passages.' },
       { title: 'Know systematic theology', text: 'Questions may ask about doctrines like soteriology, Christology, eschatology, and pneumatology. Understanding theological frameworks helps you connect individual passages to larger themes.' },
@@ -151,18 +151,18 @@ function BookCard({ name, slug, chapters, testament, levelConfig }: {
       href={`/${slug}-1-quiz`}
       className="group bg-white rounded-xl border border-grace hover:border-sacred/60 hover:shadow-md transition-all p-4"
     >
-      <h3 className="font-display font-bold text-scripture group-hover:text-blue-700 transition-colors text-sm sm:text-base">
+      <h3 className="font-display font-bold text-scripture group-hover:text-gold-dark transition-colors text-sm sm:text-base">
         {name}
       </h3>
       <div className="flex items-center justify-between mt-2">
-        <span className="text-xs text-primary-dark/60">
+        <span className="text-xs text-ink-muted">
           {chapters} {chapters === 1 ? 'chapter' : 'chapters'}
         </span>
-        <span className={`text-xs px-2 py-0.5 rounded-full ${testament === 'old' ? 'bg-amber-50 text-amber-700' : 'bg-blue-50 text-blue-700'}`}>
+        <span className={`text-xs px-2 py-0.5 rounded-full ${testament === 'old' ? 'bg-amber-50 text-amber-700' : 'bg-blue-50 text-scripture'}`}>
           {testament === 'old' ? 'OT' : 'NT'}
         </span>
       </div>
-      <span className="block text-blue-600 text-xs mt-2 opacity-0 group-hover:opacity-100 transition-opacity">
+      <span className="block text-sacred text-xs mt-2 opacity-0 group-hover:opacity-100 transition-opacity">
         Start Quiz &rarr;
       </span>
     </Link>
@@ -222,11 +222,11 @@ export default function BibleQuizDifficultyLevelPage({ params }: { params: { lev
       <nav aria-label="Breadcrumb" className="bg-white border-b border-grace">
         <div className="max-w-5xl mx-auto px-4 py-3">
           <ol className="flex items-center space-x-2 text-sm">
-            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
-            <li aria-hidden="true" className="text-primary-dark/40">/</li>
-            <li><Link href="/bible-quiz-difficulty" className="text-blue-600 hover:underline">Quiz Difficulty</Link></li>
-            <li aria-hidden="true" className="text-primary-dark/40">/</li>
-            <li aria-current="page" className="text-primary-dark/70">{levelLabel}</li>
+            <li><Link href="/" className="text-sacred hover:underline">Home</Link></li>
+            <li aria-hidden="true" className="text-ink-light">/</li>
+            <li><Link href="/bible-quiz-difficulty" className="text-sacred hover:underline">Quiz Difficulty</Link></li>
+            <li aria-hidden="true" className="text-ink-light">/</li>
+            <li aria-current="page" className="text-ink-muted">{levelLabel}</li>
           </ol>
         </div>
       </nav>
@@ -262,23 +262,23 @@ export default function BibleQuizDifficultyLevelPage({ params }: { params: { lev
           <div className="grid grid-cols-3 divide-x divide-grace border-b border-grace">
             <div className="p-4 text-center">
               <p className={`text-2xl font-bold ${config.accentColor}`}>66</p>
-              <p className="text-sm text-primary-dark/70">Bible Books</p>
+              <p className="text-sm text-ink-muted">Bible Books</p>
             </div>
             <div className="p-4 text-center">
               <p className={`text-2xl font-bold ${config.accentColor}`}>{totalChapters.toLocaleString()}</p>
-              <p className="text-sm text-primary-dark/70">Chapter Quizzes</p>
+              <p className="text-sm text-ink-muted">Chapter Quizzes</p>
             </div>
             <div className="p-4 text-center">
               <p className={`text-2xl font-bold ${config.accentColor}`}>15</p>
-              <p className="text-sm text-primary-dark/70">Questions per Quiz</p>
+              <p className="text-sm text-ink-muted">Questions per Quiz</p>
             </div>
           </div>
         </div>
 
         {/* Question Format */}
-        <div className={`${config.bgColor} border ${config.textColor === 'text-green-700' ? 'border-green-200' : config.textColor === 'text-amber-700' ? 'border-amber-200' : config.textColor === 'text-red-700' ? 'border-red-200' : 'border-purple-200'} rounded-xl p-5 mb-8`}>
+        <div className={`${config.bgColor} border ${config.textColor === 'text-green-700' ? 'border-green-200' : config.textColor === 'text-amber-700' ? 'border-amber-200' : config.textColor === 'text-red-700' ? 'border-red-200' : 'border-sacred/20'} rounded-xl p-5 mb-8`}>
           <p className={`font-display font-bold ${config.textColor} mb-1`}>Question Format</p>
-          <p className="text-primary-dark/70 text-sm">{config.questionBreakdown}</p>
+          <p className="text-ink-muted text-sm">{config.questionBreakdown}</p>
         </div>
 
         {/* Motivational Banner */}
@@ -291,7 +291,7 @@ export default function BibleQuizDifficultyLevelPage({ params }: { params: { lev
           <div className="flex items-center justify-between mb-5">
             <div className="flex items-center gap-3">
               <h2 className="text-2xl font-display font-bold text-scripture">Old Testament</h2>
-              <span className="text-sm text-primary-dark/50">39 books</span>
+              <span className="text-sm text-ink-muted">39 books</span>
             </div>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
@@ -313,7 +313,7 @@ export default function BibleQuizDifficultyLevelPage({ params }: { params: { lev
           <div className="flex items-center justify-between mb-5">
             <div className="flex items-center gap-3">
               <h2 className="text-2xl font-display font-bold text-scripture">New Testament</h2>
-              <span className="text-sm text-primary-dark/50">27 books</span>
+              <span className="text-sm text-ink-muted">27 books</span>
             </div>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
@@ -343,7 +343,7 @@ export default function BibleQuizDifficultyLevelPage({ params }: { params: { lev
                 </div>
                 <div>
                   <h3 className="font-display font-bold text-scripture">{tip.title}</h3>
-                  <p className="text-primary-dark/70 text-sm mt-1 leading-relaxed">{tip.text}</p>
+                  <p className="text-ink-muted text-sm mt-1 leading-relaxed">{tip.text}</p>
                 </div>
               </div>
             ))}
@@ -354,22 +354,22 @@ export default function BibleQuizDifficultyLevelPage({ params }: { params: { lev
         <section className="bg-white rounded-xl shadow-sm border border-grace p-6">
           <h2 className="text-xl font-bold text-scripture mb-4">Explore More</h2>
           <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3">
-            <Link href="/bible-quiz-difficulty" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">All Difficulty Levels</span>
+            <Link href="/bible-quiz-difficulty" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">All Difficulty Levels</span>
             </Link>
             {VALID_LEVELS.filter((l) => l !== level).map((l) => (
-              <Link key={l} href={`/bible-quiz-difficulty/${l}`} className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-                <span className="text-blue-600 font-medium text-sm">{l.charAt(0).toUpperCase() + l.slice(1)} Quizzes</span>
+              <Link key={l} href={`/bible-quiz-difficulty/${l}`} className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+                <span className="text-sacred font-medium text-sm">{l.charAt(0).toUpperCase() + l.slice(1)} Quizzes</span>
               </Link>
             ))}
-            <Link href="/bible-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">All Bible Quizzes</span>
+            <Link href="/bible-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">All Bible Quizzes</span>
             </Link>
-            <Link href="/old-testament-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">Old Testament Quizzes</span>
+            <Link href="/old-testament-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">Old Testament Quizzes</span>
             </Link>
-            <Link href="/new-testament-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">New Testament Quizzes</span>
+            <Link href="/new-testament-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">New Testament Quizzes</span>
             </Link>
           </div>
         </section>

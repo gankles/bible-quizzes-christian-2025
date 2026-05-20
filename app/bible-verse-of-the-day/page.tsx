@@ -182,14 +182,14 @@ export default function BibleVerseOfTheDayPage() {
                 <div className="absolute inset-0 flex flex-col justify-end p-6 md:p-8">
                   <h1 className="text-3xl md:text-4xl font-display font-bold text-white mb-2">Bible Verse of the Day</h1>
                   <p className="text-amber-100 max-w-2xl mb-4">Start each day with an inspirational scripture from the King James Bible. 60 curated daily verses organized by monthly themes for year-round devotional reading.</p>
-                  <Link href="/bible-quizzes" className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md w-fit">Test Your Knowledge -- Take a Quiz</Link>
+                  <Link href="/bible-quizzes" className="inline-flex items-center px-6 py-3 bg-white text-scripture font-bold rounded-lg hover:bg-sacred-light transition-colors shadow-md w-fit">Test Your Knowledge -- Take a Quiz</Link>
                 </div>
               </div>
               <div className="grid grid-cols-4 divide-x divide-grace border-b border-grace">
-                <div className="p-4 text-center"><p className="text-2xl font-bold text-blue-600">{DAILY_VERSES.length}</p><p className="text-sm text-primary-dark/70">Daily Verses</p></div>
-                <div className="p-4 text-center"><p className="text-2xl font-bold text-blue-600">12</p><p className="text-sm text-primary-dark/70">Monthly Themes</p></div>
-                <div className="p-4 text-center"><p className="text-2xl font-bold text-blue-600">KJV</p><p className="text-sm text-primary-dark/70">Translation</p></div>
-                <div className="p-4 text-center"><p className="text-2xl font-bold text-blue-600">{uniqueBooks.size}</p><p className="text-sm text-primary-dark/70">Books</p></div>
+                <div className="p-4 text-center"><p className="text-2xl font-bold text-sacred">{DAILY_VERSES.length}</p><p className="text-sm text-ink-muted">Daily Verses</p></div>
+                <div className="p-4 text-center"><p className="text-2xl font-bold text-sacred">12</p><p className="text-sm text-ink-muted">Monthly Themes</p></div>
+                <div className="p-4 text-center"><p className="text-2xl font-bold text-sacred">KJV</p><p className="text-sm text-ink-muted">Translation</p></div>
+                <div className="p-4 text-center"><p className="text-2xl font-bold text-sacred">{uniqueBooks.size}</p><p className="text-sm text-ink-muted">Books</p></div>
               </div>
             </div>
           </div>
@@ -197,21 +197,21 @@ export default function BibleVerseOfTheDayPage() {
 
         {/* Today's Featured Verse */}
         <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
-          <div className="bg-gradient-to-br from-blue-50 to-white rounded-xl border-2 border-blue-200 p-6 md:p-8">
+          <div className="bg-gradient-to-br from-scripture to-white rounded-xl border-2 border-sacred/20 p-6 md:p-8">
             <div className="flex items-center gap-2 mb-3">
-              <span className="inline-block px-3 py-1 bg-blue-600 text-white text-xs font-bold rounded-full uppercase tracking-wide">Today&apos;s Verse</span>
-              <span className="inline-block px-2 py-0.5 bg-blue-50 text-blue-700 text-xs rounded-full border border-blue-100">{todaysVerse.theme}</span>
+              <span className="inline-block px-3 py-1 bg-scripture text-white text-xs font-bold rounded-full uppercase tracking-wide">Today&apos;s Verse</span>
+              <span className="inline-block px-2 py-0.5 bg-sacred-light text-scripture text-xs rounded-full border border-sacred/10">{todaysVerse.theme}</span>
             </div>
-            <Link href={verseUrl(todaysVerse)} className="text-2xl font-display font-bold text-scripture hover:text-blue-600 transition-colors">{todaysVerse.reference}</Link>
-            <blockquote className="text-lg text-primary-dark/85 leading-relaxed italic border-l-4 border-blue-300 pl-5 mt-3 mb-4">&ldquo;{todaysVerse.text}&rdquo;</blockquote>
+            <Link href={verseUrl(todaysVerse)} className="text-2xl font-display font-bold text-scripture hover:text-gold-dark transition-colors">{todaysVerse.reference}</Link>
+            <blockquote className="text-lg text-ink-muted leading-relaxed italic border-l-4 border-sacred/50 pl-5 mt-3 mb-4">&ldquo;{todaysVerse.text}&rdquo;</blockquote>
             <div className="flex flex-wrap items-center gap-3 text-sm">
-              <Link href={verseUrl(todaysVerse)} className="text-blue-600 hover:underline font-medium">Study this verse</Link>
-              <span className="text-primary-dark/30">|</span>
-              <Link href={`/${todaysVerse.bookSlug}-chapters`} className="text-blue-600 hover:underline">{todaysVerse.book} Chapters</Link>
-              <span className="text-primary-dark/30">|</span>
-              <Link href={`/${todaysVerse.bookSlug}-${todaysVerse.chapter}-quiz`} className="text-blue-600 hover:underline font-semibold">Chapter Quiz</Link>
-              <span className="text-primary-dark/30">|</span>
-              <Link href={`/bible-quotes/${todaysVerse.themeSlug}`} className="text-blue-600 hover:underline">Bible Quotes About {todaysVerse.theme}</Link>
+              <Link href={verseUrl(todaysVerse)} className="text-sacred hover:underline font-medium">Study this verse</Link>
+              <span className="text-ink-light">|</span>
+              <Link href={`/${todaysVerse.bookSlug}-chapters`} className="text-sacred hover:underline">{todaysVerse.book} Chapters</Link>
+              <span className="text-ink-light">|</span>
+              <Link href={`/${todaysVerse.bookSlug}-${todaysVerse.chapter}-quiz`} className="text-sacred hover:underline font-semibold">Chapter Quiz</Link>
+              <span className="text-ink-light">|</span>
+              <Link href={`/bible-quotes/${todaysVerse.themeSlug}`} className="text-sacred hover:underline">Bible Quotes About {todaysVerse.theme}</Link>
             </div>
           </div>
         </section>
@@ -220,7 +220,7 @@ export default function BibleVerseOfTheDayPage() {
         <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
           <div className="bg-white rounded-xl border border-grace p-6 md:p-8">
             <h2 className="text-xl font-display font-bold text-scripture mb-3">Why Read a Bible Verse Every Day?</h2>
-            <div className="text-primary-dark/80 leading-relaxed space-y-3">
+            <div className="text-scripture leading-relaxed space-y-3">
               <p>Reading a <strong>Bible verse of the day</strong> is one of the most effective spiritual disciplines a Christian can practice. A daily scripture reading anchors your mind in God&apos;s Word before the demands of the day take over. Whether you spend five minutes or an hour, beginning each morning with a passage from the Old Testament or New Testament sets the tone for a day lived in faith, hope, and obedience to the gospel.</p>
               <p>Millions of believers worldwide use a <strong>daily Bible verse</strong> as the foundation of their devotional life. Apps like the YouVersion Bible App and websites like BibleGateway serve a daily verse to hundreds of millions of users each year. The practice is simple: read the verse, meditate on its meaning, memorize the passage if you can, and pray about how the scripture applies to your circumstances. Over time, this habit builds a reservoir of comfort, encouragement, and strength drawn directly from God&apos;s Word.</p>
               <p>The verses curated on this page are drawn from the <strong>King James Version</strong> (KJV) and organized into twelve monthly themes -- from New Beginnings in January through Eternal Promise in December. Each month focuses on a core biblical theme: salvation, love, courage, guidance, peace, faith, comfort, prayer, Scripture, forgiveness, and eternal life. Every verse links to a full study page with cross-references, original-language word studies, and a chapter quiz so you can go deeper in your daily devotional reading and memorization practice.</p>
@@ -233,7 +233,7 @@ export default function BibleVerseOfTheDayPage() {
           <h2 className="text-lg font-bold text-scripture mb-3">Browse by Theme</h2>
           <div className="flex flex-wrap gap-2">
             {themes.map(theme => (
-              <a key={theme} href={`#theme-${theme.toLowerCase().replace(/\s+/g, '-')}`} className="inline-flex items-center px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-primary-dark/80 hover:border-blue-300 hover:text-blue-600 transition-colors">{theme}</a>
+              <a key={theme} href={`#theme-${theme.toLowerCase().replace(/\s+/g, '-')}`} className="inline-flex items-center px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-scripture hover:border-sacred/50 hover:text-gold-dark transition-colors">{theme}</a>
             ))}
           </div>
         </section>
@@ -246,29 +246,29 @@ export default function BibleVerseOfTheDayPage() {
               <section key={month} id={`month-${month}`}>
                 <div className="flex items-center gap-3 mb-4">
                   <h2 className="text-xl font-display font-bold text-scripture">{MONTH_NAMES[month - 1]}</h2>
-                  <span className="text-sm text-primary-dark/60">-- {MONTH_THEMES[month - 1]}</span>
+                  <span className="text-sm text-ink-muted">-- {MONTH_THEMES[month - 1]}</span>
                 </div>
                 <ol className="space-y-4">
                   {monthVerses.map((verse, idx) => (
-                    <li key={verse.reference} id={idx === 0 ? `theme-${verse.theme.toLowerCase().replace(/\s+/g, '-')}` : undefined} className="bg-white rounded-xl border border-grace hover:border-blue-200 hover:shadow-sm transition-all overflow-hidden">
+                    <li key={verse.reference} id={idx === 0 ? `theme-${verse.theme.toLowerCase().replace(/\s+/g, '-')}` : undefined} className="bg-white rounded-xl border border-grace hover:border-sacred/50 hover:shadow-sm transition-all overflow-hidden">
                       <div className="flex items-start gap-4 p-5 md:p-6">
-                        <span className="flex-shrink-0 w-9 h-9 flex items-center justify-center rounded-full bg-blue-50 text-blue-700 text-sm font-bold border border-blue-100">{idx + 1}</span>
+                        <span className="flex-shrink-0 w-9 h-9 flex items-center justify-center rounded-full bg-sacred-light text-scripture text-sm font-bold border border-sacred/10">{idx + 1}</span>
                         <div className="flex-1 min-w-0">
                           <div className="flex flex-wrap items-center gap-2 mb-2">
-                            <Link href={verseUrl(verse)} className="text-lg font-display font-bold text-scripture hover:text-blue-600 transition-colors">{verse.reference}</Link>
-                            <span className="inline-block px-2 py-0.5 bg-blue-50 text-blue-700 text-xs rounded-full border border-blue-100">{verse.theme}</span>
+                            <Link href={verseUrl(verse)} className="text-lg font-display font-bold text-scripture hover:text-gold-dark transition-colors">{verse.reference}</Link>
+                            <span className="inline-block px-2 py-0.5 bg-sacred-light text-scripture text-xs rounded-full border border-sacred/10">{verse.theme}</span>
                           </div>
-                          <blockquote className="text-primary-dark/85 leading-relaxed italic border-l-3 border-blue-200 pl-4">&ldquo;{verse.text}&rdquo;</blockquote>
+                          <blockquote className="text-ink-muted leading-relaxed italic border-l-3 border-sacred/20 pl-4">&ldquo;{verse.text}&rdquo;</blockquote>
                           <div className="flex flex-wrap items-center gap-3 mt-3 text-sm">
-                            <Link href={verseUrl(verse)} className="text-blue-600 hover:underline font-medium">Study this verse</Link>
-                            <span className="text-primary-dark/30">|</span>
-                            <Link href={`/chapters/${verse.bookSlug}/${verse.chapter}`} className="text-blue-600 hover:underline">Chapter {verse.chapter}</Link>
-                            <span className="text-primary-dark/30">|</span>
-                            <Link href={`/${verse.bookSlug}-chapters`} className="text-blue-600 hover:underline">{verse.book} Chapters</Link>
-                            <span className="text-primary-dark/30">|</span>
-                            <Link href={`/${verse.bookSlug}-${verse.chapter}-quiz`} className="text-blue-600 hover:underline font-semibold">Chapter Quiz</Link>
-                            <span className="text-primary-dark/30">|</span>
-                            <Link href={`/bible-quotes/${verse.themeSlug}`} className="text-blue-600 hover:underline">Quotes About {verse.theme}</Link>
+                            <Link href={verseUrl(verse)} className="text-sacred hover:underline font-medium">Study this verse</Link>
+                            <span className="text-ink-light">|</span>
+                            <Link href={`/chapters/${verse.bookSlug}/${verse.chapter}`} className="text-sacred hover:underline">Chapter {verse.chapter}</Link>
+                            <span className="text-ink-light">|</span>
+                            <Link href={`/${verse.bookSlug}-chapters`} className="text-sacred hover:underline">{verse.book} Chapters</Link>
+                            <span className="text-ink-light">|</span>
+                            <Link href={`/${verse.bookSlug}-${verse.chapter}-quiz`} className="text-sacred hover:underline font-semibold">Chapter Quiz</Link>
+                            <span className="text-ink-light">|</span>
+                            <Link href={`/bible-quotes/${verse.themeSlug}`} className="text-sacred hover:underline">Quotes About {verse.theme}</Link>
                           </div>
                         </div>
                       </div>
@@ -282,10 +282,10 @@ export default function BibleVerseOfTheDayPage() {
 
         {/* Mid-Content CTA */}
         <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-6 md:p-8 text-white">
+          <div className="bg-gradient-to-r from-scripture to-scripture/80 rounded-xl p-6 md:p-8 text-white">
             <h2 className="text-xl md:text-2xl font-display font-bold mb-2">Know These Verses by Heart? Prove It.</h2>
-            <p className="text-blue-100 mb-4 max-w-2xl">Take a chapter quiz from any book featured on this page. 15 questions per quiz with instant scoring and verse-by-verse explanations.</p>
-            <Link href="/bible-quizzes" className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md">Take a Quiz Now</Link>
+            <p className="text-sacred-light mb-4 max-w-2xl">Take a chapter quiz from any book featured on this page. 15 questions per quiz with instant scoring and verse-by-verse explanations.</p>
+            <Link href="/bible-quizzes" className="inline-flex items-center px-6 py-3 bg-white text-scripture font-bold rounded-lg hover:bg-sacred-light transition-colors shadow-md">Take a Quiz Now</Link>
           </div>
         </section>
 
@@ -296,23 +296,23 @@ export default function BibleVerseOfTheDayPage() {
             <div className="space-y-6">
               <div>
                 <h3 className="font-bold text-scripture mb-1">What is the Bible verse of the day?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">The Bible verse of the day is a single scripture passage selected for daily devotional reading, prayer, and meditation. Popular apps like the YouVersion Bible App and websites like BibleGateway serve a daily verse to hundreds of millions of users each year. Our curated collection offers {DAILY_VERSES.length} verses organized by monthly themes from the King James Version.</p>
+                <p className="text-scripture leading-relaxed">The Bible verse of the day is a single scripture passage selected for daily devotional reading, prayer, and meditation. Popular apps like the YouVersion Bible App and websites like BibleGateway serve a daily verse to hundreds of millions of users each year. Our curated collection offers {DAILY_VERSES.length} verses organized by monthly themes from the King James Version.</p>
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">How do I start reading a Bible verse every day?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">Start by bookmarking this page and reading the featured verse each morning. Write the verse in a journal, meditate on its meaning during the day, and pray about how it applies to your life. Many Christians pair their daily verse with a short devotional reading or a chapter from the Bible for deeper study.</p>
+                <p className="text-scripture leading-relaxed">Start by bookmarking this page and reading the featured verse each morning. Write the verse in a journal, meditate on its meaning during the day, and pray about how it applies to your life. Many Christians pair their daily verse with a short devotional reading or a chapter from the Bible for deeper study.</p>
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">What is the best Bible verse to read every morning?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">Lamentations 3:22&ndash;23 is one of the best morning scriptures: &ldquo;It is of the LORD&apos;s mercies that we are not consumed, because his compassions fail not. They are new every morning: great is thy faithfulness.&rdquo; Psalm 118:24 and Psalm 119:105 are also powerful morning verses that set the tone for the day ahead.</p>
+                <p className="text-scripture leading-relaxed">Lamentations 3:22&ndash;23 is one of the best morning scriptures: &ldquo;It is of the LORD&apos;s mercies that we are not consumed, because his compassions fail not. They are new every morning: great is thy faithfulness.&rdquo; Psalm 118:24 and Psalm 119:105 are also powerful morning verses that set the tone for the day ahead.</p>
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">What Bible version are these daily verses from?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">All daily verses on this page are from the King James Version (KJV), first published in 1611. The KJV remains one of the most beloved and memorized English Bible translations, known for its literary beauty and faithfulness to the original manuscripts.</p>
+                <p className="text-scripture leading-relaxed">All daily verses on this page are from the King James Version (KJV), first published in 1611. The KJV remains one of the most beloved and memorized English Bible translations, known for its literary beauty and faithfulness to the original manuscripts.</p>
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">Can I use these verses for daily devotionals?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">Absolutely. These {DAILY_VERSES.length} verses are organized into 12 monthly themes -- from New Beginnings in January to Eternal Promise in December. Each verse includes links to full study pages, chapter quizzes, and related Bible quotes so you can go deeper in your daily devotional practice.</p>
+                <p className="text-scripture leading-relaxed">Absolutely. These {DAILY_VERSES.length} verses are organized into 12 monthly themes -- from New Beginnings in January to Eternal Promise in December. Each verse includes links to full study pages, chapter quizzes, and related Bible quotes so you can go deeper in your daily devotional practice.</p>
               </div>
             </div>
           </div>
@@ -322,17 +322,17 @@ export default function BibleVerseOfTheDayPage() {
         <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
           <div className="bg-white rounded-xl border border-grace p-6 md:p-8">
             <h2 className="text-xl font-display font-bold text-scripture mb-4">Continue Exploring Scripture</h2>
-            <p className="text-sm text-primary-dark/70 mb-5">Deepen your Bible study with quizzes, devotionals, reading plans, and more.</p>
+            <p className="text-sm text-ink-muted mb-5">Deepen your Bible study with quizzes, devotionals, reading plans, and more.</p>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
-              <Link href="/bible-quizzes" className="flex items-center gap-3 px-4 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 hover:shadow-sm transition-all"><span>Bible Quizzes</span></Link>
-              <Link href="/bible-quotes" className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Bible Quotes Hub</span></Link>
-              <Link href="/popular-bible-verses" className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">100 Most Popular Verses</span></Link>
-              <Link href="/famous-bible-verses" className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Famous Bible Verses</span></Link>
-              <Link href="/devotionals" className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Daily Devotionals</span></Link>
-              <Link href="/reading-plans" className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Reading Plans</span></Link>
-              <Link href="/cross-references" className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Cross References</span></Link>
-              <Link href="/bible-study-guides" className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Study Guides</span></Link>
-              <Link href="/topics" className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Bible Topics</span></Link>
+              <Link href="/bible-quizzes" className="flex items-center gap-3 px-4 py-3 bg-scripture text-white font-bold rounded-lg hover:bg-ink-muted hover:shadow-sm transition-all"><span>Bible Quizzes</span></Link>
+              <Link href="/bible-quotes" className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Bible Quotes Hub</span></Link>
+              <Link href="/popular-bible-verses" className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">100 Most Popular Verses</span></Link>
+              <Link href="/famous-bible-verses" className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Famous Bible Verses</span></Link>
+              <Link href="/devotionals" className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Daily Devotionals</span></Link>
+              <Link href="/reading-plans" className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Reading Plans</span></Link>
+              <Link href="/cross-references" className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Cross References</span></Link>
+              <Link href="/bible-study-guides" className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Study Guides</span></Link>
+              <Link href="/topics" className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Bible Topics</span></Link>
             </div>
           </div>
         </section>

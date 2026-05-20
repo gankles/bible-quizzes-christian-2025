@@ -20,13 +20,13 @@ export function GospelCTA({
 }) {
   return (
     <section className="mb-12">
-      <div className="bg-gradient-to-br from-scripture via-scripture/95 to-blue-950 rounded-xl p-8 md:p-10 text-white shadow-xl">
+      <div className="bg-gradient-to-br from-scripture via-scripture/95 to-scripture/80 rounded-xl p-8 md:p-10 text-white shadow-xl">
         <h2 className="text-2xl md:text-3xl font-bold font-display mb-4 text-center">{headline}</h2>
-        <p className="text-blue-100 max-w-2xl mx-auto leading-relaxed mb-6 text-center">{body}</p>
+        <p className="text-sacred-light max-w-2xl mx-auto leading-relaxed mb-6 text-center">{body}</p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Link
             href={primaryHref}
-            className="inline-flex items-center justify-center bg-white text-scripture font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors text-sm uppercase tracking-wider"
+            className="inline-flex items-center justify-center bg-white text-scripture font-bold py-3 px-8 rounded-lg hover:bg-sacred-light transition-colors text-sm uppercase tracking-wider"
           >
             {primaryLabel}
           </Link>
@@ -55,8 +55,8 @@ export function StudyPathCards({
   }>;
 }) {
   const colorMap = {
-    blue: 'bg-blue-600 hover:bg-blue-700 text-blue-200 text-blue-100',
-    scripture: 'bg-scripture hover:bg-scripture/90 text-blue-200 text-blue-100',
+    blue: 'bg-scripture hover:bg-ink-muted text-sacred text-sacred-light',
+    scripture: 'bg-scripture hover:bg-scripture/90 text-sacred text-sacred-light',
     amber: 'bg-amber-700 hover:bg-amber-800 text-amber-200 text-amber-100',
     green: 'bg-green-700 hover:bg-green-800 text-green-200 text-green-100',
     indigo: 'bg-indigo-700 hover:bg-indigo-800 text-indigo-200 text-indigo-100',
@@ -100,12 +100,12 @@ export function InlineCTA({
   variant?: 'blue' | 'amber' | 'green';
 }) {
   const variants = {
-    blue: 'bg-blue-50 dark:bg-blue-950/30 border-blue-200 dark:border-blue-800 text-blue-900 dark:text-blue-100',
+    blue: 'bg-sacred-light dark:bg-sacred-light0/30 border-sacred/20 dark:border-sacred/20 text-scripture dark:text-sacred-light',
     amber: 'bg-amber-50 dark:bg-amber-950/30 border-amber-200 dark:border-amber-800 text-amber-900 dark:text-amber-100',
     green: 'bg-green-50 dark:bg-green-950/30 border-green-200 dark:border-green-800 text-green-900 dark:text-green-100',
   };
   const btnVariants = {
-    blue: 'bg-blue-600 hover:bg-blue-700',
+    blue: 'bg-scripture hover:bg-ink-muted',
     amber: 'bg-amber-600 hover:bg-amber-700',
     green: 'bg-green-600 hover:bg-green-700',
   };
@@ -139,9 +139,9 @@ export function RelatedStudies({
     const colors: Record<string, string> = {
       'word-study': 'bg-indigo-100 text-indigo-700 dark:bg-indigo-900 dark:text-indigo-300',
       'topic': 'bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-300',
-      'quiz': 'bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300',
+      'quiz': 'bg-sacred/10 text-scripture dark:bg-scripture dark:text-sacred',
       'character': 'bg-amber-100 text-amber-700 dark:bg-amber-900 dark:text-amber-300',
-      'chain': 'bg-purple-100 text-purple-700 dark:bg-purple-900 dark:text-purple-300',
+      'chain': 'bg-scripture/10 text-scripture dark:bg-scripture/10 dark:text-scripture',
       'cross-ref': 'bg-rose-100 text-rose-700 dark:bg-rose-900 dark:text-rose-300',
       'grammar': 'bg-cyan-100 text-cyan-700 dark:bg-cyan-900 dark:text-cyan-300',
       'encyclopedia': 'bg-orange-100 text-orange-700 dark:bg-orange-900 dark:text-orange-300',
@@ -162,10 +162,10 @@ export function RelatedStudies({
             <span className={`inline-block text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded-full mb-2 ${typeBadge(link.type)}`}>
               {link.type.replace('-', ' ')}
             </span>
-            <h3 className="font-bold text-scripture dark:text-white group-hover:text-blue-600 transition-colors text-sm">
+            <h3 className="font-bold text-scripture dark:text-white group-hover:text-gold-dark transition-colors text-sm">
               {link.title}
             </h3>
-            <p className="text-primary-dark/60 dark:text-primary-dark/40 text-xs mt-1 line-clamp-2">{link.description}</p>
+            <p className="text-ink-muted dark:text-ink-light text-xs mt-1 line-clamp-2">{link.description}</p>
           </Link>
         ))}
       </div>
@@ -192,9 +192,9 @@ export function FAQAccordion({
           >
             <summary className="p-5 cursor-pointer font-bold text-scripture dark:text-white text-lg flex items-center justify-between list-none">
               <span>{item.question}</span>
-              <span className="text-blue-600 text-xl ml-4 shrink-0 group-open:rotate-45 transition-transform">+</span>
+              <span className="text-sacred text-xl ml-4 shrink-0 group-open:rotate-45 transition-transform">+</span>
             </summary>
-            <div className="px-5 pb-5 text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed border-t border-grace dark:border-dark-border pt-4">
+            <div className="px-5 pb-5 text-scripture dark:text-ink-light leading-relaxed border-t border-grace dark:border-dark-border pt-4">
               {item.answer}
             </div>
           </details>
@@ -215,7 +215,7 @@ export function QuickStats({
       {stats.map((s, i) => (
         <div key={i} className="bg-white dark:bg-dark-surface border border-grace dark:border-dark-border rounded-lg p-3 text-center">
           <p className="text-2xl font-bold text-scripture dark:text-white">{s.value}</p>
-          <p className="text-xs text-primary-dark/60 dark:text-primary-dark/40 uppercase tracking-wider">{s.label}</p>
+          <p className="text-xs text-ink-muted dark:text-ink-light uppercase tracking-wider">{s.label}</p>
         </div>
       ))}
     </div>

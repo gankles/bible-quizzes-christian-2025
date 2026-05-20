@@ -50,11 +50,11 @@ function WordCard({ slug, number, transliteration, lemma, primaryTranslation }: 
           <span className="font-semibold text-scripture group-hover:text-amber-700 transition-colors text-sm block truncate">
             {transliteration}
           </span>
-          <span className="text-xs text-primary-dark/40">{number}</span>
+          <span className="text-xs text-ink-light">{number}</span>
         </div>
       </div>
       {primaryTranslation && (
-        <span className="block text-xs text-primary-dark/60 mt-1 truncate">
+        <span className="block text-xs text-ink-muted mt-1 truncate">
           {primaryTranslation}
         </span>
       )}
@@ -91,7 +91,7 @@ export default function HebrewWordIndexPage() {
       <StructuredData data={collectionSchema} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-5xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
+      <nav className="max-w-5xl mx-auto px-4 pt-4 text-sm text-ink-muted">
         <Link href="/" className="hover:text-amber-700">Home</Link>
         <span className="mx-1.5">/</span>
         <span className="text-scripture font-medium">Hebrew Word Studies</span>
@@ -114,7 +114,7 @@ export default function HebrewWordIndexPage() {
             <h1 className="text-3xl md:text-4xl font-display font-bold text-scripture mb-3">
               Hebrew Word Studies
             </h1>
-            <p className="text-primary-dark/70 max-w-2xl mx-auto leading-relaxed mb-6">
+            <p className="text-ink-muted max-w-2xl mx-auto leading-relaxed mb-6">
               Explore the original Hebrew and Aramaic words of the Old Testament using Strong&apos;s
               Exhaustive Concordance. Study word meanings, etymology, and how each word is
               translated in the King James Version.
@@ -124,15 +124,15 @@ export default function HebrewWordIndexPage() {
             <div className="flex flex-wrap justify-center gap-6 text-center">
               <div>
                 <span className="block text-2xl font-bold text-amber-800">{totalEntries.toLocaleString()}</span>
-                <span className="text-xs text-primary-dark/50 uppercase tracking-wider">Hebrew Words</span>
+                <span className="text-xs text-ink-muted uppercase tracking-wider">Hebrew Words</span>
               </div>
               <div>
                 <span className="block text-2xl font-bold text-amber-800">{letters.length}</span>
-                <span className="text-xs text-primary-dark/50 uppercase tracking-wider">Letters</span>
+                <span className="text-xs text-ink-muted uppercase tracking-wider">Letters</span>
               </div>
               <div>
                 <span className="block text-2xl font-bold text-amber-800">H1 &ndash; H8674</span>
-                <span className="text-xs text-primary-dark/50 uppercase tracking-wider">Strong&apos;s Range</span>
+                <span className="text-xs text-ink-muted uppercase tracking-wider">Strong&apos;s Range</span>
               </div>
             </div>
           </div>
@@ -151,7 +151,7 @@ export default function HebrewWordIndexPage() {
               </a>
             ))}
           </div>
-          <p className="text-center text-xs text-primary-dark/40 mt-2">
+          <p className="text-center text-xs text-ink-light mt-2">
             {totalEntries.toLocaleString()} words across {letters.length} letters
           </p>
         </nav>
@@ -209,7 +209,7 @@ export default function HebrewWordIndexPage() {
                   </span>
                   <div>
                     <h2 className="text-xl font-bold text-scripture">{letter}</h2>
-                    <p className="text-sm text-primary-dark/50">
+                    <p className="text-sm text-ink-muted">
                       {count.toLocaleString()} word{count !== 1 ? 's' : ''}
                     </p>
                   </div>
@@ -239,17 +239,17 @@ export default function HebrewWordIndexPage() {
         </div>
 
         {/* CTA to Greek Word Studies */}
-        <section className="bg-gradient-to-br from-blue-50 to-blue-100/60 border border-blue-200/80 rounded-xl p-6 mb-8 text-center">
+        <section className="bg-gradient-to-br from-scripture to-scripture/80/60 border border-sacred/20/80 rounded-xl p-6 mb-8 text-center">
           <h2 className="text-lg font-bold text-scripture mb-2">
             Study New Testament Greek
           </h2>
-          <p className="text-sm text-primary-dark/60 mb-4 max-w-lg mx-auto">
+          <p className="text-sm text-ink-muted mb-4 max-w-lg mx-auto">
             Continue your word study with the 5,523 Greek words of the New Testament from
             Strong&apos;s Greek Dictionary.
           </p>
           <Link
             href="/greek-word"
-            className="inline-flex items-center px-5 py-2.5 bg-blue-600 text-white rounded-lg font-medium text-sm hover:bg-blue-700 transition-colors shadow-sm"
+            className="inline-flex items-center px-5 py-2.5 bg-scripture text-white rounded-lg font-medium text-sm hover:bg-ink-muted transition-colors shadow-sm"
           >
             Explore Greek Word Studies
           </Link>

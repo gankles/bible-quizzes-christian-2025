@@ -283,14 +283,14 @@ export default function BibleTriviaPage() {
                   <h1 className="text-3xl md:text-4xl font-display font-bold text-white mb-2">
                     Bible Trivia Questions &amp; Answers
                   </h1>
-                  <p className="text-purple-100 max-w-2xl mb-4">
+                  <p className="text-scripture max-w-2xl mb-4">
                     500+ free Bible trivia questions covering the Old Testament, New
                     Testament, and every book from Genesis to Revelation. Perfect for
                     family game night, Sunday school, small groups, and personal study.
                   </p>
                   <Link
                     href="/bible-quizzes"
-                    className="inline-flex items-center px-6 py-3 bg-white text-purple-700 font-bold rounded-lg hover:bg-purple-50 transition-colors shadow-md w-fit"
+                    className="inline-flex items-center px-6 py-3 bg-white text-scripture font-bold rounded-lg hover:bg-scripture/5 transition-colors shadow-md w-fit"
                   >
                     Start Playing Now — Pick a Category
                   </Link>
@@ -300,16 +300,16 @@ export default function BibleTriviaPage() {
               {/* Stats Bar */}
               <div className="grid grid-cols-3 divide-x divide-grace border-b border-grace">
                 <div className="p-4 text-center">
-                  <p className="text-2xl font-bold text-blue-600">500+</p>
-                  <p className="text-sm text-primary-dark/70">Trivia Questions</p>
+                  <p className="text-2xl font-bold text-sacred">500+</p>
+                  <p className="text-sm text-ink-muted">Trivia Questions</p>
                 </div>
                 <div className="p-4 text-center">
-                  <p className="text-2xl font-bold text-blue-600">66</p>
-                  <p className="text-sm text-primary-dark/70">Bible Books</p>
+                  <p className="text-2xl font-bold text-sacred">66</p>
+                  <p className="text-sm text-ink-muted">Bible Books</p>
                 </div>
                 <div className="p-4 text-center">
-                  <p className="text-2xl font-bold text-blue-600">Free</p>
-                  <p className="text-sm text-primary-dark/70">No Account Needed</p>
+                  <p className="text-2xl font-bold text-sacred">Free</p>
+                  <p className="text-sm text-ink-muted">No Account Needed</p>
                 </div>
               </div>
             </div>
@@ -324,7 +324,7 @@ export default function BibleTriviaPage() {
             <h2 className="text-xl font-display font-bold text-scripture mb-3">
               Welcome to Bible Maximum Trivia
             </h2>
-            <p className="text-primary-dark/80 leading-relaxed mb-3">
+            <p className="text-scripture leading-relaxed mb-3">
               Whether you are preparing a Sunday school lesson, hosting a family game
               night, leading a small group icebreaker, or simply testing your own
               knowledge of Scripture, Bible Maximum has you covered. Our library of
@@ -333,7 +333,7 @@ export default function BibleTriviaPage() {
               of Revelation. Questions are organized by book, by testament, and by
               difficulty so you can find the perfect set for any audience.
             </p>
-            <p className="text-primary-dark/80 leading-relaxed mb-3">
+            <p className="text-scripture leading-relaxed mb-3">
               Each trivia question comes with the correct answer and a verse
               reference, allowing you to look up every answer directly in Scripture.
               We offer multiple-choice, true/false, and fill-in-the-blank formats
@@ -343,7 +343,7 @@ export default function BibleTriviaPage() {
               minor prophets, Pauline theology, and obscure details that will
               challenge even seasoned Bible scholars.
             </p>
-            <p className="text-primary-dark/80 leading-relaxed">
+            <p className="text-scripture leading-relaxed">
               Browse our featured sample questions below to get a taste of what is
               available, then dive into one of our full quiz categories to start
               playing. All quizzes are completely free, require no sign-up, and can be
@@ -359,7 +359,7 @@ export default function BibleTriviaPage() {
           <h2 className="text-xl font-display font-bold text-scripture mb-4">
             10 Sample Bible Trivia Questions
           </h2>
-          <p className="text-sm text-primary-dark/70 mb-5">
+          <p className="text-sm text-ink-muted mb-5">
             A quick taste of the kinds of questions you will find across our quizzes.
             Every answer includes a Scripture reference you can click to study further.
           </p>
@@ -367,11 +367,11 @@ export default function BibleTriviaPage() {
             {SAMPLE_QUESTIONS.map((q, idx) => (
               <li
                 key={idx}
-                className="bg-white rounded-xl border border-grace hover:border-blue-200 hover:shadow-sm transition-all overflow-hidden"
+                className="bg-white rounded-xl border border-grace hover:border-sacred/50 hover:shadow-sm transition-all overflow-hidden"
               >
                 <div className="flex items-start gap-4 p-5 md:p-6">
                   {/* Number */}
-                  <span className="flex-shrink-0 w-9 h-9 flex items-center justify-center rounded-full bg-purple-50 text-purple-700 text-sm font-bold border border-purple-100">
+                  <span className="flex-shrink-0 w-9 h-9 flex items-center justify-center rounded-full bg-scripture/5 text-scripture text-sm font-bold border border-sacred/20">
                     {idx + 1}
                   </span>
 
@@ -382,7 +382,7 @@ export default function BibleTriviaPage() {
                     </p>
 
                     {/* Answer */}
-                    <p className="text-primary-dark/80 leading-relaxed mb-2">
+                    <p className="text-scripture leading-relaxed mb-2">
                       <span className="font-semibold text-scripture">Answer:</span>{' '}
                       {q.answer}
                     </p>
@@ -390,7 +390,7 @@ export default function BibleTriviaPage() {
                     {/* Reference Link */}
                     <Link
                       href={q.referenceUrl}
-                      className="text-sm text-blue-600 hover:underline font-medium"
+                      className="text-sm text-sacred hover:underline font-medium"
                     >
                       {q.reference}
                     </Link>
@@ -402,10 +402,10 @@ export default function BibleTriviaPage() {
 
           <div className="mt-6 bg-gradient-to-r from-purple-600 to-purple-700 rounded-xl p-6 text-white text-center">
             <p className="text-lg font-display font-bold mb-2">Got all 10 right? Challenge yourself with a full quiz.</p>
-            <p className="text-purple-100 text-sm mb-4">Choose from 500+ questions across all 66 books of the Bible, with instant scoring and verse references.</p>
+            <p className="text-scripture text-sm mb-4">Choose from 500+ questions across all 66 books of the Bible, with instant scoring and verse references.</p>
             <Link
               href="/bible-quizzes"
-              className="inline-flex items-center px-6 py-3 bg-white text-purple-700 font-bold rounded-lg hover:bg-purple-50 transition-colors shadow-md"
+              className="inline-flex items-center px-6 py-3 bg-white text-scripture font-bold rounded-lg hover:bg-scripture/5 transition-colors shadow-md"
             >
               Start a Full Bible Quiz
             </Link>
@@ -419,7 +419,7 @@ export default function BibleTriviaPage() {
           <h2 className="text-xl font-display font-bold text-scripture mb-4">
             Browse Bible Trivia by Category
           </h2>
-          <p className="text-sm text-primary-dark/70 mb-5">
+          <p className="text-sm text-ink-muted mb-5">
             Choose a category below to start a full trivia quiz with scored results
             and verse references for every answer.
           </p>
@@ -428,15 +428,15 @@ export default function BibleTriviaPage() {
               <Link
                 key={cat.href}
                 href={cat.href}
-                className="group bg-white rounded-xl border border-grace p-5 hover:border-blue-300 hover:shadow-sm transition-all"
+                className="group bg-white rounded-xl border border-grace p-5 hover:border-sacred/50 hover:shadow-sm transition-all"
               >
-                <h3 className="font-display font-bold text-scripture group-hover:text-blue-600 transition-colors mb-1">
+                <h3 className="font-display font-bold text-scripture group-hover:text-gold-dark transition-colors mb-1">
                   {cat.title}
                 </h3>
-                <p className="text-sm text-primary-dark/70 mb-3 leading-relaxed">
+                <p className="text-sm text-ink-muted mb-3 leading-relaxed">
                   {cat.description}
                 </p>
-                <span className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-xs rounded-full border border-blue-100 font-medium">
+                <span className="inline-block px-2.5 py-1 bg-blue-50 text-scripture text-xs rounded-full border border-sacred/10 font-medium">
                   {cat.count}
                 </span>
               </Link>
@@ -455,7 +455,7 @@ export default function BibleTriviaPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <h3 className="font-bold text-scripture mb-2">Family Game Night</h3>
-                <p className="text-primary-dark/80 leading-relaxed text-sm">
+                <p className="text-scripture leading-relaxed text-sm">
                   Print out a set of questions or read them aloud from your phone.
                   Split into teams, keep score, and award bonus points for naming the
                   Bible book or chapter where the answer is found. Start with easy
@@ -466,7 +466,7 @@ export default function BibleTriviaPage() {
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-2">Sunday School</h3>
-                <p className="text-primary-dark/80 leading-relaxed text-sm">
+                <p className="text-scripture leading-relaxed text-sm">
                   Use trivia as a warm-up activity at the start of class or as a
                   review at the end. Pick questions that align with the lesson theme
                   for the week. For younger classes, stick to multiple-choice format so
@@ -477,7 +477,7 @@ export default function BibleTriviaPage() {
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-2">Small Groups &amp; Bible Studies</h3>
-                <p className="text-primary-dark/80 leading-relaxed text-sm">
+                <p className="text-scripture leading-relaxed text-sm">
                   Begin your weekly meeting with a quick five-question trivia round
                   related to the book you are studying. It breaks the ice, gets
                   everyone thinking about Scripture, and naturally transitions into
@@ -488,7 +488,7 @@ export default function BibleTriviaPage() {
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-2">Personal Study</h3>
-                <p className="text-primary-dark/80 leading-relaxed text-sm">
+                <p className="text-scripture leading-relaxed text-sm">
                   Take a quiz after reading a chapter to test your comprehension.
                   Wrong answers highlight areas you may have skimmed over, prompting
                   you to re-read and study more carefully. Over time, regular trivia
@@ -512,7 +512,7 @@ export default function BibleTriviaPage() {
               {FAQS.map((faq, idx) => (
                 <div key={idx}>
                   <h3 className="font-bold text-scripture mb-1">{faq.question}</h3>
-                  <p className="text-primary-dark/80 leading-relaxed">{faq.answer}</p>
+                  <p className="text-scripture leading-relaxed">{faq.answer}</p>
                 </div>
               ))}
             </div>
@@ -527,45 +527,45 @@ export default function BibleTriviaPage() {
             <h2 className="text-xl font-display font-bold text-scripture mb-4">
               Continue Exploring Scripture
             </h2>
-            <p className="text-sm text-primary-dark/70 mb-5">
+            <p className="text-sm text-ink-muted mb-5">
               Dive deeper into the Bible with quizzes, verse studies, and more.
             </p>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
               <Link
                 href="/bible-quizzes"
-                className="flex items-center gap-3 px-4 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 hover:shadow-sm transition-all"
+                className="flex items-center gap-3 px-4 py-3 bg-scripture text-white font-bold rounded-lg hover:bg-ink-muted hover:shadow-sm transition-all"
               >
                 <span>Bible Quizzes</span>
               </Link>
               <Link
                 href="/old-testament-quizzes"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">
                   Old Testament Quizzes
                 </span>
               </Link>
               <Link
                 href="/new-testament-quizzes"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">
                   New Testament Quizzes
                 </span>
               </Link>
               <Link
                 href="/books-of-the-bible"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">
                   Books of the Bible
                 </span>
               </Link>
               <Link
                 href="/famous-bible-verses"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">
                   Famous Bible Verses
                 </span>
               </Link>

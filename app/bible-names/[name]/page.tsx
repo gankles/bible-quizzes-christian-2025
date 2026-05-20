@@ -170,10 +170,10 @@ export default async function BibleNamePage({ params }: PageProps) {
       <StructuredData data={faqSchema} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
-        <Link href="/" className="hover:text-blue-600">Home</Link>
+      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-ink-muted">
+        <Link href="/" className="hover:text-gold-dark">Home</Link>
         <span className="mx-1.5">/</span>
-        <Link href="/bible-names" className="hover:text-blue-600">Bible Names</Link>
+        <Link href="/bible-names" className="hover:text-gold-dark">Bible Names</Link>
         <span className="mx-1.5">/</span>
         <span className="text-scripture font-medium">{entry.name}</span>
       </nav>
@@ -183,14 +183,14 @@ export default async function BibleNamePage({ params }: PageProps) {
         {/* Header */}
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-2">
-            <span className="w-10 h-10 flex items-center justify-center rounded-lg bg-blue-600 text-white font-bold text-lg">
+            <span className="w-10 h-10 flex items-center justify-center rounded-lg bg-scripture text-white font-bold text-lg">
               {entry.firstLetter}
             </span>
             <h1 className="text-3xl md:text-4xl font-display font-bold text-scripture">
               {entry.name}
             </h1>
           </div>
-          <p className="text-lg text-primary-dark/70 mt-2">
+          <p className="text-lg text-ink-muted mt-2">
             Biblical name meaning: <span className="font-semibold text-scripture">&ldquo;{entry.meaning}&rdquo;</span>
           </p>
         </div>
@@ -200,7 +200,7 @@ export default async function BibleNamePage({ params }: PageProps) {
           <h2 className="text-lg font-bold text-scripture mb-3">
             What Does &ldquo;{entry.name}&rdquo; Mean in the Bible?
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-3">
+          <p className="text-scripture leading-relaxed mb-3">
             The name <strong>{entry.name}</strong> is a biblical name meaning{' '}
             <strong>&ldquo;{entry.meaning}&rdquo;</strong>.
             {matchingPeople.length > 0 ? (
@@ -208,7 +208,7 @@ export default async function BibleNamePage({ params }: PageProps) {
               {matchingPeople.map((p, i) => (
                 <span key={p.slug}>
                   {i > 0 && (i === matchingPeople.length - 1 ? ' and ' : ', ')}
-                  <Link href={`/people/${p.slug}`} className="text-blue-600 hover:underline">
+                  <Link href={`/people/${p.slug}`} className="text-sacred hover:underline">
                     {p.name}{p.uniqueAttribute ? `, ${p.uniqueAttribute.toLowerCase()}` : ''}
                   </Link>
                 </span>
@@ -220,22 +220,22 @@ export default async function BibleNamePage({ params }: PageProps) {
           </p>
           <dl className="grid gap-3 sm:grid-cols-2 mt-4 pt-4 border-t border-grace/50">
             <div>
-              <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Meaning</dt>
+              <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">Meaning</dt>
               <dd className="text-scripture font-medium">{entry.meaning}</dd>
             </div>
             <div>
-              <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Source</dt>
+              <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">Source</dt>
               <dd className="text-scripture">Hitchcock&apos;s Bible Names Dictionary</dd>
             </div>
             {enrichedPersons.length > 0 && enrichedPersons[0].sex && (
               <div>
-                <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Gender</dt>
+                <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">Gender</dt>
                 <dd className="text-scripture capitalize">{enrichedPersons[0].sex}</dd>
               </div>
             )}
             {enrichedPersons.length > 0 && enrichedPersons[0].tribe && (
               <div>
-                <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Tribe</dt>
+                <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">Tribe</dt>
                 <dd className="text-scripture">{enrichedPersons[0].tribe}</dd>
               </div>
             )}
@@ -257,21 +257,21 @@ export default async function BibleNamePage({ params }: PageProps) {
                   <dl className="grid gap-3 sm:grid-cols-2">
                     {label.hebrew && (
                       <div>
-                        <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Hebrew</dt>
+                        <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">Hebrew</dt>
                         <dd>
                           <span className="text-xl font-serif text-scripture">{label.hebrew}</span>
                           {label.hebrewTranslit && (
-                            <span className="text-sm text-primary-dark/60 ml-2">({label.hebrewTranslit})</span>
+                            <span className="text-sm text-ink-muted ml-2">({label.hebrewTranslit})</span>
                           )}
                         </dd>
                         {label.hebrewMeaning && (
-                          <dd className="text-sm text-primary-dark/70 mt-1">&ldquo;{label.hebrewMeaning}&rdquo;</dd>
+                          <dd className="text-sm text-ink-muted mt-1">&ldquo;{label.hebrewMeaning}&rdquo;</dd>
                         )}
                         {label.hebrewStrongs && (
                           <dd className="mt-1">
                             <Link
                               href={`/lexicon/hebrew/${label.hebrewStrongs.replace(/^H/, '')}`}
-                              className="text-xs text-blue-600 hover:underline"
+                              className="text-xs text-sacred hover:underline"
                             >
                               Strong&apos;s {label.hebrewStrongs}
                             </Link>
@@ -281,21 +281,21 @@ export default async function BibleNamePage({ params }: PageProps) {
                     )}
                     {label.greek && (
                       <div>
-                        <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Greek</dt>
+                        <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">Greek</dt>
                         <dd>
                           <span className="text-xl font-serif text-scripture">{label.greek}</span>
                           {label.greekTranslit && (
-                            <span className="text-sm text-primary-dark/60 ml-2">({label.greekTranslit})</span>
+                            <span className="text-sm text-ink-muted ml-2">({label.greekTranslit})</span>
                           )}
                         </dd>
                         {label.greekMeaning && (
-                          <dd className="text-sm text-primary-dark/70 mt-1">&ldquo;{label.greekMeaning}&rdquo;</dd>
+                          <dd className="text-sm text-ink-muted mt-1">&ldquo;{label.greekMeaning}&rdquo;</dd>
                         )}
                         {label.greekStrongs && (
                           <dd className="mt-1">
                             <Link
                               href={`/lexicon/greek/${label.greekStrongs.replace(/^G/, '')}`}
-                              className="text-xs text-blue-600 hover:underline"
+                              className="text-xs text-sacred hover:underline"
                             >
                               Strong&apos;s {label.greekStrongs}
                             </Link>
@@ -305,12 +305,12 @@ export default async function BibleNamePage({ params }: PageProps) {
                     )}
                   </dl>
                   {label.firstRef && (
-                    <p className="text-xs text-primary-dark/50 mt-2">
+                    <p className="text-xs text-ink-muted mt-2">
                       First referenced: {label.firstRef}
                     </p>
                   )}
                   {label.givenByGod && (
-                    <p className="text-xs text-blue-600 font-medium mt-1">Name given by God</p>
+                    <p className="text-xs text-sacred font-medium mt-1">Name given by God</p>
                   )}
                 </div>
               ))}
@@ -327,7 +327,7 @@ export default async function BibleNamePage({ params }: PageProps) {
             <dl className="grid gap-3 sm:grid-cols-2">
               {Object.entries(relByType).map(([type, rels]) => (
                 <div key={type}>
-                  <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">
+                  <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">
                     {type.replace(/_/g, ' ')}
                   </dt>
                   <dd className="space-y-1">
@@ -335,7 +335,7 @@ export default async function BibleNamePage({ params }: PageProps) {
                       <span key={i} className="block text-scripture text-sm">
                         {rel.relatedName}
                         {rel.ref && (
-                          <span className="text-xs text-primary-dark/40 ml-1">({rel.ref})</span>
+                          <span className="text-xs text-ink-light ml-1">({rel.ref})</span>
                         )}
                       </span>
                     ))}
@@ -353,12 +353,12 @@ export default async function BibleNamePage({ params }: PageProps) {
               {entry.name} in Scripture
             </h2>
             {biography.summary && (
-              <p className="text-primary-dark/80 leading-relaxed mb-4">{biography.summary}</p>
+              <p className="text-scripture leading-relaxed mb-4">{biography.summary}</p>
             )}
             {biography.significance && (
               <div className="mb-4">
                 <h3 className="font-semibold text-scripture mb-1">Significance</h3>
-                <p className="text-primary-dark/80 text-sm leading-relaxed">{biography.significance}</p>
+                <p className="text-scripture text-sm leading-relaxed">{biography.significance}</p>
               </div>
             )}
             {biography.key_events && biography.key_events.length > 0 && (
@@ -367,13 +367,13 @@ export default async function BibleNamePage({ params }: PageProps) {
                 <div className="space-y-2">
                   {biography.key_events.slice(0, 10).map((evt: any, i: number) => (
                     <div key={i} className="flex items-start gap-3 text-sm">
-                      <span className="flex-shrink-0 w-16 text-xs text-primary-dark/50 pt-0.5">
+                      <span className="flex-shrink-0 w-16 text-xs text-ink-muted pt-0.5">
                         {evt.age ? `Age ${evt.age}` : ''}
                       </span>
                       <div className="flex-1">
-                        <span className="text-primary-dark/80">{evt.event}</span>
+                        <span className="text-scripture">{evt.event}</span>
                         {evt.verse && (
-                          <span className="text-xs text-blue-600 ml-1">({evt.verse})</span>
+                          <span className="text-xs text-sacred ml-1">({evt.verse})</span>
                         )}
                       </div>
                     </div>
@@ -381,7 +381,7 @@ export default async function BibleNamePage({ params }: PageProps) {
                 </div>
               </div>
             )}
-            <p className="text-xs text-primary-dark/40 mt-4">Source: kjvstudy.org</p>
+            <p className="text-xs text-ink-light mt-4">Source: kjvstudy.org</p>
           </section>
         )}
 
@@ -396,23 +396,23 @@ export default async function BibleNamePage({ params }: PageProps) {
                 <Link
                   key={person.slug}
                   href={`/people/${person.slug}`}
-                  className="flex items-center gap-3 bg-primary-light/30 rounded-lg px-4 py-3 hover:bg-primary-light border border-grace hover:border-blue-300 transition-all group block"
+                  className="flex items-center gap-3 bg-primary-light/30 rounded-lg px-4 py-3 hover:bg-primary-light border border-grace hover:border-sacred/50 transition-all group block"
                 >
                   <span className={`w-8 h-8 flex items-center justify-center rounded-full text-white text-xs font-bold flex-shrink-0 ${
-                    person.sex === 'male' ? 'bg-blue-600' : person.sex === 'female' ? 'bg-pink-600' : 'bg-primary-dark/60'
+                    person.sex === 'male' ? 'bg-scripture' : person.sex === 'female' ? 'bg-pink-600' : 'bg-scripture/60'
                   }`}>
                     {person.name.charAt(0)}
                   </span>
                   <div>
-                    <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                    <span className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                       {person.name}
-                      {person.nameInstance > 1 && <span className="text-primary-dark/40 text-sm ml-1">({person.nameInstance})</span>}
+                      {person.nameInstance > 1 && <span className="text-ink-light text-sm ml-1">({person.nameInstance})</span>}
                     </span>
                     {person.uniqueAttribute && (
-                      <span className="block text-sm text-primary-dark/60">{person.uniqueAttribute}</span>
+                      <span className="block text-sm text-ink-muted">{person.uniqueAttribute}</span>
                     )}
                     {person.tribe && (
-                      <span className="text-xs text-primary-dark/40">Tribe of {person.tribe}</span>
+                      <span className="text-xs text-ink-light">Tribe of {person.tribe}</span>
                     )}
                   </div>
                 </Link>
@@ -430,12 +430,12 @@ export default async function BibleNamePage({ params }: PageProps) {
                 <Link
                   key={n.slug}
                   href={`/bible-names/${n.slug}`}
-                  className="bg-primary-light/30 border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
+                  className="bg-primary-light/30 border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-sacred/50 transition-all group"
                 >
-                  <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                  <span className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                     {n.name}
                   </span>
-                  <span className="block text-xs text-primary-dark/60 mt-0.5 line-clamp-1">
+                  <span className="block text-xs text-ink-muted mt-0.5 line-clamp-1">
                     {n.meaning}
                   </span>
                 </Link>
@@ -449,10 +449,10 @@ export default async function BibleNamePage({ params }: PageProps) {
           {prev ? (
             <Link
               href={`/bible-names/${prev.slug}`}
-              className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+              className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
             >
-              <span className="text-xs text-primary-dark/60">Previous</span>
-              <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+              <span className="text-xs text-ink-muted">Previous</span>
+              <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                 {prev.name}
               </span>
             </Link>
@@ -462,10 +462,10 @@ export default async function BibleNamePage({ params }: PageProps) {
           {next ? (
             <Link
               href={`/bible-names/${next.slug}`}
-              className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+              className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
             >
-              <span className="text-xs text-primary-dark/60">Next</span>
-              <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+              <span className="text-xs text-ink-muted">Next</span>
+              <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                 {next.name}
               </span>
             </Link>
@@ -485,12 +485,12 @@ export default async function BibleNamePage({ params }: PageProps) {
                 <Link
                   key={n.slug}
                   href={`/bible-names/${n.slug}`}
-                  className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
+                  className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-sacred/50 transition-all group"
                 >
-                  <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                  <span className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                     {n.name}
                   </span>
-                  <span className="block text-xs text-primary-dark/60 mt-0.5 line-clamp-1">
+                  <span className="block text-xs text-ink-muted mt-0.5 line-clamp-1">
                     {n.meaning}
                   </span>
                 </Link>
@@ -507,7 +507,7 @@ export default async function BibleNamePage({ params }: PageProps) {
               <h3 className="font-semibold text-scripture mb-1">
                 What does {entry.name} mean in the Bible?
               </h3>
-              <p className="text-primary-dark/80 text-sm leading-relaxed">
+              <p className="text-scripture text-sm leading-relaxed">
                 The biblical name {entry.name} means &ldquo;{entry.meaning}&rdquo;.
                 {hebrewEtymology && (
                   <> In Hebrew, it is written as {hebrewEtymology.hebrew}
@@ -521,7 +521,7 @@ export default async function BibleNamePage({ params }: PageProps) {
               <h3 className="font-semibold text-scripture mb-1">
                 Who was {entry.name} in the Bible?
               </h3>
-              <p className="text-primary-dark/80 text-sm leading-relaxed">
+              <p className="text-scripture text-sm leading-relaxed">
                 {matchingPeople.length > 0
                   ? <>{entry.name} appears in the Bible as {matchingPeople.map((p, i) => (
                       <span key={p.slug}>
@@ -542,22 +542,22 @@ export default async function BibleNamePage({ params }: PageProps) {
         <section className="bg-grace/10 border border-grace rounded-xl p-6">
           <h2 className="text-lg font-bold text-scripture mb-3">Continue Your Study</h2>
           <div className="grid gap-2 sm:grid-cols-2">
-            <Link href="/bible-names" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-names" className="text-sacred hover:underline text-sm">
               All Bible Names &amp; Meanings
             </Link>
-            <Link href="/people" className="text-blue-600 hover:underline text-sm">
+            <Link href="/people" className="text-sacred hover:underline text-sm">
               Bible Characters Directory
             </Link>
-            <Link href={`/bible-names#${entry.firstLetter.toLowerCase()}`} className="text-blue-600 hover:underline text-sm">
+            <Link href={`/bible-names#${entry.firstLetter.toLowerCase()}`} className="text-sacred hover:underline text-sm">
               Names Starting with {entry.firstLetter}
             </Link>
-            <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">
               Bible Quizzes
             </Link>
-            <Link href="/topics" className="text-blue-600 hover:underline text-sm">
+            <Link href="/topics" className="text-sacred hover:underline text-sm">
               Bible Topics
             </Link>
-            <Link href="/lexicon" className="text-blue-600 hover:underline text-sm">
+            <Link href="/lexicon" className="text-sacred hover:underline text-sm">
               Hebrew &amp; Greek Word Study
             </Link>
           </div>

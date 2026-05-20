@@ -116,12 +116,12 @@ export default async function CharacterQuizPage({ params }: PageProps) {
       <StructuredData data={breadcrumbSchema} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
-        <Link href="/" className="hover:text-blue-600">Home</Link>
+      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-ink-muted">
+        <Link href="/" className="hover:text-gold-dark">Home</Link>
         <span className="mx-1.5">/</span>
-        <Link href="/bible-quizzes" className="hover:text-blue-600">Bible Quizzes</Link>
+        <Link href="/bible-quizzes" className="hover:text-gold-dark">Bible Quizzes</Link>
         <span className="mx-1.5">/</span>
-        <Link href="/character-quiz" className="hover:text-blue-600">Character Quizzes</Link>
+        <Link href="/character-quiz" className="hover:text-gold-dark">Character Quizzes</Link>
         <span className="mx-1.5">/</span>
         <span className="text-scripture font-medium">{name} Quiz</span>
       </nav>
@@ -136,26 +136,26 @@ export default async function CharacterQuizPage({ params }: PageProps) {
         <div className="bg-primary-light/30 border border-grace rounded-xl p-6">
           <h2 className="text-lg font-bold text-scripture mb-3">Related Resources</h2>
           <div className="grid gap-2 sm:grid-cols-2">
-            <Link href={`/characters/${slug}`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+            <Link href={`/characters/${slug}`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
               {name} Biography
             </Link>
             {bookSlug && chapterNum && (
-              <Link href={`/${bookSlug}-${chapterNum}-quiz`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+              <Link href={`/${bookSlug}-${chapterNum}-quiz`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
                 {bookMatch?.[1]} {chapterNum} Quiz
               </Link>
             )}
             {relatedSlugs.map((rs) => {
               const rName = getCharacterNameFromSlug(rs);
               return rName ? (
-                <Link key={rs} href={`/character-quiz/${rs}`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+                <Link key={rs} href={`/character-quiz/${rs}`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
                   {rName} Quiz
                 </Link>
               ) : null;
             })}
-            <Link href="/character-quiz" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+            <Link href="/character-quiz" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
               All Character Quizzes
             </Link>
-            <Link href="/bible-quizzes" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+            <Link href="/bible-quizzes" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
               More Bible Quizzes
             </Link>
           </div>

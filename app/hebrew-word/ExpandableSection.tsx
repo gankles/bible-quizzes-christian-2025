@@ -25,7 +25,7 @@ export default function ExpandableSection({
         <>
           {children}
           {hasEvenMore && (
-            <p className="text-center text-xs text-primary-dark/50 mt-3">
+            <p className="text-center text-xs text-ink-muted mt-3">
               Showing {showingCount.toLocaleString()} of {totalCount.toLocaleString()} words.
               Browse individual word pages for the complete list.
             </p>

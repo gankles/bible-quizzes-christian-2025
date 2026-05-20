@@ -106,7 +106,7 @@ export default function BookChaptersClient({
             <h2 className="text-2xl md:text-3xl font-bold text-scripture mb-2">
               Build Your {bookName} Study Plan
             </h2>
-            <p className="text-primary-dark/70">
+            <p className="text-ink-muted">
               Tell us how many days you have, and we&apos;ll create a personalized reading schedule.
               No rush—God&apos;s Word isn&apos;t going anywhere.
             </p>
@@ -114,7 +114,7 @@ export default function BookChaptersClient({
 
           <div className={`${testament === 'old' ? 'bg-amber-50 border-amber-200' : 'bg-sacred-light border-sacred/20'} border rounded-xl p-6`}>
             <div className="flex flex-col sm:flex-row items-center gap-4 mb-6">
-              <label className="font-medium text-primary-dark/80">I want to finish {bookName} in</label>
+              <label className="font-medium text-scripture">I want to finish {bookName} in</label>
               <select
                 value={studyDays}
                 onChange={(e) => setStudyDays(Number(e.target.value))}
@@ -151,10 +151,10 @@ export default function BookChaptersClient({
                   <table className="w-full text-sm">
                     <thead className="bg-primary-light/30 sticky top-0">
                       <tr>
-                        <th className="px-4 py-2 text-left font-medium text-primary-dark/70">Day</th>
-                        <th className="px-4 py-2 text-left font-medium text-primary-dark/70">Chapters</th>
-                        <th className="px-4 py-2 text-left font-medium text-primary-dark/70">Focus</th>
-                        <th className="px-4 py-2 text-left font-medium text-primary-dark/70">Quiz Link</th>
+                        <th className="px-4 py-2 text-left font-medium text-ink-muted">Day</th>
+                        <th className="px-4 py-2 text-left font-medium text-ink-muted">Chapters</th>
+                        <th className="px-4 py-2 text-left font-medium text-ink-muted">Focus</th>
+                        <th className="px-4 py-2 text-left font-medium text-ink-muted">Quiz Link</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -167,7 +167,7 @@ export default function BookChaptersClient({
                               : `Chapters ${item.chapters[0]}-${item.chapters[item.chapters.length - 1]}`
                             }
                           </td>
-                          <td className="px-4 py-2 text-primary-dark/70">{item.focus}</td>
+                          <td className="px-4 py-2 text-ink-muted">{item.focus}</td>
                           <td className="px-4 py-2">
                             <Link
                               href={`/${bookSlug}-${item.chapters[0]}-quiz`}
@@ -199,7 +199,7 @@ export default function BookChaptersClient({
                   className={`px-4 py-2 rounded-lg font-medium transition-colors ${
                     selectedSection === null
                       ? 'bg-scripture text-white'
-                      : 'bg-white border border-grace text-primary-dark/80 hover:border-primary-dark/40'
+                      : 'bg-white border border-grace text-scripture hover:border-sacred/50'
                   }`}
                 >
                   All Chapters ({totalChapters})
@@ -211,7 +211,7 @@ export default function BookChaptersClient({
                     className={`px-4 py-2 rounded-lg font-medium transition-colors border ${
                       selectedSection === section.name
                         ? section.color
-                        : 'bg-white border-grace text-primary-dark/80 hover:border-primary-dark/40'
+                        : 'bg-white border-grace text-scripture hover:border-sacred/50'
                     }`}
                   >
                     {section.name} ({section.chaptersRange})
@@ -220,7 +220,7 @@ export default function BookChaptersClient({
               </div>
 
               {selectedSection && (
-                <p className="text-center text-primary-dark/70 mb-6">
+                <p className="text-center text-ink-muted mb-6">
                   {sections.find(s => s.name === selectedSection)?.description}
                 </p>
               )}

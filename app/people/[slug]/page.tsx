@@ -146,10 +146,10 @@ export default async function PersonPage({ params }: PageProps) {
       <StructuredData data={faqSchema} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
-        <Link href="/" className="hover:text-blue-600">Home</Link>
+      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-ink-muted">
+        <Link href="/" className="hover:text-gold-dark">Home</Link>
         <span className="mx-1.5">/</span>
-        <Link href="/people" className="hover:text-blue-600">Bible People</Link>
+        <Link href="/people" className="hover:text-gold-dark">Bible People</Link>
         <span className="mx-1.5">/</span>
         <span className="text-scripture font-medium">{person.name}</span>
       </nav>
@@ -160,7 +160,7 @@ export default async function PersonPage({ params }: PageProps) {
           <div className="flex items-center gap-3 mb-2">
             {person.sex && (
               <span className={`w-10 h-10 flex items-center justify-center rounded-lg text-white font-bold text-lg ${
-                person.sex === 'male' ? 'bg-blue-600' : 'bg-pink-600'
+                person.sex === 'male' ? 'bg-scripture' : 'bg-pink-600'
               }`}>
                 {person.name.charAt(0)}
               </span>
@@ -168,11 +168,11 @@ export default async function PersonPage({ params }: PageProps) {
             <h1 className="text-3xl md:text-4xl font-display font-bold text-scripture">
               {person.name}
               {person.nameInstance > 1 && (
-                <span className="text-lg text-primary-dark/40 ml-2">({person.nameInstance})</span>
+                <span className="text-lg text-ink-light ml-2">({person.nameInstance})</span>
               )}
             </h1>
           </div>
-          <p className="text-primary-dark/70 mt-2">
+          <p className="text-ink-muted mt-2">
             {person.uniqueAttribute
               ? `${person.name} in the Bible — ${person.uniqueAttribute}.`
               : `${person.name} is a person mentioned in the Bible.`}
@@ -180,8 +180,8 @@ export default async function PersonPage({ params }: PageProps) {
             {totalRefs > 0 ? ` Referenced in ${totalRefs} scripture passage${totalRefs !== 1 ? 's' : ''}.` : ''}
           </p>
           {nameMeaning && (
-            <p className="text-sm text-primary-dark/60 mt-1">
-              Name meaning: <Link href={`/bible-names/${nameMeaning.slug}`} className="text-blue-600 hover:underline">&ldquo;{nameMeaning.meaning}&rdquo;</Link>
+            <p className="text-sm text-ink-muted mt-1">
+              Name meaning: <Link href={`/bible-names/${nameMeaning.slug}`} className="text-sacred hover:underline">&ldquo;{nameMeaning.meaning}&rdquo;</Link>
             </p>
           )}
         </div>
@@ -192,37 +192,37 @@ export default async function PersonPage({ params }: PageProps) {
           <dl className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {person.sex && (
               <div>
-                <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Gender</dt>
+                <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">Gender</dt>
                 <dd className="text-scripture capitalize">{person.sex}</dd>
               </div>
             )}
             {person.tribe && (
               <div>
-                <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Tribe</dt>
+                <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">Tribe</dt>
                 <dd className="text-scripture">{person.tribe}</dd>
               </div>
             )}
             {person.surname && (
               <div>
-                <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Surname</dt>
+                <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">Surname</dt>
                 <dd className="text-scripture">{person.surname}</dd>
               </div>
             )}
             {totalRefs > 0 && (
               <div>
-                <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Scripture References</dt>
+                <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">Scripture References</dt>
                 <dd className="text-scripture">{totalRefs} reference{totalRefs !== 1 ? 's' : ''}</dd>
               </div>
             )}
             {person.labels.length > 0 && (
               <div>
-                <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Known Names</dt>
+                <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">Known Names</dt>
                 <dd className="text-scripture">{person.labels.length} name{person.labels.length !== 1 ? 's' : ''}</dd>
               </div>
             )}
             {person.relationships.length > 0 && (
               <div>
-                <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Relationships</dt>
+                <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">Relationships</dt>
                 <dd className="text-scripture">{person.relationships.length} connection{person.relationships.length !== 1 ? 's' : ''}</dd>
               </div>
             )}
@@ -233,25 +233,25 @@ export default async function PersonPage({ params }: PageProps) {
         {biography && (
           <div className="bg-white border border-grace rounded-xl p-6 mb-8">
             <h2 className="text-lg font-bold text-scripture mb-4">Biography</h2>
-            <p className="text-primary-dark/80 leading-relaxed mb-4">{biography.summary}</p>
+            <p className="text-scripture leading-relaxed mb-4">{biography.summary}</p>
 
             {biography.significance && (
               <div className="mb-4">
-                <h3 className="text-sm font-semibold text-primary-dark/60 uppercase tracking-wider mb-2">Significance</h3>
-                <p className="text-primary-dark/80 leading-relaxed">{biography.significance}</p>
+                <h3 className="text-sm font-semibold text-ink-muted uppercase tracking-wider mb-2">Significance</h3>
+                <p className="text-scripture leading-relaxed">{biography.significance}</p>
               </div>
             )}
 
             {biography.keyEvents.length > 0 && (
               <div>
-                <h3 className="text-sm font-semibold text-primary-dark/60 uppercase tracking-wider mb-3">Key Events</h3>
+                <h3 className="text-sm font-semibold text-ink-muted uppercase tracking-wider mb-3">Key Events</h3>
                 <div className="space-y-2">
                   {biography.keyEvents.map((evt, i) => (
                     <div key={i} className="flex gap-3 text-sm">
-                      <div className="flex-shrink-0 w-2 h-2 rounded-full bg-blue-400 mt-1.5" />
+                      <div className="flex-shrink-0 w-2 h-2 rounded-full bg-sacred mt-1.5" />
                       <div>
-                        <span className="text-primary-dark/80">{evt.event}</span>
-                        <span className="text-primary-dark/50 ml-2">({evt.verse})</span>
+                        <span className="text-scripture">{evt.event}</span>
+                        <span className="text-ink-muted ml-2">({evt.verse})</span>
                       </div>
                     </div>
                   ))}
@@ -313,8 +313,8 @@ export default async function PersonPage({ params }: PageProps) {
                       </svg>
                     </div>
                     <div className="min-w-0">
-                      <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors text-sm block">{place.name}</span>
-                      <span className="text-xs text-primary-dark/60">{formatPlaceTypeSingular(place.type)}</span>
+                      <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors text-sm block">{place.name}</span>
+                      <span className="text-xs text-ink-muted">{formatPlaceTypeSingular(place.type)}</span>
                     </div>
                   </Link>
                 ))}
@@ -335,7 +335,7 @@ export default async function PersonPage({ params }: PageProps) {
                   <div className="flex items-center gap-2 mb-2">
                     <span className="font-semibold text-scripture">{label.labelName}</span>
                     {label.labelType && (
-                      <span className="text-xs px-2 py-0.5 bg-grace/20 text-primary-dark/70 rounded">
+                      <span className="text-xs px-2 py-0.5 bg-grace/20 text-ink-muted rounded">
                         {label.labelType}
                       </span>
                     )}
@@ -348,41 +348,41 @@ export default async function PersonPage({ params }: PageProps) {
                   <dl className="grid gap-2 text-sm sm:grid-cols-2">
                     {label.meaningHe && (
                       <div>
-                        <dt className="text-xs text-primary-dark/60">Hebrew</dt>
+                        <dt className="text-xs text-ink-muted">Hebrew</dt>
                         <dd className="text-scripture font-medium" dir="rtl">{label.meaningHe}</dd>
                       </div>
                     )}
                     {label.hebrewTransliterated && (
                       <div>
-                        <dt className="text-xs text-primary-dark/60">Transliteration</dt>
+                        <dt className="text-xs text-ink-muted">Transliteration</dt>
                         <dd className="text-scripture italic">{label.hebrewTransliterated}</dd>
                       </div>
                     )}
                     {label.meaningEn && (
                       <div>
-                        <dt className="text-xs text-primary-dark/60">Meaning</dt>
+                        <dt className="text-xs text-ink-muted">Meaning</dt>
                         <dd className="text-scripture">{label.meaningEn}</dd>
                       </div>
                     )}
                     {label.greekLabel && (
                       <div>
-                        <dt className="text-xs text-primary-dark/60">Greek</dt>
+                        <dt className="text-xs text-ink-muted">Greek</dt>
                         <dd className="text-scripture">{label.greekLabel}</dd>
                       </div>
                     )}
                     {label.reference && (
                       <div>
-                        <dt className="text-xs text-primary-dark/60">Reference</dt>
-                        <dd className="text-primary-dark/80">{label.reference}</dd>
+                        <dt className="text-xs text-ink-muted">Reference</dt>
+                        <dd className="text-scripture">{label.reference}</dd>
                       </div>
                     )}
                     {label.hebrewStrongsNumber && (
                       <div>
-                        <dt className="text-xs text-primary-dark/60">Strong&apos;s</dt>
+                        <dt className="text-xs text-ink-muted">Strong&apos;s</dt>
                         <dd>
                           <Link
                             href={`/lexicon/${label.hebrewStrongsNumber}`}
-                            className="text-blue-600 hover:underline"
+                            className="text-sacred hover:underline"
                           >
                             {label.hebrewStrongsNumber}
                           </Link>
@@ -404,7 +404,7 @@ export default async function PersonPage({ params }: PageProps) {
             </h2>
             {Object.entries(relsByType).map(([type, rels]) => (
               <div key={type} className="mb-4 last:mb-0">
-                <h3 className="text-sm font-semibold text-primary-dark/80 mb-2 capitalize">{type}</h3>
+                <h3 className="text-sm font-semibold text-scripture mb-2 capitalize">{type}</h3>
                 <div className="grid gap-2 sm:grid-cols-2">
                   {rels.map((rel, i) => {
                     const otherPerson = getPersonById(rel.otherPersonId);
@@ -413,7 +413,7 @@ export default async function PersonPage({ params }: PageProps) {
                         {otherPerson ? (
                           <Link
                             href={`/people/${otherPerson.slug}`}
-                            className="font-medium text-blue-600 hover:underline"
+                            className="font-medium text-sacred hover:underline"
                           >
                             {rel.otherPersonName}
                           </Link>
@@ -421,7 +421,7 @@ export default async function PersonPage({ params }: PageProps) {
                           <span className="font-medium text-scripture">{rel.otherPersonName}</span>
                         )}
                         {rel.reference && (
-                          <span className="text-xs text-primary-dark/60">({rel.reference})</span>
+                          <span className="text-xs text-ink-muted">({rel.reference})</span>
                         )}
                       </div>
                     );
@@ -436,7 +436,7 @@ export default async function PersonPage({ params }: PageProps) {
         {person.notes && (
           <div className="bg-primary-light/30 border border-grace rounded-xl p-6 mb-8">
             <h2 className="text-lg font-bold text-scripture mb-3">Notes</h2>
-            <p className="text-primary-dark/80 leading-relaxed whitespace-pre-line">{person.notes}</p>
+            <p className="text-scripture leading-relaxed whitespace-pre-line">{person.notes}</p>
           </div>
         )}
 
@@ -445,10 +445,10 @@ export default async function PersonPage({ params }: PageProps) {
           {prev ? (
             <Link
               href={`/people/${prev.slug}`}
-              className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+              className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
             >
-              <span className="text-xs text-primary-dark/60">Previous</span>
-              <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+              <span className="text-xs text-ink-muted">Previous</span>
+              <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                 {prev.name}
               </span>
             </Link>
@@ -458,10 +458,10 @@ export default async function PersonPage({ params }: PageProps) {
           {next ? (
             <Link
               href={`/people/${next.slug}`}
-              className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+              className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
             >
-              <span className="text-xs text-primary-dark/60">Next</span>
-              <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+              <span className="text-xs text-ink-muted">Next</span>
+              <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                 {next.name}
               </span>
             </Link>
@@ -478,7 +478,7 @@ export default async function PersonPage({ params }: PageProps) {
               <h3 className="font-semibold text-scripture mb-1">
                 Who is {person.name} in the Bible?
               </h3>
-              <p className="text-primary-dark/80 text-sm leading-relaxed">
+              <p className="text-scripture text-sm leading-relaxed">
                 {person.uniqueAttribute
                   ? <>{person.name} is described in the Bible as {person.uniqueAttribute}.{person.tribe ? ` ${person.name} belonged to the tribe of ${person.tribe}.` : ''}</>
                   : <>{person.name} is a person mentioned in the Bible.{person.tribe ? ` ${person.name} belonged to the tribe of ${person.tribe}.` : ''}</>
@@ -490,7 +490,7 @@ export default async function PersonPage({ params }: PageProps) {
                 <h3 className="font-semibold text-scripture mb-1">
                   What does the name {person.name} mean?
                 </h3>
-                <p className="text-primary-dark/80 text-sm leading-relaxed">
+                <p className="text-scripture text-sm leading-relaxed">
                   The name {person.name} means &ldquo;{nameMeaning.meaning}&rdquo; according to Hitchcock&apos;s Bible Names Dictionary.
                 </p>
               </div>
@@ -503,23 +503,23 @@ export default async function PersonPage({ params }: PageProps) {
           <h2 className="text-lg font-bold text-scripture mb-3">Continue Your Study</h2>
           <div className="grid gap-2 sm:grid-cols-2">
             {nameMeaning && (
-              <Link href={`/bible-names/${nameMeaning.slug}`} className="text-blue-600 hover:underline text-sm">
+              <Link href={`/bible-names/${nameMeaning.slug}`} className="text-sacred hover:underline text-sm">
                 Meaning of &ldquo;{person.name}&rdquo;
               </Link>
             )}
-            <Link href="/people" className="text-blue-600 hover:underline text-sm">
+            <Link href="/people" className="text-sacred hover:underline text-sm">
               All Bible Characters
             </Link>
-            <Link href="/bible-names" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-names" className="text-sacred hover:underline text-sm">
               Bible Name Meanings
             </Link>
-            <Link href="/timeline" className="text-blue-600 hover:underline text-sm">
+            <Link href="/timeline" className="text-sacred hover:underline text-sm">
               Bible Timeline
             </Link>
-            <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">
               Bible Quizzes
             </Link>
-            <Link href="/topics" className="text-blue-600 hover:underline text-sm">
+            <Link href="/topics" className="text-sacred hover:underline text-sm">
               Bible Topics
             </Link>
           </div>

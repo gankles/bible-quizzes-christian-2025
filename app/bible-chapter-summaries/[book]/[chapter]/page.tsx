@@ -137,13 +137,13 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
       <nav aria-label="Breadcrumb" className="bg-white border-b border-grace">
         <div className="max-w-3xl mx-auto px-4 py-3">
           <ol className="flex items-center space-x-2 text-sm flex-wrap">
-            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
-            <li aria-hidden="true" className="text-primary-dark/40">/</li>
-            <li><Link href="/bible-chapter-summaries" className="text-blue-600 hover:underline">Chapter Summaries</Link></li>
-            <li aria-hidden="true" className="text-primary-dark/40">/</li>
-            <li><Link href={`/bible-chapter-summaries/${book}`} className="text-blue-600 hover:underline">{bookData.name}</Link></li>
-            <li aria-hidden="true" className="text-primary-dark/40">/</li>
-            <li aria-current="page" className="text-primary-dark/70">Chapter {chapterNum}</li>
+            <li><Link href="/" className="text-sacred hover:underline">Home</Link></li>
+            <li aria-hidden="true" className="text-ink-light">/</li>
+            <li><Link href="/bible-chapter-summaries" className="text-sacred hover:underline">Chapter Summaries</Link></li>
+            <li aria-hidden="true" className="text-ink-light">/</li>
+            <li><Link href={`/bible-chapter-summaries/${book}`} className="text-sacred hover:underline">{bookData.name}</Link></li>
+            <li aria-hidden="true" className="text-ink-light">/</li>
+            <li aria-current="page" className="text-ink-muted">Chapter {chapterNum}</li>
           </ol>
         </div>
       </nav>
@@ -153,13 +153,13 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
         {(prevChapter || nextChapter) && (
           <div className="flex items-center justify-between mb-4">
             {prevChapter ? (
-              <Link href={`/bible-chapter-summaries/${book}/${chapterNum - 1}`} className="flex items-center gap-1 text-sm text-blue-600 hover:text-blue-800">
+              <Link href={`/bible-chapter-summaries/${book}/${chapterNum - 1}`} className="flex items-center gap-1 text-sm text-sacred hover:text-gold-dark">
                 <svg className="w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg>
                 Chapter {chapterNum - 1}
               </Link>
             ) : <div />}
             {nextChapter ? (
-              <Link href={`/bible-chapter-summaries/${book}/${chapterNum + 1}`} className="flex items-center gap-1 text-sm text-blue-600 hover:text-blue-800">
+              <Link href={`/bible-chapter-summaries/${book}/${chapterNum + 1}`} className="flex items-center gap-1 text-sm text-sacred hover:text-gold-dark">
                 Chapter {chapterNum + 1}
                 <svg className="w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
               </Link>
@@ -200,21 +200,21 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
           {/* Quick Stats */}
           <div className={`grid ${summary?.timeline ? 'grid-cols-2 md:grid-cols-4' : 'grid-cols-3'} divide-x divide-grace`}>
             <div className="p-3 md:p-4 text-center">
-              <p className="text-xl font-bold text-blue-600">{currentChapter.verses}</p>
-              <p className="text-xs text-primary-dark/70">Verses</p>
+              <p className="text-xl font-bold text-sacred">{currentChapter.verses}</p>
+              <p className="text-xs text-ink-muted">Verses</p>
             </div>
             <div className="p-3 md:p-4 text-center">
-              <p className="text-xl font-bold text-blue-600">~{readTime} min</p>
-              <p className="text-xs text-primary-dark/70">Read Time</p>
+              <p className="text-xl font-bold text-sacred">~{readTime} min</p>
+              <p className="text-xs text-ink-muted">Read Time</p>
             </div>
             <div className="p-3 md:p-4 text-center">
               <p className="text-lg font-semibold text-scripture">{meta?.author || 'Unknown'}</p>
-              <p className="text-xs text-primary-dark/70">Author</p>
+              <p className="text-xs text-ink-muted">Author</p>
             </div>
             {summary?.timeline && (
               <div className="hidden md:block p-3 md:p-4 text-center">
                 <p className="text-sm font-semibold text-scripture leading-tight">{summary.timeline}</p>
-                <p className="text-xs text-primary-dark/70">Timeline</p>
+                <p className="text-xs text-ink-muted">Timeline</p>
               </div>
             )}
           </div>
@@ -227,7 +227,7 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
             <div>
-              <p className="text-xs text-primary-dark/50 uppercase tracking-wide">Timeline</p>
+              <p className="text-xs text-ink-muted uppercase tracking-wide">Timeline</p>
               <p className="text-sm font-medium text-scripture">{summary.timeline}</p>
             </div>
           </div>
@@ -239,12 +239,12 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
         {summary?.overview && summary.overview.length > 200 && (
           <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
             <h2 className="text-xl font-bold text-scripture mb-3 flex items-center">
-              <svg className="w-5 h-5 mr-2 text-blue-600" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-5 h-5 mr-2 text-sacred" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               Overview
             </h2>
-            <p className="text-primary-dark/80 leading-relaxed">{summary.overview}</p>
+            <p className="text-scripture leading-relaxed">{summary.overview}</p>
           </section>
         )}
 
@@ -257,7 +257,7 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
               </svg>
               Structure &amp; Organization
             </h2>
-            <div className="text-primary-dark/80 leading-relaxed space-y-3">
+            <div className="text-scripture leading-relaxed space-y-3">
               {summary.structure.split('\n\n').map((para, i) => (
                 <p key={i}>{renderWithBold(para)}</p>
               ))}
@@ -282,7 +282,7 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
                   </div>
                   <div>
                     <h3 className="font-semibold text-scripture text-sm">{char.name}</h3>
-                    <p className="text-sm text-primary-dark/70">{char.description}</p>
+                    <p className="text-sm text-ink-muted">{char.description}</p>
                   </div>
                 </div>
               ))}
@@ -303,7 +303,7 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
               {summary.definitions.map((def, i) => (
                 <div key={i} className="border-l-4 border-emerald-400 pl-3">
                   <dt className="font-semibold text-scripture text-sm">{def.term}</dt>
-                  <dd className="text-sm text-primary-dark/70">{def.definition}</dd>
+                  <dd className="text-sm text-ink-muted">{def.definition}</dd>
                 </div>
               ))}
             </dl>
@@ -314,21 +314,21 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
         {summary?.outline && summary.outline.length > 0 && (
           <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
             <h2 className="text-xl font-bold text-scripture mb-4 flex items-center">
-              <svg className="w-5 h-5 mr-2 text-blue-600" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-5 h-5 mr-2 text-sacred" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
               </svg>
               Chapter Outline
             </h2>
             <div className="space-y-4">
               {summary.outline.map((section, i) => (
-                <div key={i} className="border-l-4 border-blue-500 pl-4 py-1">
+                <div key={i} className="border-l-4 border-sacred pl-4 py-1">
                   <div className="flex items-start justify-between gap-2 mb-1">
                     <h3 className="font-semibold text-scripture text-sm">{section.heading}</h3>
-                    <span className="flex-shrink-0 text-xs text-blue-600 font-mono bg-blue-50 px-2 py-0.5 rounded">
+                    <span className="flex-shrink-0 text-xs text-sacred font-mono bg-blue-50 px-2 py-0.5 rounded">
                       {section.verseRange}
                     </span>
                   </div>
-                  <p className="text-sm text-primary-dark/70 leading-relaxed">{section.description}</p>
+                  <p className="text-sm text-ink-muted leading-relaxed">{section.description}</p>
                 </div>
               ))}
             </div>
@@ -339,18 +339,18 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
         {!summary && detailedOutline && (
           <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
             <h2 className="text-xl font-bold text-scripture mb-3 flex items-center">
-              <svg className="w-5 h-5 mr-2 text-blue-600" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-5 h-5 mr-2 text-sacred" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               Summary
             </h2>
-            <div className="border-l-4 border-blue-500 pl-4 mb-4">
+            <div className="border-l-4 border-sacred pl-4 mb-4">
               <h3 className="font-semibold text-scripture mb-1">{detailedOutline.section}</h3>
-              <span className="text-xs text-blue-600 font-mono bg-blue-50 px-2 py-0.5 rounded">
+              <span className="text-xs text-sacred font-mono bg-blue-50 px-2 py-0.5 rounded">
                 {bookData.name} {detailedOutline.chapters}
               </span>
             </div>
-            <p className="text-primary-dark/80 leading-relaxed">{detailedOutline.description}</p>
+            <p className="text-scripture leading-relaxed">{detailedOutline.description}</p>
           </section>
         )}
 
@@ -358,17 +358,17 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
         {!summary && !detailedOutline && outlineSection && (
           <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
             <h2 className="text-xl font-bold text-scripture mb-3 flex items-center">
-              <svg className="w-5 h-5 mr-2 text-blue-600" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-5 h-5 mr-2 text-sacred" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               Where This Chapter Fits
             </h2>
-            <div className="border-l-4 border-blue-500 pl-4">
+            <div className="border-l-4 border-sacred pl-4">
               <h3 className="font-semibold text-scripture mb-1">{outlineSection.heading}</h3>
-              <span className="text-xs text-blue-600 font-mono bg-blue-50 px-2 py-0.5 rounded">
+              <span className="text-xs text-sacred font-mono bg-blue-50 px-2 py-0.5 rounded">
                 {bookData.name} {outlineSection.reference}
               </span>
-              <p className="text-primary-dark/70 text-sm mt-2">{outlineSection.description}</p>
+              <p className="text-ink-muted text-sm mt-2">{outlineSection.description}</p>
             </div>
           </section>
         )}
@@ -388,17 +388,17 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
                 const verseLink = refParts ? `/verses/${book}/${refParts[1]}/${refParts[2]}` : null;
                 return (
                   <div key={index} className="bg-primary-light/30 rounded-lg p-4">
-                    <blockquote className="text-primary-dark/80 italic mb-2 font-serif">
+                    <blockquote className="text-scripture italic mb-2 font-serif">
                       &ldquo;{verse.text}&rdquo;
                     </blockquote>
                     <div className="flex items-center justify-between flex-wrap gap-2">
-                      <cite className="text-blue-600 font-medium text-sm not-italic">{verse.reference}</cite>
+                      <cite className="text-sacred font-medium text-sm not-italic">{verse.reference}</cite>
                       <div className="flex items-center gap-3">
                         {'significance' in verse && (
-                          <span className="text-xs text-primary-dark/60">{verse.significance}</span>
+                          <span className="text-xs text-ink-muted">{verse.significance}</span>
                         )}
                         {verseLink && (
-                          <Link href={verseLink} className="text-xs text-blue-600 hover:text-blue-800 hover:underline whitespace-nowrap">
+                          <Link href={verseLink} className="text-xs text-sacred hover:text-gold-dark hover:underline whitespace-nowrap">
                             Study this verse &rarr;
                           </Link>
                         )}
@@ -423,8 +423,8 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
             <div className="space-y-3">
               {bookLevelVerses.map((verse, index) => (
                 <div key={index} className="bg-primary-light/30 rounded-lg p-4">
-                  <blockquote className="text-primary-dark/80 italic mb-2 font-serif">&ldquo;{verse.text}&rdquo;</blockquote>
-                  <cite className="text-blue-600 font-medium text-sm not-italic">{verse.reference}</cite>
+                  <blockquote className="text-scripture italic mb-2 font-serif">&ldquo;{verse.text}&rdquo;</blockquote>
+                  <cite className="text-sacred font-medium text-sm not-italic">{verse.reference}</cite>
                 </div>
               ))}
             </div>
@@ -432,13 +432,13 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
         )}
 
         {/* Mid-Content Quiz CTA */}
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6 flex items-center justify-between gap-4">
-          <p className="text-sm text-blue-800">
+        <div className="bg-blue-50 border border-sacred/20 rounded-lg p-4 mb-6 flex items-center justify-between gap-4">
+          <p className="text-sm text-scripture">
             How well do you know {bookData.name} {chapterNum}?
           </p>
           <Link
             href={`/${book}-${chapterNum}-quiz`}
-            className="flex-shrink-0 text-sm font-semibold text-white bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg transition-colors"
+            className="flex-shrink-0 text-sm font-semibold text-white bg-scripture hover:bg-ink-muted px-4 py-2 rounded-lg transition-colors"
           >
             Take the Quiz
           </Link>
@@ -459,7 +459,7 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
                   <span className="flex-shrink-0 w-6 h-6 rounded-full bg-rose-100 text-rose-700 flex items-center justify-center font-bold text-xs mt-0.5">
                     {i + 1}
                   </span>
-                  <p className="text-sm text-primary-dark/80 leading-relaxed">{point}</p>
+                  <p className="text-sm text-scripture leading-relaxed">{point}</p>
                 </li>
               ))}
             </ul>
@@ -478,16 +478,16 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
             <div className="space-y-3">
               {summary.themes.map((t, i) => {
                 const colors = [
-                  'border-blue-400 bg-blue-50',
+                  'border-sacred bg-blue-50',
                   'border-emerald-400 bg-emerald-50',
                   'border-amber-400 bg-amber-50',
-                  'border-purple-400 bg-purple-50',
+                  'border-sacred/20 bg-scripture/5',
                   'border-rose-400 bg-rose-50',
                 ];
                 return (
                   <div key={i} className={`border-l-4 ${colors[i % colors.length]} rounded-r-lg p-3`}>
                     <h3 className="font-semibold text-scripture text-sm mb-1">{t.theme}</h3>
-                    <p className="text-sm text-primary-dark/70">{t.description}</p>
+                    <p className="text-sm text-ink-muted">{t.description}</p>
                   </div>
                 );
               })}
@@ -504,10 +504,10 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
             <div className="flex flex-wrap gap-2">
               {meta.keyThemes.slice(0, 6).map((theme, index) => {
                 const colors = [
-                  'bg-blue-100 text-blue-800 border-blue-200',
+                  'bg-sacred/10 text-scripture border-sacred/20',
                   'bg-emerald-100 text-emerald-800 border-emerald-200',
                   'bg-amber-100 text-amber-800 border-amber-200',
-                  'bg-purple-100 text-purple-800 border-purple-200',
+                  'bg-scripture/10 text-scripture border-sacred/20',
                   'bg-rose-100 text-rose-800 border-rose-200',
                   'bg-cyan-100 text-cyan-800 border-cyan-200',
                 ];
@@ -530,7 +530,7 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
               </svg>
               Historical &amp; Cultural Context
             </h2>
-            <div className="text-primary-dark/80 leading-relaxed space-y-3">
+            <div className="text-scripture leading-relaxed space-y-3">
               {summary.historicalContext.split('\n\n').map((para, i) => (
                 <p key={i}>{para}</p>
               ))}
@@ -542,16 +542,16 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
         {summary?.theologicalInterpretations && summary.theologicalInterpretations.length > 0 && (
           <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
             <h2 className="text-xl font-bold text-scripture mb-4 flex items-center">
-              <svg className="w-5 h-5 mr-2 text-purple-600" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-5 h-5 mr-2 text-scripture" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
               </svg>
               Theological Interpretations
             </h2>
             <div className="space-y-3">
               {summary.theologicalInterpretations.map((interp, i) => (
-                <div key={i} className="border-l-4 border-purple-400 bg-purple-50 rounded-r-lg p-3">
+                <div key={i} className="border-l-4 border-sacred/20 bg-scripture/5 rounded-r-lg p-3">
                   <h3 className="font-semibold text-scripture text-sm mb-1">{interp.view}</h3>
-                  <p className="text-sm text-primary-dark/70">{interp.description}</p>
+                  <p className="text-sm text-ink-muted">{interp.description}</p>
                 </div>
               ))}
             </div>
@@ -573,7 +573,7 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
                   <span className="flex-shrink-0 text-xs font-mono text-teal-700 bg-teal-50 border border-teal-200 px-2 py-1 rounded mt-0.5 whitespace-nowrap">
                     {ref.reference}
                   </span>
-                  <p className="text-sm text-primary-dark/70">{ref.connection}</p>
+                  <p className="text-sm text-ink-muted">{ref.connection}</p>
                 </div>
               ))}
             </div>
@@ -584,30 +584,30 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
         {summary?.conclusion && (
           <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
             <h2 className="text-xl font-bold text-scripture mb-3 flex items-center">
-              <svg className="w-5 h-5 mr-2 text-blue-600" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-5 h-5 mr-2 text-sacred" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               Conclusion
             </h2>
-            <p className="text-primary-dark/80 leading-relaxed">{summary.conclusion}</p>
+            <p className="text-scripture leading-relaxed">{summary.conclusion}</p>
           </section>
         )}
 
         {/* Test Your Knowledge CTA */}
-        <section className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl shadow-sm p-6 mb-6 text-white">
+        <section className="bg-gradient-to-r from-scripture to-scripture/80 rounded-xl shadow-sm p-6 mb-6 text-white">
           <h2 className="text-xl font-bold mb-2 flex items-center">
             <svg className="w-5 h-5 mr-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
             </svg>
             Test Your Knowledge
           </h2>
-          <p className="text-blue-100 mb-4">
+          <p className="text-sacred-light mb-4">
             You just read the summary of {bookData.name} {chapterNum}. See how much you retained with our free quiz.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
             <Link
               href={`/${book}-${chapterNum}-quiz`}
-              className="inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-white text-blue-700 font-semibold rounded-lg hover:bg-blue-50 transition-colors"
+              className="inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-white text-scripture font-semibold rounded-lg hover:bg-sacred-light transition-colors"
             >
               Take the {bookData.name} {chapterNum} Quiz
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
@@ -630,14 +630,14 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
                 <Link
                   key={ch.num}
                   href={`/bible-chapter-summaries/${book}/${ch.num}`}
-                  className="flex items-center gap-3 p-3 rounded-lg border border-grace hover:border-blue-300 hover:bg-primary-light/30 transition-all"
+                  className="flex items-center gap-3 p-3 rounded-lg border border-grace hover:border-sacred/50 hover:bg-primary-light/30 transition-all"
                 >
-                  <span className="flex-shrink-0 w-9 h-9 rounded-lg bg-blue-600 text-white flex items-center justify-center font-bold text-sm">
+                  <span className="flex-shrink-0 w-9 h-9 rounded-lg bg-scripture text-white flex items-center justify-center font-bold text-sm">
                     {ch.num}
                   </span>
                   <div className="min-w-0">
                     <span className="font-medium text-scripture text-sm block">{bookData.name} {ch.num}</span>
-                    <span className="text-xs text-primary-dark/60 truncate block">{ch.title}</span>
+                    <span className="text-xs text-ink-muted truncate block">{ch.title}</span>
                   </div>
                 </Link>
               ))}
@@ -649,12 +649,12 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
         <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
           <h2 className="text-xl font-bold text-scripture mb-4">More on {bookData.name}</h2>
           <div className="grid gap-3 sm:grid-cols-2">
-            <Link href={`/${book}-${chapterNum}-quiz`} className="flex items-center justify-between p-3 bg-blue-50 border border-blue-200 rounded-lg hover:border-blue-400 hover:shadow-sm transition-all">
+            <Link href={`/${book}-${chapterNum}-quiz`} className="flex items-center justify-between p-3 bg-blue-50 border border-sacred/20 rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all">
               <div>
-                <span className="text-blue-700 font-semibold text-sm block">Take the Chapter {chapterNum} Quiz</span>
-                <span className="text-xs text-blue-600/70">Test your knowledge with 60 questions</span>
+                <span className="text-scripture font-semibold text-sm block">Take the Chapter {chapterNum} Quiz</span>
+                <span className="text-xs text-sacred/70">Test your knowledge with 60 questions</span>
               </div>
-              <span className="text-blue-600">&rarr;</span>
+              <span className="text-sacred">&rarr;</span>
             </Link>
             <Link href={`/bible-geography/${book}/${chapterNum}`} className="flex items-center justify-between p-3 bg-green-50 border border-green-200 rounded-lg hover:border-green-400 hover:shadow-sm transition-all">
               <div>
@@ -663,33 +663,33 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
               </div>
               <span className="text-green-600">&rarr;</span>
             </Link>
-            <Link href={`/bible-chapter-summaries/${book}`} className="flex items-center justify-between p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
+            <Link href={`/bible-chapter-summaries/${book}`} className="flex items-center justify-between p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
               <div>
-                <span className="text-blue-600 font-semibold text-sm block">All Chapter Summaries</span>
-                <span className="text-xs text-primary-dark/60">{bookData.chapters} chapters overview</span>
+                <span className="text-sacred font-semibold text-sm block">All Chapter Summaries</span>
+                <span className="text-xs text-ink-muted">{bookData.chapters} chapters overview</span>
               </div>
-              <span className="text-blue-600">&rarr;</span>
+              <span className="text-sacred">&rarr;</span>
             </Link>
-            <Link href={`/${book}-chapters`} className="flex items-center justify-between p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
+            <Link href={`/${book}-chapters`} className="flex items-center justify-between p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
               <div>
-                <span className="text-blue-600 font-semibold text-sm block">All Chapter Quizzes</span>
-                <span className="text-xs text-primary-dark/60">Browse all {bookData.name} quizzes</span>
+                <span className="text-sacred font-semibold text-sm block">All Chapter Quizzes</span>
+                <span className="text-xs text-ink-muted">Browse all {bookData.name} quizzes</span>
               </div>
-              <span className="text-blue-600">&rarr;</span>
+              <span className="text-sacred">&rarr;</span>
             </Link>
-            <Link href={`/${book}-quiz`} className="flex items-center justify-between p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
+            <Link href={`/${book}-quiz`} className="flex items-center justify-between p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
               <div>
-                <span className="text-blue-600 font-semibold text-sm block">{bookData.name} Book Quiz</span>
-                <span className="text-xs text-primary-dark/60">25 comprehensive questions</span>
+                <span className="text-sacred font-semibold text-sm block">{bookData.name} Book Quiz</span>
+                <span className="text-xs text-ink-muted">25 comprehensive questions</span>
               </div>
-              <span className="text-blue-600">&rarr;</span>
+              <span className="text-sacred">&rarr;</span>
             </Link>
-            <Link href={`/books/${book}`} className="flex items-center justify-between p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
+            <Link href={`/books/${book}`} className="flex items-center justify-between p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
               <div>
-                <span className="text-blue-600 font-semibold text-sm block">Book Introduction</span>
-                <span className="text-xs text-primary-dark/60">Author, themes, study guide</span>
+                <span className="text-sacred font-semibold text-sm block">Book Introduction</span>
+                <span className="text-xs text-ink-muted">Author, themes, study guide</span>
               </div>
-              <span className="text-blue-600">&rarr;</span>
+              <span className="text-sacred">&rarr;</span>
             </Link>
           </div>
         </section>
@@ -698,33 +698,33 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
         <section className="bg-grace/10 border border-grace rounded-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-scripture mb-3">Explore Related Content</h2>
           <div className="grid gap-2 sm:grid-cols-2">
-            <Link href={`/bible-geography/${book}/${chapterNum}`} className="text-blue-600 hover:underline text-sm">
+            <Link href={`/bible-geography/${book}/${chapterNum}`} className="text-sacred hover:underline text-sm">
               {bookData.name} {chapterNum} Geography &amp; Map
             </Link>
-            <Link href={`/bible-geography-quiz/${book}`} className="text-blue-600 hover:underline text-sm">
+            <Link href={`/bible-geography-quiz/${book}`} className="text-sacred hover:underline text-sm">
               {bookData.name} Geography Quiz
             </Link>
-            <Link href="/character-quiz" className="text-blue-600 hover:underline text-sm">
+            <Link href="/character-quiz" className="text-sacred hover:underline text-sm">
               Bible Character Quizzes
             </Link>
-            <Link href="/characters-by-topic" className="text-blue-600 hover:underline text-sm">
+            <Link href="/characters-by-topic" className="text-sacred hover:underline text-sm">
               Characters by Topic
             </Link>
-            <Link href="/commandments/topic" className="text-blue-600 hover:underline text-sm">
+            <Link href="/commandments/topic" className="text-sacred hover:underline text-sm">
               Commandments by Topic
             </Link>
             {(() => {
               const devs = getDevotionalsByBook(book).slice(0, 1);
               return devs.length > 0 ? (
-                <Link href={`/devotionals/${devs[0].slug}`} className="text-blue-600 hover:underline text-sm">
+                <Link href={`/devotionals/${devs[0].slug}`} className="text-sacred hover:underline text-sm">
                   {bookData.name} Devotional
                 </Link>
               ) : null;
             })()}
-            <Link href="/devotionals" className="text-blue-600 hover:underline text-sm">
+            <Link href="/devotionals" className="text-sacred hover:underline text-sm">
               Daily Devotionals
             </Link>
-            <Link href="/bible-places/era" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-places/era" className="text-sacred hover:underline text-sm">
               Places by Historical Era
             </Link>
           </div>
@@ -734,21 +734,21 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
         {(prevChapter || nextChapter) && (
           <div className="flex items-center justify-between gap-4">
             {prevChapter ? (
-              <Link href={`/bible-chapter-summaries/${book}/${chapterNum - 1}`} className="flex-1 flex items-center gap-3 p-4 bg-white border border-grace rounded-xl hover:border-blue-300 transition-colors">
-                <svg className="w-5 h-5 text-blue-600 flex-shrink-0" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg>
+              <Link href={`/bible-chapter-summaries/${book}/${chapterNum - 1}`} className="flex-1 flex items-center gap-3 p-4 bg-white border border-grace rounded-xl hover:border-sacred/50 transition-colors">
+                <svg className="w-5 h-5 text-sacred flex-shrink-0" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg>
                 <div className="min-w-0">
-                  <span className="text-xs text-primary-dark/50 block">Previous</span>
+                  <span className="text-xs text-ink-muted block">Previous</span>
                   <span className="font-medium text-scripture text-sm block truncate">Ch. {chapterNum - 1}: {prevChapter.title}</span>
                 </div>
               </Link>
             ) : <div className="flex-1" />}
             {nextChapter ? (
-              <Link href={`/bible-chapter-summaries/${book}/${chapterNum + 1}`} className="flex-1 flex items-center justify-end gap-3 p-4 bg-white border border-grace rounded-xl hover:border-blue-300 transition-colors text-right">
+              <Link href={`/bible-chapter-summaries/${book}/${chapterNum + 1}`} className="flex-1 flex items-center justify-end gap-3 p-4 bg-white border border-grace rounded-xl hover:border-sacred/50 transition-colors text-right">
                 <div className="min-w-0">
-                  <span className="text-xs text-primary-dark/50 block">Next</span>
+                  <span className="text-xs text-ink-muted block">Next</span>
                   <span className="font-medium text-scripture text-sm block truncate">Ch. {chapterNum + 1}: {nextChapter.title}</span>
                 </div>
-                <svg className="w-5 h-5 text-blue-600 flex-shrink-0" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+                <svg className="w-5 h-5 text-sacred flex-shrink-0" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
               </Link>
             ) : <div className="flex-1" />}
           </div>

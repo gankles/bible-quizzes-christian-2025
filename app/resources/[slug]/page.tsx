@@ -163,12 +163,12 @@ export default async function ResourcePage({ params }: PageProps) {
       <StructuredData data={breadcrumbSchema} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
-        <Link href="/" className="hover:text-blue-600">
+      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-ink-muted">
+        <Link href="/" className="hover:text-gold-dark">
           Home
         </Link>
         <span className="mx-1.5">/</span>
-        <Link href="/resources" className="hover:text-blue-600">
+        <Link href="/resources" className="hover:text-gold-dark">
           Resources
         </Link>
         <span className="mx-1.5">/</span>
@@ -179,14 +179,14 @@ export default async function ResourcePage({ params }: PageProps) {
         {/* Header */}
         <div className="mb-8">
           {resource.subtitle && (
-            <span className="inline-block px-3 py-1 bg-blue-100 text-blue-700 text-xs font-medium rounded-full mb-3">
+            <span className="inline-block px-3 py-1 bg-sacred/10 text-scripture text-xs font-medium rounded-full mb-3">
               {resource.subtitle}
             </span>
           )}
           <h1 className="text-3xl md:text-4xl font-display font-bold text-scripture mb-2">
             {resource.title}
           </h1>
-          <p className="text-lg text-primary-dark/70">
+          <p className="text-lg text-ink-muted">
             {resource.categories.length}{' '}
             {resource.categories.length === 1 ? 'category' : 'categories'},{' '}
             {resource.totalEntries}{' '}
@@ -199,7 +199,7 @@ export default async function ResourcePage({ params }: PageProps) {
         {/* Introduction */}
         {resource.introduction && (
           <div className="bg-white border border-grace rounded-xl p-6 mb-8">
-            <p className="text-primary-dark/80 leading-relaxed">
+            <p className="text-scripture leading-relaxed">
               {resource.introduction}
             </p>
           </div>
@@ -216,11 +216,11 @@ export default async function ResourcePage({ params }: PageProps) {
                 <li key={i}>
                   <a
                     href={`#${slugify(cat.name)}`}
-                    className="text-blue-600 hover:underline"
+                    className="text-sacred hover:underline"
                   >
                     {cat.name}
                   </a>
-                  <span className="text-xs text-primary-dark/50 ml-2">
+                  <span className="text-xs text-ink-muted ml-2">
                     ({cat.entries.length}{' '}
                     {cat.entries.length === 1 ? 'entry' : 'entries'})
                   </span>
@@ -246,13 +246,13 @@ export default async function ResourcePage({ params }: PageProps) {
                   <h3 className="text-xl font-bold text-scripture mb-1">
                     <Link
                       href={`/resources/${slug}/${titleToItemSlug(entry.data.title)}`}
-                      className="hover:text-blue-600 transition-colors"
+                      className="hover:text-gold-dark transition-colors"
                     >
                       {entry.data.title}
                     </Link>
                   </h3>
                   {entry.key !== entry.data.title && (
-                    <p className="text-sm text-primary-dark/50 mb-3">
+                    <p className="text-sm text-ink-muted mb-3">
                       {entry.key}
                     </p>
                   )}
@@ -263,7 +263,7 @@ export default async function ResourcePage({ params }: PageProps) {
                       (paragraph, pIdx) => (
                         <p
                           key={pIdx}
-                          className="text-primary-dark/80 leading-relaxed"
+                          className="text-scripture leading-relaxed"
                         >
                           {paragraph}
                         </p>
@@ -274,7 +274,7 @@ export default async function ResourcePage({ params }: PageProps) {
                   {/* Verses */}
                   {entry.data.verses.length > 0 && (
                     <div className="space-y-3">
-                      <h4 className="text-sm font-semibold text-primary-dark/60 uppercase tracking-wider">
+                      <h4 className="text-sm font-semibold text-ink-muted uppercase tracking-wider">
                         Scripture References
                       </h4>
                       {entry.data.verses.map((verse, vIdx) => {
@@ -282,21 +282,21 @@ export default async function ResourcePage({ params }: PageProps) {
                         return (
                           <div
                             key={vIdx}
-                            className="border-l-2 border-blue-200 pl-4 py-1"
+                            className="border-l-2 border-sacred/20 pl-4 py-1"
                           >
-                            <blockquote className="text-primary-dark/70 font-serif italic leading-relaxed">
+                            <blockquote className="text-ink-muted font-serif italic leading-relaxed">
                               &ldquo;{verse.text}&rdquo;
                             </blockquote>
                             <p className="text-sm mt-1">
                               {link ? (
                                 <Link
                                   href={link}
-                                  className="text-blue-600 font-medium hover:underline"
+                                  className="text-sacred font-medium hover:underline"
                                 >
                                   {verse.reference}
                                 </Link>
                               ) : (
-                                <span className="text-blue-600 font-medium">
+                                <span className="text-sacred font-medium">
                                   {verse.reference}
                                 </span>
                               )}
@@ -317,12 +317,12 @@ export default async function ResourcePage({ params }: PageProps) {
           {prev ? (
             <Link
               href={`/resources/${prev.slug}`}
-              className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+              className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
             >
-              <span className="text-xs text-primary-dark/60">
+              <span className="text-xs text-ink-muted">
                 Previous Resource
               </span>
-              <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+              <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                 {prev.title}
               </span>
             </Link>
@@ -332,12 +332,12 @@ export default async function ResourcePage({ params }: PageProps) {
           {next ? (
             <Link
               href={`/resources/${next.slug}`}
-              className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+              className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
             >
-              <span className="text-xs text-primary-dark/60">
+              <span className="text-xs text-ink-muted">
                 Next Resource
               </span>
-              <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+              <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                 {next.title}
               </span>
             </Link>
@@ -354,37 +354,37 @@ export default async function ResourcePage({ params }: PageProps) {
           <div className="grid gap-2 sm:grid-cols-2">
             <Link
               href="/resources"
-              className="text-blue-600 hover:underline text-sm"
+              className="text-sacred hover:underline text-sm"
             >
               All Bible Resources
             </Link>
             <Link
               href="/topics"
-              className="text-blue-600 hover:underline text-sm"
+              className="text-sacred hover:underline text-sm"
             >
               Bible Topics
             </Link>
             <Link
               href="/nave-topics"
-              className="text-blue-600 hover:underline text-sm"
+              className="text-sacred hover:underline text-sm"
             >
               Nave&apos;s Topical Bible
             </Link>
             <Link
               href="/lexicon"
-              className="text-blue-600 hover:underline text-sm"
+              className="text-sacred hover:underline text-sm"
             >
               Hebrew &amp; Greek Word Study
             </Link>
             <Link
               href="/commandments"
-              className="text-blue-600 hover:underline text-sm"
+              className="text-sacred hover:underline text-sm"
             >
               613 Commandments
             </Link>
             <Link
               href="/bible-quizzes"
-              className="text-blue-600 hover:underline text-sm"
+              className="text-sacred hover:underline text-sm"
             >
               Bible Quizzes
             </Link>

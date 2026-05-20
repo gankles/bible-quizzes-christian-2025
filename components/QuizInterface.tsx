@@ -172,7 +172,7 @@ export default function QuizInterface({ quiz, onComplete }: QuizInterfaceProps) 
           disabled={!canSubmit || isSubmitted}
           className={`px-8 py-4 rounded-lg font-display text-lg font-semibold transition-all duration-200 ${
             canSubmit && !isSubmitted
-              ? 'bg-royal-blue text-white hover:bg-blue-600 shadow-lg hover:shadow-xl'
+              ? 'bg-royal-blue text-white hover:bg-ink-muted shadow-lg hover:shadow-xl'
               : 'bg-grace/40 text-ink-light cursor-not-allowed'
           }`}
         >

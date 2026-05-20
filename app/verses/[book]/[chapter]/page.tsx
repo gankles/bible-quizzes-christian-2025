@@ -49,20 +49,20 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
             <div className="bg-primary-light/30 border-b border-grace/50">
                 <div className="max-w-7xl mx-auto px-6 h-14 flex items-center justify-between">
                     <div className="flex items-center space-x-4">
-                        <Link href="/bible-quizzes" className="group flex items-center text-primary-dark/60 hover:text-blue-600 transition-all text-[10px] font-bold uppercase">
+                        <Link href="/bible-quizzes" className="group flex items-center text-ink-muted hover:text-gold-dark transition-all text-[10px] font-bold uppercase">
                             <ArrowLeftIcon className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" />
                             <span>Return to Library</span>
                         </Link>
                         <span className="w-px h-4 bg-grace/30" />
                         <div className="flex items-center space-x-2 text-[10px] font-bold uppercase text-scripture/40">
-                            <Link href={`/verses/${slug}`} className="hover:text-blue-600 transition-colors">{bookData.name}</Link>
+                            <Link href={`/verses/${slug}`} className="hover:text-gold-dark transition-colors">{bookData.name}</Link>
                             <span>/</span>
                             <span className="text-scripture">Chapter {chapter}</span>
                         </div>
                     </div>
                     <div className="hidden md:flex items-center space-x-6 text-[10px] font-bold uppercase text-scripture/40">
                         <span>Scholarly Chapter View</span>
-                        <div className="w-1 h-1 bg-blue-600 rounded-full" />
+                        <div className="w-1 h-1 bg-scripture rounded-full" />
                         <span className="text-scripture">{verses.length} Active Verses</span>
                     </div>
                 </div>
@@ -72,12 +72,12 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
             <section className="relative py-24 overflow-hidden border-b border-grace/50 bg-white">
                 <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/felt-paper.png')] opacity-10" />
                 <div className="max-w-7xl mx-auto px-6 text-center relative z-10">
-                    <div className="inline-flex items-center space-x-3 px-6 py-1.5 rounded-lg border border-grace bg-primary-light/30 text-primary-dark/60 text-[10px] font-bold uppercase  mb-12 shadow-sm">
+                    <div className="inline-flex items-center space-x-3 px-6 py-1.5 rounded-lg border border-grace bg-primary-light/30 text-ink-muted text-[10px] font-bold uppercase  mb-12 shadow-sm">
                         <SparklesIcon className="w-4 h-4" />
                         <span>Scriptural Study: {bookData.name}</span>
                     </div>
                     <h1 className="text-6xl md:text-8xl font-bold text-scripture mb-8 tracking-tighter leading-tight animate-in fade-in slide-in-from-bottom-8 duration-700 uppercase italic">
-                        Chapter <span className="text-blue-600 not-italic font-light">{chapter}</span>
+                        Chapter <span className="text-sacred not-italic font-light">{chapter}</span>
                     </h1>
                     <p className="text-xl text-scripture/40 font-medium uppercase  mb-16 italic">
                         {bookData.testament} Testament • Biblical Insight
@@ -97,21 +97,21 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
                             >
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-primary-light/30 group-hover:bg-white/5 transition-colors -z-10 rounded-full -mr-12 -mt-12" />
                                 <div>
-                                    <h3 className="text-2xl font-bold text-scripture mb-4 tracking-tight group-hover:text-blue-600 transition-colors uppercase italic">
+                                    <h3 className="text-2xl font-bold text-scripture mb-4 tracking-tight group-hover:text-gold-dark transition-colors uppercase italic">
                                         Verse {v.verse}
                                     </h3>
                                     <p className="text-sm text-scripture/40 font-medium line-clamp-3 leading-relaxed italic pr-4">
                                         "{v.text}"
                                     </p>
                                 </div>
-                                <div className="flex items-center text-[10px] font-bold text-blue-600 uppercase opacity-0 group-hover:opacity-100 transition-all translate-y-2 group-hover:translate-y-0">
+                                <div className="flex items-center text-[10px] font-bold text-sacred uppercase opacity-0 group-hover:opacity-100 transition-all translate-y-2 group-hover:translate-y-0">
                                     Deep Study <ArrowRightIcon className="w-4 h-4 ml-3" />
                                 </div>
                             </Link>
                         ))
                     ) : (
                         <div className="col-span-full py-40 text-center rounded-[64px] border-2 border-dashed border-grace/50 bg-white/30">
-                            <div className="w-20 h-20 rounded-xl bg-primary-light/30 text-primary-dark/40 flex items-center justify-center mx-auto mb-8">
+                            <div className="w-20 h-20 rounded-xl bg-primary-light/30 text-ink-light flex items-center justify-center mx-auto mb-8">
                                 <BookOpenIcon className="w-10 h-10" />
                             </div>
                             <h3 className="text-3xl font-bold text-scripture mb-4 tracking-tight uppercase italic">Content Unavailable.</h3>
@@ -131,21 +131,21 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
                             href={`/verses/${slug}/${chapterNum - 1}`}
                             className="flex items-center gap-8 p-6 pr-10 rounded-xl border border-grace/50 bg-white hover:bg-scripture hover:text-white transition-all group shadow-lg hover:shadow-2xl"
                         >
-                            <div className="w-14 h-14 rounded-lg bg-primary-light/30 text-primary-dark/60 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                            <div className="w-14 h-14 rounded-lg bg-primary-light/30 text-ink-muted flex items-center justify-center group-hover:bg-ink-muted group-hover:text-white transition-colors">
                                 <ChevronRightIcon className="w-6 h-6 rotate-180 group-hover:-translate-x-1 transition-transform" />
                             </div>
                             <div>
-                                <div className="text-[10px] font-bold text-primary-dark/60 uppercase mb-1 group-hover:text-blue-600">Previous Chapter</div>
+                                <div className="text-[10px] font-bold text-ink-muted uppercase mb-1 group-hover:text-gold-dark">Previous Chapter</div>
                                 <div className="text-xl font-bold tracking-tight uppercase italic">Chapter {chapterNum - 1}</div>
                             </div>
                         </Link>
                     ) : (
                         <div className="flex items-center gap-8 opacity-20 grayscale">
-                            <div className="w-14 h-14 rounded-lg bg-grace/20 text-primary-dark/60 flex items-center justify-center">
+                            <div className="w-14 h-14 rounded-lg bg-grace/20 text-ink-muted flex items-center justify-center">
                                 <ChevronRightIcon className="w-6 h-6 rotate-180" />
                             </div>
                             <div>
-                                <div className="text-[10px] font-bold text-primary-dark/60 uppercase mb-1">Book Start</div>
+                                <div className="text-[10px] font-bold text-ink-muted uppercase mb-1">Book Start</div>
                                 <div className="text-xl font-bold tracking-tight">Origin</div>
                             </div>
                         </div>
@@ -161,20 +161,20 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
                             className="flex items-center gap-8 p-6 pl-10 rounded-xl border border-grace/50 bg-white hover:bg-scripture hover:text-white transition-all group shadow-lg hover:shadow-2xl"
                         >
                             <div className="text-right">
-                                <div className="text-[10px] font-bold text-primary-dark/60 uppercase mb-1 group-hover:text-blue-600">Next Chapter</div>
+                                <div className="text-[10px] font-bold text-ink-muted uppercase mb-1 group-hover:text-gold-dark">Next Chapter</div>
                                 <div className="text-xl font-bold tracking-tight uppercase italic">Chapter {chapterNum + 1}</div>
                             </div>
-                            <div className="w-14 h-14 rounded-lg bg-primary-light/30 text-primary-dark/60 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                            <div className="w-14 h-14 rounded-lg bg-primary-light/30 text-ink-muted flex items-center justify-center group-hover:bg-ink-muted group-hover:text-white transition-colors">
                                 <ChevronRightIcon className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
                             </div>
                         </Link>
                     ) : (
                         <div className="flex items-center gap-8 opacity-20 grayscale text-right">
                             <div>
-                                <div className="text-[10px] font-bold text-primary-dark/60 uppercase mb-1">Book Conclusion</div>
+                                <div className="text-[10px] font-bold text-ink-muted uppercase mb-1">Book Conclusion</div>
                                 <div className="text-xl font-bold tracking-tight">Terminal</div>
                             </div>
-                            <div className="w-14 h-14 rounded-lg bg-grace/20 text-primary-dark/60 flex items-center justify-center">
+                            <div className="w-14 h-14 rounded-lg bg-grace/20 text-ink-muted flex items-center justify-center">
                                 <ChevronRightIcon className="w-6 h-6" />
                             </div>
                         </div>

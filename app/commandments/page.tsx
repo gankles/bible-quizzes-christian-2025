@@ -59,8 +59,8 @@ export default function CommandmentsPage() {
       <StructuredData data={jsonLd} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
-        <Link href="/" className="hover:text-blue-600">Home</Link>
+      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-ink-muted">
+        <Link href="/" className="hover:text-gold-dark">Home</Link>
         <span className="mx-1.5">/</span>
         <span className="text-scripture font-medium">613 Commandments</span>
       </nav>
@@ -79,7 +79,7 @@ export default function CommandmentsPage() {
             <h1 className="text-3xl md:text-4xl font-bold font-display mb-3 text-scripture">
               The 613 Commandments of the Bible
             </h1>
-            <p className="text-lg text-primary-dark/70 max-w-2xl mb-6">
+            <p className="text-lg text-ink-muted max-w-2xl mb-6">
               The Torah contains 613 commandments (mitzvot) — 248 positive (&ldquo;thou shalt&rdquo;)
               and 365 negative (&ldquo;thou shalt not&rdquo;) — spanning the books of
               Exodus, Leviticus, Numbers, and Deuteronomy.
@@ -89,23 +89,23 @@ export default function CommandmentsPage() {
             <div className="flex flex-wrap gap-6 text-center">
               <div>
                 <p className="text-3xl font-bold text-scripture">{stats.total}</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Total</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Total</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-emerald-400">{stats.positive}</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Positive</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Positive</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-red-400">{stats.negative}</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Negative</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Negative</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-scripture">{stats.categories}</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Categories</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Categories</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-scripture">{stats.books}</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Books</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Books</p>
               </div>
             </div>
           </div>
@@ -114,23 +114,23 @@ export default function CommandmentsPage() {
 
       {/* Quiz CTA */}
       <section className="max-w-6xl mx-auto px-4 pb-8">
-        <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+        <div className="bg-blue-50 border border-sacred/20 rounded-xl p-6 flex flex-col sm:flex-row items-start sm:items-center gap-4">
           <div className="flex-1">
             <h2 className="text-lg font-bold text-scripture mb-1">Test Your Knowledge</h2>
-            <p className="text-sm text-primary-dark/70">
+            <p className="text-sm text-ink-muted">
               How well do you know the biblical commandments? Take a quiz and find out.
             </p>
           </div>
           <div className="flex flex-wrap gap-3">
             <Link
               href="/ten-commandments-quiz"
-              className="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors"
+              className="px-4 py-2 bg-scripture text-white text-sm font-medium rounded-lg hover:bg-ink-muted transition-colors"
             >
               Ten Commandments Quiz
             </Link>
             <Link
               href="/613-commandments-quiz"
-              className="px-4 py-2 bg-white text-blue-600 text-sm font-medium rounded-lg border border-blue-300 hover:bg-primary-light transition-colors"
+              className="px-4 py-2 bg-white text-sacred text-sm font-medium rounded-lg border border-sacred/50 hover:bg-primary-light transition-colors"
             >
               All 613 Quiz (50 Questions)
             </Link>
@@ -146,17 +146,17 @@ export default function CommandmentsPage() {
             <Link
               key={cat.slug}
               href={`/commandments/category/${cat.slug}`}
-              className="bg-white border border-grace rounded-lg p-4 hover:shadow-md hover:border-blue-300 transition-all group"
+              className="bg-white border border-grace rounded-lg p-4 hover:shadow-md hover:border-sacred/50 transition-all group"
             >
               <div className="flex items-center justify-between mb-1">
-                <h3 className="font-semibold text-scripture group-hover:text-blue-600 transition-colors text-sm">
+                <h3 className="font-semibold text-scripture group-hover:text-gold-dark transition-colors text-sm">
                   {cat.name}
                 </h3>
-                <span className="text-xs font-medium text-primary-dark/60 bg-grace/20 px-2 py-0.5 rounded">
+                <span className="text-xs font-medium text-ink-muted bg-grace/20 px-2 py-0.5 rounded">
                   {cat.count}
                 </span>
               </div>
-              <div className="flex gap-3 text-xs text-primary-dark/60">
+              <div className="flex gap-3 text-xs text-ink-muted">
                 <span className="text-emerald-600">{cat.positive} positive</span>
                 <span className="text-red-600">{cat.negative} negative</span>
               </div>
@@ -173,11 +173,11 @@ export default function CommandmentsPage() {
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-primary-light/30 border-b border-grace">
-                  <th className="px-4 py-3 text-left font-semibold text-primary-dark/80 w-12">#</th>
-                  <th className="px-4 py-3 text-left font-semibold text-primary-dark/80">Commandment</th>
-                  <th className="px-4 py-3 text-left font-semibold text-primary-dark/80 w-16">Type</th>
-                  <th className="px-4 py-3 text-left font-semibold text-primary-dark/80 w-40">Reference</th>
-                  <th className="px-4 py-3 text-left font-semibold text-primary-dark/80 w-36">Category</th>
+                  <th className="px-4 py-3 text-left font-semibold text-scripture w-12">#</th>
+                  <th className="px-4 py-3 text-left font-semibold text-scripture">Commandment</th>
+                  <th className="px-4 py-3 text-left font-semibold text-scripture w-16">Type</th>
+                  <th className="px-4 py-3 text-left font-semibold text-scripture w-40">Reference</th>
+                  <th className="px-4 py-3 text-left font-semibold text-scripture w-36">Category</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-grace/50">
@@ -185,11 +185,11 @@ export default function CommandmentsPage() {
                   const quizSlug = referenceToQuizSlug(cmd.referenceId);
                   return (
                     <tr key={cmd.number} className="hover:bg-primary-light/50 transition-colors">
-                      <td className="px-4 py-2.5 text-primary-dark/60 font-mono text-xs">{cmd.number}</td>
+                      <td className="px-4 py-2.5 text-ink-muted font-mono text-xs">{cmd.number}</td>
                       <td className="px-4 py-2.5">
                         <Link
                           href={`/commandments/${cmd.number}`}
-                          className="text-scripture hover:text-blue-600 transition-colors font-medium"
+                          className="text-scripture hover:text-gold-dark transition-colors font-medium"
                         >
                           {cmd.concept}
                         </Link>
@@ -203,9 +203,9 @@ export default function CommandmentsPage() {
                           {cmd.polarity === 'P' ? '+' : '\u2212'}
                         </span>
                       </td>
-                      <td className="px-4 py-2.5 text-primary-dark/70 text-xs">
+                      <td className="px-4 py-2.5 text-ink-muted text-xs">
                         {quizSlug ? (
-                          <Link href={`/${quizSlug}`} className="hover:text-blue-600 hover:underline">
+                          <Link href={`/${quizSlug}`} className="hover:text-gold-dark hover:underline">
                             {formatReference(cmd.referenceId)}
                           </Link>
                         ) : (
@@ -215,7 +215,7 @@ export default function CommandmentsPage() {
                       <td className="px-4 py-2.5">
                         <Link
                           href={`/commandments/category/${categorySlug(cmd.category)}`}
-                          className="text-xs text-primary-dark/60 hover:text-blue-600 hover:underline"
+                          className="text-xs text-ink-muted hover:text-gold-dark hover:underline"
                         >
                           {cmd.category}
                         </Link>
@@ -235,17 +235,17 @@ export default function CommandmentsPage() {
           <h2 className="text-xl font-bold text-scripture mb-2">
             Ready to Test Your Knowledge?
           </h2>
-          <p className="text-sm text-primary-dark/70 mb-4 max-w-lg mx-auto">
+          <p className="text-sm text-ink-muted mb-4 max-w-lg mx-auto">
             From the Ten Commandments to all 613 mitzvot — put your biblical knowledge to the test.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            <Link href="/ten-commandments-quiz" className="px-5 py-2.5 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors">
+            <Link href="/ten-commandments-quiz" className="px-5 py-2.5 bg-scripture text-white text-sm font-medium rounded-lg hover:bg-ink-muted transition-colors">
               Ten Commandments Quiz
             </Link>
-            <Link href="/613-commandments-quiz" className="px-5 py-2.5 bg-white text-blue-600 text-sm font-medium rounded-lg border border-blue-300 hover:bg-primary-light transition-colors">
+            <Link href="/613-commandments-quiz" className="px-5 py-2.5 bg-white text-sacred text-sm font-medium rounded-lg border border-sacred/50 hover:bg-primary-light transition-colors">
               All 613 Quiz
             </Link>
-            <Link href="/positive-negative-commandments-quiz" className="px-5 py-2.5 bg-white text-primary-dark/80 text-sm font-medium rounded-lg border border-grace hover:bg-primary-light/50 transition-colors">
+            <Link href="/positive-negative-commandments-quiz" className="px-5 py-2.5 bg-white text-scripture text-sm font-medium rounded-lg border border-grace hover:bg-primary-light/50 transition-colors">
               Positive vs Negative Quiz
             </Link>
           </div>

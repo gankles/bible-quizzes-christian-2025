@@ -35,10 +35,10 @@ export default function CrossReferencesIndexPage() {
         <div className="max-w-5xl mx-auto px-4 py-3">
           <ol className="flex items-center text-sm">
             <li>
-              <Link href="/" className="text-blue-600 hover:underline">Home</Link>
+              <Link href="/" className="text-sacred hover:underline">Home</Link>
             </li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li className="text-primary-dark/70">Cross-References</li>
+            <li className="text-ink-light mx-2">/</li>
+            <li className="text-ink-muted">Cross-References</li>
           </ol>
         </div>
       </nav>
@@ -48,7 +48,7 @@ export default function CrossReferencesIndexPage() {
           <h1 className="text-3xl font-bold font-display text-scripture mb-3">
             Bible Cross-References
           </h1>
-          <p className="text-primary-dark/70 max-w-2xl">
+          <p className="text-ink-muted max-w-2xl">
             Explore verse-by-verse cross-references from the Treasury of Scripture Knowledge.
             Select a book to browse cross-references for every chapter and verse.
           </p>
@@ -61,10 +61,10 @@ export default function CrossReferencesIndexPage() {
               <Link
                 key={book.slug}
                 href={`/cross-references/${book.slug}/1/1`}
-                className="p-3 bg-white border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors text-center"
+                className="p-3 bg-white border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors text-center"
               >
-                <span className="text-blue-600 font-medium text-sm">{book.name}</span>
-                <span className="block text-xs text-primary-dark/40 mt-1">{book.chapters} ch.</span>
+                <span className="text-sacred font-medium text-sm">{book.name}</span>
+                <span className="block text-xs text-ink-light mt-1">{book.chapters} ch.</span>
               </Link>
             ))}
           </div>
@@ -77,10 +77,10 @@ export default function CrossReferencesIndexPage() {
               <Link
                 key={book.slug}
                 href={`/cross-references/${book.slug}/1/1`}
-                className="p-3 bg-white border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors text-center"
+                className="p-3 bg-white border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors text-center"
               >
-                <span className="text-blue-600 font-medium text-sm">{book.name}</span>
-                <span className="block text-xs text-primary-dark/40 mt-1">{book.chapters} ch.</span>
+                <span className="text-sacred font-medium text-sm">{book.name}</span>
+                <span className="block text-xs text-ink-light mt-1">{book.chapters} ch.</span>
               </Link>
             ))}
           </div>
@@ -88,7 +88,7 @@ export default function CrossReferencesIndexPage() {
 
         <section className="bg-white rounded-xl shadow-sm border border-grace p-6">
           <h2 className="text-lg font-bold text-scripture mb-2">About Treasury of Scripture Knowledge</h2>
-          <p className="text-primary-dark/70 text-sm leading-relaxed">
+          <p className="text-ink-muted text-sm leading-relaxed">
             The Treasury of Scripture Knowledge (TSK) is one of the most comprehensive
             cross-reference resources available for Bible study. Originally compiled by
             R.A. Torrey and published in 1836, it contains over 500,000 cross-references

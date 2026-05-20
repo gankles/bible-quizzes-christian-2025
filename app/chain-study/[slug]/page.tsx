@@ -45,11 +45,11 @@ function getTestamentColor(testament: 'OT' | 'NT'): {
         text: 'text-amber-700',
       }
     : {
-        badge: 'bg-blue-100 text-blue-800 border-blue-200',
-        border: 'border-blue-200',
+        badge: 'bg-sacred/10 text-scripture border-sacred/20',
+        border: 'border-sacred/20',
         bg: 'bg-blue-50',
-        dot: 'bg-blue-400',
-        text: 'text-blue-700',
+        dot: 'bg-sacred',
+        text: 'text-scripture',
       };
 }
 
@@ -131,14 +131,14 @@ export default async function ChainStudyDetailPage({ params }: ChainPageProps) {
         <div className="max-w-5xl mx-auto px-4 py-3">
           <ol className="flex items-center flex-wrap gap-y-1 text-sm">
             <li>
-              <Link href="/" className="text-blue-600 hover:underline">Home</Link>
+              <Link href="/" className="text-sacred hover:underline">Home</Link>
             </li>
-            <li className="text-primary-dark/40 mx-2">/</li>
+            <li className="text-ink-light mx-2">/</li>
             <li>
-              <Link href="/chain-study" className="text-blue-600 hover:underline">Chain Studies</Link>
+              <Link href="/chain-study" className="text-sacred hover:underline">Chain Studies</Link>
             </li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li className="text-primary-dark/70">{chain.subject}</li>
+            <li className="text-ink-light mx-2">/</li>
+            <li className="text-ink-muted">{chain.subject}</li>
           </ol>
         </div>
       </nav>
@@ -146,13 +146,13 @@ export default async function ChainStudyDetailPage({ params }: ChainPageProps) {
       {/* Hero */}
       <header className="bg-white border-b border-grace">
         <div className="max-w-5xl mx-auto px-4 py-10 md:py-14">
-          <p className="text-sm font-medium text-blue-600 uppercase tracking-wider mb-2">
+          <p className="text-sm font-medium text-sacred uppercase tracking-wider mb-2">
             Chain Study Through the Bible
           </p>
           <h1 className="text-3xl md:text-4xl font-bold font-display text-scripture mb-4">
             {chain.subject}
           </h1>
-          <p className="text-lg text-primary-dark/70 max-w-2xl mb-6">
+          <p className="text-lg text-ink-muted max-w-2xl mb-6">
             Trace the theme of <strong>{chain.subject}</strong> chronologically through
             Scripture -- from {chain.bookGroups[0]?.book} to{' '}
             {chain.bookGroups[chain.bookGroups.length - 1]?.book}.
@@ -162,23 +162,23 @@ export default async function ChainStudyDetailPage({ params }: ChainPageProps) {
           <div className="flex flex-wrap gap-6 text-center">
             <div>
               <p className="text-3xl font-bold text-scripture">{chain.totalVerses.toLocaleString()}</p>
-              <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Verses</p>
+              <p className="text-xs text-ink-muted uppercase tracking-wider">Verses</p>
             </div>
             <div>
               <p className="text-3xl font-bold text-scripture">{chain.bookCount}</p>
-              <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Books</p>
+              <p className="text-xs text-ink-muted uppercase tracking-wider">Books</p>
             </div>
             <div>
               <p className="text-3xl font-bold text-amber-600">{chain.otBookCount}</p>
-              <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Old Testament</p>
+              <p className="text-xs text-ink-muted uppercase tracking-wider">Old Testament</p>
             </div>
             <div>
-              <p className="text-3xl font-bold text-blue-600">{chain.ntBookCount}</p>
-              <p className="text-xs text-primary-dark/60 uppercase tracking-wider">New Testament</p>
+              <p className="text-3xl font-bold text-sacred">{chain.ntBookCount}</p>
+              <p className="text-xs text-ink-muted uppercase tracking-wider">New Testament</p>
             </div>
             <div>
               <p className="text-3xl font-bold text-scripture">{chain.subTopics.length}</p>
-              <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Sub-topics</p>
+              <p className="text-xs text-ink-muted uppercase tracking-wider">Sub-topics</p>
             </div>
           </div>
         </div>
@@ -199,7 +199,7 @@ export default async function ChainStudyDetailPage({ params }: ChainPageProps) {
                 <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-amber-100 text-amber-800 border border-amber-200">
                   Old Testament
                 </span>
-                <span className="text-sm text-primary-dark/50">
+                <span className="text-sm text-ink-muted">
                   {otGroups.length} books
                 </span>
               </div>
@@ -214,11 +214,11 @@ export default async function ChainStudyDetailPage({ params }: ChainPageProps) {
           {/* Testament Divider */}
           {otGroups.length > 0 && ntGroups.length > 0 && (
             <div className="flex items-center gap-4 my-8">
-              <div className="flex-1 h-px bg-gradient-to-r from-amber-300 to-blue-300"></div>
-              <span className="text-sm font-medium text-primary-dark/50 whitespace-nowrap">
+              <div className="flex-1 h-px bg-gradient-to-r from-amber-300 to-scripture/80"></div>
+              <span className="text-sm font-medium text-ink-muted whitespace-nowrap">
                 400 Years of Silence
               </span>
-              <div className="flex-1 h-px bg-gradient-to-r from-blue-300 to-blue-400"></div>
+              <div className="flex-1 h-px bg-gradient-to-r from-scripture to-scripture/80"></div>
             </div>
           )}
 
@@ -226,10 +226,10 @@ export default async function ChainStudyDetailPage({ params }: ChainPageProps) {
           {ntGroups.length > 0 && (
             <div className="mb-8">
               <div className="flex items-center gap-2 mb-4">
-                <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800 border border-blue-200">
+                <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-sacred/10 text-scripture border border-sacred/20">
                   New Testament
                 </span>
-                <span className="text-sm text-primary-dark/50">
+                <span className="text-sm text-ink-muted">
                   {ntGroups.length} books
                 </span>
               </div>
@@ -251,10 +251,10 @@ export default async function ChainStudyDetailPage({ params }: ChainPageProps) {
             <ul className="space-y-3">
               {insights.map((insight, i) => (
                 <li key={i} className="flex gap-3">
-                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 text-blue-700 text-sm font-bold flex items-center justify-center mt-0.5">
+                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-sacred/10 text-scripture text-sm font-bold flex items-center justify-center mt-0.5">
                     {i + 1}
                   </span>
-                  <p className="text-primary-dark/80 leading-relaxed">{insight}</p>
+                  <p className="text-scripture leading-relaxed">{insight}</p>
                 </li>
               ))}
             </ul>
@@ -267,16 +267,16 @@ export default async function ChainStudyDetailPage({ params }: ChainPageProps) {
             <h2 className="text-2xl font-bold font-display text-scripture mb-4">
               Sub-Topics in This Chain
             </h2>
-            <p className="text-primary-dark/60 text-sm mb-4">
+            <p className="text-ink-muted text-sm mb-4">
               {chain.subTopics.length} aspects of {chain.subject} found in Scripture
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
               {chain.subTopics.slice(0, 20).map((st, i) => (
                 <div key={i} className="flex items-start gap-2 py-1.5">
-                  <span className="w-1.5 h-1.5 rounded-full bg-blue-400 mt-2 flex-shrink-0"></span>
+                  <span className="w-1.5 h-1.5 rounded-full bg-sacred mt-2 flex-shrink-0"></span>
                   <div>
-                    <span className="text-sm text-primary-dark/80">{st.title}</span>
-                    <span className="text-xs text-primary-dark/40 ml-1.5">
+                    <span className="text-sm text-scripture">{st.title}</span>
+                    <span className="text-xs text-ink-light ml-1.5">
                       ({st.verses.length} {st.verses.length === 1 ? 'verse' : 'verses'})
                     </span>
                   </div>
@@ -284,7 +284,7 @@ export default async function ChainStudyDetailPage({ params }: ChainPageProps) {
               ))}
             </div>
             {chain.subTopics.length > 20 && (
-              <p className="text-sm text-primary-dark/50 mt-3">
+              <p className="text-sm text-ink-muted mt-3">
                 ... and {chain.subTopics.length - 20} more sub-topics
               </p>
             )}
@@ -292,43 +292,43 @@ export default async function ChainStudyDetailPage({ params }: ChainPageProps) {
         )}
 
         {/* CRO: Continue Your Study */}
-        <section className="bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-200 p-6 md:p-8">
+        <section className="bg-gradient-to-br from-scripture to-white rounded-xl border border-sacred/20 p-6 md:p-8">
           <h2 className="text-xl font-bold font-display text-scripture mb-4">
             Continue Your Study
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             <Link
               href={`/topics/${slug}`}
-              className="block bg-white rounded-lg border border-grace p-4 hover:border-blue-300 hover:shadow-sm transition-all group"
+              className="block bg-white rounded-lg border border-grace p-4 hover:border-sacred/50 hover:shadow-sm transition-all group"
             >
-              <p className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+              <p className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                 {chain.subject} Topic Study
               </p>
-              <p className="text-sm text-primary-dark/60 mt-1">
+              <p className="text-sm text-ink-muted mt-1">
                 Deep-dive into this topic with verse text and commentary
               </p>
             </Link>
 
             <Link
               href={`/bible-encyclopedia/${slug}`}
-              className="block bg-white rounded-lg border border-grace p-4 hover:border-blue-300 hover:shadow-sm transition-all group"
+              className="block bg-white rounded-lg border border-grace p-4 hover:border-sacred/50 hover:shadow-sm transition-all group"
             >
-              <p className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+              <p className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                 Encyclopedia Entry
               </p>
-              <p className="text-sm text-primary-dark/60 mt-1">
+              <p className="text-sm text-ink-muted mt-1">
                 Etymology, definitions, and cross-references
               </p>
             </Link>
 
             <Link
               href={`/bible-quizzes`}
-              className="block bg-white rounded-lg border border-grace p-4 hover:border-blue-300 hover:shadow-sm transition-all group"
+              className="block bg-white rounded-lg border border-grace p-4 hover:border-sacred/50 hover:shadow-sm transition-all group"
             >
-              <p className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+              <p className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                 Test Your Knowledge
               </p>
-              <p className="text-sm text-primary-dark/60 mt-1">
+              <p className="text-sm text-ink-muted mt-1">
                 Take a Bible quiz to reinforce your understanding
               </p>
             </Link>
@@ -346,18 +346,18 @@ export default async function ChainStudyDetailPage({ params }: ChainPageProps) {
                 <Link
                   key={r.slug}
                   href={`/chain-study/${r.slug}`}
-                  className="block bg-white rounded-lg border border-grace p-4 hover:border-blue-300 hover:shadow-sm transition-all group"
+                  className="block bg-white rounded-lg border border-grace p-4 hover:border-sacred/50 hover:shadow-sm transition-all group"
                 >
-                  <p className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                  <p className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                     {r.subject}
                   </p>
-                  <div className="flex items-center gap-3 mt-2 text-xs text-primary-dark/50">
+                  <div className="flex items-center gap-3 mt-2 text-xs text-ink-muted">
                     <span>{r.bookCount} books</span>
-                    <span className="w-1 h-1 rounded-full bg-primary-dark/20"></span>
+                    <span className="w-1 h-1 rounded-full bg-scripture/20"></span>
                     <span>{r.totalVerses} verses</span>
-                    <span className="w-1 h-1 rounded-full bg-primary-dark/20"></span>
+                    <span className="w-1 h-1 rounded-full bg-scripture/20"></span>
                     <span className="text-amber-600">{r.otBookCount} OT</span>
-                    <span className="text-blue-600">{r.ntBookCount} NT</span>
+                    <span className="text-sacred">{r.ntBookCount} NT</span>
                   </div>
                 </Link>
               ))}
@@ -405,7 +405,7 @@ function BookGroupCard({ group, index }: { group: ChainBookGroup; index: number 
             <span className={`inline-flex items-center px-2 py-0.5 rounded text-xs font-medium ${colors.badge}`}>
               {group.testament === 'OT' ? 'Old Testament' : 'New Testament'}
             </span>
-            <span className="text-xs text-primary-dark/40">
+            <span className="text-xs text-ink-light">
               {group.verses.length} {group.verses.length === 1 ? 'reference' : 'references'}
             </span>
           </div>
@@ -414,18 +414,18 @@ function BookGroupCard({ group, index }: { group: ChainBookGroup; index: number 
           <div className="space-y-1">
             {displayVerses.map((v, i) => (
               <div key={i} className="flex items-start gap-2 text-sm">
-                <span className="text-primary-dark/40 font-mono text-xs mt-0.5 whitespace-nowrap">
+                <span className="text-ink-light font-mono text-xs mt-0.5 whitespace-nowrap">
                   {v.reference}
                 </span>
                 {v.subTopicTitle && (
-                  <span className="text-primary-dark/50 italic text-xs mt-0.5">
+                  <span className="text-ink-muted italic text-xs mt-0.5">
                     -- {v.subTopicTitle}
                   </span>
                 )}
               </div>
             ))}
             {remaining > 0 && (
-              <p className="text-xs text-primary-dark/40 pl-0">
+              <p className="text-xs text-ink-light pl-0">
                 + {remaining} more {remaining === 1 ? 'reference' : 'references'}
               </p>
             )}
@@ -443,7 +443,7 @@ function BookGroupCard({ group, index }: { group: ChainBookGroup; index: number 
                 </span>
               ))}
               {group.subTopics.length > 4 && (
-                <span className="text-xs text-primary-dark/40">
+                <span className="text-xs text-ink-light">
                   +{group.subTopics.length - 4} more
                 </span>
               )}

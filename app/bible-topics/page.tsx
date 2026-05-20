@@ -90,12 +90,12 @@ export default function BibleTopicsIndexPage() {
 
       {/* Breadcrumbs */}
       <nav aria-label="Breadcrumb" className="max-w-7xl mx-auto px-4 md:px-10 pt-6">
-        <ol className="flex items-center gap-2 text-sm text-primary-dark/60">
+        <ol className="flex items-center gap-2 text-sm text-ink-muted">
           <li>
-            <Link href="/" className="hover:text-blue-600 transition-colors">Home</Link>
+            <Link href="/" className="hover:text-gold-dark transition-colors">Home</Link>
           </li>
           <li aria-hidden="true">
-            <svg className="w-4 h-4 text-primary-dark/40" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <svg className="w-4 h-4 text-ink-light" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
             </svg>
           </li>
@@ -115,7 +115,7 @@ export default function BibleTopicsIndexPage() {
             Bible Topics<br />
             <span className="text-amber-700">A to Z</span>
           </h1>
-          <p className="max-w-2xl mx-auto text-lg md:text-xl text-primary-dark/70 leading-relaxed">
+          <p className="max-w-2xl mx-auto text-lg md:text-xl text-ink-muted leading-relaxed">
             Browse over {stats.topics.toLocaleString()} topics from Nave&apos;s Topical Bible.
             Every sub-topic and verse reference, organized for thorough Scripture study.
           </p>
@@ -127,19 +127,19 @@ export default function BibleTopicsIndexPage() {
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-3xl mx-auto">
           <div className="bg-white rounded-lg border border-grace shadow-sm p-5 text-center">
             <div className="text-3xl font-bold text-scripture">{stats.topics.toLocaleString()}</div>
-            <div className="text-xs font-bold uppercase text-primary-dark/40 mt-1">Topics</div>
+            <div className="text-xs font-bold uppercase text-ink-light mt-1">Topics</div>
           </div>
           <div className="bg-white rounded-lg border border-grace shadow-sm p-5 text-center">
             <div className="text-3xl font-bold text-amber-700">{stats.totalRefs.toLocaleString()}</div>
-            <div className="text-xs font-bold uppercase text-primary-dark/40 mt-1">Verse References</div>
+            <div className="text-xs font-bold uppercase text-ink-light mt-1">Verse References</div>
           </div>
           <div className="bg-white rounded-lg border border-grace shadow-sm p-5 text-center">
             <div className="text-3xl font-bold text-amber-700">{stats.sections}</div>
-            <div className="text-xs font-bold uppercase text-primary-dark/40 mt-1">Sections</div>
+            <div className="text-xs font-bold uppercase text-ink-light mt-1">Sections</div>
           </div>
           <div className="bg-white rounded-lg border border-grace shadow-sm p-5 text-center">
             <div className="text-3xl font-bold text-amber-700">{stats.withRefs.toLocaleString()}</div>
-            <div className="text-xs font-bold uppercase text-primary-dark/40 mt-1">With Verses</div>
+            <div className="text-xs font-bold uppercase text-ink-light mt-1">With Verses</div>
           </div>
         </div>
       </div>
@@ -148,7 +148,7 @@ export default function BibleTopicsIndexPage() {
       <section className="max-w-7xl mx-auto px-4 md:px-10 py-16">
         <div className="mb-8">
           <h2 className="text-2xl font-bold text-scripture mb-2">Most Referenced Topics</h2>
-          <p className="text-primary-dark/60">
+          <p className="text-ink-muted">
             The ten most-cited subjects in Nave&apos;s Topical Bible, by total verse references.
           </p>
         </div>
@@ -163,12 +163,12 @@ export default function BibleTopicsIndexPage() {
                 <span className="inline-flex items-center justify-center w-8 h-8 rounded bg-amber-100 text-amber-800 text-xs font-bold">
                   #{idx + 1}
                 </span>
-                <span className="text-xs font-bold text-primary-dark/40 uppercase">{topic.section}</span>
+                <span className="text-xs font-bold text-ink-light uppercase">{topic.section}</span>
               </div>
               <div className="text-base font-bold text-scripture group-hover:text-amber-700 transition-colors mb-1 leading-tight">
                 {topic.subject}
               </div>
-              <div className="text-xs text-primary-dark/50">
+              <div className="text-xs text-ink-muted">
                 {topic.refCount.toLocaleString()} references &middot; {topic.entries.length} sub-topics
               </div>
             </Link>
@@ -184,7 +184,7 @@ export default function BibleTopicsIndexPage() {
               <a
                 key={letter}
                 href={`#section-${letter}`}
-                className="inline-flex items-center justify-center w-9 h-9 rounded-lg bg-primary-light/50 border border-grace text-sm font-bold text-primary-dark/70 hover:bg-amber-100 hover:text-amber-800 hover:border-amber-300 transition-colors"
+                className="inline-flex items-center justify-center w-9 h-9 rounded-lg bg-primary-light/50 border border-grace text-sm font-bold text-ink-muted hover:bg-amber-100 hover:text-amber-800 hover:border-amber-300 transition-colors"
               >
                 {letter}
               </a>
@@ -195,7 +195,7 @@ export default function BibleTopicsIndexPage() {
 
       {/* A-Z Topic Listing */}
       <main className="max-w-7xl mx-auto px-4 md:px-10 py-12">
-        <p className="text-sm text-primary-dark/50 mb-8">
+        <p className="text-sm text-ink-muted mb-8">
           Tip: Use your browser&apos;s find feature (Ctrl+F / Cmd+F) to search for a specific topic on this page.
         </p>
         {sections.map(letter => {
@@ -208,7 +208,7 @@ export default function BibleTopicsIndexPage() {
                   {letter}
                 </span>
                 <div className="flex-1 h-px bg-grace" />
-                <span className="text-sm text-primary-dark/40 font-medium">
+                <span className="text-sm text-ink-light font-medium">
                   {topicsInSection.length} topics
                 </span>
               </div>
@@ -219,11 +219,11 @@ export default function BibleTopicsIndexPage() {
                     href={`/bible-topics/${topic.slug}`}
                     className="flex items-center justify-between px-3 py-2 rounded-lg hover:bg-amber-50 hover:text-amber-800 transition-colors group"
                   >
-                    <span className="text-sm text-primary-dark/80 group-hover:text-amber-800 truncate">
+                    <span className="text-sm text-scripture group-hover:text-amber-800 truncate">
                       {topic.subject}
                     </span>
                     {topic.refCount > 0 && (
-                      <span className="text-xs text-primary-dark/30 flex-shrink-0 ml-2">
+                      <span className="text-xs text-ink-light flex-shrink-0 ml-2">
                         {topic.refCount}
                       </span>
                     )}
@@ -271,7 +271,7 @@ export default function BibleTopicsIndexPage() {
       <section className="bg-primary-light/30 border-t border-grace py-16">
         <div className="max-w-7xl mx-auto px-4 md:px-10">
           <h2 className="text-2xl font-bold text-scripture mb-2">Continue Your Study</h2>
-          <p className="text-primary-dark/60 mb-8">Explore more resources for deeper Bible understanding.</p>
+          <p className="text-ink-muted mb-8">Explore more resources for deeper Bible understanding.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <Link
               href="/topics"
@@ -285,7 +285,7 @@ export default function BibleTopicsIndexPage() {
               <h3 className="font-bold text-scripture group-hover:text-amber-700 transition-colors mb-1">
                 Topic Verses with Text
               </h3>
-              <p className="text-sm text-primary-dark/60">
+              <p className="text-sm text-ink-muted">
                 Read full verse text for every topic with commentary and cross-references.
               </p>
             </Link>
@@ -294,14 +294,14 @@ export default function BibleTopicsIndexPage() {
               className="group bg-white rounded-lg border border-grace p-6 hover:border-amber-400 hover:shadow-lg transition-all duration-300"
             >
               <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <svg className="w-6 h-6 text-sacred" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                 </svg>
               </div>
               <h3 className="font-bold text-scripture group-hover:text-amber-700 transition-colors mb-1">
                 Greek and Hebrew Word Studies
               </h3>
-              <p className="text-sm text-primary-dark/60">
+              <p className="text-sm text-ink-muted">
                 Study the original-language words behind key Bible terms.
               </p>
             </Link>
@@ -317,7 +317,7 @@ export default function BibleTopicsIndexPage() {
               <h3 className="font-bold text-scripture group-hover:text-amber-700 transition-colors mb-1">
                 Bible Characters
               </h3>
-              <p className="text-sm text-primary-dark/60">
+              <p className="text-sm text-ink-muted">
                 Explore the lives and stories of key biblical figures.
               </p>
             </Link>
@@ -325,15 +325,15 @@ export default function BibleTopicsIndexPage() {
               href="/bible-quizzes"
               className="group bg-white rounded-lg border border-grace p-6 hover:border-amber-400 hover:shadow-lg transition-all duration-300"
             >
-              <div className="w-12 h-12 rounded-xl bg-purple-50 flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <div className="w-12 h-12 rounded-xl bg-scripture/5 flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-scripture" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
                 </svg>
               </div>
               <h3 className="font-bold text-scripture group-hover:text-amber-700 transition-colors mb-1">
                 Bible Quizzes
               </h3>
-              <p className="text-sm text-primary-dark/60">
+              <p className="text-sm text-ink-muted">
                 Test your knowledge on every book, chapter, and theme of the Bible.
               </p>
             </Link>

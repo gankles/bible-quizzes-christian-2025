@@ -20,7 +20,7 @@ export default function ChapterCommandments({ commandments, bookName, chapter }:
           <h2 className="text-xl font-bold text-scripture">
             Commandments in {bookName} {chapter}
           </h2>
-          <p className="text-sm text-primary-dark/70 mt-1">
+          <p className="text-sm text-ink-muted mt-1">
             This chapter contains <strong>{commandments.length}</strong> of the 613 biblical commandments
             {positive.length > 0 && negative.length > 0 && (
               <> &mdash; {positive.length} positive and {negative.length} negative</>
@@ -41,11 +41,11 @@ export default function ChapterCommandments({ commandments, bookName, chapter }:
               <div className="min-w-0 flex-1">
                 <Link
                   href={`/commandments/${cmd.number}`}
-                  className="text-sm font-medium text-scripture hover:text-blue-600 transition-colors"
+                  className="text-sm font-medium text-scripture hover:text-gold-dark transition-colors"
                 >
                   #{cmd.number}: {cmd.concept}
                 </Link>
-                <p className="text-xs text-primary-dark/60 mt-0.5">
+                <p className="text-xs text-ink-muted mt-0.5">
                   {formatReference(cmd.referenceId)} &middot; {cmd.category}
                 </p>
               </div>
@@ -56,21 +56,21 @@ export default function ChapterCommandments({ commandments, bookName, chapter }:
         <div className="p-4 bg-primary-light/30 border-t border-grace flex flex-wrap gap-3">
           <Link
             href="/commandments"
-            className="text-sm text-blue-600 hover:text-blue-800 hover:underline"
+            className="text-sm text-sacred hover:text-gold-dark hover:underline"
           >
             View all 613 commandments
           </Link>
-          <span className="text-primary-dark/40">|</span>
+          <span className="text-ink-light">|</span>
           <Link
             href="/ten-commandments-quiz"
-            className="text-sm text-blue-600 hover:text-blue-800 hover:underline"
+            className="text-sm text-sacred hover:text-gold-dark hover:underline"
           >
             Ten Commandments Quiz
           </Link>
-          <span className="text-primary-dark/40">|</span>
+          <span className="text-ink-light">|</span>
           <Link
             href="/613-commandments-quiz"
-            className="text-sm text-blue-600 hover:text-blue-800 hover:underline"
+            className="text-sm text-sacred hover:text-gold-dark hover:underline"
           >
             613 Commandments Quiz
           </Link>

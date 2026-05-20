@@ -63,13 +63,13 @@ export default async function ConceptStudyPage({ params }: ConceptPageProps) {
             {/* NAVIGATION */}
             <div className="bg-white/40 border-b border-grace backdrop-blur-md">
                 <div className="max-w-7xl mx-auto px-6 h-14 flex items-center justify-between">
-                    <Link href="/lexicon" className="group flex items-center text-primary-dark/60 hover:text-blue-600 transition-all text-[11px] font-bold uppercase">
+                    <Link href="/lexicon" className="group flex items-center text-ink-muted hover:text-gold-dark transition-all text-[11px] font-bold uppercase">
                         <ArrowLeftIcon className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" />
                         <span>Lexicon Hub</span>
                     </Link>
-                    <div className="hidden md:flex items-center space-x-6 text-[10px] font-bold uppercase text-primary-dark/40">
+                    <div className="hidden md:flex items-center space-x-6 text-[10px] font-bold uppercase text-ink-light">
                         <span>Concept Study</span>
-                        <span className="w-1.5 h-1.5 bg-blue-600 rounded-full"></span>
+                        <span className="w-1.5 h-1.5 bg-scripture rounded-full"></span>
                         <span className="text-scripture">{concept.name}</span>
                     </div>
                 </div>
@@ -79,21 +79,21 @@ export default async function ConceptStudyPage({ params }: ConceptPageProps) {
             <section className="py-20 bg-white/40 relative overflow-hidden">
                 <div className="max-w-7xl mx-auto px-6 relative z-10">
                     <div className="max-w-4xl">
-                        <div className="inline-flex items-center space-x-2 text-blue-600 font-bold text-[10px] uppercase mb-6">
+                        <div className="inline-flex items-center space-x-2 text-sacred font-bold text-[10px] uppercase mb-6">
                             <SparklesIcon className="w-4 h-4" />
                             <span>Theological Concept Study</span>
                         </div>
                         <h1 className="text-5xl md:text-7xl font-display font-bold text-scripture tracking-tighter mb-6">
-                            {concept.name} <span className="text-blue-600 italic">in Scripture.</span>
+                            {concept.name} <span className="text-sacred italic">in Scripture.</span>
                         </h1>
-                        <p className="text-xl text-primary-dark/70 font-medium leading-relaxed max-w-3xl">
+                        <p className="text-xl text-ink-muted font-medium leading-relaxed max-w-3xl">
                             {concept.description}
                         </p>
                         <div className="mt-8 flex items-center space-x-4">
-                            <span className="px-4 py-2 rounded-lg bg-blue-50 text-blue-600 text-xs font-bold uppercase">
+                            <span className="px-4 py-2 rounded-lg bg-blue-50 text-sacred text-xs font-bold uppercase">
                                 {concept.strongs.length} Word Studies
                             </span>
-                            <span className="px-4 py-2 rounded-lg bg-grace/20 text-primary-dark/70 text-xs font-bold uppercase">
+                            <span className="px-4 py-2 rounded-lg bg-grace/20 text-ink-muted text-xs font-bold uppercase">
                                 {concept.category}
                             </span>
                         </div>
@@ -108,7 +108,7 @@ export default async function ConceptStudyPage({ params }: ConceptPageProps) {
                     {greekEntries.length > 0 && (
                         <div className="mb-20">
                             <div className="flex items-center space-x-3 mb-12">
-                                <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center text-white">
+                                <div className="w-10 h-10 rounded-xl bg-scripture flex items-center justify-center text-white">
                                     <BookOpenIcon className="w-5 h-5" />
                                 </div>
                                 <h2 className="text-3xl font-bold text-scripture tracking-tighter">Greek Terms</h2>
@@ -118,27 +118,27 @@ export default async function ConceptStudyPage({ params }: ConceptPageProps) {
                                     <Link
                                         key={entry.strongs}
                                         href={`/lexicon/${entry.strongs}`}
-                                        className="group p-8 rounded-[32px] border border-grace bg-white hover:border-blue-300 hover:shadow-xl transition-all duration-300"
+                                        className="group p-8 rounded-[32px] border border-grace bg-white hover:border-sacred/50 hover:shadow-xl transition-all duration-300"
                                     >
                                         <div className="flex items-center justify-between mb-6">
-                                            <span className="px-4 py-1.5 rounded-lg bg-blue-50 text-blue-600 text-[10px] font-bold uppercase">
+                                            <span className="px-4 py-1.5 rounded-lg bg-blue-50 text-sacred text-[10px] font-bold uppercase">
                                                 {entry.strongs}
                                             </span>
-                                            <span className="text-[10px] font-bold text-primary-dark/40 uppercase">
+                                            <span className="text-[10px] font-bold text-ink-light uppercase">
                                                 {entry.stats?.totalOccurrences || 0}x
                                             </span>
                                         </div>
-                                        <div className="text-4xl font-bold text-scripture mb-2 tracking-tighter group-hover:text-blue-600 transition-colors">
+                                        <div className="text-4xl font-bold text-scripture mb-2 tracking-tighter group-hover:text-gold-dark transition-colors">
                                             {entry.word}
                                         </div>
-                                        <div className="text-sm text-primary-dark/60 font-medium mb-1">{entry.transliteration}</div>
+                                        <div className="text-sm text-ink-muted font-medium mb-1">{entry.transliteration}</div>
                                         {entry.pronunciation && (
-                                            <div className="text-xs text-primary-dark/40 mb-4">{entry.pronunciation}</div>
+                                            <div className="text-xs text-ink-light mb-4">{entry.pronunciation}</div>
                                         )}
-                                        <p className="text-primary-dark/60 text-sm leading-relaxed line-clamp-3 mb-6">
+                                        <p className="text-ink-muted text-sm leading-relaxed line-clamp-3 mb-6">
                                             {entry.definitions?.strongs?.split(';')[0] || 'View full definition...'}
                                         </p>
-                                        <div className="flex items-center text-sm font-semibold text-blue-600 opacity-0 group-hover:opacity-100 transition-all">
+                                        <div className="flex items-center text-sm font-semibold text-sacred opacity-0 group-hover:opacity-100 transition-all">
                                             Full Word Study <ArrowRightIcon className="w-4 h-4 ml-2" />
                                         </div>
                                     </Link>
@@ -167,18 +167,18 @@ export default async function ConceptStudyPage({ params }: ConceptPageProps) {
                                             <span className="px-4 py-1.5 rounded-lg bg-rose-50 text-rose-600 text-[10px] font-bold uppercase">
                                                 {entry.strongs}
                                             </span>
-                                            <span className="text-[10px] font-bold text-primary-dark/40 uppercase">
+                                            <span className="text-[10px] font-bold text-ink-light uppercase">
                                                 {entry.stats?.totalOccurrences || 0}x
                                             </span>
                                         </div>
                                         <div className="text-4xl font-bold text-scripture mb-2 tracking-tighter group-hover:text-rose-600 transition-colors text-right" dir="rtl">
                                             {entry.word}
                                         </div>
-                                        <div className="text-sm text-primary-dark/60 font-medium mb-1">{entry.transliteration}</div>
+                                        <div className="text-sm text-ink-muted font-medium mb-1">{entry.transliteration}</div>
                                         {entry.pronunciation && (
-                                            <div className="text-xs text-primary-dark/40 mb-4">{entry.pronunciation}</div>
+                                            <div className="text-xs text-ink-light mb-4">{entry.pronunciation}</div>
                                         )}
-                                        <p className="text-primary-dark/60 text-sm leading-relaxed line-clamp-3 mb-6">
+                                        <p className="text-ink-muted text-sm leading-relaxed line-clamp-3 mb-6">
                                             {entry.definitions?.strongs?.split(';')[0] || 'View full definition...'}
                                         </p>
                                         <div className="flex items-center text-sm font-semibold text-rose-600 opacity-0 group-hover:opacity-100 transition-all">
@@ -197,7 +197,7 @@ export default async function ConceptStudyPage({ params }: ConceptPageProps) {
                 <section className="py-20">
                     <div className="max-w-7xl mx-auto px-6">
                         <div className="mb-12">
-                            <div className="inline-flex items-center space-x-2 text-blue-600 font-bold text-[10px] uppercase mb-4">
+                            <div className="inline-flex items-center space-x-2 text-sacred font-bold text-[10px] uppercase mb-4">
                                 <BoltIcon className="w-4 h-4" />
                                 <span>Side-by-Side Comparison</span>
                             </div>
@@ -210,18 +210,18 @@ export default async function ConceptStudyPage({ params }: ConceptPageProps) {
                             <table className="w-full text-left">
                                 <thead>
                                     <tr className="border-b border-grace/50 bg-primary-light/30">
-                                        <th className="px-8 py-5 text-[10px] font-bold text-primary-dark/40 uppercase">Strong&apos;s</th>
-                                        <th className="px-8 py-5 text-[10px] font-bold text-primary-dark/40 uppercase">Word</th>
-                                        <th className="px-8 py-5 text-[10px] font-bold text-primary-dark/40 uppercase">Language</th>
-                                        <th className="px-8 py-5 text-[10px] font-bold text-primary-dark/40 uppercase">Definition</th>
-                                        <th className="px-8 py-5 text-[10px] font-bold text-primary-dark/40 uppercase">Occurrences</th>
+                                        <th className="px-8 py-5 text-[10px] font-bold text-ink-light uppercase">Strong&apos;s</th>
+                                        <th className="px-8 py-5 text-[10px] font-bold text-ink-light uppercase">Word</th>
+                                        <th className="px-8 py-5 text-[10px] font-bold text-ink-light uppercase">Language</th>
+                                        <th className="px-8 py-5 text-[10px] font-bold text-ink-light uppercase">Definition</th>
+                                        <th className="px-8 py-5 text-[10px] font-bold text-ink-light uppercase">Occurrences</th>
                                     </tr>
                                 </thead>
                                 <tbody className="divide-y divide-grace/50">
                                     {concept.entries.map((entry: any) => (
                                         <tr key={entry.strongs} className="hover:bg-primary-light/50 transition-colors">
                                             <td className="px-8 py-5">
-                                                <Link href={`/lexicon/${entry.strongs}`} className="text-blue-600 font-bold hover:underline">
+                                                <Link href={`/lexicon/${entry.strongs}`} className="text-sacred font-bold hover:underline">
                                                     {entry.strongs}
                                                 </Link>
                                             </td>
@@ -229,18 +229,18 @@ export default async function ConceptStudyPage({ params }: ConceptPageProps) {
                                                 <span className="text-xl font-bold text-scripture" dir={entry.language?.toLowerCase() === 'hebrew' ? 'rtl' : 'ltr'}>
                                                     {entry.word}
                                                 </span>
-                                                <span className="block text-xs text-primary-dark/40 mt-1">{entry.transliteration}</span>
+                                                <span className="block text-xs text-ink-light mt-1">{entry.transliteration}</span>
                                             </td>
                                             <td className="px-8 py-5">
                                                 <span className={`px-3 py-1 rounded-lg text-[10px] font-bold uppercase ${entry.language?.toLowerCase() === 'greek'
-                                                    ? 'bg-blue-50 text-blue-600'
+                                                    ? 'bg-blue-50 text-sacred'
                                                     : 'bg-rose-50 text-rose-600'
                                                     }`}>
                                                     {entry.language}
                                                 </span>
                                             </td>
                                             <td className="px-8 py-5 max-w-md">
-                                                <p className="text-sm text-primary-dark/70 leading-relaxed line-clamp-3">
+                                                <p className="text-sm text-ink-muted leading-relaxed line-clamp-3">
                                                     {entry.definitions?.strongs || 'N/A'}
                                                 </p>
                                             </td>
@@ -266,14 +266,14 @@ export default async function ConceptStudyPage({ params }: ConceptPageProps) {
                                 <Link
                                     key={c.slug}
                                     href={`/lexicon/concept/${c.slug}`}
-                                    className="group p-8 rounded-xl bg-white border border-grace hover:border-blue-300 hover:shadow-md transition-all"
+                                    className="group p-8 rounded-xl bg-white border border-grace hover:border-sacred/50 hover:shadow-md transition-all"
                                 >
-                                    <div className="text-xs font-semibold text-blue-600 mb-3">Concept Study</div>
+                                    <div className="text-xs font-semibold text-sacred mb-3">Concept Study</div>
                                     <h3 className="text-xl font-bold text-scripture mb-2 tracking-tight">{c.name}</h3>
-                                    <p className="text-sm text-primary-dark/60 mb-6 line-clamp-2">{c.description}</p>
+                                    <p className="text-sm text-ink-muted mb-6 line-clamp-2">{c.description}</p>
                                     <div className="flex items-center justify-between pt-4 border-t border-grace/50">
-                                        <span className="text-xs text-primary-dark/40">{c.strongs.length} Words</span>
-                                        <ArrowRightIcon className="w-4 h-4 text-primary-dark/40 group-hover:text-blue-600 transition-colors" />
+                                        <span className="text-xs text-ink-light">{c.strongs.length} Words</span>
+                                        <ArrowRightIcon className="w-4 h-4 text-ink-light group-hover:text-gold-dark transition-colors" />
                                     </div>
                                 </Link>
                             ))}

@@ -38,16 +38,16 @@ function BookNameCard({ book }: { book: BookMetadata }) {
         <div>
           <Link
             href={`/books/${book.slug}`}
-            className="text-lg font-bold text-scripture hover:text-blue-600 transition-colors"
+            className="text-lg font-bold text-scripture hover:text-gold-dark transition-colors"
           >
             {book.name}
           </Link>
-          <p className="text-xs text-primary-dark/60 mt-0.5">
+          <p className="text-xs text-ink-muted mt-0.5">
             {book.chapters} chapters &middot; {book.verseCount.toLocaleString()} verses &middot; {book.author}
           </p>
         </div>
         <span className={`text-xs font-medium px-2 py-0.5 rounded ${
-          isOT ? 'bg-amber-100 text-amber-700' : 'bg-blue-100 text-blue-700'
+          isOT ? 'bg-amber-100 text-amber-700' : 'bg-sacred/10 text-scripture'
         }`}>
           {book.category}
         </span>
@@ -58,16 +58,16 @@ function BookNameCard({ book }: { book: BookMetadata }) {
           <div className="bg-amber-50 rounded-md p-3 border border-amber-100">
             <p className="text-[10px] font-semibold text-amber-600 uppercase tracking-wider mb-1">Hebrew</p>
             <p className="text-xl font-bold text-scripture leading-tight" dir="rtl" lang="he">{book.hebrewName}</p>
-            <p className="text-sm text-primary-dark/80 italic">{book.hebrewTransliteration}</p>
-            <p className="text-sm text-primary-dark/70 mt-1">&ldquo;{book.hebrewMeaning}&rdquo;</p>
+            <p className="text-sm text-scripture italic">{book.hebrewTransliteration}</p>
+            <p className="text-sm text-ink-muted mt-1">&ldquo;{book.hebrewMeaning}&rdquo;</p>
           </div>
         )}
-        <div className={`bg-blue-50 rounded-md p-3 border border-blue-100 ${!book.hebrewName ? 'col-span-full' : ''}`}>
-          <p className="text-[10px] font-semibold text-blue-600 uppercase tracking-wider mb-1">Greek</p>
+        <div className={`bg-blue-50 rounded-md p-3 border border-sacred/10 ${!book.hebrewName ? 'col-span-full' : ''}`}>
+          <p className="text-[10px] font-semibold text-sacred uppercase tracking-wider mb-1">Greek</p>
           <p className="text-xl font-bold text-scripture leading-tight" lang="el">{book.greekName}</p>
-          <p className="text-sm text-primary-dark/80 italic">{book.greekTransliteration}</p>
+          <p className="text-sm text-scripture italic">{book.greekTransliteration}</p>
           {book.greekMeaning && (
-            <p className="text-sm text-primary-dark/70 mt-1">&ldquo;{book.greekMeaning}&rdquo;</p>
+            <p className="text-sm text-ink-muted mt-1">&ldquo;{book.greekMeaning}&rdquo;</p>
           )}
         </div>
       </div>
@@ -75,21 +75,21 @@ function BookNameCard({ book }: { book: BookMetadata }) {
       <div className="mt-3 flex gap-2">
         <Link
           href={`/${book.slug}-chapters`}
-          className="text-xs text-blue-600 hover:text-blue-800 hover:underline"
+          className="text-xs text-sacred hover:text-gold-dark hover:underline"
         >
           Chapter Quizzes
         </Link>
-        <span className="text-primary-dark/40">|</span>
+        <span className="text-ink-light">|</span>
         <Link
           href={`/${book.slug}-quiz`}
-          className="text-xs text-blue-600 hover:text-blue-800 hover:underline"
+          className="text-xs text-sacred hover:text-gold-dark hover:underline"
         >
           Book Quiz
         </Link>
-        <span className="text-primary-dark/40">|</span>
+        <span className="text-ink-light">|</span>
         <Link
           href={`/books/${book.slug}`}
-          className="text-xs text-blue-600 hover:text-blue-800 hover:underline"
+          className="text-xs text-sacred hover:text-gold-dark hover:underline"
         >
           Study Guide
         </Link>
@@ -146,7 +146,7 @@ function TestamentSection({ testament, label, books, accentColor, bgGradient }: 
           <h3 className={`text-lg font-bold ${accentColor} mb-3 flex items-center`}>
             <span className={`w-2 h-2 rounded-full ${testament === 'old' ? 'bg-amber-500' : 'bg-blue-500'} mr-2`} />
             {category}
-            <span className="text-sm font-normal text-primary-dark/60 ml-2">({catBooks.length} books)</span>
+            <span className="text-sm font-normal text-ink-muted ml-2">({catBooks.length} books)</span>
           </h3>
           <div className="grid gap-4 md:grid-cols-2">
             {catBooks.map((book) => (
@@ -198,11 +198,11 @@ export default function BibleBookNamesPage() {
       <nav className="bg-white border-b border-grace">
         <div className="max-w-5xl mx-auto px-4 py-3">
           <ol className="flex items-center space-x-2 text-sm">
-            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
-            <li className="text-primary-dark/40">/</li>
-            <li><Link href="/bible-quizzes" className="text-blue-600 hover:underline">Bible Quizzes</Link></li>
-            <li className="text-primary-dark/40">/</li>
-            <li className="text-primary-dark/70">Bible Book Names & Meanings</li>
+            <li><Link href="/" className="text-sacred hover:underline">Home</Link></li>
+            <li className="text-ink-light">/</li>
+            <li><Link href="/bible-quizzes" className="text-sacred hover:underline">Bible Quizzes</Link></li>
+            <li className="text-ink-light">/</li>
+            <li className="text-ink-muted">Bible Book Names & Meanings</li>
           </ol>
         </div>
       </nav>
@@ -221,25 +221,25 @@ export default function BibleBookNamesPage() {
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold font-display mb-4 text-scripture">
               Bible Book Names & Meanings
             </h1>
-            <p className="text-lg md:text-xl text-primary-dark/70 max-w-3xl mb-6">
+            <p className="text-lg md:text-xl text-ink-muted max-w-3xl mb-6">
               The original Hebrew and Greek names of all 66 books of the Bible with their transliterations and meanings. Discover what each book was called in its original language and what that name reveals about its content.
             </p>
             <div className="flex flex-wrap gap-6 md:gap-10">
               <div>
                 <p className="text-3xl font-bold text-scripture">66</p>
-                <p className="text-sm text-primary-dark/60">Books</p>
+                <p className="text-sm text-ink-muted">Books</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-scripture">{totalChapters.toLocaleString()}</p>
-                <p className="text-sm text-primary-dark/60">Chapters</p>
+                <p className="text-sm text-ink-muted">Chapters</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-scripture">{totalVerses.toLocaleString()}</p>
-                <p className="text-sm text-primary-dark/60">Verses</p>
+                <p className="text-sm text-ink-muted">Verses</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-scripture">39 / 27</p>
-                <p className="text-sm text-primary-dark/60">OT / NT</p>
+                <p className="text-sm text-ink-muted">OT / NT</p>
               </div>
             </div>
           </div>
@@ -248,7 +248,7 @@ export default function BibleBookNamesPage() {
         {/* Quick explanation */}
         <section className="bg-white rounded-xl border border-grace p-6 mb-8">
           <h2 className="text-xl font-bold text-scripture mb-3">Why Do Bible Books Have Different Names?</h2>
-          <div className="grid gap-4 md:grid-cols-2 text-primary-dark/80 text-sm leading-relaxed">
+          <div className="grid gap-4 md:grid-cols-2 text-scripture text-sm leading-relaxed">
             <div>
               <h3 className="font-semibold text-scripture mb-1">Old Testament &mdash; Hebrew Tradition</h3>
               <p>
@@ -278,27 +278,27 @@ export default function BibleBookNamesPage() {
           testament="new"
           label="New Testament (27 Books)"
           books={ntBooks}
-          accentColor="text-blue-800"
-          bgGradient="bg-gradient-to-r from-blue-800 to-blue-700"
+          accentColor="text-scripture"
+          bgGradient="bg-gradient-to-r from-scripture to-scripture/80"
         />
 
         {/* Quick Reference Table */}
         <section className="bg-white rounded-xl border border-grace overflow-hidden mb-8">
           <div className="p-6 border-b border-grace">
             <h2 className="text-xl font-bold text-scripture">Quick Reference Table</h2>
-            <p className="text-sm text-primary-dark/70 mt-1">All 66 books at a glance</p>
+            <p className="text-sm text-ink-muted mt-1">All 66 books at a glance</p>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead className="bg-primary-light/30">
                 <tr>
-                  <th className="px-4 py-3 text-left font-semibold text-primary-dark/80">#</th>
-                  <th className="px-4 py-3 text-left font-semibold text-primary-dark/80">Book</th>
-                  <th className="px-4 py-3 text-left font-semibold text-primary-dark/80">Hebrew</th>
-                  <th className="px-4 py-3 text-left font-semibold text-primary-dark/80">Meaning</th>
-                  <th className="px-4 py-3 text-left font-semibold text-primary-dark/80">Greek</th>
-                  <th className="px-4 py-3 text-center font-semibold text-primary-dark/80">Ch</th>
-                  <th className="px-4 py-3 text-center font-semibold text-primary-dark/80">Verses</th>
+                  <th className="px-4 py-3 text-left font-semibold text-scripture">#</th>
+                  <th className="px-4 py-3 text-left font-semibold text-scripture">Book</th>
+                  <th className="px-4 py-3 text-left font-semibold text-scripture">Hebrew</th>
+                  <th className="px-4 py-3 text-left font-semibold text-scripture">Meaning</th>
+                  <th className="px-4 py-3 text-left font-semibold text-scripture">Greek</th>
+                  <th className="px-4 py-3 text-center font-semibold text-scripture">Ch</th>
+                  <th className="px-4 py-3 text-center font-semibold text-scripture">Verses</th>
                 </tr>
               </thead>
               <tbody>
@@ -306,25 +306,25 @@ export default function BibleBookNamesPage() {
                   <tr key={book.slug} className={`border-t border-grace/50 ${
                     book.testament === 'old' ? 'hover:bg-amber-50' : 'hover:bg-primary-light'
                   } transition-colors`}>
-                    <td className="px-4 py-2 text-primary-dark/40 font-mono text-xs">{i + 1}</td>
+                    <td className="px-4 py-2 text-ink-light font-mono text-xs">{i + 1}</td>
                     <td className="px-4 py-2">
-                      <Link href={`/books/${book.slug}`} className="font-medium text-scripture hover:text-blue-600">
+                      <Link href={`/books/${book.slug}`} className="font-medium text-scripture hover:text-gold-dark">
                         {book.name}
                       </Link>
                     </td>
                     <td className="px-4 py-2">
                       {book.hebrewTransliteration ? (
-                        <span className="text-primary-dark/80">{book.hebrewTransliteration}</span>
+                        <span className="text-scripture">{book.hebrewTransliteration}</span>
                       ) : (
-                        <span className="text-primary-dark/40">&mdash;</span>
+                        <span className="text-ink-light">&mdash;</span>
                       )}
                     </td>
-                    <td className="px-4 py-2 text-primary-dark/70">
+                    <td className="px-4 py-2 text-ink-muted">
                       {book.hebrewMeaning || (book.greekMeaning ? book.greekMeaning : '')}
                     </td>
-                    <td className="px-4 py-2 text-primary-dark/80">{book.greekTransliteration}</td>
-                    <td className="px-4 py-2 text-center text-primary-dark/70">{book.chapters}</td>
-                    <td className="px-4 py-2 text-center text-primary-dark/70">{book.verseCount.toLocaleString()}</td>
+                    <td className="px-4 py-2 text-scripture">{book.greekTransliteration}</td>
+                    <td className="px-4 py-2 text-center text-ink-muted">{book.chapters}</td>
+                    <td className="px-4 py-2 text-center text-ink-muted">{book.verseCount.toLocaleString()}</td>
                   </tr>
                 ))}
               </tbody>
@@ -340,9 +340,9 @@ export default function BibleBookNamesPage() {
         </section>
 
         {/* CTA */}
-        <section className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-6 text-white">
+        <section className="bg-gradient-to-r from-scripture to-scripture/80 rounded-xl p-6 text-white">
           <h2 className="text-xl font-bold mb-2">Ready to Test Your Knowledge?</h2>
-          <p className="text-blue-100 mb-4">
+          <p className="text-sacred-light mb-4">
             Now that you know the original names, put your Bible knowledge to the test with our chapter-by-chapter quizzes.
           </p>
           <div className="flex flex-wrap gap-3">
@@ -360,7 +360,7 @@ export default function BibleBookNamesPage() {
             </Link>
             <Link
               href="/bible-quizzes"
-              className="bg-white text-blue-700 hover:bg-primary-light px-5 py-2.5 rounded-lg transition-colors text-sm font-semibold"
+              className="bg-white text-scripture hover:bg-primary-light px-5 py-2.5 rounded-lg transition-colors text-sm font-semibold"
             >
               All Bible Quizzes
             </Link>

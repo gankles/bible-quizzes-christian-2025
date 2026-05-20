@@ -200,19 +200,19 @@ export default function GodPage() {
       <StructuredData data={breadcrumbSchema} />
 
       {/* Hero */}
-      <section className="relative bg-gradient-to-br from-scripture via-blue-900 to-blue-950 text-white overflow-hidden">
+      <section className="relative bg-gradient-to-br from-scripture via-scripture/60 to-scripture/80 text-white overflow-hidden">
         <Image src="/images/rocinanterelampago_central_verse_in_the_Bible_--ar_21_--profile_2a944dbf-6229-46ed-bb1e-0b1ec69c620b.png" alt="God — the one true God of Christianity" fill className="object-cover opacity-15" priority />
         <div className="relative max-w-4xl mx-auto px-4 py-16 md:py-24 text-center">
-          <nav className="text-blue-200/70 text-xs mb-6">
+          <nav className="text-sacred/70 text-xs mb-6">
             <Link href="/" className="hover:text-white">Home</Link> <span className="mx-1">/</span> <span className="text-white">God</span>
           </nav>
           <h1 className="text-3xl md:text-5xl font-bold font-display mb-4 leading-tight">
             Who Is God?
           </h1>
-          <p className="text-lg md:text-xl text-blue-100/90 max-w-3xl mx-auto leading-relaxed mb-3">
+          <p className="text-lg md:text-xl text-sacred-light/90 max-w-3xl mx-auto leading-relaxed mb-3">
             The most important question you will ever ask — and the Bible&apos;s answer.
           </p>
-          <p className="text-blue-200/70 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-sacred/70 max-w-2xl mx-auto leading-relaxed">
             &ldquo;What comes into our minds when we think about God is the most important thing about us.&rdquo; — A.W. Tozer, <em>The Knowledge of the Holy</em>
           </p>
         </div>
@@ -230,8 +230,8 @@ export default function GodPage() {
             { num: '200+', label: 'Scripture Refs' },
           ].map((s) => (
             <div key={s.label} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-4 text-center shadow-sm">
-              <p className="text-2xl font-bold text-scripture dark:text-blue-400">{s.num}</p>
-              <p className="text-xs text-primary-dark/60 dark:text-primary-dark/40 mt-1">{s.label}</p>
+              <p className="text-2xl font-bold text-scripture dark:text-sacred">{s.num}</p>
+              <p className="text-xs text-ink-muted dark:text-ink-light mt-1">{s.label}</p>
             </div>
           ))}
         </div>
@@ -254,7 +254,7 @@ export default function GodPage() {
               { id: 'theologians', label: 'What Theologians Say' },
               { id: 'faq', label: 'FAQ (15 Questions)' },
             ].map((item) => (
-              <Link key={item.id} href={`#${item.id}`} className="text-blue-600 hover:underline text-sm py-1">
+              <Link key={item.id} href={`#${item.id}`} className="text-sacred hover:underline text-sm py-1">
                 {item.label}
               </Link>
             ))}
@@ -264,16 +264,16 @@ export default function GodPage() {
         {/* Who Is God? */}
         <section id="who-is-god" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">Who Is God?</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
-            The Bible doesn&apos;t argue for God&apos;s existence. It assumes it. The very first verse — &ldquo;In the beginning God created the heaven and the earth&rdquo; (<Link href="/cross-references/genesis/1/1" className="text-blue-600 hover:underline">Genesis 1:1</Link>) — doesn&apos;t offer proof. It offers a Person. And everything that follows is His self-revelation.
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
+            The Bible doesn&apos;t argue for God&apos;s existence. It assumes it. The very first verse — &ldquo;In the beginning God created the heaven and the earth&rdquo; (<Link href="/cross-references/genesis/1/1" className="text-sacred hover:underline">Genesis 1:1</Link>) — doesn&apos;t offer proof. It offers a Person. And everything that follows is His self-revelation.
           </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
-            When Moses asked God for His name, God answered: <strong>&ldquo;I AM WHO I AM&rdquo;</strong> (<Link href="/cross-references/exodus/3/14" className="text-blue-600 hover:underline">Exodus 3:14</Link>). In Hebrew: <em>Ehyeh Asher Ehyeh</em>. God doesn&apos;t derive His existence from anything. He doesn&apos;t depend on anything. He simply <em>is</em>. Every other being in the universe exists because God made it. God exists because God is God.
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
+            When Moses asked God for His name, God answered: <strong>&ldquo;I AM WHO I AM&rdquo;</strong> (<Link href="/cross-references/exodus/3/14" className="text-sacred hover:underline">Exodus 3:14</Link>). In Hebrew: <em>Ehyeh Asher Ehyeh</em>. God doesn&apos;t derive His existence from anything. He doesn&apos;t depend on anything. He simply <em>is</em>. Every other being in the universe exists because God made it. God exists because God is God.
           </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             The Christian understanding of God can be stated in one sentence: <strong>God is the eternal, self-existent, all-powerful, all-knowing, perfectly holy, perfectly loving Creator and Sustainer of all things.</strong>
           </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
+          <p className="text-scripture dark:text-ink-light leading-relaxed">
             That sentence takes about 10 seconds to read. The Bible takes 66 books to unpack it. This page is an attempt to cover the essentials — who God is, what He&apos;s like, why the God of Christianity is the one true God, and how you can know Him personally. We&apos;ll draw from Scripture, church history, and the best theological and philosophical scholarship available.
           </p>
         </section>
@@ -281,26 +281,26 @@ export default function GodPage() {
         {/* Attributes of God */}
         <section id="attributes" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">The 12 Attributes of God</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             Theologians traditionally divide God&apos;s attributes into two categories: <strong>attributes of greatness</strong> (what makes God God — His power, knowledge, presence, eternality) and <strong>moral attributes</strong> (His character — holiness, justice, love, mercy). Both are equally essential. A God who is all-powerful but not good would be a tyrant. A God who is all-loving but not just would be a pushover. The God of the Bible is both — perfectly.
           </p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Attribute</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Meaning</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">Category</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden md:table-cell">Key Scripture</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Attribute</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Meaning</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden sm:table-cell">Category</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden md:table-cell">Key Scripture</th>
                 </tr>
               </thead>
               <tbody>
                 {ATTRIBUTES.map((a, idx) => (
                   <tr key={idx} className="border-t border-grace dark:border-dark-border">
                     <td className="px-4 py-3 font-medium text-scripture dark:text-white">{a.attribute}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 text-xs">{a.meaning}</td>
-                    <td className="px-4 py-3 hidden sm:table-cell"><span className={`text-xs px-2 py-0.5 rounded-full ${a.category === 'Greatness' ? 'bg-blue-100 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300' : 'bg-amber-100 dark:bg-amber-950/30 text-amber-700 dark:text-amber-300'}`}>{a.category}</span></td>
-                    <td className="px-4 py-3 text-xs hidden md:table-cell"><Link href={`/cross-references/${a.ref.toLowerCase().replace(/\s+/g, '/').replace(/:/g, '/').replace(/-/g, '/')}`} className="text-blue-600 hover:underline">{a.ref}</Link></td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light text-xs">{a.meaning}</td>
+                    <td className="px-4 py-3 hidden sm:table-cell"><span className={`text-xs px-2 py-0.5 rounded-full ${a.category === 'Greatness' ? 'bg-sacred/10 dark:bg-sacred-light0/30 text-scripture dark:text-sacred' : 'bg-amber-100 dark:bg-amber-950/30 text-amber-700 dark:text-amber-300'}`}>{a.category}</span></td>
+                    <td className="px-4 py-3 text-xs hidden md:table-cell"><Link href={`/cross-references/${a.ref.toLowerCase().replace(/\s+/g, '/').replace(/:/g, '/').replace(/-/g, '/')}`} className="text-sacred hover:underline">{a.ref}</Link></td>
                   </tr>
                 ))}
               </tbody>
@@ -311,9 +311,9 @@ export default function GodPage() {
               <div key={a.attribute} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
                 <div className="flex items-center gap-2 mb-2">
                   <h3 className="font-bold text-scripture dark:text-white">{a.attribute}</h3>
-                  <span className={`text-xs px-2 py-0.5 rounded-full ${a.category === 'Greatness' ? 'bg-blue-100 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300' : 'bg-amber-100 dark:bg-amber-950/30 text-amber-700 dark:text-amber-300'}`}>{a.category}</span>
+                  <span className={`text-xs px-2 py-0.5 rounded-full ${a.category === 'Greatness' ? 'bg-sacred/10 dark:bg-sacred-light0/30 text-scripture dark:text-sacred' : 'bg-amber-100 dark:bg-amber-950/30 text-amber-700 dark:text-amber-300'}`}>{a.category}</span>
                 </div>
-                <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">{a.detail}</p>
+                <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">{a.detail}</p>
               </div>
             ))}
           </div>
@@ -322,81 +322,81 @@ export default function GodPage() {
         {/* God as Creator */}
         <section id="creator" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">God as Creator</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
-            &ldquo;In the beginning God created the heaven and the earth&rdquo; (<Link href="/cross-references/genesis/1/1" className="text-blue-600 hover:underline">Genesis 1:1</Link>). That sentence changes everything. If God made you, then you belong to Him. You&apos;re not an accident of chemistry. You&apos;re not a random mutation that happened to survive. You were designed, on purpose, by a Person.
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
+            &ldquo;In the beginning God created the heaven and the earth&rdquo; (<Link href="/cross-references/genesis/1/1" className="text-sacred hover:underline">Genesis 1:1</Link>). That sentence changes everything. If God made you, then you belong to Him. You&apos;re not an accident of chemistry. You&apos;re not a random mutation that happened to survive. You were designed, on purpose, by a Person.
           </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
-            God spoke the universe into existence out of nothing — <em>ex nihilo</em> (<Link href="/cross-references/hebrews/11/3" className="text-blue-600 hover:underline">Hebrews 11:3</Link>). He didn&apos;t reshape existing material. He created matter, energy, space, and time by the power of His word. &ldquo;By the word of the Lord were the heavens made; and all the host of them by the breath of his mouth&rdquo; (<Link href="/cross-references/psalm/33/6" className="text-blue-600 hover:underline">Psalm 33:6</Link>).
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
+            God spoke the universe into existence out of nothing — <em>ex nihilo</em> (<Link href="/cross-references/hebrews/11/3" className="text-sacred hover:underline">Hebrews 11:3</Link>). He didn&apos;t reshape existing material. He created matter, energy, space, and time by the power of His word. &ldquo;By the word of the Lord were the heavens made; and all the host of them by the breath of his mouth&rdquo; (<Link href="/cross-references/psalm/33/6" className="text-sacred hover:underline">Psalm 33:6</Link>).
           </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
-            And He didn&apos;t just create and leave. He sustains every atom in existence every second: &ldquo;upholding all things by the word of his power&rdquo; (<Link href="/cross-references/hebrews/1/3" className="text-blue-600 hover:underline">Hebrews 1:3</Link>). If God withdrew His sustaining power for one moment, the entire universe would cease to exist. You are alive right now because God is actively holding you in existence.
+          <p className="text-scripture dark:text-ink-light leading-relaxed">
+            And He didn&apos;t just create and leave. He sustains every atom in existence every second: &ldquo;upholding all things by the word of his power&rdquo; (<Link href="/cross-references/hebrews/1/3" className="text-sacred hover:underline">Hebrews 1:3</Link>). If God withdrew His sustaining power for one moment, the entire universe would cease to exist. You are alive right now because God is actively holding you in existence.
           </p>
         </section>
 
         {/* God as Redeemer — The Gospel */}
         <section id="redeemer" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">God as Redeemer — The Gospel</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             Here is the heart of the Bible. Here is the reason God revealed Himself at all. Everything you&apos;ve read on this page leads to this:
           </p>
 
           <div className="space-y-6 mb-6">
             <div className="bg-red-50 dark:bg-red-950/20 rounded-xl border border-red-200 dark:border-red-900/40 p-5">
               <h3 className="font-bold text-red-800 dark:text-red-300 mb-2">The Problem: Sin</h3>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed mb-2">
-                God created humanity in His image — perfect, sinless, in unbroken fellowship with Him (<Link href="/cross-references/genesis/1/27" className="text-blue-600 hover:underline">Genesis 1:27</Link>). But Adam and Eve chose rebellion. Sin entered the world. And every human being born since has inherited that rebellion: &ldquo;For all have sinned, and come short of the glory of God&rdquo; (<Link href="/cross-references/romans/3/23" className="text-blue-600 hover:underline">Romans 3:23</Link>).
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed mb-2">
+                God created humanity in His image — perfect, sinless, in unbroken fellowship with Him (<Link href="/cross-references/genesis/1/27" className="text-sacred hover:underline">Genesis 1:27</Link>). But Adam and Eve chose rebellion. Sin entered the world. And every human being born since has inherited that rebellion: &ldquo;For all have sinned, and come short of the glory of God&rdquo; (<Link href="/cross-references/romans/3/23" className="text-sacred hover:underline">Romans 3:23</Link>).
               </p>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">
-                Sin isn&apos;t just &ldquo;making mistakes.&rdquo; It&apos;s cosmic treason — setting yourself up as god of your own life instead of bowing to the God who made you. And it carries a death sentence: &ldquo;The wages of sin is death&rdquo; (<Link href="/cross-references/romans/6/23" className="text-blue-600 hover:underline">Romans 6:23</Link>). Not just physical death, but eternal separation from God — what the Bible calls hell.
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">
+                Sin isn&apos;t just &ldquo;making mistakes.&rdquo; It&apos;s cosmic treason — setting yourself up as god of your own life instead of bowing to the God who made you. And it carries a death sentence: &ldquo;The wages of sin is death&rdquo; (<Link href="/cross-references/romans/6/23" className="text-sacred hover:underline">Romans 6:23</Link>). Not just physical death, but eternal separation from God — what the Bible calls hell.
               </p>
             </div>
 
-            <div className="bg-scripture/5 dark:bg-blue-950/20 rounded-xl border border-scripture/20 dark:border-blue-900/40 p-5">
-              <h3 className="font-bold text-scripture dark:text-blue-300 mb-2">God&apos;s Love: He Didn&apos;t Leave Us There</h3>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed mb-2">
+            <div className="bg-scripture/5 dark:bg-sacred-light0/20 rounded-xl border border-scripture/20 dark:border-sacred/20/40 p-5">
+              <h3 className="font-bold text-scripture dark:text-sacred mb-2">God&apos;s Love: He Didn&apos;t Leave Us There</h3>
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed mb-2">
                 Here is the staggering part. God could have justly condemned every sinner — and He would have been perfectly righteous to do so. Instead, He chose to rescue us. Not because we deserved it. Not because we asked for it. Because <strong>He is love</strong>.
               </p>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">
-                &ldquo;But God commendeth his love toward us, in that, while we were yet sinners, Christ died for us&rdquo; (<Link href="/cross-references/romans/5/8" className="text-blue-600 hover:underline">Romans 5:8</Link>). God didn&apos;t wait for us to clean up. He didn&apos;t wait for us to earn it. He loved us at our worst.
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">
+                &ldquo;But God commendeth his love toward us, in that, while we were yet sinners, Christ died for us&rdquo; (<Link href="/cross-references/romans/5/8" className="text-sacred hover:underline">Romans 5:8</Link>). God didn&apos;t wait for us to clean up. He didn&apos;t wait for us to earn it. He loved us at our worst.
               </p>
             </div>
 
             <div className="bg-amber-50 dark:bg-amber-950/20 rounded-xl border border-amber-200 dark:border-amber-900/40 p-5">
               <h3 className="font-bold text-amber-800 dark:text-amber-300 mb-2">The Solution: Jesus Christ</h3>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed mb-2">
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed mb-2">
                 God the Son — Jesus Christ — left heaven, took on human flesh, was born of a virgin, lived a sinless life for 33 years, and then <strong>voluntarily</strong> went to the cross to pay the penalty for our sin. He died in our place. The righteous for the unrighteous. The innocent for the guilty.
               </p>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed mb-2">
-                &ldquo;For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life&rdquo; (<Link href="/john-3-16" className="text-blue-600 hover:underline">John 3:16</Link>). This is the most famous verse in the Bible because it is the most important truth in the Bible.
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed mb-2">
+                &ldquo;For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life&rdquo; (<Link href="/john-3-16" className="text-sacred hover:underline">John 3:16</Link>). This is the most famous verse in the Bible because it is the most important truth in the Bible.
               </p>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">
-                Three days later, He rose from the dead — proving He was who He claimed to be, proving His sacrifice was accepted, and proving that death itself had been defeated (<Link href="/cross-references/1-corinthians/15/3" className="text-blue-600 hover:underline">1 Corinthians 15:3-4</Link>).
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">
+                Three days later, He rose from the dead — proving He was who He claimed to be, proving His sacrifice was accepted, and proving that death itself had been defeated (<Link href="/cross-references/1-corinthians/15/3" className="text-sacred hover:underline">1 Corinthians 15:3-4</Link>).
               </p>
             </div>
 
             <div className="bg-green-50 dark:bg-green-950/20 rounded-xl border border-green-200 dark:border-green-900/40 p-5">
               <h3 className="font-bold text-green-800 dark:text-green-300 mb-2">The Response: Repentance and Faith</h3>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed mb-2">
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed mb-2">
                 God offers this salvation as a free gift — but a gift must be received. The Bible calls for two responses: <strong>repentance</strong> and <strong>faith</strong>.
               </p>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed mb-2">
-                <strong>Repentance</strong> means turning around. It&apos;s agreeing with God that you are a sinner, that your sin is serious, and that you want to go a different direction. Jesus began His ministry with these words: &ldquo;Repent: for the kingdom of heaven is at hand&rdquo; (<Link href="/cross-references/matthew/4/17" className="text-blue-600 hover:underline">Matthew 4:17</Link>). Peter echoed it at Pentecost: &ldquo;Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins&rdquo; (<Link href="/cross-references/acts/2/38" className="text-blue-600 hover:underline">Acts 2:38</Link>).
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed mb-2">
+                <strong>Repentance</strong> means turning around. It&apos;s agreeing with God that you are a sinner, that your sin is serious, and that you want to go a different direction. Jesus began His ministry with these words: &ldquo;Repent: for the kingdom of heaven is at hand&rdquo; (<Link href="/cross-references/matthew/4/17" className="text-sacred hover:underline">Matthew 4:17</Link>). Peter echoed it at Pentecost: &ldquo;Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins&rdquo; (<Link href="/cross-references/acts/2/38" className="text-sacred hover:underline">Acts 2:38</Link>).
               </p>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">
-                <strong>Faith</strong> means trusting Jesus — not just believing He existed, but putting your entire weight on Him for your salvation. &ldquo;For by grace are ye saved through faith; and that not of yourselves: it is the gift of God: Not of works, lest any man should boast&rdquo; (<Link href="/cross-references/ephesians/2/8" className="text-blue-600 hover:underline">Ephesians 2:8-9</Link>). You cannot earn this. You can only receive it.
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">
+                <strong>Faith</strong> means trusting Jesus — not just believing He existed, but putting your entire weight on Him for your salvation. &ldquo;For by grace are ye saved through faith; and that not of yourselves: it is the gift of God: Not of works, lest any man should boast&rdquo; (<Link href="/cross-references/ephesians/2/8" className="text-sacred hover:underline">Ephesians 2:8-9</Link>). You cannot earn this. You can only receive it.
               </p>
             </div>
 
-            <div className="bg-purple-50 dark:bg-purple-950/20 rounded-xl border border-purple-200 dark:border-purple-900/40 p-5">
-              <h3 className="font-bold text-purple-800 dark:text-purple-300 mb-2">The Result: Forgiveness and Eternal Life</h3>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed mb-2">
-                When you trust Christ, everything changes in an instant. Your sins — past, present, and future — are forgiven completely: &ldquo;As far as the east is from the west, so far hath he removed our transgressions from us&rdquo; (<Link href="/cross-references/psalm/103/12" className="text-blue-600 hover:underline">Psalm 103:12</Link>). &ldquo;If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness&rdquo; (<Link href="/cross-references/1-john/1/9" className="text-blue-600 hover:underline">1 John 1:9</Link>).
+            <div className="bg-scripture/5 dark:bg-scripture/10/20 rounded-xl border border-sacred/20 dark:border-sacred/20/40 p-5">
+              <h3 className="font-bold text-scripture dark:text-scripture mb-2">The Result: Forgiveness and Eternal Life</h3>
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed mb-2">
+                When you trust Christ, everything changes in an instant. Your sins — past, present, and future — are forgiven completely: &ldquo;As far as the east is from the west, so far hath he removed our transgressions from us&rdquo; (<Link href="/cross-references/psalm/103/12" className="text-sacred hover:underline">Psalm 103:12</Link>). &ldquo;If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness&rdquo; (<Link href="/cross-references/1-john/1/9" className="text-sacred hover:underline">1 John 1:9</Link>).
               </p>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed mb-2">
-                You receive <strong>eternal life</strong> — not just an extension of this life, but a new quality of life that begins now and continues forever in the presence of God: &ldquo;And this is life eternal, that they might know thee the only true God, and Jesus Christ, whom thou hast sent&rdquo; (<Link href="/cross-references/john/17/3" className="text-blue-600 hover:underline">John 17:3</Link>).
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed mb-2">
+                You receive <strong>eternal life</strong> — not just an extension of this life, but a new quality of life that begins now and continues forever in the presence of God: &ldquo;And this is life eternal, that they might know thee the only true God, and Jesus Christ, whom thou hast sent&rdquo; (<Link href="/cross-references/john/17/3" className="text-sacred hover:underline">John 17:3</Link>).
               </p>
-              <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">
-                You are adopted into God&apos;s family as His child (<Link href="/cross-references/john/1/12" className="text-blue-600 hover:underline">John 1:12</Link>), sealed by the Holy Spirit (<Link href="/cross-references/ephesians/1/13" className="text-blue-600 hover:underline">Ephesians 1:13</Link>), and nothing — absolutely nothing — can separate you from God&apos;s love (<Link href="/cross-references/romans/8/38" className="text-blue-600 hover:underline">Romans 8:38-39</Link>).
+              <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed">
+                You are adopted into God&apos;s family as His child (<Link href="/cross-references/john/1/12" className="text-sacred hover:underline">John 1:12</Link>), sealed by the Holy Spirit (<Link href="/cross-references/ephesians/1/13" className="text-sacred hover:underline">Ephesians 1:13</Link>), and nothing — absolutely nothing — can separate you from God&apos;s love (<Link href="/cross-references/romans/8/38" className="text-sacred hover:underline">Romans 8:38-39</Link>).
               </p>
             </div>
           </div>
@@ -405,16 +405,16 @@ export default function GodPage() {
         {/* God's Love for You — Personal Section */}
         <section className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">God&apos;s Love for You — Personally</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             Everything on this page — the names, the attributes, the arguments, the scholarship — points to one reality: <strong>God wants to be known by you</strong>. Not just known about. Known personally.
           </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
-            Jesus told a parable about a shepherd who had 100 sheep. When one wandered off, he left the 99 to search for the one (<Link href="/cross-references/luke/15/4" className="text-blue-600 hover:underline">Luke 15:4-7</Link>). That&apos;s not a God who is distant or uninterested. That&apos;s a God who pursues.
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
+            Jesus told a parable about a shepherd who had 100 sheep. When one wandered off, he left the 99 to search for the one (<Link href="/cross-references/luke/15/4" className="text-sacred hover:underline">Luke 15:4-7</Link>). That&apos;s not a God who is distant or uninterested. That&apos;s a God who pursues.
           </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
-            He knows the number of hairs on your head (<Link href="/cross-references/matthew/10/30" className="text-blue-600 hover:underline">Matthew 10:30</Link>). He collects your tears in a bottle (<Link href="/cross-references/psalm/56/8" className="text-blue-600 hover:underline">Psalm 56:8</Link>). He knew you before you were born (<Link href="/cross-references/jeremiah/1/5" className="text-blue-600 hover:underline">Jeremiah 1:5</Link>). And He loved you enough to die for you while you were still running from Him (<Link href="/cross-references/romans/5/8" className="text-blue-600 hover:underline">Romans 5:8</Link>).
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
+            He knows the number of hairs on your head (<Link href="/cross-references/matthew/10/30" className="text-sacred hover:underline">Matthew 10:30</Link>). He collects your tears in a bottle (<Link href="/cross-references/psalm/56/8" className="text-sacred hover:underline">Psalm 56:8</Link>). He knew you before you were born (<Link href="/cross-references/jeremiah/1/5" className="text-sacred hover:underline">Jeremiah 1:5</Link>). And He loved you enough to die for you while you were still running from Him (<Link href="/cross-references/romans/5/8" className="text-sacred hover:underline">Romans 5:8</Link>).
           </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
+          <p className="text-scripture dark:text-ink-light leading-relaxed">
             If you&apos;ve read this far, that&apos;s not an accident. God is drawing you. The fact that you&apos;re asking &ldquo;Who is God?&rdquo; may be the beginning of the most important relationship of your life.
           </p>
         </section>
@@ -422,52 +422,52 @@ export default function GodPage() {
         {/* Names of God */}
         <section id="names" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">The Names of God</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             In the ancient world, a name wasn&apos;t just a label — it revealed character. God has many names in the Bible, and each one discloses something about who He is. Here are the major names in the original Hebrew and Greek:
           </p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden overflow-x-auto">
             <table className="w-full text-sm min-w-[600px]">
               <thead>
                 <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Name</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Original</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Meaning</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden md:table-cell">Key Verse</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Name</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Original</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Meaning</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden md:table-cell">Key Verse</th>
                 </tr>
               </thead>
               <tbody>
                 {NAMES_OF_GOD.map((n, idx) => (
-                  <tr key={idx} className="border-t border-grace dark:border-dark-border hover:bg-blue-50/50 dark:hover:bg-dark-border/20">
+                  <tr key={idx} className="border-t border-grace dark:border-dark-border hover:bg-sacred-light/50 dark:hover:bg-dark-border/20">
                     <td className="px-4 py-2 font-medium text-scripture dark:text-white whitespace-nowrap">{n.name}</td>
-                    <td className="px-4 py-2 text-primary-dark/70 dark:text-primary-dark/40 font-serif">{n.transliteration} <span className="text-xs text-primary-dark/40">({n.language})</span></td>
-                    <td className="px-4 py-2 text-primary-dark/70 dark:text-primary-dark/40 text-xs">{n.meaning}</td>
-                    <td className="px-4 py-2 text-xs hidden md:table-cell"><Link href={`/cross-references/${n.ref.toLowerCase().replace(/\s+/g, '/').replace(/:/g, '/')}`} className="text-blue-600 hover:underline">{n.ref}</Link></td>
+                    <td className="px-4 py-2 text-ink-muted dark:text-ink-light font-serif">{n.transliteration} <span className="text-xs text-ink-light">({n.language})</span></td>
+                    <td className="px-4 py-2 text-ink-muted dark:text-ink-light text-xs">{n.meaning}</td>
+                    <td className="px-4 py-2 text-xs hidden md:table-cell"><Link href={`/cross-references/${n.ref.toLowerCase().replace(/\s+/g, '/').replace(/:/g, '/')}`} className="text-sacred hover:underline">{n.ref}</Link></td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 text-sm mt-3">
-            For deeper study of each name, explore our <Link href="/hebrew-words" className="text-blue-600 hover:underline">Hebrew Word Studies</Link> and <Link href="/greek-words" className="text-blue-600 hover:underline">Greek Word Studies</Link>.
+          <p className="text-ink-muted dark:text-ink-light text-sm mt-3">
+            For deeper study of each name, explore our <Link href="/hebrew-words" className="text-sacred hover:underline">Hebrew Word Studies</Link> and <Link href="/greek-words" className="text-sacred hover:underline">Greek Word Studies</Link>.
           </p>
         </section>
 
         {/* Arguments for God's Existence */}
         <section id="arguments" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">6 Arguments for God&apos;s Existence</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
-            The Bible says the evidence for God is obvious: &ldquo;The heavens declare the glory of God&rdquo; (<Link href="/cross-references/psalm/19/1" className="text-blue-600 hover:underline">Psalm 19:1</Link>) and &ldquo;the invisible things of him from the creation of the world are clearly seen&rdquo; (<Link href="/cross-references/romans/1/20" className="text-blue-600 hover:underline">Romans 1:20</Link>). Philosophers and scholars have formalized these intuitions into rigorous arguments:
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
+            The Bible says the evidence for God is obvious: &ldquo;The heavens declare the glory of God&rdquo; (<Link href="/cross-references/psalm/19/1" className="text-sacred hover:underline">Psalm 19:1</Link>) and &ldquo;the invisible things of him from the creation of the world are clearly seen&rdquo; (<Link href="/cross-references/romans/1/20" className="text-sacred hover:underline">Romans 1:20</Link>). Philosophers and scholars have formalized these intuitions into rigorous arguments:
           </p>
           <div className="space-y-4">
             {ARGUMENTS.map((arg, idx) => (
               <div key={idx} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
                 <h3 className="font-bold text-scripture dark:text-white mb-1">{arg.name}</h3>
-                <p className="text-xs text-primary-dark/40 mb-3"><strong>Key scholars:</strong> {arg.scholars}</p>
-                <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed mb-2">{arg.summary}</p>
-                <div className="bg-blue-50 dark:bg-blue-950/20 rounded-lg p-3">
-                  <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed"><strong>The key point:</strong> {arg.keyPoint}</p>
+                <p className="text-xs text-ink-light mb-3"><strong>Key scholars:</strong> {arg.scholars}</p>
+                <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed mb-2">{arg.summary}</p>
+                <div className="bg-sacred-light dark:bg-sacred-light0/20 rounded-lg p-3">
+                  <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed"><strong>The key point:</strong> {arg.keyPoint}</p>
                 </div>
-                <p className="text-xs text-blue-600 mt-2">{arg.ref}</p>
+                <p className="text-xs text-sacred mt-2">{arg.ref}</p>
               </div>
             ))}
           </div>
@@ -476,8 +476,8 @@ export default function GodPage() {
         {/* Why the Christian God? */}
         <section id="why-christianity" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">Why the God of Christianity Is the One True God</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
-            This is a bold claim. It&apos;s also the claim Christianity makes — not arrogantly, but because Jesus Himself made it: &ldquo;I am the way, the truth, and the life: no man cometh unto the Father, but by me&rdquo; (<Link href="/cross-references/john/14/6" className="text-blue-600 hover:underline">John 14:6</Link>). Here are the reasons, both theological and scholarly:
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
+            This is a bold claim. It&apos;s also the claim Christianity makes — not arrogantly, but because Jesus Himself made it: &ldquo;I am the way, the truth, and the life: no man cometh unto the Father, but by me&rdquo; (<Link href="/cross-references/john/14/6" className="text-sacred hover:underline">John 14:6</Link>). Here are the reasons, both theological and scholarly:
           </p>
           <div className="space-y-4">
             {[
@@ -490,8 +490,8 @@ export default function GodPage() {
             ].map((item) => (
               <div key={item.title} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
                 <h3 className="font-bold text-scripture dark:text-white mb-2">{item.title}</h3>
-                <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed mb-2">{item.detail}</p>
-                <p className="text-xs text-primary-dark/40 italic">Sources: {item.sources}</p>
+                <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed mb-2">{item.detail}</p>
+                <p className="text-xs text-ink-light italic">Sources: {item.sources}</p>
               </div>
             ))}
           </div>
@@ -500,24 +500,24 @@ export default function GodPage() {
         {/* What God Is NOT */}
         <section id="what-god-is-not" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">What God Is NOT — 8 Misconceptions Corrected</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             People carry assumptions about God that don&apos;t come from the Bible. Some come from movies, some from other religions, some from bad experiences with churches. Here&apos;s what the evidence actually says:
           </p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">What People Say</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">What the Bible Says</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden md:table-cell">Source</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">What People Say</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">What the Bible Says</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden md:table-cell">Source</th>
                 </tr>
               </thead>
               <tbody>
                 {MISCONCEPTIONS.map((m, idx) => (
                   <tr key={idx} className="border-t border-grace dark:border-dark-border">
                     <td className="px-4 py-3 font-medium text-red-700 dark:text-red-400 text-xs">{m.myth}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 text-xs">{m.reality}</td>
-                    <td className="px-4 py-3 text-primary-dark/60 dark:text-primary-dark/40 text-xs hidden md:table-cell">{m.source}</td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light text-xs">{m.reality}</td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light text-xs hidden md:table-cell">{m.source}</td>
                   </tr>
                 ))}
               </tbody>
@@ -528,16 +528,16 @@ export default function GodPage() {
         {/* OT vs NT God */}
         <section id="ot-nt" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">Is God Different in the Old and New Testaments?</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             One of the most common objections: &ldquo;The OT God is angry and the NT God is loving.&rdquo; But is that true? Let&apos;s compare:
           </p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden mb-4">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Quality</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Old Testament</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">New Testament</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Quality</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Old Testament</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">New Testament</th>
                 </tr>
               </thead>
               <tbody>
@@ -551,14 +551,14 @@ export default function GodPage() {
                 ].map((r, idx) => (
                   <tr key={idx} className="border-t border-grace dark:border-dark-border">
                     <td className="px-4 py-3 font-medium text-scripture dark:text-white">{r.quality}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 text-xs">{r.ot}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 text-xs">{r.nt}</td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light text-xs">{r.ot}</td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light text-xs">{r.nt}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
+          <p className="text-scripture dark:text-ink-light leading-relaxed">
             The verdict: <strong>same God, same character, both testaments</strong>. The difference isn&apos;t God&apos;s nature — it&apos;s the stage of His plan. The OT shows God preparing the world for the Messiah. The NT shows God sending Him. As Augustine wrote: &ldquo;The New Testament is in the Old Testament concealed; the Old Testament is in the New Testament revealed.&rdquo;
           </p>
         </section>
@@ -566,20 +566,20 @@ export default function GodPage() {
         {/* What Theologians Say */}
         <section id="theologians" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">What 12 Theologians and Scholars Say About God</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-4 text-sm">From the early Church fathers to modern philosophers — 2,000 years of the best minds reflecting on God.</p>
+          <p className="text-ink-muted dark:text-ink-light mb-4 text-sm">From the early Church fathers to modern philosophers — 2,000 years of the best minds reflecting on God.</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {THEOLOGIAN_QUOTES.map((t, idx) => (
               <div key={idx} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm">
-                <blockquote className="text-primary-dark/80 dark:text-primary-dark/30 italic text-sm leading-relaxed mb-3 border-l-3 border-scripture/30 pl-4">
+                <blockquote className="text-scripture dark:text-ink-light italic text-sm leading-relaxed mb-3 border-l-3 border-scripture/30 pl-4">
                   &ldquo;{t.quote}&rdquo;
                 </blockquote>
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="font-bold text-scripture dark:text-white text-sm">{t.name}</p>
-                    <p className="text-primary-dark/40 text-xs">{t.era} · <em>{t.work}</em></p>
+                    <p className="text-ink-light text-xs">{t.era} · <em>{t.work}</em></p>
                   </div>
                 </div>
-                <p className="text-primary-dark/60 dark:text-primary-dark/40 text-xs mt-2 leading-relaxed">{t.significance}</p>
+                <p className="text-ink-muted dark:text-ink-light text-xs mt-2 leading-relaxed">{t.significance}</p>
               </div>
             ))}
           </div>
@@ -587,9 +587,9 @@ export default function GodPage() {
 
         {/* Gospel CTA */}
         <section className="mb-12">
-          <div className="bg-gradient-to-br from-scripture via-scripture/95 to-blue-950 rounded-xl p-8 md:p-10 text-center text-white">
+          <div className="bg-gradient-to-br from-scripture via-scripture/95 to-scripture/80 rounded-xl p-8 md:p-10 text-center text-white">
             <h2 className="text-2xl md:text-3xl font-bold font-display mb-4">How to Know God Personally</h2>
-            <p className="text-blue-100/90 max-w-2xl mx-auto leading-relaxed mb-4">
+            <p className="text-sacred-light/90 max-w-2xl mx-auto leading-relaxed mb-4">
               Knowing God starts with one step: trusting Jesus Christ. Here is the gospel in four truths:
             </p>
             <div className="max-w-xl mx-auto text-left mb-6 space-y-3">
@@ -601,15 +601,15 @@ export default function GodPage() {
               ].map((s) => (
                 <div key={s.num} className="flex items-start gap-3">
                   <span className="w-7 h-7 rounded-full bg-white/20 text-white flex items-center justify-center text-sm font-bold shrink-0">{s.num}</span>
-                  <p className="text-blue-100/90 text-sm leading-relaxed">{s.text}</p>
+                  <p className="text-sacred-light/90 text-sm leading-relaxed">{s.text}</p>
                 </div>
               ))}
             </div>
-            <p className="text-blue-100/80 text-sm mb-6 italic max-w-xl mx-auto">
+            <p className="text-sacred-light/80 text-sm mb-6 italic max-w-xl mx-auto">
               &ldquo;Father, I know I am a sinner. I believe Jesus died for me and rose again. I repent of my sin and trust Jesus Christ as my Lord and Savior. Forgive me and give me eternal life. In Jesus&apos; name, amen.&rdquo;
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <Link href="/john-3-16" className="inline-block bg-white text-scripture font-bold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors">
+              <Link href="/john-3-16" className="inline-block bg-white text-scripture font-bold px-6 py-3 rounded-lg hover:bg-sacred-light transition-colors">
                 Read John 3:16 Explained
               </Link>
               <Link href="/bible-verses#salvation" className="inline-block border-2 border-white/40 text-white font-bold px-6 py-3 rounded-lg hover:bg-white/10 transition-colors">
@@ -627,9 +627,9 @@ export default function GodPage() {
               <details key={idx} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm group">
                 <summary className="px-5 py-4 cursor-pointer font-bold text-scripture dark:text-white text-sm flex items-center justify-between list-none">
                   {item.question}
-                  <span className="text-primary-dark/30 group-open:rotate-45 transition-transform text-lg">+</span>
+                  <span className="text-ink-light group-open:rotate-45 transition-transform text-lg">+</span>
                 </summary>
-                <div className="px-5 pb-5 text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">
+                <div className="px-5 pb-5 text-ink-muted dark:text-ink-light text-sm leading-relaxed">
                   {item.answer}
                 </div>
               </details>
@@ -651,9 +651,9 @@ export default function GodPage() {
               { label: 'Hebrew Word Studies', href: '/hebrew-words', desc: '8,600+ Hebrew words with original meanings' },
               { label: 'Greek Word Studies', href: '/greek-words', desc: '5,500+ Greek words with original meanings' },
             ].map((item) => (
-              <Link key={item.href} href={item.href} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-4 shadow-sm hover:border-scripture dark:hover:border-blue-500 transition-colors group">
+              <Link key={item.href} href={item.href} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-4 shadow-sm hover:border-scripture dark:hover:border-sacred/50 transition-colors group">
                 <p className="font-bold text-scripture dark:text-white text-sm group-hover:underline">{item.label}</p>
-                <p className="text-primary-dark/60 dark:text-primary-dark/40 text-xs mt-1">{item.desc}</p>
+                <p className="text-ink-muted dark:text-ink-light text-xs mt-1">{item.desc}</p>
               </Link>
             ))}
           </div>
@@ -681,7 +681,7 @@ export default function GodPage() {
               { label: 'Books of the Bible', href: '/books-of-the-bible' },
               { label: 'Bible Study for Beginners', href: '/bible-study-for-beginners' },
             ].map((link) => (
-              <Link key={link.href} href={link.href} className="text-xs bg-blue-50 dark:bg-blue-950/20 text-blue-700 dark:text-blue-300 px-3 py-1.5 rounded-full hover:bg-blue-100 dark:hover:bg-blue-950/40 transition-colors">
+              <Link key={link.href} href={link.href} className="text-xs bg-sacred-light dark:bg-sacred-light0/20 text-scripture dark:text-sacred px-3 py-1.5 rounded-full hover:bg-sacred-light dark:hover:bg-sacred-light/40 transition-colors">
                 {link.label}
               </Link>
             ))}

@@ -93,7 +93,7 @@ export default async function HebrewWordPage({ params }: PageProps) {
       <StructuredData data={breadcrumbSchema} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
+      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-ink-muted">
         <Link href="/" className="hover:text-amber-700">Home</Link>
         <span className="mx-1.5">/</span>
         <Link href="/hebrew-word" className="hover:text-amber-700">Hebrew Word Studies</Link>
@@ -133,11 +133,11 @@ export default async function HebrewWordPage({ params }: PageProps) {
                   {entry.transliteration}
                 </h1>
                 {entry.pronunciation && (
-                  <p className="text-lg text-primary-dark/60 mb-3">
+                  <p className="text-lg text-ink-muted mb-3">
                     /{entry.pronunciation}/
                   </p>
                 )}
-                <p className="text-primary-dark/80 leading-relaxed max-w-xl">
+                <p className="text-scripture leading-relaxed max-w-xl">
                   {entry.definition}
                 </p>
               </div>
@@ -150,39 +150,39 @@ export default async function HebrewWordPage({ params }: PageProps) {
           <h2 className="text-lg font-bold text-scripture mb-4">Quick Facts</h2>
           <dl className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             <div>
-              <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">
+              <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">
                 Strong&apos;s Number
               </dt>
               <dd className="text-scripture font-semibold">{entry.number}</dd>
             </div>
             <div>
-              <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">
+              <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">
                 Hebrew
               </dt>
               <dd className="text-xl font-serif text-scripture" dir="rtl">{entry.lemma}</dd>
             </div>
             <div>
-              <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">
+              <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">
                 Transliteration
               </dt>
               <dd className="text-scripture font-medium">{entry.transliteration}</dd>
             </div>
             {entry.pronunciation && (
               <div>
-                <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">
+                <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">
                   Pronunciation
                 </dt>
                 <dd className="text-scripture">/{entry.pronunciation}/</dd>
               </div>
             )}
             <div>
-              <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">
+              <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">
                 KJV Translations
               </dt>
               <dd className="text-scripture text-sm">{translations.length} distinct rendering{translations.length !== 1 ? 's' : ''}</dd>
             </div>
             <div>
-              <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">
+              <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">
                 Language
               </dt>
               <dd className="text-scripture">
@@ -199,18 +199,18 @@ export default async function HebrewWordPage({ params }: PageProps) {
           </h2>
           <div className="space-y-4">
             <div>
-              <h3 className="text-sm font-semibold text-primary-dark/70 uppercase tracking-wider mb-2">
+              <h3 className="text-sm font-semibold text-ink-muted uppercase tracking-wider mb-2">
                 Full Definition
               </h3>
-              <p className="text-primary-dark/80 leading-relaxed text-base">
+              <p className="text-scripture leading-relaxed text-base">
                 {entry.definition}
               </p>
             </div>
             <div className="border-t border-grace/50 pt-4">
-              <h3 className="text-sm font-semibold text-primary-dark/70 uppercase tracking-wider mb-2">
+              <h3 className="text-sm font-semibold text-ink-muted uppercase tracking-wider mb-2">
                 Derivation
               </h3>
-              <p className="text-primary-dark/80 leading-relaxed">
+              <p className="text-scripture leading-relaxed">
                 {entry.derivation}
                 {derivationRefs.length > 0 && (
                   <span className="block mt-2 text-sm">
@@ -240,7 +240,7 @@ export default async function HebrewWordPage({ params }: PageProps) {
             <h2 className="text-lg font-bold text-scripture mb-4">
               KJV Translation Breakdown
             </h2>
-            <p className="text-sm text-primary-dark/60 mb-4">
+            <p className="text-sm text-ink-muted mb-4">
               This Hebrew word is translated as the following in the King James Version:
             </p>
             <div className="flex flex-wrap gap-2">
@@ -254,7 +254,7 @@ export default async function HebrewWordPage({ params }: PageProps) {
               ))}
             </div>
             {entry.kjvTranslations.toLowerCase().includes('compare') && (
-              <p className="text-xs text-primary-dark/50 mt-3 italic">
+              <p className="text-xs text-ink-muted mt-3 italic">
                 {entry.kjvTranslations.match(/Compare.*/i)?.[0] || ''}
               </p>
             )}
@@ -267,7 +267,7 @@ export default async function HebrewWordPage({ params }: PageProps) {
             <h2 className="text-lg font-bold text-scripture mb-4">
               Related Hebrew Words
             </h2>
-            <p className="text-sm text-primary-dark/60 mb-4">
+            <p className="text-sm text-ink-muted mb-4">
               Words sharing the same root or referenced in the derivation of {entry.transliteration}:
             </p>
             <div className="grid gap-3 sm:grid-cols-2">
@@ -287,8 +287,8 @@ export default async function HebrewWordPage({ params }: PageProps) {
                       <span className="font-semibold text-scripture group-hover:text-amber-700 transition-colors block">
                         {rel.transliteration}
                       </span>
-                      <span className="text-xs text-primary-dark/50 block">{rel.number}</span>
-                      <span className="text-sm text-primary-dark/60 line-clamp-1 block mt-0.5">
+                      <span className="text-xs text-ink-muted block">{rel.number}</span>
+                      <span className="text-sm text-ink-muted line-clamp-1 block mt-0.5">
                         &ldquo;{relPrimary}&rdquo;
                       </span>
                     </div>
@@ -302,7 +302,7 @@ export default async function HebrewWordPage({ params }: PageProps) {
         {/* CRO Section — Deepen Your Study */}
         <section className="bg-gradient-to-br from-amber-50 to-orange-50 border border-amber-200/80 rounded-xl p-6 mb-8">
           <h2 className="text-lg font-bold text-scripture mb-2">Deepen Your Study</h2>
-          <p className="text-sm text-primary-dark/60 mb-5">
+          <p className="text-sm text-ink-muted mb-5">
             Continue exploring the Hebrew language and biblical concepts connected to {entry.transliteration}.
           </p>
           <div className="grid gap-3 sm:grid-cols-2">
@@ -315,7 +315,7 @@ export default async function HebrewWordPage({ params }: PageProps) {
                 <span className="font-semibold text-scripture group-hover:text-amber-700 transition-colors block text-sm">
                   Bible Topics
                 </span>
-                <span className="text-xs text-primary-dark/50">Study key biblical themes</span>
+                <span className="text-xs text-ink-muted">Study key biblical themes</span>
               </div>
             </Link>
             <Link
@@ -327,7 +327,7 @@ export default async function HebrewWordPage({ params }: PageProps) {
                 <span className="font-semibold text-scripture group-hover:text-amber-700 transition-colors block text-sm">
                   Bible Quizzes
                 </span>
-                <span className="text-xs text-primary-dark/50">Test your knowledge</span>
+                <span className="text-xs text-ink-muted">Test your knowledge</span>
               </div>
             </Link>
             <Link
@@ -339,7 +339,7 @@ export default async function HebrewWordPage({ params }: PageProps) {
                 <span className="font-semibold text-scripture group-hover:text-amber-700 transition-colors block text-sm">
                   Hebrew Words: {firstLetter}
                 </span>
-                <span className="text-xs text-primary-dark/50">Browse all words starting with {firstLetter}</span>
+                <span className="text-xs text-ink-muted">Browse all words starting with {firstLetter}</span>
               </div>
             </Link>
             {isProperNoun && (
@@ -352,7 +352,7 @@ export default async function HebrewWordPage({ params }: PageProps) {
                   <span className="font-semibold text-scripture group-hover:text-amber-700 transition-colors block text-sm">
                     Bible Names
                   </span>
-                  <span className="text-xs text-primary-dark/50">Explore biblical name meanings</span>
+                  <span className="text-xs text-ink-muted">Explore biblical name meanings</span>
                 </div>
               </Link>
             )}
@@ -366,7 +366,7 @@ export default async function HebrewWordPage({ params }: PageProps) {
                   <span className="font-semibold text-scripture group-hover:text-amber-700 transition-colors block text-sm">
                     Interlinear Bible
                   </span>
-                  <span className="text-xs text-primary-dark/50">See Hebrew words in context</span>
+                  <span className="text-xs text-ink-muted">See Hebrew words in context</span>
                 </div>
               </Link>
             )}
@@ -398,8 +398,8 @@ export default async function HebrewWordPage({ params }: PageProps) {
                     <span className="font-semibold text-scripture group-hover:text-amber-700 transition-colors">
                       {e.transliteration}
                     </span>
-                    <span className="text-xs text-primary-dark/40 ml-2">{e.number}</span>
-                    <span className="block text-xs text-primary-dark/60 mt-0.5 line-clamp-1">
+                    <span className="text-xs text-ink-light ml-2">{e.number}</span>
+                    <span className="block text-xs text-ink-muted mt-0.5 line-clamp-1">
                       {eTrans[0] || e.definition.split(',')[0]?.trim() || ''}
                     </span>
                   </Link>

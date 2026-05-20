@@ -98,10 +98,10 @@ const CATEGORY_COLORS: Record<string, string> = {
   'Pentateuch / Law': 'bg-amber-50 text-amber-700 border-amber-200',
   'Historical': 'bg-emerald-50 text-emerald-700 border-emerald-200',
   'History': 'bg-emerald-50 text-emerald-700 border-emerald-200',
-  'Poetry / Wisdom': 'bg-purple-50 text-purple-700 border-purple-200',
+  'Poetry / Wisdom': 'bg-scripture/5 text-scripture border-sacred/20',
   'Major Prophets': 'bg-red-50 text-red-700 border-red-200',
   'Minor Prophets': 'bg-orange-50 text-orange-700 border-orange-200',
-  'Gospel': 'bg-blue-50 text-blue-700 border-blue-200',
+  'Gospel': 'bg-blue-50 text-scripture border-sacred/20',
   'Pauline Epistle': 'bg-indigo-50 text-indigo-700 border-indigo-200',
   'General Epistle': 'bg-cyan-50 text-cyan-700 border-cyan-200',
   'Apocalyptic / Prophecy': 'bg-rose-50 text-rose-700 border-rose-200',
@@ -177,10 +177,10 @@ export default function BooksOfTheBibleInOrderPage() {
                 </div>
               </div>
               <div className="grid grid-cols-4 divide-x divide-grace border-b border-grace">
-                <div className="p-4 text-center"><p className="text-2xl font-bold text-blue-600">66</p><p className="text-sm text-primary-dark/70">Books</p></div>
-                <div className="p-4 text-center"><p className="text-2xl font-bold text-blue-600">{totalChapters.toLocaleString()}</p><p className="text-sm text-primary-dark/70">Chapters</p></div>
-                <div className="p-4 text-center"><p className="text-2xl font-bold text-blue-600">39 OT</p><p className="text-sm text-primary-dark/70">Old Testament</p></div>
-                <div className="p-4 text-center"><p className="text-2xl font-bold text-blue-600">27 NT</p><p className="text-sm text-primary-dark/70">New Testament</p></div>
+                <div className="p-4 text-center"><p className="text-2xl font-bold text-sacred">66</p><p className="text-sm text-ink-muted">Books</p></div>
+                <div className="p-4 text-center"><p className="text-2xl font-bold text-sacred">{totalChapters.toLocaleString()}</p><p className="text-sm text-ink-muted">Chapters</p></div>
+                <div className="p-4 text-center"><p className="text-2xl font-bold text-sacred">39 OT</p><p className="text-sm text-ink-muted">Old Testament</p></div>
+                <div className="p-4 text-center"><p className="text-2xl font-bold text-sacred">27 NT</p><p className="text-sm text-ink-muted">New Testament</p></div>
               </div>
             </div>
           </div>
@@ -190,7 +190,7 @@ export default function BooksOfTheBibleInOrderPage() {
         <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
           <div className="bg-white rounded-xl border border-grace p-6 md:p-8">
             <h2 className="text-xl font-display font-bold text-scripture mb-3">Understanding the Order of the Books of the Bible</h2>
-            <div className="text-primary-dark/80 leading-relaxed space-y-3">
+            <div className="text-scripture leading-relaxed space-y-3">
               <p>The Bible is a library of 66 books written by approximately 40 authors over a span of roughly 1,500 years. The <strong>books of the Bible in order</strong> follow an arrangement that is partly chronological and partly thematic. The Old Testament opens with the five books of the Law (the Pentateuch, written by Moses) and moves through history, poetry, and prophecy. The New Testament begins with the four Gospels -- Matthew, Mark, Luke, and John -- which record the life, death, and resurrection of Jesus Christ, then continues through the early Church history in Acts, the apostolic letters (Epistles), and the prophetic visions of Revelation.</p>
               <p>Knowing the order of the books of the Bible is foundational for effective Bible study, sermon preparation, and scripture memorization. When you can navigate from Genesis to Revelation with confidence, you unlock the ability to trace themes across the entire canon: creation and fall in Genesis, redemption foreshadowed in the prophets, fulfillment in the Gospels, and consummation in Revelation. The King James Version (KJV) follows the same 66-book ordering used by virtually all Protestant Bibles today.</p>
               <p>Below you will find every book listed in canonical order with its author, number of chapters, literary category, and a brief summary. Each book links to its chapter listing page where you can explore chapter-by-chapter quizzes, summaries, and verse studies. Whether you are a new believer learning the books for the first time or a seasoned student refreshing your knowledge, this complete reference covers the full sweep of Scripture from &ldquo;In the beginning&rdquo; to &ldquo;Even so, come, Lord Jesus.&rdquo;</p>
@@ -201,15 +201,15 @@ export default function BooksOfTheBibleInOrderPage() {
         {/* Jump Links */}
         <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
           <div className="flex flex-wrap gap-2">
-            <a href="#old-testament" className="inline-flex items-center px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-primary-dark/80 hover:border-blue-300 hover:text-blue-600 transition-colors font-medium">Old Testament (39)</a>
-            <a href="#new-testament" className="inline-flex items-center px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-primary-dark/80 hover:border-blue-300 hover:text-blue-600 transition-colors font-medium">New Testament (27)</a>
+            <a href="#old-testament" className="inline-flex items-center px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-scripture hover:border-sacred/50 hover:text-gold-dark transition-colors font-medium">Old Testament (39)</a>
+            <a href="#new-testament" className="inline-flex items-center px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-scripture hover:border-sacred/50 hover:text-gold-dark transition-colors font-medium">New Testament (27)</a>
           </div>
         </section>
 
         {/* Old Testament */}
         <main className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
           <section id="old-testament" className="mb-10">
-            <h2 className="text-xl font-display font-bold text-scripture mb-4">Old Testament <span className="text-sm font-normal text-primary-dark/60 ml-2">(39 books)</span></h2>
+            <h2 className="text-xl font-display font-bold text-scripture mb-4">Old Testament <span className="text-sm font-normal text-ink-muted ml-2">(39 books)</span></h2>
             <ol className="space-y-3">
               {otBooks.map((book) => {
                 const meta = getBookMetadata(book.slug);
@@ -217,22 +217,22 @@ export default function BooksOfTheBibleInOrderPage() {
                 const author = meta?.author || 'Unknown';
                 const summary = BOOK_SUMMARIES[book.slug] || '';
                 return (
-                  <li key={book.slug} className="bg-white rounded-xl border border-grace hover:border-blue-200 hover:shadow-sm transition-all overflow-hidden">
+                  <li key={book.slug} className="bg-white rounded-xl border border-grace hover:border-sacred/50 hover:shadow-sm transition-all overflow-hidden">
                     <div className="flex items-start gap-4 p-5 md:p-6">
-                      <span className="flex-shrink-0 w-9 h-9 flex items-center justify-center rounded-full bg-blue-50 text-blue-700 text-sm font-bold border border-blue-100">{book.order}</span>
+                      <span className="flex-shrink-0 w-9 h-9 flex items-center justify-center rounded-full bg-blue-50 text-scripture text-sm font-bold border border-sacred/10">{book.order}</span>
                       <div className="flex-1 min-w-0">
                         <div className="flex flex-wrap items-center gap-2 mb-1">
-                          <Link href={`/${book.slug}-chapters`} className="text-lg font-display font-bold text-scripture hover:text-blue-600 transition-colors">{book.name}</Link>
+                          <Link href={`/${book.slug}-chapters`} className="text-lg font-display font-bold text-scripture hover:text-gold-dark transition-colors">{book.name}</Link>
                           <span className={`inline-block px-2 py-0.5 text-xs rounded-full border ${getCategoryColor(category)}`}>{category}</span>
                         </div>
-                        <p className="text-sm text-primary-dark/60 mb-1">{author} &middot; {book.chapters} chapters</p>
-                        {summary && <p className="text-primary-dark/80 text-sm leading-relaxed">{summary}</p>}
+                        <p className="text-sm text-ink-muted mb-1">{author} &middot; {book.chapters} chapters</p>
+                        {summary && <p className="text-scripture text-sm leading-relaxed">{summary}</p>}
                         <div className="flex flex-wrap items-center gap-3 mt-2 text-sm">
-                          <Link href={`/${book.slug}-chapters`} className="text-blue-600 hover:underline font-medium">All Chapters</Link>
-                          <span className="text-primary-dark/30">|</span>
-                          <Link href={`/${book.slug}-quiz`} className="text-blue-600 hover:underline">Book Quiz</Link>
-                          <span className="text-primary-dark/30">|</span>
-                          <Link href={`/${book.slug}-1-quiz`} className="text-blue-600 hover:underline font-semibold">Chapter 1 Quiz</Link>
+                          <Link href={`/${book.slug}-chapters`} className="text-sacred hover:underline font-medium">All Chapters</Link>
+                          <span className="text-ink-light">|</span>
+                          <Link href={`/${book.slug}-quiz`} className="text-sacred hover:underline">Book Quiz</Link>
+                          <span className="text-ink-light">|</span>
+                          <Link href={`/${book.slug}-1-quiz`} className="text-sacred hover:underline font-semibold">Chapter 1 Quiz</Link>
                         </div>
                       </div>
                     </div>
@@ -244,7 +244,7 @@ export default function BooksOfTheBibleInOrderPage() {
 
           {/* New Testament */}
           <section id="new-testament">
-            <h2 className="text-xl font-display font-bold text-scripture mb-4">New Testament <span className="text-sm font-normal text-primary-dark/60 ml-2">(27 books)</span></h2>
+            <h2 className="text-xl font-display font-bold text-scripture mb-4">New Testament <span className="text-sm font-normal text-ink-muted ml-2">(27 books)</span></h2>
             <ol className="space-y-3" start={40}>
               {ntBooks.map((book) => {
                 const meta = getBookMetadata(book.slug);
@@ -252,22 +252,22 @@ export default function BooksOfTheBibleInOrderPage() {
                 const author = meta?.author || 'Unknown';
                 const summary = BOOK_SUMMARIES[book.slug] || '';
                 return (
-                  <li key={book.slug} className="bg-white rounded-xl border border-grace hover:border-blue-200 hover:shadow-sm transition-all overflow-hidden">
+                  <li key={book.slug} className="bg-white rounded-xl border border-grace hover:border-sacred/50 hover:shadow-sm transition-all overflow-hidden">
                     <div className="flex items-start gap-4 p-5 md:p-6">
-                      <span className="flex-shrink-0 w-9 h-9 flex items-center justify-center rounded-full bg-blue-50 text-blue-700 text-sm font-bold border border-blue-100">{book.order}</span>
+                      <span className="flex-shrink-0 w-9 h-9 flex items-center justify-center rounded-full bg-blue-50 text-scripture text-sm font-bold border border-sacred/10">{book.order}</span>
                       <div className="flex-1 min-w-0">
                         <div className="flex flex-wrap items-center gap-2 mb-1">
-                          <Link href={`/${book.slug}-chapters`} className="text-lg font-display font-bold text-scripture hover:text-blue-600 transition-colors">{book.name}</Link>
+                          <Link href={`/${book.slug}-chapters`} className="text-lg font-display font-bold text-scripture hover:text-gold-dark transition-colors">{book.name}</Link>
                           <span className={`inline-block px-2 py-0.5 text-xs rounded-full border ${getCategoryColor(category)}`}>{category}</span>
                         </div>
-                        <p className="text-sm text-primary-dark/60 mb-1">{author} &middot; {book.chapters} chapters</p>
-                        {summary && <p className="text-primary-dark/80 text-sm leading-relaxed">{summary}</p>}
+                        <p className="text-sm text-ink-muted mb-1">{author} &middot; {book.chapters} chapters</p>
+                        {summary && <p className="text-scripture text-sm leading-relaxed">{summary}</p>}
                         <div className="flex flex-wrap items-center gap-3 mt-2 text-sm">
-                          <Link href={`/${book.slug}-chapters`} className="text-blue-600 hover:underline font-medium">All Chapters</Link>
-                          <span className="text-primary-dark/30">|</span>
-                          <Link href={`/${book.slug}-quiz`} className="text-blue-600 hover:underline">Book Quiz</Link>
-                          <span className="text-primary-dark/30">|</span>
-                          <Link href={`/${book.slug}-1-quiz`} className="text-blue-600 hover:underline font-semibold">Chapter 1 Quiz</Link>
+                          <Link href={`/${book.slug}-chapters`} className="text-sacred hover:underline font-medium">All Chapters</Link>
+                          <span className="text-ink-light">|</span>
+                          <Link href={`/${book.slug}-quiz`} className="text-sacred hover:underline">Book Quiz</Link>
+                          <span className="text-ink-light">|</span>
+                          <Link href={`/${book.slug}-1-quiz`} className="text-sacred hover:underline font-semibold">Chapter 1 Quiz</Link>
                         </div>
                       </div>
                     </div>
@@ -280,10 +280,10 @@ export default function BooksOfTheBibleInOrderPage() {
 
         {/* Mid-Content CTA */}
         <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-6 md:p-8 text-white">
+          <div className="bg-gradient-to-r from-scripture to-scripture/80 rounded-xl p-6 md:p-8 text-white">
             <h2 className="text-xl md:text-2xl font-display font-bold mb-2">Can You Name All 66 Books? Take a Quiz.</h2>
-            <p className="text-blue-100 mb-4 max-w-2xl">Test your knowledge of every book of the Bible. Chapter quizzes for all 1,189 chapters with instant scoring and verse-by-verse explanations.</p>
-            <Link href="/bible-quizzes" className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md">Take a Quiz Now</Link>
+            <p className="text-sacred-light mb-4 max-w-2xl">Test your knowledge of every book of the Bible. Chapter quizzes for all 1,189 chapters with instant scoring and verse-by-verse explanations.</p>
+            <Link href="/bible-quizzes" className="inline-flex items-center px-6 py-3 bg-white text-scripture font-bold rounded-lg hover:bg-sacred-light transition-colors shadow-md">Take a Quiz Now</Link>
           </div>
         </section>
 
@@ -294,23 +294,23 @@ export default function BooksOfTheBibleInOrderPage() {
             <div className="space-y-6">
               <div>
                 <h3 className="font-bold text-scripture mb-1">How many books are in the Bible?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">The Bible contains 66 books: 39 in the Old Testament and 27 in the New Testament. Together they contain {totalChapters.toLocaleString()} chapters and 31,102 verses in the King James Version. These books were written by approximately 40 authors over a period of roughly 1,500 years.</p>
+                <p className="text-scripture leading-relaxed">The Bible contains 66 books: 39 in the Old Testament and 27 in the New Testament. Together they contain {totalChapters.toLocaleString()} chapters and 31,102 verses in the King James Version. These books were written by approximately 40 authors over a period of roughly 1,500 years.</p>
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">What are the books of the Bible in order?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">The 66 books in order are: Genesis, Exodus, Leviticus, Numbers, Deuteronomy, Joshua, Judges, Ruth, 1&nbsp;Samuel, 2&nbsp;Samuel, 1&nbsp;Kings, 2&nbsp;Kings, 1&nbsp;Chronicles, 2&nbsp;Chronicles, Ezra, Nehemiah, Esther, Job, Psalms, Proverbs, Ecclesiastes, Song of Solomon, Isaiah, Jeremiah, Lamentations, Ezekiel, Daniel, Hosea, Joel, Amos, Obadiah, Jonah, Micah, Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, Malachi, Matthew, Mark, Luke, John, Acts, Romans, 1&nbsp;Corinthians, 2&nbsp;Corinthians, Galatians, Ephesians, Philippians, Colossians, 1&nbsp;Thessalonians, 2&nbsp;Thessalonians, 1&nbsp;Timothy, 2&nbsp;Timothy, Titus, Philemon, Hebrews, James, 1&nbsp;Peter, 2&nbsp;Peter, 1&nbsp;John, 2&nbsp;John, 3&nbsp;John, Jude, and Revelation.</p>
+                <p className="text-scripture leading-relaxed">The 66 books in order are: Genesis, Exodus, Leviticus, Numbers, Deuteronomy, Joshua, Judges, Ruth, 1&nbsp;Samuel, 2&nbsp;Samuel, 1&nbsp;Kings, 2&nbsp;Kings, 1&nbsp;Chronicles, 2&nbsp;Chronicles, Ezra, Nehemiah, Esther, Job, Psalms, Proverbs, Ecclesiastes, Song of Solomon, Isaiah, Jeremiah, Lamentations, Ezekiel, Daniel, Hosea, Joel, Amos, Obadiah, Jonah, Micah, Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, Malachi, Matthew, Mark, Luke, John, Acts, Romans, 1&nbsp;Corinthians, 2&nbsp;Corinthians, Galatians, Ephesians, Philippians, Colossians, 1&nbsp;Thessalonians, 2&nbsp;Thessalonians, 1&nbsp;Timothy, 2&nbsp;Timothy, Titus, Philemon, Hebrews, James, 1&nbsp;Peter, 2&nbsp;Peter, 1&nbsp;John, 2&nbsp;John, 3&nbsp;John, Jude, and Revelation.</p>
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">What is the first and last book of the Bible?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">The first book is Genesis (&ldquo;beginning&rdquo;), written by Moses, covering creation through the patriarchs. The last book is Revelation, written by the apostle John, containing prophetic visions of the end times and Christ&apos;s return.</p>
+                <p className="text-scripture leading-relaxed">The first book is Genesis (&ldquo;beginning&rdquo;), written by Moses, covering creation through the patriarchs. The last book is Revelation, written by the apostle John, containing prophetic visions of the end times and Christ&apos;s return.</p>
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">What are the categories of books in the Bible?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">The Old Testament is grouped into Law (Genesis&ndash;Deuteronomy), History (Joshua&ndash;Esther), Poetry &amp; Wisdom (Job&ndash;Song of Solomon), Major Prophets (Isaiah&ndash;Daniel), and Minor Prophets (Hosea&ndash;Malachi). The New Testament is grouped into Gospels, History (Acts), Pauline Epistles, General Epistles, and Apocalyptic Prophecy (Revelation).</p>
+                <p className="text-scripture leading-relaxed">The Old Testament is grouped into Law (Genesis&ndash;Deuteronomy), History (Joshua&ndash;Esther), Poetry &amp; Wisdom (Job&ndash;Song of Solomon), Major Prophets (Isaiah&ndash;Daniel), and Minor Prophets (Hosea&ndash;Malachi). The New Testament is grouped into Gospels, History (Acts), Pauline Epistles, General Epistles, and Apocalyptic Prophecy (Revelation).</p>
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">What is the longest and shortest book of the Bible?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">By chapter count, Psalms is the longest with 150 chapters. By word count, Jeremiah is the longest. The shortest books are 3&nbsp;John (14 verses), 2&nbsp;John (13 verses), and Obadiah (21 verses in a single chapter).</p>
+                <p className="text-scripture leading-relaxed">By chapter count, Psalms is the longest with 150 chapters. By word count, Jeremiah is the longest. The shortest books are 3&nbsp;John (14 verses), 2&nbsp;John (13 verses), and Obadiah (21 verses in a single chapter).</p>
               </div>
             </div>
           </div>
@@ -321,15 +321,15 @@ export default function BooksOfTheBibleInOrderPage() {
           <div className="bg-white rounded-xl border border-grace p-6 md:p-8">
             <h2 className="text-xl font-display font-bold text-scripture mb-4">Continue Exploring Scripture</h2>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
-              <Link href="/bible-quizzes" className="flex items-center px-4 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-all"><span>Bible Quizzes</span></Link>
-              <Link href="/books-of-the-bible" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Books of the Bible</span></Link>
-              <Link href="/bible-chapter-summaries" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Chapter Summaries</span></Link>
-              <Link href="/popular-bible-verses" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">100 Most Popular Verses</span></Link>
-              <Link href="/bible-quotes" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Bible Quotes Hub</span></Link>
-              <Link href="/reading-plans" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Reading Plans</span></Link>
-              <Link href="/bible-study-guides" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Study Guides</span></Link>
-              <Link href="/cross-references" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Cross References</span></Link>
-              <Link href="/topics" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Bible Topics</span></Link>
+              <Link href="/bible-quizzes" className="flex items-center px-4 py-3 bg-scripture text-white font-bold rounded-lg hover:bg-ink-muted transition-all"><span>Bible Quizzes</span></Link>
+              <Link href="/books-of-the-bible" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Books of the Bible</span></Link>
+              <Link href="/bible-chapter-summaries" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Chapter Summaries</span></Link>
+              <Link href="/popular-bible-verses" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">100 Most Popular Verses</span></Link>
+              <Link href="/bible-quotes" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Bible Quotes Hub</span></Link>
+              <Link href="/reading-plans" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Reading Plans</span></Link>
+              <Link href="/bible-study-guides" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Study Guides</span></Link>
+              <Link href="/cross-references" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Cross References</span></Link>
+              <Link href="/topics" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Bible Topics</span></Link>
             </div>
           </div>
         </section>

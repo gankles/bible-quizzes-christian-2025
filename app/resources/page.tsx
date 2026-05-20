@@ -50,8 +50,8 @@ export default function ResourcesPage() {
       <StructuredData data={jsonLd} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
-        <Link href="/" className="hover:text-blue-600">
+      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-ink-muted">
+        <Link href="/" className="hover:text-gold-dark">
           Home
         </Link>
         <span className="mx-1.5">/</span>
@@ -65,7 +65,7 @@ export default function ResourcesPage() {
             <h1 className="text-3xl md:text-4xl font-bold font-display mb-3 text-scripture">
               Bible Resources &amp; Reference Guides
             </h1>
-            <p className="text-lg text-primary-dark/70 max-w-2xl mb-6">
+            <p className="text-lg text-ink-muted max-w-2xl mb-6">
               In-depth topical studies and reference guides for serious Bible
               study. Each resource is organized by category with extensive KJV
               verse references and study notes.
@@ -75,7 +75,7 @@ export default function ResourcesPage() {
                 <p className="text-3xl font-bold text-scripture">
                   {stats.totalResources}
                 </p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">
+                <p className="text-xs text-ink-muted uppercase tracking-wider">
                   Resources
                 </p>
               </div>
@@ -83,7 +83,7 @@ export default function ResourcesPage() {
                 <p className="text-3xl font-bold text-scripture">
                   {stats.totalCategories}
                 </p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">
+                <p className="text-xs text-ink-muted uppercase tracking-wider">
                   Categories
                 </p>
               </div>
@@ -91,7 +91,7 @@ export default function ResourcesPage() {
                 <p className="text-3xl font-bold text-scripture">
                   {stats.totalEntries.toLocaleString()}
                 </p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">
+                <p className="text-xs text-ink-muted uppercase tracking-wider">
                   Study Entries
                 </p>
               </div>
@@ -99,7 +99,7 @@ export default function ResourcesPage() {
                 <p className="text-3xl font-bold text-scripture">
                   {stats.totalVerses.toLocaleString()}
                 </p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">
+                <p className="text-xs text-ink-muted uppercase tracking-wider">
                   Verse References
                 </p>
               </div>
@@ -115,27 +115,27 @@ export default function ResourcesPage() {
             <Link
               key={resource.slug}
               href={`/resources/${resource.slug}`}
-              className="bg-white border border-grace rounded-xl p-5 hover:shadow-md hover:border-blue-300 transition-all group"
+              className="bg-white border border-grace rounded-xl p-5 hover:shadow-md hover:border-sacred/50 transition-all group"
             >
-              <h2 className="text-lg font-bold text-scripture group-hover:text-blue-600 transition-colors mb-1">
+              <h2 className="text-lg font-bold text-scripture group-hover:text-gold-dark transition-colors mb-1">
                 {resource.title}
               </h2>
               {resource.subtitle && (
-                <p className="text-sm text-primary-dark/60 mb-3">
+                <p className="text-sm text-ink-muted mb-3">
                   {resource.subtitle}
                 </p>
               )}
-              <div className="flex items-center gap-4 text-xs text-primary-dark/60">
+              <div className="flex items-center gap-4 text-xs text-ink-muted">
                 <span>
                   {resource.categories.length}{' '}
                   {resource.categories.length === 1 ? 'section' : 'sections'}
                 </span>
-                <span className="w-1 h-1 rounded-full bg-primary-dark/30" />
+                <span className="w-1 h-1 rounded-full bg-scripture/30" />
                 <span>
                   {resource.totalEntries}{' '}
                   {resource.totalEntries === 1 ? 'entry' : 'entries'}
                 </span>
-                <span className="w-1 h-1 rounded-full bg-primary-dark/30" />
+                <span className="w-1 h-1 rounded-full bg-scripture/30" />
                 <span>
                   {resource.totalVerses}{' '}
                   {resource.totalVerses === 1 ? 'verse' : 'verses'}
@@ -155,31 +155,31 @@ export default function ResourcesPage() {
           <div className="flex flex-wrap justify-center gap-3">
             <Link
               href="/topics"
-              className="px-5 py-2.5 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors"
+              className="px-5 py-2.5 bg-scripture text-white text-sm font-medium rounded-lg hover:bg-ink-muted transition-colors"
             >
               Bible Topics
             </Link>
             <Link
               href="/nave-topics"
-              className="px-5 py-2.5 bg-white text-blue-600 text-sm font-medium rounded-lg border border-blue-300 hover:bg-primary-light transition-colors"
+              className="px-5 py-2.5 bg-white text-sacred text-sm font-medium rounded-lg border border-sacred/50 hover:bg-primary-light transition-colors"
             >
               Nave&apos;s Topical Bible
             </Link>
             <Link
               href="/commandments"
-              className="px-5 py-2.5 bg-white text-blue-600 text-sm font-medium rounded-lg border border-blue-300 hover:bg-primary-light transition-colors"
+              className="px-5 py-2.5 bg-white text-sacred text-sm font-medium rounded-lg border border-sacred/50 hover:bg-primary-light transition-colors"
             >
               613 Commandments
             </Link>
             <Link
               href="/lexicon"
-              className="px-5 py-2.5 bg-white text-primary-dark/80 text-sm font-medium rounded-lg border border-grace hover:bg-primary-light/50 transition-colors"
+              className="px-5 py-2.5 bg-white text-scripture text-sm font-medium rounded-lg border border-grace hover:bg-primary-light/50 transition-colors"
             >
               Hebrew &amp; Greek Lexicon
             </Link>
             <Link
               href="/bible-quizzes"
-              className="px-5 py-2.5 bg-white text-primary-dark/80 text-sm font-medium rounded-lg border border-grace hover:bg-primary-light/50 transition-colors"
+              className="px-5 py-2.5 bg-white text-scripture text-sm font-medium rounded-lg border border-grace hover:bg-primary-light/50 transition-colors"
             >
               Bible Quizzes
             </Link>

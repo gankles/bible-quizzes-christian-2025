@@ -89,21 +89,21 @@ export default async function InterlinearBookPage({ params }: PageProps) {
         {/* Hero */}
         <div className="bg-white border-b border-grace py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-4 md:px-10">
-            <nav className="flex items-center gap-2 text-sm text-primary-dark/60 mb-6 flex-wrap">
-              <Link href="/" className="hover:text-blue-600 transition-colors">Home</Link>
+            <nav className="flex items-center gap-2 text-sm text-ink-muted mb-6 flex-wrap">
+              <Link href="/" className="hover:text-gold-dark transition-colors">Home</Link>
               <span>/</span>
-              <Link href="/interlinear" className="hover:text-blue-600 transition-colors">Interlinear Bible</Link>
+              <Link href="/interlinear" className="hover:text-gold-dark transition-colors">Interlinear Bible</Link>
               <span>/</span>
               <span className="text-scripture font-medium">{bookName}</span>
             </nav>
 
-            <span className="inline-block px-3 py-1 rounded-full bg-blue-600/10 text-blue-600 text-xs font-bold uppercase mb-4">
+            <span className="inline-block px-3 py-1 rounded-full bg-sacred/10 text-sacred text-xs font-bold uppercase mb-4">
               {testament} Testament &middot; {lang}
             </span>
             <h1 className="text-3xl md:text-4xl font-bold text-scripture font-display mb-3">
               {bookName} Interlinear
             </h1>
-            <p className="text-lg text-primary-dark/70">
+            <p className="text-lg text-ink-muted">
               {bookData.chapters} chapter{bookData.chapters !== 1 ? 's' : ''} &middot; Word-by-word {lang} analysis
             </p>
           </div>
@@ -114,13 +114,13 @@ export default async function InterlinearBookPage({ params }: PageProps) {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Link
               href={`/${bookSlug}-chapters`}
-              className="bg-blue-600 rounded-lg p-5 text-white shadow-lg flex items-center justify-between hover:bg-blue-700 transition-colors"
+              className="bg-scripture rounded-lg p-5 text-white shadow-lg flex items-center justify-between hover:bg-ink-muted transition-colors"
             >
               <div>
                 <h3 className="font-bold text-lg">{bookName} Quizzes</h3>
                 <p className="text-white/80 text-xs">Test your knowledge of {bookName}</p>
               </div>
-              <span className="bg-white text-blue-600 px-4 py-2 rounded-lg font-bold text-sm tracking-wider uppercase">
+              <span className="bg-white text-sacred px-4 py-2 rounded-lg font-bold text-sm tracking-wider uppercase">
                 Start
               </span>
             </Link>
@@ -148,9 +148,9 @@ export default async function InterlinearBookPage({ params }: PageProps) {
                 <Link
                   key={ch}
                   href={`/interlinear/${bookSlug}/${ch}`}
-                  className="bg-white border border-grace rounded-lg px-3 py-4 text-center hover:shadow-md hover:border-blue-300 transition-all group"
+                  className="bg-white border border-grace rounded-lg px-3 py-4 text-center hover:shadow-md hover:border-sacred/50 transition-all group"
                 >
-                  <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                  <span className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                     {bookName} {ch}
                   </span>
                 </Link>
@@ -163,10 +163,10 @@ export default async function InterlinearBookPage({ params }: PageProps) {
             {prevBook ? (
               <Link
                 href={`/interlinear/${prevBook.slug}`}
-                className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="text-xs text-primary-dark/60">Previous Book</span>
-                <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                <span className="text-xs text-ink-muted">Previous Book</span>
+                <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                   {prevBook.name}
                 </span>
               </Link>
@@ -174,10 +174,10 @@ export default async function InterlinearBookPage({ params }: PageProps) {
             {nextBook ? (
               <Link
                 href={`/interlinear/${nextBook.slug}`}
-                className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="text-xs text-primary-dark/60">Next Book</span>
-                <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                <span className="text-xs text-ink-muted">Next Book</span>
+                <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                   {nextBook.name}
                 </span>
               </Link>
@@ -188,22 +188,22 @@ export default async function InterlinearBookPage({ params }: PageProps) {
           <section className="bg-grace/10 border border-grace rounded-xl p-6">
             <h2 className="text-lg font-bold text-scripture mb-3">Continue Your Study</h2>
             <div className="grid gap-2 sm:grid-cols-2">
-              <Link href="/interlinear" className="text-blue-600 hover:underline text-sm">
+              <Link href="/interlinear" className="text-sacred hover:underline text-sm">
                 All Interlinear Books
               </Link>
-              <Link href={`/${bookSlug}-chapters`} className="text-blue-600 hover:underline text-sm">
+              <Link href={`/${bookSlug}-chapters`} className="text-sacred hover:underline text-sm">
                 {bookName} Chapter Quizzes
               </Link>
-              <Link href={`/${bookSlug}-quiz`} className="text-blue-600 hover:underline text-sm">
+              <Link href={`/${bookSlug}-quiz`} className="text-sacred hover:underline text-sm">
                 {bookName} Book Quiz
               </Link>
-              <Link href={`/lexicon/browse/${isOT ? 'hebrew' : 'greek'}`} className="text-blue-600 hover:underline text-sm">
+              <Link href={`/lexicon/browse/${isOT ? 'hebrew' : 'greek'}`} className="text-sacred hover:underline text-sm">
                 {lang} Lexicon
               </Link>
-              <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">
+              <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">
                 Bible Quizzes
               </Link>
-              <Link href="/word-studies" className="text-blue-600 hover:underline text-sm">
+              <Link href="/word-studies" className="text-sacred hover:underline text-sm">
                 Word Studies
               </Link>
             </div>

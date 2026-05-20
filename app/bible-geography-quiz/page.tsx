@@ -66,12 +66,12 @@ export default function GeographyQuizHubPage() {
               <Link
                 key={book}
                 href={`/bible-geography-quiz/${book}`}
-                className="bg-white border border-grace rounded-xl p-5 hover:shadow-md hover:border-blue-300 transition-all group"
+                className="bg-white border border-grace rounded-xl p-5 hover:shadow-md hover:border-sacred/50 transition-all group"
               >
-                <h3 className="text-lg font-semibold text-scripture group-hover:text-blue-600 transition-colors mb-1">
+                <h3 className="text-lg font-semibold text-scripture group-hover:text-gold-dark transition-colors mb-1">
                   {bookName}
                 </h3>
-                <p className="text-sm text-primary-dark/60">
+                <p className="text-sm text-ink-muted">
                   {placeCount} place{placeCount !== 1 ? 's' : ''} to test
                 </p>
               </Link>
@@ -93,23 +93,23 @@ export default function GeographyQuizHubPage() {
       ]} />
 
       <div className="min-h-screen bg-primary-light/30">
-        <section className="py-16 bg-gradient-to-b from-blue-50 to-primary-light/30">
+        <section className="py-16 bg-gradient-to-b from-scripture to-primary-light/30">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl md:text-5xl font-bold font-display text-scripture mb-4">
-              Bible Geography <span className="text-blue-600">Quizzes</span>
+              Bible Geography <span className="text-sacred">Quizzes</span>
             </h1>
-            <p className="text-lg text-primary-dark/70 max-w-2xl mx-auto mb-8">
+            <p className="text-lg text-ink-muted max-w-2xl mx-auto mb-8">
               Test your knowledge of biblical places with geography quizzes for
               {' '}{booksWithPlaces.length} books of the Bible.
             </p>
             <div className="flex justify-center gap-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">{booksWithPlaces.length}</div>
-                <div className="text-sm text-primary-dark/60">Book Quizzes</div>
+                <div className="text-3xl font-bold text-sacred">{booksWithPlaces.length}</div>
+                <div className="text-sm text-ink-muted">Book Quizzes</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">{totalPlaces}</div>
-                <div className="text-sm text-primary-dark/60">Places Covered</div>
+                <div className="text-3xl font-bold text-sacred">{totalPlaces}</div>
+                <div className="text-sm text-ink-muted">Places Covered</div>
               </div>
             </div>
           </div>
@@ -117,12 +117,12 @@ export default function GeographyQuizHubPage() {
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-[-2rem] relative z-20 mb-12">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/bible-geography" className="bg-blue-600 rounded-lg p-6 text-white shadow-lg flex items-center justify-between hover:bg-blue-700 transition-colors">
+            <Link href="/bible-geography" className="bg-scripture rounded-lg p-6 text-white shadow-lg flex items-center justify-between hover:bg-ink-muted transition-colors">
               <div>
                 <h3 className="font-bold text-lg">Explore Bible Geography</h3>
                 <p className="text-white/80 text-xs">Interactive maps and place details</p>
               </div>
-              <span className="bg-white text-blue-600 px-4 py-2 rounded-lg font-bold text-sm uppercase shrink-0 ml-3">Maps</span>
+              <span className="bg-white text-sacred px-4 py-2 rounded-lg font-bold text-sm uppercase shrink-0 ml-3">Maps</span>
             </Link>
             <Link href="/bible-places/era" className="bg-scripture rounded-lg p-6 text-white shadow-lg flex items-center justify-between hover:bg-scripture/90 transition-colors">
               <div>
@@ -141,12 +141,12 @@ export default function GeographyQuizHubPage() {
           <section className="bg-grace/10 border border-grace rounded-xl p-6 mt-8">
             <h2 className="text-lg font-bold text-scripture mb-3">Continue Your Study</h2>
             <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-              <Link href="/bible-geography" className="text-blue-600 hover:underline text-sm">Bible Geography</Link>
-              <Link href="/bible-places" className="text-blue-600 hover:underline text-sm">All Bible Places</Link>
-              <Link href="/bible-places/era" className="text-blue-600 hover:underline text-sm">Places by Era</Link>
-              <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">Bible Quizzes</Link>
-              <Link href="/character-quiz" className="text-blue-600 hover:underline text-sm">Character Quizzes</Link>
-              <Link href="/bible-maps" className="text-blue-600 hover:underline text-sm">Bible Maps</Link>
+              <Link href="/bible-geography" className="text-sacred hover:underline text-sm">Bible Geography</Link>
+              <Link href="/bible-places" className="text-sacred hover:underline text-sm">All Bible Places</Link>
+              <Link href="/bible-places/era" className="text-sacred hover:underline text-sm">Places by Era</Link>
+              <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">Bible Quizzes</Link>
+              <Link href="/character-quiz" className="text-sacred hover:underline text-sm">Character Quizzes</Link>
+              <Link href="/bible-maps" className="text-sacred hover:underline text-sm">Bible Maps</Link>
             </div>
           </section>
         </main>

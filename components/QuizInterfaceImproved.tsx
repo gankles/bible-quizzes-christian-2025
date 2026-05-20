@@ -17,7 +17,7 @@ const formatTime = (seconds: number) => {
 const BADGE_COLORS: Record<string, string> = {
   sequential: 'bg-sacred/10 text-gold-dark',
   'cross-reference': 'bg-scripture/10 text-scripture',
-  character: 'bg-grace text-primary-dark',
+  character: 'bg-grace text-scripture',
   popular: 'bg-sacred-light text-gold-dark',
   hub: 'bg-grace/50 text-ink-muted',
 };
@@ -113,7 +113,7 @@ export default function QuizInterfaceImproved({ quiz, onComplete }: QuizInterfac
     switch (type) {
       case 'sequential': return <ArrowRightIcon className="h-5 w-5 text-sacred" />;
       case 'cross-reference': return <LinkIcon className="h-5 w-5 text-scripture" />;
-      case 'character': return <UserIcon className="h-5 w-5 text-primary-dark" />;
+      case 'character': return <UserIcon className="h-5 w-5 text-scripture" />;
       case 'popular': return <StarIcon className="h-5 w-5 text-sacred" />;
       case 'hub': return <BookOpenIcon className="h-5 w-5 text-ink-muted" />;
       default: return <BookOpenIcon className="h-5 w-5 text-sacred" />;
@@ -191,7 +191,7 @@ export default function QuizInterfaceImproved({ quiz, onComplete }: QuizInterfac
           disabled={!canSubmit || isSubmitted}
           className={`px-8 py-4 rounded-lg font-display text-lg font-semibold transition-all duration-200 ${
             canSubmit && !isSubmitted
-              ? 'bg-royal-blue text-white hover:bg-blue-600 shadow-lg hover:shadow-xl'
+              ? 'bg-royal-blue text-white hover:bg-ink-muted shadow-lg hover:shadow-xl'
               : 'bg-grace/40 text-ink-light cursor-not-allowed'
           }`}
         >

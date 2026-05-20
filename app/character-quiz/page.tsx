@@ -74,22 +74,22 @@ export default function CharacterQuizHubPage() {
               <Link
                 key={bio.name}
                 href={`/character-quiz/${slug}`}
-                className="bg-white border border-grace rounded-xl p-5 hover:shadow-md hover:border-blue-300 transition-all group"
+                className="bg-white border border-grace rounded-xl p-5 hover:shadow-md hover:border-sacred/50 transition-all group"
               >
                 <div className="flex items-center gap-3 mb-3">
-                  <span className="w-10 h-10 rounded-lg bg-blue-600 text-white flex items-center justify-center text-lg font-bold shrink-0">
+                  <span className="w-10 h-10 rounded-lg bg-scripture text-white flex items-center justify-center text-lg font-bold shrink-0">
                     {bio.name.charAt(0)}
                   </span>
-                  <h3 className="text-lg font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                  <h3 className="text-lg font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                     {bio.name}
                   </h3>
                 </div>
-                <p className="text-sm text-primary-dark/60 leading-relaxed line-clamp-2">
+                <p className="text-sm text-ink-muted leading-relaxed line-clamp-2">
                   {bio.significance}
                 </p>
                 <div className="mt-3 flex items-center justify-between">
-                  <span className="text-xs text-primary-dark/40">{bio.keyEvents.length} key events</span>
-                  <span className="text-xs font-medium text-blue-600">15 Questions</span>
+                  <span className="text-xs text-ink-light">{bio.keyEvents.length} key events</span>
+                  <span className="text-xs font-medium text-sacred">15 Questions</span>
                 </div>
               </Link>
             );
@@ -111,28 +111,28 @@ export default function CharacterQuizHubPage() {
 
       <div className="min-h-screen bg-primary-light/30">
         {/* Hero */}
-        <section className="py-16 bg-gradient-to-b from-blue-50 to-primary-light/30">
+        <section className="py-16 bg-gradient-to-b from-scripture to-primary-light/30">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl md:text-5xl font-bold font-display text-scripture mb-4">
-              Bible Character <span className="text-blue-600">Quizzes</span>
+              Bible Character <span className="text-sacred">Quizzes</span>
             </h1>
-            <p className="text-lg text-primary-dark/70 max-w-2xl mx-auto mb-8">
+            <p className="text-lg text-ink-muted max-w-2xl mx-auto mb-8">
               Test your knowledge of {bios.length} biblical figures. Each quiz features
               15 questions covering key events, significance, and scripture references.
             </p>
 
             <div className="flex justify-center gap-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">{bios.length}</div>
-                <div className="text-sm text-primary-dark/60">Characters</div>
+                <div className="text-3xl font-bold text-sacred">{bios.length}</div>
+                <div className="text-sm text-ink-muted">Characters</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">15</div>
-                <div className="text-sm text-primary-dark/60">Questions Each</div>
+                <div className="text-3xl font-bold text-sacred">15</div>
+                <div className="text-sm text-ink-muted">Questions Each</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">{bios.length * 15}</div>
-                <div className="text-sm text-primary-dark/60">Total Questions</div>
+                <div className="text-3xl font-bold text-sacred">{bios.length * 15}</div>
+                <div className="text-sm text-ink-muted">Total Questions</div>
               </div>
             </div>
           </div>
@@ -141,12 +141,12 @@ export default function CharacterQuizHubPage() {
         {/* CTA Strip */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-[-2rem] relative z-20 mb-12">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/characters" className="bg-blue-600 rounded-lg p-6 text-white shadow-lg flex items-center justify-between hover:bg-blue-700 transition-colors">
+            <Link href="/characters" className="bg-scripture rounded-lg p-6 text-white shadow-lg flex items-center justify-between hover:bg-ink-muted transition-colors">
               <div>
                 <h3 className="font-bold text-lg">Study Characters First</h3>
                 <p className="text-white/80 text-xs">Read biographies before taking quizzes</p>
               </div>
-              <span className="bg-white text-blue-600 px-4 py-2 rounded-lg font-bold text-sm tracking-wider uppercase shrink-0 ml-3">Browse</span>
+              <span className="bg-white text-sacred px-4 py-2 rounded-lg font-bold text-sm tracking-wider uppercase shrink-0 ml-3">Browse</span>
             </Link>
             <Link href="/bible-quizzes" className="bg-scripture rounded-lg p-6 text-white shadow-lg flex items-center justify-between hover:bg-scripture/90 transition-colors">
               <div>
@@ -166,15 +166,15 @@ export default function CharacterQuizHubPage() {
           <section className="bg-grace/10 border border-grace rounded-xl p-6 mt-8">
             <h2 className="text-lg font-bold text-scripture mb-3">Continue Your Study</h2>
             <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-              <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">Bible Quizzes</Link>
-              <Link href="/characters" className="text-blue-600 hover:underline text-sm">Bible Characters</Link>
-              <Link href="/bible-stories" className="text-blue-600 hover:underline text-sm">Bible Stories</Link>
-              <Link href="/people" className="text-blue-600 hover:underline text-sm">Bible People Directory</Link>
-              <Link href="/topics" className="text-blue-600 hover:underline text-sm">Bible Topics</Link>
-              <Link href="/timeline" className="text-blue-600 hover:underline text-sm">Bible Timeline</Link>
-              <Link href="/devotionals" className="text-blue-600 hover:underline text-sm">Daily Devotionals</Link>
-              <Link href="/commandments" className="text-blue-600 hover:underline text-sm">613 Commandments</Link>
-              <Link href="/bible-geography-quiz" className="text-blue-600 hover:underline text-sm">Geography Quizzes</Link>
+              <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">Bible Quizzes</Link>
+              <Link href="/characters" className="text-sacred hover:underline text-sm">Bible Characters</Link>
+              <Link href="/bible-stories" className="text-sacred hover:underline text-sm">Bible Stories</Link>
+              <Link href="/people" className="text-sacred hover:underline text-sm">Bible People Directory</Link>
+              <Link href="/topics" className="text-sacred hover:underline text-sm">Bible Topics</Link>
+              <Link href="/timeline" className="text-sacred hover:underline text-sm">Bible Timeline</Link>
+              <Link href="/devotionals" className="text-sacred hover:underline text-sm">Daily Devotionals</Link>
+              <Link href="/commandments" className="text-sacred hover:underline text-sm">613 Commandments</Link>
+              <Link href="/bible-geography-quiz" className="text-sacred hover:underline text-sm">Geography Quizzes</Link>
             </div>
           </section>
         </main>

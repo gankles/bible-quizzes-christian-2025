@@ -110,10 +110,10 @@ export default async function ReadingPlanDetailPage({ params }: PageProps) {
       <StructuredData data={breadcrumbSchema} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
-        <Link href="/" className="hover:text-blue-600">Home</Link>
+      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-ink-muted">
+        <Link href="/" className="hover:text-gold-dark">Home</Link>
         <span className="mx-1.5">/</span>
-        <Link href="/reading-plans" className="hover:text-blue-600">Reading Plans</Link>
+        <Link href="/reading-plans" className="hover:text-gold-dark">Reading Plans</Link>
         <span className="mx-1.5">/</span>
         <span className="text-scripture font-medium">{plan.title}</span>
       </nav>
@@ -121,31 +121,31 @@ export default async function ReadingPlanDetailPage({ params }: PageProps) {
       <article className="max-w-4xl mx-auto px-4 py-8">
         {/* Header */}
         <div className="mb-8">
-          <span className="inline-block px-3 py-1 bg-blue-100 text-blue-700 text-xs font-medium rounded-full mb-3">
+          <span className="inline-block px-3 py-1 bg-sacred/10 text-scripture text-xs font-medium rounded-full mb-3">
             {plan.category}
           </span>
           <h1 className="text-3xl md:text-4xl font-display font-bold text-scripture mb-2">
             {plan.title}
           </h1>
-          <p className="text-lg text-primary-dark/70 max-w-2xl mb-6">
+          <p className="text-lg text-ink-muted max-w-2xl mb-6">
             {plan.description}
           </p>
 
           {/* Stats */}
           <div className="grid grid-cols-3 gap-4">
             <div className="bg-white border border-grace rounded-lg p-4 text-center">
-              <div className="text-2xl font-bold text-blue-600">{plan.totalDays}</div>
-              <div className="text-xs text-primary-dark/60 mt-1">Days</div>
+              <div className="text-2xl font-bold text-sacred">{plan.totalDays}</div>
+              <div className="text-xs text-ink-muted mt-1">Days</div>
             </div>
             <div className="bg-white border border-grace rounded-lg p-4 text-center">
-              <div className="text-2xl font-bold text-blue-600">{totalReadings}</div>
-              <div className="text-xs text-primary-dark/60 mt-1">Total Readings</div>
+              <div className="text-2xl font-bold text-sacred">{totalReadings}</div>
+              <div className="text-xs text-ink-muted mt-1">Total Readings</div>
             </div>
             <div className="bg-white border border-grace rounded-lg p-4 text-center">
-              <div className="text-2xl font-bold text-blue-600">
+              <div className="text-2xl font-bold text-sacred">
                 {Math.ceil(totalReadings / plan.totalDays)}
               </div>
-              <div className="text-xs text-primary-dark/60 mt-1">Avg per Day</div>
+              <div className="text-xs text-ink-muted mt-1">Avg per Day</div>
             </div>
           </div>
         </div>
@@ -167,7 +167,7 @@ export default async function ReadingPlanDetailPage({ params }: PageProps) {
                     <span className="font-semibold text-scripture">
                       Week {week.weekNumber}
                     </span>
-                    <span className="text-sm text-primary-dark/60 ml-2">
+                    <span className="text-sm text-ink-muted ml-2">
                       Days {week.days[0].day}--{week.days[week.days.length - 1].day}
                     </span>
                   </summary>
@@ -175,16 +175,16 @@ export default async function ReadingPlanDetailPage({ params }: PageProps) {
                     <table className="w-full text-left">
                       <thead>
                         <tr className="border-b border-grace bg-primary-light/20">
-                          <th className="px-5 py-2.5 text-xs font-semibold text-primary-dark/60 uppercase tracking-wider w-16">Day</th>
-                          <th className="px-5 py-2.5 text-xs font-semibold text-primary-dark/60 uppercase tracking-wider">Theme</th>
-                          <th className="px-5 py-2.5 text-xs font-semibold text-primary-dark/60 uppercase tracking-wider">Readings</th>
+                          <th className="px-5 py-2.5 text-xs font-semibold text-ink-muted uppercase tracking-wider w-16">Day</th>
+                          <th className="px-5 py-2.5 text-xs font-semibold text-ink-muted uppercase tracking-wider">Theme</th>
+                          <th className="px-5 py-2.5 text-xs font-semibold text-ink-muted uppercase tracking-wider">Readings</th>
                         </tr>
                       </thead>
                       <tbody>
                         {week.days.map(day => (
                           <tr key={day.day} className="border-b border-grace/50 last:border-b-0">
                             <td className="px-5 py-3 text-sm font-mono font-semibold text-scripture">{day.day}</td>
-                            <td className="px-5 py-3 text-sm text-primary-dark/70">{day.theme}</td>
+                            <td className="px-5 py-3 text-sm text-ink-muted">{day.theme}</td>
                             <td className="px-5 py-3 text-sm">
                               <div className="flex flex-wrap gap-1.5">
                                 {day.readings.map((reading, i) => {
@@ -193,7 +193,7 @@ export default async function ReadingPlanDetailPage({ params }: PageProps) {
                                     <Link
                                       key={i}
                                       href={bookSlug ? `/${bookSlug}-chapters` : '/reading-plans'}
-                                      className="text-blue-600 hover:underline whitespace-nowrap"
+                                      className="text-sacred hover:underline whitespace-nowrap"
                                     >
                                       {reading}
                                     </Link>
@@ -215,16 +215,16 @@ export default async function ReadingPlanDetailPage({ params }: PageProps) {
               <table className="w-full text-left">
                 <thead>
                   <tr className="border-b border-grace bg-primary-light/20">
-                    <th className="px-5 py-3 text-xs font-semibold text-primary-dark/60 uppercase tracking-wider w-16">Day</th>
-                    <th className="px-5 py-3 text-xs font-semibold text-primary-dark/60 uppercase tracking-wider">Theme</th>
-                    <th className="px-5 py-3 text-xs font-semibold text-primary-dark/60 uppercase tracking-wider">Readings</th>
+                    <th className="px-5 py-3 text-xs font-semibold text-ink-muted uppercase tracking-wider w-16">Day</th>
+                    <th className="px-5 py-3 text-xs font-semibold text-ink-muted uppercase tracking-wider">Theme</th>
+                    <th className="px-5 py-3 text-xs font-semibold text-ink-muted uppercase tracking-wider">Readings</th>
                   </tr>
                 </thead>
                 <tbody>
                   {plan.days.map(day => (
                     <tr key={day.day} className="border-b border-grace/50 last:border-b-0">
                       <td className="px-5 py-3 text-sm font-mono font-semibold text-scripture">{day.day}</td>
-                      <td className="px-5 py-3 text-sm text-primary-dark/70">{day.theme}</td>
+                      <td className="px-5 py-3 text-sm text-ink-muted">{day.theme}</td>
                       <td className="px-5 py-3 text-sm">
                         <div className="flex flex-wrap gap-1.5">
                           {day.readings.map((reading, i) => {
@@ -233,7 +233,7 @@ export default async function ReadingPlanDetailPage({ params }: PageProps) {
                               <Link
                                 key={i}
                                 href={bookSlug ? `/${bookSlug}-chapters` : '/reading-plans'}
-                                className="text-blue-600 hover:underline whitespace-nowrap"
+                                className="text-sacred hover:underline whitespace-nowrap"
                               >
                                 {reading}
                               </Link>
@@ -254,10 +254,10 @@ export default async function ReadingPlanDetailPage({ params }: PageProps) {
           {prev ? (
             <Link
               href={`/reading-plans/${prev.slug}`}
-              className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+              className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
             >
-              <span className="text-xs text-primary-dark/60">Previous Plan</span>
-              <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+              <span className="text-xs text-ink-muted">Previous Plan</span>
+              <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                 {prev.title}
               </span>
             </Link>
@@ -265,10 +265,10 @@ export default async function ReadingPlanDetailPage({ params }: PageProps) {
           {next ? (
             <Link
               href={`/reading-plans/${next.slug}`}
-              className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+              className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
             >
-              <span className="text-xs text-primary-dark/60">Next Plan</span>
-              <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+              <span className="text-xs text-ink-muted">Next Plan</span>
+              <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                 {next.title}
               </span>
             </Link>
@@ -286,12 +286,12 @@ export default async function ReadingPlanDetailPage({ params }: PageProps) {
                 <Link
                   key={p.slug}
                   href={`/reading-plans/${p.slug}`}
-                  className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
+                  className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-sacred/50 transition-all group"
                 >
-                  <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                  <span className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                     {p.title}
                   </span>
-                  <span className="block text-xs text-primary-dark/60 mt-0.5">
+                  <span className="block text-xs text-ink-muted mt-0.5">
                     {p.totalDays} days -- {p.category}
                   </span>
                 </Link>
@@ -303,22 +303,22 @@ export default async function ReadingPlanDetailPage({ params }: PageProps) {
         <section className="bg-grace/10 border border-grace rounded-xl p-6">
           <h2 className="text-lg font-bold text-scripture mb-3">Continue Your Study</h2>
           <div className="grid gap-2 sm:grid-cols-2">
-            <Link href="/reading-plans" className="text-blue-600 hover:underline text-sm">
+            <Link href="/reading-plans" className="text-sacred hover:underline text-sm">
               All Reading Plans
             </Link>
-            <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">
               Bible Quizzes
             </Link>
-            <Link href="/topics" className="text-blue-600 hover:underline text-sm">
+            <Link href="/topics" className="text-sacred hover:underline text-sm">
               Bible Topics
             </Link>
-            <Link href="/timeline" className="text-blue-600 hover:underline text-sm">
+            <Link href="/timeline" className="text-sacred hover:underline text-sm">
               Bible Timeline
             </Link>
-            <Link href="/bible-stories" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-stories" className="text-sacred hover:underline text-sm">
               Bible Stories
             </Link>
-            <Link href="/people" className="text-blue-600 hover:underline text-sm">
+            <Link href="/people" className="text-sacred hover:underline text-sm">
               Bible Characters
             </Link>
           </div>

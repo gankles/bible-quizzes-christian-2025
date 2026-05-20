@@ -28,9 +28,9 @@ const columnClasses = {
 const typeBadgeColors: Record<string, string> = {
   'word-study': 'bg-indigo-100 text-indigo-700',
   'topic': 'bg-green-100 text-green-700',
-  'quiz': 'bg-blue-100 text-blue-700',
+  'quiz': 'bg-sacred/10 text-scripture',
   'character': 'bg-amber-100 text-amber-700',
-  'chain': 'bg-purple-100 text-purple-700',
+  'chain': 'bg-scripture/10 text-scripture',
   'cross-ref': 'bg-rose-100 text-rose-700',
   'grammar': 'bg-cyan-100 text-cyan-700',
   'encyclopedia': 'bg-orange-100 text-orange-700',
@@ -73,10 +73,10 @@ export default function RelatedResourcesGrid({
                 {link.type.replace(/-/g, ' ')}
               </span>
             )}
-            <h3 className="font-bold text-scripture group-hover:text-blue-600 transition-colors text-sm">
+            <h3 className="font-bold text-scripture group-hover:text-gold-dark transition-colors text-sm">
               {link.title}
             </h3>
-            <p className="text-primary-dark/60 text-xs mt-1 line-clamp-2">{link.description}</p>
+            <p className="text-ink-muted text-xs mt-1 line-clamp-2">{link.description}</p>
           </Link>
         ))}
       </div>

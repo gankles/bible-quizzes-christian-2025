@@ -115,7 +115,7 @@ export default function ChapterQuizzesPage() {
       <div className="bg-white border-b border-grace">
         <div className="max-w-6xl mx-auto px-4 py-12 text-center">
           <h1 className="text-4xl font-bold text-scripture mb-4">Bible Chapter Quizzes</h1>
-          <p className="text-lg text-primary-dark/70 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg text-ink-muted mb-8 max-w-2xl mx-auto">
             Explore every chapter of the Bible with focused quizzes designed for deep study and understanding.
           </p>
           
@@ -126,7 +126,7 @@ export default function ChapterQuizzesPage() {
               placeholder="Search for any Bible book..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full px-4 py-3 border border-grace rounded-lg text-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              className="w-full px-4 py-3 border border-grace rounded-lg text-lg focus:outline-none focus:ring-2 focus:ring-sacred focus:border-sacred"
             />
           </div>
 
@@ -134,15 +134,15 @@ export default function ChapterQuizzesPage() {
           <div className="flex justify-center gap-8 mb-8">
             <div className="text-center">
               <div className="text-3xl font-bold text-scripture">66</div>
-              <div className="text-sm text-primary-dark/70">Books</div>
+              <div className="text-sm text-ink-muted">Books</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-scripture">{totalChapters.toLocaleString()}</div>
-              <div className="text-sm text-primary-dark/70">Chapters</div>
+              <div className="text-sm text-ink-muted">Chapters</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-scripture">20K+</div>
-              <div className="text-sm text-primary-dark/70">Questions</div>
+              <div className="text-sm text-ink-muted">Questions</div>
             </div>
           </div>
 
@@ -154,7 +154,7 @@ export default function ChapterQuizzesPage() {
                 className={`px-6 py-2 rounded-md font-medium text-sm transition-colors ${
                   activeTab === 'all' 
                     ? 'bg-scripture text-white' 
-                    : 'text-primary-dark/70 hover:text-scripture'
+                    : 'text-ink-muted hover:text-scripture'
                 }`}
               >
                 All Books
@@ -163,8 +163,8 @@ export default function ChapterQuizzesPage() {
                 onClick={() => setActiveTab('old')}
                 className={`px-6 py-2 rounded-md font-medium text-sm transition-colors ${
                   activeTab === 'old' 
-                    ? 'bg-blue-600 text-white' 
-                    : 'text-primary-dark/70 hover:text-scripture'
+                    ? 'bg-scripture text-white' 
+                    : 'text-ink-muted hover:text-scripture'
                 }`}
               >
                 Old Testament (39)
@@ -174,7 +174,7 @@ export default function ChapterQuizzesPage() {
                 className={`px-6 py-2 rounded-md font-medium text-sm transition-colors ${
                   activeTab === 'new' 
                     ? 'bg-green-600 text-white' 
-                    : 'text-primary-dark/70 hover:text-scripture'
+                    : 'text-ink-muted hover:text-scripture'
                 }`}
               >
                 New Testament (27)
@@ -201,10 +201,10 @@ export default function ChapterQuizzesPage() {
                 <Link
                   key={book.slug}
                   href={`/${book.slug}-quiz`}
-                  className="bg-white border border-grace rounded-lg p-4 text-center hover:shadow-md hover:border-blue-300 transition-all duration-200 hover:-translate-y-1"
+                  className="bg-white border border-grace rounded-lg p-4 text-center hover:shadow-md hover:border-sacred/50 transition-all duration-200 hover:-translate-y-1"
                 >
                   <h3 className="font-semibold text-scripture mb-1">{book.name}</h3>
-                  <p className="text-sm text-primary-dark/70">{book.chapters} chapters</p>
+                  <p className="text-sm text-ink-muted">{book.chapters} chapters</p>
                 </Link>
               ))}
             </div>
@@ -226,10 +226,10 @@ export default function ChapterQuizzesPage() {
                 <Link
                   key={book.slug}
                   href={`/${book.slug}-quiz`}
-                  className="bg-white border border-grace rounded-lg p-4 text-center hover:shadow-md hover:border-blue-300 transition-all duration-200 hover:-translate-y-1"
+                  className="bg-white border border-grace rounded-lg p-4 text-center hover:shadow-md hover:border-sacred/50 transition-all duration-200 hover:-translate-y-1"
                 >
                   <h3 className="font-semibold text-scripture mb-1">{book.name}</h3>
-                  <p className="text-sm text-primary-dark/70">{book.chapters} chapters</p>
+                  <p className="text-sm text-ink-muted">{book.chapters} chapters</p>
                 </Link>
               ))}
             </div>
@@ -240,12 +240,12 @@ export default function ChapterQuizzesPage() {
         {filteredBooks.length === 0 && (
           <div className="text-center py-12">
             <h3 className="text-lg font-medium text-scripture mb-2">No books found</h3>
-            <p className="text-primary-dark/70 mb-4">
+            <p className="text-ink-muted mb-4">
               Try searching for a different book name.
             </p>
             <button
               onClick={() => setSearchTerm('')}
-              className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+              className="bg-scripture text-white px-4 py-2 rounded-lg hover:bg-ink-muted transition-colors"
             >
               Clear Search
             </button>
@@ -254,15 +254,15 @@ export default function ChapterQuizzesPage() {
       </div>
 
       {/* Call to Action */}
-      <div className="bg-blue-600 text-white py-12">
+      <div className="bg-scripture text-white py-12">
         <div className="max-w-4xl mx-auto text-center px-4">
           <h2 className="text-3xl font-bold mb-4">Start Your Chapter Study</h2>
-          <p className="text-xl text-blue-100 mb-8">
+          <p className="text-xl text-sacred-light mb-8">
             Choose any book to explore its chapters and deepen your biblical understanding.
           </p>
           <Link
             href="/genesis-quiz"
-            className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-primary-light transition-colors inline-block"
+            className="bg-white text-sacred px-8 py-3 rounded-lg font-semibold hover:bg-primary-light transition-colors inline-block"
           >
             Start with Genesis
           </Link>

@@ -64,7 +64,7 @@ export default function QuizPageImproved({ quiz, url = '' }: QuizPageImprovedPro
         </div>
         
         {/* Improved Interlinks Demo Banner */}
-        <div className="relative z-10 bg-blue-600 text-white py-3">
+        <div className="relative z-10 bg-scripture text-white py-3">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <p className="font-semibold">🚀 IMPROVED INTERLINKS DEMO - Enhanced Navigation & User Experience</p>
           </div>

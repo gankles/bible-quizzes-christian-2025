@@ -46,19 +46,19 @@ export const CharacterGrid: React.FC<CharacterGridProps> = ({ initialCharacters 
                 <div className="flex p-1 bg-grace/30 dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border">
                     <button
                         onClick={() => setTestamentFilter('all')}
-                        className={`px-6 py-2 rounded-lg text-sm font-bold transition-all ${testamentFilter === 'all' ? 'bg-white dark:blue-600 text-blue-600 dark:text-white shadow-sm' : 'text-primary-dark/60 dark:text-primary-dark/40'}`}
+                        className={`px-6 py-2 rounded-lg text-sm font-bold transition-all ${testamentFilter === 'all' ? 'bg-white dark:blue-600 text-sacred dark:text-white shadow-sm' : 'text-ink-muted dark:text-ink-light'}`}
                     >
                         All
                     </button>
                     <button
                         onClick={() => setTestamentFilter('Old')}
-                        className={`px-6 py-2 rounded-lg text-sm font-bold transition-all ${testamentFilter === 'Old' ? 'bg-white dark:blue-600 text-blue-600 dark:text-white shadow-sm' : 'text-primary-dark/60 dark:text-primary-dark/40'}`}
+                        className={`px-6 py-2 rounded-lg text-sm font-bold transition-all ${testamentFilter === 'Old' ? 'bg-white dark:blue-600 text-sacred dark:text-white shadow-sm' : 'text-ink-muted dark:text-ink-light'}`}
                     >
                         Old Testament
                     </button>
                     <button
                         onClick={() => setTestamentFilter('New')}
-                        className={`px-6 py-2 rounded-lg text-sm font-bold transition-all ${testamentFilter === 'New' ? 'bg-white dark:blue-600 text-blue-600 dark:text-white shadow-sm' : 'text-primary-dark/60 dark:text-primary-dark/40'}`}
+                        className={`px-6 py-2 rounded-lg text-sm font-bold transition-all ${testamentFilter === 'New' ? 'bg-white dark:blue-600 text-sacred dark:text-white shadow-sm' : 'text-ink-muted dark:text-ink-light'}`}
                     >
                         New Testament
                     </button>
@@ -75,14 +75,14 @@ export const CharacterGrid: React.FC<CharacterGridProps> = ({ initialCharacters 
                             className="group bg-white dark:bg-dark-surface rounded-lg border border-grace dark:border-dark-border p-6 hover:border-sacred hover:shadow-xl transition-all duration-300"
                         >
                             <div className="flex items-center gap-4">
-                                <div className="w-14 h-14 rounded-full blue-600/10 flex items-center justify-center text-blue-600 text-xl font-bold">
+                                <div className="w-14 h-14 rounded-full blue-600/10 flex items-center justify-center text-sacred text-xl font-bold">
                                     {char.name.charAt(0)}
                                 </div>
                                 <div>
-                                    <h3 className="font-bold text-scripture dark:text-white group-hover:text-blue-600 transition-colors">
+                                    <h3 className="font-bold text-scripture dark:text-white group-hover:text-gold-dark transition-colors">
                                         {char.name}
                                     </h3>
-                                    <div className="text-xs font-bold text-primary-dark/40 dark:text-primary-dark/60 uppercase">
+                                    <div className="text-xs font-bold text-ink-light dark:text-ink-muted uppercase">
                                         {char.testament} Testament • {char.occupation || 'Biblical Figure'}
                                     </div>
                                 </div>
@@ -93,7 +93,7 @@ export const CharacterGrid: React.FC<CharacterGridProps> = ({ initialCharacters 
             ) : (
                 <div className="text-center py-20">
                     <h3 className="text-2xl font-bold text-scripture dark:text-white mb-2">No people found</h3>
-                    <p className="text-primary-dark/60 dark:text-primary-dark/60">Try adjusting your search or filters.</p>
+                    <p className="text-ink-muted dark:text-ink-muted">Try adjusting your search or filters.</p>
                 </div>
             )}
         </div>

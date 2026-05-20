@@ -169,13 +169,13 @@ export default function Philippians413Page() {
       <nav className="bg-white dark:bg-dark-surface border-b border-grace dark:border-dark-border">
         <div className="max-w-4xl mx-auto px-4 py-3">
           <ol className="flex items-center flex-wrap gap-y-1 text-sm">
-            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li><Link href="/bible-quizzes" className="text-blue-600 hover:underline">Bible Study</Link></li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li><Link href="/philippians-chapters" className="text-blue-600 hover:underline">Philippians</Link></li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li className="text-primary-dark/70 font-medium">Philippians 4:13</li>
+            <li><Link href="/" className="text-sacred hover:underline">Home</Link></li>
+            <li className="text-ink-light mx-2">/</li>
+            <li><Link href="/bible-quizzes" className="text-sacred hover:underline">Bible Study</Link></li>
+            <li className="text-ink-light mx-2">/</li>
+            <li><Link href="/philippians-chapters" className="text-sacred hover:underline">Philippians</Link></li>
+            <li className="text-ink-light mx-2">/</li>
+            <li className="text-ink-muted font-medium">Philippians 4:13</li>
           </ol>
         </div>
       </nav>
@@ -192,7 +192,7 @@ export default function Philippians413Page() {
           />
         </div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 py-16 md:py-24 text-center">
-          <p className="text-blue-300 text-sm font-bold uppercase tracking-widest mb-4">One of the Most Quoted Verses in the Bible</p>
+          <p className="text-sacred text-sm font-bold uppercase tracking-widest mb-4">One of the Most Quoted Verses in the Bible</p>
           <h1 className="text-4xl md:text-6xl font-bold text-white font-display leading-tight mb-8">
             Philippians 4:13 Explained
           </h1>
@@ -200,10 +200,10 @@ export default function Philippians413Page() {
             <p className="text-xl md:text-2xl text-white leading-relaxed italic font-light">
               &ldquo;I can do all things through Christ which strengtheneth me.&rdquo;
             </p>
-            <cite className="block mt-4 text-blue-200 text-sm font-bold not-italic">&mdash; Philippians 4:13 (KJV)</cite>
+            <cite className="block mt-4 text-sacred text-sm font-bold not-italic">&mdash; Philippians 4:13 (KJV)</cite>
           </blockquote>
           <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
-            <a href="#quiz" className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition-colors text-sm uppercase tracking-wider">
+            <a href="#quiz" className="inline-flex items-center justify-center bg-scripture hover:bg-ink-muted text-white font-bold py-3 px-8 rounded-lg transition-colors text-sm uppercase tracking-wider">
               Take the Philippians 4:13 Quiz
             </a>
             <a href="#word-study" className="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white border border-white/20 font-bold py-3 px-8 rounded-lg transition-colors text-sm uppercase tracking-wider">
@@ -218,11 +218,11 @@ export default function Philippians413Page() {
         {/* Quick Summary / Value Proposition */}
         <section className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 md:p-8 mb-12 shadow-sm">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">What Does Philippians 4:13 Mean?</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed text-lg mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed text-lg mb-4">
             Philippians 4:13 is one of the most quoted &mdash; and most misunderstood &mdash; verses in the Bible. It is <strong>not</strong> a promise of unlimited achievement, athletic victory, or financial prosperity. In context, it is Paul&apos;s declaration that <strong>Christ gives him the strength to be content in every circumstance</strong> &mdash; whether in poverty or abundance, hunger or fullness, suffering or comfort.
           </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
-            The Apostle <Link href="/characters/paul" className="text-blue-600 font-medium hover:underline">Paul</Link> wrote these words from a Roman prison, chained to guards, facing an uncertain future. Yet he declared himself content &mdash; not because his circumstances were good, but because Christ was his strength. Below, we study every phrase, explore the context, and test your understanding with a focused quiz.
+          <p className="text-scripture dark:text-ink-light leading-relaxed">
+            The Apostle <Link href="/characters/paul" className="text-sacred font-medium hover:underline">Paul</Link> wrote these words from a Roman prison, chained to guards, facing an uncertain future. Yet he declared himself content &mdash; not because his circumstances were good, but because Christ was his strength. Below, we study every phrase, explore the context, and test your understanding with a focused quiz.
           </p>
         </section>
 
@@ -233,11 +233,11 @@ export default function Philippians413Page() {
             {WORD_STUDY.map((item, idx) => (
               <div key={idx} className="bg-white dark:bg-dark-surface rounded-lg border border-grace dark:border-dark-border p-5 shadow-sm">
                 <div className="flex items-start gap-4">
-                  <span className="shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm font-bold">{idx + 1}</span>
+                  <span className="shrink-0 w-8 h-8 rounded-full bg-scripture text-white flex items-center justify-center text-sm font-bold">{idx + 1}</span>
                   <div className="flex-1">
                     <h3 className="text-lg font-bold text-scripture dark:text-white mb-1">{item.phrase}</h3>
-                    <p className="text-xs text-blue-600 font-medium mb-2">Greek: <em>{item.greek}</em></p>
-                    <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed text-sm">{item.explanation}</p>
+                    <p className="text-xs text-sacred font-medium mb-2">Greek: <em>{item.greek}</em></p>
+                    <p className="text-scripture dark:text-ink-light leading-relaxed text-sm">{item.explanation}</p>
                   </div>
                 </div>
               </div>
@@ -249,30 +249,30 @@ export default function Philippians413Page() {
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-6">Context: Paul in Prison, Writing to the Philippians</h2>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 md:p-8 shadow-sm">
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+            <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
               Philippians 4:13 is not an isolated motivational quote &mdash; it is the climax of Paul&apos;s teaching on contentment in chapters 4:10-20. Paul was writing from prison, likely in Rome around A.D. 61-63. He was chained to Roman guards (Philippians 1:13), dependent on the generosity of the Philippian church for his basic needs, and facing the real possibility of execution.
             </p>
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+            <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
               Yet from this place of suffering, Paul wrote the most joyful letter in the New Testament. The words &ldquo;joy&rdquo; and &ldquo;rejoice&rdquo; appear over 16 times in Philippians. Paul&apos;s command in 4:4 &mdash; <strong>&ldquo;Rejoice in the Lord alway: and again I say, Rejoice&rdquo;</strong> &mdash; was not written from a comfortable study but from a cold prison cell. This is what makes Philippians 4:13 so powerful: it was tested under fire.
             </p>
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
-              The Philippian church had sent a financial gift to Paul through <Link href="/characters/epaphroditus" className="text-blue-600 font-medium hover:underline">Epaphroditus</Link> (Phil 4:18). In thanking them, Paul reveals his secret: he has learned to be content in any circumstance. He has been hungry and full, poor and rich, humiliated and honored. Through it all, Christ gave him the strength to endure with joy.
+            <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
+              The Philippian church had sent a financial gift to Paul through <Link href="/characters/epaphroditus" className="text-sacred font-medium hover:underline">Epaphroditus</Link> (Phil 4:18). In thanking them, Paul reveals his secret: he has learned to be content in any circumstance. He has been hungry and full, poor and rich, humiliated and honored. Through it all, Christ gave him the strength to endure with joy.
             </p>
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
+            <p className="text-scripture dark:text-ink-light leading-relaxed">
               This context transforms Philippians 4:13 from a motivational slogan into a profound theological truth: <strong>Christ&apos;s power is sufficient for every trial, and His strength is most visible when we are at our weakest.</strong> Paul echoed this in 2 Corinthians 12:10: &ldquo;When I am weak, then am I strong.&rdquo;
             </p>
 
             <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-3">
-              <Link href="/characters/paul" className="flex items-center gap-2 bg-primary-light/30 dark:bg-dark-bg rounded-lg p-3 border border-grace dark:border-dark-border hover:border-blue-300 transition-colors">
-                <span className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm font-bold shrink-0">P</span>
+              <Link href="/characters/paul" className="flex items-center gap-2 bg-primary-light/30 dark:bg-dark-bg rounded-lg p-3 border border-grace dark:border-dark-border hover:border-sacred/50 transition-colors">
+                <span className="w-8 h-8 rounded-full bg-scripture text-white flex items-center justify-center text-sm font-bold shrink-0">P</span>
                 <span className="text-sm font-medium text-scripture dark:text-white">Study Paul</span>
               </Link>
-              <Link href="/philippians-4-quiz" className="flex items-center gap-2 bg-primary-light/30 dark:bg-dark-bg rounded-lg p-3 border border-grace dark:border-dark-border hover:border-blue-300 transition-colors">
-                <span className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm font-bold shrink-0">Q</span>
+              <Link href="/philippians-4-quiz" className="flex items-center gap-2 bg-primary-light/30 dark:bg-dark-bg rounded-lg p-3 border border-grace dark:border-dark-border hover:border-sacred/50 transition-colors">
+                <span className="w-8 h-8 rounded-full bg-scripture text-white flex items-center justify-center text-sm font-bold shrink-0">Q</span>
                 <span className="text-sm font-medium text-scripture dark:text-white">Philippians 4 Quiz</span>
               </Link>
-              <Link href="/bible-chapter-summaries/philippians/4" className="flex items-center gap-2 bg-primary-light/30 dark:bg-dark-bg rounded-lg p-3 border border-grace dark:border-dark-border hover:border-blue-300 transition-colors">
-                <span className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm font-bold shrink-0">S</span>
+              <Link href="/bible-chapter-summaries/philippians/4" className="flex items-center gap-2 bg-primary-light/30 dark:bg-dark-bg rounded-lg p-3 border border-grace dark:border-dark-border hover:border-sacred/50 transition-colors">
+                <span className="w-8 h-8 rounded-full bg-scripture text-white flex items-center justify-center text-sm font-bold shrink-0">S</span>
                 <span className="text-sm font-medium text-scripture dark:text-white">Philippians 4 Summary</span>
               </Link>
             </div>
@@ -285,8 +285,8 @@ export default function Philippians413Page() {
           <div className="space-y-3">
             {CROSS_REFERENCES.map((verse, idx) => (
               <div key={idx} className="bg-white dark:bg-dark-surface rounded-lg border border-grace dark:border-dark-border p-5 shadow-sm">
-                <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed italic mb-2">&ldquo;{verse.text}&rdquo;</p>
-                <p className="text-sm font-bold text-blue-600">&mdash; {verse.ref}</p>
+                <p className="text-scripture dark:text-ink-light leading-relaxed italic mb-2">&ldquo;{verse.text}&rdquo;</p>
+                <p className="text-sm font-bold text-sacred">&mdash; {verse.ref}</p>
               </div>
             ))}
           </div>
@@ -294,29 +294,29 @@ export default function Philippians413Page() {
 
         {/* Embedded Quiz */}
         <section id="quiz" className="mb-12 scroll-mt-20">
-          <div className="bg-white dark:bg-dark-surface rounded-xl border-2 border-blue-600/20 p-6 md:p-8 shadow-sm">
+          <div className="bg-white dark:bg-dark-surface rounded-xl border-2 border-sacred/20 p-6 md:p-8 shadow-sm">
             <div className="text-center mb-6">
-              <p className="text-blue-600 text-xs font-bold uppercase tracking-widest mb-2">Test Your Knowledge</p>
+              <p className="text-sacred text-xs font-bold uppercase tracking-widest mb-2">Test Your Knowledge</p>
               <h2 className="text-2xl font-bold text-scripture dark:text-white font-display">Philippians 4:13 Quiz</h2>
-              <p className="text-primary-dark/60 dark:text-primary-dark/40 mt-2 text-sm">15 questions on one of the most quoted verses in the Bible and its context</p>
+              <p className="text-ink-muted dark:text-ink-light mt-2 text-sm">15 questions on one of the most quoted verses in the Bible and its context</p>
             </div>
             {quiz ? (
               <PillarQuiz quiz={quiz} />
             ) : (
-              <p className="text-center text-primary-dark/60">Quiz loading...</p>
+              <p className="text-center text-ink-muted">Quiz loading...</p>
             )}
           </div>
         </section>
 
         {/* Gospel CTA — Conversion Optimized */}
         <section className="mb-12">
-          <div className="bg-gradient-to-br from-scripture via-scripture/95 to-blue-950 rounded-xl p-8 md:p-10 text-white text-center shadow-xl">
+          <div className="bg-gradient-to-br from-scripture via-scripture/95 to-scripture/80 rounded-xl p-8 md:p-10 text-white text-center shadow-xl">
             <h2 className="text-2xl md:text-3xl font-bold font-display mb-4">Find Your Strength in Christ</h2>
-            <p className="text-blue-100 max-w-2xl mx-auto leading-relaxed mb-6">
+            <p className="text-sacred-light max-w-2xl mx-auto leading-relaxed mb-6">
               Philippians 4:13 is not a motivational slogan &mdash; it is a promise for those who belong to Christ. Paul&apos;s strength came from a living relationship with Jesus. If you want to experience this same strength and contentment in every season of life, it begins with faith in Christ.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <Link href="/topics/salvation" className="inline-flex items-center justify-center bg-white text-scripture font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors text-sm uppercase tracking-wider">
+              <Link href="/topics/salvation" className="inline-flex items-center justify-center bg-white text-scripture font-bold py-3 px-8 rounded-lg hover:bg-sacred-light transition-colors text-sm uppercase tracking-wider">
                 How to Be Saved
               </Link>
               <Link href="/topics/faith" className="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white border border-white/30 font-bold py-3 px-8 rounded-lg transition-colors text-sm uppercase tracking-wider">
@@ -334,9 +334,9 @@ export default function Philippians413Page() {
               <details key={idx} className="bg-white dark:bg-dark-surface rounded-lg border border-grace dark:border-dark-border shadow-sm group">
                 <summary className="p-5 cursor-pointer font-bold text-scripture dark:text-white text-lg flex items-center justify-between list-none">
                   <span>{item.question}</span>
-                  <span className="text-blue-600 text-xl ml-4 shrink-0 group-open:rotate-45 transition-transform">+</span>
+                  <span className="text-sacred text-xl ml-4 shrink-0 group-open:rotate-45 transition-transform">+</span>
                 </summary>
-                <div className="px-5 pb-5 text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed border-t border-grace dark:border-dark-border pt-4">
+                <div className="px-5 pb-5 text-scripture dark:text-ink-light leading-relaxed border-t border-grace dark:border-dark-border pt-4">
                   {item.answer}
                 </div>
               </details>
@@ -347,16 +347,16 @@ export default function Philippians413Page() {
         {/* Secondary CTA — Quiz + Study Paths */}
         <section className="mb-12">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/philippians-4-quiz" className="bg-blue-600 hover:bg-blue-700 rounded-xl p-6 text-white transition-colors shadow-lg group">
-              <p className="text-blue-200 text-xs font-bold uppercase tracking-wider mb-2">60 Questions, 4 Difficulty Levels</p>
+            <Link href="/philippians-4-quiz" className="bg-scripture hover:bg-ink-muted rounded-xl p-6 text-white transition-colors shadow-lg group">
+              <p className="text-sacred text-xs font-bold uppercase tracking-wider mb-2">60 Questions, 4 Difficulty Levels</p>
               <h3 className="text-xl font-bold mb-1">Complete Philippians 4 Quiz</h3>
-              <p className="text-blue-100 text-sm">Test everything from contentment to the peace of God to supply of every need.</p>
+              <p className="text-sacred-light text-sm">Test everything from contentment to the peace of God to supply of every need.</p>
               <span className="inline-block mt-3 text-sm font-bold uppercase tracking-wider group-hover:translate-x-1 transition-transform">Start Quiz &rarr;</span>
             </Link>
             <Link href="/philippians-quiz" className="bg-scripture hover:bg-scripture/90 rounded-xl p-6 text-white transition-colors shadow-lg group">
-              <p className="text-blue-200 text-xs font-bold uppercase tracking-wider mb-2">25 Questions Covering All 4 Chapters</p>
+              <p className="text-sacred text-xs font-bold uppercase tracking-wider mb-2">25 Questions Covering All 4 Chapters</p>
               <h3 className="text-xl font-bold mb-1">Complete Philippians Quiz</h3>
-              <p className="text-blue-100 text-sm">From the mind of Christ to pressing toward the mark to the peace that passes understanding.</p>
+              <p className="text-sacred-light text-sm">From the mind of Christ to pressing toward the mark to the peace that passes understanding.</p>
               <span className="inline-block mt-3 text-sm font-bold uppercase tracking-wider group-hover:translate-x-1 transition-transform">Start Quiz &rarr;</span>
             </Link>
           </div>
@@ -366,18 +366,18 @@ export default function Philippians413Page() {
         <section className="bg-primary-light/30 dark:bg-dark-surface/30 border border-grace dark:border-dark-border rounded-xl p-6">
           <h2 className="text-lg font-bold text-scripture dark:text-white mb-4">Continue Your Study</h2>
           <div className="grid gap-2 sm:grid-cols-2 md:grid-cols-3">
-            <Link href="/philippians-4-quiz" className="text-blue-600 hover:underline text-sm">Philippians Chapter 4 Quiz</Link>
-            <Link href="/philippians-chapters" className="text-blue-600 hover:underline text-sm">All Philippians Chapter Quizzes</Link>
-            <Link href="/philippians-quiz" className="text-blue-600 hover:underline text-sm">Complete Philippians Quiz</Link>
-            <Link href="/topics/contentment" className="text-blue-600 hover:underline text-sm">Bible Verses About Contentment</Link>
-            <Link href="/topics/strength" className="text-blue-600 hover:underline text-sm">Bible Verses About Strength</Link>
-            <Link href="/topics/faith" className="text-blue-600 hover:underline text-sm">Bible Verses About Faith</Link>
-            <Link href="/topics/joy" className="text-blue-600 hover:underline text-sm">Bible Verses About Joy</Link>
-            <Link href="/topics/salvation" className="text-blue-600 hover:underline text-sm">Bible Verses About Salvation</Link>
-            <Link href="/characters/paul" className="text-blue-600 hover:underline text-sm">Paul Character Study</Link>
-            <Link href="/bible-chapter-summaries/philippians/4" className="text-blue-600 hover:underline text-sm">Philippians 4 Summary</Link>
-            <Link href="/bible-geography/philippians/4" className="text-blue-600 hover:underline text-sm">Philippians 4 Places &amp; Map</Link>
-            <Link href="/john-3-16" className="text-blue-600 hover:underline text-sm">John 3:16 Explained</Link>
+            <Link href="/philippians-4-quiz" className="text-sacred hover:underline text-sm">Philippians Chapter 4 Quiz</Link>
+            <Link href="/philippians-chapters" className="text-sacred hover:underline text-sm">All Philippians Chapter Quizzes</Link>
+            <Link href="/philippians-quiz" className="text-sacred hover:underline text-sm">Complete Philippians Quiz</Link>
+            <Link href="/topics/contentment" className="text-sacred hover:underline text-sm">Bible Verses About Contentment</Link>
+            <Link href="/topics/strength" className="text-sacred hover:underline text-sm">Bible Verses About Strength</Link>
+            <Link href="/topics/faith" className="text-sacred hover:underline text-sm">Bible Verses About Faith</Link>
+            <Link href="/topics/joy" className="text-sacred hover:underline text-sm">Bible Verses About Joy</Link>
+            <Link href="/topics/salvation" className="text-sacred hover:underline text-sm">Bible Verses About Salvation</Link>
+            <Link href="/characters/paul" className="text-sacred hover:underline text-sm">Paul Character Study</Link>
+            <Link href="/bible-chapter-summaries/philippians/4" className="text-sacred hover:underline text-sm">Philippians 4 Summary</Link>
+            <Link href="/bible-geography/philippians/4" className="text-sacred hover:underline text-sm">Philippians 4 Places &amp; Map</Link>
+            <Link href="/john-3-16" className="text-sacred hover:underline text-sm">John 3:16 Explained</Link>
           </div>
         </section>
       </main>

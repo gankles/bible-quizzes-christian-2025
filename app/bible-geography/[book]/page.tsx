@@ -83,10 +83,10 @@ export default async function BookGeographyPage({ params }: PageProps) {
       <StructuredData data={jsonLd} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
-        <Link href="/" className="hover:text-blue-600">Home</Link>
+      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-ink-muted">
+        <Link href="/" className="hover:text-gold-dark">Home</Link>
         <span className="mx-1.5">/</span>
-        <Link href="/bible-geography" className="hover:text-blue-600">Bible Geography</Link>
+        <Link href="/bible-geography" className="hover:text-gold-dark">Bible Geography</Link>
         <span className="mx-1.5">/</span>
         <span className="text-scripture font-medium">{bookName}</span>
       </nav>
@@ -96,22 +96,22 @@ export default async function BookGeographyPage({ params }: PageProps) {
         <h1 className="text-3xl md:text-4xl font-bold font-display mb-3 text-scripture">
           Places in {bookName}
         </h1>
-        <p className="text-primary-dark/70 max-w-2xl mb-4">
+        <p className="text-ink-muted max-w-2xl mb-4">
           Explore <strong>{places.length}</strong> biblical places mentioned in the Book of {bookName},
           mapped with coordinates and organized by frequency of mention.
         </p>
         <div className="flex flex-wrap gap-4 text-center mb-6">
           <div className="px-4 py-2 bg-white border border-grace rounded-lg">
-            <p className="text-xs text-primary-dark/50 uppercase">Places</p>
+            <p className="text-xs text-ink-muted uppercase">Places</p>
             <p className="text-lg font-bold text-scripture">{places.length}</p>
           </div>
           <div className="px-4 py-2 bg-white border border-grace rounded-lg">
-            <p className="text-xs text-primary-dark/50 uppercase">Chapters</p>
+            <p className="text-xs text-ink-muted uppercase">Chapters</p>
             <p className="text-lg font-bold text-scripture">{bookChapters.length}</p>
           </div>
           <div className="px-4 py-2 bg-white border border-grace rounded-lg">
-            <p className="text-xs text-primary-dark/50 uppercase">Mapped</p>
-            <p className="text-lg font-bold text-blue-400">{markers.length}</p>
+            <p className="text-xs text-ink-muted uppercase">Mapped</p>
+            <p className="text-lg font-bold text-sacred">{markers.length}</p>
           </div>
         </div>
       </section>
@@ -133,7 +133,7 @@ export default async function BookGeographyPage({ params }: PageProps) {
               <Link
                 key={ch}
                 href={`/bible-geography/${book}/${ch}`}
-                className="w-12 h-10 flex items-center justify-center bg-white border border-grace rounded-lg text-sm font-medium text-primary-dark/80 hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-colors"
+                className="w-12 h-10 flex items-center justify-center bg-white border border-grace rounded-lg text-sm font-medium text-scripture hover:bg-ink-muted hover:text-white hover:border-sacred/50 transition-colors"
               >
                 {ch}
               </Link>
@@ -153,7 +153,7 @@ export default async function BookGeographyPage({ params }: PageProps) {
               <Link
                 key={p.slug}
                 href={`/bible-places/${p.slug}`}
-                className="bg-white border border-grace rounded-lg overflow-hidden p-0 hover:shadow-md hover:border-blue-300 transition-all group"
+                className="bg-white border border-grace rounded-lg overflow-hidden p-0 hover:shadow-md hover:border-sacred/50 transition-all group"
               >
                 {thumbUrl && (
                   <div
@@ -166,12 +166,12 @@ export default async function BookGeographyPage({ params }: PageProps) {
                 )}
                 <div className="px-4 py-3">
                   <div className="flex items-center justify-between">
-                    <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                    <span className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                       {p.name}
                     </span>
-                    <span className="text-xs text-primary-dark/40">{bookVerses.length}x</span>
+                    <span className="text-xs text-ink-light">{bookVerses.length}x</span>
                   </div>
-                  <span className="text-xs text-primary-dark/50 capitalize">{p.type}</span>
+                  <span className="text-xs text-ink-muted capitalize">{p.type}</span>
                 </div>
               </Link>
             );
@@ -181,13 +181,13 @@ export default async function BookGeographyPage({ params }: PageProps) {
 
       {/* Quiz CTA */}
       <section className="max-w-6xl mx-auto px-4 pb-8">
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-sm font-medium text-blue-900">
+        <div className="bg-blue-50 border border-sacred/20 rounded-lg p-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <p className="text-sm font-medium text-scripture">
             How well do you know the places in {bookName}? Test yourself with {places.length} locations.
           </p>
           <Link
             href={`/bible-geography-quiz/${book}`}
-            className="bg-blue-600 hover:bg-blue-700 text-white text-sm font-bold px-5 py-2 rounded-lg transition-colors whitespace-nowrap"
+            className="bg-scripture hover:bg-ink-muted text-white text-sm font-bold px-5 py-2 rounded-lg transition-colors whitespace-nowrap"
           >
             Take the Quiz &rarr;
           </Link>
@@ -199,22 +199,22 @@ export default async function BookGeographyPage({ params }: PageProps) {
         <div className="bg-primary-light/30 border border-grace rounded-xl p-6">
           <h2 className="text-lg font-bold text-scripture mb-3">Related Resources</h2>
           <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-            <Link href={`/${book}-chapters`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+            <Link href={`/${book}-chapters`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
               {bookName} Chapter Quizzes
             </Link>
-            <Link href={`/bible-geography-quiz/${book}`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+            <Link href={`/bible-geography-quiz/${book}`} className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
               {bookName} Geography Quiz
             </Link>
-            <Link href="/bible-geography" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+            <Link href="/bible-geography" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
               All Books Geography
             </Link>
-            <Link href="/bible-places" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+            <Link href="/bible-places" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
               Bible Places A-Z
             </Link>
-            <Link href="/bible-geography-quiz" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+            <Link href="/bible-geography-quiz" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
               All Geography Quizzes
             </Link>
-            <Link href="/bible-places/era" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors">
+            <Link href="/bible-places/era" className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors">
               Places by Era
             </Link>
           </div>

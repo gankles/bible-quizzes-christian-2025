@@ -470,7 +470,7 @@ export default function FamousBibleVersesPage() {
                   </p>
                   <Link
                     href="/bible-quizzes"
-                    className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md w-fit"
+                    className="inline-flex items-center px-6 py-3 bg-white text-scripture font-bold rounded-lg hover:bg-sacred-light transition-colors shadow-md w-fit"
                   >
                     Can You Identify These Verses? Take a Quiz
                   </Link>
@@ -480,16 +480,16 @@ export default function FamousBibleVersesPage() {
               {/* Stats Bar */}
               <div className="grid grid-cols-3 divide-x divide-grace border-b border-grace">
                 <div className="p-4 text-center">
-                  <p className="text-2xl font-bold text-blue-600">50</p>
-                  <p className="text-sm text-primary-dark/70">Famous Verses</p>
+                  <p className="text-2xl font-bold text-sacred">50</p>
+                  <p className="text-sm text-ink-muted">Famous Verses</p>
                 </div>
                 <div className="p-4 text-center">
-                  <p className="text-2xl font-bold text-blue-600">{themes.length}</p>
-                  <p className="text-sm text-primary-dark/70">Themes</p>
+                  <p className="text-2xl font-bold text-sacred">{themes.length}</p>
+                  <p className="text-sm text-ink-muted">Themes</p>
                 </div>
                 <div className="p-4 text-center">
-                  <p className="text-2xl font-bold text-blue-600">KJV</p>
-                  <p className="text-sm text-primary-dark/70">Translation</p>
+                  <p className="text-2xl font-bold text-sacred">KJV</p>
+                  <p className="text-sm text-ink-muted">Translation</p>
                 </div>
               </div>
             </div>
@@ -502,7 +502,7 @@ export default function FamousBibleVersesPage() {
             <h2 className="text-xl font-display font-bold text-scripture mb-3">
               Why These Verses Matter
             </h2>
-            <p className="text-primary-dark/80 leading-relaxed mb-3">
+            <p className="text-scripture leading-relaxed mb-3">
               Out of more than 31,000 verses in the Bible, a handful stand apart as the
               most recognized passages in all of Scripture. These famous Bible verses
               capture the heart of God&apos;s message to humanity -- His love, His
@@ -511,7 +511,7 @@ export default function FamousBibleVersesPage() {
               these 50 verses offer comfort in trial, strength in weakness, hope in
               despair, and guidance for daily living.
             </p>
-            <p className="text-primary-dark/80 leading-relaxed">
+            <p className="text-scripture leading-relaxed">
               Each verse below is presented in the King James Version (KJV) and links
               to a full verse study page where you can explore cross-references,
               commentary, original language words, and related topics.
@@ -527,7 +527,7 @@ export default function FamousBibleVersesPage() {
               <a
                 key={theme}
                 href={`#theme-${theme.toLowerCase().replace(/\s+/g, '-')}`}
-                className="inline-flex items-center px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-primary-dark/80 hover:border-blue-300 hover:text-blue-600 transition-colors"
+                className="inline-flex items-center px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-scripture hover:border-sacred/50 hover:text-gold-dark transition-colors"
               >
                 {theme}
               </a>
@@ -542,11 +542,11 @@ export default function FamousBibleVersesPage() {
               <li
                 key={verse.reference}
                 id={`theme-${verse.theme.toLowerCase().replace(/\s+/g, '-')}`}
-                className="bg-white rounded-xl border border-grace hover:border-blue-200 hover:shadow-sm transition-all overflow-hidden"
+                className="bg-white rounded-xl border border-grace hover:border-sacred/50 hover:shadow-sm transition-all overflow-hidden"
               >
                 <div className="flex items-start gap-4 p-5 md:p-6">
                   {/* Number */}
-                  <span className="flex-shrink-0 w-9 h-9 flex items-center justify-center rounded-full bg-blue-50 text-blue-700 text-sm font-bold border border-blue-100">
+                  <span className="flex-shrink-0 w-9 h-9 flex items-center justify-center rounded-full bg-sacred-light text-scripture text-sm font-bold border border-sacred/10">
                     {idx + 1}
                   </span>
 
@@ -555,17 +555,17 @@ export default function FamousBibleVersesPage() {
                     <div className="flex flex-wrap items-center gap-2 mb-2">
                       <Link
                         href={verseUrl(verse)}
-                        className="text-lg font-display font-bold text-scripture hover:text-blue-600 transition-colors"
+                        className="text-lg font-display font-bold text-scripture hover:text-gold-dark transition-colors"
                       >
                         {verse.reference}
                       </Link>
-                      <span className="inline-block px-2 py-0.5 bg-blue-50 text-blue-700 text-xs rounded-full border border-blue-100">
+                      <span className="inline-block px-2 py-0.5 bg-sacred-light text-scripture text-xs rounded-full border border-sacred/10">
                         {verse.theme}
                       </span>
                     </div>
 
                     {/* Verse Text */}
-                    <blockquote className="text-primary-dark/85 leading-relaxed italic border-l-3 border-blue-200 pl-4">
+                    <blockquote className="text-ink-muted leading-relaxed italic border-l-3 border-sacred/20 pl-4">
                       &ldquo;{verse.text}&rdquo;
                     </blockquote>
 
@@ -573,28 +573,28 @@ export default function FamousBibleVersesPage() {
                     <div className="flex flex-wrap items-center gap-3 mt-3 text-sm">
                       <Link
                         href={verseUrl(verse)}
-                        className="text-blue-600 hover:underline font-medium"
+                        className="text-sacred hover:underline font-medium"
                       >
                         Study this verse
                       </Link>
-                      <span className="text-primary-dark/30">|</span>
+                      <span className="text-ink-light">|</span>
                       <Link
                         href={`/chapters/${verse.bookSlug}/${verse.chapter}`}
-                        className="text-blue-600 hover:underline"
+                        className="text-sacred hover:underline"
                       >
                         {verse.book} {verse.chapter}
                       </Link>
-                      <span className="text-primary-dark/30">|</span>
+                      <span className="text-ink-light">|</span>
                       <Link
                         href={`/${verse.bookSlug}-chapters`}
-                        className="text-blue-600 hover:underline"
+                        className="text-sacred hover:underline"
                       >
                         {verse.book} Chapters
                       </Link>
-                      <span className="text-primary-dark/30">|</span>
+                      <span className="text-ink-light">|</span>
                       <Link
                         href={`/${verse.bookSlug}-${verse.chapter}-quiz`}
-                        className="text-blue-600 hover:underline font-semibold"
+                        className="text-sacred hover:underline font-semibold"
                       >
                         {verse.book} {verse.chapter} Quiz
                       </Link>
@@ -608,16 +608,16 @@ export default function FamousBibleVersesPage() {
 
         {/* Mid-Content CTA Banner */}
         <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-6 md:p-8 text-white">
+          <div className="bg-gradient-to-r from-scripture to-scripture/80 rounded-xl p-6 md:p-8 text-white">
             <h2 className="text-xl md:text-2xl font-display font-bold mb-2">
               Think You Know These Verses? Prove It.
             </h2>
-            <p className="text-blue-100 mb-4 max-w-2xl">
+            <p className="text-sacred-light mb-4 max-w-2xl">
               Take a chapter quiz from any book featured on this page. 15 questions per quiz with instant scoring and verse-by-verse explanations.
             </p>
             <Link
               href="/bible-quizzes"
-              className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md"
+              className="inline-flex items-center px-6 py-3 bg-white text-scripture font-bold rounded-lg hover:bg-sacred-light transition-colors shadow-md"
             >
               Take a Quiz Now
             </Link>
@@ -634,15 +634,15 @@ export default function FamousBibleVersesPage() {
               <div>
                 <h3 className="font-bold text-scripture mb-2">
                   Old Testament
-                  <span className="text-sm font-normal text-primary-dark/60 ml-2">({otVerses.length} verses)</span>
+                  <span className="text-sm font-normal text-ink-muted ml-2">({otVerses.length} verses)</span>
                 </h3>
                 <ul className="space-y-1">
                   {otVerses.map(v => (
                     <li key={v.reference}>
-                      <Link href={verseUrl(v)} className="text-sm text-blue-600 hover:underline">
+                      <Link href={verseUrl(v)} className="text-sm text-sacred hover:underline">
                         {v.reference}
                       </Link>
-                      <span className="text-sm text-primary-dark/50 ml-1">-- {v.book}</span>
+                      <span className="text-sm text-ink-muted ml-1">-- {v.book}</span>
                     </li>
                   ))}
                 </ul>
@@ -650,15 +650,15 @@ export default function FamousBibleVersesPage() {
               <div>
                 <h3 className="font-bold text-scripture mb-2">
                   New Testament
-                  <span className="text-sm font-normal text-primary-dark/60 ml-2">({ntVerses.length} verses)</span>
+                  <span className="text-sm font-normal text-ink-muted ml-2">({ntVerses.length} verses)</span>
                 </h3>
                 <ul className="space-y-1">
                   {ntVerses.map(v => (
                     <li key={v.reference}>
-                      <Link href={verseUrl(v)} className="text-sm text-blue-600 hover:underline">
+                      <Link href={verseUrl(v)} className="text-sm text-sacred hover:underline">
                         {v.reference}
                       </Link>
-                      <span className="text-sm text-primary-dark/50 ml-1">-- {v.book}</span>
+                      <span className="text-sm text-ink-muted ml-1">-- {v.book}</span>
                     </li>
                   ))}
                 </ul>
@@ -676,7 +676,7 @@ export default function FamousBibleVersesPage() {
             <div className="space-y-6">
               <div>
                 <h3 className="font-bold text-scripture mb-1">What are the most famous Bible verses?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
+                <p className="text-scripture leading-relaxed">
                   The most famous Bible verses include John 3:16, Jeremiah 29:11,
                   Philippians 4:13, Romans 8:28, and Proverbs 3:5&ndash;6. These passages
                   are among the most memorized, preached, and shared scriptures in
@@ -686,7 +686,7 @@ export default function FamousBibleVersesPage() {
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">What is the most quoted Bible verse?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
+                <p className="text-scripture leading-relaxed">
                   John 3:16 is widely recognized as the most quoted Bible verse in the
                   world: &ldquo;For God so loved the world, that he gave his only begotten
                   Son, that whosoever believeth in him should not perish, but have
@@ -697,7 +697,7 @@ export default function FamousBibleVersesPage() {
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">How many verses are in the Bible?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
+                <p className="text-scripture leading-relaxed">
                   The King James Version contains 31,102 verses across 66 books. The
                   Old Testament holds 23,145 verses and the New Testament holds 7,957
                   verses. Among these thousands, a relatively small number have become
@@ -706,7 +706,7 @@ export default function FamousBibleVersesPage() {
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">What Bible version are these famous verses from?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
+                <p className="text-scripture leading-relaxed">
                   All 50 verses on this page are presented in the King James Version
                   (KJV), first published in 1611. The KJV remains one of the most widely
                   read and memorized English Bible translations, prized for its literary
@@ -723,63 +723,63 @@ export default function FamousBibleVersesPage() {
             <h2 className="text-xl font-display font-bold text-scripture mb-4">
               Continue Exploring Scripture
             </h2>
-            <p className="text-sm text-primary-dark/70 mb-5">
+            <p className="text-sm text-ink-muted mb-5">
               Deepen your Bible study with quizzes, devotionals, reading plans, and more.
             </p>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
               <Link
                 href="/bible-quizzes"
-                className="flex items-center gap-3 px-4 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 hover:shadow-sm transition-all"
+                className="flex items-center gap-3 px-4 py-3 bg-scripture text-white font-bold rounded-lg hover:bg-ink-muted hover:shadow-sm transition-all"
               >
                 <span>Bible Quizzes</span>
               </Link>
               <Link
                 href="/devotionals"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Daily Devotionals</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Daily Devotionals</span>
               </Link>
               <Link
                 href="/reading-plans"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Reading Plans</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Reading Plans</span>
               </Link>
               <Link
                 href="/topics"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Bible Topics</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Bible Topics</span>
               </Link>
               <Link
                 href="/bible-study-guides"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Study Guides</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Study Guides</span>
               </Link>
               <Link
                 href="/cross-references"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Cross References</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Cross References</span>
               </Link>
               <Link
                 href="/bible-chapter-summaries"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Chapter Summaries</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Chapter Summaries</span>
               </Link>
               <Link
                 href="/bible-stories"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Bible Stories</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Bible Stories</span>
               </Link>
               <Link
                 href="/people"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Bible People</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Bible People</span>
               </Link>
             </div>
           </div>

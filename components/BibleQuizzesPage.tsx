@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { BIBLE_BOOKS } from '@/lib/bible-data';
 
 const difficultyFilters = [
-  { value: 'all', label: 'All Levels', color: 'bg-grace/20 text-primary-dark/80' },
+  { value: 'all', label: 'All Levels', color: 'bg-grace/20 text-scripture' },
   { value: 'beginner', label: 'Beginner Friendly', color: 'bg-green-100 text-green-700' },
   { value: 'intermediate', label: 'Some Experience', color: 'bg-amber-100 text-amber-700' },
   { value: 'advanced', label: 'Bible Scholar', color: 'bg-red-100 text-red-700' },

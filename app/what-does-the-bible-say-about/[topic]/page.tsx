@@ -266,7 +266,7 @@ export default async function WhatDoesBibleSayAboutPage({ params }: Props) {
             </h2>
             <div className="grid sm:grid-cols-2 gap-2">
               {topic.subtopics.map((sub, i) => (
-                <div key={i} className="px-3 py-2 bg-primary-light/30 rounded-lg text-sm text-primary-dark/80">
+                <div key={i} className="px-3 py-2 bg-primary-light/30 rounded-lg text-sm text-scripture">
                   {sub}
                 </div>
               ))}
@@ -510,7 +510,7 @@ export default async function WhatDoesBibleSayAboutPage({ params }: Props) {
                 .map((src, idx) => (
                   <span
                     key={idx}
-                    className="px-3 py-1 bg-primary-light/30 border border-grace rounded-lg text-xs text-primary-dark/60"
+                    className="px-3 py-1 bg-primary-light/30 border border-grace rounded-lg text-xs text-ink-muted"
                   >
                     {src.replace(/-/g, ' ')}
                   </span>

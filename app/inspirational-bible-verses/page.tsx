@@ -483,7 +483,7 @@ export default function InspirationalBibleVersesPage() {
                   </p>
                   <Link
                     href="/bible-quizzes"
-                    className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md w-fit"
+                    className="inline-flex items-center px-6 py-3 bg-white text-scripture font-bold rounded-lg hover:bg-sacred-light transition-colors shadow-md w-fit"
                   >
                     Test Your Knowledge -- Take a Quiz
                   </Link>
@@ -493,20 +493,20 @@ export default function InspirationalBibleVersesPage() {
               {/* Stats Bar */}
               <div className="grid grid-cols-4 divide-x divide-grace border-b border-grace">
                 <div className="p-4 text-center">
-                  <p className="text-2xl font-bold text-blue-600">50</p>
-                  <p className="text-sm text-primary-dark/70">Inspiring Verses</p>
+                  <p className="text-2xl font-bold text-sacred">50</p>
+                  <p className="text-sm text-ink-muted">Inspiring Verses</p>
                 </div>
                 <div className="p-4 text-center">
-                  <p className="text-2xl font-bold text-blue-600">{themes.length}</p>
-                  <p className="text-sm text-primary-dark/70">Themes</p>
+                  <p className="text-2xl font-bold text-sacred">{themes.length}</p>
+                  <p className="text-sm text-ink-muted">Themes</p>
                 </div>
                 <div className="p-4 text-center">
-                  <p className="text-2xl font-bold text-blue-600">KJV</p>
-                  <p className="text-sm text-primary-dark/70">Translation</p>
+                  <p className="text-2xl font-bold text-sacred">KJV</p>
+                  <p className="text-sm text-ink-muted">Translation</p>
                 </div>
                 <div className="p-4 text-center">
-                  <p className="text-2xl font-bold text-blue-600">{uniqueBooks.size}</p>
-                  <p className="text-sm text-primary-dark/70">Books</p>
+                  <p className="text-2xl font-bold text-sacred">{uniqueBooks.size}</p>
+                  <p className="text-sm text-ink-muted">Books</p>
                 </div>
               </div>
             </div>
@@ -519,7 +519,7 @@ export default function InspirationalBibleVersesPage() {
             <h2 className="text-xl font-display font-bold text-scripture mb-3">
               How Inspirational Bible Verses Can Transform Your Life
             </h2>
-            <div className="text-primary-dark/80 leading-relaxed space-y-3">
+            <div className="text-scripture leading-relaxed space-y-3">
               <p>
                 Throughout history, <strong>inspirational Bible verses</strong> have served as the foundation upon which believers build lives of purpose, courage, and enduring faith. These are not merely ancient words on a page -- they are living, active declarations from God that have moved entire nations, fueled the boldness of missionaries on foreign shores, and sustained martyrs in their darkest hours. When William Wilberforce fought to abolish the slave trade, he drew strength from scripture. When missionaries like Hudson Taylor pressed into the interior of China, <strong>motivational bible passages</strong> like Philippians 4:13 and Joshua 1:9 were the bedrock beneath their feet. The power of these <strong>uplifting verses</strong> lies not in sentiment but in the character of the God who spoke them.
               </p>
@@ -541,7 +541,7 @@ export default function InspirationalBibleVersesPage() {
               <a
                 key={theme}
                 href={`#theme-${theme.toLowerCase().replace(/\s+/g, '-')}`}
-                className="inline-flex items-center px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-primary-dark/80 hover:border-blue-300 hover:text-blue-600 transition-colors"
+                className="inline-flex items-center px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-scripture hover:border-sacred/50 hover:text-gold-dark transition-colors"
               >
                 {theme}
               </a>
@@ -556,11 +556,11 @@ export default function InspirationalBibleVersesPage() {
               <li
                 key={verse.reference}
                 id={`theme-${verse.theme.toLowerCase().replace(/\s+/g, '-')}`}
-                className="bg-white rounded-xl border border-grace hover:border-blue-200 hover:shadow-sm transition-all overflow-hidden"
+                className="bg-white rounded-xl border border-grace hover:border-sacred/50 hover:shadow-sm transition-all overflow-hidden"
               >
                 <div className="flex items-start gap-4 p-5 md:p-6">
                   {/* Number */}
-                  <span className="flex-shrink-0 w-9 h-9 flex items-center justify-center rounded-full bg-blue-50 text-blue-700 text-sm font-bold border border-blue-100">
+                  <span className="flex-shrink-0 w-9 h-9 flex items-center justify-center rounded-full bg-sacred-light text-scripture text-sm font-bold border border-sacred/10">
                     {idx + 1}
                   </span>
 
@@ -569,17 +569,17 @@ export default function InspirationalBibleVersesPage() {
                     <div className="flex flex-wrap items-center gap-2 mb-2">
                       <Link
                         href={verseUrl(verse)}
-                        className="text-lg font-display font-bold text-scripture hover:text-blue-600 transition-colors"
+                        className="text-lg font-display font-bold text-scripture hover:text-gold-dark transition-colors"
                       >
                         {verse.reference}
                       </Link>
-                      <span className="inline-block px-2 py-0.5 bg-blue-50 text-blue-700 text-xs rounded-full border border-blue-100">
+                      <span className="inline-block px-2 py-0.5 bg-sacred-light text-scripture text-xs rounded-full border border-sacred/10">
                         {verse.theme}
                       </span>
                     </div>
 
                     {/* Verse Text */}
-                    <blockquote className="text-primary-dark/85 leading-relaxed italic border-l-3 border-blue-200 pl-4">
+                    <blockquote className="text-ink-muted leading-relaxed italic border-l-3 border-sacred/20 pl-4">
                       &ldquo;{verse.text}&rdquo;
                     </blockquote>
 
@@ -587,28 +587,28 @@ export default function InspirationalBibleVersesPage() {
                     <div className="flex flex-wrap items-center gap-3 mt-3 text-sm">
                       <Link
                         href={verseUrl(verse)}
-                        className="text-blue-600 hover:underline font-medium"
+                        className="text-sacred hover:underline font-medium"
                       >
                         Study this verse
                       </Link>
-                      <span className="text-primary-dark/30">|</span>
+                      <span className="text-ink-light">|</span>
                       <Link
                         href={`/chapters/${verse.bookSlug}/${verse.chapter}`}
-                        className="text-blue-600 hover:underline"
+                        className="text-sacred hover:underline"
                       >
                         {verse.book} {verse.chapter}
                       </Link>
-                      <span className="text-primary-dark/30">|</span>
+                      <span className="text-ink-light">|</span>
                       <Link
                         href={`/${verse.bookSlug}-chapters`}
-                        className="text-blue-600 hover:underline"
+                        className="text-sacred hover:underline"
                       >
                         {verse.book} Chapters
                       </Link>
-                      <span className="text-primary-dark/30">|</span>
+                      <span className="text-ink-light">|</span>
                       <Link
                         href={`/${verse.bookSlug}-${verse.chapter}-quiz`}
-                        className="text-blue-600 hover:underline font-semibold"
+                        className="text-sacred hover:underline font-semibold"
                       >
                         {verse.book} {verse.chapter} Quiz
                       </Link>
@@ -622,16 +622,16 @@ export default function InspirationalBibleVersesPage() {
 
         {/* Mid-Content CTA Banner */}
         <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-6 md:p-8 text-white">
+          <div className="bg-gradient-to-r from-scripture to-scripture/80 rounded-xl p-6 md:p-8 text-white">
             <h2 className="text-xl md:text-2xl font-display font-bold mb-2">
               Think You Know These Verses? Prove It.
             </h2>
-            <p className="text-blue-100 mb-4 max-w-2xl">
+            <p className="text-sacred-light mb-4 max-w-2xl">
               Take a chapter quiz from any book featured on this page. 15 questions per quiz with instant scoring and verse-by-verse explanations.
             </p>
             <Link
               href="/bible-quizzes"
-              className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md"
+              className="inline-flex items-center px-6 py-3 bg-white text-scripture font-bold rounded-lg hover:bg-sacred-light transition-colors shadow-md"
             >
               Take a Quiz Now
             </Link>
@@ -648,15 +648,15 @@ export default function InspirationalBibleVersesPage() {
               <div>
                 <h3 className="font-bold text-scripture mb-2">
                   Old Testament
-                  <span className="text-sm font-normal text-primary-dark/60 ml-2">({otVerses.length} verses)</span>
+                  <span className="text-sm font-normal text-ink-muted ml-2">({otVerses.length} verses)</span>
                 </h3>
                 <ul className="space-y-1">
                   {otVerses.map(v => (
                     <li key={v.reference}>
-                      <Link href={verseUrl(v)} className="text-sm text-blue-600 hover:underline">
+                      <Link href={verseUrl(v)} className="text-sm text-sacred hover:underline">
                         {v.reference}
                       </Link>
-                      <span className="text-sm text-primary-dark/50 ml-1">-- {v.book}</span>
+                      <span className="text-sm text-ink-muted ml-1">-- {v.book}</span>
                     </li>
                   ))}
                 </ul>
@@ -664,15 +664,15 @@ export default function InspirationalBibleVersesPage() {
               <div>
                 <h3 className="font-bold text-scripture mb-2">
                   New Testament
-                  <span className="text-sm font-normal text-primary-dark/60 ml-2">({ntVerses.length} verses)</span>
+                  <span className="text-sm font-normal text-ink-muted ml-2">({ntVerses.length} verses)</span>
                 </h3>
                 <ul className="space-y-1">
                   {ntVerses.map(v => (
                     <li key={v.reference}>
-                      <Link href={verseUrl(v)} className="text-sm text-blue-600 hover:underline">
+                      <Link href={verseUrl(v)} className="text-sm text-sacred hover:underline">
                         {v.reference}
                       </Link>
-                      <span className="text-sm text-primary-dark/50 ml-1">-- {v.book}</span>
+                      <span className="text-sm text-ink-muted ml-1">-- {v.book}</span>
                     </li>
                   ))}
                 </ul>
@@ -690,7 +690,7 @@ export default function InspirationalBibleVersesPage() {
             <div className="space-y-6">
               <div>
                 <h3 className="font-bold text-scripture mb-1">What are the most inspirational Bible verses?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
+                <p className="text-scripture leading-relaxed">
                   The most inspirational Bible verses include Philippians 4:13
                   (&ldquo;I can do all things through Christ which strengtheneth
                   me&rdquo;), Isaiah 40:31 (&ldquo;But they that wait upon the LORD
@@ -704,7 +704,7 @@ export default function InspirationalBibleVersesPage() {
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">What is the most powerful verse in the Bible?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
+                <p className="text-scripture leading-relaxed">
                   While many scriptures carry tremendous power, Romans 8:31
                   (&ldquo;If God be for us, who can be against us?&rdquo;) and
                   Philippians 4:13 (&ldquo;I can do all things through Christ which
@@ -717,7 +717,7 @@ export default function InspirationalBibleVersesPage() {
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">What Bible verse is good for motivation?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
+                <p className="text-scripture leading-relaxed">
                   Colossians 3:23 is one of the best Bible verses for motivation:
                   &ldquo;And whatsoever ye do, do it heartily, as to the Lord, and
                   not unto men.&rdquo; Other highly motivating scriptures include
@@ -731,7 +731,7 @@ export default function InspirationalBibleVersesPage() {
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">What scripture is good for a new beginning?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
+                <p className="text-scripture leading-relaxed">
                   2 Corinthians 5:17 is the definitive scripture for new beginnings:
                   &ldquo;Therefore if any man be in Christ, he is a new creature: old
                   things are passed away; behold, all things are become new.&rdquo;
@@ -745,7 +745,7 @@ export default function InspirationalBibleVersesPage() {
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">What does the Bible say about being inspired by God?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
+                <p className="text-scripture leading-relaxed">
                   2 Timothy 1:7 teaches that God gives believers &ldquo;the spirit of
                   power, and of love, and of a sound mind&rdquo; rather than fear.
                   Acts 1:8 promises that the Holy Spirit empowers believers to be
@@ -768,63 +768,63 @@ export default function InspirationalBibleVersesPage() {
             <h2 className="text-xl font-display font-bold text-scripture mb-4">
               Continue Exploring Scripture
             </h2>
-            <p className="text-sm text-primary-dark/70 mb-5">
+            <p className="text-sm text-ink-muted mb-5">
               Deepen your Bible study with quizzes, devotionals, reading plans, and more.
             </p>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
               <Link
                 href="/bible-quizzes"
-                className="flex items-center gap-3 px-4 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 hover:shadow-sm transition-all"
+                className="flex items-center gap-3 px-4 py-3 bg-scripture text-white font-bold rounded-lg hover:bg-ink-muted hover:shadow-sm transition-all"
               >
                 <span>Bible Quizzes</span>
               </Link>
               <Link
                 href="/bible-quotes"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Bible Quotes Hub</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Bible Quotes Hub</span>
               </Link>
               <Link
                 href="/famous-bible-verses"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Famous Bible Verses</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Famous Bible Verses</span>
               </Link>
               <Link
                 href="/popular-bible-verses"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Popular Bible Verses</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Popular Bible Verses</span>
               </Link>
               <Link
                 href="/cross-references"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Cross References</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Cross References</span>
               </Link>
               <Link
                 href="/bible-study-guides"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Study Guides</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Study Guides</span>
               </Link>
               <Link
                 href="/devotionals"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Daily Devotionals</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Daily Devotionals</span>
               </Link>
               <Link
                 href="/topics"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Bible Topics</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Bible Topics</span>
               </Link>
               <Link
                 href="/bible-chapter-summaries"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Chapter Summaries</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Chapter Summaries</span>
               </Link>
             </div>
           </div>

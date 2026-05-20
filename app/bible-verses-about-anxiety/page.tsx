@@ -494,7 +494,7 @@ export default function BibleVersesAboutAnxietyPage() {
                   </p>
                   <Link
                     href="/bible-quizzes"
-                    className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md w-fit"
+                    className="inline-flex items-center px-6 py-3 bg-white text-scripture font-bold rounded-lg hover:bg-sacred-light transition-colors shadow-md w-fit"
                   >
                     Test Your Knowledge -- Take a Quiz
                   </Link>
@@ -504,20 +504,20 @@ export default function BibleVersesAboutAnxietyPage() {
               {/* Stats Bar */}
               <div className="grid grid-cols-4 divide-x divide-grace border-b border-grace">
                 <div className="p-4 text-center">
-                  <p className="text-2xl font-bold text-blue-600">50</p>
-                  <p className="text-sm text-primary-dark/70">Verses</p>
+                  <p className="text-2xl font-bold text-sacred">50</p>
+                  <p className="text-sm text-ink-muted">Verses</p>
                 </div>
                 <div className="p-4 text-center">
-                  <p className="text-2xl font-bold text-blue-600">{themes.length}</p>
-                  <p className="text-sm text-primary-dark/70">Themes</p>
+                  <p className="text-2xl font-bold text-sacred">{themes.length}</p>
+                  <p className="text-sm text-ink-muted">Themes</p>
                 </div>
                 <div className="p-4 text-center">
-                  <p className="text-2xl font-bold text-blue-600">KJV</p>
-                  <p className="text-sm text-primary-dark/70">Translation</p>
+                  <p className="text-2xl font-bold text-sacred">KJV</p>
+                  <p className="text-sm text-ink-muted">Translation</p>
                 </div>
                 <div className="p-4 text-center">
-                  <p className="text-2xl font-bold text-blue-600">{booksCount}</p>
-                  <p className="text-sm text-primary-dark/70">Books</p>
+                  <p className="text-2xl font-bold text-sacred">{booksCount}</p>
+                  <p className="text-sm text-ink-muted">Books</p>
                 </div>
               </div>
             </div>
@@ -530,7 +530,7 @@ export default function BibleVersesAboutAnxietyPage() {
             <h2 className="text-xl font-display font-bold text-scripture mb-3">
               When Anxiety Won&apos;t Let Go, Scripture Can
             </h2>
-            <p className="text-primary-dark/80 leading-relaxed mb-3">
+            <p className="text-scripture leading-relaxed mb-3">
               It&apos;s 2:47 AM. Your mind is racing through tomorrow&apos;s problems
               -- the meeting you&apos;re not prepared for, the bill you&apos;re not sure
               you can cover, the relationship that feels like it&apos;s unraveling one
@@ -538,7 +538,7 @@ export default function BibleVersesAboutAnxietyPage() {
               tried counting backward from a hundred. Your chest is still tight. Sound
               familiar? You&apos;re not alone. Not even close.
             </p>
-            <p className="text-primary-dark/80 leading-relaxed mb-3">
+            <p className="text-scripture leading-relaxed mb-3">
               Anxiety affects roughly 40 million American adults every year, according to
               the National Institute of Mental Health. That&apos;s nearly 1 in 5 people.
               And here&apos;s the thing -- the Bible addresses worry, fear, and anxious
@@ -549,7 +549,7 @@ export default function BibleVersesAboutAnxietyPage() {
               something medicine cannot provide: the direct words of the God who made you,
               spoken into the exact thing that keeps you up at night.
             </p>
-            <p className="text-primary-dark/80 leading-relaxed mb-3">
+            <p className="text-scripture leading-relaxed mb-3">
               There&apos;s a difference between everyday worry and clinical anxiety
               disorder, and Scripture does not dismiss either one. David wrote Psalm 56:3
               while enemy soldiers were hunting him down in real time. Elijah collapsed
@@ -557,7 +557,7 @@ export default function BibleVersesAboutAnxietyPage() {
               of his ministry. Jesus sweat drops of blood in Gethsemane. These are not
               people who lacked faith. They were the heroes of it. And they were terrified.
             </p>
-            <p className="text-primary-dark/80 leading-relaxed mb-3">
+            <p className="text-scripture leading-relaxed mb-3">
               And honestly? Modern research is catching up to what believers have known for
               centuries. A Duke University study on prayer and meditation found that focused
               scriptural meditation activates the parasympathetic nervous system -- the
@@ -569,7 +569,7 @@ export default function BibleVersesAboutAnxietyPage() {
               God designed into your body was already there, waiting for His Word to
               activate it.
             </p>
-            <p className="text-primary-dark/80 leading-relaxed mb-3">
+            <p className="text-scripture leading-relaxed mb-3">
               The 50 <em>anxiety bible verses KJV</em> below cover every angle. Some are
               about <em>casting your cares</em> onto a God who is strong enough to carry
               them. Some are about the <em>peace of mind bible verses</em> that promise
@@ -578,7 +578,7 @@ export default function BibleVersesAboutAnxietyPage() {
               the most, because they prove that faith and fear can exist in the same heart
               at the same time.
             </p>
-            <p className="text-primary-dark/80 leading-relaxed">
+            <p className="text-scripture leading-relaxed">
               Each verse links to a full study page with cross-references, original
               language insights, and a chapter quiz so you can test how well you know the
               passage. Whether it&apos;s the middle of the night or you&apos;re sitting
@@ -597,7 +597,7 @@ export default function BibleVersesAboutAnxietyPage() {
               <a
                 key={theme}
                 href={`#theme-${theme.toLowerCase().replace(/\s+/g, '-').replace(/'/g, '')}`}
-                className="inline-flex items-center px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-primary-dark/80 hover:border-blue-300 hover:text-blue-600 transition-colors"
+                className="inline-flex items-center px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-scripture hover:border-sacred/50 hover:text-gold-dark transition-colors"
               >
                 {theme}
               </a>
@@ -612,11 +612,11 @@ export default function BibleVersesAboutAnxietyPage() {
               <li
                 key={verse.reference}
                 id={`theme-${verse.theme.toLowerCase().replace(/\s+/g, '-').replace(/'/g, '')}`}
-                className="bg-white rounded-xl border border-grace hover:border-blue-200 hover:shadow-sm transition-all overflow-hidden"
+                className="bg-white rounded-xl border border-grace hover:border-sacred/50 hover:shadow-sm transition-all overflow-hidden"
               >
                 <div className="flex items-start gap-4 p-5 md:p-6">
                   {/* Number */}
-                  <span className="flex-shrink-0 w-9 h-9 flex items-center justify-center rounded-full bg-blue-50 text-blue-700 text-sm font-bold border border-blue-100">
+                  <span className="flex-shrink-0 w-9 h-9 flex items-center justify-center rounded-full bg-sacred-light text-scripture text-sm font-bold border border-sacred/10">
                     {idx + 1}
                   </span>
 
@@ -625,17 +625,17 @@ export default function BibleVersesAboutAnxietyPage() {
                     <div className="flex flex-wrap items-center gap-2 mb-2">
                       <Link
                         href={verseUrl(verse)}
-                        className="text-lg font-display font-bold text-scripture hover:text-blue-600 transition-colors"
+                        className="text-lg font-display font-bold text-scripture hover:text-gold-dark transition-colors"
                       >
                         {verse.reference}
                       </Link>
-                      <span className="inline-block px-2 py-0.5 bg-blue-50 text-blue-700 text-xs rounded-full border border-blue-100">
+                      <span className="inline-block px-2 py-0.5 bg-sacred-light text-scripture text-xs rounded-full border border-sacred/10">
                         {verse.theme}
                       </span>
                     </div>
 
                     {/* Verse Text */}
-                    <blockquote className="text-primary-dark/85 leading-relaxed italic border-l-3 border-blue-200 pl-4">
+                    <blockquote className="text-ink-muted leading-relaxed italic border-l-3 border-sacred/20 pl-4">
                       &ldquo;{verse.text}&rdquo;
                     </blockquote>
 
@@ -643,35 +643,35 @@ export default function BibleVersesAboutAnxietyPage() {
                     <div className="flex flex-wrap items-center gap-3 mt-3 text-sm">
                       <Link
                         href={verseUrl(verse)}
-                        className="text-blue-600 hover:underline font-medium"
+                        className="text-sacred hover:underline font-medium"
                       >
                         Study this verse
                       </Link>
-                      <span className="text-primary-dark/30">|</span>
+                      <span className="text-ink-light">|</span>
                       <Link
                         href={`/chapters/${verse.bookSlug}/${verse.chapter}`}
-                        className="text-blue-600 hover:underline"
+                        className="text-sacred hover:underline"
                       >
                         Chapter {verse.chapter}
                       </Link>
-                      <span className="text-primary-dark/30">|</span>
+                      <span className="text-ink-light">|</span>
                       <Link
                         href={`/${verse.bookSlug}-chapters`}
-                        className="text-blue-600 hover:underline"
+                        className="text-sacred hover:underline"
                       >
                         {verse.book} Chapters
                       </Link>
-                      <span className="text-primary-dark/30">|</span>
+                      <span className="text-ink-light">|</span>
                       <Link
                         href={`/${verse.bookSlug}-${verse.chapter}-quiz`}
-                        className="text-blue-600 hover:underline font-semibold"
+                        className="text-sacred hover:underline font-semibold"
                       >
                         Chapter Quiz
                       </Link>
-                      <span className="text-primary-dark/30">|</span>
+                      <span className="text-ink-light">|</span>
                       <Link
                         href={`/bible-quotes/${verse.themeSlug}`}
-                        className="text-blue-600 hover:underline"
+                        className="text-sacred hover:underline"
                       >
                         Bible Quotes About {verse.theme}
                       </Link>
@@ -685,18 +685,18 @@ export default function BibleVersesAboutAnxietyPage() {
 
         {/* Mid-Content CTA Banner */}
         <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-6 md:p-8 text-white">
+          <div className="bg-gradient-to-r from-scripture to-scripture/80 rounded-xl p-6 md:p-8 text-white">
             <h2 className="text-xl md:text-2xl font-display font-bold mb-2">
               How Well Do You Know These Anxiety Verses? Take a Quiz.
             </h2>
-            <p className="text-blue-100 mb-4 max-w-2xl">
+            <p className="text-sacred-light mb-4 max-w-2xl">
               Put your Bible knowledge to the test with chapter quizzes from Psalms,
               Philippians, Matthew, Isaiah, and more. 15 questions per quiz with
               instant scoring and verse-by-verse explanations.
             </p>
             <Link
               href="/bible-quizzes"
-              className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md"
+              className="inline-flex items-center px-6 py-3 bg-white text-scripture font-bold rounded-lg hover:bg-sacred-light transition-colors shadow-md"
             >
               Take a Quiz Now
             </Link>
@@ -713,15 +713,15 @@ export default function BibleVersesAboutAnxietyPage() {
               <div>
                 <h3 className="font-bold text-scripture mb-2">
                   Old Testament
-                  <span className="text-sm font-normal text-primary-dark/60 ml-2">({otVerses.length} verses)</span>
+                  <span className="text-sm font-normal text-ink-muted ml-2">({otVerses.length} verses)</span>
                 </h3>
                 <ul className="space-y-1">
                   {otVerses.map(v => (
                     <li key={v.reference}>
-                      <Link href={verseUrl(v)} className="text-sm text-blue-600 hover:underline">
+                      <Link href={verseUrl(v)} className="text-sm text-sacred hover:underline">
                         {v.reference}
                       </Link>
-                      <span className="text-sm text-primary-dark/50 ml-1">-- {v.book}</span>
+                      <span className="text-sm text-ink-muted ml-1">-- {v.book}</span>
                     </li>
                   ))}
                 </ul>
@@ -729,15 +729,15 @@ export default function BibleVersesAboutAnxietyPage() {
               <div>
                 <h3 className="font-bold text-scripture mb-2">
                   New Testament
-                  <span className="text-sm font-normal text-primary-dark/60 ml-2">({ntVerses.length} verses)</span>
+                  <span className="text-sm font-normal text-ink-muted ml-2">({ntVerses.length} verses)</span>
                 </h3>
                 <ul className="space-y-1">
                   {ntVerses.map(v => (
                     <li key={v.reference}>
-                      <Link href={verseUrl(v)} className="text-sm text-blue-600 hover:underline">
+                      <Link href={verseUrl(v)} className="text-sm text-sacred hover:underline">
                         {v.reference}
                       </Link>
-                      <span className="text-sm text-primary-dark/50 ml-1">-- {v.book}</span>
+                      <span className="text-sm text-ink-muted ml-1">-- {v.book}</span>
                     </li>
                   ))}
                 </ul>
@@ -755,7 +755,7 @@ export default function BibleVersesAboutAnxietyPage() {
             <div className="space-y-6">
               <div>
                 <h3 className="font-bold text-scripture mb-1">What is the best Bible verse for anxiety?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
+                <p className="text-scripture leading-relaxed">
                   If you need one verse to hold onto when anxiety hits, Philippians
                   4:6&ndash;7 is the one most Christians reach for: &ldquo;Be careful
                   for nothing; but in every thing by prayer and supplication with
@@ -773,7 +773,7 @@ export default function BibleVersesAboutAnxietyPage() {
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">Does the Bible say anxiety is a sin?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
+                <p className="text-scripture leading-relaxed">
                   No. The Bible never categorizes anxiety the way it categorizes lying,
                   theft, or idolatry. Philippians 4:6 tells believers to &ldquo;be
                   careful for nothing,&rdquo; but the context is pastoral care, not
@@ -791,7 +791,7 @@ export default function BibleVersesAboutAnxietyPage() {
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">What does &ldquo;casting all your care upon him&rdquo; mean?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
+                <p className="text-scripture leading-relaxed">
                   1 Peter 5:7 says &ldquo;Casting all your care upon him; for he careth
                   for you.&rdquo; The Greek word for &ldquo;casting&rdquo; is{' '}
                   <em>epirrhipto</em>. It means to throw something onto someone else --
@@ -808,7 +808,7 @@ export default function BibleVersesAboutAnxietyPage() {
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">How many times does the Bible say &ldquo;do not fear&rdquo;?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
+                <p className="text-scripture leading-relaxed">
                   You have probably heard the claim that the Bible says &ldquo;do not
                   fear&rdquo; 365 times -- one for every day of the year. That number
                   is an approximation. The exact count depends on which translation you
@@ -825,7 +825,7 @@ export default function BibleVersesAboutAnxietyPage() {
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">What Psalm helps with anxiety?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
+                <p className="text-scripture leading-relaxed">
                   Several Psalms speak directly into anxiety and fear. Psalm 23 is the
                   most well-known -- &ldquo;though I walk through the valley of the
                   shadow of death, I will fear no evil: for thou art with me.&rdquo;
@@ -853,63 +853,63 @@ export default function BibleVersesAboutAnxietyPage() {
             <h2 className="text-xl font-display font-bold text-scripture mb-4">
               Continue Exploring Scripture
             </h2>
-            <p className="text-sm text-primary-dark/70 mb-5">
+            <p className="text-sm text-ink-muted mb-5">
               Deepen your Bible study with quizzes, verse collections, devotionals, and more.
             </p>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
               <Link
                 href="/bible-quizzes"
-                className="flex items-center gap-3 px-4 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 hover:shadow-sm transition-all"
+                className="flex items-center gap-3 px-4 py-3 bg-scripture text-white font-bold rounded-lg hover:bg-ink-muted hover:shadow-sm transition-all"
               >
                 <span>Bible Quizzes</span>
               </Link>
               <Link
                 href="/bible-quotes"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Bible Quotes Hub</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Bible Quotes Hub</span>
               </Link>
               <Link
                 href="/bible-verses-about-strength-in-hard-times"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Verses About Strength</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Verses About Strength</span>
               </Link>
               <Link
                 href="/encouraging-bible-verses"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Encouraging Bible Verses</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Encouraging Bible Verses</span>
               </Link>
               <Link
                 href="/popular-bible-verses"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Popular Bible Verses</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Popular Bible Verses</span>
               </Link>
               <Link
                 href="/famous-bible-verses"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Famous Bible Verses</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Famous Bible Verses</span>
               </Link>
               <Link
                 href="/verse-of-the-day"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Verse of the Day</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Verse of the Day</span>
               </Link>
               <Link
                 href="/devotionals"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Daily Devotionals</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Daily Devotionals</span>
               </Link>
               <Link
                 href="/topics"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Bible Topics</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Bible Topics</span>
               </Link>
             </div>
           </div>

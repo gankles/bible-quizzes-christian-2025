@@ -24,9 +24,9 @@ export default function LexiconSearch() {
 
     return (
         <div className="max-w-3xl mx-auto mb-16">
-            <form onSubmit={handleSearch} className="bg-white p-2 rounded-xl border border-grace shadow-sm focus-within:ring-2 ring-blue-600/20 focus-within:border-blue-300 transition-all">
+            <form onSubmit={handleSearch} className="bg-white p-2 rounded-xl border border-grace shadow-sm focus-within:ring-2 ring-blue-600/20 focus-within:border-sacred/50 transition-all">
                 <div className="flex items-center">
-                    <div className="pl-5 text-primary-dark/40">
+                    <div className="pl-5 text-ink-light">
                         <SearchIcon className="w-5 h-5" />
                     </div>
                     <input
@@ -34,21 +34,21 @@ export default function LexiconSearch() {
                         value={query}
                         onChange={(e) => setQuery(e.target.value)}
                         placeholder="Enter Strong's Number (G25, H7965) or Word..."
-                        className="w-full py-4 px-4 text-scripture focus:outline-none text-lg bg-transparent placeholder:text-primary-dark/40"
+                        className="w-full py-4 px-4 text-scripture focus:outline-none text-lg bg-transparent placeholder:text-ink-light"
                     />
                     <button
                         type="submit"
-                        className="px-8 py-3 bg-blue-600 text-white rounded-lg text-sm font-semibold shadow-sm hover:bg-blue-700 transition-colors mr-1"
+                        className="px-8 py-3 bg-scripture text-white rounded-lg text-sm font-semibold shadow-sm hover:bg-ink-muted transition-colors mr-1"
                     >
                         Search
                     </button>
                 </div>
             </form>
             <div className="mt-4 flex items-center justify-center space-x-6 flex-wrap gap-y-2">
-                <span className="text-sm text-primary-dark/40">Quick links:</span>
-                <a href="/lexicon/G25" className="text-sm font-medium text-blue-600 hover:text-blue-700 hover:underline">G25 (Agape)</a>
-                <a href="/lexicon/H7965" className="text-sm font-medium text-blue-600 hover:text-blue-700 hover:underline">H7965 (Shalom)</a>
-                <a href="/lexicon/G5485" className="text-sm font-medium text-blue-600 hover:text-blue-700 hover:underline">G5485 (Charis)</a>
+                <span className="text-sm text-ink-light">Quick links:</span>
+                <a href="/lexicon/G25" className="text-sm font-medium text-sacred hover:text-gold-dark hover:underline">G25 (Agape)</a>
+                <a href="/lexicon/H7965" className="text-sm font-medium text-sacred hover:text-gold-dark hover:underline">H7965 (Shalom)</a>
+                <a href="/lexicon/G5485" className="text-sm font-medium text-sacred hover:text-gold-dark hover:underline">G5485 (Charis)</a>
             </div>
         </div>
     );

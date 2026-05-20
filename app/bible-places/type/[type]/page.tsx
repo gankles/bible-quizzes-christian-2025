@@ -75,10 +75,10 @@ export default async function TypePage({ params }: PageProps) {
       <StructuredData data={jsonLd} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
-        <Link href="/" className="hover:text-blue-600">Home</Link>
+      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-ink-muted">
+        <Link href="/" className="hover:text-gold-dark">Home</Link>
         <span className="mx-1.5">/</span>
-        <Link href="/bible-places" className="hover:text-blue-600">Bible Places</Link>
+        <Link href="/bible-places" className="hover:text-gold-dark">Bible Places</Link>
         <span className="mx-1.5">/</span>
         <span className="text-scripture font-medium">{label}</span>
       </nav>
@@ -88,7 +88,7 @@ export default async function TypePage({ params }: PageProps) {
         <h1 className="text-3xl md:text-4xl font-bold font-display mb-3 text-scripture">
           Biblical {label}
         </h1>
-        <p className="text-primary-dark/70 max-w-2xl mb-4">
+        <p className="text-ink-muted max-w-2xl mb-4">
           Explore <strong>{places.length}</strong> {label.toLowerCase()} mentioned in the Bible,
           sorted by frequency of reference, with interactive maps and verse references.
         </p>
@@ -112,7 +112,7 @@ export default async function TypePage({ params }: PageProps) {
               <Link
                 key={p.slug}
                 href={`/bible-places/${p.slug}`}
-                className="bg-white border border-grace rounded-lg overflow-hidden p-0 hover:shadow-md hover:border-blue-300 transition-all group"
+                className="bg-white border border-grace rounded-lg overflow-hidden p-0 hover:shadow-md hover:border-sacred/50 transition-all group"
               >
                 {thumbUrl && (
                   <div
@@ -125,13 +125,13 @@ export default async function TypePage({ params }: PageProps) {
                 )}
                 <div className="px-4 py-3">
                   <div className="flex items-center justify-between">
-                    <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                    <span className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                       {p.name}
                     </span>
-                    <span className="text-xs text-primary-dark/40">{p.verseCount} verse{p.verseCount !== 1 ? 's' : ''}</span>
+                    <span className="text-xs text-ink-light">{p.verseCount} verse{p.verseCount !== 1 ? 's' : ''}</span>
                   </div>
                   {p.modernName && p.modernName !== p.name && (
-                    <span className="text-xs text-primary-dark/50">Modern: {p.modernName}</span>
+                    <span className="text-xs text-ink-muted">Modern: {p.modernName}</span>
                   )}
                 </div>
               </Link>
@@ -142,13 +142,13 @@ export default async function TypePage({ params }: PageProps) {
 
       {/* Quiz CTA */}
       <section className="max-w-6xl mx-auto px-4 pb-8">
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-sm font-medium text-blue-900">
+        <div className="bg-blue-50 border border-sacred/20 rounded-lg p-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <p className="text-sm font-medium text-scripture">
             Explore {places.length} biblical {label.toLowerCase()} — then test your knowledge with a geography quiz.
           </p>
           <Link
             href="/bible-geography-quiz"
-            className="bg-blue-600 hover:bg-blue-700 text-white text-sm font-bold px-5 py-2 rounded-lg transition-colors whitespace-nowrap"
+            className="bg-scripture hover:bg-ink-muted text-white text-sm font-bold px-5 py-2 rounded-lg transition-colors whitespace-nowrap"
           >
             Geography Quizzes &rarr;
           </Link>
@@ -164,7 +164,7 @@ export default async function TypePage({ params }: PageProps) {
               <Link
                 key={t}
                 href={`/bible-places/type/${t.replace(/\s+/g, '-')}`}
-                className="px-3 py-1.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors"
+                className="px-3 py-1.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors"
               >
                 {formatPlaceType(t)}
               </Link>

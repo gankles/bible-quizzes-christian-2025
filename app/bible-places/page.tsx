@@ -49,8 +49,8 @@ export default function BiblePlacesPage() {
       <StructuredData data={jsonLd} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
-        <Link href="/" className="hover:text-blue-600">Home</Link>
+      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-ink-muted">
+        <Link href="/" className="hover:text-gold-dark">Home</Link>
         <span className="mx-1.5">/</span>
         <span className="text-scripture font-medium">Bible Places</span>
       </nav>
@@ -62,7 +62,7 @@ export default function BiblePlacesPage() {
             <h1 className="text-3xl md:text-4xl font-bold font-display mb-3 text-scripture">
               Bible Places Directory
             </h1>
-            <p className="text-lg text-primary-dark/70 max-w-2xl mb-6">
+            <p className="text-lg text-ink-muted max-w-2xl mb-6">
               Explore every identifiable place mentioned in the Bible — with interactive maps,
               scholarly confidence scores, verse references, and photos from the Holy Land.
             </p>
@@ -70,19 +70,19 @@ export default function BiblePlacesPage() {
             <div className="flex flex-wrap gap-6 text-center">
               <div>
                 <p className="text-3xl font-bold text-scripture">{stats.totalPlaces.toLocaleString()}</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Places</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Places</p>
               </div>
               <div>
-                <p className="text-3xl font-bold text-blue-400">{stats.withCoordinates.toLocaleString()}</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Mapped</p>
+                <p className="text-3xl font-bold text-sacred">{stats.withCoordinates.toLocaleString()}</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Mapped</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-scripture">{stats.totalVerseRefs.toLocaleString()}</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Verse Refs</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Verse Refs</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-scripture">{stats.totalTypes}</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Types</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Types</p>
               </div>
             </div>
           </div>
@@ -97,9 +97,9 @@ export default function BiblePlacesPage() {
             <Link
               key={type}
               href={`/bible-places/type/${type.replace(/\s+/g, '-')}`}
-              className="px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-primary-dark/80 hover:border-blue-300 hover:text-blue-600 transition-colors"
+              className="px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-scripture hover:border-sacred/50 hover:text-gold-dark transition-colors"
             >
-              {formatPlaceType(type)} <span className="text-primary-dark/40">({count})</span>
+              {formatPlaceType(type)} <span className="text-ink-light">({count})</span>
             </Link>
           ))}
         </div>
@@ -112,7 +112,7 @@ export default function BiblePlacesPage() {
             <a
               key={letter}
               href={`#letter-${letter}`}
-              className="w-9 h-9 flex items-center justify-center rounded-lg bg-white border border-grace text-sm font-bold text-primary-dark/80 hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-colors"
+              className="w-9 h-9 flex items-center justify-center rounded-lg bg-white border border-grace text-sm font-bold text-scripture hover:bg-ink-muted hover:text-white hover:border-sacred/50 transition-colors"
             >
               {letter}
             </a>
@@ -127,21 +127,21 @@ export default function BiblePlacesPage() {
           return (
             <div key={letter} id={`letter-${letter}`} className="mb-8">
               <div className="flex items-center gap-3 mb-4">
-                <span className="w-10 h-10 flex items-center justify-center rounded-lg bg-blue-600 text-white font-bold text-lg">
+                <span className="w-10 h-10 flex items-center justify-center rounded-lg bg-scripture text-white font-bold text-lg">
                   {letter}
                 </span>
                 <h2 className="text-xl font-bold text-scripture">{letter}</h2>
-                <span className="text-sm text-primary-dark/60">({places.length})</span>
+                <span className="text-sm text-ink-muted">({places.length})</span>
               </div>
               <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
                 {places.map(p => (
                   <Link
                     key={p.slug}
                     href={`/bible-places/${p.slug}`}
-                    className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
+                    className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-sacred/50 transition-all group"
                   >
                     <div className="flex items-center justify-between">
-                      <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                      <span className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                         {p.name}
                       </span>
                       {p.lat !== null && (
@@ -151,9 +151,9 @@ export default function BiblePlacesPage() {
                       )}
                     </div>
                     <div className="flex items-center gap-3 mt-1">
-                      <span className="text-xs text-primary-dark/50 capitalize">{p.type}</span>
+                      <span className="text-xs text-ink-muted capitalize">{p.type}</span>
                       {p.verseCount > 0 && (
-                        <span className="text-xs text-primary-dark/40">{p.verseCount} verse{p.verseCount !== 1 ? 's' : ''}</span>
+                        <span className="text-xs text-ink-light">{p.verseCount} verse{p.verseCount !== 1 ? 's' : ''}</span>
                       )}
                     </div>
                   </Link>
@@ -168,17 +168,17 @@ export default function BiblePlacesPage() {
       <section className="max-w-6xl mx-auto px-4 pb-12">
         <div className="bg-primary-light/30 border border-grace rounded-xl p-6 text-center">
           <h2 className="text-xl font-bold text-scripture mb-2">Explore More</h2>
-          <p className="text-sm text-primary-dark/70 mb-4">
+          <p className="text-sm text-ink-muted mb-4">
             Discover Bible geography organized by book and chapter.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            <Link href="/bible-geography" className="px-5 py-2.5 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors">
+            <Link href="/bible-geography" className="px-5 py-2.5 bg-scripture text-white text-sm font-medium rounded-lg hover:bg-ink-muted transition-colors">
               Bible Geography by Book
             </Link>
-            <Link href="/people" className="px-5 py-2.5 bg-white text-blue-600 text-sm font-medium rounded-lg border border-blue-300 hover:bg-primary-light transition-colors">
+            <Link href="/people" className="px-5 py-2.5 bg-white text-sacred text-sm font-medium rounded-lg border border-sacred/50 hover:bg-primary-light transition-colors">
               Bible People
             </Link>
-            <Link href="/bible-quizzes" className="px-5 py-2.5 bg-white text-primary-dark/80 text-sm font-medium rounded-lg border border-grace hover:bg-primary-light/50 transition-colors">
+            <Link href="/bible-quizzes" className="px-5 py-2.5 bg-white text-scripture text-sm font-medium rounded-lg border border-grace hover:bg-primary-light/50 transition-colors">
               Bible Quizzes
             </Link>
           </div>

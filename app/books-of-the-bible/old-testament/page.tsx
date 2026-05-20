@@ -72,14 +72,14 @@ function BookCard({ slug }: { slug: string }) {
       href={`/${slug}-chapters`}
       className="group bg-white rounded-xl border border-grace hover:border-sacred/60 hover:shadow-md transition-all p-5"
     >
-      <h3 className="font-display font-bold text-scripture group-hover:text-blue-700 transition-colors">
+      <h3 className="font-display font-bold text-scripture group-hover:text-gold-dark transition-colors">
         {book.name}
       </h3>
       <div className="flex items-center justify-between mt-3">
-        <span className="text-sm text-primary-dark/70">{book.chapters} {book.chapters === 1 ? 'chapter' : 'chapters'}</span>
-        <span className="text-xs text-primary-dark/50">{author}</span>
+        <span className="text-sm text-ink-muted">{book.chapters} {book.chapters === 1 ? 'chapter' : 'chapters'}</span>
+        <span className="text-xs text-ink-muted">{author}</span>
       </div>
-      <span className="block text-blue-600 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-opacity">
+      <span className="block text-sacred text-sm mt-2 opacity-0 group-hover:opacity-100 transition-opacity">
         View Chapters &rarr;
       </span>
     </Link>
@@ -137,11 +137,11 @@ export default function OldTestamentBooksPage() {
       <nav aria-label="Breadcrumb" className="bg-white border-b border-grace">
         <div className="max-w-5xl mx-auto px-4 py-3">
           <ol className="flex items-center space-x-2 text-sm">
-            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
-            <li aria-hidden="true" className="text-primary-dark/40">/</li>
-            <li><Link href="/books-of-the-bible" className="text-blue-600 hover:underline">Books of the Bible</Link></li>
-            <li aria-hidden="true" className="text-primary-dark/40">/</li>
-            <li aria-current="page" className="text-primary-dark/70">Old Testament</li>
+            <li><Link href="/" className="text-sacred hover:underline">Home</Link></li>
+            <li aria-hidden="true" className="text-ink-light">/</li>
+            <li><Link href="/books-of-the-bible" className="text-sacred hover:underline">Books of the Bible</Link></li>
+            <li aria-hidden="true" className="text-ink-light">/</li>
+            <li aria-current="page" className="text-ink-muted">Old Testament</li>
           </ol>
         </div>
       </nav>
@@ -169,16 +169,16 @@ export default function OldTestamentBooksPage() {
           {/* Stats */}
           <div className="grid grid-cols-3 divide-x divide-grace border-b border-grace">
             <div className="p-4 text-center">
-              <p className="text-2xl font-bold text-blue-600">39</p>
-              <p className="text-sm text-primary-dark/70">Books</p>
+              <p className="text-2xl font-bold text-sacred">39</p>
+              <p className="text-sm text-ink-muted">Books</p>
             </div>
             <div className="p-4 text-center">
-              <p className="text-2xl font-bold text-blue-600">{totalChapters.toLocaleString()}</p>
-              <p className="text-sm text-primary-dark/70">Chapters</p>
+              <p className="text-2xl font-bold text-sacred">{totalChapters.toLocaleString()}</p>
+              <p className="text-sm text-ink-muted">Chapters</p>
             </div>
             <div className="p-4 text-center">
-              <p className="text-2xl font-bold text-blue-600">5</p>
-              <p className="text-sm text-primary-dark/70">Categories</p>
+              <p className="text-2xl font-bold text-sacred">5</p>
+              <p className="text-sm text-ink-muted">Categories</p>
             </div>
           </div>
         </div>
@@ -196,11 +196,11 @@ export default function OldTestamentBooksPage() {
                 <div className="mb-5">
                   <div className="flex items-center gap-3 mb-2">
                     <h2 className="text-2xl font-display font-bold text-scripture">{category.title}</h2>
-                    <span className="text-sm text-primary-dark/50">
+                    <span className="text-sm text-ink-muted">
                       {category.slugs.length} {category.slugs.length === 1 ? 'book' : 'books'} &middot; {categoryChapters} chapters
                     </span>
                   </div>
-                  <p className="text-primary-dark/70 leading-relaxed max-w-3xl">{category.description}</p>
+                  <p className="text-ink-muted leading-relaxed max-w-3xl">{category.description}</p>
                 </div>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
                   {category.slugs.map((slug) => (
@@ -220,20 +220,20 @@ export default function OldTestamentBooksPage() {
           <div className="space-y-6">
             <div>
               <h3 className="font-display font-bold text-scripture mb-2">What are the 5 sections of the Old Testament?</h3>
-              <p className="text-primary-dark/70 leading-relaxed">
+              <p className="text-ink-muted leading-relaxed">
                 The Old Testament is traditionally divided into 5 sections: (1) <strong>Law / Pentateuch</strong> (Genesis-Deuteronomy) &mdash; 5 books written by Moses covering creation through Israel&rsquo;s preparation to enter the Promised Land; (2) <strong>Historical Books</strong> (Joshua-Esther) &mdash; 12 books recording Israel&rsquo;s history from conquest to exile; (3) <strong>Poetry &amp; Wisdom</strong> (Job-Song of Solomon) &mdash; 5 books of Hebrew poetry, worship, and wisdom literature; (4) <strong>Major Prophets</strong> (Isaiah-Daniel) &mdash; 5 longer prophetic books; and (5) <strong>Minor Prophets</strong> (Hosea-Malachi) &mdash; 12 shorter prophetic books.
               </p>
             </div>
             <div>
               <h3 className="font-display font-bold text-scripture mb-2">How many chapters are in the Old Testament?</h3>
-              <p className="text-primary-dark/70 leading-relaxed">
-                The Old Testament contains <strong>{totalChapters.toLocaleString()} chapters</strong> across its 39 books. The longest book is <Link href="/psalms-chapters" className="text-blue-600 hover:underline">Psalms</Link> with 150 chapters, while <Link href="/obadiah-chapters" className="text-blue-600 hover:underline">Obadiah</Link> is the shortest with only 1 chapter. The Pentateuch accounts for 187 chapters, the Historical Books for 249, Poetry &amp; Wisdom for 243, Major Prophets for 183, and the Minor Prophets for 67 chapters.
+              <p className="text-ink-muted leading-relaxed">
+                The Old Testament contains <strong>{totalChapters.toLocaleString()} chapters</strong> across its 39 books. The longest book is <Link href="/psalms-chapters" className="text-sacred hover:underline">Psalms</Link> with 150 chapters, while <Link href="/obadiah-chapters" className="text-sacred hover:underline">Obadiah</Link> is the shortest with only 1 chapter. The Pentateuch accounts for 187 chapters, the Historical Books for 249, Poetry &amp; Wisdom for 243, Major Prophets for 183, and the Minor Prophets for 67 chapters.
               </p>
             </div>
             <div>
               <h3 className="font-display font-bold text-scripture mb-2">Who wrote the most Old Testament books?</h3>
-              <p className="text-primary-dark/70 leading-relaxed">
-                <strong>Moses</strong> is traditionally credited with writing the most Old Testament books, authoring the first five books of the Bible (the Pentateuch): <Link href="/genesis-chapters" className="text-blue-600 hover:underline">Genesis</Link>, <Link href="/exodus-chapters" className="text-blue-600 hover:underline">Exodus</Link>, <Link href="/leviticus-chapters" className="text-blue-600 hover:underline">Leviticus</Link>, <Link href="/numbers-chapters" className="text-blue-600 hover:underline">Numbers</Link>, and <Link href="/deuteronomy-chapters" className="text-blue-600 hover:underline">Deuteronomy</Link>. He is also associated with Psalm 90. Other prolific Old Testament authors include David (many of the Psalms), Solomon (Proverbs, Ecclesiastes, Song of Solomon), and the prophet Jeremiah (Jeremiah and Lamentations).
+              <p className="text-ink-muted leading-relaxed">
+                <strong>Moses</strong> is traditionally credited with writing the most Old Testament books, authoring the first five books of the Bible (the Pentateuch): <Link href="/genesis-chapters" className="text-sacred hover:underline">Genesis</Link>, <Link href="/exodus-chapters" className="text-sacred hover:underline">Exodus</Link>, <Link href="/leviticus-chapters" className="text-sacred hover:underline">Leviticus</Link>, <Link href="/numbers-chapters" className="text-sacred hover:underline">Numbers</Link>, and <Link href="/deuteronomy-chapters" className="text-sacred hover:underline">Deuteronomy</Link>. He is also associated with Psalm 90. Other prolific Old Testament authors include David (many of the Psalms), Solomon (Proverbs, Ecclesiastes, Song of Solomon), and the prophet Jeremiah (Jeremiah and Lamentations).
               </p>
             </div>
           </div>
@@ -243,23 +243,23 @@ export default function OldTestamentBooksPage() {
         <section className="mt-8 bg-white rounded-xl shadow-sm border border-grace p-6">
           <h2 className="text-xl font-bold text-scripture mb-4">Explore More</h2>
           <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3">
-            <Link href="/books-of-the-bible" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">All 66 Books of the Bible</span>
+            <Link href="/books-of-the-bible" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">All 66 Books of the Bible</span>
             </Link>
-            <Link href="/books-of-the-bible/new-testament" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">New Testament Books</span>
+            <Link href="/books-of-the-bible/new-testament" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">New Testament Books</span>
             </Link>
-            <Link href="/old-testament-quizzes" className="flex items-center p-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+            <Link href="/old-testament-quizzes" className="flex items-center p-3 bg-scripture text-white rounded-lg hover:bg-ink-muted transition-colors">
               <span className="font-bold text-sm">Test Your Knowledge — Old Testament Quizzes</span>
             </Link>
-            <Link href="/bible-chapter-summaries" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">Bible Chapter Summaries</span>
+            <Link href="/bible-chapter-summaries" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">Bible Chapter Summaries</span>
             </Link>
-            <Link href="/bible-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">Bible Quizzes</span>
+            <Link href="/bible-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">Bible Quizzes</span>
             </Link>
-            <Link href="/bible-study-guides" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">Bible Study Guides</span>
+            <Link href="/bible-study-guides" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">Bible Study Guides</span>
             </Link>
           </div>
         </section>

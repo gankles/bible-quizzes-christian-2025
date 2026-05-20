@@ -68,9 +68,9 @@ const DIFFICULTY_LEVELS = [
     description: 'Advanced doctrine, Hebrew/Greek word studies, and cross-reference analysis. 100% multiple choice with in-depth explanations. For seminary students, pastors, and scholars.',
     challenge: 'For serious students of the Word',
     color: 'from-purple-500 to-purple-600',
-    textColor: 'text-purple-700',
-    bgColor: 'bg-purple-50',
-    borderColor: 'border-purple-200',
+    textColor: 'text-scripture',
+    bgColor: 'bg-scripture/5',
+    borderColor: 'border-sacred/20',
     audience: 'Seminary, Pastors, Scholars',
   },
 ];
@@ -130,9 +130,9 @@ export default function BibleQuizDifficultyPage() {
       <nav aria-label="Breadcrumb" className="bg-white border-b border-grace">
         <div className="max-w-5xl mx-auto px-4 py-3">
           <ol className="flex items-center space-x-2 text-sm">
-            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
-            <li aria-hidden="true" className="text-primary-dark/40">/</li>
-            <li aria-current="page" className="text-primary-dark/70">Bible Quiz Difficulty</li>
+            <li><Link href="/" className="text-sacred hover:underline">Home</Link></li>
+            <li aria-hidden="true" className="text-ink-light">/</li>
+            <li aria-current="page" className="text-ink-muted">Bible Quiz Difficulty</li>
           </ol>
         </div>
       </nav>
@@ -168,15 +168,15 @@ export default function BibleQuizDifficultyPage() {
           <div className="grid grid-cols-3 divide-x divide-grace border-b border-grace">
             <div className="p-4 text-center">
               <p className="text-2xl font-bold text-green-600">4</p>
-              <p className="text-sm text-primary-dark/70">Difficulty Levels</p>
+              <p className="text-sm text-ink-muted">Difficulty Levels</p>
             </div>
             <div className="p-4 text-center">
               <p className="text-2xl font-bold text-green-600">60</p>
-              <p className="text-sm text-primary-dark/70">Questions per Chapter</p>
+              <p className="text-sm text-ink-muted">Questions per Chapter</p>
             </div>
             <div className="p-4 text-center">
               <p className="text-2xl font-bold text-green-600">1,189</p>
-              <p className="text-sm text-primary-dark/70">Chapters Covered</p>
+              <p className="text-sm text-ink-muted">Chapters Covered</p>
             </div>
           </div>
         </div>
@@ -196,13 +196,13 @@ export default function BibleQuizDifficultyPage() {
                   <p className="text-white/80 text-sm">{d.subtitle}</p>
                 </div>
                 <div className="p-5">
-                  <p className="text-primary-dark/70 text-sm leading-relaxed mb-3">{d.description}</p>
+                  <p className="text-ink-muted text-sm leading-relaxed mb-3">{d.description}</p>
                   <p className="text-xs mt-2 opacity-80">{d.challenge}</p>
                   <div className="flex items-center justify-between mt-3">
                     <span className={`text-xs font-medium ${d.textColor} ${d.bgColor} px-2 py-1 rounded-full`}>
                       {d.audience}
                     </span>
-                    <span className="text-blue-600 text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span className="text-sacred text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">
                       Browse Quizzes &rarr;
                     </span>
                   </div>
@@ -222,7 +222,7 @@ export default function BibleQuizDifficultyPage() {
               </div>
               <div>
                 <h3 className="font-display font-bold text-scripture">Pick a Difficulty Level</h3>
-                <p className="text-primary-dark/70 text-sm mt-1">Choose from Easy, Medium, Hard, or Theological based on your experience and goals.</p>
+                <p className="text-ink-muted text-sm mt-1">Choose from Easy, Medium, Hard, or Theological based on your experience and goals.</p>
               </div>
             </div>
             <div className="flex gap-4">
@@ -231,7 +231,7 @@ export default function BibleQuizDifficultyPage() {
               </div>
               <div>
                 <h3 className="font-display font-bold text-scripture">Select a Bible Book</h3>
-                <p className="text-primary-dark/70 text-sm mt-1">Browse all 66 books of the Bible and choose the one you want to study.</p>
+                <p className="text-ink-muted text-sm mt-1">Browse all 66 books of the Bible and choose the one you want to study.</p>
               </div>
             </div>
             <div className="flex gap-4">
@@ -240,7 +240,7 @@ export default function BibleQuizDifficultyPage() {
               </div>
               <div>
                 <h3 className="font-display font-bold text-scripture">Answer 15 Questions</h3>
-                <p className="text-primary-dark/70 text-sm mt-1">Each difficulty tab has 15 carefully crafted questions with verse references and explanations.</p>
+                <p className="text-ink-muted text-sm mt-1">Each difficulty tab has 15 carefully crafted questions with verse references and explanations.</p>
               </div>
             </div>
             <div className="flex gap-4">
@@ -249,7 +249,7 @@ export default function BibleQuizDifficultyPage() {
               </div>
               <div>
                 <h3 className="font-display font-bold text-scripture">Learn and Progress</h3>
-                <p className="text-primary-dark/70 text-sm mt-1">Review explanations for every answer and move up in difficulty as you grow in knowledge.</p>
+                <p className="text-ink-muted text-sm mt-1">Review explanations for every answer and move up in difficulty as you grow in knowledge.</p>
               </div>
             </div>
           </div>
@@ -263,25 +263,25 @@ export default function BibleQuizDifficultyPage() {
           <div className="space-y-6">
             <div>
               <h3 className="font-display font-bold text-scripture mb-2">What difficulty should I start with?</h3>
-              <p className="text-primary-dark/70 leading-relaxed">
-                If you are new to Bible study or quizzing with children, start with <Link href="/bible-quiz-difficulty/easy" className="text-blue-600 hover:underline">Easy level</Link>. Easy quizzes focus on straightforward facts from the text with 70% multiple choice, 20% true/false, and 10% fill-in-the-blank questions. As you build confidence, progress to <Link href="/bible-quiz-difficulty/medium" className="text-blue-600 hover:underline">Medium</Link> for application-based questions, then <Link href="/bible-quiz-difficulty/hard" className="text-blue-600 hover:underline">Hard</Link> for detailed verse-specific challenges, and finally <Link href="/bible-quiz-difficulty/theological" className="text-blue-600 hover:underline">Theological</Link> for doctrine and original language analysis.
+              <p className="text-ink-muted leading-relaxed">
+                If you are new to Bible study or quizzing with children, start with <Link href="/bible-quiz-difficulty/easy" className="text-sacred hover:underline">Easy level</Link>. Easy quizzes focus on straightforward facts from the text with 70% multiple choice, 20% true/false, and 10% fill-in-the-blank questions. As you build confidence, progress to <Link href="/bible-quiz-difficulty/medium" className="text-sacred hover:underline">Medium</Link> for application-based questions, then <Link href="/bible-quiz-difficulty/hard" className="text-sacred hover:underline">Hard</Link> for detailed verse-specific challenges, and finally <Link href="/bible-quiz-difficulty/theological" className="text-sacred hover:underline">Theological</Link> for doctrine and original language analysis.
               </p>
             </div>
             <div>
               <h3 className="font-display font-bold text-scripture mb-2">How many questions are in each quiz?</h3>
-              <p className="text-primary-dark/70 leading-relaxed">
+              <p className="text-ink-muted leading-relaxed">
                 Each chapter quiz contains 60 questions total, divided equally across four difficulty levels: 15 Easy questions, 15 Medium questions, 15 Hard questions, and 15 Theological questions. This provides comprehensive coverage of every chapter in the Bible at every skill level.
               </p>
             </div>
             <div>
               <h3 className="font-display font-bold text-scripture mb-2">What question types are used at each difficulty level?</h3>
-              <p className="text-primary-dark/70 leading-relaxed">
+              <p className="text-ink-muted leading-relaxed">
                 Easy: 70% multiple choice, 20% true/false, 10% fill-in-the-blank. Medium: 80% multiple choice, 15% true/false, 5% fill-in-the-blank. Hard: 90% multiple choice, 10% true/false. Theological: 100% multiple choice. Higher difficulty levels use more multiple choice to handle the complexity of the questions and answer options.
               </p>
             </div>
             <div>
               <h3 className="font-display font-bold text-scripture mb-2">Can I switch difficulty levels during a quiz?</h3>
-              <p className="text-primary-dark/70 leading-relaxed">
+              <p className="text-ink-muted leading-relaxed">
                 Yes. Each chapter quiz page features tabs for all four difficulty levels. You can switch between Easy, Medium, Hard, and Theological at any time to find the challenge level that suits you best.
               </p>
             </div>
@@ -292,23 +292,23 @@ export default function BibleQuizDifficultyPage() {
         <section className="bg-white rounded-xl shadow-sm border border-grace p-6">
           <h2 className="text-xl font-bold text-scripture mb-4">More Bible Quiz Resources</h2>
           <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3">
-            <Link href="/bible-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">All Bible Quizzes</span>
+            <Link href="/bible-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">All Bible Quizzes</span>
             </Link>
-            <Link href="/old-testament-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">Old Testament Quizzes</span>
+            <Link href="/old-testament-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">Old Testament Quizzes</span>
             </Link>
-            <Link href="/new-testament-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">New Testament Quizzes</span>
+            <Link href="/new-testament-quizzes" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">New Testament Quizzes</span>
             </Link>
-            <Link href="/books-of-the-bible" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">Books of the Bible</span>
+            <Link href="/books-of-the-bible" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">Books of the Bible</span>
             </Link>
-            <Link href="/bible-chapter-summaries" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">Bible Chapter Summaries</span>
+            <Link href="/bible-chapter-summaries" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">Bible Chapter Summaries</span>
             </Link>
-            <Link href="/bible-study-guides" className="flex items-center p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors">
-              <span className="text-blue-600 font-medium text-sm">Bible Study Guides</span>
+            <Link href="/bible-study-guides" className="flex items-center p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors">
+              <span className="text-sacred font-medium text-sm">Bible Study Guides</span>
             </Link>
           </div>
         </section>

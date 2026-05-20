@@ -83,10 +83,10 @@ export default async function BookSummaryPage({ params }: BookSummaryPageProps) 
   }
 
   const themeColors = [
-    'bg-blue-100 text-blue-800 border-blue-200',
+    'bg-sacred/10 text-scripture border-sacred/20',
     'bg-emerald-100 text-emerald-800 border-emerald-200',
     'bg-amber-100 text-amber-800 border-amber-200',
-    'bg-purple-100 text-purple-800 border-purple-200',
+    'bg-scripture/10 text-scripture border-sacred/20',
     'bg-rose-100 text-rose-800 border-rose-200',
     'bg-cyan-100 text-cyan-800 border-cyan-200',
   ];
@@ -97,11 +97,11 @@ export default async function BookSummaryPage({ params }: BookSummaryPageProps) 
       <nav aria-label="Breadcrumb" className="bg-white border-b border-grace">
         <div className="max-w-4xl mx-auto px-4 py-3">
           <ol className="flex items-center space-x-2 text-sm">
-            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
-            <li aria-hidden="true" className="text-primary-dark/40">/</li>
-            <li><Link href="/bible-chapter-summaries" className="text-blue-600 hover:underline">Chapter Summaries</Link></li>
-            <li aria-hidden="true" className="text-primary-dark/40">/</li>
-            <li aria-current="page" className="text-primary-dark/70">{bookData.name}</li>
+            <li><Link href="/" className="text-sacred hover:underline">Home</Link></li>
+            <li aria-hidden="true" className="text-ink-light">/</li>
+            <li><Link href="/bible-chapter-summaries" className="text-sacred hover:underline">Chapter Summaries</Link></li>
+            <li aria-hidden="true" className="text-ink-light">/</li>
+            <li aria-current="page" className="text-ink-muted">{bookData.name}</li>
           </ol>
         </div>
       </nav>
@@ -146,23 +146,23 @@ export default async function BookSummaryPage({ params }: BookSummaryPageProps) 
             return (
               <div className={`grid ${gridCols} divide-x divide-grace border-b border-grace`}>
                 <div className="p-4 text-center">
-                  <p className="text-2xl font-bold text-blue-600">{bookData.chapters}</p>
-                  <p className="text-sm text-primary-dark/70">{bookData.chapters === 1 ? 'Chapter' : 'Chapters'}</p>
+                  <p className="text-2xl font-bold text-sacred">{bookData.chapters}</p>
+                  <p className="text-sm text-ink-muted">{bookData.chapters === 1 ? 'Chapter' : 'Chapters'}</p>
                 </div>
                 <div className="p-4 text-center">
-                  <p className="text-2xl font-bold text-blue-600">{totalVerses.toLocaleString()}</p>
-                  <p className="text-sm text-primary-dark/70">Total Verses</p>
+                  <p className="text-2xl font-bold text-sacred">{totalVerses.toLocaleString()}</p>
+                  <p className="text-sm text-ink-muted">Total Verses</p>
                 </div>
                 {meta?.author && (
                   <div className="p-4 text-center">
                     <p className="text-lg font-semibold text-scripture">{meta.author}</p>
-                    <p className="text-sm text-primary-dark/70">Author</p>
+                    <p className="text-sm text-ink-muted">Author</p>
                   </div>
                 )}
                 {meta?.dateRange && (
                   <div className="p-4 text-center">
                     <p className="text-lg font-semibold text-scripture">{meta.dateRange}</p>
-                    <p className="text-sm text-primary-dark/70">Date Written</p>
+                    <p className="text-sm text-ink-muted">Date Written</p>
                   </div>
                 )}
               </div>
@@ -174,21 +174,21 @@ export default async function BookSummaryPage({ params }: BookSummaryPageProps) 
         {meta?.outline && meta.outline.length > 0 && (
           <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
             <h2 className="text-xl font-bold text-scripture mb-4 flex items-center">
-              <svg className="w-5 h-5 mr-2 text-blue-600" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-5 h-5 mr-2 text-sacred" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
               </svg>
               Book Outline
             </h2>
             <div className="space-y-3">
               {meta.outline.map((section, index) => (
-                <div key={index} className="border-l-4 border-blue-500 pl-4 py-2">
+                <div key={index} className="border-l-4 border-sacred pl-4 py-2">
                   <div className="flex items-start justify-between gap-2">
                     <h3 className="font-semibold text-scripture">{section.heading}</h3>
-                    <span className="text-xs text-blue-600 font-mono bg-blue-50 px-2 py-1 rounded whitespace-nowrap">
+                    <span className="text-xs text-sacred font-mono bg-blue-50 px-2 py-1 rounded whitespace-nowrap">
                       {section.reference}
                     </span>
                   </div>
-                  <p className="text-primary-dark/70 text-sm mt-1">{section.description}</p>
+                  <p className="text-ink-muted text-sm mt-1">{section.description}</p>
                 </div>
               ))}
             </div>
@@ -220,23 +220,23 @@ export default async function BookSummaryPage({ params }: BookSummaryPageProps) 
                       <Link
                         key={ch}
                         href={`/bible-chapter-summaries/${book}/${ch}`}
-                        className="group flex items-start gap-4 p-4 rounded-lg border border-grace hover:border-blue-300 hover:bg-primary-light/30 transition-all"
+                        className="group flex items-start gap-4 p-4 rounded-lg border border-grace hover:border-sacred/50 hover:bg-primary-light/30 transition-all"
                       >
-                        <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-blue-600 text-white flex items-center justify-center font-bold text-lg">
+                        <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-scripture text-white flex items-center justify-center font-bold text-lg">
                           {ch}
                         </div>
                         <div className="flex-1 min-w-0">
                           <div className="flex items-start justify-between gap-2">
-                            <h4 className="font-semibold text-scripture group-hover:text-blue-700 transition-colors">
+                            <h4 className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                               {bookData.name} {ch}: {data.title}
                             </h4>
-                            <span className="flex-shrink-0 text-xs text-primary-dark/50 bg-grace/40 px-2 py-0.5 rounded">
+                            <span className="flex-shrink-0 text-xs text-ink-muted bg-grace/40 px-2 py-0.5 rounded">
                               {data.verses} verses
                             </span>
                           </div>
-                          <p className="text-sm text-primary-dark/70 mt-1">{data.keyEvent}</p>
+                          <p className="text-sm text-ink-muted mt-1">{data.keyEvent}</p>
                         </div>
-                        <span className="flex-shrink-0 text-blue-600 opacity-0 group-hover:opacity-100 transition-opacity self-center">
+                        <span className="flex-shrink-0 text-sacred opacity-0 group-hover:opacity-100 transition-opacity self-center">
                           &rarr;
                         </span>
                       </Link>
@@ -249,20 +249,20 @@ export default async function BookSummaryPage({ params }: BookSummaryPageProps) 
         </section>
 
         {/* Quiz CTA Banner */}
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-sm text-blue-800 text-center sm:text-left">
+        <div className="bg-blue-50 border border-sacred/20 rounded-lg p-4 mb-6 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <p className="text-sm text-scripture text-center sm:text-left">
             Now that you have read the overview, test your {bookData.name} knowledge.
           </p>
           <div className="flex gap-2">
             <Link
               href={`/${book}-chapters`}
-              className="flex-shrink-0 text-sm font-semibold text-white bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg transition-colors"
+              className="flex-shrink-0 text-sm font-semibold text-white bg-scripture hover:bg-ink-muted px-4 py-2 rounded-lg transition-colors"
             >
               Chapter Quizzes
             </Link>
             <Link
               href={`/${book}-quiz`}
-              className="flex-shrink-0 text-sm font-semibold text-blue-700 bg-white border border-blue-300 hover:bg-blue-50 px-4 py-2 rounded-lg transition-colors"
+              className="flex-shrink-0 text-sm font-semibold text-scripture bg-white border border-sacred/50 hover:bg-sacred-light px-4 py-2 rounded-lg transition-colors"
             >
               Book Quiz
             </Link>
@@ -300,10 +300,10 @@ export default async function BookSummaryPage({ params }: BookSummaryPageProps) 
             <div className="space-y-3">
               {meta.famousVerses.map((verse, index) => (
                 <div key={index} className="bg-primary-light/30 rounded-lg p-4">
-                  <blockquote className="text-primary-dark/80 italic mb-2">
+                  <blockquote className="text-scripture italic mb-2">
                     &ldquo;{verse.text}&rdquo;
                   </blockquote>
-                  <cite className="text-blue-600 font-medium text-sm not-italic">{verse.reference}</cite>
+                  <cite className="text-sacred font-medium text-sm not-italic">{verse.reference}</cite>
                 </div>
               ))}
             </div>
@@ -316,43 +316,43 @@ export default async function BookSummaryPage({ params }: BookSummaryPageProps) 
           <div className="grid gap-3 sm:grid-cols-2">
             <Link
               href={`/${book}-quiz`}
-              className="flex items-center justify-between p-4 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors"
+              className="flex items-center justify-between p-4 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors"
             >
               <div>
-                <span className="text-blue-600 font-semibold block">{bookData.name} Book Quiz</span>
-                <span className="text-sm text-primary-dark/60">25 comprehensive questions</span>
+                <span className="text-sacred font-semibold block">{bookData.name} Book Quiz</span>
+                <span className="text-sm text-ink-muted">25 comprehensive questions</span>
               </div>
-              <span className="text-blue-600">&rarr;</span>
+              <span className="text-sacred">&rarr;</span>
             </Link>
             <Link
               href={`/${book}-chapters`}
-              className="flex items-center justify-between p-4 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors"
+              className="flex items-center justify-between p-4 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors"
             >
               <div>
-                <span className="text-blue-600 font-semibold block">Chapter Quizzes</span>
-                <span className="text-sm text-primary-dark/60">Study chapter by chapter</span>
+                <span className="text-sacred font-semibold block">Chapter Quizzes</span>
+                <span className="text-sm text-ink-muted">Study chapter by chapter</span>
               </div>
-              <span className="text-blue-600">&rarr;</span>
+              <span className="text-sacred">&rarr;</span>
             </Link>
             <Link
               href={`/books/${book}`}
-              className="flex items-center justify-between p-4 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors"
+              className="flex items-center justify-between p-4 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors"
             >
               <div>
-                <span className="text-blue-600 font-semibold block">Book Introduction</span>
-                <span className="text-sm text-primary-dark/60">Author, themes, and study guide</span>
+                <span className="text-sacred font-semibold block">Book Introduction</span>
+                <span className="text-sm text-ink-muted">Author, themes, and study guide</span>
               </div>
-              <span className="text-blue-600">&rarr;</span>
+              <span className="text-sacred">&rarr;</span>
             </Link>
             <Link
               href="/bible-chapter-summaries"
-              className="flex items-center justify-between p-4 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors"
+              className="flex items-center justify-between p-4 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-colors"
             >
               <div>
-                <span className="text-blue-600 font-semibold block">All Book Summaries</span>
-                <span className="text-sm text-primary-dark/60">Browse all 66 books</span>
+                <span className="text-sacred font-semibold block">All Book Summaries</span>
+                <span className="text-sm text-ink-muted">Browse all 66 books</span>
               </div>
-              <span className="text-blue-600">&rarr;</span>
+              <span className="text-sacred">&rarr;</span>
             </Link>
           </div>
         </section>
@@ -361,12 +361,12 @@ export default async function BookSummaryPage({ params }: BookSummaryPageProps) 
         <section className="bg-grace/10 border border-grace rounded-xl p-6 mb-6">
           <h2 className="text-lg font-bold text-scripture mb-3">More Study Resources</h2>
           <div className="grid gap-2 sm:grid-cols-2">
-            <Link href={`/bible-geography/${book}`} className="text-blue-600 hover:underline text-sm">{bookData.name} Geography &amp; Map</Link>
-            <Link href={`/bible-geography-quiz/${book}`} className="text-blue-600 hover:underline text-sm">{bookData.name} Geography Quiz</Link>
-            <Link href="/character-quiz" className="text-blue-600 hover:underline text-sm">Character Quizzes</Link>
-            <Link href="/characters-by-topic" className="text-blue-600 hover:underline text-sm">Characters by Topic</Link>
-            <Link href="/commandments/topic" className="text-blue-600 hover:underline text-sm">Commandments by Topic</Link>
-            <Link href="/devotionals" className="text-blue-600 hover:underline text-sm">Daily Devotionals</Link>
+            <Link href={`/bible-geography/${book}`} className="text-sacred hover:underline text-sm">{bookData.name} Geography &amp; Map</Link>
+            <Link href={`/bible-geography-quiz/${book}`} className="text-sacred hover:underline text-sm">{bookData.name} Geography Quiz</Link>
+            <Link href="/character-quiz" className="text-sacred hover:underline text-sm">Character Quizzes</Link>
+            <Link href="/characters-by-topic" className="text-sacred hover:underline text-sm">Characters by Topic</Link>
+            <Link href="/commandments/topic" className="text-sacred hover:underline text-sm">Commandments by Topic</Link>
+            <Link href="/devotionals" className="text-sacred hover:underline text-sm">Daily Devotionals</Link>
           </div>
         </section>
 

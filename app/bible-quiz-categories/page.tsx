@@ -51,8 +51,8 @@ const difficultyLevels = [
     name: 'Medium Quizzes',
     slug: '/bible-quiz-difficulty/medium',
     description: 'Apply biblical truths to real-life situations',
-    color: 'bg-blue-50 border-blue-200 hover:border-blue-400',
-    textColor: 'text-blue-800',
+    color: 'bg-blue-50 border-sacred/20 hover:border-sacred/50',
+    textColor: 'text-scripture',
   },
   {
     name: 'Hard Quizzes',
@@ -65,8 +65,8 @@ const difficultyLevels = [
     name: 'Theological Quizzes',
     slug: '/bible-quiz-difficulty/theological',
     description: 'Seminary-level doctrine and systematic theology',
-    color: 'bg-purple-50 border-purple-200 hover:border-purple-400',
-    textColor: 'text-purple-800',
+    color: 'bg-scripture/5 border-sacred/20 hover:border-sacred/20',
+    textColor: 'text-scripture',
   },
 ];
 
@@ -105,37 +105,37 @@ export default function BibleQuizCategoriesPage() {
         {/* Breadcrumb */}
         <nav aria-label="Breadcrumb" className="mb-8">
           <ol className="flex items-center text-sm">
-            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li><Link href="/bible-quizzes" className="text-blue-600 hover:underline">Bible Quizzes</Link></li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li className="text-primary-dark/70">Categories</li>
+            <li><Link href="/" className="text-sacred hover:underline">Home</Link></li>
+            <li className="text-ink-light mx-2">/</li>
+            <li><Link href="/bible-quizzes" className="text-sacred hover:underline">Bible Quizzes</Link></li>
+            <li className="text-ink-light mx-2">/</li>
+            <li className="text-ink-muted">Categories</li>
           </ol>
         </nav>
 
         <h1 className="text-4xl font-bold font-display text-scripture mb-4">Bible Quiz Categories</h1>
-        <p className="text-lg text-primary-dark/60 mb-12">
+        <p className="text-lg text-ink-muted mb-12">
           Find the perfect quiz for your Bible study. Browse by character, difficulty level, testament, or individual book.
         </p>
 
         {/* Character Quizzes */}
         <section className="mb-16">
           <h2 className="text-2xl font-semibold text-scripture mb-2">Character Quizzes</h2>
-          <p className="text-primary-dark/60 mb-6">Deep-dive quizzes focused on major Bible characters — 60 questions each across 4 difficulty levels.</p>
+          <p className="text-ink-muted mb-6">Deep-dive quizzes focused on major Bible characters — 60 questions each across 4 difficulty levels.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {characterQuizzes.map(quiz => (
               <Link
                 key={quiz.slug}
                 href={quiz.slug}
-                className="block p-6 bg-white rounded-xl border border-grace hover:border-blue-300 hover:shadow-md transition-all"
+                className="block p-6 bg-white rounded-xl border border-grace hover:border-sacred/50 hover:shadow-md transition-all"
               >
                 <h3 className="text-xl font-bold text-scripture mb-2">{quiz.name}</h3>
-                <p className="text-primary-dark/70 text-sm mb-3">{quiz.description}</p>
-                <div className="flex items-center gap-4 text-xs text-primary-dark/50">
+                <p className="text-ink-muted text-sm mb-3">{quiz.description}</p>
+                <div className="flex items-center gap-4 text-xs text-ink-muted">
                   <span>{quiz.questions} questions</span>
                   <span>4 difficulty levels</span>
                 </div>
-                <p className="text-xs text-primary-dark/40 mt-2">Books: {quiz.books}</p>
+                <p className="text-xs text-ink-light mt-2">Books: {quiz.books}</p>
               </Link>
             ))}
           </div>
@@ -144,7 +144,7 @@ export default function BibleQuizCategoriesPage() {
         {/* By Difficulty */}
         <section className="mb-16">
           <h2 className="text-2xl font-semibold text-scripture mb-2">By Difficulty Level</h2>
-          <p className="text-primary-dark/60 mb-6">Every chapter quiz has 4 difficulty levels. Choose the one that matches your Bible knowledge.</p>
+          <p className="text-ink-muted mb-6">Every chapter quiz has 4 difficulty levels. Choose the one that matches your Bible knowledge.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {difficultyLevels.map(level => (
               <Link
@@ -153,7 +153,7 @@ export default function BibleQuizCategoriesPage() {
                 className={`block p-5 rounded-xl border-2 transition-all ${level.color}`}
               >
                 <h3 className={`text-lg font-bold mb-1 ${level.textColor}`}>{level.name}</h3>
-                <p className="text-primary-dark/70 text-sm">{level.description}</p>
+                <p className="text-ink-muted text-sm">{level.description}</p>
               </Link>
             ))}
           </div>
@@ -162,17 +162,17 @@ export default function BibleQuizCategoriesPage() {
         {/* By Testament */}
         <section className="mb-16">
           <h2 className="text-2xl font-semibold text-scripture mb-2">By Testament</h2>
-          <p className="text-primary-dark/60 mb-6">Browse quizzes organized by Old and New Testament.</p>
+          <p className="text-ink-muted mb-6">Browse quizzes organized by Old and New Testament.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {testamentQuizzes.map(t => (
               <Link
                 key={t.slug}
                 href={t.slug}
-                className="block p-6 bg-white rounded-xl border border-grace hover:border-blue-300 hover:shadow-md transition-all"
+                className="block p-6 bg-white rounded-xl border border-grace hover:border-sacred/50 hover:shadow-md transition-all"
               >
                 <h3 className="text-xl font-bold text-scripture mb-2">{t.name}</h3>
-                <p className="text-primary-dark/70 text-sm mb-2">{t.description}</p>
-                <span className="text-xs text-primary-dark/50">{t.books} books</span>
+                <p className="text-ink-muted text-sm mb-2">{t.description}</p>
+                <span className="text-xs text-ink-muted">{t.books} books</span>
               </Link>
             ))}
           </div>
@@ -181,16 +181,16 @@ export default function BibleQuizCategoriesPage() {
         {/* Popular Book Quizzes */}
         <section className="mb-16">
           <h2 className="text-2xl font-semibold text-scripture mb-2">Popular Book Quizzes</h2>
-          <p className="text-primary-dark/60 mb-6">Chapter-by-chapter quizzes for the most-studied Bible books.</p>
+          <p className="text-ink-muted mb-6">Chapter-by-chapter quizzes for the most-studied Bible books.</p>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
             {popularBookQuizzes.map(book => (
               <Link
                 key={book.href}
                 href={book.href}
-                className="block p-4 bg-white rounded-lg border border-grace hover:border-blue-300 hover:shadow-sm transition-all text-center"
+                className="block p-4 bg-white rounded-lg border border-grace hover:border-sacred/50 hover:shadow-sm transition-all text-center"
               >
                 <span className="font-semibold text-scripture text-sm block">{book.name}</span>
-                <span className="text-xs text-primary-dark/50">{book.chapters} chapters</span>
+                <span className="text-xs text-ink-muted">{book.chapters} chapters</span>
               </Link>
             ))}
           </div>
@@ -219,7 +219,7 @@ export default function BibleQuizCategoriesPage() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="block p-3 bg-white rounded-lg border border-grace hover:border-blue-300 hover:shadow-sm transition-all text-sm text-blue-600 hover:text-blue-700"
+                className="block p-3 bg-white rounded-lg border border-grace hover:border-sacred/50 hover:shadow-sm transition-all text-sm text-sacred hover:text-gold-dark"
               >
                 {link.name}
               </Link>

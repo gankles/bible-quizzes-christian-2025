@@ -335,20 +335,20 @@ export default function LoveThyNeighborPage() {
               </div>
               <div className="grid grid-cols-4 divide-x divide-grace border-b border-grace">
                 <div className="p-4 text-center">
-                  <p className="text-2xl font-bold text-blue-600">20</p>
-                  <p className="text-sm text-primary-dark/70">Verses</p>
+                  <p className="text-2xl font-bold text-sacred">20</p>
+                  <p className="text-sm text-ink-muted">Verses</p>
                 </div>
                 <div className="p-4 text-center">
-                  <p className="text-2xl font-bold text-blue-600">2</p>
-                  <p className="text-sm text-primary-dark/70">Testaments</p>
+                  <p className="text-2xl font-bold text-sacred">2</p>
+                  <p className="text-sm text-ink-muted">Testaments</p>
                 </div>
                 <div className="p-4 text-center">
-                  <p className="text-2xl font-bold text-blue-600">KJV</p>
-                  <p className="text-sm text-primary-dark/70">Translation</p>
+                  <p className="text-2xl font-bold text-sacred">KJV</p>
+                  <p className="text-sm text-ink-muted">Translation</p>
                 </div>
                 <div className="p-4 text-center">
-                  <p className="text-2xl font-bold text-blue-600">14</p>
-                  <p className="text-sm text-primary-dark/70">Books</p>
+                  <p className="text-2xl font-bold text-sacred">14</p>
+                  <p className="text-sm text-ink-muted">Books</p>
                 </div>
               </div>
             </div>
@@ -364,46 +364,46 @@ export default function LoveThyNeighborPage() {
               The Love Thy Neighbor Bible Verse &mdash; Leviticus 19:18 (KJV)
             </h2>
 
-            <blockquote className="text-lg md:text-xl text-primary-dark/90 leading-relaxed italic border-l-4 border-amber-400 pl-5 py-3 bg-amber-50/50 rounded-r-lg mb-4">
+            <blockquote className="text-lg md:text-xl text-ink-muted leading-relaxed italic border-l-4 border-amber-400 pl-5 py-3 bg-amber-50/50 rounded-r-lg mb-4">
               &ldquo;Thou shalt not avenge, nor bear any grudge against the children of thy people, but thou shalt love thy neighbour as thyself: I am the LORD.&rdquo;
             </blockquote>
 
             <div className="flex flex-wrap items-center gap-3 text-sm">
-              <Link href="/verses/leviticus/19/18" className="text-blue-600 hover:underline font-medium">
+              <Link href="/verses/leviticus/19/18" className="text-sacred hover:underline font-medium">
                 Study Leviticus 19:18
               </Link>
-              <span className="text-primary-dark/30">|</span>
-              <Link href="/chapters/leviticus/19" className="text-blue-600 hover:underline">
+              <span className="text-ink-light">|</span>
+              <Link href="/chapters/leviticus/19" className="text-sacred hover:underline">
                 Read Leviticus 19
               </Link>
-              <span className="text-primary-dark/30">|</span>
-              <Link href="/leviticus-19-quiz" className="text-blue-600 hover:underline font-semibold">
+              <span className="text-ink-light">|</span>
+              <Link href="/leviticus-19-quiz" className="text-sacred hover:underline font-semibold">
                 Take the Leviticus 19 Quiz
               </Link>
-              <span className="text-primary-dark/30">|</span>
-              <Link href="/cross-references/leviticus/19/18" className="text-blue-600 hover:underline">
+              <span className="text-ink-light">|</span>
+              <Link href="/cross-references/leviticus/19/18" className="text-sacred hover:underline">
                 Cross References
               </Link>
             </div>
 
             <div className="border-t border-grace mt-5 pt-5">
               <div className="flex items-center gap-2 mb-2">
-                <Link href="/verses/matthew/22/39" className="text-lg font-display font-bold text-scripture hover:text-blue-600 transition-colors">
+                <Link href="/verses/matthew/22/39" className="text-lg font-display font-bold text-scripture hover:text-gold-dark transition-colors">
                   Matthew 22:39
                 </Link>
-                <span className="inline-block px-2 py-0.5 bg-blue-50 text-blue-700 text-xs rounded-full border border-blue-100">
+                <span className="inline-block px-2 py-0.5 bg-sacred-light text-scripture text-xs rounded-full border border-sacred/10">
                   Jesus Quotes It
                 </span>
               </div>
-              <blockquote className="text-lg md:text-xl text-primary-dark/90 leading-relaxed italic border-l-4 border-amber-400 pl-5 py-3 bg-amber-50/50 rounded-r-lg mb-3">
+              <blockquote className="text-lg md:text-xl text-ink-muted leading-relaxed italic border-l-4 border-amber-400 pl-5 py-3 bg-amber-50/50 rounded-r-lg mb-3">
                 &ldquo;And the second is like unto it, Thou shalt love thy neighbour as thyself.&rdquo;
               </blockquote>
               <div className="flex flex-wrap items-center gap-3 text-sm">
-                <Link href="/verses/matthew/22/39" className="text-blue-600 hover:underline font-medium">
+                <Link href="/verses/matthew/22/39" className="text-sacred hover:underline font-medium">
                   Study Matthew 22:39
                 </Link>
-                <span className="text-primary-dark/30">|</span>
-                <Link href="/matthew-22-quiz" className="text-blue-600 hover:underline font-semibold">
+                <span className="text-ink-light">|</span>
+                <Link href="/matthew-22-quiz" className="text-sacred hover:underline font-semibold">
                   Take the Matthew 22 Quiz
                 </Link>
               </div>
@@ -419,7 +419,7 @@ export default function LoveThyNeighborPage() {
             <h2 className="text-xl font-display font-bold text-scripture mb-4">
               What &ldquo;Love Thy Neighbor&rdquo; Actually Means (It&apos;s Not What You Think)
             </h2>
-            <div className="text-primary-dark/80 leading-relaxed space-y-4">
+            <div className="text-scripture leading-relaxed space-y-4">
               <p>
                 &ldquo;Love thy neighbor&rdquo; doesn&apos;t mean what most people think. The original Hebrew word for &ldquo;neighbor&rdquo; in Leviticus 19:18 is <em>rea</em> &mdash; and it meant something far more radical than the family next door. <em>Rea</em> covered fellow Israelites, yes, but also the <em>ger</em> (the foreign sojourner living among them). God made that explicit just two verses later: &ldquo;The stranger that dwelleth with you shall be unto you as one born among you, and thou shalt love him as thyself&rdquo; (Leviticus 19:34). From the very beginning, this command was designed to shatter tribal boundaries.
               </p>
@@ -470,23 +470,23 @@ export default function LoveThyNeighborPage() {
                   {otVerses.map((v) => (
                     <div key={v.number} className="bg-white rounded-xl shadow-sm border border-grace p-6 hover:shadow-md transition-shadow">
                       <div className="flex flex-wrap items-center gap-2 mb-3">
-                        <span className="inline-flex items-center justify-center w-7 h-7 bg-blue-600 text-white text-sm font-bold rounded-full">{v.number}</span>
-                        <Link href={verseUrl(v)} className="text-lg font-display font-bold text-scripture hover:text-blue-600 transition-colors">
+                        <span className="inline-flex items-center justify-center w-7 h-7 bg-scripture text-white text-sm font-bold rounded-full">{v.number}</span>
+                        <Link href={verseUrl(v)} className="text-lg font-display font-bold text-scripture hover:text-gold-dark transition-colors">
                           {v.reference}
                         </Link>
                         <span className="inline-block px-2 py-0.5 bg-amber-50 text-amber-700 text-xs rounded-full border border-amber-200">
                           {v.label}
                         </span>
                       </div>
-                      <blockquote className="text-primary-dark/80 leading-relaxed italic border-l-4 border-amber-400 pl-4 mb-3">
+                      <blockquote className="text-scripture leading-relaxed italic border-l-4 border-amber-400 pl-4 mb-3">
                         &ldquo;{v.text}&rdquo;
                       </blockquote>
                       <div className="flex flex-wrap items-center gap-3 text-sm">
-                        <Link href={verseUrl(v)} className="text-blue-600 hover:underline font-medium">Study this verse</Link>
-                        <span className="text-primary-dark/30">|</span>
-                        <Link href={`/${v.bookSlug}-chapters`} className="text-blue-600 hover:underline">{v.book} Chapters</Link>
-                        <span className="text-primary-dark/30">|</span>
-                        <Link href={`/${v.bookSlug}-${v.chapter}-quiz`} className="text-blue-600 hover:underline font-semibold">{v.book} {v.chapter} Quiz</Link>
+                        <Link href={verseUrl(v)} className="text-sacred hover:underline font-medium">Study this verse</Link>
+                        <span className="text-ink-light">|</span>
+                        <Link href={`/${v.bookSlug}-chapters`} className="text-sacred hover:underline">{v.book} Chapters</Link>
+                        <span className="text-ink-light">|</span>
+                        <Link href={`/${v.bookSlug}-${v.chapter}-quiz`} className="text-sacred hover:underline font-semibold">{v.book} {v.chapter} Quiz</Link>
                       </div>
                     </div>
                   ))}
@@ -504,23 +504,23 @@ export default function LoveThyNeighborPage() {
                   {ntVerses.map((v) => (
                     <div key={v.number} className="bg-white rounded-xl shadow-sm border border-grace p-6 hover:shadow-md transition-shadow">
                       <div className="flex flex-wrap items-center gap-2 mb-3">
-                        <span className="inline-flex items-center justify-center w-7 h-7 bg-blue-600 text-white text-sm font-bold rounded-full">{v.number}</span>
-                        <Link href={verseUrl(v)} className="text-lg font-display font-bold text-scripture hover:text-blue-600 transition-colors">
+                        <span className="inline-flex items-center justify-center w-7 h-7 bg-scripture text-white text-sm font-bold rounded-full">{v.number}</span>
+                        <Link href={verseUrl(v)} className="text-lg font-display font-bold text-scripture hover:text-gold-dark transition-colors">
                           {v.reference}
                         </Link>
-                        <span className="inline-block px-2 py-0.5 bg-blue-50 text-blue-700 text-xs rounded-full border border-blue-100">
+                        <span className="inline-block px-2 py-0.5 bg-sacred-light text-scripture text-xs rounded-full border border-sacred/10">
                           {v.label}
                         </span>
                       </div>
-                      <blockquote className="text-primary-dark/80 leading-relaxed italic border-l-4 border-blue-400 pl-4 mb-3">
+                      <blockquote className="text-scripture leading-relaxed italic border-l-4 border-sacred pl-4 mb-3">
                         &ldquo;{v.text}&rdquo;
                       </blockquote>
                       <div className="flex flex-wrap items-center gap-3 text-sm">
-                        <Link href={verseUrl(v)} className="text-blue-600 hover:underline font-medium">Study this verse</Link>
-                        <span className="text-primary-dark/30">|</span>
-                        <Link href={`/${v.bookSlug}-chapters`} className="text-blue-600 hover:underline">{v.book} Chapters</Link>
-                        <span className="text-primary-dark/30">|</span>
-                        <Link href={`/${v.bookSlug}-${v.chapter}-quiz`} className="text-blue-600 hover:underline font-semibold">{v.book} {v.chapter} Quiz</Link>
+                        <Link href={verseUrl(v)} className="text-sacred hover:underline font-medium">Study this verse</Link>
+                        <span className="text-ink-light">|</span>
+                        <Link href={`/${v.bookSlug}-chapters`} className="text-sacred hover:underline">{v.book} Chapters</Link>
+                        <span className="text-ink-light">|</span>
+                        <Link href={`/${v.bookSlug}-${v.chapter}-quiz`} className="text-sacred hover:underline font-semibold">{v.book} {v.chapter} Quiz</Link>
                       </div>
                     </div>
                   ))}
@@ -538,7 +538,7 @@ export default function LoveThyNeighborPage() {
             <h2 className="text-xl font-display font-bold text-scripture mb-4">
               The Good Samaritan: Jesus Defines &ldquo;Neighbor&rdquo;
             </h2>
-            <div className="text-primary-dark/80 leading-relaxed space-y-4">
+            <div className="text-scripture leading-relaxed space-y-4">
               <p>
                 A lawyer stood up to test Jesus. Not a sincere question &mdash; a trap. &ldquo;Master, what shall I do to inherit eternal life?&rdquo; (Luke 10:25). Jesus turned it back on him: &ldquo;What is written in the law? how readest thou?&rdquo; The lawyer answered correctly, quoting the two greatest commandments. Jesus said, &ldquo;Thou hast answered right: this do, and thou shalt live&rdquo; (Luke 10:28).
               </p>
@@ -562,11 +562,11 @@ export default function LoveThyNeighborPage() {
               </p>
             </div>
             <div className="flex flex-wrap items-center gap-3 mt-5 text-sm border-t border-grace pt-4">
-              <Link href="/chapters/luke/10" className="text-blue-600 hover:underline font-medium">Read Luke 10</Link>
-              <span className="text-primary-dark/30">|</span>
-              <Link href="/luke-10-quiz" className="text-blue-600 hover:underline font-semibold">Take the Luke 10 Quiz</Link>
-              <span className="text-primary-dark/30">|</span>
-              <Link href="/bible-quotes/compassion" className="text-blue-600 hover:underline">Bible Quotes About Compassion</Link>
+              <Link href="/chapters/luke/10" className="text-sacred hover:underline font-medium">Read Luke 10</Link>
+              <span className="text-ink-light">|</span>
+              <Link href="/luke-10-quiz" className="text-sacred hover:underline font-semibold">Take the Luke 10 Quiz</Link>
+              <span className="text-ink-light">|</span>
+              <Link href="/bible-quotes/compassion" className="text-sacred hover:underline">Bible Quotes About Compassion</Link>
             </div>
           </div>
         </section>
@@ -579,7 +579,7 @@ export default function LoveThyNeighborPage() {
             <h2 className="text-xl font-display font-bold text-scripture mb-4">
               How the Apostles Taught This Command
             </h2>
-            <div className="text-primary-dark/80 leading-relaxed space-y-4">
+            <div className="text-scripture leading-relaxed space-y-4">
               <p>
                 <strong>Paul</strong> &mdash; The apostle Paul did not merely repeat the love thy neighbor bible verse. He explained <em>why</em> it works. In Romans 13:8&ndash;10, he argued that love is the &ldquo;fulfilling of the law&rdquo; because every prohibition &mdash; against adultery, murder, theft, covetousness &mdash; is automatically satisfied when you genuinely love someone. You don&apos;t need a list of rules for people you truly care about. &ldquo;Love worketh no ill to his neighbour&rdquo; (Romans 13:10). In Galatians 5:14, he compressed the entire Torah into a single phrase: &ldquo;For all the law is fulfilled in one word, even in this; Thou shalt love thy neighbour as thyself.&rdquo; For Paul, this was not a simplification of the Law. It was the Law&apos;s deepest intention, finally stated plainly.
               </p>
@@ -591,13 +591,13 @@ export default function LoveThyNeighborPage() {
               </p>
             </div>
             <div className="flex flex-wrap items-center gap-3 mt-5 text-sm border-t border-grace pt-4">
-              <Link href="/romans-chapters" className="text-blue-600 hover:underline">Romans Chapters</Link>
-              <span className="text-primary-dark/30">|</span>
-              <Link href="/galatians-chapters" className="text-blue-600 hover:underline">Galatians Chapters</Link>
-              <span className="text-primary-dark/30">|</span>
-              <Link href="/james-chapters" className="text-blue-600 hover:underline">James Chapters</Link>
-              <span className="text-primary-dark/30">|</span>
-              <Link href="/1-john-chapters" className="text-blue-600 hover:underline">1 John Chapters</Link>
+              <Link href="/romans-chapters" className="text-sacred hover:underline">Romans Chapters</Link>
+              <span className="text-ink-light">|</span>
+              <Link href="/galatians-chapters" className="text-sacred hover:underline">Galatians Chapters</Link>
+              <span className="text-ink-light">|</span>
+              <Link href="/james-chapters" className="text-sacred hover:underline">James Chapters</Link>
+              <span className="text-ink-light">|</span>
+              <Link href="/1-john-chapters" className="text-sacred hover:underline">1 John Chapters</Link>
             </div>
           </div>
         </section>
@@ -606,10 +606,10 @@ export default function LoveThyNeighborPage() {
             CTA
         ================================================================ */}
         <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-6 md:p-8 text-white">
+          <div className="bg-gradient-to-r from-scripture to-scripture/80 rounded-xl p-6 md:p-8 text-white">
             <h2 className="text-xl md:text-2xl font-display font-bold mb-2">Test Your Knowledge of These Verses</h2>
-            <p className="text-blue-100 mb-4 max-w-2xl">Chapter-by-chapter quizzes for Leviticus, Matthew, Luke, Romans, and every other book of the Bible with instant scoring and verse-by-verse explanations.</p>
-            <Link href="/bible-quizzes" className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md">Take a Bible Quiz</Link>
+            <p className="text-sacred-light mb-4 max-w-2xl">Chapter-by-chapter quizzes for Leviticus, Matthew, Luke, Romans, and every other book of the Bible with instant scoring and verse-by-verse explanations.</p>
+            <Link href="/bible-quizzes" className="inline-flex items-center px-6 py-3 bg-white text-scripture font-bold rounded-lg hover:bg-sacred-light transition-colors shadow-md">Take a Bible Quiz</Link>
           </div>
         </section>
 
@@ -622,37 +622,37 @@ export default function LoveThyNeighborPage() {
             <div className="space-y-6">
               <div>
                 <h3 className="font-bold text-scripture mb-1">Where in the Bible does it say &ldquo;love thy neighbor&rdquo;?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
-                  The phrase &ldquo;love thy neighbour as thyself&rdquo; first appears in <Link href="/verses/leviticus/19/18" className="text-blue-600 hover:underline font-medium">Leviticus 19:18</Link>, where God gave it to Moses as part of the Holiness Code. Jesus quoted it in <Link href="/verses/matthew/22/39" className="text-blue-600 hover:underline font-medium">Matthew 22:39</Link> and <Link href="/verses/mark/12/31" className="text-blue-600 hover:underline font-medium">Mark 12:31</Link> as the second greatest commandment. It also appears in Luke 10:27, Romans 13:9, Galatians 5:14, and James 2:8. No other Old Testament command is quoted this many times in the New Testament.
+                <p className="text-scripture leading-relaxed">
+                  The phrase &ldquo;love thy neighbour as thyself&rdquo; first appears in <Link href="/verses/leviticus/19/18" className="text-sacred hover:underline font-medium">Leviticus 19:18</Link>, where God gave it to Moses as part of the Holiness Code. Jesus quoted it in <Link href="/verses/matthew/22/39" className="text-sacred hover:underline font-medium">Matthew 22:39</Link> and <Link href="/verses/mark/12/31" className="text-sacred hover:underline font-medium">Mark 12:31</Link> as the second greatest commandment. It also appears in Luke 10:27, Romans 13:9, Galatians 5:14, and James 2:8. No other Old Testament command is quoted this many times in the New Testament.
                 </p>
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">What does &ldquo;love thy neighbor as thyself&rdquo; mean?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
-                  It means extending the same active care to others that you instinctively give to yourself. The Hebrew word for love here &mdash; <em>ahab</em> &mdash; is not a warm feeling. It describes deliberate, protective action. The standard &ldquo;as thyself&rdquo; is what makes the command so demanding: you know exactly how much effort you put into your own well-being. Now do that for someone else. Jesus demonstrated the meaning through the <Link href="/chapters/luke/10" className="text-blue-600 hover:underline">Parable of the Good Samaritan</Link>, where love was defined by sacrifice, not sentiment.
+                <p className="text-scripture leading-relaxed">
+                  It means extending the same active care to others that you instinctively give to yourself. The Hebrew word for love here &mdash; <em>ahab</em> &mdash; is not a warm feeling. It describes deliberate, protective action. The standard &ldquo;as thyself&rdquo; is what makes the command so demanding: you know exactly how much effort you put into your own well-being. Now do that for someone else. Jesus demonstrated the meaning through the <Link href="/chapters/luke/10" className="text-sacred hover:underline">Parable of the Good Samaritan</Link>, where love was defined by sacrifice, not sentiment.
                 </p>
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">Who is my neighbor according to Jesus?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
+                <p className="text-scripture leading-relaxed">
                   When a lawyer asked &ldquo;Who is my neighbour?&rdquo; (Luke 10:29), Jesus told the Parable of the Good Samaritan. A man was beaten and left for dead. A priest passed by. A Levite passed by. A Samaritan &mdash; someone despised by the Jewish audience &mdash; stopped, bandaged his wounds, paid for his care, and promised to return. Jesus then asked which of the three was a neighbor. The answer: anyone willing to show mercy. Your neighbor is not defined by proximity or ethnicity. Your neighbor is whoever needs help &mdash; and you become a neighbor by helping.
                 </p>
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">Is &ldquo;love thy neighbor&rdquo; in the Old Testament or New Testament?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
+                <p className="text-scripture leading-relaxed">
                   Both. The original command appears in Leviticus 19:18 in the Old Testament, given by God to Israel through Moses. Jesus quoted it in the New Testament in Matthew 22:39, Mark 12:31, and Luke 10:27. Paul referenced it in Romans 13:9 and Galatians 5:14. James called it the &ldquo;royal law&rdquo; in James 2:8. It is one of the few Old Testament commands repeated across nearly every genre of New Testament writing &mdash; Gospels, epistles, and practical instruction.
                 </p>
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">What is the difference between the Golden Rule and &ldquo;love thy neighbor&rdquo;?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
-                  The Golden Rule &mdash; &ldquo;Therefore all things whatsoever ye would that men should do to you, do ye even so to them&rdquo; (<Link href="/verses/matthew/7/12" className="text-blue-600 hover:underline">Matthew 7:12</Link>) &mdash; focuses on reciprocal fairness: treat others the way you want to be treated. &ldquo;Love thy neighbour as thyself&rdquo; sets a higher bar: love others with the same intensity you love yourself. One is about fair treatment. The other is about sacrificial devotion. Jesus taught both, and together they form the ethical foundation of the New Testament. Paul connected them in Romans 13:9&ndash;10, showing that genuine love automatically fulfills every rule about how to treat people.
+                <p className="text-scripture leading-relaxed">
+                  The Golden Rule &mdash; &ldquo;Therefore all things whatsoever ye would that men should do to you, do ye even so to them&rdquo; (<Link href="/verses/matthew/7/12" className="text-sacred hover:underline">Matthew 7:12</Link>) &mdash; focuses on reciprocal fairness: treat others the way you want to be treated. &ldquo;Love thy neighbour as thyself&rdquo; sets a higher bar: love others with the same intensity you love yourself. One is about fair treatment. The other is about sacrificial devotion. Jesus taught both, and together they form the ethical foundation of the New Testament. Paul connected them in Romans 13:9&ndash;10, showing that genuine love automatically fulfills every rule about how to treat people.
                 </p>
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">What is the &ldquo;Royal Law&rdquo; in James 2:8?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
+                <p className="text-scripture leading-relaxed">
                   James 2:8 says: &ldquo;If ye fulfil the royal law according to the scripture, Thou shalt love thy neighbour as thyself, ye do well.&rdquo; James calls this command the &ldquo;royal law&rdquo; because it belongs to the King. The Greek word <em>basilikos</em> means &ldquo;kingly&rdquo; or &ldquo;belonging to the king.&rdquo; Since Jesus &mdash; the King of kings &mdash; elevated &ldquo;love thy neighbor&rdquo; as the second greatest commandment, obeying it is obeying the King Himself. James invoked this verse while arguing against showing favoritism to the rich, proving that the royal law applies to everyone equally, without partiality.
                 </p>
               </div>
@@ -667,15 +667,15 @@ export default function LoveThyNeighborPage() {
           <div className="bg-white rounded-xl border border-grace p-6 md:p-8">
             <h2 className="text-xl font-display font-bold text-scripture mb-4">Continue Exploring Scripture</h2>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
-              <Link href="/bible-quizzes" className="flex items-center px-4 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-all"><span>Bible Quizzes</span></Link>
-              <Link href="/bible-quotes/love" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Bible Quotes About Love</span></Link>
-              <Link href="/bible-quotes/compassion" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Bible Quotes About Compassion</span></Link>
-              <Link href="/bible-quotes/friendship" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Bible Quotes About Friendship</span></Link>
-              <Link href="/leviticus-chapters" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Leviticus Chapters</span></Link>
-              <Link href="/matthew-chapters" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Matthew Chapters</span></Link>
-              <Link href="/luke-chapters" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Luke Chapters</span></Link>
-              <Link href="/popular-bible-verses" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">100 Most Popular Verses</span></Link>
-              <Link href="/bible-study-guides" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 transition-all group"><span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Bible Study Guides</span></Link>
+              <Link href="/bible-quizzes" className="flex items-center px-4 py-3 bg-scripture text-white font-bold rounded-lg hover:bg-ink-muted transition-all"><span>Bible Quizzes</span></Link>
+              <Link href="/bible-quotes/love" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Bible Quotes About Love</span></Link>
+              <Link href="/bible-quotes/compassion" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Bible Quotes About Compassion</span></Link>
+              <Link href="/bible-quotes/friendship" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Bible Quotes About Friendship</span></Link>
+              <Link href="/leviticus-chapters" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Leviticus Chapters</span></Link>
+              <Link href="/matthew-chapters" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Matthew Chapters</span></Link>
+              <Link href="/luke-chapters" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Luke Chapters</span></Link>
+              <Link href="/popular-bible-verses" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">100 Most Popular Verses</span></Link>
+              <Link href="/bible-study-guides" className="flex items-center px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 transition-all group"><span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Bible Study Guides</span></Link>
             </div>
           </div>
         </section>

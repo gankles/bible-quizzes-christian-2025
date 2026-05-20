@@ -171,7 +171,7 @@ export default function GreekWordIndexPage() {
         className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 pb-2"
         aria-label="Breadcrumb"
       >
-        <ol className="flex items-center space-x-2 text-sm text-primary-dark/50">
+        <ol className="flex items-center space-x-2 text-sm text-ink-muted">
           <li>
             <Link href="/" className="hover:text-indigo-600 transition-colors">
               Home
@@ -183,7 +183,7 @@ export default function GreekWordIndexPage() {
       </nav>
 
       {/* HERO */}
-      <section className="relative pt-20 pb-20 bg-gradient-to-br from-indigo-700 via-indigo-800 to-blue-900 text-white overflow-hidden">
+      <section className="relative pt-20 pb-20 bg-gradient-to-br from-scripture/80 via-indigo-800 to-scripture/80 text-white overflow-hidden">
         <div className="absolute inset-0 bg-black/10" />
         {/* Decorative alpha/omega watermark */}
         <div className="absolute bottom-0 right-0 text-[18rem] font-bold text-white/[0.03] leading-none select-none pointer-events-none hidden lg:block translate-x-10 translate-y-16">
@@ -238,7 +238,7 @@ export default function GreekWordIndexPage() {
       {/* INTRO */}
       <section className="py-16 bg-primary-light/30 border-b border-grace">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="prose prose-lg max-w-none text-primary-dark/70 leading-relaxed">
+          <div className="prose prose-lg max-w-none text-ink-muted leading-relaxed">
             <p>
               The New Testament was written in Koine Greek, the common language of the first-century Roman Empire. The 27 books composed by the apostles and their associates employ approximately 5,500 unique Greek words, each carrying precise theological meaning. Strong&apos;s Concordance, compiled by James Strong in 1890, assigns a unique reference number to every Hebrew and Greek word in the King James Bible, making it possible to trace each English translation back to its original language.
             </p>
@@ -256,7 +256,7 @@ export default function GreekWordIndexPage() {
             <h2 className="text-3xl font-bold font-display text-scripture mb-2 text-center tracking-tight">
               Key Greek Words in the New Testament
             </h2>
-            <p className="text-center text-primary-dark/60 mb-10 max-w-2xl mx-auto">
+            <p className="text-center text-ink-muted mb-10 max-w-2xl mx-auto">
               These theologically significant words form the foundation of New Testament doctrine. Study each one to deepen your understanding of Scripture.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
@@ -276,10 +276,10 @@ export default function GreekWordIndexPage() {
                     <div className="text-base font-semibold text-indigo-600 italic mb-0.5">
                       {entry.transliteration}
                     </div>
-                    <div className="text-xs font-mono text-primary-dark/40 mb-3">
+                    <div className="text-xs font-mono text-ink-light mb-3">
                       {entry.number}
                     </div>
-                    <div className="text-sm text-primary-dark/60 mb-4 line-clamp-2">
+                    <div className="text-sm text-ink-muted mb-4 line-clamp-2">
                       {shortDef}
                     </div>
                     <div className="flex items-center text-indigo-600 text-sm font-semibold">
@@ -329,7 +329,7 @@ export default function GreekWordIndexPage() {
                     {letter}
                   </div>
                   <div className="h-px flex-1 bg-grace" />
-                  <span className="text-sm text-primary-dark/40 font-medium">
+                  <span className="text-sm text-ink-light font-medium">
                     {slugsInLetter.length} words
                   </span>
                 </div>
@@ -347,10 +347,10 @@ export default function GreekWordIndexPage() {
                       <div className="text-sm font-semibold text-indigo-600 italic mb-0.5">
                         {entry.transliteration}
                       </div>
-                      <div className="text-[10px] font-mono text-primary-dark/30 mb-2">
+                      <div className="text-[10px] font-mono text-ink-light mb-2">
                         {entry.number}
                       </div>
-                      <div className="text-xs text-primary-dark/50 line-clamp-2">
+                      <div className="text-xs text-ink-muted line-clamp-2">
                         {entry.definition}
                       </div>
                     </Link>
@@ -359,7 +359,7 @@ export default function GreekWordIndexPage() {
 
                 {hasMore && (
                   <div className="mt-4 text-center">
-                    <span className="text-sm text-primary-dark/40">
+                    <span className="text-sm text-ink-light">
                       Showing 20 of {slugsInLetter.length} words.{' '}
                       Browse individual word study pages for the complete list.
                     </span>
@@ -373,7 +373,7 @@ export default function GreekWordIndexPage() {
 
       {/* CRO — QUIZ CTA */}
       <section className="py-12 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto bg-gradient-to-r from-indigo-700 to-blue-800 rounded-xl p-6 md:p-8 text-white text-center">
+        <div className="max-w-4xl mx-auto bg-gradient-to-r from-scripture/80 to-scripture/80 rounded-xl p-6 md:p-8 text-white text-center">
           <h2 className="text-2xl font-bold font-display mb-3">
             Test Your Knowledge of Biblical Greek
           </h2>
@@ -452,7 +452,7 @@ export default function GreekWordIndexPage() {
                 <h3 className="text-lg font-bold text-scripture mb-2 group-hover:text-indigo-700 transition-colors">
                   {link.title}
                 </h3>
-                <p className="text-sm text-primary-dark/60 mb-4">{link.desc}</p>
+                <p className="text-sm text-ink-muted mb-4">{link.desc}</p>
                 <div className="flex items-center text-indigo-600 text-sm font-semibold">
                   <span>Explore</span>
                   <ArrowRightIcon className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />

@@ -173,14 +173,14 @@ export default async function NaveTopicDetailPage({ params }: PageProps) {
         <div className="max-w-4xl mx-auto px-4 py-3">
           <ol className="flex items-center flex-wrap gap-y-1 text-sm">
             <li>
-              <Link href="/" className="text-blue-600 hover:underline">Home</Link>
+              <Link href="/" className="text-sacred hover:underline">Home</Link>
             </li>
-            <li className="text-primary-dark/40 mx-2">/</li>
+            <li className="text-ink-light mx-2">/</li>
             <li>
-              <Link href="/bible-topics" className="text-blue-600 hover:underline">Bible Topics</Link>
+              <Link href="/bible-topics" className="text-sacred hover:underline">Bible Topics</Link>
             </li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li className="text-primary-dark/70 font-medium">{topic.subject}</li>
+            <li className="text-ink-light mx-2">/</li>
+            <li className="text-ink-muted font-medium">{topic.subject}</li>
           </ol>
         </div>
       </nav>
@@ -208,7 +208,7 @@ export default async function NaveTopicDetailPage({ params }: PageProps) {
 
           {/* Quick Overview */}
           <div className="p-6">
-            <p className="text-primary-dark/70 leading-relaxed">{overview}</p>
+            <p className="text-ink-muted leading-relaxed">{overview}</p>
           </div>
         </header>
 
@@ -216,15 +216,15 @@ export default async function NaveTopicDetailPage({ params }: PageProps) {
         <div className="grid grid-cols-3 gap-4 mb-8">
           <div className="bg-white border border-grace rounded-lg shadow-sm p-4 text-center">
             <div className="text-2xl font-bold text-amber-700">{topic.entries.length}</div>
-            <div className="text-xs text-primary-dark/60 mt-1 font-medium">Sub-Topics</div>
+            <div className="text-xs text-ink-muted mt-1 font-medium">Sub-Topics</div>
           </div>
           <div className="bg-white border border-grace rounded-lg shadow-sm p-4 text-center">
             <div className="text-2xl font-bold text-amber-700">{topic.refCount.toLocaleString()}</div>
-            <div className="text-xs text-primary-dark/60 mt-1 font-medium">Verse References</div>
+            <div className="text-xs text-ink-muted mt-1 font-medium">Verse References</div>
           </div>
           <div className="bg-white border border-grace rounded-lg shadow-sm p-4 text-center">
             <div className="text-2xl font-bold text-amber-700">{topic.books.length}</div>
-            <div className="text-xs text-primary-dark/60 mt-1 font-medium">Books</div>
+            <div className="text-xs text-ink-muted mt-1 font-medium">Books</div>
           </div>
         </div>
 
@@ -246,7 +246,7 @@ export default async function NaveTopicDetailPage({ params }: PageProps) {
             <h2 className="text-xl font-bold text-scripture mb-4">
               Book Distribution
             </h2>
-            <p className="text-sm text-primary-dark/60 mb-6">
+            <p className="text-sm text-ink-muted mb-6">
               Which books of the Bible reference &ldquo;{topic.subject}&rdquo; most frequently.
             </p>
             <div className="space-y-2">
@@ -254,7 +254,7 @@ export default async function NaveTopicDetailPage({ params }: PageProps) {
                 <div key={item.book} className="flex items-center gap-3">
                   <Link
                     href={`/bible-geography/${item.slug}`}
-                    className="w-28 text-sm text-blue-600 hover:underline font-medium truncate flex-shrink-0"
+                    className="w-28 text-sm text-sacred hover:underline font-medium truncate flex-shrink-0"
                   >
                     {item.name}
                   </Link>
@@ -264,14 +264,14 @@ export default async function NaveTopicDetailPage({ params }: PageProps) {
                       style={{ width: `${Math.max(4, (item.count / maxBookCount) * 100)}%` }}
                     />
                   </div>
-                  <span className="text-xs text-primary-dark/60 font-medium w-10 text-right flex-shrink-0">
+                  <span className="text-xs text-ink-muted font-medium w-10 text-right flex-shrink-0">
                     {item.count}
                   </span>
                 </div>
               ))}
             </div>
             {bookDist.length > 15 && (
-              <p className="text-xs text-primary-dark/40 mt-4">
+              <p className="text-xs text-ink-light mt-4">
                 And {bookDist.length - 15} more books...
               </p>
             )}
@@ -334,10 +334,10 @@ export default async function NaveTopicDetailPage({ params }: PageProps) {
                 <Link
                   key={rt.slug}
                   href={`/bible-topics/${rt.slug}`}
-                  className="px-4 py-2 bg-primary-light/50 border border-grace rounded-lg text-sm text-primary-dark/80 hover:border-amber-400 hover:text-amber-700 transition-colors"
+                  className="px-4 py-2 bg-primary-light/50 border border-grace rounded-lg text-sm text-scripture hover:border-amber-400 hover:text-amber-700 transition-colors"
                 >
                   {rt.subject}
-                  <span className="ml-1 text-xs text-primary-dark/40">({rt.refCount})</span>
+                  <span className="ml-1 text-xs text-ink-light">({rt.refCount})</span>
                 </Link>
               ))}
             </div>
@@ -354,7 +354,7 @@ export default async function NaveTopicDetailPage({ params }: PageProps) {
               <Link
                 key={t.slug}
                 href={`/bible-topics/${t.slug}`}
-                className="px-3 py-1.5 bg-primary-light/50 border border-grace rounded text-sm text-primary-dark/70 hover:border-amber-400 hover:text-amber-700 transition-colors"
+                className="px-3 py-1.5 bg-primary-light/50 border border-grace rounded text-sm text-ink-muted hover:border-amber-400 hover:text-amber-700 transition-colors"
               >
                 {t.subject}
               </Link>
@@ -380,7 +380,7 @@ export default async function NaveTopicDetailPage({ params }: PageProps) {
               <div className="text-sm font-bold text-scripture group-hover:text-amber-700 mb-1">
                 {topic.subject} Verses with Text
               </div>
-              <div className="text-xs text-primary-dark/60">
+              <div className="text-xs text-ink-muted">
                 Read full verse text and commentary
               </div>
             </Link>
@@ -391,7 +391,7 @@ export default async function NaveTopicDetailPage({ params }: PageProps) {
               <div className="text-sm font-bold text-scripture group-hover:text-amber-700 mb-1">
                 Greek and Hebrew Word Studies
               </div>
-              <div className="text-xs text-primary-dark/60">
+              <div className="text-xs text-ink-muted">
                 Explore original-language meanings
               </div>
             </Link>
@@ -402,7 +402,7 @@ export default async function NaveTopicDetailPage({ params }: PageProps) {
               <div className="text-sm font-bold text-scripture group-hover:text-amber-700 mb-1">
                 Bible Characters
               </div>
-              <div className="text-xs text-primary-dark/60">
+              <div className="text-xs text-ink-muted">
                 Study the people of Scripture
               </div>
             </Link>
@@ -413,7 +413,7 @@ export default async function NaveTopicDetailPage({ params }: PageProps) {
               <div className="text-sm font-bold text-scripture group-hover:text-amber-700 mb-1">
                 Browse All 5,000+ Topics
               </div>
-              <div className="text-xs text-primary-dark/60">
+              <div className="text-xs text-ink-muted">
                 A-Z index of Nave&apos;s Topical Bible
               </div>
             </Link>
@@ -424,7 +424,7 @@ export default async function NaveTopicDetailPage({ params }: PageProps) {
               <div className="text-sm font-bold text-scripture group-hover:text-amber-700 mb-1">
                 Bible Quizzes
               </div>
-              <div className="text-xs text-primary-dark/60">
+              <div className="text-xs text-ink-muted">
                 Test your knowledge on every book
               </div>
             </Link>
@@ -435,7 +435,7 @@ export default async function NaveTopicDetailPage({ params }: PageProps) {
               <div className="text-sm font-bold text-scripture group-hover:text-amber-700 mb-1">
                 Daily Devotionals
               </div>
-              <div className="text-xs text-primary-dark/60">
+              <div className="text-xs text-ink-muted">
                 Reflections for spiritual growth
               </div>
             </Link>
@@ -470,7 +470,7 @@ function SubTopicCard({ entry, index }: { entry: NaveEntry; index: number }) {
           </span>
           <div className="flex-1 min-w-0">
             {hasText && (
-              <p className="text-sm text-primary-dark/80 leading-relaxed mb-3">
+              <p className="text-sm text-scripture leading-relaxed mb-3">
                 {displayText}
               </p>
             )}
@@ -480,14 +480,14 @@ function SubTopicCard({ entry, index }: { entry: NaveEntry; index: number }) {
                   <ReferenceLink key={`${ref.raw}-${i}`} reference={ref} />
                 ))}
                 {!showAllRefs && (
-                  <span className="px-2 py-0.5 bg-primary-light/60 rounded text-xs text-primary-dark/50 font-medium">
+                  <span className="px-2 py-0.5 bg-primary-light/60 rounded text-xs text-ink-muted font-medium">
                     +{refs.length - 8} more
                   </span>
                 )}
               </div>
             )}
             {refs.length === 0 && !hasText && (
-              <p className="text-xs text-primary-dark/40 italic">No verse references for this sub-topic</p>
+              <p className="text-xs text-ink-light italic">No verse references for this sub-topic</p>
             )}
           </div>
         </div>

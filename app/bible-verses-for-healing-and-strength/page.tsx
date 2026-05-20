@@ -501,7 +501,7 @@ export default function BibleVersesForHealingPage() {
                   </p>
                   <Link
                     href="/bible-quizzes"
-                    className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md w-fit"
+                    className="inline-flex items-center px-6 py-3 bg-white text-scripture font-bold rounded-lg hover:bg-sacred-light transition-colors shadow-md w-fit"
                   >
                     Test Your Knowledge &mdash; Take a Quiz
                   </Link>
@@ -511,20 +511,20 @@ export default function BibleVersesForHealingPage() {
               {/* Stats Bar */}
               <div className="grid grid-cols-4 divide-x divide-grace border-b border-grace">
                 <div className="p-4 text-center">
-                  <p className="text-2xl font-bold text-blue-600">50</p>
-                  <p className="text-sm text-primary-dark/70">Verses</p>
+                  <p className="text-2xl font-bold text-sacred">50</p>
+                  <p className="text-sm text-ink-muted">Verses</p>
                 </div>
                 <div className="p-4 text-center">
-                  <p className="text-2xl font-bold text-blue-600">{themes.length}</p>
-                  <p className="text-sm text-primary-dark/70">Themes</p>
+                  <p className="text-2xl font-bold text-sacred">{themes.length}</p>
+                  <p className="text-sm text-ink-muted">Themes</p>
                 </div>
                 <div className="p-4 text-center">
-                  <p className="text-2xl font-bold text-blue-600">KJV</p>
-                  <p className="text-sm text-primary-dark/70">Translation</p>
+                  <p className="text-2xl font-bold text-sacred">KJV</p>
+                  <p className="text-sm text-ink-muted">Translation</p>
                 </div>
                 <div className="p-4 text-center">
-                  <p className="text-2xl font-bold text-blue-600">{booksCount}</p>
-                  <p className="text-sm text-primary-dark/70">Books</p>
+                  <p className="text-2xl font-bold text-sacred">{booksCount}</p>
+                  <p className="text-sm text-ink-muted">Books</p>
                 </div>
               </div>
             </div>
@@ -537,7 +537,7 @@ export default function BibleVersesForHealingPage() {
             <h2 className="text-xl font-display font-bold text-scripture mb-3">
               When Your Body Fails, These Words Don&apos;t
             </h2>
-            <p className="text-primary-dark/80 leading-relaxed mb-3">
+            <p className="text-scripture leading-relaxed mb-3">
               Nobody plans to need healing scriptures. They find you in hospital
               waiting rooms, in 3 AM Google searches when the pain won&apos;t let
               you sleep, in the parking lot after a diagnosis that rearranges
@@ -546,7 +546,7 @@ export default function BibleVersesForHealingPage() {
               exactly how these verses have worked for three thousand years.
               Not as theology homework. As lifelines.
             </p>
-            <p className="text-primary-dark/80 leading-relaxed mb-3">
+            <p className="text-scripture leading-relaxed mb-3">
               The word &ldquo;heal&rdquo; appears over 80 times in the King
               James Bible. That&apos;s not a footnote in Scripture. It&apos;s a
               theme. God healing bodies, healing hearts, healing nations, healing
@@ -560,7 +560,7 @@ export default function BibleVersesForHealingPage() {
               cornerstone of biblical healing theology, quoted by Peter in his
               first epistle, fulfilled by Matthew in his Gospel.
             </p>
-            <p className="text-primary-dark/80 leading-relaxed mb-3">
+            <p className="text-scripture leading-relaxed mb-3">
               Here&apos;s the thing. The strength side of these scriptures is
               just as staggering. The Hebrew word for strength &mdash;
               <em> oz</em>, <em>chayil</em> &mdash; doesn&apos;t mean
@@ -573,7 +573,7 @@ export default function BibleVersesForHealingPage() {
               body turns against you, God becomes the strength your heart
               runs on.
             </p>
-            <p className="text-primary-dark/80 leading-relaxed mb-3">
+            <p className="text-scripture leading-relaxed mb-3">
               Think of a woman reading Jeremiah 17:14 during chemo treatments,
               pinning the verse to her IV pole: &ldquo;Heal me, O LORD, and I
               shall be healed.&rdquo; That&apos;s not wishful thinking.
@@ -583,7 +583,7 @@ export default function BibleVersesForHealingPage() {
               languishing.&rdquo; He doesn&apos;t know what tomorrow holds. But
               he knows who holds it.
             </p>
-            <p className="text-primary-dark/80 leading-relaxed">
+            <p className="text-scripture leading-relaxed">
               The 50 bible verses for healing and strength gathered below span
               both testaments and cover prayers for healing, God&apos;s healing
               power, scriptures for the sick, KJV healing verses for recovery,
@@ -605,7 +605,7 @@ export default function BibleVersesForHealingPage() {
               <a
                 key={theme}
                 href={`#theme-${theme.toLowerCase().replace(/\s+/g, '-').replace(/'/g, '')}`}
-                className="inline-flex items-center px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-primary-dark/80 hover:border-blue-300 hover:text-blue-600 transition-colors"
+                className="inline-flex items-center px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-scripture hover:border-sacred/50 hover:text-gold-dark transition-colors"
               >
                 {theme}
               </a>
@@ -620,11 +620,11 @@ export default function BibleVersesForHealingPage() {
               <li
                 key={verse.reference}
                 id={`theme-${verse.theme.toLowerCase().replace(/\s+/g, '-').replace(/'/g, '')}`}
-                className="bg-white rounded-xl border border-grace hover:border-blue-200 hover:shadow-sm transition-all overflow-hidden"
+                className="bg-white rounded-xl border border-grace hover:border-sacred/50 hover:shadow-sm transition-all overflow-hidden"
               >
                 <div className="flex items-start gap-4 p-5 md:p-6">
                   {/* Number */}
-                  <span className="flex-shrink-0 w-9 h-9 flex items-center justify-center rounded-full bg-blue-50 text-blue-700 text-sm font-bold border border-blue-100">
+                  <span className="flex-shrink-0 w-9 h-9 flex items-center justify-center rounded-full bg-sacred-light text-scripture text-sm font-bold border border-sacred/10">
                     {idx + 1}
                   </span>
 
@@ -633,17 +633,17 @@ export default function BibleVersesForHealingPage() {
                     <div className="flex flex-wrap items-center gap-2 mb-2">
                       <Link
                         href={verseUrl(verse)}
-                        className="text-lg font-display font-bold text-scripture hover:text-blue-600 transition-colors"
+                        className="text-lg font-display font-bold text-scripture hover:text-gold-dark transition-colors"
                       >
                         {verse.reference}
                       </Link>
-                      <span className="inline-block px-2 py-0.5 bg-blue-50 text-blue-700 text-xs rounded-full border border-blue-100">
+                      <span className="inline-block px-2 py-0.5 bg-sacred-light text-scripture text-xs rounded-full border border-sacred/10">
                         {verse.theme}
                       </span>
                     </div>
 
                     {/* Verse Text */}
-                    <blockquote className="text-primary-dark/85 leading-relaxed italic border-l-3 border-blue-200 pl-4">
+                    <blockquote className="text-ink-muted leading-relaxed italic border-l-3 border-sacred/20 pl-4">
                       &ldquo;{verse.text}&rdquo;
                     </blockquote>
 
@@ -651,35 +651,35 @@ export default function BibleVersesForHealingPage() {
                     <div className="flex flex-wrap items-center gap-3 mt-3 text-sm">
                       <Link
                         href={verseUrl(verse)}
-                        className="text-blue-600 hover:underline font-medium"
+                        className="text-sacred hover:underline font-medium"
                       >
                         Study this verse
                       </Link>
-                      <span className="text-primary-dark/30">|</span>
+                      <span className="text-ink-light">|</span>
                       <Link
                         href={`/chapters/${verse.bookSlug}/${verse.chapter}`}
-                        className="text-blue-600 hover:underline"
+                        className="text-sacred hover:underline"
                       >
                         Chapter {verse.chapter}
                       </Link>
-                      <span className="text-primary-dark/30">|</span>
+                      <span className="text-ink-light">|</span>
                       <Link
                         href={`/${verse.bookSlug}-chapters`}
-                        className="text-blue-600 hover:underline"
+                        className="text-sacred hover:underline"
                       >
                         {verse.book} Chapters
                       </Link>
-                      <span className="text-primary-dark/30">|</span>
+                      <span className="text-ink-light">|</span>
                       <Link
                         href={`/${verse.bookSlug}-${verse.chapter}-quiz`}
-                        className="text-blue-600 hover:underline font-semibold"
+                        className="text-sacred hover:underline font-semibold"
                       >
                         Chapter Quiz
                       </Link>
-                      <span className="text-primary-dark/30">|</span>
+                      <span className="text-ink-light">|</span>
                       <Link
                         href={`/bible-quotes/${verse.themeSlug}`}
-                        className="text-blue-600 hover:underline"
+                        className="text-sacred hover:underline"
                       >
                         Bible Quotes About {verse.theme}
                       </Link>
@@ -693,16 +693,16 @@ export default function BibleVersesForHealingPage() {
 
         {/* Mid-Content CTA Banner */}
         <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-6 md:p-8 text-white">
+          <div className="bg-gradient-to-r from-scripture to-scripture/80 rounded-xl p-6 md:p-8 text-white">
             <h2 className="text-xl md:text-2xl font-display font-bold mb-2">
               How Well Do You Know These Healing and Strength Verses? Take a Quiz.
             </h2>
-            <p className="text-blue-100 mb-4 max-w-2xl">
+            <p className="text-sacred-light mb-4 max-w-2xl">
               Put your Bible knowledge to the test with chapter quizzes from Psalms, Isaiah, James, and more. 15 questions per quiz with instant scoring and verse-by-verse explanations.
             </p>
             <Link
               href="/bible-quizzes"
-              className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md"
+              className="inline-flex items-center px-6 py-3 bg-white text-scripture font-bold rounded-lg hover:bg-sacred-light transition-colors shadow-md"
             >
               Take a Quiz Now
             </Link>
@@ -719,15 +719,15 @@ export default function BibleVersesForHealingPage() {
               <div>
                 <h3 className="font-bold text-scripture mb-2">
                   Old Testament
-                  <span className="text-sm font-normal text-primary-dark/60 ml-2">({otVerses.length} verses)</span>
+                  <span className="text-sm font-normal text-ink-muted ml-2">({otVerses.length} verses)</span>
                 </h3>
                 <ul className="space-y-1">
                   {otVerses.map(v => (
                     <li key={v.reference}>
-                      <Link href={verseUrl(v)} className="text-sm text-blue-600 hover:underline">
+                      <Link href={verseUrl(v)} className="text-sm text-sacred hover:underline">
                         {v.reference}
                       </Link>
-                      <span className="text-sm text-primary-dark/50 ml-1">&mdash; {v.book}</span>
+                      <span className="text-sm text-ink-muted ml-1">&mdash; {v.book}</span>
                     </li>
                   ))}
                 </ul>
@@ -735,15 +735,15 @@ export default function BibleVersesForHealingPage() {
               <div>
                 <h3 className="font-bold text-scripture mb-2">
                   New Testament
-                  <span className="text-sm font-normal text-primary-dark/60 ml-2">({ntVerses.length} verses)</span>
+                  <span className="text-sm font-normal text-ink-muted ml-2">({ntVerses.length} verses)</span>
                 </h3>
                 <ul className="space-y-1">
                   {ntVerses.map(v => (
                     <li key={v.reference}>
-                      <Link href={verseUrl(v)} className="text-sm text-blue-600 hover:underline">
+                      <Link href={verseUrl(v)} className="text-sm text-sacred hover:underline">
                         {v.reference}
                       </Link>
-                      <span className="text-sm text-primary-dark/50 ml-1">&mdash; {v.book}</span>
+                      <span className="text-sm text-ink-muted ml-1">&mdash; {v.book}</span>
                     </li>
                   ))}
                 </ul>
@@ -761,7 +761,7 @@ export default function BibleVersesForHealingPage() {
             <div className="space-y-6">
               <div>
                 <h3 className="font-bold text-scripture mb-1">What is the most powerful Bible verse for healing?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
+                <p className="text-scripture leading-relaxed">
                   Isaiah 53:5 is the one most Christians reach for first:
                   &ldquo;But he was wounded for our transgressions, he was
                   bruised for our iniquities: the chastisement of our peace was
@@ -779,7 +779,7 @@ export default function BibleVersesForHealingPage() {
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">Does God still heal today?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
+                <p className="text-scripture leading-relaxed">
                   Look at how God describes Himself. &ldquo;I am the LORD that
                   healeth thee&rdquo; (Exodus 15:26). That&apos;s a statement
                   of identity, not a report on a past event. Malachi 3:6 says
@@ -797,7 +797,7 @@ export default function BibleVersesForHealingPage() {
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">What scripture to pray for someone who is sick?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
+                <p className="text-scripture leading-relaxed">
                   Start with Jeremiah 17:14 &mdash; you can pray it word for
                   word: &ldquo;Heal me, O LORD, and I shall be healed; save me,
                   and I shall be saved: for thou art my praise.&rdquo; Change
@@ -816,7 +816,7 @@ export default function BibleVersesForHealingPage() {
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">What is the difference between healing and being cured in the Bible?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
+                <p className="text-scripture leading-relaxed">
                   Modern medicine separates the two. The Bible doesn&apos;t. In
                   Scripture, healing is always bigger than removing a disease.
                   Isaiah 53:5 connects physical healing to spiritual restoration
@@ -835,7 +835,7 @@ export default function BibleVersesForHealingPage() {
               </div>
               <div>
                 <h3 className="font-bold text-scripture mb-1">How do you pray for healing according to James 5?</h3>
-                <p className="text-primary-dark/80 leading-relaxed">
+                <p className="text-scripture leading-relaxed">
                   James 5:14&ndash;15 lays it out step by step. First, the sick
                   person calls for the elders of the church. Not the other way
                   around. The sick person initiates. Second, the elders come,
@@ -862,63 +862,63 @@ export default function BibleVersesForHealingPage() {
             <h2 className="text-xl font-display font-bold text-scripture mb-4">
               Continue Exploring Scripture
             </h2>
-            <p className="text-sm text-primary-dark/70 mb-5">
+            <p className="text-sm text-ink-muted mb-5">
               Deepen your Bible study with quizzes, devotionals, reading plans, and more.
             </p>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
               <Link
                 href="/bible-quizzes"
-                className="flex items-center gap-3 px-4 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 hover:shadow-sm transition-all"
+                className="flex items-center gap-3 px-4 py-3 bg-scripture text-white font-bold rounded-lg hover:bg-ink-muted hover:shadow-sm transition-all"
               >
                 <span>Bible Quizzes</span>
               </Link>
               <Link
                 href="/bible-quotes"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Bible Quotes Hub</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Bible Quotes Hub</span>
               </Link>
               <Link
                 href="/bible-verses-about-anxiety"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Verses About Anxiety</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Verses About Anxiety</span>
               </Link>
               <Link
                 href="/bible-verses-about-strength-in-hard-times"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Strength in Hard Times</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Strength in Hard Times</span>
               </Link>
               <Link
                 href="/encouraging-bible-verses"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Encouraging Bible Verses</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Encouraging Bible Verses</span>
               </Link>
               <Link
                 href="/popular-bible-verses"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Popular Bible Verses</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Popular Bible Verses</span>
               </Link>
               <Link
                 href="/famous-bible-verses"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Famous Bible Verses</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Famous Bible Verses</span>
               </Link>
               <Link
                 href="/verse-of-the-day"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Verse of the Day</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Verse of the Day</span>
               </Link>
               <Link
                 href="/devotionals"
-                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex items-center gap-3 px-4 py-3 bg-primary-light/30 border border-grace rounded-lg hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors">Daily Devotionals</span>
+                <span className="font-medium text-scripture group-hover:text-gold-dark transition-colors">Daily Devotionals</span>
               </Link>
             </div>
           </div>

@@ -23,7 +23,7 @@ export default function QuizResults({ quiz, result, onRetake }: QuizResultsProps
 
   const getPerformanceColor = (percentage: number): string => {
     if (percentage >= 90) return "text-green-600";
-    if (percentage >= 80) return "text-blue-600";
+    if (percentage >= 80) return "text-sacred";
     if (percentage >= 70) return "text-yellow-600";
     if (percentage >= 60) return "text-orange-600";
     return "text-red-600";
@@ -54,7 +54,7 @@ export default function QuizResults({ quiz, result, onRetake }: QuizResultsProps
                 <div className={`text-4xl font-bold ${getPerformanceColor(result.percentage)}`}>
                   {result.percentage}%
                 </div>
-                <div className="text-sm text-primary-dark/70">
+                <div className="text-sm text-ink-muted">
                   {result.score}/{result.totalQuestions}
                 </div>
               </div>
@@ -69,15 +69,15 @@ export default function QuizResults({ quiz, result, onRetake }: QuizResultsProps
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-lg mx-auto">
           <div className="text-center">
             <div className="text-2xl font-bold text-scripture">{result.score}</div>
-            <div className="text-sm text-primary-dark/70">Correct Answers</div>
+            <div className="text-sm text-ink-muted">Correct Answers</div>
           </div>
           <div className="text-center">
             <div className="text-2xl font-bold text-scripture">{result.percentage}%</div>
-            <div className="text-sm text-primary-dark/70">Accuracy</div>
+            <div className="text-sm text-ink-muted">Accuracy</div>
           </div>
           <div className="text-center">
             <div className="text-2xl font-bold text-scripture">{formatTime(result.timeSpent)}</div>
-            <div className="text-sm text-primary-dark/70">Time Taken</div>
+            <div className="text-sm text-ink-muted">Time Taken</div>
           </div>
         </div>
       </div>
@@ -111,7 +111,7 @@ export default function QuizResults({ quiz, result, onRetake }: QuizResultsProps
                     
                     <div className="text-sm space-y-2">
                       <div>
-                        <span className="font-medium text-primary-dark/80">Your answer: </span>
+                        <span className="font-medium text-scripture">Your answer: </span>
                         <span className={isCorrect ? 'text-green-700' : 'text-red-700'}>
                           {userResult?.userAnswer || 'No answer'}
                         </span>
@@ -119,35 +119,35 @@ export default function QuizResults({ quiz, result, onRetake }: QuizResultsProps
                       
                       {!isCorrect && (
                         <div>
-                          <span className="font-medium text-primary-dark/80">Correct answer: </span>
+                          <span className="font-medium text-scripture">Correct answer: </span>
                           <span className="text-green-700">{question.correctAnswer}</span>
                         </div>
                       )}
                       
                       <div className="bg-white rounded p-3 border border-grace">
-                        <span className="font-medium text-primary-dark/80">Explanation: </span>
-                        <span className="text-primary-dark/70">{question.explanation}</span>
+                        <span className="font-medium text-scripture">Explanation: </span>
+                        <span className="text-ink-muted">{question.explanation}</span>
                       </div>
                       
                       {question.verseReference && (
                         <div className="flex items-center flex-wrap gap-x-3 gap-y-1">
-                          <span className="font-medium text-primary-dark/80">Reference: </span>
+                          <span className="font-medium text-scripture">Reference: </span>
                           {(() => {
                             const verseUrl = getVerseReferenceUrl(question.verseReference);
                             const crossRefUrl = getCrossRefPageUrl(question.verseReference);
                             return verseUrl ? (
                               <>
-                                <Link href={verseUrl} className="text-blue-600 hover:underline font-medium">
+                                <Link href={verseUrl} className="text-sacred hover:underline font-medium">
                                   {question.verseReference}
                                 </Link>
                                 {crossRefUrl && (
-                                  <Link href={crossRefUrl} className="text-xs text-purple-600 hover:underline">
+                                  <Link href={crossRefUrl} className="text-xs text-scripture hover:underline">
                                     Cross-references
                                   </Link>
                                 )}
                               </>
                             ) : (
-                              <span className="text-blue-600">{question.verseReference}</span>
+                              <span className="text-sacred">{question.verseReference}</span>
                             );
                           })()}
                         </div>
@@ -162,27 +162,27 @@ export default function QuizResults({ quiz, result, onRetake }: QuizResultsProps
       </div>
 
       {/* Internal Links Section - MANDATORY */}
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
-        <h3 className="text-lg font-semibold text-blue-900 mb-4">Continue Your Bible Study Journey</h3>
+      <div className="bg-blue-50 border border-sacred/20 rounded-lg p-6 mb-8">
+        <h3 className="text-lg font-semibold text-scripture mb-4">Continue Your Bible Study Journey</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
           {internalLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="flex items-center space-x-3 p-3 bg-white rounded-lg border border-blue-200 hover:border-blue-300 hover:bg-blue-50 transition-all duration-200 group"
+              className="flex items-center space-x-3 p-3 bg-white rounded-lg border border-sacred/20 hover:border-sacred/50 hover:bg-sacred-light transition-all duration-200 group"
             >
               <div className="flex-shrink-0">
-                {link.type === 'quiz' && <BookOpenIcon className="h-5 w-5 text-blue-600" />}
+                {link.type === 'quiz' && <BookOpenIcon className="h-5 w-5 text-sacred" />}
                 {link.type === 'book' && <BookOpenIcon className="h-5 w-5 text-green-600" />}
-                {link.type === 'theme' && <BookOpenIcon className="h-5 w-5 text-purple-600" />}
+                {link.type === 'theme' && <BookOpenIcon className="h-5 w-5 text-scripture" />}
                 {link.type === 'character' && <BookOpenIcon className="h-5 w-5 text-orange-600" />}
-                {link.type === 'hub' && <BookOpenIcon className="h-5 w-5 text-primary-dark/70" />}
+                {link.type === 'hub' && <BookOpenIcon className="h-5 w-5 text-ink-muted" />}
               </div>
               <div className="flex-1">
-                <div className="font-medium text-scripture group-hover:text-blue-700">
+                <div className="font-medium text-scripture group-hover:text-gold-dark">
                   {link.title}
                 </div>
-                <div className="text-sm text-primary-dark/70">
+                <div className="text-sm text-ink-muted">
                   {link.description}
                 </div>
               </div>
@@ -195,14 +195,14 @@ export default function QuizResults({ quiz, result, onRetake }: QuizResultsProps
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
         <button
           onClick={onRetake}
-          className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200 flex items-center justify-center space-x-2"
+          className="bg-scripture text-white px-6 py-3 rounded-lg font-semibold hover:bg-ink-muted transition-colors duration-200 flex items-center justify-center space-x-2"
         >
           <span>Retake Quiz</span>
         </button>
         
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          className="border border-grace text-primary-dark/80 px-6 py-3 rounded-lg font-semibold hover:bg-primary-light/50 transition-colors duration-200"
+          className="border border-grace text-scripture px-6 py-3 rounded-lg font-semibold hover:bg-primary-light/50 transition-colors duration-200"
         >
           Back to Top
         </button>

@@ -15,12 +15,12 @@ export default function ComingSoon({
   expectedDate = "Early 2025"
 }: ComingSoonProps) {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white flex items-center justify-center">
+    <div className="min-h-screen bg-gradient-to-b from-scripture to-white flex items-center justify-center">
       <div className="max-w-2xl mx-auto px-4 text-center">
         {/* Icon */}
         <div className="mb-8">
-          <div className="bg-blue-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto">
-            <BookOpenIcon className="h-10 w-10 text-blue-600" />
+          <div className="bg-sacred/10 rounded-full w-20 h-20 flex items-center justify-center mx-auto">
+            <BookOpenIcon className="h-10 w-10 text-sacred" />
           </div>
         </div>
 
@@ -29,15 +29,15 @@ export default function ComingSoon({
           {title}
         </h1>
         
-        <p className="text-xl text-primary-dark/70 mb-6 max-w-lg mx-auto">
+        <p className="text-xl text-ink-muted mb-6 max-w-lg mx-auto">
           {description}
         </p>
 
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
-          <p className="text-blue-800 font-medium mb-2">
+        <div className="bg-blue-50 border border-sacred/20 rounded-lg p-6 mb-8">
+          <p className="text-scripture font-medium mb-2">
             🚧 Currently focusing on Genesis content
           </p>
-          <p className="text-blue-700 text-sm">
+          <p className="text-scripture text-sm">
             We're building comprehensive Bible quizzes starting with Genesis. 
             Expected launch: <span className="font-semibold">{expectedDate}</span>
           </p>
@@ -63,7 +63,7 @@ export default function ComingSoon({
             </Link>
             <Link
               href="/genesis-chapters"
-              className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors"
+              className="bg-scripture text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-ink-muted transition-colors"
             >
               Genesis Chapters
             </Link>
@@ -74,7 +74,7 @@ export default function ComingSoon({
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Link
             href="/"
-            className="flex items-center space-x-2 text-blue-600 hover:text-blue-700 font-medium"
+            className="flex items-center space-x-2 text-sacred hover:text-gold-dark font-medium"
           >
             <ArrowLeftIcon className="h-4 w-4" />
             <span>Back to Homepage</span>
@@ -82,7 +82,7 @@ export default function ComingSoon({
           
           <Link
             href="/bible-quizzes"
-            className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+            className="bg-scripture text-white px-6 py-3 rounded-lg font-semibold hover:bg-ink-muted transition-colors"
           >
             Browse Available Quizzes
           </Link>
@@ -93,16 +93,16 @@ export default function ComingSoon({
           <h3 className="text-lg font-semibold text-scripture mb-2">
             Get Notified When We Launch
           </h3>
-          <p className="text-primary-dark/70 text-sm mb-4">
+          <p className="text-ink-muted text-sm mb-4">
             Be the first to know when new Bible quizzes are available.
           </p>
           <div className="flex flex-col sm:flex-row gap-2 max-w-md mx-auto">
             <input
               type="email"
               placeholder="Enter your email"
-              className="flex-1 px-4 py-2 border border-grace rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              className="flex-1 px-4 py-2 border border-grace rounded-lg focus:outline-none focus:ring-2 focus:ring-sacred focus:border-sacred"
             />
-            <button className="bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors">
+            <button className="bg-scripture text-white px-6 py-2 rounded-lg font-medium hover:bg-ink-muted transition-colors">
               Notify Me
             </button>
           </div>

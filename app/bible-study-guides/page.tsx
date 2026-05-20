@@ -51,8 +51,8 @@ export default function BibleStudyGuidesPage() {
       <StructuredData data={breadcrumbSchema} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
-        <Link href="/" className="hover:text-blue-600">Home</Link>
+      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-ink-muted">
+        <Link href="/" className="hover:text-gold-dark">Home</Link>
         <span className="mx-1.5">/</span>
         <span className="text-scripture font-medium">Bible Study Guides</span>
       </nav>
@@ -64,26 +64,26 @@ export default function BibleStudyGuidesPage() {
             <h1 className="text-3xl md:text-4xl font-bold font-display mb-3 text-scripture">
               Bible Study Guides
             </h1>
-            <p className="text-lg text-primary-dark/70 max-w-2xl mb-6">
+            <p className="text-lg text-ink-muted max-w-2xl mb-6">
               {allGuides.length} in-depth topical studies for personal devotion and group Bible study.
               Each guide explores key scriptures, doctrinal insights, and practical application.
             </p>
             <div className="flex flex-wrap gap-6 text-center">
               <div>
                 <p className="text-3xl font-bold text-scripture">{allGuides.length}</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Study Guides</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Study Guides</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-scripture">{totalSections}</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Sections</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Sections</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-scripture">{totalVerses}</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Key Verses</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Key Verses</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-scripture">{categories.length}</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Categories</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Categories</p>
               </div>
             </div>
           </div>
@@ -97,7 +97,7 @@ export default function BibleStudyGuidesPage() {
             <a
               key={cat}
               href={`#cat-${cat.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
-              className="px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-primary-dark/80 hover:bg-primary-light hover:border-blue-300 transition-colors"
+              className="px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-scripture hover:bg-primary-light hover:border-sacred/50 transition-colors"
             >
               {cat}
             </a>
@@ -117,7 +117,7 @@ export default function BibleStudyGuidesPage() {
             >
               <h2 className="text-xl font-bold text-scripture mb-4">
                 {cat}
-                <span className="text-sm font-normal text-primary-dark/60 ml-2">
+                <span className="text-sm font-normal text-ink-muted ml-2">
                   ({guides.length} {guides.length === 1 ? 'guide' : 'guides'})
                 </span>
               </h2>
@@ -126,17 +126,17 @@ export default function BibleStudyGuidesPage() {
                   <Link
                     key={guide.slug}
                     href={`/bible-study-guides/${guide.slug}`}
-                    className="bg-white border border-grace rounded-lg p-5 hover:shadow-md hover:border-blue-300 transition-all group"
+                    className="bg-white border border-grace rounded-lg p-5 hover:shadow-md hover:border-sacred/50 transition-all group"
                   >
-                    <h3 className="font-semibold text-scripture group-hover:text-blue-600 transition-colors mb-1">
+                    <h3 className="font-semibold text-scripture group-hover:text-gold-dark transition-colors mb-1">
                       {guide.title}
                     </h3>
-                    <p className="text-sm text-primary-dark/60 mb-3 line-clamp-2">
+                    <p className="text-sm text-ink-muted mb-3 line-clamp-2">
                       {guide.description}
                     </p>
-                    <div className="flex items-center gap-3 text-xs text-primary-dark/50">
+                    <div className="flex items-center gap-3 text-xs text-ink-muted">
                       <span>{guide.sections.length} sections</span>
-                      <span className="w-1 h-1 rounded-full bg-primary-dark/30" />
+                      <span className="w-1 h-1 rounded-full bg-scripture/30" />
                       <span>{guide.verses.length} key verses</span>
                     </div>
                     {guide.verses.length > 0 && (
@@ -144,13 +144,13 @@ export default function BibleStudyGuidesPage() {
                         {guide.verses.slice(0, 3).map((v, i) => (
                           <span
                             key={i}
-                            className="text-xs bg-blue-50 text-blue-700 rounded px-2 py-0.5"
+                            className="text-xs bg-blue-50 text-scripture rounded px-2 py-0.5"
                           >
                             {v}
                           </span>
                         ))}
                         {guide.verses.length > 3 && (
-                          <span className="text-xs text-primary-dark/40">
+                          <span className="text-xs text-ink-light">
                             +{guide.verses.length - 3} more
                           </span>
                         )}
@@ -169,28 +169,28 @@ export default function BibleStudyGuidesPage() {
         <div className="bg-grace/10 border border-grace rounded-xl p-6">
           <h2 className="text-lg font-bold text-scripture mb-3">Continue Your Study</h2>
           <div className="grid gap-2 sm:grid-cols-2">
-            <Link href="/topics" className="text-blue-600 hover:underline text-sm">
+            <Link href="/topics" className="text-sacred hover:underline text-sm">
               Bible Verses by Topic
             </Link>
-            <Link href="/nave-topics" className="text-blue-600 hover:underline text-sm">
+            <Link href="/nave-topics" className="text-sacred hover:underline text-sm">
               Nave&apos;s Topical Bible
             </Link>
-            <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">
               Bible Quizzes
             </Link>
-            <Link href="/bible-stories" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-stories" className="text-sacred hover:underline text-sm">
               Bible Stories
             </Link>
-            <Link href="/people" className="text-blue-600 hover:underline text-sm">
+            <Link href="/people" className="text-sacred hover:underline text-sm">
               Bible Characters Directory
             </Link>
-            <Link href="/lexicon" className="text-blue-600 hover:underline text-sm">
+            <Link href="/lexicon" className="text-sacred hover:underline text-sm">
               Hebrew &amp; Greek Word Study
             </Link>
-            <Link href="/cross-references" className="text-blue-600 hover:underline text-sm">
+            <Link href="/cross-references" className="text-sacred hover:underline text-sm">
               Cross References
             </Link>
-            <Link href="/commandments" className="text-blue-600 hover:underline text-sm">
+            <Link href="/commandments" className="text-sacred hover:underline text-sm">
               Biblical Commandments
             </Link>
           </div>

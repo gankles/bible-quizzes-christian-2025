@@ -81,10 +81,10 @@ export default async function CharacterDetailPage({ params }: CharacterPageProps
                 <div className="absolute top-0 right-0 w-1/3 h-full blue-50 -skew-x-12 transform translate-x-20 hidden lg:block"></div>
 
                 <div className="max-w-article mx-auto px-4 md:px-10 relative z-10">
-                    <nav className="flex items-center gap-2 text-sm text-primary-dark/60 dark:text-primary-dark/40 mb-8">
-                        <Link href="/" className="hover:text-blue-600 transition-colors">Home</Link>
+                    <nav className="flex items-center gap-2 text-sm text-ink-muted dark:text-ink-light mb-8">
+                        <Link href="/" className="hover:text-gold-dark transition-colors">Home</Link>
                         <span>/</span>
-                        <Link href="/characters" className="hover:text-blue-600 transition-colors">Characters</Link>
+                        <Link href="/characters" className="hover:text-gold-dark transition-colors">Characters</Link>
                         <span>/</span>
                         <span className="text-scripture dark:text-white font-medium">{character.name}</span>
                     </nav>
@@ -94,13 +94,13 @@ export default async function CharacterDetailPage({ params }: CharacterPageProps
                             {character.name.charAt(0)}
                         </div>
                         <div className="flex-1">
-                            <div className="inline-block px-3 py-1 rounded-full blue-600/10 text-blue-600 text-xs font-bold uppercase mb-4">
+                            <div className="inline-block px-3 py-1 rounded-full blue-600/10 text-sacred text-xs font-bold uppercase mb-4">
                                 {character.testament} Testament • {character.occupation || 'Biblical Figure'}
                             </div>
                             <h1 className="text-4xl md:text-6xl font-bold text-scripture dark:text-white mb-6 font-display leading-tight">
                                 {character.name}
                             </h1>
-                            <p className="text-xl text-primary-dark/70 dark:text-primary-dark/40 italic max-w-2xl leading-relaxed">
+                            <p className="text-xl text-ink-muted dark:text-ink-light italic max-w-2xl leading-relaxed">
                                 "{character.significance}"
                             </p>
                         </div>
@@ -116,7 +116,7 @@ export default async function CharacterDetailPage({ params }: CharacterPageProps
                             <h3 className="font-bold text-lg">Character Quiz</h3>
                             <p className="text-white/80 text-xs">Test your knowledge of {character.name}</p>
                         </div>
-                        <Link href={`/character-quiz/${slug}`} className="bg-white text-blue-600 px-4 py-2 rounded-lg font-bold text-sm tracking-wider uppercase">Begin</Link>
+                        <Link href={`/character-quiz/${slug}`} className="bg-white text-sacred px-4 py-2 rounded-lg font-bold text-sm tracking-wider uppercase">Begin</Link>
                     </div>
                     <div className="bg-scripture dark:bg-dark-bg rounded-lg p-6 text-white shadow-lg flex items-center justify-between">
                         <div>
@@ -136,10 +136,10 @@ export default async function CharacterDetailPage({ params }: CharacterPageProps
                         {/* Biography - Pillar 2 */}
                         <section>
                             <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-6 flex items-center gap-2">
-                                <AcademicCapIcon className="w-6 h-6 text-blue-600" />
+                                <AcademicCapIcon className="w-6 h-6 text-sacred" />
                                 Biblical Biography
                             </h2>
-                            <div className="prose prose-lg dark:prose-invert max-w-none text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
+                            <div className="prose prose-lg dark:prose-invert max-w-none text-scripture dark:text-ink-light leading-relaxed">
                                 {character.biography}
                             </div>
                         </section>
@@ -148,17 +148,17 @@ export default async function CharacterDetailPage({ params }: CharacterPageProps
                         {character.timeline && Array.isArray(character.timeline) && (
                             <section className="bg-white dark:bg-dark-surface rounded-lg border border-grace dark:border-dark-border p-8 shadow-sm">
                                 <h2 className="text-xl font-bold text-scripture dark:text-white font-display mb-8 flex items-center gap-2">
-                                    <ClockIcon className="w-5 h-5 text-blue-600" />
+                                    <ClockIcon className="w-5 h-5 text-sacred" />
                                     Life Timeline
                                 </h2>
                                 <div className="space-y-8 relative before:absolute before:inset-0 before:left-4 before:w-0.5 before:bg-grace dark:before:bg-dark-border before:mt-2">
                                     {character.timeline.map((event: any, idx: number) => (
                                         <div key={idx} className="relative pl-12 group">
                                             <div className="absolute left-0 top-1.5 w-8 h-8 rounded-full bg-white dark:bg-dark-surface border-4 border-sacred group-hover:scale-110 transition-transform"></div>
-                                            <div className="text-xs font-bold text-blue-600 uppercase mb-1">{event.date}</div>
+                                            <div className="text-xs font-bold text-sacred uppercase mb-1">{event.date}</div>
                                             <h3 className="text-lg font-bold text-scripture dark:text-white mb-2">{event.event}</h3>
-                                            <p className="text-sm text-primary-dark/60 dark:text-primary-dark/40 leading-relaxed mb-3">{event.significance}</p>
-                                            <div className="text-xs font-bold text-primary-dark/40 dark:text-primary-dark/60 uppercase">Ref: {event.verses}</div>
+                                            <p className="text-sm text-ink-muted dark:text-ink-light leading-relaxed mb-3">{event.significance}</p>
+                                            <div className="text-xs font-bold text-ink-light dark:text-ink-muted uppercase">Ref: {event.verses}</div>
                                         </div>
                                     ))}
                                 </div>
@@ -172,7 +172,7 @@ export default async function CharacterDetailPage({ params }: CharacterPageProps
                                 {(character as any).verses?.map((verse: any, index: number) => (
                                     <div key={index} className="bg-grace/10 dark:bg-dark-surface/30 border border-grace dark:border-dark-border p-6 rounded-lg">
                                         <p className="text-lg text-scripture dark:text-white mb-4 leading-relaxed italic">"{verse.text}"</p>
-                                        <Link href={`/verses/${verse.book}/${verse.chapter}/${verse.verse}`} className="text-sm font-bold text-blue-600 hover:underline">
+                                        <Link href={`/verses/${verse.book}/${verse.chapter}/${verse.verse}`} className="text-sm font-bold text-sacred hover:underline">
                                             — {verse.bookName} {verse.chapter}:{verse.verse} ({verse.translation})
                                         </Link>
                                     </div>
@@ -185,22 +185,22 @@ export default async function CharacterDetailPage({ params }: CharacterPageProps
                     <div className="space-y-8">
                         {/* Pillar 5: Personality / Life Lessons */}
                         <div className="bg-gradient-to-br from-sacred/5 to-sacred/10 dark:from-sacred/10 dark:to-sacred/20 rounded-lg p-8 border border-sacred/20">
-                            <h3 className="text-xl font-bold text-blue-600 font-display mb-6 flex items-center gap-2">
+                            <h3 className="text-xl font-bold text-sacred font-display mb-6 flex items-center gap-2">
                                 <SparklesIcon className="w-5 h-5" />
                                 Key Life Lessons
                             </h3>
                             <ul className="space-y-4">
                                 <li className="flex gap-3">
                                     <span className="w-1.5 h-1.5 rounded-full blue-600 mt-2 shrink-0"></span>
-                                    <p className="text-sm text-primary-dark/80 dark:text-primary-dark/40">Faithfulness in small things leads to God's hand in large things.</p>
+                                    <p className="text-sm text-scripture dark:text-ink-light">Faithfulness in small things leads to God's hand in large things.</p>
                                 </li>
                                 <li className="flex gap-3">
                                     <span className="w-1.5 h-1.5 rounded-full blue-600 mt-2 shrink-0"></span>
-                                    <p className="text-sm text-primary-dark/80 dark:text-primary-dark/40">Courage is not the absence of fear, but trust in God's presence.</p>
+                                    <p className="text-sm text-scripture dark:text-ink-light">Courage is not the absence of fear, but trust in God's presence.</p>
                                 </li>
                                 <li className="flex gap-3">
                                     <span className="w-1.5 h-1.5 rounded-full blue-600 mt-2 shrink-0"></span>
-                                    <p className="text-sm text-primary-dark/80 dark:text-primary-dark/40">Restoration is always possible through sincere repentance.</p>
+                                    <p className="text-sm text-scripture dark:text-ink-light">Restoration is always possible through sincere repentance.</p>
                                 </li>
                             </ul>
                         </div>
@@ -210,22 +210,22 @@ export default async function CharacterDetailPage({ params }: CharacterPageProps
                             <div className="bg-white dark:bg-dark-surface rounded-lg border border-grace dark:border-dark-border overflow-hidden shadow-sm">
                                 <div className="p-4 bg-grace/20 dark:bg-dark-surface border-b border-grace dark:border-dark-border">
                                     <h3 className="text-sm font-bold m-0 uppercase flex items-center gap-2">
-                                        <UserGroupIcon className="w-4 h-4 text-blue-600" />
+                                        <UserGroupIcon className="w-4 h-4 text-sacred" />
                                         Key Relationships
                                     </h3>
                                 </div>
                                 <table className="w-full text-left border-collapse">
                                     <thead>
                                         <tr className="bg-grace/10 dark:bg-dark-surface/50">
-                                            <th className="p-3 text-[10px] font-bold uppercase text-primary-dark/40 border-b border-grace dark:border-dark-border">Person</th>
-                                            <th className="p-3 text-[10px] font-bold uppercase text-primary-dark/40 border-b border-grace dark:border-dark-border">Relation</th>
+                                            <th className="p-3 text-[10px] font-bold uppercase text-ink-light border-b border-grace dark:border-dark-border">Person</th>
+                                            <th className="p-3 text-[10px] font-bold uppercase text-ink-light border-b border-grace dark:border-dark-border">Relation</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         {character.relationships.map((rel: any, idx: number) => (
                                             <tr key={idx} className="border-b border-grace/50 dark:border-dark-border/50 last:border-0 hover:bg-grace/5 transition-colors">
                                                 <td className="p-3 text-sm font-bold text-scripture dark:text-white">{rel.person}</td>
-                                                <td className="p-3 text-xs text-primary-dark/60 dark:text-primary-dark/40 font-medium italic">{rel.relationship}</td>
+                                                <td className="p-3 text-xs text-ink-muted dark:text-ink-light font-medium italic">{rel.relationship}</td>
                                             </tr>
                                         ))}
                                     </tbody>
@@ -235,18 +235,18 @@ export default async function CharacterDetailPage({ params }: CharacterPageProps
 
                         {/* Quick Facts Sidebar */}
                         <div className="bg-white dark:bg-dark-surface rounded-lg border border-grace dark:border-dark-border p-6 shadow-sm">
-                            <h3 className="text-xs font-bold uppercase text-primary-dark/40 mb-4">Metadata Fast Facts</h3>
+                            <h3 className="text-xs font-bold uppercase text-ink-light mb-4">Metadata Fast Facts</h3>
                             <div className="space-y-4">
                                 <div>
-                                    <div className="text-[10px] uppercase font-bold text-blue-600 mb-0.5 tracking-tighter">Lifespan / Era</div>
+                                    <div className="text-[10px] uppercase font-bold text-sacred mb-0.5 tracking-tighter">Lifespan / Era</div>
                                     <div className="text-sm font-bold text-scripture dark:text-white">{character.lifespan || 'Classic Biblical Era'}</div>
                                 </div>
                                 <div>
-                                    <div className="text-[10px] uppercase font-bold text-blue-600 mb-0.5 tracking-tighter">Primary Testament</div>
+                                    <div className="text-[10px] uppercase font-bold text-sacred mb-0.5 tracking-tighter">Primary Testament</div>
                                     <div className="text-sm font-bold text-scripture dark:text-white">{character.testament} Testament</div>
                                 </div>
                                 <div>
-                                    <div className="text-[10px] uppercase font-bold text-blue-600 mb-0.5 tracking-tighter">Notable Occupation</div>
+                                    <div className="text-[10px] uppercase font-bold text-sacred mb-0.5 tracking-tighter">Notable Occupation</div>
                                     <div className="text-sm font-bold text-scripture dark:text-white">{character.occupation || 'N/A'}</div>
                                 </div>
                             </div>
@@ -266,7 +266,7 @@ export default async function CharacterDetailPage({ params }: CharacterPageProps
                                     <Link
                                         key={t.slug}
                                         href={`/characters-by-topic/${t.slug}`}
-                                        className="px-3 py-1.5 bg-primary-light/30 border border-grace rounded-lg text-sm text-primary-dark/80 hover:border-blue-300 hover:text-blue-600 transition-colors"
+                                        className="px-3 py-1.5 bg-primary-light/30 border border-grace rounded-lg text-sm text-scripture hover:border-sacred/50 hover:text-gold-dark transition-colors"
                                     >
                                         {t.name.replace(/\b\w/g, l => l.toUpperCase())}
                                     </Link>
@@ -280,14 +280,14 @@ export default async function CharacterDetailPage({ params }: CharacterPageProps
                 <section className="mt-12 bg-primary-light/30 border border-grace rounded-xl p-6">
                     <h2 className="text-lg font-bold text-scripture mb-3">Related Resources</h2>
                     <div className="grid gap-2 sm:grid-cols-2">
-                        <Link href="/characters" className="text-blue-600 hover:underline text-sm">All Bible Characters</Link>
-                        <Link href="/people" className="text-blue-600 hover:underline text-sm">Bible People Directory</Link>
-                        <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">Bible Quizzes</Link>
-                        <Link href="/bible-names" className="text-blue-600 hover:underline text-sm">Bible Name Meanings</Link>
-                        <Link href="/nave-topics" className="text-blue-600 hover:underline text-sm">Nave&apos;s Topical Bible</Link>
-                        <Link href="/timeline" className="text-blue-600 hover:underline text-sm">Bible Timeline</Link>
-                        <Link href="/commandments" className="text-blue-600 hover:underline text-sm">613 Commandments</Link>
-                        <Link href="/lexicon" className="text-blue-600 hover:underline text-sm">Greek &amp; Hebrew Lexicon</Link>
+                        <Link href="/characters" className="text-sacred hover:underline text-sm">All Bible Characters</Link>
+                        <Link href="/people" className="text-sacred hover:underline text-sm">Bible People Directory</Link>
+                        <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">Bible Quizzes</Link>
+                        <Link href="/bible-names" className="text-sacred hover:underline text-sm">Bible Name Meanings</Link>
+                        <Link href="/nave-topics" className="text-sacred hover:underline text-sm">Nave&apos;s Topical Bible</Link>
+                        <Link href="/timeline" className="text-sacred hover:underline text-sm">Bible Timeline</Link>
+                        <Link href="/commandments" className="text-sacred hover:underline text-sm">613 Commandments</Link>
+                        <Link href="/lexicon" className="text-sacred hover:underline text-sm">Greek &amp; Hebrew Lexicon</Link>
                     </div>
                 </section>
             </main>
@@ -317,16 +317,16 @@ async function CharacterCombinationView({ slug }: { slug: string }) {
 
     return (
         <div className="max-w-7xl mx-auto px-4 py-12">
-            <div className="bg-gradient-to-r from-scripture via-scripture/90 to-blue-950 rounded-xl p-8 md:p-16 text-white shadow-2xl mb-12 relative overflow-hidden">
+            <div className="bg-gradient-to-r from-scripture via-scripture/90 to-scripture/80 rounded-xl p-8 md:p-16 text-white shadow-2xl mb-12 relative overflow-hidden">
                 <div className="relative z-10 max-w-3xl">
-                    <span className="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-bold bg-blue-500/20 text-blue-300 border border-blue-500/30 mb-6 uppercase">
+                    <span className="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-bold bg-sacred-light0/20 text-sacred border border-sacred/30 mb-6 uppercase">
                         <UsersIcon className="w-4 h-4 mr-2" />
                         Biblical Duos
                     </span>
                     <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-                        {char1.name} <span className="text-blue-500">&</span> {char2.name}
+                        {char1.name} <span className="text-sacred">&</span> {char2.name}
                     </h1>
-                    <p className="text-xl text-primary-dark/40 leading-relaxed font-light">
+                    <p className="text-xl text-ink-light leading-relaxed font-light">
                         Discover the interconnected lives of two of the Bible's most influential figures.
                     </p>
                 </div>
@@ -336,11 +336,11 @@ async function CharacterCombinationView({ slug }: { slug: string }) {
                 <div className="lg:col-span-2 space-y-12">
                     <section className="bg-white dark:bg-dark-surface rounded-xl p-8 md:p-12 border border-grace/50 dark:border-dark-border shadow-sm">
                         <h2 className="text-3xl font-bold text-scripture dark:text-white mb-6 flex items-center">
-                            <SparklesIcon className="w-8 h-8 mr-3 text-blue-500" />
+                            <SparklesIcon className="w-8 h-8 mr-3 text-sacred" />
                             Connection Insight
                         </h2>
                         <div className="prose prose-lg dark:prose-invert max-w-none">
-                            <p className="text-primary-dark/80 dark:text-primary-dark/40 italic">
+                            <p className="text-scripture dark:text-ink-light italic">
                                 {analysis}
                             </p>
                         </div>
@@ -355,17 +355,17 @@ async function CharacterCombinationView({ slug }: { slug: string }) {
                             <table className="w-full text-left border-collapse">
                                 <thead>
                                     <tr className="bg-primary-light/30 dark:bg-dark-bg/50 border-b border-grace dark:border-dark-border">
-                                        <th className="px-8 py-6 font-bold text-primary-dark/40 uppercase text-xs">Trait</th>
+                                        <th className="px-8 py-6 font-bold text-ink-light uppercase text-xs">Trait</th>
                                         <th className="px-8 py-6 font-bold text-scripture dark:text-white">{char1.name}</th>
                                         <th className="px-8 py-6 font-bold text-scripture dark:text-white">{char2.name}</th>
                                     </tr>
                                 </thead>
                                 <tbody className="divide-y divide-grace/50 dark:divide-dark-border">
                                     {comparisonPoints.map((point, i) => (
-                                        <tr key={i} className="hover:bg-blue-50/30 transition-colors">
-                                            <td className="px-8 py-6 font-bold text-primary-dark/60 text-sm">{point.label}</td>
-                                            <td className="px-8 py-6 text-primary-dark/80 dark:text-primary-dark/40 font-medium">{point.c1}</td>
-                                            <td className="px-8 py-6 text-primary-dark/80 dark:text-primary-dark/40 font-medium">{point.c2}</td>
+                                        <tr key={i} className="hover:bg-sacred-light/30 transition-colors">
+                                            <td className="px-8 py-6 font-bold text-ink-muted text-sm">{point.label}</td>
+                                            <td className="px-8 py-6 text-scripture dark:text-ink-light font-medium">{point.c1}</td>
+                                            <td className="px-8 py-6 text-scripture dark:text-ink-light font-medium">{point.c2}</td>
                                         </tr>
                                     ))}
                                 </tbody>
@@ -375,7 +375,7 @@ async function CharacterCombinationView({ slug }: { slug: string }) {
                 </div>
 
                 <div className="space-y-8">
-                    <div className="bg-blue-600 rounded-xl p-8 text-white shadow-xl text-center">
+                    <div className="bg-scripture rounded-xl p-8 text-white shadow-xl text-center">
                         <UsersIcon className="w-16 h-16 text-white/20 mx-auto mb-6" />
                         <h3 className="text-2xl font-bold mb-4">Interactive Study</h3>
                         <button className="w-full bg-scripture text-white font-bold py-4 rounded-lg hover:bg-scripture/90 transition-all">

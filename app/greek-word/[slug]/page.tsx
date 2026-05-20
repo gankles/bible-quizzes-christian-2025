@@ -178,7 +178,7 @@ export default async function GreekWordStudyPage({ params }: PageProps) {
         className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 pb-2"
         aria-label="Breadcrumb"
       >
-        <ol className="flex items-center space-x-2 text-sm text-primary-dark/50">
+        <ol className="flex items-center space-x-2 text-sm text-ink-muted">
           <li>
             <Link href="/" className="hover:text-indigo-600 transition-colors">
               Home
@@ -196,7 +196,7 @@ export default async function GreekWordStudyPage({ params }: PageProps) {
       </nav>
 
       {/* HERO SECTION */}
-      <section className="relative pt-16 pb-20 bg-gradient-to-br from-indigo-700 via-indigo-800 to-blue-900 text-white overflow-hidden">
+      <section className="relative pt-16 pb-20 bg-gradient-to-br from-scripture/80 via-indigo-800 to-scripture/80 text-white overflow-hidden">
         <div className="absolute inset-0 bg-black/10" />
         {/* Decorative Greek letter watermark */}
         <div className="absolute top-1/2 right-8 -translate-y-1/2 text-[20rem] font-bold text-white/[0.04] leading-none select-none pointer-events-none hidden lg:block">
@@ -265,7 +265,7 @@ export default async function GreekWordStudyPage({ params }: PageProps) {
                     {t.translation}
                   </span>
                 )) : (
-                  <span className="text-primary-dark/60 text-sm">{entry.kjvTranslations || 'N/A'}</span>
+                  <span className="text-ink-muted text-sm">{entry.kjvTranslations || 'N/A'}</span>
                 )}
               </div>
             </div>
@@ -275,7 +275,7 @@ export default async function GreekWordStudyPage({ params }: PageProps) {
               <div className="text-xs font-bold uppercase text-indigo-600 tracking-wider mb-1">
                 Derivation / Root
               </div>
-              <div className="text-sm text-primary-dark/70 leading-relaxed">
+              <div className="text-sm text-ink-muted leading-relaxed">
                 {derivationDisplay || 'Primary root word'}
               </div>
             </div>
@@ -290,7 +290,7 @@ export default async function GreekWordStudyPage({ params }: PageProps) {
         </h2>
         <div className="prose prose-lg max-w-none">
           <div className="bg-indigo-50/50 border-l-4 border-indigo-600 rounded-r-lg p-6 mb-6">
-            <p className="text-primary-dark/80 leading-relaxed text-lg">
+            <p className="text-scripture leading-relaxed text-lg">
               <span className="font-bold text-indigo-800">{entry.lemma}</span>{' '}
               (<span className="italic">{entry.transliteration}</span>){' '}
               &mdash; {entry.definition}
@@ -303,7 +303,7 @@ export default async function GreekWordStudyPage({ params }: PageProps) {
               <h3 className="text-xl font-bold text-scripture mb-3">
                 Word Origin
               </h3>
-              <p className="text-primary-dark/70 leading-relaxed">
+              <p className="text-ink-muted leading-relaxed">
                 This word comes {entry.derivation}{' '}
                 {greekRefs.length > 0 && (
                   <span>
@@ -332,7 +332,7 @@ export default async function GreekWordStudyPage({ params }: PageProps) {
                 )}
               </p>
               {hasHebrewOrigin && (
-                <p className="text-sm text-primary-dark/60 mt-2 italic">
+                <p className="text-sm text-ink-muted mt-2 italic">
                   This word has Hebrew origin{hebrewRefs.length > 0 ? ` (${hebrewRefs.join(', ')})` : ''}, connecting the Old and New Testaments through shared vocabulary.
                 </p>
               )}
@@ -347,7 +347,7 @@ export default async function GreekWordStudyPage({ params }: PageProps) {
           <h2 className="text-2xl font-bold font-display text-scripture mb-6 tracking-tight">
             KJV Translation Variants
           </h2>
-          <p className="text-primary-dark/60 mb-6">
+          <p className="text-ink-muted mb-6">
             The Greek word <strong className="text-indigo-700">{entry.lemma}</strong> ({entry.transliteration}) is translated into the following English words in the King James Version:
           </p>
           <div className="overflow-hidden rounded-xl border border-grace">
@@ -365,7 +365,7 @@ export default async function GreekWordStudyPage({ params }: PageProps) {
               <tbody className="divide-y divide-grace">
                 {translations.map((t, i) => (
                   <tr key={i} className="hover:bg-indigo-50/30 transition-colors">
-                    <td className="px-6 py-4 text-primary-dark/80 font-medium">
+                    <td className="px-6 py-4 text-scripture font-medium">
                       {t.translation}
                     </td>
                     <td className="px-6 py-4">
@@ -381,7 +381,7 @@ export default async function GreekWordStudyPage({ params }: PageProps) {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-primary-dark/40 mt-3">
+          <p className="text-xs text-ink-light mt-3">
             Translation data from Strong&apos;s Exhaustive Concordance of the Bible.
           </p>
         </section>
@@ -393,7 +393,7 @@ export default async function GreekWordStudyPage({ params }: PageProps) {
           <h2 className="text-2xl font-bold font-display text-scripture mb-2 tracking-tight">
             Related Greek Words
           </h2>
-          <p className="text-primary-dark/60 mb-6">
+          <p className="text-ink-muted mb-6">
             Words sharing the same root or derived from <strong>{entry.lemma}</strong>.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -409,10 +409,10 @@ export default async function GreekWordStudyPage({ params }: PageProps) {
                 <div className="text-sm font-semibold text-indigo-600 italic mb-1">
                   {rw.transliteration}
                 </div>
-                <div className="text-xs font-mono text-primary-dark/40 mb-2">
+                <div className="text-xs font-mono text-ink-light mb-2">
                   {rw.number}
                 </div>
-                <div className="text-sm text-primary-dark/60 line-clamp-2">
+                <div className="text-sm text-ink-muted line-clamp-2">
                   {rw.definition}
                 </div>
               </Link>
@@ -423,7 +423,7 @@ export default async function GreekWordStudyPage({ params }: PageProps) {
 
       {/* CRO SECTION — "Continue Your Word Study" */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
-        <div className="bg-gradient-to-br from-indigo-700 to-blue-800 rounded-2xl p-8 md:p-10 text-white">
+        <div className="bg-gradient-to-br from-scripture/80 to-scripture/80 rounded-2xl p-8 md:p-10 text-white">
           <h2 className="text-2xl md:text-3xl font-bold font-display mb-6 tracking-tight">
             Continue Your Word Study
           </h2>
@@ -515,7 +515,7 @@ export default async function GreekWordStudyPage({ params }: PageProps) {
               <h2 className="text-xl font-bold text-scripture tracking-tight">
                 More Greek Words Starting with &ldquo;{letter}&rdquo;
               </h2>
-              <p className="text-sm text-primary-dark/50">{letterCount} words in this section</p>
+              <p className="text-sm text-ink-muted">{letterCount} words in this section</p>
             </div>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
@@ -531,7 +531,7 @@ export default async function GreekWordStudyPage({ params }: PageProps) {
                 <div className="text-xs text-indigo-600 italic truncate">
                   {w.transliteration}
                 </div>
-                <div className="text-[10px] font-mono text-primary-dark/30 mt-0.5">
+                <div className="text-[10px] font-mono text-ink-light mt-0.5">
                   {w.number}
                 </div>
               </Link>
@@ -558,55 +558,55 @@ export default async function GreekWordStudyPage({ params }: PageProps) {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
             <Link
               href="/greek-word"
-              className="px-4 py-3 bg-white border border-grace rounded-lg text-sm hover:border-indigo-300 transition-colors font-medium text-primary-dark/80"
+              className="px-4 py-3 bg-white border border-grace rounded-lg text-sm hover:border-indigo-300 transition-colors font-medium text-scripture"
             >
               Browse All Greek Words
             </Link>
             <Link
               href="/hebrew-words"
-              className="px-4 py-3 bg-white border border-grace rounded-lg text-sm hover:border-indigo-300 transition-colors font-medium text-primary-dark/80"
+              className="px-4 py-3 bg-white border border-grace rounded-lg text-sm hover:border-indigo-300 transition-colors font-medium text-scripture"
             >
               Hebrew Word Studies
             </Link>
             <Link
               href={`/lexicon/${entry.number}`}
-              className="px-4 py-3 bg-white border border-grace rounded-lg text-sm hover:border-indigo-300 transition-colors font-medium text-primary-dark/80"
+              className="px-4 py-3 bg-white border border-grace rounded-lg text-sm hover:border-indigo-300 transition-colors font-medium text-scripture"
             >
               {entry.number} in the Lexicon
             </Link>
             <Link
               href="/lexicon/browse/greek"
-              className="px-4 py-3 bg-white border border-grace rounded-lg text-sm hover:border-indigo-300 transition-colors font-medium text-primary-dark/80"
+              className="px-4 py-3 bg-white border border-grace rounded-lg text-sm hover:border-indigo-300 transition-colors font-medium text-scripture"
             >
               Greek Strong&apos;s Index
             </Link>
             <Link
               href="/interlinear"
-              className="px-4 py-3 bg-white border border-grace rounded-lg text-sm hover:border-indigo-300 transition-colors font-medium text-primary-dark/80"
+              className="px-4 py-3 bg-white border border-grace rounded-lg text-sm hover:border-indigo-300 transition-colors font-medium text-scripture"
             >
               Interlinear Bible
             </Link>
             <Link
               href="/greek-words"
-              className="px-4 py-3 bg-white border border-grace rounded-lg text-sm hover:border-indigo-300 transition-colors font-medium text-primary-dark/80"
+              className="px-4 py-3 bg-white border border-grace rounded-lg text-sm hover:border-indigo-300 transition-colors font-medium text-scripture"
             >
               Key Greek Words Overview
             </Link>
             <Link
               href="/bible-quizzes"
-              className="px-4 py-3 bg-white border border-grace rounded-lg text-sm hover:border-indigo-300 transition-colors font-medium text-primary-dark/80"
+              className="px-4 py-3 bg-white border border-grace rounded-lg text-sm hover:border-indigo-300 transition-colors font-medium text-scripture"
             >
               Bible Quizzes
             </Link>
             <Link
               href="/word-studies"
-              className="px-4 py-3 bg-white border border-grace rounded-lg text-sm hover:border-indigo-300 transition-colors font-medium text-primary-dark/80"
+              className="px-4 py-3 bg-white border border-grace rounded-lg text-sm hover:border-indigo-300 transition-colors font-medium text-scripture"
             >
               Word Studies Hub
             </Link>
             <Link
               href="/bible-study-guides"
-              className="px-4 py-3 bg-white border border-grace rounded-lg text-sm hover:border-indigo-300 transition-colors font-medium text-primary-dark/80"
+              className="px-4 py-3 bg-white border border-grace rounded-lg text-sm hover:border-indigo-300 transition-colors font-medium text-scripture"
             >
               Bible Study Guides
             </Link>

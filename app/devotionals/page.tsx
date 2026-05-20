@@ -78,12 +78,12 @@ export default function DevotionalsPage() {
 
       <div className="min-h-screen bg-primary-light/30">
         {/* Hero Section */}
-        <section className="py-16 bg-gradient-to-b from-blue-50 to-primary-light/30">
+        <section className="py-16 bg-gradient-to-b from-scripture to-primary-light/30">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl md:text-5xl font-bold font-display text-scripture mb-4">
-              Daily Bible <span className="text-blue-600">Devotionals</span>
+              Daily Bible <span className="text-sacred">Devotionals</span>
             </h1>
-            <p className="text-lg text-primary-dark/70 max-w-2xl mx-auto mb-8">
+            <p className="text-lg text-ink-muted max-w-2xl mx-auto mb-8">
               365 scripture meditations to deepen your walk with God. Each devotional
               includes a focused meditation, practical application, and prayer drawn
               from the richness of God&apos;s Word.
@@ -92,16 +92,16 @@ export default function DevotionalsPage() {
             {/* Stats */}
             <div className="flex justify-center gap-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">{stats.total}</div>
-                <div className="text-sm text-primary-dark/60">Devotionals</div>
+                <div className="text-3xl font-bold text-sacred">{stats.total}</div>
+                <div className="text-sm text-ink-muted">Devotionals</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">{stats.themes}</div>
-                <div className="text-sm text-primary-dark/60">Themes</div>
+                <div className="text-3xl font-bold text-sacred">{stats.themes}</div>
+                <div className="text-sm text-ink-muted">Themes</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">{stats.books}</div>
-                <div className="text-sm text-primary-dark/60">Bible Books</div>
+                <div className="text-3xl font-bold text-sacred">{stats.books}</div>
+                <div className="text-sm text-ink-muted">Bible Books</div>
               </div>
             </div>
           </div>
@@ -116,10 +116,10 @@ export default function DevotionalsPage() {
                 <a
                   key={theme}
                   href={`#${themeToId(theme)}`}
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-primary-dark/80 hover:border-blue-300 hover:text-blue-600 transition-colors"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-scripture hover:border-sacred/50 hover:text-gold-dark transition-colors"
                 >
                   {theme}
-                  <span className="text-xs text-primary-dark/40">({count})</span>
+                  <span className="text-xs text-ink-light">({count})</span>
                 </a>
               ))}
             </div>
@@ -133,10 +133,10 @@ export default function DevotionalsPage() {
                 <Link
                   key={bookSlug}
                   href={`/${bookSlug}-chapters`}
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-primary-dark/80 hover:border-blue-300 hover:text-blue-600 transition-colors"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-scripture hover:border-sacred/50 hover:text-gold-dark transition-colors"
                 >
                   {bookName}
-                  <span className="text-xs text-primary-dark/40">({count})</span>
+                  <span className="text-xs text-ink-light">({count})</span>
                 </Link>
               ))}
             </div>
@@ -151,7 +151,7 @@ export default function DevotionalsPage() {
                   <h2 className="text-2xl font-bold font-display text-scripture">
                     {theme}
                   </h2>
-                  <span className="text-sm text-primary-dark/50">
+                  <span className="text-sm text-ink-muted">
                     {items.length} devotional{items.length !== 1 ? 's' : ''}
                   </span>
                 </div>
@@ -161,18 +161,18 @@ export default function DevotionalsPage() {
                     <Link
                       key={d.slug}
                       href={`/devotionals/${d.slug}`}
-                      className="bg-white border border-grace rounded-xl p-5 hover:shadow-md hover:border-blue-300 transition-all group"
+                      className="bg-white border border-grace rounded-xl p-5 hover:shadow-md hover:border-sacred/50 transition-all group"
                     >
-                      <span className="inline-block px-2 py-0.5 bg-blue-50 text-blue-600 text-xs font-medium rounded mb-2">
+                      <span className="inline-block px-2 py-0.5 bg-blue-50 text-sacred text-xs font-medium rounded mb-2">
                         {d.theme}
                       </span>
-                      <h3 className="text-lg font-semibold text-scripture group-hover:text-blue-600 transition-colors mb-1">
+                      <h3 className="text-lg font-semibold text-scripture group-hover:text-gold-dark transition-colors mb-1">
                         {d.title}
                       </h3>
-                      <p className="text-sm text-primary-dark/60 mb-3">
+                      <p className="text-sm text-ink-muted mb-3">
                         {d.reference}
                       </p>
-                      <p className="text-sm text-primary-dark/70 leading-relaxed">
+                      <p className="text-sm text-ink-muted leading-relaxed">
                         {truncate(d.opening, 80)}
                       </p>
                     </Link>
@@ -186,34 +186,34 @@ export default function DevotionalsPage() {
           <section className="bg-grace/10 border border-grace rounded-xl p-6 mt-8">
             <h2 className="text-lg font-bold text-scripture mb-3">Continue Your Study</h2>
             <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-              <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">
+              <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">
                 Bible Quizzes
               </Link>
-              <Link href="/topics" className="text-blue-600 hover:underline text-sm">
+              <Link href="/topics" className="text-sacred hover:underline text-sm">
                 Bible Topics
               </Link>
-              <Link href="/bible-stories" className="text-blue-600 hover:underline text-sm">
+              <Link href="/bible-stories" className="text-sacred hover:underline text-sm">
                 Bible Stories
               </Link>
-              <Link href="/people" className="text-blue-600 hover:underline text-sm">
+              <Link href="/people" className="text-sacred hover:underline text-sm">
                 Bible People
               </Link>
-              <Link href="/characters" className="text-blue-600 hover:underline text-sm">
+              <Link href="/characters" className="text-sacred hover:underline text-sm">
                 Bible Characters
               </Link>
-              <Link href="/character-quiz" className="text-blue-600 hover:underline text-sm">
+              <Link href="/character-quiz" className="text-sacred hover:underline text-sm">
                 Character Quizzes
               </Link>
-              <Link href="/reading-plans" className="text-blue-600 hover:underline text-sm">
+              <Link href="/reading-plans" className="text-sacred hover:underline text-sm">
                 Reading Plans
               </Link>
-              <Link href="/timeline" className="text-blue-600 hover:underline text-sm">
+              <Link href="/timeline" className="text-sacred hover:underline text-sm">
                 Bible Timeline
               </Link>
-              <Link href="/cross-references" className="text-blue-600 hover:underline text-sm">
+              <Link href="/cross-references" className="text-sacred hover:underline text-sm">
                 Cross References
               </Link>
-              <Link href="/commandments" className="text-blue-600 hover:underline text-sm">
+              <Link href="/commandments" className="text-sacred hover:underline text-sm">
                 Bible Commandments
               </Link>
             </div>

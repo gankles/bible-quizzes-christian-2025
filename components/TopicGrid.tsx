@@ -39,9 +39,9 @@ export const TopicGrid: React.FC<TopicGridProps> = ({ initialGroups }) => {
                     placeholder="Search topics (e.g. Love, Grace, Prayer)..."
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
-                    className="w-full px-5 py-3 rounded-lg border border-grace bg-white text-scripture focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors placeholder:text-primary-dark/40"
+                    className="w-full px-5 py-3 rounded-lg border border-grace bg-white text-scripture focus:outline-none focus:ring-2 focus:ring-sacred focus:border-sacred transition-colors placeholder:text-ink-light"
                 />
-                <div className="absolute right-4 top-1/2 -translate-y-1/2 text-primary-dark/40">
+                <div className="absolute right-4 top-1/2 -translate-y-1/2 text-ink-light">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                     </svg>
@@ -56,7 +56,7 @@ export const TopicGrid: React.FC<TopicGridProps> = ({ initialGroups }) => {
                                 {category}
                             </h3>
                             <div className="h-px bg-grace flex-1"></div>
-                            <span className="text-xs text-primary-dark/60">
+                            <span className="text-xs text-ink-muted">
                                 {topics.length} topics
                             </span>
                         </div>
@@ -65,12 +65,12 @@ export const TopicGrid: React.FC<TopicGridProps> = ({ initialGroups }) => {
                                 <Link
                                     key={topic.id}
                                     href={`/topics/${topic.slug}`}
-                                    className="p-4 bg-white border border-grace rounded-lg hover:border-blue-300 hover:shadow-md transition-all duration-200 group"
+                                    className="p-4 bg-white border border-grace rounded-lg hover:border-sacred/50 hover:shadow-md transition-all duration-200 group"
                                 >
-                                    <div className="text-sm font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                                    <div className="text-sm font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                                         {topic.name}
                                     </div>
-                                    <div className="text-xs text-primary-dark/60 mt-1">
+                                    <div className="text-xs text-ink-muted mt-1">
                                         {topic.verseCount} verses
                                     </div>
                                 </Link>
@@ -80,8 +80,8 @@ export const TopicGrid: React.FC<TopicGridProps> = ({ initialGroups }) => {
                 ))
             ) : (
                 <div className="text-center py-16">
-                    <p className="text-primary-dark/60 text-lg">No topics found for &ldquo;{searchQuery}&rdquo;</p>
-                    <p className="text-primary-dark/40 text-sm mt-2">Try a different search term.</p>
+                    <p className="text-ink-muted text-lg">No topics found for &ldquo;{searchQuery}&rdquo;</p>
+                    <p className="text-ink-light text-sm mt-2">Try a different search term.</p>
                 </div>
             )}
         </div>

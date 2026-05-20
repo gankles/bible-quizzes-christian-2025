@@ -110,7 +110,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
-              <BookOpenIcon className="h-8 w-8 text-blue-600" />
+              <BookOpenIcon className="h-8 w-8 text-sacred" />
               <span className="text-xl font-bold text-scripture">Bible Maximum</span>
             </Link>
           </div>
@@ -123,7 +123,7 @@ export default function Header() {
                   <div className="group">
                     <button
                       type="button"
-                      className="flex items-center space-x-1 text-primary-dark/80 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                      className="flex items-center space-x-1 text-scripture hover:text-gold-dark px-3 py-2 text-sm font-medium transition-colors duration-200"
                       onMouseEnter={() => setActiveDropdown(item.name)}
                       onMouseLeave={() => setActiveDropdown(null)}
                     >
@@ -146,7 +146,7 @@ export default function Header() {
                           <Link
                             key={child.name}
                             href={child.href}
-                            className="block px-4 py-2 text-sm text-primary-dark/80 hover:bg-primary-light hover:text-blue-600 transition-colors duration-150"
+                            className="block px-4 py-2 text-sm text-scripture hover:bg-primary-light hover:text-gold-dark transition-colors duration-150"
                           >
                             {child.name}
                           </Link>
@@ -157,7 +157,7 @@ export default function Header() {
                 ) : (
                   <Link
                     href={item.href}
-                    className="text-primary-dark/80 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                    className="text-scripture hover:text-gold-dark px-3 py-2 text-sm font-medium transition-colors duration-200"
                   >
                     {item.name}
                   </Link>
@@ -166,7 +166,7 @@ export default function Header() {
             ))}
             <Link
               href="/login"
-              className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors duration-200"
+              className="bg-scripture text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-ink-muted transition-colors duration-200"
             >
               Login
             </Link>
@@ -176,7 +176,7 @@ export default function Header() {
           <div className="lg:hidden">
             <button
               type="button"
-              className="text-primary-dark/80 hover:text-blue-600 p-2"
+              className="text-scripture hover:text-gold-dark p-2"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               aria-label="Toggle mobile menu"
             >
@@ -199,7 +199,7 @@ export default function Header() {
             <span className="text-lg font-semibold text-scripture">Menu</span>
             <button
               type="button"
-              className="text-primary-dark/60 hover:text-primary-dark/80 p-1"
+              className="text-ink-muted hover:text-scripture p-1"
               onClick={closeMobileMenu}
               aria-label="Close mobile menu"
             >
@@ -235,7 +235,7 @@ export default function Header() {
                         <Link
                           key={child.name}
                           href={child.href}
-                          className="block px-3 py-2 text-sm text-primary-dark/70 hover:text-blue-600 hover:bg-primary-light rounded-lg"
+                          className="block px-3 py-2 text-sm text-ink-muted hover:text-gold-dark hover:bg-primary-light rounded-lg"
                           onClick={closeMobileMenu}
                         >
                           {child.name}
@@ -259,7 +259,7 @@ export default function Header() {
             <div className="pt-4 border-t border-grace">
               <Link
                 href="/login"
-                className="block w-full bg-blue-600 text-white text-center px-3 py-2 rounded-lg text-base font-medium hover:bg-blue-700 transition-colors duration-200"
+                className="block w-full bg-scripture text-white text-center px-3 py-2 rounded-lg text-base font-medium hover:bg-ink-muted transition-colors duration-200"
                 onClick={closeMobileMenu}
               >
                 Login

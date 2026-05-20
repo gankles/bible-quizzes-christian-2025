@@ -82,24 +82,24 @@ export function VerseNavigation({ currentBook, currentChapter, currentVerse, boo
             {prevVerse && !prevVerse.disabled ? (
                 <Link
                     href={`/verses/${prevVerse.book}/${prevVerse.chapter}/${prevVerse.verse}`}
-                    className="w-full md:w-auto flex items-center gap-6 glass-panel p-6 pr-10 rounded-[32px] border border-white bg-white/60 hover:bg-white hover:border-blue-600/30 hover:shadow-2xl transition-all duration-500 group"
+                    className="w-full md:w-auto flex items-center gap-6 glass-panel p-6 pr-10 rounded-[32px] border border-white bg-white/60 hover:bg-white hover:border-sacred/50/30 hover:shadow-2xl transition-all duration-500 group"
                 >
-                    <div className="w-12 h-12 rounded-lg bg-scripture text-white flex items-center justify-center group-hover:bg-blue-600 transition-colors shadow-lg">
+                    <div className="w-12 h-12 rounded-lg bg-scripture text-white flex items-center justify-center group-hover:bg-ink-muted transition-colors shadow-lg">
                         <ChevronLeftIcon className="w-6 h-6 group-hover:-translate-x-1 transition-transform" />
                     </div>
                     <div className="text-left">
-                        <div className="text-[10px] font-bold text-primary-dark/40 uppercase mb-1">Previous Verse</div>
+                        <div className="text-[10px] font-bold text-ink-light uppercase mb-1">Previous Verse</div>
                         <div className="text-lg font-bold text-scripture tracking-tight">{prevVerse.label}</div>
                     </div>
                 </Link>
             ) : (
                 <div className="w-full md:w-auto flex items-center gap-6 glass-panel p-6 pr-10 rounded-[32px] border border-dashed border-grace bg-primary-light/30 opacity-40 grayscale">
-                    <div className="w-12 h-12 rounded-lg bg-grace/30 text-primary-dark/40 flex items-center justify-center">
+                    <div className="w-12 h-12 rounded-lg bg-grace/30 text-ink-light flex items-center justify-center">
                         <ChevronLeftIcon className="w-6 h-6" />
                     </div>
                     <div className="text-left">
-                        <div className="text-[10px] font-bold text-primary-dark/40 uppercase mb-1">First Verse</div>
-                        <div className="text-lg font-bold text-primary-dark/40 tracking-tight">Genesis 1:1</div>
+                        <div className="text-[10px] font-bold text-ink-light uppercase mb-1">First Verse</div>
+                        <div className="text-lg font-bold text-ink-light tracking-tight">Genesis 1:1</div>
                     </div>
                 </div>
             )}
@@ -117,23 +117,23 @@ export function VerseNavigation({ currentBook, currentChapter, currentVerse, boo
             {nextVerse && !nextVerse.disabled ? (
                 <Link
                     href={`/verses/${nextVerse.book}/${nextVerse.chapter}/${nextVerse.verse}`}
-                    className="w-full md:w-auto flex items-center justify-end gap-6 glass-panel p-6 pl-10 rounded-[32px] border border-white bg-white/60 hover:bg-white hover:border-blue-600/30 hover:shadow-2xl transition-all duration-500 group"
+                    className="w-full md:w-auto flex items-center justify-end gap-6 glass-panel p-6 pl-10 rounded-[32px] border border-white bg-white/60 hover:bg-white hover:border-sacred/50/30 hover:shadow-2xl transition-all duration-500 group"
                 >
                     <div className="text-right">
-                        <div className="text-[10px] font-bold text-primary-dark/40 uppercase mb-1">Next Verse</div>
+                        <div className="text-[10px] font-bold text-ink-light uppercase mb-1">Next Verse</div>
                         <div className="text-lg font-bold text-scripture tracking-tight">{nextVerse.label}</div>
                     </div>
-                    <div className="w-12 h-12 rounded-lg bg-scripture text-white flex items-center justify-center group-hover:bg-blue-600 transition-colors shadow-lg">
+                    <div className="w-12 h-12 rounded-lg bg-scripture text-white flex items-center justify-center group-hover:bg-ink-muted transition-colors shadow-lg">
                         <ChevronRightIcon className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
                     </div>
                 </Link>
             ) : (
                 <div className="w-full md:w-auto flex items-center justify-end gap-6 glass-panel p-6 pl-10 rounded-[32px] border border-dashed border-grace bg-primary-light/30 opacity-40 grayscale">
                     <div className="text-right">
-                        <div className="text-[10px] font-bold text-primary-dark/40 uppercase mb-1">Last Verse</div>
-                        <div className="text-lg font-bold text-primary-dark/40 tracking-tight">Canon End</div>
+                        <div className="text-[10px] font-bold text-ink-light uppercase mb-1">Last Verse</div>
+                        <div className="text-lg font-bold text-ink-light tracking-tight">Canon End</div>
                     </div>
-                    <div className="w-12 h-12 rounded-lg bg-grace/30 text-primary-dark/40 flex items-center justify-center">
+                    <div className="w-12 h-12 rounded-lg bg-grace/30 text-ink-light flex items-center justify-center">
                         <ChevronRightIcon className="w-6 h-6" />
                     </div>
                 </div>

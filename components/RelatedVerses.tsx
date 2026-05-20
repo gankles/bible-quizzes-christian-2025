@@ -62,13 +62,13 @@ export function RelatedVerses({ currentBook, currentChapter, currentVerse }: Rel
         <div className="mt-32">
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-16">
                 <div>
-                    <div className="inline-flex items-center space-x-2 text-blue-600 font-bold text-[10px] uppercase mb-6">
+                    <div className="inline-flex items-center space-x-2 text-sacred font-bold text-[10px] uppercase mb-6">
                         <SparklesIcon className="w-4 h-4" />
                         <span>Thematic Continuance</span>
                     </div>
-                    <h2 className="text-4xl md:text-5xl font-bold text-scripture tracking-tighter">Scriptural <span className="text-primary-dark/40 italic">Synergy.</span></h2>
+                    <h2 className="text-4xl md:text-5xl font-bold text-scripture tracking-tighter">Scriptural <span className="text-ink-light italic">Synergy.</span></h2>
                 </div>
-                <p className="text-lg text-primary-dark/60 font-medium leading-relaxed italic border-l-2 border-grace/50 pl-8 max-w-md">
+                <p className="text-lg text-ink-muted font-medium leading-relaxed italic border-l-2 border-grace/50 pl-8 max-w-md">
                     Scripture is a tapestry. Explore the immediately adjacent nodes to maintain semantic momentum.
                 </p>
             </div>
@@ -78,19 +78,19 @@ export function RelatedVerses({ currentBook, currentChapter, currentVerse }: Rel
                     <Link
                         key={`${verse.book}-${verse.chapter}-${verse.verse}`}
                         href={`/verses/${verse.book}/${verse.chapter}/${verse.verse}`}
-                        className="group glass-panel p-8 rounded-[40px] border border-white bg-white/60 hover:bg-white hover:border-blue-600/30 hover:shadow-2xl transition-all duration-500 relative overflow-hidden"
+                        className="group glass-panel p-8 rounded-[40px] border border-white bg-white/60 hover:bg-white hover:border-sacred/50/30 hover:shadow-2xl transition-all duration-500 relative overflow-hidden"
                     >
                         <div className="absolute top-0 right-0 w-16 h-16 bg-primary-light/30 group-hover:bg-primary-light transition-colors -z-10 rounded-full -mr-8 -mt-8" />
                         <div className="flex items-center justify-between mb-8">
-                            <div className="w-10 h-10 rounded-lg bg-primary-light/30 flex items-center justify-center text-primary-dark/40 group-hover:bg-blue-600 group-hover:text-white transition-all shadow-sm">
+                            <div className="w-10 h-10 rounded-lg bg-primary-light/30 flex items-center justify-center text-ink-light group-hover:bg-ink-muted group-hover:text-white transition-all shadow-sm">
                                 <BookOpenIcon className="w-5 h-5" />
                             </div>
-                            <span className="text-[10px] font-bold text-primary-dark/40 uppercase">v.{verse.verse}</span>
+                            <span className="text-[10px] font-bold text-ink-light uppercase">v.{verse.verse}</span>
                         </div>
-                        <h3 className="text-xl font-bold text-scripture mb-3 tracking-tight group-hover:text-blue-600 transition-colors capitalize">
+                        <h3 className="text-xl font-bold text-scripture mb-3 tracking-tight group-hover:text-gold-dark transition-colors capitalize">
                             {verse.reference}
                         </h3>
-                        <div className="flex items-center text-[10px] font-bold text-primary-dark/40 uppercase group-hover:text-blue-600 transition-all transform translate-x-[-10px] group-hover:translate-x-0">
+                        <div className="flex items-center text-[10px] font-bold text-ink-light uppercase group-hover:text-gold-dark transition-all transform translate-x-[-10px] group-hover:translate-x-0">
                             Resolve Node <ArrowRightIcon className="w-4 h-4 ml-2" />
                         </div>
                     </Link>

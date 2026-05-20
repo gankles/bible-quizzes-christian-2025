@@ -146,10 +146,10 @@ export default async function EpochPage({ params }: PageProps) {
       <StructuredData data={faqSchema} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
-        <Link href="/" className="hover:text-blue-600">Home</Link>
+      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-ink-muted">
+        <Link href="/" className="hover:text-gold-dark">Home</Link>
         <span className="mx-1.5">/</span>
-        <Link href="/timeline" className="hover:text-blue-600">Timeline</Link>
+        <Link href="/timeline" className="hover:text-gold-dark">Timeline</Link>
         <span className="mx-1.5">/</span>
         <span className="text-scripture font-medium">{epoch.name}</span>
       </nav>
@@ -157,13 +157,13 @@ export default async function EpochPage({ params }: PageProps) {
       <article className="max-w-4xl mx-auto px-4 py-8">
         {/* Header */}
         <div className="mb-8">
-          <span className="inline-block px-3 py-1 bg-blue-100 text-blue-700 text-xs font-medium rounded-full mb-3">
+          <span className="inline-block px-3 py-1 bg-sacred/10 text-scripture text-xs font-medium rounded-full mb-3">
             {epoch.type}
           </span>
           <h1 className="text-3xl md:text-4xl font-display font-bold text-scripture mb-2">
             {epoch.name}
           </h1>
-          <p className="text-primary-dark/70 mb-3">
+          <p className="text-ink-muted mb-3">
             {epoch.description
               ? epoch.description.substring(0, 160).replace(/\n/g, ' ') + (epoch.description.length > 160 ? '...' : '')
               : `${epoch.name} is a period in the Bible timeline`}
@@ -171,11 +171,11 @@ export default async function EpochPage({ params }: PageProps) {
             {epoch.personId ? ` associated with ${epoch.personId.replace(/_\d+$/, '').replace(/_/g, ' ')}` : ''}.
           </p>
           {epoch.startYear !== null && (
-            <div className="text-lg text-primary-dark/70">
+            <div className="text-lg text-ink-muted">
               <span>{ahToBC(epoch.startYear)}</span>
               {epoch.endYear !== null && <span> — {ahToBC(epoch.endYear)}</span>}
-              {epoch.periodLength !== null && <span className="text-primary-dark/40"> ({epoch.periodLength} years)</span>}
-              <span className="block text-sm text-primary-dark/40 mt-1">
+              {epoch.periodLength !== null && <span className="text-ink-light"> ({epoch.periodLength} years)</span>}
+              <span className="block text-sm text-ink-light mt-1">
                 {epoch.startYear} AH{epoch.endYear !== null && `–${epoch.endYear} AH`}
                 {' '}(Anno Hominis — years from Creation)
               </span>
@@ -187,7 +187,7 @@ export default async function EpochPage({ params }: PageProps) {
         {epoch.description && (
           <div className="bg-white border border-grace rounded-xl p-6 mb-8">
             <h2 className="text-lg font-bold text-scripture mb-3">Description</h2>
-            <p className="text-primary-dark/80 leading-relaxed whitespace-pre-line">{epoch.description}</p>
+            <p className="text-scripture leading-relaxed whitespace-pre-line">{epoch.description}</p>
           </div>
         )}
 
@@ -196,15 +196,15 @@ export default async function EpochPage({ params }: PageProps) {
           <h2 className="text-lg font-bold text-scripture mb-4">Details</h2>
           <dl className="grid gap-4 sm:grid-cols-2">
             <div>
-              <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Type</dt>
+              <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">Type</dt>
               <dd className="text-scripture">{epoch.type}</dd>
             </div>
             {personDisplayName && (
               <div>
-                <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Person</dt>
+                <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">Person</dt>
                 <dd>
                   {linkedPerson ? (
-                    <Link href={`/people/${linkedPerson.slug}`} className="text-blue-600 hover:underline font-medium">
+                    <Link href={`/people/${linkedPerson.slug}`} className="text-sacred hover:underline font-medium">
                       {personDisplayName}
                     </Link>
                   ) : (
@@ -215,38 +215,38 @@ export default async function EpochPage({ params }: PageProps) {
             )}
             {epoch.startYear !== null && (
               <div>
-                <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Start</dt>
+                <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">Start</dt>
                 <dd className="text-scripture">
                   <span className="font-medium">{ahToBC(epoch.startYear)}</span>
-                  <span className="text-primary-dark/40 text-sm ml-1">({epoch.startYear} AH)</span>
+                  <span className="text-ink-light text-sm ml-1">({epoch.startYear} AH)</span>
                 </dd>
               </div>
             )}
             {epoch.endYear !== null && (
               <div>
-                <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">End</dt>
+                <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">End</dt>
                 <dd className="text-scripture">
                   <span className="font-medium">{ahToBC(epoch.endYear)}</span>
-                  <span className="text-primary-dark/40 text-sm ml-1">({epoch.endYear} AH)</span>
+                  <span className="text-ink-light text-sm ml-1">({epoch.endYear} AH)</span>
                 </dd>
               </div>
             )}
             {epoch.periodLength !== null && (
               <div>
-                <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Duration</dt>
+                <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">Duration</dt>
                 <dd className="text-scripture">{epoch.periodLength} years</dd>
               </div>
             )}
             {epoch.startReference && (
               <div>
-                <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">Start Reference</dt>
-                <dd className="text-primary-dark/80">{epoch.startReference}</dd>
+                <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">Start Reference</dt>
+                <dd className="text-scripture">{epoch.startReference}</dd>
               </div>
             )}
             {epoch.endReference && (
               <div>
-                <dt className="text-xs font-medium text-primary-dark/60 uppercase tracking-wider mb-1">End Reference</dt>
-                <dd className="text-primary-dark/80">{epoch.endReference}</dd>
+                <dt className="text-xs font-medium text-ink-muted uppercase tracking-wider mb-1">End Reference</dt>
+                <dd className="text-scripture">{epoch.endReference}</dd>
               </div>
             )}
           </dl>
@@ -256,7 +256,7 @@ export default async function EpochPage({ params }: PageProps) {
         {epoch.notes && (
           <div className="bg-primary-light/30 border border-grace rounded-xl p-6 mb-8">
             <h2 className="text-lg font-bold text-scripture mb-3">Notes</h2>
-            <p className="text-primary-dark/80 leading-relaxed whitespace-pre-line">{epoch.notes}</p>
+            <p className="text-scripture leading-relaxed whitespace-pre-line">{epoch.notes}</p>
           </div>
         )}
 
@@ -269,11 +269,11 @@ export default async function EpochPage({ params }: PageProps) {
                 <div key={i} className="border-b border-grace/50 pb-3 last:border-0 last:pb-0">
                   <div className="flex items-baseline justify-between">
                     <h3 className="font-semibold text-scripture">{evt.title}</h3>
-                    <span className="text-sm text-primary-dark/60">{evt.date}</span>
+                    <span className="text-sm text-ink-muted">{evt.date}</span>
                   </div>
-                  <p className="text-sm text-primary-dark/70 mt-1">{evt.description.replace(/<[^>]*>/g, '').slice(0, 200)}{evt.description.length > 200 ? '...' : ''}</p>
+                  <p className="text-sm text-ink-muted mt-1">{evt.description.replace(/<[^>]*>/g, '').slice(0, 200)}{evt.description.length > 200 ? '...' : ''}</p>
                   {evt.sidenote && (
-                    <p className="text-xs text-primary-dark/50 mt-1 italic">{evt.sidenote.slice(0, 150)}{evt.sidenote.length > 150 ? '...' : ''}</p>
+                    <p className="text-xs text-ink-muted mt-1 italic">{evt.sidenote.slice(0, 150)}{evt.sidenote.length > 150 ? '...' : ''}</p>
                   )}
                 </div>
               ))}
@@ -286,10 +286,10 @@ export default async function EpochPage({ params }: PageProps) {
           {prev ? (
             <Link
               href={`/timeline/${prev.slug}`}
-              className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+              className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
             >
-              <span className="text-xs text-primary-dark/60">Previous</span>
-              <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+              <span className="text-xs text-ink-muted">Previous</span>
+              <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                 {prev.name}
               </span>
             </Link>
@@ -297,10 +297,10 @@ export default async function EpochPage({ params }: PageProps) {
           {next ? (
             <Link
               href={`/timeline/${next.slug}`}
-              className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+              className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
             >
-              <span className="text-xs text-primary-dark/60">Next</span>
-              <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+              <span className="text-xs text-ink-muted">Next</span>
+              <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                 {next.name}
               </span>
             </Link>
@@ -318,13 +318,13 @@ export default async function EpochPage({ params }: PageProps) {
                 <Link
                   key={e.id}
                   href={`/timeline/${e.slug}`}
-                  className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
+                  className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-sacred/50 transition-all group"
                 >
-                  <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors">
+                  <span className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
                     {e.name}
                   </span>
                   {e.startYear !== null && (
-                    <span className="block text-xs text-primary-dark/60 mt-0.5">
+                    <span className="block text-xs text-ink-muted mt-0.5">
                       {ahToBC(e.startYear)}{e.periodLength ? ` (${e.periodLength} years)` : ''}
                     </span>
                   )}
@@ -342,7 +342,7 @@ export default async function EpochPage({ params }: PageProps) {
               <h3 className="font-semibold text-scripture mb-1">
                 When did {epoch.name} occur in Bible history?
               </h3>
-              <p className="text-primary-dark/80 text-sm leading-relaxed">
+              <p className="text-scripture text-sm leading-relaxed">
                 {epoch.startYear !== null
                   ? <>{epoch.name} occurred approximately {ahToBC(epoch.startYear)}{epoch.endYear !== null && <> to {ahToBC(epoch.endYear)}</>}. This is {epoch.startYear}{epoch.endYear !== null && <>–{epoch.endYear}</>} AH (Anno Hominis — years from Creation using the Ussher chronology, where Year 1 = ~4004 BC).{epoch.periodLength !== null && <> This period lasted {epoch.periodLength} years.</>}</>
                   : <>{epoch.name} is an event in Bible history. The exact dates are not specified.</>
@@ -353,7 +353,7 @@ export default async function EpochPage({ params }: PageProps) {
               <h3 className="font-semibold text-scripture mb-1">
                 What does &ldquo;AH&rdquo; mean in Bible chronology?
               </h3>
-              <p className="text-primary-dark/80 text-sm leading-relaxed">
+              <p className="text-scripture text-sm leading-relaxed">
                 AH stands for &ldquo;Anno Hominis&rdquo; (Year of Man), a chronological system that counts years from Creation. Under the Ussher chronology, Year 1 AH corresponds to approximately 4004 BC.
               </p>
             </div>
@@ -379,7 +379,7 @@ export default async function EpochPage({ params }: PageProps) {
                   <Link
                     key={p.slug}
                     href={`/bible-places/${p.slug}`}
-                    className="px-2.5 py-1 bg-blue-50 text-blue-600 text-xs rounded hover:bg-blue-100 transition-colors"
+                    className="px-2.5 py-1 bg-blue-50 text-sacred text-xs rounded hover:bg-sacred-light transition-colors"
                   >
                     {p.name}
                   </Link>
@@ -387,7 +387,7 @@ export default async function EpochPage({ params }: PageProps) {
               </div>
               <Link
                 href={`/bible-places/era/${matchedEra}`}
-                className="text-sm text-blue-600 hover:underline font-medium"
+                className="text-sm text-sacred hover:underline font-medium"
               >
                 View all places from the {eraData.eraName}
               </Link>
@@ -400,26 +400,26 @@ export default async function EpochPage({ params }: PageProps) {
           <h2 className="text-lg font-bold text-scripture mb-3">Continue Your Study</h2>
           <div className="grid gap-2 sm:grid-cols-2">
             {linkedPerson && (
-              <Link href={`/people/${linkedPerson.slug}`} className="text-blue-600 hover:underline text-sm">
+              <Link href={`/people/${linkedPerson.slug}`} className="text-sacred hover:underline text-sm">
                 {personDisplayName} — Character Profile
               </Link>
             )}
-            <Link href="/timeline" className="text-blue-600 hover:underline text-sm">
+            <Link href="/timeline" className="text-sacred hover:underline text-sm">
               Full Bible Timeline
             </Link>
-            <Link href="/bible-places/era" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-places/era" className="text-sacred hover:underline text-sm">
               Places by Historical Era
             </Link>
-            <Link href="/people" className="text-blue-600 hover:underline text-sm">
+            <Link href="/people" className="text-sacred hover:underline text-sm">
               Bible Characters Directory
             </Link>
-            <Link href="/bible-stories" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-stories" className="text-sacred hover:underline text-sm">
               Bible Stories
             </Link>
-            <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">
               Bible Quizzes
             </Link>
-            <Link href="/topics" className="text-blue-600 hover:underline text-sm">
+            <Link href="/topics" className="text-sacred hover:underline text-sm">
               Bible Topics
             </Link>
           </div>

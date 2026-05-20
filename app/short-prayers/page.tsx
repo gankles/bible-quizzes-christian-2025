@@ -384,11 +384,11 @@ export default function ShortPrayersPage() {
       <nav className="bg-white dark:bg-dark-surface border-b border-grace dark:border-dark-border">
         <div className="max-w-4xl mx-auto px-4 py-3">
           <ol className="flex items-center flex-wrap gap-y-1 text-sm">
-            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li><Link href="/prayer" className="text-blue-600 hover:underline">Prayer</Link></li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li className="text-primary-dark/70 font-medium">Short Prayers</li>
+            <li><Link href="/" className="text-sacred hover:underline">Home</Link></li>
+            <li className="text-ink-light mx-2">/</li>
+            <li><Link href="/prayer" className="text-sacred hover:underline">Prayer</Link></li>
+            <li className="text-ink-light mx-2">/</li>
+            <li className="text-ink-muted font-medium">Short Prayers</li>
           </ol>
         </div>
       </nav>
@@ -405,14 +405,14 @@ export default function ShortPrayersPage() {
           />
         </div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 py-16 md:py-24 text-center">
-          <p className="text-blue-200 text-sm font-semibold tracking-wider uppercase mb-3">Daily Prayer Guide</p>
+          <p className="text-sacred text-sm font-semibold tracking-wider uppercase mb-3">Daily Prayer Guide</p>
           <h1 className="text-3xl md:text-5xl font-bold text-white font-display leading-tight mb-4">33 Short Prayers for Daily Life</h1>
-          <p className="text-lg md:text-xl text-blue-100/90 max-w-2xl mx-auto leading-relaxed mb-2">Quick, Powerful, Scripture-Based</p>
-          <p className="text-base text-blue-100/70 max-w-2xl mx-auto leading-relaxed mb-6">
+          <p className="text-lg md:text-xl text-sacred-light/90 max-w-2xl mx-auto leading-relaxed mb-2">Quick, Powerful, Scripture-Based</p>
+          <p className="text-base text-sacred-light/70 max-w-2xl mx-auto leading-relaxed mb-6">
             You don&apos;t need 30 minutes and perfect words. You need 30 seconds and an honest heart. Every prayer below mentions God the Father, Jesus the Son, and the Holy Spirit — because prayer is Trinitarian.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
-            <Link href="#prayer-1" className="inline-block bg-white text-scripture font-bold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors">
+            <Link href="#prayer-1" className="inline-block bg-white text-scripture font-bold px-6 py-3 rounded-lg hover:bg-sacred-light transition-colors">
               Start Praying
             </Link>
             <Link href="/prayer" className="inline-block border-2 border-white/40 text-white font-bold px-6 py-3 rounded-lg hover:bg-white/10 transition-colors">
@@ -427,16 +427,16 @@ export default function ShortPrayersPage() {
         {/* Quick Stats */}
         <div className="grid grid-cols-3 gap-3 mb-10">
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-4 text-center shadow-sm">
-            <p className="text-2xl font-bold text-scripture dark:text-blue-400">33</p>
-            <p className="text-xs text-primary-dark/60 dark:text-primary-dark/40 mt-1">Prayers</p>
+            <p className="text-2xl font-bold text-scripture dark:text-sacred">33</p>
+            <p className="text-xs text-ink-muted dark:text-ink-light mt-1">Prayers</p>
           </div>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-4 text-center shadow-sm">
-            <p className="text-2xl font-bold text-scripture dark:text-blue-400">{categories.length}</p>
-            <p className="text-xs text-primary-dark/60 dark:text-primary-dark/40 mt-1">Life Situations</p>
+            <p className="text-2xl font-bold text-scripture dark:text-sacred">{categories.length}</p>
+            <p className="text-xs text-ink-muted dark:text-ink-light mt-1">Life Situations</p>
           </div>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-4 text-center shadow-sm">
-            <p className="text-2xl font-bold text-scripture dark:text-blue-400">30s</p>
-            <p className="text-xs text-primary-dark/60 dark:text-primary-dark/40 mt-1">Each Prayer</p>
+            <p className="text-2xl font-bold text-scripture dark:text-sacred">30s</p>
+            <p className="text-xs text-ink-muted dark:text-ink-light mt-1">Each Prayer</p>
           </div>
         </div>
 
@@ -445,7 +445,7 @@ export default function ShortPrayersPage() {
           <h2 className="text-lg font-bold text-scripture dark:text-white mb-3">Jump to a Prayer</h2>
           <div className="flex flex-wrap gap-2">
             {PRAYERS.map((p) => (
-              <Link key={p.number} href={`#prayer-${p.number}`} className="text-xs bg-blue-50 dark:bg-blue-950/20 text-blue-700 dark:text-blue-300 px-3 py-1.5 rounded-full hover:bg-blue-100 transition-colors">
+              <Link key={p.number} href={`#prayer-${p.number}`} className="text-xs bg-sacred-light dark:bg-sacred-light0/20 text-scripture dark:text-sacred px-3 py-1.5 rounded-full hover:bg-sacred-light transition-colors">
                 {p.number}. {p.title.replace('A Prayer ', '').replace('The ', '')}
               </Link>
             ))}
@@ -455,18 +455,18 @@ export default function ShortPrayersPage() {
         {/* Intro */}
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">Why Short Prayers Work</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
-            Elijah called fire from heaven with a 63-word prayer (<Link href="/cross-references/1-kings/18/36" className="text-blue-600 hover:underline">1 Kings 18:36-37</Link>). The tax collector got justified with 7 words: &ldquo;God be merciful to me a sinner&rdquo; (<Link href="/cross-references/luke/18/13" className="text-blue-600 hover:underline">Luke 18:13</Link>). Jesus Himself criticized long prayers meant to impress people (<Link href="/cross-references/matthew/6/7" className="text-blue-600 hover:underline">Matthew 6:7</Link>).
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
+            Elijah called fire from heaven with a 63-word prayer (<Link href="/cross-references/1-kings/18/36" className="text-sacred hover:underline">1 Kings 18:36-37</Link>). The tax collector got justified with 7 words: &ldquo;God be merciful to me a sinner&rdquo; (<Link href="/cross-references/luke/18/13" className="text-sacred hover:underline">Luke 18:13</Link>). Jesus Himself criticized long prayers meant to impress people (<Link href="/cross-references/matthew/6/7" className="text-sacred hover:underline">Matthew 6:7</Link>).
           </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
-            God responds to faith and honesty, not word count. Each prayer below is rooted in Scripture, addresses a real life situation, and takes less than 30 seconds. Every prayer is addressed to the Father, through Jesus the Son, in the power of the Holy Spirit — because that&apos;s how biblical prayer works (<Link href="/cross-references/ephesians/2/18" className="text-blue-600 hover:underline">Ephesians 2:18</Link>).
+          <p className="text-scripture dark:text-ink-light leading-relaxed">
+            God responds to faith and honesty, not word count. Each prayer below is rooted in Scripture, addresses a real life situation, and takes less than 30 seconds. Every prayer is addressed to the Father, through Jesus the Son, in the power of the Holy Spirit — because that&apos;s how biblical prayer works (<Link href="/cross-references/ephesians/2/18" className="text-sacred hover:underline">Ephesians 2:18</Link>).
           </p>
         </section>
 
         {/* Prayer Simplicity */}
         <section className="mb-10 bg-scripture/5 dark:bg-dark-border/20 border border-scripture/20 dark:border-dark-border rounded-xl p-6 md:p-8">
           <h2 className="text-xl font-bold text-scripture dark:text-white font-display mb-4">Five Types of Simple Prayer</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             We&apos;ve made prayer very complicated. Nobody has to tell you how to talk to a friend or a neighbor — it comes spontaneous, natural. You speak from your heart. Prayer works the same way:
           </p>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
@@ -478,12 +478,12 @@ export default function ShortPrayersPage() {
               { type: 'Prayer of Desperation', example: '"Lord, I can\'t take one more thing."' },
             ].map((item) => (
               <div key={item.type} className="bg-white dark:bg-dark-surface rounded-lg border border-grace dark:border-dark-border p-4">
-                <p className="font-bold text-scripture dark:text-blue-300 text-sm mb-1">{item.type}</p>
-                <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm italic">{item.example}</p>
+                <p className="font-bold text-scripture dark:text-sacred text-sm mb-1">{item.type}</p>
+                <p className="text-ink-muted dark:text-ink-light text-sm italic">{item.example}</p>
               </div>
             ))}
           </div>
-          <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm mt-4 leading-relaxed">
+          <p className="text-ink-muted dark:text-ink-light text-sm mt-4 leading-relaxed">
             Every prayer below fits one of these five types. Some are three sentences. Some are two. God isn&apos;t counting your words — He&apos;s listening to your heart.
           </p>
         </section>
@@ -491,24 +491,24 @@ export default function ShortPrayersPage() {
         {/* All 33 Prayers at a Glance — Summary Table */}
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-2">All 33 Prayers at a Glance</h2>
-          <p className="text-primary-dark/60 dark:text-primary-dark/40 mb-4 text-sm">Click any prayer to jump to the full text, Scripture reference, and explanation.</p>
+          <p className="text-ink-muted dark:text-ink-light mb-4 text-sm">Click any prayer to jump to the full text, Scripture reference, and explanation.</p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 w-10">#</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Prayer</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">Category</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden md:table-cell">Scripture</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred w-10">#</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Prayer</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden sm:table-cell">Category</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden md:table-cell">Scripture</th>
                 </tr>
               </thead>
               <tbody>
                 {PRAYERS.map((p) => (
-                  <tr key={p.number} className="border-t border-grace dark:border-dark-border hover:bg-blue-50/50 dark:hover:bg-dark-border/20">
-                    <td className="px-4 py-2 font-bold text-scripture dark:text-blue-400">{p.number}</td>
-                    <td className="px-4 py-2"><a href={`#prayer-${p.number}`} className="text-blue-600 hover:underline">{p.title}</a></td>
-                    <td className="px-4 py-2 hidden sm:table-cell"><span className="bg-blue-100 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300 text-xs px-2 py-0.5 rounded-full">{p.category}</span></td>
-                    <td className="px-4 py-2 text-primary-dark/70 dark:text-primary-dark/40 hidden md:table-cell text-xs">{p.scripture}</td>
+                  <tr key={p.number} className="border-t border-grace dark:border-dark-border hover:bg-sacred-light/50 dark:hover:bg-dark-border/20">
+                    <td className="px-4 py-2 font-bold text-scripture dark:text-sacred">{p.number}</td>
+                    <td className="px-4 py-2"><a href={`#prayer-${p.number}`} className="text-sacred hover:underline">{p.title}</a></td>
+                    <td className="px-4 py-2 hidden sm:table-cell"><span className="bg-sacred/10 dark:bg-sacred-light0/30 text-scripture dark:text-sacred text-xs px-2 py-0.5 rounded-full">{p.category}</span></td>
+                    <td className="px-4 py-2 text-ink-muted dark:text-ink-light hidden md:table-cell text-xs">{p.scripture}</td>
                   </tr>
                 ))}
               </tbody>
@@ -525,17 +525,17 @@ export default function ShortPrayersPage() {
                   <span className="w-8 h-8 rounded-full bg-scripture text-white flex items-center justify-center text-sm font-bold shrink-0">{p.number}</span>
                   <h2 className="font-bold text-scripture dark:text-white text-sm">{p.title}</h2>
                 </div>
-                <span className="text-xs bg-blue-100 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300 px-2 py-0.5 rounded-full">{p.category}</span>
+                <span className="text-xs bg-sacred/10 dark:bg-sacred-light0/30 text-scripture dark:text-sacred px-2 py-0.5 rounded-full">{p.category}</span>
               </div>
               <div className="p-5">
-                <blockquote className="text-primary-dark/90 dark:text-primary-dark/30 leading-relaxed italic border-l-3 border-scripture/30 pl-4 mb-4">
+                <blockquote className="text-ink-muted dark:text-ink-light leading-relaxed italic border-l-3 border-scripture/30 pl-4 mb-4">
                   {p.prayer}
                 </blockquote>
-                <div className="bg-blue-50 dark:bg-blue-950/20 rounded-lg p-3 mb-3">
-                  <p className="text-xs font-bold text-blue-600 dark:text-blue-400 mb-1">Based on {p.scripture}</p>
-                  <p className="text-primary-dark/70 dark:text-primary-dark/40 text-xs italic">&ldquo;{p.scriptureText}&rdquo;</p>
+                <div className="bg-sacred-light dark:bg-sacred-light0/20 rounded-lg p-3 mb-3">
+                  <p className="text-xs font-bold text-sacred dark:text-sacred mb-1">Based on {p.scripture}</p>
+                  <p className="text-ink-muted dark:text-ink-light text-xs italic">&ldquo;{p.scriptureText}&rdquo;</p>
                 </div>
-                <p className="text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed"><strong>Why this prayer:</strong> {p.why}</p>
+                <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed"><strong>Why this prayer:</strong> {p.why}</p>
               </div>
             </section>
           ))}
@@ -543,13 +543,13 @@ export default function ShortPrayersPage() {
 
         {/* Gospel CTA */}
         <section className="mb-12">
-          <div className="bg-gradient-to-br from-scripture via-scripture/95 to-blue-950 rounded-xl p-8 md:p-10 text-center text-white">
+          <div className="bg-gradient-to-br from-scripture via-scripture/95 to-scripture/80 rounded-xl p-8 md:p-10 text-center text-white">
             <h2 className="text-2xl md:text-3xl font-bold font-display mb-4">Prayer #33 Is the One That Matters Most</h2>
-            <p className="text-blue-100/90 max-w-2xl mx-auto leading-relaxed mb-6">
+            <p className="text-sacred-light/90 max-w-2xl mx-auto leading-relaxed mb-6">
               Every other prayer on this list flows from prayer #33. If you&apos;ve never placed your trust in Jesus Christ, that&apos;s the prayer to start with. Everything changes when you go from praying <em>to</em> God to praying <em>as a child of</em> God.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <Link href="#prayer-33" className="inline-block bg-white text-scripture font-bold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors">
+              <Link href="#prayer-33" className="inline-block bg-white text-scripture font-bold px-6 py-3 rounded-lg hover:bg-sacred-light transition-colors">
                 Read Prayer #33
               </Link>
               <Link href="/john-3-16" className="inline-block border-2 border-white/40 text-white font-bold px-6 py-3 rounded-lg hover:bg-white/10 transition-colors">
@@ -562,17 +562,17 @@ export default function ShortPrayersPage() {
         {/* ACTS Prayer Model */}
         <section className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">The ACTS Prayer Model</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
             Not sure how to structure a prayer? The ACTS model gives you a simple framework that keeps prayer balanced and God-centered.
           </p>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm overflow-hidden">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-scripture/5 dark:bg-dark-border/30">
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Letter</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400">Element</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden sm:table-cell">What It Means</th>
-                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-blue-400 hidden md:table-cell">Example from This Page</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Letter</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred">Element</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden sm:table-cell">What It Means</th>
+                  <th className="px-4 py-3 text-left font-bold text-scripture dark:text-sacred hidden md:table-cell">Example from This Page</th>
                 </tr>
               </thead>
               <tbody>
@@ -583,10 +583,10 @@ export default function ShortPrayersPage() {
                   { letter: 'S', element: 'Supplication', meaning: 'Bring your requests — for yourself and others. Be specific.', example: 'Prayer #4 (Healing)' },
                 ].map((item) => (
                   <tr key={item.letter} className="border-t border-grace dark:border-dark-border">
-                    <td className="px-4 py-3 font-bold text-2xl text-scripture dark:text-blue-400">{item.letter}</td>
+                    <td className="px-4 py-3 font-bold text-2xl text-scripture dark:text-sacred">{item.letter}</td>
                     <td className="px-4 py-3 font-medium text-scripture dark:text-white">{item.element}</td>
-                    <td className="px-4 py-3 text-primary-dark/70 dark:text-primary-dark/40 hidden sm:table-cell">{item.meaning}</td>
-                    <td className="px-4 py-3 hidden md:table-cell"><a href={`#prayer-${item.letter === 'A' ? '30' : item.letter === 'C' ? '6' : item.letter === 'T' ? '8' : '4'}`} className="text-blue-600 hover:underline text-xs">{item.example}</a></td>
+                    <td className="px-4 py-3 text-ink-muted dark:text-ink-light hidden sm:table-cell">{item.meaning}</td>
+                    <td className="px-4 py-3 hidden md:table-cell"><a href={`#prayer-${item.letter === 'A' ? '30' : item.letter === 'C' ? '6' : item.letter === 'T' ? '8' : '4'}`} className="text-sacred hover:underline text-xs">{item.example}</a></td>
                   </tr>
                 ))}
               </tbody>
@@ -602,9 +602,9 @@ export default function ShortPrayersPage() {
               <details key={idx} className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border shadow-sm group">
                 <summary className="px-5 py-4 cursor-pointer font-bold text-scripture dark:text-white text-sm flex items-center justify-between list-none">
                   {item.question}
-                  <span className="text-primary-dark/30 group-open:rotate-45 transition-transform text-lg">+</span>
+                  <span className="text-ink-light group-open:rotate-45 transition-transform text-lg">+</span>
                 </summary>
-                <div className="px-5 pb-5 text-primary-dark/70 dark:text-primary-dark/40 text-sm leading-relaxed">
+                <div className="px-5 pb-5 text-ink-muted dark:text-ink-light text-sm leading-relaxed">
                   {item.answer}
                 </div>
               </details>
@@ -616,25 +616,25 @@ export default function ShortPrayersPage() {
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-6">Go Deeper</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/prayer" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm hover:border-blue-300 transition-colors group">
-              <p className="text-xs font-bold text-blue-600 uppercase tracking-wider mb-1">Complete Guide</p>
-              <h3 className="font-bold text-scripture dark:text-white group-hover:text-blue-600 transition-colors">What Is Prayer?</h3>
-              <p className="text-primary-dark/60 dark:text-primary-dark/40 text-sm mt-1">Types, Greek/Hebrew words, famous prayers, and how to build a prayer life.</p>
+            <Link href="/prayer" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm hover:border-sacred/50 transition-colors group">
+              <p className="text-xs font-bold text-sacred uppercase tracking-wider mb-1">Complete Guide</p>
+              <h3 className="font-bold text-scripture dark:text-white group-hover:text-gold-dark transition-colors">What Is Prayer?</h3>
+              <p className="text-ink-muted dark:text-ink-light text-sm mt-1">Types, Greek/Hebrew words, famous prayers, and how to build a prayer life.</p>
             </Link>
-            <Link href="/bible-verses#prayer" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm hover:border-blue-300 transition-colors group">
+            <Link href="/bible-verses#prayer" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm hover:border-sacred/50 transition-colors group">
               <p className="text-xs font-bold text-green-600 uppercase tracking-wider mb-1">Verse Collection</p>
-              <h3 className="font-bold text-scripture dark:text-white group-hover:text-blue-600 transition-colors">Bible Verses About Prayer</h3>
-              <p className="text-primary-dark/60 dark:text-primary-dark/40 text-sm mt-1">Every key verse on prayer with commentary.</p>
+              <h3 className="font-bold text-scripture dark:text-white group-hover:text-gold-dark transition-colors">Bible Verses About Prayer</h3>
+              <p className="text-ink-muted dark:text-ink-light text-sm mt-1">Every key verse on prayer with commentary.</p>
             </Link>
-            <Link href="/bible-topics/prayer" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm hover:border-blue-300 transition-colors group">
+            <Link href="/bible-topics/prayer" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm hover:border-sacred/50 transition-colors group">
               <p className="text-xs font-bold text-amber-600 uppercase tracking-wider mb-1">Topical Study</p>
-              <h3 className="font-bold text-scripture dark:text-white group-hover:text-blue-600 transition-colors">Prayer — All Bible References</h3>
-              <p className="text-primary-dark/60 dark:text-primary-dark/40 text-sm mt-1">Every mention of prayer across all 66 books.</p>
+              <h3 className="font-bold text-scripture dark:text-white group-hover:text-gold-dark transition-colors">Prayer — All Bible References</h3>
+              <p className="text-ink-muted dark:text-ink-light text-sm mt-1">Every mention of prayer across all 66 books.</p>
             </Link>
-            <Link href="/jesus-christ" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm hover:border-blue-300 transition-colors group">
+            <Link href="/jesus-christ" className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-5 shadow-sm hover:border-sacred/50 transition-colors group">
               <p className="text-xs font-bold text-indigo-600 uppercase tracking-wider mb-1">Pillar Study</p>
-              <h3 className="font-bold text-scripture dark:text-white group-hover:text-blue-600 transition-colors">Who Is Jesus Christ?</h3>
-              <p className="text-primary-dark/60 dark:text-primary-dark/40 text-sm mt-1">The one who taught us to pray — and who prays for us now.</p>
+              <h3 className="font-bold text-scripture dark:text-white group-hover:text-gold-dark transition-colors">Who Is Jesus Christ?</h3>
+              <p className="text-ink-muted dark:text-ink-light text-sm mt-1">The one who taught us to pray — and who prays for us now.</p>
             </Link>
           </div>
         </section>
@@ -643,22 +643,22 @@ export default function ShortPrayersPage() {
         <section className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">Continue Your Study</h2>
           <div className="grid gap-2 sm:grid-cols-2 md:grid-cols-3">
-            <Link href="/prayer" className="text-blue-600 hover:underline text-sm">What Is Prayer? Complete Guide</Link>
-            <Link href="/bible-verses" className="text-blue-600 hover:underline text-sm">100+ Bible Verses by Topic</Link>
-            <Link href="/bible-verses#prayer" className="text-blue-600 hover:underline text-sm">Bible Verses About Prayer</Link>
-            <Link href="/bible-verses#anxiety" className="text-blue-600 hover:underline text-sm">Bible Verses About Anxiety</Link>
-            <Link href="/bible-verses#strength" className="text-blue-600 hover:underline text-sm">Bible Verses About Strength</Link>
-            <Link href="/bible-verses#peace" className="text-blue-600 hover:underline text-sm">Bible Verses About Peace</Link>
-            <Link href="/john-3-16" className="text-blue-600 hover:underline text-sm">John 3:16 Explained</Link>
-            <Link href="/jesus-christ" className="text-blue-600 hover:underline text-sm">Who Is Jesus Christ?</Link>
-            <Link href="/psalm-23" className="text-blue-600 hover:underline text-sm">Psalm 23 Study</Link>
-            <Link href="/philippians-4-13" className="text-blue-600 hover:underline text-sm">Philippians 4:13 Study</Link>
-            <Link href="/bible-topics/prayer" className="text-blue-600 hover:underline text-sm">Topical Study: Prayer</Link>
-            <Link href="/bible-topics/forgiveness" className="text-blue-600 hover:underline text-sm">Topical Study: Forgiveness</Link>
-            <Link href="/greek-word/proseuche" className="text-blue-600 hover:underline text-sm">Greek: Proseuche (Prayer)</Link>
-            <Link href="/characters/elijah" className="text-blue-600 hover:underline text-sm">Elijah — Character Study</Link>
-            <Link href="/characters/daniel" className="text-blue-600 hover:underline text-sm">Daniel — Character Study</Link>
-            <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">All Bible Quizzes</Link>
+            <Link href="/prayer" className="text-sacred hover:underline text-sm">What Is Prayer? Complete Guide</Link>
+            <Link href="/bible-verses" className="text-sacred hover:underline text-sm">100+ Bible Verses by Topic</Link>
+            <Link href="/bible-verses#prayer" className="text-sacred hover:underline text-sm">Bible Verses About Prayer</Link>
+            <Link href="/bible-verses#anxiety" className="text-sacred hover:underline text-sm">Bible Verses About Anxiety</Link>
+            <Link href="/bible-verses#strength" className="text-sacred hover:underline text-sm">Bible Verses About Strength</Link>
+            <Link href="/bible-verses#peace" className="text-sacred hover:underline text-sm">Bible Verses About Peace</Link>
+            <Link href="/john-3-16" className="text-sacred hover:underline text-sm">John 3:16 Explained</Link>
+            <Link href="/jesus-christ" className="text-sacred hover:underline text-sm">Who Is Jesus Christ?</Link>
+            <Link href="/psalm-23" className="text-sacred hover:underline text-sm">Psalm 23 Study</Link>
+            <Link href="/philippians-4-13" className="text-sacred hover:underline text-sm">Philippians 4:13 Study</Link>
+            <Link href="/bible-topics/prayer" className="text-sacred hover:underline text-sm">Topical Study: Prayer</Link>
+            <Link href="/bible-topics/forgiveness" className="text-sacred hover:underline text-sm">Topical Study: Forgiveness</Link>
+            <Link href="/greek-word/proseuche" className="text-sacred hover:underline text-sm">Greek: Proseuche (Prayer)</Link>
+            <Link href="/characters/elijah" className="text-sacred hover:underline text-sm">Elijah — Character Study</Link>
+            <Link href="/characters/daniel" className="text-sacred hover:underline text-sm">Daniel — Character Study</Link>
+            <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">All Bible Quizzes</Link>
           </div>
         </section>
 

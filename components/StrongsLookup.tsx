@@ -38,7 +38,7 @@ export default function StrongsLookup({ initialQuery = '' }: StrongsLookupProps)
       <h2 className="text-xl font-bold text-scripture mb-4">
         Strong&apos;s Concordance Lookup
       </h2>
-      <p className="text-sm text-primary-dark/70 mb-4">
+      <p className="text-sm text-ink-muted mb-4">
         Enter a Strong&apos;s number (H157, G25), Hebrew/Greek word, or English word
       </p>
 
@@ -48,12 +48,12 @@ export default function StrongsLookup({ initialQuery = '' }: StrongsLookupProps)
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="e.g., H157, G25, love, agape"
-          className="flex-1 px-4 py-2 border border-grace rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"
+          className="flex-1 px-4 py-2 border border-grace rounded-lg focus:ring-2 focus:ring-sacred focus:border-sacred outline-none"
         />
         <button
           type="submit"
           disabled={loading}
-          className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:bg-primary-dark/40 transition-colors"
+          className="px-6 py-2 bg-scripture text-white rounded-lg hover:bg-ink-muted disabled:bg-scripture/40 transition-colors"
         >
           {loading ? 'Searching...' : 'Search'}
         </button>
@@ -66,7 +66,7 @@ export default function StrongsLookup({ initialQuery = '' }: StrongsLookupProps)
       )}
 
       {searched && !loading && results.length === 0 && !error && (
-        <div className="p-4 bg-primary-light/30 border border-grace rounded-lg text-primary-dark/70">
+        <div className="p-4 bg-primary-light/30 border border-grace rounded-lg text-ink-muted">
           No definitions found for &quot;{query}&quot;
         </div>
       )}
@@ -76,23 +76,23 @@ export default function StrongsLookup({ initialQuery = '' }: StrongsLookupProps)
           {results.map((entry, index) => (
             <div 
               key={`${entry.topic}-${index}`}
-              className="p-4 border border-grace rounded-lg hover:border-blue-200 transition-colors"
+              className="p-4 border border-grace rounded-lg hover:border-sacred/50 transition-colors"
             >
               <div className="flex items-start justify-between mb-2">
                 <div>
-                  <span className="inline-block px-2 py-1 bg-blue-100 text-blue-700 text-sm font-mono rounded mr-2">
+                  <span className="inline-block px-2 py-1 bg-sacred/10 text-scripture text-sm font-mono rounded mr-2">
                     {entry.topic}
                   </span>
                   <span className="text-2xl">{entry.lexeme}</span>
                 </div>
                 {entry.weight > 0 && (
-                  <span className="text-xs text-primary-dark/40">
+                  <span className="text-xs text-ink-light">
                     {Math.round(entry.weight * 100)}% match
                   </span>
                 )}
               </div>
 
-              <div className="grid grid-cols-2 gap-2 text-sm text-primary-dark/70 mb-3">
+              <div className="grid grid-cols-2 gap-2 text-sm text-ink-muted mb-3">
                 <div>
                   <span className="font-medium">Transliteration:</span>{' '}
                   {entry.transliteration}
@@ -103,17 +103,17 @@ export default function StrongsLookup({ initialQuery = '' }: StrongsLookupProps)
                 </div>
               </div>
 
-              <div className="text-sm text-primary-dark/80 mb-2">
+              <div className="text-sm text-scripture mb-2">
                 <span className="font-medium">Short definition:</span>{' '}
                 {entry.short_definition}
               </div>
 
               <details className="mt-2">
-                <summary className="text-sm text-blue-600 cursor-pointer hover:underline">
+                <summary className="text-sm text-sacred cursor-pointer hover:underline">
                   Full definition
                 </summary>
                 <div 
-                  className="mt-2 text-sm text-primary-dark/80 prose prose-sm max-w-none"
+                  className="mt-2 text-sm text-scripture prose prose-sm max-w-none"
                   dangerouslySetInnerHTML={{ __html: entry.definition }}
                 />
               </details>

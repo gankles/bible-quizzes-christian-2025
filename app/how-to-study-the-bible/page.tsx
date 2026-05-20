@@ -113,8 +113,8 @@ export default function HowToStudyTheBiblePage() {
       <StructuredData data={faqSchema} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
-        <Link href="/" className="hover:text-blue-600">Home</Link>
+      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-ink-muted">
+        <Link href="/" className="hover:text-gold-dark">Home</Link>
         <span className="mx-1.5">/</span>
         <span className="text-scripture font-medium">How to Study the Bible</span>
       </nav>
@@ -136,7 +136,7 @@ export default function HowToStudyTheBiblePage() {
             <h1 className="text-3xl md:text-4xl font-bold font-display mb-4 text-scripture">
               How to Study the Bible: 7 Proven Methods for Deeper Understanding
             </h1>
-            <p className="text-lg text-primary-dark/70 max-w-3xl mb-4">
+            <p className="text-lg text-ink-muted max-w-3xl mb-4">
               Whether you are opening the Scriptures for the first time or you have been a student
               of the Word for decades, having a clear method transforms Bible reading from a passive
               activity into an encounter with the living God. This guide covers seven time-tested
@@ -144,22 +144,22 @@ export default function HowToStudyTheBiblePage() {
             </p>
             <Link
               href="/bible-quizzes"
-              className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md w-fit mb-6"
+              className="inline-flex items-center px-6 py-3 bg-white text-scripture font-bold rounded-lg hover:bg-sacred-light transition-colors shadow-md w-fit mb-6"
             >
               Put Your Study to the Test — Take a Quiz
             </Link>
             <div className="flex flex-wrap gap-6 text-center mb-6">
               <div>
                 <p className="text-3xl font-bold text-scripture">7</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Study Methods</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Study Methods</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-scripture">5</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Free Tools</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Free Tools</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-scripture">3,000+</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Words of Guidance</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Words of Guidance</p>
               </div>
             </div>
           </div>
@@ -172,43 +172,43 @@ export default function HowToStudyTheBiblePage() {
           <h2 className="text-lg font-bold text-scripture mb-3">Table of Contents</h2>
           <ol className="space-y-1.5 text-sm">
             <li>
-              <a href="#why-study" className="text-blue-600 hover:underline">1. Why Study the Bible?</a>
+              <a href="#why-study" className="text-sacred hover:underline">1. Why Study the Bible?</a>
             </li>
             <li>
-              <a href="#preparing" className="text-blue-600 hover:underline">2. Preparing for Bible Study</a>
+              <a href="#preparing" className="text-sacred hover:underline">2. Preparing for Bible Study</a>
             </li>
             <li>
-              <a href="#method-oia" className="text-blue-600 hover:underline">3. Method 1: Observation-Interpretation-Application (OIA)</a>
+              <a href="#method-oia" className="text-sacred hover:underline">3. Method 1: Observation-Interpretation-Application (OIA)</a>
             </li>
             <li>
-              <a href="#method-soap" className="text-blue-600 hover:underline">4. Method 2: SOAP Journaling</a>
+              <a href="#method-soap" className="text-sacred hover:underline">4. Method 2: SOAP Journaling</a>
             </li>
             <li>
-              <a href="#method-verse-mapping" className="text-blue-600 hover:underline">5. Method 3: Verse Mapping</a>
+              <a href="#method-verse-mapping" className="text-sacred hover:underline">5. Method 3: Verse Mapping</a>
             </li>
             <li>
-              <a href="#method-topical" className="text-blue-600 hover:underline">6. Method 4: Topical Study</a>
+              <a href="#method-topical" className="text-sacred hover:underline">6. Method 4: Topical Study</a>
             </li>
             <li>
-              <a href="#method-character" className="text-blue-600 hover:underline">7. Method 5: Character Study</a>
+              <a href="#method-character" className="text-sacred hover:underline">7. Method 5: Character Study</a>
             </li>
             <li>
-              <a href="#method-word" className="text-blue-600 hover:underline">8. Method 6: Word Study</a>
+              <a href="#method-word" className="text-sacred hover:underline">8. Method 6: Word Study</a>
             </li>
             <li>
-              <a href="#method-chapter" className="text-blue-600 hover:underline">9. Method 7: Chapter Analysis</a>
+              <a href="#method-chapter" className="text-sacred hover:underline">9. Method 7: Chapter Analysis</a>
             </li>
             <li>
-              <a href="#tools" className="text-blue-600 hover:underline">10. Tools for Bible Study</a>
+              <a href="#tools" className="text-sacred hover:underline">10. Tools for Bible Study</a>
             </li>
             <li>
-              <a href="#schedule" className="text-blue-600 hover:underline">11. Creating a Bible Study Schedule</a>
+              <a href="#schedule" className="text-sacred hover:underline">11. Creating a Bible Study Schedule</a>
             </li>
             <li>
-              <a href="#further" className="text-blue-600 hover:underline">12. Taking What You Learn Further</a>
+              <a href="#further" className="text-sacred hover:underline">12. Taking What You Learn Further</a>
             </li>
             <li>
-              <a href="#faq" className="text-blue-600 hover:underline">13. Frequently Asked Questions</a>
+              <a href="#faq" className="text-sacred hover:underline">13. Frequently Asked Questions</a>
             </li>
           </ol>
         </div>
@@ -222,7 +222,7 @@ export default function HowToStudyTheBiblePage() {
           <h2 className="text-2xl font-bold font-display text-scripture mb-4 border-b border-grace pb-2">
             1. Why Study the Bible?
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-4">
+          <p className="text-scripture leading-relaxed mb-4">
             The Bible is not merely a book of history or moral instruction. It is the inspired Word of God,
             given to reveal His character, His plan of redemption, and His will for the lives of His people.
             In 2 Timothy 3:16-17, Paul writes: &ldquo;All scripture is given by inspiration of God, and is
@@ -231,26 +231,26 @@ export default function HowToStudyTheBiblePage() {
             the primary means by which believers grow in faith, discern truth from error, and equip themselves
             for every good work.
           </p>
-          <p className="text-primary-dark/80 leading-relaxed mb-4">
+          <p className="text-scripture leading-relaxed mb-4">
             Beyond personal edification, Bible study strengthens the church. When individual believers understand
             doctrine, they are less susceptible to false teaching (Ephesians 4:14). When families study together,
             they fulfill the command of Deuteronomy 6:6-7 to teach God&apos;s words diligently to their children.
             When pastors and teachers dig deep into the original languages and historical context, their preaching
             becomes richer and more faithful to the text.
           </p>
-          <p className="text-primary-dark/80 leading-relaxed mb-4">
+          <p className="text-scripture leading-relaxed mb-4">
             The Psalmist declared, &ldquo;Thy word is a lamp unto my feet, and a light unto my path&rdquo;
             (Psalm 119:105). In a world filled with competing philosophies and shifting cultural norms, the Bible
             provides an unchanging standard. Studying it is not an academic exercise alone -- it is the means by
             which we hear from God, know God, and walk in obedience to God.
           </p>
-          <p className="text-primary-dark/80 leading-relaxed mb-4">
+          <p className="text-scripture leading-relaxed mb-4">
             Joshua 1:8 offers a powerful promise: &ldquo;This book of the law shall not depart out of thy mouth;
             but thou shalt meditate therein day and night, that thou mayest observe to do according to all that is
             written therein: for then thou shalt make thy way prosperous, and then thou shalt have good success.&rdquo;
             God ties spiritual prosperity and success directly to the diligent study and meditation upon His Word.
           </p>
-          <p className="text-primary-dark/80 leading-relaxed">
+          <p className="text-scripture leading-relaxed">
             Whether you are a new believer seeking foundational truth or a seasoned student of Scripture
             pursuing deeper insight, the seven methods outlined below will give you a structured, repeatable
             approach to getting more from every passage you study.
@@ -262,14 +262,14 @@ export default function HowToStudyTheBiblePage() {
           <h2 className="text-2xl font-bold font-display text-scripture mb-4 border-b border-grace pb-2">
             2. Preparing for Bible Study
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-4">
+          <p className="text-scripture leading-relaxed mb-4">
             Before diving into any method, preparation sets the foundation for fruitful study. The following
             practices apply to every approach described in this guide.
           </p>
           <div className="space-y-4">
             <div className="bg-white border border-grace rounded-lg p-5">
               <h3 className="font-semibold text-scripture mb-2">Begin with Prayer</h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Ask the Holy Spirit for illumination. First Corinthians 2:14 teaches that the natural man
                 does not receive the things of the Spirit of God. Approach every study session asking God
                 to open your eyes to behold wondrous things out of His law (Psalm 119:18).
@@ -277,7 +277,7 @@ export default function HowToStudyTheBiblePage() {
             </div>
             <div className="bg-white border border-grace rounded-lg p-5">
               <h3 className="font-semibold text-scripture mb-2">Choose a Quiet, Consistent Location</h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Jesus often withdrew to solitary places to pray and commune with the Father (Luke 5:16).
                 A dedicated study space -- free from distractions -- signals to your mind and heart that
                 this time is set apart.
@@ -285,7 +285,7 @@ export default function HowToStudyTheBiblePage() {
             </div>
             <div className="bg-white border border-grace rounded-lg p-5">
               <h3 className="font-semibold text-scripture mb-2">Gather Your Tools</h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 At minimum, you need a Bible and a notebook. For deeper study, prepare access to a
                 concordance, a Hebrew and Greek lexicon, cross-references, and a topical index. All of
                 these tools are available for free on Bible Maximum.
@@ -293,7 +293,7 @@ export default function HowToStudyTheBiblePage() {
             </div>
             <div className="bg-white border border-grace rounded-lg p-5">
               <h3 className="font-semibold text-scripture mb-2">Set a Realistic Time</h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Fifteen minutes of focused, methodical study produces more fruit than an hour of
                 unfocused reading. Start where you are and build from there. Consistency over weeks
                 and months matters far more than occasional long sessions.
@@ -307,7 +307,7 @@ export default function HowToStudyTheBiblePage() {
           <h2 className="text-2xl font-bold font-display text-scripture mb-4 border-b border-grace pb-2">
             3. Method 1: Observation-Interpretation-Application (OIA)
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-4">
+          <p className="text-scripture leading-relaxed mb-4">
             The OIA method -- also called the inductive Bible study method -- is the foundation upon which
             nearly all other methods build. It originated from the work of scholars like Howard Hendricks
             and has been used in seminaries and small groups for decades. It asks three sequential questions
@@ -316,13 +316,13 @@ export default function HowToStudyTheBiblePage() {
           <div className="space-y-4 mb-6">
             <div className="bg-white border border-grace rounded-lg p-5">
               <h3 className="font-semibold text-scripture mb-2">Step 1: Observation -- What Does It Say?</h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed mb-3">
+              <p className="text-sm text-ink-muted leading-relaxed mb-3">
                 Read the passage carefully, multiple times if necessary. Note who is speaking, who is the
                 audience, what actions are described, when and where events take place, and any repeated
                 words or phrases. Look for conjunctions (therefore, but, because) that signal logical
                 connections. Write down every observation without jumping to interpretation.
               </p>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 For example, in Philippians 4:6-7, observation notes might include: the command is
                 negative (&ldquo;be careful for nothing&rdquo;), followed by a positive command
                 (&ldquo;in every thing by prayer and supplication with thanksgiving let your requests
@@ -331,23 +331,23 @@ export default function HowToStudyTheBiblePage() {
             </div>
             <div className="bg-white border border-grace rounded-lg p-5">
               <h3 className="font-semibold text-scripture mb-2">Step 2: Interpretation -- What Does It Mean?</h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed mb-3">
+              <p className="text-sm text-ink-muted leading-relaxed mb-3">
                 Now examine the historical, cultural, and literary context. What did this passage mean
                 to its original audience? How does it fit within the larger argument of the book? Are there
                 cross-references that illuminate the meaning? What do the key words mean in the original
                 Hebrew or Greek?
               </p>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Use the{' '}
-                <Link href="/lexicon" className="text-blue-600 hover:underline">Hebrew and Greek Lexicon</Link>{' '}
+                <Link href="/lexicon" className="text-sacred hover:underline">Hebrew and Greek Lexicon</Link>{' '}
                 to examine original-language definitions, and the{' '}
-                <Link href="/cross-references" className="text-blue-600 hover:underline">Cross-Reference tool</Link>{' '}
+                <Link href="/cross-references" className="text-sacred hover:underline">Cross-Reference tool</Link>{' '}
                 to see how the same themes appear elsewhere in Scripture.
               </p>
             </div>
             <div className="bg-white border border-grace rounded-lg p-5">
               <h3 className="font-semibold text-scripture mb-2">Step 3: Application -- How Does It Apply to My Life?</h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 The final step bridges the gap between ancient text and present-day obedience. Is there
                 a command to obey? A sin to confess? A promise to claim? A truth to believe? Application
                 should be specific and personal. Rather than writing &ldquo;I should pray more,&rdquo;
@@ -356,7 +356,7 @@ export default function HowToStudyTheBiblePage() {
               </p>
             </div>
           </div>
-          <p className="text-primary-dark/80 leading-relaxed">
+          <p className="text-scripture leading-relaxed">
             The strength of the OIA method lies in its discipline: it forces the student to slow down,
             observe carefully, and interpret faithfully before rushing to application. This prevents
             the common error of reading personal meaning into the text rather than drawing meaning out of it.
@@ -368,7 +368,7 @@ export default function HowToStudyTheBiblePage() {
           <h2 className="text-2xl font-bold font-display text-scripture mb-4 border-b border-grace pb-2">
             4. Method 2: SOAP Journaling
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-4">
+          <p className="text-scripture leading-relaxed mb-4">
             SOAP stands for Scripture, Observation, Application, and Prayer. It is a simplified,
             journal-based approach that works especially well for daily devotional study. Many believers
             find that the act of handwriting their thoughts deepens retention and personal engagement
@@ -377,7 +377,7 @@ export default function HowToStudyTheBiblePage() {
           <div className="space-y-4 mb-6">
             <div className="bg-white border border-grace rounded-lg p-5">
               <h3 className="font-semibold text-scripture mb-2">S -- Scripture</h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Write out the passage you are studying. Copying Scripture by hand slows the reader
                 down and often reveals details that a quick reading misses. Even writing out a single
                 verse forces attention to every word.
@@ -385,7 +385,7 @@ export default function HowToStudyTheBiblePage() {
             </div>
             <div className="bg-white border border-grace rounded-lg p-5">
               <h3 className="font-semibold text-scripture mb-2">O -- Observation</h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 What stands out? What is the main point? Are there repeated words, contrasts,
                 comparisons, or lists? Who are the characters? What is the setting? Record your
                 observations in your own words.
@@ -393,7 +393,7 @@ export default function HowToStudyTheBiblePage() {
             </div>
             <div className="bg-white border border-grace rounded-lg p-5">
               <h3 className="font-semibold text-scripture mb-2">A -- Application</h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 How does this passage apply to your current circumstances? What is God saying to you
                 through this text today? Write a specific, actionable response. The goal is to move
                 from head knowledge to heart transformation and obedient living.
@@ -401,7 +401,7 @@ export default function HowToStudyTheBiblePage() {
             </div>
             <div className="bg-white border border-grace rounded-lg p-5">
               <h3 className="font-semibold text-scripture mb-2">P -- Prayer</h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Close your study by writing a prayer that responds to what you have read. Thank God
                 for the truth revealed. Confess where you have fallen short. Ask for grace to obey.
                 This step turns study into worship and ensures the Word does not remain merely
@@ -409,9 +409,9 @@ export default function HowToStudyTheBiblePage() {
               </p>
             </div>
           </div>
-          <p className="text-primary-dark/80 leading-relaxed">
+          <p className="text-scripture leading-relaxed">
             SOAP is particularly effective when paired with a{' '}
-            <Link href="/reading-plans" className="text-blue-600 hover:underline">daily reading plan</Link>.
+            <Link href="/reading-plans" className="text-sacred hover:underline">daily reading plan</Link>.
             The reading plan provides structure and ensures you move through books of the Bible
             systematically, while the SOAP journal provides depth and personal engagement with
             each day&apos;s reading.
@@ -423,7 +423,7 @@ export default function HowToStudyTheBiblePage() {
           <h2 className="text-2xl font-bold font-display text-scripture mb-4 border-b border-grace pb-2">
             5. Method 3: Verse Mapping
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-4">
+          <p className="text-scripture leading-relaxed mb-4">
             Verse mapping is a focused technique for deeply studying a single verse or short passage. It
             combines elements of word study, cross-referencing, and contextual analysis into a visual
             format. This method is ideal for key memory verses, doctrinal statements, or passages you
@@ -431,40 +431,40 @@ export default function HowToStudyTheBiblePage() {
           </p>
           <div className="bg-white border border-grace rounded-lg p-5 mb-4">
             <h3 className="font-semibold text-scripture mb-3">How to Map a Verse</h3>
-            <ol className="space-y-2 text-sm text-primary-dark/70 leading-relaxed list-decimal list-inside">
+            <ol className="space-y-2 text-sm text-ink-muted leading-relaxed list-decimal list-inside">
               <li>
-                <strong className="text-primary-dark/80">Write the verse</strong> in your primary translation, then compare it
+                <strong className="text-scripture">Write the verse</strong> in your primary translation, then compare it
                 in two or three additional translations to notice differences in wording.
               </li>
               <li>
-                <strong className="text-primary-dark/80">Identify key words</strong> and look up their original Hebrew or Greek
+                <strong className="text-scripture">Identify key words</strong> and look up their original Hebrew or Greek
                 definitions using a{' '}
-                <Link href="/lexicon" className="text-blue-600 hover:underline">lexicon</Link>.
+                <Link href="/lexicon" className="text-sacred hover:underline">lexicon</Link>.
                 Note the range of meaning, cognate words, and how the same word is translated elsewhere.
               </li>
               <li>
-                <strong className="text-primary-dark/80">Examine the context</strong> -- read the surrounding chapter to understand
+                <strong className="text-scripture">Examine the context</strong> -- read the surrounding chapter to understand
                 the argument or narrative flow. Use the{' '}
-                <Link href="/interlinear" className="text-blue-600 hover:underline">interlinear Bible</Link>{' '}
+                <Link href="/interlinear" className="text-sacred hover:underline">interlinear Bible</Link>{' '}
                 to see the original-language word order.
               </li>
               <li>
-                <strong className="text-primary-dark/80">Find cross-references</strong> that use the same key words or address
+                <strong className="text-scripture">Find cross-references</strong> that use the same key words or address
                 the same theme. The{' '}
-                <Link href="/cross-references" className="text-blue-600 hover:underline">Cross-Reference tool</Link>{' '}
+                <Link href="/cross-references" className="text-sacred hover:underline">Cross-Reference tool</Link>{' '}
                 makes this step efficient.
               </li>
               <li>
-                <strong className="text-primary-dark/80">Summarize your findings</strong> in one or two sentences that capture
+                <strong className="text-scripture">Summarize your findings</strong> in one or two sentences that capture
                 the full meaning of the verse in light of all your research.
               </li>
               <li>
-                <strong className="text-primary-dark/80">Write a personal application</strong> based on the enriched understanding
+                <strong className="text-scripture">Write a personal application</strong> based on the enriched understanding
                 you have gained.
               </li>
             </ol>
           </div>
-          <p className="text-primary-dark/80 leading-relaxed">
+          <p className="text-scripture leading-relaxed">
             Verse mapping requires more time per passage than other methods, but the depth of understanding
             it produces is unmatched. Many students create verse map journals that become personal reference
             resources they return to for years.
@@ -476,7 +476,7 @@ export default function HowToStudyTheBiblePage() {
           <h2 className="text-2xl font-bold font-display text-scripture mb-4 border-b border-grace pb-2">
             6. Method 4: Topical Study
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-4">
+          <p className="text-scripture leading-relaxed mb-4">
             A topical study traces a single theme, doctrine, or subject across the entire Bible. This method
             reveals the progressive revelation of truth -- how God unfolds a concept from Genesis through
             Revelation. Topics might include prayer, faith, the sovereignty of God, the blood atonement,
@@ -484,34 +484,34 @@ export default function HowToStudyTheBiblePage() {
           </p>
           <div className="bg-white border border-grace rounded-lg p-5 mb-4">
             <h3 className="font-semibold text-scripture mb-3">Steps for a Topical Study</h3>
-            <ol className="space-y-2 text-sm text-primary-dark/70 leading-relaxed list-decimal list-inside">
+            <ol className="space-y-2 text-sm text-ink-muted leading-relaxed list-decimal list-inside">
               <li>
-                <strong className="text-primary-dark/80">Select a topic</strong> and gather all relevant verses. Bible Maximum&apos;s{' '}
-                <Link href="/topics" className="text-blue-600 hover:underline">Bible Verses by Topic</Link>{' '}
+                <strong className="text-scripture">Select a topic</strong> and gather all relevant verses. Bible Maximum&apos;s{' '}
+                <Link href="/topics" className="text-sacred hover:underline">Bible Verses by Topic</Link>{' '}
                 page is an excellent starting point, collecting verses organized by subject.
               </li>
               <li>
-                <strong className="text-primary-dark/80">Read each verse in context.</strong> A verse about faith in Hebrews 11
+                <strong className="text-scripture">Read each verse in context.</strong> A verse about faith in Hebrews 11
                 has a different contextual emphasis than one in James 2. Understanding context prevents
                 proof-texting -- the error of pulling verses out of their setting to support a
                 predetermined conclusion.
               </li>
               <li>
-                <strong className="text-primary-dark/80">Organize your findings</strong> by testament, by book, or by subtopic.
+                <strong className="text-scripture">Organize your findings</strong> by testament, by book, or by subtopic.
                 Look for patterns: does the Old Testament introduce a concept that the New Testament
                 fulfills? Are there tensions between passages that require careful theological synthesis?
               </li>
               <li>
-                <strong className="text-primary-dark/80">Write a summary statement</strong> that captures what the whole Bible
+                <strong className="text-scripture">Write a summary statement</strong> that captures what the whole Bible
                 teaches about this topic. Support it with the key verses you have studied.
               </li>
               <li>
-                <strong className="text-primary-dark/80">Identify application points.</strong> How should this biblical truth
+                <strong className="text-scripture">Identify application points.</strong> How should this biblical truth
                 change the way you think, pray, and live?
               </li>
             </ol>
           </div>
-          <p className="text-primary-dark/80 leading-relaxed">
+          <p className="text-scripture leading-relaxed">
             Topical studies build theological literacy and help believers give a reason for the hope
             that is in them (1 Peter 3:15). They are also excellent for preparing Sunday school lessons,
             small group discussions, or personal doctrinal convictions.
@@ -519,16 +519,16 @@ export default function HowToStudyTheBiblePage() {
         </section>
 
         {/* Mid-Content CTA */}
-        <section className="mb-12 bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-6 md:p-8 text-white">
+        <section className="mb-12 bg-gradient-to-r from-scripture to-scripture/80 rounded-xl p-6 md:p-8 text-white">
           <h2 className="text-xl md:text-2xl font-display font-bold mb-2">
             Ready to Test What You Have Learned?
           </h2>
-          <p className="text-blue-100 mb-4 max-w-2xl">
+          <p className="text-sacred-light mb-4 max-w-2xl">
             Bible Maximum offers chapter-by-chapter quizzes for every book of the Bible with 4 difficulty levels. Put your study methods into practice.
           </p>
           <Link
             href="/bible-quizzes"
-            className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md"
+            className="inline-flex items-center px-6 py-3 bg-white text-scripture font-bold rounded-lg hover:bg-sacred-light transition-colors shadow-md"
           >
             Start a Bible Quiz Now
           </Link>
@@ -539,7 +539,7 @@ export default function HowToStudyTheBiblePage() {
           <h2 className="text-2xl font-bold font-display text-scripture mb-4 border-b border-grace pb-2">
             7. Method 5: Character Study
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-4">
+          <p className="text-scripture leading-relaxed mb-4">
             The Bible is filled with real people whose lives illustrate spiritual principles. A character
             study examines one biblical figure in depth -- their background, calling, strengths, failures,
             relationships, and legacy. Romans 15:4 tells us that &ldquo;whatsoever things were written
@@ -548,34 +548,34 @@ export default function HowToStudyTheBiblePage() {
           </p>
           <div className="bg-white border border-grace rounded-lg p-5 mb-4">
             <h3 className="font-semibold text-scripture mb-3">Character Study Framework</h3>
-            <ol className="space-y-2 text-sm text-primary-dark/70 leading-relaxed list-decimal list-inside">
+            <ol className="space-y-2 text-sm text-ink-muted leading-relaxed list-decimal list-inside">
               <li>
-                <strong className="text-primary-dark/80">Choose a character</strong> and read every passage where they appear.
+                <strong className="text-scripture">Choose a character</strong> and read every passage where they appear.
                 Bible Maximum&apos;s{' '}
-                <Link href="/people" className="text-blue-600 hover:underline">Bible People directory</Link>{' '}
+                <Link href="/people" className="text-sacred hover:underline">Bible People directory</Link>{' '}
                 provides a comprehensive list with verse references for each figure.
               </li>
               <li>
-                <strong className="text-primary-dark/80">Record biographical facts:</strong> name meaning, family, birthplace,
+                <strong className="text-scripture">Record biographical facts:</strong> name meaning, family, birthplace,
                 occupation, time period, and key events.
               </li>
               <li>
-                <strong className="text-primary-dark/80">Analyze their character:</strong> What were their defining virtues?
+                <strong className="text-scripture">Analyze their character:</strong> What were their defining virtues?
                 What were their weaknesses? How did they respond to trials, temptation, and divine
                 instruction?
               </li>
               <li>
-                <strong className="text-primary-dark/80">Note their relationship with God.</strong> How did they pray? When did
+                <strong className="text-scripture">Note their relationship with God.</strong> How did they pray? When did
                 they obey or disobey? How did God discipline or bless them?
               </li>
               <li>
-                <strong className="text-primary-dark/80">Draw spiritual lessons.</strong> What does this person&apos;s life teach
+                <strong className="text-scripture">Draw spiritual lessons.</strong> What does this person&apos;s life teach
                 about faithfulness, repentance, leadership, or trust in God? How can you learn from both
                 their victories and their failures?
               </li>
             </ol>
           </div>
-          <p className="text-primary-dark/80 leading-relaxed">
+          <p className="text-scripture leading-relaxed">
             Character studies bring the Bible to life. They remind us that Scripture records real history
             about real people who faced real choices -- and that the same God who worked in their lives
             is at work in ours.
@@ -587,7 +587,7 @@ export default function HowToStudyTheBiblePage() {
           <h2 className="text-2xl font-bold font-display text-scripture mb-4 border-b border-grace pb-2">
             8. Method 6: Word Study
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-4">
+          <p className="text-scripture leading-relaxed mb-4">
             A word study zeroes in on a single Hebrew or Greek word to uncover its full range of meaning.
             English translations necessarily compress the semantic range of the original languages. A word
             study restores that richness. For example, the English word &ldquo;love&rdquo; translates
@@ -597,32 +597,32 @@ export default function HowToStudyTheBiblePage() {
           </p>
           <div className="bg-white border border-grace rounded-lg p-5 mb-4">
             <h3 className="font-semibold text-scripture mb-3">How to Conduct a Word Study</h3>
-            <ol className="space-y-2 text-sm text-primary-dark/70 leading-relaxed list-decimal list-inside">
+            <ol className="space-y-2 text-sm text-ink-muted leading-relaxed list-decimal list-inside">
               <li>
-                <strong className="text-primary-dark/80">Identify the word</strong> in a specific verse. Use the{' '}
-                <Link href="/interlinear" className="text-blue-600 hover:underline">Interlinear Bible</Link>{' '}
+                <strong className="text-scripture">Identify the word</strong> in a specific verse. Use the{' '}
+                <Link href="/interlinear" className="text-sacred hover:underline">Interlinear Bible</Link>{' '}
                 to find the underlying Hebrew or Greek term and its Strong&apos;s number.
               </li>
               <li>
-                <strong className="text-primary-dark/80">Look up the definition</strong> in the{' '}
-                <Link href="/lexicon" className="text-blue-600 hover:underline">Hebrew and Greek Lexicon</Link>.
+                <strong className="text-scripture">Look up the definition</strong> in the{' '}
+                <Link href="/lexicon" className="text-sacred hover:underline">Hebrew and Greek Lexicon</Link>.
                 Note the root, the range of meanings, and any related words from the same root.
               </li>
               <li>
-                <strong className="text-primary-dark/80">Survey every occurrence</strong> of this word in the Bible. How is it
+                <strong className="text-scripture">Survey every occurrence</strong> of this word in the Bible. How is it
                 used in different contexts? Does it carry different nuances in different books?
               </li>
               <li>
-                <strong className="text-primary-dark/80">Compare translations.</strong> How do different Bible versions render
+                <strong className="text-scripture">Compare translations.</strong> How do different Bible versions render
                 this word? The differences reveal the interpretive decisions translators made.
               </li>
               <li>
-                <strong className="text-primary-dark/80">Synthesize your findings</strong> and write a definition that captures
+                <strong className="text-scripture">Synthesize your findings</strong> and write a definition that captures
                 the full biblical meaning of the word in the specific passage you are studying.
               </li>
             </ol>
           </div>
-          <p className="text-primary-dark/80 leading-relaxed">
+          <p className="text-scripture leading-relaxed">
             Word studies are particularly valuable for doctrinal terms like <em>justification</em>,
             <em> sanctification</em>, <em>propitiation</em>, <em>covenant</em>, and <em>redemption</em>.
             Understanding these words in their original language deepens theological precision and
@@ -635,45 +635,45 @@ export default function HowToStudyTheBiblePage() {
           <h2 className="text-2xl font-bold font-display text-scripture mb-4 border-b border-grace pb-2">
             9. Method 7: Chapter Analysis
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-4">
+          <p className="text-scripture leading-relaxed mb-4">
             Chapter analysis is a systematic approach to studying one chapter of the Bible at a time. Unlike
             verse-level methods, it focuses on the overall argument, structure, and flow of an entire chapter.
             This method is excellent for working through a book of the Bible sequentially.
           </p>
           <div className="bg-white border border-grace rounded-lg p-5 mb-4">
             <h3 className="font-semibold text-scripture mb-3">Chapter Analysis Steps</h3>
-            <ol className="space-y-2 text-sm text-primary-dark/70 leading-relaxed list-decimal list-inside">
+            <ol className="space-y-2 text-sm text-ink-muted leading-relaxed list-decimal list-inside">
               <li>
-                <strong className="text-primary-dark/80">Read the chapter</strong> at least three times. On the first reading,
+                <strong className="text-scripture">Read the chapter</strong> at least three times. On the first reading,
                 simply absorb the content. On the second, look for structure and transitions. On the
                 third, note details you missed.
               </li>
               <li>
-                <strong className="text-primary-dark/80">Give the chapter a title</strong> that captures its main theme in
+                <strong className="text-scripture">Give the chapter a title</strong> that captures its main theme in
                 five words or fewer.
               </li>
               <li>
-                <strong className="text-primary-dark/80">Outline the chapter.</strong> Identify the major sections and
+                <strong className="text-scripture">Outline the chapter.</strong> Identify the major sections and
                 summarize each in one sentence. Note where the author transitions between ideas.
               </li>
               <li>
-                <strong className="text-primary-dark/80">Identify the key verse</strong> -- the single verse that best
+                <strong className="text-scripture">Identify the key verse</strong> -- the single verse that best
                 summarizes the chapter&apos;s message.
               </li>
               <li>
-                <strong className="text-primary-dark/80">List lessons and applications.</strong> What doctrinal truths does
+                <strong className="text-scripture">List lessons and applications.</strong> What doctrinal truths does
                 this chapter teach? What commands does it give? What examples does it set?
               </li>
               <li>
-                <strong className="text-primary-dark/80">Note difficulties or questions</strong> for further research. No
+                <strong className="text-scripture">Note difficulties or questions</strong> for further research. No
                 single study session will answer everything. Marking questions for future investigation
                 is a sign of healthy, growing study habits.
               </li>
             </ol>
           </div>
-          <p className="text-primary-dark/80 leading-relaxed">
+          <p className="text-scripture leading-relaxed">
             Bible Maximum offers{' '}
-            <Link href="/bible-chapter-summaries" className="text-blue-600 hover:underline">chapter summaries</Link>{' '}
+            <Link href="/bible-chapter-summaries" className="text-sacred hover:underline">chapter summaries</Link>{' '}
             for every chapter in the Bible, which serve as helpful companions to your own chapter analysis
             work. Use them to check your understanding and discover insights you may have missed.
           </p>
@@ -684,19 +684,19 @@ export default function HowToStudyTheBiblePage() {
           <h2 className="text-2xl font-bold font-display text-scripture mb-4 border-b border-grace pb-2">
             10. Tools for Bible Study
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-6">
+          <p className="text-scripture leading-relaxed mb-6">
             The right tools make Bible study more productive, more accurate, and more enjoyable. Bible Maximum
             provides a complete suite of free study tools designed to support every method described in this guide.
           </p>
           <div className="grid gap-4 sm:grid-cols-2">
             <Link
               href="/lexicon"
-              className="bg-white border border-grace rounded-lg p-5 hover:shadow-md hover:border-blue-300 transition-all group"
+              className="bg-white border border-grace rounded-lg p-5 hover:shadow-md hover:border-sacred/50 transition-all group"
             >
-              <h3 className="font-semibold text-scripture group-hover:text-blue-600 transition-colors mb-2">
+              <h3 className="font-semibold text-scripture group-hover:text-gold-dark transition-colors mb-2">
                 Hebrew &amp; Greek Lexicon
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Look up any word in the original biblical languages by Strong&apos;s number. See definitions,
                 transliterations, root words, and every verse where the word appears. Essential for
                 word studies and verse mapping.
@@ -704,36 +704,36 @@ export default function HowToStudyTheBiblePage() {
             </Link>
             <Link
               href="/topics"
-              className="bg-white border border-grace rounded-lg p-5 hover:shadow-md hover:border-blue-300 transition-all group"
+              className="bg-white border border-grace rounded-lg p-5 hover:shadow-md hover:border-sacred/50 transition-all group"
             >
-              <h3 className="font-semibold text-scripture group-hover:text-blue-600 transition-colors mb-2">
+              <h3 className="font-semibold text-scripture group-hover:text-gold-dark transition-colors mb-2">
                 Bible Verses by Topic
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Browse thousands of verses organized by subject. The starting point for topical studies,
                 sermon preparation, and thematic devotionals.
               </p>
             </Link>
             <Link
               href="/cross-references"
-              className="bg-white border border-grace rounded-lg p-5 hover:shadow-md hover:border-blue-300 transition-all group"
+              className="bg-white border border-grace rounded-lg p-5 hover:shadow-md hover:border-sacred/50 transition-all group"
             >
-              <h3 className="font-semibold text-scripture group-hover:text-blue-600 transition-colors mb-2">
+              <h3 className="font-semibold text-scripture group-hover:text-gold-dark transition-colors mb-2">
                 Cross-References
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Discover how Scripture interprets Scripture. For any verse, find related passages that
                 illuminate the same themes, prophecies, or doctrines. Invaluable for interpretation.
               </p>
             </Link>
             <Link
               href="/interlinear"
-              className="bg-white border border-grace rounded-lg p-5 hover:shadow-md hover:border-blue-300 transition-all group"
+              className="bg-white border border-grace rounded-lg p-5 hover:shadow-md hover:border-sacred/50 transition-all group"
             >
-              <h3 className="font-semibold text-scripture group-hover:text-blue-600 transition-colors mb-2">
+              <h3 className="font-semibold text-scripture group-hover:text-gold-dark transition-colors mb-2">
                 Interlinear Bible
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 View the Hebrew and Greek text alongside the English translation, word by word. See
                 Strong&apos;s numbers, morphology codes, and transliterations for every word in the
                 original text.
@@ -741,24 +741,24 @@ export default function HowToStudyTheBiblePage() {
             </Link>
             <Link
               href="/word-studies"
-              className="bg-white border border-grace rounded-lg p-5 hover:shadow-md hover:border-blue-300 transition-all group"
+              className="bg-white border border-grace rounded-lg p-5 hover:shadow-md hover:border-sacred/50 transition-all group"
             >
-              <h3 className="font-semibold text-scripture group-hover:text-blue-600 transition-colors mb-2">
+              <h3 className="font-semibold text-scripture group-hover:text-gold-dark transition-colors mb-2">
                 Word Studies
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Pre-built word studies on significant biblical terms. Each study traces a word from its
                 original language through its usage across Scripture.
               </p>
             </Link>
             <Link
               href="/bible-chapter-summaries"
-              className="bg-white border border-grace rounded-lg p-5 hover:shadow-md hover:border-blue-300 transition-all group"
+              className="bg-white border border-grace rounded-lg p-5 hover:shadow-md hover:border-sacred/50 transition-all group"
             >
-              <h3 className="font-semibold text-scripture group-hover:text-blue-600 transition-colors mb-2">
+              <h3 className="font-semibold text-scripture group-hover:text-gold-dark transition-colors mb-2">
                 Chapter Summaries
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Concise summaries for every chapter in the Bible. Use them to preview a chapter before
                 study, review your findings afterward, or quickly locate specific content.
               </p>
@@ -771,7 +771,7 @@ export default function HowToStudyTheBiblePage() {
           <h2 className="text-2xl font-bold font-display text-scripture mb-4 border-b border-grace pb-2">
             11. Creating a Bible Study Schedule
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-4">
+          <p className="text-scripture leading-relaxed mb-4">
             A study method without a schedule quickly becomes sporadic. A good schedule provides accountability,
             ensures breadth of coverage, and builds the habit of daily engagement with Scripture. Here are
             several approaches to structuring your study time.
@@ -779,7 +779,7 @@ export default function HowToStudyTheBiblePage() {
           <div className="space-y-4 mb-6">
             <div className="bg-white border border-grace rounded-lg p-5">
               <h3 className="font-semibold text-scripture mb-2">Book-by-Book Approach</h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Select a book of the Bible and work through it chapter by chapter using the Chapter Analysis
                 method. A short epistle like Philippians can be completed in a week. A major prophet like
                 Isaiah may take several months. This approach preserves the author&apos;s intended flow and
@@ -788,9 +788,9 @@ export default function HowToStudyTheBiblePage() {
             </div>
             <div className="bg-white border border-grace rounded-lg p-5">
               <h3 className="font-semibold text-scripture mb-2">Structured Reading Plans</h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Bible Maximum offers{' '}
-                <Link href="/reading-plans" className="text-blue-600 hover:underline">12 structured reading plans</Link>{' '}
+                <Link href="/reading-plans" className="text-sacred hover:underline">12 structured reading plans</Link>{' '}
                 ranging from 14 days to a full year. Plans are organized by category -- Full Bible, Old
                 Testament, and New Testament -- with daily assignments that keep you on track. Pair a
                 reading plan with the SOAP journaling method for a powerful daily routine.
@@ -798,7 +798,7 @@ export default function HowToStudyTheBiblePage() {
             </div>
             <div className="bg-white border border-grace rounded-lg p-5">
               <h3 className="font-semibold text-scripture mb-2">Rotating Methods</h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Variety prevents staleness. Consider rotating between methods on a weekly or monthly basis:
                 spend one week on a character study, the next on a topical study, the next on verse mapping
                 key passages from your reading plan. This rotation develops different study skills and keeps
@@ -807,16 +807,16 @@ export default function HowToStudyTheBiblePage() {
             </div>
             <div className="bg-white border border-grace rounded-lg p-5">
               <h3 className="font-semibold text-scripture mb-2">Sample Weekly Schedule</h3>
-              <div className="text-sm text-primary-dark/70 leading-relaxed space-y-1 mt-2">
-                <p><strong className="text-primary-dark/80">Monday-Wednesday:</strong> Chapter Analysis (current book study)</p>
-                <p><strong className="text-primary-dark/80">Thursday:</strong> Word Study on a key term from the week&apos;s chapters</p>
-                <p><strong className="text-primary-dark/80">Friday:</strong> Topical Study related to a doctrine in the current passage</p>
-                <p><strong className="text-primary-dark/80">Saturday:</strong> SOAP journaling on a personally meaningful verse from the week</p>
-                <p><strong className="text-primary-dark/80">Sunday:</strong> Review notes, memorize the week&apos;s key verse, pray through applications</p>
+              <div className="text-sm text-ink-muted leading-relaxed space-y-1 mt-2">
+                <p><strong className="text-scripture">Monday-Wednesday:</strong> Chapter Analysis (current book study)</p>
+                <p><strong className="text-scripture">Thursday:</strong> Word Study on a key term from the week&apos;s chapters</p>
+                <p><strong className="text-scripture">Friday:</strong> Topical Study related to a doctrine in the current passage</p>
+                <p><strong className="text-scripture">Saturday:</strong> SOAP journaling on a personally meaningful verse from the week</p>
+                <p><strong className="text-scripture">Sunday:</strong> Review notes, memorize the week&apos;s key verse, pray through applications</p>
               </div>
             </div>
           </div>
-          <p className="text-primary-dark/80 leading-relaxed">
+          <p className="text-scripture leading-relaxed">
             The best schedule is one you will actually follow. Start with a commitment you know you can
             keep -- even if it is just ten minutes a day, five days a week -- and build from there as
             the habit takes root.
@@ -828,7 +828,7 @@ export default function HowToStudyTheBiblePage() {
           <h2 className="text-2xl font-bold font-display text-scripture mb-4 border-b border-grace pb-2">
             12. Taking What You Learn Further
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-4">
+          <p className="text-scripture leading-relaxed mb-4">
             Study that remains in a notebook changes a mind. Study that is practiced, shared, and tested
             changes a life. Here are three ways to extend the impact of your Bible study beyond the study
             session itself.
@@ -836,9 +836,9 @@ export default function HowToStudyTheBiblePage() {
           <div className="space-y-4 mb-6">
             <div className="bg-white border border-grace rounded-lg p-5">
               <h3 className="font-semibold text-scripture mb-2">Test Your Knowledge</h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 After studying a chapter or book, take a{' '}
-                <Link href="/bible-quizzes" className="text-blue-600 hover:underline">Bible quiz</Link>{' '}
+                <Link href="/bible-quizzes" className="text-sacred hover:underline">Bible quiz</Link>{' '}
                 on that material. Bible Maximum offers chapter-by-chapter quizzes for every book of the
                 Bible, with multiple difficulty levels. Quizzing reinforces retention, reveals gaps in
                 understanding, and makes review enjoyable rather than tedious.
@@ -846,7 +846,7 @@ export default function HowToStudyTheBiblePage() {
             </div>
             <div className="bg-white border border-grace rounded-lg p-5">
               <h3 className="font-semibold text-scripture mb-2">Teach What You Learn</h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 The best way to solidify your understanding is to teach others. Share your findings with
                 your family at the dinner table. Lead a small group through a book study. Mentor a younger
                 believer using the methods you have learned. Teaching forces clarity of thought and
@@ -855,7 +855,7 @@ export default function HowToStudyTheBiblePage() {
             </div>
             <div className="bg-white border border-grace rounded-lg p-5">
               <h3 className="font-semibold text-scripture mb-2">Memorize Key Passages</h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Psalm 119:11 says, &ldquo;Thy word have I hid in mine heart, that I might not sin against
                 thee.&rdquo; Scripture memorization is the natural overflow of deep study. When you
                 have verse-mapped a passage, analyzed its words in the original language, and traced its
@@ -875,13 +875,13 @@ export default function HowToStudyTheBiblePage() {
               <h3 className="font-semibold text-scripture mb-2">
                 What is the best Bible study method for beginners?
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 The Observation-Interpretation-Application (OIA) method is ideal for beginners because
                 it provides a simple three-step framework: observe what the text says, interpret what it
                 means, and apply it to your life. SOAP journaling is another excellent beginner method
                 that adds a prayer component to each study session. Both methods require no special tools
                 beyond a Bible and a notebook. For a complete beginner&apos;s guide, see our{' '}
-                <Link href="/bible-study-for-beginners" className="text-blue-600 hover:underline">
+                <Link href="/bible-study-for-beginners" className="text-sacred hover:underline">
                   Bible Study for Beginners
                 </Link>{' '}
                 page.
@@ -891,7 +891,7 @@ export default function HowToStudyTheBiblePage() {
               <h3 className="font-semibold text-scripture mb-2">
                 How long should I spend studying the Bible each day?
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Even 15 to 20 minutes of focused Bible study each day can produce significant spiritual
                 growth over time. Consistency matters more than duration. Start with a manageable time that
                 fits your schedule and increase it as the habit becomes established. Many mature believers
@@ -902,13 +902,13 @@ export default function HowToStudyTheBiblePage() {
               <h3 className="font-semibold text-scripture mb-2">
                 What tools do I need for Bible study?
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 At minimum, you need a reliable Bible translation and a notebook. For deeper study,
                 a Hebrew and Greek{' '}
-                <Link href="/lexicon" className="text-blue-600 hover:underline">lexicon</Link>,{' '}
-                <Link href="/cross-references" className="text-blue-600 hover:underline">cross-reference system</Link>,{' '}
-                <Link href="/topics" className="text-blue-600 hover:underline">topical index</Link>, and{' '}
-                <Link href="/interlinear" className="text-blue-600 hover:underline">interlinear Bible</Link>{' '}
+                <Link href="/lexicon" className="text-sacred hover:underline">lexicon</Link>,{' '}
+                <Link href="/cross-references" className="text-sacred hover:underline">cross-reference system</Link>,{' '}
+                <Link href="/topics" className="text-sacred hover:underline">topical index</Link>, and{' '}
+                <Link href="/interlinear" className="text-sacred hover:underline">interlinear Bible</Link>{' '}
                 are invaluable. Bible Maximum provides all of these tools free online.
               </p>
             </div>
@@ -916,12 +916,12 @@ export default function HowToStudyTheBiblePage() {
               <h3 className="font-semibold text-scripture mb-2">
                 What is the difference between reading the Bible and studying the Bible?
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 Reading the Bible involves going through the text to absorb the narrative and teachings.
                 Studying the Bible goes deeper by examining the original languages, historical context,
                 cross-references, and theological implications of specific passages. Both practices are
                 important and complement each other. A{' '}
-                <Link href="/reading-plans" className="text-blue-600 hover:underline">reading plan</Link>{' '}
+                <Link href="/reading-plans" className="text-sacred hover:underline">reading plan</Link>{' '}
                 provides breadth, while study methods provide depth.
               </p>
             </div>
@@ -929,12 +929,12 @@ export default function HowToStudyTheBiblePage() {
               <h3 className="font-semibold text-scripture mb-2">
                 Which book of the Bible should I study first?
               </h3>
-              <p className="text-sm text-primary-dark/70 leading-relaxed">
+              <p className="text-sm text-ink-muted leading-relaxed">
                 The Gospel of John is widely recommended as a starting point because it presents the
                 life and teachings of Jesus Christ in an accessible way. Genesis provides the foundational
                 narrative of creation and the patriarchs. Psalms and Proverbs offer practical wisdom for
                 daily living. Romans presents the most systematic explanation of the gospel. See our{' '}
-                <Link href="/bible-study-for-beginners" className="text-blue-600 hover:underline">
+                <Link href="/bible-study-for-beginners" className="text-sacred hover:underline">
                   beginner&apos;s guide
                 </Link>{' '}
                 for detailed recommendations on where to start.
@@ -944,23 +944,23 @@ export default function HowToStudyTheBiblePage() {
         </section>
 
         {/* Return-visit hook */}
-        <section className="mb-12 bg-white border-2 border-blue-200 rounded-xl p-6 md:p-8">
+        <section className="mb-12 bg-white border-2 border-sacred/20 rounded-xl p-6 md:p-8">
           <h2 className="text-xl font-bold font-display text-scripture mb-3">
             Make Bible Study a Daily Habit
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed mb-4">
+          <p className="text-scripture leading-relaxed mb-4">
             Bookmark this page as your reference guide. Come back each day to apply these methods to the next chapter in your reading plan. Track your progress by completing a quiz after each chapter you study.
           </p>
           <div className="flex flex-wrap gap-3">
             <Link
               href="/reading-plans"
-              className="inline-flex items-center px-5 py-2.5 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-colors"
+              className="inline-flex items-center px-5 py-2.5 bg-scripture text-white font-bold rounded-lg hover:bg-ink-muted transition-colors"
             >
               Choose a Reading Plan
             </Link>
             <Link
               href="/bible-quizzes"
-              className="inline-flex items-center px-5 py-2.5 border-2 border-blue-600 text-blue-600 font-bold rounded-lg hover:bg-blue-50 transition-colors"
+              className="inline-flex items-center px-5 py-2.5 border-2 border-sacred text-sacred font-bold rounded-lg hover:bg-sacred-light transition-colors"
             >
               Start Your First Quiz
             </Link>
@@ -974,40 +974,40 @@ export default function HowToStudyTheBiblePage() {
         <div className="bg-primary-light/30 border border-grace rounded-xl p-6">
           <h2 className="text-xl font-bold text-scripture mb-3">Continue Your Study</h2>
           <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-            <Link href="/bible-study-for-beginners" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-study-for-beginners" className="text-sacred hover:underline text-sm">
               Bible Study for Beginners
             </Link>
-            <Link href="/bible-quizzes" className="bg-blue-600 text-white text-sm font-bold px-3 py-1.5 rounded-lg hover:bg-blue-700 transition-colors">
+            <Link href="/bible-quizzes" className="bg-scripture text-white text-sm font-bold px-3 py-1.5 rounded-lg hover:bg-ink-muted transition-colors">
               Bible Quizzes
             </Link>
-            <Link href="/reading-plans" className="text-blue-600 hover:underline text-sm">
+            <Link href="/reading-plans" className="text-sacred hover:underline text-sm">
               Reading Plans
             </Link>
-            <Link href="/bible-study-guides" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-study-guides" className="text-sacred hover:underline text-sm">
               Bible Study Guides
             </Link>
-            <Link href="/lexicon" className="text-blue-600 hover:underline text-sm">
+            <Link href="/lexicon" className="text-sacred hover:underline text-sm">
               Hebrew &amp; Greek Lexicon
             </Link>
-            <Link href="/topics" className="text-blue-600 hover:underline text-sm">
+            <Link href="/topics" className="text-sacred hover:underline text-sm">
               Bible Verses by Topic
             </Link>
-            <Link href="/cross-references" className="text-blue-600 hover:underline text-sm">
+            <Link href="/cross-references" className="text-sacred hover:underline text-sm">
               Cross-References
             </Link>
-            <Link href="/interlinear" className="text-blue-600 hover:underline text-sm">
+            <Link href="/interlinear" className="text-sacred hover:underline text-sm">
               Interlinear Bible
             </Link>
-            <Link href="/word-studies" className="text-blue-600 hover:underline text-sm">
+            <Link href="/word-studies" className="text-sacred hover:underline text-sm">
               Word Studies
             </Link>
-            <Link href="/bible-chapter-summaries" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-chapter-summaries" className="text-sacred hover:underline text-sm">
               Chapter Summaries
             </Link>
-            <Link href="/people" className="text-blue-600 hover:underline text-sm">
+            <Link href="/people" className="text-sacred hover:underline text-sm">
               Bible People Directory
             </Link>
-            <Link href="/bible-stories" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-stories" className="text-sacred hover:underline text-sm">
               Bible Stories
             </Link>
           </div>

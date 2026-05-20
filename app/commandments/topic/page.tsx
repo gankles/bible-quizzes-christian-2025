@@ -70,27 +70,27 @@ export default function CommandmentsByTopicHubPage() {
       ]} />
 
       <div className="min-h-screen bg-primary-light/30">
-        <section className="py-16 bg-gradient-to-b from-blue-50 to-primary-light/30">
+        <section className="py-16 bg-gradient-to-b from-scripture to-primary-light/30">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl md:text-5xl font-bold font-display text-scripture mb-4">
-              613 Commandments <span className="text-blue-600">by Topic</span>
+              613 Commandments <span className="text-sacred">by Topic</span>
             </h1>
-            <p className="text-lg text-primary-dark/70 max-w-2xl mx-auto mb-8">
+            <p className="text-lg text-ink-muted max-w-2xl mx-auto mb-8">
               Explore how the 613 biblical commandments connect to key themes and topics
               found throughout Scripture.
             </p>
             <div className="flex justify-center gap-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">{stats.totalBridgePages}</div>
-                <div className="text-sm text-primary-dark/60">Topic Pages</div>
+                <div className="text-3xl font-bold text-sacred">{stats.totalBridgePages}</div>
+                <div className="text-sm text-ink-muted">Topic Pages</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">{stats.totalCommandments}</div>
-                <div className="text-sm text-primary-dark/60">Commandments</div>
+                <div className="text-3xl font-bold text-sacred">{stats.totalCommandments}</div>
+                <div className="text-sm text-ink-muted">Commandments</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">{stats.avgCommandmentsPerTopic}</div>
-                <div className="text-sm text-primary-dark/60">Avg per Topic</div>
+                <div className="text-3xl font-bold text-sacred">{stats.avgCommandmentsPerTopic}</div>
+                <div className="text-sm text-ink-muted">Avg per Topic</div>
               </div>
             </div>
           </div>
@@ -98,12 +98,12 @@ export default function CommandmentsByTopicHubPage() {
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-[-2rem] relative z-20 mb-12">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/commandments" className="bg-blue-600 rounded-lg p-6 text-white shadow-lg flex items-center justify-between hover:bg-blue-700 transition-colors">
+            <Link href="/commandments" className="bg-scripture rounded-lg p-6 text-white shadow-lg flex items-center justify-between hover:bg-ink-muted transition-colors">
               <div>
                 <h3 className="font-bold text-lg">Browse All 613 Commandments</h3>
                 <p className="text-white/80 text-xs">Complete list with scripture references</p>
               </div>
-              <span className="bg-white text-blue-600 px-4 py-2 rounded-lg font-bold text-sm uppercase shrink-0 ml-3">View</span>
+              <span className="bg-white text-sacred px-4 py-2 rounded-lg font-bold text-sm uppercase shrink-0 ml-3">View</span>
             </Link>
             <Link href="/topics" className="bg-scripture rounded-lg p-6 text-white shadow-lg flex items-center justify-between hover:bg-scripture/90 transition-colors">
               <div>
@@ -123,10 +123,10 @@ export default function CommandmentsByTopicHubPage() {
                 <Link
                   key={slug}
                   href={`/commandments/topic/${slug}`}
-                  className="bg-white border border-grace rounded-xl p-5 hover:shadow-md hover:border-blue-300 transition-all group"
+                  className="bg-white border border-grace rounded-xl p-5 hover:shadow-md hover:border-sacred/50 transition-all group"
                 >
-                  <h3 className="text-lg font-semibold text-scripture group-hover:text-blue-600 transition-colors mb-1">{name}</h3>
-                  <p className="text-sm text-primary-dark/60">{count} commandment{count !== 1 ? 's' : ''} related to this topic</p>
+                  <h3 className="text-lg font-semibold text-scripture group-hover:text-gold-dark transition-colors mb-1">{name}</h3>
+                  <p className="text-sm text-ink-muted">{count} commandment{count !== 1 ? 's' : ''} related to this topic</p>
                 </Link>
               ))}
             </div>
@@ -140,9 +140,9 @@ export default function CommandmentsByTopicHubPage() {
                   <Link
                     key={slug}
                     href={`/commandments/topic/${slug}`}
-                    className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-primary-dark/80 hover:border-blue-300 hover:text-blue-600 transition-colors"
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white border border-grace rounded-lg text-sm text-scripture hover:border-sacred/50 hover:text-gold-dark transition-colors"
                   >
-                    {name} <span className="text-xs text-primary-dark/40">({count})</span>
+                    {name} <span className="text-xs text-ink-light">({count})</span>
                   </Link>
                 ))}
               </div>
@@ -152,12 +152,12 @@ export default function CommandmentsByTopicHubPage() {
           <section className="bg-grace/10 border border-grace rounded-xl p-6 mt-8">
             <h2 className="text-lg font-bold text-scripture mb-3">Continue Your Study</h2>
             <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-              <Link href="/commandments" className="text-blue-600 hover:underline text-sm">All 613 Commandments</Link>
-              <Link href="/topics" className="text-blue-600 hover:underline text-sm">Bible Topics</Link>
-              <Link href="/characters-by-topic" className="text-blue-600 hover:underline text-sm">Characters by Topic</Link>
-              <Link href="/character-quiz" className="text-blue-600 hover:underline text-sm">Character Quizzes</Link>
-              <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">Bible Quizzes</Link>
-              <Link href="/timeline" className="text-blue-600 hover:underline text-sm">Bible Timeline</Link>
+              <Link href="/commandments" className="text-sacred hover:underline text-sm">All 613 Commandments</Link>
+              <Link href="/topics" className="text-sacred hover:underline text-sm">Bible Topics</Link>
+              <Link href="/characters-by-topic" className="text-sacred hover:underline text-sm">Characters by Topic</Link>
+              <Link href="/character-quiz" className="text-sacred hover:underline text-sm">Character Quizzes</Link>
+              <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">Bible Quizzes</Link>
+              <Link href="/timeline" className="text-sacred hover:underline text-sm">Bible Timeline</Link>
             </div>
           </section>
         </main>

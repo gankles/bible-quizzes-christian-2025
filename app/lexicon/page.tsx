@@ -47,7 +47,7 @@ export default async function LexiconHubPage() {
             <section className="relative pt-32 pb-24 bg-white border-b border-grace">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="max-w-4xl mx-auto text-center">
-                        <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-blue-50 text-blue-600 text-sm font-semibold mb-8">
+                        <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-sacred-light text-sacred text-sm font-semibold mb-8">
                             <BookOpenIcon className="w-4 h-4" />
                             <span>14,000+ Word Studies</span>
                         </div>
@@ -56,7 +56,7 @@ export default async function LexiconHubPage() {
                             Biblical Lexicon
                         </h1>
 
-                        <p className="text-xl md:text-2xl text-primary-dark/70 mb-14 max-w-3xl mx-auto leading-relaxed">
+                        <p className="text-xl md:text-2xl text-ink-muted mb-14 max-w-3xl mx-auto leading-relaxed">
                             Explore the depth of <span className="text-scripture font-bold">{(totalGreek + totalHebrew).toLocaleString()}</span> original biblical root words for scriptural clarity.
                         </p>
 
@@ -67,15 +67,15 @@ export default async function LexiconHubPage() {
                         <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
                             <div className="p-6 rounded-xl border border-grace bg-white shadow-sm">
                                 <div className="text-3xl font-bold text-scripture mb-1">{totalGreek.toLocaleString()}</div>
-                                <div className="text-sm text-primary-dark/60">Greek Entries</div>
+                                <div className="text-sm text-ink-muted">Greek Entries</div>
                             </div>
                             <div className="p-6 rounded-xl border border-grace bg-white shadow-sm">
                                 <div className="text-3xl font-bold text-scripture mb-1">{totalHebrew.toLocaleString()}</div>
-                                <div className="text-sm text-primary-dark/60">Hebrew Entries</div>
+                                <div className="text-sm text-ink-muted">Hebrew Entries</div>
                             </div>
                             <div className="p-6 rounded-xl border border-grace bg-white shadow-sm col-span-2 md:col-span-1 border-t-4 border-t-blue-600">
-                                <div className="text-3xl font-bold text-blue-600 mb-1">100%</div>
-                                <div className="text-sm text-primary-dark/60">Coverage</div>
+                                <div className="text-3xl font-bold text-sacred mb-1">100%</div>
+                                <div className="text-sm text-ink-muted">Coverage</div>
                             </div>
                         </div>
                     </div>
@@ -87,17 +87,17 @@ export default async function LexiconHubPage() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8">
                         <div>
-                            <div className="inline-flex items-center space-x-2 text-blue-600 font-semibold text-sm mb-4">
+                            <div className="inline-flex items-center space-x-2 text-sacred font-semibold text-sm mb-4">
                                 <SparklesIcon className="w-4 h-4" />
                                 <span>Curated Themes</span>
                             </div>
                             <h2 className="text-4xl md:text-5xl font-bold text-scripture tracking-tight">Explore by Theme</h2>
-                            <p className="text-lg text-primary-dark/70 max-w-2xl mt-4 leading-relaxed">
+                            <p className="text-lg text-ink-muted max-w-2xl mt-4 leading-relaxed">
                                 Word clusters grouped by theological significance. Explore core biblical concepts in their original context.
                             </p>
                         </div>
                         <div className="flex items-center">
-                            <Link href="/lexicon/browse/greek" className="px-6 py-3 bg-blue-600 text-white rounded-xl text-sm font-semibold shadow-sm flex items-center space-x-2 group hover:bg-blue-700 transition-colors">
+                            <Link href="/lexicon/browse/greek" className="px-6 py-3 bg-scripture text-white rounded-xl text-sm font-semibold shadow-sm flex items-center space-x-2 group hover:bg-ink-muted transition-colors">
                                 <span>Browse Full Index</span>
                                 <ArrowRightIcon className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                             </Link>
@@ -114,20 +114,20 @@ export default async function LexiconHubPage() {
                             <Link
                                 key={theme.slug}
                                 href={`/lexicon/concept/${theme.slug}`}
-                                className="group p-8 rounded-xl bg-white border border-grace hover:border-blue-300 hover:shadow-md transition-all duration-300"
+                                className="group p-8 rounded-xl bg-white border border-grace hover:border-sacred/50 hover:shadow-md transition-all duration-300"
                             >
-                                <div className="w-10 h-10 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center mb-5 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                                <div className="w-10 h-10 rounded-lg bg-sacred-light text-sacred flex items-center justify-center mb-5 group-hover:bg-ink-muted group-hover:text-white transition-colors">
                                     {theme.icon}
                                 </div>
-                                <div className="text-xs font-semibold text-blue-600 mb-3">
+                                <div className="text-xs font-semibold text-sacred mb-3">
                                     Concept Study
                                 </div>
                                 <h3 className="text-xl font-bold text-scripture mb-1 tracking-tight">{theme.name}</h3>
-                                <p className="text-sm text-primary-dark/60 mb-8">{theme.flavor}</p>
+                                <p className="text-sm text-ink-muted mb-8">{theme.flavor}</p>
 
                                 <div className="flex items-center justify-between pt-5 border-t border-grace/50">
-                                    <div className="text-xs text-primary-dark/40">{theme.count} Word Studies</div>
-                                    <div className="p-1.5 rounded-lg bg-primary-light/30 text-primary-dark/40 group-hover:bg-blue-600 group-hover:text-white transition-all">
+                                    <div className="text-xs text-ink-light">{theme.count} Word Studies</div>
+                                    <div className="p-1.5 rounded-lg bg-primary-light/30 text-ink-light group-hover:bg-ink-muted group-hover:text-white transition-all">
                                         <ArrowRightIcon className="w-4 h-4" />
                                     </div>
                                 </div>
@@ -141,12 +141,12 @@ export default async function LexiconHubPage() {
             <section className="py-24 bg-scripture overflow-hidden relative rounded-lg mx-4 sm:mx-8 shadow-lg">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                     <div className="text-center mb-20 max-w-3xl mx-auto">
-                        <div className="inline-flex items-center space-x-2 text-blue-400 font-semibold text-sm mb-4">
+                        <div className="inline-flex items-center space-x-2 text-sacred font-semibold text-sm mb-4">
                             <FingerPrintIcon className="w-4 h-4" />
                             <span>Literary Analysis</span>
                         </div>
                         <h2 className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-tight">Biblical Authors</h2>
-                        <p className="text-lg text-primary-dark/40 leading-relaxed">
+                        <p className="text-lg text-ink-light leading-relaxed">
                             Analyze the unique theological style encoded in the original manuscripts. Compare vocabulary density across biblical authors.
                         </p>
                     </div>
@@ -160,14 +160,14 @@ export default async function LexiconHubPage() {
                             <Link
                                 key={author.name}
                                 href={`/lexicon/author/${author.name}/${author.lang}`}
-                                className="group relative p-10 rounded-xl border border-scripture/80 bg-scripture/90 hover:bg-scripture/90 hover:border-primary-dark/40 transition-all duration-300 flex flex-col items-center text-center"
+                                className="group relative p-10 rounded-xl border border-scripture/80 bg-scripture/90 hover:bg-scripture/90 hover:border-sacred/50 transition-all duration-300 flex flex-col items-center text-center"
                             >
-                                <div className="w-16 h-16 rounded-xl bg-scripture/80 border border-primary-dark/40 flex items-center justify-center text-white mb-8 group-hover:bg-blue-600 transition-colors">
-                                    <FingerPrintIcon className="w-8 h-8 text-blue-400 group-hover:text-white transition-colors" />
+                                <div className="w-16 h-16 rounded-xl bg-scripture/80 border border-primary-dark/40 flex items-center justify-center text-white mb-8 group-hover:bg-ink-muted transition-colors">
+                                    <FingerPrintIcon className="w-8 h-8 text-sacred group-hover:text-white transition-colors" />
                                 </div>
                                 <h3 className="text-2xl font-bold text-white mb-3 tracking-tight">{author.display}</h3>
-                                <p className="text-primary-dark/40 text-sm mb-8 leading-relaxed">{author.desc}</p>
-                                <div className="mt-auto px-5 py-2 rounded-lg bg-blue-600/10 border border-blue-500/20 text-blue-400 text-xs font-semibold group-hover:bg-blue-600 group-hover:text-white transition-all">
+                                <p className="text-ink-light text-sm mb-8 leading-relaxed">{author.desc}</p>
+                                <div className="mt-auto px-5 py-2 rounded-lg bg-sacred/10 border border-sacred/20 text-sacred text-xs font-semibold group-hover:bg-ink-muted group-hover:text-white transition-all">
                                     Analyze {author.count}
                                 </div>
                             </Link>
@@ -181,17 +181,17 @@ export default async function LexiconHubPage() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-12 mb-16">
                         <div className="max-w-3xl">
-                            <div className="inline-flex items-center space-x-2 text-blue-600 font-semibold text-sm mb-4">
+                            <div className="inline-flex items-center space-x-2 text-sacred font-semibold text-sm mb-4">
                                 <ChartBarIcon className="w-4 h-4" />
                                 <span>Comparative Study</span>
                             </div>
                             <h2 className="text-4xl md:text-5xl font-bold text-scripture mb-6 tracking-tight">Word Comparisons</h2>
-                            <p className="text-lg text-primary-dark/70 leading-relaxed">
+                            <p className="text-lg text-ink-muted leading-relaxed">
                                 English abstracts words that the original languages differentiate with profound precision. Compare related terms to find the specific scriptural meaning.
                             </p>
                         </div>
                         <div className="shrink-0">
-                            <Link href="/lexicon/compare/G25-vs-G5368" className="px-8 py-3 bg-blue-600 text-white rounded-xl text-sm font-semibold shadow-sm hover:bg-blue-700 transition-colors">
+                            <Link href="/lexicon/compare/G25-vs-G5368" className="px-8 py-3 bg-scripture text-white rounded-xl text-sm font-semibold shadow-sm hover:bg-ink-muted transition-colors">
                                 Open Study Tool
                             </Link>
                         </div>
@@ -199,14 +199,14 @@ export default async function LexiconHubPage() {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         {[
-                            { a: 'G25', b: 'G5368', title: 'Agapao vs Phileo', desc: 'Distinguishing the dual nature of "Love" in the original New Testament manuscripts.', color: 'bg-blue-600' },
-                            { a: 'H7965', b: 'G1515', title: 'Shalom vs Eirene', desc: 'Mapping the concept of Peace across Hebrew and Greek scripture layers.', color: 'bg-blue-500' },
+                            { a: 'G25', b: 'G5368', title: 'Agapao vs Phileo', desc: 'Distinguishing the dual nature of "Love" in the original New Testament manuscripts.', color: 'bg-scripture' },
+                            { a: 'H7965', b: 'G1515', title: 'Shalom vs Eirene', desc: 'Mapping the concept of Peace across Hebrew and Greek scripture layers.', color: 'bg-sacred-light' },
                             { a: 'G5485', b: 'G1656', title: 'Charis vs Eleos', desc: 'Study on the intersection of unmerited favor and active divine mercy.', color: 'bg-scripture' }
                         ].map((comp) => (
                             <Link
                                 key={`${comp.a}-${comp.b}`}
                                 href={`/lexicon/compare/${comp.a}-vs-${comp.b}`}
-                                className="group p-8 rounded-xl bg-white border border-grace hover:border-blue-300 hover:shadow-md transition-all duration-300"
+                                className="group p-8 rounded-xl bg-white border border-grace hover:border-sacred/50 hover:shadow-md transition-all duration-300"
                             >
                                 <div className="flex items-center justify-between mb-6">
                                     <div className="flex -space-x-3">
@@ -217,13 +217,13 @@ export default async function LexiconHubPage() {
                                             {comp.b}
                                         </div>
                                     </div>
-                                    <div className="text-xs font-medium text-primary-dark/40 bg-primary-light/30 px-3 py-1 rounded-lg group-hover:bg-primary-light group-hover:text-blue-600 transition-colors">
+                                    <div className="text-xs font-medium text-ink-light bg-primary-light/30 px-3 py-1 rounded-lg group-hover:bg-primary-light group-hover:text-gold-dark transition-colors">
                                         Compare
                                     </div>
                                 </div>
                                 <h3 className="text-xl font-bold text-scripture mb-2 tracking-tight">{comp.title}</h3>
-                                <p className="text-sm text-primary-dark/60 leading-relaxed mb-8">{comp.desc}</p>
-                                <div className="flex items-center text-sm font-medium text-blue-600 group-hover:text-blue-700 transition-colors">
+                                <p className="text-sm text-ink-muted leading-relaxed mb-8">{comp.desc}</p>
+                                <div className="flex items-center text-sm font-medium text-sacred group-hover:text-gold-dark transition-colors">
                                     Compare Terms <ArrowRightIcon className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                                 </div>
                             </Link>
@@ -237,7 +237,7 @@ export default async function LexiconHubPage() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
                         <h2 className="text-4xl md:text-5xl font-bold text-scripture mb-6 tracking-tight">Complete Index</h2>
-                        <p className="text-lg text-primary-dark/70 max-w-2xl mx-auto leading-relaxed">
+                        <p className="text-lg text-ink-muted max-w-2xl mx-auto leading-relaxed">
                             Access the complete index of every unique word found in the biblical text. Direct entry to the full biblical dictionary.
                         </p>
                     </div>
@@ -245,20 +245,20 @@ export default async function LexiconHubPage() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
                         <Link
                             href="/lexicon/browse/greek"
-                            className="group relative p-10 rounded-xl border border-grace bg-white hover:border-blue-300 hover:shadow-md transition-all duration-300 overflow-hidden"
+                            className="group relative p-10 rounded-xl border border-grace bg-white hover:border-sacred/50 hover:shadow-md transition-all duration-300 overflow-hidden"
                         >
-                            <div className="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity text-blue-600">
+                            <div className="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity text-sacred">
                                 <BookOpenIcon className="w-32 h-32" />
                             </div>
                             <div className="relative z-10">
-                                <div className="w-14 h-14 rounded-xl bg-blue-600 flex items-center justify-center text-white mb-8 shadow-sm group-hover:bg-blue-700 transition-colors">
+                                <div className="w-14 h-14 rounded-xl bg-scripture flex items-center justify-center text-white mb-8 shadow-sm group-hover:bg-ink-muted transition-colors">
                                     <BookOpenIcon className="w-7 h-7" />
                                 </div>
                                 <h3 className="text-3xl font-bold text-scripture mb-3 tracking-tight">Greek Index</h3>
-                                <p className="text-base text-primary-dark/60 mb-8 leading-relaxed">
+                                <p className="text-base text-ink-muted mb-8 leading-relaxed">
                                     Explore the full vocabulary of the Greek New Testament.
                                 </p>
-                                <div className="inline-flex items-center px-5 py-2.5 bg-blue-600 text-white rounded-lg text-sm font-semibold group-hover:bg-blue-700 transition-colors">
+                                <div className="inline-flex items-center px-5 py-2.5 bg-scripture text-white rounded-lg text-sm font-semibold group-hover:bg-ink-muted transition-colors">
                                     Browse Greek <ArrowRightIcon className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                                 </div>
                             </div>
@@ -266,20 +266,20 @@ export default async function LexiconHubPage() {
 
                         <Link
                             href="/lexicon/browse/hebrew"
-                            className="group relative p-10 rounded-xl border border-grace bg-white hover:border-blue-300 hover:shadow-md transition-all duration-300 overflow-hidden"
+                            className="group relative p-10 rounded-xl border border-grace bg-white hover:border-sacred/50 hover:shadow-md transition-all duration-300 overflow-hidden"
                         >
-                            <div className="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity text-blue-600">
+                            <div className="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity text-sacred">
                                 <BookOpenIcon className="w-32 h-32" />
                             </div>
                             <div className="relative z-10">
-                                <div className="w-14 h-14 rounded-xl bg-scripture flex items-center justify-center text-white mb-8 shadow-sm group-hover:bg-blue-600 transition-colors">
+                                <div className="w-14 h-14 rounded-xl bg-scripture flex items-center justify-center text-white mb-8 shadow-sm group-hover:bg-ink-muted transition-colors">
                                     <BookOpenIcon className="w-7 h-7" />
                                 </div>
                                 <h3 className="text-3xl font-bold text-scripture mb-3 tracking-tight">Hebrew Index</h3>
-                                <p className="text-base text-primary-dark/60 mb-8 leading-relaxed">
+                                <p className="text-base text-ink-muted mb-8 leading-relaxed">
                                     Explore the original root words of the Hebrew Old Testament.
                                 </p>
-                                <div className="inline-flex items-center px-5 py-2.5 bg-scripture text-white rounded-lg text-sm font-semibold group-hover:bg-blue-600 transition-colors">
+                                <div className="inline-flex items-center px-5 py-2.5 bg-scripture text-white rounded-lg text-sm font-semibold group-hover:bg-ink-muted transition-colors">
                                     Browse Hebrew <ArrowRightIcon className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                                 </div>
                             </div>
@@ -293,13 +293,13 @@ export default async function LexiconHubPage() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8">
                         <div>
-                            <div className="inline-flex items-center space-x-2 text-blue-600 font-semibold text-sm mb-4">
+                            <div className="inline-flex items-center space-x-2 text-sacred font-semibold text-sm mb-4">
                                 <SparklesIcon className="w-4 h-4" />
                                 <span>Greek Manuscript Study</span>
                             </div>
                             <h2 className="text-4xl font-bold text-scripture tracking-tight">New Testament Greek</h2>
                         </div>
-                        <div className="text-sm text-primary-dark/60 border-l-2 border-grace pl-5">
+                        <div className="text-sm text-ink-muted border-l-2 border-grace pl-5">
                             Lexicon <br />
                             <span className="text-scripture font-semibold">{totalGreek.toLocaleString()} Entries</span>
                         </div>
@@ -310,21 +310,21 @@ export default async function LexiconHubPage() {
                             <Link
                                 key={entry.strongs}
                                 href={`/lexicon/${entry.strongs}`}
-                                className="group p-6 rounded-xl border border-grace bg-white hover:shadow-md hover:border-blue-300 transition-all duration-300"
+                                className="group p-6 rounded-xl border border-grace bg-white hover:shadow-md hover:border-sacred/50 transition-all duration-300"
                             >
                                 <div className="flex items-center justify-between mb-5">
-                                    <div className="text-xs font-semibold text-blue-600 bg-blue-50 px-3 py-1 rounded-lg">
+                                    <div className="text-xs font-semibold text-sacred bg-sacred-light px-3 py-1 rounded-lg">
                                         {entry.strongs}
                                     </div>
                                 </div>
-                                <div className="text-3xl font-bold text-scripture mb-2 tracking-tight group-hover:text-blue-600 transition-colors">
+                                <div className="text-3xl font-bold text-scripture mb-2 tracking-tight group-hover:text-gold-dark transition-colors">
                                     {entry.word}
                                 </div>
-                                <div className="text-sm text-primary-dark/60 font-medium mb-1">{entry.transliteration}</div>
+                                <div className="text-sm text-ink-muted font-medium mb-1">{entry.transliteration}</div>
                                 {entry.pronunciation && (
-                                    <div className="text-xs text-primary-dark/40">{entry.pronunciation}</div>
+                                    <div className="text-xs text-ink-light">{entry.pronunciation}</div>
                                 )}
-                                <div className="mt-6 flex items-center text-sm font-medium text-blue-600 opacity-0 group-hover:opacity-100 transition-all translate-x-[-8px] group-hover:translate-x-0">
+                                <div className="mt-6 flex items-center text-sm font-medium text-sacred opacity-0 group-hover:opacity-100 transition-all translate-x-[-8px] group-hover:translate-x-0">
                                     Study Word <ArrowRightIcon className="w-4 h-4 ml-1" />
                                 </div>
                             </Link>
@@ -336,13 +336,13 @@ export default async function LexiconHubPage() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-24">
                     <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8">
                         <div>
-                            <div className="inline-flex items-center space-x-2 text-blue-600 font-semibold text-sm mb-4">
+                            <div className="inline-flex items-center space-x-2 text-sacred font-semibold text-sm mb-4">
                                 <SparklesIcon className="w-4 h-4" />
                                 <span>Hebrew Scripture Study</span>
                             </div>
                             <h2 className="text-4xl font-bold text-scripture tracking-tight">Old Testament Hebrew</h2>
                         </div>
-                        <div className="text-sm text-primary-dark/60 border-l-2 border-grace pl-5">
+                        <div className="text-sm text-ink-muted border-l-2 border-grace pl-5">
                             Lexicon <br />
                             <span className="text-scripture font-semibold">{totalHebrew.toLocaleString()} Entries</span>
                         </div>
@@ -353,21 +353,21 @@ export default async function LexiconHubPage() {
                             <Link
                                 key={entry.strongs}
                                 href={`/lexicon/${entry.strongs}`}
-                                className="group p-6 rounded-xl border border-grace bg-white hover:shadow-md hover:border-blue-300 transition-all duration-300"
+                                className="group p-6 rounded-xl border border-grace bg-white hover:shadow-md hover:border-sacred/50 transition-all duration-300"
                             >
                                 <div className="flex items-center justify-between mb-5">
-                                    <div className="text-xs font-semibold text-blue-600 bg-blue-50 px-3 py-1 rounded-lg">
+                                    <div className="text-xs font-semibold text-sacred bg-sacred-light px-3 py-1 rounded-lg">
                                         {entry.strongs}
                                     </div>
                                 </div>
-                                <div className="text-4xl font-bold text-scripture mb-2 tracking-tight text-right group-hover:text-blue-600 transition-colors" dir="rtl">
+                                <div className="text-4xl font-bold text-scripture mb-2 tracking-tight text-right group-hover:text-gold-dark transition-colors" dir="rtl">
                                     {entry.word}
                                 </div>
-                                <div className="text-sm text-primary-dark/60 font-medium mb-1">{entry.transliteration}</div>
+                                <div className="text-sm text-ink-muted font-medium mb-1">{entry.transliteration}</div>
                                 {entry.pronunciation && (
-                                    <div className="text-xs text-primary-dark/40">{entry.pronunciation}</div>
+                                    <div className="text-xs text-ink-light">{entry.pronunciation}</div>
                                 )}
-                                <div className="mt-6 flex items-center text-sm font-medium text-blue-600 opacity-0 group-hover:opacity-100 transition-all translate-x-[-8px] group-hover:translate-x-0">
+                                <div className="mt-6 flex items-center text-sm font-medium text-sacred opacity-0 group-hover:opacity-100 transition-all translate-x-[-8px] group-hover:translate-x-0">
                                     Study Word <ArrowRightIcon className="w-4 h-4 ml-1" />
                                 </div>
                             </Link>
@@ -378,11 +378,11 @@ export default async function LexiconHubPage() {
 
             {/* 7. CTA */}
             <section className="py-24 px-4">
-                <div className="max-w-5xl mx-auto p-16 rounded-lg bg-gradient-to-br from-blue-600 to-blue-700 text-center relative overflow-hidden shadow-lg">
+                <div className="max-w-5xl mx-auto p-16 rounded-lg bg-gradient-to-br from-scripture to-scripture/80 text-center relative overflow-hidden shadow-lg">
                     <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_rgba(255,255,255,0.1)_0%,_transparent_60%)]" />
 
                     <div className="relative z-10">
-                        <div className="inline-flex items-center space-x-2 text-blue-200 font-semibold text-sm mb-8">
+                        <div className="inline-flex items-center space-x-2 text-sacred font-semibold text-sm mb-8">
                             <BookOpenIcon className="w-5 h-5" />
                             <span>Biblical Scholarship</span>
                         </div>
@@ -391,16 +391,16 @@ export default async function LexiconHubPage() {
                             Begin Your Study
                         </h2>
 
-                        <p className="text-lg text-blue-100 mb-12 max-w-2xl mx-auto leading-relaxed">
+                        <p className="text-lg text-sacred-light mb-12 max-w-2xl mx-auto leading-relaxed">
                             Navigate through Strong's definitions, concordances, and word-usage statistics for total scriptural clarity.
                         </p>
 
                         <div className="flex flex-wrap justify-center gap-4">
-                            <Link href="/lexicon/browse/greek" className="px-8 py-3.5 bg-white text-blue-600 rounded-xl text-sm font-semibold shadow-sm hover:bg-primary-light transition-colors flex items-center group/btn">
+                            <Link href="/lexicon/browse/greek" className="px-8 py-3.5 bg-white text-sacred rounded-xl text-sm font-semibold shadow-sm hover:bg-primary-light transition-colors flex items-center group/btn">
                                 <span>Greek Index</span>
                                 <ArrowRightIcon className="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform" />
                             </Link>
-                            <Link href="/lexicon/browse/hebrew" className="px-8 py-3.5 bg-blue-500 text-white border border-blue-400 rounded-xl text-sm font-semibold hover:bg-blue-400 transition-colors flex items-center group/btn">
+                            <Link href="/lexicon/browse/hebrew" className="px-8 py-3.5 bg-sacred-light text-white border border-sacred rounded-xl text-sm font-semibold hover:bg-sacred-light transition-colors flex items-center group/btn">
                                 <span>Hebrew Index</span>
                                 <ArrowRightIcon className="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform" />
                             </Link>

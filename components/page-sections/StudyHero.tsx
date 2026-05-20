@@ -70,7 +70,7 @@ export default function StudyHero({
           </h1>
 
           {subtitle && (
-            <p className="text-primary-dark/70 text-sm md:text-base leading-relaxed max-w-2xl">
+            <p className="text-ink-muted text-sm md:text-base leading-relaxed max-w-2xl">
               {subtitle}
             </p>
           )}
@@ -80,7 +80,7 @@ export default function StudyHero({
               {stats.map((stat, i) => (
                 <div key={i} className="text-center">
                   <span className="block text-xl font-bold text-scripture">{stat.value}</span>
-                  <span className="text-xs text-primary-dark/60 uppercase tracking-wider">{stat.label}</span>
+                  <span className="text-xs text-ink-muted uppercase tracking-wider">{stat.label}</span>
                 </div>
               ))}
             </div>

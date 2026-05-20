@@ -86,23 +86,23 @@ export default async function EraGeographyPage({ params }: PageProps) {
         <nav className="bg-white border-b border-grace">
           <div className="max-w-4xl mx-auto px-4 py-3">
             <ol className="flex items-center flex-wrap gap-y-1 text-sm">
-              <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
-              <li className="text-primary-dark/40 mx-2">/</li>
-              <li><Link href="/bible-places" className="text-blue-600 hover:underline">Bible Places</Link></li>
-              <li className="text-primary-dark/40 mx-2">/</li>
-              <li><Link href="/bible-places/era" className="text-blue-600 hover:underline">By Era</Link></li>
-              <li className="text-primary-dark/40 mx-2">/</li>
-              <li className="text-primary-dark/70 truncate max-w-[200px]">{data.eraName}</li>
+              <li><Link href="/" className="text-sacred hover:underline">Home</Link></li>
+              <li className="text-ink-light mx-2">/</li>
+              <li><Link href="/bible-places" className="text-sacred hover:underline">Bible Places</Link></li>
+              <li className="text-ink-light mx-2">/</li>
+              <li><Link href="/bible-places/era" className="text-sacred hover:underline">By Era</Link></li>
+              <li className="text-ink-light mx-2">/</li>
+              <li className="text-ink-muted truncate max-w-[200px]">{data.eraName}</li>
             </ol>
           </div>
         </nav>
 
-        <section className="py-12 bg-gradient-to-b from-blue-50 to-primary-light/30">
+        <section className="py-12 bg-gradient-to-b from-scripture to-primary-light/30">
           <div className="max-w-4xl mx-auto px-4 text-center">
             <h1 className="text-3xl md:text-4xl font-bold font-display text-scripture mb-3">
-              Places of the <span className="text-blue-600">{data.eraName}</span>
+              Places of the <span className="text-sacred">{data.eraName}</span>
             </h1>
-            <p className="text-lg text-primary-dark/70 max-w-2xl mx-auto">
+            <p className="text-lg text-ink-muted max-w-2xl mx-auto">
               {data.places.length} biblical places and {data.events.length} key events
               from this period of biblical history.
             </p>
@@ -121,12 +121,12 @@ export default async function EraGeographyPage({ params }: PageProps) {
 
           {/* CTA */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            <Link href="/timeline" className="bg-blue-600 rounded-lg p-5 text-white shadow-lg flex items-center justify-between hover:bg-blue-700 transition-colors">
+            <Link href="/timeline" className="bg-scripture rounded-lg p-5 text-white shadow-lg flex items-center justify-between hover:bg-ink-muted transition-colors">
               <div>
                 <h3 className="font-bold text-lg">Full Bible Timeline</h3>
                 <p className="text-white/80 text-xs">Complete chronological history</p>
               </div>
-              <span className="bg-white text-blue-600 px-4 py-2 rounded-lg font-bold text-sm uppercase shrink-0 ml-3">View</span>
+              <span className="bg-white text-sacred px-4 py-2 rounded-lg font-bold text-sm uppercase shrink-0 ml-3">View</span>
             </Link>
             <Link href="/bible-geography-quiz" className="bg-scripture rounded-lg p-5 text-white shadow-lg flex items-center justify-between hover:bg-scripture/90 transition-colors">
               <div>
@@ -148,10 +148,10 @@ export default async function EraGeographyPage({ params }: PageProps) {
                 >
                   <div className="flex items-baseline justify-between mb-2">
                     <h3 className="text-lg font-semibold text-scripture">{event.title}</h3>
-                    <span className="text-xs text-primary-dark/40 font-medium shrink-0 ml-2">{event.date}</span>
+                    <span className="text-xs text-ink-light font-medium shrink-0 ml-2">{event.date}</span>
                   </div>
                   {event.scriptureRefs.length > 0 && (
-                    <p className="text-xs text-blue-600 mb-2">{event.scriptureRefs.join(', ')}</p>
+                    <p className="text-xs text-sacred mb-2">{event.scriptureRefs.join(', ')}</p>
                   )}
                   {event.places.length > 0 && (
                     <div className="flex flex-wrap gap-1.5 mt-2">
@@ -161,12 +161,12 @@ export default async function EraGeographyPage({ params }: PageProps) {
                           <Link
                             key={name}
                             href={`/bible-places/${place.slug}`}
-                            className="px-2 py-0.5 bg-blue-50 text-blue-600 text-xs rounded hover:bg-blue-100 transition-colors"
+                            className="px-2 py-0.5 bg-blue-50 text-sacred text-xs rounded hover:bg-sacred-light transition-colors"
                           >
                             {name}
                           </Link>
                         ) : (
-                          <span key={name} className="px-2 py-0.5 bg-grace/30 text-primary-dark/60 text-xs rounded">
+                          <span key={name} className="px-2 py-0.5 bg-grace/30 text-ink-muted text-xs rounded">
                             {name}
                           </span>
                         );
@@ -186,10 +186,10 @@ export default async function EraGeographyPage({ params }: PageProps) {
                 <Link
                   key={place.slug}
                   href={`/bible-places/${place.slug}`}
-                  className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-blue-300 transition-colors"
+                  className="px-4 py-2.5 bg-white border border-grace rounded-lg text-sm hover:border-sacred/50 transition-colors"
                 >
                   {place.name}
-                  <span className="text-xs text-primary-dark/40 ml-1">({place.type})</span>
+                  <span className="text-xs text-ink-light ml-1">({place.type})</span>
                 </Link>
               ))}
             </div>
@@ -200,10 +200,10 @@ export default async function EraGeographyPage({ params }: PageProps) {
             {prevSlug ? (
               <Link
                 href={`/bible-places/era/${prevSlug}`}
-                className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex-1 bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="text-xs text-primary-dark/60">Previous Era</span>
-                <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors truncate">
+                <span className="text-xs text-ink-muted">Previous Era</span>
+                <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors truncate">
                   {getGeographyForEra(prevSlug)?.eraName || prevSlug}
                 </span>
               </Link>
@@ -211,10 +211,10 @@ export default async function EraGeographyPage({ params }: PageProps) {
             {nextSlug ? (
               <Link
                 href={`/bible-places/era/${nextSlug}`}
-                className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-blue-300 hover:shadow-sm transition-all group"
+                className="flex-1 text-right bg-white border border-grace rounded-lg px-4 py-3 hover:border-sacred/50 hover:shadow-sm transition-all group"
               >
-                <span className="text-xs text-primary-dark/60">Next Era</span>
-                <span className="block font-semibold text-scripture group-hover:text-blue-600 transition-colors truncate">
+                <span className="text-xs text-ink-muted">Next Era</span>
+                <span className="block font-semibold text-scripture group-hover:text-gold-dark transition-colors truncate">
                   {getGeographyForEra(nextSlug)?.eraName || nextSlug}
                 </span>
               </Link>
@@ -225,12 +225,12 @@ export default async function EraGeographyPage({ params }: PageProps) {
           <section className="bg-grace/10 border border-grace rounded-xl p-6">
             <h2 className="text-lg font-bold text-scripture mb-3">Related Resources</h2>
             <div className="grid gap-2 sm:grid-cols-2">
-              <Link href="/bible-places/era" className="text-blue-600 hover:underline text-sm">All Eras</Link>
-              <Link href="/bible-places" className="text-blue-600 hover:underline text-sm">All Bible Places</Link>
-              <Link href="/timeline" className="text-blue-600 hover:underline text-sm">Bible Timeline</Link>
-              <Link href="/bible-geography" className="text-blue-600 hover:underline text-sm">Bible Geography</Link>
-              <Link href="/bible-geography-quiz" className="text-blue-600 hover:underline text-sm">Geography Quizzes</Link>
-              <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">Bible Quizzes</Link>
+              <Link href="/bible-places/era" className="text-sacred hover:underline text-sm">All Eras</Link>
+              <Link href="/bible-places" className="text-sacred hover:underline text-sm">All Bible Places</Link>
+              <Link href="/timeline" className="text-sacred hover:underline text-sm">Bible Timeline</Link>
+              <Link href="/bible-geography" className="text-sacred hover:underline text-sm">Bible Geography</Link>
+              <Link href="/bible-geography-quiz" className="text-sacred hover:underline text-sm">Geography Quizzes</Link>
+              <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">Bible Quizzes</Link>
             </div>
           </section>
         </main>

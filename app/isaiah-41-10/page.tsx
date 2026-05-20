@@ -179,13 +179,13 @@ export default function Isaiah4110Page() {
       <nav className="bg-white dark:bg-dark-surface border-b border-grace dark:border-dark-border">
         <div className="max-w-4xl mx-auto px-4 py-3">
           <ol className="flex items-center flex-wrap gap-y-1 text-sm">
-            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li><Link href="/bible-quizzes" className="text-blue-600 hover:underline">Bible Study</Link></li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li><Link href="/isaiah-chapters" className="text-blue-600 hover:underline">Isaiah</Link></li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li className="text-primary-dark/70 font-medium">Isaiah 41:10</li>
+            <li><Link href="/" className="text-sacred hover:underline">Home</Link></li>
+            <li className="text-ink-light mx-2">/</li>
+            <li><Link href="/bible-quizzes" className="text-sacred hover:underline">Bible Study</Link></li>
+            <li className="text-ink-light mx-2">/</li>
+            <li><Link href="/isaiah-chapters" className="text-sacred hover:underline">Isaiah</Link></li>
+            <li className="text-ink-light mx-2">/</li>
+            <li className="text-ink-muted font-medium">Isaiah 41:10</li>
           </ol>
         </div>
       </nav>
@@ -202,7 +202,7 @@ export default function Isaiah4110Page() {
           />
         </div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 py-16 md:py-24 text-center">
-          <p className="text-blue-300 text-sm font-bold uppercase tracking-widest mb-4">God&apos;s Promise to Strengthen, Help, and Uphold</p>
+          <p className="text-sacred text-sm font-bold uppercase tracking-widest mb-4">God&apos;s Promise to Strengthen, Help, and Uphold</p>
           <h1 className="text-4xl md:text-6xl font-bold text-white font-display leading-tight mb-8">
             Isaiah 41:10 Explained
           </h1>
@@ -210,10 +210,10 @@ export default function Isaiah4110Page() {
             <p className="text-xl md:text-2xl text-white leading-relaxed italic font-light">
               &ldquo;Fear thou not; for I am with thee: be not dismayed; for I am thy God: I will strengthen thee; yea, I will help thee; yea, I will uphold thee with the right hand of my righteousness.&rdquo;
             </p>
-            <cite className="block mt-4 text-blue-200 text-sm font-bold not-italic">— Isaiah 41:10 (KJV)</cite>
+            <cite className="block mt-4 text-sacred text-sm font-bold not-italic">— Isaiah 41:10 (KJV)</cite>
           </blockquote>
           <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
-            <a href="#quiz" className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition-colors text-sm uppercase tracking-wider">
+            <a href="#quiz" className="inline-flex items-center justify-center bg-scripture hover:bg-ink-muted text-white font-bold py-3 px-8 rounded-lg transition-colors text-sm uppercase tracking-wider">
               Take the Isaiah 41:10 Quiz
             </a>
             <a href="#word-study" className="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white border border-white/20 font-bold py-3 px-8 rounded-lg transition-colors text-sm uppercase tracking-wider">
@@ -228,11 +228,11 @@ export default function Isaiah4110Page() {
         {/* Quick Summary / Value Proposition */}
         <section className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 md:p-8 mb-12 shadow-sm">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-4">What Does Isaiah 41:10 Mean?</h2>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed text-lg mb-4">
+          <p className="text-scripture dark:text-ink-light leading-relaxed text-lg mb-4">
             Isaiah 41:10 is one of the most comforting verses in the entire Bible. In a single sentence, God delivers <strong>two commands</strong> (fear not, be not dismayed) and <strong>three promises</strong> (I will strengthen you, I will help you, I will uphold you). It is God&apos;s personal declaration that His people are never alone, never abandoned, and never without His sovereign support.
           </p>
-          <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
-            God spoke these words through the prophet <Link href="/characters/isaiah" className="text-blue-600 font-medium hover:underline">Isaiah</Link> to comfort Israel as they faced the terrifying prospect of Babylonian exile. The message was clear: the same God who called Abraham, who parted the Red Sea, and who rules over every nation on earth was personally committed to strengthening, helping, and upholding His people. Below, we break down every phrase, explore the context, and test your understanding with a focused quiz.
+          <p className="text-scripture dark:text-ink-light leading-relaxed">
+            God spoke these words through the prophet <Link href="/characters/isaiah" className="text-sacred font-medium hover:underline">Isaiah</Link> to comfort Israel as they faced the terrifying prospect of Babylonian exile. The message was clear: the same God who called Abraham, who parted the Red Sea, and who rules over every nation on earth was personally committed to strengthening, helping, and upholding His people. Below, we break down every phrase, explore the context, and test your understanding with a focused quiz.
           </p>
         </section>
 
@@ -243,11 +243,11 @@ export default function Isaiah4110Page() {
             {WORD_STUDY.map((item, idx) => (
               <div key={idx} className="bg-white dark:bg-dark-surface rounded-lg border border-grace dark:border-dark-border p-5 shadow-sm">
                 <div className="flex items-start gap-4">
-                  <span className="shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm font-bold">{idx + 1}</span>
+                  <span className="shrink-0 w-8 h-8 rounded-full bg-scripture text-white flex items-center justify-center text-sm font-bold">{idx + 1}</span>
                   <div className="flex-1">
                     <h3 className="text-lg font-bold text-scripture dark:text-white mb-1">{item.phrase}</h3>
-                    <p className="text-xs text-blue-600 font-medium mb-2">Hebrew: <em>{item.hebrew}</em></p>
-                    <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed text-sm">{item.explanation}</p>
+                    <p className="text-xs text-sacred font-medium mb-2">Hebrew: <em>{item.hebrew}</em></p>
+                    <p className="text-scripture dark:text-ink-light leading-relaxed text-sm">{item.explanation}</p>
                   </div>
                 </div>
               </div>
@@ -259,30 +259,30 @@ export default function Isaiah4110Page() {
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-scripture dark:text-white font-display mb-6">Context: Isaiah&apos;s Prophecy and Israel Facing Exile</h2>
           <div className="bg-white dark:bg-dark-surface rounded-xl border border-grace dark:border-dark-border p-6 md:p-8 shadow-sm">
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+            <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
               Isaiah 41:10 does not stand in isolation — it is part of a sweeping prophetic message known as the &ldquo;Book of Comfort&rdquo; (Isaiah 40-66). The prophet Isaiah, writing during the reigns of Judah&apos;s kings around 740-680 BC, looked forward to a time when Babylon would conquer Jerusalem, destroy the temple, and carry God&apos;s people into exile. This was the darkest chapter in Israel&apos;s history.
             </p>
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+            <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
               In Isaiah 40, God begins His message of comfort: <strong>&ldquo;Comfort ye, comfort ye my people, saith your God&rdquo;</strong> (Isaiah 40:1). He declares that Israel&apos;s punishment will end, that a voice will cry in the wilderness to prepare the way of the Lord, and that those who wait upon the LORD will renew their strength (40:31).
             </p>
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed mb-4">
+            <p className="text-scripture dark:text-ink-light leading-relaxed mb-4">
               In Isaiah 41, God turns to address the nations. He challenges the coastlands and peoples to present their case (41:1). He declares His sovereignty over history — raising up conquerors, toppling kingdoms, directing the course of empires (41:2-4). Then, in stark contrast to the trembling nations, God turns to His own people with tender reassurance: <strong>&ldquo;But thou, Israel, art my servant, Jacob whom I have chosen&rdquo;</strong> (41:8).
             </p>
-            <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed">
+            <p className="text-scripture dark:text-ink-light leading-relaxed">
               It is in this context — with empires rising and falling, with exile looming, with God demonstrating His absolute authority over all nations — that He speaks the words of Isaiah 41:10. The God who holds the destiny of Babylon in His hand is the same God who holds your hand and says: &ldquo;Fear thou not; for I am with thee.&rdquo;
             </p>
 
             <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-3">
-              <Link href="/characters/isaiah" className="flex items-center gap-2 bg-primary-light/30 dark:bg-dark-bg rounded-lg p-3 border border-grace dark:border-dark-border hover:border-blue-300 transition-colors">
-                <span className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm font-bold shrink-0">I</span>
+              <Link href="/characters/isaiah" className="flex items-center gap-2 bg-primary-light/30 dark:bg-dark-bg rounded-lg p-3 border border-grace dark:border-dark-border hover:border-sacred/50 transition-colors">
+                <span className="w-8 h-8 rounded-full bg-scripture text-white flex items-center justify-center text-sm font-bold shrink-0">I</span>
                 <span className="text-sm font-medium text-scripture dark:text-white">Study Isaiah the Prophet</span>
               </Link>
-              <Link href="/isaiah-41-quiz" className="flex items-center gap-2 bg-primary-light/30 dark:bg-dark-bg rounded-lg p-3 border border-grace dark:border-dark-border hover:border-blue-300 transition-colors">
-                <span className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm font-bold shrink-0">Q</span>
+              <Link href="/isaiah-41-quiz" className="flex items-center gap-2 bg-primary-light/30 dark:bg-dark-bg rounded-lg p-3 border border-grace dark:border-dark-border hover:border-sacred/50 transition-colors">
+                <span className="w-8 h-8 rounded-full bg-scripture text-white flex items-center justify-center text-sm font-bold shrink-0">Q</span>
                 <span className="text-sm font-medium text-scripture dark:text-white">Isaiah 41 Full Quiz</span>
               </Link>
-              <Link href="/bible-chapter-summaries/isaiah/41" className="flex items-center gap-2 bg-primary-light/30 dark:bg-dark-bg rounded-lg p-3 border border-grace dark:border-dark-border hover:border-blue-300 transition-colors">
-                <span className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm font-bold shrink-0">S</span>
+              <Link href="/bible-chapter-summaries/isaiah/41" className="flex items-center gap-2 bg-primary-light/30 dark:bg-dark-bg rounded-lg p-3 border border-grace dark:border-dark-border hover:border-sacred/50 transition-colors">
+                <span className="w-8 h-8 rounded-full bg-scripture text-white flex items-center justify-center text-sm font-bold shrink-0">S</span>
                 <span className="text-sm font-medium text-scripture dark:text-white">Isaiah 41 Summary</span>
               </Link>
             </div>
@@ -295,8 +295,8 @@ export default function Isaiah4110Page() {
           <div className="space-y-3">
             {CROSS_REFERENCES.map((verse, idx) => (
               <div key={idx} className="bg-white dark:bg-dark-surface rounded-lg border border-grace dark:border-dark-border p-5 shadow-sm">
-                <p className="text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed italic mb-2">&ldquo;{verse.text}&rdquo;</p>
-                <p className="text-sm font-bold text-blue-600">— {verse.ref}</p>
+                <p className="text-scripture dark:text-ink-light leading-relaxed italic mb-2">&ldquo;{verse.text}&rdquo;</p>
+                <p className="text-sm font-bold text-sacred">— {verse.ref}</p>
               </div>
             ))}
           </div>
@@ -304,29 +304,29 @@ export default function Isaiah4110Page() {
 
         {/* Embedded Quiz */}
         <section id="quiz" className="mb-12 scroll-mt-20">
-          <div className="bg-white dark:bg-dark-surface rounded-xl border-2 border-blue-600/20 p-6 md:p-8 shadow-sm">
+          <div className="bg-white dark:bg-dark-surface rounded-xl border-2 border-sacred/20 p-6 md:p-8 shadow-sm">
             <div className="text-center mb-6">
-              <p className="text-blue-600 text-xs font-bold uppercase tracking-widest mb-2">Test Your Knowledge</p>
+              <p className="text-sacred text-xs font-bold uppercase tracking-widest mb-2">Test Your Knowledge</p>
               <h2 className="text-2xl font-bold text-scripture dark:text-white font-display">Isaiah 41:10 Quiz</h2>
-              <p className="text-primary-dark/60 dark:text-primary-dark/40 mt-2 text-sm">15 questions on God&apos;s promise to strengthen, help, and uphold His people</p>
+              <p className="text-ink-muted dark:text-ink-light mt-2 text-sm">15 questions on God&apos;s promise to strengthen, help, and uphold His people</p>
             </div>
             {quiz ? (
               <PillarQuiz quiz={quiz} />
             ) : (
-              <p className="text-center text-primary-dark/60">Quiz loading...</p>
+              <p className="text-center text-ink-muted">Quiz loading...</p>
             )}
           </div>
         </section>
 
         {/* Gospel CTA — Conversion Optimized */}
         <section className="mb-12">
-          <div className="bg-gradient-to-br from-scripture via-scripture/95 to-blue-950 rounded-xl p-8 md:p-10 text-white text-center shadow-xl">
+          <div className="bg-gradient-to-br from-scripture via-scripture/95 to-scripture/80 rounded-xl p-8 md:p-10 text-white text-center shadow-xl">
             <h2 className="text-2xl md:text-3xl font-bold font-display mb-4">God Says: Fear Not</h2>
-            <p className="text-blue-100 max-w-2xl mx-auto leading-relaxed mb-6">
+            <p className="text-sacred-light max-w-2xl mx-auto leading-relaxed mb-6">
               The God who spoke to Israel through Isaiah speaks the same words to you today. He promises His presence, His strength, His help, and His unfailing support. If fear and anxiety have gripped your heart, the answer is not a technique — it is a Person. Come to the God who says &ldquo;Fear not&rdquo; and discover the peace that only He can give.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <Link href="/topics/salvation" className="inline-flex items-center justify-center bg-white text-scripture font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors text-sm uppercase tracking-wider">
+              <Link href="/topics/salvation" className="inline-flex items-center justify-center bg-white text-scripture font-bold py-3 px-8 rounded-lg hover:bg-sacred-light transition-colors text-sm uppercase tracking-wider">
                 How to Be Saved
               </Link>
               <Link href="/topics/hope" className="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white border border-white/30 font-bold py-3 px-8 rounded-lg transition-colors text-sm uppercase tracking-wider">
@@ -344,9 +344,9 @@ export default function Isaiah4110Page() {
               <details key={idx} className="bg-white dark:bg-dark-surface rounded-lg border border-grace dark:border-dark-border shadow-sm group">
                 <summary className="p-5 cursor-pointer font-bold text-scripture dark:text-white text-lg flex items-center justify-between list-none">
                   <span>{item.question}</span>
-                  <span className="text-blue-600 text-xl ml-4 shrink-0 group-open:rotate-45 transition-transform">+</span>
+                  <span className="text-sacred text-xl ml-4 shrink-0 group-open:rotate-45 transition-transform">+</span>
                 </summary>
-                <div className="px-5 pb-5 text-primary-dark/80 dark:text-primary-dark/40 leading-relaxed border-t border-grace dark:border-dark-border pt-4">
+                <div className="px-5 pb-5 text-scripture dark:text-ink-light leading-relaxed border-t border-grace dark:border-dark-border pt-4">
                   {item.answer}
                 </div>
               </details>
@@ -357,16 +357,16 @@ export default function Isaiah4110Page() {
         {/* Secondary CTA — Quiz + Study Paths */}
         <section className="mb-12">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/isaiah-41-quiz" className="bg-blue-600 hover:bg-blue-700 rounded-xl p-6 text-white transition-colors shadow-lg group">
-              <p className="text-blue-200 text-xs font-bold uppercase tracking-wider mb-2">60 Questions, 4 Difficulty Levels</p>
+            <Link href="/isaiah-41-quiz" className="bg-scripture hover:bg-ink-muted rounded-xl p-6 text-white transition-colors shadow-lg group">
+              <p className="text-sacred text-xs font-bold uppercase tracking-wider mb-2">60 Questions, 4 Difficulty Levels</p>
               <h3 className="text-xl font-bold mb-1">Complete Isaiah Chapter 41 Quiz</h3>
-              <p className="text-blue-100 text-sm">Test everything from God&apos;s sovereignty over nations to His tender care for His people.</p>
+              <p className="text-sacred-light text-sm">Test everything from God&apos;s sovereignty over nations to His tender care for His people.</p>
               <span className="inline-block mt-3 text-sm font-bold uppercase tracking-wider group-hover:translate-x-1 transition-transform">Start Quiz &rarr;</span>
             </Link>
             <Link href="/isaiah-quiz" className="bg-scripture hover:bg-scripture/90 rounded-xl p-6 text-white transition-colors shadow-lg group">
-              <p className="text-blue-200 text-xs font-bold uppercase tracking-wider mb-2">25 Questions Covering All 66 Chapters</p>
+              <p className="text-sacred text-xs font-bold uppercase tracking-wider mb-2">25 Questions Covering All 66 Chapters</p>
               <h3 className="text-xl font-bold mb-1">Complete Book of Isaiah Quiz</h3>
-              <p className="text-blue-100 text-sm">From Isaiah&apos;s calling to the Suffering Servant to the new heavens and new earth.</p>
+              <p className="text-sacred-light text-sm">From Isaiah&apos;s calling to the Suffering Servant to the new heavens and new earth.</p>
               <span className="inline-block mt-3 text-sm font-bold uppercase tracking-wider group-hover:translate-x-1 transition-transform">Start Quiz &rarr;</span>
             </Link>
           </div>
@@ -376,18 +376,18 @@ export default function Isaiah4110Page() {
         <section className="bg-primary-light/30 dark:bg-dark-surface/30 border border-grace dark:border-dark-border rounded-xl p-6">
           <h2 className="text-lg font-bold text-scripture dark:text-white mb-4">Continue Your Study</h2>
           <div className="grid gap-2 sm:grid-cols-2 md:grid-cols-3">
-            <Link href="/isaiah-41-quiz" className="text-blue-600 hover:underline text-sm">Isaiah Chapter 41 Quiz</Link>
-            <Link href="/isaiah-chapters" className="text-blue-600 hover:underline text-sm">All Isaiah Chapter Quizzes</Link>
-            <Link href="/isaiah-quiz" className="text-blue-600 hover:underline text-sm">Complete Book of Isaiah Quiz</Link>
-            <Link href="/topics/fear" className="text-blue-600 hover:underline text-sm">Bible Verses About Fear</Link>
-            <Link href="/topics/strength" className="text-blue-600 hover:underline text-sm">Bible Verses About Strength</Link>
-            <Link href="/topics/faith" className="text-blue-600 hover:underline text-sm">Bible Verses About Faith</Link>
-            <Link href="/topics/hope" className="text-blue-600 hover:underline text-sm">Bible Verses About Hope</Link>
-            <Link href="/topics/salvation" className="text-blue-600 hover:underline text-sm">Bible Verses About Salvation</Link>
-            <Link href="/characters/isaiah" className="text-blue-600 hover:underline text-sm">Isaiah Character Study</Link>
-            <Link href="/bible-chapter-summaries/isaiah/41" className="text-blue-600 hover:underline text-sm">Isaiah Chapter 41 Summary</Link>
-            <Link href="/bible-geography/isaiah/41" className="text-blue-600 hover:underline text-sm">Isaiah 41 Places &amp; Map</Link>
-            <Link href="/john-3-16" className="text-blue-600 hover:underline text-sm">John 3:16 Explained</Link>
+            <Link href="/isaiah-41-quiz" className="text-sacred hover:underline text-sm">Isaiah Chapter 41 Quiz</Link>
+            <Link href="/isaiah-chapters" className="text-sacred hover:underline text-sm">All Isaiah Chapter Quizzes</Link>
+            <Link href="/isaiah-quiz" className="text-sacred hover:underline text-sm">Complete Book of Isaiah Quiz</Link>
+            <Link href="/topics/fear" className="text-sacred hover:underline text-sm">Bible Verses About Fear</Link>
+            <Link href="/topics/strength" className="text-sacred hover:underline text-sm">Bible Verses About Strength</Link>
+            <Link href="/topics/faith" className="text-sacred hover:underline text-sm">Bible Verses About Faith</Link>
+            <Link href="/topics/hope" className="text-sacred hover:underline text-sm">Bible Verses About Hope</Link>
+            <Link href="/topics/salvation" className="text-sacred hover:underline text-sm">Bible Verses About Salvation</Link>
+            <Link href="/characters/isaiah" className="text-sacred hover:underline text-sm">Isaiah Character Study</Link>
+            <Link href="/bible-chapter-summaries/isaiah/41" className="text-sacred hover:underline text-sm">Isaiah Chapter 41 Summary</Link>
+            <Link href="/bible-geography/isaiah/41" className="text-sacred hover:underline text-sm">Isaiah 41 Places &amp; Map</Link>
+            <Link href="/john-3-16" className="text-sacred hover:underline text-sm">John 3:16 Explained</Link>
           </div>
         </section>
       </main>

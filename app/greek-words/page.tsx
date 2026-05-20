@@ -109,7 +109,7 @@ export default function GreekWordsPage() {
 
             {/* BREADCRUMB */}
             <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 pb-2" aria-label="Breadcrumb">
-                <ol className="flex items-center space-x-2 text-sm text-primary-dark/50">
+                <ol className="flex items-center space-x-2 text-sm text-ink-muted">
                     <li><Link href="/" className="hover:text-scripture transition-colors">Home</Link></li>
                     <li><ChevronRightIcon className="w-3 h-3" /></li>
                     <li className="text-scripture font-semibold">Greek Words</li>
@@ -117,7 +117,7 @@ export default function GreekWordsPage() {
             </nav>
 
             {/* HERO */}
-            <section className="relative pt-20 pb-20 bg-gradient-to-br from-blue-700 to-blue-800 text-white">
+            <section className="relative pt-20 pb-20 bg-gradient-to-br from-scripture to-scripture/80 text-white">
                 <div className="absolute inset-0 bg-black/10" />
                 <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="max-w-4xl mx-auto text-center">
@@ -152,7 +152,7 @@ export default function GreekWordsPage() {
 
                         <Link
                           href="/bible-quiz-difficulty/theological"
-                          className="inline-flex items-center px-6 py-3 bg-white text-blue-900 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md w-fit"
+                          className="inline-flex items-center px-6 py-3 bg-white text-scripture font-bold rounded-lg hover:bg-sacred-light transition-colors shadow-md w-fit"
                         >
                           Test Your Biblical Greek Knowledge
                         </Link>
@@ -163,7 +163,7 @@ export default function GreekWordsPage() {
             {/* INTRO PARAGRAPH */}
             <section className="py-16 bg-primary-light/30 border-b border-grace">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="prose prose-lg max-w-none text-primary-dark/70 leading-relaxed">
+                    <div className="prose prose-lg max-w-none text-ink-muted leading-relaxed">
                         <p>
                             The New Testament was written in Koine Greek, the common dialect that served as the lingua franca of the Roman Empire during the first century. Unlike the literary Classical Greek of Homer and Plato, Koine was the language of the marketplace, the harbor, and the household -- precisely the kind of language God chose to communicate the good news of Jesus Christ to the widest possible audience. The 27 books of the New Testament, composed by apostles and their associates between roughly AD 45 and AD 95, employ a vocabulary of about 5,420 unique Greek words.
                         </p>
@@ -185,7 +185,7 @@ export default function GreekWordsPage() {
                             <a
                                 key={letter}
                                 href={`#letter-${letter}`}
-                                className="w-9 h-9 flex items-center justify-center rounded-lg text-sm font-bold text-blue-800 bg-blue-50 hover:bg-blue-700 hover:text-white transition-colors"
+                                className="w-9 h-9 flex items-center justify-center rounded-lg text-sm font-bold text-scripture bg-blue-50 hover:bg-ink-muted hover:text-white transition-colors"
                             >
                                 {letter}
                             </a>
@@ -200,18 +200,18 @@ export default function GreekWordsPage() {
                     {sortedLetters.map((letter) => (
                         <div key={letter} id={`letter-${letter}`} className="mb-16 scroll-mt-24">
                             <div className="flex items-center gap-4 mb-8">
-                                <div className="w-12 h-12 rounded-xl bg-blue-700 text-white flex items-center justify-center text-xl font-bold font-display">
+                                <div className="w-12 h-12 rounded-xl bg-scripture/80 text-white flex items-center justify-center text-xl font-bold font-display">
                                     {letter}
                                 </div>
                                 <div className="h-px flex-1 bg-grace" />
-                                <span className="text-sm text-primary-dark/40 font-medium">{grouped[letter].length} words</span>
+                                <span className="text-sm text-ink-light font-medium">{grouped[letter].length} words</span>
                             </div>
 
                             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                                 {grouped[letter].map((entry) => (
                                     <div
                                         key={entry.slug}
-                                        className="group p-6 rounded-xl bg-white border border-grace hover:border-blue-300 hover:shadow-md transition-all duration-300"
+                                        className="group p-6 rounded-xl bg-white border border-grace hover:border-sacred/50 hover:shadow-md transition-all duration-300"
                                     >
                                         {/* Greek Script */}
                                         <div className="text-3xl font-bold text-scripture mb-2 leading-tight">
@@ -219,12 +219,12 @@ export default function GreekWordsPage() {
                                         </div>
 
                                         {/* Transliteration */}
-                                        <div className="text-lg font-semibold text-blue-800 mb-1 italic">
+                                        <div className="text-lg font-semibold text-scripture mb-1 italic">
                                             {entry.transliteration}
                                         </div>
 
                                         {/* English Meaning */}
-                                        <div className="text-primary-dark/70 mb-4">
+                                        <div className="text-ink-muted mb-4">
                                             {entry.meaning}
                                         </div>
 
@@ -234,7 +234,7 @@ export default function GreekWordsPage() {
                                                 <Link
                                                     key={sn}
                                                     href={`/lexicon/${sn}`}
-                                                    className="inline-flex items-center px-2.5 py-1 rounded-md bg-blue-50 text-blue-800 text-xs font-semibold hover:bg-blue-700 hover:text-white transition-colors"
+                                                    className="inline-flex items-center px-2.5 py-1 rounded-md bg-blue-50 text-scripture text-xs font-semibold hover:bg-ink-muted hover:text-white transition-colors"
                                                 >
                                                     {sn}
                                                 </Link>
@@ -244,7 +244,7 @@ export default function GreekWordsPage() {
                                         {/* Concept Study Link */}
                                         <Link
                                             href={`/lexicon/concept/${entry.slug}`}
-                                            className="inline-flex items-center text-sm font-semibold text-blue-700 hover:text-blue-900 transition-colors group/link"
+                                            className="inline-flex items-center text-sm font-semibold text-scripture hover:text-gold-dark transition-colors group/link"
                                         >
                                             <span>Full Word Study</span>
                                             <ArrowRightIcon className="w-4 h-4 ml-1 group-hover/link:translate-x-1 transition-transform" />
@@ -268,7 +268,7 @@ export default function GreekWordsPage() {
                         {faqs.map((faq, i) => (
                             <div key={i} className="p-8 rounded-xl bg-white border border-grace">
                                 <h3 className="text-xl font-bold text-scripture mb-4">{faq.question}</h3>
-                                <p className="text-primary-dark/70 leading-relaxed">{faq.answer}</p>
+                                <p className="text-ink-muted leading-relaxed">{faq.answer}</p>
                             </div>
                         ))}
                     </div>
@@ -277,16 +277,16 @@ export default function GreekWordsPage() {
 
             {/* QUIZ CTA */}
             <section className="py-12 px-4 sm:px-6 lg:px-8">
-              <div className="max-w-4xl mx-auto bg-gradient-to-r from-blue-700 to-blue-800 rounded-xl p-6 md:p-8 text-white text-center">
+              <div className="max-w-4xl mx-auto bg-gradient-to-r from-scripture to-scripture/80 rounded-xl p-6 md:p-8 text-white text-center">
                 <h2 className="text-2xl font-bold font-display mb-3">
                   Test Your Knowledge of Biblical Greek
                 </h2>
-                <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
+                <p className="text-sacred-light mb-6 max-w-2xl mx-auto">
                   Our theological-level quizzes include questions on Greek word studies, original language meanings, and New Testament vocabulary.
                 </p>
                 <Link
                   href="/bible-quiz-difficulty/theological"
-                  className="inline-flex items-center px-8 py-4 bg-white text-blue-800 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-lg text-lg"
+                  className="inline-flex items-center px-8 py-4 bg-white text-scripture font-bold rounded-lg hover:bg-sacred-light transition-colors shadow-lg text-lg"
                 >
                   Take a Theological Quiz
                 </Link>
@@ -303,12 +303,12 @@ export default function GreekWordsPage() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                         <Link
                             href="/bible-quiz-difficulty/theological"
-                            className="group p-6 rounded-xl bg-blue-600 text-white hover:bg-blue-700 hover:shadow-md transition-all duration-300"
+                            className="group p-6 rounded-xl bg-scripture text-white hover:bg-ink-muted hover:shadow-md transition-all duration-300"
                         >
                             <h3 className="text-lg font-bold mb-2">
                                 Test Your Greek Knowledge
                             </h3>
-                            <p className="text-sm text-blue-100 mb-4">Take a theological quiz on Greek word studies and New Testament vocabulary</p>
+                            <p className="text-sm text-sacred-light mb-4">Take a theological quiz on Greek word studies and New Testament vocabulary</p>
                             <div className="flex items-center text-white text-sm font-semibold">
                                 <span>Take Quiz</span>
                                 <ArrowRightIcon className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
@@ -323,13 +323,13 @@ export default function GreekWordsPage() {
                             <Link
                                 key={link.href}
                                 href={link.href}
-                                className="group p-6 rounded-xl bg-white border border-grace hover:border-blue-300 hover:shadow-md transition-all duration-300"
+                                className="group p-6 rounded-xl bg-white border border-grace hover:border-sacred/50 hover:shadow-md transition-all duration-300"
                             >
-                                <h3 className="text-lg font-bold text-scripture mb-2 group-hover:text-blue-700 transition-colors">
+                                <h3 className="text-lg font-bold text-scripture mb-2 group-hover:text-gold-dark transition-colors">
                                     {link.title}
                                 </h3>
-                                <p className="text-sm text-primary-dark/60 mb-4">{link.desc}</p>
-                                <div className="flex items-center text-blue-700 text-sm font-semibold">
+                                <p className="text-sm text-ink-muted mb-4">{link.desc}</p>
+                                <div className="flex items-center text-scripture text-sm font-semibold">
                                     <span>Explore</span>
                                     <ArrowRightIcon className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
                                 </div>

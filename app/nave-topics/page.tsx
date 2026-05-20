@@ -38,8 +38,8 @@ export default function NaveTopicsPage() {
       <StructuredData data={jsonLd} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-primary-dark/60">
-        <Link href="/" className="hover:text-blue-600">Home</Link>
+      <nav className="max-w-6xl mx-auto px-4 pt-4 text-sm text-ink-muted">
+        <Link href="/" className="hover:text-gold-dark">Home</Link>
         <span className="mx-1.5">/</span>
         <span className="text-scripture font-medium">Nave&apos;s Topical Bible</span>
       </nav>
@@ -51,7 +51,7 @@ export default function NaveTopicsPage() {
             <h1 className="text-3xl md:text-4xl font-bold font-display mb-3 text-scripture">
               Nave&apos;s Topical Bible
             </h1>
-            <p className="text-lg text-primary-dark/70 max-w-2xl mb-6">
+            <p className="text-lg text-ink-muted max-w-2xl mb-6">
               The most comprehensive topical index of the Bible. Browse over{' '}
               {stats.topics.toLocaleString()} topics with {stats.totalRefs.toLocaleString()}+ scripture
               references, organized alphabetically from A to Z.
@@ -59,15 +59,15 @@ export default function NaveTopicsPage() {
             <div className="flex flex-wrap gap-6 text-center">
               <div>
                 <p className="text-3xl font-bold text-scripture">{stats.topics.toLocaleString()}</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Topics</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Topics</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-scripture">{stats.totalRefs.toLocaleString()}</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">References</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">References</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-scripture">{stats.topicBookCombos.toLocaleString()}</p>
-                <p className="text-xs text-primary-dark/60 uppercase tracking-wider">Topic-Book Studies</p>
+                <p className="text-xs text-ink-muted uppercase tracking-wider">Topic-Book Studies</p>
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@ export default function NaveTopicsPage() {
             <a
               key={sec}
               href={`#section-${sec}`}
-              className="w-9 h-9 flex items-center justify-center rounded-lg bg-white border border-grace text-sm font-bold text-primary-dark/80 hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-colors"
+              className="w-9 h-9 flex items-center justify-center rounded-lg bg-white border border-grace text-sm font-bold text-scripture hover:bg-ink-muted hover:text-white hover:border-sacred/50 transition-colors"
             >
               {sec}
             </a>
@@ -96,23 +96,23 @@ export default function NaveTopicsPage() {
           return (
             <div key={sec} id={`section-${sec}`} className="mb-10">
               <div className="flex items-center gap-3 mb-4">
-                <span className="w-10 h-10 flex items-center justify-center rounded-lg bg-blue-600 text-white font-bold text-lg">
+                <span className="w-10 h-10 flex items-center justify-center rounded-lg bg-scripture text-white font-bold text-lg">
                   {sec}
                 </span>
                 <h2 className="text-xl font-bold text-scripture">{sec}</h2>
-                <span className="text-sm text-primary-dark/60">({topics.length} topics)</span>
+                <span className="text-sm text-ink-muted">({topics.length} topics)</span>
               </div>
               <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
                 {topics.map(t => (
                   <Link
                     key={t.slug}
                     href={`/nave-topics/${t.slug}`}
-                    className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-blue-300 transition-all group"
+                    className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-sacred/50 transition-all group"
                   >
-                    <span className="font-semibold text-scripture group-hover:text-blue-600 transition-colors capitalize">
+                    <span className="font-semibold text-scripture group-hover:text-gold-dark transition-colors capitalize">
                       {t.subject.toLowerCase()}
                     </span>
-                    <span className="block text-xs text-primary-dark/60 mt-0.5">
+                    <span className="block text-xs text-ink-muted mt-0.5">
                       {t.refCount} references &middot; {t.books.length} books
                     </span>
                   </Link>
@@ -128,13 +128,13 @@ export default function NaveTopicsPage() {
         <div className="bg-primary-light/30 border border-grace rounded-xl p-6 text-center">
           <h2 className="text-xl font-bold text-scripture mb-2">Explore More</h2>
           <div className="flex flex-wrap justify-center gap-3">
-            <Link href="/topics" className="px-5 py-2.5 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors">
+            <Link href="/topics" className="px-5 py-2.5 bg-scripture text-white text-sm font-medium rounded-lg hover:bg-ink-muted transition-colors">
               Bible Topics
             </Link>
-            <Link href="/commandments" className="px-5 py-2.5 bg-white text-blue-600 text-sm font-medium rounded-lg border border-blue-300 hover:bg-primary-light transition-colors">
+            <Link href="/commandments" className="px-5 py-2.5 bg-white text-sacred text-sm font-medium rounded-lg border border-sacred/50 hover:bg-primary-light transition-colors">
               613 Commandments
             </Link>
-            <Link href="/bible-quizzes" className="px-5 py-2.5 bg-white text-primary-dark/80 text-sm font-medium rounded-lg border border-grace hover:bg-primary-light/50 transition-colors">
+            <Link href="/bible-quizzes" className="px-5 py-2.5 bg-white text-scripture text-sm font-medium rounded-lg border border-grace hover:bg-primary-light/50 transition-colors">
               Bible Quizzes
             </Link>
           </div>

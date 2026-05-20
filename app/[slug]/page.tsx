@@ -27,14 +27,14 @@ interface PageProps {
 
 // Section color palette for book outlines
 const SECTION_COLORS = [
-  'bg-blue-100 border-blue-300 text-blue-800',
+  'bg-sacred/10 border-sacred/50 text-scripture',
   'bg-emerald-100 border-emerald-300 text-emerald-800',
   'bg-amber-100 border-amber-300 text-amber-800',
-  'bg-purple-100 border-purple-300 text-purple-800',
+  'bg-scripture/10 border-sacred/20 text-scripture',
   'bg-rose-100 border-rose-300 text-rose-800',
   'bg-teal-100 border-teal-300 text-teal-800',
   'bg-orange-100 border-orange-300 text-orange-800',
-  'bg-blue-100 border-blue-300 text-blue-800',
+  'bg-sacred/10 border-sacred/50 text-scripture',
 ];
 
 function parseOutlineChapterRange(reference: string, totalChapters: number, index: number, totalSections: number): { start: number; end: number } {
@@ -83,18 +83,18 @@ function ChapterQuizIntro({ book, chapter, bookDisplayName, chapterInfo, bookMet
       <div className="max-w-4xl mx-auto px-4 py-3">
         <nav aria-label="Breadcrumb">
           <ol className="flex items-center flex-wrap gap-y-1 text-sm">
-            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li><Link href="/bible-quizzes" className="text-blue-600 hover:underline">Bible Quizzes</Link></li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li><Link href={`/${book}-chapters`} className="text-blue-600 hover:underline">{bookDisplayName}</Link></li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li className="text-primary-dark/70">Chapter {chapter}</li>
+            <li><Link href="/" className="text-sacred hover:underline">Home</Link></li>
+            <li className="text-ink-light mx-2">/</li>
+            <li><Link href="/bible-quizzes" className="text-sacred hover:underline">Bible Quizzes</Link></li>
+            <li className="text-ink-light mx-2">/</li>
+            <li><Link href={`/${book}-chapters`} className="text-sacred hover:underline">{bookDisplayName}</Link></li>
+            <li className="text-ink-light mx-2">/</li>
+            <li className="text-ink-muted">Chapter {chapter}</li>
           </ol>
         </nav>
       </div>
       <div className="max-w-4xl mx-auto px-4 pb-6 pt-2">
-        <p className="text-primary-dark/70 leading-relaxed">
+        <p className="text-ink-muted leading-relaxed">
           {chapterInfo
             ? `${bookDisplayName} chapter ${chapter} covers ${chapterInfo.title.toLowerCase()}${chapterInfo.keyEvent ? ` — ${chapterInfo.keyEvent.toLowerCase()}` : ''}. `
             : `Test your knowledge of ${bookDisplayName} chapter ${chapter}. `}
@@ -378,11 +378,11 @@ export default async function DynamicPage({ params }: PageProps) {
 
     const gradientClass = testament === 'old'
       ? 'bg-gradient-to-br from-amber-900 via-amber-800 to-yellow-900'
-      : 'bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900';
+      : 'bg-gradient-to-br from-scripture via-scripture/60 to-scripture/80';
 
-    const accentTextClass = testament === 'old' ? 'text-amber-200' : 'text-blue-200';
-    const accentLightClass = testament === 'old' ? 'text-amber-100' : 'text-blue-100';
-    const btnClass = testament === 'old' ? 'bg-amber-600 hover:bg-amber-700' : 'bg-blue-600 hover:bg-blue-700';
+    const accentTextClass = testament === 'old' ? 'text-amber-200' : 'text-sacred';
+    const accentLightClass = testament === 'old' ? 'text-amber-100' : 'text-sacred-light';
+    const btnClass = testament === 'old' ? 'bg-amber-600 hover:bg-amber-700' : 'bg-scripture hover:bg-ink-muted';
 
     return (
       <>
@@ -484,7 +484,7 @@ export default async function DynamicPage({ params }: PageProps) {
               {/* Introduction */}
               <div className="mb-10">
                 <h2 className="text-2xl font-bold text-scripture mb-4">About {bookName}</h2>
-                <div className="text-primary-dark/80 leading-relaxed space-y-4">
+                <div className="text-scripture leading-relaxed space-y-4">
                   {bookIntro.introduction.split('\n\n').slice(0, 3).map((p, i) => (
                     <p key={i}>{p}</p>
                   ))}
@@ -499,7 +499,7 @@ export default async function DynamicPage({ params }: PageProps) {
                     {bookIntro.keyThemes.slice(0, 6).map((t, i) => (
                       <div key={i} className="border border-grace rounded-lg p-4">
                         <h3 className="font-semibold text-scripture mb-1">{t.theme}</h3>
-                        <p className="text-sm text-primary-dark/70">{t.description.slice(0, 150)}{t.description.length > 150 ? '...' : ''}</p>
+                        <p className="text-sm text-ink-muted">{t.description.slice(0, 150)}{t.description.length > 150 ? '...' : ''}</p>
                       </div>
                     ))}
                   </div>
@@ -510,7 +510,7 @@ export default async function DynamicPage({ params }: PageProps) {
               {bookIntro.christInBook && (
                 <div className="mb-10">
                   <h2 className="text-2xl font-bold text-scripture mb-4">Christ in {bookName}</h2>
-                  <div className="text-primary-dark/80 leading-relaxed space-y-4">
+                  <div className="text-scripture leading-relaxed space-y-4">
                     {bookIntro.christInBook.split('\n\n').slice(0, 2).map((p, i) => (
                       <p key={i}>{p}</p>
                     ))}
@@ -524,9 +524,9 @@ export default async function DynamicPage({ params }: PageProps) {
                   <h2 className="text-2xl font-bold text-scripture mb-4">Key Verses</h2>
                   <div className="space-y-3">
                     {bookIntro.keyVerses.slice(0, 8).map((v, i) => (
-                      <div key={i} className="border-l-2 border-blue-300 pl-4">
+                      <div key={i} className="border-l-2 border-sacred/50 pl-4">
                         <p className="font-serif italic text-scripture">&ldquo;{v.text}&rdquo;</p>
-                        <p className="text-sm text-primary-dark/60 mt-1">{v.reference}</p>
+                        <p className="text-sm text-ink-muted mt-1">{v.reference}</p>
                       </div>
                     ))}
                   </div>
@@ -537,7 +537,7 @@ export default async function DynamicPage({ params }: PageProps) {
               {bookIntro.historicalContext && (
                 <div className="mb-10">
                   <h2 className="text-2xl font-bold text-scripture mb-4">Historical Context</h2>
-                  <div className="text-primary-dark/80 leading-relaxed space-y-4">
+                  <div className="text-scripture leading-relaxed space-y-4">
                     {bookIntro.historicalContext.split('\n\n').map((p, i) => (
                       <p key={i}>{renderWithBold(p)}</p>
                     ))}
@@ -549,7 +549,7 @@ export default async function DynamicPage({ params }: PageProps) {
               {bookIntro.theologicalSignificance && (
                 <div className="mb-10">
                   <h2 className="text-2xl font-bold text-scripture mb-4">Theological Significance</h2>
-                  <div className="text-primary-dark/80 leading-relaxed space-y-4">
+                  <div className="text-scripture leading-relaxed space-y-4">
                     {bookIntro.theologicalSignificance.split('\n\n').map((p, i) => (
                       <p key={i}>{renderWithBold(p)}</p>
                     ))}
@@ -561,7 +561,7 @@ export default async function DynamicPage({ params }: PageProps) {
               {bookIntro.literaryStyle && (
                 <div className="mb-10">
                   <h2 className="text-2xl font-bold text-scripture mb-4">Literary Style</h2>
-                  <div className="text-primary-dark/80 leading-relaxed space-y-4">
+                  <div className="text-scripture leading-relaxed space-y-4">
                     {bookIntro.literaryStyle.split('\n\n').map((p, i) => (
                       <p key={i}>{renderWithBold(p)}</p>
                     ))}
@@ -573,7 +573,7 @@ export default async function DynamicPage({ params }: PageProps) {
               {bookIntro.relationshipToNewTestament && (
                 <div className="mb-10">
                   <h2 className="text-2xl font-bold text-scripture mb-4">Relationship to the New Testament</h2>
-                  <div className="text-primary-dark/80 leading-relaxed space-y-4">
+                  <div className="text-scripture leading-relaxed space-y-4">
                     {bookIntro.relationshipToNewTestament.split('\n\n').map((p, i) => (
                       <p key={i}>{renderWithBold(p)}</p>
                     ))}
@@ -585,7 +585,7 @@ export default async function DynamicPage({ params }: PageProps) {
               {bookIntro.practicalApplication && (
                 <div className="mb-10">
                   <h2 className="text-2xl font-bold text-scripture mb-4">Practical Application</h2>
-                  <div className="text-primary-dark/80 leading-relaxed space-y-4">
+                  <div className="text-scripture leading-relaxed space-y-4">
                     {bookIntro.practicalApplication.split('\n\n').map((p, i) => (
                       <p key={i}>{renderWithBold(p)}</p>
                     ))}
@@ -604,7 +604,7 @@ export default async function DynamicPage({ params }: PageProps) {
                 <h2 className="text-2xl md:text-3xl font-bold text-scripture mb-2">
                   Chapter-by-Chapter Breakdown
                 </h2>
-                <p className="text-primary-dark/70">
+                <p className="text-ink-muted">
                   Pick your battles wisely. Here&apos;s what you&apos;re getting into.
                 </p>
               </div>
@@ -613,24 +613,24 @@ export default async function DynamicPage({ params }: PageProps) {
                 <table className="w-full text-sm">
                   <thead className="bg-primary-light/30">
                     <tr>
-                      <th className="px-4 py-3 text-left font-semibold text-primary-dark/80">Ch</th>
-                      <th className="px-4 py-3 text-left font-semibold text-primary-dark/80">Title</th>
-                      <th className="px-4 py-3 text-left font-semibold text-primary-dark/80">Key Event</th>
-                      <th className="px-4 py-3 text-center font-semibold text-primary-dark/80">Verses</th>
-                      <th className="px-4 py-3 text-center font-semibold text-primary-dark/80">Action</th>
+                      <th className="px-4 py-3 text-left font-semibold text-scripture">Ch</th>
+                      <th className="px-4 py-3 text-left font-semibold text-scripture">Title</th>
+                      <th className="px-4 py-3 text-left font-semibold text-scripture">Key Event</th>
+                      <th className="px-4 py-3 text-center font-semibold text-scripture">Verses</th>
+                      <th className="px-4 py-3 text-center font-semibold text-scripture">Action</th>
                     </tr>
                   </thead>
                   <tbody>
                     {Object.entries(chapterBreakdown).slice(0, 20).map(([ch, data]) => (
-                      <tr key={ch} className={`border-t border-grace/50 ${testament === 'old' ? 'hover:bg-amber-50' : 'hover:bg-blue-50'} transition-colors`}>
-                        <td className={`px-4 py-3 font-bold ${testament === 'old' ? 'text-amber-800' : 'text-blue-800'}`}>{ch}</td>
+                      <tr key={ch} className={`border-t border-grace/50 ${testament === 'old' ? 'hover:bg-amber-50' : 'hover:bg-sacred-light'} transition-colors`}>
+                        <td className={`px-4 py-3 font-bold ${testament === 'old' ? 'text-amber-800' : 'text-scripture'}`}>{ch}</td>
                         <td className="px-4 py-3 font-medium text-scripture">{data.title}</td>
-                        <td className="px-4 py-3 text-primary-dark/70">{data.keyEvent}</td>
-                        <td className="px-4 py-3 text-center text-primary-dark/60">{data.verses}</td>
+                        <td className="px-4 py-3 text-ink-muted">{data.keyEvent}</td>
+                        <td className="px-4 py-3 text-center text-ink-muted">{data.verses}</td>
                         <td className="px-4 py-3 text-center">
                           <Link
                             href={`/${chaptersBook}-${ch}-quiz`}
-                            className={`${testament === 'old' ? 'text-amber-600 hover:text-amber-800' : 'text-blue-600 hover:text-blue-800'} font-medium hover:underline`}
+                            className={`${testament === 'old' ? 'text-amber-600 hover:text-amber-800' : 'text-sacred hover:text-gold-dark'} font-medium hover:underline`}
                           >
                             Take Quiz
                           </Link>
@@ -643,7 +643,7 @@ export default async function DynamicPage({ params }: PageProps) {
 
               {Object.keys(chapterBreakdown).length > 20 && (
                 <div className="text-center mt-4">
-                  <p className="text-sm text-primary-dark/60">Showing first 20 of {Object.keys(chapterBreakdown).length} chapters. Click any chapter above to see its quiz.</p>
+                  <p className="text-sm text-ink-muted">Showing first 20 of {Object.keys(chapterBreakdown).length} chapters. Click any chapter above to see its quiz.</p>
                 </div>
               )}
             </div>

@@ -55,27 +55,27 @@ export default function EraGeographyHubPage() {
       ]} />
 
       <div className="min-h-screen bg-primary-light/30">
-        <section className="py-16 bg-gradient-to-b from-blue-50 to-primary-light/30">
+        <section className="py-16 bg-gradient-to-b from-scripture to-primary-light/30">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl md:text-5xl font-bold font-display text-scripture mb-4">
-              Bible Places by <span className="text-blue-600">Historical Era</span>
+              Bible Places by <span className="text-sacred">Historical Era</span>
             </h1>
-            <p className="text-lg text-primary-dark/70 max-w-2xl mx-auto mb-8">
+            <p className="text-lg text-ink-muted max-w-2xl mx-auto mb-8">
               Journey through biblical history and discover the places where key events unfolded,
               from creation through the apostolic age.
             </p>
             <div className="flex justify-center gap-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">{stats.totalEras}</div>
-                <div className="text-sm text-primary-dark/60">Eras</div>
+                <div className="text-3xl font-bold text-sacred">{stats.totalEras}</div>
+                <div className="text-sm text-ink-muted">Eras</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">{stats.totalPlaces}</div>
-                <div className="text-sm text-primary-dark/60">Places</div>
+                <div className="text-3xl font-bold text-sacred">{stats.totalPlaces}</div>
+                <div className="text-sm text-ink-muted">Places</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">{stats.totalEvents}</div>
-                <div className="text-sm text-primary-dark/60">Events</div>
+                <div className="text-3xl font-bold text-sacred">{stats.totalEvents}</div>
+                <div className="text-sm text-ink-muted">Events</div>
               </div>
             </div>
           </div>
@@ -83,12 +83,12 @@ export default function EraGeographyHubPage() {
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-[-2rem] relative z-20 mb-12">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/bible-places" className="bg-blue-600 rounded-lg p-6 text-white shadow-lg flex items-center justify-between hover:bg-blue-700 transition-colors">
+            <Link href="/bible-places" className="bg-scripture rounded-lg p-6 text-white shadow-lg flex items-center justify-between hover:bg-ink-muted transition-colors">
               <div>
                 <h3 className="font-bold text-lg">Browse All Bible Places</h3>
                 <p className="text-white/80 text-xs">1,300+ places with maps and verse references</p>
               </div>
-              <span className="bg-white text-blue-600 px-4 py-2 rounded-lg font-bold text-sm uppercase shrink-0 ml-3">View</span>
+              <span className="bg-white text-sacred px-4 py-2 rounded-lg font-bold text-sm uppercase shrink-0 ml-3">View</span>
             </Link>
             <Link href="/timeline" className="bg-scripture rounded-lg p-6 text-white shadow-lg flex items-center justify-between hover:bg-scripture/90 transition-colors">
               <div>
@@ -106,23 +106,23 @@ export default function EraGeographyHubPage() {
               <Link
                 key={era.eraSlug}
                 href={`/bible-places/era/${era.eraSlug}`}
-                className="block bg-white border border-grace rounded-xl p-6 hover:shadow-md hover:border-blue-300 transition-all group"
+                className="block bg-white border border-grace rounded-xl p-6 hover:shadow-md hover:border-sacred/50 transition-all group"
               >
-                <h2 className="text-xl font-bold text-scripture group-hover:text-blue-600 transition-colors mb-2">
+                <h2 className="text-xl font-bold text-scripture group-hover:text-gold-dark transition-colors mb-2">
                   {era.eraName}
                 </h2>
                 <div className="flex gap-4 mb-3">
-                  <span className="text-sm text-primary-dark/60">{era.places.length} places</span>
-                  <span className="text-sm text-primary-dark/60">{era.events.length} events</span>
+                  <span className="text-sm text-ink-muted">{era.places.length} places</span>
+                  <span className="text-sm text-ink-muted">{era.events.length} events</span>
                 </div>
                 <div className="flex flex-wrap gap-1.5">
                   {era.places.slice(0, 8).map(p => (
-                    <span key={p.slug} className="px-2 py-0.5 bg-blue-50 text-blue-600 text-xs rounded">
+                    <span key={p.slug} className="px-2 py-0.5 bg-blue-50 text-sacred text-xs rounded">
                       {p.name}
                     </span>
                   ))}
                   {era.places.length > 8 && (
-                    <span className="px-2 py-0.5 bg-grace/30 text-primary-dark/40 text-xs rounded">
+                    <span className="px-2 py-0.5 bg-grace/30 text-ink-light text-xs rounded">
                       +{era.places.length - 8} more
                     </span>
                   )}
@@ -134,12 +134,12 @@ export default function EraGeographyHubPage() {
           <section className="bg-grace/10 border border-grace rounded-xl p-6 mt-8">
             <h2 className="text-lg font-bold text-scripture mb-3">Continue Your Study</h2>
             <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-              <Link href="/bible-places" className="text-blue-600 hover:underline text-sm">All Bible Places</Link>
-              <Link href="/timeline" className="text-blue-600 hover:underline text-sm">Bible Timeline</Link>
-              <Link href="/bible-geography" className="text-blue-600 hover:underline text-sm">Bible Geography</Link>
-              <Link href="/bible-geography-quiz" className="text-blue-600 hover:underline text-sm">Geography Quizzes</Link>
-              <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">Bible Quizzes</Link>
-              <Link href="/characters-by-topic" className="text-blue-600 hover:underline text-sm">Characters by Topic</Link>
+              <Link href="/bible-places" className="text-sacred hover:underline text-sm">All Bible Places</Link>
+              <Link href="/timeline" className="text-sacred hover:underline text-sm">Bible Timeline</Link>
+              <Link href="/bible-geography" className="text-sacred hover:underline text-sm">Bible Geography</Link>
+              <Link href="/bible-geography-quiz" className="text-sacred hover:underline text-sm">Geography Quizzes</Link>
+              <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">Bible Quizzes</Link>
+              <Link href="/characters-by-topic" className="text-sacred hover:underline text-sm">Characters by Topic</Link>
             </div>
           </section>
         </main>
