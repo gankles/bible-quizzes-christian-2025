@@ -44,24 +44,24 @@ export default function QuizResultsImproved({ quiz, result, onRetake }: QuizResu
   // Helper function to get icon based on link type
   const getLinkIcon = (type: string) => {
     switch (type) {
-      case 'sequential': return <ArrowRightIcon className="h-5 w-5 text-blue-600" />;
-      case 'cross-reference': return <LinkIcon className="h-5 w-5 text-purple-600" />;
+      case 'sequential': return <ArrowRightIcon className="h-5 w-5 text-sacred" />;
+      case 'cross-reference': return <LinkIcon className="h-5 w-5 text-scripture" />;
       case 'character': return <UserIcon className="h-5 w-5 text-orange-600" />;
       case 'popular': return <StarIcon className="h-5 w-5 text-yellow-600" />;
-      case 'hub': return <BookOpenIcon className="h-5 w-5 text-primary-dark/70" />;
-      default: return <BookOpenIcon className="h-5 w-5 text-blue-600" />;
+      case 'hub': return <BookOpenIcon className="h-5 w-5 text-ink-muted" />;
+      default: return <BookOpenIcon className="h-5 w-5 text-sacred" />;
     }
   };
 
   // Helper function to get badge color based on link type
   const getBadgeColor = (type: string) => {
     switch (type) {
-      case 'sequential': return 'bg-blue-100 text-blue-800';
-      case 'cross-reference': return 'bg-purple-100 text-purple-800';
+      case 'sequential': return 'bg-sacred/10 text-scripture';
+      case 'cross-reference': return 'bg-scripture/10 text-scripture';
       case 'character': return 'bg-orange-100 text-orange-800';
       case 'popular': return 'bg-yellow-100 text-yellow-800';
-      case 'hub': return 'bg-grace/20 text-primary-dark/80';
-      default: return 'bg-blue-100 text-blue-800';
+      case 'hub': return 'bg-grace/20 text-scripture';
+      default: return 'bg-sacred/10 text-scripture';
     }
   };
 
@@ -79,7 +79,7 @@ export default function QuizResultsImproved({ quiz, result, onRetake }: QuizResu
                 <div className={`text-4xl font-bold ${getPerformanceColor(result.percentage)}`}>
                   {result.percentage}%
                 </div>
-                <div className="text-sm text-primary-dark/70">
+                <div className="text-sm text-ink-muted">
                   {result.score}/{result.totalQuestions}
                 </div>
               </div>
@@ -94,15 +94,15 @@ export default function QuizResultsImproved({ quiz, result, onRetake }: QuizResu
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-lg mx-auto">
           <div className="text-center">
             <div className="text-2xl font-bold text-scripture">{result.score}</div>
-            <div className="text-sm text-primary-dark/70">Correct Answers</div>
+            <div className="text-sm text-ink-muted">Correct Answers</div>
           </div>
           <div className="text-center">
             <div className="text-2xl font-bold text-scripture">{result.percentage}%</div>
-            <div className="text-sm text-primary-dark/70">Accuracy</div>
+            <div className="text-sm text-ink-muted">Accuracy</div>
           </div>
           <div className="text-center">
             <div className="text-2xl font-bold text-scripture">{formatTime(result.timeSpent)}</div>
-            <div className="text-sm text-primary-dark/70">Time Taken</div>
+            <div className="text-sm text-ink-muted">Time Taken</div>
           </div>
         </div>
       </div>
@@ -136,7 +136,7 @@ export default function QuizResultsImproved({ quiz, result, onRetake }: QuizResu
                     
                     <div className="text-sm space-y-2">
                       <div>
-                        <span className="font-medium text-primary-dark/80">Your answer: </span>
+                        <span className="font-medium text-scripture">Your answer: </span>
                         <span className={isCorrect ? 'text-green-700' : 'text-red-700'}>
                           {userResult?.userAnswer || 'No answer'}
                         </span>
@@ -144,35 +144,35 @@ export default function QuizResultsImproved({ quiz, result, onRetake }: QuizResu
                       
                       {!isCorrect && (
                         <div>
-                          <span className="font-medium text-primary-dark/80">Correct answer: </span>
+                          <span className="font-medium text-scripture">Correct answer: </span>
                           <span className="text-green-700">{question.correctAnswer}</span>
                         </div>
                       )}
                       
                       <div className="bg-white rounded p-3 border border-grace">
-                        <span className="font-medium text-primary-dark/80">Explanation: </span>
-                        <span className="text-primary-dark/70">{question.explanation}</span>
+                        <span className="font-medium text-scripture">Explanation: </span>
+                        <span className="text-ink-muted">{question.explanation}</span>
                       </div>
                       
                       {question.verseReference && (
                         <div className="flex items-center flex-wrap gap-x-3 gap-y-1">
-                          <span className="font-medium text-primary-dark/80">Reference: </span>
+                          <span className="font-medium text-scripture">Reference: </span>
                           {(() => {
                             const verseUrl = getVerseReferenceUrl(question.verseReference);
                             const crossRefUrl = getCrossRefPageUrl(question.verseReference);
                             return verseUrl ? (
                               <>
-                                <Link href={verseUrl} className="text-blue-600 hover:underline font-medium">
+                                <Link href={verseUrl} className="text-sacred hover:underline font-medium">
                                   {question.verseReference}
                                 </Link>
                                 {crossRefUrl && (
-                                  <Link href={crossRefUrl} className="text-xs text-purple-600 hover:underline">
+                                  <Link href={crossRefUrl} className="text-xs text-scripture hover:underline">
                                     Cross-references
                                   </Link>
                                 )}
                               </>
                             ) : (
-                              <span className="text-blue-600">{question.verseReference}</span>
+                              <span className="text-sacred">{question.verseReference}</span>
                             );
                           })()}
                         </div>
@@ -191,7 +191,7 @@ export default function QuizResultsImproved({ quiz, result, onRetake }: QuizResu
         <div className="flex items-center space-x-2 mb-4">
           <BookOpenIcon className="h-6 w-6 text-green-600" />
           <h3 className="text-lg font-semibold text-green-900">What's Next in Your Bible Journey?</h3>
-          <span className="px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">
+          <span className="px-2 py-1 bg-sacred/10 text-scripture text-xs font-medium rounded-full">
             SMART RECOMMENDATIONS
           </span>
         </div>
@@ -223,7 +223,7 @@ export default function QuizResultsImproved({ quiz, result, onRetake }: QuizResu
                     {link.type === 'hub' && 'Explore'}
                   </span>
                 </div>
-                <div className="text-sm text-primary-dark/70">
+                <div className="text-sm text-ink-muted">
                   {link.description}
                 </div>
               </div>
@@ -255,14 +255,14 @@ export default function QuizResultsImproved({ quiz, result, onRetake }: QuizResu
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
         <button
           onClick={onRetake}
-          className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200 flex items-center justify-center space-x-2"
+          className="bg-royal-blue text-white px-6 py-3 rounded-lg font-semibold hover:bg-royal-blue/80 transition-colors duration-200 flex items-center justify-center space-x-2"
         >
           <span>Retake Quiz</span>
         </button>
         
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          className="border border-grace text-primary-dark/80 px-6 py-3 rounded-lg font-semibold hover:bg-primary-light/50 transition-colors duration-200"
+          className="border border-grace text-scripture px-6 py-3 rounded-lg font-semibold hover:bg-primary-light/50 transition-colors duration-200"
         >
           Back to Top
         </button>

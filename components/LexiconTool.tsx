@@ -78,8 +78,8 @@ export default function LexiconTool({ entry, crossRefEntries }: { entry: Lexicon
                     <button
                         key={tab.id}
                         className={`px-6 py-2.5 rounded-lg text-sm font-semibold whitespace-nowrap transition-all flex items-center space-x-2 border ${activeLexicon === tab.id
-                            ? 'bg-blue-600 text-white border-blue-600 shadow-sm'
-                            : 'bg-white text-primary-dark/60 border-grace hover:bg-primary-light/50 hover:text-scripture'
+                            ? 'bg-scripture text-white border-scripture shadow-sm'
+                            : 'bg-white text-ink-muted border-grace hover:bg-primary-light/50 hover:text-scripture'
                             }`}
                         onClick={() => setActiveLexicon(tab.id as any)}
                     >
@@ -103,8 +103,8 @@ export default function LexiconTool({ entry, crossRefEntries }: { entry: Lexicon
                                 {entry.language} Text
                             </div>
                         </div>
-                        <div className="flex items-center space-x-2 text-xs font-medium text-blue-400">
-                            <span className="w-1.5 h-1.5 bg-blue-400 rounded-full" />
+                        <div className="flex items-center space-x-2 text-xs font-medium text-sacred">
+                            <span className="w-1.5 h-1.5 bg-sacred rounded-full" />
                             <span>Strong&apos;s Concordance</span>
                         </div>
                     </div>
@@ -132,7 +132,7 @@ export default function LexiconTool({ entry, crossRefEntries }: { entry: Lexicon
                         {/* MORPHOLOGY BADGE */}
                         <div className="p-4 rounded-xl border border-white/10 bg-white/5 shrink-0">
                             <div className="text-xs text-white/40 mb-2">Grammar Code</div>
-                            <div className="text-2xl font-mono font-bold text-blue-400 mb-1 truncate max-w-[200px]">{entry.morphology.code}</div>
+                            <div className="text-2xl font-mono font-bold text-sacred mb-1 truncate max-w-[200px]">{entry.morphology.code}</div>
                             <div className="text-xs text-white/60 max-w-[200px] leading-tight">{entry.morphology.explanation}</div>
                         </div>
                     </div>
@@ -147,12 +147,12 @@ export default function LexiconTool({ entry, crossRefEntries }: { entry: Lexicon
                             {/* TAB: STRONG'S */}
                             {activeLexicon === 'strongs' && (
                                 <section>
-                                    <div className="inline-flex items-center space-x-2 text-blue-600 font-semibold text-sm mb-6">
+                                    <div className="inline-flex items-center space-x-2 text-sacred font-semibold text-sm mb-6">
                                         <BoltIcon className="w-4 h-4" />
                                         <span>Strong&apos;s Definition</span>
                                     </div>
                                     <div className="relative p-8 rounded-xl border border-grace bg-primary-light/30">
-                                        <div className="absolute -top-3 left-6 px-3 py-1 rounded-md bg-blue-600 text-white text-xs font-semibold">
+                                        <div className="absolute -top-3 left-6 px-3 py-1 rounded-md bg-scripture text-white text-xs font-semibold">
                                             Strong&apos;s Exhaustive Concordance
                                         </div>
                                         <p className="text-lg font-medium text-scripture leading-relaxed">
@@ -165,7 +165,7 @@ export default function LexiconTool({ entry, crossRefEntries }: { entry: Lexicon
                             {/* TAB: BDB/LSJ */}
                             {activeLexicon === 'bdb' && (
                                 <section>
-                                    <div className="inline-flex items-center space-x-2 text-blue-600 font-semibold text-sm mb-6">
+                                    <div className="inline-flex items-center space-x-2 text-sacred font-semibold text-sm mb-6">
                                         <BookOpenIcon className="w-4 h-4" />
                                         <span>{isHebrew ? 'Brown-Driver-Briggs' : 'Liddell-Scott-Jones'}</span>
                                     </div>
@@ -174,21 +174,21 @@ export default function LexiconTool({ entry, crossRefEntries }: { entry: Lexicon
                                             <div className="absolute -top-3 left-6 px-3 py-1 rounded-md bg-scripture/80 text-white text-xs font-semibold">
                                                 {isHebrew ? 'BDB Hebrew Lexicon' : 'LSJ Classical Greek'}
                                             </div>
-                                            <p className="text-lg text-primary-dark/80 leading-relaxed">
+                                            <p className="text-lg text-scripture leading-relaxed">
                                                 {entry.definitions.lsj || entry.definitions.bdb}
                                             </p>
                                         </div>
                                     ) : (
                                         <div className="p-8 rounded-xl border border-grace bg-primary-light/30 text-center">
-                                            <p className="text-primary-dark/40">No {isHebrew ? 'BDB' : 'LSJ'} entry available for this word.</p>
+                                            <p className="text-ink-light">No {isHebrew ? 'BDB' : 'LSJ'} entry available for this word.</p>
                                         </div>
                                     )}
                                     {entry.definitions.abbottSmith && (
                                         <div className="relative p-8 rounded-xl border border-grace bg-white mt-6">
-                                            <div className="absolute -top-3 left-6 px-3 py-1 rounded-md bg-grace/20 text-primary-dark/70 text-xs font-semibold border border-grace">
+                                            <div className="absolute -top-3 left-6 px-3 py-1 rounded-md bg-grace/20 text-ink-muted text-xs font-semibold border border-grace">
                                                 Abbott-Smith
                                             </div>
-                                            <p className="text-base text-primary-dark/70 leading-relaxed">
+                                            <p className="text-base text-ink-muted leading-relaxed">
                                                 {entry.definitions.abbottSmith}
                                             </p>
                                         </div>
@@ -199,23 +199,23 @@ export default function LexiconTool({ entry, crossRefEntries }: { entry: Lexicon
                             {/* TAB: MORPHOLOGY */}
                             {activeLexicon === 'morph' && (
                                 <section>
-                                    <div className="inline-flex items-center space-x-2 text-blue-600 font-semibold text-sm mb-6">
+                                    <div className="inline-flex items-center space-x-2 text-sacred font-semibold text-sm mb-6">
                                         <FingerPrintIcon className="w-4 h-4" />
                                         <span>Morphological Analysis</span>
                                     </div>
                                     <div className="space-y-6">
                                         <div className="p-8 rounded-xl border border-grace bg-primary-light/30">
-                                            <div className="text-xs font-semibold text-primary-dark/60 uppercase tracking-wider mb-3">Grammar Code</div>
-                                            <div className="text-3xl font-mono font-bold text-blue-600 mb-4">{entry.morphology.code}</div>
-                                            <p className="text-base text-primary-dark/80 leading-relaxed">{entry.morphology.explanation}</p>
+                                            <div className="text-xs font-semibold text-ink-muted uppercase tracking-wider mb-3">Grammar Code</div>
+                                            <div className="text-3xl font-mono font-bold text-sacred mb-4">{entry.morphology.code}</div>
+                                            <p className="text-base text-scripture leading-relaxed">{entry.morphology.explanation}</p>
                                         </div>
                                         <div className="grid grid-cols-2 gap-4">
                                             <div className="p-6 rounded-xl border border-grace bg-white">
-                                                <div className="text-xs font-semibold text-primary-dark/40 uppercase tracking-wider mb-2">Language</div>
+                                                <div className="text-xs font-semibold text-ink-light uppercase tracking-wider mb-2">Language</div>
                                                 <div className="text-lg font-semibold text-scripture">{entry.language}</div>
                                             </div>
                                             <div className="p-6 rounded-xl border border-grace bg-white">
-                                                <div className="text-xs font-semibold text-primary-dark/40 uppercase tracking-wider mb-2">Transliteration</div>
+                                                <div className="text-xs font-semibold text-ink-light uppercase tracking-wider mb-2">Transliteration</div>
                                                 <div className="text-lg font-semibold text-scripture">{entry.transliteration}</div>
                                             </div>
                                         </div>
@@ -227,13 +227,13 @@ export default function LexiconTool({ entry, crossRefEntries }: { entry: Lexicon
                             {entry.verseSample.length > 0 && <section>
                                 <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8">
                                     <div>
-                                        <div className="inline-flex items-center space-x-2 text-blue-600 font-semibold text-sm mb-3">
+                                        <div className="inline-flex items-center space-x-2 text-sacred font-semibold text-sm mb-3">
                                             <ShieldCheckIcon className="w-4 h-4" />
                                             <span>Scripture References</span>
                                         </div>
                                         <h3 className="text-2xl font-bold text-scripture tracking-tight">Occurrences in the Bible</h3>
                                     </div>
-                                    <div className="text-sm text-primary-dark/60 text-right">
+                                    <div className="text-sm text-ink-muted text-right">
                                         <span className="text-scripture font-semibold">{entry.stats.totalOccurrences}</span> total references
                                     </div>
                                 </div>
@@ -242,8 +242,8 @@ export default function LexiconTool({ entry, crossRefEntries }: { entry: Lexicon
                                     <table className="w-full text-left">
                                         <thead>
                                             <tr className="border-b border-grace/50 bg-primary-light/30">
-                                                <th className="px-6 py-4 text-xs font-semibold text-primary-dark/60 uppercase tracking-wider">Reference</th>
-                                                <th className="px-6 py-4 text-xs font-semibold text-primary-dark/60 uppercase tracking-wider">Text</th>
+                                                <th className="px-6 py-4 text-xs font-semibold text-ink-muted uppercase tracking-wider">Reference</th>
+                                                <th className="px-6 py-4 text-xs font-semibold text-ink-muted uppercase tracking-wider">Text</th>
                                                 <th className="px-6 py-4"></th>
                                             </tr>
                                         </thead>
@@ -251,18 +251,18 @@ export default function LexiconTool({ entry, crossRefEntries }: { entry: Lexicon
                                             {entry.verseSample.map((v: any, i: number) => (
                                                 <tr key={i} className="group hover:bg-primary-light/50 transition-colors">
                                                     <td className="px-6 py-5">
-                                                        <Link href={refToPath(v.ref)} className="px-3 py-1.5 rounded-lg bg-blue-600 text-white text-xs font-semibold inline-block group-hover:bg-blue-700 transition-colors">
+                                                        <Link href={refToPath(v.ref)} className="px-3 py-1.5 rounded-lg bg-scripture text-white text-xs font-semibold inline-block group-hover:bg-scripture/80 transition-colors">
                                                             {v.ref}
                                                         </Link>
                                                     </td>
                                                     <td className="px-6 py-5">
-                                                        <p className="text-primary-dark/70 leading-relaxed border-l-2 border-grace pl-4 group-hover:border-blue-400 transition-colors">
+                                                        <p className="text-ink-muted leading-relaxed border-l-2 border-grace pl-4 group-hover:border-sacred/50 transition-colors">
                                                             &ldquo;{v.text}&rdquo;
                                                         </p>
-                                                        <span className="text-xs text-blue-600 font-semibold mt-1 block">Word: {entry.word} ({entry.transliteration})</span>
+                                                        <span className="text-xs text-sacred font-semibold mt-1 block">Word: {entry.word} ({entry.transliteration})</span>
                                                     </td>
                                                     <td className="px-6 py-5 text-right">
-                                                        <Link href={refToPath(v.ref)} className="p-2.5 rounded-lg bg-grace/20 text-primary-dark/40 hover:bg-blue-600 hover:text-white transition-all inline-block">
+                                                        <Link href={refToPath(v.ref)} className="p-2.5 rounded-lg bg-grace/20 text-ink-light hover:bg-scripture hover:text-white transition-all inline-block">
                                                             <ArrowRightIcon className="w-4 h-4" />
                                                         </Link>
                                                     </td>
@@ -280,21 +280,21 @@ export default function LexiconTool({ entry, crossRefEntries }: { entry: Lexicon
                             {/* USAGE STATS */}
                             <div className="p-8 rounded-xl border border-grace bg-scripture text-white shadow-sm">
                                 <h3 className="text-lg font-bold mb-8 flex items-center space-x-2">
-                                    <BarChartIcon className="w-5 h-5 text-blue-400" />
+                                    <BarChartIcon className="w-5 h-5 text-sacred" />
                                     <span>Usage Statistics</span>
                                 </h3>
 
                                 <div className="space-y-6">
                                     <div className="p-5 rounded-xl bg-white/5 border border-white/10">
                                         <div className="text-xs text-white/40 mb-1">Total Occurrences</div>
-                                        <div className="text-4xl font-bold text-blue-400">{entry.stats.totalOccurrences}<span className="text-lg text-white/20 ml-1">x</span></div>
+                                        <div className="text-4xl font-bold text-sacred">{entry.stats.totalOccurrences}<span className="text-lg text-white/20 ml-1">x</span></div>
                                     </div>
 
                                     <div className="p-5 rounded-xl bg-white/5 border border-white/10">
                                         <div className="text-xs text-white/40 mb-2">Most Frequent Book</div>
-                                        <div className="text-lg font-bold text-blue-400">{entry.stats?.mostFrequentBook || 'N/A'}</div>
+                                        <div className="text-lg font-bold text-sacred">{entry.stats?.mostFrequentBook || 'N/A'}</div>
                                         <div className="w-full bg-white/10 rounded-full h-1 mt-4 overflow-hidden">
-                                            <div className="bg-blue-400 h-full rounded-full" style={{ width: '75%' }} />
+                                            <div className="bg-sacred h-full rounded-full" style={{ width: '75%' }} />
                                         </div>
                                     </div>
 
@@ -303,14 +303,14 @@ export default function LexiconTool({ entry, crossRefEntries }: { entry: Lexicon
                                         {Object.entries(entry.stats.bookBreakdown || {}).map(([book, count]) => (
                                             <div key={book} className="group">
                                                 <div className="flex justify-between text-xs mb-1 text-white/50 group-hover:text-white transition-colors">
-                                                    <Link href={`/${book.toLowerCase().replace(/\s+/g, '-')}-chapters`} className="hover:text-blue-400 transition-colors">
+                                                    <Link href={`/${book.toLowerCase().replace(/\s+/g, '-')}-chapters`} className="hover:text-sacred transition-colors">
                                                         {book}
                                                     </Link>
                                                     <span>{count as number}</span>
                                                 </div>
                                                 <div className="w-full bg-white/5 rounded-full h-1">
                                                     <div
-                                                        className="bg-blue-500/50 h-full rounded-full group-hover:bg-blue-400 transition-all"
+                                                        className="bg-sacred/50 h-full rounded-full group-hover:bg-sacred transition-all"
                                                         style={{ width: `${((count as number) / (entry.stats.totalOccurrences || 1)) * 100}%` }}
                                                     />
                                                 </div>
@@ -324,7 +324,7 @@ export default function LexiconTool({ entry, crossRefEntries }: { entry: Lexicon
                             {entry.synergy?.crossReferences && entry.synergy.crossReferences.length > 0 && (
                                 <div className="p-8 rounded-xl border border-grace bg-scripture text-white shadow-sm">
                                     <h3 className="text-lg font-bold mb-4 flex items-center space-x-2">
-                                        <FingerPrintIcon className="w-5 h-5 text-blue-400" />
+                                        <FingerPrintIcon className="w-5 h-5 text-sacred" />
                                         <span>Related Words</span>
                                     </h3>
                                     <p className="text-white/50 text-sm leading-relaxed mb-6">
@@ -336,7 +336,7 @@ export default function LexiconTool({ entry, crossRefEntries }: { entry: Lexicon
                                                 <Link
                                                     key={ref.strongs}
                                                     href={`/lexicon/${ref.strongs}`}
-                                                    className="px-4 py-2 rounded-lg bg-white/10 border border-white/10 text-white text-xs font-semibold hover:bg-blue-600 hover:border-blue-600 transition-all"
+                                                    className="px-4 py-2 rounded-lg bg-white/10 border border-white/10 text-white text-xs font-semibold hover:bg-sacred hover:border-sacred transition-all"
                                                 >
                                                     {ref.strongs}{ref.word ? ` — ${ref.word}` : ''}{ref.transliteration ? ` (${ref.transliteration})` : ''}
                                                 </Link>
@@ -345,7 +345,7 @@ export default function LexiconTool({ entry, crossRefEntries }: { entry: Lexicon
                                                 <Link
                                                     key={ref}
                                                     href={`/lexicon/${ref}`}
-                                                    className="px-4 py-2 rounded-lg bg-white/10 border border-white/10 text-white text-xs font-semibold hover:bg-blue-600 hover:border-blue-600 transition-all"
+                                                    className="px-4 py-2 rounded-lg bg-white/10 border border-white/10 text-white text-xs font-semibold hover:bg-sacred hover:border-sacred transition-all"
                                                 >
                                                     {ref}
                                                 </Link>
@@ -363,7 +363,7 @@ export default function LexiconTool({ entry, crossRefEntries }: { entry: Lexicon
             {entry.synergy?.peopleAlsoAsked && entry.synergy.peopleAlsoAsked.length > 0 && (
                 <section className="mt-20 max-w-5xl mx-auto">
                     <div className="text-center mb-12">
-                        <div className="inline-flex items-center space-x-2 text-blue-600 font-semibold text-sm mb-4">
+                        <div className="inline-flex items-center space-x-2 text-sacred font-semibold text-sm mb-4">
                             <SparklesIcon className="w-4 h-4" />
                             <span>Common Questions</span>
                         </div>
@@ -374,12 +374,12 @@ export default function LexiconTool({ entry, crossRefEntries }: { entry: Lexicon
                             <details key={idx} className="group rounded-xl border border-grace bg-white overflow-hidden transition-all hover:shadow-md shadow-sm">
                                 <summary className="flex items-center justify-between p-6 cursor-pointer list-none">
                                     <span className="text-lg font-semibold text-scripture pr-8">{paa.question}</span>
-                                    <div className="w-8 h-8 rounded-lg bg-grace/20 text-primary-dark/40 flex items-center justify-center group-open:rotate-180 transition-all shrink-0">
+                                    <div className="w-8 h-8 rounded-lg bg-grace/20 text-ink-light flex items-center justify-center group-open:rotate-180 transition-all shrink-0">
                                         <ChevronLeftIcon className="w-4 h-4 rotate-270" />
                                     </div>
                                 </summary>
                                 <div className="px-6 pb-6">
-                                    <div className="p-6 rounded-lg bg-primary-light/30 text-primary-dark/70 text-base leading-relaxed border-l-4 border-blue-600">
+                                    <div className="p-6 rounded-lg bg-primary-light/30 text-ink-muted text-base leading-relaxed border-l-4 border-sacred">
                                         {paa.answer}
                                     </div>
                                 </div>

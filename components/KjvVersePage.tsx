@@ -82,13 +82,13 @@ export default async function KjvVersePage({ bookSlug, chapter, verse, bookName 
       <nav className="bg-white border-b border-grace">
         <div className="max-w-4xl mx-auto px-4 py-3">
           <ol className="flex items-center flex-wrap gap-y-1 text-sm">
-            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li><Link href={`/${bookSlug}-chapters`} className="text-blue-600 hover:underline">{bookName}</Link></li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li><Link href={`/chapters/${bookSlug}/${chapter}`} className="text-blue-600 hover:underline">Chapter {chapter}</Link></li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li className="text-primary-dark/70">Verse {verse}</li>
+            <li><Link href="/" className="text-sacred hover:underline">Home</Link></li>
+            <li className="text-ink-light mx-2">/</li>
+            <li><Link href={`/${bookSlug}-chapters`} className="text-sacred hover:underline">{bookName}</Link></li>
+            <li className="text-ink-light mx-2">/</li>
+            <li><Link href={`/chapters/${bookSlug}/${chapter}`} className="text-sacred hover:underline">Chapter {chapter}</Link></li>
+            <li className="text-ink-light mx-2">/</li>
+            <li className="text-ink-muted">Verse {verse}</li>
           </ol>
         </div>
       </nav>
@@ -96,7 +96,7 @@ export default async function KjvVersePage({ bookSlug, chapter, verse, bookName 
       <main className="max-w-4xl mx-auto px-4 py-8">
         {/* Hero with verse text */}
         <header className="bg-white rounded-xl shadow-sm border border-grace overflow-hidden mb-6">
-          <div className="relative bg-gradient-to-r from-blue-700 to-blue-800 text-white px-6 py-10">
+          <div className="relative bg-gradient-to-r from-scripture to-scripture/80 text-white px-6 py-10">
             <div className="absolute inset-0 opacity-10">
               <Image
                 src="/images/mrmkaj_Gentle_hands_holding_an_open_Bible_light_pouring_down_on_ca8c94ca-5316-47b7-a335-94f60bbfc8a8.png"
@@ -106,17 +106,17 @@ export default async function KjvVersePage({ bookSlug, chapter, verse, bookName 
               />
             </div>
             <div className="relative">
-              <p className="text-blue-200 text-sm font-medium mb-2 tracking-wide uppercase">King James Version</p>
+              <p className="text-white/70 text-sm font-medium mb-2 tracking-wide uppercase">King James Version</p>
               <h1 className="text-2xl md:text-3xl font-display font-bold mb-4">
                 {reference} KJV
               </h1>
-              <blockquote className="text-xl md:text-2xl leading-relaxed italic text-blue-50">
+              <blockquote className="text-xl md:text-2xl leading-relaxed italic text-white/90">
                 &ldquo;{verseText}&rdquo;
               </blockquote>
               <div className="mt-4 flex items-center gap-3">
-                <span className="px-3 py-1 bg-blue-600 rounded-full text-xs font-medium">{topic}</span>
+                <span className="px-3 py-1 bg-sacred/80 rounded-full text-xs font-medium">{topic}</span>
                 {crossRefs.length > 0 && (
-                  <span className="px-3 py-1 bg-blue-600 rounded-full text-xs font-medium">
+                  <span className="px-3 py-1 bg-sacred/80 rounded-full text-xs font-medium">
                     {crossRefs.length} Cross-References
                   </span>
                 )}
@@ -130,20 +130,20 @@ export default async function KjvVersePage({ bookSlug, chapter, verse, bookName 
           <h2 className="text-lg font-bold text-scripture mb-4">{bookName} {chapter} — Context</h2>
           <div className="space-y-3">
             {prevVerse && (
-              <div className="text-primary-dark/60 text-sm leading-relaxed">
-                <Link href={`/${bookSlug}-${chapter}-${prevVerse.verse}-kjv`} className="font-semibold text-blue-600 hover:underline">
+              <div className="text-ink-muted text-sm leading-relaxed">
+                <Link href={`/${bookSlug}-${chapter}-${prevVerse.verse}-kjv`} className="font-semibold text-sacred hover:underline">
                   {bookName} {chapter}:{prevVerse.verse}
                 </Link>
                 {' '}&mdash; &ldquo;{prevVerse.text.substring(0, 120)}{prevVerse.text.length > 120 ? '...' : ''}&rdquo;
               </div>
             )}
-            <div className="bg-blue-50 border-l-4 border-blue-600 p-4 rounded-r-lg">
+            <div className="bg-sacred-light border-l-4 border-sacred p-4 rounded-r-lg">
               <span className="font-bold text-scripture">{reference}</span>
               {' '}&mdash; &ldquo;{verseText}&rdquo;
             </div>
             {nextVerse && (
-              <div className="text-primary-dark/60 text-sm leading-relaxed">
-                <Link href={`/${bookSlug}-${chapter}-${nextVerse.verse}-kjv`} className="font-semibold text-blue-600 hover:underline">
+              <div className="text-ink-muted text-sm leading-relaxed">
+                <Link href={`/${bookSlug}-${chapter}-${nextVerse.verse}-kjv`} className="font-semibold text-sacred hover:underline">
                   {bookName} {chapter}:{nextVerse.verse}
                 </Link>
                 {' '}&mdash; &ldquo;{nextVerse.text.substring(0, 120)}{nextVerse.text.length > 120 ? '...' : ''}&rdquo;
@@ -169,7 +169,7 @@ export default async function KjvVersePage({ bookSlug, chapter, verse, bookName 
                   <Link
                     key={i}
                     href={`/${bk}-${ch}-${v}-kjv`}
-                    className="px-3 py-2 rounded-lg border border-grace/50 hover:border-blue-300 hover:bg-primary-light transition-colors text-sm text-blue-600 hover:text-blue-700"
+                    className="px-3 py-2 rounded-lg border border-grace/50 hover:border-sacred/50 hover:bg-primary-light transition-colors text-sm text-sacred hover:text-gold-dark"
                   >
                     {refBookName} {ch}:{v}
                   </Link>
@@ -177,7 +177,7 @@ export default async function KjvVersePage({ bookSlug, chapter, verse, bookName 
               })}
             </div>
             {crossRefs.length > 20 && (
-              <p className="text-xs text-primary-dark/50 mt-3">
+              <p className="text-xs text-ink-light mt-3">
                 + {crossRefs.length - 20} more cross-references
               </p>
             )}
@@ -190,35 +190,35 @@ export default async function KjvVersePage({ bookSlug, chapter, verse, bookName 
           <div className="grid sm:grid-cols-2 gap-3">
             <Link
               href={`/verses/${bookSlug}/${chapter}/${verse}`}
-              className="flex items-start gap-3 p-3 rounded-lg border border-grace/50 hover:border-blue-300 hover:bg-primary-light transition-colors group"
+              className="flex items-start gap-3 p-3 rounded-lg border border-grace/50 hover:border-sacred/50 hover:bg-primary-light transition-colors group"
             >
-              <span className="mt-0.5 text-xs font-semibold uppercase tracking-wider text-primary-dark/40 group-hover:text-blue-500 whitespace-nowrap">
+              <span className="mt-0.5 text-xs font-semibold uppercase tracking-wider text-ink-light group-hover:text-sacred whitespace-nowrap">
                 Commentary
               </span>
               <div className="min-w-0">
-                <div className="text-sm font-medium text-scripture group-hover:text-blue-600">
+                <div className="text-sm font-medium text-scripture group-hover:text-sacred">
                   {reference} — Verse Study
                 </div>
-                <div className="text-xs text-primary-dark/60 mt-0.5">Commentary, Hebrew/Greek, cross-references</div>
+                <div className="text-xs text-ink-muted mt-0.5">Commentary, Hebrew/Greek, cross-references</div>
               </div>
             </Link>
             <Link
               href={`/bible-quotes/${topic.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
-              className="flex items-start gap-3 p-3 rounded-lg border border-grace/50 hover:border-blue-300 hover:bg-primary-light transition-colors group"
+              className="flex items-start gap-3 p-3 rounded-lg border border-grace/50 hover:border-sacred/50 hover:bg-primary-light transition-colors group"
             >
-              <span className="mt-0.5 text-xs font-semibold uppercase tracking-wider text-primary-dark/40 group-hover:text-blue-500 whitespace-nowrap">
+              <span className="mt-0.5 text-xs font-semibold uppercase tracking-wider text-ink-light group-hover:text-sacred whitespace-nowrap">
                 Quotes
               </span>
               <div className="min-w-0">
-                <div className="text-sm font-medium text-scripture group-hover:text-blue-600">
+                <div className="text-sm font-medium text-scripture group-hover:text-sacred">
                   Bible Quotes About {topic}
                 </div>
-                <div className="text-xs text-primary-dark/60 mt-0.5">More verses on this topic</div>
+                <div className="text-xs text-ink-muted mt-0.5">More verses on this topic</div>
               </div>
             </Link>
             <Link
               href={`/${bookSlug}-${chapter}-quiz`}
-              className="flex items-start gap-3 p-3 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-colors group"
+              className="flex items-start gap-3 p-3 rounded-lg bg-royal-blue text-white hover:bg-royal-blue/80 transition-colors group"
             >
               <span className="mt-0.5 text-xs font-semibold uppercase tracking-wider text-white/70 whitespace-nowrap">
                 Quiz
@@ -227,21 +227,21 @@ export default async function KjvVersePage({ bookSlug, chapter, verse, bookName 
                 <div className="text-sm font-medium text-white">
                   {bookName} Chapter {chapter} Quiz
                 </div>
-                <div className="text-xs text-blue-100 mt-0.5">Test your knowledge</div>
+                <div className="text-xs text-white/70 mt-0.5">Test your knowledge</div>
               </div>
             </Link>
             <Link
               href={`/what-does-the-bible-say-about/${topic.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
-              className="flex items-start gap-3 p-3 rounded-lg border border-grace/50 hover:border-blue-300 hover:bg-primary-light transition-colors group"
+              className="flex items-start gap-3 p-3 rounded-lg border border-grace/50 hover:border-sacred/50 hover:bg-primary-light transition-colors group"
             >
-              <span className="mt-0.5 text-xs font-semibold uppercase tracking-wider text-primary-dark/40 group-hover:text-blue-500 whitespace-nowrap">
+              <span className="mt-0.5 text-xs font-semibold uppercase tracking-wider text-ink-light group-hover:text-sacred whitespace-nowrap">
                 Study
               </span>
               <div className="min-w-0">
-                <div className="text-sm font-medium text-scripture group-hover:text-blue-600">
+                <div className="text-sm font-medium text-scripture group-hover:text-sacred">
                   What Does the Bible Say About {topic}?
                 </div>
-                <div className="text-xs text-primary-dark/60 mt-0.5">Complete study guide</div>
+                <div className="text-xs text-ink-muted mt-0.5">Complete study guide</div>
               </div>
             </Link>
           </div>
@@ -250,15 +250,15 @@ export default async function KjvVersePage({ bookSlug, chapter, verse, bookName 
         {/* Navigation */}
         <div className="flex items-center justify-between">
           {prevVerse ? (
-            <Link href={`/${bookSlug}-${chapter}-${prevVerse.verse}-kjv`} className="text-blue-600 hover:underline text-sm">
+            <Link href={`/${bookSlug}-${chapter}-${prevVerse.verse}-kjv`} className="text-sacred hover:underline text-sm">
               ← {bookName} {chapter}:{prevVerse.verse}
             </Link>
           ) : <span />}
-          <Link href={`/chapters/${bookSlug}/${chapter}`} className="text-blue-600 hover:underline text-sm">
+          <Link href={`/chapters/${bookSlug}/${chapter}`} className="text-sacred hover:underline text-sm">
             {bookName} {chapter}
           </Link>
           {nextVerse ? (
-            <Link href={`/${bookSlug}-${chapter}-${nextVerse.verse}-kjv`} className="text-blue-600 hover:underline text-sm">
+            <Link href={`/${bookSlug}-${chapter}-${nextVerse.verse}-kjv`} className="text-sacred hover:underline text-sm">
               {bookName} {chapter}:{nextVerse.verse} →
             </Link>
           ) : <span />}

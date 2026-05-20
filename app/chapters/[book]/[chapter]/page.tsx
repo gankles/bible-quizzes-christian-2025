@@ -153,16 +153,16 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
         <div className="max-w-4xl mx-auto px-4 py-3">
           <ol className="flex items-center space-x-2 text-sm">
             <li>
-              <Link href="/" className="text-blue-600 hover:underline">Home</Link>
+              <Link href="/" className="text-sacred hover:underline">Home</Link>
             </li>
-            <li className="text-primary-dark/40">/</li>
+            <li className="text-ink-light">/</li>
             <li>
-              <Link href={`/${book}-chapters`} className="text-blue-600 hover:underline">
+              <Link href={`/${book}-chapters`} className="text-sacred hover:underline">
                 {data.bookName}
               </Link>
             </li>
-            <li className="text-primary-dark/40">/</li>
-            <li className="text-primary-dark/70">Chapter {chapter}</li>
+            <li className="text-ink-light">/</li>
+            <li className="text-ink-muted">Chapter {chapter}</li>
           </ol>
         </div>
       </nav>
@@ -172,19 +172,19 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
         {meta && (
           <div className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
             <h2 className="text-lg font-bold text-scripture mb-2">About {data.bookName}</h2>
-            <p className="text-primary-dark/80 text-sm leading-relaxed mb-3">
+            <p className="text-scripture text-sm leading-relaxed mb-3">
               {meta.summary}
             </p>
-            <div className="flex flex-wrap gap-4 text-xs text-primary-dark/60">
-              <span>Author: <strong className="text-primary-dark/80">{meta.author}</strong></span>
-              <span>Written: <strong className="text-primary-dark/80">{meta.dateWritten}</strong></span>
-              <span>Reading time: <strong className="text-primary-dark/80">~{readingTime} min</strong></span>
-              <span>Verses: <strong className="text-primary-dark/80">{data.verses.length}</strong></span>
+            <div className="flex flex-wrap gap-4 text-xs text-ink-muted">
+              <span>Author: <strong className="text-scripture">{meta.author}</strong></span>
+              <span>Written: <strong className="text-scripture">{meta.dateWritten}</strong></span>
+              <span>Reading time: <strong className="text-scripture">~{readingTime} min</strong></span>
+              <span>Verses: <strong className="text-scripture">{data.verses.length}</strong></span>
             </div>
             {meta.keyThemes.length > 0 && (
               <div className="flex flex-wrap gap-1 mt-3">
                 {meta.keyThemes.map(theme => (
-                  <span key={theme} className="text-xs bg-blue-50 text-blue-700 rounded-full px-2 py-0.5">
+                  <span key={theme} className="text-xs bg-sacred-light text-scripture rounded-full px-2 py-0.5">
                     {theme}
                   </span>
                 ))}
@@ -201,7 +201,7 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
             <div className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
               <div className="flex items-center justify-between mb-4">
                 <h2 className="text-lg font-bold text-scripture flex items-center">
-                  <svg className="w-5 h-5 mr-2 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <svg className="w-5 h-5 mr-2 text-sacred" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                     <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
@@ -209,7 +209,7 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
                 </h2>
                 <Link
                   href={`/bible-geography/${book}/${chapterNum}`}
-                  className="text-sm text-blue-600 hover:underline"
+                  className="text-sm text-sacred hover:underline"
                 >
                   View map &rarr;
                 </Link>
@@ -219,19 +219,19 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
                   <Link
                     key={place.slug}
                     href={`/bible-places/${place.slug}`}
-                    className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-green-50 text-green-800 border border-green-200 rounded-full text-sm hover:bg-green-100 transition-colors"
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-sacred-light text-scripture border border-sacred/20 rounded-full text-sm hover:bg-primary-light transition-colors"
                   >
                     <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                     </svg>
                     {place.name}
-                    <span className="text-green-600/60 text-xs">({formatPlaceTypeSingular(place.type)})</span>
+                    <span className="text-sacred/60 text-xs">({formatPlaceTypeSingular(place.type)})</span>
                   </Link>
                 ))}
                 {chapterPlaces.length > 8 && (
                   <Link
                     href={`/bible-geography/${book}/${chapterNum}`}
-                    className="inline-flex items-center px-3 py-1.5 bg-blue-50 text-blue-700 border border-blue-200 rounded-full text-sm hover:bg-blue-100 transition-colors"
+                    className="inline-flex items-center px-3 py-1.5 bg-sacred-light text-scripture border border-sacred/20 rounded-full text-sm hover:bg-primary-light transition-colors"
                   >
                     +{chapterPlaces.length - 8} more
                   </Link>
@@ -242,10 +242,10 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
         })()}
 
         <article className="bg-white rounded-xl shadow-sm border border-grace overflow-hidden">
-          <header className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-8">
-            <p className="text-blue-100 text-sm font-medium mb-2">King James Version</p>
+          <header className="bg-gradient-to-r from-scripture to-scripture/80 text-white px-6 py-8">
+            <p className="text-sacred-light text-sm font-medium mb-2">King James Version</p>
             <h1 className="text-3xl font-bold font-display">{data.reference}</h1>
-            <p className="text-blue-100 mt-2">{data.verses.length} verses with commentary</p>
+            <p className="text-sacred-light mt-2">{data.verses.length} verses with commentary</p>
           </header>
 
           <div className="p-6 md:p-8">
@@ -269,14 +269,14 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
                         <div className="flex-shrink-0 flex flex-col items-center gap-1">
                           <Link
                             href={`/verses/${book}/${chapter}/${verse.verse}`}
-                            className="w-10 h-10 bg-blue-100 text-blue-700 rounded-full flex items-center justify-center font-bold text-sm hover:bg-blue-200 transition-colors"
+                            className="w-10 h-10 bg-sacred-light text-scripture rounded-full flex items-center justify-center font-bold text-sm hover:bg-grace transition-colors"
                             title={`Study ${data.bookName} ${chapter}:${verse.verse}`}
                           >
                             {verse.verse}
                           </Link>
                           <Link
                             href={`/cross-references/${book}/${chapter}/${verse.verse}`}
-                            className="text-primary-dark/40 hover:text-blue-600 transition-colors"
+                            className="text-ink-light hover:text-sacred transition-colors"
                             title={`Cross-references for ${data.bookName} ${chapter}:${verse.verse}`}
                           >
                             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -291,16 +291,16 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
 
                           {(kjvStudyEntry || verseCommentaries.length > 0 || verse.comment) && (
                             <details className="mt-3">
-                              <summary className="text-sm text-blue-600 cursor-pointer hover:underline">
+                              <summary className="text-sm text-sacred cursor-pointer hover:underline">
                                 View commentary{verseCommentaries.length > 1 ? ` (${verseCommentaries.length} sources)` : ''}
                               </summary>
                               <div className="mt-2 space-y-4">
                                 {/* KJV Study (inline, if available and not already in verseCommentaries) */}
                                 {kjvStudyEntry && !verseCommentaries.some(c => c.source === 'KJV Study Commentary') && (
-                                  <div className="pl-4 border-l-2 border-blue-200">
-                                    <p className="text-xs font-semibold text-blue-600 mb-1">KJV Study Commentary</p>
+                                  <div className="pl-4 border-l-2 border-sacred/20">
+                                    <p className="text-xs font-semibold text-sacred mb-1">KJV Study Commentary</p>
                                     <div
-                                      className="text-sm text-primary-dark/70 prose prose-sm max-w-none"
+                                      className="text-sm text-ink-muted prose prose-sm max-w-none"
                                       dangerouslySetInnerHTML={{ __html: kjvStudyEntry.analysis }}
                                     />
                                   </div>
@@ -308,14 +308,14 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
                                 {/* SWORD commentaries */}
                                 {verseCommentaries.map((c, ci) => (
                                   <div key={ci} className="pl-4 border-l-2 border-grace">
-                                    <p className="text-xs font-semibold text-primary-dark/50 mb-1">{c.source}</p>
-                                    <div className="text-sm text-primary-dark/70 leading-relaxed whitespace-pre-line">
+                                    <p className="text-xs font-semibold text-ink-muted mb-1">{c.source}</p>
+                                    <div className="text-sm text-ink-muted leading-relaxed whitespace-pre-line">
                                       {c.text.length > 400 ? c.text.substring(0, 400) + '...' : c.text}
                                     </div>
                                     {c.text.length > 400 && (
                                       <Link
                                         href={`/verses/${book}/${chapter}/${verse.verse}`}
-                                        className="text-xs text-blue-600 hover:underline mt-1 inline-block"
+                                        className="text-xs text-sacred hover:underline mt-1 inline-block"
                                       >
                                         Read full commentary →
                                       </Link>
@@ -325,7 +325,7 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
                                 {/* Bolls API commentary fallback */}
                                 {verseCommentaries.length === 0 && !kjvStudyEntry && verse.comment && (
                                   <div
-                                    className="pl-4 border-l-2 border-grace text-sm text-primary-dark/70 prose prose-sm max-w-none"
+                                    className="pl-4 border-l-2 border-grace text-sm text-ink-muted prose prose-sm max-w-none"
                                     dangerouslySetInnerHTML={{ __html: verse.comment }}
                                   />
                                 )}
@@ -349,7 +349,7 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
               className="flex items-center px-4 py-2 bg-white border border-grace rounded-lg hover:bg-primary-light/50 transition-colors"
             >
               <span className="mr-2">&larr;</span>
-              <span className="text-sm text-primary-dark/70">Chapter {chapterNum - 1}</span>
+              <span className="text-sm text-ink-muted">Chapter {chapterNum - 1}</span>
             </Link>
           ) : (
             <div />
@@ -357,7 +357,7 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
 
           <Link
             href={`/${book}-chapters`}
-            className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+            className="px-4 py-2 bg-scripture text-white rounded-lg hover:bg-scripture/80 transition-colors"
           >
             All Chapters
           </Link>
@@ -367,7 +367,7 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
               href={`/chapters/${book}/${chapterNum + 1}`}
               className="flex items-center px-4 py-2 bg-white border border-grace rounded-lg hover:bg-primary-light/50 transition-colors"
             >
-              <span className="text-sm text-primary-dark/70">Chapter {chapterNum + 1}</span>
+              <span className="text-sm text-ink-muted">Chapter {chapterNum + 1}</span>
               <span className="ml-2">&rarr;</span>
             </Link>
           ) : (
@@ -381,20 +381,20 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
           <div className="grid gap-3 md:grid-cols-2">
             <Link
               href={`/${book}-${chapter}-quiz`}
-              className="flex items-center p-4 border border-grace rounded-lg hover:border-blue-300 hover:bg-blue-50 transition-colors"
+              className="flex items-center p-4 border border-grace rounded-lg hover:border-sacred/50 hover:bg-sacred-light transition-colors"
             >
               <div>
-                <span className="text-blue-600 font-semibold block">{data.reference} Quiz</span>
-                <span className="text-sm text-primary-dark/60">Test your knowledge of this chapter</span>
+                <span className="text-sacred font-semibold block">{data.reference} Quiz</span>
+                <span className="text-sm text-ink-muted">Test your knowledge of this chapter</span>
               </div>
             </Link>
             <Link
               href={`/${book}-quiz`}
-              className="flex items-center p-4 border border-grace rounded-lg hover:border-blue-300 hover:bg-blue-50 transition-colors"
+              className="flex items-center p-4 border border-grace rounded-lg hover:border-sacred/50 hover:bg-sacred-light transition-colors"
             >
               <div>
-                <span className="text-blue-600 font-semibold block">{data.bookName} Book Quiz</span>
-                <span className="text-sm text-primary-dark/60">Comprehensive quiz for the entire book</span>
+                <span className="text-sacred font-semibold block">{data.bookName} Book Quiz</span>
+                <span className="text-sm text-ink-muted">Comprehensive quiz for the entire book</span>
               </div>
             </Link>
           </div>
@@ -405,29 +405,29 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
           <h2 className="text-lg font-bold text-scripture mb-3">Continue Your Study</h2>
           <div className="grid gap-2 sm:grid-cols-2">
             {hasNextChapter && (
-              <Link href={`/chapters/${book}/${chapterNum + 1}`} className="text-blue-600 hover:underline text-sm">
+              <Link href={`/chapters/${book}/${chapterNum + 1}`} className="text-sacred hover:underline text-sm">
                 Read {data.bookName} {chapterNum + 1}
               </Link>
             )}
-            <Link href={`/${book}-chapters`} className="text-blue-600 hover:underline text-sm">
+            <Link href={`/${book}-chapters`} className="text-sacred hover:underline text-sm">
               All {data.bookName} Chapters
             </Link>
-            <Link href={`/${book}-${chapter}-quiz`} className="text-blue-600 hover:underline text-sm">
+            <Link href={`/${book}-${chapter}-quiz`} className="text-sacred hover:underline text-sm">
               {data.reference} Quiz
             </Link>
-            <Link href={`/${book}-quiz`} className="text-blue-600 hover:underline text-sm">
+            <Link href={`/${book}-quiz`} className="text-sacred hover:underline text-sm">
               Complete {data.bookName} Quiz
             </Link>
-            <Link href="/bible-quizzes" className="text-blue-600 hover:underline text-sm">
+            <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">
               All Bible Quizzes
             </Link>
-            <Link href="/people" className="text-blue-600 hover:underline text-sm">
+            <Link href="/people" className="text-sacred hover:underline text-sm">
               Bible Characters
             </Link>
-            <Link href="/topics" className="text-blue-600 hover:underline text-sm">
+            <Link href="/topics" className="text-sacred hover:underline text-sm">
               Bible Topics
             </Link>
-            <Link href="/nave-topics" className="text-blue-600 hover:underline text-sm">
+            <Link href="/nave-topics" className="text-sacred hover:underline text-sm">
               Nave&apos;s Topical Bible
             </Link>
           </div>

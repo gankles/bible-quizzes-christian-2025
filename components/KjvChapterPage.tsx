@@ -88,11 +88,11 @@ export default async function KjvChapterPage({ bookSlug, chapter, bookName, tota
       <nav className="bg-white border-b border-grace">
         <div className="max-w-4xl mx-auto px-4 py-3">
           <ol className="flex items-center flex-wrap gap-y-1 text-sm">
-            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li><Link href={`/${bookSlug}-chapters`} className="text-blue-600 hover:underline">{bookName}</Link></li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li className="text-primary-dark/70">Chapter {chapter}</li>
+            <li><Link href="/" className="text-sacred hover:underline">Home</Link></li>
+            <li className="text-ink-light mx-2">/</li>
+            <li><Link href={`/${bookSlug}-chapters`} className="text-sacred hover:underline">{bookName}</Link></li>
+            <li className="text-ink-light mx-2">/</li>
+            <li className="text-ink-muted">Chapter {chapter}</li>
           </ol>
         </div>
       </nav>
@@ -100,7 +100,7 @@ export default async function KjvChapterPage({ bookSlug, chapter, bookName, tota
       <main className="max-w-4xl mx-auto px-4 py-8">
         {/* Hero */}
         <header className="bg-white rounded-xl shadow-sm border border-grace overflow-hidden mb-6">
-          <div className="relative bg-gradient-to-r from-blue-700 to-blue-800 text-white px-6 py-10">
+          <div className="relative bg-gradient-to-r from-scripture to-scripture/80 text-white px-6 py-10">
             <div className="absolute inset-0 opacity-10">
               <Image
                 src="/images/mrmkaj_Gentle_hands_holding_an_open_Bible_light_pouring_down_on_ca8c94ca-5316-47b7-a335-94f60bbfc8a8.png"
@@ -110,18 +110,18 @@ export default async function KjvChapterPage({ bookSlug, chapter, bookName, tota
               />
             </div>
             <div className="relative">
-              <p className="text-blue-200 text-sm font-medium mb-2 tracking-wide uppercase">King James Version</p>
+              <p className="text-sacred text-sm font-medium mb-2 tracking-wide uppercase">King James Version</p>
               <h1 className="text-2xl md:text-3xl font-display font-bold mb-3">
                 {reference} KJV
               </h1>
-              <p className="text-lg text-blue-100 italic">
+              <p className="text-lg text-sacred-light italic">
                 &ldquo;{excerpt}&rdquo;
               </p>
               <div className="mt-4 flex items-center gap-3 flex-wrap">
-                <span className="px-3 py-1 bg-blue-600 rounded-full text-xs font-medium">{verses.length} Verses</span>
-                <span className="px-3 py-1 bg-blue-600 rounded-full text-xs font-medium">{chapterTopic}</span>
+                <span className="px-3 py-1 bg-scripture/60 rounded-full text-xs font-medium">{verses.length} Verses</span>
+                <span className="px-3 py-1 bg-scripture/60 rounded-full text-xs font-medium">{chapterTopic}</span>
                 {totalCrossRefs > 0 && (
-                  <span className="px-3 py-1 bg-blue-600 rounded-full text-xs font-medium">
+                  <span className="px-3 py-1 bg-scripture/60 rounded-full text-xs font-medium">
                     {totalCrossRefs} Cross-References
                   </span>
                 )}
@@ -135,10 +135,10 @@ export default async function KjvChapterPage({ bookSlug, chapter, bookName, tota
           <h2 className="text-lg font-bold text-scripture mb-4">{reference} — Full Text (KJV)</h2>
           <div className="space-y-3">
             {verses.map((v) => (
-              <p key={v.verse} className="text-primary-dark/80 leading-relaxed">
+              <p key={v.verse} className="text-scripture leading-relaxed">
                 <Link
                   href={`/${bookSlug}-${chapter}-${v.verse}-kjv`}
-                  className="font-bold text-blue-600 hover:underline text-sm mr-1"
+                  className="font-bold text-sacred hover:underline text-sm mr-1"
                 >
                   {v.verse}
                 </Link>
@@ -154,15 +154,15 @@ export default async function KjvChapterPage({ bookSlug, chapter, bookName, tota
             <h2 className="text-lg font-bold text-scripture mb-4">Key Verses in {reference}</h2>
             <div className="space-y-3">
               {keyVerses.map((v) => (
-                <div key={v.verse} className="border-l-4 border-blue-300 pl-4">
+                <div key={v.verse} className="border-l-4 border-sacred/20 pl-4">
                   <Link
                     href={`/${bookSlug}-${chapter}-${v.verse}-kjv`}
-                    className="font-semibold text-blue-600 hover:underline text-sm"
+                    className="font-semibold text-sacred hover:underline text-sm"
                   >
                     {bookName} {chapter}:{v.verse}
                   </Link>
-                  <span className="text-xs text-primary-dark/50 ml-2">({v.crossRefCount} cross-refs)</span>
-                  <p className="text-primary-dark/70 text-sm mt-1 italic">
+                  <span className="text-xs text-ink-light ml-2">({v.crossRefCount} cross-refs)</span>
+                  <p className="text-ink-muted text-sm mt-1 italic">
                     &ldquo;{v.text.substring(0, 150)}{v.text.length > 150 ? '...' : ''}&rdquo;
                   </p>
                 </div>
@@ -177,21 +177,21 @@ export default async function KjvChapterPage({ bookSlug, chapter, bookName, tota
           <div className="grid sm:grid-cols-2 gap-3">
             <Link
               href={`/chapters/${bookSlug}/${chapter}`}
-              className="flex items-start gap-3 p-3 rounded-lg border border-grace/50 hover:border-blue-300 hover:bg-primary-light transition-colors group"
+              className="flex items-start gap-3 p-3 rounded-lg border border-grace/50 hover:border-sacred/50 hover:bg-primary-light transition-colors group"
             >
-              <span className="mt-0.5 text-xs font-semibold uppercase tracking-wider text-primary-dark/40 group-hover:text-blue-500 whitespace-nowrap">
+              <span className="mt-0.5 text-xs font-semibold uppercase tracking-wider text-ink-light group-hover:text-sacred whitespace-nowrap">
                 Commentary
               </span>
               <div className="min-w-0">
-                <div className="text-sm font-medium text-scripture group-hover:text-blue-600">
+                <div className="text-sm font-medium text-scripture group-hover:text-sacred">
                   {reference} — Verse-by-Verse Commentary
                 </div>
-                <div className="text-xs text-primary-dark/60 mt-0.5">Study notes, Hebrew/Greek, cross-references</div>
+                <div className="text-xs text-ink-muted mt-0.5">Study notes, Hebrew/Greek, cross-references</div>
               </div>
             </Link>
             <Link
               href={`/${bookSlug}-${chapter}-quiz`}
-              className="flex items-start gap-3 p-3 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-colors group"
+              className="flex items-start gap-3 p-3 rounded-lg bg-scripture text-white hover:bg-scripture/80 transition-colors group"
             >
               <span className="mt-0.5 text-xs font-semibold uppercase tracking-wider text-white/70 whitespace-nowrap">
                 Quiz
@@ -200,35 +200,35 @@ export default async function KjvChapterPage({ bookSlug, chapter, bookName, tota
                 <div className="text-sm font-medium text-white">
                   {reference} Quiz
                 </div>
-                <div className="text-xs text-blue-100 mt-0.5">Test your knowledge of this chapter</div>
+                <div className="text-xs text-sacred-light mt-0.5">Test your knowledge of this chapter</div>
               </div>
             </Link>
             <Link
               href={`/bible-chapter-summaries/${bookSlug}/${chapter}`}
-              className="flex items-start gap-3 p-3 rounded-lg border border-grace/50 hover:border-blue-300 hover:bg-primary-light transition-colors group"
+              className="flex items-start gap-3 p-3 rounded-lg border border-grace/50 hover:border-sacred/50 hover:bg-primary-light transition-colors group"
             >
-              <span className="mt-0.5 text-xs font-semibold uppercase tracking-wider text-primary-dark/40 group-hover:text-blue-500 whitespace-nowrap">
+              <span className="mt-0.5 text-xs font-semibold uppercase tracking-wider text-ink-light group-hover:text-sacred whitespace-nowrap">
                 Summary
               </span>
               <div className="min-w-0">
-                <div className="text-sm font-medium text-scripture group-hover:text-blue-600">
+                <div className="text-sm font-medium text-scripture group-hover:text-sacred">
                   {reference} Summary
                 </div>
-                <div className="text-xs text-primary-dark/60 mt-0.5">Chapter overview and key themes</div>
+                <div className="text-xs text-ink-muted mt-0.5">Chapter overview and key themes</div>
               </div>
             </Link>
             <Link
               href={`/bible-quotes/${chapterTopic.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
-              className="flex items-start gap-3 p-3 rounded-lg border border-grace/50 hover:border-blue-300 hover:bg-primary-light transition-colors group"
+              className="flex items-start gap-3 p-3 rounded-lg border border-grace/50 hover:border-sacred/50 hover:bg-primary-light transition-colors group"
             >
-              <span className="mt-0.5 text-xs font-semibold uppercase tracking-wider text-primary-dark/40 group-hover:text-blue-500 whitespace-nowrap">
+              <span className="mt-0.5 text-xs font-semibold uppercase tracking-wider text-ink-light group-hover:text-sacred whitespace-nowrap">
                 Quotes
               </span>
               <div className="min-w-0">
-                <div className="text-sm font-medium text-scripture group-hover:text-blue-600">
+                <div className="text-sm font-medium text-scripture group-hover:text-sacred">
                   Bible Quotes About {chapterTopic}
                 </div>
-                <div className="text-xs text-primary-dark/60 mt-0.5">More verses on this topic</div>
+                <div className="text-xs text-ink-muted mt-0.5">More verses on this topic</div>
               </div>
             </Link>
           </div>
@@ -242,7 +242,7 @@ export default async function KjvChapterPage({ bookSlug, chapter, bookName, tota
               <Link
                 key={v.verse}
                 href={`/${bookSlug}-${chapter}-${v.verse}-kjv`}
-                className="text-center px-2 py-1.5 rounded border border-grace/50 hover:border-blue-300 hover:bg-primary-light transition-colors text-sm text-blue-600 hover:text-blue-700"
+                className="text-center px-2 py-1.5 rounded border border-grace/50 hover:border-sacred/50 hover:bg-primary-light transition-colors text-sm text-sacred hover:text-gold-dark"
               >
                 {v.verse}
               </Link>
@@ -253,15 +253,15 @@ export default async function KjvChapterPage({ bookSlug, chapter, bookName, tota
         {/* Chapter Navigation */}
         <div className="flex items-center justify-between">
           {prevChapter ? (
-            <Link href={`/${bookSlug}-${prevChapter}-kjv`} className="text-blue-600 hover:underline text-sm">
+            <Link href={`/${bookSlug}-${prevChapter}-kjv`} className="text-sacred hover:underline text-sm">
               &larr; {bookName} {prevChapter}
             </Link>
           ) : <span />}
-          <Link href={`/${bookSlug}-chapters`} className="text-blue-600 hover:underline text-sm">
+          <Link href={`/${bookSlug}-chapters`} className="text-sacred hover:underline text-sm">
             All {bookName} Chapters
           </Link>
           {nextChapter ? (
-            <Link href={`/${bookSlug}-${nextChapter}-kjv`} className="text-blue-600 hover:underline text-sm">
+            <Link href={`/${bookSlug}-${nextChapter}-kjv`} className="text-sacred hover:underline text-sm">
               {bookName} {nextChapter} &rarr;
             </Link>
           ) : <span />}

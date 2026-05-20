@@ -22,7 +22,7 @@ export default function OriginalLanguage({ words, isOldTestament, bookSlug }: Or
   const language = isOldTestament ? 'Hebrew' : 'Greek';
   const langColorClass = isOldTestament
     ? 'bg-amber-50 text-amber-700 border-amber-200'
-    : 'bg-blue-50 text-blue-700 border-blue-200';
+    : 'bg-sacred/10 text-scripture border-sacred/20';
 
   return (
     <section className="mb-8">
@@ -43,7 +43,7 @@ export default function OriginalLanguage({ words, isOldTestament, bookSlug }: Or
               <span className={`text-xl leading-tight ${isOldTestament ? 'font-serif' : ''}`} dir={isOldTestament ? 'rtl' : 'ltr'}>
                 {word.original}
               </span>
-              <span className="text-[10px] text-primary-dark/40 whitespace-nowrap mt-1">
+              <span className="text-[10px] text-ink-light whitespace-nowrap mt-1">
                 {word.position} of {words.length}
               </span>
             </div>
@@ -55,7 +55,7 @@ export default function OriginalLanguage({ words, isOldTestament, bookSlug }: Or
             )}
 
             {word.transliteration && (
-              <p className="text-xs text-primary-dark/50 italic mb-1">
+              <p className="text-xs text-ink-muted italic mb-1">
                 {word.transliteration}
               </p>
             )}
@@ -68,7 +68,7 @@ export default function OriginalLanguage({ words, isOldTestament, bookSlug }: Or
             </Link>
 
             {word.definition && (
-              <p className="text-xs text-primary-dark/60 leading-relaxed line-clamp-2">
+              <p className="text-xs text-ink-muted leading-relaxed line-clamp-2">
                 {word.definition}
               </p>
             )}

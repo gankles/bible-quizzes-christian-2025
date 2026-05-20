@@ -160,14 +160,14 @@ export default async function WhatDoesBibleSayAboutPage({ params }: Props) {
         <div className="max-w-4xl mx-auto px-4 py-3">
           <ol className="flex items-center flex-wrap gap-y-1 text-sm">
             <li>
-              <Link href="/" className="text-blue-600 hover:underline">Home</Link>
+              <Link href="/" className="text-sacred hover:underline">Home</Link>
             </li>
-            <li className="text-primary-dark/40 mx-2">/</li>
+            <li className="text-ink-light mx-2">/</li>
             <li>
-              <Link href="/bible-quotes" className="text-blue-600 hover:underline">Bible Study</Link>
+              <Link href="/bible-quotes" className="text-sacred hover:underline">Bible Study</Link>
             </li>
-            <li className="text-primary-dark/40 mx-2">/</li>
-            <li className="text-primary-dark/70">What Does the Bible Say About {topic.name}?</li>
+            <li className="text-ink-light mx-2">/</li>
+            <li className="text-ink-muted">What Does the Bible Say About {topic.name}?</li>
           </ol>
         </div>
       </nav>
@@ -175,7 +175,7 @@ export default async function WhatDoesBibleSayAboutPage({ params }: Props) {
       <main className="max-w-4xl mx-auto px-4 py-8">
         {/* Hero */}
         <header className="bg-white rounded-xl shadow-sm border border-grace overflow-hidden mb-8">
-          <div className="relative bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-10">
+          <div className="relative bg-gradient-to-r from-scripture to-scripture/80 text-white px-6 py-10">
             <div className="absolute inset-0 opacity-10">
               <Image
                 src="/images/mrmkaj_Gentle_hands_holding_an_open_Bible_light_pouring_down_on_ca8c94ca-5316-47b7-a335-94f60bbfc8a8.png"
@@ -185,15 +185,15 @@ export default async function WhatDoesBibleSayAboutPage({ params }: Props) {
               />
             </div>
             <div className="relative">
-              <p className="text-blue-100 text-sm font-medium mb-2 tracking-wide uppercase">Complete Bible Study Guide</p>
+              <p className="text-sacred-light text-sm font-medium mb-2 tracking-wide uppercase">Complete Bible Study Guide</p>
               <h1 className="text-3xl md:text-4xl font-display font-bold leading-tight">
                 What Does the Bible Say About {topic.name}?
               </h1>
-              <p className="text-blue-100 mt-3 text-lg">{topic.verseCount} Scripture references with full text and commentary</p>
+              <p className="text-sacred-light mt-3 text-lg">{topic.verseCount} Scripture references with full text and commentary</p>
               <div className="mt-4">
                 <Link
                   href="/bible-quizzes"
-                  className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md"
+                  className="inline-flex items-center px-6 py-3 bg-white text-scripture font-bold rounded-lg hover:bg-sacred-light transition-colors shadow-md"
                 >
                   Test Your Knowledge of {topic.name}
                 </Link>
@@ -207,22 +207,22 @@ export default async function WhatDoesBibleSayAboutPage({ params }: Props) {
           <h2 className="text-xl font-display font-bold text-scripture mb-4">
             Understanding {topic.name} in the Bible
           </h2>
-          <p className="text-primary-dark/80 leading-relaxed">{topic.description}</p>
+          <p className="text-scripture leading-relaxed">{topic.description}</p>
         </section>
 
         {/* Stats */}
         <div className="grid grid-cols-3 gap-4 mb-8">
           <div className="bg-white border border-grace rounded-lg shadow-sm p-4 text-center">
-            <div className="text-2xl font-bold text-blue-600">{topic.verseCount}</div>
-            <div className="text-xs text-primary-dark/60 mt-1">Total Verses</div>
+            <div className="text-2xl font-bold text-sacred">{topic.verseCount}</div>
+            <div className="text-xs text-ink-muted mt-1">Total Verses</div>
           </div>
           <div className="bg-white border border-grace rounded-lg shadow-sm p-4 text-center">
-            <div className="text-2xl font-bold text-blue-600">{otVerses.length}</div>
-            <div className="text-xs text-primary-dark/60 mt-1">Old Testament</div>
+            <div className="text-2xl font-bold text-sacred">{otVerses.length}</div>
+            <div className="text-xs text-ink-muted mt-1">Old Testament</div>
           </div>
           <div className="bg-white border border-grace rounded-lg shadow-sm p-4 text-center">
-            <div className="text-2xl font-bold text-blue-600">{ntVerses.length}</div>
-            <div className="text-xs text-primary-dark/60 mt-1">New Testament</div>
+            <div className="text-2xl font-bold text-sacred">{ntVerses.length}</div>
+            <div className="text-xs text-ink-muted mt-1">New Testament</div>
           </div>
         </div>
 
@@ -236,20 +236,20 @@ export default async function WhatDoesBibleSayAboutPage({ params }: Props) {
               {top10.map((v: any, i: number) => (
                 <li key={i} className="border-b border-grace/50 pb-5 last:border-b-0 last:pb-0">
                   <div className="flex items-start gap-3">
-                    <span className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white text-sm font-bold flex items-center justify-center mt-0.5">
+                    <span className="flex-shrink-0 w-8 h-8 rounded-full bg-scripture text-white text-sm font-bold flex items-center justify-center mt-0.5">
                       {i + 1}
                     </span>
                     <div className="min-w-0">
                       <Link
                         href={`/verses/${v.book}/${v.chapter}/${v.verse}`}
-                        className="font-display font-semibold text-blue-600 hover:underline"
+                        className="font-display font-semibold text-sacred hover:underline"
                       >
                         {v.bookName} {v.chapter}:{v.verse}
                       </Link>
-                      <blockquote className="mt-2 text-primary-dark/80 leading-relaxed border-l-4 border-blue-600 pl-4 italic">
+                      <blockquote className="mt-2 text-scripture leading-relaxed border-l-4 border-sacred pl-4 italic">
                         &ldquo;{v.text}&rdquo;
                       </blockquote>
-                      <span className="inline-block mt-2 text-xs text-primary-dark/50">{v.translation || 'KJV'}</span>
+                      <span className="inline-block mt-2 text-xs text-ink-light">{v.translation || 'KJV'}</span>
                     </div>
                   </div>
                 </li>
@@ -283,14 +283,14 @@ export default async function WhatDoesBibleSayAboutPage({ params }: Props) {
             <div className="space-y-4">
               {otVerses.map((verse: any, index: number) => (
                 <div key={`ot-${index}`} className="bg-white rounded-xl shadow-sm border border-grace p-6 hover:shadow-md transition-shadow">
-                  <blockquote className="text-primary-dark/80 leading-relaxed mb-4 border-l-4 border-blue-600 pl-4 italic">
+                  <blockquote className="text-scripture leading-relaxed mb-4 border-l-4 border-sacred pl-4 italic">
                     &ldquo;{verse.text}&rdquo;
                   </blockquote>
                   <div className="flex items-center justify-between">
-                    <Link href={`/verses/${verse.book}/${verse.chapter}/${verse.verse}`} className="text-blue-600 font-medium hover:underline">
+                    <Link href={`/verses/${verse.book}/${verse.chapter}/${verse.verse}`} className="text-sacred font-medium hover:underline">
                       {verse.bookName} {verse.chapter}:{verse.verse}
                     </Link>
-                    <span className="text-xs text-primary-dark/40">{verse.translation || 'KJV'}</span>
+                    <span className="text-xs text-ink-light">{verse.translation || 'KJV'}</span>
                   </div>
                 </div>
               ))}
@@ -307,14 +307,14 @@ export default async function WhatDoesBibleSayAboutPage({ params }: Props) {
             <div className="space-y-4">
               {ntVerses.map((verse: any, index: number) => (
                 <div key={`nt-${index}`} className="bg-white rounded-xl shadow-sm border border-grace p-6 hover:shadow-md transition-shadow">
-                  <blockquote className="text-primary-dark/80 leading-relaxed mb-4 border-l-4 border-green-600 pl-4 italic">
+                  <blockquote className="text-scripture leading-relaxed mb-4 border-l-4 border-sacred pl-4 italic">
                     &ldquo;{verse.text}&rdquo;
                   </blockquote>
                   <div className="flex items-center justify-between">
-                    <Link href={`/verses/${verse.book}/${verse.chapter}/${verse.verse}`} className="text-blue-600 font-medium hover:underline">
+                    <Link href={`/verses/${verse.book}/${verse.chapter}/${verse.verse}`} className="text-sacred font-medium hover:underline">
                       {verse.bookName} {verse.chapter}:{verse.verse}
                     </Link>
-                    <span className="text-xs text-primary-dark/40">{verse.translation || 'KJV'}</span>
+                    <span className="text-xs text-ink-light">{verse.translation || 'KJV'}</span>
                   </div>
                 </div>
               ))}
@@ -333,7 +333,7 @@ export default async function WhatDoesBibleSayAboutPage({ params }: Props) {
                 <span className="flex-shrink-0 w-7 h-7 rounded-full bg-primary-light border border-grace text-scripture text-sm font-bold flex items-center justify-center mt-0.5">
                   {i + 1}
                 </span>
-                <p className="text-primary-dark/80 leading-relaxed">{tip}</p>
+                <p className="text-scripture leading-relaxed">{tip}</p>
               </li>
             ))}
           </ol>
@@ -344,37 +344,37 @@ export default async function WhatDoesBibleSayAboutPage({ params }: Props) {
           <h2 className="text-xl font-display font-bold text-scripture mb-4">
             Practical Application
           </h2>
-          <p className="text-primary-dark/70 leading-relaxed mb-4">
+          <p className="text-ink-muted leading-relaxed mb-4">
             Studying what the Bible says about {topic.name.toLowerCase()} is only the beginning. Scripture is meant to be lived out in daily obedience and faith. Here are practical steps to apply these truths:
           </p>
           <ul className="space-y-3">
             {practicalSteps.map((step, i) => (
               <li key={i} className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-blue-600 mt-2.5" />
-                <p className="text-primary-dark/80 leading-relaxed">{step}</p>
+                <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-scripture mt-2.5" />
+                <p className="text-scripture leading-relaxed">{step}</p>
               </li>
             ))}
           </ul>
         </section>
 
         {/* Quiz CTA */}
-        <section className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-6 md:p-8 text-white mb-8">
+        <section className="bg-gradient-to-r from-scripture to-scripture/80 rounded-xl p-6 md:p-8 text-white mb-8">
           <h2 className="text-xl md:text-2xl font-display font-bold mb-2">
             How Well Do You Know What the Bible Says About {topic.name}?
           </h2>
-          <p className="text-blue-100 mb-4 max-w-2xl">
+          <p className="text-sacred-light mb-4 max-w-2xl">
             You have studied {topic.verseCount} verses about {topic.name.toLowerCase()}. Now test your knowledge with chapter-by-chapter quizzes covering the books where these verses appear.
           </p>
           <div className="flex flex-wrap gap-3">
             <Link
               href="/bible-quizzes"
-              className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors shadow-md"
+              className="inline-flex items-center px-6 py-3 bg-white text-scripture font-bold rounded-lg hover:bg-sacred-light transition-colors shadow-md"
             >
               Take a Bible Quiz
             </Link>
             <Link
               href="/bible-quiz-difficulty/easy"
-              className="inline-flex items-center px-6 py-3 bg-blue-500 text-white font-bold rounded-lg hover:bg-blue-400 transition-colors border border-white/30"
+              className="inline-flex items-center px-6 py-3 bg-scripture/60 text-white font-bold rounded-lg hover:bg-scripture/40 transition-colors border border-white/30"
             >
               Start with Easy Level
             </Link>
@@ -389,10 +389,10 @@ export default async function WhatDoesBibleSayAboutPage({ params }: Props) {
           <div className="space-y-4">
             {faqs.map((faq, i) => (
               <details key={i} className="group border border-grace rounded-lg">
-                <summary className="cursor-pointer p-4 font-medium text-primary-dark/80 hover:text-blue-600 transition-colors">
+                <summary className="cursor-pointer p-4 font-medium text-scripture hover:text-sacred transition-colors">
                   {faq.question}
                 </summary>
-                <div className="px-4 pb-4 text-sm text-primary-dark/70 leading-relaxed">
+                <div className="px-4 pb-4 text-sm text-ink-muted leading-relaxed">
                   {faq.answer}
                 </div>
               </details>
@@ -408,16 +408,16 @@ export default async function WhatDoesBibleSayAboutPage({ params }: Props) {
           <div className="grid sm:grid-cols-2 gap-3">
             <Link
               href={`/bible-quotes/${slug}`}
-              className="flex items-start gap-3 p-4 rounded-lg border border-grace/50 hover:border-blue-300 hover:bg-primary-light transition-colors group"
+              className="flex items-start gap-3 p-4 rounded-lg border border-grace/50 hover:border-sacred/50 hover:bg-primary-light transition-colors group"
             >
-              <span className="mt-0.5 text-xs font-semibold uppercase tracking-wider text-primary-dark/40 group-hover:text-blue-500 whitespace-nowrap">
+              <span className="mt-0.5 text-xs font-semibold uppercase tracking-wider text-ink-light group-hover:text-sacred whitespace-nowrap">
                 Quotes
               </span>
               <div className="min-w-0">
-                <div className="text-sm font-medium text-scripture group-hover:text-blue-600 truncate">
+                <div className="text-sm font-medium text-scripture group-hover:text-sacred truncate">
                   Bible Quotes About {topic.name}
                 </div>
-                <div className="text-xs text-primary-dark/60 mt-0.5">
+                <div className="text-xs text-ink-muted mt-0.5">
                   {topic.verseCount} scripture verses with full text
                 </div>
               </div>
@@ -425,16 +425,16 @@ export default async function WhatDoesBibleSayAboutPage({ params }: Props) {
 
             <Link
               href={`/bible-topics/${slug}`}
-              className="flex items-start gap-3 p-4 rounded-lg border border-grace/50 hover:border-blue-300 hover:bg-primary-light transition-colors group"
+              className="flex items-start gap-3 p-4 rounded-lg border border-grace/50 hover:border-sacred/50 hover:bg-primary-light transition-colors group"
             >
-              <span className="mt-0.5 text-xs font-semibold uppercase tracking-wider text-primary-dark/40 group-hover:text-blue-500 whitespace-nowrap">
+              <span className="mt-0.5 text-xs font-semibold uppercase tracking-wider text-ink-light group-hover:text-sacred whitespace-nowrap">
                 Reference
               </span>
               <div className="min-w-0">
-                <div className="text-sm font-medium text-scripture group-hover:text-blue-600 truncate">
+                <div className="text-sm font-medium text-scripture group-hover:text-sacred truncate">
                   Nave&apos;s Topical: {topic.name}
                 </div>
-                <div className="text-xs text-primary-dark/60 mt-0.5">
+                <div className="text-xs text-ink-muted mt-0.5">
                   Classic topical Bible reference
                 </div>
               </div>
@@ -442,7 +442,7 @@ export default async function WhatDoesBibleSayAboutPage({ params }: Props) {
 
             <Link
               href="/bible-quizzes"
-              className="flex items-start gap-3 p-4 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-colors group"
+              className="flex items-start gap-3 p-4 rounded-lg bg-scripture text-white hover:bg-scripture/80 transition-colors group"
             >
               <span className="mt-0.5 text-xs font-semibold uppercase tracking-wider text-white/70 whitespace-nowrap">
                 Quiz
@@ -451,7 +451,7 @@ export default async function WhatDoesBibleSayAboutPage({ params }: Props) {
                 <div className="text-sm font-medium text-white truncate">
                   Bible Quizzes
                 </div>
-                <div className="text-xs text-blue-100 mt-0.5">
+                <div className="text-xs text-sacred-light mt-0.5">
                   Test your knowledge of {topic.name}
                 </div>
               </div>
@@ -459,16 +459,16 @@ export default async function WhatDoesBibleSayAboutPage({ params }: Props) {
 
             <Link
               href="/bible-quotes"
-              className="flex items-start gap-3 p-4 rounded-lg border border-grace/50 hover:border-blue-300 hover:bg-primary-light transition-colors group"
+              className="flex items-start gap-3 p-4 rounded-lg border border-grace/50 hover:border-sacred/50 hover:bg-primary-light transition-colors group"
             >
-              <span className="mt-0.5 text-xs font-semibold uppercase tracking-wider text-primary-dark/40 group-hover:text-blue-500 whitespace-nowrap">
+              <span className="mt-0.5 text-xs font-semibold uppercase tracking-wider text-ink-light group-hover:text-sacred whitespace-nowrap">
                 Browse
               </span>
               <div className="min-w-0">
-                <div className="text-sm font-medium text-scripture group-hover:text-blue-600 truncate">
+                <div className="text-sm font-medium text-scripture group-hover:text-sacred truncate">
                   All Bible Quotes by Topic
                 </div>
-                <div className="text-xs text-primary-dark/60 mt-0.5">
+                <div className="text-xs text-ink-muted mt-0.5">
                   Browse 7,700+ topics
                 </div>
               </div>
@@ -486,7 +486,7 @@ export default async function WhatDoesBibleSayAboutPage({ params }: Props) {
                   <Link
                     key={rel.slug}
                     href={`/what-does-the-bible-say-about/${rel.slug}`}
-                    className="px-3 py-1.5 bg-primary-light/30 border border-grace rounded-lg text-sm text-primary-dark/80 hover:border-blue-300 hover:text-blue-600 transition-colors"
+                    className="px-3 py-1.5 bg-primary-light/30 border border-grace rounded-lg text-sm text-scripture hover:border-sacred/50 hover:text-sacred transition-colors"
                   >
                     {rel.name}
                   </Link>
@@ -500,7 +500,7 @@ export default async function WhatDoesBibleSayAboutPage({ params }: Props) {
         {topic.sourceTopics.length > 1 && (
           <section className="bg-white rounded-xl shadow-sm border border-grace p-6">
             <h3 className="text-lg font-bold text-scripture mb-3">Topics Included</h3>
-            <p className="text-sm text-primary-dark/60 mb-3">
+            <p className="text-sm text-ink-muted mb-3">
               This page consolidates Bible verses from {topic.sourceTopics.length} related topics:
             </p>
             <div className="flex flex-wrap gap-2">

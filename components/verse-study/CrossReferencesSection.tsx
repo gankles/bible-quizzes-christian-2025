@@ -15,7 +15,7 @@ export default function CrossReferencesSection({
   return (
     <section className="mb-8">
       <h2 className="text-xl font-semibold text-scripture mb-1">Cross-References</h2>
-      <p className="text-sm text-primary-dark/40 mb-4">
+      <p className="text-sm text-ink-light mb-4">
         Verses related to {currentReference} from Treasury of Scripture Knowledge
       </p>
 
@@ -24,12 +24,12 @@ export default function CrossReferencesSection({
           <Link
             key={`${ref.bookSlug}-${ref.chapter}-${ref.verse}-${index}`}
             href={ref.url}
-            className="group flex items-center justify-between p-3 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-all"
+            className="group flex items-center justify-between p-3 border border-grace rounded-lg hover:border-sacred/50 hover:bg-primary-light transition-all"
           >
-            <span className="text-blue-600 font-medium text-sm group-hover:underline">
+            <span className="text-sacred font-medium text-sm group-hover:underline">
               {ref.reference}
             </span>
-            <svg className="w-4 h-4 text-primary-dark/40 group-hover:text-blue-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-4 h-4 text-ink-light group-hover:text-sacred transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
             </svg>
           </Link>

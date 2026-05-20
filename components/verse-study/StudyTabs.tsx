@@ -330,10 +330,10 @@ export default function StudyTabs({
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
-              className={`flex-1 px-4 py-3 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-inset ${
+              className={`flex-1 px-4 py-3 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sacred focus-visible:ring-inset ${
                 activeTab === tab.id
                   ? 'text-scripture border-b-2 border-scripture bg-white'
-                  : 'text-primary-dark/60 hover:text-primary-dark/80 bg-primary-light/30'
+                  : 'text-ink-muted hover:text-scripture bg-primary-light/30'
               }`}
             >
               {tab.label}
@@ -382,7 +382,7 @@ function ScholarlyContent({
     <div className="space-y-4">
       <div>
         <h4 className="font-semibold text-scripture mb-2">Historical Context</h4>
-        <p className="text-sm text-primary-dark/70">
+        <p className="text-sm text-ink-muted">
           This verse is found in the book of {bookName}. Understanding the historical
           and cultural background helps illuminate its meaning for the original audience
           and for us today.
@@ -393,7 +393,7 @@ function ScholarlyContent({
         <div>
           <h4 className="font-semibold text-scripture mb-2">Commentary</h4>
           <div
-            className="text-sm text-primary-dark/80 prose prose-sm max-w-none"
+            className="text-sm text-scripture prose prose-sm max-w-none"
             dangerouslySetInnerHTML={{ __html: commentary }}
           />
         </div>
@@ -401,7 +401,7 @@ function ScholarlyContent({
 
       <div>
         <h4 className="font-semibold text-scripture mb-2">Theological Significance</h4>
-        <p className="text-sm text-primary-dark/70">
+        <p className="text-sm text-ink-muted">
           {reference} contributes to our understanding of God&apos;s character and His
           relationship with humanity. Consider how this verse connects to the broader
           themes of Scripture.
@@ -428,19 +428,19 @@ function DevotionalContent({
         <blockquote className="text-sm text-scripture italic leading-relaxed border-l-4 border-grace pl-4">
           &ldquo;{verseText}&rdquo;
         </blockquote>
-        <p className="text-xs text-primary-dark/60 mt-2 font-medium">&mdash; {reference} (KJV)</p>
+        <p className="text-xs text-ink-muted mt-2 font-medium">&mdash; {reference} (KJV)</p>
       </div>
 
       {/* Theme-based reflections */}
       <div>
         <h4 className="font-semibold text-scripture mb-3">Reflection Questions</h4>
-        <p className="text-xs text-primary-dark/60 mb-3">
+        <p className="text-xs text-ink-muted mb-3">
           Themes found in this verse: {themes.map(t => t.name).join(', ')}
         </p>
-        <ul className="space-y-3 text-sm text-primary-dark/80">
+        <ul className="space-y-3 text-sm text-scripture">
           {themes.slice(0, 4).map((theme, i) => (
             <li key={i} className="flex gap-3 items-start">
-              <span className="w-5 h-5 bg-grace/20 text-primary-dark/80 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
+              <span className="w-5 h-5 bg-grace/20 text-scripture rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
                 {i + 1}
               </span>
               <div>
@@ -450,7 +450,7 @@ function DevotionalContent({
             </li>
           ))}
           <li className="flex gap-3 items-start">
-            <span className="w-5 h-5 bg-grace/20 text-primary-dark/80 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
+            <span className="w-5 h-5 bg-grace/20 text-scripture rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
               {Math.min(themes.length, 4) + 1}
             </span>
             <span>How does {reference} connect to the gospel and the person of Jesus Christ?</span>
@@ -461,7 +461,7 @@ function DevotionalContent({
       {/* Prayer prompt based on themes */}
       <div>
         <h4 className="font-semibold text-scripture mb-2">Prayer</h4>
-        <div className="space-y-2 text-sm text-primary-dark/80 italic border-l-4 border-grace pl-4">
+        <div className="space-y-2 text-sm text-scripture italic border-l-4 border-grace pl-4">
           {themes.slice(0, 2).map((theme, i) => (
             <p key={i}>{theme.prayer}</p>
           ))}
@@ -472,7 +472,7 @@ function DevotionalContent({
       {/* Memory verse challenge */}
       <div className="border-t border-grace/50 pt-4">
         <h4 className="font-semibold text-scripture mb-1 text-sm">Memory Verse Challenge</h4>
-        <p className="text-sm text-primary-dark/70">
+        <p className="text-sm text-ink-muted">
           Try to memorize {reference} this week. Read it aloud three times, then cover the text and recite it from memory.
         </p>
       </div>
@@ -498,7 +498,7 @@ function PracticalContent({
           {themes.slice(0, 3).map((theme, i) => (
             <div key={i} className="border-b border-grace/50 pb-3 last:border-0 last:pb-0">
               <p className="text-sm font-medium text-scripture">{theme.applicationQ}</p>
-              <p className="text-sm text-primary-dark/70 mt-1">{theme.applicationA}</p>
+              <p className="text-sm text-ink-muted mt-1">{theme.applicationA}</p>
             </div>
           ))}
         </div>
@@ -507,10 +507,10 @@ function PracticalContent({
       {/* Verse-specific action steps */}
       <div>
         <h4 className="font-semibold text-scripture mb-3">This Week&apos;s Action Steps</h4>
-        <ul className="space-y-3 text-sm text-primary-dark/80">
+        <ul className="space-y-3 text-sm text-scripture">
           {themes.slice(0, 3).map((theme, i) => (
             <li key={i} className="flex gap-3 items-start">
-              <span className="w-6 h-6 bg-grace/20 text-primary-dark/80 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
+              <span className="w-6 h-6 bg-grace/20 text-scripture rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
                 {i + 1}
               </span>
               <div>
@@ -520,7 +520,7 @@ function PracticalContent({
             </li>
           ))}
           <li className="flex gap-3 items-start">
-            <span className="w-6 h-6 bg-grace/20 text-primary-dark/80 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
+            <span className="w-6 h-6 bg-grace/20 text-scripture rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
               {Math.min(themes.length, 3) + 1}
             </span>
             <span>Share {reference} with a friend or family member and discuss what it means to each of you</span>
@@ -531,7 +531,7 @@ function PracticalContent({
       {/* Discussion starter */}
       <div className="border-t border-grace/50 pt-4">
         <h4 className="font-semibold text-scripture mb-2 text-sm">Group Discussion Starter</h4>
-        <p className="text-sm text-primary-dark/80">
+        <p className="text-sm text-scripture">
           Read {reference} aloud together. Then ask: &ldquo;{themes[0]?.reflectionQ || 'What stood out to you most in this verse, and why?'}&rdquo;
         </p>
       </div>
@@ -539,7 +539,7 @@ function PracticalContent({
       {/* Further study */}
       <div className="border-t border-grace pt-4">
         <h4 className="font-semibold text-scripture mb-2">Further Study</h4>
-        <p className="text-sm text-primary-dark/70">
+        <p className="text-sm text-ink-muted">
           Explore the cross-references below to see how {reference} connects
           with other passages throughout Scripture. Look for recurring themes
           of {themes.slice(0, 2).map(t => t.name.toLowerCase()).join(' and ')}.

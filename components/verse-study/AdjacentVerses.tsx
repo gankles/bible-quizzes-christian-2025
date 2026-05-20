@@ -32,22 +32,22 @@ export default function AdjacentVerses({
             <div
               key={v.verse}
               className={`flex gap-3 py-2.5 px-3 rounded-lg ${
-                isCurrent ? 'bg-blue-50' : ''
+                isCurrent ? 'bg-sacred-light' : ''
               }`}
             >
               {isCurrent ? (
-                <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center text-xs font-semibold mt-0.5">
+                <span className="flex-shrink-0 w-7 h-7 bg-scripture text-white rounded-full flex items-center justify-center text-xs font-semibold mt-0.5">
                   {v.verse}
                 </span>
               ) : (
                 <Link
                   href={`/verses/${bookSlug}/${chapter}/${v.verse}`}
-                  className="flex-shrink-0 w-7 h-7 text-primary-dark/40 hover:text-blue-600 rounded-full flex items-center justify-center text-xs font-medium mt-0.5 transition-colors"
+                  className="flex-shrink-0 w-7 h-7 text-ink-light hover:text-gold-dark rounded-full flex items-center justify-center text-xs font-medium mt-0.5 transition-colors"
                 >
                   {v.verse}
                 </Link>
               )}
-              <p className={`text-[15px] leading-relaxed ${isCurrent ? 'text-scripture' : 'text-primary-dark/60'}`}>
+              <p className={`text-[15px] leading-relaxed ${isCurrent ? 'text-scripture' : 'text-ink-muted'}`}>
                 {stripHtml(v.text)}
               </p>
             </div>
@@ -57,7 +57,7 @@ export default function AdjacentVerses({
       <div className="mt-3">
         <Link
           href={`/chapters/${bookSlug}/${chapter}`}
-          className="text-sm text-blue-600 hover:underline"
+          className="text-sm text-sacred hover:underline"
         >
           Read {bookName} {chapter} full chapter
         </Link>

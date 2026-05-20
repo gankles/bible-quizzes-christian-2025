@@ -112,7 +112,7 @@ export default function BookChaptersClient({
             </p>
           </div>
 
-          <div className={`${testament === 'old' ? 'bg-amber-50 border-amber-200' : 'bg-blue-50 border-blue-200'} border rounded-xl p-6`}>
+          <div className={`${testament === 'old' ? 'bg-amber-50 border-amber-200' : 'bg-sacred-light border-sacred/20'} border rounded-xl p-6`}>
             <div className="flex flex-col sm:flex-row items-center gap-4 mb-6">
               <label className="font-medium text-primary-dark/80">I want to finish {bookName} in</label>
               <select
@@ -121,7 +121,7 @@ export default function BookChaptersClient({
                 className={`px-4 py-2 border rounded-lg bg-white focus:ring-2 ${
                   testament === 'old'
                     ? 'border-amber-300 focus:ring-amber-500 focus:border-amber-500'
-                    : 'border-blue-300 focus:ring-blue-500 focus:border-blue-500'
+                    : 'border-sacred/50 focus:ring-sacred focus:border-sacred'
                 }`}
               >
                 {studyDayOptions.map((opt) => (
@@ -133,7 +133,7 @@ export default function BookChaptersClient({
                 className={`${
                   testament === 'old'
                     ? 'bg-amber-600 hover:bg-amber-700'
-                    : 'bg-blue-600 hover:bg-blue-700'
+                    : 'bg-scripture hover:bg-scripture/80'
                 } text-white px-6 py-2 rounded-lg font-medium transition-colors`}
               >
                 {showPlan ? 'Hide Plan' : 'Generate Plan'}
@@ -141,9 +141,9 @@ export default function BookChaptersClient({
             </div>
 
             {showPlan && (
-              <div className={`bg-white rounded-lg border ${testament === 'old' ? 'border-amber-200' : 'border-blue-200'} overflow-hidden`}>
-                <div className={`${testament === 'old' ? 'bg-amber-100' : 'bg-blue-100'} px-4 py-2 border-b ${testament === 'old' ? 'border-amber-200' : 'border-blue-200'}`}>
-                  <h3 className={`font-semibold ${testament === 'old' ? 'text-amber-900' : 'text-blue-900'}`}>
+              <div className={`bg-white rounded-lg border ${testament === 'old' ? 'border-amber-200' : 'border-sacred/20'} overflow-hidden`}>
+                <div className={`${testament === 'old' ? 'bg-amber-100' : 'bg-sacred-light'} px-4 py-2 border-b ${testament === 'old' ? 'border-amber-200' : 'border-sacred/20'}`}>
+                  <h3 className={`font-semibold ${testament === 'old' ? 'text-amber-900' : 'text-scripture'}`}>
                     Your {studyDays}-Day {bookName} Journey ({chaptersPerDay} chapter{chaptersPerDay > 1 ? 's' : ''}/day)
                   </h3>
                 </div>
@@ -159,7 +159,7 @@ export default function BookChaptersClient({
                     </thead>
                     <tbody>
                       {generateStudyPlan().map((item) => (
-                        <tr key={item.day} className={`border-t border-grace/50 ${testament === 'old' ? 'hover:bg-amber-50' : 'hover:bg-primary-light'}`}>
+                        <tr key={item.day} className={`border-t border-grace/50 ${testament === 'old' ? 'hover:bg-amber-50' : 'hover:bg-sacred-light'}`}>
                           <td className="px-4 py-2 font-medium">Day {item.day}</td>
                           <td className="px-4 py-2">
                             {item.chapters.length === 1
@@ -171,7 +171,7 @@ export default function BookChaptersClient({
                           <td className="px-4 py-2">
                             <Link
                               href={`/${bookSlug}-${item.chapters[0]}-quiz`}
-                              className={`${testament === 'old' ? 'text-amber-600 hover:text-amber-800' : 'text-blue-600 hover:text-blue-800'} hover:underline`}
+                              className={`${testament === 'old' ? 'text-amber-600 hover:text-amber-800' : 'text-sacred hover:text-gold-dark'} hover:underline`}
                             >
                               Start Quiz &rarr;
                             </Link>
@@ -236,12 +236,12 @@ export default function BookChaptersClient({
                 <Link
                   href={`/${bookSlug}-${chapter}-quiz`}
                   className={`group flex-1 flex flex-col items-center justify-center py-3 transition-colors ${
-                    testament === 'old' ? 'hover:bg-amber-50' : 'hover:bg-primary-light'
+                    testament === 'old' ? 'hover:bg-amber-50' : 'hover:bg-sacred-light'
                   }`}
                   title={`${bookName} ${chapter} Quiz`}
                 >
-                  <span className={`text-lg md:text-xl font-bold text-primary-dark/80 ${
-                    testament === 'old' ? 'group-hover:text-amber-700' : 'group-hover:text-blue-700'
+                  <span className={`text-lg md:text-xl font-bold text-scripture ${
+                    testament === 'old' ? 'group-hover:text-amber-700' : 'group-hover:text-gold-dark'
                   }`}>
                     {chapter}
                   </span>
@@ -251,7 +251,7 @@ export default function BookChaptersClient({
                   className={`text-center text-xs py-1.5 border-t border-grace/50 transition-colors ${
                     testament === 'old'
                       ? 'text-amber-600 hover:bg-amber-50'
-                      : 'text-blue-600 hover:bg-primary-light'
+                      : 'text-sacred hover:bg-sacred-light'
                   }`}
                   title={`Read ${bookName} ${chapter}`}
                 >
@@ -267,17 +267,17 @@ export default function BookChaptersClient({
       <section className={`py-12 md:py-16 ${
         testament === 'old'
           ? 'bg-gradient-to-br from-amber-800 to-amber-900'
-          : 'bg-gradient-to-br from-blue-800 to-blue-900'
+          : 'bg-gradient-to-br from-scripture to-scripture/80'
       } text-white`}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             You&apos;ve Got This. Start Anywhere.
           </h2>
-          <p className={`${testament === 'old' ? 'text-amber-100' : 'text-blue-100'} mb-4 text-lg`}>
+          <p className={`${testament === 'old' ? 'text-amber-100' : 'text-sacred-light'} mb-4 text-lg`}>
             Whether you&apos;re a {bookName} veteran or reading it for the first time,
             these quizzes will deepen your understanding and surprise you with details you might have missed.
           </p>
-          <p className={`${testament === 'old' ? 'text-amber-200' : 'text-blue-200'} mb-8`}>
+          <p className={`${testament === 'old' ? 'text-amber-200' : 'text-sacred'} mb-8`}>
             Pro tip: Start with Chapter 1 and work your way through, or jump to any chapter that interests you.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
@@ -286,7 +286,7 @@ export default function BookChaptersClient({
               className={`${
                 testament === 'old'
                   ? 'bg-white text-amber-900 hover:bg-amber-50'
-                  : 'bg-white text-blue-900 hover:bg-primary-light'
+                  : 'bg-white text-scripture hover:bg-sacred-light'
               } px-8 py-3 rounded-lg font-semibold transition-colors`}
             >
               Start with Chapter 1
@@ -296,7 +296,7 @@ export default function BookChaptersClient({
               className={`${
                 testament === 'old'
                   ? 'bg-amber-700 hover:bg-amber-600 border-amber-500'
-                  : 'bg-blue-700 hover:bg-blue-600 border-blue-500'
+                  : 'bg-scripture/80 hover:bg-scripture/60 border-sacred/50'
               } border px-8 py-3 rounded-lg font-semibold transition-colors`}
             >
               Take Complete Book Quiz

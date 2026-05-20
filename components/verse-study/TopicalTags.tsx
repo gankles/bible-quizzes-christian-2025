@@ -75,7 +75,7 @@ export default function TopicalTags({ verseText }: TopicalTagsProps) {
         <Link
           key={topic.slug}
           href={`/topics/${topic.slug}`}
-          className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium border border-grace text-primary-dark/70 hover:text-scripture hover:border-grace transition-colors"
+          className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium border border-grace text-ink-muted hover:text-scripture hover:border-grace transition-colors"
         >
           {topic.name}
         </Link>

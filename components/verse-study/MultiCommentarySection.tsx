@@ -57,7 +57,7 @@ function SingleCommentary({ entry }: { entry: CommentaryEntry }) {
       <div className="relative">
         <div
           ref={contentRef}
-          className="text-[15px] text-primary-dark/80 leading-[1.8] whitespace-pre-line overflow-hidden transition-[max-height] duration-300"
+          className="text-[15px] text-scripture leading-[1.8] whitespace-pre-line overflow-hidden transition-[max-height] duration-300"
           style={{ maxHeight: expanded || !needsTruncation ? 'none' : `${COLLAPSE_HEIGHT}px` }}
           dangerouslySetInnerHTML={{ __html: parsedText }}
         />
@@ -69,13 +69,13 @@ function SingleCommentary({ entry }: { entry: CommentaryEntry }) {
       {needsTruncation && (
         <button
           onClick={() => setExpanded(!expanded)}
-          className="mt-3 text-sm text-blue-600 hover:underline font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 rounded"
+          className="mt-3 text-sm text-sacred hover:underline font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sacred focus-visible:ring-offset-2 rounded"
         >
           {expanded ? 'Show less' : 'Read full commentary'}
         </button>
       )}
 
-      <p className="text-xs text-primary-dark/40 mt-3">
+      <p className="text-xs text-ink-light mt-3">
         {entry.author} &mdash; Public Domain
       </p>
 
@@ -83,7 +83,7 @@ function SingleCommentary({ entry }: { entry: CommentaryEntry }) {
         <div className="mt-6">
           <h3 className="text-lg font-semibold text-scripture mb-3">Historical &amp; Cultural Context</h3>
           <div
-            className="text-[15px] text-primary-dark/80 leading-[1.8] prose prose-sm max-w-none"
+            className="text-[15px] text-scripture leading-[1.8] prose prose-sm max-w-none"
             dangerouslySetInnerHTML={{ __html: entry.historical }}
           />
         </div>
@@ -92,7 +92,7 @@ function SingleCommentary({ entry }: { entry: CommentaryEntry }) {
       {entry.questions && entry.questions.length > 0 && (
         <div className="mt-6">
           <h3 className="text-lg font-semibold text-scripture mb-3">Reflection Questions</h3>
-          <ol className="list-decimal list-inside space-y-2 text-[15px] text-primary-dark/80 leading-[1.8]">
+          <ol className="list-decimal list-inside space-y-2 text-[15px] text-scripture leading-[1.8]">
             {entry.questions.map((q, i) => (
               <li key={i}>{q}</li>
             ))}
@@ -115,7 +115,7 @@ export default function MultiCommentarySection({ commentaries }: MultiCommentary
       <section className="mb-8">
         <div className="flex items-baseline justify-between mb-4">
           <h2 className="text-xl font-semibold text-scripture">Commentary</h2>
-          <span className="text-xs text-primary-dark/40">{c.source}</span>
+          <span className="text-xs text-ink-light">{c.source}</span>
         </div>
         <SingleCommentary entry={c} />
         <hr className="border-grace mt-8" />
@@ -131,7 +131,7 @@ export default function MultiCommentarySection({ commentaries }: MultiCommentary
       <div className="flex items-baseline justify-between mb-4">
         <h2 className="text-xl font-semibold text-scripture">
           Commentaries
-          <span className="text-sm font-normal text-primary-dark/40 ml-2">
+          <span className="text-sm font-normal text-ink-light ml-2">
             {commentaries.length} scholars
           </span>
         </h2>
@@ -147,16 +147,16 @@ export default function MultiCommentarySection({ commentaries }: MultiCommentary
               onClick={() => setActiveIdx(i)}
               className={`
                 flex-shrink-0 px-4 py-2.5 rounded-lg text-sm font-medium transition-all duration-200
-                focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500
+                focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sacred
                 ${isActive
-                  ? 'bg-blue-600 text-white shadow-sm'
-                  : 'bg-grace/40 text-primary-dark/70 hover:bg-grace/70 hover:text-primary-dark'
+                  ? 'bg-scripture text-white shadow-sm'
+                  : 'bg-grace/40 text-ink-muted hover:bg-grace/70 hover:text-scripture'
                 }
               `}
             >
               <span className="block">{getShortName(c.source)}</span>
               {getEraLabel(c.source) && (
-                <span className={`block text-[10px] mt-0.5 ${isActive ? 'text-blue-100' : 'text-primary-dark/40'}`}>
+                <span className={`block text-[10px] mt-0.5 ${isActive ? 'text-sacred-light' : 'text-ink-light'}`}>
                   {getEraLabel(c.source)}
                 </span>
               )}
@@ -169,7 +169,7 @@ export default function MultiCommentarySection({ commentaries }: MultiCommentary
       <div className="border border-grace/50 rounded-xl p-5 bg-white/50">
         <div className="flex items-center gap-2 mb-4">
           <span className="text-sm font-semibold text-scripture">{active.source}</span>
-          <span className="text-[10px] bg-grace/60 text-primary-dark/50 px-2 py-0.5 rounded-full uppercase tracking-wider">
+          <span className="text-[10px] bg-grace/60 text-ink-muted px-2 py-0.5 rounded-full uppercase tracking-wider">
             Public Domain
           </span>
         </div>
@@ -177,7 +177,7 @@ export default function MultiCommentarySection({ commentaries }: MultiCommentary
       </div>
 
       {/* Compare hint */}
-      <p className="text-xs text-primary-dark/40 mt-3 text-center">
+      <p className="text-xs text-ink-light mt-3 text-center">
         Compare {commentaries.length} commentaries from different scholars and time periods for a richer understanding.
       </p>
 
