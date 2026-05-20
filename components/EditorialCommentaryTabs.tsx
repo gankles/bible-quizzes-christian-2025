@@ -6,6 +6,7 @@ interface CommentaryTab {
   id: string;
   label: string;
   shortLabel?: string;
+  era?: string;
   content: string;
 }
 
@@ -27,13 +28,18 @@ export default function EditorialCommentaryTabs({ tabs, className = '' }: Editor
           <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
-            className={`px-4 py-3 text-sm font-semibold transition-all duration-150 border-b-2 -mb-px ${
+            className={`px-4 py-3 text-sm font-semibold transition-all duration-150 border-b-2 -mb-px text-left ${
               activeTab === tab.id
                 ? 'border-sacred text-scripture bg-white'
                 : 'border-transparent text-ink-muted hover:text-scripture hover:border-sacred/40'
             }`}
           >
-            <span className="hidden sm:inline">{tab.label}</span>
+            <span className="hidden sm:block">{tab.label}</span>
+            {tab.era && (
+              <span className={`hidden sm:block text-xs font-normal mt-0.5 ${activeTab === tab.id ? 'text-sacred' : 'text-ink-light'}`}>
+                {tab.era}
+              </span>
+            )}
             <span className="sm:hidden">{tab.shortLabel ?? tab.label}</span>
           </button>
         ))}

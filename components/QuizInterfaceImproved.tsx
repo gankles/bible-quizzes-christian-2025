@@ -272,7 +272,7 @@ function QuestionCard({ question, questionNumber, userAnswer, onAnswerChange, di
                   key={option}
                   className={`flex items-start space-x-3 p-3 rounded-lg border-2 cursor-pointer transition-all duration-200 ${
                     userAnswer === option
-                      ? 'border-scripture bg-primary-light'
+                      ? 'border-royal-blue bg-blue-50'
                       : 'border-grace hover:border-sacred/50 hover:bg-sacred-light'
                   } ${disabled ? 'cursor-not-allowed opacity-50' : ''}`}
                 >
@@ -303,7 +303,7 @@ function QuestionCard({ question, questionNumber, userAnswer, onAnswerChange, di
                 key={option}
                 className={`flex items-center space-x-3 p-3 rounded-lg border-2 cursor-pointer transition-all duration-200 ${
                   userAnswer === option.toLowerCase()
-                    ? 'border-scripture bg-primary-light'
+                    ? 'border-royal-blue bg-blue-50'
                     : 'border-grace hover:border-sacred/50 hover:bg-sacred-light'
                 } ${disabled ? 'cursor-not-allowed opacity-50' : ''}`}
               >

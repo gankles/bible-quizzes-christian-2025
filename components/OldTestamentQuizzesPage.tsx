@@ -72,11 +72,11 @@ const CATEGORY_LABELS = {
 };
 
 const CATEGORY_COLORS = {
-  'law': 'bg-blue-50 border-blue-200',
-  'history': 'bg-green-50 border-green-200',
-  'poetry': 'bg-purple-50 border-purple-200',
-  'major-prophets': 'bg-orange-50 border-orange-200',
-  'minor-prophets': 'bg-red-50 border-red-200'
+  'law': 'bg-primary-light border-sacred/20',
+  'history': 'bg-white border-sacred/20',
+  'poetry': 'bg-primary-light border-sacred/20',
+  'major-prophets': 'bg-white border-sacred/20',
+  'minor-prophets': 'bg-primary-light border-sacred/20'
 };
 
 export default function OldTestamentQuizzesPage() {
@@ -118,8 +118,8 @@ export default function OldTestamentQuizzesPage() {
       {/* Header */}
       <div className="bg-white border-b border-grace">
         <div className="max-w-6xl mx-auto px-4 py-12 text-center">
-          <h1 className="text-4xl font-bold text-scripture mb-4">Old Testament Bible Quizzes</h1>
-          <p className="text-lg text-primary-dark/70 mb-8 max-w-2xl mx-auto">
+          <h1 className="font-display text-4xl font-bold text-scripture mb-4">Old Testament Bible Quizzes</h1>
+          <p className="text-lg text-ink-muted mb-8 max-w-2xl mx-auto">
             Explore the Hebrew Scriptures with comprehensive quizzes covering all 39 books from Genesis to Malachi.
           </p>
           
@@ -130,7 +130,7 @@ export default function OldTestamentQuizzesPage() {
               placeholder="Search Old Testament books..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full px-4 py-3 border border-grace rounded-lg text-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              className="w-full px-4 py-3 border border-grace rounded-lg text-lg focus:outline-none focus:ring-2 focus:ring-sacred focus:border-sacred"
             />
           </div>
 
@@ -138,43 +138,37 @@ export default function OldTestamentQuizzesPage() {
           <div className="flex justify-center gap-8 mb-8">
             <div className="text-center">
               <div className="text-3xl font-bold text-scripture">39</div>
-              <div className="text-sm text-primary-dark/70">Books</div>
+              <div className="text-sm text-ink-muted">Books</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-scripture">{totalChapters.toLocaleString()}</div>
-              <div className="text-sm text-primary-dark/70">Chapters</div>
+              <div className="text-sm text-ink-muted">Chapters</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-scripture">15K+</div>
-              <div className="text-sm text-primary-dark/70">Questions</div>
+              <div className="text-sm text-ink-muted">Questions</div>
             </div>
           </div>
 
           {/* Ultimate Challenge Card */}
           <div className="max-w-4xl mx-auto mb-8">
-            <div className="bg-green-50 border border-green-200 rounded-lg p-8 text-center">
-              <h2 className="text-xl font-bold text-scripture mb-4">
-                ✨ Ultimate Old Testament Challenge
+            <div className="bg-sacred-light border border-sacred/30 rounded-lg p-8 text-center">
+              <h2 className="font-display text-xl font-bold text-scripture mb-4">
+                Ultimate Old Testament Challenge
               </h2>
-              <p className="text-primary-dark/70 mb-6 max-w-2xl mx-auto">
+              <p className="text-ink-muted mb-6 max-w-2xl mx-auto">
                 Test your comprehensive knowledge of all 39 Old Testament books with our ultimate 30-question quiz covering the Law, History, Poetry, and Prophets.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
                 <Link
                   href="/complete-old-testament-quiz"
-                  className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors"
+                  className="bg-scripture text-primary-light px-6 py-3 rounded-lg font-semibold hover:bg-ink-muted transition-colors"
                 >
                   Take 30-Question Old Testament Quiz
                 </Link>
-                <div className="flex items-center gap-4 text-sm text-primary-dark/70">
-                  <div className="flex items-center gap-1">
-                    <span>⏱️</span>
-                    <span>~20 minutes</span>
-                  </div>
-                  <div className="flex items-center gap-1">
-                    <span>📊</span>
-                    <span>Difficulty: Hard</span>
-                  </div>
+                <div className="flex items-center gap-4 text-sm text-ink-muted">
+                  <span>~20 minutes</span>
+                  <span>Difficulty: Hard</span>
                 </div>
               </div>
             </div>
@@ -186,9 +180,9 @@ export default function OldTestamentQuizzesPage() {
               <button
                 onClick={() => setSelectedCategory('all')}
                 className={`px-4 py-2 rounded-md font-medium text-sm transition-colors ${
-                  selectedCategory === 'all' 
-                    ? 'bg-scripture text-white'
-                    : 'text-primary-dark/70 hover:text-scripture'
+                  selectedCategory === 'all'
+                    ? 'bg-scripture text-primary-light'
+                    : 'text-ink-muted hover:text-scripture'
                 }`}
               >
                 All Books
@@ -198,9 +192,9 @@ export default function OldTestamentQuizzesPage() {
                   key={key}
                   onClick={() => setSelectedCategory(key)}
                   className={`px-4 py-2 rounded-md font-medium text-sm transition-colors ${
-                    selectedCategory === key 
-                      ? 'bg-blue-600 text-white' 
-                      : 'text-primary-dark/70 hover:text-scripture'
+                    selectedCategory === key
+                      ? 'bg-scripture text-primary-light'
+                      : 'text-ink-muted hover:text-scripture'
                   }`}
                 >
                   {label}
@@ -221,17 +215,17 @@ export default function OldTestamentQuizzesPage() {
             
             return (
               <div key={categoryKey} className={`mb-12 p-6 rounded-lg border-2 ${CATEGORY_COLORS[categoryKey as keyof typeof CATEGORY_COLORS]}`}>
-                <h2 className="text-2xl font-bold text-scripture mb-6">{categoryLabel} ({categoryBooks.length} Books)</h2>
+                <h2 className="font-display text-2xl font-bold text-scripture mb-6">{categoryLabel} ({categoryBooks.length} Books)</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                   {categoryBooks.map((book) => (
                     <Link
                       key={book.slug}
                       href={`/${book.slug}-quiz`}
-                      className="bg-white border border-grace rounded-lg p-4 hover:shadow-md hover:border-blue-300 transition-all duration-200 hover:-translate-y-1"
+                      className="bg-white border border-grace rounded-lg p-4 hover:shadow-md hover:border-sacred/50 transition-all duration-200 hover:-translate-y-1"
                     >
                       <h3 className="font-semibold text-scripture mb-2">{book.name}</h3>
-                      <p className="text-sm text-primary-dark/70 mb-2">{book.description}</p>
-                      <p className="text-xs text-primary-dark/60">{book.chapters} chapters</p>
+                      <p className="text-sm text-ink-muted mb-2">{book.description}</p>
+                      <p className="text-xs text-ink-light">{book.chapters} chapters</p>
                     </Link>
                   ))}
                 </div>
@@ -241,7 +235,7 @@ export default function OldTestamentQuizzesPage() {
         ) : (
           // Show single category
           <div className={`p-6 rounded-lg border-2 ${CATEGORY_COLORS[selectedCategory as keyof typeof CATEGORY_COLORS]}`}>
-            <h2 className="text-2xl font-bold text-scripture mb-6 text-center">
+            <h2 className="font-display text-2xl font-bold text-scripture mb-6 text-center">
               {CATEGORY_LABELS[selectedCategory as keyof typeof CATEGORY_LABELS]} ({filteredBooks.length} Books)
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -249,11 +243,11 @@ export default function OldTestamentQuizzesPage() {
                 <Link
                   key={book.slug}
                   href={`/${book.slug}-quiz`}
-                  className="bg-white border border-grace rounded-lg p-4 hover:shadow-md hover:border-blue-300 transition-all duration-200 hover:-translate-y-1"
+                  className="bg-white border border-grace rounded-lg p-4 hover:shadow-md hover:border-sacred/50 transition-all duration-200 hover:-translate-y-1"
                 >
                   <h3 className="font-semibold text-scripture mb-2">{book.name}</h3>
-                  <p className="text-sm text-primary-dark/70 mb-2">{book.description}</p>
-                  <p className="text-xs text-primary-dark/60">{book.chapters} chapters</p>
+                  <p className="text-sm text-ink-muted mb-2">{book.description}</p>
+                  <p className="text-xs text-ink-light">{book.chapters} chapters</p>
                 </Link>
               ))}
             </div>
@@ -264,7 +258,7 @@ export default function OldTestamentQuizzesPage() {
         {filteredBooks.length === 0 && (
           <div className="text-center py-12">
             <h3 className="text-lg font-medium text-scripture mb-2">No books found</h3>
-            <p className="text-primary-dark/70 mb-4">
+            <p className="text-ink-muted mb-4">
               Try searching for a different book name or adjust your category filter.
             </p>
             <button
@@ -272,7 +266,7 @@ export default function OldTestamentQuizzesPage() {
                 setSearchTerm('');
                 setSelectedCategory('all');
               }}
-              className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+              className="bg-scripture text-primary-light px-4 py-2 rounded-lg hover:bg-ink-muted transition-colors"
             >
               Clear Filters
             </button>
@@ -283,7 +277,7 @@ export default function OldTestamentQuizzesPage() {
       {/* Cross-Links to Other Study Resources */}
       <div className="max-w-5xl mx-auto px-6 py-12">
         <h2 className="text-2xl font-bold text-scripture mb-2">More Ways to Study the Old Testament</h2>
-        <p className="text-primary-dark/60 mb-6">Go deeper with these complementary study tools.</p>
+        <p className="text-ink-light mb-6">Go deeper with these complementary study tools.</p>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
           {[
             { name: 'Chapter Summaries', href: '/bible-chapter-summaries', desc: 'Concise summaries for every chapter' },
@@ -298,32 +292,32 @@ export default function OldTestamentQuizzesPage() {
             <Link
               key={link.href}
               href={link.href}
-              className="block p-4 bg-white rounded-lg border border-grace hover:border-blue-300 hover:shadow-md transition-all"
+              className="block p-4 bg-white rounded-lg border border-grace hover:border-sacred/50 hover:shadow-md transition-all"
             >
               <span className="font-semibold text-scripture text-sm block mb-1">{link.name}</span>
-              <span className="text-xs text-primary-dark/50">{link.desc}</span>
+              <span className="text-xs text-ink-light">{link.desc}</span>
             </Link>
           ))}
         </div>
       </div>
 
       {/* Call to Action */}
-      <div className="bg-blue-600 text-white py-12">
+      <div className="bg-scripture text-primary-light py-12">
         <div className="max-w-4xl mx-auto text-center px-4">
-          <h2 className="text-3xl font-bold mb-4">Start Your Old Testament Journey</h2>
-          <p className="text-xl text-blue-100 mb-8">
-            Begin with the foundation of faith and explore God's covenant with His people.
+          <h2 className="font-display text-3xl font-bold mb-4">Start Your Old Testament Journey</h2>
+          <p className="text-xl text-primary-light/80 mb-8">
+            Begin with the foundation of faith and explore God&apos;s covenant with His people.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link
               href="/genesis-quiz"
-              className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-primary-light transition-colors"
+              className="bg-primary-light text-scripture px-6 py-3 rounded-lg font-semibold hover:bg-grace transition-colors"
             >
               Start with Genesis
             </Link>
             <Link
               href="/psalms-quiz"
-              className="bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-800 transition-colors border border-blue-500"
+              className="bg-scripture/60 text-primary-light px-6 py-3 rounded-lg font-semibold hover:bg-scripture/80 transition-colors border border-primary-light/20"
             >
               Explore Psalms
             </Link>
