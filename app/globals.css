@@ -44,6 +44,62 @@ body {
   }
 }
 
+/* ── Dark-background auto-contrast ──────────────────────────────────────────
+ * Ensures readable text on navy/dark sections without touching every component.
+ * Descendant selectors (0-2-0) beat single-class Tailwind utilities (0-1-0).  */
+.bg-scripture,
+.bg-ink-muted {
+  /* Establish light text as the default for the section itself */
+  color: #F5F1E8;
+}
+
+/* Headings fully white */
+.bg-scripture h1, .bg-scripture h2, .bg-scripture h3,
+.bg-scripture h4, .bg-scripture h5, .bg-scripture h6,
+.bg-ink-muted h1, .bg-ink-muted h2, .bg-ink-muted h3 {
+  color: #FFFFFF;
+}
+
+/* Override dark text tokens to cream equivalents */
+.bg-scripture .text-scripture,
+.bg-scripture .text-ink-muted,
+.bg-scripture .text-ink-light,
+.bg-ink-muted .text-scripture,
+.bg-ink-muted .text-ink-muted,
+.bg-ink-muted .text-ink-light {
+  color: rgba(245, 241, 232, 0.85);
+}
+
+/* Paragraphs, list items, labels default to cream */
+.bg-scripture p, .bg-scripture li, .bg-scripture label, .bg-scripture span,
+.bg-ink-muted p, .bg-ink-muted li, .bg-ink-muted label, .bg-ink-muted span {
+  color: rgba(245, 241, 232, 0.85);
+}
+
+/* Gold stays gold (it reads fine on navy) */
+.bg-scripture .text-sacred,
+.bg-ink-muted .text-sacred {
+  color: #C9A961;
+}
+
+/* Links on dark sections: gold default, cream on hover */
+.bg-scripture a:not([class*="bg-"]),
+.bg-ink-muted a:not([class*="bg-"]) {
+  color: #C9A961;
+}
+.bg-scripture a:not([class*="bg-"]):hover,
+.bg-ink-muted a:not([class*="bg-"]):hover {
+  color: #F8F3E3;
+}
+
+/* Explicit white/cream overrides remain untouched */
+.bg-scripture .text-white,
+.bg-scripture .text-primary-light,
+.bg-ink-muted .text-white,
+.bg-ink-muted .text-primary-light {
+  color: #F5F1E8;
+}
+
 /* Gold divider utility */
 @layer utilities {
   .text-balance {
