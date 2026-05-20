@@ -159,8 +159,8 @@ export default function QuizInterfaceImproved({ quiz, onComplete }: QuizInterfac
       </div>
 
       {/* Quiz Instructions */}
-      <div className="bg-sacred-light border border-sacred/30 rounded-lg p-4 mb-6">
-        <h2 className="font-display text-base font-semibold text-scripture mb-2">Instructions</h2>
+      <div className="bg-blue-50 border-l-4 border-royal-blue rounded-lg p-4 mb-6">
+        <h2 className="font-display text-base font-semibold text-royal-blue uppercase tracking-wide mb-2">Instructions</h2>
         <ul className="text-ink-muted text-sm space-y-1">
           <li>• Answer all questions below and click Submit when complete</li>
           <li>• Choose the best answer for each question</li>
@@ -191,7 +191,7 @@ export default function QuizInterfaceImproved({ quiz, onComplete }: QuizInterfac
           disabled={!canSubmit || isSubmitted}
           className={`px-8 py-4 rounded-lg font-display text-lg font-semibold transition-all duration-200 ${
             canSubmit && !isSubmitted
-              ? 'bg-scripture text-primary-light hover:bg-ink-muted shadow-lg hover:shadow-xl'
+              ? 'bg-royal-blue text-white hover:bg-blue-600 shadow-lg hover:shadow-xl'
               : 'bg-grace/40 text-ink-light cursor-not-allowed'
           }`}
         >
@@ -215,7 +215,7 @@ export default function QuizInterfaceImproved({ quiz, onComplete }: QuizInterfac
             <Link
               key={link.href}
               href={link.href}
-              className="flex items-center space-x-3 p-4 bg-white rounded-lg border border-sacred/20 hover:border-sacred/50 hover:bg-sacred-light transition-all duration-200 group shadow-sm"
+              className="flex items-center space-x-3 p-4 bg-white rounded-lg border border-sacred/20 hover:border-sacred hover:bg-sacred-light transition-all duration-200 group shadow-sm"
             >
               <div className="flex-shrink-0">
                 {getLinkIcon(link.type)}
@@ -273,7 +273,7 @@ function QuestionCard({ question, questionNumber, userAnswer, onAnswerChange, di
                   className={`flex items-start space-x-3 p-3 rounded-lg border-2 cursor-pointer transition-all duration-200 ${
                     userAnswer === option
                       ? 'border-royal-blue bg-blue-50'
-                      : 'border-grace hover:border-sacred/50 hover:bg-sacred-light'
+                      : 'border-grace hover:border-sacred hover:bg-sacred-light'
                   } ${disabled ? 'cursor-not-allowed opacity-50' : ''}`}
                 >
                   <input
@@ -304,7 +304,7 @@ function QuestionCard({ question, questionNumber, userAnswer, onAnswerChange, di
                 className={`flex items-center space-x-3 p-3 rounded-lg border-2 cursor-pointer transition-all duration-200 ${
                   userAnswer === option.toLowerCase()
                     ? 'border-royal-blue bg-blue-50'
-                    : 'border-grace hover:border-sacred/50 hover:bg-sacred-light'
+                    : 'border-grace hover:border-sacred hover:bg-sacred-light'
                 } ${disabled ? 'cursor-not-allowed opacity-50' : ''}`}
               >
                 <input

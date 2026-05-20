@@ -148,39 +148,40 @@ export default async function VersePage({ params }: VersePageProps) {
     <div className="max-w-3xl mx-auto px-4 sm:px-6">
       {/* Breadcrumb */}
       <nav className="py-4">
-        <ol className="flex items-center gap-1.5 text-sm text-primary-dark/40 flex-wrap">
-          <li><Link href="/" className="hover:text-primary-dark/80 transition-colors">Home</Link></li>
+        <ol className="flex items-center gap-1.5 text-sm text-ink-muted flex-wrap font-sans">
+          <li><Link href="/" className="hover:text-sacred transition-colors">Home</Link></li>
           <li>/</li>
-          <li><Link href={`/${book}-chapters`} className="hover:text-primary-dark/80 transition-colors">{data.bookName}</Link></li>
+          <li><Link href={`/${book}-chapters`} className="hover:text-sacred transition-colors">{data.bookName}</Link></li>
           <li>/</li>
-          <li><Link href={`/chapters/${book}/${chapter}`} className="hover:text-primary-dark/80 transition-colors">{data.bookName} {chapter}</Link></li>
+          <li><Link href={`/chapters/${book}/${chapter}`} className="hover:text-sacred transition-colors">{data.bookName} {chapter}</Link></li>
           <li>/</li>
-          <li className="text-primary-dark/80">Verse {verse}</li>
+          <li className="text-scripture">Verse {verse}</li>
         </ol>
       </nav>
 
       {/* Verse Hero */}
       <article className="pt-6 pb-10">
         <div className="text-center">
-          <p className="text-xs font-medium tracking-widest uppercase text-primary-dark/60 mb-3">
+          <p className="font-sans text-xs font-bold tracking-widest uppercase text-sacred mb-3">
             King James Version
           </p>
-          <h1 className="text-xl sm:text-2xl font-semibold font-display text-scripture">
+          <h1 className="text-2xl sm:text-3xl font-display font-bold text-scripture leading-tight">
             What Does {data.reference} Mean?
           </h1>
-          <p className="mt-3 text-primary-dark/70 text-sm max-w-xl mx-auto">
+          <p className="mt-3 font-serif italic text-ink-muted text-base max-w-xl mx-auto leading-relaxed">
             {data.reference} in the King James Version says &ldquo;{verseText.substring(0, 120)}{verseText.length > 120 ? '...' : ''}&rdquo;{' '}
             — study this verse from {data.bookName} chapter {chapter} with commentary, cross-references, and original {isOT ? 'Hebrew' : 'Greek'} word analysis.
           </p>
         </div>
 
-        <blockquote className="mt-8 font-serif text-[1.75rem] sm:text-[2rem] md:text-[2.25rem] leading-[1.6] text-scripture italic text-center">
-          &ldquo;{verseText}&rdquo;
-        </blockquote>
-
-        <p className="text-center mt-5 text-sm text-primary-dark/60 font-medium">
-          {data.reference} &middot; KJV
-        </p>
+        <div className="mt-8 bg-white border border-grace rounded-2xl px-8 py-10 shadow-sm text-center">
+          <blockquote className="font-display text-[1.75rem] sm:text-[2rem] md:text-[2.25rem] leading-[1.6] text-scripture italic">
+            &ldquo;{verseText}&rdquo;
+          </blockquote>
+          <p className="mt-5 font-sans text-sm font-bold uppercase tracking-widest text-sacred">
+            {data.reference} &middot; King James Version
+          </p>
+        </div>
       </article>
 
       <TopicalTags verseText={verseText} bookId={data.bookId} />
@@ -234,24 +235,24 @@ export default async function VersePage({ params }: VersePageProps) {
                 <Link
                   key={place.slug}
                   href={`/bible-places/${place.slug}`}
-                  className="group flex items-start gap-3 p-4 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-colors"
+                  className="group flex items-start gap-3 p-4 border border-grace rounded-lg hover:border-sacred/50 hover:bg-sacred-light transition-colors"
                 >
-                  <div className="flex-shrink-0 w-9 h-9 bg-green-100 text-green-700 rounded-full flex items-center justify-center">
+                  <div className="flex-shrink-0 w-9 h-9 bg-sacred/10 text-sacred rounded-full flex items-center justify-center">
                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                       <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
                   </div>
                   <div className="min-w-0">
-                    <span className="font-medium text-scripture group-hover:text-blue-600 transition-colors block">
+                    <span className="font-medium text-scripture group-hover:text-sacred transition-colors block">
                       {place.name}
                     </span>
-                    <span className="text-xs text-primary-dark/60 block mt-0.5">
+                    <span className="text-xs text-ink-muted block mt-0.5">
                       {formatPlaceTypeSingular(place.type)}
                       {place.modernName ? ` · Modern: ${place.modernName}` : ''}
                       {place.lat !== null ? ` · ${place.lat.toFixed(2)}°N, ${place.lon!.toFixed(2)}°E` : ''}
                     </span>
-                    <span className="text-xs text-primary-dark/40 mt-1 block">
+                    <span className="text-xs text-ink-light mt-1 block">
                       {place.verseCount} verse{place.verseCount !== 1 ? 's' : ''} across {place.books.length} book{place.books.length !== 1 ? 's' : ''}
                     </span>
                   </div>
@@ -261,7 +262,7 @@ export default async function VersePage({ params }: VersePageProps) {
             <div className="mt-3 text-right">
               <Link
                 href={`/bible-geography/${book}/${chapterNum}`}
-                className="text-sm text-blue-600 hover:underline"
+                className="text-sm text-sacred hover:text-gold-dark hover:underline"
               >
                 View all places in {data.bookName} {chapterNum} &rarr;
               </Link>
@@ -275,12 +276,12 @@ export default async function VersePage({ params }: VersePageProps) {
         {data.prevVerse ? (
           <Link
             href={`/verses/${book}/${chapter}/${verseNum - 1}`}
-            className="group flex items-center gap-2 text-sm text-primary-dark/60 hover:text-scripture transition-colors"
+            className="group flex items-center gap-2 text-sm text-ink-muted hover:text-scripture transition-colors"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19l-7-7 7-7" />
             </svg>
-            <span><span className="text-primary-dark/40">Previous:</span> Verse {verseNum - 1}</span>
+            <span><span className="text-ink-light">Previous:</span> Verse {verseNum - 1}</span>
           </Link>
         ) : (
           <div />
@@ -288,7 +289,7 @@ export default async function VersePage({ params }: VersePageProps) {
 
         <Link
           href={`/chapters/${book}/${chapter}`}
-          className="px-5 py-2 text-sm font-medium text-blue-600 border border-blue-200 rounded-lg hover:bg-primary-light transition-colors"
+          className="px-5 py-2 text-sm font-medium text-sacred border border-sacred/30 rounded-lg hover:bg-sacred-light transition-colors"
         >
           Full Chapter
         </Link>
@@ -296,9 +297,9 @@ export default async function VersePage({ params }: VersePageProps) {
         {data.nextVerse ? (
           <Link
             href={`/verses/${book}/${chapter}/${verseNum + 1}`}
-            className="group flex items-center gap-2 text-sm text-primary-dark/60 hover:text-scripture transition-colors"
+            className="group flex items-center gap-2 text-sm text-ink-muted hover:text-scripture transition-colors"
           >
-            <span><span className="text-primary-dark/40">Next:</span> Verse {verseNum + 1}</span>
+            <span><span className="text-ink-light">Next:</span> Verse {verseNum + 1}</span>
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
             </svg>
@@ -314,41 +315,41 @@ export default async function VersePage({ params }: VersePageProps) {
         <div className="grid gap-3 sm:grid-cols-2">
           <Link
             href={`/${book}-${chapter}-quiz`}
-            className="group p-4 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-all"
+            className="group p-4 border border-grace rounded-lg hover:border-sacred/50 hover:bg-sacred-light transition-all"
           >
-            <span className="text-blue-600 font-semibold group-hover:underline">{data.bookName} {chapter} Quiz</span>
-            <span className="block text-sm text-primary-dark/60 mt-0.5">Test your knowledge of this chapter</span>
+            <span className="text-sacred font-semibold group-hover:underline">{data.bookName} {chapter} Quiz</span>
+            <span className="block text-sm text-ink-muted mt-0.5">Test your knowledge of this chapter</span>
           </Link>
           <Link
             href={`/${book}-quiz`}
-            className="group p-4 border border-grace rounded-lg hover:border-blue-300 hover:bg-primary-light transition-all"
+            className="group p-4 border border-grace rounded-lg hover:border-sacred/50 hover:bg-sacred-light transition-all"
           >
-            <span className="text-blue-600 font-semibold group-hover:underline">{data.bookName} Book Quiz</span>
-            <span className="block text-sm text-primary-dark/60 mt-0.5">Comprehensive quiz for the entire book</span>
+            <span className="text-sacred font-semibold group-hover:underline">{data.bookName} Book Quiz</span>
+            <span className="block text-sm text-ink-muted mt-0.5">Comprehensive quiz for the entire book</span>
           </Link>
         </div>
       </section>
 
       {/* Continue Your Study */}
-      <section className="py-6 bg-grace/10 border border-grace rounded-xl p-6">
-        <h2 className="text-sm font-semibold text-primary-dark/40 uppercase tracking-wide mb-4">Continue Your Study</h2>
+      <section className="py-6 bg-primary-light border border-sacred/20 rounded-xl p-6">
+        <h2 className="font-sans text-xs font-bold text-sacred uppercase tracking-widest mb-4">Continue Your Study</h2>
         <div className="grid gap-x-6 gap-y-2 sm:grid-cols-2 text-sm">
-          <Link href={`/chapters/${book}/${chapter}`} className="text-blue-600 hover:underline">
+          <Link href={`/chapters/${book}/${chapter}`} className="text-sacred hover:text-gold-dark hover:underline">
             Read {data.bookName} {chapter} with Commentary
           </Link>
-          <Link href={`/${book}-chapters`} className="text-blue-600 hover:underline">
+          <Link href={`/${book}-chapters`} className="text-sacred hover:text-gold-dark hover:underline">
             All {data.bookName} Chapters
           </Link>
-          <Link href={`/${book}-quiz`} className="text-blue-600 hover:underline">
+          <Link href={`/${book}-quiz`} className="text-sacred hover:text-gold-dark hover:underline">
             Complete {data.bookName} Quiz
           </Link>
-          <Link href="/people" className="text-blue-600 hover:underline">
+          <Link href="/people" className="text-sacred hover:text-gold-dark hover:underline">
             Bible Characters
           </Link>
-          <Link href="/nave-topics" className="text-blue-600 hover:underline">
+          <Link href="/nave-topics" className="text-sacred hover:text-gold-dark hover:underline">
             Nave&apos;s Topical Bible
           </Link>
-          <Link href="/bible-quizzes" className="text-blue-600 hover:underline">
+          <Link href="/bible-quizzes" className="text-sacred hover:text-gold-dark hover:underline">
             All Bible Quizzes
           </Link>
         </div>
