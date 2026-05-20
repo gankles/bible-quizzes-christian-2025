@@ -1,0 +1,187 @@
+'use client';
+
+import { useState, useRef, useEffect, useMemo } from 'react';
+
+interface CommentaryEntry {
+  text: string;
+  source: string;
+  author: string;
+  historical?: string;
+  questions?: string[];
+}
+
+interface MultiCommentarySectionProps {
+  commentaries: CommentaryEntry[];
+}
+
+const COLLAPSE_HEIGHT = 280;
+
+function parseCommentaryText(text: string): string {
+  return text
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em>$1</em>');
+}
+
+/** Short display name for tabs */
+function getShortName(source: string): string {
+  if (source.includes('Ellicott')) return 'Ellicott';
+  if (source.includes('Jamieson') || source.includes('JFB')) return 'JFB';
+  if (source.includes('Matthew Henry') || source.includes('MHCC')) return 'Matthew Henry';
+  if (source.includes('KJV Study')) return 'KJV Study';
+  return source.split(' ').slice(0, 2).join(' ');
+}
+
+/** Era label under the tab name */
+function getEraLabel(source: string): string {
+  if (source.includes('Ellicott')) return '1878';
+  if (source.includes('Jamieson') || source.includes('JFB')) return '1871';
+  if (source.includes('Matthew Henry') || source.includes('MHCC')) return '1706';
+  if (source.includes('KJV Study')) return 'Modern';
+  return '';
+}
+
+function SingleCommentary({ entry }: { entry: CommentaryEntry }) {
+  const [expanded, setExpanded] = useState(false);
+  const [needsTruncation, setNeedsTruncation] = useState(false);
+  const contentRef = useRef<HTMLDivElement>(null);
+  const parsedText = useMemo(() => parseCommentaryText(entry.text), [entry.text]);
+
+  useEffect(() => {
+    if (contentRef.current) {
+      setNeedsTruncation(contentRef.current.scrollHeight > COLLAPSE_HEIGHT + 60);
+    }
+  }, [parsedText]);
+
+  return (
+    <div>
+      <div className="relative">
+        <div
+          ref={contentRef}
+          className="text-[15px] text-primary-dark/80 leading-[1.8] whitespace-pre-line overflow-hidden transition-[max-height] duration-300"
+          style={{ maxHeight: expanded || !needsTruncation ? 'none' : `${COLLAPSE_HEIGHT}px` }}
+          dangerouslySetInnerHTML={{ __html: parsedText }}
+        />
+        {needsTruncation && !expanded && (
+          <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-white to-transparent" />
+        )}
+      </div>
+
+      {needsTruncation && (
+        <button
+          onClick={() => setExpanded(!expanded)}
+          className="mt-3 text-sm text-blue-600 hover:underline font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 rounded"
+        >
+          {expanded ? 'Show less' : 'Read full commentary'}
+        </button>
+      )}
+
+      <p className="text-xs text-primary-dark/40 mt-3">
+        {entry.author} &mdash; Public Domain
+      </p>
+
+      {entry.historical && (
+        <div className="mt-6">
+          <h3 className="text-lg font-semibold text-scripture mb-3">Historical &amp; Cultural Context</h3>
+          <div
+            className="text-[15px] text-primary-dark/80 leading-[1.8] prose prose-sm max-w-none"
+            dangerouslySetInnerHTML={{ __html: entry.historical }}
+          />
+        </div>
+      )}
+
+      {entry.questions && entry.questions.length > 0 && (
+        <div className="mt-6">
+          <h3 className="text-lg font-semibold text-scripture mb-3">Reflection Questions</h3>
+          <ol className="list-decimal list-inside space-y-2 text-[15px] text-primary-dark/80 leading-[1.8]">
+            {entry.questions.map((q, i) => (
+              <li key={i}>{q}</li>
+            ))}
+          </ol>
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default function MultiCommentarySection({ commentaries }: MultiCommentarySectionProps) {
+  const [activeIdx, setActiveIdx] = useState(0);
+
+  if (commentaries.length === 0) return null;
+
+  // Single commentary — simple display without tabs
+  if (commentaries.length === 1) {
+    const c = commentaries[0];
+    return (
+      <section className="mb-8">
+        <div className="flex items-baseline justify-between mb-4">
+          <h2 className="text-xl font-semibold text-scripture">Commentary</h2>
+          <span className="text-xs text-primary-dark/40">{c.source}</span>
+        </div>
+        <SingleCommentary entry={c} />
+        <hr className="border-grace mt-8" />
+      </section>
+    );
+  }
+
+  // Multiple commentaries — tabbed interface
+  const active = commentaries[activeIdx];
+
+  return (
+    <section className="mb-8">
+      <div className="flex items-baseline justify-between mb-4">
+        <h2 className="text-xl font-semibold text-scripture">
+          Commentaries
+          <span className="text-sm font-normal text-primary-dark/40 ml-2">
+            {commentaries.length} scholars
+          </span>
+        </h2>
+      </div>
+
+      {/* Tab Selector */}
+      <div className="flex gap-1.5 mb-6 overflow-x-auto pb-1 -mx-1 px-1">
+        {commentaries.map((c, i) => {
+          const isActive = i === activeIdx;
+          return (
+            <button
+              key={i}
+              onClick={() => setActiveIdx(i)}
+              className={`
+                flex-shrink-0 px-4 py-2.5 rounded-lg text-sm font-medium transition-all duration-200
+                focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500
+                ${isActive
+                  ? 'bg-blue-600 text-white shadow-sm'
+                  : 'bg-grace/40 text-primary-dark/70 hover:bg-grace/70 hover:text-primary-dark'
+                }
+              `}
+            >
+              <span className="block">{getShortName(c.source)}</span>
+              {getEraLabel(c.source) && (
+                <span className={`block text-[10px] mt-0.5 ${isActive ? 'text-blue-100' : 'text-primary-dark/40'}`}>
+                  {getEraLabel(c.source)}
+                </span>
+              )}
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Active Commentary */}
+      <div className="border border-grace/50 rounded-xl p-5 bg-white/50">
+        <div className="flex items-center gap-2 mb-4">
+          <span className="text-sm font-semibold text-scripture">{active.source}</span>
+          <span className="text-[10px] bg-grace/60 text-primary-dark/50 px-2 py-0.5 rounded-full uppercase tracking-wider">
+            Public Domain
+          </span>
+        </div>
+        <SingleCommentary key={activeIdx} entry={active} />
+      </div>
+
+      {/* Compare hint */}
+      <p className="text-xs text-primary-dark/40 mt-3 text-center">
+        Compare {commentaries.length} commentaries from different scholars and time periods for a richer understanding.
+      </p>
+
+      <hr className="border-grace mt-8" />
+    </section>
+  );
+}

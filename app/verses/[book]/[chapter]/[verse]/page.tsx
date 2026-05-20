@@ -11,12 +11,12 @@ import {
   BollsVerse
 } from '@/lib/bolls-api';
 import { getCrossReferences } from '@/lib/cross-references';
-import { getVerseCommentary } from '@/lib/commentary-loader';
+import { getVerseCommentary, getAllVerseCommentaries } from '@/lib/commentary-loader';
 import { getInterlinearVerse, isOldTestament } from '@/lib/interlinear-data';
 import AdjacentVerses from '@/components/verse-study/AdjacentVerses';
 import OriginalLanguage from '@/components/verse-study/OriginalLanguage';
 import CrossReferencesSection from '@/components/verse-study/CrossReferencesSection';
-import CommentarySection from '@/components/verse-study/CommentarySection';
+import MultiCommentarySection from '@/components/verse-study/MultiCommentarySection';
 import StudyTabs from '@/components/verse-study/StudyTabs';
 import TopicalTags from '@/components/verse-study/TopicalTags';
 import { getVersePlaces, formatPlaceTypeSingular } from '@/lib/geocoding-data';
@@ -140,6 +140,7 @@ export default async function VersePage({ params }: VersePageProps) {
   const verseText = stripHtml(data.verse.text);
   const crossRefs = getCrossReferences(book, chapterNum, verseNum, 6);
   const verseCommentary = getVerseCommentary(book, chapterNum, verseNum);
+  const allCommentaries = getAllVerseCommentaries(book, chapterNum, verseNum);
   const interlinearWords = getInterlinearVerse(book, chapterNum, verseNum);
   const isOT = isOldTestament(book);
 
@@ -195,15 +196,9 @@ export default async function VersePage({ params }: VersePageProps) {
         bookName={data.bookName}
       />
 
-      {/* Commentary */}
-      {verseCommentary && (
-        <CommentarySection
-          text={verseCommentary.text}
-          source={verseCommentary.source}
-          author={verseCommentary.author}
-          historical={verseCommentary.historical}
-          questions={verseCommentary.questions}
-        />
+      {/* Commentaries — show ALL available scholarly sources */}
+      {allCommentaries.length > 0 && (
+        <MultiCommentarySection commentaries={allCommentaries} />
       )}
 
       {/* Original Language Analysis */}

@@ -131,6 +131,66 @@ export function getVerseCommentary(bookSlug: string, chapter: number, verse: num
 }
 
 /**
+ * Get ALL available commentaries for a verse (no fallback — returns every match).
+ * This dramatically increases page content depth by surfacing all scholarly sources.
+ * Coverage: Ellicott (~23K verses), JFB (~23.7K), MHCC (~27.4K), KJV Study (select books).
+ */
+export function getAllVerseCommentaries(bookSlug: string, chapter: number, verse: number): VerseCommentary[] {
+  const results: VerseCommentary[] = [];
+  const key = `${bookSlug}-${chapter}-${verse}`;
+
+  // 1. KJV Study (richest — has historical context + questions)
+  const kjvStudyBook = loadKjvStudyBook(bookSlug);
+  if (kjvStudyBook) {
+    const chapterData = kjvStudyBook.commentary[String(chapter)];
+    if (chapterData) {
+      const verseData = chapterData[String(verse)];
+      if (verseData && verseData.analysis) {
+        results.push({
+          text: verseData.analysis,
+          source: 'KJV Study Commentary',
+          author: 'KJV Study',
+          historical: verseData.historical || undefined,
+          questions: verseData.questions?.length ? verseData.questions : undefined,
+        });
+      }
+    }
+  }
+
+  // 2. Ellicott's Commentary
+  const ellicott = loadCommentary('ellicott');
+  if (ellicott[key]) {
+    results.push({
+      text: ellicott[key],
+      source: "Ellicott\u2019s Commentary for English Readers",
+      author: "Charles John Ellicott (1819\u20131905)",
+    });
+  }
+
+  // 3. Jamieson-Fausset-Brown
+  const jfb = loadCommentary('jfb');
+  if (jfb[key]) {
+    results.push({
+      text: jfb[key],
+      source: "Jamieson-Fausset-Brown Bible Commentary",
+      author: "Robert Jamieson, A.R. Fausset, David Brown",
+    });
+  }
+
+  // 4. Matthew Henry's Concise Commentary
+  const mhcc = loadCommentary('mhcc');
+  if (mhcc[key]) {
+    results.push({
+      text: mhcc[key],
+      source: "Matthew Henry\u2019s Concise Commentary",
+      author: "Matthew Henry (1662\u20131714)",
+    });
+  }
+
+  return results;
+}
+
+/**
  * Get all KJV Study commentary entries for a chapter.
  * Returns a record keyed by verse number, or null if no data.
  */

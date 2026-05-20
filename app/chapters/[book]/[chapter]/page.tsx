@@ -12,7 +12,7 @@ import {
 import { BIBLE_BOOKS } from '@/lib/bible-data';
 import { BOOK_METADATA } from '@/lib/book-metadata';
 import { StructuredData } from '@/components/StructuredData';
-import { getKjvStudyChapterCommentary } from '@/lib/commentary-loader';
+import { getKjvStudyChapterCommentary, getAllVerseCommentaries } from '@/lib/commentary-loader';
 import { getChapterHeadings } from '@/lib/section-headings';
 import { isRedLetter } from '@/lib/red-letter';
 import { isPoetryChapter } from '@/lib/poetry-formatting';
@@ -254,6 +254,8 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
                 const heading = sectionHeadings[verse.verse];
                 const redLetter = isRedLetter(book, chapterNum, verse.verse);
                 const isFirstHeading = heading && index === 0;
+                const verseCommentaries = getAllVerseCommentaries(book, chapterNum, verse.verse);
+                const kjvStudyEntry = kjvstudyCommentary?.[verse.verse];
 
                 return (
                   <div key={verse.pk}>
@@ -287,15 +289,47 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
                             {stripHtml(verse.text)}
                           </p>
 
-                          {(kjvstudyCommentary?.[verse.verse] || verse.comment) && (
+                          {(kjvStudyEntry || verseCommentaries.length > 0 || verse.comment) && (
                             <details className="mt-3">
                               <summary className="text-sm text-blue-600 cursor-pointer hover:underline">
-                                View commentary
+                                View commentary{verseCommentaries.length > 1 ? ` (${verseCommentaries.length} sources)` : ''}
                               </summary>
-                              <div
-                                className="mt-2 pl-4 border-l-2 border-grace text-sm text-primary-dark/70 prose prose-sm max-w-none"
-                                dangerouslySetInnerHTML={{ __html: kjvstudyCommentary?.[verse.verse]?.analysis || verse.comment || '' }}
-                              />
+                              <div className="mt-2 space-y-4">
+                                {/* KJV Study (inline, if available and not already in verseCommentaries) */}
+                                {kjvStudyEntry && !verseCommentaries.some(c => c.source === 'KJV Study Commentary') && (
+                                  <div className="pl-4 border-l-2 border-blue-200">
+                                    <p className="text-xs font-semibold text-blue-600 mb-1">KJV Study Commentary</p>
+                                    <div
+                                      className="text-sm text-primary-dark/70 prose prose-sm max-w-none"
+                                      dangerouslySetInnerHTML={{ __html: kjvStudyEntry.analysis }}
+                                    />
+                                  </div>
+                                )}
+                                {/* SWORD commentaries */}
+                                {verseCommentaries.map((c, ci) => (
+                                  <div key={ci} className="pl-4 border-l-2 border-grace">
+                                    <p className="text-xs font-semibold text-primary-dark/50 mb-1">{c.source}</p>
+                                    <div className="text-sm text-primary-dark/70 leading-relaxed whitespace-pre-line">
+                                      {c.text.length > 400 ? c.text.substring(0, 400) + '...' : c.text}
+                                    </div>
+                                    {c.text.length > 400 && (
+                                      <Link
+                                        href={`/verses/${book}/${chapter}/${verse.verse}`}
+                                        className="text-xs text-blue-600 hover:underline mt-1 inline-block"
+                                      >
+                                        Read full commentary →
+                                      </Link>
+                                    )}
+                                  </div>
+                                ))}
+                                {/* Bolls API commentary fallback */}
+                                {verseCommentaries.length === 0 && !kjvStudyEntry && verse.comment && (
+                                  <div
+                                    className="pl-4 border-l-2 border-grace text-sm text-primary-dark/70 prose prose-sm max-w-none"
+                                    dangerouslySetInnerHTML={{ __html: verse.comment }}
+                                  />
+                                )}
+                              </div>
                             </details>
                           )}
                         </div>
