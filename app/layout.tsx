@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import { Crimson_Text, Merriweather } from "next/font/google";
+import { Crimson_Text, Merriweather, Open_Sans } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -31,6 +31,12 @@ const merriweather = Merriweather({
   subsets: ["latin"],
   weight: ["400", "700"],
   variable: "--font-merriweather",
+  display: "swap",
+});
+const openSans = Open_Sans({
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+  variable: "--font-open-sans",
   display: "swap",
 });
 
@@ -70,7 +76,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${crimsonText.variable} ${merriweather.variable} antialiased min-h-screen flex flex-col bg-primary-light/30`}
+        className={`${geistSans.variable} ${geistMono.variable} ${crimsonText.variable} ${merriweather.variable} ${openSans.variable} antialiased min-h-screen flex flex-col bg-primary-light`}
       >
         <noscript>
           <iframe

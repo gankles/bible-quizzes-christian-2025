@@ -21,6 +21,12 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
 
+        ink: "#2C3E50",
+        "ink-muted": "#4A5568",
+        "ink-light": "#718096",
+        "gold-dark": "#A8883E",
+        "royal-blue": "#3B82F6",
+
         // Dark mode variants
         "dark-bg": "#1a1612",
         "dark-surface": "#2b2520",
@@ -29,7 +35,7 @@ const config: Config = {
       fontFamily: {
         serif: ["var(--font-crimson)", "Georgia", "serif"],  // For Bible text
         display: ["var(--font-merriweather)", "serif"],         // For headings
-        sans: ["Open Sans", "system-ui", "sans-serif"],      // For UI elements
+        sans: ["var(--font-open-sans)", "Open Sans", "system-ui", "sans-serif"],
       },
       borderRadius: {
         DEFAULT: "0.5rem",    // 8px

@@ -3,25 +3,64 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Brand tokens */
+  --bg-cream: #F5F1E8;
+  --bg-cream-dark: #EDE8DC;
+  --ink: #2C3E50;
+  --ink-muted: #4A5568;
+  --ink-light: #718096;
+  --gold: #C9A961;
+  --gold-light: #F8F3E3;
+  --gold-dark: #A8883E;
+  --grace: #E8DCC4;
+  --royal-blue: #3B82F6;
+
+  /* Legacy vars */
+  --background: #F5F1E8;
+  --foreground: #2C3E50;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #1a1612;
+    --foreground: #F5F1E8;
   }
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: var(--ink);
+  background: var(--bg-cream);
   font-family: var(--font-geist-sans), system-ui, sans-serif;
 }
 
+/* Editorial typographic base */
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-merriweather), Georgia, serif;
+    color: var(--ink);
+  }
+  .font-serif {
+    font-family: var(--font-crimson), Georgia, serif;
+  }
+}
+
+/* Gold divider utility */
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+  .divider-gold {
+    border-color: var(--gold);
+    border-top-width: 2px;
+  }
+  .editorial-card {
+    background: #ffffff;
+    border: 1px solid var(--grace);
+    border-radius: 0.5rem;
+  }
+  .editorial-card-cream {
+    background: var(--bg-cream);
+    border: 1px solid rgba(201, 169, 97, 0.3);
+    border-radius: 0.5rem;
   }
 }
