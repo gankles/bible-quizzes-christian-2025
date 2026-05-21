@@ -145,10 +145,10 @@ export default async function VersePage({ params }: VersePageProps) {
   const isOT = isOldTestament(book);
 
   return (
-    <div className="max-w-[900px] mx-auto px-6 py-12">
+    <div className="max-w-3xl mx-auto px-4 sm:px-6">
       {/* Breadcrumb */}
       <nav className="py-4">
-        <ol className="editorial-breadcrumbs">
+        <ol className="flex items-center gap-1.5 text-sm text-ink-muted flex-wrap font-sans">
           <li><Link href="/" className="hover:text-sacred transition-colors">Home</Link></li>
           <li>/</li>
           <li><Link href={`/${book}-chapters`} className="hover:text-sacred transition-colors">{data.bookName}</Link></li>
@@ -160,15 +160,27 @@ export default async function VersePage({ params }: VersePageProps) {
       </nav>
 
       {/* Verse Hero */}
-      <article className="py-10">
-        <span className="meta-eyebrow">King James Version</span>
-        <h1 className="editorial-h1">What Does {data.reference} Mean?</h1>
-        <p className="editorial-deck">
-          {verseText.substring(0, 120)}{verseText.length > 120 ? '...' : ''} — study this verse from {data.bookName} chapter {chapter} with commentary, cross-references, and original {isOT ? 'Hebrew' : 'Greek'} word analysis.
-        </p>
-        <div className="hero-verse-block">
-          <p className="hero-verse-text">&ldquo;{verseText}&rdquo;</p>
-          <p className="hero-verse-ref">{data.reference} &middot; King James Version</p>
+      <article className="pt-6 pb-10">
+        <div className="text-center">
+          <p className="font-sans text-xs font-bold tracking-widest uppercase text-sacred mb-3">
+            King James Version
+          </p>
+          <h1 className="text-2xl sm:text-3xl font-display font-bold text-scripture leading-tight">
+            What Does {data.reference} Mean?
+          </h1>
+          <p className="mt-3 font-serif italic text-ink-muted text-base max-w-xl mx-auto leading-relaxed">
+            {data.reference} in the King James Version says &ldquo;{verseText.substring(0, 120)}{verseText.length > 120 ? '...' : ''}&rdquo;{' '}
+            — study this verse from {data.bookName} chapter {chapter} with commentary, cross-references, and original {isOT ? 'Hebrew' : 'Greek'} word analysis.
+          </p>
+        </div>
+
+        <div className="mt-8 bg-white border border-grace rounded-2xl px-8 py-10 shadow-sm text-center">
+          <blockquote className="font-display text-[1.75rem] sm:text-[2rem] md:text-[2.25rem] leading-[1.6] text-scripture italic">
+            &ldquo;{verseText}&rdquo;
+          </blockquote>
+          <p className="mt-5 font-sans text-sm font-bold uppercase tracking-widest text-sacred">
+            {data.reference} &middot; King James Version
+          </p>
         </div>
       </article>
 

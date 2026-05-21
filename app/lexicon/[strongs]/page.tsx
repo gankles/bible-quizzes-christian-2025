@@ -63,42 +63,40 @@ export default async function LexiconDetailPage({ params }: LexiconPageProps) {
             />
 
             {/* HERO */}
-            <div className="bg-white border-b border-grace">
-                <div className="max-w-[900px] mx-auto px-6 py-12">
-                    {/* Breadcrumbs */}
-                    <nav className="mb-8">
-                        <ol className="editorial-breadcrumbs">
-                            <li><Link href="/" className="hover:text-sacred transition-colors">Home</Link></li>
-                            <li>/</li>
-                            <li><Link href="/lexicon" className="hover:text-sacred transition-colors">Lexicon</Link></li>
-                            <li>/</li>
-                            <li className="text-scripture font-medium">{entry.strongs}</li>
-                        </ol>
+            <div className="bg-white border-b border-grace py-12 md:py-20">
+                <div className="max-w-7xl mx-auto px-6">
+                    <nav className="flex items-center gap-2 text-sm text-ink-muted font-sans mb-8">
+                        <Link href="/" className="hover:text-sacred transition-colors">Home</Link>
+                        <span>/</span>
+                        <Link href="/lexicon" className="hover:text-sacred transition-colors">Lexicon</Link>
+                        <span>/</span>
+                        <span className="text-scripture font-medium">{entry.strongs}</span>
                     </nav>
 
-                    {/* meta-eyebrow */}
-                    <span className="meta-eyebrow">{entry.language} Word Study</span>
-
-                    {/* lexicon-word-header: word info left, large script right */}
-                    <div className="lexicon-word-header">
-                        <div>
-                            <h1 className="editorial-h1" style={{marginBottom:'0.5rem'}}>
-                                {entry.transliteration} ({entry.strongs})
-                            </h1>
-                            <p className="font-sans text-base text-sacred font-bold">
-                                {entry.partOfSpeech || entry.language}
-                            </p>
-                        </div>
-                        <div className="lexicon-greek-hebrew">{entry.word}</div>
+                    <div className="inline-block px-3 py-1 rounded-full bg-sacred/10 text-sacred text-xs font-bold uppercase mb-4">
+                        <BookOpenIcon className="w-3.5 h-3.5 inline mr-1.5 -mt-0.5" />
+                        {entry.language} Word Study
                     </div>
 
-                    {/* Definition preview */}
+                    <h1 className="text-3xl md:text-4xl font-display font-bold text-scripture mb-5 tracking-tight leading-tight">
+                        The meaning of{' '}
+                        <span className="text-sacred">&ldquo;{entry.word}&rdquo;</span>
+                    </h1>
+
+                    <p className="text-xl font-serif italic text-ink-muted max-w-2xl leading-relaxed">
+                        Understanding <span className="text-scripture font-semibold">{entry.transliteration}</span> reveals the original theological depth often simplified in translation.
+                    </p>
+
+                    {/* Inline definition preview */}
                     {entry.definitions.strongs && (
-                        <p className="editorial-deck">
-                            {entry.definitions.strongs.length > 160
-                                ? entry.definitions.strongs.slice(0, 160) + '...'
-                                : entry.definitions.strongs}
-                        </p>
+                        <div className="mt-4 bg-white border border-grace rounded-lg p-4">
+                            <span className="text-xs font-bold uppercase text-sacred tracking-wider">Definition</span>
+                            <p className="text-base text-scripture mt-1 leading-relaxed">
+                                {entry.definitions.strongs.length > 120
+                                    ? entry.definitions.strongs.slice(0, 120) + '...'
+                                    : entry.definitions.strongs}
+                            </p>
+                        </div>
                     )}
                 </div>
             </div>
@@ -127,58 +125,6 @@ export default async function LexiconDetailPage({ params }: LexiconPageProps) {
 
             <main className="max-w-7xl mx-auto px-6 py-16">
                 <div>
-
-                    {/* SUMMARY GRID */}
-                    <div className="lexicon-summary-grid">
-                        <div className="lexicon-data-card">
-                            <h3 className="font-display text-xl font-bold text-scripture mb-4">Transliteration &amp; Phonetics</h3>
-                            {entry.transliteration && (
-                                <div className="lexicon-data-row">
-                                    <span className="lexicon-data-label">Transliteration</span>
-                                    <span className="lexicon-data-value">{entry.transliteration}</span>
-                                </div>
-                            )}
-                            {entry.pronunciation && (
-                                <div className="lexicon-data-row">
-                                    <span className="lexicon-data-label">Pronunciation</span>
-                                    <span className="lexicon-data-value">{entry.pronunciation}</span>
-                                </div>
-                            )}
-                            {entry.partOfSpeech && (
-                                <div className="lexicon-data-row">
-                                    <span className="lexicon-data-label">Part of Speech</span>
-                                    <span className="lexicon-data-value">{entry.partOfSpeech}</span>
-                                </div>
-                            )}
-                            {entry.language && (
-                                <div className="lexicon-data-row">
-                                    <span className="lexicon-data-label">Language</span>
-                                    <span className="lexicon-data-value">{entry.language}</span>
-                                </div>
-                            )}
-                        </div>
-                        <div className="lexicon-data-card">
-                            <h3 className="font-display text-xl font-bold text-scripture mb-4">Usage Statistics</h3>
-                            {entry.stats?.totalOccurrences && (
-                                <div className="lexicon-data-row">
-                                    <span className="lexicon-data-label">KJV Occurrences</span>
-                                    <span className="lexicon-data-value">{entry.stats.totalOccurrences}</span>
-                                </div>
-                            )}
-                            {entry.stats?.mostFrequentBook && (
-                                <div className="lexicon-data-row">
-                                    <span className="lexicon-data-label">Most Common In</span>
-                                    <span className="lexicon-data-value">{entry.stats.mostFrequentBook}</span>
-                                </div>
-                            )}
-                            {crossRefEntries?.length > 0 && (
-                                <div className="lexicon-data-row">
-                                    <span className="lexicon-data-label">Related Words</span>
-                                    <span className="lexicon-data-value">{crossRefEntries.length} entries</span>
-                                </div>
-                            )}
-                        </div>
-                    </div>
 
                     {/* INTERACTIVE LEXICON STUDY TOOL */}
                     <LexiconTool entry={entry} crossRefEntries={crossRefEntries} />

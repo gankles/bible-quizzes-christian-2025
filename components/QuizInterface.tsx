@@ -103,15 +103,18 @@ export default function QuizInterface({ quiz, onComplete }: QuizInterfaceProps) 
 
   return (
     <div className="max-w-4xl mx-auto">
-      {/* Editorial Hero */}
-      <span className="meta-eyebrow">Interactive Bible Quiz</span>
-      <h1 className="editorial-h1">{standardizedQuiz.title}</h1>
-      <p className="editorial-deck">{standardizedQuiz.description}</p>
-
       {/* Quiz Header */}
       <div className="bg-white rounded-lg border border-sacred/20 shadow-sm p-6 mb-6">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-          <div className="flex items-center space-x-4">
+          <div>
+            <h1 className="font-display text-2xl md:text-3xl font-bold text-scripture mb-2">
+              {standardizedQuiz.title}
+            </h1>
+            <p className="text-ink-muted">
+              {standardizedQuiz.description}
+            </p>
+          </div>
+          <div className="flex items-center space-x-4 mt-4 md:mt-0">
             <div className="flex items-center space-x-1 text-sm text-ink-muted">
               <ClockIcon className="h-4 w-4" />
               <span>{formatTime(timeElapsed)}</span>
@@ -124,8 +127,11 @@ export default function QuizInterface({ quiz, onComplete }: QuizInterfaceProps) 
         </div>
 
         {/* Progress Bar */}
-        <div className="quiz-progress-bar mb-2">
-          <div className="quiz-progress-fill" style={{ width: `${progress.percentage}%` }} />
+        <div className="w-full bg-grace/30 rounded-full h-2 mb-2">
+          <div
+            className="bg-sacred h-2 rounded-full transition-all duration-300"
+            style={{ width: `${progress.percentage}%` }}
+          />
         </div>
         <div className="flex justify-between text-sm text-ink-muted">
           <span>{Math.round(progress.percentage)}% Complete</span>
@@ -155,7 +161,6 @@ export default function QuizInterface({ quiz, onComplete }: QuizInterfaceProps) 
             userAnswer={userAnswers.find(ua => ua.questionId === question.id)?.answer}
             onAnswerChange={(answer) => handleAnswerChange(question.id, answer)}
             disabled={isSubmitted}
-            isSubmitted={isSubmitted}
           />
         ))}
       </div>
@@ -165,11 +170,11 @@ export default function QuizInterface({ quiz, onComplete }: QuizInterfaceProps) 
         <button
           onClick={handleSubmit}
           disabled={!canSubmit || isSubmitted}
-          className={
+          className={`px-8 py-4 rounded-lg font-display text-lg font-semibold transition-all duration-200 ${
             canSubmit && !isSubmitted
-              ? 'px-8 py-4 rounded-lg font-display text-lg font-semibold bg-royal-blue text-white hover:bg-ink-muted shadow-lg transition-all duration-200'
-              : 'px-8 py-4 rounded-lg font-display text-lg font-semibold bg-grace/40 text-ink-light cursor-not-allowed transition-all duration-200'
-          }
+              ? 'bg-royal-blue text-white hover:bg-ink-muted shadow-lg hover:shadow-xl'
+              : 'bg-grace/40 text-ink-light cursor-not-allowed'
+          }`}
         >
           {isSubmitted ? 'Quiz Submitted' : canSubmit ? 'Submit Quiz' : `Answer All Questions (${userAnswers.length}/${standardizedQuiz.totalQuestions})`}
         </button>
@@ -220,10 +225,9 @@ interface QuestionCardProps {
   userAnswer?: string;
   onAnswerChange: (answer: string) => void;
   disabled: boolean;
-  isSubmitted: boolean;
 }
 
-function QuestionCard({ question, questionNumber, userAnswer, onAnswerChange, disabled, isSubmitted }: QuestionCardProps) {
+function QuestionCard({ question, questionNumber, userAnswer, onAnswerChange, disabled }: QuestionCardProps) {
   const renderQuestionInput = () => {
     switch (question.type) {
       case 'multiple-choice':
@@ -234,7 +238,11 @@ function QuestionCard({ question, questionNumber, userAnswer, onAnswerChange, di
               return (
                 <label
                   key={option}
-                  className={`quiz-option${userAnswer === option ? ' selected' : ''}${disabled ? ' cursor-not-allowed opacity-50' : ''}`}
+                  className={`flex items-start space-x-3 p-3 rounded-lg border-2 cursor-pointer transition-all duration-200 ${
+                    userAnswer === option
+                      ? 'border-royal-blue bg-blue-50'
+                      : 'border-grace hover:border-sacred hover:bg-sacred-light'
+                  } ${disabled ? 'cursor-not-allowed opacity-50' : ''}`}
                 >
                   <input
                     type="radio"
@@ -245,11 +253,10 @@ function QuestionCard({ question, questionNumber, userAnswer, onAnswerChange, di
                     disabled={disabled}
                     className="mt-1 h-4 w-4 accent-scripture border-grace"
                   />
-                  <span className="flex items-center gap-2">
-                    <span className="option-letter">{optionLetter})</span>
-                    <span>{option}</span>
-                  </span>
-                  <span className="option-status-marker" />
+                  <div className="flex-1">
+                    <span className="font-semibold text-sacred mr-2">{optionLetter})</span>
+                    <span className="text-scripture">{option}</span>
+                  </div>
                 </label>
               );
             })}
@@ -262,7 +269,11 @@ function QuestionCard({ question, questionNumber, userAnswer, onAnswerChange, di
             {['True', 'False'].map((option) => (
               <label
                 key={option}
-                className={`quiz-option${userAnswer === option.toLowerCase() ? ' selected' : ''}${disabled ? ' cursor-not-allowed opacity-50' : ''}`}
+                className={`flex items-center space-x-3 p-3 rounded-lg border-2 cursor-pointer transition-all duration-200 ${
+                  userAnswer === option.toLowerCase()
+                    ? 'border-royal-blue bg-blue-50'
+                    : 'border-grace hover:border-sacred hover:bg-sacred-light'
+                } ${disabled ? 'cursor-not-allowed opacity-50' : ''}`}
               >
                 <input
                   type="radio"
@@ -273,10 +284,7 @@ function QuestionCard({ question, questionNumber, userAnswer, onAnswerChange, di
                   disabled={disabled}
                   className="h-4 w-4 accent-scripture border-grace"
                 />
-                <span className="flex items-center gap-2">
-                  <span>{option}</span>
-                </span>
-                <span className="option-status-marker" />
+                <span className="text-scripture font-medium">{option}</span>
               </label>
             ))}
           </div>
@@ -304,15 +312,21 @@ function QuestionCard({ question, questionNumber, userAnswer, onAnswerChange, di
   };
 
   return (
-    <div className="quiz-card">
+    <div className="bg-white rounded-lg shadow-sm border border-sacred/20 p-6">
       <div className="mb-4">
         <div className="flex items-start justify-between mb-3">
-          <span className="quiz-question-ref">
-            Question {questionNumber}{question.verseReference ? ` · ${question.verseReference}` : ''}
+          <h3 className="font-display text-lg font-semibold text-scripture flex-1">
+            <span className="text-sacred mr-2">{questionNumber}.</span>
+            {question.question}
+          </h3>
+          <span className={`px-2 py-1 rounded-full text-xs font-medium ml-4 ${
+            question.difficulty === 'easy' ? 'bg-green-100 text-green-800' :
+            question.difficulty === 'medium' ? 'bg-yellow-100 text-yellow-800' :
+            'bg-red-100 text-red-800'
+          }`}>
+            {question.difficulty}
           </span>
-          <span className={`difficulty-badge ${question.difficulty}`}>{question.difficulty}</span>
         </div>
-        <h3 className="quiz-question-text">{question.question}</h3>
         {question.verseReference && (
           <div className="text-sm text-ink-muted mb-4 font-serif italic">
             {(() => {
@@ -329,12 +343,6 @@ function QuestionCard({ question, questionNumber, userAnswer, onAnswerChange, di
         )}
       </div>
       {renderQuestionInput()}
-      {isSubmitted && question.explanation && (
-        <div className="explanation-box">
-          <div className="explanation-title">Explanation{question.verseReference ? ` (${question.verseReference})` : ''}</div>
-          <p className="text-sm text-scripture">{question.explanation}</p>
-        </div>
-      )}
     </div>
   );
 }
