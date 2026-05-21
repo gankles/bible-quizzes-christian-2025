@@ -242,7 +242,7 @@ export default function Home() {
               Choose Your Bible Book
             </h2>
             <p className="text-lg text-ink-muted max-w-2xl mx-auto">
-              Explore quizzes for every book of the Bible. From familiar stories to deep theological concepts.
+              Read every book of the Bible chapter by chapter. Select a book to start reading.
             </p>
           </div>
 
@@ -253,7 +253,7 @@ export default function Home() {
               {BIBLE_BOOKS.filter(book => book.testament === 'old').map((book) => (
                 <Link
                   key={book.slug}
-                  href={`/${book.slug}-chapters`}
+                  href={`/chapters/${book.slug}/1`}
                   className="bg-white border border-grace rounded-lg p-3 text-center hover:shadow-md hover:border-sacred/50 transition-all duration-200 group"
                 >
                   <div className="text-sm font-semibold text-scripture group-hover:text-gold-dark">
@@ -261,6 +261,9 @@ export default function Home() {
                   </div>
                   <div className="text-xs text-ink-muted mt-1">
                     {book.chapters} {book.chapters === 1 ? 'chapter' : 'chapters'}
+                  </div>
+                  <div className="text-xs text-sacred font-medium mt-1 group-hover:text-gold-dark">
+                    Read →
                   </div>
                 </Link>
               ))}
@@ -274,7 +277,7 @@ export default function Home() {
               {BIBLE_BOOKS.filter(book => book.testament === 'new').map((book) => (
                 <Link
                   key={book.slug}
-                  href={`/${book.slug}-chapters`}
+                  href={`/chapters/${book.slug}/1`}
                   className="bg-white border border-grace rounded-lg p-3 text-center hover:shadow-md hover:border-sacred/50 transition-all duration-200 group"
                 >
                   <div className="text-sm font-semibold text-scripture group-hover:text-gold-dark">
@@ -282,6 +285,9 @@ export default function Home() {
                   </div>
                   <div className="text-xs text-ink-muted mt-1">
                     {book.chapters} {book.chapters === 1 ? 'chapter' : 'chapters'}
+                  </div>
+                  <div className="text-xs text-sacred font-medium mt-1 group-hover:text-gold-dark">
+                    Read →
                   </div>
                 </Link>
               ))}

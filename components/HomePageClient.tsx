@@ -84,7 +84,7 @@ export function SearchBox() {
         matches.push({
           type: 'book',
           name: book.name,
-          href: `/books/${book.slug}`,
+          href: `/${book.slug}-chapters`,
           description: `${book.chapters} chapters - ${book.testament === 'old' ? 'Old' : 'New'} Testament`
         });
       }
