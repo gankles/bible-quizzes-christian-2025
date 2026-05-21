@@ -43,10 +43,10 @@ export default function QuizResults({ quiz, result, onRetake }: QuizResultsProps
   return (
     <div className="max-w-4xl mx-auto">
       {/* Results Header */}
-      <div className="bg-white rounded-lg shadow-lg border border-grace p-8 mb-8 text-center">
-        <h2 className="text-3xl font-bold text-scripture mb-6">Your Results</h2>
-        
-        {/* Score Circle */}
+      <span className="meta-eyebrow">Quiz Complete</span>
+      <h1 className="editorial-h1">{quiz.title}</h1>
+      <div className="hero-verse-block text-center mb-8">
+        {/* Score display */}
         <div className="flex justify-center mb-6">
           <div className="relative">
             <div className="w-32 h-32 rounded-full border-8 border-grace flex items-center justify-center">
@@ -83,82 +83,77 @@ export default function QuizResults({ quiz, result, onRetake }: QuizResultsProps
       </div>
 
       {/* Detailed Results */}
-      <div className="bg-white rounded-lg shadow-sm border border-grace p-6 mb-8">
-        <h3 className="text-xl font-semibold text-scripture mb-6">Question Breakdown</h3>
-        
-        <div className="space-y-4">
-          {quiz.questions.map((question, index) => {
+      <div className="space-y-6 mb-8">
+        <h3 className="quiz-question-ref">Question Breakdown</h3>
+
+        {quiz.questions.map((question, index) => {
             const userResult = result.answeredQuestions.find(aq => aq.questionId === question.id);
             const isCorrect = userResult?.isCorrect || false;
-            
+
             return (
-              <div key={question.id} className={`border rounded-lg p-4 ${
-                isCorrect ? 'border-green-200 bg-green-50' : 'border-red-200 bg-red-50'
-              }`}>
-                <div className="flex items-start space-x-3">
-                  <div className="flex-shrink-0 mt-1">
-                    {isCorrect ? (
-                      <CheckCircleIcon className="h-5 w-5 text-green-600" />
-                    ) : (
-                      <XMarkIcon className="h-5 w-5 text-red-600" />
-                    )}
-                  </div>
-                  
-                  <div className="flex-1">
-                    <h4 className="font-semibold text-scripture mb-2">
-                      {index + 1}. {question.question}
-                    </h4>
-                    
-                    <div className="text-sm space-y-2">
-                      <div>
-                        <span className="font-medium text-scripture">Your answer: </span>
-                        <span className={isCorrect ? 'text-green-700' : 'text-red-700'}>
-                          {userResult?.userAnswer || 'No answer'}
-                        </span>
-                      </div>
-                      
-                      {!isCorrect && (
-                        <div>
-                          <span className="font-medium text-scripture">Correct answer: </span>
-                          <span className="text-green-700">{question.correctAnswer}</span>
-                        </div>
-                      )}
-                      
-                      <div className="bg-white rounded p-3 border border-grace">
-                        <span className="font-medium text-scripture">Explanation: </span>
-                        <span className="text-ink-muted">{question.explanation}</span>
-                      </div>
-                      
-                      {question.verseReference && (
-                        <div className="flex items-center flex-wrap gap-x-3 gap-y-1">
-                          <span className="font-medium text-scripture">Reference: </span>
-                          {(() => {
-                            const verseUrl = getVerseReferenceUrl(question.verseReference);
-                            const crossRefUrl = getCrossRefPageUrl(question.verseReference);
-                            return verseUrl ? (
-                              <>
-                                <Link href={verseUrl} className="text-sacred hover:underline font-medium">
-                                  {question.verseReference}
-                                </Link>
-                                {crossRefUrl && (
-                                  <Link href={crossRefUrl} className="text-xs text-scripture hover:underline">
-                                    Cross-references
-                                  </Link>
-                                )}
-                              </>
-                            ) : (
-                              <span className="text-sacred">{question.verseReference}</span>
-                            );
-                          })()}
-                        </div>
-                      )}
-                    </div>
-                  </div>
+              <div key={question.id} className="quiz-card">
+                <div className="flex items-start justify-between mb-3">
+                  <span className="quiz-question-ref">
+                    Question {index + 1}{question.verseReference ? ` · ${question.verseReference}` : ''}
+                  </span>
+                  <span className={`difficulty-badge ${question.difficulty}`}>{question.difficulty}</span>
                 </div>
+
+                <h4 className="quiz-question-text">{question.question}</h4>
+
+                {/* Answer review options */}
+                <div className="space-y-2 mb-4">
+                  <div className={`quiz-option ${isCorrect ? 'correct' : 'incorrect'}`} style={{cursor:'default'}}>
+                    <span className="flex items-center gap-2">
+                      <span className="option-letter">{isCorrect ? '✓' : '✗'}</span>
+                      <span><strong className="font-sans text-xs uppercase tracking-wide mr-2">Your answer:</strong>{userResult?.userAnswer || 'No answer'}</span>
+                    </span>
+                    <span className="option-status-marker">{isCorrect ? 'Correct' : 'Incorrect'}</span>
+                  </div>
+                  {!isCorrect && (
+                    <div className="quiz-option correct" style={{cursor:'default'}}>
+                      <span className="flex items-center gap-2">
+                        <span className="option-letter">✓</span>
+                        <span><strong className="font-sans text-xs uppercase tracking-wide mr-2">Correct answer:</strong>{question.correctAnswer}</span>
+                      </span>
+                      <span className="option-status-marker">Answer</span>
+                    </div>
+                  )}
+                </div>
+
+                {question.explanation && (
+                  <div className="explanation-box">
+                    <div className="explanation-title">Explanation{question.verseReference ? ` (${question.verseReference})` : ''}</div>
+                    <p className="text-sm text-scripture">{question.explanation}</p>
+                  </div>
+                )}
+
+                {question.verseReference && (
+                  <div className="flex items-center flex-wrap gap-2 mt-3">
+                    <span className="font-sans text-xs font-bold uppercase tracking-wider text-ink-muted">Reference:</span>
+                    {(() => {
+                      const verseUrl = getVerseReferenceUrl(question.verseReference);
+                      const crossRefUrl = getCrossRefPageUrl(question.verseReference);
+                      return verseUrl ? (
+                        <>
+                          <Link href={verseUrl} className="text-sacred hover:text-gold-dark hover:underline text-sm font-semibold">
+                            {question.verseReference}
+                          </Link>
+                          {crossRefUrl && (
+                            <Link href={crossRefUrl} className="text-xs text-ink-muted hover:text-sacred hover:underline">
+                              Cross-references →
+                            </Link>
+                          )}
+                        </>
+                      ) : (
+                        <span className="text-sacred text-sm">{question.verseReference}</span>
+                      );
+                    })()}
+                  </div>
+                )}
               </div>
             );
           })}
-        </div>
       </div>
 
       {/* Internal Links Section - MANDATORY */}

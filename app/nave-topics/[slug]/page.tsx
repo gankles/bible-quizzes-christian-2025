@@ -120,28 +120,20 @@ export default async function NaveTopicPage({ params }: PageProps) {
       <StructuredData data={breadcrumbSchema} />
       <StructuredData data={faqSchema} />
 
-      {/* Breadcrumb */}
-      <nav className="max-w-4xl mx-auto px-4 pt-4 text-sm text-ink-muted">
-        <Link href="/" className="hover:text-gold-dark">Home</Link>
-        <span className="mx-1.5">/</span>
-        <Link href="/nave-topics" className="hover:text-gold-dark">Nave&apos;s Topical Bible</Link>
-        <span className="mx-1.5">/</span>
-        <span className="text-scripture font-medium">{name}</span>
-      </nav>
+      <div className="max-w-[900px] mx-auto px-6 py-12">
+        <ol className="editorial-breadcrumbs">
+          <li><Link href="/">Home</Link></li>
+          <li><Link href="/nave-topics">Nave&apos;s Topical Bible</Link></li>
+          <li>{name}</li>
+        </ol>
+        <span className="meta-eyebrow">Topical Scripture Guide</span>
+        <h1 className="editorial-h1 capitalize">{name}</h1>
+        <p className="editorial-deck">
+          Explore {topic.refCount} scripture references about {name.toLowerCase()} from Nave&apos;s Topical Bible, spanning {topic.books.length} books of the Bible with categorized entries, verse text, and cross-references.
+        </p>
+      </div>
 
-      <article className="max-w-4xl mx-auto px-4 py-8">
-        {/* Header */}
-        <div className="mb-8">
-          <span className="inline-block px-3 py-1 bg-sacred/10 text-scripture text-xs font-medium rounded-full mb-3">
-            Section {topic.section}
-          </span>
-          <h1 className="text-3xl md:text-4xl font-display font-bold text-scripture mb-2 capitalize">
-            {name}
-          </h1>
-          <p className="text-ink-muted">
-            Explore {topic.refCount} scripture references about {name.toLowerCase()} from Nave&apos;s Topical Bible, spanning {topic.books.length} books of the Bible with categorized entries, verse text, and cross-references.
-          </p>
-        </div>
+      <article className="max-w-[900px] mx-auto px-6 pb-16">
 
         {/* Topic Introduction */}
         <div className="bg-white border border-grace rounded-xl p-6 mb-8">
@@ -187,30 +179,31 @@ export default async function NaveTopicPage({ params }: PageProps) {
         )}
 
         {/* Entries */}
-        <div className="bg-white border border-grace rounded-xl p-6 mb-8">
-          <h2 className="text-lg font-bold text-scripture mb-4">
-            Entries ({topic.entries.length})
-          </h2>
-          <div className="space-y-3">
+        <div className="mb-8">
+          <h2 className="quiz-question-ref mb-6">Entries ({topic.entries.length})</h2>
+          <div className="topical-verse-list">
             {topic.entries.map((entry, i) => (
-              <div key={i} className="border-b border-grace/50 pb-3 last:border-0 last:pb-0">
-                <p className="text-scripture text-sm leading-relaxed whitespace-pre-line">
+              <div key={i} className="topical-verse-card">
+                <p className="topical-verse-text">
                   {entry.text}
                 </p>
                 {entry.references.length > 0 && (
-                  <div className="flex flex-wrap gap-1 mt-2">
+                  <div className="topical-verse-ref">
+                    <div className="flex flex-wrap gap-2">
                     {entry.references.slice(0, 8).map((ref, j) => (
                       <Link
                         key={j}
                         href={`/chapters/${ref.bookSlug}/${ref.chapter}`}
-                        className="text-xs text-sacred hover:underline bg-blue-50 rounded px-2 py-0.5"
+                        className="text-xs font-bold uppercase tracking-wide text-sacred hover:underline"
                       >
                         {ref.raw}
                       </Link>
                     ))}
                     {entry.references.length > 8 && (
-                      <span className="text-xs text-ink-light">+{entry.references.length - 8} more</span>
+                      <span className="text-xs text-ink-light font-normal normal-case tracking-normal">+{entry.references.length - 8} more</span>
                     )}
+                    </div>
+                    <span className="text-xs text-ink-light font-normal normal-case tracking-normal">KJV</span>
                   </div>
                 )}
               </div>
@@ -218,25 +211,26 @@ export default async function NaveTopicPage({ params }: PageProps) {
           </div>
         </div>
 
-        {/* Quiz CTA */}
-        <div className="bg-blue-50 border border-sacred/20 rounded-xl p-6 mb-8">
-          <h2 className="text-lg font-bold text-scripture mb-2">Test Your Knowledge</h2>
-          <p className="text-sm text-ink-muted mb-4">
-            Explore Bible quizzes related to the topics and books covered in this study.
+        {/* Quiz CTA — CRO */}
+        <div className="bg-scripture rounded-2xl p-8 text-center mb-8">
+          <span className="meta-eyebrow" style={{color:'#C9A961'}}>Keep Growing</span>
+          <h2 className="font-display text-2xl font-bold text-white mb-3">Test Your Bible Knowledge</h2>
+          <p className="text-white/80 text-sm mb-6">
+            Take an interactive quiz to reinforce what you just studied about {name.toLowerCase()}
           </p>
-          <div className="flex flex-wrap gap-3">
+          <div className="flex flex-wrap gap-3 justify-center">
             <Link
               href="/bible-quizzes"
-              className="px-4 py-2 bg-scripture text-white text-sm font-medium rounded-lg hover:bg-ink-muted transition-colors"
+              className="px-6 py-3 bg-sacred text-scripture font-sans font-bold text-sm rounded-lg hover:bg-gold-dark transition-colors"
             >
-              Browse Bible Quizzes
+              Browse All Quizzes →
             </Link>
             {topic.bookSlugs.length > 0 && (
               <Link
                 href={`/${topic.bookSlugs[0]}-chapters`}
-                className="px-4 py-2 bg-white text-sacred text-sm font-medium rounded-lg border border-sacred/50 hover:bg-sacred-light transition-colors"
+                className="px-6 py-3 bg-white/10 text-white font-sans font-semibold text-sm rounded-lg border border-white/20 hover:bg-white/20 transition-colors"
               >
-                {USX_TO_NAME[topic.books[0]] || topic.books[0]} Quizzes
+                {USX_TO_NAME[topic.books[0]] || topic.books[0]} Study
               </Link>
             )}
           </div>

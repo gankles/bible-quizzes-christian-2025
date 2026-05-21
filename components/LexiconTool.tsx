@@ -67,9 +67,9 @@ export default function LexiconTool({ entry, crossRefEntries }: { entry: Lexicon
     const isHebrew = entry.language.toLowerCase() === 'hebrew';
 
     return (
-        <div className="relative">
+        <div className="editorial-tabs">
             {/* STUDY TABS */}
-            <div className="flex items-center space-x-2 mb-8 overflow-x-auto pb-4 no-scrollbar">
+            <div className="tab-header-list">
                 {[
                     { id: 'strongs', name: "Strong's Exhaustive", icon: <SparklesIcon className="w-4 h-4" /> },
                     { id: 'bdb', name: isHebrew ? "BDB Hebrew" : "LSJ Classical", icon: <BookOpenIcon className="w-4 h-4" /> },
@@ -77,10 +77,7 @@ export default function LexiconTool({ entry, crossRefEntries }: { entry: Lexicon
                 ].map((tab) => (
                     <button
                         key={tab.id}
-                        className={`px-6 py-2.5 rounded-lg text-sm font-semibold whitespace-nowrap transition-all flex items-center space-x-2 border ${activeLexicon === tab.id
-                            ? 'bg-scripture text-white border-scripture shadow-sm'
-                            : 'bg-white text-ink-muted border-grace hover:bg-primary-light/50 hover:text-scripture'
-                            }`}
+                        className={`tab-btn ${activeLexicon === tab.id ? 'active' : ''}`}
                         onClick={() => setActiveLexicon(tab.id as any)}
                     >
                         {tab.icon}
@@ -90,51 +87,47 @@ export default function LexiconTool({ entry, crossRefEntries }: { entry: Lexicon
             </div>
 
             {/* MAIN WORKSPACE */}
-            <div className="bg-white rounded-lg border border-grace shadow-sm overflow-hidden">
-                {/* HEADER */}
-                <div className="p-6 md:p-8 border-b border-grace bg-scripture text-white">
-                    <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-6">
-                        <div className="flex items-center space-x-4">
-                            <div className="px-4 py-1.5 rounded-lg border border-white/20 bg-white/10 text-white text-xs font-semibold">
-                                {entry.strongs}
-                            </div>
-                            <div className="h-4 w-px bg-white/20 hidden md:block" />
-                            <div className="text-xs font-medium text-white/50">
-                                {entry.language} Text
-                            </div>
-                        </div>
-                        <div className="flex items-center space-x-2 text-xs font-medium text-sacred">
-                            <span className="w-1.5 h-1.5 bg-sacred rounded-full" />
-                            <span>Strong&apos;s Concordance</span>
-                        </div>
-                    </div>
-
+            <div className="tab-pane-content">
+                {/* HEADER — editorial cream design */}
+                <div className="p-6 md:p-8 border-b border-grace bg-white">
                     <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6">
                         <div>
+                            <div className="flex items-center gap-3 mb-3">
+                                <span className="px-3 py-1 rounded-full bg-sacred/10 text-sacred text-xs font-bold uppercase tracking-wider">
+                                    {entry.strongs}
+                                </span>
+                                <span className="text-xs text-ink-muted font-sans">{entry.language} Text</span>
+                            </div>
                             <h2
-                                className={`text-4xl md:text-5xl font-bold mb-4 tracking-tight ${isHebrew ? 'text-right' : ''}`}
+                                className={`font-display text-4xl md:text-5xl font-bold text-scripture mb-4 tracking-tight ${isHebrew ? 'text-right' : ''}`}
                                 dir={isHebrew ? 'rtl' : 'ltr'}
                             >
                                 {entry.word}
                             </h2>
-                            <div className="flex flex-wrap items-center gap-4">
-                                <div className="px-4 py-2.5 rounded-xl bg-white/5 border border-white/10 flex items-center space-x-4">
-                                    <span className="text-xs text-white/40">Phonetic</span>
-                                    <span className="text-lg font-semibold">{entry.phonetic}</span>
-                                </div>
-                                <div className="px-4 py-2.5 rounded-xl bg-white/5 border border-white/10 flex items-center space-x-4">
-                                    <span className="text-xs text-white/40">Transliteration</span>
-                                    <span className="text-lg font-semibold">{entry.transliteration}</span>
-                                </div>
+                            <div className="flex flex-wrap items-center gap-3">
+                                {entry.phonetic && (
+                                    <div className="px-4 py-2 rounded-lg bg-primary-light border border-grace flex items-center gap-3">
+                                        <span className="text-xs text-ink-light font-sans">Phonetic</span>
+                                        <span className="text-base font-semibold text-scripture">{entry.phonetic}</span>
+                                    </div>
+                                )}
+                                {entry.transliteration && (
+                                    <div className="px-4 py-2 rounded-lg bg-primary-light border border-grace flex items-center gap-3">
+                                        <span className="text-xs text-ink-light font-sans">Transliteration</span>
+                                        <span className="text-base font-semibold text-scripture">{entry.transliteration}</span>
+                                    </div>
+                                )}
                             </div>
                         </div>
 
                         {/* MORPHOLOGY BADGE */}
-                        <div className="p-4 rounded-xl border border-white/10 bg-white/5 shrink-0">
-                            <div className="text-xs text-white/40 mb-2">Grammar Code</div>
-                            <div className="text-2xl font-mono font-bold text-sacred mb-1 truncate max-w-[200px]">{entry.morphology.code}</div>
-                            <div className="text-xs text-white/60 max-w-[200px] leading-tight">{entry.morphology.explanation}</div>
-                        </div>
+                        {entry.morphology?.code && (
+                            <div className="p-4 rounded-xl border border-grace bg-primary-light/50 shrink-0">
+                                <div className="text-xs text-ink-light font-sans mb-2 uppercase tracking-wider">Grammar Code</div>
+                                <div className="text-2xl font-mono font-bold text-sacred mb-1 truncate max-w-[200px]">{entry.morphology.code}</div>
+                                <div className="text-xs text-ink-muted max-w-[200px] leading-tight">{entry.morphology.explanation}</div>
+                            </div>
+                        )}
                     </div>
                 </div>
 
@@ -330,24 +323,22 @@ export default function LexiconTool({ entry, crossRefEntries }: { entry: Lexicon
                                     <p className="text-white/50 text-sm leading-relaxed mb-6">
                                         Cross-referenced Strong&apos;s numbers with semantic or etymological connections.
                                     </p>
-                                    <div className="flex flex-wrap gap-2">
+                                    <div className="word-grid">
                                         {crossRefEntries && crossRefEntries.length > 0
                                             ? crossRefEntries.map((ref) => (
-                                                <Link
-                                                    key={ref.strongs}
-                                                    href={`/lexicon/${ref.strongs}`}
-                                                    className="px-4 py-2 rounded-lg bg-white/10 border border-white/10 text-white text-xs font-semibold hover:bg-sacred hover:border-sacred transition-all"
-                                                >
-                                                    {ref.strongs}{ref.word ? ` — ${ref.word}` : ''}{ref.transliteration ? ` (${ref.transliteration})` : ''}
+                                                <Link key={ref.strongs} href={`/lexicon/${ref.strongs}`}>
+                                                    <div className="word-item">
+                                                        {ref.word && <span className="word-original">{ref.word}</span>}
+                                                        {ref.transliteration && <span className="word-translit">{ref.transliteration}</span>}
+                                                        <span className="word-meaning">{ref.strongs}</span>
+                                                    </div>
                                                 </Link>
                                             ))
                                             : entry.synergy.crossReferences.map((ref: string) => (
-                                                <Link
-                                                    key={ref}
-                                                    href={`/lexicon/${ref}`}
-                                                    className="px-4 py-2 rounded-lg bg-white/10 border border-white/10 text-white text-xs font-semibold hover:bg-sacred hover:border-sacred transition-all"
-                                                >
-                                                    {ref}
+                                                <Link key={ref} href={`/lexicon/${ref}`}>
+                                                    <div className="word-item">
+                                                        <span className="word-meaning">{ref}</span>
+                                                    </div>
                                                 </Link>
                                             ))
                                         }

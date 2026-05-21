@@ -40,6 +40,21 @@ function getEraLabel(source: string): string {
   return '';
 }
 
+/** Author badge details per commentary source */
+function getAuthorDetails(source: string): { initials: string; fullName: string; description: string } {
+  if (source.includes('Matthew Henry') || source.includes('MHCC')) {
+    return { initials: 'MH', fullName: 'Matthew Henry (1662–1714)', description: 'Reformed Scholar & Exegete' };
+  }
+  if (source.includes('Ellicott')) {
+    return { initials: 'CE', fullName: 'Charles John Ellicott (1819–1905)', description: 'Bishop of Gloucester' };
+  }
+  if (source.includes('Jamieson') || source.includes('JFB')) {
+    return { initials: 'JF', fullName: 'Jamieson, Fausset & Brown (1871)', description: 'Critical & Explanatory Commentary' };
+  }
+  const words = source.split(' ');
+  return { initials: words.map(w => w[0]).join('').substring(0, 2).toUpperCase(), fullName: source, description: 'Biblical Commentary' };
+}
+
 function SingleCommentary({ entry }: { entry: CommentaryEntry }) {
   const [expanded, setExpanded] = useState(false);
   const [needsTruncation, setNeedsTruncation] = useState(false);
@@ -111,6 +126,7 @@ export default function MultiCommentarySection({ commentaries }: MultiCommentary
   // Single commentary — simple display without tabs
   if (commentaries.length === 1) {
     const c = commentaries[0];
+    const { initials, fullName, description } = getAuthorDetails(c.source);
     return (
       <section className="mb-8">
         <div className="flex items-baseline justify-between mb-4">
@@ -118,6 +134,10 @@ export default function MultiCommentarySection({ commentaries }: MultiCommentary
           <span className="text-xs text-ink-light">{c.source}</span>
         </div>
         <SingleCommentary entry={c} />
+        <div className="author-badge">
+          <div className="author-avatar">{initials}</div>
+          <div>Written by <strong>{fullName}</strong> &bull; {description}</div>
+        </div>
         <hr className="border-grace mt-8" />
       </section>
     );
@@ -125,61 +145,56 @@ export default function MultiCommentarySection({ commentaries }: MultiCommentary
 
   // Multiple commentaries — tabbed interface
   const active = commentaries[activeIdx];
+  const activeAuthor = getAuthorDetails(active.source);
 
   return (
     <section className="mb-8">
-      <div className="flex items-baseline justify-between mb-4">
-        <h2 className="text-xl font-semibold text-scripture">
-          Commentaries
-          <span className="text-sm font-normal text-ink-light ml-2">
-            {commentaries.length} scholars
-          </span>
-        </h2>
-      </div>
+      <div className="editorial-tabs">
+        <div className="flex items-baseline justify-between mb-4">
+          <h2 className="text-xl font-semibold text-scripture">
+            Commentaries
+            <span className="text-sm font-normal text-ink-light ml-2">
+              {commentaries.length} scholars
+            </span>
+          </h2>
+        </div>
 
-      {/* Tab Selector */}
-      <div className="flex gap-1.5 mb-6 overflow-x-auto pb-1 -mx-1 px-1">
-        {commentaries.map((c, i) => {
-          const isActive = i === activeIdx;
-          return (
+        {/* Tab Selector */}
+        <div className="tab-header-list">
+          {commentaries.map((c, i) => (
             <button
               key={i}
               onClick={() => setActiveIdx(i)}
-              className={`
-                flex-shrink-0 px-4 py-2.5 rounded-lg text-sm font-medium transition-all duration-200
-                focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sacred
-                ${isActive
-                  ? 'bg-scripture text-white shadow-sm'
-                  : 'bg-grace/40 text-ink-muted hover:bg-grace/70 hover:text-scripture'
-                }
-              `}
+              className={`tab-btn ${i === activeIdx ? 'active' : ''}`}
             >
               <span className="block">{getShortName(c.source)}</span>
               {getEraLabel(c.source) && (
-                <span className={`block text-[10px] mt-0.5 ${isActive ? 'text-sacred-light' : 'text-ink-light'}`}>
-                  {getEraLabel(c.source)}
-                </span>
+                <span className="tab-era">{getEraLabel(c.source)}</span>
               )}
             </button>
-          );
-        })}
-      </div>
-
-      {/* Active Commentary */}
-      <div className="border border-grace/50 rounded-xl p-5 bg-white/50">
-        <div className="flex items-center gap-2 mb-4">
-          <span className="text-sm font-semibold text-scripture">{active.source}</span>
-          <span className="text-[10px] bg-grace/60 text-ink-muted px-2 py-0.5 rounded-full uppercase tracking-wider">
-            Public Domain
-          </span>
+          ))}
         </div>
-        <SingleCommentary key={activeIdx} entry={active} />
-      </div>
 
-      {/* Compare hint */}
-      <p className="text-xs text-ink-light mt-3 text-center">
-        Compare {commentaries.length} commentaries from different scholars and time periods for a richer understanding.
-      </p>
+        {/* Active Commentary */}
+        <div className="tab-pane-content">
+          <div className="flex items-center gap-2 mb-4">
+            <span className="text-sm font-semibold text-scripture">{active.source}</span>
+            <span className="text-[10px] bg-grace/60 text-ink-muted px-2 py-0.5 rounded-full uppercase tracking-wider">
+              Public Domain
+            </span>
+          </div>
+          <SingleCommentary key={activeIdx} entry={active} />
+          <div className="author-badge">
+            <div className="author-avatar">{activeAuthor.initials}</div>
+            <div>Written by <strong>{activeAuthor.fullName}</strong> &bull; {activeAuthor.description}</div>
+          </div>
+        </div>
+
+        {/* Compare hint */}
+        <p className="text-xs text-ink-light mt-3 text-center">
+          Compare {commentaries.length} commentaries from different scholars and time periods for a richer understanding.
+        </p>
+      </div>
 
       <hr className="border-grace mt-8" />
     </section>

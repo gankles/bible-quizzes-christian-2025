@@ -145,111 +145,39 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
   };
 
   return (
-    <div className="min-h-screen bg-primary-light/30">
+    <div className="min-h-screen" style={{background: 'var(--bg-cream)'}}>
       <StructuredData data={articleSchema} />
       <StructuredData data={breadcrumbSchema} />
 
       <nav className="bg-white border-b border-grace">
-        <div className="max-w-4xl mx-auto px-4 py-3">
-          <ol className="flex items-center space-x-2 text-sm">
-            <li>
-              <Link href="/" className="text-sacred hover:underline">Home</Link>
-            </li>
-            <li className="text-ink-light">/</li>
-            <li>
-              <Link href={`/${book}-chapters`} className="text-sacred hover:underline">
-                {data.bookName}
-              </Link>
-            </li>
-            <li className="text-ink-light">/</li>
-            <li className="text-ink-muted">Chapter {chapter}</li>
-          </ol>
-        </div>
+        <ol className="editorial-breadcrumbs">
+          <li>
+            <Link href="/" className="text-sacred hover:underline">Home</Link>
+          </li>
+          <li className="text-ink-light">/</li>
+          <li>
+            <Link href={`/${book}-chapters`} className="text-sacred hover:underline">
+              {data.bookName}
+            </Link>
+          </li>
+          <li className="text-ink-light">/</li>
+          <li className="text-ink-muted">Chapter {chapter}</li>
+        </ol>
       </nav>
 
-      <main className="max-w-4xl mx-auto px-4 py-8">
-        {/* Chapter Introduction */}
-        {meta && (
-          <div className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
-            <h2 className="text-lg font-bold text-scripture mb-2">About {data.bookName}</h2>
-            <p className="text-scripture text-sm leading-relaxed mb-3">
-              {meta.summary}
-            </p>
-            <div className="flex flex-wrap gap-4 text-xs text-ink-muted">
-              <span>Author: <strong className="text-scripture">{meta.author}</strong></span>
-              <span>Written: <strong className="text-scripture">{meta.dateWritten}</strong></span>
-              <span>Reading time: <strong className="text-scripture">~{readingTime} min</strong></span>
-              <span>Verses: <strong className="text-scripture">{data.verses.length}</strong></span>
-            </div>
-            {meta.keyThemes.length > 0 && (
-              <div className="flex flex-wrap gap-1 mt-3">
-                {meta.keyThemes.map(theme => (
-                  <span key={theme} className="text-xs bg-sacred-light text-scripture rounded-full px-2 py-0.5">
-                    {theme}
-                  </span>
-                ))}
-              </div>
-            )}
-          </div>
-        )}
+      {/* Editorial Hero */}
+      <div className="max-w-7xl mx-auto px-6 pt-10 pb-6">
+        <span className="meta-eyebrow">{data.bookName} · Chapter {chapter}</span>
+        <h1 className="editorial-h1">{data.reference}</h1>
+        {meta && <p className="editorial-deck">{meta.summary?.substring(0, 160)}{meta.summary?.length > 160 ? '...' : ''}</p>}
+      </div>
 
-        {/* Geographic Context */}
-        {(() => {
-          const chapterPlaces = getPlacesForChapter(book, chapterNum);
-          if (chapterPlaces.length === 0) return null;
-          return (
-            <div className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
-              <div className="flex items-center justify-between mb-4">
-                <h2 className="text-lg font-bold text-scripture flex items-center">
-                  <svg className="w-5 h-5 mr-2 text-sacred" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                  </svg>
-                  Places in This Chapter
-                </h2>
-                <Link
-                  href={`/bible-geography/${book}/${chapterNum}`}
-                  className="text-sm text-sacred hover:underline"
-                >
-                  View map &rarr;
-                </Link>
-              </div>
-              <div className="flex flex-wrap gap-2">
-                {chapterPlaces.slice(0, 8).map((place) => (
-                  <Link
-                    key={place.slug}
-                    href={`/bible-places/${place.slug}`}
-                    className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-sacred-light text-scripture border border-sacred/20 rounded-full text-sm hover:bg-primary-light transition-colors"
-                  >
-                    <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    </svg>
-                    {place.name}
-                    <span className="text-sacred/60 text-xs">({formatPlaceTypeSingular(place.type)})</span>
-                  </Link>
-                ))}
-                {chapterPlaces.length > 8 && (
-                  <Link
-                    href={`/bible-geography/${book}/${chapterNum}`}
-                    className="inline-flex items-center px-3 py-1.5 bg-sacred-light text-scripture border border-sacred/20 rounded-full text-sm hover:bg-primary-light transition-colors"
-                  >
-                    +{chapterPlaces.length - 8} more
-                  </Link>
-                )}
-              </div>
-            </div>
-          );
-        })()}
+      <main className="max-w-7xl mx-auto px-6 pb-16">
+        <div className="chapter-grid">
 
-        <article className="bg-white rounded-xl shadow-sm border border-grace overflow-hidden">
-          <header className="bg-gradient-to-r from-scripture to-scripture/80 text-white px-6 py-8">
-            <p className="text-sacred-light text-sm font-medium mb-2">King James Version</p>
-            <h1 className="text-3xl font-bold font-display">{data.reference}</h1>
-            <p className="text-sacred-light mt-2">{data.verses.length} verses with commentary</p>
-          </header>
-
-          <div className="p-6 md:p-8">
-            <div className="space-y-6">
+          {/* LEFT COLUMN: verses */}
+          <div className="chapter-main-text">
+            <article>
               {data.verses.map((verse, index) => {
                 const heading = sectionHeadings[verse.verse];
                 const redLetter = isRedLetter(book, chapterNum, verse.verse);
@@ -264,174 +192,227 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
                         {heading}
                       </h3>
                     )}
-                    <div id={`verse-${verse.verse}`} className="group">
-                      <div className="flex gap-4">
-                        <div className="flex-shrink-0 flex flex-col items-center gap-1">
-                          <Link
-                            href={`/verses/${book}/${chapter}/${verse.verse}`}
-                            className="w-10 h-10 bg-sacred-light text-scripture rounded-full flex items-center justify-center font-bold text-sm hover:bg-grace transition-colors"
-                            title={`Study ${data.bookName} ${chapter}:${verse.verse}`}
-                          >
-                            {verse.verse}
-                          </Link>
-                          <Link
-                            href={`/cross-references/${book}/${chapter}/${verse.verse}`}
-                            className="text-ink-light hover:text-sacred transition-colors"
-                            title={`Cross-references for ${data.bookName} ${chapter}:${verse.verse}`}
-                          >
-                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
-                            </svg>
-                          </Link>
-                        </div>
-                        <div className="flex-1">
-                          <p className={`text-lg leading-relaxed ${redLetter ? 'text-red-700' : 'text-scripture'} ${isPoetry ? 'pl-4 italic' : ''}`}>
-                            {stripHtml(verse.text)}
-                          </p>
+                    <div id={`verse-${verse.verse}`} className={`chapter-verse-row${isPoetry ? ' poetry' : ''}`}>
+                      <span className="chapter-verse-number">
+                        <Link
+                          href={`/verses/${book}/${chapter}/${verse.verse}`}
+                          className="hover:text-sacred transition-colors"
+                          title={`Study ${data.bookName} ${chapter}:${verse.verse}`}
+                        >
+                          {verse.verse}
+                        </Link>
+                      </span>
+                      <div className="flex-1">
+                        <p className={`chapter-verse-body${redLetter ? ' text-red-600' : ''}`}>
+                          {stripHtml(verse.text)}
+                        </p>
+                        <Link
+                          href={`/cross-references/${book}/${chapter}/${verse.verse}`}
+                          className="inline-block mt-1 text-ink-light hover:text-sacred transition-colors"
+                          title={`Cross-references for ${data.bookName} ${chapter}:${verse.verse}`}
+                        >
+                          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+                          </svg>
+                        </Link>
 
-                          {(kjvStudyEntry || verseCommentaries.length > 0 || verse.comment) && (
-                            <details className="mt-3">
-                              <summary className="text-sm text-sacred cursor-pointer hover:underline">
-                                View commentary{verseCommentaries.length > 1 ? ` (${verseCommentaries.length} sources)` : ''}
-                              </summary>
-                              <div className="mt-2 space-y-4">
-                                {/* KJV Study (inline, if available and not already in verseCommentaries) */}
-                                {kjvStudyEntry && !verseCommentaries.some(c => c.source === 'KJV Study Commentary') && (
-                                  <div className="pl-4 border-l-2 border-sacred/20">
-                                    <p className="text-xs font-semibold text-sacred mb-1">KJV Study Commentary</p>
-                                    <div
-                                      className="text-sm text-ink-muted prose prose-sm max-w-none"
-                                      dangerouslySetInnerHTML={{ __html: kjvStudyEntry.analysis }}
-                                    />
-                                  </div>
-                                )}
-                                {/* SWORD commentaries */}
-                                {verseCommentaries.map((c, ci) => (
-                                  <div key={ci} className="pl-4 border-l-2 border-grace">
-                                    <p className="text-xs font-semibold text-ink-muted mb-1">{c.source}</p>
-                                    <div className="text-sm text-ink-muted leading-relaxed whitespace-pre-line">
-                                      {c.text.length > 400 ? c.text.substring(0, 400) + '...' : c.text}
-                                    </div>
-                                    {c.text.length > 400 && (
-                                      <Link
-                                        href={`/verses/${book}/${chapter}/${verse.verse}`}
-                                        className="text-xs text-sacred hover:underline mt-1 inline-block"
-                                      >
-                                        Read full commentary →
-                                      </Link>
-                                    )}
-                                  </div>
-                                ))}
-                                {/* Bolls API commentary fallback */}
-                                {verseCommentaries.length === 0 && !kjvStudyEntry && verse.comment && (
+                        {(kjvStudyEntry || verseCommentaries.length > 0 || verse.comment) && (
+                          <details className="mt-3">
+                            <summary className="text-sm text-sacred cursor-pointer hover:underline">
+                              View commentary{verseCommentaries.length > 1 ? ` (${verseCommentaries.length} sources)` : ''}
+                            </summary>
+                            <div className="mt-2 space-y-4">
+                              {/* KJV Study (inline, if available and not already in verseCommentaries) */}
+                              {kjvStudyEntry && !verseCommentaries.some(c => c.source === 'KJV Study Commentary') && (
+                                <div className="pl-4 border-l-2 border-sacred/20">
+                                  <p className="text-xs font-semibold text-sacred mb-1">KJV Study Commentary</p>
                                   <div
-                                    className="pl-4 border-l-2 border-grace text-sm text-ink-muted prose prose-sm max-w-none"
-                                    dangerouslySetInnerHTML={{ __html: verse.comment }}
+                                    className="text-sm text-ink-muted prose prose-sm max-w-none"
+                                    dangerouslySetInnerHTML={{ __html: kjvStudyEntry.analysis }}
                                   />
-                                )}
-                              </div>
-                            </details>
-                          )}
-                        </div>
+                                </div>
+                              )}
+                              {/* SWORD commentaries */}
+                              {verseCommentaries.map((c, ci) => (
+                                <div key={ci} className="pl-4 border-l-2 border-grace">
+                                  <p className="text-xs font-semibold text-ink-muted mb-1">{c.source}</p>
+                                  <div className="text-sm text-ink-muted leading-relaxed whitespace-pre-line">
+                                    {c.text.length > 400 ? c.text.substring(0, 400) + '...' : c.text}
+                                  </div>
+                                  {c.text.length > 400 && (
+                                    <Link
+                                      href={`/verses/${book}/${chapter}/${verse.verse}`}
+                                      className="text-xs text-sacred hover:underline mt-1 inline-block"
+                                    >
+                                      Read full commentary →
+                                    </Link>
+                                  )}
+                                </div>
+                              ))}
+                              {/* Bolls API commentary fallback */}
+                              {verseCommentaries.length === 0 && !kjvStudyEntry && verse.comment && (
+                                <div
+                                  className="pl-4 border-l-2 border-grace text-sm text-ink-muted prose prose-sm max-w-none"
+                                  dangerouslySetInnerHTML={{ __html: verse.comment }}
+                                />
+                              )}
+                            </div>
+                          </details>
+                        )}
                       </div>
                     </div>
                   </div>
                 );
               })}
+            </article>
+
+            {/* Chapter navigation */}
+            <nav className="flex justify-between items-center mt-10">
+              {hasPrevChapter ? (
+                <Link
+                  href={`/chapters/${book}/${chapterNum - 1}`}
+                  className="flex items-center px-4 py-2 bg-white border border-grace rounded-lg hover:bg-primary-light/50 transition-colors"
+                >
+                  <span className="mr-2">&larr;</span>
+                  <span className="text-sm text-ink-muted">Chapter {chapterNum - 1}</span>
+                </Link>
+              ) : (
+                <div />
+              )}
+
+              <Link
+                href={`/${book}-chapters`}
+                className="px-4 py-2 bg-scripture text-white rounded-lg hover:bg-scripture/80 transition-colors"
+              >
+                All Chapters
+              </Link>
+
+              {hasNextChapter ? (
+                <Link
+                  href={`/chapters/${book}/${chapterNum + 1}`}
+                  className="flex items-center px-4 py-2 bg-white border border-grace rounded-lg hover:bg-primary-light/50 transition-colors"
+                >
+                  <span className="text-sm text-ink-muted">Chapter {chapterNum + 1}</span>
+                  <span className="ml-2">&rarr;</span>
+                </Link>
+              ) : (
+                <div />
+              )}
+            </nav>
+
+            {/* Internal Links Section */}
+            <section className="mt-8 bg-grace/10 border border-grace rounded-xl p-6">
+              <h2 className="text-lg font-bold text-scripture mb-3">Continue Your Study</h2>
+              <div className="grid gap-2 sm:grid-cols-2">
+                {hasNextChapter && (
+                  <Link href={`/chapters/${book}/${chapterNum + 1}`} className="text-sacred hover:underline text-sm">
+                    Read {data.bookName} {chapterNum + 1}
+                  </Link>
+                )}
+                <Link href={`/${book}-chapters`} className="text-sacred hover:underline text-sm">
+                  All {data.bookName} Chapters
+                </Link>
+                <Link href={`/${book}-${chapter}-quiz`} className="text-sacred hover:underline text-sm">
+                  {data.reference} Quiz
+                </Link>
+                <Link href={`/${book}-quiz`} className="text-sacred hover:underline text-sm">
+                  Complete {data.bookName} Quiz
+                </Link>
+                <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">
+                  All Bible Quizzes
+                </Link>
+                <Link href="/people" className="text-sacred hover:underline text-sm">
+                  Bible Characters
+                </Link>
+                <Link href="/topics" className="text-sacred hover:underline text-sm">
+                  Bible Topics
+                </Link>
+                <Link href="/nave-topics" className="text-sacred hover:underline text-sm">
+                  Nave&apos;s Topical Bible
+                </Link>
+              </div>
+            </section>
+          </div>
+
+          {/* RIGHT COLUMN: sidebar */}
+          <div className="chapter-sidebar">
+            {meta && (
+              <div className="sidebar-widget">
+                <h4 className="sidebar-title">Book Overview</h4>
+                <p className="text-sm text-ink-muted mb-3">{meta.summary}</p>
+                <p className="text-xs text-ink-muted">Author: <strong className="text-scripture">{meta.author}</strong></p>
+                <p className="text-xs text-ink-muted mt-1">Written: <strong className="text-scripture">{meta.dateWritten}</strong></p>
+                <p className="text-xs text-ink-muted mt-1">Reading time: <strong className="text-scripture">~{readingTime} min</strong></p>
+                <p className="text-xs text-ink-muted mt-1">Verses: <strong className="text-scripture">{data.verses.length}</strong></p>
+              </div>
+            )}
+
+            {meta?.keyThemes?.length > 0 && (
+              <div className="sidebar-widget">
+                <h4 className="sidebar-title">Key Themes</h4>
+                <div className="flex flex-wrap gap-2">
+                  {meta.keyThemes.map(theme => (
+                    <span key={theme} className="theme-tag">{theme}</span>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Geographic Context */}
+            {(() => {
+              const chapterPlaces = getPlacesForChapter(book, chapterNum);
+              if (chapterPlaces.length === 0) return null;
+              return (
+                <div className="sidebar-widget">
+                  <div className="flex items-center justify-between mb-3">
+                    <h4 className="sidebar-title mb-0">Places in This Chapter</h4>
+                    <Link
+                      href={`/bible-geography/${book}/${chapterNum}`}
+                      className="text-xs text-sacred hover:underline"
+                    >
+                      View map &rarr;
+                    </Link>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    {chapterPlaces.slice(0, 8).map((place) => (
+                      <Link
+                        key={place.slug}
+                        href={`/bible-places/${place.slug}`}
+                        className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-sacred-light text-scripture border border-sacred/20 rounded-full text-sm hover:bg-primary-light transition-colors"
+                      >
+                        <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        </svg>
+                        {place.name}
+                        <span className="text-sacred/60 text-xs">({formatPlaceTypeSingular(place.type)})</span>
+                      </Link>
+                    ))}
+                    {chapterPlaces.length > 8 && (
+                      <Link
+                        href={`/bible-geography/${book}/${chapterNum}`}
+                        className="inline-flex items-center px-3 py-1.5 bg-sacred-light text-scripture border border-sacred/20 rounded-full text-sm hover:bg-primary-light transition-colors"
+                      >
+                        +{chapterPlaces.length - 8} more
+                      </Link>
+                    )}
+                  </div>
+                </div>
+              );
+            })()}
+
+            {/* Quiz CTA */}
+            <div className="sidebar-widget">
+              <h4 className="sidebar-title">Take the Quiz</h4>
+              <Link href={`/${book}-${chapter}-quiz`} className="block text-sm text-sacred hover:text-gold-dark font-semibold mt-1">
+                {data.bookName} {chapter} Quiz →
+              </Link>
+              <Link href={`/${book}-quiz`} className="block text-sm text-sacred hover:text-gold-dark font-semibold mt-2">
+                Complete {data.bookName} Quiz →
+              </Link>
             </div>
           </div>
-        </article>
 
-        <nav className="flex justify-between items-center mt-6">
-          {hasPrevChapter ? (
-            <Link
-              href={`/chapters/${book}/${chapterNum - 1}`}
-              className="flex items-center px-4 py-2 bg-white border border-grace rounded-lg hover:bg-primary-light/50 transition-colors"
-            >
-              <span className="mr-2">&larr;</span>
-              <span className="text-sm text-ink-muted">Chapter {chapterNum - 1}</span>
-            </Link>
-          ) : (
-            <div />
-          )}
-
-          <Link
-            href={`/${book}-chapters`}
-            className="px-4 py-2 bg-scripture text-white rounded-lg hover:bg-scripture/80 transition-colors"
-          >
-            All Chapters
-          </Link>
-
-          {hasNextChapter ? (
-            <Link
-              href={`/chapters/${book}/${chapterNum + 1}`}
-              className="flex items-center px-4 py-2 bg-white border border-grace rounded-lg hover:bg-primary-light/50 transition-colors"
-            >
-              <span className="text-sm text-ink-muted">Chapter {chapterNum + 1}</span>
-              <span className="ml-2">&rarr;</span>
-            </Link>
-          ) : (
-            <div />
-          )}
-        </nav>
-
-        {/* Test Your Knowledge */}
-        <section className="mt-8 bg-white rounded-xl shadow-sm border border-grace p-6">
-          <h2 className="text-lg font-bold text-scripture mb-4">Test Your Knowledge</h2>
-          <div className="grid gap-3 md:grid-cols-2">
-            <Link
-              href={`/${book}-${chapter}-quiz`}
-              className="flex items-center p-4 border border-grace rounded-lg hover:border-sacred/50 hover:bg-sacred-light transition-colors"
-            >
-              <div>
-                <span className="text-sacred font-semibold block">{data.reference} Quiz</span>
-                <span className="text-sm text-ink-muted">Test your knowledge of this chapter</span>
-              </div>
-            </Link>
-            <Link
-              href={`/${book}-quiz`}
-              className="flex items-center p-4 border border-grace rounded-lg hover:border-sacred/50 hover:bg-sacred-light transition-colors"
-            >
-              <div>
-                <span className="text-sacred font-semibold block">{data.bookName} Book Quiz</span>
-                <span className="text-sm text-ink-muted">Comprehensive quiz for the entire book</span>
-              </div>
-            </Link>
-          </div>
-        </section>
-
-        {/* Internal Links Section */}
-        <section className="mt-8 bg-grace/10 border border-grace rounded-xl p-6">
-          <h2 className="text-lg font-bold text-scripture mb-3">Continue Your Study</h2>
-          <div className="grid gap-2 sm:grid-cols-2">
-            {hasNextChapter && (
-              <Link href={`/chapters/${book}/${chapterNum + 1}`} className="text-sacred hover:underline text-sm">
-                Read {data.bookName} {chapterNum + 1}
-              </Link>
-            )}
-            <Link href={`/${book}-chapters`} className="text-sacred hover:underline text-sm">
-              All {data.bookName} Chapters
-            </Link>
-            <Link href={`/${book}-${chapter}-quiz`} className="text-sacred hover:underline text-sm">
-              {data.reference} Quiz
-            </Link>
-            <Link href={`/${book}-quiz`} className="text-sacred hover:underline text-sm">
-              Complete {data.bookName} Quiz
-            </Link>
-            <Link href="/bible-quizzes" className="text-sacred hover:underline text-sm">
-              All Bible Quizzes
-            </Link>
-            <Link href="/people" className="text-sacred hover:underline text-sm">
-              Bible Characters
-            </Link>
-            <Link href="/topics" className="text-sacred hover:underline text-sm">
-              Bible Topics
-            </Link>
-            <Link href="/nave-topics" className="text-sacred hover:underline text-sm">
-              Nave&apos;s Topical Bible
-            </Link>
-          </div>
-        </section>
+        </div>
       </main>
     </div>
   );
