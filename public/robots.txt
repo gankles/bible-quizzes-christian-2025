@@ -1,6 +1,28 @@
 User-agent: *
 Allow: /
 
+# AI Search crawlers — explicitly allowed for AI Overviews, ChatGPT, and Perplexity citations
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
 # Sitemaps
 Sitemap: https://biblemaximum.com/sitemap.xml
 
