@@ -37,50 +37,49 @@ const now = new Date();
 
 // Realistic date ranges per content group — simulates gradual site growth
 const GROUP_DATE_RANGES: Record<string, [string, string]> = {
-  'pages':            ['2025-10-01', '2025-10-15'],
-  'book-chapters':    ['2025-10-20', '2025-11-05'],
-  'book-quizzes':     ['2025-11-01', '2025-11-15'],
-  'chapter-quizzes':  ['2025-11-10', '2025-12-15'],
-  'book-info':        ['2025-11-05', '2025-11-20'],
-  'lexicon':          ['2025-12-01', '2026-01-10'],
-  'verses':           ['2025-12-10', '2026-01-20'],
-  'chapter-reading':  ['2025-12-15', '2026-01-05'],
-  'topics':           ['2026-01-01', '2026-01-25'],
-  'cross-references': ['2026-01-10', '2026-02-01'],
-  'bible-names':      ['2025-12-20', '2026-01-05'],
-  'people':           ['2025-12-25', '2026-01-10'],
-  'characters':       ['2025-12-15', '2025-12-20'],
-  'timeline':         ['2025-12-01', '2025-12-10'],
-  'bible-stories':    ['2025-12-05', '2025-12-15'],
-  'nave-topics':      ['2026-01-15', '2026-02-05'],
-  'commandments':     ['2026-01-25', '2026-02-10'],
-  'interlinear':      ['2026-01-15', '2026-02-15'],
-  'resource-items':   ['2026-02-05', '2026-02-18'],
-  'resources':        ['2026-01-20', '2026-02-05'],
-  'devotionals':      ['2026-01-15', '2026-02-10'],
-  'reading-plans':    ['2026-01-25', '2026-02-08'],
-  'study-guides':     ['2026-01-10', '2026-02-01'],
-  'bible-places':     ['2026-02-01', '2026-02-20'],
-  'verse-places':     ['2026-02-05', '2026-02-20'],
-  'bible-geography':  ['2026-02-05', '2026-02-20'],
-  'geography-quizzes': ['2026-02-10', '2026-02-20'],
-  'chapter-summaries': ['2026-02-10', '2026-02-23'],
-  'lexicon-concepts': ['2026-02-15', '2026-02-23'],
-  'character-quizzes': ['2026-02-20', '2026-02-25'],
-  'characters-by-topic': ['2026-02-20', '2026-02-25'],
-  'commandments-by-topic': ['2026-02-20', '2026-02-25'],
-  'timeline-geography': ['2026-02-20', '2026-02-25'],
-  'hebrew-word':        ['2026-02-20', '2026-02-26'],
-  'greek-word':         ['2026-02-20', '2026-02-26'],
-  'bible-topics':       ['2026-02-20', '2026-02-26'],
-  'chain-study':        ['2026-02-22', '2026-02-26'],
-  'bible-encyclopedia': ['2026-02-22', '2026-02-26'],
-  'greek-grammar':      ['2026-02-24', '2026-02-26'],
-  'pillar-pages':       ['2026-02-18', '2026-02-26'],
-  'bible-quotes':       ['2026-02-27', '2026-02-27'],
-  'what-does-bible-say': ['2026-02-27', '2026-02-27'],
-  'kjv-verses':          ['2026-02-27', '2026-02-27'],
-  'kjv-chapters':        ['2026-02-27', '2026-02-27'],
+  'pages':            ['2025-10-01', '2026-05-26'],
+  'book-chapters':    ['2025-10-20', '2026-05-26'],
+  'book-quizzes':     ['2025-11-01', '2026-05-26'],
+  'chapter-quizzes':  ['2025-11-10', '2026-05-26'],
+  'book-info':        ['2025-11-05', '2026-05-26'],
+  'lexicon':          ['2025-12-01', '2026-05-26'],
+  'verses':           ['2025-12-10', '2026-05-26'],
+  'chapter-reading':  ['2025-12-15', '2026-05-26'],
+  'cross-references': ['2026-01-10', '2026-05-26'],
+  'bible-names':      ['2025-12-20', '2026-05-26'],
+  'people':           ['2025-12-25', '2026-05-26'],
+  'characters':       ['2025-12-15', '2026-05-26'],
+  'timeline':         ['2025-12-01', '2026-05-26'],
+  'bible-stories':    ['2025-12-05', '2026-05-26'],
+  'nave-topics':      ['2026-01-15', '2026-05-26'],
+  'commandments':     ['2026-01-25', '2026-05-26'],
+  'interlinear':      ['2026-01-15', '2026-05-26'],
+  'resource-items':   ['2026-02-05', '2026-05-26'],
+  'resources':        ['2026-01-20', '2026-05-26'],
+  'devotionals':      ['2026-01-15', '2026-05-26'],
+  'reading-plans':    ['2026-01-25', '2026-05-26'],
+  'study-guides':     ['2026-01-10', '2026-05-26'],
+  'bible-places':     ['2026-02-01', '2026-05-26'],
+  'verse-places':     ['2026-02-05', '2026-05-26'],
+  'bible-geography':  ['2026-02-05', '2026-05-26'],
+  'geography-quizzes': ['2026-02-10', '2026-05-26'],
+  'chapter-summaries': ['2026-02-10', '2026-05-26'],
+  'lexicon-concepts': ['2026-02-15', '2026-05-26'],
+  'character-quizzes': ['2026-02-20', '2026-05-26'],
+  'characters-by-topic': ['2026-02-20', '2026-05-26'],
+  'commandments-by-topic': ['2026-02-20', '2026-05-26'],
+  'timeline-geography': ['2026-02-20', '2026-05-26'],
+  'hebrew-word':        ['2026-02-20', '2026-05-26'],
+  'greek-word':         ['2026-02-20', '2026-05-26'],
+  'bible-topics':       ['2026-02-20', '2026-05-26'],
+  'chain-study':        ['2026-02-22', '2026-05-26'],
+  'bible-encyclopedia': ['2026-02-22', '2026-05-26'],
+  'greek-grammar':      ['2026-02-24', '2026-05-26'],
+  'pillar-pages':       ['2026-02-18', '2026-05-26'],
+  'bible-quotes':       ['2026-02-27', '2026-05-26'],
+  'what-does-bible-say': ['2026-02-27', '2026-05-26'],
+  'kjv-verses':          ['2026-02-27', '2026-05-26'],
+  'kjv-chapters':        ['2026-02-27', '2026-05-26'],
 };
 
 /** Assign realistic, gradually-spread lastmod dates per content group */
@@ -112,7 +111,8 @@ function getCrossReferenceKeys(): string[] {
     if (!fs.existsSync(filePath)) return [];
     const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
     return Object.keys(data);
-  } catch {
+  } catch (err) {
+    console.warn('[sitemap] Failed to load cross-references:', err);
     return [];
   }
 }
@@ -124,7 +124,8 @@ function getTopicSlugs(): string[] {
     if (!fs.existsSync(filePath)) return [];
     const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
     return (data.topics || []).map((t: any) => t.slug);
-  } catch {
+  } catch (err) {
+    console.warn('[sitemap] Failed to load topics:', err);
     return [];
   }
 }
@@ -136,7 +137,8 @@ function getLexiconIds(): string[] {
     if (!fs.existsSync(filePath)) return [];
     const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
     return (data.entries || []).map((e: any) => e.strongs);
-  } catch {
+  } catch (err) {
+    console.warn('[sitemap] Failed to load lexicon:', err);
     return [];
   }
 }
@@ -148,7 +150,8 @@ function getLexiconConceptSlugs(): string[] {
     if (!fs.existsSync(filePath)) return [];
     const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
     return data.map((c: any) => c.slug);
-  } catch {
+  } catch (err) {
+    console.warn('[sitemap] Failed to load lexicon-concepts:', err);
     return [];
   }
 }
@@ -317,7 +320,7 @@ export function generateAllUrls(): SitemapUrl[] {
     names.forEach(n => {
       urls.push(makeUrl(`${baseUrl}/bible-names/${n.slug}`, 'bible-names', 0.4));
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 15. People (/people/{slug}) — ~3,009 pages
   try {
@@ -326,7 +329,7 @@ export function generateAllUrls(): SitemapUrl[] {
     people.forEach(p => {
       urls.push(makeUrl(`${baseUrl}/people/${p.slug}`, 'people', 0.4));
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 15b. Characters (/characters/{slug})
   try {
@@ -337,7 +340,7 @@ export function generateAllUrls(): SitemapUrl[] {
         urls.push(makeUrl(`${baseUrl}/characters/${c.slug}`, 'characters', 0.4));
       }
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 16. Timeline (/timeline/{slug}) — ~114 pages
   try {
@@ -346,7 +349,7 @@ export function generateAllUrls(): SitemapUrl[] {
     epochs.forEach(e => {
       urls.push(makeUrl(`${baseUrl}/timeline/${e.slug}`, 'timeline', 0.4));
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 17. Bible stories (/bible-stories/{slug}) — ~372 pages
   try {
@@ -355,7 +358,7 @@ export function generateAllUrls(): SitemapUrl[] {
     stories.forEach(s => {
       urls.push(makeUrl(`${baseUrl}/bible-stories/${s.slug}`, 'bible-stories', 0.4));
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 18. Nave's topics (/nave-topics/{slug}) — ~5,319 pages
   try {
@@ -364,7 +367,7 @@ export function generateAllUrls(): SitemapUrl[] {
     naveTopics.forEach(t => {
       urls.push(makeUrl(`${baseUrl}/nave-topics/${t.slug}`, 'nave-topics', 0.5));
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 19. Nave's topic-book combos (/nave-topics/{slug}/in/{book}) — ~21,323 pages
   try {
@@ -372,7 +375,7 @@ export function generateAllUrls(): SitemapUrl[] {
     combos.forEach(c => {
       urls.push(makeUrl(`${baseUrl}/nave-topics/${c.topic}/in/${c.book}`, 'nave-topics', 0.4));
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 20. Commandments (/commandments/{number}) — 613 pages
   try {
@@ -381,7 +384,7 @@ export function generateAllUrls(): SitemapUrl[] {
     cmds.forEach(c => {
       urls.push(makeUrl(`${baseUrl}/commandments/${c.number}`, 'commandments', 0.5));
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 21. Commandment categories (/commandments/category/{slug}) — ~30 pages
   try {
@@ -389,7 +392,7 @@ export function generateAllUrls(): SitemapUrl[] {
     cats.forEach(c => {
       urls.push(makeUrl(`${baseUrl}/commandments/category/${c.slug}`, 'commandments', 0.5));
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 22. Devotionals (/devotionals, /devotionals/{slug})
   try {
@@ -398,7 +401,7 @@ export function generateAllUrls(): SitemapUrl[] {
     devotionals.forEach(d => {
       urls.push(makeUrl(`${baseUrl}/devotionals/${d.slug}`, 'devotionals', 0.5));
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 23. Resources hub + detail pages (/resources, /resources/{slug})
   try {
@@ -407,7 +410,7 @@ export function generateAllUrls(): SitemapUrl[] {
     resources.forEach(r => {
       urls.push(makeUrl(`${baseUrl}/resources/${r.slug}`, 'resources', 0.6));
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 24. Reading plans (/reading-plans, /reading-plans/{slug})
   try {
@@ -416,7 +419,7 @@ export function generateAllUrls(): SitemapUrl[] {
     plans.forEach(p => {
       urls.push(makeUrl(`${baseUrl}/reading-plans/${p.slug}`, 'reading-plans', 0.5));
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 25. Red Letter (Words of Jesus) hub
   urls.push(makeUrl(`${baseUrl}/red-letter`, 'pages', 0.6));
@@ -427,7 +430,7 @@ export function generateAllUrls(): SitemapUrl[] {
     guides.forEach(g => {
       urls.push(makeUrl(`${baseUrl}/bible-study-guides/${g.slug}`, 'study-guides', 0.5));
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 28. Interlinear pages (/interlinear, /interlinear/{book}, /interlinear/{book}/{chapter}, /interlinear/{book}/{chapter}/{verse})
   try {
@@ -444,7 +447,7 @@ export function generateAllUrls(): SitemapUrl[] {
         }
       }
     }
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 29. Resource item sub-pages (/resources/{slug}/{item})
   try {
@@ -452,7 +455,7 @@ export function generateAllUrls(): SitemapUrl[] {
     for (const { resourceSlug, itemSlug } of itemSlugs) {
       urls.push(makeUrl(`${baseUrl}/resources/${resourceSlug}/${itemSlug}`, 'resource-items', 0.5));
     }
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 30. Bible Places (/bible-places, /bible-places/{slug}, /bible-places/type/{type}, /bible-places/near/{slug})
   try {
@@ -466,7 +469,7 @@ export function generateAllUrls(): SitemapUrl[] {
     placeTypes.forEach(t => {
       urls.push(makeUrl(`${baseUrl}/bible-places/type/${t.replace(/\s+/g, '-')}`, 'bible-places', 0.5));
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 31. Verse-Place pages (/bible-places/{slug}/{verseRef}) — ~5,600+ ISR pages
   try {
@@ -478,7 +481,7 @@ export function generateAllUrls(): SitemapUrl[] {
         urls.push(makeUrl(`${baseUrl}/bible-places/${slug}/${verseRef}`, 'verse-places', 0.3));
       }
     }
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 32. Bible Geography (/bible-geography, /bible-geography/{book}, /bible-geography/{book}/{chapter})
   try {
@@ -494,7 +497,7 @@ export function generateAllUrls(): SitemapUrl[] {
       const book = parts.join('-');
       urls.push(makeUrl(`${baseUrl}/bible-geography/${book}/${chapter}`, 'bible-geography', 0.5));
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 33. Geography Quizzes (/bible-geography-quiz/{book})
   try {
@@ -502,7 +505,7 @@ export function generateAllUrls(): SitemapUrl[] {
     geoBooks.forEach(book => {
       urls.push(makeUrl(`${baseUrl}/bible-geography-quiz/${book}`, 'geography-quizzes', 0.6));
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 35. Character Quizzes (/character-quiz, /character-quiz/{slug})
   try {
@@ -511,7 +514,7 @@ export function generateAllUrls(): SitemapUrl[] {
     charQuizSlugs.forEach(slug => {
       urls.push(makeUrl(`${baseUrl}/character-quiz/${slug}`, 'character-quizzes', 0.6));
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 36. Characters by Topic (/characters-by-topic, /characters-by-topic/{slug})
   try {
@@ -520,7 +523,7 @@ export function generateAllUrls(): SitemapUrl[] {
     charTopicSlugs.forEach(slug => {
       urls.push(makeUrl(`${baseUrl}/characters-by-topic/${slug}`, 'characters-by-topic', 0.5));
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 37. Commandments by Topic (/commandments/topic, /commandments/topic/{slug})
   try {
@@ -529,7 +532,7 @@ export function generateAllUrls(): SitemapUrl[] {
     cmdTopicSlugs.forEach(slug => {
       urls.push(makeUrl(`${baseUrl}/commandments/topic/${slug}`, 'commandments-by-topic', 0.5));
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 38. Timeline Geography (/bible-places/era, /bible-places/era/{slug})
   try {
@@ -538,7 +541,7 @@ export function generateAllUrls(): SitemapUrl[] {
     eraSlugs.forEach(slug => {
       urls.push(makeUrl(`${baseUrl}/bible-places/era/${slug}`, 'timeline-geography', 0.6));
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 34. Bible Chapter Summaries (/bible-chapter-summaries/{book}, /bible-chapter-summaries/{book}/{chapter})
   BIBLE_BOOKS.forEach(book => {
@@ -555,7 +558,7 @@ export function generateAllUrls(): SitemapUrl[] {
     hebrewSlugs.forEach(slug => {
       urls.push(makeUrl(`${baseUrl}/hebrew-word/${slug}`, 'hebrew-word', 0.5));
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 40. Greek Word Studies (/greek-word, /greek-word/{slug}) — ~5,523 pages
   try {
@@ -564,7 +567,7 @@ export function generateAllUrls(): SitemapUrl[] {
     greekSlugs.forEach(slug => {
       urls.push(makeUrl(`${baseUrl}/greek-word/${slug}`, 'greek-word', 0.5));
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 41. Bible Topics / Nave's Topical (/bible-topics, /bible-topics/{slug}) — ~5,319 pages
   try {
@@ -573,7 +576,7 @@ export function generateAllUrls(): SitemapUrl[] {
     naveTopicList.forEach(t => {
       urls.push(makeUrl(`${baseUrl}/bible-topics/${t.slug}`, 'bible-topics', 0.5));
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 42. Chain Studies (/chain-study, /chain-study/{slug}) — ~916 pages
   try {
@@ -582,7 +585,7 @@ export function generateAllUrls(): SitemapUrl[] {
     chains.forEach(c => {
       urls.push(makeUrl(`${baseUrl}/chain-study/${c.slug}`, 'chain-study', 0.5));
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 43. Bible Encyclopedia (/bible-encyclopedia, /bible-encyclopedia/{slug}) — ~11,478 pages
   try {
@@ -591,7 +594,7 @@ export function generateAllUrls(): SitemapUrl[] {
     encSlugs.forEach(slug => {
       urls.push(makeUrl(`${baseUrl}/bible-encyclopedia/${slug}`, 'bible-encyclopedia', 0.5));
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 44. Greek Grammar (/greek-grammar, /greek-grammar/{slug}) — ~18 pages
   try {
@@ -600,7 +603,7 @@ export function generateAllUrls(): SitemapUrl[] {
     grammarForms.forEach(g => {
       urls.push(makeUrl(`${baseUrl}/greek-grammar/${g.slug}`, 'greek-grammar', 0.6));
     });
-  } catch {}
+  } catch (err) { console.warn('[sitemap] Section skipped due to error:', err); }
 
   // 46. Bible Quotes (/bible-quotes, /bible-quotes/{slug}) — ~8,495 pages
   urls.push(makeUrl(`${baseUrl}/bible-quotes`, 'bible-quotes', 0.8, 'weekly'));
