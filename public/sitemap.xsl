@@ -79,42 +79,65 @@ a:hover {
 <body>
 <div class="header">
   <h1>Bible Maximum - XML Sitemap</h1>
-  <p>This sitemap contains <xsl:value-of select="count(sm:urlset/sm:url)"/> URLs for Bible Maximum, your comprehensive Bible quiz platform.</p>
+  <xsl:if test="sm:sitemapindex">
+    <p>Sitemap index — <strong><xsl:value-of select="count(sm:sitemapindex/sm:sitemap)"/> sub-sitemaps</strong> containing ~234,000 total URLs. Click any sub-sitemap to browse its URLs.</p>
+  </xsl:if>
+  <xsl:if test="sm:urlset">
+    <p>This sitemap contains <strong><xsl:value-of select="count(sm:urlset/sm:url)"/> URLs</strong> for Bible Maximum.</p>
+  </xsl:if>
 </div>
 <div class="sitemap-table">
-<table>
-<thead>
-<tr>
-  <th>URL</th>
-  <th>Priority</th>
-  <th>Change Frequency</th>
-  <th>Last Modified</th>
-</tr>
-</thead>
-<tbody>
-<xsl:for-each select="sm:urlset/sm:url">
-<tr>
-  <td>
-    <xsl:variable name="itemURL">
-      <xsl:value-of select="sm:loc"/>
-    </xsl:variable>
-    <a href="{$itemURL}">
-      <xsl:value-of select="sm:loc"/>
-    </a>
-  </td>
-  <td class="priority">
-    <xsl:value-of select="sm:priority"/>
-  </td>
-  <td class="changefreq">
-    <xsl:value-of select="sm:changefreq"/>
-  </td>
-  <td class="lastmod">
-    <xsl:value-of select="sm:lastmod"/>
-  </td>
-</tr>
-</xsl:for-each>
-</tbody>
-</table>
+
+  <!-- Sitemap index: list child sitemaps -->
+  <xsl:if test="sm:sitemapindex">
+    <table>
+      <thead>
+        <tr>
+          <th>Sub-Sitemap</th>
+          <th>Last Modified</th>
+        </tr>
+      </thead>
+      <tbody>
+        <xsl:for-each select="sm:sitemapindex/sm:sitemap">
+          <tr>
+            <td>
+              <xsl:variable name="loc"><xsl:value-of select="sm:loc"/></xsl:variable>
+              <a href="{$loc}"><xsl:value-of select="sm:loc"/></a>
+            </td>
+            <td class="lastmod"><xsl:value-of select="sm:lastmod"/></td>
+          </tr>
+        </xsl:for-each>
+      </tbody>
+    </table>
+  </xsl:if>
+
+  <!-- Regular urlset: list individual URLs -->
+  <xsl:if test="sm:urlset">
+    <table>
+      <thead>
+        <tr>
+          <th>URL</th>
+          <th>Priority</th>
+          <th>Change Frequency</th>
+          <th>Last Modified</th>
+        </tr>
+      </thead>
+      <tbody>
+        <xsl:for-each select="sm:urlset/sm:url">
+          <tr>
+            <td>
+              <xsl:variable name="itemURL"><xsl:value-of select="sm:loc"/></xsl:variable>
+              <a href="{$itemURL}"><xsl:value-of select="sm:loc"/></a>
+            </td>
+            <td class="priority"><xsl:value-of select="sm:priority"/></td>
+            <td class="changefreq"><xsl:value-of select="sm:changefreq"/></td>
+            <td class="lastmod"><xsl:value-of select="sm:lastmod"/></td>
+          </tr>
+        </xsl:for-each>
+      </tbody>
+    </table>
+  </xsl:if>
+
 </div>
 </body>
 </html>
