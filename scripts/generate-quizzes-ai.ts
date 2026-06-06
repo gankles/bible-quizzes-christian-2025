@@ -285,22 +285,37 @@ function buildPrompt(
   chapterText: string,
   tab: TabLevel
 ): string {
-  const commonInstructions = `You are an expert Bible scholar and quiz creator. Generate exactly 15 quiz questions based on the following Bible chapter text.
+  // Split the chapter into thirds for verse-range targeting
+  const verses = chapterText.split('\n').filter(l => l.trim());
+  const totalVerses = verses.length;
+  const third = Math.ceil(totalVerses / 3);
+  const firstThird = verses.slice(0, third).join('\n');
+  const middleThird = verses.slice(third, third * 2).join('\n');
+  const lastThird = verses.slice(third * 2).join('\n');
+
+  const commonInstructions = `You are an expert Bible scholar and quiz creator. Generate exactly 15 quiz questions based on the following Bible chapter text (KJV).
 
 CHAPTER: ${bookName} Chapter ${chapter}
 
-CHAPTER TEXT:
+CHAPTER TEXT (KJV):
 ${chapterText}
 
-IMPORTANT RULES:
-- Every question MUST be directly grounded in the chapter text provided above.
-- Every verseReference must cite a specific verse from this chapter (e.g., "${bookName} ${chapter}:5").
-- The correctAnswer MUST appear exactly in the options array.
-- Multiple choice questions must have exactly 4 options.
-- True/False questions must have exactly 2 options: ["True", "False"].
-- Fill-in-the-blank questions must have exactly 4 options.
-- Each explanation should cite the specific verse and briefly explain why the answer is correct.
-- Do not repeat questions or use the same verse reference for more than 2 questions.
+UNIVERSAL RULES — FOLLOW STRICTLY:
+1. Every question MUST be directly grounded in the chapter text above.
+2. Every verseReference MUST cite the exact verse(s) that contain the answer (e.g., "${bookName} ${chapter}:5"). Never cite verse N if the answer is in verse N+1.
+3. The correctAnswer MUST appear exactly in the options array.
+4. Multiple-choice questions must have exactly 4 options.
+5. True/False questions must have exactly 2 options: ["True", "False"].
+6. NO fill-in-the-blank questions. Every question is either multiple-choice or true/false only.
+7. TRUE/FALSE BALANCE: Exactly half of all true/false questions must have "True" as the correct answer and half must have "False". Never make 90% of T/F answers "False".
+8. ZERO VERSE REPETITION: Do not use the same verse as the primary reference for more than one question.
+9. Spread questions across the ENTIRE chapter — do not cluster around 3-4 famous verses.
+10. Each explanation must cite the specific verse and explain WHY the answer is correct.
+
+QUESTION TYPE RULES:
+- "multiple-choice": 4 options, one correct
+- "true-false": options must be exactly ["True", "False"]
+- NEVER use "fill-blank" or "fill-in-the-blank" — these are FORBIDDEN
 
 Return ONLY valid JSON in this exact format:
 {
@@ -310,7 +325,7 @@ Return ONLY valid JSON in this exact format:
       "type": "multiple-choice",
       "options": ["Option A", "Option B", "Option C", "Option D"],
       "correctAnswer": "Option A",
-      "explanation": "Explanation citing the verse",
+      "explanation": "Explanation citing the exact verse",
       "verseReference": "${bookName} ${chapter}:1"
     }
   ]
@@ -320,111 +335,115 @@ Return ONLY valid JSON in this exact format:
     case 'easy':
       return `${commonInstructions}
 
-DIFFICULTY: EASY — Basic Recognition & Simple Facts
+DIFFICULTY: EASY — Basic Recognition (Verses 1 through ~${third} of the chapter)
 
-Focus on:
-- Simple factual recall directly from the chapter text
-- "What/Who/Where/When" questions
-- Basic events, characters, and places mentioned
-- Direct quotes and simple facts
+PRIMARY VERSE RANGE: Focus the majority of questions on the FIRST THIRD of the chapter:
+${firstThird}
 
-Question type distribution (STRICT):
-- 10-11 multiple-choice questions (70%)
-- 3 true/false questions (20%)
-- 1-2 fill-in-the-blank questions (10%)
+Rules for Easy:
+- Simple factual recall: "Who/What/Where/When" questions answered directly by the text
+- Basic events, characters, commands, and places
+- No interpretation required — the answer is stated plainly in the verse
+- Questions test whether the reader was paying attention, not theological knowledge
 
-EXAMPLE QUESTIONS (for reference style only, do NOT copy):
-- "According to ${bookName} ${chapter}:3, what did God say?" (multiple-choice)
-- "True or False: ${bookName} ${chapter}:7 states that God formed man from the dust of the ground." (true-false)
-- "Complete this verse from ${bookName} ${chapter}:1: 'In the beginning God created the ______ and the earth.'" (fill-blank)`;
+QUESTION TYPE DISTRIBUTION (STRICT):
+- 11 multiple-choice questions
+- 4 true/false questions (exactly 2 must have "True" as the correct answer, 2 must have "False")
+
+TRUE/FALSE GUIDANCE: Phrase some T/F statements as TRUE facts, not just false traps.
+GOOD True example: "True or False: Proverbs 3:5 commands us to trust in the LORD with all our heart." → True
+GOOD False example: "True or False: Proverbs 3:7 tells us to be wise in our own eyes." → False
+BAD: Making 3 out of 4 T/F answers False — this is guessable and teaches nothing.
+
+SEQUENCING QUESTION (include 1): Ask the reader to identify what comes FIRST or what ORDER instructions/events appear in the chapter.
+Example: "In ${bookName} ${chapter}, which instruction comes before all the others listed here?"`;
 
     case 'medium':
       return `${commonInstructions}
 
-DIFFICULTY: MEDIUM — Practical Christian Application
+DIFFICULTY: MEDIUM — Practical Application & Context (Verses ~${third + 1} through ~${third * 2} of the chapter)
 
-Focus on traditional, practical Christian living grounded in this chapter's teaching:
-- Faith, trust in God, obedience to His Word
-- Prayer, personal devotion, spiritual discipline
-- Evangelism, sharing the Gospel, being a witness
-- Marriage, family life, parenting with biblical wisdom
-- Work ethic, honesty, integrity in daily life
-- Generosity, stewardship, tithing
-- Church life, fellowship, serving others
-- Forgiveness, reconciliation, love for neighbors
-- Dealing with temptation, perseverance through trials
-- Humility, contentment, gratitude
+PRIMARY VERSE RANGE: Focus the majority of questions on the MIDDLE THIRD of the chapter:
+${middleThird}
 
-Frame questions as: "How does this passage teach us about [biblical virtue]?"
-Use scenarios like: "A fellow believer is struggling with [common challenge]. Based on [passage], what biblical truth would you share?"
+Rules for Medium:
+- Test understanding of HOW adjacent verses connect, not just isolated facts
+- Include CONTEXT QUESTIONS: "What does verse X say will happen if you do what verse Y says?"
+- Focus on practical Christian living grounded in this chapter's teaching:
+  * Faith, trust in God, obedience, prayer, generosity, integrity, forgiveness, humility
+- Frame questions as: "How does this passage teach us about [biblical virtue]?"
+- Scenario questions are good: "A fellow believer struggles with [challenge]. Based on ${bookName} ${chapter}, what biblical truth applies?"
 
-CRITICAL — DO NOT use these patterns:
-- No social justice or activism framing
-- No environmental activism language
-- No "inherent worth/dignity" repetition
-- No sensitivity-training scenarios
-- No culture-war topics or politically charged framing
-- No social media cyberbullying scenarios
-- No "marginalized" or "excluded" language
+CRITICAL — DO NOT use:
+- Social justice / activism framing
+- "inherent worth/dignity" language
+- Culture-war or politically charged scenarios
+- "marginalized" or "excluded" language
 
-GOOD example: "A fellow believer is going through a trial and asks you for counsel. Based on ${bookName} ${chapter}, what biblical truth would you share?"
-BAD example: "You see someone being cyberbullied on social media. How does ${bookName} ${chapter} guide your response to defend their inherent dignity?"
+QUESTION TYPE DISTRIBUTION (STRICT):
+- 12 multiple-choice questions
+- 3 true/false questions (at least 1 must have "True" as correct answer, at least 1 must have "False")
 
-Question type distribution (STRICT):
-- 12 multiple-choice questions (80%)
-- 2 true/false questions (15%)
-- 1 fill-in-the-blank question (5%)
+CONTEXT QUESTION (include at least 2): Connect adjacent verses rather than testing them in isolation.
+Example: "What does ${bookName} ${chapter}:[verse] promise will happen if the reader does what [verse-1] instructs?"
 
-Each explanation should reference 3-5 supporting Scripture verses.`;
+Each explanation should reference 2-3 supporting Scripture verses.`;
 
     case 'hard':
       return `${commonInstructions}
 
-DIFFICULTY: HARD — Analysis & Cross-Biblical Connections
+DIFFICULTY: HARD — Analysis, Cross-Biblical Connections & Deeper Study (Verses ~${third * 2 + 1} onward + cross-chapter)
 
-Focus on:
-- Cross-biblical connections: how this chapter relates to other books of the Bible
-- Literary structure and devices (chiasm, parallelism, typology, foreshadowing)
-- Hebrew or Greek word studies and their significance
+PRIMARY VERSE RANGE: Focus the majority of questions on the FINAL THIRD of the chapter, then add cross-biblical connections:
+${lastThird}
+
+Rules for Hard:
+- Cross-biblical connections: how this chapter relates to other books (Old & New Testament)
+- Literary devices: chiasm, parallelism, typology, foreshadowing, inclusio
+- Hebrew or Greek word studies: significant original-language meanings
 - Historical and cultural context of the ancient Near East
-- Authorial intent and audience considerations
-- How themes in this chapter develop across Scripture
-- Intertextual connections and allusions
+- Authorial intent and original audience
+- How themes in this chapter develop or fulfill earlier Scripture
+- Questions require knowing what PRECEDES or FOLLOWS a verse, not just the verse alone
 
-Question type distribution (STRICT):
-- 13-14 multiple-choice questions (90%)
-- 1-2 true/false questions (10%)
+QUESTION TYPE DISTRIBUTION (STRICT):
+- 13 multiple-choice questions
+- 2 true/false questions (exactly 1 must be "True", exactly 1 must be "False")
 
-EXAMPLE QUESTIONS (for reference style only, do NOT copy):
-- "How does the creation account in Genesis 1 parallel the structure of the tabernacle description in Exodus 25-31?"
-- "The Hebrew word 'bara' used in Genesis 1:1 specifically denotes what type of creative action?"
-- "Which New Testament passage most directly references the events of this chapter?"`;
+CROSS-REFERENCE QUESTION (include at least 3): Ask which other Bible passage connects to, fulfills, or echoes a theme from this chapter.
+WORD STUDY QUESTION (include at least 1): Ask about the Hebrew or Greek meaning of a key word from this chapter.
+LITERARY QUESTION (include at least 1): Ask about a literary device used in this chapter.
+
+Each explanation must cite the verse in this chapter AND the cross-reference passage.`;
 
     case 'theological':
       return `${commonInstructions}
 
-DIFFICULTY: THEOLOGICAL — Advanced Biblical Theology
+DIFFICULTY: THEOLOGICAL — Advanced Biblical Theology (Draws from the WHOLE chapter, goes deep on meaning)
 
-Focus on:
+Rules for Theological:
 - Seminary-level doctrinal questions rooted in this chapter
-- Systematic theology: what does this chapter teach about God, humanity, sin, salvation, etc.?
-- Apologetics: how does this chapter address common objections to the faith?
-- Biblical theology: how does this chapter fit into the grand narrative of Scripture?
-- Core Christian doctrines that all orthodox believers share
-- Attributes of God revealed in this chapter
-- Christological connections and messianic themes
-- Pneumatology (Holy Spirit), eschatology, ecclesiology as relevant
+- Systematic theology: what does this chapter reveal about God, humanity, sin, salvation, sanctification?
+- Apologetics: how does this chapter address objections to the Christian faith?
+- Biblical theology: how does this chapter fit into the grand narrative of redemption?
+- Attributes of God revealed — ask what specific attribute a passage demonstrates
+- Christological connections: types, shadows, and fulfillments pointing to Christ
+- Must draw from ACROSS the full chapter, not just the famous verses
 
 CRITICAL — AVOID denominational controversies:
 - Do not take sides on Reformed vs. Arminian debates
 - Do not take sides on Young Earth vs. Old Earth
-- Do not reference specific denominational distinctives
-- Focus on truths affirmed across the historic Christian creeds
+- No specific denominational distinctives
+- Focus on truths affirmed by the historic Christian creeds (Apostles', Nicene)
 
-Question type distribution (STRICT):
+QUESTION TYPE DISTRIBUTION (STRICT):
 - All 15 questions must be multiple-choice (100%)
 
-Each explanation should reference 4-5 supporting Scripture verses showing biblical consistency across Old and New Testaments.`;
+DOCTRINAL QUESTION (include at least 3): Ask what specific doctrine this passage teaches.
+ATTRIBUTE QUESTION (include at least 2): Ask which attribute of God a specific verse reveals.
+NARRATIVE ARC QUESTION (include at least 2): Ask how this chapter connects to the broader redemptive story of Scripture.
+
+Each explanation must reference 3-5 supporting Scripture verses showing consistency across Old and New Testaments.`;
 
     default:
       throw new Error(`Unknown tab level: ${tab}`);
@@ -502,9 +521,9 @@ async function generateQuestions(
 
       // Auto-normalize common GPT mistakes
       for (const q of questions) {
-        // Fix "fill-in-the-blank" → "fill-blank"
-        if ((q.type as string) === 'fill-in-the-blank') {
-          q.type = 'fill-blank';
+        // Reject any fill-blank questions that slip through — convert to multiple-choice
+        if ((q.type as string) === 'fill-blank' || (q.type as string) === 'fill-in-the-blank') {
+          q.type = 'multiple-choice';
         }
       }
       // Trim to 15 if GPT returned 16-17
