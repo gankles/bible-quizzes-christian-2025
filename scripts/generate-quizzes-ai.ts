@@ -24,7 +24,7 @@ import OpenAI from 'openai';
 // TYPES
 // =============================================================================
 
-type QuestionType = 'multiple-choice' | 'true-false' | 'fill-blank';
+type QuestionType = 'multiple-choice' | 'true-false';
 type DifficultyLevel = 'easy' | 'medium' | 'hard';
 type TabLevel = 'easy' | 'medium' | 'hard' | 'theological';
 
@@ -83,7 +83,7 @@ interface ProgressData {
 
 interface AIQuestion {
   question: string;
-  type: 'multiple-choice' | 'true-false' | 'fill-blank';
+  type: 'multiple-choice' | 'true-false';
   options: string[];
   correctAnswer: string;
   explanation: string;
@@ -421,14 +421,19 @@ Each explanation must cite the verse in this chapter AND the cross-reference pas
 
 DIFFICULTY: THEOLOGICAL — Advanced Biblical Theology (Draws from the WHOLE chapter, goes deep on meaning)
 
+VERSE SPREAD RULE: You MUST draw questions from at least 10 distinct verses across this chapter. Do not cluster around famous or well-known verses — those are already tested in Easy/Medium/Hard tabs. Seek out less-examined verses that carry doctrinal weight.
+
 Rules for Theological:
-- Seminary-level doctrinal questions rooted in this chapter
+- Seminary-level doctrinal questions rooted in this chapter's text
 - Systematic theology: what does this chapter reveal about God, humanity, sin, salvation, sanctification?
-- Apologetics: how does this chapter address objections to the Christian faith?
 - Biblical theology: how does this chapter fit into the grand narrative of redemption?
-- Attributes of God revealed — ask what specific attribute a passage demonstrates
-- Christological connections: types, shadows, and fulfillments pointing to Christ
-- Must draw from ACROSS the full chapter, not just the famous verses
+- Attributes of God: ask what specific divine attribute a particular verse demonstrates
+- Christological connections: include ONLY where Christ is genuinely foreshadowed, typologically present, or explicitly prophesied in this chapter — do NOT force Christological connections into passages about ethics, wisdom, or narrative that have no natural typology
+- SYNTHESIS QUESTIONS (include at least 3): Combine two or more verses from this chapter into a single doctrinal insight. Example: "What combined teaching do verses 5-6 and verse 11 convey about [doctrine]?"
+- APOLOGETICS QUESTION (include at least 1): Frame it with a specific sceptic's claim. Format: "Sceptics claim [specific objection]. What does [BookName Chapter:verse-range] actually teach?"
+- Must draw from ACROSS the full chapter, not just famous verses
+
+CROSS-REFERENCE LIMIT: Each explanation may cite at most 2 supporting verses from other Bible books. Citing more risks hallucinated references that do not actually exist.
 
 CRITICAL — AVOID denominational controversies:
 - Do not take sides on Reformed vs. Arminian debates
@@ -438,12 +443,15 @@ CRITICAL — AVOID denominational controversies:
 
 QUESTION TYPE DISTRIBUTION (STRICT):
 - All 15 questions must be multiple-choice (100%)
+- No true/false — theological nuance requires 4-option discrimination, not a binary choice
 
 DOCTRINAL QUESTION (include at least 3): Ask what specific doctrine this passage teaches.
 ATTRIBUTE QUESTION (include at least 2): Ask which attribute of God a specific verse reveals.
 NARRATIVE ARC QUESTION (include at least 2): Ask how this chapter connects to the broader redemptive story of Scripture.
+SYNTHESIS QUESTION (include at least 3): Combine two verses from this chapter into one doctrinal question.
+APOLOGETICS QUESTION (include at least 1): Use the specific sceptic-claim format above.
 
-Each explanation must reference 3-5 supporting Scripture verses showing consistency across Old and New Testaments.`;
+Each explanation must cite the exact verse(s) from this chapter, then at most 2 cross-references from other books.`;
 
     default:
       throw new Error(`Unknown tab level: ${tab}`);
@@ -601,13 +609,12 @@ function validateQuestions(
   // Check question type distribution
   const mcCount = questions.filter(q => q.type === 'multiple-choice').length;
   const tfCount = questions.filter(q => q.type === 'true-false').length;
-  const fbCount = questions.filter(q => q.type === 'fill-blank').length;
 
-  const expectedDist: Record<TabLevel, { mc: [number, number]; tf: [number, number]; fb: [number, number] }> = {
-    easy: { mc: [10, 11], tf: [3, 3], fb: [1, 2] },
-    medium: { mc: [12, 12], tf: [2, 2], fb: [1, 1] },
-    hard: { mc: [13, 14], tf: [1, 2], fb: [0, 0] },
-    theological: { mc: [15, 15], tf: [0, 0], fb: [0, 0] },
+  const expectedDist: Record<TabLevel, { mc: [number, number]; tf: [number, number] }> = {
+    easy: { mc: [11, 11], tf: [4, 4] },
+    medium: { mc: [12, 12], tf: [3, 3] },
+    hard: { mc: [13, 13], tf: [2, 2] },
+    theological: { mc: [15, 15], tf: [0, 0] },
   };
 
   const dist = expectedDist[tab];
@@ -616,9 +623,6 @@ function validateQuestions(
   }
   if (tfCount < dist.tf[0] || tfCount > dist.tf[1]) {
     errors.push(`${tab}: expected ${dist.tf[0]}-${dist.tf[1]} T/F, got ${tfCount}`);
-  }
-  if (fbCount < dist.fb[0] || fbCount > dist.fb[1]) {
-    errors.push(`${tab}: expected ${dist.fb[0]}-${dist.fb[1]} fill-blank, got ${fbCount}`);
   }
 
   for (let i = 0; i < questions.length; i++) {
@@ -629,7 +633,7 @@ function validateQuestions(
       continue;
     }
 
-    if (!q.type || !['multiple-choice', 'true-false', 'fill-blank'].includes(q.type)) {
+    if (!q.type || !['multiple-choice', 'true-false'].includes(q.type)) {
       errors.push(`Q${i + 1}: invalid type "${q.type}"`);
     }
 
@@ -641,9 +645,6 @@ function validateQuestions(
       }
       if (q.type === 'true-false' && q.options.length !== 2) {
         errors.push(`Q${i + 1}: T/F question should have 2 options, got ${q.options.length}`);
-      }
-      if (q.type === 'fill-blank' && q.options.length !== 4) {
-        errors.push(`Q${i + 1}: fill-blank question should have 4 options, got ${q.options.length}`);
       }
     }
 
