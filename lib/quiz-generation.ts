@@ -27,6 +27,7 @@ export function standardizeQuestionFormat(question: QuizQuestion): QuizQuestion 
     return {
       ...question,
       type: 'multiple-choice',
+      question: cleanFillBlankQuestion(question.question, question.verseReference),
       options: shuffleArray(question.options || generateOptionsForFillBlank(question.correctAnswer, question.question))
     };
   }
@@ -58,6 +59,23 @@ function isCompletePhraseQuestion(questionText: string): boolean {
   return completePhraseIndicators.some(indicator => 
     questionText.toLowerCase().includes(indicator.toLowerCase())
   );
+}
+
+/**
+ * Rewrites "Fill in the blank from X:Y: '...'" style questions into clean
+ * verse-completion format: "X:Y (KJV): '...'" — no misleading text-input framing.
+ */
+function cleanFillBlankQuestion(questionText: string, verseReference?: string): string {
+  // Patterns like "Fill in the blank from Proverbs 3:15: '...'"
+  // or "Fill in the blank: '...'" or "Complete this verse: '...'"
+  const prefixPattern = /^(fill in the blank(?: from [^:'"]+)?|complete this (phrase|verse|sentence)|complete the (phrase|verse))\s*[:\-–]?\s*/i;
+  const cleaned = questionText.replace(prefixPattern, '').trim();
+
+  // If a verse reference exists and isn't already at the start, prepend it
+  if (verseReference && !cleaned.toLowerCase().startsWith(verseReference.toLowerCase())) {
+    return `${verseReference} (KJV): ${cleaned}`;
+  }
+  return cleaned;
 }
 
 /**
