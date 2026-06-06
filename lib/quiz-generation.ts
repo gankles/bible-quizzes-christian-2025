@@ -73,7 +73,7 @@ function cleanFillBlankQuestion(questionText: string, verseReference?: string): 
 
   // If a verse reference exists and isn't already at the start, prepend it
   if (verseReference && !cleaned.toLowerCase().startsWith(verseReference.toLowerCase())) {
-    return `${verseReference} (KJV): ${cleaned}`;
+    return `${verseReference}: ${cleaned}`;
   }
   return cleaned;
 }
