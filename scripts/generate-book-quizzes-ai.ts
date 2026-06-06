@@ -2,8 +2,9 @@
 /**
  * AI-Powered Bible BOOK Quiz Generator using OpenAI GPT-4.1-mini
  *
- * Generates 25-question comprehensive quizzes covering an entire book.
- * Distribution: 70% Multiple Choice (17-18), 20% True/False (5), 10% Fill-in-blank (2-3)
+ * Generates 45-question comprehensive quizzes covering an entire book.
+ * Distribution: 15 Easy / 15 Medium / 15 Hard — multiple-choice and true/false only.
+ * No fill-in-the-blank. True/False answers balanced 50/50. Questions spread across all chapters.
  *
  * Usage:
  *   npx tsx scripts/generate-book-quizzes-ai.ts --book genesis
@@ -21,7 +22,7 @@ import OpenAI from 'openai';
 
 interface AIQuestion {
   question: string;
-  type: 'multiple-choice' | 'true-false' | 'fill-blank';
+  type: 'multiple-choice' | 'true-false';
   options: string[];
   correctAnswer: string;
   explanation: string;
@@ -31,7 +32,7 @@ interface AIQuestion {
 interface QuizQuestion {
   id: string;
   question: string;
-  type: 'multiple-choice' | 'true-false' | 'fill-blank';
+  type: 'multiple-choice' | 'true-false';
   options?: string[];
   correctAnswer: string;
   explanation: string;
@@ -255,37 +256,59 @@ const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 async function generateBookQuiz(bookSlug: string, sampleText: string): Promise<{ questions: AIQuestion[]; inputTokens: number; outputTokens: number; cost: number }> {
   const bookName = BOOK_NAMES[bookSlug];
   const totalChapters = BOOK_CHAPTERS[bookSlug];
+  const third = Math.ceil(totalChapters / 3);
 
-  const prompt = `You are a Bible scholar creating a comprehensive quiz for the entire book of ${bookName} (${totalChapters} chapters).
+  const prompt = `You are an expert Bible scholar creating a comprehensive quiz for the entire book of ${bookName} (${totalChapters} chapters, KJV).
 
-Generate exactly 45 questions covering the ENTIRE book - key events, people, places, teachings, and themes from across ALL major sections of the book. Spread questions across different chapters.
+Generate exactly 45 questions covering the ENTIRE book across three difficulty tiers.
 
-Question distribution (STRICT):
-- 32 multiple-choice questions (each with exactly 4 options)
-- 9 true-false questions (correctAnswer must be exactly "true" or "false")
-- 4 fill-blank questions (correctAnswer is one word or short phrase; options should contain 4 choices including the answer)
+UNIVERSAL RULES — FOLLOW STRICTLY:
+1. NO fill-in-the-blank questions. Only "multiple-choice" or "true-false" types are allowed.
+2. Every question MUST have a verseReference citing the exact verse containing the answer (e.g., "${bookName} 3:16").
+3. The correctAnswer MUST appear exactly in the options array.
+4. Multiple-choice: exactly 4 options per question.
+5. True/False: options must be exactly ["True", "False"]. correctAnswer must be exactly "True" or "False" (capitalised).
+6. TRUE/FALSE BALANCE: Across all 45 questions, exactly half of T/F answers must be "True" and half must be "False". Never skew toward mostly False.
+7. ZERO CHAPTER CLUSTERING: Spread questions proportionally — roughly 15 questions covering chapters 1-${third}, 15 covering chapters ${third + 1}-${third * 2}, 15 covering chapters ${third * 2 + 1}-${totalChapters}.
+8. No two questions may use the same verse as the primary reference.
+9. Include at least 3 CONTEXT QUESTIONS that connect adjacent passages (what does verse X promise if you do what verse Y says?).
+10. Include at least 3 CROSS-REFERENCE QUESTIONS that link a theme in this book to another book of the Bible.
 
-Mix difficulties: roughly 15 easy, 18 medium, 12 hard.
+DIFFICULTY DISTRIBUTION (STRICT — 15 questions per tier):
 
-Rules:
-- Every question MUST have a verseReference like "${bookName} 3:16"
-- Spread questions across different chapters of the book
-- Include questions about: key characters, major events, important teachings, memorable verses, and themes
-- For true-false: correctAnswer must be exactly "true" or "false"
-- For fill-blank: frame as "Complete this verse: ..." or fill-in-the-blank format
-- All answers must be KJV-accurate
+EASY (questions 1-15) — Basic Recognition:
+- Direct factual recall: Who/What/Where/When answered plainly by the text
+- Key characters, major events, famous verses
+- No interpretation required
+- Question type mix: 11 multiple-choice, 4 true-false (2 True, 2 False)
 
-Here is sample text from the book for reference:
+MEDIUM (questions 16-30) — Application & Connections:
+- How adjacent passages connect and reinforce each other
+- Practical Christian living grounded in this book's teaching
+- Scenario questions: "A fellow believer faces [challenge]. Based on ${bookName}, what biblical truth applies?"
+- Context questions connecting verse N to verse N±1 or N±2
+- Question type mix: 12 multiple-choice, 3 true-false (at least 1 True, at least 1 False)
+- DO NOT use: social justice framing, "inherent dignity" language, culture-war scenarios
+
+HARD (questions 31-45) — Analysis & Depth:
+- Cross-biblical connections to other books (Old & New Testament)
+- Literary devices: chiasm, parallelism, typology, foreshadowing
+- Hebrew or Greek word meanings for key terms
+- Historical and cultural context of the ancient Near East
+- How themes develop or fulfill earlier Scripture
+- Question type mix: 13 multiple-choice, 2 true-false (exactly 1 True, 1 False)
+
+Here is sample text from key sections of the book:
 ${sampleText.slice(0, 12000)}
 
-Return a JSON object with a "questions" key containing an array of 45 question objects:
+Return a JSON object with a "questions" key containing exactly 45 question objects:
 {"questions": [
   {
     "question": "...",
     "type": "multiple-choice",
     "options": ["A", "B", "C", "D"],
     "correctAnswer": "A",
-    "explanation": "...",
+    "explanation": "Explanation citing the exact verse",
     "verseReference": "${bookName} 1:1"
   }
 ]}`;
@@ -295,7 +318,7 @@ Return a JSON object with a "questions" key containing an array of 45 question o
       const response = await openai.chat.completions.create({
         model: 'gpt-4.1-mini',
         messages: [
-          { role: 'system', content: 'You are a Bible quiz generator. Always respond with valid JSON containing a "questions" array. Generate all requested questions.' },
+          { role: 'system', content: 'You are an expert Bible scholar and quiz creator. Always respond with valid JSON containing a "questions" array. Never include markdown or code fences. Never use fill-in-the-blank questions.' },
           { role: 'user', content: prompt },
         ],
         temperature: 0.7,
@@ -320,8 +343,17 @@ Return a JSON object with a "questions" key containing an array of 45 question o
 
       // Auto-normalize common GPT mistakes
       for (const q of questions) {
-        if ((q.type as string) === 'fill-in-the-blank') q.type = 'fill-blank';
+        // Reject any fill-blank that slips through — convert to multiple-choice
+        if ((q.type as string) === 'fill-blank' || (q.type as string) === 'fill-in-the-blank') {
+          q.type = 'multiple-choice';
+        }
         if ((q.type as string) === 'true/false') q.type = 'true-false';
+        // Normalise true/false correctAnswer casing to match options ["True","False"]
+        if (q.type === 'true-false') {
+          const lower = q.correctAnswer.toLowerCase();
+          q.correctAnswer = lower === 'true' ? 'True' : 'False';
+          q.options = ['True', 'False'];
+        }
       }
 
       // Trim to 45 if GPT returned extra
