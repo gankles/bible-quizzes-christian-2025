@@ -103,11 +103,11 @@ const BOLLS_RATE_LIMIT_MS = 500;
 const OPENAI_RATE_LIMIT_MS = 200;
 const FETCH_TIMEOUT_MS = 15000;
 const OPENAI_TIMEOUT_MS = 60000;
-const MAX_RETRIES = 3;
+const MAX_RETRIES = 5;
 
-// GPT-4.1-mini pricing (per 1M tokens)
-const INPUT_COST_PER_1M = 0.40;
-const OUTPUT_COST_PER_1M = 1.60;
+// GPT-4o-mini pricing (per 1M tokens)
+const INPUT_COST_PER_1M = 0.15;
+const OUTPUT_COST_PER_1M = 0.60;
 
 const BOOK_IDS: Record<string, number> = {
   'genesis': 1, 'exodus': 2, 'leviticus': 3, 'numbers': 4, 'deuteronomy': 5,
@@ -506,7 +506,7 @@ async function generateQuestions(
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
     try {
       const response = await client.chat.completions.create({
-        model: 'gpt-4.1-mini',
+        model: 'gpt-4o-mini',
         messages: [
           {
             role: 'system',
@@ -561,10 +561,10 @@ async function generateQuestions(
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : String(err);
 
-      // Rate limit handling
+      // Rate limit handling — use exponential backoff starting at 60s
       if (msg.includes('429') || msg.includes('rate_limit')) {
-        const backoff = 5000 * attempt;
-        console.warn(`    OpenAI rate limited, waiting ${backoff}ms (attempt ${attempt}/${MAX_RETRIES})...`);
+        const backoff = 60000 * attempt; // 60s, 120s, 180s
+        console.warn(`    OpenAI rate limited, waiting ${backoff / 1000}s (attempt ${attempt}/${MAX_RETRIES})...`);
         await sleep(backoff);
         continue;
       }
