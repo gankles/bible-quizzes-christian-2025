@@ -1,7 +1,7 @@
 [phases.setup]
 cmds = [
   "npx prisma generate",
-  "mkdir -p data/commentaries data/kjvstudy/verse_commentary && BASE_URL=https://github.com/gankles/bible-quizzes-christian-2025/releases/download/v1.0-data && curl -fsSL $BASE_URL/lexicon.json -o data/lexicon.json && curl -fsSL $BASE_URL/mhcc.json -o data/commentaries/mhcc.json && curl -fsSL $BASE_URL/ellicott.json -o data/commentaries/ellicott.json && curl -fsSL $BASE_URL/jfb.json -o data/commentaries/jfb.json && curl -fsSL $BASE_URL/cross-references.json -o data/cross-references.json && curl -fsSL $BASE_URL/bible-quotes.json -o data/bible-quotes.json && curl -fsSL $BASE_URL/topics.json -o data/topics.json && curl -fsSL $BASE_URL/psalms.json -o data/kjvstudy/verse_commentary/psalms.json"
+  "mkdir -p data/commentaries data/kjvstudy/verse_commentary data/quizzes && BASE_URL=https://github.com/gankles/bible-quizzes-christian-2025/releases/download/v1.0-data && curl -fsSL $BASE_URL/lexicon.json -o data/lexicon.json && curl -fsSL $BASE_URL/mhcc.json -o data/commentaries/mhcc.json && curl -fsSL $BASE_URL/ellicott.json -o data/commentaries/ellicott.json && curl -fsSL $BASE_URL/jfb.json -o data/commentaries/jfb.json && curl -fsSL $BASE_URL/cross-references.json -o data/cross-references.json && curl -fsSL $BASE_URL/bible-quotes.json -o data/bible-quotes.json && curl -fsSL $BASE_URL/topics.json -o data/topics.json && curl -fsSL $BASE_URL/psalms.json -o data/kjvstudy/verse_commentary/psalms.json && curl -fsSL $BASE_URL/quizzes.tar.gz | tar -xz -C data/quizzes"
 ]
 
 [start]
