@@ -13,86 +13,129 @@
       "questions": [
         {
           "id": "jeremiah-1-easy-q1",
-          "question": "Who was Jeremiah the son of?",
+          "question": "Who was Jeremiah's father according to Jeremiah 1?",
           "type": "multiple-choice",
           "options": [
             "Hilkiah",
             "Josiah",
             "Amon",
-            "Zedekiah"
+            "Jehoiakim"
           ],
           "correctAnswer": "Hilkiah",
-          "explanation": "Jeremiah is identified as the son of Hilkiah in Jeremiah 1:1.",
+          "explanation": "Jeremiah 1:1 states that Jeremiah was the son of Hilkiah.",
           "verseReference": "Jeremiah 1:1",
           "difficulty": "easy"
         },
         {
           "id": "jeremiah-1-easy-q2",
-          "question": "In which town were the priests, including Jeremiah's family, located?",
+          "question": "In which town was Jeremiah's family priestly according to Jeremiah 1?",
           "type": "multiple-choice",
           "options": [
-            "Anathoth",
             "Jerusalem",
+            "Anathoth",
             "Bethlehem",
             "Hebron"
           ],
           "correctAnswer": "Anathoth",
-          "explanation": "Jeremiah 1:1 states that Jeremiah was from the priests that were in Anathoth.",
+          "explanation": "Jeremiah 1:1 identifies Anathoth in the land of Benjamin as the place where the priests including Jeremiah’s family were.",
           "verseReference": "Jeremiah 1:1",
           "difficulty": "easy"
         },
         {
           "id": "jeremiah-1-easy-q3",
-          "question": "During whose reign did the word of the LORD come to Jeremiah?",
+          "question": "During the reign of which king did the word of the LORD come to Jeremiah?",
           "type": "multiple-choice",
           "options": [
             "Josiah",
-            "David",
-            "Solomon",
-            "Hezekiah"
+            "Jehoiakim",
+            "Zedekiah",
+            "Amon"
           ],
           "correctAnswer": "Josiah",
-          "explanation": "Jeremiah 1:2 tells us the word of the LORD came to Jeremiah in the days of Josiah.",
+          "explanation": "Jeremiah 1:2 specifies that the word of the LORD came to Jeremiah in the days of Josiah, son of Amon, king of Judah.",
           "verseReference": "Jeremiah 1:2",
           "difficulty": "easy"
         },
         {
           "id": "jeremiah-1-easy-q4",
-          "question": "True or False: Jeremiah received God's word only during the reign of Josiah.",
+          "question": "How many years into Josiah's reign did the word of the LORD come to Jeremiah?",
+          "type": "multiple-choice",
+          "options": [
+            "Thirteenth year",
+            "First year",
+            "Seventh year",
+            "Twentieth year"
+          ],
+          "correctAnswer": "Thirteenth year",
+          "explanation": "Jeremiah 1:2 says the word of the LORD came in the thirteenth year of Josiah's reign.",
+          "verseReference": "Jeremiah 1:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "jeremiah-1-easy-q5",
+          "question": "True or False: The word of the LORD came to Jeremiah only during the reign of King Josiah.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Jeremiah 1:3 states the word came also in the days of Jehoiakim and until the captivity under Zedekiah.",
+          "explanation": "Jeremiah 1:3 clarifies that the word also came during the days of Jehoiakim and until the eleventh year of Zedekiah.",
           "verseReference": "Jeremiah 1:3",
           "difficulty": "easy"
         },
         {
-          "id": "jeremiah-1-easy-q5",
-          "question": "What did God say to Jeremiah before he was formed in the belly?",
+          "id": "jeremiah-1-easy-q6",
+          "question": "What event marked the end of the word of the LORD coming to Jeremiah as mentioned in Jeremiah 1?",
           "type": "multiple-choice",
           "options": [
-            "I knew thee",
-            "I chose thee",
-            "I blessed thee",
-            "I saw thee"
+            "The carrying away of Jerusalem captive",
+            "The death of Josiah",
+            "The building of the temple",
+            "The fall of Egypt"
           ],
-          "correctAnswer": "I knew thee",
-          "explanation": "Jeremiah 1:5 states God knew Jeremiah before he was formed in the belly.",
+          "correctAnswer": "The carrying away of Jerusalem captive",
+          "explanation": "Jeremiah 1:3 states that the word of the LORD came until the carrying away of Jerusalem captive in the fifth month.",
+          "verseReference": "Jeremiah 1:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "jeremiah-1-easy-q7",
+          "question": "True or False: Before Jeremiah was formed in the belly, the LORD knew him.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Jeremiah 1:5 says, 'Before I formed thee in the belly I knew thee.'",
           "verseReference": "Jeremiah 1:5",
           "difficulty": "easy"
         },
         {
-          "id": "jeremiah-1-easy-q6",
-          "question": "What was Jeremiah's initial response to God's call?",
+          "id": "jeremiah-1-easy-q8",
+          "question": "What did the LORD ordain Jeremiah to be before he was born?",
+          "type": "multiple-choice",
+          "options": [
+            "A prophet unto the nations",
+            "A king over Israel",
+            "A priest in Anathoth",
+            "A scribe for the temple"
+          ],
+          "correctAnswer": "A prophet unto the nations",
+          "explanation": "Jeremiah 1:5 explains that the LORD sanctified and ordained Jeremiah a prophet unto the nations.",
+          "verseReference": "Jeremiah 1:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "jeremiah-1-easy-q9",
+          "question": "What was Jeremiah's initial response when the LORD called him?",
           "type": "multiple-choice",
           "options": [
             "I cannot speak, for I am a child",
-            "I am ready",
-            "I will obey",
-            "I am afraid"
+            "I am ready to serve",
+            "I am not worthy",
+            "I will go anywhere you send me"
           ],
           "correctAnswer": "I cannot speak, for I am a child",
           "explanation": "Jeremiah 1:6 records Jeremiah saying he cannot speak because he is a child.",
@@ -100,134 +143,89 @@
           "difficulty": "easy"
         },
         {
-          "id": "jeremiah-1-easy-q7",
-          "question": "True or False: God told Jeremiah to say 'I am a child' as an excuse not to speak.",
+          "id": "jeremiah-1-easy-q10",
+          "question": "What did the LORD tell Jeremiah not to say about himself?",
+          "type": "multiple-choice",
+          "options": [
+            "I am a child",
+            "I am unworthy",
+            "I am strong",
+            "I am alone"
+          ],
+          "correctAnswer": "I am a child",
+          "explanation": "Jeremiah 1:7 states the LORD told Jeremiah not to say, 'I am a child.'",
+          "verseReference": "Jeremiah 1:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "jeremiah-1-easy-q11",
+          "question": "True or False: The LORD promised to be with Jeremiah and to deliver him.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
-          "correctAnswer": "False",
-          "explanation": "Jeremiah 1:7 shows God instructing Jeremiah not to say he is a child because he must speak what God commands.",
-          "verseReference": "Jeremiah 1:7",
+          "correctAnswer": "True",
+          "explanation": "Jeremiah 1:8 contains the LORD’s promise, 'I am with thee to deliver thee.'",
+          "verseReference": "Jeremiah 1:8",
           "difficulty": "easy"
         },
         {
-          "id": "jeremiah-1-easy-q8",
+          "id": "jeremiah-1-easy-q12",
           "question": "What did the LORD do to Jeremiah's mouth?",
           "type": "multiple-choice",
           "options": [
-            "Touched it and put His words there",
-            "Closed it",
-            "Filled it with fire",
-            "Gave him a new voice"
+            "Touched it and put His words in it",
+            "Anointed it with oil",
+            "Closed it for silence",
+            "Taught it to speak clearly"
           ],
-          "correctAnswer": "Touched it and put His words there",
-          "explanation": "Jeremiah 1:9 says the LORD touched Jeremiah's mouth and put His words in it.",
+          "correctAnswer": "Touched it and put His words in it",
+          "explanation": "Jeremiah 1:9 records the LORD putting forth His hand, touching Jeremiah’s mouth, and putting His words in it.",
           "verseReference": "Jeremiah 1:9",
           "difficulty": "easy"
         },
         {
-          "id": "jeremiah-1-easy-q9",
-          "question": "What authority did God give Jeremiah?",
+          "id": "jeremiah-1-easy-q13",
+          "question": "What is Jeremiah commanded to do according to the LORD in Jeremiah 1?",
           "type": "multiple-choice",
           "options": [
-            "To root out, pull down, destroy, throw down, build and plant",
-            "To reign as king",
-            "To write new laws",
-            "To gather an army"
+            "Go to all that I shall send thee and speak whatever I command",
+            "Build a temple",
+            "Lead an army",
+            "Write a book of laws"
           ],
-          "correctAnswer": "To root out, pull down, destroy, throw down, build and plant",
-          "explanation": "Jeremiah 1:10 declares God set Jeremiah over nations to do these actions.",
-          "verseReference": "Jeremiah 1:10",
+          "correctAnswer": "Go to all that I shall send thee and speak whatever I command",
+          "explanation": "Jeremiah 1:7 instructs Jeremiah to go to all whom the LORD sends and speak whatever He commands.",
+          "verseReference": "Jeremiah 1:7",
           "difficulty": "easy"
         },
         {
-          "id": "jeremiah-1-easy-q10",
-          "question": "What did Jeremiah see in his vision that God asked him about first?",
+          "id": "jeremiah-1-easy-q14",
+          "question": "In Jeremiah 1, which vision did Jeremiah see first?",
           "type": "multiple-choice",
           "options": [
             "A rod of an almond tree",
             "A seething pot",
             "A burning bush",
-            "A lion"
+            "A flowing river"
           ],
           "correctAnswer": "A rod of an almond tree",
-          "explanation": "Jeremiah 1:11 tells us Jeremiah saw a rod of an almond tree when God asked him what he saw.",
+          "explanation": "Jeremiah 1:11 shows that the first vision Jeremiah saw was a rod of an almond tree.",
           "verseReference": "Jeremiah 1:11",
           "difficulty": "easy"
         },
         {
-          "id": "jeremiah-1-easy-q11",
-          "question": "Fill in the blank: God said to Jeremiah, 'Thou hast well seen: for I will ______ my word to perform it.'",
-          "type": "fill-blank",
-          "options": [
-            "hasten",
-            "delay",
-            "ignore",
-            "change"
-          ],
-          "correctAnswer": "hasten",
-          "explanation": "Jeremiah 1:12 states God will hasten His word to perform it.",
-          "verseReference": "Jeremiah 1:12",
-          "difficulty": "easy"
-        },
-        {
-          "id": "jeremiah-1-easy-q12",
-          "question": "What was the direction the seething pot faced in Jeremiah's second vision?",
-          "type": "multiple-choice",
-          "options": [
-            "North",
-            "South",
-            "East",
-            "West"
-          ],
-          "correctAnswer": "North",
-          "explanation": "Jeremiah 1:13 notes the seething pot's face was toward the north.",
-          "verseReference": "Jeremiah 1:13",
-          "difficulty": "easy"
-        },
-        {
-          "id": "jeremiah-1-easy-q13",
-          "question": "True or False: According to Jeremiah 1:14, evil will break forth from the south upon the land.",
+          "id": "jeremiah-1-easy-q15",
+          "question": "True or False: Jeremiah was told to be afraid of the faces of those he would speak to.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Jeremiah 1:14 states the evil comes out of the north, not the south.",
-          "verseReference": "Jeremiah 1:14",
-          "difficulty": "easy"
-        },
-        {
-          "id": "jeremiah-1-easy-q14",
-          "question": "What did God command Jeremiah to do in verse 17?",
-          "type": "multiple-choice",
-          "options": [
-            "Gird up thy loins and speak all I command thee",
-            "Hide from the people",
-            "Go into exile",
-            "Build a temple"
-          ],
-          "correctAnswer": "Gird up thy loins and speak all I command thee",
-          "explanation": "Jeremiah 1:17 instructs Jeremiah to prepare himself and speak all that God commands.",
-          "verseReference": "Jeremiah 1:17",
-          "difficulty": "easy"
-        },
-        {
-          "id": "jeremiah-1-easy-q15",
-          "question": "How did God describe Jeremiah's protection against his enemies?",
-          "type": "multiple-choice",
-          "options": [
-            "A defenced city, an iron pillar, and brazen walls",
-            "A shield of gold",
-            "A mighty army",
-            "A secret hiding place"
-          ],
-          "correctAnswer": "A defenced city, an iron pillar, and brazen walls",
-          "explanation": "Jeremiah 1:18 describes Jeremiah as a defended city, iron pillar, and brazen walls against the land.",
-          "verseReference": "Jeremiah 1:18",
+          "explanation": "Jeremiah 1:8 instructs him not to be afraid of their faces because the LORD is with him to deliver him.",
+          "verseReference": "Jeremiah 1:8",
           "difficulty": "easy"
         }
       ],
@@ -254,223 +252,221 @@
       "questions": [
         {
           "id": "jeremiah-1-medium-q1",
-          "question": "A fellow believer is feeling inadequate and afraid to share their faith because they think they are too young or inexperienced. Based on Jeremiah 1, what biblical truth would you share with them?",
+          "question": "According to Jeremiah 1:8, why should Jeremiah not be afraid of the faces of those he will speak to?",
           "type": "multiple-choice",
           "options": [
-            "God equips and sends us regardless of our age or experience",
-            "Only mature and experienced people should share the Gospel",
-            "You must wait until you feel fully ready to speak",
-            "Fear is a sign that God has not called you"
+            "Because the LORD is with him to deliver him",
+            "Because he has many friends among them",
+            "Because he will speak only in parables",
+            "Because they are powerless"
           ],
-          "correctAnswer": "God equips and sends us regardless of our age or experience",
-          "explanation": "Jeremiah 1:6-7 shows that although Jeremiah felt he was too young to speak, God told him not to say 'I am a child' because He would send him and give him the words to speak. Verses 8 and 9 further show God's presence and empowerment to deliver His message.",
-          "verseReference": "Jeremiah 1:6-9",
+          "correctAnswer": "Because the LORD is with him to deliver him",
+          "explanation": "Jeremiah 1:8 explicitly states that Jeremiah should not fear because the LORD is with him to deliver him. This assurance is foundational to his prophetic mission (Jeremiah 1:7-9).",
+          "verseReference": "Jeremiah 1:8",
           "difficulty": "medium"
         },
         {
           "id": "jeremiah-1-medium-q2",
-          "question": "How does Jeremiah 1 teach us about trusting God's presence in difficult situations?",
+          "question": "What action does the LORD take in Jeremiah 1:9 to empower Jeremiah for his prophetic role?",
           "type": "multiple-choice",
           "options": [
-            "God promises to be with us and deliver us",
-            "We must rely on our own strength to overcome",
-            "Avoid difficult situations to stay safe",
-            "Only leaders receive God's protection"
+            "Touches his mouth and puts His words in it",
+            "Gives him a scroll to read",
+            "Anoints him with oil",
+            "Gives him a vision of the future"
           ],
-          "correctAnswer": "God promises to be with us and deliver us",
-          "explanation": "Jeremiah 1:8 and 1:19 emphasize that God is with Jeremiah to deliver him despite opposition. This teaches believers to trust in God's presence and protection in trials.",
-          "verseReference": "Jeremiah 1:8, 19",
+          "correctAnswer": "Touches his mouth and puts His words in it",
+          "explanation": "Jeremiah 1:9 describes the LORD putting forth His hand and touching Jeremiah's mouth, symbolizing that God has placed His words in Jeremiah to speak (also related to Jeremiah 1:7-8 about speaking God's words).",
+          "verseReference": "Jeremiah 1:9",
           "difficulty": "medium"
         },
         {
           "id": "jeremiah-1-medium-q3",
-          "question": "What does Jeremiah 1:5 teach about God’s knowledge and purpose for us before birth?",
+          "question": "In Jeremiah 1:10, what responsibilities does God assign to Jeremiah as a prophet?",
           "type": "multiple-choice",
           "options": [
-            "God knew and sanctified Jeremiah before he was born, appointing him as a prophet",
-            "Our purpose is decided only after we grow up",
-            "God does not have a plan before birth",
-            "We create our own purpose through choices"
+            "To root out, pull down, destroy, throw down, build, and plant",
+            "To gather the people and lead them to safety",
+            "To write a book about God's laws",
+            "To perform miracles and healings"
           ],
-          "correctAnswer": "God knew and sanctified Jeremiah before he was born, appointing him as a prophet",
-          "explanation": "Jeremiah 1:5 states that God knew Jeremiah before he was formed in the womb and had sanctified and ordained him for a specific role, teaching us that God has a purpose and plan for each life from the beginning.",
-          "verseReference": "Jeremiah 1:5",
+          "correctAnswer": "To root out, pull down, destroy, throw down, build, and plant",
+          "explanation": "Jeremiah 1:10 outlines Jeremiah's prophetic role to both judge and restore nations through actions symbolized by rooting out and building up, indicating both destruction and renewal (connected with verses 8-9 about his mission).",
+          "verseReference": "Jeremiah 1:10",
           "difficulty": "medium"
         },
         {
           "id": "jeremiah-1-medium-q4",
-          "question": "A believer faces opposition when sharing the Gospel. Based on Jeremiah 1, what encouragement can you offer about perseverance?",
+          "question": "What vision does Jeremiah see in Jeremiah 1:11, and what is its significance according to verse 12?",
           "type": "multiple-choice",
           "options": [
-            "God will make you a strong defense and enable you to withstand opposition",
-            "Opposition means you should stop witnessing",
-            "You must rely on your own courage without God’s help",
-            "Only avoid sharing in times of opposition"
+            "A rod of an almond tree, signifying that God will hasten His word",
+            "A lion roaring, symbolizing judgment",
+            "A burning bush, representing God's presence",
+            "A river flowing, indicating blessing"
           ],
-          "correctAnswer": "God will make you a strong defense and enable you to withstand opposition",
-          "explanation": "Jeremiah 1:18-19 describes God making Jeremiah a 'defenced city,' 'iron pillar,' and 'brasen walls' so he could stand firm against all enemies, teaching that God strengthens those who persevere in His calling.",
-          "verseReference": "Jeremiah 1:18-19",
+          "correctAnswer": "A rod of an almond tree, signifying that God will hasten His word",
+          "explanation": "Jeremiah 1:11-12 describes Jeremiah seeing an almond rod, which God confirms as a symbol of His swift fulfillment of His word, emphasizing God's readiness to act on His promises (see also verses 13-14 for subsequent visions).",
+          "verseReference": "Jeremiah 1:11",
           "difficulty": "medium"
         },
         {
           "id": "jeremiah-1-medium-q5",
-          "question": "How does Jeremiah 1 instruct us about obedience to God's commands despite fear or hesitation?",
+          "question": "What does the seething pot facing north in Jeremiah 1:13 symbolize?",
           "type": "multiple-choice",
           "options": [
-            "Obey God’s commands boldly and without fear because He is with you",
-            "Wait until fear passes before obeying",
-            "Only obey when you feel confident",
-            "Obedience is optional if you are afraid"
+            "An evil coming out of the north upon the inhabitants of the land",
+            "A time of peace and prosperity",
+            "The cleansing of Jerusalem",
+            "A call to worship"
           ],
-          "correctAnswer": "Obey God’s commands boldly and without fear because He is with you",
-          "explanation": "Jeremiah 1:7-8 and 1:17 emphasize that Jeremiah was told not to be afraid or dismayed but to speak all that God commanded, trusting in God’s presence and deliverance.",
-          "verseReference": "Jeremiah 1:7-8, 17",
+          "correctAnswer": "An evil coming out of the north upon the inhabitants of the land",
+          "explanation": "Jeremiah 1:13-14 explains that the seething pot facing north symbolizes an impending evil or invasion from the north against the people, indicating judgment for their wickedness (related to verse 15).",
+          "verseReference": "Jeremiah 1:13",
           "difficulty": "medium"
         },
         {
           "id": "jeremiah-1-medium-q6",
-          "question": "What lesson about God's sovereignty and timing can we learn from Jeremiah's vision of the almond rod in Jeremiah 1?",
+          "question": "According to Jeremiah 1:14, from which direction will evil break forth upon all the inhabitants of the land?",
           "type": "multiple-choice",
           "options": [
-            "God hastens His word to fulfill it at the appointed time",
-            "God delays His promises indefinitely",
-            "The vision means waiting is unnecessary",
-            "God’s promises depend on human effort"
+            "From the north",
+            "From the south",
+            "From the east",
+            "From the west"
           ],
-          "correctAnswer": "God hastens His word to fulfill it at the appointed time",
-          "explanation": "Jeremiah 1:11-12 explains the vision of the almond rod symbolizes that God watches over His word to perform it swiftly, teaching trust in God’s timing and faithfulness.",
-          "verseReference": "Jeremiah 1:11-12",
+          "correctAnswer": "From the north",
+          "explanation": "Jeremiah 1:14 clearly states that an evil will break forth from the north against all inhabitants, emphasizing the source of coming judgment (supported by verses 13 and 15).",
+          "verseReference": "Jeremiah 1:14",
           "difficulty": "medium"
         },
         {
           "id": "jeremiah-1-medium-q7",
-          "question": "A believer is discouraged because they feel powerless against evil influences. Based on Jeremiah 1, what truth about God's judgment and authority can encourage them?",
+          "question": "What does Jeremiah 1:15 say God will do with the families of the kingdoms of the north?",
           "type": "multiple-choice",
           "options": [
-            "God has authority to root out and build up nations, and His judgment is sure",
-            "Evil will always triumph over good",
-            "Human power alone can defeat evil",
-            "God is indifferent to human wickedness"
+            "Call them to come and set their thrones at Jerusalem's gates and walls",
+            "Bless them with peace",
+            "Send them into exile",
+            "Give them land in Judah"
           ],
-          "correctAnswer": "God has authority to root out and build up nations, and His judgment is sure",
-          "explanation": "Jeremiah 1:10 and 1:14-16 show God's sovereign authority to judge and bring consequences on wickedness, encouraging believers that God is ultimately in control over evil.",
-          "verseReference": "Jeremiah 1:10, 14-16",
+          "correctAnswer": "Call them to come and set their thrones at Jerusalem's gates and walls",
+          "explanation": "Jeremiah 1:15 announces God's calling of northern kingdoms to come and besiege Jerusalem and the cities of Judah, reflecting the judgment theme in verses 14 and 16.",
+          "verseReference": "Jeremiah 1:15",
           "difficulty": "medium"
         },
         {
           "id": "jeremiah-1-medium-q8",
-          "question": "True or False: Jeremiah 1 teaches that God calls and equips people for His purposes regardless of their personal feelings of inadequacy.",
+          "question": "What is the reason given in Jeremiah 1:16 for God’s judgments against the inhabitants?",
+          "type": "multiple-choice",
+          "options": [
+            "They have forsaken God and worshipped other gods and idols",
+            "They have been unkind to strangers",
+            "They have not built a temple",
+            "They have refused to pay taxes"
+          ],
+          "correctAnswer": "They have forsaken God and worshipped other gods and idols",
+          "explanation": "Jeremiah 1:16 explains that God's judgment is due to their forsaking Him, burning incense to other gods, and worshipping the works of their own hands, highlighting the spiritual unfaithfulness that led to judgment (related to verses 14-15).",
+          "verseReference": "Jeremiah 1:16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "jeremiah-1-medium-q9",
+          "question": "How does Jeremiah 1:17 instruct Jeremiah to prepare for his prophetic mission?",
+          "type": "multiple-choice",
+          "options": [
+            "To gird up his loins, arise, and speak all that God commands without fear",
+            "To build a strong fortress",
+            "To seek help from the priests",
+            "To write secret messages"
+          ],
+          "correctAnswer": "To gird up his loins, arise, and speak all that God commands without fear",
+          "explanation": "Jeremiah 1:17 commands Jeremiah to prepare himself for the difficult task ahead by being courageous and obedient, reinforcing the call to faith and trust in God’s protection (see also verses 8 and 18).",
+          "verseReference": "Jeremiah 1:17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "jeremiah-1-medium-q10",
+          "question": "What metaphor does God use in Jeremiah 1:18 to describe the strength He gives Jeremiah against opposition?",
+          "type": "multiple-choice",
+          "options": [
+            "A defended city, an iron pillar, and brazen walls",
+            "A mighty lion",
+            "A burning fire",
+            "A flowing river"
+          ],
+          "correctAnswer": "A defended city, an iron pillar, and brazen walls",
+          "explanation": "Jeremiah 1:18 uses strong defensive imagery to describe the protection and resilience God provides Jeremiah against all enemies, including kings, priests, and people (also supported by verse 19).",
+          "verseReference": "Jeremiah 1:18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "jeremiah-1-medium-q11",
+          "question": "According to Jeremiah 1:19, what will happen when people fight against Jeremiah?",
+          "type": "multiple-choice",
+          "options": [
+            "They shall not prevail because the LORD is with him to deliver",
+            "He will be defeated and taken captive",
+            "They will cause him to flee",
+            "They will convince him to stop prophesying"
+          ],
+          "correctAnswer": "They shall not prevail because the LORD is with him to deliver",
+          "explanation": "Jeremiah 1:19 assures that despite opposition, Jeremiah will be protected by the LORD and his enemies will not overcome him, emphasizing God’s sustaining power (see also verses 8 and 18).",
+          "verseReference": "Jeremiah 1:19",
+          "difficulty": "medium"
+        },
+        {
+          "id": "jeremiah-1-medium-q12",
+          "question": "True or False: Jeremiah expressed concern that he could not speak because he was a child.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Jeremiah 1:5-7 records God calling Jeremiah before birth and encouraging him despite his feelings of inadequacy, showing that God’s calling and equipping do not depend on self-perception.",
-          "verseReference": "Jeremiah 1:5-7",
+          "explanation": "Jeremiah 1:6 records Jeremiah's objection to God’s call, saying he cannot speak because he is a child, reflecting human hesitation before divine calling.",
+          "verseReference": "Jeremiah 1:6",
           "difficulty": "medium"
         },
         {
-          "id": "jeremiah-1-medium-q9",
-          "question": "True or False: Jeremiah was instructed by God to be dismayed and fearful when speaking to the people.",
+          "id": "jeremiah-1-medium-q13",
+          "question": "True or False: Jeremiah 1:7 says that being a child is a valid excuse for Jeremiah not to speak God’s words.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Jeremiah 1:17 clearly instructs Jeremiah not to be dismayed at the faces of the people, but to speak all that God commands confidently, trusting God’s protection.",
-          "verseReference": "Jeremiah 1:17",
-          "difficulty": "medium"
-        },
-        {
-          "id": "jeremiah-1-medium-q10",
-          "question": "Fill in the blank: God told Jeremiah, 'Before I formed thee in the belly I ____ thee; and before thou camest forth out of the womb I sanctified thee.'",
-          "type": "fill-blank",
-          "options": [
-            "knew",
-            "saw",
-            "loved",
-            "called"
-          ],
-          "correctAnswer": "knew",
-          "explanation": "Jeremiah 1:5 states that God knew Jeremiah before he was formed in the womb, emphasizing God's intimate knowledge and purpose for him.",
-          "verseReference": "Jeremiah 1:5",
-          "difficulty": "medium"
-        },
-        {
-          "id": "jeremiah-1-medium-q11",
-          "question": "How does Jeremiah 1 encourage believers regarding the power of God’s word in evangelism?",
-          "type": "multiple-choice",
-          "options": [
-            "God puts His words in our mouth and His word will be fulfilled",
-            "Our words alone have power without God",
-            "Evangelism depends on persuasion skills only",
-            "God’s word is optional in witnessing"
-          ],
-          "correctAnswer": "God puts His words in our mouth and His word will be fulfilled",
-          "explanation": "Jeremiah 1:9-10 shows God placing His words in Jeremiah’s mouth and appointing him over nations to fulfill His purposes, encouraging believers that God's word is powerful and effective in evangelism.",
-          "verseReference": "Jeremiah 1:9-10",
-          "difficulty": "medium"
-        },
-        {
-          "id": "jeremiah-1-medium-q12",
-          "question": "A believer is anxious about facing opposition from family and church leaders when speaking truth. Based on Jeremiah 1, what biblical assurance would you share?",
-          "type": "multiple-choice",
-          "options": [
-            "God equips us as a strong city and pillar, and opposition will not prevail",
-            "You should avoid speaking truth to avoid conflict",
-            "Opposition means God is not with you",
-            "Only speak when everyone agrees"
-          ],
-          "correctAnswer": "God equips us as a strong city and pillar, and opposition will not prevail",
-          "explanation": "Jeremiah 1:18-19 describes God making Jeremiah a defenced city and iron pillar against all opposition, promising deliverance and victory despite enemies.",
-          "verseReference": "Jeremiah 1:18-19",
-          "difficulty": "medium"
-        },
-        {
-          "id": "jeremiah-1-medium-q13",
-          "question": "What does Jeremiah 1 teach about the importance of courage in spiritual service?",
-          "type": "multiple-choice",
-          "options": [
-            "Courage is necessary because God commands us to speak despite fear",
-            "Only the naturally brave can serve God",
-            "Courage is optional in ministry",
-            "Fear should stop us from speaking"
-          ],
-          "correctAnswer": "Courage is necessary because God commands us to speak despite fear",
-          "explanation": "Jeremiah 1:7 and 1:17 show God instructing Jeremiah not to be afraid or dismayed but to speak boldly all that God commands, highlighting the need for courage in obedience.",
-          "verseReference": "Jeremiah 1:7, 17",
+          "explanation": "Jeremiah 1:7 specifically instructs Jeremiah not to say 'I am a child,' indicating that his youth is not an excuse to avoid God’s command to speak.",
+          "verseReference": "Jeremiah 1:7",
           "difficulty": "medium"
         },
         {
           "id": "jeremiah-1-medium-q14",
-          "question": "According to Jeremiah 1, what is the role God appointed Jeremiah to do among the nations?",
-          "type": "multiple-choice",
+          "question": "True or False: According to Jeremiah 1:12, God will delay His word until the right time.",
+          "type": "true-false",
           "options": [
-            "To root out, pull down, destroy, throw down, build, and plant",
-            "To only comfort and encourage without judgment",
-            "To avoid confrontation with rulers",
-            "To keep silent and live in peace"
+            "True",
+            "False"
           ],
-          "correctAnswer": "To root out, pull down, destroy, throw down, build, and plant",
-          "explanation": "Jeremiah 1:10 reveals that God set Jeremiah over nations with authority to judge and restore, symbolizing the comprehensive work God calls His servants to do.",
-          "verseReference": "Jeremiah 1:10",
+          "correctAnswer": "False",
+          "explanation": "Jeremiah 1:12 states the LORD will hasten His word to perform it, indicating prompt fulfillment rather than delay.",
+          "verseReference": "Jeremiah 1:12",
           "difficulty": "medium"
         },
         {
           "id": "jeremiah-1-medium-q15",
-          "question": "How can the vision of the seething pot in Jeremiah 1 help believers understand God’s warnings about consequences for sin?",
+          "question": "What does Jeremiah 1:19 promise will happen if Jeremiah obeys the command in Jeremiah 1:17 to not be dismayed at their faces?",
           "type": "multiple-choice",
           "options": [
-            "It symbolizes an impending judgment coming from the north against the land",
-            "It represents peace and prosperity without judgment",
-            "It means God will ignore sin",
-            "It encourages sin without fear"
+            "Enemies will fight against him but will not prevail because God will deliver him",
+            "He will be left alone and face no opposition",
+            "He will become king of Judah",
+            "He will be rewarded with wealth"
           ],
-          "correctAnswer": "It symbolizes an impending judgment coming from the north against the land",
-          "explanation": "Jeremiah 1:13-15 describes the seething pot facing north as a symbol of coming evil judgment on Judah for wickedness, teaching the reality of consequences for sin.",
-          "verseReference": "Jeremiah 1:13-15",
+          "correctAnswer": "Enemies will fight against him but will not prevail because God will deliver him",
+          "explanation": "Jeremiah 1:19 connects obedience and courage (Jeremiah 1:17) with God’s protection, promising that though Jeremiah will face opposition, he will be victorious through God’s deliverance (also Jeremiah 1:18).",
+          "verseReference": "Jeremiah 1:19",
           "difficulty": "medium"
         }
       ],
@@ -497,225 +493,223 @@
       "questions": [
         {
           "id": "jeremiah-1-hard-q1",
-          "question": "In Jeremiah 1:5, what significant divine action is described before Jeremiah's birth?",
+          "question": "According to Jeremiah 1:15, from which direction will an evil break forth upon the inhabitants of the land?",
           "type": "multiple-choice",
           "options": [
-            "The Lord knew Jeremiah and sanctified him",
-            "Jeremiah was appointed king",
-            "Jeremiah was given a scroll",
-            "Jeremiah was sent into exile"
+            "North",
+            "South",
+            "East",
+            "West"
           ],
-          "correctAnswer": "The Lord knew Jeremiah and sanctified him",
-          "explanation": "Jeremiah 1:5 states that before Jeremiah was formed in the belly, God knew him, sanctified him, and ordained him a prophet.",
-          "verseReference": "Jeremiah 1:5",
+          "correctAnswer": "North",
+          "explanation": "Jeremiah 1:15 states that the LORD will call the families of the kingdoms of the north to come against Jerusalem and Judah, indicating the direction of the coming evil is from the north.",
+          "verseReference": "Jeremiah 1:15",
           "difficulty": "hard"
         },
         {
           "id": "jeremiah-1-hard-q2",
-          "question": "Which kings' reigns frame the beginning and end of Jeremiah's prophetic ministry as recorded in Jeremiah 1:2-3?",
+          "question": "What specific action will the kingdoms of the north take against Jerusalem, as described in Jeremiah 1:15?",
           "type": "multiple-choice",
           "options": [
-            "Josiah and Zedekiah",
-            "David and Solomon",
-            "Hezekiah and Manasseh",
-            "Amon and Jehoiakim"
+            "They shall set their thrones at the gates and walls of Jerusalem",
+            "They shall build walls around Jerusalem",
+            "They shall send messengers of peace",
+            "They shall offer sacrifices in Jerusalem"
           ],
-          "correctAnswer": "Josiah and Zedekiah",
-          "explanation": "Jeremiah 1:2-3 indicates that Jeremiah's prophecy began in the days of Josiah and extended until the captivity under Zedekiah's reign.",
-          "verseReference": "Jeremiah 1:2-3",
+          "correctAnswer": "They shall set their thrones at the gates and walls of Jerusalem",
+          "explanation": "Jeremiah 1:15 explains that the families of the kingdoms of the north will set their thrones at the entering of the gates of Jerusalem and against all the walls and cities of Judah, symbolizing conquest and siege.",
+          "verseReference": "Jeremiah 1:15",
           "difficulty": "hard"
         },
         {
           "id": "jeremiah-1-hard-q3",
-          "question": "What does the almond rod that Jeremiah sees in his vision symbolize according to Jeremiah 1:11-12?",
+          "question": "What reason does the LORD give for bringing judgment against the people in Jeremiah 1:16?",
           "type": "multiple-choice",
           "options": [
-            "God's swift fulfillment of His word",
-            "The strength of Jerusalem's walls",
-            "The coming of a peaceful era",
-            "The judgment of the nations"
+            "They have forsaken God and worshipped other gods",
+            "They have oppressed the poor",
+            "They have built idols of gold",
+            "They have refused to build the temple"
           ],
-          "correctAnswer": "God's swift fulfillment of His word",
-          "explanation": "In Jeremiah 1:11-12, the almond tree rod symbolizes God's hastening to perform His word, a play on the Hebrew words for almond and watching.",
-          "verseReference": "Jeremiah 1:11-12",
-          "difficulty": "hard"
-        },
-        {
-          "id": "jeremiah-1-hard-q4",
-          "question": "In Jeremiah 1:13-15, the seething pot facing north foretells what impending event?",
-          "type": "multiple-choice",
-          "options": [
-            "An invasion from the north against Judah",
-            "A great famine in Jerusalem",
-            "The rebuilding of the temple",
-            "A peaceful alliance with northern kingdoms"
-          ],
-          "correctAnswer": "An invasion from the north against Judah",
-          "explanation": "Jeremiah 1:13-15 describes the seething pot facing north as a symbol of evil breaking forth from the north, referring to an invasion.",
-          "verseReference": "Jeremiah 1:13-15",
-          "difficulty": "hard"
-        },
-        {
-          "id": "jeremiah-1-hard-q5",
-          "question": "How does Jeremiah respond when God calls him, as recorded in Jeremiah 1:6?",
-          "type": "multiple-choice",
-          "options": [
-            "He says he cannot speak because he is a child",
-            "He immediately accepts without hesitation",
-            "He requests a sign from God",
-            "He asks to be sent elsewhere"
-          ],
-          "correctAnswer": "He says he cannot speak because he is a child",
-          "explanation": "Jeremiah 1:6 shows his initial hesitation, stating he cannot speak because he is a child, indicating his feeling of inadequacy.",
-          "verseReference": "Jeremiah 1:6",
-          "difficulty": "hard"
-        },
-        {
-          "id": "jeremiah-1-hard-q6",
-          "question": "What assurance does God give Jeremiah in Jeremiah 1:8 to overcome fear?",
-          "type": "multiple-choice",
-          "options": [
-            "God promises to be with him to deliver him",
-            "God promises him great wealth",
-            "God promises to make him king",
-            "God promises to silence his enemies"
-          ],
-          "correctAnswer": "God promises to be with him to deliver him",
-          "explanation": "Jeremiah 1:8 assures Jeremiah not to fear because God is with him to save him from opposition.",
-          "verseReference": "Jeremiah 1:8",
-          "difficulty": "hard"
-        },
-        {
-          "id": "jeremiah-1-hard-q7",
-          "question": "What symbolic action does the Lord perform on Jeremiah in Jeremiah 1:9?",
-          "type": "multiple-choice",
-          "options": [
-            "Touches his mouth and puts His words in it",
-            "Places a crown on his head",
-            "Gives him a scroll to read",
-            "Leads him to the temple"
-          ],
-          "correctAnswer": "Touches his mouth and puts His words in it",
-          "explanation": "Jeremiah 1:9 describes God touching Jeremiah’s mouth and putting His words there, symbolizing divine inspiration and authority.",
-          "verseReference": "Jeremiah 1:9",
-          "difficulty": "hard"
-        },
-        {
-          "id": "jeremiah-1-hard-q8",
-          "question": "According to Jeremiah 1:10, what roles has God appointed Jeremiah to perform?",
-          "type": "multiple-choice",
-          "options": [
-            "To root out, pull down, destroy, throw down, build, and plant",
-            "To rule over Judah as king",
-            "To be a priest in the temple",
-            "To lead the people into exile"
-          ],
-          "correctAnswer": "To root out, pull down, destroy, throw down, build, and plant",
-          "explanation": "Jeremiah 1:10 outlines Jeremiah's mission to both judge and restore nations, reflecting a comprehensive prophetic task.",
-          "verseReference": "Jeremiah 1:10",
-          "difficulty": "hard"
-        },
-        {
-          "id": "jeremiah-1-hard-q9",
-          "question": "What is the significance of the northern direction in Jeremiah's vision of the seething pot (Jeremiah 1:13-14) in the ancient Near Eastern context?",
-          "type": "multiple-choice",
-          "options": [
-            "It represents an enemy invasion from Babylon",
-            "It symbolizes divine blessing",
-            "It indicates a journey to Egypt",
-            "It points to the temple's location"
-          ],
-          "correctAnswer": "It represents an enemy invasion from Babylon",
-          "explanation": "The north was historically associated with invading armies like Babylon, and Jeremiah 1:14 uses this to foreshadow coming judgment.",
-          "verseReference": "Jeremiah 1:13-14",
-          "difficulty": "hard"
-        },
-        {
-          "id": "jeremiah-1-hard-q10",
-          "question": "In Jeremiah 1:18, Jeremiah is metaphorically described as which of the following?",
-          "type": "multiple-choice",
-          "options": [
-            "A defended city, an iron pillar, and brazen walls",
-            "A shepherd leading sheep",
-            "A burning lamp in darkness",
-            "A wise scribe writing scrolls"
-          ],
-          "correctAnswer": "A defended city, an iron pillar, and brazen walls",
-          "explanation": "Jeremiah 1:18 uses these metaphors to emphasize Jeremiah's strength and resilience against opposition.",
-          "verseReference": "Jeremiah 1:18",
-          "difficulty": "hard"
-        },
-        {
-          "id": "jeremiah-1-hard-q11",
-          "question": "According to Jeremiah 1:16, what are the people of Judah guilty of that provokes divine judgment?",
-          "type": "multiple-choice",
-          "options": [
-            "Forsaking God and worshipping idols made by their own hands",
-            "Building altars to God",
-            "Offering sacrifices in the temple",
-            "Observing the Sabbath faithfully"
-          ],
-          "correctAnswer": "Forsaking God and worshipping idols made by their own hands",
-          "explanation": "Jeremiah 1:16 condemns Judah for idolatry and apostasy, which is the reason for God's judgment.",
+          "correctAnswer": "They have forsaken God and worshipped other gods",
+          "explanation": "Jeremiah 1:16 clearly states that the judgments are because the people forsook the LORD, burned incense to other gods, and worshipped the works of their own hands.",
           "verseReference": "Jeremiah 1:16",
           "difficulty": "hard"
         },
         {
-          "id": "jeremiah-1-hard-q12",
-          "question": "What is the intended effect on Jeremiah when God commands him to 'gird up thy loins' in Jeremiah 1:17?",
+          "id": "jeremiah-1-hard-q4",
+          "question": "In Jeremiah 1:17, what is Jeremiah commanded to do despite the fear of the people’s faces?",
           "type": "multiple-choice",
           "options": [
-            "To prepare for courageous proclamation",
-            "To flee from danger",
-            "To fast and pray",
-            "To build a shelter"
+            "Gird up his loins and speak all that God commands",
+            "Flee to another land",
+            "Remain silent and pray",
+            "Build a refuge for himself"
           ],
-          "correctAnswer": "To prepare for courageous proclamation",
-          "explanation": "In ancient Near Eastern culture, girding loins meant readiness for action; Jeremiah 1:17 calls him to boldness in speaking God's word.",
+          "correctAnswer": "Gird up his loins and speak all that God commands",
+          "explanation": "Jeremiah 1:17 commands Jeremiah to prepare himself ('gird up thy loins'), arise, and speak all that the LORD commands, warning him not to be dismayed at their faces.",
           "verseReference": "Jeremiah 1:17",
           "difficulty": "hard"
         },
         {
+          "id": "jeremiah-1-hard-q5",
+          "question": "What image does the LORD use in Jeremiah 1:18 to describe the protection and strength given to Jeremiah?",
+          "type": "multiple-choice",
+          "options": [
+            "A defenced city, an iron pillar, and brass walls",
+            "A shield and sword",
+            "A lion and a fortress",
+            "A river and a tree"
+          ],
+          "correctAnswer": "A defenced city, an iron pillar, and brass walls",
+          "explanation": "Jeremiah 1:18 uses the metaphor of making Jeremiah a defenced city, an iron pillar, and brass (brasen) walls, symbolizing strength and protection against opposition.",
+          "verseReference": "Jeremiah 1:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jeremiah-1-hard-q6",
+          "question": "According to Jeremiah 1:19, what is the outcome of the opposition Jeremiah will face?",
+          "type": "multiple-choice",
+          "options": [
+            "They shall fight but not prevail because God will deliver him",
+            "They shall defeat Jeremiah and silence him",
+            "Jeremiah will flee before them",
+            "They shall ignore Jeremiah's words"
+          ],
+          "correctAnswer": "They shall fight but not prevail because God will deliver him",
+          "explanation": "Jeremiah 1:19 states that though people will fight against Jeremiah, they will not prevail because the LORD is with him to deliver him.",
+          "verseReference": "Jeremiah 1:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jeremiah-1-hard-q7",
+          "question": "The command in Jeremiah 1:17 to 'gird up thy loins' is a Hebrew idiom that means what?",
+          "type": "multiple-choice",
+          "options": [
+            "Prepare oneself for action or readiness",
+            "Wear a special garment",
+            "Fast and pray",
+            "Build a physical belt"
+          ],
+          "correctAnswer": "Prepare oneself for action or readiness",
+          "explanation": "The Hebrew idiom 'gird up thy loins' means to prepare oneself for action or to be ready, as indicated in Jeremiah 1:17 in the command for Jeremiah to arise and speak.",
+          "verseReference": "Jeremiah 1:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jeremiah-1-hard-q8",
+          "question": "Which literary device is prominently used in Jeremiah 1:11-12 where Jeremiah sees a rod of an almond tree and the LORD says 'I will hasten my word to perform it'?",
+          "type": "multiple-choice",
+          "options": [
+            "Symbolism",
+            "Chiasm",
+            "Parable",
+            "Hyperbole"
+          ],
+          "correctAnswer": "Symbolism",
+          "explanation": "In Jeremiah 1:11-12, the rod of an almond tree symbolizes God's watchfulness and swift execution of His word, making symbolism the literary device used here.",
+          "verseReference": "Jeremiah 1:11-12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jeremiah-1-hard-q9",
+          "question": "Which other Bible passage closely echoes the theme of God knowing and sanctifying a prophet before birth as in Jeremiah 1:5?",
+          "type": "multiple-choice",
+          "options": [
+            "Galatians 1:15",
+            "Genesis 1:1",
+            "Exodus 3:14",
+            "Psalm 23:1"
+          ],
+          "correctAnswer": "Galatians 1:15",
+          "explanation": "Galatians 1:15 speaks of Paul being separated and called by God from his mother's womb, echoing Jeremiah 1:5 where God knew and sanctified Jeremiah before birth.",
+          "verseReference": "Jeremiah 1:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jeremiah-1-hard-q10",
+          "question": "The phrase 'Be not afraid of their faces' in Jeremiah 1:8 is similar in theme to which New Testament passage where Jesus encourages not to fear?",
+          "type": "multiple-choice",
+          "options": [
+            "Matthew 10:28",
+            "John 3:16",
+            "Acts 2:1",
+            "Revelation 22:21"
+          ],
+          "correctAnswer": "Matthew 10:28",
+          "explanation": "Matthew 10:28 encourages believers not to fear those who kill the body but cannot kill the soul, paralleling Jeremiah 1:8 where the LORD tells Jeremiah not to fear the people’s faces.",
+          "verseReference": "Jeremiah 1:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jeremiah-1-hard-q11",
+          "question": "The 'seething pot' facing north in Jeremiah 1:13-14 symbolizes what kind of event?",
+          "type": "multiple-choice",
+          "options": [
+            "An impending disaster or invasion from the north",
+            "A time of peace and prosperity",
+            "A harvest festival celebration",
+            "A prophetic vision of restoration"
+          ],
+          "correctAnswer": "An impending disaster or invasion from the north",
+          "explanation": "Jeremiah 1:13-14 portrays the seething pot with its face toward the north as a symbol of coming disaster, indicating an invasion from the northern kingdoms.",
+          "verseReference": "Jeremiah 1:13-14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jeremiah-1-hard-q12",
+          "question": "According to Jeremiah 1:10, what comprehensive roles has God set Jeremiah over the nations and kingdoms to do?",
+          "type": "multiple-choice",
+          "options": [
+            "To root out, pull down, destroy, throw down, build, and plant",
+            "To bless and multiply their wealth",
+            "To gather armies and conquer lands",
+            "To write laws and establish peace"
+          ],
+          "correctAnswer": "To root out, pull down, destroy, throw down, build, and plant",
+          "explanation": "Jeremiah 1:10 describes the LORD setting Jeremiah over nations to perform both destructive and constructive acts, symbolizing judgment and restoration.",
+          "verseReference": "Jeremiah 1:10",
+          "difficulty": "hard"
+        },
+        {
           "id": "jeremiah-1-hard-q13",
-          "question": "True or False: Jeremiah 1:19 indicates that despite opposition, Jeremiah will ultimately be overcome by his enemies.",
+          "question": "True or False: Jeremiah expresses initial reluctance to speak because he fears he is too young, according to Jeremiah 1:6.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Jeremiah 1:6 shows Jeremiah saying he cannot speak because he is a child, indicating his reluctance due to youth.",
+          "verseReference": "Jeremiah 1:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jeremiah-1-hard-q14",
+          "question": "True or False: Jeremiah 1:9 describes the LORD touching Jeremiah’s hand to put His words into his mouth.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Jeremiah 1:19 states that though enemies fight against him, they will not prevail because the Lord is with Jeremiah to save him.",
-          "verseReference": "Jeremiah 1:19",
-          "difficulty": "hard"
-        },
-        {
-          "id": "jeremiah-1-hard-q14",
-          "question": "The phrase 'I have set thee over the nations and over the kingdoms' in Jeremiah 1:10 is an example of which literary device?",
-          "type": "multiple-choice",
-          "options": [
-            "A chiasm illustrating judgment and restoration",
-            "An allegory about a shepherd",
-            "A parable about a vineyard",
-            "A proverb about wisdom"
-          ],
-          "correctAnswer": "A chiasm illustrating judgment and restoration",
-          "explanation": "Jeremiah 1:10's structure pairs destructive and constructive actions, a chiastic pattern highlighting Jeremiah's comprehensive mission.",
-          "verseReference": "Jeremiah 1:10",
+          "explanation": "Jeremiah 1:9 records the LORD putting forth His hand and touching Jeremiah’s mouth, not his hand, to put His words in Jeremiah’s mouth.",
+          "verseReference": "Jeremiah 1:9",
           "difficulty": "hard"
         },
         {
           "id": "jeremiah-1-hard-q15",
-          "question": "How does Jeremiah's calling in chapter 1 foreshadow the New Testament theme of divine election and mission?",
+          "question": "Which Old Testament passage contains a similar commissioning of a prophet and the promise of God's presence as seen in Jeremiah 1:7-8?",
           "type": "multiple-choice",
           "options": [
-            "God knowing Jeremiah before birth parallels Paul's teaching on election in Romans 8",
-            "Jeremiah becoming king parallels Jesus' earthly reign",
-            "Jeremiah's exile parallels the Babylonian captivity only",
-            "Jeremiah's silence foreshadows the silence of prophets in the New Testament"
+            "Exodus 3:12",
+            "Genesis 12:1",
+            "1 Samuel 16:13",
+            "Psalm 51:10"
           ],
-          "correctAnswer": "God knowing Jeremiah before birth parallels Paul's teaching on election in Romans 8",
-          "explanation": "Jeremiah 1:5 foreshadows the New Testament concept of divine election, as seen in Paul's writings emphasizing God's foreknowledge and calling.",
-          "verseReference": "Jeremiah 1:5",
+          "correctAnswer": "Exodus 3:12",
+          "explanation": "In Exodus 3:12, God promises Moses His presence when commissioning him, similar to His assurance to Jeremiah in Jeremiah 1:7-8 that He will be with him.",
+          "verseReference": "Jeremiah 1:7-8",
           "difficulty": "hard"
         }
       ],
@@ -742,227 +736,227 @@
       "questions": [
         {
           "id": "jeremiah-1-theological-q1",
-          "question": "According to Jeremiah 1, what was God's declaration about Jeremiah before he was born?",
+          "question": "What divine attribute is primarily demonstrated by God’s statement in Jeremiah 1:5, \"Before I formed thee in the belly I knew thee\"?",
           "type": "multiple-choice",
           "options": [
-            "God knew and sanctified him before forming him in the womb",
-            "God chose him because of his family's priestly lineage",
-            "God called him only after he became an adult",
-            "God promised him a long life"
+            "Omniscience",
+            "Omnipotence",
+            "Immanence",
+            "Transcendence"
           ],
-          "correctAnswer": "God knew and sanctified him before forming him in the womb",
-          "explanation": "Jeremiah 1:5 states that God knew Jeremiah before he was formed in the belly and sanctified him before he came forth from the womb, demonstrating God's sovereign election and foreknowledge. This is consistent with Psalm 139:13-16, Isaiah 49:1, Galatians 1:15, and Ephesians 1:4 about God's knowledge and purpose for individuals before birth.",
+          "correctAnswer": "Omniscience",
+          "explanation": "Jeremiah 1:5 shows God’s omniscience as He knew Jeremiah before his formation in the womb, indicating His perfect knowledge of all things before they come to be.",
           "verseReference": "Jeremiah 1:5",
           "difficulty": "hard"
         },
         {
           "id": "jeremiah-1-theological-q2",
-          "question": "What was Jeremiah's initial objection to God's call as recorded in Jeremiah 1?",
+          "question": "According to Jeremiah 1:10, what roles has God appointed Jeremiah to fulfill among the nations?",
           "type": "multiple-choice",
           "options": [
-            "He said he was too young and could not speak",
-            "He asked for a sign to confirm God's call",
-            "He requested another prophet to assist him",
-            "He doubted God's existence"
+            "To root out, to pull down, to destroy, to throw down, to build, and to plant",
+            "To heal the sick and comfort the brokenhearted",
+            "To judge kings and priests only",
+            "To lead armies into battle"
           ],
-          "correctAnswer": "He said he was too young and could not speak",
-          "explanation": "Jeremiah 1:6 shows Jeremiah's hesitance due to his youth and perceived inability to speak. This reflects the human weakness in the face of divine calling, paralleling Moses' objections (Exodus 4:10), Isaiah's (Isaiah 6:5), and Paul's acknowledgment of his weakness (2 Corinthians 12:9).",
-          "verseReference": "Jeremiah 1:6",
-          "difficulty": "hard"
-        },
-        {
-          "id": "jeremiah-1-theological-q3",
-          "question": "How did God reassure Jeremiah about his youth and ability to speak?",
-          "type": "multiple-choice",
-          "options": [
-            "God told him not to say he was a child because He would be with him",
-            "God gave him a written scroll to read from",
-            "God sent an angel to speak for him",
-            "God promised to give him signs"
-          ],
-          "correctAnswer": "God told him not to say he was a child because He would be with him",
-          "explanation": "In Jeremiah 1:7-8, God commands Jeremiah not to say he is a child and assures him of divine presence and protection, emphasizing God's empowerment. This echoes similar divine assurances to Moses (Exodus 3:12), Isaiah (Isaiah 41:10), and Jesus' promise of the Holy Spirit to empower witnesses (Acts 1:8).",
-          "verseReference": "Jeremiah 1:7",
-          "difficulty": "hard"
-        },
-        {
-          "id": "jeremiah-1-theological-q4",
-          "question": "What symbolic act did God perform to prepare Jeremiah for his prophetic mission?",
-          "type": "multiple-choice",
-          "options": [
-            "God touched his mouth and put His words there",
-            "God anointed him with oil",
-            "God gave him a staff",
-            "God clothed him in a garment"
-          ],
-          "correctAnswer": "God touched his mouth and put His words there",
-          "explanation": "Jeremiah 1:9 depicts God touching Jeremiah's mouth and putting His words into it, symbolizing divine inspiration and authority. This act aligns with Isaiah 6:7 where a coal touches Isaiah's lips, and Ezekiel 2:7 where the Spirit empowers the prophet to speak God's words.",
-          "verseReference": "Jeremiah 1:9",
-          "difficulty": "hard"
-        },
-        {
-          "id": "jeremiah-1-theological-q5",
-          "question": "What commissioning role did God assign to Jeremiah according to Jeremiah 1:10?",
-          "type": "multiple-choice",
-          "options": [
-            "To root out, pull down, destroy, throw down, build, and plant",
-            "To lead Israel into battle against their enemies",
-            "To serve as a priest in the temple",
-            "To write laws for the people of Judah"
-          ],
-          "correctAnswer": "To root out, pull down, destroy, throw down, build, and plant",
-          "explanation": "Jeremiah 1:10 outlines Jeremiah's prophetic mission involving both judgment and restoration, reflecting God's sovereign control over nations. This dual role is consistent with prophetic ministry in Ezekiel 22:30, Isaiah 61:1-3, and the mission of Christ as both judge and redeemer (John 5:22-23).",
+          "correctAnswer": "To root out, to pull down, to destroy, to throw down, to build, and to plant",
+          "explanation": "Jeremiah 1:10 explicitly states that God set Jeremiah over nations and kingdoms with a dual role of judgment and restoration, illustrating divine sovereignty and prophetic commission.",
           "verseReference": "Jeremiah 1:10",
           "difficulty": "hard"
         },
         {
+          "id": "jeremiah-1-theological-q3",
+          "question": "What do the visions of the almond rod and the seething pot in Jeremiah 1:11-14 symbolize about God's action?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s swift fulfillment of judgment and impending evil from the north",
+            "A peaceful harvest and prosperity",
+            "The rebuilding of the temple and restoration of worship",
+            "The coming of the Messiah and eternal peace"
+          ],
+          "correctAnswer": "God’s swift fulfillment of judgment and impending evil from the north",
+          "explanation": "Jeremiah 1:11-14 presents two visions: the almond rod symbolizes God hastening His word, and the seething pot facing north symbolizes an evil coming from the north, indicating divine judgment.",
+          "verseReference": "Jeremiah 1:11-14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jeremiah-1-theological-q4",
+          "question": "How does Jeremiah 1:6-7 address the human limitation of the prophet and God’s provision for it?",
+          "type": "multiple-choice",
+          "options": [
+            "God commands Jeremiah not to say he is a child because He will empower him to speak",
+            "Jeremiah is told to remain silent due to his youth",
+            "God replaces Jeremiah with another prophet",
+            "Jeremiah is told to wait until he is older"
+          ],
+          "correctAnswer": "God commands Jeremiah not to say he is a child because He will empower him to speak",
+          "explanation": "Jeremiah 1:6-7 reveals Jeremiah’s hesitancy due to youth, but God assures him that his human limitation is no excuse as God will empower him to speak His words.",
+          "verseReference": "Jeremiah 1:6-7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jeremiah-1-theological-q5",
+          "question": "What theological doctrine is illustrated by God touching Jeremiah’s mouth in Jeremiah 1:9?",
+          "type": "multiple-choice",
+          "options": [
+            "Sanctification and divine empowerment for prophetic speech",
+            "Original sin",
+            "Justification by faith",
+            "Resurrection"
+          ],
+          "correctAnswer": "Sanctification and divine empowerment for prophetic speech",
+          "explanation": "Jeremiah 1:9 symbolizes God’s sanctifying act and empowerment as He puts His words in Jeremiah's mouth, enabling him to fulfill his prophetic calling.",
+          "verseReference": "Jeremiah 1:9",
+          "difficulty": "hard"
+        },
+        {
           "id": "jeremiah-1-theological-q6",
-          "question": "In Jeremiah's vision, what did the rod of the almond tree symbolize?",
+          "question": "What does Jeremiah 1:18 teach about God's protection over His prophet amidst opposition?",
           "type": "multiple-choice",
           "options": [
-            "God's hastening to perform His word",
-            "The strength of God's judgment",
-            "The growth of Israel's kingdom",
-            "A symbol of peace and prosperity"
+            "God makes Jeremiah a defended city, an iron pillar, and brazen walls against opposition",
+            "Jeremiah will be hidden and protected from all conflict",
+            "Jeremiah will lead armies to defeat his enemies",
+            "Jeremiah will avoid confrontation altogether"
           ],
-          "correctAnswer": "God's hastening to perform His word",
-          "explanation": "Jeremiah 1:11-12 explain that the almond rod symbolizes God's swift action to fulfill His word. The almond tree's early blossoming in spring represents God's imminent judgment, which aligns with Biblical themes like the swift fulfillment of prophecy in Habakkuk 2:3 and the certainty of God's promises (2 Peter 3:9).",
-          "verseReference": "Jeremiah 1:11",
-          "difficulty": "hard"
-        },
-        {
-          "id": "jeremiah-1-theological-q7",
-          "question": "What did the seething pot facing north in Jeremiah's vision represent?",
-          "type": "multiple-choice",
-          "options": [
-            "An evil coming from the north upon the inhabitants of the land",
-            "A place of purification for Israel",
-            "God's comforting presence",
-            "The blessings from the northern kingdoms"
-          ],
-          "correctAnswer": "An evil coming from the north upon the inhabitants of the land",
-          "explanation": "Jeremiah 1:13-14 interpret the seething pot facing north as symbolic of calamity originating from the northern kingdoms. This motif is found in other prophetic books, such as Ezekiel 38:6 and Isaiah 14:13, where adversaries come from the north to bring judgment.",
-          "verseReference": "Jeremiah 1:13",
-          "difficulty": "hard"
-        },
-        {
-          "id": "jeremiah-1-theological-q8",
-          "question": "What reason does God give for bringing judgments upon the inhabitants of the land?",
-          "type": "multiple-choice",
-          "options": [
-            "Because they forsook Him and worshipped other gods made by their own hands",
-            "Because they failed to follow the king's commands",
-            "Because they did not pay their taxes",
-            "Because they were allies with foreign nations"
-          ],
-          "correctAnswer": "Because they forsook Him and worshipped other gods made by their own hands",
-          "explanation": "Jeremiah 1:16 states that God's judgments are due to the people's idolatry and abandonment of Him, consistent with the Old Testament theme of covenant unfaithfulness leading to judgment found in Exodus 20:3-5, Judges 2:11-15, and the New Testament warning against idolatry in 1 Corinthians 10:14.",
-          "verseReference": "Jeremiah 1:16",
-          "difficulty": "hard"
-        },
-        {
-          "id": "jeremiah-1-theological-q9",
-          "question": "What metaphor does God use in Jeremiah 1 to describe the protection and strength He gives Jeremiah against opposition?",
-          "type": "multiple-choice",
-          "options": [
-            "A defended city, an iron pillar, and brazen walls",
-            "A shield and sword",
-            "A mighty warrior with a chariot",
-            "A shepherd with a rod and staff"
-          ],
-          "correctAnswer": "A defended city, an iron pillar, and brazen walls",
-          "explanation": "Jeremiah 1:18 uses these metaphors to illustrate God's provision of resilience and protection to Jeremiah amidst opposition, paralleling imagery in 2 Samuel 22:2-4, Isaiah 26:1, and Ephesians 6:10-17 regarding God's strength and defense.",
+          "correctAnswer": "God makes Jeremiah a defended city, an iron pillar, and brazen walls against opposition",
+          "explanation": "Jeremiah 1:18 depicts God’s supernatural protection over His prophet, symbolizing strength and resilience in the face of opposition from the people and leaders.",
           "verseReference": "Jeremiah 1:18",
           "difficulty": "hard"
         },
         {
-          "id": "jeremiah-1-theological-q10",
-          "question": "What assurance does God give Jeremiah about the outcome of the opposition he will face?",
+          "id": "jeremiah-1-theological-q7",
+          "question": "How does Jeremiah 1:15-16 reveal God's judgment against sin within Israel?",
           "type": "multiple-choice",
           "options": [
-            "They shall fight against him but not prevail because God is with him",
-            "He will be victorious by his own wisdom and strength",
-            "The people will immediately repent and accept his words",
-            "He will be taken away to another land for safety"
+            "God will summon northern kingdoms to judge Israel for idolatry and wickedness",
+            "God will forgive Israel immediately without consequence",
+            "God will abandon Israel completely without any judgment",
+            "God will send a prophet to rebuild the temple"
           ],
-          "correctAnswer": "They shall fight against him but not prevail because God is with him",
-          "explanation": "Jeremiah 1:19 affirms God's presence guaranteeing Jeremiah's ultimate protection and success despite opposition. This theme is echoed in Romans 8:31, Isaiah 41:10, and Psalm 46:1 where God's presence ensures victory for His servants.",
+          "correctAnswer": "God will summon northern kingdoms to judge Israel for idolatry and wickedness",
+          "explanation": "In Jeremiah 1:15-16, God declares He will call northern kingdoms to bring judgment on Israel for forsaking Him and worshipping idols, highlighting divine justice.",
+          "verseReference": "Jeremiah 1:15-16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jeremiah-1-theological-q8",
+          "question": "What is the combined theological significance of Jeremiah 1:5 and Jeremiah 1:17 regarding divine calling and human response?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s foreknowledge and sanctification compel Jeremiah to courageously obey without fear",
+            "Human inability makes obedience impossible despite divine calling",
+            "Jeremiah’s calling is conditional on his age and education",
+            "God’s call is optional and Jeremiah may refuse"
+          ],
+          "correctAnswer": "God’s foreknowledge and sanctification compel Jeremiah to courageously obey without fear",
+          "explanation": "Jeremiah 1:5 affirms God’s foreknowledge and consecration of Jeremiah, and 1:17 commands him to gird up his loins and not fear, teaching that divine calling requires faithful human obedience.",
+          "verseReference": "Jeremiah 1:5, 17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jeremiah-1-theological-q9",
+          "question": "What doctrinal truth about God’s sovereignty over history is illustrated by Jeremiah 1:2-3?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s word came through Jeremiah during the reigns of multiple kings up to Jerusalem’s captivity",
+            "God is unaware of political changes",
+            "God’s plans depend on Israel’s success in battle",
+            "God only speaks through prophets in peaceful times"
+          ],
+          "correctAnswer": "God’s word came through Jeremiah during the reigns of multiple kings up to Jerusalem’s captivity",
+          "explanation": "Jeremiah 1:2-3 shows God’s continuous involvement and sovereign communication through Jeremiah across different reigns and historical crises, including the captivity, affirming divine control over history.",
+          "verseReference": "Jeremiah 1:2-3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jeremiah-1-theological-q10",
+          "question": "How does Jeremiah 1:19 illustrate God’s providential protection in the face of opposition for His messengers?",
+          "type": "multiple-choice",
+          "options": [
+            "Though enemies fight against Jeremiah, they will not prevail because God delivers him",
+            "Jeremiah will be victorious by his own strength",
+            "Opponents will silence Jeremiah permanently",
+            "God will remove Jeremiah from the land"
+          ],
+          "correctAnswer": "Though enemies fight against Jeremiah, they will not prevail because God delivers him",
+          "explanation": "Jeremiah 1:19 assures that despite ongoing conflict, God’s protection guarantees the prophet’s ultimate deliverance, demonstrating divine providence.",
           "verseReference": "Jeremiah 1:19",
           "difficulty": "hard"
         },
         {
           "id": "jeremiah-1-theological-q11",
-          "question": "Which kings' reigns frame the period during which the word of the LORD came to Jeremiah as recorded in Jeremiah 1?",
+          "question": "What does the sceptical objection that 'prophetic calls are merely human imagination' fail to account for, according to Jeremiah 1:4-9?",
           "type": "multiple-choice",
           "options": [
-            "Josiah, Jehoiakim, and Zedekiah",
-            "David, Solomon, and Rehoboam",
-            "Hezekiah, Manasseh, and Amon",
-            "Saul, Ish-bosheth, and David"
+            "The direct divine communication, empowerment, and sanctification of Jeremiah for prophecy",
+            "The political motives behind Jeremiah's words",
+            "The cultural influences of Jeremiah’s time",
+            "The poetic style of the text"
           ],
-          "correctAnswer": "Josiah, Jehoiakim, and Zedekiah",
-          "explanation": "Jeremiah 1:2-3 specify that God's word came to Jeremiah during the reigns of Josiah, Jehoiakim, and Zedekiah, marking a critical historical context for his prophetic ministry. This situates Jeremiah's mission during Judah's final decades before exile, connecting to 2 Kings 22-25 and 2 Chronicles 34-36.",
-          "verseReference": "Jeremiah 1:2",
+          "correctAnswer": "The direct divine communication, empowerment, and sanctification of Jeremiah for prophecy",
+          "explanation": "Jeremiah 1:4-9 reveals God’s explicit call, touching Jeremiah’s mouth and placing words there, which refutes claims that prophecy is human invention by emphasizing divine origin and empowerment.",
+          "verseReference": "Jeremiah 1:4-9",
           "difficulty": "hard"
         },
         {
           "id": "jeremiah-1-theological-q12",
-          "question": "What does Jeremiah's commissioning in chapter 1 reveal about God's sovereignty over nations?",
+          "question": "What theological insight about sanctification and mission emerges from combining Jeremiah 1:5 and 1:9?",
           "type": "multiple-choice",
           "options": [
-            "God appoints prophets to influence and judge nations according to His will",
-            "God is limited to working only within Israel",
-            "God delegates power to earthly kings without prophetic input",
-            "God's plan excludes foreign nations"
+            "God both consecrates Jeremiah before birth and actively empowers his speech for prophetic mission",
+            "Sanctification happens only after the prophetic mission",
+            "Mission is independent of divine empowerment",
+            "Jeremiah’s mission is based on human wisdom"
           ],
-          "correctAnswer": "God appoints prophets to influence and judge nations according to His will",
-          "explanation": "Jeremiah 1:10 illustrates that God sets Jeremiah over nations and kingdoms to enact judgment and restoration, affirming God's sovereignty over all peoples. This aligns with Daniel 4:17, Isaiah 40:15, and Acts 17:26, which affirm God's rule over all nations.",
-          "verseReference": "Jeremiah 1:10",
+          "correctAnswer": "God both consecrates Jeremiah before birth and actively empowers his speech for prophetic mission",
+          "explanation": "Jeremiah 1:5 shows God’s sanctification of Jeremiah before birth, and 1:9 shows God’s active empowerment by putting words in his mouth, linking sanctification and mission intimately.",
+          "verseReference": "Jeremiah 1:5, 9",
           "difficulty": "hard"
         },
         {
           "id": "jeremiah-1-theological-q13",
-          "question": "How does Jeremiah 1 illustrate the doctrine of divine election and calling?",
+          "question": "How does Jeremiah 1:8 reveal God's attribute of faithfulness in relation to human fear?",
           "type": "multiple-choice",
           "options": [
-            "God chooses and sanctifies Jeremiah before birth for a prophetic mission",
-            "Jeremiah earns his calling through good works",
-            "Jeremiah is called because of his social status",
-            "Jeremiah is chosen randomly without prior knowledge by God"
+            "God promises presence and deliverance so Jeremiah need not fear",
+            "God leaves Jeremiah to face fear alone",
+            "Fear is justified because God is distant",
+            "God only sometimes protects His prophets"
           ],
-          "correctAnswer": "God chooses and sanctifies Jeremiah before birth for a prophetic mission",
-          "explanation": "Jeremiah 1:5 shows God's sovereign election and sanctification of Jeremiah before birth, a key aspect of divine calling. This doctrine is supported by Romans 8:29-30, Ephesians 1:4-5, and Galatians 1:15, emphasizing God's initiative in salvation and calling.",
-          "verseReference": "Jeremiah 1:5",
-          "difficulty": "hard"
-        },
-        {
-          "id": "jeremiah-1-theological-q14",
-          "question": "What theological truth about God is revealed by His promise to deliver Jeremiah despite opposition?",
-          "type": "multiple-choice",
-          "options": [
-            "God is faithful and omnipotent to protect His servants",
-            "God sometimes abandons His prophets to their fate",
-            "God's power is limited by human opposition",
-            "God is distant and uninvolved in earthly affairs"
-          ],
-          "correctAnswer": "God is faithful and omnipotent to protect His servants",
-          "explanation": "Jeremiah 1:8 and 1:19 affirm God's faithfulness and omnipotence in delivering Jeremiah, highlighting God's providential care. This truth is consistent with Psalm 91:14-15, Isaiah 43:2, and Hebrews 13:5, which emphasize God's constant presence and power.",
+          "correctAnswer": "God promises presence and deliverance so Jeremiah need not fear",
+          "explanation": "Jeremiah 1:8 reveals God’s faithfulness by assuring Jeremiah of His presence and deliverance, which counters human fear with divine reliability.",
           "verseReference": "Jeremiah 1:8",
           "difficulty": "hard"
         },
         {
-          "id": "jeremiah-1-theological-q15",
-          "question": "What does Jeremiah's vision of the seething pot indicate about eschatological judgment?",
+          "id": "jeremiah-1-theological-q14",
+          "question": "What narrative arc does Jeremiah 1:1-3 establish in the context of Israel’s redemptive history?",
           "type": "multiple-choice",
           "options": [
-            "It symbolizes impending divine judgment from the north on Judah",
-            "It represents a future time of peace for Jerusalem",
-            "It depicts the ultimate defeat of God's enemies in the south",
-            "It shows the cleansing of the temple in Jerusalem"
+            "The prophetic ministry spanning the final kings of Judah leading to exile",
+            "The creation of the world",
+            "The establishment of the Davidic kingdom at its peak",
+            "The exile of Israel in Assyria"
           ],
-          "correctAnswer": "It symbolizes impending divine judgment from the north on Judah",
-          "explanation": "Jeremiah 1:13-14's vision of a boiling pot facing north symbolizes coming judgment from the north, a motif linked to eschatological judgment in Ezekiel 38-39 and Isaiah 14, indicating God's sovereign control over history and judgment.",
-          "verseReference": "Jeremiah 1:13",
+          "correctAnswer": "The prophetic ministry spanning the final kings of Judah leading to exile",
+          "explanation": "Jeremiah 1:1-3 situates Jeremiah’s prophetic ministry during the reigns of Josiah, Jehoiakim, and Zedekiah, framing the narrative of judgment culminating in Jerusalem’s exile, a key event in redemptive history.",
+          "verseReference": "Jeremiah 1:1-3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "jeremiah-1-theological-q15",
+          "question": "What combined doctrine about human inadequacy and divine commissioning is taught by Jeremiah 1:6 and Jeremiah 1:17?",
+          "type": "multiple-choice",
+          "options": [
+            "Despite human weakness and fear, God commands obedience and courage",
+            "Human strength alone is sufficient for divine mission",
+            "Divine commissioning is only for the mature and confident",
+            "God removes all human fear before commissioning"
+          ],
+          "correctAnswer": "Despite human weakness and fear, God commands obedience and courage",
+          "explanation": "Jeremiah 1:6 shows Jeremiah’s fear and sense of inadequacy, while 1:17 commands him to be courageous and obedient, teaching that divine mission transcends human limitations.",
+          "verseReference": "Jeremiah 1:6, 17",
           "difficulty": "hard"
         }
       ],

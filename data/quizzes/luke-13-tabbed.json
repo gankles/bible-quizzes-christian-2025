@@ -13,13 +13,28 @@
       "questions": [
         {
           "id": "luke-13-easy-q1",
+          "question": "In Luke 13, which of the following appears FIRST in the chapter?",
+          "type": "multiple-choice",
+          "options": [
+            "The parable of the fig tree",
+            "Jesus healing a woman on the sabbath",
+            "The Galilaeans whose blood Pilate mingled with their sacrifices",
+            "The tower in Siloam falling and killing eighteen people"
+          ],
+          "correctAnswer": "The Galilaeans whose blood Pilate mingled with their sacrifices",
+          "explanation": "Luke 13:1 mentions the Galilaeans and Pilate first in the chapter before any other events.",
+          "verseReference": "Luke 13:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-13-easy-q2",
           "question": "Who mingled the blood of the Galilaeans with their sacrifices according to Luke 13?",
           "type": "multiple-choice",
           "options": [
+            "Jesus",
             "Pilate",
             "Herod",
-            "Jesus",
-            "The Pharisees"
+            "Caesar"
           ],
           "correctAnswer": "Pilate",
           "explanation": "Luke 13:1 states that Pilate mingled the blood of the Galilaeans with their sacrifices.",
@@ -27,207 +42,190 @@
           "difficulty": "easy"
         },
         {
-          "id": "luke-13-easy-q2",
-          "question": "What did Jesus say would happen to all unless they repent?",
-          "type": "multiple-choice",
-          "options": [
-            "They shall likewise perish",
-            "They shall be forgiven",
-            "They shall be blessed",
-            "They shall be healed"
-          ],
-          "correctAnswer": "They shall likewise perish",
-          "explanation": "In Luke 13:3, Jesus says, 'except ye repent, ye shall all likewise perish.'",
-          "verseReference": "Luke 13:3",
-          "difficulty": "easy"
-        },
-        {
           "id": "luke-13-easy-q3",
-          "question": "How many years had the man been seeking fruit on the fig tree in the parable?",
+          "question": "What was Jesus' answer when asked if the Galilaeans were sinners above all others because they suffered?",
           "type": "multiple-choice",
           "options": [
-            "Three years",
-            "One year",
-            "Five years",
-            "Seven years"
+            "Yes, they were the greatest sinners",
+            "No, but unless you repent, you will all likewise perish",
+            "Yes, and they deserved their fate",
+            "No, they were innocent"
           ],
-          "correctAnswer": "Three years",
-          "explanation": "Luke 13:7 mentions that the man had come seeking fruit on the fig tree for three years without finding any.",
-          "verseReference": "Luke 13:7",
+          "correctAnswer": "No, but unless you repent, you will all likewise perish",
+          "explanation": "Luke 13:2-3 records Jesus' answer denying they were sinners above all others and emphasizing repentance.",
+          "verseReference": "Luke 13:2-3",
           "difficulty": "easy"
         },
         {
           "id": "luke-13-easy-q4",
-          "question": "What did the dresser of the vineyard ask to do with the fig tree?",
+          "question": "What happened to the eighteen people mentioned in Luke 13?",
           "type": "multiple-choice",
           "options": [
-            "Let it alone this year and dung it",
-            "Cut it down immediately",
-            "Water it daily",
-            "Move it to another vineyard"
+            "They were healed by Jesus",
+            "They were killed by the tower in Siloam falling",
+            "They were drowned in the river",
+            "They were imprisoned by Pilate"
           ],
-          "correctAnswer": "Let it alone this year and dung it",
-          "explanation": "In Luke 13:8, the dresser asks to let the fig tree alone for one more year and dig about it and dung it.",
-          "verseReference": "Luke 13:8",
+          "correctAnswer": "They were killed by the tower in Siloam falling",
+          "explanation": "Luke 13:4 states that the tower in Siloam fell and killed eighteen people.",
+          "verseReference": "Luke 13:4",
           "difficulty": "easy"
         },
         {
           "id": "luke-13-easy-q5",
-          "question": "On what day was Jesus teaching in a synagogue when he healed a woman?",
+          "question": "How many years had the man sought fruit on the fig tree in the parable?",
           "type": "multiple-choice",
           "options": [
-            "Sabbath",
-            "Monday",
-            "Friday",
-            "Sunday"
+            "One year",
+            "Two years",
+            "Three years",
+            "Four years"
           ],
-          "correctAnswer": "Sabbath",
-          "explanation": "Luke 13:10 states that Jesus was teaching in one of the synagogues on the Sabbath.",
-          "verseReference": "Luke 13:10",
+          "correctAnswer": "Three years",
+          "explanation": "Luke 13:7 says the man had sought fruit for three years but found none.",
+          "verseReference": "Luke 13:7",
           "difficulty": "easy"
         },
         {
           "id": "luke-13-easy-q6",
-          "question": "How long had the woman with a spirit of infirmity been bowed together?",
+          "question": "What did the owner want to do with the fig tree that bore no fruit?",
           "type": "multiple-choice",
           "options": [
-            "Eighteen years",
-            "Ten years",
-            "Five years",
-            "Twenty years"
+            "Water it daily",
+            "Cut it down",
+            "Move it to another vineyard",
+            "Fertilize it immediately"
           ],
-          "correctAnswer": "Eighteen years",
-          "explanation": "Luke 13:11 describes the woman as having a spirit of infirmity for eighteen years.",
-          "verseReference": "Luke 13:11",
+          "correctAnswer": "Cut it down",
+          "explanation": "Luke 13:7 states the owner said, 'cut it down; why cumbereth it the ground?'",
+          "verseReference": "Luke 13:7",
           "difficulty": "easy"
         },
         {
           "id": "luke-13-easy-q7",
-          "question": "What was the ruler of the synagogue's reaction to Jesus healing on the Sabbath?",
+          "question": "What did the dresser of the vineyard ask the owner to do regarding the fig tree?",
           "type": "multiple-choice",
           "options": [
-            "He was indignant",
-            "He praised Jesus",
-            "He was silent",
-            "He asked for a miracle"
+            "Cut it down right away",
+            "Let it alone this year and dig about it and dung it",
+            "Graft it onto a different tree",
+            "Sell the vineyard"
           ],
-          "correctAnswer": "He was indignant",
-          "explanation": "Luke 13:14 says the ruler of the synagogue answered with indignation because Jesus healed on the Sabbath.",
-          "verseReference": "Luke 13:14",
+          "correctAnswer": "Let it alone this year and dig about it and dung it",
+          "explanation": "Luke 13:8 records the dresser asking to delay cutting the fig tree and to dig and dung it.",
+          "verseReference": "Luke 13:8",
           "difficulty": "easy"
         },
         {
           "id": "luke-13-easy-q8",
-          "question": "According to Jesus, what is the kingdom of God like in the first parable he told in this chapter?",
+          "question": "Where was Jesus teaching when he healed the woman?",
           "type": "multiple-choice",
           "options": [
-            "A grain of mustard seed",
-            "A pearl of great price",
-            "A lost sheep",
-            "A great flood"
+            "In the temple",
+            "In one of the synagogues",
+            "By the river",
+            "At a feast"
           ],
-          "correctAnswer": "A grain of mustard seed",
-          "explanation": "Luke 13:19 describes the kingdom of God as like a grain of mustard seed that grows into a great tree.",
-          "verseReference": "Luke 13:19",
+          "correctAnswer": "In one of the synagogues",
+          "explanation": "Luke 13:10 states Jesus was teaching in one of the synagogues on the sabbath.",
+          "verseReference": "Luke 13:10",
           "difficulty": "easy"
         },
         {
           "id": "luke-13-easy-q9",
-          "question": "In the second parable about the kingdom of God, what is it likened to?",
+          "question": "How long had the woman with the spirit of infirmity been afflicted?",
           "type": "multiple-choice",
           "options": [
-            "Leaven hidden in three measures of meal",
-            "A treasure hidden in a field",
-            "A good Samaritan",
-            "A wise builder"
+            "Ten years",
+            "Fifteen years",
+            "Eighteen years",
+            "Twenty years"
           ],
-          "correctAnswer": "Leaven hidden in three measures of meal",
-          "explanation": "Luke 13:21 compares the kingdom of God to leaven which a woman hid in three measures of meal until it was all leavened.",
-          "verseReference": "Luke 13:21",
+          "correctAnswer": "Eighteen years",
+          "explanation": "Luke 13:11 explains the woman had been bowed together and infirm for eighteen years.",
+          "verseReference": "Luke 13:11",
           "difficulty": "easy"
         },
         {
           "id": "luke-13-easy-q10",
-          "question": "What did Jesus say about the gate that one must strive to enter?",
+          "question": "What did Jesus say to the woman when he healed her?",
           "type": "multiple-choice",
           "options": [
-            "It is strait",
-            "It is wide",
-            "It is open to all",
-            "It is hidden"
+            "Your faith has healed you",
+            "Woman, thou art loosed from thine infirmity",
+            "Go in peace",
+            "Be made whole"
           ],
-          "correctAnswer": "It is strait",
-          "explanation": "Luke 13:24 instructs to strive to enter in at the strait gate because many will seek to enter and not be able.",
-          "verseReference": "Luke 13:24",
+          "correctAnswer": "Woman, thou art loosed from thine infirmity",
+          "explanation": "Luke 13:12 records Jesus saying, 'Woman, thou art loosed from thine infirmity.'",
+          "verseReference": "Luke 13:12",
           "difficulty": "easy"
         },
         {
           "id": "luke-13-easy-q11",
-          "question": "True or False: Jesus said that many will enter the kingdom of God easily.",
+          "question": "According to Jesus, what must happen to avoid perishing, as mentioned twice in these verses?",
+          "type": "multiple-choice",
+          "options": [
+            "Believe in miracles",
+            "Repent",
+            "Pray daily",
+            "Fast regularly"
+          ],
+          "correctAnswer": "Repent",
+          "explanation": "Luke 13:3 and 13:5 both say 'except ye repent, ye shall all likewise perish.'",
+          "verseReference": "Luke 13:3, Luke 13:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-13-easy-q12",
+          "question": "True or False: Jesus taught in one of the synagogues on the sabbath.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 13:10 says Jesus was teaching in one of the synagogues on the sabbath.",
+          "verseReference": "Luke 13:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-13-easy-q13",
+          "question": "True or False: The woman healed by Jesus was unable to lift herself up before being healed.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 13:11 states she 'could in no wise lift up herself' before Jesus healed her.",
+          "verseReference": "Luke 13:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-13-easy-q14",
+          "question": "True or False: The text says the fig tree bore fruit every year.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Luke 13:24 states that many will seek to enter the kingdom of God but shall not be able, implying it is not easy.",
-          "verseReference": "Luke 13:24",
-          "difficulty": "easy"
-        },
-        {
-          "id": "luke-13-easy-q12",
-          "question": "True or False: Jesus referred to Herod as a fox in this chapter.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "In Luke 13:32, Jesus refers to Herod as 'that fox.'",
-          "verseReference": "Luke 13:32",
-          "difficulty": "easy"
-        },
-        {
-          "id": "luke-13-easy-q13",
-          "question": "True or False: Jesus said a prophet cannot perish outside Jerusalem.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Luke 13:33 states that a prophet cannot perish outside Jerusalem.",
-          "verseReference": "Luke 13:33",
-          "difficulty": "easy"
-        },
-        {
-          "id": "luke-13-easy-q14",
-          "question": "Complete this verse from Luke 13:34: 'O Jerusalem, Jerusalem, which killest the prophets, and stonest them that are sent unto thee; how often would I have gathered thy children together, as a hen doth gather her ______ under her wings, and ye would not!'",
-          "type": "fill-blank",
-          "options": [
-            "brood",
-            "chickens",
-            "doves",
-            "sparrows"
-          ],
-          "correctAnswer": "brood",
-          "explanation": "Luke 13:34 uses the metaphor of a hen gathering her brood under her wings to describe Jesus' desire to protect Jerusalem's children.",
-          "verseReference": "Luke 13:34",
+          "explanation": "Luke 13:6-7 says the fig tree was sought for fruit for three years but found none.",
+          "verseReference": "Luke 13:6-7",
           "difficulty": "easy"
         },
         {
           "id": "luke-13-easy-q15",
-          "question": "According to Luke 13, who will be first and last in the kingdom of God?",
-          "type": "multiple-choice",
+          "question": "True or False: The text states Jesus commanded the woman to leave immediately after healing her.",
+          "type": "true-false",
           "options": [
-            "Last shall be first, and first shall be last",
-            "First shall be first, and last shall be last",
-            "All will be equal",
-            "Only the greatest shall enter"
+            "True",
+            "False"
           ],
-          "correctAnswer": "Last shall be first, and first shall be last",
-          "explanation": "Luke 13:30 states that there are last which shall be first, and first which shall be last.",
-          "verseReference": "Luke 13:30",
+          "correctAnswer": "False",
+          "explanation": "Luke 13:12 records Jesus saying she was loosed from infirmity but does not mention commanding her to leave immediately.",
+          "verseReference": "Luke 13:12",
           "difficulty": "easy"
         }
       ],
@@ -254,223 +252,223 @@
       "questions": [
         {
           "id": "luke-13-medium-q1",
-          "question": "A fellow believer is struggling with feelings of guilt over past sins. Based on Luke 13:1-5, what biblical truth would you share about repentance and judgment?",
+          "question": "What was the immediate result when Jesus laid his hands on the woman who had been bowed together for eighteen years?",
           "type": "multiple-choice",
           "options": [
-            "Repentance is necessary to avoid perishing, regardless of others' sins.",
-            "Only those who commit great sins need to repent.",
-            "Judgment only falls on those who suffer publicly.",
-            "Suffering is proof of being a greater sinner."
+            "She was made straight and glorified God",
+            "She was given a vision of the kingdom of God",
+            "She fell asleep and dreamed of salvation",
+            "She was asked to come back the next day"
           ],
-          "correctAnswer": "Repentance is necessary to avoid perishing, regardless of others' sins.",
-          "explanation": "Luke 13:1-5 teaches that those who suffered (Galilaeans and those under the tower of Siloam) were not worse sinners, but all must repent or perish. This shows repentance is universally required.",
-          "verseReference": "Luke 13:3",
+          "correctAnswer": "She was made straight and glorified God",
+          "explanation": "Luke 13:13 states that immediately she was made straight and glorified God after Jesus laid his hands on her.",
+          "verseReference": "Luke 13:13",
           "difficulty": "medium"
         },
         {
           "id": "luke-13-medium-q2",
-          "question": "How does the parable of the fig tree in Luke 13:6-9 teach us about God's patience and personal spiritual growth?",
+          "question": "What does Luke 13:17 promise will happen if someone recognizes the glorious things done by Jesus as stated in Luke 13:16?",
           "type": "multiple-choice",
           "options": [
-            "God gives time and care to help us bear fruit before judgment.",
-            "God immediately punishes those who do not produce fruit.",
-            "Fruitfulness is not important in a believer’s life.",
-            "The fig tree represents people who will never change."
+            "All the people will rejoice",
+            "They will be immediately healed",
+            "They will become rulers of synagogues",
+            "They will be given riches"
           ],
-          "correctAnswer": "God gives time and care to help us bear fruit before judgment.",
-          "explanation": "In Luke 13:6-9, the owner wants to cut down the fig tree for no fruit, but the gardener pleads for more time to nourish it, illustrating God's patience and desire for our spiritual growth.",
-          "verseReference": "Luke 13:7-8",
+          "correctAnswer": "All the people will rejoice",
+          "explanation": "Luke 13:17 says that after Jesus spoke about the woman being loosed on the sabbath (verse 16), all his adversaries were ashamed and the people rejoiced for all the glorious things done by him.",
+          "verseReference": "Luke 13:17",
           "difficulty": "medium"
         },
         {
           "id": "luke-13-medium-q3",
-          "question": "A believer is hesitant to serve in the church because of physical limitations. What does Luke 13:10-17 teach about God's grace and inclusion in ministry?",
+          "question": "How did Jesus respond to the ruler of the synagogue's indignation about healing on the sabbath?",
           "type": "multiple-choice",
           "options": [
-            "God values and heals those burdened, enabling them to serve.",
-            "Only the physically strong should serve in ministry.",
-            "Healing is only for those who deserve it.",
-            "Sabbath rules prohibit helping the disabled."
+            "He called him a hypocrite and gave examples of doing good on the sabbath",
+            "He agreed and stopped healing on the sabbath",
+            "He ignored him and continued healing silently",
+            "He told him to leave the synagogue"
           ],
-          "correctAnswer": "God values and heals those burdened, enabling them to serve.",
-          "explanation": "Luke 13:10-17 shows Jesus healing a woman crippled for 18 years on the Sabbath, emphasizing God's compassion and the importance of enabling all to participate in ministry.",
-          "verseReference": "Luke 13:12-13",
-          "difficulty": "medium"
-        },
-        {
-          "id": "luke-13-medium-q4",
-          "question": "How does Jesus’ response to the synagogue ruler in Luke 13:14-16 teach humility and compassion in church leadership?",
-          "type": "multiple-choice",
-          "options": [
-            "Leaders should act with mercy, not hypocritical judgment.",
-            "Leaders must strictly enforce rules without exception.",
-            "Only certain people deserve healing and help.",
-            "Sabbath rules are more important than compassion."
-          ],
-          "correctAnswer": "Leaders should act with mercy, not hypocritical judgment.",
-          "explanation": "Jesus calls the ruler a hypocrite (Luke 13:14-16) for criticizing healing on the Sabbath, teaching leaders to prioritize compassion over rigid legalism.",
+          "correctAnswer": "He called him a hypocrite and gave examples of doing good on the sabbath",
+          "explanation": "Luke 13:15 shows Jesus calling the ruler a hypocrite and pointing out that people loosen their animals to give them water on the sabbath.",
           "verseReference": "Luke 13:15",
           "difficulty": "medium"
         },
         {
-          "id": "luke-13-medium-q5",
-          "question": "Based on Luke 13:18-21, what practical lesson on faith and influence can be drawn from the kingdom of God being compared to a mustard seed and leaven?",
+          "id": "luke-13-medium-q4",
+          "question": "What two illustrations does Jesus give to describe the kingdom of God in Luke 13:19 and Luke 13:21?",
           "type": "multiple-choice",
           "options": [
-            "Small acts of faith can grow to impact many.",
-            "Only large, visible works matter in God's kingdom.",
-            "The kingdom of God grows quickly without effort.",
-            "Faith is only for personal benefit, not for others."
+            "A mustard seed growing into a great tree and leaven hidden in meal",
+            "A pearl of great price and a lost sheep",
+            "A sower sowing seeds and a shepherd tending sheep",
+            "A lamp on a stand and a vine with branches"
           ],
-          "correctAnswer": "Small acts of faith can grow to impact many.",
-          "explanation": "The mustard seed and leaven parables (Luke 13:18-21) illustrate how small beginnings in faith can expand and influence many lives, encouraging perseverance and witness.",
-          "verseReference": "Luke 13:19,21",
+          "correctAnswer": "A mustard seed growing into a great tree and leaven hidden in meal",
+          "explanation": "Luke 13:19 and 13:21 describe the kingdom of God as like a mustard seed that grows into a tree and like leaven hidden in three measures of meal.",
+          "verseReference": "Luke 13:19, 21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-13-medium-q5",
+          "question": "Why does Jesus say it is right to heal the woman on the sabbath?",
+          "type": "multiple-choice",
+          "options": [
+            "Because she is a daughter of Abraham and has been bound by Satan for eighteen years",
+            "Because healing is more important than the sabbath law",
+            "Because the ruler of the synagogue requested it",
+            "Because the woman promised to follow Jesus"
+          ],
+          "correctAnswer": "Because she is a daughter of Abraham and has been bound by Satan for eighteen years",
+          "explanation": "Luke 13:16 explains that the woman is a daughter of Abraham and has been bound by Satan for eighteen years, so it is right to free her on the sabbath.",
+          "verseReference": "Luke 13:16",
           "difficulty": "medium"
         },
         {
           "id": "luke-13-medium-q6",
-          "question": "A believer wonders if many will be saved. What does Luke 13:22-30 teach about the nature of salvation and the effort required?",
+          "question": "What practical lesson about faith and patience can be drawn from the parable of the fig tree in Luke 13:6-9?",
           "type": "multiple-choice",
           "options": [
-            "Salvation requires striving to enter through the narrow gate.",
-            "Most people will easily enter the kingdom without effort.",
-            "Salvation is guaranteed for all who claim to know Jesus.",
-            "Only a few are saved, and nothing can change that."
+            "God gives us time and care to bear fruit before judging",
+            "We must immediately cut off unfruitful people",
+            "Fruitfulness is irrelevant to God's kingdom",
+            "We should stop caring for those who don't improve"
           ],
-          "correctAnswer": "Salvation requires striving to enter through the narrow gate.",
-          "explanation": "Luke 13:24 emphasizes the need to 'strive to enter in at the strait gate' as many will try but not succeed, highlighting the seriousness and effort needed for salvation.",
-          "verseReference": "Luke 13:24",
+          "correctAnswer": "God gives us time and care to bear fruit before judging",
+          "explanation": "Luke 13:8-9 shows the man asking to wait another year to care for the fig tree, teaching patience and opportunity for repentance and fruitfulness.",
+          "verseReference": "Luke 13:8-9",
           "difficulty": "medium"
         },
         {
           "id": "luke-13-medium-q7",
-          "question": "How does Luke 13:25-27 warn believers about superficial faith and the importance of genuine relationship with God?",
+          "question": "What does Jesus mean by saying 'Strive to enter in at the strait gate' in Luke 13:24?",
           "type": "multiple-choice",
           "options": [
-            "Knowing Jesus’ teachings is not enough without true obedience.",
-            "Simply attending church guarantees entry to heaven.",
-            "Calling Jesus 'Lord' guarantees salvation without works.",
-            "Faith is only about feelings, not actions."
+            "Make earnest effort to enter the kingdom of God because it is difficult",
+            "Avoid entering any gates that are narrow",
+            "Only the rich can enter the kingdom",
+            "The gate is wide and easy to enter"
           ],
-          "correctAnswer": "Knowing Jesus’ teachings is not enough without true obedience.",
-          "explanation": "Verses 25-27 describe people being denied entry despite familiarity with Jesus because He 'knows them not,' stressing that genuine faith requires obedience and relationship.",
-          "verseReference": "Luke 13:27",
+          "correctAnswer": "Make earnest effort to enter the kingdom of God because it is difficult",
+          "explanation": "Luke 13:24 encourages believers to strive to enter the narrow gate, implying that entering the kingdom requires effort and commitment.",
+          "verseReference": "Luke 13:24",
           "difficulty": "medium"
         },
         {
           "id": "luke-13-medium-q8",
-          "question": "According to Luke 13:28-29, what does the passage teach about God’s kingdom and inclusivity in the eternal fellowship?",
+          "question": "According to Jesus in Luke 13:14-15, what everyday activity on the sabbath justifies doing good, such as healing?",
           "type": "multiple-choice",
           "options": [
-            "People from all over will be included in God's kingdom.",
-            "Only a specific ethnic group will enter the kingdom.",
-            "The kingdom is exclusive to those born in Jerusalem.",
-            "Salvation is limited to prophets and patriarchs."
+            "Loosing oxen or asses from the stall to give them water",
+            "Lighting a fire for cooking",
+            "Traveling to the market",
+            "Resting all day without work"
           ],
-          "correctAnswer": "People from all over will be included in God's kingdom.",
-          "explanation": "Luke 13:28-29 shows people coming from east, west, north, and south to sit in the kingdom, indicating God’s inclusive plan for salvation beyond ethnicity.",
-          "verseReference": "Luke 13:29",
+          "correctAnswer": "Loosing oxen or asses from the stall to give them water",
+          "explanation": "Luke 13:15 shows Jesus pointing out that even on the sabbath, people lead their animals to water, justifying acts of mercy like healing.",
+          "verseReference": "Luke 13:15",
           "difficulty": "medium"
         },
         {
           "id": "luke-13-medium-q9",
-          "question": "What does Luke 13:30 teach about humility and the reversal of worldly status in God's kingdom?",
+          "question": "What is the reaction of Jesus' adversaries after he defends healing on the sabbath in Luke 13:17?",
           "type": "multiple-choice",
           "options": [
-            "Those who are last now may be first in God's kingdom.",
-            "Worldly status guarantees priority in heaven.",
-            "God's kingdom rewards the proud and powerful first.",
-            "Social position has no bearing on eternal outcomes."
+            "They were ashamed",
+            "They argued more fiercely",
+            "They called for his arrest",
+            "They ignored him"
           ],
-          "correctAnswer": "Those who are last now may be first in God's kingdom.",
-          "explanation": "Verse 30 teaches the principle that earthly rankings are reversed in God's kingdom, encouraging humility and contentment.",
-          "verseReference": "Luke 13:30",
+          "correctAnswer": "They were ashamed",
+          "explanation": "Luke 13:17 states that after Jesus' defense, all his adversaries were ashamed and the people rejoiced.",
+          "verseReference": "Luke 13:17",
           "difficulty": "medium"
         },
         {
           "id": "luke-13-medium-q10",
-          "question": "A believer fears opposition for following Christ. Based on Luke 13:31-33, what encouragement does Jesus give about perseverance in ministry?",
+          "question": "How does Jesus describe the growth of the kingdom of God in the parable of the mustard seed?",
           "type": "multiple-choice",
           "options": [
-            "Jesus will continue His work despite threats until His mission is fulfilled.",
-            "Ministry can be abandoned if danger arises.",
-            "Prophets are safe from harm in their work.",
-            "Avoid conflict by stopping ministry when opposed."
+            "It starts small but grows into a great tree where birds can lodge",
+            "It remains small and insignificant",
+            "It is planted only in the desert",
+            "It grows slowly but never becomes visible"
           ],
-          "correctAnswer": "Jesus will continue His work despite threats until His mission is fulfilled.",
-          "explanation": "In verses 31-33, Jesus acknowledges threats but commits to continuing His mission, encouraging perseverance despite opposition.",
-          "verseReference": "Luke 13:32-33",
+          "correctAnswer": "It starts small but grows into a great tree where birds can lodge",
+          "explanation": "Luke 13:19 describes the mustard seed growing into a great tree providing shelter for birds, symbolizing the kingdom's expansive growth.",
+          "verseReference": "Luke 13:19",
           "difficulty": "medium"
         },
         {
           "id": "luke-13-medium-q11",
-          "question": "How does Jesus’ lament over Jerusalem in Luke 13:34-35 demonstrate His heart for evangelism and compassion for those who reject the Gospel?",
+          "question": "What does Jesus teach about the scope of salvation in Luke 13:23-24?",
           "type": "multiple-choice",
           "options": [
-            "Jesus deeply desires to save people even when they reject Him.",
-            "Jesus quickly gives up on those who do not believe.",
-            "Evangelism is optional and not urgent.",
-            "Rejecting the Gospel has no consequences."
+            "Many will seek to enter but few will be able to",
+            "Everyone will be saved without effort",
+            "Only the rich and powerful will be saved",
+            "Salvation is guaranteed to all who hear the gospel"
           ],
-          "correctAnswer": "Jesus deeply desires to save people even when they reject Him.",
-          "explanation": "Luke 13:34-35 shows Jesus sorrowfully lamenting Jerusalem’s rejection, illustrating His longing to gather and save people despite their refusal.",
-          "verseReference": "Luke 13:34",
+          "correctAnswer": "Many will seek to enter but few will be able to",
+          "explanation": "Luke 13:24 warns that many will try to enter the kingdom but only those who strive will succeed.",
+          "verseReference": "Luke 13:23-24",
           "difficulty": "medium"
         },
         {
           "id": "luke-13-medium-q12",
-          "question": "True or False: According to Luke 13:3 and 13:5, repentance is optional for believers to avoid destruction.",
-          "type": "true-false",
+          "question": "Why does Jesus refer to the woman as a 'daughter of Abraham' in Luke 13:16?",
+          "type": "multiple-choice",
           "options": [
-            "True",
-            "False"
+            "To emphasize her rightful place in God's covenant and deserving of healing",
+            "To show she was a biological daughter of Abraham",
+            "To criticize her faith",
+            "To indicate she was not a Jew"
           ],
-          "correctAnswer": "False",
-          "explanation": "Both verses (Luke 13:3 and 13:5) clearly state that unless you repent, you will likewise perish, showing repentance is essential.",
-          "verseReference": "Luke 13:3",
+          "correctAnswer": "To emphasize her rightful place in God's covenant and deserving of healing",
+          "explanation": "Luke 13:16 highlights her identity as a daughter of Abraham to justify her healing on the sabbath as part of God's covenant people.",
+          "verseReference": "Luke 13:16",
           "difficulty": "medium"
         },
         {
           "id": "luke-13-medium-q13",
-          "question": "True or False: Jesus healed the woman with the spirit of infirmity on the Sabbath to show that mercy transcends legalistic rules (Luke 13:10-17).",
+          "question": "What does the parable of the leaven in Luke 13:21 symbolize about the kingdom of God?",
+          "type": "multiple-choice",
+          "options": [
+            "It spreads and transforms everything quietly and thoroughly",
+            "It is visible only at the beginning",
+            "It remains in small circles without influence",
+            "It is rejected by most people"
+          ],
+          "correctAnswer": "It spreads and transforms everything quietly and thoroughly",
+          "explanation": "Luke 13:21 uses the leaven hidden in meal to illustrate the kingdom's pervasive and transformative influence.",
+          "verseReference": "Luke 13:21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-13-medium-q14",
+          "question": "True or False: Jesus was teaching in one of the synagogues on the sabbath when he healed the woman bowed together.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Jesus heals the woman on the Sabbath and rebukes the ruler for hypocrisy, teaching mercy over legalism (Luke 13:12-17).",
-          "verseReference": "Luke 13:15",
-          "difficulty": "medium"
-        },
-        {
-          "id": "luke-13-medium-q14",
-          "question": "Fill in the blank: In Luke 13:7, the man said to the vineyard dresser, 'Behold, these three years I come seeking fruit on this fig tree, and find ____.'",
-          "type": "fill-blank",
-          "options": [
-            "none",
-            "some",
-            "much",
-            "a little"
-          ],
-          "correctAnswer": "none",
-          "explanation": "The man expresses frustration that after three years, the fig tree bore 'none' fruit, highlighting the expectation of spiritual fruitfulness (Luke 13:7).",
-          "verseReference": "Luke 13:7",
+          "explanation": "Luke 13:10 confirms Jesus was teaching in a synagogue on the sabbath when he healed the woman.",
+          "verseReference": "Luke 13:10",
           "difficulty": "medium"
         },
         {
           "id": "luke-13-medium-q15",
-          "question": "A believer is discouraged by the difficulty of entering God’s kingdom. According to Luke 13:24, what attitude should they adopt?",
-          "type": "multiple-choice",
+          "question": "True or False: The ruler of the synagogue appreciated Jesus' healing on the sabbath and encouraged the people to come for healing on that day.",
+          "type": "true-false",
           "options": [
-            "Strive diligently to enter through the narrow gate.",
-            "Give up because entry is impossible.",
-            "Depend on others to enter for you.",
-            "Ignore the kingdom because it is too hard."
+            "True",
+            "False"
           ],
-          "correctAnswer": "Strive diligently to enter through the narrow gate.",
-          "explanation": "Verse 24 urges believers to strive to enter the strait gate, emphasizing active effort and perseverance in faith.",
-          "verseReference": "Luke 13:24",
+          "correctAnswer": "False",
+          "explanation": "Luke 13:14 shows the ruler was indignant and opposed Jesus healing on the sabbath.",
+          "verseReference": "Luke 13:14",
           "difficulty": "medium"
         }
       ],
@@ -497,223 +495,225 @@
       "questions": [
         {
           "id": "luke-13-hard-q1",
-          "question": "In Luke 13:6-9, the parable of the fig tree illustrates what theological concept related to God's patience and judgment?",
+          "question": "In Luke 13:25, what does the master of the house do when he rises up?",
           "type": "multiple-choice",
           "options": [
-            "God's patience with sinners before final judgment",
-            "The sudden destruction of the wicked",
-            "The eternal punishment of the unrepentant",
-            "The importance of vineyard farming in Israel"
+            "He shuts the door",
+            "He opens the door",
+            "He invites everyone in",
+            "He calls the servants"
           ],
-          "correctAnswer": "God's patience with sinners before final judgment",
-          "explanation": "Luke 13:6-9 presents the fig tree that is given extra care to produce fruit, symbolizing God's patience and the opportunity for repentance before judgment.",
-          "verseReference": "Luke 13:6-9",
+          "correctAnswer": "He shuts the door",
+          "explanation": "Luke 13:25 states that when the master of the house is risen up, he hath shut to the door.",
+          "verseReference": "Luke 13:25",
           "difficulty": "hard"
         },
         {
           "id": "luke-13-hard-q2",
-          "question": "What is the significance of Jesus healing the woman on the Sabbath in Luke 13:10-17, especially in relation to Jewish law and Pharisaic interpretation?",
+          "question": "According to Luke 13:26, what do the people begin to say when they stand outside and knock?",
           "type": "multiple-choice",
           "options": [
-            "It challenges legalistic interpretations by emphasizing mercy over ritual",
-            "It shows Jesus disregarding the Sabbath commandments",
-            "It promotes working on the Sabbath as lawful",
-            "It emphasizes the necessity of rest over healing"
+            "We have eaten and drunk in thy presence, and thou hast taught in our streets",
+            "Let us in, Lord",
+            "Open the door for us",
+            "We have followed you always"
           ],
-          "correctAnswer": "It challenges legalistic interpretations by emphasizing mercy over ritual",
-          "explanation": "Jesus heals a woman bound by infirmity on the Sabbath and rebukes the ruler for hypocrisy, highlighting mercy's priority over strict Sabbath rules (Luke 13:14-16).",
-          "verseReference": "Luke 13:14-16",
+          "correctAnswer": "We have eaten and drunk in thy presence, and thou hast taught in our streets",
+          "explanation": "Luke 13:26 records the words of those outside as, 'We have eaten and drunk in thy presence, and thou hast taught in our streets.'",
+          "verseReference": "Luke 13:26",
           "difficulty": "hard"
         },
         {
           "id": "luke-13-hard-q3",
-          "question": "In Luke 13:18-21, Jesus uses the mustard seed and leaven as metaphors for the Kingdom of God. What Old Testament imagery or concepts do these parables recall?",
+          "question": "In Luke 13:27, how does the master of the house respond to those knocking and claiming familiarity?",
           "type": "multiple-choice",
           "options": [
-            "The growth of God's kingdom from small beginnings to widespread influence",
-            "The judgment of Israel by foreign nations",
-            "The exile and return of the Jewish people",
-            "The temple sacrifices and cleansing rituals"
+            "I tell you, I know you not whence ye are; depart from me, all ye workers of iniquity",
+            "Come in quickly",
+            "I remember you well",
+            "Wait a little longer"
           ],
-          "correctAnswer": "The growth of God's kingdom from small beginnings to widespread influence",
-          "explanation": "The mustard seed and leaven parables symbolize the Kingdom's humble start and transformative growth, reflecting Old Testament themes of God's expanding reign (Luke 13:19,21).",
-          "verseReference": "Luke 13:18-21",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-13-hard-q4",
-          "question": "According to Luke 13:3 and 13:5, what is the universal condition necessary to avoid perishing, as taught by Jesus?",
-          "type": "multiple-choice",
-          "options": [
-            "Repentance",
-            "Faith alone",
-            "Ritual sacrifice",
-            "Observance of the Law"
-          ],
-          "correctAnswer": "Repentance",
-          "explanation": "Jesus emphasizes that except one repents, all will likewise perish, making repentance essential for salvation (Luke 13:3,5).",
-          "verseReference": "Luke 13:3",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-13-hard-q5",
-          "question": "The phrase 'there are last which shall be first, and there are first which shall be last' in Luke 13:30 is an example of what literary device?",
-          "type": "multiple-choice",
-          "options": [
-            "Paradox",
-            "Simile",
-            "Hyperbole",
-            "Metonymy"
-          ],
-          "correctAnswer": "Paradox",
-          "explanation": "Luke 13:30 uses paradox to challenge conventional social rankings, emphasizing reversal in God's kingdom.",
-          "verseReference": "Luke 13:30",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-13-hard-q6",
-          "question": "How does Jesus’ response to the Pharisees in Luke 13:31-33 reflect His awareness of His mission and its timing?",
-          "type": "multiple-choice",
-          "options": [
-            "He acknowledges His destined path to Jerusalem despite threats",
-            "He agrees to flee to avoid danger",
-            "He calls for immediate rebellion against Herod",
-            "He plans to stop performing miracles"
-          ],
-          "correctAnswer": "He acknowledges His destined path to Jerusalem despite threats",
-          "explanation": "Jesus states He must continue His journey to Jerusalem because a prophet cannot perish outside it, showing His commitment despite danger (Luke 13:33).",
-          "verseReference": "Luke 13:31-33",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-13-hard-q7",
-          "question": "In Luke 13:34-35, Jesus laments over Jerusalem. What Old Testament theme is He echoing with His comparison to a hen gathering her brood?",
-          "type": "multiple-choice",
-          "options": [
-            "God’s protective love contrasted with Israel’s rejection",
-            "The promise of an everlasting kingdom",
-            "The destruction of Sodom and Gomorrah",
-            "The call to build the tabernacle"
-          ],
-          "correctAnswer": "God’s protective love contrasted with Israel’s rejection",
-          "explanation": "Jesus’ metaphor of a hen gathering her chicks recalls God’s tender care for Israel contrasted with their rejection and violence toward prophets, reflecting themes from Hosea and other prophets (Luke 13:34).",
-          "verseReference": "Luke 13:34",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-13-hard-q8",
-          "question": "True or False: According to Luke 13:24, Jesus teaches that entering the kingdom of God is effortless and guaranteed for all who seek it.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "False",
-          "explanation": "Jesus teaches in Luke 13:24 that one must 'strive to enter in at the strait gate' because many will seek but not be able to enter, indicating effort is required.",
-          "verseReference": "Luke 13:24",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-13-hard-q9",
-          "question": "Which historical figure is mentioned in Luke 13:1 as having mingled the blood of Galileans with their sacrifices?",
-          "type": "multiple-choice",
-          "options": [
-            "Pilate",
-            "Herod",
-            "Caesar Augustus",
-            "Caiaphas"
-          ],
-          "correctAnswer": "Pilate",
-          "explanation": "Luke 13:1 refers to Pontius Pilate mingling Galileans' blood with their sacrifices, indicating his role in violent suppression.",
-          "verseReference": "Luke 13:1",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-13-hard-q10",
-          "question": "What is the significance of the number eighteen in the context of Luke 13:4 and 13:11?",
-          "type": "multiple-choice",
-          "options": [
-            "It marks prolonged suffering and judgment",
-            "It is a symbolic number of perfection",
-            "It represents the age of majority",
-            "It indicates the number of disciples"
-          ],
-          "correctAnswer": "It marks prolonged suffering and judgment",
-          "explanation": "Eighteen years is the duration of the woman's infirmity (Luke 13:11) and the number of people killed by the falling tower (Luke 13:4), symbolizing human suffering and the need for repentance.",
-          "verseReference": "Luke 13:4,11",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-13-hard-q11",
-          "question": "In Luke 13:26-27, what reason does Jesus give for rejecting those who claim to know Him but are called 'workers of iniquity'?",
-          "type": "multiple-choice",
-          "options": [
-            "He does not know them because they lack true obedience",
-            "They have not attended synagogue regularly",
-            "They have performed miracles in His name",
-            "They have given offerings to the temple"
-          ],
-          "correctAnswer": "He does not know them because they lack true obedience",
-          "explanation": "Jesus denies knowing those who call Him Lord yet practice iniquity, emphasizing obedience over mere familiarity (Luke 13:27).",
+          "correctAnswer": "I tell you, I know you not whence ye are; depart from me, all ye workers of iniquity",
+          "explanation": "Luke 13:27 explicitly states the master says, 'I tell you, I know you not whence ye are; depart from me, all ye workers of iniquity.'",
           "verseReference": "Luke 13:27",
           "difficulty": "hard"
         },
         {
-          "id": "luke-13-hard-q12",
-          "question": "The mustard seed parable in Luke 13:19 is a typological foreshadowing of which broader New Testament theme?",
+          "id": "luke-13-hard-q4",
+          "question": "What imagery is used in Luke 13:28 to describe the fate of those thrust out of the kingdom of God?",
           "type": "multiple-choice",
           "options": [
-            "The expansion of the Church from small beginnings",
-            "The judgment of the nations",
-            "The fall of Jerusalem",
-            "The destruction of the temple"
+            "Weeping and gnashing of teeth",
+            "Fire and brimstone",
+            "Darkness and silence",
+            "Chains and captivity"
           ],
-          "correctAnswer": "The expansion of the Church from small beginnings",
-          "explanation": "The mustard seed growing into a large tree prefigures the Church’s growth and inclusion of Gentiles, a theme developed in Acts and Paul’s epistles (Luke 13:19).",
-          "verseReference": "Luke 13:19",
+          "correctAnswer": "Weeping and gnashing of teeth",
+          "explanation": "Luke 13:28 uses the vivid imagery of 'weeping and gnashing of teeth' to describe the anguish of those excluded from the kingdom.",
+          "verseReference": "Luke 13:28",
           "difficulty": "hard"
         },
         {
-          "id": "luke-13-hard-q13",
-          "question": "Fill in the blank: In Luke 13:15, Jesus calls the synagogue ruler a '_____,' criticizing his hypocrisy regarding Sabbath observance.",
+          "id": "luke-13-hard-q5",
+          "question": "According to Luke 13:29, from which directions will people come to sit down in the kingdom of God?",
           "type": "multiple-choice",
           "options": [
-            "hypocrite",
-            "servant",
-            "teacher",
-            "blasphemer"
+            "East, West, North, and South",
+            "Only from Jerusalem",
+            "From the sea and the desert",
+            "From the land of Canaan"
           ],
-          "correctAnswer": "hypocrite",
-          "explanation": "Jesus calls the ruler a 'hypocrite' in Luke 13:15 because he allows animals to be freed on the Sabbath but condemns healing a woman, exposing inconsistent application of the law.",
-          "verseReference": "Luke 13:15",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-13-hard-q14",
-          "question": "How does Luke 13:29 emphasize the inclusiveness of the Kingdom of God, and what Old Testament prophecy does this echo?",
-          "type": "multiple-choice",
-          "options": [
-            "People from all directions will join the kingdom, echoing Isaiah's vision of the Gentiles coming to Zion",
-            "Only Israelites from Jerusalem will enter the kingdom, echoing Deuteronomy's covenant exclusivity",
-            "The kingdom is limited to the twelve tribes, reflecting Jacob's blessings",
-            "The kingdom is restricted to priests, reflecting Levitical law"
-          ],
-          "correctAnswer": "People from all directions will join the kingdom, echoing Isaiah's vision of the Gentiles coming to Zion",
-          "explanation": "Luke 13:29 shows people coming from east, west, north, and south, reflecting Isaiah 43:5-6's prophecy about Gentiles joining God's people.",
+          "correctAnswer": "East, West, North, and South",
+          "explanation": "Luke 13:29 states that people shall come 'from the east, and from the west, and from the north, and from the south' to sit in the kingdom of God.",
           "verseReference": "Luke 13:29",
           "difficulty": "hard"
         },
         {
+          "id": "luke-13-hard-q6",
+          "question": "What paradoxical statement does Jesus make in Luke 13:30 about the status of the last and the first?",
+          "type": "multiple-choice",
+          "options": [
+            "There are last which shall be first, and there are first which shall be last",
+            "The strong shall inherit the earth",
+            "The meek shall inherit the earth",
+            "The rich shall be poor"
+          ],
+          "correctAnswer": "There are last which shall be first, and there are first which shall be last",
+          "explanation": "Luke 13:30 contains this famous paradoxical reversal about the rankings in the kingdom of God.",
+          "verseReference": "Luke 13:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-13-hard-q7",
+          "question": "What does the Greek word 'gnashing' (δακτυλισμός, daktulismos) in Luke 13:28 mean?",
+          "type": "multiple-choice",
+          "options": [
+            "Grinding of teeth in anger or pain",
+            "Laughing loudly",
+            "Speaking softly",
+            "Clapping hands"
+          ],
+          "correctAnswer": "Grinding of teeth in anger or pain",
+          "explanation": "The Greek term translated as 'gnashing' in Luke 13:28 refers to the grinding or clenching of teeth, typically expressing extreme anguish or anger.",
+          "verseReference": "Luke 13:28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-13-hard-q8",
+          "question": "Which literary device is most evident in Luke 13:25-28 where the master shuts the door and denies knowing those outside?",
+          "type": "multiple-choice",
+          "options": [
+            "Parable",
+            "Alliteration",
+            "Metaphor",
+            "Hyperbole"
+          ],
+          "correctAnswer": "Parable",
+          "explanation": "Luke 13:25-28 is a parabolic teaching using the story of a master shutting the door to illustrate judgment and exclusion from the kingdom.",
+          "verseReference": "Luke 13:25-28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-13-hard-q9",
+          "question": "Which Old Testament passage echoes the lament and rejection of prophets like in Luke 13:34?",
+          "type": "multiple-choice",
+          "options": [
+            "Jeremiah 7:25",
+            "Genesis 1:1",
+            "Psalm 23",
+            "Exodus 20:1"
+          ],
+          "correctAnswer": "Jeremiah 7:25",
+          "explanation": "Jeremiah 7:25 laments how the people have not hearkened to the prophets sent to them, paralleling Jesus' lament in Luke 13:34.",
+          "verseReference": "Luke 13:34",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-13-hard-q10",
+          "question": "Which New Testament verse fulfills the theme of 'Blessed is he that cometh in the name of the Lord' found in Luke 13:35?",
+          "type": "multiple-choice",
+          "options": [
+            "Matthew 21:9",
+            "John 3:16",
+            "Acts 2:38",
+            "Revelation 21:4"
+          ],
+          "correctAnswer": "Matthew 21:9",
+          "explanation": "Matthew 21:9 records the crowd shouting 'Hosanna to the Son of David: Blessed is he that cometh in the name of the Lord!' fulfilling the theme in Luke 13:35.",
+          "verseReference": "Luke 13:35",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-13-hard-q11",
+          "question": "What event immediately precedes the parable of the fig tree in Luke 13?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus speaking about repentance after reporting the Galileans’ deaths",
+            "Jesus healing the woman with infirmity",
+            "Jesus teaching about the mustard seed",
+            "Jesus confronting Pharisees"
+          ],
+          "correctAnswer": "Jesus speaking about repentance after reporting the Galileans’ deaths",
+          "explanation": "Luke 13:1-5 precedes the fig tree parable with Jesus addressing the need for repentance after mentioning the Galileans slain by Pilate.",
+          "verseReference": "Luke 13:1-5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-13-hard-q12",
+          "question": "Which literary device is utilized in Luke 13:30 with the phrase 'there are last which shall be first, and there are first which shall be last'?",
+          "type": "multiple-choice",
+          "options": [
+            "Chiasmus",
+            "Simile",
+            "Metonymy",
+            "Onomatopoeia"
+          ],
+          "correctAnswer": "Chiasmus",
+          "explanation": "Luke 13:30 employs chiasmus, a literary device where ideas are presented and then repeated in reverse order to emphasize contrast.",
+          "verseReference": "Luke 13:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-13-hard-q13",
+          "question": "How does Jesus typologically refer to himself in Luke 13:32 when calling Herod 'that fox'?",
+          "type": "multiple-choice",
+          "options": [
+            "As a wise and cunning adversary to Herod's craftiness",
+            "As a wild animal to be hunted",
+            "As a sacrificial lamb",
+            "As a shepherd of the people"
+          ],
+          "correctAnswer": "As a wise and cunning adversary to Herod's craftiness",
+          "explanation": "In Luke 13:32, Jesus uses the term 'fox' metaphorically to denote Herod's cunning and craftiness, positioning himself as a resolute adversary.",
+          "verseReference": "Luke 13:32",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-13-hard-q14",
+          "question": "What cultural practice does Jesus reference in Luke 13:34 to illustrate His desire to protect Jerusalem?",
+          "type": "multiple-choice",
+          "options": [
+            "A hen gathering her brood under her wings",
+            "A shepherd guiding sheep",
+            "A scribe teaching the law",
+            "A king sitting on a throne"
+          ],
+          "correctAnswer": "A hen gathering her brood under her wings",
+          "explanation": "Luke 13:34 uses the metaphor of a hen gathering her chicks under her wings, a cultural image of protection and care in Jewish tradition.",
+          "verseReference": "Luke 13:34",
+          "difficulty": "hard"
+        },
+        {
           "id": "luke-13-hard-q15",
-          "question": "True or False: Luke 13:22-24 suggests that salvation is guaranteed for those who merely acknowledge Jesus publicly.",
+          "question": "True or False: In Luke 13:35, Jesus predicts that the people will not see Him again until they say, 'Blessed is he that cometh in the name of the Lord.'",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
-          "correctAnswer": "False",
-          "explanation": "Jesus emphasizes in Luke 13:24 that many will seek to enter but not be able to, indicating that mere acknowledgment is insufficient for salvation.",
-          "verseReference": "Luke 13:22-24",
+          "correctAnswer": "True",
+          "explanation": "Luke 13:35 explicitly states Jesus will not be seen until the time when people say, 'Blessed is he that cometh in the name of the Lord.'",
+          "verseReference": "Luke 13:35",
           "difficulty": "hard"
         }
       ],
@@ -740,227 +740,227 @@
       "questions": [
         {
           "id": "luke-13-theological-q1",
-          "question": "According to Luke 13, how does Jesus respond to the notion that the Galileans punished by Pilate were greater sinners than others?",
+          "question": "What doctrine does Luke 13:3 teach about human sin and repentance?",
           "type": "multiple-choice",
           "options": [
-            "He denies that they were sinners above others and calls for repentance",
-            "He confirms they were the greatest sinners",
-            "He ignores the question",
-            "He says their punishment was unrelated to sin"
+            "All must repent or they will perish",
+            "Only the worst sinners need to repent",
+            "Repentance is optional for salvation",
+            "Suffering is evidence of special sinfulness"
           ],
-          "correctAnswer": "He denies that they were sinners above others and calls for repentance",
-          "explanation": "Jesus explicitly rejects the idea that the Galileans were greater sinners and instead emphasizes the necessity of repentance to avoid perishing (Luke 13:2-3). This aligns with passages such as John 3:16-18 emphasizing repentance, Romans 3:23 on universal sinfulness, Ezekiel 18:23 on God's desire for repentance, and Acts 17:30 which calls all to repent.",
-          "verseReference": "Luke 13:2-3",
+          "correctAnswer": "All must repent or they will perish",
+          "explanation": "Luke 13:3 states, 'except ye repent, ye shall all likewise perish,' teaching the necessity of repentance for all to avoid perishing.",
+          "verseReference": "Luke 13:3",
           "difficulty": "hard"
         },
         {
           "id": "luke-13-theological-q2",
-          "question": "What is the significance of the fig tree parable in Luke 13, and what does the owner decide to do after three years of no fruit?",
+          "question": "What doctrine does Luke 13:6-9 teach about God's patience in sanctification?",
           "type": "multiple-choice",
           "options": [
-            "The tree is given one more year for cultivation before being cut down",
-            "The tree is immediately cut down",
-            "The tree is ignored and left to grow wild",
-            "The tree is transplanted to another vineyard"
+            "God allows time for repentance and fruitfulness",
+            "God immediately punishes unfruitfulness",
+            "God ignores unfruitful believers indefinitely",
+            "God's patience means fruitfulness is unnecessary"
           ],
-          "correctAnswer": "The tree is given one more year for cultivation before being cut down",
-          "explanation": "In the parable, the owner seeks fruit for three years and finds none, then commands the tree to be cut down, but the gardener pleads for one more year to cultivate it (Luke 13:6-9). This illustrates God's patience and opportunity for repentance, consistent with 2 Peter 3:9, Romans 2:4, and Isaiah 55:6-7, emphasizing God's longsuffering towards sinners.",
-          "verseReference": "Luke 13:6-9",
+          "correctAnswer": "God allows time for repentance and fruitfulness",
+          "explanation": "Luke 13:7-9 shows the vineyard owner delaying judgment to give the fig tree one more year to bear fruit, indicating God's longsuffering patience in sanctification.",
+          "verseReference": "Luke 13:7-9",
           "difficulty": "hard"
         },
         {
           "id": "luke-13-theological-q3",
-          "question": "What was the condition of the woman Jesus healed in the synagogue on the Sabbath, and how long had she suffered?",
+          "question": "What doctrine about divine justice and mercy is taught in Luke 13:28-29?",
           "type": "multiple-choice",
           "options": [
-            "She was bowed down by a spirit of infirmity for eighteen years",
-            "She had leprosy for seven years",
-            "She was blind from birth",
-            "She was mute for ten years"
+            "The kingdom is inclusive of all nations, but excludes unrepentant sinners",
+            "Only ethnic Israelites will enter the kingdom",
+            "Entrance to the kingdom is based on ethnic heritage alone",
+            "The kingdom is exclusively for the righteous Jews"
           ],
-          "correctAnswer": "She was bowed down by a spirit of infirmity for eighteen years",
-          "explanation": "Luke 13:11-12 describes a woman who had been bent over for eighteen years due to a spirit of infirmity. Jesus heals her on the Sabbath, demonstrating His authority and compassion, which aligns with Isaiah 61:1-3 on healing and liberation, Mark 2:27 on Sabbath purpose, and Matthew 12:12 on doing good on the Sabbath.",
-          "verseReference": "Luke 13:11-12",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-13-theological-q4",
-          "question": "What argument does Jesus use to defend healing on the Sabbath when challenged by the synagogue ruler?",
-          "type": "multiple-choice",
-          "options": [
-            "That people routinely care for their animals on the Sabbath, so healing a person is lawful",
-            "That the Sabbath law does not apply to healings",
-            "That the ruler misunderstood the law",
-            "That healing is more important than the Sabbath"
-          ],
-          "correctAnswer": "That people routinely care for their animals on the Sabbath, so healing a person is lawful",
-          "explanation": "Jesus calls the ruler a hypocrite for allowing animals to be freed on the Sabbath but objecting to healing a daughter of Abraham (Luke 13:14-16). This reflects God's design for Sabbath mercy and restoration, consistent with Hosea 6:6, Matthew 12:7, and the principle of mercy over sacrifice in Scripture.",
-          "verseReference": "Luke 13:14-16",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-13-theological-q5",
-          "question": "How does Jesus describe the kingdom of God using the mustard seed in Luke 13?",
-          "type": "multiple-choice",
-          "options": [
-            "As something that starts small but grows into a large tree where birds can nest",
-            "As a large tree from the very beginning",
-            "As a tiny seed that never grows",
-            "As a seed that produces no fruit"
-          ],
-          "correctAnswer": "As something that starts small but grows into a large tree where birds can nest",
-          "explanation": "Jesus likens the kingdom of God to a mustard seed that begins small but grows into a large tree providing shelter (Luke 13:18-19). This symbolizes the humble beginnings and expansive growth of God's reign, consistent with Matthew 17:20, Daniel 4:12, and Psalm 1:3 illustrating growth and blessing.",
-          "verseReference": "Luke 13:18-19",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-13-theological-q6",
-          "question": "In Luke 13, what does the kingdom of God resemble when compared to leaven?",
-          "type": "multiple-choice",
-          "options": [
-            "It is like leaven hidden in three measures of meal that leavens the whole",
-            "It is like leaven that remains separate from the meal",
-            "It is like leaven that spoils the meal",
-            "It is like leaven that is discarded"
-          ],
-          "correctAnswer": "It is like leaven hidden in three measures of meal that leavens the whole",
-          "explanation": "Jesus compares the kingdom of God to leaven a woman hid in three measures of meal until all was leavened (Luke 13:20-21). This metaphor depicts the pervasive and transformative power of God's kingdom, aligning with Old Testament symbolism of leaven (Exodus 12:15), and New Testament teaching on growth and influence (1 Corinthians 5:6-8, Matthew 13:33).",
-          "verseReference": "Luke 13:20-21",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-13-theological-q7",
-          "question": "What instruction does Jesus give regarding entering through the 'strait gate'?",
-          "type": "multiple-choice",
-          "options": [
-            "Strive to enter, because many will try and fail",
-            "Enter casually, for the gate is wide open",
-            "Avoid the gate, because it leads to destruction",
-            "Wait for an invitation to enter"
-          ],
-          "correctAnswer": "Strive to enter, because many will try and fail",
-          "explanation": "Jesus warns to 'strive to enter in at the strait gate' as many will seek to enter but not be able (Luke 13:24). This calls for diligent pursuit of salvation, consistent with Matthew 7:13-14 on narrow gate, Hebrews 12:1-2 on perseverance, Philippians 3:14 on pressing toward the goal, and Revelation 3:5 on overcoming.",
-          "verseReference": "Luke 13:24",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-13-theological-q8",
-          "question": "What response does Jesus say the master of the house will give to those knocking after the door is shut?",
-          "type": "multiple-choice",
-          "options": [
-            "He will say, 'I know you not whence ye are; depart from me, all ye workers of iniquity'",
-            "He will open the door immediately",
-            "He will welcome them without question",
-            "He will send them to another house"
-          ],
-          "correctAnswer": "He will say, 'I know you not whence ye are; depart from me, all ye workers of iniquity'",
-          "explanation": "Jesus describes a time when the master shuts the door and denies knowing those outside who claim familiarity, calling them workers of iniquity (Luke 13:25-27). This reflects the necessity of true faith and obedience, in line with Matthew 7:21-23, 2 Timothy 2:19, and John 10:27-28 on genuine belonging to Christ.",
-          "verseReference": "Luke 13:25-27",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-13-theological-q9",
-          "question": "What is described as happening in the kingdom of God in Luke 13:28-29?",
-          "type": "multiple-choice",
-          "options": [
-            "There will be weeping outside as many see the patriarchs sitting in the kingdom",
-            "Only Jews will enter the kingdom",
-            "The kingdom will be small and exclusive",
-            "No one from the north or south will be included"
-          ],
-          "correctAnswer": "There will be weeping outside as many see the patriarchs sitting in the kingdom",
-          "explanation": "Luke 13:28-29 describes those excluded from the kingdom weeping and gnashing teeth as they see Abraham, Isaac, Jacob, and prophets inside, and people coming from all directions to sit down in God's kingdom. This emphasizes inclusion by faith and the consequences of rejection, consistent with Romans 11:17-25, Galatians 3:28-29, and Isaiah 56:6-8.",
+          "correctAnswer": "The kingdom is inclusive of all nations, but excludes unrepentant sinners",
+          "explanation": "Luke 13:28-29 describes people from all directions sitting in the kingdom, while some are cast out, emphasizing God's just mercy extended to all nations, not just Israel.",
           "verseReference": "Luke 13:28-29",
           "difficulty": "hard"
         },
         {
-          "id": "luke-13-theological-q10",
-          "question": "What paradox does Jesus reveal about the status of the first and the last in the kingdom of God?",
+          "id": "luke-13-theological-q4",
+          "question": "Which divine attribute does Luke 13:34 specifically demonstrate?",
           "type": "multiple-choice",
           "options": [
-            "The last shall be first, and the first shall be last",
-            "The first shall always remain first",
-            "The last shall be last forever",
-            "There is no change in status"
+            "Longsuffering",
+            "Omnipresence",
+            "Immutability",
+            "Wrath"
           ],
-          "correctAnswer": "The last shall be first, and the first shall be last",
-          "explanation": "Luke 13:30 states a reversal of worldly expectations in God's kingdom, where social or temporal status is reordered. This paradox is echoed in Matthew 19:30, Mark 10:31, and James 2:5, illustrating God's sovereignty and grace in salvation.",
-          "verseReference": "Luke 13:30",
+          "correctAnswer": "Longsuffering",
+          "explanation": "Luke 13:34 shows Jesus lamenting Jerusalem's rejection despite His repeated calls, demonstrating God's longsuffering patience.",
+          "verseReference": "Luke 13:34",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-13-theological-q5",
+          "question": "Which divine attribute is highlighted by Jesus’ authority over the spirit of infirmity in Luke 13:12-13?",
+          "type": "multiple-choice",
+          "options": [
+            "Sovereignty",
+            "Omniscience",
+            "Justice",
+            "Holiness"
+          ],
+          "correctAnswer": "Sovereignty",
+          "explanation": "In Luke 13:12-13, Jesus commands the spirit of infirmity to leave, immediately healing the woman, demonstrating His sovereign power over evil and sickness.",
+          "verseReference": "Luke 13:12-13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-13-theological-q6",
+          "question": "How does Luke 13:24-27 connect to the broader biblical theme of final judgment?",
+          "type": "multiple-choice",
+          "options": [
+            "It emphasizes the necessity of entering through the narrow gate",
+            "It teaches that all who call Jesus Lord will be saved",
+            "It endorses universal salvation regardless of works",
+            "It denies any future separation of people at judgment"
+          ],
+          "correctAnswer": "It emphasizes the necessity of entering through the narrow gate",
+          "explanation": "Luke 13:24-27 warns that many will seek but fail to enter the kingdom, underscoring the biblical theme of final judgment and the necessity of the narrow gate.",
+          "verseReference": "Luke 13:24-27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-13-theological-q7",
+          "question": "In what way does Luke 13:19's mustard seed parable prepare for the growth of the church in Acts?",
+          "type": "multiple-choice",
+          "options": [
+            "It symbolizes the kingdom's small beginnings and expansive growth",
+            "It predicts the destruction of the Jewish temple",
+            "It describes the end of the world",
+            "It illustrates the immediate triumph of the kingdom"
+          ],
+          "correctAnswer": "It symbolizes the kingdom's small beginnings and expansive growth",
+          "explanation": "Luke 13:19's mustard seed parable portrays the kingdom starting small and growing large, prefiguring the church's expansion in Acts.",
+          "verseReference": "Luke 13:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-13-theological-q8",
+          "question": "What combined doctrine do Luke 13:3 and Luke 13:5 teach about repentance and judgment?",
+          "type": "multiple-choice",
+          "options": [
+            "Repentance is universally required to avoid perishing",
+            "Only some need to repent for judgment to be avoided",
+            "Suffering is the proof of sinfulness",
+            "Judgment can be escaped without repentance"
+          ],
+          "correctAnswer": "Repentance is universally required to avoid perishing",
+          "explanation": "Both Luke 13:3 and 13:5 repeat that without repentance all will perish, emphasizing universal need for repentance before judgment.",
+          "verseReference": "Luke 13:3, Luke 13:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-13-theological-q9",
+          "question": "What combined doctrine do Luke 13:14 and Luke 13:16 teach about the Sabbath and God's purpose in healing?",
+          "type": "multiple-choice",
+          "options": [
+            "The Sabbath is intended for mercy and liberation from bondage",
+            "Healing on the Sabbath is unlawful in all cases",
+            "The Sabbath requires strict rest without exceptions",
+            "Physical healing is less important than ritual observance"
+          ],
+          "correctAnswer": "The Sabbath is intended for mercy and liberation from bondage",
+          "explanation": "Luke 13:14-16 shows Jesus arguing that healing a woman bound by Satan on the Sabbath fulfills God's merciful purpose, not violating the Sabbath rest.",
+          "verseReference": "Luke 13:14, Luke 13:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-13-theological-q10",
+          "question": "What combined doctrinal truth about the kingdom of God is taught in Luke 13:20-21 and Luke 13:18-19?",
+          "type": "multiple-choice",
+          "options": [
+            "The kingdom grows from small beginnings to pervasive influence",
+            "The kingdom is a political dominion to be seized by force",
+            "The kingdom is exclusively for a chosen ethnic group",
+            "The kingdom will immediately eradicate all evil"
+          ],
+          "correctAnswer": "The kingdom grows from small beginnings to pervasive influence",
+          "explanation": "Luke 13:18-21 uses the mustard seed and leaven parables to teach that the kingdom of God starts small but grows extensively and influences all.",
+          "verseReference": "Luke 13:18-19, Luke 13:20-21",
           "difficulty": "hard"
         },
         {
           "id": "luke-13-theological-q11",
-          "question": "How does Jesus respond to the Pharisees' warning about Herod's intent to kill Him?",
+          "question": "Skeptics claim Luke 13:24-27 teaches that salvation can be earned by works. What does the passage actually teach?",
           "type": "multiple-choice",
           "options": [
-            "He calls Herod 'that fox' and declares He will be perfected after three days",
-            "He agrees to flee immediately",
-            "He plans to confront Herod",
-            "He ignores their warning"
+            "Many will attempt to enter the kingdom, but only those who genuinely enter through the narrow gate will be saved",
+            "Everyone who tries will be saved regardless of their deeds",
+            "Salvation is guaranteed by mere profession of faith",
+            "The passage teaches that works alone save without faith"
           ],
-          "correctAnswer": "He calls Herod 'that fox' and declares He will be perfected after three days",
-          "explanation": "Jesus refers to Herod as 'that fox' and states He will continue His work of casting out devils and healing until the third day when He will be perfected (Luke 13:31-32). This alludes to His death and resurrection, fulfilling prophecy (Psalm 22, Isaiah 53), and the divine mission (John 10:18, Acts 2:23).",
-          "verseReference": "Luke 13:31-32",
+          "correctAnswer": "Many will attempt to enter the kingdom, but only those who genuinely enter through the narrow gate will be saved",
+          "explanation": "Luke 13:24-27 warns that many will seek to enter but be denied, emphasizing genuine entrance through the narrow gate rather than mere effort or works.",
+          "verseReference": "Luke 13:24-27",
           "difficulty": "hard"
         },
         {
           "id": "luke-13-theological-q12",
-          "question": "What does Jesus say about the necessity of His journey to Jerusalem despite the threats against Him?",
+          "question": "What doctrine about prophetic mission and divine sovereignty is taught in Luke 13:33?",
           "type": "multiple-choice",
           "options": [
-            "A prophet cannot perish outside Jerusalem, so He must go",
-            "He will avoid Jerusalem to save His life",
-            "He will only go if protected",
-            "His mission is complete elsewhere"
+            "A prophet cannot perish outside Jerusalem, indicating God's sovereign plan",
+            "Prophets have freedom to avoid danger at will",
+            "Prophetic ministry is optional and not determined by God",
+            "God abandons prophets to human enemies"
           ],
-          "correctAnswer": "A prophet cannot perish outside Jerusalem, so He must go",
-          "explanation": "Jesus declares that it is necessary to walk to Jerusalem because a prophet must perish there, fulfilling the destiny of messengers rejected by the city (Luke 13:33). This connects to prophetic fulfillment (Jeremiah 26:18), the rejection of Jesus (Matthew 23:37), and God's redemptive plan (Luke 9:51).",
+          "correctAnswer": "A prophet cannot perish outside Jerusalem, indicating God's sovereign plan",
+          "explanation": "Luke 13:33 affirms that a prophet must die in Jerusalem, showing God's sovereign control over prophetic mission and fulfillment of destiny.",
           "verseReference": "Luke 13:33",
           "difficulty": "hard"
         },
         {
           "id": "luke-13-theological-q13",
-          "question": "How does Jesus express His sorrow over Jerusalem in Luke 13:34?",
+          "question": "Which divine attribute is demonstrated by Jesus’ response to the ruler of the synagogue in Luke 13:15?",
           "type": "multiple-choice",
           "options": [
-            "He laments that Jerusalem kills prophets and refuses His gathering",
-            "He celebrates Jerusalem's faithfulness",
-            "He ignores Jerusalem's sins",
-            "He curses the city"
+            "Holiness",
+            "Omnipotence",
+            "Justice",
+            "Mercy"
           ],
-          "correctAnswer": "He laments that Jerusalem kills prophets and refuses His gathering",
-          "explanation": "Jesus mourns over Jerusalem for killing prophets and rejecting His protective invitation, likening His desire to a hen gathering chicks under her wings (Luke 13:34). This reflects God's enduring love despite human rejection, consistent with Hosea 11:1, Matthew 23:37, and Romans 5:8 on divine compassion.",
-          "verseReference": "Luke 13:34",
+          "correctAnswer": "Mercy",
+          "explanation": "Jesus’ rebuke in Luke 13:15 highlights mercy over legalism, showing God's merciful desire to heal even on the Sabbath.",
+          "verseReference": "Luke 13:15",
           "difficulty": "hard"
         },
         {
           "id": "luke-13-theological-q14",
-          "question": "What prophecy does Jesus make about Jerusalem in Luke 13:35 regarding His future visibility to them?",
+          "question": "What theological principle is taught by Jesus’ lament in Luke 13:34 regarding Jerusalem's rejection of the prophets?",
           "type": "multiple-choice",
           "options": [
-            "They will not see Him until they say, 'Blessed is he that cometh in the name of the Lord'",
-            "They will see Him immediately after His departure",
-            "They will never see Him again",
-            "They will see Him only in secret"
+            "God desires to gather and protect His people but respects their rejection",
+            "God is indifferent to human response",
+            "Divine judgment occurs without prior warning",
+            "God forces salvation on those who reject Him"
           ],
-          "correctAnswer": "They will not see Him until they say, 'Blessed is he that cometh in the name of the Lord'",
-          "explanation": "Jesus prophesies that Jerusalem's house will be left desolate and they will not see Him until a future time when they recognize Him as the Messiah (Luke 13:35). This points to eschatological fulfillment and recognition of Christ, aligning with Psalm 118:26, Zechariah 12:10, and John 1:11-12.",
-          "verseReference": "Luke 13:35",
+          "correctAnswer": "God desires to gather and protect His people but respects their rejection",
+          "explanation": "Luke 13:34 reveals God's earnest desire to protect Jerusalem’s people, yet their rejection results in desolation, showing God's respect for human free will.",
+          "verseReference": "Luke 13:34",
           "difficulty": "hard"
         },
         {
           "id": "luke-13-theological-q15",
-          "question": "What is the theological implication of Jesus calling the woman healed on the Sabbath a 'daughter of Abraham'?",
+          "question": "What combined doctrine about salvation and eschatological reversal is taught in Luke 13:30 and Luke 13:29?",
           "type": "multiple-choice",
           "options": [
-            "It affirms her covenant identity and right to liberation",
-            "It implies she was physically Abraham's daughter",
-            "It means she was an Israelite priestess",
-            "It suggests she was excluded from God's promises"
+            "God’s kingdom reverses human expectations, including status and entrance from all nations",
+            "The first-born Israelites will always have priority",
+            "Salvation is based on social rank",
+            "Only Jews will be first in the kingdom"
           ],
-          "correctAnswer": "It affirms her covenant identity and right to liberation",
-          "explanation": "By calling her a 'daughter of Abraham' (Luke 13:16), Jesus affirms her inclusion in the covenant people and the legitimacy of her healing, reflecting God's intent to bless descendants of Abraham (Genesis 12:3, Galatians 3:7, Romans 4:16), and emphasizing the dignity and worth of all covenant members.",
-          "verseReference": "Luke 13:16",
+          "correctAnswer": "God’s kingdom reverses human expectations, including status and entrance from all nations",
+          "explanation": "Luke 13:29-30 teaches that people from all nations will enter the kingdom and that traditional social rankings will be reversed, highlighting God's sovereign justice.",
+          "verseReference": "Luke 13:29-30",
           "difficulty": "hard"
         }
       ],

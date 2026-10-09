@@ -13,13 +13,13 @@
       "questions": [
         {
           "id": "leviticus-14-easy-q1",
-          "question": "Who did the LORD speak unto in Leviticus 14:1?",
+          "question": "Who did the LORD speak to in Leviticus 14:1?",
           "type": "multiple-choice",
           "options": [
             "Moses",
             "Aaron",
-            "Joshua",
-            "David"
+            "David",
+            "Joshua"
           ],
           "correctAnswer": "Moses",
           "explanation": "Leviticus 14:1 states that the LORD spake unto Moses.",
@@ -28,52 +28,82 @@
         },
         {
           "id": "leviticus-14-easy-q2",
-          "question": "What must be brought to the priest on the day of a leper's cleansing?",
+          "question": "According to Leviticus 14:2, who shall the leper be brought to on the day of his cleansing?",
           "type": "multiple-choice",
           "options": [
-            "The leper",
-            "Two lambs",
-            "A goat",
-            "A pigeon"
+            "The priest",
+            "The king",
+            "The elders",
+            "The prophet"
           ],
-          "correctAnswer": "The leper",
-          "explanation": "Leviticus 14:2 says the leper shall be brought unto the priest on the day of his cleansing.",
+          "correctAnswer": "The priest",
+          "explanation": "Leviticus 14:2 states the leper shall be brought unto the priest on the day of his cleansing.",
           "verseReference": "Leviticus 14:2",
           "difficulty": "easy"
         },
         {
           "id": "leviticus-14-easy-q3",
-          "question": "According to Leviticus 14:4, what items shall the priest command to be taken for the cleansing?",
+          "question": "Where shall the priest go to examine the leper according to Leviticus 14:3?",
           "type": "multiple-choice",
           "options": [
-            "Two birds alive and clean, cedar wood, scarlet, and hyssop",
-            "A lamb and a goat",
-            "Two pigeons and olive oil",
-            "A bull and a ram"
+            "Out of the camp",
+            "Into the city",
+            "Into the temple",
+            "To the river"
           ],
-          "correctAnswer": "Two birds alive and clean, cedar wood, scarlet, and hyssop",
-          "explanation": "Leviticus 14:4 lists these specific items for the cleansing ritual.",
-          "verseReference": "Leviticus 14:4",
+          "correctAnswer": "Out of the camp",
+          "explanation": "Leviticus 14:3 states the priest shall go forth out of the camp to look at the leper.",
+          "verseReference": "Leviticus 14:3",
           "difficulty": "easy"
         },
         {
           "id": "leviticus-14-easy-q4",
-          "question": "What is done with one of the birds in the cleansing ritual?",
+          "question": "Which of the following items is NOT commanded by the priest to be taken for the cleansing in Leviticus 14:4?",
           "type": "multiple-choice",
           "options": [
-            "Killed in an earthen vessel over running water",
-            "Set free into the field",
-            "Given as a burnt offering",
-            "Kept alive in the tabernacle"
+            "Two birds alive and clean",
+            "Cedar wood",
+            "Hyssop",
+            "Olive oil"
           ],
-          "correctAnswer": "Killed in an earthen vessel over running water",
-          "explanation": "Leviticus 14:5 describes killing one bird in an earthen vessel over running water.",
-          "verseReference": "Leviticus 14:5",
+          "correctAnswer": "Olive oil",
+          "explanation": "Leviticus 14:4 lists two birds, cedar wood, scarlet, and hyssop but not olive oil.",
+          "verseReference": "Leviticus 14:4",
           "difficulty": "easy"
         },
         {
           "id": "leviticus-14-easy-q5",
-          "question": "How many times shall the priest sprinkle upon the one to be cleansed?",
+          "question": "According to Leviticus 14:5, where shall one of the birds be killed?",
+          "type": "multiple-choice",
+          "options": [
+            "In an earthen vessel over running water",
+            "On the altar",
+            "In the camp",
+            "In the temple"
+          ],
+          "correctAnswer": "In an earthen vessel over running water",
+          "explanation": "Leviticus 14:5 commands that one of the birds be killed in an earthen vessel over running water.",
+          "verseReference": "Leviticus 14:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "leviticus-14-easy-q6",
+          "question": "What shall the priest do with the living bird, cedar wood, scarlet, and hyssop according to Leviticus 14:6?",
+          "type": "multiple-choice",
+          "options": [
+            "Dip them in the blood of the killed bird over running water",
+            "Burn them on the altar",
+            "Throw them into the fire",
+            "Give them to the leper"
+          ],
+          "correctAnswer": "Dip them in the blood of the killed bird over running water",
+          "explanation": "Leviticus 14:6 commands the priest to dip the living bird, cedar wood, scarlet, and hyssop in the blood of the killed bird over running water.",
+          "verseReference": "Leviticus 14:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "leviticus-14-easy-q7",
+          "question": "How many times shall the priest sprinkle upon the leper according to Leviticus 14:7?",
           "type": "multiple-choice",
           "options": [
             "Seven times",
@@ -82,152 +112,122 @@
             "Ten times"
           ],
           "correctAnswer": "Seven times",
-          "explanation": "Leviticus 14:7 states the priest shall sprinkle seven times and pronounce him clean.",
+          "explanation": "Leviticus 14:7 states the priest shall sprinkle upon the leper seven times.",
           "verseReference": "Leviticus 14:7",
-          "difficulty": "easy"
-        },
-        {
-          "id": "leviticus-14-easy-q6",
-          "question": "What must the person to be cleansed do after the first washing and shaving?",
-          "type": "multiple-choice",
-          "options": [
-            "Tarry abroad out of his tent seven days",
-            "Enter the tabernacle immediately",
-            "Offer a burnt offering",
-            "Rest inside his tent for three days"
-          ],
-          "correctAnswer": "Tarry abroad out of his tent seven days",
-          "explanation": "Leviticus 14:8 commands the cleansed person to stay outside his tent for seven days after washing and shaving.",
-          "verseReference": "Leviticus 14:8",
-          "difficulty": "easy"
-        },
-        {
-          "id": "leviticus-14-easy-q7",
-          "question": "What is taken on the eighth day for the cleansing offering?",
-          "type": "multiple-choice",
-          "options": [
-            "Two he lambs without blemish, one ewe lamb, fine flour, and oil",
-            "One bull and two goats",
-            "Three doves and a lamb",
-            "A ram and a goat without blemish"
-          ],
-          "correctAnswer": "Two he lambs without blemish, one ewe lamb, fine flour, and oil",
-          "explanation": "Leviticus 14:10 describes the offerings on the eighth day including two he lambs and one ewe lamb without blemish, fine flour mingled with oil, and a log of oil.",
-          "verseReference": "Leviticus 14:10",
           "difficulty": "easy"
         },
         {
           "id": "leviticus-14-easy-q8",
-          "question": "Where does the priest present the man and offerings for cleansing?",
-          "type": "multiple-choice",
+          "question": "True or False: According to Leviticus 14:8, the leper must shave off only his beard to be clean.",
+          "type": "true-false",
           "options": [
-            "At the door of the tabernacle of the congregation",
-            "On the mountaintop",
-            "Inside the holy of holies",
-            "Near the altar outside the camp"
+            "True",
+            "False"
           ],
-          "correctAnswer": "At the door of the tabernacle of the congregation",
-          "explanation": "Leviticus 14:11 states the priest shall present the man and offerings before the LORD at the door of the tabernacle.",
-          "verseReference": "Leviticus 14:11",
+          "correctAnswer": "False",
+          "explanation": "Leviticus 14:8 says the leper shall shave off all his hair, not just his beard.",
+          "verseReference": "Leviticus 14:8",
           "difficulty": "easy"
         },
         {
           "id": "leviticus-14-easy-q9",
-          "question": "On what parts of the cleansed man's body does the priest put the blood of the trespass offering?",
+          "question": "On the seventh day after cleansing, what additional shaving must the leper perform according to Leviticus 14:9?",
           "type": "multiple-choice",
           "options": [
-            "Tip of the right ear, thumb of the right hand, and great toe of the right foot",
-            "Forehead, hands, and feet",
-            "Both ears and both hands",
-            "Chest, back, and head"
+            "Shave all his hair off his head, beard, and eyebrows",
+            "Shave only his beard",
+            "Shave only his head",
+            "No shaving is required"
           ],
-          "correctAnswer": "Tip of the right ear, thumb of the right hand, and great toe of the right foot",
-          "explanation": "Leviticus 14:14 states the priest puts the blood on the tip of the right ear, right thumb, and right great toe.",
-          "verseReference": "Leviticus 14:14",
+          "correctAnswer": "Shave all his hair off his head, beard, and eyebrows",
+          "explanation": "Leviticus 14:9 commands the leper to shave all the hair off his head, beard, and eyebrows on the seventh day.",
+          "verseReference": "Leviticus 14:9",
           "difficulty": "easy"
         },
         {
           "id": "leviticus-14-easy-q10",
-          "question": "True or False: According to Leviticus 14:22, if a person is poor, he may bring two turtledoves or two young pigeons for the cleansing offerings.",
-          "type": "true-false",
+          "question": "What animals shall the cleansed man take on the eighth day according to Leviticus 14:10?",
+          "type": "multiple-choice",
           "options": [
-            "True",
-            "False"
+            "Two he lambs without blemish and one ewe lamb of the first year without blemish",
+            "One he goat and two doves",
+            "Three young bulls",
+            "One ram and two pigeons"
           ],
-          "correctAnswer": "True",
-          "explanation": "Leviticus 14:22 allows poor persons to bring two turtledoves or two young pigeons for offerings.",
-          "verseReference": "Leviticus 14:22",
+          "correctAnswer": "Two he lambs without blemish and one ewe lamb of the first year without blemish",
+          "explanation": "Leviticus 14:10 specifies two he lambs without blemish and one ewe lamb of the first year without blemish.",
+          "verseReference": "Leviticus 14:10",
           "difficulty": "easy"
         },
         {
           "id": "leviticus-14-easy-q11",
-          "question": "What must be done before the priest goes into a house suspected of having leprosy?",
+          "question": "Where shall the priest present the cleansed man and the offerings according to Leviticus 14:11?",
           "type": "multiple-choice",
           "options": [
-            "The house must be emptied",
-            "The doors must be sealed",
-            "The family must offer a sacrifice",
-            "The house must be anointed with oil"
+            "At the door of the tabernacle of the congregation",
+            "At the city gate",
+            "In the temple inner court",
+            "On the mountain"
           ],
-          "correctAnswer": "The house must be emptied",
-          "explanation": "Leviticus 14:36 says the priest commands that they empty the house before he goes in to see the plague.",
-          "verseReference": "Leviticus 14:36",
+          "correctAnswer": "At the door of the tabernacle of the congregation",
+          "explanation": "Leviticus 14:11 states the priest shall present the man and offerings at the door of the tabernacle of the congregation.",
+          "verseReference": "Leviticus 14:11",
           "difficulty": "easy"
         },
         {
           "id": "leviticus-14-easy-q12",
-          "question": "What happens if the plague spreads in the walls of a house after removing stones and plastering it?",
-          "type": "multiple-choice",
+          "question": "True or False: According to Leviticus 14:12, the priest shall wave the trespass offering and log of oil before the LORD.",
+          "type": "true-false",
           "options": [
-            "The house is unclean and must be broken down",
-            "The house is cleansed by the priest",
-            "The house must be washed with water",
-            "The house is quarantined for another seven days"
+            "True",
+            "False"
           ],
-          "correctAnswer": "The house is unclean and must be broken down",
-          "explanation": "Leviticus 14:44-45 commands the house must be broken down if the plague spreads after removal and plastering.",
-          "verseReference": "Leviticus 14:44",
+          "correctAnswer": "True",
+          "explanation": "Leviticus 14:12 commands the priest to wave the trespass offering and the log of oil before the LORD.",
+          "verseReference": "Leviticus 14:12",
           "difficulty": "easy"
         },
         {
           "id": "leviticus-14-easy-q13",
-          "question": "True or False: The priest shall make atonement for the house by letting the living bird go out of the city into the open fields.",
-          "type": "true-false",
+          "question": "In Leviticus 14:14, on which parts of the cleansed man does the priest put the blood of the trespass offering?",
+          "type": "multiple-choice",
           "options": [
-            "True",
-            "False"
+            "Tip of right ear, thumb of right hand, great toe of right foot",
+            "Forehead, palm of left hand, right foot",
+            "Both ears and both hands",
+            "Head, heart, and feet"
           ],
-          "correctAnswer": "True",
-          "explanation": "Leviticus 14:53 states the living bird is let go into the open fields to make atonement for the house.",
-          "verseReference": "Leviticus 14:53",
+          "correctAnswer": "Tip of right ear, thumb of right hand, great toe of right foot",
+          "explanation": "Leviticus 14:14 specifies the blood is put on the tip of the right ear, thumb of right hand, and great toe of right foot.",
+          "verseReference": "Leviticus 14:14",
           "difficulty": "easy"
         },
         {
           "id": "leviticus-14-easy-q14",
-          "question": "Complete the verse from Leviticus 14:7: 'And he shall sprinkle upon him that is to be cleansed from the leprosy _____ times, and shall pronounce him clean.'",
-          "type": "fill-blank",
+          "question": "What does the priest do with the remaining oil after putting it on the cleansed man's ear, hand, and foot according to Leviticus 14:18?",
+          "type": "multiple-choice",
           "options": [
-            "seven",
-            "three",
-            "five",
-            "ten"
+            "Pours it on the head of the cleansed man",
+            "Throws it away",
+            "Pours it on the altar",
+            "Mixes it with wine"
           ],
-          "correctAnswer": "seven",
-          "explanation": "Leviticus 14:7 specifies the priest shall sprinkle seven times and then pronounce him clean.",
-          "verseReference": "Leviticus 14:7",
+          "correctAnswer": "Pours it on the head of the cleansed man",
+          "explanation": "Leviticus 14:18 states that the remnant of the oil is poured upon the head of the cleansed man.",
+          "verseReference": "Leviticus 14:18",
           "difficulty": "easy"
         },
         {
           "id": "leviticus-14-easy-q15",
-          "question": "True or False: Leviticus 14:54-57 teach about the law of leprosy including garments and houses.",
+          "question": "True or False: The priest makes atonement for the cleansed man before the LORD after offering the sin offering as stated in Leviticus 14:19.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Leviticus 14:54-57 summarize the laws regarding leprosy of the skin, garments, and houses.",
-          "verseReference": "Leviticus 14:54",
+          "explanation": "Leviticus 14:19 says the priest offers the sin offering and makes atonement for the cleansed man before the LORD.",
+          "verseReference": "Leviticus 14:19",
           "difficulty": "easy"
         }
       ],
@@ -254,238 +254,223 @@
       "questions": [
         {
           "id": "leviticus-14-medium-q1",
-          "question": "A believer is struggling with feelings of impurity after a period of sin. Based on the cleansing rituals in Leviticus 14, what biblical truth about restoration and forgiveness can you share?",
+          "question": "According to Leviticus 14:20, what does the priest do after offering the burnt offering and the meat offering?",
           "type": "multiple-choice",
           "options": [
-            "Restoration requires obedience to God's instructions and symbolic acts of cleansing",
-            "Restoration is immediate without any need for repentance or rituals",
-            "Forgiveness is only for the high priest to give, not God",
-            "One must isolate forever after sin to be forgiven"
+            "He makes an atonement for the person and declares them clean",
+            "He sends the person out of the camp",
+            "He orders the person to wash their clothes",
+            "He kills a lamb for a sin offering"
           ],
-          "correctAnswer": "Restoration requires obedience to God's instructions and symbolic acts of cleansing",
-          "explanation": "Leviticus 14:2-7, 14:19-20, and 14:48-53 emphasize the detailed cleansing rituals commanded by God through Moses, showing that restoration involves obedience and symbolic cleansing to be made clean again.",
-          "verseReference": "Leviticus 14:2",
+          "correctAnswer": "He makes an atonement for the person and declares them clean",
+          "explanation": "Leviticus 14:20 states that after the priest offers the burnt offering and the meat offering upon the altar, he makes an atonement for the person and the person shall be clean. This shows the priest's role in restoring the leper to cleanliness.",
+          "verseReference": "Leviticus 14:20",
           "difficulty": "medium"
         },
         {
           "id": "leviticus-14-medium-q2",
-          "question": "How does the priest's role in inspecting and cleansing the leper teach us about humility and accountability in the Christian community?",
+          "question": "If a person is poor and cannot afford the full cleansing offerings, what does Leviticus 14:21 instruct them to bring?",
           "type": "multiple-choice",
           "options": [
-            "The priest acts as a mediator who carefully examines and facilitates restoration",
-            "The priest condemns and isolates the sinner permanently",
-            "The priest ignores the condition and leaves it to the individual",
-            "The priest only prays without practical involvement"
+            "One lamb for a trespass offering, one tenth deal of fine flour mingled with oil, and a log of oil",
+            "Two lambs without blemish and fine flour",
+            "Two turtledoves and one lamb",
+            "Only a sin offering and burnt offering"
           ],
-          "correctAnswer": "The priest acts as a mediator who carefully examines and facilitates restoration",
-          "explanation": "Leviticus 14:3-7 shows the priest's careful examination and the rituals performed to cleanse the leper, illustrating the importance of accountable leadership that guides believers toward restoration with humility.",
-          "verseReference": "Leviticus 14:3",
-          "difficulty": "medium"
-        },
-        {
-          "id": "leviticus-14-medium-q3",
-          "question": "In the process of cleansing described in Leviticus 14, what spiritual discipline is highlighted by the repeated washing and shaving?",
-          "type": "multiple-choice",
-          "options": [
-            "Purification symbolizing renewal and repentance",
-            "Physical exercise for health",
-            "A sign of mourning for others",
-            "A social custom without spiritual meaning"
-          ],
-          "correctAnswer": "Purification symbolizing renewal and repentance",
-          "explanation": "Leviticus 14:8-9 commands washing clothes, shaving all hair, and washing the flesh, symbolizing purification and readiness to re-enter community life, teaching the value of repentance and personal renewal.",
-          "verseReference": "Leviticus 14:8",
-          "difficulty": "medium"
-        },
-        {
-          "id": "leviticus-14-medium-q4",
-          "question": "A believer feels discouraged after a long struggle with sin. How does the offering of sacrifices on the eighth day in Leviticus 14 encourage perseverance and faith in God's cleansing power?",
-          "type": "multiple-choice",
-          "options": [
-            "God requires continued faith and obedience, culminating in atonement and cleansing",
-            "God cleanses instantly without any further steps",
-            "Sacrifices are unnecessary for forgiveness",
-            "Only the priest can cleanse sin without offerings"
-          ],
-          "correctAnswer": "God requires continued faith and obedience, culminating in atonement and cleansing",
-          "explanation": "Leviticus 14:10-20 shows that after initial cleansing, offerings and atonement are necessary on the eighth day, teaching believers to persevere in faith and obedience for full restoration.",
-          "verseReference": "Leviticus 14:10",
-          "difficulty": "medium"
-        },
-        {
-          "id": "leviticus-14-medium-q5",
-          "question": "How does the provision for the poor to bring different offerings teach us about God's grace and inclusivity in spiritual matters?",
-          "type": "multiple-choice",
-          "options": [
-            "God provides different options so all can participate regardless of wealth",
-            "Only the wealthy can approach God with offerings",
-            "Poor individuals are excluded from cleansing rituals",
-            "God prefers no offerings from the poor"
-          ],
-          "correctAnswer": "God provides different options so all can participate regardless of wealth",
-          "explanation": "Leviticus 14:21-31 explains alternative offerings for those who cannot afford the standard sacrifices, illustrating God's grace and inclusivity in allowing all believers access to cleansing and restoration.",
+          "correctAnswer": "One lamb for a trespass offering, one tenth deal of fine flour mingled with oil, and a log of oil",
+          "explanation": "Leviticus 14:21 explains that if the person is poor and cannot get all the offerings, they shall bring one lamb for a trespass offering, one tenth deal of fine flour mingled with oil for a meat offering, and a log of oil. This provision shows God's mercy and allowance for those with fewer resources.",
           "verseReference": "Leviticus 14:21",
           "difficulty": "medium"
         },
         {
-          "id": "leviticus-14-medium-q6",
-          "question": "True or False: According to Leviticus 14, the priest must sprinkle oil seven times during the cleansing ritual to signify complete purification.",
-          "type": "true-false",
+          "id": "leviticus-14-medium-q3",
+          "question": "What two birds are mentioned in Leviticus 14:22 for the poor person's cleansing offerings?",
+          "type": "multiple-choice",
           "options": [
-            "True",
-            "False"
+            "Two turtledoves or two young pigeons",
+            "Two sparrows or two doves",
+            "Two ravens or two crows",
+            "Two eagles or two hawks"
           ],
-          "correctAnswer": "True",
-          "explanation": "Leviticus 14:16 and 14:27 describe the priest sprinkling oil seven times before the LORD, symbolizing thorough purification and God's complete cleansing.",
-          "verseReference": "Leviticus 14:16",
+          "correctAnswer": "Two turtledoves or two young pigeons",
+          "explanation": "Leviticus 14:22 specifies that the poor person shall bring two turtledoves or two young pigeons as part of their sin and burnt offerings. This shows a substitution for the lambs required for those who can't afford them.",
+          "verseReference": "Leviticus 14:22",
+          "difficulty": "medium"
+        },
+        {
+          "id": "leviticus-14-medium-q4",
+          "question": "Where must the poor person bring their cleansing offerings on the eighth day according to Leviticus 14:23?",
+          "type": "multiple-choice",
+          "options": [
+            "To the door of the tabernacle of the congregation before the LORD",
+            "To the city gate",
+            "To the priest's house",
+            "To the altar in the open field"
+          ],
+          "correctAnswer": "To the door of the tabernacle of the congregation before the LORD",
+          "explanation": "Leviticus 14:23 instructs that the poor person must bring their offerings to the priest at the door of the tabernacle of the congregation before the LORD. This highlights the centralized place of worship and the priest's role.",
+          "verseReference": "Leviticus 14:23",
+          "difficulty": "medium"
+        },
+        {
+          "id": "leviticus-14-medium-q5",
+          "question": "What ritual action does the priest perform with the lamb of the trespass offering according to Leviticus 14:24?",
+          "type": "multiple-choice",
+          "options": [
+            "Waves the lamb and the log of oil as a wave offering before the LORD",
+            "Sacrifices the lamb on the altar without waving",
+            "Burns the lamb without any ceremonial waving",
+            "Sends the lamb outside the camp"
+          ],
+          "correctAnswer": "Waves the lamb and the log of oil as a wave offering before the LORD",
+          "explanation": "Leviticus 14:24 describes the priest waving the lamb of the trespass offering and the log of oil as a wave offering before the LORD, signifying consecration and presentation to God before the sacrifice.",
+          "verseReference": "Leviticus 14:24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "leviticus-14-medium-q6",
+          "question": "According to Leviticus 14:25, where does the priest put the blood of the trespass offering on the person to be cleansed?",
+          "type": "multiple-choice",
+          "options": [
+            "On the tip of the right ear, thumb of the right hand, and great toe of the right foot",
+            "On the forehead and both hands",
+            "On the chest and both feet",
+            "On the left ear, left hand, and left foot"
+          ],
+          "correctAnswer": "On the tip of the right ear, thumb of the right hand, and great toe of the right foot",
+          "explanation": "Leviticus 14:25 states that the priest places some of the blood of the trespass offering on the tip of the right ear, thumb of the right hand, and great toe of the right foot of the person to be cleansed, symbolizing purification of hearing, actions, and walk.",
+          "verseReference": "Leviticus 14:25",
           "difficulty": "medium"
         },
         {
           "id": "leviticus-14-medium-q7",
-          "question": "What spiritual lesson about patience and obedience can be drawn from the priest shutting the house for seven days when leprosy is suspected?",
+          "question": "What does the priest do with the log of oil according to Leviticus 14:26-27?",
           "type": "multiple-choice",
           "options": [
-            "God calls for patient waiting and careful examination before declaring healing",
-            "Immediate action without waiting is best",
-            "Ignoring the problem is encouraged",
-            "The house should be abandoned immediately"
+            "Pours it into his left hand and sprinkles some with his right finger seven times before the LORD",
+            "Pours it on the altar and burns it",
+            "Gives it to the person to anoint themselves",
+            "Mixes it with water to wash the person"
           ],
-          "correctAnswer": "God calls for patient waiting and careful examination before declaring healing",
-          "explanation": "Leviticus 14:38-39 instructs the priest to shut the house for seven days, teaching believers to patiently wait on God’s timing and follow His instructions carefully for true healing.",
-          "verseReference": "Leviticus 14:38",
+          "correctAnswer": "Pours it into his left hand and sprinkles some with his right finger seven times before the LORD",
+          "explanation": "Leviticus 14:26-27 describes the priest pouring the oil into the palm of his left hand, then using his right finger to sprinkle some of the oil seven times before the LORD, which is a ritual of sanctification and making atonement.",
+          "verseReference": "Leviticus 14:26",
           "difficulty": "medium"
         },
         {
           "id": "leviticus-14-medium-q8",
-          "question": "How does the process of removing stones and scraping a house with leprosy illustrate the importance of removing sin's root causes in our lives?",
+          "question": "How does Leviticus 14:28-29 describe the application of the oil on the person to be cleansed?",
           "type": "multiple-choice",
           "options": [
-            "Sin must be completely removed, not just superficially covered",
-            "Ignoring sin will make it go away",
-            "Only external changes are necessary",
-            "Sin is only symbolic and does not affect the house"
+            "The priest puts oil on the right ear, thumb, great toe, and pours the rest on the head",
+            "The priest anoints only the hands and feet",
+            "The priest pours oil on the altar only",
+            "The priest mixes oil with blood and washes the person"
           ],
-          "correctAnswer": "Sin must be completely removed, not just superficially covered",
-          "explanation": "Leviticus 14:40-42 describes removing stones and scraping the house to eliminate leprosy, teaching that believers must remove sin thoroughly, not just hide or cover it.",
-          "verseReference": "Leviticus 14:40",
+          "correctAnswer": "The priest puts oil on the right ear, thumb, great toe, and pours the rest on the head",
+          "explanation": "Leviticus 14:28-29 instructs the priest to put some oil on the tip of the right ear, thumb, and great toe, and pour the remainder of the oil on the person's head, completing the ritual of atonement and cleansing.",
+          "verseReference": "Leviticus 14:28",
           "difficulty": "medium"
         },
         {
           "id": "leviticus-14-medium-q9",
-          "question": "True or False: The living bird released into the open field symbolizes freedom and new life after cleansing from sin.",
+          "question": "What is the significance of the priest making an atonement before the LORD in this cleansing ritual, based on Leviticus 14:29-31?",
+          "type": "multiple-choice",
+          "options": [
+            "It signifies the person is cleansed and restored before God through the offerings",
+            "It allows the person to enter the camp without washing",
+            "It replaces the need for any sin offering",
+            "It is only a symbolic act with no real effect"
+          ],
+          "correctAnswer": "It signifies the person is cleansed and restored before God through the offerings",
+          "explanation": "Leviticus 14:29-31 shows the priest making atonement for the person before the LORD, indicating that through the sin and burnt offerings and the ritual, the person is cleansed and restored in God's sight.",
+          "verseReference": "Leviticus 14:29",
+          "difficulty": "medium"
+        },
+        {
+          "id": "leviticus-14-medium-q10",
+          "question": "According to Leviticus 14:34-35, what must the owner of a house do if they suspect a plague of leprosy in their house?",
+          "type": "multiple-choice",
+          "options": [
+            "Tell the priest that there appears to be a plague in the house",
+            "Destroy the house immediately",
+            "Clean the house with cedar wood and hyssop",
+            "Move out of the house until it is declared clean"
+          ],
+          "correctAnswer": "Tell the priest that there appears to be a plague in the house",
+          "explanation": "Leviticus 14:35 instructs the owner to report to the priest when they suspect a plague of leprosy in their house. This initiates the priest's inspection and cleansing process.",
+          "verseReference": "Leviticus 14:35",
+          "difficulty": "medium"
+        },
+        {
+          "id": "leviticus-14-medium-q11",
+          "question": "What does the priest do before inspecting the house for leprosy according to Leviticus 14:36?",
+          "type": "multiple-choice",
+          "options": [
+            "Commands that the house be emptied so no one becomes unclean",
+            "Sprinkles blood of a lamb on the door",
+            "Shuts the house for seven days immediately",
+            "Anoints the walls with oil"
+          ],
+          "correctAnswer": "Commands that the house be emptied so no one becomes unclean",
+          "explanation": "Leviticus 14:36 says the priest orders the house to be emptied before entering to inspect the plague so that those inside do not become unclean, showing a concern for ritual purity.",
+          "verseReference": "Leviticus 14:36",
+          "difficulty": "medium"
+        },
+        {
+          "id": "leviticus-14-medium-q12",
+          "question": "In Leviticus 14:37, what specific signs of the plague does the priest look for in the walls of the house?",
+          "type": "multiple-choice",
+          "options": [
+            "Hollow streaks, greenish or reddish, appearing lower than the wall surface",
+            "Black spots and cracks on the wall",
+            "Moldy patches and dampness",
+            "Holes or large cracks in the walls"
+          ],
+          "correctAnswer": "Hollow streaks, greenish or reddish, appearing lower than the wall surface",
+          "explanation": "Leviticus 14:37 describes the plague as hollow streaks that are greenish or reddish and appear lower than the wall surface, which are signs the priest uses to diagnose the leprosy in the house.",
+          "verseReference": "Leviticus 14:37",
+          "difficulty": "medium"
+        },
+        {
+          "id": "leviticus-14-medium-q13",
+          "question": "What does the priest do after finding the plague in the house walls according to Leviticus 14:38?",
+          "type": "multiple-choice",
+          "options": [
+            "Leaves the house and shuts it up for seven days",
+            "Immediately orders the house to be demolished",
+            "Sprinkles water and oil on the walls",
+            "Cleans the walls with cedar wood and hyssop"
+          ],
+          "correctAnswer": "Leaves the house and shuts it up for seven days",
+          "explanation": "Leviticus 14:38 states that the priest goes out of the house to the door and shuts it up for seven days after spotting the plague, indicating a period of quarantine and observation.",
+          "verseReference": "Leviticus 14:38",
+          "difficulty": "medium"
+        },
+        {
+          "id": "leviticus-14-medium-q14",
+          "question": "True or False: Leviticus 14:32 says the law applies only to those who can afford all the cleansing offerings.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Leviticus 14:32 clearly states that the law also applies to those whose hand is not able to get what pertains to their cleansing, showing provisions for the poor.",
+          "verseReference": "Leviticus 14:32",
+          "difficulty": "medium"
+        },
+        {
+          "id": "leviticus-14-medium-q15",
+          "question": "True or False: According to Leviticus 14:46, anyone who enters a shut-up house with leprosy remains unclean until evening.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Leviticus 14:7 and 14:53 describe the release of the living bird, symbolizing the person's release from impurity and restoration to freedom and new life in God.",
-          "verseReference": "Leviticus 14:7",
-          "difficulty": "medium"
-        },
-        {
-          "id": "leviticus-14-medium-q10",
-          "question": "A fellow believer is struggling with integrity in their work life. Based on Leviticus 14's emphasis on cleansing and restoration, what biblical truth can you share?",
-          "type": "multiple-choice",
-          "options": [
-            "Integrity requires ongoing repentance and commitment to God's standards",
-            "Integrity is optional if no one sees",
-            "Restoration is only about rituals, not behavior",
-            "Sin in work does not affect spiritual life"
-          ],
-          "correctAnswer": "Integrity requires ongoing repentance and commitment to God's standards",
-          "explanation": "The detailed cleansing process in Leviticus 14 (e.g., 14:8-20) shows that restoration involves sincere repentance and returning to God's holy standards, applicable to all life areas including work.",
-          "verseReference": "Leviticus 14:8",
-          "difficulty": "medium"
-        },
-        {
-          "id": "leviticus-14-medium-q11",
-          "question": "Based on the cleansing laws in Leviticus 14, what can we learn about God's concern for community health and fellowship?",
-          "type": "multiple-choice",
-          "options": [
-            "God protects community purity by regulating re-entry after cleansing",
-            "Individual cleansing has no impact on community",
-            "Leprosy laws are only for ceremonial purposes",
-            "Community health is unrelated to spiritual cleanliness"
-          ],
-          "correctAnswer": "God protects community purity by regulating re-entry after cleansing",
-          "explanation": "Leviticus 14:8-9 and 14:46-47 highlight isolation and cleansing before rejoining community, teaching that God values spiritual and communal health and fellowship.",
-          "verseReference": "Leviticus 14:8",
-          "difficulty": "medium"
-        },
-        {
-          "id": "leviticus-14-medium-q12",
-          "question": "Fill in the blank: The priest shall put the blood of the trespass offering upon the tip of the right ear, the thumb of the right hand, and the _____ of the right foot.",
-          "type": "fill-in-the-blank",
-          "options": [
-            "great toe",
-            "heel",
-            "ankle",
-            "sole"
-          ],
-          "correctAnswer": "great toe",
-          "explanation": "Leviticus 14:14 and 14:25 describe the blood being applied to the tip of the right ear, thumb, and great toe, symbolizing devoted hearing, action, and walking in obedience to God.",
-          "verseReference": "Leviticus 14:14",
-          "difficulty": "medium"
-        },
-        {
-          "id": "leviticus-14-medium-q13",
-          "question": "How does Leviticus 14's instruction about washing clothes and washing flesh teach about personal discipline and holiness?",
-          "type": "multiple-choice",
-          "options": [
-            "Personal discipline involves cleansing oneself physically and symbolically to maintain holiness",
-            "Washing is only a cultural custom with no spiritual meaning",
-            "Holiness is unrelated to daily habits",
-            "Only priests need to maintain holiness"
-          ],
-          "correctAnswer": "Personal discipline involves cleansing oneself physically and symbolically to maintain holiness",
-          "explanation": "Leviticus 14:8-9 commands washing clothes and the body as part of cleansing from impurity, teaching that holiness requires disciplined daily practices of purity.",
-          "verseReference": "Leviticus 14:8",
-          "difficulty": "medium"
-        },
-        {
-          "id": "leviticus-14-medium-q14",
-          "question": "When the priest makes atonement for the cleansed person, what does this teach us about the need for intercession and grace in overcoming sin?",
-          "type": "multiple-choice",
-          "options": [
-            "Intercession by a mediator is essential for receiving God's grace and cleansing",
-            "Individuals can cleanse themselves without help",
-            "Atonement is only symbolic and has no real effect",
-            "Grace is given without any mediation"
-          ],
-          "correctAnswer": "Intercession by a mediator is essential for receiving God's grace and cleansing",
-          "explanation": "Leviticus 14:18-20 and 14:31 show the priest making atonement for the person, illustrating the biblical principle of needing a mediator to receive God's grace and forgiveness.",
-          "verseReference": "Leviticus 14:18",
-          "difficulty": "medium"
-        },
-        {
-          "id": "leviticus-14-medium-q15",
-          "question": "How does the careful inspection of the house for leprosy in Leviticus 14 teach us about spiritual vigilance and discernment?",
-          "type": "multiple-choice",
-          "options": [
-            "We must carefully examine our lives and surroundings to identify and remove sin",
-            "Ignoring problems will make them disappear",
-            "Only physical inspection matters, not spiritual",
-            "Discerning sin is unnecessary if we feel good"
-          ],
-          "correctAnswer": "We must carefully examine our lives and surroundings to identify and remove sin",
-          "explanation": "Leviticus 14:35-44 describes the priest inspecting the house and taking action to remove leprosy, teaching the importance of spiritual vigilance and discernment to maintain holiness.",
-          "verseReference": "Leviticus 14:35",
-          "difficulty": "medium"
-        },
-        {
-          "id": "leviticus-14-medium-q16",
-          "question": "A fellow believer is tempted to despair after many failures. Based on Leviticus 14, what hope about God's restoration can you offer?",
-          "type": "multiple-choice",
-          "options": [
-            "God provides a clear process for cleansing and restoration, encouraging hope and perseverance",
-            "Failure means permanent rejection by God",
-            "Restoration is only for the perfect",
-            "God is indifferent to repeated sin"
-          ],
-          "correctAnswer": "God provides a clear process for cleansing and restoration, encouraging hope and perseverance",
-          "explanation": "Leviticus 14 outlines detailed cleansing steps (14:1-20, 14:48-53) showing God's provision for restoration through repentance, offering hope to those struggling with sin.",
-          "verseReference": "Leviticus 14:1",
+          "explanation": "Leviticus 14:46 states that anyone entering the house while it is shut up shall be unclean until the evening, emphasizing ritual purity and separation.",
+          "verseReference": "Leviticus 14:46",
           "difficulty": "medium"
         }
       ],
@@ -499,7 +484,7 @@
         "bible-quiz",
         "medium"
       ],
-      "totalQuestions": 16,
+      "totalQuestions": 15,
       "estimatedTime": 12
     },
     "hard": {
@@ -512,225 +497,223 @@
       "questions": [
         {
           "id": "leviticus-14-hard-q1",
-          "question": "What ritual object is used along with two birds, cedar wood, scarlet, and hyssop in the cleansing of a leper?",
+          "question": "What is the priest instructed to do if the plague spreads in the walls of the house after seven days?",
           "type": "multiple-choice",
           "options": [
-            "Blood of the slain bird",
-            "Oil",
-            "Water from a well",
-            "Fire"
+            "Take away the stones that have the plague and cast them into an unclean place outside the city",
+            "Burn the house down immediately",
+            "Seal the house permanently",
+            "Clean the house with water and cedar wood"
           ],
-          "correctAnswer": "Blood of the slain bird",
-          "explanation": "Leviticus 14:6 describes dipping the living bird, cedar wood, scarlet, and hyssop in the blood of the bird that was killed over running water.",
-          "verseReference": "Leviticus 14:6",
+          "correctAnswer": "Take away the stones that have the plague and cast them into an unclean place outside the city",
+          "explanation": "Leviticus 14:40 explains that if the plague spreads in the walls, the priest commands to remove the affected stones and cast them into an unclean place outside the city.",
+          "verseReference": "Leviticus 14:40",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-14-hard-q2",
-          "question": "According to Leviticus 14, how many times must the priest sprinkle the person to be cleansed?",
+          "question": "After removing the stones with the plague from a house, what does the priest do next?",
           "type": "multiple-choice",
           "options": [
-            "Seven times",
-            "Three times",
-            "Twelve times",
-            "Once"
+            "Scrape the house within, pour the dust outside the city, replace the stones, and plaster the house",
+            "Offer sacrifices at the door of the house",
+            "Burn the remaining timber and mortar",
+            "Seal the house for another seven days"
           ],
-          "correctAnswer": "Seven times",
-          "explanation": "Leviticus 14:7 states the priest shall sprinkle upon the one to be cleansed seven times.",
-          "verseReference": "Leviticus 14:7",
+          "correctAnswer": "Scrape the house within, pour the dust outside the city, replace the stones, and plaster the house",
+          "explanation": "Leviticus 14:41-42 describe the process after removing the stones: scraping inside the house, disposing of dust outside the city, replacing stones and plastering the house.",
+          "verseReference": "Leviticus 14:41-42",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-14-hard-q3",
-          "question": "What is the significance of the priest placing blood on the right ear, thumb, and great toe of the one being cleansed?",
+          "question": "What does it signify if the plague returns after the house has been repaired?",
           "type": "multiple-choice",
           "options": [
-            "Symbolizing purification of hearing, work, and walk",
-            "Marking the person as holy for sacrifice",
-            "Signifying the person's guilt",
-            "Preparing the person for exile"
+            "The house is declared unclean with fretting leprosy and must be torn down",
+            "The house needs to be cleaned again with cedar wood and hyssop",
+            "The house owner must offer a sin offering",
+            "Only the affected stones need to be replaced again"
           ],
-          "correctAnswer": "Symbolizing purification of hearing, work, and walk",
-          "explanation": "Leviticus 14:14 shows the blood applied to the right ear, thumb, and great toe, which scholars interpret as symbolizing the purification of what the person hears, does, and how they walk.",
-          "verseReference": "Leviticus 14:14",
+          "correctAnswer": "The house is declared unclean with fretting leprosy and must be torn down",
+          "explanation": "Leviticus 14:43-45 state that if the plague returns after repairs, it is fretting leprosy and the house is unclean; it must be broken down and removed outside the city.",
+          "verseReference": "Leviticus 14:43-45",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-14-hard-q4",
-          "question": "Fill in the blank: The priest pours oil into the palm of his _____ hand before sprinkling it.",
+          "question": "Who becomes unclean if they enter the shut-up house during the plague period?",
           "type": "multiple-choice",
           "options": [
-            "left",
-            "right",
-            "both",
-            "neither"
+            "Anyone who enters the house until evening",
+            "Only the owner of the house",
+            "Only the priest",
+            "Only those who eat in the house"
           ],
-          "correctAnswer": "left",
-          "explanation": "Leviticus 14:15 states the priest pours oil into the palm of his left hand.",
-          "verseReference": "Leviticus 14:15",
+          "correctAnswer": "Anyone who enters the house until evening",
+          "explanation": "Leviticus 14:46 explains that anyone who goes into the shut-up house is unclean until evening.",
+          "verseReference": "Leviticus 14:46",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-14-hard-q5",
-          "question": "Which of these offerings is NOT mentioned as part of the cleansing ritual for a leper in Leviticus 14?",
+          "question": "What must those who lie or eat in the infected house do to avoid uncleanness according to Leviticus 14?",
           "type": "multiple-choice",
           "options": [
-            "Trespass offering",
-            "Sin offering",
-            "Burnt offering",
-            "Peace offering"
+            "Wash their clothes",
+            "Offer a burnt offering",
+            "Leave the house immediately",
+            "Keep a fast for seven days"
           ],
-          "correctAnswer": "Peace offering",
-          "explanation": "The chapter mentions trespass, sin, and burnt offerings (Leviticus 14:12-19), but does not mention a peace offering as part of the cleansing.",
-          "verseReference": "Leviticus 14:12-19",
+          "correctAnswer": "Wash their clothes",
+          "explanation": "Leviticus 14:47 states that those who lie or eat in the house must wash their clothes to be clean.",
+          "verseReference": "Leviticus 14:47",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-14-hard-q6",
-          "question": "What must the person being cleansed do on the seventh day after the initial cleansing rituals?",
+          "question": "If after plastering the house the plague does not spread, what does the priest do?",
           "type": "multiple-choice",
           "options": [
-            "Shave all his hair off his head, beard, and eyebrows",
-            "Offer a burnt sacrifice",
-            "Leave the camp permanently",
-            "Fast and pray"
+            "Pronounce the house clean because the plague is healed",
+            "Seal the house for another seven days",
+            "Offer a sin offering for the house",
+            "Declare the house permanently clean without any further ritual"
           ],
-          "correctAnswer": "Shave all his hair off his head, beard, and eyebrows",
-          "explanation": "Leviticus 14:9 commands the person to shave all hair from head, beard, and eyebrows on the seventh day.",
-          "verseReference": "Leviticus 14:9",
+          "correctAnswer": "Pronounce the house clean because the plague is healed",
+          "explanation": "Leviticus 14:48 says the priest will pronounce the house clean if the plague has not spread after plastering, indicating healing.",
+          "verseReference": "Leviticus 14:48",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-14-hard-q7",
-          "question": "What is the significance of the priest releasing the living bird into the open field?",
+          "question": "What objects are used by the priest to cleanse a house from leprosy?",
           "type": "multiple-choice",
           "options": [
-            "Symbolizes the person's liberation from uncleanness",
-            "Represents a substitute for the leper's sin",
-            "Is an offering to the gods of the land",
-            "Marks the start of a new covenant"
+            "Two birds, cedar wood, scarlet, and hyssop",
+            "Two lambs, olive oil, and hyssop",
+            "Water, frankincense, and cedar wood",
+            "Scarlet, salt, and two pigeons"
           ],
-          "correctAnswer": "Symbolizes the person's liberation from uncleanness",
-          "explanation": "Leviticus 14:7 and 14:53 describe releasing the living bird as a symbolic act of freedom and cleansing from leprosy.",
-          "verseReference": "Leviticus 14:7",
+          "correctAnswer": "Two birds, cedar wood, scarlet, and hyssop",
+          "explanation": "Leviticus 14:49 lists the objects used to cleanse the house: two birds, cedar wood, scarlet, and hyssop.",
+          "verseReference": "Leviticus 14:49",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-14-hard-q8",
-          "question": "True or False: The cleansing ritual for a leper includes washing clothes, shaving hair, and washing the flesh in water.",
+          "question": "How is the living bird used in the cleansing ritual for the house?",
+          "type": "multiple-choice",
+          "options": [
+            "It is dipped with cedar, scarlet, and hyssop in the blood of the slain bird and then released outside the city",
+            "It is sacrificed on the altar as a sin offering",
+            "It is burned with cedar wood and scarlet",
+            "It is kept inside the house for seven days"
+          ],
+          "correctAnswer": "It is dipped with cedar, scarlet, and hyssop in the blood of the slain bird and then released outside the city",
+          "explanation": "Leviticus 14:51-53 describe that the living bird is dipped in the blood mixture and then let go outside the city to make atonement for the house.",
+          "verseReference": "Leviticus 14:51-53",
+          "difficulty": "hard"
+        },
+        {
+          "id": "leviticus-14-hard-q9",
+          "question": "Which of the following best describes the overall purpose of the laws given in Leviticus 14 concerning leprosy?",
+          "type": "multiple-choice",
+          "options": [
+            "To teach when someone or something is unclean and when they are clean",
+            "To punish those with leprosy severely",
+            "To isolate all sick persons permanently",
+            "To prohibit anyone who touches a leper from entering the camp"
+          ],
+          "correctAnswer": "To teach when someone or something is unclean and when they are clean",
+          "explanation": "Leviticus 14:57 clarifies that these laws are to instruct Israel about uncleanness and cleanness related to leprosy.",
+          "verseReference": "Leviticus 14:57",
+          "difficulty": "hard"
+        },
+        {
+          "id": "leviticus-14-hard-q10",
+          "question": "True or False: The priest must sprinkle the oil seven times before the LORD during the cleansing of a leper.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Leviticus 14:8 commands washing clothes, shaving all hair, and washing the flesh as part of the cleansing process.",
-          "verseReference": "Leviticus 14:8",
-          "difficulty": "hard"
-        },
-        {
-          "id": "leviticus-14-hard-q9",
-          "question": "What does the term 'wave offering' (Hebrew: tenufah) used in the chapter signify in the ancient Israelite cultic context?",
-          "type": "multiple-choice",
-          "options": [
-            "A ritual movement symbolizing dedication to God",
-            "A sacrifice consumed entirely by fire",
-            "A communal meal with priests",
-            "An offering poured out on the ground"
-          ],
-          "correctAnswer": "A ritual movement symbolizing dedication to God",
-          "explanation": "Leviticus 14:12 and 14:24 mention wave offerings, which involved waving the offering before the LORD as a symbolic dedication in the sanctuary rites.",
-          "verseReference": "Leviticus 14:12",
-          "difficulty": "hard"
-        },
-        {
-          "id": "leviticus-14-hard-q10",
-          "question": "In the historical and cultural context of the Ancient Near East, leprosy was often understood as:",
-          "type": "multiple-choice",
-          "options": [
-            "A physical and ritual impurity requiring isolation and purification",
-            "A minor skin condition with no social consequences",
-            "A punishment from foreign gods",
-            "A mark of royal favor"
-          ],
-          "correctAnswer": "A physical and ritual impurity requiring isolation and purification",
-          "explanation": "Leviticus 14 outlines detailed purification procedures, showing leprosy was seen as a serious impurity affecting social and religious status.",
-          "verseReference": "Leviticus 14:3-9",
+          "explanation": "Leviticus 14:16 states that the priest dips his finger in oil and sprinkles it seven times before the LORD during cleansing.",
+          "verseReference": "Leviticus 14:16",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-14-hard-q11",
-          "question": "Which chapter in the New Testament echoes the cleansing ritual of leprosy symbolically in the healing ministry of Jesus?",
-          "type": "multiple-choice",
+          "question": "True or False: The leper is allowed to re-enter the camp immediately after washing and shaving his hair the first time.",
+          "type": "true-false",
           "options": [
-            "Luke 17",
-            "Matthew 5",
-            "John 3",
-            "Acts 2"
+            "True",
+            "False"
           ],
-          "correctAnswer": "Luke 17",
-          "explanation": "Luke 17:11-19 recounts Jesus cleansing ten lepers, echoing Levitical purification themes.",
-          "verseReference": "Leviticus 14:2-32",
+          "correctAnswer": "False",
+          "explanation": "Leviticus 14:8-9 explain that after washing and shaving, the leper must stay outside his tent for seven days before final cleansing and reentry.",
+          "verseReference": "Leviticus 14:8-9",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-14-hard-q12",
-          "question": "What does the repeated application of blood and oil on the right ear, thumb, and toe symbolize in terms of covenant renewal?",
+          "question": "Which New Testament passage echoes the theme of cleansing and atonement found in Leviticus 14?",
           "type": "multiple-choice",
           "options": [
-            "Restoring the leper’s ability to hear, work, and walk in obedience to God",
-            "Granting royal authority",
-            "Initiating the leper into priesthood",
-            "Marking the leper for exile"
+            "1 John 1:7 - The blood of Jesus cleanses from all sin",
+            "Acts 2:38 - Baptism for the remission of sins",
+            "Romans 6:3 - Baptism into Christ's death",
+            "Hebrews 10:22 - Drawing near with a true heart in full assurance of faith"
           ],
-          "correctAnswer": "Restoring the leper’s ability to hear, work, and walk in obedience to God",
-          "explanation": "The ritual marks restoration of faculties for covenant faithfulness, paralleling themes of holiness and obedience in Israel’s law.",
-          "verseReference": "Leviticus 14:14-18",
+          "correctAnswer": "1 John 1:7 - The blood of Jesus cleanses from all sin",
+          "explanation": "Leviticus 14 depicts cleansing through blood and ritual, foreshadowing 1 John 1:7 where the blood of Jesus cleanses from sin, fulfilling Old Testament purification types.",
+          "verseReference": "Leviticus 14:19-20",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-14-hard-q13",
-          "question": "Leviticus 14 includes instructions about cleansing a house with plague. What is the first step the priest must take before examining the house?",
+          "question": "The use of cedar wood, scarlet, and hyssop in Leviticus 14 reflects what Old Testament symbolic tradition?",
           "type": "multiple-choice",
           "options": [
-            "Command that the house be emptied",
-            "Burn the house",
-            "Cover the plague with plaster",
-            "Call the owner to repent"
+            "Cleansing and purification rituals associated with sacred spaces and healing",
+            "Weapons of war used in ceremonial conquests",
+            "Ingredients for a special anointing oil used only by kings",
+            "Components for building the Ark of the Covenant"
           ],
-          "correctAnswer": "Command that the house be emptied",
-          "explanation": "Leviticus 14:36 directs the priest to have the house emptied before entering to avoid defiling its contents.",
-          "verseReference": "Leviticus 14:36",
+          "correctAnswer": "Cleansing and purification rituals associated with sacred spaces and healing",
+          "explanation": "Cedar wood, scarlet, and hyssop are symbolic elements used in purification rituals (Leviticus 14:4, 49), also seen in Psalms 51:7 (hyssop) and Numbers 19 (cleansing).",
+          "verseReference": "Leviticus 14:4, 49",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-14-hard-q14",
-          "question": "If the plague spreads in the house after removing stones and plastering, what must be done according to Leviticus 14?",
+          "question": "What is the meaning of the Hebrew word translated as 'leprosy' in Leviticus 14, and how does it reflect the ancient Israelite understanding of impurity?",
           "type": "multiple-choice",
           "options": [
-            "The house must be broken down and its materials carried out of the city",
-            "The house is pronounced clean",
-            "The priest must sprinkle oil seven times",
-            "The owner must offer a sin offering"
+            "A skin disease causing ritual impurity and social exclusion",
+            "A term for general sickness without ritual implications",
+            "A metaphor for moral sin only",
+            "A symbol for agricultural failure"
           ],
-          "correctAnswer": "The house must be broken down and its materials carried out of the city",
-          "explanation": "Leviticus 14:44-45 explains that if the plague returns, the house is unclean and must be demolished.",
-          "verseReference": "Leviticus 14:44-45",
+          "correctAnswer": "A skin disease causing ritual impurity and social exclusion",
+          "explanation": "The Hebrew word 'tzaraath' (leprosy) in Leviticus 14 refers to a physical condition with ritual impurity implications, leading to social separation as described in verses like 14:2-3.",
+          "verseReference": "Leviticus 14:2-3",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-14-hard-q15",
-          "question": "What literary device is evident in the structure of the cleansing ritual involving birds, cedar, scarlet, and hyssop, and the sprinkling of blood and oil in Leviticus 14?",
+          "question": "The structure of the cleansing ritual in Leviticus 14, involving removal of impurity, washing, shaving, offerings, and pronouncement, best exemplifies which literary device?",
           "type": "multiple-choice",
           "options": [
-            "Chiasm emphasizing purification and restoration",
-            "Parallelism showing contrasts of clean and unclean",
-            "Allegory depicting exile and return",
-            "Hyperbole to stress severity"
+            "Chiasm, a symmetrical pattern highlighting central themes",
+            "Parable, a story with a moral lesson",
+            "Inclusio, framing a passage with repeated phrases",
+            "Hyperbole, exaggerated language for emphasis"
           ],
-          "correctAnswer": "Chiasm emphasizing purification and restoration",
-          "explanation": "The chapter’s ritual structure reflects a chiastic pattern focusing on impurity and subsequent restoration symbolized by the elements and actions.",
-          "verseReference": "Leviticus 14:4-18",
+          "correctAnswer": "Chiasm, a symmetrical pattern highlighting central themes",
+          "explanation": "The ritual sequence in Leviticus 14 shows chiastic structure emphasizing purification steps, as scholars recognize in Old Testament law codes.",
+          "verseReference": "Leviticus 14:4-20",
           "difficulty": "hard"
         }
       ],
@@ -757,242 +740,227 @@
       "questions": [
         {
           "id": "leviticus-14-theological-q1",
-          "question": "According to Leviticus 14, what symbolic role do the two birds play in the cleansing ritual of the leper?",
+          "question": "What is the significance of the priest using both a living bird and a bird killed over running water in the cleansing ritual of a leper?",
           "type": "multiple-choice",
           "options": [
-            "One bird is killed and the other set free to represent purification and release from sin",
-            "Both birds are killed as an offering to God",
-            "Both birds are set free to symbolize freedom",
-            "One bird is sacrificed to atone for the priest's sins"
+            "It symbolizes the believer's death to sin and new life in Christ",
+            "It represents the dual nature of the priesthood",
+            "It is a ritual for expelling evil spirits",
+            "It shows the priest's authority over life and death"
           ],
-          "correctAnswer": "One bird is killed and the other set free to represent purification and release from sin",
-          "explanation": "Leviticus 14:4-7 describes the priest killing one bird over running water and dipping the living bird in the blood, then releasing it to symbolize the leper's cleansing and freedom. This reflects Christ’s atoning sacrifice and the believer’s release from sin (cf. Hebrews 9:22, Isaiah 53:5, 1 Peter 1:18-19, John 8:36).",
+          "correctAnswer": "It symbolizes the believer's death to sin and new life in Christ",
+          "explanation": "Leviticus 14:4-7 describes the priest killing one bird and dipping the living bird in the blood, then releasing it. This typifies the believer's cleansing: death to sin (bird killed) and new life (living bird released). This foreshadows Christ's atoning death and resurrection (Romans 6:4).",
           "verseReference": "Leviticus 14:4-7",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-14-theological-q2",
-          "question": "What is the significance of the priest applying blood to the right ear, thumb of the right hand, and great toe of the right foot in Leviticus 14?",
+          "question": "Which doctrine is primarily taught by the priest’s act of sprinkling blood on the right ear, thumb, and great toe of the person to be cleansed?",
           "type": "multiple-choice",
           "options": [
-            "It symbolizes the sanctification of hearing, work, and walk in obedience to God",
-            "It is a ritual for healing physical wounds",
-            "It represents the priest’s authority over the leper",
-            "It marks the leper as holy and separate from the community"
+            "Atonement and sanctification of the whole person",
+            "The priest’s judicial authority",
+            "The necessity of ritual purity",
+            "The symbolic cleansing of the body only"
           ],
-          "correctAnswer": "It symbolizes the sanctification of hearing, work, and walk in obedience to God",
-          "explanation": "Leviticus 14:14 and 25 show the priest anointing the right ear, thumb, and toe with blood and oil, signifying consecration of the leper’s faculties to God’s service, aligning with biblical themes of holistic sanctification (cf. Romans 12:1-2, Ephesians 4:22-24, Psalm 119:105, James 1:22).",
+          "correctAnswer": "Atonement and sanctification of the whole person",
+          "explanation": "Leviticus 14:14 shows blood applied to the right ear (hearing), thumb (work), and great toe (walk), symbolizing sanctification of the person’s entire life. This teaches the doctrine of atonement covering all aspects of human existence.",
           "verseReference": "Leviticus 14:14",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-14-theological-q3",
-          "question": "What does the washing of clothes and shaving of hair symbolize in the cleansing of the leper?",
+          "question": "How does the washing of clothes, shaving of hair, and washing of the body in Leviticus 14:8-9 relate to sanctification?",
           "type": "multiple-choice",
           "options": [
-            "A ceremonial cleansing representing purification from sin and renewal",
-            "A punishment for past sins",
-            "A sign of mourning over uncleanness",
-            "A requirement to rejoin the military camp"
+            "It represents external and internal purification necessary for holiness",
+            "It is merely a hygiene practice",
+            "It is a symbolic rejection of the old covenant",
+            "It symbolizes the priest’s cleansing power"
           ],
-          "correctAnswer": "A ceremonial cleansing representing purification from sin and renewal",
-          "explanation": "Leviticus 14:8-9 prescribes washing and shaving as part of the cleansing ritual, symbolizing spiritual cleansing and newness of life, consistent with biblical symbolism of washing and renewal (cf. Ezekiel 36:25-26, Titus 3:5, 2 Corinthians 5:17, Psalm 51:7).",
+          "correctAnswer": "It represents external and internal purification necessary for holiness",
+          "explanation": "Verses 8-9 show the leper washing clothes, shaving, and washing the body, symbolizing both external cleansing and internal sanctification required for re-entry into the camp (God’s presence). This prefigures sanctification in the believer’s life (1 Corinthians 6:11).",
           "verseReference": "Leviticus 14:8-9",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-14-theological-q4",
-          "question": "In Leviticus 14, why is the burnt offering included in the cleansing process?",
+          "question": "What attribute of God is revealed by His detailed instructions for cleansing the leper, including the use of oil and offerings?",
           "type": "multiple-choice",
           "options": [
-            "It signifies complete surrender and atonement for sin",
-            "It is a meal for the priest",
-            "It symbolizes the leper's wealth",
-            "It is a gift for neighbors"
+            "Holiness and justice",
+            "Omnipotence",
+            "Omniscience",
+            "Grace and mercy"
           ],
-          "correctAnswer": "It signifies complete surrender and atonement for sin",
-          "explanation": "Leviticus 14:19-20 shows the burnt offering as part of making atonement, representing dedication and substitutionary sacrifice, pointing forward to Christ’s ultimate atonement (cf. Leviticus 1:3-4, Romans 12:1, Hebrews 10:10, Isaiah 53:10).",
-          "verseReference": "Leviticus 14:19-20",
+          "correctAnswer": "Holiness and justice",
+          "explanation": "Leviticus 14:10-20 outlines precise offerings and rituals, reflecting God’s holiness requiring justice to address sin and impurity. The structured atonement process shows God’s just requirement for cleansing.",
+          "verseReference": "Leviticus 14:10-20",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-14-theological-q5",
-          "question": "How does Leviticus 14 address the situation of a poor person who cannot afford the full cleansing offerings?",
+          "question": "According to Leviticus 14:34-53, what theological principle is taught by the cleansing of a leprous house?",
           "type": "multiple-choice",
           "options": [
-            "He may bring fewer and more affordable offerings including turtledoves or pigeons",
-            "He must wait until he can afford the full offerings",
-            "He is excluded from the cleansing process",
-            "He must offer a goat instead"
+            "God’s concern for communal purity and judgment on sin",
+            "The power of pagan rituals",
+            "The insignificance of physical environment",
+            "The autonomy of the homeowner"
           ],
-          "correctAnswer": "He may bring fewer and more affordable offerings including turtledoves or pigeons",
-          "explanation": "Leviticus 14:21-31 provides a provision for the poor to offer less expensive animals, showing God's grace and inclusivity in the cleansing process, consistent with God's care for the poor seen throughout Scripture (cf. Deuteronomy 15:7-11, Psalm 41:1-3, Luke 2:24, Matthew 5:3).",
-          "verseReference": "Leviticus 14:21-23",
-          "difficulty": "hard"
-        },
-        {
-          "id": "leviticus-14-theological-q6",
-          "question": "What theological truth about God's holiness and sin is reflected in the requirement to quarantine the leper outside the camp until clean?",
-          "type": "multiple-choice",
-          "options": [
-            "Sin causes separation from God’s holy community until atonement is made",
-            "Leprosy is a curse from God that must be feared",
-            "The leper is permanently rejected by God",
-            "Physical health equals spiritual righteousness"
-          ],
-          "correctAnswer": "Sin causes separation from God’s holy community until atonement is made",
-          "explanation": "Leviticus 14:3 and 8 show the leper is outside the camp until cleansed, illustrating the biblical principle that sin causes separation from God’s holiness and community (cf. Isaiah 59:2, 1 Corinthians 6:9-11, Hebrews 12:14, Revelation 21:27).",
-          "verseReference": "Leviticus 14:3, 8",
-          "difficulty": "hard"
-        },
-        {
-          "id": "leviticus-14-theological-q7",
-          "question": "What is the purpose of the priest sprinkling the oil seven times during the cleansing ceremony?",
-          "type": "multiple-choice",
-          "options": [
-            "To symbolize completeness and divine blessing in the cleansing",
-            "To show the priest’s power over disease",
-            "To mark the leper visibly for the community",
-            "To represent the seven days of isolation"
-          ],
-          "correctAnswer": "To symbolize completeness and divine blessing in the cleansing",
-          "explanation": "Leviticus 14:16 and 27 describe the priest sprinkling oil seven times, with seven symbolizing perfection and completeness in Scripture (cf. Genesis 2:2, Joshua 6:4-5, Revelation 1:4, Psalm 12:6). This act signifies God's complete blessing and cleansing.",
-          "verseReference": "Leviticus 14:16",
-          "difficulty": "hard"
-        },
-        {
-          "id": "leviticus-14-theological-q8",
-          "question": "How does the cleansing of a house from leprous plague in Leviticus 14 reflect the broader biblical teaching about sin and holiness in the community?",
-          "type": "multiple-choice",
-          "options": [
-            "Sin affects not only individuals but also communal spaces, requiring purification",
-            "Only physical causes require attention, not spiritual",
-            "Houses are less important than people in holiness",
-            "Sin can be ignored if it is hidden"
-          ],
-          "correctAnswer": "Sin affects not only individuals but also communal spaces, requiring purification",
-          "explanation": "Leviticus 14:34-53 discusses cleansing a house from plague, showing sin’s impact on community and environment, consistent with biblical teaching about corporate holiness and responsibility (cf. Joshua 7:10-15, 2 Chronicles 29:5-11, 1 Corinthians 5:6-7, Ezekiel 36:25-27).",
+          "correctAnswer": "God’s concern for communal purity and judgment on sin",
+          "explanation": "Verses 34-53 describe cleansing or destruction of a leprous house, teaching that sin defiles not only individuals but the community and environment, emphasizing God’s holiness and communal judgment (1 Corinthians 5:6-7).",
           "verseReference": "Leviticus 14:34-53",
           "difficulty": "hard"
         },
         {
-          "id": "leviticus-14-theological-q9",
-          "question": "Which elements used in the cleansing ritual of lepers and houses also appear in the Passover and other purification rites, connecting these rituals to the broader theme of salvation?",
+          "id": "leviticus-14-theological-q6",
+          "question": "What synthesis of Leviticus 14:16-18 and 14:25-29 reveals about the role of the oil in the cleansing ceremony?",
           "type": "multiple-choice",
           "options": [
-            "Cedar wood, scarlet yarn, and hyssop",
-            "Frankincense, myrrh, and gold",
-            "Olive oil, manna, and water",
-            "Salt, brimstone, and fire"
+            "It signifies the Holy Spirit’s work in sanctification and atonement",
+            "It is a symbol of wealth",
+            "It acts as a disinfectant",
+            "It represents priestly authority exclusively"
           ],
-          "correctAnswer": "Cedar wood, scarlet yarn, and hyssop",
-          "explanation": "Leviticus 14:4, 49-51 includes cedar wood, scarlet, and hyssop, which are also used in the Passover (Exodus 12:22) and purification rites (Numbers 19:6), symbolizing cleansing and salvation through God's provision (cf. Psalm 51:7, John 19:29).",
-          "verseReference": "Leviticus 14:4, 49-51",
+          "correctAnswer": "It signifies the Holy Spirit’s work in sanctification and atonement",
+          "explanation": "Verses 16-18 and 25-29 show oil being sprinkled and applied alongside blood, indicating sanctification and atonement. The oil symbolizes the Holy Spirit’s anointing, cleansing, and setting apart the person (Isaiah 61:1).",
+          "verseReference": "Leviticus 14:16-18, 25-29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "leviticus-14-theological-q7",
+          "question": "How do Leviticus 14:21-31 and 14:10-20 together teach about God’s provision for the poor in the sacrificial system?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s justice includes mercy and accommodation for economic limitations",
+            "Only the wealthy can approach God",
+            "Sacrifices are optional for the poor",
+            "The poor are excluded from cleansing"
+          ],
+          "correctAnswer": "God’s justice includes mercy and accommodation for economic limitations",
+          "explanation": "Verses 21-31 provide substitute offerings for the poor, showing God’s merciful provision so all can be cleansed, indicating divine justice balanced with mercy (Psalm 68:5).",
+          "verseReference": "Leviticus 14:21-31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "leviticus-14-theological-q8",
+          "question": "What narrative arc does Leviticus 14:1-7 establish for the restoration of the leper in the Old Testament redemptive history?",
+          "type": "multiple-choice",
+          "options": [
+            "The progression from impurity and exile to purification and reintegration",
+            "The final judgment without hope",
+            "A purely physical healing without spiritual meaning",
+            "The priest’s political power"
+          ],
+          "correctAnswer": "The progression from impurity and exile to purification and reintegration",
+          "explanation": "Verses 1-7 outline the leper being examined, declared clean, and ceremonially restored, reflecting the redemptive pattern of fall, cleansing, and restoration to community (Ezekiel 37:23).",
+          "verseReference": "Leviticus 14:1-7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "leviticus-14-theological-q9",
+          "question": "How does the final verse (Leviticus 14:57) summarize the theological purpose of the entire chapter?",
+          "type": "multiple-choice",
+          "options": [
+            "To teach distinctions between clean and unclean for holiness",
+            "To provide a historical account of leprosy",
+            "To explain the origin of scarlet color symbolism",
+            "To emphasize the authority of the priesthood"
+          ],
+          "correctAnswer": "To teach distinctions between clean and unclean for holiness",
+          "explanation": "Verse 57 states the chapter’s purpose: teaching when something is unclean or clean, underpinning the doctrine of holiness and separation from sin (1 Peter 1:16).",
+          "verseReference": "Leviticus 14:57",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-14-theological-q10",
-          "question": "What doctrine about atonement is illustrated by the priest making atonement for the cleansed person before the LORD?",
+          "question": "Sceptics claim that the detailed rituals for cleansing leprosy in Leviticus 14 are merely superstition with no spiritual significance. What does Leviticus 14:4-20 actually teach about the nature of sin and atonement?",
           "type": "multiple-choice",
           "options": [
-            "Atonement requires a mediator who applies the cleansing to the sinner",
-            "Atonement is automatic once the offering is made",
-            "The sinner can atone for themselves without a priest",
-            "No atonement is necessary for ceremonial uncleanness"
+            "Sin requires a divinely appointed atonement process involving substitution and purification",
+            "The rituals are arbitrary and outdated",
+            "They only address physical cleanliness",
+            "They are symbolic only for the priest’s benefit"
           ],
-          "correctAnswer": "Atonement requires a mediator who applies the cleansing to the sinner",
-          "explanation": "Leviticus 14:18-20, 29-31 describe the priest making atonement, illustrating the need for a mediator to apply God's cleansing, prefiguring Christ as our great High Priest (cf. Hebrews 4:14-16, 1 Timothy 2:5, Romans 3:25, Isaiah 53:11).",
-          "verseReference": "Leviticus 14:18-20",
+          "correctAnswer": "Sin requires a divinely appointed atonement process involving substitution and purification",
+          "explanation": "Verses 4-20 present a divinely mandated ritual involving blood, oil, and offerings that signify substitutionary atonement and sanctification, teaching the theological truth that sin corrupts and must be addressed by God’s provision (Hebrews 9:22).",
+          "verseReference": "Leviticus 14:4-20",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-14-theological-q11",
-          "question": "What is the theological significance of the priest pouring the remaining oil on the head of the cleansed person?",
+          "question": "What attribute of God is manifested in His command for the priest to inspect and cleanse the house afflicted with leprosy as in Leviticus 14:34-48?",
           "type": "multiple-choice",
           "options": [
-            "It signifies consecration and fullness of the Holy Spirit's blessing",
-            "It is a sign of the person's wealth",
-            "It marks the person as a priest",
-            "It is a ritual to protect from future disease"
+            "God’s holiness and concern for purity extend beyond individuals to the community and environment",
+            "God’s wrath alone",
+            "God’s indifference",
+            "God’s favoritism"
           ],
-          "correctAnswer": "It signifies consecration and fullness of the Holy Spirit's blessing",
-          "explanation": "Leviticus 14:18, 29 records the oil poured on the head, symbolizing anointing and consecration, pointing to the Holy Spirit's role in sanctification (cf. 1 Samuel 16:13, Psalm 23:5, Acts 10:38, 2 Corinthians 1:21).",
-          "verseReference": "Leviticus 14:18",
+          "correctAnswer": "God’s holiness and concern for purity extend beyond individuals to the community and environment",
+          "explanation": "Verses 34-48 show God’s holiness demanding cleansing of impurity in a house, signifying His comprehensive concern for purity in all areas of life, reflecting His unchanging holy nature (Psalm 99:9).",
+          "verseReference": "Leviticus 14:34-48",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-14-theological-q12",
-          "question": "How does the provision for cleansing the poor in Leviticus 14 contribute to understanding God's justice and mercy?",
+          "question": "What combined theological insight do Leviticus 14:5-7 and 14:49-53 provide about the symbolism of birds, cedar wood, scarlet, and hyssop in cleansing rituals?",
           "type": "multiple-choice",
           "options": [
-            "It shows God’s mercy by allowing alternative offerings for those unable to afford full sacrifices",
-            "It implies that poor people are less favored by God",
-            "It excludes the poor from full participation in worship",
-            "It requires the poor to borrow offerings"
+            "They symbolize purification, atonement, and new life through God’s provision",
+            "They are decorations for the altar",
+            "They represent the four seasons",
+            "They are used to scare away evil spirits"
           ],
-          "correctAnswer": "It shows God’s mercy by allowing alternative offerings for those unable to afford full sacrifices",
-          "explanation": "Leviticus 14:21-31 provides for the poor to offer turtledoves or pigeons, demonstrating God's justice and mercy by accommodating economic disparity, consistent with biblical care for the marginalized (cf. Exodus 23:3, Deuteronomy 15:7-11, Luke 4:18, James 1:27).",
-          "verseReference": "Leviticus 14:21-23",
+          "correctAnswer": "They symbolize purification, atonement, and new life through God’s provision",
+          "explanation": "Verses 5-7 and 49-53 both mention birds, cedar, scarlet, and hyssop used in cleansing lepers and houses, symbolizing purification and the life-giving work of God’s atonement and provision (Psalm 51:7).",
+          "verseReference": "Leviticus 14:5-7, 49-53",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-14-theological-q13",
-          "question": "What eschatological hope can be derived from the cleansing rituals in Leviticus 14?",
+          "question": "What doctrinal truth is taught by the requirement in Leviticus 14:12-13 that the trespass offering be slain where the sin and burnt offerings are killed, described as 'most holy'?",
           "type": "multiple-choice",
           "options": [
-            "Ultimate cleansing and restoration from sin through Christ’s sacrifice",
-            "A promise of physical healing only in this life",
-            "A permanent separation from God for the unclean",
-            "A ritual that needs to be repeated for every sin"
+            "The necessity of substitutionary sacrifice for atonement",
+            "The priest’s superiority over the people",
+            "The importance of ritual timing",
+            "The value of animal sacrifices as good luck charms"
           ],
-          "correctAnswer": "Ultimate cleansing and restoration from sin through Christ’s sacrifice",
-          "explanation": "The cleansing rituals foreshadow Christ's atoning work that fully cleanses sin and restores believers (cf. Hebrews 9:13-14, Revelation 21:27, 1 John 1:7, Isaiah 1:18), giving hope of final purification and eternal fellowship with God.",
-          "verseReference": "Leviticus 14:1-20",
+          "correctAnswer": "The necessity of substitutionary sacrifice for atonement",
+          "explanation": "Verses 12-13 emphasize the trespass offering’s sacredness and substitutionary nature, teaching the doctrine that sin demands a holy sacrifice to achieve atonement (Romans 3:25).",
+          "verseReference": "Leviticus 14:12-13",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-14-theological-q14",
-          "question": "Why does Leviticus 14 require that the priest inspect the house seven days after sealing it due to a suspected plague?",
+          "question": "How does Leviticus 14:30-31 illustrate God's provision for varying economic statuses among His people in the atonement process?",
           "type": "multiple-choice",
           "options": [
-            "To allow time for the plague to manifest or disappear, demonstrating God's judgment and mercy",
-            "To punish the owner for negligence",
-            "To give time for neighbors to report the house",
-            "To perform a seven-day exorcism ritual"
+            "It shows God’s inclusiveness by allowing turtledoves or pigeons as offerings",
+            "It restricts offerings to only expensive animals",
+            "It implies that only the wealthy can be cleansed",
+            "It mandates identical offerings regardless of means"
           ],
-          "correctAnswer": "To allow time for the plague to manifest or disappear, demonstrating God's judgment and mercy",
-          "explanation": "Leviticus 14:38-39 describes the seven-day quarantine of the house, reflecting God’s righteous judgment balanced with patience and opportunity for cleansing (cf. 2 Peter 3:9, Exodus 34:6-7, Numbers 14:18, Ezekiel 18:23).",
-          "verseReference": "Leviticus 14:38-39",
+          "correctAnswer": "It shows God’s inclusiveness by allowing turtledoves or pigeons as offerings",
+          "explanation": "Verses 30-31 allow the poor to bring birds instead of lambs for sin and burnt offerings, demonstrating God’s merciful accommodation in the atonement system (Exodus 12:3-4).",
+          "verseReference": "Leviticus 14:30-31",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-14-theological-q15",
-          "question": "What is the theological implication of the priest pronouncing the house clean after the cleansing?",
+          "question": "What synthesis of Leviticus 14:38-41 and 14:45-46 teaches about the consequences of unrepentant impurity in the community?",
           "type": "multiple-choice",
           "options": [
-            "God's word through the priest declares restoration and acceptance",
-            "The house is permanently sanctified regardless of future sin",
-            "The priest's word is symbolic but does not change reality",
-            "Only physical cleanliness is restored, not spiritual"
+            "Persistent impurity leads to destruction and separation from the community",
+            "Impurity is ignored if it persists",
+            "Impurity is healed automatically",
+            "Impurity only affects the individual"
           ],
-          "correctAnswer": "God's word through the priest declares restoration and acceptance",
-          "explanation": "Leviticus 14:48 shows the priest pronouncing the house clean, which signifies divine acceptance and restoration, echoing the authority God gives to His ministers to declare forgiveness (cf. Matthew 16:19, John 20:23, Isaiah 52:7, Ezekiel 36:25-27).",
-          "verseReference": "Leviticus 14:48",
-          "difficulty": "hard"
-        },
-        {
-          "id": "leviticus-14-theological-q16",
-          "question": "How does the use of running water in the cleansing rituals relate to biblical themes of purity and life?",
-          "type": "multiple-choice",
-          "options": [
-            "Running water symbolizes continual cleansing and the living water of the Spirit",
-            "Running water is used to wash away physical dirt only",
-            "Still water would have been better for ritual purity",
-            "The water is a symbol of death and judgment"
-          ],
-          "correctAnswer": "Running water symbolizes continual cleansing and the living water of the Spirit",
-          "explanation": "Leviticus 14:5-6 and 50-51 specify killing the bird over running water and dipping elements into it, representing ongoing cleansing, prefiguring Christ as living water (cf. Ezekiel 36:25, John 4:14, John 7:38, Revelation 22:1).",
-          "verseReference": "Leviticus 14:5-6",
+          "correctAnswer": "Persistent impurity leads to destruction and separation from the community",
+          "explanation": "Verses 38-41 describe quarantine and removal of infected stones; 45-46 prescribe demolition and uncleanness for those entering. This teaches that unrepentant sin brings judgment and separation (Hebrews 12:29).",
+          "verseReference": "Leviticus 14:38-41, 45-46",
           "difficulty": "hard"
         }
       ],
@@ -1006,7 +974,7 @@
         "bible-quiz",
         "theological"
       ],
-      "totalQuestions": 16,
+      "totalQuestions": 15,
       "estimatedTime": 25
     }
   }

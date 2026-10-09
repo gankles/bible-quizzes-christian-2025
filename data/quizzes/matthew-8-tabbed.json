@@ -13,13 +13,28 @@
       "questions": [
         {
           "id": "matthew-8-easy-q1",
+          "question": "In Matthew 8, which of the following appears FIRST in the chapter?",
+          "type": "multiple-choice",
+          "options": [
+            "A leper worshipped Jesus and asked to be made clean",
+            "Jesus put forth his hand and touched the leper",
+            "Jesus came down from the mountain and great multitudes followed him",
+            "A centurion came to Jesus beseeching him"
+          ],
+          "correctAnswer": "Jesus came down from the mountain and great multitudes followed him",
+          "explanation": "Matthew 8:1 states that Jesus came down from the mountain and great multitudes followed him, which is the earliest event mentioned in the chapter.",
+          "verseReference": "Matthew 8:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-8-easy-q2",
           "question": "Who came to Jesus and worshipped him, saying, 'Lord, if thou wilt, thou canst make me clean'?",
           "type": "multiple-choice",
           "options": [
             "A leper",
             "A centurion",
-            "A scribe",
-            "Peter's wife's mother"
+            "A blind man",
+            "A Pharisee"
           ],
           "correctAnswer": "A leper",
           "explanation": "Matthew 8:2 states that a leper came and worshipped Jesus, asking to be made clean.",
@@ -27,207 +42,190 @@
           "difficulty": "easy"
         },
         {
-          "id": "matthew-8-easy-q2",
+          "id": "matthew-8-easy-q3",
           "question": "What did Jesus do to the leper to make him clean?",
           "type": "multiple-choice",
           "options": [
-            "Spoke a word",
-            "Put forth his hand and touched him",
-            "Gave him water to drink",
-            "Prayed over him"
+            "He put forth his hand and touched him",
+            "He spoke a word from afar",
+            "He sent him to the priests",
+            "He laid hands on him without touching"
           ],
-          "correctAnswer": "Put forth his hand and touched him",
-          "explanation": "According to Matthew 8:3, Jesus put forth his hand and touched the leper, saying, 'I will; be thou clean.'",
+          "correctAnswer": "He put forth his hand and touched him",
+          "explanation": "Matthew 8:3 states that Jesus put forth his hand and touched the leper, saying 'I will; be thou clean.'",
           "verseReference": "Matthew 8:3",
           "difficulty": "easy"
         },
         {
-          "id": "matthew-8-easy-q3",
-          "question": "What did Jesus tell the healed leper to do after being cleansed?",
+          "id": "matthew-8-easy-q4",
+          "question": "What did Jesus instruct the cleansed leper to do after he was healed?",
           "type": "multiple-choice",
           "options": [
-            "Tell everyone immediately",
-            "Go to the priest and offer the gift Moses commanded",
-            "Follow Jesus",
-            "Stay in the city"
+            "Tell no man but show himself to the priest and offer the gift Moses commanded",
+            "Go and tell everyone what happened",
+            "Follow Jesus to the next town",
+            "Remain at home and rest"
           ],
-          "correctAnswer": "Go to the priest and offer the gift Moses commanded",
-          "explanation": "Matthew 8:4 instructs the healed leper to show himself to the priest and offer the gift as commanded by Moses.",
+          "correctAnswer": "Tell no man but show himself to the priest and offer the gift Moses commanded",
+          "explanation": "Matthew 8:4 records Jesus' instruction to the healed leper to tell no man, but to show himself to the priest and offer the gift commanded by Moses.",
           "verseReference": "Matthew 8:4",
           "difficulty": "easy"
         },
         {
-          "id": "matthew-8-easy-q4",
-          "question": "Who came to Jesus in Capernaum, asking for healing for his servant?",
+          "id": "matthew-8-easy-q5",
+          "question": "Where did Jesus enter when the centurion came to him?",
           "type": "multiple-choice",
           "options": [
-            "A centurion",
-            "A Pharisee",
-            "A tax collector",
-            "A scribe"
+            "Capernaum",
+            "Jerusalem",
+            "Bethany",
+            "Nazareth"
           ],
-          "correctAnswer": "A centurion",
-          "explanation": "Matthew 8:5 tells us that a centurion came to Jesus in Capernaum beseeching him.",
+          "correctAnswer": "Capernaum",
+          "explanation": "Matthew 8:5 states that Jesus entered into Capernaum when the centurion came to him.",
           "verseReference": "Matthew 8:5",
           "difficulty": "easy"
         },
         {
-          "id": "matthew-8-easy-q5",
-          "question": "What did the centurion say about Jesus coming under his roof?",
-          "type": "multiple-choice",
-          "options": [
-            "He welcomed Jesus gladly",
-            "He said he was not worthy for Jesus to come under his roof",
-            "He insisted Jesus must come",
-            "He said it was necessary for the healing"
-          ],
-          "correctAnswer": "He said he was not worthy for Jesus to come under his roof",
-          "explanation": "In Matthew 8:8, the centurion humbly says he is not worthy for Jesus to come under his roof but only to speak the word.",
-          "verseReference": "Matthew 8:8",
-          "difficulty": "easy"
-        },
-        {
           "id": "matthew-8-easy-q6",
-          "question": "Why did the centurion believe Jesus could heal his servant by just speaking a word?",
+          "question": "What did the centurion say about his servant's condition?",
           "type": "multiple-choice",
           "options": [
-            "Because Jesus was a prophet",
-            "Because he had authority over illness",
-            "Because he understood authority and command",
-            "Because he saw a miracle before"
+            "My servant lieth at home sick of the palsy, grievously tormented",
+            "My servant is blind and cannot see",
+            "My servant is deaf and cannot hear",
+            "My servant is possessed by an evil spirit"
           ],
-          "correctAnswer": "Because he understood authority and command",
-          "explanation": "Matthew 8:9 explains the centurion’s understanding of authority, comparing it to his command over soldiers.",
-          "verseReference": "Matthew 8:9",
+          "correctAnswer": "My servant lieth at home sick of the palsy, grievously tormented",
+          "explanation": "Matthew 8:6 states that the centurion said his servant lay at home sick of palsy and was grievously tormented.",
+          "verseReference": "Matthew 8:6",
           "difficulty": "easy"
         },
         {
           "id": "matthew-8-easy-q7",
-          "question": "What did Jesus say about the centurion's faith?",
+          "question": "What did Jesus say to the centurion about healing his servant?",
           "type": "multiple-choice",
           "options": [
-            "It was the greatest faith he had found in Israel",
-            "It was weak",
-            "It was common among the people",
-            "It needed improvement"
+            "I will come and heal him",
+            "Your faith will make him well",
+            "Go and your servant will be healed",
+            "I will send my disciples to heal him"
           ],
-          "correctAnswer": "It was the greatest faith he had found in Israel",
-          "explanation": "In Matthew 8:10, Jesus marvels and says he has not found so great faith in Israel.",
-          "verseReference": "Matthew 8:10",
+          "correctAnswer": "I will come and heal him",
+          "explanation": "Matthew 8:7 records Jesus saying to the centurion, 'I will come and heal him.'",
+          "verseReference": "Matthew 8:7",
           "difficulty": "easy"
         },
         {
           "id": "matthew-8-easy-q8",
-          "question": "Who did Jesus say would come from the east and west to sit with Abraham, Isaac, and Jacob in the kingdom of heaven?",
+          "question": "How did the centurion respond to Jesus' offer to come to his house?",
           "type": "multiple-choice",
           "options": [
-            "Many",
-            "Only the Jews",
-            "The disciples",
-            "The Pharisees"
+            "Lord, I am not worthy that thou shouldest come under my roof: but speak the word only, and my servant shall be healed",
+            "Please come quickly and heal him in person",
+            "I will prepare a feast for you",
+            "Thank you, I will bring him to you"
           ],
-          "correctAnswer": "Many",
-          "explanation": "Matthew 8:11 states that many shall come from east and west to sit with the patriarchs in heaven's kingdom.",
-          "verseReference": "Matthew 8:11",
+          "correctAnswer": "Lord, I am not worthy that thou shouldest come under my roof: but speak the word only, and my servant shall be healed",
+          "explanation": "Matthew 8:8 shows the centurion humbly saying he is not worthy for Jesus to come under his roof but believes that Jesus' word alone will heal his servant.",
+          "verseReference": "Matthew 8:8",
           "difficulty": "easy"
         },
         {
           "id": "matthew-8-easy-q9",
-          "question": "What will happen to the children of the kingdom, according to Jesus?",
+          "question": "What illustration did the centurion use to explain his authority?",
           "type": "multiple-choice",
           "options": [
-            "They will be blessed",
-            "They shall be cast out into outer darkness",
-            "They shall inherit the earth",
-            "They shall be healed"
+            "I am a man under authority, having soldiers under me: and I say to this man, Go, and he goeth",
+            "I am a shepherd and my sheep follow my voice",
+            "I am a king and my subjects obey my commands",
+            "I am a merchant and my workers do as I say"
           ],
-          "correctAnswer": "They shall be cast out into outer darkness",
-          "explanation": "Matthew 8:12 warns that the children of the kingdom will be cast into outer darkness with weeping and gnashing of teeth.",
-          "verseReference": "Matthew 8:12",
+          "correctAnswer": "I am a man under authority, having soldiers under me: and I say to this man, Go, and he goeth",
+          "explanation": "Matthew 8:9 records the centurion explaining his authority by saying he commands soldiers who obey his orders.",
+          "verseReference": "Matthew 8:9",
           "difficulty": "easy"
         },
         {
           "id": "matthew-8-easy-q10",
-          "question": "What happened to the centurion's servant after Jesus spoke the word?",
+          "question": "What was Jesus' reaction when he heard the centurion's faith?",
           "type": "multiple-choice",
           "options": [
-            "He was healed immediately",
-            "He remained sick",
-            "He was healed after a week",
-            "He died"
+            "He marvelled and said he had not found so great faith in Israel",
+            "He was displeased and doubted the centurion",
+            "He immediately healed the servant without comment",
+            "He sent the servant to be healed by others"
           ],
-          "correctAnswer": "He was healed immediately",
-          "explanation": "Matthew 8:13 confirms the servant was healed in the same hour as Jesus spoke.",
-          "verseReference": "Matthew 8:13",
+          "correctAnswer": "He marvelled and said he had not found so great faith in Israel",
+          "explanation": "Matthew 8:10 states that Jesus marvelled and said he had not found so great faith in Israel.",
+          "verseReference": "Matthew 8:10",
           "difficulty": "easy"
         },
         {
           "id": "matthew-8-easy-q11",
-          "question": "Whose house did Jesus enter where he healed a sick woman with a fever?",
+          "question": "Who did Jesus say shall come from the east and west to sit down with Abraham, Isaac, and Jacob in the kingdom of heaven?",
           "type": "multiple-choice",
           "options": [
-            "Peter's house",
-            "John's house",
-            "The centurion's house",
-            "A scribe's house"
+            "Many",
+            "Few",
+            "Only Israelites",
+            "The Pharisees"
           ],
-          "correctAnswer": "Peter's house",
-          "explanation": "Matthew 8:14 states Jesus came into Peter's house and healed his wife's mother from a fever.",
-          "verseReference": "Matthew 8:14",
+          "correctAnswer": "Many",
+          "explanation": "Matthew 8:11 says that many shall come from the east and west and shall sit with Abraham, Isaac, and Jacob in the kingdom of heaven.",
+          "verseReference": "Matthew 8:11",
           "difficulty": "easy"
         },
         {
           "id": "matthew-8-easy-q12",
-          "question": "True or False: Jesus healed many possessed with devils by casting out the spirits with his word.",
+          "question": "The children of the kingdom shall be cast out into outer darkness, where there shall be weeping and gnashing of teeth.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Matthew 8:16 records that Jesus cast out spirits with his word and healed all who were sick.",
-          "verseReference": "Matthew 8:16",
+          "explanation": "Matthew 8:12 states that the children of the kingdom will be cast out into outer darkness with weeping and gnashing of teeth.",
+          "verseReference": "Matthew 8:12",
           "difficulty": "easy"
         },
         {
           "id": "matthew-8-easy-q13",
-          "question": "True or False: Jesus told a scribe that the Son of man has many places to rest his head.",
+          "question": "Jesus told the healed leper to offer the gift Moses commanded for a testimony unto them.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Matthew 8:4 records Jesus instructing the leper to show himself to the priest and offer the gift Moses commanded as testimony.",
+          "verseReference": "Matthew 8:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-8-easy-q14",
+          "question": "The centurion stated he was not worthy that Jesus should come under his roof but asked Him to only speak the word to heal his servant.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Matthew 8:20 states that the Son of man has not where to lay his head, unlike foxes and birds.",
-          "verseReference": "Matthew 8:20",
+          "explanation": "Matthew 8:8 shows the centurion said Jesus did not need to come to his house, just to speak the word to heal his servant.",
+          "verseReference": "Matthew 8:8",
           "difficulty": "easy"
         },
         {
-          "id": "matthew-8-easy-q14",
-          "question": "True or False: Jesus calmed the storm after his disciples woke him up because they were afraid.",
+          "id": "matthew-8-easy-q15",
+          "question": "Jesus did not physically go to the centurion's house or touch the servant; He healed by speaking the word.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
-          "correctAnswer": "True",
-          "explanation": "Matthew 8:24-26 describes a great tempest and Jesus calming the storm after being awakened.",
-          "verseReference": "Matthew 8:24-26",
-          "difficulty": "easy"
-        },
-        {
-          "id": "matthew-8-easy-q15",
-          "question": "Complete the verse from Matthew 8:26: 'Why are ye fearful, O ye of little ______?'",
-          "type": "fill-blank",
-          "options": [
-            "faith",
-            "hope",
-            "love",
-            "strength"
-          ],
-          "correctAnswer": "faith",
-          "explanation": "Matthew 8:26 shows Jesus rebuking his disciples for their fear and little faith during the storm.",
-          "verseReference": "Matthew 8:26",
+          "correctAnswer": "False",
+          "explanation": "Though not explicitly stated in these verses, the centurion's faith was that Jesus could heal by speaking the word only (Matthew 8:8-9), and Jesus marvelled at this faith (Matthew 8:10). There is no mention of Jesus touching the servant.",
+          "verseReference": "Matthew 8:8-10",
           "difficulty": "easy"
         }
       ],
@@ -254,223 +252,221 @@
       "questions": [
         {
           "id": "matthew-8-medium-q1",
-          "question": "A fellow believer is struggling with doubt about God's power to heal. Based on Matthew 8, what biblical truth would you share about faith and healing?",
+          "question": "What did Jesus say to the centurion regarding his servant's healing?",
           "type": "multiple-choice",
           "options": [
-            "Great faith can bring about healing even from a distance",
-            "Healing is only for those who are physically close to Jesus",
-            "Faith must be proven by works before healing occurs",
-            "Only priests can declare someone clean after healing"
+            "Go thy way; and as thou hast believed, so be it done unto thee.",
+            "Your faith has made you whole.",
+            "I will come and heal him.",
+            "Thy servant is healed."
           ],
-          "correctAnswer": "Great faith can bring about healing even from a distance",
-          "explanation": "In Matthew 8:8-10 and 13, the centurion expresses great faith that Jesus can heal his servant just by speaking the word, without being physically present. Jesus marvels at this faith and heals the servant immediately, showing that trust in God's power is key to healing.",
-          "verseReference": "Matthew 8:8-10",
+          "correctAnswer": "Go thy way; and as thou hast believed, so be it done unto thee.",
+          "explanation": "This is the exact statement made by Jesus to the centurion in Matthew 8:13, affirming that the centurion's belief was the basis for the healing.",
+          "verseReference": "Matthew 8:13",
           "difficulty": "medium"
         },
         {
           "id": "matthew-8-medium-q2",
-          "question": "How does Matthew 8 teach us about humility when approaching God?",
+          "question": "What does Matthew 8:13 promise will happen if someone believes as the centurion did?",
           "type": "multiple-choice",
           "options": [
-            "The centurion acknowledges his unworthiness for Jesus to enter his home",
-            "The leper demands to be healed without respect",
-            "The scribe boasts about his willingness to follow Jesus",
-            "The disciples claim they deserve special treatment"
+            "They will be healed.",
+            "They will receive eternal life.",
+            "Their sins will be forgiven.",
+            "They will have peace."
           ],
-          "correctAnswer": "The centurion acknowledges his unworthiness for Jesus to enter his home",
-          "explanation": "Matthew 8:8 shows the centurion saying, 'Lord, I am not worthy that thou shouldest come under my roof,' demonstrating humility in approaching Jesus. This attitude highlights that faith combined with humility is honored.",
-          "verseReference": "Matthew 8:8",
+          "correctAnswer": "They will be healed.",
+          "explanation": "Matthew 8:13 indicates that belief leads to the fulfillment of desires, as demonstrated by the centurion's servant being healed.",
+          "verseReference": "Matthew 8:13",
           "difficulty": "medium"
         },
         {
           "id": "matthew-8-medium-q3",
-          "question": "What does Matthew 8 teach about obedience to God's commands through the story of the healed leper?",
+          "question": "What did Jesus do when he saw Peter's mother-in-law sick?",
           "type": "multiple-choice",
           "options": [
-            "The healed leper is instructed to show himself to the priest and offer the commanded gift",
-            "The leper is told to keep silent and never tell anyone",
-            "The leper must repay Jesus with money",
-            "The leper is told to leave the community immediately"
+            "He prayed for her.",
+            "He touched her hand, and the fever left her.",
+            "He commanded the fever to leave.",
+            "He went to find medicine."
           ],
-          "correctAnswer": "The healed leper is instructed to show himself to the priest and offer the commanded gift",
-          "explanation": "Matthew 8:4 instructs the healed leper to obey the Law of Moses by showing himself to the priest and offering the gift as a testimony. This teaches that spiritual obedience and following God's ordinances are essential even after receiving blessings.",
-          "verseReference": "Matthew 8:4",
+          "correctAnswer": "He touched her hand, and the fever left her.",
+          "explanation": "Matthew 8:15 describes Jesus touching her hand, which resulted in her fever leaving her.",
+          "verseReference": "Matthew 8:15",
           "difficulty": "medium"
         },
         {
           "id": "matthew-8-medium-q4",
-          "question": "A believer is fearful during a difficult trial and questions God's care. How does Matthew 8 guide us in trusting God during storms?",
+          "question": "What does Matthew 8:14 indicate about Peter's mother-in-law's condition?",
           "type": "multiple-choice",
           "options": [
-            "Jesus rebukes fear and calms the storm, showing the importance of faith",
-            "We should avoid all trials to stay safe",
-            "God only helps if we are perfect in faith",
-            "Trials prove God has abandoned us"
+            "She was dead.",
+            "She was sick of a fever.",
+            "She was blind.",
+            "She was possessed."
           ],
-          "correctAnswer": "Jesus rebukes fear and calms the storm, showing the importance of faith",
-          "explanation": "Matthew 8:23-26 describes Jesus calming the storm after rebuking his disciples for their little faith. This passage teaches believers to trust God’s power and presence even in life’s storms rather than giving in to fear.",
-          "verseReference": "Matthew 8:23-26",
+          "correctAnswer": "She was sick of a fever.",
+          "explanation": "Matthew 8:14 clearly states that Peter's mother-in-law was laid sick of a fever when Jesus entered the house.",
+          "verseReference": "Matthew 8:14",
           "difficulty": "medium"
         },
         {
           "id": "matthew-8-medium-q5",
-          "question": "How does Matthew 8 illustrate the principle of spiritual authority and submission?",
+          "question": "What action did many take when evening came, according to Matthew 8:16?",
           "type": "multiple-choice",
           "options": [
-            "The centurion explains his authority over soldiers parallels Jesus' authority over sickness",
-            "Disciples argue about who is the greatest",
-            "Jesus demands that all must bow only to him physically",
-            "The leper refuses to submit to Jesus' touch"
+            "They brought food to Jesus.",
+            "They brought unto him many that were possessed with devils.",
+            "They left the city.",
+            "They built a shelter."
           ],
-          "correctAnswer": "The centurion explains his authority over soldiers parallels Jesus' authority over sickness",
-          "explanation": "In Matthew 8:9, the centurion compares his command over soldiers to Jesus’ authority to heal by a word, teaching that recognizing and submitting to God’s authority is vital in faith and obedience.",
-          "verseReference": "Matthew 8:9",
-          "difficulty": "medium"
-        },
-        {
-          "id": "matthew-8-medium-q6",
-          "question": "What biblical truth about discipleship and priorities does Jesus teach in Matthew 8?",
-          "type": "multiple-choice",
-          "options": [
-            "Following Jesus requires immediate and wholehearted commitment, even above family duties",
-            "Jesus allows disciples to delay following him for personal matters",
-            "Family obligations are more important than following Jesus",
-            "Discipleship is optional and can be postponed indefinitely"
-          ],
-          "correctAnswer": "Following Jesus requires immediate and wholehearted commitment, even above family duties",
-          "explanation": "Matthew 8:21-22 shows Jesus telling a disciple to 'Follow me; and let the dead bury their dead,' emphasizing that commitment to Christ takes precedence over familial or social obligations.",
-          "verseReference": "Matthew 8:21-22",
-          "difficulty": "medium"
-        },
-        {
-          "id": "matthew-8-medium-q7",
-          "question": "How does Matthew 8 teach about Jesus' compassion and service to families?",
-          "type": "multiple-choice",
-          "options": [
-            "Jesus heals Peter's mother-in-law and she serves them afterward",
-            "Jesus ignores requests for healing within families",
-            "Jesus teaches that family members must be perfect before healing",
-            "Jesus avoids family settings to focus on crowds"
-          ],
-          "correctAnswer": "Jesus heals Peter's mother-in-law and she serves them afterward",
-          "explanation": "In Matthew 8:14-15, Jesus heals Peter's mother-in-law and she immediately ministers to them, illustrating how Jesus' compassion restores families and inspires service.",
-          "verseReference": "Matthew 8:14-15",
-          "difficulty": "medium"
-        },
-        {
-          "id": "matthew-8-medium-q8",
-          "question": "True or False: According to Matthew 8, Jesus performed miracles at evening after healing many during the day.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Matthew 8:16 states that at evening many possessed with devils were brought to Jesus and he healed all who were sick, showing his continuous ministry of healing.",
+          "correctAnswer": "They brought unto him many that were possessed with devils.",
+          "explanation": "Matthew 8:16 recounts how people brought those possessed by devils to Jesus for healing during the evening.",
           "verseReference": "Matthew 8:16",
           "difficulty": "medium"
         },
         {
+          "id": "matthew-8-medium-q6",
+          "question": "What does Matthew 8:17 say was fulfilled through Jesus' actions?",
+          "type": "multiple-choice",
+          "options": [
+            "He took our infirmities, and bare our sicknesses.",
+            "He taught the people to pray.",
+            "He performed miracles.",
+            "He preached the gospel."
+          ],
+          "correctAnswer": "He took our infirmities, and bare our sicknesses.",
+          "explanation": "Matthew 8:17 mentions the fulfillment of the prophecy concerning Jesus taking upon himself our infirmities and sicknesses.",
+          "verseReference": "Matthew 8:17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-8-medium-q7",
+          "question": "When Jesus saw the great multitudes, what did he command according to Matthew 8:18?",
+          "type": "multiple-choice",
+          "options": [
+            "He commanded them to follow him.",
+            "He gave commandment to depart unto the other side.",
+            "He told them to sit down.",
+            "He asked for their faith."
+          ],
+          "correctAnswer": "He gave commandment to depart unto the other side.",
+          "explanation": "Matthew 8:18 states that upon seeing the great multitudes, Jesus instructed his followers to depart to the other side.",
+          "verseReference": "Matthew 8:18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-8-medium-q8",
+          "question": "What did the scribe offer to Jesus in Matthew 8:19?",
+          "type": "multiple-choice",
+          "options": [
+            "To follow him whithersoever he goes.",
+            "To serve him as a disciple.",
+            "To provide for his needs.",
+            "To spread his teachings."
+          ],
+          "correctAnswer": "To follow him whithersoever he goes.",
+          "explanation": "Matthew 8:19 reveals that a certain scribe expressed his desire to follow Jesus wherever he went.",
+          "verseReference": "Matthew 8:19",
+          "difficulty": "medium"
+        },
+        {
           "id": "matthew-8-medium-q9",
-          "question": "True or False: The people of the city rejoiced and welcomed Jesus to stay after he cast out the demons into the swine.",
+          "question": "What did Jesus say about his living conditions in Matthew 8:20?",
+          "type": "multiple-choice",
+          "options": [
+            "The Son of man hath not where to lay his head.",
+            "He lives in a house of many rooms.",
+            "He has a comfortable place to rest.",
+            "He sleeps under the stars."
+          ],
+          "correctAnswer": "The Son of man hath not where to lay his head.",
+          "explanation": "In Matthew 8:20, Jesus explains that unlike foxes and birds, he does not have a place to rest his head.",
+          "verseReference": "Matthew 8:20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-8-medium-q10",
+          "question": "What did another disciple request in Matthew 8:21?",
+          "type": "multiple-choice",
+          "options": [
+            "To follow Jesus immediately.",
+            "To go and bury his father.",
+            "To stay behind with family.",
+            "To ask for a blessing."
+          ],
+          "correctAnswer": "To go and bury his father.",
+          "explanation": "Matthew 8:21 records that another disciple asked Jesus if he could first go and bury his father.",
+          "verseReference": "Matthew 8:21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-8-medium-q11",
+          "question": "What was Jesus' response to the disciple in Matthew 8:22?",
+          "type": "multiple-choice",
+          "options": [
+            "Let the dead bury their dead.",
+            "You are not worthy.",
+            "Follow me, and you will be blessed.",
+            "Your request is granted."
+          ],
+          "correctAnswer": "Let the dead bury their dead.",
+          "explanation": "Matthew 8:22 shows Jesus instructing the disciple to follow him and let the dead take care of their own.",
+          "verseReference": "Matthew 8:22",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-8-medium-q12",
+          "question": "What happened when Jesus entered a ship with his disciples in Matthew 8:23?",
+          "type": "multiple-choice",
+          "options": [
+            "They encountered a storm.",
+            "They caught many fish.",
+            "They sang hymns.",
+            "They found peace."
+          ],
+          "correctAnswer": "They encountered a storm.",
+          "explanation": "Matthew 8:23 indicates that after entering the ship, a great tempest arose in the sea.",
+          "verseReference": "Matthew 8:23",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-8-medium-q13",
+          "question": "Did Jesus show concern for his disciples when the tempest arose?",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Matthew 8:34 records that the whole city came out and begged Jesus to depart from their coasts after the incident, showing their fear and rejection rather than joy.",
-          "verseReference": "Matthew 8:34",
-          "difficulty": "medium"
-        },
-        {
-          "id": "matthew-8-medium-q10",
-          "question": "A believer is wondering how faith affects their standing in God's kingdom. What does Matthew 8 teach about faith and inclusion in the kingdom of heaven?",
-          "type": "multiple-choice",
-          "options": [
-            "Many from east and west will join the patriarchs in the kingdom, showing inclusive faith",
-            "Only those born in Israel will enter the kingdom",
-            "Faith is not necessary to enter the kingdom",
-            "The kingdom is limited to priests and rulers"
-          ],
-          "correctAnswer": "Many from east and west will join the patriarchs in the kingdom, showing inclusive faith",
-          "explanation": "Matthew 8:11 teaches that many from different regions will sit with Abraham, Isaac, and Jacob in the kingdom of heaven, emphasizing that faith opens the way for all believers.",
-          "verseReference": "Matthew 8:11",
-          "difficulty": "medium"
-        },
-        {
-          "id": "matthew-8-medium-q11",
-          "question": "Which lesson about perseverance through spiritual trials is shown by Jesus’ interaction with the two possessed men in Matthew 8?",
-          "type": "multiple-choice",
-          "options": [
-            "Jesus demonstrates authority over evil spirits and brings deliverance",
-            "Spiritual battles must be fought alone without help",
-            "Possession is permanent and cannot be overcome",
-            "Jesus avoids confronting evil spirits"
-          ],
-          "correctAnswer": "Jesus demonstrates authority over evil spirits and brings deliverance",
-          "explanation": "Matthew 8:28-32 shows Jesus casting out demons from two possessed men, illustrating His power to deliver from spiritual bondage and encouraging believers to trust Him in spiritual trials.",
-          "verseReference": "Matthew 8:28-32",
-          "difficulty": "medium"
-        },
-        {
-          "id": "matthew-8-medium-q12",
-          "question": "How does Matthew 8 teach about trusting God's timing and provision when Jesus says, 'The Son of man hath not where to lay his head'?",
-          "type": "multiple-choice",
-          "options": [
-            "Following Jesus requires faith in God's provision despite worldly lack of security",
-            "Jesus promises material wealth to all disciples",
-            "Comfort is the first sign of true discipleship",
-            "Physical rest is a guarantee for believers"
-          ],
-          "correctAnswer": "Following Jesus requires faith in God's provision despite worldly lack of security",
-          "explanation": "Matthew 8:20 reveals Jesus’ statement about having no place to rest, teaching that true discipleship involves trusting God’s provision and being content without earthly security.",
-          "verseReference": "Matthew 8:20",
-          "difficulty": "medium"
-        },
-        {
-          "id": "matthew-8-medium-q13",
-          "question": "Fill in the blank: In Matthew 8, Jesus said, 'Why are ye fearful, O ye of ______ faith?'",
-          "type": "fill-blank",
-          "options": [
-            "little",
-            "great",
-            "strong",
-            "no"
-          ],
-          "correctAnswer": "little",
-          "explanation": "In Matthew 8:26, Jesus rebukes the disciples saying, 'Why are ye fearful, O ye of little faith?' emphasizing the need for strong trust in God.",
-          "verseReference": "Matthew 8:26",
+          "explanation": "In Matthew 8:24, it is noted that Jesus was asleep during the tempest, indicating a lack of immediate concern for the situation.",
+          "verseReference": "Matthew 8:24",
           "difficulty": "medium"
         },
         {
           "id": "matthew-8-medium-q14",
-          "question": "How does Matthew 8 guide believers about generosity and stewardship through the centurion’s example?",
-          "type": "multiple-choice",
+          "question": "Was the leper cleansed when he approached Jesus in Matthew 8:3?",
+          "type": "true-false",
           "options": [
-            "The centurion’s faith shows trust in God's authority rather than reliance on wealth or power",
-            "The centurion bribes Jesus for healing",
-            "Generosity is required before receiving blessings",
-            "Stewardship is only about managing money"
+            "True",
+            "False"
           ],
-          "correctAnswer": "The centurion’s faith shows trust in God's authority rather than reliance on wealth or power",
-          "explanation": "Matthew 8:5-9 reveals the centurion’s humble faith in Jesus’ word rather than his own status or resources, teaching believers to trust God’s authority above material means.",
-          "verseReference": "Matthew 8:5-9",
+          "correctAnswer": "True",
+          "explanation": "Matthew 8:3 states that after Jesus touched the leper, he was immediately cleansed, affirming the leper's faith in Jesus' ability to heal.",
+          "verseReference": "Matthew 8:3",
           "difficulty": "medium"
         },
         {
           "id": "matthew-8-medium-q15",
-          "question": "What does Matthew 8 teach about prayer and Jesus' response to urgent needs?",
-          "type": "multiple-choice",
+          "question": "Did Jesus command the centurion to come to his house to heal his servant?",
+          "type": "true-false",
           "options": [
-            "Jesus responds immediately to the centurion’s faith-filled request by healing his servant",
-            "Prayer must be repeated many times for effectiveness",
-            "Jesus delays healing until the person is present",
-            "Only public prayers are answered"
+            "True",
+            "False"
           ],
-          "correctAnswer": "Jesus responds immediately to the centurion’s faith-filled request by healing his servant",
-          "explanation": "Matthew 8:13 shows Jesus telling the centurion, 'as thou hast believed, so be it done unto thee,' and the servant is healed immediately, demonstrating the power of faith-filled prayer.",
-          "verseReference": "Matthew 8:13",
+          "correctAnswer": "False",
+          "explanation": "In Matthew 8:7, Jesus states he will come to heal the servant, but the centurion expresses unworthiness for Jesus to enter his house, leading Jesus to heal by word alone.",
+          "verseReference": "Matthew 8:8",
           "difficulty": "medium"
         }
       ],
@@ -497,222 +493,224 @@
       "questions": [
         {
           "id": "matthew-8-hard-q1",
-          "question": "What is the significance of Jesus telling the healed leper to show himself to the priest and offer the gift Moses commanded?",
+          "question": "In Matthew 8:25, what do the disciples say to Jesus when they awake Him during the storm?",
           "type": "multiple-choice",
           "options": [
-            "It fulfilled the Mosaic Law for ceremonial cleansing and witness",
-            "It was a test of the leper's obedience to Jesus",
-            "It symbolized Jesus' rejection of traditional Jewish customs",
-            "It was to publicly shame the healed man"
+            "Lord, save us: we perish.",
+            "Master, we are lost.",
+            "Save us, we are sinking.",
+            "Lord, calm the sea."
           ],
-          "correctAnswer": "It fulfilled the Mosaic Law for ceremonial cleansing and witness",
-          "explanation": "Matthew 8:4 instructs the healed leper to follow Mosaic Law commands, showing Jesus’ respect for the Law and providing testimony to the priests.",
-          "verseReference": "Matthew 8:4",
+          "correctAnswer": "Lord, save us: we perish.",
+          "explanation": "Matthew 8:25 records the exact words of the disciples: 'Lord, save us: we perish.'",
+          "verseReference": "Matthew 8:25",
           "difficulty": "hard"
         },
         {
           "id": "matthew-8-hard-q2",
-          "question": "How does the centurion's understanding of authority (Matthew 8:9) reflect Roman military structure and relate to Jesus' authority?",
+          "question": "What question does Jesus ask His disciples in Matthew 8:26 after being awakened?",
           "type": "multiple-choice",
           "options": [
-            "Authority is exercised by command and obedience, analogous to Jesus speaking a word to heal",
-            "Authority is based on lineage and heritage, similar to Jesus’ Davidic descent",
-            "Authority comes from wealth and social status, paralleling Jesus’ miracles",
-            "Authority is irrelevant, as faith alone is sufficient"
+            "Why are ye fearful, O ye of little faith?",
+            "Do ye not yet believe?",
+            "Who is this that even the winds obey him?",
+            "Where is your trust in God?"
           ],
-          "correctAnswer": "Authority is exercised by command and obedience, analogous to Jesus speaking a word to heal",
-          "explanation": "The centurion exemplifies Roman command hierarchy, and he applies this concept to Jesus’ spiritual authority, believing Jesus’ word alone can heal (Matthew 8:9).",
-          "verseReference": "Matthew 8:9",
+          "correctAnswer": "Why are ye fearful, O ye of little faith?",
+          "explanation": "Jesus asks in Matthew 8:26, 'Why are ye fearful, O ye of little faith?' addressing their doubt.",
+          "verseReference": "Matthew 8:26",
           "difficulty": "hard"
         },
         {
           "id": "matthew-8-hard-q3",
-          "question": "Which Old Testament prophecy is fulfilled by Jesus healing the sick and casting out demons as noted in Matthew 8:17?",
+          "question": "What was the reaction of the men after Jesus calmed the storm in Matthew 8:27?",
           "type": "multiple-choice",
           "options": [
-            "Isaiah's prophecy that He Himself took our infirmities and bore our sicknesses",
-            "Jeremiah's prophecy about the suffering servant",
-            "Psalm 23's depiction of the Lord as shepherd",
-            "Ezekiel's vision of the valley of dry bones"
+            "What manner of man is this, that even the winds and the sea obey him!",
+            "Truly, he is the Son of God.",
+            "Let us follow Him always.",
+            "This is a prophet sent from God."
           ],
-          "correctAnswer": "Isaiah's prophecy that He Himself took our infirmities and bore our sicknesses",
-          "explanation": "Matthew 8:17 explicitly quotes Isaiah to show Jesus’ healing works fulfill messianic prophecy of bearing human suffering.",
-          "verseReference": "Matthew 8:17",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-8-hard-q4",
-          "question": "Why does Jesus say to the scribe, 'The foxes have holes, and the birds of the air have nests; but the Son of man hath not where to lay his head' (Matthew 8:20)?",
-          "type": "multiple-choice",
-          "options": [
-            "To emphasize the cost and lack of earthly security in following Him",
-            "To highlight the abundance of natural provisions for animals",
-            "To indicate the Son of Man’s preference for a nomadic lifestyle",
-            "To criticize the scribe for seeking comfort"
-          ],
-          "correctAnswer": "To emphasize the cost and lack of earthly security in following Him",
-          "explanation": "Jesus uses this metaphor to teach about the sacrifices and hardships entailed in discipleship, stressing spiritual over material security (Matthew 8:20).",
-          "verseReference": "Matthew 8:20",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-8-hard-q5",
-          "question": "What literary device is illustrated by Jesus calming the storm after being asleep, as recorded in Matthew 8:24-26?",
-          "type": "multiple-choice",
-          "options": [
-            "Chiasm highlighting divine authority over chaos",
-            "Allegory of spiritual awakening",
-            "Parable illustrating faith in action",
-            "Foreshadowing of resurrection"
-          ],
-          "correctAnswer": "Chiasm highlighting divine authority over chaos",
-          "explanation": "The narrative structure places Jesus’ sleep and the storm’s fury in a chiastic pattern, emphasizing His sovereign power to command nature (Matthew 8:24-26).",
-          "verseReference": "Matthew 8:24-26",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-8-hard-q6",
-          "question": "In Matthew 8:11-12, what theological theme is expressed by saying many will come from east and west to sit with Abraham, Isaac, and Jacob, while children of the kingdom will be cast out?",
-          "type": "multiple-choice",
-          "options": [
-            "Inclusion of Gentiles and judgment on unfaithful Israelites",
-            "Restoration of Israel as a political nation",
-            "Exclusivity of salvation to Jews only",
-            "A call to ethnic purity"
-          ],
-          "correctAnswer": "Inclusion of Gentiles and judgment on unfaithful Israelites",
-          "explanation": "Jesus predicts the kingdom will include Gentiles (east and west) and that some Jews (children of the kingdom) will face exclusion, indicating a shift in covenant community (Matthew 8:11-12).",
-          "verseReference": "Matthew 8:11-12",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-8-hard-q7",
-          "question": "What cultural significance does the presence of swine in the narrative of Matthew 8:30-32 have?",
-          "type": "multiple-choice",
-          "options": [
-            "Swine symbolize unclean animals forbidden to Jews, highlighting the Gentile region",
-            "Swine represent wealth and prosperity in Jewish society",
-            "Swine were sacred animals in Israelite worship",
-            "Swine were common pets in Jewish households"
-          ],
-          "correctAnswer": "Swine symbolize unclean animals forbidden to Jews, highlighting the Gentile region",
-          "explanation": "The presence of swine, unclean to Jews, indicates Jesus is ministering in a Gentile area (Gergesenes), showing the expanding scope of His ministry (Matthew 8:30-32).",
-          "verseReference": "Matthew 8:30-32",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-8-hard-q8",
-          "question": "True or False: Jesus’ healing of Peter’s mother-in-law by touching her hand (Matthew 8:14-15) demonstrates a physical contact element in His miracles.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Jesus healed Peter’s mother-in-law by touching her hand, showing that physical contact was part of His healing method (Matthew 8:14-15).",
-          "verseReference": "Matthew 8:14-15",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-8-hard-q9",
-          "question": "How does the faith of the centurion (Matthew 8:10) serve as a typological contrast to typical Israelite faith expectations?",
-          "type": "multiple-choice",
-          "options": [
-            "His faith trusts Jesus’ word without physical presence, surpassing Israelite expectations",
-            "His faith depends on signs and wonders like Israel",
-            "His faith is rooted in Jewish law observance",
-            "His faith is limited, requiring Jesus to come personally"
-          ],
-          "correctAnswer": "His faith trusts Jesus’ word without physical presence, surpassing Israelite expectations",
-          "explanation": "Jesus marvels at the centurion’s faith, which trusts the spoken word alone, unlike many Israelites who sought physical proof (Matthew 8:10).",
-          "verseReference": "Matthew 8:10",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-8-hard-q10",
-          "question": "What is the meaning of Jesus’ statement to the disciple who wanted to bury his father first: 'Follow me; and let the dead bury their dead' (Matthew 8:22)?",
-          "type": "multiple-choice",
-          "options": [
-            "A call to prioritize spiritual life over traditional family obligations",
-            "An instruction to neglect burial rites",
-            "A command to abandon all family responsibilities permanently",
-            "An indication that burial is unnecessary"
-          ],
-          "correctAnswer": "A call to prioritize spiritual life over traditional family obligations",
-          "explanation": "Jesus emphasizes immediate discipleship and spiritual commitment over customary family duties, reflecting the radical demands of following Him (Matthew 8:22).",
-          "verseReference": "Matthew 8:22",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-8-hard-q11",
-          "question": "What does the phrase 'Let the dead bury their dead' in Matthew 8:22 allude to in a broader biblical or Jewish cultural context?",
-          "type": "multiple-choice",
-          "options": [
-            "A contrast between physical death and spiritual death",
-            "A literal command to leave corpses unburied",
-            "A reference to the Exodus burial practices",
-            "A common Jewish proverb about mourning"
-          ],
-          "correctAnswer": "A contrast between physical death and spiritual death",
-          "explanation": "The phrase highlights the distinction between those spiritually alive in Christ and those who are spiritually dead, a theme echoed in prophetic literature.",
-          "verseReference": "Matthew 8:22",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-8-hard-q12",
-          "question": "Which theme in Matthew 8 is foreshadowed by Jesus’ command to depart to the other side of the lake when great multitudes gather (Matthew 8:18)?",
-          "type": "multiple-choice",
-          "options": [
-            "The pattern of Jesus’ ministry including withdrawal and private teaching",
-            "The failure of the crowds to recognize Jesus as Messiah",
-            "Jesus’ rejection by His hometown",
-            "His forthcoming crucifixion"
-          ],
-          "correctAnswer": "The pattern of Jesus’ ministry including withdrawal and private teaching",
-          "explanation": "Jesus often withdrew from crowds to teach privately or prepare for the next phase of ministry, showing deliberate authorial planning (Matthew 8:18).",
-          "verseReference": "Matthew 8:18",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-8-hard-q13",
-          "question": "What does the reaction of the men who witnessed Jesus rebuke the winds and sea (Matthew 8:27) reveal about the early perception of Jesus’ identity?",
-          "type": "multiple-choice",
-          "options": [
-            "Amazement and questioning of His divine authority over nature",
-            "Fear and rejection of His teachings",
-            "Recognition of Him as a political messiah",
-            "Confusion about His origins"
-          ],
-          "correctAnswer": "Amazement and questioning of His divine authority over nature",
-          "explanation": "The men marvel and ask what kind of man can command nature, highlighting recognition of Jesus’ extraordinary, possibly divine power (Matthew 8:27).",
+          "correctAnswer": "What manner of man is this, that even the winds and the sea obey him!",
+          "explanation": "Matthew 8:27 shows their marvel: 'What manner of man is this, that even the winds and the sea obey him!'",
           "verseReference": "Matthew 8:27",
           "difficulty": "hard"
         },
         {
-          "id": "matthew-8-hard-q14",
-          "question": "What is the historical significance of Jesus performing miracles such as healing leprosy and palsy in the context of Second Temple Judaism?",
+          "id": "matthew-8-hard-q4",
+          "question": "In Matthew 8:28, where does Jesus go after crossing to the other side of the sea?",
           "type": "multiple-choice",
           "options": [
-            "Miracles authenticate Jesus as the promised Messiah and fulfill Old Testament prophecy",
-            "Miracles were common and expected of all rabbis",
-            "Miracles were viewed negatively and led to rejection",
-            "Miracles were not recorded in Jewish texts"
+            "The country of the Gergesenes",
+            "The city of Capernaum",
+            "The hill country of Galilee",
+            "The valley of Jezreel"
           ],
-          "correctAnswer": "Miracles authenticate Jesus as the promised Messiah and fulfill Old Testament prophecy",
-          "explanation": "Healing diseases like leprosy, often seen as divine punishment, signaled Jesus’ messianic role and fulfillment of Isaiah’s prophecies (Matthew 8:2-3, 17).",
-          "verseReference": "Matthew 8:2-3",
+          "correctAnswer": "The country of the Gergesenes",
+          "explanation": "Matthew 8:28 states Jesus came into 'the country of the Gergesenes' after crossing over.",
+          "verseReference": "Matthew 8:28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-8-hard-q5",
+          "question": "What did the devils say to Jesus in Matthew 8:29?",
+          "type": "multiple-choice",
+          "options": [
+            "What have we to do with thee, Jesus, thou Son of God? art thou come hither to torment us before the time?",
+            "Depart from us, for we know who you are.",
+            "We recognize your power, but leave us be.",
+            "Are you here to save or to harm?"
+          ],
+          "correctAnswer": "What have we to do with thee, Jesus, thou Son of God? art thou come hither to torment us before the time?",
+          "explanation": "The devils cried out as recorded in Matthew 8:29 with this exact question.",
+          "verseReference": "Matthew 8:29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-8-hard-q6",
+          "question": "What happened to the herd of swine after the devils entered them, according to Matthew 8:32?",
+          "type": "multiple-choice",
+          "options": [
+            "They ran violently down a steep place into the sea and perished.",
+            "They scattered across the fields and were lost.",
+            "They returned to their pens unharmed.",
+            "They were seized by the townspeople."
+          ],
+          "correctAnswer": "They ran violently down a steep place into the sea and perished.",
+          "explanation": "Matthew 8:32 describes how the swine ran violently down a steep place into the sea and perished.",
+          "verseReference": "Matthew 8:32",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-8-hard-q7",
+          "question": "What does the Greek word 'epitrepo' (ἐπιτρέπω) in Matthew 8:31 mean?",
+          "type": "multiple-choice",
+          "options": [
+            "Allow or permit",
+            "Cast out",
+            "Command",
+            "Refuse"
+          ],
+          "correctAnswer": "Allow or permit",
+          "explanation": "In Matthew 8:31, 'epitrepo' means 'allow or permit,' as the devils ask Jesus to permit them to enter the swine.",
+          "verseReference": "Matthew 8:31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-8-hard-q8",
+          "question": "Which literary device is predominantly used in Matthew 8:24-27 when describing the storm and Jesus’ calming of it?",
+          "type": "multiple-choice",
+          "options": [
+            "Chiasm",
+            "Metaphor",
+            "Foreshadowing",
+            "Parallelism"
+          ],
+          "correctAnswer": "Chiasm",
+          "explanation": "The passage in Matthew 8:24-27 uses a chiasm structure: the storm surrounding Jesus asleep (A), disciples’ fear (B), Jesus’ rebuke (C), calm (B'), and men marveling (A').",
+          "verseReference": "Matthew 8:24-27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-8-hard-q9",
+          "question": "Which Old Testament passage is echoed by Matthew 8:17, which speaks of Jesus bearing infirmities and sicknesses?",
+          "type": "multiple-choice",
+          "options": [
+            "Isaiah 53:4",
+            "Psalm 23:4",
+            "Exodus 12:13",
+            "Deuteronomy 6:5"
+          ],
+          "correctAnswer": "Isaiah 53:4",
+          "explanation": "Matthew 8:17 quotes Isaiah 53:4, which prophesies the suffering servant bearing our infirmities and sicknesses.",
+          "verseReference": "Matthew 8:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-8-hard-q10",
+          "question": "Which New Testament passage connects to the theme of faith in authority as seen in Matthew 8:8-10?",
+          "type": "multiple-choice",
+          "options": [
+            "Hebrews 11:1",
+            "James 2:19",
+            "Romans 10:17",
+            "Mark 11:22"
+          ],
+          "correctAnswer": "Hebrews 11:1",
+          "explanation": "Hebrews 11:1 defines faith as the assurance of things hoped for, connecting to the centurion’s faith in Jesus’ authority in Matthew 8:8-10.",
+          "verseReference": "Matthew 8:8-10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-8-hard-q11",
+          "question": "What event immediately precedes Jesus calming the storm in Matthew 8:24?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus and His disciples enter a ship.",
+            "Jesus heals Peter’s mother-in-law.",
+            "Jesus teaches the multitudes on the mountain.",
+            "Jesus casts out devils."
+          ],
+          "correctAnswer": "Jesus and His disciples enter a ship.",
+          "explanation": "Matthew 8:23 records Jesus entering the ship with His disciples immediately before the storm arises in 8:24.",
+          "verseReference": "Matthew 8:23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-8-hard-q12",
+          "question": "How does the healing of the centurion’s servant in Matthew 8:13 demonstrate the concept of faith in Jesus’ word?",
+          "type": "multiple-choice",
+          "options": [
+            "The servant was healed at that very hour because the centurion believed Jesus’ command without needing His presence.",
+            "Jesus physically visited the servant to heal him.",
+            "The centurion had to perform a ritual for healing to occur.",
+            "Faith was secondary to the servant’s own prayers."
+          ],
+          "correctAnswer": "The servant was healed at that very hour because the centurion believed Jesus’ command without needing His presence.",
+          "explanation": "Matthew 8:13 shows the servant healed immediately because the centurion trusted Jesus’ spoken word alone.",
+          "verseReference": "Matthew 8:13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-8-hard-q13",
+          "question": "What typological significance can be drawn from Jesus commanding the unclean spirits to enter the swine in Matthew 8:31-32?",
+          "type": "multiple-choice",
+          "options": [
+            "It symbolizes the casting out of evil from humanity into unclean animals, representing the transfer of sin.",
+            "It foreshadows Jesus’ death and resurrection.",
+            "It illustrates the destruction of the temple.",
+            "It signifies the rejection of Gentiles."
+          ],
+          "correctAnswer": "It symbolizes the casting out of evil from humanity into unclean animals, representing the transfer of sin.",
+          "explanation": "The transfer of demons into swine (unclean animals) in Matthew 8:31-32 typologically represents removal of evil from people, consistent with Jewish purity laws.",
+          "verseReference": "Matthew 8:31-32",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-8-hard-q14",
+          "question": "How does the account of the two demon-possessed men in Matthew 8:28-34 reflect cultural and religious tensions of the time?",
+          "type": "multiple-choice",
+          "options": [
+            "The presence of swine and the reaction of the local people highlight Jewish-Gentile boundaries and economic concerns.",
+            "It shows harmony between Jews and Gentiles.",
+            "It reflects Roman political control over the region.",
+            "It depicts the acceptance of demon possession as normal."
+          ],
+          "correctAnswer": "The presence of swine and the reaction of the local people highlight Jewish-Gentile boundaries and economic concerns.",
+          "explanation": "Swine were unclean to Jews (Matthew 8:30-34), so their loss caused fear and rejection of Jesus, illustrating cultural tensions.",
+          "verseReference": "Matthew 8:30-34",
           "difficulty": "hard"
         },
         {
           "id": "matthew-8-hard-q15",
-          "question": "True or False: The narrative of the two demon-possessed men in Matthew 8:28-34 ends with the city’s people welcoming Jesus and supporting His ministry.",
+          "question": "True or False: In Matthew 8:34, after witnessing the miracle, the whole city welcomed Jesus and asked Him to stay.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "The city’s people, after hearing about the event, asked Jesus to leave their region, showing rejection rather than welcome (Matthew 8:34).",
+          "explanation": "Matthew 8:34 states the city came out to meet Jesus but besought Him to depart from their coasts, not to stay.",
           "verseReference": "Matthew 8:34",
           "difficulty": "hard"
         }
@@ -740,227 +738,227 @@
       "questions": [
         {
           "id": "matthew-8-theological-q1",
-          "question": "What does the healing of the leper in Matthew 8:2-3 primarily demonstrate about Jesus' divine authority?",
+          "question": "What doctrine does Matthew 8:3 teach about God's nature?",
           "type": "multiple-choice",
           "options": [
-            "His power to cleanse sin and disease",
-            "His role as a political leader",
-            "His ability to perform miracles only through intermediaries",
-            "His focus on ritual purity laws"
+            "God's willingness to heal and restore sinners",
+            "God's judgment on sin without mercy",
+            "God's detachment from human suffering",
+            "God's selective grace only for the righteous"
           ],
-          "correctAnswer": "His power to cleanse sin and disease",
-          "explanation": "Matthew 8:2-3 shows Jesus healing a leper by his own touch, indicating his authority over sickness and impurity, which symbolizes sin. This is consistent with Isaiah 53:4, Psalm 103:3, and Luke 5:12-13, where healing is linked to the Messiah's mission to bear infirmities and sin.",
-          "verseReference": "Matthew 8:2-3",
+          "correctAnswer": "God's willingness to heal and restore sinners",
+          "explanation": "Matthew 8:3 shows Jesus willingly touching and cleansing the leper, demonstrating God's compassionate and healing nature toward sinners.",
+          "verseReference": "Matthew 8:3",
           "difficulty": "hard"
         },
         {
           "id": "matthew-8-theological-q2",
-          "question": "In Matthew 8:8-10, what theological truth is emphasized through the centurion's understanding of authority?",
+          "question": "What doctrine does Matthew 8:10 teach about faith and salvation?",
           "type": "multiple-choice",
           "options": [
-            "Faith requires recognizing Jesus' sovereign spiritual authority",
-            "Only physical presence can effect healing",
-            "Authority is irrelevant in the kingdom of God",
-            "Faith is primarily about works and rituals"
+            "Great faith is recognized and rewarded by God even outside Israel",
+            "Faith is irrelevant to God's healing power",
+            "Only ethnic Israelites can have saving faith",
+            "Faith guarantees immediate earthly prosperity"
           ],
-          "correctAnswer": "Faith requires recognizing Jesus' sovereign spiritual authority",
-          "explanation": "The centurion acknowledges Jesus' authority to heal by speaking a word, demonstrating a profound faith in Jesus’ divine power. This reflects themes in John 5:19, Hebrews 1:3, and Romans 13:1 about divine authority governing creation and salvation.",
-          "verseReference": "Matthew 8:8-10",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-8-theological-q3",
-          "question": "What eschatological reality does Jesus reveal in Matthew 8:11-12 regarding the kingdom of heaven?",
-          "type": "multiple-choice",
-          "options": [
-            "Gentiles will join the patriarchs in the kingdom, while some Jews will be excluded",
-            "Only Jews will enter the kingdom of heaven",
-            "The kingdom is a purely earthly political realm",
-            "All who call themselves children of God will enter without judgment"
-          ],
-          "correctAnswer": "Gentiles will join the patriarchs in the kingdom, while some Jews will be excluded",
-          "explanation": "Jesus teaches that many from east and west will join Abraham, Isaac, and Jacob, showing inclusion of Gentiles (Matthew 8:11), while some 'children of the kingdom' will be cast out (8:12). This aligns with Isaiah 56:6-7, Romans 11:25-27, and Revelation 21:24-27 on the inclusion of Gentiles and judgment.",
-          "verseReference": "Matthew 8:11-12",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-8-theological-q4",
-          "question": "What doctrine about Jesus’ identity is implicit when the demons recognize Him as 'Son of God' in Matthew 8:29?",
-          "type": "multiple-choice",
-          "options": [
-            "Jesus possesses divine sonship and authority over evil",
-            "Jesus is merely a prophet with limited power",
-            "Jesus is an angelic being",
-            "Jesus is a political revolutionary"
-          ],
-          "correctAnswer": "Jesus possesses divine sonship and authority over evil",
-          "explanation": "The demons confess Jesus as 'Son of God' (Matthew 8:29), affirming His divine identity and authority over spiritual forces, consistent with John 1:34, Hebrews 1:5-8, and Philippians 2:9-11, which highlight His divine nature and lordship.",
-          "verseReference": "Matthew 8:29",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-8-theological-q5",
-          "question": "How does Jesus’ command to the disciples to 'let the dead bury their dead' in Matthew 8:22 illustrate the call to discipleship?",
-          "type": "multiple-choice",
-          "options": [
-            "It prioritizes spiritual commitment over social or familial obligations",
-            "It emphasizes the importance of proper burial rites",
-            "It encourages delaying discipleship until family duties are complete",
-            "It promotes cultural traditions above the gospel"
-          ],
-          "correctAnswer": "It prioritizes spiritual commitment over social or familial obligations",
-          "explanation": "Jesus’ statement in Matthew 8:22 underscores that following Him requires radical commitment, even above cultural and familial duties. This theme aligns with Luke 14:26-27, Mark 8:34, and Philippians 3:8, emphasizing the cost and priority of discipleship.",
-          "verseReference": "Matthew 8:22",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-8-theological-q6",
-          "question": "What theological significance does Jesus’ rebuke of the sea and wind in Matthew 8:26 demonstrate?",
-          "type": "multiple-choice",
-          "options": [
-            "Jesus has sovereign authority over nature, affirming His divine power",
-            "Natural disasters are unrelated to spiritual matters",
-            "Jesus cannot control nature without help",
-            "Fear of nature is justified despite faith"
-          ],
-          "correctAnswer": "Jesus has sovereign authority over nature, affirming His divine power",
-          "explanation": "In Matthew 8:26, Jesus rebukes the storm, calming it instantly. This reveals His divine sovereignty over creation, as seen in Psalm 107:29, Job 38, and Mark 4:39, confirming His identity as Creator and Lord over all.",
-          "verseReference": "Matthew 8:26",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-8-theological-q7",
-          "question": "What does Jesus’ instruction to the healed leper to show himself to the priest and offer the gift prescribed by Moses in Matthew 8:4 reveal about Jesus’ relationship to the Law?",
-          "type": "multiple-choice",
-          "options": [
-            "Jesus fulfills the Law and respects its ordinances",
-            "Jesus abolishes the Law entirely",
-            "Jesus disregards Jewish Law and tradition",
-            "Jesus replaces the Law with new human traditions"
-          ],
-          "correctAnswer": "Jesus fulfills the Law and respects its ordinances",
-          "explanation": "Jesus commands the leper to follow Mosaic Law rituals (Matthew 8:4), showing His fulfillment of the Law, not abolition (Matthew 5:17-18). This respects the Old Testament Law (Leviticus 14) and points to the continuity of God’s redemptive plan.",
-          "verseReference": "Matthew 8:4",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-8-theological-q8",
-          "question": "According to Matthew 8:17, how is Jesus’ healing ministry related to Old Testament prophecy?",
-          "type": "multiple-choice",
-          "options": [
-            "It fulfills Isaiah’s prophecy that the Messiah would bear infirmities and sicknesses",
-            "It contradicts Old Testament teachings on suffering",
-            "It is unrelated to prophetic fulfillment",
-            "It demonstrates a new covenant without prophetic foundation"
-          ],
-          "correctAnswer": "It fulfills Isaiah’s prophecy that the Messiah would bear infirmities and sicknesses",
-          "explanation": "Matthew 8:17 cites Isaiah 53:4 to show Jesus’ healing acts fulfill prophecy about the suffering Servant who bears our sickness and infirmities, confirming God’s redemptive plan through Christ’s atoning work.",
-          "verseReference": "Matthew 8:17",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-8-theological-q9",
-          "question": "What core Christian doctrine is illustrated by Jesus healing the centurion’s servant 'at the same hour' in Matthew 8:13?",
-          "type": "multiple-choice",
-          "options": [
-            "The immediacy of divine grace and power through faith",
-            "Salvation requires prolonged rituals",
-            "Healing is only symbolic and delayed",
-            "Faith has no role in receiving God’s blessings"
-          ],
-          "correctAnswer": "The immediacy of divine grace and power through faith",
-          "explanation": "The servant’s immediate healing upon the centurion’s faith (Matthew 8:13) illustrates that divine grace operates powerfully and instantly when accessed by faith, consistent with Hebrews 11:1, Ephesians 2:8-9, and John 3:16.",
-          "verseReference": "Matthew 8:13",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-8-theological-q10",
-          "question": "What does Jesus’ statement about having 'not where to lay his head' in Matthew 8:20 teach about His earthly mission?",
-          "type": "multiple-choice",
-          "options": [
-            "Jesus embraced a life of humility and poverty in His earthly ministry",
-            "Jesus sought earthly wealth and comfort",
-            "Jesus avoided hardship by staying in comfortable homes",
-            "Jesus prioritized political power over personal sacrifice"
-          ],
-          "correctAnswer": "Jesus embraced a life of humility and poverty in His earthly ministry",
-          "explanation": "Matthew 8:20 shows Jesus’ voluntary acceptance of a humble, itinerant lifestyle, fulfilling prophetic themes from Isaiah 53:3 and Psalm 22:6, highlighting His identification with human suffering and rejection.",
-          "verseReference": "Matthew 8:20",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-8-theological-q11",
-          "question": "How does the reaction of the people after the swine incident in Matthew 8:33-34 illustrate a tension in Jesus’ ministry?",
-          "type": "multiple-choice",
-          "options": [
-            "Fear of Jesus’ authority led some to reject Him despite His power to save",
-            "Everyone immediately accepted Jesus as Messiah",
-            "The people were indifferent to spiritual matters",
-            "They celebrated the financial gain from the miracle"
-          ],
-          "correctAnswer": "Fear of Jesus’ authority led some to reject Him despite His power to save",
-          "explanation": "Matthew 8:33-34 records fear and rejection by the townsfolk after Jesus cast out demons, highlighting the paradox that divine power can provoke both faith and fear, consistent with John 1:11 and Luke 19:41-44.",
-          "verseReference": "Matthew 8:33-34",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-8-theological-q12",
-          "question": "What doctrinal truth about faith is taught by Jesus marveling at the centurion’s faith in Matthew 8:10?",
-          "type": "multiple-choice",
-          "options": [
-            "Faith is essential for receiving God's healing and salvation",
-            "Faith is unnecessary for miracles",
-            "Only Jews can have genuine faith",
-            "Faith is based on human works"
-          ],
-          "correctAnswer": "Faith is essential for receiving God's healing and salvation",
-          "explanation": "Jesus’ marvel at the centurion’s faith (Matthew 8:10) reveals faith as the key condition for receiving God’s blessings, consistent with Romans 4:20-21, Hebrews 11:6, and Ephesians 2:8.",
+          "correctAnswer": "Great faith is recognized and rewarded by God even outside Israel",
+          "explanation": "Jesus marvels at the centurion's faith, stating He has not found such faith even in Israel, highlighting the doctrine that faith is key to salvation and is not ethnically limited.",
           "verseReference": "Matthew 8:10",
           "difficulty": "hard"
         },
         {
-          "id": "matthew-8-theological-q13",
-          "question": "How does the healing of Peter’s mother-in-law in Matthew 8:14-15 demonstrate Jesus’ compassion and authority?",
+          "id": "matthew-8-theological-q3",
+          "question": "What doctrine does Matthew 8:22 teach about discipleship and priorities in the kingdom of God?",
           "type": "multiple-choice",
           "options": [
-            "Jesus heals by touch, restoring her to service, showing His power and care",
-            "Jesus requires elaborate rituals before healing",
-            "Jesus only heals after long prayers",
-            "Jesus demands payment for healing"
+            "Following Jesus requires radical commitment, prioritizing Him over even family obligations",
+            "Family obligations must always take precedence over following Christ",
+            "Discipleship is optional and can wait until personal affairs are settled",
+            "The kingdom of God is primarily about social justice"
           ],
-          "correctAnswer": "Jesus heals by touch, restoring her to service, showing His power and care",
-          "explanation": "In Matthew 8:14-15, Jesus’ immediate healing by touch and her subsequent service illustrate His compassionate authority, fulfilling messianic expectations of restoration (Isaiah 61:1-3).",
-          "verseReference": "Matthew 8:14-15",
+          "correctAnswer": "Following Jesus requires radical commitment, prioritizing Him over even family obligations",
+          "explanation": "Jesus commands the disciple to \"Follow me; and let the dead bury their dead,\" emphasizing the radical call to prioritize discipleship above natural ties.",
+          "verseReference": "Matthew 8:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-8-theological-q4",
+          "question": "Which divine attribute does Matthew 8:26 specifically demonstrate?",
+          "type": "multiple-choice",
+          "options": [
+            "Sovereignty",
+            "Omniscience",
+            "Immutability",
+            "Justice"
+          ],
+          "correctAnswer": "Sovereignty",
+          "explanation": "In Matthew 8:26, Jesus rebukes the winds and the sea, demonstrating His sovereign authority over creation.",
+          "verseReference": "Matthew 8:26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-8-theological-q5",
+          "question": "Which divine attribute does Matthew 8:17 specifically demonstrate?",
+          "type": "multiple-choice",
+          "options": [
+            "Substitutionary atonement",
+            "Omnipresence",
+            "Holiness",
+            "Wrath"
+          ],
+          "correctAnswer": "Substitutionary atonement",
+          "explanation": "Matthew 8:17 quotes Isaiah to show that Jesus 'bare our sicknesses,' indicating He took on human infirmities to atone for sin, reflecting substitutionary atonement.",
+          "verseReference": "Matthew 8:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-8-theological-q6",
+          "question": "How does Matthew 8:11 connect to the broader theme of Gentile inclusion in the kingdom of God?",
+          "type": "multiple-choice",
+          "options": [
+            "It anticipates Gentiles joining Israel's patriarchs in the kingdom",
+            "It limits the kingdom to ethnic Israel only",
+            "It predicts a future earthly kingdom ruled by Israelite kings",
+            "It suggests Gentiles will be subordinate to Israelites in the kingdom"
+          ],
+          "correctAnswer": "It anticipates Gentiles joining Israel's patriarchs in the kingdom",
+          "explanation": "Matthew 8:11 speaks of 'many from the east and west' sitting with Abraham, Isaac, and Jacob, indicating Gentile inclusion in the kingdom, fulfilling God's promise to bless all nations.",
+          "verseReference": "Matthew 8:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-8-theological-q7",
+          "question": "How does the healing of the centurion's servant (Matthew 8:5-13) relate to the theme of faith in Jesus' authority elsewhere in Scripture?",
+          "type": "multiple-choice",
+          "options": [
+            "It exemplifies faith in Jesus' spoken word as authoritative and effective",
+            "It shows that physical proximity to Jesus is necessary for healing",
+            "It demonstrates that faith must be accompanied by ritual works",
+            "It indicates that only Jewish faith is acceptable"
+          ],
+          "correctAnswer": "It exemplifies faith in Jesus' spoken word as authoritative and effective",
+          "explanation": "The centurion's faith in Jesus' word alone (Matthew 8:8-9) highlights the power of Jesus' authority, consistent with other Scripture where faith trusts God's word without requiring signs.",
+          "verseReference": "Matthew 8:8-9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-8-theological-q8",
+          "question": "What combined doctrine do Matthew 8:12 and Matthew 8:11 teach about salvation and judgment?",
+          "type": "multiple-choice",
+          "options": [
+            "Salvation is open to Gentiles by faith; judgment awaits those who reject the kingdom despite privilege",
+            "Salvation is by works; judgment is arbitrary",
+            "Only Jews will be saved; Gentiles are excluded",
+            "Judgment is only for non-believers outside the visible church"
+          ],
+          "correctAnswer": "Salvation is open to Gentiles by faith; judgment awaits those who reject the kingdom despite privilege",
+          "explanation": "Verse 11 promises many from east and west will join the patriarchs, while verse 12 warns that 'children of the kingdom' (Jews) will be cast out, teaching that faith, not ethnicity, determines salvation and judgment.",
+          "verseReference": "Matthew 8:11, 12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-8-theological-q9",
+          "question": "What combined doctrine do Matthew 8:4 and Matthew 8:17 teach about Jesus' fulfillment of Old Testament law and prophecy?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus fulfills the law's requirements and the prophetic role by healing and instructing obedience",
+            "Jesus abolishes the law and prophecy altogether",
+            "Jesus ignores the law's ceremonial ordinances",
+            "Jesus only fulfills prophecy but disregards the law"
+          ],
+          "correctAnswer": "Jesus fulfills the law's requirements and the prophetic role by healing and instructing obedience",
+          "explanation": "Verse 4 instructs the healed leper to follow Mosaic law (show himself to the priest), and verse 17 cites Isaiah's prophecy fulfilled in Jesus' healing, showing fulfillment of law and prophecy.",
+          "verseReference": "Matthew 8:4, 17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-8-theological-q10",
+          "question": "What combined doctrine do Matthew 8:20 and Matthew 8:22 teach about the cost of discipleship?",
+          "type": "multiple-choice",
+          "options": [
+            "Discipleship requires forsaking earthly security and familial obligations",
+            "Discipleship guarantees earthly comfort and social status",
+            "Discipleship is primarily about religious rituals",
+            "Discipleship is optional and easily deferred"
+          ],
+          "correctAnswer": "Discipleship requires forsaking earthly security and familial obligations",
+          "explanation": "Verse 20 highlights Jesus' homelessness, and verse 22 calls to leave burial duties, together emphasizing the radical cost and total commitment required for discipleship.",
+          "verseReference": "Matthew 8:20, 22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-8-theological-q11",
+          "question": "Sceptics claim Jesus' command to the sea to be still (Matthew 8:23-27) is mythological exaggeration. What does this passage actually teach?",
+          "type": "multiple-choice",
+          "options": [
+            "It shows Jesus' divine authority over nature, authenticating His identity as Son of God",
+            "It is a poetic metaphor with no historical basis",
+            "It teaches that Jesus feared the storm like any human",
+            "It implies that natural disasters are random and uncontrollable"
+          ],
+          "correctAnswer": "It shows Jesus' divine authority over nature, authenticating His identity as Son of God",
+          "explanation": "Verses 26-27 demonstrate Jesus rebuking the wind and sea, causing calm, which astonishes the disciples and reveals His divine sovereignty over creation.",
+          "verseReference": "Matthew 8:23-27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-8-theological-q12",
+          "question": "What doctrine does Matthew 8:28-32 teach about the spiritual realm and Christ's authority over evil?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus has authority over demonic powers and liberates those oppressed",
+            "Demons have ultimate control over the physical world",
+            "Jesus fears demonic powers and avoids confrontation",
+            "Spiritual oppression is unbreakable"
+          ],
+          "correctAnswer": "Jesus has authority over demonic powers and liberates those oppressed",
+          "explanation": "The narrative shows Jesus casting out demons and commanding them, demonstrating His sovereign authority over evil spirits.",
+          "verseReference": "Matthew 8:28-32",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-8-theological-q13",
+          "question": "Which divine attribute does Matthew 8:4 specifically demonstrate?",
+          "type": "multiple-choice",
+          "options": [
+            "Faithfulness to the covenant and Mosaic law",
+            "Wrath against sinners",
+            "Omnipresence",
+            "Immutability"
+          ],
+          "correctAnswer": "Faithfulness to the covenant and Mosaic law",
+          "explanation": "Jesus commands the healed leper to present himself to the priest and offer the commanded gift, showing His faithfulness to God's covenant law.",
+          "verseReference": "Matthew 8:4",
           "difficulty": "hard"
         },
         {
           "id": "matthew-8-theological-q14",
-          "question": "In Matthew 8:18-22, what does Jesus’ response to the scribe and disciple teach about the cost of following Him?",
+          "question": "Which divine attribute does Matthew 8:7 specifically demonstrate?",
           "type": "multiple-choice",
           "options": [
-            "Following Jesus requires total commitment, often at great personal cost",
-            "Following Jesus is easy and without sacrifice",
-            "Discipleship depends on social status",
-            "Following Jesus involves political gain"
+            "Compassion",
+            "Jealousy",
+            "Omniscience",
+            "Wrath"
           ],
-          "correctAnswer": "Following Jesus requires total commitment, often at great personal cost",
-          "explanation": "Jesus’ responses in Matthew 8:18-22 emphasize that discipleship demands complete surrender, aligning with Luke 9:23-24, Mark 10:29-30, and Philippians 3:7-8.",
-          "verseReference": "Matthew 8:18-22",
+          "correctAnswer": "Compassion",
+          "explanation": "Jesus' willingness to come and heal the centurion's servant shows His compassion for human suffering.",
+          "verseReference": "Matthew 8:7",
           "difficulty": "hard"
         },
         {
           "id": "matthew-8-theological-q15",
-          "question": "What Christological truth is reflected in Jesus casting out demons with his word in Matthew 8:16?",
+          "question": "How does Matthew 8:34 fit into the narrative arc of Jesus' ministry regarding rejection and acceptance?",
           "type": "multiple-choice",
           "options": [
-            "Jesus’ spoken word reveals His divine authority over spiritual powers",
-            "Jesus requires magical rituals for exorcism",
-            "Demons have no recognition of Jesus’ authority",
-            "Jesus’ power is limited to healing physical sickness"
+            "It illustrates the common pattern of Jesus being rejected by towns despite His miracles",
+            "It shows universal acceptance of Jesus throughout Israel",
+            "It indicates Jesus' ministry was politically motivated",
+            "It depicts immediate establishment of Jesus' earthly kingdom"
           ],
-          "correctAnswer": "Jesus’ spoken word reveals His divine authority over spiritual powers",
-          "explanation": "In Matthew 8:16, Jesus casts out demons by speaking, demonstrating His divine authority over evil spirits, as supported by Luke 4:36, Mark 1:27, and Colossians 2:15.",
-          "verseReference": "Matthew 8:16",
+          "correctAnswer": "It illustrates the common pattern of Jesus being rejected by towns despite His miracles",
+          "explanation": "The crowd begs Jesus to leave after the demoniacs are healed, showing rejection despite His power, a theme repeated in the Gospels.",
+          "verseReference": "Matthew 8:34",
           "difficulty": "hard"
         }
       ],

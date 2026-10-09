@@ -13,221 +13,219 @@
       "questions": [
         {
           "id": "exodus-22-easy-q1",
-          "question": "According to Exodus 22:1, how many oxen must a man restore if he steals and kills an ox?",
+          "question": "According to Exodus 22:1, if a man steals and kills an ox, how many oxen must he restore?",
           "type": "multiple-choice",
           "options": [
-            "Five oxen",
             "Two oxen",
+            "Five oxen",
             "Three oxen",
             "Four oxen"
           ],
           "correctAnswer": "Five oxen",
-          "explanation": "Exodus 22:1 states that if a man steals and kills an ox, he must restore five oxen for one ox.",
+          "explanation": "Exodus 22:1 states that if a man steals an ox and kills it, he shall restore five oxen for the ox.",
           "verseReference": "Exodus 22:1",
           "difficulty": "easy"
         },
         {
           "id": "exodus-22-easy-q2",
-          "question": "What does Exodus 22:2 say about a thief found breaking in who is killed?",
-          "type": "multiple-choice",
+          "question": "True or False: According to Exodus 22:2, if a thief is found breaking in and is killed, the killer shall be punished.",
+          "type": "true-false",
           "options": [
-            "No blood shall be shed for him",
-            "He must be resurrected",
-            "He must be punished by exile",
-            "He must pay a fine"
+            "True",
+            "False"
           ],
-          "correctAnswer": "No blood shall be shed for him",
-          "explanation": "Exodus 22:2 states that if a thief is found breaking in and is killed, there shall be no bloodshed for him.",
+          "correctAnswer": "False",
+          "explanation": "Exodus 22:2 says if a thief is found breaking in and is smitten that he die, no blood shall be shed for him, so the killer is not punished.",
           "verseReference": "Exodus 22:2",
           "difficulty": "easy"
         },
         {
           "id": "exodus-22-easy-q3",
-          "question": "If the sun has risen on a thief who broke in, what does Exodus 22:3 say must happen to him?",
+          "question": "What happens if the sun rises on a thief who has stolen something, according to Exodus 22:3?",
           "type": "multiple-choice",
           "options": [
-            "Blood shall be shed for him",
-            "He shall be set free",
             "He shall be forgiven",
-            "He shall be given a warning"
+            "He shall be sold for his theft",
+            "He shall be set free",
+            "He shall pay half restitution"
           ],
-          "correctAnswer": "Blood shall be shed for him",
-          "explanation": "According to Exodus 22:3, if the sun has risen on the thief, blood shall be shed for him because he should make full restitution.",
+          "correctAnswer": "He shall be sold for his theft",
+          "explanation": "Exodus 22:3 states that if the sun rises on a thief, there shall be blood shed for him, and if he has nothing to make restitution, he shall be sold for his theft.",
           "verseReference": "Exodus 22:3",
           "difficulty": "easy"
         },
         {
           "id": "exodus-22-easy-q4",
-          "question": "How much must a man restore if he is found with stolen ox, ass, or sheep alive, according to Exodus 22:4?",
+          "question": "If a man is found with stolen ox, ass, or sheep alive in his hand, what must he do, according to Exodus 22:4?",
           "type": "multiple-choice",
           "options": [
-            "Double",
-            "Triple",
-            "Half",
-            "Exact value"
+            "Return it once",
+            "Restore double",
+            "Pay a fine of tenfold",
+            "Keep it without penalty"
           ],
-          "correctAnswer": "Double",
-          "explanation": "Exodus 22:4 states that if a man is found with stolen property alive, he shall restore double.",
+          "correctAnswer": "Restore double",
+          "explanation": "Exodus 22:4 commands that if the theft is found in his hand alive, he shall restore double.",
           "verseReference": "Exodus 22:4",
           "difficulty": "easy"
         },
         {
           "id": "exodus-22-easy-q5",
-          "question": "What must a man do if his beast feeds in another man's field as per Exodus 22:5?",
-          "type": "multiple-choice",
-          "options": [
-            "Make restitution of the best of his own field and vineyard",
-            "Apologize only",
-            "Nothing",
-            "Pay a fine to the judges"
-          ],
-          "correctAnswer": "Make restitution of the best of his own field and vineyard",
-          "explanation": "Exodus 22:5 says he shall make restitution of the best of his own field and vineyard.",
-          "verseReference": "Exodus 22:5",
-          "difficulty": "easy"
-        },
-        {
-          "id": "exodus-22-easy-q6",
-          "question": "Who must make restitution if fire breaks out and consumes crops, according to Exodus 22:6?",
-          "type": "multiple-choice",
-          "options": [
-            "The one who kindled the fire",
-            "The owner of the field",
-            "The neighbors",
-            "The city elders"
-          ],
-          "correctAnswer": "The one who kindled the fire",
-          "explanation": "Exodus 22:6 states that he who kindled the fire must make restitution.",
-          "verseReference": "Exodus 22:6",
-          "difficulty": "easy"
-        },
-        {
-          "id": "exodus-22-easy-q7",
-          "question": "What happens if a man delivers money or goods to his neighbor for safekeeping and it is stolen, according to Exodus 22:7?",
-          "type": "multiple-choice",
-          "options": [
-            "The thief must pay double",
-            "The neighbor pays nothing",
-            "The owner is forgiven",
-            "The goods are replaced at market value"
-          ],
-          "correctAnswer": "The thief must pay double",
-          "explanation": "Exodus 22:7 states that if the thief is found, he must pay double.",
-          "verseReference": "Exodus 22:7",
-          "difficulty": "easy"
-        },
-        {
-          "id": "exodus-22-easy-q8",
-          "question": "What must the master of the house do if the thief is not found stealing from his house, as per Exodus 22:8?",
-          "type": "multiple-choice",
-          "options": [
-            "Be brought before the judges",
-            "Be forgiven",
-            "Pay a fine",
-            "Leave the house"
-          ],
-          "correctAnswer": "Be brought before the judges",
-          "explanation": "Exodus 22:8 says the master shall be brought to the judges to see if he has put his hand to his neighbor's goods.",
-          "verseReference": "Exodus 22:8",
-          "difficulty": "easy"
-        },
-        {
-          "id": "exodus-22-easy-q9",
-          "question": "According to Exodus 22:16, what must a man do if he entices a maid who is not betrothed and lies with her?",
-          "type": "multiple-choice",
-          "options": [
-            "Endow her to be his wife",
-            "Pay a fine only",
-            "Marry another woman",
-            "Leave the town"
-          ],
-          "correctAnswer": "Endow her to be his wife",
-          "explanation": "Exodus 22:16 states that he shall surely endow her to be his wife.",
-          "verseReference": "Exodus 22:16",
-          "difficulty": "easy"
-        },
-        {
-          "id": "exodus-22-easy-q10",
-          "question": "True or False: Exodus 22:18 commands to not suffer a witch to live.",
+          "question": "True or False: Exodus 22:5 commands a man who lets his beast feed in another man's field to make restitution from the best of his own field and vineyard.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Exodus 22:18 clearly states, 'Thou shalt not suffer a witch to live.'",
-          "verseReference": "Exodus 22:18",
+          "explanation": "Exodus 22:5 instructs that if a man causes a field or vineyard to be eaten by his beast feeding there, he must make restitution from the best of his own field and vineyard.",
+          "verseReference": "Exodus 22:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-22-easy-q6",
+          "question": "According to Exodus 22:6, who must make restitution if fire breaks out and consumes another's crops?",
+          "type": "multiple-choice",
+          "options": [
+            "The owner of the crops",
+            "The man who kindled the fire",
+            "The nearest neighbor",
+            "The city elders"
+          ],
+          "correctAnswer": "The man who kindled the fire",
+          "explanation": "Exodus 22:6 states that if fire breaks out and consumes crops, the man who kindled the fire must make restitution.",
+          "verseReference": "Exodus 22:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-22-easy-q7",
+          "question": "If money or goods are stolen from a man's house while he is keeping them for his neighbor, what must happen if the thief is found, according to Exodus 22:7?",
+          "type": "multiple-choice",
+          "options": [
+            "The thief pays back the original amount",
+            "The thief pays double",
+            "The owner loses the goods",
+            "The neighbor must forgive the loss"
+          ],
+          "correctAnswer": "The thief pays double",
+          "explanation": "Exodus 22:7 commands that if money or goods are stolen and the thief is found, he must pay double.",
+          "verseReference": "Exodus 22:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-22-easy-q8",
+          "question": "True or False: If the thief is not found, the master of the house shall be taken to the judges to determine if he stole, as per Exodus 22:8.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Exodus 22:8 says if the thief is not found, the master of the house shall be brought before judges to see if he has taken his neighbor's goods.",
+          "verseReference": "Exodus 22:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-22-easy-q9",
+          "question": "According to Exodus 22:9, what must be done if a judge condemns someone for a trespass regarding lost or stolen goods?",
+          "type": "multiple-choice",
+          "options": [
+            "They pay half the value",
+            "They pay double to their neighbor",
+            "They are imprisoned",
+            "They are fined without restitution"
+          ],
+          "correctAnswer": "They pay double to their neighbor",
+          "explanation": "Exodus 22:9 states that the person condemned by judges shall pay double to their neighbor.",
+          "verseReference": "Exodus 22:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-22-easy-q10",
+          "question": "If a man delivers an animal to his neighbor to keep and it dies or is hurt without witnesses, what shall happen according to Exodus 22:10?",
+          "type": "multiple-choice",
+          "options": [
+            "The keeper must pay damages",
+            "An oath of the LORD shall be between them",
+            "The owner must accept loss",
+            "The animal must be replaced"
+          ],
+          "correctAnswer": "An oath of the LORD shall be between them",
+          "explanation": "Exodus 22:10 states that if an animal dies or is hurt with no witness, an oath of the LORD shall be between the parties.",
+          "verseReference": "Exodus 22:10",
           "difficulty": "easy"
         },
         {
           "id": "exodus-22-easy-q11",
-          "question": "True or False: Exodus 22:21 says you should oppress strangers because you were strangers in Egypt.",
-          "type": "true-false",
+          "question": "According to Exodus 22:11, if the keeper swears he did not touch the neighbor's goods, what must the owner do?",
+          "type": "multiple-choice",
           "options": [
-            "True",
-            "False"
+            "He shall demand full payment",
+            "He shall accept the oath and not require repayment",
+            "He shall seek further judgment",
+            "He shall sell the goods"
           ],
-          "correctAnswer": "False",
-          "explanation": "Exodus 22:21 commands that you shall neither vex nor oppress a stranger, for you were strangers in Egypt.",
-          "verseReference": "Exodus 22:21",
+          "correctAnswer": "He shall accept the oath and not require repayment",
+          "explanation": "Exodus 22:11 commands that the owner shall accept the oath and not require the keeper to make good the loss.",
+          "verseReference": "Exodus 22:11",
           "difficulty": "easy"
         },
         {
           "id": "exodus-22-easy-q12",
-          "question": "True or False: Exodus 22:31 states that you shall eat any flesh torn by beasts in the field.",
+          "question": "Which of the following comes first according to the order of instructions in Exodus 22?",
+          "type": "multiple-choice",
+          "options": [
+            "Restitution for stolen oxen",
+            "Rules about fire damage",
+            "Consequences for a thief caught breaking in",
+            "Instructions about lending money without interest"
+          ],
+          "correctAnswer": "Restitution for stolen oxen",
+          "explanation": "Exodus 22:1 begins with restitution for stolen oxen and sheep, which comes before rules about fire damage (v6), thief consequences (v2-3), and lending rules (v25).",
+          "verseReference": "Exodus 22:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-22-easy-q13",
+          "question": "True or False: According to Exodus 22:3, if a thief cannot make restitution, he shall be sold for his theft.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
-          "correctAnswer": "False",
-          "explanation": "Exodus 22:31 commands not to eat any flesh torn by beasts and to cast it to the dogs.",
-          "verseReference": "Exodus 22:31",
-          "difficulty": "easy"
-        },
-        {
-          "id": "exodus-22-easy-q13",
-          "question": "Complete the verse from Exodus 22:25: 'If thou lend money to any of my people that is poor by thee, thou shalt not be to him as an ______.'",
-          "type": "fill-blank",
-          "options": [
-            "usurer",
-            "enemy",
-            "judge",
-            "neighbor"
-          ],
-          "correctAnswer": "usurer",
-          "explanation": "Exodus 22:25 commands not to act as an usurer when lending to the poor.",
-          "verseReference": "Exodus 22:25",
+          "correctAnswer": "True",
+          "explanation": "Exodus 22:3 states that if the thief has nothing to make restitution, he shall be sold for his theft.",
+          "verseReference": "Exodus 22:3",
           "difficulty": "easy"
         },
         {
           "id": "exodus-22-easy-q14",
-          "question": "What shall happen if someone sacrifices to a god other than the LORD, according to Exodus 22:20?",
+          "question": "According to Exodus 22:4, what animals are mentioned as examples that if found stolen alive in a thief's hand require double restitution?",
           "type": "multiple-choice",
           "options": [
-            "He shall be utterly destroyed",
-            "He shall be forgiven",
-            "He shall offer another sacrifice",
-            "He shall be praised"
+            "Ox, ass, sheep",
+            "Horse, goat, ox",
+            "Sheep, goat, camel",
+            "Ox, camel, donkey"
           ],
-          "correctAnswer": "He shall be utterly destroyed",
-          "explanation": "Exodus 22:20 states that anyone who sacrifices to any god except the LORD shall be utterly destroyed.",
-          "verseReference": "Exodus 22:20",
+          "correctAnswer": "Ox, ass, sheep",
+          "explanation": "Exodus 22:4 mentions ox, ass, and sheep as animals which if found alive in a thief's hand require double restitution.",
+          "verseReference": "Exodus 22:4",
           "difficulty": "easy"
         },
         {
           "id": "exodus-22-easy-q15",
-          "question": "According to Exodus 22:26, what must be done if you take your neighbor's raiment as a pledge?",
+          "question": "If a man causes fire to consume another's field or stacks of corn, what must he do according to Exodus 22:6?",
           "type": "multiple-choice",
           "options": [
-            "Deliver it to him by the sun going down",
-            "Keep it until repayment",
-            "Sell it immediately",
-            "Give it to the priests"
+            "He must pay half damages",
+            "He must make full restitution",
+            "He must be put to death",
+            "He must be fined by the elders"
           ],
-          "correctAnswer": "Deliver it to him by the sun going down",
-          "explanation": "Exodus 22:26 commands that raiment taken as pledge must be returned by sunset.",
-          "verseReference": "Exodus 22:26",
+          "correctAnswer": "He must make full restitution",
+          "explanation": "Exodus 22:6 states that the man who kindled the fire shall surely make restitution for the damage caused.",
+          "verseReference": "Exodus 22:6",
           "difficulty": "easy"
         }
       ],
@@ -254,238 +252,221 @@
       "questions": [
         {
           "id": "exodus-22-medium-q1",
-          "question": "A fellow believer is struggling with honesty and restitution after stealing from a neighbor. Based on Exodus 22, what biblical principle should you share about making restitution?",
+          "question": "According to Exodus 22:12, what must a man do if an animal he was keeping for a neighbor is stolen from him?",
           "type": "multiple-choice",
           "options": [
-            "Steal without consequences",
-            "Restore double what was taken",
-            "Make no restitution",
-            "Restore five oxen for an ox and four sheep for a sheep"
+            "He shall make restitution unto the owner thereof",
+            "He shall swear an oath before the LORD",
+            "He shall not make it good",
+            "He shall pay double to the owner"
           ],
-          "correctAnswer": "Restore five oxen for an ox and four sheep for a sheep",
-          "explanation": "Exodus 22:1 teaches that if a man steals an ox or sheep and kills or sells it, he must restore five oxen for an ox and four sheep for a sheep, emphasizing full restitution and honesty. Related verses include Exodus 22:4 and Exodus 22:7.",
-          "verseReference": "Exodus 22:1",
+          "correctAnswer": "He shall make restitution unto the owner thereof",
+          "explanation": "Exodus 22:12 clearly states that if the animal is stolen from him, he shall make restitution unto the owner. This complements Exodus 22:10–11 which deal with the responsibility when the animal dies or is hurt, indicating the importance of making things right.",
+          "verseReference": "Exodus 22:12",
           "difficulty": "medium"
         },
         {
           "id": "exodus-22-medium-q2",
-          "question": "How does Exodus 22 teach us about justice when dealing with a thief caught breaking in at night?",
+          "question": "What is the requirement if an animal lent to a neighbor is torn in pieces, according to Exodus 22?",
           "type": "multiple-choice",
           "options": [
-            "The thief should be forgiven immediately",
-            "Blood shall not be shed if the thief is caught at night and killed",
-            "The thief should be sold as a slave",
-            "The thief must pay double restitution"
+            "The lender must bring the torn pieces as a witness and the borrower does not have to make good that which was torn",
+            "The borrower must pay double the value of the animal",
+            "The lender must accept the loss without compensation",
+            "The borrower must replace the animal"
           ],
-          "correctAnswer": "Blood shall not be shed if the thief is caught at night and killed",
-          "explanation": "Exodus 22:2 states that if a thief is found breaking in at night and is killed, there shall be no bloodguilt for his death, teaching mercy and justice in the context of protecting one's home. Exodus 22:3 contrasts this by requiring restitution if caught by day.",
-          "verseReference": "Exodus 22:2",
+          "correctAnswer": "The lender must bring the torn pieces as a witness and the borrower does not have to make good that which was torn",
+          "explanation": "Exodus 22:13 teaches that if the animal is torn, the owner must bring it as evidence, and the borrower is not required to compensate for what was torn. This ties to the principle in Exodus 22:10–11 about responsibility when no one sees the harm.",
+          "verseReference": "Exodus 22:13",
           "difficulty": "medium"
         },
         {
           "id": "exodus-22-medium-q3",
-          "question": "A neighbor entrusts you with their ox. The ox dies while in your care, and no one saw what happened. What does Exodus 22 instruct about your responsibility?",
+          "question": "If a man borrows something from his neighbor, and it is hurt or dies while the owner is not present, what does Exodus 22:14 command?",
           "type": "multiple-choice",
           "options": [
-            "No repayment is required if an oath is made",
-            "You must pay double restitution",
-            "You must immediately replace the ox",
-            "You are not responsible at all"
+            "He shall surely make it good",
+            "He shall not be responsible",
+            "He shall swear an oath of innocence",
+            "He shall give a replacement item"
           ],
-          "correctAnswer": "No repayment is required if an oath is made",
-          "explanation": "Exodus 22:10-11 explains that if an animal dies or is hurt without witnesses, an oath between the two parties is to be made, and the owner must accept it without requiring repayment, teaching integrity and trust.",
-          "verseReference": "Exodus 22:10",
+          "correctAnswer": "He shall surely make it good",
+          "explanation": "Exodus 22:14 commands the borrower to make good for the loss if the owner is not with the borrowed item, emphasizing accountability in stewardship. This complements Exodus 22:15 where the responsibility changes if the owner is present.",
+          "verseReference": "Exodus 22:14",
           "difficulty": "medium"
         },
         {
           "id": "exodus-22-medium-q4",
-          "question": "How does Exodus 22 guide us in dealing with those who are poor and need to borrow money?",
+          "question": "According to Exodus 22:15, what happens if the owner is with the borrowed item and it is hurt or dies?",
           "type": "multiple-choice",
           "options": [
-            "Charge them interest as usual",
-            "Lend without charging interest or usury",
-            "Refuse to lend money",
-            "Demand collateral and high interest"
+            "The borrower shall not make it good",
+            "The borrower must pay double",
+            "The borrower must replace the item",
+            "The owner is responsible for the loss"
           ],
-          "correctAnswer": "Lend without charging interest or usury",
-          "explanation": "Exodus 22:25 instructs believers to lend money to the poor without acting as an usurer or charging interest, emphasizing generosity and compassion in stewardship. This is supported by verses 26-27 about returning a poor person's pledge promptly.",
-          "verseReference": "Exodus 22:25",
+          "correctAnswer": "The borrower shall not make it good",
+          "explanation": "Exodus 22:15 states that if the owner is with the item, the borrower is not liable because the item was under the owner's watch, teaching fairness in responsibility. This contrasts with verse 14 where the owner is absent.",
+          "verseReference": "Exodus 22:15",
           "difficulty": "medium"
         },
         {
           "id": "exodus-22-medium-q5",
-          "question": "What teaching about marriage and responsibility is found in Exodus 22 regarding a man who entices a virgin who is not betrothed?",
+          "question": "What does Exodus 22:16 say a man must do if he entices a maid who is not betrothed and lies with her?",
           "type": "multiple-choice",
           "options": [
-            "He must marry her or pay a dowry if the father refuses",
-            "He can leave without any responsibility",
-            "He must pay a fine to the community",
-            "He should send her away immediately"
+            "He shall surely endow her to be his wife",
+            "He shall pay a fine to her father",
+            "He shall leave her without marriage",
+            "He shall offer a sacrifice"
           ],
-          "correctAnswer": "He must marry her or pay a dowry if the father refuses",
-          "explanation": "Exodus 22:16-17 teaches that a man who entices a virgin must endow her to be his wife, but if her father refuses, he must pay a dowry, emphasizing responsibility, honor, and respect in relationships.",
+          "correctAnswer": "He shall surely endow her to be his wife",
+          "explanation": "Exodus 22:16 prescribes that the man must endow the maid to be his wife, demonstrating the value of commitment and responsibility in relationships. Verse 17 further explains the procedure if her father refuses.",
           "verseReference": "Exodus 22:16",
           "difficulty": "medium"
         },
         {
           "id": "exodus-22-medium-q6",
-          "question": "A believer asks about God's attitude toward those who afflict widows or orphans. What does Exodus 22 say about this issue?",
+          "question": "If the father refuses to give his daughter to the man who enticed her, what is he required to do according to Exodus 22:17?",
           "type": "multiple-choice",
           "options": [
-            "God will ignore their cries",
-            "God will hear their cries and bring judgment",
-            "It is acceptable to afflict them",
-            "They should seek help from neighbors only"
+            "He shall pay money according to the dowry of virgins",
+            "He shall marry her anyway",
+            "He shall pay double restitution",
+            "He shall be put to death"
           ],
-          "correctAnswer": "God will hear their cries and bring judgment",
-          "explanation": "Exodus 22:22-24 states that God hears the cries of widows and orphans and will bring judgment on those who afflict them, highlighting God's justice and care for the vulnerable.",
-          "verseReference": "Exodus 22:22",
+          "correctAnswer": "He shall pay money according to the dowry of virgins",
+          "explanation": "Exodus 22:17 states that if the father refuses, the man must pay money equivalent to a virgin's dowry, showing the law's concern for fairness and provision. This follows the instruction in verse 16 about marriage.",
+          "verseReference": "Exodus 22:17",
           "difficulty": "medium"
         },
         {
           "id": "exodus-22-medium-q7",
-          "question": "True or False: According to Exodus 22, if a man borrows his neighbor's animal and it is hurt or dies while the owner is with it, the borrower must make restitution.",
+          "question": "What does Exodus 22:18 command about witches?",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
-          "correctAnswer": "False",
-          "explanation": "Exodus 22:15 teaches that if the owner is with the animal when it is hurt or dies, the borrower is not required to make restitution because it is considered part of the hire or agreement.",
-          "verseReference": "Exodus 22:15",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-22-medium-q8",
-          "question": "What does Exodus 22 say about sacrifices made to gods other than the LORD?",
-          "type": "multiple-choice",
-          "options": [
-            "They will be accepted by God",
-            "They shall be utterly destroyed",
-            "They should be ignored",
-            "They are encouraged"
-          ],
-          "correctAnswer": "They shall be utterly destroyed",
-          "explanation": "Exodus 22:20 clearly states that anyone who sacrifices to gods other than the LORD shall be utterly destroyed, teaching the importance of exclusive worship of God.",
-          "verseReference": "Exodus 22:20",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-22-medium-q9",
-          "question": "How does this chapter instruct believers to treat strangers living among them?",
-          "type": "multiple-choice",
-          "options": [
-            "Oppress and vex them",
-            "Treat them kindly and do not oppress them",
-            "Ignore their needs",
-            "Require them to leave immediately"
-          ],
-          "correctAnswer": "Treat them kindly and do not oppress them",
-          "explanation": "Exodus 22:21 commands believers not to vex or oppress strangers, reminding them that they were once strangers in Egypt, teaching empathy and kindness.",
-          "verseReference": "Exodus 22:21",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-22-medium-q10",
-          "question": "A believer is concerned about how to honor God with their offerings. What does Exodus 22 teach about bringing the first of the fruits and animals?",
-          "type": "multiple-choice",
-          "options": [
-            "Delay offerings until convenient",
-            "Offer the first fruits and firstborn animals promptly",
-            "Only give offerings once a year",
-            "Offer whatever is left over"
-          ],
-          "correctAnswer": "Offer the first fruits and firstborn animals promptly",
-          "explanation": "Exodus 22:29-30 commands not to delay the offering of the first fruits and the firstborn of animals, teaching stewardship, gratitude, and honor toward God.",
-          "verseReference": "Exodus 22:29",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-22-medium-q11",
-          "question": "According to Exodus 22, what should a person do if they take a neighbor's garment as a pledge for a loan?",
-          "type": "multiple-choice",
-          "options": [
-            "Keep it until the debt is paid, no matter how long",
-            "Return it before sunset because it is their only covering",
-            "Sell it immediately",
-            "Use it for personal gain"
-          ],
-          "correctAnswer": "Return it before sunset because it is their only covering",
-          "explanation": "Exodus 22:26-27 instructs that if a garment is taken as a pledge, it must be returned by sunset since it is the only covering for the person's skin, emphasizing compassion and respect.",
-          "verseReference": "Exodus 22:26",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-22-medium-q12",
-          "question": "True or False: Exodus 22 commands that anyone practicing witchcraft must be allowed to continue living among the people.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "False",
-          "explanation": "Exodus 22:18 commands that a witch shall not be allowed to live, showing the seriousness of rejecting occult practices within the community.",
+          "correctAnswer": "True",
+          "explanation": "Exodus 22:18 explicitly commands that a witch shall not be suffered to live. This reflects the seriousness with which such practices were regarded in this law code.",
           "verseReference": "Exodus 22:18",
           "difficulty": "medium"
         },
         {
-          "id": "exodus-22-medium-q13",
-          "question": "A brother wants to understand the importance of honesty in handling lost property. According to Exodus 22, what should be done when lost property is claimed by another?",
+          "id": "exodus-22-medium-q8",
+          "question": "According to Exodus 22:19, what is the penalty for lying with a beast?",
           "type": "multiple-choice",
           "options": [
-            "The one who claims it must pay double if proven false",
-            "The owner always keeps it",
-            "The judges decide and the condemned pays double restitution",
-            "The property must be destroyed"
+            "Death",
+            "A fine",
+            "Exile",
+            "Restitution twice over"
           ],
-          "correctAnswer": "The judges decide and the condemned pays double restitution",
-          "explanation": "Exodus 22:9 teaches that disputes over lost property must come before the judges, and the party condemned must pay double restitution, emphasizing justice and integrity.",
-          "verseReference": "Exodus 22:9",
+          "correctAnswer": "Death",
+          "explanation": "Exodus 22:19 clearly states that anyone who lies with a beast shall surely be put to death, emphasizing the severity of this offense in the law.",
+          "verseReference": "Exodus 22:19",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-22-medium-q9",
+          "question": "What does Exodus 22:20 declare about sacrifices to any god except the LORD?",
+          "type": "multiple-choice",
+          "options": [
+            "He shall be utterly destroyed",
+            "He shall be forgiven if he repents",
+            "He shall pay a fine",
+            "He shall offer a substitute sacrifice"
+          ],
+          "correctAnswer": "He shall be utterly destroyed",
+          "explanation": "Exodus 22:20 pronounces that anyone sacrificing to gods other than the LORD shall be utterly destroyed, underscoring exclusive worship of the LORD in Israel.",
+          "verseReference": "Exodus 22:20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-22-medium-q10",
+          "question": "How does Exodus 22:21 teach about treatment of strangers?",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Exodus 22:21 commands not to vex or oppress a stranger, reminding the Israelites they were once strangers in Egypt, teaching empathy and kindness.",
+          "verseReference": "Exodus 22:21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-22-medium-q11",
+          "question": "What warning does Exodus 22:23 give if widows or fatherless children are afflicted and cry out to God?",
+          "type": "multiple-choice",
+          "options": [
+            "God will surely hear their cry",
+            "Their cry will go unanswered",
+            "They must bring their complaint before judges only",
+            "They must seek revenge themselves"
+          ],
+          "correctAnswer": "God will surely hear their cry",
+          "explanation": "Exodus 22:23 promises that if widows or orphans are afflicted and cry to God, He will surely hear their cry, emphasizing God's care for the vulnerable.",
+          "verseReference": "Exodus 22:23",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-22-medium-q12",
+          "question": "What consequence does Exodus 22:24 say will come upon those who afflict widows or fatherless children?",
+          "type": "multiple-choice",
+          "options": [
+            "God's wrath will burn hot and they will be killed with the sword",
+            "They will be fined by the judges",
+            "They will be cast out of the community",
+            "They will be forgiven if they repent"
+          ],
+          "correctAnswer": "God's wrath will burn hot and they will be killed with the sword",
+          "explanation": "Exodus 22:24 warns that God's wrath will ignite and He will kill those who afflict widows or fatherless children, showing the seriousness of such injustice.",
+          "verseReference": "Exodus 22:24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-22-medium-q13",
+          "question": "According to Exodus 22:25, how should one lend money to the poor among God's people?",
+          "type": "multiple-choice",
+          "options": [
+            "Without charging interest or usury",
+            "With a standard interest rate",
+            "Only with collateral",
+            "With double repayment"
+          ],
+          "correctAnswer": "Without charging interest or usury",
+          "explanation": "Exodus 22:25 instructs lenders not to act as usurers or charge interest to the poor among God's people, highlighting generosity and compassion in lending.",
+          "verseReference": "Exodus 22:25",
           "difficulty": "medium"
         },
         {
           "id": "exodus-22-medium-q14",
-          "question": "Fill in the blank: Exodus 22 teaches that you shall not ______ the gods, nor curse the ruler of your people.",
-          "type": "fill-in-the-blank",
+          "question": "What must be done if a neighbor’s garment is taken as a pledge, according to Exodus 22:26–27?",
+          "type": "multiple-choice",
           "options": [
-            "Revere",
-            "Revile",
-            "Ignore",
-            "Bless"
+            "It must be returned to him by sunset because it is his only covering",
+            "It can be kept until the debt is repaid",
+            "It must be sold to pay the debt",
+            "It must be burned if the debt is not paid"
           ],
-          "correctAnswer": "Revile",
-          "explanation": "Exodus 22:28 commands not to revile the gods or curse rulers, teaching respect for authority and reverence.",
-          "verseReference": "Exodus 22:28",
+          "correctAnswer": "It must be returned to him by sunset because it is his only covering",
+          "explanation": "Exodus 22:26–27 commands that a neighbor's garment taken as a pledge must be returned by sunset since it is his only covering, demonstrating concern for human dignity and basic needs.",
+          "verseReference": "Exodus 22:26-27",
           "difficulty": "medium"
         },
         {
           "id": "exodus-22-medium-q15",
-          "question": "If a fire started by a person consumes a neighbor's crops, what does Exodus 22 say about the responsibility of the one who kindled the fire?",
-          "type": "multiple-choice",
+          "question": "What does Exodus 22:28 forbid regarding gods and rulers?",
+          "type": "true-false",
           "options": [
-            "They are not responsible",
-            "They must make full restitution",
-            "They should apologize but pay nothing",
-            "They should help replant crops"
+            "True",
+            "False"
           ],
-          "correctAnswer": "They must make full restitution",
-          "explanation": "Exodus 22:6 teaches that if a person's fire catches and consumes another's crops, they must make restitution, emphasizing accountability and integrity.",
-          "verseReference": "Exodus 22:6",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-22-medium-q16",
-          "question": "How does Exodus 22 instruct believers to treat animals that have been torn by beasts in the field when borrowing them?",
-          "type": "multiple-choice",
-          "options": [
-            "Make full restitution regardless",
-            "Bring the torn parts as evidence and not make restitution",
-            "Ignore the damage",
-            "Replace the animal immediately"
-          ],
-          "correctAnswer": "Bring the torn parts as evidence and not make restitution",
-          "explanation": "Exodus 22:13 explains that if an animal is torn, the borrower should bring the torn parts as witness and is not required to make restitution, teaching fairness.",
-          "verseReference": "Exodus 22:13",
+          "correctAnswer": "False",
+          "explanation": "Exodus 22:28 forbids reviling the gods or cursing the ruler of the people, so the statement that it permits cursing is false.",
+          "verseReference": "Exodus 22:28",
           "difficulty": "medium"
         }
       ],
@@ -499,7 +480,7 @@
         "bible-quiz",
         "medium"
       ],
-      "totalQuestions": 16,
+      "totalQuestions": 15,
       "estimatedTime": 12
     },
     "hard": {
@@ -512,225 +493,223 @@
       "questions": [
         {
           "id": "exodus-22-hard-q1",
-          "question": "According to Exodus 22:1, how many oxen must a man restore if he steals and kills one ox?",
+          "question": "According to Exodus 22:23-24, what consequence does God promise if widows and fatherless children are afflicted and cry out to Him?",
           "type": "multiple-choice",
           "options": [
-            "Five oxen",
-            "Four oxen",
-            "Two oxen",
-            "One ox"
+            "God will ignore their cry",
+            "God will hear their cry and bring wrath upon the oppressors",
+            "God will forgive the oppressors",
+            "God will send prophets to warn the oppressors"
           ],
-          "correctAnswer": "Five oxen",
-          "explanation": "Exodus 22:1 states that if a man steals and kills an ox, he must restore five oxen for one ox, showing the principle of multiple restitution.",
-          "verseReference": "Exodus 22:1",
+          "correctAnswer": "God will hear their cry and bring wrath upon the oppressors",
+          "explanation": "Exodus 22:23-24 states that if widows and fatherless children are afflicted and cry to God, He will surely hear their cry and His wrath will be kindled against the oppressors, leading to their destruction.",
+          "verseReference": "Exodus 22:23-24",
           "difficulty": "hard"
         },
         {
           "id": "exodus-22-hard-q2",
-          "question": "Exodus 22:2 allows killing a thief found breaking in at night without blood guilt. What condition changes this ruling according to verse 3?",
+          "question": "What instruction does Exodus 22:25 give regarding lending money to the poor among God's people?",
           "type": "multiple-choice",
           "options": [
-            "If the sun has risen on him",
-            "If the thief pleads for mercy",
-            "If the owner is armed",
-            "If the thief is a foreigner"
+            "Lend with interest to ensure repayment",
+            "Lend without charging usury or interest",
+            "Do not lend money at all",
+            "Only lend money to strangers"
           ],
-          "correctAnswer": "If the sun has risen on him",
-          "explanation": "Verse 3 clarifies that if the sun has risen on the thief, there shall be bloodshed because full restitution should be made, reflecting the cultural context of night versus day protection.",
-          "verseReference": "Exodus 22:3",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-22-hard-q3",
-          "question": "In Exodus 22:4, what is required if a man is found with stolen livestock alive in his possession?",
-          "type": "multiple-choice",
-          "options": [
-            "Restore double",
-            "Restore the exact animal",
-            "Restore half",
-            "No restitution required"
-          ],
-          "correctAnswer": "Restore double",
-          "explanation": "The verse prescribes double restitution for stolen livestock found alive, emphasizing justice and deterrence in ancient Near Eastern law codes.",
-          "verseReference": "Exodus 22:4",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-22-hard-q4",
-          "question": "Exodus 22:6 discusses fire causing damage to another's crops. What does this law reveal about responsibility in the ancient Hebrew context?",
-          "type": "multiple-choice",
-          "options": [
-            "The one who kindled the fire must make restitution",
-            "The owner of the field must bear the loss",
-            "Neighbors share the loss",
-            "No restitution is required"
-          ],
-          "correctAnswer": "The one who kindled the fire must make restitution",
-          "explanation": "This law reflects the principle of personal responsibility for damage caused, consistent with other ancient Near Eastern laws, highlighting accountability.",
-          "verseReference": "Exodus 22:6",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-22-hard-q5",
-          "question": "What principle regarding entrusted property is taught in Exodus 22:10-11 concerning an animal that dies or is hurt with no witnesses?",
-          "type": "multiple-choice",
-          "options": [
-            "An oath between parties protects the keeper from restitution",
-            "The keeper must always pay full restitution",
-            "The owner bears all loss",
-            "The animal must be replaced with two others"
-          ],
-          "correctAnswer": "An oath between parties protects the keeper from restitution",
-          "explanation": "Verse 11 instructs an oath to confirm innocence, showing an early legal mechanism to resolve disputes fairly when evidence is lacking.",
-          "verseReference": "Exodus 22:10",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-22-hard-q6",
-          "question": "Exodus 22:16-17 mandates a man who entices a virgin to do what if her father refuses to give her to him in marriage?",
-          "type": "multiple-choice",
-          "options": [
-            "Pay money according to the dowry of virgins",
-            "Marry her by force",
-            "Leave her without support",
-            "Offer animal sacrifices"
-          ],
-          "correctAnswer": "Pay money according to the dowry of virgins",
-          "explanation": "This reflects the cultural importance of dowry and family consent in marriage negotiations in ancient Israelite society.",
-          "verseReference": "Exodus 22:17",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-22-hard-q7",
-          "question": "Which of the following punishments is commanded in Exodus 22:18 for a witch?",
-          "type": "multiple-choice",
-          "options": [
-            "She shall not be suffered to live",
-            "She shall be exiled",
-            "She shall be fined",
-            "She shall be imprisoned"
-          ],
-          "correctAnswer": "She shall not be suffered to live",
-          "explanation": "This harsh penalty reflects the ancient Israelite strict prohibition against witchcraft, emphasizing purity and covenant faithfulness.",
-          "verseReference": "Exodus 22:18",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-22-hard-q8",
-          "question": "What is the consequence in Exodus 22:19 for a person who lies with a beast?",
-          "type": "multiple-choice",
-          "options": [
-            "He shall be put to death",
-            "He shall be fined",
-            "He shall be exiled",
-            "He shall be flogged"
-          ],
-          "correctAnswer": "He shall be put to death",
-          "explanation": "This law demonstrates the severity of sexual prohibitions designed to maintain community holiness and order.",
-          "verseReference": "Exodus 22:19",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-22-hard-q9",
-          "question": "Exodus 22:20 warns against sacrifices to gods other than the LORD. What is the stated consequence?",
-          "type": "multiple-choice",
-          "options": [
-            "He shall be utterly destroyed",
-            "He shall be forgiven if he repents",
-            "He shall offer a double sacrifice",
-            "He shall be exiled"
-          ],
-          "correctAnswer": "He shall be utterly destroyed",
-          "explanation": "This command enforces exclusive worship of YHWH, a central theme in Israelite covenant theology.",
-          "verseReference": "Exodus 22:20",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-22-hard-q10",
-          "question": "According to Exodus 22:21, why must the Israelites not vex or oppress a stranger?",
-          "type": "multiple-choice",
-          "options": [
-            "Because they were strangers in the land of Egypt",
-            "Because strangers are under God's special protection",
-            "Because strangers pay tithes",
-            "Because strangers have no land rights"
-          ],
-          "correctAnswer": "Because they were strangers in the land of Egypt",
-          "explanation": "This verse invokes Israel’s own history of exile and marginalization to promote empathy and social justice.",
-          "verseReference": "Exodus 22:21",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-22-hard-q11",
-          "question": "Exodus 22:22-24 warn of God's wrath if widows or fatherless children are afflicted. What is a specific consequence mentioned?",
-          "type": "multiple-choice",
-          "options": [
-            "Your wives shall be widows, and your children fatherless",
-            "You shall be struck with leprosy",
-            "Your crops will fail",
-            "You shall be exiled"
-          ],
-          "correctAnswer": "Your wives shall be widows, and your children fatherless",
-          "explanation": "The dramatic consequence underscores the seriousness of social injustice toward vulnerable groups.",
-          "verseReference": "Exodus 22:24",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-22-hard-q12",
-          "question": "What does Exodus 22:25 forbid when lending money to the poor among God's people?",
-          "type": "multiple-choice",
-          "options": [
-            "Charging interest (usury)",
-            "Setting repayment deadlines",
-            "Lending in silver only",
-            "Taking animals as collateral"
-          ],
-          "correctAnswer": "Charging interest (usury)",
-          "explanation": "This law promotes compassion and economic fairness, reflecting concern for the needy in covenant society.",
+          "correctAnswer": "Lend without charging usury or interest",
+          "explanation": "Exodus 22:25 commands that when lending money to the poor among God's people, one must not act as an usurer or charge interest, showing compassion and fairness.",
           "verseReference": "Exodus 22:25",
           "difficulty": "hard"
         },
         {
-          "id": "exodus-22-hard-q13",
-          "question": "Exodus 22:26-27 commands returning a pledged garment by sunset. What is the reason given for this urgency?",
+          "id": "exodus-22-hard-q3",
+          "question": "In Exodus 22:26-27, what is the reason given for returning a neighbor’s raiment by sunset if taken as a pledge?",
           "type": "multiple-choice",
           "options": [
-            "It is the person's only covering",
-            "It is holy to the LORD",
-            "It is a symbol of covenant",
-            "It is made of precious fabric"
+            "Because it is valuable property",
+            "Because it is his covering and he needs it to sleep",
+            "Because it is a symbol of friendship",
+            "Because it is required by the judges"
           ],
-          "correctAnswer": "It is the person's only covering",
-          "explanation": "The garment’s role as covering for sleep highlights the law’s humanitarian concern for dignity and basic needs.",
-          "verseReference": "Exodus 22:26",
+          "correctAnswer": "Because it is his covering and he needs it to sleep",
+          "explanation": "Verse 27 explains that the raiment is the only covering for the neighbor’s skin, necessary for sleeping, so it must be returned by sunset to show mercy and compassion.",
+          "verseReference": "Exodus 22:26-27",
           "difficulty": "hard"
         },
         {
-          "id": "exodus-22-hard-q14",
-          "question": "True or False: Exodus 22:28 commands that one must not revile the gods or curse the ruler of the people.",
+          "id": "exodus-22-hard-q4",
+          "question": "Which of the following is prohibited according to Exodus 22:28?",
+          "type": "multiple-choice",
+          "options": [
+            "Reviling the gods and cursing the ruler of the people",
+            "Eating meat torn by beasts",
+            "Charging interest on loans to the poor",
+            "Stealing oxen or sheep"
+          ],
+          "correctAnswer": "Reviling the gods and cursing the ruler of the people",
+          "explanation": "Exodus 22:28 explicitly forbids reviling gods and cursing the ruler of the people, emphasizing respect for divine and human authorities.",
+          "verseReference": "Exodus 22:28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-22-hard-q5",
+          "question": "What is commanded in Exodus 22:29 regarding offerings to the LORD?",
+          "type": "multiple-choice",
+          "options": [
+            "Delay offerings until harvest is complete",
+            "Offer the first of ripe fruits and liquors, and give the firstborn sons to God",
+            "Offer only animals, not fruits",
+            "Give offerings only during festivals"
+          ],
+          "correctAnswer": "Offer the first of ripe fruits and liquors, and give the firstborn sons to God",
+          "explanation": "Verse 29 instructs the Israelites not to delay offerings but to give the first ripe fruits, liquors, and the firstborn sons to God, symbolizing dedication and gratitude.",
+          "verseReference": "Exodus 22:29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-22-hard-q6",
+          "question": "Exodus 22:30 instructs the people to give oxen and sheep to God after how many days?",
+          "type": "multiple-choice",
+          "options": [
+            "Seven days with the dam, eighth day to God",
+            "Immediately after birth",
+            "After one month",
+            "After the first year"
+          ],
+          "correctAnswer": "Seven days with the dam, eighth day to God",
+          "explanation": "The verse commands that oxen and sheep remain with their mother for seven days, and on the eighth day they are to be given to God, reflecting ritual purity and dedication.",
+          "verseReference": "Exodus 22:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-22-hard-q7",
+          "question": "What does Exodus 22:31 command regarding eating meat torn by beasts, and what should be done with such flesh?",
+          "type": "multiple-choice",
+          "options": [
+            "It is lawful to eat it if cooked properly",
+            "It is forbidden to eat it and it must be given to dogs",
+            "It should be burnt immediately",
+            "It should be buried in the field"
+          ],
+          "correctAnswer": "It is forbidden to eat it and it must be given to dogs",
+          "explanation": "Verse 31 commands holiness by prohibiting eating flesh torn by beasts and instructs that such meat should be cast to the dogs, symbolizing impurity.",
+          "verseReference": "Exodus 22:31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-22-hard-q8",
+          "question": "Which Old Testament passage echoes the concern for protecting widows and orphans as seen in Exodus 22:22-23?",
+          "type": "multiple-choice",
+          "options": [
+            "Deuteronomy 10:18",
+            "Genesis 12:1",
+            "Leviticus 19:18",
+            "Numbers 6:24-26"
+          ],
+          "correctAnswer": "Deuteronomy 10:18",
+          "explanation": "Deuteronomy 10:18 echoes the theme by stating that God defends the cause of the fatherless and widow, reinforcing the protective command found in Exodus 22:22-23.",
+          "verseReference": "Exodus 22:22-23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-22-hard-q9",
+          "question": "How does the prohibition against charging usury in Exodus 22:25 relate to teachings in the New Testament?",
+          "type": "multiple-choice",
+          "options": [
+            "It is contradicted by Jesus’ parables",
+            "It is affirmed by teachings on generosity and love for neighbors",
+            "It is not mentioned in the New Testament",
+            "It is replaced by new economic laws"
+          ],
+          "correctAnswer": "It is affirmed by teachings on generosity and love for neighbors",
+          "explanation": "The New Testament (e.g., Luke 6:34-35) affirms generosity and forbids exploitation, aligning with Exodus 22:25's prohibition against usury toward the poor.",
+          "verseReference": "Exodus 22:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-22-hard-q10",
+          "question": "What Hebrew word meaning is important for understanding 'usury' in Exodus 22:25, and what does it imply?",
+          "type": "multiple-choice",
+          "options": [
+            "Ribbit, meaning interest or excess charge",
+            "Kedesh, meaning holiness",
+            "Shalom, meaning peace",
+            "Chesed, meaning lovingkindness"
+          ],
+          "correctAnswer": "Ribbit, meaning interest or excess charge",
+          "explanation": "'Ribbit' is the Hebrew term for interest or usury, implying an unfair financial burden on the poor, which Exodus 22:25 forbids.",
+          "verseReference": "Exodus 22:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-22-hard-q11",
+          "question": "Which literary device is prominently used in Exodus 22:23-24 to emphasize God's wrath against oppressors?",
+          "type": "multiple-choice",
+          "options": [
+            "Chiasm",
+            "Parallelism",
+            "Metaphor",
+            "Alliteration"
+          ],
+          "correctAnswer": "Parallelism",
+          "explanation": "Exodus 22:23-24 uses parallelism by juxtaposing the cry of the afflicted with God’s wrath and judgment, highlighting the cause and effect relationship.",
+          "verseReference": "Exodus 22:23-24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-22-hard-q12",
+          "question": "True or False: Exodus 22:18 commands that a witch should be allowed to live if she repents.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Exodus 22:18 clearly states that a witch shall not be allowed to live, with no provision for repentance mentioned in this verse.",
+          "verseReference": "Exodus 22:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-22-hard-q13",
+          "question": "True or False: Exodus 22:20 forbids sacrificing to any god except the LORD, with the consequence of utter destruction for disobedience.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Verse 28 explicitly forbids reviling gods and rulers, reflecting the importance of respect for divine and civil authority.",
-          "verseReference": "Exodus 22:28",
+          "explanation": "Verse 20 commands exclusive sacrifice to the LORD alone and states that anyone sacrificing to other gods shall be utterly destroyed, emphasizing monotheistic worship.",
+          "verseReference": "Exodus 22:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-22-hard-q14",
+          "question": "Which New Testament passage reflects the principle of caring for the stranger expressed in Exodus 22:21?",
+          "type": "multiple-choice",
+          "options": [
+            "Matthew 25:35",
+            "John 3:16",
+            "Acts 2:38",
+            "Romans 8:28"
+          ],
+          "correctAnswer": "Matthew 25:35",
+          "explanation": "Matthew 25:35 highlights welcoming strangers as serving Christ Himself, echoing the command in Exodus 22:21 not to vex or oppress strangers.",
+          "verseReference": "Exodus 22:21",
           "difficulty": "hard"
         },
         {
           "id": "exodus-22-hard-q15",
-          "question": "Exodus 22:29-30 instruct the Israelites to offer first fruits and firstborn to the LORD. What literary device is evident in the parallel mention of sons and animals?",
+          "question": "In Exodus 22:16-17, what is the prescribed action if a man entices a virgin who is not betrothed and lies with her, and her father refuses to give her to him?",
           "type": "multiple-choice",
           "options": [
-            "Chiasm",
-            "Foreshadowing",
-            "Typology",
-            "Parallelism"
+            "The man must pay money according to the dowry of virgins",
+            "The man must marry another woman",
+            "The man must leave the city",
+            "The man is to be put to death"
           ],
-          "correctAnswer": "Parallelism",
-          "explanation": "The balanced structure linking firstborn sons and animals demonstrates Hebrew parallelism emphasizing consecration.",
-          "verseReference": "Exodus 22:29",
+          "correctAnswer": "The man must pay money according to the dowry of virgins",
+          "explanation": "Verses 16-17 instruct that if the father refuses to give his daughter, the man must pay a dowry to compensate, showing the value placed on marriage agreements.",
+          "verseReference": "Exodus 22:16-17",
           "difficulty": "hard"
         }
       ],
@@ -757,227 +736,227 @@
       "questions": [
         {
           "id": "exodus-22-theological-q1",
-          "question": "According to Exodus 22, what is the required restitution if a man steals and kills an ox?",
+          "question": "What does Exodus 22:1 teach about restitution for theft of livestock?",
           "type": "multiple-choice",
           "options": [
-            "Restore five oxen for one ox",
-            "Restore three oxen for one ox",
-            "Restore two oxen for one ox",
-            "Restore one ox for one ox"
+            "The thief must restore double the value",
+            "The thief must restore five oxen for an ox and four sheep for a sheep",
+            "The thief is forgiven after confession",
+            "The thief must pay a fine to the priest"
           ],
-          "correctAnswer": "Restore five oxen for one ox",
-          "explanation": "Exodus 22:1 commands that if a man steals and kills an ox, he must restore five oxen, reflecting the gravity of theft and loss of property. This principle of restitution aligns with biblical justice principles seen in Leviticus 6:1-7, Numbers 5:6-7, and reaffirms the seriousness of sin against a neighbor's property as taught in the New Testament (Ephesians 4:28).",
+          "correctAnswer": "The thief must restore five oxen for an ox and four sheep for a sheep",
+          "explanation": "Exodus 22:1 states that if a man steals and kills or sells an ox or sheep, he must restore five oxen for an ox and four sheep for a sheep, teaching a principle of disproportionate restitution to compensate loss.",
           "verseReference": "Exodus 22:1",
           "difficulty": "hard"
         },
         {
           "id": "exodus-22-theological-q2",
-          "question": "What does Exodus 22 say about a thief found breaking in at night who is killed?",
+          "question": "Which divine attribute is demonstrated by the law in Exodus 22:2 regarding the defense against a breaking thief?",
           "type": "multiple-choice",
           "options": [
-            "No blood shall be shed for him",
-            "He shall be resurrected",
-            "He shall be given a trial",
-            "He shall pay restitution"
+            "God's mercy",
+            "God's justice",
+            "God's omniscience",
+            "God's patience"
           ],
-          "correctAnswer": "No blood shall be shed for him",
-          "explanation": "Exodus 22:2 states that if a thief is found breaking in at night and is killed, no bloodguilt shall be incurred, emphasizing the right to protect one's property. This principle is echoed in the right to self-defense seen in Luke 22:36-38 and Proverbs 24:11-12, acknowledging human sinfulness and the justice in protecting life and property.",
+          "correctAnswer": "God's justice",
+          "explanation": "Exodus 22:2 shows God's justice by permitting the defender to kill a thief caught breaking in at night without bloodguilt, reflecting God's righteous judgment on crime and protection of life.",
           "verseReference": "Exodus 22:2",
           "difficulty": "hard"
         },
         {
           "id": "exodus-22-theological-q3",
-          "question": "If a thief is caught with stolen property alive, what does Exodus 22 require?",
+          "question": "According to Exodus 22:5, what principle about responsibility and restitution is taught when one's animals damage another's field or vineyard?",
           "type": "multiple-choice",
           "options": [
-            "He shall restore double",
-            "He shall be forgiven",
-            "He shall be put to death",
-            "He shall be given a warning"
+            "The offender must offer a sacrifice",
+            "Restitution must be made from the best of his own field and vineyard",
+            "The owner of the field bears the loss",
+            "The case must be taken to the priests"
           ],
-          "correctAnswer": "He shall restore double",
-          "explanation": "Exodus 22:4 requires that if a thief is caught with stolen property alive, he must restore double, illustrating God's justice and mercy by requiring restitution rather than mere punishment. This principle also appears in Leviticus 6:4-5 and is consistent with New Testament teachings on restitution and repentance (Luke 19:8).",
-          "verseReference": "Exodus 22:4",
+          "correctAnswer": "Restitution must be made from the best of his own field and vineyard",
+          "explanation": "Verse 5 commands that if a man's animals feed in another's field, he must make restitution from the best of his own field and vineyard, indicating personal responsibility and justice in restitution.",
+          "verseReference": "Exodus 22:5",
           "difficulty": "hard"
         },
         {
           "id": "exodus-22-theological-q4",
-          "question": "According to Exodus 22, what must a man do if his fire causes damage to his neighbor's field?",
+          "question": "What theological doctrine is highlighted by Exodus 22:21-24 concerning treatment of strangers, widows, and orphans?",
           "type": "multiple-choice",
           "options": [
-            "He shall surely make restitution",
-            "He shall be exempt from liability",
-            "He shall only apologize",
-            "He shall share the loss"
+            "Sanctification of the believer",
+            "God's covenantal justice and care for the vulnerable",
+            "Predestination of the elect",
+            "The doctrine of atonement"
           ],
-          "correctAnswer": "He shall surely make restitution",
-          "explanation": "Exodus 22:6 commands that one who kindles a fire causing damage must make restitution, highlighting the responsibility for consequences of one's actions. This principle of accountability is underscored in Proverbs 22:8, Luke 12:47-48, and Romans 13:4 concerning just compensation for harm caused.",
-          "verseReference": "Exodus 22:6",
+          "correctAnswer": "God's covenantal justice and care for the vulnerable",
+          "explanation": "Exodus 22:21-24 reveals God's justice and covenantal concern by commanding kindness and protection for strangers, widows, and orphans, promising that He hears their cries and will punish oppressors.",
+          "verseReference": "Exodus 22:21-24",
           "difficulty": "hard"
         },
         {
           "id": "exodus-22-theological-q5",
-          "question": "What is the penalty if a man entices a virgin who is not betrothed and lies with her?",
+          "question": "How does Exodus 22:16-17 contribute to the biblical understanding of marriage and social responsibility?",
           "type": "multiple-choice",
           "options": [
-            "He shall endow her to be his wife",
-            "He shall pay a fine only",
-            "He shall be put to death",
-            "He shall flee the city"
+            "By requiring a public ceremony for marriage",
+            "By mandating endowment or dowry payment for a virgin enticed",
+            "By prohibiting marriage outside the tribe",
+            "By allowing polygamy for wealthy men"
           ],
-          "correctAnswer": "He shall endow her to be his wife",
-          "explanation": "Exodus 22:16 requires that a man who entices a virgin not betrothed shall endow her to be his wife, reflecting the high value placed on sexual purity and responsibility. This upholds the sanctity of marriage and is consistent with principles found in Deuteronomy 22:28-29 and affirmed in the New Testament's teaching on marriage and chastity (Hebrews 13:4).",
-          "verseReference": "Exodus 22:16",
+          "correctAnswer": "By mandating endowment or dowry payment for a virgin enticed",
+          "explanation": "Verses 16-17 teach that a man who entices an unbetrothed maid must endow her as his wife or pay a dowry if the father refuses, emphasizing social responsibility and protection in marriage arrangements.",
+          "verseReference": "Exodus 22:16-17",
           "difficulty": "hard"
         },
         {
           "id": "exodus-22-theological-q6",
-          "question": "How does Exodus 22 instruct the Israelites to treat strangers in their land?",
+          "question": "What does Exodus 22:18 reveal about the holiness and purity demanded by God in Israelite society?",
           "type": "multiple-choice",
           "options": [
-            "Do not vex or oppress them",
-            "Ignore them",
-            "Exploit them for labor",
-            "Expel them immediately"
+            "Witches are to be integrated into the community",
+            "Witches are to be tolerated",
+            "Witches are not to be suffered to live",
+            "Witches are to be exiled"
           ],
-          "correctAnswer": "Do not vex or oppress them",
-          "explanation": "Exodus 22:21 commands not to vex or oppress a stranger because the Israelites were strangers in Egypt, teaching compassion and justice toward foreigners. This principle is echoed in Leviticus 19:33-34, Deuteronomy 10:19, and reiterated in New Testament teachings on love and hospitality (Hebrews 13:2).",
-          "verseReference": "Exodus 22:21",
+          "correctAnswer": "Witches are not to be suffered to live",
+          "explanation": "Verse 18 commands that a witch shall not be suffered to live, reflecting God's demand for holiness and rejection of occult practices that defile His covenant people.",
+          "verseReference": "Exodus 22:18",
           "difficulty": "hard"
         },
         {
           "id": "exodus-22-theological-q7",
-          "question": "What does Exodus 22 say about lending money to the poor among God's people?",
+          "question": "What combined doctrinal teaching about restitution and justice can be drawn from Exodus 22:4 and Exodus 22:7?",
           "type": "multiple-choice",
           "options": [
-            "Do not be an usurer; do not charge interest",
-            "Charge high interest to discourage borrowing",
-            "Refuse to lend money",
-            "Lend only with collateral"
+            "Restitution must always be triple the loss",
+            "The thief must be forgiven upon repentance",
+            "Restitution includes paying double for theft or loss when found",
+            "Restitution is optional based on the victim's mercy"
           ],
-          "correctAnswer": "Do not be an usurer; do not charge interest",
-          "explanation": "Exodus 22:25 commands not to act as an usurer toward the poor, forbidding interest to protect the vulnerable and promote mercy, consistent with Leviticus 25:35-37, Deuteronomy 23:19-20, and New Testament teachings on generosity (Luke 6:34-35).",
-          "verseReference": "Exodus 22:25",
+          "correctAnswer": "Restitution includes paying double for theft or loss when found",
+          "explanation": "Both verses 4 and 7 require the thief or the one who caused loss to pay double restitution when the stolen property or thief is found, emphasizing God's demand for justice and full compensation.",
+          "verseReference": "Exodus 22:4, 7",
           "difficulty": "hard"
         },
         {
           "id": "exodus-22-theological-q8",
-          "question": "What must be done if a neighbor’s raiment is taken as a pledge, according to Exodus 22?",
+          "question": "What is the significance of the oath described in Exodus 22:11 in the context of property disputes?",
           "type": "multiple-choice",
           "options": [
-            "Return it by sunset",
-            "Keep it until repayment",
-            "Sell it immediately",
-            "Give it to the poor"
+            "It removes the need for restitution",
+            "It establishes a divine guarantee of innocence",
+            "It allows the owner to seize the property",
+            "It requires the judge to decide without evidence"
           ],
-          "correctAnswer": "Return it by sunset",
-          "explanation": "Exodus 22:26 demands that a pledged garment, which is the debtor’s covering, be returned before sunset to protect the dignity and well-being of the poor. This principle demonstrates God's concern for human needs and is reflected in Deuteronomy 24:12-13 and the compassionate justice taught in Isaiah 58:6-7.",
-          "verseReference": "Exodus 22:26",
+          "correctAnswer": "It establishes a divine guarantee of innocence",
+          "explanation": "Verse 11 explains that an oath of the LORD between parties establishes innocence regarding property damage when no witness is present, showing reliance on divine truth in justice.",
+          "verseReference": "Exodus 22:11",
           "difficulty": "hard"
         },
         {
           "id": "exodus-22-theological-q9",
-          "question": "What instruction does Exodus 22 give regarding offering the first fruits and firstborn?",
+          "question": "How does Exodus 22:25-27 demonstrate God's attribute of grace toward the poor?",
           "type": "multiple-choice",
           "options": [
-            "Do not delay offering them to the LORD",
-            "Offer only if convenient",
-            "Offer after a year",
-            "Offer only if wealthy"
+            "By forbidding lending money to the poor",
+            "By commanding interest on loans to the poor",
+            "By prohibiting usury and requiring prompt return of pledged garments",
+            "By allowing seizure of all collateral"
           ],
-          "correctAnswer": "Do not delay offering them to the LORD",
-          "explanation": "Exodus 22:29 commands not to delay offering the first of ripe fruits and the firstborn of sons to God, signifying total devotion and acknowledgment of God's provision. This is consistent with Leviticus 23:10, Numbers 18:15, and the New Testament’s call for wholehearted worship (Romans 12:1).",
-          "verseReference": "Exodus 22:29",
+          "correctAnswer": "By prohibiting usury and requiring prompt return of pledged garments",
+          "explanation": "Verses 25-27 forbid charging interest to the poor and require returning pledged garments by sunset, illustrating God's gracious care and compassion for vulnerable neighbors.",
+          "verseReference": "Exodus 22:25-27",
           "difficulty": "hard"
         },
         {
           "id": "exodus-22-theological-q10",
-          "question": "What is the divine consequence described in Exodus 22 for afflicting widows or orphans?",
+          "question": "What narrative arc connection does Exodus 22:29-30 have with the broader redemptive story of Scripture?",
           "type": "multiple-choice",
           "options": [
-            "God hears their cry and punishes the afflictor",
-            "There is no consequence",
-            "They must pay a fine",
-            "The community will intervene"
+            "It introduces the idea of animal sacrifices as a means of atonement",
+            "It prescribes dietary laws unrelated to redemption",
+            "It emphasizes firstfruits and firstborn dedicated to God, foreshadowing Christ as the firstborn",
+            "It forbids eating meat altogether"
           ],
-          "correctAnswer": "God hears their cry and punishes the afflictor",
-          "explanation": "Exodus 22:22-24 reveals God's protective justice toward widows and orphans, promising to hear their cry and execute judgment on those who afflict them. This principle is echoed in Deuteronomy 10:18, Psalm 146:9, and James 1:27, emphasizing God's care for the vulnerable.",
-          "verseReference": "Exodus 22:22-24",
+          "correctAnswer": "It emphasizes firstfruits and firstborn dedicated to God, foreshadowing Christ as the firstborn",
+          "explanation": "Verses 29-30 command offering first fruits and firstborn to God, connecting to the redemptive theme where Christ is the firstborn and firstfruits of resurrection (cf. 1 Corinthians 15:20).",
+          "verseReference": "Exodus 22:29-30",
           "difficulty": "hard"
         },
         {
           "id": "exodus-22-theological-q11",
-          "question": "What does Exodus 22 say about sacrificing to gods other than the LORD?",
+          "question": "What doctrinal truth about sanctification is taught by Exodus 22:31 concerning eating meat torn by beasts?",
           "type": "multiple-choice",
           "options": [
-            "The person shall be utterly destroyed",
-            "It is acceptable if done in secret",
-            "It is a minor offense",
-            "It is recommended for peace"
+            "Believers may eat any meat without restriction",
+            "Believers must be holy and avoid eating meat torn by beasts",
+            "Meat torn by beasts is considered a delicacy",
+            "The law permits eating of all animals"
           ],
-          "correctAnswer": "The person shall be utterly destroyed",
-          "explanation": "Exodus 22:20 declares that sacrificing to any god other than the LORD results in utter destruction, affirming the exclusive worship of Yahweh and emphasizing God's holiness and justice. This monotheistic demand is consistent with Deuteronomy 6:14-15, Isaiah 42:8, and the New Testament’s affirmation of Christ as the only mediator (1 Timothy 2:5).",
-          "verseReference": "Exodus 22:20",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-22-theological-q12",
-          "question": "What does Exodus 22 teach about eating meat torn by beasts in the field?",
-          "type": "multiple-choice",
-          "options": [
-            "Do not eat it; throw it to the dogs",
-            "Eat it after cooking thoroughly",
-            "Offer it as a sacrifice",
-            "Store it for later use"
-          ],
-          "correctAnswer": "Do not eat it; throw it to the dogs",
-          "explanation": "Exodus 22:31 instructs not to eat flesh torn by beasts but to cast it to the dogs, symbolizing purity and holiness in diet, reflecting God's call to be holy as He is holy (Leviticus 17:15-16, Deuteronomy 14:21). This aligns with New Testament teaching on food sanctification (Mark 7:18-19) emphasizing spiritual holiness.",
+          "correctAnswer": "Believers must be holy and avoid eating meat torn by beasts",
+          "explanation": "Verse 31 commands Israel to be holy and not eat meat torn by beasts, teaching separation from defilement and the call to holiness in daily life.",
           "verseReference": "Exodus 22:31",
           "difficulty": "hard"
         },
         {
-          "id": "exodus-22-theological-q13",
-          "question": "What happens if a man borrows something and it is hurt or dies while the owner is with it?",
+          "id": "exodus-22-theological-q12",
+          "question": "What combined teaching do Exodus 22:10 and Exodus 22:14 provide about responsibility for borrowed property?",
           "type": "multiple-choice",
           "options": [
-            "He shall not make it good",
-            "He shall pay double",
-            "He shall be put to death",
-            "He shall replace it"
+            "Borrowed property is considered lost if damaged",
+            "Borrower must make restitution if property is hurt or dies when owner is not present",
+            "Owner is always responsible for loss",
+            "Borrower is exempt from all liability"
           ],
-          "correctAnswer": "He shall not make it good",
-          "explanation": "Exodus 22:15 states that if the owner is present when the borrowed item is hurt or dies, the borrower is not liable, since the owner assumes risk. This principle reflects fairness and accountability, consistent with Deuteronomy 22:14 and the New Testament principle of bearing one another's burdens (Galatians 6:2).",
-          "verseReference": "Exodus 22:15",
+          "correctAnswer": "Borrower must make restitution if property is hurt or dies when owner is not present",
+          "explanation": "Verses 10 and 14 teach that if borrowed property is hurt or dies while the owner is absent, the borrower must make it good, showing personal accountability in stewardship.",
+          "verseReference": "Exodus 22:10, 14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-22-theological-q13",
+          "question": "Sceptics claim that Old Testament laws promote harsh retribution and lack divine mercy. What does Exodus 22:23-24 actually teach about God's response to oppression?",
+          "type": "multiple-choice",
+          "options": [
+            "God ignores the cries of the oppressed",
+            "God is indifferent to human suffering",
+            "God hears the cries of the oppressed and will bring just wrath on oppressors",
+            "God always forgives oppressors without judgment"
+          ],
+          "correctAnswer": "God hears the cries of the oppressed and will bring just wrath on oppressors",
+          "explanation": "Verses 23-24 affirm that when widows or fatherless children cry out due to affliction, God hears and responds with righteous judgment, highlighting His justice and mercy.",
+          "verseReference": "Exodus 22:23-24",
           "difficulty": "hard"
         },
         {
           "id": "exodus-22-theological-q14",
-          "question": "What is the prescribed punishment for lying with an animal in Exodus 22?",
+          "question": "What theological insight is gained by combining Exodus 22:21 and Exodus 22:25 about God's covenantal expectations?",
           "type": "multiple-choice",
           "options": [
-            "The person shall be put to death",
-            "A fine must be paid",
-            "Exile from the community",
-            "Public humiliation"
+            "God expects His people to oppress strangers and charge interest",
+            "God commands kindness to strangers and forbids usury among His people",
+            "God allows exploitation of the poor and strangers",
+            "God's covenant is only about worship practices"
           ],
-          "correctAnswer": "The person shall be put to death",
-          "explanation": "Exodus 22:19 mandates death for bestiality, underscoring the sanctity of human sexuality and God's holiness. This severe judgment reflects God's intolerance of sexual sin, found also in Leviticus 20:15-16 and affirmed in Romans 1:26-27 regarding dishonoring God's design for human sexuality.",
-          "verseReference": "Exodus 22:19",
+          "correctAnswer": "God commands kindness to strangers and forbids usury among His people",
+          "explanation": "Verses 21 and 25 together teach that God's covenant demands kindness to strangers and prohibits charging interest to the poor, reflecting God's justice and compassion.",
+          "verseReference": "Exodus 22:21, 25",
           "difficulty": "hard"
         },
         {
           "id": "exodus-22-theological-q15",
-          "question": "According to Exodus 22, what must be done for the firstborn of oxen and sheep?",
+          "question": "What attribute of God is emphasized in Exodus 22:27 through His promise to hear the cry of one who has lost his covering?",
           "type": "multiple-choice",
           "options": [
-            "It shall be with its dam for seven days; on the eighth day it shall be given to the LORD",
-            "It shall be sacrificed immediately",
-            "It shall be sold for profit",
-            "It shall be kept as a pet"
+            "Omnipotence",
+            "Holiness",
+            "Graciousness",
+            "Wrath"
           ],
-          "correctAnswer": "It shall be with its dam for seven days; on the eighth day it shall be given to the LORD",
-          "explanation": "Exodus 22:30 instructs that the firstborn of oxen and sheep remain with the mother seven days and be given to God on the eighth day, symbolizing consecration and acknowledgement of God's sovereignty. This is consistent with Exodus 13:12 and Leviticus 27:26, highlighting God's claim over the firstborn and His provision.",
-          "verseReference": "Exodus 22:30",
+          "correctAnswer": "Graciousness",
+          "explanation": "Verse 27 highlights God's graciousness as He promises to hear the cry of one who has lost his raiment, showing His tender care for the needy.",
+          "verseReference": "Exodus 22:27",
           "difficulty": "hard"
         }
       ],

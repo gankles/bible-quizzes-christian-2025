@@ -13,37 +13,97 @@
       "questions": [
         {
           "id": "matthew-26-easy-q1",
-          "question": "Who was the high priest mentioned in Matthew 26 that the chief priests and elders assembled with?",
+          "question": "In Matthew 26, which of the following appears FIRST in the chapter?",
           "type": "multiple-choice",
           "options": [
-            "Caiaphas",
-            "Annas",
-            "Herod",
-            "Pontius Pilate"
+            "Jesus tells his disciples the Son of man will be betrayed and crucified",
+            "Judas offers to betray Jesus for thirty pieces of silver",
+            "A woman pours precious ointment on Jesus' head",
+            "The chief priests assemble at Caiaphas' palace"
           ],
-          "correctAnswer": "Caiaphas",
-          "explanation": "Matthew 26:3 states that the chief priests, scribes, and elders assembled at the palace of the high priest called Caiaphas.",
-          "verseReference": "Matthew 26:3",
+          "correctAnswer": "Jesus tells his disciples the Son of man will be betrayed and crucified",
+          "explanation": "Jesus first speaks to his disciples about his betrayal and crucifixion in Matthew 26:1-2, which occurs before the other listed events.",
+          "verseReference": "Matthew 26:1-2",
           "difficulty": "easy"
         },
         {
           "id": "matthew-26-easy-q2",
-          "question": "What did the woman pour on Jesus' head in Bethany?",
+          "question": "Who assembled together at the palace of the high priest according to Matthew 26?",
           "type": "multiple-choice",
           "options": [
-            "Alabaster box of precious ointment",
-            "Water",
-            "Wine",
-            "Oil"
+            "The chief priests, scribes, and elders",
+            "The disciples of Jesus",
+            "Roman soldiers",
+            "The Pharisees only"
           ],
-          "correctAnswer": "Alabaster box of precious ointment",
-          "explanation": "Matthew 26:7 records a woman pouring ointment from an alabaster box on Jesus' head as he sat at meat.",
-          "verseReference": "Matthew 26:7",
+          "correctAnswer": "The chief priests, scribes, and elders",
+          "explanation": "Matthew 26:3 states that the chief priests, scribes, and elders assembled together at the palace of the high priest.",
+          "verseReference": "Matthew 26:3",
           "difficulty": "easy"
         },
         {
           "id": "matthew-26-easy-q3",
-          "question": "How much money did Judas Iscariot covetantly agree to betray Jesus for?",
+          "question": "What was the reason given by the chief priests for not arresting Jesus on the feast day?",
+          "type": "multiple-choice",
+          "options": [
+            "Lest there be an uproar among the people",
+            "They did not have enough soldiers",
+            "They feared Jesus' disciples",
+            "They wanted to wait for a better opportunity"
+          ],
+          "correctAnswer": "Lest there be an uproar among the people",
+          "explanation": "Matthew 26:5 explains that the chief priests did not want to arrest Jesus on the feast day to avoid an uproar among the people.",
+          "verseReference": "Matthew 26:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-26-easy-q4",
+          "question": "Where was Jesus when the woman poured ointment on him?",
+          "type": "multiple-choice",
+          "options": [
+            "In Bethany, in the house of Simon the leper",
+            "In the temple",
+            "At the Mount of Olives",
+            "In Capernaum"
+          ],
+          "correctAnswer": "In Bethany, in the house of Simon the leper",
+          "explanation": "Matthew 26:6 states that Jesus was in Bethany, in the house of Simon the leper when the woman poured ointment on him.",
+          "verseReference": "Matthew 26:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-26-easy-q5",
+          "question": "What did the disciples say about the ointment poured on Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "To what purpose is this waste?",
+            "It is a wonderful gift",
+            "It smells very pleasant",
+            "The woman should be praised"
+          ],
+          "correctAnswer": "To what purpose is this waste?",
+          "explanation": "Matthew 26:8 records the disciples expressing indignation by saying, 'To what purpose is this waste?'",
+          "verseReference": "Matthew 26:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-26-easy-q6",
+          "question": "What did Jesus say was the reason the woman poured ointment on his body?",
+          "type": "multiple-choice",
+          "options": [
+            "For my burial",
+            "To anoint me as king",
+            "To heal my wounds",
+            "To honor the poor"
+          ],
+          "correctAnswer": "For my burial",
+          "explanation": "Matthew 26:12 states that Jesus said she poured the ointment on his body for his burial.",
+          "verseReference": "Matthew 26:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-26-easy-q7",
+          "question": "How much did Judas agree to receive to betray Jesus?",
           "type": "multiple-choice",
           "options": [
             "Thirty pieces of silver",
@@ -52,182 +112,120 @@
             "Ten pieces of silver"
           ],
           "correctAnswer": "Thirty pieces of silver",
-          "explanation": "Matthew 26:15 states Judas asked what they would give him, and they covenanted for thirty pieces of silver.",
+          "explanation": "Matthew 26:15 says Judas covenanted with the chief priests for thirty pieces of silver to betray Jesus.",
           "verseReference": "Matthew 26:15",
           "difficulty": "easy"
         },
         {
-          "id": "matthew-26-easy-q4",
-          "question": "Where did Jesus say he would eat the Passover with his disciples?",
-          "type": "multiple-choice",
-          "options": [
-            "At the house of a certain man in the city",
-            "At the temple",
-            "In the wilderness",
-            "At Simon the leper's house"
-          ],
-          "correctAnswer": "At the house of a certain man in the city",
-          "explanation": "In Matthew 26:18, Jesus instructs the disciples to prepare the Passover at the house of a certain man in the city.",
-          "verseReference": "Matthew 26:18",
-          "difficulty": "easy"
-        },
-        {
-          "id": "matthew-26-easy-q5",
-          "question": "What did Jesus say the bread represented during the Passover meal?",
-          "type": "multiple-choice",
-          "options": [
-            "His body",
-            "The kingdom of God",
-            "The new covenant",
-            "The bread of life"
-          ],
-          "correctAnswer": "His body",
-          "explanation": "According to Matthew 26:26, Jesus took bread, blessed it, broke it, and said it was his body.",
-          "verseReference": "Matthew 26:26",
-          "difficulty": "easy"
-        },
-        {
-          "id": "matthew-26-easy-q6",
-          "question": "What did Jesus say the cup represented during the Passover meal?",
-          "type": "multiple-choice",
-          "options": [
-            "His blood of the new testament",
-            "The blood of the lamb",
-            "The fruit of the vine",
-            "The kingdom of heaven"
-          ],
-          "correctAnswer": "His blood of the new testament",
-          "explanation": "Matthew 26:28 states that the cup is his blood of the new testament, shed for many for remission of sins.",
-          "verseReference": "Matthew 26:28",
-          "difficulty": "easy"
-        },
-        {
-          "id": "matthew-26-easy-q7",
-          "question": "Where did Jesus and the disciples go after singing a hymn at the Passover meal?",
-          "type": "multiple-choice",
-          "options": [
-            "Mount of Olives",
-            "Bethlehem",
-            "The temple",
-            "Gethsemane"
-          ],
-          "correctAnswer": "Mount of Olives",
-          "explanation": "Matthew 26:30 records that after singing a hymn, Jesus and the disciples went out to the Mount of Olives.",
-          "verseReference": "Matthew 26:30",
-          "difficulty": "easy"
-        },
-        {
           "id": "matthew-26-easy-q8",
-          "question": "Who did Jesus say would deny him thrice before the cock crowed?",
+          "question": "On which day did the disciples ask Jesus where to prepare the Passover?",
           "type": "multiple-choice",
           "options": [
-            "Peter",
-            "Judas",
-            "John",
-            "James"
+            "The first day of the feast of unleavened bread",
+            "The last day of the feast",
+            "The Sabbath day",
+            "The day after Passover"
           ],
-          "correctAnswer": "Peter",
-          "explanation": "Jesus tells Peter in Matthew 26:34 that he will deny Him three times before the cock crows.",
-          "verseReference": "Matthew 26:34",
+          "correctAnswer": "The first day of the feast of unleavened bread",
+          "explanation": "Matthew 26:17 states the disciples came to Jesus on the first day of the feast of unleavened bread to ask about preparing the Passover.",
+          "verseReference": "Matthew 26:17",
           "difficulty": "easy"
         },
         {
           "id": "matthew-26-easy-q9",
-          "question": "What did Jesus ask the disciples to do while He prayed in Gethsemane?",
+          "question": "What did Jesus instruct the disciples to say to the man whose house they were to use for the Passover?",
           "type": "multiple-choice",
           "options": [
-            "Sit and watch",
-            "Sing hymns",
-            "Prepare food",
-            "Go to the city"
+            "The Master saith, My time is at hand; I will keep the passover at thy house with my disciples.",
+            "Prepare the room for a feast.",
+            "Tell the people to gather at the temple.",
+            "Wait for us at the Mount of Olives."
           ],
-          "correctAnswer": "Sit and watch",
-          "explanation": "Matthew 26:36-38 records Jesus asking the disciples to sit while He prayed and to watch with Him.",
-          "verseReference": "Matthew 26:36",
+          "correctAnswer": "The Master saith, My time is at hand; I will keep the passover at thy house with my disciples.",
+          "explanation": "Matthew 26:18 records Jesus telling the disciples to say this to the man whose house they were to use.",
+          "verseReference": "Matthew 26:18",
           "difficulty": "easy"
         },
         {
           "id": "matthew-26-easy-q10",
-          "question": "How many times did Jesus pray the same prayer in Gethsemane before His arrest?",
+          "question": "What did Jesus say would happen during the meal with the twelve disciples?",
           "type": "multiple-choice",
           "options": [
-            "Three times",
-            "Once",
-            "Twice",
-            "Four times"
+            "One of you shall betray me.",
+            "We will celebrate with joy.",
+            "We will pray together.",
+            "You will all be blessed."
           ],
-          "correctAnswer": "Three times",
-          "explanation": "Matthew 26:39-44 shows Jesus praying the same prayer three times before His arrest.",
-          "verseReference": "Matthew 26:44",
+          "correctAnswer": "One of you shall betray me.",
+          "explanation": "Matthew 26:21 states that Jesus said one of the twelve would betray him during the meal.",
+          "verseReference": "Matthew 26:21",
           "difficulty": "easy"
         },
         {
           "id": "matthew-26-easy-q11",
-          "question": "True or False: Judas gave a sign to identify Jesus by kissing Him.",
-          "type": "true-false",
+          "question": "Who asked Jesus, 'Lord, is it I?' when he said one would betray him?",
+          "type": "multiple-choice",
           "options": [
-            "True",
-            "False"
+            "All the disciples, each one individually",
+            "Only Peter",
+            "Only Judas",
+            "Only John"
           ],
-          "correctAnswer": "True",
-          "explanation": "Matthew 26:48 states Judas gave a sign by saying 'Whomsoever I shall kiss, that same is he'.",
-          "verseReference": "Matthew 26:48",
+          "correctAnswer": "All the disciples, each one individually",
+          "explanation": "Matthew 26:22 says they were exceeding sorrowful and each began to say to Jesus, 'Lord, is it I?'",
+          "verseReference": "Matthew 26:22",
           "difficulty": "easy"
         },
         {
           "id": "matthew-26-easy-q12",
-          "question": "True or False: Jesus rebuked the disciple who drew a sword and struck the servant of the high priest.",
+          "question": "True or False: Jesus said that the poor will always be with the disciples but He will not always be with them.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "In Matthew 26:52, Jesus tells the disciple to put up the sword, saying those who take the sword will perish by it.",
-          "verseReference": "Matthew 26:52",
+          "explanation": "Matthew 26:11 records Jesus saying, 'For ye have the poor always with you; but me ye have not always.'",
+          "verseReference": "Matthew 26:11",
           "difficulty": "easy"
         },
         {
           "id": "matthew-26-easy-q13",
-          "question": "True or False: All the disciples stayed with Jesus during His arrest.",
+          "question": "True or False: Judas Iscariot was one of the twelve disciples who betrayed Jesus.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Matthew 26:14 identifies Judas Iscariot as one of the twelve who went to the chief priests to betray Jesus.",
+          "verseReference": "Matthew 26:14",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-26-easy-q14",
+          "question": "True or False: Jesus told Judas that it was not him who would betray Him.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Matthew 26:56 records that all the disciples forsook Jesus and fled at His arrest.",
-          "verseReference": "Matthew 26:56",
-          "difficulty": "easy"
-        },
-        {
-          "id": "matthew-26-easy-q14",
-          "question": "Complete the verse: 'The Son of man is betrayed into the hands of ______.'",
-          "type": "fill-blank",
-          "options": [
-            "sinners",
-            "angels",
-            "chief priests",
-            "disciples"
-          ],
-          "correctAnswer": "sinners",
-          "explanation": "Matthew 26:45 records Jesus saying the Son of man is betrayed into the hands of sinners.",
-          "verseReference": "Matthew 26:45",
+          "explanation": "Matthew 26:25 shows Jesus telling Judas 'Thou hast said,' confirming Judas was the betrayer.",
+          "verseReference": "Matthew 26:25",
           "difficulty": "easy"
         },
         {
           "id": "matthew-26-easy-q15",
-          "question": "Complete this verse: 'Before the cock crow, thou shalt deny me ______.'",
-          "type": "fill-blank",
+          "question": "True or False: The disciples prepared the Passover meal in a house Jesus appointed them to.",
+          "type": "true-false",
           "options": [
-            "thrice",
-            "once",
-            "twice",
-            "never"
+            "True",
+            "False"
           ],
-          "correctAnswer": "thrice",
-          "explanation": "Matthew 26:34 and 26:75 both affirm Peter will deny Jesus thrice before the cock crows.",
-          "verseReference": "Matthew 26:34",
+          "correctAnswer": "True",
+          "explanation": "Matthew 26:19 states the disciples did as Jesus appointed and made ready the Passover meal in the house.",
+          "verseReference": "Matthew 26:19",
           "difficulty": "easy"
         }
       ],
@@ -254,223 +252,221 @@
       "questions": [
         {
           "id": "matthew-26-medium-q1",
-          "question": "A fellow believer is feeling discouraged because they see others wasting resources on what seems unnecessary. Based on Matthew 26, what biblical truth would you share about generosity and honoring Jesus?",
+          "question": "What did Jesus say the bread represents?",
           "type": "multiple-choice",
           "options": [
-            "True generosity honors Jesus even if others think it is wasteful",
-            "It is better to save resources than to spend on honoring Jesus",
-            "Only give to the poor, never on personal devotion",
-            "Jesus prefers practical gifts over symbolic acts"
+            "This is my body",
+            "This is my blood",
+            "This is a symbol of faith",
+            "This is a covenant"
           ],
-          "correctAnswer": "True generosity honors Jesus even if others think it is wasteful",
-          "explanation": "In Matthew 26:7-13, a woman pours precious ointment on Jesus, which the disciples thought was wasteful, but Jesus explains it as a good work done for His burial and worthy of remembrance. This teaches that honoring Jesus with our resources, even if misunderstood, is true generosity.",
-          "verseReference": "Matthew 26:7-13",
-          "difficulty": "medium"
-        },
-        {
-          "id": "matthew-26-medium-q2",
-          "question": "How does Matthew 26 teach us about integrity and honesty in daily life through Judas Iscariot's actions?",
-          "type": "multiple-choice",
-          "options": [
-            "Betraying for money shows lack of integrity and leads to ruin",
-            "It is acceptable to betray if pressured",
-            "Loyalty can be bought with gifts",
-            "Dishonest actions have no real consequences"
-          ],
-          "correctAnswer": "Betraying for money shows lack of integrity and leads to ruin",
-          "explanation": "Matthew 26:14-16 shows Judas agreeing to betray Jesus for thirty pieces of silver, highlighting how lack of integrity and greed can lead to grave consequences. This warns believers to maintain honesty and faithfulness.",
-          "verseReference": "Matthew 26:14-16",
-          "difficulty": "medium"
-        },
-        {
-          "id": "matthew-26-medium-q3",
-          "question": "A believer is struggling with temptation to deny their faith in difficult times. Based on Peter’s experience in Matthew 26, what counsel would you offer?",
-          "type": "multiple-choice",
-          "options": [
-            "Even the strongest can fail, so watch and pray to resist temptation",
-            "Denying faith is acceptable if afraid",
-            "Avoid all fellowship to not face temptation",
-            "Strength comes without prayer or vigilance"
-          ],
-          "correctAnswer": "Even the strongest can fail, so watch and pray to resist temptation",
-          "explanation": "Matthew 26:33-35 and 40-41 show Peter’s denial despite his confidence, and Jesus’ instruction to watch and pray because the spirit is willing but the flesh is weak. This teaches the importance of prayer and vigilance to persevere through trials.",
-          "verseReference": "Matthew 26:33-35, 40-41",
-          "difficulty": "medium"
-        },
-        {
-          "id": "matthew-26-medium-q4",
-          "question": "What does Jesus’ prayer in Gethsemane teach us about humility and submission to God’s will in times of trial?",
-          "type": "multiple-choice",
-          "options": [
-            "True humility submits to God's will even when the trial is hard",
-            "One should only pray if the trial is easy",
-            "Avoid submitting if you dislike the outcome",
-            "God’s will is optional in difficult times"
-          ],
-          "correctAnswer": "True humility submits to God's will even when the trial is hard",
-          "explanation": "Matthew 26:39, 42, and 44 show Jesus praying for the cup to pass from Him but ultimately submitting to the Father’s will. This models humility and trust in God’s plan despite personal suffering.",
-          "verseReference": "Matthew 26:39, 42, 44",
-          "difficulty": "medium"
-        },
-        {
-          "id": "matthew-26-medium-q5",
-          "question": "How does Jesus’ institution of the Lord’s Supper in Matthew 26 teach about spiritual discipline and remembrance?",
-          "type": "multiple-choice",
-          "options": [
-            "Regularly remembering Jesus’ sacrifice strengthens faith and fellowship",
-            "The Lord’s Supper is a casual meal without significance",
-            "Only leaders should partake in communion",
-            "It is optional to remember Jesus’ sacrifice"
-          ],
-          "correctAnswer": "Regularly remembering Jesus’ sacrifice strengthens faith and fellowship",
-          "explanation": "Matthew 26:26-28 records Jesus instituting the Lord’s Supper as a memorial of His body and blood shed for remission of sins, emphasizing the importance of spiritual discipline and communal remembrance in the church.",
-          "verseReference": "Matthew 26:26-28",
-          "difficulty": "medium"
-        },
-        {
-          "id": "matthew-26-medium-q6",
-          "question": "A believer wonders how to remain faithful when facing rejection by friends. What does Matthew 26 teach about perseverance in such trials?",
-          "type": "multiple-choice",
-          "options": [
-            "Jesus was forsaken by His disciples but fulfilled Scripture, so trust God’s plan",
-            "Rejection means God has abandoned you",
-            "Always expect support from others",
-            "Avoid trials to keep faith safe"
-          ],
-          "correctAnswer": "Jesus was forsaken by His disciples but fulfilled Scripture, so trust God’s plan",
-          "explanation": "Matthew 26:56 shows all disciples forsook Jesus and fled, yet this was to fulfill prophecy. This encourages believers to trust God’s sovereign plan even when isolated or rejected.",
-          "verseReference": "Matthew 26:56",
-          "difficulty": "medium"
-        },
-        {
-          "id": "matthew-26-medium-q7",
-          "question": "What biblical truth about prayer and watchfulness can we learn from Jesus finding His disciples asleep in the garden?",
-          "type": "multiple-choice",
-          "options": [
-            "Prayer and vigilance are essential because the spirit is willing but the flesh is weak",
-            "Sleeping during trials is acceptable and expected",
-            "Prayer alone is enough without watchfulness",
-            "Physical weakness excuses lack of spiritual effort"
-          ],
-          "correctAnswer": "Prayer and vigilance are essential because the spirit is willing but the flesh is weak",
-          "explanation": "Matthew 26:40-41 records Jesus rebuking His disciples for sleeping and instructing them to watch and pray so they do not enter temptation, teaching the necessity of active spiritual discipline.",
-          "verseReference": "Matthew 26:40-41",
-          "difficulty": "medium"
-        },
-        {
-          "id": "matthew-26-medium-q8",
-          "question": "Based on Jesus’ prediction of Peter’s denial, what practical lesson about humility and self-awareness can believers apply?",
-          "type": "multiple-choice",
-          "options": [
-            "We should not be overconfident about our spiritual strength but rely on God",
-            "Denying Christ is inevitable and acceptable",
-            "Boasting about faith protects from failure",
-            "Self-awareness is unnecessary in faith"
-          ],
-          "correctAnswer": "We should not be overconfident about our spiritual strength but rely on God",
-          "explanation": "In Matthew 26:33-35 and 69-75, Peter confidently claims he will not deny Jesus but ends up denying Him thrice, reminding believers to be humble and depend on God’s strength.",
-          "verseReference": "Matthew 26:33-35, 69-75",
-          "difficulty": "medium"
-        },
-        {
-          "id": "matthew-26-medium-q9",
-          "question": "How does Matthew 26 illustrate the importance of sharing the gospel and the legacy of good works in evangelism?",
-          "type": "multiple-choice",
-          "options": [
-            "The woman’s act of anointing Jesus will be told wherever the gospel is preached",
-            "Good deeds are private and should not be shared",
-            "Evangelism depends only on words, not actions",
-            "Legacy is unimportant in faith"
-          ],
-          "correctAnswer": "The woman’s act of anointing Jesus will be told wherever the gospel is preached",
-          "explanation": "Matthew 26:13 states that the woman’s act will be remembered as a memorial wherever the gospel is preached, showing how acts of faith support evangelism and testimony.",
-          "verseReference": "Matthew 26:13",
-          "difficulty": "medium"
-        },
-        {
-          "id": "matthew-26-medium-q10",
-          "question": "True or False: Jesus taught that the poor will always be present, so honoring Him with special acts is sometimes necessary and right.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "In Matthew 26:11, Jesus says, 'For ye have the poor always with you; but me ye have not always,' indicating that special acts of honoring Him, like the woman’s anointing, are appropriate at times.",
-          "verseReference": "Matthew 26:11",
-          "difficulty": "medium"
-        },
-        {
-          "id": "matthew-26-medium-q11",
-          "question": "True or False: Jesus rebuked the use of the sword during His arrest and taught that those who live by the sword will perish by it.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Matthew 26:51-52 records Jesus telling His disciple to put the sword away because all who take the sword will perish by it, teaching non-violence and trust in God’s plan.",
-          "verseReference": "Matthew 26:51-52",
-          "difficulty": "medium"
-        },
-        {
-          "id": "matthew-26-medium-q12",
-          "question": "Fill in the blank: Jesus said, \"Take, eat; this is my ______.\"",
-          "type": "fill-blank",
-          "options": [
-            "body",
-            "bread",
-            "life",
-            "spirit"
-          ],
-          "correctAnswer": "body",
-          "explanation": "In Matthew 26:26, Jesus took bread, blessed it, broke it, and said, 'Take, eat; this is my body,' instituting the Lord’s Supper as a remembrance of His sacrifice.",
+          "correctAnswer": "This is my body",
+          "explanation": "Jesus took bread and said, 'Take, eat; this is my body.' (Matthew 26:26)",
           "verseReference": "Matthew 26:26",
           "difficulty": "medium"
         },
         {
-          "id": "matthew-26-medium-q13",
-          "question": "How does Matthew 26 demonstrate the importance of obedience and preparation in serving the Lord?",
+          "id": "matthew-26-medium-q2",
+          "question": "What does Matthew 26:27 promise will happen if someone drinks from the cup?",
           "type": "multiple-choice",
           "options": [
-            "The disciples prepared the Passover as Jesus directed, showing obedient service",
-            "Preparation is unnecessary if you have good intentions",
-            "Only leaders should prepare for the Lord’s work",
-            "Obedience can be delayed without consequence"
+            "They will be blessed",
+            "They will have eternal life",
+            "They will be forgiven",
+            "They will be healed"
           ],
-          "correctAnswer": "The disciples prepared the Passover as Jesus directed, showing obedient service",
-          "explanation": "Matthew 26:17-19 shows the disciples asking where to prepare the Passover and following Jesus’ instructions exactly, exemplifying faithful obedience and readiness in serving God.",
-          "verseReference": "Matthew 26:17-19",
+          "correctAnswer": "They will be forgiven",
+          "explanation": "Jesus states that the cup represents His blood, which is shed for the remission of sins. (Matthew 26:28)",
+          "verseReference": "Matthew 26:28",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-26-medium-q3",
+          "question": "What did Jesus say about drinking the fruit of the vine?",
+          "type": "multiple-choice",
+          "options": [
+            "He will drink it anew with them",
+            "He will never drink it again",
+            "It is not important",
+            "It symbolizes the old covenant"
+          ],
+          "correctAnswer": "He will drink it anew with them",
+          "explanation": "Jesus said He would not drink of the fruit of the vine until He drinks it new in His Father's kingdom. (Matthew 26:29)",
+          "verseReference": "Matthew 26:29",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-26-medium-q4",
+          "question": "What does Matthew 26:30 tell us the disciples did after the meal?",
+          "type": "multiple-choice",
+          "options": [
+            "They argued",
+            "They sang a hymn",
+            "They prayed",
+            "They left immediately"
+          ],
+          "correctAnswer": "They sang a hymn",
+          "explanation": "After they had sung a hymn, they went out to the Mount of Olives. (Matthew 26:30)",
+          "verseReference": "Matthew 26:30",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-26-medium-q5",
+          "question": "What did Jesus predict would happen to the disciples that night?",
+          "type": "multiple-choice",
+          "options": [
+            "They would be filled with the Holy Spirit",
+            "They would betray Him",
+            "They would all be offended",
+            "They would preach the gospel"
+          ],
+          "correctAnswer": "They would all be offended",
+          "explanation": "Jesus said, 'All ye shall be offended because of me this night.' (Matthew 26:31)",
+          "verseReference": "Matthew 26:31",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-26-medium-q6",
+          "question": "What did Peter insist he would do, despite Jesus' warning?",
+          "type": "multiple-choice",
+          "options": [
+            "He would deny Jesus",
+            "He would not be offended",
+            "He would leave the group",
+            "He would betray Jesus"
+          ],
+          "correctAnswer": "He would not be offended",
+          "explanation": "Peter said, 'Though all men shall be offended because of thee, yet will I never be offended.' (Matthew 26:33)",
+          "verseReference": "Matthew 26:33",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-26-medium-q7",
+          "question": "Why did Jesus go to Gethsemane with His disciples?",
+          "type": "multiple-choice",
+          "options": [
+            "To teach them",
+            "To pray",
+            "To rest",
+            "To celebrate the Passover"
+          ],
+          "correctAnswer": "To pray",
+          "explanation": "Jesus asked the disciples to sit while He went to pray. (Matthew 26:36)",
+          "verseReference": "Matthew 26:36",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-26-medium-q8",
+          "question": "What did Jesus ask Peter and the disciples to do in Gethsemane?",
+          "type": "multiple-choice",
+          "options": [
+            "Rest and eat",
+            "Watch and pray",
+            "Leave Him alone",
+            "Sing hymns"
+          ],
+          "correctAnswer": "Watch and pray",
+          "explanation": "Jesus told them to watch and pray that they enter not into temptation. (Matthew 26:41)",
+          "verseReference": "Matthew 26:41",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-26-medium-q9",
+          "question": "What did Jesus say about the spirit and the flesh?",
+          "type": "multiple-choice",
+          "options": [
+            "The spirit is weak",
+            "The flesh is willing",
+            "The spirit indeed is willing, but the flesh is weak",
+            "Both are equally strong"
+          ],
+          "correctAnswer": "The spirit indeed is willing, but the flesh is weak",
+          "explanation": "Jesus stated, 'The spirit indeed is willing, but the flesh is weak.' (Matthew 26:41)",
+          "verseReference": "Matthew 26:41",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-26-medium-q10",
+          "question": "What did Jesus say when He found the disciples asleep?",
+          "type": "multiple-choice",
+          "options": [
+            "Sleep on now",
+            "You are forgiven",
+            "Wake up",
+            "You have failed"
+          ],
+          "correctAnswer": "Sleep on now",
+          "explanation": "Jesus said, 'Sleep on now, and take your rest.' (Matthew 26:45)",
+          "verseReference": "Matthew 26:45",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-26-medium-q11",
+          "question": "What was Judas' signal for betraying Jesus?",
+          "type": "multiple-choice",
+          "options": [
+            "A loud shout",
+            "A kiss",
+            "He would point Him out",
+            "He would ask a question"
+          ],
+          "correctAnswer": "A kiss",
+          "explanation": "Judas said that he would kiss the one he betrayed, and that would be the sign. (Matthew 26:48)",
+          "verseReference": "Matthew 26:48",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-26-medium-q12",
+          "question": "What did Jesus call Judas when he approached to betray Him?",
+          "type": "multiple-choice",
+          "options": [
+            "Traitor",
+            "Friend",
+            "Disciple",
+            "Enemy"
+          ],
+          "correctAnswer": "Friend",
+          "explanation": "Jesus addressed Judas as 'Friend' when he approached to betray Him. (Matthew 26:50)",
+          "verseReference": "Matthew 26:50",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-26-medium-q13",
+          "question": "Is it true that Jesus prayed three times in Gethsemane?",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Jesus went away to pray three times, each time returning to find the disciples asleep. (Matthew 26:39, 42, 44)",
+          "verseReference": "Matthew 26:39",
           "difficulty": "medium"
         },
         {
           "id": "matthew-26-medium-q14",
-          "question": "What does Jesus’ calm response during His arrest teach us about integrity and trust in God amid persecution?",
-          "type": "multiple-choice",
+          "question": "Is it true that Jesus instructed His disciples to drink from the cup only once?",
+          "type": "true-false",
           "options": [
-            "Jesus trusted God’s plan and did not resist violently despite wrongful arrest",
-            "It is right to fight back physically when persecuted",
-            "Fear justifies denying faith",
-            "Integrity is secondary to self-preservation"
+            "True",
+            "False"
           ],
-          "correctAnswer": "Jesus trusted God’s plan and did not resist violently despite wrongful arrest",
-          "explanation": "Matthew 26:55-56 shows Jesus questioning those who came to arrest Him and submitting to God’s will, modeling trust and integrity under persecution.",
-          "verseReference": "Matthew 26:55-56",
+          "correctAnswer": "False",
+          "explanation": "Jesus instructed His disciples to drink from the cup, saying 'Drink ye all of it.' (Matthew 26:27)",
+          "verseReference": "Matthew 26:27",
           "difficulty": "medium"
         },
         {
           "id": "matthew-26-medium-q15",
-          "question": "A believer feels overwhelmed by sorrow and asks how to respond. What example from Matthew 26 can guide them in prayer and seeking God’s strength?",
-          "type": "multiple-choice",
+          "question": "Is it true that Peter denied knowing Jesus only once?",
+          "type": "true-false",
           "options": [
-            "Jesus in Gethsemane showed deep sorrow but prayed persistently, submitting to God’s will",
-            "Sorrow means lack of faith and should be ignored",
-            "Prayer is only for joyful times",
-            "One should face sorrow alone without prayer"
+            "True",
+            "False"
           ],
-          "correctAnswer": "Jesus in Gethsemane showed deep sorrow but prayed persistently, submitting to God’s will",
-          "explanation": "Matthew 26:36-38, 39-44 depict Jesus deeply sorrowful yet praying multiple times and submitting to God’s will, teaching believers to bring their burdens to God in prayer.",
-          "verseReference": "Matthew 26:36-44",
+          "correctAnswer": "False",
+          "explanation": "Jesus foretold that Peter would deny Him three times before the cock crows. (Matthew 26:34)",
+          "verseReference": "Matthew 26:34",
           "difficulty": "medium"
         }
       ],
@@ -497,225 +493,225 @@
       "questions": [
         {
           "id": "matthew-26-hard-q1",
-          "question": "Which Old Testament prophecy is alluded to in Jesus' statement about the shepherd being smitten and the sheep being scattered?",
+          "question": "According to Matthew 26:51, what did one of those with Jesus do when Jesus was arrested?",
           "type": "multiple-choice",
           "options": [
-            "Zechariah 13:7",
-            "Isaiah 53:6",
-            "Psalm 23:1",
-            "Jeremiah 31:10"
+            "Drew his sword and struck a servant of the high priest, cutting off his ear",
+            "Ran away and hid among the crowd",
+            "Prayed for Jesus' deliverance",
+            "Confronted the chief priests with words"
           ],
-          "correctAnswer": "Zechariah 13:7",
-          "explanation": "Jesus refers to the prophecy in Zechariah 13:7 when he says, 'I will smite the shepherd, and the sheep of the flock shall be scattered abroad' (Matthew 26:31), foreshadowing his arrest and the disciples' scattering.",
-          "verseReference": "Matthew 26:31",
+          "correctAnswer": "Drew his sword and struck a servant of the high priest, cutting off his ear",
+          "explanation": "Matthew 26:51 states that one of those with Jesus stretched out his hand, drew his sword, and struck a servant of the high priest, cutting off his ear.",
+          "verseReference": "Matthew 26:51",
           "difficulty": "hard"
         },
         {
           "id": "matthew-26-hard-q2",
-          "question": "What is the significance of the woman pouring ointment on Jesus' head, as explained by Jesus himself?",
+          "question": "What reason does Jesus give in Matthew 26:52 for instructing to put away the sword?",
           "type": "multiple-choice",
           "options": [
-            "It was an act of preparation for burial",
-            "It was a symbol of kingship",
-            "It was a ritual cleansing",
-            "It was a sign of repentance"
+            "For all they that take the sword shall perish with the sword",
+            "Because it was not the time for violence",
+            "Because the authorities had the legal right to arrest Him",
+            "Because it would cause a riot"
           ],
-          "correctAnswer": "It was an act of preparation for burial",
-          "explanation": "Jesus explains that the woman's act of pouring ointment was for his burial (Matthew 26:12), indicating a typological foreshadowing of his death and burial.",
-          "verseReference": "Matthew 26:12",
+          "correctAnswer": "For all they that take the sword shall perish with the sword",
+          "explanation": "In Matthew 26:52, Jesus instructs to put away the sword because 'all they that take the sword shall perish with the sword.'",
+          "verseReference": "Matthew 26:52",
           "difficulty": "hard"
         },
         {
           "id": "matthew-26-hard-q3",
-          "question": "How does Judas Iscariot's betrayal relate to Old Testament imagery and Hebrew concepts of covenant betrayal?",
+          "question": "In Matthew 26:53, Jesus mentions that He could pray to His Father to send how many legions of angels for His defense?",
           "type": "multiple-choice",
           "options": [
-            "He delivers Jesus for thirty pieces of silver, reminiscent of the price of a slave (Exodus 21:32)",
-            "He anoints Jesus as a king",
-            "He hides Jesus from the priests",
-            "He publicly declares Jesus' innocence"
+            "More than twelve legions",
+            "Ten thousand angels",
+            "One legion",
+            "A thousand legions"
           ],
-          "correctAnswer": "He delivers Jesus for thirty pieces of silver, reminiscent of the price of a slave (Exodus 21:32)",
-          "explanation": "Judas' acceptance of thirty pieces of silver to betray Jesus recalls the price set for a slave in Exodus 21:32, symbolizing a profound betrayal of covenant loyalty (Matthew 26:15).",
-          "verseReference": "Matthew 26:15",
+          "correctAnswer": "More than twelve legions",
+          "explanation": "Matthew 26:53 records Jesus saying He could pray to His Father and He would send more than twelve legions of angels.",
+          "verseReference": "Matthew 26:53",
           "difficulty": "hard"
         },
         {
           "id": "matthew-26-hard-q4",
-          "question": "What literary device is used in Jesus' declaration during the Last Supper, 'This is my body' and 'This is my blood'?",
+          "question": "What reason does Jesus give in Matthew 26:54 for not calling on angels to prevent His arrest?",
           "type": "multiple-choice",
           "options": [
-            "Metonymy",
-            "Simile",
-            "Parable",
-            "Hyperbole"
+            "So that the scriptures might be fulfilled",
+            "Because He desired to suffer",
+            "Because the angels were not near",
+            "Because He had no power at that moment"
           ],
-          "correctAnswer": "Metonymy",
-          "explanation": "Jesus uses metonymy by referring to bread and wine as his body and blood respectively (Matthew 26:26-28), symbolizing his impending sacrifice.",
-          "verseReference": "Matthew 26:26-28",
+          "correctAnswer": "So that the scriptures might be fulfilled",
+          "explanation": "Matthew 26:54 states that Jesus refrains from calling angels so that the scriptures might be fulfilled.",
+          "verseReference": "Matthew 26:54",
           "difficulty": "hard"
         },
         {
           "id": "matthew-26-hard-q5",
-          "question": "What is the Greek term translated as 'new testament' in Matthew 26:28, and what is its theological significance?",
+          "question": "In Matthew 26:56, what happens to the disciples after Jesus is arrested?",
           "type": "multiple-choice",
           "options": [
-            "Diathēkē, indicating a covenant established by Jesus' blood",
-            "Agape, meaning unconditional love",
-            "Charis, meaning grace",
-            "Logos, meaning the Word"
+            "All the disciples forsook him and fled",
+            "They stood and defended Jesus",
+            "They were arrested alongside Jesus",
+            "They prayed together for His deliverance"
           ],
-          "correctAnswer": "Diathēkē, indicating a covenant established by Jesus' blood",
-          "explanation": "'Diathēkē' means covenant or testament, highlighting Jesus establishing a new covenant through his sacrificial blood for the remission of sins (Matthew 26:28).",
-          "verseReference": "Matthew 26:28",
+          "correctAnswer": "All the disciples forsook him and fled",
+          "explanation": "Matthew 26:56 explains that all the disciples forsook Jesus and fled after His arrest.",
+          "verseReference": "Matthew 26:56",
           "difficulty": "hard"
         },
         {
           "id": "matthew-26-hard-q6",
-          "question": "In the context of Matthew 26, how is the Mount of Olives significant historically and theologically?",
+          "question": "According to Matthew 26:69, where was Peter when a damsel accused him of being with Jesus?",
           "type": "multiple-choice",
           "options": [
-            "It is the site of Jesus' prayer and betrayal, connecting to Messianic expectations",
-            "It is where Jesus performed miracles",
-            "It is where Jesus was born",
-            "It is the place where Jesus preached the Sermon on the Mount"
+            "Sitting outside in the palace",
+            "Inside the temple",
+            "At the mount of Olives",
+            "In the garden of Gethsemane"
           ],
-          "correctAnswer": "It is the site of Jesus' prayer and betrayal, connecting to Messianic expectations",
-          "explanation": "The Mount of Olives is historically and theologically important as the place where Jesus prayed in agony and was betrayed (Matthew 26:30, 36-46), fulfilling Messianic prophecies and symbolizing his submission to God's will.",
-          "verseReference": "Matthew 26:36",
+          "correctAnswer": "Sitting outside in the palace",
+          "explanation": "Matthew 26:69 states that Peter was sitting outside in the palace when a damsel accused him of being with Jesus.",
+          "verseReference": "Matthew 26:69",
           "difficulty": "hard"
         },
         {
           "id": "matthew-26-hard-q7",
-          "question": "Which theme in Matthew 26 is foreshadowed by Jesus' repeated prayers in Gethsemane?",
+          "question": "What does the Greek word 'legion' (Matthew 26:53) mean?",
           "type": "multiple-choice",
           "options": [
-            "Submission to divine will despite suffering",
-            "Immediate deliverance by angels",
-            "Public proclamation of kingship",
-            "Miraculous resurrection"
+            "A unit of about 6,000 soldiers",
+            "A group of angels",
+            "A prayer of protection",
+            "A ceremonial sword"
           ],
-          "correctAnswer": "Submission to divine will despite suffering",
-          "explanation": "Jesus prays three times asking if the cup may pass from him but ultimately submits to God's will (Matthew 26:39, 42, 44), foreshadowing his obedient sacrifice.",
-          "verseReference": "Matthew 26:39-44",
+          "correctAnswer": "A unit of about 6,000 soldiers",
+          "explanation": "The Greek word 'legion' (λεγιών) refers to a Roman military unit of about 6,000 soldiers, as used in Matthew 26:53.",
+          "verseReference": "Matthew 26:53",
           "difficulty": "hard"
         },
         {
           "id": "matthew-26-hard-q8",
-          "question": "What is the significance of Peter's denial and the crowing of the cock in Matthew 26?",
+          "question": "Which literary device is used in Matthew 26:54 when Jesus says 'But how then shall the scriptures be fulfilled, that thus it must be?'",
           "type": "multiple-choice",
           "options": [
-            "It fulfills Jesus' prophecy and symbolizes human weakness under pressure",
-            "It marks the beginning of Jesus' ministry",
-            "It indicates Judas' remorse",
-            "It signals the resurrection"
+            "Foreshadowing",
+            "Hyperbole",
+            "Metaphor",
+            "Paradox"
           ],
-          "correctAnswer": "It fulfills Jesus' prophecy and symbolizes human weakness under pressure",
-          "explanation": "Peter denies Jesus three times before the cock crows, fulfilling Jesus' prediction (Matthew 26:34, 74-75) and illustrating the frailty and failure of discipleship.",
-          "verseReference": "Matthew 26:34, 74-75",
+          "correctAnswer": "Foreshadowing",
+          "explanation": "Matthew 26:54 uses foreshadowing as Jesus indicates the forthcoming events are necessary to fulfill scripture.",
+          "verseReference": "Matthew 26:54",
           "difficulty": "hard"
         },
         {
           "id": "matthew-26-hard-q9",
-          "question": "True or False: According to Matthew 26, Jesus rebuked the disciple who used a sword during his arrest, emphasizing peace over violence.",
+          "question": "Which Old Testament passage is echoed by Jesus' statement in Matthew 26:31 about the shepherd being struck and the sheep scattering?",
+          "type": "multiple-choice",
+          "options": [
+            "Zechariah 13:7",
+            "Isaiah 53:5",
+            "Psalm 23:1",
+            "Jeremiah 31:10"
+          ],
+          "correctAnswer": "Zechariah 13:7",
+          "explanation": "Matthew 26:31 quotes Zechariah 13:7, which prophesies the striking of the shepherd and the scattering of the sheep.",
+          "verseReference": "Matthew 26:31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-26-hard-q10",
+          "question": "Which New Testament passage fulfills the theme of Peter's denial as described in Matthew 26:69-75?",
+          "type": "multiple-choice",
+          "options": [
+            "John 18:15-27",
+            "Luke 22:54-62",
+            "Acts 2:14",
+            "Mark 15:40"
+          ],
+          "correctAnswer": "John 18:15-27",
+          "explanation": "John 18:15-27 also describes Peter's denial of Jesus, paralleling Matthew 26:69-75.",
+          "verseReference": "Matthew 26:69-75",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-26-hard-q11",
+          "question": "What event immediately precedes the arrest of Jesus in Matthew 26?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus' prayer in Gethsemane",
+            "The Last Supper",
+            "Peter's denial",
+            "The cleansing of the temple"
+          ],
+          "correctAnswer": "Jesus' prayer in Gethsemane",
+          "explanation": "Matthew 26:36-46 records Jesus praying in Gethsemane immediately before His arrest in verse 47.",
+          "verseReference": "Matthew 26:46",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-26-hard-q12",
+          "question": "What is the significance of Jesus' silence when accused before the high priest in Matthew 26:63?",
+          "type": "multiple-choice",
+          "options": [
+            "It fulfills the prophecy of the suffering servant in Isaiah 53",
+            "It shows His lack of defense",
+            "It indicates uncertainty about His identity",
+            "It is a sign of submission to the elders"
+          ],
+          "correctAnswer": "It fulfills the prophecy of the suffering servant in Isaiah 53",
+          "explanation": "Jesus' silence in Matthew 26:63 fulfills Isaiah 53:7, where the suffering servant does not open his mouth.",
+          "verseReference": "Matthew 26:63",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-26-hard-q13",
+          "question": "What type of literary structure is evident in Matthew 26:69-75 regarding Peter’s denial?",
+          "type": "multiple-choice",
+          "options": [
+            "Chiasm",
+            "Parallelism",
+            "Inclusio",
+            "Allegory"
+          ],
+          "correctAnswer": "Chiasm",
+          "explanation": "Matthew 26:69-75 portrays a chiasm, where Peter's three denials are structured symmetrically around the crowing of the cock.",
+          "verseReference": "Matthew 26:69-75",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-26-hard-q14",
+          "question": "What is the cultural significance of the cock crowing in the context of Peter's denial in Matthew 26:74?",
+          "type": "multiple-choice",
+          "options": [
+            "It signaled the start of a new day, fulfilling Jesus' prediction",
+            "It was a sign for the guards to arrest Peter",
+            "It indicated that the temple was opening",
+            "It was a call to prayer for the disciples"
+          ],
+          "correctAnswer": "It signaled the start of a new day, fulfilling Jesus' prediction",
+          "explanation": "In Matthew 26:74, the crowing of the cock signaled dawn and fulfilled Jesus' prediction that Peter would deny Him before the cock crowed.",
+          "verseReference": "Matthew 26:74",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-26-hard-q15",
+          "question": "Peter's remorse after denying Jesus is shown in which verse and how is it expressed?",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Jesus told the disciple to put away his sword, saying 'all they that take the sword shall perish with the sword' (Matthew 26:52), highlighting nonviolence.",
-          "verseReference": "Matthew 26:52",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-26-hard-q10",
-          "question": "What is the irony presented in the chief priests and elders arresting Jesus at night with swords and staves, as Jesus points out?",
-          "type": "multiple-choice",
-          "options": [
-            "They treat him like a thief despite his daily teaching in the temple",
-            "They honor him as a king",
-            "They release him immediately",
-            "They invite him to a festival"
-          ],
-          "correctAnswer": "They treat him like a thief despite his daily teaching in the temple",
-          "explanation": "Jesus questions why they come with weapons to arrest him as a thief when he taught openly daily in the temple (Matthew 26:55), highlighting the injustice and false accusation.",
-          "verseReference": "Matthew 26:55",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-26-hard-q11",
-          "question": "How does the narrative structure in Matthew 26 emphasize Judas' betrayal?",
-          "type": "multiple-choice",
-          "options": [
-            "By introducing Judas early and repeatedly highlighting his seeking opportunity to betray Jesus",
-            "By focusing on Peter's denial only",
-            "By describing Judas as an innocent bystander",
-            "By omitting Judas' name entirely"
-          ],
-          "correctAnswer": "By introducing Judas early and repeatedly highlighting his seeking opportunity to betray Jesus",
-          "explanation": "The chapter introduces Judas' betrayal as early as verse 14 and notes his seeking opportunity to betray Jesus (Matthew 26:14,16), structurally foregrounding the theme of betrayal.",
-          "verseReference": "Matthew 26:14,16",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-26-hard-q12",
-          "question": "What is the theological significance of Jesus saying, 'The spirit indeed is willing, but the flesh is weak' in Matthew 26:41?",
-          "type": "multiple-choice",
-          "options": [
-            "It acknowledges human weakness and the need for vigilance in prayer",
-            "It denies the importance of prayer",
-            "It suggests that the disciples are perfect",
-            "It indicates that Jesus will not suffer"
-          ],
-          "correctAnswer": "It acknowledges human weakness and the need for vigilance in prayer",
-          "explanation": "Jesus recognizes the disciples' good intentions but their susceptibility to failure, emphasizing the need to watch and pray to avoid temptation (Matthew 26:41).",
-          "verseReference": "Matthew 26:41",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-26-hard-q13",
-          "question": "Fill in the blank: Jesus says, 'For this is my blood of the __________, which is shed for many for the remission of sins.'",
-          "type": "multiple-choice",
-          "options": [
-            "new testament",
-            "old covenant",
-            "kingdom",
-            "prophecy"
-          ],
-          "correctAnswer": "new testament",
-          "explanation": "Jesus declares the cup as his blood of the new testament, establishing a new covenant for forgiveness of sins (Matthew 26:28).",
-          "verseReference": "Matthew 26:28",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-26-hard-q14",
-          "question": "Which term best describes Judas' action in Matthew 26 when he identifies Jesus to the arresting party with a kiss?",
-          "type": "multiple-choice",
-          "options": [
-            "Betrayal",
-            "Friendship",
-            "Repentance",
-            "Forgiveness"
-          ],
-          "correctAnswer": "Betrayal",
-          "explanation": "Judas uses a kiss, a sign of friendship, ironically as a signal to betray Jesus to the authorities (Matthew 26:48-49).",
-          "verseReference": "Matthew 26:48-49",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-26-hard-q15",
-          "question": "What is the significance of the phrase 'before the cock crow' in Peter's denial account?",
-          "type": "multiple-choice",
-          "options": [
-            "It marks the time limit of Peter's denial prophecy",
-            "It refers to a rooster used in sacrifices",
-            "It symbolizes Jesus' resurrection",
-            "It indicates the beginning of the Sabbath"
-          ],
-          "correctAnswer": "It marks the time limit of Peter's denial prophecy",
-          "explanation": "Jesus predicts Peter will deny him three times before the cock crows, marking the fulfillment time of his prophecy (Matthew 26:34, 74).",
-          "verseReference": "Matthew 26:34, 74",
+          "explanation": "Matthew 26:75 shows Peter weeping bitterly after remembering Jesus' prophecy about his denial, demonstrating deep remorse.",
+          "verseReference": "Matthew 26:75",
           "difficulty": "hard"
         }
       ],
@@ -742,227 +738,227 @@
       "questions": [
         {
           "id": "matthew-26-theological-q1",
-          "question": "What did Jesus predict would happen to the Son of Man after two days?",
+          "question": "What doctrine does Matthew 26:12 teach about salvation?",
           "type": "multiple-choice",
           "options": [
-            "He would be glorified",
-            "He would be betrayed to be crucified",
-            "He would ascend to heaven",
-            "He would perform many miracles"
+            "Christ's anointing signifies preparation for His burial and atonement",
+            "Salvation is based on human works and generosity to the poor",
+            "The pouring of ointment is a symbol of future resurrection only",
+            "Salvation is achieved through adherence to feast day rituals"
           ],
-          "correctAnswer": "He would be betrayed to be crucified",
-          "explanation": "Jesus clearly foretold His betrayal and crucifixion, which aligns with prophecies such as Isaiah 53:3-6 and Psalm 22, fulfilling the Messianic suffering servant role (Matthew 26:2).",
-          "verseReference": "Matthew 26:2",
+          "correctAnswer": "Christ's anointing signifies preparation for His burial and atonement",
+          "explanation": "Matthew 26:12 states that the woman poured ointment on Jesus' body for His burial, indicating His anointing prefigures His sacrificial death for salvation.",
+          "verseReference": "Matthew 26:12",
           "difficulty": "hard"
         },
         {
           "id": "matthew-26-theological-q2",
-          "question": "Who assembled to plan the capture and killing of Jesus?",
+          "question": "What doctrine about human sin does Matthew 26:24 teach?",
           "type": "multiple-choice",
           "options": [
-            "The Pharisees and Sadducees",
-            "The chief priests, scribes, and elders",
-            "The Roman soldiers",
-            "The disciples"
+            "The betrayal of Christ fulfills Scripture and results in severe judgment",
+            "Human sin can be overcome by personal effort without divine intervention",
+            "Betrayal is a minor failing easily forgiven without consequence",
+            "The Son of man will forgive all sins except betrayal"
           ],
-          "correctAnswer": "The chief priests, scribes, and elders",
-          "explanation": "The Jewish religious leaders, specifically the chief priests, scribes, and elders, conspired to kill Jesus, reflecting opposition to the Messiah prophesied in Daniel 9:26 and Zechariah 13:7 (Matthew 26:3-4).",
-          "verseReference": "Matthew 26:3",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-26-theological-q3",
-          "question": "Why did the religious leaders decide not to arrest Jesus during the feast?",
-          "type": "multiple-choice",
-          "options": [
-            "Because Jesus was protected by the people",
-            "Because they feared a Roman backlash",
-            "Because they did not want an uproar among the people",
-            "Because they were waiting for a sign"
-          ],
-          "correctAnswer": "Because they did not want an uproar among the people",
-          "explanation": "The leaders feared public unrest during the feast, showing their concern for maintaining order rather than justice, contrasting God's sovereign plan for Jesus' death (Matthew 26:5).",
-          "verseReference": "Matthew 26:5",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-26-theological-q4",
-          "question": "What did the woman pour on Jesus as a preparation for His burial?",
-          "type": "multiple-choice",
-          "options": [
-            "Water",
-            "Wine",
-            "Alabaster box of very precious ointment",
-            "Oil of spikenard"
-          ],
-          "correctAnswer": "Alabaster box of very precious ointment",
-          "explanation": "The woman anointed Jesus with expensive ointment signifying His impending death and burial, fulfilling the symbolism of anointing the Messiah (Matthew 26:7, 12). This points to Psalm 23:5 and John 12:3.",
-          "verseReference": "Matthew 26:7",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-26-theological-q5",
-          "question": "What was Jesus' response to the disciples' indignation over the ointment?",
-          "type": "multiple-choice",
-          "options": [
-            "He scolded the woman",
-            "He said the ointment was wasted",
-            "He said she had done a good work upon Him",
-            "He told them to give it to the poor"
-          ],
-          "correctAnswer": "He said she had done a good work upon Him",
-          "explanation": "Jesus affirmed the woman's act as a preparation for His burial, emphasizing the uniqueness of the moment and God's plan for salvation (Matthew 26:10-12). This reflects Old Testament burial customs in Isaiah 53:9.",
-          "verseReference": "Matthew 26:10",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-26-theological-q6",
-          "question": "How much did Judas Iscariot agree to receive for betraying Jesus?",
-          "type": "multiple-choice",
-          "options": [
-            "Thirty pieces of silver",
-            "Fifty pieces of silver",
-            "One hundred pieces of gold",
-            "Ten pieces of silver"
-          ],
-          "correctAnswer": "Thirty pieces of silver",
-          "explanation": "Judas' betrayal for thirty pieces of silver fulfills the prophecy of Zechariah 11:12-13, highlighting the fulfillment of Scripture in the Messiah’s suffering (Matthew 26:15).",
-          "verseReference": "Matthew 26:15",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-26-theological-q7",
-          "question": "What did Jesus say about the one who would betray Him during the Last Supper?",
-          "type": "multiple-choice",
-          "options": [
-            "That he would be forgiven",
-            "That it would be better if he had never been born",
-            "That he would be honored among men",
-            "That he would repent"
-          ],
-          "correctAnswer": "That it would be better if he had never been born",
-          "explanation": "Jesus pronounced a woe upon His betrayer, indicating the gravity of sin and judgment, consistent with the seriousness of rejecting the Messiah (Matthew 26:24). This aligns with Judas’ tragic end in Acts 1:18.",
+          "correctAnswer": "The betrayal of Christ fulfills Scripture and results in severe judgment",
+          "explanation": "Matthew 26:24 teaches that the betrayal is a fulfillment of Scripture and that the betrayer faces woe, indicating the serious consequences of sin.",
           "verseReference": "Matthew 26:24",
           "difficulty": "hard"
         },
         {
-          "id": "matthew-26-theological-q8",
-          "question": "What theological significance does Jesus attach to the bread He broke at the Last Supper?",
+          "id": "matthew-26-theological-q3",
+          "question": "What doctrine about Jesus’ messianic authority does Matthew 26:64 teach?",
           "type": "multiple-choice",
           "options": [
-            "It represents His body",
-            "It symbolizes the manna in the wilderness",
-            "It is merely a cultural practice",
-            "It signifies the law of Moses"
+            "Jesus declares His future exaltation and divine judgment as Son of man",
+            "Jesus denies being the Christ and refuses to answer the high priest",
+            "Jesus claims only to be a prophet with no divine authority",
+            "Jesus states He will establish a political kingdom immediately"
           ],
-          "correctAnswer": "It represents His body",
-          "explanation": "Jesus identifies the bread as His body given for believers, instituting the New Covenant and prefiguring His sacrificial death (Matthew 26:26). This is foundational for understanding atonement and communion (Luke 22:19, 1 Corinthians 11:24).",
-          "verseReference": "Matthew 26:26",
+          "correctAnswer": "Jesus declares His future exaltation and divine judgment as Son of man",
+          "explanation": "Matthew 26:64 records Jesus affirming that He is the Christ who will sit at the right hand of power and come in the clouds, revealing His divine authority and eschatological role.",
+          "verseReference": "Matthew 26:64",
           "difficulty": "hard"
         },
         {
-          "id": "matthew-26-theological-q9",
-          "question": "What does Jesus say the cup represents at the Last Supper?",
+          "id": "matthew-26-theological-q4",
+          "question": "Which divine attribute does Matthew 26:39 specifically demonstrate?",
           "type": "multiple-choice",
           "options": [
-            "The blood of the new testament for the remission of sins",
-            "The fruit of the vine as a blessing",
-            "The covenant with Abraham",
-            "The water of life"
+            "Submission to the will of the Father",
+            "Omnipotence in avoiding suffering",
+            "Immutability in refusing change",
+            "Jealousy over human sin"
           ],
-          "correctAnswer": "The blood of the new testament for the remission of sins",
-          "explanation": "Jesus explains the cup as His blood of the new covenant, shed for many for forgiveness, revealing the heart of salvation theology (Matthew 26:28). This connects to Jeremiah 31:31-34 and Hebrews 9:15.",
-          "verseReference": "Matthew 26:28",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-26-theological-q10",
-          "question": "What did Jesus say would happen to His disciples after He was smitten, according to prophecy?",
-          "type": "multiple-choice",
-          "options": [
-            "They would be exalted",
-            "They would be scattered",
-            "They would be imprisoned",
-            "They would be healed"
-          ],
-          "correctAnswer": "They would be scattered",
-          "explanation": "Jesus quoted Zechariah 13:7 predicting that the shepherd would be struck and the sheep scattered, illustrating the disciples’ forthcoming desertion (Matthew 26:31). This highlights human weakness and fulfillment of prophecy.",
-          "verseReference": "Matthew 26:31",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-26-theological-q11",
-          "question": "How did Peter respond when Jesus predicted his denial?",
-          "type": "multiple-choice",
-          "options": [
-            "He accepted it humbly",
-            "He denied it vehemently",
-            "He ignored the warning",
-            "He asked for forgiveness"
-          ],
-          "correctAnswer": "He denied it vehemently",
-          "explanation": "Peter confidently denied he would deny Jesus, demonstrating human pride and weakness, which was later fulfilled (Matthew 26:33-35). This is echoed in Luke 22:33-34 and John 13:38.",
-          "verseReference": "Matthew 26:33",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-26-theological-q12",
-          "question": "What was Jesus' attitude and action in the Garden of Gethsemane?",
-          "type": "multiple-choice",
-          "options": [
-            "He rested and awaited events",
-            "He prayed earnestly, submitting to the Father's will",
-            "He fled to avoid arrest",
-            "He confronted the authorities"
-          ],
-          "correctAnswer": "He prayed earnestly, submitting to the Father's will",
-          "explanation": "Jesus prayed three times, expressing sorrow and submission to God's will, illustrating His obedience and the weight of atonement (Matthew 26:36-44). This aligns with Philippians 2:8 and Hebrews 5:7.",
+          "correctAnswer": "Submission to the will of the Father",
+          "explanation": "In Matthew 26:39, Jesus prays ‘not as I will, but as thou wilt,’ showing His submission to the Father's sovereign will.",
           "verseReference": "Matthew 26:39",
           "difficulty": "hard"
         },
         {
-          "id": "matthew-26-theological-q13",
-          "question": "What did Jesus say about the spirit and the flesh regarding temptation?",
+          "id": "matthew-26-theological-q5",
+          "question": "Which divine attribute does Matthew 26:53 specifically demonstrate?",
           "type": "multiple-choice",
           "options": [
-            "The spirit is weak but the flesh is willing",
-            "Both spirit and flesh are weak",
-            "The spirit is willing but the flesh is weak",
-            "Both spirit and flesh are willing"
+            "Omnipotence in commanding legions of angels",
+            "Immanence in physically defending Himself",
+            "Favoritism towards the disciples",
+            "Impatience with human weakness"
           ],
-          "correctAnswer": "The spirit is willing but the flesh is weak",
-          "explanation": "Jesus acknowledged the conflict between spiritual desire and human weakness, highlighting the need for vigilance and prayer (Matthew 26:41). This theme is consistent with Romans 7:18 and Galatians 5:17.",
-          "verseReference": "Matthew 26:41",
+          "correctAnswer": "Omnipotence in commanding legions of angels",
+          "explanation": "Matthew 26:53 shows Jesus' awareness of His divine omnipotence, claiming He could call upon more than twelve legions of angels for defense.",
+          "verseReference": "Matthew 26:53",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-26-theological-q6",
+          "question": "How does Matthew 26:2 prepare for the theme of substitutionary atonement elsewhere in Scripture?",
+          "type": "multiple-choice",
+          "options": [
+            "By announcing the Son of man will be betrayed and crucified, pointing to His sacrificial death",
+            "By emphasizing the feast of Passover as a purely cultural event",
+            "By focusing on the disciples’ future leadership roles",
+            "By predicting the destruction of the temple"
+          ],
+          "correctAnswer": "By announcing the Son of man will be betrayed and crucified, pointing to His sacrificial death",
+          "explanation": "Matthew 26:2 anticipates Jesus' betrayal and crucifixion, which aligns with the Old Testament sacrificial system and points to His substitutionary death for sin.",
+          "verseReference": "Matthew 26:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-26-theological-q7",
+          "question": "How does Matthew 26:31 connect to the broader redemptive-historical theme of shepherd and sheep in Scripture?",
+          "type": "multiple-choice",
+          "options": [
+            "It references the scattering of the sheep, fulfilling Zechariah’s prophecy of the smitten shepherd",
+            "It anticipates the destruction of Israel’s political kingdom exclusively",
+            "It symbolizes the ultimate triumph of the disciples over persecution",
+            "It predicts the permanent failure of Jesus’ mission"
+          ],
+          "correctAnswer": "It references the scattering of the sheep, fulfilling Zechariah’s prophecy of the smitten shepherd",
+          "explanation": "Matthew 26:31 quotes Zechariah 13:7 about the shepherd being struck and the sheep scattered, linking Jesus’ arrest to prophetic fulfillment.",
+          "verseReference": "Matthew 26:31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-26-theological-q8",
+          "question": "What combined doctrine do verses Matthew 26:26 and 26:28 teach about the Lord's Supper?",
+          "type": "multiple-choice",
+          "options": [
+            "The bread and cup symbolize Christ's body and blood, establishing the new covenant for remission of sins",
+            "The bread and cup are merely memorials without covenant significance",
+            "The Lord's Supper is a purely social meal with no theological meaning",
+            "The cup represents judgment against the disciples only"
+          ],
+          "correctAnswer": "The bread and cup symbolize Christ's body and blood, establishing the new covenant for remission of sins",
+          "explanation": "Matthew 26:26 and 26:28 reveal Jesus instituting the Lord’s Supper as a sign of His body and blood, inaugurating the new covenant for forgiveness.",
+          "verseReference": "Matthew 26:26, 28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-26-theological-q9",
+          "question": "What combined doctrine do verses Matthew 26:40 and 26:41 teach about human weakness and spiritual vigilance?",
+          "type": "multiple-choice",
+          "options": [
+            "The spirit is willing but the flesh is weak, so believers must watch and pray to avoid temptation",
+            "Human nature is wholly depraved and cannot resist sin even with prayer",
+            "Prayer is unnecessary because God's spirit will prevent all sin",
+            "Fleshly weakness is an excuse for sin with no need for vigilance"
+          ],
+          "correctAnswer": "The spirit is willing but the flesh is weak, so believers must watch and pray to avoid temptation",
+          "explanation": "In Matthew 26:40-41, Jesus teaches that although believers desire to do right, their fleshly weakness requires prayerful vigilance to resist temptation.",
+          "verseReference": "Matthew 26:40, 41",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-26-theological-q10",
+          "question": "What combined doctrine do verses Matthew 26:63 and 26:64 teach about Christ's identity and eschatological role?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus affirms He is the Christ and Son of God, who will sit at God's right hand and come in glory",
+            "Jesus denies divine sonship and claims only to be a prophet",
+            "Jesus refuses to answer, leaving His identity ambiguous",
+            "Jesus claims to be a political messiah who will overthrow Rome immediately"
+          ],
+          "correctAnswer": "Jesus affirms He is the Christ and Son of God, who will sit at God's right hand and come in glory",
+          "explanation": "Matthew 26:63-64 records Jesus' confession before the high priest, affirming His messianic and divine identity with eschatological authority.",
+          "verseReference": "Matthew 26:63, 64",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-26-theological-q11",
+          "question": "What combined doctrine do verses Matthew 26:47 and 26:50 teach about the fulfillment of Jesus' betrayal and arrest according to divine sovereignty and human responsibility?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus' betrayal and arrest fulfill Scripture while involving human agents acting in their own choice",
+            "Jesus is forcibly taken against divine will and without prophetic foresight",
+            "The arrest is a surprise to Jesus and contradicts earlier predictions",
+            "Human agents act without any divine sovereignty or prophetic purpose"
+          ],
+          "correctAnswer": "Jesus' betrayal and arrest fulfill Scripture while involving human agents acting in their own choice",
+          "explanation": "Matthew 26:47 and 26:50 show Judas betraying Jesus and Jesus’ calm acceptance, indicating divine fulfillment alongside human culpability.",
+          "verseReference": "Matthew 26:47, 50",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-26-theological-q12",
+          "question": "Sceptics claim Matthew 26:59-61 shows Jesus was falsely accused without any basis. What does the passage actually teach?",
+          "type": "multiple-choice",
+          "options": [
+            "The religious leaders sought false witness but ultimately used Jesus’ own words about destroying the temple as a charge",
+            "Jesus was accused solely on true eyewitness testimony without dispute",
+            "The accusations were fabricated entirely without any reference to Jesus’ teachings",
+            "The passage shows Jesus confessed to destroying the temple"
+          ],
+          "correctAnswer": "The religious leaders sought false witness but ultimately used Jesus’ own words about destroying the temple as a charge",
+          "explanation": "Matthew 26:59-61 records attempts at false testimony failing, but two witnesses quoted Jesus’ statement about the temple as grounds for accusation.",
+          "verseReference": "Matthew 26:59-61",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-26-theological-q13",
+          "question": "What doctrine does Matthew 26:13 teach about the global proclamation of the gospel?",
+          "type": "multiple-choice",
+          "options": [
+            "The woman's act of anointing will be remembered wherever the gospel is preached",
+            "The gospel is only for the Jewish people and local communities",
+            "Memorials are unnecessary once the gospel is preached",
+            "The gospel’s spread depends on political power and not acts of devotion"
+          ],
+          "correctAnswer": "The woman's act of anointing will be remembered wherever the gospel is preached",
+          "explanation": "Matthew 26:13 states that the woman's deed will be told as a memorial wherever the gospel is preached, highlighting the universal scope of gospel proclamation.",
+          "verseReference": "Matthew 26:13",
           "difficulty": "hard"
         },
         {
           "id": "matthew-26-theological-q14",
-          "question": "What sign did Judas give to identify Jesus to the arresting party?",
+          "question": "Which divine attribute does Matthew 26:55 specifically demonstrate?",
           "type": "multiple-choice",
           "options": [
-            "A handshake",
-            "A kiss",
-            "A word",
-            "A look"
+            "Justice in confronting wrongful arrest",
+            "Wrath against the crowd",
+            "Impotence in the face of evil",
+            "Favoritism towards the high priests"
           ],
-          "correctAnswer": "A kiss",
-          "explanation": "Judas gave a kiss as the sign to betray Jesus, an act of hypocrisy fulfilling Psalm 41:9 and emphasizing the theme of betrayal by a close associate (Matthew 26:48-49).",
-          "verseReference": "Matthew 26:48",
+          "correctAnswer": "Justice in confronting wrongful arrest",
+          "explanation": "In Matthew 26:55 Jesus questions the crowd’s treatment of Him, showing God's justice by highlighting the injustice of His arrest.",
+          "verseReference": "Matthew 26:55",
           "difficulty": "hard"
         },
         {
           "id": "matthew-26-theological-q15",
-          "question": "How did Jesus respond to the violent defense by one of His companions?",
+          "question": "What combined doctrine do verses Matthew 26:69 and 26:74 teach about human frailty and divine foreknowledge?",
           "type": "multiple-choice",
           "options": [
-            "He blessed the act",
-            "He told him to put away his sword",
-            "He encouraged fighting",
-            "He ignored it"
+            "Peter's denial fulfills Jesus’ prophecy, exemplifying human weakness despite divine foreknowledge",
+            "Peter's denial is a failure unforeseen by Jesus",
+            "Peter denies Jesus but is immediately forgiven without consequence",
+            "Jesus predicts denial but Peter never falters"
           ],
-          "correctAnswer": "He told him to put away his sword",
-          "explanation": "Jesus rebuked the use of violence, emphasizing peace and fulfillment of Scripture, teaching that God's kingdom is not advanced by force (Matthew 26:52-54). This aligns with Isaiah 53:7 and John 18:11.",
-          "verseReference": "Matthew 26:52",
+          "correctAnswer": "Peter's denial fulfills Jesus’ prophecy, exemplifying human weakness despite divine foreknowledge",
+          "explanation": "Matthew 26:69-74 records Peter’s thrice denial, fulfilling Jesus’ prediction and demonstrating both human frailty and Jesus’ foreknowledge.",
+          "verseReference": "Matthew 26:69-74",
           "difficulty": "hard"
         }
       ],

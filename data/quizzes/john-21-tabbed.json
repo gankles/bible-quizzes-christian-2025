@@ -13,221 +13,219 @@
       "questions": [
         {
           "id": "john-21-easy-q1",
-          "question": "Where did Jesus show himself again to the disciples after his resurrection?",
+          "question": "In John 21, which of the following appears FIRST in the chapter?",
           "type": "multiple-choice",
           "options": [
-            "Sea of Tiberias",
-            "Sea of Galilee",
-            "Mount of Olives",
-            "Jordan River"
+            "Jesus showed himself again to the disciples",
+            "Simon Peter said he would go fishing",
+            "The disciples saw a fire of coals",
+            "Jesus asked if they had any meat"
           ],
-          "correctAnswer": "Sea of Tiberias",
-          "explanation": "Jesus showed himself again to the disciples at the sea of Tiberias as stated in John 21:1.",
+          "correctAnswer": "Jesus showed himself again to the disciples",
+          "explanation": "This is the first event mentioned in the chapter, as stated in John 21:1.",
           "verseReference": "John 21:1",
           "difficulty": "easy"
         },
         {
           "id": "john-21-easy-q2",
-          "question": "Which disciple said, 'I go a fishing'?",
+          "question": "Who was with Simon Peter when they went fishing?",
           "type": "multiple-choice",
           "options": [
-            "Simon Peter",
-            "Thomas",
-            "Nathanael",
-            "John"
+            "Only Thomas",
+            "Thomas, Nathanael, and the sons of Zebedee",
+            "Just the sons of Zebedee",
+            "Only Nathanael"
           ],
-          "correctAnswer": "Simon Peter",
-          "explanation": "Simon Peter told the others, 'I go a fishing' according to John 21:3.",
-          "verseReference": "John 21:3",
+          "correctAnswer": "Thomas, Nathanael, and the sons of Zebedee",
+          "explanation": "This is stated in John 21:2, listing those who were together with Simon Peter.",
+          "verseReference": "John 21:2",
           "difficulty": "easy"
         },
         {
           "id": "john-21-easy-q3",
-          "question": "How many fish did Simon Peter's net contain when they pulled it to land?",
+          "question": "What did Simon Peter say he would do?",
           "type": "multiple-choice",
           "options": [
-            "153",
-            "100",
-            "200",
-            "75"
+            "Go to Jerusalem",
+            "Go fishing",
+            "Preach the Gospel",
+            "Rest on the shore"
           ],
-          "correctAnswer": "153",
-          "explanation": "The net was full of 153 great fishes as described in John 21:11.",
-          "verseReference": "John 21:11",
-          "difficulty": "easy"
-        },
-        {
-          "id": "john-21-easy-q4",
-          "question": "What did Jesus tell the disciples to do with the net?",
-          "type": "multiple-choice",
-          "options": [
-            "Cast it on the right side of the ship",
-            "Pull it up immediately",
-            "Leave it in the water",
-            "Cast it on the left side of the ship"
-          ],
-          "correctAnswer": "Cast it on the right side of the ship",
-          "explanation": "Jesus instructed them to cast the net on the right side of the ship in John 21:6.",
-          "verseReference": "John 21:6",
-          "difficulty": "easy"
-        },
-        {
-          "id": "john-21-easy-q5",
-          "question": "Who recognized that it was the Lord standing on the shore?",
-          "type": "multiple-choice",
-          "options": [
-            "The disciple whom Jesus loved",
-            "Simon Peter",
-            "Thomas",
-            "Nathanael"
-          ],
-          "correctAnswer": "The disciple whom Jesus loved",
-          "explanation": "The disciple whom Jesus loved told Peter, 'It is the Lord' in John 21:7.",
-          "verseReference": "John 21:7",
-          "difficulty": "easy"
-        },
-        {
-          "id": "john-21-easy-q6",
-          "question": "What were the disciples doing when Jesus appeared to them by the sea?",
-          "type": "multiple-choice",
-          "options": [
-            "Fishing",
-            "Praying",
-            "Eating",
-            "Teaching"
-          ],
-          "correctAnswer": "Fishing",
-          "explanation": "They had gone fishing but caught nothing during the night as mentioned in John 21:3.",
+          "correctAnswer": "Go fishing",
+          "explanation": "This is explicitly stated in John 21:3 where Simon Peter says, 'I go a fishing.'",
           "verseReference": "John 21:3",
           "difficulty": "easy"
         },
         {
-          "id": "john-21-easy-q7",
-          "question": "What did Jesus have prepared on the shore when the disciples arrived?",
+          "id": "john-21-easy-q4",
+          "question": "What did the disciples catch that night?",
           "type": "multiple-choice",
           "options": [
-            "A fire of coals with fish and bread",
-            "A table of fruits",
-            "A place to sit",
-            "Water and wine"
+            "A large amount of fish",
+            "Nothing",
+            "A single fish",
+            "A net full of crabs"
           ],
-          "correctAnswer": "A fire of coals with fish and bread",
-          "explanation": "Jesus had a fire of coals with fish and bread laid on it as described in John 21:9.",
-          "verseReference": "John 21:9",
+          "correctAnswer": "Nothing",
+          "explanation": "John 21:3 states that they went forth and caught nothing that night.",
+          "verseReference": "John 21:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-21-easy-q5",
+          "question": "Who stood on the shore in the morning?",
+          "type": "multiple-choice",
+          "options": [
+            "Simon Peter",
+            "Thomas",
+            "Jesus",
+            "Nathanael"
+          ],
+          "correctAnswer": "Jesus",
+          "explanation": "According to John 21:4, Jesus stood on the shore when morning came.",
+          "verseReference": "John 21:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-21-easy-q6",
+          "question": "What did Jesus ask the disciples when he called to them?",
+          "type": "multiple-choice",
+          "options": [
+            "Have you found the fish?",
+            "Children, have ye any meat?",
+            "Are you hungry?",
+            "Where is your net?"
+          ],
+          "correctAnswer": "Children, have ye any meat?",
+          "explanation": "This question is recorded in John 21:5 where Jesus asks the disciples if they have any meat.",
+          "verseReference": "John 21:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-21-easy-q7",
+          "question": "What did Jesus instruct the disciples to do with their nets?",
+          "type": "multiple-choice",
+          "options": [
+            "Cast them aside",
+            "Cast the net on the right side of the ship",
+            "Draw them up",
+            "Leave them in the water"
+          ],
+          "correctAnswer": "Cast the net on the right side of the ship",
+          "explanation": "This instruction is found in John 21:6 where Jesus tells them to cast the net on the right side.",
+          "verseReference": "John 21:6",
           "difficulty": "easy"
         },
         {
           "id": "john-21-easy-q8",
-          "question": "How many times did Jesus ask Simon Peter if he loved Him?",
+          "question": "What did the disciples not have before Jesus spoke to them?",
           "type": "multiple-choice",
           "options": [
-            "Three times",
-            "Once",
-            "Twice",
-            "Four times"
+            "Fish",
+            "Food",
+            "A boat",
+            "A net"
           ],
-          "correctAnswer": "Three times",
-          "explanation": "Jesus asked Simon Peter three times if he loved Him in John 21:15-17.",
-          "verseReference": "John 21:15",
+          "correctAnswer": "Fish",
+          "explanation": "As noted in John 21:5, the disciples answered that they had no meat.",
+          "verseReference": "John 21:5",
           "difficulty": "easy"
         },
         {
           "id": "john-21-easy-q9",
-          "question": "What did Jesus tell Simon Peter to do after asking if he loved Him?",
+          "question": "What did the disciple whom Jesus loved say to Peter?",
           "type": "multiple-choice",
           "options": [
-            "Feed my lambs and feed my sheep",
-            "Go fishing again",
-            "Build a church",
-            "Pray for the disciples"
+            "It is a storm",
+            "It is the Lord",
+            "We should return to fishing",
+            "We caught many fish"
           ],
-          "correctAnswer": "Feed my lambs and feed my sheep",
-          "explanation": "Jesus instructed Peter to feed His lambs and sheep after each question about love in John 21:15-17.",
-          "verseReference": "John 21:15",
+          "correctAnswer": "It is the Lord",
+          "explanation": "This statement is made in John 21:7 when that disciple recognizes Jesus.",
+          "verseReference": "John 21:7",
           "difficulty": "easy"
         },
         {
           "id": "john-21-easy-q10",
-          "question": "What did Jesus say would happen to Simon Peter when he was old?",
+          "question": "How far were the disciples from land when they were in the little ship?",
           "type": "multiple-choice",
           "options": [
-            "Another will gird him and carry him where he would not go",
-            "He will live a long life",
-            "He will return to fishing",
-            "He will build a church"
+            "One hundred cubits",
+            "Two hundred cubits",
+            "Five hundred cubits",
+            "Three hundred cubits"
           ],
-          "correctAnswer": "Another will gird him and carry him where he would not go",
-          "explanation": "Jesus foretold Peter's death and that another would carry him where he did not want to go in John 21:18.",
-          "verseReference": "John 21:18",
+          "correctAnswer": "Two hundred cubits",
+          "explanation": "John 21:8 specifies that they were not far from land, but as it were two hundred cubits.",
+          "verseReference": "John 21:8",
           "difficulty": "easy"
         },
         {
           "id": "john-21-easy-q11",
-          "question": "Who was following Peter, whom Jesus loved?",
+          "question": "What did the disciples see when they came to land?",
           "type": "multiple-choice",
           "options": [
-            "The disciple who leaned on Jesus' breast at supper",
-            "Thomas",
-            "Nathanael",
-            "John the Baptist"
+            "A boat",
+            "A fire of coals",
+            "A crowd of people",
+            "A storm"
           ],
-          "correctAnswer": "The disciple who leaned on Jesus' breast at supper",
-          "explanation": "This disciple followed Peter and was the one who leaned on Jesus' breast as per John 21:20.",
-          "verseReference": "John 21:20",
+          "correctAnswer": "A fire of coals",
+          "explanation": "As stated in John 21:9, they saw a fire of coals when they came to land.",
+          "verseReference": "John 21:9",
           "difficulty": "easy"
         },
         {
           "id": "john-21-easy-q12",
-          "question": "True or False: The disciples knew at first that it was Jesus standing on the shore.",
+          "question": "True or False: Jesus showed himself again to the disciples at the sea of Tiberias.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "This is a true statement found in John 21:1.",
+          "verseReference": "John 21:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-21-easy-q13",
+          "question": "True or False: The disciples caught a large number of fish before Jesus spoke to them.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "This is true because they caught nothing before Jesus told them to cast the net, according to John 21:3.",
+          "verseReference": "John 21:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "john-21-easy-q14",
+          "question": "True or False: Simon Peter was the only disciple present when Jesus spoke to them.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "The disciples did not know it was Jesus when He first stood on the shore according to John 21:4.",
-          "verseReference": "John 21:4",
-          "difficulty": "easy"
-        },
-        {
-          "id": "john-21-easy-q13",
-          "question": "True or False: Jesus told Peter to follow Him regardless of what happens to the other disciple.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Jesus told Peter, 'If I will that he tarry till I come, what is that to thee? follow thou me' in John 21:22.",
-          "verseReference": "John 21:22",
-          "difficulty": "easy"
-        },
-        {
-          "id": "john-21-easy-q14",
-          "question": "True or False: Jesus ate with the disciples when He appeared to them at the sea of Tiberias.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Jesus invited the disciples to dine with Him and ate bread and fish with them in John 21:12-13.",
-          "verseReference": "John 21:12",
+          "explanation": "This is false as multiple disciples were present, as stated in John 21:2.",
+          "verseReference": "John 21:2",
           "difficulty": "easy"
         },
         {
           "id": "john-21-easy-q15",
-          "question": "Complete the verse: 'Simon Peter saith unto them, I go a ______.'",
-          "type": "fill-blank",
+          "question": "True or False: Jesus asked the disciples if they had any bread.",
+          "type": "true-false",
           "options": [
-            "fishing",
-            "praying",
-            "teaching",
-            "walking"
+            "True",
+            "False"
           ],
-          "correctAnswer": "fishing",
-          "explanation": "Simon Peter said, 'I go a fishing' as found in John 21:3.",
-          "verseReference": "John 21:3",
+          "correctAnswer": "False",
+          "explanation": "This is false; Jesus asked if they had any meat, as recorded in John 21:5.",
+          "verseReference": "John 21:5",
           "difficulty": "easy"
         }
       ],
@@ -254,223 +252,221 @@
       "questions": [
         {
           "id": "john-21-medium-q1",
-          "question": "A believer feels discouraged after working hard but seeing no results. Based on John 21, what biblical truth encourages persistence in obedience?",
+          "question": "What did Jesus ask the disciples to bring to him?",
           "type": "multiple-choice",
           "options": [
-            "Obey Jesus' instruction even when results seem absent",
-            "Give up and try a different profession",
-            "Ignore Jesus and rely on your own strength",
-            "Keep fishing only during the night"
+            "The bread",
+            "The fish they had caught",
+            "The net",
+            "The boat"
           ],
-          "correctAnswer": "Obey Jesus' instruction even when results seem absent",
-          "explanation": "In John 21:3-6, the disciples caught nothing all night but obeyed Jesus' command to cast the net on the right side and then caught many fish, teaching trust and obedience in God's timing.",
-          "verseReference": "John 21:3-6",
+          "correctAnswer": "The fish they had caught",
+          "explanation": "Jesus asked them to bring of the fish which they had now caught as stated in John 21:10.",
+          "verseReference": "John 21:10",
           "difficulty": "medium"
         },
         {
           "id": "john-21-medium-q2",
-          "question": "How does Jesus' repeated question to Peter about love in John 21 teach us about restoration after failure?",
+          "question": "What does John 21:11 promise will happen if someone brings the fish to Jesus as instructed in John 21:10?",
           "type": "multiple-choice",
           "options": [
-            "It shows Jesus' willingness to restore and reaffirm relationships",
-            "It punishes Peter for his past denial",
-            "It ignores Peter's love and moves on",
-            "It demands proof of Peter's love through works"
+            "They will be blessed",
+            "They will catch more fish",
+            "They will dine with Jesus",
+            "They will not break the net"
           ],
-          "correctAnswer": "It shows Jesus' willingness to restore and reaffirm relationships",
-          "explanation": "John 21:15-17 reveals Jesus asking Peter three times if he loves Him, restoring Peter after his denial and commissioning him to care for His followers, emphasizing grace and restoration.",
-          "verseReference": "John 21:15-17",
+          "correctAnswer": "They will not break the net",
+          "explanation": "The net was full and yet was not broken, demonstrating the abundance of the catch as mentioned in John 21:11.",
+          "verseReference": "John 21:11",
           "difficulty": "medium"
         },
         {
           "id": "john-21-medium-q3",
-          "question": "A fellow believer is uncertain about following Jesus' call amid challenges. What lesson from John 21 supports perseverance in discipleship?",
+          "question": "What did Jesus invite the disciples to do after they had caught the fish?",
           "type": "multiple-choice",
           "options": [
-            "Jesus tells Peter to follow Him despite future suffering",
-            "Jesus advises Peter to avoid difficulties",
-            "Jesus promises an easy life",
-            "Jesus says to wait for others to lead"
+            "Go back to fishing",
+            "Come and dine",
+            "Pray",
+            "Leave the shore"
           ],
-          "correctAnswer": "Jesus tells Peter to follow Him despite future suffering",
-          "explanation": "John 21:18-19 shows Jesus predicting Peter's difficult future but still commanding him to follow, teaching commitment and perseverance regardless of hardship.",
-          "verseReference": "John 21:18-19",
+          "correctAnswer": "Come and dine",
+          "explanation": "Jesus invited them to dine together, as stated in John 21:12.",
+          "verseReference": "John 21:12",
           "difficulty": "medium"
         },
         {
           "id": "john-21-medium-q4",
-          "question": "What does the miraculous catch of fish in John 21 teach about work ethic and trusting God's provision?",
+          "question": "What does John 21:12 indicate about the disciples' recognition of Jesus?",
           "type": "multiple-choice",
           "options": [
-            "Faithful work with God's guidance brings fruitful results",
-            "Fishing is the only way to provide",
-            "Success comes only from human effort",
-            "Ignore God's instructions and rely on luck"
+            "They were unsure who he was",
+            "They immediately recognized him",
+            "They thought he was a stranger",
+            "They did not care to ask"
           ],
-          "correctAnswer": "Faithful work with God's guidance brings fruitful results",
-          "explanation": "John 21:6 and 11 describe how obeying Jesus' direction led to a large catch despite previous failure, showing the importance of trusting God while working diligently.",
-          "verseReference": "John 21:6-11",
+          "correctAnswer": "They did not care to ask",
+          "explanation": "None of the disciples dared to ask who He was, knowing that it was the Lord, as noted in John 21:12.",
+          "verseReference": "John 21:12",
           "difficulty": "medium"
         },
         {
           "id": "john-21-medium-q5",
-          "question": "How does the fellowship meal with Jesus in John 21 illustrate Christian community and hospitality?",
+          "question": "What is significant about the number of fish caught?",
           "type": "multiple-choice",
           "options": [
-            "Sharing food with Jesus demonstrates fellowship and care",
-            "Meals should be eaten alone for spiritual growth",
-            "Only leaders deserve hospitality",
-            "Food is unimportant in faith"
+            "It was a small catch",
+            "It was an exact number of 153",
+            "It broke the net",
+            "It was symbolic of the disciples' faith"
           ],
-          "correctAnswer": "Sharing food with Jesus demonstrates fellowship and care",
-          "explanation": "In John 21:9-13, Jesus prepares a meal for the disciples, symbolizing intimate fellowship and the importance of communal sharing in the church.",
-          "verseReference": "John 21:9-13",
+          "correctAnswer": "It was an exact number of 153",
+          "explanation": "The net was drawn full of great fishes, an exact count of 153, as stated in John 21:11.",
+          "verseReference": "John 21:11",
           "difficulty": "medium"
         },
         {
           "id": "john-21-medium-q6",
-          "question": "A believer struggles with doubt about their love for Christ. How does Peter's response to Jesus' questions in John 21 encourage honesty in faith?",
+          "question": "What did Jesus give to the disciples after they dined?",
           "type": "multiple-choice",
           "options": [
-            "Peter openly affirms his love, showing honest confession is important",
-            "Peter denies his love again",
-            "Peter changes the subject",
-            "Peter remains silent"
+            "Wine",
+            "Fish and bread",
+            "Water",
+            "Fruit"
           ],
-          "correctAnswer": "Peter openly affirms his love, showing honest confession is important",
-          "explanation": "John 21:15-17 records Peter honestly confessing his love for Jesus each time, teaching the value of sincere self-examination and confession in relationship with Christ.",
-          "verseReference": "John 21:15-17",
+          "correctAnswer": "Fish and bread",
+          "explanation": "Jesus took bread and gave it to them, along with fish, as mentioned in John 21:13.",
+          "verseReference": "John 21:13",
           "difficulty": "medium"
         },
         {
           "id": "john-21-medium-q7",
-          "question": "What biblical principle about stewardship can be learned from Jesus' instruction to bring the caught fish to Him in John 21?",
+          "question": "How many times did Jesus show himself to his disciples after his resurrection according to John 21:14?",
           "type": "multiple-choice",
           "options": [
-            "We should offer the fruits of our labor back to God",
-            "Keep all your earnings for yourself",
-            "Only share when asked",
-            "Work without any sharing"
+            "Once",
+            "Twice",
+            "Three times",
+            "Four times"
           ],
-          "correctAnswer": "We should offer the fruits of our labor back to God",
-          "explanation": "Jesus commands the disciples to bring the fish they caught (John 21:10-11), illustrating the principle of presenting our work and resources as an offering to God.",
-          "verseReference": "John 21:10-11",
-          "difficulty": "medium"
-        },
-        {
-          "id": "john-21-medium-q8",
-          "question": "How does Jesus' commission to Peter to 'Feed my sheep' in John 21 relate to serving others in the church?",
-          "type": "multiple-choice",
-          "options": [
-            "It commands believers to care for and support fellow Christians",
-            "It means only pastors should serve",
-            "It suggests ignoring others' needs",
-            "It requires financial giving only"
-          ],
-          "correctAnswer": "It commands believers to care for and support fellow Christians",
-          "explanation": "John 21:15-17 shows Jesus entrusting Peter to shepherd His followers, teaching all believers to serve and support the church community.",
-          "verseReference": "John 21:15-17",
-          "difficulty": "medium"
-        },
-        {
-          "id": "john-21-medium-q9",
-          "question": "True or False: According to John 21, Jesus appeared to His disciples three times after His resurrection.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "John 21:14 states this is the third time Jesus showed Himself to His disciples after His resurrection, confirming multiple post-resurrection appearances.",
+          "correctAnswer": "Three times",
+          "explanation": "This event marks the third time Jesus showed himself to his disciples after his resurrection, as stated in John 21:14.",
           "verseReference": "John 21:14",
           "difficulty": "medium"
         },
         {
+          "id": "john-21-medium-q8",
+          "question": "What question did Jesus ask Simon Peter to test his love?",
+          "type": "multiple-choice",
+          "options": [
+            "Do you love me more than these?",
+            "Will you follow me?",
+            "Do you believe in me?",
+            "Will you feed my sheep?"
+          ],
+          "correctAnswer": "Do you love me more than these?",
+          "explanation": "Jesus asked Peter if he loved him more than the others, as stated in John 21:15.",
+          "verseReference": "John 21:15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-21-medium-q9",
+          "question": "What command did Jesus give to Peter after affirming his love?",
+          "type": "multiple-choice",
+          "options": [
+            "Feed my sheep",
+            "Go and preach",
+            "Baptize the nations",
+            "Pray for others"
+          ],
+          "correctAnswer": "Feed my sheep",
+          "explanation": "Jesus instructed Peter to feed his sheep as a response to Peter's declaration of love, mentioned in John 21:15.",
+          "verseReference": "John 21:15",
+          "difficulty": "medium"
+        },
+        {
           "id": "john-21-medium-q10",
-          "question": "True or False: Jesus told Peter that another disciple would never die according to John 21.",
+          "question": "What was Peter's reaction when Jesus asked him the third time if he loved him?",
+          "type": "multiple-choice",
+          "options": [
+            "He was indifferent",
+            "He was grieved",
+            "He was angry",
+            "He was joyful"
+          ],
+          "correctAnswer": "He was grieved",
+          "explanation": "Peter was grieved because Jesus asked him the third time, as stated in John 21:17.",
+          "verseReference": "John 21:17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-21-medium-q11",
+          "question": "What does John 21:18 say about Peter's future?",
+          "type": "multiple-choice",
+          "options": [
+            "He will become a fisherman",
+            "He will preach to the nations",
+            "He will be taken where he does not want to go",
+            "He will die young"
+          ],
+          "correctAnswer": "He will be taken where he does not want to go",
+          "explanation": "John 21:18 predicts that Peter will stretch forth his hands and be taken where he does not want to go.",
+          "verseReference": "John 21:18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-21-medium-q12",
+          "question": "Jesus' command to Peter to 'Feed my lambs' emphasizes the importance of what aspect of Christian leadership?",
+          "type": "multiple-choice",
+          "options": [
+            "Wealth",
+            "Knowledge",
+            "Care and responsibility",
+            "Popularity"
+          ],
+          "correctAnswer": "Care and responsibility",
+          "explanation": "The command emphasizes that true leadership involves caring for and nurturing the followers, as indicated in John 21:15.",
+          "verseReference": "John 21:15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "john-21-medium-q13",
+          "question": "True or False: Jesus only showed himself to the disciples one time after his resurrection.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "John 21:23 clarifies Jesus did not say the disciple would never die, but said 'If I will that he tarry till I come, what is that to thee?' correcting a misunderstanding.",
-          "verseReference": "John 21:23",
-          "difficulty": "medium"
-        },
-        {
-          "id": "john-21-medium-q11",
-          "question": "Fill in the blank: When Jesus asked Peter, 'Lovest thou me more than ___?' Peter replied, 'Yea, Lord; thou knowest that I love thee.'",
-          "type": "fill-blank",
-          "options": [
-            "these",
-            "others",
-            "friends",
-            "fishers"
-          ],
-          "correctAnswer": "these",
-          "explanation": "In John 21:15 Jesus asks Peter if he loves Him more than 'these' (the other disciples), and Peter affirms his love, showing personal devotion above peers.",
-          "verseReference": "John 21:15",
-          "difficulty": "medium"
-        },
-        {
-          "id": "john-21-medium-q12",
-          "question": "What lesson about humility can we learn from Peter's action upon recognizing Jesus on the shore in John 21?",
-          "type": "multiple-choice",
-          "options": [
-            "Peter humbly puts on his fisher's coat and jumps into the sea",
-            "Peter ignores Jesus and continues fishing",
-            "Peter criticizes Jesus for being late",
-            "Peter hides from Jesus"
-          ],
-          "correctAnswer": "Peter humbly puts on his fisher's coat and jumps into the sea",
-          "explanation": "John 21:7 shows Peter immediately preparing and acting to meet Jesus, demonstrating humility and eagerness to follow despite past failures.",
-          "verseReference": "John 21:7",
-          "difficulty": "medium"
-        },
-        {
-          "id": "john-21-medium-q13",
-          "question": "How does John 21 emphasize the importance of bearing faithful testimony as a Christian witness?",
-          "type": "multiple-choice",
-          "options": [
-            "The beloved disciple testifies to the truth of these things",
-            "Believers should keep their faith private",
-            "Testimony is unnecessary in faith",
-            "Only miracles prove faith"
-          ],
-          "correctAnswer": "The beloved disciple testifies to the truth of these things",
-          "explanation": "John 21:24 states the disciple who testifies and wrote these things confirms their truth, encouraging believers to bear faithful witness to the Gospel.",
-          "verseReference": "John 21:24",
+          "explanation": "Jesus showed himself to his disciples three times after his resurrection, as stated in John 21:14.",
+          "verseReference": "John 21:14",
           "difficulty": "medium"
         },
         {
           "id": "john-21-medium-q14",
-          "question": "What guidance about contentment can be drawn from the large net full of fish that was not broken in John 21?",
-          "type": "multiple-choice",
+          "question": "True or False: The disciples recognized Jesus immediately when he was on the shore.",
+          "type": "true-false",
           "options": [
-            "God provides abundantly without loss when we obey Him",
-            "We should always expect scarcity",
-            "Large catches always break nets",
-            "God does not care about our work"
+            "True",
+            "False"
           ],
-          "correctAnswer": "God provides abundantly without loss when we obey Him",
-          "explanation": "John 21:11 describes the net full of 153 fish that was not broken, symbolizing God's abundant provision and care over our labor when we follow His guidance.",
-          "verseReference": "John 21:11",
+          "correctAnswer": "False",
+          "explanation": "The disciples did not recognize Jesus at first when he stood on the shore, as noted in John 21:4.",
+          "verseReference": "John 21:4",
           "difficulty": "medium"
         },
         {
           "id": "john-21-medium-q15",
-          "question": "According to John 21, how should believers respond to questions about others' spiritual destinies, such as 'Lord, what shall this man do?'",
-          "type": "multiple-choice",
+          "question": "True or False: Peter was happy when Jesus asked him if he loved him the third time.",
+          "type": "true-false",
           "options": [
-            "Focus on following Jesus personally rather than comparing others",
-            "Demand to know others' fates",
-            "Ignore Jesus' commands",
-            "Make assumptions about others"
+            "True",
+            "False"
           ],
-          "correctAnswer": "Focus on following Jesus personally rather than comparing others",
-          "explanation": "John 21:21-22 shows Jesus telling Peter to follow Him and not worry about others' destinies, teaching personal responsibility in discipleship.",
-          "verseReference": "John 21:21-22",
+          "correctAnswer": "False",
+          "explanation": "Peter was grieved when Jesus asked him the third time if he loved him, as mentioned in John 21:17.",
+          "verseReference": "John 21:17",
           "difficulty": "medium"
         }
       ],
@@ -497,225 +493,225 @@
       "questions": [
         {
           "id": "john-21-hard-q1",
-          "question": "In John 21:6, Jesus instructs the disciples to cast their net on which side of the ship to catch fish?",
+          "question": "In John 21:19, what did Jesus signify by speaking about the kind of death Peter would glorify God by?",
           "type": "multiple-choice",
           "options": [
-            "Right side",
-            "Left side",
-            "Back of the ship",
-            "Front of the ship"
+            "Peter would die a martyr's death",
+            "Peter would live a long life",
+            "Peter would never die",
+            "Peter would be denied three times"
           ],
-          "correctAnswer": "Right side",
-          "explanation": "Jesus specifically tells the disciples to cast the net on the right side of the ship, resulting in a large catch of fish (John 21:6).",
-          "verseReference": "John 21:6",
+          "correctAnswer": "Peter would die a martyr's death",
+          "explanation": "John 21:19 states, 'This spake he, signifying by what death he should glorify God,' indicating Jesus foretold Peter's martyrdom.",
+          "verseReference": "John 21:19",
           "difficulty": "hard"
         },
         {
           "id": "john-21-hard-q2",
-          "question": "What is the significance of Peter girding his fisher's coat before jumping into the sea in John 21:7?",
+          "question": "Who was the disciple that Peter saw following Jesus in John 21:20?",
           "type": "multiple-choice",
           "options": [
-            "It shows his readiness to work",
-            "It indicates he was naked",
-            "It symbolizes his commitment",
-            "It was a cultural greeting"
+            "The disciple whom Jesus loved",
+            "Thomas called Didymus",
+            "Nathanael of Cana",
+            "Simon the Zealot"
           ],
-          "correctAnswer": "It indicates he was naked",
-          "explanation": "The text notes that Peter girded his fisher's coat because he was naked, highlighting his urgency to reach Jesus (John 21:7).",
-          "verseReference": "John 21:7",
+          "correctAnswer": "The disciple whom Jesus loved",
+          "explanation": "John 21:20 identifies the follower as 'the disciple whom Jesus loved,' a title used only for John in this Gospel.",
+          "verseReference": "John 21:20",
           "difficulty": "hard"
         },
         {
           "id": "john-21-hard-q3",
-          "question": "In John 21:15-17, Jesus asks Peter three times if he loves Him. What literary device is used in this triple repetition?",
+          "question": "In John 21:21, what question did Peter ask Jesus about the disciple whom Jesus loved?",
           "type": "multiple-choice",
           "options": [
-            "Chiasmus",
-            "Parallelism",
-            "Triadic repetition",
-            "Foreshadowing"
+            "Lord, and what shall this man do?",
+            "Will he betray you?",
+            "Will he live until the end of the age?",
+            "Is he greater than I?"
           ],
-          "correctAnswer": "Triadic repetition",
-          "explanation": "The threefold questioning emphasizes restoration and commission, a triadic repetition common in biblical texts to underline importance (John 21:15-17).",
-          "verseReference": "John 21:15",
+          "correctAnswer": "Lord, and what shall this man do?",
+          "explanation": "John 21:21 records Peter's question as, 'Lord, and what shall this man do?' regarding the beloved disciple's future.",
+          "verseReference": "John 21:21",
           "difficulty": "hard"
         },
         {
           "id": "john-21-hard-q4",
-          "question": "How does Jesus' command to 'Feed my sheep' in John 21:16 connect to Old Testament imagery?",
+          "question": "How did Jesus respond to Peter's question about the disciple in John 21:22?",
           "type": "multiple-choice",
           "options": [
-            "It alludes to the shepherd-king motif",
-            "It references the Exodus shepherds",
-            "It recalls the prophets as shepherds",
-            "It is a unique New Testament phrase"
+            "If I will that he tarry till I come, what is that to thee? follow thou me.",
+            "He shall not die.",
+            "Feed my sheep.",
+            "You must tell him what to do."
           ],
-          "correctAnswer": "It alludes to the shepherd-king motif",
-          "explanation": "The phrase echoes Old Testament shepherd imagery, such as David as shepherd-king and God's care for Israel, showing Peter’s pastoral role (John 21:16).",
-          "verseReference": "John 21:16",
+          "correctAnswer": "If I will that he tarry till I come, what is that to thee? follow thou me.",
+          "explanation": "John 21:22 records Jesus' response emphasizing Peter’s focus on his own calling rather than the beloved disciple's fate.",
+          "verseReference": "John 21:22",
           "difficulty": "hard"
         },
         {
           "id": "john-21-hard-q5",
-          "question": "What is the Greek meaning of the word 'Didymus' used for Thomas in John 21:2?",
+          "question": "What misunderstanding spread among the brethren concerning the beloved disciple according to John 21:23?",
           "type": "multiple-choice",
           "options": [
-            "Twin",
-            "Beloved",
-            "Teacher",
-            "Fisherman"
+            "That he should not die",
+            "That he would betray Jesus",
+            "That he would become the leader of the church",
+            "That he was not actually a disciple"
           ],
-          "correctAnswer": "Twin",
-          "explanation": "'Didymus' means 'twin' in Greek, indicating Thomas’s nickname or characteristic (John 21:2).",
-          "verseReference": "John 21:2",
+          "correctAnswer": "That he should not die",
+          "explanation": "John 21:23 explains a saying went abroad that the beloved disciple should not die, clarifying Jesus did not explicitly say this.",
+          "verseReference": "John 21:23",
           "difficulty": "hard"
         },
         {
           "id": "john-21-hard-q6",
-          "question": "John 21:14 states this was the third time Jesus showed Himself to the disciples after His resurrection. Which Gospel also emphasizes the number three in resurrection appearances?",
+          "question": "According to John 21:24, who is the disciple that testifies and wrote these things?",
           "type": "multiple-choice",
           "options": [
-            "Luke",
-            "Mark",
-            "Matthew",
-            "None explicitly"
+            "The disciple whom Jesus loved",
+            "Simon Peter",
+            "Thomas called Didymus",
+            "Nathanael of Cana"
           ],
-          "correctAnswer": "None explicitly",
-          "explanation": "While John mentions three appearances, other Gospels do not explicitly number resurrection appearances as three, highlighting John's narrative distinctiveness (John 21:14).",
-          "verseReference": "John 21:14",
+          "correctAnswer": "The disciple whom Jesus loved",
+          "explanation": "John 21:24 identifies 'this is the disciple which testifieth of these things, and wrote these things,' referring to the beloved disciple (traditionally John).",
+          "verseReference": "John 21:24",
           "difficulty": "hard"
         },
         {
           "id": "john-21-hard-q7",
-          "question": "In John 21:18-19, Jesus predicts Peter will stretch forth his hands and be carried where he does not want. What is the deeper meaning of this prediction?",
+          "question": "What does the Greek word 'tarry' (μείνω) in John 21:22 mean?",
           "type": "multiple-choice",
           "options": [
-            "Peter’s martyrdom",
-            "Peter’s imprisonment",
-            "Peter’s leadership",
-            "Peter’s fishing mission"
+            "To remain or stay",
+            "To depart quickly",
+            "To follow closely",
+            "To preach publicly"
           ],
-          "correctAnswer": "Peter’s martyrdom",
-          "explanation": "This foreshadows Peter’s future death by crucifixion, as stretching forth hands signifies being nailed to a cross (John 21:18-19).",
-          "verseReference": "John 21:18",
+          "correctAnswer": "To remain or stay",
+          "explanation": "The Greek verb 'μείνω' translated as 'tarry' means 'to remain or stay,' as used in John 21:22 in the context of remaining until Jesus comes again.",
+          "verseReference": "John 21:22",
           "difficulty": "hard"
         },
         {
           "id": "john-21-hard-q8",
-          "question": "True or False: According to John 21:22, Jesus tells Peter that he should be concerned about what will happen to the disciple John.",
+          "question": "Which literary device is prominently used in Jesus' thrice-repeated question to Peter in John 21:15-17?",
+          "type": "multiple-choice",
+          "options": [
+            "Repetition",
+            "Chiasmus",
+            "Metaphor",
+            "Irony"
+          ],
+          "correctAnswer": "Repetition",
+          "explanation": "The thrice-repeated question 'Lovest thou me?' in John 21:15-17 employs repetition to emphasize restoration and commissioning of Peter.",
+          "verseReference": "John 21:15-17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-21-hard-q9",
+          "question": "Which Old Testament passage shares a thematic connection with Jesus' charge to Peter to 'Feed my sheep' in John 21:16?",
+          "type": "multiple-choice",
+          "options": [
+            "Ezekiel 34:11-16",
+            "Genesis 1:1-5",
+            "Psalm 23:1-4",
+            "Isaiah 53:4-6"
+          ],
+          "correctAnswer": "Ezekiel 34:11-16",
+          "explanation": "Ezekiel 34:11-16 speaks of God as shepherd caring for His sheep, paralleling Jesus' charge to Peter to shepherd His followers in John 21:16.",
+          "verseReference": "John 21:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-21-hard-q10",
+          "question": "Which New Testament passage echoes Jesus' statement in John 21:18 about Peter's manner of death?",
+          "type": "multiple-choice",
+          "options": [
+            "Acts 12:2",
+            "Revelation 1:18",
+            "Matthew 16:18",
+            "Philippians 1:21"
+          ],
+          "correctAnswer": "Acts 12:2",
+          "explanation": "Acts 12:2 records the martyrdom of James by the sword, reflecting the theme of apostolic martyrdom as foretold to Peter in John 21:18-19.",
+          "verseReference": "John 21:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-21-hard-q11",
+          "question": "What event immediately precedes Jesus' question to Peter 'Lovest thou me?' in John 21:15?",
+          "type": "multiple-choice",
+          "options": [
+            "The disciples eating breakfast on the shore",
+            "Jesus' resurrection appearance to the women",
+            "The Last Supper",
+            "The healing of the blind man"
+          ],
+          "correctAnswer": "The disciples eating breakfast on the shore",
+          "explanation": "John 21:12-14 describes Jesus preparing and sharing breakfast with the disciples on the shore immediately before questioning Peter in verse 15.",
+          "verseReference": "John 21:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-21-hard-q12",
+          "question": "How does John 21:25 employ literary hyperbole to express the scope of Jesus' works?",
+          "type": "multiple-choice",
+          "options": [
+            "Saying the world could not contain the books if all were written",
+            "Listing every miracle Jesus performed",
+            "Claiming Jesus performed only a few miracles",
+            "Describing Jesus as an ordinary man"
+          ],
+          "correctAnswer": "Saying the world could not contain the books if all were written",
+          "explanation": "John 21:25 uses hyperbole stating the whole world could not contain the books if all Jesus' deeds were recorded, emphasizing His vast works.",
+          "verseReference": "John 21:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-21-hard-q13",
+          "question": "What typological significance does Peter casting himself into the sea in John 21:7 have in the broader biblical narrative?",
+          "type": "multiple-choice",
+          "options": [
+            "Symbolizes dying to old self to follow Christ",
+            "Represents a literal baptism by water",
+            "Indicates rejection of Jesus' call",
+            "Shows Peter's fear of water"
+          ],
+          "correctAnswer": "Symbolizes dying to old self to follow Christ",
+          "explanation": "Peter casting himself into the sea (John 21:7) typologically parallels dying to old life and being reborn as a follower, echoing baptismal imagery.",
+          "verseReference": "John 21:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-21-hard-q14",
+          "question": "How does the phrase 'Follow me' in John 21:19 and 21:22 function as an inclusio in the chapter?",
+          "type": "multiple-choice",
+          "options": [
+            "It frames Peter's restoration and mission",
+            "It introduces a new character",
+            "It signals the end of the narrative",
+            "It quotes an Old Testament prophet"
+          ],
+          "correctAnswer": "It frames Peter's restoration and mission",
+          "explanation": "The repeated command 'Follow me' at John 21:19 and 21:22 forms an inclusio framing the call for Peter's restoration and Christian mission.",
+          "verseReference": "John 21:19, 22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-21-hard-q15",
+          "question": "True or False: John 21:24 confirms that the testimony of the disciple who wrote the Gospel is considered true by the community.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
-          "correctAnswer": "False",
-          "explanation": "Jesus tells Peter not to worry about John but to focus on following Him, indicating personal responsibility rather than concern for others (John 21:22).",
-          "verseReference": "John 21:22",
-          "difficulty": "hard"
-        },
-        {
-          "id": "john-21-hard-q9",
-          "question": "In John 21:11, the number of fish caught was 153. What is one proposed symbolic meaning of this number in biblical scholarship?",
-          "type": "multiple-choice",
-          "options": [
-            "Represents all nations",
-            "Number of tribes of Israel",
-            "A random large catch",
-            "Number of disciples"
-          ],
-          "correctAnswer": "Represents all nations",
-          "explanation": "Some scholars suggest 153 symbolizes the totality of the known fish species or all nations, indicating the universality of the gospel (John 21:11).",
-          "verseReference": "John 21:11",
-          "difficulty": "hard"
-        },
-        {
-          "id": "john-21-hard-q10",
-          "question": "What does the term 'the disciple whom Jesus loved' signify in the context of John 21:7 and its broader Johannine usage?",
-          "type": "multiple-choice",
-          "options": [
-            "John the Apostle",
-            "Peter",
-            "James",
-            "An anonymous follower"
-          ],
-          "correctAnswer": "John the Apostle",
-          "explanation": "Traditionally, this phrase identifies John the Apostle, highlighting his special relationship with Jesus and eyewitness testimony (John 21:7).",
-          "verseReference": "John 21:7",
-          "difficulty": "hard"
-        },
-        {
-          "id": "john-21-hard-q11",
-          "question": "In John 21:13, Jesus breaks bread and gives fish to the disciples. How does this act allude to Old Testament manna or covenantal meals?",
-          "type": "multiple-choice",
-          "options": [
-            "It recalls the manna from heaven",
-            "It symbolizes the Passover meal",
-            "It imitates Melchizedek's offering",
-            "It refers to Sabbath feasts"
-          ],
-          "correctAnswer": "It recalls the manna from heaven",
-          "explanation": "Providing bread and fish evokes God’s provision like manna in the wilderness, symbolizing sustenance and covenant relationship (John 21:13).",
-          "verseReference": "John 21:13",
-          "difficulty": "hard"
-        },
-        {
-          "id": "john-21-hard-q12",
-          "question": "According to John 21:24, who is believed to have written this Gospel?",
-          "type": "multiple-choice",
-          "options": [
-            "The disciple whom Jesus loved",
-            "Peter",
-            "Paul",
-            "John the Baptist"
-          ],
-          "correctAnswer": "The disciple whom Jesus loved",
-          "explanation": "The author identifies himself as the beloved disciple who testifies to these events, traditionally understood as John the Apostle (John 21:24).",
+          "correctAnswer": "True",
+          "explanation": "John 21:24 states, 'and we know that his testimony is true,' affirming the authenticity and acceptance of the beloved disciple's witness.",
           "verseReference": "John 21:24",
-          "difficulty": "hard"
-        },
-        {
-          "id": "john-21-hard-q13",
-          "question": "What is the cultural significance of the 'fire of coals' on the shore in John 21:9?",
-          "type": "multiple-choice",
-          "options": [
-            "Common for cooking and warmth",
-            "Symbolic of divine presence",
-            "Only priests used fire",
-            "Sign of ritual purification"
-          ],
-          "correctAnswer": "Common for cooking and warmth",
-          "explanation": "Fires were typical for cooking and warmth among fishermen, setting the scene for Jesus’ breakfast with the disciples (John 21:9).",
-          "verseReference": "John 21:9",
-          "difficulty": "hard"
-        },
-        {
-          "id": "john-21-hard-q14",
-          "question": "In John 21:23, the saying about the beloved disciple's death or survival became a source of controversy. What does this reveal about early Christian community concerns?",
-          "type": "multiple-choice",
-          "options": [
-            "Speculation about Jesus' return",
-            "Debates about apostolic authority",
-            "Confusion over resurrection",
-            "Disputes about dietary laws"
-          ],
-          "correctAnswer": "Speculation about Jesus' return",
-          "explanation": "The passage reflects early community interest in eschatology and the fate of key disciples, showing evolving interpretations of Jesus' promises (John 21:23).",
-          "verseReference": "John 21:23",
-          "difficulty": "hard"
-        },
-        {
-          "id": "john-21-hard-q15",
-          "question": "According to John 21:3, how did the disciples respond when Simon Peter said he was going fishing?",
-          "type": "multiple-choice",
-          "options": [
-            "They went with him",
-            "They stayed behind",
-            "They argued with him",
-            "They prayed instead"
-          ],
-          "correctAnswer": "They went with him",
-          "explanation": "The disciples immediately decided to accompany Peter fishing, showing their close fellowship and shared livelihood (John 21:3).",
-          "verseReference": "John 21:3",
           "difficulty": "hard"
         }
       ],
@@ -742,227 +738,227 @@
       "questions": [
         {
           "id": "john-21-theological-q1",
-          "question": "What significant event does John 21 describe concerning Jesus and His disciples?",
+          "question": "What doctrine does John 21:6 teach about God's provision and sovereignty in salvation?",
           "type": "multiple-choice",
           "options": [
-            "Jesus appears again to His disciples after His resurrection",
-            "Jesus performs His first miracle",
-            "Jesus ascends to heaven",
-            "Jesus is baptized by John"
+            "God sovereignly provides abundantly beyond human effort",
+            "God only provides material needs, not spiritual ones",
+            "God expects humans to provide for themselves without divine aid",
+            "God's provision is always limited and conditional upon perfect obedience"
           ],
-          "correctAnswer": "Jesus appears again to His disciples after His resurrection",
-          "explanation": "John 21:1 explicitly states that Jesus showed Himself again to His disciples at the sea of Tiberias after His resurrection, affirming His bodily resurrection and continued relationship with His followers. This aligns with Luke 24:36-43 and 1 Corinthians 15:6, which also record post-resurrection appearances. Such appearances authenticate the resurrection and confirm Jesus’ victory over death, foundational to Christian faith.",
-          "verseReference": "John 21:1",
+          "correctAnswer": "God sovereignly provides abundantly beyond human effort",
+          "explanation": "John 21:6 shows Jesus directing the disciples to cast their net on the right side, resulting in a miraculous catch of fish, illustrating God's sovereign provision beyond human capacity.",
+          "verseReference": "John 21:6",
           "difficulty": "hard"
         },
         {
           "id": "john-21-theological-q2",
-          "question": "Which disciples were present together at the sea of Tiberias in John 21?",
+          "question": "What doctrine about Christ's resurrection appearance and its purpose is taught in John 21:14?",
           "type": "multiple-choice",
           "options": [
-            "Simon Peter, Thomas, Nathanael, sons of Zebedee, and two others",
-            "Matthew, James, John, and Judas",
-            "Peter, Paul, Barnabas, and Silas",
-            "Philip, Andrew, Simon, and Thomas"
+            "Christ's resurrection appearances confirm His victory over death and assure believers",
+            "Resurrection appearances were symbolic visions rather than physical events",
+            "The resurrection appearances were limited to only one time and one place",
+            "The resurrection appearances were meant primarily to establish a new law"
           ],
-          "correctAnswer": "Simon Peter, Thomas, Nathanael, sons of Zebedee, and two others",
-          "explanation": "John 21:2 lists the disciples present: Simon Peter, Thomas called Didymus, Nathanael of Cana in Galilee, the sons of Zebedee, and two other disciples. This group reflects the core followers who witnessed Jesus’ resurrection, consistent with Acts 1:13 which names similar apostles. Their presence underscores the continuity of Christ’s mission through His chosen apostles.",
-          "verseReference": "John 21:2",
+          "correctAnswer": "Christ's resurrection appearances confirm His victory over death and assure believers",
+          "explanation": "John 21:14 states this is the third time Jesus showed himself to His disciples after rising, indicating the reality and purpose of His resurrection appearances to confirm His victory and reassure them.",
+          "verseReference": "John 21:14",
           "difficulty": "hard"
         },
         {
           "id": "john-21-theological-q3",
-          "question": "Why did the disciples catch no fish during the night, according to John 21?",
+          "question": "What doctrine about pastoral responsibility and love is taught in John 21:15?",
           "type": "multiple-choice",
           "options": [
-            "Because they had not yet obeyed Jesus’ instruction to cast the net on the right side",
-            "Because the fish had moved to another sea",
-            "Because the net was broken",
-            "Because they were not skilled fishermen"
+            "True pastoral leadership is based on love and caring for Christ’s lambs",
+            "Pastoral leadership depends solely on authority and discipline",
+            "Love is unrelated to the task of feeding Christ’s sheep",
+            "Pastoral care is a temporary responsibility limited to the early church"
           ],
-          "correctAnswer": "Because they had not yet obeyed Jesus’ instruction to cast the net on the right side",
-          "explanation": "John 21:3-6 shows that the disciples fished all night without success until Jesus told them to cast the net on the right side of the ship, resulting in a large catch. This reveals Jesus’ sovereign authority over creation (Psalm 104:25-26) and His role as the provider. It also symbolizes the new mission of the church to bring in the harvest (Matthew 4:19).",
-          "verseReference": "John 21:3-6",
+          "correctAnswer": "True pastoral leadership is based on love and caring for Christ’s lambs",
+          "explanation": "John 21:15 commands Peter to feed Jesus’ lambs after affirming his love, linking pastoral duty directly to love for Christ and His people.",
+          "verseReference": "John 21:15",
           "difficulty": "hard"
         },
         {
           "id": "john-21-theological-q4",
-          "question": "How did the disciple whom Jesus loved identify Jesus to Peter?",
+          "question": "Which divine attribute does John 21:5 specifically demonstrate?",
           "type": "multiple-choice",
           "options": [
-            "He said, 'It is the Lord'",
-            "He pointed silently",
-            "He shouted, 'Behold the Messiah!'",
-            "He wrote His name in the sand"
+            "Omniscience",
+            "Immutability",
+            "Justice",
+            "Wrath"
           ],
-          "correctAnswer": "He said, 'It is the Lord'",
-          "explanation": "John 21:7 records that the disciple whom Jesus loved told Peter, 'It is the Lord.' This recognition emphasizes the intimate relationship between Jesus and the beloved disciple and highlights the importance of faith and spiritual discernment (1 John 2:3-6). It also foreshadows the role of testimony in the early church (Acts 1:8).",
-          "verseReference": "John 21:7",
+          "correctAnswer": "Omniscience",
+          "explanation": "In John 21:5 Jesus asks if they have any meat, knowing their situation perfectly, demonstrating His divine omniscience about their needs.",
+          "verseReference": "John 21:5",
           "difficulty": "hard"
         },
         {
           "id": "john-21-theological-q5",
-          "question": "What action did Simon Peter take immediately after realizing it was Jesus on the shore?",
+          "question": "Which divine attribute is particularly demonstrated in John 21:18 where Jesus predicts Peter’s death?",
           "type": "multiple-choice",
           "options": [
-            "He girded his fisher's coat and cast himself into the sea",
-            "He immediately began to preach",
-            "He ran to the other disciples",
-            "He bowed down and worshiped Jesus"
+            "Foreknowledge",
+            "Immanence",
+            "Mercy",
+            "Omnipotence"
           ],
-          "correctAnswer": "He girded his fisher's coat and cast himself into the sea",
-          "explanation": "John 21:7 describes Simon Peter girding his fisher’s coat because he was naked and then jumping into the sea to reach Jesus. This action symbolizes Peter’s eagerness and restoration after his denial of Jesus (Luke 22:54-62). It also reflects the transformative power of the resurrection that renews discipleship (2 Corinthians 5:17).",
-          "verseReference": "John 21:7",
+          "correctAnswer": "Foreknowledge",
+          "explanation": "Jesus' detailed prophecy about Peter’s death in John 21:18 reveals His foreknowledge of future events.",
+          "verseReference": "John 21:18",
           "difficulty": "hard"
         },
         {
           "id": "john-21-theological-q6",
-          "question": "What was prepared on the shore for the disciples when they came to land?",
+          "question": "How does John 21:11 connect to Old Testament themes of God’s provision and covenant faithfulness?",
           "type": "multiple-choice",
           "options": [
-            "A fire of coals, fish laid thereon, and bread",
-            "A feast of lamb and wine",
-            "A meal of unleavened bread and bitter herbs",
-            "A basket of fruits and water"
+            "It echoes God’s covenant faithfulness by providing abundantly, reminiscent of manna provision",
+            "It contradicts Old Testament provision by focusing on human effort",
+            "It diminishes God’s role by emphasizing the net’s strength",
+            "It highlights Israel’s failure to catch fish as a sign of judgment"
           ],
-          "correctAnswer": "A fire of coals, fish laid thereon, and bread",
-          "explanation": "John 21:9 mentions a fire of coals with fish and bread on the shore. This meal is reminiscent of Jesus’ provision and fellowship with His disciples, echoing the feeding miracles (John 6:9-13) and the Last Supper (Luke 22:19). It symbolizes communion and the sustenance Jesus provides for His followers spiritually and physically.",
-          "verseReference": "John 21:9",
-          "difficulty": "hard"
-        },
-        {
-          "id": "john-21-theological-q7",
-          "question": "How many fish did Simon Peter catch when he drew the net to the land?",
-          "type": "multiple-choice",
-          "options": [
-            "One hundred and fifty-three",
-            "Seventy",
-            "Two hundred",
-            "Fifty"
-          ],
-          "correctAnswer": "One hundred and fifty-three",
-          "explanation": "John 21:11 records that Peter drew the net full of 153 fish, and the net was not broken. The precise number may symbolize the abundance of the Gentile and Jewish believers to be gathered (Jeremiah 16:16). It also reflects God’s providence and the fruitful mission of the church (Matthew 28:19-20).",
+          "correctAnswer": "It echoes God’s covenant faithfulness by providing abundantly, reminiscent of manna provision",
+          "explanation": "The great catch of 153 fish in John 21:11 symbolizes God’s abundant and faithful provision, similar to manna provision in the wilderness, fulfilling covenant promises.",
           "verseReference": "John 21:11",
           "difficulty": "hard"
         },
         {
-          "id": "john-21-theological-q8",
-          "question": "What command did Jesus give Peter after they had dined together?",
+          "id": "john-21-theological-q7",
+          "question": "How does John 21:22 relate to the broader New Testament teaching on discipleship and individual responsibility?",
           "type": "multiple-choice",
           "options": [
-            "Feed my lambs and sheep",
-            "Build a church",
-            "Go and preach to the Gentiles",
-            "Write the Gospel"
+            "It emphasizes following Christ personally without comparing one’s path to others",
+            "It teaches that all disciples will have the same ministry and destiny",
+            "It suggests that discipleship depends on knowing others’ destinies",
+            "It promotes indifference to personal discipleship"
           ],
-          "correctAnswer": "Feed my lambs and sheep",
-          "explanation": "John 21:15-17 shows Jesus commanding Peter three times to 'Feed my lambs' and 'Feed my sheep,' symbolizing pastoral care and leadership in the church (Ezekiel 34:11-16). This reinstates Peter after his denial and emphasizes the responsibility of shepherding God’s people according to Christ’s example (1 Peter 5:2-4).",
-          "verseReference": "John 21:15-17",
+          "correctAnswer": "It emphasizes following Christ personally without comparing one’s path to others",
+          "explanation": "In John 21:22, Jesus instructs Peter to focus on his own calling rather than the fate of another disciple, highlighting individual responsibility in discipleship.",
+          "verseReference": "John 21:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "john-21-theological-q8",
+          "question": "What combined doctrine do John 21:15 and John 21:17 teach about pastoral ministry and restoration?",
+          "type": "multiple-choice",
+          "options": [
+            "Pastoral ministry requires love and involves restoration after failure",
+            "Pastoral ministry is based on strict judgment without restoration",
+            "Love is irrelevant to pastoral duties",
+            "Restoration is unnecessary once failure occurs"
+          ],
+          "correctAnswer": "Pastoral ministry requires love and involves restoration after failure",
+          "explanation": "Both John 21:15 and 21:17 show Jesus thrice asking Peter if he loves Him and commanding him to feed His sheep, restoring Peter after his denial and emphasizing love as foundational to pastoral care.",
+          "verseReference": "John 21:15, John 21:17",
           "difficulty": "hard"
         },
         {
           "id": "john-21-theological-q9",
-          "question": "What does Jesus predict will happen to Peter in his old age?",
+          "question": "What combined doctrine do John 21:6 and John 21:11 teach about the nature of miraculous provision and divine abundance?",
           "type": "multiple-choice",
           "options": [
-            "He will be led where he does not want to go",
-            "He will live a long life of peace",
-            "He will become a wealthy fisherman",
-            "He will build many churches"
+            "Divine provision surpasses natural limits and is abundant without failure",
+            "Miracles are symbolic and not meant for real provision",
+            "Provision is strictly proportional to human effort",
+            "Miraculous provision is always insufficient and fragile"
           ],
-          "correctAnswer": "He will be led where he does not want to go",
-          "explanation": "John 21:18-19 predicts that Peter will be stretched out and another will lead him where he does not want to go, signifying his martyrdom. This prophecy aligns with early church tradition about Peter’s death and reflects the cost of faithful discipleship (Philippians 1:29; 2 Timothy 4:6-7). It shows Jesus’ foreknowledge and the glory that comes through suffering for God (Romans 8:17).",
-          "verseReference": "John 21:18-19",
+          "correctAnswer": "Divine provision surpasses natural limits and is abundant without failure",
+          "explanation": "John 21:6 and 21:11 describe a miraculous catch of fish so abundant the net did not break, illustrating God’s abundant provision beyond natural constraints.",
+          "verseReference": "John 21:6, John 21:11",
           "difficulty": "hard"
         },
         {
           "id": "john-21-theological-q10",
-          "question": "How does Jesus respond when Peter asks about the fate of the disciple whom Jesus loved?",
+          "question": "What combined doctrine about Christ’s resurrection witness and apostolic testimony is taught in John 21:24-25?",
           "type": "multiple-choice",
           "options": [
-            "If I want him to remain until I come, what is that to you? Follow me",
-            "He will never die",
-            "He will be the next leader of the church",
-            "He will betray Jesus again"
+            "The eyewitness testimony of the beloved disciple affirms the truth and completeness of Christ’s works",
+            "The gospel accounts are mostly legendary and lack eyewitness basis",
+            "The beloved disciple’s testimony is unreliable and secondary",
+            "John denies the reliability of his own testimony"
           ],
-          "correctAnswer": "If I want him to remain until I come, what is that to you? Follow me",
-          "explanation": "John 21:21-22 shows Jesus emphasizing individual calling and obedience, telling Peter that the beloved disciple’s destiny is not Peter’s concern. This underlines the sovereignty of God in matters of life and death (Deuteronomy 32:39), and calls believers to focus on their own discipleship (Matthew 16:24). It also guards against speculation about eschatology.",
-          "verseReference": "John 21:21-22",
+          "correctAnswer": "The eyewitness testimony of the beloved disciple affirms the truth and completeness of Christ’s works",
+          "explanation": "John 21:24-25 states that the beloved disciple’s testimony is true and that the works of Jesus are too many to be fully written, affirming apostolic eyewitness authority.",
+          "verseReference": "John 21:24, John 21:25",
           "difficulty": "hard"
         },
         {
           "id": "john-21-theological-q11",
-          "question": "What is the significance of the disciple whom Jesus loved according to the final verses of John 21?",
+          "question": "Skeptics claim the miraculous catch of fish is a later addition to the Gospel and not historical. What does John 21:1-11 actually teach about this event?",
           "type": "multiple-choice",
           "options": [
-            "He is the witness who testifies about these things and wrote this Gospel",
-            "He was the first to deny Jesus",
-            "He replaced Judas as the twelfth apostle",
-            "He was the only one who did not follow Jesus"
+            "It describes a real post-resurrection appearance with a miraculous provision confirming Jesus’ identity",
+            "It is a purely symbolic story with no historical basis",
+            "It was a parable about fishing and not an actual event",
+            "It contradicts other resurrection appearances showing no miracles"
           ],
-          "correctAnswer": "He is the witness who testifies about these things and wrote this Gospel",
-          "explanation": "John 21:24 identifies the beloved disciple as the eyewitness and author of the Gospel, affirming the reliability and truthfulness of the testimony. This highlights the importance of apostolic witness and the inspiration of Scripture (2 Timothy 3:16; Luke 1:1-4). The Gospel’s historical accuracy supports Christian apologetics.",
-          "verseReference": "John 21:24",
+          "correctAnswer": "It describes a real post-resurrection appearance with a miraculous provision confirming Jesus’ identity",
+          "explanation": "John 21:1-11 narrates a concrete event where Jesus appears to the disciples, performs a miracle of provision, and is recognized as the Lord, underscoring historicity and theological significance.",
+          "verseReference": "John 21:1-11",
           "difficulty": "hard"
         },
         {
           "id": "john-21-theological-q12",
-          "question": "What does the abundance of fish caught after Jesus’ command symbolize in a broader theological context?",
+          "question": "What doctrine about the exclusivity of Christ’s lordship and call to follow is taught in John 21:19?",
           "type": "multiple-choice",
           "options": [
-            "The abundant harvest of souls in the kingdom of God",
-            "The failure of the disciples without Jesus",
-            "The scarcity of resources in the early church",
-            "The literal need for fish in Galilee"
+            "Peter’s call to follow Jesus demonstrates the exclusive lordship and call to discipleship",
+            "Anyone can follow any teacher; there is no unique call",
+            "Peter’s future death is unrelated to his discipleship",
+            "Jesus’ call to follow is optional and without consequence"
           ],
-          "correctAnswer": "The abundant harvest of souls in the kingdom of God",
-          "explanation": "John 21:6-11 depicts a miraculous catch of fish after obeying Jesus, symbolizing the spiritual harvest of believers (Matthew 9:37-38). This demonstrates God’s providence and the mission to bring people into His kingdom, consistent with Old Testament imagery of gathering and restoration (Isaiah 9:3; Ezekiel 34:12).",
-          "verseReference": "John 21:6-11",
+          "correctAnswer": "Peter’s call to follow Jesus demonstrates the exclusive lordship and call to discipleship",
+          "explanation": "John 21:19 commands Peter to follow Jesus, indicating the exclusive nature of Christ’s lordship and personal call to discipleship.",
+          "verseReference": "John 21:19",
           "difficulty": "hard"
         },
         {
           "id": "john-21-theological-q13",
-          "question": "Why does Jesus ask Peter three times 'Do you love me?' in John 21?",
+          "question": "Which divine attribute is most clearly demonstrated in Jesus’ repeated questioning of Peter’s love in John 21:16?",
           "type": "multiple-choice",
           "options": [
-            "To restore Peter after his three denials and commission him",
-            "To question Peter’s sincerity",
-            "To test Peter’s knowledge of Scripture",
-            "To confuse Peter"
+            "Longsuffering",
+            "Wrath",
+            "Jealousy",
+            "Impassibility"
           ],
-          "correctAnswer": "To restore Peter after his three denials and commission him",
-          "explanation": "John 21:15-17 shows Jesus asking Peter thrice if he loves Him, mirroring Peter’s three denials (Luke 22:61). This repetition functions as restoration and reaffirmation of Peter’s role in shepherding the church (Psalm 23; Ezekiel 34). It highlights God’s mercy and the call to faithful service despite past failure.",
-          "verseReference": "John 21:15-17",
+          "correctAnswer": "Longsuffering",
+          "explanation": "Jesus’ threefold questioning of Peter’s love in John 21:16 shows patience and willingness to restore despite previous failure, exemplifying divine longsuffering.",
+          "verseReference": "John 21:16",
           "difficulty": "hard"
         },
         {
           "id": "john-21-theological-q14",
-          "question": "What theological truth is exemplified by Jesus standing on the shore while the disciples fished without recognizing Him?",
+          "question": "How does John 21:20-23 contribute to the narrative arc concerning individual destiny and the kingdom of God?",
           "type": "multiple-choice",
           "options": [
-            "The post-resurrection Jesus is physically present yet sometimes spiritually unrecognized",
-            "Jesus no longer appears to His disciples",
-            "The disciples were not worthy to see Jesus",
-            "Jesus was invisible to everyone"
+            "It emphasizes that individual destiny is known by Christ and not for others to judge",
+            "It promises immortality to select disciples without exception",
+            "It reveals that all disciples will die in the same manner",
+            "It encourages speculation about others’ futures as central to discipleship"
           ],
-          "correctAnswer": "The post-resurrection Jesus is physically present yet sometimes spiritually unrecognized",
-          "explanation": "John 21:4 reveals that Jesus stood on the shore but the disciples did not know it was Him. This illustrates the mystery of the resurrection body and the spiritual blindness that can affect believers (Luke 24:16; 1 Corinthians 15:17). It underlines the need for revelation by the Spirit to recognize Christ (1 Corinthians 2:14).",
-          "verseReference": "John 21:4",
+          "correctAnswer": "It emphasizes that individual destiny is known by Christ and not for others to judge",
+          "explanation": "Jesus’ response to Peter in John 21:22-23 stresses that knowledge of another’s destiny belongs to Christ alone, focusing disciples on their own calling.",
+          "verseReference": "John 21:20-23",
           "difficulty": "hard"
         },
         {
           "id": "john-21-theological-q15",
-          "question": "What eschatological implication is found in Jesus’ statement about the disciple who would 'tarry till I come'?",
+          "question": "What combined doctrine about human weakness and divine restoration is taught in John 21:7 and John 21:15?",
           "type": "multiple-choice",
           "options": [
-            "Jesus affirms His future return but leaves individual destinies uncertain",
-            "Jesus denies His second coming",
-            "Jesus promises immortality to all disciples",
-            "Jesus specifies the time of the end"
+            "Human failure is met with divine restoration and renewed commission",
+            "Human failure results in permanent rejection by Christ",
+            "Peter’s impulsive actions are condemned without hope of restoration",
+            "Divine restoration depends on human perfection"
           ],
-          "correctAnswer": "Jesus affirms His future return but leaves individual destinies uncertain",
-          "explanation": "John 21:22-23 shows Jesus acknowledging His return ('till I come') while deflecting questions about who will remain alive until then. This reflects biblical teaching on the uncertain timing of Christ’s return (Matthew 24:36; 1 Thessalonians 5:2) and emphasizes faithful obedience over speculation (Hebrews 10:25).",
-          "verseReference": "John 21:22-23",
+          "correctAnswer": "Human failure is met with divine restoration and renewed commission",
+          "explanation": "John 21:7 shows Peter’s impulsive act after recognizing Jesus, and John 21:15 shows Jesus restoring Peter with a pastoral commission, demonstrating grace after failure.",
+          "verseReference": "John 21:7, John 21:15",
           "difficulty": "hard"
         }
       ],

@@ -13,37 +13,52 @@
       "questions": [
         {
           "id": "exodus-27-easy-q1",
-          "question": "What material was the altar made of according to Exodus 27:1?",
+          "question": "What material is the altar to be made of according to Exodus 27:1?",
           "type": "multiple-choice",
           "options": [
             "Shittim wood",
             "Oak wood",
-            "Pine wood",
-            "Cedar wood"
+            "Gold",
+            "Bronze"
           ],
           "correctAnswer": "Shittim wood",
-          "explanation": "Exodus 27:1 specifies that the altar was made of shittim wood.",
+          "explanation": "Exodus 27:1 states that the altar shall be made of shittim wood.",
           "verseReference": "Exodus 27:1",
           "difficulty": "easy"
         },
         {
           "id": "exodus-27-easy-q2",
-          "question": "What were the dimensions of the altar as described in Exodus 27:1?",
+          "question": "What are the dimensions of the altar as described in Exodus 27:1?",
           "type": "multiple-choice",
           "options": [
-            "Five cubits long, five cubits broad, three cubits high",
-            "Ten cubits long, five cubits broad, four cubits high",
-            "Five cubits long, ten cubits broad, three cubits high",
-            "Three cubits long, three cubits broad, five cubits high"
+            "Five cubits long, five cubits broad, and three cubits high",
+            "Ten cubits long, five cubits broad, and three cubits high",
+            "Five cubits long, ten cubits broad, and three cubits high",
+            "Three cubits long, three cubits broad, and five cubits high"
           ],
-          "correctAnswer": "Five cubits long, five cubits broad, three cubits high",
-          "explanation": "Exodus 27:1 states that the altar was five cubits long, five cubits broad, and three cubits high.",
+          "correctAnswer": "Five cubits long, five cubits broad, and three cubits high",
+          "explanation": "Exodus 27:1 specifies the altar's length and breadth as five cubits each and its height as three cubits.",
           "verseReference": "Exodus 27:1",
           "difficulty": "easy"
         },
         {
           "id": "exodus-27-easy-q3",
-          "question": "What was used to overlay the altar including its horns, according to Exodus 27:2?",
+          "question": "Where are the horns to be made on the altar?",
+          "type": "multiple-choice",
+          "options": [
+            "On the four corners of the altar",
+            "On the top surface only",
+            "On the front side only",
+            "On the bottom of the altar"
+          ],
+          "correctAnswer": "On the four corners of the altar",
+          "explanation": "Exodus 27:2 commands making the horns upon the four corners of the altar.",
+          "verseReference": "Exodus 27:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-27-easy-q4",
+          "question": "What material is used to overlay the altar and its horns?",
           "type": "multiple-choice",
           "options": [
             "Brass",
@@ -52,182 +67,165 @@
             "Iron"
           ],
           "correctAnswer": "Brass",
-          "explanation": "Exodus 27:2 instructs that the altar and its horns were to be overlaid with brass.",
+          "explanation": "Exodus 27:2 says the altar and horns shall be overlaid with brass.",
           "verseReference": "Exodus 27:2",
           "difficulty": "easy"
         },
         {
-          "id": "exodus-27-easy-q4",
-          "question": "Which of the following vessels were made of brass as mentioned in Exodus 27:3?",
+          "id": "exodus-27-easy-q5",
+          "question": "According to Exodus 27:3, which of the following is NOT mentioned as a brass vessel for the altar?",
           "type": "multiple-choice",
           "options": [
-            "Pans, shovels, basons, fleshhooks, firepans",
-            "Pans, basons, gold bowls, fleshhooks, firepans",
-            "Pans, shovels, silver basons, fleshhooks, firepans",
-            "Pans, shovels, basons, wooden fleshhooks, firepans"
+            "Pans",
+            "Shovels",
+            "Basins",
+            "Cups"
           ],
-          "correctAnswer": "Pans, shovels, basons, fleshhooks, firepans",
-          "explanation": "Exodus 27:3 lists pans, shovels, basons, fleshhooks, and firepans as vessels all made of brass.",
+          "correctAnswer": "Cups",
+          "explanation": "Exodus 27:3 lists pans, shovels, basons, fleshhooks, and firepans as brass vessels, but cups are not mentioned.",
           "verseReference": "Exodus 27:3",
           "difficulty": "easy"
         },
         {
-          "id": "exodus-27-easy-q5",
-          "question": "What was made of a network of brass with four brazen rings according to Exodus 27:4?",
-          "type": "multiple-choice",
-          "options": [
-            "A grate",
-            "A door",
-            "A fence",
-            "A table"
-          ],
-          "correctAnswer": "A grate",
-          "explanation": "Exodus 27:4 states a grate of network of brass with four brazen rings was made for the altar.",
-          "verseReference": "Exodus 27:4",
-          "difficulty": "easy"
-        },
-        {
           "id": "exodus-27-easy-q6",
-          "question": "According to Exodus 27:6, what were the staves for the altar made of?",
+          "question": "What is the purpose of the pans mentioned in Exodus 27:3?",
           "type": "multiple-choice",
           "options": [
-            "Shittim wood overlaid with brass",
-            "Oak wood overlaid with silver",
-            "Pine wood overlaid with gold",
-            "Cedar wood overlaid with brass"
+            "To receive the ashes",
+            "To carry water",
+            "To hold oil",
+            "To contain grain offerings"
           ],
-          "correctAnswer": "Shittim wood overlaid with brass",
-          "explanation": "Exodus 27:6 directs the staves to be made of shittim wood and overlaid with brass.",
-          "verseReference": "Exodus 27:6",
+          "correctAnswer": "To receive the ashes",
+          "explanation": "Exodus 27:3 specifies pans are made to receive the ashes of the altar.",
+          "verseReference": "Exodus 27:3",
           "difficulty": "easy"
         },
         {
           "id": "exodus-27-easy-q7",
-          "question": "How many pillars and sockets were on the south side of the tabernacle court according to Exodus 27:10?",
+          "question": "What type of grate is to be made for the altar as described in Exodus 27:4?",
           "type": "multiple-choice",
           "options": [
-            "Twenty pillars and twenty sockets",
-            "Ten pillars and ten sockets",
-            "Fifteen pillars and fifteen sockets",
-            "Four pillars and four sockets"
+            "A grate of network of brass",
+            "A grate of iron bars",
+            "A grate of silver chains",
+            "A grate of wooden slats"
           ],
-          "correctAnswer": "Twenty pillars and twenty sockets",
-          "explanation": "Exodus 27:10 mentions twenty pillars and their twenty sockets on the south side of the court.",
-          "verseReference": "Exodus 27:10",
+          "correctAnswer": "A grate of network of brass",
+          "explanation": "Exodus 27:4 directs making a grate of network of brass for the altar.",
+          "verseReference": "Exodus 27:4",
           "difficulty": "easy"
         },
         {
           "id": "exodus-27-easy-q8",
-          "question": "What materials were the hooks and fillets of the pillars made of, according to Exodus 27:10 and 27:11?",
+          "question": "How many brasen rings are to be made on the net of the altar's grate, and where are they placed?",
           "type": "multiple-choice",
           "options": [
-            "Silver",
-            "Gold",
-            "Brass",
-            "Iron"
+            "Four rings in the four corners",
+            "Two rings in the middle",
+            "Six rings around the edges",
+            "One ring in the center"
           ],
-          "correctAnswer": "Silver",
-          "explanation": "Exodus 27:10-11 specify that hooks and fillets of the pillars were made of silver.",
-          "verseReference": "Exodus 27:10",
+          "correctAnswer": "Four rings in the four corners",
+          "explanation": "Exodus 27:4 states there shall be four brasen rings in the four corners of the net.",
+          "verseReference": "Exodus 27:4",
           "difficulty": "easy"
         },
         {
           "id": "exodus-27-easy-q9",
-          "question": "What was the height of the hangings of the court all around, as described in Exodus 27:18?",
+          "question": "Where is the grate to be placed in relation to the altar according to Exodus 27:5?",
           "type": "multiple-choice",
           "options": [
-            "Five cubits",
-            "Ten cubits",
-            "Fifteen cubits",
-            "Twenty cubits"
+            "Under the compass of the altar beneath, even to the midst of the altar",
+            "On top of the altar",
+            "Next to the altar on the east side",
+            "Behind the altar"
           ],
-          "correctAnswer": "Five cubits",
-          "explanation": "Exodus 27:18 states the height of the court hangings was five cubits.",
-          "verseReference": "Exodus 27:18",
+          "correctAnswer": "Under the compass of the altar beneath, even to the midst of the altar",
+          "explanation": "Exodus 27:5 commands placing the grate under the compass of the altar beneath so that it is even to the midst of the altar.",
+          "verseReference": "Exodus 27:5",
           "difficulty": "easy"
         },
         {
           "id": "exodus-27-easy-q10",
-          "question": "What type of oil were the children of Israel commanded to bring for the lamp in Exodus 27:20?",
+          "question": "What material are the staves for the altar to be made from as per Exodus 27:6?",
           "type": "multiple-choice",
           "options": [
-            "Pure olive oil beaten",
-            "Pure cedar oil",
-            "Pure myrrh oil",
-            "Pure frankincense oil"
+            "Shittim wood",
+            "Acacia wood",
+            "Cedar wood",
+            "Olive wood"
           ],
-          "correctAnswer": "Pure olive oil beaten",
-          "explanation": "Exodus 27:20 instructs the children of Israel to bring pure olive oil beaten for the light.",
-          "verseReference": "Exodus 27:20",
+          "correctAnswer": "Shittim wood",
+          "explanation": "Exodus 27:6 instructs to make staves for the altar of shittim wood.",
+          "verseReference": "Exodus 27:6",
           "difficulty": "easy"
         },
         {
           "id": "exodus-27-easy-q11",
-          "question": "Who was to order the lamp from evening to morning as stated in Exodus 27:21?",
-          "type": "multiple-choice",
-          "options": [
-            "Aaron and his sons",
-            "Moses and Joshua",
-            "The Levites",
-            "The elders of Israel"
-          ],
-          "correctAnswer": "Aaron and his sons",
-          "explanation": "Exodus 27:21 says Aaron and his sons were to order the lamp from evening to morning.",
-          "verseReference": "Exodus 27:21",
-          "difficulty": "easy"
-        },
-        {
-          "id": "exodus-27-easy-q12",
-          "question": "True or False: The altar was hollow with boards as described in Exodus 27:8.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Exodus 27:8 states the altar was to be hollow with boards as shown on the mount.",
-          "verseReference": "Exodus 27:8",
-          "difficulty": "easy"
-        },
-        {
-          "id": "exodus-27-easy-q13",
-          "question": "True or False: Exodus 27:17 says all the pillars round about the court had hooks of brass.",
+          "question": "True or False: The staves for the altar are to be overlaid with gold.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Exodus 27:17 specifies that the hooks of the pillars were of silver, not brass.",
-          "verseReference": "Exodus 27:17",
+          "explanation": "Exodus 27:6 states the staves shall be overlaid with brass, not gold.",
+          "verseReference": "Exodus 27:6",
           "difficulty": "easy"
         },
         {
-          "id": "exodus-27-easy-q14",
-          "question": "True or False: The gate of the court had hangings made of blue, purple, scarlet, and fine twined linen with needlework, according to Exodus 27:16.",
+          "id": "exodus-27-easy-q12",
+          "question": "True or False: The staves shall be placed upon the two sides of the altar to bear it.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Exodus 27:16 describes the gate hangings as made of blue, purple, scarlet, and fine twined linen with needlework.",
-          "verseReference": "Exodus 27:16",
+          "explanation": "Exodus 27:7 specifies the staves are to be put into the rings on the two sides of the altar to bear it.",
+          "verseReference": "Exodus 27:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-27-easy-q13",
+          "question": "True or False: The altar is to be hollow with boards as shown to Moses on the mount.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Exodus 27:8 instructs that the altar shall be hollow with boards as it was shown on the mount.",
+          "verseReference": "Exodus 27:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-27-easy-q14",
+          "question": "True or False: The altar is to be made completely solid without any hollow parts.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Exodus 27:8 clearly states the altar is to be hollow with boards, contradicting the idea of it being solid.",
+          "verseReference": "Exodus 27:8",
           "difficulty": "easy"
         },
         {
           "id": "exodus-27-easy-q15",
-          "question": "Complete this from Exodus 27:19: 'All the vessels of the tabernacle in all the service thereof, and all the pins thereof, and all the pins of the court, shall be of ______.'",
-          "type": "fill-blank",
+          "question": "In Exodus 27, which instruction comes first?",
+          "type": "multiple-choice",
           "options": [
-            "brass",
-            "silver",
-            "gold",
-            "wood"
+            "Make the altar of shittim wood",
+            "Make the court hangings of fine twined linen",
+            "Command the children of Israel to bring pure olive oil",
+            "Make the gate hangings of blue, purple, scarlet, and fine linen"
           ],
-          "correctAnswer": "brass",
-          "explanation": "Exodus 27:19 clearly states that all the vessels, pins of the tabernacle and court, shall be of brass.",
-          "verseReference": "Exodus 27:19",
+          "correctAnswer": "Make the altar of shittim wood",
+          "explanation": "Exodus 27:1 begins with instructions to make the altar of shittim wood; other instructions come in later verses.",
+          "verseReference": "Exodus 27:1",
           "difficulty": "easy"
         }
       ],
@@ -254,238 +252,227 @@
       "questions": [
         {
           "id": "exodus-27-medium-q1",
-          "question": "A fellow believer is struggling with maintaining consistent devotion in prayer and worship. Based on Exodus 27, what biblical truth would you share about perseverance in spiritual disciplines?",
+          "question": "According to Exodus 27, how were the hangings of the court on the south side to be made?",
           "type": "multiple-choice",
           "options": [
-            "God commands a continual burning of the lamp with pure olive oil to symbolize persistent worship.",
-            "The altar must be made of gold to signify holy devotion.",
-            "Only priests may serve in the tabernacle, so others should wait.",
-            "The lamp should be lit only during special festivals."
+            "Of fine twined linen, one hundred cubits long",
+            "Of goat hair, fifty cubits long",
+            "Of scarlet and blue cloth, fifty cubits long",
+            "Of woven wool, seventy cubits long"
           ],
-          "correctAnswer": "God commands a continual burning of the lamp with pure olive oil to symbolize persistent worship.",
-          "explanation": "Exodus 27:20-21 instructs the children of Israel to bring pure olive oil for the lamp to burn continually, indicating God’s design for ongoing devotion and spiritual discipline. This teaches the importance of perseverance in prayer and worship.",
-          "verseReference": "Exodus 27:20-21",
+          "correctAnswer": "Of fine twined linen, one hundred cubits long",
+          "explanation": "Exodus 27:9 specifies that the hangings on the south side of the court were to be made of fine twined linen and measure one hundred cubits in length, emphasizing God's instruction for purity and beauty in the tabernacle's design.",
+          "verseReference": "Exodus 27:9",
           "difficulty": "medium"
         },
         {
           "id": "exodus-27-medium-q2",
-          "question": "How does the detailed instruction to make the altar with shittim wood and overlay brass (Exodus 27:1-2) teach us about honesty and integrity in our work?",
+          "question": "What materials were used for the pillars and sockets of the court hangings on the south side?",
           "type": "multiple-choice",
           "options": [
-            "Obedience to God’s exact commands shows integrity in fulfilling our responsibilities.",
-            "Using the cheapest materials is acceptable if it saves money.",
-            "Changing God’s design is allowed if it improves the altar’s appearance.",
-            "The altar can be made from any wood as long as it is big enough."
+            "Pillars and sockets of brass",
+            "Pillars and sockets of silver",
+            "Pillars and sockets of gold",
+            "Pillars and sockets of wood"
           ],
-          "correctAnswer": "Obedience to God’s exact commands shows integrity in fulfilling our responsibilities.",
-          "explanation": "Exodus 27:1-2 emphasizes precise materials and measurements, teaching us to honor God by faithfully and honestly following His instructions in our work, demonstrating integrity and stewardship.",
-          "verseReference": "Exodus 27:1-2",
+          "correctAnswer": "Pillars and sockets of brass",
+          "explanation": "Exodus 27:10 explains that the twenty pillars and their twenty sockets on the south side were made of brass, showing the use of durable metal in the tabernacle's boundaries, while hooks and fillets were silver.",
+          "verseReference": "Exodus 27:10",
           "difficulty": "medium"
         },
         {
           "id": "exodus-27-medium-q3",
-          "question": "A believer is discouraged by the difficulty of serving others in the church. What does the altar’s design with staves for carrying (Exodus 27:6-7) teach about humility and service?",
+          "question": "How does the description of the north side pillars and sockets compare to the south side in Exodus 27?",
           "type": "multiple-choice",
           "options": [
-            "Service requires humility, bearing burdens alongside others as the altar was carried.",
-            "Only leaders are responsible for service tasks.",
-            "Serving others should be done openly for recognition.",
-            "Carrying burdens is optional in church life."
+            "They are identical in length, number of pillars, and materials",
+            "They are half the length and have fewer pillars",
+            "They use gold instead of brass for sockets",
+            "They are longer and have more pillars"
           ],
-          "correctAnswer": "Service requires humility, bearing burdens alongside others as the altar was carried.",
-          "explanation": "Exodus 27:6-7 describes staves placed in rings to carry the altar, symbolizing the humble service and shared responsibility in the community, encouraging believers to serve with a willing and humble heart.",
-          "verseReference": "Exodus 27:6-7",
+          "correctAnswer": "They are identical in length, number of pillars, and materials",
+          "explanation": "Exodus 27:11 states that the north side has hangings one hundred cubits long, with twenty pillars and twenty brass sockets, identical to the south side, highlighting symmetry and order in the tabernacle's design.",
+          "verseReference": "Exodus 27:11",
           "difficulty": "medium"
         },
         {
           "id": "exodus-27-medium-q4",
-          "question": "How does the command to overlay the altar with brass (Exodus 27:2) encourage a mindset of contentment and gratitude in our spiritual life?",
+          "question": "What is the length of the court's hangings on the west side, and how many pillars are there?",
           "type": "multiple-choice",
           "options": [
-            "God values what is available and used faithfully more than extravagant offerings.",
-            "Only gold is acceptable in worship settings.",
-            "The appearance of worship items is more important than their purpose.",
-            "We should always seek to upgrade worship materials."
+            "Fifty cubits long with ten pillars",
+            "One hundred cubits long with twenty pillars",
+            "Seventy cubits long with fourteen pillars",
+            "Thirty cubits long with six pillars"
           ],
-          "correctAnswer": "God values what is available and used faithfully more than extravagant offerings.",
-          "explanation": "The use of brass, a common metal, in Exodus 27:2 teaches believers to be content and grateful for what God provides, focusing on faithful obedience rather than lavishness.",
-          "verseReference": "Exodus 27:2",
+          "correctAnswer": "Fifty cubits long with ten pillars",
+          "explanation": "Exodus 27:12 states the west side court hangings are fifty cubits in length with ten pillars and ten sockets, showing a shorter length compared to north and south sides but consistent structure.",
+          "verseReference": "Exodus 27:12",
           "difficulty": "medium"
         },
         {
           "id": "exodus-27-medium-q5",
-          "question": "A family is struggling to maintain peace amid conflict. Based on Exodus 27:17, what biblical truth can you share about maintaining unity and harmony?",
+          "question": "What is the breadth of the court on the east side, and how does it compare to the west side?",
           "type": "multiple-choice",
           "options": [
-            "The pillars of the court were filleted and hooked with silver, symbolizing strength and beauty in unity.",
-            "Each pillar was separate with no connection to others.",
-            "Only the outer court was important, not the inside.",
-            "The court had no visible support structures."
+            "Fifty cubits, same as the west side",
+            "One hundred cubits, twice as long as the west side",
+            "Seventy cubits, longer than the west side",
+            "Thirty cubits, shorter than the west side"
           ],
-          "correctAnswer": "The pillars of the court were filleted and hooked with silver, symbolizing strength and beauty in unity.",
-          "explanation": "Exodus 27:17 describes the pillars filleted with silver and their hooks also of silver, illustrating how strong and beautiful unity and support within the community should be, encouraging believers to pursue peace and harmony in families and church.",
-          "verseReference": "Exodus 27:17",
+          "correctAnswer": "Fifty cubits, same as the west side",
+          "explanation": "Exodus 27:13 states the east side breadth is fifty cubits, matching the west side’s length as given in verse 12, showing balance in the court’s dimensions.",
+          "verseReference": "Exodus 27:13",
           "difficulty": "medium"
         },
         {
           "id": "exodus-27-medium-q6",
-          "question": "How does the instruction to make the court hangings of fine twined linen (Exodus 27:9-11) relate to the virtue of purity in personal devotion?",
+          "question": "How many cubits long were the hangings on each side of the gate of the court?",
           "type": "multiple-choice",
           "options": [
-            "Fine linen symbolizes purity and holiness required in worship and personal life.",
-            "Coarse materials are acceptable for worship areas.",
-            "The court hangings were meant to be colorful and distracting.",
-            "The material was unimportant as long as it covered the area."
+            "Fifteen cubits",
+            "Twenty cubits",
+            "Ten cubits",
+            "Thirty cubits"
           ],
-          "correctAnswer": "Fine linen symbolizes purity and holiness required in worship and personal life.",
-          "explanation": "Exodus 27:9-11 specifies fine twined linen for the court hangings, symbolizing the importance of purity and holiness in both worship and the believer’s personal devotion.",
-          "verseReference": "Exodus 27:9-11",
+          "correctAnswer": "Fifteen cubits",
+          "explanation": "Exodus 27:14 describes the hangings on one side of the gate as fifteen cubits long with three pillars and sockets, showing specific detailed measurements for the entrance.",
+          "verseReference": "Exodus 27:14",
           "difficulty": "medium"
         },
         {
           "id": "exodus-27-medium-q7",
-          "question": "A believer feels weak in faith and trust. How does the precise obedience in building the tabernacle court (Exodus 27:8) encourage perseverance and trust in God’s plan?",
+          "question": "What were the materials and colors used for the gate hanging of the court?",
           "type": "multiple-choice",
           "options": [
-            "Following God’s detailed instructions builds trust and perseverance even when the task is difficult.",
-            "God allows improvisation when His instructions are unclear.",
-            "Trusting God means ignoring details and focusing on feelings.",
-            "Perseverance is only necessary for spiritual leaders."
+            "Blue, purple, scarlet, and fine twined linen with needlework",
+            "White linen with gold embroidery",
+            "Red wool with silver thread",
+            "Black goat hair with brass fittings"
           ],
-          "correctAnswer": "Following God’s detailed instructions builds trust and perseverance even when the task is difficult.",
-          "explanation": "Exodus 27:8 commands making the altar hollow with boards exactly as shown on the mount, teaching us to trust God’s plan and persevere in obedience despite challenges.",
-          "verseReference": "Exodus 27:8",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-27-medium-q8",
-          "question": "True or False: According to Exodus 27:19, all the vessels and pins of the tabernacle and court were made of gold to emphasize their holiness.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "False",
-          "explanation": "Exodus 27:19 states that all the vessels and pins were made of brass, not gold, teaching contentment and faithfulness with what God provided rather than extravagance.",
-          "verseReference": "Exodus 27:19",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-27-medium-q9",
-          "question": "True or False: The lamp in the tabernacle was to be kept burning from evening until morning, symbolizing continuous prayer and devotion (Exodus 27:21).",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Exodus 27:21 instructs Aaron and his sons to keep the lamp burning from evening to morning perpetually, symbolizing continuous devotion and spiritual discipline.",
-          "verseReference": "Exodus 27:21",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-27-medium-q10",
-          "question": "Fill in the blank: Exodus 27:16 describes the gate of the court as made with hangings of blue, purple, scarlet, and fine twined ______, wrought with needlework.",
-          "type": "fill-in-the-blank",
-          "options": [
-            "linen",
-            "cotton",
-            "wool",
-            "silk"
-          ],
-          "correctAnswer": "linen",
-          "explanation": "Exodus 27:16 specifically mentions fine twined linen for the gate’s hangings, symbolizing purity and careful craftsmanship in worship.",
+          "correctAnswer": "Blue, purple, scarlet, and fine twined linen with needlework",
+          "explanation": "Exodus 27:16 specifies the gate hanging was made of blue, purple, scarlet, and fine twined linen, wrought with needlework, reflecting beauty and holiness at the entrance.",
           "verseReference": "Exodus 27:16",
           "difficulty": "medium"
         },
         {
-          "id": "exodus-27-medium-q11",
-          "question": "How does the command to overlay the altar’s staves with brass (Exodus 27:6) teach about stewardship and faithfulness in small tasks?",
+          "id": "exodus-27-medium-q8",
+          "question": "What is the significance of the pillars being filleted with silver and having silver hooks around the court?",
           "type": "multiple-choice",
           "options": [
-            "Even small parts of God’s work require faithful and careful attention.",
-            "Staves could be left plain as they are not important.",
-            "Only the altar’s surface needed overlaying, not its supports.",
-            "Stewardship applies only to large ministries."
+            "They signify purity and strengthen the structure's unity",
+            "They make the pillars heavier for stability",
+            "They symbolize wealth rather than holiness",
+            "They are for decorative purposes only"
           ],
-          "correctAnswer": "Even small parts of God’s work require faithful and careful attention.",
-          "explanation": "Exodus 27:6 commands overlaying the staves with brass, emphasizing that faithful stewardship includes attention to even the less visible or smaller tasks in God’s service.",
-          "verseReference": "Exodus 27:6",
+          "correctAnswer": "They signify purity and strengthen the structure's unity",
+          "explanation": "Exodus 27:17 mentions all pillars were filleted with silver and had silver hooks, symbolizing purity and unity, reinforcing the sacred boundary of the court.",
+          "verseReference": "Exodus 27:17",
           "difficulty": "medium"
         },
         {
-          "id": "exodus-27-medium-q12",
-          "question": "A believer is learning about generosity and stewardship. What does the instruction to use brass for all the vessels and pins (Exodus 27:19) teach about wise use of resources?",
+          "id": "exodus-27-medium-q9",
+          "question": "What is the overall size of the tabernacle court as described in Exodus 27?",
           "type": "multiple-choice",
           "options": [
-            "Use what is sufficient and available wisely for God’s work rather than extravagance.",
-            "Always seek the most expensive materials for offerings.",
-            "Material quality is unimportant in worship.",
-            "Only precious metals should be used in God’s service."
+            "One hundred cubits long by fifty cubits wide, five cubits high",
+            "Fifty cubits long by twenty-five cubits wide, three cubits high",
+            "Seventy cubits long by thirty-five cubits wide, four cubits high",
+            "One hundred and fifty cubits long by seventy-five cubits wide, ten cubits high"
           ],
-          "correctAnswer": "Use what is sufficient and available wisely for God’s work rather than extravagance.",
-          "explanation": "Exodus 27:19 shows that brass, a common but durable metal, was used for vessels and pins, teaching wise stewardship and generosity with available resources.",
-          "verseReference": "Exodus 27:19",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-27-medium-q13",
-          "question": "How does the instruction for the gate pillars to have sockets of brass and hooks of silver (Exodus 27:10-11) teach about humility and appreciation in serving the community?",
-          "type": "multiple-choice",
-          "options": [
-            "Serving others requires both strength (brass) and beauty (silver), symbolizing humble and honorable service.",
-            "Only the strongest materials matter in service roles.",
-            "Hooks and sockets are unimportant details in service.",
-            "Service should seek personal glory."
-          ],
-          "correctAnswer": "Serving others requires both strength (brass) and beauty (silver), symbolizing humble and honorable service.",
-          "explanation": "Exodus 27:10-11’s use of brass and silver in pillars and hooks teaches that serving the community involves humble strength and honorable beauty, encouraging believers to serve faithfully.",
-          "verseReference": "Exodus 27:10-11",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-27-medium-q14",
-          "question": "How does the precise measurement of the tabernacle court (Exodus 27:18) relate to obedience and trust in God’s guidance in daily life?",
-          "type": "multiple-choice",
-          "options": [
-            "Obedience to God’s precise instructions demonstrates trust and respect for His plans.",
-            "Measurements can be adjusted based on convenience.",
-            "Trusting God means improvising as you go.",
-            "Exactness is unimportant in spiritual matters."
-          ],
-          "correctAnswer": "Obedience to God’s precise instructions demonstrates trust and respect for His plans.",
-          "explanation": "Exodus 27:18 specifies exact dimensions for the court, teaching believers the importance of obedience and trusting God’s detailed guidance in all aspects of life.",
+          "correctAnswer": "One hundred cubits long by fifty cubits wide, five cubits high",
+          "explanation": "Exodus 27:18 describes the court as 100 cubits in length, 50 cubits in breadth, and 5 cubits in height, emphasizing the grandeur and holiness of the worship space.",
           "verseReference": "Exodus 27:18",
           "difficulty": "medium"
         },
         {
-          "id": "exodus-27-medium-q15",
-          "question": "A believer wants to practice forgiveness and reconciliation in their church family. What principle can be drawn from the careful construction and maintenance of the altar and court in Exodus 27?",
+          "id": "exodus-27-medium-q10",
+          "question": "What does Exodus 27:19 teach about the materials used for all the vessels and pins of the tabernacle and court?",
           "type": "multiple-choice",
           "options": [
-            "Just as the altar and court were carefully maintained, relationships require intentional care and restoration.",
-            "Physical structures are more important than relationships.",
-            "Forgiveness is only necessary for major conflicts.",
-            "Reconciliation should be delayed until others apologize first."
+            "They shall be made of brass",
+            "They shall be made of silver",
+            "They shall be made of gold",
+            "They shall be made of wood"
           ],
-          "correctAnswer": "Just as the altar and court were carefully maintained, relationships require intentional care and restoration.",
-          "explanation": "The detailed care in Exodus 27 for the altar and court symbolizes the need for believers to intentionally maintain and restore relationships through forgiveness and reconciliation.",
-          "verseReference": "Exodus 27:1-7, 9-18",
+          "correctAnswer": "They shall be made of brass",
+          "explanation": "Exodus 27:19 directs that all vessels and pins of the tabernacle and court shall be brass, indicating durability and a consistent material theme.",
+          "verseReference": "Exodus 27:19",
           "difficulty": "medium"
         },
         {
-          "id": "exodus-27-medium-q16",
-          "question": "How does the command that Aaron and his sons order the lamp from evening to morning (Exodus 27:21) encourage believers facing trials to maintain spiritual disciplines?",
+          "id": "exodus-27-medium-q11",
+          "question": "According to Exodus 27, what command did God give regarding the oil for the light in the tabernacle?",
           "type": "multiple-choice",
           "options": [
-            "Spiritual disciplines provide continual light and hope through difficult times.",
-            "Spiritual disciplines are optional during trials.",
-            "Only leaders need to maintain spiritual practices during hardships.",
-            "God expects believers to rest from devotion during trials."
+            "Bring pure olive oil beaten for the light to burn always",
+            "Bring any oil available to keep the lamp lit",
+            "Use animal fat for the lamp",
+            "Use oil mixed with water"
           ],
-          "correctAnswer": "Spiritual disciplines provide continual light and hope through difficult times.",
-          "explanation": "Exodus 27:21 shows the lamp kept burning continuously, symbolizing how maintaining spiritual disciplines sustains believers through trials with God’s light and presence.",
+          "correctAnswer": "Bring pure olive oil beaten for the light to burn always",
+          "explanation": "Exodus 27:20 commands the children of Israel to bring pure beaten olive oil for lighting the lamp continually, symbolizing God’s presence and guidance.",
+          "verseReference": "Exodus 27:20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-27-medium-q12",
+          "question": "Who is responsible for ordering the lamp in the tabernacle from evening to morning according to Exodus 27?",
+          "type": "multiple-choice",
+          "options": [
+            "Aaron and his sons",
+            "Moses alone",
+            "The Levites",
+            "The elders of Israel"
+          ],
+          "correctAnswer": "Aaron and his sons",
+          "explanation": "Exodus 27:21 states that Aaron and his sons shall order the lamp from evening to morning before the LORD, establishing their priestly duties and continual worship.",
           "verseReference": "Exodus 27:21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-27-medium-q13",
+          "question": "How does Exodus 27:8 instruct the Israelites to build the altar, and what does this teach about obedience?",
+          "type": "multiple-choice",
+          "options": [
+            "Make it hollow with boards as shown on the mount, teaching precise obedience to God's instructions",
+            "Build it from stone without specific instructions, teaching flexibility",
+            "Make a simple altar without complex design, teaching humility",
+            "Use any wood available, teaching resourcefulness"
+          ],
+          "correctAnswer": "Make it hollow with boards as shown on the mount, teaching precise obedience to God's instructions",
+          "explanation": "Exodus 27:8 commands making the altar hollow with boards exactly as shown on the mount, underscoring the importance of faithful obedience to divine revelation.",
+          "verseReference": "Exodus 27:8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-27-medium-q14",
+          "question": "Context Question: What does Exodus 27:10 promise will happen if the Israelites follow the instruction in Exodus 27:9 to make the court hangings of fine twined linen with brass pillars?",
+          "type": "multiple-choice",
+          "options": [
+            "The court will be properly enclosed and sanctified, reflecting God's holiness",
+            "The court will be open and vulnerable",
+            "The hangings will deteriorate quickly",
+            "The court will be less visible to the people"
+          ],
+          "correctAnswer": "The court will be properly enclosed and sanctified, reflecting God's holiness",
+          "explanation": "Exodus 27:9 instructs making the court hangings of fine twined linen, and verse 10 specifies brass pillars and sockets, together ensuring the court is fully enclosed and set apart, symbolizing holiness and protection.",
+          "verseReference": "Exodus 27:10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-27-medium-q15",
+          "question": "Context Question: How does the description of the gate hangings in Exodus 27:16 relate to the surrounding pillars described in verses 14 and 15, and what does this teach about the importance of the entrance?",
+          "type": "multiple-choice",
+          "options": [
+            "The gate hangings are more elaborate and colorful, emphasizing the entrance's significance",
+            "The gate hangings are plain compared to the pillars, showing humility",
+            "The gate lacks pillars, indicating an open invitation",
+            "The gate is smaller than the side hangings, showing modesty"
+          ],
+          "correctAnswer": "The gate hangings are more elaborate and colorful, emphasizing the entrance's significance",
+          "explanation": "Verses 14 and 15 describe simple hangings and pillars beside the gate, while verse 16 highlights the gate's hanging made of blue, purple, scarlet, and fine linen with needlework, showing the gate’s special importance as the entry point to the holy court.",
+          "verseReference": "Exodus 27:16",
           "difficulty": "medium"
         }
       ],
@@ -499,7 +486,7 @@
         "bible-quiz",
         "medium"
       ],
-      "totalQuestions": 16,
+      "totalQuestions": 15,
       "estimatedTime": 12
     },
     "hard": {
@@ -512,225 +499,223 @@
       "questions": [
         {
           "id": "exodus-27-hard-q1",
-          "question": "What material is used to overlay the altar described in Exodus 27:1-2, and what might this symbolize in the broader biblical context?",
+          "question": "What colors were used in the hanging of the gate of the court?",
           "type": "multiple-choice",
           "options": [
-            "Gold, symbolizing divine purity",
-            "Brass, symbolizing judgment and strength",
-            "Silver, symbolizing redemption",
-            "Iron, symbolizing human labor"
+            "Blue, purple, scarlet, and fine twined linen",
+            "Red, gold, white, and blue",
+            "Purple, black, scarlet, and linen",
+            "Scarlet, gold, blue, and silk"
           ],
-          "correctAnswer": "Brass, symbolizing judgment and strength",
-          "explanation": "Exodus 27:2 states the altar shall be overlaid with brass. Brass (or bronze) in the Bible often symbolizes judgment and strength, as seen in other sacrificial contexts such as the bronze serpent in Numbers 21:9.",
-          "verseReference": "Exodus 27:2",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-27-hard-q2",
-          "question": "In Exodus 27:3, which of the following items is NOT mentioned as part of the altar's vessels to be made of brass?",
-          "type": "multiple-choice",
-          "options": [
-            "Pans to receive ashes",
-            "Shovels",
-            "Basins",
-            "Candlesticks"
-          ],
-          "correctAnswer": "Candlesticks",
-          "explanation": "Exodus 27:3 lists pans, shovels, basins, fleshhooks, and firepans as brass vessels; candlesticks are not mentioned here but appear elsewhere (Exodus 25).",
-          "verseReference": "Exodus 27:3",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-27-hard-q3",
-          "question": "What is the significance of the 'horns' on the four corners of the altar described in Exodus 27:2, considering ancient Near Eastern sacrificial practices?",
-          "type": "multiple-choice",
-          "options": [
-            "They symbolize the power of the altar as a place of refuge",
-            "They are purely decorative and hold no meaning",
-            "They represent the four directions of the earth",
-            "They are handles for moving the altar"
-          ],
-          "correctAnswer": "They symbolize the power of the altar as a place of refuge",
-          "explanation": "Exodus 27:2 commands making horns on the altar corners. Biblically, altar horns symbolize strength and a place of refuge for fugitives (1 Kings 1:50).",
-          "verseReference": "Exodus 27:2",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-27-hard-q4",
-          "question": "According to Exodus 27:4-5, what is the purpose of the net of brass with four brasen rings placed under the altar?",
-          "type": "multiple-choice",
-          "options": [
-            "To hold the fire for the sacrifices",
-            "To support the altar's weight",
-            "To catch ashes from the burnt offerings",
-            "To serve as decoration"
-          ],
-          "correctAnswer": "To catch ashes from the burnt offerings",
-          "explanation": "The net described in Exodus 27:4-5 is placed under the altar's compass to receive ashes, facilitating cleanliness and ritual purity.",
-          "verseReference": "Exodus 27:4-5",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-27-hard-q5",
-          "question": "Exodus 27:6-7 describe staves made of shittim wood and overlaid with brass for the altar. How does this design reflect the cultural practices of portable sanctuaries in the ancient Near East?",
-          "type": "multiple-choice",
-          "options": [
-            "It allowed the altar to be permanently fixed in one place",
-            "It enabled the altar to be carried during journeys",
-            "It was a symbolic gesture with no practical use",
-            "It was intended to display wealth"
-          ],
-          "correctAnswer": "It enabled the altar to be carried during journeys",
-          "explanation": "The staves inserted into rings (Exodus 27:6-7) allowed the altar to be portable, consistent with nomadic Israelite culture and similar to other ancient Near Eastern portable shrines.",
-          "verseReference": "Exodus 27:6-7",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-27-hard-q6",
-          "question": "What is the significance of the court's hangings made of fine twined linen described in Exodus 27:9-11, especially in relation to purity and separation?",
-          "type": "multiple-choice",
-          "options": [
-            "They represent the wealth of Israel",
-            "They symbolize the separation between holy and common areas",
-            "They were a practical shield against weather",
-            "They were used to display tribal symbols"
-          ],
-          "correctAnswer": "They symbolize the separation between holy and common areas",
-          "explanation": "The fine linen hangings (Exodus 27:9-11) marked the sacred boundary of the tabernacle court, symbolizing purity and separation from common space, a common theme in biblical holy place design.",
-          "verseReference": "Exodus 27:9-11",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-27-hard-q7",
-          "question": "In Exodus 27:16, the gate of the court is described as being made of blue, purple, scarlet, and fine twined linen, wrought with needlework. What might this color symbolism foreshadow in later biblical theology?",
-          "type": "multiple-choice",
-          "options": [
-            "The colors symbolize the tribes of Israel",
-            "They prefigure the royal priesthood and divine kingship",
-            "They represent earthly kingdoms",
-            "They symbolize agricultural fertility"
-          ],
-          "correctAnswer": "They prefigure the royal priesthood and divine kingship",
-          "explanation": "Blue, purple, and scarlet are royal colors in biblical tradition (Exodus 27:16), often associated with priestly garments and foreshadowing Christ's kingship and priesthood (Revelation 1:14).",
+          "correctAnswer": "Blue, purple, scarlet, and fine twined linen",
+          "explanation": "Exodus 27:16 states the gate hanging was made of blue, purple, scarlet, and fine twined linen, wrought with needlework.",
           "verseReference": "Exodus 27:16",
           "difficulty": "hard"
         },
         {
-          "id": "exodus-27-hard-q8",
-          "question": "What is the measurement of the court's length and breadth as given in Exodus 27:18, and how does this reflect ancient Near Eastern sacred space design?",
+          "id": "exodus-27-hard-q2",
+          "question": "How many pillars supported the hangings on the west side of the court?",
           "type": "multiple-choice",
           "options": [
-            "50 by 25 cubits, reflecting human scale",
-            "100 by 50 cubits, reflecting harmony and order",
-            "200 by 100 cubits, reflecting grandeur",
-            "75 by 40 cubits, reflecting compromise"
+            "Ten",
+            "Twenty",
+            "Four",
+            "Three"
           ],
-          "correctAnswer": "100 by 50 cubits, reflecting harmony and order",
-          "explanation": "Exodus 27:18 specifies the court as 100 cubits in length and 50 in breadth, reflecting a deliberate geometric order typical of sacred architecture in the ancient Near East emphasizing harmony.",
+          "correctAnswer": "Ten",
+          "explanation": "Exodus 27:12 specifies the west side had hangings fifty cubits long with ten pillars and ten sockets.",
+          "verseReference": "Exodus 27:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-27-hard-q3",
+          "question": "Which metal was used for all the vessels and pins of the tabernacle and court?",
+          "type": "multiple-choice",
+          "options": [
+            "Brass",
+            "Silver",
+            "Gold",
+            "Iron"
+          ],
+          "correctAnswer": "Brass",
+          "explanation": "Exodus 27:19 states all vessels and pins of the tabernacle and court were to be made of brass.",
+          "verseReference": "Exodus 27:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-27-hard-q4",
+          "question": "What was the command given to the children of Israel concerning the oil for the light?",
+          "type": "multiple-choice",
+          "options": [
+            "Bring pure beaten olive oil to keep the lamp burning always",
+            "Bring pressed grape oil to light the altar",
+            "Bring olive oil mixed with spices for incense",
+            "Bring oil from the first harvest only"
+          ],
+          "correctAnswer": "Bring pure beaten olive oil to keep the lamp burning always",
+          "explanation": "Exodus 27:20 commands Israel to bring pure beaten olive oil so the lamp would burn continually.",
+          "verseReference": "Exodus 27:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-27-hard-q5",
+          "question": "Who was responsible for ordering the light in the tabernacle from evening to morning?",
+          "type": "multiple-choice",
+          "options": [
+            "Aaron and his sons",
+            "Moses and Joshua",
+            "The Levites",
+            "The elders of Israel"
+          ],
+          "correctAnswer": "Aaron and his sons",
+          "explanation": "Exodus 27:21 instructs that Aaron and his sons were to manage the lamp before the LORD continually.",
+          "verseReference": "Exodus 27:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-27-hard-q6",
+          "question": "What was the height of the court hangings made of fine twined linen?",
+          "type": "multiple-choice",
+          "options": [
+            "Five cubits",
+            "Ten cubits",
+            "Twenty cubits",
+            "Fifteen cubits"
+          ],
+          "correctAnswer": "Five cubits",
+          "explanation": "Exodus 27:18 describes the court hangings as five cubits high, made of fine twined linen.",
           "verseReference": "Exodus 27:18",
           "difficulty": "hard"
         },
         {
+          "id": "exodus-27-hard-q7",
+          "question": "What materials were the pillars’ hooks and fillets made of around the court?",
+          "type": "multiple-choice",
+          "options": [
+            "Silver",
+            "Brass",
+            "Gold",
+            "Iron"
+          ],
+          "correctAnswer": "Silver",
+          "explanation": "Exodus 27:17 states that all the pillars had hooks of silver and were filleted with silver.",
+          "verseReference": "Exodus 27:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-27-hard-q8",
+          "question": "How many pillars and sockets supported the hangings on the south side of the court?",
+          "type": "multiple-choice",
+          "options": [
+            "Twenty pillars and twenty sockets",
+            "Ten pillars and ten sockets",
+            "Four pillars and four sockets",
+            "Three pillars and three sockets"
+          ],
+          "correctAnswer": "Twenty pillars and twenty sockets",
+          "explanation": "Exodus 27:9-10 specify the south side had hangings 100 cubits long with twenty pillars and their twenty sockets.",
+          "verseReference": "Exodus 27:9-10",
+          "difficulty": "hard"
+        },
+        {
           "id": "exodus-27-hard-q9",
-          "question": "True or False: According to Exodus 27:20-21, the lamp in the tabernacle was to be kept burning only during the daylight hours.",
+          "question": "True or False: The sockets of the pillars around the court were made of silver.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Exodus 27:20-21 commands that the lamp burns continually from evening to morning, symbolizing God's perpetual presence.",
-          "verseReference": "Exodus 27:20-21",
+          "explanation": "Exodus 27:17 clarifies the sockets were made of brass, not silver, though hooks and fillets were silver.",
+          "verseReference": "Exodus 27:17",
           "difficulty": "hard"
         },
         {
           "id": "exodus-27-hard-q10",
-          "question": "Which material is consistently used for all the pillars' sockets in the tabernacle court as described in Exodus 27:10-12 and 17?",
-          "type": "multiple-choice",
+          "question": "True or False: The altar was to be made of shittim wood and overlaid with brass.",
+          "type": "true-false",
           "options": [
-            "Silver",
-            "Gold",
-            "Brass",
-            "Iron"
+            "True",
+            "False"
           ],
-          "correctAnswer": "Brass",
-          "explanation": "Exodus 27:10-12 and 17 specify that all sockets of the pillars are made of brass, linking to the theme of judgment and durability.",
-          "verseReference": "Exodus 27:10",
+          "correctAnswer": "True",
+          "explanation": "Exodus 27:1-2 commands the altar to be made of shittim wood and overlaid with brass.",
+          "verseReference": "Exodus 27:1-2",
           "difficulty": "hard"
         },
         {
           "id": "exodus-27-hard-q11",
-          "question": "Considering the design of the altar and court in Exodus 27, how does the use of shittim wood (acacia) contribute to the theological symbolism of the tabernacle?",
+          "question": "Which verse in Exodus 27 is connected with the continual light commanded in Leviticus 24:2-4?",
           "type": "multiple-choice",
           "options": [
-            "Shittim wood was abundant and inexpensive",
-            "It symbolizes incorruptibility and divine protection",
-            "It was used for its aromatic qualities",
-            "It was chosen because it was easy to carve"
+            "Exodus 27:20",
+            "Exodus 27:8",
+            "Exodus 27:14",
+            "Exodus 27:3"
           ],
-          "correctAnswer": "It symbolizes incorruptibility and divine protection",
-          "explanation": "Shittim wood, used in Exodus 27:1 and 27:6 for the altar and staves, is known for durability and resistance to decay, symbolizing the eternal divine presence and protection.",
-          "verseReference": "Exodus 27:1",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-27-hard-q12",
-          "question": "How does the command in Exodus 27:20 to bring \"pure olive oil beaten for the light\" connect to the broader biblical theme of light as God's presence?",
-          "type": "multiple-choice",
-          "options": [
-            "It is a practical instruction with no symbolic meaning",
-            "It represents the Holy Spirit's anointing and illumination",
-            "It foreshadows the manna in the wilderness",
-            "It symbolizes the blood of sacrifice"
-          ],
-          "correctAnswer": "It represents the Holy Spirit's anointing and illumination",
-          "explanation": "The pure olive oil for the lamp (Exodus 27:20) symbolizes God’s illuminating presence, linking to later biblical images of light as divine guidance and the Holy Spirit (Psalm 27:1; John 8:12).",
+          "correctAnswer": "Exodus 27:20",
+          "explanation": "Exodus 27:20 commands pure olive oil for the lamp to burn continually, which is also instructed in Leviticus 24:2-4, revealing a continuity in ceremonial worship.",
           "verseReference": "Exodus 27:20",
           "difficulty": "hard"
         },
         {
-          "id": "exodus-27-hard-q13",
-          "question": "Which metals are used for the hooks and fillets of the pillars of the court as described in Exodus 27:10-11 and 17, and what might this dual-metal use indicate about the tabernacle's design?",
+          "id": "exodus-27-hard-q12",
+          "question": "What Hebrew word translated as 'shittim wood' refers to a durable acacia wood often used in the tabernacle's construction?",
           "type": "multiple-choice",
           "options": [
-            "Hooks of silver, sockets of brass; indicating a balance of purity and judgment",
-            "Hooks of gold, sockets of silver; indicating wealth",
-            "Hooks of iron, sockets of bronze; indicating strength",
-            "Hooks of brass, sockets of gold; indicating honor"
+            "Shittim",
+            "Acacia",
+            "Cedron",
+            "Lebanon"
           ],
-          "correctAnswer": "Hooks of silver, sockets of brass; indicating a balance of purity and judgment",
-          "explanation": "Exodus 27:10-11 and 17 describe hooks and fillets of silver and sockets of brass, reflecting a thematic balance between purity (silver) and judgment/durability (brass).",
-          "verseReference": "Exodus 27:10",
+          "correctAnswer": "Shittim",
+          "explanation": "The Hebrew word 'shittim' (Exodus 27:1,6) refers to acacia wood, known for its durability and was used extensively in tabernacle furniture.",
+          "verseReference": "Exodus 27:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-27-hard-q13",
+          "question": "The detailed description of the courtyard’s dimensions and materials serves as an example of which literary device commonly used in biblical construction narratives?",
+          "type": "multiple-choice",
+          "options": [
+            "Inclusio",
+            "Chiasm",
+            "Parallelism",
+            "Typology"
+          ],
+          "correctAnswer": "Inclusio",
+          "explanation": "The precise, repetitive framing of dimensions and materials in Exodus 27:9-19 creates an inclusio, framing the tabernacle court’s sacred space with a literary envelope.",
+          "verseReference": "Exodus 27:9-19",
           "difficulty": "hard"
         },
         {
           "id": "exodus-27-hard-q14",
-          "question": "Fill in the blank: Exodus 27:8 commands that the altar be made \"hollow with _______\" as shown on the mountain, emphasizing precise obedience to God's instructions.",
+          "question": "Which New Testament passage echoes the symbolism of the continual light in the tabernacle as a foreshadowing of Christ as the Light of the World?",
           "type": "multiple-choice",
           "options": [
-            "boards",
-            "stones",
-            "brass",
-            "gold"
+            "John 8:12",
+            "Hebrews 9:2",
+            "Revelation 21:23",
+            "Matthew 5:14"
           ],
-          "correctAnswer": "boards",
-          "explanation": "Exodus 27:8 specifies the altar be made hollow with boards, emphasizing the detailed instructions given to Moses on Mount Sinai.",
-          "verseReference": "Exodus 27:8",
+          "correctAnswer": "John 8:12",
+          "explanation": "John 8:12 where Jesus declares 'I am the light of the world' echoes Exodus 27:20's continual lamp as a typological foreshadowing of Christ's eternal light.",
+          "verseReference": "Exodus 27:20",
           "difficulty": "hard"
         },
         {
           "id": "exodus-27-hard-q15",
-          "question": "What theological significance does the continuous burning of the lamp in the tabernacle (Exodus 27:21) convey for Israel's relationship with God?",
+          "question": "What does the repeated use of brass (bronze) in the altar, vessels, and court settings symbolize in the context of Old Testament worship?",
           "type": "multiple-choice",
           "options": [
-            "It represents Israel's constant prayer",
-            "It signifies God’s enduring presence and covenant faithfulness",
-            "It is a symbol of agricultural fertility",
-            "It serves as a warning against idolatry"
+            "Judgment and purification",
+            "Wealth and royalty",
+            "Divine presence",
+            "Peace and prosperity"
           ],
-          "correctAnswer": "It signifies God’s enduring presence and covenant faithfulness",
-          "explanation": "The perpetual lamp (Exodus 27:21) symbolizes God's unceasing presence with Israel and faithfulness to the covenant, a theme developed throughout Scripture.",
-          "verseReference": "Exodus 27:21",
+          "correctAnswer": "Judgment and purification",
+          "explanation": "Brass (bronze) signified judgment and purification in the tabernacle, aligning with sacrificial themes, as seen in Exodus 27:2-3,19 and elsewhere (e.g., Numbers 21:9).",
+          "verseReference": "Exodus 27:2-3",
           "difficulty": "hard"
         }
       ],
@@ -757,227 +742,227 @@
       "questions": [
         {
           "id": "exodus-27-theological-q1",
-          "question": "What material was the altar in Exodus 27 commanded to be made from, and what does this symbolize in the context of Christ's mediation?",
+          "question": "What theological doctrine is primarily illustrated by the altar's horns being made on all four corners and overlaid with brass?",
           "type": "multiple-choice",
           "options": [
-            "Shittim wood, symbolizing Christ's humanity and strength",
-            "Gold, symbolizing Christ's divinity and kingship",
-            "Stone, symbolizing the eternal foundation of Christ",
-            "Silver, symbolizing redemption and atonement"
+            "God's justice and mercy providing refuge",
+            "The omnipresence of God",
+            "The incarnation of Christ",
+            "The unity of the Trinity"
           ],
-          "correctAnswer": "Shittim wood, symbolizing Christ's humanity and strength",
-          "explanation": "Exodus 27:1 commands the altar to be made of shittim wood, a durable and incorruptible wood. This symbolizes Christ's true humanity united with divine strength, consistent with Hebrews 4:15 (Christ was tempted but without sin), and John 1:14 (the Word became flesh). The altar's wood represents Christ's human nature, essential for mediation (1 Timothy 2:5).",
-          "verseReference": "Exodus 27:1",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-27-theological-q2",
-          "question": "Why were the horns of the altar made from the same material and covered with brass, and how does this relate to Christ's atoning work?",
-          "type": "multiple-choice",
-          "options": [
-            "To symbolize strength and judgment, reflecting Christ's righteous sacrifice",
-            "To signify purity and holiness, representing Christ's sinlessness",
-            "To show kingship and authority, indicating Christ as King",
-            "To indicate sacrifice and covenant, reflecting the Old Testament law"
-          ],
-          "correctAnswer": "To symbolize strength and judgment, reflecting Christ's righteous sacrifice",
-          "explanation": "Exodus 27:2 commands the altar's horns to be made of shittim wood and overlaid with brass. Brass often symbolizes judgment (1 Peter 1:7) and purification (Zechariah 13:9). The horns represent strength and refuge (1 Kings 1:50), pointing to Christ's atoning sacrifice that brings both judgment on sin and refuge for sinners (Romans 3:25).",
+          "correctAnswer": "God's justice and mercy providing refuge",
+          "explanation": "Exodus 27:2 describes the altar's horns on all four corners overlaid with brass, symbolizing a place of refuge and protection, illustrating God's justice and mercy. This typifies Christ as the refuge for sinners (Hebrews 6:18).",
           "verseReference": "Exodus 27:2",
           "difficulty": "hard"
         },
         {
-          "id": "exodus-27-theological-q3",
-          "question": "What is the significance of all the vessels associated with the altar being made of brass?",
+          "id": "exodus-27-theological-q2",
+          "question": "What attribute of God is demonstrated by the continual burning of the lamp with pure olive oil as commanded to the children of Israel?",
           "type": "multiple-choice",
           "options": [
-            "Brass represents judgment and purification, signifying Christ's sacrifice purifying sin",
-            "Brass symbolizes wealth and glory, reflecting God's kingdom",
-            "Brass indicates fragility, pointing to human weakness",
-            "Brass denotes kingship, symbolizing Christ's reign"
+            "God's holiness and perpetual presence",
+            "God's wrath and judgment",
+            "God's invisibility",
+            "God's omniscience"
           ],
-          "correctAnswer": "Brass represents judgment and purification, signifying Christ's sacrifice purifying sin",
-          "explanation": "Exodus 27:3 specifies all altar vessels to be brass, which biblically symbolizes judgment (Daniel 1:6-7) and purification (Zechariah 13:9). This aligns with Christ's role in bearing divine judgment to purify believers (1 John 1:7) and cleanse from sin through his sacrifice (Hebrews 9:14).",
-          "verseReference": "Exodus 27:3",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-27-theological-q4",
-          "question": "What theological significance can be drawn from the altar being hollow with boards as shown on the mount?",
-          "type": "multiple-choice",
-          "options": [
-            "It signifies Christ’s outward humanity containing divine holiness",
-            "It reflects the incompleteness of the Old Covenant",
-            "It represents the church as a hollow vessel",
-            "It shows the fragility of human efforts in salvation"
-          ],
-          "correctAnswer": "It signifies Christ’s outward humanity containing divine holiness",
-          "explanation": "Exodus 27:8 describes the altar as hollow with boards, indicating an outer shell enclosing the sacred. This prefigures Christ's humanity (outer form) encompassing divine holiness (Colossians 2:9). The altar’s construction symbolizes the Incarnation, where God's holiness dwells within human flesh (John 1:14).",
-          "verseReference": "Exodus 27:8",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-27-theological-q5",
-          "question": "How does the command for the pure olive oil to be brought for the lamp relate Christologically to the Holy Spirit?",
-          "type": "multiple-choice",
-          "options": [
-            "The pure olive oil represents the Holy Spirit who continually enlightens the church",
-            "The oil symbolizes anointing for kingship only",
-            "The oil points to the physical sustenance of the Israelites",
-            "The oil signifies the blood of Christ"
-          ],
-          "correctAnswer": "The pure olive oil represents the Holy Spirit who continually enlightens the church",
-          "explanation": "Exodus 27:20 commands pure olive oil for the lamp to burn continually, symbolizing the Holy Spirit’s unceasing presence and illumination (John 14:26, Acts 2:3-4). Olive oil in Scripture often represents the Spirit’s anointing and sustaining power (1 Samuel 16:13), affirming ongoing divine guidance and light for God's people (Ephesians 5:18).",
+          "correctAnswer": "God's holiness and perpetual presence",
+          "explanation": "Exodus 27:20 commands pure olive oil for the lamp to burn continually, symbolizing God's holiness and unceasing presence among His people, reflecting His eternal light (John 8:12).",
           "verseReference": "Exodus 27:20",
           "difficulty": "hard"
         },
         {
-          "id": "exodus-27-theological-q6",
-          "question": "What is the significance of Aaron and his sons ordering the lamp from evening to morning according to the statute forever?",
+          "id": "exodus-27-theological-q3",
+          "question": "How does Exodus 27:8's instruction 'Hollow with boards shalt thou make it' contribute to the typology of Christ in the altar's construction?",
           "type": "multiple-choice",
           "options": [
-            "It typifies Christ’s priestly intercession and the continual ministry of the Spirit",
-            "It symbolizes daily sacrifices only",
-            "It represents an Old Testament ritual without New Testament fulfillment",
-            "It refers to the physical maintenance of the tabernacle"
+            "It foreshadows Christ's body as the temple where God dwells",
+            "It represents the law being hollow and empty without grace",
+            "It symbolizes the emptiness of man without God",
+            "It depicts the separation between God and humanity"
           ],
-          "correctAnswer": "It typifies Christ’s priestly intercession and the continual ministry of the Spirit",
-          "explanation": "Exodus 27:21 establishes a perpetual statute for Aaron and his sons to keep the lamp burning, symbolizing continuous priestly intercession (Hebrews 7:25) and the Spirit’s ongoing ministry (Romans 8:26). This prefigures Christ as the eternal High Priest and the Spirit sustaining the Church’s worship and life (Revelation 4:5).",
+          "correctAnswer": "It foreshadows Christ's body as the temple where God dwells",
+          "explanation": "Exodus 27:8 commands the altar to be hollow, typifying the body of Christ as the temple of God (John 2:19-21), where God incarnate dwells among humanity.",
+          "verseReference": "Exodus 27:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-27-theological-q4",
+          "question": "What combined doctrinal teaching emerges from the construction of the altar's staves (Exodus 27:6-7) and the brass overlay on the altar (Exodus 27:2)?",
+          "type": "multiple-choice",
+          "options": [
+            "God's provision of strength and sanctification through Christ's sacrifice",
+            "The necessity of human works for salvation",
+            "The separation of priesthood and laity",
+            "The finality of the Mosaic covenant"
+          ],
+          "correctAnswer": "God's provision of strength and sanctification through Christ's sacrifice",
+          "explanation": "Exodus 27:2 and 27:6-7 show the altar overlaid with brass and supported by staves, symbolizing God's strength and sanctifying work through Christ's sacrifice, which carries the believer (Hebrews 13:10-12).",
+          "verseReference": "Exodus 27:2, Exodus 27:6-7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-27-theological-q5",
+          "question": "According to Exodus 27:9-11, what theological significance do the fine twined linen hangings and the silver hooks and fillets have in the court's construction?",
+          "type": "multiple-choice",
+          "options": [
+            "They symbolize the purity and preciousness of God's covenant community",
+            "They represent human fragility and sinfulness",
+            "They indicate the need for ritual cleansing",
+            "They point to the separation of nations"
+          ],
+          "correctAnswer": "They symbolize the purity and preciousness of God's covenant community",
+          "explanation": "Verses 9-11 describe fine twined linen and silver hooks, symbolizing the purity, holiness, and preciousness of God's covenant people (1 Corinthians 3:16-17).",
+          "verseReference": "Exodus 27:9-11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-27-theological-q6",
+          "question": "How does Exodus 27:21 reveal God's attribute of faithfulness in the service of the lamp in the tabernacle?",
+          "type": "multiple-choice",
+          "options": [
+            "By commanding the lamp to be kept burning continually as a statute forever",
+            "By allowing the lamp to be extinguished at will",
+            "By making the lamp optional for the priests",
+            "By delegating the service to Levites only"
+          ],
+          "correctAnswer": "By commanding the lamp to be kept burning continually as a statute forever",
+          "explanation": "Exodus 27:21 commands the lamp to burn from evening to morning as a perpetual statute, illustrating God's faithfulness and unchanging presence (Lamentations 3:22-23).",
           "verseReference": "Exodus 27:21",
           "difficulty": "hard"
         },
         {
           "id": "exodus-27-theological-q7",
-          "question": "The hangings of the tabernacle court were made of fine twined linen and measured in cubits. How does this reflect God's holiness and separation from sin?",
+          "question": "What narrative arc does the measurement of the court (Exodus 27:18) contribute to in the broader redemptive story of Scripture?",
           "type": "multiple-choice",
           "options": [
-            "Fine twined linen symbolizes purity and holiness, marking separation from sin",
-            "The linen represents human works for righteousness",
-            "The cubits symbolize human limitation",
-            "The hangings indicate casual access to God"
+            "God's orderly provision of a holy space for His dwelling among His people",
+            "The impermanence of the Mosaic covenant",
+            "The futility of human worship",
+            "The separation between God and Israel"
           ],
-          "correctAnswer": "Fine twined linen symbolizes purity and holiness, marking separation from sin",
-          "explanation": "Exodus 27:9-18 describes the court hangings made of fine twined linen, a biblical symbol of purity (Revelation 19:8) and holiness (Exodus 28:39). The enclosure denotes God's separation from sin and the sacredness of worship (Leviticus 20:26), foreshadowing Christ’s holy nature and the Church’s call to holiness (1 Peter 1:16).",
-          "verseReference": "Exodus 27:9",
+          "correctAnswer": "God's orderly provision of a holy space for His dwelling among His people",
+          "explanation": "Exodus 27:18 details the court's dimensions, reflecting God's orderly design in providing a holy space, prefiguring Christ as the true temple and God's dwelling with humanity (John 1:14).",
+          "verseReference": "Exodus 27:18",
           "difficulty": "hard"
         },
         {
           "id": "exodus-27-theological-q8",
-          "question": "What doctrinal truth is demonstrated by the altar’s dimensions being equal in length and breadth and a specified height?",
+          "question": "Sceptics claim that the detailed construction of the tabernacle court (Exodus 27:9-17) is merely ritualistic with no spiritual significance. What does Exodus 27:9-17 actually teach?",
           "type": "multiple-choice",
           "options": [
-            "The altar’s perfect proportions symbolize the completeness and perfection of Christ's atoning work",
-            "The dimensions indicate the altar’s physical strength only",
-            "The measurements are arbitrary and only for practical use",
-            "The altar’s size represents human effort in salvation"
+            "The court's design symbolizes God's holiness, order, and the inclusion of His people in covenant fellowship",
+            "The court is purely a human invention with no divine instruction",
+            "The court's materials show God's favoritism to wealthier tribes",
+            "The court's design was arbitrary and impractical"
           ],
-          "correctAnswer": "The altar’s perfect proportions symbolize the completeness and perfection of Christ's atoning work",
-          "explanation": "Exodus 27:1 specifies the altar to be five cubits long and broad and three cubits high, suggesting symmetry and completeness. This reflects the perfection and sufficiency of Christ’s sacrifice (Hebrews 10:14), who fully satisfies God’s justice and reconciles humanity (Romans 5:18).",
-          "verseReference": "Exodus 27:1",
+          "correctAnswer": "The court's design symbolizes God's holiness, order, and the inclusion of His people in covenant fellowship",
+          "explanation": "Exodus 27:9-17 details the court's precise measurements and materials, demonstrating God's holiness and order, and symbolizing covenantal inclusion, contrary to sceptical claims (1 Peter 2:9).",
+          "verseReference": "Exodus 27:9-17",
           "difficulty": "hard"
         },
         {
           "id": "exodus-27-theological-q9",
-          "question": "What does the overlaying of the altar and its staves with brass signify in terms of Christ’s mediatorial role?",
+          "question": "Which doctrine is taught through the requirement in Exodus 27:19 that all vessels and pins of the tabernacle and court be made of brass?",
           "type": "multiple-choice",
           "options": [
-            "Brass represents judgment and purification, showing Christ’s role in bearing divine judgment",
-            "Brass symbolizes weakness, showing Christ’s humility",
-            "Brass indicates wealth and earthly power",
-            "Brass is used for decoration only without symbolic meaning"
+            "The doctrine of separation and consecration for divine service",
+            "The doctrine of universal priesthood",
+            "The doctrine of salvation by works",
+            "The doctrine of the sovereignty of kings"
           ],
-          "correctAnswer": "Brass represents judgment and purification, showing Christ’s role in bearing divine judgment",
-          "explanation": "Exodus 27:2 and 27:6 describe overlaying the altar and staves with brass, a metal symbolizing judgment and refinement (1 Peter 1:7). This prefigures Christ bearing God's righteous judgment for sinners (Isaiah 53:5) and purifying them through his sacrifice (Hebrews 9:14).",
-          "verseReference": "Exodus 27:2",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-27-theological-q10",
-          "question": "How does the instruction that all pins of the tabernacle and court be made of brass contribute to the theological understanding of God’s covenant and presence?",
-          "type": "multiple-choice",
-          "options": [
-            "Brass pins symbolize strength and permanence of God’s covenant and presence",
-            "Brass pins indicate fragility in the covenant",
-            "Brass pins reflect human craftsmanship rather than divine authority",
-            "Brass pins are a symbol of judgment only"
-          ],
-          "correctAnswer": "Brass pins symbolize strength and permanence of God’s covenant and presence",
-          "explanation": "Exodus 27:19 states all pins of the tabernacle and court shall be brass, signifying durability and strength. This reflects the unbreakable and enduring nature of God’s covenant (Hebrews 13:20) and His steadfast presence among His people (Psalm 93:1).",
+          "correctAnswer": "The doctrine of separation and consecration for divine service",
+          "explanation": "Exodus 27:19 requires brass vessels and pins, symbolizing consecration and separation from common use, teaching the doctrine that God's service demands holiness (Leviticus 10:10).",
           "verseReference": "Exodus 27:19",
           "difficulty": "hard"
         },
         {
-          "id": "exodus-27-theological-q11",
-          "question": "What is the eschatological significance of the continual lamp burning before the LORD in the tabernacle?",
+          "id": "exodus-27-theological-q10",
+          "question": "What theological insight can be drawn by synthesizing the instructions for the altar's grate with four brass rings (Exodus 27:4) and the positioning beneath the altar (Exodus 27:5)?",
           "type": "multiple-choice",
           "options": [
-            "It foreshadows the eternal light of Christ and the perpetual presence of God in the new creation",
-            "It signifies only temporary light for the Israelites",
-            "It is merely a ceremonial requirement with no future significance",
-            "It represents the fading presence of God"
+            "God's provision for continual cleansing and mediation through Christ's sacrifice",
+            "The futility of ritual sacrifices",
+            "The separation of the Levites from the congregation",
+            "The impermanence of the tabernacle"
           ],
-          "correctAnswer": "It foreshadows the eternal light of Christ and the perpetual presence of God in the new creation",
-          "explanation": "Exodus 27:20-21 commands the lamp to burn continually as a statute. This anticipates Christ as the eternal Light (John 8:12) and the everlasting presence of God in the eschaton (Revelation 22:5), symbolizing unending communion and divine illumination.",
-          "verseReference": "Exodus 27:20",
+          "correctAnswer": "God's provision for continual cleansing and mediation through Christ's sacrifice",
+          "explanation": "Exodus 27:4-5 describe the grate with brass rings placed beneath the altar, symbolizing the ongoing cleansing of sin and mediation, fulfilled in Christ's atonement (Hebrews 9:11-12).",
+          "verseReference": "Exodus 27:4-5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-27-theological-q11",
+          "question": "How does the command in Exodus 27:20-21 concerning the lamp's continual burning typify Christ's role in salvation history?",
+          "type": "multiple-choice",
+          "options": [
+            "Christ as the eternal Light who sustains and illumines His people",
+            "Christ as a temporary guide",
+            "Christ as a hidden figure",
+            "Christ as a mere priest without divine nature"
+          ],
+          "correctAnswer": "Christ as the eternal Light who sustains and illumines His people",
+          "explanation": "Verses 20-21 command a continually burning lamp, typifying Christ as the eternal Light (John 8:12) who sustains and illuminates the believer's path in salvation.",
+          "verseReference": "Exodus 27:20-21",
           "difficulty": "hard"
         },
         {
           "id": "exodus-27-theological-q12",
-          "question": "What does the use of silver for hooks and fillets on the pillars teach about Christ’s mediatorial role?",
+          "question": "What attribute of God is highlighted by the detailed care given to the pillars, sockets, hooks, and fillets of the tabernacle court in Exodus 27:17?",
           "type": "multiple-choice",
           "options": [
-            "Silver symbolizes redemption, pointing to Christ’s work as Redeemer",
-            "Silver denotes judgment, highlighting Christ’s wrath",
-            "Silver is used here as a symbol of wealth only",
-            "Silver indicates human efforts in salvation"
+            "God's holiness and meticulousness in worship",
+            "God's wrath and judgment",
+            "God's transcendence and remoteness",
+            "God's impatience with ritual"
           ],
-          "correctAnswer": "Silver symbolizes redemption, pointing to Christ’s work as Redeemer",
-          "explanation": "Exodus 27:10-11 and 27:17 mention hooks and fillets of silver, a metal often associated with redemption (Leviticus 27:15). This typifies Christ’s redemptive work, paying the price for sinners (1 Peter 1:18-19) and mediating reconciliation (2 Corinthians 5:18).",
-          "verseReference": "Exodus 27:10",
+          "correctAnswer": "God's holiness and meticulousness in worship",
+          "explanation": "Exodus 27:17 shows the care for the court's pillars and fittings, reflecting God's holiness and the meticulous reverence He requires in worship (Psalm 99:5).",
+          "verseReference": "Exodus 27:17",
           "difficulty": "hard"
         },
         {
           "id": "exodus-27-theological-q13",
-          "question": "How does the detailed measurement and design of the tabernacle court emphasize God’s holiness and order in worship?",
+          "question": "What combined theological truth emerges from the altar's material composition (Exodus 27:2) and the lamp's pure olive oil (Exodus 27:20)?",
           "type": "multiple-choice",
           "options": [
-            "Precise measurements reflect God's perfect order and holiness to be honored in worship",
-            "The measurements show flexibility in worship practices",
-            "The design is primarily for aesthetic beauty only",
-            "The measurements suggest human dominion over God"
+            "The contrast between judgment (brass altar) and grace (pure oil light)",
+            "The irrelevance of materials in worship",
+            "The superiority of brass over gold",
+            "The necessity of ritual cleansing only"
           ],
-          "correctAnswer": "Precise measurements reflect God's perfect order and holiness to be honored in worship",
-          "explanation": "Exodus 27:9-18 provides exact measurements and materials for the court, emphasizing divine order and holiness (1 Corinthians 14:40). This prefigures the orderly worship God desires (Deuteronomy 12:5) and His holy presence requiring reverence (Leviticus 19:2).",
-          "verseReference": "Exodus 27:9",
+          "correctAnswer": "The contrast between judgment (brass altar) and grace (pure oil light)",
+          "explanation": "Exodus 27:2 and 27:20 together reveal a theological contrast where the brass altar symbolizes judgment and sacrifice, while the pure olive oil for the lamp symbolizes grace and divine illumination (Isaiah 42:6-7).",
+          "verseReference": "Exodus 27:2, Exodus 27:20",
           "difficulty": "hard"
         },
         {
           "id": "exodus-27-theological-q14",
-          "question": "In the context of systematic theology, what does the continual lighting of the lamp teach about God’s covenant faithfulness and presence among His people?",
+          "question": "What does the 'fine twined linen' used in the court hangings (Exodus 27:9, 16) signify about God's covenant with His people?",
           "type": "multiple-choice",
           "options": [
-            "It teaches that God’s presence and covenant are ongoing and unfailing",
-            "It indicates that God’s presence is temporary and conditional",
-            "It relates only to ceremonial law without covenant implications",
-            "It suggests God's presence is dependent on human effort"
+            "The purity and righteousness required in the covenant relationship",
+            "The wealth and status of Israel",
+            "The fragility of the covenant",
+            "The temporary nature of God's promises"
           ],
-          "correctAnswer": "It teaches that God’s presence and covenant are ongoing and unfailing",
-          "explanation": "Exodus 27:21 establishes the lamp as a perpetual statute, symbolizing God's unwavering covenant faithfulness and continual presence (Psalm 89:34, Hebrews 13:5). This teaches that God does not abandon His people but remains with them eternally (Matthew 28:20).",
-          "verseReference": "Exodus 27:21",
+          "correctAnswer": "The purity and righteousness required in the covenant relationship",
+          "explanation": "The fine twined linen in Exodus 27:9 and 16 symbolizes the purity and righteousness God demands from His covenant people (Revelation 19:8).",
+          "verseReference": "Exodus 27:9, Exodus 27:16",
           "difficulty": "hard"
         },
         {
           "id": "exodus-27-theological-q15",
-          "question": "How does the altar’s specified height of three cubits contribute to understanding Christ’s mediatorial role between God and humanity?",
+          "question": "How does the instruction for the altar's pans, shovels, basons, fleshhooks, and firepans all to be made of brass (Exodus 27:3) reflect the doctrine of sanctification?",
           "type": "multiple-choice",
           "options": [
-            "The height signifies Christ’s exalted position as mediator standing between God and man",
-            "The height is merely practical for altar use",
-            "The height represents human limitations in approaching God",
-            "The height symbolizes divine transcendence alone"
+            "It teaches the necessity of holiness and separation in all aspects of worship",
+            "It implies that only metal tools are acceptable to God",
+            "It emphasizes the physical strength of brass",
+            "It shows the insignificance of ritual details"
           ],
-          "correctAnswer": "The height signifies Christ’s exalted position as mediator standing between God and man",
-          "explanation": "Exodus 27:1 specifies the altar height as three cubits, symbolizing Christ’s role as mediator bridging the gap between God and humanity (1 Timothy 2:5). The altar’s stature points to His exalted priestly office (Hebrews 7:26) enabling access to God (Hebrews 10:19-22).",
-          "verseReference": "Exodus 27:1",
+          "correctAnswer": "It teaches the necessity of holiness and separation in all aspects of worship",
+          "explanation": "Exodus 27:3 requires all altar utensils to be brass, symbolizing that every part of worship must be holy and set apart, reflecting sanctification (1 Thessalonians 4:3-4).",
+          "verseReference": "Exodus 27:3",
           "difficulty": "hard"
         }
       ],

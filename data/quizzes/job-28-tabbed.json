@@ -13,28 +13,28 @@
       "questions": [
         {
           "id": "job-28-easy-q1",
-          "question": "According to Job 28:1, what is found where they fine silver?",
+          "question": "In Job 28, which of the following appears FIRST in the chapter?",
           "type": "multiple-choice",
           "options": [
-            "A vein for the silver",
-            "A river of gold",
-            "A mountain of iron",
-            "A valley of jewels"
+            "Surely there is a vein for the silver, and a place for gold where they fine it.",
+            "Iron is taken out of the earth, and brass is molten out of the stone.",
+            "There is a path which no fowl knoweth, and which the vulture's eye hath not seen:",
+            "He cutteth out rivers among the rocks; and his eye seeth every precious thing."
           ],
-          "correctAnswer": "A vein for the silver",
-          "explanation": "Job 28:1 mentions that there is 'a vein for the silver' where they find it.",
+          "correctAnswer": "Surely there is a vein for the silver, and a place for gold where they fine it.",
+          "explanation": "Job 28:1 is the first verse and mentions the vein for silver and place for gold before the other events.",
           "verseReference": "Job 28:1",
           "difficulty": "easy"
         },
         {
           "id": "job-28-easy-q2",
-          "question": "What is taken out of the earth as mentioned in Job 28:2?",
+          "question": "According to Job 28:2, what is taken out of the earth?",
           "type": "multiple-choice",
           "options": [
             "Iron",
             "Gold",
             "Silver",
-            "Copper"
+            "Sapphires"
           ],
           "correctAnswer": "Iron",
           "explanation": "Job 28:2 states that iron is taken out of the earth.",
@@ -43,191 +43,189 @@
         },
         {
           "id": "job-28-easy-q3",
-          "question": "True or False: Job 28:4 says the waters forgotten of the foot are dried up and gone away from men.",
+          "question": "What does Job 28:3 say is 'the stones of darkness'?",
+          "type": "multiple-choice",
+          "options": [
+            "The stones searched out for perfection",
+            "The stones found in the shadow of death",
+            "The stones where iron is taken",
+            "The stones that contain dust of gold"
+          ],
+          "correctAnswer": "The stones found in the shadow of death",
+          "explanation": "Job 28:3 says He searcheth out all perfection: the stones of darkness, and the shadow of death.",
+          "verseReference": "Job 28:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-28-easy-q4",
+          "question": "According to Job 28:4, what happens to the waters that are forgotten of the foot?",
+          "type": "multiple-choice",
+          "options": [
+            "They are dried up",
+            "They flood over the earth",
+            "They become rivers",
+            "They turn to dust"
+          ],
+          "correctAnswer": "They are dried up",
+          "explanation": "Job 28:4 states the waters forgotten of the foot are dried up and gone away from men.",
+          "verseReference": "Job 28:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-28-easy-q5",
+          "question": "What comes out of the earth, as mentioned in Job 28:5?",
+          "type": "multiple-choice",
+          "options": [
+            "Bread",
+            "Gold",
+            "Iron",
+            "Rivers"
+          ],
+          "correctAnswer": "Bread",
+          "explanation": "Job 28:5 states, 'As for the earth, out of it cometh bread.'",
+          "verseReference": "Job 28:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-28-easy-q6",
+          "question": "According to Job 28:6, what are the stones of the earth the place of?",
+          "type": "multiple-choice",
+          "options": [
+            "Sapphires",
+            "Iron",
+            "Silver",
+            "Brass"
+          ],
+          "correctAnswer": "Sapphires",
+          "explanation": "Job 28:6 says the stones of it are the place of sapphires.",
+          "verseReference": "Job 28:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-28-easy-q7",
+          "question": "In Job 28:7, which bird's eye is mentioned as not having seen a certain path?",
+          "type": "multiple-choice",
+          "options": [
+            "Vulture",
+            "Eagle",
+            "Owl",
+            "Dove"
+          ],
+          "correctAnswer": "Vulture",
+          "explanation": "Job 28:7 mentions a path which the vulture's eye hath not seen.",
+          "verseReference": "Job 28:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-28-easy-q8",
+          "question": "Who have not trodden the path mentioned in Job 28:8?",
+          "type": "multiple-choice",
+          "options": [
+            "The lion's whelps",
+            "The eagles",
+            "The oxen",
+            "The camels"
+          ],
+          "correctAnswer": "The lion's whelps",
+          "explanation": "Job 28:8 says the lion's whelps have not trodden it.",
+          "verseReference": "Job 28:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-28-easy-q9",
+          "question": "What does 'He' do to the mountains in Job 28:9?",
+          "type": "multiple-choice",
+          "options": [
+            "He overturneth them by the roots",
+            "He covers them with snow",
+            "He plants trees on them",
+            "He builds cities on them"
+          ],
+          "correctAnswer": "He overturneth them by the roots",
+          "explanation": "Job 28:9 says He overturneth the mountains by the roots.",
+          "verseReference": "Job 28:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-28-easy-q10",
+          "question": "According to Job 28:10, what is cut out among the rocks?",
+          "type": "multiple-choice",
+          "options": [
+            "Rivers",
+            "Veins of silver",
+            "Paths for birds",
+            "Caves"
+          ],
+          "correctAnswer": "Rivers",
+          "explanation": "Job 28:10 says He cutteth out rivers among the rocks.",
+          "verseReference": "Job 28:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-28-easy-q11",
+          "question": "What does Job 28:1 say is the place for gold?",
+          "type": "multiple-choice",
+          "options": [
+            "Where they fine it",
+            "Where the lion's whelps have trodden",
+            "Where the fowl knoweth",
+            "Where the vulture's eye hath seen"
+          ],
+          "correctAnswer": "Where they fine it",
+          "explanation": "Job 28:1 states there is a place for gold where they fine it.",
+          "verseReference": "Job 28:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-28-easy-q12",
+          "question": "True or False: According to Job 28:6, the earth hath dust of gold.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Job 28:4 clearly says that the waters forgotten of the foot are dried up and gone away from men.",
-          "verseReference": "Job 28:4",
-          "difficulty": "easy"
-        },
-        {
-          "id": "job-28-easy-q4",
-          "question": "According to Job 28:6, what precious stone is found among the stones of the earth?",
-          "type": "multiple-choice",
-          "options": [
-            "Sapphires",
-            "Diamonds",
-            "Emeralds",
-            "Rubies"
-          ],
-          "correctAnswer": "Sapphires",
-          "explanation": "Job 28:6 mentions that the stones of the earth are the place of sapphires.",
+          "explanation": "Job 28:6 says, 'and it hath dust of gold.'",
           "verseReference": "Job 28:6",
           "difficulty": "easy"
         },
         {
-          "id": "job-28-easy-q5",
-          "question": "Who has not trodden the path mentioned in Job 28:8?",
-          "type": "multiple-choice",
+          "id": "job-28-easy-q13",
+          "question": "True or False: Job 28:7 describes a path unknown to fowls and unseen by the vulture's eye.",
+          "type": "true-false",
           "options": [
-            "The lion's whelps",
-            "The eagle",
-            "The serpent",
-            "The ox"
+            "True",
+            "False"
           ],
-          "correctAnswer": "The lion's whelps",
-          "explanation": "Job 28:8 states that the lion's whelps have not trodden the path.",
-          "verseReference": "Job 28:8",
+          "correctAnswer": "True",
+          "explanation": "Job 28:7 states, 'There is a path which no fowl knoweth, and which the vulture's eye hath not seen.'",
+          "verseReference": "Job 28:7",
           "difficulty": "easy"
         },
         {
-          "id": "job-28-easy-q6",
-          "question": "What does Job 28:10 say is cut out among the rocks?",
-          "type": "multiple-choice",
-          "options": [
-            "Rivers",
-            "Caves",
-            "Gold veins",
-            "Paths"
-          ],
-          "correctAnswer": "Rivers",
-          "explanation": "Job 28:10 states that he cutteth out rivers among the rocks.",
-          "verseReference": "Job 28:10",
-          "difficulty": "easy"
-        },
-        {
-          "id": "job-28-easy-q7",
-          "question": "Where does Job 28:12 ask wisdom can be found?",
-          "type": "multiple-choice",
-          "options": [
-            "Where shall wisdom be found?",
-            "Where is the place of understanding?",
-            "Where are the treasures of the earth?",
-            "Where is the gold of Ophir?"
-          ],
-          "correctAnswer": "Where shall wisdom be found?",
-          "explanation": "Job 28:12 asks the question 'But where shall wisdom be found?'.",
-          "verseReference": "Job 28:12",
-          "difficulty": "easy"
-        },
-        {
-          "id": "job-28-easy-q8",
-          "question": "True or False: Job 28:15 says wisdom can be gotten for gold.",
+          "id": "job-28-easy-q14",
+          "question": "True or False: Job 28:3 says that brass is molten out of the stone.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Job 28:15 says it cannot be gotten for gold, nor silver be weighed for its price.",
-          "verseReference": "Job 28:15",
+          "explanation": "Job 28:3 discusses searching out perfection and stones of darkness, but brass molten from stone is in Job 28:2.",
+          "verseReference": "Job 28:3",
           "difficulty": "easy"
         },
         {
-          "id": "job-28-easy-q9",
-          "question": "Which precious gems does Job 28:16 mention cannot equal wisdom?",
-          "type": "multiple-choice",
-          "options": [
-            "Gold of Ophir, precious onyx, sapphire",
-            "Diamonds, emeralds, rubies",
-            "Pearls, coral, topaz",
-            "Silver, brass, iron"
-          ],
-          "correctAnswer": "Gold of Ophir, precious onyx, sapphire",
-          "explanation": "Job 28:16 states wisdom cannot be valued with the gold of Ophir, precious onyx, or sapphire.",
-          "verseReference": "Job 28:16",
-          "difficulty": "easy"
-        },
-        {
-          "id": "job-28-easy-q10",
-          "question": "Complete the verse from Job 28:18: 'No mention shall be made of coral, or of pearls: for the price of wisdom is above ________.'",
-          "type": "fill-blank",
-          "options": [
-            "rubies",
-            "gold",
-            "sapphires",
-            "silver"
-          ],
-          "correctAnswer": "rubies",
-          "explanation": "Job 28:18 declares that the price of wisdom is above rubies.",
-          "verseReference": "Job 28:18",
-          "difficulty": "easy"
-        },
-        {
-          "id": "job-28-easy-q11",
-          "question": "According to Job 28:20, who is wisdom hidden from?",
-          "type": "multiple-choice",
-          "options": [
-            "The eyes of all living",
-            "The kings of the earth",
-            "The angels in heaven",
-            "The birds of the forest"
-          ],
-          "correctAnswer": "The eyes of all living",
-          "explanation": "Job 28:20 says wisdom is hid from the eyes of all living.",
-          "verseReference": "Job 28:20",
-          "difficulty": "easy"
-        },
-        {
-          "id": "job-28-easy-q12",
-          "question": "Who, according to Job 28:22, says they have heard the fame of wisdom?",
-          "type": "multiple-choice",
-          "options": [
-            "Destruction and death",
-            "The angels",
-            "The wise men",
-            "The mountains"
-          ],
-          "correctAnswer": "Destruction and death",
-          "explanation": "Job 28:22 says destruction and death say, 'We have heard the fame thereof with our ears.'",
-          "verseReference": "Job 28:22",
-          "difficulty": "easy"
-        },
-        {
-          "id": "job-28-easy-q13",
-          "question": "True or False: Job 28:23 says God understands the way of wisdom and knows its place.",
+          "id": "job-28-easy-q15",
+          "question": "True or False: Job 28:5 indicates that precious stones are found on the earth's surface.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
-          "correctAnswer": "True",
-          "explanation": "Job 28:23 clearly states that God understandeth the way thereof and knoweth the place thereof.",
-          "verseReference": "Job 28:23",
-          "difficulty": "easy"
-        },
-        {
-          "id": "job-28-easy-q14",
-          "question": "What does God weigh by measure according to Job 28:25?",
-          "type": "multiple-choice",
-          "options": [
-            "The waters",
-            "The winds",
-            "The stones",
-            "The mountains"
-          ],
-          "correctAnswer": "The waters",
-          "explanation": "Job 28:25 says God weighs the waters by measure.",
-          "verseReference": "Job 28:25",
-          "difficulty": "easy"
-        },
-        {
-          "id": "job-28-easy-q15",
-          "question": "According to Job 28:28, what is called wisdom?",
-          "type": "multiple-choice",
-          "options": [
-            "The fear of the Lord",
-            "Riches and honor",
-            "Strength and courage",
-            "Knowledge of the earth"
-          ],
-          "correctAnswer": "The fear of the Lord",
-          "explanation": "Job 28:28 says, 'Behold, the fear of the Lord, that is wisdom.'",
-          "verseReference": "Job 28:28",
+          "correctAnswer": "False",
+          "explanation": "Job 28:5 mentions bread coming out of the earth and fire turned under it, not precious stones on the surface.",
+          "verseReference": "Job 28:5",
           "difficulty": "easy"
         }
       ],
@@ -254,223 +252,223 @@
       "questions": [
         {
           "id": "job-28-medium-q1",
-          "question": "A fellow believer is feeling anxious about finding wisdom to face daily challenges. Based on Job 28, what biblical truth would you share about where true wisdom comes from?",
+          "question": "According to Job 28:11, what does God do with the floods?",
           "type": "multiple-choice",
           "options": [
-            "Wisdom is hidden and known only by God.",
-            "Wisdom can be bought with gold and silver.",
-            "Wisdom is found in the riches of the earth.",
-            "Wisdom is easily found by human effort."
+            "He bindeth the floods from overflowing",
+            "He lets the floods overflow",
+            "He ignores the floods",
+            "He makes the floods dry"
           ],
-          "correctAnswer": "Wisdom is hidden and known only by God.",
-          "explanation": "Job 28:23-24 teaches that God understands the way to wisdom and sees all things, indicating that true wisdom is known only to Him. Verses 12-14 also affirm that man does not know wisdom's place and it cannot be found in the land of the living.",
-          "verseReference": "Job 28:23",
+          "correctAnswer": "He bindeth the floods from overflowing",
+          "explanation": "Job 28:11 states that God 'bindeth the floods from overflowing,' indicating His control over natural forces.",
+          "verseReference": "Job 28:11",
           "difficulty": "medium"
         },
         {
           "id": "job-28-medium-q2",
-          "question": "How does Job 28 emphasize the value of wisdom compared to material wealth?",
+          "question": "What does Job 28:12 promise will happen if someone seeks wisdom, as urged in Job 28:11?",
           "type": "multiple-choice",
           "options": [
-            "Wisdom is more precious than gold and jewels.",
-            "Wisdom can be exchanged for coral and pearls.",
-            "Wisdom is less valuable than precious stones.",
-            "Wisdom's value is equal to gold from Ophir."
+            "They will find the place of understanding",
+            "They will be wealthy",
+            "They will control the floods",
+            "They will gain power over kings"
           ],
-          "correctAnswer": "Wisdom is more precious than gold and jewels.",
-          "explanation": "Verses 15-19 describe how wisdom cannot be bought with gold, silver, or precious stones, and its price is above rubies and topaz, highlighting its supreme value over material wealth.",
-          "verseReference": "Job 28:15",
+          "correctAnswer": "They will find the place of understanding",
+          "explanation": "Job 28:12 asks about the place of understanding, building on Job 28:11's revelation that God reveals hidden things, implying wisdom and understanding can be found through God.",
+          "verseReference": "Job 28:12",
           "difficulty": "medium"
         },
         {
           "id": "job-28-medium-q3",
-          "question": "A Christian is struggling with understanding why wisdom seems so elusive. Based on Job 28, what would you say about the human ability to find wisdom by themselves?",
+          "question": "According to Job 28:15, what cannot be used to obtain wisdom?",
           "type": "multiple-choice",
           "options": [
-            "Man cannot find wisdom by searching on his own.",
-            "Man easily discovers wisdom in the land of the living.",
-            "Man finds wisdom by following the path of the lion.",
-            "Man gains wisdom from the depths of the sea."
+            "Gold or silver",
+            "Iron or brass",
+            "Coral or pearls",
+            "Topaz or sapphire"
           ],
-          "correctAnswer": "Man cannot find wisdom by searching on his own.",
-          "explanation": "Job 28:12-14 states that man does not know the price or place of wisdom, and it is not found in the land of the living or the depths, indicating human inability to discover wisdom alone.",
-          "verseReference": "Job 28:13",
-          "difficulty": "medium"
-        },
-        {
-          "id": "job-28-medium-q4",
-          "question": "According to Job 28, what practical Christian virtue is taught by understanding the 'fear of the Lord'?",
-          "type": "multiple-choice",
-          "options": [
-            "Wisdom and departing from evil.",
-            "Accruing wealth through honest work.",
-            "Mastering natural elements like wind and rain.",
-            "Discovering hidden treasures in the earth."
-          ],
-          "correctAnswer": "Wisdom and departing from evil.",
-          "explanation": "Verse 28 clearly states that fearing the Lord is wisdom and departing from evil is understanding, connecting reverence for God with moral living.",
-          "verseReference": "Job 28:28",
-          "difficulty": "medium"
-        },
-        {
-          "id": "job-28-medium-q5",
-          "question": "A believer is discouraged about their work and integrity in daily life. How does Job 28 describe God's control over creation that can encourage perseverance and trust in His sovereignty?",
-          "type": "multiple-choice",
-          "options": [
-            "God weighs the waters and makes decrees for rain and lightning.",
-            "God entrusts all natural processes to human management.",
-            "God hides wisdom so no one can find it.",
-            "God only cares for precious stones and metals."
-          ],
-          "correctAnswer": "God weighs the waters and makes decrees for rain and lightning.",
-          "explanation": "Verses 24-27 describe God's sovereign control over all creation, including measuring winds and waters and commanding rain and lightning, reminding believers of His power and care.",
-          "verseReference": "Job 28:24",
-          "difficulty": "medium"
-        },
-        {
-          "id": "job-28-medium-q6",
-          "question": "True or False: Job 28 teaches that wisdom can be purchased with the finest jewels and precious metals.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "False",
-          "explanation": "Verses 15-19 clearly state that wisdom cannot be bought with gold, silver, or jewels, showing it is priceless and beyond material purchase.",
+          "correctAnswer": "Gold or silver",
+          "explanation": "Job 28:15 clearly states that wisdom 'cannot be gotten for gold, neither shall silver be weighed for the price thereof.'",
           "verseReference": "Job 28:15",
           "difficulty": "medium"
         },
         {
-          "id": "job-28-medium-q7",
-          "question": "How does Job 28 portray the search for wisdom in relation to natural phenomena like darkness and death?",
+          "id": "job-28-medium-q4",
+          "question": "How do Job 28:13 and Job 28:14 together describe the ability of man and nature to find wisdom?",
           "type": "multiple-choice",
           "options": [
-            "Wisdom is hidden even in the stones of darkness and the shadow of death.",
-            "Wisdom is found by exploring the depths of darkness and death.",
-            "Darkness and death reveal all human understanding.",
-            "Wisdom controls darkness and death."
+            "Man and the depths of the earth and sea cannot find wisdom",
+            "Only man can find wisdom, but not the sea",
+            "The sea has wisdom but man does not",
+            "Man and nature both easily find wisdom"
           ],
-          "correctAnswer": "Wisdom is hidden even in the stones of darkness and the shadow of death.",
-          "explanation": "Verse 3 mentions searching out all perfection including 'stones of darkness' and 'shadow of death,' indicating wisdom is not found even in these mysterious places.",
-          "verseReference": "Job 28:3",
+          "correctAnswer": "Man and the depths of the earth and sea cannot find wisdom",
+          "explanation": "Job 28:13 says man knoweth not the price of wisdom, and Job 28:14 shows that both the depth and the sea say it is not with them, indicating neither man nor nature can find wisdom on their own.",
+          "verseReference": "Job 28:13-14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-28-medium-q5",
+          "question": "Why is the price of wisdom considered higher than precious jewels according to Job 28:18?",
+          "type": "multiple-choice",
+          "options": [
+            "Because wisdom is more valuable than rubies",
+            "Because rubies are common",
+            "Because wisdom is easy to obtain",
+            "Because jewels are worthless"
+          ],
+          "correctAnswer": "Because wisdom is more valuable than rubies",
+          "explanation": "Job 28:18 states 'the price of wisdom is above rubies,' emphasizing wisdom’s supreme value over precious gems.",
+          "verseReference": "Job 28:18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-28-medium-q6",
+          "question": "According to Job 28:16, which of the following is NOT used to value wisdom?",
+          "type": "multiple-choice",
+          "options": [
+            "The gold of Ophir",
+            "Precious onyx",
+            "Sapphire",
+            "Iron and brass"
+          ],
+          "correctAnswer": "Iron and brass",
+          "explanation": "Job 28:16 mentions gold, onyx, and sapphire in relation to wisdom’s value, but iron and brass are not mentioned in this context.",
+          "verseReference": "Job 28:16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-28-medium-q7",
+          "question": "What practical lesson can Christians learn from Job 28:20 about the source of wisdom?",
+          "type": "multiple-choice",
+          "options": [
+            "That they should seek wisdom from God rather than worldly treasures",
+            "That wisdom is found in earthly riches",
+            "That wisdom is found through human effort alone",
+            "That wisdom is irrelevant to faith"
+          ],
+          "correctAnswer": "That they should seek wisdom from God rather than worldly treasures",
+          "explanation": "Job 28:20 asks 'Whence then cometh wisdom? and where is the place of understanding?' pointing to the idea that wisdom comes from beyond human or material sources, encouraging reliance on God.",
+          "verseReference": "Job 28:20",
           "difficulty": "medium"
         },
         {
           "id": "job-28-medium-q8",
-          "question": "A believer is tempted to rely on their own understanding rather than God. According to Job 28, what should they learn about the source of understanding?",
+          "question": "How does Job 28:17 emphasize the incomparable value of wisdom compared to gold and jewels?",
           "type": "multiple-choice",
           "options": [
-            "Understanding comes from fearing the Lord and departing from evil.",
-            "Understanding is found by human searching deep in the earth.",
-            "Understanding is equal to the value of precious gems.",
-            "Understanding is obtained by mastering nature."
+            "The gold and crystal cannot equal it, nor jewels of fine gold",
+            "Gold and jewels are more valuable than wisdom",
+            "Wisdom can be bought with jewels",
+            "Wisdom is less valuable than precious stones"
           ],
-          "correctAnswer": "Understanding comes from fearing the Lord and departing from evil.",
-          "explanation": "Verse 28 links fear of the Lord and turning away from evil with true wisdom and understanding, emphasizing reliance on God rather than self.",
-          "verseReference": "Job 28:28",
+          "correctAnswer": "The gold and crystal cannot equal it, nor jewels of fine gold",
+          "explanation": "Job 28:17 says 'The gold and the crystal cannot equal it: and the exchange of it shall not be for jewels of fine gold,' showing wisdom's higher value.",
+          "verseReference": "Job 28:17",
           "difficulty": "medium"
         },
         {
           "id": "job-28-medium-q9",
-          "question": "Fill in the blank: 'And unto man he said, Behold, the ______ of the Lord, that is wisdom; and to depart from evil is understanding.'",
-          "type": "fill-blank",
+          "question": "What does Job 28:19 indicate about the value of the topaz of Ethiopia compared to wisdom?",
+          "type": "multiple-choice",
           "options": [
-            "fear",
-            "love",
-            "knowledge",
-            "power"
+            "Topaz does not equal wisdom in value",
+            "Topaz is more valuable than wisdom",
+            "Topaz is equal to wisdom",
+            "Topaz is irrelevant to wisdom"
           ],
-          "correctAnswer": "fear",
-          "explanation": "Verse 28 teaches that fearing the Lord is the essence of wisdom, highlighting the importance of reverence in the Christian life.",
-          "verseReference": "Job 28:28",
+          "correctAnswer": "Topaz does not equal wisdom in value",
+          "explanation": "Job 28:19 states 'The topaz of Ethiopia shall not equal it,' confirming that even valuable stones cannot match wisdom.",
+          "verseReference": "Job 28:19",
           "difficulty": "medium"
         },
         {
           "id": "job-28-medium-q10",
-          "question": "True or False: Job 28 describes how God reveals hidden things and brings them to light.",
+          "question": "In light of Job 28:12 and Job 28:20, what is the significance of understanding the source of wisdom for believers?",
+          "type": "multiple-choice",
+          "options": [
+            "It guides believers to seek wisdom from God, not from earthly things",
+            "It encourages reliance on human knowledge alone",
+            "It suggests wisdom is hidden and unreachable",
+            "It promotes gaining wisdom through wealth"
+          ],
+          "correctAnswer": "It guides believers to seek wisdom from God, not from earthly things",
+          "explanation": "Both verses question where wisdom is found, implying believers must recognize its divine source, promoting faith and dependence on God.",
+          "verseReference": "Job 28:12,20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-28-medium-q11",
+          "question": "According to Job 28:11 and Job 28:10 (earlier verse), what does God's control over nature teach us about His wisdom?",
+          "type": "multiple-choice",
+          "options": [
+            "That God's wisdom governs creation and reveals hidden things",
+            "That nature is chaotic and uncontrolled",
+            "That humans have ultimate control over nature",
+            "That wisdom is unrelated to God's power"
+          ],
+          "correctAnswer": "That God's wisdom governs creation and reveals hidden things",
+          "explanation": "Job 28:11 mentions God binding floods and Job 28:10 describes God's eye seeing precious things, illustrating His sovereign wisdom over creation.",
+          "verseReference": "Job 28:11,10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-28-medium-q12",
+          "question": "What practical application can Christians draw from the fact that wisdom cannot be bought with gold or precious stones, as per verses Job 28:15-19?",
+          "type": "multiple-choice",
+          "options": [
+            "True wisdom transcends material wealth and must be sought spiritually",
+            "Wisdom can be acquired by accumulating wealth",
+            "Material riches are the best source of wisdom",
+            "Wisdom is irrelevant to spiritual life"
+          ],
+          "correctAnswer": "True wisdom transcends material wealth and must be sought spiritually",
+          "explanation": "These verses emphasize wisdom's value beyond material wealth, encouraging believers to seek it through faith and spiritual means.",
+          "verseReference": "Job 28:15-19",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-28-medium-q13",
+          "question": "How can Job 28:13's statement that 'Man knoweth not the price thereof' encourage humility in Christian living?",
+          "type": "multiple-choice",
+          "options": [
+            "By reminding believers that wisdom's true value is beyond human understanding",
+            "By encouraging pride in human knowledge",
+            "By promoting reliance on human wisdom alone",
+            "By suggesting wisdom is worthless"
+          ],
+          "correctAnswer": "By reminding believers that wisdom's true value is beyond human understanding",
+          "explanation": "Job 28:13 reminds us that humans undervalue wisdom, fostering humility and dependence on God's revelation.",
+          "verseReference": "Job 28:13",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-28-medium-q14",
+          "question": "True or False: Job 28:18 says that the price of wisdom is above rubies.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Verse 11 states that God binds floods and brings hidden things to light, illustrating His role in revealing what is concealed.",
-          "verseReference": "Job 28:11",
-          "difficulty": "medium"
-        },
-        {
-          "id": "job-28-medium-q11",
-          "question": "How does Job 28 teach us about humility in the pursuit of wisdom?",
-          "type": "multiple-choice",
-          "options": [
-            "Man does not know the price or place of wisdom, showing human limitations.",
-            "Man can easily find wisdom through personal effort.",
-            "Man gains wisdom by accumulating wealth.",
-            "Man is the master of hidden things in the earth."
-          ],
-          "correctAnswer": "Man does not know the price or place of wisdom, showing human limitations.",
-          "explanation": "Verses 12-14 emphasize that human beings do not know where wisdom is found or its value, teaching humility in seeking divine wisdom.",
-          "verseReference": "Job 28:13",
-          "difficulty": "medium"
-        },
-        {
-          "id": "job-28-medium-q12",
-          "question": "In relation to work ethic and integrity, what does Job 28 say about God's involvement in the formation of natural resources like rivers and mountains?",
-          "type": "multiple-choice",
-          "options": [
-            "God cuts out rivers among rocks and overturns mountains by the roots.",
-            "God leaves natural resources to chance.",
-            "God only cares about precious stones, not natural formations.",
-            "Men create rivers by their own skill."
-          ],
-          "correctAnswer": "God cuts out rivers among rocks and overturns mountains by the roots.",
-          "explanation": "Verses 9-10 describe God's active role in shaping the earth’s features, showing His power and care in creation, encouraging integrity in our stewardship.",
-          "verseReference": "Job 28:9",
-          "difficulty": "medium"
-        },
-        {
-          "id": "job-28-medium-q13",
-          "question": "What lesson about spiritual discipline can a believer learn from the fact that there is 'a path which no fowl knoweth' in Job 28?",
-          "type": "multiple-choice",
-          "options": [
-            "Some truths and wisdom are hidden and require faith to pursue.",
-            "All wisdom is easily accessible to everyone.",
-            "Birds are symbols of wisdom.",
-            "Paths hidden from animals are useless."
-          ],
-          "correctAnswer": "Some truths and wisdom are hidden and require faith to pursue.",
-          "explanation": "Verses 7-8 describe a path unknown to birds or lions, symbolizing hidden wisdom that requires perseverance and faith to seek.",
-          "verseReference": "Job 28:7",
-          "difficulty": "medium"
-        },
-        {
-          "id": "job-28-medium-q14",
-          "question": "According to Job 28, how should believers respond to the fear of the Lord in daily life?",
-          "type": "multiple-choice",
-          "options": [
-            "By seeking wisdom and turning away from evil.",
-            "By accumulating wealth and precious stones.",
-            "By exploring the depths of the sea.",
-            "By ignoring God's decrees."
-          ],
-          "correctAnswer": "By seeking wisdom and turning away from evil.",
-          "explanation": "Verse 28 instructs that fearing the Lord is wisdom and departing from evil is understanding, guiding believers in moral and spiritual discipline.",
-          "verseReference": "Job 28:28",
+          "explanation": "Job 28:18 explicitly states that 'the price of wisdom is above rubies,' confirming the correct answer.",
+          "verseReference": "Job 28:18",
           "difficulty": "medium"
         },
         {
           "id": "job-28-medium-q15",
-          "question": "How does Job 28 encourage believers to trust God’s sovereign plan during trials and uncertainties?",
-          "type": "multiple-choice",
+          "question": "True or False: According to Job 28:14, the sea claims that wisdom is found within it.",
+          "type": "true-false",
           "options": [
-            "God sees to the ends of the earth and controls natural forces.",
-            "God hides wisdom so no one can understand.",
-            "God only cares for precious metals and stones.",
-            "God ignores the affairs of men."
+            "True",
+            "False"
           ],
-          "correctAnswer": "God sees to the ends of the earth and controls natural forces.",
-          "explanation": "Verses 24-26 show God's comprehensive knowledge and authority over creation, encouraging believers to trust His plan amid difficulties.",
-          "verseReference": "Job 28:24",
+          "correctAnswer": "False",
+          "explanation": "Job 28:14 says 'the sea saith, It is not with me,' indicating the sea does not possess wisdom.",
+          "verseReference": "Job 28:14",
           "difficulty": "medium"
         }
       ],
@@ -497,225 +495,223 @@
       "questions": [
         {
           "id": "job-28-hard-q1",
-          "question": "In Job 28, what natural resource is described as being taken out of the earth and molten out of stone, illustrating ancient metallurgical processes?",
+          "question": "What is said to be hid from the eyes of all living, according to Job 28:21?",
           "type": "multiple-choice",
           "options": [
-            "Iron and brass",
-            "Gold and silver",
-            "Copper and tin",
-            "Lead and zinc"
+            "Wisdom",
+            "Gold",
+            "Understanding",
+            "Power"
           ],
-          "correctAnswer": "Iron and brass",
-          "explanation": "Job 28:2 states, 'Iron is taken out of the earth, and brass is molten out of the stone,' describing ancient metal extraction methods.",
-          "verseReference": "Job 28:2",
+          "correctAnswer": "Wisdom",
+          "explanation": "Job 28:21 states that wisdom is hid from the eyes of all living, indicating its elusive nature.",
+          "verseReference": "Job 28:21",
           "difficulty": "hard"
         },
         {
           "id": "job-28-hard-q2",
-          "question": "What literary device is primarily used in Job 28:7-8 where the path is described as unknown to birds and lions, emphasizing the secretive nature of mining?",
+          "question": "According to Job 28:22, what do destruction and death say they have heard?",
           "type": "multiple-choice",
           "options": [
-            "Hyperbole",
-            "Parallelism",
-            "Chiasm",
-            "Metaphor"
+            "The fame of wisdom",
+            "The voice of God",
+            "The cries of the righteous",
+            "The sound of thunder"
           ],
-          "correctAnswer": "Parallelism",
-          "explanation": "The verses use parallelism by repeating similar ideas about creatures not knowing the path, common in Hebrew poetry to emphasize secrecy (Job 28:7-8).",
-          "verseReference": "Job 28:7",
+          "correctAnswer": "The fame of wisdom",
+          "explanation": "Job 28:22 mentions that destruction and death have heard the fame of wisdom, emphasizing its significance.",
+          "verseReference": "Job 28:22",
           "difficulty": "hard"
         },
         {
           "id": "job-28-hard-q3",
-          "question": "According to Job 28, what is the value of wisdom compared to precious materials?",
+          "question": "Who understands the way of wisdom, as stated in Job 28:23?",
           "type": "multiple-choice",
           "options": [
-            "More valuable than rubies",
-            "Equal to gold",
-            "Less than onyx",
-            "Priceless but less than sapphires"
+            "Man",
+            "Angels",
+            "God",
+            "Demons"
           ],
-          "correctAnswer": "More valuable than rubies",
-          "explanation": "Job 28:18 explicitly states that 'the price of wisdom is above rubies,' highlighting its supreme value.",
-          "verseReference": "Job 28:18",
-          "difficulty": "hard"
-        },
-        {
-          "id": "job-28-hard-q4",
-          "question": "Fill in the blank: 'The depth saith, It is not in me: and the sea saith, It is not ________.'",
-          "type": "multiple-choice",
-          "options": [
-            "with me",
-            "above me",
-            "beneath me",
-            "around me"
-          ],
-          "correctAnswer": "with me",
-          "explanation": "Job 28:14 states, 'The depth saith, It is not in me: and the sea saith, It is not with me,' indicating that wisdom is not found in these domains.",
-          "verseReference": "Job 28:14",
-          "difficulty": "hard"
-        },
-        {
-          "id": "job-28-hard-q5",
-          "question": "What does Job 28:23 reveal about God's relationship to wisdom?",
-          "type": "multiple-choice",
-          "options": [
-            "God understands and knows its place",
-            "God is searching for wisdom",
-            "God is unaware of wisdom",
-            "God created wisdom for man"
-          ],
-          "correctAnswer": "God understands and knows its place",
-          "explanation": "Verse 23 declares, 'God understandeth the way thereof, and he knoweth the place thereof,' showing divine omniscience about wisdom.",
+          "correctAnswer": "God",
+          "explanation": "Job 28:23 reveals that God understandeth the way of wisdom, indicating His omniscience.",
           "verseReference": "Job 28:23",
           "difficulty": "hard"
         },
         {
-          "id": "job-28-hard-q6",
-          "question": "According to Job 28, which of the following is NOT used as a comparison to the value of wisdom?",
+          "id": "job-28-hard-q4",
+          "question": "What does God see according to Job 28:24?",
           "type": "multiple-choice",
           "options": [
-            "Coral",
-            "Pearls",
-            "Gold of Ophir",
-            "Frankincense"
+            "The ends of the earth",
+            "The hearts of men",
+            "The depths of the sea",
+            "The future of nations"
           ],
-          "correctAnswer": "Frankincense",
-          "explanation": "Job 28 mentions coral, pearls, and gold of Ophir as lesser in value than wisdom but does not mention frankincense (Job 28:15-19).",
-          "verseReference": "Job 28:18",
+          "correctAnswer": "The ends of the earth",
+          "explanation": "Job 28:24 states that God looketh to the ends of the earth, showing His comprehensive sight.",
+          "verseReference": "Job 28:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-28-hard-q5",
+          "question": "What does God weigh according to Job 28:25?",
+          "type": "multiple-choice",
+          "options": [
+            "The winds",
+            "The hearts of men",
+            "The waters",
+            "The mountains"
+          ],
+          "correctAnswer": "The winds",
+          "explanation": "Job 28:25 mentions that God makes the weight for the winds, illustrating His control over nature.",
+          "verseReference": "Job 28:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-28-hard-q6",
+          "question": "What does Job 28:28 say is the fear of the Lord?",
+          "type": "multiple-choice",
+          "options": [
+            "Is wisdom",
+            "Is knowledge",
+            "Is power",
+            "Is wealth"
+          ],
+          "correctAnswer": "Is wisdom",
+          "explanation": "Job 28:28 states that the fear of the Lord is wisdom, highlighting the importance of reverence for God.",
+          "verseReference": "Job 28:28",
           "difficulty": "hard"
         },
         {
           "id": "job-28-hard-q7",
-          "question": "Which theme in Job 28 foreshadows the wisdom literature's emphasis on the 'fear of the Lord' as foundational to understanding?",
+          "question": "What does the Hebrew word 'חָכְמָה' (chokmah) in Job 28:28 mean?",
           "type": "multiple-choice",
           "options": [
-            "The unattainability of wisdom by human effort",
-            "The power of natural elements",
-            "The value of precious metals",
-            "The mystery of death"
+            "Foolishness",
+            "Wisdom",
+            "Wealth",
+            "Strength"
           ],
-          "correctAnswer": "The unattainability of wisdom by human effort",
-          "explanation": "Verses 12-20 emphasize human inability to find wisdom by searching natural resources alone, foreshadowing the conclusion in verse 28 about fearing the Lord as true wisdom.",
-          "verseReference": "Job 28:12-20",
+          "correctAnswer": "Wisdom",
+          "explanation": "The Hebrew word 'חָכְמָה' (chokmah) translates to wisdom, aligning with the theme of Job 28.",
+          "verseReference": "Job 28:28",
           "difficulty": "hard"
         },
         {
           "id": "job-28-hard-q8",
-          "question": "True or False: Job 28 describes that the flood and waters, forgotten of the foot, are dried up and gone away from men.",
+          "question": "Which literary device is used in Job 28:28 when contrasting wisdom and understanding?",
+          "type": "multiple-choice",
+          "options": [
+            "Metaphor",
+            "Chiasm",
+            "Parallelism",
+            "Alliteration"
+          ],
+          "correctAnswer": "Parallelism",
+          "explanation": "Job 28:28 employs parallelism by contrasting 'the fear of the Lord' with 'to depart from evil'.",
+          "verseReference": "Job 28:28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-28-hard-q9",
+          "question": "Which other Bible passage connects to the theme of wisdom found in Job 28:28?",
+          "type": "multiple-choice",
+          "options": [
+            "Proverbs 1:7",
+            "Ecclesiastes 7:12",
+            "James 1:5",
+            "Proverbs 3:13"
+          ],
+          "correctAnswer": "Proverbs 1:7",
+          "explanation": "Proverbs 1:7 states that the fear of the Lord is the beginning of knowledge, paralleling Job 28:28's theme on wisdom.",
+          "verseReference": "Job 28:28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-28-hard-q10",
+          "question": "Which other passage emphasizes God's understanding of the earth's ways, similar to Job 28:23?",
+          "type": "multiple-choice",
+          "options": [
+            "Isaiah 40:28",
+            "Psalm 147:5",
+            "Romans 11:33",
+            "Proverbs 2:6"
+          ],
+          "correctAnswer": "Isaiah 40:28",
+          "explanation": "Isaiah 40:28 speaks of God's everlasting strength and understanding, echoing Job 28:23's affirmation of God's wisdom.",
+          "verseReference": "Job 28:23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-28-hard-q11",
+          "question": "What comes before Job 28:21?",
+          "type": "multiple-choice",
+          "options": [
+            "Job 28:20",
+            "Job 28:22",
+            "Job 28:19",
+            "Job 28:18"
+          ],
+          "correctAnswer": "Job 28:20",
+          "explanation": "Job 28:20 precedes Job 28:21 and poses the question about the origin of wisdom.",
+          "verseReference": "Job 28:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-28-hard-q12",
+          "question": "In Job 28:15, what is stated about wisdom's value?",
+          "type": "multiple-choice",
+          "options": [
+            "It cannot be bought with gold",
+            "It is more valuable than jewels",
+            "It is sought after by kings",
+            "It is easily found"
+          ],
+          "correctAnswer": "It cannot be bought with gold",
+          "explanation": "Job 28:15 indicates that wisdom cannot be obtained for gold, emphasizing its incomparable value.",
+          "verseReference": "Job 28:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-28-hard-q13",
+          "question": "Job 28:11 mentions that God brings forth what thing to light?",
+          "type": "multiple-choice",
+          "options": [
+            "Wisdom",
+            "Understanding",
+            "The hidden",
+            "The righteous"
+          ],
+          "correctAnswer": "The hidden",
+          "explanation": "Job 28:11 states that God brings forth the thing that is hid to light, referring to wisdom and understanding.",
+          "verseReference": "Job 28:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-28-hard-q14",
+          "question": "True or False: Wisdom is easily understood and readily available according to Job 28.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Job 28 emphasizes the hidden nature of wisdom and its difficulty to attain, especially in Job 28:12.",
+          "verseReference": "Job 28:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-28-hard-q15",
+          "question": "True or False: Job 28 suggests that God has complete knowledge of wisdom's paths.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Job 28:4 states, 'The flood breaketh out from the inhabitant; even the waters forgotten of the foot: they are dried up, they are gone away from men,' confirming the statement.",
-          "verseReference": "Job 28:4",
-          "difficulty": "hard"
-        },
-        {
-          "id": "job-28-hard-q9",
-          "question": "How does Job 28:25-26 illustrate the ancient Near Eastern worldview of cosmic order?",
-          "type": "multiple-choice",
-          "options": [
-            "God weighs the winds and waters and controls rain and thunder",
-            "The earth is flat and rests on pillars",
-            "The sun and moon govern the seasons",
-            "Humans control the weather through rituals"
-          ],
-          "correctAnswer": "God weighs the winds and waters and controls rain and thunder",
-          "explanation": "The verses describe God making weights for winds and measuring waters, decreeing rain and lightning, reflecting divine control over nature typical in ancient Near Eastern thought.",
-          "verseReference": "Job 28:25-26",
-          "difficulty": "hard"
-        },
-        {
-          "id": "job-28-hard-q10",
-          "question": "What is the significance of the phrase 'stones of darkness' and 'shadow of death' in Job 28:3 within the chapter's context?",
-          "type": "multiple-choice",
-          "options": [
-            "They symbolize the hidden and dangerous places where minerals are found",
-            "They refer to literal stones used in burial rituals",
-            "They denote a place of evil spirits",
-            "They are metaphors for ignorance"
-          ],
-          "correctAnswer": "They symbolize the hidden and dangerous places where minerals are found",
-          "explanation": "Verse 3 mentions 'stones of darkness' and 'shadow of death' as places searched out for perfection, indicating deep, dark, dangerous mining locations.",
-          "verseReference": "Job 28:3",
-          "difficulty": "hard"
-        },
-        {
-          "id": "job-28-hard-q11",
-          "question": "According to the chapter, who has heard the fame of wisdom, as mentioned in Job 28:22?",
-          "type": "multiple-choice",
-          "options": [
-            "Destruction and death",
-            "The angels",
-            "Kings and prophets",
-            "Birds of the air"
-          ],
-          "correctAnswer": "Destruction and death",
-          "explanation": "Job 28:22 states, 'Destruction and death say, We have heard the fame thereof with our ears,' personifying these forces as aware of wisdom's renown.",
-          "verseReference": "Job 28:22",
-          "difficulty": "hard"
-        },
-        {
-          "id": "job-28-hard-q12",
-          "question": "What does the phrase 'Behold, the fear of the Lord, that is wisdom; and to depart from evil is understanding' (Job 28:28) imply about the nature of wisdom in biblical theology?",
-          "type": "multiple-choice",
-          "options": [
-            "True wisdom is reverence for God and moral living",
-            "Wisdom is intellectual knowledge only",
-            "Wisdom is acquiring wealth",
-            "Wisdom is power over nature"
-          ],
-          "correctAnswer": "True wisdom is reverence for God and moral living",
-          "explanation": "Verse 28 summarizes the chapter by stating that fearing God and shunning evil constitute true wisdom and understanding, a core biblical principle.",
-          "verseReference": "Job 28:28",
-          "difficulty": "hard"
-        },
-        {
-          "id": "job-28-hard-q13",
-          "question": "In Job 28:10-11, what is the significance of 'He cutteth out rivers among the rocks; and his eye seeth every precious thing' in terms of divine providence?",
-          "type": "multiple-choice",
-          "options": [
-            "It illustrates God's active role in revealing hidden treasures",
-            "It describes human mining technology",
-            "It refers to natural river formation",
-            "It symbolizes the flow of knowledge"
-          ],
-          "correctAnswer": "It illustrates God's active role in revealing hidden treasures",
-          "explanation": "The verses depict God as the one who uncovers precious things by cutting rivers through rocks, emphasizing divine providence over nature and wealth.",
-          "verseReference": "Job 28:10-11",
-          "difficulty": "hard"
-        },
-        {
-          "id": "job-28-hard-q14",
-          "question": "Which precious stones are explicitly mentioned in Job 28 as comparisons to wisdom's value?",
-          "type": "multiple-choice",
-          "options": [
-            "Sapphires, onyx, topaz",
-            "Emeralds, diamonds, rubies",
-            "Amethyst, jasper, beryl",
-            "Carnelian, turquoise, jade"
-          ],
-          "correctAnswer": "Sapphires, onyx, topaz",
-          "explanation": "Job 28:6, 16-19 mentions sapphires, onyx, and topaz among the stones compared to wisdom's incomparable value.",
-          "verseReference": "Job 28:6,16-19",
-          "difficulty": "hard"
-        },
-        {
-          "id": "job-28-hard-q15",
-          "question": "The phrase 'He overturneth the mountains by the roots' (Job 28:9) can be seen as a metaphor for what in the ancient Near Eastern cultural context?",
-          "type": "multiple-choice",
-          "options": [
-            "God's power to reveal hidden resources",
-            "Earthquakes and natural disasters",
-            "The destruction of enemies in battle",
-            "The cycle of seasons"
-          ],
-          "correctAnswer": "God's power to reveal hidden resources",
-          "explanation": "This metaphor illustrates God's ability to uproot mountains, symbolizing divine power in accessing concealed minerals, a valued concept in that culture.",
-          "verseReference": "Job 28:9",
+          "explanation": "Job 28:23 affirms that God understands the way of wisdom, indicating His complete knowledge.",
+          "verseReference": "Job 28:23",
           "difficulty": "hard"
         }
       ],
@@ -742,227 +738,227 @@
       "questions": [
         {
           "id": "job-28-theological-q1",
-          "question": "According to Job 28, what is described as being beyond human discovery and cannot be purchased with gold or silver?",
+          "question": "What doctrine does Job 28:3 teach about God's nature?",
           "type": "multiple-choice",
           "options": [
-            "Wisdom",
-            "Silver",
-            "Gold",
-            "Precious stones"
+            "God controls and limits darkness and death",
+            "God is indifferent to human suffering",
+            "God only reveals Himself in the light",
+            "God is limited by natural forces"
           ],
-          "correctAnswer": "Wisdom",
-          "explanation": "Job 28:15-18 teaches that wisdom cannot be bought with gold, silver, or precious stones, indicating its transcendent and invaluable nature. This aligns with Proverbs 3:13-15, James 1:5, Colossians 2:3, and 1 Corinthians 1:30, which emphasize wisdom as a divine gift beyond earthly wealth.",
-          "verseReference": "Job 28:15",
+          "correctAnswer": "God controls and limits darkness and death",
+          "explanation": "Job 28:3 states 'He setteth an end to darkness, and searcheth out all perfection: the stones of darkness, and the shadow of death,' showing God's sovereign control even over darkness and death.",
+          "verseReference": "Job 28:3",
           "difficulty": "hard"
         },
         {
           "id": "job-28-theological-q2",
-          "question": "In Job 28, how does God reveal the place of wisdom and understanding?",
+          "question": "What doctrine about human wisdom does Job 28:13 teach?",
           "type": "multiple-choice",
           "options": [
-            "God understands and knows where it is",
-            "It is hidden in the mountains",
-            "It is found in the depths of the sea",
-            "It is given to kings only"
+            "Human beings cannot attain true wisdom on their own",
+            "Wisdom is easily found among the living",
+            "Wisdom is the result of human effort",
+            "Wisdom is a natural possession of mankind"
           ],
-          "correctAnswer": "God understands and knows where it is",
-          "explanation": "Job 28:23 declares that God alone understands the way to wisdom and knows its place, emphasizing God's omniscience. This reflects Psalm 147:5, Romans 11:33, Isaiah 40:28, and 1 Corinthians 2:10, which affirm God's complete knowledge and wisdom.",
-          "verseReference": "Job 28:23",
+          "correctAnswer": "Human beings cannot attain true wisdom on their own",
+          "explanation": "Job 28:13 says 'Man knoweth not the price thereof; neither is it found in the land of the living,' indicating that true wisdom is beyond human attainment apart from God.",
+          "verseReference": "Job 28:13",
           "difficulty": "hard"
         },
         {
           "id": "job-28-theological-q3",
-          "question": "What does Job 28:28 identify as 'wisdom' and 'understanding' for mankind?",
+          "question": "What doctrine does Job 28:28 teach about salvation and understanding?",
           "type": "multiple-choice",
           "options": [
-            "The fear of the Lord and to depart from evil",
-            "Knowledge of precious stones",
-            "Skill in mining",
-            "Wealth and honor"
+            "The fear of the Lord is the beginning of wisdom and true understanding",
+            "Salvation comes through human works and wisdom",
+            "Understanding is gained by accumulating wealth",
+            "Fear of the Lord is unnecessary for wisdom"
           ],
-          "correctAnswer": "The fear of the Lord and to depart from evil",
-          "explanation": "Job 28:28 explicitly states that fearing the Lord is wisdom and departing from evil is understanding. This theological principle is echoed in Proverbs 1:7, Psalm 111:10, Ecclesiastes 12:13, and Isaiah 33:6, highlighting the reverence of God as the foundation of true wisdom.",
+          "correctAnswer": "The fear of the Lord is the beginning of wisdom and true understanding",
+          "explanation": "Job 28:28 states, 'Behold, the fear of the Lord, that is wisdom; and to depart from evil is understanding,' connecting salvation and sanctification to reverence of God.",
           "verseReference": "Job 28:28",
           "difficulty": "hard"
         },
         {
           "id": "job-28-theological-q4",
-          "question": "What imagery does Job 28 use to describe the difficulty of finding the path to wisdom?",
+          "question": "Which divine attribute does Job 28:23 specifically demonstrate?",
           "type": "multiple-choice",
           "options": [
-            "A path unknown to birds and lions",
-            "A river flowing through the desert",
-            "A mountain covered in snow",
-            "A valley filled with darkness"
+            "Omniscience",
+            "Justice",
+            "Mercy",
+            "Immanence"
           ],
-          "correctAnswer": "A path unknown to birds and lions",
-          "explanation": "Job 28:7-8 describes a path that no bird or lion has seen or trodden, symbolizing the elusive nature of wisdom. This metaphor parallels Proverbs 2:6-8 and Jeremiah 33:3, which portray wisdom as hidden and revealed only by God.",
-          "verseReference": "Job 28:7",
+          "correctAnswer": "Omniscience",
+          "explanation": "Verse 23 says, 'God understandeth the way thereof, and he knoweth the place thereof,' showing God's all-knowing nature.",
+          "verseReference": "Job 28:23",
           "difficulty": "hard"
         },
         {
           "id": "job-28-theological-q5",
-          "question": "According to Job 28, what natural elements does God control as evidence of His supreme wisdom?",
+          "question": "Which divine attribute does Job 28:24 specifically demonstrate?",
           "type": "multiple-choice",
           "options": [
-            "Winds, waters, rain, and lightning",
-            "Mountains, oceans, stars, and fire",
-            "Animals, plants, seasons, and day",
-            "Earthquakes, storms, darkness, and seas"
+            "Omnipresence",
+            "Wrath",
+            "Faithfulness",
+            "Transcendence"
           ],
-          "correctAnswer": "Winds, waters, rain, and lightning",
-          "explanation": "Job 28:24-26 describes God weighing the winds, measuring waters, and decreeing rain and lightning, illustrating His sovereign control over nature. Similar themes appear in Psalm 147:8, Jeremiah 10:13, Amos 4:13, and Matthew 5:45, affirming God's providential power.",
-          "verseReference": "Job 28:25",
+          "correctAnswer": "Omnipresence",
+          "explanation": "Job 28:24 notes that God 'looketh to the ends of the earth, and seeth under the whole heaven,' indicating His presence everywhere.",
+          "verseReference": "Job 28:24",
           "difficulty": "hard"
         },
         {
           "id": "job-28-theological-q6",
-          "question": "What does Job 28 say about the location of wisdom in relation to the depths and the sea?",
+          "question": "How does Job 28 connect to the broader biblical theme of divine wisdom in Scripture?",
           "type": "multiple-choice",
           "options": [
-            "The depth and the sea say wisdom is not with them",
-            "The depth and the sea hide wisdom",
-            "Wisdom is found in the sea depths",
-            "Wisdom is buried in the earth’s core"
+            "It anticipates Proverbs’ teaching that true wisdom is found in the fear of the Lord",
+            "It contradicts the New Testament emphasis on grace over wisdom",
+            "It denies the possibility of human knowledge",
+            "It focuses solely on natural resources without spiritual implications"
           ],
-          "correctAnswer": "The depth and the sea say wisdom is not with them",
-          "explanation": "Job 28:14 states that both the depths and the sea deny possessing wisdom, emphasizing that wisdom is not found in natural places but rather with God. This corresponds with Jeremiah 31:34, Proverbs 2:6, Isaiah 55:8-9, and Romans 11:33 which stress God's unique possession of wisdom.",
-          "verseReference": "Job 28:14",
-          "difficulty": "hard"
-        },
-        {
-          "id": "job-28-theological-q7",
-          "question": "How does Job 28 describe the process of humans mining precious metals and stones?",
-          "type": "multiple-choice",
-          "options": [
-            "Searching out darkness and overturning mountains",
-            "Gathering stones from riverbeds",
-            "Harvesting metals from trees",
-            "Finding jewels in open fields"
-          ],
-          "correctAnswer": "Searching out darkness and overturning mountains",
-          "explanation": "Job 28:3, 9-10 speaks of searching out perfection in darkness and overturning mountains to find precious things, portraying the arduous human effort to extract treasures. This illustrates human labor contrasted with divine wisdom, as supported by Ecclesiastes 2:4-11 and Isaiah 45:3.",
-          "verseReference": "Job 28:3",
-          "difficulty": "hard"
-        },
-        {
-          "id": "job-28-theological-q8",
-          "question": "What is the significance of the phrase 'He bindeth the floods from overflowing' in Job 28:11?",
-          "type": "multiple-choice",
-          "options": [
-            "God controls and restrains nature’s chaos",
-            "Floods are uncontrollable natural disasters",
-            "Men can control the floods by effort",
-            "Floods symbolize human sin"
-          ],
-          "correctAnswer": "God controls and restrains nature’s chaos",
-          "explanation": "Job 28:11 shows God's sovereign power in restraining floods, symbolizing His authority over chaos. This is consistent with Genesis 7:1, Psalm 104:7-9, Nahum 1:3, and Luke 8:24-25, which affirm God's mastery over natural forces.",
-          "verseReference": "Job 28:11",
-          "difficulty": "hard"
-        },
-        {
-          "id": "job-28-theological-q9",
-          "question": "Why does Job 28:12 ask 'But where shall wisdom be found?' and what theological theme does this question highlight?",
-          "type": "multiple-choice",
-          "options": [
-            "The hidden and divine origin of true wisdom",
-            "The accessibility of knowledge through study",
-            "The abundance of earthly riches",
-            "The certainty of human understanding"
-          ],
-          "correctAnswer": "The hidden and divine origin of true wisdom",
-          "explanation": "Job 28:12 raises the question of wisdom’s origin, emphasizing that true wisdom is hidden and divine, not humanly attainable. This theme is echoed in Proverbs 2:6, Job 38:36, James 3:17, and Isaiah 11:2, underscoring wisdom’s supernatural source.",
-          "verseReference": "Job 28:12",
-          "difficulty": "hard"
-        },
-        {
-          "id": "job-28-theological-q10",
-          "question": "What does Job 28:22 mean when it says 'Destruction and death say, We have heard the fame thereof with our ears' in relation to wisdom?",
-          "type": "multiple-choice",
-          "options": [
-            "Even death recognizes the reputation of wisdom",
-            "Destruction and death possess wisdom",
-            "Wisdom can prevent death and destruction",
-            "Death and destruction are enemies of wisdom"
-          ],
-          "correctAnswer": "Even death recognizes the reputation of wisdom",
-          "explanation": "Job 28:22 personifies destruction and death as acknowledging wisdom’s renown, implying wisdom’s power over all realms. This connects to Hebrews 2:14-15, Job 1:21, Psalm 49:15, and John 11:25, highlighting wisdom’s triumph over death.",
-          "verseReference": "Job 28:22",
-          "difficulty": "hard"
-        },
-        {
-          "id": "job-28-theological-q11",
-          "question": "How does Job 28 illustrate the relationship between human knowledge and divine wisdom?",
-          "type": "multiple-choice",
-          "options": [
-            "Human knowledge is limited; divine wisdom is sovereign",
-            "Human knowledge equals divine wisdom",
-            "Human knowledge surpasses divine wisdom",
-            "Divine wisdom is irrelevant to humans"
-          ],
-          "correctAnswer": "Human knowledge is limited; divine wisdom is sovereign",
-          "explanation": "Job 28:12-13 contrasts human incapacity to find wisdom with God's exclusive knowledge of it, showing human knowledge as limited and divine wisdom as sovereign. This is consistent with 1 Corinthians 1:25, Isaiah 55:8-9, Romans 11:33, and Proverbs 3:5-6.",
-          "verseReference": "Job 28:13",
-          "difficulty": "hard"
-        },
-        {
-          "id": "job-28-theological-q12",
-          "question": "What role does fear of the Lord play in the theology of wisdom in Job 28?",
-          "type": "multiple-choice",
-          "options": [
-            "It is the beginning and essence of wisdom",
-            "It is a secondary aspect of wisdom",
-            "It is unrelated to wisdom",
-            "It is a human invention"
-          ],
-          "correctAnswer": "It is the beginning and essence of wisdom",
-          "explanation": "Job 28:28 states that 'the fear of the Lord' is wisdom itself, affirming reverence for God as foundational to true wisdom. This is supported by Proverbs 1:7, Psalm 111:10, Ecclesiastes 12:13, and Isaiah 33:6, which teach fear of God as the root of wisdom.",
+          "correctAnswer": "It anticipates Proverbs’ teaching that true wisdom is found in the fear of the Lord",
+          "explanation": "Job 28 culminates in 'the fear of the Lord is wisdom' (verse 28), paralleling Proverbs 1:7 and 9:10 where this truth is foundational.",
           "verseReference": "Job 28:28",
           "difficulty": "hard"
         },
         {
-          "id": "job-28-theological-q13",
-          "question": "What does Job 28 convey about the source of all wisdom and understanding?",
+          "id": "job-28-theological-q7",
+          "question": "What redemptive-historical connection is prepared by Job 28:5–6 regarding God's provision?",
           "type": "multiple-choice",
           "options": [
-            "God alone is the source",
-            "Kings are the source",
-            "Philosophers are the source",
-            "Nature is the source"
+            "It foreshadows God's provision of sustenance and spiritual treasures in Christ",
+            "It limits God's provision to earthly riches only",
+            "It suggests salvation depends on material wealth",
+            "It portrays God as distant and uninvolved"
           ],
-          "correctAnswer": "God alone is the source",
-          "explanation": "Job 28:23-27 shows that God searches out wisdom, declares it, and imparts it to mankind, establishing Him as the sole source. This is in harmony with James 1:5, Proverbs 2:6, Isaiah 55:8-9, and 1 Corinthians 2:7.",
+          "correctAnswer": "It foreshadows God's provision of sustenance and spiritual treasures in Christ",
+          "explanation": "Verses 5–6 describe earth producing bread and precious stones, symbolizing God’s provision, which in the New Testament is fulfilled spiritually in Christ (cf. John 6:35).",
+          "verseReference": "Job 28:5-6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-28-theological-q8",
+          "question": "What combined doctrine do Job 28:12 and Job 28:20 teach about the nature of wisdom?",
+          "type": "multiple-choice",
+          "options": [
+            "Wisdom is hidden from human sight and is a divine mystery",
+            "Wisdom is found through human intellect alone",
+            "Wisdom is a natural resource like gold",
+            "Wisdom is irrelevant to understanding God"
+          ],
+          "correctAnswer": "Wisdom is hidden from human sight and is a divine mystery",
+          "explanation": "Verse 12 asks where wisdom is found; verse 20 laments its hiddenness, showing wisdom’s supernatural, hidden nature.",
+          "verseReference": "Job 28:12; Job 28:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-28-theological-q9",
+          "question": "What combined doctrine do Job 28:15 and Job 28:18 teach about the value of wisdom?",
+          "type": "multiple-choice",
+          "options": [
+            "Wisdom’s value surpasses all material wealth and precious gems",
+            "Wisdom is less valuable than gold and rubies",
+            "Wisdom can be bought with silver",
+            "Wisdom has no practical value"
+          ],
+          "correctAnswer": "Wisdom’s value surpasses all material wealth and precious gems",
+          "explanation": "Verse 15 states wisdom cannot be purchased by gold or silver; verse 18 declares its price is above rubies, emphasizing supreme worth.",
+          "verseReference": "Job 28:15; Job 28:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-28-theological-q10",
+          "question": "What combined doctrine do Job 28:25 and Job 28:26 teach about God's governance of creation?",
+          "type": "multiple-choice",
+          "options": [
+            "God sovereignly ordains natural laws and phenomena",
+            "God is passive in natural processes",
+            "Nature operates independently from God",
+            "God punishes nature arbitrarily"
+          ],
+          "correctAnswer": "God sovereignly ordains natural laws and phenomena",
+          "explanation": "Verse 25 speaks of God making weights for winds and measuring waters; verse 26 mentions His decree for rain and lightning, showing His sovereign rule.",
+          "verseReference": "Job 28:25; Job 28:26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-28-theological-q11",
+          "question": "Sceptics claim Job 28:12–22 teaches wisdom is unknowable and irrelevant. What does the passage actually teach?",
+          "type": "multiple-choice",
+          "options": [
+            "Wisdom is hidden from human eyes but known and ordained by God",
+            "Wisdom is irrelevant to human life",
+            "Wisdom is easily accessible through human effort",
+            "Wisdom is a myth without any real value"
+          ],
+          "correctAnswer": "Wisdom is hidden from human eyes but known and ordained by God",
+          "explanation": "Verses 12–22 repeatedly note wisdom’s hiddenness from humans but affirm God’s understanding and control of it (verse 23), refuting claims of irrelevance.",
+          "verseReference": "Job 28:12-22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-28-theological-q12",
+          "question": "What doctrine does Job 28:11 teach about God's role in revelation and providence?",
+          "type": "multiple-choice",
+          "options": [
+            "God reveals hidden things and restrains chaos",
+            "God leaves hidden things forever concealed",
+            "God is unaware of the deep mysteries of the earth",
+            "God relies on human discovery for knowledge"
+          ],
+          "correctAnswer": "God reveals hidden things and restrains chaos",
+          "explanation": "Verse 11 says, 'He bindeth the floods from overflowing; and the thing that is hid bringeth he forth to light,' indicating God's providential revealing and ordering.",
+          "verseReference": "Job 28:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-28-theological-q13",
+          "question": "Which divine attribute does Job 28:27 specifically demonstrate?",
+          "type": "multiple-choice",
+          "options": [
+            "Divine wisdom",
+            "Divine anger",
+            "Divine passivity",
+            "Divine forgetfulness"
+          ],
+          "correctAnswer": "Divine wisdom",
+          "explanation": "Verse 27 says God 'prepared it, yea, and searched it out,' demonstrating His wise planning and understanding.",
           "verseReference": "Job 28:27",
           "difficulty": "hard"
         },
         {
           "id": "job-28-theological-q14",
-          "question": "How are precious stones and metals used metaphorically in Job 28 regarding wisdom?",
+          "question": "What redemptive-historical connection is highlighted by Job 28:28's teaching on the fear of the Lord?",
           "type": "multiple-choice",
           "options": [
-            "They illustrate that wisdom is more valuable than all riches",
-            "They symbolize human pride",
-            "They represent earthly temptations",
-            "They are equivalent to wisdom"
+            "It echoes the gospel call to repentance and sanctification",
+            "It promotes legalism without grace",
+            "It denies the need for salvation",
+            "It focuses only on Old Testament law"
           ],
-          "correctAnswer": "They illustrate that wisdom is more valuable than all riches",
-          "explanation": "Job 28:16-19 uses precious stones and metals to show that wisdom’s value surpasses all material wealth. This metaphor is consistent with Proverbs 3:15, Matthew 13:45-46, Psalm 19:10, and Revelation 21:18-21.",
-          "verseReference": "Job 28:16",
+          "correctAnswer": "It echoes the gospel call to repentance and sanctification",
+          "explanation": "The fear of the Lord as wisdom and departing from evil (verse 28) aligns with the gospel’s call to repent and live holy lives.",
+          "verseReference": "Job 28:28",
           "difficulty": "hard"
         },
         {
           "id": "job-28-theological-q15",
-          "question": "What theological insight does Job 28 offer about human limitations and divine revelation?",
+          "question": "What doctrine does Job 28:9 teach about God's power over creation?",
           "type": "multiple-choice",
           "options": [
-            "Humans cannot discover wisdom without God's revelation",
-            "Humans can discover wisdom through effort alone",
-            "Wisdom is common and accessible to all",
-            "Divine revelation is unnecessary for wisdom"
+            "God exercises sovereign power to shape and dismantle nature",
+            "God is limited by the mountains",
+            "God passively observes creation",
+            "God is bound by natural laws"
           ],
-          "correctAnswer": "Humans cannot discover wisdom without God's revelation",
-          "explanation": "Job 28:12-23 highlights human inability to find wisdom independently and God's role in revealing it. This corresponds with John 16:13, 1 Corinthians 2:14, Psalm 25:14, and Proverbs 2:6, emphasizing the necessity of divine revelation.",
-          "verseReference": "Job 28:12",
+          "correctAnswer": "God exercises sovereign power to shape and dismantle nature",
+          "explanation": "Verse 9 says 'He putteth forth his hand upon the rock; he overturneth the mountains by the roots,' showing God’s power to shape creation.",
+          "verseReference": "Job 28:9",
           "difficulty": "hard"
         }
       ],

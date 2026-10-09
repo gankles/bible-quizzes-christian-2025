@@ -13,31 +13,31 @@
       "questions": [
         {
           "id": "luke-3-easy-q1",
-          "question": "In the fifteenth year of whose reign did the events of Luke Chapter 3 begin?",
+          "question": "In Luke 3, which of the following appears FIRST in the chapter?",
           "type": "multiple-choice",
           "options": [
-            "Tiberius Caesar",
-            "Augustus Caesar",
-            "Nero",
-            "Herod"
+            "Pontius Pilate being governor of Judaea",
+            "John preaching the baptism of repentance",
+            "The voice crying in the wilderness",
+            "The people asking what they shall do"
           ],
-          "correctAnswer": "Tiberius Caesar",
-          "explanation": "Luke 3:1 states that these events began in the fifteenth year of Tiberius Caesar's reign.",
+          "correctAnswer": "Pontius Pilate being governor of Judaea",
+          "explanation": "Luke 3:1 lists Pontius Pilate as governor of Judaea before mentioning John preaching and other events.",
           "verseReference": "Luke 3:1",
           "difficulty": "easy"
         },
         {
           "id": "luke-3-easy-q2",
-          "question": "Who was the governor of Judaea during the time John received the word of God?",
+          "question": "Who was governor of Judaea during the fifteenth year of Tiberius Caesar's reign?",
           "type": "multiple-choice",
           "options": [
-            "Pontius Pilate",
             "Herod",
             "Philip",
+            "Pontius Pilate",
             "Lysanias"
           ],
           "correctAnswer": "Pontius Pilate",
-          "explanation": "Luke 3:1 mentions Pontius Pilate as governor of Judaea at that time.",
+          "explanation": "Luke 3:1 states Pontius Pilate was governor of Judaea at that time.",
           "verseReference": "Luke 3:1",
           "difficulty": "easy"
         },
@@ -46,10 +46,10 @@
           "question": "Where did the word of God come unto John the son of Zacharias?",
           "type": "multiple-choice",
           "options": [
-            "In the wilderness",
             "In Jerusalem",
-            "On a mountain",
-            "By the sea"
+            "In the wilderness",
+            "By the sea",
+            "In the temple"
           ],
           "correctAnswer": "In the wilderness",
           "explanation": "Luke 3:2 says the word of God came unto John in the wilderness.",
@@ -58,176 +58,174 @@
         },
         {
           "id": "luke-3-easy-q4",
-          "question": "What was John preaching about throughout the country around Jordan?",
+          "question": "What was John preaching about in the country around Jordan?",
           "type": "multiple-choice",
           "options": [
+            "The kingdom of Herod",
             "Baptism of repentance for the remission of sins",
-            "The coming of the Messiah",
-            "The law of Moses",
-            "The destruction of Jerusalem"
+            "The reign of Tiberius Caesar",
+            "The coming of Esaias"
           ],
           "correctAnswer": "Baptism of repentance for the remission of sins",
-          "explanation": "Luke 3:3 states John preached the baptism of repentance for the remission of sins.",
+          "explanation": "Luke 3:3 states John preached baptism of repentance for the remission of sins.",
           "verseReference": "Luke 3:3",
           "difficulty": "easy"
         },
         {
           "id": "luke-3-easy-q5",
-          "question": "Fill in the blank: 'The voice of one crying in the wilderness, Prepare ye the way of the _______, make his paths straight.'",
-          "type": "fill-blank",
+          "question": "Which prophet's words are quoted in Luke 3 about preparing the way of the Lord?",
+          "type": "multiple-choice",
           "options": [
-            "Lord",
-            "King",
-            "Prophet",
-            "Savior"
+            "Elijah",
+            "Isaiah",
+            "Jeremiah",
+            "Esaias"
           ],
-          "correctAnswer": "Lord",
-          "explanation": "Luke 3:4 quotes Isaiah, saying 'Prepare ye the way of the Lord.'",
+          "correctAnswer": "Esaias",
+          "explanation": "Luke 3:4 quotes the book of the words of Esaias the prophet.",
           "verseReference": "Luke 3:4",
           "difficulty": "easy"
         },
         {
           "id": "luke-3-easy-q6",
-          "question": "What did John call the multitude that came to be baptized by him?",
+          "question": "According to Luke 3, what shall every valley do?",
           "type": "multiple-choice",
           "options": [
-            "Generation of vipers",
-            "Children of Abraham",
-            "Believers",
-            "Sinners"
+            "Be filled",
+            "Be dried up",
+            "Be made crooked",
+            "Be left alone"
           ],
-          "correctAnswer": "Generation of vipers",
-          "explanation": "Luke 3:7 refers to the multitude as 'O generation of vipers'.",
-          "verseReference": "Luke 3:7",
+          "correctAnswer": "Be filled",
+          "explanation": "Luke 3:5 says every valley shall be filled.",
+          "verseReference": "Luke 3:5",
           "difficulty": "easy"
         },
         {
           "id": "luke-3-easy-q7",
-          "question": "According to Luke 3:9, what will happen to every tree that does not bring forth good fruit?",
+          "question": "What will all flesh see, according to Luke 3?",
           "type": "multiple-choice",
           "options": [
-            "It will be hewn down and cast into the fire",
-            "It will be blessed",
-            "It will be watered",
-            "It will be planted elsewhere"
+            "The wrath to come",
+            "The salvation of God",
+            "The reign of Tiberius",
+            "The baptism of John"
           ],
-          "correctAnswer": "It will be hewn down and cast into the fire",
-          "explanation": "Luke 3:9 says the axe is laid to the root of trees that do not bring good fruit, and they are cut down and burned.",
-          "verseReference": "Luke 3:9",
+          "correctAnswer": "The salvation of God",
+          "explanation": "Luke 3:6 states all flesh shall see the salvation of God.",
+          "verseReference": "Luke 3:6",
           "difficulty": "easy"
         },
         {
           "id": "luke-3-easy-q8",
-          "question": "What did John tell those who had two coats?",
+          "question": "What did John call the multitude that came to be baptized?",
           "type": "multiple-choice",
           "options": [
-            "Share with him who has none",
-            "Keep both for themselves",
-            "Sell one to the poor",
-            "Wear both to the temple"
+            "Children of Abraham",
+            "Generation of vipers",
+            "People of God",
+            "Sons of Esaias"
           ],
-          "correctAnswer": "Share with him who has none",
-          "explanation": "Luke 3:11 says he who has two coats should impart to him who has none.",
-          "verseReference": "Luke 3:11",
+          "correctAnswer": "Generation of vipers",
+          "explanation": "Luke 3:7 says John called the multitude a generation of vipers.",
+          "verseReference": "Luke 3:7",
           "difficulty": "easy"
         },
         {
           "id": "luke-3-easy-q9",
-          "question": "What instruction did John give to the publicans when they asked what they should do?",
+          "question": "What did John say to the people about relying on Abraham as their father?",
           "type": "multiple-choice",
           "options": [
-            "Exact no more than that which is appointed",
-            "Collect as much as possible",
-            "Give all to the poor",
-            "Stop collecting taxes"
+            "It guarantees salvation",
+            "God can raise up children of Abraham from stones",
+            "They should not fear God's wrath",
+            "They need not repent"
           ],
-          "correctAnswer": "Exact no more than that which is appointed",
-          "explanation": "Luke 3:13 records John's answer to the publicans to exact no more than what is appointed.",
-          "verseReference": "Luke 3:13",
+          "correctAnswer": "God can raise up children of Abraham from stones",
+          "explanation": "Luke 3:8 states God is able to raise children unto Abraham from stones.",
+          "verseReference": "Luke 3:8",
           "difficulty": "easy"
         },
         {
           "id": "luke-3-easy-q10",
-          "question": "True or False: According to Luke 3:14, soldiers were told to accuse others falsely.",
-          "type": "true-false",
+          "question": "What is laid unto the root of the trees according to John?",
+          "type": "multiple-choice",
           "options": [
-            "True",
-            "False"
+            "Water",
+            "The axe",
+            "Fire",
+            "A plow"
           ],
-          "correctAnswer": "False",
-          "explanation": "Luke 3:14 instructs soldiers to do no violence, accuse no one falsely, and be content with their wages.",
-          "verseReference": "Luke 3:14",
+          "correctAnswer": "The axe",
+          "explanation": "Luke 3:9 says the axe is laid unto the root of the trees.",
+          "verseReference": "Luke 3:9",
           "difficulty": "easy"
         },
         {
           "id": "luke-3-easy-q11",
-          "question": "Who did Herod imprison according to Luke 3:20?",
+          "question": "What did the people ask John after his warnings?",
           "type": "multiple-choice",
           "options": [
-            "John the Baptist",
-            "Jesus",
-            "Philip",
-            "Annas"
+            "Who is the Messiah?",
+            "Where should we go?",
+            "What shall we do then?",
+            "Why baptize?"
           ],
-          "correctAnswer": "John the Baptist",
-          "explanation": "Luke 3:20 states that Herod shut up John in prison.",
-          "verseReference": "Luke 3:20",
+          "correctAnswer": "What shall we do then?",
+          "explanation": "Luke 3:10 records the people asking John what they should do.",
+          "verseReference": "Luke 3:10",
           "difficulty": "easy"
         },
         {
           "id": "luke-3-easy-q12",
-          "question": "What happened immediately after Jesus was baptized according to Luke 3:21-22?",
-          "type": "multiple-choice",
-          "options": [
-            "The heaven opened and the Holy Ghost descended like a dove",
-            "He performed a miracle",
-            "He started preaching",
-            "He fasted for 40 days"
-          ],
-          "correctAnswer": "The heaven opened and the Holy Ghost descended like a dove",
-          "explanation": "Luke 3:21-22 describes the heavens opening and the Holy Ghost descending on Jesus like a dove.",
-          "verseReference": "Luke 3:21",
-          "difficulty": "easy"
-        },
-        {
-          "id": "luke-3-easy-q13",
-          "question": "At about what age did Jesus begin his ministry as mentioned in Luke 3:23?",
-          "type": "multiple-choice",
-          "options": [
-            "About thirty years",
-            "About twenty years",
-            "About forty years",
-            "About fifty years"
-          ],
-          "correctAnswer": "About thirty years",
-          "explanation": "Luke 3:23 says Jesus began to be about thirty years of age.",
-          "verseReference": "Luke 3:23",
-          "difficulty": "easy"
-        },
-        {
-          "id": "luke-3-easy-q14",
-          "question": "True or False: John said he baptized with the Holy Ghost and fire.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "False",
-          "explanation": "Luke 3:16 states John baptizes with water, but one mightier will baptize with the Holy Ghost and fire.",
-          "verseReference": "Luke 3:16",
-          "difficulty": "easy"
-        },
-        {
-          "id": "luke-3-easy-q15",
-          "question": "True or False: Luke 3 includes a genealogy of Jesus tracing back to Adam and God.",
+          "question": "If a person has two coats, what did John say they should do?",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Luke 3:23-38 provides a genealogy of Jesus tracing back to Adam, who is called the son of God.",
-          "verseReference": "Luke 3:38",
+          "explanation": "Luke 3:11 says he who has two coats should impart to him that has none.",
+          "verseReference": "Luke 3:11",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-3-easy-q13",
+          "question": "Publicans came to John asking what they should do to be baptized.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 3:12 states publicans came to be baptized and asked John what they should do.",
+          "verseReference": "Luke 3:12",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-3-easy-q14",
+          "question": "John told the publicans to collect as much tax as they could to be baptized.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Luke 3:13 says John told them to exact no more than that which is appointed, not to collect as much as possible.",
+          "verseReference": "Luke 3:13",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-3-easy-q15",
+          "question": "Luke 3 says that John baptized Jesus in the Jordan river.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "The text in Luke 3:1-13 does not mention John baptizing Jesus.",
+          "verseReference": "Luke 3:1-13",
           "difficulty": "easy"
         }
       ],
@@ -254,223 +252,221 @@
       "questions": [
         {
           "id": "luke-3-medium-q1",
-          "question": "A fellow believer is struggling with fear of judgment. Based on Luke 3, what practical advice does John the Baptist give to show true repentance?",
+          "question": "What did John the Baptist say to the soldiers who asked him what they should do?",
           "type": "multiple-choice",
           "options": [
-            "Bring forth fruits worthy of repentance",
-            "Avoid all contact with others",
-            "Give large offerings at the temple",
-            "Pray only in private"
+            "Do violence to no man, neither accuse any falsely; and be content with your wages.",
+            "Exact no more than that which is appointed to you.",
+            "Bring forth therefore fruits worthy of repentance.",
+            "Prepare ye the way of the Lord."
           ],
-          "correctAnswer": "Bring forth fruits worthy of repentance",
-          "explanation": "Luke 3:8 instructs to bring forth fruits worthy of repentance, showing that genuine repentance involves a change in behavior and actions, not just words or rituals. This is supported by verses 3:3, 3:7, and 3:9 where repentance is linked with producing good fruit and turning away from sin.",
-          "verseReference": "Luke 3:8",
+          "correctAnswer": "Do violence to no man, neither accuse any falsely; and be content with your wages.",
+          "explanation": "This is the instruction given by John the Baptist to the soldiers in Luke 3:14, emphasizing integrity and contentment.",
+          "verseReference": "Luke 3:14",
           "difficulty": "medium"
         },
         {
           "id": "luke-3-medium-q2",
-          "question": "How does Luke 3 teach about generosity and sharing with those in need?",
+          "question": "What does Luke 3:15 promise will happen if someone is in expectation of the Christ, as indicated in verse 3:15?",
           "type": "multiple-choice",
           "options": [
-            "If anyone has two coats, share with the one who has none",
-            "Save all possessions for personal use",
-            "Only give if asked publicly",
-            "Give only after earning interest"
+            "They shall be baptized with the Holy Ghost.",
+            "They shall see the salvation of God.",
+            "They will be reproved for their sins.",
+            "They will know the truth."
           ],
-          "correctAnswer": "If anyone has two coats, share with the one who has none",
-          "explanation": "Luke 3:11 teaches generosity by telling those who have two coats to share with those who have none. This practical instruction emphasizes stewardship and caring for others in daily life. Verses 3:11, 3:12-14 also show honesty and fairness in work and social dealings.",
-          "verseReference": "Luke 3:11",
+          "correctAnswer": "They shall see the salvation of God.",
+          "explanation": "Luke 3:6 states that all flesh shall see the salvation of God, which connects to the expectation of the Christ mentioned in verse 15.",
+          "verseReference": "Luke 3:15",
           "difficulty": "medium"
         },
         {
           "id": "luke-3-medium-q3",
-          "question": "A believer wonders how to live with integrity in the workplace. Based on Luke 3, what biblical principle would you share?",
+          "question": "Who will baptize with the Holy Ghost and with fire, according to John the Baptist?",
           "type": "multiple-choice",
           "options": [
-            "Do not accuse anyone falsely and be content with your wages",
-            "Work only enough to avoid punishment",
-            "Take advantage of others to gain more",
-            "Ignore rules if no one is watching"
+            "John the Baptist",
+            "Jesus",
+            "The Holy Ghost",
+            "The prophets"
           ],
-          "correctAnswer": "Do not accuse anyone falsely and be content with your wages",
-          "explanation": "Luke 3:14 advises soldiers to avoid violence and false accusations, and to be content with their wages. This teaches honesty, fairness, and contentment in work, which applies broadly to all believers in their daily labor. Verses 3:13-14 reinforce ethical behavior and contentment.",
-          "verseReference": "Luke 3:14",
-          "difficulty": "medium"
-        },
-        {
-          "id": "luke-3-medium-q4",
-          "question": "What does Luke 3 suggest about humility and recognizing one's place before God?",
-          "type": "multiple-choice",
-          "options": [
-            "John said he was not worthy to unloose the latchet of the coming one's shoes",
-            "John claimed he was the Messiah",
-            "John demanded worship from the people",
-            "John declared himself greater than the coming one"
-          ],
-          "correctAnswer": "John said he was not worthy to unloose the latchet of the coming one's shoes",
-          "explanation": "Luke 3:16 shows John's humility by stating he is not worthy even to untie the shoes of the one coming after him. This teaches believers the importance of humility before God and recognizing His supremacy. This humility is contrasted with the people's expectation in verse 3:15 and John’s recognition of a mightier one.",
+          "correctAnswer": "Jesus",
+          "explanation": "In Luke 3:16, John refers to one mightier than himself, who is Jesus, indicating that He will baptize with the Holy Ghost and fire.",
           "verseReference": "Luke 3:16",
           "difficulty": "medium"
         },
         {
-          "id": "luke-3-medium-q5",
-          "question": "How does Luke 3 encourage believers to persevere through trials and correction?",
+          "id": "luke-3-medium-q4",
+          "question": "What happens to the chaff, according to Luke 3:17?",
           "type": "multiple-choice",
           "options": [
-            "John reproved Herod for his sins despite danger",
-            "Avoid all confrontation to keep peace",
-            "Ignore wrongdoing to prevent conflict",
-            "Only speak when praised"
+            "It is gathered into the garner.",
+            "It is burned with unquenchable fire.",
+            "It is used for food.",
+            "It is thrown away."
           ],
-          "correctAnswer": "John reproved Herod for his sins despite danger",
-          "explanation": "Luke 3:19-20 shows John boldly reproving Herod for his wrongs even though it led to imprisonment. This teaches perseverance in standing for righteousness and truth despite opposition. The passage encourages believers to trust God and remain faithful in trials (also see verses 3:18 and 3:20).",
-          "verseReference": "Luke 3:19",
+          "correctAnswer": "It is burned with unquenchable fire.",
+          "explanation": "Luke 3:17 states that the chaff will be burned with fire unquenchable, illustrating the judgment that follows the gathering of the wheat.",
+          "verseReference": "Luke 3:17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-3-medium-q5",
+          "question": "What does Luke 3:18 indicate about John the Baptist's message?",
+          "type": "multiple-choice",
+          "options": [
+            "He preached only about repentance.",
+            "He preached many other things in his exhortation.",
+            "He foretold the coming of Herod.",
+            "He warned against false prophets."
+          ],
+          "correctAnswer": "He preached many other things in his exhortation.",
+          "explanation": "Luke 3:18 highlights that John preached various exhortations, indicating a broader message beyond just baptism and repentance.",
+          "verseReference": "Luke 3:18",
           "difficulty": "medium"
         },
         {
           "id": "luke-3-medium-q6",
-          "question": "A believer wants to deepen their spiritual discipline. What does Luke 3 show about the role of prayer and seeking God’s presence?",
+          "question": "What led to John being imprisoned according to Luke 3:20?",
           "type": "multiple-choice",
           "options": [
-            "Jesus prayed when baptized and heaven opened to Him",
-            "Prayer is unnecessary if baptized",
-            "Only public prayers are effective",
-            "Prayer should be done only on special occasions"
+            "His preaching of repentance.",
+            "His reproving of Herod for Herodias.",
+            "His baptism of Jesus.",
+            "His gathering of followers."
           ],
-          "correctAnswer": "Jesus prayed when baptized and heaven opened to Him",
-          "explanation": "Luke 3:21 describes Jesus praying during His baptism, which led to heaven opening and the Holy Spirit descending. This highlights prayer as a vital spiritual discipline and a way to experience God’s presence. Prayer is shown as essential for devotion and connection with God.",
-          "verseReference": "Luke 3:21",
+          "correctAnswer": "His reproving of Herod for Herodias.",
+          "explanation": "Luke 3:19 explains that John was reproved Herod for Herodias, which ultimately led to his imprisonment.",
+          "verseReference": "Luke 3:19",
           "difficulty": "medium"
         },
         {
           "id": "luke-3-medium-q7",
-          "question": "What biblical principle about evangelism and being a witness is taught in Luke 3?",
+          "question": "What significant event occurred when Jesus was baptized, as described in Luke 3:21?",
           "type": "multiple-choice",
           "options": [
-            "John preached repentance and the coming salvation to all the country around Jordan",
-            "Evangelism should be done only by priests",
-            "Only speak about God in the temple",
-            "Wait for others to ask before sharing"
+            "The heavens were closed.",
+            "The Holy Ghost descended in a bodily shape like a dove.",
+            "John was thrown into prison.",
+            "The crowds dispersed."
           ],
-          "correctAnswer": "John preached repentance and the coming salvation to all the country around Jordan",
-          "explanation": "Luke 3:3 shows John actively preaching repentance and baptism for the remission of sins to all the surrounding country. This demonstrates the importance of boldly sharing the Gospel and calling others to faith and repentance as a witness.",
-          "verseReference": "Luke 3:3",
+          "correctAnswer": "The Holy Ghost descended in a bodily shape like a dove.",
+          "explanation": "Luke 3:22 describes how the Holy Ghost descended upon Jesus in the form of a dove during His baptism, signifying divine approval.",
+          "verseReference": "Luke 3:22",
           "difficulty": "medium"
         },
         {
           "id": "luke-3-medium-q8",
-          "question": "How does Luke 3 teach about contentment and avoiding greed?",
+          "question": "What did the voice from heaven declare about Jesus in Luke 3:22?",
           "type": "multiple-choice",
           "options": [
-            "Soldiers were told to be content with their wages",
-            "Seek to increase wealth by any means",
-            "Demand more than what is fair",
-            "Hoard possessions to feel secure"
+            "He is the Son of God.",
+            "He is my beloved Son; in thee I am well pleased.",
+            "He is the Messiah.",
+            "He is the King of Kings."
           ],
-          "correctAnswer": "Soldiers were told to be content with their wages",
-          "explanation": "Luke 3:14 instructs soldiers to be content with their wages and not to do violence or accuse falsely. This teaches contentment with what God provides and warns against greed and dishonesty. It encourages believers to live with gratitude and integrity.",
-          "verseReference": "Luke 3:14",
+          "correctAnswer": "He is my beloved Son; in thee I am well pleased.",
+          "explanation": "Luke 3:22 records the voice from heaven affirming Jesus as God's beloved Son, which signifies His divine nature and mission.",
+          "verseReference": "Luke 3:22",
           "difficulty": "medium"
         },
         {
           "id": "luke-3-medium-q9",
-          "question": "True or False: According to Luke 3, John the Baptist encouraged people to rely solely on their heritage from Abraham for salvation.",
-          "type": "true-false",
+          "question": "How old was Jesus when He began His ministry, according to Luke 3:23?",
+          "type": "multiple-choice",
           "options": [
-            "True",
-            "False"
+            "Twenty-five years old",
+            "Thirty years old",
+            "Thirty-five years old",
+            "Twenty years old"
           ],
-          "correctAnswer": "False",
-          "explanation": "Luke 3:8 clearly states that John warned the people not to say 'We have Abraham to our father' as a basis for salvation, because God can raise children to Abraham from stones. This teaches that faith and repentance, not heritage alone, are essential for salvation.",
-          "verseReference": "Luke 3:8",
+          "correctAnswer": "Thirty years old",
+          "explanation": "Luke 3:23 states that Jesus began His ministry at about thirty years of age, marking the start of His public life.",
+          "verseReference": "Luke 3:23",
           "difficulty": "medium"
         },
         {
           "id": "luke-3-medium-q10",
-          "question": "True or False: John baptized with water but said someone mightier would baptize with the Holy Ghost and fire.",
+          "question": "What does Luke 3:10 reveal about the people's response to John's preaching?",
+          "type": "multiple-choice",
+          "options": [
+            "They were angry.",
+            "They asked, 'What shall we do then?'",
+            "They ignored him.",
+            "They followed him."
+          ],
+          "correctAnswer": "They asked, 'What shall we do then?'",
+          "explanation": "In Luke 3:10, the people were responsive to John's message, seeking guidance on how to act upon his teachings.",
+          "verseReference": "Luke 3:10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-3-medium-q11",
+          "question": "According to Luke 3:13, what did John tell the publicans regarding their duties?",
+          "type": "multiple-choice",
+          "options": [
+            "To give up their jobs.",
+            "To exact no more than that which is appointed to them.",
+            "To distribute wealth evenly.",
+            "To repent of their sins."
+          ],
+          "correctAnswer": "To exact no more than that which is appointed to them.",
+          "explanation": "In Luke 3:13, John instructs the publicans to be honest in their dealings and not overcharge, promoting integrity.",
+          "verseReference": "Luke 3:13",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-3-medium-q12",
+          "question": "What does John the Baptist's exhortation teach about contentment and integrity?",
+          "type": "multiple-choice",
+          "options": [
+            "We should always seek better wages.",
+            "We should act justly and be content with what we have.",
+            "We should be ruthless in our professions.",
+            "We should rely on others for our needs."
+          ],
+          "correctAnswer": "We should act justly and be content with what we have.",
+          "explanation": "John's teachings emphasize the importance of integrity in actions and contentment, particularly in Luke 3:14, where he advises soldiers to be content with their wages.",
+          "verseReference": "Luke 3:14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-3-medium-q13",
+          "question": "Is it true that the chaff will be burned with unquenchable fire?",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Luke 3:16 states John baptized with water but declared that one mightier than him would come to baptize with the Holy Ghost and fire, indicating the coming of Jesus and the Holy Spirit's work.",
-          "verseReference": "Luke 3:16",
-          "difficulty": "medium"
-        },
-        {
-          "id": "luke-3-medium-q11",
-          "question": "Fill in the blank: According to Luke 3, the voice from heaven said to Jesus, 'Thou art my ______ Son; in thee I am well pleased.'",
-          "type": "fill-blank",
-          "options": [
-            "beloved",
-            "chosen",
-            "obedient",
-            "faithful"
-          ],
-          "correctAnswer": "beloved",
-          "explanation": "Luke 3:22 records the voice from heaven declaring Jesus as God's beloved Son, affirming His divine approval and identity.",
-          "verseReference": "Luke 3:22",
-          "difficulty": "medium"
-        },
-        {
-          "id": "luke-3-medium-q12",
-          "question": "What does Luke 3 teach about humility in relation to spiritual leadership?",
-          "type": "multiple-choice",
-          "options": [
-            "John acknowledged he was not worthy to untie the shoes of the one coming after him",
-            "John demanded honor and recognition before preaching",
-            "John claimed he was the greatest prophet",
-            "John refused to baptize others"
-          ],
-          "correctAnswer": "John acknowledged he was not worthy to untie the shoes of the one coming after him",
-          "explanation": "Luke 3:16 highlights John's humility in recognizing the superior authority of the coming Messiah. This teaches spiritual leaders to be humble and aware of God’s greater work.",
-          "verseReference": "Luke 3:16",
-          "difficulty": "medium"
-        },
-        {
-          "id": "luke-3-medium-q13",
-          "question": "How does Luke 3 instruct believers to respond to God's judgment and mercy?",
-          "type": "multiple-choice",
-          "options": [
-            "Produce good fruits, or be cut down like trees without fruit",
-            "Ignore warnings and continue as before",
-            "Rely on heritage to escape judgment",
-            "Avoid baptism and public confession"
-          ],
-          "correctAnswer": "Produce good fruits, or be cut down like trees without fruit",
-          "explanation": "Luke 3:9 warns that every tree not producing good fruit will be cut down and cast into the fire, symbolizing the necessity of genuine repentance and obedience in response to God's mercy and judgment.",
-          "verseReference": "Luke 3:9",
+          "explanation": "This is affirmed in Luke 3:17, which states that the chaff will be burned with fire unquenchable, indicating the judgment of unfruitful lives.",
+          "verseReference": "Luke 3:17",
           "difficulty": "medium"
         },
         {
           "id": "luke-3-medium-q14",
-          "question": "What does Luke 3 teach about the importance of honesty in financial dealings?",
-          "type": "multiple-choice",
+          "question": "Is it true that Jesus was baptized before John the Baptist began his ministry?",
+          "type": "true-false",
           "options": [
-            "Publicans should not exact more than appointed",
-            "Cheat whenever possible to gain advantage",
-            "Ignore rules if it benefits you",
-            "Demand extra money from others"
+            "True",
+            "False"
           ],
-          "correctAnswer": "Publicans should not exact more than appointed",
-          "explanation": "Luke 3:13 instructs tax collectors (publicans) to collect no more than what is appointed, teaching honesty and integrity in financial matters.",
-          "verseReference": "Luke 3:13",
+          "correctAnswer": "False",
+          "explanation": "According to Luke 3:21, Jesus was baptized after John had been preaching, marking a significant moment at the start of His ministry.",
+          "verseReference": "Luke 3:21",
           "difficulty": "medium"
         },
         {
           "id": "luke-3-medium-q15",
-          "question": "According to Luke 3, how should believers live in anticipation of the coming Messiah?",
-          "type": "multiple-choice",
+          "question": "Is it true that the Holy Ghost descended in a bodily shape like a dove upon Jesus during His baptism?",
+          "type": "true-false",
           "options": [
-            "Prepare the way by repentance and righteous living",
-            "Ignore spiritual preparation",
-            "Focus only on rituals without heart change",
-            "Rely on others to do the preparation"
+            "True",
+            "False"
           ],
-          "correctAnswer": "Prepare the way by repentance and righteous living",
-          "explanation": "Luke 3:4-6 quotes Isaiah about preparing the way of the Lord by making paths straight and filling valleys, symbolizing the call to repentance and righteous living in expectation of the Messiah.",
-          "verseReference": "Luke 3:4",
+          "correctAnswer": "False",
+          "explanation": "This statement is true as per Luke 3:22, where the Holy Ghost is described as descending like a dove upon Jesus.",
+          "verseReference": "Luke 3:22",
           "difficulty": "medium"
         }
       ],
@@ -497,225 +493,223 @@
       "questions": [
         {
           "id": "luke-3-hard-q1",
-          "question": "In Luke 3:4-6, the prophecy quoted is from Isaiah. What is the literary device used in the description of preparing the way for the Lord?",
+          "question": "Who was the son of Rhesa according to Luke 3:27?",
           "type": "multiple-choice",
           "options": [
-            "Parallelism",
-            "Chiasm",
-            "Metaphor",
-            "Hyperbole"
+            "Joanna",
+            "Zorobabel",
+            "Salathiel",
+            "Neri"
           ],
-          "correctAnswer": "Parallelism",
-          "explanation": "The passage in Luke 3:4-6 uses parallelism, a common Hebrew poetic device seen in Isaiah, where phrases like 'Every valley shall be filled, every mountain and hill brought low' correspond to prepare the way of the Lord, making paths straight.",
-          "verseReference": "Luke 3:4-6",
+          "correctAnswer": "Joanna",
+          "explanation": "The correct answer is Joanna, as stated in Luke 3:27, which lists Joanna as the son of Rhesa.",
+          "verseReference": "Luke 3:27",
           "difficulty": "hard"
         },
         {
           "id": "luke-3-hard-q2",
-          "question": "What historical figures anchor the dating of John the Baptist's ministry in Luke 3:1-2?",
+          "question": "Which individual is mentioned as the son of Levi in Luke 3:29?",
           "type": "multiple-choice",
           "options": [
-            "Tiberius Caesar, Pontius Pilate, Herod, Philip, Annas, and Caiaphas",
-            "Augustus Caesar, Herod the Great, Caiaphas, and Nicodemus",
-            "Nero Caesar, Pilate, Herod Antipas, and John the Apostle",
-            "Claudius Caesar, Annas, Caiaphas, and Zechariah"
+            "Matthat",
+            "Simeon",
+            "Jorim",
+            "Eliezer"
           ],
-          "correctAnswer": "Tiberius Caesar, Pontius Pilate, Herod, Philip, Annas, and Caiaphas",
-          "explanation": "Luke 3:1-2 precisely mentions these rulers and high priests to date the beginning of John’s ministry within the political and religious context of Judea, anchoring the narrative historically.",
-          "verseReference": "Luke 3:1-2",
+          "correctAnswer": "Matthat",
+          "explanation": "Matthat is identified as the son of Levi in Luke 3:29.",
+          "verseReference": "Luke 3:29",
           "difficulty": "hard"
         },
         {
           "id": "luke-3-hard-q3",
-          "question": "What symbolic meaning does the 'baptism with the Holy Ghost and with fire' in Luke 3:16 imply in the broader biblical context?",
+          "question": "In Luke 3:30, who is named as the son of Eliakim?",
           "type": "multiple-choice",
           "options": [
-            "Purification and empowerment for mission",
-            "Judgment and destruction alone",
-            "A ritual cleansing similar to Old Testament sacrifices",
-            "A literal fire to burn the wicked"
+            "Simeon",
+            "Joseph",
+            "Jonan",
+            "Juda"
           ],
-          "correctAnswer": "Purification and empowerment for mission",
-          "explanation": "Luke 3:16 foreshadows the coming of the Messiah who will baptize not only with water but with the Holy Spirit and fire, symbolizing both purification from sin and empowerment to spread God’s kingdom, consistent with Acts 2.",
-          "verseReference": "Luke 3:16",
+          "correctAnswer": "Joseph",
+          "explanation": "Joseph is mentioned as the son of Eliakim in Luke 3:30.",
+          "verseReference": "Luke 3:30",
           "difficulty": "hard"
         },
         {
           "id": "luke-3-hard-q4",
-          "question": "How does John’s address to the crowd as a 'generation of vipers' in Luke 3:7 reflect Old Testament prophetic rhetoric?",
+          "question": "Which ancestor of Jesus is mentioned in Luke 3:31?",
           "type": "multiple-choice",
           "options": [
-            "It echoes the serpent imagery used in Isaiah and Psalms to denote deceit and danger.",
-            "It is a unique New Testament invention with no Old Testament parallel.",
-            "It directly quotes from the Ten Commandments.",
-            "It alludes to the covenant with David."
+            "David",
+            "Abraham",
+            "Isaac",
+            "Jacob"
           ],
-          "correctAnswer": "It echoes the serpent imagery used in Isaiah and Psalms to denote deceit and danger.",
-          "explanation": "The term 'generation of vipers' in Luke 3:7 employs serpent imagery common in Old Testament prophetic literature (e.g., Isaiah 59:5, Psalm 58), symbolizing deceitfulness and impending judgment.",
-          "verseReference": "Luke 3:7",
+          "correctAnswer": "David",
+          "explanation": "David is noted as an ancestor in Luke 3:31, indicating Jesus' lineage.",
+          "verseReference": "Luke 3:31",
           "difficulty": "hard"
         },
         {
           "id": "luke-3-hard-q5",
-          "question": "What theological theme is emphasized by John’s call in Luke 3:8 to 'bring forth fruits worthy of repentance'?",
+          "question": "According to Luke 3:34, who was the son of Nachor?",
           "type": "multiple-choice",
           "options": [
-            "Ethical transformation as evidence of genuine repentance",
-            "Strict adherence to ritual law",
-            "Genealogical descent from Abraham as salvation",
-            "Faith alone without works"
+            "Abraham",
+            "Thara",
+            "Isaac",
+            "Jacob"
           ],
-          "correctAnswer": "Ethical transformation as evidence of genuine repentance",
-          "explanation": "Luke 3:8 stresses that mere lineage (Abrahamic descent) is insufficient; true repentance must result in tangible ethical changes, reflecting the prophetic demand for inward and outward holiness.",
-          "verseReference": "Luke 3:8",
+          "correctAnswer": "Abraham",
+          "explanation": "Abraham is identified as the son of Thara in Luke 3:34.",
+          "verseReference": "Luke 3:34",
           "difficulty": "hard"
         },
         {
           "id": "luke-3-hard-q6",
-          "question": "In Luke 3:9, the imagery of the axe being laid to the root of the trees signifies what kind of eschatological motif?",
+          "question": "In Luke 3:35, who is mentioned as the son of Sala?",
           "type": "multiple-choice",
           "options": [
-            "Imminent divine judgment on those not producing good fruit",
-            "Endless mercy without judgment",
-            "A call to agricultural reform",
-            "A metaphor for political change"
+            "Heber",
+            "Phalec",
+            "Ragau",
+            "Saruch"
           ],
-          "correctAnswer": "Imminent divine judgment on those not producing good fruit",
-          "explanation": "The axe imagery in Luke 3:9 symbolizes God’s judgment, a common eschatological motif in both Old and New Testament prophetic literature indicating separation of the righteous (wheat) from the wicked (chaff).",
-          "verseReference": "Luke 3:9",
+          "correctAnswer": "Heber",
+          "explanation": "Heber is stated as the son of Sala in Luke 3:35.",
+          "verseReference": "Luke 3:35",
           "difficulty": "hard"
         },
         {
           "id": "luke-3-hard-q7",
-          "question": "How does John’s practical advice to soldiers in Luke 3:14 reflect the socio-political context of Roman occupation?",
+          "question": "What does the Greek word 'baptizo' in Luke 3:3 mean?",
           "type": "multiple-choice",
           "options": [
-            "It promotes non-violence and contentment with wages amid Roman military service.",
-            "It encourages rebellion against Rome.",
-            "It commands them to collect heavy taxes.",
-            "It orders them to isolate themselves from society."
+            "To sprinkle",
+            "To immerse",
+            "To wash",
+            "To cleanse"
           ],
-          "correctAnswer": "It promotes non-violence and contentment with wages amid Roman military service.",
-          "explanation": "Luke 3:14 instructs soldiers to avoid violence and false accusations and to be content, reflecting an ethical stance that respects personal integrity under Roman occupation without inciting revolt.",
-          "verseReference": "Luke 3:14",
+          "correctAnswer": "To immerse",
+          "explanation": "'Baptizo' means 'to immerse' in Greek, relating to the act of baptism in Luke 3:3.",
+          "verseReference": "Luke 3:3",
           "difficulty": "hard"
         },
         {
           "id": "luke-3-hard-q8",
-          "question": "The genealogy from Adam to Jesus in Luke 3:23-38 serves what literary and theological purpose?",
+          "question": "Which literary device is used in Luke 3:4 with the phrase 'Prepare ye the way of the Lord'?",
           "type": "multiple-choice",
           "options": [
-            "To emphasize Jesus’ universal humanity and divine sonship",
-            "To prove Jesus’ royal lineage from King David only",
-            "To show Jesus as a priest from Aaron’s line",
-            "To focus solely on Jesus’ earthly father Joseph"
+            "Metaphor",
+            "Chiasmus",
+            "Alliteration",
+            "Foreshadowing"
           ],
-          "correctAnswer": "To emphasize Jesus’ universal humanity and divine sonship",
-          "explanation": "By tracing Jesus’ lineage back to Adam and ultimately God (Luke 3:38), the author highlights Jesus’ connection to all humanity and divine origin, contrasting with Matthew’s focus on Abraham and David.",
-          "verseReference": "Luke 3:23-38",
+          "correctAnswer": "Foreshadowing",
+          "explanation": "The phrase foreshadows the coming of Jesus and the preparation needed for His ministry, as seen in Luke 3:4.",
+          "verseReference": "Luke 3:4",
           "difficulty": "hard"
         },
         {
           "id": "luke-3-hard-q9",
-          "question": "What is the significance of the Holy Ghost descending 'in a bodily shape like a dove' in Luke 3:22?",
+          "question": "Which other Bible passage connects to the theme of baptism for repentance found in Luke 3:3?",
           "type": "multiple-choice",
           "options": [
-            "It symbolizes purity, peace, and the presence of God’s Spirit upon Jesus.",
-            "It indicates an actual bird physically landing on Jesus.",
-            "It is a metaphor for the Roman eagle.",
-            "It represents the zodiac sign of Pisces."
+            "Acts 2:38",
+            "Matthew 28:19",
+            "Romans 6:4",
+            "Mark 1:4"
           ],
-          "correctAnswer": "It symbolizes purity, peace, and the presence of God’s Spirit upon Jesus.",
-          "explanation": "The dove is a biblical symbol of purity and peace, and its bodily shape descending upon Jesus in Luke 3:22 signifies the anointing of the Holy Spirit marking the Messiah’s divine approval.",
-          "verseReference": "Luke 3:22",
+          "correctAnswer": "Acts 2:38",
+          "explanation": "Acts 2:38 discusses baptism for repentance, echoing the theme in Luke 3:3.",
+          "verseReference": "Luke 3:3",
           "difficulty": "hard"
         },
         {
           "id": "luke-3-hard-q10",
-          "question": "What is the significance of John being imprisoned by Herod as narrated in Luke 3:19-20?",
+          "question": "Which other Bible passage connects to the theme of the voice crying in the wilderness found in Luke 3:4?",
           "type": "multiple-choice",
           "options": [
-            "It reflects the conflict between prophetic authority and political power.",
-            "It shows John’s voluntary retirement.",
-            "It implies John’s rejection by the people.",
-            "It indicates a peaceful relationship between John and Herod."
+            "Isaiah 40:3",
+            "Malachi 3:1",
+            "Matthew 3:3",
+            "Mark 1:3"
           ],
-          "correctAnswer": "It reflects the conflict between prophetic authority and political power.",
-          "explanation": "John’s imprisonment for reproving Herod's unlawful marriage (Luke 3:19-20) highlights the tension between prophetic witness and corrupt political rulers, a recurring theme in the Bible.",
-          "verseReference": "Luke 3:19-20",
+          "correctAnswer": "Isaiah 40:3",
+          "explanation": "Isaiah 40:3 is a prophetic reference that connects to the voice crying in the wilderness mentioned in Luke 3:4.",
+          "verseReference": "Luke 3:4",
           "difficulty": "hard"
         },
         {
           "id": "luke-3-hard-q11",
-          "question": "True or False: According to Luke 3:11, John instructs those with two coats to keep them for themselves.",
+          "question": "What comes immediately before Luke 3:27?",
+          "type": "multiple-choice",
+          "options": [
+            "Luke 3:26",
+            "Luke 3:28",
+            "Luke 3:25",
+            "Luke 3:29"
+          ],
+          "correctAnswer": "Luke 3:26",
+          "explanation": "Luke 3:26 precedes Luke 3:27 in the genealogy of Jesus.",
+          "verseReference": "Luke 3:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-3-hard-q12",
+          "question": "Which Greek word in Luke 3:6 refers to 'salvation'?",
+          "type": "multiple-choice",
+          "options": [
+            "Soteria",
+            "Dikaiosyne",
+            "Agape",
+            "Koinonia"
+          ],
+          "correctAnswer": "Soteria",
+          "explanation": "'Soteria' refers to salvation in Greek, as mentioned in Luke 3:6.",
+          "verseReference": "Luke 3:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-3-hard-q13",
+          "question": "In Luke 3:22, what does the voice from heaven proclaim?",
+          "type": "multiple-choice",
+          "options": [
+            "This is my servant",
+            "You are my beloved Son",
+            "This is my chosen one",
+            "You are my prophet"
+          ],
+          "correctAnswer": "You are my beloved Son",
+          "explanation": "The voice from heaven declares, 'Thou art my beloved Son' in Luke 3:22.",
+          "verseReference": "Luke 3:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-3-hard-q14",
+          "question": "True or False: John the Baptist was imprisoned for reproving Herod, as stated in Luke 3:20.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "True, as Luke 3:20 states that Herod shut up John in prison for his reproving.",
+          "verseReference": "Luke 3:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-3-hard-q15",
+          "question": "True or False: Jesus was baptized before John the Baptist began his ministry according to Luke 3:21.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Luke 3:11 explicitly commands those who have two coats to share with those who have none, emphasizing generosity as evidence of repentance.",
-          "verseReference": "Luke 3:11",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-3-hard-q12",
-          "question": "Which Old Testament figure is directly referenced in Luke 3:4 as the source of the prophecy about preparing the way?",
-          "type": "multiple-choice",
-          "options": [
-            "Esaias (Isaiah)",
-            "Jeremiah",
-            "Ezekiel",
-            "Daniel"
-          ],
-          "correctAnswer": "Esaias (Isaiah)",
-          "explanation": "Luke 3:4 quotes the prophet Isaiah (referred to as Esaias in the Greek text), specifically Isaiah 40:3, emphasizing the fulfillment of prophetic anticipation.",
-          "verseReference": "Luke 3:4",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-3-hard-q13",
-          "question": "How does John’s baptism ministry in Luke 3:3 typify Old Testament purification rites and foreshadow New Testament themes?",
-          "type": "multiple-choice",
-          "options": [
-            "It acts as a ritual of repentance preparing for the coming Messiah and the forgiveness of sins.",
-            "It is simply a new invention unrelated to Old Testament practices.",
-            "It replaces circumcision as the covenant sign.",
-            "It is a political statement against Rome."
-          ],
-          "correctAnswer": "It acts as a ritual of repentance preparing for the coming Messiah and the forgiveness of sins.",
-          "explanation": "John’s baptism in Luke 3:3 echoes Jewish purification traditions but introduces a forward-looking repentance for the remission of sins, anticipating Jesus’ redemptive work.",
-          "verseReference": "Luke 3:3",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-3-hard-q14",
-          "question": "What is the significance of John saying he is 'not worthy to unloose the latchet of his shoes' in Luke 3:16?",
-          "type": "multiple-choice",
-          "options": [
-            "It expresses humility before the Messiah, reflecting Jewish customs of servant roles.",
-            "It means John could literally not untie shoes.",
-            "It suggests John was physically weak.",
-            "It implies John was unclean."
-          ],
-          "correctAnswer": "It expresses humility before the Messiah, reflecting Jewish customs of servant roles.",
-          "explanation": "In Luke 3:16, John humbly acknowledges the superiority of the coming Christ by referencing the menial task of untying a master's sandals, a sign of deep respect and humility.",
-          "verseReference": "Luke 3:16",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-3-hard-q15",
-          "question": "How do the instructions given by John to the tax collectors in Luke 3:13 reflect the ethical demands of the covenant?",
-          "type": "multiple-choice",
-          "options": [
-            "They emphasize honesty and fairness, urging them not to extort beyond what is appointed.",
-            "They allow them to collect as much as they want.",
-            "They command them to stop collecting taxes entirely.",
-            "They focus only on ritual purity, ignoring ethics."
-          ],
-          "correctAnswer": "They emphasize honesty and fairness, urging them not to extort beyond what is appointed.",
-          "explanation": "Luke 3:13 requires tax collectors to act justly by collecting only what is due, resonating with covenantal themes of justice and righteousness in the Law.",
-          "verseReference": "Luke 3:13",
+          "explanation": "False, as Luke 3:21 indicates that Jesus was baptized during John's ministry, not before.",
+          "verseReference": "Luke 3:21",
           "difficulty": "hard"
         }
       ],
@@ -742,227 +736,227 @@
       "questions": [
         {
           "id": "luke-3-theological-q1",
-          "question": "In Luke 3, John the Baptist preaches a baptism of repentance. What is the primary purpose of this baptism according to the text?",
+          "question": "What doctrine does Luke 3:3 teach about salvation?",
           "type": "multiple-choice",
           "options": [
-            "For the remission of sins",
-            "For entrance into the kingdom of God",
-            "For physical cleansing",
-            "For initiation into the Jewish community"
+            "Salvation requires baptism for the remission of sins",
+            "Salvation is by faith alone without repentance",
+            "Salvation is only for the Jews as God's chosen people",
+            "Salvation is dependent on fulfilling the law perfectly"
           ],
-          "correctAnswer": "For the remission of sins",
-          "explanation": "Luke 3:3 states John preached 'the baptism of repentance for the remission of sins.' This aligns with Acts 2:38, Mark 1:4, and Hebrews 9:22, emphasizing repentance and forgiveness of sins as central to Christian baptism.",
+          "correctAnswer": "Salvation requires baptism for the remission of sins",
+          "explanation": "Luke 3:3 emphasizes preaching 'the baptism of repentance for the remission of sins,' teaching that repentance and baptism are integral to the salvation process.",
           "verseReference": "Luke 3:3",
           "difficulty": "hard"
         },
         {
           "id": "luke-3-theological-q2",
-          "question": "John the Baptist quotes Isaiah when describing his mission. What is the central metaphor used to describe his role?",
+          "question": "What doctrine about human sin is taught in Luke 3:7?",
           "type": "multiple-choice",
           "options": [
-            "A voice crying in the wilderness",
-            "A shepherd guiding his sheep",
-            "A light shining in darkness",
-            "A pillar of fire"
+            "Human sin provokes the coming wrath of God",
+            "Human sin is insignificant before God's patience",
+            "Human sin can be ignored if one is of Abraham's lineage",
+            "Human sin is only external and not internal"
           ],
-          "correctAnswer": "A voice crying in the wilderness",
-          "explanation": "Luke 3:4 quotes Isaiah, 'The voice of one crying in the wilderness, Prepare ye the way of the Lord.' This metaphor is used in Isaiah 40:3, Malachi 3:1, and Matthew 3:3, portraying John as the forerunner preparing the Messiah’s coming.",
-          "verseReference": "Luke 3:4",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-3-theological-q3",
-          "question": "What warning does John give to the crowd coming to be baptized?",
-          "type": "multiple-choice",
-          "options": [
-            "O generation of vipers, who hath warned you to flee from the wrath to come?",
-            "Repent or perish",
-            "Follow me and believe",
-            "Be baptized to be saved"
-          ],
-          "correctAnswer": "O generation of vipers, who hath warned you to flee from the wrath to come?",
-          "explanation": "In Luke 3:7, John calls the crowd 'a generation of vipers' warning them to flee coming wrath, echoing themes found in Matthew 3:7 and Romans 1:18 about divine judgment and the need for repentance.",
+          "correctAnswer": "Human sin provokes the coming wrath of God",
+          "explanation": "Luke 3:7 records John calling the people 'a generation of vipers' and warning them to flee from the coming wrath, highlighting the reality and seriousness of human sin.",
           "verseReference": "Luke 3:7",
           "difficulty": "hard"
         },
         {
-          "id": "luke-3-theological-q4",
-          "question": "What does John say about relying on Abraham as a spiritual heritage?",
+          "id": "luke-3-theological-q3",
+          "question": "What doctrine about divine judgment is presented in Luke 3:9?",
           "type": "multiple-choice",
           "options": [
-            "God is able of these stones to raise up children unto Abraham",
-            "Abraham’s lineage guarantees salvation",
-            "Only physical descent matters",
-            "Faith is unnecessary if you are Abraham’s seed"
+            "God judges those who do not produce good fruit",
+            "God’s judgment is only symbolic and not actual",
+            "God’s judgment is reserved only for Gentiles",
+            "God delays judgment indefinitely"
           ],
-          "correctAnswer": "God is able of these stones to raise up children unto Abraham",
-          "explanation": "Luke 3:8 teaches that relying solely on Abrahamic descent is insufficient because God can raise up children to Abraham from stones. This reflects Galatians 3:7 and Romans 9:6-8 emphasizing faith over physical ancestry.",
-          "verseReference": "Luke 3:8",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-3-theological-q5",
-          "question": "According to Luke 3, what will happen to every tree that does not bear good fruit?",
-          "type": "multiple-choice",
-          "options": [
-            "It will be cut down and cast into the fire",
-            "It will be pruned and nurtured",
-            "It will be blessed by God",
-            "It will be left to grow"
-          ],
-          "correctAnswer": "It will be cut down and cast into the fire",
-          "explanation": "Luke 3:9 states the axe is laid to the root of the trees that do not bear good fruit and they will be cut down and burned, symbolizing divine judgment consistent with Matthew 7:19 and John 15:6.",
+          "correctAnswer": "God judges those who do not produce good fruit",
+          "explanation": "Luke 3:9 uses the metaphor of an axe laid to the root of trees, indicating that every tree not bearing good fruit will be cut down, teaching God's active judgment on unrighteousness.",
           "verseReference": "Luke 3:9",
           "difficulty": "hard"
         },
         {
-          "id": "luke-3-theological-q6",
-          "question": "What practical ethical instructions does John give to those who ask, 'What shall we do then?'",
+          "id": "luke-3-theological-q4",
+          "question": "Which divine attribute does Luke 3:22 specifically demonstrate?",
           "type": "multiple-choice",
           "options": [
-            "Share your coat and food with those who have none",
-            "Offer sacrifices and keep the law strictly",
-            "Withdraw from society and pray",
-            "Perform signs and wonders"
+            "Divine approval",
+            "Omnipresence",
+            "Immutability",
+            "Immanence"
           ],
-          "correctAnswer": "Share your coat and food with those who have none",
-          "explanation": "Luke 3:10-11 records John’s call for social justice and generosity, emphasizing active repentance through loving deeds, in line with Micah 6:8, Isaiah 1:17, and James 1:27.",
-          "verseReference": "Luke 3:10",
+          "correctAnswer": "Divine approval",
+          "explanation": "In Luke 3:22, the voice from heaven declares 'Thou art my beloved Son; in thee I am well pleased,' demonstrating God's attribute of divine approval and affirmation of Jesus' identity.",
+          "verseReference": "Luke 3:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-3-theological-q5",
+          "question": "Which divine attribute is highlighted by the phrase 'the word of God came unto John' in Luke 3:2?",
+          "type": "multiple-choice",
+          "options": [
+            "Sovereignty",
+            "Justice",
+            "Wrath",
+            "Transcendence"
+          ],
+          "correctAnswer": "Sovereignty",
+          "explanation": "Luke 3:2 shows the initiative of God in revelation, demonstrating His sovereignty in directing history and speaking through John the Baptist.",
+          "verseReference": "Luke 3:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-3-theological-q6",
+          "question": "How does Luke 3:4-6 connect to Old Testament prophecy and the theme of salvation?",
+          "type": "multiple-choice",
+          "options": [
+            "It fulfills Isaiah's prophecy about preparing the way for the Lord",
+            "It contradicts the prophetic tradition by introducing a new message",
+            "It ignores Old Testament prophecy in favor of Roman political context",
+            "It limits salvation to a select group of Israelites"
+          ],
+          "correctAnswer": "It fulfills Isaiah's prophecy about preparing the way for the Lord",
+          "explanation": "Luke 3:4-6 directly quotes Isaiah to show John the Baptist's role in preparing the way for salvation, connecting Jesus’ ministry to prophetic fulfillment.",
+          "verseReference": "Luke 3:4-6",
           "difficulty": "hard"
         },
         {
           "id": "luke-3-theological-q7",
-          "question": "What does John instruct tax collectors to do when they ask what they should do?",
+          "question": "What redemptive-historical connection does Luke 3:21-22 make regarding Jesus' baptism?",
           "type": "multiple-choice",
           "options": [
-            "Exact no more than that which is appointed to them",
-            "Stop collecting taxes entirely",
-            "Give all their earnings to the poor",
-            "Join the Pharisees"
+            "It inaugurates Jesus’ public ministry and divine sonship confirmation",
+            "It replaces the need for Old Testament sacrifices",
+            "It denies Jesus’ humanity by focusing only on divinity",
+            "It shows Jesus’ repentance for sin"
           ],
-          "correctAnswer": "Exact no more than that which is appointed to them",
-          "explanation": "Luke 3:13 shows John telling tax collectors to be honest and not extort more than what is required, reflecting Old Testament ethics in Leviticus 19:13 and Proverbs 11:1.",
-          "verseReference": "Luke 3:13",
+          "correctAnswer": "It inaugurates Jesus’ public ministry and divine sonship confirmation",
+          "explanation": "The baptism in Luke 3:21-22 opens heaven and confirms Jesus as God's beloved Son, marking the beginning of His redemptive work.",
+          "verseReference": "Luke 3:21-22",
           "difficulty": "hard"
         },
         {
           "id": "luke-3-theological-q8",
-          "question": "What does John say to soldiers who ask about their conduct?",
+          "question": "What combined doctrine do Luke 3:8 and Luke 3:9 teach about repentance and fruitfulness?",
           "type": "multiple-choice",
           "options": [
-            "Do violence to no man, neither accuse any falsely; and be content with your wages",
-            "Join the rebellion against Herod",
-            "Take more than your wages to be generous",
-            "Avoid military service"
+            "True repentance produces worthy fruit, and failure results in judgment",
+            "Repentance is unnecessary if one is of Abraham’s lineage",
+            "Fruitfulness is a human effort without divine involvement",
+            "Judgment is unrelated to personal holiness"
           ],
-          "correctAnswer": "Do violence to no man, neither accuse any falsely; and be content with your wages",
-          "explanation": "Luke 3:14 commands soldiers to act justly and avoid abuse of power, consistent with teachings in Exodus 22:21-24, Romans 13:3-4, and 1 Peter 2:18.",
-          "verseReference": "Luke 3:14",
+          "correctAnswer": "True repentance produces worthy fruit, and failure results in judgment",
+          "explanation": "Luke 3:8 commands 'fruits worthy of repentance,' and 3:9 warns that trees without good fruit will be cut down, linking repentance to sanctification and judgment.",
+          "verseReference": "Luke 3:8, Luke 3:9",
           "difficulty": "hard"
         },
         {
           "id": "luke-3-theological-q9",
-          "question": "How does John describe the one mightier than himself who is coming?",
+          "question": "What combined doctrine do Luke 3:16 and Luke 3:17 teach about Jesus' baptism and eschatological judgment?",
           "type": "multiple-choice",
           "options": [
-            "He will baptize with the Holy Ghost and with fire",
-            "He will baptize only with water",
-            "He will be a political king",
-            "He will not baptize at all"
+            "Jesus baptizes with the Holy Spirit and fire to separate righteous from unrighteous",
+            "Jesus' baptism is only symbolic without real judgment",
+            "John's baptism is superior because it uses water",
+            "Eschatological judgment is deferred and optional"
           ],
-          "correctAnswer": "He will baptize with the Holy Ghost and with fire",
-          "explanation": "Luke 3:16 contrasts John’s water baptism with the coming Messiah’s baptism by the Holy Spirit and fire, echoing prophetic expectations in Isaiah 4:4, Ezekiel 36:25-27, and Acts 1:5.",
-          "verseReference": "Luke 3:16",
+          "correctAnswer": "Jesus baptizes with the Holy Spirit and fire to separate righteous from unrighteous",
+          "explanation": "Luke 3:16 contrasts John’s water baptism with Jesus’ baptism by the Spirit and fire, and 3:17 describes the fan separating wheat and chaff, teaching final judgment.",
+          "verseReference": "Luke 3:16, Luke 3:17",
           "difficulty": "hard"
         },
         {
           "id": "luke-3-theological-q10",
-          "question": "What is the role of the fan in the hand of the mightier one, according to John’s prophecy?",
+          "question": "What doctrine about repentance and social ethics is synthesized in Luke 3:11 and Luke 3:14?",
           "type": "multiple-choice",
           "options": [
-            "To thoroughly purge and separate wheat from chaff",
-            "To gather all people into one body",
-            "To bring healing and restoration",
-            "To lead an army"
+            "Repentance must manifest in generosity, honesty, and non-violence",
+            "Repentance is a private act without social implications",
+            "Social ethics are unrelated to repentance",
+            "Repentance excuses exploitation if religious rituals are performed"
           ],
-          "correctAnswer": "To thoroughly purge and separate wheat from chaff",
-          "explanation": "Luke 3:17 describes the fan as a tool for judgment, separating the righteous (wheat) from the wicked (chaff), paralleling imagery in Matthew 3:12, Psalm 1:4-6, and Malachi 3:2-3.",
-          "verseReference": "Luke 3:17",
+          "correctAnswer": "Repentance must manifest in generosity, honesty, and non-violence",
+          "explanation": "Luke 3:11 urges sharing possessions, and 3:14 commands soldiers to avoid violence and false accusation, showing repentance's ethical expression.",
+          "verseReference": "Luke 3:11, Luke 3:14",
           "difficulty": "hard"
         },
         {
           "id": "luke-3-theological-q11",
-          "question": "Why was John the Baptist imprisoned by Herod according to Luke 3?",
+          "question": "Skeptics claim John’s baptism in Luke 3:3-6 was merely symbolic and lacked divine authority. What does the text actually teach?",
           "type": "multiple-choice",
           "options": [
-            "For reproving Herod about Herodias, his brother's wife",
-            "For leading a violent rebellion",
-            "For refusing to baptize Jesus",
-            "For preaching false doctrine"
+            "John’s baptism is divinely ordained to prepare the way for Christ and calls for true repentance",
+            "John’s baptism was a human invention with no connection to God's plan",
+            "John’s baptism replaces Jesus’ ministry entirely",
+            "John’s baptism was only for Jews and had no universal significance"
           ],
-          "correctAnswer": "For reproving Herod about Herodias, his brother's wife",
-          "explanation": "Luke 3:19-20 shows John’s imprisonment was due to his courageous rebuke of Herod’s unlawful marriage, consistent with prophetic calls for holiness in Ezekiel 22:26 and Amos 2:7.",
-          "verseReference": "Luke 3:19",
+          "correctAnswer": "John’s baptism is divinely ordained to prepare the way for Christ and calls for true repentance",
+          "explanation": "Luke 3:3-6 shows John preaching under divine authority, fulfilling Isaiah’s prophecy, and emphasizing repentance for forgiveness, affirming divine origin and purpose.",
+          "verseReference": "Luke 3:3-6",
           "difficulty": "hard"
         },
         {
           "id": "luke-3-theological-q12",
-          "question": "What significant event occurs immediately after Jesus is baptized according to Luke 3?",
+          "question": "What doctrine about prophetic courage and authority is taught in Luke 3:19-20?",
           "type": "multiple-choice",
           "options": [
-            "The Holy Ghost descends in bodily shape like a dove",
-            "Jesus performs his first miracle",
-            "He is immediately arrested",
-            "He begins preaching publicly"
+            "Prophetic witness confronts sin even at personal cost",
+            "Prophets avoid political issues to stay safe",
+            "Prophetic authority depends on popular approval",
+            "John compromised with Herod to avoid imprisonment"
           ],
-          "correctAnswer": "The Holy Ghost descends in bodily shape like a dove",
-          "explanation": "Luke 3:21-22 records the Holy Spirit descending on Jesus like a dove, confirming his divine Sonship, aligned with Matthew 3:16-17, John 1:32-34, and Acts 10:38.",
-          "verseReference": "Luke 3:22",
+          "correctAnswer": "Prophetic witness confronts sin even at personal cost",
+          "explanation": "Luke 3:19-20 shows John reproving Herod for sin and being imprisoned, illustrating the costly but faithful prophetic ministry.",
+          "verseReference": "Luke 3:19-20",
           "difficulty": "hard"
         },
         {
           "id": "luke-3-theological-q13",
-          "question": "What does the voice from heaven declare about Jesus after his baptism?",
+          "question": "Which divine attribute is demonstrated by God's action in Luke 3:6: 'And all flesh shall see the salvation of God'?",
           "type": "multiple-choice",
           "options": [
-            "Thou art my beloved Son; in thee I am well pleased",
-            "This is my servant, chosen and faithful",
-            "Behold the king of Israel",
-            "The Lamb of God who takes away sin"
+            "Universality",
+            "Partiality",
+            "Wrath",
+            "Hiddenness"
           ],
-          "correctAnswer": "Thou art my beloved Son; in thee I am well pleased",
-          "explanation": "Luke 3:22 records God's voice affirming Jesus as His beloved Son, echoing Psalm 2:7, Isaiah 42:1, and 1 John 3:1 about the divine sonship of Christ.",
-          "verseReference": "Luke 3:22",
+          "correctAnswer": "Universality",
+          "explanation": "Luke 3:6 teaches that God's salvation is universal, intended for 'all flesh,' demonstrating God's attribute of universality in salvation.",
+          "verseReference": "Luke 3:6",
           "difficulty": "hard"
         },
         {
           "id": "luke-3-theological-q14",
-          "question": "According to Luke 3, approximately how old was Jesus when he began his public ministry?",
+          "question": "How does Luke 3:23-38 contribute to the theological understanding of Jesus’ identity?",
           "type": "multiple-choice",
           "options": [
-            "About thirty years of age",
-            "About twenty years of age",
-            "About forty years of age",
-            "About fifty years of age"
+            "It situates Jesus in the Davidic lineage, affirming His messianic and human ancestry",
+            "It denies Jesus' human genealogy to emphasize only divinity",
+            "It traces Jesus’ ancestry to pagan kings, undermining His Jewish identity",
+            "It focuses solely on Joseph’s lineage excluding Mary’s"
           ],
-          "correctAnswer": "About thirty years of age",
-          "explanation": "Luke 3:23 states Jesus was about thirty years old when starting his ministry, consistent with Jewish customs for priestly service as seen in Numbers 4:3 and the age of David when anointed (1 Samuel 16:1).",
-          "verseReference": "Luke 3:23",
+          "correctAnswer": "It situates Jesus in the Davidic lineage, affirming His messianic and human ancestry",
+          "explanation": "The genealogy in Luke 3:23-38 traces Jesus’ descent from David to Adam and God, affirming both His messianic role and true humanity.",
+          "verseReference": "Luke 3:23-38",
           "difficulty": "hard"
         },
         {
           "id": "luke-3-theological-q15",
-          "question": "The genealogy in Luke 3 traces Jesus' lineage back to whom?",
+          "question": "What combined doctrine is taught by Luke 3:13 and Luke 3:14 regarding roles and ethics in society?",
           "type": "multiple-choice",
           "options": [
-            "Adam, the son of God",
-            "Noah, the survivor of the flood",
-            "Abraham, the father of the nation",
-            "King David, the royal ancestor"
+            "God calls all to ethical conduct according to their societal roles",
+            "Only religious leaders must be ethical; others are exempt",
+            "Ethics are irrelevant to publicans and soldiers",
+            "Societal roles excuse unethical behavior"
           ],
-          "correctAnswer": "Adam, the son of God",
-          "explanation": "Luke 3:38 traces Jesus’ genealogy back to Adam, emphasizing Jesus’ connection to all humanity and ultimately to God, supporting Genesis 1:27, Romans 5:12-19, and 1 Corinthians 15:22.",
-          "verseReference": "Luke 3:38",
+          "correctAnswer": "God calls all to ethical conduct according to their societal roles",
+          "explanation": "Luke 3:13 commands tax collectors to exact no more than appointed, and 3:14 instructs soldiers to avoid violence and false accusations, showing tailored ethical demands.",
+          "verseReference": "Luke 3:13, Luke 3:14",
           "difficulty": "hard"
         }
       ],

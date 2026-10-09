@@ -13,7 +13,7 @@
       "questions": [
         {
           "id": "leviticus-1-easy-q1",
-          "question": "Who did the LORD call to speak to the children of Israel in Leviticus chapter 1?",
+          "question": "Who did the LORD call and speak to out of the tabernacle of the congregation?",
           "type": "multiple-choice",
           "options": [
             "Moses",
@@ -22,34 +22,49 @@
             "Samuel"
           ],
           "correctAnswer": "Moses",
-          "explanation": "Leviticus 1:1 states that the LORD called unto Moses and spoke to him.",
+          "explanation": "Leviticus 1:1 states that the LORD called unto Moses and spake unto him out of the tabernacle of the congregation.",
           "verseReference": "Leviticus 1:1",
           "difficulty": "easy"
         },
         {
           "id": "leviticus-1-easy-q2",
-          "question": "According to Leviticus 1:2, what types of animals could be brought as offerings?",
+          "question": "To whom were the children of Israel commanded to bring their offerings?",
           "type": "multiple-choice",
           "options": [
-            "Cattle, herd, and flock",
-            "Fish and birds",
-            "Only cattle",
-            "Wild animals"
+            "To the priests",
+            "To the LORD",
+            "To the elders",
+            "To Moses"
           ],
-          "correctAnswer": "Cattle, herd, and flock",
-          "explanation": "Leviticus 1:2 says the offering should be of the cattle, even of the herd, and of the flock.",
+          "correctAnswer": "To the LORD",
+          "explanation": "Leviticus 1:2 commands speaking unto the children of Israel that if any man brings an offering, it shall be brought unto the LORD.",
           "verseReference": "Leviticus 1:2",
           "difficulty": "easy"
         },
         {
           "id": "leviticus-1-easy-q3",
-          "question": "What kind of animal was required for a burnt sacrifice from the herd?",
+          "question": "What kinds of animals are mentioned for offerings in Leviticus 1:2?",
           "type": "multiple-choice",
           "options": [
-            "A male without blemish",
+            "Fish and birds",
+            "Cattle, herd, and flock",
+            "Wild beasts and reptiles",
+            "Fowls and insects"
+          ],
+          "correctAnswer": "Cattle, herd, and flock",
+          "explanation": "Leviticus 1:2 mentions offerings of the cattle, even of the herd, and of the flock.",
+          "verseReference": "Leviticus 1:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "leviticus-1-easy-q4",
+          "question": "What is required of the burnt sacrifice from the herd?",
+          "type": "multiple-choice",
+          "options": [
+            "Any animal of the herd",
             "A female without blemish",
-            "A sick male",
-            "Any animal"
+            "A male without blemish",
+            "Only a calf"
           ],
           "correctAnswer": "A male without blemish",
           "explanation": "Leviticus 1:3 specifies that the burnt sacrifice of the herd must be a male without blemish.",
@@ -57,177 +72,160 @@
           "difficulty": "easy"
         },
         {
-          "id": "leviticus-1-easy-q4",
-          "question": "What was the person offering the burnt sacrifice instructed to do with his hand?",
-          "type": "multiple-choice",
-          "options": [
-            "Put his hand upon the head of the burnt offering",
-            "Raise his hand to the sky",
-            "Place his hand on the altar",
-            "Wash his hands"
-          ],
-          "correctAnswer": "Put his hand upon the head of the burnt offering",
-          "explanation": "Leviticus 1:4 says he shall put his hand upon the head of the burnt offering.",
-          "verseReference": "Leviticus 1:4",
-          "difficulty": "easy"
-        },
-        {
           "id": "leviticus-1-easy-q5",
-          "question": "Who was responsible for bringing and sprinkling the blood of the burnt offering?",
+          "question": "Where is the offering to be presented when offered voluntarily?",
           "type": "multiple-choice",
           "options": [
-            "The priests, Aaron's sons",
-            "The person offering the sacrifice",
-            "The Levites",
-            "Moses"
+            "At the city gate",
+            "At the door of the tabernacle of the congregation",
+            "In the fields",
+            "At the altar of incense"
           ],
-          "correctAnswer": "The priests, Aaron's sons",
-          "explanation": "Leviticus 1:5 indicates that the priests, Aaron's sons, shall bring and sprinkle the blood on the altar.",
-          "verseReference": "Leviticus 1:5",
-          "difficulty": "easy"
-        },
-        {
-          "id": "leviticus-1-easy-q6",
-          "question": "Where was the burnt offering to be killed according to Leviticus 1:11?",
-          "type": "multiple-choice",
-          "options": [
-            "On the side of the altar northward",
-            "Outside the camp",
-            "At the entrance of the tabernacle",
-            "Near the river"
-          ],
-          "correctAnswer": "On the side of the altar northward",
-          "explanation": "Leviticus 1:11 states the animal shall be killed on the side of the altar northward before the LORD.",
-          "verseReference": "Leviticus 1:11",
-          "difficulty": "easy"
-        },
-        {
-          "id": "leviticus-1-easy-q7",
-          "question": "True or False: The burnt sacrifice must be a female animal according to Leviticus chapter 1.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "False",
-          "explanation": "Leviticus 1:3 and 1:10 specify the burnt sacrifice must be a male without blemish.",
+          "correctAnswer": "At the door of the tabernacle of the congregation",
+          "explanation": "Leviticus 1:3 says the offering shall be offered at the door of the tabernacle of the congregation before the LORD.",
           "verseReference": "Leviticus 1:3",
           "difficulty": "easy"
         },
         {
-          "id": "leviticus-1-easy-q8",
-          "question": "What parts of the animal were laid in order upon the wood on the altar?",
+          "id": "leviticus-1-easy-q6",
+          "question": "What action must the offerer do with his hand upon the burnt offering?",
           "type": "multiple-choice",
           "options": [
-            "The head and the fat",
-            "The legs and the hide",
-            "The inwards and the legs",
-            "The horns and hooves"
+            "Bless it",
+            "Put his hand upon the head",
+            "Anoint it with oil",
+            "Cut it into pieces"
           ],
-          "correctAnswer": "The head and the fat",
-          "explanation": "Leviticus 1:8 says the priests shall lay the parts, the head, and the fat in order upon the wood on the altar.",
-          "verseReference": "Leviticus 1:8",
+          "correctAnswer": "Put his hand upon the head",
+          "explanation": "Leviticus 1:4 states he shall put his hand upon the head of the burnt offering for atonement.",
+          "verseReference": "Leviticus 1:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "leviticus-1-easy-q7",
+          "question": "What is the purpose of putting the hand upon the burnt offering's head?",
+          "type": "multiple-choice",
+          "options": [
+            "To bless the offering",
+            "To accept it for atonement",
+            "To consecrate the animal",
+            "To designate it for sacrifice"
+          ],
+          "correctAnswer": "To accept it for atonement",
+          "explanation": "Leviticus 1:4 explains that this act causes the offering to be accepted to make atonement for the offerer.",
+          "verseReference": "Leviticus 1:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "leviticus-1-easy-q8",
+          "question": "Who kills the bullock before the LORD?",
+          "type": "multiple-choice",
+          "options": [
+            "The priests",
+            "The offerer",
+            "The Levites",
+            "The elders"
+          ],
+          "correctAnswer": "The offerer",
+          "explanation": "Leviticus 1:5 says he shall kill the bullock before the LORD.",
+          "verseReference": "Leviticus 1:5",
           "difficulty": "easy"
         },
         {
           "id": "leviticus-1-easy-q9",
-          "question": "What was done with the inwards and legs of the burnt offering?",
+          "question": "Who brings the blood and sprinkles it upon the altar?",
           "type": "multiple-choice",
           "options": [
-            "They were washed with water",
-            "They were burned separately",
-            "They were eaten by the priests",
-            "They were thrown away"
+            "The offerer",
+            "Aaron's sons, the priests",
+            "The Levites",
+            "Moses"
           ],
-          "correctAnswer": "They were washed with water",
-          "explanation": "Leviticus 1:9 states that the inwards and legs shall be washed with water.",
-          "verseReference": "Leviticus 1:9",
+          "correctAnswer": "Aaron's sons, the priests",
+          "explanation": "Leviticus 1:5 states the priests, Aaron's sons, shall bring the blood and sprinkle it round about upon the altar.",
+          "verseReference": "Leviticus 1:5",
           "difficulty": "easy"
         },
         {
           "id": "leviticus-1-easy-q10",
-          "question": "If the burnt offering was of fowls, what types of birds were acceptable?",
+          "question": "What must be done to the burnt offering after it is killed?",
           "type": "multiple-choice",
           "options": [
-            "Turtledoves or young pigeons",
-            "Eagles or hawks",
-            "Sparrows or finches",
-            "Owls or crows"
+            "It must be anointed with oil",
+            "It must be flayed and cut into pieces",
+            "It must be washed with water",
+            "It must be buried"
           ],
-          "correctAnswer": "Turtledoves or young pigeons",
-          "explanation": "Leviticus 1:14 specifies turtledoves or young pigeons as acceptable burnt offerings of fowls.",
-          "verseReference": "Leviticus 1:14",
+          "correctAnswer": "It must be flayed and cut into pieces",
+          "explanation": "Leviticus 1:6 commands that the burnt offering shall be flayed and cut into pieces.",
+          "verseReference": "Leviticus 1:6",
           "difficulty": "easy"
         },
         {
           "id": "leviticus-1-easy-q11",
-          "question": "What was done to the head of the bird offering before burning it on the altar?",
-          "type": "multiple-choice",
-          "options": [
-            "The priest wrung off the head",
-            "The person offering cut off the head",
-            "The head was left on intact",
-            "The head was buried"
-          ],
-          "correctAnswer": "The priest wrung off the head",
-          "explanation": "Leviticus 1:15 states the priest shall bring it to the altar and wring off its head.",
-          "verseReference": "Leviticus 1:15",
-          "difficulty": "easy"
-        },
-        {
-          "id": "leviticus-1-easy-q12",
-          "question": "True or False: The blood of the bird offering was wrung out at the side of the altar.",
+          "question": "True or False: The LORD spoke to Moses from the tabernacle of the congregation.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Leviticus 1:15 explains that the blood of the bird was wrung out at the side of the altar.",
-          "verseReference": "Leviticus 1:15",
+          "explanation": "Leviticus 1:1 states that the LORD called unto Moses and spake unto him out of the tabernacle of the congregation.",
+          "verseReference": "Leviticus 1:1",
           "difficulty": "easy"
         },
         {
-          "id": "leviticus-1-easy-q13",
-          "question": "What part of the bird was plucked away and cast beside the altar?",
-          "type": "multiple-choice",
-          "options": [
-            "The crop with its feathers",
-            "The wings",
-            "The feet",
-            "The tail feathers"
-          ],
-          "correctAnswer": "The crop with its feathers",
-          "explanation": "Leviticus 1:16 states the priest shall pluck away the bird's crop with its feathers and cast it beside the altar.",
-          "verseReference": "Leviticus 1:16",
-          "difficulty": "easy"
-        },
-        {
-          "id": "leviticus-1-easy-q14",
-          "question": "Fill in the blank: 'It is a burnt sacrifice, an offering made by _______, of a sweet savour unto the LORD.'",
-          "type": "fill-blank",
-          "options": [
-            "fire",
-            "water",
-            "earth",
-            "wind"
-          ],
-          "correctAnswer": "fire",
-          "explanation": "Leviticus 1:9, 1:13, 1:17 each say the burnt offering is an offering made by fire, a sweet savour unto the LORD.",
-          "verseReference": "Leviticus 1:9",
-          "difficulty": "easy"
-        },
-        {
-          "id": "leviticus-1-easy-q15",
-          "question": "True or False: The burnt offering was to be offered by compulsion and not voluntarily.",
+          "id": "leviticus-1-easy-q12",
+          "question": "True or False: The offering could be any animal from the flock, regardless of blemish.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Leviticus 1:3 says the offering shall be of his own voluntary will.",
+          "explanation": "Leviticus 1:3 and 1:10 specify that the offering must be a male without blemish, showing blemish disqualifies the animal.",
           "verseReference": "Leviticus 1:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "leviticus-1-easy-q13",
+          "question": "True or False: The priests themselves kill the bullock before the LORD.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Leviticus 1:5 says he (the offerer) shall kill the bullock before the LORD; the priests only bring and sprinkle the blood.",
+          "verseReference": "Leviticus 1:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "leviticus-1-easy-q14",
+          "question": "True or False: The burnt offering is considered an offering made by fire, of a sweet savour unto the LORD.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Leviticus 1:9 and other verses describe the burnt sacrifice as an offering made by fire, of a sweet savour unto the LORD.",
+          "verseReference": "Leviticus 1:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "leviticus-1-easy-q15",
+          "question": "In Leviticus 1, which instruction comes first?",
+          "type": "multiple-choice",
+          "options": [
+            "Offer a male without blemish",
+            "Put hand upon the head of the burnt offering",
+            "Speak unto the children of Israel",
+            "Kill the bullock before the LORD"
+          ],
+          "correctAnswer": "Speak unto the children of Israel",
+          "explanation": "Leviticus 1:2 commands speaking unto the children of Israel before instructions about the offering are given in verses 3 and onward.",
+          "verseReference": "Leviticus 1:2",
           "difficulty": "easy"
         }
       ],
@@ -254,238 +252,221 @@
       "questions": [
         {
           "id": "leviticus-1-medium-q1",
-          "question": "A fellow believer is preparing an offering to the LORD. According to Leviticus 1, what is an important requirement for the burnt sacrifice of the herd?",
+          "question": "According to Leviticus 1:7, what is the first action the sons of Aaron the priest must do before placing the wood on the altar?",
           "type": "multiple-choice",
           "options": [
-            "It must be a male without blemish",
-            "It must be a female with spots",
-            "It can be any animal from the herd",
-            "It must be a young animal only"
+            "Lay the wood in order upon the fire",
+            "Put fire upon the altar",
+            "Sprinkle blood on the altar",
+            "Kill the burnt offering"
           ],
-          "correctAnswer": "It must be a male without blemish",
-          "explanation": "Leviticus 1:3 states that the burnt sacrifice from the herd must be a male without blemish, emphasizing obedience and offering our best to God.",
-          "verseReference": "Leviticus 1:3",
+          "correctAnswer": "Put fire upon the altar",
+          "explanation": "Leviticus 1:7 states that the sons of Aaron the priest shall first put fire upon the altar, and then lay the wood in order upon the fire. This shows the sequence of preparing the altar for the burnt offering.",
+          "verseReference": "Leviticus 1:7",
           "difficulty": "medium"
         },
         {
           "id": "leviticus-1-medium-q2",
-          "question": "How does Leviticus 1 teach us about humility and trust in God when offering a sacrifice?",
+          "question": "In Leviticus 1:8, which parts of the burnt offering do the priests place in order upon the wood on the altar?",
           "type": "multiple-choice",
           "options": [
-            "By laying hands on the offering's head before it is accepted",
-            "By choosing the largest animal for the altar",
-            "By offering the sacrifice secretly without priests",
-            "By bringing any animal regardless of condition"
+            "The head and the legs",
+            "The fat and the legs",
+            "The parts, the head, and the fat",
+            "The inwards and the skin"
           ],
-          "correctAnswer": "By laying hands on the offering's head before it is accepted",
-          "explanation": "Leviticus 1:4 shows that placing the hand on the offering's head symbolizes identification and humility before God, trusting Him for atonement.",
-          "verseReference": "Leviticus 1:4",
+          "correctAnswer": "The parts, the head, and the fat",
+          "explanation": "Leviticus 1:8 specifies that the priests, Aaron's sons, shall lay the parts, the head, and the fat in order upon the wood on the fire. This highlights the importance of these particular parts in the burnt offering.",
+          "verseReference": "Leviticus 1:8",
           "difficulty": "medium"
         },
         {
           "id": "leviticus-1-medium-q3",
-          "question": "A believer is struggling with integrity in their daily work. Based on Leviticus 1, what principle about offerings can encourage honest giving?",
+          "question": "What must be done to the inwards and legs of the burnt offering according to Leviticus 1:9?",
           "type": "multiple-choice",
           "options": [
-            "Offerings must be without blemish and given voluntarily",
-            "Offerings can be anything as long as they are given",
-            "Only large animals are acceptable",
-            "Offerings can be made secretly without priests"
+            "They must be burned on the altar",
+            "They must be eaten by the priests",
+            "They must be washed with water",
+            "They must be given to the children of Israel"
           ],
-          "correctAnswer": "Offerings must be without blemish and given voluntarily",
-          "explanation": "Leviticus 1:3 explains offerings must be without blemish and offered voluntarily, teaching us to give honestly and with a pure heart in all we do.",
-          "verseReference": "Leviticus 1:3",
-          "difficulty": "medium"
-        },
-        {
-          "id": "leviticus-1-medium-q4",
-          "question": "What does the instruction to kill the bullock before the LORD and have priests sprinkle the blood around the altar teach us about reverence in worship?",
-          "type": "multiple-choice",
-          "options": [
-            "Worship must be done with reverence and according to God's commands",
-            "Sacrifices can be performed anywhere at any time",
-            "Blood sprinkling is optional",
-            "Only the man offering the sacrifice is involved"
-          ],
-          "correctAnswer": "Worship must be done with reverence and according to God's commands",
-          "explanation": "Leviticus 1:5 emphasizes reverence by having priests handle the blood and perform rituals at the tabernacle, teaching order and respect in worship.",
-          "verseReference": "Leviticus 1:5",
-          "difficulty": "medium"
-        },
-        {
-          "id": "leviticus-1-medium-q5",
-          "question": "How does the process of cutting the burnt offering into pieces and arranging them on the altar relate to spiritual discipline?",
-          "type": "multiple-choice",
-          "options": [
-            "It reflects careful obedience and attention to God's instructions",
-            "It shows that the offering is unimportant",
-            "It allows the offerer to take parts home",
-            "It symbolizes division among the people"
-          ],
-          "correctAnswer": "It reflects careful obedience and attention to God's instructions",
-          "explanation": "Leviticus 1:6-8 teaches that precise preparation of the offering models discipline and obedience in spiritual life.",
-          "verseReference": "Leviticus 1:6-8",
-          "difficulty": "medium"
-        },
-        {
-          "id": "leviticus-1-medium-q6",
-          "question": "A believer is facing temptation to cut corners in their service to God. What instruction from Leviticus 1 encourages perseverance and integrity?",
-          "type": "multiple-choice",
-          "options": [
-            "The entire offering must be burned on the altar as a sweet savor to the LORD",
-            "Only the fat parts need to be offered",
-            "Parts of the offering can be saved for later",
-            "The offering can be made imperfectly"
-          ],
-          "correctAnswer": "The entire offering must be burned on the altar as a sweet savor to the LORD",
-          "explanation": "Leviticus 1:9 and 1:13 teach that the whole offering is to be burned, symbolizing full devotion and perseverance in doing God's will faithfully.",
-          "verseReference": "Leviticus 1:9, 1:13",
-          "difficulty": "medium"
-        },
-        {
-          "id": "leviticus-1-medium-q7",
-          "question": "True or False: According to Leviticus 1, offerings of sheep or goats must also be male without blemish for burnt sacrifices.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Leviticus 1:10 states that burnt offerings from the flock must be male without blemish, teaching us consistency in offering our best.",
-          "verseReference": "Leviticus 1:10",
-          "difficulty": "medium"
-        },
-        {
-          "id": "leviticus-1-medium-q8",
-          "question": "Which of the following best illustrates generosity and stewardship from Leviticus 1's teaching on burnt offerings?",
-          "type": "multiple-choice",
-          "options": [
-            "Giving a perfect, unblemished animal voluntarily",
-            "Giving whatever animal is cheapest",
-            "Giving only when others give",
-            "Giving animals with visible defects"
-          ],
-          "correctAnswer": "Giving a perfect, unblemished animal voluntarily",
-          "explanation": "Leviticus 1:2-3 teaches that offerings should be the best one has and given voluntarily, reflecting generosity and faithful stewardship.",
-          "verseReference": "Leviticus 1:2-3",
-          "difficulty": "medium"
-        },
-        {
-          "id": "leviticus-1-medium-q9",
-          "question": "When a believer offers a burnt sacrifice of birds, what key ritual detail demonstrates obedience to God's Word?",
-          "type": "multiple-choice",
-          "options": [
-            "The priest wrings off the bird’s head and burns it on the altar",
-            "The offerer kills the bird at home",
-            "The bird is offered alive on the altar",
-            "The bird is eaten by the offerer"
-          ],
-          "correctAnswer": "The priest wrings off the bird’s head and burns it on the altar",
-          "explanation": "Leviticus 1:15 describes the priest’s role in preparing bird offerings exactly as God commanded, showing obedience and reverence.",
-          "verseReference": "Leviticus 1:15",
-          "difficulty": "medium"
-        },
-        {
-          "id": "leviticus-1-medium-q10",
-          "question": "How does the washing of the inwards and legs of the offering teach us about purity in our service to God?",
-          "type": "multiple-choice",
-          "options": [
-            "It symbolizes cleansing and preparation, reflecting the need for purity",
-            "It is a casual ritual with no meaning",
-            "It allows the priests to eat those parts",
-            "It shows that only parts of the offering are important"
-          ],
-          "correctAnswer": "It symbolizes cleansing and preparation, reflecting the need for purity",
-          "explanation": "Leviticus 1:9 and 1:13 describe washing parts of the offering, teaching that purity and preparation are essential in our devotion to God.",
-          "verseReference": "Leviticus 1:9, 1:13",
-          "difficulty": "medium"
-        },
-        {
-          "id": "leviticus-1-medium-q11",
-          "question": "A believer wants to grow in gratitude and humility. How does the offering process in Leviticus 1 guide this attitude?",
-          "type": "multiple-choice",
-          "options": [
-            "By requiring the offerer to come voluntarily and bring a perfect offering",
-            "By allowing any offering regardless of condition",
-            "By requiring the offerer to bring offerings secretly",
-            "By allowing priests to select the offerings"
-          ],
-          "correctAnswer": "By requiring the offerer to come voluntarily and bring a perfect offering",
-          "explanation": "Leviticus 1:3 emphasizes voluntary, unblemished offerings, teaching humility and gratitude in giving our best to God.",
-          "verseReference": "Leviticus 1:3",
-          "difficulty": "medium"
-        },
-        {
-          "id": "leviticus-1-medium-q12",
-          "question": "True or False: In Leviticus 1, the priests are responsible for arranging the parts of the offering on the altar and lighting the fire.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Leviticus 1:7-8 shows that the sons of Aaron (priests) prepare the altar fire and arrange the offering, highlighting the importance of order in service.",
-          "verseReference": "Leviticus 1:7-8",
-          "difficulty": "medium"
-        },
-        {
-          "id": "leviticus-1-medium-q13",
-          "question": "How does the detail about not dividing the bird with its wings but cleaving it illustrate contentment and respect in offerings?",
-          "type": "multiple-choice",
-          "options": [
-            "It shows careful respect for God's instructions without unnecessary alteration",
-            "It suggests the bird is to be eaten by the priests",
-            "It means the offering can be divided for others",
-            "It allows the offerer to keep the wings"
-          ],
-          "correctAnswer": "It shows careful respect for God's instructions without unnecessary alteration",
-          "explanation": "Leviticus 1:17 directs how the bird is to be cleaved but not divided, teaching respect for God's precise commands and contentment with His instructions.",
-          "verseReference": "Leviticus 1:17",
-          "difficulty": "medium"
-        },
-        {
-          "id": "leviticus-1-medium-q14",
-          "question": "Fill in the blank: According to Leviticus 1, the burnt offering is an offering made by fire, of a _______ unto the LORD.",
-          "type": "fill-in-the-blank",
-          "options": [
-            "sweet savour",
-            "costly price",
-            "heavy burden",
-            "simple gift"
-          ],
-          "correctAnswer": "sweet savour",
-          "explanation": "Leviticus 1:9, 1:13, and 1:17 describe the burnt offering as an offering made by fire, of a sweet savour unto the LORD, symbolizing pleasing devotion.",
+          "correctAnswer": "They must be washed with water",
+          "explanation": "Leviticus 1:9 explains that the inwards and legs shall be washed in water before the priest burns all on the altar. This washing signifies purification before the sacrifice is completed.",
           "verseReference": "Leviticus 1:9",
           "difficulty": "medium"
         },
         {
-          "id": "leviticus-1-medium-q15",
-          "question": "In the context of church life and fellowship, what does the role of Aaron's sons (priests) in Leviticus 1 teach us?",
+          "id": "leviticus-1-medium-q4",
+          "question": "According to Leviticus 1:10, what kind of offering must be brought if it is from the flocks for a burnt sacrifice?",
           "type": "multiple-choice",
           "options": [
-            "Leaders serve the congregation by faithfully carrying out God's instructions",
-            "Leaders have freedom to change rituals as they please",
-            "Congregation members perform all rituals without leaders",
-            "Leaders only observe and do not participate"
+            "A female without blemish",
+            "A male without blemish",
+            "Any animal from the flock",
+            "A young animal with a blemish"
           ],
-          "correctAnswer": "Leaders serve the congregation by faithfully carrying out God's instructions",
-          "explanation": "Leviticus 1:5, 7-8, 11-12 shows priests actively performing sacred duties, teaching servant leadership and faithfulness in church life.",
-          "verseReference": "Leviticus 1:5, 7-8",
+          "correctAnswer": "A male without blemish",
+          "explanation": "Leviticus 1:10 states that if the burnt offering is from the flocks, such as sheep or goats, it must be a male without blemish, emphasizing the need for a perfect offering.",
+          "verseReference": "Leviticus 1:10",
           "difficulty": "medium"
         },
         {
-          "id": "leviticus-1-medium-q16",
-          "question": "A believer wants to understand the importance of obedience in prayer and devotion. How does Leviticus 1 emphasize this?",
+          "id": "leviticus-1-medium-q5",
+          "question": "Where must the offering from the flocks be killed according to Leviticus 1:11?",
           "type": "multiple-choice",
           "options": [
-            "By requiring offerings to be made precisely according to God's commands",
-            "By allowing each person to decide how to offer",
-            "By suggesting offerings can be symbolic only",
-            "By focusing on the offerer's feelings only"
+            "On the south side of the altar",
+            "On the north side of the altar",
+            "Outside the camp",
+            "Inside the tabernacle"
           ],
-          "correctAnswer": "By requiring offerings to be made precisely according to God's commands",
-          "explanation": "Leviticus 1 throughout the chapter shows detailed instructions for offerings, teaching that obedience in worship reflects true devotion and trust.",
-          "verseReference": "Leviticus 1:2-17",
+          "correctAnswer": "On the north side of the altar",
+          "explanation": "Leviticus 1:11 instructs that the offering shall be killed on the side of the altar northward before the LORD, showing the specific location for the sacrifice.",
+          "verseReference": "Leviticus 1:11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "leviticus-1-medium-q6",
+          "question": "How does Leviticus 1:12 describe the handling of the offering after it is killed?",
+          "type": "multiple-choice",
+          "options": [
+            "It shall be eaten by the priests",
+            "It shall be cut into pieces with the head and fat and laid on the altar wood",
+            "It shall be buried outside the camp",
+            "It shall be given to the Levites"
+          ],
+          "correctAnswer": "It shall be cut into pieces with the head and fat and laid on the altar wood",
+          "explanation": "Leviticus 1:12 explains that the offering shall be cut into pieces, including the head and fat, and the priest shall lay them in order on the wood on the altar, showing the preparation for burning.",
+          "verseReference": "Leviticus 1:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "leviticus-1-medium-q7",
+          "question": "What does Leviticus 1:8-9 teach us about the importance of order and cleanliness in worship?",
+          "type": "multiple-choice",
+          "options": [
+            "Order and cleanliness are unnecessary in worship",
+            "Only the priests need to be clean, not the offerings",
+            "The priests lay parts of the offering in order and wash certain parts before burning, symbolizing reverence and purity",
+            "The offerings are handled carelessly to show humility"
+          ],
+          "correctAnswer": "The priests lay parts of the offering in order and wash certain parts before burning, symbolizing reverence and purity",
+          "explanation": "Verses 8 and 9 show the priests laying parts of the offering in order on the altar and washing the inwards and legs with water before burning, teaching the values of reverence and ritual cleanliness in worship.",
+          "verseReference": "Leviticus 1:8-9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "leviticus-1-medium-q8",
+          "question": "What does Leviticus 1:7-9 suggest about the role of the priests in the burnt offering process?",
+          "type": "multiple-choice",
+          "options": [
+            "They only supervise but do not touch the offering",
+            "They prepare the altar fire, arrange the sacrifice parts, and burn the offering, mediating between God and the people",
+            "They kill the offering themselves",
+            "They eat the burnt offering"
+          ],
+          "correctAnswer": "They prepare the altar fire, arrange the sacrifice parts, and burn the offering, mediating between God and the people",
+          "explanation": "Leviticus 1:7-9 describes the priests putting fire on the altar, arranging the parts, and burning the offering, indicating their role as mediators performing sacred duties for the people.",
+          "verseReference": "Leviticus 1:7-9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "leviticus-1-medium-q9",
+          "question": "Based on Leviticus 1:10-12, what is the significance of bringing an offering without blemish?",
+          "type": "multiple-choice",
+          "options": [
+            "It shows negligence in selection",
+            "It signifies giving God the best and reflects faith and obedience",
+            "It is to save money on animals",
+            "It is only a tradition without meaning"
+          ],
+          "correctAnswer": "It signifies giving God the best and reflects faith and obedience",
+          "explanation": "Verses 10-12 emphasize a male without blemish as the offering, teaching that worship requires integrity, faith, and giving God the best as an act of obedience.",
+          "verseReference": "Leviticus 1:10-12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "leviticus-1-medium-q10",
+          "question": "How does Leviticus 1:9-12 illustrate the connection between obedience to ritual and forgiveness?",
+          "type": "multiple-choice",
+          "options": [
+            "By showing that proper sacrifice rituals lead to atonement and being accepted by God",
+            "By ignoring rituals and focusing on prayers",
+            "By emphasizing sacrifices only for priests",
+            "By focusing on offerings from other nations"
+          ],
+          "correctAnswer": "By showing that proper sacrifice rituals lead to atonement and being accepted by God",
+          "explanation": "Leviticus 1:9-12 details the proper handling of offerings, which makes the burnt sacrifice a sweet savor to the LORD, symbolizing atonement and acceptance when done in obedience.",
+          "verseReference": "Leviticus 1:9-12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "leviticus-1-medium-q11",
+          "question": "True or False: According to Leviticus 1:7-8, the priests are responsible for laying fire and arranging the burnt offering on the altar.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Leviticus 1:7-8 clearly states that the sons of Aaron shall put fire on the altar and arrange the parts of the burnt offering, showing their responsibility in these tasks.",
+          "verseReference": "Leviticus 1:7-8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "leviticus-1-medium-q12",
+          "question": "True or False: Leviticus 1:10 commands that female animals without blemish may be offered as burnt sacrifices from the flock.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Leviticus 1:10 specifies a male without blemish from the flock is required for burnt sacrifices, so female animals are not appropriate for this offering.",
+          "verseReference": "Leviticus 1:10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "leviticus-1-medium-q13",
+          "question": "True or False: Leviticus 1:11 describes the blood of the offering being sprinkled around the altar by the priests.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Leviticus 1:11 states that the priests shall sprinkle the blood round about upon the altar, showing the ritual significance of the blood in the sacrifice.",
+          "verseReference": "Leviticus 1:11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "leviticus-1-medium-q14",
+          "question": "If a believer struggles with understanding the importance of giving their best to God, how does Leviticus 1:3 and 1:10 provide biblical guidance?",
+          "type": "multiple-choice",
+          "options": [
+            "They show that offerings can be imperfect",
+            "They emphasize bringing a male without blemish as a voluntary act, teaching faith, integrity, and honoring God with the best",
+            "They allow for any animal to be offered",
+            "They suggest offerings are optional and unimportant"
+          ],
+          "correctAnswer": "They emphasize bringing a male without blemish as a voluntary act, teaching faith, integrity, and honoring God with the best",
+          "explanation": "Leviticus 1:3 and 1:10 instruct bringing a male without blemish voluntarily, which teaches believers to offer their best to God out of faith and obedience.",
+          "verseReference": "Leviticus 1:3, Leviticus 1:10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "leviticus-1-medium-q15",
+          "question": "What does Leviticus 1:8-9 promise will happen if the priests lay the parts, head, and fat in order upon the wood and wash the inwards and legs as instructed?",
+          "type": "multiple-choice",
+          "options": [
+            "The offering will be rejected",
+            "The offering will be an offering made by fire, of a sweet savour unto the LORD",
+            "The offering must be eaten by the priests",
+            "The offering will have no effect"
+          ],
+          "correctAnswer": "The offering will be an offering made by fire, of a sweet savour unto the LORD",
+          "explanation": "Leviticus 1:8-9 explains that proper arrangement and washing lead to the burnt sacrifice being made by fire, producing a sweet smell to the LORD, symbolizing acceptance and atonement.",
+          "verseReference": "Leviticus 1:8-9",
           "difficulty": "medium"
         }
       ],
@@ -499,7 +480,7 @@
         "bible-quiz",
         "medium"
       ],
-      "totalQuestions": 16,
+      "totalQuestions": 15,
       "estimatedTime": 12
     },
     "hard": {
@@ -512,240 +493,223 @@
       "questions": [
         {
           "id": "leviticus-1-hard-q1",
-          "question": "What is the significance of the offering being a 'male without blemish' in Leviticus 1?",
+          "question": "According to Leviticus 1:13, what must be washed with water before the burnt offering is burned on the altar?",
           "type": "multiple-choice",
           "options": [
-            "It symbolizes purity and perfection required for atonement",
-            "It indicates the animal must be older than one year",
-            "It means the animal must be female",
-            "It refers to the animal being from the flock only"
+            "The inwards and the legs",
+            "The head and the fat",
+            "The horns and hooves",
+            "The wings and feathers"
           ],
-          "correctAnswer": "It symbolizes purity and perfection required for atonement",
-          "explanation": "Leviticus 1:3 and 1:10 emphasize the requirement for a male without blemish, signifying the need for a perfect sacrifice to make atonement, reflecting holiness standards.",
-          "verseReference": "Leviticus 1:3",
+          "correctAnswer": "The inwards and the legs",
+          "explanation": "Leviticus 1:13 states that the inwards and the legs shall be washed with water before the priest burns the entire offering on the altar.",
+          "verseReference": "Leviticus 1:13",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-1-hard-q2",
-          "question": "In Leviticus 1, where is the burnt offering to be presented and offered?",
+          "question": "Leviticus 1:14 introduces burnt offerings of fowls. Which birds are specified for this offering?",
           "type": "multiple-choice",
           "options": [
-            "At the door of the tabernacle of the congregation",
-            "In the outer courtyard of the temple",
-            "On the highest mountain",
-            "In the house of the priest"
+            "Turtledoves or young pigeons",
+            "Sparrows or quails",
+            "Eagles or vultures",
+            "Cranes or storks"
           ],
-          "correctAnswer": "At the door of the tabernacle of the congregation",
-          "explanation": "Leviticus 1:3 specifies that the offering is to be brought at the door of the tabernacle of the congregation, highlighting the centralized location for worship and sacrifice.",
-          "verseReference": "Leviticus 1:3",
+          "correctAnswer": "Turtledoves or young pigeons",
+          "explanation": "Leviticus 1:14 specifically mentions turtledoves or young pigeons as the birds to be brought for burnt offerings to the LORD.",
+          "verseReference": "Leviticus 1:14",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-1-hard-q3",
-          "question": "Who is responsible for sprinkling the blood of the burnt offering around the altar?",
+          "question": "In Leviticus 1:15, what action does the priest perform on the offering before burning it on the altar?",
           "type": "multiple-choice",
           "options": [
-            "The priests, sons of Aaron",
-            "The person offering the sacrifice",
-            "The elders of Israel",
-            "The Levites who guard the tabernacle"
+            "Wring off its head and wring out the blood at the side of the altar",
+            "Cut off its wings and sprinkle the blood on the altar",
+            "Remove its feathers and burn them separately",
+            "Slaughter it and offer the whole body uncut"
           ],
-          "correctAnswer": "The priests, sons of Aaron",
-          "explanation": "Leviticus 1:5 and 1:11 clearly state that the priests, specifically Aaron's sons, are to bring and sprinkle the blood upon the altar, underscoring their priestly role.",
-          "verseReference": "Leviticus 1:5",
+          "correctAnswer": "Wring off its head and wring out the blood at the side of the altar",
+          "explanation": "Leviticus 1:15 explains that the priest shall wring off the bird's head and wring out its blood at the side of the altar before burning it on the altar.",
+          "verseReference": "Leviticus 1:15",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-1-hard-q4",
-          "question": "What is the purpose of the person laying his hand on the head of the burnt offering?",
+          "question": "According to Leviticus 1:16, where is the crop and feathers of the burnt offering bird placed?",
           "type": "multiple-choice",
           "options": [
-            "To make atonement for him",
-            "To claim ownership of the animal",
-            "To bless the animal before sacrifice",
-            "To identify the animal as holy"
+            "Beside the altar on the east part, by the place of the ashes",
+            "On the altar fire itself",
+            "In a separate holy vessel",
+            "Thrown into the river outside the camp"
           ],
-          "correctAnswer": "To make atonement for him",
-          "explanation": "Leviticus 1:4 explains that the laying on of hands is associated with the transfer of sin or guilt, making the offering acceptable for atonement.",
-          "verseReference": "Leviticus 1:4",
+          "correctAnswer": "Beside the altar on the east part, by the place of the ashes",
+          "explanation": "Leviticus 1:16 states the crop with its feathers is plucked away and cast beside the altar on the east part by the place of the ashes.",
+          "verseReference": "Leviticus 1:16",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-1-hard-q5",
-          "question": "Which parts of the burnt offering are specifically laid on the altar fire by the priests?",
+          "question": "Leviticus 1:17 instructs the priest to cleave the burnt offering bird with its wings but not divide it asunder. What is the significance of this action?",
           "type": "multiple-choice",
           "options": [
-            "The parts, the head, and the fat",
-            "The legs and inwards",
-            "The hide and hooves",
-            "The blood and bones"
+            "It symbolizes the completeness of the offering without dismemberment",
+            "It is a method to prepare the bird for cooking",
+            "It is a way to separate clean and unclean parts",
+            "It reflects a pagan ritual custom incorporated into Israelite worship"
           ],
-          "correctAnswer": "The parts, the head, and the fat",
-          "explanation": "Verses 1:8 and 1:12 describe that the priests place the head, fat, and other parts on the altar fire, signifying their special value in the sacrifice.",
-          "verseReference": "Leviticus 1:8",
+          "correctAnswer": "It symbolizes the completeness of the offering without dismemberment",
+          "explanation": "Leviticus 1:17 shows the offering must be cleft with the wings but not divided, emphasizing the offering's integrity and completeness as a burnt sacrifice.",
+          "verseReference": "Leviticus 1:17",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-1-hard-q6",
-          "question": "What happens to the inwards and legs of the burnt offering animal according to Leviticus 1?",
+          "question": "What is a recurring phrase in Leviticus 1:9, 1:13, and 1:17 describing the burnt offering?",
           "type": "multiple-choice",
           "options": [
-            "They are washed with water and not burned on the altar",
-            "They are also burned on the altar",
-            "They are given to the priests as food",
-            "They are buried outside the camp"
+            "An offering made by fire, of a sweet savour unto the LORD",
+            "A sacrifice once for all",
+            "A sin offering to remove guilt",
+            "A peace offering to the congregation"
           ],
-          "correctAnswer": "They are washed with water and not burned on the altar",
-          "explanation": "Leviticus 1:9 and 1:13 specify that the inwards and legs are washed in water, indicating purification, and are not among the parts burned on the altar.",
+          "correctAnswer": "An offering made by fire, of a sweet savour unto the LORD",
+          "explanation": "These verses include the phrase 'an offering made by fire, of a sweet savour unto the LORD,' highlighting the burnt offering's purpose as pleasing to God through the aroma of sacrifice.",
           "verseReference": "Leviticus 1:9",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-1-hard-q7",
-          "question": "According to Leviticus 1, what types of animals could be offered as burnt sacrifices?",
-          "type": "multiple-choice",
-          "options": [
-            "Cattle of the herd, sheep or goats of the flock, and birds like turtledoves or young pigeons",
-            "Only cattle and sheep",
-            "Only goats and birds",
-            "Any animal without restriction"
-          ],
-          "correctAnswer": "Cattle of the herd, sheep or goats of the flock, and birds like turtledoves or young pigeons",
-          "explanation": "Leviticus 1:2 and 1:14 outline that burnt offerings could be from the herd, the flock, or birds such as turtledoves or young pigeons, showing a hierarchy of offerings.",
-          "verseReference": "Leviticus 1:2",
-          "difficulty": "hard"
-        },
-        {
-          "id": "leviticus-1-hard-q8",
-          "question": "What is the meaning of the phrase 'a sweet savour unto the LORD' used repeatedly in Leviticus 1?",
-          "type": "multiple-choice",
-          "options": [
-            "The offering is pleasing and acceptable to God",
-            "The offering literally smells sweet to humans",
-            "The offering is to be eaten by the priests",
-            "The offering is a symbol of earthly wealth"
-          ],
-          "correctAnswer": "The offering is pleasing and acceptable to God",
-          "explanation": "The phrase in Leviticus 1:9, 1:13, and 1:17 expresses that the burnt sacrifice is pleasing to the LORD, symbolizing acceptance and reconciliation.",
-          "verseReference": "Leviticus 1:9",
-          "difficulty": "hard"
-        },
-        {
-          "id": "leviticus-1-hard-q9",
-          "question": "In the ritual for bird offerings, what specific action does the priest perform with the bird's head?",
-          "type": "multiple-choice",
-          "options": [
-            "He wrings off the head and burns it on the altar",
-            "He cuts it off and buries it",
-            "He places it on the altar without removing it",
-            "He offers it to the person making the sacrifice"
-          ],
-          "correctAnswer": "He wrings off the head and burns it on the altar",
-          "explanation": "Leviticus 1:15 describes the priest wringing off the bird's head and burning it on the altar as part of the sacrifice ritual.",
-          "verseReference": "Leviticus 1:15",
-          "difficulty": "hard"
-        },
-        {
-          "id": "leviticus-1-hard-q10",
-          "question": "True or False: The person offering the burnt sacrifice is required to kill the animal before the priests perform any ritual.",
+          "question": "True or False: Leviticus 1:10 states that the burnt offering from the flock must be a female without blemish.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
-          "correctAnswer": "True",
-          "explanation": "Leviticus 1:5 states that the offerer shall kill the bullock before the LORD before the priests proceed with sprinkling the blood and other rituals.",
+          "correctAnswer": "False",
+          "explanation": "Leviticus 1:10 specifies the burnt offering from the flock must be a male without blemish, not female.",
+          "verseReference": "Leviticus 1:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "leviticus-1-hard-q8",
+          "question": "How does the practice of placing the blood around the altar in Leviticus 1:5 and 1:11 foreshadow New Testament themes?",
+          "type": "multiple-choice",
+          "options": [
+            "It prefigures Christ's blood shed for atonement and purification",
+            "It symbolizes pagan purification rites",
+            "It represents the ritual washing of hands",
+            "It anticipates the anointing with oil"
+          ],
+          "correctAnswer": "It prefigures Christ's blood shed for atonement and purification",
+          "explanation": "The sprinkling of blood around the altar in Leviticus prefigures the New Testament theme of Christ's sacrificial blood providing atonement and cleansing (Hebrews 9:12-14).",
           "verseReference": "Leviticus 1:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "leviticus-1-hard-q9",
+          "question": "Which other Old Testament passage echoes the burnt offering instructions in Leviticus 1 and emphasizes the importance of offerings without blemish?",
+          "type": "multiple-choice",
+          "options": [
+            "Exodus 29:38-42",
+            "Genesis 1:1-3",
+            "Deuteronomy 6:4-5",
+            "Psalm 23"
+          ],
+          "correctAnswer": "Exodus 29:38-42",
+          "explanation": "Exodus 29:38-42 details offerings of bulls without blemish and parallels Leviticus 1's requirements showing continuity in Israelite sacrificial worship.",
+          "verseReference": "Leviticus 1:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "leviticus-1-hard-q10",
+          "question": "What Hebrew word is commonly translated as 'sweet savour' in Leviticus 1, and what is its deeper meaning?",
+          "type": "multiple-choice",
+          "options": [
+            "Reiach (רֵיחַ) meaning a pleasant aroma pleasing to God",
+            "Chesed (חֶסֶד) meaning lovingkindness",
+            "Shalom (שָׁלוֹם) meaning peace",
+            "Elohim (אֱלֹהִים) meaning God"
+          ],
+          "correctAnswer": "Reiach (רֵיחַ) meaning a pleasant aroma pleasing to God",
+          "explanation": "The Hebrew word 'reiach' used in Leviticus 1 describes the burnt offering as a pleasant aroma, symbolizing acceptability and delight to God.",
+          "verseReference": "Leviticus 1:9",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-1-hard-q11",
-          "question": "What is the cultural and theological significance of the priests being specifically 'Aaron's sons' in Leviticus 1?",
+          "question": "Leviticus 1:4 describes the offerer putting his hand on the head of the burnt offering. What is the theological significance of this act?",
           "type": "multiple-choice",
           "options": [
-            "It establishes the hereditary priesthood and divine authority for sacrifice",
-            "It means only blood relatives of Moses can serve",
-            "It limits the priesthood to the tribe of Judah",
-            "It is a symbolic title with no real lineage importance"
+            "It symbolizes the transfer of sins and identification with the sacrifice",
+            "It is a gesture of ownership over the animal",
+            "It invokes blessing from the priest",
+            "It marks the animal as holy and untouchable"
           ],
-          "correctAnswer": "It establishes the hereditary priesthood and divine authority for sacrifice",
-          "explanation": "Verses 1:5, 1:7, and 1:8 refer to Aaron's sons as priests, emphasizing the divinely appointed priesthood lineage for sacrificial duties.",
-          "verseReference": "Leviticus 1:5",
+          "correctAnswer": "It symbolizes the transfer of sins and identification with the sacrifice",
+          "explanation": "Placing the hand on the offering's head symbolized the offerer transferring guilt and identifying with the sacrifice, foundational for atonement theology (Leviticus 1:4).",
+          "verseReference": "Leviticus 1:4",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-1-hard-q12",
-          "question": "How does the ritual of the burnt offering in Leviticus 1 foreshadow New Testament themes of atonement?",
+          "question": "In the context of ancient Near Eastern sacrifices, how does the requirement of an unblemished male animal in Leviticus 1 reflect Israel's covenantal holiness?",
           "type": "multiple-choice",
           "options": [
-            "The unblemished offering prefigures Christ’s sinless sacrifice for atonement",
-            "It foreshadows the establishment of the Christian church",
-            "It predicts the destruction of the temple",
-            "It symbolizes the law being abolished"
+            "It emphasizes purity and perfection in offerings to a holy God",
+            "It shows flexibility in sacrificial practices",
+            "It mimics pagan ritual customs",
+            "It indicates economic status of worshippers"
           ],
-          "correctAnswer": "The unblemished offering prefigures Christ’s sinless sacrifice for atonement",
-          "explanation": "The requirement of a male without blemish in Leviticus 1:3 parallels the New Testament portrayal of Christ as the perfect sacrifice (e.g. 1 Peter 1:19).",
+          "correctAnswer": "It emphasizes purity and perfection in offerings to a holy God",
+          "explanation": "The demand for an unblemished male animal symbolizes the need for holiness and perfection in offerings, reflecting Israel's covenant relationship with a holy God distinct from surrounding cultures (Leviticus 1:3,10).",
           "verseReference": "Leviticus 1:3",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-1-hard-q13",
-          "question": "What is the significance of the priest placing fire and wood upon the altar before laying the parts of the offering, as described in Leviticus 1?",
+          "question": "Which New Testament book references the burnt offering as a type for Christ's once-for-all sacrifice, connecting to Leviticus 1?",
           "type": "multiple-choice",
           "options": [
-            "It prepares the altar for the burnt offering, symbolizing readiness to God",
-            "It is a symbolic cleansing of the altar",
-            "It represents the fire of the Holy Spirit descending",
-            "It is a ritual act to honor the elders"
+            "Hebrews",
+            "James",
+            "Revelation",
+            "Acts"
           ],
-          "correctAnswer": "It prepares the altar for the burnt offering, symbolizing readiness to God",
-          "explanation": "Leviticus 1:7 describes the priests placing fire and arranging wood, signifying the altar’s readiness to receive the burnt sacrifice, a key ritual element.",
-          "verseReference": "Leviticus 1:7",
-          "difficulty": "hard"
-        },
-        {
-          "id": "leviticus-1-hard-q14",
-          "question": "Fill in the blank: According to Leviticus 1:16, the priest shall pluck away the bird’s crop with its _____ and cast it beside the altar.",
-          "type": "multiple-choice",
-          "options": [
-            "feathers",
-            "wings",
-            "legs",
-            "head"
-          ],
-          "correctAnswer": "feathers",
-          "explanation": "Leviticus 1:16 instructs that the crop is plucked away with the feathers and cast beside the altar, indicating careful ritual disposal of certain parts.",
-          "verseReference": "Leviticus 1:16",
-          "difficulty": "hard"
-        },
-        {
-          "id": "leviticus-1-hard-q15",
-          "question": "What literary device is evident in the repeated phrase 'an offering made by fire, of a sweet savour unto the LORD' in Leviticus 1?",
-          "type": "multiple-choice",
-          "options": [
-            "Refrain emphasizing the acceptability of the sacrifice",
-            "Metaphor comparing the offering to incense",
-            "Parable illustrating God’s judgment",
-            "Allegory for Israel’s relationship with God"
-          ],
-          "correctAnswer": "Refrain emphasizing the acceptability of the sacrifice",
-          "explanation": "The repeated phrase in verses 1:9, 1:13, and 1:17 serves as a refrain reinforcing the theme that the burnt offering pleases God and is accepted.",
+          "correctAnswer": "Hebrews",
+          "explanation": "The book of Hebrews extensively references and interprets Levitical sacrifices, including burnt offerings, as types fulfilled in Christ's perfect sacrifice (Hebrews 9:11-14).",
           "verseReference": "Leviticus 1:9",
           "difficulty": "hard"
         },
         {
-          "id": "leviticus-1-hard-q16",
-          "question": "Which other biblical book extensively develops the theme of sacrifice that Leviticus 1 introduces?",
+          "id": "leviticus-1-hard-q14",
+          "question": "True or False: According to Leviticus 1, the burnt offering was exclusively a communal sacrifice and could not be brought by individuals.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Leviticus 1:2-3 indicates that any individual could bring a burnt offering voluntarily, making it a personal act of worship, not solely communal.",
+          "verseReference": "Leviticus 1:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "leviticus-1-hard-q15",
+          "question": "Which literary device does Leviticus 1 use by repeatedly ending statements with the phrase 'an offering made by fire, of a sweet savour unto the LORD'?",
           "type": "multiple-choice",
           "options": [
-            "Hebrews",
-            "Psalms",
-            "Genesis",
-            "Revelation"
+            "Inclusio, framing the instructions with a repeated phrase",
+            "Allegory, telling a hidden meaning",
+            "Chiasm, a symmetrical structure",
+            "Metaphor, comparing to unrelated things"
           ],
-          "correctAnswer": "Hebrews",
-          "explanation": "The book of Hebrews in the New Testament elaborates on the typology of sacrifices found in Leviticus, especially focusing on Christ’s ultimate sacrifice.",
-          "verseReference": "Leviticus 1:3",
+          "correctAnswer": "Inclusio, framing the instructions with a repeated phrase",
+          "explanation": "The repeated phrase acts as an inclusio, a literary device that frames the instructions and emphasizes the theme of pleasing offerings to God (Leviticus 1:9,13,17).",
+          "verseReference": "Leviticus 1:9",
           "difficulty": "hard"
         }
       ],
@@ -759,7 +723,7 @@
         "bible-quiz",
         "hard"
       ],
-      "totalQuestions": 16,
+      "totalQuestions": 15,
       "estimatedTime": 15
     },
     "theological": {
@@ -772,242 +736,227 @@
       "questions": [
         {
           "id": "leviticus-1-theological-q1",
-          "question": "According to Leviticus 1, what kind of offering must be brought to the LORD for atonement?",
+          "question": "What does the requirement that the burnt offering must be 'without blemish' (Leviticus 1:3) primarily teach about God's nature?",
           "type": "multiple-choice",
           "options": [
-            "A burnt offering",
-            "A grain offering",
-            "A peace offering",
-            "A sin offering"
+            "God is indifferent to the quality of offerings",
+            "God demands perfection and holiness in worship",
+            "God prefers offerings from the flock over the herd",
+            "God accepts any willing offering regardless of condition"
           ],
-          "correctAnswer": "A burnt offering",
-          "explanation": "Leviticus 1:3-4 teaches that the burnt offering is brought to the LORD for atonement, as the worshipper places his hand on the offering and it is accepted to make atonement. This aligns with Hebrews 9:22, emphasizing that without shedding of blood there is no remission of sins, and with Romans 3:25 where Christ is the propitiation through faith.",
+          "correctAnswer": "God demands perfection and holiness in worship",
+          "explanation": "Leviticus 1:3 requires a male without blemish for the burnt offering, indicating God's demand for purity and holiness in what is offered to Him. This reflects God's perfect and holy nature requiring a fitting sacrifice (cf. Hebrews 9:14).",
           "verseReference": "Leviticus 1:3",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-1-theological-q2",
-          "question": "What specific requirement is given about the animal to be offered as a burnt sacrifice?",
+          "question": "According to Leviticus 1:4, what is the theological significance of the offerer placing his hand upon the head of the burnt offering?",
           "type": "multiple-choice",
           "options": [
-            "It must be a male without blemish",
-            "It must be a female with no defects",
-            "It can be any animal of the flock",
-            "It must be old and weak"
+            "It symbolizes the transfer of sin and identification with the sacrifice",
+            "It is a ritual act to bless the animal",
+            "It signifies the offerer's ownership of the animal",
+            "It is a gesture to calm the animal before sacrifice"
           ],
-          "correctAnswer": "It must be a male without blemish",
-          "explanation": "Leviticus 1:3 and 1:10 specify that the burnt sacrifice must be a male without blemish, symbolizing the perfect and sinless nature required for atonement. This prefigures Christ, the spotless Lamb (1 Peter 1:19), who is without sin (Hebrews 4:15).",
-          "verseReference": "Leviticus 1:3",
+          "correctAnswer": "It symbolizes the transfer of sin and identification with the sacrifice",
+          "explanation": "Leviticus 1:4 states the offerer shall put his hand on the head of the burnt offering, which is a symbolic act representing the transfer of guilt and identification with the sacrifice for atonement (cf. Isaiah 53:6; 2 Corinthians 5:21).",
+          "verseReference": "Leviticus 1:4",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-1-theological-q3",
-          "question": "Where is the offering to be presented and killed according to Leviticus 1?",
+          "question": "What doctrinal truth about atonement is illustrated by the priests sprinkling the blood around the altar as described in Leviticus 1:5?",
           "type": "multiple-choice",
           "options": [
-            "At the door of the tabernacle of the congregation",
-            "In the open field",
-            "In the city gate",
-            "On the mountaintop"
+            "The blood of animals has no significance",
+            "Atonement requires the shedding and application of blood",
+            "Atonement is achieved through verbal confession alone",
+            "The altar is merely decorative"
           ],
-          "correctAnswer": "At the door of the tabernacle of the congregation",
-          "explanation": "Leviticus 1:3-5 instructs that the offering must be presented and killed at the door of the tabernacle, symbolizing approach to God's presence. This echoes the theme of approach to God through sacrifice (Hebrews 10:19).",
-          "verseReference": "Leviticus 1:3",
+          "correctAnswer": "Atonement requires the shedding and application of blood",
+          "explanation": "Leviticus 1:5 shows the priests sprinkling the blood of the burnt offering around the altar, teaching the necessity of blood in atonement, symbolizing life given for sin (cf. Hebrews 9:22).",
+          "verseReference": "Leviticus 1:5",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-1-theological-q4",
-          "question": "Who is responsible for sprinkling the blood of the burnt offering upon the altar?",
+          "question": "In Leviticus 1:6, what does the act of flaying and cutting the burnt offering into pieces teach about the nature of sacrifice?",
           "type": "multiple-choice",
           "options": [
-            "The priests, sons of Aaron",
-            "The individual bringing the offering",
-            "The elders of Israel",
-            "The Levites"
+            "Sacrifices must be partially consumed by the offerer",
+            "Sacrifices symbolize the complete dedication and surrender to God",
+            "Sacrifices should be given only in large portions",
+            "Sacrifices are only symbolic and need no physical preparation"
           ],
-          "correctAnswer": "The priests, sons of Aaron",
-          "explanation": "Leviticus 1:5 states that Aaron's sons, the priests, shall sprinkle the blood on the altar, emphasizing the mediatorial role of the priesthood, prefiguring Christ as our High Priest (Hebrews 4:14-16).",
-          "verseReference": "Leviticus 1:5",
+          "correctAnswer": "Sacrifices symbolize the complete dedication and surrender to God",
+          "explanation": "Leviticus 1:6 requires the burnt offering to be flayed and cut into pieces, symbolizing total dedication and surrender of the whole offering to God, prefiguring Christ's complete sacrifice (cf. Romans 12:1).",
+          "verseReference": "Leviticus 1:6",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-1-theological-q5",
-          "question": "What symbolic action does the worshipper do to the burnt offering before it is killed?",
+          "question": "How does Leviticus 1:7 reveal the attribute of God related to divine order and holiness?",
           "type": "multiple-choice",
           "options": [
-            "He shall put his hand upon the head of the burnt offering",
-            "He shall anoint the animal with oil",
-            "He shall wash the animal",
-            "He shall circumcise the animal"
+            "God is chaotic and accepts disorder",
+            "God is indifferent to how sacrifices are prepared",
+            "God requires orderly and reverent worship",
+            "God demands sacrifices only on mountains"
           ],
-          "correctAnswer": "He shall put his hand upon the head of the burnt offering",
-          "explanation": "Leviticus 1:4 describes the laying on of hands as a symbol of identification and transfer of guilt, signifying the substitutionary aspect of the sacrifice. This is echoed in other sacrificial laws (Leviticus 16:21) and fulfilled in Christ bearing our sins (Isaiah 53:4-6).",
-          "verseReference": "Leviticus 1:4",
-          "difficulty": "hard"
-        },
-        {
-          "id": "leviticus-1-theological-q6",
-          "question": "According to Leviticus 1, what is done with the inwards and legs of the offering?",
-          "type": "multiple-choice",
-          "options": [
-            "They are washed with water",
-            "They are burned on the altar",
-            "They are given to the priests",
-            "They are buried outside the camp"
-          ],
-          "correctAnswer": "They are washed with water",
-          "explanation": "Leviticus 1:9 and 1:13 specify that the inwards and legs are washed with water, symbolizing purification. This cleansing prefigures spiritual purification through the blood of Christ and the washing by the Spirit (Ephesians 5:26).",
-          "verseReference": "Leviticus 1:9",
-          "difficulty": "hard"
-        },
-        {
-          "id": "leviticus-1-theological-q7",
-          "question": "What is the priest instructed to do with the fat and the head of the burnt offering?",
-          "type": "multiple-choice",
-          "options": [
-            "Lay them in order upon the wood on the fire",
-            "Eat them in the holy place",
-            "Throw them into the fire outside the camp",
-            "Give them to the worshipper"
-          ],
-          "correctAnswer": "Lay them in order upon the wood on the fire",
-          "explanation": "Leviticus 1:8 and 1:12 command the priests to lay the head and fat on the altar fire, symbolizing the offering being wholly consumed by God. This points to Christ’s full dedication and pleasing aroma to God (Ephesians 5:2).",
-          "verseReference": "Leviticus 1:8",
-          "difficulty": "hard"
-        },
-        {
-          "id": "leviticus-1-theological-q8",
-          "question": "What types of birds are acceptable for a burnt sacrifice according to Leviticus 1?",
-          "type": "multiple-choice",
-          "options": [
-            "Turtledoves or young pigeons",
-            "Eagles or ravens",
-            "Sparrows or crows",
-            "Owls or hawks"
-          ],
-          "correctAnswer": "Turtledoves or young pigeons",
-          "explanation": "Leviticus 1:14 specifies turtledoves or young pigeons as acceptable bird offerings, symbolizing humble and accessible offerings for those who could not afford larger animals. This highlights the inclusiveness of atonement, as Christ’s sacrifice is sufficient for all (Luke 2:24).",
-          "verseReference": "Leviticus 1:14",
-          "difficulty": "hard"
-        },
-        {
-          "id": "leviticus-1-theological-q9",
-          "question": "How is the bird offering prepared on the altar?",
-          "type": "multiple-choice",
-          "options": [
-            "Its head is wrung off and it is burned on the altar",
-            "It is slaughtered and eaten by the priest",
-            "It is released as a living sacrifice",
-            "It is buried at the base of the altar"
-          ],
-          "correctAnswer": "Its head is wrung off and it is burned on the altar",
-          "explanation": "Leviticus 1:15-17 describe the priest wringing off the bird's head and burning it on the altar, symbolizing the complete surrender and acceptance by God. This foreshadows the finality of Christ's sacrifice (Hebrews 10:10).",
-          "verseReference": "Leviticus 1:15",
-          "difficulty": "hard"
-        },
-        {
-          "id": "leviticus-1-theological-q10",
-          "question": "What is the significance of the burnt offering being described as 'a sweet savour unto the LORD'?",
-          "type": "multiple-choice",
-          "options": [
-            "It symbolizes God's acceptance and pleasure",
-            "It signifies the physical fragrance of the offering",
-            "It indicates the offering is edible",
-            "It means the offering is expensive"
-          ],
-          "correctAnswer": "It symbolizes God's acceptance and pleasure",
-          "explanation": "Leviticus 1:9, 1:13, 1:17 emphasize the burnt offering as a sweet savour, symbolizing divine acceptance. This metaphor is also used in Ephesians 5:2 referring to Christ's sacrifice as a fragrant offering to God.",
-          "verseReference": "Leviticus 1:9",
-          "difficulty": "hard"
-        },
-        {
-          "id": "leviticus-1-theological-q11",
-          "question": "Which theological theme is primarily illustrated by the requirement that the burnt offering be without blemish?",
-          "type": "multiple-choice",
-          "options": [
-            "The holiness and perfection required for atonement",
-            "The abundance of God's provision",
-            "The diversity of acceptable sacrifices",
-            "The human ability to earn salvation"
-          ],
-          "correctAnswer": "The holiness and perfection required for atonement",
-          "explanation": "Leviticus 1:3 and 1:10 require a male without blemish, emphasizing God's demand for holiness and perfection in sacrifices. This points to the sinlessness of Christ (Hebrews 7:26) as the perfect atoning sacrifice.",
-          "verseReference": "Leviticus 1:3",
-          "difficulty": "hard"
-        },
-        {
-          "id": "leviticus-1-theological-q12",
-          "question": "What does the act of killing the bullock before the LORD signify in Leviticus 1:5?",
-          "type": "multiple-choice",
-          "options": [
-            "Acknowledgement of God's sovereignty over life and death",
-            "A communal meal for the people",
-            "A symbolic act of mourning",
-            "An offering of thanksgiving"
-          ],
-          "correctAnswer": "Acknowledgement of God's sovereignty over life and death",
-          "explanation": "Leviticus 1:5 states the bullock is killed before the LORD, signifying submission to God's authority. This prefigures the ultimate sacrifice of Christ, whose death was according to God's will (Acts 2:23).",
-          "verseReference": "Leviticus 1:5",
-          "difficulty": "hard"
-        },
-        {
-          "id": "leviticus-1-theological-q13",
-          "question": "In Leviticus 1, who brings the fire and arranges the wood on the altar?",
-          "type": "multiple-choice",
-          "options": [
-            "The sons of Aaron the priest",
-            "The individual offering the sacrifice",
-            "The elders of Israel",
-            "The Levites"
-          ],
-          "correctAnswer": "The sons of Aaron the priest",
-          "explanation": "Leviticus 1:7 specifies that the sons of Aaron, the priests, put fire on the altar and arrange the wood, indicating their role in maintaining the divine worship. This prefigures Christ as the eternal High Priest (Hebrews 7:23-27).",
+          "correctAnswer": "God requires orderly and reverent worship",
+          "explanation": "Leviticus 1:7 describes priests putting fire and ordering the wood on the altar, reflecting God's attribute of holiness manifested in order and reverence in worship (cf. 1 Corinthians 14:40).",
           "verseReference": "Leviticus 1:7",
           "difficulty": "hard"
         },
         {
-          "id": "leviticus-1-theological-q14",
-          "question": "Which of the following best expresses the purpose of the burnt offering as taught in Leviticus 1?",
+          "id": "leviticus-1-theological-q6",
+          "question": "What combined theological truth do Leviticus 1:8 and Leviticus 1:9 teach about the burnt offering?",
           "type": "multiple-choice",
           "options": [
-            "To make atonement and express complete surrender to God",
-            "To provide food for the priests and Levites",
-            "To celebrate a harvest festival",
-            "To fulfill a vow for material blessings"
+            "The burnt offering is a partial gift to God",
+            "The burnt offering is completely consumed by fire as a pleasing aroma to God",
+            "The burnt offering is shared between the priests and the offerer",
+            "The burnt offering is reserved for feast days only"
           ],
-          "correctAnswer": "To make atonement and express complete surrender to God",
-          "explanation": "Leviticus 1:4-9 describes the burnt offering as a means of atonement and total dedication to God, consumed entirely by fire. This reflects the doctrine of substitutionary atonement and sanctification (Isaiah 1:11-17; Romans 12:1).",
-          "verseReference": "Leviticus 1:4",
+          "correctAnswer": "The burnt offering is completely consumed by fire as a pleasing aroma to God",
+          "explanation": "Leviticus 1:8 and 1:9 together show the priests laying the parts on the fire and burning all as an offering by fire, producing a sweet savor to the LORD, indicating total consumption symbolizing complete consecration and acceptance by God (cf. Ephesians 5:2).",
+          "verseReference": "Leviticus 1:8, Leviticus 1:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "leviticus-1-theological-q7",
+          "question": "What does Leviticus 1:10 teach about the inclusiveness of sacrificial offerings in Israel's worship?",
+          "type": "multiple-choice",
+          "options": [
+            "Only cattle from the herd could be offered",
+            "Offerings could only be grain or fruit",
+            "Both sheep and goats of the flock could be offered as burnt sacrifices",
+            "Only birds were acceptable offerings"
+          ],
+          "correctAnswer": "Both sheep and goats of the flock could be offered as burnt sacrifices",
+          "explanation": "Leviticus 1:10 specifies that burnt sacrifices could be from the flock, including sheep or goats, showing God’s provision for varied acceptable offerings from different animals (cf. Hebrews 10:4).",
+          "verseReference": "Leviticus 1:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "leviticus-1-theological-q8",
+          "question": "What significance does the direction 'northward' have in the killing of the burnt offering as stated in Leviticus 1:11?",
+          "type": "multiple-choice",
+          "options": [
+            "It indicates the offering was made secretly",
+            "It symbolizes God’s presence and divine order in the sanctuary",
+            "It was a random instruction with no meaning",
+            "It shows the offerer’s preference"
+          ],
+          "correctAnswer": "It symbolizes God’s presence and divine order in the sanctuary",
+          "explanation": "Leviticus 1:11 commands killing the offering on the north side of the altar, reflecting the sacred order and God’s presence in the tabernacle layout, emphasizing reverence and divine appointment (cf. Exodus 26:35).",
+          "verseReference": "Leviticus 1:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "leviticus-1-theological-q9",
+          "question": "According to Leviticus 1:12, what does the priest’s role in laying the head and fat on the altar fire teach about priestly mediation?",
+          "type": "multiple-choice",
+          "options": [
+            "The priest serves only as an observer",
+            "The priest actively mediates the offerer’s dedication to God",
+            "The priest personally consumes the fat",
+            "The priest chooses which offerings to accept"
+          ],
+          "correctAnswer": "The priest actively mediates the offerer’s dedication to God",
+          "explanation": "Leviticus 1:12 shows the priest laying the parts on the altar fire, indicating the priest’s mediatory role presenting the offering before God on behalf of the people (cf. Hebrews 5:1).",
+          "verseReference": "Leviticus 1:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "leviticus-1-theological-q10",
+          "question": "What doctrinal insight is gained by combining Leviticus 1:14 and Leviticus 1:15 regarding the offerings of birds?",
+          "type": "multiple-choice",
+          "options": [
+            "Bird offerings were optional and symbolic",
+            "Bird offerings represented a humble and accessible sacrifice for those unable to provide cattle or sheep",
+            "Only pigeons were acceptable offerings",
+            "Bird offerings did not involve the priest"
+          ],
+          "correctAnswer": "Bird offerings represented a humble and accessible sacrifice for those unable to provide cattle or sheep",
+          "explanation": "Leviticus 1:14–15 describes offerings of turtledoves or young pigeons and the priest’s handling, showing God’s provision for the poor to approach Him through humble sacrifices, emphasizing grace and accessibility (cf. Luke 2:24).",
+          "verseReference": "Leviticus 1:14, Leviticus 1:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "leviticus-1-theological-q11",
+          "question": "What attribute of God is revealed through His acceptance of burnt offerings 'of a sweet savour' as stated in Leviticus 1:17?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s wrath alone",
+            "God’s delight in worship and atonement",
+            "God’s indifference to offerings",
+            "God’s partiality to certain animals"
+          ],
+          "correctAnswer": "God’s delight in worship and atonement",
+          "explanation": "Leviticus 1:17 says the burnt sacrifice is 'of a sweet savour unto the LORD,' revealing God's delight in worship offered in obedience and His gracious acceptance of atonement (cf. Psalm 51:16-17).",
+          "verseReference": "Leviticus 1:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "leviticus-1-theological-q12",
+          "question": "Sceptics claim that animal sacrifices in Leviticus 1:1-17 promote superstition and cruelty. What does Leviticus 1:1-17 actually teach about the purpose of these sacrifices?",
+          "type": "multiple-choice",
+          "options": [
+            "They are meaningless rituals with no spiritual significance",
+            "They teach the necessity of atonement and foreshadow Christ’s perfect sacrifice",
+            "They encourage violence for personal gain",
+            "They are purely cultural traditions with no divine command"
+          ],
+          "correctAnswer": "They teach the necessity of atonement and foreshadow Christ’s perfect sacrifice",
+          "explanation": "Leviticus 1:1-17 shows God’s detailed instructions for atoning burnt offerings, symbolizing the seriousness of sin and the need for substitutionary sacrifice, ultimately fulfilled in Christ’s once-for-all sacrifice (cf. Hebrews 10:1-14).",
+          "verseReference": "Leviticus 1:1-17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "leviticus-1-theological-q13",
+          "question": "What combined doctrinal teaching do Leviticus 1:4 and Leviticus 1:5 provide about the relationship between the offerer, the sacrifice, and God?",
+          "type": "multiple-choice",
+          "options": [
+            "The offerer worships independently of the sacrifice",
+            "The sacrifice is a symbolic act of atonement with identification and the shedding of blood before God",
+            "The offerer performs the sacrifice alone without priestly involvement",
+            "The blood is irrelevant to the sacrifice’s acceptance"
+          ],
+          "correctAnswer": "The sacrifice is a symbolic act of atonement with identification and the shedding of blood before God",
+          "explanation": "Leviticus 1:4 has the offerer lay hands on the offering, signifying identification, and 1:5 requires killing and blood sprinkling by priests, teaching atonement through substitution and blood before God (cf. Romans 3:25).",
+          "verseReference": "Leviticus 1:4, Leviticus 1:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "leviticus-1-theological-q14",
+          "question": "How does Leviticus 1:13 contribute to the understanding of sanctification in the sacrificial system?",
+          "type": "multiple-choice",
+          "options": [
+            "Sanctification is unrelated to sacrifices",
+            "Washing the inwards and legs symbolizes cleansing, reflecting the need for holiness in approach to God",
+            "The washing was only for hygiene",
+            "Sanctification is purely external and ritualistic"
+          ],
+          "correctAnswer": "Washing the inwards and legs symbolizes cleansing, reflecting the need for holiness in approach to God",
+          "explanation": "Leviticus 1:13 commands washing the inwards and legs, symbolizing purification and sanctification necessary for acceptable offerings, paralleling the believer’s need for holiness (cf. Psalm 51:7).",
+          "verseReference": "Leviticus 1:13",
           "difficulty": "hard"
         },
         {
           "id": "leviticus-1-theological-q15",
-          "question": "What detail in Leviticus 1 indicates that the burnt offering was a voluntary act of worship?",
+          "question": "What narrative arc connection does Leviticus 1:2 establish in the broader redemptive story of Scripture?",
           "type": "multiple-choice",
           "options": [
-            "It shall be offered of his own voluntary will",
-            "It must be offered daily",
-            "It is commanded by public law",
-            "It is given only by the priests"
+            "It introduces the idea that offerings are unnecessary",
+            "It shows God’s covenant relationship initiating worship and atonement practices for Israel",
+            "It emphasizes Israel’s independence from God",
+            "It rejects the concept of sacrifice"
           ],
-          "correctAnswer": "It shall be offered of his own voluntary will",
-          "explanation": "Leviticus 1:3 states the offering is brought 'of his own voluntary will,' highlighting worship as a free act of devotion, prefiguring the believer’s free response to God’s grace (2 Corinthians 9:7).",
-          "verseReference": "Leviticus 1:3",
-          "difficulty": "hard"
-        },
-        {
-          "id": "leviticus-1-theological-q16",
-          "question": "How does the preparation of the offering in Leviticus 1 reflect the holiness of God?",
-          "type": "multiple-choice",
-          "options": [
-            "The offering is without blemish and wholly consumed by fire",
-            "The offering is shared with the community",
-            "The offering is hidden from the people",
-            "The offering is made only on special occasions"
-          ],
-          "correctAnswer": "The offering is without blemish and wholly consumed by fire",
-          "explanation": "Leviticus 1:3 and 1:9 emphasize the offering must be perfect and fully burned, signifying God's absolute holiness and the need for a perfect sacrifice, a theme echoed in Hebrews 9:14 and 1 John 1:7.",
-          "verseReference": "Leviticus 1:3",
+          "correctAnswer": "It shows God’s covenant relationship initiating worship and atonement practices for Israel",
+          "explanation": "Leviticus 1:2 commands Israel to bring offerings to the LORD, marking the covenantal framework where God institutes worship and atonement, continuing the redemptive narrative from Exodus and pointing forward to Christ (cf. Exodus 19:5-6).",
+          "verseReference": "Leviticus 1:2",
           "difficulty": "hard"
         }
       ],
@@ -1021,7 +970,7 @@
         "bible-quiz",
         "theological"
       ],
-      "totalQuestions": 16,
+      "totalQuestions": 15,
       "estimatedTime": 25
     }
   }

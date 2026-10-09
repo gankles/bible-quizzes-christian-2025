@@ -13,13 +13,13 @@
       "questions": [
         {
           "id": "genesis-25-easy-q1",
-          "question": "Who was the wife Abraham took after Sarah's death?",
+          "question": "Who was the wife that Abraham took after Sarah?",
           "type": "multiple-choice",
           "options": [
             "Keturah",
             "Rebekah",
             "Hagar",
-            "Sarah"
+            "Leah"
           ],
           "correctAnswer": "Keturah",
           "explanation": "Genesis 25:1 states that Abraham took a wife named Keturah after Sarah.",
@@ -28,206 +28,204 @@
         },
         {
           "id": "genesis-25-easy-q2",
-          "question": "Which of the following was NOT a son of Keturah?",
+          "question": "Which of the following was NOT a son of Keturah mentioned in Genesis 25?",
           "type": "multiple-choice",
           "options": [
             "Zimran",
             "Jokshan",
-            "Midian",
-            "Esau"
+            "Esau",
+            "Midian"
           ],
           "correctAnswer": "Esau",
-          "explanation": "Esau was not a son of Keturah; he was a son of Isaac, as per Genesis 25:1-4 and 25:25.",
+          "explanation": "Genesis 25:2 lists the sons of Keturah as Zimran, Jokshan, Medan, Midian, Ishbak, and Shuah; Esau is not among them.",
           "verseReference": "Genesis 25:2",
           "difficulty": "easy"
         },
         {
           "id": "genesis-25-easy-q3",
-          "question": "How many sons did Jokshan have according to Genesis 25?",
+          "question": "Who were the sons of Dedan according to Genesis 25?",
           "type": "multiple-choice",
           "options": [
-            "2",
-            "3",
-            "4",
-            "5"
+            "Asshurim, Letushim, Leummim",
+            "Ephah, Epher, Hanoch",
+            "Nebajoth, Kedar, Adbeel",
+            "Zimran, Jokshan, Medan"
           ],
-          "correctAnswer": "2",
-          "explanation": "Jokshan begat Sheba and Dedan, making two sons as per Genesis 25:3.",
+          "correctAnswer": "Asshurim, Letushim, Leummim",
+          "explanation": "Genesis 25:3 states that the sons of Dedan were Asshurim, Letushim, and Leummim.",
           "verseReference": "Genesis 25:3",
           "difficulty": "easy"
         },
         {
           "id": "genesis-25-easy-q4",
-          "question": "To whom did Abraham give all that he had?",
+          "question": "Which sons belonged to Midian, the child of Keturah?",
           "type": "multiple-choice",
           "options": [
-            "Ishmael",
-            "Isaac",
-            "The sons of the concubines",
-            "Jokshan"
+            "Ephah, Epher, Hanoch, Abida, Eldaah",
+            "Sheba, Dedan",
+            "Asshurim, Letushim, Leummim",
+            "Nebajoth, Kedar, Adbeel"
           ],
-          "correctAnswer": "Isaac",
-          "explanation": "Abraham gave all that he had unto Isaac according to Genesis 25:5.",
-          "verseReference": "Genesis 25:5",
+          "correctAnswer": "Ephah, Epher, Hanoch, Abida, Eldaah",
+          "explanation": "Genesis 25:4 lists the sons of Midian as Ephah, Epher, Hanoch, Abida, and Eldaah.",
+          "verseReference": "Genesis 25:4",
           "difficulty": "easy"
         },
         {
           "id": "genesis-25-easy-q5",
+          "question": "To whom did Abraham give all that he had?",
+          "type": "multiple-choice",
+          "options": [
+            "Isaac",
+            "Ishmael",
+            "The sons of concubines",
+            "Keturah"
+          ],
+          "correctAnswer": "Isaac",
+          "explanation": "Genesis 25:5 clearly states that Abraham gave all that he had unto Isaac.",
+          "verseReference": "Genesis 25:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-25-easy-q6",
           "question": "What did Abraham do with the sons of his concubines?",
           "type": "multiple-choice",
           "options": [
             "Gave them gifts and sent them away eastward",
             "Gave them all his inheritance",
-            "Kept them with Isaac",
-            "Sent them to Egypt"
+            "Sent them to Egypt",
+            "Kept them near Isaac"
           ],
           "correctAnswer": "Gave them gifts and sent them away eastward",
-          "explanation": "Genesis 25:6 explains Abraham gave gifts to the sons of his concubines and sent them away eastward.",
+          "explanation": "Genesis 25:6 says Abraham gave gifts to the sons of his concubines and sent them away from Isaac eastward.",
           "verseReference": "Genesis 25:6",
           "difficulty": "easy"
         },
         {
-          "id": "genesis-25-easy-q6",
-          "question": "How old was Abraham when he died?",
+          "id": "genesis-25-easy-q7",
+          "question": "How long did Abraham live according to Genesis 25?",
           "type": "multiple-choice",
           "options": [
-            "100 years",
-            "115 years",
-            "175 years",
-            "137 years"
+            "One hundred and seventy-five years",
+            "One hundred and sixty-five years",
+            "One hundred and thirty-seven years",
+            "One hundred and twenty years"
           ],
-          "correctAnswer": "175 years",
+          "correctAnswer": "One hundred and seventy-five years",
           "explanation": "Genesis 25:7 states Abraham lived an hundred threescore and fifteen years, which is 175 years.",
           "verseReference": "Genesis 25:7",
           "difficulty": "easy"
         },
         {
-          "id": "genesis-25-easy-q7",
-          "question": "Where was Abraham buried?",
-          "type": "multiple-choice",
-          "options": [
-            "In the cave of Machpelah",
-            "In Egypt",
-            "In Beersheba",
-            "In Padanaram"
-          ],
-          "correctAnswer": "In the cave of Machpelah",
-          "explanation": "Genesis 25:9-10 states that Abraham was buried in the cave of Machpelah purchased from the sons of Heth.",
-          "verseReference": "Genesis 25:9",
-          "difficulty": "easy"
-        },
-        {
           "id": "genesis-25-easy-q8",
-          "question": "Who buried Abraham?",
+          "question": "Who buried Abraham after his death?",
           "type": "multiple-choice",
           "options": [
             "Isaac and Ishmael",
-            "Jacob and Esau",
-            "Abraham's sons by Keturah",
-            "Laban"
+            "Isaac alone",
+            "Ishmael alone",
+            "Keturah’s sons"
           ],
           "correctAnswer": "Isaac and Ishmael",
-          "explanation": "Genesis 25:9 tells us Isaac and Ishmael buried Abraham.",
+          "explanation": "Genesis 25:9 says Abraham's sons Isaac and Ishmael buried him in the cave of Machpelah.",
           "verseReference": "Genesis 25:9",
           "difficulty": "easy"
         },
         {
           "id": "genesis-25-easy-q9",
-          "question": "How many sons did Ishmael have according to Genesis 25?",
+          "question": "Where was Abraham buried?",
           "type": "multiple-choice",
           "options": [
-            "10",
-            "11",
-            "12",
-            "13"
+            "In the cave of Machpelah, in the field of Ephron the Hittite",
+            "In Egypt",
+            "In the city of Mamre",
+            "In Padanaram"
           ],
-          "correctAnswer": "12",
-          "explanation": "Genesis 25:16 states Ishmael had twelve princes according to their nations.",
-          "verseReference": "Genesis 25:16",
+          "correctAnswer": "In the cave of Machpelah, in the field of Ephron the Hittite",
+          "explanation": "Genesis 25:9-10 describe Abraham's burial in the cave of Machpelah, in the field of Ephron the son of Zohar the Hittite.",
+          "verseReference": "Genesis 25:9",
           "difficulty": "easy"
         },
         {
           "id": "genesis-25-easy-q10",
-          "question": "Where did the descendants of Ishmael dwell?",
+          "question": "After Abraham’s death, where did God bless Isaac to dwell?",
           "type": "multiple-choice",
           "options": [
-            "From Havilah to Shur",
-            "In Canaan",
+            "By the well Lahairoi",
             "In Egypt",
-            "In Padanaram"
+            "In Padanaram",
+            "In the land of Midian"
           ],
-          "correctAnswer": "From Havilah to Shur",
-          "explanation": "Genesis 25:18 says the descendants of Ishmael dwelt from Havilah to Shur, before Egypt going toward Assyria.",
-          "verseReference": "Genesis 25:18",
+          "correctAnswer": "By the well Lahairoi",
+          "explanation": "Genesis 25:11 says that after Abraham’s death God blessed Isaac and he dwelt by the well Lahairoi.",
+          "verseReference": "Genesis 25:11",
           "difficulty": "easy"
         },
         {
           "id": "genesis-25-easy-q11",
-          "question": "At what age did Isaac take Rebekah as his wife?",
+          "question": "Who was the mother of Ishmael?",
           "type": "multiple-choice",
           "options": [
-            "20 years",
-            "30 years",
-            "40 years",
-            "50 years"
+            "Hagar the Egyptian",
+            "Keturah",
+            "Sarah",
+            "Rebekah"
           ],
-          "correctAnswer": "40 years",
-          "explanation": "Genesis 25:20 states Isaac was forty years old when he took Rebekah to wife.",
-          "verseReference": "Genesis 25:20",
+          "correctAnswer": "Hagar the Egyptian",
+          "explanation": "Genesis 25:12 states that Ishmael was born to Abraham by Hagar the Egyptian, Sarah's handmaid.",
+          "verseReference": "Genesis 25:12",
           "difficulty": "easy"
         },
         {
           "id": "genesis-25-easy-q12",
-          "question": "True or False: Isaac loved Jacob more than Esau.",
+          "question": "True or False: Abraham gave gifts to the sons of his concubines and sent them away eastward while he was still alive.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Genesis 25:6 confirms that Abraham gave gifts to the sons of his concubines and sent them away eastward while he yet lived.",
+          "verseReference": "Genesis 25:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-25-easy-q13",
+          "question": "True or False: Abraham was buried in the city of Mamre.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Genesis 25:28 says Isaac loved Esau because he ate of his venison, while Rebekah loved Jacob.",
-          "verseReference": "Genesis 25:28",
-          "difficulty": "easy"
-        },
-        {
-          "id": "genesis-25-easy-q13",
-          "question": "True or False: Esau sold his birthright to Jacob for bread and pottage of lentiles.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Genesis 25:34 confirms Esau sold his birthright to Jacob for bread and pottage of lentiles.",
-          "verseReference": "Genesis 25:34",
+          "explanation": "Genesis 25:9 clarifies Abraham was buried in the cave of Machpelah in the field of Ephron the Hittite, which is before Mamre, not in the city itself.",
+          "verseReference": "Genesis 25:9",
           "difficulty": "easy"
         },
         {
           "id": "genesis-25-easy-q14",
-          "question": "True or False: The elder son would serve the younger as told to Rebekah by the LORD.",
+          "question": "True or False: Isaac was the only son of Abraham mentioned as receiving all his possessions.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Genesis 25:23 states the LORD told Rebekah that the elder would serve the younger.",
-          "verseReference": "Genesis 25:23",
+          "explanation": "Genesis 25:5 states that Abraham gave all that he had unto Isaac alone.",
+          "verseReference": "Genesis 25:5",
           "difficulty": "easy"
         },
         {
           "id": "genesis-25-easy-q15",
-          "question": "Complete the verse from Genesis 25:25: 'And the first came out red, all over like an ______ garment; and they called his name Esau.'",
-          "type": "fill-blank",
+          "question": "True or False: The sons of Ishmael were twelve princes according to their nations.",
+          "type": "true-false",
           "options": [
-            "hairy",
-            "shiny",
-            "golden",
-            "smooth"
+            "True",
+            "False"
           ],
-          "correctAnswer": "hairy",
-          "explanation": "Genesis 25:25 describes Esau as coming out red, all over like a hairy garment.",
-          "verseReference": "Genesis 25:25",
+          "correctAnswer": "True",
+          "explanation": "Genesis 25:16 states Ishmael’s sons were twelve princes according to their nations.",
+          "verseReference": "Genesis 25:16",
           "difficulty": "easy"
         }
       ],
@@ -254,223 +252,229 @@
       "questions": [
         {
           "id": "genesis-25-medium-q1",
-          "question": "A fellow believer is struggling with family favoritism and asks for guidance. Based on Genesis 25, what biblical truth would you share about loving all children fairly?",
+          "question": "According to Genesis 25, who was the firstborn son of Ishmael?",
           "type": "multiple-choice",
           "options": [
-            "Favoritism can cause division and hurt; love all children equally as Isaac and Rebekah struggled with choosing favorites",
-            "Favoring the stronger child is wise because they will lead the family",
-            "Favoritism is acceptable if it benefits the family financially",
-            "It is best to openly declare favorites to avoid confusion"
+            "Nebajoth",
+            "Kedar",
+            "Adbeel",
+            "Mibsam"
           ],
-          "correctAnswer": "Favoritism can cause division and hurt; love all children equally as Isaac and Rebekah struggled with choosing favorites",
-          "explanation": "Genesis 25:27-28 shows Isaac loved Esau but Rebekah loved Jacob, illustrating favoritism in families. This can lead to conflict and division, so the biblical principle is to love all children fairly. See also Genesis 25:22-23 and 25:34 for the consequences of favoritism.",
-          "verseReference": "Genesis 25:27",
+          "correctAnswer": "Nebajoth",
+          "explanation": "Genesis 25:13 states that the firstborn of Ishmael was Nebajoth, followed by Kedar, Adbeel, and Mibsam.",
+          "verseReference": "Genesis 25:13",
           "difficulty": "medium"
         },
         {
           "id": "genesis-25-medium-q2",
-          "question": "How does Genesis 25 teach us about the importance of prayer and trusting God during trials in marriage?",
+          "question": "How many sons did Ishmael have according to Genesis 25, and what significance did they hold?",
           "type": "multiple-choice",
           "options": [
-            "Isaac prayed for Rebekah when she was barren, showing trust in God's power to bless",
-            "Prayer is unnecessary because God has predetermined all outcomes",
-            "Marriage problems should be solved only by human effort, not prayer",
-            "Trust in God is secondary to seeking medical help"
+            "10 sons; twelve princes",
+            "12 sons; twelve princes",
+            "12 sons; ten princes",
+            "10 sons; ten princes"
           ],
-          "correctAnswer": "Isaac prayed for Rebekah when she was barren, showing trust in God's power to bless",
-          "explanation": "Genesis 25:21 shows Isaac pleading with the LORD because Rebekah was barren, and God answered his prayer. This teaches us the importance of prayer and trusting God in marital trials. See also Genesis 25:22-23 for God's sovereign response.",
-          "verseReference": "Genesis 25:21",
+          "correctAnswer": "12 sons; twelve princes",
+          "explanation": "Genesis 25:16 explains that Ishmael had twelve sons who became twelve princes according to their nations, indicating their leadership and significance.",
+          "verseReference": "Genesis 25:16",
           "difficulty": "medium"
         },
         {
           "id": "genesis-25-medium-q3",
-          "question": "A believer is tempted to take advantage of a family member's weakness. Based on Genesis 25, what cautionary lesson about integrity and honesty can you share?",
+          "question": "Where did the descendants of Ishmael dwell as recorded in Genesis 25?",
           "type": "multiple-choice",
           "options": [
-            "Esau sold his birthright for immediate gratification, showing the danger of sacrificing integrity for temporary gain",
-            "Taking advantage of family is acceptable if it benefits you",
-            "Manipulation is wise in family disputes",
-            "Birthrights are unimportant and can be traded freely"
+            "From Havilah to Shur",
+            "From Egypt to Assyria",
+            "From Babylon to Nineveh",
+            "From Canaan to Egypt"
           ],
-          "correctAnswer": "Esau sold his birthright for immediate gratification, showing the danger of sacrificing integrity for temporary gain",
-          "explanation": "Genesis 25:29-34 describes how Esau sold his birthright to Jacob for bread and lentil stew because he was faint. This warns against compromising integrity for short-term desires. See also verses 31-33 for the transaction details.",
-          "verseReference": "Genesis 25:31",
+          "correctAnswer": "From Havilah to Shur",
+          "explanation": "Genesis 25:18 states that Ishmael's descendants dwelt from Havilah unto Shur, which is before Egypt, on the way to Assyria.",
+          "verseReference": "Genesis 25:18",
           "difficulty": "medium"
         },
         {
           "id": "genesis-25-medium-q4",
-          "question": "How does Abraham's handling of his possessions in Genesis 25 teach us about stewardship and generosity?",
+          "question": "At what age did Isaac take Rebekah to be his wife?",
           "type": "multiple-choice",
           "options": [
-            "Abraham gave all he had to Isaac but also gave gifts to his other sons, showing wise stewardship and generosity to all",
-            "Abraham kept most possessions for himself and gave little to others",
-            "Stewardship means accumulating wealth without sharing",
-            "Giving gifts to some sons but not others is a biblical example"
+            "40 years old",
+            "30 years old",
+            "50 years old",
+            "60 years old"
           ],
-          "correctAnswer": "Abraham gave all he had to Isaac but also gave gifts to his other sons, showing wise stewardship and generosity to all",
-          "explanation": "Genesis 25:5-6 reveals Abraham gave his inheritance to Isaac but also gave gifts to other sons and sent them away, demonstrating responsible stewardship and generosity. This teaches us to manage resources wisely and fairly. See also Genesis 25:1-4 for family context.",
-          "verseReference": "Genesis 25:5",
+          "correctAnswer": "40 years old",
+          "explanation": "Genesis 25:20 clearly states that Isaac was forty years old when he took Rebekah to wife, the daughter of Bethuel.",
+          "verseReference": "Genesis 25:20",
           "difficulty": "medium"
         },
         {
           "id": "genesis-25-medium-q5",
-          "question": "What does the struggle between Jacob and Esau in Rebekah’s womb teach us about perseverance through trials?",
+          "question": "What action did Isaac take because Rebekah was barren?",
           "type": "multiple-choice",
           "options": [
-            "Even before birth, struggles can shape destinies; perseverance and faith are vital amid conflict",
-            "Siblings should always avoid conflict to be blessed",
-            "Trials are punishments from God and cannot be overcome",
-            "Greater strength always wins in family conflicts"
+            "He intreated the LORD for her",
+            "He sent her away",
+            "He married another wife",
+            "He offered sacrifices to the LORD"
           ],
-          "correctAnswer": "Even before birth, struggles can shape destinies; perseverance and faith are vital amid conflict",
-          "explanation": "Genesis 25:22-23 describes the children struggling in Rebekah’s womb and God’s prophecy about two nations. This highlights that trials may start early, but perseverance and faith are necessary for God’s purpose. See also Genesis 25:24-26.",
-          "verseReference": "Genesis 25:22",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-25-medium-q6",
-          "question": "A believer is discouraged because of barrenness. Based on Genesis 25, what biblical encouragement can you offer about faith in God’s timing?",
-          "type": "multiple-choice",
-          "options": [
-            "God answers prayer in His perfect timing, as He did for Isaac and Rebekah",
-            "Barrenness means God has rejected you permanently",
-            "Faith is irrelevant when natural obstacles occur",
-            "Only through human effort can barrenness be overcome"
-          ],
-          "correctAnswer": "God answers prayer in His perfect timing, as He did for Isaac and Rebekah",
-          "explanation": "Genesis 25:21 shows Isaac prayed for Rebekah’s barrenness and God answered by enabling her to conceive. This teaches us to trust God’s timing and continue in faith. See also Genesis 25:23 for God’s sovereign plan.",
+          "correctAnswer": "He intreated the LORD for her",
+          "explanation": "Genesis 25:21 tells us that Isaac prayed to the LORD concerning his barren wife, and the LORD answered his prayer by enabling Rebekah to conceive.",
           "verseReference": "Genesis 25:21",
           "difficulty": "medium"
         },
         {
+          "id": "genesis-25-medium-q6",
+          "question": "What was Rebekah's response when she felt the children struggling within her?",
+          "type": "multiple-choice",
+          "options": [
+            "She inquired of the LORD",
+            "She ignored it",
+            "She told Isaac immediately",
+            "She sought a midwife"
+          ],
+          "correctAnswer": "She inquired of the LORD",
+          "explanation": "Genesis 25:22 shows that Rebekah was perplexed and went to inquire of the LORD about the unusual struggle of the children within her.",
+          "verseReference": "Genesis 25:22",
+          "difficulty": "medium"
+        },
+        {
           "id": "genesis-25-medium-q7",
-          "question": "True or False: According to Genesis 25, Esau valued his birthright and refused to sell it to Jacob.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "False",
-          "explanation": "Genesis 25:31-34 shows Esau sold his birthright to Jacob for food because he was faint and undervalued it. This illustrates the danger of despising important spiritual blessings.",
-          "verseReference": "Genesis 25:33",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-25-medium-q8",
-          "question": "True or False: Abraham was buried in the cave of Machpelah, which he purchased from the sons of Heth.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Genesis 25:9-10 states Abraham was buried in the cave of Machpelah, bought from the sons of Heth, confirming the fulfillment of his stewardship in securing a family burial place.",
-          "verseReference": "Genesis 25:9",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-25-medium-q9",
-          "question": "How does the story of Abraham giving gifts to his other sons and sending them away teach about wise family leadership and peacekeeping?",
+          "question": "What did the LORD reveal to Rebekah about the children in her womb?",
           "type": "multiple-choice",
           "options": [
-            "It shows the importance of providing for all children but also maintaining peace by separating heirs",
-            "It teaches that only the eldest should inherit everything",
-            "Family conflicts are best resolved by ignoring other children",
-            "Gifts should be withheld to maintain authority"
+            "Two nations are in thy womb; the elder shall serve the younger",
+            "Only one child will be born",
+            "The children will be equal in strength",
+            "The elder shall rule the younger"
           ],
-          "correctAnswer": "It shows the importance of providing for all children but also maintaining peace by separating heirs",
-          "explanation": "Genesis 25:6 describes Abraham giving gifts to sons of concubines and sending them eastward to avoid conflict with Isaac. This demonstrates prudent leadership and peacemaking in families. See also Genesis 25:5.",
-          "verseReference": "Genesis 25:6",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-25-medium-q10",
-          "question": "A believer is confused about God’s plans when siblings seem to struggle for favor. Based on Genesis 25, what biblical principle about God’s sovereignty can you share?",
-          "type": "multiple-choice",
-          "options": [
-            "God’s purposes often work through struggles and unexpected outcomes, like Jacob and Esau",
-            "God favors the firstborn without exception",
-            "Human effort alone determines who is blessed",
-            "Favor from parents guarantees God’s blessing"
-          ],
-          "correctAnswer": "God’s purposes often work through struggles and unexpected outcomes, like Jacob and Esau",
-          "explanation": "Genesis 25:23 reveals God’s prophecy that the elder (Esau) would serve the younger (Jacob), showing divine sovereignty over human expectations. See also Genesis 25:27-28.",
+          "correctAnswer": "Two nations are in thy womb; the elder shall serve the younger",
+          "explanation": "Genesis 25:23 records God's message that two nations were in Rebekah's womb and the elder would serve the younger, indicating the future relationship between Esau and Jacob.",
           "verseReference": "Genesis 25:23",
           "difficulty": "medium"
         },
         {
+          "id": "genesis-25-medium-q8",
+          "question": "How does the passage in Genesis 25:21-23 teach about the virtue of faith and prayer?",
+          "type": "multiple-choice",
+          "options": [
+            "Isaac's prayer led to Rebekah conceiving, showing trust in God’s power to intervene",
+            "Rebekah conceived naturally without prayer",
+            "Isaac gave up hope and accepted barrenness",
+            "They sought help from others instead of God"
+          ],
+          "correctAnswer": "Isaac's prayer led to Rebekah conceiving, showing trust in God’s power to intervene",
+          "explanation": "Genesis 25:21 shows Isaac praying to the LORD for Rebekah's conception and the LORD answering him, which exemplifies faith and reliance on God’s providence, further confirmed by God’s revelation in verse 23.",
+          "verseReference": "Genesis 25:21",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-25-medium-q9",
+          "question": "What does Genesis 25:24-26 reveal about the birth order and characteristics of Isaac’s twins?",
+          "type": "multiple-choice",
+          "options": [
+            "Esau was born first, red and hairy; Jacob came second holding Esau's heel",
+            "Jacob was the firstborn, followed by Esau",
+            "Both twins were born at the same time",
+            "Neither child had distinct characteristics at birth"
+          ],
+          "correctAnswer": "Esau was born first, red and hairy; Jacob came second holding Esau's heel",
+          "explanation": "Genesis 25:25-26 describes Esau as the firstborn, red and hairy, and Jacob as the second who grasped Esau's heel, indicating their distinct identities and the fulfillment of God’s earlier message.",
+          "verseReference": "Genesis 25:24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-25-medium-q10",
+          "question": "Based on Genesis 25, how did the love preferences of Isaac and Rebekah differ regarding their sons?",
+          "type": "multiple-choice",
+          "options": [
+            "Isaac loved Esau; Rebekah loved Jacob",
+            "Isaac loved Jacob; Rebekah loved Esau",
+            "Both loved Esau equally",
+            "Both loved Jacob equally"
+          ],
+          "correctAnswer": "Isaac loved Esau; Rebekah loved Jacob",
+          "explanation": "Genesis 25:28 states that Isaac loved Esau because he ate of his venison, while Rebekah loved Jacob, showing parental preferences that influenced family dynamics.",
+          "verseReference": "Genesis 25:28",
+          "difficulty": "medium"
+        },
+        {
           "id": "genesis-25-medium-q11",
-          "question": "How does the birth of Isaac’s twins teach us about humility and contentment in our God-given roles?",
+          "question": "What was Esau’s reason for asking Jacob for the red pottage?",
           "type": "multiple-choice",
           "options": [
-            "Despite Esau’s strength and birthright, he lost it to Jacob, teaching that humility and contentment in God’s plan are vital",
-            "One must always fight to change their God-given position",
-            "Physical strength denotes spiritual superiority",
-            "Contentment is irrelevant when God’s promises are at stake"
+            "He was faint from the field",
+            "He was hungry after hunting",
+            "He wanted to share a meal",
+            "He wanted to test Jacob",
+            "correctAnswer: ",
+            "He was faint from the field",
+            "explanation: ",
+            "Genesis 25:29-30 explains that Esau came from the field faint and requested the red pottage from Jacob to satisfy his immediate hunger, leading to the event of selling his birthright.",
+            "verseReference: ",
+            "Genesis 25:29",
+            {
+              "question": "What practical lesson about valuing spiritual blessings over immediate needs can be drawn from the exchange between Esau and Jacob in Genesis 25?",
+              "type": "multiple-choice",
+              "options": [
+                "Esau despised his birthright by trading it for food",
+                "Esau wisely prioritized his hunger",
+                "Jacob gave away his birthright for food",
+                "The birthright was worthless to both"
+              ],
+              "correctAnswer": "Esau despised his birthright by trading it for food",
+              "explanation": "Genesis 25:31-34 shows Esau selling his birthright to Jacob for a meal, illustrating the danger of undervaluing spiritual or long-term blessings for immediate gratification.",
+              "verseReference": "Genesis 25:31"
+            },
+            {
+              "question": "In light of Genesis 25:17 and 18, what can we learn about the faithfulness and longevity of Ishmael’s life?",
+              "type": "multiple-choice",
+              "options": [
+                "Ishmael lived 137 years and died among his brethren",
+                "Ishmael died young and alone",
+                "Ishmael never settled in one place",
+                "Ishmael lived less than Isaac"
+              ],
+              "correctAnswer": "Ishmael lived 137 years and died among his brethren",
+              "explanation": "Genesis 25:17-18 states that Ishmael lived 137 years and died in the presence of his brethren, showing a full life and community fellowship, highlighting God's faithfulness to him.",
+              "verseReference": "Genesis 25:17"
+            },
+            {
+              "question": "True or False: According to Genesis 25:23, the LORD said the elder son would be stronger and rule over the younger.",
+              "type": "true-false",
+              "options": [
+                "True",
+                "False"
+              ],
+              "correctAnswer": "False",
+              "explanation": "Genesis 25:23 explicitly states that the elder shall serve the younger, meaning the younger son would be stronger and have dominance, not the elder.",
+              "verseReference": "Genesis 25:23"
+            },
+            {
+              "question": "True or False: Genesis 25:16 teaches that the sons of Ishmael were leaders or princes over their nations.",
+              "type": "true-false",
+              "options": [
+                "True",
+                "False"
+              ],
+              "correctAnswer": "True",
+              "explanation": "Genesis 25:16 calls Ishmael’s sons twelve princes according to their nations, indicating their leadership roles and authority.",
+              "verseReference": "Genesis 25:16"
+            },
+            {
+              "question": "True or False: Genesis 25:21-22 shows that Isaac gave up praying for Rebekah’s barrenness after she struggled with the children in her womb.",
+              "type": "true-false",
+              "options": [
+                "True",
+                "False"
+              ],
+              "correctAnswer": "False",
+              "explanation": "Genesis 25:21 shows Isaac prayed to the LORD, and the LORD answered him; then Genesis 25:22 shows Rebekah's struggle with the children, indicating that prayer was ongoing and effective, not abandoned.",
+              "verseReference": "Genesis 25:21"
+            }
           ],
-          "correctAnswer": "Despite Esau’s strength and birthright, he lost it to Jacob, teaching that humility and contentment in God’s plan are vital",
-          "explanation": "Genesis 25:25-34 shows Esau’s impulsive choice and loss of birthright, emphasizing the need for humility and contentment with God’s plan. See also Genesis 25:27-28.",
-          "verseReference": "Genesis 25:25",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-25-medium-q12",
-          "question": "Fill in the blank: Abraham lived to be ______ years old before he died, as described in Genesis 25.",
-          "type": "fill-in-the-blank",
-          "options": [
-            "175",
-            "150",
-            "165",
-            "180"
-          ],
-          "correctAnswer": "175",
-          "explanation": "Genesis 25:7 states Abraham lived one hundred threescore and fifteen years, which totals 175 years, showing a long, full life in faith.",
-          "verseReference": "Genesis 25:7",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-25-medium-q13",
-          "question": "What lesson about spiritual inheritance can we learn from how Abraham gave all he had to Isaac?",
-          "type": "multiple-choice",
-          "options": [
-            "Spiritual blessings and leadership are passed intentionally to those chosen by God, as Abraham gave all to Isaac",
-            "Material wealth should be divided equally regardless of God’s choice",
-            "Inheritance should be earned by physical strength",
-            "Birth order determines spiritual blessing"
-          ],
-          "correctAnswer": "Spiritual blessings and leadership are passed intentionally to those chosen by God, as Abraham gave all to Isaac",
-          "explanation": "Genesis 25:5 shows Abraham gave all he had to Isaac, reflecting God’s choice and covenant through Isaac, teaching us about selective spiritual inheritance. See also Genesis 25:23.",
-          "verseReference": "Genesis 25:5",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-25-medium-q14",
-          "question": "How does the naming of Esau and Jacob illustrate the importance of honesty and transparency in family relationships?",
-          "type": "multiple-choice",
-          "options": [
-            "Their names reflect their physical traits and birth circumstances, promoting openness about identity",
-            "Names should be kept secret to avoid family conflict",
-            "Parents should change children’s names to avoid favoritism",
-            "Names have no significance in relationships"
-          ],
-          "correctAnswer": "Their names reflect their physical traits and birth circumstances, promoting openness about identity",
-          "explanation": "Genesis 25:25-26 describes Esau named for his red, hairy appearance and Jacob for grasping Esau’s heel, showing transparency in family identity. See also Genesis 25:30.",
-          "verseReference": "Genesis 25:25",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-25-medium-q15",
-          "question": "A believer is struggling with the temptation to despise spiritual blessings. Based on Genesis 25, what warning would you share?",
-          "type": "multiple-choice",
-          "options": [
-            "Despising spiritual blessings can lead to losing them, as Esau despised his birthright",
-            "Spiritual blessings can be ignored without consequences",
-            "Faith is unimportant in valuing spiritual things",
-            "Only material blessings matter"
-          ],
-          "correctAnswer": "Despising spiritual blessings can lead to losing them, as Esau despised his birthright",
-          "explanation": "Genesis 25:34 shows Esau despised his birthright by selling it for food, warning believers not to undervalue spiritual blessings. See also Genesis 25:31-33.",
-          "verseReference": "Genesis 25:34",
           "difficulty": "medium"
         }
       ],
@@ -484,7 +488,7 @@
         "bible-quiz",
         "medium"
       ],
-      "totalQuestions": 15,
+      "totalQuestions": 11,
       "estimatedTime": 12
     },
     "hard": {
@@ -497,225 +501,223 @@
       "questions": [
         {
           "id": "genesis-25-hard-q1",
-          "question": "Who was Abraham's wife after Sarah, as mentioned in Genesis 25?",
+          "question": "What was the distinctive physical characteristic of Esau when he was born?",
           "type": "multiple-choice",
           "options": [
-            "Keturah",
-            "Rebekah",
-            "Hagar",
-            "Rachel"
+            "He was red and hairy all over",
+            "He was bald",
+            "He was very tall",
+            "He was born with a birthmark"
           ],
-          "correctAnswer": "Keturah",
-          "explanation": "Genesis 25:1 states that Abraham took another wife named Keturah after Sarah.",
-          "verseReference": "Genesis 25:1",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-25-hard-q2",
-          "question": "Which son of Abraham was given all his possessions according to Genesis 25?",
-          "type": "multiple-choice",
-          "options": [
-            "Isaac",
-            "Ishmael",
-            "Midian",
-            "Esau"
-          ],
-          "correctAnswer": "Isaac",
-          "explanation": "Genesis 25:5 explains that Abraham gave all that he had unto Isaac.",
-          "verseReference": "Genesis 25:5",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-25-hard-q3",
-          "question": "What literary device is evident in the listing of Ishmael's sons and their towns in Genesis 25:13-16?",
-          "type": "multiple-choice",
-          "options": [
-            "Genealogical structuring",
-            "Chiasm",
-            "Typology",
-            "Poetic parallelism"
-          ],
-          "correctAnswer": "Genealogical structuring",
-          "explanation": "The passage systematically lists Ishmael's sons and their associated nations, a common genealogical structuring used to establish tribal identities (Genesis 25:13-16).",
-          "verseReference": "Genesis 25:13",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-25-hard-q4",
-          "question": "In Genesis 25, what is the significance of the struggle between the children in Rebekah's womb?",
-          "type": "multiple-choice",
-          "options": [
-            "Foreshadowing future conflict between nations",
-            "Symbolizing the struggle between good and evil",
-            "A metaphor for the seasons",
-            "A sign of a famine"
-          ],
-          "correctAnswer": "Foreshadowing future conflict between nations",
-          "explanation": "Genesis 25:22-23 reveals that the struggle indicates two nations will come from her womb, with the elder serving the younger, foreshadowing the Israel-Edom relationship.",
-          "verseReference": "Genesis 25:22-23",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-25-hard-q5",
-          "question": "Which cultural practice is illustrated by Abraham sending the sons of his concubines away with gifts in Genesis 25:6?",
-          "type": "multiple-choice",
-          "options": [
-            "Ensuring inheritance rights for legitimate heirs",
-            "Arranged marriages",
-            "Religious purification rites",
-            "Covenant renewal ceremonies"
-          ],
-          "correctAnswer": "Ensuring inheritance rights for legitimate heirs",
-          "explanation": "Genesis 25:6 shows Abraham giving gifts to his concubines' sons and sending them away to prevent disputes over Isaac's inheritance, reflecting cultural inheritance norms.",
-          "verseReference": "Genesis 25:6",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-25-hard-q6",
-          "question": "How does the naming of Esau in Genesis 25:25 reflect Hebrew wordplay or typology?",
-          "type": "multiple-choice",
-          "options": [
-            "His red, hairy appearance relates to the name meaning 'hairy'",
-            "His name means 'peaceful', contrasting his nature",
-            "The name signifies 'strong warrior'",
-            "It symbolizes 'blessed one'"
-          ],
-          "correctAnswer": "His red, hairy appearance relates to the name meaning 'hairy'",
-          "explanation": "Genesis 25:25 describes Esau as red and hairy, and his name is closely associated with this physical characteristic, reflecting Hebrew word association.",
+          "correctAnswer": "He was red and hairy all over",
+          "explanation": "Genesis 25:25 describes Esau as coming out red, all over like a hairy garment.",
           "verseReference": "Genesis 25:25",
           "difficulty": "hard"
         },
         {
-          "id": "genesis-25-hard-q7",
-          "question": "What historical-cultural significance does the burial place of Abraham in Genesis 25:9-10 have?",
+          "id": "genesis-25-hard-q2",
+          "question": "What significant action did Jacob perform at Esau's birth according to Genesis 25?",
           "type": "multiple-choice",
           "options": [
-            "It marks the first recorded land purchase in Canaan",
-            "It was a common burial site for Egyptian royalty",
-            "It was a symbolic site of the Exodus",
-            "It was a pagan worship center"
+            "He grasped Esau's heel",
+            "He cried loudly",
+            "He was silent",
+            "He was born first"
           ],
-          "correctAnswer": "It marks the first recorded land purchase in Canaan",
-          "explanation": "The cave of Machpelah, purchased from the Hittites (Genesis 25:9-10), is significant as the first legal acquisition of land in Canaan by Abraham, marking a covenantal connection.",
-          "verseReference": "Genesis 25:9-10",
+          "correctAnswer": "He grasped Esau's heel",
+          "explanation": "Genesis 25:26 states that Jacob’s hand took hold of Esau's heel when he was born, symbolizing struggle and foreshadowing their future rivalry.",
+          "verseReference": "Genesis 25:26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-25-hard-q3",
+          "question": "Which of the following best describes the personalities of Esau and Jacob as they grew up?",
+          "type": "multiple-choice",
+          "options": [
+            "Esau was a cunning hunter and Jacob was a plain man dwelling in tents",
+            "Esau was a shepherd and Jacob was a fisherman",
+            "Esau was scholarly and Jacob was rebellious",
+            "Both were hunters"
+          ],
+          "correctAnswer": "Esau was a cunning hunter and Jacob was a plain man dwelling in tents",
+          "explanation": "Genesis 25:27 contrasts Esau as a man of the field and a hunter, while Jacob is described as a plain man living in tents.",
+          "verseReference": "Genesis 25:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-25-hard-q4",
+          "question": "Who did Isaac prefer and why?",
+          "type": "multiple-choice",
+          "options": [
+            "Isaac loved Esau because he ate of his venison",
+            "Isaac loved Jacob because he was humble",
+            "Isaac loved Esau because he was stronger",
+            "Isaac loved Jacob because he obeyed him"
+          ],
+          "correctAnswer": "Isaac loved Esau because he ate of his venison",
+          "explanation": "Genesis 25:28 explains that Isaac loved Esau because he ate of his venison, showing favoritism linked to Esau's hunting skills.",
+          "verseReference": "Genesis 25:28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-25-hard-q5",
+          "question": "Why was Esau also called Edom?",
+          "type": "multiple-choice",
+          "options": [
+            "Because he asked for the red pottage when he was faint",
+            "Because he was a hunter",
+            "Because he was hairy",
+            "Because he was the elder son"
+          ],
+          "correctAnswer": "Because he asked for the red pottage when he was faint",
+          "explanation": "Genesis 25:30 states Esau asked Jacob to feed him the red pottage, hence he was called Edom, which means red.",
+          "verseReference": "Genesis 25:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-25-hard-q6",
+          "question": "What did Jacob ask Esau to sell to him?",
+          "type": "multiple-choice",
+          "options": [
+            "His birthright",
+            "His inheritance",
+            "His land",
+            "His hunting tools"
+          ],
+          "correctAnswer": "His birthright",
+          "explanation": "Genesis 25:31 records Jacob demanding Esau's birthright in exchange for food.",
+          "verseReference": "Genesis 25:31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-25-hard-q7",
+          "question": "How did Esau view the value of his birthright when he sold it to Jacob?",
+          "type": "multiple-choice",
+          "options": [
+            "He thought it was worthless since he was near death",
+            "He thought it was very valuable",
+            "He was unaware what a birthright was",
+            "He planned to reclaim it later"
+          ],
+          "correctAnswer": "He thought it was worthless since he was near death",
+          "explanation": "Genesis 25:32 shows Esau saying he was at the point of death and questioned what profit the birthright would do him then.",
+          "verseReference": "Genesis 25:32",
           "difficulty": "hard"
         },
         {
           "id": "genesis-25-hard-q8",
-          "question": "True or False: Ishmael died before Abraham according to Genesis 25.",
+          "question": "Which passage in the New Testament echoes the theme of despising one's birthright as seen in Genesis 25:34?",
+          "type": "multiple-choice",
+          "options": [
+            "Hebrews 12:16",
+            "Romans 8:28",
+            "James 1:5",
+            "Revelation 21:4"
+          ],
+          "correctAnswer": "Hebrews 12:16",
+          "explanation": "Hebrews 12:16 warns against being like Esau, who sold his birthright for a single meal, directly echoing Genesis 25:34.",
+          "verseReference": "Genesis 25:34",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-25-hard-q9",
+          "question": "What literary device is prominently used in Genesis 25:25-34 to contrast Esau and Jacob?",
+          "type": "multiple-choice",
+          "options": [
+            "Chiasm",
+            "Simile",
+            "Metaphor",
+            "Allegory"
+          ],
+          "correctAnswer": "Chiasm",
+          "explanation": "The passage uses chiasm by contrasting Esau and Jacob’s characteristics and actions in a mirrored structure, highlighting their opposing destinies.",
+          "verseReference": "Genesis 25:25-34",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-25-hard-q10",
+          "question": "What is the significance of the Hebrew word 'pottage' (mentioned in Genesis 25:29-30) in the cultural context of the ancient Near East?",
+          "type": "multiple-choice",
+          "options": [
+            "It refers to a lentil stew, a common humble meal",
+            "It means a rich meat feast",
+            "It is a term for bread only",
+            "It signifies a royal banquet"
+          ],
+          "correctAnswer": "It refers to a lentil stew, a common humble meal",
+          "explanation": "The Hebrew word for pottage refers to a simple lentil stew, symbolizing a modest meal that Esau valued over his birthright, reflecting ancient Near Eastern dietary customs.",
+          "verseReference": "Genesis 25:29-30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-25-hard-q11",
+          "question": "According to Genesis 25:23, what did the LORD say about the two nations in Rebekah's womb?",
+          "type": "multiple-choice",
+          "options": [
+            "One people shall be stronger, and the elder shall serve the younger",
+            "Both nations shall be equal",
+            "The elder shall rule the younger",
+            "They will unite as one nation"
+          ],
+          "correctAnswer": "One people shall be stronger, and the elder shall serve the younger",
+          "explanation": "Genesis 25:23 records God's prophecy that two nations are in Rebekah's womb and that the elder will serve the younger, foreshadowing the dynamic between Esau and Jacob.",
+          "verseReference": "Genesis 25:23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-25-hard-q12",
+          "question": "Which Old Testament book further expands on the struggle between Esau and Jacob’s descendants as predicted in Genesis 25:23?",
+          "type": "multiple-choice",
+          "options": [
+            "Obadiah",
+            "Psalms",
+            "Proverbs",
+            "Ecclesiastes"
+          ],
+          "correctAnswer": "Obadiah",
+          "explanation": "Obadiah focuses on the conflict between Edom (descendants of Esau) and Israel (descendants of Jacob), fulfilling the prophecy in Genesis 25:23.",
+          "verseReference": "Genesis 25:23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-25-hard-q13",
+          "question": "What action did Isaac take when Rebekah was barren, showing the importance of prayer in this chapter?",
+          "type": "multiple-choice",
+          "options": [
+            "Isaac prayed to the LORD for Rebekah to conceive",
+            "Isaac ignored the situation",
+            "Isaac consulted a priest",
+            "Isaac adopted a child"
+          ],
+          "correctAnswer": "Isaac prayed to the LORD for Rebekah to conceive",
+          "explanation": "Genesis 25:21 describes Isaac entreating the LORD on behalf of barren Rebekah, emphasizing prayer’s role in divine intervention.",
+          "verseReference": "Genesis 25:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-25-hard-q14",
+          "question": "True or False: Abraham gave all his possessions equally to his sons Isaac and the sons of his concubines.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Genesis 25:17 states that Ishmael lived to 137 years and died, but Abraham had already died at 175 years (Genesis 25:7-8), so Ishmael died after Abraham.",
-          "verseReference": "Genesis 25:7-8, 17",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-25-hard-q9",
-          "question": "At what age did Isaac marry Rebekah, and what is the significance of this in terms of biblical typology?",
-          "type": "multiple-choice",
-          "options": [
-            "40 years, symbolizing maturity and divine timing",
-            "20 years, indicating early adulthood",
-            "60 years, emphasizing longevity",
-            "30 years, a priestly age"
-          ],
-          "correctAnswer": "40 years, symbolizing maturity and divine timing",
-          "explanation": "Genesis 25:20 states Isaac was 40 when he took Rebekah, a number often symbolizing maturity and divine preparation in Scripture.",
-          "verseReference": "Genesis 25:20",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-25-hard-q10",
-          "question": "What theme introduced in Genesis 25:23 about the elder serving the younger develops throughout Scripture?",
-          "type": "multiple-choice",
-          "options": [
-            "God’s reversal of human expectations",
-            "The dominance of birthright",
-            "The importance of primogeniture",
-            "The futility of human plans"
-          ],
-          "correctAnswer": "God’s reversal of human expectations",
-          "explanation": "Genesis 25:23 foreshadows a recurring biblical theme where God chooses the younger (Jacob) over the elder (Esau), reversing societal norms and expectations.",
-          "verseReference": "Genesis 25:23",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-25-hard-q11",
-          "question": "Which of the following best captures the literary structure of Genesis 25:29-34 involving Esau selling his birthright?",
-          "type": "multiple-choice",
-          "options": [
-            "Narrative cause and effect",
-            "Chiasm highlighting the exchange",
-            "Poetic parallelism emphasizing conflict",
-            "Prophetic oracle"
-          ],
-          "correctAnswer": "Narrative cause and effect",
-          "explanation": "The passage narrates how Esau’s hunger leads him to sell his birthright, illustrating a cause-effect literary structure (Genesis 25:29-34).",
-          "verseReference": "Genesis 25:29-34",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-25-hard-q12",
-          "question": "How does the name 'Edom' given to Esau in Genesis 25:30 relate to the broader biblical narrative?",
-          "type": "multiple-choice",
-          "options": [
-            "It connects Esau to the later nation of Edom, Israel's neighbor and sometimes adversary",
-            "It signifies Esau’s peaceful nature",
-            "It is a title of priestly office",
-            "It refers to the land of Egypt"
-          ],
-          "correctAnswer": "It connects Esau to the later nation of Edom, Israel's neighbor and sometimes adversary",
-          "explanation": "Genesis 25:30 calls Esau 'Edom' because of the red stew, linking him typologically to the Edomites, who play a significant role in Israel’s history.",
-          "verseReference": "Genesis 25:30",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-25-hard-q13",
-          "question": "What is the significance of Isaac praying for Rebekah's conception in Genesis 25:21 in the context of ancient Near Eastern culture?",
-          "type": "multiple-choice",
-          "options": [
-            "It emphasizes reliance on divine intervention for fertility",
-            "It shows a common medical treatment of the time",
-            "It reflects a cultural custom of polygamy",
-            "It demonstrates the practice of divination"
-          ],
-          "correctAnswer": "It emphasizes reliance on divine intervention for fertility",
-          "explanation": "Genesis 25:21 highlights Isaac’s prayer for Rebekah’s barren womb, underscoring the biblical theme of God’s sovereignty over life and fertility, contrasting with common fertility rituals of the time.",
-          "verseReference": "Genesis 25:21",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-25-hard-q14",
-          "question": "Which theme in Genesis 25 reflects the motif of God's covenantal promises continuing through Isaac rather than Ishmael?",
-          "type": "multiple-choice",
-          "options": [
-            "The exclusive inheritance given to Isaac",
-            "The detailed genealogy of Ishmael",
-            "The burial of Abraham by Isaac and Ishmael together",
-            "The naming of Rebekah’s children"
-          ],
-          "correctAnswer": "The exclusive inheritance given to Isaac",
-          "explanation": "Genesis 25:5-6 shows Abraham gave all his possessions to Isaac, reinforcing the covenantal promise continuing through Isaac, despite Ishmael’s numerous descendants.",
+          "explanation": "Genesis 25:5-6 explains Abraham gave all that he had to Isaac, while he gave gifts to the sons of his concubines and sent them away, showing inheritance was not equal.",
           "verseReference": "Genesis 25:5-6",
           "difficulty": "hard"
         },
         {
           "id": "genesis-25-hard-q15",
-          "question": "How does the description of Esau as a 'cunning hunter' and Jacob as a 'plain man dwelling in tents' in Genesis 25:27 serve as a literary contrast?",
-          "type": "multiple-choice",
+          "question": "True or False: The birth of Jacob and Esau fulfills the LORD's prophecy about the two nations and their relationship.",
+          "type": "true-false",
           "options": [
-            "It sets up a thematic opposition between worldly and pastoral lifestyles",
-            "It indicates their respective ages",
-            "It highlights their physical strength",
-            "It shows their tribal origins"
+            "True",
+            "False"
           ],
-          "correctAnswer": "It sets up a thematic opposition between worldly and pastoral lifestyles",
-          "explanation": "Genesis 25:27 contrasts Esau’s active, worldly hunter life with Jacob’s quiet, tent-dwelling pastoral life, foreshadowing their divergent destinies.",
-          "verseReference": "Genesis 25:27",
+          "correctAnswer": "True",
+          "explanation": "Genesis 25:23-26 show the prophecy that two nations are in Rebekah's womb, with the elder serving the younger, fulfilled by the birth and future roles of Esau and Jacob.",
+          "verseReference": "Genesis 25:23-26",
           "difficulty": "hard"
         }
       ],
@@ -742,242 +744,227 @@
       "questions": [
         {
           "id": "genesis-25-theological-q1",
-          "question": "Who was the wife Abraham took after Sarah's death as mentioned in Genesis 25?",
+          "question": "What doctrine is taught by Abraham giving all that he had to Isaac, while giving gifts to the sons of concubines and sending them away?",
           "type": "multiple-choice",
           "options": [
-            "Keturah",
-            "Rebekah",
-            "Hagar",
-            "Sarah"
+            "Doctrine of the divine election and covenant inheritance",
+            "Doctrine of universal salvation",
+            "Doctrine of polygamy as a divine command",
+            "Doctrine of immediate resurrection"
           ],
-          "correctAnswer": "Keturah",
-          "explanation": "Genesis 25:1 states that Abraham took a wife named Keturah after Sarah's death. This reflects God's providence in continuing Abraham's lineage beyond Isaac, consistent with God's faithfulness to His covenant (Genesis 17:15-19; Romans 4:18-21; Hebrews 11:11).",
-          "verseReference": "Genesis 25:1",
+          "correctAnswer": "Doctrine of the divine election and covenant inheritance",
+          "explanation": "Genesis 25:5-6 shows Abraham giving all to Isaac, the son of promise, while giving gifts to the other sons and sending them away, teaching that God's covenant inheritance is by divine election, not natural descent. This is consistent with Romans 9:11-13, which highlights God's sovereign choice.",
+          "verseReference": "Genesis 25:5-6",
           "difficulty": "hard"
         },
         {
           "id": "genesis-25-theological-q2",
-          "question": "Which of the following was NOT one of Abraham's sons by Keturah?",
+          "question": "Which divine attribute is demonstrated by God blessing Isaac after Abraham's death and Isaac dwelling by the well Lahairoi?",
           "type": "multiple-choice",
           "options": [
-            "Zimran",
-            "Jokshan",
-            "Esau",
-            "Midian"
+            "Omnipotence",
+            "Faithfulness to His covenant promises",
+            "Immutability",
+            "Justice"
           ],
-          "correctAnswer": "Esau",
-          "explanation": "Genesis 25:2 lists Abraham's sons by Keturah, including Zimran, Jokshan, and Midian, but Esau was born to Isaac and Rebekah (Genesis 25:25). This distinction underscores the separate covenant line through Isaac (Romans 9:7-13; Hebrews 11:20).",
-          "verseReference": "Genesis 25:2",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-25-theological-q3",
-          "question": "To whom did Abraham give all that he had?",
-          "type": "multiple-choice",
-          "options": [
-            "Isaac",
-            "Ishmael",
-            "Sons of Keturah",
-            "Concubines' sons"
-          ],
-          "correctAnswer": "Isaac",
-          "explanation": "Genesis 25:5 states Abraham gave all he had to Isaac, affirming the covenant promise fulfillment through Isaac (Genesis 17:19; Romans 9:7; Galatians 4:21-31; Hebrews 11:18).",
-          "verseReference": "Genesis 25:5",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-25-theological-q4",
-          "question": "What did Abraham do with the sons of his concubines?",
-          "type": "multiple-choice",
-          "options": [
-            "Gave them gifts and sent them away eastward",
-            "Gave them the inheritance",
-            "Sent them to Egypt",
-            "Raised them in his household"
-          ],
-          "correctAnswer": "Gave them gifts and sent them away eastward",
-          "explanation": "Genesis 25:6 explains Abraham gave gifts to the sons of his concubines and sent them away eastward, which shows a distinction in inheritance and covenant lineage with Isaac (Deuteronomy 21:15-17; Hebrews 11:9; Acts 7:8).",
-          "verseReference": "Genesis 25:6",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-25-theological-q5",
-          "question": "How old was Abraham when he died?",
-          "type": "multiple-choice",
-          "options": [
-            "175 years",
-            "150 years",
-            "180 years",
-            "165 years"
-          ],
-          "correctAnswer": "175 years",
-          "explanation": "Genesis 25:7 records Abraham lived 175 years, indicating God's blessing on his long life, consistent with the longevity of patriarchs in Genesis and God's sovereign control over life (Psalm 90:10; Job 42:16; Isaiah 46:4).",
-          "verseReference": "Genesis 25:7",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-25-theological-q6",
-          "question": "Where was Abraham buried?",
-          "type": "multiple-choice",
-          "options": [
-            "Cave of Machpelah",
-            "Egypt",
-            "Mount Sinai",
-            "Jerusalem"
-          ],
-          "correctAnswer": "Cave of Machpelah",
-          "explanation": "Genesis 25:9-10 states Abraham was buried in the cave of Machpelah, purchased from the Hittites, marking God's promise of land and a place for His people (Genesis 23:17-20; Hebrews 11:9; John 8:56).",
-          "verseReference": "Genesis 25:9",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-25-theological-q7",
-          "question": "How did God bless Isaac after Abraham's death?",
-          "type": "multiple-choice",
-          "options": [
-            "Isaac dwelt by the well Lahairoi",
-            "Isaac became king",
-            "Isaac married Sarah",
-            "Isaac went to Egypt"
-          ],
-          "correctAnswer": "Isaac dwelt by the well Lahairoi",
-          "explanation": "Genesis 25:11 says God blessed Isaac and he dwelt by the well Lahairoi, symbolizing God's continuing covenant faithfulness and provision (Genesis 26:12-14; Psalm 37:25; Romans 8:28).",
+          "correctAnswer": "Faithfulness to His covenant promises",
+          "explanation": "Genesis 25:11 records God's blessing on Isaac after Abraham's death, illustrating God's faithfulness to His covenant promises made to Abraham, fulfilling His redemptive plan through Isaac. This aligns with Hebrews 6:13-18 on God's unchanging promises.",
           "verseReference": "Genesis 25:11",
           "difficulty": "hard"
         },
         {
-          "id": "genesis-25-theological-q8",
-          "question": "Who was the firstborn son of Ishmael?",
+          "id": "genesis-25-theological-q3",
+          "question": "How does the birth of Esau and Jacob, with the prophecy that the elder shall serve the younger, contribute to the biblical redemptive narrative?",
           "type": "multiple-choice",
           "options": [
-            "Nebajoth",
-            "Kedar",
-            "Adbeel",
-            "Mibsam"
+            "It shows God's reversal of human expectations and election according to grace",
+            "It supports the idea of equal blessing to all offspring",
+            "It predicts political alliances between nations",
+            "It affirms the primacy of birthright by natural order"
           ],
-          "correctAnswer": "Nebajoth",
-          "explanation": "Genesis 25:13 identifies Nebajoth as the firstborn son of Ishmael, providing historical context to Ishmael’s descendants and God's promises to Abraham's offspring (Genesis 17:20; Galatians 4:22-31; James 2:23).",
-          "verseReference": "Genesis 25:13",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-25-theological-q9",
-          "question": "How long did Ishmael live?",
-          "type": "multiple-choice",
-          "options": [
-            "137 years",
-            "175 years",
-            "120 years",
-            "130 years"
-          ],
-          "correctAnswer": "137 years",
-          "explanation": "Genesis 25:17 states Ishmael lived 137 years, affirming the extended life God granted to him, reflecting God's mercy and the unfolding of His plan through multiple lines (Genesis 16:10; Psalm 21:4; Isaiah 57:1).",
-          "verseReference": "Genesis 25:17",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-25-theological-q10",
-          "question": "At what age did Isaac marry Rebekah?",
-          "type": "multiple-choice",
-          "options": [
-            "40 years",
-            "25 years",
-            "30 years",
-            "50 years"
-          ],
-          "correctAnswer": "40 years",
-          "explanation": "Genesis 25:20 records Isaac was 40 years old when he married Rebekah, showing God's timing in covenant fulfillment and the providential arrangement of the Messiah’s lineage (Genesis 17:19-21; Romans 9:7; Galatians 4:28).",
-          "verseReference": "Genesis 25:20",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-25-theological-q11",
-          "question": "What was the reason Isaac prayed to the Lord on behalf of Rebekah?",
-          "type": "multiple-choice",
-          "options": [
-            "Because she was barren",
-            "Because she was sick",
-            "Because she was afraid",
-            "Because she was in danger"
-          ],
-          "correctAnswer": "Because she was barren",
-          "explanation": "Genesis 25:21 states Isaac prayed because Rebekah was barren, demonstrating faith in God's power to give life and fulfill His promises (Genesis 18:10-14; 1 Samuel 1:27-28; Luke 1:36-37).",
-          "verseReference": "Genesis 25:21",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-25-theological-q12",
-          "question": "What did the Lord reveal to Rebekah about her twins?",
-          "type": "multiple-choice",
-          "options": [
-            "Two nations in her womb, one stronger, elder serving younger",
-            "Both would be kings",
-            "Both would be priests",
-            "They would be identical"
-          ],
-          "correctAnswer": "Two nations in her womb, one stronger, elder serving younger",
-          "explanation": "Genesis 25:23 reveals God told Rebekah two nations were in her womb, one stronger and the elder would serve the younger, highlighting God's sovereign election and the Messianic line through Jacob (Romans 9:10-13; Malachi 1:2-3).",
+          "correctAnswer": "It shows God's reversal of human expectations and election according to grace",
+          "explanation": "Genesis 25:23 reveals God's sovereign election, where the elder serves the younger, foreshadowing the theme of grace overturning human merit (cf. Romans 9:10-13). This typologically points to God's sovereign choice in salvation history.",
           "verseReference": "Genesis 25:23",
           "difficulty": "hard"
         },
         {
-          "id": "genesis-25-theological-q13",
-          "question": "What distinct physical trait did Esau have at birth?",
+          "id": "genesis-25-theological-q4",
+          "question": "What is revealed about human sin and weakness in the account of Esau selling his birthright to Jacob for a mess of pottage?",
           "type": "multiple-choice",
           "options": [
-            "Red, hairy like a garment",
-            "Blue eyes",
-            "Born holding a staff",
-            "Bald head"
+            "The corrupting nature of immediate gratification over spiritual inheritance",
+            "The virtue of fraternal generosity",
+            "The importance of hunting skills for survival",
+            "The blessing of material wealth over spiritual blessings"
           ],
-          "correctAnswer": "Red, hairy like a garment",
-          "explanation": "Genesis 25:25 describes Esau as red and hairy like a garment at birth, symbolizing his nature and foreshadowing his character, contrasting with Jacob's quietness (Romans 9:13; Hebrews 12:16).",
-          "verseReference": "Genesis 25:25",
+          "correctAnswer": "The corrupting nature of immediate gratification over spiritual inheritance",
+          "explanation": "Genesis 25:29-34 shows Esau despising his birthright by selling it for food, illustrating human weakness and sin in undervaluing spiritual blessings for temporal needs, a theme echoed in Hebrews 12:16.",
+          "verseReference": "Genesis 25:29-34",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-25-theological-q5",
+          "question": "What doctrine is supported by the listing of Ishmael’s twelve sons as twelve princes according to their nations?",
+          "type": "multiple-choice",
+          "options": [
+            "Doctrine of God's providential ordering of nations",
+            "Doctrine of universal salvation",
+            "Doctrine of monotheism",
+            "Doctrine of original sin"
+          ],
+          "correctAnswer": "Doctrine of God's providential ordering of nations",
+          "explanation": "Genesis 25:13-16 lists Ishmael’s sons as twelve princes, teaching that God providentially ordains the rise of nations and peoples, in line with Acts 17:26’s teaching on God determining the boundaries of peoples.",
+          "verseReference": "Genesis 25:13-16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-25-theological-q6",
+          "question": "Which divine attribute is highlighted by the LORD's direct revelation to Rebekah about the twins in her womb and their future role?",
+          "type": "multiple-choice",
+          "options": [
+            "Omniscience",
+            "Justice",
+            "Wrath",
+            "Faithfulness"
+          ],
+          "correctAnswer": "Omniscience",
+          "explanation": "Genesis 25:22-23 records God's revelation to Rebekah about the twins, demonstrating His omniscience—knowledge of future events and sovereign plan for their roles, confirming prophetic divine knowledge.",
+          "verseReference": "Genesis 25:22-23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-25-theological-q7",
+          "question": "How does the narrative of Abraham’s death and burial with Sarah in the cave of Machpelah contribute to the grand biblical theme of redemption?",
+          "type": "multiple-choice",
+          "options": [
+            "It anticipates the resurrection and the promise of a heavenly inheritance",
+            "It confirms the necessity of human burial rites",
+            "It teaches the permanence of physical death without hope",
+            "It emphasizes the importance of land ownership"
+          ],
+          "correctAnswer": "It anticipates the resurrection and the promise of a heavenly inheritance",
+          "explanation": "Genesis 25:8-10 describes Abraham’s death and burial, symbolizing the hope of being gathered to his people, a typology of resurrection and eternal life promised later in Scripture (cf. Hebrews 11:13-16).",
+          "verseReference": "Genesis 25:8-10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-25-theological-q8",
+          "question": "What combined doctrinal truth do Genesis 25:7 and Genesis 25:17 teach about the life spans and destiny of Abraham and Ishmael?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s sovereign control over human life and the gathering of His people",
+            "The inevitability of death without resurrection",
+            "The superiority of Isaac’s lineage over Ishmael’s",
+            "The necessity of circumcision for salvation"
+          ],
+          "correctAnswer": "God’s sovereign control over human life and the gathering of His people",
+          "explanation": "Genesis 25:7 and 25:17 both mention the lifespan and death of Abraham and Ishmael, emphasizing God’s sovereign timing of human life and the concept of being 'gathered unto his people,' which signifies God’s providence over death and afterlife.",
+          "verseReference": "Genesis 25:7, 17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-25-theological-q9",
+          "question": "Sceptics claim that divine favoritism contradicts God's justice. What does Genesis 25:23 and 28 actually teach about God's election and love?",
+          "type": "multiple-choice",
+          "options": [
+            "God's election is sovereign and not based on human merit, but He remains just in His purposes",
+            "God is unjust because He favors one child over another",
+            "God's election is random and without purpose",
+            "God loves all equally regardless of human response"
+          ],
+          "correctAnswer": "God's election is sovereign and not based on human merit, but He remains just in His purposes",
+          "explanation": "Genesis 25:23 shows God declaring the elder serves the younger, and 25:28 shows Isaac loving Esau but Rebekah loving Jacob, illustrating sovereign election based on divine purpose, consistent with God's justice and holiness (cf. Romans 9:14-24).",
+          "verseReference": "Genesis 25:23, 28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-25-theological-q10",
+          "question": "What theological insight is gained by synthesizing Genesis 25:21 and Genesis 25:22 about Rebekah's barrenness and the children struggling within her?",
+          "type": "multiple-choice",
+          "options": [
+            "God's providential involvement in human fertility and the unfolding of His redemptive plan",
+            "The natural impossibility of twins in ancient times",
+            "The irrelevance of prayer in conception",
+            "The superiority of male children over female"
+          ],
+          "correctAnswer": "God's providential involvement in human fertility and the unfolding of His redemptive plan",
+          "explanation": "Genesis 25:21 describes Isaac praying because Rebekah was barren, and 25:22 shows the children struggling within her, symbolizing the divine hand in fertility and the unfolding of salvation history through chosen descendants.",
+          "verseReference": "Genesis 25:21-22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-25-theological-q11",
+          "question": "How does the genealogy of Ishmael and his dwelling from Havilah to Shur (Genesis 25:12, 18) contribute to the biblical understanding of nations and God’s providence?",
+          "type": "multiple-choice",
+          "options": [
+            "It demonstrates God’s providential establishment of peoples and their geographical boundaries",
+            "It encourages ethnic exclusivity in covenant blessings",
+            "It promotes idolatry through tribal worship",
+            "It rejects the significance of genealogy in salvation"
+          ],
+          "correctAnswer": "It demonstrates God’s providential establishment of peoples and their geographical boundaries",
+          "explanation": "Genesis 25:12 and 25:18 give Ishmael’s genealogy and dwellings, teaching that God ordains the rise and location of nations, consistent with Acts 17:26's teaching on God determining times and boundaries of peoples.",
+          "verseReference": "Genesis 25:12, 18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-25-theological-q12",
+          "question": "What combined teaching about the nature of familial love and divine election is evident when comparing Genesis 25:28 and 25:31-33?",
+          "type": "multiple-choice",
+          "options": [
+            "Human partiality and divine sovereignty coexist, as seen in Isaac’s and Rebekah’s preferences and Jacob’s acquisition of the birthright",
+            "Parental favoritism always leads to injustice",
+            "Divine election rejects all human relationships",
+            "Sibling rivalry is the cause of sin"
+          ],
+          "correctAnswer": "Human partiality and divine sovereignty coexist, as seen in Isaac’s and Rebekah’s preferences and Jacob’s acquisition of the birthright",
+          "explanation": "Genesis 25:28 shows Isaac loving Esau and Rebekah loving Jacob, while 25:31-33 records Jacob buying Esau’s birthright, highlighting the interplay of human partiality and God’s sovereign election in salvation history.",
+          "verseReference": "Genesis 25:28, 31-33",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-25-theological-q13",
+          "question": "What doctrine related to prayer and divine response is taught in Genesis 25:21 concerning Isaac’s intercession for Rebekah who was barren?",
+          "type": "multiple-choice",
+          "options": [
+            "The efficacy of prayer and God’s gracious response",
+            "The necessity of works for conception",
+            "The inevitability of barrenness",
+            "The rejection of prayer in human affairs"
+          ],
+          "correctAnswer": "The efficacy of prayer and God’s gracious response",
+          "explanation": "Genesis 25:21 states Isaac intreated the LORD because Rebekah was barren and God answered, affirming the doctrine that prayer is effective and God graciously responds to the needs of His people.",
+          "verseReference": "Genesis 25:21",
           "difficulty": "hard"
         },
         {
           "id": "genesis-25-theological-q14",
-          "question": "What was the occupation and character of Esau?",
+          "question": "How does the description of Esau as a cunning hunter and Jacob as a plain man dwelling in tents (Genesis 25:27) foreshadow their spiritual roles in redemptive history?",
           "type": "multiple-choice",
           "options": [
-            "Cunning hunter, man of the field",
-            "Priest, man of the temple",
-            "Farmer, man of the land",
-            "Fisherman, man of the sea"
+            "It symbolizes Esau’s worldly, fleshly focus and Jacob’s spiritual, covenantal destiny",
+            "It shows Esau as the rightful heir of the covenant",
+            "It promotes hunting as a divine vocation",
+            "It negates the importance of lifestyle choices"
           ],
-          "correctAnswer": "Cunning hunter, man of the field",
-          "explanation": "Genesis 25:27 describes Esau as a cunning hunter and man of the field, indicating his worldly and impulsive nature, contrasting with Jacob’s tent-dwelling life (Hebrews 12:16; Romans 9:13).",
+          "correctAnswer": "It symbolizes Esau’s worldly, fleshly focus and Jacob’s spiritual, covenantal destiny",
+          "explanation": "Genesis 25:27 presents Esau as worldly and Jacob as a tent-dweller, typifying Esau’s fleshly nature contrasted with Jacob’s association with the covenant people and spiritual destiny (cf. Hebrews 11:9).",
           "verseReference": "Genesis 25:27",
           "difficulty": "hard"
         },
         {
           "id": "genesis-25-theological-q15",
-          "question": "Why did Esau sell his birthright to Jacob?",
+          "question": "What combined theological insight about God’s providence and human responsibility is revealed by Genesis 25:6 and Genesis 25:34?",
           "type": "multiple-choice",
           "options": [
-            "Because he was faint and valued immediate relief",
-            "Because he wanted to travel",
-            "Because he was angry",
-            "Because he did not care about birthrights"
+            "God’s providence directs the covenant line, yet human choices can despise spiritual blessings",
+            "Human actions are irrelevant due to predestination",
+            "God’s providence guarantees universal blessing",
+            "Human responsibility is negated by divine election"
           ],
-          "correctAnswer": "Because he was faint and valued immediate relief",
-          "explanation": "Genesis 25:29-34 shows Esau sold his birthright for immediate food when he was faint, illustrating disregard for spiritual blessing and foreshadowing consequences of despising God’s promises (Hebrews 12:16; Proverbs 23:23; Romans 9:13).",
-          "verseReference": "Genesis 25:29",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-25-theological-q16",
-          "question": "What was the name given to Esau because of the red pottage he requested?",
-          "type": "multiple-choice",
-          "options": [
-            "Edom",
-            "Israel",
-            "Levi",
-            "Judah"
-          ],
-          "correctAnswer": "Edom",
-          "explanation": "Genesis 25:30 records Esau was called Edom because he asked for red pottage, symbolizing his impulsive nature and the future nation of Edom, related to themes of blessing and covenant (Obadiah 1:1-21; Romans 9:13).",
-          "verseReference": "Genesis 25:30",
+          "correctAnswer": "God’s providence directs the covenant line, yet human choices can despise spiritual blessings",
+          "explanation": "Genesis 25:6 shows Abraham sending away other sons, establishing covenant line through Isaac, while 25:34 shows Esau despising his birthright, illustrating that God’s providence coexists with human responsibility and moral choice.",
+          "verseReference": "Genesis 25:6, 34",
           "difficulty": "hard"
         }
       ],
@@ -991,7 +978,7 @@
         "bible-quiz",
         "theological"
       ],
-      "totalQuestions": 16,
+      "totalQuestions": 15,
       "estimatedTime": 25
     }
   }

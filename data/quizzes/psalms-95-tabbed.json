@@ -13,28 +13,43 @@
       "questions": [
         {
           "id": "psalms-95-easy-q1",
-          "question": "According to Psalms 95:1, what are we encouraged to make unto the LORD?",
+          "question": "According to Psalms 95:1, to whom are we invited to sing?",
           "type": "multiple-choice",
           "options": [
-            "A joyful noise",
-            "A silent prayer",
-            "A solemn vow",
-            "An offering of gold"
+            "The LORD",
+            "The angels",
+            "The prophets",
+            "The kings"
           ],
-          "correctAnswer": "A joyful noise",
-          "explanation": "Psalms 95:1 says, 'O come, let us sing unto the LORD: let us make a joyful noise to the rock of our salvation.'",
+          "correctAnswer": "The LORD",
+          "explanation": "Psalms 95:1 states, 'O come, let us sing unto the LORD.'",
           "verseReference": "Psalms 95:1",
           "difficulty": "easy"
         },
         {
           "id": "psalms-95-easy-q2",
-          "question": "What does Psalms 95:2 say we should bring before God's presence?",
+          "question": "What is described as the 'rock of our salvation' in Psalms 95:1?",
+          "type": "multiple-choice",
+          "options": [
+            "The LORD",
+            "The earth",
+            "The temple",
+            "The mountains"
+          ],
+          "correctAnswer": "The LORD",
+          "explanation": "Psalms 95:1 says, 'let us make a joyful noise to the rock of our salvation,' referring to the LORD.",
+          "verseReference": "Psalms 95:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-95-easy-q3",
+          "question": "What does Psalms 95:2 instruct us to bring before God's presence?",
           "type": "multiple-choice",
           "options": [
             "Thanksgiving",
             "Sacrifices",
-            "Silence",
-            "Prayers"
+            "Prayers",
+            "Fasting"
           ],
           "correctAnswer": "Thanksgiving",
           "explanation": "Psalms 95:2 says, 'Let us come before his presence with thanksgiving.'",
@@ -42,192 +57,175 @@
           "difficulty": "easy"
         },
         {
-          "id": "psalms-95-easy-q3",
-          "question": "According to Psalms 95:3, the LORD is a great God and a great King above what?",
-          "type": "multiple-choice",
-          "options": [
-            "All gods",
-            "The heavens",
-            "All kings",
-            "The angels"
-          ],
-          "correctAnswer": "All gods",
-          "explanation": "Psalms 95:3 states, 'For the LORD is a great God, and a great King above all gods.'",
-          "verseReference": "Psalms 95:3",
-          "difficulty": "easy"
-        },
-        {
           "id": "psalms-95-easy-q4",
-          "question": "Whose hands formed the dry land according to Psalms 95:5?",
+          "question": "According to Psalms 95:2, with what should we make a joyful noise unto God?",
           "type": "multiple-choice",
           "options": [
-            "The LORD's",
-            "Moses'",
-            "The angels'",
-            "The prophets'"
+            "Psalms",
+            "Instruments",
+            "Dancing",
+            "Prayers"
           ],
-          "correctAnswer": "The LORD's",
-          "explanation": "Psalms 95:5 says, 'The sea is his, and he made it: and his hands formed the dry land.'",
-          "verseReference": "Psalms 95:5",
+          "correctAnswer": "Psalms",
+          "explanation": "Psalms 95:2 states, 'make a joyful noise unto him with psalms.'",
+          "verseReference": "Psalms 95:2",
           "difficulty": "easy"
         },
         {
           "id": "psalms-95-easy-q5",
-          "question": "In Psalms 95:6, what two actions are we invited to do before the LORD our maker?",
+          "question": "How does Psalms 95:3 describe the LORD?",
           "type": "multiple-choice",
           "options": [
-            "Worship and bow down",
-            "Sing and dance",
-            "Pray and fast",
-            "Give offerings and shout"
+            "A great God and a great King above all gods",
+            "A humble servant",
+            "A distant creator",
+            "A silent observer"
           ],
-          "correctAnswer": "Worship and bow down",
-          "explanation": "Psalms 95:6 says, 'O come, let us worship and bow down: let us kneel before the LORD our maker.'",
-          "verseReference": "Psalms 95:6",
+          "correctAnswer": "A great God and a great King above all gods",
+          "explanation": "Psalms 95:3 says, 'For the LORD is a great God, and a great King above all gods.'",
+          "verseReference": "Psalms 95:3",
           "difficulty": "easy"
         },
         {
           "id": "psalms-95-easy-q6",
-          "question": "According to Psalms 95:7, who are we described as in relation to God?",
-          "type": "multiple-choice",
+          "question": "True or False: Psalms 95:4 states that the deep places of the earth are in the hand of the LORD.",
+          "type": "true-false",
           "options": [
-            "The people of his pasture, and the sheep of his hand",
-            "Children of the earth",
-            "Servants of the temple",
-            "Kings and priests"
+            "True",
+            "False"
           ],
-          "correctAnswer": "The people of his pasture, and the sheep of his hand",
-          "explanation": "Psalms 95:7 states, 'For he is our God; and we are the people of his pasture, and the sheep of his hand.'",
-          "verseReference": "Psalms 95:7",
-          "difficulty": "easy"
-        },
-        {
-          "id": "psalms-95-easy-q7",
-          "question": "What does Psalms 95:8 warn us not to do with our hearts?",
-          "type": "multiple-choice",
-          "options": [
-            "Harden them",
-            "Ignore them",
-            "Open them fully",
-            "Grieve them"
-          ],
-          "correctAnswer": "Harden them",
-          "explanation": "Psalms 95:8 says, 'Harden not your heart, as in the provocation.'",
-          "verseReference": "Psalms 95:8",
-          "difficulty": "easy"
-        },
-        {
-          "id": "psalms-95-easy-q8",
-          "question": "How long was God grieved with the generation mentioned in Psalms 95:10?",
-          "type": "multiple-choice",
-          "options": [
-            "Forty years",
-            "Ten years",
-            "Seventy years",
-            "One year"
-          ],
-          "correctAnswer": "Forty years",
-          "explanation": "Psalms 95:10 states, 'Forty years long was I grieved with this generation.'",
-          "verseReference": "Psalms 95:10",
-          "difficulty": "easy"
-        },
-        {
-          "id": "psalms-95-easy-q9",
-          "question": "According to Psalms 95:4, what belongs to the LORD?",
-          "type": "multiple-choice",
-          "options": [
-            "The deep places of the earth and the strength of the hills",
-            "The sun and the moon",
-            "The stars and the sky",
-            "The rivers and the forests"
-          ],
-          "correctAnswer": "The deep places of the earth and the strength of the hills",
-          "explanation": "Psalms 95:4 says, 'In his hand are the deep places of the earth: the strength of the hills is his also.'",
+          "correctAnswer": "True",
+          "explanation": "Psalms 95:4 says, 'In his hand are the deep places of the earth.'",
           "verseReference": "Psalms 95:4",
           "difficulty": "easy"
         },
         {
-          "id": "psalms-95-easy-q10",
-          "question": "What did your fathers do that tempted and proved God according to Psalms 95:9?",
+          "id": "psalms-95-easy-q7",
+          "question": "According to Psalms 95:4, what else belongs to the LORD besides the deep places of the earth?",
           "type": "multiple-choice",
           "options": [
-            "They tempted God, proved Him, and saw His work",
-            "They worshiped other gods",
-            "They built idols",
-            "They disobeyed the commandments"
+            "The strength of the hills",
+            "The rivers",
+            "The stars",
+            "The cities"
           ],
-          "correctAnswer": "They tempted God, proved Him, and saw His work",
-          "explanation": "Psalms 95:9 states, 'When your fathers tempted me, proved me, and saw my work.'",
-          "verseReference": "Psalms 95:9",
+          "correctAnswer": "The strength of the hills",
+          "explanation": "Psalms 95:4 states, 'the strength of the hills is his also.'",
+          "verseReference": "Psalms 95:4",
           "difficulty": "easy"
         },
         {
-          "id": "psalms-95-easy-q11",
-          "question": "True or False: Psalms 95:11 states those who err in their heart will enter into God's rest.",
+          "id": "psalms-95-easy-q8",
+          "question": "True or False: Psalms 95:1 encourages us to make a sorrowful noise to the LORD.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Psalms 95:11 says, 'Unto whom I sware in my wrath that they should not enter into my rest.'",
-          "verseReference": "Psalms 95:11",
-          "difficulty": "easy"
-        },
-        {
-          "id": "psalms-95-easy-q12",
-          "question": "True or False: Psalms 95:7 encourages hearing the voice of the LORD today.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Psalms 95:7 ends with, 'To day if ye will hear his voice.'",
-          "verseReference": "Psalms 95:7",
-          "difficulty": "easy"
-        },
-        {
-          "id": "psalms-95-easy-q13",
-          "question": "True or False: Psalms 95:5 says the sea belongs to the LORD and he made it.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Psalms 95:5 states, 'The sea is his, and he made it.'",
-          "verseReference": "Psalms 95:5",
-          "difficulty": "easy"
-        },
-        {
-          "id": "psalms-95-easy-q14",
-          "question": "Complete this verse from Psalms 95:1: 'O come, let us sing unto the LORD: let us make a joyful noise to the ______ of our salvation.'",
-          "type": "fill-blank",
-          "options": [
-            "rock",
-            "king",
-            "light",
-            "mountain"
-          ],
-          "correctAnswer": "rock",
-          "explanation": "Psalms 95:1 says, 'let us make a joyful noise to the rock of our salvation.'",
+          "explanation": "Psalms 95:1 says 'let us make a joyful noise to the rock of our salvation,' not a sorrowful noise.",
           "verseReference": "Psalms 95:1",
           "difficulty": "easy"
         },
         {
-          "id": "psalms-95-easy-q15",
-          "question": "Fill in the blank from Psalms 95:6: 'O come, let us worship and bow down: let us ______ before the LORD our maker.'",
-          "type": "fill-blank",
+          "id": "psalms-95-easy-q9",
+          "question": "What comes first in Psalms 95:1-2: singing unto the LORD or making a joyful noise with psalms?",
+          "type": "multiple-choice",
           "options": [
-            "kneel",
-            "stand",
-            "shout",
-            "run"
+            "Singing unto the LORD",
+            "Making a joyful noise with psalms",
+            "Both at the same time",
+            "Neither"
           ],
-          "correctAnswer": "kneel",
-          "explanation": "Psalms 95:6 states, 'let us kneel before the LORD our maker.'",
-          "verseReference": "Psalms 95:6",
+          "correctAnswer": "Singing unto the LORD",
+          "explanation": "Psalms 95:1 says, 'O come, let us sing unto the LORD,' which comes before making a joyful noise with psalms in verse 2.",
+          "verseReference": "Psalms 95:1-2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-95-easy-q10",
+          "question": "According to Psalms 95:3, the LORD is a great King above what?",
+          "type": "multiple-choice",
+          "options": [
+            "All gods",
+            "The angels",
+            "All men",
+            "The heavens"
+          ],
+          "correctAnswer": "All gods",
+          "explanation": "Psalms 95:3 states, 'a great King above all gods.'",
+          "verseReference": "Psalms 95:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-95-easy-q11",
+          "question": "According to Psalms 95:4, where is the strength of the hills?",
+          "type": "multiple-choice",
+          "options": [
+            "In the hand of the LORD",
+            "In the hands of men",
+            "In the mountains",
+            "In the earth"
+          ],
+          "correctAnswer": "In the hand of the LORD",
+          "explanation": "Psalms 95:4 says, 'the strength of the hills is his also,' referring to the LORD's hand.",
+          "verseReference": "Psalms 95:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-95-easy-q12",
+          "question": "True or False: Psalms 95:2 invites us to come before the LORD with prayers.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Psalms 95:2 says 'Let us come before his presence with thanksgiving,' not specifically with prayers.",
+          "verseReference": "Psalms 95:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-95-easy-q13",
+          "question": "Which of the following is NOT mentioned in Psalms 95:1-4 as belonging to the LORD?",
+          "type": "multiple-choice",
+          "options": [
+            "The sea",
+            "The deep places of the earth",
+            "The strength of the hills",
+            "The heavens"
+          ],
+          "correctAnswer": "The heavens",
+          "explanation": "Psalms 95:4 mentions the deep places of the earth and strength of the hills; Psalms 95:5 mentions the sea but not the heavens.",
+          "verseReference": "Psalms 95:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-95-easy-q14",
+          "question": "True or False: Psalms 95:3 calls the LORD a great God and a great King.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Psalms 95:3 states, 'For the LORD is a great God, and a great King above all gods.'",
+          "verseReference": "Psalms 95:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-95-easy-q15",
+          "question": "According to Psalms 95:1, what should we do before the LORD?",
+          "type": "multiple-choice",
+          "options": [
+            "Sing and make a joyful noise",
+            "Remain silent",
+            "Fast and pray",
+            "Build an altar"
+          ],
+          "correctAnswer": "Sing and make a joyful noise",
+          "explanation": "Psalms 95:1 says, 'O come, let us sing unto the LORD: let us make a joyful noise.'",
+          "verseReference": "Psalms 95:1",
           "difficulty": "easy"
         }
       ],
@@ -254,223 +252,221 @@
       "questions": [
         {
           "id": "psalms-95-medium-q1",
-          "question": "How does Psalms 95:1 teach us about expressing joy in our worship to God?",
+          "question": "What does Psalms 95:5 teach about God's creative power?",
           "type": "multiple-choice",
           "options": [
-            "By singing and making a joyful noise to the rock of our salvation",
-            "By sitting quietly and meditating alone",
-            "By performing rituals without feeling",
-            "By only praying silently"
+            "God created the sea and the dry land with His hands",
+            "God only watches over the sea",
+            "The sea was made by angels",
+            "The dry land was formed by natural forces"
           ],
-          "correctAnswer": "By singing and making a joyful noise to the rock of our salvation",
-          "explanation": "Psalms 95:1 encourages believers to express joy and gratitude openly through singing and making a joyful noise to God, our rock and salvation.",
-          "verseReference": "Psalms 95:1",
+          "correctAnswer": "God created the sea and the dry land with His hands",
+          "explanation": "Psalms 95:5 states, 'The sea is his, and he made it: and his hands formed the dry land,' emphasizing God's direct role in creation.",
+          "verseReference": "Psalms 95:5",
           "difficulty": "medium"
         },
         {
           "id": "psalms-95-medium-q2",
-          "question": "According to Psalms 95:2, how should we come before God's presence?",
+          "question": "According to Psalms 95:6, what posture should believers take before the LORD?",
           "type": "multiple-choice",
           "options": [
-            "With thanksgiving and joyful psalms",
-            "With complaints about our troubles",
-            "With silence and no words",
-            "With demands and requests only"
+            "Worship and bow down, and kneel before the LORD",
+            "Stand silently without movement",
+            "Raise their hands only",
+            "Sing loudly without bowing"
           ],
-          "correctAnswer": "With thanksgiving and joyful psalms",
-          "explanation": "Psalms 95:2 instructs us to approach God with gratitude and praise, making a joyful noise with psalms as an act of worship and reverence.",
-          "verseReference": "Psalms 95:2",
-          "difficulty": "medium"
-        },
-        {
-          "id": "psalms-95-medium-q3",
-          "question": "What characteristic of God does Psalms 95:3 emphasize that can strengthen our faith in Him?",
-          "type": "multiple-choice",
-          "options": [
-            "He is a great God and King above all gods",
-            "He is silent and distant",
-            "He is only concerned with small matters",
-            "He is limited by human rules"
-          ],
-          "correctAnswer": "He is a great God and King above all gods",
-          "explanation": "Psalms 95:3 highlights God's supremacy and greatness, encouraging believers to trust in His authority and power above all other forces.",
-          "verseReference": "Psalms 95:3",
-          "difficulty": "medium"
-        },
-        {
-          "id": "psalms-95-medium-q4",
-          "question": "How does Psalms 95:4-5 illustrate God's sovereignty over creation and why is this important for Christian trust?",
-          "type": "multiple-choice",
-          "options": [
-            "He holds the deep places of the earth and made the sea and dry land",
-            "He is unaware of the natural world",
-            "He depends on humans to maintain the earth",
-            "He created only the sky and stars"
-          ],
-          "correctAnswer": "He holds the deep places of the earth and made the sea and dry land",
-          "explanation": "Psalms 95:4-5 emphasizes God's control over all creation, reassuring believers that He is powerful and trustworthy in every circumstance.",
-          "verseReference": "Psalms 95:4",
-          "difficulty": "medium"
-        },
-        {
-          "id": "psalms-95-medium-q5",
-          "question": "What attitude toward God is encouraged in Psalms 95:6 and how can this shape our daily devotion?",
-          "type": "multiple-choice",
-          "options": [
-            "Worship and humble submission by bowing down and kneeling",
-            "Casual respect without deep reverence",
-            "Ignoring God’s presence",
-            "Doing good works without worship"
-          ],
-          "correctAnswer": "Worship and humble submission by bowing down and kneeling",
-          "explanation": "Psalms 95:6 calls for humility and reverence before God, encouraging believers to actively show their devotion through worship and submission.",
+          "correctAnswer": "Worship and bow down, and kneel before the LORD",
+          "explanation": "Psalms 95:6 instructs believers to 'worship and bow down: let us kneel before the LORD our maker' showing humility and reverence.",
           "verseReference": "Psalms 95:6",
           "difficulty": "medium"
         },
         {
-          "id": "psalms-95-medium-q6",
-          "question": "According to Psalms 95:7, how does God view His people, and what does this teach us about His care for us?",
+          "id": "psalms-95-medium-q3",
+          "question": "How does Psalms 95:7 describe the relationship between God and His people?",
           "type": "multiple-choice",
           "options": [
             "We are the people of His pasture and the sheep of His hand",
-            "We are strangers to Him",
-            "We are left to fend for ourselves",
-            "We are servants without value"
+            "We are strangers to God",
+            "God is distant and unapproachable",
+            "We are servants who must earn His favor"
           ],
           "correctAnswer": "We are the people of His pasture and the sheep of His hand",
-          "explanation": "Psalms 95:7 illustrates God's tender care and protection over His people, teaching us to trust Him as our loving shepherd.",
+          "explanation": "Psalms 95:7 uses the metaphor of a shepherd caring for sheep to describe God's care and relationship with His people.",
           "verseReference": "Psalms 95:7",
           "difficulty": "medium"
         },
         {
-          "id": "psalms-95-medium-q7",
-          "question": "A believer is struggling with hearing God’s guidance. Based on Psalms 95:7-8, what biblical truth would you share?",
+          "id": "psalms-95-medium-q4",
+          "question": "What is the warning given in Psalms 95:8 related to the heart?",
           "type": "multiple-choice",
           "options": [
-            "Today, we should hear His voice and not harden our hearts",
-            "God speaks only to prophets, not today",
-            "We should ignore God’s voice to avoid temptation",
-            "God’s voice is a punishment"
+            "Do not harden your heart as in the provocation in the wilderness",
+            "Always harden your heart to challenges",
+            "Ignore God's voice",
+            "Be stubborn in faith"
           ],
-          "correctAnswer": "Today, we should hear His voice and not harden our hearts",
-          "explanation": "Psalms 95:7-8 encourage believers to listen attentively to God's voice and not to resist or harden their hearts as a way to grow in obedience and faith.",
-          "verseReference": "Psalms 95:7",
-          "difficulty": "medium"
-        },
-        {
-          "id": "psalms-95-medium-q8",
-          "question": "What warning does Psalms 95:8 give about the heart’s response to God, and how does it relate to dealing with temptation?",
-          "type": "multiple-choice",
-          "options": [
-            "Do not harden your heart as in the day of temptation in the wilderness",
-            "Harden your heart to avoid pain",
-            "Ignore temptation because it is weak",
-            "Temptation is not a real challenge"
-          ],
-          "correctAnswer": "Do not harden your heart as in the day of temptation in the wilderness",
-          "explanation": "Psalms 95:8 warns against becoming stubborn or resistant toward God especially during temptations, encouraging perseverance and trust in His guidance.",
+          "correctAnswer": "Do not harden your heart as in the provocation in the wilderness",
+          "explanation": "Psalms 95:8 warns believers against hardening their hearts, referencing the example of Israel's rebellion during their wilderness journey.",
           "verseReference": "Psalms 95:8",
           "difficulty": "medium"
         },
         {
-          "id": "psalms-95-medium-q9",
-          "question": "According to Psalms 95:9, what past behavior of the fathers serves as a caution for us today?",
+          "id": "psalms-95-medium-q5",
+          "question": "What will happen if you 'hear the voice of the LORD' today according to Psalms 95:7-8?",
           "type": "multiple-choice",
           "options": [
-            "They tempted and tested God despite seeing His works",
-            "They faithfully obeyed God without question",
-            "They worshiped false gods only",
-            "They ignored all signs and warnings"
+            "You should not harden your heart as the Israelites did in the wilderness",
+            "You will be tested and tempted again",
+            "You will enter the wilderness",
+            "You will be forgotten by God"
           ],
-          "correctAnswer": "They tempted and tested God despite seeing His works",
-          "explanation": "Psalms 95:9 reminds believers that previous generations tested God even after witnessing His power, serving as a warning to remain faithful and obedient.",
-          "verseReference": "Psalms 95:9",
+          "correctAnswer": "You should not harden your heart as the Israelites did in the wilderness",
+          "explanation": "Psalms 95:7-8 connects hearing God's voice with the admonition to avoid hardening the heart, drawing from Israel's negative example in the wilderness (verses 7 and 8).",
+          "verseReference": "Psalms 95:7-8",
           "difficulty": "medium"
         },
         {
-          "id": "psalms-95-medium-q10",
-          "question": "How does Psalms 95:10 describe God's feelings toward a disobedient generation, and what practical lesson does this hold for believers?",
+          "id": "psalms-95-medium-q6",
+          "question": "A believer struggles with obedience and feels distant from God. Based on Psalms 95:6-7, what biblical truth can encourage them?",
           "type": "multiple-choice",
           "options": [
-            "God was grieved for forty years because they erred in their hearts",
-            "God ignored their disobedience",
-            "God rewarded their rebellion",
-            "God was pleased with their actions"
+            "God is our maker who deserves worship, and we are His cared-for sheep",
+            "God is indifferent to human struggles",
+            "We must earn God's favor through works",
+            "Distance from God means rejection"
           ],
-          "correctAnswer": "God was grieved for forty years because they erred in their hearts",
-          "explanation": "Psalms 95:10 shows God's sorrow over persistent disobedience, teaching believers the importance of obedience and recognizing the pain sin causes God.",
-          "verseReference": "Psalms 95:10",
+          "correctAnswer": "God is our maker who deserves worship, and we are His cared-for sheep",
+          "explanation": "Psalms 95:6-7 teaches that God is our maker and we are the sheep of His hand, emphasizing His care and the proper response of worship, which can encourage believers feeling distant.",
+          "verseReference": "Psalms 95:6-7",
           "difficulty": "medium"
         },
         {
-          "id": "psalms-95-medium-q11",
-          "question": "Based on Psalms 95:11, what consequence did God set for the generation that did not know His ways?",
+          "id": "psalms-95-medium-q7",
+          "question": "What attribute of God is highlighted in Psalms 95:5 in relation to His control over nature?",
           "type": "multiple-choice",
           "options": [
-            "They would not enter His rest",
-            "They would be immediately forgiven",
-            "They would receive great earthly riches",
-            "They would be exalted above others"
+            "God is the creator of the sea and dry land",
+            "God is only a distant observer of nature",
+            "Nature controls God",
+            "God is limited to the heavens only"
           ],
-          "correctAnswer": "They would not enter His rest",
-          "explanation": "Psalms 95:11 reveals that God swore in His wrath that the rebellious generation would not enter His rest, demonstrating the seriousness of disobedience.",
-          "verseReference": "Psalms 95:11",
+          "correctAnswer": "God is the creator of the sea and dry land",
+          "explanation": "Psalms 95:5 shows God's sovereignty in creation by stating He made the sea and formed the dry land with His hands.",
+          "verseReference": "Psalms 95:5",
           "difficulty": "medium"
         },
         {
-          "id": "psalms-95-medium-q12",
-          "question": "True or False: Psalms 95 encourages believers to approach God with humility and thanksgiving as part of their worship life.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Psalms 95:1-2 and 6 teach believers to worship joyfully with thanksgiving and humility, emphasizing gratefulness and reverence in our devotion.",
-          "verseReference": "Psalms 95:1-2, 6",
-          "difficulty": "medium"
-        },
-        {
-          "id": "psalms-95-medium-q13",
-          "question": "True or False: Psalms 95 advises believers to harden their hearts when facing trials to protect themselves.",
+          "id": "psalms-95-medium-q8",
+          "question": "True or False: Psalms 95:8 teaches that believers should harden their hearts when tested.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Psalms 95:8 warns against hardening the heart during trials, encouraging believers to remain open and obedient to God’s voice.",
+          "explanation": "Psalms 95:8 explicitly instructs not to harden your hearts as in the day of provocation and temptation in the wilderness, warning against stubbornness.",
+          "verseReference": "Psalms 95:8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-95-medium-q9",
+          "question": "In Psalms 95:7, what is the condition stated for hearing God's voice?",
+          "type": "multiple-choice",
+          "options": [
+            "Today if ye will hear his voice",
+            "Only in the future will you hear",
+            "If you are perfect in deeds",
+            "Only the priests can hear"
+          ],
+          "correctAnswer": "Today if ye will hear his voice",
+          "explanation": "Psalms 95:7 encourages immediate responsiveness by saying, 'To day if ye will hear his voice,' emphasizing present opportunity for hearing God.",
+          "verseReference": "Psalms 95:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-95-medium-q10",
+          "question": "According to Psalms 95:6, which of the following best describes the attitude we should have in worship?",
+          "type": "multiple-choice",
+          "options": [
+            "Humility and reverence through bowing and kneeling",
+            "Casual and indifferent",
+            "Prideful and boastful",
+            "Distracted and inattentive"
+          ],
+          "correctAnswer": "Humility and reverence through bowing and kneeling",
+          "explanation": "Psalms 95:6 calls for worship with bowing down and kneeling before the LORD, demonstrating humility and reverence.",
+          "verseReference": "Psalms 95:6",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-95-medium-q11",
+          "question": "What lesson about God's care can be drawn from Psalms 95:7?",
+          "type": "multiple-choice",
+          "options": [
+            "God cares for His people like a shepherd cares for sheep",
+            "God ignores His people",
+            "People are independent of God",
+            "God punishes without mercy"
+          ],
+          "correctAnswer": "God cares for His people like a shepherd cares for sheep",
+          "explanation": "Psalms 95:7 uses the metaphor of pasture and sheep to show God's tender care and guidance for His people.",
+          "verseReference": "Psalms 95:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-95-medium-q12",
+          "question": "True or False: Psalms 95:5 suggests that the sea and dry land were formed by God's hands.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Psalms 95:5 clearly states that the sea is his and He made it, and His hands formed the dry land, affirming God's creative work.",
+          "verseReference": "Psalms 95:5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-95-medium-q13",
+          "question": "What does Psalms 95:8 imply about the heart's response to God's voice?",
+          "type": "multiple-choice",
+          "options": [
+            "Do not harden your heart as done in past temptations",
+            "Ignore God's voice completely",
+            "Harden your heart to avoid pain",
+            "Only listen when convenient"
+          ],
+          "correctAnswer": "Do not harden your heart as done in past temptations",
+          "explanation": "Psalms 95:8 warns against hardening the heart as in the day of provocation and temptation, encouraging openness to God's voice.",
           "verseReference": "Psalms 95:8",
           "difficulty": "medium"
         },
         {
           "id": "psalms-95-medium-q14",
-          "question": "Fill in the blank: According to Psalms 95:7, we are the people of His _______, and the sheep of His hand.",
-          "type": "fill-blank",
+          "question": "What is the practical application of Psalms 95:6-7 in a believer's daily life?",
+          "type": "multiple-choice",
           "options": [
-            "pasture",
-            "kingdom",
-            "house",
-            "children"
+            "Approach God with worship, humility, and recognize His care as our shepherd",
+            "Ignore daily worship and focus on material wealth",
+            "Depend solely on human wisdom",
+            "Avoid acknowledging God’s care"
           ],
-          "correctAnswer": "pasture",
-          "explanation": "Psalms 95:7 describes believers as the people of God's pasture, highlighting His care and protection like a shepherd for his sheep.",
-          "verseReference": "Psalms 95:7",
+          "correctAnswer": "Approach God with worship, humility, and recognize His care as our shepherd",
+          "explanation": "Psalms 95:6-7 teaches believers to worship humbly and trust God’s loving care, guiding us to daily dependence on Him.",
+          "verseReference": "Psalms 95:6-7",
           "difficulty": "medium"
         },
         {
           "id": "psalms-95-medium-q15",
-          "question": "How does Psalms 95:1-3 guide a believer's attitude toward God's greatness in daily life and work?",
-          "type": "multiple-choice",
+          "question": "True or False: Psalms 95:8-9 refers to a positive example of hearing God's voice in the wilderness.",
+          "type": "true-false",
           "options": [
-            "By recognizing God as the great King and creator, encouraging trust and integrity",
-            "By focusing only on human achievements",
-            "By doubting God’s involvement in our tasks",
-            "By separating faith from daily responsibilities"
+            "True",
+            "False"
           ],
-          "correctAnswer": "By recognizing God as the great King and creator, encouraging trust and integrity",
-          "explanation": "Psalms 95:1-3 inspires believers to acknowledge God's supremacy, fostering faith and integrity in all areas of life including work and relationships.",
-          "verseReference": "Psalms 95:1-3",
+          "correctAnswer": "False",
+          "explanation": "Psalms 95:8-9 refers to a negative example where the Israelites hardened their hearts and tempted God in the wilderness, warning readers not to repeat this behavior.",
+          "verseReference": "Psalms 95:8-9",
           "difficulty": "medium"
         }
       ],
@@ -497,223 +493,223 @@
       "questions": [
         {
           "id": "psalms-95-hard-q1",
-          "question": "In Psalms 95:1, the term \"rock of our salvation\" is used metaphorically. Which Old Testament event most strongly parallels this imagery of God as a rock providing salvation?",
+          "question": "According to Psalms 95:9, what did the fathers do that grieved God?",
           "type": "multiple-choice",
           "options": [
-            "The parting of the Red Sea in Exodus",
-            "The provision of water from the rock in the wilderness (Exodus 17:6)",
-            "The fall of Jericho in Joshua",
-            "The covenant with Abraham in Genesis"
+            "They tempted God, proved Him, and saw His work",
+            "They worshipped other gods",
+            "They ignored the commandments",
+            "They built idols"
           ],
-          "correctAnswer": "The provision of water from the rock in the wilderness (Exodus 17:6)",
-          "explanation": "Psalms 95:1 calls God the \"rock of our salvation,\" echoing the imagery from Exodus 17:6 where God provides water from the rock, symbolizing sustenance and salvation.",
-          "verseReference": "Psalms 95:1",
+          "correctAnswer": "They tempted God, proved Him, and saw His work",
+          "explanation": "Psalms 95:9 states that the fathers tempted God, proved Him, and saw His work, which caused grief.",
+          "verseReference": "Psalms 95:9",
           "difficulty": "hard"
         },
         {
           "id": "psalms-95-hard-q2",
-          "question": "Psalms 95:3 declares the LORD as a \"great King above all gods.\" How does this assertion relate to the monotheistic emphasis found in Deuteronomy 6:4?",
+          "question": "How long was God grieved with the generation mentioned in Psalms 95:10?",
           "type": "multiple-choice",
           "options": [
-            "It contradicts the Shema by acknowledging multiple gods",
-            "It emphasizes the supremacy of Yahweh over any other claimed deities",
-            "It is unrelated as Psalms focuses only on worship",
-            "It suggests that all gods are equal in power"
+            "Twenty years",
+            "Thirty years",
+            "Forty years",
+            "Fifty years"
           ],
-          "correctAnswer": "It emphasizes the supremacy of Yahweh over any other claimed deities",
-          "explanation": "Psalms 95:3 highlights Yahweh's supremacy, aligning with Deuteronomy 6:4's monotheistic declaration 'The LORD our God, the LORD is one,' underscoring God's unique sovereignty.",
-          "verseReference": "Psalms 95:3",
+          "correctAnswer": "Forty years",
+          "explanation": "Psalms 95:10 specifies that God was grieved with this generation for forty years.",
+          "verseReference": "Psalms 95:10",
           "difficulty": "hard"
         },
         {
           "id": "psalms-95-hard-q3",
-          "question": "The phrase \"Let us make a joyful noise\" appears in Psalms 95:1 and 2. What literary device is primarily used in these verses to enhance the worship experience?",
+          "question": "In Psalms 95:10, what is said about the people’s heart and knowledge?",
           "type": "multiple-choice",
           "options": [
-            "Alliteration",
-            "Parallelism",
-            "Metaphor",
-            "Chiasm"
+            "They had pure hearts and knew God's ways",
+            "They erred in their hearts and did not know God's ways",
+            "They were faithful and obedient",
+            "They feared the Lord and kept His laws"
           ],
-          "correctAnswer": "Parallelism",
-          "explanation": "Psalms 95:1-2 uses synonymous parallelism, repeating the call to make a joyful noise and sing, a common Hebrew poetic device to emphasize praise.",
-          "verseReference": "Psalms 95:1-2",
+          "correctAnswer": "They erred in their hearts and did not know God's ways",
+          "explanation": "The verse states they are a people who err in their hearts and have not known God's ways.",
+          "verseReference": "Psalms 95:10",
           "difficulty": "hard"
         },
         {
           "id": "psalms-95-hard-q4",
-          "question": "In Psalms 95:4-5, God's creation of the sea and dry land is mentioned. Which New Testament passage echoes this creative authority of God?",
+          "question": "What did God swear in His wrath according to Psalms 95:11?",
           "type": "multiple-choice",
           "options": [
-            "John 1:3",
-            "Acts 2:38",
-            "Romans 8:28",
-            "Revelation 21:1"
+            "That they would be blessed abundantly",
+            "That they should not enter into His rest",
+            "That they would conquer their enemies",
+            "That their descendants would be kings"
           ],
-          "correctAnswer": "John 1:3",
-          "explanation": "John 1:3 states that all things were made through Christ, reflecting the creative authority of God mentioned in Psalms 95:4-5.",
-          "verseReference": "Psalms 95:4-5",
+          "correctAnswer": "That they should not enter into His rest",
+          "explanation": "Psalms 95:11 declares God's oath in wrath that the disobedient generation should not enter His rest.",
+          "verseReference": "Psalms 95:11",
           "difficulty": "hard"
         },
         {
           "id": "psalms-95-hard-q5",
-          "question": "Psalms 95:6 uses the phrase \"let us worship and bow down: let us kneel before the LORD our maker.\" What is the significance of this posture in ancient Near Eastern worship contexts?",
+          "question": "Psalms 95:11's mention of 'rest' is often connected with which New Testament book that discusses entering God's rest?",
           "type": "multiple-choice",
           "options": [
-            "It indicates surrender and reverence to a deity",
-            "It is a sign of social status among kings",
-            "It represents a call to physical fitness",
-            "It was a gesture reserved for funerals"
+            "Hebrews",
+            "James",
+            "Romans",
+            "Galatians"
           ],
-          "correctAnswer": "It indicates surrender and reverence to a deity",
-          "explanation": "Bowing and kneeling were common gestures of submission and reverence in ancient Near Eastern worship, as seen in Psalms 95:6.",
-          "verseReference": "Psalms 95:6",
+          "correctAnswer": "Hebrews",
+          "explanation": "The concept of God's rest in Psalms 95:11 is echoed and explained in Hebrews chapters 3 and 4, where believers are urged to enter His rest.",
+          "verseReference": "Psalms 95:11",
           "difficulty": "hard"
         },
         {
           "id": "psalms-95-hard-q6",
-          "question": "The phrase \"we are the people of his pasture, and the sheep of his hand\" in Psalms 95:7 is an example of which literary device?",
+          "question": "What literary device is prominently used in Psalms 95:1-7 to call people to worship God?",
           "type": "multiple-choice",
           "options": [
-            "Simile",
-            "Metaphor",
-            "Hyperbole",
-            "Personification"
+            "Chiasm",
+            "Parallelism",
+            "Allegory",
+            "Metaphor"
           ],
-          "correctAnswer": "Metaphor",
-          "explanation": "Psalms 95:7 uses metaphor, comparing God to a shepherd and the people to sheep, illustrating care and guidance.",
-          "verseReference": "Psalms 95:7",
+          "correctAnswer": "Parallelism",
+          "explanation": "Psalms 95:1-7 uses parallelism, a common Hebrew poetic device, repeating ideas with variation to emphasize joyful worship.",
+          "verseReference": "Psalms 95:1",
           "difficulty": "hard"
         },
         {
           "id": "psalms-95-hard-q7",
-          "question": "The warning in Psalms 95:8 to \"harden not your heart\" alludes to which historical event in Israel's wilderness journey?",
+          "question": "The phrase 'rock of our salvation' in Psalms 95:1 is an example of what type of biblical imagery?",
           "type": "multiple-choice",
           "options": [
-            "The building of the Tabernacle",
-            "The golden calf incident",
-            "The rebellion at Meribah",
-            "The crossing of the Jordan River"
+            "Typology",
+            "Metaphor",
+            "Simile",
+            "Personification"
           ],
-          "correctAnswer": "The rebellion at Meribah",
-          "explanation": "Psalms 95:8 references Israel's hardened hearts during their wilderness testing, especially during the Meribah water incident (Exodus 17).",
-          "verseReference": "Psalms 95:8",
+          "correctAnswer": "Metaphor",
+          "explanation": "Calling God the 'rock of our salvation' in Psalms 95:1 is metaphorical imagery emphasizing His strength and reliability.",
+          "verseReference": "Psalms 95:1",
           "difficulty": "hard"
         },
         {
           "id": "psalms-95-hard-q8",
-          "question": "True or False: Psalms 95:10 indicates that God's grief over the generation's disobedience lasted for forty years.",
+          "question": "Which Hebrew word translated as 'provocation' in Psalms 95:8 is also used to describe Israel’s rebellion in the wilderness?",
+          "type": "multiple-choice",
+          "options": [
+            "Meribah",
+            "Moses",
+            "Sinai",
+            "Covenant"
+          ],
+          "correctAnswer": "Meribah",
+          "explanation": "The Hebrew word 'Meribah' means 'provocation' and refers to the place and event of Israel's rebellion, linked to Psalms 95:8.",
+          "verseReference": "Psalms 95:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-95-hard-q9",
+          "question": "True or False: Psalms 95:7 describes God as the shepherd and His people as the sheep of His hand.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Psalms 95:10 states, \"Forty years long was I grieved with this generation,\" confirming God's long-lasting grief.",
-          "verseReference": "Psalms 95:10",
-          "difficulty": "hard"
-        },
-        {
-          "id": "psalms-95-hard-q9",
-          "question": "Which theme found in Psalms 95:11 about not entering God's rest is echoed in the New Testament book of Hebrews?",
-          "type": "multiple-choice",
-          "options": [
-            "The Sabbath commandment",
-            "The promise of eternal life",
-            "The warning against unbelief preventing entrance into God's rest",
-            "The importance of baptism"
-          ],
-          "correctAnswer": "The warning against unbelief preventing entrance into God's rest",
-          "explanation": "Hebrews 3-4 extensively discusses the theme from Psalms 95:11 about unbelief barring entry into God's rest.",
-          "verseReference": "Psalms 95:11",
-          "difficulty": "hard"
-        },
-        {
-          "id": "psalms-95-hard-q10",
-          "question": "In Psalms 95:2, worshipers are invited to enter \"his presence with thanksgiving.\" How does this relate to the overall structure of ancient Israelite worship services?",
-          "type": "multiple-choice",
-          "options": [
-            "Thanksgiving was the final part of worship",
-            "Thanksgiving was the opening posture before petitions",
-            "Thanksgiving was discouraged during worship",
-            "Thanksgiving was unrelated to worship"
-          ],
-          "correctAnswer": "Thanksgiving was the opening posture before petitions",
-          "explanation": "Ancient Israelite worship often began with thanksgiving and praise, as seen in Psalms 95:2, preparing hearts for further communication with God.",
-          "verseReference": "Psalms 95:2",
-          "difficulty": "hard"
-        },
-        {
-          "id": "psalms-95-hard-q11",
-          "question": "The expression \"the deep places of the earth\" in Psalms 95:4 can be understood in the ancient Near Eastern cosmology as referring to what?",
-          "type": "multiple-choice",
-          "options": [
-            "The heavens above",
-            "The underworld or subterranean waters",
-            "The dry land",
-            "The mountains only"
-          ],
-          "correctAnswer": "The underworld or subterranean waters",
-          "explanation": "In ancient Near Eastern cosmology, \"deep places\" often referred to subterranean waters or the underworld, indicating God's control over all realms.",
-          "verseReference": "Psalms 95:4",
-          "difficulty": "hard"
-        },
-        {
-          "id": "psalms-95-hard-q12",
-          "question": "How does the repeated use of the imperative \"O come\" in Psalms 95:1 and 6 function poetically and theologically?",
-          "type": "multiple-choice",
-          "options": [
-            "It creates a liturgical invitation emphasizing communal worship",
-            "It signals a command to leave the sanctuary",
-            "It is a rhetorical question",
-            "It indicates doubt about God's presence"
-          ],
-          "correctAnswer": "It creates a liturgical invitation emphasizing communal worship",
-          "explanation": "The repeated \"O come\" serves as a call to communal worship and reverence, inviting the congregation to approach God joyfully (Psalms 95:1,6).",
-          "verseReference": "Psalms 95:1,6",
-          "difficulty": "hard"
-        },
-        {
-          "id": "psalms-95-hard-q13",
-          "question": "The phrase \"To day if ye will hear his voice\" (Psalms 95:7) serves what purpose in the psalm's overall message?",
-          "type": "multiple-choice",
-          "options": [
-            "It introduces a legal covenant",
-            "It offers an urgent invitation to obedience and responsiveness",
-            "It recounts historical events",
-            "It predicts future judgment only"
-          ],
-          "correctAnswer": "It offers an urgent invitation to obedience and responsiveness",
-          "explanation": "This phrase invites immediate attentiveness and obedience to God, emphasizing the opportunity to respond positively to His call (Psalms 95:7).",
+          "explanation": "Psalms 95:7 explicitly states that 'we are the people of his pasture, and the sheep of his hand,' portraying God as shepherd.",
           "verseReference": "Psalms 95:7",
           "difficulty": "hard"
         },
         {
-          "id": "psalms-95-hard-q14",
-          "question": "Psalms 95:9 mentions that \"your fathers tempted me, proved me, and saw my work.\" This testing of God recalls which biblical narrative?",
-          "type": "multiple-choice",
-          "options": [
-            "The testing of Abraham",
-            "The Israelites' wilderness testing after the Exodus",
-            "Job's trials",
-            "David's battle with Goliath"
-          ],
-          "correctAnswer": "The Israelites' wilderness testing after the Exodus",
-          "explanation": "The phrase refers to Israel's repeated testing of God during their wilderness journey, as recorded in Exodus and Numbers.",
-          "verseReference": "Psalms 95:9",
-          "difficulty": "hard"
-        },
-        {
-          "id": "psalms-95-hard-q15",
-          "question": "True or False: Psalms 95 is primarily a lament expressing sorrow over Israel's unfaithfulness.",
+          "id": "psalms-95-hard-q10",
+          "question": "True or False: Psalms 95:5 teaches that the sea and dry land were created by other gods.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "While Psalms 95 contains warnings and reminders of past unfaithfulness, it is primarily a song of praise and invitation to worship (Psalms 95:1-7).",
-          "verseReference": "Psalms 95:1-7",
+          "explanation": "Psalms 95:5 affirms that the sea and dry land were made by the LORD alone, not by other gods.",
+          "verseReference": "Psalms 95:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-95-hard-q11",
+          "question": "Which Old Testament event is alluded to in Psalms 95:8-10 regarding the wilderness experience?",
+          "type": "multiple-choice",
+          "options": [
+            "The Exodus and Israelites testing God",
+            "The Flood",
+            "The Tower of Babel construction",
+            "The Battle of Jericho"
+          ],
+          "correctAnswer": "The Exodus and Israelites testing God",
+          "explanation": "Psalms 95:8-10 alludes to the wilderness testing during the Exodus when Israelites provoked God and were disobedient.",
+          "verseReference": "Psalms 95:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-95-hard-q12",
+          "question": "What is the significance of the phrase 'rock of our salvation' in Psalms 95:1 in the broader biblical context?",
+          "type": "multiple-choice",
+          "options": [
+            "It symbolizes God’s unchanging strength and faithfulness",
+            "It refers to a literal rock used in worship",
+            "It is a reference to a mountain where sacrifices were made",
+            "It denotes a place of hiding"
+          ],
+          "correctAnswer": "It symbolizes God’s unchanging strength and faithfulness",
+          "explanation": "In biblical symbolism, 'rock' often represents God’s reliability and steadfast salvation, as in Psalms 95:1 and other passages like Deuteronomy 32:4.",
+          "verseReference": "Psalms 95:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-95-hard-q13",
+          "question": "How does Psalms 95:7’s depiction of God as a shepherd reflect ancient Near Eastern cultural imagery?",
+          "type": "multiple-choice",
+          "options": [
+            "Shepherd imagery was common for kings and deities caring for their people",
+            "It was a unique metaphor found only in Israel",
+            "Shepherds were considered unclean in that culture",
+            "It was a symbol of war and conquest"
+          ],
+          "correctAnswer": "Shepherd imagery was common for kings and deities caring for their people",
+          "explanation": "In ancient Near Eastern culture, shepherd imagery symbolized leadership and protection, employed to describe God’s care in Psalms 95:7.",
+          "verseReference": "Psalms 95:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-95-hard-q14",
+          "question": "Which New Testament passage echoes the warning in Psalms 95:7-11 about hardening the heart and missing God's rest?",
+          "type": "multiple-choice",
+          "options": [
+            "Hebrews 3:7-11",
+            "Romans 8:1-4",
+            "Ephesians 2:8-10",
+            "1 Corinthians 13"
+          ],
+          "correctAnswer": "Hebrews 3:7-11",
+          "explanation": "Hebrews 3:7-11 quotes Psalms 95 and warns against hardening hearts to avoid missing God's rest, directly linking to Psalms 95:7-11.",
+          "verseReference": "Psalms 95:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-95-hard-q15",
+          "question": "What is the theological significance of God swearing in wrath that the disobedient shall not enter His rest, according to Psalms 95:11?",
+          "type": "multiple-choice",
+          "options": [
+            "It highlights the consequences of persistent unbelief and disobedience",
+            "It means God will never forgive sinners",
+            "It applies only to ancient Israelites with no relevance today",
+            "It is a poetic exaggeration with no literal meaning"
+          ],
+          "correctAnswer": "It highlights the consequences of persistent unbelief and disobedience",
+          "explanation": "Psalms 95:11 underscores the grave consequence of rebellion against God, emphasizing the need for faithfulness to enter His rest.",
+          "verseReference": "Psalms 95:11",
           "difficulty": "hard"
         }
       ],
@@ -740,227 +736,227 @@
       "questions": [
         {
           "id": "psalms-95-theological-q1",
-          "question": "According to Psalms 95:3, what is the nature of the LORD in relation to other gods?",
+          "question": "What divine attribute is most clearly revealed in Psalms 95:4 regarding God's power over creation?",
           "type": "multiple-choice",
           "options": [
-            "The LORD is a great God and a great King above all gods",
-            "The LORD is equal to other gods",
-            "The LORD is a servant to other gods",
-            "The LORD is unknown among other gods"
+            "Omnipotence over the earth's depths and hills",
+            "God's mercy toward sinners",
+            "His omniscience about future events",
+            "His role as a redeemer"
           ],
-          "correctAnswer": "The LORD is a great God and a great King above all gods",
-          "explanation": "Psalms 95:3 affirms the LORD's supremacy as both a great God and King above all other gods, consistent with Isaiah 45:5, Deuteronomy 10:17, 1 Chronicles 29:11, and Revelation 19:16, all affirming God's unique sovereignty and supremacy.",
-          "verseReference": "Psalms 95:3",
-          "difficulty": "hard"
-        },
-        {
-          "id": "psalms-95-theological-q2",
-          "question": "What does Psalms 95:4 reveal about God's sovereignty over creation?",
-          "type": "multiple-choice",
-          "options": [
-            "God holds the deep places of the earth and the strength of the hills",
-            "God is limited to the heavens only",
-            "God is subject to the forces of nature",
-            "God is unaware of the earth's depths"
-          ],
-          "correctAnswer": "God holds the deep places of the earth and the strength of the hills",
-          "explanation": "This verse highlights God's sovereign control over the earth's depths and hills, demonstrating His omnipotence, as echoed in Job 38:16, Jeremiah 10:12, Colossians 1:17, and Psalm 104:5.",
+          "correctAnswer": "Omnipotence over the earth's depths and hills",
+          "explanation": "Psalms 95:4 states, 'In his hand are the deep places of the earth: the strength of the hills is his also,' clearly showing God's omnipotent control over the earth's physical features.",
           "verseReference": "Psalms 95:4",
           "difficulty": "hard"
         },
         {
-          "id": "psalms-95-theological-q3",
-          "question": "Who is described as the maker before whom we should worship and bow down in Psalms 95:6?",
+          "id": "psalms-95-theological-q2",
+          "question": "According to Psalms 95:7, what metaphor is used to describe God's relationship with His people, and what does it signify?",
           "type": "multiple-choice",
           "options": [
-            "The LORD our maker",
-            "The gods of the nations",
-            "The angels in heaven",
-            "The ancestors of Israel"
+            "Shepherd and sheep, signifying guidance and care",
+            "King and subjects, signifying authority",
+            "Father and children, signifying discipline",
+            "Friend and companion, signifying fellowship"
           ],
-          "correctAnswer": "The LORD our maker",
-          "explanation": "Psalms 95:6 calls for worship and humility before the LORD our maker, highlighting God's role as Creator, consistent with Genesis 1:1, Isaiah 64:8, John 1:3, and Revelation 4:11.",
-          "verseReference": "Psalms 95:6",
-          "difficulty": "hard"
-        },
-        {
-          "id": "psalms-95-theological-q4",
-          "question": "In Psalms 95:7, how does God describe His people?",
-          "type": "multiple-choice",
-          "options": [
-            "The people of His pasture and the sheep of His hand",
-            "A rebellious generation",
-            "The enemies of God",
-            "Servants without hope"
-          ],
-          "correctAnswer": "The people of His pasture and the sheep of His hand",
-          "explanation": "This verse uses pastoral imagery to show God's care and ownership of His people, in line with Ezekiel 34:11-16, John 10:14-15, Hebrews 13:20, and Isaiah 40:11.",
+          "correctAnswer": "Shepherd and sheep, signifying guidance and care",
+          "explanation": "Psalms 95:7 says, 'we are the people of his pasture, and the sheep of his hand,' which portrays God's tender guidance and protective care over His people, a key biblical metaphor for divine providence.",
           "verseReference": "Psalms 95:7",
           "difficulty": "hard"
         },
         {
-          "id": "psalms-95-theological-q5",
-          "question": "What warning does Psalms 95:8 give to believers?",
+          "id": "psalms-95-theological-q3",
+          "question": "What doctrinal truth about God’s sovereignty over creation is taught in Psalms 95:5?",
           "type": "multiple-choice",
           "options": [
-            "Harden not your heart as in the day of temptation in the wilderness",
-            "Ignore God's voice",
-            "Trust only in human wisdom",
-            "Doubt the promises of God"
+            "God is the creator and owner of both sea and dry land",
+            "God is limited to the heavens only",
+            "God's power is shared with other gods",
+            "Creation is independent of God"
           ],
-          "correctAnswer": "Harden not your heart as in the day of temptation in the wilderness",
-          "explanation": "The verse warns against hardening the heart against God’s voice, reflecting the Exodus wilderness experience, and echoes Hebrews 3:8-9, Ezekiel 36:26, Proverbs 28:14, and Romans 2:5 about the dangers of spiritual hardness.",
-          "verseReference": "Psalms 95:8",
-          "difficulty": "hard"
-        },
-        {
-          "id": "psalms-95-theological-q6",
-          "question": "What action did the fathers of Israel take that provoked God, according to Psalms 95:9?",
-          "type": "multiple-choice",
-          "options": [
-            "They tempted God, proved Him, and saw His works",
-            "They worshiped idols exclusively",
-            "They built altars to false gods",
-            "They remained silent in prayer"
-          ],
-          "correctAnswer": "They tempted God, proved Him, and saw His works",
-          "explanation": "This verse refers to the Israelites testing and challenging God despite witnessing His mighty works, paralleling Exodus 17:2, Numbers 14:22, Deuteronomy 6:16, and Hebrews 3:9.",
-          "verseReference": "Psalms 95:9",
-          "difficulty": "hard"
-        },
-        {
-          "id": "psalms-95-theological-q7",
-          "question": "For how long was God grieved with the generation mentioned in Psalms 95:10?",
-          "type": "multiple-choice",
-          "options": [
-            "Forty years",
-            "Ten years",
-            "Seven days",
-            "One year"
-          ],
-          "correctAnswer": "Forty years",
-          "explanation": "God was grieved for forty years because of Israel's continuous rebellion, corresponding with Numbers 14:33-34, Deuteronomy 2:14, Hebrews 3:17, and Joshua 5:6.",
-          "verseReference": "Psalms 95:10",
-          "difficulty": "hard"
-        },
-        {
-          "id": "psalms-95-theological-q8",
-          "question": "What did God swear in His wrath according to Psalms 95:11?",
-          "type": "multiple-choice",
-          "options": [
-            "That they should not enter into His rest",
-            "That they would conquer all enemies",
-            "That they would never be hungry",
-            "That they would inherit the land immediately"
-          ],
-          "correctAnswer": "That they should not enter into His rest",
-          "explanation": "This verse explains God's judgment preventing the rebellious generation from entering His rest, a concept echoed in Hebrews 4:3-5, Joshua 1:13, Psalm 23:1, and Matthew 11:28.",
-          "verseReference": "Psalms 95:11",
-          "difficulty": "hard"
-        },
-        {
-          "id": "psalms-95-theological-q9",
-          "question": "According to Psalms 95:1-2, what is the appropriate response to the LORD?",
-          "type": "multiple-choice",
-          "options": [
-            "Sing and make a joyful noise to the rock of our salvation with thanksgiving",
-            "Remain silent and meditate alone",
-            "Offer sacrifices without praise",
-            "Avoid coming before His presence"
-          ],
-          "correctAnswer": "Sing and make a joyful noise to the rock of our salvation with thanksgiving",
-          "explanation": "These verses call believers to joyful worship and thanksgiving before God, reflecting 1 Chronicles 16:23, Psalm 100:1-2, Ephesians 5:19, and Colossians 3:16.",
-          "verseReference": "Psalms 95:1-2",
-          "difficulty": "hard"
-        },
-        {
-          "id": "psalms-95-theological-q10",
-          "question": "What does Psalms 95:5 affirm about God's creative work?",
-          "type": "multiple-choice",
-          "options": [
-            "The sea is His, and He made it; His hands formed the dry land",
-            "The sea and land were formed by chance",
-            "The gods of the nations created the sea",
-            "Man formed the dry land"
-          ],
-          "correctAnswer": "The sea is His, and He made it; His hands formed the dry land",
-          "explanation": "This verse ascribes creation of sea and land directly to God, affirming His role as Creator, consistent with Genesis 1:9-10, Psalm 104:5-9, Isaiah 40:12, and John 1:10.",
+          "correctAnswer": "God is the creator and owner of both sea and dry land",
+          "explanation": "Psalms 95:5 declares, 'The sea is his, and he made it: and his hands formed the dry land,' affirming God's sovereign role as sole creator and sustainer of the natural world.",
           "verseReference": "Psalms 95:5",
           "difficulty": "hard"
         },
         {
-          "id": "psalms-95-theological-q11",
-          "question": "In Psalms 95:7, what condition is given for hearing God's voice today?",
+          "id": "psalms-95-theological-q4",
+          "question": "What combined theological insight do Psalms 95:1-2 and Psalms 95:6 provide about appropriate human response to God?",
           "type": "multiple-choice",
           "options": [
-            "If ye will hear His voice",
-            "If ye do not obey",
-            "If ye turn away",
-            "If ye ignore His command"
+            "Believers should respond with joyful worship and humble reverence",
+            "Humans are to question God’s authority",
+            "Worship is optional and situational",
+            "God desires only silent meditation"
           ],
-          "correctAnswer": "If ye will hear His voice",
-          "explanation": "The verse emphasizes the necessity of willing obedience to God's voice, aligning with John 10:27, Revelation 3:20, Isaiah 30:21, and Hebrews 3:15.",
-          "verseReference": "Psalms 95:7",
+          "correctAnswer": "Believers should respond with joyful worship and humble reverence",
+          "explanation": "Verses 1-2 invite singing and joyful noise 'unto the LORD,' while verse 6 commands worship and bowing down, emphasizing that God deserves both exuberant praise and humble submission.",
+          "verseReference": "Psalms 95:1-2, 6",
           "difficulty": "hard"
         },
         {
-          "id": "psalms-95-theological-q12",
-          "question": "What does the phrase 'rock of our salvation' in Psalms 95:1 signify about God?",
+          "id": "psalms-95-theological-q5",
+          "question": "What does Psalms 95:3 emphasize about the nature of God in relation to other gods, and what theological doctrine does this support?",
           "type": "multiple-choice",
           "options": [
-            "God is a firm and reliable foundation for salvation",
-            "God is distant and unapproachable",
-            "God is weak and unreliable",
-            "God changes His mind often"
+            "God is supreme and unique above all other so-called gods, supporting monotheism",
+            "God is one among many gods",
+            "God is a lesser deity",
+            "God shares power with other gods"
           ],
-          "correctAnswer": "God is a firm and reliable foundation for salvation",
-          "explanation": "The metaphor portrays God as steadfast and dependable for salvation, consistent with 2 Samuel 22:2-3, Isaiah 26:4, 1 Corinthians 10:4, and Psalm 18:2.",
-          "verseReference": "Psalms 95:1",
+          "correctAnswer": "God is supreme and unique above all other so-called gods, supporting monotheism",
+          "explanation": "Psalms 95:3 states, 'For the LORD is a great God, and a great King above all gods,' affirming God's unparalleled sovereignty and the biblical doctrine of monotheism.",
+          "verseReference": "Psalms 95:3",
           "difficulty": "hard"
         },
         {
-          "id": "psalms-95-theological-q13",
-          "question": "According to Psalms 95:10, what was the cause of God's grief with the generation?",
+          "id": "psalms-95-theological-q6",
+          "question": "How does Psalms 95:11 relate to the doctrine of divine judgment and rest?",
           "type": "multiple-choice",
           "options": [
-            "They erred in their heart and did not know His ways",
-            "They worshiped God faithfully",
-            "They built the temple",
-            "They obeyed His commands"
+            "It teaches that those who err will be denied God's rest due to His wrath",
+            "Everyone will eventually enter rest regardless of sin",
+            "Rest is earned by human works alone",
+            "God’s wrath is temporary and easily appeased"
           ],
-          "correctAnswer": "They erred in their heart and did not know His ways",
-          "explanation": "This verse identifies the cause of divine grievance as the generation's internal error and ignorance of God's ways, paralleled in Isaiah 53:6, Jeremiah 17:9, Romans 3:23, and Ephesians 2:1-3.",
+          "correctAnswer": "It teaches that those who err will be denied God's rest due to His wrath",
+          "explanation": "Psalms 95:11 says God swore in wrath that the generation who erred would not enter His rest, indicating divine judgment on unrepentant sin and linking rest with obedience.",
+          "verseReference": "Psalms 95:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-95-theological-q7",
+          "question": "What does the exhortation in Psalms 95:8 reveal about human responsibility in responding to God’s voice?",
+          "type": "multiple-choice",
+          "options": [
+            "Believers must not harden their hearts but be obedient to God’s voice",
+            "It is acceptable to ignore God’s warnings",
+            "God’s voice is only for the priests",
+            "Humans have no responsibility in hearing God"
+          ],
+          "correctAnswer": "Believers must not harden their hearts but be obedient to God’s voice",
+          "explanation": "Psalms 95:8 warns, 'Harden not your heart,' emphasizing the human duty to respond in faith and obedience rather than resistance to God’s guidance.",
+          "verseReference": "Psalms 95:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-95-theological-q8",
+          "question": "What does Psalms 95:10 teach about God’s emotional response towards human rebellion and ignorance?",
+          "type": "multiple-choice",
+          "options": [
+            "God was grieved for 40 years due to their erring hearts and ignorance of His ways",
+            "God is indifferent to human sin",
+            "God delights in human rebellion",
+            "God punishes without emotion"
+          ],
+          "correctAnswer": "God was grieved for 40 years due to their erring hearts and ignorance of His ways",
+          "explanation": "Psalms 95:10 reveals God's grief over a generation that 'do err in their heart, and they have not known my ways,' highlighting God's emotional engagement with human sinfulness.",
           "verseReference": "Psalms 95:10",
           "difficulty": "hard"
         },
         {
-          "id": "psalms-95-theological-q14",
-          "question": "What does the invitation in Psalms 95:6 to 'kneel before the LORD' imply about human posture in worship?",
+          "id": "psalms-95-theological-q9",
+          "question": "What apologetic response does Psalms 95:9-11 provide to sceptics who claim that God's justice is arbitrary or unmerciful?",
           "type": "multiple-choice",
           "options": [
-            "It signifies reverence and submission to God",
-            "It implies standing in pride",
-            "It means ignoring God",
-            "It suggests casual indifference"
+            "God’s judgment is a response to persistent human rebellion and testing, not arbitrary anger",
+            "God punishes without cause",
+            "God is indifferent to human actions",
+            "God's justice is unpredictable"
           ],
-          "correctAnswer": "It signifies reverence and submission to God",
-          "explanation": "Kneeling symbolizes humility and worship, a posture endorsed in Daniel 6:10, Philippians 2:10, Luke 22:41, and Revelation 4:10.",
-          "verseReference": "Psalms 95:6",
+          "correctAnswer": "God’s judgment is a response to persistent human rebellion and testing, not arbitrary anger",
+          "explanation": "Verses 9-11 show God’s grief and wrath as a just response to Israel's persistent testing and disobedience, affirming that divine justice is righteous and purposeful, countering claims of arbitrariness.",
+          "verseReference": "Psalms 95:9-11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-95-theological-q10",
+          "question": "How does Psalms 95:1-2 combined with Psalms 95:3 reveal the integrated theological view of worship and God’s character?",
+          "type": "multiple-choice",
+          "options": [
+            "Joyful worship is due because God is the great and sovereign King",
+            "Worship is unrelated to God’s greatness",
+            "God demands worship but is not great",
+            "Worship is only a human invention"
+          ],
+          "correctAnswer": "Joyful worship is due because God is the great and sovereign King",
+          "explanation": "Psalms 95:1-2 commands joyful singing, and verse 3 explains this is because 'the LORD is a great God, and a great King,' linking worship directly to God’s majestic character.",
+          "verseReference": "Psalms 95:1-3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-95-theological-q11",
+          "question": "What theological truth about God’s creative activity is emphasized by comparing Psalms 95:5 and Psalms 95:6?",
+          "type": "multiple-choice",
+          "options": [
+            "God as Creator is also our Maker deserving worship and humility",
+            "Creation is independent of God’s authority",
+            "God’s creative acts are unrelated to worship",
+            "Humans are creators equal to God"
+          ],
+          "correctAnswer": "God as Creator is also our Maker deserving worship and humility",
+          "explanation": "Verse 5 highlights God’s creative work, and verse 6 calls for worship and bowing to 'the LORD our maker,' connecting God’s creative sovereignty with the appropriate human response of worship.",
+          "verseReference": "Psalms 95:5-6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-95-theological-q12",
+          "question": "Which doctrinal theme is taught by Psalms 95:7-8 about human reception of God's voice and heart posture?",
+          "type": "multiple-choice",
+          "options": [
+            "The necessity of a receptive heart to hear and obey God’s voice",
+            "God’s voice is irrelevant to human life",
+            "Hardness of heart is commendable",
+            "Hearing God’s voice guarantees automatic obedience"
+          ],
+          "correctAnswer": "The necessity of a receptive heart to hear and obey God’s voice",
+          "explanation": "Verses 7-8 emphasize 'if ye will hear his voice' and warn against hardening the heart, teaching that salvation and blessing depend on responsive obedience, not mere hearing.",
+          "verseReference": "Psalms 95:7-8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-95-theological-q13",
+          "question": "How does the imagery of Psalms 95:7 contribute to the biblical doctrine of God's providence and care?",
+          "type": "multiple-choice",
+          "options": [
+            "It portrays God as a shepherd who lovingly tends and protects His people",
+            "It depicts God as a distant ruler uninterested in His people",
+            "It suggests humans are self-sufficient",
+            "It implies God’s care is conditional on works"
+          ],
+          "correctAnswer": "It portrays God as a shepherd who lovingly tends and protects His people",
+          "explanation": "The verse calls believers 'the sheep of his hand,' illustrating God's providential guidance and nurturing care consistent with the shepherd motif throughout Scripture.",
+          "verseReference": "Psalms 95:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-95-theological-q14",
+          "question": "What combined doctrinal teaching emerges from Psalms 95:10-11 about human sin and divine rest?",
+          "type": "multiple-choice",
+          "options": [
+            "Persistent sin leads to exclusion from God’s promised rest due to His righteous judgment",
+            "God’s rest is available regardless of sin",
+            "Human sin has no impact on divine promises",
+            "God’s wrath is unrelated to human behavior"
+          ],
+          "correctAnswer": "Persistent sin leads to exclusion from God’s promised rest due to His righteous judgment",
+          "explanation": "Verses 10-11 express God’s grief over sin and His oath that those who err will not enter His rest, teaching the seriousness of sin and the conditional nature of entering God's rest.",
+          "verseReference": "Psalms 95:10-11",
           "difficulty": "hard"
         },
         {
           "id": "psalms-95-theological-q15",
-          "question": "What theological truth is emphasized by referring to God's people as 'sheep of his hand' in Psalms 95:7?",
+          "question": "What apologetic insight does Psalms 95:1-11 provide concerning the coherence of God’s justice and mercy in salvation history?",
           "type": "multiple-choice",
           "options": [
-            "God's protective care and guidance over His people",
-            "Human independence from God",
-            "God's neglect of His people",
-            "The people's rebellion without consequence"
+            "God’s justice is balanced with mercy, calling for thankful worship while warning of judgment for disobedience",
+            "God’s justice negates mercy",
+            "Mercy excuses persistent rebellion",
+            "God’s justice is arbitrary and harsh"
           ],
-          "correctAnswer": "God's protective care and guidance over His people",
-          "explanation": "This pastoral imagery underscores God's personal care and leadership, consistent with John 10:11, Psalm 23:1-4, Ezekiel 34:15, and 1 Peter 5:2-4.",
-          "verseReference": "Psalms 95:7",
+          "correctAnswer": "God’s justice is balanced with mercy, calling for thankful worship while warning of judgment for disobedience",
+          "explanation": "The passage starts with calls for joyful worship (verses 1-2), acknowledging God's greatness and mercy, and ends with warnings about judgment for rebellion (verses 10-11), showing a balanced divine character consistent with Scripture (Exodus 34:6-7).",
+          "verseReference": "Psalms 95:1-2, 10-11",
           "difficulty": "hard"
         }
       ],

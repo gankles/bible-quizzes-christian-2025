@@ -13,13 +13,28 @@
       "questions": [
         {
           "id": "job-2-easy-q1",
-          "question": "Who came among the sons of God to present himself before the LORD in Job 2:1?",
+          "question": "In Job 2, which of the following appears FIRST in the chapter?",
+          "type": "multiple-choice",
+          "options": [
+            "Satan coming among the sons of God to present himself before the LORD",
+            "The LORD asking Satan from where he has come",
+            "Satan saying a man will give all he has for his life",
+            "The LORD describing Job as perfect and upright"
+          ],
+          "correctAnswer": "Satan coming among the sons of God to present himself before the LORD",
+          "explanation": "Job 2:1 states that \"Again there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them to present himself before the LORD.\" This is the first event mentioned in the chapter.",
+          "verseReference": "Job 2:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-2-easy-q2",
+          "question": "According to Job 2:1, who came among the sons of God to present themselves before the LORD?",
           "type": "multiple-choice",
           "options": [
             "Satan",
-            "Eliphaz",
-            "Bildad",
-            "Zophar"
+            "Michael",
+            "Elijah",
+            "Job"
           ],
           "correctAnswer": "Satan",
           "explanation": "Job 2:1 states that Satan came among the sons of God to present himself before the LORD.",
@@ -27,207 +42,190 @@
           "difficulty": "easy"
         },
         {
-          "id": "job-2-easy-q2",
-          "question": "According to Job 2:2, where did Satan say he had been going?",
+          "id": "job-2-easy-q3",
+          "question": "What question did the LORD ask Satan in Job 2:2?",
           "type": "multiple-choice",
           "options": [
-            "To and fro in the earth",
-            "In the heavens",
-            "In the sea",
-            "Among the angels"
+            "From whence comest thou?",
+            "Hast thou considered my servant Job?",
+            "Will he curse me to my face?",
+            "Why do you roam the earth?"
           ],
-          "correctAnswer": "To and fro in the earth",
-          "explanation": "Satan answered the LORD that he had been 'going to and fro in the earth, and from walking up and down in it' as per Job 2:2.",
+          "correctAnswer": "From whence comest thou?",
+          "explanation": "Job 2:2 says, \"And the LORD said unto Satan, From whence comest thou?\"",
           "verseReference": "Job 2:2",
           "difficulty": "easy"
         },
         {
-          "id": "job-2-easy-q3",
-          "question": "What kind of man did the LORD describe Job as in Job 2:3?",
-          "type": "multiple-choice",
-          "options": [
-            "Perfect and upright",
-            "Rich and powerful",
-            "Wise and wealthy",
-            "Compassionate and generous"
-          ],
-          "correctAnswer": "Perfect and upright",
-          "explanation": "Job is described in Job 2:3 as a perfect and upright man who fears God and eschews evil.",
-          "verseReference": "Job 2:3",
-          "difficulty": "easy"
-        },
-        {
           "id": "job-2-easy-q4",
-          "question": "What did Satan claim a man would give for his life in Job 2:4?",
+          "question": "How did Satan describe his movements on the earth in Job 2:2?",
           "type": "multiple-choice",
           "options": [
-            "All that he hath",
-            "Only his possessions",
-            "His family",
-            "His friends"
+            "From going to and fro in the earth, and from walking up and down in it",
+            "Resting in the deserts",
+            "Dwelling in the mountains",
+            "Sitting among men"
           ],
-          "correctAnswer": "All that he hath",
-          "explanation": "Satan said in Job 2:4, 'all that a man hath will he give for his life.'",
-          "verseReference": "Job 2:4",
+          "correctAnswer": "From going to and fro in the earth, and from walking up and down in it",
+          "explanation": "Job 2:2 records Satan saying, \"From going to and fro in the earth, and from walking up and down in it.\"",
+          "verseReference": "Job 2:2",
           "difficulty": "easy"
         },
         {
           "id": "job-2-easy-q5",
-          "question": "What did Satan ask permission to do to Job in Job 2:5?",
+          "question": "How does the LORD describe Job in Job 2:3?",
           "type": "multiple-choice",
           "options": [
-            "Touch his bone and flesh",
-            "Take away his wealth",
-            "Send him away",
-            "Blind him"
+            "A perfect and an upright man, one that feareth God, and escheweth evil",
+            "A wealthy and proud man",
+            "A rebellious servant",
+            "A meek and humble man"
           ],
-          "correctAnswer": "Touch his bone and flesh",
-          "explanation": "Satan requested to touch Job's bone and flesh as stated in Job 2:5.",
-          "verseReference": "Job 2:5",
+          "correctAnswer": "A perfect and an upright man, one that feareth God, and escheweth evil",
+          "explanation": "Job 2:3 states, \"there is none like him in the earth, a perfect and an upright man, one that feareth God, and escheweth evil.\"",
+          "verseReference": "Job 2:3",
           "difficulty": "easy"
         },
         {
           "id": "job-2-easy-q6",
-          "question": "What limitation did the LORD place on Satan’s actions against Job in Job 2:6?",
+          "question": "What did the LORD say Job still holds fast to despite Satan's actions, in Job 2:3?",
           "type": "multiple-choice",
           "options": [
-            "Save his life",
-            "Take his possessions",
-            "Harm his family",
-            "Destroy his house"
+            "His integrity",
+            "His wealth",
+            "His family",
+            "His land"
           ],
-          "correctAnswer": "Save his life",
-          "explanation": "The LORD told Satan to save Job's life while allowing affliction as per Job 2:6.",
-          "verseReference": "Job 2:6",
+          "correctAnswer": "His integrity",
+          "explanation": "Job 2:3 says, \"and still he holdeth fast his integrity, although thou movedst me against him, to destroy him without cause.\"",
+          "verseReference": "Job 2:3",
           "difficulty": "easy"
         },
         {
           "id": "job-2-easy-q7",
-          "question": "What affliction did Satan bring upon Job according to Job 2:7?",
+          "question": "What does Satan say a man will give for his life in Job 2:4?",
           "type": "multiple-choice",
           "options": [
-            "Sore boils",
-            "Blindness",
-            "Lameness",
-            "Fever"
+            "All that a man hath",
+            "Only his wealth",
+            "Nothing",
+            "His honor"
           ],
-          "correctAnswer": "Sore boils",
-          "explanation": "Job 2:7 describes Satan smiting Job with sore boils from the sole of his foot to his crown.",
-          "verseReference": "Job 2:7",
+          "correctAnswer": "All that a man hath",
+          "explanation": "Job 2:4 quotes Satan saying, \"Skin for skin, yea, all that a man hath will he give for his life.\"",
+          "verseReference": "Job 2:4",
           "difficulty": "easy"
         },
         {
           "id": "job-2-easy-q8",
-          "question": "What did Job use to scrape himself with after he was afflicted in Job 2:8?",
+          "question": "What does Satan ask the LORD to do to Job in Job 2:5?",
           "type": "multiple-choice",
           "options": [
-            "A potsherd",
-            "A stone",
-            "A piece of wood",
-            "A leaf"
+            "Touch his bone and his flesh",
+            "Take away his wealth",
+            "Remove his family",
+            "Send him away"
           ],
-          "correctAnswer": "A potsherd",
-          "explanation": "Job took a potsherd to scrape himself as stated in Job 2:8.",
-          "verseReference": "Job 2:8",
+          "correctAnswer": "Touch his bone and his flesh",
+          "explanation": "Job 2:5 records Satan saying, \"But put forth thine hand now, and touch his bone and his flesh, and he will curse thee to thy face.\"",
+          "verseReference": "Job 2:5",
           "difficulty": "easy"
         },
         {
           "id": "job-2-easy-q9",
-          "question": "What did Job’s wife tell him to do in Job 2:9?",
+          "question": "Who does the LORD mention as having moved him against Job in Job 2:3?",
           "type": "multiple-choice",
           "options": [
-            "Curse God and die",
-            "Pray more",
-            "Be patient",
-            "Leave his house"
+            "Satan",
+            "Job's friends",
+            "Job himself",
+            "The sons of God"
           ],
-          "correctAnswer": "Curse God and die",
-          "explanation": "Job 2:9 records Job’s wife urging him to curse God and die.",
-          "verseReference": "Job 2:9",
+          "correctAnswer": "Satan",
+          "explanation": "Job 2:3 includes the phrase, \"although thou movedst me against him, to destroy him without cause,\" where 'thou' refers to Satan.",
+          "verseReference": "Job 2:3",
           "difficulty": "easy"
         },
         {
           "id": "job-2-easy-q10",
-          "question": "What was Job’s response to his wife’s suggestion in Job 2:10?",
+          "question": "In Job 2:1, who are described as coming to present themselves before the LORD along with Satan?",
           "type": "multiple-choice",
           "options": [
-            "He did not sin with his lips",
-            "He cursed God",
-            "He left her",
-            "He prayed for healing"
+            "The sons of God",
+            "The angels of heaven",
+            "The elders of Israel",
+            "The prophets"
           ],
-          "correctAnswer": "He did not sin with his lips",
-          "explanation": "Job responded that he did not sin with his lips despite all his suffering, as seen in Job 2:10.",
-          "verseReference": "Job 2:10",
+          "correctAnswer": "The sons of God",
+          "explanation": "Job 2:1 says, \"Again there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them.\"",
+          "verseReference": "Job 2:1",
           "difficulty": "easy"
         },
         {
           "id": "job-2-easy-q11",
-          "question": "Who were Job’s three friends that came to comfort him in Job 2:11?",
+          "question": "According to Job 2:4, what phrase does Satan use to describe what a man will give to keep his life?",
           "type": "multiple-choice",
           "options": [
-            "Eliphaz, Bildad, and Zophar",
-            "Moses, Aaron, and Joshua",
-            "David, Solomon, and Nathan",
-            "Peter, James, and John"
+            "Skin for skin",
+            "Blood for blood",
+            "Gold for gold",
+            "Honor for honor"
           ],
-          "correctAnswer": "Eliphaz, Bildad, and Zophar",
-          "explanation": "Job’s three friends named Eliphaz, Bildad, and Zophar came to comfort him as per Job 2:11.",
-          "verseReference": "Job 2:11",
+          "correctAnswer": "Skin for skin",
+          "explanation": "Job 2:4 quotes Satan saying, \"Skin for skin, yea, all that a man hath will he give for his life.\"",
+          "verseReference": "Job 2:4",
           "difficulty": "easy"
         },
         {
           "id": "job-2-easy-q12",
-          "question": "True or False: Job’s three friends spoke comforting words to him immediately upon arrival in Job 2:13.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "False",
-          "explanation": "Job 2:13 states that Job’s friends sat with him for seven days and nights without speaking because they saw his grief was very great.",
-          "verseReference": "Job 2:13",
-          "difficulty": "easy"
-        },
-        {
-          "id": "job-2-easy-q13",
-          "question": "True or False: Job’s friends tore their mantles and sprinkled dust upon their heads when they saw his condition in Job 2:12.",
+          "question": "True or False: According to Job 2:5, Satan claims that if the LORD touches Job's bone and flesh, Job will curse the LORD to His face.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Job 2:12 describes how Job’s friends rent their mantles and sprinkled dust on their heads as a sign of mourning.",
-          "verseReference": "Job 2:12",
+          "explanation": "Job 2:5 says, \"But put forth thine hand now, and touch his bone and his flesh, and he will curse thee to thy face.\" This means Satan claims Job will curse the LORD if afflicted physically.",
+          "verseReference": "Job 2:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "job-2-easy-q13",
+          "question": "True or False: Job is described as someone who fears God and avoids evil in Job 2:3.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Job 2:3 describes Job as \"one that feareth God, and escheweth evil.\"",
+          "verseReference": "Job 2:3",
           "difficulty": "easy"
         },
         {
           "id": "job-2-easy-q14",
-          "question": "True or False: Job cursed God as soon as he was afflicted with boils according to Job 2:10.",
+          "question": "True or False: The text says that Satan asked the LORD to remove Job's wealth before touching his bone and flesh.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Job 2:10 confirms that in all this, Job did not sin with his lips by cursing God.",
-          "verseReference": "Job 2:10",
+          "explanation": "Job 2:5 only records Satan asking the LORD to touch Job's bone and flesh, not to remove his wealth.",
+          "verseReference": "Job 2:5",
           "difficulty": "easy"
         },
         {
           "id": "job-2-easy-q15",
-          "question": "Complete this verse from Job 2:3: 'Hast thou considered my servant Job, that there is none like him in the earth, a perfect and an upright man, one that feareth God, and ________ evil?'",
-          "type": "fill-blank",
+          "question": "True or False: The text says that Job cursed Satan to his face after being touched on his bone and flesh.",
+          "type": "true-false",
           "options": [
-            "escheweth",
-            "loves",
-            "ignores",
-            "judges"
+            "True",
+            "False"
           ],
-          "correctAnswer": "escheweth",
-          "explanation": "Job 2:3 states Job 'feareth God, and escheweth evil,' meaning he avoids evil.",
-          "verseReference": "Job 2:3",
+          "correctAnswer": "False",
+          "explanation": "Job 2:5 records Satan's claim that Job will curse the LORD to His face if touched, but the text does not say that Job actually cursed Satan.",
+          "verseReference": "Job 2:5",
           "difficulty": "easy"
         }
       ],
@@ -254,223 +252,221 @@
       "questions": [
         {
           "id": "job-2-medium-q1",
-          "question": "A fellow believer is going through severe trials and questions if faithfulness to God is worth it. Based on Job 2, what biblical truth would you share about perseverance through trials?",
+          "question": "What did the LORD say to Satan about Job's life?",
           "type": "multiple-choice",
           "options": [
-            "Job maintained his integrity despite immense suffering.",
-            "Job immediately cursed God when afflicted.",
-            "Job's faith wavered and he lost hope.",
-            "Job blamed God for his troubles."
+            "He can take Job's life.",
+            "He is in Job's hand; but save his life.",
+            "Job is no longer righteous.",
+            "Job will curse God."
           ],
-          "correctAnswer": "Job maintained his integrity despite immense suffering.",
-          "explanation": "In Job 2:3, God affirms Job's integrity and in Job 2:10, Job does not sin with his lips despite his suffering, demonstrating perseverance through trials.",
-          "verseReference": "Job 2:3",
+          "correctAnswer": "He is in Job's hand; but save his life.",
+          "explanation": "The LORD said to Satan, 'Behold, he is in thine hand; but save his life.' (Job 2:6)",
+          "verseReference": "Job 2:6",
           "difficulty": "medium"
         },
         {
           "id": "job-2-medium-q2",
-          "question": "How does Job 2 teach us about responding to temptation when facing adversity?",
+          "question": "What does Job 2:8 imply about Job's condition after being afflicted?",
           "type": "multiple-choice",
           "options": [
-            "Job refused to curse God even when urged by his wife.",
-            "Job gave in to temptation and cursed God.",
-            "Job ignored his suffering and acted as if nothing happened.",
-            "Job blamed his friends for his troubles."
+            "He remained joyful.",
+            "He took a potsherd to scrape himself and sat among ashes.",
+            "He was visited by friends.",
+            "He was angry with God."
           ],
-          "correctAnswer": "Job refused to curse God even when urged by his wife.",
-          "explanation": "Job 2:9-10 shows that despite his wife urging him to curse God and die, Job refuses, illustrating steadfastness and resisting temptation.",
-          "verseReference": "Job 2:9",
-          "difficulty": "medium"
-        },
-        {
-          "id": "job-2-medium-q3",
-          "question": "A believer is struggling with understanding suffering. Based on Job 2, what can you teach about God's sovereignty and testing?",
-          "type": "multiple-choice",
-          "options": [
-            "God allows testing but limits the harm to preserve life.",
-            "God abandons His servants in suffering.",
-            "Suffering is always a punishment for sin.",
-            "God is unaware of human suffering."
-          ],
-          "correctAnswer": "God allows testing but limits the harm to preserve life.",
-          "explanation": "In Job 2:6, God permits Satan to afflict Job but commands to save his life, demonstrating God's control over suffering and preservation.",
-          "verseReference": "Job 2:6",
-          "difficulty": "medium"
-        },
-        {
-          "id": "job-2-medium-q4",
-          "question": "What does Job 2 teach about the value of friendship and support during times of grief?",
-          "type": "multiple-choice",
-          "options": [
-            "Job's friends came to mourn and comfort him silently for seven days.",
-            "Job's friends ignored his suffering.",
-            "Job's friends blamed him for his troubles immediately.",
-            "Job's friends avoided him out of fear."
-          ],
-          "correctAnswer": "Job's friends came to mourn and comfort him silently for seven days.",
-          "explanation": "Job 2:11-13 shows Job's friends traveling to him and sitting silently with him for seven days, exemplifying compassionate presence in grief.",
-          "verseReference": "Job 2:11",
-          "difficulty": "medium"
-        },
-        {
-          "id": "job-2-medium-q5",
-          "question": "How does Job 2 demonstrate the importance of maintaining integrity in work and daily life despite hardships?",
-          "type": "multiple-choice",
-          "options": [
-            "Job is described as a perfect and upright man who fears God and shuns evil.",
-            "Job abandoned his principles when tested.",
-            "Job stopped working and gave up his responsibilities.",
-            "Job was dishonest to protect himself."
-          ],
-          "correctAnswer": "Job is described as a perfect and upright man who fears God and shuns evil.",
-          "explanation": "Job 2:3 emphasizes Job’s integrity, fear of God, and avoidance of evil, showing commitment to righteousness even in trials.",
-          "verseReference": "Job 2:3",
-          "difficulty": "medium"
-        },
-        {
-          "id": "job-2-medium-q6",
-          "question": "What lesson about marriage and support can be learned from Job 2 when facing difficult trials?",
-          "type": "multiple-choice",
-          "options": [
-            "Job’s wife challenges his faith, showing the strain trials can place on relationships.",
-            "Job’s wife encourages him to trust God fully.",
-            "Job’s wife prays faithfully for him throughout.",
-            "Job’s wife leaves him during his suffering."
-          ],
-          "correctAnswer": "Job’s wife challenges his faith, showing the strain trials can place on relationships.",
-          "explanation": "In Job 2:9, Job’s wife urges him to curse God and die, illustrating how hardships may test marital support and faith.",
-          "verseReference": "Job 2:9",
-          "difficulty": "medium"
-        },
-        {
-          "id": "job-2-medium-q7",
-          "question": "True or False: According to Job 2, Job immediately cursed God when his health was afflicted.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "False",
-          "explanation": "Job 2:10 clearly states that Job did not sin with his lips despite his severe affliction.",
-          "verseReference": "Job 2:10",
-          "difficulty": "medium"
-        },
-        {
-          "id": "job-2-medium-q8",
-          "question": "True or False: Job’s friends came to comfort him only after he had recovered from his afflictions.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "False",
-          "explanation": "Job 2:11 shows that Job’s friends came to him after they heard about his suffering to mourn and comfort him.",
-          "verseReference": "Job 2:11",
-          "difficulty": "medium"
-        },
-        {
-          "id": "job-2-medium-q9",
-          "question": "Fill in the blank: Satan claimed that a man will give all he has for his ______.",
-          "type": "fill-blank",
-          "options": [
-            "life",
-            "wealth",
-            "family",
-            "health"
-          ],
-          "correctAnswer": "life",
-          "explanation": "In Job 2:4, Satan says, 'Skin for skin, yea, all that a man hath will he give for his life,' indicating the value placed on life.",
-          "verseReference": "Job 2:4",
-          "difficulty": "medium"
-        },
-        {
-          "id": "job-2-medium-q10",
-          "question": "How does Job 2 teach us about humility and submission to God's will during suffering?",
-          "type": "multiple-choice",
-          "options": [
-            "Job accepts God's sovereign will even when it brings suffering.",
-            "Job demands answers from God angrily.",
-            "Job rejects God’s authority.",
-            "Job tries to bargain for better health."
-          ],
-          "correctAnswer": "Job accepts God's sovereign will even when it brings suffering.",
-          "explanation": "Job 2:6 and Job 2:10 show Job’s submission to God's will, accepting suffering without rebellion, demonstrating humility.",
-          "verseReference": "Job 2:6",
-          "difficulty": "medium"
-        },
-        {
-          "id": "job-2-medium-q11",
-          "question": "What does the silent mourning of Job’s friends in Job 2:13 teach about fellowship in times of grief?",
-          "type": "multiple-choice",
-          "options": [
-            "Sometimes presence without words is the best comfort.",
-            "Friends should always offer advice immediately.",
-            "Friends should avoid such situations.",
-            "Friends should judge the sufferer quickly."
-          ],
-          "correctAnswer": "Sometimes presence without words is the best comfort.",
-          "explanation": "Job 2:13 describes them sitting silently for seven days with Job, showing the power of empathetic presence.",
-          "verseReference": "Job 2:13",
-          "difficulty": "medium"
-        },
-        {
-          "id": "job-2-medium-q12",
-          "question": "How does Job 2 encourage believers to maintain faith when facing accusations or misunderstandings from others?",
-          "type": "multiple-choice",
-          "options": [
-            "Job’s friends came to comfort, despite potential misunderstandings.",
-            "Job immediately isolated himself from all friends.",
-            "Job retaliated with harsh words against his friends.",
-            "Job ignored all counsel and advice."
-          ],
-          "correctAnswer": "Job’s friends came to comfort, despite potential misunderstandings.",
-          "explanation": "Job 2:11 shows friends came to mourn and comfort, encouraging fellowship even amid trials and misunderstandings.",
-          "verseReference": "Job 2:11",
-          "difficulty": "medium"
-        },
-        {
-          "id": "job-2-medium-q13",
-          "question": "What biblical truth about grief and patience can be derived from Job 2:13?",
-          "type": "multiple-choice",
-          "options": [
-            "Grief can be so deep that sometimes silence and patience are needed.",
-            "Grief should always be quickly resolved with words.",
-            "Grief is a sign of weak faith.",
-            "Grief should be hidden from friends."
-          ],
-          "correctAnswer": "Grief can be so deep that sometimes silence and patience are needed.",
-          "explanation": "The friends' silence for seven days in Job 2:13 teaches that patience and silent presence are valuable in grief.",
-          "verseReference": "Job 2:13",
-          "difficulty": "medium"
-        },
-        {
-          "id": "job-2-medium-q14",
-          "question": "In Job 2, what does Job’s use of a potsherd to scrape himself illustrate about enduring hardship?",
-          "type": "multiple-choice",
-          "options": [
-            "Endurance requires humble and practical measures.",
-            "Suffering should be hidden from others.",
-            "One should seek only miraculous healing.",
-            "Endurance means avoiding any discomfort."
-          ],
-          "correctAnswer": "Endurance requires humble and practical measures.",
-          "explanation": "Job 2:8 shows Job scraping himself with a potsherd, indicating humble endurance and practical ways to cope with pain.",
+          "correctAnswer": "He took a potsherd to scrape himself and sat among ashes.",
+          "explanation": "Job took a potsherd to scrape himself withal; and he sat down among the ashes. (Job 2:8)",
           "verseReference": "Job 2:8",
           "difficulty": "medium"
         },
         {
-          "id": "job-2-medium-q15",
-          "question": "When Satan came before the LORD in Job 2, what was Satan doing on the earth, as he told the LORD?",
+          "id": "job-2-medium-q3",
+          "question": "How did Job respond to his wife's suggestion to curse God?",
           "type": "multiple-choice",
           "options": [
-            "Going to and fro in the earth, and walking up and down in it.",
-            "Resting and observing quietly.",
-            "Helping people live righteously.",
-            "Praying for forgiveness."
+            "He agreed with her.",
+            "He became silent.",
+            "He spoke as one of the foolish women speaks.",
+            "He cursed God."
           ],
-          "correctAnswer": "Going to and fro in the earth, and walking up and down in it.",
-          "explanation": "Job 2:2 records Satan saying he was roaming the earth, indicating active observation and seeking to challenge God's servants.",
-          "verseReference": "Job 2:2",
+          "correctAnswer": "He spoke as one of the foolish women speaks.",
+          "explanation": "Job said to his wife, 'Thou speakest as one of the foolish women speaketh.' (Job 2:10)",
+          "verseReference": "Job 2:10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-2-medium-q4",
+          "question": "What does Job 2:9 suggest about his wife's faith during Job's suffering?",
+          "type": "multiple-choice",
+          "options": [
+            "She encouraged Job to have faith.",
+            "She questioned Job's integrity.",
+            "She prayed for Job.",
+            "She remained silent."
+          ],
+          "correctAnswer": "She questioned Job's integrity.",
+          "explanation": "Job's wife asked, 'Dost thou still retain thine integrity? curse God, and die.' (Job 2:9)",
+          "verseReference": "Job 2:9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-2-medium-q5",
+          "question": "What was Satan's claim about Job's faithfulness in Job 2:4?",
+          "type": "multiple-choice",
+          "options": [
+            "Job fears God for no reason.",
+            "Job is perfect and upright.",
+            "Job only serves God for blessings.",
+            "Job will never curse God."
+          ],
+          "correctAnswer": "Job only serves God for blessings.",
+          "explanation": "Satan answered the LORD, 'Skin for skin, yea, all that a man hath will he give for his life.' (Job 2:4)",
+          "verseReference": "Job 2:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-2-medium-q6",
+          "question": "What does Job's response in Job 2:10 teach about the nature of good and evil?",
+          "type": "multiple-choice",
+          "options": [
+            "We should only accept good from God.",
+            "Both good and evil are part of God's plan.",
+            "Evil is never allowed by God.",
+            "Good and evil are irrelevant."
+          ],
+          "correctAnswer": "Both good and evil are part of God's plan.",
+          "explanation": "Job states, 'What? shall we receive good at the hand of God, and shall we not receive evil?' (Job 2:10)",
+          "verseReference": "Job 2:10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-2-medium-q7",
+          "question": "How does Job's integrity remain intact despite his suffering?",
+          "type": "multiple-choice",
+          "options": [
+            "He curses God.",
+            "He does not complain.",
+            "He holds fast to his integrity.",
+            "He seeks revenge."
+          ],
+          "correctAnswer": "He holds fast to his integrity.",
+          "explanation": "The LORD acknowledged Job as one who still holdeth fast his integrity despite his afflictions. (Job 2:3)",
+          "verseReference": "Job 2:3",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-2-medium-q8",
+          "question": "What does the phrase 'among the ashes' symbolize for Job?",
+          "type": "multiple-choice",
+          "options": [
+            "A place of mourning and humility.",
+            "A place of joy.",
+            "A place of comfort.",
+            "A place of wealth."
+          ],
+          "correctAnswer": "A place of mourning and humility.",
+          "explanation": "Job sat down among the ashes, which signifies his deep mourning and humility in his suffering. (Job 2:8)",
+          "verseReference": "Job 2:8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-2-medium-q9",
+          "question": "What can we learn from Job's refusal to curse God?",
+          "type": "multiple-choice",
+          "options": [
+            "Faithfulness is conditional.",
+            "Integrity should be maintained in adversity.",
+            "God does not allow suffering.",
+            "Suffering is a sign of God's displeasure."
+          ],
+          "correctAnswer": "Integrity should be maintained in adversity.",
+          "explanation": "Job did not sin with his lips, reflecting his steadfast integrity despite immense suffering. (Job 2:10)",
+          "verseReference": "Job 2:10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-2-medium-q10",
+          "question": "What action did Satan take after being permitted by the LORD?",
+          "type": "multiple-choice",
+          "options": [
+            "He left Job alone.",
+            "He smote Job with sore boils.",
+            "He blessed Job.",
+            "He deceived Job's friends."
+          ],
+          "correctAnswer": "He smote Job with sore boils.",
+          "explanation": "Satan went forth from the LORD's presence and smote Job with sore boils from head to toe. (Job 2:7)",
+          "verseReference": "Job 2:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-2-medium-q11",
+          "question": "What does Job's wife's advice reveal about her own faith?",
+          "type": "multiple-choice",
+          "options": [
+            "She is strong in her faith.",
+            "She believes in God's goodness.",
+            "She is struggling with her faith.",
+            "She encourages Job."
+          ],
+          "correctAnswer": "She is struggling with her faith.",
+          "explanation": "Her suggestion to curse God shows her despair and lack of faith during Job's suffering. (Job 2:9)",
+          "verseReference": "Job 2:9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-2-medium-q12",
+          "question": "Job's assertion that he will accept both good and evil reflects what principle?",
+          "type": "multiple-choice",
+          "options": [
+            "God is only good.",
+            "Life is only about blessings.",
+            "Faith requires acceptance of all circumstances.",
+            "Evil does not exist."
+          ],
+          "correctAnswer": "Faith requires acceptance of all circumstances.",
+          "explanation": "Job's statement reflects his understanding that faith entails accepting both good and evil from God. (Job 2:10)",
+          "verseReference": "Job 2:10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-2-medium-q13",
+          "question": "Is Job's integrity questioned by Satan in Job 2?",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Satan questioned Job's integrity by suggesting that he only serves God for personal gain. (Job 2:4)",
+          "verseReference": "Job 2:4",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-2-medium-q14",
+          "question": "Did Job sin with his lips during his suffering?",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Job did not sin with his lips, indicating his faithfulness in the midst of suffering. (Job 2:10)",
+          "verseReference": "Job 2:10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "job-2-medium-q15",
+          "question": "Did Job's wife encourage him to remain faithful?",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Job's wife advised him to curse God and die, indicating a lack of encouragement for faithfulness. (Job 2:9)",
+          "verseReference": "Job 2:9",
           "difficulty": "medium"
         }
       ],
@@ -497,225 +493,223 @@
       "questions": [
         {
           "id": "job-2-hard-q1",
-          "question": "In Job 2:3, how is Job described in terms of his character and relationship to God?",
+          "question": "Who were the three friends that came to mourn with Job?",
           "type": "multiple-choice",
           "options": [
-            "A perfect and upright man who fears God and shuns evil",
-            "A wealthy and powerful king who trusts in his riches",
-            "A sinful man who repents after suffering",
-            "A prophet who speaks God's words"
+            "Eliphaz, Bildad, Zophar",
+            "Abraham, Isaac, Jacob",
+            "Peter, James, John",
+            "Moses, Aaron, Miriam"
           ],
-          "correctAnswer": "A perfect and upright man who fears God and shuns evil",
-          "explanation": "Job 2:3 describes Job as 'a perfect and an upright man, one that feareth God, and escheweth evil', emphasizing his integrity and righteousness before God.",
-          "verseReference": "Job 2:3",
+          "correctAnswer": "Eliphaz, Bildad, Zophar",
+          "explanation": "This answer is correct as stated in Job 2:11, where it specifically mentions Eliphaz the Temanite, Bildad the Shuhite, and Zophar the Naamathite as Job's friends.",
+          "verseReference": "Job 2:11",
           "difficulty": "hard"
         },
         {
           "id": "job-2-hard-q2",
-          "question": "What does Satan claim in Job 2:4 regarding a man's willingness to give for his life?",
+          "question": "What action did Job's friends take when they saw him from afar?",
           "type": "multiple-choice",
           "options": [
-            "Skin for skin, all that a man hath will he give for his life",
-            "A man will never give anything for his life",
-            "A man will give only his possessions but not his health",
-            "A man will curse God for his life"
+            "They laughed",
+            "They wept",
+            "They shouted",
+            "They ignored him"
           ],
-          "correctAnswer": "Skin for skin, all that a man hath will he give for his life",
-          "explanation": "In Job 2:4, Satan asserts that a man will give everything he has, 'skin for skin', to save his own life, implying that Job’s faithfulness is contingent on his well-being.",
-          "verseReference": "Job 2:4",
+          "correctAnswer": "They wept",
+          "explanation": "Job 2:12 states that upon lifting their eyes and recognizing Job, they lifted their voice and wept, indicating their sorrow for him.",
+          "verseReference": "Job 2:12",
           "difficulty": "hard"
         },
         {
           "id": "job-2-hard-q3",
-          "question": "According to Job 2:7, what specific affliction did Satan inflict upon Job?",
+          "question": "How long did Job's friends sit with him in silence?",
           "type": "multiple-choice",
           "options": [
-            "Sore boils from the sole of his foot to his crown",
-            "A deadly plague",
-            "Blindness and deafness",
-            "Leprosy"
+            "Three days",
+            "Seven days and seven nights",
+            "Forty days",
+            "One month"
           ],
-          "correctAnswer": "Sore boils from the sole of his foot to his crown",
-          "explanation": "Job 2:7 states that Satan smote Job with sore boils covering him from head to foot, illustrating the extent of his physical suffering.",
-          "verseReference": "Job 2:7",
+          "correctAnswer": "Seven days and seven nights",
+          "explanation": "According to Job 2:13, Job's friends sat with him for seven days and seven nights without speaking a word, indicating their deep empathy for his grief.",
+          "verseReference": "Job 2:13",
           "difficulty": "hard"
         },
         {
           "id": "job-2-hard-q4",
-          "question": "What cultural practice did Job’s friends perform upon seeing him from afar, as described in Job 2:12?",
+          "question": "What did Job's friends do with their mantles?",
           "type": "multiple-choice",
           "options": [
-            "They rent their mantles and sprinkled dust upon their heads",
-            "They offered sacrifices in the temple",
-            "They anointed him with oil",
-            "They sang hymns of lament"
+            "Burned them",
+            "Gave them to Job",
+            "Ripped them",
+            "Sewed them"
           ],
-          "correctAnswer": "They rent their mantles and sprinkled dust upon their heads",
-          "explanation": "Job 2:12 describes a traditional Near Eastern expression of mourning where Job’s friends tore their garments and scattered dust on their heads as a sign of grief and respect.",
+          "correctAnswer": "Ripped them",
+          "explanation": "Job 2:12 mentions that each of Job's friends rent (or ripped) their mantle as a sign of mourning and grief over Job's condition.",
           "verseReference": "Job 2:12",
           "difficulty": "hard"
         },
         {
           "id": "job-2-hard-q5",
-          "question": "In Job 2:10, Job makes a statement about receiving both good and evil from God. Which Old Testament theological concept does this statement reflect?",
+          "question": "What did Job's friends sprinkle on their heads?",
           "type": "multiple-choice",
           "options": [
-            "The sovereignty of God over blessings and suffering",
-            "The covenantal promise of prosperity",
-            "The principle of retributive justice",
-            "The prophecy of restoration"
+            "Oil",
+            "Ashes",
+            "Dust",
+            "Water"
           ],
-          "correctAnswer": "The sovereignty of God over blessings and suffering",
-          "explanation": "Job 2:10 expresses the idea that humans should accept both blessings and hardships as coming from God's sovereign hand, reflecting a theological understanding of God’s control over all life circumstances.",
-          "verseReference": "Job 2:10",
+          "correctAnswer": "Dust",
+          "explanation": "In Job 2:12, it is stated that they sprinkled dust upon their heads toward heaven, a traditional act of mourning.",
+          "verseReference": "Job 2:12",
           "difficulty": "hard"
         },
         {
           "id": "job-2-hard-q6",
-          "question": "Which literary device is prominently used in Job 2:13, where Job’s friends sit silently with him for seven days and nights?",
+          "question": "What was the main reason for Job's friends coming to him?",
           "type": "multiple-choice",
           "options": [
-            "Silence as a form of mourning and solidarity",
-            "Irony in their inability to comfort",
-            "Hyperbole emphasizing grief",
-            "Foreshadowing of future debates"
+            "To rebuke him",
+            "To comfort him",
+            "To celebrate with him",
+            "To leave him"
           ],
-          "correctAnswer": "Silence as a form of mourning and solidarity",
-          "explanation": "Job 2:13 uses silence to express deep empathy and respect for Job’s suffering, a culturally significant way to mourn that also sets the stage for subsequent dialogues.",
-          "verseReference": "Job 2:13",
+          "correctAnswer": "To comfort him",
+          "explanation": "Job 2:11 indicates that they made an appointment to come to mourn with and comfort Job in his time of great distress.",
+          "verseReference": "Job 2:11",
           "difficulty": "hard"
         },
         {
           "id": "job-2-hard-q7",
-          "question": "What is the significance of the 'sons of God' and Satan presenting themselves before the LORD in Job 2:1 within the ancient Near Eastern worldview?",
+          "question": "What does the Hebrew word 'mantle' in Job 2:12 mean?",
           "type": "multiple-choice",
           "options": [
-            "It reflects a divine council motif where heavenly beings report to God",
-            "It indicates a syncretistic worship practice",
-            "It shows a legal accusation scene in a human court",
-            "It portrays a mythological battle between gods"
+            "Coat",
+            "Cloak",
+            "Hat",
+            "Sandal"
           ],
-          "correctAnswer": "It reflects a divine council motif where heavenly beings report to God",
-          "explanation": "Job 2:1 illustrates the ancient Near Eastern concept of a divine council, where God presides over celestial beings who present themselves, highlighting God's supreme authority.",
-          "verseReference": "Job 2:1",
+          "correctAnswer": "Cloak",
+          "explanation": "The Hebrew term for 'mantle' refers to a cloak, which is a garment often associated with mourning in ancient times.",
+          "verseReference": "Job 2:12",
           "difficulty": "hard"
         },
         {
           "id": "job-2-hard-q8",
-          "question": "In Job 2:5, Satan challenges God to touch Job’s 'bone and flesh.' What does this phrase metaphorically emphasize in the context of suffering?",
+          "question": "Which literary device is demonstrated by Job's friends sitting in silence for seven days?",
           "type": "multiple-choice",
           "options": [
-            "The totality and intimacy of Job’s physical suffering",
-            "The need for spiritual cleansing",
-            "The weakness of human flesh compared to spirit",
-            "The separation between body and soul"
+            "Foreshadowing",
+            "Inclusio",
+            "Chiasm",
+            "Symbolism"
           ],
-          "correctAnswer": "The totality and intimacy of Job’s physical suffering",
-          "explanation": "The phrase 'bone and flesh' in Job 2:5 metaphorically conveys the complete and personal nature of Job’s affliction, underscoring the depth of his physical torment.",
-          "verseReference": "Job 2:5",
+          "correctAnswer": "Symbolism",
+          "explanation": "The act of sitting in silence symbolizes deep grief and respect, demonstrating the weight of Job's suffering in a poignant manner.",
+          "verseReference": "Job 2:13",
           "difficulty": "hard"
         },
         {
           "id": "job-2-hard-q9",
-          "question": "How does Job’s response to his wife in Job 2:9-10 challenge typical ancient Near Eastern views about suffering and divine retribution?",
+          "question": "Which other Bible passage echoes the theme of suffering and comfort found in Job 2?",
           "type": "multiple-choice",
           "options": [
-            "He refuses to curse God even under intense suffering",
-            "He blames his wife for his misfortune",
-            "He accepts that he must have sinned to deserve suffering",
-            "He seeks to appease the gods through ritual"
+            "Psalm 23",
+            "Matthew 5:4",
+            "Romans 8:28",
+            "Philippians 4:6-7"
           ],
-          "correctAnswer": "He refuses to curse God even under intense suffering",
-          "explanation": "Job 2:9-10 shows Job maintaining his integrity and refusing to curse God, contrasting with the common belief that suffering was always a punishment for sin.",
-          "verseReference": "Job 2:9",
+          "correctAnswer": "Matthew 5:4",
+          "explanation": "Matthew 5:4 states, 'Blessed are those who mourn, for they shall be comforted,' which connects to the theme of mourning and comfort present in Job 2.",
+          "verseReference": "Job 2:11",
           "difficulty": "hard"
         },
         {
           "id": "job-2-hard-q10",
-          "question": "Which New Testament passage most directly references Job's endurance and integrity in the face of suffering as seen in Job 2?",
+          "question": "Which other Bible passage discusses the importance of presence during suffering, similar to Job 2?",
           "type": "multiple-choice",
           "options": [
-            "James 5:11",
-            "Hebrews 11:1",
-            "1 Peter 1:6-7",
-            "Romans 8:28"
+            "Galatians 6:2",
+            "1 Corinthians 12:26",
+            "James 1:27",
+            "Hebrews 10:24-25"
           ],
-          "correctAnswer": "James 5:11",
-          "explanation": "James 5:11 refers to Job’s perseverance and the Lord’s compassion and mercy, directly connecting Job’s example of faith under trial to New Testament teaching.",
-          "verseReference": "Job 2",
+          "correctAnswer": "Galatians 6:2",
+          "explanation": "Galatians 6:2 encourages bearing one another's burdens, reflecting the supportive presence of Job's friends during his suffering.",
+          "verseReference": "Job 2:11",
           "difficulty": "hard"
         },
         {
           "id": "job-2-hard-q11",
-          "question": "What is the significance of Job scraping himself with a potsherd in Job 2:8 in terms of cultural and historical context?",
+          "question": "What comes immediately before Job 2:12?",
           "type": "multiple-choice",
           "options": [
-            "Using a broken piece of pottery was a common practice for relieving skin ailments",
-            "It symbolized ritual impurity and separation",
-            "It was an act of defiance against God’s will",
-            "It indicated Job’s desire to become a potter"
+            "Job's wife speaks",
+            "Job's friends arrive",
+            "The Lord speaks to Satan",
+            "Job sits in ashes"
           ],
-          "correctAnswer": "Using a broken piece of pottery was a common practice for relieving skin ailments",
-          "explanation": "Job 2:8 shows Job using a potsherd to scrape his sores, reflecting an ancient Near Eastern medical practice for itching skin, highlighting his physical misery.",
-          "verseReference": "Job 2:8",
+          "correctAnswer": "Job's friends arrive",
+          "explanation": "Job 2:11 precedes Job 2:12, detailing the arrival of Job's friends who come to mourn with him.",
+          "verseReference": "Job 2:11",
           "difficulty": "hard"
         },
         {
           "id": "job-2-hard-q12",
-          "question": "In Job 2:6, God puts Job 'in thine hand; but save his life.' What does this reveal about the limits of Satan’s power in the biblical narrative?",
+          "question": "What comes immediately after Job 2:13?",
           "type": "multiple-choice",
           "options": [
-            "Satan’s power is limited and subject to God’s sovereign control",
-            "Satan has unlimited power to destroy",
-            "God has relinquished control over Job",
-            "Satan acts independently of God"
+            "Job speaks",
+            "Job's friends leave",
+            "Satan returns",
+            "The Lord speaks"
           ],
-          "correctAnswer": "Satan’s power is limited and subject to God’s sovereign control",
-          "explanation": "Job 2:6 demonstrates that although Satan is permitted to afflict Job, God sets clear boundaries, emphasizing divine sovereignty over evil forces.",
-          "verseReference": "Job 2:6",
+          "correctAnswer": "Job speaks",
+          "explanation": "Job 2:13 ends with silence, and Job speaks in Job 3, indicating the transition from mourning to the expression of his anguish.",
+          "verseReference": "Job 2:13",
           "difficulty": "hard"
         },
         {
           "id": "job-2-hard-q13",
-          "question": "True or False: Job’s three friends came to comfort him immediately without any prior arrangement, as described in Job 2:11.",
+          "question": "In Job 2:9, what does Job's wife suggest he do?",
+          "type": "multiple-choice",
+          "options": [
+            "Praise God",
+            "Curse God and die",
+            "Leave the city",
+            "Give up hope"
+          ],
+          "correctAnswer": "Curse God and die",
+          "explanation": "In Job 2:9, Job's wife urges him to curse God and die, demonstrating her despair over his suffering.",
+          "verseReference": "Job 2:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-2-hard-q14",
+          "question": "Job maintained his integrity despite his suffering, which reflects the biblical principle of faithfulness. True or False?",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Job 2:3 highlights Job's integrity and faithfulness to God, as he did not sin with his lips despite his suffering.",
+          "verseReference": "Job 2:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-2-hard-q15",
+          "question": "Job's friends immediately criticized him upon their arrival. True or False?",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Job 2:11 states that Job’s friends had made an appointment together to come mourn and comfort him, indicating a planned visit rather than an immediate or spontaneous one.",
-          "verseReference": "Job 2:11",
-          "difficulty": "hard"
-        },
-        {
-          "id": "job-2-hard-q14",
-          "question": "What typological significance can be drawn from Job’s trials in chapter 2 with respect to later biblical themes of suffering and redemption?",
-          "type": "multiple-choice",
-          "options": [
-            "Job’s endurance prefigures the suffering servant motif seen in Isaiah and the New Testament",
-            "Job’s experience illustrates the fall of angels",
-            "Job’s story is a direct prophecy about the Exodus",
-            "Job’s affliction represents a symbolic cleansing ritual"
-          ],
-          "correctAnswer": "Job’s endurance prefigures the suffering servant motif seen in Isaiah and the New Testament",
-          "explanation": "Job’s patient endurance under extreme suffering foreshadows the suffering servant theme, which is developed in Isaiah and fulfilled in the New Testament in Jesus Christ.",
-          "verseReference": "Job 2",
-          "difficulty": "hard"
-        },
-        {
-          "id": "job-2-hard-q15",
-          "question": "How does the dialogue between God and Satan in Job 2:1-6 reflect the legal and judicial style found in ancient Near Eastern texts?",
-          "type": "multiple-choice",
-          "options": [
-            "It resembles a courtroom scene where accusations are presented and permissions granted",
-            "It is a poetic lament typical of lament psalms",
-            "It imitates royal decrees from Mesopotamian kings",
-            "It copies prophetic oracles against nations"
-          ],
-          "correctAnswer": "It resembles a courtroom scene where accusations are presented and permissions granted",
-          "explanation": "The exchange in Job 2:1-6 uses a legal framework common in ancient Near Eastern literature, depicting God as judge and Satan as accuser in a divine council courtroom setting.",
-          "verseReference": "Job 2:1",
+          "explanation": "Job 2:13 notes that Job's friends sat in silence with him for seven days, indicating they did not criticize him immediately.",
+          "verseReference": "Job 2:13",
           "difficulty": "hard"
         }
       ],
@@ -742,227 +736,227 @@
       "questions": [
         {
           "id": "job-2-theological-q1",
-          "question": "In Job 2:3, how does God describe Job's character?",
+          "question": "What doctrine does Job 2:3 teach about God's testing of human integrity?",
           "type": "multiple-choice",
           "options": [
-            "A perfect and upright man who fears God and shuns evil",
-            "A wealthy and influential man",
-            "A man who has sinned greatly",
-            "A prophet of God"
+            "God permits testing to prove the genuineness of a person's faith",
+            "God arbitrarily punishes the righteous without cause",
+            "God rewards human righteousness with immediate prosperity",
+            "God ignores human suffering in the process of sanctification"
           ],
-          "correctAnswer": "A perfect and upright man who fears God and shuns evil",
-          "explanation": "Job 2:3 states that Job is 'a perfect and an upright man, one that feareth God, and escheweth evil.' This aligns with Proverbs 3:3, Psalm 15:2, and 1 Peter 2:12, which describe the righteous as fearing God and turning away from evil.",
+          "correctAnswer": "God permits testing to prove the genuineness of a person's faith",
+          "explanation": "Job 2:3 shows God acknowledging Job's integrity despite Satan's challenge, indicating that God allows testing to reveal true faithfulness.",
           "verseReference": "Job 2:3",
           "difficulty": "hard"
         },
         {
           "id": "job-2-theological-q2",
-          "question": "What did Satan claim would make Job curse God, according to Job 2:5?",
+          "question": "What doctrine about the nature of evil and temptation does Job 2:5 teach?",
           "type": "multiple-choice",
           "options": [
-            "If his bone and flesh were touched",
-            "If his wealth was taken away",
-            "If his children were lost",
-            "If he was imprisoned"
+            "Satan tempts by targeting the human body to provoke sin",
+            "Evil is an independent force acting without divine permission",
+            "Temptation is only spiritual and never physical",
+            "God compels humans to sin through physical affliction"
           ],
-          "correctAnswer": "If his bone and flesh were touched",
-          "explanation": "In Job 2:5, Satan challenges God that if Job's 'bone and his flesh' were touched, he would curse God. This tests the integrity of human faith under suffering, paralleled in James 1:2-3 and 1 Peter 1:6-7 emphasizing trials testing faith.",
+          "correctAnswer": "Satan tempts by targeting the human body to provoke sin",
+          "explanation": "In Job 2:5, Satan challenges God to afflict Job's flesh and bones to tempt him to sin, indicating that temptation can involve physical suffering.",
           "verseReference": "Job 2:5",
           "difficulty": "hard"
         },
         {
           "id": "job-2-theological-q3",
-          "question": "What restriction did God place on Satan regarding Job's suffering in Job 2:6?",
+          "question": "What doctrine regarding human perseverance in suffering does Job 2:10 teach?",
           "type": "multiple-choice",
           "options": [
-            "To spare his life",
-            "Not to touch his possessions",
-            "Not to harm his family",
-            "To limit the pain to one day"
+            "Believers should accept both good and evil from God without cursing Him",
+            "Suffering justifies renouncing faith in God",
+            "Human integrity is irrelevant in trials",
+            "It is righteous to curse God when suffering"
           ],
-          "correctAnswer": "To spare his life",
-          "explanation": "Job 2:6 records God’s permission to Satan to afflict Job but commands 'save his life.' This shows divine sovereignty and limits on evil, consistent with 1 Corinthians 10:13 and Romans 8:28, where God controls trials for ultimate good.",
-          "verseReference": "Job 2:6",
-          "difficulty": "hard"
-        },
-        {
-          "id": "job-2-theological-q4",
-          "question": "What physical affliction did Satan bring upon Job as described in Job 2:7?",
-          "type": "multiple-choice",
-          "options": [
-            "Sore boils from head to foot",
-            "Blindness",
-            "Leprosy",
-            "Paralysis"
-          ],
-          "correctAnswer": "Sore boils from head to foot",
-          "explanation": "Job 2:7 states Satan 'smote Job with sore boils from the sole of his foot unto his crown.' This affliction highlights human suffering and endurance, echoing themes in Psalm 38:7 and 2 Corinthians 12:7-10 where physical suffering tests faith.",
-          "verseReference": "Job 2:7",
-          "difficulty": "hard"
-        },
-        {
-          "id": "job-2-theological-q5",
-          "question": "How did Job respond to his wife's advice in Job 2:9?",
-          "type": "multiple-choice",
-          "options": [
-            "He rebuked her and maintained his integrity",
-            "He cursed God and died",
-            "He ignored her completely",
-            "He prayed for relief"
-          ],
-          "correctAnswer": "He rebuked her and maintained his integrity",
-          "explanation": "Job 2:9-10 records Job rejecting his wife's counsel to curse God, affirming his righteousness and trust in God’s sovereignty. This reflects biblical teaching on faithfulness under trial (Hebrews 12:2, James 1:12).",
-          "verseReference": "Job 2:9",
-          "difficulty": "hard"
-        },
-        {
-          "id": "job-2-theological-q6",
-          "question": "What theological principle did Job articulate in response to his suffering in Job 2:10?",
-          "type": "multiple-choice",
-          "options": [
-            "Accepting both good and evil from God",
-            "Rejecting God in times of trouble",
-            "Relying solely on human strength",
-            "Seeking vengeance on enemies"
-          ],
-          "correctAnswer": "Accepting both good and evil from God",
-          "explanation": "Job 2:10 reveals Job’s understanding that humans should accept both blessings and hardships from God, consistent with Deuteronomy 32:39, Ecclesiastes 7:14, and James 1:17 emphasizing God’s sovereignty over all circumstances.",
+          "correctAnswer": "Believers should accept both good and evil from God without cursing Him",
+          "explanation": "Job 2:10 records Job's response that one should accept both blessings and afflictions from God without sinning, affirming perseverance in faith.",
           "verseReference": "Job 2:10",
           "difficulty": "hard"
         },
         {
-          "id": "job-2-theological-q7",
-          "question": "Who were the three friends that came to comfort Job in Job 2:11?",
+          "id": "job-2-theological-q4",
+          "question": "Which divine attribute does verse Job 2:6 specifically demonstrate?",
           "type": "multiple-choice",
           "options": [
-            "Eliphaz the Temanite, Bildad the Shuhite, and Zophar the Naamathite",
-            "Moses, Aaron, and Joshua",
-            "David, Solomon, and Nathan",
-            "Peter, James, and John"
+            "Sovereignty",
+            "Omnipresence",
+            "Immutability",
+            "Justice"
           ],
-          "correctAnswer": "Eliphaz the Temanite, Bildad the Shuhite, and Zophar the Naamathite",
-          "explanation": "Job 2:11 names Job’s three friends as Eliphaz, Bildad, and Zophar, who came to mourn and comfort him. Their presence initiates the dialogue on suffering and divine justice, paralleling biblical themes in Proverbs 17:17 and Galatians 6:2.",
+          "correctAnswer": "Sovereignty",
+          "explanation": "Job 2:6 shows God giving Satan permission to afflict Job but setting limits, demonstrating God's sovereign control over all events.",
+          "verseReference": "Job 2:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-2-theological-q5",
+          "question": "Which divine attribute does verse Job 2:1 specifically demonstrate?",
+          "type": "multiple-choice",
+          "options": [
+            "Omniscience",
+            "Holiness",
+            "Covenant faithfulness",
+            "Omnipotence"
+          ],
+          "correctAnswer": "Omniscience",
+          "explanation": "Job 2:1 shows God aware of the heavenly assembly and Satan's presence, illustrating divine omniscience over spiritual realms.",
+          "verseReference": "Job 2:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-2-theological-q6",
+          "question": "How does Job 2:7 connect to the broader biblical theme of redemptive suffering?",
+          "type": "multiple-choice",
+          "options": [
+            "It prefigures the suffering of Christ as a righteous sufferer",
+            "It denies any purpose in suffering",
+            "It teaches that suffering is always due to personal sin",
+            "It suggests suffering should be avoided at all costs"
+          ],
+          "correctAnswer": "It prefigures the suffering of Christ as a righteous sufferer",
+          "explanation": "Job 2:7's description of Job's affliction anticipates the innocent suffering of Christ, who bore pain without sin (cf. 1 Peter 2:21-23).",
+          "verseReference": "Job 2:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "job-2-theological-q7",
+          "question": "In what way does Job 2:11 anticipate the doctrine of Christian fellowship and mourning with those who suffer?",
+          "type": "multiple-choice",
+          "options": [
+            "Friends come to comfort and mourn with Job rather than debate him",
+            "Friends immediately accuse Job of sin",
+            "Friends ignore Job's suffering",
+            "Friends offer quick solutions to Job's pain"
+          ],
+          "correctAnswer": "Friends come to comfort and mourn with Job rather than debate him",
+          "explanation": "Job 2:11 demonstrates the biblical pattern of bearing one another's burdens through compassionate presence before theological discussion.",
           "verseReference": "Job 2:11",
           "difficulty": "hard"
         },
         {
           "id": "job-2-theological-q8",
-          "question": "How did Job's friends demonstrate their grief upon seeing him in Job 2:12?",
+          "question": "What combined doctrine do verses Job 2:3 and Job 2:6 teach about God's providential control and human testing?",
           "type": "multiple-choice",
           "options": [
-            "They wept, tore their robes, and sprinkled dust on their heads",
-            "They sang praises",
-            "They left immediately",
-            "They offered sacrifices"
+            "God sovereignly permits testing within defined limits to prove human integrity",
+            "God loses control when Satan tests humans",
+            "God arbitrarily allows any testing without restriction",
+            "Testing is independent of God's will"
           ],
-          "correctAnswer": "They wept, tore their robes, and sprinkled dust on their heads",
-          "explanation": "Job 2:12 describes the friends’ mourning rituals involving weeping, tearing mantles, and dusting their heads, expressions of deep sorrow and solidarity found in Genesis 37:34 and Esther 4:1.",
-          "verseReference": "Job 2:12",
+          "correctAnswer": "God sovereignly permits testing within defined limits to prove human integrity",
+          "explanation": "Job 2:3 and 2:6 together show God allowing Satan to test Job but restricting the harm, affirming God's providential control in testing.",
+          "verseReference": "Job 2:3, Job 2:6",
           "difficulty": "hard"
         },
         {
           "id": "job-2-theological-q9",
-          "question": "For how long did Job's friends sit with him without speaking according to Job 2:13?",
+          "question": "What combined doctrine do verses Job 2:9 and Job 2:10 teach about the role of human response to suffering?",
           "type": "multiple-choice",
           "options": [
-            "Seven days and seven nights",
-            "Three days",
-            "One day",
-            "Forty days and nights"
+            "Faithful response involves trusting God even when tempted to despair or curse Him",
+            "Suffering justifies cursing God",
+            "Human response is irrelevant to one's righteousness",
+            "Despair is the only appropriate human response to suffering"
           ],
-          "correctAnswer": "Seven days and seven nights",
-          "explanation": "Job 2:13 states they sat with Job 'seven days and seven nights' without speaking, honoring his grief. This silence parallels Ecclesiastes 3:7 and reflects biblical respect for mourning periods.",
-          "verseReference": "Job 2:13",
+          "correctAnswer": "Faithful response involves trusting God even when tempted to despair or curse Him",
+          "explanation": "Job 2:9 shows the temptation to curse God, but Job's reply in 2:10 models faithful trust despite suffering.",
+          "verseReference": "Job 2:9, Job 2:10",
           "difficulty": "hard"
         },
         {
           "id": "job-2-theological-q10",
-          "question": "In Job 2:4, what does Satan mean by 'Skin for skin'?",
+          "question": "What combined doctrine do verses Job 2:12 and Job 2:13 teach about the appropriate human attitude toward another's suffering?",
           "type": "multiple-choice",
           "options": [
-            "A man will give all he has to save his life",
-            "Only the skin matters in suffering",
-            "God protects the skin of the righteous",
-            "Satan can only harm the outer layer"
+            "Compassion involves deep mourning and silent presence with the afflicted",
+            "Suffering should be met with verbal correction",
+            "Friends should avoid the suffering person",
+            "Suffering is a sign of God's rejection"
           ],
-          "correctAnswer": "A man will give all he has to save his life",
-          "explanation": "Job 2:4's phrase 'Skin for skin' means a man will give all he owns to preserve his life, indicating the depth of human self-preservation, consistent with Luke 9:23 and Romans 12:1 about surrender and sacrifice.",
-          "verseReference": "Job 2:4",
+          "correctAnswer": "Compassion involves deep mourning and silent presence with the afflicted",
+          "explanation": "Verses 2:12-13 depict Job's friends mourning and sitting silently with him, illustrating compassionate empathy.",
+          "verseReference": "Job 2:12, Job 2:13",
           "difficulty": "hard"
         },
         {
           "id": "job-2-theological-q11",
-          "question": "What does Job's use of a 'potsherd' in Job 2:8 symbolize?",
+          "question": "Sceptics claim Job 2:1-7 teaches that God arbitrarily allows Satan to harm the innocent. What does this passage actually teach?",
           "type": "multiple-choice",
           "options": [
-            "His humiliation and lowly state",
-            "His wealth and prosperity",
-            "His healing and restoration",
-            "His authority and power"
+            "God sovereignly controls and limits Satan's actions for a purpose",
+            "God is powerless over Satan's attacks",
+            "God delights in harming the innocent without cause",
+            "Satan acts independently of God's will"
           ],
-          "correctAnswer": "His humiliation and lowly state",
-          "explanation": "Job 2:8 describes Job scraping himself with a potsherd, a broken piece of pottery, symbolizing his extreme suffering and humiliation, similar to symbols of penitence and humility in Isaiah 64:6 and Luke 18:13.",
-          "verseReference": "Job 2:8",
+          "correctAnswer": "God sovereignly controls and limits Satan's actions for a purpose",
+          "explanation": "Job 2:1-7 shows God permitting but restricting Satan's affliction of Job, indicating God's sovereign governance over evil.",
+          "verseReference": "Job 2:1-7",
           "difficulty": "hard"
         },
         {
           "id": "job-2-theological-q12",
-          "question": "What does the presence of 'the sons of God' and Satan in Job 2:1 suggest about the heavenly realm?",
+          "question": "What doctrine does Job 2:4 teach about human nature and the limits of self-preservation?",
           "type": "multiple-choice",
           "options": [
-            "There is a divine council where heavenly beings present themselves before God",
-            "Satan rules the heavens",
-            "God does not interact with celestial beings",
-            "Heaven is a silent, inactive realm"
+            "Humans will sacrifice all but their own life to preserve it",
+            "Humans are indifferent to suffering",
+            "Humans always respond righteously in suffering",
+            "Self-preservation is irrelevant to human decisions"
           ],
-          "correctAnswer": "There is a divine council where heavenly beings present themselves before God",
-          "explanation": "Job 2:1 shows 'sons of God' presenting themselves before the LORD, indicating a divine council concept found in Psalm 82:1 and Daniel 7:9-10, where God presides over heavenly beings.",
-          "verseReference": "Job 2:1",
+          "correctAnswer": "Humans will sacrifice all but their own life to preserve it",
+          "explanation": "Job 2:4 states 'Skin for skin, yea, all that a man hath will he give for his life,' indicating humans prioritize life preservation above all.",
+          "verseReference": "Job 2:4",
           "difficulty": "hard"
         },
         {
           "id": "job-2-theological-q13",
-          "question": "According to Job 2:2, what activity was Satan engaged in before presenting himself to God?",
+          "question": "Which divine attribute does verse Job 2:2 specifically demonstrate?",
           "type": "multiple-choice",
           "options": [
-            "Going to and fro on the earth, walking up and down",
-            "Praying in the temple",
-            "Teaching the angels",
-            "Resting in heaven"
+            "Omnipresence",
+            "Immutability",
+            "Holiness",
+            "Justice"
           ],
-          "correctAnswer": "Going to and fro on the earth, walking up and down",
-          "explanation": "Job 2:2 describes Satan roaming the earth 'to and fro,' emphasizing his active role in testing humanity, consistent with 1 Peter 5:8’s depiction of Satan as a prowling adversary.",
+          "correctAnswer": "Omnipresence",
+          "explanation": "Job 2:2 shows Satan roaming the earth yet appearing before God, illustrating God's presence everywhere and awareness.",
           "verseReference": "Job 2:2",
           "difficulty": "hard"
         },
         {
           "id": "job-2-theological-q14",
-          "question": "What is the significance of Job retaining his integrity in the face of suffering, as emphasized in Job 2:3 and 2:10?",
+          "question": "How does Job 2:8 thematically prepare for biblical teachings on human humility and repentance in suffering?",
           "type": "multiple-choice",
           "options": [
-            "It highlights human faithfulness despite trials",
-            "It shows humans are sinless",
-            "It proves God never allows suffering",
-            "It means Job was unaware of his pain"
+            "Job's sitting among ashes symbolizes human frailty and penitence",
+            "Job's posture indicates pride despite suffering",
+            "Job's use of a potsherd shows self-harm is righteous",
+            "Job's actions show rejection of God"
           ],
-          "correctAnswer": "It highlights human faithfulness despite trials",
-          "explanation": "Job’s retained integrity despite intense suffering underscores biblical teaching on perseverance and faithfulness (James 1:12, Romans 5:3-5), affirming that trials refine faith rather than indicate sinlessness.",
-          "verseReference": "Job 2:3",
+          "correctAnswer": "Job's sitting among ashes symbolizes human frailty and penitence",
+          "explanation": "Job 2:8 presents Job in ashes, a biblical symbol of mourning and humility, preparing for repentance themes (cf. Daniel 9:3).",
+          "verseReference": "Job 2:8",
           "difficulty": "hard"
         },
         {
           "id": "job-2-theological-q15",
-          "question": "What do the friends' mourning rituals in Job 2:12 reveal about biblical responses to suffering?",
+          "question": "What combined doctrine do verses Job 2:11 and Job 2:13 teach about Christian community in suffering?",
           "type": "multiple-choice",
           "options": [
-            "Empathy and communal grief are important",
-            "Suffering should be ignored",
-            "Joy is the proper response to trials",
-            "Silence means indifference"
+            "True Christian fellowship involves presence, mourning, and silence with the suffering",
+            "Christian community should immediately offer theological judgment",
+            "Isolation is preferable for the suffering",
+            "Comfort is best given by quick answers"
           ],
-          "correctAnswer": "Empathy and communal grief are important",
-          "explanation": "The friends’ actions in Job 2:12 show the biblical value of empathetic mourning and solidarity (Romans 12:15, Galatians 6:2), emphasizing the church’s role in comforting those who suffer.",
-          "verseReference": "Job 2:12",
+          "correctAnswer": "True Christian fellowship involves presence, mourning, and silence with the suffering",
+          "explanation": "Verses 2:11 and 2:13 show friends coming together, mourning, and sitting silently, modeling empathetic Christian fellowship.",
+          "verseReference": "Job 2:11, Job 2:13",
           "difficulty": "hard"
         }
       ],

@@ -13,52 +13,67 @@
       "questions": [
         {
           "id": "genesis-22-easy-q1",
-          "question": "Who did God command Abraham to offer as a burnt offering?",
+          "question": "Who did God call to test in Genesis 22?",
           "type": "multiple-choice",
           "options": [
+            "Abraham",
             "Isaac",
-            "Ishmael",
-            "Lot",
-            "Jacob"
+            "Nahor",
+            "Moses"
           ],
-          "correctAnswer": "Isaac",
-          "explanation": "God commanded Abraham to take his son Isaac for the burnt offering (Genesis 22:2).",
-          "verseReference": "Genesis 22:2",
+          "correctAnswer": "Abraham",
+          "explanation": "Genesis 22:1 states that God did tempt Abraham and called him by name.",
+          "verseReference": "Genesis 22:1",
           "difficulty": "easy"
         },
         {
           "id": "genesis-22-easy-q2",
-          "question": "Where did God tell Abraham to go to offer Isaac?",
+          "question": "What did God command Abraham to offer as a burnt offering?",
           "type": "multiple-choice",
           "options": [
-            "The land of Moriah",
-            "Egypt",
-            "Canaan",
-            "Babylon"
+            "His son Isaac",
+            "A ram",
+            "Two young men",
+            "A bullock"
           ],
-          "correctAnswer": "The land of Moriah",
-          "explanation": "God instructed Abraham to go into the land of Moriah to offer Isaac (Genesis 22:2).",
+          "correctAnswer": "His son Isaac",
+          "explanation": "Genesis 22:2 instructs Abraham to take his son Isaac and offer him as a burnt offering.",
           "verseReference": "Genesis 22:2",
           "difficulty": "easy"
         },
         {
           "id": "genesis-22-easy-q3",
-          "question": "How many young men did Abraham take with him on the journey?",
+          "question": "Where was Abraham told to go to offer Isaac?",
+          "type": "multiple-choice",
+          "options": [
+            "The land of Moriah",
+            "Mount Sinai",
+            "Jerusalem",
+            "Beersheba"
+          ],
+          "correctAnswer": "The land of Moriah",
+          "explanation": "In Genesis 22:2 God commands Abraham to go to the land of Moriah to offer Isaac.",
+          "verseReference": "Genesis 22:2",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-22-easy-q4",
+          "question": "How many young men did Abraham take with him on his journey to offer Isaac?",
           "type": "multiple-choice",
           "options": [
             "Two",
             "One",
             "Three",
-            "Four"
+            "None"
           ],
           "correctAnswer": "Two",
-          "explanation": "Abraham took two of his young men along with Isaac (Genesis 22:3).",
+          "explanation": "Genesis 22:3 states Abraham took two of his young men with him along with Isaac.",
           "verseReference": "Genesis 22:3",
           "difficulty": "easy"
         },
         {
-          "id": "genesis-22-easy-q4",
-          "question": "On which day did Abraham see the place where he was to offer Isaac?",
+          "id": "genesis-22-easy-q5",
+          "question": "On what day did Abraham see the place where he was to offer Isaac?",
           "type": "multiple-choice",
           "options": [
             "The third day",
@@ -67,167 +82,150 @@
             "The tenth day"
           ],
           "correctAnswer": "The third day",
-          "explanation": "Abraham lifted his eyes and saw the place on the third day (Genesis 22:4).",
+          "explanation": "Genesis 22:4 says Abraham lifted up his eyes and saw the place afar off on the third day.",
           "verseReference": "Genesis 22:4",
           "difficulty": "easy"
         },
         {
-          "id": "genesis-22-easy-q5",
-          "question": "What did Abraham say to his young men before going with Isaac?",
+          "id": "genesis-22-easy-q6",
+          "question": "What did Abraham tell his young men to do when they reached the place?",
           "type": "multiple-choice",
           "options": [
-            "We will worship and come again to you",
-            "Wait here until I return",
-            "Stay with the ass and keep watch",
-            "Prepare the altar"
+            "Stay with the ass",
+            "Follow him and Isaac",
+            "Go back home",
+            "Build an altar"
           ],
-          "correctAnswer": "We will worship and come again to you",
-          "explanation": "Abraham told his young men that he and the lad would go yonder to worship and come again (Genesis 22:5).",
+          "correctAnswer": "Stay with the ass",
+          "explanation": "Genesis 22:5 records Abraham telling his young men to abide there with the ass.",
           "verseReference": "Genesis 22:5",
           "difficulty": "easy"
         },
         {
-          "id": "genesis-22-easy-q6",
-          "question": "What did Abraham put on Isaac as they went together?",
+          "id": "genesis-22-easy-q7",
+          "question": "What did Abraham carry with him besides Isaac?",
           "type": "multiple-choice",
           "options": [
-            "The wood for the burnt offering",
-            "The knife",
-            "The altar stones",
-            "The fire"
+            "Wood for the burnt offering, fire, and a knife",
+            "Only Isaac",
+            "Water and food",
+            "A bow and arrows"
           ],
-          "correctAnswer": "The wood for the burnt offering",
-          "explanation": "Abraham laid the wood of the burnt offering upon Isaac (Genesis 22:6).",
+          "correctAnswer": "Wood for the burnt offering, fire, and a knife",
+          "explanation": "Genesis 22:6 shows Abraham took wood, fire, and a knife along with Isaac.",
           "verseReference": "Genesis 22:6",
           "difficulty": "easy"
         },
         {
-          "id": "genesis-22-easy-q7",
-          "question": "What question did Isaac ask Abraham on the way to the place of sacrifice?",
+          "id": "genesis-22-easy-q8",
+          "question": "What question did Isaac ask Abraham on the way to the offering place?",
           "type": "multiple-choice",
           "options": [
             "Where is the lamb for a burnt offering?",
-            "Why do we travel so far?",
-            "Will we return soon?",
-            "Is God with us?"
+            "Why are we going so far?",
+            "Who will build the altar?",
+            "Where is the water?"
           ],
           "correctAnswer": "Where is the lamb for a burnt offering?",
-          "explanation": "Isaac asked Abraham where the lamb for a burnt offering was (Genesis 22:7).",
+          "explanation": "Genesis 22:7 records Isaac asking Abraham about the lamb for the burnt offering.",
           "verseReference": "Genesis 22:7",
           "difficulty": "easy"
         },
         {
-          "id": "genesis-22-easy-q8",
-          "question": "What was Abraham's answer to Isaac about the lamb?",
+          "id": "genesis-22-easy-q9",
+          "question": "What was Abraham's answer to Isaac when asked about the lamb?",
           "type": "multiple-choice",
           "options": [
-            "God will provide himself a lamb",
-            "I will find one on the way",
-            "You are the lamb",
-            "We will return with a lamb"
+            "God will provide himself a lamb for a burnt offering",
+            "We will find a lamb later",
+            "You are the offering",
+            "I do not know"
           ],
-          "correctAnswer": "God will provide himself a lamb",
-          "explanation": "Abraham told Isaac that God would provide himself a lamb for the burnt offering (Genesis 22:8).",
+          "correctAnswer": "God will provide himself a lamb for a burnt offering",
+          "explanation": "Genesis 22:8 shows Abraham saying God will provide a lamb for the burnt offering.",
           "verseReference": "Genesis 22:8",
           "difficulty": "easy"
         },
         {
-          "id": "genesis-22-easy-q9",
-          "question": "What did Abraham do to Isaac upon arrival at the place God had told him?",
-          "type": "multiple-choice",
-          "options": [
-            "He bound Isaac and laid him on the altar",
-            "He offered Isaac immediately",
-            "He sent Isaac back",
-            "He built a shelter for Isaac"
-          ],
-          "correctAnswer": "He bound Isaac and laid him on the altar",
-          "explanation": "Abraham bound Isaac and laid him on the altar upon the wood (Genesis 22:9).",
-          "verseReference": "Genesis 22:9",
-          "difficulty": "easy"
-        },
-        {
           "id": "genesis-22-easy-q10",
-          "question": "Who called to Abraham from heaven to stop him from sacrificing Isaac?",
-          "type": "multiple-choice",
+          "question": "True or False: Abraham saddled his donkey early in the morning before leaving.",
+          "type": "true-false",
           "options": [
-            "The angel of the LORD",
-            "God Himself",
-            "Isaac",
-            "One of the young men"
+            "True",
+            "False"
           ],
-          "correctAnswer": "The angel of the LORD",
-          "explanation": "An angel of the LORD called to Abraham from heaven to stop him (Genesis 22:11).",
-          "verseReference": "Genesis 22:11",
+          "correctAnswer": "True",
+          "explanation": "Genesis 22:3 states Abraham rose early, saddled his ass, and prepared for the journey.",
+          "verseReference": "Genesis 22:3",
           "difficulty": "easy"
         },
         {
           "id": "genesis-22-easy-q11",
-          "question": "True or False: Abraham was willing to withhold his son from God.",
+          "question": "True or False: Abraham took only Isaac and no one else on the journey.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "The angel said Abraham did not withhold his son from God, showing his willingness (Genesis 22:12).",
-          "verseReference": "Genesis 22:12",
+          "explanation": "Genesis 22:3 mentions Abraham took two young men and Isaac, not Isaac alone.",
+          "verseReference": "Genesis 22:3",
           "difficulty": "easy"
         },
         {
           "id": "genesis-22-easy-q12",
-          "question": "True or False: Abraham offered a ram caught in a thicket instead of Isaac.",
+          "question": "True or False: Abraham told his young men that he and Isaac would go to worship and then return.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Abraham offered a ram caught in a thicket by its horns instead of his son (Genesis 22:13).",
-          "verseReference": "Genesis 22:13",
+          "explanation": "Genesis 22:5 records Abraham saying he and the lad will go worship and come again to the young men.",
+          "verseReference": "Genesis 22:5",
           "difficulty": "easy"
         },
         {
           "id": "genesis-22-easy-q13",
-          "question": "True or False: Abraham named the place where he was to sacrifice Isaac Jehovahjireh.",
+          "question": "True or False: Isaac carried the wood for the burnt offering on his own shoulders.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
-          "correctAnswer": "True",
-          "explanation": "Abraham called the place Jehovahjireh, meaning 'In the mount of the LORD it shall be seen' (Genesis 22:14).",
-          "verseReference": "Genesis 22:14",
+          "correctAnswer": "False",
+          "explanation": "Genesis 22:6 says Abraham laid the wood upon Isaac, but Abraham carried fire and a knife.",
+          "verseReference": "Genesis 22:6",
           "difficulty": "easy"
         },
         {
           "id": "genesis-22-easy-q14",
-          "question": "Complete the verse: 'By myself have I sworn, saith the LORD, for because thou hast done this thing, and hast not withheld thy son, thine only son:'",
-          "type": "fill-blank",
+          "question": "Which of the following happened first in Genesis 22?",
+          "type": "multiple-choice",
           "options": [
-            "I will bless thee and multiply thy seed",
-            "I will destroy thy enemies",
-            "I will give thee great riches",
-            "I will make thee king"
+            "God commands Abraham to offer Isaac",
+            "Abraham builds an altar",
+            "Isaac asks where the lamb is",
+            "Abraham takes wood and fire with Isaac"
           ],
-          "correctAnswer": "I will bless thee and multiply thy seed",
-          "explanation": "God promised to bless Abraham and multiply his seed because he obeyed (Genesis 22:16-17).",
-          "verseReference": "Genesis 22:16",
+          "correctAnswer": "God commands Abraham to offer Isaac",
+          "explanation": "God's command to Abraham occurs first in Genesis 22:2 before the other events.",
+          "verseReference": "Genesis 22:2",
           "difficulty": "easy"
         },
         {
           "id": "genesis-22-easy-q15",
-          "question": "Who was Milcah in relation to Abraham?",
+          "question": "What did Abraham do after seeing the place afar off on the third day?",
           "type": "multiple-choice",
           "options": [
-            "Wife of Nahor, Abraham's brother",
-            "Abraham's mother",
-            "Abraham's daughter",
-            "Isaac's wife"
+            "He told his young men to stay with the ass",
+            "He immediately offered Isaac",
+            "He returned home",
+            "He sent Isaac back"
           ],
-          "correctAnswer": "Wife of Nahor, Abraham's brother",
-          "explanation": "Milcah was the wife of Nahor, Abraham's brother (Genesis 22:20).",
-          "verseReference": "Genesis 22:20",
+          "correctAnswer": "He told his young men to stay with the ass",
+          "explanation": "Genesis 22:5 records Abraham instructing his young men to abide with the ass when he saw the place.",
+          "verseReference": "Genesis 22:5",
           "difficulty": "easy"
         }
       ],
@@ -254,223 +252,221 @@
       "questions": [
         {
           "id": "genesis-22-medium-q1",
-          "question": "A fellow believer is going through a trial and asks you for counsel. Based on Genesis 22, what biblical truth would you share about trusting God in difficult times?",
+          "question": "What did Abraham do when he arrived at the place God had told him to go?",
           "type": "multiple-choice",
           "options": [
-            "God tests our faith to strengthen it and prove our obedience",
-            "God abandons us when trials come",
-            "Faith means never questioning God",
-            "Trials show God’s displeasure with us"
+            "Built an altar, laid the wood, bound Isaac, and laid him on the altar",
+            "Offered a lamb immediately",
+            "Prayed for guidance",
+            "Returned home without offering"
           ],
-          "correctAnswer": "God tests our faith to strengthen it and prove our obedience",
-          "explanation": "Genesis 22:1-2 shows God testing Abraham to prove his fear and obedience. Abraham's willingness to obey even in hardship exemplifies trust in God (verses 12,16-18).",
-          "verseReference": "Genesis 22:1",
+          "correctAnswer": "Built an altar, laid the wood, bound Isaac, and laid him on the altar",
+          "explanation": "Genesis 22:9 states that Abraham built an altar, laid the wood in order, bound Isaac his son, and laid him on the altar upon the wood, showing his obedience to God's command.",
+          "verseReference": "Genesis 22:9",
           "difficulty": "medium"
         },
         {
           "id": "genesis-22-medium-q2",
-          "question": "How does Abraham’s response to God’s command in Genesis 22 teach about obedience in daily Christian life?",
+          "question": "What action was Abraham about to take with the knife?",
           "type": "multiple-choice",
           "options": [
-            "He obeyed immediately without hesitation",
-            "He argued with God for days",
-            "He sought advice from others first",
-            "He refused to obey"
+            "Slay his son Isaac",
+            "Cut wood for the altar",
+            "Defend himself from enemies",
+            "Kill a ram caught in a thicket"
           ],
-          "correctAnswer": "He obeyed immediately without hesitation",
-          "explanation": "Genesis 22:3 records Abraham rising early and obeying God’s command promptly, demonstrating the importance of immediate and willing obedience (see also verses 5-6).",
-          "verseReference": "Genesis 22:3",
+          "correctAnswer": "Slay his son Isaac",
+          "explanation": "Genesis 22:10 explains that Abraham stretched forth his hand and took the knife to slay his son, illustrating his willingness to obey God fully.",
+          "verseReference": "Genesis 22:10",
           "difficulty": "medium"
         },
         {
           "id": "genesis-22-medium-q3",
-          "question": "A believer struggles with fear about God’s plans. What encouragement can Genesis 22:8 provide about God’s provision?",
+          "question": "Who called to Abraham out of heaven to stop him from harming Isaac?",
           "type": "multiple-choice",
           "options": [
-            "God will provide Himself a lamb for the burnt offering",
-            "God will leave us to face trials alone",
-            "We must solve problems without God",
-            "Provision depends only on human effort"
+            "The angel of the LORD",
+            "Isaac himself",
+            "God directly",
+            "A young man with Abraham"
           ],
-          "correctAnswer": "God will provide Himself a lamb for the burnt offering",
-          "explanation": "In Genesis 22:8, Abraham assures Isaac that God will provide a lamb, teaching us to trust God’s provision even when we cannot see the outcome (see also verses 13-14).",
-          "verseReference": "Genesis 22:8",
+          "correctAnswer": "The angel of the LORD",
+          "explanation": "Genesis 22:11 states that the angel of the LORD called to Abraham from heaven, commanding him not to harm Isaac and confirming Abraham's fear of God.",
+          "verseReference": "Genesis 22:11",
           "difficulty": "medium"
         },
         {
           "id": "genesis-22-medium-q4",
-          "question": "What lesson about perseverance through trials can be learned from Abraham’s journey in Genesis 22?",
+          "question": "Why did the angel of the LORD say Abraham should not harm his son?",
           "type": "multiple-choice",
           "options": [
-            "He continued faithfully even when the test lasted days",
-            "He gave up halfway through",
-            "He complained about the difficulty",
-            "He changed God’s instructions"
+            "Because Abraham feared God and did not withhold his son",
+            "Because Isaac was too young",
+            "Because God changed His mind",
+            "Because the people nearby objected"
           ],
-          "correctAnswer": "He continued faithfully even when the test lasted days",
-          "explanation": "Genesis 22:3-4 shows Abraham traveling three days to the mountain, illustrating perseverance and faithfulness through prolonged trials (see also verses 9-10).",
-          "verseReference": "Genesis 22:4",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-22-medium-q5",
-          "question": "How does Genesis 22 teach about humility and submission to God’s will in family life?",
-          "type": "multiple-choice",
-          "options": [
-            "Abraham submitted his beloved son to God’s command",
-            "Abraham prioritized his own desires over God’s",
-            "Abraham ignored God’s instructions",
-            "Abraham withheld his son from God"
-          ],
-          "correctAnswer": "Abraham submitted his beloved son to God’s command",
-          "explanation": "In Genesis 22:2 and 9, Abraham obeys God’s command to offer Isaac, teaching humility and submission even when it is personally difficult (see also verses 12,16).",
-          "verseReference": "Genesis 22:2",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-22-medium-q6",
-          "question": "A Christian is tempted to withhold obedience in fear. How does Abraham’s example in Genesis 22 guide us in dealing with temptation?",
-          "type": "multiple-choice",
-          "options": [
-            "Abraham did not withhold his son, showing obedience despite the trial",
-            "Abraham gave in to fear and disobedience",
-            "Abraham delayed obedience until he felt ready",
-            "Abraham questioned God’s command repeatedly"
-          ],
-          "correctAnswer": "Abraham did not withhold his son, showing obedience despite the trial",
-          "explanation": "Genesis 22:12 highlights that Abraham did not withhold his son, showing he overcame temptation to disobey, emphasizing trust and obedience (see also verses 10-11).",
+          "correctAnswer": "Because Abraham feared God and did not withhold his son",
+          "explanation": "Genesis 22:12 reveals that the angel acknowledged Abraham's fear of God, as he did not withhold his only son, demonstrating his faith and obedience.",
           "verseReference": "Genesis 22:12",
           "difficulty": "medium"
         },
         {
-          "id": "genesis-22-medium-q7",
-          "question": "What does the ram caught in the thicket in Genesis 22 symbolize for Christian living related to God’s provision and grace?",
+          "id": "genesis-22-medium-q5",
+          "question": "What did Abraham find caught in a thicket behind him?",
           "type": "multiple-choice",
           "options": [
-            "God provides a substitute in place of what is required",
-            "We must always provide for ourselves",
-            "Sacrifice is unnecessary",
-            "We can ignore God’s commands if provision is lacking"
+            "A ram caught by his horns",
+            "A sheep",
+            "A goat",
+            "A dove"
           ],
-          "correctAnswer": "God provides a substitute in place of what is required",
-          "explanation": "Genesis 22:13 shows the ram offered instead of Isaac, symbolizing God's provision of a substitute sacrifice, teaching reliance on God’s grace and provision (see also verse 14).",
+          "correctAnswer": "A ram caught by his horns",
+          "explanation": "Genesis 22:13 tells us that Abraham saw a ram caught in a thicket by his horns, which he offered as a burnt offering instead of Isaac.",
           "verseReference": "Genesis 22:13",
           "difficulty": "medium"
         },
         {
-          "id": "genesis-22-medium-q8",
-          "question": "Based on Genesis 22, how should Christians approach worship and service to God?",
+          "id": "genesis-22-medium-q6",
+          "question": "What name did Abraham give to the place where God provided a ram for the offering?",
           "type": "multiple-choice",
           "options": [
-            "With full trust and willingness to obey God’s instructions",
-            "Only when convenient",
-            "Without concern for God’s commands",
-            "By following human advice over God’s word"
+            "Jehovahjireh",
+            "Bethel",
+            "Gilgal",
+            "Shiloh"
           ],
-          "correctAnswer": "With full trust and willingness to obey God’s instructions",
-          "explanation": "Genesis 22:5 records Abraham telling his servants he and Isaac will worship and come back, showing worship includes trust and obedience (see also verses 3,9).",
-          "verseReference": "Genesis 22:5",
+          "correctAnswer": "Jehovahjireh",
+          "explanation": "According to Genesis 22:14, Abraham called the place Jehovahjireh, meaning 'The LORD will provide,' reflecting God's provision in that moment.",
+          "verseReference": "Genesis 22:14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-22-medium-q7",
+          "question": "What promise did the angel of the LORD make to Abraham after the test?",
+          "type": "multiple-choice",
+          "options": [
+            "That Abraham’s seed would be multiplied as the stars and possess the gate of his enemies",
+            "That Abraham would live a long life",
+            "That Isaac would become king",
+            "That Abraham would never face hardship again"
+          ],
+          "correctAnswer": "That Abraham’s seed would be multiplied as the stars and possess the gate of his enemies",
+          "explanation": "Genesis 22:16-17 contains God's promise to bless Abraham and multiply his descendants as the stars of heaven and sand by the sea shore, showing the reward of obedience.",
+          "verseReference": "Genesis 22:16-17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-22-medium-q8",
+          "question": "What does Genesis 22:18 say will happen because Abraham obeyed God's voice?",
+          "type": "multiple-choice",
+          "options": [
+            "All nations of the earth shall be blessed in Abraham’s seed",
+            "Abraham shall be made king over many lands",
+            "Abraham’s wealth will be multiplied",
+            "Abraham will be forgiven of his sins"
+          ],
+          "correctAnswer": "All nations of the earth shall be blessed in Abraham’s seed",
+          "explanation": "Genesis 22:18 promises that through Abraham's obedience, all nations of the earth will be blessed in his seed, signifying the far-reaching impact of faith.",
+          "verseReference": "Genesis 22:18",
           "difficulty": "medium"
         },
         {
           "id": "genesis-22-medium-q9",
-          "question": "True or False: Abraham doubted God’s command to sacrifice Isaac and tried to find another solution.",
+          "question": "Where did Abraham go after returning from the mountain?",
+          "type": "multiple-choice",
+          "options": [
+            "Beersheba",
+            "Jerusalem",
+            "Hebron",
+            "Egypt"
+          ],
+          "correctAnswer": "Beersheba",
+          "explanation": "Genesis 22:19 states that after the event, Abraham returned to his young men and dwelt at Beersheba, showing his continued journey after the test.",
+          "verseReference": "Genesis 22:19",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-22-medium-q10",
+          "question": "How does Abraham’s willingness to sacrifice Isaac teach us about faith and obedience?",
+          "type": "multiple-choice",
+          "options": [
+            "It shows complete trust in God’s provision and commands",
+            "It encourages us to test God",
+            "It teaches us to avoid difficult decisions",
+            "It suggests God desires human sacrifice"
+          ],
+          "correctAnswer": "It shows complete trust in God’s provision and commands",
+          "explanation": "Genesis 22:1-12 demonstrates Abraham’s faith and obedience by trusting God’s command and believing God would provide, teaching practical faith and submission.",
+          "verseReference": "Genesis 22:1-12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-22-medium-q11",
+          "question": "If a believer struggles with trusting God in difficult times, what biblical truth from Genesis 22 can encourage them?",
+          "type": "multiple-choice",
+          "options": [
+            "God will provide a way even when the situation seems impossible",
+            "God punishes those who question Him",
+            "Trials should be avoided at all costs",
+            "Faith means never facing hardship"
+          ],
+          "correctAnswer": "God will provide a way even when the situation seems impossible",
+          "explanation": "Genesis 22:8 and 22:13 show that though Abraham faced a hard test, God provided a ram, teaching believers that God provides in times of trial.",
+          "verseReference": "Genesis 22:8, 13",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-22-medium-q12",
+          "question": "What does the name Jehovahjireh signify for Christians today?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s provision in times of need",
+            "A place of worship only in Old Testament times",
+            "A mountain where sacrifices are required today",
+            "A symbol of judgment"
+          ],
+          "correctAnswer": "God’s provision in times of need",
+          "explanation": "Genesis 22:14 shows that Jehovahjireh means 'The LORD will provide,' teaching Christians about trusting God’s provision in their lives.",
+          "verseReference": "Genesis 22:14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-22-medium-q13",
+          "question": "True or False: Abraham withheld his son Isaac from God when commanded to offer him.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Abraham obeyed immediately and did not doubt God’s command, as shown in Genesis 22:3 and 22:9-10, demonstrating faith and obedience.",
-          "verseReference": "Genesis 22:3",
+          "explanation": "Genesis 22:12 states that Abraham did not withhold his son, showing his obedience and fear of God.",
+          "verseReference": "Genesis 22:12",
           "difficulty": "medium"
         },
         {
-          "id": "genesis-22-medium-q10",
-          "question": "True or False: The angel of the LORD stopped Abraham from sacrificing Isaac because God saw Abraham’s fear and obedience.",
+          "id": "genesis-22-medium-q14",
+          "question": "True or False: The angel of the LORD called to Abraham twice from heaven during this event.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Genesis 22:11-12 shows the angel telling Abraham not to harm Isaac because God recognized his fear (reverence) and obedience.",
-          "verseReference": "Genesis 22:12",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-22-medium-q11",
-          "question": "Fill in the blank: Abraham called the name of the place \"_____________\" because it means 'In the mount of the LORD it shall be seen.'",
-          "type": "fill-in-the-blank",
-          "options": [
-            "Jehovahjireh",
-            "Beersheba",
-            "Moriah",
-            "Bethel"
-          ],
-          "correctAnswer": "Jehovahjireh",
-          "explanation": "Genesis 22:14 states Abraham called the place Jehovahjireh, meaning 'The LORD will provide,' signifying God’s provision.",
-          "verseReference": "Genesis 22:14",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-22-medium-q12",
-          "question": "How does Genesis 22 encourage believers regarding God’s promises and blessings?",
-          "type": "multiple-choice",
-          "options": [
-            "God promises to bless and multiply Abraham’s descendants because of obedience",
-            "God’s blessings are unrelated to obedience",
-            "Blessings come only through human effort",
-            "God’s promises are conditional on wealth"
-          ],
-          "correctAnswer": "God promises to bless and multiply Abraham’s descendants because of obedience",
-          "explanation": "Genesis 22:16-18 explains God’s oath to bless Abraham for his obedience, promising numerous descendants and blessings to all nations.",
-          "verseReference": "Genesis 22:16",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-22-medium-q13",
-          "question": "What practical lesson about parenting and faith can be drawn from Abraham’s willingness to sacrifice Isaac?",
-          "type": "multiple-choice",
-          "options": [
-            "Trusting God fully includes surrendering even what we love most",
-            "Parents should never trust God",
-            "Faith excludes difficult sacrifices",
-            "God discourages obedience in parenting"
-          ],
-          "correctAnswer": "Trusting God fully includes surrendering even what we love most",
-          "explanation": "Genesis 22:2 and 22:9 show Abraham’s readiness to offer Isaac, teaching that faith involves trusting God even with our most precious relationships.",
-          "verseReference": "Genesis 22:2",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-22-medium-q14",
-          "question": "How does Genesis 22 illustrate the importance of spiritual discipline like prayer and worship in facing trials?",
-          "type": "multiple-choice",
-          "options": [
-            "Abraham goes to worship and prays while obeying God’s command",
-            "Abraham ignored worship during trials",
-            "Prayer is unnecessary in trials",
-            "Worship is only for good times"
-          ],
-          "correctAnswer": "Abraham goes to worship and prays while obeying God’s command",
-          "explanation": "Genesis 22:5 shows Abraham telling his servants he and Isaac will worship and come back, indicating worship is integral even during trials.",
-          "verseReference": "Genesis 22:5",
+          "explanation": "Genesis 22:11 and Genesis 22:15 indicate the angel of the LORD called to Abraham twice, emphasizing God’s direct intervention.",
+          "verseReference": "Genesis 22:11, 15",
           "difficulty": "medium"
         },
         {
           "id": "genesis-22-medium-q15",
-          "question": "What does Abraham’s immediate reply, 'Here am I,' teach about readiness in serving God?",
-          "type": "multiple-choice",
+          "question": "True or False: The ram offered by Abraham was caught by its horns in a thicket behind him.",
+          "type": "true-false",
           "options": [
-            "Being attentive and ready to answer God promptly is essential",
-            "Delaying response to God is preferable",
-            "Ignoring God’s call is acceptable",
-            "Service to God can wait"
+            "True",
+            "False"
           ],
-          "correctAnswer": "Being attentive and ready to answer God promptly is essential",
-          "explanation": "Genesis 22:1 and 22:11 show Abraham’s prompt response 'Here am I,' teaching the importance of readiness in spiritual service.",
-          "verseReference": "Genesis 22:1",
+          "correctAnswer": "True",
+          "explanation": "Genesis 22:13 describes the ram caught by its horns in a thicket, which Abraham offered instead of his son, symbolizing God’s provision.",
+          "verseReference": "Genesis 22:13",
           "difficulty": "medium"
         }
       ],
@@ -497,225 +493,223 @@
       "questions": [
         {
           "id": "genesis-22-hard-q1",
-          "question": "What is the significance of the location Moriah in Genesis 22, and how is it connected to later biblical events?",
+          "question": "According to Genesis 22:17, what are Abraham's descendants compared to in the blessing God promises?",
           "type": "multiple-choice",
           "options": [
-            "It is the place where Solomon built the temple in Jerusalem",
-            "It is Abraham's homeland",
-            "It is the place where Moses received the Ten Commandments",
-            "It is the location of Jacob's ladder dream"
+            "The stars of the heaven and the sand of the seashore",
+            "The grains of wheat and drops of rain",
+            "The leaves of the trees and the fish in the sea",
+            "The stones of the mountain and the blades of grass"
           ],
-          "correctAnswer": "It is the place where Solomon built the temple in Jerusalem",
-          "explanation": "Genesis 22:2 mentions the land of Moriah as where Abraham was commanded to offer Isaac. Later, 2 Chronicles 3:1 identifies Mount Moriah as the site of Solomon's temple, linking Abraham's test with the temple's location.",
-          "verseReference": "Genesis 22:2",
+          "correctAnswer": "The stars of the heaven and the sand of the seashore",
+          "explanation": "Genesis 22:17 states that God will multiply Abraham's seed as the stars of the heaven and as the sand upon the seashore, highlighting the vastness of the blessing.",
+          "verseReference": "Genesis 22:17",
           "difficulty": "hard"
         },
         {
           "id": "genesis-22-hard-q2",
-          "question": "In Genesis 22:8, Abraham says, 'God will provide himself a lamb for a burnt offering.' How is this statement typologically significant in the New Testament?",
+          "question": "What is the reason given in Genesis 22:18 for all the nations of the earth being blessed through Abraham's seed?",
           "type": "multiple-choice",
           "options": [
-            "It foreshadows Jesus Christ being the Lamb of God sacrificed for humanity",
-            "It predicts the coming of the Passover lamb in Exodus",
-            "It refers to the daily temple sacrifices in Leviticus",
-            "It symbolizes the manna provided in the wilderness"
+            "Because Abraham obeyed God's voice",
+            "Because Abraham built an altar",
+            "Because Abraham offered a ram",
+            "Because Abraham returned to Beersheba"
           ],
-          "correctAnswer": "It foreshadows Jesus Christ being the Lamb of God sacrificed for humanity",
-          "explanation": "Abraham’s declaration in Genesis 22:8 is often seen as a typological foreshadowing of Christ’s sacrificial death, as John 1:29 calls Jesus the 'Lamb of God who takes away the sin of the world.'",
-          "verseReference": "Genesis 22:8",
+          "correctAnswer": "Because Abraham obeyed God's voice",
+          "explanation": "Genesis 22:18 explains that all nations will be blessed through Abraham’s seed because he obeyed God's voice, showing the importance of obedience.",
+          "verseReference": "Genesis 22:18",
           "difficulty": "hard"
         },
         {
           "id": "genesis-22-hard-q3",
-          "question": "What literary structure is evident in the narrative of Abraham's near-sacrifice of Isaac, especially seen in the repetition of the angel calling Abraham?",
+          "question": "Where did Abraham settle after returning from Mount Moriah according to Genesis 22:19?",
           "type": "multiple-choice",
           "options": [
-            "Chiasm, highlighting the turning point when Abraham is stopped",
-            "Parallelism between Abraham and Isaac’s dialogue",
-            "A prophetic oracle structure",
-            "An acrostic pattern using Hebrew letters"
+            "Beersheba",
+            "Hebron",
+            "Jerusalem",
+            "Bethel"
           ],
-          "correctAnswer": "Chiasm, highlighting the turning point when Abraham is stopped",
-          "explanation": "The narrative shows a chiastic structure centered on the angel’s call in Genesis 22:11-12, which reverses the action from sacrifice to provision, emphasizing the test and God’s intervention.",
-          "verseReference": "Genesis 22:11",
+          "correctAnswer": "Beersheba",
+          "explanation": "Genesis 22:19 states that Abraham dwelt at Beersheba after the events on Mount Moriah.",
+          "verseReference": "Genesis 22:19",
           "difficulty": "hard"
         },
         {
           "id": "genesis-22-hard-q4",
-          "question": "In the cultural context of the ancient Near East, what made God’s command to Abraham to sacrifice Isaac especially challenging?",
+          "question": "Who is Milcah mentioned in Genesis 22:20 in relation to Abraham?",
           "type": "multiple-choice",
           "options": [
-            "Isaac was Abraham’s only son and heir, making the demand a test of faith and obedience",
-            "Human sacrifice was a common religious practice in Israel",
-            "Abraham was unfamiliar with burnt offerings",
-            "God frequently demanded human sacrifices from patriarchs"
+            "She is the wife of Nahor, Abraham's brother",
+            "She is Abraham's sister",
+            "She is a servant of Abraham",
+            "She is the mother of Isaac"
           ],
-          "correctAnswer": "Isaac was Abraham’s only son and heir, making the demand a test of faith and obedience",
-          "explanation": "Genesis 22:2 stresses Isaac as 'thine only son,' emphasizing the difficulty and significance in the context of inheritance and covenant promises in ancient Near Eastern culture.",
-          "verseReference": "Genesis 22:2",
+          "correctAnswer": "She is the wife of Nahor, Abraham's brother",
+          "explanation": "Genesis 22:20 identifies Milcah as the wife of Nahor, Abraham’s brother, establishing family connections important for lineage.",
+          "verseReference": "Genesis 22:20",
           "difficulty": "hard"
         },
         {
           "id": "genesis-22-hard-q5",
-          "question": "Which Hebrew word in Genesis 22:14 is translated as 'Jehovahjireh,' and what is its theological significance?",
+          "question": "Which of the following is NOT named as a child of Nahor and Milcah in Genesis 22:21-22?",
           "type": "multiple-choice",
           "options": [
-            "YHWH Yireh, meaning 'The LORD will provide,' highlighting God’s provision",
-            "El Shaddai, meaning 'God Almighty,' emphasizing power",
-            "Adonai, meaning 'Lord,' stressing authority",
-            "Jehovah Nissi, meaning 'The LORD is my banner,' signifying victory"
+            "Rebekah",
+            "Huz",
+            "Buz",
+            "Ishmael"
           ],
-          "correctAnswer": "YHWH Yireh, meaning 'The LORD will provide,' highlighting God’s provision",
-          "explanation": "Genesis 22:14 names the place Jehovahjireh, from the Hebrew 'YHWH Yireh,' emphasizing God's provision of the ram as a substitute sacrifice, a profound theological theme.",
-          "verseReference": "Genesis 22:14",
+          "correctAnswer": "Ishmael",
+          "explanation": "Genesis 22:21-22 lists Nahor and Milcah's children but Ishmael is not among them; Ishmael is Abraham’s son, not Nahor’s.",
+          "verseReference": "Genesis 22:21-22",
           "difficulty": "hard"
         },
         {
           "id": "genesis-22-hard-q6",
-          "question": "How does the binding of Isaac (Genesis 22:9) function as a typological foreshadowing in Christian theology?",
+          "question": "Who is the father of Rebekah according to Genesis 22:23?",
           "type": "multiple-choice",
           "options": [
-            "It prefigures Christ’s submission and sacrifice on the cross",
-            "It symbolizes the Israelites’ bondage in Egypt",
-            "It represents the giving of the Law at Sinai",
-            "It anticipates the resurrection of Lazarus"
+            "Bethuel",
+            "Nahor",
+            "Abraham",
+            "Milcah"
           ],
-          "correctAnswer": "It prefigures Christ’s submission and sacrifice on the cross",
-          "explanation": "The act of binding Isaac is seen as a type of Christ’s obedient sacrifice, bound and laid upon the altar (cross), as elaborated in Hebrews 11:17-19.",
-          "verseReference": "Genesis 22:9",
+          "correctAnswer": "Bethuel",
+          "explanation": "Genesis 22:23 states that Bethuel begat Rebekah, indicating her father’s identity within the family lineage.",
+          "verseReference": "Genesis 22:23",
           "difficulty": "hard"
         },
         {
           "id": "genesis-22-hard-q7",
-          "question": "What is the significance of the ram caught in the thicket (Genesis 22:13) in the broader biblical narrative?",
+          "question": "What is the significance of the name 'Jehovahjireh' as given by Abraham in Genesis 22:14?",
           "type": "multiple-choice",
           "options": [
-            "It symbolizes God’s provision of a substitute sacrifice",
-            "It represents the end of animal sacrifices in the Old Testament",
-            "It is a metaphor for Israel’s enemies",
-            "It is an example of a ritual purification animal"
+            "It means 'The LORD will provide'",
+            "It means 'Place of sacrifice'",
+            "It means 'Mountain of God'",
+            "It means 'God is merciful'"
           ],
-          "correctAnswer": "It symbolizes God’s provision of a substitute sacrifice",
-          "explanation": "Genesis 22:13 introduces the ram as a substitutionary offering, prefiguring the concept of atonement and substitution central to biblical theology.",
-          "verseReference": "Genesis 22:13",
+          "correctAnswer": "It means 'The LORD will provide'",
+          "explanation": "Genesis 22:14 shows Abraham calling the place Jehovahjireh, which means 'The LORD will provide', reflecting God's provision of the ram in place of Isaac.",
+          "verseReference": "Genesis 22:14",
           "difficulty": "hard"
         },
         {
           "id": "genesis-22-hard-q8",
-          "question": "True or False: Abraham obeyed God’s command immediately without hesitation, as seen by his early rising and preparation in Genesis 22.",
+          "question": "Which literary device best describes the event where Isaac carrying the wood parallels Christ carrying the cross in Christian typology?",
+          "type": "multiple-choice",
+          "options": [
+            "Typology",
+            "Chiasm",
+            "Foreshadowing",
+            "Parallelism"
+          ],
+          "correctAnswer": "Typology",
+          "explanation": "The event of Isaac carrying wood for his own sacrifice parallels Christ carrying the cross, a classic example of typology where Old Testament figures prefigure New Testament events.",
+          "verseReference": "Genesis 22:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-22-hard-q9",
+          "question": "In Genesis 22:16, God swears 'By myself' to Abraham. What is the significance of this oath in the ancient Near Eastern context?",
+          "type": "multiple-choice",
+          "options": [
+            "It emphasizes the solemnity and inviolability of the promise",
+            "It means God is uncertain about the promise",
+            "It was a common phrase with no special meaning",
+            "It implies a lesser divine authority"
+          ],
+          "correctAnswer": "It emphasizes the solemnity and inviolability of the promise",
+          "explanation": "In ancient Near Eastern culture, swearing by oneself signified the highest oath, underscoring the absolute certainty of God's promise to Abraham (Genesis 22:16).",
+          "verseReference": "Genesis 22:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-22-hard-q10",
+          "question": "What does the ram caught in the thicket symbolize in the broader biblical narrative as seen in Genesis 22:13?",
+          "type": "multiple-choice",
+          "options": [
+            "Substitutionary atonement",
+            "Judgment of sin",
+            "Divine punishment",
+            "Covenant ratification"
+          ],
+          "correctAnswer": "Substitutionary atonement",
+          "explanation": "The ram caught in the thicket provided a substitute sacrifice for Isaac, symbolizing substitutionary atonement, a theme pivotal throughout the Bible (Genesis 22:13).",
+          "verseReference": "Genesis 22:13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-22-hard-q11",
+          "question": "Which New Testament passage explicitly references Abraham's willingness to sacrifice Isaac as a demonstration of faith, connecting to Genesis 22?",
+          "type": "multiple-choice",
+          "options": [
+            "Hebrews 11:17-19",
+            "Romans 4:3-5",
+            "James 2:21-23",
+            "John 3:16-17"
+          ],
+          "correctAnswer": "Hebrews 11:17-19",
+          "explanation": "Hebrews 11:17-19 recounts Abraham's faith in offering Isaac, directly connecting to Genesis 22’s narrative of obedience and faith.",
+          "verseReference": "Genesis 22:1-19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-22-hard-q12",
+          "question": "In Genesis 22:8, Abraham says 'God will provide himself a lamb for a burnt offering.' How does this statement foreshadow later biblical events?",
+          "type": "multiple-choice",
+          "options": [
+            "It foreshadows Christ as the Lamb of God",
+            "It predicts a future animal sacrifice ritual",
+            "It anticipates a famine",
+            "It refers to another ram caught in a thicket"
+          ],
+          "correctAnswer": "It foreshadows Christ as the Lamb of God",
+          "explanation": "Abraham’s statement foreshadows Jesus Christ's role as the ultimate Lamb of God who takes away the sin of the world (John 1:29), linking Genesis 22 to the New Testament.",
+          "verseReference": "Genesis 22:8",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-22-hard-q13",
+          "question": "What does the Hebrew word 'Jehovahjireh' literally mean as given in Genesis 22:14, and how does it reflect God's character?",
+          "type": "multiple-choice",
+          "options": [
+            "'The LORD will provide', showing God's provision and faithfulness",
+            "'The LORD is great', showing God's power",
+            "'The LORD is merciful', showing God's compassion",
+            "'The LORD is holy', showing God's purity"
+          ],
+          "correctAnswer": "'The LORD will provide', showing God's provision and faithfulness",
+          "explanation": "The Hebrew compound 'Jehovahjireh' literally means 'The LORD will provide', emphasizing God's faithful provision in times of need (Genesis 22:14).",
+          "verseReference": "Genesis 22:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-22-hard-q14",
+          "question": "True or False: According to Genesis 22:12, God told Abraham to proceed with sacrificing Isaac because of his fear of God.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Genesis 22:12 specifically says God told Abraham not to lay a hand on Isaac, acknowledging Abraham's fear of God and obedience, so the sacrifice was stopped.",
+          "verseReference": "Genesis 22:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-22-hard-q15",
+          "question": "True or False: Genesis 22:18 indicates that the blessing given to Abraham's seed will extend to all the nations of the earth.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Genesis 22:3 states that Abraham rose early in the morning to obey God’s command, demonstrating his immediate obedience without recorded hesitation.",
-          "verseReference": "Genesis 22:3",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-22-hard-q9",
-          "question": "What does the phrase 'thine only son Isaac, whom thou lovest' in Genesis 22:2 emphasize in terms of narrative and theological meaning?",
-          "type": "multiple-choice",
-          "options": [
-            "The uniqueness and beloved status of Isaac, intensifying the test of Abraham's faith",
-            "That Isaac was the eldest son of Abraham",
-            "That Isaac was the son of Hagar",
-            "That Isaac was not yet born"
-          ],
-          "correctAnswer": "The uniqueness and beloved status of Isaac, intensifying the test of Abraham's faith",
-          "explanation": "Genesis 22:2 highlights Isaac as Abraham’s only and beloved son, which amplifies the gravity of the command and the cost of faithfulness.",
-          "verseReference": "Genesis 22:2",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-22-hard-q10",
-          "question": "How does the promise to Abraham after the test (Genesis 22:16-18) relate to the covenant God made earlier with him?",
-          "type": "multiple-choice",
-          "options": [
-            "It reaffirms and expands the covenant blessings of numerous descendants and universal blessing",
-            "It introduces a new covenant unrelated to the previous one",
-            "It limits the covenant to Abraham’s immediate family only",
-            "It focuses solely on material wealth"
-          ],
-          "correctAnswer": "It reaffirms and expands the covenant blessings of numerous descendants and universal blessing",
-          "explanation": "Genesis 22:16-18 reiterates God’s covenant to bless Abraham’s seed abundantly and through them bless all nations, echoing the covenant in Genesis 12:2-3.",
-          "verseReference": "Genesis 22:16",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-22-hard-q11",
-          "question": "In Genesis 22:7-8, Isaac asks about the lamb for the burnt offering. What does this dialogue reveal about Abraham’s trust in God?",
-          "type": "multiple-choice",
-          "options": [
-            "Abraham trusts that God will provide a substitute sacrifice",
-            "Abraham plans to sacrifice Isaac himself",
-            "Abraham doubts God’s command",
-            "Abraham is unaware of the command"
-          ],
-          "correctAnswer": "Abraham trusts that God will provide a substitute sacrifice",
-          "explanation": "Abraham’s answer in Genesis 22:8 shows his faith in God’s provision even when the immediate circumstances seem impossible.",
-          "verseReference": "Genesis 22:7",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-22-hard-q12",
-          "question": "What role do the young men play in Genesis 22, and what might their presence symbolize in the narrative structure?",
-          "type": "multiple-choice",
-          "options": [
-            "They stay behind, representing the separation of the test from the community",
-            "They assist in the sacrifice",
-            "They carry out God’s command",
-            "They oppose Abraham’s actions"
-          ],
-          "correctAnswer": "They stay behind, representing the separation of the test from the community",
-          "explanation": "Genesis 22:5 shows Abraham instructing the young men to stay with the donkey, isolating the test to Abraham and Isaac alone, underscoring the personal nature of the trial.",
-          "verseReference": "Genesis 22:5",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-22-hard-q13",
-          "question": "What is the significance of the angel of the LORD speaking 'out of heaven' in Genesis 22:11 and 22:15?",
-          "type": "multiple-choice",
-          "options": [
-            "It emphasizes divine intervention and communication from God directly",
-            "It signals a dream or vision rather than reality",
-            "It indicates a human messenger from a high place",
-            "It represents a future prophetic voice"
-          ],
-          "correctAnswer": "It emphasizes divine intervention and communication from God directly",
-          "explanation": "The phrase 'out of heaven' in Genesis 22:11 and 22:15 highlights the direct divine origin of the angel’s message, underscoring God’s active involvement.",
-          "verseReference": "Genesis 22:11",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-22-hard-q14",
-          "question": "How does Genesis 22 connect with the theme of obedience found elsewhere in Scripture, especially in the New Testament?",
-          "type": "multiple-choice",
-          "options": [
-            "It exemplifies faith and obedience as foundational for righteousness, as seen in Hebrews 11",
-            "It contradicts the New Testament emphasis on grace over works",
-            "It focuses only on Old Testament law",
-            "It discourages obedience to difficult commands"
-          ],
-          "correctAnswer": "It exemplifies faith and obedience as foundational for righteousness, as seen in Hebrews 11",
-          "explanation": "Abraham’s obedience in Genesis 22 is celebrated in Hebrews 11:17-19 as exemplary faith, illustrating the enduring biblical theme of trusting God.",
-          "verseReference": "Genesis 22:1",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-22-hard-q15",
-          "question": "Which of the following best describes the historical and cultural context of Abraham’s test in Genesis 22?",
-          "type": "multiple-choice",
-          "options": [
-            "It reflects ancient Near Eastern practices of faith testing and covenant loyalty",
-            "It was a common ritual in Israelite worship to sacrifice children",
-            "It was a story invented during the exile to explain temple origins",
-            "It contradicts known ancient customs and is purely allegorical"
-          ],
-          "correctAnswer": "It reflects ancient Near Eastern practices of faith testing and covenant loyalty",
-          "explanation": "Genesis 22 fits within the ancient Near Eastern milieu where loyalty to a deity was tested, but uniquely demonstrates God’s prohibition of human sacrifice by providing a substitute.",
-          "verseReference": "Genesis 22:1",
+          "explanation": "Genesis 22:18 confirms that through Abraham's seed, all nations of the earth will be blessed, highlighting the universal scope of God's promise.",
+          "verseReference": "Genesis 22:18",
           "difficulty": "hard"
         }
       ],
@@ -742,257 +736,227 @@
       "questions": [
         {
           "id": "genesis-22-theological-q1",
-          "question": "What does God's testing of Abraham in Genesis 22 primarily reveal about God's nature?",
+          "question": "What divine attribute is demonstrated by God's instructions to Abraham to offer Isaac as a burnt offering according to Genesis 22:2?",
           "type": "multiple-choice",
           "options": [
-            "God tests to reveal true faith and obedience",
-            "God punishes disobedience immediately",
-            "God desires human sacrifice",
-            "God is indifferent to human actions"
+            "God's justice",
+            "God's omniscience",
+            "God's testing of faith",
+            "God's wrath"
           ],
-          "correctAnswer": "God tests to reveal true faith and obedience",
-          "explanation": "Genesis 22:1 shows God testing Abraham to reveal his faith and obedience. This aligns with James 1:2-4, where trials test faith, and Hebrews 11:17-19, which highlights Abraham's faith. 1 Peter 1:6-7 also supports the refining purpose of trials.",
-          "verseReference": "Genesis 22:1",
+          "correctAnswer": "God's testing of faith",
+          "explanation": "Genesis 22:2 shows God testing Abraham's faith by commanding him to offer his son Isaac as a burnt offering, demonstrating God's purpose to prove Abraham's fear and obedience.",
+          "verseReference": "Genesis 22:2",
           "difficulty": "hard"
         },
         {
           "id": "genesis-22-theological-q2",
-          "question": "In Genesis 22, why is Isaac specifically called 'thine only son' despite Abraham having other sons?",
+          "question": "Which doctrine is illustrated by Abraham's willingness to sacrifice Isaac, his only son, in Genesis 22:9-10?",
           "type": "multiple-choice",
           "options": [
-            "Isaac is the son of promise through whom God's covenant is established",
-            "Isaac was the eldest son",
-            "Isaac was Abraham's favorite son",
-            "Isaac was the only son living at the time"
+            "Doctrine of substitutionary atonement",
+            "Doctrine of original sin",
+            "Doctrine of sanctification",
+            "Doctrine of predestination"
           ],
-          "correctAnswer": "Isaac is the son of promise through whom God's covenant is established",
-          "explanation": "Genesis 22:2 calls Isaac 'thine only son' because he is the son of promise through whom God's covenant blessings are to come (Romans 9:7-9, Galatians 4:28, Hebrews 11:17). This emphasizes God's covenantal faithfulness rather than biological priority.",
-          "verseReference": "Genesis 22:2",
+          "correctAnswer": "Doctrine of substitutionary atonement",
+          "explanation": "Genesis 22:9-10 depicts Abraham preparing to sacrifice Isaac, but God provides a ram as a substitute, foreshadowing substitutionary atonement where another takes the place of the sinner.",
+          "verseReference": "Genesis 22:9",
           "difficulty": "hard"
         },
         {
           "id": "genesis-22-theological-q3",
-          "question": "What is the significance of Abraham's willingness to sacrifice Isaac in the broader biblical narrative?",
+          "question": "How does Genesis 22:13 reveal God's providential care and mercy?",
           "type": "multiple-choice",
           "options": [
-            "It prefigures God’s sacrifice of His own Son for humanity’s salvation",
-            "It shows that God demanded human sacrifice in the Old Testament",
-            "It demonstrates Abraham’s rejection of God’s promises",
-            "It symbolizes the failure of faith"
+            "God directs Abraham to find a lamb",
+            "God provides a ram caught in a thicket as a substitute",
+            "God commands Abraham to sacrifice himself",
+            "God punishes Abraham for obedience"
           ],
-          "correctAnswer": "It prefigures God’s sacrifice of His own Son for humanity’s salvation",
-          "explanation": "Abraham’s willingness to sacrifice Isaac (Genesis 22:9-10) prefigures God's sacrifice of Jesus Christ (John 3:16, Hebrews 11:17-19, Romans 8:32), highlighting substitutionary atonement and God's provision of a substitute lamb (Genesis 22:13).",
-          "verseReference": "Genesis 22:9",
+          "correctAnswer": "God provides a ram caught in a thicket as a substitute",
+          "explanation": "Genesis 22:13 shows God's mercy and providence by supplying a ram for Abraham to offer instead of Isaac, illustrating divine provision in times of trial.",
+          "verseReference": "Genesis 22:13",
           "difficulty": "hard"
         },
         {
           "id": "genesis-22-theological-q4",
-          "question": "How does Abraham's statement, 'God will provide himself a lamb for a burnt offering,' in Genesis 22:8 reflect a Christological theme?",
+          "question": "What combined doctrinal truth emerges from Abraham’s statement in Genesis 22:8 and the angel’s declaration in Genesis 22:16-17 about Abraham's seed?",
           "type": "multiple-choice",
           "options": [
-            "It anticipates Jesus as the Lamb of God who takes away sin",
-            "It refers only to the ram caught in the thicket",
-            "It indicates human effort is sufficient for salvation",
-            "It denies the need for any sacrifice"
+            "God's promise of blessing through obedience and the provision of a sacrificial lamb",
+            "The inevitability of human sacrifice for salvation",
+            "The rejection of faith in favor of works",
+            "The fulfillment of the Law before the Messiah"
           ],
-          "correctAnswer": "It anticipates Jesus as the Lamb of God who takes away sin",
-          "explanation": "Abraham’s statement (Genesis 22:8) prophetically anticipates Jesus Christ as the ultimate Lamb (John 1:29, 1 Corinthians 5:7, Revelation 5:6), who provides salvation through substitutionary sacrifice. The ram in Genesis 22:13 symbolizes this provision.",
-          "verseReference": "Genesis 22:8",
+          "correctAnswer": "God's promise of blessing through obedience and the provision of a sacrificial lamb",
+          "explanation": "Genesis 22:8 and 22:16-17 together teach that God promises blessing through Abraham's obedience and provision of a lamb, prefiguring Christ’s sacrifice and the blessing of all nations through Him.",
+          "verseReference": "Genesis 22:8, Genesis 22:16-17",
           "difficulty": "hard"
         },
         {
           "id": "genesis-22-theological-q5",
-          "question": "What attribute of God is revealed when He stops Abraham from sacrificing Isaac?",
+          "question": "What theological significance does the naming of the place Jehovahjireh in Genesis 22:14 carry?",
           "type": "multiple-choice",
           "options": [
-            "God is merciful and does not desire human sacrifice",
-            "God is wrathful and punishes disobedience",
-            "God is distant and uninvolved",
-            "God is unpredictable"
+            "It signifies God's wrath on sinners",
+            "It emphasizes God's provision and sight",
+            "It marks the location of Israel’s first temple",
+            "It refers to the place of Abraham's burial"
           ],
-          "correctAnswer": "God is merciful and does not desire human sacrifice",
-          "explanation": "In Genesis 22:11-12, God stops Abraham, showing His mercy and opposition to human sacrifice, consistent with His holy nature (Deuteronomy 12:31, Psalm 50:7-13, Hosea 6:6). This reveals God’s righteous character and covenantal faithfulness.",
-          "verseReference": "Genesis 22:11",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-22-theological-q6",
-          "question": "What theological truth is emphasized by God's statement to Abraham, 'now I know that thou fearest God'?",
-          "type": "multiple-choice",
-          "options": [
-            "True fear of God is demonstrated by obedience and trust",
-            "God doubts Abraham's faith",
-            "Fear of God is unnecessary for righteousness",
-            "Human works earn salvation"
-          ],
-          "correctAnswer": "True fear of God is demonstrated by obedience and trust",
-          "explanation": "Genesis 22:12 emphasizes that fearing God means obedience and trust, aligning with Proverbs 9:10, Ecclesiastes 12:13, and Hebrews 11:17. It affirms that faith is shown through action and reverence toward God.",
-          "verseReference": "Genesis 22:12",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-22-theological-q7",
-          "question": "How does the ram caught in the thicket function theologically in Genesis 22?",
-          "type": "multiple-choice",
-          "options": [
-            "It serves as a substitutionary sacrifice in place of Isaac",
-            "It is a mere coincidence without significance",
-            "It is a symbol of Abraham’s disobedience",
-            "It represents the failure of God’s promise"
-          ],
-          "correctAnswer": "It serves as a substitutionary sacrifice in place of Isaac",
-          "explanation": "The ram in Genesis 22:13 is a substitutionary sacrifice, symbolizing God’s provision and foreshadowing Christ’s atonement (Isaiah 53:4-7, 2 Corinthians 5:21, Hebrews 9:12-14). This highlights the doctrine of substitutionary atonement.",
-          "verseReference": "Genesis 22:13",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-22-theological-q8",
-          "question": "What does the naming of the place 'Jehovahjireh' teach about God's character?",
-          "type": "multiple-choice",
-          "options": [
-            "God is the provider who sees and meets needs",
-            "God is absent in times of trial",
-            "God is a distant judge",
-            "God is unpredictable in His actions"
-          ],
-          "correctAnswer": "God is the provider who sees and meets needs",
-          "explanation": "Genesis 22:14 names the place Jehovahjireh, meaning God provides. This reveals God’s providence and care, consistent with Psalm 23:1, Philippians 4:19, and Matthew 6:31-33, affirming God’s faithful provision for His people.",
+          "correctAnswer": "It emphasizes God's provision and sight",
+          "explanation": "Genesis 22:14 explains that Abraham called the place Jehovahjireh, meaning 'The LORD will provide,' highlighting God’s attribute of provision and His active involvement in salvation history.",
           "verseReference": "Genesis 22:14",
           "difficulty": "hard"
         },
         {
-          "id": "genesis-22-theological-q9",
-          "question": "What covenantal promise does God reaffirm to Abraham after the test of Isaac?",
+          "id": "genesis-22-theological-q6",
+          "question": "Which attribute of God is revealed by the angel of the LORD calling Abraham twice from heaven in Genesis 22:11 and 22:15?",
           "type": "multiple-choice",
           "options": [
-            "That Abraham’s descendants will be numerous and blessed",
-            "That Abraham will have no descendants",
-            "That Abraham will be cursed for obedience",
-            "That Abraham’s family will be destroyed"
+            "God's omnipresence",
+            "God's patience and communication",
+            "God's wrath and judgment",
+            "God's sovereignty over nature"
           ],
-          "correctAnswer": "That Abraham’s descendants will be numerous and blessed",
-          "explanation": "Genesis 22:16-18 reaffirms the covenant promise of numerous descendants and blessings to all nations through Abraham’s seed, consistent with Genesis 12:2-3, Romans 4:13, and Galatians 3:16, underscoring God’s faithfulness to His covenant.",
-          "verseReference": "Genesis 22:17",
+          "correctAnswer": "God's patience and communication",
+          "explanation": "The angel speaking twice to Abraham (Genesis 22:11 and 22:15) demonstrates God's patient communication and His sovereign involvement in human affairs to guide and confirm obedience.",
+          "verseReference": "Genesis 22:11",
           "difficulty": "hard"
         },
         {
-          "id": "genesis-22-theological-q10",
-          "question": "How does Genesis 22 contribute to the doctrine of salvation by faith?",
+          "id": "genesis-22-theological-q7",
+          "question": "How does Abraham’s response to the angel in Genesis 22:1 and 22:11 express the theological concept of human submission to God's will?",
           "type": "multiple-choice",
           "options": [
-            "It demonstrates Abraham’s faith and trust in God’s provision",
-            "It teaches salvation by works alone",
-            "It emphasizes human merit over divine grace",
-            "It rejects faith as necessary for salvation"
+            "Abraham questions God’s plan",
+            "Abraham immediately replies 'Here am I' indicating readiness to obey",
+            "Abraham tries to negotiate the command",
+            "Abraham remains silent"
           ],
-          "correctAnswer": "It demonstrates Abraham’s faith and trust in God’s provision",
-          "explanation": "Abraham’s obedience in Genesis 22 exemplifies faith trusting God’s promise and provision (Hebrews 11:17-19, Romans 4:3-5, James 2:21-24), affirming salvation by faith not works, consistent with the core Christian doctrine of justification by faith.",
-          "verseReference": "Genesis 22:3",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-22-theological-q11",
-          "question": "What does Abraham’s early rising to obey God’s command suggest about his relationship with God?",
-          "type": "multiple-choice",
-          "options": [
-            "He is eager and willing to obey God promptly",
-            "He hesitates and doubts God’s command",
-            "He disobeys God repeatedly",
-            "He delays obedience indefinitely"
-          ],
-          "correctAnswer": "He is eager and willing to obey God promptly",
-          "explanation": "Genesis 22:3 shows Abraham rising early and preparing to obey, reflecting his heartfelt trust and readiness to serve God, consistent with Proverbs 3:5-6 and Psalm 119:60, demonstrating the believer’s prompt obedience to God’s will.",
-          "verseReference": "Genesis 22:3",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-22-theological-q12",
-          "question": "What role do the 'young men' play in the narrative of Genesis 22?",
-          "type": "multiple-choice",
-          "options": [
-            "They accompany Abraham but do not ascend the mountain",
-            "They participate in the sacrifice",
-            "They oppose Abraham’s actions",
-            "They are not mentioned in the chapter"
-          ],
-          "correctAnswer": "They accompany Abraham but do not ascend the mountain",
-          "explanation": "In Genesis 22:3-5, Abraham instructs the young men to stay behind, indicating their role as companions but not participants in the test, emphasizing Abraham’s personal faith journey (Hebrews 11:17-19).",
-          "verseReference": "Genesis 22:5",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-22-theological-q13",
-          "question": "How does Genesis 22 illustrate the concept of substitutionary atonement?",
-          "type": "multiple-choice",
-          "options": [
-            "Through the ram offered instead of Isaac",
-            "Through Isaac’s voluntary death",
-            "Through Abraham sacrificing himself",
-            "Through no sacrifice at all"
-          ],
-          "correctAnswer": "Through the ram offered instead of Isaac",
-          "explanation": "The ram caught in the thicket (Genesis 22:13) serves as a substitute for Isaac, illustrating substitutionary atonement, a central biblical doctrine fulfilled in Christ’s sacrifice (Isaiah 53:6, 2 Corinthians 5:21, Hebrews 9:28).",
-          "verseReference": "Genesis 22:13",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-22-theological-q14",
-          "question": "What promise is made about Abraham’s seed possessing 'the gate of his enemies'?",
-          "type": "multiple-choice",
-          "options": [
-            "That his descendants will have victory and authority",
-            "That his descendants will be defeated",
-            "That his descendants will be exiled",
-            "That his descendants will be forgotten"
-          ],
-          "correctAnswer": "That his descendants will have victory and authority",
-          "explanation": "Genesis 22:17 promises Abraham’s seed will possess the gate of enemies, symbolizing triumph and dominion, consistent with Psalm 24:7-8 and Luke 10:19, illustrating God’s empowerment of His covenant people.",
-          "verseReference": "Genesis 22:17",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-22-theological-q15",
-          "question": "What does Abraham’s obedience in Genesis 22 teach about humanity’s response to divine commands?",
-          "type": "multiple-choice",
-          "options": [
-            "Faithful obedience requires trust even when the command is difficult",
-            "Obedience is optional for believers",
-            "Divine commands are often unreasonable",
-            "Human reason should override divine command"
-          ],
-          "correctAnswer": "Faithful obedience requires trust even when the command is difficult",
-          "explanation": "Abraham’s willingness to sacrifice Isaac (Genesis 22:3,9-10) illustrates that true faith involves trusting God in difficult commands, supported by Proverbs 3:5-6 and Hebrews 11:8-19, affirming obedience as a response to faith.",
-          "verseReference": "Genesis 22:9",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-22-theological-q16",
-          "question": "What does the episode of Genesis 22 teach about God’s testing and its purpose?",
-          "type": "multiple-choice",
-          "options": [
-            "Testing reveals the genuineness of faith and strengthens trust in God",
-            "Testing is meant to punish sinners immediately",
-            "Testing is a sign of God’s abandonment",
-            "Testing is unnecessary in the life of faith"
-          ],
-          "correctAnswer": "Testing reveals the genuineness of faith and strengthens trust in God",
-          "explanation": "Genesis 22:1 and 22:12 show God tests Abraham to prove his faith, similar to the testing of Job (Job 1:8), refining faith as in 1 Peter 1:6-7, and strengthening trust (James 1:2-4). Testing is purposeful and redemptive in biblical theology.",
+          "correctAnswer": "Abraham immediately replies 'Here am I' indicating readiness to obey",
+          "explanation": "In Genesis 22:1 and 22:11, Abraham’s prompt response 'Here am I' shows his submission and willingness to obey God’s will without hesitation, illustrating faith and surrender.",
           "verseReference": "Genesis 22:1",
           "difficulty": "hard"
         },
         {
-          "id": "genesis-22-theological-q17",
-          "question": "How does Genesis 22 relate to the doctrine of God’s sovereignty?",
+          "id": "genesis-22-theological-q8",
+          "question": "What redemptive narrative connection can be drawn from Genesis 22:7-8 where Isaac asks about the lamb and Abraham replies that God will provide one?",
           "type": "multiple-choice",
           "options": [
-            "God directs even the most difficult events for His divine purposes",
-            "God is limited by human will",
-            "God acts randomly without plan",
-            "God is unaware of human circumstances"
+            "It foreshadows the coming of Christ as the Lamb of God",
+            "It indicates the end of animal sacrifices",
+            "It predicts the destruction of Jerusalem",
+            "It suggests the failure of faith"
           ],
-          "correctAnswer": "God directs even the most difficult events for His divine purposes",
-          "explanation": "Genesis 22 shows God directing Abraham to offer Isaac and then provides a ram, displaying God’s sovereign control over history and salvation (Psalm 115:3, Isaiah 46:9-10, Romans 8:28). This affirms God’s ultimate authority and purposefulness.",
-          "verseReference": "Genesis 22:2",
+          "correctAnswer": "It foreshadows the coming of Christ as the Lamb of God",
+          "explanation": "Genesis 22:7-8 anticipates Christ typologically as the Lamb God will provide for sacrifice, connecting Abraham’s faith with God’s ultimate redemptive plan in the Messiah (John 1:29).",
+          "verseReference": "Genesis 22:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-22-theological-q9",
+          "question": "What doctrinal teaching is affirmed by the angel’s statement in Genesis 22:12 about Abraham not withholding his son from God?",
+          "type": "multiple-choice",
+          "options": [
+            "The doctrine of election",
+            "The doctrine of faith and fear of God",
+            "The doctrine of predestination",
+            "The doctrine of justification by works"
+          ],
+          "correctAnswer": "The doctrine of faith and fear of God",
+          "explanation": "Genesis 22:12 highlights that Abraham’s fear of God and faith are shown by not withholding his only son, teaching that true faith includes reverence and obedience to God.",
+          "verseReference": "Genesis 22:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-22-theological-q10",
+          "question": "How does Genesis 22:19 contribute to the narrative arc of Abraham’s life and covenant relationship with God?",
+          "type": "multiple-choice",
+          "options": [
+            "Abraham leaves the land of promise",
+            "Abraham returns to Beersheba and dwells there, continuing the covenant life",
+            "Abraham begins a new religion",
+            "Abraham rejects God’s promises"
+          ],
+          "correctAnswer": "Abraham returns to Beersheba and dwells there, continuing the covenant life",
+          "explanation": "Genesis 22:19 shows Abraham returning to Beersheba, signifying continuation and stability in his covenant relationship with God after the test, fitting into the broader redemptive story.",
+          "verseReference": "Genesis 22:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-22-theological-q11",
+          "question": "What synthesis of doctrine emerges from the angel’s oath in Genesis 22:16-18 combined with Abraham’s obedience in Genesis 22:9-10?",
+          "type": "multiple-choice",
+          "options": [
+            "Obedience leads to divine blessing and multiplication of descendants",
+            "Obedience is unnecessary for blessing",
+            "Blessing is unrelated to faith",
+            "God’s promises are conditional on human effort alone"
+          ],
+          "correctAnswer": "Obedience leads to divine blessing and multiplication of descendants",
+          "explanation": "Genesis 22:9-10 and 22:16-18 together affirm that Abraham’s obedience results in God’s oath to bless him and multiply his seed, teaching the link between faithfulness and covenant blessing.",
+          "verseReference": "Genesis 22:9, Genesis 22:16-18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-22-theological-q12",
+          "question": "Sceptics claim that Genesis 22 portrays God as cruel for commanding Abraham to sacrifice Isaac. What does Genesis 22:11-13 actually teach about God's character and purpose?",
+          "type": "multiple-choice",
+          "options": [
+            "God is testing faith and provides a substitute, showing mercy and provision",
+            "God punishes Abraham for disobedience",
+            "God desires human sacrifice",
+            "God is indifferent to human suffering"
+          ],
+          "correctAnswer": "God is testing faith and provides a substitute, showing mercy and provision",
+          "explanation": "Genesis 22:11-13 reveals God stopping Abraham and providing a ram for sacrifice instead, emphasizing God’s mercy, testing of faith, and provision rather than cruelty.",
+          "verseReference": "Genesis 22:11-13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-22-theological-q13",
+          "question": "What theological significance does Abraham’s early rising and preparation in Genesis 22:3 have in the context of obedience and sanctification?",
+          "type": "multiple-choice",
+          "options": [
+            "It shows procrastination and doubt",
+            "It demonstrates prompt, faithful obedience as part of sanctification",
+            "It indicates a ritualistic legalism",
+            "It represents a failure of faith"
+          ],
+          "correctAnswer": "It demonstrates prompt, faithful obedience as part of sanctification",
+          "explanation": "Genesis 22:3 describes Abraham rising early to obey God's command, illustrating the sanctifying work of faith that leads to prompt and willing obedience.",
+          "verseReference": "Genesis 22:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-22-theological-q14",
+          "question": "What combined teaching do Abraham’s statement in Genesis 22:5 and his action in Genesis 22:6 convey about worship and trust in God?",
+          "type": "multiple-choice",
+          "options": [
+            "Worship requires sacrifice without trust",
+            "Worship involves trust and submission, even in difficult obedience",
+            "Worship is optional in times of trial",
+            "Worship is a human effort without divine involvement"
+          ],
+          "correctAnswer": "Worship involves trust and submission, even in difficult obedience",
+          "explanation": "Genesis 22:5 and 22:6 together show Abraham’s intention to worship God and his trust by carrying out the difficult act with Isaac, teaching that true worship is grounded in trust and submission.",
+          "verseReference": "Genesis 22:5-6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-22-theological-q15",
+          "question": "How do the genealogical details in Genesis 22:20-24 contribute to the theological understanding of God’s covenant promises?",
+          "type": "multiple-choice",
+          "options": [
+            "They show the impossibility of God’s promises",
+            "They demonstrate God’s faithfulness in preserving Abraham’s extended family line",
+            "They contradict the covenant with Abraham",
+            "They are irrelevant to the covenant"
+          ],
+          "correctAnswer": "They demonstrate God’s faithfulness in preserving Abraham’s extended family line",
+          "explanation": "Genesis 22:20-24 lists Nahor’s descendants, underscoring God’s ongoing faithfulness in preserving Abraham’s family line, which is integral to the unfolding covenant blessings.",
+          "verseReference": "Genesis 22:20-24",
           "difficulty": "hard"
         }
       ],
@@ -1006,7 +970,7 @@
         "bible-quiz",
         "theological"
       ],
-      "totalQuestions": 17,
+      "totalQuestions": 15,
       "estimatedTime": 25
     }
   }

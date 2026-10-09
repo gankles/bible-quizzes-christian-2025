@@ -13,13 +13,13 @@
       "questions": [
         {
           "id": "exodus-37-easy-q1",
-          "question": "What material was used by Bezaleel to make the ark according to Exodus 37:1?",
+          "question": "What material did Bezaleel use to make the ark?",
           "type": "multiple-choice",
           "options": [
             "Shittim wood",
+            "Oak wood",
             "Cedar wood",
-            "Gold",
-            "Bronze"
+            "Acacia wood"
           ],
           "correctAnswer": "Shittim wood",
           "explanation": "Exodus 37:1 states that Bezaleel made the ark of shittim wood.",
@@ -28,65 +28,108 @@
         },
         {
           "id": "exodus-37-easy-q2",
-          "question": "How was the ark overlaid according to Exodus 37:2?",
+          "question": "How long was the ark made by Bezaleel?",
           "type": "multiple-choice",
           "options": [
-            "With pure silver",
-            "With pure gold within and without",
-            "With bronze",
-            "With fine linen"
+            "Two cubits",
+            "Two cubits and a half",
+            "Three cubits",
+            "One cubit and a half"
           ],
-          "correctAnswer": "With pure gold within and without",
-          "explanation": "Exodus 37:2 says the ark was overlaid with pure gold both inside and outside.",
-          "verseReference": "Exodus 37:2",
+          "correctAnswer": "Two cubits and a half",
+          "explanation": "Exodus 37:1 specifies that the length of the ark was two cubits and a half.",
+          "verseReference": "Exodus 37:1",
           "difficulty": "easy"
         },
         {
           "id": "exodus-37-easy-q3",
-          "question": "How many rings of gold were cast for the ark?",
-          "type": "multiple-choice",
+          "question": "True or False: The ark was overlaid with pure gold both inside and outside.",
+          "type": "true-false",
           "options": [
-            "Two",
-            "Three",
-            "Four",
-            "Five"
+            "True",
+            "False"
           ],
-          "correctAnswer": "Four",
-          "explanation": "Exodus 37:3 records that four rings of gold were cast for the ark, placed at its four corners.",
-          "verseReference": "Exodus 37:3",
+          "correctAnswer": "True",
+          "explanation": "Exodus 37:2 says that Bezaleel overlaid the ark with pure gold within and without.",
+          "verseReference": "Exodus 37:2",
           "difficulty": "easy"
         },
         {
           "id": "exodus-37-easy-q4",
-          "question": "True or False: The staves used to carry the ark were made of gold.",
+          "question": "How many rings of gold did Bezaleel cast for the ark?",
+          "type": "multiple-choice",
+          "options": [
+            "Two",
+            "Four",
+            "Six",
+            "Eight"
+          ],
+          "correctAnswer": "Four",
+          "explanation": "Exodus 37:3 explains that four rings of gold were cast for the ark, two on each side.",
+          "verseReference": "Exodus 37:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-37-easy-q5",
+          "question": "What were the staves made of to bear the ark?",
+          "type": "multiple-choice",
+          "options": [
+            "Oak wood",
+            "Shittim wood",
+            "Cedar wood",
+            "Pine wood"
+          ],
+          "correctAnswer": "Shittim wood",
+          "explanation": "Exodus 37:4 states that the staves were made of shittim wood and overlaid with gold.",
+          "verseReference": "Exodus 37:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-37-easy-q6",
+          "question": "True or False: The staves were overlaid with silver.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Exodus 37:4 explains that the staves were made of shittim wood and overlaid with gold, not made entirely of gold.",
+          "explanation": "Exodus 37:4 indicates the staves were overlaid with gold, not silver.",
           "verseReference": "Exodus 37:4",
           "difficulty": "easy"
         },
         {
-          "id": "exodus-37-easy-q5",
-          "question": "What was the length of the mercy seat as described in Exodus 37:6?",
+          "id": "exodus-37-easy-q7",
+          "question": "What was the purpose of putting the staves into the rings on the ark?",
           "type": "multiple-choice",
           "options": [
-            "One cubit",
-            "Two cubits",
-            "Two cubits and a half",
-            "Three cubits"
+            "To decorate the ark",
+            "To bear the ark",
+            "To lock the ark",
+            "To hang curtains"
           ],
-          "correctAnswer": "Two cubits and a half",
-          "explanation": "Exodus 37:6 specifies the mercy seat was two cubits and a half in length.",
+          "correctAnswer": "To bear the ark",
+          "explanation": "Exodus 37:5 says the staves were put into the rings by the sides of the ark to bear the ark.",
+          "verseReference": "Exodus 37:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-37-easy-q8",
+          "question": "What was the mercy seat made of?",
+          "type": "multiple-choice",
+          "options": [
+            "Shittim wood",
+            "Pure gold",
+            "Silver",
+            "Bronze"
+          ],
+          "correctAnswer": "Pure gold",
+          "explanation": "Exodus 37:6 states the mercy seat was made of pure gold.",
           "verseReference": "Exodus 37:6",
           "difficulty": "easy"
         },
         {
-          "id": "exodus-37-easy-q6",
-          "question": "How many cherubim did Bezaleel make for the mercy seat?",
+          "id": "exodus-37-easy-q9",
+          "question": "How many cherubims did Bezaleel make for the mercy seat?",
           "type": "multiple-choice",
           "options": [
             "One",
@@ -95,139 +138,94 @@
             "Four"
           ],
           "correctAnswer": "Two",
-          "explanation": "Exodus 37:7 states that two cherubim of gold were made on the two ends of the mercy seat.",
+          "explanation": "Exodus 37:7 says he made two cherubims of gold for the mercy seat.",
           "verseReference": "Exodus 37:7",
           "difficulty": "easy"
         },
         {
-          "id": "exodus-37-easy-q7",
-          "question": "True or False: The cherubim made on the mercy seat had their faces looking away from each other.",
+          "id": "exodus-37-easy-q10",
+          "question": "True or False: The cherubims were made from multiple pieces joined together.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Exodus 37:9 explains the cherubim faced one another with their faces toward the mercy seat.",
-          "verseReference": "Exodus 37:9",
-          "difficulty": "easy"
-        },
-        {
-          "id": "exodus-37-easy-q8",
-          "question": "What were the dimensions of the table made of shittim wood in Exodus 37:10?",
-          "type": "multiple-choice",
-          "options": [
-            "Two cubits length, one cubit breadth, one cubit height",
-            "Two cubits length, one cubit breadth, one and a half cubits height",
-            "One cubit length, one cubit breadth, two cubits height",
-            "Three cubits length, two cubits breadth, one cubit height"
-          ],
-          "correctAnswer": "Two cubits length, one cubit breadth, one and a half cubits height",
-          "explanation": "Exodus 37:10 describes the table as two cubits long, one cubit wide, and one and a half cubits high.",
-          "verseReference": "Exodus 37:10",
-          "difficulty": "easy"
-        },
-        {
-          "id": "exodus-37-easy-q9",
-          "question": "What items were made of pure gold to be placed upon the table according to Exodus 37:16?",
-          "type": "multiple-choice",
-          "options": [
-            "Dishes, spoons, bowls, and covers",
-            "Candles, lamps, and bowls",
-            "Plates, cups, and knives",
-            "Bread, wine, and oil"
-          ],
-          "correctAnswer": "Dishes, spoons, bowls, and covers",
-          "explanation": "Exodus 37:16 lists dishes, spoons, bowls, and covers made of pure gold for the table.",
-          "verseReference": "Exodus 37:16",
-          "difficulty": "easy"
-        },
-        {
-          "id": "exodus-37-easy-q10",
-          "question": "How many branches did the golden candlestick have as described in Exodus 37:18?",
-          "type": "multiple-choice",
-          "options": [
-            "Four",
-            "Five",
-            "Six",
-            "Seven"
-          ],
-          "correctAnswer": "Six",
-          "explanation": "Exodus 37:18 states the candlestick had six branches, three on each side.",
-          "verseReference": "Exodus 37:18",
+          "explanation": "Exodus 37:7 states the cherubims were beaten out of one piece each.",
+          "verseReference": "Exodus 37:7",
           "difficulty": "easy"
         },
         {
           "id": "exodus-37-easy-q11",
-          "question": "Fill in the blank: The candlestick was made of ___ gold and was one beaten work.",
-          "type": "fill-blank",
+          "question": "How were the cherubims positioned on the mercy seat?",
+          "type": "multiple-choice",
           "options": [
-            "pure",
-            "silver",
-            "bronze",
-            "shittim"
+            "Faces away from each other",
+            "Faces one to another",
+            "Faces upward",
+            "Faces outward from the center"
           ],
-          "correctAnswer": "pure",
-          "explanation": "Exodus 37:22 confirms the candlestick was made of pure gold and was one beaten work.",
-          "verseReference": "Exodus 37:22",
+          "correctAnswer": "Faces one to another",
+          "explanation": "Exodus 37:9 describes the cherubims as having their faces one to another, looking toward the mercy seat.",
+          "verseReference": "Exodus 37:9",
           "difficulty": "easy"
         },
         {
           "id": "exodus-37-easy-q12",
-          "question": "What was the shape of the incense altar according to Exodus 37:25?",
+          "question": "What were the dimensions of the table made of shittim wood?",
           "type": "multiple-choice",
           "options": [
-            "Circular",
-            "Foursquare",
-            "Rectangular",
-            "Triangular"
+            "Two cubits long, one cubit broad, one cubit high",
+            "One cubit long, two cubits broad, one cubit high",
+            "Two cubits long, one cubit broad, one and a half cubits high",
+            "One and a half cubits long, one cubit broad, two cubits high"
           ],
-          "correctAnswer": "Foursquare",
-          "explanation": "Exodus 37:25 describes the incense altar as foursquare.",
-          "verseReference": "Exodus 37:25",
+          "correctAnswer": "Two cubits long, one cubit broad, one and a half cubits high",
+          "explanation": "Exodus 37:10 states the table was two cubits in length, one cubit in breadth, and one and a half cubits in height.",
+          "verseReference": "Exodus 37:10",
           "difficulty": "easy"
         },
         {
           "id": "exodus-37-easy-q13",
-          "question": "What covered the incense altar according to Exodus 37:26?",
+          "question": "In Exodus 37, which instruction comes before all the others listed here?",
           "type": "multiple-choice",
           "options": [
-            "Pure silver",
-            "Pure gold",
-            "Bronze",
-            "Shittim wood"
+            "Making the mercy seat of pure gold",
+            "Casting four rings of gold for the ark",
+            "Making the ark of shittim wood",
+            "Making two cherubims of gold"
           ],
-          "correctAnswer": "Pure gold",
-          "explanation": "Exodus 37:26 says the incense altar was overlaid with pure gold on all sides, top, and horns.",
-          "verseReference": "Exodus 37:26",
+          "correctAnswer": "Making the ark of shittim wood",
+          "explanation": "Exodus 37:1 describes making the ark first before the other items mentioned later in the chapter.",
+          "verseReference": "Exodus 37:1",
           "difficulty": "easy"
         },
         {
           "id": "exodus-37-easy-q14",
-          "question": "True or False: The staves for the incense altar were made of shittim wood overlaid with gold.",
+          "question": "True or False: The cherubims spread their wings over the mercy seat.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Exodus 37:28 confirms the staves were made of shittim wood and overlaid with gold.",
-          "verseReference": "Exodus 37:28",
+          "explanation": "Exodus 37:9 says the cherubims spread out their wings on high and covered the mercy seat.",
+          "verseReference": "Exodus 37:9",
           "difficulty": "easy"
         },
         {
           "id": "exodus-37-easy-q15",
-          "question": "According to Exodus 37:29, what two sacred items were made after the altar work?",
+          "question": "What did Bezaleel make to go into the rings by the sides of the ark?",
           "type": "multiple-choice",
           "options": [
-            "Holy anointing oil and pure incense",
-            "Golden lamp and holy bread",
-            "Bronze altar and holy water",
-            "Sacred garments and holy oil"
+            "Curtains",
+            "Staves of shittim wood overlaid with gold",
+            "Chains of gold",
+            "Ropes of flax"
           ],
-          "correctAnswer": "Holy anointing oil and pure incense",
-          "explanation": "Exodus 37:29 states the holy anointing oil and pure incense of sweet spices were made according to the apothecary’s work.",
-          "verseReference": "Exodus 37:29",
+          "correctAnswer": "Staves of shittim wood overlaid with gold",
+          "explanation": "Exodus 37:4 and 37:5 describe the staves of shittim wood overlaid with gold put into the rings to bear the ark.",
+          "verseReference": "Exodus 37:4",
           "difficulty": "easy"
         }
       ],
@@ -254,223 +252,223 @@
       "questions": [
         {
           "id": "exodus-37-medium-q1",
-          "question": "How does Exodus 37 teach us about the importance of faithfulness and integrity in work?",
+          "question": "What material was the table made from before being overlaid with pure gold?",
           "type": "multiple-choice",
           "options": [
-            "Bezalel made every item with precision and pure materials as God commanded",
-            "Bezalel worked quickly without attention to detail",
-            "Bezalel refused to make the items because they were too difficult",
-            "Bezalel used cheap materials to finish the work faster"
+            "Shittim wood",
+            "Cedar wood",
+            "Olive wood",
+            "Acacia wood"
           ],
-          "correctAnswer": "Bezalel made every item with precision and pure materials as God commanded",
-          "explanation": "Exodus 37:1-29 describes how Bezalel made the Ark, table, candlestick, and altar with exact measurements and pure gold, showing faithfulness and integrity in his work. Verses 37:2, 37:6, and 37:17 emphasize the pure gold and careful craftsmanship.",
-          "verseReference": "Exodus 37:1",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-37-medium-q2",
-          "question": "A fellow believer is struggling to maintain personal devotion and prayer discipline. What can you share from Exodus 37 about consistency in spiritual work?",
-          "type": "multiple-choice",
-          "options": [
-            "The detailed and repeated crafting of sacred items shows the value of steady, devoted labor",
-            "Spiritual work should be rushed to see quick results",
-            "Only leaders need to be devoted to spiritual practices",
-            "Physical work is more important than spiritual work"
-          ],
-          "correctAnswer": "The detailed and repeated crafting of sacred items shows the value of steady, devoted labor",
-          "explanation": "The chapter shows Bezalel carefully crafting multiple sacred objects (Exodus 37:1-29), highlighting the importance of ongoing, steady devotion and discipline in serving God.",
+          "correctAnswer": "Shittim wood",
+          "explanation": "Exodus 37:10 states the table was made of shittim wood, which was then overlaid with pure gold as described in Exodus 37:11.",
           "verseReference": "Exodus 37:10",
           "difficulty": "medium"
         },
         {
-          "id": "exodus-37-medium-q3",
-          "question": "How does Exodus 37 teach us about humility and contentment in service to God?",
+          "id": "exodus-37-medium-q2",
+          "question": "How wide was the border made around the table according to Exodus 37?",
           "type": "multiple-choice",
           "options": [
-            "Bezalel served quietly by faithfully fulfilling God’s detailed instructions",
-            "Bezalel boasted about his craftsmanship in front of others",
-            "Bezalel altered God’s instructions to showcase his creativity",
-            "Bezalel demanded special recognition for his work"
+            "An handbreadth",
+            "A cubit",
+            "A span",
+            "A palm's breadth"
           ],
-          "correctAnswer": "Bezalel served quietly by faithfully fulfilling God’s detailed instructions",
-          "explanation": "Bezalel’s obedience to God’s commands without deviation or boasting reflects humility and contentment in serving God (Exodus 37:1-9, 37:23-24).",
-          "verseReference": "Exodus 37:7",
+          "correctAnswer": "An handbreadth",
+          "explanation": "Exodus 37:12 specifies the border around the table was an handbreadth wide, with a crown of gold around it.",
+          "verseReference": "Exodus 37:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-37-medium-q3",
+          "question": "Where were the four rings of gold placed on the table?",
+          "type": "multiple-choice",
+          "options": [
+            "On the four corners of the four feet",
+            "On the top surface",
+            "Around the border",
+            "Underneath the table"
+          ],
+          "correctAnswer": "On the four corners of the four feet",
+          "explanation": "Exodus 37:13 explains that four rings of gold were cast and put upon the four corners that were in the four feet of the table.",
+          "verseReference": "Exodus 37:13",
           "difficulty": "medium"
         },
         {
           "id": "exodus-37-medium-q4",
-          "question": "A family member is discouraged in their role at church service. Based on this chapter, what biblical truth about serving others can you encourage them with?",
+          "question": "What was the purpose of the rings placed on the table according to Exodus 37?",
           "type": "multiple-choice",
           "options": [
-            "Serving God requires careful, skillful work that honors Him, no matter the role",
-            "Only large tasks are valuable in serving God",
-            "Service should only be done when recognized by others",
-            "Serving others is less important than personal comfort"
+            "To hold the staves for bearing the table",
+            "To hang sacred garments",
+            "To attach curtains",
+            "To decorate the table"
           ],
-          "correctAnswer": "Serving God requires careful, skillful work that honors Him, no matter the role",
-          "explanation": "Bezalel’s detailed work in making sacred objects (Exodus 37:1-29) teaches that all service, done skillfully and faithfully, honors God and is valuable.",
-          "verseReference": "Exodus 37:16",
+          "correctAnswer": "To hold the staves for bearing the table",
+          "explanation": "Exodus 37:14 states the rings were places for the staves to bear the table, allowing it to be carried.",
+          "verseReference": "Exodus 37:14",
           "difficulty": "medium"
         },
         {
           "id": "exodus-37-medium-q5",
-          "question": "How does the craftsmanship in Exodus 37 encourage believers to persevere through difficult tasks in obedience to God?",
+          "question": "What material were the staves made of to bear the table?",
           "type": "multiple-choice",
           "options": [
-            "The meticulous work on the Ark and furnishings shows perseverance in fulfilling God’s commands",
-            "God prefers quick and easy work over careful obedience",
-            "It is acceptable to give up on difficult tasks",
-            "Obedience is only required when tasks are easy"
+            "Shittim wood overlaid with gold",
+            "Cedar wood",
+            "Iron",
+            "Bronze"
           ],
-          "correctAnswer": "The meticulous work on the Ark and furnishings shows perseverance in fulfilling God’s commands",
-          "explanation": "The chapter describes detailed, patient workmanship (Exodus 37:1-29), demonstrating perseverance and obedience even when tasks are complex.",
-          "verseReference": "Exodus 37:18",
+          "correctAnswer": "Shittim wood overlaid with gold",
+          "explanation": "Exodus 37:15 describes the staves as made of shittim wood and overlaid with gold to bear the table.",
+          "verseReference": "Exodus 37:15",
           "difficulty": "medium"
         },
         {
           "id": "exodus-37-medium-q6",
-          "question": "A believer is struggling with generosity and stewardship. What example from Exodus 37 can you share about giving God our best?",
+          "question": "Which of the following vessels was NOT mentioned as being made of pure gold and placed upon the table?",
           "type": "multiple-choice",
           "options": [
-            "Bezalel used pure gold and costly materials to make the holy objects",
-            "Bezalel used leftover or cheap materials",
-            "God accepts only partial offerings",
-            "Stewardship is unrelated to the quality of gifts"
+            "Bowls",
+            "Dishes",
+            "Spoons",
+            "Cups"
           ],
-          "correctAnswer": "Bezalel used pure gold and costly materials to make the holy objects",
-          "explanation": "Exodus 37 emphasizes the use of pure gold (verses 37:2, 37:6, 37:17, 37:26) showing that believers should give their best to God as an act of worship and stewardship.",
-          "verseReference": "Exodus 37:2",
+          "correctAnswer": "Cups",
+          "explanation": "Exodus 37:16 lists dishes, spoons, bowls, and covers, but does not mention cups.",
+          "verseReference": "Exodus 37:16",
           "difficulty": "medium"
         },
         {
           "id": "exodus-37-medium-q7",
-          "question": "How does Exodus 37 teach about the importance of obedience to God’s instructions in church life and fellowship?",
+          "question": "How was the candlestick made according to Exodus 37:17?",
           "type": "multiple-choice",
           "options": [
-            "Bezalel strictly followed God’s specific measurements and designs for each item",
-            "Bezalel ignored God’s instructions and made his own designs",
-            "The designs were not important as long as the work was done quickly",
-            "Obedience is optional in church service"
+            "Of beaten work of pure gold",
+            "Carved from olive wood",
+            "Made of silver and gold",
+            "Constructed from brass"
           ],
-          "correctAnswer": "Bezalel strictly followed God’s specific measurements and designs for each item",
-          "explanation": "The chapter details exact measurements and materials (Exodus 37:1, 37:6, 37:10, 37:25), showing that obedience in church life means following God’s guidance carefully.",
-          "verseReference": "Exodus 37:6",
+          "correctAnswer": "Of beaten work of pure gold",
+          "explanation": "Exodus 37:17 states the candlestick was made of beaten work of pure gold including all its parts.",
+          "verseReference": "Exodus 37:17",
           "difficulty": "medium"
         },
         {
           "id": "exodus-37-medium-q8",
-          "question": "True or False: Bezalel made the mercy seat and the cherubim as one piece of gold according to Exodus 37.",
-          "type": "true-false",
+          "question": "How many branches did the candlestick have, and how were they arranged?",
+          "type": "multiple-choice",
           "options": [
-            "True",
-            "False"
+            "Six branches, three on each side",
+            "Seven branches, all on one side",
+            "Five branches, arranged circularly",
+            "Four branches, two on each side"
           ],
-          "correctAnswer": "True",
-          "explanation": "Exodus 37:7 states that Bezalel made the two cherubim of gold beaten out of one piece, attached to the mercy seat, demonstrating skill and dedication.",
-          "verseReference": "Exodus 37:7",
+          "correctAnswer": "Six branches, three on each side",
+          "explanation": "Exodus 37:18 describes the candlestick as having six branches, three out of one side and three out of the other side.",
+          "verseReference": "Exodus 37:18",
           "difficulty": "medium"
         },
         {
           "id": "exodus-37-medium-q9",
-          "question": "True or False: The altar of incense was made only of wood without any gold overlay according to Exodus 37.",
+          "question": "What was the design of the bowls on the branches of the candlestick?",
+          "type": "multiple-choice",
+          "options": [
+            "Made after the fashion of almonds",
+            "Shaped like grapes",
+            "Rounded like pomegranates",
+            "Carved like lilies"
+          ],
+          "correctAnswer": "Made after the fashion of almonds",
+          "explanation": "Exodus 37:19 states the bowls on the branches were made after the fashion of almonds with knops and flowers.",
+          "verseReference": "Exodus 37:19",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-37-medium-q10",
+          "question": "According to Exodus 37, the cherubims on the mercy seat had their faces turned in which direction?",
+          "type": "multiple-choice",
+          "options": [
+            "Facing one another toward the mercy seat",
+            "Facing outward from the mercy seat",
+            "Facing upward toward heaven",
+            "Facing downward toward the ark"
+          ],
+          "correctAnswer": "Facing one another toward the mercy seat",
+          "explanation": "Exodus 37:9 describes the cherubims as spreading their wings over the mercy seat with their faces one to another and toward the mercy seat.",
+          "verseReference": "Exodus 37:9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-37-medium-q11",
+          "question": "What biblical virtue can be learned from the detailed and careful craftsmanship described in Exodus 37:11-15?",
+          "type": "multiple-choice",
+          "options": [
+            "Faithful obedience and dedication in serving God",
+            "Pride in human achievement",
+            "Seeking personal glory",
+            "Neglecting details for speed"
+          ],
+          "correctAnswer": "Faithful obedience and dedication in serving God",
+          "explanation": "The detailed work in making the table and its accessories (Exodus 37:11-15) reflects faithfulness and dedication to God's instructions, teaching us to serve God with integrity and care.",
+          "verseReference": "Exodus 37:11-15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-37-medium-q12",
+          "question": "How does the description of the candlestick’s almond-shaped bowls and flowers teach us about God’s provision?",
+          "type": "multiple-choice",
+          "options": [
+            "God provides beauty and sustenance abundantly",
+            "God values only strength and power",
+            "God is indifferent to details",
+            "God discourages creativity"
+          ],
+          "correctAnswer": "God provides beauty and sustenance abundantly",
+          "explanation": "The almond-shaped bowls and flowers on the candlestick (Exodus 37:19-20) symbolize life and provision, teaching us that God’s provision is both abundant and beautiful.",
+          "verseReference": "Exodus 37:19-20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-37-medium-q13",
+          "question": "True or False: The staves for the incense altar were made of cedar wood and overlaid with silver.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Exodus 37:25-26 describes the altar of incense as made of shittim wood but overlaid with pure gold, showing honor and respect in God’s service.",
-          "verseReference": "Exodus 37:26",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-37-medium-q10",
-          "question": "Fill in the blank: The table of shittim wood was _____ cubits long according to Exodus 37.",
-          "type": "fill-in-the-blank",
-          "options": [
-            "two",
-            "three",
-            "one",
-            "four"
-          ],
-          "correctAnswer": "two",
-          "explanation": "Exodus 37:10 specifies the table was two cubits in length, demonstrating the importance of precise obedience to God’s instructions.",
-          "verseReference": "Exodus 37:10",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-37-medium-q11",
-          "question": "How does the detailed description of the candlestick in Exodus 37 encourage believers in spiritual discipline?",
-          "type": "multiple-choice",
-          "options": [
-            "The seven lamps and intricate design show continual light and ongoing spiritual vigilance",
-            "The candlestick was simple and unimportant",
-            "God values only the quantity, not the quality of spiritual work",
-            "Discipline is unnecessary if the work looks good"
-          ],
-          "correctAnswer": "The seven lamps and intricate design show continual light and ongoing spiritual vigilance",
-          "explanation": "Exodus 37:17-22 describes the candlestick with seven lamps and almond-shaped bowls symbolizing continuous light, teaching the value of persistent spiritual discipline.",
-          "verseReference": "Exodus 37:17",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-37-medium-q12",
-          "question": "What biblical virtue related to marriage and family life can be drawn from the care given to making the Ark and its furnishings in Exodus 37?",
-          "type": "multiple-choice",
-          "options": [
-            "Faithfulness and attention to detail in responsibilities builds a strong and holy household",
-            "Neglecting responsibilities is acceptable if intentions are good",
-            "Only leaders need to be faithful in their duties",
-            "Family work can be careless if it is done quickly"
-          ],
-          "correctAnswer": "Faithfulness and attention to detail in responsibilities builds a strong and holy household",
-          "explanation": "The careful and faithful work in Exodus 37:1-29 models how diligence and faithfulness in all responsibilities, including family, honor God and build strength.",
-          "verseReference": "Exodus 37:4",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-37-medium-q13",
-          "question": "How does Exodus 37 encourage believers to show love for neighbors through their work and service?",
-          "type": "multiple-choice",
-          "options": [
-            "Serving God with excellence benefits the whole community and honors God",
-            "Work should be done only for personal gain",
-            "Others do not benefit from one’s faithful service",
-            "Love for neighbors is unrelated to work ethic"
-          ],
-          "correctAnswer": "Serving God with excellence benefits the whole community and honors God",
-          "explanation": "The sacred objects made with care (Exodus 37:1-29) were for communal worship, teaching that faithful service honors God and serves the community.",
-          "verseReference": "Exodus 37:5",
+          "explanation": "Exodus 37:28 specifies that the staves of the incense altar were made of shittim wood and overlaid with gold, not cedar wood or silver.",
+          "verseReference": "Exodus 37:28",
           "difficulty": "medium"
         },
         {
           "id": "exodus-37-medium-q14",
-          "question": "What lesson about forgiveness and reconciliation can a believer draw from the unity of the cherubim faces in Exodus 37?",
-          "type": "multiple-choice",
+          "question": "True or False: The incense altar was covered with pure gold on the top, sides, and horns.",
+          "type": "true-false",
           "options": [
-            "The cherubim faced one another, symbolizing harmony and unity in God’s presence",
-            "The cherubim faced away from each other, showing division",
-            "The cherubim were indifferent to each other",
-            "The cherubim represented conflict"
+            "True",
+            "False"
           ],
-          "correctAnswer": "The cherubim faced one another, symbolizing harmony and unity in God’s presence",
-          "explanation": "Exodus 37:9 describes the cherubim with faces toward each other, symbolizing reconciliation and unity important in Christian relationships.",
-          "verseReference": "Exodus 37:9",
+          "correctAnswer": "True",
+          "explanation": "Exodus 37:26 states the altar was overlaid with pure gold on the top, sides, and its horns, demonstrating the holiness and value of the altar.",
+          "verseReference": "Exodus 37:26",
           "difficulty": "medium"
         },
         {
           "id": "exodus-37-medium-q15",
-          "question": "How does the making of holy anointing oil and incense in Exodus 37 teach about personal devotion and prayer?",
+          "question": "What practical lesson about generosity and service can be drawn from Bezaleel making all these sacred items according to God’s instructions?",
           "type": "multiple-choice",
           "options": [
-            "The oil and incense represent ongoing prayer and consecration to God’s service",
-            "They were made only for decoration",
-            "Prayer is optional in devotion",
-            "Incense was used as a substitute for prayer"
+            "Serving God requires willing and skillful generosity",
+            "Only kings can serve God",
+            "Service is optional for believers",
+            "Material wealth is the greatest goal"
           ],
-          "correctAnswer": "The oil and incense represent ongoing prayer and consecration to God’s service",
-          "explanation": "Exodus 37:29 mentions the holy anointing oil and pure incense, symbolizing continual prayer and devotion in worship.",
-          "verseReference": "Exodus 37:29",
+          "correctAnswer": "Serving God requires willing and skillful generosity",
+          "explanation": "Bezaleel’s careful and skillful work (Exodus 37:1-29) shows that serving God involves generous use of talents and resources in humble obedience.",
+          "verseReference": "Exodus 37:1-29",
           "difficulty": "medium"
         }
       ],
@@ -497,7 +495,67 @@
       "questions": [
         {
           "id": "exodus-37-hard-q1",
-          "question": "What material was used for the construction of the ark in Exodus 37, and what is its significance in the ancient Near Eastern context?",
+          "question": "What material were the knops and branches of the candlestick made from according to Exodus 37?",
+          "type": "multiple-choice",
+          "options": [
+            "Pure gold",
+            "Silver",
+            "Bronze",
+            "Shittim wood"
+          ],
+          "correctAnswer": "Pure gold",
+          "explanation": "Exodus 37:22 states that the knops and branches were all one beaten work of pure gold.",
+          "verseReference": "Exodus 37:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-37-hard-q2",
+          "question": "How many lamps did Bezaleel make for the candlestick?",
+          "type": "multiple-choice",
+          "options": [
+            "Seven",
+            "Six",
+            "Five",
+            "Ten"
+          ],
+          "correctAnswer": "Seven",
+          "explanation": "Exodus 37:23 specifies that he made seven lamps for the candlestick.",
+          "verseReference": "Exodus 37:23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-37-hard-q3",
+          "question": "According to Exodus 37, what quantity of pure gold was used to make the candlestick and all its vessels?",
+          "type": "multiple-choice",
+          "options": [
+            "One talent",
+            "Two talents",
+            "Half a talent",
+            "Three talents"
+          ],
+          "correctAnswer": "One talent",
+          "explanation": "Exodus 37:24 records that a talent of pure gold was used for the candlestick and all its vessels.",
+          "verseReference": "Exodus 37:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-37-hard-q4",
+          "question": "What were the dimensions of the incense altar made by Bezaleel?",
+          "type": "multiple-choice",
+          "options": [
+            "One cubit length, one cubit breadth, two cubits height",
+            "Two cubits length, one cubit breadth, one cubit height",
+            "One cubit length, two cubits breadth, one cubit height",
+            "Two cubits length, two cubits breadth, two cubits height"
+          ],
+          "correctAnswer": "One cubit length, one cubit breadth, two cubits height",
+          "explanation": "Exodus 37:25 describes the incense altar as one cubit long, one cubit broad, and two cubits high.",
+          "verseReference": "Exodus 37:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-37-hard-q5",
+          "question": "What wood was used to make the altar of incense?",
           "type": "multiple-choice",
           "options": [
             "Shittim wood",
@@ -506,214 +564,154 @@
             "Olive wood"
           ],
           "correctAnswer": "Shittim wood",
-          "explanation": "Exodus 37:1 states that Bezaleel made the ark of shittim wood. Shittim (acacia) wood was valued for its durability and resistance to decay, fitting for the sacred ark, symbolizing God's enduring covenant.",
-          "verseReference": "Exodus 37:1",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-37-hard-q2",
-          "question": "The mercy seat on the ark in Exodus 37 is made of what material, and what theological typology does it foreshadow in the New Testament?",
-          "type": "multiple-choice",
-          "options": [
-            "Pure gold",
-            "Silver",
-            "Bronze",
-            "Iron"
-          ],
-          "correctAnswer": "Pure gold",
-          "explanation": "Exodus 37:6 describes the mercy seat as made of pure gold. The mercy seat signifies God's presence and atonement, foreshadowing Christ as the ultimate atonement in Hebrews 9:5-12.",
-          "verseReference": "Exodus 37:6",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-37-hard-q3",
-          "question": "How many cherubim were made for the mercy seat, and what is their symbolic role in the iconography of the tabernacle?",
-          "type": "multiple-choice",
-          "options": [
-            "Two cherubim",
-            "One cherub",
-            "Four cherubim",
-            "Three cherubim"
-          ],
-          "correctAnswer": "Two cherubim",
-          "explanation": "Exodus 37:7-8 states that two cherubim were made on the mercy seat's ends. Cherubim symbolize divine guardianship and the throne of God, emphasizing holiness and protection.",
-          "verseReference": "Exodus 37:7",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-37-hard-q4",
-          "question": "What is the significance of the cherubim facing one another with wings spread over the mercy seat in Exodus 37?",
-          "type": "multiple-choice",
-          "options": [
-            "Represents God's throne and presence",
-            "Symbolizes angelic warfare",
-            "Depicts human ancestors",
-            "Indicates tribal boundaries"
-          ],
-          "correctAnswer": "Represents God's throne and presence",
-          "explanation": "Exodus 37:9 describes cherubim with wings covering the mercy seat, facing each other. This imagery reflects the divine throne and God's presence above the ark.",
-          "verseReference": "Exodus 37:9",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-37-hard-q5",
-          "question": "Describe the dimensions of the table made by Bezaleel and identify their symbolic meaning in ancient Israelite worship.",
-          "type": "multiple-choice",
-          "options": [
-            "Two cubits length, one cubit breadth, one and a half cubits height",
-            "Three cubits length, two cubits breadth, two cubits height",
-            "One cubit length, one cubit breadth, one cubit height",
-            "Four cubits length, three cubits breadth, two cubits height"
-          ],
-          "correctAnswer": "Two cubits length, one cubit breadth, one and a half cubits height",
-          "explanation": "Exodus 37:10 gives these specific dimensions. The table held the showbread, representing God's provision and covenant fellowship with Israel.",
-          "verseReference": "Exodus 37:10",
+          "explanation": "Exodus 37:25 clearly states that the altar of incense was made of shittim wood.",
+          "verseReference": "Exodus 37:25",
           "difficulty": "hard"
         },
         {
           "id": "exodus-37-hard-q6",
-          "question": "What literary device is evident in the description of the candlestick's six branches extending from its sides in Exodus 37, and how does it relate to biblical imagery of light?",
+          "question": "What does the Hebrew word 'knop' (knop) used in Exodus 37:19 most closely refer to?",
           "type": "multiple-choice",
           "options": [
-            "Chiasm",
-            "Parallelism",
-            "Typology",
-            "Alliteration"
+            "A decorative bud or knop on the candlestick",
+            "A type of ancient lamp",
+            "A gold ring for carrying the ark",
+            "A carved cherub figure"
           ],
-          "correctAnswer": "Typology",
-          "explanation": "Exodus 37:18-22 describes the candlestick with six branches. This typologically prefigures Christ as the 'light of the world' in John 8:12, illuminating spiritual truth.",
-          "verseReference": "Exodus 37:18",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-37-hard-q7",
-          "question": "What is the significance of the almond-shaped bowls on the candlestick, considering the Hebrew meaning of the almond tree?",
-          "type": "multiple-choice",
-          "options": [
-            "Almond symbolizes vigilance and God's awakening",
-            "Almond represents wealth",
-            "Almond denotes fertility",
-            "Almond indicates strength"
-          ],
-          "correctAnswer": "Almond symbolizes vigilance and God's awakening",
-          "explanation": "Exodus 37:19 mentions almond-shaped bowls. The Hebrew word for almond (shaqed) implies watchfulness, linking to God's watchful care and the lampstand's symbolism.",
+          "correctAnswer": "A decorative bud or knop on the candlestick",
+          "explanation": "The Hebrew word 'knop' refers to a rounded bud-like ornament on the branches of the candlestick as described in Exodus 37:19.",
           "verseReference": "Exodus 37:19",
           "difficulty": "hard"
         },
         {
-          "id": "exodus-37-hard-q8",
-          "question": "True or False: The entire candlestick and its vessels were made from a talent of pure gold, emphasizing the value and sanctity of the object.",
-          "type": "true-false",
+          "id": "exodus-37-hard-q7",
+          "question": "What purpose did the two rings of gold serve on the altar of incense?",
+          "type": "multiple-choice",
           "options": [
-            "True",
-            "False"
+            "To hold the staves for carrying the altar",
+            "To decorate the altar with gold chains",
+            "To hang curtains around the altar",
+            "To attach a golden cover"
           ],
-          "correctAnswer": "True",
-          "explanation": "Exodus 37:24 confirms the candlestick and its vessels were made from a talent of pure gold, signifying holiness and the precious nature of worship utensils.",
-          "verseReference": "Exodus 37:24",
+          "correctAnswer": "To hold the staves for carrying the altar",
+          "explanation": "Exodus 37:27 explains that the two rings of gold were placed for the staves to bear the altar withal.",
+          "verseReference": "Exodus 37:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-37-hard-q8",
+          "question": "What items were made of pure gold for the table according to Exodus 37?",
+          "type": "multiple-choice",
+          "options": [
+            "Dishes, spoons, bowls, and covers",
+            "Only dishes and bowls",
+            "Only spoons and covers",
+            "Cups and pitchers"
+          ],
+          "correctAnswer": "Dishes, spoons, bowls, and covers",
+          "explanation": "Exodus 37:16 states that all these vessels on the table were made of pure gold.",
+          "verseReference": "Exodus 37:16",
           "difficulty": "hard"
         },
         {
           "id": "exodus-37-hard-q9",
-          "question": "What were the dimensions of the incense altar, and what does its squared shape signify in the Israelite cultic context?",
+          "question": "Which New Testament passage echoes the theme of the mercy seat covered by cherubim as God's meeting place with His people?",
           "type": "multiple-choice",
           "options": [
-            "One cubit length, one cubit breadth, two cubits height",
-            "Two cubits length, two cubits breadth, one cubit height",
-            "One cubit length, two cubits breadth, one cubit height",
-            "Two cubits length, one cubit breadth, two cubits height"
+            "Hebrews 9:5",
+            "Romans 8:1",
+            "Matthew 5:23",
+            "Revelation 21:22"
           ],
-          "correctAnswer": "One cubit length, one cubit breadth, two cubits height",
-          "explanation": "Exodus 37:25 describes the altar as square-shaped (foursquare). The square form symbolizes stability and completeness in worship.",
-          "verseReference": "Exodus 37:25",
+          "correctAnswer": "Hebrews 9:5",
+          "explanation": "Hebrews 9:5 refers to the mercy seat and cherubim as the place where God met with the high priest, connecting it typologically to Exodus 37:7-9.",
+          "verseReference": "Exodus 37:7-9",
           "difficulty": "hard"
         },
         {
           "id": "exodus-37-hard-q10",
-          "question": "Fill in the blank: The horns of the incense altar were made of the _________ material as the altar itself.",
+          "question": "How does the construction of the golden candlestick in Exodus 37:17-22 demonstrate the literary device of inclusio?",
           "type": "multiple-choice",
           "options": [
-            "Shittim wood",
-            "Pure gold",
-            "Bronze",
-            "Silver"
+            "By starting and ending with the description of the same material (pure gold)",
+            "By repeating the number seven multiple times",
+            "By using parallelism in the branches and knops",
+            "By contrasting gold and wood materials"
           ],
-          "correctAnswer": "Shittim wood",
-          "explanation": "Exodus 37:25 notes that the horns of the altar were of the same shittim wood as the altar, emphasizing unity in construction and function.",
-          "verseReference": "Exodus 37:25",
+          "correctAnswer": "By starting and ending with the description of the same material (pure gold)",
+          "explanation": "The passage begins and ends emphasizing the candlestick as one beaten work of pure gold, framing the description and creating an inclusio structure.",
+          "verseReference": "Exodus 37:17, 22",
           "difficulty": "hard"
         },
         {
           "id": "exodus-37-hard-q11",
-          "question": "What is the significance of the rings and staves on the altar and other pieces of furniture in this chapter?",
+          "question": "Which Old Testament passage outlines the divine instructions for the tabernacle furniture that Exodus 37 fulfills by its detailed crafting?",
           "type": "multiple-choice",
           "options": [
-            "They allowed the items to be portable for travel",
-            "They were purely decorative",
-            "They symbolized angelic presence",
-            "They represented tribal unity"
+            "Exodus 25",
+            "Leviticus 10",
+            "Numbers 7",
+            "Deuteronomy 12"
           ],
-          "correctAnswer": "They allowed the items to be portable for travel",
-          "explanation": "Verses such as Exodus 37:3-5 and 37:27-28 explain that rings and staves were made for carrying the ark and altar, reflecting the tabernacle's mobility during Israel's wilderness journey.",
-          "verseReference": "Exodus 37:3",
+          "correctAnswer": "Exodus 25",
+          "explanation": "Exodus 37 records the crafting of items that fulfill the instructions given in Exodus 25 for the tabernacle's holy furniture.",
+          "verseReference": "Exodus 37:1-29",
           "difficulty": "hard"
         },
         {
           "id": "exodus-37-hard-q12",
-          "question": "How does the detailed craftsmanship described in Exodus 37 reflect the authorial intent regarding Israel's worship and God's holiness?",
-          "type": "multiple-choice",
-          "options": [
-            "It underscores meticulousness and reverence in divine service",
-            "It highlights Israel’s artistic skills",
-            "It emphasizes wealth accumulation",
-            "It serves as a political statement"
-          ],
-          "correctAnswer": "It underscores meticulousness and reverence in divine service",
-          "explanation": "The chapter's detailed account (Exodus 37) reveals a theological focus on holiness and reverence, showing that worship requires precision and dedication to God.",
-          "verseReference": "Exodus 37:17",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-37-hard-q13",
-          "question": "True or False: The holy anointing oil and pure incense made in Exodus 37 were crafted according to the work of an apothecary, indicating specialized knowledge in sacred rituals.",
+          "question": "True or False: According to Exodus 37, the staves used to carry the ark, table, and altar were made of shittim wood and overlaid with gold.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Exodus 37:29 states the holy anointing oil and incense were made according to an apothecary’s work, showing the importance of expert skill in preparing sacred substances.",
-          "verseReference": "Exodus 37:29",
+          "explanation": "Exodus 37:4-5, 15, and 28 each indicate that the staves for the ark, table, and altar were made of shittim wood and overlaid with gold.",
+          "verseReference": "Exodus 37:4-5, 15, 28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-37-hard-q13",
+          "question": "True or False: The horns on the altar of incense were made of a different material than the altar itself.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Exodus 37:25 states the horns were of the same material and measurement as the altar itself, indicating they were made of shittim wood and covered with gold as in verse 26.",
+          "verseReference": "Exodus 37:25-26",
           "difficulty": "hard"
         },
         {
           "id": "exodus-37-hard-q14",
-          "question": "Which New Testament passage most directly connects with the mercy seat imagery described in Exodus 37?",
+          "question": "What is the significance of Bezaleel making the cherubim from one piece of gold in Exodus 37?",
           "type": "multiple-choice",
           "options": [
-            "Hebrews 9:5",
-            "John 3:16",
-            "Romans 12:1",
-            "Revelation 21:4"
+            "It symbolizes unity and perfection in the divine presence",
+            "It was easier to craft from one piece",
+            "It was cheaper than using multiple pieces",
+            "It was a common artistic practice at the time"
           ],
-          "correctAnswer": "Hebrews 9:5",
-          "explanation": "Hebrews 9:5 references the mercy seat and cherubim, interpreting them as symbols pointing to Christ’s atoning work and heavenly ministry.",
-          "verseReference": "Exodus 37:6-9",
+          "correctAnswer": "It symbolizes unity and perfection in the divine presence",
+          "explanation": "The unity of the cherubim made from one piece (Exodus 37:7) foreshadows the perfect and unified presence of God above the mercy seat.",
+          "verseReference": "Exodus 37:7",
           "difficulty": "hard"
         },
         {
           "id": "exodus-37-hard-q15",
-          "question": "The repeated phrase 'pure gold' in Exodus 37 emphasizes what theological theme prevalent in the tabernacle constructions?",
+          "question": "How does the detailed description of the altar of incense in Exodus 37:25-28 reflect ancient Near Eastern cultural context?",
           "type": "multiple-choice",
           "options": [
-            "Holiness and divine perfection",
-            "Material wealth",
-            "Royal authority",
-            "Cultural identity"
+            "Altars were typically portable with carrying staves for ritual use",
+            "Altars were always made of stone and immovable",
+            "Altars were usually small and unadorned",
+            "Altars were made only for animal sacrifice"
           ],
-          "correctAnswer": "Holiness and divine perfection",
-          "explanation": "The use of pure gold (Exodus 37:2,6,11,17,23) symbolizes God's holiness and the perfection expected in worship, setting the tabernacle apart as sacred space.",
-          "verseReference": "Exodus 37:2",
+          "correctAnswer": "Altars were typically portable with carrying staves for ritual use",
+          "explanation": "The inclusion of rings and staves for carrying (Exodus 37:27-28) reflects the portable nature of tabernacle altars in ancient Near Eastern nomadic cultures.",
+          "verseReference": "Exodus 37:25-28",
           "difficulty": "hard"
         }
       ],
@@ -740,227 +738,227 @@
       "questions": [
         {
           "id": "exodus-37-theological-q1",
-          "question": "What material was used for the construction of the Ark of the Covenant according to Exodus 37?",
+          "question": "What material was used to overlay the Ark of the Covenant made by Bezaleel?",
           "type": "multiple-choice",
           "options": [
-            "Shittim wood",
-            "Acacia wood",
-            "Cedar wood",
-            "Olive wood"
+            "Pure gold",
+            "Silver",
+            "Bronze",
+            "Iron"
           ],
-          "correctAnswer": "Shittim wood",
-          "explanation": "Exodus 37:1 states the ark was made of shittim wood, a durable and sacred wood also referenced in Exodus 25:10 and Hebrews 9:4. This material symbolizes the holiness and permanence of God's covenant.",
-          "verseReference": "Exodus 37:1",
+          "correctAnswer": "Pure gold",
+          "explanation": "Exodus 37:2 states that Bezaleel overlaid the ark with pure gold within and without, demonstrating the sacredness and divine glory associated with the Ark.",
+          "verseReference": "Exodus 37:2",
           "difficulty": "hard"
         },
         {
           "id": "exodus-37-theological-q2",
-          "question": "How was the Ark of the Covenant overlaid according to Exodus 37?",
+          "question": "Which doctrine is illustrated by the cherubim facing each other over the mercy seat?",
           "type": "multiple-choice",
           "options": [
-            "Pure gold inside and outside",
-            "Silver inside only",
-            "Bronze outside only",
-            "Gold plated only on the top"
+            "The doctrine of God's holiness and mercy",
+            "The doctrine of human depravity",
+            "The doctrine of predestination",
+            "The doctrine of baptism"
           ],
-          "correctAnswer": "Pure gold inside and outside",
-          "explanation": "Exodus 37:2 specifies that the Ark was overlaid with pure gold both within and without, reflecting the divine glory and the preciousness of God's presence (cf. Exodus 25:11, 1 Chronicles 28:11-12).",
-          "verseReference": "Exodus 37:2",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-37-theological-q3",
-          "question": "What was the purpose of the four gold rings cast for the Ark?",
-          "type": "multiple-choice",
-          "options": [
-            "To hold the carrying staves",
-            "To decorate the Ark",
-            "To secure the mercy seat",
-            "To fasten the cover"
-          ],
-          "correctAnswer": "To hold the carrying staves",
-          "explanation": "Exodus 37:3-5 explain that the four gold rings were set at the corners to hold the staves for carrying, symbolizing God's instruction for holy transportation of His presence (cf. Numbers 7:9, Hebrews 9:4).",
-          "verseReference": "Exodus 37:3",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-37-theological-q4",
-          "question": "What are the cherubim on the mercy seat described as doing in Exodus 37?",
-          "type": "multiple-choice",
-          "options": [
-            "Spreading their wings over the mercy seat",
-            "Standing beside the Ark",
-            "Flying above the tabernacle",
-            "Facing outward from the Ark"
-          ],
-          "correctAnswer": "Spreading their wings over the mercy seat",
-          "explanation": "Exodus 37:9 says the cherubim spread their wings over the mercy seat with their faces toward each other and the mercy seat, symbolizing divine protection and the throne of God (cf. 1 Kings 6:23-28, Psalm 80:1).",
+          "correctAnswer": "The doctrine of God's holiness and mercy",
+          "explanation": "Exodus 37:9 describes the cherubim spreading their wings over the mercy seat with their faces toward each other, symbolizing both God's holiness and His mercy meeting at the atonement cover, which teaches the reconciliation between God and humanity (cf. Hebrews 9:5).",
           "verseReference": "Exodus 37:9",
           "difficulty": "hard"
         },
         {
-          "id": "exodus-37-theological-q5",
-          "question": "What dimensions are given for the table made of shittim wood in Exodus 37?",
+          "id": "exodus-37-theological-q3",
+          "question": "What is significant about the staves made of shittim wood and overlaid with gold for the Ark?",
           "type": "multiple-choice",
           "options": [
-            "Two cubits long, one cubit wide, one and a half cubits high",
-            "Three cubits long, two cubits wide, two cubits high",
-            "One cubit long, one cubit wide, two cubits high",
-            "Two cubits long, two cubits wide, one cubit high"
+            "They symbolize the means by which the holy presence is carried among the people",
+            "They represent human strength apart from God",
+            "They are decorative and hold no symbolic meaning",
+            "They signify the unity of the tribes"
           ],
-          "correctAnswer": "Two cubits long, one cubit wide, one and a half cubits high",
-          "explanation": "Exodus 37:10 provides these exact dimensions, reflecting precise divine instructions for the table of shewbread, symbolizing God's provision and presence (cf. Leviticus 24:5-6, Hebrews 9:2).",
-          "verseReference": "Exodus 37:10",
+          "correctAnswer": "They symbolize the means by which the holy presence is carried among the people",
+          "explanation": "Exodus 37:4-5 explains that the staves were made of shittim wood and overlaid with gold to carry the Ark, symbolizing God's presence being transported among His people, indicating both God's holiness and accessibility.",
+          "verseReference": "Exodus 37:4-5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-37-theological-q4",
+          "question": "According to Exodus 37:10-12, what does the golden crown and border around the table represent doctrinally?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s sovereignty and the sanctity of the covenant provision",
+            "The corruption of man’s heart",
+            "The priesthood’s authority over Israel",
+            "The transience of earthly things"
+          ],
+          "correctAnswer": "God’s sovereignty and the sanctity of the covenant provision",
+          "explanation": "The golden crown and border around the table (Exodus 37:11-12) signify God’s sovereign rule and the sacredness of the covenantal bread placed upon the table, pointing to God’s provision and covenant faithfulness (cf. Matthew 26:26-29).",
+          "verseReference": "Exodus 37:11-12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-37-theological-q5",
+          "question": "What theological insight about worship is taught by the description of the pure gold candlestick of beaten work?",
+          "type": "multiple-choice",
+          "options": [
+            "Worship must be crafted with purity and unity reflecting God's glory",
+            "Worship is secondary to legalistic observance",
+            "Only priests can approach God in worship",
+            "Worship is based on ritual without spiritual significance"
+          ],
+          "correctAnswer": "Worship must be crafted with purity and unity reflecting God's glory",
+          "explanation": "Exodus 37:17-22 describes the candlestick made as one beaten work of pure gold, symbolizing that true worship must be pure, unified, and reflect the glory of God, highlighting sanctification and divine beauty in worship.",
+          "verseReference": "Exodus 37:17-22",
           "difficulty": "hard"
         },
         {
           "id": "exodus-37-theological-q6",
-          "question": "What characteristic of the candlestick's construction emphasizes the unity and perfection of God's work?",
+          "question": "What attribute of God is especially highlighted by the meticulous craftsmanship of the altar of incense?",
           "type": "multiple-choice",
           "options": [
-            "It was made of one beaten piece of pure gold",
-            "It was assembled from multiple pieces",
-            "It was carved from olive wood",
-            "It had silver inlays"
+            "God’s holiness and desire for pure worship",
+            "God’s wrath against sin",
+            "God’s omnipresence",
+            "God’s mercy alone"
           ],
-          "correctAnswer": "It was made of one beaten piece of pure gold",
-          "explanation": "Exodus 37:22 states the candlestick and its parts were of one beaten work of pure gold, symbolizing God's indivisible nature and perfect craftsmanship (cf. Zechariah 4:2-3, Revelation 1:12-13).",
-          "verseReference": "Exodus 37:22",
+          "correctAnswer": "God’s holiness and desire for pure worship",
+          "explanation": "Exodus 37:25-27 shows the altar of incense made from shittim wood and overlaid with gold, emphasizing God's holiness and His demand for pure and reverent worship, as incense symbolizes prayers ascending to God (cf. Revelation 8:3-4).",
+          "verseReference": "Exodus 37:25-27",
           "difficulty": "hard"
         },
         {
           "id": "exodus-37-theological-q7",
-          "question": "How many branches did the golden candlestick have, and what might this number symbolize?",
+          "question": "How does the unity of the candlestick’s branches and knops in one beaten work reflect the doctrine of the Church?",
           "type": "multiple-choice",
           "options": [
-            "Six branches, symbolizing completeness",
-            "Seven branches, symbolizing perfection and the Spirit",
-            "Three branches, symbolizing the Trinity",
-            "Twelve branches, symbolizing the tribes of Israel"
+            "It symbolizes the unity and diversity within the body of Christ",
+            "It shows the isolation of individual believers",
+            "It teaches that ritual objects have no meaning",
+            "It represents division among Israel's tribes"
           ],
-          "correctAnswer": "Six branches, symbolizing completeness",
-          "explanation": "Exodus 37:18 describes six branches, three on each side, plus the central shaft, making seven lamps total. The number seven often symbolizes divine perfection and the fullness of the Spirit (cf. Revelation 1:12-13, 4:5).",
-          "verseReference": "Exodus 37:18",
+          "correctAnswer": "It symbolizes the unity and diversity within the body of Christ",
+          "explanation": "Exodus 37:22 explains that the candlestick and its branches were all one beaten work of pure gold, symbolizing the unity and diversity within God's people, foreshadowing the Church’s unity in Christ (cf. 1 Corinthians 12:12-27).",
+          "verseReference": "Exodus 37:22",
           "difficulty": "hard"
         },
         {
           "id": "exodus-37-theological-q8",
-          "question": "What unique design element is described for the bowls on the branches of the candlestick?",
+          "question": "What combined doctrinal truth do Exodus 37:6 and Exodus 37:26 teach about God’s presence and holiness?",
           "type": "multiple-choice",
           "options": [
-            "Made like almonds",
-            "Shaped as lilies",
-            "Carved as pomegranates",
-            "Formed as grapes"
+            "God’s presence is both majestic and accessible through sanctified means",
+            "God is distant and unknowable",
+            "God’s presence is only symbolic and not real",
+            "God’s presence depends on human merit"
           ],
-          "correctAnswer": "Made like almonds",
-          "explanation": "Exodus 37:19 describes the bowls as made after the fashion of almonds, which symbolize watchfulness and promise (cf. Jeremiah 1:11-12, Ecclesiastes 12:5).",
-          "verseReference": "Exodus 37:19",
+          "correctAnswer": "God’s presence is both majestic and accessible through sanctified means",
+          "explanation": "Exodus 37:6 describes the mercy seat of pure gold, and Exodus 37:26 speaks of the altar overlaid with gold and crowned, together teaching that God’s presence is majestic (pure gold) yet made accessible through sanctified objects representing atonement and worship.",
+          "verseReference": "Exodus 37:6; 37:26",
           "difficulty": "hard"
         },
         {
           "id": "exodus-37-theological-q9",
-          "question": "According to Exodus 37, what was the material and dimensions of the incense altar?",
+          "question": "What theological significance does the use of shittim wood combined with gold in the tabernacle furniture reveal?",
           "type": "multiple-choice",
           "options": [
-            "Shittim wood, one cubit square, two cubits high",
-            "Gold, two cubits square, three cubits high",
-            "Bronze, one cubit square, one cubit high",
-            "Silver, two cubits square, two cubits high"
+            "The combination signifies the union of humanity and divinity",
+            "It indicates the imperfection of the holy objects",
+            "It shows that wood is more valuable than gold",
+            "It represents the earthly nature of the tabernacle only"
           ],
-          "correctAnswer": "Shittim wood, one cubit square, two cubits high",
-          "explanation": "Exodus 37:25 gives the incense altar's dimensions and material, emphasizing its holy use for aroma pleasing to God (cf. Exodus 30:1-10, Revelation 8:3-4).",
-          "verseReference": "Exodus 37:25",
+          "correctAnswer": "The combination signifies the union of humanity and divinity",
+          "explanation": "The repeated use of shittim wood overlaid with gold (e.g., Exodus 37:1, 4, 15, 25, 28) typologically points to the union of humanity (wood) and divine holiness (gold), prefiguring Christ’s incarnation as fully human and fully divine.",
+          "verseReference": "Exodus 37:1,4,15,25,28",
           "difficulty": "hard"
         },
         {
           "id": "exodus-37-theological-q10",
-          "question": "What is the significance of the 'horns' on the incense altar as described in Exodus 37?",
+          "question": "How do the seven lamps of the candlestick illustrate a Christological truth?",
           "type": "multiple-choice",
           "options": [
-            "They represent strength and power",
-            "They are purely decorative",
-            "They were used to hang garments",
-            "They symbolized the four corners of the earth"
+            "They symbolize the fullness of the Spirit as seen in Christ",
+            "They represent seven different gods",
+            "They signify an Old Testament ritual with no New Testament relevance",
+            "They reflect the seven days of creation only"
           ],
-          "correctAnswer": "They represent strength and power",
-          "explanation": "Exodus 37:25-26 mentions the horns on the altar, which in biblical symbolism represent strength, protection, and refuge (cf. Psalms 18:2, 2 Samuel 22:3, Leviticus 4:7).",
-          "verseReference": "Exodus 37:25",
+          "correctAnswer": "They symbolize the fullness of the Spirit as seen in Christ",
+          "explanation": "Exodus 37:23 mentions seven lamps on the candlestick; this number symbolically represents spiritual perfection and fullness, which in Christian theology is fulfilled in Christ who is the Spirit-filled Light of the world (cf. Isaiah 11:2; Revelation 1:4).",
+          "verseReference": "Exodus 37:23",
           "difficulty": "hard"
         },
         {
           "id": "exodus-37-theological-q11",
-          "question": "What was used to bear the incense altar, and how does this relate to God's presence among His people?",
+          "question": "Which attribute of God is revealed by the precise measures given for the Ark and its components?",
           "type": "multiple-choice",
           "options": [
-            "Staves of shittim wood overlaid with gold",
-            "Silver chains",
-            "Bronze poles",
-            "Gold rods without wood"
+            "God’s orderliness and faithfulness in covenant",
+            "God’s indifference to human details",
+            "God’s wrathfulness",
+            "God’s impatience"
           ],
-          "correctAnswer": "Staves of shittim wood overlaid with gold",
-          "explanation": "Exodus 37:27-28 shows the altar was designed to be carried by staves of shittim wood overlaid with gold, symbolizing that God's presence moves with His people (cf. Numbers 4:16, Hebrews 9:4).",
-          "verseReference": "Exodus 37:27",
+          "correctAnswer": "God’s orderliness and faithfulness in covenant",
+          "explanation": "The detailed measurements of the Ark (Exodus 37:1, 6) reflect God's attribute of divine order and faithfulness to His covenant, teaching that God’s holiness is orderly and exact, requiring reverence and precision.",
+          "verseReference": "Exodus 37:1, 6",
           "difficulty": "hard"
         },
         {
           "id": "exodus-37-theological-q12",
-          "question": "What is the theological significance of the 'mercy seat' made of pure gold on the Ark?",
+          "question": "What narrative arc connection does the incense altar (Exodus 37:25-27) have with the overarching redemptive story?",
           "type": "multiple-choice",
           "options": [
-            "It represents God's throne of grace",
-            "It is a mere decorative cover",
-            "It was used as a table",
-            "It symbolized the temple's foundation"
+            "It prefigures Christ's intercessory role as mediator",
+            "It foreshadows the Mosaic law only",
+            "It symbolizes Israel’s military power",
+            "It represents the earthly temple exclusively"
           ],
-          "correctAnswer": "It represents God's throne of grace",
-          "explanation": "Exodus 37:6-9 describe the mercy seat with cherubim, the place where God’s presence dwells and atonement is made, prefiguring Christ as the mercy seat and intercessor (cf. Romans 3:25, Hebrews 9:5, John 1:14).",
-          "verseReference": "Exodus 37:6",
+          "correctAnswer": "It prefigures Christ's intercessory role as mediator",
+          "explanation": "The altar of incense (Exodus 37:25-27) where prayers ascend symbolizes Christ’s ongoing intercessory ministry for believers before God’s throne (cf. Hebrews 7:25; Revelation 8:3-4), connecting the tabernacle worship to the redemptive work of Jesus.",
+          "verseReference": "Exodus 37:25-27",
           "difficulty": "hard"
         },
         {
           "id": "exodus-37-theological-q13",
-          "question": "According to Exodus 37, what objects were made for the table of showbread, and what do they symbolize?",
+          "question": "What synthesis of doctrine is taught by combining Exodus 37:13-15 and Exodus 37:27-28 about the transportation of holy objects?",
           "type": "multiple-choice",
           "options": [
-            "Dishes, spoons, bowls, and covers of pure gold",
-            "Silver plates and cups",
-            "Bronze bowls and knives",
-            "Wooden plates and spoons"
+            "God’s provision for holiness to be carried by His people signifies sanctification and priestly mediation",
+            "The objects were cumbersome and impractical",
+            "The transportation shows human merit is necessary for salvation",
+            "The rings and staves were merely decorative"
           ],
-          "correctAnswer": "Dishes, spoons, bowls, and covers of pure gold",
-          "explanation": "Exodus 37:16 lists these vessels made of pure gold, signifying the sanctity and divine provision represented by the showbread (cf. Leviticus 24:5-9, Matthew 26:26-29).",
-          "verseReference": "Exodus 37:16",
+          "correctAnswer": "God’s provision for holiness to be carried by His people signifies sanctification and priestly mediation",
+          "explanation": "Exodus 37:13-15 and 37:27-28 describe rings and staves made for carrying the table and altar, showing that God provided means for His holy presence to be borne by His people, illustrating the doctrine of sanctification and priestly mediation.",
+          "verseReference": "Exodus 37:13-15; 37:27-28",
           "difficulty": "hard"
         },
         {
           "id": "exodus-37-theological-q14",
-          "question": "What does the use of pure gold in all the vessels and furniture of the tabernacle express about God's nature?",
+          "question": "Sceptics claim that the detailed craftsmanship instructions in Exodus 37 promote legalism rather than true faith. What does Exodus 37 actually teach about the relationship between divine holiness and human obedience?",
           "type": "multiple-choice",
           "options": [
-            "His holiness, purity, and divine glory",
-            "His wrath and judgment",
-            "His humanity and weakness",
-            "His invisibility and mystery"
+            "The detailed instructions reveal reverence for God’s holiness and the necessity of obedient worship",
+            "The chapter promotes ritual over relationship",
+            "The craftsmanship is only cultural and irrelevant spiritually",
+            "God accepts any form of worship regardless of obedience"
           ],
-          "correctAnswer": "His holiness, purity, and divine glory",
-          "explanation": "Throughout Exodus 37 (verses 2, 11, 17, 23, 26), the overlaying with pure gold symbolizes God's absolute holiness, purity, and glory (cf. Revelation 21:18-21, Psalm 24:3-4, Isaiah 6:1-3).",
-          "verseReference": "Exodus 37:2",
+          "correctAnswer": "The detailed instructions reveal reverence for God’s holiness and the necessity of obedient worship",
+          "explanation": "Exodus 37’s detailed craftsmanship (e.g., 37:1-29) shows that God’s holiness requires reverent and obedient worship, not legalism for its own sake, emphasizing that true faith expresses itself in careful obedience (cf. Romans 12:1).",
+          "verseReference": "Exodus 37:1-29",
           "difficulty": "hard"
         },
         {
           "id": "exodus-37-theological-q15",
-          "question": "What does the detailed craftsmanship and precise measurements of the tabernacle furniture in Exodus 37 reveal about God’s covenantal relationship with His people?",
+          "question": "What doctrinal truth about sanctification is taught by the use of pure gold and shittim wood together in the tabernacle items?",
           "type": "multiple-choice",
           "options": [
-            "God’s desire for order, holiness, and intimate fellowship",
-            "God’s indifference to material things",
-            "God’s focus on external appearances",
-            "God’s allowance for human improvisation"
+            "Sanctification involves the transformation of the natural by the divine",
+            "Sanctification is only external ritual",
+            "Sanctification depends on human achievement alone",
+            "Sanctification rejects earthly materials"
           ],
-          "correctAnswer": "God’s desire for order, holiness, and intimate fellowship",
-          "explanation": "The meticulous details in Exodus 37 highlight God's holiness and the sacredness of His dwelling among His people, reflecting His covenantal desire for order and communion (cf. Exodus 25:8-9, 1 Corinthians 3:16, Hebrews 10:19-22).",
-          "verseReference": "Exodus 37:10",
+          "correctAnswer": "Sanctification involves the transformation of the natural by the divine",
+          "explanation": "The combination of shittim wood (natural) and pure gold (divine) in Exodus 37 (e.g., verses 1,4,15) teaches that sanctification is the divine transformation of the natural human condition, making it holy and acceptable before God.",
+          "verseReference": "Exodus 37:1,4,15",
           "difficulty": "hard"
         }
       ],

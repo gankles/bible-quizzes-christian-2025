@@ -13,221 +13,174 @@
       "questions": [
         {
           "id": "daniel-11-easy-q1",
-          "question": "Who stood to confirm and strengthen Darius the Mede according to Daniel 11:1?",
+          "question": "Who stood to confirm and strengthen Darius the Mede in the first year of his reign?",
           "type": "multiple-choice",
           "options": [
+            "Michael",
             "Daniel",
-            "Nebuchadnezzar",
-            "Darius",
-            "Cyrus"
+            "Ezra",
+            "Nehemiah"
           ],
           "correctAnswer": "Daniel",
-          "explanation": "Daniel himself stood to confirm and strengthen Darius the Mede as stated in Daniel 11:1.",
+          "explanation": "Daniel stood to confirm and strengthen Darius the Mede as stated in Daniel 11:1.",
           "verseReference": "Daniel 11:1",
           "difficulty": "easy"
         },
         {
           "id": "daniel-11-easy-q2",
-          "question": "How many kings shall stand up in Persia according to Daniel 11:2?",
-          "type": "multiple-choice",
+          "question": "True or False: The fourth king of Persia will be far richer than the previous three.",
+          "type": "true-false",
           "options": [
-            "Three",
-            "Four",
-            "Five",
-            "Two"
+            "True",
+            "False"
           ],
-          "correctAnswer": "Three",
-          "explanation": "Daniel 11:2 says that yet three kings shall stand up in Persia.",
+          "correctAnswer": "True",
+          "explanation": "Daniel 11:2 indicates that the fourth king of Persia shall be far richer than they all.",
           "verseReference": "Daniel 11:2",
           "difficulty": "easy"
         },
         {
           "id": "daniel-11-easy-q3",
-          "question": "According to Daniel 11:3, what kind of king shall stand up?",
+          "question": "What will happen to the kingdom of the mighty king after he stands up?",
           "type": "multiple-choice",
           "options": [
-            "A weak king",
-            "A mighty king",
-            "A kind king",
-            "A humble king"
+            "It will prosper forever",
+            "It will be broken and divided",
+            "It will unite with Grecia",
+            "It will expand into Egypt"
           ],
-          "correctAnswer": "A mighty king",
-          "explanation": "Daniel 11:3 states that a mighty king shall stand up and rule with great dominion.",
-          "verseReference": "Daniel 11:3",
-          "difficulty": "easy"
-        },
-        {
-          "id": "daniel-11-easy-q4",
-          "question": "What happens to the kingdom of the mighty king mentioned in Daniel 11:4?",
-          "type": "multiple-choice",
-          "options": [
-            "It shall be broken and divided",
-            "It shall grow stronger",
-            "It shall be passed to his posterity",
-            "It shall remain whole"
-          ],
-          "correctAnswer": "It shall be broken and divided",
-          "explanation": "Daniel 11:4 explains that his kingdom shall be broken and divided toward the four winds of heaven.",
+          "correctAnswer": "It will be broken and divided",
+          "explanation": "According to Daniel 11:4, the kingdom shall be broken and divided toward the four winds of heaven.",
           "verseReference": "Daniel 11:4",
           "difficulty": "easy"
         },
         {
-          "id": "daniel-11-easy-q5",
-          "question": "Who is said to be strong in Daniel 11:5?",
-          "type": "multiple-choice",
-          "options": [
-            "The king of the south",
-            "The king of the north",
-            "The king of Persia",
-            "The king of Egypt"
-          ],
-          "correctAnswer": "The king of the south",
-          "explanation": "Daniel 11:5 states that the king of the south shall be strong.",
-          "verseReference": "Daniel 11:5",
-          "difficulty": "easy"
-        },
-        {
-          "id": "daniel-11-easy-q6",
-          "question": "In Daniel 11:6, what is the king's daughter of the south supposed to do?",
-          "type": "multiple-choice",
-          "options": [
-            "Make an agreement with the king of the north",
-            "War against the king of the north",
-            "Flee the kingdom",
-            "Rule the kingdom alone"
-          ],
-          "correctAnswer": "Make an agreement with the king of the north",
-          "explanation": "Daniel 11:6 says the king's daughter of the south shall come to the king of the north to make an agreement.",
-          "verseReference": "Daniel 11:6",
-          "difficulty": "easy"
-        },
-        {
-          "id": "daniel-11-easy-q7",
-          "question": "According to Daniel 11:8, where shall captives be carried?",
-          "type": "multiple-choice",
-          "options": [
-            "Into Egypt",
-            "Into Persia",
-            "Into Greece",
-            "Into Babylon"
-          ],
-          "correctAnswer": "Into Egypt",
-          "explanation": "Daniel 11:8 states captives shall be carried into Egypt along with their gods and precious vessels.",
-          "verseReference": "Daniel 11:8",
-          "difficulty": "easy"
-        },
-        {
-          "id": "daniel-11-easy-q8",
-          "question": "True or False: Daniel 11:11 says the king of the south will fight the king of the north with a great multitude.",
+          "id": "daniel-11-easy-q4",
+          "question": "True or False: The king of the south will have a great dominion.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Daniel 11:11 confirms the king of the south shall come forth and fight the king of the north with a great multitude.",
+          "explanation": "Daniel 11:5 states that the king of the south shall be strong, and his dominion shall be a great dominion.",
+          "verseReference": "Daniel 11:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-11-easy-q5",
+          "question": "What will happen to the king's daughter who comes to make an agreement?",
+          "type": "multiple-choice",
+          "options": [
+            "She will become queen",
+            "She will retain the power of the arm",
+            "She will be given up",
+            "She will conquer the north"
+          ],
+          "correctAnswer": "She will be given up",
+          "explanation": "Daniel 11:6 states that the king's daughter shall not retain the power of the arm and shall be given up.",
+          "verseReference": "Daniel 11:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-11-easy-q6",
+          "question": "Who will stand up out of a branch of the king's daughter's roots?",
+          "type": "multiple-choice",
+          "options": [
+            "A prince",
+            "A mighty king",
+            "A corrupt ruler",
+            "An army commander"
+          ],
+          "correctAnswer": "A mighty king",
+          "explanation": "Daniel 11:7 mentions that one shall stand up in his estate, coming with an army.",
+          "verseReference": "Daniel 11:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-11-easy-q7",
+          "question": "True or False: The king of the south will successfully defeat the king of the north.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Daniel 11:11 indicates that the multitude set forth by the king of the south will be given into his hand.",
           "verseReference": "Daniel 11:11",
           "difficulty": "easy"
         },
         {
-          "id": "daniel-11-easy-q9",
-          "question": "What does Daniel 11:12 say about the king of the south's heart after taking away the multitude?",
+          "id": "daniel-11-easy-q8",
+          "question": "In Daniel 11, which event comes first?",
           "type": "multiple-choice",
           "options": [
-            "It shall be lifted up",
-            "It shall be humbled",
-            "It shall be sorrowful",
-            "It shall be broken"
+            "The king of the north sets forth a multitude",
+            "The king of the south is strong",
+            "Darius the Mede is confirmed by Daniel",
+            "The king's daughter makes an agreement"
           ],
-          "correctAnswer": "It shall be lifted up",
-          "explanation": "Daniel 11:12 says his heart shall be lifted up after taking away the multitude.",
+          "correctAnswer": "Darius the Mede is confirmed by Daniel",
+          "explanation": "Daniel 11 begins with Daniel confirming Darius the Mede, as stated in verse 1.",
+          "verseReference": "Daniel 11:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "daniel-11-easy-q9",
+          "question": "According to Daniel 11:12, how will the king of the south be affected after defeating many?",
+          "type": "multiple-choice",
+          "options": [
+            "He will be strengthened",
+            "His heart shall be lifted up",
+            "He will rejoice greatly",
+            "He will seek peace"
+          ],
+          "correctAnswer": "His heart shall be lifted up",
+          "explanation": "Daniel 11:12 explains that after taking away the multitude, his heart shall be lifted up.",
           "verseReference": "Daniel 11:12",
           "difficulty": "easy"
         },
         {
           "id": "daniel-11-easy-q10",
-          "question": "Who shall rise up according to Daniel 11:21?",
-          "type": "multiple-choice",
+          "question": "True or False: The king of the north will not return after his defeat.",
+          "type": "true-false",
           "options": [
-            "A vile person",
-            "A mighty king",
-            "A faithful prince",
-            "A righteous leader"
+            "True",
+            "False"
           ],
-          "correctAnswer": "A vile person",
-          "explanation": "Daniel 11:21 states that a vile person shall stand up in his estate and obtain the kingdom by flatteries.",
-          "verseReference": "Daniel 11:21",
+          "correctAnswer": "False",
+          "explanation": "Daniel 11:13 states that the king of the north shall return and set forth a greater multitude.",
+          "verseReference": "Daniel 11:13",
           "difficulty": "easy"
         },
         {
           "id": "daniel-11-easy-q11",
-          "question": "True or False: Daniel 11:31 mentions that the daily sacrifice shall be taken away.",
-          "type": "true-false",
+          "question": "What will the vile person do to obtain the kingdom?",
+          "type": "multiple-choice",
           "options": [
-            "True",
-            "False"
+            "He will conquer by force",
+            "He will come in peaceably",
+            "He will inherit it",
+            "He will be given it by the king"
           ],
-          "correctAnswer": "True",
-          "explanation": "Daniel 11:31 says arms shall take away the daily sacrifice and place the abomination that maketh desolate.",
-          "verseReference": "Daniel 11:31",
+          "correctAnswer": "He will come in peaceably",
+          "explanation": "Daniel 11:21 states that the vile person shall come in peaceably to obtain the kingdom by flatteries.",
+          "verseReference": "Daniel 11:21",
           "difficulty": "easy"
         },
         {
           "id": "daniel-11-easy-q12",
-          "question": "According to Daniel 11:33, what will happen to those who understand among the people?",
+          "question": "What will happen to the daily sacrifice according to Daniel 11:31?",
           "type": "multiple-choice",
           "options": [
-            "They shall instruct many",
-            "They shall rule kingdoms",
-            "They shall remain hidden",
-            "They shall be wealthy"
+            "It will increase",
+            "It will be placed back",
+            "It will be taken away",
+            "It will be honored"
           ],
-          "correctAnswer": "They shall instruct many",
-          "explanation": "Daniel 11:33 states those who understand shall instruct many, though many shall fall by sword and captivity.",
-          "verseReference": "Daniel 11:33",
-          "difficulty": "easy"
-        },
-        {
-          "id": "daniel-11-easy-q13",
-          "question": "True or False: Daniel 11:36 says the king shall magnify himself above every god and prosper until the indignation be accomplished.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Daniel 11:36 confirms the king will magnify himself above every god and prosper until the indignation is fulfilled.",
-          "verseReference": "Daniel 11:36",
-          "difficulty": "easy"
-        },
-        {
-          "id": "daniel-11-easy-q14",
-          "question": "Complete the verse from Daniel 11:45: 'And he shall plant the tabernacles of his palace between the seas in the ______ holy mountain;'",
-          "type": "fill-blank",
-          "options": [
-            "glorious",
-            "desolate",
-            "hidden",
-            "mountainous"
-          ],
-          "correctAnswer": "glorious",
-          "explanation": "Daniel 11:45 says he shall plant the tabernacles of his palace between the seas in the glorious holy mountain.",
-          "verseReference": "Daniel 11:45",
-          "difficulty": "easy"
-        },
-        {
-          "id": "daniel-11-easy-q15",
-          "question": "At the time of the end, who shall push at the king of the north according to Daniel 11:40?",
-          "type": "multiple-choice",
-          "options": [
-            "The king of the south",
-            "The king of Persia",
-            "The prince of the covenant",
-            "The king of Egypt"
-          ],
-          "correctAnswer": "The king of the south",
-          "explanation": "Daniel 11:40 states that at the time of the end the king of the south shall push at the king of the north.",
-          "verseReference": "Daniel 11:40",
+          "correctAnswer": "It will be taken away",
+          "explanation": "Daniel 11:31 mentions that they shall take away the daily sacrifice.",
+          "verseReference": "Daniel 11:31",
           "difficulty": "easy"
         }
       ],
@@ -241,7 +194,7 @@
         "bible-quiz",
         "easy"
       ],
-      "totalQuestions": 15,
+      "totalQuestions": 12,
       "estimatedTime": 8
     },
     "medium": {
@@ -254,223 +207,191 @@
       "questions": [
         {
           "id": "daniel-11-medium-q1",
-          "question": "A fellow believer is going through a trial and asks you for counsel. Based on Daniel 11:32-35, what biblical truth would you share about perseverance through trials?",
+          "question": "What will happen to the king who comes against the glorious land according to Daniel 11:16?",
           "type": "multiple-choice",
           "options": [
-            "The faithful will be strengthened and do exploits despite opposition",
-            "Trials are a sign that God has abandoned His people",
-            "Believers will avoid all suffering if they are truly faithful",
-            "Success comes only through worldly power and riches"
+            "He will prosper",
+            "He will be defeated",
+            "He will be overthrown",
+            "He will stand before many"
           ],
-          "correctAnswer": "The faithful will be strengthened and do exploits despite opposition",
-          "explanation": "Daniel 11:32 says those who know God shall be strong and do exploits, and verses 33-35 show that understanding believers will instruct others and be purified through trials until the time of the end.",
-          "verseReference": "Daniel 11:32-35",
+          "correctAnswer": "He will be defeated",
+          "explanation": "Daniel 11:16 indicates that none shall stand before him, which suggests a powerful force against him, implying defeat. The context of this verse is about the king's impending downfall despite his power.",
+          "verseReference": "Daniel 11:16",
           "difficulty": "medium"
         },
         {
           "id": "daniel-11-medium-q2",
-          "question": "How does Daniel 11:36-37 teach us about humility and the danger of pride?",
+          "question": "According to Daniel 11:20, what will happen to the raiser of taxes in the glory of the kingdom?",
           "type": "multiple-choice",
           "options": [
-            "The king exalts himself above every god and speaks against God",
-            "Pride is rewarded with lasting peace and prosperity",
-            "Humility leads to worldly power and riches",
-            "Ignoring God results in blessings"
+            "He will rule for many years",
+            "He will be honored by the people",
+            "He will be destroyed",
+            "He will lead a great army"
           ],
-          "correctAnswer": "The king exalts himself above every god and speaks against God",
-          "explanation": "Daniel 11:36-37 shows the king magnifying himself above all gods and speaking marvellous things against the God of gods, illustrating the danger of pride and self-exaltation contrary to God's will.",
-          "verseReference": "Daniel 11:36-37",
+          "correctAnswer": "He will be destroyed",
+          "explanation": "Daniel 11:20 states that within few days he shall be destroyed, indicating a swift downfall for this ruler despite his position.",
+          "verseReference": "Daniel 11:20",
           "difficulty": "medium"
         },
         {
           "id": "daniel-11-medium-q3",
-          "question": "A believer struggles with forgiveness after being wronged. How does Daniel 11:27 teach about the futility of deceit and the importance of truth?",
+          "question": "What does Daniel 11:21 say about the person who shall stand up in the estate?",
           "type": "multiple-choice",
           "options": [
-            "Lies spoken at one table will not prosper",
-            "Deceit will always lead to lasting success",
-            "Forgiveness is unimportant in conflict",
-            "Deception is a tool for gaining power"
+            "He will be honored",
+            "He will come in peaceably",
+            "He will be a righteous leader",
+            "He will lead an army"
           ],
-          "correctAnswer": "Lies spoken at one table will not prosper",
-          "explanation": "Daniel 11:27 says that although both kings plan mischief and speak lies, their plans will not succeed, teaching that deceit ultimately fails and truth prevails.",
-          "verseReference": "Daniel 11:27",
+          "correctAnswer": "He will come in peaceably",
+          "explanation": "Daniel 11:21 mentions that this vile person will come in peaceably and obtain the kingdom by flatteries, highlighting deceitful tactics for gaining power.",
+          "verseReference": "Daniel 11:21",
           "difficulty": "medium"
         },
         {
           "id": "daniel-11-medium-q4",
-          "question": "Based on Daniel 11:6, what can we learn about the importance of trusting God's sovereignty in alliances and relationships?",
+          "question": "According to Daniel 11:25, what will the king of the south do against the king of the north?",
           "type": "multiple-choice",
           "options": [
-            "Alliances can fail despite human plans, but God's purpose endures",
-            "Trust only in human agreements for security",
-            "Power in relationships is always permanent",
-            "God's plan depends on human strength alone"
+            "He will flee",
+            "He will stir up power and courage",
+            "He will seek peace",
+            "He will form an alliance"
           ],
-          "correctAnswer": "Alliances can fail despite human plans, but God's purpose endures",
-          "explanation": "Daniel 11:6 shows a king's daughter coming to make an agreement, but she and those who supported her are given up, indicating that human alliances may fail but God's sovereign plan continues.",
-          "verseReference": "Daniel 11:6",
+          "correctAnswer": "He will stir up power and courage",
+          "explanation": "Daniel 11:25 states that he shall stir up his power and courage against the king of the south, indicating a readiness for conflict.",
+          "verseReference": "Daniel 11:25",
           "difficulty": "medium"
         },
         {
           "id": "daniel-11-medium-q5",
-          "question": "In the context of Daniel 11:21-24, what does the rise of a vile person who obtains the kingdom peaceably teach about vigilance in spiritual leadership and integrity?",
-          "type": "multiple-choice",
+          "question": "True or False: According to Daniel 11:27, both kings will prosper in their deceitful dealings.",
+          "type": "true-false",
           "options": [
-            "Deceit and flattery can gain power, so believers must discern and remain faithful",
-            "Peaceful means always indicate righteous leadership",
-            "Leadership is not important in spiritual life",
-            "Flattery is a godly way to lead others"
+            "True",
+            "False"
           ],
-          "correctAnswer": "Deceit and flattery can gain power, so believers must discern and remain faithful",
-          "explanation": "Daniel 11:21-24 describes a vile person who comes peaceably and uses flatteries to obtain the kingdom, warning believers to be discerning and faithful despite deceptive leadership.",
-          "verseReference": "Daniel 11:21-24",
+          "correctAnswer": "False",
+          "explanation": "Daniel 11:27 states that their plans will not prosper, indicating that their deceit will ultimately fail.",
+          "verseReference": "Daniel 11:27",
           "difficulty": "medium"
         },
         {
           "id": "daniel-11-medium-q6",
-          "question": "How does Daniel 11:31-32 encourage believers facing temptation to remain steadfast in their faith?",
+          "question": "What does Daniel 11:28 say about the king's heart after returning to his land?",
           "type": "multiple-choice",
           "options": [
-            "Those who know God will be strong and resist corruption",
-            "Temptation always leads to failure",
-            "Corruption is unavoidable for believers",
-            "Faithfulness guarantees an easy life"
+            "It will be for the holy covenant",
+            "It will be against the holy covenant",
+            "It will be filled with joy",
+            "It will seek peace"
           ],
-          "correctAnswer": "Those who know God will be strong and resist corruption",
-          "explanation": "Daniel 11:31-32 states that while the sanctuary is polluted and wickedness spreads, those who know God will be strong and resist corruption through His help.",
-          "verseReference": "Daniel 11:31-32",
+          "correctAnswer": "It will be against the holy covenant",
+          "explanation": "Daniel 11:28 makes it clear that his heart shall be against the holy covenant, indicating hostility towards God's people.",
+          "verseReference": "Daniel 11:28",
           "difficulty": "medium"
         },
         {
           "id": "daniel-11-medium-q7",
-          "question": "A believer feels discouraged because many who teach the faith suffer persecution. Based on Daniel 11:33-34, what hope can you share?",
+          "question": "According to Daniel 11:30, what will grieve the king and cause him to return?",
           "type": "multiple-choice",
           "options": [
-            "Though many fall by sword, flame, captivity, and spoil, some will be helped and many will cling to the faith",
-            "Persecution means God has rejected His people",
-            "Suffering is a sign to abandon faith",
-            "Only the strong will survive without help"
+            "A betrayal",
+            "The ships of Chittim",
+            "A loss in battle",
+            "An alliance formed"
           ],
-          "correctAnswer": "Though many fall by sword, flame, captivity, and spoil, some will be helped and many will cling to the faith",
-          "explanation": "Daniel 11:33-34 acknowledges suffering but also that some will be helped and many will adhere to the faith through flatteries, pointing to perseverance and community support.",
-          "verseReference": "Daniel 11:33-34",
+          "correctAnswer": "The ships of Chittim",
+          "explanation": "Daniel 11:30 states that the ships of Chittim shall come against him, which will cause him grief and lead him to return.",
+          "verseReference": "Daniel 11:30",
           "difficulty": "medium"
         },
         {
           "id": "daniel-11-medium-q8",
-          "question": "How does Daniel 11:1 inspire believers regarding prayer and spiritual support for leaders?",
-          "type": "multiple-choice",
-          "options": [
-            "Standing to confirm and strengthen a leader is important for God's work",
-            "Leaders do not need spiritual support",
-            "Prayer is irrelevant to leadership success",
-            "Strength comes only from political power"
-          ],
-          "correctAnswer": "Standing to confirm and strengthen a leader is important for God's work",
-          "explanation": "Daniel 11:1 shows Daniel standing to confirm and strengthen King Darius, illustrating the biblical principle of supporting and praying for leaders in their responsibilities.",
-          "verseReference": "Daniel 11:1",
-          "difficulty": "medium"
-        },
-        {
-          "id": "daniel-11-medium-q9",
-          "question": "According to Daniel 11:40-43, how does this passage teach us about trusting God during times of overwhelming opposition?",
-          "type": "multiple-choice",
-          "options": [
-            "Even when powerful armies invade, some will escape by God's providence",
-            "Opposition is always a sign of failure",
-            "Believers should rely solely on their own strength",
-            "God abandons His people in war"
-          ],
-          "correctAnswer": "Even when powerful armies invade, some will escape by God's providence",
-          "explanation": "Daniel 11:40-43 describes the king invading many lands but certain peoples escape his hand, showing God's providential protection amid adversity.",
-          "verseReference": "Daniel 11:40-43",
-          "difficulty": "medium"
-        },
-        {
-          "id": "daniel-11-medium-q10",
-          "question": "A person struggles with contentment and gratitude amid loss. How does Daniel 11:44-45 help us understand God's control over future events?",
-          "type": "multiple-choice",
-          "options": [
-            "Despite turmoil, the king will come to his end without help, showing God’s ultimate control",
-            "Chaos means God has lost control",
-            "Future events are random and unpredictable",
-            "We control our own destiny fully"
-          ],
-          "correctAnswer": "Despite turmoil, the king will come to his end without help, showing God’s ultimate control",
-          "explanation": "Daniel 11:44-45 portrays the king troubled by news and acting in fury, but ultimately coming to his end without help, emphasizing God's sovereign plan and timing.",
-          "verseReference": "Daniel 11:44-45",
-          "difficulty": "medium"
-        },
-        {
-          "id": "daniel-11-medium-q11",
-          "question": "True or False: Daniel 11 shows that God’s people who know Him will be corrupted by flatteries and lose their faith.",
+          "question": "True or False: Daniel 11:32 indicates that those who do wickedly against the covenant will be strong and do exploits.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Daniel 11:32 states that those who do wickedly against the covenant will be corrupted by flatteries, but the people that know their God shall be strong and do exploits, showing faithfulness is rewarded.",
+          "explanation": "Daniel 11:32 shows that while he corrupts many, it is the people who know their God that shall be strong and do exploits, not those who act wickedly.",
           "verseReference": "Daniel 11:32",
           "difficulty": "medium"
         },
         {
+          "id": "daniel-11-medium-q9",
+          "question": "How does Daniel 11:23 teach us about integrity in leadership?",
+          "type": "multiple-choice",
+          "options": [
+            "By showing that deceitful leaders will be rewarded",
+            "By indicating that small people can become strong",
+            "By demonstrating the importance of honesty",
+            "By emphasizing the rise of corrupt leaders"
+          ],
+          "correctAnswer": "By demonstrating the importance of honesty",
+          "explanation": "Daniel 11:23 highlights that deceitful actions do not lead to lasting success, underscoring the necessity of integrity for true strength.",
+          "verseReference": "Daniel 11:23",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-11-medium-q10",
+          "question": "According to Daniel 11:19, what will happen to the king when he turns his face toward the fort of his own land?",
+          "type": "multiple-choice",
+          "options": [
+            "He will conquer it",
+            "He will stumble and fall",
+            "He will find great treasure",
+            "He will receive help"
+          ],
+          "correctAnswer": "He will stumble and fall",
+          "explanation": "Daniel 11:19 states that he shall stumble and fall, indicating a significant failure in his plans.",
+          "verseReference": "Daniel 11:19",
+          "difficulty": "medium"
+        },
+        {
+          "id": "daniel-11-medium-q11",
+          "question": "What does Daniel 11:24 say the king will do in the fattest places of the province?",
+          "type": "multiple-choice",
+          "options": [
+            "He will bring peace",
+            "He will scatter riches",
+            "He will fortify defenses",
+            "He will seek vengeance"
+          ],
+          "correctAnswer": "He will scatter riches",
+          "explanation": "Daniel 11:24 mentions that he shall scatter among them the prey, spoil, and riches, indicating a strategy of bribery or reward.",
+          "verseReference": "Daniel 11:24",
+          "difficulty": "medium"
+        },
+        {
           "id": "daniel-11-medium-q12",
-          "question": "True or False: Daniel 11 teaches that prideful rulers will ultimately prosper without consequence.",
+          "question": "True or False: Daniel 11:36 states that the king shall magnify himself above every god.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
-          "correctAnswer": "False",
-          "explanation": "Daniel 11:36-45 describes a prideful king who exalts himself and opposes God but ultimately comes to his end with none to help him, showing that pride leads to downfall.",
-          "verseReference": "Daniel 11:36-45",
+          "correctAnswer": "True",
+          "explanation": "Daniel 11:36 confirms that the king shall exalt himself and magnify himself above every god, representing arrogance and blasphemy.",
+          "verseReference": "Daniel 11:36",
           "difficulty": "medium"
         },
         {
           "id": "daniel-11-medium-q13",
-          "question": "Fill in the blank: Daniel 11:3 says a mighty king shall stand up, who shall rule with great ______, and do according to his will.",
-          "type": "fill-blank",
-          "options": [
-            "dominion",
-            "wealth",
-            "power",
-            "glory"
-          ],
-          "correctAnswer": "dominion",
-          "explanation": "Daniel 11:3 states the mighty king shall rule with great dominion and do according to his will, emphasizing authority and control.",
-          "verseReference": "Daniel 11:3",
-          "difficulty": "medium"
-        },
-        {
-          "id": "daniel-11-medium-q14",
-          "question": "How does Daniel 11:28-29 teach believers to remain faithful when the enemy's strategies change?",
+          "question": "What lesson about power and humility can be drawn from Daniel 11:38?",
           "type": "multiple-choice",
           "options": [
-            "Though the king returns with great riches and new plans, believers must trust God’s timing and remain steadfast",
-            "Change in enemy tactics means believers should change their faith",
-            "Only physical strength can overcome evil",
-            "God’s people will never face new challenges"
+            "Power must be honored",
+            "Humility leads to strength",
+            "Strange gods will fail",
+            "God must be honored with humility"
           ],
-          "correctAnswer": "Though the king returns with great riches and new plans, believers must trust God’s timing and remain steadfast",
-          "explanation": "Daniel 11:28-29 describes the king returning with riches and new plans, indicating that despite changing circumstances, believers must remain faithful and trust God’s appointed time.",
-          "verseReference": "Daniel 11:28-29",
-          "difficulty": "medium"
-        },
-        {
-          "id": "daniel-11-medium-q15",
-          "question": "Based on Daniel 11:10-12, what biblical truth can be applied to maintaining integrity and humility in success?",
-          "type": "multiple-choice",
-          "options": [
-            "Even after victory, a lifted-up heart may lead to failure without humility",
-            "Success justifies pride and self-exaltation",
-            "Dominion comes only through harshness",
-            "Victory guarantees permanent strength"
-          ],
-          "correctAnswer": "Even after victory, a lifted-up heart may lead to failure without humility",
-          "explanation": "Daniel 11:12 warns that after taking away the multitude, the king’s heart shall be lifted up, but he shall not be strengthened, teaching humility in success is essential.",
-          "verseReference": "Daniel 11:10-12",
+          "correctAnswer": "God must be honored with humility",
+          "explanation": "Daniel 11:38 shows that the king will honor a god unknown to his fathers, emphasizing the importance of recognizing true authority and power in humility.",
+          "verseReference": "Daniel 11:38",
           "difficulty": "medium"
         }
       ],
@@ -484,7 +405,7 @@
         "bible-quiz",
         "medium"
       ],
-      "totalQuestions": 15,
+      "totalQuestions": 13,
       "estimatedTime": 12
     },
     "hard": {
@@ -497,225 +418,208 @@
       "questions": [
         {
           "id": "daniel-11-hard-q1",
-          "question": "In Daniel 11:2, which king is described as being far richer than the previous three kings of Persia, stirring up all against Grecia by his strength through riches?",
+          "question": "What will happen to the daily sacrifice according to Daniel 11:31?",
           "type": "multiple-choice",
           "options": [
-            "The fourth king",
-            "The first king",
-            "The second king",
-            "The third king"
+            "It will be continued",
+            "It will be taken away",
+            "It will be doubled",
+            "It will be celebrated"
           ],
-          "correctAnswer": "The fourth king",
-          "explanation": "Daniel 11:2 states that the fourth king of Persia shall be far richer than the previous three and by his strength through riches shall stir up all against Grecia.",
-          "verseReference": "Daniel 11:2",
-          "difficulty": "hard"
-        },
-        {
-          "id": "daniel-11-hard-q2",
-          "question": "Daniel 11:4 describes the kingdom of a mighty king being broken and divided toward the four winds of heaven. Which historical event does this prophecy most likely foreshadow?",
-          "type": "multiple-choice",
-          "options": [
-            "The division of Alexander the Great's empire",
-            "The Babylonian exile",
-            "The Assyrian conquest",
-            "The Roman Empire's division"
-          ],
-          "correctAnswer": "The division of Alexander the Great's empire",
-          "explanation": "Daniel 11:4 predicts the kingdom being divided to the four winds, which corresponds historically to the division of Alexander the Great's empire into four parts after his death.",
-          "verseReference": "Daniel 11:4",
-          "difficulty": "hard"
-        },
-        {
-          "id": "daniel-11-hard-q3",
-          "question": "According to Daniel 11:6, what is the outcome of the king's daughter of the south making an agreement with the king of the north?",
-          "type": "multiple-choice",
-          "options": [
-            "She shall be given up, along with those who brought and strengthened her",
-            "She shall retain power and strengthen the king of the north",
-            "She shall overthrow the king of the north",
-            "She shall rule both kingdoms jointly"
-          ],
-          "correctAnswer": "She shall be given up, along with those who brought and strengthened her",
-          "explanation": "Daniel 11:6 indicates that although the king's daughter of the south comes to make an agreement, she will not retain power but will be given up along with her supporters.",
-          "verseReference": "Daniel 11:6",
-          "difficulty": "hard"
-        },
-        {
-          "id": "daniel-11-hard-q4",
-          "question": "What does Daniel 11:31 say will be placed in the sanctuary, causing desolation?",
-          "type": "multiple-choice",
-          "options": [
-            "The abomination that maketh desolate",
-            "The Ark of the Covenant",
-            "The golden calf",
-            "The tablets of the law"
-          ],
-          "correctAnswer": "The abomination that maketh desolate",
-          "explanation": "Daniel 11:31 explicitly states that an abomination that causes desolation will be placed in the sanctuary, a key prophetic motif also referenced in the Gospels (e.g., Matthew 24:15).",
+          "correctAnswer": "It will be taken away",
+          "explanation": "Daniel 11:31 states that arms shall pollute the sanctuary of strength and take away the daily sacrifice, indicating a significant disruption in worship practices.",
           "verseReference": "Daniel 11:31",
           "difficulty": "hard"
         },
         {
-          "id": "daniel-11-hard-q5",
-          "question": "In Daniel 11:36, how is the king described in relation to gods and his own will?",
+          "id": "daniel-11-hard-q2",
+          "question": "According to Daniel 11:32, what will happen to those who do wickedly against the covenant?",
           "type": "multiple-choice",
           "options": [
-            "He shall exalt himself above every god and do according to his will",
-            "He shall serve many gods humbly",
-            "He shall respect the God of gods",
-            "He shall seek counsel from priests"
+            "They will be rewarded",
+            "They will be corrupt by flatteries",
+            "They will become leaders",
+            "They will be punished"
           ],
-          "correctAnswer": "He shall exalt himself above every god and do according to his will",
-          "explanation": "Daniel 11:36 portrays this king as magnifying himself above all gods and acting according to his own will, highlighting his arrogance and blasphemy.",
-          "verseReference": "Daniel 11:36",
-          "difficulty": "hard"
-        },
-        {
-          "id": "daniel-11-hard-q6",
-          "question": "Which phrase in Daniel 11:32 indicates the method by which the king will corrupt those who do wickedly against the covenant?",
-          "type": "multiple-choice",
-          "options": [
-            "By flatteries",
-            "By force",
-            "By famine",
-            "By exile"
-          ],
-          "correctAnswer": "By flatteries",
-          "explanation": "Daniel 11:32 states that the king shall corrupt those who do wickedly against the covenant through flatteries, implying deceitful persuasion.",
+          "correctAnswer": "They will be corrupt by flatteries",
+          "explanation": "Daniel 11:32 mentions that those who act wickedly against the covenant will be corrupted by flatteries, highlighting the deceitful nature of power.",
           "verseReference": "Daniel 11:32",
           "difficulty": "hard"
         },
         {
+          "id": "daniel-11-hard-q3",
+          "question": "What does Daniel 11:36 say the king will do in regard to his own will?",
+          "type": "multiple-choice",
+          "options": [
+            "He will obey all gods",
+            "He will do according to his will",
+            "He will seek counsel",
+            "He will abandon his kingdom"
+          ],
+          "correctAnswer": "He will do according to his will",
+          "explanation": "Daniel 11:36 indicates that the king shall act according to his own will, suggesting a self-centered approach and disregard for divine authority.",
+          "verseReference": "Daniel 11:36",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-11-hard-q4",
+          "question": "In Daniel 11:40, how is the king of the north described when he comes against the king of the south?",
+          "type": "multiple-choice",
+          "options": [
+            "Like a gentle breeze",
+            "Like a whirlwind",
+            "Like a river",
+            "Like a mountain"
+          ],
+          "correctAnswer": "Like a whirlwind",
+          "explanation": "Daniel 11:40 describes the king of the north coming against the king of the south like a whirlwind, emphasizing the suddenness and force of his attack.",
+          "verseReference": "Daniel 11:40",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-11-hard-q5",
+          "question": "What is indicated by the phrase 'the glorious land' in Daniel 11:41?",
+          "type": "multiple-choice",
+          "options": [
+            "The land of Israel",
+            "The land of Egypt",
+            "The land of Babylon",
+            "The land of Persia"
+          ],
+          "correctAnswer": "The land of Israel",
+          "explanation": "In biblical context, 'the glorious land' generally refers to Israel, as seen in Daniel 11:41 where many countries will be overthrown while Israel escapes.",
+          "verseReference": "Daniel 11:41",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-11-hard-q6",
+          "question": "According to Daniel 11:45, what will ultimately happen to the king?",
+          "type": "multiple-choice",
+          "options": [
+            "He will establish peace",
+            "He will come to his end",
+            "He will conquer all nations",
+            "He will be remembered forever"
+          ],
+          "correctAnswer": "He will come to his end",
+          "explanation": "Daniel 11:45 clearly states that despite his power, the king shall come to his end, showing the inevitability of divine judgment.",
+          "verseReference": "Daniel 11:45",
+          "difficulty": "hard"
+        },
+        {
           "id": "daniel-11-hard-q7",
-          "question": "True or False: Daniel 11:20 describes a tax raiser who is destroyed quickly, neither in anger nor battle.",
+          "question": "What does the term 'abomination that maketh desolate' in Daniel 11:31 refer to in a wider biblical context?",
+          "type": "multiple-choice",
+          "options": [
+            "A holy relic",
+            "A symbol of peace",
+            "An idol of worship",
+            "A significant act of desecration"
+          ],
+          "correctAnswer": "A significant act of desecration",
+          "explanation": "The phrase 'abomination that maketh desolate' refers to acts that desecrate the sanctuary, echoed in Matthew 24:15 where Jesus references this prophecy.",
+          "verseReference": "Daniel 11:31",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-11-hard-q8",
+          "question": "True or False: The king described in Daniel 11:37 will regard the God of his fathers.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Daniel 11:37 explicitly states that he will neither regard the God of his fathers, nor any god, indicating his complete rejection of traditional faith.",
+          "verseReference": "Daniel 11:37",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-11-hard-q9",
+          "question": "What does Daniel 11:33 suggest about those who understand among the people?",
+          "type": "multiple-choice",
+          "options": [
+            "They will be revered",
+            "They shall instruct many",
+            "They will be cast out",
+            "They will prosper greatly"
+          ],
+          "correctAnswer": "They shall instruct many",
+          "explanation": "Daniel 11:33 indicates that those who understand the truth will instruct many, signifying their role as teachers in difficult times.",
+          "verseReference": "Daniel 11:33",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-11-hard-q10",
+          "question": "The phrase 'he shall plant the tabernacles of his palace' in Daniel 11:45 is an example of what literary device?",
+          "type": "multiple-choice",
+          "options": [
+            "Metaphor",
+            "Alliteration",
+            "Personification",
+            "Symbolism"
+          ],
+          "correctAnswer": "Symbolism",
+          "explanation": "The phrase symbolizes the establishment of power and control over a territory, reflecting the king's ambitions as seen in Daniel 11:45.",
+          "verseReference": "Daniel 11:45",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-11-hard-q11",
+          "question": "True or False: Daniel 11:34 states that help will come to those who fall.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Daniel 11:20 clearly states that a raiser of taxes will stand up but be destroyed within few days, neither in anger nor in battle.",
-          "verseReference": "Daniel 11:20",
-          "difficulty": "hard"
-        },
-        {
-          "id": "daniel-11-hard-q8",
-          "question": "According to Daniel 11:40, how does the king of the north come against the king of the south?",
-          "type": "multiple-choice",
-          "options": [
-            "Like a whirlwind with chariots, horsemen, and many ships",
-            "With peaceful negotiations",
-            "By sending envoys only",
-            "By famine and pestilence"
-          ],
-          "correctAnswer": "Like a whirlwind with chariots, horsemen, and many ships",
-          "explanation": "Daniel 11:40 describes the king of the north coming against the king of the south like a whirlwind, accompanied by chariots, horsemen, and many ships, showing a swift and powerful military campaign.",
-          "verseReference": "Daniel 11:40",
-          "difficulty": "hard"
-        },
-        {
-          "id": "daniel-11-hard-q9",
-          "question": "In Daniel 11:17, what action does the king take involving the 'daughter of women'?",
-          "type": "multiple-choice",
-          "options": [
-            "He gives her to someone, corrupting her, but she shall not stand by him",
-            "He marries her to unify kingdoms",
-            "He kills her to prevent an alliance",
-            "He sends her as a diplomat to the south"
-          ],
-          "correctAnswer": "He gives her to someone, corrupting her, but she shall not stand by him",
-          "explanation": "Daniel 11:17 explains the king gives the daughter of women, corrupting her, but she does not remain allied with him, indicating a failed political or marital alliance.",
-          "verseReference": "Daniel 11:17",
-          "difficulty": "hard"
-        },
-        {
-          "id": "daniel-11-hard-q10",
-          "question": "Which theme in Daniel 11 is foreshadowed by the phrase 'the abomination that maketh desolate' and also referenced in the New Testament, particularly in Matthew 24?",
-          "type": "multiple-choice",
-          "options": [
-            "Desecration of the temple",
-            "The birth of the Messiah",
-            "The Exodus from Egypt",
-            "The rebuilding of Jerusalem"
-          ],
-          "correctAnswer": "Desecration of the temple",
-          "explanation": "The phrase 'abomination that maketh desolate' in Daniel 11:31 foreshadows the desecration of the temple, a theme echoed in Matthew 24 regarding end-time prophecy.",
-          "verseReference": "Daniel 11:31",
-          "difficulty": "hard"
-        },
-        {
-          "id": "daniel-11-hard-q11",
-          "question": "In Daniel 11:38, which 'god' does the king honor that his fathers did not know, and what is the significance of this act?",
-          "type": "multiple-choice",
-          "options": [
-            "The God of forces, symbolizing a foreign or military deity",
-            "The God of Israel, symbolizing repentance",
-            "The God of the Babylonians, symbolizing submission",
-            "The God of Egypt, symbolizing alliance"
-          ],
-          "correctAnswer": "The God of forces, symbolizing a foreign or military deity",
-          "explanation": "Daniel 11:38 mentions the king honoring 'the God of forces,' which indicates worship of a foreign or military god rather than the God of his fathers, highlighting apostasy and idolatry.",
-          "verseReference": "Daniel 11:38",
+          "explanation": "Daniel 11:34 indicates that when they fall, they will be helped, suggesting divine assistance during trials.",
+          "verseReference": "Daniel 11:34",
           "difficulty": "hard"
         },
         {
           "id": "daniel-11-hard-q12",
-          "question": "Daniel 11:35 mentions some of understanding falling to 'try them, and to purge, and to make them white.' What does this suggest about the trials faced by the faithful?",
+          "question": "Which New Testament book references the 'abomination of desolation' mentioned in Daniel 11:31?",
           "type": "multiple-choice",
           "options": [
-            "They are tested to refine their faith until the time of the end",
-            "They will be immediately rewarded without suffering",
-            "They will escape all trials by hiding",
-            "They will lose faith and be condemned"
+            "Hebrews",
+            "Revelation",
+            "Matthew",
+            "Acts"
           ],
-          "correctAnswer": "They are tested to refine their faith until the time of the end",
-          "explanation": "Daniel 11:35 describes how those with understanding will fall to be tested and purified, indicating a refining process of faithfulness until the appointed time of the end.",
-          "verseReference": "Daniel 11:35",
+          "correctAnswer": "Matthew",
+          "explanation": "Matthew 24:15 refers back to the 'abomination of desolation' from Daniel, linking the prophecy to end times events.",
+          "verseReference": "Daniel 11:31",
           "difficulty": "hard"
         },
         {
           "id": "daniel-11-hard-q13",
-          "question": "How does Daniel 11:14 describe those who stand up against the king of the south and their ultimate fate?",
+          "question": "According to Daniel 11:36, what will the king speak against?",
           "type": "multiple-choice",
           "options": [
-            "Many shall stand up, including robbers of thy people who exalt themselves but shall fall",
-            "They will all succeed in overthrowing the king of the south",
-            "They will unite with the king of the south",
-            "They will remain neutral and unaffected"
+            "The God of gods",
+            "The people",
+            "His enemies",
+            "The covenant"
           ],
-          "correctAnswer": "Many shall stand up, including robbers of thy people who exalt themselves but shall fall",
-          "explanation": "Daniel 11:14 predicts many rising against the king of the south, including robbers who exalt themselves to establish the vision, but ultimately they shall fall.",
-          "verseReference": "Daniel 11:14",
+          "correctAnswer": "The God of gods",
+          "explanation": "Daniel 11:36 states that the king shall speak marvellous things against the God of gods, showing his blasphemy and arrogance.",
+          "verseReference": "Daniel 11:36",
           "difficulty": "hard"
         },
         {
           "id": "daniel-11-hard-q14",
-          "question": "What literary device is prominently used in Daniel 11 to present the sequence of kings and battles, often contrasting 'king of the north' and 'king of the south'?",
+          "question": "What does Daniel 11:39 suggest about the king's dealings with the 'strange god'?",
           "type": "multiple-choice",
           "options": [
-            "Parallelism",
-            "Chiasm",
-            "Allegory",
-            "Parable"
+            "He will reject it",
+            "He will honor it with wealth",
+            "He will destroy it",
+            "He will ignore it"
           ],
-          "correctAnswer": "Parallelism",
-          "explanation": "Daniel 11 uses parallelism extensively by contrasting the king of the north and king of the south in successive verses to highlight ongoing conflict and shifting power.",
-          "verseReference": "Daniel 11:5-15",
-          "difficulty": "hard"
-        },
-        {
-          "id": "daniel-11-hard-q15",
-          "question": "According to Daniel 11:22, who is broken by the 'arms of a flood' that come from before the vile person?",
-          "type": "multiple-choice",
-          "options": [
-            "The prince of the covenant",
-            "The king of the south",
-            "The king of the north",
-            "The tax raiser"
-          ],
-          "correctAnswer": "The prince of the covenant",
-          "explanation": "Daniel 11:22 states that with the arms of a flood coming from before the vile person, the prince of the covenant is broken, indicating a significant attack on a key figure related to the covenant.",
-          "verseReference": "Daniel 11:22",
+          "correctAnswer": "He will honor it with wealth",
+          "explanation": "Daniel 11:39 states that he shall honor a god unknown to his fathers with gold and silver, indicating a shift towards a foreign deity.",
+          "verseReference": "Daniel 11:39",
           "difficulty": "hard"
         }
       ],
@@ -729,7 +633,7 @@
         "bible-quiz",
         "hard"
       ],
-      "totalQuestions": 15,
+      "totalQuestions": 14,
       "estimatedTime": 15
     },
     "theological": {
@@ -742,227 +646,227 @@
       "questions": [
         {
           "id": "daniel-11-theological-q1",
-          "question": "According to Daniel 11:2, what characteristic distinguished the fourth king in Persia from the previous three?",
+          "question": "What does Daniel 11:1 indicate about the role of the speaker in relation to Darius the Mede?",
           "type": "multiple-choice",
           "options": [
-            "He was far richer than the others",
-            "He was a peaceful king",
-            "He was a religious leader",
-            "He ruled for a very short time"
+            "He stood to confirm and strengthen him",
+            "He opposed him",
+            "He ignored him",
+            "He appointed him king"
           ],
-          "correctAnswer": "He was far richer than the others",
-          "explanation": "Daniel 11:2 states that the fourth king in Persia shall be far richer than all the others, and by his wealth he will stir up conflict. This reflects biblical themes of earthly riches and power influencing political events, consistent with Proverbs 11:28 on riches and Psalm 49:16-17 on the futility of trusting wealth.",
-          "verseReference": "Daniel 11:2",
+          "correctAnswer": "He stood to confirm and strengthen him",
+          "explanation": "Daniel 11:1 states, 'I in the first year of Darius the Mede... stood to confirm and to strengthen him,' indicating the supportive role of the speaker.",
+          "verseReference": "Daniel 11:1",
           "difficulty": "hard"
         },
         {
           "id": "daniel-11-theological-q2",
-          "question": "In Daniel 11:4, what happens to the kingdom of the mighty king who rules with great dominion?",
+          "question": "According to Daniel 11:2, how many kings will stand up in Persia before the fourth king?",
           "type": "multiple-choice",
           "options": [
-            "It shall be broken and divided toward the four winds of heaven",
-            "It shall expand over all the earth",
-            "It shall remain strong through his descendants",
-            "It shall be taken by a single conqueror"
+            "One",
+            "Two",
+            "Three",
+            "Four"
           ],
-          "correctAnswer": "It shall be broken and divided toward the four winds of heaven",
-          "explanation": "Daniel 11:4 describes the kingdom being broken and divided in contrast to the dominion of the king, indicating the transient nature of earthly kingdoms, aligning with Daniel 2:44 and Acts 2:34-35 showing God's eternal kingdom surpassing human empires.",
-          "verseReference": "Daniel 11:4",
+          "correctAnswer": "Three",
+          "explanation": "Daniel 11:2 mentions 'there shall stand up yet three kings in Persia,' indicating there will be three kings before the fourth.",
+          "verseReference": "Daniel 11:2",
           "difficulty": "hard"
         },
         {
           "id": "daniel-11-theological-q3",
-          "question": "Who is described in Daniel 11:5 as being strong and having a great dominion?",
+          "question": "What does the 'mighty king' in Daniel 11:3 represent in terms of dominion?",
           "type": "multiple-choice",
           "options": [
-            "The king of the south",
-            "The king of the north",
-            "The king of Persia",
-            "The king of Grecia"
+            "A ruler with limited power",
+            "A king who will be defeated",
+            "A ruler with great dominion",
+            "An insignificant leader"
           ],
-          "correctAnswer": "The king of the south",
-          "explanation": "Daniel 11:5 identifies the king of the south as strong and having a great dominion. This reflects the biblical theme of geopolitical powers acting within God's sovereign plan, reminiscent of the kings and kingdoms in Daniel 2 and 7 and Romans 13:1 on authorities ordained by God.",
-          "verseReference": "Daniel 11:5",
+          "correctAnswer": "A ruler with great dominion",
+          "explanation": "Daniel 11:3 describes 'a mighty king shall stand up, that shall rule with great dominion,' highlighting his significant authority.",
+          "verseReference": "Daniel 11:3",
           "difficulty": "hard"
         },
         {
           "id": "daniel-11-theological-q4",
-          "question": "What is the outcome of the alliance described in Daniel 11:6 involving the king's daughter of the south?",
+          "question": "In Daniel 11:4, what will happen to the kingdom of the mighty king?",
           "type": "multiple-choice",
           "options": [
-            "She shall be given up along with those who brought and strengthened her",
-            "She shall retain power and rule with the king of the north",
-            "She shall defeat the king of the north",
-            "She shall become queen of both kingdoms"
+            "It will thrive forever",
+            "It will be divided",
+            "It will expand greatly",
+            "It will be inherited by his sons"
           ],
-          "correctAnswer": "She shall be given up along with those who brought and strengthened her",
-          "explanation": "Daniel 11:6 explains that the king's daughter of the south, though sent to make an agreement, will not retain power but shall be given up, illustrating the futility of relying on political marriages for lasting peace, consistent with Ecclesiastes 1:14 on vanity of human plans and Isaiah 8:10 on thwarted counsel.",
-          "verseReference": "Daniel 11:6",
+          "correctAnswer": "It will be divided",
+          "explanation": "Daniel 11:4 states, 'his kingdom shall be broken, and shall be divided toward the four winds of heaven,' indicating the fragmentation of his rule.",
+          "verseReference": "Daniel 11:4",
           "difficulty": "hard"
         },
         {
           "id": "daniel-11-theological-q5",
-          "question": "According to Daniel 11:7-8, what does the branch from her roots accomplish?",
+          "question": "What significant action does the king of the south take in Daniel 11:11?",
           "type": "multiple-choice",
           "options": [
-            "He comes with an army, enters the fortress of the king of the north, prevails, and carries captives and treasures into Egypt",
-            "He makes peace with the king of the north and unites the kingdoms",
-            "He flees to the east to avoid conflict",
-            "He becomes a priest in the temple"
+            "He makes peace with the king of the north",
+            "He fights with a great multitude",
+            "He withdraws from battle",
+            "He forms an alliance"
           ],
-          "correctAnswer": "He comes with an army, enters the fortress of the king of the north, prevails, and carries captives and treasures into Egypt",
-          "explanation": "Daniel 11:7-8 describes a descendant rising with military power to overcome the king of the north and take captives and treasures to Egypt, showing the theme of conflict and captivity seen also in Jeremiah 20:4-5 and 2 Chronicles 36:17-20 concerning God's judgment through nations.",
-          "verseReference": "Daniel 11:7",
+          "correctAnswer": "He fights with a great multitude",
+          "explanation": "Daniel 11:11 reveals that 'the king of the south shall be moved with choler, and shall come forth and fight with him... and shall set forth a great multitude.'",
+          "verseReference": "Daniel 11:11",
           "difficulty": "hard"
         },
         {
           "id": "daniel-11-theological-q6",
-          "question": "What is foretold about the sons of the king of the south in Daniel 11:10?",
+          "question": "What does Daniel 11:32 tell us about those who act wickedly against the covenant?",
           "type": "multiple-choice",
           "options": [
-            "They shall assemble a great force, overflow, pass through, and return stirred up to their fortress",
-            "They shall establish lasting peace with the king of the north",
-            "They shall be taken captive without resistance",
-            "They shall build a new temple"
+            "They will be rewarded",
+            "They will be corrupted by flatteries",
+            "They will overcome their enemies",
+            "They will be forgotten"
           ],
-          "correctAnswer": "They shall assemble a great force, overflow, pass through, and return stirred up to their fortress",
-          "explanation": "Daniel 11:10 predicts the sons of the king of the south will gather a powerful army and engage in aggressive campaigns, reflecting biblical themes of warfare and human conflict under God's sovereignty as in Judges 3:27 and Revelation 16:16.",
-          "verseReference": "Daniel 11:10",
-          "difficulty": "hard"
-        },
-        {
-          "id": "daniel-11-theological-q7",
-          "question": "How does Daniel 11:31 describe the actions against the sanctuary and daily sacrifices?",
-          "type": "multiple-choice",
-          "options": [
-            "Arms shall stand on his part, pollute the sanctuary, take away the daily sacrifice, and place the abomination that makes desolate",
-            "The sanctuary shall be rebuilt and sacrifices restored",
-            "The sanctuary shall be hidden and protected by angels",
-            "The daily sacrifices shall be increased in number"
-          ],
-          "correctAnswer": "Arms shall stand on his part, pollute the sanctuary, take away the daily sacrifice, and place the abomination that makes desolate",
-          "explanation": "Daniel 11:31 speaks of desecration of the sanctuary and stopping of daily sacrifices, correlating with the prophecy of the 'abomination of desolation' in Matthew 24:15 and 2 Thessalonians 2:4, illustrating opposition to God’s worship and eschatological judgment.",
-          "verseReference": "Daniel 11:31",
-          "difficulty": "hard"
-        },
-        {
-          "id": "daniel-11-theological-q8",
-          "question": "What is the character of the king described in Daniel 11:36 who magnifies himself above every god?",
-          "type": "multiple-choice",
-          "options": [
-            "He acts according to his own will, exalts himself, speaks against God, and prospers until indignation is accomplished",
-            "He humbly serves God and leads with righteousness",
-            "He is a righteous judge who establishes peace",
-            "He defends the holy covenant faithfully"
-          ],
-          "correctAnswer": "He acts according to his own will, exalts himself, speaks against God, and prospers until indignation is accomplished",
-          "explanation": "Daniel 11:36 portrays a king who exalts himself above all gods and speaks marvelously against God, reflecting the biblical archetype of the Antichrist or man of sin as in 2 Thessalonians 2:3-4 and Revelation 13:5-6, emphasizing human pride and rebellion against divine authority.",
-          "verseReference": "Daniel 11:36",
-          "difficulty": "hard"
-        },
-        {
-          "id": "daniel-11-theological-q9",
-          "question": "According to Daniel 11:40, what happens at the time of the end involving the king of the south and the king of the north?",
-          "type": "multiple-choice",
-          "options": [
-            "The king of the south pushes at the king of the north, who comes like a whirlwind with chariots, horsemen, and many ships",
-            "The two kings make a lasting peace treaty",
-            "The king of the north submits to the king of the south",
-            "Both kings are overthrown by a third power"
-          ],
-          "correctAnswer": "The king of the south pushes at the king of the north, who comes like a whirlwind with chariots, horsemen, and many ships",
-          "explanation": "Daniel 11:40 describes a climactic conflict at the time of the end with the king of the north coming fiercely against the king of the south, paralleling eschatological battles described in Revelation 19:19 and Ezekiel 38:4, highlighting divine sovereignty over end-time events.",
-          "verseReference": "Daniel 11:40",
-          "difficulty": "hard"
-        },
-        {
-          "id": "daniel-11-theological-q10",
-          "question": "What does Daniel 11:32 say about those who do wickedly against the covenant and those who know their God?",
-          "type": "multiple-choice",
-          "options": [
-            "Wicked ones are corrupted by flatteries, but those who know God shall be strong and do exploits",
-            "All shall be destroyed without exception",
-            "The wicked shall be victorious over the faithful",
-            "Those who know God shall be hidden and inactive"
-          ],
-          "correctAnswer": "Wicked ones are corrupted by flatteries, but those who know God shall be strong and do exploits",
-          "explanation": "Daniel 11:32 contrasts the corrupting influence on the wicked with the strength and exploits of those who know God, reflecting biblical encouragement for faithfulness amid persecution as seen in Psalm 37:28, 2 Timothy 3:12, and Hebrews 11.",
+          "correctAnswer": "They will be corrupted by flatteries",
+          "explanation": "According to Daniel 11:32, 'such as do wickedly against the covenant shall he corrupt by flatteries,' indicating their moral downfall.",
           "verseReference": "Daniel 11:32",
           "difficulty": "hard"
         },
         {
-          "id": "daniel-11-theological-q11",
-          "question": "In Daniel 11:21, how does the vile person come to power?",
+          "id": "daniel-11-theological-q7",
+          "question": "In the context of Daniel 11:36, what does the king do in relation to God?",
           "type": "multiple-choice",
           "options": [
-            "Peaceably, by flatteries, without being given the honor of the kingdom",
-            "By military conquest and bloodshed",
-            "By divine appointment and righteousness",
-            "Through a popular uprising"
+            "He worships the God of his fathers",
+            "He magnifies himself above every god",
+            "He establishes a new religion",
+            "He seeks guidance from the prophets"
           ],
-          "correctAnswer": "Peaceably, by flatteries, without being given the honor of the kingdom",
-          "explanation": "Daniel 11:21 describes a vile person who obtains the kingdom peaceably through deceit and flatteries, illustrating themes of deception in leadership found in Jeremiah 6:13 and Matthew 24:4-5, warning against false peace and illegitimate authority.",
+          "correctAnswer": "He magnifies himself above every god",
+          "explanation": "Daniel 11:36 states that 'he shall exalt himself, and magnify himself above every god,' indicating his pride and rebellion against divine authority.",
+          "verseReference": "Daniel 11:36",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-11-theological-q8",
+          "question": "What theme of corruption does Daniel 11:21 illustrate about the vile person?",
+          "type": "multiple-choice",
+          "options": [
+            "Obtains the kingdom by war",
+            "Gains the kingdom through peace and flatteries",
+            "Is recognized by all as a leader",
+            "Is divinely appointed"
+          ],
+          "correctAnswer": "Gains the kingdom through peace and flatteries",
+          "explanation": "Daniel 11:21 mentions that 'he shall come in peaceably, and obtain the kingdom by flatteries,' showing a deceptive approach to power.",
           "verseReference": "Daniel 11:21",
           "difficulty": "hard"
         },
         {
-          "id": "daniel-11-theological-q12",
-          "question": "What is the significance of the 'abomination that makes desolate' mentioned in Daniel 11:31?",
+          "id": "daniel-11-theological-q9",
+          "question": "What role do the ships of Chittim play according to Daniel 11:30?",
           "type": "multiple-choice",
           "options": [
-            "It represents a sacrilegious act that halts the daily sacrifice and pollutes the sanctuary",
-            "It is a symbol of Israel’s restoration",
-            "It refers to the rebuilding of the temple",
-            "It signifies the coming of the Messiah"
+            "They assist the king of the north",
+            "They bring him great wealth",
+            "They trouble him and cause him to return",
+            "They are a symbol of peace"
           ],
-          "correctAnswer": "It represents a sacrilegious act that halts the daily sacrifice and pollutes the sanctuary",
-          "explanation": "Daniel 11:31 highlights the abomination that causes desolation as a defiling event stopping proper worship, correlating with Jesus’ reference in Matthew 24:15 and the prophecy of desecration in 2 Thessalonians 2:4, emphasizing opposition to God's holy ordinance.",
-          "verseReference": "Daniel 11:31",
+          "correctAnswer": "They trouble him and cause him to return",
+          "explanation": "Daniel 11:30 states that 'the ships of Chittim shall come against him: therefore he shall be grieved, and return,' indicating their disruptive influence.",
+          "verseReference": "Daniel 11:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-11-theological-q10",
+          "question": "According to Daniel 11:44, what will trouble the king?",
+          "type": "multiple-choice",
+          "options": [
+            "The ships of Chittim",
+            "Tidings out of the east and out of the north",
+            "His own army",
+            "The covenant people"
+          ],
+          "correctAnswer": "Tidings out of the east and out of the north",
+          "explanation": "Daniel 11:44 reveals, 'tidings out of the east and out of the north shall trouble him,' indicating external news that causes him distress.",
+          "verseReference": "Daniel 11:44",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-11-theological-q11",
+          "question": "How does Daniel 11:45 conclude the fate of the king?",
+          "type": "multiple-choice",
+          "options": [
+            "He will establish a lasting kingdom",
+            "He will come to his end, and none shall help him",
+            "He will be victorious over all nations",
+            "He will build a great temple"
+          ],
+          "correctAnswer": "He will come to his end, and none shall help him",
+          "explanation": "Daniel 11:45 states, 'yet he shall come to his end, and none shall help him,' emphasizing the inevitable downfall of this king.",
+          "verseReference": "Daniel 11:45",
+          "difficulty": "hard"
+        },
+        {
+          "id": "daniel-11-theological-q12",
+          "question": "What does Daniel 11:27 suggest about the intentions of both kings?",
+          "type": "multiple-choice",
+          "options": [
+            "They will cooperate for peace",
+            "They will work deceitfully and plan mischief",
+            "They will unite against a common enemy",
+            "They will seek wisdom together"
+          ],
+          "correctAnswer": "They will work deceitfully and plan mischief",
+          "explanation": "Daniel 11:27 indicates that 'both these kings' hearts shall be to do mischief,' highlighting their treacherous intentions.",
+          "verseReference": "Daniel 11:27",
           "difficulty": "hard"
         },
         {
           "id": "daniel-11-theological-q13",
-          "question": "According to Daniel 11:14, who will exalt themselves against the king of the south, and what is the outcome?",
+          "question": "What doctrinal insight can be drawn from Daniel 11:32 and 11:33 regarding the people of God?",
           "type": "multiple-choice",
           "options": [
-            "Many will stand up, including robbers of thy people, but they shall fall",
-            "The king of the north will be defeated",
-            "The king of the south will conquer all enemies",
-            "Foreign nations will unite to bring peace"
+            "They will never face persecution",
+            "They will be easily deceived",
+            "They will be strong and do exploits",
+            "They will abandon their faith"
           ],
-          "correctAnswer": "Many will stand up, including robbers of thy people, but they shall fall",
-          "explanation": "Daniel 11:14 predicts opposition rising against the king of the south, including rebellious elements ('robbers of thy people'), but ultimately they shall fall, showing God's sovereign judgment on those opposing His purposes, as seen in Isaiah 10:5-7 and Romans 13:4.",
-          "verseReference": "Daniel 11:14",
+          "correctAnswer": "They will be strong and do exploits",
+          "explanation": "Daniel 11:32 states that 'the people that do know their God shall be strong, and do exploits,' indicating their resilience and faith in the face of adversity.",
+          "verseReference": "Daniel 11:32",
           "difficulty": "hard"
         },
         {
           "id": "daniel-11-theological-q14",
-          "question": "What happens to the king described in Daniel 11:19 after he turns his face toward the fort of his own land?",
+          "question": "What does Daniel 11:4 and Daniel 11:36 reveal about the nature of earthly kingdoms?",
           "type": "multiple-choice",
           "options": [
-            "He shall stumble and fall and not be found",
-            "He shall be victorious and reign long",
-            "He shall make a covenant of peace",
-            "He shall be taken captive and later released"
+            "They are eternal",
+            "They are subject to divine sovereignty",
+            "They are always peaceful",
+            "They bring lasting prosperity"
           ],
-          "correctAnswer": "He shall stumble and fall and not be found",
-          "explanation": "Daniel 11:19 foretells the king's downfall and disappearance after turning to his own land, illustrating the temporary nature of ungodly power, consistent with Psalm 37:10 and Daniel 2:21 emphasizing God's control over the rise and fall of rulers.",
-          "verseReference": "Daniel 11:19",
+          "correctAnswer": "They are subject to divine sovereignty",
+          "explanation": "Daniel 11:4 describes kingdoms being broken and divided, while 11:36 shows the king acting according to his will, indicating that despite their power, they remain under God's ultimate authority.",
+          "verseReference": "Daniel 11:4, Daniel 11:36",
           "difficulty": "hard"
         },
         {
           "id": "daniel-11-theological-q15",
-          "question": "What does Daniel 11:35 say about those of understanding during the time of the end?",
+          "question": "What does Daniel 11:12 and Daniel 11:30 teach about the consequences of pride and rebellion?",
           "type": "multiple-choice",
           "options": [
-            "Some shall fall to try and purge them, making them white until the appointed time",
-            "All shall be preserved without suffering",
-            "They shall establish a new kingdom on earth",
-            "They shall reject the holy covenant"
+            "They lead to eternal life",
+            "They result in downfall and grief",
+            "They guarantee success",
+            "They are ignored by God"
           ],
-          "correctAnswer": "Some shall fall to try and purge them, making them white until the appointed time",
-          "explanation": "Daniel 11:35 speaks of trials testing the faithful to purify them, which aligns with biblical themes of sanctification and perseverance through suffering such as James 1:2-4 and 1 Peter 1:6-7, highlighting God's refining process for His people.",
-          "verseReference": "Daniel 11:35",
+          "correctAnswer": "They result in downfall and grief",
+          "explanation": "Daniel 11:12 shows the pride of the king leading to downfall, while 11:30 reveals grief as a consequence of rebellion, illustrating that pride leads to destruction.",
+          "verseReference": "Daniel 11:12, Daniel 11:30",
           "difficulty": "hard"
         }
       ],

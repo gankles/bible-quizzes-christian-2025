@@ -13,13 +13,28 @@
       "questions": [
         {
           "id": "2-chronicles-25-easy-q1",
-          "question": "How old was Amaziah when he began to reign in Jerusalem?",
+          "question": "In 2 Chronicles 25, which of the following appears FIRST in the chapter?",
+          "type": "multiple-choice",
+          "options": [
+            "Amaziah was twenty and five years old when he began to reign",
+            "Amaziah gathered Judah together and made captains over thousands",
+            "He hired an hundred thousand mighty men of valour out of Israel",
+            "A man of God came to Amaziah and warned him not to let the army of Israel go with him"
+          ],
+          "correctAnswer": "Amaziah was twenty and five years old when he began to reign",
+          "explanation": "This event is described in 2 Chronicles 25:1, which is the first verse of the chapter.",
+          "verseReference": "2 Chronicles 25:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "2-chronicles-25-easy-q2",
+          "question": "How old was Amaziah when he began to reign?",
           "type": "multiple-choice",
           "options": [
             "Twenty and five years old",
-            "Thirty years old",
             "Twenty years old",
-            "Twenty nine years old"
+            "Thirty years old",
+            "Thirty and five years old"
           ],
           "correctAnswer": "Twenty and five years old",
           "explanation": "2 Chronicles 25:1 states that Amaziah was twenty and five years old when he began to reign.",
@@ -27,66 +42,68 @@
           "difficulty": "easy"
         },
         {
-          "id": "2-chronicles-25-easy-q2",
-          "question": "What was the name of Amaziah's mother?",
+          "id": "2-chronicles-25-easy-q3",
+          "question": "What is the name of Amaziah's mother?",
           "type": "multiple-choice",
           "options": [
             "Jehoaddan",
             "Athaliah",
             "Abijah",
-            "Maacah"
+            "Maachah"
           ],
           "correctAnswer": "Jehoaddan",
-          "explanation": "According to 2 Chronicles 25:1, Amaziah's mother was Jehoaddan of Jerusalem.",
+          "explanation": "2 Chronicles 25:1 states that Amaziah's mother's name was Jehoaddan of Jerusalem.",
           "verseReference": "2 Chronicles 25:1",
           "difficulty": "easy"
         },
         {
-          "id": "2-chronicles-25-easy-q3",
-          "question": "Did Amaziah do what was right in the sight of the LORD with a perfect heart?",
-          "type": "true-false",
+          "id": "2-chronicles-25-easy-q4",
+          "question": "How is Amaziah's conduct described before the LORD?",
+          "type": "multiple-choice",
           "options": [
-            "True",
-            "False"
+            "He did that which was right but not with a perfect heart",
+            "He did evil in the sight of the LORD",
+            "He did that which was right with a perfect heart",
+            "He was wicked throughout his reign"
           ],
-          "correctAnswer": "False",
+          "correctAnswer": "He did that which was right but not with a perfect heart",
           "explanation": "2 Chronicles 25:2 says Amaziah did that which was right in the sight of the LORD, but not with a perfect heart.",
           "verseReference": "2 Chronicles 25:2",
           "difficulty": "easy"
         },
         {
-          "id": "2-chronicles-25-easy-q4",
-          "question": "What did Amaziah do to the servants who had killed his father?",
+          "id": "2-chronicles-25-easy-q5",
+          "question": "What did Amaziah do to the servants who killed his father?",
           "type": "multiple-choice",
           "options": [
             "He slew them",
-            "He imprisoned them",
-            "He banished them",
-            "He pardoned them"
+            "He spared them",
+            "He made them captains",
+            "He sent them away"
           ],
           "correctAnswer": "He slew them",
-          "explanation": "2 Chronicles 25:3 states that Amaziah slew his servants that had killed the king his father.",
+          "explanation": "2 Chronicles 25:3 states that Amaziah slew his servants who had killed the king his father.",
           "verseReference": "2 Chronicles 25:3",
           "difficulty": "easy"
         },
         {
-          "id": "2-chronicles-25-easy-q5",
-          "question": "What did Amaziah do regarding the children of the slain servants?",
+          "id": "2-chronicles-25-easy-q6",
+          "question": "Did Amaziah kill the children of those servants who killed his father?",
           "type": "multiple-choice",
           "options": [
-            "He spared their children",
-            "He slew their children",
-            "He enslaved their children",
-            "He exiled their children"
+            "No, he did not kill their children",
+            "Yes, he killed their children",
+            "Yes, but only some children",
+            "The text does not say"
           ],
-          "correctAnswer": "He spared their children",
-          "explanation": "2 Chronicles 25:4 explains that Amaziah did not kill the children, but followed the law that fathers shall not die for the children.",
+          "correctAnswer": "No, he did not kill their children",
+          "explanation": "2 Chronicles 25:4 states that he slew not their children, following the law in the book of Moses.",
           "verseReference": "2 Chronicles 25:4",
           "difficulty": "easy"
         },
         {
-          "id": "2-chronicles-25-easy-q6",
-          "question": "How many choice men able to fight did Amaziah find in Judah and Benjamin?",
+          "id": "2-chronicles-25-easy-q7",
+          "question": "How many choice men able to go forth to war did Amaziah find in Judah and Benjamin?",
           "type": "multiple-choice",
           "options": [
             "Three hundred thousand",
@@ -95,139 +112,120 @@
             "Five hundred thousand"
           ],
           "correctAnswer": "Three hundred thousand",
-          "explanation": "2 Chronicles 25:5 mentions that Amaziah found three hundred thousand choice men able to go forth to war.",
+          "explanation": "2 Chronicles 25:5 reports that Amaziah numbered three hundred thousand choice men able to go forth to war.",
           "verseReference": "2 Chronicles 25:5",
           "difficulty": "easy"
         },
         {
-          "id": "2-chronicles-25-easy-q7",
-          "question": "From where did Amaziah hire one hundred thousand mighty men of valour?",
+          "id": "2-chronicles-25-easy-q8",
+          "question": "How many mighty men of valour did Amaziah hire out of Israel?",
           "type": "multiple-choice",
           "options": [
-            "Israel",
-            "Edom",
-            "Philistia",
-            "Moab"
+            "One hundred thousand",
+            "Three hundred thousand",
+            "Fifty thousand",
+            "Two hundred thousand"
           ],
-          "correctAnswer": "Israel",
-          "explanation": "2 Chronicles 25:6 states Amaziah hired one hundred thousand mighty men of valour out of Israel.",
+          "correctAnswer": "One hundred thousand",
+          "explanation": "2 Chronicles 25:6 says Amaziah hired an hundred thousand mighty men of valour out of Israel.",
           "verseReference": "2 Chronicles 25:6",
           "difficulty": "easy"
         },
         {
-          "id": "2-chronicles-25-easy-q8",
-          "question": "True or False: The man of God told Amaziah to take the army of Israel with him because the LORD was with Israel.",
-          "type": "true-false",
+          "id": "2-chronicles-25-easy-q9",
+          "question": "What did the man of God warn Amaziah about the army of Israel?",
+          "type": "multiple-choice",
           "options": [
-            "True",
-            "False"
+            "Let not the army of Israel go with thee, for the LORD is not with Israel",
+            "The army of Israel will bring victory",
+            "The army of Israel should lead the battle",
+            "The army of Israel will be loyal to you"
           ],
-          "correctAnswer": "False",
-          "explanation": "According to 2 Chronicles 25:7, the man of God said the LORD is not with Israel, so Amaziah should not take their army.",
+          "correctAnswer": "Let not the army of Israel go with thee, for the LORD is not with Israel",
+          "explanation": "2 Chronicles 25:7 records the man of God warning Amaziah not to let the army of Israel go with him because the LORD is not with Israel.",
           "verseReference": "2 Chronicles 25:7",
           "difficulty": "easy"
         },
         {
-          "id": "2-chronicles-25-easy-q9",
-          "question": "What did Amaziah do with the army of Israel after the man of God's warning?",
-          "type": "multiple-choice",
-          "options": [
-            "Sent them home",
-            "Kept them with him",
-            "Disbanded them",
-            "Made them captains"
-          ],
-          "correctAnswer": "Sent them home",
-          "explanation": "2 Chronicles 25:10 states Amaziah separated the army that came from Ephraim and sent them home again.",
-          "verseReference": "2 Chronicles 25:10",
-          "difficulty": "easy"
-        },
-        {
           "id": "2-chronicles-25-easy-q10",
-          "question": "How many Edomites did Amaziah kill in the valley of salt?",
+          "question": "How did Amaziah respond to the man of God's warning about the payment to the army of Israel?",
           "type": "multiple-choice",
           "options": [
-            "Ten thousand",
-            "Three thousand",
-            "Twenty thousand",
-            "Five thousand"
+            "He asked what they should do for the hundred talents given",
+            "He ignored the warning",
+            "He immediately sent the army away without comment",
+            "He increased the payment"
           ],
-          "correctAnswer": "Ten thousand",
-          "explanation": "2 Chronicles 25:11 tells that Amaziah smote ten thousand of the children of Seir in the valley of salt.",
-          "verseReference": "2 Chronicles 25:11",
+          "correctAnswer": "He asked what they should do for the hundred talents given",
+          "explanation": "2 Chronicles 25:9 states Amaziah asked the man of God what they should do for the hundred talents he had given to the army of Israel.",
+          "verseReference": "2 Chronicles 25:9",
           "difficulty": "easy"
         },
         {
           "id": "2-chronicles-25-easy-q11",
-          "question": "What did Amaziah do to the other ten thousand Edomites he captured?",
+          "question": "What was the reaction of the army of Israel when Amaziah sent them home?",
           "type": "multiple-choice",
           "options": [
-            "Cast them down from the top of the rock",
-            "Imprisoned them",
-            "Released them",
-            "Made them servants"
+            "Their anger was greatly kindled against Judah",
+            "They rejoiced and went peacefully",
+            "They attacked Judah immediately",
+            "They made a treaty with Amaziah"
           ],
-          "correctAnswer": "Cast them down from the top of the rock",
-          "explanation": "According to 2 Chronicles 25:12, the children of Judah cast down ten thousand Edomites from the top of a rock, breaking them in pieces.",
-          "verseReference": "2 Chronicles 25:12",
+          "correctAnswer": "Their anger was greatly kindled against Judah",
+          "explanation": "2 Chronicles 25:10 says that the army's anger was greatly kindled against Judah and they returned home in great anger.",
+          "verseReference": "2 Chronicles 25:10",
           "difficulty": "easy"
         },
         {
           "id": "2-chronicles-25-easy-q12",
-          "question": "What did the soldiers of the army Amaziah sent back do afterward?",
-          "type": "multiple-choice",
-          "options": [
-            "Attacked cities of Judah",
-            "Returned peacefully home",
-            "Joined Amaziah again",
-            "Went to Edom"
-          ],
-          "correctAnswer": "Attacked cities of Judah",
-          "explanation": "2 Chronicles 25:13 states that the soldiers sent back fell upon the cities of Judah and smote three thousand of them.",
-          "verseReference": "2 Chronicles 25:13",
-          "difficulty": "easy"
-        },
-        {
-          "id": "2-chronicles-25-easy-q13",
-          "question": "Which gods did Amaziah bring and worship after the slaughter of the Edomites?",
-          "type": "multiple-choice",
-          "options": [
-            "Gods of the children of Seir",
-            "The LORD God",
-            "Gods of Israel",
-            "Gods of Moab"
-          ],
-          "correctAnswer": "Gods of the children of Seir",
-          "explanation": "2 Chronicles 25:14 says Amaziah brought the gods of the children of Seir and bowed down before them.",
-          "verseReference": "2 Chronicles 25:14",
-          "difficulty": "easy"
-        },
-        {
-          "id": "2-chronicles-25-easy-q14",
-          "question": "True or False: The LORD sent a prophet to Amaziah to warn him because he sought after the gods of Edom.",
+          "question": "Amaziah made captains over thousands and hundreds according to the houses of their fathers throughout Judah and Benjamin.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "2 Chronicles 25:15 explains that the LORD sent a prophet to Amaziah to question why he sought after gods who could not save.",
-          "verseReference": "2 Chronicles 25:15",
+          "explanation": "2 Chronicles 25:5 states that Amaziah gathered Judah together and made captains over thousands and hundreds according to the houses of their fathers throughout Judah and Benjamin.",
+          "verseReference": "2 Chronicles 25:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "2-chronicles-25-easy-q13",
+          "question": "The LORD commanded that the fathers shall not die for the children, neither shall the children die for the fathers, but every man shall die for his own sin.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "2 Chronicles 25:4 quotes the law in the book of Moses stating that the fathers shall not die for the children, nor the children for the fathers.",
+          "verseReference": "2 Chronicles 25:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "2-chronicles-25-easy-q14",
+          "question": "Amaziah reigned for forty years in Jerusalem.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "2 Chronicles 25:1 states that Amaziah reigned twenty and nine years, not forty.",
+          "verseReference": "2 Chronicles 25:1",
           "difficulty": "easy"
         },
         {
           "id": "2-chronicles-25-easy-q15",
-          "question": "Complete the verse from 2 Chronicles 25:18: 'The thistle that was in Lebanon sent to the cedar that was in Lebanon, saying, Give thy daughter to my son to wife: and there passed by a wild ______ that was in Lebanon, and trode down the thistle.'",
-          "type": "fill-blank",
+          "question": "The man of God told Amaziah that the LORD would help the army of Israel against their enemies.",
+          "type": "true-false",
           "options": [
-            "beast",
-            "lion",
-            "eagle",
-            "wind"
+            "True",
+            "False"
           ],
-          "correctAnswer": "beast",
-          "explanation": "2 Chronicles 25:18 uses the word 'wild beast' to describe what trode down the thistle in Lebanon.",
-          "verseReference": "2 Chronicles 25:18",
+          "correctAnswer": "False",
+          "explanation": "2 Chronicles 25:7 states the LORD is not with Israel, and the man of God warned Amaziah not to take the army of Israel with him.",
+          "verseReference": "2 Chronicles 25:7",
           "difficulty": "easy"
         }
       ],
@@ -254,223 +252,223 @@
       "questions": [
         {
           "id": "2-chronicles-25-medium-q1",
-          "question": "A fellow believer is struggling with pride after a recent success. Based on 2 Chronicles 25, what biblical truth about humility would you share?",
+          "question": "How many children of Seir did Amaziah smite in the valley of salt?",
           "type": "multiple-choice",
           "options": [
-            "Pride leads to downfall and defeat.",
-            "Success is guaranteed when we boast.",
-            "Ignoring God brings protection.",
-            "Boasting strengthens our enemies."
+            "Ten thousand",
+            "Twenty thousand",
+            "Five thousand",
+            "Fifteen thousand"
           ],
-          "correctAnswer": "Pride leads to downfall and defeat.",
-          "explanation": "2 Chronicles 25:19-20 teaches that Amaziah's heart was lifted up in pride after defeating the Edomites, which led to his downfall as God allowed him to be defeated because he sought after other gods.",
-          "verseReference": "2 Chronicles 25:19-20",
+          "correctAnswer": "Ten thousand",
+          "explanation": "2 Chronicles 25:11 states that Amaziah smote ten thousand children of Seir in the valley of salt.",
+          "verseReference": "2 Chronicles 25:11",
           "difficulty": "medium"
         },
         {
           "id": "2-chronicles-25-medium-q2",
-          "question": "How does Amaziah's response to the prophet in 2 Chronicles 25 teach us about obedience and listening to godly counsel?",
+          "question": "What does 2 Chronicles 25:12 promise will happen if someone casts enemies down from the top of a rock as Amaziah did?",
           "type": "multiple-choice",
           "options": [
-            "Ignoring godly counsel leads to destruction.",
-            "Questioning prophets ensures better decisions.",
-            "Obedience is optional if the advice is harsh.",
-            "Godly counsel should be debated endlessly."
+            "They all will be broken in pieces",
+            "They will escape and regroup",
+            "They will be taken as slaves",
+            "They will be forgiven"
           ],
-          "correctAnswer": "Ignoring godly counsel leads to destruction.",
-          "explanation": "In 2 Chronicles 25:15-16, Amaziah rejects the prophet's warning and God’s counsel, resulting in God’s judgment on him, showing the importance of heeding godly advice.",
-          "verseReference": "2 Chronicles 25:15-16",
+          "correctAnswer": "They all will be broken in pieces",
+          "explanation": "2 Chronicles 25:12 explains that the children of Judah cast the captives down from the top of the rock so that they all were broken in pieces.",
+          "verseReference": "2 Chronicles 25:12",
           "difficulty": "medium"
         },
         {
           "id": "2-chronicles-25-medium-q3",
-          "question": "A believer is tempted to compromise their faith for worldly gain. What lesson on faithfulness and integrity does Amaziah's story provide?",
+          "question": "What was the consequence for the cities of Judah after Amaziah sent back the soldiers he hired from Israel?",
           "type": "multiple-choice",
           "options": [
-            "Compromising faith leads to God’s anger and consequences.",
-            "Faithfulness guarantees immediate worldly success.",
-            "Ignoring God’s commands brings blessings.",
-            "Worldly alliances strengthen spiritual walk."
+            "Three thousand were slain and much spoil was taken",
+            "The cities were fortified and safe",
+            "No harm came to them",
+            "The cities rebelled against Amaziah"
           ],
-          "correctAnswer": "Compromising faith leads to God’s anger and consequences.",
-          "explanation": "After defeating the Edomites, Amaziah worshipped their gods (2 Chronicles 25:14), which caused God's anger (v. 15) and led to his downfall (v. 20, 22-23), teaching the importance of faithfulness.",
-          "verseReference": "2 Chronicles 25:14-15",
+          "correctAnswer": "Three thousand were slain and much spoil was taken",
+          "explanation": "2 Chronicles 25:13 shows that the soldiers sent back from Israel fell upon the cities of Judah and smote three thousand of them, taking much spoil.",
+          "verseReference": "2 Chronicles 25:13",
           "difficulty": "medium"
         },
         {
           "id": "2-chronicles-25-medium-q4",
-          "question": "How does 2 Chronicles 25 illustrate the importance of trusting God's guidance in leadership and decision-making?",
+          "question": "How did Amaziah's worship of the gods of Seir affect his relationship with the LORD, according to 2 Chronicles 25:14–15?",
           "type": "multiple-choice",
           "options": [
-            "Trusting God leads to victory and protection.",
-            "Ignoring God's guidance brings success.",
-            "Human strength alone wins battles.",
-            "God’s help is irrelevant in warfare."
+            "The LORD's anger was kindled against him and He sent a prophet to rebuke him",
+            "The LORD blessed him abundantly",
+            "The LORD ignored his actions",
+            "The LORD punished the children of Seir instead"
           ],
-          "correctAnswer": "Trusting God leads to victory and protection.",
-          "explanation": "The man of God warned Amaziah not to take Israel’s army because the LORD was not with Israel (2 Chronicles 25:7-8). Amaziah’s failure to fully trust God resulted in defeat (vv. 22-23).",
-          "verseReference": "2 Chronicles 25:7-8",
+          "correctAnswer": "The LORD's anger was kindled against him and He sent a prophet to rebuke him",
+          "explanation": "2 Chronicles 25:14–15 explains that after Amaziah bowed down to the gods of Seir, the LORD's anger was kindled against him and He sent a prophet to question his idolatry.",
+          "verseReference": "2 Chronicles 25:14-15",
           "difficulty": "medium"
         },
         {
           "id": "2-chronicles-25-medium-q5",
-          "question": "What does Amaziah’s treatment of the children of his father's murderers teach about justice and mercy in biblical parenting and leadership?",
+          "question": "What practical lesson can be learned from Amaziah's refusal to listen to the prophet's counsel about the gods of Edom?",
           "type": "multiple-choice",
           "options": [
-            "Justice requires punishing each person for their own sin.",
-            "Children must always suffer for their parents’ sins.",
-            "Forgiveness is never part of justice.",
-            "Leaders should punish family members for crimes."
+            "Ignoring godly counsel can lead to destruction",
+            "Idolatry brings blessings",
+            "Pride protects a king",
+            "Seeking foreign gods is wise"
           ],
-          "correctAnswer": "Justice requires punishing each person for their own sin.",
-          "explanation": "2 Chronicles 25:3-4 shows Amaziah executed the murderers of his father but spared their children, following the Mosaic law that children should not die for their fathers’ sins.",
-          "verseReference": "2 Chronicles 25:3-4",
+          "correctAnswer": "Ignoring godly counsel can lead to destruction",
+          "explanation": "2 Chronicles 25:16 states that because Amaziah did not heed the prophet's counsel, God had determined to destroy him, showing the importance of obedience and listening to godly advice.",
+          "verseReference": "2 Chronicles 25:16",
           "difficulty": "medium"
         },
         {
           "id": "2-chronicles-25-medium-q6",
-          "question": "A believer is struggling with contentment after seeing others gain more resources. How does Amaziah's story encourage humility and contentment?",
+          "question": "What was Joash king of Israel's warning to Amaziah in 2 Chronicles 25:18–19?",
           "type": "multiple-choice",
           "options": [
-            "Being content and trusting God is better than prideful boasting.",
-            "More riches always prove God's favor.",
-            "Boasting about success pleases God.",
-            "Contentment is irrelevant when pursuing power."
+            "Do not boast and meddle lest you fall",
+            "Celebrate your victory loudly",
+            "Form an alliance with Edom",
+            "Attack Israel immediately"
           ],
-          "correctAnswer": "Being content and trusting God is better than prideful boasting.",
-          "explanation": "Amaziah’s pride after victory led to downfall (2 Chronicles 25:19-20). The narrative encourages humility and trust in God rather than boasting.",
-          "verseReference": "2 Chronicles 25:19-20",
+          "correctAnswer": "Do not boast and meddle lest you fall",
+          "explanation": "2 Chronicles 25:18–19 records Joash warning Amaziah not to be proud over his victory and to avoid meddling in matters that would lead to his downfall.",
+          "verseReference": "2 Chronicles 25:18-19",
           "difficulty": "medium"
         },
         {
           "id": "2-chronicles-25-medium-q7",
-          "question": "How does Amaziah’s action of sending back the Israelite mercenaries teach about trust and dependence on God versus human strength?",
+          "question": "What was the reason given in 2 Chronicles 25:20 for Amaziah's downfall?",
           "type": "multiple-choice",
           "options": [
-            "Dependence on God is crucial rather than relying on foreign armies.",
-            "Hiring mercenaries is always wise.",
-            "Human strength guarantees victory.",
-            "God supports any army if paid well."
+            "Because he sought after the gods of Edom",
+            "Because he trusted in the LORD alone",
+            "Because he listened to the prophet",
+            "Because he allied with Israel"
           ],
-          "correctAnswer": "Dependence on God is crucial rather than relying on foreign armies.",
-          "explanation": "The man of God instructed Amaziah not to bring the Israelite army because God was not with them (2 Chronicles 25:7-10). This teaches reliance on God's guidance rather than human might.",
-          "verseReference": "2 Chronicles 25:7-10",
+          "correctAnswer": "Because he sought after the gods of Edom",
+          "explanation": "2 Chronicles 25:20 explains Amaziah's refusal to listen was allowed by God so that Amaziah would fall due to his idolatry with the gods of Edom.",
+          "verseReference": "2 Chronicles 25:20",
           "difficulty": "medium"
         },
         {
           "id": "2-chronicles-25-medium-q8",
-          "question": "True or False: Amaziah did everything perfectly right in the sight of the LORD during his reign.",
-          "type": "true-false",
+          "question": "Why did Amaziah send back the hundred thousand mighty men of valor from Israel, according to 2 Chronicles 25:7–10?",
+          "type": "multiple-choice",
           "options": [
-            "True",
-            "False"
+            "Because a man of God told him the LORD was not with Israel",
+            "Because he could not pay them",
+            "Because they rebelled against him",
+            "Because they were defeated in battle"
           ],
-          "correctAnswer": "False",
-          "explanation": "2 Chronicles 25:2 states that Amaziah did what was right in the sight of the LORD, but not with a perfect heart, indicating imperfection in his obedience.",
-          "verseReference": "2 Chronicles 25:2",
+          "correctAnswer": "Because a man of God told him the LORD was not with Israel",
+          "explanation": "2 Chronicles 25:7–10 show that a man of God warned Amaziah not to bring Israel's army, so he sent them back despite their anger.",
+          "verseReference": "2 Chronicles 25:7-10",
           "difficulty": "medium"
         },
         {
           "id": "2-chronicles-25-medium-q9",
-          "question": "What does the conflict between Amaziah and Joash teach about the consequences of pride and disobedience?",
+          "question": "What does Amaziah's initial action of strengthening himself and organizing captains over thousands and hundreds teach about leadership in 2 Chronicles 25:5?",
           "type": "multiple-choice",
           "options": [
-            "Pride and disobedience lead to defeat and loss.",
-            "Pride brings honor and victory.",
-            "Disobedience has no consequences.",
-            "Conflict is always resolved peacefully."
+            "Effective leadership requires preparation and organization",
+            "Leaders should avoid planning",
+            "Leadership is solely about personal strength",
+            "Numbers guarantee victory"
           ],
-          "correctAnswer": "Pride and disobedience lead to defeat and loss.",
-          "explanation": "Joash warned Amaziah about pride and meddling (2 Chronicles 25:18-19), but Amaziah ignored the warning and was defeated by Israel (vv. 22-23).",
-          "verseReference": "2 Chronicles 25:18-23",
+          "correctAnswer": "Effective leadership requires preparation and organization",
+          "explanation": "2 Chronicles 25:5 describes Amaziah gathering captains and numbering men for war, illustrating the importance of preparation and structure in leadership.",
+          "verseReference": "2 Chronicles 25:5",
           "difficulty": "medium"
         },
         {
           "id": "2-chronicles-25-medium-q10",
-          "question": "True or False: Amaziah followed God's law by sparing the children of his father's murderers.",
+          "question": "What does the story of Amaziah casting the captives down from the rock in 2 Chronicles 25:12 teach about mercy and consequences in warfare?",
+          "type": "multiple-choice",
+          "options": [
+            "Harsh treatment of captives can reflect a hardened heart",
+            "Mercy is always shown in war",
+            "Captives were always released unharmed",
+            "Victory excuses all actions"
+          ],
+          "correctAnswer": "Harsh treatment of captives can reflect a hardened heart",
+          "explanation": "2 Chronicles 25:12 shows that Amaziah's forces cast captives down to their death, indicating a lack of mercy and a ruthless approach, which has spiritual implications.",
+          "verseReference": "2 Chronicles 25:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "2-chronicles-25-medium-q11",
+          "question": "How can the interaction between Amaziah and the prophet in 2 Chronicles 25:15–16 inform believers about responding to correction?",
+          "type": "multiple-choice",
+          "options": [
+            "Rejecting correction can lead to destruction",
+            "Ignoring correction has no consequences",
+            "Prophets should not speak to kings",
+            "Correction is unnecessary for the righteous"
+          ],
+          "correctAnswer": "Rejecting correction can lead to destruction",
+          "explanation": "2 Chronicles 25:15–16 shows Amaziah refusing the prophet's warning, which led to God's judgment, teaching the importance of humility and openness to correction.",
+          "verseReference": "2 Chronicles 25:15-16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "2-chronicles-25-medium-q12",
+          "question": "What does Joash's metaphor of the thistle and cedar in 2 Chronicles 25:18 imply about pride and humility?",
+          "type": "multiple-choice",
+          "options": [
+            "Pride leads to downfall when faced with greater strength",
+            "The thistle is stronger than the cedar",
+            "Pride protects one from harm",
+            "Humility invites defeat"
+          ],
+          "correctAnswer": "Pride leads to downfall when faced with greater strength",
+          "explanation": "Joash's metaphor in 2 Chronicles 25:18 warns that the small thistle boasting to the mighty cedar is foolish, illustrating that pride without strength invites destruction.",
+          "verseReference": "2 Chronicles 25:18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "2-chronicles-25-medium-q13",
+          "question": "What lesson about faithfulness can be drawn from Amaziah doing right but not with a perfect heart in 2 Chronicles 25:2?",
+          "type": "multiple-choice",
+          "options": [
+            "Partial obedience is insufficient for full blessing",
+            "Doing right is enough regardless of heart",
+            "Heart attitude does not matter",
+            "Faithfulness guarantees success"
+          ],
+          "correctAnswer": "Partial obedience is insufficient for full blessing",
+          "explanation": "2 Chronicles 25:2 indicates Amaziah did right but not perfectly, showing that incomplete faithfulness can limit God's favor and lead to problems.",
+          "verseReference": "2 Chronicles 25:2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "2-chronicles-25-medium-q14",
+          "question": "True or False: Amaziah took advice and sent to Joash king of Israel to see one another face to face before the battle.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "2 Chronicles 25:3-4 emphasizes that Amaziah killed the murderers but spared their children, following the law that children should not be punished for their fathers' sins.",
-          "verseReference": "2 Chronicles 25:3-4",
-          "difficulty": "medium"
-        },
-        {
-          "id": "2-chronicles-25-medium-q11",
-          "question": "When Amaziah faced the decision to keep or send away the Israelite army, what principle about stewardship and trust in God can we learn?",
-          "type": "multiple-choice",
-          "options": [
-            "Trusting God's provision is better than clinging to worldly payment.",
-            "Money should always influence spiritual decisions.",
-            "Stewardship means keeping all hired help regardless of God's will.",
-            "God cannot provide beyond what we pay for."
-          ],
-          "correctAnswer": "Trusting God's provision is better than clinging to worldly payment.",
-          "explanation": "In 2 Chronicles 25:9-10, Amaziah hesitated over the payment he gave but was reminded by the man of God that the LORD can give much more, highlighting trust over money.",
-          "verseReference": "2 Chronicles 25:9-10",
-          "difficulty": "medium"
-        },
-        {
-          "id": "2-chronicles-25-medium-q12",
-          "question": "How does the example of Amaziah’s downfall teach about perseverance and guarding against temptation?",
-          "type": "multiple-choice",
-          "options": [
-            "Yielding to temptation leads to spiritual and practical ruin.",
-            "Temptation can be ignored without consequence.",
-            "Perseverance is unnecessary in leadership.",
-            "Temptation always results in immediate blessings."
-          ],
-          "correctAnswer": "Yielding to temptation leads to spiritual and practical ruin.",
-          "explanation": "Amaziah’s worship of foreign gods after victory (2 Chronicles 25:14) led to God's anger and his eventual death (vv. 15-17, 27), showing the dangers of giving in to temptation.",
-          "verseReference": "2 Chronicles 25:14-17",
-          "difficulty": "medium"
-        },
-        {
-          "id": "2-chronicles-25-medium-q13",
-          "question": "What does the story of Amaziah casting down captives from the rock teach about the biblical call to love and forgiveness?",
-          "type": "multiple-choice",
-          "options": [
-            "Harsh vengeance contradicts the biblical call to mercy and forgiveness.",
-            "Vengeance is always justified in leadership.",
-            "Forgiveness is never required for enemies.",
-            "Love and forgiveness apply only to friends."
-          ],
-          "correctAnswer": "Harsh vengeance contradicts the biblical call to mercy and forgiveness.",
-          "explanation": "2 Chronicles 25:12 describes Amaziah’s brutal treatment of captives, which contrasts with biblical principles of mercy and forgiveness taught elsewhere in Scripture.",
-          "verseReference": "2 Chronicles 25:12",
-          "difficulty": "medium"
-        },
-        {
-          "id": "2-chronicles-25-medium-q14",
-          "question": "Fill in the blank: Amaziah was ____ years old when he began to reign, and he reigned ____ years in Jerusalem.",
-          "type": "fill-blank",
-          "options": [
-            "twenty and five; twenty and nine",
-            "thirty; fifteen",
-            "twenty; thirty",
-            "twenty and nine; twenty and five"
-          ],
-          "correctAnswer": "twenty and five; twenty and nine",
-          "explanation": "2 Chronicles 25:1 states Amaziah was twenty and five years old when he began to reign and reigned twenty and nine years in Jerusalem.",
-          "verseReference": "2 Chronicles 25:1",
+          "explanation": "2 Chronicles 25:17 says Amaziah took advice and sent to Joash king of Israel, suggesting a meeting face to face.",
+          "verseReference": "2 Chronicles 25:17",
           "difficulty": "medium"
         },
         {
           "id": "2-chronicles-25-medium-q15",
-          "question": "How can we apply the lesson about spiritual integrity from Amaziah’s decision to worship the gods of Edom?",
-          "type": "multiple-choice",
+          "question": "True or False: Amaziah obeyed the prophet and abandoned his idols before the battle.",
+          "type": "true-false",
           "options": [
-            "Compromising spiritual integrity leads to divine judgment.",
-            "Spiritual compromise brings blessings.",
-            "Worshiping other gods is acceptable if victorious.",
-            "God ignores mixed worship."
+            "True",
+            "False"
           ],
-          "correctAnswer": "Compromising spiritual integrity leads to divine judgment.",
-          "explanation": "Amaziah’s worship of foreign gods after victory (2 Chronicles 25:14-15) angered the LORD and led to his judgment, illustrating the importance of spiritual integrity.",
-          "verseReference": "2 Chronicles 25:14-15",
+          "correctAnswer": "False",
+          "explanation": "2 Chronicles 25:16 shows Amaziah refusing the prophet's counsel and 25:20 explains his downfall was because he sought the gods of Edom, indicating disobedience.",
+          "verseReference": "2 Chronicles 25:16, 20",
           "difficulty": "medium"
         }
       ],
@@ -497,225 +495,223 @@
       "questions": [
         {
           "id": "2-chronicles-25-hard-q1",
-          "question": "At what age did Amaziah begin to reign over Judah, and how long did he reign according to 2 Chronicles 25?",
+          "question": "Where did Joash king of Israel and Amaziah king of Judah meet face to face?",
           "type": "multiple-choice",
           "options": [
-            "Twenty-five years old, reigned twenty-nine years",
-            "Thirty years old, reigned fifteen years",
-            "Twenty years old, reigned thirty years",
-            "Twenty-five years old, reigned fifteen years"
+            "Bethshemesh",
+            "Lachish",
+            "Jerusalem",
+            "Samaria"
           ],
-          "correctAnswer": "Twenty-five years old, reigned twenty-nine years",
-          "explanation": "2 Chronicles 25:1 states that Amaziah was twenty and five years old when he began to reign, and he reigned twenty and nine years in Jerusalem.",
-          "verseReference": "2 Chronicles 25:1",
+          "correctAnswer": "Bethshemesh",
+          "explanation": "2 Chronicles 25:21 states that Joash and Amaziah saw one another in the face at Bethshemesh.",
+          "verseReference": "2 Chronicles 25:21",
           "difficulty": "hard"
         },
         {
           "id": "2-chronicles-25-hard-q2",
-          "question": "What was the nature of Amaziah's heart in his service to the LORD as described in this chapter?",
+          "question": "What was the outcome of the battle between Judah and Israel at Bethshemesh?",
           "type": "multiple-choice",
           "options": [
-            "Right but not perfect",
-            "Perfect and wholehearted",
-            "Rebellious and disobedient",
-            "Indifferent and careless"
+            "Judah was put to the worse",
+            "Israel was defeated",
+            "The battle was a stalemate",
+            "Both armies retreated"
           ],
-          "correctAnswer": "Right but not perfect",
-          "explanation": "2 Chronicles 25:2 explains that Amaziah did what was right in the sight of the LORD, but not with a perfect heart, indicating partial obedience.",
-          "verseReference": "2 Chronicles 25:2",
+          "correctAnswer": "Judah was put to the worse",
+          "explanation": "2 Chronicles 25:22 explains that Judah was defeated and fled every man to his tent.",
+          "verseReference": "2 Chronicles 25:22",
           "difficulty": "hard"
         },
         {
           "id": "2-chronicles-25-hard-q3",
-          "question": "Which ancient legal principle did Amaziah follow after killing his father's murderers?",
+          "question": "What significant action did Joash king of Israel take after capturing Amaziah?",
           "type": "multiple-choice",
           "options": [
-            "Fathers shall not die for the children, nor children for the fathers",
-            "An eye for an eye, a tooth for a tooth",
-            "The king's justice is absolute",
-            "Exile of entire families for crimes"
+            "Broke down the wall of Jerusalem",
+            "Exiled Amaziah to Samaria",
+            "Took Amaziah as a hostage to Lachish",
+            "Executed Amaziah immediately"
           ],
-          "correctAnswer": "Fathers shall not die for the children, nor children for the fathers",
-          "explanation": "2 Chronicles 25:4 references the Mosaic law that the fathers shall not die for the children, nor children for the fathers, but every man shall die for his own sin, which Amaziah obeyed.",
-          "verseReference": "2 Chronicles 25:4",
+          "correctAnswer": "Broke down the wall of Jerusalem",
+          "explanation": "2 Chronicles 25:23 records that Joash broke down the wall of Jerusalem from the gate of Ephraim to the corner gate.",
+          "verseReference": "2 Chronicles 25:23",
           "difficulty": "hard"
         },
         {
           "id": "2-chronicles-25-hard-q4",
-          "question": "How many choice men able to go to war did Amaziah number in Judah and Benjamin?",
+          "question": "What treasures did Joash take from Jerusalem after defeating Amaziah?",
           "type": "multiple-choice",
           "options": [
-            "Three hundred thousand",
-            "One hundred thousand",
-            "Five hundred thousand",
-            "Two hundred thousand"
+            "Gold, silver, vessels from the house of God, treasures of the king's house, and hostages",
+            "Only the royal treasury",
+            "Only the vessels from the house of God",
+            "Only the hostages"
           ],
-          "correctAnswer": "Three hundred thousand",
-          "explanation": "2 Chronicles 25:5 states that Amaziah numbered three hundred thousand choice men able to handle spear and shield for war.",
-          "verseReference": "2 Chronicles 25:5",
+          "correctAnswer": "Gold, silver, vessels from the house of God, treasures of the king's house, and hostages",
+          "explanation": "2 Chronicles 25:24 details that Joash took all gold, silver, vessels from the house of God, treasures of the king's house, and hostages.",
+          "verseReference": "2 Chronicles 25:24",
           "difficulty": "hard"
         },
         {
           "id": "2-chronicles-25-hard-q5",
-          "question": "What was Amaziah's response to the man of God’s warning about taking the Israelite army with him?",
+          "question": "How many years did Amaziah live after the death of Joash king of Israel?",
           "type": "multiple-choice",
           "options": [
-            "He asked what to do about the hundred talents paid to them",
-            "He ignored the warning and took them anyway",
-            "He immediately dismissed the Israelite army without question",
-            "He sought counsel from the priests instead"
+            "Fifteen years",
+            "Ten years",
+            "Twenty years",
+            "Five years"
           ],
-          "correctAnswer": "He asked what to do about the hundred talents paid to them",
-          "explanation": "2 Chronicles 25:9 shows Amaziah questioning the man of God about the payment given to the Israelite army and what should be done about it.",
-          "verseReference": "2 Chronicles 25:9",
+          "correctAnswer": "Fifteen years",
+          "explanation": "2 Chronicles 25:25 states that Amaziah lived fifteen years after the death of Joash king of Israel.",
+          "verseReference": "2 Chronicles 25:25",
           "difficulty": "hard"
         },
         {
           "id": "2-chronicles-25-hard-q6",
-          "question": "What caused the Israelite army to return home in anger after Amaziah sent them away?",
+          "question": "What eventually happened to Amaziah after he turned away from following the LORD?",
           "type": "multiple-choice",
           "options": [
-            "Their anger was greatly kindled against Judah",
-            "They were bribed by Edomites",
-            "They feared the battle ahead",
-            "They were summoned back by Israel's king"
+            "A conspiracy was made against him and he was killed at Lachish",
+            "He was exiled to Samaria",
+            "He repented and ruled peacefully",
+            "He died of natural causes in Jerusalem"
           ],
-          "correctAnswer": "Their anger was greatly kindled against Judah",
-          "explanation": "2 Chronicles 25:10 explains that when Amaziah sent the Israelite army away, their anger was greatly kindled against Judah, causing them to return home in great anger.",
-          "verseReference": "2 Chronicles 25:10",
+          "correctAnswer": "A conspiracy was made against him and he was killed at Lachish",
+          "explanation": "2 Chronicles 25:27 records that after turning away from the LORD, a conspiracy was made against Amaziah, and he was slain at Lachish.",
+          "verseReference": "2 Chronicles 25:27",
           "difficulty": "hard"
         },
         {
           "id": "2-chronicles-25-hard-q7",
-          "question": "What brutal method did Amaziah's forces use to deal with the surviving Edomites after battle?",
+          "question": "What does the Hebrew word 'chereb' in 2 Chronicles 25:11 mean?",
           "type": "multiple-choice",
           "options": [
-            "They cast them down from the top of a rock",
-            "They sold them into slavery in Babylon",
-            "They imprisoned them in Jerusalem",
-            "They exiled them to the wilderness"
+            "Sword",
+            "Shield",
+            "Spear",
+            "Bow"
           ],
-          "correctAnswer": "They cast them down from the top of a rock",
-          "explanation": "According to 2 Chronicles 25:12, the ten thousand surviving Edomites were brought to the top of a rock and cast down so they were broken in pieces.",
-          "verseReference": "2 Chronicles 25:12",
+          "correctAnswer": "Sword",
+          "explanation": "The Hebrew word 'chereb' (חרב) commonly means 'sword' and is used in 2 Chronicles 25:11 to denote the weapon used by soldiers.",
+          "verseReference": "2 Chronicles 25:11",
           "difficulty": "hard"
         },
         {
           "id": "2-chronicles-25-hard-q8",
-          "question": "True or False: After the victory over Edom, Amaziah remained faithful to the LORD and did not worship foreign gods.",
+          "question": "Which literary device is prominently used in 2 Chronicles 25:18 with the comparison of the thistle and the cedar?",
+          "type": "multiple-choice",
+          "options": [
+            "Parable",
+            "Allegory",
+            "Simile",
+            "Metaphor"
+          ],
+          "correctAnswer": "Metaphor",
+          "explanation": "2 Chronicles 25:18 uses metaphor by comparing the thistle and cedar to represent the relationship between Amaziah and Joash.",
+          "verseReference": "2 Chronicles 25:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-25-hard-q9",
+          "question": "Which New Testament passage echoes the theme of divine judgment for idolatry found in 2 Chronicles 25:14-15?",
+          "type": "multiple-choice",
+          "options": [
+            "Romans 1:18-32",
+            "Matthew 5:3-12",
+            "Acts 2:38",
+            "John 3:16"
+          ],
+          "correctAnswer": "Romans 1:18-32",
+          "explanation": "Romans 1:18-32 discusses God's wrath against idolatry, paralleling the judgment against Amaziah for worshipping Edomite gods in 2 Chronicles 25:14-15.",
+          "verseReference": "2 Chronicles 25:14-15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-25-hard-q10",
+          "question": "Which Old Testament verse foreshadows the consequences experienced by Amaziah for turning to foreign gods as in 2 Chronicles 25:27?",
+          "type": "multiple-choice",
+          "options": [
+            "Deuteronomy 28:15",
+            "Genesis 1:1",
+            "Exodus 20:3",
+            "Psalm 23:1"
+          ],
+          "correctAnswer": "Deuteronomy 28:15",
+          "explanation": "Deuteronomy 28:15 warns of curses and destruction for disobedience, foreshadowing Amaziah’s downfall after turning from the LORD in 2 Chronicles 25:27.",
+          "verseReference": "2 Chronicles 25:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-25-hard-q11",
+          "question": "What event immediately precedes Joash breaking down the wall of Jerusalem in 2 Chronicles 25:23?",
+          "type": "multiple-choice",
+          "options": [
+            "The defeat of Judah before Israel at Bethshemesh",
+            "Amaziah’s turning to foreign gods",
+            "Joash’s sending a prophet to Amaziah",
+            "The conspiracy against Amaziah"
+          ],
+          "correctAnswer": "The defeat of Judah before Israel at Bethshemesh",
+          "explanation": "2 Chronicles 25:22 records Judah's defeat at Bethshemesh immediately before Joash breaks down Jerusalem’s wall in verse 23.",
+          "verseReference": "2 Chronicles 25:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-25-hard-q12",
+          "question": "Which Hebrew literary device is illustrated by the sequence of Amaziah hiring Israelite soldiers and then sending them away in 2 Chronicles 25:6-10?",
+          "type": "multiple-choice",
+          "options": [
+            "Inclusio",
+            "Chiasmus",
+            "Parallelism",
+            "Irony"
+          ],
+          "correctAnswer": "Irony",
+          "explanation": "The irony lies in Amaziah hiring Israelite soldiers to fight but then sending them away, which leads to their anger and subsequent attack on Judah (2 Chronicles 25:6-10).",
+          "verseReference": "2 Chronicles 25:6-10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-25-hard-q13",
+          "question": "How does Amaziah’s action of setting up the gods of Seir after the Edomite slaughter illustrate a typology in 2 Chronicles 25:14?",
+          "type": "multiple-choice",
+          "options": [
+            "It typifies apostasy following military success",
+            "It typifies faithfulness to Yahweh",
+            "It typifies the role of prophets",
+            "It typifies divine protection"
+          ],
+          "correctAnswer": "It typifies apostasy following military success",
+          "explanation": "2 Chronicles 25:14 shows Amaziah’s apostasy by worshipping Edomite gods after victory, a typology of falling away after success.",
+          "verseReference": "2 Chronicles 25:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-25-hard-q14",
+          "question": "True or False: Joash returned all the treasures he took from Jerusalem to Amaziah after the battle.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "2 Chronicles 25:14 reveals that after the slaughter of the Edomites, Amaziah brought and bowed down before the gods of the children of Seir, burning incense to them, which angered the LORD.",
-          "verseReference": "2 Chronicles 25:14",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-25-hard-q9",
-          "question": "What message did the prophet send by the LORD to Amaziah concerning his worship of Edomite gods?",
-          "type": "multiple-choice",
-          "options": [
-            "Why have you sought gods that could not deliver their own people from your hand?",
-            "You will be blessed if you continue",
-            "The gods will protect you in battle",
-            "You should build temples for these gods"
-          ],
-          "correctAnswer": "Why have you sought gods that could not deliver their own people from your hand?",
-          "explanation": "2 Chronicles 25:15 records the prophet's question to Amaziah, challenging his idolatry by pointing out the impotence of these gods.",
-          "verseReference": "2 Chronicles 25:15",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-25-hard-q10",
-          "question": "How did Amaziah respond when the prophet rebuked him about worshiping foreign gods?",
-          "type": "multiple-choice",
-          "options": [
-            "He accused the prophet of being part of the king's counsel and rebuked him",
-            "He repented immediately and ceased worshiping foreign gods",
-            "He imprisoned the prophet for blasphemy",
-            "He sought further prophetic counsel"
-          ],
-          "correctAnswer": "He accused the prophet of being part of the king's counsel and rebuked him",
-          "explanation": "2 Chronicles 25:16 shows Amaziah questioning the prophet's authority and telling him to forbear, indicating resistance to the prophetic word.",
-          "verseReference": "2 Chronicles 25:16",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-25-hard-q11",
-          "question": "What metaphor did Joash king of Israel use in his message to Amaziah to warn him against pride and conflict?",
-          "type": "multiple-choice",
-          "options": [
-            "The thistle in Lebanon sent to the cedar, but a wild beast crushed the thistle",
-            "A lion roaring in the forest warns the sheep",
-            "The vine cannot contend with the oak",
-            "A sparrow challenges the eagle in flight"
-          ],
-          "correctAnswer": "The thistle in Lebanon sent to the cedar, but a wild beast crushed the thistle",
-          "explanation": "2 Chronicles 25:18 recounts Joash's parable comparing Amaziah to a weak thistle challenging the mighty cedar, emphasizing the futility of Amaziah's pride.",
-          "verseReference": "2 Chronicles 25:18",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-25-hard-q12",
-          "question": "What was the outcome of the battle between Amaziah king of Judah and Joash king of Israel?",
-          "type": "multiple-choice",
-          "options": [
-            "Judah was defeated and fled every man to his tent",
-            "Judah won a decisive victory and captured Joash",
-            "The battle ended in a stalemate",
-            "Both armies retreated without fighting"
-          ],
-          "correctAnswer": "Judah was defeated and fled every man to his tent",
-          "explanation": "2 Chronicles 25:22 states that Judah was put to the worse before Israel and they fled every man to his tent, indicating a defeat.",
-          "verseReference": "2 Chronicles 25:22",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-25-hard-q13",
-          "question": "What did Joash king of Israel do after capturing Amaziah king of Judah?",
-          "type": "multiple-choice",
-          "options": [
-            "Broke down a portion of Jerusalem’s wall and took gold, silver, vessels, and hostages",
-            "Executed Amaziah immediately",
-            "Imprisoned Amaziah in Samaria",
-            "Forgave Amaziah and sent him back to Judah"
-          ],
-          "correctAnswer": "Broke down a portion of Jerusalem’s wall and took gold, silver, vessels, and hostages",
-          "explanation": "2 Chronicles 25:23-24 recounts Joash breaking down the wall from the gate of Ephraim to the corner gate and taking valuables and hostages back to Samaria.",
-          "verseReference": "2 Chronicles 25:23",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-25-hard-q14",
-          "question": "How did Amaziah’s reign end according to 2 Chronicles 25?",
-          "type": "multiple-choice",
-          "options": [
-            "He was killed in a conspiracy after fleeing to Lachish",
-            "He died peacefully in Jerusalem",
-            "He abdicated the throne and lived in exile",
-            "He was captured and exiled by Israel"
-          ],
-          "correctAnswer": "He was killed in a conspiracy after fleeing to Lachish",
-          "explanation": "2 Chronicles 25:27 describes a conspiracy against Amaziah, forcing him to flee to Lachish where he was ultimately killed.",
-          "verseReference": "2 Chronicles 25:27",
+          "explanation": "2 Chronicles 25:24 states Joash took the treasures and returned to Samaria, not giving anything back to Amaziah.",
+          "verseReference": "2 Chronicles 25:24",
           "difficulty": "hard"
         },
         {
           "id": "2-chronicles-25-hard-q15",
-          "question": "Theologically, Amaziah’s failure to fully trust God and his subsequent idolatry foreshadow what recurring biblical theme?",
-          "type": "multiple-choice",
+          "question": "True or False: Amaziah’s reign was characterized by perfect faithfulness to the LORD according to 2 Chronicles 25:2.",
+          "type": "true-false",
           "options": [
-            "The downfall of kings who turn from God and the consequences of idolatry",
-            "The ultimate triumph of all kings who fight Israel’s enemies",
-            "The importance of military alliances with foreign nations",
-            "The permanence of Israelite military strength"
+            "True",
+            "False"
           ],
-          "correctAnswer": "The downfall of kings who turn from God and the consequences of idolatry",
-          "explanation": "Amaziah’s narrative in 2 Chronicles 25 illustrates the biblical theme where turning to foreign gods leads to divine judgment and downfall, a pattern seen throughout Israel’s history.",
-          "verseReference": "2 Chronicles 25:14-20",
+          "correctAnswer": "False",
+          "explanation": "2 Chronicles 25:2 explicitly states Amaziah did right in the sight of the LORD but not with a perfect heart.",
+          "verseReference": "2 Chronicles 25:2",
           "difficulty": "hard"
         }
       ],
@@ -742,227 +738,227 @@
       "questions": [
         {
           "id": "2-chronicles-25-theological-q1",
-          "question": "At what age did Amaziah begin to reign, and how long did he reign in Jerusalem?",
+          "question": "What doctrine does 2 Chronicles 25:4 teach about individual responsibility for sin?",
           "type": "multiple-choice",
           "options": [
-            "Twenty and five years old, reigned twenty and nine years",
-            "Thirty years old, reigned thirty years",
-            "Twenty years old, reigned fifteen years",
-            "Fifteen years old, reigned twenty years"
+            "Each person bears their own guilt and punishment for sin",
+            "Children inherit the sins and punishment of their fathers",
+            "Kings are exempt from punishment for their servants' sins",
+            "Communal guilt extends to all descendants in a family"
           ],
-          "correctAnswer": "Twenty and five years old, reigned twenty and nine years",
-          "explanation": "2 Chronicles 25:1 states Amaziah was twenty and five years old when he began to reign, and he reigned twenty and nine years in Jerusalem. This aligns with biblical records of kings starting their reigns at various ages (e.g., David in 2 Samuel 5:4-5).",
-          "verseReference": "2 Chronicles 25:1",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-25-theological-q2",
-          "question": "How is Amaziah's heart described in relation to his obedience to the LORD?",
-          "type": "multiple-choice",
-          "options": [
-            "Right in the sight of the LORD but not with a perfect heart",
-            "Completely faithful and perfect in heart",
-            "Rebellious and disobedient",
-            "Unaware of the LORD's commands"
-          ],
-          "correctAnswer": "Right in the sight of the LORD but not with a perfect heart",
-          "explanation": "2 Chronicles 25:2 says Amaziah did that which was right in the sight of the LORD, but not with a perfect heart. This reflects the biblical theme that partial obedience is insufficient (cf. 1 Samuel 15:22; Proverbs 4:23).",
-          "verseReference": "2 Chronicles 25:2",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-25-theological-q3",
-          "question": "What action did Amaziah take against the servants who killed his father, the king?",
-          "type": "multiple-choice",
-          "options": [
-            "He slew the servants who killed his father",
-            "He pardoned them",
-            "He imprisoned them for life",
-            "He exiled them from the kingdom"
-          ],
-          "correctAnswer": "He slew the servants who killed his father",
-          "explanation": "2 Chronicles 25:3 records that Amaziah slew his servants who had killed his father, showing a measure of justice consistent with Mosaic law (Exodus 21:14).",
-          "verseReference": "2 Chronicles 25:3",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-25-theological-q4",
-          "question": "What principle from the law of Moses did Amaziah follow regarding the children of his father's killers?",
-          "type": "multiple-choice",
-          "options": [
-            "The fathers shall not die for the children, neither shall the children die for the fathers",
-            "The children must also be punished",
-            "Everyone is guilty for their father's sins",
-            "The children should be exiled"
-          ],
-          "correctAnswer": "The fathers shall not die for the children, neither shall the children die for the fathers",
-          "explanation": "2 Chronicles 25:4 references the Mosaic law that individuals are responsible for their own sin, not that of their relatives (Deuteronomy 24:16; Ezekiel 18:20).",
+          "correctAnswer": "Each person bears their own guilt and punishment for sin",
+          "explanation": "2 Chronicles 25:4 states that 'The fathers shall not die for the children, neither shall the children die for the fathers, but every man shall die for his own sin,' teaching individual responsibility for sin.",
           "verseReference": "2 Chronicles 25:4",
           "difficulty": "hard"
         },
         {
+          "id": "2-chronicles-25-theological-q2",
+          "question": "What doctrine about divine judgment and human pride is taught in 2 Chronicles 25:19?",
+          "type": "multiple-choice",
+          "options": [
+            "Boasting after victory can lead to downfall by divine judgment",
+            "God rewards the proud who trust in their own strength",
+            "Human pride is virtuous when justified by success",
+            "Victory guarantees divine approval regardless of attitude"
+          ],
+          "correctAnswer": "Boasting after victory can lead to downfall by divine judgment",
+          "explanation": "2 Chronicles 25:19 warns Amaziah against pride after victory, implying that such boasting leads to ruin, showing God's judgment on pride.",
+          "verseReference": "2 Chronicles 25:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-25-theological-q3",
+          "question": "What doctrine concerning incomplete obedience does 2 Chronicles 25:2 reveal about human sanctification?",
+          "type": "multiple-choice",
+          "options": [
+            "Doing right but not with a perfect heart demonstrates partial sanctification",
+            "Complete sanctification is achievable through human effort",
+            "External obedience suffices for full righteousness before God",
+            "Sinless perfection is expected at the start of reigns"
+          ],
+          "correctAnswer": "Doing right but not with a perfect heart demonstrates partial sanctification",
+          "explanation": "2 Chronicles 25:2 states Amaziah 'did that which was right...but not with a perfect heart,' showing sanctification is a progressive, imperfect process.",
+          "verseReference": "2 Chronicles 25:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-25-theological-q4",
+          "question": "Which divine attribute does 2 Chronicles 25:8 specifically demonstrate?",
+          "type": "multiple-choice",
+          "options": [
+            "Sovereignty",
+            "Omnipresence",
+            "Immutability",
+            "Immanence"
+          ],
+          "correctAnswer": "Sovereignty",
+          "explanation": "Verse 8 states God has 'power to help, and to cast down,' illustrating divine sovereignty over human affairs and battle outcomes.",
+          "verseReference": "2 Chronicles 25:8",
+          "difficulty": "hard"
+        },
+        {
           "id": "2-chronicles-25-theological-q5",
-          "question": "How many choice men able to go to war did Amaziah find in Judah and Benjamin?",
+          "question": "Which divine attribute does 2 Chronicles 25:15 particularly highlight in God's dealings with Amaziah?",
           "type": "multiple-choice",
           "options": [
-            "Three hundred thousand",
-            "One hundred thousand",
-            "Five hundred thousand",
-            "Fifty thousand"
+            "Holiness",
+            "Mercy",
+            "Justice",
+            "Patience"
           ],
-          "correctAnswer": "Three hundred thousand",
-          "explanation": "2 Chronicles 25:5 states Amaziah numbered three hundred thousand choice men from twenty years old and above, illustrating the military organization in Israelite society (Numbers 1:3-4).",
-          "verseReference": "2 Chronicles 25:5",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-25-theological-q6",
-          "question": "What did Amaziah do to increase his army's strength from Israel?",
-          "type": "multiple-choice",
-          "options": [
-            "Hired one hundred thousand mighty men of valour for one hundred talents of silver",
-            "Formed an alliance without soldiers",
-            "Prayed for divine help only",
-            "Drafted additional men from Judah"
-          ],
-          "correctAnswer": "Hired one hundred thousand mighty men of valour for one hundred talents of silver",
-          "explanation": "2 Chronicles 25:6 describes Amaziah hiring soldiers from Israel, showing reliance on human resources rather than solely on God, which later brought consequences (cf. 2 Kings 13:3).",
-          "verseReference": "2 Chronicles 25:6",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-25-theological-q7",
-          "question": "What warning did the man of God give Amaziah about taking the Israelite army with him?",
-          "type": "multiple-choice",
-          "options": [
-            "The LORD is not with Israel; if you go with them, God will make you fall before the enemy",
-            "The army will bring victory",
-            "The LORD commands you to take them",
-            "The Israelite army is stronger than Judah's"
-          ],
-          "correctAnswer": "The LORD is not with Israel; if you go with them, God will make you fall before the enemy",
-          "explanation": "2 Chronicles 25:7-8 explains the prophet's warning emphasizing God's sovereignty and the futility of trusting in Israel's army, resonating with themes in Judges 7:2 and Psalm 20:7.",
-          "verseReference": "2 Chronicles 25:7",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-25-theological-q8",
-          "question": "How did Amaziah respond when the man of God questioned him about the hundred talents paid to the Israelite army?",
-          "type": "multiple-choice",
-          "options": [
-            "He asked what he should do with the money",
-            "He ignored the question",
-            "He demanded a refund",
-            "He declared the army would stay"
-          ],
-          "correctAnswer": "He asked what he should do with the money",
-          "explanation": "2 Chronicles 25:9 records Amaziah's concern about the money already paid, showing human hesitance to obey God fully, a common biblical motif (Matthew 6:24).",
-          "verseReference": "2 Chronicles 25:9",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-25-theological-q9",
-          "question": "What was the consequence of Amaziah sending the hired Israelite soldiers away?",
-          "type": "multiple-choice",
-          "options": [
-            "Their anger was kindled and they returned home in great anger",
-            "They blessed Amaziah and left peacefully",
-            "They joined the battle anyway",
-            "They took captives from Judah"
-          ],
-          "correctAnswer": "Their anger was kindled and they returned home in great anger",
-          "explanation": "2 Chronicles 25:10 shows the soldiers' anger, highlighting the danger of partial obedience and broken agreements, echoing warnings in Proverbs 3:5-6.",
-          "verseReference": "2 Chronicles 25:10",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-25-theological-q10",
-          "question": "How did Amaziah treat the children of Seir after defeating them?",
-          "type": "multiple-choice",
-          "options": [
-            "Carried away ten thousand captive and cast them down from a rock",
-            "Showed them mercy and released them",
-            "Made peace with them",
-            "Enslaved them without killing"
-          ],
-          "correctAnswer": "Carried away ten thousand captive and cast them down from a rock",
-          "explanation": "2 Chronicles 25:12 describes a brutal act, illustrating the severity of ancient warfare and the consequences of sin and pride (cf. Judges 1:6-7; Deuteronomy 20:13).",
-          "verseReference": "2 Chronicles 25:12",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-25-theological-q11",
-          "question": "What sin did Amaziah commit after his victory over the Edomites?",
-          "type": "multiple-choice",
-          "options": [
-            "He brought and worshipped the gods of the children of Seir",
-            "He offered sacrifices only to the LORD",
-            "He destroyed all foreign idols",
-            "He humbled himself before the LORD"
-          ],
-          "correctAnswer": "He brought and worshipped the gods of the children of Seir",
-          "explanation": "2 Chronicles 25:14 shows Amaziah's idolatry, violating the first commandment (Exodus 20:3) and illustrating how victory can lead to spiritual failure (cf. Judges 8:33).",
-          "verseReference": "2 Chronicles 25:14",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-25-theological-q12",
-          "question": "How did the LORD respond to Amaziah's idolatry?",
-          "type": "multiple-choice",
-          "options": [
-            "Sent a prophet to rebuke him and foretold his destruction",
-            "Blessed him despite his sin",
-            "Ignored the sin",
-            "Removed his enemies immediately"
-          ],
-          "correctAnswer": "Sent a prophet to rebuke him and foretold his destruction",
-          "explanation": "2 Chronicles 25:15-16 records God's judgment through a prophet, consistent with God's holiness and justice (Isaiah 59:2; Ezekiel 18:30-32).",
+          "correctAnswer": "Justice",
+          "explanation": "2 Chronicles 25:15 shows God's anger and sending a prophet to confront Amaziah for idolatry, reflecting God's justice.",
           "verseReference": "2 Chronicles 25:15",
           "difficulty": "hard"
         },
         {
-          "id": "2-chronicles-25-theological-q13",
-          "question": "What was the outcome when Amaziah challenged Joash king of Israel to face him?",
+          "id": "2-chronicles-25-theological-q6",
+          "question": "How does 2 Chronicles 25:11-12 connect with the broader biblical theme of divine judgment on enemies?",
           "type": "multiple-choice",
           "options": [
-            "Judah was defeated and fled",
-            "Judah won a decisive victory",
-            "They made peace without battle",
-            "Joash refused to meet Amaziah"
+            "It exemplifies God's use of Israel as an instrument of judgment on nations",
+            "It contradicts the teaching of loving one's enemies",
+            "It shows human vengeance as superior to divine justice",
+            "It indicates that violence is always condemned in Scripture"
           ],
-          "correctAnswer": "Judah was defeated and fled",
-          "explanation": "2 Chronicles 25:22 shows Judah's defeat, illustrating divine judgment against disobedience and pride (cf. Proverbs 16:18; 1 Corinthians 10:12).",
+          "correctAnswer": "It exemplifies God's use of Israel as an instrument of judgment on nations",
+          "explanation": "The victory over Edomites in verses 11-12 shows God empowering Israel to execute judgment, consistent with biblical themes of divine justice through His people.",
+          "verseReference": "2 Chronicles 25:11-12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-25-theological-q7",
+          "question": "How does 2 Chronicles 25:14–15 foreshadow New Testament teachings on idolatry and apostasy?",
+          "type": "multiple-choice",
+          "options": [
+            "They anticipate warnings against turning from God to false gods",
+            "They endorse syncretism as permissible worship",
+            "They show idolatry as a minor offense",
+            "They predict that idols can sometimes deliver people"
+          ],
+          "correctAnswer": "They anticipate warnings against turning from God to false gods",
+          "explanation": "These verses illustrate the consequences of idolatry, prefiguring New Testament calls to remain faithful to God alone (cf. 1 Corinthians 10:14).",
+          "verseReference": "2 Chronicles 25:14-15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-25-theological-q8",
+          "question": "What combined doctrine do verses 6 and 7 teach about reliance on human strength versus divine support?",
+          "type": "multiple-choice",
+          "options": [
+            "Relying on human mercenaries is futile without God's blessing",
+            "Human military power guarantees victory apart from God",
+            "God supports those who rely on foreign armies",
+            "Hiring soldiers from another kingdom is a sign of faith"
+          ],
+          "correctAnswer": "Relying on human mercenaries is futile without God's blessing",
+          "explanation": "Verse 6 shows Amaziah hiring Israelite soldiers; verse 7 contains a prophecy warning that God is not with Israel, indicating human strength apart from God is insufficient.",
+          "verseReference": "2 Chronicles 25:6-7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-25-theological-q9",
+          "question": "What combined doctrine do verses 24 and 27 teach about divine judgment and the consequences of apostasy for leadership?",
+          "type": "multiple-choice",
+          "options": [
+            "Apostasy leads to political and personal ruin, including loss of wealth and life",
+            "Leaders who turn from God are always protected by their armies",
+            "Divine judgment on kings is delayed until after death",
+            "Material loss is unrelated to spiritual unfaithfulness"
+          ],
+          "correctAnswer": "Apostasy leads to political and personal ruin, including loss of wealth and life",
+          "explanation": "Verse 24 describes Israel plundering Jerusalem after Amaziah's defeat; verse 27 records his assassination after turning from God, showing apostasy's consequences.",
+          "verseReference": "2 Chronicles 25:24,27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-25-theological-q10",
+          "question": "What combined doctrine do verses 4 and 27 teach about sin's consequences and divine justice in leadership contexts?",
+          "type": "multiple-choice",
+          "options": [
+            "Leaders bear personal responsibility and divine justice for their sins",
+            "The sins of leaders are always forgiven without consequence",
+            "Children inherit the punishment for their parents' sins",
+            "Conspiracies against leaders are unrelated to divine judgment"
+          ],
+          "correctAnswer": "Leaders bear personal responsibility and divine justice for their sins",
+          "explanation": "Verse 4 affirms individual responsibility for sin; verse 27 shows Amaziah's death after apostasy, illustrating divine justice upon leaders for their own sins.",
+          "verseReference": "2 Chronicles 25:4,27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-25-theological-q11",
+          "question": "What does 2 Chronicles 25:10-13 teach in response to sceptics who claim God’s promises allow for disobedient alliances without consequence?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s presence is necessary for success; disobedient alliances provoke judgment",
+            "All alliances, regardless of obedience, bring victory",
+            "God ignores disobedient alliances if they involve payment",
+            "The text endorses use of any military help for success"
+          ],
+          "correctAnswer": "God’s presence is necessary for success; disobedient alliances provoke judgment",
+          "explanation": "Verses 10-13 show that sending away the Israelite mercenaries led them to attack Judah’s cities, demonstrating danger of disobedient alliances and God’s absent blessing.",
+          "verseReference": "2 Chronicles 25:10-13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-25-theological-q12",
+          "question": "What doctrine about divine sovereignty over human conflict is revealed in 2 Chronicles 25:22?",
+          "type": "multiple-choice",
+          "options": [
+            "God determines the victor in battles according to His purpose",
+            "Human commanders alone decide battle outcomes",
+            "Victory is random and unrelated to divine will",
+            "Divine sovereignty is limited in earthly warfare"
+          ],
+          "correctAnswer": "God determines the victor in battles according to His purpose",
+          "explanation": "Verse 22 states Judah was put to the worse before Israel, implying God’s sovereign control in determining outcomes of war.",
           "verseReference": "2 Chronicles 25:22",
           "difficulty": "hard"
         },
         {
-          "id": "2-chronicles-25-theological-q14",
-          "question": "What did Joash king of Israel do after capturing Amaziah king of Judah?",
+          "id": "2-chronicles-25-theological-q13",
+          "question": "Which divine attribute is especially evident in 2 Chronicles 25:9 regarding God’s provision?",
           "type": "multiple-choice",
           "options": [
-            "Broke down the wall of Jerusalem and took treasures",
-            "Executed Amaziah immediately",
-            "Restored peace and returned Amaziah",
-            "Formed an alliance with Judah"
+            "Omniscience",
+            "Providence",
+            "Wrath",
+            "Transcendence"
           ],
-          "correctAnswer": "Broke down the wall of Jerusalem and took treasures",
-          "explanation": "2 Chronicles 25:23-24 describes Joash breaking the city walls and taking treasures, a common consequence of defeat in biblical history (cf. 2 Kings 25:10; Nehemiah 2:17).",
-          "verseReference": "2 Chronicles 25:23",
+          "correctAnswer": "Providence",
+          "explanation": "Verse 9 records the man of God assuring Amaziah that God can provide much more than the silver paid, highlighting God’s providential care.",
+          "verseReference": "2 Chronicles 25:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-25-theological-q14",
+          "question": "How does 2 Chronicles 25:23-24 contribute to the theme of divine retribution in the biblical narrative?",
+          "type": "multiple-choice",
+          "options": [
+            "It shows consequences of disobedience include loss of city defenses and wealth",
+            "It suggests divine retribution is always immediate and total",
+            "It denies any divine involvement in political defeats",
+            "It indicates that only foreign nations suffer divine retribution"
+          ],
+          "correctAnswer": "It shows consequences of disobedience include loss of city defenses and wealth",
+          "explanation": "Verses 23-24 describe Joash breaking down Jerusalem’s wall and taking treasures, illustrating divine retribution on Judah due to Amaziah’s failures.",
+          "verseReference": "2 Chronicles 25:23-24",
           "difficulty": "hard"
         },
         {
           "id": "2-chronicles-25-theological-q15",
-          "question": "How did Amaziah's reign end according to this chapter?",
+          "question": "What theological lesson about prophetic ministry does 2 Chronicles 25:16 teach?",
           "type": "multiple-choice",
           "options": [
-            "He was killed after fleeing to Lachish due to a conspiracy",
-            "He died peacefully in Jerusalem",
-            "He was exiled to Babylon",
-            "He abdicated the throne voluntarily"
+            "Prophets faithfully declare God's judgment even if rejected by kings",
+            "Prophets always avoid confrontation with rulers",
+            "Prophets act only to comfort kings",
+            "Prophets can be dismissed without consequence"
           ],
-          "correctAnswer": "He was killed after fleeing to Lachish due to a conspiracy",
-          "explanation": "2 Chronicles 25:27-28 records Amaziah's violent death following a conspiracy, illustrating the consequences of turning away from God (cf. Judges 9:22-25; 1 Kings 2:46).",
-          "verseReference": "2 Chronicles 25:27",
+          "correctAnswer": "Prophets faithfully declare God's judgment even if rejected by kings",
+          "explanation": "Verse 16 shows the prophet warning Amaziah despite the king’s hostility, illustrating prophetic courage and obedience to God’s commission.",
+          "verseReference": "2 Chronicles 25:16",
           "difficulty": "hard"
         }
       ],

@@ -17,9 +17,9 @@
           "type": "multiple-choice",
           "options": [
             "Moses and Aaron",
-            "Joshua and Caleb",
-            "David and Solomon",
-            "Elijah and Elisha"
+            "Joshua",
+            "Caleb",
+            "Pharaoh"
           ],
           "correctAnswer": "Moses and Aaron",
           "explanation": "Numbers 33:1 states that the children of Israel went forth out of Egypt under the hand of Moses and Aaron.",
@@ -28,206 +28,204 @@
         },
         {
           "id": "numbers-33-easy-q2",
-          "question": "Where did the children of Israel first depart from in their journey out of Egypt?",
+          "question": "What did Moses do according to the commandment of the LORD in Numbers 33?",
           "type": "multiple-choice",
           "options": [
-            "Succoth",
-            "Rameses",
-            "Etham",
-            "Pihahiroth"
+            "Wrote the journeys of the children of Israel",
+            "Built an altar",
+            "Led the army into battle",
+            "Offered sacrifices"
           ],
-          "correctAnswer": "Rameses",
-          "explanation": "Numbers 33:3 says they departed from Rameses on the fifteenth day of the first month.",
-          "verseReference": "Numbers 33:3",
+          "correctAnswer": "Wrote the journeys of the children of Israel",
+          "explanation": "Numbers 33:2 says Moses wrote their goings out according to their journeys by the commandment of the LORD.",
+          "verseReference": "Numbers 33:2",
           "difficulty": "easy"
         },
         {
           "id": "numbers-33-easy-q3",
-          "question": "What significant event happened among the Egyptians as the Israelites left Egypt?",
+          "question": "From which place did the children of Israel depart on the fifteenth day of the first month?",
           "type": "multiple-choice",
           "options": [
-            "The plagues of frogs",
-            "The Egyptians buried all their firstborn",
-            "The Red Sea parted",
-            "The manna began to fall"
+            "Rameses",
+            "Succoth",
+            "Etham",
+            "Sinai"
           ],
-          "correctAnswer": "The Egyptians buried all their firstborn",
-          "explanation": "Numbers 33:4 explains that the Egyptians buried all their firstborn whom the LORD had smitten among them.",
-          "verseReference": "Numbers 33:4",
+          "correctAnswer": "Rameses",
+          "explanation": "Numbers 33:3 states that they departed from Rameses on the fifteenth day of the first month.",
+          "verseReference": "Numbers 33:3",
           "difficulty": "easy"
         },
         {
           "id": "numbers-33-easy-q4",
-          "question": "After leaving Rameses, where did the children of Israel camp next?",
-          "type": "multiple-choice",
+          "question": "True or False: The Egyptians buried all their firstborn because the LORD had smitten them.",
+          "type": "true-false",
           "options": [
-            "Etham",
-            "Succoth",
-            "Migdol",
-            "Marah"
+            "True",
+            "False"
           ],
-          "correctAnswer": "Succoth",
-          "explanation": "Numbers 33:5 states that after Rameses, they pitched in Succoth.",
-          "verseReference": "Numbers 33:5",
+          "correctAnswer": "True",
+          "explanation": "Numbers 33:4 confirms that the Egyptians buried all their firstborn whom the LORD had smitten among them.",
+          "verseReference": "Numbers 33:4",
           "difficulty": "easy"
         },
         {
           "id": "numbers-33-easy-q5",
-          "question": "How many fountains of water were at Elim where the Israelites camped?",
+          "question": "Where did the children of Israel pitch immediately after leaving Rameses?",
           "type": "multiple-choice",
           "options": [
-            "Seven",
-            "Twelve",
-            "Twenty",
-            "Thirty"
+            "Succoth",
+            "Etham",
+            "Pihahiroth",
+            "Marah"
           ],
-          "correctAnswer": "Twelve",
-          "explanation": "Numbers 33:9 mentions that in Elim there were twelve fountains of water and seventy palm trees.",
-          "verseReference": "Numbers 33:9",
+          "correctAnswer": "Succoth",
+          "explanation": "Numbers 33:5 records that the children of Israel removed from Rameses and pitched in Succoth.",
+          "verseReference": "Numbers 33:5",
           "difficulty": "easy"
         },
         {
           "id": "numbers-33-easy-q6",
-          "question": "Where did the children of Israel camp where there was no water for the people to drink?",
+          "question": "After leaving Succoth, where did the Israelites pitch next?",
+          "type": "multiple-choice",
+          "options": [
+            "Etham",
+            "Rithmah",
+            "Alush",
+            "Dophkah"
+          ],
+          "correctAnswer": "Etham",
+          "explanation": "Numbers 33:6 states that they departed from Succoth and pitched in Etham.",
+          "verseReference": "Numbers 33:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-33-easy-q7",
+          "question": "True or False: The children of Israel turned again unto Pihahiroth and pitched before Migdol.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Numbers 33:7 confirms that after Etham, they turned again to Pihahiroth and pitched before Migdol.",
+          "verseReference": "Numbers 33:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-33-easy-q8",
+          "question": "What significant event happened as the children of Israel departed from before Pihahiroth?",
+          "type": "multiple-choice",
+          "options": [
+            "They passed through the midst of the sea",
+            "They received manna",
+            "They built an altar",
+            "They crossed the Jordan River"
+          ],
+          "correctAnswer": "They passed through the midst of the sea",
+          "explanation": "Numbers 33:8 records that they departed from before Pihahiroth and passed through the midst of the sea into the wilderness.",
+          "verseReference": "Numbers 33:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-33-easy-q9",
+          "question": "Where did the children of Israel pitch after traveling three days in the wilderness of Etham?",
+          "type": "multiple-choice",
+          "options": [
+            "Marah",
+            "Elim",
+            "Sinai",
+            "Rimmonparez"
+          ],
+          "correctAnswer": "Marah",
+          "explanation": "Numbers 33:8 shows they went three days' journey in the wilderness of Etham and pitched in Marah.",
+          "verseReference": "Numbers 33:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-33-easy-q10",
+          "question": "Which location is described as having twelve fountains of water and seventy palm trees?",
+          "type": "multiple-choice",
+          "options": [
+            "Elim",
+            "Marah",
+            "Succoth",
+            "Rameses"
+          ],
+          "correctAnswer": "Elim",
+          "explanation": "Numbers 33:9 describes Elim as having twelve fountains of water and seventy palm trees.",
+          "verseReference": "Numbers 33:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-33-easy-q11",
+          "question": "True or False: The children of Israel encamped by the Red sea after leaving Elim.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Numbers 33:10 states they removed from Elim and encamped by the Red sea.",
+          "verseReference": "Numbers 33:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "numbers-33-easy-q12",
+          "question": "What was the name of the place where there was no water for the people to drink?",
           "type": "multiple-choice",
           "options": [
             "Rephidim",
             "Alush",
             "Dophkah",
-            "Sin"
+            "Sinai"
           ],
           "correctAnswer": "Rephidim",
-          "explanation": "Numbers 33:14 states that at Rephidim there was no water for the people to drink.",
+          "explanation": "Numbers 33:14 says they encamped at Rephidim, where there was no water for the people to drink.",
           "verseReference": "Numbers 33:14",
           "difficulty": "easy"
         },
         {
-          "id": "numbers-33-easy-q7",
-          "question": "At what location did Aaron the priest die?",
-          "type": "multiple-choice",
-          "options": [
-            "Mount Hor",
-            "Mount Sinai",
-            "Mount Nebo",
-            "Mount Shapher"
-          ],
-          "correctAnswer": "Mount Hor",
-          "explanation": "Numbers 33:38 states that Aaron died at Mount Hor at the LORD's command.",
-          "verseReference": "Numbers 33:38",
-          "difficulty": "easy"
-        },
-        {
-          "id": "numbers-33-easy-q8",
-          "question": "How old was Aaron when he died?",
-          "type": "multiple-choice",
-          "options": [
-            "123 years old",
-            "120 years old",
-            "110 years old",
-            "130 years old"
-          ],
-          "correctAnswer": "123 years old",
-          "explanation": "Numbers 33:39 states that Aaron was 123 years old when he died.",
-          "verseReference": "Numbers 33:39",
-          "difficulty": "easy"
-        },
-        {
-          "id": "numbers-33-easy-q9",
-          "question": "Which king heard about the coming of the children of Israel?",
-          "type": "multiple-choice",
-          "options": [
-            "King Arad",
-            "King Balak",
-            "King Sihon",
-            "King Og"
-          ],
-          "correctAnswer": "King Arad",
-          "explanation": "Numbers 33:40 mentions King Arad the Canaanite who heard of the Israelites' coming.",
-          "verseReference": "Numbers 33:40",
-          "difficulty": "easy"
-        },
-        {
-          "id": "numbers-33-easy-q10",
-          "question": "True or False: According to Numbers 33, the children of Israel encamped near the Jordan by Jericho before entering Canaan.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Numbers 33:48 says they pitched in the plains of Moab by Jordan near Jericho.",
-          "verseReference": "Numbers 33:48",
-          "difficulty": "easy"
-        },
-        {
-          "id": "numbers-33-easy-q11",
-          "question": "True or False: Numbers 33 commands the Israelites to destroy the inhabitants' idols and high places when entering Canaan.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Numbers 33:52 instructs to destroy all pictures, molten images, and high places of the inhabitants.",
-          "verseReference": "Numbers 33:52",
-          "difficulty": "easy"
-        },
-        {
-          "id": "numbers-33-easy-q12",
-          "question": "True or False: The LORD promised that the Israelites would dwell in the land after dispossessing the inhabitants.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Numbers 33:53 states that God gave the land to the Israelites to possess and dwell in after dispossessing its inhabitants.",
-          "verseReference": "Numbers 33:53",
-          "difficulty": "easy"
-        },
-        {
           "id": "numbers-33-easy-q13",
-          "question": "Complete the verse from Numbers 33:54: 'And ye shall divide the land by lot for an inheritance among your families: and to the more ye shall give the more inheritance, and to the fewer ye shall give the less inheritance: every man's inheritance shall be in the place where his _______ falleth.'",
-          "type": "fill-blank",
+          "question": "In Numbers 33, which location comes immediately after Dophkah in the journey sequence?",
+          "type": "multiple-choice",
           "options": [
-            "name",
-            "tribe",
-            "family",
-            "lot"
+            "Alush",
+            "Rephidim",
+            "Sinai",
+            "Marah"
           ],
-          "correctAnswer": "lot",
-          "explanation": "Numbers 33:54 states that every man's inheritance shall be in the place where his lot falleth.",
-          "verseReference": "Numbers 33:54",
+          "correctAnswer": "Alush",
+          "explanation": "Numbers 33:13 shows they departed from Dophkah and encamped in Alush.",
+          "verseReference": "Numbers 33:13",
           "difficulty": "easy"
         },
         {
           "id": "numbers-33-easy-q14",
-          "question": "From which location did the Israelites depart just before Aaron died?",
-          "type": "multiple-choice",
+          "question": "True or False: After leaving Rephidim, the children of Israel pitched in the wilderness of Sinai.",
+          "type": "true-false",
           "options": [
-            "Kadesh",
-            "Mount Hor",
-            "Eziongeber",
-            "Jotbathah"
+            "True",
+            "False"
           ],
-          "correctAnswer": "Kadesh",
-          "explanation": "Numbers 33:36-37 shows they removed from Kadesh and pitched at Mount Hor where Aaron died.",
-          "verseReference": "Numbers 33:36-38",
+          "correctAnswer": "True",
+          "explanation": "Numbers 33:15 confirms they departed from Rephidim and pitched in the wilderness of Sinai.",
+          "verseReference": "Numbers 33:15",
           "difficulty": "easy"
         },
         {
           "id": "numbers-33-easy-q15",
-          "question": "What consequence did God say would happen if the Israelites did not drive out the inhabitants of the land?",
+          "question": "In what order did these locations come in the journey of the Israelites? Choose the first location in the list according to Numbers 33.",
           "type": "multiple-choice",
           "options": [
-            "They would be cursed with famine",
-            "The remaining inhabitants would be thorns in their sides",
-            "They would be taken captive by their enemies",
-            "They would lose their inheritance"
+            "Rithmah",
+            "Succoth",
+            "Rimmonparez",
+            "Hazeroth"
           ],
-          "correctAnswer": "The remaining inhabitants would be thorns in their sides",
-          "explanation": "Numbers 33:55 explains that if they do not drive out the inhabitants, those left will be pricks in their eyes and thorns in their sides.",
-          "verseReference": "Numbers 33:55",
+          "correctAnswer": "Succoth",
+          "explanation": "Numbers 33 shows Succoth (verse 5) comes first, followed later by Hazeroth (verse 17), then Rithmah (verse 18), and Rimmonparez (verse 19).",
+          "verseReference": "Numbers 33:5",
           "difficulty": "easy"
         }
       ],
@@ -254,223 +252,221 @@
       "questions": [
         {
           "id": "numbers-33-medium-q1",
-          "question": "A fellow believer is struggling with perseverance through trials during a long journey. Based on Numbers 33, what biblical truth would you share about trusting God's guidance?",
+          "question": "Where did the children of Israel pitch after departing from Rimmonparez?",
           "type": "multiple-choice",
           "options": [
-            "God leads His people step by step and provides direction throughout their journey",
-            "We must rely solely on our own wisdom to overcome difficulties",
-            "Trials mean God has abandoned us and we should give up",
-            "Success depends only on human effort, not on divine guidance"
+            "Libnah",
+            "Rissah",
+            "Mithcah",
+            "Tarah"
           ],
-          "correctAnswer": "God leads His people step by step and provides direction throughout their journey",
-          "explanation": "Numbers 33 recounts the detailed journeys of Israel under God's command, showing His continuous guidance (vv. 1-2, 15-16, 48-49). This teaches believers to trust God's step-by-step leadership in their trials.",
-          "verseReference": "Numbers 33:1-2",
+          "correctAnswer": "Libnah",
+          "explanation": "Numbers 33:20 states that after departing from Rimmonparez, the children of Israel pitched in Libnah. The verses following show the progression from Libnah to other locations such as Rissah and Mithcah.",
+          "verseReference": "Numbers 33:20",
           "difficulty": "medium"
         },
         {
           "id": "numbers-33-medium-q2",
-          "question": "How does the account of Aaron's death in Numbers 33 teach us about humility and accepting God's timing?",
+          "question": "According to Numbers 33, what lesson about obedience can be drawn from the Israelites' journey from Libnah to Rissah?",
           "type": "multiple-choice",
           "options": [
-            "Even great leaders must submit humbly to God's sovereign timing",
-            "Leaders should resist God's plans for their lives",
-            "Longevity guarantees success and blessing",
-            "We can avoid God's appointed times through prayer"
+            "Faithful obedience leads to steady progress",
+            "Disobedience causes immediate punishment",
+            "God's guidance is only occasional",
+            "Travel was random and unplanned"
           ],
-          "correctAnswer": "Even great leaders must submit humbly to God's sovereign timing",
-          "explanation": "Numbers 33:38-39 shows Aaron dying at God's command, reminding believers to accept God's timing with humility regardless of their status.",
-          "verseReference": "Numbers 33:38-39",
+          "correctAnswer": "Faithful obedience leads to steady progress",
+          "explanation": "Verses 21 and 22 show the Israelites moving orderly from Libnah to Rissah and then to Kehelathah, illustrating that following God's command leads to steady progress in their journey. This reflects the virtue of faith and trust in God's direction.",
+          "verseReference": "Numbers 33:21-22",
           "difficulty": "medium"
         },
         {
           "id": "numbers-33-medium-q3",
-          "question": "A believer is unsure about sharing their faith in difficult surroundings. What does Numbers 33 teach about obedience in advancing God's kingdom?",
+          "question": "What significant event is recorded at Mount Hor according to Numbers 33?",
           "type": "multiple-choice",
           "options": [
-            "Obedience to God's commands includes driving out obstacles and claiming His promises",
-            "Avoid confronting challenges and remain silent",
-            "Faithfulness means waiting passively for circumstances to improve",
-            "Evangelism is optional when conditions are hard"
+            "Aaron the priest died there",
+            "The Israelites defeated the Edomites",
+            "Moses received the Ten Commandments",
+            "The Israelites crossed the Jordan River"
           ],
-          "correctAnswer": "Obedience to God's commands includes driving out obstacles and claiming His promises",
-          "explanation": "Numbers 33:51-53 instructs Israel to drive out inhabitants and possess the land, illustrating the call to obediently claim God's promises despite opposition.",
-          "verseReference": "Numbers 33:51-53",
+          "correctAnswer": "Aaron the priest died there",
+          "explanation": "Numbers 33:38 clearly states that Aaron the priest went up into Mount Hor at the commandment of the LORD and died there, marking a key moment in Israel's journey and highlighting obedience to God's commands.",
+          "verseReference": "Numbers 33:38",
           "difficulty": "medium"
         },
         {
           "id": "numbers-33-medium-q4",
-          "question": "In what way does the journey of Israel in Numbers 33 encourage believers to practice contentment and gratitude?",
+          "question": "How does Numbers 33:38-39 teach us about humility and accepting God's timing?",
           "type": "multiple-choice",
           "options": [
-            "Acknowledging God's provision at each encampment fosters gratitude and contentment",
-            "Constantly complaining about conditions is justified",
-            "Waiting for ideal circumstances is necessary for faithfulness",
-            "Contentment is irrelevant during trials"
+            "Aaron died at God's appointed time, showing submission to divine will",
+            "Aaron tried to delay his death but failed",
+            "God was angry with Aaron and punished him prematurely",
+            "Moses and Aaron argued over leadership"
           ],
-          "correctAnswer": "Acknowledging God's provision at each encampment fosters gratitude and contentment",
-          "explanation": "Verses such as 33:9 and 33:10 show Israel's stops where God provided water and shade, teaching believers to appreciate God's daily provisions and be content.",
-          "verseReference": "Numbers 33:9-10",
+          "correctAnswer": "Aaron died at God's appointed time, showing submission to divine will",
+          "explanation": "Verses 38 and 39 show Aaron dying at the LORD's command in the fortieth year after the Exodus, at age 123. This teaches believers to accept God's timing with humility and trust in His plan.",
+          "verseReference": "Numbers 33:38-39",
           "difficulty": "medium"
         },
         {
           "id": "numbers-33-medium-q5",
-          "question": "A Christian parent wants to teach their children about perseverance. How does the record of Israel's travels in Numbers 33 model perseverance in the faith journey?",
+          "question": "After departing from Moseroth, where did the Israelites pitch according to Numbers 33?",
           "type": "multiple-choice",
           "options": [
-            "The numerous stages of travel show steady progress despite hardships",
-            "Quick success is the only sign of God's favor",
-            "Giving up after the first difficulty is expected",
-            "Faith is proven by avoiding challenges"
+            "Benejaakan",
+            "Horhagidgad",
+            "Ebronah",
+            "Jotbathah"
           ],
-          "correctAnswer": "The numerous stages of travel show steady progress despite hardships",
-          "explanation": "The detailed listing of Israel’s many encampments (vv. 3-49) reflects persistent movement forward, encouraging believers to persevere steadily in faith and life.",
-          "verseReference": "Numbers 33:3-49",
+          "correctAnswer": "Benejaakan",
+          "explanation": "Numbers 33:31 states that after departing from Moseroth, the Israelites pitched in Benejaakan. This is part of the detailed recording of their journey.",
+          "verseReference": "Numbers 33:31",
           "difficulty": "medium"
         },
         {
           "id": "numbers-33-medium-q6",
-          "question": "How does Numbers 33 instruct believers about spiritual discipline through obedience to God's commands?",
-          "type": "multiple-choice",
-          "options": [
-            "Obedience to God's instructions about the land's possession is essential for blessing",
-            "Ignoring God's commands leads to spiritual growth",
-            "Disobedience has no consequences in God's plan",
-            "God’s commands are only suggestions"
-          ],
-          "correctAnswer": "Obedience to God's instructions about the land's possession is essential for blessing",
-          "explanation": "Verses 33:51-56 emphasize the necessity of obeying God's commands about dispossessing the land’s inhabitants to avoid trouble and receive blessing.",
-          "verseReference": "Numbers 33:51-56",
-          "difficulty": "medium"
-        },
-        {
-          "id": "numbers-33-medium-q7",
-          "question": "A believer struggling with temptation asks for counsel. How does Numbers 33 warn about the consequences of not fully obeying God?",
-          "type": "multiple-choice",
-          "options": [
-            "Remaining disobedient leads to ongoing vexation like thorns in the sides",
-            "Temptation has no lasting effect on believers",
-            "Disobedience is always without consequence",
-            "God ignores partial obedience"
-          ],
-          "correctAnswer": "Remaining disobedient leads to ongoing vexation like thorns in the sides",
-          "explanation": "Numbers 33:55 warns that failure to drive out inhabitants causes them to be 'pricks in your eyes, and thorns in your sides', symbolizing persistent trouble due to disobedience.",
-          "verseReference": "Numbers 33:55",
-          "difficulty": "medium"
-        },
-        {
-          "id": "numbers-33-medium-q8",
-          "question": "True or False: According to Numbers 33, the children of Israel moved directly from Egypt to the promised land without stopping.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "False",
-          "explanation": "Numbers 33:3-49 lists many stopping points during the journey, showing Israel did not travel directly but followed God’s appointed stages.",
-          "verseReference": "Numbers 33:3-49",
-          "difficulty": "medium"
-        },
-        {
-          "id": "numbers-33-medium-q9",
-          "question": "True or False: Numbers 33 teaches that God’s promises require active obedience and trust in His timing.",
+          "question": "True or False: According to Numbers 33:36-37, the Israelites pitched in Kadesh before moving to Mount Hor.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "The chapter shows God directing Israel’s journey and commanding obedience for possession of the land (vv. 1-2, 51-53), illustrating that promises involve trusting and obeying God’s timing.",
-          "verseReference": "Numbers 33:1-2, 51-53",
+          "explanation": "Numbers 33:36 records the Israelites pitching in the wilderness of Zin, which is Kadesh, and verse 37 notes their departure from Kadesh to Mount Hor, confirming the sequence.",
+          "verseReference": "Numbers 33:36-37",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-33-medium-q7",
+          "question": "What does Numbers 33:55 warn will happen if the Israelites do not drive out the inhabitants of the land?",
+          "type": "multiple-choice",
+          "options": [
+            "Those left will become pricks in their eyes and thorns in their sides",
+            "They will be immediately defeated in battle",
+            "Their crops will fail",
+            "They will lose their inheritance"
+          ],
+          "correctAnswer": "Those left will become pricks in their eyes and thorns in their sides",
+          "explanation": "Numbers 33:55 warns that if the Israelites fail to drive out the inhabitants, those left will be a continual source of vexation, teaching the importance of obedience and the consequences of compromise.",
+          "verseReference": "Numbers 33:55",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-33-medium-q8",
+          "question": "Based on Numbers 33:50-53, what is the promised outcome if the Israelites obey God's command to drive out the inhabitants?",
+          "type": "multiple-choice",
+          "options": [
+            "They will possess the land given by God",
+            "They will have to wander longer",
+            "They will be punished for their sins",
+            "They will become slaves"
+          ],
+          "correctAnswer": "They will possess the land given by God",
+          "explanation": "Verses 50-53 show the LORD commanding Moses to tell Israel to drive out inhabitants so they can possess the land God has given them. This emphasizes the blessing tied to obedience.",
+          "verseReference": "Numbers 33:50-53",
+          "difficulty": "medium"
+        },
+        {
+          "id": "numbers-33-medium-q9",
+          "question": "According to Numbers 33:22-24, what can we learn about perseverance in the Christian life from the Israelites journey through Kehelathah, Mount Shapher, and Haradah?",
+          "type": "multiple-choice",
+          "options": [
+            "Continuous movement and endurance are necessary to reach God's promises",
+            "Resting prematurely is encouraged",
+            "Moving without direction leads to success",
+            "Ignoring hardships leads to growth"
+          ],
+          "correctAnswer": "Continuous movement and endurance are necessary to reach God's promises",
+          "explanation": "The Israelites' steady progress from Kehelathah to Mount Shapher and then to Haradah illustrates perseverance and trust in God's guidance through challenges, teaching believers to endure faithfully.",
+          "verseReference": "Numbers 33:22-24",
           "difficulty": "medium"
         },
         {
           "id": "numbers-33-medium-q10",
-          "question": "Fill in the blank: According to Numbers 33, Aaron died on Mount ____, at the command of the LORD.",
-          "type": "fill-in-the-blank",
+          "question": "True or False: According to Numbers 33:40, King Arad the Canaanite welcomed the Israelites peacefully.",
+          "type": "true-false",
           "options": [
-            "Hor",
-            "Sinai",
-            "Ebronah",
-            "Rameses"
+            "True",
+            "False"
           ],
-          "correctAnswer": "Hor",
-          "explanation": "Numbers 33:37-38 records Aaron’s death at Mount Hor by God's command, teaching submission to God's sovereign plan.",
-          "verseReference": "Numbers 33:37-38",
+          "correctAnswer": "False",
+          "explanation": "Numbers 33:40 states that King Arad heard of the coming of the Israelites, implying opposition rather than peaceful welcome, reflecting the challenges the Israelites faced.",
+          "verseReference": "Numbers 33:40",
           "difficulty": "medium"
         },
         {
           "id": "numbers-33-medium-q11",
-          "question": "How does Numbers 33 encourage integrity and honesty in daily life through its record of Israel’s journey?",
+          "question": "What virtue does the detailed record of the Israelites' journeys in Numbers 33:1-2 teach us?",
           "type": "multiple-choice",
           "options": [
-            "Moses faithfully recorded all journeys as God commanded, exemplifying honesty",
-            "Selective reporting is acceptable for convenience",
-            "Truth is relative depending on circumstances",
-            "Ignoring facts helps maintain peace"
+            "Faithfulness in remembering God's guidance",
+            "Ignoring past troubles",
+            "Relying only on human wisdom",
+            "Keeping plans secret"
           ],
-          "correctAnswer": "Moses faithfully recorded all journeys as God commanded, exemplifying honesty",
-          "explanation": "Verse 2 states Moses wrote down the journeys as instructed by the LORD, showing the value of integrity and truthful record-keeping.",
-          "verseReference": "Numbers 33:2",
+          "correctAnswer": "Faithfulness in remembering God's guidance",
+          "explanation": "Verses 1-2 highlight Moses writing down the journeys by the LORD's command, teaching believers to faithfully remember and record God's faithfulness and guidance in their lives.",
+          "verseReference": "Numbers 33:1-2",
           "difficulty": "medium"
         },
         {
           "id": "numbers-33-medium-q12",
-          "question": "A church leader wants to teach about serving others. How does Numbers 33 reflect the importance of community and fellowship in the journey of faith?",
+          "question": "According to Numbers 33:38, what does Aaron's death teach about leadership transition in God's plan?",
           "type": "multiple-choice",
           "options": [
-            "The detailed record of all the campsites highlights the collective journey of God’s people together",
-            "Faith is a purely individual pursuit without community",
-            "Leaders should separate from the people",
-            "Fellowship is only for convenience"
+            "Leaders must accept their time will end as part of God's design",
+            "Leaders are immortal",
+            "Leadership ends abruptly without God's involvement",
+            "Leadership is unimportant"
           ],
-          "correctAnswer": "The detailed record of all the campsites highlights the collective journey of God’s people together",
-          "explanation": "The chapter’s listing of Israel’s encampments (vv. 3-49) underscores the communal nature of their journey, teaching believers to value fellowship and mutual support.",
-          "verseReference": "Numbers 33:3-49",
+          "correctAnswer": "Leaders must accept their time will end as part of God's design",
+          "explanation": "Aaron's death on Mount Hor at God's command shows that leadership transitions occur according to divine plan, teaching humility and trust in God's timing.",
+          "verseReference": "Numbers 33:38",
           "difficulty": "medium"
         },
         {
           "id": "numbers-33-medium-q13",
-          "question": "What practical lesson on stewardship can be drawn from God’s command to divide the land by lot among the tribes in Numbers 33?",
+          "question": "What practical lesson about trust can a believer learn from the Israelites' camping at Ebronah and then at Eziongaber (Numbers 33:34-35)?",
           "type": "multiple-choice",
           "options": [
-            "God expects orderly and fair stewardship of resources within families and communities",
-            "Resources should be taken without order or fairness",
-            "Stewardship is unimportant in God’s plan",
-            "Everyone should receive the same amount regardless of family size"
+            "Trusting God means moving forward even when the next step is uncertain",
+            "Remaining in one place is always best",
+            "Fear should prevent movement",
+            "God only guides through signs"
           ],
-          "correctAnswer": "God expects orderly and fair stewardship of resources within families and communities",
-          "explanation": "Numbers 33:54 instructs dividing the land by lot according to family size and tribe, teaching the principle of fair and responsible stewardship.",
-          "verseReference": "Numbers 33:54",
+          "correctAnswer": "Trusting God means moving forward even when the next step is uncertain",
+          "explanation": "The journey from Ebronah to Eziongaber, despite uncertainties, demonstrates reliance on God's guidance and the virtue of trust in His leading.",
+          "verseReference": "Numbers 33:34-35",
           "difficulty": "medium"
         },
         {
           "id": "numbers-33-medium-q14",
-          "question": "How does the journey through various wilderness locations in Numbers 33 teach about humility and dependence on God?",
-          "type": "multiple-choice",
+          "question": "True or False: Numbers 33:24 indicates that the Israelites encamped in Haradah after leaving Mount Shapher.",
+          "type": "true-false",
           "options": [
-            "Traveling through harsh wilderness reminds believers to rely humbly on God's provision",
-            "Self-sufficiency is the goal of spiritual growth",
-            "God’s help is unnecessary in difficult times",
-            "Pride in human strength is encouraged"
+            "True",
+            "False"
           ],
-          "correctAnswer": "Traveling through harsh wilderness reminds believers to rely humbly on God's provision",
-          "explanation": "The many wilderness encampments (vv. 6-14, 36-37) show Israel’s dependence on God for guidance and provision, teaching humility and trust.",
-          "verseReference": "Numbers 33:6-14, 36-37",
+          "correctAnswer": "True",
+          "explanation": "Numbers 33:24 explicitly states the Israelites removed from Mount Shapher and encamped in Haradah, confirming the sequence of their journey.",
+          "verseReference": "Numbers 33:24",
           "difficulty": "medium"
         },
         {
           "id": "numbers-33-medium-q15",
-          "question": "When a believer faces discouragement, how can the detailed record of Israel's journey in Numbers 33 inspire hope and perseverance?",
+          "question": "What does Numbers 33:54 teach about fairness and integrity in dividing inheritances among the tribes?",
           "type": "multiple-choice",
           "options": [
-            "The long, step-by-step progress reminds believers God’s plan unfolds in His perfect timing",
-            "Immediate results are required for faith",
-            "Discouragement means God has abandoned us",
-            "Perseverance is futile without visible success"
+            "Inheritance is divided by lot and proportionate to the number of people",
+            "Leaders decide the inheritance arbitrarily",
+            "Inheritance is given only to the wealthy",
+            "The land is sold to the highest bidder"
           ],
-          "correctAnswer": "The long, step-by-step progress reminds believers God’s plan unfolds in His perfect timing",
-          "explanation": "The extensive list of stops (vv. 3-49) shows Israel’s gradual progress, teaching believers to hope and persevere trusting God’s timing.",
-          "verseReference": "Numbers 33:3-49",
+          "correctAnswer": "Inheritance is divided by lot and proportionate to the number of people",
+          "explanation": "Verse 54 instructs that the land be divided by lot among families, with larger families receiving more, teaching fairness and integrity in distribution.",
+          "verseReference": "Numbers 33:54",
           "difficulty": "medium"
         }
       ],
@@ -497,225 +493,223 @@
       "questions": [
         {
           "id": "numbers-33-hard-q1",
-          "question": "What was the significance of the Israelites' departure from Rameses on the fifteenth day of the first month, as described in Numbers 33?",
+          "question": "How old was Aaron when he died on mount Hor?",
           "type": "multiple-choice",
           "options": [
-            "It was the day after the Passover, marking their liberation from Egypt",
-            "It was the day of the Feast of Tabernacles",
-            "It commemorated the giving of the Ten Commandments",
-            "It was the first day of the new year"
+            "123 years old",
+            "120 years old",
+            "125 years old",
+            "130 years old"
           ],
-          "correctAnswer": "It was the day after the Passover, marking their liberation from Egypt",
-          "explanation": "According to Numbers 33:3, the Israelites departed Rameses on the fifteenth day of the first month, the day after the Passover, symbolizing their liberation from Egypt.",
-          "verseReference": "Numbers 33:3",
+          "correctAnswer": "123 years old",
+          "explanation": "Numbers 33:39 states that Aaron was an hundred and twenty and three years old when he died on mount Hor.",
+          "verseReference": "Numbers 33:39",
           "difficulty": "hard"
         },
         {
           "id": "numbers-33-hard-q2",
-          "question": "Which location mentioned in Numbers 33 is noted for having twelve fountains of water and seventy palm trees?",
+          "question": "Who was the king that heard of the coming of the children of Israel?",
           "type": "multiple-choice",
           "options": [
-            "Elim",
-            "Marah",
-            "Succoth",
-            "Etham"
-          ],
-          "correctAnswer": "Elim",
-          "explanation": "Numbers 33:9 states that Elim had twelve fountains of water and seventy palm trees, where the Israelites encamped.",
-          "verseReference": "Numbers 33:9",
-          "difficulty": "hard"
-        },
-        {
-          "id": "numbers-33-hard-q3",
-          "question": "In Numbers 33, which mountain was Aaron commanded by the LORD to ascend, where he subsequently died?",
-          "type": "multiple-choice",
-          "options": [
-            "Mount Hor",
-            "Mount Sinai",
-            "Mount Nebo",
-            "Mount Shapher"
-          ],
-          "correctAnswer": "Mount Hor",
-          "explanation": "Numbers 33:38 records that Aaron went up Mount Hor at the LORD’s command and died there.",
-          "verseReference": "Numbers 33:38",
-          "difficulty": "hard"
-        },
-        {
-          "id": "numbers-33-hard-q4",
-          "question": "What warning does the LORD give to the Israelites regarding the inhabitants of the land when they pass over Jordan, according to Numbers 33?",
-          "type": "multiple-choice",
-          "options": [
-            "They must drive out all inhabitants and destroy their idols",
-            "They should make peace treaties with the inhabitants",
-            "They are to adopt the customs of the inhabitants",
-            "They must pay tribute to the inhabitants"
-          ],
-          "correctAnswer": "They must drive out all inhabitants and destroy their idols",
-          "explanation": "Numbers 33:52 commands Israel to drive out all inhabitants and destroy their pictures, molten images, and high places before possessing the land.",
-          "verseReference": "Numbers 33:52",
-          "difficulty": "hard"
-        },
-        {
-          "id": "numbers-33-hard-q5",
-          "question": "What consequence does the LORD warn will happen if the Israelites do not drive out the inhabitants of the land, according to Numbers 33?",
-          "type": "multiple-choice",
-          "options": [
-            "The remaining inhabitants will be thorns in their sides and vex them",
-            "They will be cursed with famine",
-            "They will be exiled from the land",
-            "They will lose their inheritance"
-          ],
-          "correctAnswer": "The remaining inhabitants will be thorns in their sides and vex them",
-          "explanation": "Numbers 33:55 warns that if the inhabitants remain, they will be pricks in the Israelites’ eyes and thorns in their sides, causing vexation.",
-          "verseReference": "Numbers 33:55",
-          "difficulty": "hard"
-        },
-        {
-          "id": "numbers-33-hard-q6",
-          "question": "Which Canaanite king heard of the coming of the Israelites, as recorded in Numbers 33?",
-          "type": "multiple-choice",
-          "options": [
-            "King Arad",
+            "King Arad the Canaanite",
             "King Balak",
-            "King Sihon",
-            "King Og"
+            "King Og",
+            "King Sihon"
           ],
-          "correctAnswer": "King Arad",
-          "explanation": "Numbers 33:40 mentions King Arad the Canaanite who dwelt in the south and heard of Israel's coming.",
+          "correctAnswer": "King Arad the Canaanite",
+          "explanation": "Numbers 33:40 identifies King Arad the Canaanite, who dwelt in the south of the land of Canaan, as hearing of the coming of the children of Israel.",
           "verseReference": "Numbers 33:40",
           "difficulty": "hard"
         },
         {
-          "id": "numbers-33-hard-q7",
-          "question": "What is the Hebrew term translated as 'goings out' in Numbers 33:2, and what is its significance in the context of the chapter?",
+          "id": "numbers-33-hard-q3",
+          "question": "Which place did the Israelites pitch at immediately after departing from mount Hor?",
           "type": "multiple-choice",
           "options": [
-            "Yetseh (יציאה), referring to the departures or journeys of the Israelites",
-            "Shalom (שלום), meaning peace",
-            "Torah (תורה), meaning instruction or law",
-            "Chesed (חסד), meaning lovingkindness"
+            "Zalmonah",
+            "Punon",
+            "Oboth",
+            "Ijeabarim"
           ],
-          "correctAnswer": "Yetseh (יציאה), referring to the departures or journeys of the Israelites",
-          "explanation": "The Hebrew word 'Yetseh' in Numbers 33:2 denotes the Israelites’ departures or journeys, emphasizing the detailed record of their travels as commanded by the LORD.",
-          "verseReference": "Numbers 33:2",
+          "correctAnswer": "Zalmonah",
+          "explanation": "Numbers 33:41 records that after departing from mount Hor, the Israelites pitched in Zalmonah.",
+          "verseReference": "Numbers 33:41",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-33-hard-q4",
+          "question": "In which border did the Israelites pitch at Ijeabarim?",
+          "type": "multiple-choice",
+          "options": [
+            "Border of Moab",
+            "Border of Edom",
+            "Border of Canaan",
+            "Border of Midian"
+          ],
+          "correctAnswer": "Border of Moab",
+          "explanation": "Numbers 33:44 states that the Israelites pitched in Ijeabarim, which is in the border of Moab.",
+          "verseReference": "Numbers 33:44",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-33-hard-q5",
+          "question": "Where did God command Moses to speak to the children of Israel about their inheritance?",
+          "type": "multiple-choice",
+          "options": [
+            "Plains of Moab by Jordan near Jericho",
+            "Mount Hor",
+            "Mount Sinai",
+            "Wilderness of Zin"
+          ],
+          "correctAnswer": "Plains of Moab by Jordan near Jericho",
+          "explanation": "Numbers 33:50 and 33:51 specify that the LORD spoke to Moses in the plains of Moab by Jordan near Jericho, commanding him to speak to the children of Israel about their inheritance.",
+          "verseReference": "Numbers 33:50",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-33-hard-q6",
+          "question": "What were the Israelites instructed to do with the inhabitants of the land when they passed over Jordan?",
+          "type": "multiple-choice",
+          "options": [
+            "Drive out all the inhabitants and destroy their idolatrous objects",
+            "Make peace treaties with them",
+            "Allow them to remain and coexist",
+            "Pay tribute to them"
+          ],
+          "correctAnswer": "Drive out all the inhabitants and destroy their idolatrous objects",
+          "explanation": "Numbers 33:52 commands the Israelites to drive out all the inhabitants of the land from before them, destroy all their pictures, molten images, and high places.",
+          "verseReference": "Numbers 33:52",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-33-hard-q7",
+          "question": "According to Numbers 33, what was the consequence if the Israelites did not drive out the inhabitants of the land?",
+          "type": "multiple-choice",
+          "options": [
+            "Those remnants would be pricks in their eyes and thorns in their sides",
+            "They would receive a peaceful coexistence",
+            "They would be blessed with abundance",
+            "They would be given rest from war"
+          ],
+          "correctAnswer": "Those remnants would be pricks in their eyes and thorns in their sides",
+          "explanation": "Numbers 33:55 warns that if the Israelites do not drive out the inhabitants, those who remain will be pricks in their eyes and thorns in their sides, vexing them in the land.",
+          "verseReference": "Numbers 33:55",
           "difficulty": "hard"
         },
         {
           "id": "numbers-33-hard-q8",
-          "question": "How does the list of journeys in Numbers 33 function literarily in the narrative of the Pentateuch?",
+          "question": "How was the land to be divided among the tribes of Israel?",
           "type": "multiple-choice",
           "options": [
-            "As a structured itinerary marking the fulfillment of God’s promise to lead Israel out of Egypt",
-            "As a poetic lament for lost wanderings",
-            "As a genealogical record of the tribes",
-            "As a prophetic oracle about future exile"
+            "By lot, giving more inheritance to the more populous tribes and less to the fewer",
+            "By the eldest son's decision",
+            "By military conquest",
+            "Equally among all tribes regardless of size"
           ],
-          "correctAnswer": "As a structured itinerary marking the fulfillment of God’s promise to lead Israel out of Egypt",
-          "explanation": "Numbers 33 serves as a structured record of Israel’s journey from Egypt to the borders of Canaan, highlighting God’s providential guidance and covenant faithfulness.",
-          "verseReference": "Numbers 33:1-49",
+          "correctAnswer": "By lot, giving more inheritance to the more populous tribes and less to the fewer",
+          "explanation": "Numbers 33:54 explains that the land shall be divided by lot among the families, with the more populous receiving more inheritance and the fewer less, according to their tribal fathers.",
+          "verseReference": "Numbers 33:54",
           "difficulty": "hard"
         },
         {
           "id": "numbers-33-hard-q9",
-          "question": "What is the typological significance of the Israelites crossing the sea as mentioned in Numbers 33?",
+          "question": "Which literary device is most evident in Numbers 33’s listing of Israel’s journeys?",
           "type": "multiple-choice",
           "options": [
-            "It prefigures Christian baptism as a passage from bondage to freedom",
-            "It symbolizes the conquest of Canaan",
-            "It represents the giving of the Law at Sinai",
-            "It foreshadows the building of the Temple"
+            "Inclusio, framing the narrative from Egypt to Moab",
+            "Chiasm, with a mirrored structure in the middle",
+            "Parable, teaching through story",
+            "Allegory, representing spiritual truths"
           ],
-          "correctAnswer": "It prefigures Christian baptism as a passage from bondage to freedom",
-          "explanation": "Numbers 33:8 describes Israel passing through the sea, which typologically foreshadows Christian baptism, symbolizing deliverance from sin and passage to new life.",
-          "verseReference": "Numbers 33:8",
+          "correctAnswer": "Inclusio, framing the narrative from Egypt to Moab",
+          "explanation": "The chapter uses an inclusio literary device by framing the narrative with the journeys beginning in Egypt (Numbers 33:1-3) and ending in Moab (Numbers 33:48-49), encapsulating the wilderness wanderings.",
+          "verseReference": "Numbers 33:1, 33:48",
           "difficulty": "hard"
         },
         {
           "id": "numbers-33-hard-q10",
-          "question": "True or False: According to Numbers 33, the children of Israel encamped at Rephidim, where there was no water for the people to drink.",
+          "question": "The Hebrew word translated as 'pricks' in verse 55 (שִׁנִּים, shinnim) literally means what?",
+          "type": "multiple-choice",
+          "options": [
+            "Thorns or sharp points",
+            "Enemies",
+            "Curses",
+            "Chains"
+          ],
+          "correctAnswer": "Thorns or sharp points",
+          "explanation": "The Hebrew word שִׁנִּים (shinnim), translated as 'pricks', literally means thorns or sharp points, symbolizing painful irritation as in Numbers 33:55.",
+          "verseReference": "Numbers 33:55",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-33-hard-q11",
+          "question": "True or False: Aaron died on mount Hor in the fortieth year after the children of Israel came out of Egypt, on the first day of the fifth month.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Numbers 33:14 clearly states that the Israelites encamped at Rephidim where no water was available for the people to drink.",
-          "verseReference": "Numbers 33:14",
-          "difficulty": "hard"
-        },
-        {
-          "id": "numbers-33-hard-q11",
-          "question": "Which geographical landmark mentioned in Numbers 33 marks the edge of the land of Edom?",
-          "type": "multiple-choice",
-          "options": [
-            "Mount Hor",
-            "Mount Sinai",
-            "Mount Nebo",
-            "Mount Shapher"
-          ],
-          "correctAnswer": "Mount Hor",
-          "explanation": "Numbers 33:37 notes that Mount Hor is located on the edge of the land of Edom, marking a significant boundary in Israel's journey.",
-          "verseReference": "Numbers 33:37",
+          "explanation": "Numbers 33:38 explicitly states that Aaron died on mount Hor in the fortieth year after the Israelites came out of Egypt, on the first day of the fifth month.",
+          "verseReference": "Numbers 33:38",
           "difficulty": "hard"
         },
         {
           "id": "numbers-33-hard-q12",
-          "question": "What is the significance of the command to 'divide the land by lot' among the tribes, as stated in Numbers 33?",
-          "type": "multiple-choice",
+          "question": "True or False: The Israelites encamped in the mountains of Abarim after departing from the plains of Moab by Jordan near Jericho.",
+          "type": "true-false",
           "options": [
-            "It ensures a fair and divine allocation of inheritance according to tribal size",
-            "It allows the strongest tribe to claim the best land",
-            "It was a temporary measure until a king was appointed",
-            "It symbolizes the randomness of inheritance"
+            "True",
+            "False"
           ],
-          "correctAnswer": "It ensures a fair and divine allocation of inheritance according to tribal size",
-          "explanation": "Numbers 33:54 explains that the land should be divided by lot to assign inheritance fairly among families, with the more numerous receiving more land, indicating divine order.",
-          "verseReference": "Numbers 33:54",
+          "correctAnswer": "False",
+          "explanation": "Numbers 33:47-48 shows that the Israelites moved from the mountains of Abarim to the plains of Moab by Jordan near Jericho, not the other way around.",
+          "verseReference": "Numbers 33:47-48",
           "difficulty": "hard"
         },
         {
           "id": "numbers-33-hard-q13",
-          "question": "How does the death of Aaron on Mount Hor, as recorded in Numbers 33, relate to the broader priestly narrative in the Pentateuch?",
+          "question": "Which New Testament passage echoes the theme of dispossessing the land and inheritance as seen in Numbers 33?",
           "type": "multiple-choice",
           "options": [
-            "It marks the transition of priestly leadership to Eleazar",
-            "It inaugurates the priesthood of Zadok",
-            "It signifies the end of the Levitical priesthood",
-            "It is unrelated to priestly succession"
+            "Hebrews 4:8-11",
+            "Acts 2:38",
+            "Romans 8:17",
+            "Ephesians 2:19"
           ],
-          "correctAnswer": "It marks the transition of priestly leadership to Eleazar",
-          "explanation": "Numbers 33:38-39 records Aaron's death on Mount Hor, which elsewhere in the Pentateuch (Numbers 20:25-28) is associated with Eleazar taking over as high priest, signaling leadership transition.",
-          "verseReference": "Numbers 33:38-39",
+          "correctAnswer": "Hebrews 4:8-11",
+          "explanation": "Hebrews 4:8-11 echoes the theme of entering God's rest and inheriting the promised land, paralleling the command and promise in Numbers 33:53 about dispossessing the land and dwelling therein.",
+          "verseReference": "Numbers 33:53",
           "difficulty": "hard"
         },
         {
           "id": "numbers-33-hard-q14",
-          "question": "Which phrase best captures the theological theme underlying the detailed list of Israel's journeys in Numbers 33?",
+          "question": "Which Old Testament book contains a similar detailed list of Israel's wilderness journey as Numbers 33?",
           "type": "multiple-choice",
           "options": [
-            "Divine guidance and fulfillment of covenant promise",
-            "Human failure and exile",
-            "Judgment and punishment",
-            "Wisdom and instruction"
+            "Deuteronomy",
+            "Exodus",
+            "Joshua",
+            "Judges"
           ],
-          "correctAnswer": "Divine guidance and fulfillment of covenant promise",
-          "explanation": "The chapter emphasizes God's providential guidance in leading Israel out of Egypt and through the wilderness to the promised land, reflecting covenant fulfillment (Numbers 33:1-49).",
-          "verseReference": "Numbers 33:1-49",
+          "correctAnswer": "Deuteronomy",
+          "explanation": "Deuteronomy recounts Israel’s wilderness journey and laws before entering Canaan, paralleling the journey list in Numbers 33, especially in chapters 1 and 2.",
+          "verseReference": "Numbers 33:1-3",
           "difficulty": "hard"
         },
         {
           "id": "numbers-33-hard-q15",
-          "question": "What is the significance of the commandment that the Israelites must destroy 'all their pictures and molten images' when entering Canaan, as found in Numbers 33?",
+          "question": "What historical and cultural significance does the mention of King Arad in Numbers 33:40 have?",
           "type": "multiple-choice",
           "options": [
-            "It prevents idolatry and maintains covenant purity",
-            "It was a political strategy to weaken enemies",
-            "It symbolizes cultural assimilation",
-            "It was a test of military obedience"
+            "He represents the Canaanite opposition to Israel’s occupation of the land",
+            "He was an Egyptian ally who helped Israel",
+            "He ruled over Moab and welcomed Israel",
+            "He was a Midianite king who traded with Israel"
           ],
-          "correctAnswer": "It prevents idolatry and maintains covenant purity",
-          "explanation": "Numbers 33:52 commands destruction of idols to prevent Israel from adopting pagan worship and to preserve their exclusive covenant relationship with God.",
-          "verseReference": "Numbers 33:52",
+          "correctAnswer": "He represents the Canaanite opposition to Israel’s occupation of the land",
+          "explanation": "King Arad was a Canaanite king in the south who feared the Israelites’ approach, symbolizing the resistance Israel faced in possessing the promised land (Numbers 33:40).",
+          "verseReference": "Numbers 33:40",
           "difficulty": "hard"
         }
       ],
@@ -742,242 +736,227 @@
       "questions": [
         {
           "id": "numbers-33-theological-q1",
-          "question": "What is the primary purpose of Moses writing down the journeys of the children of Israel as recorded in Numbers 33?",
+          "question": "What doctrine is primarily taught by the command to drive out all inhabitants and destroy their idols in Numbers 33:52-53?",
           "type": "multiple-choice",
           "options": [
-            "To document the fulfillment of God's promise to lead Israel out of Egypt",
-            "To create a travel itinerary for future generations",
-            "To record military campaigns against the Egyptians",
-            "To provide a geographical study of the wilderness"
+            "The doctrine of sanctification through separation from sin",
+            "The doctrine of predestination",
+            "The doctrine of justification by faith alone",
+            "The doctrine of universal salvation"
           ],
-          "correctAnswer": "To document the fulfillment of God's promise to lead Israel out of Egypt",
-          "explanation": "Numbers 33:1-2 shows Moses wrote the journeys by the commandment of the LORD, emphasizing God's providential leading. This reflects God's faithfulness as promised in Exodus 3:8, Psalm 105:42-44, Joshua 24:2-3, and Hebrews 11:29.",
-          "verseReference": "Numbers 33:1-2",
+          "correctAnswer": "The doctrine of sanctification through separation from sin",
+          "explanation": "Numbers 33:52-53 commands the Israelites to drive out inhabitants and destroy idols, emphasizing God's call for His people to be holy by separating from sinful practices, illustrating sanctification. This reflects 2 Corinthians 6:17 which calls for separation from idolatry.",
+          "verseReference": "Numbers 33:52-53",
           "difficulty": "hard"
         },
         {
           "id": "numbers-33-theological-q2",
-          "question": "According to Numbers 33, where did the children of Israel first camp after leaving Rameses?",
+          "question": "Which attribute of God is demonstrated by His judgment upon the Egyptian gods as described in Numbers 33:4?",
           "type": "multiple-choice",
           "options": [
-            "Succoth",
-            "Etham",
-            "Pihahiroth",
-            "Migdol"
+            "God's sovereignty over false gods",
+            "God's mercy toward all nations",
+            "God's patience with sin",
+            "God's impartiality"
           ],
-          "correctAnswer": "Succoth",
-          "explanation": "Numbers 33:5 states that after leaving Rameses, the Israelites pitched in Succoth. This marks the initial steps in their journey of deliverance, consistent with Exodus 12:37 and Psalm 78:12-13 describing their movement from Egypt.",
-          "verseReference": "Numbers 33:5",
-          "difficulty": "hard"
-        },
-        {
-          "id": "numbers-33-theological-q3",
-          "question": "What significant event is associated with the date the Israelites left Egypt, as noted in Numbers 33:3?",
-          "type": "multiple-choice",
-          "options": [
-            "The day after the Passover",
-            "The Sabbath day",
-            "The Day of Atonement",
-            "The Feast of Tabernacles"
-          ],
-          "correctAnswer": "The day after the Passover",
-          "explanation": "Numbers 33:3 records they departed the day after the Passover, demonstrating God's deliverance through the Passover lamb, which Christ typologically fulfills as the Lamb of God (John 1:29; 1 Corinthians 5:7; Exodus 12:12-13; 1 Peter 1:18-19).",
-          "verseReference": "Numbers 33:3",
-          "difficulty": "hard"
-        },
-        {
-          "id": "numbers-33-theological-q4",
-          "question": "What judgment did the LORD execute upon the Egyptians as the Israelites departed Egypt?",
-          "type": "multiple-choice",
-          "options": [
-            "Smiting all their firstborn",
-            "Sending a plague of locusts",
-            "Darkness over the land for three days",
-            "Turning their water to blood"
-          ],
-          "correctAnswer": "Smiting all their firstborn",
-          "explanation": "Numbers 33:4 notes the LORD struck the firstborn of Egypt, showcasing His sovereign judgment against idolatry and oppression, in line with Exodus 12:29, Deuteronomy 21:23, Psalm 78:51, and Revelation 18:20.",
+          "correctAnswer": "God's sovereignty over false gods",
+          "explanation": "Numbers 33:4 shows that the LORD executed judgments upon Egypt’s gods, demonstrating His supreme sovereignty over all supposed deities, revealing the monotheistic truth of God's unrivaled power.",
           "verseReference": "Numbers 33:4",
           "difficulty": "hard"
         },
         {
-          "id": "numbers-33-theological-q5",
-          "question": "Which location marks where Aaron died according to Numbers 33?",
+          "id": "numbers-33-theological-q3",
+          "question": "In Numbers 33:38, Aaron dies on Mount Hor at God's command. What theological truth does this event primarily illustrate?",
           "type": "multiple-choice",
           "options": [
-            "Mount Hor",
-            "Mount Sinai",
-            "Kadesh",
-            "Mount Nebo"
+            "The doctrine of obedience to God’s sovereign will",
+            "The doctrine of eternal life",
+            "The doctrine of Christ’s resurrection",
+            "The doctrine of predestination"
           ],
-          "correctAnswer": "Mount Hor",
-          "explanation": "Numbers 33:37-38 records Aaron’s death at Mount Hor by the LORD’s command, illustrating God's holiness and priestly succession, consistent with Leviticus 10:1-3, Hebrews 7:23-28, and Psalm 99:6.",
-          "verseReference": "Numbers 33:37-38",
+          "correctAnswer": "The doctrine of obedience to God’s sovereign will",
+          "explanation": "Numbers 33:38 records Aaron’s death by divine command, demonstrating the necessity of submission to God's sovereign will even in matters of life and death, affirming God's authority over human life.",
+          "verseReference": "Numbers 33:38",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-33-theological-q4",
+          "question": "How does Numbers 33:1-2 contribute to the biblical narrative of redemption concerning God's guidance of Israel?",
+          "type": "multiple-choice",
+          "options": [
+            "It shows God’s providential leadership in the Exodus journey",
+            "It emphasizes Israel’s military strength over God’s power",
+            "It focuses on Israel’s failures during the wilderness wanderings",
+            "It highlights Moses’ independence from God"
+          ],
+          "correctAnswer": "It shows God’s providential leadership in the Exodus journey",
+          "explanation": "Numbers 33:1-2 records the journeys of Israel under Moses and Aaron by God's command, illustrating God's providential guidance in leading His redeemed people from Egypt to the Promised Land, a key theme in redemption history.",
+          "verseReference": "Numbers 33:1-2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "numbers-33-theological-q5",
+          "question": "What does the repeated pattern of Israel's camping and journeying in Numbers 33 teach about the nature of sanctification?",
+          "type": "multiple-choice",
+          "options": [
+            "Sanctification is a progressive and continual process",
+            "Sanctification is instantaneous and complete",
+            "Sanctification depends solely on human effort",
+            "Sanctification is unnecessary after initial salvation"
+          ],
+          "correctAnswer": "Sanctification is a progressive and continual process",
+          "explanation": "The numerous encampments and journeys (e.g., Numbers 33:5-49) symbolize the ongoing nature of spiritual growth and sanctification as God leads His people step-by-step, mirroring the believer’s lifelong transformation (Philippians 1:6).",
+          "verseReference": "Numbers 33:5-49",
           "difficulty": "hard"
         },
         {
           "id": "numbers-33-theological-q6",
-          "question": "How old was Aaron when he died, as stated in Numbers 33?",
+          "question": "Combining Numbers 33:36 and Numbers 33:38, what theological significance does the location and timing of Aaron’s death hold?",
           "type": "multiple-choice",
           "options": [
-            "123 years",
-            "120 years",
-            "125 years",
-            "130 years"
+            "It marks the end of an era and transition of priestly authority",
+            "It signifies Aaron’s failure as high priest",
+            "It indicates God’s rejection of the priesthood",
+            "It reveals God’s indifference to human leadership"
           ],
-          "correctAnswer": "123 years",
-          "explanation": "Numbers 33:39 declares Aaron was 123 years old at death, underscoring God’s providential care over the priestly line, aligning with Leviticus 8:1-36, Exodus 40:12-15, and Hebrews 5:1-4.",
-          "verseReference": "Numbers 33:39",
+          "correctAnswer": "It marks the end of an era and transition of priestly authority",
+          "explanation": "Numbers 33:36 situates Israel in Kadesh and 33:38 records Aaron’s death at Mount Hor, signaling the end of Aaron’s priestly ministry and a pivotal transition in Israel’s leadership, foreshadowing Christ’s eternal priesthood (Hebrews 7).",
+          "verseReference": "Numbers 33:36, 38",
           "difficulty": "hard"
         },
         {
           "id": "numbers-33-theological-q7",
-          "question": "What warning does the LORD give about not driving out the inhabitants of the land in Numbers 33?",
+          "question": "What doctrinal insight about God’s justice and mercy can be drawn from Numbers 33:55-56 concerning the consequences of Israel’s disobedience?",
           "type": "multiple-choice",
           "options": [
-            "They will become pricks in your eyes and thorns in your sides",
-            "They will become allies and protectors",
-            "They will worship the God of Israel",
-            "They will leave the land peacefully"
+            "God’s justice punishes sin but His mercy warns and disciplines",
+            "God ignores human sin if they repent quickly",
+            "God’s wrath is arbitrary and unpredictable",
+            "God’s mercy cancels all consequences of disobedience"
           ],
-          "correctAnswer": "They will become pricks in your eyes and thorns in your sides",
-          "explanation": "Numbers 33:55 warns that failure to drive out the inhabitants leads to vexation, illustrating the danger of syncretism and disobedience, consistent with Judges 2:1-3, Deuteronomy 7:4-5, Joshua 23:13, and Revelation 2:14.",
-          "verseReference": "Numbers 33:55",
+          "correctAnswer": "God’s justice punishes sin but His mercy warns and disciplines",
+          "explanation": "Numbers 33:55-56 warns that leaving inhabitants causes vexation, showing God's just punishment for disobedience while His warning serves as merciful discipline to guide Israel back, consistent with Hebrews 12:6.",
+          "verseReference": "Numbers 33:55-56",
           "difficulty": "hard"
         },
         {
           "id": "numbers-33-theological-q8",
-          "question": "What does God command the Israelites to do with the idols and high places of the inhabitants of the land in Numbers 33?",
+          "question": "What attribute of God is revealed by His direct communication to Moses in Numbers 33:50-51 about the conquest of Canaan?",
           "type": "multiple-choice",
           "options": [
-            "Destroy all their pictures, molten images, and high places",
-            "Offer sacrifices to them",
-            "Make peace treaties with idolaters",
-            "Preserve them as historical monuments"
+            "God’s faithfulness in fulfilling His promises",
+            "God’s secrecy in revealing His plans",
+            "God’s indifference to Israel’s obedience",
+            "God’s favoritism towards other nations"
           ],
-          "correctAnswer": "Destroy all their pictures, molten images, and high places",
-          "explanation": "Numbers 33:52 commands complete destruction of idols to prevent idolatry. This aligns with Deuteronomy 12:2-3, Exodus 20:4-5, Psalm 115:4-8, and 1 Corinthians 10:14.",
-          "verseReference": "Numbers 33:52",
+          "correctAnswer": "God’s faithfulness in fulfilling His promises",
+          "explanation": "God’s command to Moses in Numbers 33:50-51 about entering Canaan reveals His faithfulness to His covenant promises to Israel, underscoring His unchanging commitment to redeem and bless His people (Deuteronomy 7:9).",
+          "verseReference": "Numbers 33:50-51",
           "difficulty": "hard"
         },
         {
           "id": "numbers-33-theological-q9",
-          "question": "According to Numbers 33, how was the land to be divided among the tribes of Israel?",
+          "question": "How does the journey from Egypt to Moab in Numbers 33 align with the biblical theme of pilgrimage and dependence on God?",
           "type": "multiple-choice",
           "options": [
-            "By lot, giving more to the larger tribes and less to the smaller tribes",
-            "By the oldest son's choice",
-            "Equally among all tribes regardless of size",
-            "By Moses' personal decision"
+            "The journey symbolizes the believer’s pilgrimage and reliance on God’s guidance",
+            "The journey illustrates human self-sufficiency in salvation",
+            "The journey shows God’s abandonment of His people",
+            "The journey promotes idolatry and compromise"
           ],
-          "correctAnswer": "By lot, giving more to the larger tribes and less to the smaller tribes",
-          "explanation": "Numbers 33:54 describes dividing the land by lot proportionate to tribe size, reflecting God's just and sovereign distribution of inheritance as seen in Joshua 14:2, Deuteronomy 18:5, Psalm 16:6, and Acts 1:26.",
-          "verseReference": "Numbers 33:54",
+          "correctAnswer": "The journey symbolizes the believer’s pilgrimage and reliance on God’s guidance",
+          "explanation": "Numbers 33’s detailed record of Israel’s travels from Egypt to Moab typifies the spiritual pilgrimage of believers relying on God’s provision and direction throughout life’s trials (Psalm 121:1-2).",
+          "verseReference": "Numbers 33:1-49",
           "difficulty": "hard"
         },
         {
           "id": "numbers-33-theological-q10",
-          "question": "What does the journey through the wilderness in Numbers 33 symbolize in biblical theology?",
+          "question": "Sceptics claim the detailed list of Israel’s encampments in Numbers 33 is merely historical record without theological meaning. What does Numbers 33:1-49 actually teach about God’s providence and care?",
           "type": "multiple-choice",
           "options": [
-            "A period of testing, sanctification, and God's faithful guidance",
-            "A time of unpunished sin and rebellion",
-            "A permanent dwelling place for Israel",
-            "A punishment for Moses and Aaron only"
+            "It reveals God’s providential guidance and faithful care over Israel’s journey",
+            "It merely documents geography without theological import",
+            "It highlights Israel’s failure and God’s abandonment",
+            "It shows randomness in Israel’s travels"
           ],
-          "correctAnswer": "A period of testing, sanctification, and God's faithful guidance",
-          "explanation": "The wilderness journey in Numbers 33 symbolizes God's discipline and faithfulness (Exodus 15:22-27; Deuteronomy 8:2; Psalm 95:8-11; Hebrews 3:7-11), preparing Israel for the promised land and Christ’s typological fulfillment as the true leader through trials (Matthew 4:1-11).",
-          "verseReference": "Numbers 33:6-15",
+          "correctAnswer": "It reveals God’s providential guidance and faithful care over Israel’s journey",
+          "explanation": "Numbers 33:1-49 carefully lists each journey to show God’s providential hand guiding Israel step-by-step, underscoring His faithful care, opposing the sceptic’s claim and aligning with Romans 8:28.",
+          "verseReference": "Numbers 33:1-49",
           "difficulty": "hard"
         },
         {
           "id": "numbers-33-theological-q11",
-          "question": "Who was the Canaanite king that heard of Israel's coming, as mentioned in Numbers 33?",
+          "question": "What combined theological teaching do Numbers 33:14 and Numbers 33:15 convey about God’s provision and human dependence during trials?",
           "type": "multiple-choice",
           "options": [
-            "King Arad",
-            "King Balak",
-            "King Og",
-            "King Sihon"
+            "God provides for His people’s needs even in scarcity",
+            "Human effort alone secures survival in the wilderness",
+            "God abandons His people in their hardships",
+            "The wilderness is a place of permanent judgment"
           ],
-          "correctAnswer": "King Arad",
-          "explanation": "Numbers 33:40 identifies King Arad as the Canaanite king aware of Israel’s approach, highlighting the opposition Israel faced, consistent with Numbers 21:1-3, Joshua 12:14, Judges 1:16, and Psalm 83:2-8.",
-          "verseReference": "Numbers 33:40",
+          "correctAnswer": "God provides for His people’s needs even in scarcity",
+          "explanation": "Numbers 33:14 notes no water at Rephidim, and 33:15 shows Israel’s continuation to Sinai, illustrating God’s provision and sustaining grace through trials, consistent with Exodus 17:6.",
+          "verseReference": "Numbers 33:14-15",
           "difficulty": "hard"
         },
         {
           "id": "numbers-33-theological-q12",
-          "question": "What was the significance of the Israelites encamping at Elim according to Numbers 33?",
+          "question": "How do Numbers 33:50-54 together reveal God’s intention for Israel’s inheritance in Canaan?",
           "type": "multiple-choice",
           "options": [
-            "There were twelve springs of water and seventy palm trees",
-            "It was their final destination",
-            "It was a place of great battle",
-            "It was where Aaron died"
+            "God intends Israel to possess and divide the land as a fulfillment of His promise",
+            "God allows Israel to coexist peacefully with all inhabitants",
+            "God leaves the land undecided to Israel’s discretion",
+            "God forbids Israel from settling the land"
           ],
-          "correctAnswer": "There were twelve springs of water and seventy palm trees",
-          "explanation": "Numbers 33:9 highlights twelve springs and seventy palm trees at Elim, symbolizing God's provision and blessing during the wilderness journey, related to Exodus 15:27, Psalm 104:10-14, Revelation 22:1-2, and John 4:14.",
-          "verseReference": "Numbers 33:9",
+          "correctAnswer": "God intends Israel to possess and divide the land as a fulfillment of His promise",
+          "explanation": "Numbers 33:50-54 commands Israel to dispossess inhabitants and divide the land by lot, demonstrating God's sovereign plan to fulfill His covenant promises through possession and inheritance (Joshua 1:3-4).",
+          "verseReference": "Numbers 33:50-54",
           "difficulty": "hard"
         },
         {
           "id": "numbers-33-theological-q13",
-          "question": "What is the theological implication of Aaron's death on Mount Hor as narrated in Numbers 33?",
+          "question": "What narrative arc does the death of Aaron in Numbers 33:38 symbolize within the broader redemptive history of Israel?",
           "type": "multiple-choice",
           "options": [
-            "The transition of priestly leadership and the holiness required by God",
-            "The failure of the priesthood",
-            "The end of God's covenant with Israel",
-            "The destruction of the tabernacle"
+            "The transition from Mosaic priesthood toward Christ’s eternal priesthood",
+            "The failure of Israel’s leadership",
+            "The end of God’s covenant with Israel",
+            "Israel’s permanent exile"
           ],
-          "correctAnswer": "The transition of priestly leadership and the holiness required by God",
-          "explanation": "Numbers 33:38 shows Aaron's death by God's command, affirming priestly succession and divine holiness, consistent with Leviticus 10:1-3, Hebrews 7:23-28, Psalm 99:6, and 1 Timothy 2:5.",
+          "correctAnswer": "The transition from Mosaic priesthood toward Christ’s eternal priesthood",
+          "explanation": "Aaron’s death at Mount Hor (Numbers 33:38) symbolizes the end of the Levitical priesthood era, pointing forward to the perfect, eternal priesthood of Christ as described in Hebrews 7.",
           "verseReference": "Numbers 33:38",
           "difficulty": "hard"
         },
         {
           "id": "numbers-33-theological-q14",
-          "question": "According to Numbers 33, what did God say would happen if the Israelites did not drive out the inhabitants of Canaan?",
+          "question": "What doctrinal insight about God’s holiness and justice is communicated by the warning in Numbers 33:55 regarding remaining inhabitants in the land?",
           "type": "multiple-choice",
           "options": [
-            "Those left would be pricks and thorns, vexing Israel",
-            "They would become loyal subjects",
-            "They would leave voluntarily",
-            "God would destroy Israel"
+            "Sin left unjudged will become a source of temptation and trouble",
+            "God ignores the presence of evil among His people",
+            "God’s holiness permits coexistence with sin",
+            "Justice is unrelated to the moral purity of the land"
           ],
-          "correctAnswer": "Those left would be pricks and thorns, vexing Israel",
-          "explanation": "Numbers 33:55 warns remaining inhabitants would cause continual trouble, teaching the necessity of holiness and separation, echoed in Judges 2:1-3, Deuteronomy 7:4-5, and Revelation 2:14 about false teaching and idolatry.",
+          "correctAnswer": "Sin left unjudged will become a source of temptation and trouble",
+          "explanation": "Numbers 33:55 warns that not driving out inhabitants results in 'pricks in your eyes' and 'thorns in your sides,' teaching that God’s holiness demands judgment on sin to protect His people, consistent with 1 Corinthians 5:6-7.",
           "verseReference": "Numbers 33:55",
           "difficulty": "hard"
         },
         {
           "id": "numbers-33-theological-q15",
-          "question": "What spiritual principle can be drawn from God instructing the Israelites to destroy the idols and high places in Numbers 33?",
+          "question": "How do Numbers 33:41-48 contribute to understanding the covenantal journey of Israel from the wilderness toward the Promised Land?",
           "type": "multiple-choice",
           "options": [
-            "God requires exclusive worship and removal of idolatry",
-            "God tolerates all religious practices",
-            "Idols can be used alongside worship of the true God",
-            "Idolatry is irrelevant to covenant faithfulness"
+            "They show God's faithfulness in guiding Israel step-by-step to fulfill His promise",
+            "They document Israel’s failure to obey God’s commands",
+            "They emphasize Israel’s self-reliance in conquering the land",
+            "They indicate God’s abandonment of Israel"
           ],
-          "correctAnswer": "God requires exclusive worship and removal of idolatry",
-          "explanation": "Numbers 33:52 commands destruction of idols, illustrating God's demand for exclusive devotion, consistent with Exodus 20:3-5, Deuteronomy 6:4-5, Isaiah 44:9-20, and 1 Corinthians 10:14.",
-          "verseReference": "Numbers 33:52",
-          "difficulty": "hard"
-        },
-        {
-          "id": "numbers-33-theological-q16",
-          "question": "What does the detailed recording of Israel’s journey in Numbers 33 teach about God’s providence and faithfulness?",
-          "type": "multiple-choice",
-          "options": [
-            "God sovereignly guides and preserves His people through trials toward His promises",
-            "God abandons His people during hardship",
-            "The journey was random and chaotic",
-            "Human effort alone ensured success"
-          ],
-          "correctAnswer": "God sovereignly guides and preserves His people through trials toward His promises",
-          "explanation": "The meticulous journey record in Numbers 33 demonstrates God's providential guidance, linking with Psalm 23:4, Romans 8:28, Isaiah 46:10-11, and Hebrews 12:1-2, showing God’s faithfulness despite human weakness.",
-          "verseReference": "Numbers 33:1-50",
+          "correctAnswer": "They show God's faithfulness in guiding Israel step-by-step to fulfill His promise",
+          "explanation": "The successive encampments from Zalmonah to the plains of Moab (Numbers 33:41-48) narrate God’s faithfulness in leading Israel progressively towards fulfillment of His covenant promise of land possession.",
+          "verseReference": "Numbers 33:41-48",
           "difficulty": "hard"
         }
       ],
@@ -991,7 +970,7 @@
         "bible-quiz",
         "theological"
       ],
-      "totalQuestions": 16,
+      "totalQuestions": 15,
       "estimatedTime": 25
     }
   }

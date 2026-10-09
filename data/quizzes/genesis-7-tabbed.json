@@ -13,16 +13,16 @@
       "questions": [
         {
           "id": "genesis-7-easy-q1",
-          "question": "Who did the LORD say was righteous in this generation according to Genesis 7?",
+          "question": "Who did the LORD command to come into the ark?",
           "type": "multiple-choice",
           "options": [
-            "Noah",
-            "Abraham",
-            "Moses",
-            "David"
+            "Noah and all his house",
+            "Only Noah",
+            "Noah and his sons",
+            "Noah and the animals"
           ],
-          "correctAnswer": "Noah",
-          "explanation": "Genesis 7:1 states that the LORD saw Noah as righteous before Him in this generation.",
+          "correctAnswer": "Noah and all his house",
+          "explanation": "Genesis 7:1 states that the LORD said unto Noah, \"Come thou and all thy house into the ark.\"",
           "verseReference": "Genesis 7:1",
           "difficulty": "easy"
         },
@@ -31,203 +31,201 @@
           "question": "How many of every clean beast was Noah commanded to take into the ark?",
           "type": "multiple-choice",
           "options": [
-            "Two",
-            "Seven",
-            "Five",
-            "Ten"
+            "Seven, the male and his female",
+            "Two, the male and his female",
+            "Five, the male and his female",
+            "Ten, the male and his female"
           ],
-          "correctAnswer": "Seven",
-          "explanation": "Genesis 7:2 commands Noah to take seven of every clean beast, male and female.",
+          "correctAnswer": "Seven, the male and his female",
+          "explanation": "Genesis 7:2 instructs Noah to take of every clean beast by sevens, the male and his female.",
           "verseReference": "Genesis 7:2",
           "difficulty": "easy"
         },
         {
           "id": "genesis-7-easy-q3",
-          "question": "For how many days and nights did it rain during the flood?",
+          "question": "How many of the beasts that are not clean did Noah take into the ark?",
           "type": "multiple-choice",
           "options": [
-            "Thirty",
-            "Forty",
-            "Fifty",
-            "Sixty"
+            "Two, the male and his female",
+            "Seven, the male and his female",
+            "One pair only",
+            "Ten, the male and his female"
           ],
-          "correctAnswer": "Forty",
-          "explanation": "Genesis 7:4 and Genesis 7:12 mention that rain lasted for forty days and forty nights.",
-          "verseReference": "Genesis 7:4",
-          "difficulty": "easy"
-        },
-        {
-          "id": "genesis-7-easy-q4",
-          "question": "Who entered the ark with Noah?",
-          "type": "multiple-choice",
-          "options": [
-            "Noah's sons and their wives",
-            "Only Noah",
-            "Noah's servants",
-            "Noah's neighbors"
-          ],
-          "correctAnswer": "Noah's sons and their wives",
-          "explanation": "Genesis 7:7 and Genesis 7:13 say Noah, his sons, his wife, and his sons' wives entered the ark.",
-          "verseReference": "Genesis 7:7",
-          "difficulty": "easy"
-        },
-        {
-          "id": "genesis-7-easy-q5",
-          "question": "On what day of Noah's life did the flood begin?",
-          "type": "multiple-choice",
-          "options": [
-            "500th",
-            "600th",
-            "700th",
-            "650th"
-          ],
-          "correctAnswer": "600th",
-          "explanation": "Genesis 7:6 states Noah was 600 years old when the flood waters were upon the earth.",
-          "verseReference": "Genesis 7:6",
-          "difficulty": "easy"
-        },
-        {
-          "id": "genesis-7-easy-q6",
-          "question": "How many of every unclean beast did Noah take into the ark?",
-          "type": "multiple-choice",
-          "options": [
-            "Seven",
-            "Four",
-            "Two",
-            "Five"
-          ],
-          "correctAnswer": "Two",
-          "explanation": "Genesis 7:2 instructs Noah to take two of every unclean beast, male and female.",
+          "correctAnswer": "Two, the male and his female",
+          "explanation": "Genesis 7:2 says for beasts that are not clean, Noah was to take two, the male and his female.",
           "verseReference": "Genesis 7:2",
           "difficulty": "easy"
         },
         {
-          "id": "genesis-7-easy-q7",
-          "question": "What happened after seven days from God's command to Noah?",
+          "id": "genesis-7-easy-q4",
+          "question": "What purpose was given for taking seven of the fowls of the air?",
           "type": "multiple-choice",
           "options": [
-            "The flood waters came upon the earth",
-            "The ark was completed",
-            "The animals began to gather",
-            "The rain stopped"
+            "To keep seed alive upon the face of all the earth",
+            "To offer sacrifices",
+            "To teach Noah",
+            "To fill the ark with noise"
           ],
-          "correctAnswer": "The flood waters came upon the earth",
-          "explanation": "Genesis 7:10 says after seven days, the flood waters were upon the earth.",
-          "verseReference": "Genesis 7:10",
+          "correctAnswer": "To keep seed alive upon the face of all the earth",
+          "explanation": "Genesis 7:3 states that seven of the fowls were taken to keep seed alive upon the face of all the earth.",
+          "verseReference": "Genesis 7:3",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-7-easy-q5",
+          "question": "How many days did the LORD say it would rain upon the earth?",
+          "type": "multiple-choice",
+          "options": [
+            "Forty days and forty nights",
+            "Seven days",
+            "Thirty days",
+            "One hundred days"
+          ],
+          "correctAnswer": "Forty days and forty nights",
+          "explanation": "Genesis 7:4 says the LORD will cause it to rain forty days and forty nights.",
+          "verseReference": "Genesis 7:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-7-easy-q6",
+          "question": "Did Noah obey all the commandments given by the LORD?",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Genesis 7:5 states that Noah did according unto all that the LORD commanded him.",
+          "verseReference": "Genesis 7:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-7-easy-q7",
+          "question": "How old was Noah when the flood of waters was upon the earth?",
+          "type": "multiple-choice",
+          "options": [
+            "Six hundred years old",
+            "Five hundred years old",
+            "Four hundred years old",
+            "Seven hundred years old"
+          ],
+          "correctAnswer": "Six hundred years old",
+          "explanation": "Genesis 7:6 declares that Noah was six hundred years old when the flood of waters was upon the earth.",
+          "verseReference": "Genesis 7:6",
           "difficulty": "easy"
         },
         {
           "id": "genesis-7-easy-q8",
-          "question": "What was opened on the day the flood began?",
+          "question": "Who entered the ark because of the waters of the flood?",
           "type": "multiple-choice",
           "options": [
-            "Fountains of the great deep and windows of heaven",
-            "Gates of the ark",
-            "Heaven’s gates",
-            "The earth's doors"
+            "Noah, his sons, his wife, and his sons' wives",
+            "Only Noah and his sons",
+            "Noah and the animals",
+            "Noah and his wife only"
           ],
-          "correctAnswer": "Fountains of the great deep and windows of heaven",
-          "explanation": "Genesis 7:11 describes that the fountains of the great deep broke up and the windows of heaven were opened.",
-          "verseReference": "Genesis 7:11",
+          "correctAnswer": "Noah, his sons, his wife, and his sons' wives",
+          "explanation": "Genesis 7:7 states that Noah went in, and his sons, and his wife, and his sons' wives with him, into the ark.",
+          "verseReference": "Genesis 7:7",
           "difficulty": "easy"
         },
         {
           "id": "genesis-7-easy-q9",
-          "question": "How did the LORD secure Noah and those in the ark?",
-          "type": "multiple-choice",
-          "options": [
-            "The LORD shut them in",
-            "They locked the door",
-            "A servant guarded them",
-            "The ark was sealed with clay"
-          ],
-          "correctAnswer": "The LORD shut them in",
-          "explanation": "Genesis 7:16 states the LORD shut Noah and those with him in the ark.",
-          "verseReference": "Genesis 7:16",
-          "difficulty": "easy"
-        },
-        {
-          "id": "genesis-7-easy-q10",
-          "question": "What happened to the waters during the flood according to Genesis 7?",
-          "type": "multiple-choice",
-          "options": [
-            "They prevailed and lifted the ark above the earth",
-            "They dried up quickly",
-            "They flooded only the valleys",
-            "They remained at sea level"
-          ],
-          "correctAnswer": "They prevailed and lifted the ark above the earth",
-          "explanation": "Genesis 7:17-18 explains the waters prevailed and lifted the ark above the earth.",
-          "verseReference": "Genesis 7:17",
-          "difficulty": "easy"
-        },
-        {
-          "id": "genesis-7-easy-q11",
-          "question": "True or False: Genesis 7:21 states that only the animals died in the flood.",
+          "question": "True or False: The animals that entered the ark included only clean beasts.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Genesis 7:21 states all flesh that moved upon the earth died, including man, fowl, cattle, and beasts.",
-          "verseReference": "Genesis 7:21",
+          "explanation": "Genesis 7:8 mentions clean beasts, beasts that are not clean, fowls, and everything that creepeth upon the earth entered the ark.",
+          "verseReference": "Genesis 7:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-7-easy-q10",
+          "question": "The animals entered the ark in what manner?",
+          "type": "multiple-choice",
+          "options": [
+            "Two and two, male and female",
+            "All males first, then females",
+            "Only males",
+            "Only females"
+          ],
+          "correctAnswer": "Two and two, male and female",
+          "explanation": "Genesis 7:9 states that there went in two and two unto Noah into the ark, the male and the female.",
+          "verseReference": "Genesis 7:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-7-easy-q11",
+          "question": "True or False: The LORD shut Noah in the ark after all went in.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Genesis 7:16 states that after they went in, the LORD shut him in.",
+          "verseReference": "Genesis 7:16",
           "difficulty": "easy"
         },
         {
           "id": "genesis-7-easy-q12",
-          "question": "True or False: Noah obeyed all the LORD's commands exactly as instructed.",
-          "type": "true-false",
+          "question": "What was the length of time the flood waters prevailed upon the earth?",
+          "type": "multiple-choice",
           "options": [
-            "True",
-            "False"
+            "One hundred and fifty days",
+            "Forty days",
+            "Seventy days",
+            "One year"
           ],
-          "correctAnswer": "True",
-          "explanation": "Genesis 7:5 confirms Noah did according to all that the LORD commanded him.",
-          "verseReference": "Genesis 7:5",
-          "difficulty": "easy"
-        },
-        {
-          "id": "genesis-7-easy-q13",
-          "question": "True or False: The flood lasted for one hundred and fifty days.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Genesis 7:24 states the waters prevailed upon the earth for one hundred and fifty days.",
+          "correctAnswer": "One hundred and fifty days",
+          "explanation": "Genesis 7:24 reports that the waters prevailed upon the earth one hundred and fifty days.",
           "verseReference": "Genesis 7:24",
           "difficulty": "easy"
         },
         {
-          "id": "genesis-7-easy-q14",
-          "question": "Complete the verse from Genesis 7:15: 'And they went in unto Noah into the ark, two and two of all ________, wherein is the breath of life.'",
-          "type": "fill-blank",
+          "id": "genesis-7-easy-q13",
+          "question": "In Genesis 7, which instruction comes before all the others listed here?",
+          "type": "multiple-choice",
           "options": [
-            "flesh",
-            "birds",
-            "beasts",
-            "creatures"
+            "Come thou and all thy house into the ark",
+            "Take seven of every clean beast",
+            "Wait seven days before the rain",
+            "Prepare food for the animals"
           ],
-          "correctAnswer": "flesh",
-          "explanation": "Genesis 7:15 uses the phrase 'two and two of all flesh' to describe those entering the ark.",
-          "verseReference": "Genesis 7:15",
+          "correctAnswer": "Come thou and all thy house into the ark",
+          "explanation": "Genesis 7:1 contains the first command: to come into the ark with all his house, before instructions about animals or waiting.",
+          "verseReference": "Genesis 7:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-7-easy-q14",
+          "question": "True or False: The flood covered all the high hills under the whole heaven.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Genesis 7:19 states that all the high hills under the whole heaven were covered by the waters.",
+          "verseReference": "Genesis 7:19",
           "difficulty": "easy"
         },
         {
           "id": "genesis-7-easy-q15",
-          "question": "How many of every bird did Noah take into the ark according to Genesis 7?",
+          "question": "What happened on the seventeenth day of the second month in Noah's six hundredth year?",
           "type": "multiple-choice",
           "options": [
-            "Two",
-            "Seven",
-            "Five",
-            "Ten"
+            "All the fountains of the great deep were broken up and the windows of heaven were opened",
+            "Noah entered the ark",
+            "The flood ended",
+            "The animals were gathered"
           ],
-          "correctAnswer": "Seven",
-          "explanation": "Genesis 7:3 commands Noah to take seven of every bird, male and female.",
-          "verseReference": "Genesis 7:3",
+          "correctAnswer": "All the fountains of the great deep were broken up and the windows of heaven were opened",
+          "explanation": "Genesis 7:11 describes that on that day the fountains of the great deep broke up and the windows of heaven opened.",
+          "verseReference": "Genesis 7:11",
           "difficulty": "easy"
         }
       ],
@@ -254,238 +252,221 @@
       "questions": [
         {
           "id": "genesis-7-medium-q1",
-          "question": "A fellow believer is going through a trial and asks you for counsel. Based on Genesis 7, what biblical truth would you share about trusting God's timing and commands?",
+          "question": "According to Genesis 7:9, how did the animals enter the ark?",
           "type": "multiple-choice",
           "options": [
-            "God’s timing is perfect, and obedience to His commands brings protection",
-            "Waiting is unnecessary; act on your own timing",
-            "God’s instructions are optional based on circumstances",
-            "Faith does not require action or obedience"
+            "In groups of seven",
+            "Two and two, male and female",
+            "In large herds",
+            "Only male animals"
           ],
-          "correctAnswer": "God’s timing is perfect, and obedience to His commands brings protection",
-          "explanation": "Genesis 7:4, Genesis 7:5, and Genesis 7:16 show God’s timing for the flood and Noah’s obedient response leading to his safety, illustrating trust in God’s perfect timing and commands.",
-          "verseReference": "Genesis 7:4",
+          "correctAnswer": "Two and two, male and female",
+          "explanation": "Genesis 7:9 states that animals went into the ark two and two, male and female, as God commanded Noah. This shows God's command for pairs to preserve life.",
+          "verseReference": "Genesis 7:9",
           "difficulty": "medium"
         },
         {
           "id": "genesis-7-medium-q2",
-          "question": "How does Genesis 7 teach about the importance of family unity and leadership during difficult times?",
+          "question": "How many days passed after the animals entered the ark before the floodwaters came upon the earth?",
           "type": "multiple-choice",
           "options": [
-            "Noah led his entire household into the ark, showing responsibility and unity",
-            "Family members should act independently without waiting for a leader",
-            "Leadership is unnecessary in times of crisis",
-            "Only the head of the family is saved without concern for others"
+            "Seven days",
+            "Forty days",
+            "Seventy days",
+            "One hundred fifty days"
           ],
-          "correctAnswer": "Noah led his entire household into the ark, showing responsibility and unity",
-          "explanation": "Genesis 7:1 and Genesis 7:7 describe Noah bringing his whole family into the ark, exemplifying the importance of family leadership and unity in trials.",
-          "verseReference": "Genesis 7:7",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-7-medium-q3",
-          "question": "What does Genesis 7 teach about obedience to God’s instructions as a form of spiritual discipline?",
-          "type": "multiple-choice",
-          "options": [
-            "Noah obeyed all the LORD’s commands precisely, demonstrating faith through action",
-            "Selective obedience is acceptable if it suits personal preference",
-            "Obedience is not necessary for God’s protection",
-            "Obedience depends on human understanding, not God’s commands"
-          ],
-          "correctAnswer": "Noah obeyed all the LORD’s commands precisely, demonstrating faith through action",
-          "explanation": "Genesis 7:5 and Genesis 7:16 emphasize Noah’s full obedience to God’s instructions, highlighting the spiritual discipline of faith expressed through action.",
-          "verseReference": "Genesis 7:5",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-7-medium-q4",
-          "question": "A believer is struggling with fear about the future. According to Genesis 7, what biblical principle can you share regarding God’s provision and protection?",
-          "type": "multiple-choice",
-          "options": [
-            "God provides a way of salvation when we trust and obey Him",
-            "We must rely solely on human strength and planning",
-            "Fear is a sign of weak faith and should be ignored",
-            "God’s protection depends on circumstances, not faith"
-          ],
-          "correctAnswer": "God provides a way of salvation when we trust and obey Him",
-          "explanation": "Genesis 7:1, Genesis 7:16, and Genesis 7:23 show God’s provision of the ark as a way of salvation for Noah and his family based on their trust and obedience.",
-          "verseReference": "Genesis 7:1",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-7-medium-q5",
-          "question": "How does Genesis 7 illustrate the biblical virtue of stewardship and responsibility?",
-          "type": "multiple-choice",
-          "options": [
-            "Noah took care to bring animals by kinds as God commanded, showing stewardship over creation",
-            "Noah ignored God’s instructions about animals",
-            "Stewardship is not important during crisis",
-            "Animals were left to fend for themselves"
-          ],
-          "correctAnswer": "Noah took care to bring animals by kinds as God commanded, showing stewardship over creation",
-          "explanation": "Genesis 7:2-3 and Genesis 7:14 describe Noah taking animals according to God’s command, demonstrating responsible stewardship.",
-          "verseReference": "Genesis 7:2",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-7-medium-q6",
-          "question": "A believer is tempted to doubt God’s promises. How does the story of Noah in Genesis 7 encourage perseverance through trials?",
-          "type": "multiple-choice",
-          "options": [
-            "Noah’s steadfast obedience and waiting show perseverance leads to God’s deliverance",
-            "Doubt is justified when trials are long",
-            "Giving up is sometimes necessary",
-            "Trials prove God’s absence"
-          ],
-          "correctAnswer": "Noah’s steadfast obedience and waiting show perseverance leads to God’s deliverance",
-          "explanation": "Genesis 7:10-12 and Genesis 7:24 highlight Noah’s perseverance during the flood, trusting God’s promise amid prolonged trials.",
+          "correctAnswer": "Seven days",
+          "explanation": "Genesis 7:10 explains that after seven days, the waters of the flood were upon the earth, connecting the waiting period after the animals entered the ark.",
           "verseReference": "Genesis 7:10",
           "difficulty": "medium"
         },
         {
-          "id": "genesis-7-medium-q7",
-          "question": "How does Genesis 7 teach about humility and contentment in following God’s will?",
+          "id": "genesis-7-medium-q3",
+          "question": "What significant event happened on the seventeenth day of the second month in Noah's six hundredth year?",
           "type": "multiple-choice",
           "options": [
-            "Noah humbly obeyed God’s instructions without questioning, showing contentment in God’s plan",
-            "Noah challenged God’s commands",
-            "Contentment is unrelated to obedience",
-            "Pride comes from obeying God"
+            "Noah received instructions to build the ark",
+            "The fountains of the great deep were broken up and the windows of heaven opened",
+            "The rain stopped after forty days",
+            "The ark came to rest on a mountain"
           ],
-          "correctAnswer": "Noah humbly obeyed God’s instructions without questioning, showing contentment in God’s plan",
-          "explanation": "Genesis 7:5 and Genesis 7:16 show that Noah accepted God’s will humbly and contentedly, following instructions faithfully.",
-          "verseReference": "Genesis 7:16",
+          "correctAnswer": "The fountains of the great deep were broken up and the windows of heaven opened",
+          "explanation": "Genesis 7:11 states that on this day, the fountains of the great deep were broken up and the windows of heaven opened, initiating the flood.",
+          "verseReference": "Genesis 7:11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-7-medium-q4",
+          "question": "For how long did the rain fall upon the earth according to Genesis 7:12?",
+          "type": "multiple-choice",
+          "options": [
+            "Seven days and nights",
+            "Forty days and forty nights",
+            "One hundred and fifty days",
+            "Seventy days and nights"
+          ],
+          "correctAnswer": "Forty days and forty nights",
+          "explanation": "Genesis 7:12 records that the rain lasted forty days and forty nights, marking the duration of the flood's initial precipitation.",
+          "verseReference": "Genesis 7:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-7-medium-q5",
+          "question": "Who entered the ark on the same day as Noah according to Genesis 7:13?",
+          "type": "multiple-choice",
+          "options": [
+            "Only Noah and his wife",
+            "Noah, his sons, his wife, and his sons' wives",
+            "Noah and all his neighbors",
+            "Noah, his sons, and their children"
+          ],
+          "correctAnswer": "Noah, his sons, his wife, and his sons' wives",
+          "explanation": "Genesis 7:13 specifies that Noah, his sons Shem, Ham, and Japheth, his wife, and the three wives of his sons entered the ark the same day.",
+          "verseReference": "Genesis 7:13",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-7-medium-q6",
+          "question": "What does Genesis 7:14 emphasize about the variety of creatures that entered the ark?",
+          "type": "multiple-choice",
+          "options": [
+            "Only clean animals were allowed",
+            "Only birds and creeping things were taken",
+            "Every beast, cattle, creeping thing, and fowl after their kind",
+            "Only animals that could swim"
+          ],
+          "correctAnswer": "Every beast, cattle, creeping thing, and fowl after their kind",
+          "explanation": "Genesis 7:14 highlights the inclusion of every beast, cattle, creeping thing, and bird after their kind, showing God's provision for all living creatures.",
+          "verseReference": "Genesis 7:14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-7-medium-q7",
+          "question": "According to Genesis 7:15, how many of each kind of living creature entered the ark?",
+          "type": "multiple-choice",
+          "options": [
+            "One of each kind",
+            "Two and two of all flesh",
+            "Seven pairs of clean animals only",
+            "Only male animals"
+          ],
+          "correctAnswer": "Two and two of all flesh",
+          "explanation": "Genesis 7:15 confirms that two and two of all flesh, meaning pairs, entered the ark to preserve life.",
+          "verseReference": "Genesis 7:15",
           "difficulty": "medium"
         },
         {
           "id": "genesis-7-medium-q8",
-          "question": "True or False: According to Genesis 7, only Noah was saved during the flood, while his family was not included.",
+          "question": "What action did the LORD take after all beings entered the ark according to Genesis 7:16?",
+          "type": "multiple-choice",
+          "options": [
+            "He sent a rainbow",
+            "He shut Noah and those with him in the ark",
+            "He opened the ark's doors",
+            "He caused the animals to multiply"
+          ],
+          "correctAnswer": "He shut Noah and those with him in the ark",
+          "explanation": "Genesis 7:16 states that after all went in, the LORD shut Noah and those inside the ark in, demonstrating divine protection and finality.",
+          "verseReference": "Genesis 7:16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-7-medium-q9",
+          "question": "How does Genesis 7:15–16 teach us about obedience and trust in God?",
+          "type": "multiple-choice",
+          "options": [
+            "Obedience is optional, and trust is uncertain",
+            "Obedience to God's command leads to protection, showing trust in His provision",
+            "Trust is irrelevant to obedience",
+            "God commands but does not intervene"
+          ],
+          "correctAnswer": "Obedience to God's command leads to protection, showing trust in His provision",
+          "explanation": "Verses 15 and 16 show that Noah obeyed God's instructions fully, entering the ark with all creatures and being shut in by God, illustrating trust and obedience leading to divine protection.",
+          "verseReference": "Genesis 7:15-16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-7-medium-q10",
+          "question": "What does Genesis 7:11-12 teach about the certainty of God's judgment following obedience to His commands?",
+          "type": "multiple-choice",
+          "options": [
+            "God's judgment is delayed indefinitely",
+            "God's judgment comes in His appointed time after obedience",
+            "Judgment is not related to obedience",
+            "God's judgment is immediate and instantaneous"
+          ],
+          "correctAnswer": "God's judgment comes in His appointed time after obedience",
+          "explanation": "Genesis 7:11-12 shows that after Noah obeyed God's command to enter the ark, the flood began exactly on the appointed day, indicating God's judgment follows His timing after obedience.",
+          "verseReference": "Genesis 7:11-12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-7-medium-q11",
+          "question": "How can Genesis 7:13 inspire humility in believers facing difficult circumstances?",
+          "type": "multiple-choice",
+          "options": [
+            "By encouraging pride in one's strength",
+            "By showing reliance on God’s provision and protection through obedience",
+            "By downplaying the severity of trials",
+            "By ignoring God's instructions"
+          ],
+          "correctAnswer": "By showing reliance on God’s provision and protection through obedience",
+          "explanation": "Genesis 7:13 shows Noah and his family entering the ark as God commanded, reminding believers to humbly rely on God's provision during trials.",
+          "verseReference": "Genesis 7:13",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-7-medium-q12",
+          "question": "A friend is struggling with trusting God's timing during hardship. Based on Genesis 7:10-12, what biblical truth could you share?",
+          "type": "multiple-choice",
+          "options": [
+            "God's promises are immediate and always visible",
+            "God’s timing is perfect; after waiting seven days, the flood began exactly as God said",
+            "God does not control events",
+            "Human timing is more reliable than God's"
+          ],
+          "correctAnswer": "God’s timing is perfect; after waiting seven days, the flood began exactly as God said",
+          "explanation": "Genesis 7:10-12 emphasize that after Noah's obedience and a seven-day wait, the flood began precisely when God declared, teaching trust in God's perfect timing.",
+          "verseReference": "Genesis 7:10-12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-7-medium-q13",
+          "question": "True or False: According to Genesis 7:14, only clean animals entered the ark.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Genesis 7:7 and Genesis 7:13 state that Noah, his wife, his sons, and their wives all entered the ark, showing the salvation of his entire family.",
-          "verseReference": "Genesis 7:7",
+          "explanation": "Genesis 7:14 states that every beast, cattle, creeping thing, and fowl after their kind entered the ark, not just clean animals.",
+          "verseReference": "Genesis 7:14",
           "difficulty": "medium"
         },
         {
-          "id": "genesis-7-medium-q9",
-          "question": "True or False: Genesis 7 demonstrates that God’s judgment is thorough and affects all living creatures except those preserved by His command.",
+          "id": "genesis-7-medium-q14",
+          "question": "True or False: Genesis 7:9 teaches that God commands obedience through specific instructions, such as bringing animals in pairs into the ark.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Genesis 7:21-23 confirms that all flesh with the breath of life died except Noah and those with him in the ark, illustrating God’s thorough judgment and preservation.",
-          "verseReference": "Genesis 7:21",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-7-medium-q10",
-          "question": "Fill in the blank: According to Genesis 7, Noah was ______ years old when the flood began.",
-          "type": "fill-in-the-blank",
-          "options": [
-            "600",
-            "500",
-            "700",
-            "650"
-          ],
-          "correctAnswer": "600",
-          "explanation": "Genesis 7:6 states that Noah was six hundred years old when the floodwaters came upon the earth.",
-          "verseReference": "Genesis 7:6",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-7-medium-q11",
-          "question": "How does Genesis 7 encourage believers in the practice of faith and trust during obedience to God’s commands?",
-          "type": "multiple-choice",
-          "options": [
-            "Noah acted in faith by obeying all of God’s instructions despite the unknown future",
-            "Faith requires only belief without action",
-            "Trusting God means ignoring His commands",
-            "Obedience is unnecessary if faith is present"
-          ],
-          "correctAnswer": "Noah acted in faith by obeying all of God’s instructions despite the unknown future",
-          "explanation": "Genesis 7:5 and Genesis 7:16 show Noah’s faithful obedience, trusting God’s plan even without full understanding.",
-          "verseReference": "Genesis 7:5",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-7-medium-q12",
-          "question": "What does Genesis 7 teach about God’s faithfulness in fulfilling His promises?",
-          "type": "multiple-choice",
-          "options": [
-            "God faithfully sent the flood as promised and preserved Noah and the animals as He declared",
-            "God’s promises are uncertain",
-            "God’s plans can be changed by human action",
-            "God’s promises depend on human strength"
-          ],
-          "correctAnswer": "God faithfully sent the flood as promised and preserved Noah and the animals as He declared",
-          "explanation": "Genesis 7:4, Genesis 7:12, and Genesis 7:16 confirm God’s fulfillment of His word regarding the flood and preservation of Noah’s family and animals.",
-          "verseReference": "Genesis 7:4",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-7-medium-q13",
-          "question": "How does the passage in Genesis 7 about Noah’s obedience relate to the biblical principle of integrity in daily life?",
-          "type": "multiple-choice",
-          "options": [
-            "Noah’s integrity is shown by his complete obedience to God’s detailed instructions",
-            "Integrity is unrelated to obedience",
-            "Partial obedience is sufficient for integrity",
-            "Integrity depends on others’ actions"
-          ],
-          "correctAnswer": "Noah’s integrity is shown by his complete obedience to God’s detailed instructions",
-          "explanation": "Genesis 7:9, Genesis 7:16 highlight Noah’s full compliance with God’s commands, demonstrating integrity through faithful obedience.",
+          "explanation": "Genesis 7:9 shows that God commanded Noah to bring animals two and two, male and female, demonstrating specific instructions requiring obedience.",
           "verseReference": "Genesis 7:9",
           "difficulty": "medium"
         },
         {
-          "id": "genesis-7-medium-q14",
-          "question": "What spiritual lesson about preparedness and vigilance can we learn from Genesis 7?",
-          "type": "multiple-choice",
-          "options": [
-            "Noah prepared the ark and gathered animals as God commanded before the flood came, teaching spiritual vigilance",
-            "Preparation is unnecessary as God will provide at the last moment",
-            "Vigilance means worrying about the future",
-            "Spiritual readiness is optional"
-          ],
-          "correctAnswer": "Noah prepared the ark and gathered animals as God commanded before the flood came, teaching spiritual vigilance",
-          "explanation": "Genesis 7:1-10 illustrates Noah’s careful preparation and vigilance in following God’s instructions before the flood started.",
-          "verseReference": "Genesis 7:1",
-          "difficulty": "medium"
-        },
-        {
           "id": "genesis-7-medium-q15",
-          "question": "How does Genesis 7 demonstrate the importance of prayerful dependence on God during trials?",
-          "type": "multiple-choice",
+          "question": "True or False: Genesis 7:16 indicates that after Noah and the animals entered, the ark remained open for others to enter later.",
+          "type": "true-false",
           "options": [
-            "Noah’s submission to God’s commands implies a prayerful dependence and trust during the flood",
-            "Prayer is unnecessary when following instructions",
-            "Dependence on God is only for spiritual matters, not practical ones",
-            "Trials require self-reliance rather than prayer"
+            "True",
+            "False"
           ],
-          "correctAnswer": "Noah’s submission to God’s commands implies a prayerful dependence and trust during the flood",
-          "explanation": "Genesis 7:5 and Genesis 7:16 imply Noah’s dependence on God’s guidance and protection, which reflects prayerful trust during hardship.",
-          "verseReference": "Genesis 7:5",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-7-medium-q16",
-          "question": "In the context of biblical family life, what does Genesis 7 teach about including spouses in spiritual obedience and fellowship?",
-          "type": "multiple-choice",
-          "options": [
-            "Noah’s wife and his sons’ wives entered the ark together, showing the importance of family spiritual unity",
-            "Spouses are not necessary in spiritual obedience",
-            "Family members should obey separately",
-            "Spiritual life is individual, not communal"
-          ],
-          "correctAnswer": "Noah’s wife and his sons’ wives entered the ark together, showing the importance of family spiritual unity",
-          "explanation": "Genesis 7:7 and Genesis 7:13 show the inclusion of all family members including wives, exemplifying unity in spiritual obedience.",
-          "verseReference": "Genesis 7:13",
+          "correctAnswer": "False",
+          "explanation": "Genesis 7:16 states that after all entered, the LORD shut Noah in the ark, indicating it was closed and no one else could enter later.",
+          "verseReference": "Genesis 7:16",
           "difficulty": "medium"
         }
       ],
@@ -499,7 +480,7 @@
         "bible-quiz",
         "medium"
       ],
-      "totalQuestions": 16,
+      "totalQuestions": 15,
       "estimatedTime": 12
     },
     "hard": {
@@ -512,223 +493,223 @@
       "questions": [
         {
           "id": "genesis-7-hard-q1",
-          "question": "What is the significance of the number seven in the animals Noah was commanded to take into the ark?",
+          "question": "How long did the floodwaters prevail upon the earth according to Genesis 7?",
           "type": "multiple-choice",
           "options": [
-            "It symbolizes completeness and divine perfection",
-            "It represents the seven days of creation",
-            "It was a practical number for animal care",
-            "It refers to the seven continents"
+            "Forty days",
+            "Seventy days",
+            "One hundred and fifty days",
+            "Thirty days"
           ],
-          "correctAnswer": "It symbolizes completeness and divine perfection",
-          "explanation": "Genesis 7:2-3 commands Noah to take seven pairs of clean animals and seven pairs of birds, which reflects the biblical symbolism of seven representing completeness and divine perfection.",
-          "verseReference": "Genesis 7:2-3",
+          "correctAnswer": "One hundred and fifty days",
+          "explanation": "Genesis 7:24 states that the waters prevailed upon the earth for one hundred and fifty days, indicating the total duration of the floodwaters covering the earth.",
+          "verseReference": "Genesis 7:24",
           "difficulty": "hard"
         },
         {
           "id": "genesis-7-hard-q2",
-          "question": "How does the flood narrative in Genesis 7 foreshadow the concept of baptism in the New Testament?",
+          "question": "What happened to the ark as the waters increased during the flood?",
           "type": "multiple-choice",
           "options": [
-            "The flood represents a cleansing of sin and a new beginning",
-            "The ark is a symbol of the church",
-            "Noah's obedience parallels Christian faith",
-            "All of the above"
+            "It sank into the earth",
+            "It was lifted up above the earth",
+            "It caught fire",
+            "It floated on the river"
           ],
-          "correctAnswer": "All of the above",
-          "explanation": "The flood cleansing the earth (Genesis 7:23) parallels baptism's symbolism of washing away sin, while the ark represents salvation, and Noah's obedience parallels faith themes seen in the New Testament.",
-          "verseReference": "Genesis 7:23",
+          "correctAnswer": "It was lifted up above the earth",
+          "explanation": "Genesis 7:17 describes that the waters increased and bore up the ark, lifting it above the earth, emphasizing God's protection over Noah's vessel.",
+          "verseReference": "Genesis 7:17",
           "difficulty": "hard"
         },
         {
           "id": "genesis-7-hard-q3",
-          "question": "What is the literary structure used in Genesis 7:11 describing the opening of 'the fountains of the great deep' and 'the windows of heaven'?",
+          "question": "According to Genesis 7, what covered the high hills under the whole heaven?",
           "type": "multiple-choice",
           "options": [
-            "Parallelism emphasizing the cosmic nature of the flood",
-            "Chiasm focusing on divine judgement",
-            "Typology foreshadowing future destruction",
-            "Allegory about human sin"
+            "Snow",
+            "Water",
+            "Sand",
+            "Fire"
           ],
-          "correctAnswer": "Parallelism emphasizing the cosmic nature of the flood",
-          "explanation": "Genesis 7:11 uses parallelism to highlight both earth and heaven sources of the floodwaters, emphasizing the comprehensive and cosmic scale of the event.",
-          "verseReference": "Genesis 7:11",
+          "correctAnswer": "Water",
+          "explanation": "Genesis 7:19 states that the waters prevailed exceedingly upon the earth and covered all the high hills under the whole heaven, symbolizing the complete inundation of the earth.",
+          "verseReference": "Genesis 7:19",
           "difficulty": "hard"
         },
         {
           "id": "genesis-7-hard-q4",
-          "question": "At what age did Noah enter the ark according to Genesis 7?",
+          "question": "How far upward did the waters prevail, covering the mountains?",
           "type": "multiple-choice",
           "options": [
-            "600 years old",
-            "500 years old",
-            "750 years old",
-            "650 years old"
+            "Ten cubits",
+            "Fifteen cubits",
+            "Twenty cubits",
+            "Five cubits"
           ],
-          "correctAnswer": "600 years old",
-          "explanation": "Genesis 7:6 states explicitly that Noah was six hundred years old when the flood came upon the earth.",
-          "verseReference": "Genesis 7:6",
+          "correctAnswer": "Fifteen cubits",
+          "explanation": "Genesis 7:20 specifies that the waters prevailed fifteen cubits upward, covering the mountains, indicating the depth of the floodwaters above the highest elevations.",
+          "verseReference": "Genesis 7:20",
           "difficulty": "hard"
         },
         {
           "id": "genesis-7-hard-q5",
-          "question": "Which of the following best describes the cultural context of the flood as depicted in Genesis 7?",
+          "question": "What happened to all flesh that moved upon the earth during the flood?",
           "type": "multiple-choice",
           "options": [
-            "A divine cleansing common in ancient Near Eastern flood myths",
-            "A unique event with no parallels in surrounding cultures",
-            "A purely allegorical story without historical context",
-            "A political allegory for Israel's exile"
+            "They were saved by the ark",
+            "They died",
+            "They migrated to higher ground",
+            "They were transformed"
           ],
-          "correctAnswer": "A divine cleansing common in ancient Near Eastern flood myths",
-          "explanation": "The flood narrative parallels other ancient Near Eastern flood stories (e.g., Epic of Gilgamesh) but with distinctive theological emphases found in Genesis 7.",
-          "verseReference": "Genesis 7:4",
+          "correctAnswer": "They died",
+          "explanation": "Genesis 7:21 clearly states that all flesh that moved upon the earth, including birds, cattle, beasts, creeping things, and every man, died during the flood.",
+          "verseReference": "Genesis 7:21",
           "difficulty": "hard"
         },
         {
           "id": "genesis-7-hard-q6",
-          "question": "What does the phrase 'the breath of life' signify in Genesis 7:15-22?",
+          "question": "Which phrase in Genesis 7:22 emphasizes the totality of death during the flood?",
           "type": "multiple-choice",
           "options": [
-            "The divine life-giving spirit present in all living creatures",
-            "The physical ability to breathe air",
-            "A metaphor for animal vitality",
-            "A poetic description of animation"
+            "\"All in whose nostrils was the breath of life died\"",
+            "\"Only the unclean beasts perished\"",
+            "\"The waters receded quickly\"",
+            "\"The ark was filled with animals\""
           ],
-          "correctAnswer": "The divine life-giving spirit present in all living creatures",
-          "explanation": "Genesis 7:22 refers to 'all in whose nostrils was the breath of life,' indicating the divine spirit that animates living beings, a key theological concept throughout Scripture.",
+          "correctAnswer": "\"All in whose nostrils was the breath of life died\"",
+          "explanation": "Genesis 7:22 emphasizes the complete destruction by stating that all living beings with the breath of life in their nostrils died, underlining the comprehensive nature of the flood.",
           "verseReference": "Genesis 7:22",
           "difficulty": "hard"
         },
         {
           "id": "genesis-7-hard-q7",
-          "question": "True or False: According to Genesis 7, Noah disobeyed God's command and delayed entering the ark.",
-          "type": "true-false",
+          "question": "Who were the only survivors of the flood according to Genesis 7?",
+          "type": "multiple-choice",
           "options": [
-            "True",
-            "False"
+            "Noah and his family",
+            "All the animals except unclean beasts",
+            "Only the clean beasts",
+            "No survivors at all"
           ],
-          "correctAnswer": "False",
-          "explanation": "Genesis 7:5 affirms that Noah did exactly as the LORD commanded him, showing his obedience.",
-          "verseReference": "Genesis 7:5",
+          "correctAnswer": "Noah and his family",
+          "explanation": "Genesis 7:23 states that every living substance was destroyed except Noah and those with him in the ark, indicating their unique preservation.",
+          "verseReference": "Genesis 7:23",
           "difficulty": "hard"
         },
         {
           "id": "genesis-7-hard-q8",
-          "question": "What event in Genesis 7 marks the beginning of the floodwaters covering the earth?",
+          "question": "Which Old Testament passage echoes the theme of God's judgment by water as seen in Genesis 7?",
           "type": "multiple-choice",
           "options": [
-            "The breaking up of the fountains of the great deep and opening of the windows of heaven",
-            "Noah entering the ark",
-            "The animals entering the ark",
-            "God commanding Noah to build the ark"
+            "Psalm 29:3-9",
+            "Exodus 14:21-22",
+            "Isaiah 54:9",
+            "Leviticus 11:1-47"
           ],
-          "correctAnswer": "The breaking up of the fountains of the great deep and opening of the windows of heaven",
-          "explanation": "Genesis 7:11 describes how the flood began when the fountains of the great deep were broken up and the windows of heaven opened.",
-          "verseReference": "Genesis 7:11",
+          "correctAnswer": "Isaiah 54:9",
+          "explanation": "Isaiah 54:9 references the floodwaters as a symbol of God's judgment and covenant, connecting directly to Genesis 7's flood narrative.",
+          "verseReference": "Genesis 7:23",
           "difficulty": "hard"
         },
         {
           "id": "genesis-7-hard-q9",
-          "question": "How does Genesis 7:16 illustrate God's sovereignty during the flood event?",
+          "question": "What literary device is employed in Genesis 7:19-20 when describing the waters covering the hills and mountains?",
           "type": "multiple-choice",
           "options": [
-            "By stating that the LORD shut Noah and those with him inside the ark",
-            "By describing the animals entering the ark by themselves",
-            "By emphasizing Noah's leadership",
-            "By focusing on the destruction of the earth"
+            "Chiasmus",
+            "Parallelism",
+            "Allegory",
+            "Hyperbole"
           ],
-          "correctAnswer": "By stating that the LORD shut Noah and those with him inside the ark",
-          "explanation": "Genesis 7:16 shows God exercising sovereign control by shutting Noah and those with him inside the ark, symbolizing divine protection and judgment.",
-          "verseReference": "Genesis 7:16",
+          "correctAnswer": "Parallelism",
+          "explanation": "Genesis 7:19-20 uses parallelism by repeating the theme of waters prevailing and covering high elevations, a common Hebrew poetic structure.",
+          "verseReference": "Genesis 7:19",
           "difficulty": "hard"
         },
         {
           "id": "genesis-7-hard-q10",
-          "question": "Which of the following themes in Genesis 7 is developed later in the Bible's teaching about judgment and salvation?",
+          "question": "What is the significance of the Hebrew word translated as \"prevailed\" in Genesis 7:18 regarding the floodwaters?",
           "type": "multiple-choice",
           "options": [
-            "The motif of destruction by water",
-            "The concept of a righteous remnant",
-            "The idea of covenantal obedience",
-            "All of the above"
+            "It means 'to recede'",
+            "It means 'to overcome or be mighty'",
+            "It means 'to trickle'",
+            "It means 'to evaporate'"
           ],
-          "correctAnswer": "All of the above",
-          "explanation": "Genesis 7 contains themes of judgment by water, preservation of a righteous remnant (Noah and family), and obedience that are foundational for later biblical teachings.",
-          "verseReference": "Genesis 7:1-7",
+          "correctAnswer": "It means 'to overcome or be mighty'",
+          "explanation": "The Hebrew word 'radah' translated as 'prevailed' conveys the idea of being mighty or having dominion, emphasizing the overwhelming power of the floodwaters in Genesis 7:18.",
+          "verseReference": "Genesis 7:18",
           "difficulty": "hard"
         },
         {
           "id": "genesis-7-hard-q11",
-          "question": "What is the significance of the phrase 'two and two' in the context of Genesis 7:9-15?",
+          "question": "How does the flood narrative in Genesis 7 foreshadow New Testament baptism themes?",
           "type": "multiple-choice",
           "options": [
-            "It emphasizes the orderly and paired preservation of species",
-            "It symbolizes human companionship",
-            "It represents a ritualistic number",
-            "It is a metaphor for God’s dual nature"
+            "By illustrating water as cleansing from sin",
+            "By emphasizing animal sacrifice",
+            "By focusing on dietary laws",
+            "By promoting isolation"
           ],
-          "correctAnswer": "It emphasizes the orderly and paired preservation of species",
-          "explanation": "Genesis 7:9 and 7:15 indicate animals entering the ark 'two and two,' underscoring the intentional preservation of species in pairs.",
-          "verseReference": "Genesis 7:9",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-7-hard-q12",
-          "question": "Fill in the blank: The floodwaters prevailed upon the earth for ______ days according to Genesis 7:24.",
-          "type": "multiple-choice",
-          "options": [
-            "one hundred and fifty",
-            "forty",
-            "seventy",
-            "one hundred and twenty"
-          ],
-          "correctAnswer": "one hundred and fifty",
-          "explanation": "Genesis 7:24 states that the waters prevailed on the earth for one hundred and fifty days.",
+          "correctAnswer": "By illustrating water as cleansing from sin",
+          "explanation": "The flood represents judgment and cleansing, prefiguring baptism's symbolism of death to sin and new life, as echoed in 1 Peter 3:20-21, connecting to Genesis 7's cleansing waters.",
           "verseReference": "Genesis 7:24",
           "difficulty": "hard"
         },
         {
-          "id": "genesis-7-hard-q13",
-          "question": "True or False: Genesis 7 describes the flood covering only the lowlands, leaving mountains dry.",
+          "id": "genesis-7-hard-q12",
+          "question": "True or False: Genesis 7 states that only clean animals were brought into the ark in sevens to keep their seed alive.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Genesis 7:19-20 explicitly states that all the high hills under the whole heaven were covered, including mountains.",
-          "verseReference": "Genesis 7:19-20",
+          "explanation": "Genesis 7:2-3 distinguishes between clean animals taken by sevens and unclean by twos, but Genesis 7:9-15 emphasize two by two for all flesh entering the ark, not only clean animals in sevens.",
+          "verseReference": "Genesis 7:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-7-hard-q13",
+          "question": "True or False: The windows of heaven were opened on the seventeenth day of the second month in Noah's six hundredth year, starting the flood.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Genesis 7:11 states that on that exact day, the fountains of the great deep were broken up and the windows of heaven opened, initiating the flood.",
+          "verseReference": "Genesis 7:11",
           "difficulty": "hard"
         },
         {
           "id": "genesis-7-hard-q14",
-          "question": "How does the author of Genesis emphasize Noah’s righteousness in the context of divine judgment in chapter 7?",
+          "question": "Which New Testament passage references the flood in Genesis 7 as a typology for salvation through water?",
           "type": "multiple-choice",
           "options": [
-            "By stating God saw Noah as righteous in his generation",
-            "By describing Noah’s perfect obedience to all commands",
-            "By isolating Noah and his family as the only survivors",
-            "All of the above"
+            "Hebrews 11:7",
+            "Romans 6:3-4",
+            "1 Peter 3:20-21",
+            "Ephesians 2:8-9"
           ],
-          "correctAnswer": "All of the above",
-          "explanation": "Genesis 7:1, 5, and 23 collectively emphasize Noah’s righteousness, obedience, and preservation as the only survivors, underscoring divine favor in judgment.",
-          "verseReference": "Genesis 7:1,5,23",
+          "correctAnswer": "1 Peter 3:20-21",
+          "explanation": "1 Peter 3:20-21 explicitly references Noah's flood as a typology for baptism and salvation, connecting to the Genesis 7 flood narrative.",
+          "verseReference": "Genesis 7:23",
           "difficulty": "hard"
         },
         {
           "id": "genesis-7-hard-q15",
-          "question": "What is the significance of the phrase 'windows of heaven' in Genesis 7:11 in ancient Near Eastern cosmology?",
+          "question": "What cultural significance did the flood narrative in Genesis 7 have for the ancient Near Eastern audience?",
           "type": "multiple-choice",
           "options": [
-            "It refers to the sky opening to release rain, symbolizing divine judgment",
-            "It is a poetic metaphor for stars",
-            "It means the sun and moon were obscured",
-            "It indicates the end of the flood"
+            "It demonstrated the superiority of the Hebrew God over other gods",
+            "It promoted agricultural practices",
+            "It was a historical record of trade routes",
+            "It described the origins of the alphabet"
           ],
-          "correctAnswer": "It refers to the sky opening to release rain, symbolizing divine judgment",
-          "explanation": "In ancient Near Eastern cosmology, the 'windows of heaven' signify the sky’s floodgates opening to release rain, symbolizing God’s judgment as seen in Genesis 7:11.",
-          "verseReference": "Genesis 7:11",
+          "correctAnswer": "It demonstrated the superiority of the Hebrew God over other gods",
+          "explanation": "The flood story highlighted God's judgment and control over creation, contrasting with polytheistic flood myths in the ancient Near East, asserting the Hebrew God's supremacy.",
+          "verseReference": "Genesis 7:23",
           "difficulty": "hard"
         }
       ],
@@ -755,242 +736,227 @@
       "questions": [
         {
           "id": "genesis-7-theological-q1",
-          "question": "According to Genesis 7, what was the primary reason God instructed Noah to enter the ark with his family?",
+          "question": "What does Genesis 7:1 reveal about God's judgment and grace toward Noah?",
           "type": "multiple-choice",
           "options": [
-            "Noah was righteous in his generation",
-            "Noah was the strongest man",
-            "Noah was the richest man",
-            "Noah was the most knowledgeable"
+            "God saw Noah as righteous in a corrupt generation and called him and his household into the ark",
+            "God judged Noah as sinful but spared him for his family",
+            "God ignored Noah's righteousness and judged all equally",
+            "God saved only Noah, not his family"
           ],
-          "correctAnswer": "Noah was righteous in his generation",
-          "explanation": "Genesis 7:1 states God saw Noah as righteous before Him in this generation, providing the basis for Noah and his household entering the ark. This righteousness theme is echoed in Hebrews 11:7, 1 Peter 3:20, Genesis 6:9, and Matthew 24:37, emphasizing God's recognition of Noah's faithfulness amid widespread corruption.",
+          "correctAnswer": "God saw Noah as righteous in a corrupt generation and called him and his household into the ark",
+          "explanation": "Genesis 7:1 shows that God recognized Noah's righteousness in his generation, which motivated God to command Noah and his household to enter the ark, demonstrating divine grace toward the righteous amid judgment.",
           "verseReference": "Genesis 7:1",
           "difficulty": "hard"
         },
         {
           "id": "genesis-7-theological-q2",
-          "question": "How many of each clean beast did God command Noah to take into the ark?",
+          "question": "According to Genesis 7:2, what does the specific number of clean animals to be taken signify in God's covenantal provision?",
           "type": "multiple-choice",
           "options": [
-            "Seven pairs, male and female",
-            "Two males only",
-            "One pair, male and female",
-            "Ten pairs, male and female"
+            "Seven pairs of clean animals symbolize completeness and preservation",
+            "Only one pair of clean animals was needed",
+            "Clean animals were not required on the ark",
+            "Twelve pairs of clean animals represented the tribes of Israel"
           ],
-          "correctAnswer": "Seven pairs, male and female",
-          "explanation": "Genesis 7:2 specifies that Noah was to take seven pairs (male and female) of every clean beast, which indicates God's provision for preserving sacrificial and ritual purity post-flood. This is consistent with later instructions in Leviticus 11 and the concept of clean animals used for worship in the Old Testament, pointing to God's holiness.",
+          "correctAnswer": "Seven pairs of clean animals symbolize completeness and preservation",
+          "explanation": "Genesis 7:2 prescribes seven pairs of clean animals, indicating God's thorough provision for preserving species necessary for sacrificial purposes and covenant continuity, symbolizing divine completeness.",
           "verseReference": "Genesis 7:2",
           "difficulty": "hard"
         },
         {
           "id": "genesis-7-theological-q3",
-          "question": "What was the duration of the rain during the flood as stated in Genesis 7?",
+          "question": "How does Genesis 7:4 demonstrate God's attribute of justice in relation to creation?",
           "type": "multiple-choice",
           "options": [
-            "Forty days and forty nights",
-            "Seven days",
-            "One hundred and fifty days",
-            "Thirty days"
+            "God declares He will destroy every living substance due to universal corruption",
+            "God shows mercy by sparing all creatures",
+            "God is indifferent to human sin",
+            "God delegates judgment to angels"
           ],
-          "correctAnswer": "Forty days and forty nights",
-          "explanation": "Genesis 7:12 records the rain lasting forty days and forty nights, a period often symbolizing judgment and testing in Scripture, as seen in Exodus 24:18, Matthew 4:2, and Jonah 3:4. The flood serves as an eschatological type of God's final judgment on sin.",
-          "verseReference": "Genesis 7:12",
+          "correctAnswer": "God declares He will destroy every living substance due to universal corruption",
+          "explanation": "Genesis 7:4 reveals God's justice in response to pervasive sinfulness, as He plans to destroy every living substance on earth, underscoring the seriousness of divine judgment upon a corrupt creation.",
+          "verseReference": "Genesis 7:4",
           "difficulty": "hard"
         },
         {
           "id": "genesis-7-theological-q4",
-          "question": "Who entered the ark with Noah because of the flood waters?",
+          "question": "What theological significance does Noah's obedience in Genesis 7:5 have in the doctrine of sanctification?",
           "type": "multiple-choice",
           "options": [
-            "Noah, his sons, his wife, and his sons' wives",
-            "Only Noah and his sons",
-            "Noah and his neighbors",
-            "Noah alone"
+            "It exemplifies faithful submission to God's commands as a form of holiness",
+            "It shows human works alone save from judgment",
+            "It emphasizes human wisdom over divine instruction",
+            "It indicates reluctance to obey God"
           ],
-          "correctAnswer": "Noah, his sons, his wife, and his sons' wives",
-          "explanation": "Genesis 7:7 confirms that Noah, his sons, his wife, and his sons' wives entered the ark, highlighting God's preservation of the human family necessary for repopulation. This reflects God's covenantal faithfulness and the continuation of humanity, as also emphasized in Acts 17:26, 1 Peter 3:20, and Psalm 127:3.",
-          "verseReference": "Genesis 7:7",
+          "correctAnswer": "It exemplifies faithful submission to God's commands as a form of holiness",
+          "explanation": "Genesis 7:5 highlights Noah's obedience to God's commands, illustrating sanctification as faithful response and holiness in action, aligning with the biblical teaching of living by faith and obedience.",
+          "verseReference": "Genesis 7:5",
           "difficulty": "hard"
         },
         {
           "id": "genesis-7-theological-q5",
-          "question": "How were the animals brought into the ark according to God’s command?",
+          "question": "What does the precise timing in Genesis 7:11 (six hundredth year, second month, seventeenth day) reveal about God's providence?",
           "type": "multiple-choice",
           "options": [
-            "Two and two, male and female",
-            "Only males",
-            "Only clean animals",
-            "Seven males and one female"
+            "God sovereignly controls the unfolding of redemptive history with exact timing",
+            "The timing is incidental and holds no significance",
+            "The flood was delayed due to human repentance",
+            "The date reflects an astrological event"
           ],
-          "correctAnswer": "Two and two, male and female",
-          "explanation": "Genesis 7:9 states animals entered two and two, male and female, underscoring God's design for biological reproduction and preservation of species. This pairs with the creation account in Genesis 1:24-25 and the principle of 'after their kind,' reinforcing God's sovereign order.",
-          "verseReference": "Genesis 7:9",
+          "correctAnswer": "God sovereignly controls the unfolding of redemptive history with exact timing",
+          "explanation": "Genesis 7:11's exact dating demonstrates God's providential sovereignty in executing judgment and salvation within His redemptive plan, showing that God's timing governs human history.",
+          "verseReference": "Genesis 7:11",
           "difficulty": "hard"
         },
         {
           "id": "genesis-7-theological-q6",
-          "question": "On what day of Noah’s life did the floodwaters begin according to Genesis 7?",
+          "question": "How does the inclusion of Noah's sons and their wives in Genesis 7:7 contribute to the doctrine of covenant community?",
           "type": "multiple-choice",
           "options": [
-            "Six hundredth year, second month, seventeenth day",
-            "Five hundredth year, first month, first day",
-            "Six hundredth year, first month, first day",
-            "Seven hundredth year, third month, tenth day"
+            "It affirms the preservation of a covenant family representing humanity's continuation",
+            "It suggests only Noah was righteous, others were saved by chance",
+            "It excludes women from God's redemptive plan",
+            "It implies salvation was limited to Noah alone"
           ],
-          "correctAnswer": "Six hundredth year, second month, seventeenth day",
-          "explanation": "Genesis 7:11 specifies that the flood began on the 17th day of the second month in Noah’s 600th year, indicating God's precise timing and sovereign control over history, consistent with prophetic fulfillment and divine providence seen in Daniel 9:24-27 and Ecclesiastes 3:1.",
-          "verseReference": "Genesis 7:11",
+          "correctAnswer": "It affirms the preservation of a covenant family representing humanity's continuation",
+          "explanation": "Genesis 7:7 shows that Noah's family entered the ark together, emphasizing God's covenantal preservation of a family unit to continue human life and fulfill divine promises.",
+          "verseReference": "Genesis 7:7",
           "difficulty": "hard"
         },
         {
           "id": "genesis-7-theological-q7",
-          "question": "What does the breaking up of the 'fountains of the great deep' and the opening of the 'windows of heaven' signify in the flood narrative?",
+          "question": "What does the phrase 'the LORD shut him in' in Genesis 7:16 reveal about God's attribute?",
           "type": "multiple-choice",
           "options": [
-            "A cataclysmic judgment from both earth and sky",
-            "A natural earthquake only",
-            "A simple heavy rain",
-            "An ordinary flood"
+            "God's sovereign protection and control over salvation",
+            "God's abandonment of Noah and the ark",
+            "Human effort alone secured the ark's safety",
+            "God's indifference to human obedience"
           ],
-          "correctAnswer": "A cataclysmic judgment from both earth and sky",
-          "explanation": "Genesis 7:11 describes these events as simultaneous, indicating a comprehensive divine judgment involving both subterranean waters and heavenly rain. This portrays God's omnipotence over all creation, paralleling the cosmic judgments in Revelation 6:12-17 and Psalm 104:6-9.",
-          "verseReference": "Genesis 7:11",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-7-theological-q8",
-          "question": "How long did the waters prevail upon the earth according to Genesis 7?",
-          "type": "multiple-choice",
-          "options": [
-            "One hundred and fifty days",
-            "Forty days",
-            "Seventy days",
-            "One year"
-          ],
-          "correctAnswer": "One hundred and fifty days",
-          "explanation": "Genesis 7:24 states the waters prevailed for 150 days, illustrating the thoroughness and severity of God's judgment. This period of judgment aligns with themes of trial and purification found in Jonah 3:4 and Daniel 9:27, emphasizing God's righteous governance.",
-          "verseReference": "Genesis 7:24",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-7-theological-q9",
-          "question": "What happened to all flesh that had the breath of life during the flood?",
-          "type": "multiple-choice",
-          "options": [
-            "They died",
-            "They were saved",
-            "They multiplied",
-            "They were hidden"
-          ],
-          "correctAnswer": "They died",
-          "explanation": "Genesis 7:22 makes clear that all flesh with the breath of life died, demonstrating the severity of divine judgment against sin. This total destruction underscores God's justice, as echoed in Romans 5:12, Ecclesiastes 7:20, and Revelation 20:12-15.",
-          "verseReference": "Genesis 7:22",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-7-theological-q10",
-          "question": "What role does the ark play in the salvation narrative according to Genesis 7?",
-          "type": "multiple-choice",
-          "options": [
-            "It is God’s means of preserving life",
-            "It is a palace for Noah",
-            "It is a symbol of wealth",
-            "It is a place of exile"
-          ],
-          "correctAnswer": "It is God’s means of preserving life",
-          "explanation": "Genesis 7:16 shows the ark as the instrument God used to save Noah, his family, and animals, symbolizing salvation and divine mercy. This typifies Christ as the refuge from judgment (1 Peter 3:20-21) and prefigures the Church as a spiritual ark of salvation (Ephesians 2:19-22).",
+          "correctAnswer": "God's sovereign protection and control over salvation",
+          "explanation": "Genesis 7:16 indicates that God Himself secured Noah in the ark, symbolizing divine sovereignty and protection in the work of salvation, a key attribute of God as protector and preserver.",
           "verseReference": "Genesis 7:16",
           "difficulty": "hard"
         },
         {
-          "id": "genesis-7-theological-q11",
-          "question": "How does Genesis 7 depict God's attribute of justice?",
+          "id": "genesis-7-theological-q8",
+          "question": "What doctrinal truth is taught by the flood waters prevailing and lifting the ark above the earth as described in Genesis 7:17?",
           "type": "multiple-choice",
           "options": [
-            "By destroying all flesh due to widespread corruption",
-            "By ignoring human sin",
-            "By rewarding the wicked",
-            "By postponing judgment indefinitely"
+            "God's judgment is both overwhelming and redemptive, lifting the ark as a means of salvation",
+            "The flood was a minor event with no theological impact",
+            "The ark sank beneath the waters indicating failure",
+            "Water symbolized chaos without divine involvement"
           ],
-          "correctAnswer": "By destroying all flesh due to widespread corruption",
-          "explanation": "Genesis 7:23 reveals God's justice in cleansing the earth through the flood due to pervasive human sinfulness, demonstrating His opposition to evil, consistent with passages like Romans 1:18-32 and Psalm 7:11.",
+          "correctAnswer": "God's judgment is both overwhelming and redemptive, lifting the ark as a means of salvation",
+          "explanation": "Genesis 7:17 teaches that while God's judgment through the flood is comprehensive and devastating, it also provides salvation by lifting the ark above destruction, foreshadowing redemptive deliverance.",
+          "verseReference": "Genesis 7:17",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-7-theological-q9",
+          "question": "How does Genesis 7:19-20's description of the waters covering the mountains connect to the universal scope of God's judgment?",
+          "type": "multiple-choice",
+          "options": [
+            "It illustrates that God's judgment was worldwide, affecting all creation",
+            "It suggests judgment was localized only to certain regions",
+            "It implies mountains were spared from the flood",
+            "It shows the flood was symbolic, not literal"
+          ],
+          "correctAnswer": "It illustrates that God's judgment was worldwide, affecting all creation",
+          "explanation": "Genesis 7:19-20 emphasizes the flood's comprehensive nature by stating that all high hills and mountains were covered, confirming the universal extent of divine judgment.",
+          "verseReference": "Genesis 7:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-7-theological-q10",
+          "question": "What combined doctrinal insight do Genesis 7:21-22 provide regarding the consequence of sin on all living beings?",
+          "type": "multiple-choice",
+          "options": [
+            "Sin brought universal death to all flesh breathing life on dry land",
+            "Only humans were judged; animals were spared",
+            "Death was partial and selective",
+            "Sin had no effect on creation"
+          ],
+          "correctAnswer": "Sin brought universal death to all flesh breathing life on dry land",
+          "explanation": "Genesis 7:21-22 teach that the flood resulted in the death of all living creatures with the breath of life on dry land, revealing sin's devastating and comprehensive impact on creation.",
+          "verseReference": "Genesis 7:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-7-theological-q11",
+          "question": "What theological meaning does the phrase 'only Noah remained alive' in Genesis 7:23 hold in the context of salvation history?",
+          "type": "multiple-choice",
+          "options": [
+            "Noah is a type of the faithful remnant preserved by God through judgment",
+            "Noah was the sole righteous man ever",
+            "Noah's survival was accidental",
+            "Salvation was based on works apart from God's grace"
+          ],
+          "correctAnswer": "Noah is a type of the faithful remnant preserved by God through judgment",
+          "explanation": "Genesis 7:23 shows that only Noah and those with him survived, symbolizing God's preservation of a faithful remnant, a key theme in salvation history reflecting divine mercy amid judgment.",
           "verseReference": "Genesis 7:23",
           "difficulty": "hard"
         },
         {
           "id": "genesis-7-theological-q12",
-          "question": "What theological significance does Noah's obedience in Genesis 7 have for Christian doctrine?",
+          "question": "Sceptics claim the flood narrative is mythological and lacks historical basis. What does Genesis 7:24 teach about the duration and reality of the flood event?",
           "type": "multiple-choice",
           "options": [
-            "It exemplifies faith leading to salvation",
-            "It highlights human self-righteousness",
-            "It shows the futility of obedience",
-            "It stresses ritual over relationship"
+            "The waters prevailed for 150 days, indicating a prolonged, real judgment event",
+            "The flood lasted only a few hours, suggesting myth",
+            "No specific duration is given, supporting a legend",
+            "The flood was symbolic and not literal"
           ],
-          "correctAnswer": "It exemplifies faith leading to salvation",
-          "explanation": "Genesis 7:5 emphasizes Noah’s obedience to God's command, which is a model of faith and trust leading to deliverance. This is foundational in Hebrews 11:7 and James 2:14-26, teaching that faith is evidenced through works and trust in God's promises.",
-          "verseReference": "Genesis 7:5",
+          "correctAnswer": "The waters prevailed for 150 days, indicating a prolonged, real judgment event",
+          "explanation": "Genesis 7:24 specifies the flood lasting 150 days, supporting the historicity and seriousness of the event as a real divine judgment rather than myth, affirming biblical reliability (cf. 2 Peter 3:6).",
+          "verseReference": "Genesis 7:24",
           "difficulty": "hard"
         },
         {
           "id": "genesis-7-theological-q13",
-          "question": "What does the lifting of the ark above the earth by the waters symbolize in biblical theology?",
+          "question": "What combined theological truth is taught by Genesis 7:3 and Genesis 7:15 about God's purpose in preserving animal life?",
           "type": "multiple-choice",
           "options": [
-            "God’s sovereign control and deliverance",
-            "Natural buoyancy only",
-            "Random chance",
-            "Human effort alone"
+            "God preserves seed and breath of life to ensure continuity of creation",
+            "Animals were not preserved during the flood",
+            "Only clean animals were saved for sacrifice",
+            "Preservation was accidental, not intentional"
           ],
-          "correctAnswer": "God’s sovereign control and deliverance",
-          "explanation": "Genesis 7:17-18 shows the ark lifted and borne by the floodwaters, symbolizing God's providential care and deliverance amid judgment. This prefigures Christ’s exaltation (Philippians 2:9) and God's overarching sovereignty (Psalm 93:4).",
-          "verseReference": "Genesis 7:17",
+          "correctAnswer": "God preserves seed and breath of life to ensure continuity of creation",
+          "explanation": "Genesis 7:3 and 7:15 together teach that God intentionally preserves pairs of animals and the breath of life to maintain life on earth, demonstrating His providential care over creation's continuity.",
+          "verseReference": "Genesis 7:3, 15",
           "difficulty": "hard"
         },
         {
           "id": "genesis-7-theological-q14",
-          "question": "What does the command to take 'by sevens' of clean animals suggest about God's plan for creation after the flood?",
+          "question": "What theological significance does the breaking up of 'the fountains of the great deep' and the opening of the 'windows of heaven' in Genesis 7:11 have regarding God's control over creation?",
           "type": "multiple-choice",
           "options": [
-            "Preservation for sacrifice and multiplication",
-            "Only for companionship",
-            "To prevent reproduction",
-            "To keep animals separate forever"
+            "It reveals God's sovereign control over both subterranean and celestial waters in judgment",
+            "It suggests natural forces acted independently of God",
+            "It indicates chaos escaped God's control",
+            "It shows God was powerless over the flood"
           ],
-          "correctAnswer": "Preservation for sacrifice and multiplication",
-          "explanation": "Genesis 7:2-3 indicates taking seven pairs of clean animals to preserve them for both multiplication and sacrificial purposes, foreshadowing the role of sacrifice in atonement (Leviticus 1-7) and Christ as the ultimate sacrifice (Hebrews 9:11-14).",
-          "verseReference": "Genesis 7:2",
+          "correctAnswer": "It reveals God's sovereign control over both subterranean and celestial waters in judgment",
+          "explanation": "Genesis 7:11 illustrates God's authority over all elements of creation, including waters below and above, affirming His sovereign judgment and control in executing the flood.",
+          "verseReference": "Genesis 7:11",
           "difficulty": "hard"
         },
         {
           "id": "genesis-7-theological-q15",
-          "question": "How does Genesis 7 contribute to Christian eschatology?",
+          "question": "How does Genesis 7:8 demonstrate the inclusiveness of God's judgment and mercy toward all earth's creatures?",
           "type": "multiple-choice",
           "options": [
-            "It serves as a type of final judgment and salvation",
-            "It denies any future judgment",
-            "It promotes eternal material prosperity",
-            "It focuses only on historical events"
+            "All creatures—clean, unclean, fowls, and creeping things—were included in the flood judgment and preservation plan",
+            "Only humans were judged, animals excluded",
+            "Some animals were exempt from judgment",
+            "Only clean animals were saved"
           ],
-          "correctAnswer": "It serves as a type of final judgment and salvation",
-          "explanation": "The flood in Genesis 7 is a typological precursor of the final judgment with salvation through the ark, paralleling passages like 2 Peter 3:6-7, Revelation 20:11-15, and Matthew 24:37-39, teaching about God's righteous judgment and mercy.",
-          "verseReference": "Genesis 7:12",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-7-theological-q16",
-          "question": "What does the 'breath of life' refer to in the context of Genesis 7?",
-          "type": "multiple-choice",
-          "options": [
-            "The life-giving spirit in all living creatures",
-            "A physical breath only",
-            "A symbolic breath of wind",
-            "An angelic presence"
-          ],
-          "correctAnswer": "The life-giving spirit in all living creatures",
-          "explanation": "Genesis 7:22 uses 'breath of life' to denote the divine life force in living beings, reflecting God's role as the creator and sustainer of life (Genesis 2:7, Job 33:4, Ezekiel 37:5-6), which is foundational to understanding humanity's dependence on God.",
-          "verseReference": "Genesis 7:22",
+          "correctAnswer": "All creatures—clean, unclean, fowls, and creeping things—were included in the flood judgment and preservation plan",
+          "explanation": "Genesis 7:8 shows God's judgment encompassed every kind of living creature, yet His mercy included preserving representatives of all kinds, highlighting His comprehensive justice and grace.",
+          "verseReference": "Genesis 7:8",
           "difficulty": "hard"
         }
       ],
@@ -1004,7 +970,7 @@
         "bible-quiz",
         "theological"
       ],
-      "totalQuestions": 16,
+      "totalQuestions": 15,
       "estimatedTime": 25
     }
   }

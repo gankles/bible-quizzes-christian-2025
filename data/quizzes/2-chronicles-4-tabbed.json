@@ -13,13 +13,28 @@
       "questions": [
         {
           "id": "2-chronicles-4-easy-q1",
-          "question": "What were the dimensions of the altar of brass made by Solomon?",
+          "question": "In 2 Chronicles 4, which of the following appears FIRST in the chapter?",
+          "type": "multiple-choice",
+          "options": [
+            "The altar of brass",
+            "The molten sea",
+            "The ten lavers",
+            "The ten candlesticks of gold"
+          ],
+          "correctAnswer": "The altar of brass",
+          "explanation": "The altar of brass is described first in 2 Chronicles 4:1 before other items are mentioned.",
+          "verseReference": "2 Chronicles 4:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "2-chronicles-4-easy-q2",
+          "question": "What were the dimensions of the altar of brass made in 2 Chronicles 4?",
           "type": "multiple-choice",
           "options": [
             "Twenty cubits length, twenty cubits breadth, ten cubits height",
             "Ten cubits length, ten cubits breadth, five cubits height",
             "Thirty cubits length, twenty cubits breadth, fifteen cubits height",
-            "Fifteen cubits length, fifteen cubits breadth, ten cubits height"
+            "Fifteen cubits length, fifteen cubits breadth, seven cubits height"
           ],
           "correctAnswer": "Twenty cubits length, twenty cubits breadth, ten cubits height",
           "explanation": "2 Chronicles 4:1 states the altar of brass was twenty cubits in length and breadth, and ten cubits in height.",
@@ -27,8 +42,8 @@
           "difficulty": "easy"
         },
         {
-          "id": "2-chronicles-4-easy-q2",
-          "question": "How many cubits was the molten sea from brim to brim?",
+          "id": "2-chronicles-4-easy-q3",
+          "question": "How wide was the molten sea from brim to brim according to 2 Chronicles 4?",
           "type": "multiple-choice",
           "options": [
             "Ten cubits",
@@ -42,38 +57,53 @@
           "difficulty": "easy"
         },
         {
-          "id": "2-chronicles-4-easy-q3",
-          "question": "What animals were depicted under the molten sea?",
-          "type": "multiple-choice",
-          "options": [
-            "Oxen",
-            "Lions",
-            "Eagles",
-            "Serpents"
-          ],
-          "correctAnswer": "Oxen",
-          "explanation": "2 Chronicles 4:3 mentions the similitude of oxen under the molten sea.",
-          "verseReference": "2 Chronicles 4:3",
-          "difficulty": "easy"
-        },
-        {
           "id": "2-chronicles-4-easy-q4",
-          "question": "How many oxen supported the molten sea and in which directions did they face?",
+          "question": "How many oxen were under the molten sea in 2 Chronicles 4?",
           "type": "multiple-choice",
           "options": [
-            "Twelve oxen; three facing each north, west, south, and east",
-            "Ten oxen; all facing east",
-            "Eight oxen; four facing north and four facing south",
-            "Six oxen; two facing each north, south, and east"
+            "Twelve oxen",
+            "Ten oxen",
+            "Five oxen",
+            "Twenty oxen"
           ],
-          "correctAnswer": "Twelve oxen; three facing each north, west, south, and east",
-          "explanation": "2 Chronicles 4:4 states the sea stood upon twelve oxen, three looking toward each cardinal direction.",
+          "correctAnswer": "Twelve oxen",
+          "explanation": "2 Chronicles 4:4 states that the molten sea stood upon twelve oxen.",
           "verseReference": "2 Chronicles 4:4",
           "difficulty": "easy"
         },
         {
           "id": "2-chronicles-4-easy-q5",
-          "question": "What was the capacity of the molten sea?",
+          "question": "How were the twelve oxen arranged under the molten sea in 2 Chronicles 4?",
+          "type": "multiple-choice",
+          "options": [
+            "Three looking north, three west, three south, and three east",
+            "Four looking north, four south, four east",
+            "Six looking east, six west",
+            "All twelve looking north"
+          ],
+          "correctAnswer": "Three looking north, three west, three south, and three east",
+          "explanation": "2 Chronicles 4:4 explains the arrangement of the oxen in four groups of three facing the four directions.",
+          "verseReference": "2 Chronicles 4:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "2-chronicles-4-easy-q6",
+          "question": "What was the thickness of the molten sea in 2 Chronicles 4?",
+          "type": "multiple-choice",
+          "options": [
+            "A handbreadth",
+            "An inch",
+            "A cubit",
+            "A span"
+          ],
+          "correctAnswer": "A handbreadth",
+          "explanation": "2 Chronicles 4:5 states the thickness of the molten sea was a handbreadth.",
+          "verseReference": "2 Chronicles 4:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "2-chronicles-4-easy-q7",
+          "question": "How many baths could the molten sea hold as stated in 2 Chronicles 4?",
           "type": "multiple-choice",
           "options": [
             "Three thousand baths",
@@ -82,152 +112,122 @@
             "Ten thousand baths"
           ],
           "correctAnswer": "Three thousand baths",
-          "explanation": "2 Chronicles 4:5 says the molten sea could hold three thousand baths.",
+          "explanation": "2 Chronicles 4:5 states the molten sea could receive and hold three thousand baths.",
           "verseReference": "2 Chronicles 4:5",
           "difficulty": "easy"
         },
         {
-          "id": "2-chronicles-4-easy-q6",
-          "question": "How many lavers did Solomon make and how were they arranged?",
+          "id": "2-chronicles-4-easy-q8",
+          "question": "How many lavers did he make and how were they arranged according to 2 Chronicles 4?",
           "type": "multiple-choice",
           "options": [
-            "Ten lavers; five on the right hand and five on the left",
+            "Ten lavers; five on the right hand, and five on the left",
             "Five lavers; all on the right hand",
-            "Ten lavers; all on the left hand",
-            "Twelve lavers; six on each side"
+            "Twenty lavers; ten on each side",
+            "Ten lavers; all placed in the temple's center"
           ],
-          "correctAnswer": "Ten lavers; five on the right hand and five on the left",
-          "explanation": "2 Chronicles 4:6 states Solomon made ten lavers, placing five on the right and five on the left.",
+          "correctAnswer": "Ten lavers; five on the right hand, and five on the left",
+          "explanation": "2 Chronicles 4:6 describes ten lavers with five on the right and five on the left.",
           "verseReference": "2 Chronicles 4:6",
           "difficulty": "easy"
         },
         {
-          "id": "2-chronicles-4-easy-q7",
-          "question": "True or False: Solomon made ten golden candlesticks and placed them all on one side of the temple.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "False",
-          "explanation": "2 Chronicles 4:7 says Solomon made ten golden candlesticks and placed five on the right and five on the left in the temple.",
-          "verseReference": "2 Chronicles 4:7",
-          "difficulty": "easy"
-        },
-        {
-          "id": "2-chronicles-4-easy-q8",
-          "question": "How many tables did Solomon make for the temple?",
-          "type": "multiple-choice",
-          "options": [
-            "Ten",
-            "Five",
-            "Twenty",
-            "Twelve"
-          ],
-          "correctAnswer": "Ten",
-          "explanation": "2 Chronicles 4:8 records that Solomon made ten tables and placed five on each side in the temple.",
-          "verseReference": "2 Chronicles 4:8",
-          "difficulty": "easy"
-        },
-        {
           "id": "2-chronicles-4-easy-q9",
-          "question": "What material was used to overlay the doors of the courts?",
+          "question": "What was the purpose of the sea according to 2 Chronicles 4?",
           "type": "multiple-choice",
           "options": [
-            "Brass",
-            "Gold",
-            "Silver",
-            "Iron"
+            "For the priests to wash in",
+            "For washing the burnt offerings",
+            "For drinking water",
+            "For catching fish"
           ],
-          "correctAnswer": "Brass",
-          "explanation": "2 Chronicles 4:9 states the doors of the courts were overlaid with brass.",
-          "verseReference": "2 Chronicles 4:9",
+          "correctAnswer": "For the priests to wash in",
+          "explanation": "2 Chronicles 4:6 states that the sea was for the priests to wash in.",
+          "verseReference": "2 Chronicles 4:6",
           "difficulty": "easy"
         },
         {
           "id": "2-chronicles-4-easy-q10",
-          "question": "Where was the molten sea set in relation to the temple?",
+          "question": "How many candlesticks of gold were made and how were they placed in the temple as per 2 Chronicles 4?",
           "type": "multiple-choice",
           "options": [
-            "On the right side of the east end, opposite the south",
-            "In the middle of the temple courtyard",
-            "On the left side of the west end, opposite the north",
-            "At the entrance of the temple"
+            "Ten candlesticks; five on the right hand, and five on the left",
+            "Five candlesticks; all on the right hand",
+            "Twenty candlesticks; ten on each side",
+            "Ten candlesticks; all placed in the temple's center"
           ],
-          "correctAnswer": "On the right side of the east end, opposite the south",
-          "explanation": "2 Chronicles 4:10 describes the sea as set on the right side of the east end, over against the south.",
-          "verseReference": "2 Chronicles 4:10",
+          "correctAnswer": "Ten candlesticks; five on the right hand, and five on the left",
+          "explanation": "2 Chronicles 4:7 states that ten gold candlesticks were made and placed five on each side of the temple.",
+          "verseReference": "2 Chronicles 4:7",
           "difficulty": "easy"
         },
         {
           "id": "2-chronicles-4-easy-q11",
-          "question": "Who was responsible for making the pots, shovels, and basons for Solomon?",
+          "question": "How many tables did he make and where were they placed in the temple according to 2 Chronicles 4?",
           "type": "multiple-choice",
           "options": [
-            "Huram",
-            "Solomon",
-            "David",
-            "Bezalel"
+            "Ten tables; five on the right side, and five on the left",
+            "Five tables; all on the right side",
+            "Twenty tables; ten on each side",
+            "Ten tables; all placed in the temple's center"
           ],
-          "correctAnswer": "Huram",
-          "explanation": "2 Chronicles 4:11 states Huram made the pots, shovels, and basons for Solomon for the house of God.",
-          "verseReference": "2 Chronicles 4:11",
+          "correctAnswer": "Ten tables; five on the right side, and five on the left",
+          "explanation": "2 Chronicles 4:8 states that ten tables were made and placed five on each side in the temple.",
+          "verseReference": "2 Chronicles 4:8",
           "difficulty": "easy"
         },
         {
           "id": "2-chronicles-4-easy-q12",
-          "question": "Complete the verse: 'Two rows of _______ on each wreath, to cover the two pommels of the chapiters upon the pillars.'",
-          "type": "fill-blank",
+          "question": "According to 2 Chronicles 4, how many basons of gold were made?",
+          "type": "multiple-choice",
           "options": [
-            "pomegranates",
-            "lilies",
-            "candlesticks",
-            "oxen"
+            "One hundred basons",
+            "Fifty basons",
+            "Ten basons",
+            "Twenty basons"
           ],
-          "correctAnswer": "pomegranates",
-          "explanation": "2 Chronicles 4:13 specifies there were two rows of pomegranates on each wreath covering the pommels of the chapiters on the pillars.",
-          "verseReference": "2 Chronicles 4:13",
+          "correctAnswer": "One hundred basons",
+          "explanation": "2 Chronicles 4:8 states that one hundred basons of gold were made.",
+          "verseReference": "2 Chronicles 4:8",
           "difficulty": "easy"
         },
         {
           "id": "2-chronicles-4-easy-q13",
-          "question": "True or False: The vessels and instruments made by Huram were of bright brass.",
+          "question": "The molten sea was round and measured ten cubits from brim to brim.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "2 Chronicles 4:16 confirms that Huram made all the instruments for Solomon of bright brass.",
-          "verseReference": "2 Chronicles 4:16",
+          "explanation": "2 Chronicles 4:2 describes the molten sea as round and ten cubits from brim to brim.",
+          "verseReference": "2 Chronicles 4:2",
           "difficulty": "easy"
         },
         {
           "id": "2-chronicles-4-easy-q14",
-          "question": "Where did Solomon cast the brass vessels and instruments?",
-          "type": "multiple-choice",
+          "question": "The sea stood upon twelve oxen with their hinder parts inward.",
+          "type": "true-false",
           "options": [
-            "In the plain of Jordan, between Succoth and Zeredathah",
-            "In Jerusalem",
-            "On Mount Sinai",
-            "By the river Euphrates"
+            "True",
+            "False"
           ],
-          "correctAnswer": "In the plain of Jordan, between Succoth and Zeredathah",
-          "explanation": "2 Chronicles 4:17 says Solomon cast the vessels in the clay ground between Succoth and Zeredathah in the plain of Jordan.",
-          "verseReference": "2 Chronicles 4:17",
+          "correctAnswer": "True",
+          "explanation": "2 Chronicles 4:4 states the sea was set upon twelve oxen with all their hinder parts inward.",
+          "verseReference": "2 Chronicles 4:4",
           "difficulty": "easy"
         },
         {
           "id": "2-chronicles-4-easy-q15",
-          "question": "True or False: The weight of the brass used for Solomon's vessels could be easily measured.",
+          "question": "The chapter says the altar of brass was made of gold.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "2 Chronicles 4:18 states the weight of the brass could not be found out, indicating it was very abundant.",
-          "verseReference": "2 Chronicles 4:18",
+          "explanation": "2 Chronicles 4:1 specifies the altar was made of brass, not gold.",
+          "verseReference": "2 Chronicles 4:1",
           "difficulty": "easy"
         }
       ],
@@ -254,223 +254,221 @@
       "questions": [
         {
           "id": "2-chronicles-4-medium-q1",
-          "question": "A fellow believer is overwhelmed by the tasks of serving in the church. Based on 2 Chronicles 4, what biblical truth about diligence and faithfulness in service would you share?",
+          "question": "What material did Solomon use to overlay the doors of the court?",
           "type": "multiple-choice",
           "options": [
-            "God honors careful and abundant preparation for His work",
-            "Only spiritual gifts matter, not the work done",
-            "Service should be done only by the most talented",
-            "Physical work in ministry is unimportant"
+            "Gold",
+            "Brass",
+            "Silver",
+            "Iron"
           ],
-          "correctAnswer": "God honors careful and abundant preparation for His work",
-          "explanation": "2 Chronicles 4:18 shows that Solomon made vessels in great abundance and their weight could not be measured, demonstrating diligence and faithfulness in preparing for God’s house. Verses 4:6-8 also show detailed work for temple service, highlighting the value of committed service.",
-          "verseReference": "2 Chronicles 4:18",
+          "correctAnswer": "Brass",
+          "explanation": "The doors of the court were overlaid with brass, as stated in 2 Chronicles 4:9.",
+          "verseReference": "2 Chronicles 4:9",
           "difficulty": "medium"
         },
         {
           "id": "2-chronicles-4-medium-q2",
-          "question": "How does the description of the altar of brass (2 Chronicles 4:1) teach us about obedience and reverence in our spiritual disciplines?",
+          "question": "What does 2 Chronicles 4:10 promise will happen if someone sets the sea on the east end?",
           "type": "multiple-choice",
           "options": [
-            "Obedience involves following God’s instructions carefully",
-            "Appearance is more important than obedience",
-            "Reverence is only about feelings, not actions",
-            "Discipline is unnecessary in spiritual life"
+            "It will provide water for the priests.",
+            "It will be a place for offerings.",
+            "It will be over against the south.",
+            "It will be used for sacrifices."
           ],
-          "correctAnswer": "Obedience involves following God’s instructions carefully",
-          "explanation": "The precise dimensions of the altar in 2 Chronicles 4:1 show that Solomon obeyed God’s commands meticulously. This teaches that reverence includes careful obedience and respect for God’s instructions in worship and spiritual discipline.",
-          "verseReference": "2 Chronicles 4:1",
-          "difficulty": "medium"
-        },
-        {
-          "id": "2-chronicles-4-medium-q3",
-          "question": "A believer struggles with maintaining faithfulness in small tasks. Based on the detailed work on the molten sea and its oxen (2 Chronicles 4:2-4), what principle about faithfulness can you share?",
-          "type": "multiple-choice",
-          "options": [
-            "Faithfulness in small or detailed tasks is important for God’s glory",
-            "Only large tasks matter in service to God",
-            "Details in service are unimportant distractions",
-            "Faithfulness is optional in ministry"
-          ],
-          "correctAnswer": "Faithfulness in small or detailed tasks is important for God’s glory",
-          "explanation": "The intricate design of the molten sea and its twelve oxen (2 Chronicles 4:2-4) reveals that faithfulness to details honors God. This teaches that every aspect of service, even detailed tasks, reflects our devotion and trust in God.",
-          "verseReference": "2 Chronicles 4:2",
-          "difficulty": "medium"
-        },
-        {
-          "id": "2-chronicles-4-medium-q4",
-          "question": "What biblical truth about stewardship and generosity is taught by Solomon’s making of ten lavers and ten candlesticks for the temple (2 Chronicles 4:6-7)?",
-          "type": "multiple-choice",
-          "options": [
-            "Stewardship involves generous and purposeful use of resources for God’s work",
-            "Resources should be hoarded for personal use",
-            "Only minimal effort is needed in giving to God",
-            "Stewardship is unrelated to worship"
-          ],
-          "correctAnswer": "Stewardship involves generous and purposeful use of resources for God’s work",
-          "explanation": "In 2 Chronicles 4:6-7, Solomon made multiple lavers and candlesticks for temple use, showing that stewardship means dedicating resources generously and intentionally to honor God and support worship.",
-          "verseReference": "2 Chronicles 4:6",
-          "difficulty": "medium"
-        },
-        {
-          "id": "2-chronicles-4-medium-q5",
-          "question": "A believer is struggling with contentment in their role in church service. Based on the variety of temple vessels Solomon made (2 Chronicles 4:8-9, 19-22), what biblical principle can encourage them?",
-          "type": "multiple-choice",
-          "options": [
-            "Every role and tool in God’s service is valuable and necessary",
-            "Only prominent roles are meaningful",
-            "God values only certain gifts for ministry",
-            "Contentment is unrelated to church service"
-          ],
-          "correctAnswer": "Every role and tool in God’s service is valuable and necessary",
-          "explanation": "Solomon made many different vessels and furnishings for the temple from gold and brass (2 Chronicles 4:8-9, 19-22), teaching that all parts of God’s service—big or small—are important and worthy of our contentment and dedication.",
-          "verseReference": "2 Chronicles 4:8",
-          "difficulty": "medium"
-        },
-        {
-          "id": "2-chronicles-4-medium-q6",
-          "question": "How does the placement of the sea on the right side of the east end (2 Chronicles 4:10) teach us about order and structure in worship and spiritual life?",
-          "type": "multiple-choice",
-          "options": [
-            "God values order and intentional arrangement in worship",
-            "Worship should be chaotic and unstructured",
-            "Order is unimportant in spiritual matters",
-            "Only spontaneous worship pleases God"
-          ],
-          "correctAnswer": "God values order and intentional arrangement in worship",
-          "explanation": "2 Chronicles 4:10 describes the specific placement of the sea in the temple courtyard, showing that God’s worship involves order and structure. This teaches us to approach spiritual disciplines with respect and intentionality.",
+          "correctAnswer": "It will be over against the south.",
+          "explanation": "2 Chronicles 4:10 states that the sea was set on the right side of the east end, over against the south.",
           "verseReference": "2 Chronicles 4:10",
           "difficulty": "medium"
         },
         {
-          "id": "2-chronicles-4-medium-q7",
-          "question": "A believer faces temptation to neglect their service. Based on Huram’s faithful craftsmanship for the temple (2 Chronicles 4:11-16), what biblical truth can encourage perseverance?",
+          "id": "2-chronicles-4-medium-q3",
+          "question": "Who made the pots, shovels, and basons for the house of God?",
           "type": "multiple-choice",
           "options": [
-            "Perseverance in God’s work leads to completion and blessing",
-            "Temptation justifies quitting service",
-            "Only leaders should persevere",
-            "Perseverance is unnecessary if work is hard"
+            "Solomon",
+            "Huram",
+            "David",
+            "Zadok"
           ],
-          "correctAnswer": "Perseverance in God’s work leads to completion and blessing",
-          "explanation": "Huram completed all his tasks for Solomon’s temple (2 Chronicles 4:11-16) with skill and dedication, showing that perseverance in God’s work results in fruitful outcomes and honors God’s plan.",
+          "correctAnswer": "Huram",
+          "explanation": "Huram made the pots, shovels, and basons for King Solomon's house of God, as noted in 2 Chronicles 4:11.",
           "verseReference": "2 Chronicles 4:11",
           "difficulty": "medium"
         },
         {
-          "id": "2-chronicles-4-medium-q8",
-          "question": "How does the description of the pomegranates on the wreaths (2 Chronicles 4:13) teach humility and gratitude in serving God?",
+          "id": "2-chronicles-4-medium-q4",
+          "question": "What does 2 Chronicles 4:12 say about the pillars?",
           "type": "multiple-choice",
           "options": [
-            "Attention to beauty and detail reflects humble service and gratitude",
-            "Humility means neglecting excellence",
-            "Gratitude is only an internal feeling",
-            "Service should be done carelessly"
+            "They were made of gold.",
+            "They had pommels and chapiters.",
+            "They were covered with silver.",
+            "They were not mentioned."
           ],
-          "correctAnswer": "Attention to beauty and detail reflects humble service and gratitude",
-          "explanation": "The careful crafting of 400 pomegranates on the wreaths (2 Chronicles 4:13) shows that humble service includes grateful attention to detail, offering our best to God as an expression of thankfulness.",
+          "correctAnswer": "They had pommels and chapiters.",
+          "explanation": "2 Chronicles 4:12 specifies that the pillars had pommels and chapiters on top.",
+          "verseReference": "2 Chronicles 4:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "2-chronicles-4-medium-q5",
+          "question": "How many pomegranates were on the two wreaths according to 2 Chronicles 4:13?",
+          "type": "multiple-choice",
+          "options": [
+            "200",
+            "300",
+            "400",
+            "500"
+          ],
+          "correctAnswer": "400",
+          "explanation": "2 Chronicles 4:13 states that there were four hundred pomegranates on the two wreaths.",
           "verseReference": "2 Chronicles 4:13",
           "difficulty": "medium"
         },
         {
+          "id": "2-chronicles-4-medium-q6",
+          "question": "What did Huram make upon the bases according to 2 Chronicles 4:14?",
+          "type": "multiple-choice",
+          "options": [
+            "Bronze altars",
+            "Lavers",
+            "Candlesticks",
+            "Tables"
+          ],
+          "correctAnswer": "Lavers",
+          "explanation": "According to 2 Chronicles 4:14, Huram made lavers upon the bases.",
+          "verseReference": "2 Chronicles 4:14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "2-chronicles-4-medium-q7",
+          "question": "What was placed under the sea according to 2 Chronicles 4:15?",
+          "type": "multiple-choice",
+          "options": [
+            "Twelve oxen",
+            "Five lavers",
+            "Ten tables",
+            "Twenty candlesticks"
+          ],
+          "correctAnswer": "Twelve oxen",
+          "explanation": "2 Chronicles 4:15 mentions that there were twelve oxen under the sea.",
+          "verseReference": "2 Chronicles 4:15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "2-chronicles-4-medium-q8",
+          "question": "What kind of instruments did Huram make for King Solomon?",
+          "type": "multiple-choice",
+          "options": [
+            "Wooden instruments",
+            "Silver instruments",
+            "Instruments of bright brass",
+            "Gold instruments"
+          ],
+          "correctAnswer": "Instruments of bright brass",
+          "explanation": "Huram made all their instruments of bright brass for the house of the LORD, as stated in 2 Chronicles 4:16.",
+          "verseReference": "2 Chronicles 4:16",
+          "difficulty": "medium"
+        },
+        {
           "id": "2-chronicles-4-medium-q9",
-          "question": "True or False: According to 2 Chronicles 4:15, the sea was set upon twelve oxen with their faces all looking inward.",
+          "question": "What does 2 Chronicles 4:2 imply about the molten sea's dimensions?",
+          "type": "multiple-choice",
+          "options": [
+            "It was square.",
+            "It was round in compass.",
+            "It was made of gold.",
+            "It was shallow."
+          ],
+          "correctAnswer": "It was round in compass.",
+          "explanation": "2 Chronicles 4:2 describes the molten sea as being round in compass.",
+          "verseReference": "2 Chronicles 4:2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "2-chronicles-4-medium-q10",
+          "question": "According to 2 Chronicles 4:6, what was the purpose of the ten lavers?",
+          "type": "multiple-choice",
+          "options": [
+            "For washing burnt offerings.",
+            "For sacrifices.",
+            "For holding water.",
+            "For decoration."
+          ],
+          "correctAnswer": "For washing burnt offerings.",
+          "explanation": "2 Chronicles 4:6 mentions that burnt offerings were washed in the lavers.",
+          "verseReference": "2 Chronicles 4:6",
+          "difficulty": "medium"
+        },
+        {
+          "id": "2-chronicles-4-medium-q11",
+          "question": "What does 2 Chronicles 4:8 say about the tables?",
+          "type": "multiple-choice",
+          "options": [
+            "They were made of wood.",
+            "They were placed in the temple.",
+            "They were for sacrifices.",
+            "They were few in number."
+          ],
+          "correctAnswer": "They were placed in the temple.",
+          "explanation": "2 Chronicles 4:8 states that ten tables were made and placed in the temple.",
+          "verseReference": "2 Chronicles 4:8",
+          "difficulty": "medium"
+        },
+        {
+          "id": "2-chronicles-4-medium-q12",
+          "question": "What is the significance of the twelve oxen mentioned in 2 Chronicles 4:15?",
+          "type": "multiple-choice",
+          "options": [
+            "They were part of the sacrificial system.",
+            "They supported the molten sea.",
+            "They represented the twelve tribes.",
+            "They were used for labor."
+          ],
+          "correctAnswer": "They supported the molten sea.",
+          "explanation": "The twelve oxen supported the molten sea, as indicated in 2 Chronicles 4:15.",
+          "verseReference": "2 Chronicles 4:15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "2-chronicles-4-medium-q13",
+          "question": "True or False: Huram made all instruments for the house of the LORD from iron.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "2 Chronicles 4:4 and 4:15 indicate the twelve oxen faced outward in four directions, not inward. The sea was set upon them with their hinder parts inward (verse 4), showing careful design rather than inward facing.",
-          "verseReference": "2 Chronicles 4:4",
+          "explanation": "Huram made all instruments of bright brass, not iron, as stated in 2 Chronicles 4:16.",
+          "verseReference": "2 Chronicles 4:16",
           "difficulty": "medium"
         },
         {
-          "id": "2-chronicles-4-medium-q10",
-          "question": "True or False: Solomon made the golden altar and all the vessels for the house of God with perfect gold as described in 2 Chronicles 4.",
+          "id": "2-chronicles-4-medium-q14",
+          "question": "True or False: The molten sea was used for priests to wash in according to 2 Chronicles 4:6.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "2 Chronicles 4:19-22 states that Solomon made the golden altar, tables, candlesticks, and all vessels out of pure and perfect gold, reflecting holiness and reverence in worship.",
-          "verseReference": "2 Chronicles 4:19",
-          "difficulty": "medium"
-        },
-        {
-          "id": "2-chronicles-4-medium-q11",
-          "question": "Fill in the blank: The thickness of the molten sea was an ________, and it held three thousand baths.",
-          "type": "fill-blank",
-          "options": [
-            "handbreadth",
-            "cubit",
-            "span",
-            "fingerbreadth"
-          ],
-          "correctAnswer": "handbreadth",
-          "explanation": "2 Chronicles 4:5 specifies that the thickness of the molten sea was an handbreadth, emphasizing the precise craftsmanship in temple furnishings.",
-          "verseReference": "2 Chronicles 4:5",
-          "difficulty": "medium"
-        },
-        {
-          "id": "2-chronicles-4-medium-q12",
-          "question": "How does the placement of ten lavers, five on each side (2 Chronicles 4:6), teach about balance and fairness in service to God and others?",
-          "type": "multiple-choice",
-          "options": [
-            "Balanced and fair distribution honors God and fosters unity",
-            "Favoritism is acceptable in service",
-            "Only one side should receive resources",
-            "Balance is unimportant in ministry"
-          ],
-          "correctAnswer": "Balanced and fair distribution honors God and fosters unity",
-          "explanation": "The ten lavers placed five on the right and five on the left in 2 Chronicles 4:6 show intentional balance and fairness, teaching that equitable service supports harmony in the community.",
+          "explanation": "2 Chronicles 4:6 indicates that the sea was specifically for the priests to wash in.",
           "verseReference": "2 Chronicles 4:6",
           "difficulty": "medium"
         },
         {
-          "id": "2-chronicles-4-medium-q13",
-          "question": "Based on 2 Chronicles 4:17-18, what does the fact that the weight of the brass could not be measured teach about integrity and excellence in work for God?",
-          "type": "multiple-choice",
-          "options": [
-            "Excellence and integrity in work glorify God beyond measure",
-            "Quantity is more important than quality",
-            "Work for God can be minimal and careless",
-            "Brass was chosen because it’s the cheapest metal"
-          ],
-          "correctAnswer": "Excellence and integrity in work glorify God beyond measure",
-          "explanation": "The unmeasurable weight of the brass (2 Chronicles 4:17-18) reveals Solomon’s commitment to excellence and integrity in preparing for God’s house, encouraging believers to honor God with their best efforts.",
-          "verseReference": "2 Chronicles 4:17",
-          "difficulty": "medium"
-        },
-        {
-          "id": "2-chronicles-4-medium-q14",
-          "question": "A believer is struggling to forgive and reconcile with others. How might the pattern of detailed, harmonious design in Solomon’s temple vessels (2 Chronicles 4) inspire a biblical approach to reconciliation?",
-          "type": "multiple-choice",
-          "options": [
-            "Harmony and careful design teach that reconciliation requires intentional effort and unity",
-            "Forgiveness is unnecessary if others are wrong",
-            "Reconciliation should be rushed and careless",
-            "Conflict should be avoided by ignoring others"
-          ],
-          "correctAnswer": "Harmony and careful design teach that reconciliation requires intentional effort and unity",
-          "explanation": "The detailed and harmonious design of temple vessels (2 Chronicles 4:2-5, 12-13) reflects God’s desire for unity and order, encouraging believers to pursue reconciliation thoughtfully and faithfully.",
-          "verseReference": "2 Chronicles 4:2",
-          "difficulty": "medium"
-        },
-        {
           "id": "2-chronicles-4-medium-q15",
-          "question": "How does Solomon’s use of both gold and brass in temple vessels (2 Chronicles 4:16, 22) teach about humility and contentment in offering to God?",
-          "type": "multiple-choice",
+          "question": "True or False: The pomegranates were only on the pillars and not on the wreaths as mentioned in 2 Chronicles 4:13.",
+          "type": "true-false",
           "options": [
-            "Different materials show offerings can be valuable regardless of status, reflecting humility",
-            "Only gold is acceptable to God",
-            "Brass is insignificant and should be avoided",
-            "Material wealth defines spiritual value"
+            "True",
+            "False"
           ],
-          "correctAnswer": "Different materials show offerings can be valuable regardless of status, reflecting humility",
-          "explanation": "2 Chronicles 4:16 and 4:22 show that both brass and gold were used in temple vessels, teaching that God values offerings given with humility and sincerity, not just material wealth.",
-          "verseReference": "2 Chronicles 4:16",
+          "correctAnswer": "False",
+          "explanation": "2 Chronicles 4:13 states that the pomegranates were on the two wreaths covering the pommels of the chapiters, not just the pillars.",
+          "verseReference": "2 Chronicles 4:13",
           "difficulty": "medium"
         }
       ],
@@ -497,223 +495,223 @@
       "questions": [
         {
           "id": "2-chronicles-4-hard-q1",
-          "question": "What is the symbolic significance of the twelve oxen supporting the molten sea, considering ancient Near Eastern iconography and Israelite temple symbolism?",
+          "question": "Where did King Solomon cast the molten brass vessels according to 2 Chronicles 4:17?",
           "type": "multiple-choice",
           "options": [
-            "They represent the twelve tribes of Israel providing foundational support for worship",
-            "They symbolize the twelve months of the year and universal cosmic order",
-            "They are a direct copy of Babylonian temple motifs without Israelite adaptation",
-            "They symbolize the twelve apostles of Jesus Christ"
+            "In the plain of Jordan, in the clay ground between Succoth and Zeredathah",
+            "In the valley of Jezreel",
+            "On Mount Zion",
+            "By the river of Egypt"
           ],
-          "correctAnswer": "They represent the twelve tribes of Israel providing foundational support for worship",
-          "explanation": "2 Chronicles 4:4 describes the molten sea standing on twelve oxen facing the four cardinal directions, which is interpreted as representing the twelve tribes of Israel, foundational to the temple's spiritual structure and worship.",
-          "verseReference": "2 Chronicles 4:4",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-4-hard-q2",
-          "question": "How does the description of the molten sea in 2 Chronicles 4 relate typologically to New Testament baptisms?",
-          "type": "multiple-choice",
-          "options": [
-            "The sea's capacity to hold water foreshadows the cleansing and renewal symbolism of baptism in the New Testament",
-            "It represents the Red Sea crossing and deliverance from Egypt",
-            "It is purely a functional object with no theological typology",
-            "It foreshadows the sea of glass in Revelation"
-          ],
-          "correctAnswer": "The sea's capacity to hold water foreshadows the cleansing and renewal symbolism of baptism in the New Testament",
-          "explanation": "2 Chronicles 4:5 emphasizes the sea holding three thousand baths of water, which typologically aligns with baptism's theme of purification, as seen in passages like Hebrews 10:22 and John 3:5.",
-          "verseReference": "2 Chronicles 4:5",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-4-hard-q3",
-          "question": "What is the significance of the 'flowers of lilies' on the brim of the molten sea, from a Hebrew linguistic and symbolic perspective?",
-          "type": "multiple-choice",
-          "options": [
-            "Lilies symbolize purity and divine beauty, enhancing the holiness of the temple vessels",
-            "They are merely decorative with no symbolic meaning",
-            "They represent the fertility gods worshipped by neighboring cultures",
-            "They signify the agricultural cycle important to Israel"
-          ],
-          "correctAnswer": "Lilies symbolize purity and divine beauty, enhancing the holiness of the temple vessels",
-          "explanation": "2 Chronicles 4:5 notes the brim having 'flowers of lilies,' which in Hebrew symbolism often represent purity and divine beauty, reinforcing the sacredness of the temple environment.",
-          "verseReference": "2 Chronicles 4:5",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-4-hard-q4",
-          "question": "Considering the historical context, why was the casting of brass vessels in the plain of Jordan significant?",
-          "type": "multiple-choice",
-          "options": [
-            "It was an open space suitable for large-scale metalwork, reflecting Israelite technological and economic strength",
-            "It was a secret location to hide from enemy spies",
-            "It was near the site of the Tabernacle's earlier location",
-            "It was chosen for its proximity to abundant gold mines"
-          ],
-          "correctAnswer": "It was an open space suitable for large-scale metalwork, reflecting Israelite technological and economic strength",
-          "explanation": "2 Chronicles 4:17 states the casting was done in the plain of Jordan, an area suitable for large metalwork operations, indicating Solomon's resources and technical capacity in temple construction.",
+          "correctAnswer": "In the plain of Jordan, in the clay ground between Succoth and Zeredathah",
+          "explanation": "2 Chronicles 4:17 explicitly states that the king cast the vessels in the plain of Jordan, specifically in the clay ground between Succoth and Zeredathah.",
           "verseReference": "2 Chronicles 4:17",
           "difficulty": "hard"
         },
         {
-          "id": "2-chronicles-4-hard-q5",
-          "question": "What literary structure is suggested by the repeated mention of items being made in pairs or tens (e.g., ten lavers, ten candlesticks, two pillars) in this chapter?",
+          "id": "2-chronicles-4-hard-q2",
+          "question": "What does 2 Chronicles 4:18 reveal about the quantity of brass used in Solomon's vessels?",
           "type": "multiple-choice",
           "options": [
-            "It reflects a chiastic or symmetrical arrangement emphasizing balance and completeness",
-            "It indicates a random cataloging of items without literary design",
-            "It highlights a progressive numerical increase to show abundance",
-            "It is a coded message about the number of tribes"
+            "The weight of the brass could not be found out",
+            "The brass was scarce and limited",
+            "Only a small portion of brass was used",
+            "The brass was measured precisely"
           ],
-          "correctAnswer": "It reflects a chiastic or symmetrical arrangement emphasizing balance and completeness",
-          "explanation": "The pairing and grouping in tens (2 Chronicles 4:6-8, 12) suggest deliberate literary symmetry, a common biblical device to emphasize order and divine completeness in temple construction.",
-          "verseReference": "2 Chronicles 4:6",
+          "correctAnswer": "The weight of the brass could not be found out",
+          "explanation": "According to 2 Chronicles 4:18, Solomon made the vessels in such great abundance that the exact weight of the brass could not be determined.",
+          "verseReference": "2 Chronicles 4:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-4-hard-q3",
+          "question": "Which of the following items did Solomon make for the house of God as mentioned in 2 Chronicles 4:19?",
+          "type": "multiple-choice",
+          "options": [
+            "The golden altar and the tables for the shewbread",
+            "The bronze serpent and the ark",
+            "The ephod and the breastplate",
+            "The golden lampstand and the altar of incense"
+          ],
+          "correctAnswer": "The golden altar and the tables for the shewbread",
+          "explanation": "2 Chronicles 4:19 specifically mentions Solomon making the golden altar and the tables whereon the shewbread was set for the house of God.",
+          "verseReference": "2 Chronicles 4:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-4-hard-q4",
+          "question": "What material were the candlesticks and their lamps made of according to 2 Chronicles 4:20?",
+          "type": "multiple-choice",
+          "options": [
+            "Pure gold",
+            "Bronze",
+            "Silver",
+            "Iron"
+          ],
+          "correctAnswer": "Pure gold",
+          "explanation": "2 Chronicles 4:20 states that the candlesticks with their lamps were made of pure gold to burn according to the manner before the oracle.",
+          "verseReference": "2 Chronicles 4:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-4-hard-q5",
+          "question": "In 2 Chronicles 4:21, what items besides the flowers and lamps did Solomon make using perfect gold?",
+          "type": "multiple-choice",
+          "options": [
+            "The tongs",
+            "The basons",
+            "The spoons",
+            "The censers"
+          ],
+          "correctAnswer": "The tongs",
+          "explanation": "2 Chronicles 4:21 mentions that Solomon made the flowers, lamps, and the tongs out of perfect gold.",
+          "verseReference": "2 Chronicles 4:21",
           "difficulty": "hard"
         },
         {
           "id": "2-chronicles-4-hard-q6",
-          "question": "How does the description of Huram's craftsmanship relate to the broader theme of wisdom and skill in Solomon's reign?",
+          "question": "According to 2 Chronicles 4:22, what parts of the temple were overlaid with pure gold?",
           "type": "multiple-choice",
           "options": [
-            "Huram's skilled metalwork exemplifies the fulfillment of Solomon's wisdom and the international collaboration that characterized his reign",
-            "Huram was solely responsible for all temple construction, overshadowing Solomon",
-            "His work shows a decline in artistic quality compared to earlier periods",
-            "His role was minimal and insignificant"
+            "The snuffers, basons, spoons, censers, and the doors of the house and most holy place",
+            "Only the altar and the candlesticks",
+            "The walls and the roof",
+            "The pillars and the courtyard gates"
           ],
-          "correctAnswer": "Huram's skilled metalwork exemplifies the fulfillment of Solomon's wisdom and the international collaboration that characterized his reign",
-          "explanation": "2 Chronicles 4:11-16 highlights Huram's expert craftsmanship, reflecting Solomon's wisdom in employing skilled artisans, including foreigners, to realize the grandeur of the temple.",
-          "verseReference": "2 Chronicles 4:11",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-4-hard-q7",
-          "question": "In what way do the golden candlesticks and tables for showbread contribute to the ritual symbolism in the temple?",
-          "type": "multiple-choice",
-          "options": [
-            "They symbolize divine light and sustenance, essential for maintaining God's presence",
-            "They were decorative with no ritual function",
-            "They represent the twelve apostles and the Eucharist",
-            "They are borrowed from Canaanite religious practices"
-          ],
-          "correctAnswer": "They symbolize divine light and sustenance, essential for maintaining God's presence",
-          "explanation": "2 Chronicles 4:7-8 and 4:19-21 describe these items, which serve ritual purposes symbolizing God's ongoing presence through light (candlesticks) and provision (showbread).",
-          "verseReference": "2 Chronicles 4:7",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-4-hard-q8",
-          "question": "True or False: The inner doors of the Most Holy Place and the doors of the temple were overlaid with gold to signify the sanctity and glory of God's dwelling.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "2 Chronicles 4:22 explicitly states that the inner doors of the Most Holy Place and the temple doors were overlaid with gold, emphasizing divine holiness and glory.",
+          "correctAnswer": "The snuffers, basons, spoons, censers, and the doors of the house and most holy place",
+          "explanation": "2 Chronicles 4:22 details that the snuffers, basons, spoons, censers, and the doors including the entry and inner doors of the most holy place were of pure gold.",
           "verseReference": "2 Chronicles 4:22",
           "difficulty": "hard"
         },
         {
-          "id": "2-chronicles-4-hard-q9",
-          "question": "Which Old Testament book has a parallel and more detailed description of the temple vessels and their symbolism that complements 2 Chronicles 4?",
+          "id": "2-chronicles-4-hard-q7",
+          "question": "What does the Hebrew word 'kîlâ' (כִּלָּה) in 2 Chronicles 4:18 mean?",
           "type": "multiple-choice",
           "options": [
-            "1 Kings",
-            "Genesis",
-            "Exodus",
-            "Psalms"
+            "To be completed or finished",
+            "To cast or melt",
+            "To weigh or measure",
+            "To create or form"
           ],
-          "correctAnswer": "1 Kings",
-          "explanation": "The book of 1 Kings, particularly chapters 6-7, provides a parallel and more detailed account of Solomon's temple construction and vessels, complementing 2 Chronicles 4.",
-          "verseReference": "2 Chronicles 4:1",
+          "correctAnswer": "To be completed or finished",
+          "explanation": "The Hebrew root 'kîlâ' (כִּלָּה) in 2 Chronicles 4:18 is generally understood to mean 'to be completed or finished,' referencing the completion of making the vessels in great abundance.",
+          "verseReference": "2 Chronicles 4:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-4-hard-q8",
+          "question": "Which literary device is predominantly used in the description of the molten sea and its supporting oxen in 2 Chronicles 4:2-4?",
+          "type": "multiple-choice",
+          "options": [
+            "Chiasm",
+            "Parallelism",
+            "Typology",
+            "Foreshadowing"
+          ],
+          "correctAnswer": "Typology",
+          "explanation": "The description of the molten sea supported by twelve oxen in 2 Chronicles 4:2-4 functions as typology, symbolizing strength and divine support, prefiguring New Testament imagery such as the twelve apostles and baptismal symbolism.",
+          "verseReference": "2 Chronicles 4:2-4",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-4-hard-q9",
+          "question": "Which New Testament passage echoes the typology of the 'molten sea' and its twelve oxen representing divine provision and cleansing, as described in 2 Chronicles 4:2-4?",
+          "type": "multiple-choice",
+          "options": [
+            "John 3:5",
+            "Luke 24:30",
+            "Acts 2:1",
+            "Revelation 4:6"
+          ],
+          "correctAnswer": "Revelation 4:6",
+          "explanation": "Revelation 4:6 describes a sea of glass like crystal before the throne, echoing the typology of the molten sea and its symbolic cleansing and divine presence as in 2 Chronicles 4:2-4.",
+          "verseReference": "2 Chronicles 4:2-4",
           "difficulty": "hard"
         },
         {
           "id": "2-chronicles-4-hard-q10",
-          "question": "What does the phrase 'for the weight of the brass could not be found out' suggest about the scale and resources of Solomon's temple construction?",
+          "question": "Which Old Testament passage connects to the abundance and unmeasurable weight of brass in Solomon's vessels in 2 Chronicles 4:18?",
           "type": "multiple-choice",
           "options": [
-            "It indicates the massive quantity and abundance of materials used, symbolizing Solomon's wealth and God's provision",
-            "It means the metal was of poor quality and unreliable",
-            "It suggests that brass was scarce and precious",
-            "It implies the work was incomplete"
+            "Exodus 38:24-31",
+            "Leviticus 16:15-16",
+            "Numbers 7:1-89",
+            "Deuteronomy 10:1-5"
           ],
-          "correctAnswer": "It indicates the massive quantity and abundance of materials used, symbolizing Solomon's wealth and God's provision",
-          "explanation": "2 Chronicles 4:18 states that the weight of the brass was beyond measurement, highlighting the immense scale and resources dedicated to the temple, reflecting Solomon's prosperity.",
+          "correctAnswer": "Exodus 38:24-31",
+          "explanation": "Exodus 38:24-31 details the casting and weighing of bronze for the tabernacle vessels, connecting to the theme of abundant bronze/ brass vessels as in 2 Chronicles 4:18.",
           "verseReference": "2 Chronicles 4:18",
           "difficulty": "hard"
         },
         {
           "id": "2-chronicles-4-hard-q11",
-          "question": "How does the molten sea’s circular shape and dimensions relate to ancient cosmological imagery?",
+          "question": "What comes immediately before the casting of brass vessels in the clay ground between Succoth and Zeredathah mentioned in 2 Chronicles 4:17?",
           "type": "multiple-choice",
           "options": [
-            "Its round shape and size symbolize the encompassing nature of God's creation and the cosmic sea imagery common in the Ancient Near East",
-            "It is shaped to represent a temple floor plan",
-            "It represents the moon and its phases",
-            "It is designed to collect rainwater for irrigation"
+            "The making of all the instruments by Huram",
+            "The setting of the molten sea on the right side of the east end",
+            "The crafting of the two pillars",
+            "The building of the altar of brass"
           ],
-          "correctAnswer": "Its round shape and size symbolize the encompassing nature of God's creation and the cosmic sea imagery common in the Ancient Near East",
-          "explanation": "2 Chronicles 4:2 describes the sea as round from brim to brim, which parallels ancient Near Eastern cosmic sea motifs symbolizing God's dominion over chaos and creation.",
-          "verseReference": "2 Chronicles 4:2",
+          "correctAnswer": "The making of all the instruments by Huram",
+          "explanation": "2 Chronicles 4:16 describes Huram making the pots, shovels, fleshhooks, and all instruments for Solomon before verse 17 mentions the king casting them in the clay ground between Succoth and Zeredathah.",
+          "verseReference": "2 Chronicles 4:16",
           "difficulty": "hard"
         },
         {
           "id": "2-chronicles-4-hard-q12",
-          "question": "What might the two rows of pomegranates on the wreaths covering the chapiters symbolize in Israelite religious art?",
+          "question": "How does the description of the flowers, lamps, and tongs in 2 Chronicles 4:21 demonstrate Solomon's craftsmanship?",
           "type": "multiple-choice",
           "options": [
-            "Fertility, abundance, and the fruitfulness associated with God's blessing",
-            "The twelve tribes of Israel",
-            "The twelve apostles",
-            "A connection to Egyptian iconography"
+            "They were made of perfect gold, emphasizing purity and skill",
+            "They were made of bronze, indicating durability",
+            "They were painted with intricate patterns",
+            "They were made of silver and adorned with jewels"
           ],
-          "correctAnswer": "Fertility, abundance, and the fruitfulness associated with God's blessing",
-          "explanation": "2 Chronicles 4:13 mentions 400 pomegranates arranged in two rows, which in Israelite symbolism represent fertility and divine blessing, common motifs in temple decoration.",
-          "verseReference": "2 Chronicles 4:13",
+          "correctAnswer": "They were made of perfect gold, emphasizing purity and skill",
+          "explanation": "2 Chronicles 4:21 highlights that Solomon made these items from perfect gold, underscoring the purity of the material and the exquisite craftsmanship involved.",
+          "verseReference": "2 Chronicles 4:21",
           "difficulty": "hard"
         },
         {
           "id": "2-chronicles-4-hard-q13",
-          "question": "Fill in the blank: The ten lavers made by Solomon were used for ________.",
+          "question": "Which literary technique can be identified in 2 Chronicles 4:22 with the listing of multiple golden temple utensils and doors?",
           "type": "multiple-choice",
           "options": [
-            "washing the things offered for burnt offerings",
-            "holding the showbread",
-            "lighting the temple lamps",
-            "storing holy oil"
+            "Inclusio",
+            "Metaphor",
+            "Simile",
+            "Hyperbole"
           ],
-          "correctAnswer": "washing the things offered for burnt offerings",
-          "explanation": "2 Chronicles 4:6 explains that the ten lavers were placed for washing the items offered for burnt offerings, underscoring ritual purity practices.",
-          "verseReference": "2 Chronicles 4:6",
+          "correctAnswer": "Inclusio",
+          "explanation": "The passage in 2 Chronicles 4:22 uses inclusio by framing the description with various golden objects and doors, encapsulating the sacredness and completeness of the temple's golden fittings.",
+          "verseReference": "2 Chronicles 4:22",
           "difficulty": "hard"
         },
         {
           "id": "2-chronicles-4-hard-q14",
-          "question": "What does the repeated emphasis on 'pure gold' for various temple objects signify in the theological context of the temple?",
-          "type": "multiple-choice",
-          "options": [
-            "It symbolizes the highest purity and the divine nature of the temple’s service",
-            "It was a way to flaunt Solomon's wealth to other nations",
-            "It indicates the temple was built primarily for royal use",
-            "It reflects a cultural borrowing from neighboring kingdoms"
-          ],
-          "correctAnswer": "It symbolizes the highest purity and the divine nature of the temple’s service",
-          "explanation": "Verses such as 2 Chronicles 4:20-22 emphasize objects made of pure gold, reinforcing the temple's sacredness and the unblemished nature required in God's worship.",
-          "verseReference": "2 Chronicles 4:20",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-4-hard-q15",
-          "question": "True or False: The court of the priests and the great court were overlaid with silver according to 2 Chronicles 4.",
+          "question": "True or False: According to 2 Chronicles 4:18, the weight of the brass used in Solomon's vessels was carefully recorded and documented.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "2 Chronicles 4:9 specifies that the doors of the courts were overlaid with brass, not silver, indicating the specific materials used in temple construction.",
-          "verseReference": "2 Chronicles 4:9",
+          "explanation": "2 Chronicles 4:18 clearly states that the weight of the brass could not be found out, indicating it was not recorded or was too great to measure.",
+          "verseReference": "2 Chronicles 4:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-4-hard-q15",
+          "question": "True or False: The doors of both the most holy place and the temple house were overlaid with gold according to 2 Chronicles 4:22.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "2 Chronicles 4:22 confirms that the inner doors of the most holy place and the doors of the house of the temple were made of gold.",
+          "verseReference": "2 Chronicles 4:22",
           "difficulty": "hard"
         }
       ],
@@ -740,227 +738,227 @@
       "questions": [
         {
           "id": "2-chronicles-4-theological-q1",
-          "question": "What was the size of the altar of brass that Solomon made for the temple?",
+          "question": "What doctrine does 2 Chronicles 4:1 teach about God's nature in relation to His covenant with Israel?",
           "type": "multiple-choice",
           "options": [
-            "Twenty cubits long, twenty cubits broad, and ten cubits high",
-            "Ten cubits long, ten cubits broad, and five cubits high",
-            "Thirty cubits long, twenty cubits broad, and fifteen cubits high",
-            "Fifteen cubits long, fifteen cubits broad, and ten cubits high"
+            "God's faithfulness to provide a holy place for worship",
+            "God's omnipotence in creating the universe",
+            "God's judgment on sin through the altar",
+            "God's mercy in forgiving the repentant"
           ],
-          "correctAnswer": "Twenty cubits long, twenty cubits broad, and ten cubits high",
-          "explanation": "According to 2 Chronicles 4:1, Solomon made an altar of brass that measured twenty cubits in length, twenty cubits in breadth, and ten cubits in height. This large altar symbolizes the extensive provision for worship and sacrifice, pointing to Christ as the ultimate sacrifice (Hebrews 13:10-12; Romans 12:1-2; Exodus 27:1-2).",
+          "correctAnswer": "God's faithfulness to provide a holy place for worship",
+          "explanation": "2 Chronicles 4:1 describes the altar of brass made for the temple, reflecting God's faithfulness to establish a dedicated place of worship for His covenant people, emphasizing His commitment to dwell among them.",
           "verseReference": "2 Chronicles 4:1",
           "difficulty": "hard"
         },
         {
           "id": "2-chronicles-4-theological-q2",
-          "question": "What was the shape and size of the molten sea that Solomon made?",
+          "question": "What doctrine about sanctification does 2 Chronicles 4:6 teach through the use of lavers for washing?",
           "type": "multiple-choice",
           "options": [
-            "Round, ten cubits from brim to brim, five cubits high",
-            "Square, ten cubits from side to side, five cubits high",
-            "Oval, fifteen cubits from brim to brim, six cubits high",
-            "Rectangular, twenty cubits long, ten cubits wide, eight cubits high"
+            "Sanctification requires cleansing by God's provision",
+            "Sanctification is achieved by human effort alone",
+            "Sanctification is unnecessary for priests",
+            "Sanctification is only symbolic and not practical"
           ],
-          "correctAnswer": "Round, ten cubits from brim to brim, five cubits high",
-          "explanation": "2 Chronicles 4:2 describes the molten sea as a round basin, ten cubits from brim to brim and five cubits in height. The circular shape often symbolizes perfection and eternity, reflecting God's eternal nature (Psalm 90:2; Isaiah 40:28; Revelation 1:8).",
-          "verseReference": "2 Chronicles 4:2",
+          "correctAnswer": "Sanctification requires cleansing by God's provision",
+          "explanation": "2 Chronicles 4:6 shows the priests washing in the lavers, symbolizing that sanctification involves cleansing which God provides, underscoring the need for divine provision in the believer's sanctification.",
+          "verseReference": "2 Chronicles 4:6",
           "difficulty": "hard"
         },
         {
           "id": "2-chronicles-4-theological-q3",
-          "question": "How many oxen supported the molten sea, and how were they positioned?",
+          "question": "What doctrine about salvation does 2 Chronicles 4:22 teach regarding the purity and holiness of worship?",
           "type": "multiple-choice",
           "options": [
-            "Twelve oxen, three facing each cardinal direction",
-            "Ten oxen, arranged in two rows of five each",
-            "Six oxen, facing north and south only",
-            "Four oxen, each facing a corner of the temple"
+            "Salvation demands pure and holy worship as a response to God",
+            "Salvation is unrelated to the form of worship",
+            "Salvation is purely forensic and not linked to worship",
+            "Salvation is guaranteed by ritual observance alone"
           ],
-          "correctAnswer": "Twelve oxen, three facing each cardinal direction",
-          "explanation": "According to 2 Chronicles 4:4, the molten sea was supported by twelve oxen arranged with three facing north, three west, three south, and three east. The number twelve often symbolizes God's people (Israel and the Church) and divine government (Revelation 21:12; Ezekiel 1:10).",
-          "verseReference": "2 Chronicles 4:4",
+          "correctAnswer": "Salvation demands pure and holy worship as a response to God",
+          "explanation": "2 Chronicles 4:22 describes the use of pure gold in the most holy place's doors, emphasizing that true salvation calls for pure and holy worship, signifying reverence and God's holiness.",
+          "verseReference": "2 Chronicles 4:22",
           "difficulty": "hard"
         },
         {
           "id": "2-chronicles-4-theological-q4",
-          "question": "What was the capacity of the molten sea, and what does its thickness indicate about its craftsmanship?",
+          "question": "Which divine attribute does 2 Chronicles 4:5 specifically demonstrate?",
           "type": "multiple-choice",
           "options": [
-            "It held three thousand baths; thickness was a handbreadth, indicating skillful work",
-            "It held five thousand baths; thickness was two handbreadths, showing strength",
-            "It held one thousand baths; thickness was a fingerbreadth, showing delicacy",
-            "It held four thousand baths; thickness was a cubit, indicating durability"
+            "Holiness",
+            "Omniscience",
+            "Justice",
+            "Immutability"
           ],
-          "correctAnswer": "It held three thousand baths; thickness was a handbreadth, indicating skillful work",
-          "explanation": "2 Chronicles 4:5 states the molten sea held three thousand baths and had a thickness of a handbreadth, highlighting the precise and skilled craftsmanship reflecting God's order and beauty in worship (Exodus 25:9; Psalm 19:1; 1 Corinthians 14:40).",
+          "correctAnswer": "Holiness",
+          "explanation": "The description in 2 Chronicles 4:5 of the molten sea with its lily flowers and precise measurements points to God's holiness, as the sanctuary's design reflects His pure and sacred nature.",
           "verseReference": "2 Chronicles 4:5",
           "difficulty": "hard"
         },
         {
           "id": "2-chronicles-4-theological-q5",
-          "question": "How many lavers did Solomon make, and what was their purpose?",
+          "question": "Which divine attribute does 2 Chronicles 4:18 specifically demonstrate?",
           "type": "multiple-choice",
           "options": [
-            "Ten lavers, used for washing offerings and priests washing in the sea",
-            "Five lavers, used only for priests to wash their hands",
-            "Twenty lavers, used for cleansing the temple floors",
-            "Three lavers, used for washing the altar"
+            "Sovereignty",
+            "Longsuffering",
+            "Omnipresence",
+            "Wrath"
           ],
-          "correctAnswer": "Ten lavers, used for washing offerings and priests washing in the sea",
-          "explanation": "2 Chronicles 4:6 describes ten lavers, five on each side, for washing the offerings. The priests used the molten sea to wash themselves, symbolizing purification and holiness before approaching God (Hebrews 9:13-14; Exodus 30:18-21; John 13:10).",
-          "verseReference": "2 Chronicles 4:6",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-4-theological-q6",
-          "question": "How many golden candlesticks did Solomon make, and how were they arranged in the temple?",
-          "type": "multiple-choice",
-          "options": [
-            "Ten candlesticks, five on the right and five on the left",
-            "Seven candlesticks, evenly spaced in the temple",
-            "Three candlesticks, placed in the holy place",
-            "Twelve candlesticks, in a circular arrangement"
-          ],
-          "correctAnswer": "Ten candlesticks, five on the right and five on the left",
-          "explanation": "2 Chronicles 4:7 explains Solomon made ten golden candlesticks, five on each side of the temple. The lamps signify God's enlightening presence and the Spirit's illumination (Exodus 25:31-40; Revelation 1:12-13; Psalm 119:105).",
-          "verseReference": "2 Chronicles 4:7",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-4-theological-q7",
-          "question": "What did Solomon make one hundred of, and what was their likely use?",
-          "type": "multiple-choice",
-          "options": [
-            "One hundred golden basons, used for ceremonial washing or offerings",
-            "One hundred bronze pillars, used to support the temple roof",
-            "One hundred silver lamps, used for illumination",
-            "One hundred golden tables, used for the shewbread"
-          ],
-          "correctAnswer": "One hundred golden basons, used for ceremonial washing or offerings",
-          "explanation": "2 Chronicles 4:8 mentions Solomon made one hundred basons of gold. Basins were typically used for washing or holding sacrificial elements, emphasizing ritual purity and worship (Leviticus 6:27; Exodus 30:18-21; Hebrews 10:22).",
-          "verseReference": "2 Chronicles 4:8",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-4-theological-q8",
-          "question": "Who was the craftsman responsible for making the pots, shovels, and basons for Solomon's temple?",
-          "type": "multiple-choice",
-          "options": [
-            "Huram, the skilled craftsman",
-            "Bezalel, the chief artisan",
-            "Solomon himself",
-            "Hiram from Tyre"
-          ],
-          "correctAnswer": "Huram, the skilled craftsman",
-          "explanation": "2 Chronicles 4:11 and 4:16 identify Huram (also called Hiram) as the craftsman who made the pots, shovels, basons, and other instruments for Solomon's temple. This illustrates God’s provision of gifted artisans for His work (Exodus 31:1-6; 1 Kings 7:13-14; Exodus 35:30-35).",
-          "verseReference": "2 Chronicles 4:11",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-4-theological-q9",
-          "question": "Where were the bronze vessels such as pots, shovels, and fleshhooks cast for the temple?",
-          "type": "multiple-choice",
-          "options": [
-            "In the plain of Jordan, between Succoth and Zeredathah",
-            "In Jerusalem, near the temple site",
-            "In Tyre, the city of Sidon",
-            "In the Valley of Hinnom"
-          ],
-          "correctAnswer": "In the plain of Jordan, between Succoth and Zeredathah",
-          "explanation": "2 Chronicles 4:17 specifies that the bronze vessels were cast in the clay ground of the plain of Jordan, between Succoth and Zeredathah. This detail highlights the extensive preparations and divine orchestration in temple construction (Exodus 38:3; 1 Kings 7:46; Isaiah 40:12).",
-          "verseReference": "2 Chronicles 4:17",
-          "difficulty": "hard"
-        },
-        {
-          "id": "2-chronicles-4-theological-q10",
-          "question": "What does the abundance and unmeasurable weight of brass vessels made by Solomon symbolize in biblical theology?",
-          "type": "multiple-choice",
-          "options": [
-            "God’s abundant provision and the immeasurable worth of worship",
-            "Human pride and excess in temple construction",
-            "The fleeting nature of earthly treasures",
-            "The weakness of human craftsmanship"
-          ],
-          "correctAnswer": "God’s abundant provision and the immeasurable worth of worship",
-          "explanation": "2 Chronicles 4:18 mentions the great abundance of brass vessels, so much that their weight could not be determined. This symbolizes God’s lavish provision for worship and the immeasurable value of honoring Him (Philippians 4:19; Psalm 24:1; Matthew 6:19-21; 2 Corinthians 9:8).",
+          "correctAnswer": "Sovereignty",
+          "explanation": "2 Chronicles 4:18 notes the vast abundance and unmeasurable weight of the brass used, illustrating God's sovereignty over creation and resources to accomplish His purposes.",
           "verseReference": "2 Chronicles 4:18",
           "difficulty": "hard"
         },
         {
-          "id": "2-chronicles-4-theological-q11",
-          "question": "Which items made of pure gold did Solomon fashion for the temple to be used before the oracle?",
+          "id": "2-chronicles-4-theological-q6",
+          "question": "How does the description of the molten sea in 2 Chronicles 4:2 connect to the theme of purification in the New Testament?",
           "type": "multiple-choice",
           "options": [
-            "Candlesticks with their lamps",
-            "Altars and tables",
-            "Pillars and wreaths",
-            "Oxen and basons"
+            "It prefigures baptism as a means of spiritual cleansing",
+            "It symbolizes the flood judgement of Noah",
+            "It represents the temple tax collection",
+            "It anticipates the destruction of Jerusalem"
           ],
-          "correctAnswer": "Candlesticks with their lamps",
-          "explanation": "2 Chronicles 4:20 states Solomon made candlesticks with their lamps of pure gold to burn before the oracle. The lamps represent God’s illuminating presence and the Holy Spirit’s guidance (Exodus 25:31-40; Zechariah 4:2-6; John 8:12).",
-          "verseReference": "2 Chronicles 4:20",
+          "correctAnswer": "It prefigures baptism as a means of spiritual cleansing",
+          "explanation": "The large basin used by priests for washing (2 Chronicles 4:2) symbolically prefigures Christian baptism, which purifies believers spiritually, linking the Old Testament sanctification rituals with New Testament salvation.",
+          "verseReference": "2 Chronicles 4:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-4-theological-q7",
+          "question": "In what way does the making of the two pillars and their chapiters by Huram (2 Chronicles 4:12) prepare for the New Testament understanding of Christ as the foundation?",
+          "type": "multiple-choice",
+          "options": [
+            "The pillars symbolize strength and stability fulfilled in Christ as the cornerstone",
+            "The pillars represent the law abolished by Christ",
+            "The pillars are irrelevant to Christ’s work",
+            "The pillars signify the division of Israel and Judah"
+          ],
+          "correctAnswer": "The pillars symbolize strength and stability fulfilled in Christ as the cornerstone",
+          "explanation": "The two pillars (2 Chronicles 4:12) represent strength and support in the temple architecture, which the New Testament applies typologically to Christ as the foundation and cornerstone of the church (Ephesians 2:20).",
+          "verseReference": "2 Chronicles 4:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-4-theological-q8",
+          "question": "What combined doctrine do verses 2 Chronicles 4:1 and 4:6 teach about God's provision and human responsibility in worship?",
+          "type": "multiple-choice",
+          "options": [
+            "God provides the means for worship, but humans are responsible to use them in sanctification",
+            "God provides everything without human action",
+            "Human effort alone is sufficient for worship",
+            "Worship is optional and unregulated"
+          ],
+          "correctAnswer": "God provides the means for worship, but humans are responsible to use them in sanctification",
+          "explanation": "Verse 4:1 shows God’s provision of the altar, while 4:6 shows the priests washing in lavers, teaching that God supplies the means for worship but human responsibility remains in faithfully engaging in sanctification.",
+          "verseReference": "2 Chronicles 4:1, 4:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-4-theological-q9",
+          "question": "What combined doctrine do 2 Chronicles 4:7 and 4:20 teach about the role of light in divine revelation and worship?",
+          "type": "multiple-choice",
+          "options": [
+            "Light symbolizes God's presence and revelation in worship",
+            "Light represents human wisdom apart from God",
+            "Light is merely decorative in the temple",
+            "Light signifies judgment exclusively"
+          ],
+          "correctAnswer": "Light symbolizes God's presence and revelation in worship",
+          "explanation": "The golden candlesticks in 4:7 and their lamps in 4:20 emphasize the symbolic role of light representing God's illuminating presence and revelation during worship.",
+          "verseReference": "2 Chronicles 4:7, 4:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-4-theological-q10",
+          "question": "What combined doctrine do 2 Chronicles 4:22 and 4:19 teach about the holiness and purity required in the worship of God?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s holy place requires the use of pure gold to signify purity and sanctity in worship",
+            "Material wealth is the primary focus of worship",
+            "Any material can be used in worship without significance",
+            "Worship is not concerned with holiness"
+          ],
+          "correctAnswer": "God’s holy place requires the use of pure gold to signify purity and sanctity in worship",
+          "explanation": "Both verses describe gold-made vessels and doors (4:19, 4:22), teaching that worship must be conducted with pure and holy elements reflecting God’s sanctity.",
+          "verseReference": "2 Chronicles 4:19, 4:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "2-chronicles-4-theological-q11",
+          "question": "Sceptics claim the detailed descriptions of temple vessels in 2 Chronicles 4:11-17 are mere mythological embellishments. What does these verses actually teach?",
+          "type": "multiple-choice",
+          "options": [
+            "The descriptions affirm the historical craftsmanship and divine order in temple worship",
+            "The descriptions are purely symbolic and not historical",
+            "The passages are irrelevant to understanding God",
+            "The vessels were used for pagan rituals"
+          ],
+          "correctAnswer": "The descriptions affirm the historical craftsmanship and divine order in temple worship",
+          "explanation": "Verses 4:11-17 detail the craftsmanship of Huram and the instruments for the temple, demonstrating historical reality and theologically ordered worship, refuting the claim of mythological fiction.",
+          "verseReference": "2 Chronicles 4:11-17",
           "difficulty": "hard"
         },
         {
           "id": "2-chronicles-4-theological-q12",
-          "question": "What decorative elements did Solomon include on the two wreaths covering the pommels of the chapiters on the pillars?",
+          "question": "What doctrine does 2 Chronicles 4:3 teach about divine providence in the design of sacred objects?",
           "type": "multiple-choice",
           "options": [
-            "Four hundred pomegranates in two rows",
-            "One hundred lions and cherubim",
-            "Two hundred olive branches",
-            "Three hundred stars and flowers"
+            "God providentially orders creation and worship through symbolic design",
+            "Sacred objects are incidental and random",
+            "Human imagination alone designs sacred objects",
+            "Sacred objects have no theological significance"
           ],
-          "correctAnswer": "Four hundred pomegranates in two rows",
-          "explanation": "2 Chronicles 4:13 describes four hundred pomegranates arranged in two rows on the two wreaths covering the pommels of the chapiters on the pillars. Pomegranates symbolize fertility, abundance, and covenant blessings (Exodus 28:33-34; Song of Solomon 4:13-14; Numbers 13:23).",
-          "verseReference": "2 Chronicles 4:13",
+          "correctAnswer": "God providentially orders creation and worship through symbolic design",
+          "explanation": "The oxen under the molten sea in 4:3 symbolize God's providence in ordering creation and worship through carefully symbolic designs.",
+          "verseReference": "2 Chronicles 4:3",
           "difficulty": "hard"
         },
         {
           "id": "2-chronicles-4-theological-q13",
-          "question": "What was the material used for the snuffers, basons, spoons, censers, and doors of the temple?",
+          "question": "Which divine attribute does 2 Chronicles 4:16 specifically demonstrate in the craftsmanship of temple instruments?",
           "type": "multiple-choice",
           "options": [
-            "Pure gold",
-            "Brass",
-            "Silver",
-            "Bronze"
+            "Omnipotence",
+            "Wisdom",
+            "Justice",
+            "Wrath"
           ],
-          "correctAnswer": "Pure gold",
-          "explanation": "2 Chronicles 4:22 records that the snuffers, basons, spoons, censers, and temple doors were made of pure gold. This use of gold reflects the holiness, purity, and glory of God (Exodus 37:23-28; Revelation 21:18-21; Psalm 45:9).",
-          "verseReference": "2 Chronicles 4:22",
+          "correctAnswer": "Wisdom",
+          "explanation": "Verse 4:16 describes the skilled making of various temple utensils by Huram, demonstrating God's wisdom in providing gifted artisans for His holy purposes.",
+          "verseReference": "2 Chronicles 4:16",
           "difficulty": "hard"
         },
         {
           "id": "2-chronicles-4-theological-q14",
-          "question": "What theological significance can be derived from the design of the molten sea standing on twelve oxen?",
+          "question": "How does 2 Chronicles 4:10 contribute to the biblical narrative arc regarding the orientation and symbolism of the temple?",
           "type": "multiple-choice",
           "options": [
-            "It symbolizes God's sustaining power over His people and creation",
-            "It represents the twelve tribes of Israel’s dominance",
-            "It is a pagan symbol incorporated into the temple",
-            "It depicts the twelve apostles casting out demons"
+            "It emphasizes the temple’s alignment with cardinal directions symbolizing God's order over creation",
+            "It suggests the temple was randomly placed",
+            "It denies any symbolic meaning in temple layout",
+            "It indicates the temple’s location was chosen by chance"
           ],
-          "correctAnswer": "It symbolizes God's sustaining power over His people and creation",
-          "explanation": "The twelve oxen supporting the molten sea (2 Chronicles 4:15) symbolize God's sovereign power sustaining His people (Israel) and creation. The number twelve points to God’s covenant people (Revelation 21:12; Ezekiel 1:10), while the oxen represent strength and service (Deuteronomy 33:17; Numbers 24:8).",
-          "verseReference": "2 Chronicles 4:15",
+          "correctAnswer": "It emphasizes the temple’s alignment with cardinal directions symbolizing God's order over creation",
+          "explanation": "Placing the sea on the right side of the east end (4:10) shows deliberate orientation, symbolizing God's sovereign order over creation, a theme throughout Scripture.",
+          "verseReference": "2 Chronicles 4:10",
           "difficulty": "hard"
         },
         {
           "id": "2-chronicles-4-theological-q15",
-          "question": "What doctrinal truth is reflected by the priests washing in the sea, while the offerings were washed in the lavers?",
+          "question": "What combined doctrine do 2 Chronicles 4:14 and 4:15 teach about the relationship between God's provision and the priestly role?",
           "type": "multiple-choice",
           "options": [
-            "The need for priestly sanctification and purification before ministering",
-            "The distinction between clean and unclean animals",
-            "The separation of Levites from priests",
-            "The ceremonial washing of common people"
+            "God provides the instruments and supports the priests' mediatorial role",
+            "Priests create their own instruments without God’s provision",
+            "God’s provision is irrelevant to priestly service",
+            "The priestly role is symbolic and without divine support"
           ],
-          "correctAnswer": "The need for priestly sanctification and purification before ministering",
-          "explanation": "2 Chronicles 4:6 explains that priests washed in the sea, while offerings were washed in the lavers, emphasizing the necessity of priestly sanctification before ministering to God (Exodus 30:18-21; Hebrews 10:22; Leviticus 16:4; John 13:10).",
-          "verseReference": "2 Chronicles 4:6",
+          "correctAnswer": "God provides the instruments and supports the priests' mediatorial role",
+          "explanation": "The bases and lavers (4:14) and the sea with oxen (4:15) show God’s provision of tools enabling priests to mediate holiness and worship effectively.",
+          "verseReference": "2 Chronicles 4:14, 4:15",
           "difficulty": "hard"
         }
       ],

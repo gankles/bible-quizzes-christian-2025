@@ -13,7 +13,22 @@
       "questions": [
         {
           "id": "matthew-17-easy-q1",
-          "question": "Who did Jesus take up to the high mountain according to Matthew 17:1?",
+          "question": "In Matthew 17, which of the following appears FIRST in the chapter?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus was transfigured before them",
+            "Jesus took Peter, James, and John up into a high mountain",
+            "A bright cloud overshadowed them",
+            "Moses and Elias appeared talking with Jesus"
+          ],
+          "correctAnswer": "Jesus took Peter, James, and John up into a high mountain",
+          "explanation": "Matthew 17:1 states that Jesus took Peter, James, and John up into a high mountain, which is the first event described in the chapter.",
+          "verseReference": "Matthew 17:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-17-easy-q2",
+          "question": "Who did Jesus take up into the high mountain with Him?",
           "type": "multiple-choice",
           "options": [
             "Peter, James, and John",
@@ -22,212 +37,199 @@
             "Peter, Judas, and Matthew"
           ],
           "correctAnswer": "Peter, James, and John",
-          "explanation": "Matthew 17:1 states that Jesus took Peter, James, and John up into a high mountain.",
+          "explanation": "Matthew 17:1 states that Jesus took Peter, James, and John up into the high mountain.",
           "verseReference": "Matthew 17:1",
           "difficulty": "easy"
         },
         {
-          "id": "matthew-17-easy-q2",
-          "question": "What happened to Jesus' appearance on the mountain in Matthew 17:2?",
-          "type": "multiple-choice",
-          "options": [
-            "His face shone like the sun and his clothes became white as light",
-            "He became invisible",
-            "He turned into Moses",
-            "He started to rain"
-          ],
-          "correctAnswer": "His face shone like the sun and his clothes became white as light",
-          "explanation": "Matthew 17:2 describes Jesus' face shining as the sun and his raiment being white as light during the transfiguration.",
-          "verseReference": "Matthew 17:2",
-          "difficulty": "easy"
-        },
-        {
           "id": "matthew-17-easy-q3",
-          "question": "Who appeared and talked with Jesus during the transfiguration?",
+          "question": "How long after did Jesus take Peter, James, and John to the mountain?",
           "type": "multiple-choice",
           "options": [
-            "Moses and Elias",
-            "Elijah and Jeremiah",
-            "David and Solomon",
-            "Peter and James"
+            "After six days",
+            "After three days",
+            "After twelve days",
+            "After one day"
           ],
-          "correctAnswer": "Moses and Elias",
-          "explanation": "According to Matthew 17:3, Moses and Elias appeared and talked with Jesus.",
-          "verseReference": "Matthew 17:3",
+          "correctAnswer": "After six days",
+          "explanation": "Matthew 17:1 says, 'And after six days Jesus taketh Peter, James, and John...'",
+          "verseReference": "Matthew 17:1",
           "difficulty": "easy"
         },
         {
           "id": "matthew-17-easy-q4",
-          "question": "What did Peter suggest making for Jesus, Moses, and Elias?",
+          "question": "What happened to Jesus on the mountain?",
           "type": "multiple-choice",
           "options": [
-            "Three tabernacles",
-            "Three altars",
-            "Three thrones",
-            "Three temples"
+            "He was transfigured and his face shone as the sun",
+            "He healed a sick man",
+            "He prayed alone",
+            "He fasted for forty days"
           ],
-          "correctAnswer": "Three tabernacles",
-          "explanation": "Matthew 17:4 shows Peter suggesting to make three tabernacles, one for each.",
-          "verseReference": "Matthew 17:4",
+          "correctAnswer": "He was transfigured and his face shone as the sun",
+          "explanation": "Matthew 17:2 states that Jesus was transfigured before them and his face did shine as the sun.",
+          "verseReference": "Matthew 17:2",
           "difficulty": "easy"
         },
         {
           "id": "matthew-17-easy-q5",
-          "question": "What did the voice from the bright cloud say?",
+          "question": "What was said about Jesus’ raiment during the transfiguration?",
           "type": "multiple-choice",
           "options": [
-            "This is my beloved Son, in whom I am well pleased; hear ye him",
-            "This is my servant, obey him",
-            "The Lord is mighty and strong",
-            "Blessed are the meek"
+            "His raiment was white as the light",
+            "His raiment was blue",
+            "His raiment was torn",
+            "His raiment was covered in dust"
           ],
-          "correctAnswer": "This is my beloved Son, in whom I am well pleased; hear ye him",
-          "explanation": "Matthew 17:5 records the voice from the cloud declaring Jesus as God's beloved Son and instructing to hear Him.",
-          "verseReference": "Matthew 17:5",
+          "correctAnswer": "His raiment was white as the light",
+          "explanation": "Matthew 17:2 says 'his raiment was white as the light.'",
+          "verseReference": "Matthew 17:2",
           "difficulty": "easy"
         },
         {
           "id": "matthew-17-easy-q6",
-          "question": "What was the disciples' reaction to the voice from the cloud?",
+          "question": "Who appeared talking with Jesus on the mountain?",
           "type": "multiple-choice",
           "options": [
-            "They fell on their face and were sore afraid",
-            "They shouted with joy",
-            "They ran away quickly",
-            "They laughed with amazement"
+            "Moses and Elias",
+            "Elijah and Isaiah",
+            "Peter and James",
+            "John the Baptist and David"
           ],
-          "correctAnswer": "They fell on their face and were sore afraid",
-          "explanation": "Matthew 17:6 states the disciples fell on their face and were very afraid when they heard the voice.",
-          "verseReference": "Matthew 17:6",
+          "correctAnswer": "Moses and Elias",
+          "explanation": "Matthew 17:3 states that Moses and Elias appeared and talked with Jesus.",
+          "verseReference": "Matthew 17:3",
           "difficulty": "easy"
         },
         {
           "id": "matthew-17-easy-q7",
-          "question": "What did Jesus say to the disciples after they were afraid?",
+          "question": "What did Peter suggest doing on the mountain?",
           "type": "multiple-choice",
           "options": [
-            "Arise, and be not afraid",
-            "Stay where you are",
-            "Do not speak of this",
-            "Pray always"
+            "Making three tabernacles",
+            "Praying silently",
+            "Building an altar",
+            "Writing down the vision"
           ],
-          "correctAnswer": "Arise, and be not afraid",
-          "explanation": "Jesus touched them and told them to arise and not be afraid in Matthew 17:7.",
-          "verseReference": "Matthew 17:7",
+          "correctAnswer": "Making three tabernacles",
+          "explanation": "Matthew 17:4 shows Peter suggesting making three tabernacles, one for Jesus, one for Moses, and one for Elias.",
+          "verseReference": "Matthew 17:4",
           "difficulty": "easy"
         },
         {
           "id": "matthew-17-easy-q8",
-          "question": "What did Jesus instruct the disciples not to do until after He was risen from the dead?",
+          "question": "What overshadowed them while Peter was speaking?",
           "type": "multiple-choice",
           "options": [
-            "Tell the vision to no man",
-            "Fast and pray",
-            "Build a tabernacle",
-            "Go to the multitudes"
+            "A bright cloud",
+            "Darkness",
+            "A strong wind",
+            "Fire"
           ],
-          "correctAnswer": "Tell the vision to no man",
-          "explanation": "In Matthew 17:9, Jesus charged the disciples to keep the vision secret until after His resurrection.",
-          "verseReference": "Matthew 17:9",
+          "correctAnswer": "A bright cloud",
+          "explanation": "Matthew 17:5 states 'a bright cloud overshadowed them' while Peter spoke.",
+          "verseReference": "Matthew 17:5",
           "difficulty": "easy"
         },
         {
           "id": "matthew-17-easy-q9",
-          "question": "Who did Jesus say had already come, according to Matthew 17:12?",
+          "question": "What did the voice from the cloud say?",
           "type": "multiple-choice",
           "options": [
-            "Elias",
-            "Moses",
-            "John the Baptist",
-            "Peter"
+            "This is my beloved Son, in whom I am well pleased; hear ye him",
+            "This is my prophet, listen to his words",
+            "This is the chosen one, follow him",
+            "This is my servant, obey him"
           ],
-          "correctAnswer": "Elias",
-          "explanation": "Jesus said Elias had already come, referring to John the Baptist, in Matthew 17:12.",
-          "verseReference": "Matthew 17:12",
+          "correctAnswer": "This is my beloved Son, in whom I am well pleased; hear ye him",
+          "explanation": "Matthew 17:5 records the voice saying, 'This is my beloved Son, in whom I am well pleased; hear ye him.'",
+          "verseReference": "Matthew 17:5",
           "difficulty": "easy"
         },
         {
           "id": "matthew-17-easy-q10",
-          "question": "What was the condition of the man's son who came to Jesus for help?",
+          "question": "How did the disciples react to the voice from the cloud?",
           "type": "multiple-choice",
           "options": [
-            "He was lunatick and sore vexed",
-            "He was blind",
-            "He was mute",
-            "He was paralyzed"
+            "They fell on their face and were sore afraid",
+            "They shouted with joy",
+            "They ran down the mountain",
+            "They ignored the voice"
           ],
-          "correctAnswer": "He was lunatick and sore vexed",
-          "explanation": "Matthew 17:15 describes the man's son as lunatick and sore vexed.",
-          "verseReference": "Matthew 17:15",
+          "correctAnswer": "They fell on their face and were sore afraid",
+          "explanation": "Matthew 17:6 says the disciples fell on their face and were sore afraid when they heard the voice.",
+          "verseReference": "Matthew 17:6",
           "difficulty": "easy"
         },
         {
           "id": "matthew-17-easy-q11",
-          "question": "Why could the disciples not cast out the devil from the boy?",
+          "question": "What did Jesus do to the disciples after they were afraid?",
           "type": "multiple-choice",
           "options": [
-            "Because of their unbelief",
-            "Because they did not try",
-            "Because the boy was too sick",
-            "Because Jesus was not there"
+            "Touched them and said, Arise, and be not afraid",
+            "Told them to pray",
+            "Sent them down the mountain alone",
+            "Said nothing and left"
           ],
-          "correctAnswer": "Because of their unbelief",
-          "explanation": "Jesus explained in Matthew 17:20 that their failure was due to unbelief.",
-          "verseReference": "Matthew 17:20",
+          "correctAnswer": "Touched them and said, Arise, and be not afraid",
+          "explanation": "Matthew 17:7 states that Jesus came and touched them and said, 'Arise, and be not afraid.'",
+          "verseReference": "Matthew 17:7",
           "difficulty": "easy"
         },
         {
           "id": "matthew-17-easy-q12",
-          "question": "True or False: According to Matthew 17:21, some kinds of demons can only be cast out by prayer and fasting.",
-          "type": "true-false",
+          "question": "When the disciples lifted up their eyes after Jesus touched them, whom did they see?",
+          "type": "multiple-choice",
           "options": [
-            "True",
-            "False"
+            "Jesus only",
+            "Moses and Elias",
+            "No one",
+            "Peter, James, and John"
           ],
-          "correctAnswer": "True",
-          "explanation": "Matthew 17:21 states that certain kinds of demons go out only by prayer and fasting.",
-          "verseReference": "Matthew 17:21",
+          "correctAnswer": "Jesus only",
+          "explanation": "Matthew 17:8 says they saw no man save Jesus only.",
+          "verseReference": "Matthew 17:8",
           "difficulty": "easy"
         },
         {
           "id": "matthew-17-easy-q13",
-          "question": "True or False: Jesus predicted in Matthew 17:22-23 that the Son of man would be betrayed, killed, and raised again on the third day.",
+          "question": "What command did Jesus give the disciples as they came down from the mountain?",
+          "type": "multiple-choice",
+          "options": [
+            "Tell the vision to no man until the Son of man be risen again",
+            "Tell everyone about what they saw immediately",
+            "Pray on the mountain again",
+            "Fast for seven days"
+          ],
+          "correctAnswer": "Tell the vision to no man until the Son of man be risen again",
+          "explanation": "Matthew 17:9 records Jesus charging the disciples to tell the vision to no man until the Son of man be risen again from the dead.",
+          "verseReference": "Matthew 17:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "matthew-17-easy-q14",
+          "question": "True or False: The disciples were sore afraid when they heard the voice from the cloud.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Jesus foretold His betrayal, death, and resurrection in Matthew 17:22-23.",
-          "verseReference": "Matthew 17:22-23",
+          "explanation": "Matthew 17:6 states that when the disciples heard the voice, they fell on their face and were sore afraid.",
+          "verseReference": "Matthew 17:6",
           "difficulty": "easy"
         },
         {
-          "id": "matthew-17-easy-q14",
-          "question": "True or False: Peter answered that kings of the earth take tribute from their own children, according to Jesus' question in Matthew 17:26.",
+          "id": "matthew-17-easy-q15",
+          "question": "True or False: Moses and Elias appeared and talked with Jesus during the transfiguration.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
-          "correctAnswer": "False",
-          "explanation": "Peter said kings take tribute from strangers, not their own children, in Matthew 17:26.",
-          "verseReference": "Matthew 17:26",
-          "difficulty": "easy"
-        },
-        {
-          "id": "matthew-17-easy-q15",
-          "question": "Complete the verse from Matthew 17:27: '...go thou to the sea, and cast an hook, and take up the fish that first cometh up; and when thou hast opened his ______, thou shalt find a piece of money.'",
-          "type": "fill-blank",
-          "options": [
-            "mouth",
-            "eye",
-            "fin",
-            "tail"
-          ],
-          "correctAnswer": "mouth",
-          "explanation": "Matthew 17:27 instructs Peter to open the fish's mouth to find the piece of money.",
-          "verseReference": "Matthew 17:27",
+          "correctAnswer": "True",
+          "explanation": "Matthew 17:3 clearly says Moses and Elias appeared talking with Jesus.",
+          "verseReference": "Matthew 17:3",
           "difficulty": "easy"
         }
       ],
@@ -254,223 +256,223 @@
       "questions": [
         {
           "id": "matthew-17-medium-q1",
-          "question": "How does Matthew 17 teach us about the importance of faith when facing difficult challenges?",
+          "question": "According to Matthew 17:11, what is Elias expected to do when he comes?",
           "type": "multiple-choice",
           "options": [
-            "Faith as small as a mustard seed can move mountains",
-            "Faith is not necessary to overcome obstacles",
-            "Only great faith can accomplish anything",
-            "Faith is only for spiritual leaders"
+            "Restore all things",
+            "Perform miracles",
+            "Preach repentance",
+            "Build a temple"
           ],
-          "correctAnswer": "Faith as small as a mustard seed can move mountains",
-          "explanation": "Matthew 17:20 emphasizes that even faith as small as a mustard seed can move mountains, teaching us to trust God in all situations. This is supported by verses 14-18 where Jesus heals the boy when others could not, showing the power of faith and prayer.",
-          "verseReference": "Matthew 17:20",
+          "correctAnswer": "Restore all things",
+          "explanation": "Matthew 17:11 states that Elias truly shall first come, and restore all things.",
+          "verseReference": "Matthew 17:11",
           "difficulty": "medium"
         },
         {
           "id": "matthew-17-medium-q2",
-          "question": "A believer is struggling with doubt about prayer. Based on Matthew 17, what biblical truth would you share about prayer?",
+          "question": "What does Matthew 17:13 promise will happen if someone understands who Jesus was speaking about in the previous verse?",
           "type": "multiple-choice",
           "options": [
-            "Some kinds of struggles require prayer and fasting",
-            "Prayer is optional and not always effective",
-            "Prayer can replace faith",
-            "Only leaders need to pray"
+            "They will understand that He spoke of John the Baptist",
+            "They will receive a vision",
+            "They will be healed",
+            "They will be filled with the Holy Spirit"
           ],
-          "correctAnswer": "Some kinds of struggles require prayer and fasting",
-          "explanation": "Matthew 17:21 teaches that certain spiritual challenges require prayer and fasting, highlighting the importance of persistent and devoted prayer alongside faith.",
-          "verseReference": "Matthew 17:21",
+          "correctAnswer": "They will understand that He spoke of John the Baptist",
+          "explanation": "Matthew 17:13 shows that the disciples understood Jesus was speaking about John the Baptist as Elias.",
+          "verseReference": "Matthew 17:13",
           "difficulty": "medium"
         },
         {
           "id": "matthew-17-medium-q3",
-          "question": "What does the transfiguration of Jesus reveal about His divine nature and how should this affect our trust in Him?",
+          "question": "What condition did the man describe about his son in Matthew 17:15?",
           "type": "multiple-choice",
           "options": [
-            "His face shone like the sun and His clothes became dazzling white",
-            "He appeared as a normal man without any change",
-            "He turned invisible",
-            "He performed a miracle on the spot"
+            "He is lunatick, sore vexed, and often falls into fire and water",
+            "He is blind and mute",
+            "He is deaf and cannot walk",
+            "He is paralyzed and mute"
           ],
-          "correctAnswer": "His face shone like the sun and His clothes became dazzling white",
-          "explanation": "Matthew 17:2 describes Jesus' transfiguration where His face shone like the sun and His clothes became white as light, confirming His divine glory and encouraging us to trust Him fully.",
-          "verseReference": "Matthew 17:2",
+          "correctAnswer": "He is lunatick, sore vexed, and often falls into fire and water",
+          "explanation": "Matthew 17:15 describes the boy as lunatick, sore vexed, often falling into fire and water.",
+          "verseReference": "Matthew 17:15",
           "difficulty": "medium"
         },
         {
           "id": "matthew-17-medium-q4",
-          "question": "How does Matthew 17 instruct us about humility and reverence in the presence of God's glory?",
+          "question": "How do verses 17 and 18 in Matthew 17 connect regarding Jesus' reaction and the outcome?",
           "type": "multiple-choice",
           "options": [
-            "The disciples fell on their faces and were afraid",
-            "They laughed and took pictures",
-            "They ignored the event",
-            "They argued among themselves"
+            "Jesus rebuked the devil and the child was cured immediately",
+            "Jesus prayed and the child was healed after a day",
+            "Jesus sent the disciples to heal the child again",
+            "Jesus told the man to have patience"
           ],
-          "correctAnswer": "The disciples fell on their faces and were afraid",
-          "explanation": "Matthew 17:6 shows that when the voice from the cloud spoke, the disciples fell on their faces and were greatly afraid, teaching us humility and reverence before God's glory.",
-          "verseReference": "Matthew 17:6",
+          "correctAnswer": "Jesus rebuked the devil and the child was cured immediately",
+          "explanation": "Matthew 17:17 shows Jesus' rebuke of the perverse generation and command to bring the child, and verse 18 shows Jesus rebuking the devil and the child being cured immediately.",
+          "verseReference": "Matthew 17:17-18",
           "difficulty": "medium"
         },
         {
           "id": "matthew-17-medium-q5",
-          "question": "What encouragement does Jesus give when His disciples feel afraid or discouraged?",
+          "question": "What does Jesus call the generation in Matthew 17:17 when addressing the disciples' inability to heal the boy?",
           "type": "multiple-choice",
           "options": [
-            "Arise, and be not afraid",
-            "Run away and hide",
-            "Fear is necessary at all times",
-            "Ignore your feelings"
+            "Faithless and perverse",
+            "Strong and faithful",
+            "Wise and understanding",
+            "Lost and confused"
           ],
-          "correctAnswer": "Arise, and be not afraid",
-          "explanation": "Matthew 17:7 records Jesus comforting His disciples by telling them to arise and not be afraid, encouraging believers to trust God even in fearful situations.",
-          "verseReference": "Matthew 17:7",
+          "correctAnswer": "Faithless and perverse",
+          "explanation": "In Matthew 17:17, Jesus refers to the generation as faithless and perverse.",
+          "verseReference": "Matthew 17:17",
           "difficulty": "medium"
         },
         {
           "id": "matthew-17-medium-q6",
-          "question": "Based on Matthew 17, what should be our response when witnessing God's power in the lives of others?",
+          "question": "What was Jesus' instruction to the disciples after the Transfiguration according to Matthew 17:9?",
           "type": "multiple-choice",
           "options": [
-            "Tell no one until the right time",
-            "Boast about it immediately",
-            "Ignore it",
-            "Doubt the testimony"
+            "Tell the vision to no man until the Son of man is risen again",
+            "Preach the vision to all nations immediately",
+            "Build three tabernacles on the mountain",
+            "Fast and pray for seven days"
           ],
-          "correctAnswer": "Tell no one until the right time",
-          "explanation": "Matthew 17:9 shows Jesus instructing the disciples to keep the vision secret until after His resurrection, teaching discernment and humility in sharing spiritual experiences.",
+          "correctAnswer": "Tell the vision to no man until the Son of man is risen again",
+          "explanation": "Matthew 17:9 records Jesus charging the disciples to keep the vision secret until after His resurrection.",
           "verseReference": "Matthew 17:9",
           "difficulty": "medium"
         },
         {
           "id": "matthew-17-medium-q7",
-          "question": "How does the healing of the lunatic boy in Matthew 17 teach us about persistence in faith and prayer for our loved ones?",
+          "question": "Why did the disciples fail to cure the boy according to what is implied in Matthew 17:16-17?",
           "type": "multiple-choice",
           "options": [
-            "Jesus healed the boy after rebuking the devil",
-            "The boy was healed by the disciples alone",
-            "The boy was left unhealed",
-            "Jesus ignored the request"
+            "Because of their little faith and the perverse generation around them",
+            "Because the boy was too sick",
+            "Because they did not have the right authority",
+            "Because Jesus had not yet prayed"
           ],
-          "correctAnswer": "Jesus healed the boy after rebuking the devil",
-          "explanation": "Matthew 17:18 shows Jesus healing the boy by rebuking the devil, teaching us to persist in prayer and faith when interceding for others.",
-          "verseReference": "Matthew 17:18",
+          "correctAnswer": "Because of their little faith and the perverse generation around them",
+          "explanation": "Matthew 17:17 shows Jesus calling the generation faithless and perverse, implying the disciples’ lack of faith contributed to their failure.",
+          "verseReference": "Matthew 17:16-17",
           "difficulty": "medium"
         },
         {
           "id": "matthew-17-medium-q8",
-          "question": "A fellow believer is discouraged because their prayers seem unanswered. What teaching from Matthew 17 can help them understand God's timing and purpose?",
+          "question": "How does the arrival of Moses and Elias during the Transfiguration in Matthew 17:3 relate to Jesus' identity?",
           "type": "multiple-choice",
           "options": [
-            "Jesus said some struggles require prayer and fasting",
-            "Prayer is always answered immediately",
-            "Unanswered prayers mean God is angry",
-            "Prayer is ineffective"
+            "It confirms Jesus as the fulfillment of the Law and the Prophets",
+            "It suggests Jesus is a prophet like them",
+            "It indicates Jesus will replace them",
+            "It shows their disagreement with Jesus"
           ],
-          "correctAnswer": "Jesus said some struggles require prayer and fasting",
-          "explanation": "Matthew 17:21 teaches that some spiritual battles need persistent prayer and fasting, reminding us that God's timing and ways may require ongoing devotion.",
-          "verseReference": "Matthew 17:21",
+          "correctAnswer": "It confirms Jesus as the fulfillment of the Law and the Prophets",
+          "explanation": "Moses represents the Law and Elias the Prophets; their appearance with Jesus in Matthew 17:3 confirms His fulfillment of both.",
+          "verseReference": "Matthew 17:3",
           "difficulty": "medium"
         },
         {
           "id": "matthew-17-medium-q9",
-          "question": "How does Matthew 17 teach about dealing with unbelief in our walk with God?",
+          "question": "What was Peter’s reaction to the Transfiguration in Matthew 17:4, and what does it reveal about his understanding?",
           "type": "multiple-choice",
           "options": [
-            "Unbelief prevents spiritual victories",
-            "Unbelief has no effect",
-            "Unbelief is encouraged",
-            "Unbelief guarantees success"
+            "He wanted to build tabernacles, showing awe but incomplete understanding",
+            "He immediately recognized Jesus as the Messiah",
+            "He was afraid and wanted to leave",
+            "He asked Jesus many questions"
           ],
-          "correctAnswer": "Unbelief prevents spiritual victories",
-          "explanation": "Matthew 17:20 explains that unbelief prevents the disciples from casting out the demon, showing that faith is essential for spiritual breakthroughs.",
-          "verseReference": "Matthew 17:20",
+          "correctAnswer": "He wanted to build tabernacles, showing awe but incomplete understanding",
+          "explanation": "Matthew 17:4 shows Peter suggesting building tabernacles for Jesus, Moses, and Elias, reflecting reverence but misunderstanding the event’s purpose.",
+          "verseReference": "Matthew 17:4",
           "difficulty": "medium"
         },
         {
           "id": "matthew-17-medium-q10",
-          "question": "What does Jesus' conversation about paying the temple tax teach us about honesty and integrity in daily life?",
+          "question": "What does the bright cloud and voice from heaven during the Transfiguration signify in Matthew 17:5?",
           "type": "multiple-choice",
           "options": [
-            "Jesus teaches to fulfill earthly obligations to avoid offense",
-            "Jesus refuses to pay any taxes",
-            "Jesus encourages rebellion against authorities",
-            "Jesus ignores earthly laws"
+            "God’s approval of Jesus as His beloved Son",
+            "A sign to start a new covenant",
+            "A warning to the disciples",
+            "A call to build a temple"
           ],
-          "correctAnswer": "Jesus teaches to fulfill earthly obligations to avoid offense",
-          "explanation": "Matthew 17:24-27 shows Jesus instructing Peter to pay the temple tax to avoid offending others, demonstrating integrity and respect for lawful obligations.",
-          "verseReference": "Matthew 17:24-27",
+          "correctAnswer": "God’s approval of Jesus as His beloved Son",
+          "explanation": "Matthew 17:5 records the voice from the cloud declaring Jesus as the beloved Son, indicating divine approval.",
+          "verseReference": "Matthew 17:5",
           "difficulty": "medium"
         },
         {
           "id": "matthew-17-medium-q11",
-          "question": "How does Matthew 17 encourage believers to approach trials and suffering?",
+          "question": "How does the healing of the boy in Matthew 17:18 demonstrate the importance of faith and Jesus’ authority?",
           "type": "multiple-choice",
           "options": [
-            "The Son of man will suffer, but will be raised again",
-            "Believers will never suffer",
-            "Suffering is a sign of God's rejection",
-            "Trials should be avoided at all costs"
+            "Because Jesus rebuked the devil and the boy was healed instantly, showing His divine power",
+            "Because the boy’s family prayed long enough",
+            "Because the disciples finally tried harder",
+            "Because the boy was brought to the temple"
           ],
-          "correctAnswer": "The Son of man will suffer, but will be raised again",
-          "explanation": "Matthew 17:22-23 predicts Jesus' suffering and resurrection, encouraging believers to persevere through trials with hope.",
-          "verseReference": "Matthew 17:22-23",
+          "correctAnswer": "Because Jesus rebuked the devil and the boy was healed instantly, showing His divine power",
+          "explanation": "Matthew 17:18 shows Jesus’ direct authority over the devil and immediate healing, emphasizing faith in Him.",
+          "verseReference": "Matthew 17:18",
           "difficulty": "medium"
         },
         {
           "id": "matthew-17-medium-q12",
-          "question": "True or False: According to Matthew 17, Jesus told His disciples to share the vision of His transfiguration immediately with everyone.",
+          "question": "What practical lesson about prayer and faith can be learned from the father's plea in Matthew 17:15-16?",
+          "type": "multiple-choice",
+          "options": [
+            "Persistent prayer is necessary even when others cannot help",
+            "Only disciples can heal the sick",
+            "Faith is not important for miracles",
+            "Suffering is always a punishment"
+          ],
+          "correctAnswer": "Persistent prayer is necessary even when others cannot help",
+          "explanation": "The father’s earnest plea in Matthew 17:15-16, despite the disciples' failure, teaches persistence in prayer and faith.",
+          "verseReference": "Matthew 17:15-16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-17-medium-q13",
+          "question": "According to Matthew 17:12, what is the analogy Jesus makes about Elias and the Son of man?",
+          "type": "multiple-choice",
+          "options": [
+            "Elias has come and was rejected, likewise the Son of man will suffer",
+            "Elias will come after the Son of man",
+            "Both will establish a new kingdom immediately",
+            "Both will perform similar miracles"
+          ],
+          "correctAnswer": "Elias has come and was rejected, likewise the Son of man will suffer",
+          "explanation": "Matthew 17:12 explains that Elias has already come and was rejected, and similarly the Son of man will suffer.",
+          "verseReference": "Matthew 17:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "matthew-17-medium-q14",
+          "question": "True or False: Jesus told His disciples to immediately share the vision of His Transfiguration with everyone they met.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Matthew 17:9 records Jesus instructing the disciples not to tell anyone about the vision until after His resurrection, showing the importance of timing in sharing spiritual truths.",
+          "explanation": "Matthew 17:9 instructs the disciples to tell the vision to no man until after the Son of man rises from the dead.",
           "verseReference": "Matthew 17:9",
           "difficulty": "medium"
         },
         {
-          "id": "matthew-17-medium-q13",
-          "question": "True or False: Jesus rebuked His disciples for their lack of faith when they could not cast out the demon in Matthew 17.",
+          "id": "matthew-17-medium-q15",
+          "question": "True or False: The disciples were able to heal the boy before bringing him to Jesus.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
-          "correctAnswer": "True",
-          "explanation": "Matthew 17:19-20 shows Jesus explaining that their failure was due to unbelief, emphasizing the necessity of faith in spiritual ministry.",
-          "verseReference": "Matthew 17:19-20",
-          "difficulty": "medium"
-        },
-        {
-          "id": "matthew-17-medium-q14",
-          "question": "Fill in the blank: Jesus said, \"If ye have faith as a grain of _______, ye shall say unto this mountain, Remove hence to yonder place; and it shall remove.\"",
-          "type": "fill-blank",
-          "options": [
-            "mustard seed",
-            "wheat seed",
-            "corn kernel",
-            "barley grain"
-          ],
-          "correctAnswer": "mustard seed",
-          "explanation": "Matthew 17:20 uses the metaphor of faith as small as a mustard seed to illustrate its powerful potential.",
-          "verseReference": "Matthew 17:20",
-          "difficulty": "medium"
-        },
-        {
-          "id": "matthew-17-medium-q15",
-          "question": "How does the appearance of Moses and Elias during the transfiguration teach us about the continuity of God's plan?",
-          "type": "multiple-choice",
-          "options": [
-            "They appeared talking with Jesus, showing the fulfillment of the Law and the Prophets",
-            "They came to challenge Jesus",
-            "They distracted the disciples",
-            "They disappeared immediately"
-          ],
-          "correctAnswer": "They appeared talking with Jesus, showing the fulfillment of the Law and the Prophets",
-          "explanation": "Matthew 17:3 shows Moses and Elias talking with Jesus, symbolizing that Jesus fulfills both the Law (Moses) and the Prophets (Elias), encouraging trust in God's redemptive plan.",
-          "verseReference": "Matthew 17:3",
+          "correctAnswer": "False",
+          "explanation": "Matthew 17:16 states the disciples could not cure the boy before Jesus intervened.",
+          "verseReference": "Matthew 17:16",
           "difficulty": "medium"
         }
       ],
@@ -497,223 +499,223 @@
       "questions": [
         {
           "id": "matthew-17-hard-q1",
-          "question": "What is the significance of the 'high mountain' where Jesus was transfigured, in the context of Old Testament narratives?",
+          "question": "Why could the disciples not cast out the devil?",
           "type": "multiple-choice",
           "options": [
-            "It symbolizes the place of divine revelation similar to Mount Sinai",
-            "It was the place where David became king",
-            "It represents the location of Solomon's temple",
-            "It was where Elijah ascended to heaven"
+            "Because of their unbelief",
+            "Because they were afraid",
+            "Because they lacked authority",
+            "Because the devil was too strong"
           ],
-          "correctAnswer": "It symbolizes the place of divine revelation similar to Mount Sinai",
-          "explanation": "Matthew 17:1 describes a 'high mountain' where Jesus is transfigured, paralleling Moses' encounter with God on Mount Sinai (Exodus 24), establishing Jesus as a new lawgiver and divine revelation.",
-          "verseReference": "Matthew 17:1",
+          "correctAnswer": "Because of their unbelief",
+          "explanation": "Jesus explained that the reason was 'Because of your unbelief' (Matthew 17:20).",
+          "verseReference": "Matthew 17:20",
           "difficulty": "hard"
         },
         {
           "id": "matthew-17-hard-q2",
-          "question": "How does Jesus' transfiguration in Matthew 17:2 serve as a typological fulfillment of the Shekinah glory in the Old Testament?",
+          "question": "What did Jesus say could be done with faith as small as a mustard seed?",
           "type": "multiple-choice",
           "options": [
-            "His face shines like the sun and his garments are white as light",
-            "He performs a miracle of healing",
-            "He recites the Ten Commandments",
-            "He calls down fire from heaven"
+            "Move mountains",
+            "Heal the sick",
+            "Calm storms",
+            "Change water to wine"
           ],
-          "correctAnswer": "His face shines like the sun and his garments are white as light",
-          "explanation": "The description of Jesus’ face shining and raiment being white echoes the Shekinah glory of God’s presence (Exodus 34:29-35), revealing His divine nature and fulfilling Old Testament imagery.",
-          "verseReference": "Matthew 17:2",
+          "correctAnswer": "Move mountains",
+          "explanation": "Jesus stated, 'If ye have faith as a grain of mustard seed, ye shall say unto this mountain, Remove hence to yonder place; and it shall remove' (Matthew 17:20).",
+          "verseReference": "Matthew 17:20",
           "difficulty": "hard"
         },
         {
           "id": "matthew-17-hard-q3",
-          "question": "Which Old Testament figures appear with Jesus during the transfiguration, symbolizing the Law and the Prophets?",
+          "question": "What is necessary for casting out the kind of devil mentioned by Jesus?",
           "type": "multiple-choice",
           "options": [
-            "Moses and Elias",
-            "Abraham and Isaac",
-            "David and Solomon",
-            "Isaiah and Jeremiah"
+            "Only prayer",
+            "Only fasting",
+            "Prayer and fasting",
+            "Faith alone"
           ],
-          "correctAnswer": "Moses and Elias",
-          "explanation": "Matthew 17:3 mentions Moses representing the Law and Elijah (Elias) the Prophets, indicating Jesus as the fulfillment of both covenantal traditions.",
-          "verseReference": "Matthew 17:3",
+          "correctAnswer": "Prayer and fasting",
+          "explanation": "Jesus said, 'Howbeit this kind goeth not out but by prayer and fasting' (Matthew 17:21).",
+          "verseReference": "Matthew 17:21",
           "difficulty": "hard"
         },
         {
           "id": "matthew-17-hard-q4",
-          "question": "What is the theological implication of the voice from the cloud saying, 'This is my beloved Son, in whom I am well pleased; hear ye him'?",
+          "question": "What did Jesus predict would happen to the Son of man?",
           "type": "multiple-choice",
           "options": [
-            "It affirms Jesus' divine sonship and authority over Moses and Elijah",
-            "It commands the disciples to build tabernacles",
-            "It calls for a new covenant with Israel",
-            "It identifies Elijah as the Messiah"
+            "He will be worshipped",
+            "He will be betrayed and killed",
+            "He will ascend to heaven",
+            "He will perform miracles"
           ],
-          "correctAnswer": "It affirms Jesus' divine sonship and authority over Moses and Elijah",
-          "explanation": "Matthew 17:5 reveals God's endorsement of Jesus as His Son, surpassing Moses and Elijah, directing the disciples to heed Jesus’ teachings as ultimate revelation.",
-          "verseReference": "Matthew 17:5",
+          "correctAnswer": "He will be betrayed and killed",
+          "explanation": "Jesus said, 'The Son of man shall be betrayed into the hands of men: And they shall kill him' (Matthew 17:22-23).",
+          "verseReference": "Matthew 17:22",
           "difficulty": "hard"
         },
         {
           "id": "matthew-17-hard-q5",
-          "question": "In Matthew 17:9, Jesus instructs the disciples not to tell anyone about the vision until when?",
+          "question": "What did Peter say when asked if Jesus pays tribute?",
           "type": "multiple-choice",
           "options": [
-            "The Son of man be risen again from the dead",
-            "They reach Jerusalem",
-            "The end of the age",
-            "The coming of Elijah"
+            "No, he does not",
+            "Yes, he does",
+            "Only sometimes",
+            "I don't know"
           ],
-          "correctAnswer": "The Son of man be risen again from the dead",
-          "explanation": "This verse highlights the Messianic secret motif where Jesus' identity is revealed fully only after His resurrection, emphasizing the fulfillment of prophecy.",
-          "verseReference": "Matthew 17:9",
+          "correctAnswer": "Yes, he does",
+          "explanation": "Peter replied, 'Yes' when asked if Jesus pays tribute (Matthew 17:25).",
+          "verseReference": "Matthew 17:25",
           "difficulty": "hard"
         },
         {
           "id": "matthew-17-hard-q6",
-          "question": "What question did the disciples ask Jesus concerning Elijah, revealing their understanding of prophecy?",
+          "question": "What did Jesus instruct Peter to do in order to pay the tribute?",
           "type": "multiple-choice",
           "options": [
-            "Why then say the scribes that Elias must first come?",
-            "Is Elijah the Messiah?",
-            "Will Elijah restore the temple?",
-            "Has Elijah already appeared?"
+            "Go to the market",
+            "Cast a hook into the sea",
+            "Ask a rich man",
+            "Perform a miracle"
           ],
-          "correctAnswer": "Why then say the scribes that Elias must first come?",
-          "explanation": "The disciples’ question in Matthew 17:10 shows their awareness of Malachi’s prophecy (Malachi 4:5) about Elijah’s coming before the Messiah.",
-          "verseReference": "Matthew 17:10",
+          "correctAnswer": "Cast a hook into the sea",
+          "explanation": "Jesus instructed Peter to 'go thou to the sea, and cast an hook' to find the money needed for tribute (Matthew 17:27).",
+          "verseReference": "Matthew 17:27",
           "difficulty": "hard"
         },
         {
           "id": "matthew-17-hard-q7",
-          "question": "According to Jesus in Matthew 17:12, who has already come in the spirit of Elijah?",
+          "question": "What does the Greek word 'πιστις' (pistis) in Matthew 17:20 mean?",
           "type": "multiple-choice",
           "options": [
-            "John the Baptist",
-            "Peter",
-            "James",
-            "A prophet not named"
+            "Fear",
+            "Faith",
+            "Doubt",
+            "Knowledge"
           ],
-          "correctAnswer": "John the Baptist",
-          "explanation": "Matthew 17:12-13 clarifies that John the Baptist fulfilled the role of Elijah by preparing the way for Jesus, linking prophecy with historical fulfillment.",
-          "verseReference": "Matthew 17:12",
+          "correctAnswer": "Faith",
+          "explanation": "'πιστις' (pistis) means 'faith,' referring to the trust and belief needed to perform miracles as stated in Matthew 17:20.",
+          "verseReference": "Matthew 17:20",
           "difficulty": "hard"
         },
         {
           "id": "matthew-17-hard-q8",
-          "question": "What condition did Jesus indicate was necessary to cast out the demon from the lunatic boy?",
+          "question": "What literary technique is primarily used in Matthew 17:20 when Jesus talks about faith as a mustard seed?",
           "type": "multiple-choice",
           "options": [
-            "Faith as a grain of mustard seed",
-            "Sacrificial offerings",
-            "Legalistic observance of the Law",
-            "Physical strength"
+            "Metaphor",
+            "Simile",
+            "Hyperbole",
+            "Paradox"
           ],
-          "correctAnswer": "Faith as a grain of mustard seed",
-          "explanation": "In Matthew 17:20, Jesus teaches that even a small measure of genuine faith enables the disciples to overcome seemingly impossible challenges, including casting out demons.",
+          "correctAnswer": "Metaphor",
+          "explanation": "The comparison of faith to a mustard seed is a metaphor, illustrating that even a small amount of genuine faith can achieve great things (Matthew 17:20).",
           "verseReference": "Matthew 17:20",
           "difficulty": "hard"
         },
         {
           "id": "matthew-17-hard-q9",
-          "question": "Which two spiritual disciplines does Jesus mention as necessary to overcome certain kinds of demons?",
+          "question": "Which other Bible passage connects to Jesus' prediction of his death in Matthew 17:22?",
           "type": "multiple-choice",
           "options": [
-            "Prayer and fasting",
-            "Almsgiving and pilgrimage",
-            "Sacrifice and repentance",
-            "Study and meditation"
+            "Isaiah 53:5",
+            "Luke 9:22",
+            "Mark 10:34",
+            "John 3:16"
           ],
-          "correctAnswer": "Prayer and fasting",
-          "explanation": "Matthew 17:21 highlights prayer and fasting as essential practices for spiritual authority and victory over difficult demonic forces.",
-          "verseReference": "Matthew 17:21",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-17-hard-q10",
-          "question": "What prophecy about Jesus does He reveal to His disciples in Galilee in Matthew 17:22-23?",
-          "type": "multiple-choice",
-          "options": [
-            "He will be betrayed, killed, and raised on the third day",
-            "He will reign as king immediately",
-            "He will conquer the Romans by force",
-            "He will establish a new temple"
-          ],
-          "correctAnswer": "He will be betrayed, killed, and raised on the third day",
-          "explanation": "Jesus predicts His passion and resurrection, central to Christian soteriology, as recorded in Matthew 17:22-23.",
+          "correctAnswer": "Luke 9:22",
+          "explanation": "Luke 9:22 parallels Matthew 17:22, stating, 'The Son of man must suffer many things, and be rejected of the elders and chief priests and scribes, and be slain, and be raised the third day.'",
           "verseReference": "Matthew 17:22",
           "difficulty": "hard"
         },
         {
-          "id": "matthew-17-hard-q11",
-          "question": "What cultural or historical practice is referenced when Jesus and Peter discuss paying the temple tax in Matthew 17:24-27?",
+          "id": "matthew-17-hard-q10",
+          "question": "Which Old Testament event does the healing of the boy in Matthew 17:18 echo?",
           "type": "multiple-choice",
           "options": [
-            "Tribute money paid to the temple authorities",
-            "Roman census taxation",
-            "Tithing to the synagogue",
-            "Donation for the poor"
+            "The Exodus",
+            "The plagues of Egypt",
+            "The healing of Naaman",
+            "The confrontation with Baal"
           ],
-          "correctAnswer": "Tribute money paid to the temple authorities",
-          "explanation": "Matthew 17:24-27 refers to the half-shekel temple tax required of Jewish males, a practice rooted in Exodus 30:13-16 and upheld in Second Temple Judaism.",
-          "verseReference": "Matthew 17:24",
+          "correctAnswer": "The confrontation with Baal",
+          "explanation": "The healing of the boy parallels Elijah's confrontation with the prophets of Baal, as both involve deliverance from demonic affliction (1 Kings 18).",
+          "verseReference": "Matthew 17:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-17-hard-q11",
+          "question": "What comes before Jesus' statement about the mountain in Matthew 17:20?",
+          "type": "multiple-choice",
+          "options": [
+            "The transfiguration",
+            "The healing of the boy",
+            "The prediction of his death",
+            "The question from the disciples"
+          ],
+          "correctAnswer": "The healing of the boy",
+          "explanation": "Before Jesus' statement in Matthew 17:20, He had just healed a boy possessed by a devil (Matthew 17:18).",
+          "verseReference": "Matthew 17:18",
           "difficulty": "hard"
         },
         {
           "id": "matthew-17-hard-q12",
-          "question": "How does Jesus justify that 'the children are free' from paying the temple tax in Matthew 17:26?",
+          "question": "What does the term 'fasting' in Matthew 17:21 signify?",
           "type": "multiple-choice",
           "options": [
-            "Because kings do not tax their own children",
-            "Because Jesus is poor",
-            "Because the tax is abolished",
-            "Because Peter is exempt"
+            "Spiritual discipline",
+            "Physical health",
+            "Cultural tradition",
+            "Social obligation"
           ],
-          "correctAnswer": "Because kings do not tax their own children",
-          "explanation": "Jesus uses a royal analogy in Matthew 17:25-26 to indicate that as God's Son, He and His followers are not under the same obligations as strangers or foreigners.",
-          "verseReference": "Matthew 17:26",
+          "correctAnswer": "Spiritual discipline",
+          "explanation": "Fasting in Matthew 17:21 signifies a spiritual discipline necessary for deeper connection and effectiveness in prayer and spiritual warfare.",
+          "verseReference": "Matthew 17:21",
           "difficulty": "hard"
         },
         {
           "id": "matthew-17-hard-q13",
-          "question": "What miracle does Jesus perform to secure the money for the temple tax in Matthew 17:27?",
+          "question": "What does the term 'unbelief' in Matthew 17:20 refer to?",
           "type": "multiple-choice",
           "options": [
-            "He tells Peter to catch a fish with a coin in its mouth",
-            "He multiplies bread",
-            "He turns water into wine",
-            "He heals a blind man"
+            "Doubt in God's power",
+            "Lack of knowledge",
+            "Rebellion against God",
+            "Fear of man"
           ],
-          "correctAnswer": "He tells Peter to catch a fish with a coin in its mouth",
-          "explanation": "Jesus instructs Peter in Matthew 17:27 to find a coin in a fish’s mouth, demonstrating divine provision and authority over nature.",
-          "verseReference": "Matthew 17:27",
+          "correctAnswer": "Doubt in God's power",
+          "explanation": "'Unbelief' refers to doubt in God's power and ability to perform miracles, which hindered the disciples from casting out the demon (Matthew 17:20).",
+          "verseReference": "Matthew 17:20",
           "difficulty": "hard"
         },
         {
           "id": "matthew-17-hard-q14",
-          "question": "True or False: The disciples were able to cast out the demon from the lunatic boy before Jesus rebuked it.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "False",
-          "explanation": "Matthew 17:16 states that the disciples could not cure the boy, and Jesus had to rebuke the devil himself in Matthew 17:18.",
-          "verseReference": "Matthew 17:16",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-17-hard-q15",
-          "question": "True or False: The transfiguration event reveals Jesus in glory, foreshadowing His resurrection and exaltation.",
+          "question": "Jesus' statement about his betrayal in Matthew 17:22 is an example of what?",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "The transfiguration in Matthew 17:2 foreshadows Jesus’ resurrection glory and divine status, confirming His messianic identity.",
-          "verseReference": "Matthew 17:2",
+          "explanation": "Jesus' prediction about his betrayal is a prophetic statement that fulfills Old Testament prophecy and reveals his mission (Matthew 17:22).",
+          "verseReference": "Matthew 17:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-17-hard-q15",
+          "question": "The money found in the fish's mouth in Matthew 17:27 was for Peter alone.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "The money was for both Peter and Jesus, as stated, 'that take, and give unto them for me and thee' (Matthew 17:27).",
+          "verseReference": "Matthew 17:27",
           "difficulty": "hard"
         }
       ],
@@ -740,227 +742,227 @@
       "questions": [
         {
           "id": "matthew-17-theological-q1",
-          "question": "What was the significance of Jesus being transfigured with his face shining like the sun and his clothes becoming as white as light?",
+          "question": "What doctrine does Matthew 17:2 teach about the divine nature of Christ?",
           "type": "multiple-choice",
           "options": [
-            "It revealed His divine glory as the Son of God",
-            "It was a vision given only to Moses",
-            "It symbolized His impending death",
-            "It showed His human frailty"
+            "Christ’s divine glory is revealed visibly",
+            "Christ’s humanity is emphasized",
+            "Christ’s role as prophet is highlighted",
+            "Christ’s suffering is foreshadowed"
           ],
-          "correctAnswer": "It revealed His divine glory as the Son of God",
-          "explanation": "Matthew 17:2 shows Jesus' divine glory shining forth, confirming His deity. This echoes Old Testament appearances of God’s glory (Exodus 34:29-35), the Shekinah glory (Isaiah 6:1-5), and the New Testament affirmation of Christ as the radiance of God's glory (Hebrews 1:3).",
+          "correctAnswer": "Christ’s divine glory is revealed visibly",
+          "explanation": "Matthew 17:2 shows Jesus transfigured with a face shining as the sun and garments white as light, revealing His divine glory.",
           "verseReference": "Matthew 17:2",
           "difficulty": "hard"
         },
         {
           "id": "matthew-17-theological-q2",
-          "question": "Who appeared with Jesus during the Transfiguration, and what is their theological significance?",
+          "question": "What doctrine about prophetic fulfillment does Matthew 17:11 teach?",
           "type": "multiple-choice",
           "options": [
-            "Moses and Elijah, representing the Law and the Prophets",
-            "Abraham and David, representing the patriarchs",
-            "Peter and John, representing the apostles",
-            "Isaiah and Jeremiah, representing the major prophets"
+            "Elijah must come first to restore all things",
+            "The Messiah comes without prophetic preparation",
+            "John the Baptist is unrelated to Elijah",
+            "Old Testament prophecy is obsolete"
           ],
-          "correctAnswer": "Moses and Elijah, representing the Law and the Prophets",
-          "explanation": "Matthew 17:3 records Moses and Elijah appearing, symbolizing the fulfillment of the Law and the Prophets in Christ. This aligns with Deuteronomy 18:15-19's prophecy of a prophet like Moses, and Malachi 4:5-6 concerning Elijah's return.",
-          "verseReference": "Matthew 17:3",
+          "correctAnswer": "Elijah must come first to restore all things",
+          "explanation": "In Matthew 17:11, Jesus states Elijah will first come to restore all things, affirming fulfillment of prophecy.",
+          "verseReference": "Matthew 17:11",
           "difficulty": "hard"
         },
         {
           "id": "matthew-17-theological-q3",
-          "question": "What did the voice from the cloud declare about Jesus during the Transfiguration?",
+          "question": "What doctrine about faith and spiritual authority is taught in Matthew 17:20?",
           "type": "multiple-choice",
           "options": [
-            "This is my beloved Son, in whom I am well pleased; hear ye him",
-            "This is a prophet like Moses",
-            "This man shall suffer for the people",
-            "This is the servant of the Lord"
+            "Faith, even as a mustard seed, enables impossible works",
+            "Only miracles by Jesus are valid",
+            "Faith is irrelevant to spiritual power",
+            "Unbelief is a sign of true wisdom"
           ],
-          "correctAnswer": "This is my beloved Son, in whom I am well pleased; hear ye him",
-          "explanation": "Matthew 17:5 quotes God affirming Jesus as His beloved Son, echoing Psalm 2:7 and Isaiah 42:1, affirming Christ’s unique sonship and authority, central to Trinitarian doctrine (John 1:14; Hebrews 1:5).",
-          "verseReference": "Matthew 17:5",
-          "difficulty": "hard"
-        },
-        {
-          "id": "matthew-17-theological-q4",
-          "question": "Why did Jesus rebuke the disciples for their inability to cast out the demon from the boy?",
-          "type": "multiple-choice",
-          "options": [
-            "Because of their unbelief and lack of faith",
-            "Because they were not trained enough",
-            "Because the demon was too strong",
-            "Because Jesus had not given them authority yet"
-          ],
-          "correctAnswer": "Because of their unbelief and lack of faith",
-          "explanation": "Matthew 17:20 explains the disciples' failure was due to their unbelief, emphasizing faith’s essential role in spiritual authority, consistent with Mark 9:23-24 and James 1:6-7 on faith overcoming spiritual obstacles.",
+          "correctAnswer": "Faith, even as a mustard seed, enables impossible works",
+          "explanation": "Matthew 17:20 teaches that faith as small as a mustard seed can move mountains and enable believers to do all things.",
           "verseReference": "Matthew 17:20",
           "difficulty": "hard"
         },
         {
-          "id": "matthew-17-theological-q5",
-          "question": "According to Jesus, what is required to cast out certain kinds of demons as stated in this chapter?",
+          "id": "matthew-17-theological-q4",
+          "question": "Which divine attribute does Matthew 17:5 specifically demonstrate?",
           "type": "multiple-choice",
           "options": [
-            "Prayer and fasting",
-            "Only prayer",
-            "Only fasting",
-            "Sacrificial offerings"
+            "Holiness",
+            "Omniscience",
+            "Justice",
+            "Omnipotence"
           ],
-          "correctAnswer": "Prayer and fasting",
-          "explanation": "Matthew 17:21 states that some demons require prayer and fasting to be cast out, highlighting spiritual disciplines that cultivate dependence on God, paralleling Jesus’ own practices (Luke 4:1-2) and Paul’s exhortation to prayer (Ephesians 6:18).",
-          "verseReference": "Matthew 17:21",
+          "correctAnswer": "Holiness",
+          "explanation": "In Matthew 17:5, God's voice from the cloud declares Jesus as His beloved Son, showing divine holiness and approval.",
+          "verseReference": "Matthew 17:5",
+          "difficulty": "hard"
+        },
+        {
+          "id": "matthew-17-theological-q5",
+          "question": "Which divine attribute is highlighted by Jesus’ rebuke of the devil in Matthew 17:18?",
+          "type": "multiple-choice",
+          "options": [
+            "Sovereignty",
+            "Mercy",
+            "Wrath",
+            "Immutability"
+          ],
+          "correctAnswer": "Sovereignty",
+          "explanation": "Matthew 17:18 demonstrates Jesus’ sovereign authority over demonic powers by rebuking the devil and healing the child.",
+          "verseReference": "Matthew 17:18",
           "difficulty": "hard"
         },
         {
           "id": "matthew-17-theological-q6",
-          "question": "What did Jesus predict about Himself while they stayed in Galilee?",
+          "question": "How does the transfiguration event in Matthew 17:1–2 connect to the broader biblical narrative?",
           "type": "multiple-choice",
           "options": [
-            "That the Son of man shall be betrayed, killed, and raised again on the third day",
-            "That He would reign immediately as king",
-            "That He would perform many miracles",
-            "That He would gather all nations"
+            "It prefigures Christ’s glorification after resurrection",
+            "It finalizes the Mosaic Law",
+            "It marks the beginning of the Church age",
+            "It confirms the abandonment of the Law"
           ],
-          "correctAnswer": "That the Son of man shall be betrayed, killed, and raised again on the third day",
-          "explanation": "Matthew 17:22-23 records Jesus foretelling His betrayal, death, and resurrection, central to Christian soteriology (Isaiah 53; Psalm 16:10; 1 Corinthians 15:3-4).",
-          "verseReference": "Matthew 17:22",
+          "correctAnswer": "It prefigures Christ’s glorification after resurrection",
+          "explanation": "The transfiguration in Matthew 17:1–2 anticipates Christ’s future glorification, connecting to His resurrection and exaltation (Philippians 3:21).",
+          "verseReference": "Matthew 17:1-2",
           "difficulty": "hard"
         },
         {
           "id": "matthew-17-theological-q7",
-          "question": "What theological meaning is found in Peter's interaction about the temple tax with Jesus?",
+          "question": "In what way does Matthew 17:22–23 prepare for the passion narrative?",
           "type": "multiple-choice",
           "options": [
-            "Jesus teaches that the children (believers) are exempt from earthly tribute",
-            "Jesus rejects all forms of taxation",
-            "Peter is rebuked for questioning taxes",
-            "The temple tax is abolished"
+            "It foretells the Son of man’s betrayal, death, and resurrection",
+            "It denies Jesus will suffer",
+            "It predicts a political overthrow",
+            "It promises immediate victory"
           ],
-          "correctAnswer": "Jesus teaches that the children (believers) are exempt from earthly tribute",
-          "explanation": "Matthew 17:25-26 shows Jesus teaching that as God's children, believers are not subject to worldly taxes, but choose to pay to avoid offense, illustrating Christian freedom and submission (Romans 13:1-7; 1 Corinthians 9:20-22).",
-          "verseReference": "Matthew 17:26",
+          "correctAnswer": "It foretells the Son of man’s betrayal, death, and resurrection",
+          "explanation": "Matthew 17:22–23 explicitly proclaims Jesus’ betrayal, death, and resurrection, preparing the reader for the passion.",
+          "verseReference": "Matthew 17:22-23",
           "difficulty": "hard"
         },
         {
           "id": "matthew-17-theological-q8",
-          "question": "Who did Jesus indicate had already come in the spirit and power of Elijah, according to His explanation to the disciples?",
+          "question": "What combined doctrine do Matthew 17:3 and 17:5 teach about God’s revelation and Christ’s identity?",
           "type": "multiple-choice",
           "options": [
-            "John the Baptist",
-            "Peter",
-            "Moses",
-            "Elijah himself"
+            "Christ is affirmed as God’s Son through prophetic witnesses and divine voice",
+            "Christ is solely a human prophet",
+            "Moses and Elijah replace Jesus as mediators",
+            "The cloud represents human doubt"
           ],
-          "correctAnswer": "John the Baptist",
-          "explanation": "Matthew 17:12-13 clarifies that John the Baptist fulfilled the role of Elijah who was to come, fulfilling Malachi 4:5-6 and Luke 1:17, establishing continuity between Old Testament prophecy and New Testament fulfillment.",
-          "verseReference": "Matthew 17:12",
+          "correctAnswer": "Christ is affirmed as God’s Son through prophetic witnesses and divine voice",
+          "explanation": "Verses 17:3 and 17:5 show Moses and Elijah talking with Jesus and God’s voice affirming Him as Son, confirming His divine identity.",
+          "verseReference": "Matthew 17:3, Matthew 17:5",
           "difficulty": "hard"
         },
         {
           "id": "matthew-17-theological-q9",
-          "question": "What was Peter’s response when asked if Jesus paid the temple tax?",
+          "question": "What combined theological insight do Matthew 17:12 and 17:13 provide about John the Baptist’s role?",
           "type": "multiple-choice",
           "options": [
-            "He said, 'Yes'",
-            "He said, 'No'",
-            "He was silent",
-            "He asked Jesus what to say"
+            "John the Baptist is the Elijah who was to come first",
+            "John the Baptist is unrelated to Old Testament prophecy",
+            "John the Baptist was rejected due to his sin",
+            "John the Baptist was a political revolutionary"
           ],
-          "correctAnswer": "He said, 'Yes'",
-          "explanation": "Matthew 17:25 shows Peter affirming that Jesus did pay the temple tax, illustrating Jesus’ submission to cultural and religious customs despite His divine status (Philippians 2:6-8).",
-          "verseReference": "Matthew 17:25",
+          "correctAnswer": "John the Baptist is the Elijah who was to come first",
+          "explanation": "Matthew 17:12–13 explains Jesus identifies John the Baptist as the fulfillment of Elijah’s coming, though he was not recognized.",
+          "verseReference": "Matthew 17:12-13",
           "difficulty": "hard"
         },
         {
           "id": "matthew-17-theological-q10",
-          "question": "What did Jesus instruct Peter to do to find the money for the temple tax?",
+          "question": "What doctrine about spiritual warfare and human responsibility is taught by combining Matthew 17:18 and 17:21?",
           "type": "multiple-choice",
           "options": [
-            "Catch a fish and take the coin found in its mouth",
-            "Ask the temple authorities for the money",
-            "Take money from his own possessions",
-            "Borrow money from a disciple"
+            "Deliverance requires Jesus’ authority plus prayer and fasting",
+            "Demons cannot be cast out",
+            "Faith alone without prayer is sufficient",
+            "Humans control demons by their own power"
           ],
-          "correctAnswer": "Catch a fish and take the coin found in its mouth",
-          "explanation": "Matthew 17:27 describes Jesus performing a miraculous provision, symbolizing divine provision and sovereignty over creation (Exodus 3:2-6; Jonah 1:17).",
-          "verseReference": "Matthew 17:27",
+          "correctAnswer": "Deliverance requires Jesus’ authority plus prayer and fasting",
+          "explanation": "Matthew 17:18 shows Jesus casting out a demon, and 17:21 states that certain kinds of demons require prayer and fasting, combining divine authority with human discipline.",
+          "verseReference": "Matthew 17:18, Matthew 17:21",
           "difficulty": "hard"
         },
         {
           "id": "matthew-17-theological-q11",
-          "question": "What did Peter propose during the Transfiguration, and what does it reveal about his understanding?",
+          "question": "Skeptics claim the transfiguration story is a myth with no historical basis. What does Matthew 17:1–9 actually teach about the event?",
           "type": "multiple-choice",
           "options": [
-            "To make three tabernacles for Jesus, Moses, and Elijah, showing a desire to prolong the moment",
-            "To build a temple on the mountain",
-            "To return immediately to Jerusalem",
-            "To cast out the cloud"
+            "It was a real, witnessed event revealing Jesus’ divine glory",
+            "It was a parable about future glory",
+            "It was a dream Peter had",
+            "It was a later church invention"
           ],
-          "correctAnswer": "To make three tabernacles for Jesus, Moses, and Elijah, showing a desire to prolong the moment",
-          "explanation": "Matthew 17:4 records Peter’s suggestion, indicating his misunderstanding of the Transfiguration’s purpose and a wish to remain in the divine presence, similar to his reaction in Luke 9:33.",
-          "verseReference": "Matthew 17:4",
+          "correctAnswer": "It was a real, witnessed event revealing Jesus’ divine glory",
+          "explanation": "Matthew 17:1–9 records Jesus taking Peter, James, and John up a mountain where He was transfigured before them, indicating a historical revelation of divine glory.",
+          "verseReference": "Matthew 17:1-9",
           "difficulty": "hard"
         },
         {
           "id": "matthew-17-theological-q12",
-          "question": "How did the disciples react to the voice from the cloud and what does this response signify?",
+          "question": "What doctrine about Christ’s lordship and covenant relationship with Israel is taught in Matthew 17:25–27?",
           "type": "multiple-choice",
           "options": [
-            "They fell on their face and were sore afraid, showing reverence and awe",
-            "They stood firm without fear",
-            "They questioned the voice",
-            "They ran away"
+            "Christ, as the Son, is exempt from temple tax but submits to avoid offense",
+            "Christ rejects all temple obligations",
+            "Christ pays temple tax as a sinner",
+            "Christ has no relation to Israel’s covenant"
           ],
-          "correctAnswer": "They fell on their face and were sore afraid, showing reverence and awe",
-          "explanation": "Matthew 17:6 records their fearful reverence, a proper response to divine revelation, paralleling Exodus 34:5-8 and Revelation 1:17, emphasizing God’s holiness and majesty.",
-          "verseReference": "Matthew 17:6",
+          "correctAnswer": "Christ, as the Son, is exempt from temple tax but submits to avoid offense",
+          "explanation": "Verses 17:25–27 reveal Jesus’ sonship exempts Him from temple tax, yet He complies to prevent offense, showing covenant respect.",
+          "verseReference": "Matthew 17:25-27",
           "difficulty": "hard"
         },
         {
           "id": "matthew-17-theological-q13",
-          "question": "When Jesus told the disciples to tell no one about the vision until after His resurrection, what theological principle is highlighted?",
+          "question": "Which divine attribute is demonstrated by God overshadowing the transfiguration scene in Matthew 17:5?",
           "type": "multiple-choice",
           "options": [
-            "The Messianic secret and the unfolding of redemptive history",
-            "The prohibition of prophecy",
-            "The need for secrecy in discipleship",
-            "The avoidance of public ministry"
+            "Majesty",
+            "Immanence",
+            "Omnipresence",
+            "Wrath"
           ],
-          "correctAnswer": "The Messianic secret and the unfolding of redemptive history",
-          "explanation": "Matthew 17:9 reflects the Messianic secret motif, emphasizing that Jesus’ full identity and mission would be revealed progressively, culminating in the resurrection (John 2:4; Mark 8:30).",
-          "verseReference": "Matthew 17:9",
+          "correctAnswer": "Majesty",
+          "explanation": "God’s bright cloud overshadowing the transfiguration in Matthew 17:5 signifies divine majesty and glory manifesting visibly.",
+          "verseReference": "Matthew 17:5",
           "difficulty": "hard"
         },
         {
           "id": "matthew-17-theological-q14",
-          "question": "What is the significance of the title 'Son of Man' as used by Jesus in this chapter?",
+          "question": "How does the healing of the lunatic boy in Matthew 17:14–18 illustrate the doctrine of sanctification?",
           "type": "multiple-choice",
           "options": [
-            "It emphasizes both His humanity and divine authority as prophesied in Daniel",
-            "It refers only to His human nature",
-            "It is a common title for prophets",
-            "It identifies Him as a political leader"
+            "Sanctification involves deliverance from evil through faith and divine power",
+            "Sanctification is only a future hope",
+            "Sanctification excludes healing",
+            "Sanctification is purely moral effort"
           ],
-          "correctAnswer": "It emphasizes both His humanity and divine authority as prophesied in Daniel",
-          "explanation": "Matthew 17:22 uses 'Son of Man,' connecting Jesus to Daniel 7:13-14’s vision of a divine figure, underscoring His role as God’s appointed judge and savior (Mark 10:45; Hebrews 2:6-9).",
-          "verseReference": "Matthew 17:22",
+          "correctAnswer": "Sanctification involves deliverance from evil through faith and divine power",
+          "explanation": "Matthew 17:14–18 shows Jesus delivering the boy from demonic oppression, illustrating sanctification as cleansing and healing by divine power through faith.",
+          "verseReference": "Matthew 17:14-18",
           "difficulty": "hard"
         },
         {
           "id": "matthew-17-theological-q15",
-          "question": "What does the healing of the demon-possessed boy illustrate about Jesus’ mission?",
+          "question": "What doctrinal synthesis about human unbelief and divine patience can be drawn from Matthew 17:17 and 17:20?",
           "type": "multiple-choice",
           "options": [
-            "Jesus’ authority over evil and power to save and restore",
-            "Jesus’ focus only on physical healing",
-            "Jesus’ inability to heal without faith",
-            "The disciples’ superiority over Jesus"
+            "God is longsuffering with faithless generation but calls for faith",
+            "God punishes instantly unbelief",
+            "God ignores human unbelief",
+            "Unbelief is praiseworthy"
           ],
-          "correctAnswer": "Jesus’ authority over evil and power to save and restore",
-          "explanation": "Matthew 17:18 shows Jesus rebuking the demon and healing the boy, demonstrating His victory over sin and evil (Colossians 2:15; Luke 4:18-19), central to Christian salvation.",
-          "verseReference": "Matthew 17:18",
+          "correctAnswer": "God is longsuffering with faithless generation but calls for faith",
+          "explanation": "In 17:17 Jesus laments unbelief, and in 17:20 He teaches faith’s power, showing God’s patience yet demand for faith.",
+          "verseReference": "Matthew 17:17, Matthew 17:20",
           "difficulty": "hard"
         }
       ],

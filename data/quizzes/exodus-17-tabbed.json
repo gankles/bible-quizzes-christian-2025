@@ -13,7 +13,22 @@
       "questions": [
         {
           "id": "exodus-17-easy-q1",
-          "question": "Where did the children of Israel pitch their camp when there was no water to drink?",
+          "question": "In Exodus 17, which of the following appears FIRST in the chapter?",
+          "type": "multiple-choice",
+          "options": [
+            "The people chide with Moses for water",
+            "The children of Israel pitch in Rephidim",
+            "Moses cries unto the LORD for help",
+            "The LORD tells Moses to smite the rock"
+          ],
+          "correctAnswer": "The children of Israel pitch in Rephidim",
+          "explanation": "Exodus 17:1 states that the congregation pitched in Rephidim before the people chided Moses or any other event.",
+          "verseReference": "Exodus 17:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-17-easy-q2",
+          "question": "Where did the children of Israel pitch their tents according to Exodus 17?",
           "type": "multiple-choice",
           "options": [
             "Rephidim",
@@ -22,212 +37,195 @@
             "Egypt"
           ],
           "correctAnswer": "Rephidim",
-          "explanation": "Exodus 17:1 states that the children of Israel pitched in Rephidim where there was no water for the people to drink.",
+          "explanation": "Exodus 17:1 clearly states that the children of Israel pitched in Rephidim.",
           "verseReference": "Exodus 17:1",
           "difficulty": "easy"
         },
         {
-          "id": "exodus-17-easy-q2",
-          "question": "Who did the people chide when they had no water to drink?",
-          "type": "multiple-choice",
-          "options": [
-            "Moses",
-            "Aaron",
-            "Joshua",
-            "Pharaoh"
-          ],
-          "correctAnswer": "Moses",
-          "explanation": "Exodus 17:2 states that the people chided Moses and asked him to give them water to drink.",
-          "verseReference": "Exodus 17:2",
-          "difficulty": "easy"
-        },
-        {
           "id": "exodus-17-easy-q3",
-          "question": "What did Moses say when the people chided him for the lack of water?",
+          "question": "What complaint did the people have against Moses in Exodus 17?",
           "type": "multiple-choice",
           "options": [
-            "Why chide ye with me? wherefore do ye tempt the LORD?",
-            "I will bring you water soon.",
-            "Pray to God for water.",
-            "We must move on to find water."
+            "Give us water that we may drink",
+            "Lead us back to Egypt",
+            "Make us bread",
+            "Fight the Amalekites"
           ],
-          "correctAnswer": "Why chide ye with me? wherefore do ye tempt the LORD?",
-          "explanation": "Exodus 17:2 records Moses replying to the people, 'Why chide ye with me? wherefore do ye tempt the LORD?'",
+          "correctAnswer": "Give us water that we may drink",
+          "explanation": "Exodus 17:2 records the people chiding Moses to give them water to drink.",
           "verseReference": "Exodus 17:2",
           "difficulty": "easy"
         },
         {
           "id": "exodus-17-easy-q4",
-          "question": "What did the people say about being brought out of Egypt?",
+          "question": "How did Moses respond when the people chided him for water?",
           "type": "multiple-choice",
           "options": [
-            "To kill us and our children and our cattle with thirst",
-            "To find the promised land",
-            "To worship the LORD",
-            "To escape Pharaoh's army"
+            "Why chide ye with me? wherefore do ye tempt the LORD?",
+            "I will bring water from the river",
+            "We must continue our journey",
+            "Pray to the LORD for water"
           ],
-          "correctAnswer": "To kill us and our children and our cattle with thirst",
-          "explanation": "Exodus 17:3 records the people murmuring against Moses, questioning why he brought them out of Egypt to kill them with thirst.",
-          "verseReference": "Exodus 17:3",
+          "correctAnswer": "Why chide ye with me? wherefore do ye tempt the LORD?",
+          "explanation": "Exodus 17:2 records Moses' response asking why they chide him and tempt the LORD.",
+          "verseReference": "Exodus 17:2",
           "difficulty": "easy"
         },
         {
           "id": "exodus-17-easy-q5",
-          "question": "Who did Moses cry unto for help when the people were almost ready to stone him?",
+          "question": "What did the people say Moses had brought them out of Egypt to do?",
           "type": "multiple-choice",
           "options": [
-            "The LORD",
-            "Aaron",
-            "Joshua",
-            "The elders of Israel"
+            "To kill us and our children and our cattle with thirst",
+            "To give us the promised land",
+            "To build a tabernacle",
+            "To receive manna from heaven"
           ],
-          "correctAnswer": "The LORD",
-          "explanation": "Exodus 17:4 states that Moses cried unto the LORD for guidance when the people were about to stone him.",
-          "verseReference": "Exodus 17:4",
+          "correctAnswer": "To kill us and our children and our cattle with thirst",
+          "explanation": "Exodus 17:3 shows the people murmuring that Moses brought them out of Egypt to kill them and their children and cattle with thirst.",
+          "verseReference": "Exodus 17:3",
           "difficulty": "easy"
         },
         {
           "id": "exodus-17-easy-q6",
-          "question": "What was Moses instructed to do to get water for the people?",
+          "question": "What did Moses say to the LORD when the people were about to stone him?",
           "type": "multiple-choice",
           "options": [
-            "Smite the rock in Horeb with his rod",
-            "Dig a well in the wilderness",
-            "Ask Pharaoh for water",
-            "Lead the people to a river"
+            "What shall I do unto this people? they be almost ready to stone me",
+            "The people have no faith",
+            "I will smite the rock for water",
+            "Lead me to the promised land"
           ],
-          "correctAnswer": "Smite the rock in Horeb with his rod",
-          "explanation": "Exodus 17:6 states that God told Moses to smite the rock in Horeb so water would come out for the people to drink.",
-          "verseReference": "Exodus 17:6",
+          "correctAnswer": "What shall I do unto this people? they be almost ready to stone me",
+          "explanation": "Exodus 17:4 records Moses crying unto the LORD asking what he should do because the people were almost ready to stone him.",
+          "verseReference": "Exodus 17:4",
           "difficulty": "easy"
         },
         {
           "id": "exodus-17-easy-q7",
-          "question": "What names were given to the place because of the children of Israel's chiding and tempting the LORD?",
+          "question": "Who did the LORD tell Moses to take with him before the people?",
           "type": "multiple-choice",
           "options": [
-            "Massah and Meribah",
-            "Rephidim and Horeb",
-            "Sin and Egypt",
-            "Jehovahnissi and Sinai"
+            "The elders of Israel",
+            "The priests",
+            "The Levites",
+            "The youngest men"
           ],
-          "correctAnswer": "Massah and Meribah",
-          "explanation": "Exodus 17:7 states that the place was called Massah and Meribah due to the chiding of the Israelites and their temptation of the LORD.",
-          "verseReference": "Exodus 17:7",
+          "correctAnswer": "The elders of Israel",
+          "explanation": "Exodus 17:5 instructs Moses to take the elders of Israel with him before the people.",
+          "verseReference": "Exodus 17:5",
           "difficulty": "easy"
         },
         {
           "id": "exodus-17-easy-q8",
-          "question": "Who came to fight against Israel at Rephidim?",
+          "question": "What was Moses commanded to take in his hand when going before the people?",
           "type": "multiple-choice",
           "options": [
-            "Amalek",
-            "Philistines",
-            "Edomites",
-            "Canaanites"
+            "Thy rod, wherewith thou smotest the river",
+            "A sword",
+            "A pitcher of water",
+            "A staff of almonds"
           ],
-          "correctAnswer": "Amalek",
-          "explanation": "Exodus 17:8 records that Amalek came and fought with Israel at Rephidim.",
-          "verseReference": "Exodus 17:8",
+          "correctAnswer": "Thy rod, wherewith thou smotest the river",
+          "explanation": "Exodus 17:5 commands Moses to take his rod, with which he had smitten the river, in his hand.",
+          "verseReference": "Exodus 17:5",
           "difficulty": "easy"
         },
         {
           "id": "exodus-17-easy-q9",
-          "question": "Who did Moses tell to choose men and fight Amalek?",
+          "question": "Where did the LORD say He would stand before Moses?",
           "type": "multiple-choice",
           "options": [
-            "Joshua",
-            "Aaron",
-            "Hur",
-            "Phinehas"
+            "Upon the rock in Horeb",
+            "On the mountain of Sinai",
+            "By the Red Sea",
+            "In the wilderness of Sin"
           ],
-          "correctAnswer": "Joshua",
-          "explanation": "Exodus 17:9 states that Moses told Joshua to choose men to go out and fight Amalek.",
-          "verseReference": "Exodus 17:9",
+          "correctAnswer": "Upon the rock in Horeb",
+          "explanation": "Exodus 17:6 states that the LORD would stand before Moses upon the rock in Horeb.",
+          "verseReference": "Exodus 17:6",
           "difficulty": "easy"
         },
         {
           "id": "exodus-17-easy-q10",
-          "question": "What did Moses hold in his hand while standing on the hill during the battle?",
+          "question": "What was Moses to do to the rock to provide water for the people?",
           "type": "multiple-choice",
           "options": [
-            "The rod of God",
-            "A sword",
-            "A shield",
-            "A trumpet"
+            "Smite the rock",
+            "Pour oil on the rock",
+            "Speak to the rock",
+            "Build an altar on the rock"
           ],
-          "correctAnswer": "The rod of God",
-          "explanation": "Exodus 17:9 mentions Moses standing on the hill with the rod of God in his hand during the battle.",
-          "verseReference": "Exodus 17:9",
+          "correctAnswer": "Smite the rock",
+          "explanation": "Exodus 17:6 instructs Moses to smite the rock so that water would come out for the people to drink.",
+          "verseReference": "Exodus 17:6",
           "difficulty": "easy"
         },
         {
           "id": "exodus-17-easy-q11",
-          "question": "True or False: When Moses held up his hands, Amalek prevailed in battle.",
+          "question": "What happened after Moses smote the rock according to Exodus 17?",
+          "type": "multiple-choice",
+          "options": [
+            "Water came out of the rock for the people to drink",
+            "The rock split into two",
+            "The LORD appeared in a cloud",
+            "The people sang songs of praise"
+          ],
+          "correctAnswer": "Water came out of the rock for the people to drink",
+          "explanation": "Exodus 17:6 says that when Moses smote the rock, water came out and the people drank.",
+          "verseReference": "Exodus 17:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-17-easy-q12",
+          "question": "True or False: The people of Israel journeyed from the wilderness of Sin before arriving at Rephidim.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Exodus 17:1 states that the children of Israel journeyed from the wilderness of Sin before pitching in Rephidim.",
+          "verseReference": "Exodus 17:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-17-easy-q13",
+          "question": "True or False: Moses took the elders of Israel and his rod with him as commanded by the LORD.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Exodus 17:5-6 shows Moses taking the elders and his rod as the LORD commanded.",
+          "verseReference": "Exodus 17:5-6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-17-easy-q14",
+          "question": "True or False: The text says that Moses poured water on the rock to provide for the people.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Exodus 17:11 says when Moses held up his hand, Israel prevailed; when he let down his hand, Amalek prevailed.",
-          "verseReference": "Exodus 17:11",
-          "difficulty": "easy"
-        },
-        {
-          "id": "exodus-17-easy-q12",
-          "question": "True or False: Aaron and Hur helped Moses by supporting his hands during the battle.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Exodus 17:12 states that Aaron and Hur held up Moses' hands so they would remain steady until sunset.",
-          "verseReference": "Exodus 17:12",
-          "difficulty": "easy"
-        },
-        {
-          "id": "exodus-17-easy-q13",
-          "question": "True or False: Joshua defeated Amalek and his people with the edge of the sword.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Exodus 17:13 confirms Joshua discomfited Amalek and his people with the sword.",
-          "verseReference": "Exodus 17:13",
-          "difficulty": "easy"
-        },
-        {
-          "id": "exodus-17-easy-q14",
-          "question": "Complete the name Moses gave to the altar he built: Jehovah______.",
-          "type": "fill-blank",
-          "options": [
-            "nissi",
-            "shalom",
-            "rapha",
-            "jireh"
-          ],
-          "correctAnswer": "nissi",
-          "explanation": "Exodus 17:15 states Moses built an altar and called it Jehovahnissi.",
-          "verseReference": "Exodus 17:15",
+          "explanation": "Exodus 17:6 states that Moses smote the rock, not that he poured water on it.",
+          "verseReference": "Exodus 17:6",
           "difficulty": "easy"
         },
         {
           "id": "exodus-17-easy-q15",
-          "question": "Why did Moses name the altar Jehovahnissi?",
-          "type": "multiple-choice",
+          "question": "True or False: The people praised Moses loudly after water came from the rock.",
+          "type": "true-false",
           "options": [
-            "Because the LORD hath sworn that the LORD will have war with Amalek from generation to generation",
-            "Because the LORD provided water from the rock",
-            "Because the LORD healed the people",
-            "Because the LORD gave them manna"
+            "True",
+            "False"
           ],
-          "correctAnswer": "Because the LORD hath sworn that the LORD will have war with Amalek from generation to generation",
-          "explanation": "Exodus 17:16 explains Moses named the altar Jehovahnissi because the LORD vowed to war with Amalek from generation to generation.",
-          "verseReference": "Exodus 17:16",
+          "correctAnswer": "False",
+          "explanation": "The text in Exodus 17 does not mention the people praising Moses after the water came out of the rock.",
+          "verseReference": "Exodus 17:1-6",
           "difficulty": "easy"
         }
       ],
@@ -254,238 +252,221 @@
       "questions": [
         {
           "id": "exodus-17-medium-q1",
-          "question": "A fellow believer is struggling with doubt about God's presence during hardships. Based on Exodus 17, what biblical truth would you share?",
+          "question": "What did Moses hold in his hand while standing on the hill during the battle with Amalek?",
           "type": "multiple-choice",
           "options": [
-            "God provides for our needs even when circumstances seem impossible",
-            "We must rely solely on our own strength to overcome trials",
-            "God's presence is uncertain and must be earned",
-            "Doubt is a sign that God has abandoned us"
+            "A sword",
+            "The rod of God",
+            "A shield",
+            "A staff"
           ],
-          "correctAnswer": "God provides for our needs even when circumstances seem impossible",
-          "explanation": "Exodus 17:1-7 shows that despite the lack of water and the people's doubts, God instructed Moses to strike the rock, providing water. This demonstrates God's faithful provision and presence in trials.",
-          "verseReference": "Exodus 17:6",
+          "correctAnswer": "The rod of God",
+          "explanation": "Moses held the rod of God in his hand as stated in Exodus 17:9.",
+          "verseReference": "Exodus 17:9",
           "difficulty": "medium"
         },
         {
           "id": "exodus-17-medium-q2",
-          "question": "How does Exodus 17 teach us about perseverance in prayer during difficult times?",
+          "question": "What does Exodus 17:6 promise will happen if someone smites the rock as commanded in Exodus 17:5?",
           "type": "multiple-choice",
           "options": [
-            "Moses prayed continuously and sought God's guidance despite the people's complaints",
-            "Prayer is only necessary when things are going well",
-            "One prayer is enough to solve all problems immediately",
-            "We should give up praying if answers don't come quickly"
+            "Water will come out of the rock",
+            "The people will be angry",
+            "Moses will be blessed",
+            "The elders will rejoice"
           ],
-          "correctAnswer": "Moses prayed continuously and sought God's guidance despite the people's complaints",
-          "explanation": "In Exodus 17:4-5, Moses cried unto the LORD for help when the people were ready to stone him, showing perseverance and dependence on God in prayer amidst trials.",
-          "verseReference": "Exodus 17:4-5",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-17-medium-q3",
-          "question": "A believer is experiencing discouragement because of opposition. Based on Exodus 17, what principle about spiritual leadership and support can you share?",
-          "type": "multiple-choice",
-          "options": [
-            "Leaders need the support of others to carry out God's work effectively",
-            "Leaders must handle struggles entirely alone",
-            "Opposition means God has rejected the leader",
-            "Support weakens spiritual leadership"
-          ],
-          "correctAnswer": "Leaders need the support of others to carry out God's work effectively",
-          "explanation": "Exodus 17:11-12 describes how Aaron and Hur supported Moses’ hands during the battle against Amalek so that Israel would prevail, illustrating the importance of mutual support in spiritual leadership.",
-          "verseReference": "Exodus 17:11-12",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-17-medium-q4",
-          "question": "How does the battle against Amalek in Exodus 17 teach us about the power of faith and obedience in spiritual warfare?",
-          "type": "multiple-choice",
-          "options": [
-            "Faith and obedience, symbolized by Moses holding up the rod of God, lead to victory",
-            "Victory depends on the number of soldiers alone",
-            "Spiritual warfare is not necessary for believers",
-            "Obedience is irrelevant in battle outcomes"
-          ],
-          "correctAnswer": "Faith and obedience, symbolized by Moses holding up the rod of God, lead to victory",
-          "explanation": "Exodus 17:9-11 shows that Israel prevailed when Moses held up the rod of God, demonstrating that faith, obedience, and dependence on God are crucial in spiritual battles.",
-          "verseReference": "Exodus 17:9-11",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-17-medium-q5",
-          "question": "A believer is questioning God’s provision during scarcity. What does Exodus 17 teach about trusting God's provision?",
-          "type": "multiple-choice",
-          "options": [
-            "God will provide what is needed even in scarcity, as water came from the rock",
-            "Scarcity means God is punishing us",
-            "We should only trust in our own resources",
-            "God’s provision is limited to material wealth"
-          ],
-          "correctAnswer": "God will provide what is needed even in scarcity, as water came from the rock",
-          "explanation": "In Exodus 17:6, God commands Moses to strike the rock to bring forth water, illustrating that God can provide abundantly even when resources seem absent.",
+          "correctAnswer": "Water will come out of the rock",
+          "explanation": "Exodus 17:6 states that water will come out of the rock when Moses smites it, fulfilling the promise made in Exodus 17:5.",
           "verseReference": "Exodus 17:6",
           "difficulty": "medium"
         },
         {
-          "id": "exodus-17-medium-q6",
-          "question": "How does Exodus 17 encourage believers to handle complaints and dissatisfaction within the church community?",
+          "id": "exodus-17-medium-q3",
+          "question": "What happened when Moses held up his hand during the battle?",
           "type": "multiple-choice",
           "options": [
-            "Leaders should seek God's wisdom and respond with patience and prayer",
-            "Complaints should be ignored entirely",
-            "Leaders should respond with anger",
-            "Complaints mean the church is failing"
+            "Israel prevailed",
+            "Amalek prevailed",
+            "Moses was tired",
+            "The sun stood still"
           ],
-          "correctAnswer": "Leaders should seek God's wisdom and respond with patience and prayer",
-          "explanation": "Exodus 17:2-4 reveals that though the people chided Moses, he responded by seeking God's guidance in prayer rather than reacting in anger.",
-          "verseReference": "Exodus 17:2-4",
+          "correctAnswer": "Israel prevailed",
+          "explanation": "Exodus 17:11 indicates that when Moses held up his hand, Israel prevailed against Amalek.",
+          "verseReference": "Exodus 17:11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-17-medium-q4",
+          "question": "What does Exodus 17:10 indicate about Joshua's actions?",
+          "type": "multiple-choice",
+          "options": [
+            "He led the people to water",
+            "He fought against Amalek",
+            "He refused to fight",
+            "He went to speak with Moses"
+          ],
+          "correctAnswer": "He fought against Amalek",
+          "explanation": "Exodus 17:10 shows that Joshua did as Moses instructed and fought with Amalek.",
+          "verseReference": "Exodus 17:10",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-17-medium-q5",
+          "question": "What did the people of Israel do when they were thirsty in Rephidim?",
+          "type": "multiple-choice",
+          "options": [
+            "They prayed",
+            "They chided with Moses",
+            "They went to find water",
+            "They praised the Lord"
+          ],
+          "correctAnswer": "They chided with Moses",
+          "explanation": "Exodus 17:2 states that the people did chide with Moses because they were thirsty.",
+          "verseReference": "Exodus 17:2",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-17-medium-q6",
+          "question": "What action did Aaron and Hur take to help Moses during the battle?",
+          "type": "multiple-choice",
+          "options": [
+            "They fought alongside Joshua",
+            "They prayed for victory",
+            "They held up his hands",
+            "They gave him water"
+          ],
+          "correctAnswer": "They held up his hands",
+          "explanation": "According to Exodus 17:12, Aaron and Hur stayed up Moses' hands to help him during the battle.",
+          "verseReference": "Exodus 17:12",
           "difficulty": "medium"
         },
         {
           "id": "exodus-17-medium-q7",
-          "question": "What does the naming of the place Massah and Meribah in Exodus 17 teach about remembering God's faithfulness?",
+          "question": "Why did Moses cry out to the Lord in Exodus 17:4?",
           "type": "multiple-choice",
           "options": [
-            "Remembering God’s provision strengthens faith and trust in Him",
-            "We should forget past struggles and only focus on the future",
-            "Names have no spiritual significance",
-            "Doubt should be permanently commemorated"
+            "Because the people were singing",
+            "Because they were ready to stone him",
+            "Because he was thirsty",
+            "Because he lost the battle"
           ],
-          "correctAnswer": "Remembering God’s provision strengthens faith and trust in Him",
-          "explanation": "Exodus 17:7 explains that the place was named Massah and Meribah to remember the testing of God and His provision of water, encouraging faith and trust.",
-          "verseReference": "Exodus 17:7",
+          "correctAnswer": "Because they were ready to stone him",
+          "explanation": "Exodus 17:4 explains Moses cried out to the Lord because the people were almost ready to stone him due to their thirst.",
+          "verseReference": "Exodus 17:4",
           "difficulty": "medium"
         },
         {
           "id": "exodus-17-medium-q8",
-          "question": "True or False: According to Exodus 17, Moses acted independently without consulting God when dealing with the people's thirst.",
-          "type": "true-false",
+          "question": "How did Moses respond to the chiding of the children of Israel in Exodus 17:2?",
+          "type": "multiple-choice",
           "options": [
-            "True",
-            "False"
+            "He ignored them",
+            "He asked why they were tempting the Lord",
+            "He gave them water",
+            "He led them back to Egypt"
           ],
-          "correctAnswer": "False",
-          "explanation": "Moses cried unto the LORD for guidance (Exodus 17:4) and followed God’s instructions to strike the rock (Exodus 17:5-6), showing reliance on God rather than independent action.",
-          "verseReference": "Exodus 17:4-6",
+          "correctAnswer": "He asked why they were tempting the Lord",
+          "explanation": "In Exodus 17:2, Moses responds to the people by asking why they chide with him and tempt the Lord.",
+          "verseReference": "Exodus 17:2",
           "difficulty": "medium"
         },
         {
           "id": "exodus-17-medium-q9",
-          "question": "True or False: The LORD promised to completely erase the memory of Amalek because of their opposition to Israel.",
+          "question": "What was the name given to the place where the children of Israel tempted the Lord?",
+          "type": "multiple-choice",
+          "options": [
+            "Rephidim",
+            "Massah and Meribah",
+            "Horeb",
+            "Egypt"
+          ],
+          "correctAnswer": "Massah and Meribah",
+          "explanation": "Exodus 17:7 states that the name of the place was called Massah and Meribah because of the chiding of the children of Israel.",
+          "verseReference": "Exodus 17:7",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-17-medium-q10",
+          "question": "What did the Lord instruct Moses to take with him to the rock in Exodus 17:5?",
+          "type": "multiple-choice",
+          "options": [
+            "The elders of Israel and his rod",
+            "A sword and a shield",
+            "A stone and water",
+            "His staff and a map"
+          ],
+          "correctAnswer": "The elders of Israel and his rod",
+          "explanation": "Exodus 17:5 instructs Moses to take with him the elders of Israel and his rod to the rock.",
+          "verseReference": "Exodus 17:5",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-17-medium-q11",
+          "question": "What does the steady holding up of Moses' hands represent in a spiritual context?",
+          "type": "multiple-choice",
+          "options": [
+            "The power of prayer",
+            "The importance of leadership",
+            "The need for rest",
+            "The victory of Israel"
+          ],
+          "correctAnswer": "The power of prayer",
+          "explanation": "The act of holding up Moses' hands can symbolize the power of prayer and support during difficult times, as seen in Exodus 17:11.",
+          "verseReference": "Exodus 17:11",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-17-medium-q12",
+          "question": "When did Moses' hands become heavy during the battle?",
+          "type": "multiple-choice",
+          "options": [
+            "At the beginning",
+            "When he was tired",
+            "When he let them down",
+            "When he was praying"
+          ],
+          "correctAnswer": "When he was tired",
+          "explanation": "Exodus 17:12 states that Moses' hands became heavy, prompting Aaron and Hur to help him.",
+          "verseReference": "Exodus 17:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-17-medium-q13",
+          "question": "True or False: The people of Israel were grateful for the water provided by Moses.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "In Exodus 17:14, God commands Moses to write that He will utterly put out the remembrance of Amalek from under heaven due to their hostility against Israel.",
-          "verseReference": "Exodus 17:14",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-17-medium-q10",
-          "question": "How does the cooperation between Moses, Aaron, and Hur in Exodus 17 teach about teamwork in serving the church?",
-          "type": "multiple-choice",
-          "options": [
-            "Teamwork helps sustain spiritual leadership and ensures success",
-            "Individual effort is always better than teamwork",
-            "Leaders should avoid relying on others",
-            "Teamwork is unnecessary in spiritual matters"
-          ],
-          "correctAnswer": "Teamwork helps sustain spiritual leadership and ensures success",
-          "explanation": "Exodus 17:12 shows Aaron and Hur supporting Moses' hands so that Israel could win the battle, illustrating the importance of teamwork in ministry.",
-          "verseReference": "Exodus 17:12",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-17-medium-q11",
-          "question": "A believer is feeling overwhelmed by ongoing trials. Based on Exodus 17, what practical advice about perseverance and faith would you offer?",
-          "type": "multiple-choice",
-          "options": [
-            "Continue to trust and obey God, knowing He will provide and empower you to overcome",
-            "Give up when trials last too long",
-            "Try to solve problems without involving God",
-            "Ignore the trials and hope they go away"
-          ],
-          "correctAnswer": "Continue to trust and obey God, knowing He will provide and empower you to overcome",
-          "explanation": "Exodus 17 demonstrates that though Israel faced thirst and attack, faith in God's provision and obedience (striking the rock, raising the rod) led to victory and sustenance (verses 6, 11).",
-          "verseReference": "Exodus 17:6, 11",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-17-medium-q12",
-          "question": "Fill in the blank: Moses built an altar and called it ________, meaning 'The LORD is my banner,' to commemorate God's victory over Amalek.",
-          "type": "fill-in-the-blank",
-          "options": [
-            "Jehovahnissi",
-            "Bethel",
-            "Shiloh",
-            "Zion"
-          ],
-          "correctAnswer": "Jehovahnissi",
-          "explanation": "Exodus 17:15 explains that Moses named the altar Jehovahnissi to remember God's promise and victory over Amalek.",
-          "verseReference": "Exodus 17:15",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-17-medium-q13",
-          "question": "What does the interaction between Moses and the people in Exodus 17 teach about handling complaints with humility and truth?",
-          "type": "multiple-choice",
-          "options": [
-            "Respond with calmness and remind them of God's faithfulness",
-            "Retaliate harshly against complainers",
-            "Ignore the complaints completely",
-            "Agree with all complaints to avoid conflict"
-          ],
-          "correctAnswer": "Respond with calmness and remind them of God's faithfulness",
-          "explanation": "Moses questioned the people's complaints and reminded them not to tempt the LORD (Exodus 17:2-3), showing a calm but truthful response grounded in faith.",
-          "verseReference": "Exodus 17:2-3",
+          "explanation": "True, as providing water was a necessity for their survival, and it was ultimately provided by the Lord through Moses.",
+          "verseReference": "Exodus 17:6",
           "difficulty": "medium"
         },
         {
           "id": "exodus-17-medium-q14",
-          "question": "How does Exodus 17 illustrate the importance of obedience to God's commands in daily life?",
-          "type": "multiple-choice",
+          "question": "True or False: Amalek attacked Israel after they received water in Rephidim.",
+          "type": "true-false",
           "options": [
-            "Obedience leads to God's provision and victory, as Moses obeyed God's instruction to strike the rock",
-            "Obedience is optional and has no consequences",
-            "Disobedience is rewarded",
-            "God does not require obedience"
+            "True",
+            "False"
           ],
-          "correctAnswer": "Obedience leads to God's provision and victory, as Moses obeyed God's instruction to strike the rock",
-          "explanation": "Exodus 17:5-6 shows Moses obeying God's command to strike the rock, resulting in water for the people, highlighting the blessings of obedience.",
-          "verseReference": "Exodus 17:5-6",
+          "correctAnswer": "False",
+          "explanation": "False, Amalek attacked Israel before they received water, as indicated in Exodus 17:8.",
+          "verseReference": "Exodus 17:8",
           "difficulty": "medium"
         },
         {
           "id": "exodus-17-medium-q15",
-          "question": "What does Exodus 17 teach about trusting God's timing and methods in resolving challenges?",
-          "type": "multiple-choice",
+          "question": "True or False: Moses was instructed to go before the people to find water.",
+          "type": "true-false",
           "options": [
-            "God’s timing and methods may differ from our expectations but are perfect and effective",
-            "God always acts immediately in the ways we expect",
-            "We should dictate how God solves our problems",
-            "Challenges resolve only through human effort"
+            "True",
+            "False"
           ],
-          "correctAnswer": "God’s timing and methods may differ from our expectations but are perfect and effective",
-          "explanation": "God directed Moses to strike the rock and to raise his hands during battle (Exodus 17:6, 9-11), showing that God’s ways may surprise us but are effective.",
-          "verseReference": "Exodus 17:6, 9-11",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-17-medium-q16",
-          "question": "How does the battle with Amalek in Exodus 17 emphasize the role of intercession and prayer in spiritual victories?",
-          "type": "multiple-choice",
-          "options": [
-            "Moses’ raised hands symbolized intercession, and when they were lifted, Israel prevailed",
-            "Prayer has no effect on battles",
-            "Victory depends only on military strength",
-            "Intercession is unnecessary"
-          ],
-          "correctAnswer": "Moses’ raised hands symbolized intercession, and when they were lifted, Israel prevailed",
-          "explanation": "Exodus 17:11 records that when Moses held up his hands in prayer, Israel prevailed against Amalek, highlighting prayer’s power in spiritual battles.",
-          "verseReference": "Exodus 17:11",
+          "correctAnswer": "False",
+          "explanation": "False, Moses was instructed to go before the people to smite the rock for water, not to find it himself, as stated in Exodus 17:5.",
+          "verseReference": "Exodus 17:5",
           "difficulty": "medium"
         }
       ],
@@ -499,7 +480,7 @@
         "bible-quiz",
         "medium"
       ],
-      "totalQuestions": 16,
+      "totalQuestions": 15,
       "estimatedTime": 12
     },
     "hard": {
@@ -512,238 +493,225 @@
       "questions": [
         {
           "id": "exodus-17-hard-q1",
-          "question": "What is the significance of the place named Massah and Meribah in Exodus 17, and how does it relate to Israel's relationship with God?",
+          "question": "According to Exodus 17:13, who discomfited Amalek and his people?",
           "type": "multiple-choice",
           "options": [
-            "It marks the location where Israel first tested and quarreled with the LORD, questioning His presence among them.",
-            "It is the site where the Israelites defeated Amalek through divine intervention.",
-            "It is the place where Moses received the Ten Commandments.",
-            "It commemorates the first covenant between God and Israel."
+            "Joshua",
+            "Moses",
+            "Aaron",
+            "Hur"
           ],
-          "correctAnswer": "It marks the location where Israel first tested and quarreled with the LORD, questioning His presence among them.",
-          "explanation": "Exodus 17:7 states that the place was named Massah and Meribah because of the chiding and tempting of the LORD by the Israelites, questioning if the LORD was among them.",
-          "verseReference": "Exodus 17:7",
+          "correctAnswer": "Joshua",
+          "explanation": "Exodus 17:13 states that Joshua discomfited Amalek and his people with the edge of the sword.",
+          "verseReference": "Exodus 17:13",
           "difficulty": "hard"
         },
         {
           "id": "exodus-17-hard-q2",
-          "question": "In the narrative of Exodus 17, what is the theological implication of Moses striking the rock to bring forth water?",
+          "question": "In Exodus 17:14, what did the LORD command Moses to do as a memorial regarding Amalek?",
           "type": "multiple-choice",
           "options": [
-            "It prefigures Christ as the living water and God's provision through unexpected means.",
-            "It symbolizes the establishment of Israel's monarchy.",
-            "It signifies the beginning of the priestly duties of Moses.",
-            "It represents Israel’s rejection of God's law."
+            "Write this for a memorial in a book, and rehearse it in the ears of Joshua",
+            "Build an altar and offer sacrifices",
+            "Anoint Joshua as leader of Israel",
+            "Gather the elders of Israel for counsel"
           ],
-          "correctAnswer": "It prefigures Christ as the living water and God's provision through unexpected means.",
-          "explanation": "In Exodus 17:6, Moses strikes the rock to bring water, symbolizing God's provision of life-sustaining water in a dry place, a typology often connected to Christ as the source of living water in John 4:10-14.",
-          "verseReference": "Exodus 17:6",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-17-hard-q3",
-          "question": "Why did Moses instruct Joshua to choose men to fight Amalek, and what does this illustrate about leadership in ancient Israel?",
-          "type": "multiple-choice",
-          "options": [
-            "Because Moses combined military leadership with spiritual intercession, delegating battle command to Joshua.",
-            "Because Moses was too old to fight and wanted to retire.",
-            "Because Joshua was the only warrior available among the Israelites.",
-            "Because the LORD commanded the Israelites to appoint a king before battle."
-          ],
-          "correctAnswer": "Because Moses combined military leadership with spiritual intercession, delegating battle command to Joshua.",
-          "explanation": "Exodus 17:9 shows Moses delegating the military fight to Joshua, while Moses himself performs a spiritual role, demonstrating a dual leadership model combining physical and spiritual responsibilities.",
-          "verseReference": "Exodus 17:9",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-17-hard-q4",
-          "question": "What is the literary device used in Exodus 17:11 where Moses' raised hands correspond with Israel's success in battle, and what is its significance?",
-          "type": "multiple-choice",
-          "options": [
-            "Chiasm, highlighting the interdependence between divine support and human effort.",
-            "Parallelism, emphasizing the repetition of actions.",
-            "Anthropomorphism, attributing human traits to God.",
-            "Hyperbole, exaggerating the effect of Moses’ hands."
-          ],
-          "correctAnswer": "Chiasm, highlighting the interdependence between divine support and human effort.",
-          "explanation": "Exodus 17:11 forms a chiastic structure where Moses' raised hands symbolize divine favor leading to Israel’s victory, illustrating the balance of God's power and human participation.",
-          "verseReference": "Exodus 17:11",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-17-hard-q5",
-          "question": "How does the act of Aaron and Hur supporting Moses' hands during the battle relate to ancient Near Eastern cultural values?",
-          "type": "multiple-choice",
-          "options": [
-            "It exemplifies communal responsibility and the importance of intercessory support.",
-            "It reflects the hierarchy of priestly authority over military leaders.",
-            "It demonstrates the rejection of physical weakness in leadership.",
-            "It signifies the beginning of hereditary priesthood among Israelites."
-          ],
-          "correctAnswer": "It exemplifies communal responsibility and the importance of intercessory support.",
-          "explanation": "Exodus 17:12 shows Aaron and Hur helping Moses, reflecting ancient Near Eastern values of solidarity and mutual support during critical moments.",
-          "verseReference": "Exodus 17:12",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-17-hard-q6",
-          "question": "What is the significance of the altar named Jehovahnissi built by Moses after the victory over Amalek?",
-          "type": "multiple-choice",
-          "options": [
-            "It means 'The LORD is my banner,' symbolizing God's leadership and victory in battle.",
-            "It means 'The LORD is my judge,' highlighting divine justice.",
-            "It means 'The LORD is my refuge,' indicating protection.",
-            "It means 'The LORD is my shepherd,' showing guidance."
-          ],
-          "correctAnswer": "It means 'The LORD is my banner,' symbolizing God's leadership and victory in battle.",
-          "explanation": "Exodus 17:15 shows Moses naming the altar Jehovahnissi, meaning 'The LORD is my banner,' signifying God's role as the rallying point and protector in Israel’s warfare.",
-          "verseReference": "Exodus 17:15",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-17-hard-q7",
-          "question": "True or False: The conflict with Amalek in Exodus 17 anticipates the recurring struggle between good and evil throughout the Bible.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Exodus 17:16 indicates that the LORD will have war with Amalek from generation to generation, symbolizing the ongoing spiritual conflict between God's people and evil forces.",
-          "verseReference": "Exodus 17:16",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-17-hard-q8",
-          "question": "What is the meaning of the Hebrew word 'Meribah' as used in this chapter, and why is it important for understanding Israel's faith journey?",
-          "type": "multiple-choice",
-          "options": [
-            "'Strife' or 'quarreling,' highlighting Israel's testing of God's patience.",
-            "'Peace,' indicating reconciliation with God.",
-            "'Sanctuary,' designating a holy place.",
-            "'Victory,' celebrating conquest over enemies."
-          ],
-          "correctAnswer": "'Strife' or 'quarreling,' highlighting Israel's testing of God's patience.",
-          "explanation": "The name Meribah, from Exodus 17:7, means 'quarreling' or 'strife,' reflecting Israel’s contentious attitude toward God during the water shortage.",
-          "verseReference": "Exodus 17:7",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-17-hard-q9",
-          "question": "How does Moses’ question to the LORD in Exodus 17:4 reflect the burden of prophetic leadership in the Old Testament?",
-          "type": "multiple-choice",
-          "options": [
-            "It reveals the prophet’s role as intercessor facing opposition from the people.",
-            "It shows Moses doubting God’s promises.",
-            "It indicates Moses’ desire to abandon his mission.",
-            "It reflects a legal dispute between leaders."
-          ],
-          "correctAnswer": "It reveals the prophet’s role as intercessor facing opposition from the people.",
-          "explanation": "In Exodus 17:4, Moses cries out to God because the people are ready to stone him, illustrating the prophet’s difficult role mediating between God and a rebellious community.",
-          "verseReference": "Exodus 17:4",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-17-hard-q10",
-          "question": "What does the LORD’s command to Moses to take his rod, which he used to smite the river, signify in the context of Exodus 17:5?",
-          "type": "multiple-choice",
-          "options": [
-            "It symbolizes continuity of divine power and authority from the Nile to the rock at Horeb.",
-            "It signifies that Moses should fight Amalek with the rod.",
-            "It means Moses should perform a new miracle unrelated to water.",
-            "It represents the transfer of priestly authority to Joshua."
-          ],
-          "correctAnswer": "It symbolizes continuity of divine power and authority from the Nile to the rock at Horeb.",
-          "explanation": "Exodus 17:5 refers to the rod with which Moses smote the river (Nile), symbolizing God's ongoing power to provide and save, now demonstrated by bringing water from the rock.",
-          "verseReference": "Exodus 17:5",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-17-hard-q11",
-          "question": "How does the battle against Amalek in Exodus 17:8-13 serve as a typological foreshadowing in the broader biblical narrative?",
-          "type": "multiple-choice",
-          "options": [
-            "It foreshadows the spiritual warfare Christians face, with intercessory prayer as a key element.",
-            "It predicts the fall of Israel’s monarchy.",
-            "It prefigures the destruction of Jerusalem.",
-            "It anticipates the establishment of the temple priesthood."
-          ],
-          "correctAnswer": "It foreshadows the spiritual warfare Christians face, with intercessory prayer as a key element.",
-          "explanation": "The raising of Moses' hands during battle (Exodus 17:11-12) is often interpreted as a type of intercessory prayer supporting the community, paralleling New Testament themes of spiritual warfare.",
-          "verseReference": "Exodus 17:8-13",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-17-hard-q12",
-          "question": "What is the significance of God's instruction to Moses in Exodus 17:14 to write a memorial and rehearse it in the ears of Joshua?",
-          "type": "multiple-choice",
-          "options": [
-            "It establishes a written record to ensure the remembrance of God's deliverance and the ongoing conflict with Amalek.",
-            "It commands Moses to write the Ten Commandments anew.",
-            "It signals the beginning of Israel’s legal code.",
-            "It marks the creation of the Levitical priesthood."
-          ],
-          "correctAnswer": "It establishes a written record to ensure the remembrance of God's deliverance and the ongoing conflict with Amalek.",
-          "explanation": "Exodus 17:14 instructs Moses to write this event as a memorial, emphasizing the importance of preserving divine history for future generations and confirming Joshua's leadership.",
+          "correctAnswer": "Write this for a memorial in a book, and rehearse it in the ears of Joshua",
+          "explanation": "Exodus 17:14 records the LORD telling Moses to write this for a memorial in a book and rehearse it in Joshua's ears.",
           "verseReference": "Exodus 17:14",
           "difficulty": "hard"
         },
         {
-          "id": "exodus-17-hard-q13",
-          "question": "Which theme in Exodus 17 is developed across Scripture, particularly in the Psalms and New Testament, regarding God's presence and provision?",
+          "id": "exodus-17-hard-q3",
+          "question": "What name did Moses give to the altar he built as recorded in Exodus 17:15?",
           "type": "multiple-choice",
           "options": [
-            "God as the faithful provider and protector in trials.",
-            "God as a distant judge who punishes Israel.",
-            "God as a warrior who demands human sacrifice.",
-            "God as a silent observer of human suffering."
+            "Jehovahnissi",
+            "Bethel",
+            "Gilgal",
+            "Mizpah"
           ],
-          "correctAnswer": "God as the faithful provider and protector in trials.",
-          "explanation": "The provision of water from the rock (Exodus 17:6) echoes Psalms 78:15-16 and is referenced in 1 Corinthians 10:4, underscoring God's provision and presence during hardship.",
+          "correctAnswer": "Jehovahnissi",
+          "explanation": "Exodus 17:15 states that Moses built an altar and called its name Jehovahnissi.",
+          "verseReference": "Exodus 17:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-17-hard-q4",
+          "question": "Why did Moses call the altar Jehovahnissi according to Exodus 17:16?",
+          "type": "multiple-choice",
+          "options": [
+            "Because the LORD hath sworn that the LORD will have war with Amalek from generation to generation",
+            "Because the LORD provided water from the rock",
+            "Because the LORD delivered Israel from Egypt",
+            "Because the LORD gave them manna in the wilderness"
+          ],
+          "correctAnswer": "Because the LORD hath sworn that the LORD will have war with Amalek from generation to generation",
+          "explanation": "Exodus 17:16 explains Moses' reason for naming the altar Jehovahnissi is the LORD's oath to wage war against Amalek continually.",
+          "verseReference": "Exodus 17:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-17-hard-q5",
+          "question": "What was the method Joshua used to defeat Amalek as described in Exodus 17:13?",
+          "type": "multiple-choice",
+          "options": [
+            "With the edge of the sword",
+            "With arrows",
+            "By siege",
+            "Through negotiation"
+          ],
+          "correctAnswer": "With the edge of the sword",
+          "explanation": "Exodus 17:13 specifies Joshua discomfited Amalek and his people with the edge of the sword.",
+          "verseReference": "Exodus 17:13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-17-hard-q6",
+          "question": "What does the LORD promise regarding Amalek in Exodus 17:14?",
+          "type": "multiple-choice",
+          "options": [
+            "I will utterly put out the remembrance of Amalek from under heaven",
+            "I will bless Amalek in the land",
+            "I will make Amalek a great nation",
+            "I will command Amalek to serve Israel"
+          ],
+          "correctAnswer": "I will utterly put out the remembrance of Amalek from under heaven",
+          "explanation": "Exodus 17:14 quotes the LORD promising to utterly put out the remembrance of Amalek from under heaven.",
+          "verseReference": "Exodus 17:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-17-hard-q7",
+          "question": "What does the Hebrew word 'Jehovahnissi' in Exodus 17:15 mean?",
+          "type": "multiple-choice",
+          "options": [
+            "The LORD is my banner",
+            "The LORD is my rock",
+            "The LORD is my shepherd",
+            "The LORD is my refuge"
+          ],
+          "correctAnswer": "The LORD is my banner",
+          "explanation": "Jehovahnissi (יְהוָ֥ה נִסִּ֖י) means 'The LORD is my banner,' emphasizing divine leadership and victory as found in Exodus 17:15.",
+          "verseReference": "Exodus 17:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-17-hard-q8",
+          "question": "Which literary device is prominently used in Exodus 17:11-13 with Moses' hands held up during the battle?",
+          "type": "multiple-choice",
+          "options": [
+            "Typology",
+            "Chiasmus",
+            "Parallelism",
+            "Metaphor"
+          ],
+          "correctAnswer": "Typology",
+          "explanation": "The raising of Moses' hands typologically foreshadows intercessory prayer and divine support, as seen in Exodus 17:11-13.",
+          "verseReference": "Exodus 17:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-17-hard-q9",
+          "question": "Which New Testament passage echoes the theme of intercession seen in Moses' raised hands in Exodus 17:11-12?",
+          "type": "multiple-choice",
+          "options": [
+            "Hebrews 7:25",
+            "Matthew 5:9",
+            "Romans 8:28",
+            "James 1:5"
+          ],
+          "correctAnswer": "Hebrews 7:25",
+          "explanation": "Hebrews 7:25 discusses Jesus as an intercessor continuously making intercession for the saints, paralleling Moses' intercessory role in Exodus 17:11-12.",
+          "verseReference": "Exodus 17:11-12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-17-hard-q10",
+          "question": "Which Old Testament passage connects with God's promise to utterly put out Amalek's remembrance in Exodus 17:14?",
+          "type": "multiple-choice",
+          "options": [
+            "Deuteronomy 25:17-19",
+            "Genesis 12:3",
+            "Psalm 23:4",
+            "Isaiah 53:5"
+          ],
+          "correctAnswer": "Deuteronomy 25:17-19",
+          "explanation": "Deuteronomy 25:17-19 commands Israel to blot out Amalek's memory, directly connecting with the promise in Exodus 17:14.",
+          "verseReference": "Exodus 17:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-17-hard-q11",
+          "question": "What comes immediately before Moses building the altar called Jehovahnissi in Exodus 17?",
+          "type": "multiple-choice",
+          "options": [
+            "Joshua discomfited Amalek with the sword",
+            "The people murmured for water",
+            "Moses struck the rock at Horeb",
+            "Moses lifted his hands during battle"
+          ],
+          "correctAnswer": "Joshua discomfited Amalek with the sword",
+          "explanation": "Exodus 17:13 precedes 17:15 and states Joshua defeated Amalek before Moses built the altar Jehovahnissi.",
+          "verseReference": "Exodus 17:13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-17-hard-q12",
+          "question": "Which historical-cultural context best explains the LORD's declaration of perpetual war against Amalek in Exodus 17:16?",
+          "type": "multiple-choice",
+          "options": [
+            "Amalekites were nomadic raiders threatening Israel's survival",
+            "Amalekites were peaceful traders allied with Egypt",
+            "Amalekites were descendants of Edomites",
+            "Amalekites were priests of Canaanite gods"
+          ],
+          "correctAnswer": "Amalekites were nomadic raiders threatening Israel's survival",
+          "explanation": "Exodus 17:16 reflects the ongoing conflict with Amalekites, known historically as nomadic raiders threatening Israel's existence.",
+          "verseReference": "Exodus 17:16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-17-hard-q13",
+          "question": "What typological significance does Moses' action of striking the rock in Exodus 17:6 hold in Christian theology?",
+          "type": "multiple-choice",
+          "options": [
+            "It prefigures Christ as the living water source",
+            "It symbolizes Israel's conquest of Canaan",
+            "It represents the giving of the Ten Commandments",
+            "It foreshadows the building of Solomon's temple"
+          ],
+          "correctAnswer": "It prefigures Christ as the living water source",
+          "explanation": "Exodus 17:6's striking of the rock to provide water is often seen as typology of Christ, the living water in John 4:10-14.",
           "verseReference": "Exodus 17:6",
           "difficulty": "hard"
         },
         {
           "id": "exodus-17-hard-q14",
-          "question": "True or False: The Israelites’ questioning of God's presence at Massah and Meribah reflects a failure of faith that is later addressed through covenant renewal.",
+          "question": "How does the narrative structure in Exodus 17:8-16 demonstrate an inclusio literary device?",
+          "type": "multiple-choice",
+          "options": [
+            "The battle with Amalek frames Moses' intercession and Joshua's victory",
+            "The story begins and ends with water scarcity",
+            "Moses' leadership is bracketed by the wilderness journey",
+            "The narrative parallels the story of the Red Sea crossing"
+          ],
+          "correctAnswer": "The battle with Amalek frames Moses' intercession and Joshua's victory",
+          "explanation": "Exodus 17:8-16 uses the battle with Amalek to bracket Moses' intercession (hand-raising) and Joshua's military success, forming an inclusio.",
+          "verseReference": "Exodus 17:8-16",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-17-hard-q15",
+          "question": "True or False: According to Exodus 17:16, the LORD's war with Amalek is a temporary conflict lasting only a generation.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
-          "correctAnswer": "True",
-          "explanation": "Exodus 17:7 shows the Israelites questioning if the LORD is among them, a failure of faith that is a recurring theme later addressed by covenant renewal and God's faithfulness in books like Deuteronomy.",
-          "verseReference": "Exodus 17:7",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-17-hard-q15",
-          "question": "What does the presence of elders accompanying Moses in Exodus 17:5 imply about leadership and community in ancient Israel?",
-          "type": "multiple-choice",
-          "options": [
-            "It signifies shared leadership and communal responsibility in God's guidance.",
-            "It symbolizes the exclusivity of Moses’ authority without counsel.",
-            "It indicates a formal military council preparing for battle.",
-            "It represents the establishment of a royal court."
-          ],
-          "correctAnswer": "It signifies shared leadership and communal responsibility in God's guidance.",
-          "explanation": "Exodus 17:5 shows Moses taking elders with him, which reflects the ancient Israelite model of leadership involving elders as representatives of the community.",
-          "verseReference": "Exodus 17:5",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-17-hard-q16",
-          "question": "How does the description of the Israelites’ thirst and murmuring in Exodus 17:1-3 reflect the broader theme of testing in the wilderness?",
-          "type": "multiple-choice",
-          "options": [
-            "It exemplifies the testing of Israel’s trust in God's provision during their journey.",
-            "It shows the Israelites' immediate obedience to Moses’ leadership.",
-            "It indicates the failure of God to provide for His people.",
-            "It reveals the Israelites' preparation for building the tabernacle."
-          ],
-          "correctAnswer": "It exemplifies the testing of Israel’s trust in God's provision during their journey.",
-          "explanation": "Exodus 17:1-3 narrates the people's thirst and complaints, illustrating a recurring theme of testing their faith and dependence on God in the wilderness.",
-          "verseReference": "Exodus 17:1-3",
+          "correctAnswer": "False",
+          "explanation": "Exodus 17:16 declares that the LORD will have war with Amalek from generation to generation, indicating a perpetual conflict.",
+          "verseReference": "Exodus 17:16",
           "difficulty": "hard"
         }
       ],
@@ -757,7 +725,7 @@
         "bible-quiz",
         "hard"
       ],
-      "totalQuestions": 16,
+      "totalQuestions": 15,
       "estimatedTime": 15
     },
     "theological": {
@@ -770,242 +738,227 @@
       "questions": [
         {
           "id": "exodus-17-theological-q1",
-          "question": "What does the provision of water from the rock in Horeb primarily reveal about God's nature?",
+          "question": "What doctrine does Exodus 17:2 teach about human sin?",
           "type": "multiple-choice",
           "options": [
-            "God's faithfulness to sustain His people",
-            "God's anger against Israel",
-            "God's indifference to human suffering",
-            "God's desire to punish"
+            "Humans are prone to tempt God through complaining and unbelief",
+            "Humans inherently trust God without doubt",
+            "Humans can perfectly obey God's commandments without failure",
+            "Humans do not require divine guidance in times of trial"
           ],
-          "correctAnswer": "God's faithfulness to sustain His people",
-          "explanation": "Exodus 17:6 shows God providing water miraculously, revealing His sustaining faithfulness. This is consistent with passages like Psalm 36:8, John 4:14, Isaiah 12:3, and 1 Corinthians 10:4 where God sustains and satisfies spiritual thirst.",
-          "verseReference": "Exodus 17:6",
+          "correctAnswer": "Humans are prone to tempt God through complaining and unbelief",
+          "explanation": "Exodus 17:2 shows the people chiding Moses and tempting the LORD, demonstrating human sinful unbelief and complaint in trials.",
+          "verseReference": "Exodus 17:2",
           "difficulty": "hard"
         },
         {
           "id": "exodus-17-theological-q2",
-          "question": "Why did the Israelites chide with Moses at Rephidim?",
+          "question": "What doctrine about God's providence is taught in Exodus 17:6?",
           "type": "multiple-choice",
           "options": [
-            "Because there was no water for them to drink",
-            "Because Moses wanted to fight Amalek",
-            "Because they wanted to return to Egypt",
-            "Because Moses did not lead them properly"
+            "God provides for His people’s needs supernaturally",
+            "God leaves His people to suffer without intervention",
+            "God is indifferent to human suffering",
+            "God’s provision is limited to natural means only"
           ],
-          "correctAnswer": "Because there was no water for them to drink",
-          "explanation": "Exodus 17:1-2 records the people's complaint due to lack of water, reflecting human doubt and testing of God under trial, a theme seen in Numbers 20:2-13 and Psalm 95:9-10.",
-          "verseReference": "Exodus 17:1-2",
+          "correctAnswer": "God provides for His people’s needs supernaturally",
+          "explanation": "Exodus 17:6 teaches that God commands Moses to strike the rock so water would come forth, showing God's supernatural provision.",
+          "verseReference": "Exodus 17:6",
           "difficulty": "hard"
         },
         {
           "id": "exodus-17-theological-q3",
-          "question": "What theological truth is highlighted when the people asked, 'Is the LORD among us, or not?'",
+          "question": "What doctrine does Exodus 17:14 teach about God's covenant justice?",
           "type": "multiple-choice",
           "options": [
-            "The struggle with faith and doubt in God's presence",
-            "The certainty of God's absence",
-            "The rejection of God's law",
-            "The demand for a new leader"
+            "God promises to remember and judge Amalek for their opposition",
+            "God forgets the sins of His enemies to show mercy",
+            "God allows evil to prosper indefinitely without judgment",
+            "God’s justice is delayed indefinitely without action"
           ],
-          "correctAnswer": "The struggle with faith and doubt in God's presence",
-          "explanation": "Exodus 17:7 shows Israel's wavering faith despite God's covenant presence, echoing themes in Psalm 44:24, Jeremiah 14:9, and Hebrews 11:6 about trusting God amidst doubt.",
-          "verseReference": "Exodus 17:7",
+          "correctAnswer": "God promises to remember and judge Amalek for their opposition",
+          "explanation": "Exodus 17:14 instructs Moses to write a memorial because God will utterly blot out the remembrance of Amalek, showing covenant justice against enemies.",
+          "verseReference": "Exodus 17:14",
           "difficulty": "hard"
         },
         {
           "id": "exodus-17-theological-q4",
-          "question": "Which role did Moses fulfill during the battle against Amalek?",
+          "question": "Which divine attribute does Exodus 17:5 specifically demonstrate?",
           "type": "multiple-choice",
           "options": [
-            "Intercessor and symbol of God's power",
-            "Military commander on the battlefield",
-            "Negotiator with Amalek",
-            "Defector from Israel"
+            "Sovereignty",
+            "Omniscience",
+            "Immanence",
+            "Immutability"
           ],
-          "correctAnswer": "Intercessor and symbol of God's power",
-          "explanation": "Exodus 17:9-11 shows Moses lifting the rod of God as a sign of divine intervention, symbolizing intercession, paralleling Christ as our mediator (1 Timothy 2:5), and God's power in battle (Psalm 20:7, Romans 8:34).",
-          "verseReference": "Exodus 17:9-11",
+          "correctAnswer": "Sovereignty",
+          "explanation": "Exodus 17:5 shows God’s sovereign command to Moses to lead and perform a specific action, revealing divine control over events.",
+          "verseReference": "Exodus 17:5",
           "difficulty": "hard"
         },
         {
           "id": "exodus-17-theological-q5",
-          "question": "What does the name 'Jehovahnissi' signify theologically?",
+          "question": "Which divine attribute does Exodus 17:16 specifically demonstrate?",
           "type": "multiple-choice",
           "options": [
-            "The LORD is my banner, signifying divine victory",
-            "The LORD is my judge, signifying justice",
-            "The LORD is my shepherd, signifying guidance",
-            "The LORD is my healer, signifying restoration"
+            "Covenant faithfulness",
+            "Wrath",
+            "Justice",
+            "Omnipotence"
           ],
-          "correctAnswer": "The LORD is my banner, signifying divine victory",
-          "explanation": "Exodus 17:15 indicates Moses named the altar Jehovahnissi meaning 'The LORD is my banner,' symbolizing God's victory over enemies, as echoed in Isaiah 59:19, Psalm 20:5, and Revelation 19:11.",
-          "verseReference": "Exodus 17:15",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-17-theological-q6",
-          "question": "What does the ongoing war with Amalek from generation to generation teach about spiritual conflict?",
-          "type": "multiple-choice",
-          "options": [
-            "The continuous nature of the struggle between good and evil",
-            "The inevitability of peace with enemies",
-            "The end of conflict after Moses",
-            "That war is God's ultimate goal"
-          ],
-          "correctAnswer": "The continuous nature of the struggle between good and evil",
-          "explanation": "Exodus 17:16 shows God's declaration of ongoing conflict with Amalek, typifying the enduring spiritual battle between God's people and evil, reflected in Ephesians 6:12, Revelation 12:17, and 1 Peter 5:8.",
+          "correctAnswer": "Covenant faithfulness",
+          "explanation": "Exodus 17:16 states God’s sworn war against Amalek generation to generation, revealing His faithfulness to covenant promises.",
           "verseReference": "Exodus 17:16",
           "difficulty": "hard"
         },
         {
-          "id": "exodus-17-theological-q7",
-          "question": "How does Moses' cry to the LORD in verse 4 reflect a biblical model of leadership?",
+          "id": "exodus-17-theological-q6",
+          "question": "How does the narrative of water from the rock in Exodus 17:6 prepare for New Testament themes?",
           "type": "multiple-choice",
           "options": [
-            "Intercessory dependence on God amidst challenges",
-            "Self-reliance and independence",
-            "Ignoring the people's complaints",
-            "Seeking human counsel only"
+            "It prefigures Christ as the living water who sustains spiritual life",
+            "It emphasizes Israel’s failure without water",
+            "It teaches that water is the ultimate source of life",
+            "It solely recounts an isolated wilderness event with no further connection"
           ],
-          "correctAnswer": "Intercessory dependence on God amidst challenges",
-          "explanation": "Exodus 17:4 shows Moses pleading with God for guidance, modeling faithful intercession and dependence, as seen in Nehemiah 1:4-11, Psalm 28:1, and James 5:16.",
-          "verseReference": "Exodus 17:4",
+          "correctAnswer": "It prefigures Christ as the living water who sustains spiritual life",
+          "explanation": "The water from the rock (Exodus 17:6) anticipates Christ’s offer of living water (John 4:10), sustaining believers’ spiritual life.",
+          "verseReference": "Exodus 17:6",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-17-theological-q7",
+          "question": "How does the battle against Amalek in Exodus 17:8–13 connect to the theme of spiritual warfare in Scripture?",
+          "type": "multiple-choice",
+          "options": [
+            "It symbolizes the ongoing conflict between God's people and evil forces",
+            "It teaches that physical battles have no spiritual significance",
+            "It demonstrates that God’s people will always win without effort",
+            "It shows that prayer and support are unnecessary in battle"
+          ],
+          "correctAnswer": "It symbolizes the ongoing conflict between God's people and evil forces",
+          "explanation": "Exodus 17:8–13 depicts Israel’s battle against Amalek, symbolizing the spiritual warfare believers face against evil (Ephesians 6:12).",
+          "verseReference": "Exodus 17:8-13",
           "difficulty": "hard"
         },
         {
           "id": "exodus-17-theological-q8",
-          "question": "What doctrinal truth is emphasized by the elders accompanying Moses when he struck the rock?",
+          "question": "What combined doctrine do Exodus 17:2 and 17:7 teach about human sin and God’s presence?",
           "type": "multiple-choice",
           "options": [
-            "Community leadership and witnessing God's work",
-            "Individualism in faith",
-            "Rejection of elders' authority",
-            "Secretiveness in divine matters"
+            "Human doubt and temptation test the reality of God’s presence",
+            "Human faith ensures God’s physical manifestation",
+            "God’s presence is irrelevant to human behavior",
+            "Human sin always removes God’s presence permanently"
           ],
-          "correctAnswer": "Community leadership and witnessing God's work",
-          "explanation": "Exodus 17:5-6 shows elders accompanying Moses, emphasizing communal leadership and accountability, consistent with Deuteronomy 17:8-11 and Hebrews 13:17.",
-          "verseReference": "Exodus 17:5-6",
+          "correctAnswer": "Human doubt and temptation test the reality of God’s presence",
+          "explanation": "Verses 17:2 and 17:7 reveal Israel’s chiding and tempting God, questioning if He is among them, highlighting the tension of doubt testing God’s presence.",
+          "verseReference": "Exodus 17:2, 17:7",
           "difficulty": "hard"
         },
         {
           "id": "exodus-17-theological-q9",
-          "question": "What does the heaviness of Moses' hands during the battle symbolize about human frailty and divine assistance?",
+          "question": "What combined doctrine do Exodus 17:11 and 17:12 teach about intercession and corporate support?",
           "type": "multiple-choice",
           "options": [
-            "Human weakness sustained by God's provision",
-            "Human strength without need of God",
-            "God abandoning leaders",
-            "The failure of Moses' leadership"
+            "Intercessory support sustains spiritual victory in battle",
+            "Victory in battle depends solely on military strength",
+            "Leaders cannot influence the outcome of spiritual warfare",
+            "Human effort alone secures God’s blessing"
           ],
-          "correctAnswer": "Human weakness sustained by God's provision",
-          "explanation": "Exodus 17:11-12 shows Moses' hands growing heavy and being supported by Aaron and Hur, illustrating human frailty sustained by community and divine help, paralleling Paul’s thorn in the flesh (2 Corinthians 12:7-10) and God's strength in weakness (Isaiah 40:29-31).",
+          "correctAnswer": "Intercessory support sustains spiritual victory in battle",
+          "explanation": "Exodus 17:11–12 describes Moses’ raised hands enabling Israel’s victory, supported by Aaron and Hur, showing intercessory and corporate support in spiritual conflict.",
           "verseReference": "Exodus 17:11-12",
           "difficulty": "hard"
         },
         {
           "id": "exodus-17-theological-q10",
-          "question": "What is the significance of God instructing Moses to write the account of Amalek's defeat?",
+          "question": "What combined doctrine do Exodus 17:14 and 17:16 teach about divine judgment and covenant promises?",
           "type": "multiple-choice",
           "options": [
-            "To preserve divine judgment and ensure remembrance",
-            "To keep it secret from others",
-            "To glorify Moses only",
-            "To encourage forgetfulness of the event"
+            "God executes judgment on enemies as part of covenant faithfulness",
+            "God’s covenant promises exclude judgment on nations",
+            "God’s judgment is arbitrary and unrelated to His promises",
+            "God’s covenant promises guarantee universal blessing without judgment"
           ],
-          "correctAnswer": "To preserve divine judgment and ensure remembrance",
-          "explanation": "Exodus 17:14 commands Moses to record the event as a memorial of God's judgment, emphasizing the biblical principle of remembering God's acts (Deuteronomy 6:6-9, Psalm 105:5, Luke 1:71).",
-          "verseReference": "Exodus 17:14",
+          "correctAnswer": "God executes judgment on enemies as part of covenant faithfulness",
+          "explanation": "Exodus 17:14 and 17:16 show God’s judgment on Amalek as a covenant act, demonstrating faithfulness to His promises to protect His people.",
+          "verseReference": "Exodus 17:14, 17:16",
           "difficulty": "hard"
         },
         {
           "id": "exodus-17-theological-q11",
-          "question": "In what way does the battle with Amalek prefigure Christ's victory over evil?",
+          "question": "Sceptics claim that Exodus 17:4–7 portrays God as indifferent to human suffering. What does this passage actually teach?",
           "type": "multiple-choice",
           "options": [
-            "It symbolizes the ultimate triumph of God's kingdom over Satan",
-            "It shows human victory without God",
-            "It signifies the end of spiritual warfare",
-            "It points to a political conquest"
+            "God responds to human need by providing water supernaturally",
+            "God ignores human suffering and allows it to continue",
+            "God punishes the people without mercy for their complaints",
+            "God is absent and uninvolved in human crises"
           ],
-          "correctAnswer": "It symbolizes the ultimate triumph of God's kingdom over Satan",
-          "explanation": "The Amalek conflict (Exodus 17:8-16) is a typology of spiritual warfare, anticipating Christ's victory over evil (Colossians 2:15, Revelation 20:10, Hebrews 2:14-15).",
-          "verseReference": "Exodus 17:8-16",
+          "correctAnswer": "God responds to human need by providing water supernaturally",
+          "explanation": "Exodus 17:4–7 shows Moses crying out and God instructing him to strike the rock to provide water, demonstrating God’s compassionate provision.",
+          "verseReference": "Exodus 17:4-7",
           "difficulty": "hard"
         },
         {
           "id": "exodus-17-theological-q12",
-          "question": "What does the people's murmuring and testing of God reveal about human sinfulness?",
+          "question": "What doctrine about leadership and mediation is taught in Exodus 17:9–10?",
           "type": "multiple-choice",
           "options": [
-            "Human tendency to doubt and rebel under hardship",
-            "Innate perfect faith",
-            "Complete trust in God's plans",
-            "No need for God's provision"
+            "God appoints human leaders to execute His purposes",
+            "Leaders act independently of God’s will",
+            "Leadership is unnecessary in God’s plan",
+            "Moses had no authority over Joshua or the elders"
           ],
-          "correctAnswer": "Human tendency to doubt and rebel under hardship",
-          "explanation": "Exodus 17:2-3 reveals Israel's testing of God, illustrating the sinful human inclination to doubt and complain, reflected in Numbers 14:22, Hebrews 3:8-9, and Romans 3:23.",
-          "verseReference": "Exodus 17:2-3",
+          "correctAnswer": "God appoints human leaders to execute His purposes",
+          "explanation": "Exodus 17:9–10 shows Moses commanding Joshua to fight Amalek, indicating divinely appointed leadership roles in God’s plan.",
+          "verseReference": "Exodus 17:9-10",
           "difficulty": "hard"
         },
         {
           "id": "exodus-17-theological-q13",
-          "question": "How does Moses' act of smiting the rock foreshadow Christ's work?",
+          "question": "Which divine attribute does Exodus 17:1 specifically demonstrate in the wilderness experience?",
           "type": "multiple-choice",
           "options": [
-            "Christ as the living Rock providing life-giving water",
-            "A call to violence",
-            "Christ as a warrior king only",
-            "An end to God's provision"
+            "Testing holiness",
+            "Omnipotence",
+            "Justice",
+            "Eternity"
           ],
-          "correctAnswer": "Christ as the living Rock providing life-giving water",
-          "explanation": "Exodus 17:6 prefigures Christ as the Rock (1 Corinthians 10:4) who gives living water (John 4:10, 7:38), providing eternal sustenance.",
-          "verseReference": "Exodus 17:6",
+          "correctAnswer": "Testing holiness",
+          "explanation": "Exodus 17:1 describes Israel’s journey to a place with no water, a setting for God to test and refine His people’s holiness (cf. Deuteronomy 8:2).",
+          "verseReference": "Exodus 17:1",
           "difficulty": "hard"
         },
         {
           "id": "exodus-17-theological-q14",
-          "question": "What does the cooperation of Aaron and Hur in supporting Moses' hands teach about Christian community?",
+          "question": "What doctrine about God’s faithfulness is illustrated in Moses building the altar called Jehovahnissi in Exodus 17:15?",
           "type": "multiple-choice",
           "options": [
-            "The importance of mutual support in spiritual battles",
-            "That leaders stand alone",
-            "That only Moses was important",
-            "That physical strength is irrelevant"
+            "God is faithful to protect and fight for His people",
+            "God abandons His people in conflict",
+            "God’s promises are conditional on perfect obedience",
+            "God’s presence is temporary and unreliable"
           ],
-          "correctAnswer": "The importance of mutual support in spiritual battles",
-          "explanation": "Exodus 17:12 shows communal support enabling victory, reflecting the biblical principle of bearing one another's burdens (Galatians 6:2, Ecclesiastes 4:9-12, Hebrews 10:24-25).",
-          "verseReference": "Exodus 17:12",
+          "correctAnswer": "God is faithful to protect and fight for His people",
+          "explanation": "Exodus 17:15 shows Moses building an altar called Jehovahnissi, meaning 'The LORD is my banner', signifying God’s faithful protection.",
+          "verseReference": "Exodus 17:15",
           "difficulty": "hard"
         },
         {
           "id": "exodus-17-theological-q15",
-          "question": "What is the doctrinal significance of God standing upon the rock as Moses smote it?",
+          "question": "What theological significance does the instruction to take the rod 'wherewith thou smotest the river' in Exodus 17:5 have?",
           "type": "multiple-choice",
           "options": [
-            "God's active presence in salvation and provision",
-            "God's absence during trials",
-            "God's judgment without mercy",
-            "God's withdrawal from Israel"
+            "It signifies the continuity of God’s miraculous power and authority",
+            "It implies reliance on human strength alone",
+            "It suggests the rod was a magical object independent of God",
+            "It indicates that past miracles have no bearing on present needs"
           ],
-          "correctAnswer": "God's active presence in salvation and provision",
-          "explanation": "Exodus 17:6 emphasizes God's visible presence facilitating provision, consistent with God's immanence in salvation (Psalm 46:1, Isaiah 43:2, John 14:16-17).",
-          "verseReference": "Exodus 17:6",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-17-theological-q16",
-          "question": "What is the significance of Joshua being chosen to fight Amalek while Moses stood on the hill?",
-          "type": "multiple-choice",
-          "options": [
-            "Delegation of God’s mission and leadership development",
-            "Joshua acting independently of God",
-            "Moses abandoning his role",
-            "A political power struggle"
-          ],
-          "correctAnswer": "Delegation of God’s mission and leadership development",
-          "explanation": "Exodus 17:9-10 shows Moses delegating military command to Joshua, reflecting biblical leadership training and shared responsibility (Deuteronomy 1:38, Acts 6:3-6, 2 Timothy 2:2).",
-          "verseReference": "Exodus 17:9-10",
+          "correctAnswer": "It signifies the continuity of God’s miraculous power and authority",
+          "explanation": "Exodus 17:5 instructs Moses to take the rod used to strike the river Nile, symbolizing God’s ongoing miraculous authority and power.",
+          "verseReference": "Exodus 17:5",
           "difficulty": "hard"
         }
       ],
@@ -1019,7 +972,7 @@
         "bible-quiz",
         "theological"
       ],
-      "totalQuestions": 16,
+      "totalQuestions": 15,
       "estimatedTime": 25
     }
   }

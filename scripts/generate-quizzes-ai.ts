@@ -104,8 +104,14 @@ const OPENAI_RATE_LIMIT_MS = 200;
 const FETCH_TIMEOUT_MS = 15000;
 const OPENAI_TIMEOUT_MS = 60000;
 const MAX_RETRIES = 5;
+let modelOverride: string | undefined; // set by --model flag
 
-// GPT-4o-mini pricing (per 1M tokens)
+// Pricing per 1M tokens (gpt-4o-mini; gpt-4.1-mini used as fallback on attempt 3+)
+const COST_PER_1M: Record<string, { input: number; output: number }> = {
+  'gpt-4o-mini':  { input: 0.15, output: 0.60 },
+  'gpt-4.1-mini': { input: 0.40, output: 1.60 },
+};
+// Legacy aliases kept for cost accumulation
 const INPUT_COST_PER_1M = 0.15;
 const OUTPUT_COST_PER_1M = 0.60;
 
@@ -285,7 +291,6 @@ function buildPrompt(
   chapterText: string,
   tab: TabLevel
 ): string {
-  // Split the chapter into thirds for verse-range targeting
   const verses = chapterText.split('\n').filter(l => l.trim());
   const totalVerses = verses.length;
   const third = Math.ceil(totalVerses / 3);
@@ -293,31 +298,52 @@ function buildPrompt(
   const middleThird = verses.slice(third, third * 2).join('\n');
   const lastThird = verses.slice(third * 2).join('\n');
 
-  const commonInstructions = `You are an expert Bible scholar and quiz creator. Generate exactly 15 quiz questions based on the following Bible chapter text (KJV).
+  const universalRules = `UNIVERSAL RULES — FOLLOW STRICTLY:
+1. Every verseReference MUST cite the exact verse(s) containing the answer (e.g., "${bookName} ${chapter}:5"). Never cite verse N when the answer is in verse N+1.
+2. The correctAnswer MUST appear verbatim in the options array.
+3. Multiple-choice: exactly 4 options. True/False: options must be exactly ["True", "False"].
+4. FORBIDDEN: fill-in-the-blank questions. Only "multiple-choice" or "true-false" types.
+5. Do not use the same verse as the primary reference for more than 2 questions.
+6. Each explanation must state the specific verse and explain WHY that answer is correct.
+7. DISTRACTOR QUALITY — wrong options must be plausible, not obviously absurd:
+   - Wrong options should be things a student who half-knows the passage might genuinely pick.
+   - Use real details from the chapter or nearby chapters as distractors (e.g., a different day, a different name, a different command that actually appears in the text).
+   - NEVER use distractors like "God was unsure", "Creation is random", "God regrets", "Chaos without order" — these are obviously false to anyone with basic Bible knowledge.
+   - For typology/doctrine questions: wrong options should be real theological terms or real NT passages that are close but incorrect (e.g., offer Romans 5:12 when the answer is Romans 8:19 — both are real, both are plausible).
+   - A student who doesn't know the answer should have to think, not just eliminate obvious nonsense.
+8. CHRISTOLOGICAL AND TRINITARIAN ORTHODOXY — non-negotiable hard rules:
+   - Jesus Christ is fully God and fully man — the second Person of the Trinity, co-equal and co-eternal with the Father and Holy Spirit. NEVER write a question or answer that implies He is a created being, subordinate in divine nature, or less than fully God.
+   - The Father, Son, and Holy Spirit are one God in three Persons — equal in essence, power, and glory. NEVER imply one Person is greater than another in nature.
+   - Passages about Christ's INCARNATION (e.g., Philippians 2:7 "emptied himself", Hebrews 2:9 "made a little lower than angels for the suffering of death") describe His voluntary humiliation in taking on human flesh — they do NOT teach that Christ is ontologically inferior to angels or that He ceased being God. NEVER cite these passages as evidence that Jesus is lower than angels in nature.
+   - NEVER use Hebrews 2:6-8 as proof that "Jesus was made lower than angels" — that passage quotes Psalm 8 about humanity's dominion mandate; verse 9 applies it to Christ's incarnation only, not His eternal nature.
+   - Preferred NT passages for Christ's dominion and authority: Ephesians 1:20-22, Matthew 28:18, 1 Corinthians 15:27, Colossians 1:15-17, Philippians 2:9-11.
+   - If you are unsure whether a doctrinal claim is orthodox, choose a different question entirely rather than risk error.
+9. OPTION LENGTH PARITY — all four options must be roughly the same length and level of detail:
+   - NEVER write a question where the correct answer is noticeably longer or more specific than the wrong options. This gives it away instantly.
+   - Wrong options must be just as fully worded as the correct answer. If the correct answer is a full sentence with details, ALL options must be full sentences with comparable detail.
+   - BAD example — correct answer obvious because it's the only specific one:
+       A) The earth was still void
+       B) Lights appeared
+       C) Creatures came forth
+       D) The earth brought forth grass, herbs yielding seed, and fruit trees yielding fruit after their kind ✓
+   - GOOD example — all options equally detailed, student must know the content:
+       A) The earth brought forth grass, herbs yielding seed, and fruit trees after their kind ✓
+       B) The earth brought forth great whales and every living creature that moves in the waters
+       C) The earth remained without form and void, and darkness covered the face of the deep
+       D) The earth brought forth lights in the firmament to divide the day from the night
+   - Apply this to every single question, especially factual recall questions where the temptation is to write vague wrong options.`;
 
-CHAPTER: ${bookName} Chapter ${chapter}
+  const typologyNote = `TYPOLOGICAL RETRIEVAL STYLE — apply at every difficulty level:
+Questions should not just ask WHAT happened — they should ask WHAT IT MEANS and WHY it matters.
+- "What does X represent?" questions where the text or a clear NT citation gives the answer
+- Cause-and-effect: "Because God did X in verse Y, what does verse Z reveal?"
+- Symbol identification: people, objects, places that represent deeper spiritual realities
+- Contrast questions: "God commanded X the first time but Y the second time — what changed and why?"
+This style turns passive readers into active thinkers who understand the story behind the story.
 
-CHAPTER TEXT (KJV):
-${chapterText}
+MANDATORY FOR ALL REPRESENTATION QUESTIONS: The explanation MUST cite a specific Bible verse from another passage (e.g., "John 8:12 confirms this — Jesus said 'I am the light of the world'") that establishes WHY the item represents what it does. Simply restating that something "implies" or "symbolizes" without a cross-reference citation is NOT sufficient. If you cannot name a specific confirming verse, choose a different representational question.`;
 
-UNIVERSAL RULES — FOLLOW STRICTLY:
-1. Every question MUST be directly grounded in the chapter text above.
-2. Every verseReference MUST cite the exact verse(s) that contain the answer (e.g., "${bookName} ${chapter}:5"). Never cite verse N if the answer is in verse N+1.
-3. The correctAnswer MUST appear exactly in the options array.
-4. Multiple-choice questions must have exactly 4 options.
-5. True/False questions must have exactly 2 options: ["True", "False"].
-6. NO fill-in-the-blank questions. Every question is either multiple-choice or true/false only.
-7. TRUE/FALSE BALANCE: Exactly half of all true/false questions must have "True" as the correct answer and half must have "False". Never make 90% of T/F answers "False".
-8. ZERO VERSE REPETITION: Do not use the same verse as the primary reference for more than one question.
-9. Spread questions across the ENTIRE chapter — do not cluster around 3-4 famous verses.
-10. Each explanation must cite the specific verse and explain WHY the answer is correct.
-
-QUESTION TYPE RULES:
-- "multiple-choice": 4 options, one correct
-- "true-false": options must be exactly ["True", "False"]
-- NEVER use "fill-blank" or "fill-in-the-blank" — these are FORBIDDEN
-
-Return ONLY valid JSON in this exact format:
+  const jsonFormat = `Return ONLY valid JSON — no markdown fences, no extra text:
 {
   "questions": [
     {
@@ -333,125 +359,215 @@ Return ONLY valid JSON in this exact format:
 
   switch (tab) {
     case 'easy':
-      return `${commonInstructions}
+      return `You are an expert Bible scholar creating quiz questions. Generate exactly 15 questions.
 
-DIFFICULTY: EASY — Basic Recognition (Verses 1 through ~${third} of the chapter)
+CHAPTER: ${bookName} Chapter ${chapter}
 
-PRIMARY VERSE RANGE: Focus the majority of questions on the FIRST THIRD of the chapter:
+VERSE TEXT — Questions MUST come from WITHIN these verses ONLY:
 ${firstThird}
 
-Rules for Easy:
-- Simple factual recall: "Who/What/Where/When" questions answered directly by the text
-- Basic events, characters, commands, and places
-- No interpretation required — the answer is stated plainly in the verse
-- Questions test whether the reader was paying attention, not theological knowledge
+${universalRules}
 
-QUESTION TYPE DISTRIBUTION (STRICT):
-- 11 multiple-choice questions
-- 4 true/false questions (exactly 2 must have "True" as the correct answer, 2 must have "False")
+DIFFICULTY: EASY — Pure factual recall, strategically ordered so that facts build on each other.
+STRICT RULES:
+- Every answer must be stated directly in the verse text. No interpretation, no allegory, no NT cross-references.
+- Do NOT ask what anything represents or means spiritually.
+- "Who / What / Where / When / Which" answered directly from the text.
 
-TRUE/FALSE GUIDANCE: Phrase some T/F statements as TRUE facts, not just false traps.
-GOOD True example: "True or False: Proverbs 3:5 commands us to trust in the LORD with all our heart." → True
-GOOD False example: "True or False: Proverbs 3:7 tells us to be wise in our own eyes." → False
-BAD: Making 3 out of 4 T/F answers False — this is guessable and teaches nothing.
+THE SOCRATIC CHAIN METHOD — this is the core structure:
+Questions are grouped into chains of 3. Within each chain the first two questions establish facts (premises), and the third question asks the student to reason from those two facts to a conclusion that is still directly observable in the text.
 
-SEQUENCING QUESTION (include 1): Ask the reader to identify what comes FIRST or what ORDER instructions/events appear in the chapter.
-Example: "In ${bookName} ${chapter}, which instruction comes before all the others listed here?"`;
+HOW TO WRITE A CHAIN CONCLUSION (Slot 3 of each chain):
+- The question text MUST explicitly reference what the previous two questions established.
+- The answer must still be directly answerable from the verse text — no spiritual interpretation yet.
+- The student should feel: "Oh — I already knew both pieces, now I can see how they connect."
+
+EXAMPLE OF A VALID CHAIN:
+  Slot 2: "What did God create on Day 1?" → "Light"
+  Slot 3: "What did God create on Day 4?" → "The sun and moon"
+  Slot 4: "Light was created on Day 1, but the sun and moon were not created until Day 4. According to Genesis 1:3, what was the source of that first light?" → "God's spoken word — He said 'Let there be light'"
+  (The student has both facts from Slots 2–3 and reasons to the textual conclusion in Slot 4.)
+
+QUESTION CHAIN LAYOUT — follow exactly:
+Slot 1  (multiple-choice): SEQUENCING — "In ${bookName} ${chapter}, which of the following appears FIRST?" 4 options = real events/people from the text. Correct = the earliest.
+
+CHAIN A (Slots 2–4): Choose two adjacent or contrasting facts from the verse text that together reveal a third observable truth.
+  Slot 2  (multiple-choice): Fact A — pure recall
+  Slot 3  (multiple-choice): Fact B — pure recall
+  Slot 4  (multiple-choice): CONCLUSION — question must explicitly reference the facts from Slots 2–3 in its wording. Answer is still a directly observable text fact, not spiritual interpretation.
+
+CHAIN B (Slots 5–7): Choose a different pair of facts from the verse text.
+  Slot 5  (multiple-choice): Fact A — pure recall
+  Slot 6  (multiple-choice): Fact B — pure recall
+  Slot 7  (multiple-choice): CONCLUSION — question must explicitly reference Slots 5–6 facts. No interpretation.
+
+CHAIN C (Slots 8–10): Choose a third pair of facts.
+  Slot 8  (multiple-choice): Fact A — pure recall
+  Slot 9  (multiple-choice): Fact B — pure recall
+  Slot 10 (multiple-choice): CONCLUSION — question must explicitly reference Slots 8–9 facts. No interpretation.
+
+Slot 11 (multiple-choice): Standalone factual question from the verse text.
+Slot 12 (true/false): correctAnswer MUST be "True"  — state a fact that IS in the text
+Slot 13 (true/false): correctAnswer MUST be "True"  — a different fact that IS in the text
+Slot 14 (true/false): correctAnswer MUST be "False" — state something the text does NOT say
+Slot 15 (true/false): correctAnswer MUST be "False" — state something else the text does NOT say
+
+${jsonFormat}`;
 
     case 'medium':
-      return `${commonInstructions}
+      return `You are an expert Bible scholar creating quiz questions. Generate exactly 15 questions.
 
-DIFFICULTY: MEDIUM — Practical Application & Context (Verses ~${third + 1} through ~${third * 2} of the chapter)
+CHAPTER: ${bookName} Chapter ${chapter}
 
-PRIMARY VERSE RANGE: Focus the majority of questions on the MIDDLE THIRD of the chapter:
+PRIMARY VERSE TEXT — Most questions MUST come from these verses:
 ${middleThird}
 
-Rules for Medium:
-- Test understanding of HOW adjacent verses connect, not just isolated facts
-- Include CONTEXT QUESTIONS: "What does verse X say will happen if you do what verse Y says?"
-- Focus on practical Christian living grounded in this chapter's teaching:
-  * Faith, trust in God, obedience, prayer, generosity, integrity, forgiveness, humility
-- Frame questions as: "How does this passage teach us about [biblical virtue]?"
-- Scenario questions are good: "A fellow believer struggles with [challenge]. Based on ${bookName} ${chapter}, what biblical truth applies?"
+EARLIER VERSES (for contrast and cause-effect questions only):
+${firstThird}
 
-CRITICAL — DO NOT use:
-- Social justice / activism framing
-- "inherent worth/dignity" language
-- Culture-war or politically charged scenarios
-- "marginalized" or "excluded" language
+${universalRules}
 
-QUESTION TYPE DISTRIBUTION (STRICT):
-- 12 multiple-choice questions
-- 3 true/false questions (at least 1 must have "True" as correct answer, at least 1 must have "False")
+DIFFICULTY: MEDIUM — Verse-to-verse connections within the chapter. Cause → effect. Command → result. No NT cross-references. No spiritual allegory.
+- Every question must connect two or more verses from the chapter text.
+- Ask what ONE verse says will RESULT from or FOLLOW what ANOTHER verse commands or describes.
+- Ask what CHANGED between two passages in the same chapter, and what that change reveals about God's actions or character as described in the text.
+- Do NOT jump to NT theology. Do NOT ask what things represent spiritually. Stay inside this chapter.
 
-CONTEXT QUESTION (include at least 2): Connect adjacent verses rather than testing them in isolation.
-Example: "What does ${bookName} ${chapter}:[verse] promise will happen if the reader does what [verse-1] instructs?"
+THE SOCRATIC CHAIN METHOD — same as Easy but one level deeper:
+Groups of 3 questions where Slots 1–2 establish what the text says, and Slot 3 asks what this connection reveals about God's pattern, intention, or character AS DESCRIBED IN THE CHAPTER TEXT.
 
-Each explanation should reference 2-3 supporting Scripture verses.`;
+EXAMPLE OF A VALID MEDIUM CHAIN:
+  Slot 1: "What did God command the waters to do in verse 9?" → "Gather together so dry land could appear"
+  Slot 2: "What does verse 10 record happening immediately after God's command?" → "The dry land appeared and God called it Earth"
+  Slot 3: "God commanded the waters to gather in verse 9 and verse 10 records it happening immediately. What pattern does this establish about the relationship between God's word and the created world?" → "God's spoken command produces immediate, complete fulfillment — the created world obeys His word without delay"
+  (Still inside the chapter text — no NT jump — but now drawing a conclusion about God's character.)
+
+QUESTION CHAIN LAYOUT — follow exactly:
+CHAIN A (Slots 1–3): Command → result chain from PRIMARY VERSE TEXT
+  Slot 1  (multiple-choice): What did God command or say in verse X?
+  Slot 2  (multiple-choice): What does verse X+1 (or nearby verse) record happening as a result?
+  Slot 3  (multiple-choice): CONCLUSION — "God commanded [X] in verse [N] and [result] happened in verse [N+1]. What does this pattern reveal about [God's word / God's character / the nature of creation]?" Answer drawn from the chapter text.
+
+CHAIN B (Slots 4–6): Contrast chain — something changed between the EARLIER VERSES and the PRIMARY VERSE TEXT
+  Slot 4  (multiple-choice): What does an earlier verse establish about [person/thing/command]?
+  Slot 5  (multiple-choice): What does a verse in the PRIMARY range say about the same [person/thing/command]?
+  Slot 6  (multiple-choice): CONCLUSION — "In the earlier passage [X happened], but in verse [Y] we see [Z]. What does this change or progression reveal?" Answer stays in the chapter.
+
+CHAIN C (Slots 7–9): Evaluation / pattern chain from PRIMARY VERSE TEXT
+  Slot 7  (multiple-choice): Factual question from primary range
+  Slot 8  (multiple-choice): Different factual question from primary range showing a similar pattern
+  Slot 9  (multiple-choice): CONCLUSION — "We've seen [Slot 7 fact] and [Slot 8 fact]. What pattern does this establish in ${bookName} ${chapter}?" Answer is the observed pattern.
+
+Slots 10–12 (multiple-choice): Standalone cause-effect questions — each connects exactly two adjacent verses from PRIMARY VERSE TEXT. "Because verse X says [Y], what does verse X+1 say follows?"
+Slot 13 (true/false): correctAnswer MUST be "True"
+Slot 14 (true/false): correctAnswer MUST be "False"
+Slot 15 (true/false): correctAnswer MUST be "False"
+
+${jsonFormat}`;
 
     case 'hard':
-      return `${commonInstructions}
+      return `You are an expert Bible scholar creating quiz questions. Generate exactly 15 questions.
 
-DIFFICULTY: HARD — Analysis, Cross-Biblical Connections & Deeper Study (Verses ~${third * 2 + 1} onward + cross-chapter)
+CHAPTER: ${bookName} Chapter ${chapter}
 
-PRIMARY VERSE RANGE: Focus the majority of questions on the FINAL THIRD of the chapter, then add cross-biblical connections:
+PRIMARY VERSE TEXT (final section — anchor most questions here):
 ${lastThird}
 
-Rules for Hard:
-- Cross-biblical connections: how this chapter relates to other books (Old & New Testament)
-- Literary devices: chiasm, parallelism, typology, foreshadowing, inclusio
-- Hebrew or Greek word studies: significant original-language meanings
-- Historical and cultural context of the ancient Near East
-- Authorial intent and original audience
-- How themes in this chapter develop or fulfill earlier Scripture
-- Questions require knowing what PRECEDES or FOLLOWS a verse, not just the verse alone
+FULL CHAPTER (for cross-reference and typology questions):
+${chapterText}
 
-QUESTION TYPE DISTRIBUTION (STRICT):
-- 13 multiple-choice questions
-- 2 true/false questions (exactly 1 must be "True", exactly 1 must be "False")
+${universalRules}
 
-CROSS-REFERENCE QUESTION (include at least 3): Ask which other Bible passage connects to, fulfills, or echoes a theme from this chapter.
-WORD STUDY QUESTION (include at least 1): Ask about the Hebrew or Greek meaning of a key word from this chapter.
-LITERARY QUESTION (include at least 1): Ask about a literary device used in this chapter.
+DIFFICULTY: HARD — Typological chains with NT cross-references, word studies, literary devices.
+Now the chains from Easy and Medium are completed with their theological meaning.
+NT cross-references ARE required here. Word studies unlock symbolic meaning. Geography becomes theology.
 
-Each explanation must cite the verse in this chapter AND the cross-reference passage.`;
+THE SOCRATIC CHAIN METHOD — now completing typological chains:
+Groups of 2–3 questions where earlier questions supply the premises (from the chapter text) and the final question introduces the NT cross-reference that reveals the TYPE.
+
+EXAMPLE OF A VALID HARD CHAIN:
+  Slot 1: "John 1:1 opens 'In the beginning,' deliberately echoing Genesis 1:1. What does John 1:3 claim about the Word?" → "All things were made by him; without him nothing was made"
+  Slot 2: "Given that John 1:3 identifies the Word as the agent of all creation, who was speaking in Genesis 1:3 when God said 'Let there be light'?" → "Christ, the eternal Word — all creative speech in Genesis 1 is the voice of the Son"
+  Slot 3: "Paul writes in 2 Corinthians 4:6 that God 'commanded the light to shine out of darkness, hath shined in our hearts.' What does Paul identify as the parallel to God's creative word in Genesis 1:3?" → "The new birth — God shining spiritual light into the human heart follows the same pattern as the first creation"
+  (Each question uses the previous answer as its premise. By Slot 3 the student has reasoned from creation → Christ as creator → new creation as the same act.)
+
+QUESTION CHAIN LAYOUT — follow exactly:
+CHAIN A (Slots 1–3): Typological chain — from a detail in the PRIMARY VERSE TEXT to its NT fulfillment
+  Slot 1  (multiple-choice): What does the PRIMARY TEXT say about [person/object/event]? (textual premise)
+  Slot 2  (multiple-choice): What does [NT passage] say about the same [person/object/event]? (NT connection — name the passage explicitly in the question)
+  Slot 3  (multiple-choice): CONCLUSION — "Given that [Slot 1 fact] and [Slot 2 NT connection], what does [original detail] represent or foreshadow?" The student has both premises and reasons to the typological conclusion.
+
+CHAIN B (Slots 4–5): Shorter typological pair — one premise from the chapter, one NT completion
+  Slot 4  (multiple-choice): Textual observation from the chapter
+  Slot 5  (multiple-choice): COMPLETION — "Given what verse [X] says and what [NT passage] confirms, what does [detail] represent?" NT passage named in question.
+
+Slot 6  (multiple-choice): WORD STUDY — "What does the Hebrew/Greek '[word]' in ${bookName} ${chapter}:[verse] mean?" 4 options; only one is correct. Explanation states why this meaning unlocks the passage's theological significance.
+Slot 7  (multiple-choice): LITERARY DEVICE — Which literary technique is used in a specific passage, and what theological truth does it reveal?
+Slots 8–9  (multiple-choice): CROSS-REFERENCE — "Which other Bible passage [fulfills / echoes / interprets] [theme] from this chapter?" Both passages cited in the explanation.
+Slots 10–11 (multiple-choice): WHAT-REPRESENTS chains — each asks what a specific detail from the chapter represents in the full biblical narrative, with NT or OT cross-reference named in the question.
+Slots 12–13 (multiple-choice): Additional typological, word-study, or cross-reference questions from the chapter.
+Slot 14 (true/false): correctAnswer MUST be "True"
+Slot 15 (true/false): correctAnswer MUST be "False"
+
+CRITICAL: For every typological or representation question, the NT/OT cross-reference MUST be named inside the question itself (not just in the explanation), so the student can reason toward the answer using the reference as a clue.
+
+${jsonFormat}`;
 
     case 'theological':
-      return `${commonInstructions}
+      return `You are a seminary professor creating advanced biblical theology questions. Generate exactly 15 questions.
 
-DIFFICULTY: THEOLOGICAL — Advanced Biblical Theology (Draws from the WHOLE chapter, goes deep on meaning)
+CHAPTER: ${bookName} Chapter ${chapter}
 
-VERSE SPREAD RULE: You MUST draw questions from at least 10 distinct verses across this chapter. Do not cluster around famous or well-known verses — those are already tested in Easy/Medium/Hard tabs. Seek out less-examined verses that carry doctrinal weight.
+FULL CHAPTER TEXT (KJV):
+${chapterText}
 
-Rules for Theological:
-- Seminary-level doctrinal questions rooted in this chapter's text
-- Systematic theology: what does this chapter reveal about God, humanity, sin, salvation, sanctification?
-- Biblical theology: how does this chapter fit into the grand narrative of redemption?
-- Attributes of God: ask what specific divine attribute a particular verse demonstrates
-- Christological connections: include ONLY where Christ is genuinely foreshadowed, typologically present, or explicitly prophesied in this chapter — do NOT force Christological connections into passages about ethics, wisdom, or narrative that have no natural typology
-- SYNTHESIS QUESTIONS (include at least 3): Combine two or more verses from this chapter into a single doctrinal insight. Example: "What combined teaching do verses 5-6 and verse 11 convey about [doctrine]?"
-- APOLOGETICS QUESTION (include at least 1): Frame it with a specific sceptic's claim. Format: "Sceptics claim [specific objection]. What does [BookName Chapter:verse-range] actually teach?"
-- Must draw from ACROSS the full chapter, not just famous verses
+${universalRules}
 
-CROSS-REFERENCE LIMIT: Each explanation may cite at most 2 supporting verses from other Bible books. Citing more risks hallucinated references that do not actually exist.
+DIFFICULTY: THEOLOGICAL — Full Socratic chains that end at soteriological doctrine. Every chain should answer the question: "What does this mean for salvation?"
 
-CRITICAL — AVOID denominational controversies:
-- Do not take sides on Reformed vs. Arminian debates
-- Do not take sides on Young Earth vs. Old Earth
-- No specific denominational distinctives
-- Focus on truths affirmed by the historic Christian creeds (Apostles', Nicene)
+STRICT PROHIBITION: No factual recall ("What did X do?", "Who said Y?"). Every question requires theological reasoning built on premises established in the chain.
 
-QUESTION TYPE DISTRIBUTION (STRICT):
-- All 15 questions must be multiple-choice (100%)
-- No true/false — theological nuance requires 4-option discrimination, not a binary choice
+VERSE SPREAD: Draw from at least 10 distinct verses.
 
-DOCTRINAL QUESTION (include at least 3): Ask what specific doctrine this passage teaches.
-ATTRIBUTE QUESTION (include at least 2): Ask which attribute of God a specific verse reveals.
-NARRATIVE ARC QUESTION (include at least 2): Ask how this chapter connects to the broader redemptive story of Scripture.
-SYNTHESIS QUESTION (include at least 3): Combine two verses from this chapter into one doctrinal question.
-APOLOGETICS QUESTION (include at least 1): Use the specific sceptic-claim format above.
+ALL 15 questions must be multiple-choice. No true/false.
 
-Each explanation must cite the exact verse(s) from this chapter, then at most 2 cross-references from other books.`;
+THE SOCRATIC CHAIN METHOD — full chains ending at gospel truth:
+Each chain consists of 3–4 questions. The first questions supply premises (what the text says, what the NT confirms). The final question of each chain asks the student to synthesize those premises into a doctrinal conclusion about salvation, redemption, or the nature of God.
+
+The student should feel: "I already knew each piece — now I see what it all means together."
+
+EXAMPLE OF A COMPLETE THEOLOGICAL CHAIN:
+  Q1: "Genesis 1:1-2 describes the earth as formless, void, and dark — and the Spirit of God moving over the waters. In John 3:5, Jesus says you must be born of water and Spirit. What does the Spirit's movement over the chaos in Genesis 1:2 foreshadow?" → "The Spirit's role in regeneration — bringing new life and order out of spiritual darkness and emptiness"
+  Q2: "Paul writes in 2 Corinthians 4:6 that God 'commanded the light to shine out of darkness, hath shined in our hearts.' What does Paul identify God's command in Genesis 1:3 as a direct parallel to?" → "The new birth — salvation follows the same creative pattern: Spirit moves, God speaks, light appears"
+  Q3: "Given that Genesis 1:2-3 shows Spirit + Word producing light from chaos, and 2 Corinthians 4:6 applies this pattern to salvation, what doctrine do these passages together establish?" → "Regeneration is an act of new creation — God does not improve the old nature, He creates anew by His Spirit and Word, exactly as He created the cosmos"
+  (Each question used the previous answer as its premise. By Q3 the student has reasoned to a full doctrinal statement from two OT-NT premises.)
+
+CHAIN LAYOUT — follow exactly:
+CHAIN A (Slots 1–3): Choose a typological chain from this chapter → NT fulfillment → soteriological doctrine
+  Slot 1: Premise from the chapter text — what does this passage establish?
+  Slot 2: NT confirmation — "Given [Slot 1 premise], what does [NT passage] reveal about its fulfillment or meaning?" Name the NT passage in the question.
+  Slot 3: DOCTRINAL CONCLUSION — "Given [Slot 1] and [Slot 2], what doctrine do these passages together teach?" The student synthesizes both premises.
+
+CHAIN B (Slots 4–6): Different chain — attribute of God → its redemptive implication
+  Slot 4: Which divine attribute does a specific verse demonstrate? (name the verse)
+  Slot 5: How does a different verse in this chapter show this same attribute operating in a different way?
+  Slot 6: CONCLUSION — "Given that [Slot 4] and [Slot 5] both show God's [attribute], what does this reveal about how God accomplishes redemption?" Synthesize toward salvation.
+
+CHAIN C (Slots 7–9): Narrative arc chain — OT type → NT fulfillment → what this means for the believer today
+  Slot 7: What does this chapter establish in the redemptive narrative?
+  Slot 8: How does a NT passage fulfill or complete what this chapter began? (name the passage)
+  Slot 9: CONCLUSION — "Given [Slot 7] and [Slot 8], what does the full arc from [chapter] to [NT passage] teach about [salvation / grace / human inability / God's faithfulness]?"
+
+Slot 10 (multiple-choice): SYNTHESIS — "What combined doctrine do ${bookName} ${chapter}:[X] and ${bookName} ${chapter}:[Y] teach about [topic]?" Both verse numbers must appear in the question text.
+Slot 11 (multiple-choice): APOLOGETICS — "Sceptics claim [specific objection about this chapter]. What does ${bookName} ${chapter}:[verse] actually teach?" One correct answer, three plausible misreadings.
+Slots 12–15 (multiple-choice): Additional chains or synthesis questions from unused verses — each must connect at least two verses and end at a doctrinal or typological conclusion.
+
+CROSS-REFERENCE LIMIT: Max 2 verses from other books per explanation. No hallucinated references.
+DENOMINATIONS: Avoid Reformed vs. Arminian, Young Earth vs. Old Earth. Focus on Apostles'/Nicene Creed truths.
+
+FINAL COUNT CHECK: Count your questions array before returning. It MUST contain exactly 15 items. If you have 13 or 14, complete the missing slots from Slots 12–15 now.
+
+${jsonFormat}`;
 
     default:
       throw new Error(`Unknown tab level: ${tab}`);
@@ -505,8 +621,11 @@ async function generateQuestions(
 
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
     try {
+      // Use smarter model after 2 failed attempts, unless overridden by --model flag
+      const model = modelOverride ?? (attempt <= 2 ? 'gpt-4o-mini' : 'gpt-4.1-mini');
+      if (!modelOverride && attempt === 3) console.warn(`    Upgrading to gpt-4.1-mini for attempt ${attempt}...`);
       const response = await client.chat.completions.create({
-        model: 'gpt-4o-mini',
+        model,
         messages: [
           {
             role: 'system',
@@ -516,7 +635,7 @@ async function generateQuestions(
         ],
         response_format: { type: 'json_object' },
         temperature: 0.7,
-        max_tokens: 4000,
+        max_tokens: tab === 'theological' ? 5000 : 4000,
       });
 
       const content = response.choices[0]?.message?.content;
@@ -529,9 +648,27 @@ async function generateQuestions(
 
       // Auto-normalize common GPT mistakes
       for (const q of questions) {
-        // Reject any fill-blank questions that slip through — convert to multiple-choice
-        if ((q.type as string) === 'fill-blank' || (q.type as string) === 'fill-in-the-blank') {
+        // Normalize type strings — model sometimes writes "true/false" instead of "true-false"
+        const rawType = (q.type as string).toLowerCase().replace(/[_\/\s]+/g, '-');
+        if (rawType === 'true-false' || rawType === 'truefalse' || rawType === 'true-or-false') {
+          q.type = 'true-false';
+        } else if (rawType === 'fill-blank' || rawType === 'fill-in-the-blank') {
           q.type = 'multiple-choice';
+        }
+        // Normalize true/false options if model wrote something other than ["True","False"]
+        if (q.type === 'true-false') {
+          q.options = ['True', 'False'];
+          // Normalize correctAnswer capitalisation
+          const ca = String(q.correctAnswer).trim().toLowerCase();
+          q.correctAnswer = ca === 'true' ? 'True' : 'False';
+        }
+        // Shuffle MC options — model always puts correct answer first (option A bias)
+        if (q.type === 'multiple-choice' && Array.isArray(q.options) && q.options.length > 1) {
+          for (let i = q.options.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [q.options[i], q.options[j]] = [q.options[j], q.options[i]];
+          }
+          // correctAnswer holds the text value, not the index — no update needed
         }
       }
       // Trim to 15 if GPT returned 16-17
@@ -541,7 +678,8 @@ async function generateQuestions(
 
       const inputTokens = response.usage?.prompt_tokens || 0;
       const outputTokens = response.usage?.completion_tokens || 0;
-      const cost = (inputTokens / 1_000_000) * INPUT_COST_PER_1M + (outputTokens / 1_000_000) * OUTPUT_COST_PER_1M;
+      const pricing = COST_PER_1M[model] ?? { input: INPUT_COST_PER_1M, output: OUTPUT_COST_PER_1M };
+      const cost = (inputTokens / 1_000_000) * pricing.input + (outputTokens / 1_000_000) * pricing.output;
 
       // Validate the response
       const errors = validateQuestions(questions, tab, bookName, chapter);
@@ -903,6 +1041,7 @@ interface CLIOptions {
   force: boolean;
   fallback: boolean;
   concurrency: number;
+  model?: string; // override model for all attempts
 }
 
 function parseArgs(): CLIOptions {
@@ -940,6 +1079,11 @@ function parseArgs(): CLIOptions {
 
       case '--concurrency':
         options.concurrency = parseInt(args[i + 1], 10) || 3;
+        i += 2;
+        break;
+
+      case '--model':
+        options.model = args[i + 1];
         i += 2;
         break;
 
@@ -1063,8 +1207,9 @@ async function main() {
 
   const progress = loadProgress();
 
-  // Set module-level fallback flag so getOpenAI() can check it
+  // Set module-level flags
   fallbackEnabled = options.fallback;
+  if (options.model) modelOverride = options.model;
 
   console.log('AI Bible Quiz Generator (GPT-4.1-mini)');
   console.log('=======================================');

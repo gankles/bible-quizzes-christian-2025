@@ -13,7 +13,7 @@
       "questions": [
         {
           "id": "genesis-34-easy-q1",
-          "question": "Who was Dinah's mother according to Genesis 34?",
+          "question": "Who was Dinah's mother?",
           "type": "multiple-choice",
           "options": [
             "Leah",
@@ -22,73 +22,103 @@
             "Zilpah"
           ],
           "correctAnswer": "Leah",
-          "explanation": "Genesis 34:1 states Dinah was the daughter of Leah, who bore her to Jacob.",
+          "explanation": "Genesis 34:1 states that Dinah was the daughter of Leah.",
           "verseReference": "Genesis 34:1",
           "difficulty": "easy"
         },
         {
           "id": "genesis-34-easy-q2",
-          "question": "What did Shechem do to Dinah in Genesis 34?",
+          "question": "What did Dinah do when she went out?",
           "type": "multiple-choice",
           "options": [
-            "He defiled her",
-            "He married her immediately",
-            "He ignored her",
-            "He sent her gifts"
+            "She went to see the daughters of the land",
+            "She went to the city gate",
+            "She went to the fields to gather food",
+            "She went to her brothers"
           ],
-          "correctAnswer": "He defiled her",
-          "explanation": "Genesis 34:2 specifically says Shechem took Dinah, lay with her, and defiled her.",
-          "verseReference": "Genesis 34:2",
+          "correctAnswer": "She went to see the daughters of the land",
+          "explanation": "Genesis 34:1 says Dinah went out to see the daughters of the land.",
+          "verseReference": "Genesis 34:1",
           "difficulty": "easy"
         },
         {
           "id": "genesis-34-easy-q3",
-          "question": "What was Shechem's relation to Hamor?",
+          "question": "Who defiled Dinah?",
           "type": "multiple-choice",
           "options": [
-            "Son",
-            "Brother",
-            "Father",
-            "Uncle"
+            "Shechem",
+            "Hamor",
+            "Simeon",
+            "Levi"
           ],
-          "correctAnswer": "Son",
-          "explanation": "Genesis 34:2 identifies Shechem as the son of Hamor the Hivite.",
+          "correctAnswer": "Shechem",
+          "explanation": "Genesis 34:2 tells us that Shechem, son of Hamor, took Dinah and defiled her.",
           "verseReference": "Genesis 34:2",
           "difficulty": "easy"
         },
         {
           "id": "genesis-34-easy-q4",
-          "question": "What did Shechem request from his father after seeing Dinah?",
+          "question": "What was the relation of Shechem to Hamor?",
           "type": "multiple-choice",
           "options": [
-            "To get Dinah as his wife",
-            "To attack Jacob",
-            "To send gifts",
-            "To banish Dinah"
+            "Son",
+            "Brother",
+            "Father",
+            "Servant"
           ],
-          "correctAnswer": "To get Dinah as his wife",
-          "explanation": "Genesis 34:4 shows Shechem asking his father Hamor to get Dinah for him as a wife.",
-          "verseReference": "Genesis 34:4",
+          "correctAnswer": "Son",
+          "explanation": "Genesis 34:2 identifies Shechem as the son of Hamor.",
+          "verseReference": "Genesis 34:2",
           "difficulty": "easy"
         },
         {
           "id": "genesis-34-easy-q5",
-          "question": "What was Jacob's initial reaction when he heard Dinah was defiled?",
+          "question": "How did Shechem feel about Dinah after he defiled her?",
           "type": "multiple-choice",
           "options": [
-            "He held his peace",
-            "He immediately attacked",
-            "He sent Dinah away",
-            "He cursed Shechem"
+            "He loved her and spake kindly to her",
+            "He was angry with her",
+            "He ignored her",
+            "He sent her away"
           ],
-          "correctAnswer": "He held his peace",
-          "explanation": "Genesis 34:5 says Jacob heard but held his peace until his sons returned.",
-          "verseReference": "Genesis 34:5",
+          "correctAnswer": "He loved her and spake kindly to her",
+          "explanation": "Genesis 34:3 states that Shechem's soul clave to Dinah and he loved her and spoke kindly to her.",
+          "verseReference": "Genesis 34:3",
           "difficulty": "easy"
         },
         {
           "id": "genesis-34-easy-q6",
-          "question": "Who came out to speak with Jacob after the incident with Dinah?",
+          "question": "What did Shechem ask his father to do?",
+          "type": "multiple-choice",
+          "options": [
+            "Get Dinah to wife for him",
+            "Send him away",
+            "Fight Jacob's sons",
+            "Give gifts to Jacob"
+          ],
+          "correctAnswer": "Get Dinah to wife for him",
+          "explanation": "Genesis 34:4 records Shechem asking his father to get Dinah to wife for him.",
+          "verseReference": "Genesis 34:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-34-easy-q7",
+          "question": "What was Jacob's initial reaction when he heard Dinah had been defiled?",
+          "type": "multiple-choice",
+          "options": [
+            "He held his peace until his sons came",
+            "He immediately went to Shechem",
+            "He sent his sons to attack",
+            "He shouted in anger"
+          ],
+          "correctAnswer": "He held his peace until his sons came",
+          "explanation": "Genesis 34:5 shows Jacob held his peace until his sons came after hearing Dinah was defiled.",
+          "verseReference": "Genesis 34:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "genesis-34-easy-q8",
+          "question": "Who came to Jacob to commune with him after the incident?",
           "type": "multiple-choice",
           "options": [
             "Hamor",
@@ -97,137 +127,109 @@
             "Levi"
           ],
           "correctAnswer": "Hamor",
-          "explanation": "Genesis 34:6 indicates Hamor, Shechem's father, went out to commune with Jacob.",
+          "explanation": "Genesis 34:6 says Hamor, the father of Shechem, went out to Jacob to commune with him.",
           "verseReference": "Genesis 34:6",
           "difficulty": "easy"
         },
         {
-          "id": "genesis-34-easy-q7",
-          "question": "How did Jacob's sons feel when they heard what happened to Dinah?",
+          "id": "genesis-34-easy-q9",
+          "question": "How did the sons of Jacob feel when they heard what had happened to Dinah?",
           "type": "multiple-choice",
           "options": [
             "Grieved and very wroth",
-            "Happy",
+            "Happy and pleased",
             "Indifferent",
-            "Afraid"
+            "Confused"
           ],
           "correctAnswer": "Grieved and very wroth",
-          "explanation": "Genesis 34:7 states the men were grieved and very angry because Shechem had done a folly.",
+          "explanation": "Genesis 34:7 describes the sons of Jacob as grieved and very wroth when they heard Dinah was defiled.",
           "verseReference": "Genesis 34:7",
           "difficulty": "easy"
         },
         {
-          "id": "genesis-34-easy-q8",
-          "question": "What condition did Jacob's sons set for giving their sister to Shechem in marriage?",
-          "type": "multiple-choice",
-          "options": [
-            "That every male be circumcised",
-            "That Shechem pay a large dowry",
-            "That Shechem leave the city",
-            "That Hamor apologize"
-          ],
-          "correctAnswer": "That every male be circumcised",
-          "explanation": "Genesis 34:15 shows they agreed only if all males among them were circumcised.",
-          "verseReference": "Genesis 34:15",
-          "difficulty": "easy"
-        },
-        {
-          "id": "genesis-34-easy-q9",
-          "question": "How did Shechem respond to the condition set by Jacob’s sons?",
-          "type": "multiple-choice",
-          "options": [
-            "He agreed immediately",
-            "He refused",
-            "He asked for more time",
-            "He insulted them"
-          ],
-          "correctAnswer": "He agreed immediately",
-          "explanation": "Genesis 34:19 says Shechem did not delay because he delighted in Dinah.",
-          "verseReference": "Genesis 34:19",
-          "difficulty": "easy"
-        },
-        {
           "id": "genesis-34-easy-q10",
-          "question": "What did Hamor and Shechem propose to the men of their city?",
+          "question": "What did Hamor say about his son Shechem's desire for Dinah?",
           "type": "multiple-choice",
           "options": [
-            "To dwell with Jacob's people and intermarry",
-            "To attack Jacob's family",
-            "To banish Jacob's sons",
-            "To pay a ransom"
+            "The soul of my son Shechem longeth for your daughter",
+            "My son wants to fight for your daughter",
+            "My son hates your family",
+            "My son wishes to leave the land"
           ],
-          "correctAnswer": "To dwell with Jacob's people and intermarry",
-          "explanation": "Genesis 34:21 describes Hamor and Shechem proposing intermarriage and dwelling together.",
-          "verseReference": "Genesis 34:21",
+          "correctAnswer": "The soul of my son Shechem longeth for your daughter",
+          "explanation": "Genesis 34:8 records Hamor saying Shechem's soul longeth for Dinah to be his wife.",
+          "verseReference": "Genesis 34:8",
           "difficulty": "easy"
         },
         {
           "id": "genesis-34-easy-q11",
-          "question": "True or False: The men of Hamor's city refused to be circumcised.",
-          "type": "true-false",
+          "question": "What did Hamor propose regarding marriages?",
+          "type": "multiple-choice",
           "options": [
-            "True",
-            "False"
+            "Marry daughters between their peoples",
+            "No marriage between their peoples",
+            "Only trade with them",
+            "Fight against Jacob's family"
           ],
-          "correctAnswer": "False",
-          "explanation": "Genesis 34:24 states all the males of the city were circumcised.",
-          "verseReference": "Genesis 34:24",
+          "correctAnswer": "Marry daughters between their peoples",
+          "explanation": "Genesis 34:9 shows Hamor proposing marriages between their peoples, giving daughters to each other.",
+          "verseReference": "Genesis 34:9",
           "difficulty": "easy"
         },
         {
           "id": "genesis-34-easy-q12",
-          "question": "True or False: Simeon and Levi waited until all were healed before attacking the city.",
-          "type": "true-false",
+          "question": "What did Shechem promise to give if they agreed to give Dinah to him?",
+          "type": "multiple-choice",
           "options": [
-            "True",
-            "False"
+            "Whatever dowry and gift they asked",
+            "Nothing at all",
+            "Half of his land",
+            "His father's treasures"
           ],
-          "correctAnswer": "False",
-          "explanation": "Genesis 34:25 says on the third day, when they were sore, Simeon and Levi attacked boldly.",
-          "verseReference": "Genesis 34:25",
+          "correctAnswer": "Whatever dowry and gift they asked",
+          "explanation": "Genesis 34:12 shows Shechem promising to give whatever dowry and gift they asked for Dinah's hand.",
+          "verseReference": "Genesis 34:12",
           "difficulty": "easy"
         },
         {
           "id": "genesis-34-easy-q13",
-          "question": "True or False: Jacob approved of Simeon and Levi’s actions against the city.",
+          "question": "True or False: Jacob's sons immediately accepted Shechem as Dinah's husband without conditions.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Genesis 34:30 shows Jacob was troubled and feared for his safety because of their actions.",
-          "verseReference": "Genesis 34:30",
+          "explanation": "Genesis 34:13-14 shows Jacob's sons answered deceitfully and would not give Dinah to an uncircumcised man.",
+          "verseReference": "Genesis 34:13",
           "difficulty": "easy"
         },
         {
           "id": "genesis-34-easy-q14",
-          "question": "Complete the verse from Genesis 34:31: 'Should he deal with our sister as with an ______?'",
-          "type": "fill-blank",
+          "question": "True or False: The sons of Jacob required Shechem and his people to be circumcised before giving their daughters in marriage.",
+          "type": "true-false",
           "options": [
-            "harlot",
-            "enemy",
-            "stranger",
-            "queen"
+            "True",
+            "False"
           ],
-          "correctAnswer": "harlot",
-          "explanation": "Genesis 34:31 records the words of Simeon and Levi, asking if their sister should be treated like a harlot.",
-          "verseReference": "Genesis 34:31",
+          "correctAnswer": "True",
+          "explanation": "Genesis 34:15 states the sons of Jacob said they would consent if every male was circumcised.",
+          "verseReference": "Genesis 34:15",
           "difficulty": "easy"
         },
         {
           "id": "genesis-34-easy-q15",
-          "question": "Fill in the blank: After killing the men, Simeon and Levi took Dinah ______ of Shechem's house.",
-          "type": "fill-blank",
+          "question": "In Genesis 34, which event happened first?",
+          "type": "multiple-choice",
           "options": [
-            "out",
-            "into",
-            "back",
-            "away"
+            "Dinah went out to see the daughters of the land",
+            "Simeon and Levi attacked the city",
+            "Jacob held his peace",
+            "All the males of the city were circumcised"
           ],
-          "correctAnswer": "out",
-          "explanation": "Genesis 34:26 states they took Dinah out of Shechem's house after killing Shechem and Hamor.",
-          "verseReference": "Genesis 34:26",
+          "correctAnswer": "Dinah went out to see the daughters of the land",
+          "explanation": "Genesis 34:1 describes Dinah going out first before all other events.",
+          "verseReference": "Genesis 34:1",
           "difficulty": "easy"
         }
       ],
@@ -254,223 +256,221 @@
       "questions": [
         {
           "id": "genesis-34-medium-q1",
-          "question": "How does Genesis 34 teach us about dealing with the consequences of sin within a family?",
+          "question": "What condition did the sons of Jacob set for giving their daughters to the men of the land in marriage?",
           "type": "multiple-choice",
           "options": [
-            "By responding with measured justice and seeking reconciliation",
-            "By holding peace until the family can act collectively",
-            "By ignoring the offense and avoiding conflict",
-            "By immediately forgiving without addressing consequences"
+            "That every male be circumcised",
+            "That a large dowry be paid",
+            "That they worship Jacob's God",
+            "That they leave their land"
           ],
-          "correctAnswer": "By holding peace until the family can act collectively",
-          "explanation": "Jacob held his peace until his sons came back from the field after Dinah was defiled (Genesis 34:5). This shows the importance of thoughtful response and unity in family matters. Simeon and Levi later took action decisively (Genesis 34:25-27), highlighting the serious consequences of sin and the need for family solidarity.",
-          "verseReference": "Genesis 34:5",
+          "correctAnswer": "That every male be circumcised",
+          "explanation": "Genesis 34:15 states the sons of Jacob would consent to marriages only if every male among them was circumcised, reinforcing their covenant identity (Genesis 34:14-16).",
+          "verseReference": "Genesis 34:15",
           "difficulty": "medium"
         },
         {
           "id": "genesis-34-medium-q2",
-          "question": "What biblical principle about marriage and holiness can be learned from the sons of Jacob's response to Shechem's proposal?",
+          "question": "How did Shechem respond to the sons of Jacob's condition for marriage?",
           "type": "multiple-choice",
           "options": [
-            "Marriage should not be with those who do not share God’s covenant sign",
-            "Marriage is only a civil agreement",
-            "Marriage should be based purely on love without conditions",
-            "Marriage should be avoided with outsiders altogether"
+            "He deferred not to do the thing",
+            "He refused outright",
+            "He asked for time to consider",
+            "He sought help from his father"
           ],
-          "correctAnswer": "Marriage should not be with those who do not share God’s covenant sign",
-          "explanation": "The sons of Jacob insisted that Shechem and his people be circumcised before giving their sister to him in marriage (Genesis 34:14-16). This underscores the biblical importance of covenant faithfulness and holiness in marriage (Genesis 34:15, 34:16).",
-          "verseReference": "Genesis 34:14",
+          "correctAnswer": "He deferred not to do the thing",
+          "explanation": "Genesis 34:19 reveals that Shechem immediately agreed to be circumcised because he delighted in Dinah, showing his earnestness (Genesis 34:18-19).",
+          "verseReference": "Genesis 34:19",
           "difficulty": "medium"
         },
         {
           "id": "genesis-34-medium-q3",
-          "question": "A fellow believer struggles with forgiveness after a family betrayal. What lesson from Genesis 34 might help them understand the need to combine justice and wisdom?",
+          "question": "What was the motive behind Shechem's willingness to undergo circumcision?",
           "type": "multiple-choice",
           "options": [
-            "Justice may require decisive action but must be weighed carefully",
-            "Forgiveness means ignoring wrongdoing entirely",
-            "Revenge is the best way to restore honor",
-            "Avoiding conflict leads to peace"
+            "He desired to marry Dinah",
+            "He wanted political power",
+            "He feared Jacob's family",
+            "He sought wealth"
           ],
-          "correctAnswer": "Justice may require decisive action but must be weighed carefully",
-          "explanation": "Simeon and Levi acted decisively to punish Shechem’s wrongdoing (Genesis 34:25-27), but Jacob expressed concern about repercussions (Genesis 34:30). This shows the balance needed between justice and wisdom in responding to sin.",
-          "verseReference": "Genesis 34:25",
+          "correctAnswer": "He desired to marry Dinah",
+          "explanation": "Genesis 34:19 states that Shechem deferred not to be circumcised because he had delight in Jacob's daughter, indicating love and desire to marry her.",
+          "verseReference": "Genesis 34:19",
           "difficulty": "medium"
         },
         {
           "id": "genesis-34-medium-q4",
-          "question": "How does Genesis 34 demonstrate the importance of integrity and honesty in negotiations?",
+          "question": "According to Genesis 34, what was Hamor's argument to the men of his city about Jacob's people?",
           "type": "multiple-choice",
           "options": [
-            "The sons of Jacob answered deceitfully, showing the danger of lacking honesty",
-            "They spoke openly and trusted their neighbors",
-            "They avoided negotiations altogether",
-            "They made agreements based solely on goodwill"
+            "They are peaceable and the land is large enough for them",
+            "They are a threat to our city",
+            "They must be driven out",
+            "They seek to conquer our land"
           ],
-          "correctAnswer": "The sons of Jacob answered deceitfully, showing the danger of lacking honesty",
-          "explanation": "The sons of Jacob answered Hamor and Shechem deceitfully because of the offense against Dinah (Genesis 34:13). This illustrates how dishonesty can complicate relationships and conflicts, highlighting the biblical call for integrity (Genesis 34:13-14).",
-          "verseReference": "Genesis 34:13",
+          "correctAnswer": "They are peaceable and the land is large enough for them",
+          "explanation": "Genesis 34:21 shows Hamor told the city men that Jacob's people are peaceable and the land is ample, encouraging intermarriage and trade (Genesis 34:20-21).",
+          "verseReference": "Genesis 34:21",
           "difficulty": "medium"
         },
         {
           "id": "genesis-34-medium-q5",
-          "question": "What does the story of Dinah and Shechem teach about the consequences of yielding to temptation and sin?",
+          "question": "What did Hamor and Shechem say was necessary for the men to consent to dwell among them and be one people?",
           "type": "multiple-choice",
           "options": [
-            "Sin can bring serious harm and discord within families and communities",
-            "Sin is easily forgotten and forgiven without consequence",
-            "Temptation should be ignored as it will pass",
-            "Sin affects only the individual involved"
+            "Every male among them be circumcised",
+            "They pay a large tribute",
+            "They worship the city gods",
+            "They surrender their weapons"
           ],
-          "correctAnswer": "Sin can bring serious harm and discord within families and communities",
-          "explanation": "Shechem’s sin against Dinah led to violent retaliation by her brothers and lasting strife (Genesis 34:2, 34:25-29). This shows how sin impacts not only individuals but families and communities deeply.",
-          "verseReference": "Genesis 34:2",
+          "correctAnswer": "Every male among them be circumcised",
+          "explanation": "Genesis 34:22 states the men would only consent to dwell and become one people if all males were circumcised, connecting to the sons of Jacob's condition (Genesis 34:15-16).",
+          "verseReference": "Genesis 34:22",
           "difficulty": "medium"
         },
         {
           "id": "genesis-34-medium-q6",
-          "question": "How does Genesis 34 emphasize the biblical value of protecting family honor and purity?",
+          "question": "What does the passage teach about integrity based on the sons of Jacob's response to Shechem and Hamor?",
           "type": "multiple-choice",
           "options": [
-            "By taking strong action against those who harm family members",
-            "By quietly accepting offenses to avoid conflict",
-            "By hoping the offender will change without intervention",
-            "By immediately forgiving without consequences"
+            "They answered deceitfully because of their sister's defilement",
+            "They openly forgave and trusted them",
+            "They immediately accepted the marriage proposal",
+            "They asked for peace without conditions"
           ],
-          "correctAnswer": "By taking strong action against those who harm family members",
-          "explanation": "Simeon and Levi took swords and killed all the males of Shechem’s city after Dinah was defiled (Genesis 34:25-26). This reflects the biblical importance placed on protecting family honor and purity.",
-          "verseReference": "Genesis 34:25",
+          "correctAnswer": "They answered deceitfully because of their sister's defilement",
+          "explanation": "Genesis 34:13 reveals the sons of Jacob answered deceitfully due to Shechem's defilement of Dinah, illustrating a complex response balancing justice and strategy.",
+          "verseReference": "Genesis 34:13",
           "difficulty": "medium"
         },
         {
           "id": "genesis-34-medium-q7",
-          "question": "True or False: According to Genesis 34, Shechem genuinely loved Dinah and sought to marry her honorably.",
+          "question": "True or False: Hamor and Shechem's proposal included exchanging daughters for marriage and dwelling together peacefully with Jacob's family.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Shechem’s soul clave to Dinah and he spoke kindly and asked his father to get her for a wife (Genesis 34:3-4), indicating his love and desire to marry her legitimately despite his initial sin.",
-          "verseReference": "Genesis 34:3",
+          "explanation": "Genesis 34:9-10 shows Hamor proposed mutual marriage and dwelling together, emphasizing peaceful coexistence and integration.",
+          "verseReference": "Genesis 34:9",
           "difficulty": "medium"
         },
         {
           "id": "genesis-34-medium-q8",
-          "question": "True or False: Jacob immediately reacted with anger and violence upon hearing about Dinah's defilement.",
+          "question": "What does Genesis 34:17 imply will happen if the men of the city refuse to be circumcised?",
+          "type": "multiple-choice",
+          "options": [
+            "Jacob's sons will take their daughter and leave",
+            "They will wage war on the city",
+            "They will accept the refusal",
+            "They will negotiate another treaty"
+          ],
+          "correctAnswer": "Jacob's sons will take their daughter and leave",
+          "explanation": "Genesis 34:17 warns that refusal to be circumcised means the sons of Jacob will take Dinah and depart, showing the seriousness of their condition (Genesis 34:15-17).",
+          "verseReference": "Genesis 34:17",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-34-medium-q9",
+          "question": "How does this passage demonstrate the importance of obedience to God’s covenant?",
+          "type": "multiple-choice",
+          "options": [
+            "The sons of Jacob insist on circumcision to maintain covenant identity",
+            "They ignore the covenant for peace",
+            "They allow marriages without any condition",
+            "They change the covenant demands"
+          ],
+          "correctAnswer": "The sons of Jacob insist on circumcision to maintain covenant identity",
+          "explanation": "Verses 14-16 emphasize circumcision as essential for marriage and unity, illustrating obedience to God's covenant as vital for their identity.",
+          "verseReference": "Genesis 34:14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-34-medium-q10",
+          "question": "What does Genesis 34:12 reveal about Shechem's attitude toward the marriage proposal?",
+          "type": "multiple-choice",
+          "options": [
+            "He is willing to pay any dowry or gift to have Dinah",
+            "He is unwilling to offer anything",
+            "He demands that Jacob gives Dinah freely",
+            "He wants to marry without conditions"
+          ],
+          "correctAnswer": "He is willing to pay any dowry or gift to have Dinah",
+          "explanation": "Genesis 34:12 shows Shechem's readiness to give whatever dowry or gift is asked to marry Dinah, demonstrating his earnest desire.",
+          "verseReference": "Genesis 34:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-34-medium-q11",
+          "question": "True or False: The men of the city agreed to circumcise all their males immediately after hearing Hamor and Shechem's proposal.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Genesis 34:24 states all the males who went out of the city gate were circumcised, showing their acceptance of the condition.",
+          "verseReference": "Genesis 34:24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-34-medium-q12",
+          "question": "How does the passage illustrate the dangers of deceit even when motivated by justice?",
+          "type": "multiple-choice",
+          "options": [
+            "The sons of Jacob used deceit to achieve retribution",
+            "They openly confronted the offenders",
+            "They sought peaceful reconciliation",
+            "They ignored the offense"
+          ],
+          "correctAnswer": "The sons of Jacob used deceit to achieve retribution",
+          "explanation": "Genesis 34:13-14 explains that the sons of Jacob answered deceitfully, which led to violent consequences, showing that even justice can be complicated by deceit.",
+          "verseReference": "Genesis 34:13",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-34-medium-q13",
+          "question": "What lesson about unity and community does Genesis 34:16 communicate?",
+          "type": "multiple-choice",
+          "options": [
+            "Unity requires shared commitment, such as circumcision",
+            "Unity can be achieved without any conditions",
+            "Unity is impossible between different peoples",
+            "Unity is only for family members"
+          ],
+          "correctAnswer": "Unity requires shared commitment, such as circumcision",
+          "explanation": "Genesis 34:16 promises that becoming one people involves mutual commitment to covenant signs, emphasizing the need for shared values for true unity.",
+          "verseReference": "Genesis 34:16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-34-medium-q14",
+          "question": "What does Genesis 34:18 suggest about Hamor and Shechem's reaction to the sons of Jacob's terms?",
+          "type": "multiple-choice",
+          "options": [
+            "They were pleased with the terms",
+            "They rejected the terms",
+            "They were indifferent",
+            "They sought another solution"
+          ],
+          "correctAnswer": "They were pleased with the terms",
+          "explanation": "Genesis 34:18 explicitly states their words pleased Hamor and Shechem, indicating acceptance of the sons of Jacob's condition.",
+          "verseReference": "Genesis 34:18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "genesis-34-medium-q15",
+          "question": "True or False: The sons of Jacob demanded the men be circumcised out of hatred and without any concern for covenant faithfulness.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Jacob held his peace when he first heard about Dinah’s defilement and waited until his sons returned from the field (Genesis 34:5), showing patience and restraint.",
-          "verseReference": "Genesis 34:5",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-34-medium-q9",
-          "question": "How does Genesis 34 illustrate the challenges of unity and fellowship between believers and unbelievers?",
-          "type": "multiple-choice",
-          "options": [
-            "Unity requires shared faith and covenant commitments like circumcision",
-            "Unity is easily achieved through social agreements alone",
-            "Fellowship should be avoided with those outside the faith",
-            "Faith differences do not affect fellowship"
-          ],
-          "correctAnswer": "Unity requires shared faith and covenant commitments like circumcision",
-          "explanation": "The sons of Jacob insisted on circumcision before intermarriage and fellowship (Genesis 34:15-16). This shows the biblical principle that true unity requires common faith and obedience to God’s covenant.",
-          "verseReference": "Genesis 34:15",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-34-medium-q10",
-          "question": "A believer faces pressure to compromise moral convictions for social gain. What does Genesis 34 teach about standing firm in God’s standards?",
-          "type": "multiple-choice",
-          "options": [
-            "Do not compromise God’s commands even if it causes conflict",
-            "Compromise is necessary for social peace",
-            "Moral convictions should be flexible",
-            "Social gain justifies ignoring God’s law"
-          ],
-          "correctAnswer": "Do not compromise God’s commands even if it causes conflict",
-          "explanation": "Jacob’s sons refused to give their sister to an uncircumcised man, insisting on obedience to God’s covenant even though it caused strife (Genesis 34:14-17). This teaches standing firm in God’s standards.",
+          "explanation": "The demand for circumcision was rooted in covenant faithfulness and not hatred, as seen in Genesis 34:14-15, emphasizing maintaining their identity and God's law.",
           "verseReference": "Genesis 34:14",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-34-medium-q11",
-          "question": "What practical lesson about stewardship can be drawn from the aftermath of the conflict in Shechem’s city?",
-          "type": "multiple-choice",
-          "options": [
-            "God’s people should be mindful of how their actions affect their possessions and relationships",
-            "Taking spoils justifies reckless behavior",
-            "Material wealth is unimportant",
-            "Stewardship only applies to personal property"
-          ],
-          "correctAnswer": "God’s people should be mindful of how their actions affect their possessions and relationships",
-          "explanation": "After the attack, the sons of Jacob took spoils and captives (Genesis 34:27-29), but Jacob worried about their reputation and safety (Genesis 34:30). This shows the need for wise stewardship in all affairs.",
-          "verseReference": "Genesis 34:30",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-34-medium-q12",
-          "question": "How does the response of Simeon and Levi in Genesis 34 challenge believers regarding perseverance through trials and injustice?",
-          "type": "multiple-choice",
-          "options": [
-            "It shows that taking decisive action against injustice can be necessary",
-            "It encourages passivity in face of wrongdoing",
-            "It teaches to always forgive immediately",
-            "It suggests hiding from conflict"
-          ],
-          "correctAnswer": "It shows that taking decisive action against injustice can be necessary",
-          "explanation": "Simeon and Levi acted boldly with swords to avenge their sister’s dishonor (Genesis 34:25-26), demonstrating perseverance and active response to injustice when necessary.",
-          "verseReference": "Genesis 34:25",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-34-medium-q13",
-          "question": "Fill-in-the-blank: In Genesis 34, the sons of Jacob said they would consent to marriage with Shechem's people only if every male would ________.",
-          "type": "fill-in-the-blank",
-          "options": [
-            "be circumcised",
-            "pay a large dowry",
-            "leave their city",
-            "become servants"
-          ],
-          "correctAnswer": "be circumcised",
-          "explanation": "The sons of Jacob insisted that all the males must be circumcised to share the covenant and be united as one people before intermarriage (Genesis 34:15-17).",
-          "verseReference": "Genesis 34:15",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-34-medium-q14",
-          "question": "How does Genesis 34 show the impact of leadership and parental concern in family crises?",
-          "type": "multiple-choice",
-          "options": [
-            "Jacob’s concern for his family’s safety shows the role of wise leadership",
-            "Parents should always leave decisions to children",
-            "Leadership involves ignoring family problems",
-            "Parental concern is only about financial matters"
-          ],
-          "correctAnswer": "Jacob’s concern for his family’s safety shows the role of wise leadership",
-          "explanation": "Jacob expressed worry that his family would be attacked because of his sons’ actions (Genesis 34:30), showing the importance of parental leadership and care in crises.",
-          "verseReference": "Genesis 34:30",
-          "difficulty": "medium"
-        },
-        {
-          "id": "genesis-34-medium-q15",
-          "question": "What does Genesis 34 teach about the dangers of quick emotional reactions without seeking God’s guidance?",
-          "type": "multiple-choice",
-          "options": [
-            "Hasty violence can lead to greater trouble and loss",
-            "Immediate revenge is always right",
-            "Ignoring offenses is best",
-            "Emotional reactions solve problems fully"
-          ],
-          "correctAnswer": "Hasty violence can lead to greater trouble and loss",
-          "explanation": "Simeon and Levi’s violent retaliation caused Jacob distress and fear for their safety (Genesis 34:30-31), illustrating dangers of acting impulsively without seeking God’s guidance.",
-          "verseReference": "Genesis 34:30",
           "difficulty": "medium"
         }
       ],
@@ -497,223 +497,223 @@
       "questions": [
         {
           "id": "genesis-34-hard-q1",
-          "question": "What was the initial action that led to the conflict in Genesis 34?",
+          "question": "In Genesis 34, what was the condition set by the sons of Jacob for the men of Shechem to marry their sisters?",
           "type": "multiple-choice",
           "options": [
-            "Dinah went out to see the daughters of the land",
-            "Shechem asked for Dinah's hand in marriage",
-            "Jacob's sons attacked the city",
-            "Hamor proposed intermarriage"
+            "They must give a large dowry",
+            "They must be circumcised",
+            "They must become servants",
+            "They must move away from their land"
           ],
-          "correctAnswer": "Dinah went out to see the daughters of the land",
-          "explanation": "Genesis 34:1 explains that Dinah went out to see the daughters of the land, which led to her encounter with Shechem and the subsequent events.",
-          "verseReference": "Genesis 34:1",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-34-hard-q2",
-          "question": "Which cultural practice is central to the sons of Jacob’s condition for intermarriage?",
-          "type": "multiple-choice",
-          "options": [
-            "Circumcision",
-            "Animal sacrifice",
-            "Offering dowry",
-            "Observance of the Sabbath"
-          ],
-          "correctAnswer": "Circumcision",
-          "explanation": "Genesis 34:15 records that the sons of Jacob said they would only consent to intermarriage if all the males were circumcised, reflecting a key covenantal sign in Israelite identity.",
+          "correctAnswer": "They must be circumcised",
+          "explanation": "The sons of Jacob said they would give their daughters only if every male among the men of Shechem was circumcised, as recorded in Genesis 34:15.",
           "verseReference": "Genesis 34:15",
           "difficulty": "hard"
         },
         {
-          "id": "genesis-34-hard-q3",
-          "question": "How did Shechem respond to the proposal of circumcision?",
+          "id": "genesis-34-hard-q2",
+          "question": "Who were the two sons of Jacob that led the attack against the city of Shechem?",
           "type": "multiple-choice",
           "options": [
-            "He agreed immediately because of his love for Dinah",
-            "He refused and fled the city",
-            "He requested more time to consider",
-            "He mocked the idea"
-          ],
-          "correctAnswer": "He agreed immediately because of his love for Dinah",
-          "explanation": "Genesis 34:19 states that Shechem did not delay to be circumcised because he delighted in Jacob’s daughter, showing his eagerness to unite with them.",
-          "verseReference": "Genesis 34:19",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-34-hard-q4",
-          "question": "What was the literary significance of the sons of Jacob’s deceitful agreement to circumcision?",
-          "type": "multiple-choice",
-          "options": [
-            "It sets a tragic irony where religious ritual is manipulated for revenge",
-            "It foreshadows the establishment of a new covenant",
-            "It symbolizes the unity between Israelites and Hivites",
-            "It reflects the theme of hospitality in ancient Near Eastern culture"
-          ],
-          "correctAnswer": "It sets a tragic irony where religious ritual is manipulated for revenge",
-          "explanation": "Genesis 34:13-17 shows the sons’ deceit, revealing how the sacred rite of circumcision is exploited for violent vengeance, which contrasts with its intended covenantal meaning.",
-          "verseReference": "Genesis 34:13-17",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-34-hard-q5",
-          "question": "Who were the two sons of Jacob that led the attack on the city of Shechem?",
-          "type": "multiple-choice",
-          "options": [
-            "Simeon and Levi",
             "Reuben and Judah",
+            "Simeon and Levi",
             "Joseph and Benjamin",
             "Gad and Asher"
           ],
           "correctAnswer": "Simeon and Levi",
-          "explanation": "Genesis 34:25 clearly identifies Simeon and Levi as the brothers who took swords and killed the males of the city in retaliation for Dinah’s defilement.",
+          "explanation": "Simeon and Levi, Dinah’s brothers, took swords and attacked the city as stated in Genesis 34:25.",
           "verseReference": "Genesis 34:25",
           "difficulty": "hard"
         },
         {
-          "id": "genesis-34-hard-q6",
-          "question": "How does Genesis 34 reflect the ancient Near Eastern practice of bride price or dowry negotiation?",
+          "id": "genesis-34-hard-q3",
+          "question": "According to Genesis 34, what did the sons of Jacob do after killing the men of the city?",
           "type": "multiple-choice",
           "options": [
-            "Shechem offers to pay any dowry requested for Dinah",
-            "Jacob immediately demands a dowry from Hamor",
-            "The city elders refuse any bride price",
-            "Dinah’s brothers demand a double dowry"
+            "They rebuilt the city",
+            "They took Dinah and left peacefully",
+            "They spoiled the city and took captives",
+            "They made peace treaties"
           ],
-          "correctAnswer": "Shechem offers to pay any dowry requested for Dinah",
-          "explanation": "In Genesis 34:11-12, Shechem offers to pay any dowry or gift the brothers require, illustrating the cultural practice of bride price negotiation common in the ancient Near East.",
-          "verseReference": "Genesis 34:11-12",
+          "correctAnswer": "They spoiled the city and took captives",
+          "explanation": "Genesis 34:27-29 shows that after killing the males, the sons of Jacob spoiled the city, taking livestock, wealth, children, and wives captive.",
+          "verseReference": "Genesis 34:27",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-34-hard-q4",
+          "question": "What concern did Jacob express to Simeon and Levi after their attack on Shechem?",
+          "type": "multiple-choice",
+          "options": [
+            "They would be praised by the neighbors",
+            "Their actions would make him stink among the inhabitants",
+            "He was proud of their boldness",
+            "He wanted them to settle in the city"
+          ],
+          "correctAnswer": "Their actions would make him stink among the inhabitants",
+          "explanation": "Jacob expressed fear that the surrounding peoples would retaliate and that he and his house would be destroyed, as per Genesis 34:30.",
+          "verseReference": "Genesis 34:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-34-hard-q5",
+          "question": "What was the response of Hamor and Shechem to the sons of Jacob’s demand for circumcision?",
+          "type": "multiple-choice",
+          "options": [
+            "They refused outright",
+            "They agreed and convinced the city to comply",
+            "They asked for more time",
+            "They sought help from other kings"
+          ],
+          "correctAnswer": "They agreed and convinced the city to comply",
+          "explanation": "Genesis 34:18-24 records that Hamor and Shechem agreed and persuaded all the males in their city to be circumcised.",
+          "verseReference": "Genesis 34:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-34-hard-q6",
+          "question": "What literary device is prominently used in Genesis 34 in the narrative of deceit and revenge between Jacob’s sons and Shechem’s people?",
+          "type": "multiple-choice",
+          "options": [
+            "Chiasm",
+            "Parable",
+            "Foreshadowing",
+            "Inclusio"
+          ],
+          "correctAnswer": "Chiasm",
+          "explanation": "The chapter’s structure forms a chiasm: the initial violation (defilement of Dinah), deceit through the circumcision proposal, followed by revenge and destruction, mirroring the beginning and end of the narrative.",
+          "verseReference": "Genesis 34:13-26",
           "difficulty": "hard"
         },
         {
           "id": "genesis-34-hard-q7",
-          "question": "What is the significance of Shechem being called \"prince of the country\" in this narrative?",
+          "question": "What Hebrew word underlies the term 'defiled' as used in Genesis 34:2, and what is its significance?",
           "type": "multiple-choice",
           "options": [
-            "It emphasizes his political power and influence",
-            "It shows he was a foreign king",
-            "It indicates he was a priest",
-            "It means he was a military general"
+            "Tamam - meaning to be complete or innocent",
+            "Chazaq - meaning to be strong",
+            "Chata - meaning to sin or miss the mark",
+            "Naba - meaning to prophesy"
           ],
-          "correctAnswer": "It emphasizes his political power and influence",
-          "explanation": "Genesis 34:2 describes Shechem as the son of Hamor the Hivite, prince of the country, highlighting his role as a local ruler, which adds gravity to the conflict with Jacob’s family.",
+          "correctAnswer": "Chata - meaning to sin or miss the mark",
+          "explanation": "'Defiled' corresponds to the Hebrew root חטא (chata), which indicates sin or moral failure, emphasizing the gravity of Shechem’s act against Dinah in Genesis 34:2.",
           "verseReference": "Genesis 34:2",
           "difficulty": "hard"
         },
         {
           "id": "genesis-34-hard-q8",
-          "question": "True or False: Jacob immediately responded with anger upon hearing about Dinah’s defilement.",
+          "question": "Which New Testament passage echoes the theme of circumcision and covenant identity related to Genesis 34?",
+          "type": "multiple-choice",
+          "options": [
+            "Romans 2:25-29",
+            "Matthew 5:44-48",
+            "Acts 2:1-4",
+            "Philippians 4:13"
+          ],
+          "correctAnswer": "Romans 2:25-29",
+          "explanation": "Romans 2:25-29 discusses true circumcision as a matter of the heart, connecting the physical circumcision requirement in Genesis 34 to spiritual identity.",
+          "verseReference": "Genesis 34:15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-34-hard-q9",
+          "question": "In Genesis 34, what did Shechem offer to pay for marrying Dinah?",
+          "type": "multiple-choice",
+          "options": [
+            "No payment, just a promise",
+            "A large dowry and gifts as requested",
+            "Half of his kingdom",
+            "Livestock and silver only"
+          ],
+          "correctAnswer": "A large dowry and gifts as requested",
+          "explanation": "Shechem offered to give whatever dowry and gifts were asked, as recorded in Genesis 34:11-12.",
+          "verseReference": "Genesis 34:11",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-34-hard-q10",
+          "question": "What was the reaction of the sons of Jacob when they first heard about Dinah’s defilement?",
+          "type": "multiple-choice",
+          "options": [
+            "They rejoiced",
+            "They were grieved and very wroth",
+            "They ignored it",
+            "They immediately attacked the city"
+          ],
+          "correctAnswer": "They were grieved and very wroth",
+          "explanation": "Genesis 34:7 states the sons of Jacob were grieved and very angry about the folly done in Israel.",
+          "verseReference": "Genesis 34:7",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-34-hard-q11",
+          "question": "What did the sons of Jacob deceitfully tell Hamor and Shechem to gain time and advantage?",
+          "type": "multiple-choice",
+          "options": [
+            "That they needed a large bride price",
+            "That they could not give their sister to uncircumcised men",
+            "That they agreed to the marriage immediately",
+            "That they had no daughters to give"
+          ],
+          "correctAnswer": "That they could not give their sister to uncircumcised men",
+          "explanation": "They lied, stating it would be a reproach to give their sister to uncircumcised men, as seen in Genesis 34:14.",
+          "verseReference": "Genesis 34:14",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-34-hard-q12",
+          "question": "True or False: According to Genesis 34:31, the brothers believed it was right for Shechem to treat their sister as a harlot.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Genesis 34:5 notes that Jacob held his peace until his sons came back, indicating he did not immediately react with anger.",
-          "verseReference": "Genesis 34:5",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-34-hard-q9",
-          "question": "What theme in Genesis 34 is echoed in the New Testament in terms of the consequences of violating family honor?",
-          "type": "multiple-choice",
-          "options": [
-            "The seriousness of sexual sin and its social ramifications",
-            "The importance of circumcision for salvation",
-            "The practice of arranged marriages",
-            "The prohibition of intermarriage with Gentiles"
-          ],
-          "correctAnswer": "The seriousness of sexual sin and its social ramifications",
-          "explanation": "The violation of Dinah and the violent reaction of her brothers in Genesis 34 reflects broader biblical themes about sexual purity and family honor, which are also addressed in the New Testament (e.g., 1 Corinthians 6:18).",
-          "verseReference": "Genesis 34:2, 25",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-34-hard-q10",
-          "question": "How does the use of the phrase 'defiled her' in Genesis 34:2 carry theological weight in the Hebrew context?",
-          "type": "multiple-choice",
-          "options": [
-            "It denotes a violation of purity laws and family covenant",
-            "It is a neutral term for marriage",
-            "It implies a legal adoption",
-            "It refers to a blessing"
-          ],
-          "correctAnswer": "It denotes a violation of purity laws and family covenant",
-          "explanation": "The Hebrew term translated as 'defiled' (חָלַל, chalal) implies a desecration or violation, particularly in a sexual or covenantal context, underscoring the gravity of Shechem’s act (Genesis 34:2).",
-          "verseReference": "Genesis 34:2",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-34-hard-q11",
-          "question": "What was Jacob’s concern after Simeon and Levi attacked Shechem’s city?",
-          "type": "multiple-choice",
-          "options": [
-            "That the inhabitants of the land would gather against him and destroy his household",
-            "That his sons would be praised by the other nations",
-            "That Dinah would be rejected by her brothers",
-            "That Shechem would retaliate"
-          ],
-          "correctAnswer": "That the inhabitants of the land would gather against him and destroy his household",
-          "explanation": "Genesis 34:30 records Jacob’s fear that the surrounding Canaanites and Perizzites would unite to attack him because of the violent actions of Simeon and Levi.",
-          "verseReference": "Genesis 34:30",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-34-hard-q12",
-          "question": "What literary device is evident in Genesis 34 through the brothers’ deceptive agreement to circumcision followed by violent revenge?",
-          "type": "multiple-choice",
-          "options": [
-            "Irony",
-            "Chiasm",
-            "Foreshadowing",
-            "Parallelism"
-          ],
-          "correctAnswer": "Irony",
-          "explanation": "The brothers’ use of circumcision, a sacred covenant sign, as a deceptive trap for vengeance is an example of irony, contrasting expected holiness with brutal violence (Genesis 34:13-25).",
-          "verseReference": "Genesis 34:13-25",
+          "explanation": "Genesis 34:31 shows the brothers questioned how Shechem could treat their sister as a harlot, indicating their strong disapproval.",
+          "verseReference": "Genesis 34:31",
           "difficulty": "hard"
         },
         {
           "id": "genesis-34-hard-q13",
-          "question": "How does Genesis 34 reflect the broader biblical theme of the dangers of intermarriage with surrounding nations?",
-          "type": "multiple-choice",
-          "options": [
-            "It shows how intermarriage could lead to conflict and idolatry",
-            "It celebrates cultural integration",
-            "It mandates intermarriage for peace",
-            "It ignores the issue completely"
-          ],
-          "correctAnswer": "It shows how intermarriage could lead to conflict and idolatry",
-          "explanation": "Genesis 34 shows the tension and tragedy arising from intermarriage with Hivites, foreshadowing later biblical prohibitions and warnings against such unions (cf. Deuteronomy 7:3-4).",
-          "verseReference": "Genesis 34:9-17",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-34-hard-q14",
-          "question": "What is the significance of the sons of Jacob spoiling the city after the massacre?",
-          "type": "multiple-choice",
-          "options": [
-            "It signifies total retribution and destruction of the enemy’s resources",
-            "It was a ritual purification",
-            "It was an act of hospitality",
-            "It was a sign of surrender"
-          ],
-          "correctAnswer": "It signifies total retribution and destruction of the enemy’s resources",
-          "explanation": "Genesis 34:27-29 describes how the brothers took livestock, wealth, and captives, demonstrating complete plunder as part of their violent retaliation.",
-          "verseReference": "Genesis 34:27-29",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-34-hard-q15",
-          "question": "True or False: The sons of Jacob justified their violent actions by appealing to the treatment of their sister as a harlot.",
+          "question": "True or False: The sons of Jacob took the livestock and wealth of Shechem’s city after destroying it, according to Genesis 34.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Genesis 34:31 shows Simeon and Levi defending their actions by stating, “Should he deal with our sister as with an harlot?” indicating their motive was to defend family honor.",
-          "verseReference": "Genesis 34:31",
+          "explanation": "Genesis 34:28-29 states that the sons of Jacob took the livestock, wealth, and all possessions from the city after the attack.",
+          "verseReference": "Genesis 34:28",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-34-hard-q14",
+          "question": "Which Old Testament passage contains a similar theme of violent retribution for violation of family honor, echoing Genesis 34?",
+          "type": "multiple-choice",
+          "options": [
+            "Judges 19",
+            "Exodus 12",
+            "Leviticus 19",
+            "1 Samuel 17"
+          ],
+          "correctAnswer": "Judges 19",
+          "explanation": "Judges 19 recounts a similarly violent episode involving the defilement of a woman and consequential retribution, echoing the themes of Genesis 34.",
+          "verseReference": "Genesis 34:25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-34-hard-q15",
+          "question": "What was the original audience’s likely cultural understanding of the demand for circumcision in Genesis 34?",
+          "type": "multiple-choice",
+          "options": [
+            "A meaningless ritual",
+            "A physical sign of covenant and identity",
+            "A magical spell",
+            "A common trade practice"
+          ],
+          "correctAnswer": "A physical sign of covenant and identity",
+          "explanation": "Circumcision was the ancient covenant sign between God and Abraham’s descendants, representing identity and faithfulness as per Genesis 17 and reflected in Genesis 34:15.",
+          "verseReference": "Genesis 34:15",
           "difficulty": "hard"
         }
       ],
@@ -740,242 +740,227 @@
       "questions": [
         {
           "id": "genesis-34-theological-q1",
-          "question": "What was the initial act committed by Shechem toward Dinah that triggered the events of Genesis 34?",
+          "question": "What theological doctrine is primarily illustrated by the deceitful proposal of Jacob's sons to the men of Shechem in Genesis 34:13-17?",
           "type": "multiple-choice",
           "options": [
-            "He took her and defiled her",
-            "He asked for her hand in marriage",
-            "He sent gifts to Jacob",
-            "He attacked Jacob's sons"
+            "The doctrine of covenant community and separation from the ungodly",
+            "The doctrine of divine providence in judgment",
+            "The doctrine of original sin",
+            "The doctrine of justification by faith"
           ],
-          "correctAnswer": "He took her and defiled her",
-          "explanation": "Genesis 34:2 states that Shechem took Dinah and lay with her, defiling her. This act is the catalyst of the chapter's narrative and highlights sin's destructive impact, consistent with biblical teachings on sexual immorality (Exodus 22:16-17, 1 Corinthians 6:18, Hebrews 13:4, Proverbs 6:32).",
-          "verseReference": "Genesis 34:2",
+          "correctAnswer": "The doctrine of covenant community and separation from the ungodly",
+          "explanation": "Genesis 34:13-17 shows Jacob's sons refusing to intermarry with uncircumcised men, emphasizing God's covenant sign of circumcision as a boundary marker for His people, thus highlighting the theological principle of holiness and separation from the ungodly.",
+          "verseReference": "Genesis 34:13-17",
           "difficulty": "hard"
         },
         {
           "id": "genesis-34-theological-q2",
-          "question": "How did Shechem express his feelings toward Dinah after he defiled her?",
+          "question": "Which attribute of God is indirectly revealed by Jacob's initial silence concerning Dinah's defilement until his sons returned in Genesis 34:5?",
           "type": "multiple-choice",
           "options": [
-            "His soul clave unto her and he loved her",
-            "He ignored her and moved away",
-            "He sought revenge against Jacob",
-            "He immediately married another"
+            "God's patience and sovereign timing",
+            "God's omniscience",
+            "God's wrath",
+            "God's mercy"
           ],
-          "correctAnswer": "His soul clave unto her and he loved her",
-          "explanation": "Genesis 34:3 reveals Shechem's emotional attachment, showing his soul cleaving to Dinah and his love for her. This illustrates the complexity of human sin and affection, paralleling biblical references to love and repentance (Ruth 1:14, Hosea 2:19, John 3:16, Romans 5:8).",
-          "verseReference": "Genesis 34:3",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-34-theological-q3",
-          "question": "What was Jacob’s initial reaction upon hearing that Dinah was defiled?",
-          "type": "multiple-choice",
-          "options": [
-            "He held his peace until his sons came",
-            "He immediately attacked Hamor",
-            "He sent Dinah away",
-            "He arranged a marriage quickly"
-          ],
-          "correctAnswer": "He held his peace until his sons came",
-          "explanation": "Genesis 34:5 states Jacob held his peace when he heard Dinah was defiled, waiting for his sons to return. This restraint contrasts human anger with God’s sovereign timing (Ecclesiastes 3:1, Proverbs 15:18, James 1:19, Psalm 37:7).",
+          "correctAnswer": "God's patience and sovereign timing",
+          "explanation": "Genesis 34:5 indicates Jacob 'held his peace until they were come,' which can be understood as a divine principle of patient timing in human affairs, reflecting God's attribute of patience and sovereign control over events.",
           "verseReference": "Genesis 34:5",
           "difficulty": "hard"
         },
         {
-          "id": "genesis-34-theological-q4",
-          "question": "Hamor proposed marriages between his people and Jacob’s family on what condition?",
+          "id": "genesis-34-theological-q3",
+          "question": "How does the narrative of Genesis 34:25-29 contribute to the biblical theology of divine justice and retribution?",
           "type": "multiple-choice",
           "options": [
-            "That Jacob’s sons agree to circumcision",
-            "That Jacob pay a large dowry",
-            "That Dinah be sent away",
-            "That the families remain separate"
+            "By showing that sin against God's people leads to severe judgment",
+            "By illustrating God's forgiveness through immediate reconciliation",
+            "By emphasizing the importance of sacrifice for atonement",
+            "By demonstrating God's indifference to human sin"
           ],
-          "correctAnswer": "That Jacob’s sons agree to circumcision",
-          "explanation": "Genesis 34:15 shows Hamor agreeing to intermarriage only if all males are circumcised, reflecting covenant identity and holiness (Genesis 17:10-14, Leviticus 12:3, Romans 2:25-29, Colossians 2:11).",
-          "verseReference": "Genesis 34:15",
+          "correctAnswer": "By showing that sin against God's people leads to severe judgment",
+          "explanation": "Genesis 34:25-29 recounts Simeon and Levi's violent judgment against Shechem and his city for defiling Dinah, demonstrating that sin against God's covenant people invokes serious consequences, underscoring divine justice.",
+          "verseReference": "Genesis 34:25-29",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-34-theological-q4",
+          "question": "What does the proposal in Genesis 34:9-12 reveal about the sons of Jacob's understanding of God's covenant community?",
+          "type": "multiple-choice",
+          "options": [
+            "They expected the Gentiles to conform to their covenantal standards",
+            "They sought political alliance without spiritual conditions",
+            "They wanted to assimilate into the local culture",
+            "They were indifferent to covenant purity"
+          ],
+          "correctAnswer": "They expected the Gentiles to conform to their covenantal standards",
+          "explanation": "In Genesis 34:9-12, Jacob's sons demand circumcision as a prerequisite for marriage, showing their conviction that outsiders must submit to the covenant sign to be part of God's people, highlighting covenant faithfulness.",
+          "verseReference": "Genesis 34:9-12",
           "difficulty": "hard"
         },
         {
           "id": "genesis-34-theological-q5",
-          "question": "Why did Jacob’s sons say they could not give Dinah to Shechem before circumcision?",
+          "question": "What combined doctrinal insight about human sin and justice is conveyed by Genesis 34:2 and Genesis 34:25-26?",
           "type": "multiple-choice",
           "options": [
-            "Because Shechem was uncircumcised, which would be a reproach",
-            "Because Shechem was a foreigner",
-            "Because they disliked Shechem's family",
-            "Because Dinah refused"
+            "Sin leads to defilement and demands just recompense",
+            "Sin is overlooked by God's people",
+            "Sin is always forgiven without consequence",
+            "Sin justifies retaliation without moral distinction"
           ],
-          "correctAnswer": "Because Shechem was uncircumcised, which would be a reproach",
-          "explanation": "Genesis 34:14 explains Jacob’s sons refused to give Dinah to an uncircumcised man, emphasizing the importance of covenantal signs in Israel’s identity (Genesis 17:9-14, Exodus 12:48-49, Deuteronomy 10:16, Jeremiah 9:25-26).",
-          "verseReference": "Genesis 34:14",
+          "correctAnswer": "Sin leads to defilement and demands just recompense",
+          "explanation": "Genesis 34:2 shows Shechem's sin in defiling Dinah, and Genesis 34:25-26 describes the just retribution by Jacob's sons, illustrating the biblical truth that sin causes defilement and requires righteous judgment.",
+          "verseReference": "Genesis 34:2, 25-26",
           "difficulty": "hard"
         },
         {
           "id": "genesis-34-theological-q6",
-          "question": "What was the response of Hamor and Shechem’s city to the demand for circumcision?",
+          "question": "How does Genesis 34:31 reflect the theological principle of defending the honor of the covenant family?",
           "type": "multiple-choice",
           "options": [
-            "They all agreed and were circumcised",
-            "They rejected the proposal outright",
-            "They attacked Jacob's family",
-            "They asked for more time to decide"
+            "By affirming that wrong done to a family member must be avenged",
+            "By promoting reconciliation without justice",
+            "By suggesting indifference to familial honor",
+            "By emphasizing personal revenge over communal responsibility"
           ],
-          "correctAnswer": "They all agreed and were circumcised",
-          "explanation": "Genesis 34:24 states that all the males of the city consented and were circumcised, showing a temporary unity and compromise, which resulted in judgment consistent with God's holiness demands (Exodus 12:48, Joshua 5:2-9, Acts 15:1-21, Galatians 5:2-6).",
-          "verseReference": "Genesis 34:24",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-34-theological-q7",
-          "question": "Who led the attack on the city three days after the circumcision, and why was it timed then?",
-          "type": "multiple-choice",
-          "options": [
-            "Simeon and Levi led the attack when the men were sore",
-            "Jacob led the attack immediately",
-            "Shechem's brothers attacked first",
-            "Dinah organized the defense"
-          ],
-          "correctAnswer": "Simeon and Levi led the attack when the men were sore",
-          "explanation": "Genesis 34:25 describes Simeon and Levi attacking when the men were weakened by circumcision, demonstrating a harsh judgment for the defilement of their sister and the deceit involved (Deuteronomy 32:35, Romans 12:19, Ezekiel 25:17, Psalm 94:1-2).",
-          "verseReference": "Genesis 34:25",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-34-theological-q8",
-          "question": "What was the outcome of Simeon and Levi’s attack on the city?",
-          "type": "multiple-choice",
-          "options": [
-            "They slew all the males and took captives",
-            "They were defeated and fled",
-            "They made peace with the city",
-            "They rescued Dinah and left"
-          ],
-          "correctAnswer": "They slew all the males and took captives",
-          "explanation": "Genesis 34:26-29 shows the complete destruction of the city's males and taking captives and spoils, reflecting Old Testament themes of divine justice and judgment (Numbers 31:7-9, Joshua 6:21, Judges 20:48, 1 Samuel 15:3).",
-          "verseReference": "Genesis 34:26",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-34-theological-q9",
-          "question": "What was Jacob’s reaction to Simeon and Levi’s violent actions?",
-          "type": "multiple-choice",
-          "options": [
-            "He said they troubled him among the inhabitants",
-            "He praised their courage",
-            "He ordered a retreat",
-            "He rejoiced in their justice"
-          ],
-          "correctAnswer": "He said they troubled him among the inhabitants",
-          "explanation": "Genesis 34:30 records Jacob's concern that his sons’ actions caused trouble and jeopardized their safety among the Canaanites, showing the tension between justice and prudence (Proverbs 3:5-6, Romans 12:18, Ecclesiastes 7:8, Matthew 10:16).",
-          "verseReference": "Genesis 34:30",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-34-theological-q10",
-          "question": "According to Genesis 34, what was the justification Simeon and Levi gave for their violent retaliation?",
-          "type": "multiple-choice",
-          "options": [
-            "Should he deal with our sister as with a harlot?",
-            "We must protect our family at all costs",
-            "It was commanded by God directly",
-            "We sought revenge for our father's honor"
-          ],
-          "correctAnswer": "Should he deal with our sister as with a harlot?",
-          "explanation": "Genesis 34:31 shows their reasoning was based on defending their sister’s honor against shame and defilement, consistent with biblical calls for justice and protection of the vulnerable (Psalm 82:3-4, Proverbs 31:8-9, Micah 6:8, Romans 13:4).",
+          "correctAnswer": "By affirming that wrong done to a family member must be avenged",
+          "explanation": "Genesis 34:31 records Simeon and Levi's rhetorical question, emphasizing that their violent response was a defense of their sister's honor and the covenant family's purity, reflecting the importance of covenantal justice.",
           "verseReference": "Genesis 34:31",
           "difficulty": "hard"
         },
         {
-          "id": "genesis-34-theological-q11",
-          "question": "What does the demand for circumcision by Jacob’s sons reveal about the theological significance of this practice?",
+          "id": "genesis-34-theological-q7",
+          "question": "Which attribute of God can be indirectly inferred from the communal response of circumcision in Genesis 34:24 as a sign of covenant commitment?",
           "type": "multiple-choice",
           "options": [
-            "It symbolizes covenant membership and holiness",
-            "It is solely a cultural custom",
-            "It is a method of punishment",
-            "It is a way to gain land"
+            "God's holiness and demand for covenant obedience",
+            "God's omnipresence",
+            "God's immanence",
+            "God's grace without conditions"
           ],
-          "correctAnswer": "It symbolizes covenant membership and holiness",
-          "explanation": "Genesis 34:15-17 shows circumcision as a prerequisite for intermarriage, marking covenant identity as established in Genesis 17:9-14, reinforced in Leviticus 12:3, and echoed in the New Testament as a spiritual sign (Romans 2:25-29, Colossians 2:11).",
-          "verseReference": "Genesis 34:15",
+          "correctAnswer": "God's holiness and demand for covenant obedience",
+          "explanation": "Genesis 34:24 shows the males of Shechem's city agreeing to circumcision, a covenant sign commanded by God, indicating His holiness and requirement that His people maintain covenant purity through obedience.",
+          "verseReference": "Genesis 34:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-34-theological-q8",
+          "question": "What does the dialogue between Hamor and the men of the city in Genesis 34:20-23 teach about the relationship between economic interests and spiritual conditions in covenant negotiations?",
+          "type": "multiple-choice",
+          "options": [
+            "Economic benefits are used to persuade acceptance of covenant conditions",
+            "Spiritual conditions are ignored in favor of economics",
+            "Economic interests always override spiritual demands",
+            "Economic and spiritual matters are unrelated"
+          ],
+          "correctAnswer": "Economic benefits are used to persuade acceptance of covenant conditions",
+          "explanation": "Genesis 34:20-23 records Hamor advocating for intermarriage and trade, but only if the men accept circumcision, showing how economic incentives can interplay with spiritual covenant requirements.",
+          "verseReference": "Genesis 34:20-23",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-34-theological-q9",
+          "question": "From a Christological perspective, what typological insight might be drawn from Shechem's desire and subsequent failed union with Dinah in Genesis 34:3-4 and 34:25-26?",
+          "type": "multiple-choice",
+          "options": [
+            "The failure of earthly unions points to the need for a perfect Bridegroom in Christ",
+            "It foreshadows Christ's earthly ministry with the Gentiles",
+            "It emphasizes the success of interfaith marriage",
+            "It predicts the Messianic kingdom's earthly rule"
+          ],
+          "correctAnswer": "The failure of earthly unions points to the need for a perfect Bridegroom in Christ",
+          "explanation": "Shechem's desire (Genesis 34:3-4) and the violent judgment (34:25-26) highlight the brokenness of human attempts at union, typologically pointing to Christ as the sinless Bridegroom who perfectly redeems His people.",
+          "verseReference": "Genesis 34:3-4, 25-26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-34-theological-q10",
+          "question": "What does Jacob's fear expressed in Genesis 34:30 teach about the consequences of unwise actions in the covenant community?",
+          "type": "multiple-choice",
+          "options": [
+            "Unwise actions can lead to communal jeopardy and divine discipline",
+            "Unwise actions have no real consequences",
+            "Unwise actions are always condoned by God",
+            "Unwise actions produce personal gain"
+          ],
+          "correctAnswer": "Unwise actions can lead to communal jeopardy and divine discipline",
+          "explanation": "Genesis 34:30 records Jacob's concern that Simeon and Levi's violence has endangered the entire family, teaching that actions within the covenant community carry consequences that affect all God's people.",
+          "verseReference": "Genesis 34:30",
+          "difficulty": "hard"
+        },
+        {
+          "id": "genesis-34-theological-q11",
+          "question": "What combined teaching about the sanctity of God's covenant people and the consequences of defilement do Genesis 34:7 and Genesis 34:27 convey?",
+          "type": "multiple-choice",
+          "options": [
+            "Defilement of God's people is a serious offense provoking grief and judgment",
+            "Defilement is a minor issue with no repercussions",
+            "God's people are indifferent to defilement",
+            "Defilement is forgiven without any need for justice"
+          ],
+          "correctAnswer": "Defilement of God's people is a serious offense provoking grief and judgment",
+          "explanation": "Genesis 34:7 shows Jacob's sons' grief and anger over Dinah's defilement, and 34:27 describes their punishment of the city, together highlighting the sacredness of God's people and the gravity of defilement.",
+          "verseReference": "Genesis 34:7, 27",
           "difficulty": "hard"
         },
         {
           "id": "genesis-34-theological-q12",
-          "question": "How does the chapter illustrate the consequences of sin within a community?",
+          "question": "Sceptics claim that the violent act of Simeon and Levi in Genesis 34:25-26 exemplifies unjustifiable brutality. What does Genesis 34 as a whole teach about the context and theological justification of their actions?",
           "type": "multiple-choice",
           "options": [
-            "It leads to deception, violence, and communal destruction",
-            "It causes immediate forgiveness and peace",
-            "It only affects the individual sinner",
-            "It results in divine blessing"
+            "Their actions were a defense of covenant holiness and justice after deceit and defilement",
+            "Their actions were arbitrary and without cause",
+            "Their actions were condemned by God immediately",
+            "Their actions were motivated solely by personal revenge"
           ],
-          "correctAnswer": "It leads to deception, violence, and communal destruction",
-          "explanation": "The events from Genesis 34:13-29 show how sin (defilement, deceit) escalates into violence and the spoiling of the city, reflecting biblical teaching on sin’s pervasive effects (James 1:15, Romans 6:23, Proverbs 14:34, Isaiah 59:2).",
-          "verseReference": "Genesis 34:13",
+          "correctAnswer": "Their actions were a defense of covenant holiness and justice after deceit and defilement",
+          "explanation": "Genesis 34 portrays the defilement of Dinah and the deceit of Hamor's people, leading Simeon and Levi to act decisively to defend covenant purity and justice, showing their actions as theologically rooted in upholding God's holiness.",
+          "verseReference": "Genesis 34:25-26",
           "difficulty": "hard"
         },
         {
           "id": "genesis-34-theological-q13",
-          "question": "What does the story of Dinah and Shechem teach about God’s holiness and human responsibility?",
+          "question": "What role does the covenant sign of circumcision play in the integration of Gentiles into Israel, as indicated in Genesis 34:15-16 and 34:22-24?",
           "type": "multiple-choice",
           "options": [
-            "God’s holiness demands separation from sin and covenant obedience",
-            "God overlooks cultural differences",
-            "Human actions have no consequences",
-            "Forgiveness is immediate without repentance"
+            "It is a prerequisite for inclusion in the covenant community",
+            "It is optional for Gentiles to join Israel",
+            "It is a cultural practice with no spiritual significance",
+            "It is a sign of political allegiance only"
           ],
-          "correctAnswer": "God’s holiness demands separation from sin and covenant obedience",
-          "explanation": "The insistence on circumcision and rejection of an uncircumcised man in Genesis 34:14-17 emphasizes God's call for His people to be holy and separate (Leviticus 20:7, 1 Peter 1:16, Hebrews 12:14, 2 Corinthians 6:17).",
-          "verseReference": "Genesis 34:14",
+          "correctAnswer": "It is a prerequisite for inclusion in the covenant community",
+          "explanation": "The passages in Genesis 34:15-16 and 34:22-24 show that the men of Shechem must be circumcised to join in marriage and community with Jacob's family, reinforcing circumcision as essential for covenant inclusion.",
+          "verseReference": "Genesis 34:15-16, 22-24",
           "difficulty": "hard"
         },
         {
           "id": "genesis-34-theological-q14",
-          "question": "In what way does Genesis 34 foreshadow New Testament themes of justice and retribution?",
+          "question": "How does the narrative in Genesis 34:1-4 introduce the theme of human sinfulness and its impact on covenant relationships?",
           "type": "multiple-choice",
           "options": [
-            "Simeon and Levi’s judgment reflects the principle of righteous indignation",
-            "It teaches pacifism and non-violence",
-            "It rejects all forms of retribution",
-            "It emphasizes individual forgiveness only"
+            "By showing Dinah's defilement initiating conflict and covenant breach",
+            "By depicting perfect harmony between families",
+            "By highlighting divine intervention preventing sin",
+            "By emphasizing the innocence of all parties"
           ],
-          "correctAnswer": "Simeon and Levi’s judgment reflects the principle of righteous indignation",
-          "explanation": "Their violent response in Genesis 34:25-26 embodies righteous indignation against sin, echoing New Testament teachings on justice (Matthew 23:23, Romans 12:19, John 2:13-17, Revelation 19:11).",
-          "verseReference": "Genesis 34:25",
+          "correctAnswer": "By showing Dinah's defilement initiating conflict and covenant breach",
+          "explanation": "Genesis 34:1-4 recounts Shechem's defilement of Dinah, marking the entry of sin that disrupts familial and covenantal peace, illustrating humanity's fallen nature impacting God's covenant community.",
+          "verseReference": "Genesis 34:1-4",
           "difficulty": "hard"
         },
         {
           "id": "genesis-34-theological-q15",
-          "question": "How does the narrative of Genesis 34 contribute to biblical ecclesiology?",
+          "question": "What doctrinal truth about God's justice and mercy can be synthesized from the sons of Jacob's deceit in Genesis 34:13 and their subsequent violent judgment in Genesis 34:25-26?",
           "type": "multiple-choice",
           "options": [
-            "It shows the importance of covenant community boundaries",
-            "It advocates for unrestricted intermarriage",
-            "It encourages assimilation with all cultures",
-            "It denies the need for holiness in the church"
+            "God's justice requires judgment of sin, but human actions can be flawed in administering it",
+            "God condones all human actions regardless of outcome",
+            "God's mercy eliminates any need for justice",
+            "God's justice is separate from human responsibility"
           ],
-          "correctAnswer": "It shows the importance of covenant community boundaries",
-          "explanation": "The demand for circumcision and rejection of intermarriage without it in Genesis 34:14-17 highlights the defining boundaries of God's covenant people, foundational for ecclesiology (Ephesians 2:19-22, 1 Corinthians 5:9-13, Joshua 23:6-8, Deuteronomy 7:3-4).",
-          "verseReference": "Genesis 34:14",
-          "difficulty": "hard"
-        },
-        {
-          "id": "genesis-34-theological-q16",
-          "question": "What theological truth is illustrated by Jacob’s concern about being 'destroyed' because of his sons’ actions?",
-          "type": "multiple-choice",
-          "options": [
-            "The vulnerability of God’s people in a hostile world",
-            "God’s immediate protection from all harm",
-            "The elimination of all conflict in the covenant community",
-            "The certainty of physical security"
-          ],
-          "correctAnswer": "The vulnerability of God’s people in a hostile world",
-          "explanation": "Jacob’s fear in Genesis 34:30 reflects the reality of God’s people facing threats, underscoring the need for trust in God’s providence (Psalm 46:1-3, John 16:33, 2 Corinthians 12:9, Hebrews 13:6).",
-          "verseReference": "Genesis 34:30",
+          "correctAnswer": "God's justice requires judgment of sin, but human actions can be flawed in administering it",
+          "explanation": "The deceit in Genesis 34:13 contrasts with the violent execution of judgment in 34:25-26, teaching that while divine justice demands punishment of sin, human responses may involve moral complexities, reflecting both God's justice and the need for mercy.",
+          "verseReference": "Genesis 34:13, 25-26",
           "difficulty": "hard"
         }
       ],
@@ -989,7 +974,7 @@
         "bible-quiz",
         "theological"
       ],
-      "totalQuestions": 16,
+      "totalQuestions": 15,
       "estimatedTime": 25
     }
   }

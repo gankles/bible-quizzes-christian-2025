@@ -13,7 +13,7 @@
       "questions": [
         {
           "id": "1-chronicles-1-easy-q1",
-          "question": "Who was the first man mentioned in the genealogy in 1 Chronicles 1:1?",
+          "question": "Who was the first man named in the genealogy listed in 1 Chronicles Chapter 1?",
           "type": "multiple-choice",
           "options": [
             "Adam",
@@ -22,212 +22,210 @@
             "Japheth"
           ],
           "correctAnswer": "Adam",
-          "explanation": "1 Chronicles 1:1 starts by mentioning Adam as the first man in the genealogy.",
+          "explanation": "The genealogy in 1 Chronicles 1:1 begins with Adam as the first man named.",
           "verseReference": "1 Chronicles 1:1",
           "difficulty": "easy"
         },
         {
           "id": "1-chronicles-1-easy-q2",
-          "question": "Which three sons of Noah are listed in 1 Chronicles 1:4?",
-          "type": "multiple-choice",
-          "options": [
-            "Shem, Ham, Japheth",
-            "Cain, Abel, Seth",
-            "Elam, Asshur, Arphaxad",
-            "Cush, Mizraim, Put"
-          ],
-          "correctAnswer": "Shem, Ham, Japheth",
-          "explanation": "1 Chronicles 1:4 clearly lists Noah's sons as Shem, Ham, and Japheth.",
-          "verseReference": "1 Chronicles 1:4",
-          "difficulty": "easy"
-        },
-        {
-          "id": "1-chronicles-1-easy-q3",
-          "question": "Which of the following is NOT listed as a son of Japheth in 1 Chronicles 1:5?",
+          "question": "Which of these is NOT listed as a son of Japheth?",
           "type": "multiple-choice",
           "options": [
             "Gomer",
-            "Madai",
-            "Canaan",
+            "Magog",
+            "Cush",
             "Tiras"
           ],
-          "correctAnswer": "Canaan",
-          "explanation": "Canaan is a son of Ham, not Japheth, as shown in 1 Chronicles 1:5 and 1:8.",
+          "correctAnswer": "Cush",
+          "explanation": "Cush is a son of Ham, not Japheth, as listed in 1 Chronicles 1:5 and 1 Chronicles 1:8.",
           "verseReference": "1 Chronicles 1:5",
           "difficulty": "easy"
         },
         {
+          "id": "1-chronicles-1-easy-q3",
+          "question": "True or False: Togarmah is one of the sons of Gomer.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "1 Chronicles 1:6 states that Togarmah is one of the sons of Gomer.",
+          "verseReference": "1 Chronicles 1:6",
+          "difficulty": "easy"
+        },
+        {
           "id": "1-chronicles-1-easy-q4",
-          "question": "Who begat Nimrod according to 1 Chronicles 1:10?",
+          "question": "Which son of Javan is mentioned first in 1 Chronicles Chapter 1?",
           "type": "multiple-choice",
           "options": [
-            "Cush",
-            "Mizraim",
-            "Canaan",
-            "Joktan"
+            "Tarshish",
+            "Elishah",
+            "Kittim",
+            "Dodanim"
           ],
-          "correctAnswer": "Cush",
-          "explanation": "1 Chronicles 1:10 states that Cush begat Nimrod.",
-          "verseReference": "1 Chronicles 1:10",
+          "correctAnswer": "Elishah",
+          "explanation": "1 Chronicles 1:7 lists Elishah as the first son of Javan.",
+          "verseReference": "1 Chronicles 1:7",
           "difficulty": "easy"
         },
         {
           "id": "1-chronicles-1-easy-q5",
-          "question": "Which peoples are said to come from Casluhim in 1 Chronicles 1:12?",
+          "question": "The sons of Ham included all EXCEPT which of the following?",
           "type": "multiple-choice",
           "options": [
-            "The Philistines",
-            "The Amorites",
-            "The Jebusites",
-            "The Hivites"
+            "Cush",
+            "Mizraim",
+            "Put",
+            "Javan"
           ],
-          "correctAnswer": "The Philistines",
-          "explanation": "1 Chronicles 1:12 indicates that the Philistines came from Casluhim.",
-          "verseReference": "1 Chronicles 1:12",
+          "correctAnswer": "Javan",
+          "explanation": "Javan is a son of Japheth, not Ham, as stated in 1 Chronicles 1:4 and 1 Chronicles 1:8.",
+          "verseReference": "1 Chronicles 1:8",
           "difficulty": "easy"
         },
         {
           "id": "1-chronicles-1-easy-q6",
-          "question": "According to 1 Chronicles 1:17, which of these is NOT listed among the sons of Shem?",
+          "question": "Who begat Nimrod according to 1 Chronicles Chapter 1?",
           "type": "multiple-choice",
           "options": [
-            "Elam",
-            "Asshur",
-            "Phut",
-            "Arphaxad"
+            "Cush",
+            "Mizraim",
+            "Ham",
+            "Japheth"
           ],
-          "correctAnswer": "Phut",
-          "explanation": "Phut is a son of Ham, not Shem, as shown in 1 Chronicles 1:17.",
-          "verseReference": "1 Chronicles 1:17",
+          "correctAnswer": "Cush",
+          "explanation": "1 Chronicles 1:10 says Cush begat Nimrod.",
+          "verseReference": "1 Chronicles 1:10",
           "difficulty": "easy"
         },
         {
           "id": "1-chronicles-1-easy-q7",
-          "question": "Who was the father of Peleg, according to 1 Chronicles 1:19?",
-          "type": "multiple-choice",
+          "question": "True or False: The Philistines descended from Casluhim.",
+          "type": "true-false",
           "options": [
-            "Eber",
-            "Joktan",
-            "Arphaxad",
-            "Shem"
+            "True",
+            "False"
           ],
-          "correctAnswer": "Eber",
-          "explanation": "1 Chronicles 1:19 states that Peleg was one of two sons born to Eber.",
-          "verseReference": "1 Chronicles 1:19",
+          "correctAnswer": "True",
+          "explanation": "1 Chronicles 1:12 states that Casluhim was the ancestor of the Philistines.",
+          "verseReference": "1 Chronicles 1:12",
           "difficulty": "easy"
         },
         {
           "id": "1-chronicles-1-easy-q8",
-          "question": "Which name is NOT one of Joktan's sons listed in 1 Chronicles 1:20-23?",
+          "question": "Which of the following is NOT a son of Canaan?",
           "type": "multiple-choice",
           "options": [
-            "Almodad",
+            "Zidon",
+            "Heth",
             "Sheba",
-            "Nebaioth",
-            "Hazarmaveth"
+            "Jebusite"
           ],
-          "correctAnswer": "Nebaioth",
-          "explanation": "Nebaioth is the firstborn of Ishmael, not a son of Joktan (1 Chronicles 1:29).",
-          "verseReference": "1 Chronicles 1:20",
+          "correctAnswer": "Sheba",
+          "explanation": "Sheba is a son of Raamah, son of Cush, not Canaan, as per 1 Chronicles 1:9 and 1 Chronicles 1:13-14.",
+          "verseReference": "1 Chronicles 1:13",
           "difficulty": "easy"
         },
         {
           "id": "1-chronicles-1-easy-q9",
-          "question": "Abram is also known as what, according to 1 Chronicles 1:27?",
+          "question": "Who are the sons of Raamah?",
           "type": "multiple-choice",
           "options": [
-            "Abraham",
-            "Isaac",
-            "Esau",
-            "Joktan"
+            "Sheba and Dedan",
+            "Zidon and Heth",
+            "Elam and Asshur",
+            "Ashchenaz and Riphath"
           ],
-          "correctAnswer": "Abraham",
-          "explanation": "1 Chronicles 1:27 states that Abram is the same as Abraham.",
-          "verseReference": "1 Chronicles 1:27",
+          "correctAnswer": "Sheba and Dedan",
+          "explanation": "1 Chronicles 1:9 specifies that Sheba and Dedan are the sons of Raamah.",
+          "verseReference": "1 Chronicles 1:9",
           "difficulty": "easy"
         },
         {
           "id": "1-chronicles-1-easy-q10",
-          "question": "Who were the sons of Abraham mentioned in 1 Chronicles 1:28?",
+          "question": "Who is listed as the father of Shelah?",
           "type": "multiple-choice",
           "options": [
-            "Isaac and Ishmael",
-            "Esau and Jacob",
-            "Shem and Ham",
-            "Japheth and Cush"
+            "Arphaxad",
+            "Eber",
+            "Peleg",
+            "Joktan"
           ],
-          "correctAnswer": "Isaac and Ishmael",
-          "explanation": "1 Chronicles 1:28 lists Isaac and Ishmael as the sons of Abraham.",
-          "verseReference": "1 Chronicles 1:28",
+          "correctAnswer": "Arphaxad",
+          "explanation": "1 Chronicles 1:18 states Arphaxad begat Shelah.",
+          "verseReference": "1 Chronicles 1:18",
           "difficulty": "easy"
         },
         {
           "id": "1-chronicles-1-easy-q11",
-          "question": "True or False: 1 Chronicles 1:32 states that Keturah, Abraham's concubine, bore six sons.",
+          "question": "True or False: Peleg’s name is connected to the division of the earth.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "1 Chronicles 1:32 lists six sons of Keturah: Zimran, Jokshan, Medan, Midian, Ishbak, and Shuah.",
-          "verseReference": "1 Chronicles 1:32",
+          "explanation": "1 Chronicles 1:19 explains that Peleg was so named because in his days the earth was divided.",
+          "verseReference": "1 Chronicles 1:19",
           "difficulty": "easy"
         },
         {
           "id": "1-chronicles-1-easy-q12",
-          "question": "True or False: Esau's sons included Eliphaz, Reuel, and Jeush, as per 1 Chronicles 1:35.",
-          "type": "true-false",
+          "question": "Which of these is NOT among the sons of Shem?",
+          "type": "multiple-choice",
           "options": [
-            "True",
-            "False"
+            "Asshur",
+            "Arphaxad",
+            "Madai",
+            "Elam"
           ],
-          "correctAnswer": "True",
-          "explanation": "1 Chronicles 1:35 clearly lists these three among Esau's sons.",
-          "verseReference": "1 Chronicles 1:35",
+          "correctAnswer": "Madai",
+          "explanation": "Madai is a son of Japheth, not Shem, as shown in 1 Chronicles 1:5 and 1 Chronicles 1:17.",
+          "verseReference": "1 Chronicles 1:17",
           "difficulty": "easy"
         },
         {
           "id": "1-chronicles-1-easy-q13",
-          "question": "True or False: 1 Chronicles 1:43 mentions Bela as one of the kings of Edom.",
+          "question": "True or False: Shelah begat Eber.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "1 Chronicles 1:43 states that Bela son of Beor was a king who reigned in Edom.",
-          "verseReference": "1 Chronicles 1:43",
+          "explanation": "1 Chronicles 1:18 clearly states that Shelah begat Eber.",
+          "verseReference": "1 Chronicles 1:18",
           "difficulty": "easy"
         },
         {
           "id": "1-chronicles-1-easy-q14",
-          "question": "Fill in the blank from 1 Chronicles 1:14: 'The Jebusite also, and the _______, and the Girgashite,'",
-          "type": "fill-blank",
+          "question": "In the genealogical sequence, who comes immediately before Abraham?",
+          "type": "multiple-choice",
           "options": [
-            "Amorite",
-            "Hivite",
-            "Arkite",
-            "Sinite"
+            "Nahor",
+            "Serug",
+            "Terah",
+            "Reu"
           ],
-          "correctAnswer": "Amorite",
-          "explanation": "1 Chronicles 1:14 lists the Amorite after the Jebusite and before the Girgashite.",
-          "verseReference": "1 Chronicles 1:14",
+          "correctAnswer": "Terah",
+          "explanation": "1 Chronicles 1:26-27 shows the sequence Serug, Nahor, Terah, then Abram (Abraham).",
+          "verseReference": "1 Chronicles 1:26",
           "difficulty": "easy"
         },
         {
           "id": "1-chronicles-1-easy-q15",
-          "question": "Fill in the blank from 1 Chronicles 1:50: '...and his wife's name was _______, the daughter of Matred.'",
-          "type": "fill-blank",
+          "question": "In 1 Chronicles 1, which name comes first in the genealogy listed: Peleg, Joktan, or Eber?",
+          "type": "multiple-choice",
           "options": [
-            "Mehetabel",
-            "Zidon",
-            "Havilah",
-            "Dedan"
+            "Peleg",
+            "Joktan",
+            "Eber",
+            "Shelah"
           ],
-          "correctAnswer": "Mehetabel",
-          "explanation": "1 Chronicles 1:50 states that Hadad's wife's name was Mehetabel, daughter of Matred.",
-          "verseReference": "1 Chronicles 1:50",
+          "correctAnswer": "Eber",
+          "explanation": "The sequence is Arphaxad begat Shelah, Shelah begat Eber, and then Eber's sons were Peleg and Joktan (1 Chronicles 1:18-19). Eber comes before Peleg and Joktan.",
+          "verseReference": "1 Chronicles 1:18-19",
           "difficulty": "easy"
         }
       ],
@@ -254,223 +252,221 @@
       "questions": [
         {
           "id": "1-chronicles-1-medium-q1",
-          "question": "A fellow believer feels overwhelmed by family responsibilities and wonders how to honor their family lineage. Based on 1 Chronicles 1, what biblical truth would you share about the importance of family heritage?",
+          "question": "According to 1 Chronicles 1:19, why was Peleg named so?",
           "type": "multiple-choice",
           "options": [
-            "Family heritage connects us to God's faithfulness and calling.",
-            "Family lineage is irrelevant in spiritual growth.",
-            "Only individual actions matter, not family background.",
-            "Family heritage should be ignored to focus on personal success."
+            "Because in his days the earth was divided",
+            "Because he was the firstborn",
+            "Because he was a mighty warrior",
+            "Because he was a faithful servant"
           ],
-          "correctAnswer": "Family heritage connects us to God's faithfulness and calling.",
-          "explanation": "1 Chronicles 1 traces genealogies from Adam through Abraham and his descendants, emphasizing the continuity of God's promises through generations (1 Chronicles 1:1-34). This shows the importance of honoring family heritage as part of trusting God's faithfulness.",
-          "verseReference": "1 Chronicles 1:1-34",
+          "correctAnswer": "Because in his days the earth was divided",
+          "explanation": "1 Chronicles 1:19 explicitly states that Peleg was named so because in his days the earth was divided, distinguishing his time historically.",
+          "verseReference": "1 Chronicles 1:19",
           "difficulty": "medium"
         },
         {
           "id": "1-chronicles-1-medium-q2",
-          "question": "How does the genealogy of Noah's sons in 1 Chronicles 1 teach us about perseverance through trials?",
+          "question": "Which of the following is NOT listed as a son of Joktan in 1 Chronicles 1:20-23?",
           "type": "multiple-choice",
           "options": [
-            "God's promise continues through chosen families despite hardships.",
-            "Trials erase God's promises completely.",
-            "Only the strongest survive without God's help.",
-            "Genealogy has no bearing on overcoming trials."
+            "Hazarmaveth",
+            "Sheba",
+            "Nimrod",
+            "Jerah"
           ],
-          "correctAnswer": "God's promise continues through chosen families despite hardships.",
-          "explanation": "The listing of Noah's sons Shem, Ham, and Japheth (1 Chronicles 1:4-7) shows God's continuing covenant through generations, teaching believers to trust God's faithfulness even in difficult times.",
-          "verseReference": "1 Chronicles 1:4-7",
+          "correctAnswer": "Nimrod",
+          "explanation": "Nimrod is mentioned as a son of Cush in 1 Chronicles 1:10, while Hazarmaveth, Sheba, and Jerah are sons of Joktan as listed in verses 20-23.",
+          "verseReference": "1 Chronicles 1:20-23",
           "difficulty": "medium"
         },
         {
           "id": "1-chronicles-1-medium-q3",
-          "question": "A believer struggles with contentment amid life's challenges. Based on the division of the earth in Peleg's days, what biblical principle about God's sovereignty and timing can you share?",
+          "question": "How does the genealogy from Shem to Abraham (1 Chronicles 1:24-27) demonstrate the biblical virtue of faithfulness?",
           "type": "multiple-choice",
           "options": [
-            "God is sovereign over all events, and we can trust His timing.",
-            "Earthly events are random and uncontrolled.",
-            "We must control every outcome to be content.",
-            "Contentment depends only on external circumstances."
+            "By showing a faithful lineage that leads to God's covenant with Abraham",
+            "By listing only the most powerful kings of Israel",
+            "By emphasizing wealth accumulated by ancestors",
+            "By focusing on the military achievements of Shem's descendants"
           ],
-          "correctAnswer": "God is sovereign over all events, and we can trust His timing.",
-          "explanation": "Peleg's naming because 'the earth was divided' in his days (1 Chronicles 1:19) reminds us that significant events happen under God's sovereign plan, encouraging believers to trust and be content in His timing.",
-          "verseReference": "1 Chronicles 1:19",
+          "correctAnswer": "By showing a faithful lineage that leads to God's covenant with Abraham",
+          "explanation": "Verses 24-27 trace the faithful lineage from Shem to Abram (Abraham), underscoring God's ongoing covenant and faithfulness through generations, as Abraham is central to God's promises.",
+          "verseReference": "1 Chronicles 1:24-27",
           "difficulty": "medium"
         },
         {
           "id": "1-chronicles-1-medium-q4",
-          "question": "A new believer asks how to practice humility and gratitude in family relationships. What lesson about humility and gratitude can be drawn from Abraham's family record in 1 Chronicles 1?",
+          "question": "According to 1 Chronicles 1:28-31, who was the firstborn son of Ishmael?",
           "type": "multiple-choice",
           "options": [
-            "Acknowledging God's role in family blessings fosters humility and gratitude.",
-            "Family achievements are solely personal accomplishments.",
-            "Ignoring family history encourages humility.",
-            "Gratitude is unnecessary in family matters."
+            "Nebaioth",
+            "Kedar",
+            "Adbeel",
+            "Mibsam"
           ],
-          "correctAnswer": "Acknowledging God's role in family blessings fosters humility and gratitude.",
-          "explanation": "The detailed record of Abraham's sons and descendants (1 Chronicles 1:27-34) points to God's providence in family growth, teaching believers to be humble and thankful for His blessings.",
-          "verseReference": "1 Chronicles 1:27-34",
+          "correctAnswer": "Nebaioth",
+          "explanation": "1 Chronicles 1:29 specifically names Nebaioth as the firstborn of Ishmael, followed by other sons like Kedar and Adbeel.",
+          "verseReference": "1 Chronicles 1:29",
           "difficulty": "medium"
         },
         {
           "id": "1-chronicles-1-medium-q5",
-          "question": "How can the record of the kings of Edom in 1 Chronicles 1 guide a believer in practicing integrity and honesty in leadership roles?",
+          "question": "What biblical truth can be drawn about God's provision from the listing of Keturah's sons and their descendants in 1 Chronicles 1:32-33?",
           "type": "multiple-choice",
           "options": [
-            "Historical record keeping shows the value of transparency and accountability.",
-            "Leaders should hide their history to appear stronger.",
-            "Integrity is optional in leadership.",
-            "Honesty weakens a leader's authority."
+            "God blesses even Abraham's concubines with fruitful descendants",
+            "Only Abraham's sons Isaac and Ishmael are important",
+            "Descendants that are not from the main line are ignored",
+            "Fruitfulness is dependent solely on social status"
           ],
-          "correctAnswer": "Historical record keeping shows the value of transparency and accountability.",
-          "explanation": "Listing Edom's kings (1 Chronicles 1:43-50) demonstrates the importance of honest record-keeping and accountability in leadership, encouraging believers to lead with integrity.",
-          "verseReference": "1 Chronicles 1:43-50",
+          "correctAnswer": "God blesses even Abraham's concubines with fruitful descendants",
+          "explanation": "Verses 32-33 show that Keturah, Abraham's concubine, bore many sons and grandsons, illustrating God's provision and blessing beyond the primary covenant line.",
+          "verseReference": "1 Chronicles 1:32-33",
           "difficulty": "medium"
         },
         {
           "id": "1-chronicles-1-medium-q6",
-          "question": "A believer is struggling to forgive a family member. What insight from the genealogies in 1 Chronicles 1 can support the practice of forgiveness and reconciliation?",
-          "type": "multiple-choice",
+          "question": "True or False: According to 1 Chronicles 1:34, Isaac was the father of Esau and Israel.",
+          "type": "true-false",
           "options": [
-            "Shared family history reminds us of unity and the need to reconcile.",
-            "Family conflicts justify withholding forgiveness.",
-            "Forgiveness is unnecessary in family disputes.",
-            "Genealogy shows only division, not unity."
+            "True",
+            "False"
           ],
-          "correctAnswer": "Shared family history reminds us of unity and the need to reconcile.",
-          "explanation": "The extensive genealogies (1 Chronicles 1:1-54) highlight common ancestry, encouraging believers to pursue forgiveness and reconciliation within families as part of loving one another.",
-          "verseReference": "1 Chronicles 1:1-54",
+          "correctAnswer": "True",
+          "explanation": "1 Chronicles 1:34 clearly states that Abraham begat Isaac, and Isaac's sons were Esau and Israel, confirming the truth of the statement.",
+          "verseReference": "1 Chronicles 1:34",
           "difficulty": "medium"
         },
         {
           "id": "1-chronicles-1-medium-q7",
-          "question": "True or False: According to 1 Chronicles 1, the sons of Japheth include Gomer and Magog.",
-          "type": "true-false",
+          "question": "Which of the following was NOT a son of Esau according to 1 Chronicles 1:35?",
+          "type": "multiple-choice",
           "options": [
-            "True",
-            "False"
+            "Eliphaz",
+            "Reuel",
+            "Jeush",
+            "Teman"
           ],
-          "correctAnswer": "True",
-          "explanation": "1 Chronicles 1:5 explicitly lists the sons of Japheth as Gomer, Magog, Madai, Javan, Tubal, Meshech, and Tiras, confirming the answer.",
-          "verseReference": "1 Chronicles 1:5",
+          "correctAnswer": "Teman",
+          "explanation": "Verses 35 and 36 show Teman as a son of Eliphaz, who is a son of Esau, but Teman is not directly listed as a son of Esau himself.",
+          "verseReference": "1 Chronicles 1:35",
           "difficulty": "medium"
         },
         {
           "id": "1-chronicles-1-medium-q8",
-          "question": "True or False: Peleg's name was given because in his days the earth was divided, showing God's involvement in world events.",
+          "question": "What does the progression from 1 Chronicles 1:35 to 1 Chronicles 1:36 teach about the importance of family legacy and humility?",
+          "type": "multiple-choice",
+          "options": [
+            "It highlights the value of knowing and honoring one's ancestors and their roles",
+            "It encourages boasting about personal achievements only",
+            "It suggests ignoring family lineage in favor of individualism",
+            "It focuses solely on military conquests"
+          ],
+          "correctAnswer": "It highlights the value of knowing and honoring one's ancestors and their roles",
+          "explanation": "The listing of Esau's sons and grandsons emphasizes the importance of family legacy and humility in acknowledging those who came before, promoting respect and faithfulness.",
+          "verseReference": "1 Chronicles 1:35-36",
+          "difficulty": "medium"
+        },
+        {
+          "id": "1-chronicles-1-medium-q9",
+          "question": "Who was Shelah's father according to 1 Chronicles 1:18?",
+          "type": "multiple-choice",
+          "options": [
+            "Arphaxad",
+            "Eber",
+            "Peleg",
+            "Joktan"
+          ],
+          "correctAnswer": "Arphaxad",
+          "explanation": "Verse 18 states that Arphaxad begat Shelah, making Arphaxad his father.",
+          "verseReference": "1 Chronicles 1:18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "1-chronicles-1-medium-q10",
+          "question": "Based on 1 Chronicles 1:19-23, how does the genealogy of Joktan's sons teach us about the virtue of generosity in sharing blessings?",
+          "type": "multiple-choice",
+          "options": [
+            "By showing the expansion of a family blessed with many descendants who likely spread blessings outward",
+            "By focusing only on one son to the exclusion of others",
+            "By emphasizing wealth accumulation only",
+            "By showing that only the eldest son matters"
+          ],
+          "correctAnswer": "By showing the expansion of a family blessed with many descendants who likely spread blessings outward",
+          "explanation": "Joktan's many sons represent a broad blessing that would have enabled generosity and sharing among tribes and nations, reflecting God's provision for multiple lineages.",
+          "verseReference": "1 Chronicles 1:19-23",
+          "difficulty": "medium"
+        },
+        {
+          "id": "1-chronicles-1-medium-q11",
+          "question": "True or False: According to 1 Chronicles 1:27-28, Abraham had only two sons: Isaac and Ishmael.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "While verses 27-28 list Isaac and Ishmael as Abraham's sons, 1 Chronicles 1:32 also mentions sons of Keturah, Abraham's concubine, indicating more descendants.",
+          "verseReference": "1 Chronicles 1:27-28",
+          "difficulty": "medium"
+        },
+        {
+          "id": "1-chronicles-1-medium-q12",
+          "question": "Which son of Abraham's concubine Keturah fathered Sheba and Dedan, according to 1 Chronicles 1:32?",
+          "type": "multiple-choice",
+          "options": [
+            "Jokshan",
+            "Midian",
+            "Zimran",
+            "Medan"
+          ],
+          "correctAnswer": "Jokshan",
+          "explanation": "Verse 32 states that Jokshan, son of Keturah, begat Sheba and Dedan.",
+          "verseReference": "1 Chronicles 1:32",
+          "difficulty": "medium"
+        },
+        {
+          "id": "1-chronicles-1-medium-q13",
+          "question": "What practical lesson about trust in God's plan can be learned from the detailed genealogies in 1 Chronicles 1:19-36?",
+          "type": "multiple-choice",
+          "options": [
+            "God's faithfulness spans generations, encouraging trust in His ongoing purposes",
+            "Family histories are unimportant to God's plan",
+            "Only immediate achievements matter to God",
+            "Genealogies are only historical, with no spiritual implication"
+          ],
+          "correctAnswer": "God's faithfulness spans generations, encouraging trust in His ongoing purposes",
+          "explanation": "These genealogies demonstrate God's consistent work through many generations (verses 19-36), teaching believers to trust in His enduring plan and faithfulness.",
+          "verseReference": "1 Chronicles 1:19-36",
+          "difficulty": "medium"
+        },
+        {
+          "id": "1-chronicles-1-medium-q14",
+          "question": "According to 1 Chronicles 1:30-31, which of the following is a son of Ishmael?",
+          "type": "multiple-choice",
+          "options": [
+            "Massa",
+            "Peleg",
+            "Shem",
+            "Arphaxad"
+          ],
+          "correctAnswer": "Massa",
+          "explanation": "Verses 30-31 list Massa among the sons of Ishmael, while Peleg, Shem, and Arphaxad belong to different genealogies.",
+          "verseReference": "1 Chronicles 1:30-31",
+          "difficulty": "medium"
+        },
+        {
+          "id": "1-chronicles-1-medium-q15",
+          "question": "True or False: Teman was a son of Eliphaz, and Eliphaz was a son of Esau as per 1 Chronicles 1:36.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "1 Chronicles 1:19 states that Peleg was named because 'in his days the earth was divided,' illustrating God's sovereign hand over historical events.",
-          "verseReference": "1 Chronicles 1:19",
-          "difficulty": "medium"
-        },
-        {
-          "id": "1-chronicles-1-medium-q9",
-          "question": "When a believer asks why family history matters in faith, what does 1 Chronicles 1 teach us about God's faithfulness through generations?",
-          "type": "multiple-choice",
-          "options": [
-            "God fulfills His promises through family lines.",
-            "Family history is irrelevant to faith.",
-            "Only personal faith matters, not ancestral lines.",
-            "God's faithfulness does not relate to families."
-          ],
-          "correctAnswer": "God fulfills His promises through family lines.",
-          "explanation": "The genealogy from Adam to Abraham and beyond (1 Chronicles 1:1-34) shows God's ongoing covenant and faithfulness through successive generations, encouraging believers to trust in God's promises.",
-          "verseReference": "1 Chronicles 1:1-34",
-          "difficulty": "medium"
-        },
-        {
-          "id": "1-chronicles-1-medium-q10",
-          "question": "How does the mention of Nimrod in 1 Chronicles 1 inspire believers about using their God-given strength responsibly?",
-          "type": "multiple-choice",
-          "options": [
-            "Nimrod was mighty, teaching that strength should be used for God's purpose.",
-            "Strength is irrelevant to spiritual life.",
-            "Might should be used for personal gain only.",
-            "Power is a sign of divine rejection."
-          ],
-          "correctAnswer": "Nimrod was mighty, teaching that strength should be used for God's purpose.",
-          "explanation": "1 Chronicles 1:10 describes Nimrod as 'mighty upon the earth,' reminding believers to use their abilities with responsibility and dedication to God's will.",
-          "verseReference": "1 Chronicles 1:10",
-          "difficulty": "medium"
-        },
-        {
-          "id": "1-chronicles-1-medium-q11",
-          "question": "Based on the genealogies of Abraham’s sons in 1 Chronicles 1, what can believers learn about faithfulness in family life and parenting?",
-          "type": "multiple-choice",
-          "options": [
-            "Faithfulness to God impacts future generations positively.",
-            "Parenting has no spiritual consequence.",
-            "Family faith is unimportant.",
-            "Only individual faith counts, not family influence."
-          ],
-          "correctAnswer": "Faithfulness to God impacts future generations positively.",
-          "explanation": "The listing of Abraham’s sons and their descendants (1 Chronicles 1:27-34) highlights how faithfulness to God affects family legacy, encouraging believers to nurture godly parenting.",
-          "verseReference": "1 Chronicles 1:27-34",
-          "difficulty": "medium"
-        },
-        {
-          "id": "1-chronicles-1-medium-q12",
-          "question": "A believer wants to serve in their church community but feels unqualified. How does the detailed record of families in 1 Chronicles 1 encourage service and fellowship?",
-          "type": "multiple-choice",
-          "options": [
-            "Every family and individual has a role in God's plan.",
-            "Only the most qualified should serve.",
-            "Service is unnecessary for spiritual growth.",
-            "Church fellowship is only for leaders."
-          ],
-          "correctAnswer": "Every family and individual has a role in God's plan.",
-          "explanation": "The extensive genealogical records (1 Chronicles 1:1-54) show that all families and individuals are part of God's unfolding plan, encouraging believers to serve humbly in the community.",
-          "verseReference": "1 Chronicles 1:1-54",
-          "difficulty": "medium"
-        },
-        {
-          "id": "1-chronicles-1-medium-q13",
-          "question": "How does the mention of spouses, such as Mehetabel in 1 Chronicles 1, teach about honoring marriage and family relationships?",
-          "type": "multiple-choice",
-          "options": [
-            "Marriage is honored as part of God's covenant plan.",
-            "Spouses are insignificant in biblical records.",
-            "Family relationships are secondary to personal goals.",
-            "Marriage should be ignored in spiritual life."
-          ],
-          "correctAnswer": "Marriage is honored as part of God's covenant plan.",
-          "explanation": "1 Chronicles 1:50 mentions Hadad's wife Mehetabel, highlighting the importance of marriage and family as part of God's design and blessing.",
-          "verseReference": "1 Chronicles 1:50",
-          "difficulty": "medium"
-        },
-        {
-          "id": "1-chronicles-1-medium-q14",
-          "question": "Fill in the blank: The sons of Shem include Elam, Asshur, Arphaxad, Lud, Aram, Uz, Hul, Gether, and ____.",
-          "type": "fill-blank",
-          "options": [
-            "Meshech",
-            "Javan",
-            "Madai",
-            "Ludim"
-          ],
-          "correctAnswer": "Meshech",
-          "explanation": "1 Chronicles 1:17 lists the sons of Shem, ending with Meshech, affirming the correct answer.",
-          "verseReference": "1 Chronicles 1:17",
-          "difficulty": "medium"
-        },
-        {
-          "id": "1-chronicles-1-medium-q15",
-          "question": "How does 1 Chronicles 1 encourage believers to persevere through trials by reflecting on the generations from Adam to Abraham?",
-          "type": "multiple-choice",
-          "options": [
-            "God’s promises endure through many generations despite hardships.",
-            "Trials show God’s abandonment.",
-            "Only the current generation matters to God.",
-            "Perseverance is irrelevant to faith."
-          ],
-          "correctAnswer": "God’s promises endure through many generations despite hardships.",
-          "explanation": "The genealogies in 1 Chronicles 1 (verses 1-34) demonstrate God’s ongoing faithfulness through many generations, encouraging believers to remain steadfast in trials.",
-          "verseReference": "1 Chronicles 1:1-34",
+          "explanation": "1 Chronicles 1:36 confirms Teman as a son of Eliphaz, who in turn is a son of Esau (verse 35), showing the lineage clearly.",
+          "verseReference": "1 Chronicles 1:35-36",
           "difficulty": "medium"
         }
       ],
@@ -497,225 +493,223 @@
       "questions": [
         {
           "id": "1-chronicles-1-hard-q1",
-          "question": "Which son of Cush is noted in 1 Chronicles 1 as beginning to be mighty upon the earth, foreshadowing a significant biblical figure?",
+          "question": "Who was the king of Edom that reigned first before any king reigned over the children of Israel?",
           "type": "multiple-choice",
           "options": [
-            "Nimrod",
-            "Seba",
-            "Raamah",
-            "Sabtecha"
+            "Bela",
+            "Jobab",
+            "Hadad",
+            "Samlah"
           ],
-          "correctAnswer": "Nimrod",
-          "explanation": "1 Chronicles 1:10 states that Cush begat Nimrod, who began to be mighty upon the earth, indicating his importance as a powerful figure in biblical history.",
-          "verseReference": "1 Chronicles 1:10",
+          "correctAnswer": "Bela",
+          "explanation": "1 Chronicles 1:43 states that Bela the son of Beor was the first king that reigned in the land of Edom before any king reigned over Israel.",
+          "verseReference": "1 Chronicles 1:43",
           "difficulty": "hard"
         },
         {
           "id": "1-chronicles-1-hard-q2",
-          "question": "The division of the earth mentioned in this chapter occurs during the lifetime of which individual, highlighting an important event in biblical chronology?",
+          "question": "Which king of Edom was noted for smiting Midian in the field of Moab?",
           "type": "multiple-choice",
           "options": [
-            "Peleg",
-            "Joktan",
-            "Eber",
-            "Arphaxad"
+            "Hadad son of Bedad",
+            "Jobab son of Zerah",
+            "Samlah of Masrekah",
+            "Shaul of Rehoboth"
           ],
-          "correctAnswer": "Peleg",
-          "explanation": "1 Chronicles 1:19 explains that Peleg was named so because in his days the earth was divided, referring to a significant historical or geographical event.",
-          "verseReference": "1 Chronicles 1:19",
+          "correctAnswer": "Hadad son of Bedad",
+          "explanation": "1 Chronicles 1:46 mentions Hadad son of Bedad who smote Midian in the field of Moab and then reigned in Edom.",
+          "verseReference": "1 Chronicles 1:46",
           "difficulty": "hard"
         },
         {
           "id": "1-chronicles-1-hard-q3",
-          "question": "Which son of Abraham is explicitly identified by another name, indicating a key covenantal figure in biblical tradition?",
+          "question": "Which city was associated with the reign of Hadad, son of Bedad?",
           "type": "multiple-choice",
           "options": [
-            "Abram (Abraham)",
-            "Isaac",
-            "Ishmael",
-            "Terah"
+            "Avith",
+            "Dinhabah",
+            "Bozrah",
+            "Masrekah"
           ],
-          "correctAnswer": "Abram (Abraham)",
-          "explanation": "1 Chronicles 1:27 clarifies that Abram is the same person as Abraham, the patriarch central to the covenant promises.",
-          "verseReference": "1 Chronicles 1:27",
+          "correctAnswer": "Avith",
+          "explanation": "According to 1 Chronicles 1:46, the city named Avith was associated with Hadad son of Bedad's reign.",
+          "verseReference": "1 Chronicles 1:46",
           "difficulty": "hard"
         },
         {
           "id": "1-chronicles-1-hard-q4",
-          "question": "Which group is noted as descending from Casluhim, connecting biblical genealogy with known ancient peoples?",
+          "question": "Who succeeded Jobab as king in Edom?",
           "type": "multiple-choice",
           "options": [
-            "Philistines",
-            "Amorites",
-            "Jebusites",
-            "Hivites"
+            "Husham of the Temanites",
+            "Bela the son of Beor",
+            "Samlah of Masrekah",
+            "Shaul of Rehoboth"
           ],
-          "correctAnswer": "Philistines",
-          "explanation": "1 Chronicles 1:12 mentions Casluhim as the ancestor of the Philistines, linking biblical genealogy with historical ethnic groups of the ancient Near East.",
-          "verseReference": "1 Chronicles 1:12",
+          "correctAnswer": "Husham of the Temanites",
+          "explanation": "1 Chronicles 1:45 states that Husham of the land of the Temanites reigned after Jobab died.",
+          "verseReference": "1 Chronicles 1:45",
           "difficulty": "hard"
         },
         {
           "id": "1-chronicles-1-hard-q5",
-          "question": "Which son of Joktan is NOT listed among his descendants in 1 Chronicles 1?",
+          "question": "What relationship did Mehetabel have to Hadad, the king who reigned in Pai?",
           "type": "multiple-choice",
           "options": [
-            "Hazarmaveth",
-            "Uzal",
-            "Sheba",
-            "Nahor"
+            "She was his wife",
+            "She was his daughter",
+            "She was his mother",
+            "She was his sister"
           ],
-          "correctAnswer": "Nahor",
-          "explanation": "Nahor appears later as an ancestor of Abraham (1 Chronicles 1:26), but Joktan's sons listed in verses 20-23 do not include Nahor.",
-          "verseReference": "1 Chronicles 1:20-23",
+          "correctAnswer": "She was his wife",
+          "explanation": "1 Chronicles 1:50 explains that Mehetabel, daughter of Matred, was the wife of Hadad who reigned in Pai.",
+          "verseReference": "1 Chronicles 1:50",
           "difficulty": "hard"
         },
         {
           "id": "1-chronicles-1-hard-q6",
-          "question": "The genealogical listing of Edom's kings before Israel had a king serves to emphasize what historical or theological theme?",
+          "question": "The dukes of Edom listed in this chapter include all of the following EXCEPT:",
           "type": "multiple-choice",
           "options": [
-            "Precedence of Edom's monarchy",
-            "Israel's immediate monarchy",
-            "Judah's kingship",
-            "The exile of Israel"
+            "Timnah",
+            "Aholibamah",
+            "Kenaz",
+            "Zidon"
           ],
-          "correctAnswer": "Precedence of Edom's monarchy",
-          "explanation": "Verses 43-50 outline the kings of Edom before Israel had any king, underscoring Edom's established political structure in contrast to Israel's developing monarchy.",
-          "verseReference": "1 Chronicles 1:43-50",
+          "correctAnswer": "Zidon",
+          "explanation": "1 Chronicles 1:51-54 lists the dukes of Edom, which includes Timnah, Aholibamah, and Kenaz but does not mention Zidon, who is mentioned earlier as a son of Canaan (1 Chronicles 1:13).",
+          "verseReference": "1 Chronicles 1:51",
           "difficulty": "hard"
         },
         {
           "id": "1-chronicles-1-hard-q7",
-          "question": "What is the significance of the name 'Peleg' in Hebrew, and how does it relate to the event mentioned in the chapter?",
+          "question": "Which of the following is NOT a son of Seir according to the chapter?",
           "type": "multiple-choice",
           "options": [
-            "Division; earth was divided",
-            "Peace; land was settled",
-            "Strength; nations were united",
-            "Light; knowledge increased"
+            "Anah",
+            "Dishon",
+            "Uz",
+            "Reuel"
           ],
-          "correctAnswer": "Division; earth was divided",
-          "explanation": "The name 'Peleg' means 'division' and is directly associated with the earth being divided during his time, as stated in 1 Chronicles 1:19.",
-          "verseReference": "1 Chronicles 1:19",
+          "correctAnswer": "Reuel",
+          "explanation": "1 Chronicles 1:38 lists the sons of Seir including Anah, Dishon, and Uz, but Reuel is listed as a son of Esau (1 Chronicles 1:37).",
+          "verseReference": "1 Chronicles 1:38",
           "difficulty": "hard"
         },
         {
           "id": "1-chronicles-1-hard-q8",
-          "question": "Which of the following is NOT a listed son of Shem according to 1 Chronicles 1?",
+          "question": "Which literary device is exemplified by the genealogical recitation that starts with Adam and ends with the kings of Edom in 1 Chronicles 1?",
           "type": "multiple-choice",
           "options": [
-            "Elam",
-            "Asshur",
-            "Javan",
-            "Arphaxad"
+            "Inclusio",
+            "Chiasm",
+            "Metaphor",
+            "Allegory"
           ],
-          "correctAnswer": "Javan",
-          "explanation": "Javan is a son of Japheth (1 Chronicles 1:7), whereas Elam, Asshur, and Arphaxad are sons of Shem listed in 1 Chronicles 1:17.",
-          "verseReference": "1 Chronicles 1:7,17",
+          "correctAnswer": "Inclusio",
+          "explanation": "The chapter begins with the genealogy starting from Adam and concludes with the kings of Edom, framing the narrative and emphasizing continuity in a literary inclusio form (1 Chronicles 1:1, 1 Chronicles 1:54).",
+          "verseReference": "1 Chronicles 1:1, 1 Chronicles 1:54",
           "difficulty": "hard"
         },
         {
           "id": "1-chronicles-1-hard-q9",
-          "question": "The genealogy from Shem to Abraham in this chapter shows a typological progression. Which figure is considered a pivotal ancestor in this lineage representing covenant promise?",
+          "question": "What is the significance of the name 'Peleg' as given in this chapter?",
           "type": "multiple-choice",
           "options": [
-            "Eber",
-            "Peleg",
-            "Terah",
-            "Abram (Abraham)"
+            "Because in his days the earth was divided",
+            "He was a mighty hunter",
+            "He was the first king of Edom",
+            "He founded the city of Avith"
           ],
-          "correctAnswer": "Abram (Abraham)",
-          "explanation": "Abram, later Abraham, is the covenantal ancestor through whom God's promises unfold, as shown in the genealogy culminating in 1 Chronicles 1:27.",
-          "verseReference": "1 Chronicles 1:18-27",
+          "correctAnswer": "Because in his days the earth was divided",
+          "explanation": "1 Chronicles 1:19 explains that Peleg was named so because in his days the earth was divided, likely referring to a major event or division of peoples.",
+          "verseReference": "1 Chronicles 1:19",
           "difficulty": "hard"
         },
         {
           "id": "1-chronicles-1-hard-q10",
-          "question": "Which of the following best describes the literary structure used in the genealogical listing of 1 Chronicles 1?",
+          "question": "Which other Bible passage connects to the theme of the genealogical division of the earth found in 1 Chronicles 1:19?",
           "type": "multiple-choice",
           "options": [
-            "Linear genealogy with parallel groupings",
-            "Chiasm focusing on kingship",
-            "Poetic parallelism",
-            "Prophetic oracle format"
+            "Genesis 10",
+            "Exodus 12",
+            "Psalm 23",
+            "Isaiah 53"
           ],
-          "correctAnswer": "Linear genealogy with parallel groupings",
-          "explanation": "The chapter presents a linear genealogical record, grouping families and tribes in parallel lists to organize the descendants systematically.",
-          "verseReference": "1 Chronicles 1:1-54",
+          "correctAnswer": "Genesis 10",
+          "explanation": "Genesis 10 also details the divisions of the nations after the flood, corresponding to the theme of earth's division mentioned in 1 Chronicles 1:19.",
+          "verseReference": "1 Chronicles 1:19",
           "difficulty": "hard"
         },
         {
           "id": "1-chronicles-1-hard-q11",
-          "question": "True or False: The chapter shows that the Philistines descended from Pathrusim and Casluhim.",
+          "question": "What Hebrew meaning is associated with the name 'Nimrod' as mentioned in this chapter?",
+          "type": "multiple-choice",
+          "options": [
+            "Mighty hunter",
+            "Peaceful ruler",
+            "Servant of God",
+            "Father of nations"
+          ],
+          "correctAnswer": "Mighty hunter",
+          "explanation": "1 Chronicles 1:10 describes Nimrod as beginning to be mighty upon the earth, and the Hebrew root of Nimrod is often understood to mean 'mighty hunter'.",
+          "verseReference": "1 Chronicles 1:10",
+          "difficulty": "hard"
+        },
+        {
+          "id": "1-chronicles-1-hard-q12",
+          "question": "Which of the following statements is TRUE regarding the sons of Ishmael?",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "1 Chronicles 1:12 explicitly states that the Philistines came from Casluhim, indicating their ancestral origins.",
-          "verseReference": "1 Chronicles 1:12",
-          "difficulty": "hard"
-        },
-        {
-          "id": "1-chronicles-1-hard-q12",
-          "question": "Which son of Abraham’s concubine Keturah is the father of Sheba and Dedan, showing interconnections with other biblical tribes?",
-          "type": "multiple-choice",
-          "options": [
-            "Jokshan",
-            "Midian",
-            "Zimran",
-            "Ishbak"
-          ],
-          "correctAnswer": "Jokshan",
-          "explanation": "1 Chronicles 1:32 reports Jokshan as the father of Sheba and Dedan, linking to tribes mentioned elsewhere in Scripture.",
-          "verseReference": "1 Chronicles 1:32",
+          "explanation": "1 Chronicles 1:29-31 lists the sons of Ishmael, including Nebaioth, Kedar, Adbeel, and others, confirming the statement's truth.",
+          "verseReference": "1 Chronicles 1:29-31",
           "difficulty": "hard"
         },
         {
           "id": "1-chronicles-1-hard-q13",
-          "question": "What cultural or historical significance does the listing of the Edomite dukes have in the context of this chapter’s genealogical record?",
-          "type": "multiple-choice",
+          "question": "The genealogy of Abraham's sons includes only Isaac and Ishmael.",
+          "type": "true-false",
           "options": [
-            "It reflects political organization among Edomites",
-            "It shows Israel’s tribal divisions",
-            "It lists Canaanite kings",
-            "It records Babylonian rulers"
+            "True",
+            "False"
           ],
-          "correctAnswer": "It reflects political organization among Edomites",
-          "explanation": "Verses 51-54 list Edomite dukes, demonstrating their political structure and highlighting their historical presence alongside Israel.",
-          "verseReference": "1 Chronicles 1:51-54",
+          "correctAnswer": "False",
+          "explanation": "1 Chronicles 1:28 and 1 Chronicles 1:32 show Abraham's sons include Isaac and Ishmael, but also the sons of Keturah, his concubine, such as Midian and Jokshan.",
+          "verseReference": "1 Chronicles 1:28, 1 Chronicles 1:32",
           "difficulty": "hard"
         },
         {
           "id": "1-chronicles-1-hard-q14",
-          "question": "Which ancient Near Eastern practice is reflected by the detailed genealogical records found in 1 Chronicles 1?",
+          "question": "Which king reigned in Edom immediately after Samlah of Masrekah?",
           "type": "multiple-choice",
           "options": [
-            "Preservation of tribal identity and land claims",
-            "Legal codification of laws",
-            "Prophetic visions",
-            "Temple liturgical instructions"
+            "Shaul of Rehoboth",
+            "Baalhanan son of Achbor",
+            "Hadad son of Bedad",
+            "Jobab son of Zerah"
           ],
-          "correctAnswer": "Preservation of tribal identity and land claims",
-          "explanation": "The genealogies served to preserve tribal identities and legitimize land and social claims in the ancient Near East, as reflected in this chapter.",
-          "verseReference": "1 Chronicles 1:1-54",
+          "correctAnswer": "Shaul of Rehoboth",
+          "explanation": "1 Chronicles 1:48 states that Shaul of Rehoboth by the river reigned after Samlah died.",
+          "verseReference": "1 Chronicles 1:48",
           "difficulty": "hard"
         },
         {
           "id": "1-chronicles-1-hard-q15",
-          "question": "The name 'Mizraim' in the genealogy is the Hebrew name for which ancient country, linking biblical and historical geography?",
+          "question": "Which son of Dishon is listed among his descendants?",
           "type": "multiple-choice",
           "options": [
-            "Egypt",
-            "Babylon",
-            "Assyria",
-            "Aram"
+            "Amram",
+            "Eliphaz",
+            "Joktan",
+            "Zavan"
           ],
-          "correctAnswer": "Egypt",
-          "explanation": "Mizraim is the Hebrew name for Egypt, as noted in 1 Chronicles 1:11-13, connecting biblical genealogy with known ancient civilizations.",
-          "verseReference": "1 Chronicles 1:11",
+          "correctAnswer": "Amram",
+          "explanation": "1 Chronicles 1:41 lists Amram as one of the sons of Dishon.",
+          "verseReference": "1 Chronicles 1:41",
           "difficulty": "hard"
         }
       ],
@@ -742,227 +736,227 @@
       "questions": [
         {
           "id": "1-chronicles-1-theological-q1",
-          "question": "According to 1 Chronicles 1, which of the following is the correct order from Adam to Noah?",
+          "question": "Which doctrine is primarily illustrated by the genealogy from Adam to Noah in 1 Chronicles 1:1-4?",
           "type": "multiple-choice",
           "options": [
-            "Adam, Sheth, Enosh, Kenan, Mahalaleel, Jered, Henoch, Methuselah, Lamech, Noah",
-            "Adam, Enosh, Sheth, Mahalaleel, Jered, Kenan, Methuselah, Henoch, Noah, Lamech",
-            "Adam, Sheth, Enosh, Mahalaleel, Kenan, Jered, Lamech, Henoch, Methuselah, Noah",
-            "Adam, Sheth, Jered, Enosh, Mahalaleel, Kenan, Methuselah, Lamech, Henoch, Noah"
+            "The doctrine of original sin and human descent",
+            "The doctrine of predestination",
+            "The doctrine of the Trinity",
+            "The doctrine of baptism"
           ],
-          "correctAnswer": "Adam, Sheth, Enosh, Kenan, Mahalaleel, Jered, Henoch, Methuselah, Lamech, Noah",
-          "explanation": "1 Chronicles 1:1-4 clearly lists the genealogy starting with Adam and proceeding through Sheth, Enosh, Kenan, Mahalaleel, Jered, Henoch, Methuselah, Lamech, and then Noah, establishing the foundational human lineage. This sequence aligns with Genesis 5:1-32, Luke 3:38, and Hebrews 11:4, reinforcing the historicity of human descent and God's providential plan in salvation history.",
+          "correctAnswer": "The doctrine of original sin and human descent",
+          "explanation": "1 Chronicles 1:1-4 traces the lineage from Adam through Sheth, Enosh, and others to Noah, highlighting the continuity of humanity and the transmission of sin through generations, supporting the doctrine of original sin and human descent.",
           "verseReference": "1 Chronicles 1:1-4",
           "difficulty": "hard"
         },
         {
           "id": "1-chronicles-1-theological-q2",
-          "question": "Who is described as 'mighty upon the earth' in 1 Chronicles 1 and what is his significance?",
+          "question": "What attribute of God is demonstrated by His preservation of the lineage from Shem to Abram as recorded in 1 Chronicles 1:17-27?",
           "type": "multiple-choice",
           "options": [
-            "Nimrod; a mighty hunter and kingdom builder",
-            "Cush; father of nations",
-            "Noah; the righteous remnant",
-            "Japheth; ancestor of many peoples"
+            "Divine faithfulness in covenant promise",
+            "God's wrath towards sin",
+            "God's omnipotence in creation",
+            "God's immediate judgment of sins"
           ],
-          "correctAnswer": "Nimrod; a mighty hunter and kingdom builder",
-          "explanation": "1 Chronicles 1:10 mentions Nimrod, son of Cush, who 'began to be mighty upon the earth.' This depicts early human kingdoms and authority under God's sovereign plan (Genesis 10:8-12). Nimrod's role as a mighty hunter prefigures human governance and the development of civilizations, which Scripture later contrasts with God's kingdom (Daniel 2:44, Revelation 11:15).",
-          "verseReference": "1 Chronicles 1:10",
+          "correctAnswer": "Divine faithfulness in covenant promise",
+          "explanation": "Verses 17-27 detail the lineage from Shem to Abram (Abraham), showing God's faithfulness to His covenant promises to preserve a chosen people through whom blessing will come, illustrating divine faithfulness.",
+          "verseReference": "1 Chronicles 1:17-27",
           "difficulty": "hard"
         },
         {
           "id": "1-chronicles-1-theological-q3",
-          "question": "The division of the earth during the days of Peleg is mentioned in 1 Chronicles 1:19. What does this signify theologically?",
+          "question": "How does the mention of Nimrod in 1 Chronicles 1:10 contribute to biblical theology regarding human rebellion?",
           "type": "multiple-choice",
           "options": [
-            "The scattering of peoples and languages post-Tower of Babel",
-            "A geological event of continental drift",
-            "The beginning of nations through Noah’s sons",
-            "The division of land among the tribes of Israel"
+            "It typifies the rise of human power opposing God",
+            "It illustrates God's immediate destruction of sinners",
+            "It shows the perfect obedience of early humans",
+            "It confirms the unity of all nations under God"
           ],
-          "correctAnswer": "The scattering of peoples and languages post-Tower of Babel",
-          "explanation": "1 Chronicles 1:19 states that Peleg was named because 'in his days the earth was divided.' This corresponds to the Babel event in Genesis 11:1-9, where God confounded human language and scattered people. Theologically, it shows God's sovereign intervention in human history to limit sin's spread and to begin the formation of distinct nations ordained for His redemptive purposes (Acts 17:26-27, Deuteronomy 32:8).",
-          "verseReference": "1 Chronicles 1:19",
+          "correctAnswer": "It typifies the rise of human power opposing God",
+          "explanation": "Nimrod is described as beginning to be mighty upon the earth (1 Chronicles 1:10), which biblically typifies the human ambition and rebellion against God’s authority, an important theme in biblical theology.",
+          "verseReference": "1 Chronicles 1:10",
           "difficulty": "hard"
         },
         {
           "id": "1-chronicles-1-theological-q4",
-          "question": "Which of these is NOT listed as a son of Japheth in 1 Chronicles 1?",
+          "question": "What combined theological insight do the genealogies in 1 Chronicles 1:8 and 1 Chronicles 1:13-16 provide about humanity’s diversity?",
           "type": "multiple-choice",
           "options": [
-            "Gomer",
-            "Magog",
-            "Madai",
-            "Cush"
+            "They reveal God’s sovereign plan in creating distinct peoples and nations",
+            "They prove the equality of all gods",
+            "They indicate the futility of human genealogy",
+            "They promote a doctrine of universal salvation"
           ],
-          "correctAnswer": "Cush",
-          "explanation": "1 Chronicles 1:5 lists the sons of Japheth as Gomer, Magog, Madai, Javan, Tubal, Meshech, and Tiras. Cush, however, is a son of Ham (1 Chronicles 1:8). This distinction highlights the biblical ethnology and God's sovereign distribution of peoples (Genesis 10:1-32, Acts 17:26).",
-          "verseReference": "1 Chronicles 1:5",
+          "correctAnswer": "They reveal God’s sovereign plan in creating distinct peoples and nations",
+          "explanation": "Verses 8 and 13-16 list the sons of Ham and Canaan with various peoples and tribes, showing God's sovereign design in the formation of different nations and peoples, reflecting divine providence over human diversity.",
+          "verseReference": "1 Chronicles 1:8, 13-16",
           "difficulty": "hard"
         },
         {
           "id": "1-chronicles-1-theological-q5",
-          "question": "The Philistines are said to have descended from which group according to 1 Chronicles 1?",
+          "question": "According to 1 Chronicles 1:19, what theological significance is attached to the naming of Peleg?",
           "type": "multiple-choice",
           "options": [
-            "Casluhim",
-            "Canaan",
-            "Mizraim",
-            "Javan"
+            "It marks a divine judgment involving the division of the earth",
+            "It signifies the birth of the Messiah",
+            "It refers to the first covenant with Noah",
+            "It indicates the establishment of the priesthood"
           ],
-          "correctAnswer": "Casluhim",
-          "explanation": "1 Chronicles 1:12 states that Casluhim, a son of Mizraim, is the ancestor from whom the Philistines came. This genealogical fact is significant for understanding the biblical narrative of peoples around Israel and God's providential dealings with them (Genesis 10:13-14, Judges 13:1, Exodus 13:17).",
-          "verseReference": "1 Chronicles 1:12",
+          "correctAnswer": "It marks a divine judgment involving the division of the earth",
+          "explanation": "Verse 19 states Peleg was named because 'in his days the earth was divided,' indicating a significant event, often understood as a divine judgment or providential act dividing languages or lands, carrying theological weight about God's governance.",
+          "verseReference": "1 Chronicles 1:19",
           "difficulty": "hard"
         },
         {
           "id": "1-chronicles-1-theological-q6",
-          "question": "Who was the father of Abraham according to 1 Chronicles 1?",
+          "question": "What attribute of God is illustrated by His preservation of Ishmael's descendants in 1 Chronicles 1:29-31?",
           "type": "multiple-choice",
           "options": [
-            "Terah",
-            "Nahor",
-            "Serug",
-            "Peleg"
+            "God’s mercy extending beyond the covenant line",
+            "God’s wrath exclusively on non-Israelites",
+            "God’s immediate election of Israel alone",
+            "God’s indifference to genealogy"
           ],
-          "correctAnswer": "Terah",
-          "explanation": "1 Chronicles 1:26-27 lists the genealogy leading to Abram (Abraham) and identifies Terah as Abraham’s father. This confirms the biblical lineage important for God's covenant and promises (Genesis 11:24-32, Romans 4:16, Hebrews 11:8).",
-          "verseReference": "1 Chronicles 1:26-27",
+          "correctAnswer": "God’s mercy extending beyond the covenant line",
+          "explanation": "Verses 29-31 list Ishmael's descendants, showing that God extends mercy and preserves lineages even outside of the covenant line of Isaac and Israel, illustrating His mercy and sovereign care for all peoples.",
+          "verseReference": "1 Chronicles 1:29-31",
           "difficulty": "hard"
         },
         {
           "id": "1-chronicles-1-theological-q7",
-          "question": "Which two sons of Abraham are mentioned in 1 Chronicles 1:28?",
+          "question": "What narrative arc connecting to the grand redemption story does 1 Chronicles 1:27-28 reveal?",
           "type": "multiple-choice",
           "options": [
-            "Isaac and Ishmael",
-            "Isaac and Midian",
-            "Ishmael and Jokshan",
-            "Midian and Sheba"
+            "The introduction of Abraham as the father of the covenant promises",
+            "The fulfillment of the Davidic covenant",
+            "The giving of the Law to Moses",
+            "The prophecy of the Messiah’s birth"
           ],
-          "correctAnswer": "Isaac and Ishmael",
-          "explanation": "1 Chronicles 1:28 names Isaac and Ishmael as the sons of Abraham, emphasizing God's faithfulness to His covenant through Isaac while also acknowledging Ishmael’s role in biblical history (Genesis 16:15-16, 21:9-21, Galatians 4:21-31).",
-          "verseReference": "1 Chronicles 1:28",
+          "correctAnswer": "The introduction of Abraham as the father of the covenant promises",
+          "explanation": "Verses 27-28 identify Abram (Abraham) and his sons Isaac and Ishmael, marking the beginning of the covenant line through whom God's redemptive promise to bless all nations will unfold, central to biblical narrative.",
+          "verseReference": "1 Chronicles 1:27-28",
           "difficulty": "hard"
         },
         {
           "id": "1-chronicles-1-theological-q8",
-          "question": "What is the significance of the genealogies of Joktan’s sons in 1 Chronicles 1:20-23 for biblical theology?",
+          "question": "How does 1 Chronicles 1:34 contribute to the understanding of God's providence in salvation history?",
           "type": "multiple-choice",
           "options": [
-            "They represent the spread of nations from Shem",
-            "They trace the lineage of the Messiah",
-            "They show the descendants of Ham",
-            "They list the kings of Edom"
+            "By tracing the lineage from Abraham through Isaac to Jacob (Israel), it shows God’s providential preservation of the covenant people",
+            "By emphasizing the rejection of Isaac’s line",
+            "By showing God’s disinterest in human genealogies",
+            "By introducing the priestly tribe"
           ],
-          "correctAnswer": "They represent the spread of nations from Shem",
-          "explanation": "Joktan, son of Eber and descendant of Shem, had many sons who became heads of tribes and nations (1 Chronicles 1:20-23). This genealogical record reveals God's sovereign plan in populating the earth with distinct peoples, fulfilling the Abrahamic promise and setting the stage for redemptive history (Genesis 10:21-30, Acts 17:26).",
-          "verseReference": "1 Chronicles 1:20-23",
-          "difficulty": "hard"
-        },
-        {
-          "id": "1-chronicles-1-theological-q9",
-          "question": "Fill in the blank: According to 1 Chronicles 1:34, Abraham begat Isaac, and Isaac begat ________ and Israel.",
-          "type": "multiple-choice",
-          "options": [
-            "Esau",
-            "Joktan",
-            "Nimrod",
-            "Peleg"
-          ],
-          "correctAnswer": "Esau",
-          "explanation": "1 Chronicles 1:34 states that Isaac begat Esau and Israel (Jacob). This dual lineage is the foundation for the nations of Edom (Esau) and Israel (Jacob), central to biblical redemptive history (Genesis 25:19-26, Romans 9:10-13, Malachi 1:2-3).",
+          "correctAnswer": "By tracing the lineage from Abraham through Isaac to Jacob (Israel), it shows God’s providential preservation of the covenant people",
+          "explanation": "Verse 34 shows Abraham begat Isaac, and Isaac begat Esau and Israel (Jacob), highlighting God's providence in preserving the chosen line through which the Messiah will come, a key theme in salvation history.",
           "verseReference": "1 Chronicles 1:34",
           "difficulty": "hard"
         },
         {
-          "id": "1-chronicles-1-theological-q10",
-          "question": "Which of these was NOT a son of Eliphaz, son of Esau, according to 1 Chronicles 1?",
+          "id": "1-chronicles-1-theological-q9",
+          "question": "What combined doctrinal teaching do 1 Chronicles 1:43-50 convey about human government and divine sovereignty?",
           "type": "multiple-choice",
           "options": [
-            "Teman",
-            "Omar",
-            "Jeush",
-            "Kenaz"
+            "God ordains human kingship even outside Israel and sovereignly directs their reigns",
+            "Kingship is only valid when Israelite",
+            "Human rulers are independent of God's will",
+            "Kingship is a result of human rebellion"
           ],
-          "correctAnswer": "Jeush",
-          "explanation": "1 Chronicles 1:36 lists the sons of Eliphaz as Teman, Omar, Zephi, Gatam, Kenaz, Timna, and Amalek. Jeush was a son of Esau but not of Eliphaz (1 Chronicles 1:35). This distinction clarifies the genealogical lines important for understanding Edom's tribal structure (Genesis 36:4-11, Obadiah 1:1-21).",
-          "verseReference": "1 Chronicles 1:36",
+          "correctAnswer": "God ordains human kingship even outside Israel and sovereignly directs their reigns",
+          "explanation": "These verses list kings who reigned in Edom before Israel had kings, showing that God ordains human government universally and sovereignly directs the rise and fall of rulers outside Israel as well.",
+          "verseReference": "1 Chronicles 1:43-50",
+          "difficulty": "hard"
+        },
+        {
+          "id": "1-chronicles-1-theological-q10",
+          "question": "What does 1 Chronicles 1:12 reveal about the origin of certain peoples in relation to divine providence?",
+          "type": "multiple-choice",
+          "options": [
+            "The Philistines originated from Casluhim, showing God’s sovereign allowance of nations",
+            "All nations originated from Israel",
+            "The Philistines were created separately by God",
+            "Nations arose independently of God’s plan"
+          ],
+          "correctAnswer": "The Philistines originated from Casluhim, showing God’s sovereign allowance of nations",
+          "explanation": "Verse 12 identifies Casluhim as ancestors of the Philistines, demonstrating God's providential role in the establishment of various peoples and nations in history.",
+          "verseReference": "1 Chronicles 1:12",
           "difficulty": "hard"
         },
         {
           "id": "1-chronicles-1-theological-q11",
-          "question": "Who reigned in Edom before any king reigned over the children of Israel, according to 1 Chronicles 1?",
+          "question": "Sceptics claim the genealogies in 1 Chronicles 1 are merely human inventions with no divine purpose. What does 1 Chronicles 1:18-23 actually teach about God's role in history?",
           "type": "multiple-choice",
           "options": [
-            "Bela the son of Beor",
-            "Jobab the son of Zerah",
-            "Samlah of Masrekah",
-            "Shaul of Rehoboth"
+            "God sovereignly orchestrates the development of nations and preserves His covenant line",
+            "Genealogies are irrelevant to theology",
+            "God abandoned humanity after creation",
+            "These genealogies are random and meaningless"
           ],
-          "correctAnswer": "Bela the son of Beor",
-          "explanation": "1 Chronicles 1:43 states that Bela son of Beor was king in Edom before any king reigned over Israel. This shows Edom's early monarchy, providing historical context for Israel's later establishment of kingship (Genesis 36:31-39, 1 Samuel 8:5-7, Psalm 18:43).",
-          "verseReference": "1 Chronicles 1:43",
+          "correctAnswer": "God sovereignly orchestrates the development of nations and preserves His covenant line",
+          "explanation": "Verses 18-23 detail lineages from Arphaxad through Eber and Joktan, emphasizing God's sovereign hand in the unfolding of human history and the preservation of the covenant people, countering sceptic claims.",
+          "verseReference": "1 Chronicles 1:18-23",
           "difficulty": "hard"
         },
         {
           "id": "1-chronicles-1-theological-q12",
-          "question": "Which of these titles does NOT appear among the dukes of Edom listed in 1 Chronicles 1?",
+          "question": "What theological significance can be drawn from the mention of the division of the earth during Peleg’s days, as in 1 Chronicles 1:19, in light of biblical covenant theology?",
           "type": "multiple-choice",
           "options": [
-            "Duke Timnah",
-            "Duke Magdiel",
-            "Duke Jerah",
-            "Duke Iram"
+            "It indicates a divine intervention that reshapes human society and sets the stage for God’s covenant dealings",
+            "It symbolizes the end of God’s covenant",
+            "It marks the beginning of universal salvation",
+            "It shows humanity’s rejection of God’s law"
           ],
-          "correctAnswer": "Duke Jerah",
-          "explanation": "1 Chronicles 1:51-54 lists the dukes of Edom as Timnah, Aliah, Jetheth, Aholibamah, Elah, Pinon, Kenaz, Teman, Mibzar, Magdiel, and Iram. Jerah is not among them, clarifying the tribal leaders of Edom (Genesis 36:40-43).",
-          "verseReference": "1 Chronicles 1:51-54",
+          "correctAnswer": "It indicates a divine intervention that reshapes human society and sets the stage for God’s covenant dealings",
+          "explanation": "The division of the earth in Peleg’s time symbolizes a major divine act influencing human society's structure, important for understanding the context of God’s unfolding covenant promises in salvation history.",
+          "verseReference": "1 Chronicles 1:19",
           "difficulty": "hard"
         },
         {
           "id": "1-chronicles-1-theological-q13",
-          "question": "What theological truth is demonstrated by the detailed genealogies in 1 Chronicles 1?",
+          "question": "What narrative arc is highlighted by the listing of Edomite dukes in 1 Chronicles 1:51-54 in relation to Israel's future monarchy?",
           "type": "multiple-choice",
           "options": [
-            "God’s sovereign plan in human history and salvation",
-            "The equality of all nations without distinction",
-            "The denial of original sin",
-            "The irrelevance of lineage in God’s plan"
+            "It underscores the existence of organized leadership among Israel’s neighbors before Israel had kings",
+            "It shows the superiority of Edom over Israel",
+            "It indicates Edom’s rejection of God",
+            "It predicts the destruction of Edom"
           ],
-          "correctAnswer": "God’s sovereign plan in human history and salvation",
-          "explanation": "The genealogies in 1 Chronicles 1 emphasize God's providential orchestration of human history, establishing the covenantal line through which salvation history unfolds (Romans 5:12-21, Matthew 1:1-17, Genesis 12:1-3, Hebrews 11:17-19). They show God's control over nations and peoples to accomplish His redemptive purposes.",
-          "verseReference": "1 Chronicles 1:1-54",
+          "correctAnswer": "It underscores the existence of organized leadership among Israel’s neighbors before Israel had kings",
+          "explanation": "These verses list Edomite dukes reigning before Israel had kings, setting a narrative backdrop for Israel’s future monarchy and God's sovereign timing in redemptive history.",
+          "verseReference": "1 Chronicles 1:51-54",
           "difficulty": "hard"
         },
         {
           "id": "1-chronicles-1-theological-q14",
-          "question": "Which son of Shem is identified as the ancestor of Abraham in 1 Chronicles 1?",
+          "question": "What combined doctrinal truth do 1 Chronicles 1:28 and 1 Chronicles 1:32 teach about God’s providential care over Abraham’s descendants beyond Isaac?",
           "type": "multiple-choice",
           "options": [
-            "Arphaxad",
-            "Shelah",
-            "Eber",
-            "Peleg"
+            "God cares for all Abraham’s offspring, including Ishmael and those by Keturah, demonstrating His inclusive providence",
+            "God only cares for Isaac’s line",
+            "God rejects Ishmael’s descendants",
+            "God’s promises are limited to one son exclusively"
           ],
-          "correctAnswer": "Eber",
-          "explanation": "1 Chronicles 1:18-24 traces the lineage from Shem through Arphaxad, Shelah, and Eber, from whom the line continues to Abraham. Eber is significant as the root of the Hebrew people and the origin of the term 'Hebrew' (Genesis 10:21-25, Genesis 14:13, Hebrews 7:1-3).",
-          "verseReference": "1 Chronicles 1:17-24",
+          "correctAnswer": "God cares for all Abraham’s offspring, including Ishmael and those by Keturah, demonstrating His inclusive providence",
+          "explanation": "Verses 28 and 32 show descendants of Ishmael and Keturah, indicating God's providential care extends beyond Isaac's line, reflecting His mercy and sovereign plan for all Abraham’s offspring.",
+          "verseReference": "1 Chronicles 1:28, 32",
           "difficulty": "hard"
         },
         {
           "id": "1-chronicles-1-theological-q15",
-          "question": "What is the significance of the naming of Peleg in 1 Chronicles 1:19 for Christian eschatology?",
+          "question": "What doctrine is illustrated by the presence of multiple tribal names under Canaan’s descendants in 1 Chronicles 1:13-16?",
           "type": "multiple-choice",
           "options": [
-            "It symbolizes division that will be ultimately resolved in Christ",
-            "It predicts the end of the world",
-            "It refers to a future physical earthquake",
-            "It marks the start of Israel’s monarchy"
+            "The doctrine of judgment and curse upon Canaan’s lineage",
+            "The doctrine of universal reconciliation",
+            "The doctrine of election of Israel alone",
+            "The doctrine of the priesthood"
           ],
-          "correctAnswer": "It symbolizes division that will be ultimately resolved in Christ",
-          "explanation": "Peleg’s name, meaning 'division,' refers historically to the scattering at Babel (Genesis 11:1-9). Theologically, this division points to the human condition of separation from God, which Christ came to reconcile (Ephesians 2:14-18, John 17:20-23, Revelation 21:1-4). Thus, the genealogy anticipates restoration of unity in the eschaton.",
-          "verseReference": "1 Chronicles 1:19",
+          "correctAnswer": "The doctrine of judgment and curse upon Canaan’s lineage",
+          "explanation": "The listing of Canaan’s descendants including various tribes known for opposition to Israel reflects the biblical theological theme of judgment and curse upon Canaan’s line, consistent with Genesis 9 and 10.",
+          "verseReference": "1 Chronicles 1:13-16",
           "difficulty": "hard"
         }
       ],

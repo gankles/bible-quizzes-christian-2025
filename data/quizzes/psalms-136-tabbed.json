@@ -13,52 +13,194 @@
       "questions": [
         {
           "id": "psalms-136-easy-q1",
-          "question": "According to Psalms 136:1, why should we give thanks unto the LORD?",
+          "question": "Who is praised for being good and having enduring mercy?",
           "type": "multiple-choice",
           "options": [
-            "Because he is good",
-            "Because he is powerful",
-            "Because he created the earth",
-            "Because he is just"
+            "The LORD",
+            "The king",
+            "The prophet",
+            "The angel"
           ],
-          "correctAnswer": "Because he is good",
-          "explanation": "Psalms 136:1 states, 'O give thanks unto the LORD; for he is good: for his mercy endureth for ever.' This highlights God's goodness as the reason for giving thanks.",
+          "correctAnswer": "The LORD",
+          "explanation": "Psalms 136:1 states 'O give thanks unto the LORD; for he is good: for his mercy endureth for ever.'",
           "verseReference": "Psalms 136:1",
           "difficulty": "easy"
         },
         {
           "id": "psalms-136-easy-q2",
-          "question": "Who is called the God of gods in Psalms 136:2?",
+          "question": "According to Psalms 136, what title is given to God in verse 2?",
           "type": "multiple-choice",
           "options": [
-            "The LORD",
-            "The God of gods",
-            "The Lord of lords",
-            "The Creator"
+            "God of gods",
+            "King of kings",
+            "Lord of hosts",
+            "Prince of peace"
           ],
-          "correctAnswer": "The God of gods",
-          "explanation": "Psalms 136:2 says, 'O give thanks unto the God of gods: for his mercy endureth for ever,' directly naming God as the God of gods.",
+          "correctAnswer": "God of gods",
+          "explanation": "Psalms 136:2 says 'O give thanks unto the God of gods: for his mercy endureth for ever.'",
           "verseReference": "Psalms 136:2",
           "difficulty": "easy"
         },
         {
           "id": "psalms-136-easy-q3",
-          "question": "What does Psalms 136:4 say God alone does?",
-          "type": "multiple-choice",
+          "question": "True or False: Psalms 136 calls God the Lord of lords.",
+          "type": "true-false",
           "options": [
-            "Doeth great wonders",
-            "Made the heavens",
-            "Smote Egypt",
-            "Divided the Red sea"
+            "True",
+            "False"
           ],
-          "correctAnswer": "Doeth great wonders",
-          "explanation": "Psalms 136:4 states, 'To him who alone doeth great wonders: for his mercy endureth for ever.'",
-          "verseReference": "Psalms 136:4",
+          "correctAnswer": "True",
+          "explanation": "Psalms 136:3 reads 'O give thanks to the Lord of lords: for his mercy endureth for ever.'",
+          "verseReference": "Psalms 136:3",
           "difficulty": "easy"
         },
         {
           "id": "psalms-136-easy-q4",
-          "question": "According to Psalms 136:5, by what means did God make the heavens?",
+          "question": "What does God do alone according to Psalms 136:4?",
+          "type": "multiple-choice",
+          "options": [
+            "Doeth great wonders",
+            "Sings a new song",
+            "Commands the stars",
+            "Creates the sea"
+          ],
+          "correctAnswer": "Doeth great wonders",
+          "explanation": "Psalms 136:4 states 'To him who alone doeth great wonders: for his mercy endureth for ever.'",
+          "verseReference": "Psalms 136:4",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-136-easy-q5",
+          "question": "True or False: God made the heavens by wisdom, according to Psalms 136.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Psalms 136:5 says 'To him that by wisdom made the heavens: for his mercy endureth for ever.'",
+          "verseReference": "Psalms 136:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-136-easy-q6",
+          "question": "According to Psalms 136:6, what did God stretch out above the waters?",
+          "type": "multiple-choice",
+          "options": [
+            "The earth",
+            "The sky",
+            "The mountains",
+            "The clouds"
+          ],
+          "correctAnswer": "The earth",
+          "explanation": "Psalms 136:6 states 'To him that stretched out the earth above the waters: for his mercy endureth for ever.'",
+          "verseReference": "Psalms 136:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-136-easy-q7",
+          "question": "Who made the great lights, according to Psalms 136:7?",
+          "type": "multiple-choice",
+          "options": [
+            "God",
+            "The angels",
+            "The elders",
+            "The prophets"
+          ],
+          "correctAnswer": "God",
+          "explanation": "Psalms 136:7 tells us 'To him that made great lights: for his mercy endureth for ever.'",
+          "verseReference": "Psalms 136:7",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-136-easy-q8",
+          "question": "What is the role of the sun according to Psalms 136:8?",
+          "type": "multiple-choice",
+          "options": [
+            "To rule by day",
+            "To shine at night",
+            "To give heat",
+            "To hide the stars"
+          ],
+          "correctAnswer": "To rule by day",
+          "explanation": "Psalms 136:8 states 'The sun to rule by day: for his mercy endureth for ever.'",
+          "verseReference": "Psalms 136:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-136-easy-q9",
+          "question": "True or False: The moon and stars are appointed to rule by night in Psalms 136.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Psalms 136:9 says 'The moon and stars to rule by night: for his mercy endureth for ever.'",
+          "verseReference": "Psalms 136:9",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-136-easy-q10",
+          "question": "In Psalms 136, which of the following comes first in giving thanks?",
+          "type": "multiple-choice",
+          "options": [
+            "The LORD for being good",
+            "The God of gods",
+            "The Lord of lords",
+            "God who made the heavens"
+          ],
+          "correctAnswer": "The LORD for being good",
+          "explanation": "Psalms 136:1 begins with giving thanks to the LORD because he is good before the other titles appear in verses 2 and 3.",
+          "verseReference": "Psalms 136:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-136-easy-q11",
+          "question": "Who is repeatedly praised for mercy that endureth forever?",
+          "type": "multiple-choice",
+          "options": [
+            "The LORD",
+            "Moses",
+            "The king of Egypt",
+            "The prophets"
+          ],
+          "correctAnswer": "The LORD",
+          "explanation": "Throughout Psalms 136, including verses 1-9, the LORD is praised for his mercy that endureth forever.",
+          "verseReference": "Psalms 136:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-136-easy-q12",
+          "question": "True or False: Psalms 136:6 describes God stretching out the heavens above the waters.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Psalms 136:6 specifically says God stretched out the earth above the waters, not the heavens.",
+          "verseReference": "Psalms 136:6",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-136-easy-q13",
+          "question": "What phrase is repeated at the end of each verse in Psalms 136?",
+          "type": "multiple-choice",
+          "options": [
+            "For his mercy endureth for ever",
+            "Glory be to God",
+            "Hallelujah",
+            "Praise the Lord"
+          ],
+          "correctAnswer": "For his mercy endureth for ever",
+          "explanation": "Every verse in Psalms 136 ends with the phrase 'for his mercy endureth for ever.'",
+          "verseReference": "Psalms 136:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psalms-136-easy-q14",
+          "question": "According to Psalms 136:5, how did God create the heavens?",
           "type": "multiple-choice",
           "options": [
             "By wisdom",
@@ -67,167 +209,23 @@
             "By love"
           ],
           "correctAnswer": "By wisdom",
-          "explanation": "Psalms 136:5 says, 'To him that by wisdom made the heavens: for his mercy endureth for ever.'",
+          "explanation": "Psalms 136:5 states 'To him that by wisdom made the heavens: for his mercy endureth for ever.'",
           "verseReference": "Psalms 136:5",
           "difficulty": "easy"
         },
         {
-          "id": "psalms-136-easy-q5",
-          "question": "What did God stretch out above the waters according to Psalms 136:6?",
-          "type": "multiple-choice",
-          "options": [
-            "The earth",
-            "The sky",
-            "The clouds",
-            "The mountains"
-          ],
-          "correctAnswer": "The earth",
-          "explanation": "Psalms 136:6 reads, 'To him that stretched out the earth above the waters: for his mercy endureth for ever.'",
-          "verseReference": "Psalms 136:6",
-          "difficulty": "easy"
-        },
-        {
-          "id": "psalms-136-easy-q6",
-          "question": "Which great lights did God make according to Psalms 136:7?",
-          "type": "multiple-choice",
-          "options": [
-            "The sun, moon, and stars",
-            "The sun and moon only",
-            "The stars only",
-            "The earth and moon"
-          ],
-          "correctAnswer": "The sun, moon, and stars",
-          "explanation": "Psalms 136:7-9 mention God made great lights: the sun to rule by day, the moon and stars to rule by night.",
-          "verseReference": "Psalms 136:7",
-          "difficulty": "easy"
-        },
-        {
-          "id": "psalms-136-easy-q7",
-          "question": "True or False: Psalms 136:10 says God smote Egypt in their firstborn.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Psalms 136:10 states, 'To him that smote Egypt in their firstborn: for his mercy endureth for ever.'",
-          "verseReference": "Psalms 136:10",
-          "difficulty": "easy"
-        },
-        {
-          "id": "psalms-136-easy-q8",
-          "question": "Who did God bring out from Egypt as mentioned in Psalms 136:11?",
-          "type": "multiple-choice",
-          "options": [
-            "Israel",
-            "The Egyptians",
-            "The Philistines",
-            "The Amorites"
-          ],
-          "correctAnswer": "Israel",
-          "explanation": "Psalms 136:11 states, 'And brought out Israel from among them: for his mercy endureth for ever.'",
-          "verseReference": "Psalms 136:11",
-          "difficulty": "easy"
-        },
-        {
-          "id": "psalms-136-easy-q9",
-          "question": "How did God bring Israel out of Egypt according to Psalms 136:12?",
-          "type": "multiple-choice",
-          "options": [
-            "With a strong hand and a stretched out arm",
-            "With a mighty wind",
-            "With fire and smoke",
-            "With a trumpet blast"
-          ],
-          "correctAnswer": "With a strong hand and a stretched out arm",
-          "explanation": "Psalms 136:12 says, 'With a strong hand, and with a stretched out arm: for his mercy endureth for ever.'",
-          "verseReference": "Psalms 136:12",
-          "difficulty": "easy"
-        },
-        {
-          "id": "psalms-136-easy-q10",
-          "question": "True or False: Psalms 136:15 declares that Pharaoh and his host were overthrown in the Red Sea.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Psalms 136:15 states, 'But overthrew Pharaoh and his host in the Red sea: for his mercy endureth for ever.'",
-          "verseReference": "Psalms 136:15",
-          "difficulty": "easy"
-        },
-        {
-          "id": "psalms-136-easy-q11",
-          "question": "Who are two kings mentioned as being smitten by God in Psalms 136:19 and 136:20?",
-          "type": "multiple-choice",
-          "options": [
-            "Sihon and Og",
-            "Pharaoh and Sihon",
-            "Og and Pharaoh",
-            "David and Solomon"
-          ],
-          "correctAnswer": "Sihon and Og",
-          "explanation": "Psalms 136:19-20 name Sihon king of the Amorites and Og king of Bashan as kings smitten by God.",
-          "verseReference": "Psalms 136:19",
-          "difficulty": "easy"
-        },
-        {
-          "id": "psalms-136-easy-q12",
-          "question": "True or False: Psalms 136:25 states that God giveth food to all flesh.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Psalms 136:25 says, 'Who giveth food to all flesh: for his mercy endureth for ever.'",
-          "verseReference": "Psalms 136:25",
-          "difficulty": "easy"
-        },
-        {
-          "id": "psalms-136-easy-q13",
-          "question": "Fill in the blank: 'O give thanks unto the _____ of heaven: for his mercy endureth for ever.'",
-          "type": "fill-blank",
-          "options": [
-            "God",
-            "King",
-            "Lord",
-            "Creator"
-          ],
-          "correctAnswer": "God",
-          "explanation": "Psalms 136:26 states, 'O give thanks unto the God of heaven: for his mercy endureth for ever.'",
-          "verseReference": "Psalms 136:26",
-          "difficulty": "easy"
-        },
-        {
-          "id": "psalms-136-easy-q14",
-          "question": "According to Psalms 136:21, what was given as an heritage?",
-          "type": "multiple-choice",
-          "options": [
-            "Their land",
-            "Their wealth",
-            "Their cities",
-            "Their livestock"
-          ],
-          "correctAnswer": "Their land",
-          "explanation": "Psalms 136:21 reads, 'And gave their land for an heritage: for his mercy endureth for ever.'",
-          "verseReference": "Psalms 136:21",
-          "difficulty": "easy"
-        },
-        {
           "id": "psalms-136-easy-q15",
-          "question": "Who is described as God's servant in Psalms 136:22?",
+          "question": "Who is thanked for making the moon and stars to rule by night?",
           "type": "multiple-choice",
           "options": [
-            "Israel",
-            "Egypt",
-            "Amorites",
-            "Bashan"
+            "The LORD",
+            "The king of Israel",
+            "The priests",
+            "The prophets"
           ],
-          "correctAnswer": "Israel",
-          "explanation": "Psalms 136:22 says, 'Even an heritage unto Israel his servant: for his mercy endureth for ever.'",
-          "verseReference": "Psalms 136:22",
+          "correctAnswer": "The LORD",
+          "explanation": "Psalms 136:9 says 'The moon and stars to rule by night: for his mercy endureth for ever,' referring to the LORD.",
+          "verseReference": "Psalms 136:9",
           "difficulty": "easy"
         }
       ],
@@ -254,222 +252,222 @@
       "questions": [
         {
           "id": "psalms-136-medium-q1",
-          "question": "A fellow believer is going through a trial and asks you for counsel. Based on Psalms 136, what biblical truth would you share about God's nature?",
+          "question": "According to Psalms 136:10, whom did God smite in their firstborn?",
           "type": "multiple-choice",
           "options": [
-            "God's mercy endures forever",
-            "God only helps sometimes",
-            "God is distant in trials",
-            "God is unpredictable"
+            "Egypt",
+            "Amorites",
+            "Bashan",
+            "Israel"
           ],
-          "correctAnswer": "God's mercy endures forever",
-          "explanation": "Psalms 136 repeatedly emphasizes God's enduring mercy (e.g., verses 1, 4, 26), teaching us to trust in His unchanging kindness during trials.",
-          "verseReference": "Psalms 136:1",
+          "correctAnswer": "Egypt",
+          "explanation": "Psalms 136:10 states that God smote Egypt in their firstborn, demonstrating His power and mercy toward His people.",
+          "verseReference": "Psalms 136:10",
           "difficulty": "medium"
         },
         {
           "id": "psalms-136-medium-q2",
-          "question": "How does Psalms 136 teach us about the importance of gratitude in Christian living?",
+          "question": "How does Psalms 136:11 describe God's act toward Israel?",
           "type": "multiple-choice",
           "options": [
-            "We should continually give thanks to God",
-            "Gratitude is optional",
-            "Only give thanks during celebrations",
-            "Thank others instead of God"
+            "He brought Israel out from among them",
+            "He gave Israel land without battle",
+            "He punished Israel for their sins",
+            "He hid Israel in the wilderness"
           ],
-          "correctAnswer": "We should continually give thanks to God",
-          "explanation": "Verses like Psalms 136:1, 2, and 26 repeatedly command giving thanks to the LORD, highlighting gratitude as a continual spiritual discipline.",
-          "verseReference": "Psalms 136:2",
-          "difficulty": "medium"
-        },
-        {
-          "id": "psalms-136-medium-q3",
-          "question": "A believer is struggling with discouragement about their work. According to Psalms 136, what truth about God's creative power can encourage them?",
-          "type": "multiple-choice",
-          "options": [
-            "God made the heavens by wisdom",
-            "God created the world by accident",
-            "God does not care about work",
-            "God is unaware of human effort"
-          ],
-          "correctAnswer": "God made the heavens by wisdom",
-          "explanation": "Psalms 136:5 reveals that God created the heavens by wisdom, reminding us that our work under His sovereignty has purpose and meaning.",
-          "verseReference": "Psalms 136:5",
-          "difficulty": "medium"
-        },
-        {
-          "id": "psalms-136-medium-q4",
-          "question": "What biblical principle about God's provision can be drawn from Psalms 136:25?",
-          "type": "multiple-choice",
-          "options": [
-            "God gives food to all flesh",
-            "Provision is random",
-            "We must earn everything ourselves",
-            "God only provides for some"
-          ],
-          "correctAnswer": "God gives food to all flesh",
-          "explanation": "Verse 25 states that God provides food to all living beings, encouraging trust in His provision and fostering gratitude in our stewardship.",
-          "verseReference": "Psalms 136:25",
-          "difficulty": "medium"
-        },
-        {
-          "id": "psalms-136-medium-q5",
-          "question": "How does Psalms 136 encourage believers to trust God during times of deliverance from difficulties?",
-          "type": "multiple-choice",
-          "options": [
-            "God brought Israel out of Egypt with a strong hand",
-            "God ignores suffering",
-            "Deliverance depends on luck",
-            "God punishes without cause"
-          ],
-          "correctAnswer": "God brought Israel out of Egypt with a strong hand",
-          "explanation": "Verses 10-12 describe God's mighty acts of delivering Israel, teaching believers to trust God's power to save in their own challenges.",
+          "correctAnswer": "He brought Israel out from among them",
+          "explanation": "Psalms 136:11 emphasizes God's deliverance of Israel from Egypt, showing His mercy in rescuing His people.",
           "verseReference": "Psalms 136:11",
           "difficulty": "medium"
         },
         {
-          "id": "psalms-136-medium-q6",
-          "question": "According to Psalms 136, what attitude should believers have toward God's past acts of salvation?",
+          "id": "psalms-136-medium-q3",
+          "question": "What does Psalms 136:12 reveal about God's power in delivering Israel?",
           "type": "multiple-choice",
           "options": [
-            "Remember and give thanks for them",
-            "Forget them quickly",
-            "Doubt their reality",
-            "Boast only in personal achievements"
+            "With a strong hand and with a stretched out arm",
+            "By sending angels to fight",
+            "By causing the sun to stand still",
+            "By sending plagues to enemies"
           ],
-          "correctAnswer": "Remember and give thanks for them",
-          "explanation": "Verse 23 highlights that God remembers us in our low estate, encouraging believers to recall and be thankful for God's saving acts as a source of hope.",
-          "verseReference": "Psalms 136:23",
+          "correctAnswer": "With a strong hand and with a stretched out arm",
+          "explanation": "The verse describes God's mighty hand and outstretched arm as the means of Israel's deliverance, illustrating His strength and mercy.",
+          "verseReference": "Psalms 136:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-136-medium-q4",
+          "question": "Which miraculous event is described in Psalms 136:13?",
+          "type": "multiple-choice",
+          "options": [
+            "Dividing the Red Sea into parts",
+            "Sending manna from heaven",
+            "Bringing water from a rock",
+            "Raising up judges for Israel"
+          ],
+          "correctAnswer": "Dividing the Red Sea into parts",
+          "explanation": "Psalms 136:13 recounts God's act of dividing the Red Sea, allowing Israel to escape, highlighting His continuing mercy.",
+          "verseReference": "Psalms 136:13",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-136-medium-q5",
+          "question": "According to Psalms 136:14, what did God do after dividing the Red Sea?",
+          "type": "multiple-choice",
+          "options": [
+            "Made Israel to pass through the midst of it",
+            "Closed the sea to drown Israel",
+            "Let Pharaoh's army cross first",
+            "Sent a cloud to cover Israel"
+          ],
+          "correctAnswer": "Made Israel to pass through the midst of it",
+          "explanation": "This verse shows God's protection and guidance as He led Israel safely through the sea, demonstrating His mercy.",
+          "verseReference": "Psalms 136:14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-136-medium-q6",
+          "question": "What happened to Pharaoh and his host according to Psalms 136:15?",
+          "type": "multiple-choice",
+          "options": [
+            "They were overthrown in the Red Sea",
+            "They escaped safely",
+            "They made a treaty with Israel",
+            "They were forgiven by God"
+          ],
+          "correctAnswer": "They were overthrown in the Red Sea",
+          "explanation": "Psalms 136:15 describes God's judgment upon Pharaoh and his army, underscoring His justice alongside mercy.",
+          "verseReference": "Psalms 136:15",
           "difficulty": "medium"
         },
         {
           "id": "psalms-136-medium-q7",
-          "question": "How can Psalms 136 guide a believer dealing with temptation to lose faith in God's care?",
+          "question": "How does Psalms 136:16 describe God's guidance of His people?",
           "type": "multiple-choice",
           "options": [
-            "By recalling God's enduring mercy",
-            "By focusing on personal strength alone",
-            "By ignoring God's promises",
-            "By blaming God for hardships"
+            "Led his people through the wilderness",
+            "Sent prophets to teach them",
+            "Built a temple for them",
+            "Provided kings to rule Israel"
           ],
-          "correctAnswer": "By recalling God's enduring mercy",
-          "explanation": "The repeated phrase 'for his mercy endureth for ever' (e.g., verses 1, 6, 18) reminds believers to trust God's steadfast love even when tempted to doubt.",
-          "verseReference": "Psalms 136:6",
+          "correctAnswer": "Led his people through the wilderness",
+          "explanation": "This verse speaks of God's continual leadership and care during Israel's journey, showing His enduring mercy.",
+          "verseReference": "Psalms 136:16",
           "difficulty": "medium"
         },
         {
           "id": "psalms-136-medium-q8",
-          "question": "True or False: Psalms 136 teaches that God’s mercy is temporary and ends after fulfilling His promises.",
+          "question": "Which kings are specifically mentioned as being smitten by God in Psalms 136:19-20?",
+          "type": "multiple-choice",
+          "options": [
+            "Sihon king of the Amorites and Og king of Bashan",
+            "Pharaoh and Nebuchadnezzar",
+            "Saul and David",
+            "Herod and Pilate"
+          ],
+          "correctAnswer": "Sihon king of the Amorites and Og king of Bashan",
+          "explanation": "Verses 19 and 20 name these two kings whom God defeated, demonstrating His power and mercy to Israel.",
+          "verseReference": "Psalms 136:19-20",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-136-medium-q9",
+          "question": "What does Psalms 136:21-22 say God gave to Israel?",
+          "type": "multiple-choice",
+          "options": [
+            "Their land for an heritage",
+            "A new temple",
+            "Endless riches",
+            "A king"
+          ],
+          "correctAnswer": "Their land for an heritage",
+          "explanation": "These verses describe God giving the conquered land as an inheritance to Israel, showing His faithful mercy.",
+          "verseReference": "Psalms 136:21-22",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-136-medium-q10",
+          "question": "According to Psalms 136:23-24, what has God done for Israel in their low estate?",
+          "type": "multiple-choice",
+          "options": [
+            "Remembered us and redeemed us from our enemies",
+            "Punished us for our sins",
+            "Ignored our cries",
+            "Made us rulers over other nations"
+          ],
+          "correctAnswer": "Remembered us and redeemed us from our enemies",
+          "explanation": "These verses highlight God's compassion in remembering Israel during hardship and delivering them from enemies.",
+          "verseReference": "Psalms 136:23-24",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-136-medium-q11",
+          "question": "What provision does Psalms 136:25 say God gives to all flesh?",
+          "type": "multiple-choice",
+          "options": [
+            "Food",
+            "Water",
+            "Clothing",
+            "Shelter"
+          ],
+          "correctAnswer": "Food",
+          "explanation": "This verse acknowledges God's ongoing mercy in providing sustenance to all living creatures.",
+          "verseReference": "Psalms 136:25",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-136-medium-q12",
+          "question": "What is the repeated refrain throughout Psalms 136, especially noted in verses 10-18?",
+          "type": "multiple-choice",
+          "options": [
+            "For his mercy endureth for ever",
+            "The Lord is my shepherd",
+            "Bless the Lord, O my soul",
+            "The Lord reigneth forever and ever"
+          ],
+          "correctAnswer": "For his mercy endureth for ever",
+          "explanation": "The refrain emphasizes God's enduring mercy as the foundation of all His mighty acts described in these verses.",
+          "verseReference": "Psalms 136:10-18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-136-medium-q13",
+          "question": "What does Psalms 136:17-18 teach us about God's dealings with powerful earthly rulers?",
+          "type": "multiple-choice",
+          "options": [
+            "He smote great kings and slew famous kings",
+            "He made all kings friends with Israel",
+            "He ignored kings who opposed Israel",
+            "He gave all kings victory"
+          ],
+          "correctAnswer": "He smote great kings and slew famous kings",
+          "explanation": "These verses show God's sovereignty over rulers, reinforcing trust in His power and justice.",
+          "verseReference": "Psalms 136:17-18",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psalms-136-medium-q14",
+          "question": "True or False: Psalms 136:12 says God delivered Israel with a weak hand and a folded arm.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "The refrain 'for his mercy endureth for ever' appears throughout (e.g., verses 1, 4, 26), indicating God's mercy is everlasting.",
-          "verseReference": "Psalms 136:1",
+          "explanation": "Psalms 136:12 explicitly states God acted with a strong hand and stretched out arm, not weak or folded.",
+          "verseReference": "Psalms 136:12",
           "difficulty": "medium"
         },
         {
-          "id": "psalms-136-medium-q9",
-          "question": "True or False: Psalms 136 emphasizes that God acts alone in all His works, without partners or equals.",
+          "id": "psalms-136-medium-q15",
+          "question": "True or False: According to Psalms 136:16, God led His people through the wilderness.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Verse 4 states 'To him who alone doeth great wonders,' affirming God's unique and sovereign role in creation and salvation.",
-          "verseReference": "Psalms 136:4",
-          "difficulty": "medium"
-        },
-        {
-          "id": "psalms-136-medium-q10",
-          "question": "A believer wants to teach their children about God's faithfulness. Which example from Psalms 136 could they use?",
-          "type": "multiple-choice",
-          "options": [
-            "God divided the Red sea to save Israel",
-            "God is silent in hard times",
-            "God changes His mind often",
-            "God only helps in secret"
-          ],
-          "correctAnswer": "God divided the Red sea to save Israel",
-          "explanation": "Verses 13-14 describe God's miraculous division of the Red Sea for Israel's deliverance, a powerful lesson on His faithfulness and power.",
-          "verseReference": "Psalms 136:13",
-          "difficulty": "medium"
-        },
-        {
-          "id": "psalms-136-medium-q11",
-          "question": "How does Psalms 136 teach about humility and contentment in times of hardship?",
-          "type": "multiple-choice",
-          "options": [
-            "By remembering God’s mercy in our low estate",
-            "By boasting about our strength",
-            "By ignoring God’s help",
-            "By blaming others"
-          ],
-          "correctAnswer": "By remembering God’s mercy in our low estate",
-          "explanation": "Verse 23 reminds us that God remembers us when we are low, teaching humility and trust rather than self-reliance or resentment.",
-          "verseReference": "Psalms 136:23",
-          "difficulty": "medium"
-        },
-        {
-          "id": "psalms-136-medium-q12",
-          "question": "Fill in the blank: Psalms 136 repeatedly calls us to give thanks to the ______ of heaven, for his mercy endures forever.",
-          "type": "fill-blank",
-          "options": [
-            "God",
-            "King",
-            "Son",
-            "Angel"
-          ],
-          "correctAnswer": "God",
-          "explanation": "Verse 26 specifically calls to 'O give thanks unto the God of heaven,' emphasizing gratitude to God as foundational.",
-          "verseReference": "Psalms 136:26",
-          "difficulty": "medium"
-        },
-        {
-          "id": "psalms-136-medium-q13",
-          "question": "What does Psalms 136 teach about God's power over rulers and nations?",
-          "type": "multiple-choice",
-          "options": [
-            "God smote great kings and gave their land to Israel",
-            "God ignores the affairs of kings",
-            "Kings rule without God's control",
-            "God favors only one nation unfairly"
-          ],
-          "correctAnswer": "God smote great kings and gave their land to Israel",
-          "explanation": "Verses 17-22 recount God's defeat of kings like Sihon and Og and giving their land as heritage to Israel, showing His sovereign authority.",
-          "verseReference": "Psalms 136:17",
-          "difficulty": "medium"
-        },
-        {
-          "id": "psalms-136-medium-q14",
-          "question": "Based on Psalms 136, how should believers approach their role in church life and serving others?",
-          "type": "multiple-choice",
-          "options": [
-            "With gratitude for God's enduring mercy",
-            "With pride in personal achievement",
-            "With indifference",
-            "By avoiding responsibility"
-          ],
-          "correctAnswer": "With gratitude for God's enduring mercy",
-          "explanation": "The repeated theme of God's enduring mercy (e.g., verses 1, 12, 26) encourages believers to serve humbly and gratefully in church and community.",
-          "verseReference": "Psalms 136:12",
-          "difficulty": "medium"
-        },
-        {
-          "id": "psalms-136-medium-q15",
-          "question": "What lesson about perseverance through trials can we learn from Psalms 136's depiction of God's leading?",
-          "type": "multiple-choice",
-          "options": [
-            "God leads His people through the wilderness with mercy",
-            "Trials mean God has abandoned us",
-            "We are alone in hardships",
-            "Victory comes only by human effort"
-          ],
-          "correctAnswer": "God leads His people through the wilderness with mercy",
-          "explanation": "Verse 16 shows God leading Israel through the wilderness, teaching us that God’s mercy sustains His people in difficult times.",
+          "explanation": "Psalms 136:16 confirms God's guidance of His people during their wilderness journey, showing His continual mercy.",
           "verseReference": "Psalms 136:16",
           "difficulty": "medium"
         }
@@ -497,224 +495,222 @@
       "questions": [
         {
           "id": "psalms-136-hard-q1",
-          "question": "What repeated phrase in Psalms 136 emphasizes the enduring nature of God's mercy?",
+          "question": "Who are the two kings mentioned in Psalms 136 that God smote?",
           "type": "multiple-choice",
           "options": [
-            "For his mercy endureth for ever",
-            "The LORD is my shepherd",
-            "Blessed be the name of the LORD",
-            "His love never fails"
+            "Sihon and Og",
+            "Pharaoh and Sihon",
+            "Og and Pharaoh",
+            "David and Solomon"
           ],
-          "correctAnswer": "For his mercy endureth for ever",
-          "explanation": "The phrase 'for his mercy endureth for ever' is repeated at the end of every verse in Psalms 136, highlighting the everlasting nature of God's mercy (Psalms 136:1).",
-          "verseReference": "Psalms 136:1",
+          "correctAnswer": "Sihon and Og",
+          "explanation": "Psalms 136:19-20 specifically mentions Sihon king of the Amorites and Og king of Bashan as the kings God smote.",
+          "verseReference": "Psalms 136:19-20",
           "difficulty": "hard"
         },
         {
           "id": "psalms-136-hard-q2",
-          "question": "In Psalms 136, God is described as the creator who made the heavens by what means?",
+          "question": "What did God give Israel as an inheritance after smiting the kings?",
           "type": "multiple-choice",
           "options": [
-            "By wisdom",
-            "By power",
-            "By command",
-            "By word"
+            "Their land",
+            "Their wealth",
+            "Their cities",
+            "Their gold"
           ],
-          "correctAnswer": "By wisdom",
-          "explanation": "Verse 5 states that God made the heavens by wisdom, emphasizing divine intellect and order in creation (Psalms 136:5).",
-          "verseReference": "Psalms 136:5",
+          "correctAnswer": "Their land",
+          "explanation": "Psalms 136:21-22 states that God gave their land as an heritage to Israel, His servant.",
+          "verseReference": "Psalms 136:21-22",
           "difficulty": "hard"
         },
         {
           "id": "psalms-136-hard-q3",
-          "question": "According to Psalms 136, which of the following is NOT one of the 'great lights' God made?",
+          "question": "According to Psalms 136, how has God shown mercy towards us in our condition?",
           "type": "multiple-choice",
           "options": [
-            "The sun",
-            "The moon",
-            "The stars",
-            "The planets"
+            "By remembering us in our low estate",
+            "By making us kings",
+            "By giving us riches",
+            "By granting us long life"
           ],
-          "correctAnswer": "The planets",
-          "explanation": "The psalm mentions the sun, moon, and stars as great lights, but does not mention planets, reflecting ancient Near Eastern cosmology (Psalms 136:7-9).",
-          "verseReference": "Psalms 136:7",
-          "difficulty": "hard"
-        },
-        {
-          "id": "psalms-136-hard-q4",
-          "question": "Psalms 136 recounts God's deliverance of Israel through which event involving the Red Sea?",
-          "type": "multiple-choice",
-          "options": [
-            "Dividing the Red Sea",
-            "Building a bridge over the Red Sea",
-            "Turning the Red Sea to blood",
-            "Filling the Red Sea with manna"
-          ],
-          "correctAnswer": "Dividing the Red Sea",
-          "explanation": "Verses 13-15 describe God dividing the Red Sea so Israel could pass through, then overthrowing Pharaoh's army, a key typological event of salvation history (Psalms 136:13-15).",
-          "verseReference": "Psalms 136:13",
-          "difficulty": "hard"
-        },
-        {
-          "id": "psalms-136-hard-q5",
-          "question": "Which kings are specifically mentioned as being smitten by God in Psalms 136?",
-          "type": "multiple-choice",
-          "options": [
-            "Sihon and Og",
-            "Pharaoh and Nebuchadnezzar",
-            "David and Saul",
-            "Cyrus and Darius"
-          ],
-          "correctAnswer": "Sihon and Og",
-          "explanation": "Verses 19 and 20 name Sihon king of the Amorites and Og king of Bashan as kings defeated by God, referencing Israel's conquest narratives (Psalms 136:19-20).",
-          "verseReference": "Psalms 136:19",
-          "difficulty": "hard"
-        },
-        {
-          "id": "psalms-136-hard-q6",
-          "question": "In Psalms 136, God's deliverance is attributed to which of the following physical actions?",
-          "type": "multiple-choice",
-          "options": [
-            "Strong hand and stretched out arm",
-            "Mighty voice and thunder",
-            "Angel's intervention",
-            "Fire and smoke"
-          ],
-          "correctAnswer": "Strong hand and stretched out arm",
-          "explanation": "Verse 12 emphasizes God's power in deliverance using the imagery of a strong hand and stretched out arm, a common metaphor in the Hebrew Bible for divine might (Psalms 136:12).",
-          "verseReference": "Psalms 136:12",
-          "difficulty": "hard"
-        },
-        {
-          "id": "psalms-136-hard-q7",
-          "question": "What is the significance of the repeated call to 'O give thanks' in Psalms 136?",
-          "type": "multiple-choice",
-          "options": [
-            "It functions as a liturgical refrain for worship",
-            "It is a historical narrative device",
-            "It signals a prophecy to come",
-            "It marks a genealogical record"
-          ],
-          "correctAnswer": "It functions as a liturgical refrain for worship",
-          "explanation": "The repeated 'O give thanks' serves as a liturgical refrain, encouraging communal praise and remembrance of God's enduring mercy (Psalms 136:1, 26).",
-          "verseReference": "Psalms 136:1",
-          "difficulty": "hard"
-        },
-        {
-          "id": "psalms-136-hard-q8",
-          "question": "How does the theme of remembrance in Psalms 136 connect to broader biblical motifs?",
-          "type": "multiple-choice",
-          "options": [
-            "God remembers us in our low estate",
-            "God forgets the sins of the past",
-            "God remembers only the righteous",
-            "God's memory is limited"
-          ],
-          "correctAnswer": "God remembers us in our low estate",
-          "explanation": "Verse 23 highlights God's remembrance of Israel in low estate, echoing themes of divine faithfulness found throughout the Old Testament such as in Exodus and Deuteronomy (Psalms 136:23).",
+          "correctAnswer": "By remembering us in our low estate",
+          "explanation": "Psalms 136:23 says God remembered us in our low estate, demonstrating His enduring mercy.",
           "verseReference": "Psalms 136:23",
           "difficulty": "hard"
         },
         {
-          "id": "psalms-136-hard-q9",
-          "question": "Which historical context does Psalms 136 reflect through its references to Egypt and Israel's deliverance?",
+          "id": "psalms-136-hard-q4",
+          "question": "What action of God is described in Psalms 136:24?",
           "type": "multiple-choice",
           "options": [
-            "The Exodus from Egypt",
-            "The Babylonian exile",
-            "The Assyrian invasion",
-            "The conquest of Canaan"
+            "Redeemed us from our enemies",
+            "Punished the wicked",
+            "Blessed the nations",
+            "Created the heavens"
           ],
-          "correctAnswer": "The Exodus from Egypt",
-          "explanation": "Verses 10-12 recount smiting Egypt's firstborn and bringing Israel out, directly referencing the Exodus event central to Israelite identity (Psalms 136:10-12).",
-          "verseReference": "Psalms 136:10",
+          "correctAnswer": "Redeemed us from our enemies",
+          "explanation": "Psalms 136:24 declares that God hath redeemed us from our enemies, showing His mercy endures forever.",
+          "verseReference": "Psalms 136:24",
           "difficulty": "hard"
         },
         {
-          "id": "psalms-136-hard-q10",
-          "question": "True or False: Psalms 136 portrays God as a warrior who defeats kings to establish Israel's heritage.",
+          "id": "psalms-136-hard-q5",
+          "question": "Which phrase is repeated throughout Psalms 136 to emphasize God's character?",
+          "type": "multiple-choice",
+          "options": [
+            "For his mercy endureth for ever",
+            "The Lord is my shepherd",
+            "He reigns forever",
+            "Blessed be the name of the Lord"
+          ],
+          "correctAnswer": "For his mercy endureth for ever",
+          "explanation": "The refrain 'for his mercy endureth for ever' is repeated in every verse, emphasizing God's everlasting mercy (Psalms 136:1-26).",
+          "verseReference": "Psalms 136:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-136-hard-q6",
+          "question": "Which natural elements are mentioned in Psalms 136 as created by God to rule day and night?",
+          "type": "multiple-choice",
+          "options": [
+            "Sun, moon, and stars",
+            "Earth and sea",
+            "Mountains and rivers",
+            "Wind and fire"
+          ],
+          "correctAnswer": "Sun, moon, and stars",
+          "explanation": "Psalms 136:8-9 mention the sun to rule by day and the moon and stars to rule by night, created by God.",
+          "verseReference": "Psalms 136:8-9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-136-hard-q7",
+          "question": "What is the significance of the phrase 'strong hand, and with a stretched out arm' in Psalms 136:12?",
+          "type": "multiple-choice",
+          "options": [
+            "It symbolizes God’s powerful deliverance of Israel",
+            "It describes a physical battle",
+            "It refers to a covenant",
+            "It is a metaphor for harvest"
+          ],
+          "correctAnswer": "It symbolizes God’s powerful deliverance of Israel",
+          "explanation": "Psalms 136:12 uses the imagery of a strong hand and stretched out arm to symbolize God's mighty power in delivering Israel from Egypt.",
+          "verseReference": "Psalms 136:12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-136-hard-q8",
+          "question": "Which event involving the Red Sea is recounted in Psalms 136?",
+          "type": "multiple-choice",
+          "options": [
+            "God divided the Red Sea for Israel to pass and overthrew Pharaoh's host",
+            "Israel crossed the Jordan River",
+            "Moses struck the rock for water",
+            "The flood destroyed the earth"
+          ],
+          "correctAnswer": "God divided the Red Sea for Israel to pass and overthrew Pharaoh's host",
+          "explanation": "Psalms 136:13-15 narrate how God divided the Red Sea, made Israel pass through it, and overthrew Pharaoh and his host.",
+          "verseReference": "Psalms 136:13-15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-136-hard-q9",
+          "question": "True or False: Psalms 136 calls God 'the God of heaven' in the last verse.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "The psalm describes God smiting great kings and giving their land to Israel, illustrating God's active role as warrior and kingmaker (Psalms 136:17-22).",
-          "verseReference": "Psalms 136:17",
+          "explanation": "Psalms 136:26 says, 'O give thanks unto the God of heaven,' confirming the title.",
+          "verseReference": "Psalms 136:26",
           "difficulty": "hard"
         },
         {
-          "id": "psalms-136-hard-q11",
-          "question": "What literary device is most prominent in Psalms 136 due to the repeated phrase at the end of each verse?",
-          "type": "multiple-choice",
+          "id": "psalms-136-hard-q10",
+          "question": "True or False: Psalms 136 mentions that God only gave food to Israel, not to all creatures.",
+          "type": "true-false",
           "options": [
-            "Anaphora",
-            "Chiasm",
-            "Parallelism",
-            "Allegory"
+            "True",
+            "False"
           ],
-          "correctAnswer": "Anaphora",
-          "explanation": "The repetition of 'for his mercy endureth for ever' at the end of each verse is an example of anaphora, emphasizing the theme of enduring mercy (Psalms 136:1-26).",
-          "verseReference": "Psalms 136:1",
-          "difficulty": "hard"
-        },
-        {
-          "id": "psalms-136-hard-q12",
-          "question": "In Psalms 136, how is God's creation of the earth described in relation to the waters?",
-          "type": "multiple-choice",
-          "options": [
-            "He stretched out the earth above the waters",
-            "He separated the waters from the dry land",
-            "He created the waters first",
-            "He covered the earth with water"
-          ],
-          "correctAnswer": "He stretched out the earth above the waters",
-          "explanation": "Verse 6 describes God stretching out the earth above the waters, reflecting ancient Near Eastern cosmology of the earth’s formation (Psalms 136:6).",
-          "verseReference": "Psalms 136:6",
-          "difficulty": "hard"
-        },
-        {
-          "id": "psalms-136-hard-q13",
-          "question": "Which aspect of God’s provision is highlighted at the conclusion of Psalms 136?",
-          "type": "multiple-choice",
-          "options": [
-            "Who giveth food to all flesh",
-            "Who grants wisdom to the wise",
-            "Who controls the winds",
-            "Who judges the nations"
-          ],
-          "correctAnswer": "Who giveth food to all flesh",
-          "explanation": "Verse 25 emphasizes God as provider of sustenance to all creatures, underscoring divine care for creation (Psalms 136:25).",
+          "correctAnswer": "False",
+          "explanation": "Psalms 136:25 states that God 'giveth food to all flesh,' meaning all living creatures, not just Israel.",
           "verseReference": "Psalms 136:25",
           "difficulty": "hard"
         },
         {
-          "id": "psalms-136-hard-q14",
-          "question": "How does Psalms 136 reflect the cultural importance of remembering God’s deeds in ancient Israelite worship?",
+          "id": "psalms-136-hard-q11",
+          "question": "Which Old Testament event is echoed in Psalms 136:10-12 about God's mighty acts?",
           "type": "multiple-choice",
           "options": [
-            "Through repetitive praise and recounting historical acts",
-            "By focusing on individual repentance",
-            "By emphasizing ritual sacrifice alone",
-            "Through silent meditation"
+            "The Passover and Exodus from Egypt",
+            "The Flood in Noah's time",
+            "The destruction of Jericho",
+            "The giving of the Ten Commandments"
           ],
-          "correctAnswer": "Through repetitive praise and recounting historical acts",
-          "explanation": "The psalm’s repetitive structure and recounting of God’s mighty acts served as a communal memory tool in Israelite worship (Psalms 136:1-26).",
+          "correctAnswer": "The Passover and Exodus from Egypt",
+          "explanation": "Psalms 136:10-12 refers to God smiting Egypt's firstborn and bringing Israel out with a strong hand, directly relating to the Passover and Exodus (Exodus 12:29-31).",
+          "verseReference": "Psalms 136:10-12",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-136-hard-q12",
+          "question": "What literary device is prominently used throughout Psalms 136 to emphasize God’s mercy?",
+          "type": "multiple-choice",
+          "options": [
+            "Refrain (repetition)",
+            "Metaphor",
+            "Parable",
+            "Allegory"
+          ],
+          "correctAnswer": "Refrain (repetition)",
+          "explanation": "The repeated phrase 'for his mercy endureth for ever' at the end of each verse is a refrain, reinforcing the theme of God's enduring mercy.",
           "verseReference": "Psalms 136:1",
           "difficulty": "hard"
         },
         {
-          "id": "psalms-136-hard-q15",
-          "question": "Which New Testament passage echoes the theme of God’s enduring mercy as found in Psalms 136?",
+          "id": "psalms-136-hard-q13",
+          "question": "What is the Hebrew meaning of the word translated as 'mercy' in Psalms 136, and why is it significant?",
           "type": "multiple-choice",
           "options": [
-            "Luke 1:50 - His mercy is on those who fear Him",
-            "John 3:16 - For God so loved the world",
-            "Romans 8:28 - All things work together for good",
-            "Hebrews 11:1 - Faith is the substance of things hoped for"
+            "Chesed, meaning loving-kindness or steadfast love",
+            "Hesed, meaning wrath or punishment",
+            "Rachamim, meaning jealousy",
+            "Emet, meaning truth"
           ],
-          "correctAnswer": "Luke 1:50 - His mercy is on those who fear Him",
-          "explanation": "Luke 1:50 echoes the psalm’s theme of enduring mercy, reinforcing continuity in biblical theology concerning God's steadfast love (Psalms 136:1; Luke 1:50).",
+          "correctAnswer": "Chesed, meaning loving-kindness or steadfast love",
+          "explanation": "The Hebrew word 'chesed' (חֶסֶד) translated as mercy denotes loving-kindness and steadfast love, highlighting God's faithful, covenantal love (Psalms 136:1).",
+          "verseReference": "Psalms 136:1",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-136-hard-q14",
+          "question": "How does Psalms 136 reflect the theme of God’s covenant faithfulness found in earlier Scriptures?",
+          "type": "multiple-choice",
+          "options": [
+            "By repeatedly affirming God’s enduring mercy through His mighty acts for Israel",
+            "By focusing only on creation without mention of Israel",
+            "By describing human achievements",
+            "By listing prophetic visions"
+          ],
+          "correctAnswer": "By repeatedly affirming God’s enduring mercy through His mighty acts for Israel",
+          "explanation": "The psalm recounts God’s acts for Israel and creation, emphasizing His covenant faithfulness through the repeated phrase 'for his mercy endureth for ever' (Psalms 136:1-26), echoing themes in Exodus and Deuteronomy.",
+          "verseReference": "Psalms 136:1-26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-136-hard-q15",
+          "question": "Which New Testament passage echoes the theme of God’s enduring mercy as celebrated in Psalms 136?",
+          "type": "multiple-choice",
+          "options": [
+            "Ephesians 2:4-5, which speaks of God’s great love and mercy",
+            "Matthew 5:9, about peacemakers",
+            "Revelation 20:10, about the final judgment",
+            "Acts 2:1, about Pentecost"
+          ],
+          "correctAnswer": "Ephesians 2:4-5, which speaks of God’s great love and mercy",
+          "explanation": "Ephesians 2:4-5 highlights God’s great love and mercy toward us, paralleling Psalms 136’s emphasis on enduring mercy (Psalms 136:1; Ephesians 2:4-5).",
           "verseReference": "Psalms 136:1",
           "difficulty": "hard"
         }
@@ -742,227 +738,227 @@
       "questions": [
         {
           "id": "psalms-136-theological-q1",
-          "question": "According to Psalms 136, what is the repeated reason given for giving thanks to the LORD?",
+          "question": "What does Psalms 136:1 emphasize about the LORD's nature?",
           "type": "multiple-choice",
           "options": [
-            "For his mercy endureth for ever",
-            "For his justice is perfect",
-            "For his power is unmatched",
-            "For his wisdom is infinite"
+            "He is merciful",
+            "He is good",
+            "He is wise",
+            "He is powerful"
           ],
-          "correctAnswer": "For his mercy endureth for ever",
-          "explanation": "Psalms 136 repeatedly emphasizes God's enduring mercy as the reason for giving thanks (e.g., Psalms 136:1, 136:2, 136:3, 136:26). This highlights God's steadfast covenant love, consistent with scriptures like Lamentations 3:22-23, Ephesians 2:4-5, and Psalm 100:5.",
+          "correctAnswer": "He is good",
+          "explanation": "Psalms 136:1 states, 'O give thanks unto the LORD; for he is good: for his mercy endureth for ever.' This verse explicitly highlights the goodness of the LORD as a foundational attribute.",
           "verseReference": "Psalms 136:1",
           "difficulty": "hard"
         },
         {
           "id": "psalms-136-theological-q2",
-          "question": "Which title is used in Psalms 136 to describe God’s supreme authority over other deities?",
+          "question": "According to Psalms 136:4, who is acknowledged for doing great wonders?",
           "type": "multiple-choice",
           "options": [
-            "God of gods",
-            "King of kings",
-            "Lord Almighty",
-            "Ancient of Days"
+            "The God of gods",
+            "The Lord of lords",
+            "He who alone doeth great wonders",
+            "The creator of the heavens"
           ],
-          "correctAnswer": "God of gods",
-          "explanation": "Psalms 136:2 calls God the 'God of gods,' asserting His supremacy above all other so-called gods, reflecting the monotheistic truth also affirmed in Deuteronomy 10:17 and 1 Timothy 6:15.",
-          "verseReference": "Psalms 136:2",
+          "correctAnswer": "He who alone doeth great wonders",
+          "explanation": "Psalms 136:4 states, 'To him who alone doeth great wonders: for his mercy endureth for ever.' This verse attributes great wonders solely to God, emphasizing His unique power.",
+          "verseReference": "Psalms 136:4",
           "difficulty": "hard"
         },
         {
           "id": "psalms-136-theological-q3",
-          "question": "In Psalms 136, how is God's creative work described in relation to the heavens and the earth?",
+          "question": "What attribute of God is highlighted in Psalms 136:5 regarding the creation of the heavens?",
           "type": "multiple-choice",
           "options": [
-            "By wisdom He made the heavens and stretched out the earth above the waters",
-            "By His power He shaped the mountains and formed the seas",
-            "By His might He created the sun and moon",
-            "By His word He spoke the world into existence"
+            "His omnipotence",
+            "His omniscience",
+            "His mercy",
+            "His faithfulness"
           ],
-          "correctAnswer": "By wisdom He made the heavens and stretched out the earth above the waters",
-          "explanation": "Psalms 136:5-6 specifically attributes creation to God's wisdom and His action in stretching the earth above the waters, emphasizing divine wisdom and power consistent with Proverbs 3:19 and Jeremiah 10:12.",
+          "correctAnswer": "His omnipotence",
+          "explanation": "Psalms 136:5 refers to God creating the heavens by wisdom, which reflects His omnipotence as the Creator of all things.",
           "verseReference": "Psalms 136:5",
           "difficulty": "hard"
         },
         {
           "id": "psalms-136-theological-q4",
-          "question": "What celestial bodies did God make to rule day and night according to Psalms 136?",
+          "question": "What significant event is mentioned in Psalms 136:10?",
           "type": "multiple-choice",
           "options": [
-            "The sun to rule by day and the moon and stars to rule by night",
-            "The stars to rule by day and the sun to rule by night",
-            "The moon to rule by day and the sun to rule by night",
-            "The sun and stars to rule both day and night"
+            "The creation of light",
+            "The flood of Noah",
+            "The smiting of Egypt's firstborn",
+            "The parting of the Red Sea"
           ],
-          "correctAnswer": "The sun to rule by day and the moon and stars to rule by night",
-          "explanation": "Psalms 136:8-9 teaches that God made the sun to govern the day and the moon and stars to govern the night, reflecting God's orderly design as seen in Genesis 1:14-18 and Job 38:31-33.",
-          "verseReference": "Psalms 136:8",
-          "difficulty": "hard"
-        },
-        {
-          "id": "psalms-136-theological-q5",
-          "question": "Which historical event is commemorated in Psalms 136 as a demonstration of God's mighty acts?",
-          "type": "multiple-choice",
-          "options": [
-            "The smiting of Egypt in their firstborn and the deliverance of Israel",
-            "The conquest of Jericho",
-            "The giving of the Ten Commandments",
-            "The exile of Israel"
-          ],
-          "correctAnswer": "The smiting of Egypt in their firstborn and the deliverance of Israel",
-          "explanation": "Psalms 136:10-12 recalls God's judgment on Egypt's firstborn and the deliverance of Israel, affirming God's salvation history consistent with Exodus 12:29-30 and Romans 9:17.",
+          "correctAnswer": "The smiting of Egypt's firstborn",
+          "explanation": "Psalms 136:10 states, 'To him that smote Egypt in their firstborn: for his mercy endureth for ever.' This event is a pivotal moment in Israel's deliverance from bondage.",
           "verseReference": "Psalms 136:10",
           "difficulty": "hard"
         },
         {
+          "id": "psalms-136-theological-q5",
+          "question": "How does Psalms 136:14 illustrate God's deliverance?",
+          "type": "multiple-choice",
+          "options": [
+            "By providing food",
+            "By dividing the Red Sea",
+            "By leading through the wilderness",
+            "By giving land as heritage"
+          ],
+          "correctAnswer": "By dividing the Red Sea",
+          "explanation": "Psalms 136:13-14 recounts God's power in dividing the Red Sea, allowing Israel to escape from Egypt, illustrating His deliverance.",
+          "verseReference": "Psalms 136:13-14",
+          "difficulty": "hard"
+        },
+        {
           "id": "psalms-136-theological-q6",
-          "question": "How did God lead Israel through the Red Sea according to Psalms 136?",
+          "question": "What does Psalms 136:21 affirm about God's gift to Israel?",
           "type": "multiple-choice",
           "options": [
-            "By dividing the Red Sea into parts and making Israel pass through it",
-            "By making the waters completely dry up",
-            "By sending an angel to guide them",
-            "By parting the river Jordan"
+            "He gave them kings",
+            "He provided food",
+            "He gave their land for an heritage",
+            "He led them to battle"
           ],
-          "correctAnswer": "By dividing the Red Sea into parts and making Israel pass through it",
-          "explanation": "Psalms 136:13-14 explicitly states God divided the Red Sea and led Israel through it, a foundational event also recorded in Exodus 14:21-22 and celebrated in Isaiah 63:11.",
-          "verseReference": "Psalms 136:13",
-          "difficulty": "hard"
-        },
-        {
-          "id": "psalms-136-theological-q7",
-          "question": "What happened to Pharaoh and his army in the Red Sea event as described in Psalms 136?",
-          "type": "multiple-choice",
-          "options": [
-            "They were overthrown in the Red Sea",
-            "They escaped unharmed",
-            "They were forgiven",
-            "They joined Israel"
-          ],
-          "correctAnswer": "They were overthrown in the Red Sea",
-          "explanation": "Psalms 136:15 states that Pharaoh and his host were overthrown in the Red Sea, demonstrating God's judgment, consistent with Exodus 14:27-28 and 1 Corinthians 10:1-2.",
-          "verseReference": "Psalms 136:15",
-          "difficulty": "hard"
-        },
-        {
-          "id": "psalms-136-theological-q8",
-          "question": "Which kings are mentioned in Psalms 136 as being smitten and slain by God?",
-          "type": "multiple-choice",
-          "options": [
-            "Sihon king of the Amorites and Og king of Bashan",
-            "Nebuchadnezzar and Darius",
-            "Saul and Absalom",
-            "David and Solomon"
-          ],
-          "correctAnswer": "Sihon king of the Amorites and Og king of Bashan",
-          "explanation": "Psalms 136:19-20 names Sihon and Og as kings whom God defeated, reflecting His sovereign power in Israel’s conquest, parallel to Numbers 21:21-35 and Deuteronomy 3:1-11.",
-          "verseReference": "Psalms 136:19",
-          "difficulty": "hard"
-        },
-        {
-          "id": "psalms-136-theological-q9",
-          "question": "What did God give Israel as a result of defeating these kings, according to Psalms 136?",
-          "type": "multiple-choice",
-          "options": [
-            "Their land as an heritage",
-            "Their gold as tribute",
-            "Their cities as prisons",
-            "Their armies as servants"
-          ],
-          "correctAnswer": "Their land as an heritage",
-          "explanation": "Psalms 136:21-22 notes that God gave the land of defeated kings as an inheritance to Israel, consistent with the Promised Land covenant in Genesis 15:18-21 and Joshua 1:3.",
+          "correctAnswer": "He gave their land for an heritage",
+          "explanation": "Psalms 136:21 states, 'And gave their land for an heritage: for his mercy endureth for ever.' This signifies God's provision and promise to Israel.",
           "verseReference": "Psalms 136:21",
           "difficulty": "hard"
         },
         {
-          "id": "psalms-136-theological-q10",
-          "question": "How does Psalms 136 describe God's care for humanity in verse 25?",
+          "id": "psalms-136-theological-q7",
+          "question": "What concept does Psalms 136:24 express about God's actions towards humanity?",
           "type": "multiple-choice",
           "options": [
-            "Who giveth food to all flesh",
-            "Who heals all diseases",
-            "Who judges all nations",
-            "Who creates all living things"
+            "He judges the wicked",
+            "He redeems the lost",
+            "He punishes sinners",
+            "He leads the righteous"
           ],
-          "correctAnswer": "Who giveth food to all flesh",
-          "explanation": "Psalms 136:25 states God provides food to all flesh, revealing His providential care, aligning with Matthew 6:26 and Acts 14:17.",
-          "verseReference": "Psalms 136:25",
+          "correctAnswer": "He redeems the lost",
+          "explanation": "Psalms 136:24 states, 'And hath redeemed us from our enemies: for his mercy endureth for ever.' This illustrates God's redemptive action towards His people.",
+          "verseReference": "Psalms 136:24",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-136-theological-q8",
+          "question": "What does Psalms 136:26 call for in response to God's attributes?",
+          "type": "multiple-choice",
+          "options": [
+            "Praise to the God of gods",
+            "Obedience to the commandments",
+            "Repentance for sins",
+            "Fear of the Lord"
+          ],
+          "correctAnswer": "Praise to the God of gods",
+          "explanation": "Psalms 136:26 concludes with 'O give thanks unto the God of heaven: for his mercy endureth for ever,' emphasizing the need for praise.",
+          "verseReference": "Psalms 136:26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-136-theological-q9",
+          "question": "What doctrine can be derived from the repetition of 'for his mercy endureth for ever' throughout the chapter?",
+          "type": "multiple-choice",
+          "options": [
+            "The permanence of God's mercy",
+            "The transience of God's love",
+            "The conditional nature of God's grace",
+            "The inevitability of judgment"
+          ],
+          "correctAnswer": "The permanence of God's mercy",
+          "explanation": "The repeated phrase 'for his mercy endureth for ever' emphasizes the enduring nature of God's mercy, indicating that it is unending and foundational to His character.",
+          "verseReference": "Psalms 136:1-26",
+          "difficulty": "hard"
+        },
+        {
+          "id": "psalms-136-theological-q10",
+          "question": "How do Psalms 136:7-9 contribute to the understanding of God's creation?",
+          "type": "multiple-choice",
+          "options": [
+            "They describe the creation of man",
+            "They focus on the wisdom of creation",
+            "They detail the celestial bodies",
+            "They emphasize the chaos of nature"
+          ],
+          "correctAnswer": "They detail the celestial bodies",
+          "explanation": "Psalms 136:7-9 speaks specifically about the great lights created by God, namely the sun, moon, and stars, illustrating His sovereignty over creation.",
+          "verseReference": "Psalms 136:7-9",
           "difficulty": "hard"
         },
         {
           "id": "psalms-136-theological-q11",
-          "question": "What do the repeated phrases in Psalms 136 emphasize about God's nature?",
+          "question": "What does the reference to Sihon and Og in Psalms 136:19-20 signify about God's power?",
           "type": "multiple-choice",
           "options": [
-            "His mercy endures forever",
-            "His wrath is unending",
-            "His silence is eternal",
-            "His power is temporary"
+            "His ability to create",
+            "His authority over nations",
+            "His judgment on sinners",
+            "His mercy towards the righteous"
           ],
-          "correctAnswer": "His mercy endures forever",
-          "explanation": "The refrain 'for his mercy endureth forever' throughout Psalms 136 highlights God's everlasting mercy, a core attribute also emphasized in Psalm 103:17 and Lamentations 3:22.",
-          "verseReference": "Psalms 136:3",
+          "correctAnswer": "His authority over nations",
+          "explanation": "Psalms 136:19-20 recounts how God smote powerful kings like Sihon and Og, demonstrating His authority over nations and rulers.",
+          "verseReference": "Psalms 136:19-20",
           "difficulty": "hard"
         },
         {
           "id": "psalms-136-theological-q12",
-          "question": "Which attribute of God is primarily highlighted by His actions in leading Israel through the wilderness as per Psalms 136?",
+          "question": "What connection does Psalms 136:16 have to the broader narrative of Israel's journey?",
           "type": "multiple-choice",
           "options": [
-            "Guidance and faithfulness",
-            "Omnipresence",
-            "Wrath and judgment",
-            "Immutability"
+            "It shows their disobedience",
+            "It highlights their wilderness experience",
+            "It emphasizes their conquest of Canaan",
+            "It reflects their relationship with Moses"
           ],
-          "correctAnswer": "Guidance and faithfulness",
-          "explanation": "Psalms 136:16 acknowledges God's leadership through the wilderness, demonstrating His faithful guidance consistent with Exodus 13:21-22 and Hebrews 13:5.",
+          "correctAnswer": "It highlights their wilderness experience",
+          "explanation": "Psalms 136:16 states, 'To him which led his people through the wilderness: for his mercy endureth for ever,' linking God's guidance to Israel's wilderness journey.",
           "verseReference": "Psalms 136:16",
           "difficulty": "hard"
         },
         {
           "id": "psalms-136-theological-q13",
-          "question": "What theological theme does the remembrance of Israel’s 'low estate' in Psalms 136:23 illustrate?",
+          "question": "Sceptics claim that the Bible presents a God who is indifferent to human suffering. What does Psalms 136:23 teach?",
           "type": "multiple-choice",
           "options": [
-            "God’s compassion and covenant loyalty",
-            "God’s judgment on sin",
-            "God’s omniscience",
-            "God’s transcendence"
+            "God is distant from humanity",
+            "God remembers those in low estate",
+            "God punishes the wicked",
+            "God ignores the oppressed"
           ],
-          "correctAnswer": "God’s compassion and covenant loyalty",
-          "explanation": "Remembering Israel's low estate reflects God's compassion and faithfulness to His covenant people, paralleling Exodus 2:24 and Psalm 103:13.",
+          "correctAnswer": "God remembers those in low estate",
+          "explanation": "Psalms 136:23 states, 'Who remembered us in our low estate: for his mercy endureth for ever,' contradicting the sceptic's claim by illustrating God's compassion and attentiveness to human suffering.",
           "verseReference": "Psalms 136:23",
           "difficulty": "hard"
         },
         {
           "id": "psalms-136-theological-q14",
-          "question": "What doctrinal truth about God is taught by the repeated acknowledgment of His mighty acts in Psalms 136?",
+          "question": "Which two verses combine to show God's enduring mercy across different acts of salvation?",
           "type": "multiple-choice",
           "options": [
-            "God is sovereign over history and salvation",
-            "God is distant from human affairs",
-            "God is limited in power",
-            "God is unknowable"
+            "Verses 10 and 11",
+            "Verses 5 and 6",
+            "Verses 13 and 14",
+            "Verses 1 and 26"
           ],
-          "correctAnswer": "God is sovereign over history and salvation",
-          "explanation": "Psalms 136 narrates God’s mighty acts, emphasizing His sovereignty over history and salvation consistent with Isaiah 46:9-10 and Romans 8:28.",
-          "verseReference": "Psalms 136:17",
+          "correctAnswer": "Verses 10 and 11",
+          "explanation": "Psalms 136:10-11 illustrates God's enduring mercy through the acts of smiting Egypt and bringing Israel out, showcasing His redemptive purpose.",
+          "verseReference": "Psalms 136:10-11",
           "difficulty": "hard"
         },
         {
           "id": "psalms-136-theological-q15",
-          "question": "How does Psalms 136 demonstrate God’s covenant faithfulness to Israel?",
+          "question": "What synthesis of verses 4 and 5 conveys about God's wisdom and power?",
           "type": "multiple-choice",
           "options": [
-            "By redeeming Israel from enemies and giving them land",
-            "By allowing Israel to be conquered",
-            "By commanding Israel to build temples",
-            "By remaining silent during Israel’s exile"
+            "God's mercy is shown in creation",
+            "God is wise in His judgments",
+            "God's wonders reveal His character",
+            "God creates through His word"
           ],
-          "correctAnswer": "By redeeming Israel from enemies and giving them land",
-          "explanation": "The psalm highlights God’s redemption of Israel and giving their land as an inheritance (Psalms 136:24, 136:21), showing covenant faithfulness as in Deuteronomy 7:9 and Nehemiah 9:32.",
-          "verseReference": "Psalms 136:24",
+          "correctAnswer": "God's wonders reveal His character",
+          "explanation": "The synthesis of verses 4 and 5 shows that the great wonders God does are manifestations of His wisdom and power, revealing His character to humanity.",
+          "verseReference": "Psalms 136:4-5",
           "difficulty": "hard"
         }
       ],

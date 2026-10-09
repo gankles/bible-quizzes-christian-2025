@@ -13,221 +13,219 @@
       "questions": [
         {
           "id": "luke-8-easy-q1",
+          "question": "In Luke 8, which of the following appears FIRST in the chapter?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus went throughout every city and village preaching",
+            "Mary called Magdalene was healed of seven devils",
+            "Jesus spoke a parable of the sower",
+            "The disciples asked Jesus about the parable"
+          ],
+          "correctAnswer": "Jesus went throughout every city and village preaching",
+          "explanation": "This event is described first in Luke 8:1, before the mention of Mary Magdalene (v.2), the parable (v.4), or the disciples' question (v.9).",
+          "verseReference": "Luke 8:1",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-8-easy-q2",
           "question": "Who was healed of seven devils according to Luke 8?",
           "type": "multiple-choice",
           "options": [
             "Mary called Magdalene",
             "Joanna",
             "Susanna",
-            "Martha"
+            "Mary the mother of Jesus"
           ],
           "correctAnswer": "Mary called Magdalene",
-          "explanation": "Luke 8:2 mentions Mary called Magdalene, out of whom went seven devils.",
+          "explanation": "Luke 8:2 states that Mary called Magdalene had seven devils cast out of her.",
           "verseReference": "Luke 8:2",
           "difficulty": "easy"
         },
         {
-          "id": "luke-8-easy-q2",
-          "question": "What did the sower sow in the parable told by Jesus?",
-          "type": "multiple-choice",
-          "options": [
-            "Seed",
-            "Wheat",
-            "Corn",
-            "Tree seeds"
-          ],
-          "correctAnswer": "Seed",
-          "explanation": "Luke 8:5 states the sower went out to sow his seed.",
-          "verseReference": "Luke 8:5",
-          "difficulty": "easy"
-        },
-        {
           "id": "luke-8-easy-q3",
-          "question": "According to Luke 8, what happened to the seed that fell by the wayside?",
+          "question": "Who was Joanna in Luke 8?",
           "type": "multiple-choice",
           "options": [
-            "It was trodden down and devoured by fowls",
-            "It grew into a large tree",
-            "It was watered and flourished",
-            "It was eaten by livestock"
+            "The wife of Chuza, Herod's steward",
+            "A woman healed of infirmities",
+            "A disciple of Jesus",
+            "The mother of John the Baptist"
           ],
-          "correctAnswer": "It was trodden down and devoured by fowls",
-          "explanation": "Luke 8:5 describes the seed falling by the wayside being trodden down and devoured by the fowls of the air.",
-          "verseReference": "Luke 8:5",
+          "correctAnswer": "The wife of Chuza, Herod's steward",
+          "explanation": "Luke 8:3 identifies Joanna as the wife of Chuza, who was Herod's steward.",
+          "verseReference": "Luke 8:3",
           "difficulty": "easy"
         },
         {
           "id": "luke-8-easy-q4",
-          "question": "What is the seed in the parable explained by Jesus?",
+          "question": "According to Luke 8, what did many women do for Jesus?",
           "type": "multiple-choice",
           "options": [
-            "The word of God",
-            "Faith",
-            "Love",
-            "The kingdom of God"
+            "Ministered unto him of their substance",
+            "Preached with him in cities and villages",
+            "Taught the multitudes",
+            "Wrote down his teachings"
           ],
-          "correctAnswer": "The word of God",
-          "explanation": "Luke 8:11 explains that the seed is the word of God.",
-          "verseReference": "Luke 8:11",
+          "correctAnswer": "Ministered unto him of their substance",
+          "explanation": "Luke 8:3 says many women ministered to Jesus of their substance.",
+          "verseReference": "Luke 8:3",
           "difficulty": "easy"
         },
         {
           "id": "luke-8-easy-q5",
-          "question": "Who are those that hear the word by the wayside and have it taken away by the devil?",
+          "question": "In Luke 8, what did the sower do with the seed?",
           "type": "multiple-choice",
           "options": [
-            "Those who hear but do not believe",
-            "Those who keep the word in an honest heart",
-            "Those who bear fruit with patience",
-            "Those who love riches and pleasures"
+            "Sowed it, some fell by the wayside",
+            "Kept it for planting later",
+            "Sold it to villagers",
+            "Burned it"
           ],
-          "correctAnswer": "Those who hear but do not believe",
-          "explanation": "Luke 8:12 describes those by the wayside as hearing the word, then the devil takes it away so they do not believe and be saved.",
-          "verseReference": "Luke 8:12",
+          "correctAnswer": "Sowed it, some fell by the wayside",
+          "explanation": "Luke 8:5 describes the sower sowing seed, some falling by the wayside.",
+          "verseReference": "Luke 8:5",
           "difficulty": "easy"
         },
         {
           "id": "luke-8-easy-q6",
-          "question": "According to Luke 8, what happens to the seed that falls on the rock?",
+          "question": "What happened to the seed that fell upon the rock in Luke 8?",
           "type": "multiple-choice",
           "options": [
-            "It withers away because it lacks moisture",
-            "It grows strong and produces fruit",
-            "It is eaten by birds",
-            "It is choked by thorns"
+            "It withered away because it lacked moisture",
+            "It grew tall and strong",
+            "It was eaten by birds",
+            "It produced thorns"
           ],
-          "correctAnswer": "It withers away because it lacks moisture",
-          "explanation": "Luke 8:6 states the seed on the rock springs up but withers away due to lack of moisture.",
+          "correctAnswer": "It withered away because it lacked moisture",
+          "explanation": "Luke 8:6 states the seed on the rock withered away because it lacked moisture.",
           "verseReference": "Luke 8:6",
           "difficulty": "easy"
         },
         {
           "id": "luke-8-easy-q7",
-          "question": "Who did Jesus say are His mother and brethren?",
+          "question": "According to Luke 8, what choked the seed that fell among thorns?",
           "type": "multiple-choice",
           "options": [
-            "Those who hear the word of God and do it",
-            "His biological family",
-            "The twelve disciples",
-            "The women who ministered to Him"
+            "The thorns sprang up and choked it",
+            "The birds ate it",
+            "The rocks rolled over it",
+            "It was trodden down"
           ],
-          "correctAnswer": "Those who hear the word of God and do it",
-          "explanation": "Luke 8:21 records Jesus saying His mother and brethren are those who hear the word of God and do it.",
-          "verseReference": "Luke 8:21",
+          "correctAnswer": "The thorns sprang up and choked it",
+          "explanation": "Luke 8:7 explains that the thorns sprang up with the seed and choked it.",
+          "verseReference": "Luke 8:7",
           "difficulty": "easy"
         },
         {
           "id": "luke-8-easy-q8",
-          "question": "What did Jesus do when a storm arose while He was on the ship?",
+          "question": "What fruit did the seed on good ground produce according to Luke 8?",
           "type": "multiple-choice",
           "options": [
-            "He rebuked the wind and the raging water and it became calm",
-            "He prayed silently",
-            "He told the disciples to row harder",
-            "He woke the disciples and told them to jump into the water"
+            "An hundredfold",
+            "Fiftyfold",
+            "Tenfold",
+            "No fruit"
           ],
-          "correctAnswer": "He rebuked the wind and the raging water and it became calm",
-          "explanation": "Luke 8:24 shows Jesus rebuking the wind and water, causing the storm to cease.",
-          "verseReference": "Luke 8:24",
+          "correctAnswer": "An hundredfold",
+          "explanation": "Luke 8:8 states the seed on good ground sprang up and bore fruit an hundredfold.",
+          "verseReference": "Luke 8:8",
           "difficulty": "easy"
         },
         {
           "id": "luke-8-easy-q9",
-          "question": "What was the name of the man possessed by many devils?",
+          "question": "Who asked Jesus about the meaning of the parable in Luke 8?",
           "type": "multiple-choice",
           "options": [
-            "Legion",
-            "Gerasene",
-            "Jairus",
-            "Peter"
+            "His disciples",
+            "The Pharisees",
+            "The multitudes",
+            "The women"
           ],
-          "correctAnswer": "Legion",
-          "explanation": "Luke 8:30 states the man’s name was Legion because many devils had entered into him.",
-          "verseReference": "Luke 8:30",
+          "correctAnswer": "His disciples",
+          "explanation": "Luke 8:9 says Jesus’s disciples asked him about the parable’s meaning.",
+          "verseReference": "Luke 8:9",
           "difficulty": "easy"
         },
         {
           "id": "luke-8-easy-q10",
-          "question": "What happened to the swine after the devils entered them?",
+          "question": "What did Jesus say about the mysteries of the kingdom of God in Luke 8?",
           "type": "multiple-choice",
           "options": [
-            "They ran violently down a steep place into the lake and were choked",
-            "They ran into the city",
-            "They were healed",
-            "They were sold by the herdsmen"
+            "It is given to the disciples to know",
+            "It is known to all equally",
+            "It is hidden from the disciples",
+            "It is only revealed after death"
           ],
-          "correctAnswer": "They ran violently down a steep place into the lake and were choked",
-          "explanation": "Luke 8:33 describes the swine rushing down into the lake and drowning after the devils entered them.",
-          "verseReference": "Luke 8:33",
+          "correctAnswer": "It is given to the disciples to know",
+          "explanation": "Luke 8:10 says it is given to the disciples to know the mysteries of the kingdom of God.",
+          "verseReference": "Luke 8:10",
           "difficulty": "easy"
         },
         {
           "id": "luke-8-easy-q11",
-          "question": "What did the woman who had an issue of blood do to be healed?",
+          "question": "In Luke 8, what is the seed in the parable said to represent?",
           "type": "multiple-choice",
           "options": [
-            "Touched the border of Jesus' garment",
-            "Asked Jesus to heal her openly",
-            "Followed Jesus and prayed",
-            "Was brought to Jesus by friends"
+            "The word of God",
+            "Faith",
+            "The kingdom of God",
+            "The disciples"
           ],
-          "correctAnswer": "Touched the border of Jesus' garment",
-          "explanation": "Luke 8:44 says the woman touched the border of Jesus' garment and was immediately healed.",
-          "verseReference": "Luke 8:44",
+          "correctAnswer": "The word of God",
+          "explanation": "Luke 8:11 explains the seed is the word of God.",
+          "verseReference": "Luke 8:11",
           "difficulty": "easy"
         },
         {
           "id": "luke-8-easy-q12",
-          "question": "True or False: Jesus allowed everyone to enter the house when he raised Jairus’ daughter.",
+          "question": "True or False: Jesus said no one puts a candle under a bed but sets it on a candlestick.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 8:16 states no man puts a candle under a bed but sets it on a candlestick.",
+          "verseReference": "Luke 8:16",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-8-easy-q13",
+          "question": "True or False: Jesus said that nothing secret will remain hidden but will be made manifest.",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "True",
+          "explanation": "Luke 8:17 affirms that nothing secret shall remain hidden but will be known and come abroad.",
+          "verseReference": "Luke 8:17",
+          "difficulty": "easy"
+        },
+        {
+          "id": "luke-8-easy-q14",
+          "question": "True or False: Luke 8 says Jesus was born in Bethlehem.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Luke 8:51 states Jesus allowed only Peter, James, John, and the parents to enter the house.",
-          "verseReference": "Luke 8:51",
-          "difficulty": "easy"
-        },
-        {
-          "id": "luke-8-easy-q13",
-          "question": "True or False: Jesus told the woman with the issue of blood that her faith had made her whole.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Luke 8:48 quotes Jesus telling her her faith made her whole.",
-          "verseReference": "Luke 8:48",
-          "difficulty": "easy"
-        },
-        {
-          "id": "luke-8-easy-q14",
-          "question": "True or False: When Jairus' daughter was dead, Jesus said she was not dead but sleeping.",
-          "type": "true-false",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": "True",
-          "explanation": "Luke 8:52 shows Jesus saying she is not dead but sleepeth.",
-          "verseReference": "Luke 8:52",
+          "explanation": "Luke 8 does not mention Jesus’ birth or Bethlehem; this is not stated in the chapter.",
+          "verseReference": "Luke 8",
           "difficulty": "easy"
         },
         {
           "id": "luke-8-easy-q15",
-          "question": "Complete this verse from Luke 8:16: 'No man, when he hath lighted a candle, covereth it with a _______, or putteth it under a bed.'",
-          "type": "fill-blank",
+          "question": "True or False: According to Luke 8, Jesus healed a blind man in this chapter.",
+          "type": "true-false",
           "options": [
-            "vessel",
-            "cloth",
-            "box",
-            "lid"
+            "True",
+            "False"
           ],
-          "correctAnswer": "vessel",
-          "explanation": "Luke 8:16 uses 'vessel' in this context to describe what is not used to cover a candle.",
-          "verseReference": "Luke 8:16",
+          "correctAnswer": "False",
+          "explanation": "Luke 8 does not describe Jesus healing a blind man; this event is not recorded in these verses.",
+          "verseReference": "Luke 8",
           "difficulty": "easy"
         }
       ],
@@ -254,223 +252,221 @@
       "questions": [
         {
           "id": "luke-8-medium-q1",
-          "question": "A fellow believer is discouraged because their faith seems weak and they are tempted to give up. Based on the parable of the sower in Luke 8, what biblical truth would you share about perseverance through trials?",
+          "question": "What did Jesus say about his mother and brethren when told they were desiring to see him?",
           "type": "multiple-choice",
           "options": [
-            "Those who receive the word with a good and honest heart will keep it and bring forth fruit with patience",
-            "Faith is only for the strong and perfect believers",
-            "Temptations mean you are not chosen by God",
-            "Only those who never experience trials are truly faithful"
+            "My mother and my brethren are these which hear the word of God, and do it.",
+            "They are outside waiting for me.",
+            "I do not know them.",
+            "They are not important."
           ],
-          "correctAnswer": "Those who receive the word with a good and honest heart will keep it and bring forth fruit with patience",
-          "explanation": "Luke 8:15 teaches that those on good ground, with an honest and good heart, keep the word and bring forth fruit with patience. This encourages perseverance through trials and temptations. See also Luke 8:13-15 for the contrast with other types of hearers.",
-          "verseReference": "Luke 8:15",
+          "correctAnswer": "My mother and my brethren are these which hear the word of God, and do it.",
+          "explanation": "This is the answer found in Luke 8:21, where Jesus defines his true family as those who hear and obey God's word.",
+          "verseReference": "Luke 8:21",
           "difficulty": "medium"
         },
         {
           "id": "luke-8-medium-q2",
-          "question": "How does Luke 8 teach about the importance of faith in God's power when Jesus calms the storm?",
+          "question": "What does Luke 8:21 promise will happen if someone hears the word of God and does it?",
           "type": "multiple-choice",
           "options": [
-            "Jesus rebuked the wind and water and asked, 'Where is your faith?'",
-            "The disciples controlled the storm with their prayers",
-            "Jesus said storms are a punishment for sin",
-            "Faith is not necessary for safety"
+            "They will be part of Jesus' family.",
+            "They will face many trials.",
+            "They will be wealthy.",
+            "They will be without sin."
           ],
-          "correctAnswer": "Jesus rebuked the wind and water and asked, 'Where is your faith?'",
-          "explanation": "In Luke 8:24-25, Jesus calms the storm and questions the disciples about their faith, teaching that faith in God's power is essential even in fearful situations.",
-          "verseReference": "Luke 8:24-25",
+          "correctAnswer": "They will be part of Jesus' family.",
+          "explanation": "Luke 8:21 indicates that those who hear and do God's word are considered Jesus' true family, thus promising inclusion in His spiritual family.",
+          "verseReference": "Luke 8:21",
           "difficulty": "medium"
         },
         {
           "id": "luke-8-medium-q3",
-          "question": "A believer wonders how to respond when they face worries about wealth and pleasures tempting them away from God. What does Luke 8 say about the effect of such distractions on spiritual growth?",
+          "question": "What did Jesus instruct his disciples to do on a certain day?",
           "type": "multiple-choice",
           "options": [
-            "Cares, riches, and pleasures choke the word, preventing fruitfulness",
-            "Wealth is a sign of God's blessing and should be pursued above all",
-            "Pleasures are always a blessing from God and cause no harm",
-            "Distractions are irrelevant to faith"
+            "Let us go over unto the other side of the lake.",
+            "Stay here and pray.",
+            "Go out and preach.",
+            "Gather food for the journey."
           ],
-          "correctAnswer": "Cares, riches, and pleasures choke the word, preventing fruitfulness",
-          "explanation": "Luke 8:14 explains that those who hear the word but are choked by cares, riches, and pleasures do not bring fruit to perfection, illustrating the danger of worldly distractions.",
-          "verseReference": "Luke 8:14",
+          "correctAnswer": "Let us go over unto the other side of the lake.",
+          "explanation": "This instruction is found in Luke 8:22, where Jesus directs His disciples to launch forth across the lake.",
+          "verseReference": "Luke 8:22",
           "difficulty": "medium"
         },
         {
           "id": "luke-8-medium-q4",
-          "question": "How does Luke 8 illustrate the importance of actively hearing and doing God's word within family and community life?",
+          "question": "What happened while Jesus and his disciples were sailing?",
           "type": "multiple-choice",
           "options": [
-            "Jesus said those who hear and do God's word are His true family",
-            "Blood relations determine who belongs to God's family",
-            "Only religious leaders are part of God's family",
-            "Family ties have no spiritual significance"
+            "They encountered a storm of wind on the lake.",
+            "They saw many fish.",
+            "They sang songs.",
+            "They found a deserted island."
           ],
-          "correctAnswer": "Jesus said those who hear and do God's word are His true family",
-          "explanation": "In Luke 8:19-21, Jesus redefines family as those who hear the word of God and do it, emphasizing obedience over biological ties in spiritual fellowship.",
-          "verseReference": "Luke 8:21",
+          "correctAnswer": "They encountered a storm of wind on the lake.",
+          "explanation": "According to Luke 8:23, a storm arose while they were sailing, which put them in jeopardy.",
+          "verseReference": "Luke 8:23",
           "difficulty": "medium"
         },
         {
           "id": "luke-8-medium-q5",
-          "question": "What practical lesson about faith and healing can be learned from the woman who touched Jesus' garment in Luke 8?",
+          "question": "What did the disciples say to Jesus when they woke him during the storm?",
           "type": "multiple-choice",
           "options": [
-            "Faith in Jesus' power brings immediate healing",
-            "Healing depends on the number of physicians consulted",
-            "Only priests can heal sickness",
-            "Touching Jesus' garment was a superstition"
+            "Master, master, we perish.",
+            "Help us, Lord!",
+            "We are afraid.",
+            "Why are you sleeping?"
           ],
-          "correctAnswer": "Faith in Jesus' power brings immediate healing",
-          "explanation": "Luke 8:43-48 shows that the woman's faith caused her immediate healing, and Jesus affirms this by saying, 'thy faith hath made thee whole.'",
-          "verseReference": "Luke 8:48",
+          "correctAnswer": "Master, master, we perish.",
+          "explanation": "This is found in Luke 8:24, where the disciples express their fear of drowning to Jesus as they wake Him.",
+          "verseReference": "Luke 8:24",
           "difficulty": "medium"
         },
         {
           "id": "luke-8-medium-q6",
-          "question": "What does Luke 8 teach about humility and contentment through the story of the healed man from the Gadarenes?",
+          "question": "What question did Jesus ask his disciples after calming the storm?",
           "type": "multiple-choice",
           "options": [
-            "The healed man was told to return home and testify about God's works",
-            "He was told to follow Jesus everywhere",
-            "He was told to seek riches and fame",
-            "He was told to isolate himself from the community"
+            "Where is your faith?",
+            "Why are you afraid?",
+            "Do you not trust me?",
+            "What do you want from me?"
           ],
-          "correctAnswer": "The healed man was told to return home and testify about God's works",
-          "explanation": "Luke 8:38-39 shows Jesus instructing the man to go back to his own house and declare what great things God has done, emphasizing humble testimony and gratitude.",
-          "verseReference": "Luke 8:39",
+          "correctAnswer": "Where is your faith?",
+          "explanation": "In Luke 8:25, Jesus questions the disciples about their faith after He calms the storm, indicating the importance of trust in Him.",
+          "verseReference": "Luke 8:25",
           "difficulty": "medium"
         },
         {
           "id": "luke-8-medium-q7",
-          "question": "True or False: According to Luke 8, Jesus performed miracles only to impress large crowds without teaching about faith.",
-          "type": "true-false",
+          "question": "What did the man possessed by devils wear?",
+          "type": "multiple-choice",
           "options": [
-            "True",
-            "False"
+            "No clothes.",
+            "A robe.",
+            "Rags.",
+            "Fine linen."
           ],
-          "correctAnswer": "False",
-          "explanation": "Jesus performed miracles to reveal God's power and to teach about faith and trust, as seen in calming the storm (Luke 8:24-25) and healing the demon-possessed man (Luke 8:35).",
-          "verseReference": "Luke 8:24-25, Luke 8:35",
+          "correctAnswer": "No clothes.",
+          "explanation": "Luke 8:27 describes the man as having no clothes, highlighting his state of affliction and separation from society.",
+          "verseReference": "Luke 8:27",
           "difficulty": "medium"
         },
         {
           "id": "luke-8-medium-q8",
-          "question": "How does Luke 8 emphasize the importance of spiritual vigilance and attentiveness?",
+          "question": "What did the demons call themselves when Jesus asked for their name?",
           "type": "multiple-choice",
           "options": [
-            "Jesus says, 'Take heed therefore how ye hear'",
-            "Believers should ignore teachings they find difficult",
-            "Only leaders need to be attentive to God's word",
-            "Faith is automatic without effort"
+            "Legion.",
+            "Unclean spirits.",
+            "Demons.",
+            "Devils."
           ],
-          "correctAnswer": "Jesus says, 'Take heed therefore how ye hear'",
-          "explanation": "Luke 8:18 warns believers to be careful how they hear the word, highlighting the need for spiritual vigilance and understanding.",
-          "verseReference": "Luke 8:18",
+          "correctAnswer": "Legion.",
+          "explanation": "This is stated in Luke 8:30, where the man possessed by many devils identifies them as 'Legion' due to their number.",
+          "verseReference": "Luke 8:30",
           "difficulty": "medium"
         },
         {
           "id": "luke-8-medium-q9",
-          "question": "A believer struggles with doubt during a crisis. Based on Luke 8, what encouragement can you give about trusting God even when circumstances seem hopeless?",
+          "question": "What did the devils request Jesus not to do?",
           "type": "multiple-choice",
           "options": [
-            "Jesus encouraged Jairus to 'Fear not: believe only, and she shall be made whole'",
-            "Doubt means God has abandoned you",
-            "Faith requires no challenges",
-            "Prayer is ineffective in crises"
+            "Do not torment me.",
+            "Do not send us to hell.",
+            "Do not leave this land.",
+            "Do not take our power."
           ],
-          "correctAnswer": "Jesus encouraged Jairus to 'Fear not: believe only, and she shall be made whole'",
-          "explanation": "Luke 8:50 shows Jesus encouraging Jairus to have faith despite the apparent hopelessness of his daughter's condition, teaching trust in God's power.",
-          "verseReference": "Luke 8:50",
+          "correctAnswer": "Do not torment me.",
+          "explanation": "The request of the demons is found in Luke 8:28, where they plead with Jesus not to torment them.",
+          "verseReference": "Luke 8:28",
           "difficulty": "medium"
         },
         {
           "id": "luke-8-medium-q10",
-          "question": "What does the parable of the sower in Luke 8 teach about the importance of integrity and honesty in receiving God's word?",
+          "question": "What did the herd of swine do after the devils entered them?",
           "type": "multiple-choice",
           "options": [
-            "Those with an honest and good heart keep the word and produce fruit with patience",
-            "Only outward appearances matter in faith",
-            "Deception helps in spiritual growth",
-            "Integrity is irrelevant to receiving God's word"
+            "Ran violently down a steep place into the lake.",
+            "Fell asleep.",
+            "Became calm.",
+            "Gathered together."
           ],
-          "correctAnswer": "Those with an honest and good heart keep the word and produce fruit with patience",
-          "explanation": "Luke 8:15 explains that good ground represents those with honest and good hearts who retain and act on God's word, emphasizing integrity in faith.",
-          "verseReference": "Luke 8:15",
+          "correctAnswer": "Ran violently down a steep place into the lake.",
+          "explanation": "This is described in Luke 8:33, where the herd of swine, possessed by the devils, ran into the lake and drowned.",
+          "verseReference": "Luke 8:33",
           "difficulty": "medium"
         },
         {
           "id": "luke-8-medium-q11",
-          "question": "True or False: According to Luke 8, Jesus valued family relationships above obedience to God’s word.",
+          "question": "What was the reaction of those who fed the swine after seeing what happened?",
+          "type": "multiple-choice",
+          "options": [
+            "They fled and told it in the city.",
+            "They praised Jesus.",
+            "They tried to capture the devils.",
+            "They laughed."
+          ],
+          "correctAnswer": "They fled and told it in the city.",
+          "explanation": "Luke 8:34 states that those who fed the swine fled to report what had occurred after witnessing the event.",
+          "verseReference": "Luke 8:34",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-8-medium-q12",
+          "question": "What was the state of the man after the demons left him?",
+          "type": "multiple-choice",
+          "options": [
+            "Sitting at the feet of Jesus, clothed, and in his right mind.",
+            "Still in torment.",
+            "Running away.",
+            "Angry and confused."
+          ],
+          "correctAnswer": "Sitting at the feet of Jesus, clothed, and in his right mind.",
+          "explanation": "Luke 8:35 describes the man after his healing, emphasizing his restored state and peace in Jesus' presence.",
+          "verseReference": "Luke 8:35",
+          "difficulty": "medium"
+        },
+        {
+          "id": "luke-8-medium-q13",
+          "question": "Did the whole multitude of the Gadarenes ask Jesus to stay with them after the miracle?",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Luke 8:21 shows Jesus stating that those who hear and do God's word are His true family, indicating obedience to God is higher than biological ties.",
-          "verseReference": "Luke 8:21",
-          "difficulty": "medium"
-        },
-        {
-          "id": "luke-8-medium-q12",
-          "question": "When Jesus said, 'He that hath ears to hear, let him hear,' what does Luke 8 suggest about the attitude believers should have towards God's word?",
-          "type": "multiple-choice",
-          "options": [
-            "Believers should listen attentively and seek understanding",
-            "Hearing is optional and unimportant",
-            "Only priests should listen carefully",
-            "God’s word is a secret for only a few"
-          ],
-          "correctAnswer": "Believers should listen attentively and seek understanding",
-          "explanation": "Luke 8:8 and 8:10 emphasize the importance of attentiveness and understanding in receiving God's word, encouraging believers to listen carefully.",
-          "verseReference": "Luke 8:8, 8:10",
-          "difficulty": "medium"
-        },
-        {
-          "id": "luke-8-medium-q13",
-          "question": "What does the story of the woman healed of a 12-year issue of blood teach about personal devotion and faith in Jesus’ power?",
-          "type": "multiple-choice",
-          "options": [
-            "Faith in Jesus' power leads to healing even after long suffering",
-            "Only public displays of faith matter",
-            "Healing depends on social status",
-            "Faith is ineffective after many years"
-          ],
-          "correctAnswer": "Faith in Jesus' power leads to healing even after long suffering",
-          "explanation": "Luke 8:43-48 shows the woman's faith, despite long suffering and expense, brought immediate healing, highlighting persistent faith and personal devotion.",
-          "verseReference": "Luke 8:43-48",
+          "explanation": "According to Luke 8:37, the multitude besought Jesus to depart from them out of fear, not to stay.",
+          "verseReference": "Luke 8:37",
           "difficulty": "medium"
         },
         {
           "id": "luke-8-medium-q14",
-          "question": "How does Luke 8 encourage believers to be a witness in their communities through the example of the healed demoniac?",
-          "type": "multiple-choice",
+          "question": "Jesus allowed the man who was healed to stay with him after the healing.",
+          "type": "true-false",
           "options": [
-            "The healed man went and published throughout the city what Jesus had done",
-            "He kept the healing a secret",
-            "He left the community immediately",
-            "He became a recluse"
+            "True",
+            "False"
           ],
-          "correctAnswer": "The healed man went and published throughout the city what Jesus had done",
-          "explanation": "Luke 8:39 records that the man who was healed testified to the great things Jesus had done, showing the importance of sharing the Gospel with others.",
-          "verseReference": "Luke 8:39",
+          "correctAnswer": "False",
+          "explanation": "In Luke 8:38, Jesus sent the healed man away, indicating he had a mission to fulfill rather than staying with Jesus.",
+          "verseReference": "Luke 8:38",
           "difficulty": "medium"
         },
         {
           "id": "luke-8-medium-q15",
-          "question": "Fill in the blank: Jesus said that no man, when he hath lighted a candle, __________.",
-          "type": "fill-blank",
+          "question": "The disciples showed great faith during the storm and did not fear.",
+          "type": "true-false",
           "options": [
-            "covereth it with a vessel, or putteth it under a bed",
-            "hides it in a secret place",
-            "blows it out immediately",
-            "puts it out in the rain"
+            "True",
+            "False"
           ],
-          "correctAnswer": "covereth it with a vessel, or putteth it under a bed",
-          "explanation": "Luke 8:16 teaches that light is meant to be visible and shared, symbolizing the openness with which believers should live out their faith.",
-          "verseReference": "Luke 8:16",
+          "correctAnswer": "False",
+          "explanation": "Luke 8:25 reveals that the disciples were afraid, questioning Jesus about their peril, indicating a lack of faith during the storm.",
+          "verseReference": "Luke 8:25",
           "difficulty": "medium"
         }
       ],
@@ -497,225 +493,227 @@
       "questions": [
         {
           "id": "luke-8-hard-q1",
-          "question": "In Luke 8, the parable of the sower uses different types of soil to represent responses to the word of God. Which soil type represents those who hear the word but are quickly tempted away due to lack of root?",
+          "question": "After Jesus healed the man possessed by many devils, what did Jesus instruct him to do?",
           "type": "multiple-choice",
           "options": [
-            "The rock",
-            "The way side",
-            "The good ground",
-            "Among thorns"
+            "Return to thine own house, and shew how great things God hath done unto thee.",
+            "Follow me and preach to the cities.",
+            "Go to the priests for cleansing.",
+            "Stay close to Jesus at all times."
           ],
-          "correctAnswer": "The rock",
-          "explanation": "Luke 8:13 explains that those on the rock are they which receive the word with joy but have no root and fall away in time of temptation.",
-          "verseReference": "Luke 8:13",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-8-hard-q2",
-          "question": "Which woman mentioned in Luke 8 was healed from seven devils?",
-          "type": "multiple-choice",
-          "options": [
-            "Mary called Magdalene",
-            "Joanna",
-            "Susanna",
-            "Martha"
-          ],
-          "correctAnswer": "Mary called Magdalene",
-          "explanation": "Luke 8:2 states Mary called Magdalene was healed of seven devils.",
-          "verseReference": "Luke 8:2",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-8-hard-q3",
-          "question": "What is the meaning of the seed in the parable of the sower according to Jesus in Luke 8?",
-          "type": "multiple-choice",
-          "options": [
-            "The word of God",
-            "Faith",
-            "The kingdom of heaven",
-            "The law of Moses"
-          ],
-          "correctAnswer": "The word of God",
-          "explanation": "Jesus explains in Luke 8:11 that the seed is the word of God.",
-          "verseReference": "Luke 8:11",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-8-hard-q4",
-          "question": "In Luke 8, who are described as those that hear the word but are choked with cares, riches, and pleasures and bring no fruit to perfection?",
-          "type": "multiple-choice",
-          "options": [
-            "Those on the good ground",
-            "Those among thorns",
-            "Those on the way side",
-            "Those on the rock"
-          ],
-          "correctAnswer": "Those among thorns",
-          "explanation": "Luke 8:14 identifies those that fall among thorns as those choked by cares, riches, and pleasures.",
-          "verseReference": "Luke 8:14",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-8-hard-q5",
-          "question": "According to Luke 8, why did Jesus speak in parables to the crowds but explain the mysteries of the kingdom to his disciples?",
-          "type": "multiple-choice",
-          "options": [
-            "So that some would see and others would not",
-            "To confuse the crowds",
-            "Because the disciples were unlearned",
-            "To fulfill a prophecy in Psalms"
-          ],
-          "correctAnswer": "So that some would see and others would not",
-          "explanation": "Luke 8:10 explains that Jesus used parables so that seeing they might not see, and hearing they might not understand.",
-          "verseReference": "Luke 8:10",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-8-hard-q6",
-          "question": "What does Jesus say about a candle in Luke 8 and its proper use?",
-          "type": "multiple-choice",
-          "options": [
-            "It should be covered with a vessel",
-            "It should be hidden under a bed",
-            "It should be set on a candlestick so all may see the light",
-            "It should be extinguished at night"
-          ],
-          "correctAnswer": "It should be set on a candlestick so all may see the light",
-          "explanation": "Luke 8:16 states no one lights a candle to cover it or put it under a bed but sets it on a candlestick so that those who enter may see the light.",
-          "verseReference": "Luke 8:16",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-8-hard-q7",
-          "question": "Who does Jesus identify as his mother and brethren in Luke 8?",
-          "type": "multiple-choice",
-          "options": [
-            "His biological family",
-            "Those who hear the word of God and do it",
-            "His twelve disciples",
-            "The Pharisees"
-          ],
-          "correctAnswer": "Those who hear the word of God and do it",
-          "explanation": "In Luke 8:21, Jesus says his mother and brethren are those who hear the word of God and do it.",
-          "verseReference": "Luke 8:21",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-8-hard-q8",
-          "question": "During the storm on the lake in Luke 8, what does Jesus do to calm the storm?",
-          "type": "multiple-choice",
-          "options": [
-            "He prays silently",
-            "He rebukes the wind and the raging water",
-            "He commands the disciples to row",
-            "He calls on an angel"
-          ],
-          "correctAnswer": "He rebukes the wind and the raging water",
-          "explanation": "Luke 8:24 records Jesus rebuking the wind and the raging water, causing a calm.",
-          "verseReference": "Luke 8:24",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-8-hard-q9",
-          "question": "What is the name given by the demon-possessed man to Jesus in Luke 8?",
-          "type": "multiple-choice",
-          "options": [
-            "Satan",
-            "Beelzebub",
-            "Legion",
-            "Azazel"
-          ],
-          "correctAnswer": "Legion",
-          "explanation": "Luke 8:30 states the man’s name was Legion, because many devils had entered him.",
-          "verseReference": "Luke 8:30",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-8-hard-q10",
-          "question": "What cultural significance might the herd of swine have had in the story of the demon-possessed man in Luke 8?",
-          "type": "multiple-choice",
-          "options": [
-            "Swine were considered unclean animals in Jewish culture",
-            "They were the main source of food for the Gadarenes",
-            "They symbolized Roman authority",
-            "They were sacred animals to the locals"
-          ],
-          "correctAnswer": "Swine were considered unclean animals in Jewish culture",
-          "explanation": "Swine were unclean to Jews, so sending demons into swine (Luke 8:32-33) emphasizes the severity and unclean nature of the possession.",
-          "verseReference": "Luke 8:32-33",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-8-hard-q11",
-          "question": "What is the significance of Jesus' command to the healed demon-possessed man to 'return to thine own house and shew how great things God hath done unto thee' in Luke 8?",
-          "type": "multiple-choice",
-          "options": [
-            "It highlights the importance of personal testimony",
-            "It was a way to avoid crowds",
-            "It was a command to become a disciple",
-            "It meant to leave the country immediately"
-          ],
-          "correctAnswer": "It highlights the importance of personal testimony",
-          "explanation": "Luke 8:39 commands the man to testify in his own city about the great things God has done, indicating the role of witness in spreading the Gospel.",
+          "correctAnswer": "Return to thine own house, and shew how great things God hath done unto thee.",
+          "explanation": "Luke 8:39 states Jesus said, 'Return to thine own house, and shew how great things God hath done unto thee.'",
           "verseReference": "Luke 8:39",
           "difficulty": "hard"
         },
         {
-          "id": "luke-8-hard-q12",
-          "question": "In the healing of the woman with the issue of blood, what Greek word is translated as 'virtue' that Jesus perceives leaving him when touched?",
+          "id": "luke-8-hard-q2",
+          "question": "How did the people react when Jesus returned to the city after healing the demon-possessed man?",
           "type": "multiple-choice",
           "options": [
-            "Dunamis",
-            "Agape",
-            "Logos",
-            "Charis"
+            "The people gladly received him: for they were all waiting for him.",
+            "They ignored him and went about their business.",
+            "They questioned his authority.",
+            "They plotted to arrest him."
           ],
-          "correctAnswer": "Dunamis",
-          "explanation": "The Greek word 'dunamis' (Luke 8:46) conveys power or miraculous ability, showing Jesus’ awareness that power had gone out from him.",
+          "correctAnswer": "The people gladly received him: for they were all waiting for him.",
+          "explanation": "Luke 8:40 says, 'the people gladly received him: for they were all waiting for him.'",
+          "verseReference": "Luke 8:40",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-8-hard-q3",
+          "question": "Who came to Jesus pleading for the healing of his dying daughter?",
+          "type": "multiple-choice",
+          "options": [
+            "A man named Jairus, a ruler of the synagogue.",
+            "A Pharisee from Jerusalem.",
+            "A Roman centurion.",
+            "A shepherd from the countryside."
+          ],
+          "correctAnswer": "A man named Jairus, a ruler of the synagogue.",
+          "explanation": "Luke 8:41 identifies the man as 'Jairus, and he was a ruler of the synagogue.'",
+          "verseReference": "Luke 8:41",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-8-hard-q4",
+          "question": "For how many years had the woman with the issue of blood suffered and sought healing before touching Jesus’ garment?",
+          "type": "multiple-choice",
+          "options": [
+            "Twelve years",
+            "Seven years",
+            "Three years",
+            "Twenty years"
+          ],
+          "correctAnswer": "Twelve years",
+          "explanation": "Luke 8:43 states, 'a woman having an issue of blood twelve years.'",
+          "verseReference": "Luke 8:43",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-8-hard-q5",
+          "question": "What did Jesus perceive had happened when the woman touched the border of His garment?",
+          "type": "multiple-choice",
+          "options": [
+            "Virtue is gone out of me.",
+            "Power has been restored to me.",
+            "A miracle has been performed.",
+            "Faith has increased in the crowd."
+          ],
+          "correctAnswer": "Virtue is gone out of me.",
+          "explanation": "Luke 8:46 says, 'Somebody hath touched me: for I perceive that virtue is gone out of me.'",
           "verseReference": "Luke 8:46",
           "difficulty": "hard"
         },
         {
-          "id": "luke-8-hard-q13",
-          "question": "How does the reaction of the crowd to Jairus’s daughter being called 'sleeping' by Jesus in Luke 8 illustrate a literary device common in the New Testament?",
+          "id": "luke-8-hard-q6",
+          "question": "What did Jesus say to the woman after she confessed her healing by touching His garment?",
           "type": "multiple-choice",
           "options": [
-            "Irony, as they know she is dead but Jesus calls it sleep",
-            "Simile, comparing death to sleep",
-            "Foreshadowing of resurrection",
-            "Paradox, because she is both dead and alive"
+            "Daughter, be of good comfort: thy faith hath made thee whole; go in peace.",
+            "Rise and walk in the name of the Lord.",
+            "Your sins are forgiven; be healed.",
+            "Go, and sin no more."
           ],
-          "correctAnswer": "Irony, as they know she is dead but Jesus calls it sleep",
-          "explanation": "Luke 8:52 shows Jesus calling death sleep, which the crowd mocks, illustrating irony and foreshadowing resurrection.",
+          "correctAnswer": "Daughter, be of good comfort: thy faith hath made thee whole; go in peace.",
+          "explanation": "Luke 8:48 records Jesus saying, 'Daughter, be of good comfort: thy faith hath made thee whole; go in peace.'",
+          "verseReference": "Luke 8:48",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-8-hard-q7",
+          "question": "What does the Greek word 'virtue' (dunamis) in Luke 8:46 mean?",
+          "type": "multiple-choice",
+          "options": [
+            "Power or miraculous ability",
+            "Wealth or riches",
+            "Wisdom or knowledge",
+            "Peace or tranquility"
+          ],
+          "correctAnswer": "Power or miraculous ability",
+          "explanation": "'Dunamis' in Greek signifies 'power' or 'miraculous ability,' as used in Luke 8:46 referring to the power going out of Jesus.",
+          "verseReference": "Luke 8:46",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-8-hard-q8",
+          "question": "What literary device is prominently used in the account of Jairus’s daughter’s death and resurrection in Luke 8:49-56?",
+          "type": "multiple-choice",
+          "options": [
+            "Chiasm",
+            "Parable",
+            "Allegory",
+            "Foreshadowing"
+          ],
+          "correctAnswer": "Chiasm",
+          "explanation": "Luke 8:49-56 uses a chiasm structure: death (49-50), Jesus’ authority and faith (50-52), rejection (53), and resurrection (54-56).",
+          "verseReference": "Luke 8:49-56",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-8-hard-q9",
+          "question": "Which Old Testament passage echoes the theme of Jesus raising Jairus’s daughter as found in Luke 8:54-55?",
+          "type": "multiple-choice",
+          "options": [
+            "1 Kings 17:17-24",
+            "Genesis 1:1-3",
+            "Psalm 23",
+            "Exodus 14:21-22"
+          ],
+          "correctAnswer": "1 Kings 17:17-24",
+          "explanation": "1 Kings 17:17-24 recounts Elijah raising the widow’s son, echoing the resurrection theme in Luke 8:54-55.",
+          "verseReference": "Luke 8:54-55",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-8-hard-q10",
+          "question": "Which New Testament passage connects to the parable of the sower in Luke 8:4-15 by explaining the meaning of the seed as the word of God?",
+          "type": "multiple-choice",
+          "options": [
+            "Mark 4:1-20",
+            "John 3:16-18",
+            "Acts 2:1-13",
+            "Romans 8:1-17"
+          ],
+          "correctAnswer": "Mark 4:1-20",
+          "explanation": "Mark 4:1-20 parallels Luke 8:4-15, explaining the parable of the sower and the seed as the word of God.",
+          "verseReference": "Luke 8:4-15",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-8-hard-q11",
+          "question": "What event immediately precedes the healing of the demon-possessed man in Luke 8:27-39?",
+          "type": "multiple-choice",
+          "options": [
+            "Jesus calming the storm on the lake.",
+            "Jesus preaching the parable of the sower.",
+            "Jesus being questioned by the Pharisees.",
+            "Jesus feeding the 5000."
+          ],
+          "correctAnswer": "Jesus calming the storm on the lake.",
+          "explanation": "Luke 8:23-25 describes Jesus calming the storm, which immediately precedes the healing narrative starting at verse 26.",
+          "verseReference": "Luke 8:23-25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-8-hard-q12",
+          "question": "What theological theme is highlighted by Jesus allowing only Peter, James, and John, along with the girl's parents, to enter the room where Jairus’s daughter was?",
+          "type": "multiple-choice",
+          "options": [
+            "The special role of the inner circle of disciples and faith.",
+            "The exclusivity of salvation to the chosen few.",
+            "The rejection of family in favor of spiritual kinship.",
+            "The public demonstration of miracles before crowds."
+          ],
+          "correctAnswer": "The special role of the inner circle of disciples and faith.",
+          "explanation": "Luke 8:51 shows Jesus permitting only Peter, James, John, and the parents to witness, emphasizing the privileged role of the closest followers in faith events.",
+          "verseReference": "Luke 8:51",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-8-hard-q13",
+          "question": "How does Luke 8:52-53 demonstrate the cultural context of death and mourning in first-century Judaism?",
+          "type": "multiple-choice",
+          "options": [
+            "People wept and bewailed, expressing grief openly, but mocked Jesus’ claim that she was only sleeping.",
+            "Mourning was a private affair, and people avoided public displays of grief.",
+            "The dead were immediately buried without any lamentation.",
+            "People believed in reincarnation and thus had little fear of death."
+          ],
+          "correctAnswer": "People wept and bewailed, expressing grief openly, but mocked Jesus’ claim that she was only sleeping.",
+          "explanation": "Luke 8:52-53 highlights open mourning but also skepticism, reflecting Jewish customs and beliefs about death at that time.",
           "verseReference": "Luke 8:52-53",
           "difficulty": "hard"
         },
         {
           "id": "luke-8-hard-q14",
-          "question": "True or False: In Luke 8, Jesus allows everyone to enter the room when he raises Jairus’s daughter from the dead.",
-          "type": "true-false",
+          "question": "What typological significance does the healing of the woman with the issue of blood have in the context of Levitical purity laws?",
+          "type": "multiple-choice",
           "options": [
-            "True",
-            "False"
+            "It symbolizes restoration and cleansing beyond ceremonial law, showing Jesus' authority over impurity.",
+            "It reinforces strict adherence to Old Testament purity laws.",
+            "It depicts the futility of faith without works.",
+            "It indicates the rejection of women in religious healing."
           ],
-          "correctAnswer": "False",
-          "explanation": "Luke 8:51 states Jesus permitted only Peter, James, John, and the parents of the girl to enter.",
-          "verseReference": "Luke 8:51",
+          "correctAnswer": "It symbolizes restoration and cleansing beyond ceremonial law, showing Jesus' authority over impurity.",
+          "explanation": "The woman’s healing in Luke 8:43-48 illustrates Jesus transcending Levitical impurity, signifying spiritual restoration.",
+          "verseReference": "Luke 8:43-48",
           "difficulty": "hard"
         },
         {
           "id": "luke-8-hard-q15",
-          "question": "What theme in Luke 8 is emphasized by Jesus’s repeated command to 'hear' and the description of different responses to the word of God?",
+          "question": "What foreshadowing is present in Jesus’ statement 'she is not dead, but sleepeth' in Luke 8:52?",
           "type": "multiple-choice",
           "options": [
-            "The necessity of active faith and perseverance",
-            "The importance of ritual sacrifice",
-            "The rejection of the Law of Moses",
-            "The coming of the Messiah as a political king"
+            "It foreshadows Jesus’ own death and resurrection.",
+            "It predicts the destruction of the Temple.",
+            "It hints at the coming of the Holy Spirit.",
+            "It anticipates the fall of Jerusalem."
           ],
-          "correctAnswer": "The necessity of active faith and perseverance",
-          "explanation": "The parable and Jesus’s calls to hear (Luke 8:8, 18) emphasize faith that perseveres and produces fruit in response to God’s word.",
-          "verseReference": "Luke 8:8, 18",
+          "correctAnswer": "It foreshadows Jesus’ own death and resurrection.",
+          "explanation": "Luke 8:52 uses 'sleep' as a metaphor for death, a common New Testament foreshadowing of resurrection including Jesus’ own.",
+          "verseReference": "Luke 8:52",
           "difficulty": "hard"
         }
       ],
@@ -742,227 +740,227 @@
       "questions": [
         {
           "id": "luke-8-theological-q1",
-          "question": "In Luke 8, what is the symbolic meaning of the seed in the parable of the sower?",
+          "question": "What doctrine does Luke 8:11 teach about salvation?",
           "type": "multiple-choice",
           "options": [
-            "The word of God",
-            "The people of Israel",
-            "The kingdom of heaven",
-            "The law of Moses"
+            "The Word of God is the seed that brings spiritual life",
+            "Salvation is based on works and merit",
+            "Faith alone is insufficient for salvation",
+            "Salvation is only for the Jews"
           ],
-          "correctAnswer": "The word of God",
-          "explanation": "Luke 8:11 clearly states that the seed is the word of God. This symbolism aligns with Old Testament passages such as Isaiah 55:10-11 where God's word accomplishes His purpose, and New Testament teachings like Romans 10:17 which emphasize hearing the word as the basis of faith.",
+          "correctAnswer": "The Word of God is the seed that brings spiritual life",
+          "explanation": "Luke 8:11 explicitly states that 'The seed is the word of God,' indicating that salvation comes through hearing and receiving God's word.",
           "verseReference": "Luke 8:11",
           "difficulty": "hard"
         },
         {
           "id": "luke-8-theological-q2",
-          "question": "According to Luke 8, what happens to those who hear the word by the wayside?",
+          "question": "What doctrine does Luke 8:15 teach about sanctification?",
           "type": "multiple-choice",
           "options": [
-            "The devil takes away the word from their hearts",
-            "They produce a hundredfold fruit",
-            "They believe and endure temptation",
-            "They hide the word under a vessel"
+            "Sanctification requires an honest and good heart that keeps the word and produces fruit with patience",
+            "Sanctification is instantaneous and without growth",
+            "Sanctification does not involve fruitfulness",
+            "Sanctification is guaranteed regardless of heart condition"
           ],
-          "correctAnswer": "The devil takes away the word from their hearts",
-          "explanation": "Luke 8:12 explains that those who hear by the wayside have the word taken away by the devil to prevent belief and salvation. This is consistent with 1 Peter 5:8 about the devil seeking to devour believers and Ephesians 6:16 on the shield of faith to extinguish the fiery darts of the evil one.",
-          "verseReference": "Luke 8:12",
+          "correctAnswer": "Sanctification requires an honest and good heart that keeps the word and produces fruit with patience",
+          "explanation": "Luke 8:15 describes the good ground as those who have an honest and good heart, keep the word, and bring forth fruit with patience, teaching the progressive nature of sanctification.",
+          "verseReference": "Luke 8:15",
           "difficulty": "hard"
         },
         {
           "id": "luke-8-theological-q3",
-          "question": "Which group in the parable of the sower represents those who receive the word with joy but have no root and fall away during temptation?",
+          "question": "What doctrine does Luke 8:10 teach concerning divine revelation and human understanding?",
           "type": "multiple-choice",
           "options": [
-            "Those on the rock",
-            "Those by the wayside",
-            "Those among the thorns",
-            "Those on the good ground"
+            "The mysteries of the kingdom are revealed to the disciples but hidden from others through parables",
+            "Everyone has equal access to understanding the kingdom without mystery",
+            "Parables are meant to clarify the kingdom to all equally",
+            "The kingdom is fully revealed to the crowds publicly"
           ],
-          "correctAnswer": "Those on the rock",
-          "explanation": "Luke 8:13 identifies the rock as those who receive the word with joy but have no root, falling away when tested. This reflects themes in Hebrews 3:12-13 warning against unbelief and James 1:6-8 about double-mindedness leading to instability.",
-          "verseReference": "Luke 8:13",
+          "correctAnswer": "The mysteries of the kingdom are revealed to the disciples but hidden from others through parables",
+          "explanation": "Luke 8:10 states that the disciples are given the knowledge of the kingdom's mysteries, but others hear in parables so they might not understand, emphasizing selective divine revelation.",
+          "verseReference": "Luke 8:10",
           "difficulty": "hard"
         },
         {
           "id": "luke-8-theological-q4",
-          "question": "What do the thorns symbolize in the parable according to Luke 8?",
+          "question": "Which divine attribute does Luke 8:24 specifically demonstrate?",
           "type": "multiple-choice",
           "options": [
-            "Cares, riches, and pleasures of life",
-            "Sins of the flesh",
-            "False teachings",
-            "Persecution by enemies"
+            "Sovereignty",
+            "Omniscience",
+            "Immutability",
+            "Justice"
           ],
-          "correctAnswer": "Cares, riches, and pleasures of life",
-          "explanation": "Luke 8:14 states that the thorns represent the cares, riches, and pleasures of life which choke the word and prevent it from bearing fruit. This corresponds to teachings in 1 John 2:15-17 about the love of the world and Mark 4:19 which also explains the choking effect of worldly concerns.",
-          "verseReference": "Luke 8:14",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-8-theological-q5",
-          "question": "Who does Jesus identify as His true mother and brothers in Luke 8?",
-          "type": "multiple-choice",
-          "options": [
-            "Those who hear the word of God and do it",
-            "His biological family",
-            "The twelve apostles",
-            "The elders of Israel"
-          ],
-          "correctAnswer": "Those who hear the word of God and do it",
-          "explanation": "In Luke 8:21, Jesus redefines His family as those who hear and obey God's word, underscoring the spiritual family of faith. This theme resonates with Matthew 12:48-50 and John 15:14 emphasizing obedience as the basis of belonging to Christ.",
-          "verseReference": "Luke 8:21",
-          "difficulty": "hard"
-        },
-        {
-          "id": "luke-8-theological-q6",
-          "question": "What does Jesus rebuke to calm the storm on the lake?",
-          "type": "multiple-choice",
-          "options": [
-            "The wind and the raging of the water",
-            "The disciples’ fear",
-            "The fishermen’s nets",
-            "The darkness over the lake"
-          ],
-          "correctAnswer": "The wind and the raging of the water",
-          "explanation": "Luke 8:24 describes Jesus rebuking the wind and raging water, demonstrating His authority over nature. This echoes Psalm 107:29 and Mark 4:39, affirming His divine sovereignty over creation.",
+          "correctAnswer": "Sovereignty",
+          "explanation": "In Luke 8:24, Jesus rebukes the wind and raging water, showing His sovereign control over creation.",
           "verseReference": "Luke 8:24",
           "difficulty": "hard"
         },
         {
-          "id": "luke-8-theological-q7",
-          "question": "What is the name of the man possessed by many demons in the country of the Gadarenes?",
+          "id": "luke-8-theological-q5",
+          "question": "Which divine attribute does Luke 8:46 specifically demonstrate?",
           "type": "multiple-choice",
           "options": [
-            "Legion",
-            "Beelzebub",
-            "Goliath",
-            "Jairus"
+            "Omniscience",
+            "Omnipresence",
+            "Mercy",
+            "Wrath"
           ],
-          "correctAnswer": "Legion",
-          "explanation": "Luke 8:30 reveals the man’s name as 'Legion' because many demons entered him, signifying a multitude. This term also appears in Mark 5:9, indicating the same event and highlighting the reality of demonic oppression in biblical theology.",
-          "verseReference": "Luke 8:30",
+          "correctAnswer": "Omniscience",
+          "explanation": "Jesus perceives that virtue (power) has gone out of Him when the woman touches Him (Luke 8:46), demonstrating His omniscience in knowing what has happened despite the crowd.",
+          "verseReference": "Luke 8:46",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-8-theological-q6",
+          "question": "How does Luke 8:22–25 prepare for the theme of Jesus’ authority over nature in the New Testament?",
+          "type": "multiple-choice",
+          "options": [
+            "It demonstrates Jesus’ divine authority, prefiguring His ultimate lordship over all creation",
+            "It shows Jesus’ dependence on natural forces",
+            "It denies Jesus’ power over nature",
+            "It emphasizes human control over the environment"
+          ],
+          "correctAnswer": "It demonstrates Jesus’ divine authority, prefiguring His ultimate lordship over all creation",
+          "explanation": "Luke 8:22–25 shows Jesus calming the storm, illustrating His divine authority over nature, a theme developed throughout the New Testament as a proof of His deity.",
+          "verseReference": "Luke 8:22–25",
+          "difficulty": "hard"
+        },
+        {
+          "id": "luke-8-theological-q7",
+          "question": "How does the healing of the demon-possessed man in Luke 8:26–39 connect to Old Testament themes of deliverance?",
+          "type": "multiple-choice",
+          "options": [
+            "It fulfills the theme of God's power to liberate His people from bondage",
+            "It contradicts Old Testament teachings about spirits",
+            "It isolates Jesus from the people",
+            "It emphasizes human effort over divine action"
+          ],
+          "correctAnswer": "It fulfills the theme of God's power to liberate His people from bondage",
+          "explanation": "The deliverance of the man possessed by many demons reflects Old Testament motifs of God freeing His people from spiritual and physical captivity (e.g., Exodus), highlighting Jesus as the divine liberator.",
+          "verseReference": "Luke 8:26–39",
           "difficulty": "hard"
         },
         {
           "id": "luke-8-theological-q8",
-          "question": "What did the demons request Jesus not to do after entering the herd of swine?",
+          "question": "What combined doctrine do verses 11 and 15 teach about the Word of God and the believer’s response?",
           "type": "multiple-choice",
           "options": [
-            "Command them to go into the deep",
-            "Send them into the abyss",
-            "Cast them into fire",
-            "Allow the man to follow Jesus"
+            "The Word of God is the seed that requires a good and honest heart to produce fruit",
+            "The Word of God automatically produces fruit regardless of the heart",
+            "The Word of God is irrelevant to sanctification",
+            "The Word of God is only symbolic, not effective"
           ],
-          "correctAnswer": "Command them to go into the deep",
-          "explanation": "Luke 8:31 shows the demons begging Jesus not to send them into the deep (abyss). This reflects the biblical concept of the abyss as a place of confinement for evil spirits (Revelation 20:1-3) and demonstrates Jesus’ authority over demonic realms.",
-          "verseReference": "Luke 8:31",
+          "correctAnswer": "The Word of God is the seed that requires a good and honest heart to produce fruit",
+          "explanation": "Luke 8:11 explains the seed is the Word of God, and Luke 8:15 teaches that the good ground (honest and good heart) is necessary to keep the word and bring forth fruit, combining to show the necessity of faith and perseverance.",
+          "verseReference": "Luke 8:11, 15",
           "difficulty": "hard"
         },
         {
           "id": "luke-8-theological-q9",
-          "question": "What miracle is performed on the woman who had an issue of blood for twelve years?",
+          "question": "What combined doctrine do verses 12 and 14 teach about spiritual opposition and worldly distractions?",
           "type": "multiple-choice",
           "options": [
-            "She is immediately healed after touching Jesus’ garment",
-            "Jesus prays over her and heals her",
-            "She is healed after washing in the pool of Siloam",
-            "She receives a prophetic word"
+            "Satan and worldly cares work to prevent belief and fruitfulness",
+            "Spiritual opposition is insignificant compared to faith",
+            "Worldly riches always lead to sanctification",
+            "The devil has no influence on the believer’s heart"
           ],
-          "correctAnswer": "She is immediately healed after touching Jesus’ garment",
-          "explanation": "Luke 8:44 records that the woman’s bleeding stopped immediately when she touched Jesus’ garment, illustrating faith's power and Jesus’ healing authority. This aligns with Matthew 9:20-22 and Mark 5:25-34, reinforcing Christ’s compassion and divine power.",
-          "verseReference": "Luke 8:44",
+          "correctAnswer": "Satan and worldly cares work to prevent belief and fruitfulness",
+          "explanation": "Luke 8:12 shows the devil takes away the word from the heart, and Luke 8:14 shows worldly cares choke the word, teaching that both spiritual opposition and earthly distractions hinder salvation and sanctification.",
+          "verseReference": "Luke 8:12, 14",
           "difficulty": "hard"
         },
         {
           "id": "luke-8-theological-q10",
-          "question": "What does Jesus say to the woman healed of the issue of blood regarding her faith?",
+          "question": "What combined doctrine do verses 18 and 21 teach about the importance of hearing and doing the word of God?",
           "type": "multiple-choice",
           "options": [
-            "Thy faith hath made thee whole; go in peace",
-            "Be healed in the name of the Father",
-            "Your works have saved you",
-            "Peace be with you"
+            "Hearing and doing the word identifies true kinship with Christ and results in spiritual increase",
+            "Hearing alone is sufficient for salvation",
+            "Doing without hearing is adequate",
+            "Family ties are more important than spiritual obedience"
           ],
-          "correctAnswer": "Thy faith hath made thee whole; go in peace",
-          "explanation": "Luke 8:48 highlights that Jesus attributes her healing to her faith, affirming the doctrine that faith is instrumental in receiving salvation and healing (Ephesians 2:8-9, Hebrews 11:6). This underscores faith as trust in God's power.",
-          "verseReference": "Luke 8:48",
+          "correctAnswer": "Hearing and doing the word identifies true kinship with Christ and results in spiritual increase",
+          "explanation": "Luke 8:18 warns to take heed how one hears for increase, and Luke 8:21 defines Jesus’ true family as those who hear and do God’s word, linking obedience to spiritual identity and growth.",
+          "verseReference": "Luke 8:18, 21",
           "difficulty": "hard"
         },
         {
           "id": "luke-8-theological-q11",
-          "question": "How does Jesus describe the death of Jairus' daughter when he arrives at her house?",
+          "question": "Sceptics claim Jesus’ command over the storm in Luke 8:22–25 is a myth. What does the passage actually teach?",
           "type": "multiple-choice",
           "options": [
-            "She is not dead but sleepeth",
-            "She is beyond hope",
-            "She has passed away",
-            "She is resting in peace"
+            "Jesus displays authoritative power over nature, calming the storm by divine command",
+            "Jesus relies on natural forces to calm the storm",
+            "The storm is an allegory unrelated to Jesus’ power",
+            "The disciples saved themselves without Jesus’ help"
           ],
-          "correctAnswer": "She is not dead but sleepeth",
-          "explanation": "In Luke 8:52, Jesus calls her death 'sleep,' indicating the temporary nature of physical death and his power over it. This metaphor is consistent with John 11:11-14 and 1 Thessalonians 4:13-14, affirming the Christian hope of resurrection.",
-          "verseReference": "Luke 8:52",
+          "correctAnswer": "Jesus displays authoritative power over nature, calming the storm by divine command",
+          "explanation": "Luke 8:24 shows Jesus rebuking the wind and water, which immediately ceased, demonstrating His divine authority rather than myth or human effort.",
+          "verseReference": "Luke 8:22–25",
           "difficulty": "hard"
         },
         {
           "id": "luke-8-theological-q12",
-          "question": "What command does Jesus give to Jairus' daughter to restore her to life?",
+          "question": "What doctrine does Luke 8:8 teach about the necessity of spiritual perception in understanding God's kingdom?",
           "type": "multiple-choice",
           "options": [
-            "Maid, arise",
-            "Come forth",
-            "Be healed",
-            "Live again"
+            "Spiritual hearing and understanding are necessary to grasp the kingdom's truths",
+            "All hearers automatically understand the kingdom",
+            "The kingdom is only for the wise of this world",
+            "The kingdom's message is purely symbolic"
           ],
-          "correctAnswer": "Maid, arise",
-          "explanation": "Luke 8:54 records Jesus commanding 'Maid, arise,' to restore her life, demonstrating His messianic authority over death. This event prefigures the resurrection power revealed in John 11 and affirms Jesus as the source of life (John 14:6).",
-          "verseReference": "Luke 8:54",
+          "correctAnswer": "Spiritual hearing and understanding are necessary to grasp the kingdom's truths",
+          "explanation": "Luke 8:8 ends with 'He that hath ears to hear, let him hear,' emphasizing the necessity of spiritual discernment to understand the kingdom.",
+          "verseReference": "Luke 8:8",
           "difficulty": "hard"
         },
         {
           "id": "luke-8-theological-q13",
-          "question": "What warning does Jesus give concerning how people hear the word in Luke 8?",
+          "question": "Which divine attribute is highlighted in Jesus’ healing of the woman with the issue of blood in Luke 8:47–48?",
           "type": "multiple-choice",
           "options": [
-            "Take heed how ye hear",
-            "Preach without fear",
-            "Keep the word secret",
-            "Judge others’ faith"
+            "Mercy",
+            "Wrath",
+            "Justice",
+            "Holiness"
           ],
-          "correctAnswer": "Take heed how ye hear",
-          "explanation": "Luke 8:18 instructs to be careful how one hears because the measure of understanding affects what is given or taken away. This aligns with Proverbs 4:20-21 on attentive hearing and James 1:22-25 about being doers, not just hearers.",
-          "verseReference": "Luke 8:18",
+          "correctAnswer": "Mercy",
+          "explanation": "In Luke 8:48, Jesus comforts the woman, affirming her faith made her whole, demonstrating His mercy towards the faith of the suffering.",
+          "verseReference": "Luke 8:47–48",
           "difficulty": "hard"
         },
         {
           "id": "luke-8-theological-q14",
-          "question": "What did Jesus say about hiding a light after it is lit, as recorded in Luke 8?",
+          "question": "What combined doctrine do Luke 8:49–56 teach about Jesus’ power over death and faith's role in miracles?",
           "type": "multiple-choice",
           "options": [
-            "No man puts it under a bed or vessel but sets it on a candlestick",
-            "Light should be hidden to avoid persecution",
-            "Only priests can display the light",
-            "Light must be covered at night"
+            "Jesus has authority over death and requires faith for miracles to occur",
+            "Faith is irrelevant to miracles, which happen randomly",
+            "Jesus cannot raise the dead",
+            "Miracles require human effort more than faith"
           ],
-          "correctAnswer": "No man puts it under a bed or vessel but sets it on a candlestick",
-          "explanation": "Luke 8:16 teaches that light is meant to be displayed openly, symbolizing the visible testimony of faith. This teaching corresponds to Matthew 5:14-16 on believers being the light of the world and Exodus 27:20-21 regarding the lampstand in the tabernacle.",
-          "verseReference": "Luke 8:16",
+          "correctAnswer": "Jesus has authority over death and requires faith for miracles to occur",
+          "explanation": "Luke 8:50 records Jesus' command to 'believe only,' and verses 52–55 demonstrate His power to raise the girl from death, combining the doctrines of divine authority over death and the necessity of faith.",
+          "verseReference": "Luke 8:49–56",
           "difficulty": "hard"
         },
         {
           "id": "luke-8-theological-q15",
-          "question": "Why did the people of the Gadarenes ask Jesus to depart after the healing of the demon-possessed man?",
+          "question": "How does Luke 8:16–17 contribute to the narrative arc of revelation and judgment in Scripture?",
           "type": "multiple-choice",
           "options": [
-            "They were seized with great fear",
-            "They wanted to follow Him to Galilee",
-            "They were angry about the loss of the swine",
-            "They doubted His authority"
+            "It teaches that hidden things will be revealed, affirming divine judgment and revelation themes",
+            "It denies any future revelation",
+            "It suggests that light should be hidden from the world",
+            "It emphasizes human secrecy over divine revelation"
           ],
-          "correctAnswer": "They were seized with great fear",
-          "explanation": "Luke 8:37 states the people begged Jesus to leave because they were greatly afraid, reflecting human fear of divine power. This reaction is consistent with Old Testament responses to God's presence (Exodus 20:18) and New Testament reverence (Acts 9:31).",
-          "verseReference": "Luke 8:37",
+          "correctAnswer": "It teaches that hidden things will be revealed, affirming divine judgment and revelation themes",
+          "explanation": "Luke 8:16–17 explains that nothing hidden will remain secret, linking to biblical themes of final revelation and judgment.",
+          "verseReference": "Luke 8:16–17",
           "difficulty": "hard"
         }
       ],

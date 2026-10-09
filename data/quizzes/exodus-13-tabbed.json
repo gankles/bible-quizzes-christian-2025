@@ -13,7 +13,7 @@
       "questions": [
         {
           "id": "exodus-13-easy-q1",
-          "question": "Who did the LORD speak to in Exodus 13:1?",
+          "question": "Who did the LORD speak to in Exodus 13?",
           "type": "multiple-choice",
           "options": [
             "Moses",
@@ -28,52 +28,67 @@
         },
         {
           "id": "exodus-13-easy-q2",
-          "question": "What is to be sanctified to the LORD according to Exodus 13:2?",
+          "question": "According to Exodus 13, what must be sanctified to the LORD?",
           "type": "multiple-choice",
           "options": [
-            "All the firstborn of Israel",
-            "Only the firstborn of the animals",
-            "Every child born",
-            "All the elders"
+            "All the firstborn",
+            "All the elders",
+            "All the priests",
+            "All the cattle"
           ],
-          "correctAnswer": "All the firstborn of Israel",
-          "explanation": "Exodus 13:2 commands to sanctify all the firstborn that openeth the womb among the children of Israel.",
+          "correctAnswer": "All the firstborn",
+          "explanation": "Exodus 13:2 commands to sanctify all the firstborn to the LORD.",
           "verseReference": "Exodus 13:2",
           "difficulty": "easy"
         },
         {
           "id": "exodus-13-easy-q3",
-          "question": "According to Exodus 13:3, what kind of bread shall not be eaten?",
+          "question": "What must not be eaten on the day the Israelites came out of Egypt?",
           "type": "multiple-choice",
           "options": [
             "Leavened bread",
-            "Unleavened bread",
-            "Barley bread",
-            "Wheat bread"
+            "Any meat",
+            "Fruits",
+            "Vegetables"
           ],
           "correctAnswer": "Leavened bread",
-          "explanation": "Exodus 13:3 says no leavened bread shall be eaten on that day.",
+          "explanation": "Exodus 13:3 states there shall no leavened bread be eaten on that day.",
           "verseReference": "Exodus 13:3",
           "difficulty": "easy"
         },
         {
           "id": "exodus-13-easy-q4",
-          "question": "In which month did the Israelites come out of Egypt, as mentioned in Exodus 13:4?",
+          "question": "In which month did the Israelites come out of Egypt?",
           "type": "multiple-choice",
           "options": [
             "Abib",
-            "Nisan",
             "Tishri",
+            "Nisan",
             "Elul"
           ],
           "correctAnswer": "Abib",
-          "explanation": "Exodus 13:4 states they came out in the month Abib.",
+          "explanation": "Exodus 13:4 specifies the month Abib as when the Israelites came out.",
           "verseReference": "Exodus 13:4",
           "difficulty": "easy"
         },
         {
           "id": "exodus-13-easy-q5",
-          "question": "For how many days shall unleavened bread be eaten according to Exodus 13:6?",
+          "question": "The land the LORD promised to bring the Israelites into was described as:",
+          "type": "multiple-choice",
+          "options": [
+            "A land flowing with milk and honey",
+            "A land of deserts",
+            "A land covered with snow",
+            "A land of mountains only"
+          ],
+          "correctAnswer": "A land flowing with milk and honey",
+          "explanation": "Exodus 13:5 describes the promised land as flowing with milk and honey.",
+          "verseReference": "Exodus 13:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-13-easy-q6",
+          "question": "For how many days shall the Israelites eat unleavened bread according to Exodus 13?",
           "type": "multiple-choice",
           "options": [
             "Seven days",
@@ -82,152 +97,135 @@
             "One day"
           ],
           "correctAnswer": "Seven days",
-          "explanation": "Exodus 13:6 commands to eat unleavened bread for seven days.",
+          "explanation": "Exodus 13:6 instructs to eat unleavened bread for seven days.",
           "verseReference": "Exodus 13:6",
           "difficulty": "easy"
         },
         {
-          "id": "exodus-13-easy-q6",
-          "question": "What is the purpose of showing the son the unleavened bread on that day as per Exodus 13:8?",
-          "type": "multiple-choice",
-          "options": [
-            "To explain what the LORD did when coming out of Egypt",
-            "To show the importance of bread",
-            "To teach baking skills",
-            "To honor the Pharaoh"
-          ],
-          "correctAnswer": "To explain what the LORD did when coming out of Egypt",
-          "explanation": "Exodus 13:8 explains the bread is shown to tell the son about the LORD's deliverance from Egypt.",
-          "verseReference": "Exodus 13:8",
-          "difficulty": "easy"
-        },
-        {
           "id": "exodus-13-easy-q7",
-          "question": "What shall be a sign upon the hand and a memorial between the eyes according to Exodus 13:9?",
+          "question": "What occurs on the seventh day of eating unleavened bread?",
           "type": "multiple-choice",
           "options": [
-            "The LORD's law",
-            "A ring",
-            "A crown",
-            "A bracelet"
+            "A feast to the LORD",
+            "A day of fasting",
+            "A day of silence",
+            "A day of sacrifice"
           ],
-          "correctAnswer": "The LORD's law",
-          "explanation": "Exodus 13:9 states the LORD's law shall be a sign upon the hand and memorial between the eyes.",
-          "verseReference": "Exodus 13:9",
+          "correctAnswer": "A feast to the LORD",
+          "explanation": "Exodus 13:6 mentions that the seventh day shall be a feast to the LORD.",
+          "verseReference": "Exodus 13:6",
           "difficulty": "easy"
         },
         {
           "id": "exodus-13-easy-q8",
-          "question": "What must be done with every firstling of an ass according to Exodus 13:13?",
-          "type": "multiple-choice",
-          "options": [
-            "Redeem it with a lamb or break its neck",
-            "Offer it as a burnt sacrifice",
-            "Sell it in the market",
-            "Keep it for farming"
-          ],
-          "correctAnswer": "Redeem it with a lamb or break its neck",
-          "explanation": "Exodus 13:13 commands redeeming the firstling of an ass with a lamb or breaking its neck if not redeemed.",
-          "verseReference": "Exodus 13:13",
-          "difficulty": "easy"
-        },
-        {
-          "id": "exodus-13-easy-q9",
-          "question": "What question is the son expected to ask in the future according to Exodus 13:14?",
-          "type": "multiple-choice",
-          "options": [
-            "What is this?",
-            "Why do we fast?",
-            "Where is the promised land?",
-            "Who is the LORD?"
-          ],
-          "correctAnswer": "What is this?",
-          "explanation": "Exodus 13:14 records the son asking 'What is this?' about the observance.",
-          "verseReference": "Exodus 13:14",
-          "difficulty": "easy"
-        },
-        {
-          "id": "exodus-13-easy-q10",
-          "question": "Why does the speaker sacrifice all that openeth the matrix according to Exodus 13:15?",
-          "type": "multiple-choice",
-          "options": [
-            "Because the LORD slew the firstborn in Egypt",
-            "To honor the Pharaoh",
-            "To provide for the temple",
-            "To feed the priests"
-          ],
-          "correctAnswer": "Because the LORD slew the firstborn in Egypt",
-          "explanation": "Exodus 13:15 explains the sacrifice is because the LORD slew the firstborn in Egypt.",
-          "verseReference": "Exodus 13:15",
-          "difficulty": "easy"
-        },
-        {
-          "id": "exodus-13-easy-q11",
-          "question": "True or False: God led the children of Israel by the shortest route through the land of the Philistines (Exodus 13:17).",
+          "question": "True or False: Leavened bread shall be seen with the Israelites during the seven days of unleavened bread.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Exodus 13:17 states God did not lead them by the way of the land of the Philistines, even though it was near.",
-          "verseReference": "Exodus 13:17",
+          "explanation": "Exodus 13:7 clearly states no leavened bread shall be seen during the seven days.",
+          "verseReference": "Exodus 13:7",
           "difficulty": "easy"
         },
         {
-          "id": "exodus-13-easy-q12",
-          "question": "True or False: Moses took the bones of Joseph with him when the Israelites departed Egypt (Exodus 13:19).",
+          "id": "exodus-13-easy-q9",
+          "question": "Who are the Israelites instructed to tell about the reason for eating unleavened bread?",
+          "type": "multiple-choice",
+          "options": [
+            "Their sons",
+            "Their neighbors",
+            "The priests",
+            "The elders"
+          ],
+          "correctAnswer": "Their sons",
+          "explanation": "Exodus 13:8 says to show the son on that day and explain the reason.",
+          "verseReference": "Exodus 13:8",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-13-easy-q10",
+          "question": "True or False: The command to remember the day of coming out from Egypt is given by Moses to the people.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Exodus 13:19 says Moses took Joseph's bones because Joseph had sworn they would be carried out of Egypt.",
-          "verseReference": "Exodus 13:19",
+          "explanation": "Exodus 13:3 records Moses telling the people to remember the day of their departure from Egypt.",
+          "verseReference": "Exodus 13:3",
           "difficulty": "easy"
         },
         {
-          "id": "exodus-13-easy-q13",
-          "question": "True or False: The LORD led the Israelites by day in a pillar of fire and by night in a pillar of cloud (Exodus 13:21).",
+          "id": "exodus-13-easy-q11",
+          "question": "Which of the following peoples is NOT listed as inhabitants of the promised land in Exodus 13?",
+          "type": "multiple-choice",
+          "options": [
+            "Philistines",
+            "Canaanites",
+            "Hittites",
+            "Amorites"
+          ],
+          "correctAnswer": "Philistines",
+          "explanation": "Exodus 13:5 lists Canaanites, Hittites, Amorites, Hivites, and Jebusites but not Philistines.",
+          "verseReference": "Exodus 13:5",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-13-easy-q12",
+          "question": "True or False: According to Exodus 13, the Israelites shall keep the ordinance of unleavened bread only once.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Exodus 13:21 states the LORD led them by day in a pillar of cloud and by night in a pillar of fire.",
-          "verseReference": "Exodus 13:21",
+          "explanation": "Exodus 13:10 commands to keep this ordinance from year to year, not just once.",
+          "verseReference": "Exodus 13:10",
+          "difficulty": "easy"
+        },
+        {
+          "id": "exodus-13-easy-q13",
+          "question": "According to Exodus 13, the unleavened bread ordinance serves as a sign and memorial so that:",
+          "type": "multiple-choice",
+          "options": [
+            "The LORD's law may be in your mouth",
+            "You remember to sacrifice daily",
+            "You fast every month",
+            "You keep the Sabbath holy"
+          ],
+          "correctAnswer": "The LORD's law may be in your mouth",
+          "explanation": "Exodus 13:9 explains the ordinance is a sign and memorial that the LORD's law may be in your mouth.",
+          "verseReference": "Exodus 13:9",
           "difficulty": "easy"
         },
         {
           "id": "exodus-13-easy-q14",
-          "question": "Complete this verse from Exodus 13:3: 'Remember this day, in which ye came out from Egypt, out of the house of ______.'",
-          "type": "fill-blank",
+          "question": "In Exodus 13, what comes first?",
+          "type": "multiple-choice",
           "options": [
-            "bondage",
-            "freedom",
-            "slavery",
-            "darkness"
+            "Sanctify all the firstborn",
+            "Eat unleavened bread for seven days",
+            "Tell your son why this is done",
+            "Remember the day you came out of Egypt"
           ],
-          "correctAnswer": "bondage",
-          "explanation": "Exodus 13:3 says they came out from Egypt, out of the house of bondage.",
-          "verseReference": "Exodus 13:3",
+          "correctAnswer": "Sanctify all the firstborn",
+          "explanation": "Exodus 13:2 commands sanctifying all the firstborn before instructions about unleavened bread (v3-7) and explaining to sons (v8).",
+          "verseReference": "Exodus 13:2",
           "difficulty": "easy"
         },
         {
           "id": "exodus-13-easy-q15",
-          "question": "Complete this verse from Exodus 13:16: 'And it shall be for a token upon thine hand, and for frontlets between thine eyes: for by strength of hand the LORD brought us ______ out of Egypt.'",
-          "type": "fill-blank",
+          "question": "True or False: Exodus 13 commands that no leaven shall be seen in any quarters during the seven days of unleavened bread.",
+          "type": "true-false",
           "options": [
-            "forth",
-            "back",
-            "up",
-            "down"
+            "True",
+            "False"
           ],
-          "correctAnswer": "forth",
-          "explanation": "Exodus 13:16 says the LORD brought us forth out of Egypt by strength of hand.",
-          "verseReference": "Exodus 13:16",
+          "correctAnswer": "True",
+          "explanation": "Exodus 13:7 states no leaven shall be seen with the Israelites in all their quarters during the seven days.",
+          "verseReference": "Exodus 13:7",
           "difficulty": "easy"
         }
       ],
@@ -254,223 +252,221 @@
       "questions": [
         {
           "id": "exodus-13-medium-q1",
-          "question": "How does Exodus 13 teach us about the importance of remembering God's deliverance in our daily lives?",
+          "question": "According to Exodus 13:9, what is the purpose of the sign upon your hand and the memorial between your eyes?",
           "type": "multiple-choice",
           "options": [
-            "By instructing to remember the day of coming out of Egypt and avoid leavened bread",
-            "By commanding to build altars every day",
-            "By requiring sacrifices every morning",
-            "By telling to fast for seven days"
+            "To remind you of your daily tasks",
+            "That the LORD's law may be in your mouth",
+            "To show your heritage to others",
+            "To protect you from enemies"
           ],
-          "correctAnswer": "By instructing to remember the day of coming out of Egypt and avoid leavened bread",
-          "explanation": "Exodus 13:3-7 emphasizes remembering the day of deliverance by not eating leavened bread and keeping a seven-day feast, teaching faithfulness and gratitude.",
-          "verseReference": "Exodus 13:3-7",
+          "correctAnswer": "That the LORD's law may be in your mouth",
+          "explanation": "Exodus 13:9 states that the sign on your hand and memorial between your eyes serve so that the LORD's law may be in your mouth, reminding you of God's deliverance and commandments. This is closely connected to the remembrance of God's strong hand in bringing Israel out of Egypt.",
+          "verseReference": "Exodus 13:9",
           "difficulty": "medium"
         },
         {
           "id": "exodus-13-medium-q2",
-          "question": "A fellow believer is struggling to trust God's timing. Based on Exodus 13, what biblical truth would you share?",
+          "question": "What does Exodus 13:10 instruct the Israelites to do with the ordinance mentioned in the previous verse?",
           "type": "multiple-choice",
           "options": [
-            "God led the Israelites by a pillar of cloud by day and fire by night",
-            "God expected them to find their own way",
-            "God immediately gave them the land of Canaan",
-            "God told them to fight the Philistines first"
+            "Forget about it after a generation",
+            "Keep it only during the feast of Tabernacles",
+            "Keep it in its season from year to year",
+            "Share it only with priests"
           ],
-          "correctAnswer": "God led the Israelites by a pillar of cloud by day and fire by night",
-          "explanation": "Exodus 13:21-22 shows God's faithful guidance day and night, encouraging trust in His timing and direction in life.",
-          "verseReference": "Exodus 13:21-22",
+          "correctAnswer": "Keep it in its season from year to year",
+          "explanation": "Exodus 13:10 commands the Israelites to keep the ordinance in its proper season annually, reinforcing the continual remembrance of God's deliverance as introduced in verse 9. This shows the importance of ongoing obedience and faithfulness.",
+          "verseReference": "Exodus 13:10",
           "difficulty": "medium"
         },
         {
           "id": "exodus-13-medium-q3",
-          "question": "What does Exodus 13 teach us about passing faith to the next generation?",
+          "question": "What promise is given in Exodus 13:11 concerning God bringing the Israelites into the land of the Canaanites?",
           "type": "multiple-choice",
           "options": [
-            "Explain God's deliverance to children as a sign and memorial",
-            "Keep faith private and personal",
-            "Only teach adults about God's law",
-            "Avoid discussing difficult topics with children"
+            "They will become slaves again",
+            "They will be given a land flowing with milk and honey",
+            "They will build a temple immediately",
+            "They will never face enemies"
           ],
-          "correctAnswer": "Explain God's deliverance to children as a sign and memorial",
-          "explanation": "Exodus 13:8-10 and 13:14 instruct telling children the story of God's deliverance as a continual remembrance and teaching tool.",
-          "verseReference": "Exodus 13:8-10",
+          "correctAnswer": "They will be given a land flowing with milk and honey",
+          "explanation": "Exodus 13:11 reminds the Israelites of God's promise to give them the land of the Canaanites, a land flowing with milk and honey, confirming God's faithfulness to the oath sworn to their ancestors.",
+          "verseReference": "Exodus 13:11",
           "difficulty": "medium"
         },
         {
           "id": "exodus-13-medium-q4",
-          "question": "How does Exodus 13 guide believers to demonstrate obedience and trust to God in practical ways?",
+          "question": "According to Exodus 13:12, what must be set apart to the LORD from all that openeth the matrix?",
           "type": "multiple-choice",
           "options": [
-            "By sanctifying all firstborn males and animals to the Lord",
-            "By offering sacrifices only when convenient",
-            "By ignoring God's commands about firstborns",
-            "By substituting offerings with prayers alone"
+            "Only female animals",
+            "All firstborn males of man and beast",
+            "All crops and harvests",
+            "Only the firstborn male humans"
           ],
-          "correctAnswer": "By sanctifying all firstborn males and animals to the Lord",
-          "explanation": "Exodus 13:1-2 and 13:11-13 emphasize obedience through consecration and redemption of the firstborn, showing reverence and trust in God's provision.",
-          "verseReference": "Exodus 13:1-2, 11-13",
+          "correctAnswer": "All firstborn males of man and beast",
+          "explanation": "Exodus 13:12 instructs that all that openeth the womb (matrix), especially all firstborn males of both humans and animals, are to be set apart for the LORD, indicating a dedication to God as an act of faith and obedience.",
+          "verseReference": "Exodus 13:12",
           "difficulty": "medium"
         },
         {
           "id": "exodus-13-medium-q5",
-          "question": "A believer is facing temptation to forget God's faithfulness. What biblical principle from Exodus 13 would you encourage them to hold on to?",
+          "question": "What does Exodus 13:13 say about the firstling of an ass and how it should be treated?",
           "type": "multiple-choice",
           "options": [
-            "Keep God's law in your mouth as a reminder of His strong hand",
-            "Focus only on present circumstances",
-            "Rely solely on personal strength",
-            "Avoid discussing past deliverances"
+            "It should be sacrificed immediately",
+            "It must be redeemed with a lamb or its neck broken",
+            "It should be left to roam free",
+            "It should be sold to a foreigner"
           ],
-          "correctAnswer": "Keep God's law in your mouth as a reminder of His strong hand",
-          "explanation": "Exodus 13:9 and 16 emphasize keeping God's law and remembering His mighty deliverance, which strengthens faith to resist temptation.",
-          "verseReference": "Exodus 13:9, 16",
+          "correctAnswer": "It must be redeemed with a lamb or its neck broken",
+          "explanation": "Exodus 13:13 explains the special treatment of the firstling of an ass: it must be redeemed with a lamb, and if not redeemed, then its neck must be broken. This shows the seriousness of consecrating the firstborn to the LORD.",
+          "verseReference": "Exodus 13:13",
           "difficulty": "medium"
         },
         {
           "id": "exodus-13-medium-q6",
-          "question": "How does Exodus 13 teach about stewardship and honoring God with what He has given?",
+          "question": "How does Exodus 13:14 suggest parents should teach their children about the observance of the firstborn ordinance?",
           "type": "multiple-choice",
           "options": [
-            "By setting apart the firstborn of man and beast as holy to the Lord",
-            "By giving only what is left over",
-            "By hiding possessions from God",
-            "By neglecting the firstborn animals"
+            "By reading from the law scroll daily",
+            "By telling them it is a tradition without reason",
+            "By explaining it is because the LORD brought them out of Egypt by strength of hand",
+            "By teaching them to fear the priests"
           ],
-          "correctAnswer": "By setting apart the firstborn of man and beast as holy to the Lord",
-          "explanation": "Exodus 13:12-13 commands setting apart the firstborn as belonging to God, highlighting the importance of honoring Him through stewardship.",
-          "verseReference": "Exodus 13:12-13",
+          "correctAnswer": "By explaining it is because the LORD brought them out of Egypt by strength of hand",
+          "explanation": "Exodus 13:14 instructs that when children ask about the ordinance, parents should explain it as a remembrance of how the LORD brought the Israelites out of Egypt by a strong hand, emphasizing faith and God's mighty deliverance.",
+          "verseReference": "Exodus 13:14",
           "difficulty": "medium"
         },
         {
           "id": "exodus-13-medium-q7",
-          "question": "True or False: According to Exodus 13, God led the Israelites through the shortest route to Canaan to avoid any delays.",
+          "question": "According to Exodus 13:15, why do the Israelites sacrifice all that openeth the matrix and redeem their firstborn children?",
+          "type": "multiple-choice",
+          "options": [
+            "Because Pharaoh commanded it",
+            "Because the LORD slew all the firstborn in Egypt",
+            "Because it was a custom adopted from the Canaanites",
+            "Because it brings prosperity"
+          ],
+          "correctAnswer": "Because the LORD slew all the firstborn in Egypt",
+          "explanation": "Exodus 13:15 explains that the sacrifices and redemption are done in remembrance of the LORD's judgment on Egypt, where He slew all the firstborn, demonstrating God's justice and mercy towards Israel.",
+          "verseReference": "Exodus 13:15",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-13-medium-q8",
+          "question": "What does Exodus 13:16 say the token on your hand and frontlets between your eyes represent?",
+          "type": "multiple-choice",
+          "options": [
+            "A mark of the priesthood",
+            "A sign of wisdom and knowledge",
+            "A reminder of the LORD bringing Israel out of Egypt by strength of hand",
+            "Protection from sickness"
+          ],
+          "correctAnswer": "A reminder of the LORD bringing Israel out of Egypt by strength of hand",
+          "explanation": "Exodus 13:16 states that the token on the hand and frontlets between the eyes serve as a reminder of God's mighty hand in delivering Israel from Egypt, reinforcing faith and obedience.",
+          "verseReference": "Exodus 13:16",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-13-medium-q9",
+          "question": "What does Exodus 13:9–10 promise will happen if the Israelites keep the ordinance in its season from year to year?",
+          "type": "multiple-choice",
+          "options": [
+            "They will gain wealth and power",
+            "The LORD's law will be in their mouths and they will remember the deliverance",
+            "They will never go to war",
+            "They will be exempt from taxes"
+          ],
+          "correctAnswer": "The LORD's law will be in their mouths and they will remember the deliverance",
+          "explanation": "Exodus 13:9–10 connects the keeping of the ordinance with having the LORD's law in their mouths and remembering God's deliverance by a strong hand, showing that obedience leads to spiritual remembrance and faithfulness.",
+          "verseReference": "Exodus 13:9",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-13-medium-q10",
+          "question": "How does Exodus 13:12–13 teach about the biblical virtue of integrity in dedication to God?",
+          "type": "multiple-choice",
+          "options": [
+            "By allowing selective offerings according to convenience",
+            "By commanding all firstborn males be set apart or redeemed faithfully",
+            "By permitting ignoring the command if burdensome",
+            "By suggesting symbolic gestures without action"
+          ],
+          "correctAnswer": "By commanding all firstborn males be set apart or redeemed faithfully",
+          "explanation": "Exodus 13:12–13 emphasizes faithful dedication to God by requiring all firstborn males to be set apart or redeemed without exception, illustrating integrity in obeying God's commands fully and sincerely.",
+          "verseReference": "Exodus 13:12",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-13-medium-q11",
+          "question": "What practical Christian living principle can be drawn from Exodus 13:14 about teaching faith to the next generation?",
+          "type": "multiple-choice",
+          "options": [
+            "Avoid discussing difficult topics with children",
+            "Prepare children with truthful explanations about God's works",
+            "Let children discover faith on their own",
+            "Focus only on ritual observance without explanation"
+          ],
+          "correctAnswer": "Prepare children with truthful explanations about God's works",
+          "explanation": "Exodus 13:14 shows the importance of parents explaining to their children the reasons behind God's commands, fostering understanding and faith based on the truth of God's mighty acts.",
+          "verseReference": "Exodus 13:14",
+          "difficulty": "medium"
+        },
+        {
+          "id": "exodus-13-medium-q12",
+          "question": "True or False: Exodus 13:15 teaches that all firstborn of children must be sacrificed to the LORD as a memorial of the plague in Egypt.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "False",
-          "explanation": "Exodus 13:17 explains God did not lead the Israelites by the nearest way through the land of the Philistines to avoid discouragement and turning back.",
-          "verseReference": "Exodus 13:17",
+          "explanation": "Exodus 13:15 clarifies that while all firstborn males of animals opening the womb are sacrificed, the firstborn of children must be redeemed, not sacrificed, signifying God's mercy and covenant relationship.",
+          "verseReference": "Exodus 13:15",
           "difficulty": "medium"
         },
         {
-          "id": "exodus-13-medium-q8",
-          "question": "True or False: Exodus 13 teaches that the remembrance of God's deliverance should be observed annually in its proper season.",
+          "id": "exodus-13-medium-q13",
+          "question": "True or False: Exodus 13:16 presents the token on the hand and frontlets between the eyes as a physical reminder of God's deliverance from Egypt.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Exodus 13:10 instructs to keep the ordinance of remembering God's deliverance yearly in its appointed season, teaching faithfulness and discipline.",
-          "verseReference": "Exodus 13:10",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-13-medium-q9",
-          "question": "What practical lesson about family and spiritual teaching can we learn from Exodus 13 regarding children?",
-          "type": "multiple-choice",
-          "options": [
-            "Use daily events to explain God's mighty acts and laws",
-            "Avoid spiritual conversations with children",
-            "Let children learn about God only at church",
-            "Focus only on academic education"
-          ],
-          "correctAnswer": "Use daily events to explain God's mighty acts and laws",
-          "explanation": "Exodus 13:8-9 and 13:14 show the importance of using occasions to teach children about God’s deliverance and His laws, fostering faith in the home.",
-          "verseReference": "Exodus 13:8-9, 14",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-13-medium-q10",
-          "question": "A believer is struggling with gratitude. Based on Exodus 13, what verse reminds us to recognize God's strength in delivering us?",
-          "type": "multiple-choice",
-          "options": [
-            "For with a strong hand hath the LORD brought thee out of Egypt",
-            "For you must earn your blessings by hard work",
-            "Because of your own wisdom you escaped",
-            "By your own power you are free"
-          ],
-          "correctAnswer": "For with a strong hand hath the LORD brought thee out of Egypt",
-          "explanation": "Exodus 13:9 and 13:16 emphasize God's mighty hand in deliverance, encouraging believers to respond with gratitude and trust rather than self-reliance.",
-          "verseReference": "Exodus 13:9, 16",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-13-medium-q11",
-          "question": "How does Exodus 13 encourage perseverance through trials?",
-          "type": "multiple-choice",
-          "options": [
-            "By showing God’s faithful guidance through wilderness and obstacles",
-            "By promising an easy path without challenges",
-            "By advising to avoid hardships at all costs",
-            "By instructing to return to Egypt if troubled"
-          ],
-          "correctAnswer": "By showing God’s faithful guidance through wilderness and obstacles",
-          "explanation": "Exodus 13:18-22 portrays God leading the Israelites through difficult wilderness with visible signs of His presence, encouraging perseverance and trust.",
-          "verseReference": "Exodus 13:18-22",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-13-medium-q12",
-          "question": "Fill in the blank: \"And Moses took the bones of __________ with him; for he had straitly sworn the children of Israel...\"",
-          "type": "fill-in-the-blank",
-          "options": [
-            "Joseph",
-            "Moses",
-            "Aaron",
-            "Pharaoh"
-          ],
-          "correctAnswer": "Joseph",
-          "explanation": "Exodus 13:19 records Moses taking Joseph’s bones as a fulfillment of his oath, showing faith in God's promises.",
-          "verseReference": "Exodus 13:19",
-          "difficulty": "medium"
-        },
-        {
-          "id": "exodus-13-medium-q13",
-          "question": "What does Exodus 13 teach about humility and contentment in our relationship with God?",
-          "type": "multiple-choice",
-          "options": [
-            "Acknowledging God's strong hand in our deliverance instead of our own strength",
-            "Boasting about personal achievements",
-            "Ignoring God’s role in success",
-            "Claiming all blessings as earned by self"
-          ],
-          "correctAnswer": "Acknowledging God's strong hand in our deliverance instead of our own strength",
-          "explanation": "Exodus 13:3, 9, and 16 consistently attribute deliverance to God's power, teaching humility and contentment in His grace.",
-          "verseReference": "Exodus 13:3, 9, 16",
+          "explanation": "Exodus 13:16 explicitly states these tokens are reminders that by the LORD’s strong hand, Israel was brought out of Egypt, highlighting the importance of continual remembrance in physical symbols.",
+          "verseReference": "Exodus 13:16",
           "difficulty": "medium"
         },
         {
           "id": "exodus-13-medium-q14",
-          "question": "According to Exodus 13, how should believers respond to God’s provision through obedience?",
+          "question": "What does Exodus 13:14–15 teach about the relationship between God’s deliverance and the ordinance of redeeming the firstborn?",
           "type": "multiple-choice",
           "options": [
-            "By sanctifying the firstborn and redeeming them as a sign of devotion",
-            "By neglecting commandments that seem difficult",
-            "By only obeying when convenient",
-            "By offering excuses for disobedience"
+            "The ordinance is unrelated to God's deliverance",
+            "The ordinance commemorates God's slaying of the firstborn in Egypt and His deliverance",
+            "The ordinance replaces the need for faith in God's deliverance",
+            "The ordinance is only a cultural tradition"
           ],
-          "correctAnswer": "By sanctifying the firstborn and redeeming them as a sign of devotion",
-          "explanation": "Exodus 13:11-15 commands setting apart and redeeming the firstborn, demonstrating tangible obedience and reverence to God’s provision.",
-          "verseReference": "Exodus 13:11-15",
+          "correctAnswer": "The ordinance commemorates God's slaying of the firstborn in Egypt and His deliverance",
+          "explanation": "Exodus 13:14–15 connects the ordinance directly to God's deliverance from Egypt and the judgment on the firstborn, teaching that obedience to this ordinance is an act of remembrance and faith.",
+          "verseReference": "Exodus 13:14",
           "difficulty": "medium"
         },
         {
           "id": "exodus-13-medium-q15",
-          "question": "How can Exodus 13 inspire believers to serve others within the church and family?",
-          "type": "multiple-choice",
+          "question": "True or False: Exodus 13:9–16 teaches that remembering God's deliverance should lead to faithful obedience and teaching future generations.",
+          "type": "true-false",
           "options": [
-            "By teaching to remember God's works and share His story with others",
-            "By isolating oneself from community",
-            "By focusing only on personal needs",
-            "By withholding spiritual truths"
+            "True",
+            "False"
           ],
-          "correctAnswer": "By teaching to remember God's works and share His story with others",
-          "explanation": "Exodus 13:8-14 encourages telling God’s acts to children and others, fostering fellowship and serving as witnesses of faith.",
-          "verseReference": "Exodus 13:8-14",
+          "correctAnswer": "True",
+          "explanation": "The passage from Exodus 13:9–16 emphasizes remembrance of God's mighty hand in deliverance, obedience to His ordinances, and instructing children about His works, all foundational to faithful living.",
+          "verseReference": "Exodus 13:9",
           "difficulty": "medium"
         }
       ],
@@ -497,225 +493,223 @@
       "questions": [
         {
           "id": "exodus-13-hard-q1",
-          "question": "What is the significance of sanctifying all the firstborn among the children of Israel, both man and beast, as commanded in Exodus 13:2?",
+          "question": "Why did God lead the Israelites not by the way of the land of the Philistines after they left Egypt?",
           "type": "multiple-choice",
           "options": [
-            "They are dedicated to the LORD as a remembrance of the Exodus",
-            "They are to be sacrificed to the gods of Canaan",
-            "They must be sold to the highest bidder",
-            "They are exempt from any religious duties"
+            "Because it was a longer route",
+            "To avoid war that might cause them to return to Egypt",
+            "Because the Philistines refused passage",
+            "To test their faith in the wilderness"
           ],
-          "correctAnswer": "They are dedicated to the LORD as a remembrance of the Exodus",
-          "explanation": "Exodus 13:2 instructs that all firstborn are sanctified unto the LORD as a sign of His deliverance of Israel from Egypt, marking them as His possession.",
-          "verseReference": "Exodus 13:2",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-13-hard-q2",
-          "question": "According to Exodus 13:3, what is forbidden to be eaten on the day the Israelites came out of Egypt?",
-          "type": "multiple-choice",
-          "options": [
-            "Leavened bread",
-            "Unleavened bread",
-            "Manna",
-            "Roasted lamb"
-          ],
-          "correctAnswer": "Leavened bread",
-          "explanation": "Verse 3 clearly states that no leavened bread shall be eaten on the day of Israel's departure from Egypt, emphasizing the haste and purity of their deliverance.",
-          "verseReference": "Exodus 13:3",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-13-hard-q3",
-          "question": "The month in which the Israelites came out of Egypt is called:",
-          "type": "multiple-choice",
-          "options": [
-            "Abib",
-            "Nisan",
-            "Tishri",
-            "Elul"
-          ],
-          "correctAnswer": "Abib",
-          "explanation": "Exodus 13:4 specifies that the Israelites came out during the month Abib, which later corresponds to Nisan in the Hebrew calendar, marking the time for Passover.",
-          "verseReference": "Exodus 13:4",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-13-hard-q4",
-          "question": "What is the promised land described as in Exodus 13:5, and how does this description function typologically in biblical literature?",
-          "type": "multiple-choice",
-          "options": [
-            "A land flowing with milk and honey, symbolizing divine blessing and abundance",
-            "A barren desert, representing trials and purification",
-            "A land of war and conquest, emphasizing conflict",
-            "A mountainous region, symbolizing closeness to God"
-          ],
-          "correctAnswer": "A land flowing with milk and honey, symbolizing divine blessing and abundance",
-          "explanation": "The phrase 'land flowing with milk and honey' in Exodus 13:5 typologically represents God's promise of provision and blessing, a theme echoed throughout Scripture as a symbol of God's covenant faithfulness.",
-          "verseReference": "Exodus 13:5",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-13-hard-q5",
-          "question": "For how many days are the Israelites commanded to eat unleavened bread according to Exodus 13:6-7?",
-          "type": "multiple-choice",
-          "options": [
-            "Seven days",
-            "Three days",
-            "Fourteen days",
-            "One day"
-          ],
-          "correctAnswer": "Seven days",
-          "explanation": "Verses 6 and 7 command the eating of unleavened bread for seven days as a memorial of the Exodus, with strict prohibition of leaven throughout this period.",
-          "verseReference": "Exodus 13:6-7",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-13-hard-q6",
-          "question": "In Exodus 13:8, parents are instructed to explain the significance of the Passover to their children. What is the theological purpose of this instruction?",
-          "type": "multiple-choice",
-          "options": [
-            "To ensure the remembrance of God’s deliverance is passed down through generations",
-            "To teach children agricultural practices",
-            "To instruct children in warfare",
-            "To prepare children for priestly duties"
-          ],
-          "correctAnswer": "To ensure the remembrance of God’s deliverance is passed down through generations",
-          "explanation": "Exodus 13:8 highlights the importance of intergenerational teaching, ensuring that the foundational act of redemption from Egypt remains alive in the community's memory.",
-          "verseReference": "Exodus 13:8",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-13-hard-q7",
-          "question": "What is the symbolic meaning of the 'sign upon thine hand and frontlets between thine eyes' mentioned in Exodus 13:9 and 13:16?",
-          "type": "multiple-choice",
-          "options": [
-            "A tangible reminder to keep God's law always present in thought and action",
-            "A magical charm for protection",
-            "A sign of social status",
-            "A mark for identification in battle"
-          ],
-          "correctAnswer": "A tangible reminder to keep God's law always present in thought and action",
-          "explanation": "Both verses use the imagery of a sign on the hand and between the eyes to symbolize continual mindfulness and obedience to God's commandments as a response to His deliverance.",
-          "verseReference": "Exodus 13:9",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-13-hard-q8",
-          "question": "According to Exodus 13:11-12, what must the Israelites do with all the firstborn animals when they enter the promised land?",
-          "type": "multiple-choice",
-          "options": [
-            "Set them apart to the LORD as holy",
-            "Use them as sacrifices to Baal",
-            "Sell them to neighboring tribes",
-            "Keep them for personal use"
-          ],
-          "correctAnswer": "Set them apart to the LORD as holy",
-          "explanation": "Verses 11 and 12 command that all firstborn males of animals be dedicated to the LORD, continuing the sanctification of the firstborn as a sign of God's ownership.",
-          "verseReference": "Exodus 13:11-12",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-13-hard-q9",
-          "question": "Exodus 13:13 commands the redemption of every firstling of an ass with a lamb. What is the theological implication of this act?",
-          "type": "multiple-choice",
-          "options": [
-            "It foreshadows the substitutionary atonement found in the New Testament",
-            "It was a pragmatic trade to obtain valuable animals",
-            "It was a way to avoid taxation",
-            "It symbolized political alliance with Egypt"
-          ],
-          "correctAnswer": "It foreshadows the substitutionary atonement found in the New Testament",
-          "explanation": "Redeeming the firstborn donkey with a lamb in verse 13 typologically anticipates the concept of substitutionary sacrifice, a key theme fulfilled in Christ's atonement.",
-          "verseReference": "Exodus 13:13",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-13-hard-q10",
-          "question": "What reason is given in Exodus 13:15 for redeeming the firstborn children?",
-          "type": "multiple-choice",
-          "options": [
-            "Because the LORD slew all the firstborn in Egypt, the firstborn now belong to Him",
-            "Because the firstborn were cursed",
-            "Because the firstborn were to become priests",
-            "Because the firstborn were to inherit the land"
-          ],
-          "correctAnswer": "Because the LORD slew all the firstborn in Egypt, the firstborn now belong to Him",
-          "explanation": "Verse 15 explains that since God struck down the firstborn in Egypt, Israel's firstborn are consecrated to the LORD and must be redeemed accordingly.",
-          "verseReference": "Exodus 13:15",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-13-hard-q11",
-          "question": "Why did God lead the Israelites not through the land of the Philistines, which was near, according to Exodus 13:17?",
-          "type": "multiple-choice",
-          "options": [
-            "Lest the people see war and return to Egypt in fear",
-            "Because the Philistines were their allies",
-            "Because the land was impassable",
-            "Because God wanted to shorten the journey"
-          ],
-          "correctAnswer": "Lest the people see war and return to Egypt in fear",
-          "explanation": "Exodus 13:17 states God intentionally avoided the Philistine route to prevent the Israelites from seeing war and losing heart, thereby avoiding a premature return to bondage.",
+          "correctAnswer": "To avoid war that might cause them to return to Egypt",
+          "explanation": "Exodus 13:17 explains that God avoided the Philistine route lest the people see war, repent, and return to Egypt.",
           "verseReference": "Exodus 13:17",
           "difficulty": "hard"
         },
         {
-          "id": "exodus-13-hard-q12",
-          "question": "What is the significance of Moses taking the bones of Joseph with him during the journey, as noted in Exodus 13:19?",
+          "id": "exodus-13-hard-q2",
+          "question": "What route did God lead the Israelites through after leaving Egypt?",
           "type": "multiple-choice",
           "options": [
-            "It fulfilled Joseph’s oath that his bones would be carried out of Egypt",
-            "It was a magical talisman for protection",
-            "It was a political statement against Egypt",
-            "It was to be used as a bargaining tool"
+            "The way of the land of the Philistines",
+            "The wilderness of the Red sea",
+            "The plains of Moab",
+            "The valley of Jezreel"
           ],
-          "correctAnswer": "It fulfilled Joseph’s oath that his bones would be carried out of Egypt",
-          "explanation": "Verse 19 reflects the faith and hope in God's promise to bring Israel into the promised land, honoring Joseph’s command to carry his bones, symbolizing future redemption.",
+          "correctAnswer": "The wilderness of the Red sea",
+          "explanation": "Exodus 13:18 states God led the people about through the wilderness of the Red sea after they left Egypt.",
+          "verseReference": "Exodus 13:18",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-13-hard-q3",
+          "question": "What significant object did Moses take with him when leading the Israelites out of Egypt?",
+          "type": "multiple-choice",
+          "options": [
+            "The Ark of the Covenant",
+            "The bones of Joseph",
+            "The Ten Commandments tablets",
+            "The golden calf"
+          ],
+          "correctAnswer": "The bones of Joseph",
+          "explanation": "Exodus 13:19 records Moses taking Joseph’s bones with him because Joseph had sworn that God would visit Israel and they should carry his bones out of Egypt.",
           "verseReference": "Exodus 13:19",
           "difficulty": "hard"
         },
         {
-          "id": "exodus-13-hard-q13",
-          "question": "How did God lead the Israelites during their journey according to Exodus 13:21-22?",
+          "id": "exodus-13-hard-q4",
+          "question": "Where did the Israelites encamp after departing from Succoth?",
           "type": "multiple-choice",
           "options": [
-            "By a pillar of cloud by day and a pillar of fire by night",
-            "By a star in the sky",
-            "By a prophet’s guidance",
-            "By a map given to Moses"
+            "Etham at the edge of the wilderness",
+            "Mount Sinai",
+            "The plains of Moab",
+            "Kadesh Barnea"
           ],
-          "correctAnswer": "By a pillar of cloud by day and a pillar of fire by night",
-          "explanation": "Verses 21 and 22 describe God's visible presence leading Israel continually, symbolizing divine guidance and protection throughout their wilderness journey.",
-          "verseReference": "Exodus 13:21-22",
+          "correctAnswer": "Etham at the edge of the wilderness",
+          "explanation": "Exodus 13:20 states they journeyed from Succoth and encamped at Etham, located at the wilderness edge.",
+          "verseReference": "Exodus 13:20",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-13-hard-q5",
+          "question": "How did the LORD guide the Israelites during their journey?",
+          "type": "multiple-choice",
+          "options": [
+            "By a cloud by day and a pillar of fire by night",
+            "By an angel of the Lord",
+            "By Moses’ staff",
+            "By a sound of trumpets"
+          ],
+          "correctAnswer": "By a cloud by day and a pillar of fire by night",
+          "explanation": "Exodus 13:21 specifies that the LORD went before them in a pillar of cloud by day and pillar of fire by night to lead them.",
+          "verseReference": "Exodus 13:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-13-hard-q6",
+          "question": "Did the LORD ever remove the pillar of cloud or fire from before the Israelites during their journey?",
+          "type": "true-false",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Exodus 13:22 reveals that the LORD did not take away the pillar of cloud by day nor the pillar of fire by night from before the people.",
+          "verseReference": "Exodus 13:22",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-13-hard-q7",
+          "question": "What is the significance of the firstborn being sanctified to the LORD as described in Exodus 13?",
+          "type": "multiple-choice",
+          "options": [
+            "To remind Israel of the Passover deliverance",
+            "To dedicate the strongest animals for sacrifice",
+            "To honor the oldest in each family",
+            "To keep the firstborn separate for military service"
+          ],
+          "correctAnswer": "To remind Israel of the Passover deliverance",
+          "explanation": "Exodus 13:2 and 13:15 link sanctifying the firstborn to the LORD with the event of the Passover when the firstborn of Egypt were slain, marking God's deliverance.",
+          "verseReference": "Exodus 13:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-13-hard-q8",
+          "question": "Which other Old Testament passage echoes the theme of God leading His people by a cloud and fire?",
+          "type": "multiple-choice",
+          "options": [
+            "Numbers 9:15-23",
+            "Genesis 12:1-3",
+            "Leviticus 16",
+            "Deuteronomy 34"
+          ],
+          "correctAnswer": "Numbers 9:15-23",
+          "explanation": "Numbers 9:15-23 describes the cloud and fire leading Israel, echoing the guidance theme in Exodus 13:21-22.",
+          "verseReference": "Exodus 13:21",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-13-hard-q9",
+          "question": "What does the Hebrew word \"sanctify\" (קָדַשׁ, qādash) in Exodus 13:2 primarily mean?",
+          "type": "multiple-choice",
+          "options": [
+            "To separate or set apart as holy",
+            "To bless abundantly",
+            "To cleanse ceremonially",
+            "To curse or reject"
+          ],
+          "correctAnswer": "To separate or set apart as holy",
+          "explanation": "The Hebrew root qādash used in Exodus 13:2 means to set apart or consecrate something as holy to God.",
+          "verseReference": "Exodus 13:2",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-13-hard-q10",
+          "question": "What literary device is used in Exodus 13:9 and 13:16 with the phrases 'sign upon thine hand' and 'frontlets between thine eyes'?",
+          "type": "multiple-choice",
+          "options": [
+            "Inclusio framing the chapter with symbolic reminders",
+            "Simile comparing God’s hand to a sign",
+            "Metaphor for spiritual blindness",
+            "Parable about obedience"
+          ],
+          "correctAnswer": "Inclusio framing the chapter with symbolic reminders",
+          "explanation": "The repeated references to signs on the hand and between the eyes in Exodus 13:9 and 13:16 function as inclusio, framing the chapter with symbolic reminders of God's deliverance.",
+          "verseReference": "Exodus 13:9",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-13-hard-q11",
+          "question": "How does Exodus 13:19 relate to Joseph's earlier promise in Genesis?",
+          "type": "multiple-choice",
+          "options": [
+            "Fulfills Joseph’s oath that his bones would be carried out of Egypt",
+            "Conflicts with Joseph’s desire to be buried in Egypt",
+            "Introduces a new burial custom",
+            "Establishes Moses as Joseph’s heir"
+          ],
+          "correctAnswer": "Fulfills Joseph’s oath that his bones would be carried out of Egypt",
+          "explanation": "Exodus 13:19 fulfills Genesis 50:25 where Joseph made the Israelites swear to carry his bones from Egypt when God visited them.",
+          "verseReference": "Exodus 13:19",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-13-hard-q12",
+          "question": "What does the phrase 'by strength of hand' in Exodus 13 emphasize about God’s deliverance?",
+          "type": "multiple-choice",
+          "options": [
+            "God’s mighty power and active intervention",
+            "Human military strength",
+            "Moses’ leadership abilities",
+            "The natural forces of Egypt"
+          ],
+          "correctAnswer": "God’s mighty power and active intervention",
+          "explanation": "The phrase 'by strength of hand' in verses like Exodus 13:3 and 13:16 stresses God’s strong and decisive power in delivering Israel.",
+          "verseReference": "Exodus 13:3",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-13-hard-q13",
+          "question": "Which New Testament passage reflects the theme of God’s deliverance and guidance seen in Exodus 13?",
+          "type": "multiple-choice",
+          "options": [
+            "John 1:29",
+            "Hebrews 11:29",
+            "Acts 2:1-4",
+            "Romans 8:28"
+          ],
+          "correctAnswer": "Hebrews 11:29",
+          "explanation": "Hebrews 11:29 recounts faith in God’s power to lead the Israelites through the Red Sea, echoing Exodus 13:18’s mention of God leading Israel through the wilderness.",
+          "verseReference": "Exodus 13:18",
           "difficulty": "hard"
         },
         {
           "id": "exodus-13-hard-q14",
-          "question": "True or False: Exodus 13 commands the Israelites to eat unleavened bread for seven days as an annual ordinance to remember their deliverance.",
+          "question": "What is the theological significance of the firstborn of man being redeemed with a lamb as stated in Exodus 13:13?",
+          "type": "multiple-choice",
+          "options": [
+            "It foreshadows the ultimate redemption through the Lamb of God",
+            "It is a ritual for animal husbandry",
+            "It denotes payment for military service",
+            "It symbolizes human sacrifice"
+          ],
+          "correctAnswer": "It foreshadows the ultimate redemption through the Lamb of God",
+          "explanation": "Exodus 13:13’s redemption of the firstborn with a lamb foreshadows Christ as the Lamb who redeems humanity, a theme developed in the New Testament (e.g., John 1:29).",
+          "verseReference": "Exodus 13:13",
+          "difficulty": "hard"
+        },
+        {
+          "id": "exodus-13-hard-q15",
+          "question": "True or False: According to Exodus 13:14, children were taught the reason for the observance of the Passover and the sanctification of the firstborn by recounting God's deliverance from Egypt.",
           "type": "true-false",
           "options": [
             "True",
             "False"
           ],
           "correctAnswer": "True",
-          "explanation": "Exodus 13:10 commands that the ordinance of eating unleavened bread be kept from year to year to memorialize the Exodus event.",
-          "verseReference": "Exodus 13:10",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-13-hard-q15",
-          "question": "What does the repeated phrase 'by strength of hand the LORD brought you out of Egypt' (Exodus 13:3, 14, 16) emphasize in the narrative?",
-          "type": "multiple-choice",
-          "options": [
-            "God’s powerful and sovereign deliverance of Israel",
-            "The military skill of the Israelites",
-            "The weakness of Pharaoh",
-            "The assistance from neighboring tribes"
-          ],
-          "correctAnswer": "God’s powerful and sovereign deliverance of Israel",
-          "explanation": "The phrase underscores God's mighty power in liberating His people, establishing a theological theme of divine sovereignty and salvation.",
-          "verseReference": "Exodus 13:3",
+          "explanation": "Exodus 13:14 instructs parents to explain to their children that these practices commemorate the LORD’s strong hand bringing Israel out of Egypt.",
+          "verseReference": "Exodus 13:14",
           "difficulty": "hard"
         }
       ],
@@ -742,242 +736,227 @@
       "questions": [
         {
           "id": "exodus-13-theological-q1",
-          "question": "According to Exodus 13, what is the theological significance of sanctifying the firstborn among the children of Israel?",
+          "question": "What doctrine is taught by the command in Exodus 13:2 concerning the firstborn of Israel?",
           "type": "multiple-choice",
           "options": [
-            "They belong to the LORD as a remembrance of His deliverance",
-            "They are to be sacrificed as a burnt offering",
-            "They are given as slaves to the priests",
-            "They are exempt from all religious duties"
+            "The sanctification of the firstborn to God as His possession",
+            "The requirement to sacrifice all firstborn animals",
+            "The obligation to sell the firstborn children to priests",
+            "The prohibition of eating any firstborn animals"
           ],
-          "correctAnswer": "They belong to the LORD as a remembrance of His deliverance",
-          "explanation": "Exodus 13:2 teaches that all firstborn, both man and beast, belong to the LORD as a sanctified possession, representing God's deliverance and ownership of His people. This theme is echoed in Numbers 3:13, Luke 2:23, and Hebrews 12:23, emphasizing redemption and divine ownership.",
+          "correctAnswer": "The sanctification of the firstborn to God as His possession",
+          "explanation": "Exodus 13:2 teaches that the LORD sanctifies all firstborn among Israel, both man and beast, as His own, indicating their special dedication and belonging to God, which reflects the doctrine of sanctification and divine ownership.",
           "verseReference": "Exodus 13:2",
           "difficulty": "hard"
         },
         {
           "id": "exodus-13-theological-q2",
-          "question": "What reason does Moses give for the eating of unleavened bread during the feast described in Exodus 13?",
+          "question": "According to Exodus 13:3, what is the theological significance of remembering the day of Israel’s departure from Egypt?",
           "type": "multiple-choice",
           "options": [
-            "Because the Israelites left Egypt in haste without time for leaven to rise",
-            "Because leaven symbolizes sin and corruption",
-            "Because the LORD commanded it as a permanent ordinance",
-            "Because it was cheaper and easier to prepare"
+            "It commemorates God's mighty hand delivering Israel from bondage",
+            "It marks the beginning of Israelite sacrifices",
+            "It is a celebration of Israel’s conquest over Egypt",
+            "It initiates the practice of building altars in the wilderness"
           ],
-          "correctAnswer": "Because the Israelites left Egypt in haste without time for leaven to rise",
-          "explanation": "Exodus 13:3-7 shows that unleavened bread is eaten to remember the day of deliverance when the people left Egypt quickly, not having time for the dough to rise. This is a sign of salvation’s immediacy and purity, reflected also in 1 Corinthians 5:7-8, Matthew 16:6, and Luke 22:1-20.",
+          "correctAnswer": "It commemorates God's mighty hand delivering Israel from bondage",
+          "explanation": "Exodus 13:3 emphasizes remembering the day of deliverance as a testimony to God's strong hand that brought Israel out of Egypt, teaching the doctrine of salvation by God's power and faithfulness.",
           "verseReference": "Exodus 13:3",
           "difficulty": "hard"
         },
         {
           "id": "exodus-13-theological-q3",
-          "question": "What is the purpose of showing the sign 'upon thine hand, and for a memorial between thine eyes' according to Exodus 13?",
+          "question": "Which divine attribute is demonstrated by God’s guidance of Israel through the wilderness as described in Exodus 13:21?",
           "type": "multiple-choice",
           "options": [
-            "To keep the LORD's law in the mouth and remember His mighty hand in deliverance",
-            "To identify priests and Levites during worship",
-            "To signify ownership of Egyptian goods",
-            "To mark those exempt from military service"
+            "God’s providential guidance and faithfulness",
+            "God’s wrath against Egypt",
+            "God’s omnipresence in the temple",
+            "God’s sovereignty over the nations"
           ],
-          "correctAnswer": "To keep the LORD's law in the mouth and remember His mighty hand in deliverance",
-          "explanation": "Exodus 13:9 and 13:16 state the sign is to serve as a memorial and teaching device that the LORD's law be in the mouth and to remember His strong hand in delivering Israel. This typifies internalizing God's law as in Deuteronomy 6:8, and God's mighty acts as in Psalm 136 and John 15:10.",
-          "verseReference": "Exodus 13:9",
+          "correctAnswer": "God’s providential guidance and faithfulness",
+          "explanation": "Exodus 13:21 shows God going before Israel as a pillar of cloud by day and fire by night, demonstrating His providential care and faithfulness in leading His people through uncertain circumstances.",
+          "verseReference": "Exodus 13:21",
           "difficulty": "hard"
         },
         {
           "id": "exodus-13-theological-q4",
-          "question": "In Exodus 13, why does God lead the Israelites by the way of the wilderness instead of the nearer land of the Philistines?",
+          "question": "How does the instruction in Exodus 13:13 concerning the redemption of the firstborn of an ass typologically point to a Christological truth?",
           "type": "multiple-choice",
           "options": [
-            "To prevent them from seeing war and turning back to Egypt",
-            "Because the Philistines denied passage",
-            "To shorten the journey to Canaan",
-            "Because the wilderness was the only available route"
+            "It foreshadows Christ’s substitutionary redemption of sinners",
+            "It symbolizes the priestly role of Christ",
+            "It points to Christ’s kingship over Israel",
+            "It represents Christ's sacrificial death for animals"
           ],
-          "correctAnswer": "To prevent them from seeing war and turning back to Egypt",
-          "explanation": "Exodus 13:17 explains God led the people by the wilderness to avoid the temptation to return to Egypt if they saw war, showing God's providential care and protection. This reflects themes of trust and divine guidance seen in Psalm 23, Isaiah 43:16-20, and Hebrews 11:29.",
-          "verseReference": "Exodus 13:17",
+          "correctAnswer": "It foreshadows Christ’s substitutionary redemption of sinners",
+          "explanation": "Exodus 13:13 commands redeeming the firstborn of an ass with a lamb or breaking its neck if not redeemed, typologically illustrating Christ as the Lamb who redeems sinners, substituting Himself for them (cf. 1 Peter 1:18-19).",
+          "verseReference": "Exodus 13:13",
           "difficulty": "hard"
         },
         {
           "id": "exodus-13-theological-q5",
-          "question": "What is the significance of Moses taking the bones of Joseph with him according to Exodus 13?",
+          "question": "What combined doctrinal insight do Exodus 13:5-6 and Exodus 13:11 provide about Israel’s sanctification and covenant obedience?",
           "type": "multiple-choice",
           "options": [
-            "It shows faith in God's promise to bring Israel into the promised land",
-            "It was a cultural tradition to honor ancestors",
-            "It was a requirement to avoid defilement",
-            "It was to use as a bargaining token with Canaanites"
+            "Israel is to keep the feast of unleavened bread annually as a sign of covenant faithfulness in the promised land",
+            "Israel must perform animal sacrifices daily to maintain the covenant",
+            "Israel is commanded to build altars in each city of Canaan",
+            "Israel should avoid contact with Canaanites to remain holy"
           ],
-          "correctAnswer": "It shows faith in God's promise to bring Israel into the promised land",
-          "explanation": "Exodus 13:19 shows Moses carrying Joseph's bones as an act of faith in God's promise to visit and deliver Israel to the promised land, anticipating resurrection and inheritance themes seen in Hebrews 11:22 and Acts 7:15-16.",
-          "verseReference": "Exodus 13:19",
+          "correctAnswer": "Israel is to keep the feast of unleavened bread annually as a sign of covenant faithfulness in the promised land",
+          "explanation": "Verses 5-6 and 11 instruct Israel to observe the feast of unleavened bread yearly in the month of Abib, linking covenant obedience, remembrance of deliverance, and sanctification in the land promised by God, underscoring covenant renewal and holiness.",
+          "verseReference": "Exodus 13:5-6, 11",
           "difficulty": "hard"
         },
         {
           "id": "exodus-13-theological-q6",
-          "question": "What does the ordinance of redeeming the firstborn of an ass with a lamb in Exodus 13 symbolize?",
+          "question": "What does the command in Exodus 13:9, about the law being 'in thy mouth' and a sign upon the hand and between the eyes, teach about the role of God’s law in the believer’s life?",
           "type": "multiple-choice",
           "options": [
-            "Substitutionary redemption pointing to Christ’s atonement",
-            "Economic exchange between tribes",
-            "A ritual to prevent plague",
-            "A ceremony of blessing animals"
+            "The law is to be internalized, continually remembered, and visibly symbolized",
+            "The law is only for priests and religious leaders",
+            "The law is to be kept secret from outsiders",
+            "The law is optional once the land is entered"
           ],
-          "correctAnswer": "Substitutionary redemption pointing to Christ’s atonement",
-          "explanation": "Exodus 13:13 commands redeeming the firstborn of an ass with a lamb, symbolizing substitutionary redemption, prefiguring Christ as the Lamb who redeems sinners, as also taught in Isaiah 53:6, 1 Peter 1:18-19, and John 1:29.",
-          "verseReference": "Exodus 13:13",
+          "correctAnswer": "The law is to be internalized, continually remembered, and visibly symbolized",
+          "explanation": "Exodus 13:9 reveals that God's law is to be a constant spiritual reality for Israel—spoken of, remembered, and symbolized physically—emphasizing sanctification and covenant identity through internal and external devotion.",
+          "verseReference": "Exodus 13:9",
           "difficulty": "hard"
         },
         {
           "id": "exodus-13-theological-q7",
-          "question": "According to Exodus 13, how is the deliverance from Egypt to be remembered by future generations?",
+          "question": "In Exodus 13:17-18, what narrative arc is demonstrated by God’s decision not to lead Israel by the land of the Philistines but through the wilderness?",
           "type": "multiple-choice",
           "options": [
-            "By teaching children about the LORD’s mighty hand in bringing them out",
-            "By building altars at the Red Sea",
-            "By offering daily sacrifices in the temple",
-            "By fasting every month of Abib"
+            "God’s provision of protection to prevent Israel from turning back to Egypt",
+            "God’s punishment of Philistines for their hostility",
+            "God’s desire to shorten the journey to Canaan",
+            "God’s plan to avoid conflicts with other nations"
           ],
-          "correctAnswer": "By teaching children about the LORD’s mighty hand in bringing them out",
-          "explanation": "Exodus 13:8-9 instructs parents to explain to their children the reason for the feast and the LORD’s mighty hand delivering Israel from Egypt, emphasizing covenantal instruction and remembrance, echoed in Deuteronomy 6:6-7, Psalm 78:4, and 2 Timothy 3:15.",
-          "verseReference": "Exodus 13:8",
+          "correctAnswer": "God’s provision of protection to prevent Israel from turning back to Egypt",
+          "explanation": "Verses 17-18 show God intentionally leading Israel by a longer wilderness route to avoid discouragement from war, revealing divine wisdom and care in preserving the redemption process and preventing apostasy.",
+          "verseReference": "Exodus 13:17-18",
           "difficulty": "hard"
         },
         {
           "id": "exodus-13-theological-q8",
-          "question": "What does the feast of unleavened bread symbolize in the broader biblical narrative as introduced in Exodus 13?",
+          "question": "What doctrine is primarily taught by the instruction in Exodus 13:12 about setting apart to the LORD all that opens the matrix, both man and beast?",
           "type": "multiple-choice",
           "options": [
-            "Purity and separation from sin through Christ",
-            "Celebration of the harvest season",
-            "Commemoration of the temple’s construction",
-            "A sign of Israel’s military strength"
+            "The doctrine of consecration and divine ownership of the firstborn",
+            "The doctrine of universal priesthood",
+            "The doctrine of animal sacrifice replacing human sacrifice",
+            "The doctrine of hereditary priesthood"
           ],
-          "correctAnswer": "Purity and separation from sin through Christ",
-          "explanation": "The feast of unleavened bread symbolizes purity and separation from sin, anticipating Christ as the sinless bread of life (1 Corinthians 5:7-8; John 6:35; Leviticus 23:6). It marks deliverance and sanctification consistent with biblical themes of holiness.",
-          "verseReference": "Exodus 13:6-7",
+          "correctAnswer": "The doctrine of consecration and divine ownership of the firstborn",
+          "explanation": "Exodus 13:12 teaches that all firstborn males, human and animal, belong to the LORD, emphasizing the doctrine that God claims special ownership and consecration of the first fruits of life for Himself.",
+          "verseReference": "Exodus 13:12",
           "difficulty": "hard"
         },
         {
           "id": "exodus-13-theological-q9",
-          "question": "What is the doctrinal significance of the LORD going before Israel by day in a pillar of cloud and by night in a pillar of fire as described in Exodus 13?",
+          "question": "How does the passage in Exodus 13:19 about Moses taking Joseph’s bones with him fit into the broader biblical narrative of redemption?",
           "type": "multiple-choice",
           "options": [
-            "God’s presence and guidance are constant and personal",
-            "It served as a natural weather phenomenon",
-            "It was a symbol of Israel’s military power",
-            "It was a sign of the priests’ authority"
+            "It expresses faith in God’s future fulfillment of the promise of the land",
+            "It shows a practice of ancestor worship",
+            "It demonstrates a legal claim on Egyptian land",
+            "It symbolizes the rejection of Egypt’s gods"
           ],
-          "correctAnswer": "God’s presence and guidance are constant and personal",
-          "explanation": "Exodus 13:21-22 shows God’s continual presence and guidance through the pillars, revealing His covenant faithfulness and protection, which is paralleled in Psalm 46:1, Isaiah 43:2, and John 14:16-17.",
-          "verseReference": "Exodus 13:21",
+          "correctAnswer": "It expresses faith in God’s future fulfillment of the promise of the land",
+          "explanation": "Exodus 13:19 records Moses taking Joseph’s bones as a testimony to Israel’s confidence that God will bring them into the promised land, connecting the event to the covenant promises and future redemption in the land.",
+          "verseReference": "Exodus 13:19",
           "difficulty": "hard"
         },
         {
           "id": "exodus-13-theological-q10",
-          "question": "How does Exodus 13 explain the redemption of the firstborn sons among the children of Israel?",
+          "question": "What attribute of God is most clearly revealed in Exodus 13:15 where the LORD slew all the firstborn in Egypt to secure Israel’s release?",
           "type": "multiple-choice",
           "options": [
-            "They are redeemed, recognizing their life belongs to God",
-            "They are dedicated as priests without redemption",
-            "They are exempt from the law of the firstborn",
-            "They must serve in the military without exception"
+            "God’s justice and power in executing judgment",
+            "God’s mercy in sparing Israel",
+            "God’s patience with Pharaoh",
+            "God’s omniscience in foreseeing Israel’s future"
           ],
-          "correctAnswer": "They are redeemed, recognizing their life belongs to God",
-          "explanation": "Exodus 13:13 and 15 describe redeeming firstborn sons, affirming that human life is sacred and belongs to God, a principle seen also in Leviticus 27:26, Numbers 18:15-16, and Luke 2:23.",
-          "verseReference": "Exodus 13:13",
+          "correctAnswer": "God’s justice and power in executing judgment",
+          "explanation": "Exodus 13:15 reveals God’s righteous justice and sovereign power in executing judgment on Egypt’s firstborn, demonstrating that deliverance comes through divine judgment against sin and oppression.",
+          "verseReference": "Exodus 13:15",
           "difficulty": "hard"
         },
         {
           "id": "exodus-13-theological-q11",
-          "question": "What is the ultimate reason given in Exodus 13 for the LORD’s deliverance of Israel from Egypt?",
+          "question": "What combined theological principle is taught by Exodus 13:8 and Exodus 13:14 about the role of teaching and remembrance in Israel’s identity?",
           "type": "multiple-choice",
           "options": [
-            "To fulfill the oath made to their fathers and bring them to a land flowing with milk and honey",
-            "To gain political power in the region",
-            "To show His superiority over Egyptian gods",
-            "To test Israel’s obedience"
+            "The importance of intergenerational teaching of God’s mighty acts of salvation",
+            "The necessity to celebrate only annual festivals",
+            "The exclusive role of priests in teaching the law",
+            "The prohibition of questioning God’s commands"
           ],
-          "correctAnswer": "To fulfill the oath made to their fathers and bring them to a land flowing with milk and honey",
-          "explanation": "Exodus 13:5 and 13:11 emphasize God’s faithfulness to the covenant oath to the patriarchs, promising to give Israel a fruitful land. This covenant fulfillment is a key biblical theme as in Genesis 12:7, Joshua 21:43, and Hebrews 6:13-15.",
-          "verseReference": "Exodus 13:5",
+          "correctAnswer": "The importance of intergenerational teaching of God’s mighty acts of salvation",
+          "explanation": "Verses 8 and 14 emphasize showing and explaining to children the reason for Israel’s deliverance, reinforcing that teaching God’s redemptive acts to future generations is essential for covenant identity and faithfulness.",
+          "verseReference": "Exodus 13:8, 14",
           "difficulty": "hard"
         },
         {
           "id": "exodus-13-theological-q12",
-          "question": "How does Exodus 13 portray the role of remembering God’s mighty hand in salvation history?",
+          "question": "Sceptics claim that the laws about firstborn animals and redemption in Exodus 13 are arbitrary and outdated. What does Exodus 13:12-13 actually teach about the purpose of these laws?",
           "type": "multiple-choice",
           "options": [
-            "As foundational for teaching, worship, and obedience to God’s law",
-            "As a minor ritual with no lasting impact",
-            "As a reason to avoid conflict with other nations",
-            "As an exclusive knowledge reserved for priests"
+            "They teach that all firstborn belong to God, highlighting divine ownership and the principle of substitutionary redemption",
+            "They are mere cultural traditions with no spiritual meaning",
+            "They emphasize animal rights and humane treatment",
+            "They are symbolic only for priests and have no practical application"
           ],
-          "correctAnswer": "As foundational for teaching, worship, and obedience to God’s law",
-          "explanation": "Exodus 13:9-10 links remembering God’s mighty hand with keeping His law in the mouth and teaching future generations, foundational for covenant faithfulness, as similarly emphasized in Deuteronomy 4:9-10, Psalm 103:7, and Matthew 28:19-20.",
-          "verseReference": "Exodus 13:9",
+          "correctAnswer": "They teach that all firstborn belong to God, highlighting divine ownership and the principle of substitutionary redemption",
+          "explanation": "Exodus 13:12-13 explains the sanctification of firstborn males to the LORD and the option to redeem them with a lamb, teaching a theological principle of God’s ownership and substitutionary redemption rather than arbitrary ritual.",
+          "verseReference": "Exodus 13:12-13",
           "difficulty": "hard"
         },
         {
           "id": "exodus-13-theological-q13",
-          "question": "What Christological theme can be drawn from the command in Exodus 13 to set apart the firstborn as belonging to the LORD?",
+          "question": "What narrative arc connection does Exodus 13:20-22 reveal about God’s ongoing presence with Israel during their journey?",
           "type": "multiple-choice",
           "options": [
-            "Christ as the Firstborn who redeems and sets apart His people",
-            "Christ as a warrior king conquering enemies",
-            "Christ as a temple builder",
-            "Christ as a lawgiver like Moses"
+            "God’s continual guidance and protection evidenced by the pillar of cloud and fire",
+            "God’s withdrawal after the exodus",
+            "God’s punishment through natural disasters",
+            "God’s silence during the wilderness journey"
           ],
-          "correctAnswer": "Christ as the Firstborn who redeems and sets apart His people",
-          "explanation": "The firstborn belonging to God (Exodus 13:2, 12) typifies Christ, the Firstborn from the dead (Colossians 1:15-18; Revelation 1:5), who redeems His people, fulfilling the typology of divine ownership and salvation.",
-          "verseReference": "Exodus 13:2",
+          "correctAnswer": "God’s continual guidance and protection evidenced by the pillar of cloud and fire",
+          "explanation": "Verses 20-22 depict God leading Israel by a pillar of cloud by day and fire by night, illustrating His unwavering presence, guidance, and protection in the redemptive journey from Egypt to Canaan.",
+          "verseReference": "Exodus 13:20-22",
           "difficulty": "hard"
         },
         {
           "id": "exodus-13-theological-q14",
-          "question": "What does the command to keep the ordinance from year to year in Exodus 13 teach about the nature of God's covenant with Israel?",
+          "question": "Which attribute of God is highlighted in Exodus 13:4 when Israel is said to come out in the month Abib?",
           "type": "multiple-choice",
           "options": [
-            "It is perpetual and requires continual remembrance and obedience",
-            "It is temporary and conditional on Israel’s performance",
-            "It is symbolic only without practical application",
-            "It is limited to the wilderness generation"
+            "God’s faithfulness in fulfilling His timing and promises",
+            "God’s omnipotence in creating the calendar",
+            "God’s wrath upon Egypt",
+            "God’s mercy towards Canaan"
           ],
-          "correctAnswer": "It is perpetual and requires continual remembrance and obedience",
-          "explanation": "Exodus 13:10 commands annual observance, underscoring the enduring and covenantal nature of God's relationship with Israel, requiring ongoing faithfulness, reflected also in Genesis 17:7, Psalm 105:8, and Hebrews 8:10.",
-          "verseReference": "Exodus 13:10",
+          "correctAnswer": "God’s faithfulness in fulfilling His timing and promises",
+          "explanation": "Exodus 13:4 situates Israel’s departure in the month Abib, underscoring God’s faithful orchestration of events according to His covenantal promises and divine timing.",
+          "verseReference": "Exodus 13:4",
           "difficulty": "hard"
         },
         {
           "id": "exodus-13-theological-q15",
-          "question": "What doctrinal truth about God’s sovereignty is revealed by His leading Israel with a pillar of cloud and fire during the Exodus?",
+          "question": "What combined theological meaning arises from Exodus 13:16 and Exodus 13:9 regarding the physical signs Israel is commanded to wear?",
           "type": "multiple-choice",
           "options": [
-            "God actively guides and protects His people through visible manifestations",
-            "God is distant and uninvolved in human affairs",
-            "God only acts through human leaders",
-            "God’s presence is hidden and unknown"
+            "The physical signs are tokens of remembrance of God's mighty deliverance and a call to internalize His law",
+            "The signs symbolize Israel’s military conquest",
+            "The signs are magical talismans for protection",
+            "The signs indicate Israel’s social status among nations"
           ],
-          "correctAnswer": "God actively guides and protects His people through visible manifestations",
-          "explanation": "Exodus 13:21-22 reveals God’s active and personal guidance using the cloud and fire as visible signs of His presence, demonstrating divine sovereignty and care, consistent with Psalm 48:14, Isaiah 42:16, and John 10:27.",
-          "verseReference": "Exodus 13:21",
-          "difficulty": "hard"
-        },
-        {
-          "id": "exodus-13-theological-q16",
-          "question": "How does Exodus 13 connect the themes of deliverance and law in the life of Israel?",
-          "type": "multiple-choice",
-          "options": [
-            "Deliverance from Egypt is the basis for obeying the LORD’s law and covenant",
-            "Law is unrelated to deliverance and is merely ritualistic",
-            "Deliverance frees Israel from any obligation to the law",
-            "The law was given before deliverance"
-          ],
-          "correctAnswer": "Deliverance from Egypt is the basis for obeying the LORD’s law and covenant",
-          "explanation": "Exodus 13:9 shows the LORD’s mighty hand in deliverance is remembered so that His law may be kept in the mouth, indicating salvation as the foundation for covenant obedience, a theme also found in Deuteronomy 5:15, Romans 6:14, and Galatians 3:24.",
-          "verseReference": "Exodus 13:9",
+          "correctAnswer": "The physical signs are tokens of remembrance of God's mighty deliverance and a call to internalize His law",
+          "explanation": "Verses 13:9 and 13:16 explain that the sign upon the hand and between the eyes serve as both memorials of God's deliverance from Egypt and as reminders to keep His law in one's heart and speech, integrating external symbolism with internal obedience.",
+          "verseReference": "Exodus 13:9, 16",
           "difficulty": "hard"
         }
       ],
@@ -991,7 +970,7 @@
         "bible-quiz",
         "theological"
       ],
-      "totalQuestions": 16,
+      "totalQuestions": 15,
       "estimatedTime": 25
     }
   }
