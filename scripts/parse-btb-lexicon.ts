@@ -63,6 +63,9 @@ interface LexiconEntry {
   stats: { totalOccurrences: number; mostFrequentBook: string; bookBreakdown: Record<string, number> };
   synergy: { crossReferences: string[]; devotional: string; peopleAlsoAsked: any[] };
   verseSample: { ref: string; text: string }[];
+  etymology: string;
+  rootWord: string;
+  derivedFrom: string[];
 }
 
 interface DEFData {
@@ -73,6 +76,7 @@ interface DEFData {
   morphCode: string;
   definitions: string;
   etymology: string;
+  derivedFrom: string[];
   crossRefs: string[];
 }
 
@@ -83,6 +87,11 @@ interface DEFData {
 /** Strip all HTML tags, keeping text content */
 function stripHtml(text: string): string {
   return text.replace(/<[^>]+>/g, '');
+}
+
+/** Inline <greek unicode="X" translit="Y"/> / <hebrew .../> self-closing tags as "X (Y)" before stripping tags */
+function inlineForeignWordTags(text: string): string {
+  return text.replace(/<(?:greek|hebrew)\s+[^>]*unicode="([^"]*)"[^>]*translit="([^"]*)"[^>]*\/>/g, '$1 ($2)');
 }
 
 /** Resolve Obsidian wiki-links [[target|display]] → display, [[target]] → target */
@@ -119,6 +128,7 @@ function removeMarkdownFormatting(text: string): string {
 
 /** Full clean: strip HTML, wiki-links, LaTeX, transclusions, then normalize whitespace */
 function fullClean(text: string): string {
+  text = inlineForeignWordTags(text);
   text = stripHtml(text);
   text = resolveWikiLinks(text);
   text = removeLaTeX(text);
@@ -133,6 +143,7 @@ function fullClean(text: string): string {
 
 /** Light clean: strip HTML and wiki-links but keep markdown structure */
 function lightClean(text: string): string {
+  text = inlineForeignWordTags(text);
   text = stripHtml(text);
   text = resolveWikiLinks(text);
   text = removeLaTeX(text);
@@ -220,6 +231,7 @@ function parseDEF(filePath: string): DEFData | null {
     morphCode: '',
     definitions: '',
     etymology: '',
+    derivedFrom: [],
     crossRefs: [],
   };
 
@@ -254,41 +266,38 @@ function parseDEF(filePath: string): DEFData | null {
     data.morphCode = morphMatch[1].trim();
   }
 
-  // Extract definitions: everything after the first line of "metadata" up to cross-refs
+  // Structure is fixed: line 0 = header (word/translit/pron/gloss/morph), an
+  // optional line 1 = a single "<small>...</small>" derivation/etymology line
+  // (e.g. "from H7218", "of uncertain affinity"), then a blank line, then
+  // definition lines until a cross-reference section or HR.
   const lines = content.split('\n');
-  const defLines: string[] = [];
-  let pastHeader = false;
+  let idx = 0;
+  while (idx < lines.length && lines[idx].trim() === '') idx++;
+  if (idx < lines.length && lines[idx].trim().startsWith('**<big>')) idx++;
 
-  for (const line of lines) {
-    const trimmed = line.trim();
-
-    // Skip empty lines at start
-    if (!pastHeader) {
-      // The header is the first line(s) with the word/transliteration/morph
-      if (trimmed.startsWith('**<big>') || trimmed.startsWith('<small>from') || trimmed.startsWith('<small>perhaps') || trimmed.startsWith('<small>a primitive') || trimmed === '') {
-        continue;
+  if (idx < lines.length) {
+    const candidate = lines[idx].trim();
+    if (candidate.startsWith('<small>') && candidate.endsWith('</small>')) {
+      const inner = candidate.slice('<small>'.length, -('</small>'.length));
+      data.etymology = fullClean(inner);
+      const refs = inner.match(/\[\[([GH]\d+)/g);
+      if (refs) {
+        data.derivedFrom = refs.map(r => normalizeStrongsId(r.replace('[[', '')));
       }
-      pastHeader = true;
+      idx++;
     }
+  }
 
-    // Stop at cross-reference section or HR
+  const defLines: string[] = [];
+  for (; idx < lines.length; idx++) {
+    const trimmed = lines[idx].trim();
     if (trimmed.startsWith('<small>See Greek:') || trimmed.startsWith('<small>See Hebrew:') || trimmed === '---') {
       break;
     }
-
-    // Collect definition lines
-    if (trimmed) {
-      defLines.push(trimmed);
-    }
+    if (trimmed) defLines.push(trimmed);
   }
 
   data.definitions = defLines.map(l => fullClean(l)).filter(Boolean).join('\n');
-
-  // Extract etymology from <small>from line
-  const etymMatch = content.match(/<small>(from\s+[^<]+|perhaps\s+from[^<]+|a primitive[^<]+)<\/small>/i);
-  if (etymMatch) {
-    data.etymology = fullClean(etymMatch[1]);
-  }
 
   // Extract cross-references: [[G1234|...]] or [[H1234|...]] links in "See Greek/Hebrew" lines
   const seeMatch = content.match(/<small>See (?:Greek|Hebrew):\s*<\/small>(.*)/s);
@@ -500,6 +509,9 @@ function main() {
       stats: { totalOccurrences: 0, mostFrequentBook: '', bookBreakdown: {} },
       synergy: { crossReferences: crossRefs, devotional: '', peopleAlsoAsked: [] },
       verseSample: [],
+      etymology: defData.etymology,
+      rootWord: defData.derivedFrom[0] || '',
+      derivedFrom: defData.derivedFrom,
     };
 
     entries.push(entry);
@@ -531,6 +543,8 @@ function main() {
   const withLSJ = entries.filter(e => e.definitions.lsj).length;
   const withBDB = entries.filter(e => e.definitions.bdb).length;
   const withCrossRefs = entries.filter(e => e.synergy.crossReferences.length > 0).length;
+  const withEtymology = entries.filter(e => e.etymology).length;
+  const withRootWord = entries.filter(e => e.rootWord).length;
 
   console.log(`  Greek:  ${greekCount}`);
   console.log(`  Hebrew: ${hebrewCount}`);
@@ -538,6 +552,8 @@ function main() {
   console.log(`  With LSJ:          ${withLSJ}`);
   console.log(`  With BDB:          ${withBDB}`);
   console.log(`  With cross-refs:   ${withCrossRefs}`);
+  console.log(`  With etymology:    ${withEtymology}`);
+  console.log(`  With rootWord:     ${withRootWord}`);
 
   // Ensure output directory exists
   const outDir = path.dirname(OUTPUT_PATH);
@@ -561,11 +577,14 @@ function main() {
     entries.find(e => e.id === 'G25'),   // agapao
     entries.find(e => e.id === 'H1'),    // ab (father)
     entries.find(e => e.id === 'H7965'), // shalom
+    entries.find(e => e.id === 'H7225'), // reshith (beginning) — from H7218 (head)
+    entries.find(e => e.id === 'G2316'), // theos (God)
   ].filter(Boolean);
 
   for (const s of samples) {
     if (!s) continue;
     console.log(`  ${s.id}: ${s.word} (${s.transliteration}) - "${s.definitions.strongs.substring(0, 60)}..."`);
+    if (s.etymology) console.log(`    Etymology: ${s.etymology} [rootWord=${s.rootWord || 'none'}]`);
     if (s.definitions.abbottSmith) console.log(`    AS: ${s.definitions.abbottSmith.substring(0, 60)}...`);
     if (s.definitions.lsj) console.log(`    LSJ: ${s.definitions.lsj.substring(0, 60)}...`);
     if (s.definitions.bdb) console.log(`    BDB: ${s.definitions.bdb.substring(0, 60)}...`);
