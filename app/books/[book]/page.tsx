@@ -3,8 +3,11 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { getBookMetadata, getAllBookMetadata, BookMetadata } from '@/lib/book-metadata';
+import { getBookIntroduction, BookIntroduction } from '@/lib/book-introductions';
 import BookTools from './BookTools';
 import { getPlacesForBook, formatPlaceTypeSingular } from '@/lib/geocoding-data';
+import PrintButton from '@/components/PrintButton';
+import { renderBiblicalText } from '@/lib/render-helpers';
 
 export const revalidate = 86400 // 24 hours
 
@@ -23,9 +26,8 @@ export async function generateMetadata({ params }: BookPageProps): Promise<Metad
     return { title: 'Book Not Found' };
   }
   
-  const hebrewPart = metadata.hebrewTransliteration ? ` (${metadata.hebrewTransliteration})` : '';
-  const title = `${metadata.name}${hebrewPart} - Bible Book Introduction & Study Guide | ${metadata.chapters} Chapters, ${metadata.verseCount.toLocaleString()} Verses | Author, Date, Outline & Key Themes | Bible Maximum`;
-  const description = `Complete introduction to the Book of ${metadata.name}${metadata.hebrewName ? ` (Hebrew: ${metadata.hebrewName}, "${metadata.hebrewMeaning}")` : ''} (Greek: ${metadata.greekName}). Author: ${metadata.author}. Date: ${metadata.dateWritten}. ${metadata.chapters} chapters, ${metadata.verseCount.toLocaleString()} verses. Key themes: ${metadata.keyThemes.slice(0, 4).join(', ')}.`;
+  const title = `${metadata.name} Summary: Themes, Outline & Key Verses`;
+  const description = `Explore the Book of ${metadata.name}: a full summary, outline, key themes, and Christ in ${metadata.name}. Written by ${metadata.author} (${metadata.dateWritten}), ${metadata.chapters} chapters.`;
 
   const keywords = [
     `Book of ${metadata.name}`,
@@ -174,6 +176,36 @@ function ThemesSection({ themes }: { themes: string[] }) {
   );
 }
 
+function ProseSection({ title, text }: { title: string; text: string }) {
+  const paragraphs = text.split('\n\n').filter(Boolean);
+  if (paragraphs.length === 0) return null;
+  return (
+    <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
+      <h2 className="text-xl font-bold text-scripture mb-4">{title}</h2>
+      <div className="text-scripture leading-relaxed space-y-4">
+        {paragraphs.map((p, i) => <p key={i}>{renderBiblicalText(p)}</p>)}
+      </div>
+    </section>
+  );
+}
+
+function KeyThemesDetailSection({ keyThemes }: { keyThemes: BookIntroduction['keyThemes'] }) {
+  if (keyThemes.length === 0) return null;
+  return (
+    <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
+      <h2 className="text-xl font-bold text-scripture mb-4">Key Themes Explained</h2>
+      <div className="grid gap-4 sm:grid-cols-2">
+        {keyThemes.map((t, i) => (
+          <div key={i} className="border border-grace rounded-lg p-4">
+            <h3 className="font-semibold text-scripture mb-1">{t.theme}</h3>
+            <p className="text-sm text-ink-muted">{renderBiblicalText(t.description)}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 function ChapterGrid({ bookSlug, bookName, totalChapters }: { bookSlug: string; bookName: string; totalChapters: number }) {
   const maxPreviewChapters = 10;
   const displayChapters = Math.min(totalChapters, maxPreviewChapters);
@@ -274,7 +306,8 @@ export default async function BookPage({ params }: BookPageProps) {
   if (!metadata) {
     notFound();
   }
-  
+
+  const bookIntro = getBookIntroduction(book);
   const bookImage = getBookImage();
   
   return (
@@ -317,13 +350,16 @@ export default async function BookPage({ params }: BookPageProps) {
               priority
             />
             <div className="absolute inset-0 flex flex-col justify-end p-6 md:p-8">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="bg-white/20 text-white text-xs font-medium px-2 py-1 rounded">
-                  {metadata.testament === 'old' ? 'Old Testament' : 'New Testament'}
-                </span>
-                <span className="bg-white/20 text-white text-xs font-medium px-2 py-1 rounded">
-                  {metadata.category}
-                </span>
+              <div className="flex items-center justify-between gap-2 mb-2">
+                <div className="flex items-center gap-2">
+                  <span className="bg-white/20 text-white text-xs font-medium px-2 py-1 rounded">
+                    {metadata.testament === 'old' ? 'Old Testament' : 'New Testament'}
+                  </span>
+                  <span className="bg-white/20 text-white text-xs font-medium px-2 py-1 rounded">
+                    {metadata.category}
+                  </span>
+                </div>
+                <PrintButton />
               </div>
               <h1 className="text-3xl md:text-4xl font-bold font-display text-white">
                 Book of {metadata.name}
@@ -360,12 +396,14 @@ export default async function BookPage({ params }: BookPageProps) {
             <p className="text-scripture leading-relaxed mb-4">{metadata.summary}</p>
             
             <h3 className="text-md font-semibold text-scripture mb-2">Purpose</h3>
-            <p className="text-scripture leading-relaxed mb-4">{metadata.purpose}</p>
-            
-            <h3 className="text-md font-semibold text-scripture mb-2">Historical Context</h3>
-            <p className="text-scripture leading-relaxed">{metadata.historicalContext}</p>
+            <p className="text-scripture leading-relaxed">{metadata.purpose}</p>
           </div>
         </article>
+
+        {/* About the Book (full introduction) */}
+        {bookIntro && (
+          <ProseSection title={`About the Book of ${metadata.name}`} text={bookIntro.introduction} />
+        )}
 
         {/* Book Name Origins */}
         <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
@@ -397,6 +435,7 @@ export default async function BookPage({ params }: BookPageProps) {
 
         {/* Themes */}
         <ThemesSection themes={metadata.keyThemes} />
+        {bookIntro && <KeyThemesDetailSection keyThemes={bookIntro.keyThemes} />}
 
         {/* Reading Tools */}
         <BookTools 
@@ -411,6 +450,30 @@ export default async function BookPage({ params }: BookPageProps) {
 
         {/* Famous Verses */}
         <FamousVersesSection verses={metadata.famousVerses} bookSlug={book} />
+
+        {/* Deep Study (AI-rewritten, kjvstudy-style depth) */}
+        {bookIntro && (
+          <>
+            {bookIntro.christInBook && (
+              <ProseSection title={`Christ in ${metadata.name}`} text={bookIntro.christInBook} />
+            )}
+            {bookIntro.historicalContext && (
+              <ProseSection title="Historical Context" text={bookIntro.historicalContext} />
+            )}
+            {bookIntro.theologicalSignificance && (
+              <ProseSection title="Theological Significance" text={bookIntro.theologicalSignificance} />
+            )}
+            {bookIntro.literaryStyle && (
+              <ProseSection title="Literary Style" text={bookIntro.literaryStyle} />
+            )}
+            {bookIntro.relationshipToNewTestament && (
+              <ProseSection title="Relationship to the New Testament" text={bookIntro.relationshipToNewTestament} />
+            )}
+            {bookIntro.practicalApplication && (
+              <ProseSection title="Practical Application" text={bookIntro.practicalApplication} />
+            )}
+          </>
+        )}
 
         {/* Key Locations */}
         {(() => {
@@ -478,6 +541,21 @@ export default async function BookPage({ params }: BookPageProps) {
 
         {/* Related Quizzes CTA */}
         <RelatedQuizzes bookSlug={book} bookName={metadata.name} />
+
+        {/* Related Resources */}
+        <section className="bg-white rounded-xl shadow-sm border border-grace p-6 mb-6">
+          <h2 className="text-xl font-bold text-scripture mb-4">Related Resources</h2>
+          <div className="grid gap-2 sm:grid-cols-2">
+            <Link href={`/bible-encyclopedia/${book}`} className="text-sacred hover:underline text-sm">
+              {metadata.name} Encyclopedia Entry
+            </Link>
+            <Link href="/family-tree" className="text-sacred hover:underline text-sm">Bible Family Tree</Link>
+            <Link href="/characters" className="text-sacred hover:underline text-sm">All Bible Characters</Link>
+            <Link href="/lexicon" className="text-sacred hover:underline text-sm">Greek &amp; Hebrew Lexicon</Link>
+            <Link href="/timeline" className="text-sacred hover:underline text-sm">Bible Timeline</Link>
+            <Link href="/bible-chapter-summaries" className="text-sacred hover:underline text-sm">All Chapter Summaries</Link>
+          </div>
+        </section>
 
         {/* Navigation to Other Books */}
         <section className="bg-white rounded-xl shadow-sm border border-grace p-6">

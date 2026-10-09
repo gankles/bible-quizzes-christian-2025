@@ -13,7 +13,6 @@ import BookChaptersClient from '@/components/BookChaptersClient';
 import ChapterCommandments from '@/components/ChapterCommandments';
 import { getCommandmentsByChapter } from '@/lib/commandments-data';
 import { getBookIntroduction } from '@/lib/book-introductions';
-import { renderWithBold } from '@/lib/render-helpers';
 import { parseKjvSlug, parseKjvChapterSlug, getVerseTopic } from '@/lib/kjv-verse-data';
 import { getChapterWithCommentary, stripHtml } from '@/lib/bolls-api';
 import KjvVersePage from '@/components/KjvVersePage';
@@ -479,119 +478,18 @@ export default async function DynamicPage({ params }: PageProps) {
         />
 
         {bookIntro && (
-          <section className="py-12 bg-white">
+          <section className="py-10 bg-white">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-              {/* Introduction */}
-              <div className="mb-10">
-                <h2 className="text-2xl font-bold text-scripture mb-4">About {bookName}</h2>
-                <div className="text-scripture leading-relaxed space-y-4">
-                  {bookIntro.introduction.split('\n\n').slice(0, 3).map((p, i) => (
-                    <p key={i}>{p}</p>
-                  ))}
-                </div>
-              </div>
-
-              {/* Key Themes */}
-              {bookIntro.keyThemes.length > 0 && (
-                <div className="mb-10">
-                  <h2 className="text-2xl font-bold text-scripture mb-4">Key Themes</h2>
-                  <div className="grid gap-4 sm:grid-cols-2">
-                    {bookIntro.keyThemes.slice(0, 6).map((t, i) => (
-                      <div key={i} className="border border-grace rounded-lg p-4">
-                        <h3 className="font-semibold text-scripture mb-1">{t.theme}</h3>
-                        <p className="text-sm text-ink-muted">{t.description.slice(0, 150)}{t.description.length > 150 ? '...' : ''}</p>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {/* Christ in Book */}
-              {bookIntro.christInBook && (
-                <div className="mb-10">
-                  <h2 className="text-2xl font-bold text-scripture mb-4">Christ in {bookName}</h2>
-                  <div className="text-scripture leading-relaxed space-y-4">
-                    {bookIntro.christInBook.split('\n\n').slice(0, 2).map((p, i) => (
-                      <p key={i}>{p}</p>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {/* Key Verses */}
-              {bookIntro.keyVerses.length > 0 && (
-                <div className="mb-10">
-                  <h2 className="text-2xl font-bold text-scripture mb-4">Key Verses</h2>
-                  <div className="space-y-3">
-                    {bookIntro.keyVerses.slice(0, 8).map((v, i) => (
-                      <div key={i} className="border-l-2 border-sacred/50 pl-4">
-                        <p className="font-serif italic text-scripture">&ldquo;{v.text}&rdquo;</p>
-                        <p className="text-sm text-ink-muted mt-1">{v.reference}</p>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {/* Historical Context */}
-              {bookIntro.historicalContext && (
-                <div className="mb-10">
-                  <h2 className="text-2xl font-bold text-scripture mb-4">Historical Context</h2>
-                  <div className="text-scripture leading-relaxed space-y-4">
-                    {bookIntro.historicalContext.split('\n\n').map((p, i) => (
-                      <p key={i}>{renderWithBold(p)}</p>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {/* Theological Significance */}
-              {bookIntro.theologicalSignificance && (
-                <div className="mb-10">
-                  <h2 className="text-2xl font-bold text-scripture mb-4">Theological Significance</h2>
-                  <div className="text-scripture leading-relaxed space-y-4">
-                    {bookIntro.theologicalSignificance.split('\n\n').map((p, i) => (
-                      <p key={i}>{renderWithBold(p)}</p>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {/* Literary Style */}
-              {bookIntro.literaryStyle && (
-                <div className="mb-10">
-                  <h2 className="text-2xl font-bold text-scripture mb-4">Literary Style</h2>
-                  <div className="text-scripture leading-relaxed space-y-4">
-                    {bookIntro.literaryStyle.split('\n\n').map((p, i) => (
-                      <p key={i}>{renderWithBold(p)}</p>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {/* Relationship to the New Testament */}
-              {bookIntro.relationshipToNewTestament && (
-                <div className="mb-10">
-                  <h2 className="text-2xl font-bold text-scripture mb-4">Relationship to the New Testament</h2>
-                  <div className="text-scripture leading-relaxed space-y-4">
-                    {bookIntro.relationshipToNewTestament.split('\n\n').map((p, i) => (
-                      <p key={i}>{renderWithBold(p)}</p>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {/* Practical Application */}
-              {bookIntro.practicalApplication && (
-                <div className="mb-10">
-                  <h2 className="text-2xl font-bold text-scripture mb-4">Practical Application</h2>
-                  <div className="text-scripture leading-relaxed space-y-4">
-                    {bookIntro.practicalApplication.split('\n\n').map((p, i) => (
-                      <p key={i}>{renderWithBold(p)}</p>
-                    ))}
-                  </div>
-                </div>
-              )}
+              <h2 className="text-2xl font-bold text-scripture mb-3">About {bookName}</h2>
+              <p className="text-scripture leading-relaxed mb-4">
+                {bookIntro.introduction.split('\n\n')[0]}
+              </p>
+              <Link
+                href={`/books/${chaptersBook}`}
+                className="text-sacred font-medium hover:underline"
+              >
+                Read the full {bookName} summary &rarr;
+              </Link>
             </div>
           </section>
         )}

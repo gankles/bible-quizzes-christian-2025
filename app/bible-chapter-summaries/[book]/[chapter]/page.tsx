@@ -8,6 +8,7 @@ import { loadChapterBreakdown, getChapterBreakdown, loadChapterSummary } from '@
 import { getBookIntroduction } from '@/lib/book-introductions';
 import { getDevotionalsByBook } from '@/lib/devotionals-data';
 import { renderWithBold } from '@/lib/render-helpers';
+import PrintButton from '@/components/PrintButton';
 
 export const revalidate = 86400 // 24 hours
 
@@ -39,7 +40,7 @@ export async function generateMetadata({ params }: ChapterSummaryPageProps): Pro
   const summary = loadChapterSummary(book, chapterNum);
   const meta = getBookMetadata(book);
   const chTitle = summary?.title || breakdown.title;
-  const title = `${bookData.name} ${chapterNum} Summary: ${chTitle} | Bible Study Guide | Bible Maximum`;
+  const title = `${bookData.name} ${chapterNum} Summary: ${chTitle} | Bible Maximum`;
   const desc = summary?.overview || summary?.shortSummary || `${bookData.name} chapter ${chapterNum} - "${breakdown.title}." ${breakdown.keyEvent}.`;
   const description = `${desc} ${breakdown.verses} verses. Author: ${meta?.author || 'Unknown'}.`;
 
@@ -178,15 +179,18 @@ export default async function ChapterSummaryPage({ params }: ChapterSummaryPageP
               priority
             />
             <div className="absolute inset-0 flex flex-col justify-end p-6 md:p-8">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="bg-white/20 text-white text-xs font-medium px-2 py-1 rounded">
-                  {bookData.testament === 'old' ? 'Old Testament' : 'New Testament'}
-                </span>
-                {outlineSection && (
+              <div className="flex items-center justify-between gap-2 mb-2">
+                <div className="flex items-center gap-2">
                   <span className="bg-white/20 text-white text-xs font-medium px-2 py-1 rounded">
-                    {outlineSection.heading}
+                    {bookData.testament === 'old' ? 'Old Testament' : 'New Testament'}
                   </span>
-                )}
+                  {outlineSection && (
+                    <span className="bg-white/20 text-white text-xs font-medium px-2 py-1 rounded">
+                      {outlineSection.heading}
+                    </span>
+                  )}
+                </div>
+                <PrintButton />
               </div>
               <h1 className="text-2xl md:text-3xl font-display font-bold text-white">
                 {bookData.name} {chapterNum}: {chTitle}

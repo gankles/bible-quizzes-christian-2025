@@ -54,14 +54,12 @@ let slugToFile: Record<string, string> | null = null;
 function buildSlugMap(): Record<string, string> {
   if (slugToFile) return slugToFile;
   slugToFile = {};
-  const dir = path.join(process.cwd(), 'data', 'kjvstudy', 'books');
+  const dir = path.join(process.cwd(), 'data', 'book-introductions');
   try {
     const files = fs.readdirSync(dir);
     for (const file of files) {
-      if (!file.endsWith('.json')) continue;
-      // e.g. "1_samuel.json" -> slug "1-samuel"
-      // e.g. "song_of_solomon.json" -> slug "song-of-solomon"
-      const slug = file.replace('.json', '').replace(/_/g, '-');
+      if (!file.endsWith('.json') || file.startsWith('.')) continue;
+      const slug = file.replace('.json', '');
       slugToFile[slug] = file;
     }
   } catch {
@@ -80,7 +78,7 @@ export function getBookIntroduction(bookSlug: string): BookIntroduction | null {
     return null;
   }
 
-  const filePath = path.join(process.cwd(), 'data', 'kjvstudy', 'books', filename);
+  const filePath = path.join(process.cwd(), 'data', 'book-introductions', filename);
   try {
     const raw: RawBookData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
     const intro: BookIntroduction = {

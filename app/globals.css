@@ -120,3 +120,32 @@ body {
     border-radius: 0.5rem;
   }
 }
+
+/* Print stylesheet - used by the "Download PDF" button (window.print()) */
+@media print {
+  header,
+  footer,
+  nav,
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: #fff !important;
+  }
+  main {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  a {
+    color: #000 !important;
+    text-decoration: none !important;
+  }
+  section {
+    break-inside: avoid;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin-bottom: 1.5rem !important;
+  }
+}

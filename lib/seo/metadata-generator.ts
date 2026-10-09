@@ -502,7 +502,7 @@ function generatePrayerMetadata(data: {
 }
 
 export function generateLexiconMetadata(entry: any) {
-    const title = `What Does the ${entry.language} Word ${entry.word} (${entry.strongs}) Mean? | Definition from Strong's Concordance and Classical Lexicons | Bible Maximum`;
+    const title = `${entry.strongs} ${entry.word} Meaning – Strong's Concordance`;
     const mainDef = entry.definitions.strongs.substring(0, 100);
     const description = truncate(`Discover the ${entry.language} meaning, Scriptural morphology, and multi-source study (Strong's, ${entry.language === 'Greek' ? 'LSJ, Abbott-Smith' : 'BDB'}) for ${entry.word}. "${mainDef}..."`, 160);
 

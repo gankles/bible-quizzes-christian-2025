@@ -54,6 +54,7 @@ const footerSections = [
       { name: "Nave's Topical Bible", href: '/nave-topics' },
       { name: 'Bible Names', href: '/bible-names' },
       { name: 'Bible People', href: '/people' },
+      { name: 'Family Tree', href: '/family-tree' },
       { name: 'Bible Stories', href: '/bible-stories' },
       { name: 'Commandments', href: '/commandments' }
     ]

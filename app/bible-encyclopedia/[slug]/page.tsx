@@ -10,8 +10,10 @@ import {
 } from '@/lib/encyclopedia-data';
 import { getBookMetadata } from '@/lib/book-metadata';
 import { getBookIntroduction } from '@/lib/book-introductions';
+import { findPersonByName } from '@/lib/family-tree';
 import { renderWithBold } from '@/lib/render-helpers';
 import { buildEncyclopediaMetadata, buildEncyclopediaBookMetadata } from '@/lib/seo/metadata-builder';
+import { canonicalUrl } from '@/lib/site-config';
 
 export const revalidate = 86400 // 24 hours
 
@@ -31,7 +33,11 @@ export async function generateMetadata({ params }: EncyclopediaPageProps): Promi
 
   const bookMeta = getBookMetadata(slug);
   if (bookMeta) {
-    return buildEncyclopediaBookMetadata(bookMeta, slug);
+    const metadata = buildEncyclopediaBookMetadata(bookMeta, slug);
+    return {
+      ...metadata,
+      alternates: { canonical: canonicalUrl(`/books/${slug}`) },
+    };
   }
 
   return buildEncyclopediaMetadata(entry);
@@ -74,6 +80,7 @@ export default async function EncyclopediaDetailPage({ params }: EncyclopediaPag
   const bookMeta = getBookMetadata(slug);
   const bookIntro = bookMeta ? getBookIntroduction(slug) : null;
   const isBibleBook = !!bookMeta;
+  const familyTreePerson = entry.type === 'person' ? findPersonByName(entry.title) : null;
 
   // Extract key verses (first verse from each sub-topic, up to 10)
   const keyVerses: { reference: string; context: string }[] = [];
@@ -343,7 +350,7 @@ export default async function EncyclopediaDetailPage({ params }: EncyclopediaPag
 
       <main className="max-w-5xl mx-auto px-4 py-8 space-y-10">
 
-        {/* Bible Book Rich Content */}
+        {/* Bible Book Content */}
         {isBibleBook && bookIntro ? (
           <>
             {/* About the Book */}
@@ -351,80 +358,16 @@ export default async function EncyclopediaDetailPage({ params }: EncyclopediaPag
               <h2 className="text-2xl font-bold font-display text-scripture mb-4">
                 About the Book of {bookMeta!.name}
               </h2>
-              <div className="text-scripture leading-relaxed space-y-4">
-                {bookIntro.introduction.split('\n\n').slice(0, 4).map((p, i) => (
-                  <p key={i}>{renderWithBold(p)}</p>
-                ))}
-              </div>
+              <p className="text-scripture leading-relaxed mb-4">
+                {renderWithBold(bookIntro.introduction.split('\n\n')[0])}
+              </p>
+              <Link
+                href={`/books/${slug}`}
+                className="text-sacred font-medium hover:underline"
+              >
+                Read the full {bookMeta!.name} study guide &rarr;
+              </Link>
             </section>
-
-            {/* Key Themes */}
-            {bookIntro.keyThemes.length > 0 && (
-              <section className="bg-white rounded-xl border border-grace p-6 md:p-8">
-                <h2 className="text-2xl font-bold font-display text-scripture mb-4">
-                  Key Themes
-                </h2>
-                <div className="grid gap-4 sm:grid-cols-2">
-                  {bookIntro.keyThemes.slice(0, 8).map((t, i) => (
-                    <div key={i} className="border border-grace rounded-lg p-4">
-                      <h3 className="font-semibold text-scripture mb-1">{t.theme}</h3>
-                      <p className="text-sm text-ink-muted">{t.description}</p>
-                    </div>
-                  ))}
-                </div>
-              </section>
-            )}
-
-            {/* Book Outline */}
-            {bookMeta!.outline.length > 0 && (
-              <section className="bg-white rounded-xl border border-grace p-6 md:p-8">
-                <h2 className="text-2xl font-bold font-display text-scripture mb-4">
-                  Book Outline
-                </h2>
-                <div className="space-y-3">
-                  {bookMeta!.outline.map((item, i) => (
-                    <div key={i} className="flex gap-4 items-start border-b border-grace/60 last:border-b-0 pb-3 last:pb-0">
-                      <span className="flex-shrink-0 w-8 h-8 rounded-full bg-indigo-100 text-indigo-700 text-sm font-bold flex items-center justify-center mt-0.5">
-                        {i + 1}
-                      </span>
-                      <div>
-                        <p className="font-semibold text-scripture">{item.heading}</p>
-                        <p className="text-xs text-ink-muted mb-1">{item.reference}</p>
-                        <p className="text-sm text-ink-muted">{item.description}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </section>
-            )}
-
-            {/* Christ in Book */}
-            {bookIntro.christInBook && (
-              <section className="bg-white rounded-xl border border-grace p-6 md:p-8">
-                <h2 className="text-2xl font-bold font-display text-scripture mb-4">
-                  Christ in {bookMeta!.name}
-                </h2>
-                <div className="text-scripture leading-relaxed space-y-4">
-                  {bookIntro.christInBook.split('\n\n').slice(0, 3).map((p, i) => (
-                    <p key={i}>{renderWithBold(p)}</p>
-                  ))}
-                </div>
-              </section>
-            )}
-
-            {/* Theological Significance */}
-            {bookIntro.theologicalSignificance && (
-              <section className="bg-white rounded-xl border border-grace p-6 md:p-8">
-                <h2 className="text-2xl font-bold font-display text-scripture mb-4">
-                  Theological Significance
-                </h2>
-                <div className="text-scripture leading-relaxed space-y-4">
-                  {bookIntro.theologicalSignificance.split('\n\n').slice(0, 4).map((p, i) => (
-                    <p key={i}>{renderWithBold(p)}</p>
-                  ))}
-                </div>
-              </section>
-            )}
 
             {/* Famous Verses */}
             {bookMeta!.famousVerses.length > 0 && (
@@ -678,6 +621,20 @@ export default async function EncyclopediaDetailPage({ params }: EncyclopediaPag
                     </p>
                     <p className="text-sm text-ink-muted mt-1">
                       Biography, timeline, and relationships
+                    </p>
+                  </Link>
+                )}
+
+                {familyTreePerson && (
+                  <Link
+                    href={`/family-tree/${familyTreePerson.slug}`}
+                    className="block bg-white rounded-lg border border-grace p-4 hover:border-sacred/50 hover:shadow-sm transition-all group"
+                  >
+                    <p className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
+                      {entry.title} Family Tree
+                    </p>
+                    <p className="text-sm text-ink-muted mt-1">
+                      Parents, spouse(s), and children
                     </p>
                   </Link>
                 )}
