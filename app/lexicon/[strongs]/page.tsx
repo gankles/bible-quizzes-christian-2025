@@ -6,14 +6,23 @@ import {
     getAllLexiconEntries
 } from '@/lib/database/queries'
 import { generateLexiconMetadata } from '@/lib/seo/metadata-generator'
-import { generateLexiconSchema } from '@/lib/seo/schema-generator'
+import { generateLexiconSchema, generateLexiconFAQSchema } from '@/lib/seo/schema-generator'
 import LexiconTool from '@/components/LexiconTool'
 import { getWordStudyByStrongs } from '@/lib/word-studies-enhanced'
+import { getWordStudyEssay } from '@/lib/word-study-essays'
 import {
     BookOpenIcon
 } from '@/components/icons'
 
 export const revalidate = 86400 // 24 hours
+
+/** "Genesis 1:1" -> "/verses/genesis/1/1" */
+function refToVersePath(ref: string): string {
+    const match = ref.match(/^(\d?\s*[A-Za-z]+)\s+(\d+):(\d+)$/)
+    if (!match) return '/lexicon'
+    const book = match[1].trim().toLowerCase().replace(/\s+/g, '-')
+    return `/verses/${book}/${match[2]}/${match[3]}`
+}
 
 interface LexiconPageProps {
     params: Promise<{
@@ -44,6 +53,7 @@ export default async function LexiconDetailPage({ params }: LexiconPageProps) {
 
     const schema = generateLexiconSchema(entry)
     const wordStudy = getWordStudyByStrongs(strongs.toUpperCase())
+    const essay = getWordStudyEssay(strongs)
 
     // Resolve cross-reference entries for enriched Related Words display
     const crossRefEntries = await Promise.all(
@@ -55,11 +65,20 @@ export default async function LexiconDetailPage({ params }: LexiconPageProps) {
         })
     )
 
+    // Root-word entry, for interlinking from the essay section
+    const rootEntry = entry.rootWord ? await getLexiconEntry(entry.rootWord) : null
+
+    const faqSchema = generateLexiconFAQSchema(entry, rootEntry)
+
     return (
         <div className="min-h-screen bg-primary-light/30">
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
 
             {/* HERO */}
@@ -80,7 +99,8 @@ export default async function LexiconDetailPage({ params }: LexiconPageProps) {
 
                     <h1 className="text-3xl md:text-4xl font-display font-bold text-scripture mb-5 tracking-tight leading-tight">
                         The meaning of{' '}
-                        <span className="text-sacred">&ldquo;{entry.word}&rdquo;</span>
+                        <span className="text-sacred">&ldquo;{entry.transliteration}&rdquo;</span>{' '}
+                        ({entry.strongs}) — <span className="text-sacred">{entry.word}</span>
                     </h1>
 
                     <p className="text-xl font-serif italic text-ink-muted max-w-2xl leading-relaxed">
@@ -126,12 +146,56 @@ export default async function LexiconDetailPage({ params }: LexiconPageProps) {
             <main className="max-w-7xl mx-auto px-6 py-16">
                 <div>
 
-                    {/* INTERACTIVE LEXICON STUDY TOOL */}
-                    <LexiconTool entry={entry} crossRefEntries={crossRefEntries} />
+                    {/* AI WORD-STUDY ESSAY */}
+                    {essay && (
+                        <section className="border border-grace rounded-xl p-8">
+                            <h2 className="text-2xl font-bold text-scripture mb-6">
+                                Word Study: {essay.word} ({essay.transliteration})
+                            </h2>
+                            <div className="space-y-6">
+                                <div>
+                                    <h3 className="text-sm font-semibold text-ink-muted uppercase tracking-wider mb-2">Root Meaning</h3>
+                                    <p className="text-scripture leading-relaxed">{essay.rootMeaning}</p>
+                                </div>
+                                <div>
+                                    <h3 className="text-sm font-semibold text-ink-muted uppercase tracking-wider mb-2">Usage in Scripture</h3>
+                                    <p className="text-scripture leading-relaxed">{essay.usageInScripture}</p>
+                                </div>
+                                <div>
+                                    <h3 className="text-sm font-semibold text-ink-muted uppercase tracking-wider mb-2">Theological Significance</h3>
+                                    <p className="text-scripture leading-relaxed">{essay.theologicalSignificance}</p>
+                                </div>
+                                <div>
+                                    <h3 className="text-sm font-semibold text-ink-muted uppercase tracking-wider mb-2">
+                                        Reflection: <Link href={refToVersePath(essay.keyVerseRef)} className="text-sacred hover:underline">{essay.keyVerseRef}</Link>
+                                    </h3>
+                                    <p className="text-ink-muted italic mb-2">&ldquo;{essay.keyVerseText}&rdquo;</p>
+                                    <p className="text-scripture leading-relaxed">{essay.keyVerseReflection}</p>
+                                </div>
+                                {(rootEntry || crossRefEntries.some(r => r.word)) && (
+                                    <div className="pt-4 border-t border-grace">
+                                        <h3 className="text-sm font-semibold text-ink-muted uppercase tracking-wider mb-2">Related Words</h3>
+                                        <div className="flex flex-wrap gap-x-4 gap-y-1">
+                                            {rootEntry && (
+                                                <Link href={`/lexicon/${rootEntry.strongs}`} className="text-sacred hover:underline text-sm">
+                                                    Root: {rootEntry.word} ({rootEntry.transliteration}) — {rootEntry.strongs}
+                                                </Link>
+                                            )}
+                                            {crossRefEntries.filter(r => r.word).slice(0, 6).map((ref) => (
+                                                <Link key={ref.strongs} href={`/lexicon/${ref.strongs}`} className="text-sacred hover:underline text-sm">
+                                                    {ref.word} ({ref.transliteration}) — {ref.strongs}
+                                                </Link>
+                                            ))}
+                                        </div>
+                                    </div>
+                                )}
+                            </div>
+                        </section>
+                    )}
 
                     {/* THEOLOGICAL WORD STUDY */}
                     {wordStudy && (
-                        <section className="mt-16 border border-grace rounded-xl p-8">
+                        <section className="mt-8 border border-grace rounded-xl p-8">
                             <h2 className="text-2xl font-bold text-scripture mb-6">
                                 Theological Word Study: {wordStudy.word.charAt(0).toUpperCase() + wordStudy.word.slice(1)}
                             </h2>
@@ -173,6 +237,11 @@ export default async function LexiconDetailPage({ params }: LexiconPageProps) {
                             </div>
                         </section>
                     )}
+
+                    {/* INTERACTIVE LEXICON STUDY TOOL */}
+                    <div className="mt-16">
+                        <LexiconTool entry={entry} crossRefEntries={crossRefEntries} />
+                    </div>
 
                     {/* RELATED STUDIES */}
                     <section className="mt-12 bg-primary-light/30 border border-grace rounded-xl p-6">

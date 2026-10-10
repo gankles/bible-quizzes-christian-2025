@@ -501,8 +501,28 @@ function generatePrayerMetadata(data: {
     }
 }
 
+/** Extracts a short, clean gloss (e.g. "Beginning, chief, first") from the raw
+ * Strong's KJV-usage text, which is full of translator notation ([idiom], X, +, etc). */
+export function extractShortGloss(raw: string): string {
+    if (!raw) return '';
+    let first = raw.split('\n')[0];
+    first = first.split(/\bSee also\b/i)[0];
+    first = first.replace(/\([^)]*\)/g, '');
+    first = first.replace(/\[[^\]]*\]/g, '');
+    first = first.replace(/\bX\b/g, '');
+    first = first.replace(/[{}+]/g, '');
+    first = first.replace(/^[\s\-.]+/, '');
+    first = first.replace(/[.;\s-]+$/, '');
+    const parts = first.split(',').map(s => s.trim()).filter(s => s.length > 1 && /[a-zA-Z]/.test(s));
+    const result = parts.slice(0, 3).join(', ');
+    return result.length >= 3 ? result.charAt(0).toUpperCase() + result.slice(1) : '';
+}
+
 export function generateLexiconMetadata(entry: any) {
-    const title = `${entry.strongs} ${entry.word} Meaning – Strong's Concordance`;
+    const gloss = extractShortGloss(entry.definitions?.strongs);
+    const title = gloss
+        ? `${entry.transliteration} (${entry.strongs}): ${gloss} — ${entry.language} Word Study`
+        : `${entry.transliteration} (${entry.strongs}): ${entry.language} Word Study`;
     const mainDef = entry.definitions.strongs.substring(0, 100);
     const description = truncate(`Discover the ${entry.language} meaning, Scriptural morphology, and multi-source study (Strong's, ${entry.language === 'Greek' ? 'LSJ, Abbott-Smith' : 'BDB'}) for ${entry.word}. "${mainDef}..."`, 160);
 

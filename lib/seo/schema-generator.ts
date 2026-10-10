@@ -2,6 +2,7 @@
 // Generates JSON-LD for Article, FAQ, Breadcrumb, Person, Course schemas
 
 import { SITE_CONFIG } from '@/lib/site-config'
+import { extractShortGloss } from '@/lib/seo/metadata-generator'
 
 export interface SchemaParams {
     type: 'verse' | 'chapter' | 'book' | 'topic' | 'character' | 'study-plan' | 'verse-combination' | 'question' | 'prayer' | 'lexicon'
@@ -497,4 +498,57 @@ export function generateLexiconSchema(entry: any) {
             '@id': `${SITE_CONFIG.domain}/lexicon/${entry.strongs}`
         }
     };
+}
+
+/**
+ * Lexicon FAQ Schema — targets "People Also Ask"-style queries
+ * (meaning, root word, pronunciation) seen ranking for Strong's number searches.
+ */
+export function generateLexiconFAQSchema(entry: any, rootEntry?: any | null): object {
+    const gloss = extractShortGloss(entry.definitions?.strongs)
+    const mainDef = entry.definitions?.strongs ? entry.definitions.strongs.split('\n')[0].trim() : ''
+
+    const mainEntity: object[] = [
+        {
+            '@type': 'Question',
+            name: `What does ${entry.transliteration} (${entry.strongs}) mean in ${entry.language}?`,
+            acceptedAnswer: {
+                '@type': 'Answer',
+                text: gloss
+                    ? `${entry.transliteration} (${entry.strongs}) means "${gloss}" in ${entry.language}. ${mainDef}`
+                    : `${entry.transliteration} (${entry.strongs}) is a ${entry.language} word. ${mainDef}`,
+            },
+        },
+    ]
+
+    if (entry.phonetic || entry.pronunciation) {
+        mainEntity.push({
+            '@type': 'Question',
+            name: `How do you pronounce ${entry.transliteration} (${entry.strongs})?`,
+            acceptedAnswer: {
+                '@type': 'Answer',
+                text: `${entry.transliteration} (${entry.strongs}) is pronounced "${entry.phonetic || entry.pronunciation}".`,
+            },
+        })
+    }
+
+    if (rootEntry) {
+        const rootGloss = extractShortGloss(rootEntry.definitions?.strongs)
+        mainEntity.push({
+            '@type': 'Question',
+            name: `What is the root word of ${entry.transliteration} (${entry.strongs})?`,
+            acceptedAnswer: {
+                '@type': 'Answer',
+                text: rootGloss
+                    ? `${entry.transliteration} (${entry.strongs}) comes from the root word ${rootEntry.transliteration} (${rootEntry.strongs}), meaning "${rootGloss}".`
+                    : `${entry.transliteration} (${entry.strongs}) comes from the root word ${rootEntry.transliteration} (${rootEntry.strongs}).`,
+            },
+        })
+    }
+
+    return {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity,
+    }
 }

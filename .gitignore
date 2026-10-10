@@ -44,6 +44,9 @@ yarn-error.log*
 /data/topics.json
 /data/kjvstudy/verse_commentary/psalms.json
 
+# AI-generated word-study essays (13,633 files, ~1.6GB) — not yet packaged for GitHub Releases
+/data/word-study-essays/
+
 # generated geo thumbnails (run scripts/filter-geo-thumbnails.ts to regenerate)
 /public/geo/
 
