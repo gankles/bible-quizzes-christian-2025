@@ -9,6 +9,7 @@ import {
 import { getBibleNameBySlug } from '@/lib/bible-names-data';
 import { StructuredData } from '@/components/StructuredData';
 import { findBiography } from '@/lib/biographies-data';
+import { getCharacterEssay } from '@/lib/character-essays';
 import { getVersePlaces, formatPlaceTypeSingular, GeocodingPlace } from '@/lib/geocoding-data';
 
 export const revalidate = 86400 // 24 hours
@@ -61,6 +62,7 @@ export default async function PersonPage({ params }: PageProps) {
   if (!person) notFound();
 
   const biography = findBiography(person.name);
+  const essay = getCharacterEssay(person.slug);
 
   const allPeople = getAllPeople();
   const currentIndex = allPeople.findIndex(p => p.slug === person.slug);
@@ -121,11 +123,13 @@ export default async function PersonPage({ params }: PageProps) {
         name: `Who is ${person.name} in the Bible?`,
         acceptedAnswer: {
           '@type': 'Answer',
-          text: biography
-            ? `${biography.summary} ${biography.significance}`
-            : person.uniqueAttribute
-              ? `${person.name} is described in the Bible as ${person.uniqueAttribute}.${person.tribe ? ` ${person.name} belonged to the tribe of ${person.tribe}.` : ''}`
-              : `${person.name} is a person mentioned in the Bible.${person.tribe ? ` ${person.name} belonged to the tribe of ${person.tribe}.` : ''}`,
+          text: essay
+            ? `${essay.overview} ${essay.scriptureSignificance}`
+            : biography
+              ? `${biography.summary} ${biography.significance}`
+              : person.uniqueAttribute
+                ? `${person.name} is described in the Bible as ${person.uniqueAttribute}.${person.tribe ? ` ${person.name} belonged to the tribe of ${person.tribe}.` : ''}`
+                : `${person.name} is a person mentioned in the Bible.${person.tribe ? ` ${person.name} belonged to the tribe of ${person.tribe}.` : ''}`,
         },
       },
       ...(nameMeaning ? [{
@@ -230,34 +234,54 @@ export default async function PersonPage({ params }: PageProps) {
         </div>
 
         {/* Biography */}
-        {biography && (
+        {(essay || biography) && (
           <div className="bg-white border border-grace rounded-xl p-6 mb-8">
             <h2 className="text-lg font-bold text-scripture mb-4">Biography</h2>
-            <p className="text-scripture leading-relaxed mb-4">{biography.summary}</p>
+            <p className="text-scripture leading-relaxed mb-4">
+              {essay ? essay.overview : biography!.summary}
+            </p>
 
-            {biography.significance && (
+            {essay?.namesAndTitles && (
               <div className="mb-4">
-                <h3 className="text-sm font-semibold text-ink-muted uppercase tracking-wider mb-2">Significance</h3>
-                <p className="text-scripture leading-relaxed">{biography.significance}</p>
+                <h3 className="text-sm font-semibold text-ink-muted uppercase tracking-wider mb-2">Names &amp; Titles</h3>
+                <p className="text-scripture leading-relaxed">{essay.namesAndTitles}</p>
               </div>
             )}
 
-            {biography.keyEvents.length > 0 && (
-              <div>
-                <h3 className="text-sm font-semibold text-ink-muted uppercase tracking-wider mb-3">Key Events</h3>
-                <div className="space-y-2">
-                  {biography.keyEvents.map((evt, i) => (
-                    <div key={i} className="flex gap-3 text-sm">
-                      <div className="flex-shrink-0 w-2 h-2 rounded-full bg-sacred mt-1.5" />
-                      <div>
-                        <span className="text-scripture">{evt.event}</span>
-                        <span className="text-ink-muted ml-2">({evt.verse})</span>
-                      </div>
-                    </div>
-                  ))}
-                </div>
+            {essay?.familyAndRelationships && (
+              <div className="mb-4">
+                <h3 className="text-sm font-semibold text-ink-muted uppercase tracking-wider mb-2">Family</h3>
+                <p className="text-scripture leading-relaxed">{essay.familyAndRelationships}</p>
               </div>
             )}
+
+            <div className="mb-4">
+              <h3 className="text-sm font-semibold text-ink-muted uppercase tracking-wider mb-2">Significance</h3>
+              <p className="text-scripture leading-relaxed">
+                {essay ? essay.scriptureSignificance : biography!.significance}
+              </p>
+            </div>
+
+            {(() => {
+              const keyEvents = essay && essay.keyEvents.length > 0 ? essay.keyEvents : biography?.keyEvents || [];
+              if (keyEvents.length === 0) return null;
+              return (
+                <div>
+                  <h3 className="text-sm font-semibold text-ink-muted uppercase tracking-wider mb-3">Key Events</h3>
+                  <div className="space-y-2">
+                    {keyEvents.map((evt, i) => (
+                      <div key={i} className="flex gap-3 text-sm">
+                        <div className="flex-shrink-0 w-2 h-2 rounded-full bg-sacred mt-1.5" />
+                        <div>
+                          <span className="text-scripture">{evt.event}</span>
+                          <span className="text-ink-muted ml-2">({evt.verse})</span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              );
+            })()}
           </div>
         )}
 
@@ -479,9 +503,11 @@ export default async function PersonPage({ params }: PageProps) {
                 Who is {person.name} in the Bible?
               </h3>
               <p className="text-scripture text-sm leading-relaxed">
-                {person.uniqueAttribute
-                  ? <>{person.name} is described in the Bible as {person.uniqueAttribute}.{person.tribe ? ` ${person.name} belonged to the tribe of ${person.tribe}.` : ''}</>
-                  : <>{person.name} is a person mentioned in the Bible.{person.tribe ? ` ${person.name} belonged to the tribe of ${person.tribe}.` : ''}</>
+                {essay
+                  ? essay.overview
+                  : person.uniqueAttribute
+                    ? <>{person.name} is described in the Bible as {person.uniqueAttribute}.{person.tribe ? ` ${person.name} belonged to the tribe of ${person.tribe}.` : ''}</>
+                    : <>{person.name} is a person mentioned in the Bible.{person.tribe ? ` ${person.name} belonged to the tribe of ${person.tribe}.` : ''}</>
                 }
               </p>
             </div>

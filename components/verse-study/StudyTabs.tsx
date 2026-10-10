@@ -7,6 +7,7 @@ interface StudyTabsProps {
   verseText: string;
   commentary: string | null;
   bookName: string;
+  essay?: { historicalContext: string; theologicalSignificance: string } | null;
 }
 
 type TabType = 'scholarly' | 'devotional' | 'practical';
@@ -306,7 +307,8 @@ export default function StudyTabs({
   reference,
   verseText,
   commentary,
-  bookName
+  bookName,
+  essay
 }: StudyTabsProps) {
   const [activeTab, setActiveTab] = useState<TabType>('scholarly');
 
@@ -347,6 +349,7 @@ export default function StudyTabs({
             commentary={commentary}
             reference={reference}
             bookName={bookName}
+            essay={essay}
           />
         )}
         {activeTab === 'devotional' && (
@@ -372,20 +375,26 @@ export default function StudyTabs({
 function ScholarlyContent({
   commentary,
   reference,
-  bookName
+  bookName,
+  essay
 }: {
   commentary: string | null;
   reference: string;
   bookName: string;
+  essay?: { historicalContext: string; theologicalSignificance: string } | null;
 }) {
   return (
     <div className="space-y-4">
       <div>
         <h4 className="font-semibold text-scripture mb-2">Historical Context</h4>
         <p className="text-sm text-ink-muted">
-          This verse is found in the book of {bookName}. Understanding the historical
-          and cultural background helps illuminate its meaning for the original audience
-          and for us today.
+          {essay ? essay.historicalContext : (
+            <>
+              This verse is found in the book of {bookName}. Understanding the historical
+              and cultural background helps illuminate its meaning for the original audience
+              and for us today.
+            </>
+          )}
         </p>
       </div>
 
@@ -402,9 +411,13 @@ function ScholarlyContent({
       <div>
         <h4 className="font-semibold text-scripture mb-2">Theological Significance</h4>
         <p className="text-sm text-ink-muted">
-          {reference} contributes to our understanding of God&apos;s character and His
-          relationship with humanity. Consider how this verse connects to the broader
-          themes of Scripture.
+          {essay ? essay.theologicalSignificance : (
+            <>
+              {reference} contributes to our understanding of God&apos;s character and His
+              relationship with humanity. Consider how this verse connects to the broader
+              themes of Scripture.
+            </>
+          )}
         </p>
       </div>
     </div>

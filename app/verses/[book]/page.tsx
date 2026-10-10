@@ -13,6 +13,7 @@ import {
 import CombinationQuizWrapper from '@/components/CombinationQuizWrapper'
 import { generateVerseCombinationSchema } from '@/lib/seo/schema-generator'
 import { getBookBySlug } from "@/lib/bibleData";
+import { getVerseComparisonEssay } from '@/lib/verse-comparison-essays';
 import Link from 'next/link'
 
 export const revalidate = 86400 // 24 hours
@@ -62,6 +63,10 @@ export default async function ScripturalSlugPage({ params }: Props) {
         if (!data) notFound()
 
         const { verse1, verse2 } = data
+        const comparisonEssay = getVerseComparisonEssay(
+            `${verse1.book}-${verse1.chapter}-${verse1.verse}`,
+            `${verse2.book}-${verse2.chapter}-${verse2.verse}`
+        )
 
         return (
             <div className="bg-[#FAFAF9] pb-32 min-h-screen">
@@ -145,7 +150,11 @@ export default async function ScripturalSlugPage({ params }: Props) {
                                     <h2 className="text-4xl font-bold tracking-tighter uppercase italic">Scholarly <span className="text-sacred/30 not-italic font-light">Insight.</span></h2>
                                 </div>
                                 <p className="text-2xl text-white/50 leading-[1.8] font-medium italic border-l-4 border-sacred pl-12">
-                                    "When we hold these two scriptures together, we see a beautiful tapestry of God's character. While {verse1.bookName} {verse1.chapter}:{verse1.verse} provides the 'What' of our faith, {verse2.bookName} {verse2.chapter}:{verse2.verse} provides the 'How'. It's not just that God loves us; it's that His love is active, restorative, and sufficient for every trial."
+                                    {comparisonEssay ? (
+                                        `"${comparisonEssay.insight}"`
+                                    ) : (
+                                        `Read ${verse1.bookName} ${verse1.chapter}:${verse1.verse} and ${verse2.bookName} ${verse2.chapter}:${verse2.verse} together and consider how each passage, in its own words, speaks to the character and purposes of God.`
+                                    )}
                                 </p>
                             </div>
                         </div>

@@ -20,6 +20,8 @@ import MultiCommentarySection from '@/components/verse-study/MultiCommentarySect
 import StudyTabs from '@/components/verse-study/StudyTabs';
 import TopicalTags from '@/components/verse-study/TopicalTags';
 import { getVersePlaces, formatPlaceTypeSingular } from '@/lib/geocoding-data';
+import { getVerseEssay } from '@/lib/verse-essays';
+import { getComparisonsForVerse } from '@/lib/verse-comparison-essays';
 
 export const revalidate = 86400 // 24 hours
 
@@ -215,6 +217,7 @@ export default async function VersePage({ params }: VersePageProps) {
         verseText={verseText}
         commentary={data.verse.comment || null}
         bookName={data.bookName}
+        essay={getVerseEssay(book, chapterNum, verseNum)}
       />
 
       {/* Cross-References */}
@@ -222,6 +225,30 @@ export default async function VersePage({ params }: VersePageProps) {
         crossRefs={crossRefs}
         currentReference={data.reference}
       />
+
+      {/* Compare with a related verse */}
+      {(() => {
+        const comparisons = getComparisonsForVerse(book, chapterNum, verseNum);
+        if (comparisons.length === 0) return null;
+        return (
+          <section className="mt-8">
+            <h2 className="text-lg font-semibold text-scripture mb-4">Compare with a Related Verse</h2>
+            <div className="grid gap-3 sm:grid-cols-2">
+              {comparisons.map((c) => (
+                <Link
+                  key={c.slug}
+                  href={`/verses/${c.slug}`}
+                  className="block p-4 border border-grace rounded-lg hover:border-sacred/50 hover:bg-sacred-light transition-colors"
+                >
+                  <span className="font-medium text-scripture group-hover:text-sacred transition-colors">
+                    {c.ref1} &amp; {c.ref2}
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        );
+      })()}
 
       {/* Places in This Verse */}
       {(() => {

@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
 import { getQuoteTopic, getRelatedQuoteTopics, QuoteTopic } from '@/lib/bible-quotes-data';
+import { getTopicEssay } from '@/lib/topic-essays';
 import { StructuredData } from '@/components/StructuredData';
 import { buildBibleQuoteMetadata } from '@/lib/seo/metadata-builder';
 import { buildBreadcrumbSchema, buildArticleSchema, buildFAQSchema } from '@/lib/seo/schema-builders';
@@ -79,6 +80,7 @@ export default async function BibleQuoteDetailPage({ params }: Props) {
   const verses = await getCachedVerses(topic.verseRefs);
   const related = getRelatedQuoteTopics(slug, 8);
   const faqs = generateFAQs(topic);
+  const topicEssay = getTopicEssay(slug);
 
   // Group verses by testament for display
   const otVerses = verses.filter((v: any) => v.testament === 'old');
@@ -92,7 +94,7 @@ export default async function BibleQuoteDetailPage({ params }: Props) {
 
   const articleSchema = buildArticleSchema({
     headline: `${topic.verseCount} Bible Quotes About ${topic.name}`,
-    description: topic.description,
+    description: topicEssay ? topicEssay.overview : topic.description,
     url: `/bible-quotes/${slug}`,
     about: topic.name,
     datePublished: '2026-02-27',
@@ -171,7 +173,9 @@ export default async function BibleQuoteDetailPage({ params }: Props) {
           </div>
 
           <div className="p-6">
-            <p className="text-ink-muted leading-relaxed">{topic.description}</p>
+            <p className="text-ink-muted leading-relaxed">
+              {topicEssay ? topicEssay.overview : topic.description}
+            </p>
           </div>
         </header>
 
