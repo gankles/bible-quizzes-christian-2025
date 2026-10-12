@@ -42,7 +42,7 @@ export default function AboutPage() {
 
           <h2 className="text-2xl font-semibold text-scripture mt-10 mb-4">Our Approach</h2>
           <p className="text-ink-muted leading-relaxed mb-6">
-            All quiz content is grounded in the text of Scripture. We use the King James Version as our primary English text and reference Strong&apos;s Concordance numbers for original language studies. Our quizzes are designed to encourage careful reading and faithful interpretation of the Bible.
+            All quiz content is grounded in the text of Scripture. We use the King James Version as our primary English text and reference Strong&apos;s Concordance numbers for original language studies. Our quizzes are designed to encourage careful reading and faithful interpretation of the Bible. For the full detail on how we use AI to draft word studies without letting it invent a verse, see our <Link href="/methodology" className="text-scripture underline hover:text-ink-muted">methodology page</Link>.
           </p>
 
           <h2 className="text-2xl font-semibold text-scripture mt-10 mb-4">Free to Use</h2>

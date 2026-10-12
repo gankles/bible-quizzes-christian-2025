@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { BIBLE_BOOKS } from './bible-data';
+import { getVerses, getBookId, stripHtml, type FetchVersesRequest } from './bolls-api';
 
 interface RawConcordanceEntry {
   totalOccurrences: number;
@@ -68,4 +69,92 @@ export function getLexiconConcordance(strongsId: string): LexiconConcordance | n
     .sort((a, b) => b.count - a.count);
 
   return { totalOccurrences: entry.totalOccurrences, translationCounts, occurrences };
+}
+
+export interface ConcordanceStats {
+  totalOccurrences: number;
+  mostFrequentBook: string;
+  bookBreakdown: Record<string, number>;
+}
+
+/** Book-level stats derived from the real occurrence list (replaces the always-empty lexicon.json stats). */
+export function getConcordanceStats(strongsId: string): ConcordanceStats | null {
+  const concordance = getLexiconConcordance(strongsId);
+  if (!concordance) return null;
+
+  const bookBreakdown: Record<string, number> = {};
+  for (const occ of concordance.occurrences) {
+    bookBreakdown[occ.bookName] = (bookBreakdown[occ.bookName] || 0) + 1;
+  }
+  const mostFrequentBook = Object.entries(bookBreakdown).sort((a, b) => b[1] - a[1])[0]?.[0] || '';
+
+  return { totalOccurrences: concordance.totalOccurrences, mostFrequentBook, bookBreakdown };
+}
+
+export interface VerseSampleEntry {
+  ref: string;
+  text: string;
+}
+
+/** Fetches real KJV text for a set of occurrences, batched per book/chapter to minimize requests. */
+async function fetchVerseTexts(sample: ConcordanceOccurrence[]): Promise<VerseSampleEntry[]> {
+  if (sample.length === 0) return [];
+
+  const byBookChapter = new Map<string, { bookSlug: string; chapter: number; verses: number[] }>();
+  for (const occ of sample) {
+    const key = `${occ.bookSlug}:${occ.chapter}`;
+    const group = byBookChapter.get(key);
+    if (group) group.verses.push(occ.verse);
+    else byBookChapter.set(key, { bookSlug: occ.bookSlug, chapter: occ.chapter, verses: [occ.verse] });
+  }
+
+  const requests: FetchVersesRequest[] = [];
+  for (const { bookSlug, chapter, verses } of byBookChapter.values()) {
+    const bookId = getBookId(bookSlug);
+    if (bookId) requests.push({ translation: 'KJV', book: bookId, chapter, verses });
+  }
+  if (requests.length === 0) return [];
+
+  try {
+    const results = await getVerses(requests);
+    const textByKey = new Map<string, string>();
+    for (const group of results) {
+      for (const v of group) {
+        textByKey.set(`${v.chapter}:${v.verse}:${v.book}`, stripHtml(v.text));
+      }
+    }
+
+    return sample.map((occ) => {
+      const bookId = getBookId(occ.bookSlug);
+      const text = textByKey.get(`${occ.chapter}:${occ.verse}:${bookId}`) || '';
+      return { ref: occ.ref, text };
+    }).filter((v) => v.text);
+  } catch {
+    return [];
+  }
+}
+
+/** Fetches real KJV text for the first `limit` occurrences, batched per book/chapter to minimize requests. */
+export async function getConcordanceVerseSample(strongsId: string, limit = 10): Promise<VerseSampleEntry[]> {
+  const concordance = getLexiconConcordance(strongsId);
+  if (!concordance || concordance.occurrences.length === 0) return [];
+  return fetchVerseTexts(concordance.occurrences.slice(0, limit));
+}
+
+/**
+ * Fetches real KJV text for up to `limit` occurrences spread evenly across the full
+ * occurrence list, so high-frequency words aren't sampled only from their earliest
+ * (typically Old-Testament-heavy) hits. Used for AI grounding where representative
+ * coverage across the whole canon matters more than "first N".
+ */
+export async function getConcordanceVerseSampleDistributed(strongsId: string, limit = 40): Promise<VerseSampleEntry[]> {
+  const concordance = getLexiconConcordance(strongsId);
+  if (!concordance || concordance.occurrences.length === 0) return [];
+
+  const all = concordance.occurrences;
+  const sample = all.length <= limit
+    ? all
+    : Array.from({ length: limit }, (_, i) => all[Math.round(i * (all.length - 1) / (limit - 1))]);
+
+  return fetchVerseTexts(sample);
 }

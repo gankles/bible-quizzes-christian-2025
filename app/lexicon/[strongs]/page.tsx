@@ -10,6 +10,7 @@ import { generateLexiconSchema, generateLexiconFAQSchema } from '@/lib/seo/schem
 import LexiconTool from '@/components/LexiconTool'
 import { getWordStudyByStrongs } from '@/lib/word-studies-enhanced'
 import { getWordStudyEssay } from '@/lib/word-study-essays'
+import { getConcordanceStats, getConcordanceVerseSample, getLexiconConcordance } from '@/lib/lexicon-concordance'
 import {
     BookOpenIcon
 } from '@/components/icons'
@@ -50,6 +51,14 @@ export default async function LexiconDetailPage({ params }: LexiconPageProps) {
     if (!entry) {
         notFound()
     }
+
+    // lexicon.json's own stats/verseSample are always-empty stubs — the real counts live in the concordance file
+    const concordanceStats = getConcordanceStats(strongs)
+    const concordance = getLexiconConcordance(strongs)
+    const verseSample = await getConcordanceVerseSample(strongs, 10)
+    const liveEntry = concordanceStats
+        ? { ...entry, stats: concordanceStats, verseSample: verseSample.length > 0 ? verseSample : entry.verseSample }
+        : entry
 
     const schema = generateLexiconSchema(entry)
     const wordStudy = getWordStudyByStrongs(strongs.toUpperCase())
@@ -118,19 +127,34 @@ export default async function LexiconDetailPage({ params }: LexiconPageProps) {
                             </p>
                         </div>
                     )}
+
+                    <p className="mt-4 text-xs text-ink-muted">
+                        Cross-referenced against{' '}
+                        <Link href="/methodology#strongs-concordance" className="underline hover:text-scripture">Strong&apos;s Concordance</Link>
+                        {entry.language === 'Hebrew' ? (
+                            <> and <Link href="/methodology#bdb" className="underline hover:text-scripture">BDB</Link></>
+                        ) : (
+                            <> and <Link href="/methodology#lsj" className="underline hover:text-scripture">LSJ</Link></>
+                        )}
+                        {essay?.generatedAt && (
+                            <> &middot; word study last updated {new Date(essay.generatedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</>
+                        )}
+                        {' '}&middot;{' '}
+                        <a href={`mailto:contact@biblemaximum.com?subject=${encodeURIComponent(`Error on ${entry.strongs} lexicon entry`)}`} className="underline hover:text-scripture">Report an error</a>
+                    </p>
                 </div>
             </div>
 
             {/* CTA STRIP */}
             <div className="max-w-7xl mx-auto px-6 mt-[-1.5rem] relative z-20">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    {entry.stats?.mostFrequentBook && (
+                    {liveEntry.stats?.mostFrequentBook && (
                         <div className="bg-scripture rounded-lg p-6 text-primary-light shadow-lg flex items-center justify-between">
                             <div>
-                                <h3 className="font-bold text-lg">Explore {entry.stats.mostFrequentBook} Quizzes</h3>
+                                <h3 className="font-bold text-lg">Explore {liveEntry.stats.mostFrequentBook} Quizzes</h3>
                                 <p className="text-primary-light/80 text-xs">Test your knowledge of the book where this word appears most</p>
                             </div>
-                            <Link href={`/${entry.stats.mostFrequentBook.toLowerCase().replace(/\s+/g, '-')}-chapters`} className="bg-primary-light text-scripture px-4 py-2 rounded-lg font-bold text-sm tracking-wider uppercase shrink-0">Explore</Link>
+                            <Link href={`/${liveEntry.stats.mostFrequentBook.toLowerCase().replace(/\s+/g, '-')}-chapters`} className="bg-primary-light text-scripture px-4 py-2 rounded-lg font-bold text-sm tracking-wider uppercase shrink-0">Explore</Link>
                         </div>
                     )}
                     <div className="bg-scripture rounded-lg p-6 text-white shadow-lg flex items-center justify-between">
@@ -145,53 +169,6 @@ export default async function LexiconDetailPage({ params }: LexiconPageProps) {
 
             <main className="max-w-7xl mx-auto px-6 py-16">
                 <div>
-
-                    {/* AI WORD-STUDY ESSAY */}
-                    {essay && (
-                        <section className="border border-grace rounded-xl p-8">
-                            <h2 className="text-2xl font-bold text-scripture mb-6">
-                                Word Study: {essay.word} ({essay.transliteration})
-                            </h2>
-                            <div className="space-y-6">
-                                <div>
-                                    <h3 className="text-sm font-semibold text-ink-muted uppercase tracking-wider mb-2">Root Meaning</h3>
-                                    <p className="text-scripture leading-relaxed">{essay.rootMeaning}</p>
-                                </div>
-                                <div>
-                                    <h3 className="text-sm font-semibold text-ink-muted uppercase tracking-wider mb-2">Usage in Scripture</h3>
-                                    <p className="text-scripture leading-relaxed">{essay.usageInScripture}</p>
-                                </div>
-                                <div>
-                                    <h3 className="text-sm font-semibold text-ink-muted uppercase tracking-wider mb-2">Theological Significance</h3>
-                                    <p className="text-scripture leading-relaxed">{essay.theologicalSignificance}</p>
-                                </div>
-                                <div>
-                                    <h3 className="text-sm font-semibold text-ink-muted uppercase tracking-wider mb-2">
-                                        Reflection: <Link href={refToVersePath(essay.keyVerseRef)} className="text-sacred hover:underline">{essay.keyVerseRef}</Link>
-                                    </h3>
-                                    <p className="text-ink-muted italic mb-2">&ldquo;{essay.keyVerseText}&rdquo;</p>
-                                    <p className="text-scripture leading-relaxed">{essay.keyVerseReflection}</p>
-                                </div>
-                                {(rootEntry || crossRefEntries.some(r => r.word)) && (
-                                    <div className="pt-4 border-t border-grace">
-                                        <h3 className="text-sm font-semibold text-ink-muted uppercase tracking-wider mb-2">Related Words</h3>
-                                        <div className="flex flex-wrap gap-x-4 gap-y-1">
-                                            {rootEntry && (
-                                                <Link href={`/lexicon/${rootEntry.strongs}`} className="text-sacred hover:underline text-sm">
-                                                    Root: {rootEntry.word} ({rootEntry.transliteration}) — {rootEntry.strongs}
-                                                </Link>
-                                            )}
-                                            {crossRefEntries.filter(r => r.word).slice(0, 6).map((ref) => (
-                                                <Link key={ref.strongs} href={`/lexicon/${ref.strongs}`} className="text-sacred hover:underline text-sm">
-                                                    {ref.word} ({ref.transliteration}) — {ref.strongs}
-                                                </Link>
-                                            ))}
-                                        </div>
-                                    </div>
-                                )}
-                            </div>
-                        </section>
-                    )}
 
                     {/* THEOLOGICAL WORD STUDY */}
                     {wordStudy && (
@@ -240,7 +217,13 @@ export default async function LexiconDetailPage({ params }: LexiconPageProps) {
 
                     {/* INTERACTIVE LEXICON STUDY TOOL */}
                     <div className="mt-16">
-                        <LexiconTool entry={entry} crossRefEntries={crossRefEntries} />
+                        <LexiconTool
+                            entry={liveEntry}
+                            crossRefEntries={crossRefEntries}
+                            essay={essay}
+                            translationCounts={concordance?.translationCounts}
+                            rootEntry={rootEntry}
+                        />
                     </div>
 
                     {/* RELATED STUDIES */}

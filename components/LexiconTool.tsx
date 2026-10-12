@@ -61,20 +61,56 @@ interface CrossRefEntry {
     transliteration: string;
 }
 
-export default function LexiconTool({ entry, crossRefEntries }: { entry: LexiconEntry; crossRefEntries?: CrossRefEntry[] }) {
-    const [activeLexicon, setActiveLexicon] = useState<'strongs' | 'bdb' | 'morph'>('strongs');
+interface WordStudyUseCategory {
+    category: string;
+    explanation: string;
+    verses: { ref: string; text: string }[];
+}
+
+interface WordStudyEssay {
+    word: string;
+    transliteration: string;
+    shortMeaning: string;
+    definitionAndDerivation: {
+        rootWords: string;
+        literalMeaning: string;
+        kjvTranslationSummary: string;
+    };
+    biblicalAndFigurativeUses: WordStudyUseCategory[];
+    closingReflection: string;
+}
+
+interface TranslationCount {
+    gloss: string;
+    count: number;
+}
+
+type TabId = 'wordstudy' | 'strongs' | 'bdb' | 'renderings' | 'morph';
+
+export default function LexiconTool({ entry, crossRefEntries, essay, translationCounts, rootEntry }: {
+    entry: LexiconEntry;
+    crossRefEntries?: CrossRefEntry[];
+    essay?: WordStudyEssay | null;
+    translationCounts?: TranslationCount[];
+    rootEntry?: { strongs: string; word: string; transliteration: string } | null;
+}) {
+    const [activeLexicon, setActiveLexicon] = useState<TabId>(essay ? 'wordstudy' : 'strongs');
 
     const isHebrew = entry.language.toLowerCase() === 'hebrew';
+
+    const tabs: { id: TabId; name: string; icon: React.ReactElement }[] = [
+        ...(essay ? [{ id: 'wordstudy' as TabId, name: 'Word Study', icon: <SparklesIcon className="w-4 h-4" /> }] : []),
+        { id: 'strongs' as TabId, name: "Strong's Exhaustive", icon: <BoltIcon className="w-4 h-4" /> },
+        { id: 'bdb' as TabId, name: isHebrew ? "BDB Hebrew" : "LSJ Classical", icon: <BookOpenIcon className="w-4 h-4" /> },
+        ...(translationCounts && translationCounts.length > 0 ? [{ id: 'renderings' as TabId, name: 'Renderings', icon: <BarChartIcon className="w-4 h-4" /> }] : []),
+        { id: 'morph' as TabId, name: "Morphology", icon: <FingerPrintIcon className="w-4 h-4" /> },
+    ];
 
     return (
         <div className="relative">
             {/* STUDY TABS */}
             <div className="flex items-center space-x-2 mb-8 overflow-x-auto pb-4 no-scrollbar">
-                {[
-                    { id: 'strongs', name: "Strong's Exhaustive", icon: <SparklesIcon className="w-4 h-4" /> },
-                    { id: 'bdb', name: isHebrew ? "BDB Hebrew" : "LSJ Classical", icon: <BookOpenIcon className="w-4 h-4" /> },
-                    { id: 'morph', name: "Morphology", icon: <FingerPrintIcon className="w-4 h-4" /> },
-                ].map((tab) => (
+                {tabs.map((tab) => (
                     <button
                         key={tab.id}
                         className={`px-6 py-2.5 rounded-lg text-sm font-semibold whitespace-nowrap transition-all flex items-center space-x-2 border ${activeLexicon === tab.id
@@ -144,6 +180,65 @@ export default function LexiconTool({ entry, crossRefEntries }: { entry: Lexicon
                         {/* LEFT: TAB CONTENT */}
                         <div className="lg:col-span-2 space-y-16">
 
+                            {/* TAB: WORD STUDY */}
+                            {activeLexicon === 'wordstudy' && essay && (
+                                <section>
+                                    <div className="inline-flex items-center space-x-2 text-sacred font-semibold text-sm mb-3">
+                                        <SparklesIcon className="w-4 h-4" />
+                                        <span>AI Word Study</span>
+                                    </div>
+                                    <p className="text-lg italic text-ink-muted mb-8">{essay.shortMeaning}</p>
+
+                                    <div className="mb-10">
+                                        <h4 className="text-xs font-semibold text-ink-muted uppercase tracking-wider mb-4">Definition and Derivation</h4>
+                                        <div className="p-8 rounded-xl border border-grace bg-primary-light/30 space-y-4">
+                                            <p className="text-scripture leading-relaxed"><span className="font-semibold">Root words:</span> {essay.definitionAndDerivation.rootWords}</p>
+                                            <p className="text-scripture leading-relaxed"><span className="font-semibold">Literal meaning:</span> {essay.definitionAndDerivation.literalMeaning}</p>
+                                            <p className="text-scripture leading-relaxed"><span className="font-semibold">KJV translation:</span> {essay.definitionAndDerivation.kjvTranslationSummary}</p>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <h4 className="text-xs font-semibold text-ink-muted uppercase tracking-wider mb-4">Biblical and Figurative Uses</h4>
+                                        <div className="space-y-5">
+                                            {essay.biblicalAndFigurativeUses.map((use) => (
+                                                <div key={use.category} className="p-6 rounded-xl border border-grace bg-white">
+                                                    <h5 className="font-semibold text-scripture mb-2">{use.category}</h5>
+                                                    <p className="text-ink-muted leading-relaxed mb-3 text-sm">{use.explanation}</p>
+                                                    <div className="flex flex-wrap gap-2">
+                                                        {use.verses.map((v) => (
+                                                            <Link key={v.ref} href={refToPath(v.ref)} title={v.text} className="px-3 py-1 rounded-lg bg-primary-light/50 border border-grace text-sacred text-xs font-semibold hover:bg-scripture hover:text-white hover:border-scripture transition-all">
+                                                                {v.ref}
+                                                            </Link>
+                                                        ))}
+                                                    </div>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    </div>
+
+                                    <p className="text-ink-muted leading-relaxed italic mt-8 pt-6 border-t border-grace">{essay.closingReflection}</p>
+
+                                    {(rootEntry || (crossRefEntries && crossRefEntries.some(r => r.word))) && (
+                                        <div className="mt-6 pt-6 border-t border-grace">
+                                            <h4 className="text-xs font-semibold text-ink-muted uppercase tracking-wider mb-3">Related Words</h4>
+                                            <div className="flex flex-wrap gap-x-4 gap-y-1">
+                                                {rootEntry && (
+                                                    <Link href={`/lexicon/${rootEntry.strongs}`} className="text-sacred hover:underline text-sm">
+                                                        Root: {rootEntry.word} ({rootEntry.transliteration}) — {rootEntry.strongs}
+                                                    </Link>
+                                                )}
+                                                {crossRefEntries?.filter(r => r.word).slice(0, 6).map((ref) => (
+                                                    <Link key={ref.strongs} href={`/lexicon/${ref.strongs}`} className="text-sacred hover:underline text-sm">
+                                                        {ref.word} ({ref.transliteration}) — {ref.strongs}
+                                                    </Link>
+                                                ))}
+                                            </div>
+                                        </div>
+                                    )}
+                                </section>
+                            )}
+
                             {/* TAB: STRONG'S */}
                             {activeLexicon === 'strongs' && (
                                 <section>
@@ -193,6 +288,35 @@ export default function LexiconTool({ entry, crossRefEntries }: { entry: Lexicon
                                             </p>
                                         </div>
                                     )}
+                                </section>
+                            )}
+
+                            {/* TAB: RENDERINGS */}
+                            {activeLexicon === 'renderings' && translationCounts && (
+                                <section>
+                                    <div className="inline-flex items-center space-x-2 text-sacred font-semibold text-sm mb-6">
+                                        <BarChartIcon className="w-4 h-4" />
+                                        <span>KJV Translation Renderings</span>
+                                    </div>
+                                    <p className="text-sm text-ink-muted mb-6">
+                                        How the King James Version renders {entry.word} ({entry.transliteration}) across all {entry.stats.totalOccurrences} occurrences.
+                                    </p>
+                                    <div className="p-8 rounded-xl border border-grace bg-primary-light/30 space-y-4">
+                                        {translationCounts.map((t) => (
+                                            <div key={t.gloss}>
+                                                <div className="flex justify-between text-sm mb-1 text-scripture">
+                                                    <span className="font-medium">&ldquo;{t.gloss}&rdquo;</span>
+                                                    <span className="text-ink-muted">{t.count}x</span>
+                                                </div>
+                                                <div className="w-full bg-white rounded-full h-2 border border-grace/50">
+                                                    <div
+                                                        className="bg-sacred h-full rounded-full"
+                                                        style={{ width: `${(t.count / translationCounts[0].count) * 100}%` }}
+                                                    />
+                                                </div>
+                                            </div>
+                                        ))}
+                                    </div>
                                 </section>
                             )}
 

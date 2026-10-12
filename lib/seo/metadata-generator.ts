@@ -519,10 +519,7 @@ export function extractShortGloss(raw: string): string {
 }
 
 export function generateLexiconMetadata(entry: any) {
-    const gloss = extractShortGloss(entry.definitions?.strongs);
-    const title = gloss
-        ? `${entry.transliteration} (${entry.strongs}): ${gloss} — ${entry.language} Word Study`
-        : `${entry.transliteration} (${entry.strongs}): ${entry.language} Word Study`;
+    const title = `${entry.strongs}: ${entry.word} (${entry.transliteration})`;
     const mainDef = entry.definitions.strongs.substring(0, 100);
     const description = truncate(`Discover the ${entry.language} meaning, Scriptural morphology, and multi-source study (Strong's, ${entry.language === 'Greek' ? 'LSJ, Abbott-Smith' : 'BDB'}) for ${entry.word}. "${mainDef}..."`, 160);
 

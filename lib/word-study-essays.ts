@@ -1,17 +1,25 @@
 import fs from 'fs';
 import path from 'path';
 
+export interface WordStudyUseCategory {
+  category: string;
+  explanation: string;
+  verses: { ref: string; text: string }[];
+}
+
 export interface WordStudyEssay {
   strongs: string;
   word: string;
   transliteration: string;
   language: string;
-  keyVerseRef: string;
-  keyVerseText: string;
-  rootMeaning: string;
-  usageInScripture: string;
-  theologicalSignificance: string;
-  keyVerseReflection: string;
+  shortMeaning: string;
+  definitionAndDerivation: {
+    rootWords: string;
+    literalMeaning: string;
+    kjvTranslationSummary: string;
+  };
+  biblicalAndFigurativeUses: WordStudyUseCategory[];
+  closingReflection: string;
   generatedAt: string;
 }
 

@@ -8,8 +8,14 @@
  *     definitions, etymology, and the resolved root-word entry (if any)
  *   - data/lexicon-concordance.json: total occurrence count and the real
  *     KJV translation-count breakdown (built in scripts/build-lexicon-concordance.ts)
- *   - bolls.life API: exact KJV text for one real "key verse" (the entry's
- *     first occurrence in canonical book order)
+ *   - bolls.life API: exact KJV text for a sample of real occurrences, spread
+ *     evenly across the whole canon (getConcordanceVerseSampleDistributed)
+ *
+ * The model only chooses which of the given verse refs belong under which
+ * thematic category and writes the explanatory prose — it never generates
+ * scripture text itself. Quoted verse text is substituted back in from the
+ * real fetched sample after the fact, keyed by exact ref match, so quotations
+ * can never be hallucinated.
  *
  * Output: data/word-study-essays/{strongs}.json
  *
@@ -23,8 +29,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import OpenAI from 'openai';
-import { getLexiconConcordance } from '../lib/lexicon-concordance';
-import { getVerse, stripHtml } from '../lib/bolls-api';
+import { getLexiconConcordance, getConcordanceVerseSampleDistributed, type VerseSampleEntry } from '../lib/lexicon-concordance';
 
 // =============================================================================
 // TYPES
@@ -42,17 +47,25 @@ interface LexiconEntry {
   rootWord: string;
 }
 
+interface UseCategory {
+  category: string;
+  explanation: string;
+  verses: { ref: string; text: string }[];
+}
+
 interface Essay {
   strongs: string;
   word: string;
   transliteration: string;
   language: string;
-  keyVerseRef: string;
-  keyVerseText: string;
-  rootMeaning: string;
-  usageInScripture: string;
-  theologicalSignificance: string;
-  keyVerseReflection: string;
+  shortMeaning: string;
+  definitionAndDerivation: {
+    rootWords: string;
+    literalMeaning: string;
+    kjvTranslationSummary: string;
+  };
+  biblicalAndFigurativeUses: UseCategory[];
+  closingReflection: string;
   generatedAt: string;
 }
 
@@ -122,15 +135,17 @@ function saveProgress(progress: ProgressData): void {
 // GROUNDING DATA
 // =============================================================================
 
+const VERSE_SAMPLE_LIMIT = 40;
+
 interface Grounding {
   entry: LexiconEntry;
   rootEntry: LexiconEntry | null;
   totalOccurrences: number;
   topTranslations: { gloss: string; count: number }[];
-  keyVerseRef: { bookSlug: string; bookName: string; chapter: number; verse: number; ref: string };
+  verseSample: VerseSampleEntry[];
 }
 
-function buildGrounding(strongsId: string): Grounding | null {
+async function buildGrounding(strongsId: string): Promise<Grounding | null> {
   const lexicon = loadLexicon();
   const entry = lexicon.get(strongsId);
   if (!entry) return null;
@@ -140,14 +155,15 @@ function buildGrounding(strongsId: string): Grounding | null {
   const concordance = getLexiconConcordance(strongsId);
   if (!concordance || concordance.occurrences.length === 0) return null;
 
-  const first = concordance.occurrences[0];
+  const verseSample = await getConcordanceVerseSampleDistributed(strongsId, VERSE_SAMPLE_LIMIT);
+  if (verseSample.length === 0) return null;
 
   return {
     entry,
     rootEntry,
     totalOccurrences: concordance.totalOccurrences,
     topTranslations: concordance.translationCounts.slice(0, 8),
-    keyVerseRef: first,
+    verseSample,
   };
 }
 
@@ -155,7 +171,7 @@ function buildGrounding(strongsId: string): Grounding | null {
 // PROMPT
 // =============================================================================
 
-function buildPrompt(g: Grounding, keyVerseText: string): string {
+function buildPrompt(g: Grounding): string {
   const { entry, rootEntry } = g;
 
   const facts = {
@@ -177,24 +193,36 @@ function buildPrompt(g: Grounding, keyVerseText: string): string {
     } : null,
     totalOccurrences: g.totalOccurrences,
     topTranslations: g.topTranslations,
-    keyVerse: { ref: g.keyVerseRef.ref, text: keyVerseText },
+    availableVerses: g.verseSample.map(v => ({ ref: v.ref, text: v.text })),
   };
 
-  return `You are a Bible scholar writing a word-study essay for "${entry.word}" (${entry.transliteration}, ${entry.strongs}) in the style of BibleHub's Strong's Concordance pages combined with a devotional theological blog post — rigorous about the original language, but reflective about its meaning for faith.
+  return `You are a Bible scholar writing a word-study entry for "${entry.word}" (${entry.transliteration}, ${entry.strongs}) in the style of a Strong's Concordance deep-dive (e.g. SermonIndex's Strong's pages) — rigorous about the original language, organized by theme, and reflective about its meaning for faith.
 
-FACTS (the ONLY information you may use — do not invent verses, numbers, derivations, or occurrences beyond what is given here):
+FACTS (the ONLY information you may use — do not invent verses, numbers, derivations, translations, or occurrences beyond what is given here):
 ${JSON.stringify(facts, null, 2)}
 
 Return ONLY valid JSON with exactly these keys:
 {
-  "rootMeaning": "2-4 sentences on the word's root/etymological meaning, using the etymology and rootWord facts if present. If no etymology is given, analyze the Strong's/lexicon definition's core sense instead. Explain what the literal/root sense adds beyond the common English gloss.",
-  "usageInScripture": "2-4 sentences on how this word is actually used across Scripture, grounded in totalOccurrences and topTranslations. Note the range or consistency of how it gets translated and what that reveals.",
-  "theologicalSignificance": "3-5 sentences of theological reflection on why this word's original meaning matters for understanding Scripture and the Christian faith. Evangelical, conservative, Christ-centered perspective. Grounded in the facts given, not speculation.",
-  "keyVerseReflection": "2-4 sentences reflecting on the keyVerse specifically — quote or closely paraphrase its text, and explain what this word contributes to that verse's meaning."
+  "shortMeaning": "One short sentence giving the core meaning of the word, e.g. 'the first and best portion of a harvest, offered to God before the rest is used.'",
+  "definitionAndDerivation": {
+    "rootWords": "1-3 sentences on the word's root/etymology, using the etymology and rootWord facts if present. If no etymology is given, say so and instead describe the term's basic grammatical form (morphology).",
+    "literalMeaning": "1-3 sentences on the literal, concrete sense of the word apart from any figurative use.",
+    "kjvTranslationSummary": "1-2 sentences summarizing how the KJV renders this word, grounded in totalOccurrences and topTranslations (e.g. 'The KJV renders it X times as \"firstfruits,\" and twice as...')."
+  },
+  "biblicalAndFigurativeUses": [
+    {
+      "category": "A short thematic label for a group of related uses, e.g. 'Physical First-Fruits' or 'Christ as the First-Fruits' — invent as many categories as the availableVerses genuinely support (typically 3-6), each distinct and non-overlapping.",
+      "explanation": "2-4 sentences explaining this category of use and what it reveals about the word's meaning in that context.",
+      "refs": ["An array of 1-5 verse refs copied EXACTLY (character-for-character) from the 'ref' field of entries in availableVerses that best illustrate this category. Never invent a ref not present in availableVerses."]
+    }
+  ],
+  "closingReflection": "1-2 sentences inviting the reader to explore the word further or reflect on its significance for their own understanding of Scripture — an engaging closing prompt, not a summary."
 }
 
 REQUIREMENTS:
-- Every claim must trace back to a fact listed above. Do not cite verses other than the keyVerse given.
+- Every verse ref used anywhere in biblicalAndFigurativeUses MUST be copied exactly from availableVerses' "ref" field — do not alter spelling, spacing, or numbering.
+- Do not cite any verse not present in availableVerses.
+- Organize ALL verses from availableVerses into categories where they fit; it is fine to omit a verse if it doesn't clearly belong to a distinct theme, but do not leave out an obvious category just because few verses exist for it.
 - Do not use social-justice framing, environmental activism, or modern political language.
 - Write in original prose — do not copy lexicon definition wording verbatim, synthesize it.`;
 }
@@ -206,9 +234,9 @@ REQUIREMENTS:
 async function generateEssay(
   client: OpenAI,
   g: Grounding,
-  keyVerseText: string,
 ): Promise<{ essay: Essay; cost: number }> {
-  const prompt = buildPrompt(g, keyVerseText);
+  const prompt = buildPrompt(g);
+  const textByRef = new Map(g.verseSample.map(v => [v.ref, v.text]));
 
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
     try {
@@ -220,7 +248,7 @@ async function generateEssay(
           { role: 'user', content: prompt },
         ],
         temperature: 0.5,
-        max_tokens: 2000,
+        max_tokens: 3000,
         response_format: { type: 'json_object' },
       }, { timeout: OPENAI_TIMEOUT_MS });
 
@@ -228,8 +256,31 @@ async function generateEssay(
       if (!content) throw new Error('Empty API response');
 
       const parsed = JSON.parse(content);
-      if (!parsed.rootMeaning || !parsed.usageInScripture || !parsed.theologicalSignificance || !parsed.keyVerseReflection) {
+      if (
+        !parsed.shortMeaning ||
+        !parsed.definitionAndDerivation?.rootWords ||
+        !parsed.definitionAndDerivation?.literalMeaning ||
+        !parsed.definitionAndDerivation?.kjvTranslationSummary ||
+        !Array.isArray(parsed.biblicalAndFigurativeUses) ||
+        !parsed.closingReflection
+      ) {
         throw new Error('Response missing required fields');
+      }
+
+      // Substitute real fetched verse text back in by exact ref match — never trust
+      // AI-produced scripture text — and drop any ref the model hallucinated.
+      const biblicalAndFigurativeUses: UseCategory[] = parsed.biblicalAndFigurativeUses
+        .map((cat: { category: string; explanation: string; refs: string[] }): UseCategory => ({
+          category: cat.category,
+          explanation: cat.explanation,
+          verses: (cat.refs || [])
+            .filter((ref: string) => textByRef.has(ref))
+            .map((ref: string) => ({ ref, text: textByRef.get(ref)! })),
+        }))
+        .filter((cat: UseCategory) => cat.verses.length > 0);
+
+      if (biblicalAndFigurativeUses.length === 0) {
+        throw new Error('No valid verse-grounded categories survived ref validation');
       }
 
       const inputTokens = response.usage?.prompt_tokens || 0;
@@ -241,12 +292,14 @@ async function generateEssay(
         word: g.entry.word,
         transliteration: g.entry.transliteration,
         language: g.entry.language,
-        keyVerseRef: g.keyVerseRef.ref,
-        keyVerseText,
-        rootMeaning: parsed.rootMeaning,
-        usageInScripture: parsed.usageInScripture,
-        theologicalSignificance: parsed.theologicalSignificance,
-        keyVerseReflection: parsed.keyVerseReflection,
+        shortMeaning: parsed.shortMeaning,
+        definitionAndDerivation: {
+          rootWords: parsed.definitionAndDerivation.rootWords,
+          literalMeaning: parsed.definitionAndDerivation.literalMeaning,
+          kjvTranslationSummary: parsed.definitionAndDerivation.kjvTranslationSummary,
+        },
+        biblicalAndFigurativeUses,
+        closingReflection: parsed.closingReflection,
         generatedAt: new Date().toISOString(),
       };
 
@@ -279,23 +332,27 @@ async function processEntry(
     return;
   }
 
-  const g = buildGrounding(strongsId);
-  if (!g) {
-    console.warn(`  [SKIP] ${strongsId}: no lexicon entry or no concordance occurrences`);
-    return;
-  }
-
   if (dryRun) {
-    console.log(`  [DRY-RUN] Would generate ${strongsId} (${g.entry.word}) — key verse ${g.keyVerseRef.ref}`);
+    const concordance = getLexiconConcordance(strongsId);
+    const lexicon = loadLexicon();
+    const entry = lexicon.get(strongsId);
+    if (!entry || !concordance || concordance.occurrences.length === 0) {
+      console.warn(`  [SKIP] ${strongsId}: no lexicon entry or no concordance occurrences`);
+      return;
+    }
+    console.log(`  [DRY-RUN] Would generate ${strongsId} (${entry.word}) — ${concordance.totalOccurrences} occurrences`);
     return;
   }
 
-  console.log(`\n[GEN] ${strongsId} (${g.entry.word} / ${g.entry.transliteration})...`);
+  const g = await buildGrounding(strongsId);
+  if (!g) {
+    console.warn(`  [SKIP] ${strongsId}: no lexicon entry, no concordance occurrences, or verse fetch failed`);
+    return;
+  }
 
-  const verse = await getVerse('KJV', g.keyVerseRef.bookSlug, g.keyVerseRef.chapter, g.keyVerseRef.verse);
-  const keyVerseText = stripHtml(verse.text).trim();
+  console.log(`\n[GEN] ${strongsId} (${g.entry.word} / ${g.entry.transliteration})... ${g.verseSample.length} verses sampled`);
 
-  const { essay, cost } = await generateEssay(client, g, keyVerseText);
+  const { essay, cost } = await generateEssay(client, g);
 
   const outFile = path.join(OUTPUT_DIR, `${strongsId}.json`);
   fs.writeFileSync(outFile, JSON.stringify(essay, null, 2), 'utf-8');
