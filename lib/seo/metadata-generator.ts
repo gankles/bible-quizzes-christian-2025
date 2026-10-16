@@ -518,8 +518,16 @@ export function extractShortGloss(raw: string): string {
     return result.length >= 3 ? result.charAt(0).toUpperCase() + result.slice(1) : '';
 }
 
+/** Strips academic transliteration diacritics (ê, ʼ, ç, ē, etc.) for a plain, readable title. */
+function simplifyTransliteration(transliteration: string): string {
+    return transliteration
+        .normalize('NFD')
+        .replace(/[̀-ͯ]/g, '')
+        .replace(/[ʼʻʾʿ'’‘`]/g, '');
+}
+
 export function generateLexiconMetadata(entry: any) {
-    const title = `${entry.strongs}: ${entry.word} (${entry.transliteration})`;
+    const title = `What Does ${simplifyTransliteration(entry.transliteration)} (${entry.word}) Mean? Strong's ${entry.language} ${entry.strongs}`;
     const mainDef = entry.definitions.strongs.substring(0, 100);
     const description = truncate(`Discover the ${entry.language} meaning, Scriptural morphology, and multi-source study (Strong's, ${entry.language === 'Greek' ? 'LSJ, Abbott-Smith' : 'BDB'}) for ${entry.word}. "${mainDef}..."`, 160);
 

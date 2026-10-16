@@ -11,6 +11,7 @@ import LexiconTool from '@/components/LexiconTool'
 import { getWordStudyByStrongs } from '@/lib/word-studies-enhanced'
 import { getWordStudyEssay } from '@/lib/word-study-essays'
 import { getConcordanceStats, getConcordanceVerseSample, getLexiconConcordance } from '@/lib/lexicon-concordance'
+import { getMorphologyBreakdown } from '@/lib/lexicon-morphology'
 import {
     BookOpenIcon
 } from '@/components/icons'
@@ -56,6 +57,7 @@ export default async function LexiconDetailPage({ params }: LexiconPageProps) {
     const concordanceStats = getConcordanceStats(strongs)
     const concordance = getLexiconConcordance(strongs)
     const verseSample = await getConcordanceVerseSample(strongs, 10)
+    const morphologyBreakdown = getMorphologyBreakdown(strongs)
     const liveEntry = concordanceStats
         ? { ...entry, stats: concordanceStats, verseSample: verseSample.length > 0 ? verseSample : entry.verseSample }
         : entry
@@ -223,6 +225,7 @@ export default async function LexiconDetailPage({ params }: LexiconPageProps) {
                             essay={essay}
                             translationCounts={concordance?.translationCounts}
                             rootEntry={rootEntry}
+                            morphologyBreakdown={morphologyBreakdown}
                         />
                     </div>
 

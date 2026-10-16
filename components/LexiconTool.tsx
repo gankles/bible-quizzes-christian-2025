@@ -87,12 +87,13 @@ interface TranslationCount {
 
 type TabId = 'wordstudy' | 'strongs' | 'bdb' | 'renderings' | 'morph';
 
-export default function LexiconTool({ entry, crossRefEntries, essay, translationCounts, rootEntry }: {
+export default function LexiconTool({ entry, crossRefEntries, essay, translationCounts, rootEntry, morphologyBreakdown }: {
     entry: LexiconEntry;
     crossRefEntries?: CrossRefEntry[];
     essay?: WordStudyEssay | null;
     translationCounts?: TranslationCount[];
     rootEntry?: { strongs: string; word: string; transliteration: string } | null;
+    morphologyBreakdown?: { label: string; count: number }[] | null;
 }) {
     const [activeLexicon, setActiveLexicon] = useState<TabId>(essay ? 'wordstudy' : 'strongs');
 
@@ -343,6 +344,33 @@ export default function LexiconTool({ entry, crossRefEntries, essay, translation
                                                 <div className="text-lg font-semibold text-scripture">{entry.transliteration}</div>
                                             </div>
                                         </div>
+
+                                        {morphologyBreakdown && morphologyBreakdown.length > 0 && (
+                                            <div>
+                                                <div className="text-xs font-semibold text-ink-muted uppercase tracking-wider mb-3">
+                                                    Grammatical Forms Across All Occurrences
+                                                </div>
+                                                <p className="text-sm text-ink-muted mb-4">
+                                                    Every inflected form {entry.word} ({entry.transliteration}) takes in the original text, tagged word-by-word.
+                                                </p>
+                                                <div className="p-8 rounded-xl border border-grace bg-primary-light/30 space-y-4">
+                                                    {morphologyBreakdown.map((m) => (
+                                                        <div key={m.label}>
+                                                            <div className="flex justify-between text-sm mb-1 text-scripture">
+                                                                <span className="font-medium">{m.label}</span>
+                                                                <span className="text-ink-muted">{m.count}x</span>
+                                                            </div>
+                                                            <div className="w-full bg-white rounded-full h-2 border border-grace/50">
+                                                                <div
+                                                                    className="bg-sacred h-full rounded-full"
+                                                                    style={{ width: `${(m.count / morphologyBreakdown[0].count) * 100}%` }}
+                                                                />
+                                                            </div>
+                                                        </div>
+                                                    ))}
+                                                </div>
+                                            </div>
+                                        )}
                                     </div>
                                 </section>
                             )}

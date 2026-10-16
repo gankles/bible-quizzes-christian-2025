@@ -33,6 +33,13 @@ export function getWordStudyEssay(strongsId: string): WordStudyEssay | null {
   try {
     const filePath = path.join(process.cwd(), 'data', 'word-study-essays', `${id}.json`);
     const essay = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    // Older essays predate the definitionAndDerivation field (schema migration via
+    // scripts/generate-word-study-essays-ai.ts still in progress) — treat them as
+    // not-yet-generated rather than crashing the page on the missing field.
+    if (!essay?.definitionAndDerivation) {
+      cache.set(id, null);
+      return null;
+    }
     cache.set(id, essay);
     return essay;
   } catch {
