@@ -176,7 +176,7 @@ export default async function PlacePage({ params }: PageProps) {
             const bgColor = getPlacePlaceholderColor(place);
             return (
               <div className="mt-6 md:mt-0 md:w-72 shrink-0">
-                {thumbUrl && (
+                {thumbUrl ? (
                   <>
                     <div
                       className="rounded-xl overflow-hidden"
@@ -201,6 +201,15 @@ export default async function PlacePage({ params }: PageProps) {
                       </p>
                     )}
                   </>
+                ) : place.lat === null && (
+                  <div
+                    className="rounded-xl aspect-square flex items-center justify-center text-center px-4"
+                    style={{ backgroundColor: bgColor }}
+                  >
+                    <p className="text-sm text-ink-muted">
+                      No image available &mdash; the location of {place.name} is not identified today.
+                    </p>
+                  </div>
                 )}
                 {place.books[0] && (
                   <Link
