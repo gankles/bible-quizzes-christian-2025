@@ -15,6 +15,7 @@ import { StructuredData } from '@/components/StructuredData';
 import GeoAttribution from '@/components/GeoAttribution';
 import PlacePageClient from './PlacePageClient';
 import { getKJVText } from '@/lib/enrichment-data';
+import { getPlaceEtymology, getPlaceCommentary, getPlaceRelatedPeople } from '@/lib/place-enrichment';
 
 export const revalidate = 86400 // 24 hours
 
@@ -114,6 +115,12 @@ export default async function PlacePage({ params }: PageProps) {
   const markers = place.lat !== null && place.lon !== null
     ? [{ lat: place.lat, lon: place.lon, name: place.name }]
     : [];
+
+  // Enrichment: etymology (Strong's), commentary (MHCC/Ellicott), related people (family tree) —
+  // all direct data joins against existing repo data, no AI involved.
+  const etymology = getPlaceEtymology(place.name);
+  const commentary = getPlaceCommentary(place.verses);
+  const relatedPeople = getPlaceRelatedPeople(place.verses);
 
   return (
     <>
@@ -252,6 +259,74 @@ export default async function PlacePage({ params }: PageProps) {
                   {v.readable} (KJV)
                 </Link>
               </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Name Meaning (Strong's Concordance) */}
+      {etymology.length > 0 && (
+        <section className="max-w-6xl mx-auto px-4 pb-8">
+          <h2 className="text-xl font-bold text-scripture mb-4">
+            What Does &ldquo;{place.name}&rdquo; Mean?
+          </h2>
+          <div className="space-y-3">
+            {etymology.map(e => (
+              <div key={e.strongs} className="bg-white border border-grace rounded-lg p-4">
+                <p className="text-scripture">
+                  <span className="font-semibold">{e.word}</span>
+                  <span className="text-ink-muted"> ({e.transliteration}, {e.language})</span>
+                  {e.meaning && <> &mdash; &ldquo;{e.meaning}&rdquo;</>}
+                </p>
+                <p className="text-sm text-ink-muted mt-1">{e.description}</p>
+                <Link href={`/lexicon/${e.strongs}`} className="text-sm text-sacred hover:underline font-medium">
+                  {e.strongs} in Strong&apos;s Concordance &rarr;
+                </Link>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Commentary */}
+      {commentary.length > 0 && (
+        <section className="max-w-6xl mx-auto px-4 pb-8">
+          <h2 className="text-xl font-bold text-scripture mb-4">
+            What the Commentators Say
+          </h2>
+          <div className="space-y-4">
+            {commentary.map(c => (
+              <div key={c.source} className="bg-white border border-grace rounded-lg p-4">
+                <blockquote className="text-scripture leading-relaxed italic border-l-4 border-sacred pl-4 mb-2">
+                  &ldquo;{c.text}&rdquo;
+                </blockquote>
+                <p className="text-sm text-ink-muted">
+                  {c.sourceName} on{' '}
+                  <Link href={`/verses/${c.bookSlug}/${c.chapter}/${c.verse}`} className="text-sacred hover:underline font-medium">
+                    {c.readable}
+                  </Link>
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Related People */}
+      {relatedPeople.length > 0 && (
+        <section className="max-w-6xl mx-auto px-4 pb-8">
+          <h2 className="text-xl font-bold text-scripture mb-4">
+            People Connected to {place.name}
+          </h2>
+          <div className="flex flex-wrap gap-2">
+            {relatedPeople.map(p => (
+              <Link
+                key={p.slug}
+                href={`/family-tree/${p.slug}`}
+                className="px-3 py-1.5 text-sm bg-white border border-grace rounded-lg hover:border-sacred/50 hover:text-gold-dark transition-colors"
+              >
+                {p.name}
+              </Link>
             ))}
           </div>
         </section>
