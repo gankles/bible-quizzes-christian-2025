@@ -219,20 +219,21 @@ export function formatPlaceTypeSingular(type: string): string {
   return labels[type] || type.charAt(0).toUpperCase() + type.slice(1);
 }
 
-/** Returns /geo/{thumbnailFile} URL if the image is not copyright-licensed, or null */
+/** Returns /geo/{thumbnailFile}.webp URL if the image is not copyright-licensed, or null */
 export function getPlaceThumbnailUrl(place: GeocodingPlace): string | null {
   if (!place.thumbnailFile) return null;
   // Parse imageId from filename: {placeId}.{imageId}.jpg
   const parts = place.thumbnailFile.replace('.jpg', '').split('.');
   const imageId = parts.length >= 2 ? parts[1] : null;
+  const webpFile = place.thumbnailFile.replace(/\.jpg$/, '.webp');
   // Satellite images are always usable (sentinel license)
-  if (imageId === 'satellite') return `/geo/${place.thumbnailFile}`;
+  if (imageId === 'satellite') return `/geo/${webpFile}`;
   // Look up in images.json
   if (imageId) {
     const img = getImageData(imageId);
     if (img && img.license === 'copyright') return null;
   }
-  return `/geo/${place.thumbnailFile}`;
+  return `/geo/${webpFile}`;
 }
 
 /** Parses place.placeholder string and returns first color, with fallback */
