@@ -11,8 +11,17 @@ export interface MapMarker {
   slug?: string;
 }
 
+export interface MapRoute {
+  /** [lat, lon] pairs for one continuous leg of the journey */
+  path: [number, number][];
+  color?: string;
+  dashed?: boolean;
+  label?: string;
+}
+
 interface BibleMapProps {
   markers: MapMarker[];
+  routes?: MapRoute[];
   center?: [number, number];
   zoom?: number;
   height?: string;
@@ -37,6 +46,7 @@ const defaultIcon = L.icon({
 
 export default function BibleMap({
   markers,
+  routes = [],
   center,
   zoom,
   height = '400px',
@@ -51,14 +61,16 @@ export default function BibleMap({
 
     // Determine center and zoom
     const validMarkers = markers.filter(m => m.lat && m.lon);
+    const routePoints = routes.flatMap(r => r.path);
+    const allPoints = [...validMarkers.map(m => [m.lat, m.lon] as [number, number]), ...routePoints];
     let mapCenter: [number, number] = center || [31.7683, 35.2137]; // Default: Jerusalem
     let mapZoom = zoom || 7;
 
-    if (!center && validMarkers.length === 1) {
-      mapCenter = [validMarkers[0].lat, validMarkers[0].lon];
+    if (!center && allPoints.length === 1) {
+      mapCenter = allPoints[0];
       mapZoom = zoom || 10;
-    } else if (!center && validMarkers.length > 1) {
-      const bounds = L.latLngBounds(validMarkers.map(m => [m.lat, m.lon] as [number, number]));
+    } else if (!center && allPoints.length > 1) {
+      const bounds = L.latLngBounds(allPoints);
       mapCenter = [bounds.getCenter().lat, bounds.getCenter().lng];
     }
 
@@ -73,6 +85,16 @@ export default function BibleMap({
       maxZoom: 18,
     }).addTo(map);
 
+    // Add route lines
+    for (const route of routes) {
+      L.polyline(route.path, {
+        color: route.color || '#b45309',
+        weight: 3,
+        opacity: 0.85,
+        dashArray: route.dashed ? '6 5' : undefined,
+      }).addTo(map);
+    }
+
     // Add markers
     for (const marker of validMarkers) {
       const m = L.marker([marker.lat, marker.lon], { icon: defaultIcon }).addTo(map);
@@ -84,9 +106,9 @@ export default function BibleMap({
       }
     }
 
-    // Fit bounds for multiple markers
-    if (!center && validMarkers.length > 1) {
-      const bounds = L.latLngBounds(validMarkers.map(m => [m.lat, m.lon] as [number, number]));
+    // Fit bounds for multiple points
+    if (!center && allPoints.length > 1) {
+      const bounds = L.latLngBounds(allPoints);
       map.fitBounds(bounds, { padding: [30, 30] });
     }
 
@@ -96,7 +118,7 @@ export default function BibleMap({
       map.remove();
       mapInstanceRef.current = null;
     };
-  }, [markers, center, zoom, showPopups]);
+  }, [markers, routes, center, zoom, showPopups]);
 
   return (
     <div

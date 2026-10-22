@@ -1,5 +1,5 @@
 import dynamic from 'next/dynamic';
-import type { MapMarker } from './BibleMap';
+import type { MapMarker, MapRoute } from './BibleMap';
 
 const BibleMap = dynamic(() => import('./BibleMap'), {
   ssr: false,
@@ -11,4 +11,4 @@ const BibleMap = dynamic(() => import('./BibleMap'), {
 });
 
 export { BibleMap };
-export type { MapMarker };
+export type { MapMarker, MapRoute };

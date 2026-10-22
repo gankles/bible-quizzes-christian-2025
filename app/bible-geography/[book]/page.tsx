@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getBooksWithPlaces, getPlacesForBook, getPlacesByBookChapterKeys, getPlaceThumbnailUrl, getPlacePlaceholderColor } from '@/lib/geocoding-data';
+import { getRoutesForBook, ERA_COLORS } from '@/lib/bible-routes';
 import { BOOK_NAMES } from '@/lib/bolls-api';
 import { StructuredData } from '@/components/StructuredData';
 import GeoAttribution from '@/components/GeoAttribution';
@@ -69,6 +70,8 @@ export default async function BookGeographyPage({ params }: PageProps) {
   const markers = sortedPlaces
     .filter(p => p.lat !== null && p.lon !== null)
     .map(p => ({ lat: p.lat!, lon: p.lon!, name: p.name, slug: p.slug }));
+
+  const relatedRoutes = getRoutesForBook(book);
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -193,6 +196,27 @@ export default async function BookGeographyPage({ params }: PageProps) {
           </Link>
         </div>
       </section>
+
+      {/* Related Journeys */}
+      {relatedRoutes.length > 0 && (
+        <section className="max-w-6xl mx-auto px-4 pb-8">
+          <h2 className="text-lg font-bold text-scripture mb-3">Journeys in {bookName}</h2>
+          <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+            {relatedRoutes.map(r => (
+              <Link
+                key={r.slug}
+                href={`/bible-journeys/${r.slug}`}
+                className="bg-white border border-grace rounded-lg px-4 py-3 hover:shadow-md hover:border-sacred/50 transition-all group flex items-center gap-2"
+              >
+                <span className="inline-block w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: ERA_COLORS[r.era]?.color }} />
+                <span className="font-semibold text-scripture group-hover:text-gold-dark transition-colors">
+                  {r.title}
+                </span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Internal Links */}
       <section className="max-w-6xl mx-auto px-4 pb-12">

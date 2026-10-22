@@ -149,6 +149,9 @@ export default function BibleGeographyPage() {
             <Link href="/bible-places" className="px-5 py-2.5 bg-scripture text-white text-sm font-medium rounded-lg hover:bg-ink-muted transition-colors">
               Bible Places A-Z
             </Link>
+            <Link href="/bible-journeys" className="px-5 py-2.5 bg-white text-sacred text-sm font-medium rounded-lg border border-sacred/50 hover:bg-primary-light transition-colors">
+              Bible Journeys & Travel Routes
+            </Link>
             <Link href="/bible-quizzes" className="px-5 py-2.5 bg-white text-sacred text-sm font-medium rounded-lg border border-sacred/50 hover:bg-primary-light transition-colors">
               Bible Quizzes
             </Link>
