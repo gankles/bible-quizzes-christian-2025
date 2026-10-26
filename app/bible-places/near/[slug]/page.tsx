@@ -39,8 +39,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       url: `/bible-places/near/${slug}`,
       type: 'website',
     },
-    alternates: { canonical: `/bible-places/${slug}` },
-    robots: { index: false, follow: true },
+    alternates: { canonical: `/bible-places/near/${slug}` },
   };
 }
 
