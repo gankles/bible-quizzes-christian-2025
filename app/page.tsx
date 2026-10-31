@@ -82,7 +82,7 @@ export default function Home() {
             className="object-cover opacity-50"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-scripture/50 to-white/70"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-white/70 to-white/80"></div>
         </div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

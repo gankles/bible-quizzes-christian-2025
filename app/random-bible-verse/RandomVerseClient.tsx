@@ -33,7 +33,7 @@ export default function RandomVerseClient({ verses }: { verses: RandomVerse[] })
 
   return (
     <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
-      <div className="bg-gradient-to-br from-scripture to-white rounded-xl border-2 border-sacred/20 p-6 md:p-8">
+      <div className="bg-gradient-to-br from-scripture/10 to-white rounded-xl border-2 border-sacred/20 p-6 md:p-8">
         <div className="flex items-center gap-2 mb-3">
           <span className="inline-block px-3 py-1 bg-scripture text-white text-xs font-bold rounded-full uppercase tracking-wide">Your Random Verse</span>
           <span className="inline-block px-2 py-0.5 bg-sacred-light text-scripture text-xs rounded-full border border-sacred/10">{verse.theme}</span>

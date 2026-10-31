@@ -262,7 +262,7 @@ export default function BiblePage() {
       <section className="relative bg-gradient-to-br from-scripture via-scripture/60 to-scripture/80 text-white overflow-hidden">
         <Image src="/images/rocinanterelampago_central_verse_in_the_Bible_--ar_21_--profile_2a944dbf-6229-46ed-bb1e-0b1ec69c620b.png" alt="The Holy Bible" fill className="object-cover opacity-15" priority />
         <div className="relative max-w-4xl mx-auto px-4 py-16 md:py-24 text-center">
-          <nav className="text-sacred/70 text-xs mb-6">
+          <nav className="text-sacred-light/90 text-xs mb-6">
             <Link href="/" className="hover:text-white">Home</Link> <span className="mx-1">/</span> <span className="text-white">The Bible</span>
           </nav>
           <h1 className="text-3xl md:text-5xl font-bold font-display mb-4 leading-tight">
@@ -271,7 +271,7 @@ export default function BiblePage() {
           <p className="text-lg md:text-xl text-sacred-light/90 max-w-3xl mx-auto leading-relaxed mb-3">
             66 books. 40+ authors. 1,500 years. One story.
           </p>
-          <p className="text-sacred/70 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-sacred-light/90 max-w-2xl mx-auto leading-relaxed">
             The complete guide to the most published, most translated, most quoted, and most debated book in human history.
           </p>
         </div>

@@ -203,7 +203,7 @@ export default function GodPage() {
       <section className="relative bg-gradient-to-br from-scripture via-scripture/60 to-scripture/80 text-white overflow-hidden">
         <Image src="/images/rocinanterelampago_central_verse_in_the_Bible_--ar_21_--profile_2a944dbf-6229-46ed-bb1e-0b1ec69c620b.png" alt="God — the one true God of Christianity" fill className="object-cover opacity-15" priority />
         <div className="relative max-w-4xl mx-auto px-4 py-16 md:py-24 text-center">
-          <nav className="text-sacred/70 text-xs mb-6">
+          <nav className="text-sacred-light/90 text-xs mb-6">
             <Link href="/" className="hover:text-white">Home</Link> <span className="mx-1">/</span> <span className="text-white">God</span>
           </nav>
           <h1 className="text-3xl md:text-5xl font-bold font-display mb-4 leading-tight">
@@ -212,7 +212,7 @@ export default function GodPage() {
           <p className="text-lg md:text-xl text-sacred-light/90 max-w-3xl mx-auto leading-relaxed mb-3">
             The most important question you will ever ask — and the Bible&apos;s answer.
           </p>
-          <p className="text-sacred/70 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-sacred-light/90 max-w-2xl mx-auto leading-relaxed">
             &ldquo;What comes into our minds when we think about God is the most important thing about us.&rdquo; — A.W. Tozer, <em>The Knowledge of the Holy</em>
           </p>
         </div>
@@ -387,8 +387,8 @@ export default function GodPage() {
               </p>
             </div>
 
-            <div className="bg-scripture/5 dark:bg-scripture/10/20 rounded-xl border border-sacred/20 dark:border-sacred/20/40 p-5">
-              <h3 className="font-bold text-scripture dark:text-scripture mb-2">The Result: Forgiveness and Eternal Life</h3>
+            <div className="bg-scripture/5 dark:bg-scripture/20 rounded-xl border border-sacred/20 dark:border-sacred/40 p-5">
+              <h3 className="font-bold text-scripture dark:text-sacred mb-2">The Result: Forgiveness and Eternal Life</h3>
               <p className="text-ink-muted dark:text-ink-light text-sm leading-relaxed mb-2">
                 When you trust Christ, everything changes in an instant. Your sins — past, present, and future — are forgiven completely: &ldquo;As far as the east is from the west, so far hath he removed our transgressions from us&rdquo; (<Link href="/cross-references/psalm/103/12" className="text-sacred hover:underline">Psalm 103:12</Link>). &ldquo;If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness&rdquo; (<Link href="/cross-references/1-john/1/9" className="text-sacred hover:underline">1 John 1:9</Link>).
               </p>

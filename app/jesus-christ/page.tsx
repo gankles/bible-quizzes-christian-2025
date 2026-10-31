@@ -578,10 +578,10 @@ export default function JesusChristPage() {
                 <p className="text-xs text-ink-muted dark:text-ink-light mt-1">Healings</p>
                 <div className="w-full bg-green-200 dark:bg-green-800 rounded-full h-2 mt-2"><div className="bg-green-600 h-2 rounded-full" style={{ width: '85%' }} /></div>
               </div>
-              <div className="bg-scripture/5 dark:bg-scripture/10/20 rounded-lg p-4">
-                <p className="text-3xl font-bold text-scripture">3</p>
+              <div className="bg-scripture/5 dark:bg-scripture/20 rounded-lg p-4">
+                <p className="text-3xl font-bold text-scripture dark:text-sacred">3</p>
                 <p className="text-xs text-ink-muted dark:text-ink-light mt-1">Resurrections</p>
-                <div className="w-full bg-scripture/10 dark:bg-scripture/10 rounded-full h-2 mt-2"><div className="bg-scripture/10 h-2 rounded-full" style={{ width: '25%' }} /></div>
+                <div className="w-full bg-scripture/10 dark:bg-scripture/30 rounded-full h-2 mt-2"><div className="bg-scripture h-2 rounded-full" style={{ width: '25%' }} /></div>
               </div>
               <div className="bg-red-50 dark:bg-red-950/20 rounded-lg p-4">
                 <p className="text-3xl font-bold text-red-600">6+</p>
@@ -606,7 +606,7 @@ export default function JesusChristPage() {
                 {MIRACLES.map((row, idx) => (
                   <tr key={idx} className="border-b border-grace/50 dark:border-dark-border/50 hover:bg-primary-light/10 dark:hover:bg-dark-bg/50">
                     <td className="p-3">
-                      <span className={`text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${row.category === 'Nature' ? 'bg-sacred/10 text-scripture dark:bg-scripture dark:text-sacred' : row.category === 'Healing' ? 'bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-300' : row.category === 'Resurrection' ? 'bg-scripture/10 text-scripture dark:bg-scripture/10 dark:text-scripture' : 'bg-red-100 text-red-700 dark:bg-red-900 dark:text-red-300'}`}>
+                      <span className={`text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${row.category === 'Nature' ? 'bg-sacred/10 text-scripture dark:bg-scripture dark:text-sacred' : row.category === 'Healing' ? 'bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-300' : row.category === 'Resurrection' ? 'bg-scripture/10 text-scripture dark:bg-scripture dark:text-sacred' : 'bg-red-100 text-red-700 dark:bg-red-900 dark:text-red-300'}`}>
                         {row.category}
                       </span>
                     </td>

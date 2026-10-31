@@ -291,7 +291,7 @@ export default function BibleEncyclopediaIndexPage() {
         </section>
 
         {/* CRO Links */}
-        <section className="bg-gradient-to-br from-scripture to-white rounded-xl border border-sacred/20 p-6 md:p-8">
+        <section className="bg-gradient-to-br from-scripture/10 to-white rounded-xl border border-sacred/20 p-6 md:p-8">
           <h2 className="text-xl font-bold font-display text-scripture mb-4">
             More Study Resources
           </h2>

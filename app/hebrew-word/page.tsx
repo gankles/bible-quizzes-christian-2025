@@ -239,17 +239,17 @@ export default function HebrewWordIndexPage() {
         </div>
 
         {/* CTA to Greek Word Studies */}
-        <section className="bg-gradient-to-br from-scripture to-scripture/80/60 border border-sacred/20/80 rounded-xl p-6 mb-8 text-center">
-          <h2 className="text-lg font-bold text-scripture mb-2">
+        <section className="bg-gradient-to-br from-scripture to-scripture/80 border border-sacred/20 rounded-xl p-6 mb-8 text-center">
+          <h2 className="text-lg font-bold text-white mb-2">
             Study New Testament Greek
           </h2>
-          <p className="text-sm text-ink-muted mb-4 max-w-lg mx-auto">
+          <p className="text-sm text-sacred-light mb-4 max-w-lg mx-auto">
             Continue your word study with the 5,523 Greek words of the New Testament from
             Strong&apos;s Greek Dictionary.
           </p>
           <Link
             href="/greek-word"
-            className="inline-flex items-center px-5 py-2.5 bg-scripture text-white rounded-lg font-medium text-sm hover:bg-ink-muted transition-colors shadow-sm"
+            className="inline-flex items-center px-5 py-2.5 bg-white text-scripture rounded-lg font-medium text-sm hover:bg-sacred-light transition-colors shadow-sm"
           >
             Explore Greek Word Studies
           </Link>
